@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; manifest-src 'self'">
+<title>PF1e Codex — Offline Reference</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="PF1e Codex">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+</head>
+<body>
+<header id="topbar">
+  <button id="menuBtn" class="icon-btn" title="Menu" aria-label="Menu">☰</button>
+  <a class="brand" href="#/"><span class="brand-mark">⚔</span> PF1e&nbsp;Codex</a>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder='Search 27,000+ rules…  words = AND, "phrase", -exclude   (press /)' autocomplete="off" spellcheck="false">
+    <kbd class="search-hint">/</kbd>
+  </div>
+  <button id="randomBtn" class="icon-btn" title="Random entry (r)" aria-label="Random">🎲</button>
+  <button id="themeBtn" class="icon-btn" title="Toggle theme" aria-label="Theme">◐</button>
+</header>
+<div id="layout">
+  <nav id="sidebar"></nav>
+  <main id="main"><div class="splash">Loading the Codex…</div></main>
+</div>
+<footer class="legal-note">
+  PF1e Codex is an unofficial, noncommercial fan reference and is not published,
+  endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks
+  are owned by Paizo Inc. Rules data is Open Game Content sourced from the Archives
+  of Nethys under the OGL 1.0a.
+</footer>
+<div id="scrim"></div>
+<script src="data/meta.js"></script>
+<script src="data/quickref.js"></script>
+<script src="data/index.js"></script>
+<!-- tables.js + feattree.js are loaded lazily by app.js (off the cold-start path) -->
+<script src="app.js"></script>
+</body>
+</html>
