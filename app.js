@@ -302,7 +302,7 @@
     out += boldGloss(ln.slice(pos));
     return out;
   }
-  // Real HTML tables re-fetched from AoN (data/tables.js -> window.PF_TABLES[id]).
+  // Real HTML rules tables (data/tables.js -> window.PF_TABLES[id]).
   function normLine(s){ return (s||"").toLowerCase().replace(/\s+/g," ").trim(); }
   function renderStructTable(t){
     var rows=t.r||[]; if(!rows.length) return "";
@@ -343,7 +343,7 @@
     tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t)); }); // unmatched -> append
     var html = out.join("");
     if(source) html += '<div class="src">📖 Source: '+esc(source)+'</div>';
-    html += '<div class="aon-note">Data from the Archives of Nethys (aonprd.com), Open Game Content under the OGL 1.0a. Offline personal reference.</div>';
+    html += '<div class="codex-note">Rules content used under the Open Game License 1.0a.</div>';
     return html;
   }
 
@@ -706,7 +706,7 @@
         col.appendChild(n); });
       grid.appendChild(col); }
     wrap.appendChild(svg); wrap.appendChild(grid); sec.appendChild(wrap);
-    if(order.length>=MAXN) sec.appendChild(h("div",{class:"aon-note"},"Big tree — showing "+MAXN+" feats. Click any one to re-center on it."));
+    if(order.length>=MAXN) sec.appendChild(h("div",{class:"codex-note"},"Big tree — showing "+MAXN+" feats. Click any one to re-center on it."));
     var NS="http://www.w3.org/2000/svg";
     function draw(){
       var wr=wrap.getBoundingClientRect(), pos={};
@@ -742,7 +742,7 @@
       a.style.setProperty("--c",color("archetypes"));
       a.innerHTML='<h3>'+esc(r[I_NAME].indexOf(cls+" ")===0 ? r[I_NAME].slice(cls.length+1) : r[I_NAME])+'</h3>'; cards.appendChild(a); });
     sec.appendChild(cards);
-    if(arch.length>48) sec.appendChild(h("div",{class:"aon-note"},"+"+(arch.length-48)+" more — open Archetypes and filter by class."));
+    if(arch.length>48) sec.appendChild(h("div",{class:"codex-note"},"+"+(arch.length-48)+" more — open Archetypes and filter by class."));
     return sec;
   }
   // Scannable "quick block" of the vital stats, pinned above the prose.
@@ -989,7 +989,7 @@
     var pc=panel("Conditions ("+(QR.conditions||[]).length+")");
     (QR.conditions||[]).forEach(function(c){ var one=c.t.split(". ")[0]; if(one.length>130) one=one.slice(0,127)+"…"; if(!/[.!?…]$/.test(one)) one+="."; pc.appendChild(h("div",{class:"gm-cond"},"<b>"+esc(c.n)+":</b> "+esc(one))); });
     wrap.appendChild(h("div",{class:"qref-src"},'See the full detail in <a href="#/ref">Combat &amp; Conditions</a>.'));
-    wrap.appendChild(h("div",{class:"aon-note"},"Data from the Archives of Nethys (aonprd.com), Open Game Content under the OGL 1.0a. Offline personal reference."));
+    wrap.appendChild(h("div",{class:"codex-note"},"Rules content used under the Open Game License 1.0a."));
     swap(wrap); window.scrollTo(0,0);
   }
 

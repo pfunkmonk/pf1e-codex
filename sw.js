@@ -2,7 +2,7 @@
    The site is served locally, so network is instant when the launcher is
    running (always fresh); when it isn't, we fall back to the cache so the
    installed app still works fully offline. */
-var CACHE = "pf1e-codex-v41";
+var CACHE = "pf1e-codex-v42";
 var PRECACHE = [
   "./",
   "./index.html",
