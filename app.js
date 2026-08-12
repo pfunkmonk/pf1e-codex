@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "47";
+  var DATA_V = "48";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -113,10 +113,15 @@
   // Every shipped image in one place: a browsable page, and in practice the fastest
   // way to spot a backdrop that reads badly or got wired to the wrong thing.
   var ART_GROUPS=[
-    ["Classes","class-","Class entry bands"],
+    ["Classes","class-","Class entry bands — prestige classes, orders, oaths and bloodlines inherit these"],
     ["Races","race-","Race entry bands (also used for same-named monsters)"],
     ["Creature types","type-","Monster bands, chosen by creature type and alignment"],
+    ["Creature subtypes","creature-","Monster bands by subtype — these beat the creature-type image"],
     ["Schools of magic","school-","Spell entry bands, by school"],
+    ["Spells","spell-","Individual spell bands — everything else falls back to its school"],
+    ["Trait categories","trait-","One per trait category, covering every trait page"],
+    ["Feat types","feat-","One per feat type"],
+    ["Items","item-","Wondrous by slot, plus weapon and armour variants assigned by entry id"],
     ["Category splashes","cat-","Category landing pages"],
     ["Tools & pages","tool-","Tool and utility page headers"],
     ["Site","page-","Page backdrops and textures"],
@@ -128,8 +133,14 @@
     var used={};
     var wrap=h("div");
     var head=h("div",{class:"list-head"});
-    head.innerHTML='<h2>🖼 Artwork</h2><span class="meta">'+keys.length+' images · every backdrop in the Codex, grouped by where it is used</span>';
+    head.innerHTML='<h2>🖼 Artwork</h2><span class="meta">'+keys.length+' backdrops registered · anything not yet generated shows outlined in red</span>';
     wrap.appendChild(head);
+    var tally=h("div",{class:"codex-note"},"Counting…");
+    wrap.appendChild(tally);
+    setTimeout(function(){                       // let the lazy images settle, then report progress
+      var cells=wrap.querySelectorAll(".artcell"), miss=wrap.querySelectorAll(".artcell.missing").length;
+      tally.textContent=(cells.length-miss).toLocaleString()+" of "+cells.length.toLocaleString()+" generated · "+miss.toLocaleString()+" still to come";
+    },4000);
     ART_GROUPS.forEach(function(g){
       var prefix=g[1];
       var mine=keys.filter(function(k){
@@ -284,7 +295,63 @@
    "tool-names,tool-npc,tool-randomencounter,tool-shop,tool-spellprice,tool-trap,tool-treasure,tool-weather,"+
    "type-aberration,type-animal,type-celestial,type-construct,type-dragon,type-dragon-chromatic,type-dragon-metallic,"+
    "type-elemental,type-fey,type-fiend,type-giant,type-humanoid,type-monstrous-humanoid,type-ooze,type-plant,"+
-   "type-undead,type-vermin").split(",").forEach(function(k){ ART[k]=1; });
+   "type-undead,type-vermin,"+
+   "class-shifter,creature-aeon,creature-agathion,creature-air,creature-angel,creature-aquatic,creature-archon,,"+
+   "creature-asura,creature-augmented,creature-augmented-humanoid,creature-azata,creature-boggard,,"+
+   "creature-chaotic,creature-clockwork,creature-cold,creature-daemon,creature-dark-folk,creature-demon,,"+
+   "creature-derro,creature-devil,creature-div,creature-dwarf,creature-earth,creature-elemental,creature-elf,,"+
+   "creature-evil,creature-extraplanar,creature-fire,creature-giant,creature-gnoll,creature-goblinoid,,"+
+   "creature-good,creature-great-old-one,creature-herald,creature-human,creature-incorporeal,,"+
+   "creature-inevitable,creature-kami,creature-kyton,creature-lawful,creature-leshy,creature-mythic,,"+
+   "creature-native,creature-oni,creature-orc,creature-planar,creature-protean,creature-psychopomp,,"+
+   "creature-qlippoth,creature-rakshasa,creature-ratfolk,creature-reptilian,creature-robot,creature-sahkil,,"+
+   "creature-shapechanger,creature-swarm,creature-troop,creature-water,feat-achievement,feat-blood-hex,,"+
+   "feat-combat,feat-critical,feat-damnation,feat-esoteric,feat-familiar,feat-grit,feat-item-creation,,"+
+   "feat-item-mastery,feat-meditation,feat-metamagic,feat-panache,feat-stare,feat-story,feat-teamwork,,"+
+   "feat-weapon-mastery,item-armor,item-armorset-1,item-armorset-2,item-armorset-3,item-armorset-4,,"+
+   "item-armorset-5,item-armorset-6,item-artifact,item-belt,item-body,item-chest,item-cursed,item-eyes,,"+
+   "item-feet,item-generalstore,item-hands,item-head,item-headband,item-held,item-intelligent,item-neck,,"+
+   "item-potion,item-ring,item-rod,item-shield,item-shoulders,item-staff,item-technology,item-weapon-1,,"+
+   "item-weapon-2,item-weapon-3,item-weapon-4,item-weapon-5,item-weapon-6,item-wondrous,item-wrists,race-adaro,,"+
+   "race-android,race-aphorite,race-aquatic-elf,race-astomoi,race-being-of-ib,race-boggard,race-caligni,,"+
+   "race-cecaelia,race-changeling,race-deep-one-hybrid,race-dhampir,race-drow-noble,race-duergar,,"+
+   "race-duskwalker,race-fetchling,race-ganzi,race-gathlain,race-ghoran,race-gillman,race-green-martian,,"+
+   "race-grindylow,race-grippli,race-hobgoblin,race-ifrit,race-kasatha,race-kitsune,race-kuru,race-lashunta,,"+
+   "race-locathah,race-merfolk,race-monkey-goblin,race-munavri,race-nagaji,race-naiad,race-orang-pendak,,"+
+   "race-primitive-human,race-reborn-samsaran,race-reptoid,race-rougarou,race-sahuagin,race-samsaran,,"+
+   "race-shabti,race-skinwalker,race-strix,race-suli,race-svirfneblin,race-sylph,race-syrinx,race-triaxian,,"+
+   "race-triton,race-trox,race-undine,race-vanara,race-vine-leshy,race-vishkanya,race-wayang,race-wyrwood,,"+
+   "race-wyvaran,race-yaddithian,spell-aid,spell-air-walk,spell-antilife-shell,spell-antimagic-field,,"+
+   "spell-astral-projection,spell-baleful-polymorph,spell-banishment,spell-barkskin,spell-black-tentacles,,"+
+   "spell-blade-barrier,spell-bless,spell-blessing-of-fervor,spell-blur,spell-breath-of-life,,"+
+   "spell-bulls-strength,spell-call-lightning,spell-chain-lightning,spell-charm-monster,spell-charm-person,,"+
+   "spell-cloudkill,spell-color-spray,spell-commune,spell-cone-of-cold,spell-confusion,spell-contingency,,"+
+   "spell-control-weather,spell-create-greater-undead,spell-create-water,spell-cure-light-wounds,,"+
+   "spell-cure-serious-wounds,spell-daylight,spell-death-ward,spell-delay-poison,spell-destruction,,"+
+   "spell-detect-magic,spell-detect-poison,spell-dimension-door,spell-discern-location,spell-disintegrate,,"+
+   "spell-dispel-magic,spell-dispel-magic-greater,spell-displacement,spell-divine-favor,spell-divine-power,,"+
+   "spell-dominate-monster,spell-dominate-person,spell-earthquake,spell-energy-drain,spell-enervation,,"+
+   "spell-enlarge-person,spell-entangle,spell-ethereal-jaunt,spell-euphoric-tranquility,spell-feeblemind,,"+
+   "spell-find-the-path,spell-finger-of-death,spell-fire-storm,spell-fireball,spell-flame-strike,,"+
+   "spell-flesh-to-stone,spell-fly,spell-freedom-of-movement,spell-gate,spell-glitterdust,spell-grease,,"+
+   "spell-guidance,spell-harm,spell-haste,spell-heal,spell-heal-mass,spell-heroes-feast,spell-hold-person,,"+
+   "spell-holy-aura,spell-holy-smite,spell-holy-word,spell-horrid-wilting,spell-implosion,spell-invisibility,,"+
+   "spell-invisibility-greater,spell-invisibility-purge,spell-irresistible-dance,spell-light,,"+
+   "spell-lightning-bolt,spell-limited-wish,spell-mage-armor,spell-mage-hand,spell-magic-missile,,"+
+   "spell-magic-vestment,spell-maze,spell-meteor-swarm,spell-mind-blank,spell-miracle,spell-mirror-image,,"+
+   "spell-mislead,spell-moment-of-prescience,spell-obscuring-mist,spell-overland-flight,spell-plane-shift,,"+
+   "spell-polar-ray,spell-prayer,spell-prestidigitation,spell-prismatic-sphere,spell-prismatic-spray,,"+
+   "spell-purify-food-and-drink,spell-raise-dead,spell-read-magic,spell-regenerate,spell-remove-disease,,"+
+   "spell-remove-fear,spell-repulsion,spell-restoration,spell-restoration-greater,spell-reverse-gravity,,"+
+   "spell-righteous-might,spell-rope-trick,spell-sanctuary,spell-scorching-ray,spell-searing-light,,"+
+   "spell-see-invisibility,spell-shapechange,spell-shield,spell-shield-of-faith,spell-silence,spell-slay-living,,"+
+   "spell-sleep,spell-slow,spell-soul-bind,spell-sound-burst,spell-spell-immunity,spell-spell-turning,,"+
+   "spell-spiritual-weapon,spell-stabilize,spell-stinking-cloud,spell-stoneskin,spell-storm-of-vengeance,,"+
+   "spell-symbol-of-death,spell-teleport,spell-temporal-stasis,spell-time-stop,spell-true-resurrection,,"+
+   "spell-true-seeing,spell-vampiric-touch,spell-wall-of-fire,spell-wall-of-force,spell-wall-of-stone,spell-web,,"+
+   "spell-weird,spell-wish,spell-word-of-recall,trait-campaign,trait-combat,trait-cosmic,trait-drawback,,"+
+   "trait-equipment,trait-exemplar,trait-faction,trait-faith,trait-family,trait-magic,trait-mount,trait-race,,"+
+   "trait-region,trait-religion,trait-social").split(",").forEach(function(k){ k=k.trim(); if(k) ART[k]=1; });
   function have(k){ return k && ART[k] ? k : null; }
   var PRESTIGE="Prestige Classes";
   // Class entries that have no art of their own but clearly belong to one that does.
@@ -351,27 +418,62 @@
   var CAT_FALLBACK={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",
     feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",
     items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
-  // Most specific image an entry can claim, else its category's.
+  // FNV-1a. Used to give each weapon/armour entry a stable variant — the data does not
+  // record damage type for 83% of weapons or armour class for 84% of armour, so the choice
+  // is arbitrary but must be the SAME arbitrary choice on every visit.
+  function hash32(s){ var h=2166136261; for(var i=0;i<s.length;i++){ h^=s.charCodeAt(i); h=(h*16777619)>>>0; } return h; }
+  var SLOT_ART={armor:"armor",weapon:"weapon",shield:"shield",head:"head",helmet:"head",face:"head",mask:"head",
+    ears:"head",headband:"headband",brain:"headband",eyes:"eyes",eye:"eyes",goggles:"eyes",neck:"neck",amulet:"neck",
+    necklace:"neck",shoulders:"shoulders",shoulder:"shoulders",cloak:"shoulders",mantle:"shoulders",back:"shoulders",
+    chest:"chest",body:"body",torso:"body",belt:"belt",waist:"belt",wrist:"wrists",wrists:"wrists",arm:"wrists",
+    arms:"wrists",hand:"hands",hands:"hands",gloves:"hands",gauntlet:"hands",feet:"feet",boots:"feet",legs:"feet",
+    ring:"ring",held:"held",rod:"held"};
+  var ITEM_CAT_ART={"Rings":"ring","Rods":"rod","Staves":"staff","Artifacts":"artifact","Cursed Items":"cursed",
+    "Intelligent Items":"intelligent","Potions & Oils":"potion","Pharmaceuticals":"potion","Technology":"technology",
+    "Cybertech":"technology","Psi-Tech":"technology"};
+  function itemArt(row, push){
+    var raw=row[I_RAW]||"", slot=String((row[I_FAC]||{}).slot||"").toLowerCase();
+    if(raw==="Weapons") return push("item-weapon-"+(hash32(row[I_ID])%6+1));
+    if(raw==="Armor")   return push("item-armorset-"+(hash32(row[I_ID])%6+1));
+    if(ITEM_CAT_ART[raw]) push("item-"+ITEM_CAT_ART[raw]);
+    if(SLOT_ART[slot])    push("item-"+SLOT_ART[slot]);
+    if(raw==="Wondrous Items") push("item-wondrous");
+    push("item-generalstore");
+  }
+  // Candidates, most specific first. applyArt walks the list and uses the first that loads,
+  // so art that has not been generated yet simply falls through to the next choice.
+  // Keys drawn from a SMALL closed vocabulary (trait/feat/creature/item) are offered
+  // unconditionally and light up the moment their file lands. Keys drawn per-entry across
+  // thousands of rows (spell-<name>, a monster matching a race) are gated on ART so we don't
+  // fire thousands of 404s for art that will never exist.
   function entryArtKey(row){
-    var b=row[I_SLUG], fac=row[I_FAC]||{}, nm=artKey(row[I_NAME]);
-    if(b==="classes")   return have("class-"+nm) || inheritedClassArt(row[I_NAME]) || CAT_FALLBACK[b];
-    if(b==="races")     return have("race-"+nm)  || CAT_FALLBACK[b];
-    if(b==="deities")   return "deities-pantheon";
-    if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; return (c && have("class-"+artKey(c))) || CAT_FALLBACK[b]; }
-    if(b==="spells")    return (fac.sch && fac.sch!=="universal" && have("school-"+fac.sch)) || CAT_FALLBACK[b];
-    if(b==="monsters"){
-      if(have("race-"+nm)) return "race-"+nm;                   // Goblin, Orc, Kobold, Lizardfolk, Drow…
+    var b=row[I_SLUG], fac=row[I_FAC]||{}, nm=artKey(row[I_NAME]), out=[];
+    function push(k){ if(k) out.push(k); }
+    if(b==="classes"){ push("class-"+nm); push(inheritedClassArt(row[I_NAME])); }
+    else if(b==="races") push("race-"+nm);
+    else if(b==="deities") push("deities-pantheon");
+    else if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; if(c) push(have("class-"+artKey(c))); }
+    else if(b==="traits"){ if(fac.cat) push("trait-"+artKey(fac.cat)); }
+    else if(b==="feats"){ if(fac.t) push("feat-"+artKey(fac.t)); }
+    else if(b==="items") itemArt(row, push);
+    else if(b==="spells"){
+      push(have("spell-"+nm));
+      if(fac.sch && fac.sch!=="universal") push(have("school-"+fac.sch));
+    }
+    else if(b==="monsters"){
+      push(have("race-"+nm));                                   // Goblin, Orc, Kobold, Drow…
+      if(fac.st) push("creature-"+artKey(fac.st));              // demon, devil, psychopomp…
       var t=artKey(fac.t||""), al=String(fac.al||"");
       // Chromatic/metallic dragons and the celestial/fiend/elemental outsider families read off alignment.
-      if(t==="dragon")   return /E$/.test(al)?"type-dragon-chromatic":(/G$/.test(al)?"type-dragon-metallic":"type-dragon");
-      if(t==="outsider") return /G$/.test(al)?"type-celestial":(/E$/.test(al)?"type-fiend":"type-elemental");
+      if(t==="dragon")        push(/E$/.test(al)?"type-dragon-chromatic":(/G$/.test(al)?"type-dragon-metallic":"type-dragon"));
+      else if(t==="outsider") push(/G$/.test(al)?"type-celestial":(/E$/.test(al)?"type-fiend":"type-elemental"));
       // Real giants are humanoid(giant). Name alone is NOT enough: AON inverts names, so
-      // "Ant, Giant" and "Beetle, Giant" also end in "giant" — they're vermin. Gating on the
-      // type also picks up "Fire Giant King" etc., which don't end in the word at all.
-      if(t==="humanoid" && /giant/i.test(row[I_NAME])) return "type-giant";
-      return have("type-"+t) || CAT_FALLBACK[b];
+      // "Ant, Giant" and "Beetle, Giant" also end in "giant" — they're vermin.
+      if(t==="humanoid" && /giant/i.test(row[I_NAME])) push("type-giant");
+      push(have("type-"+t));
     }
-    return CAT_FALLBACK[b] || null;
+    push(CAT_FALLBACK[b]);
+    return out;
   }
   // Every tool/utility view builds the same `.list-head` header, so their backdrops are wired
   // once here off the route rather than editing 16 view functions.
@@ -382,7 +484,25 @@
     "/fav":"page-mycharacters","/cheat":"page-glossary","/stacking":"misc-dice","/thing":"tool-names",
     "/cards":"home-parchment","/compare":"cat-classoptions","/recent":"cat-rules","/timeline":"tool-gmscreen"};
   function applyRouteArt(hash){ var k=ROUTE_ART[hash]; if(k) applyArt(document.querySelector("#main .list-head"), k); }
-  function applyArt(el, key){ if(!el||!key) return; try{ var im=new Image(); im.onload=function(){ el.style.setProperty("--art",'url("art/'+key+'.jpg")'); el.classList.add("has-art"); }; im.src="art/"+key+".jpg"; }catch(e){} }
+  // Takes one key or a most-specific-first list. Tries each in turn and uses the first that
+  // actually loads, so a key whose file has not been generated yet degrades to the next
+  // candidate instead of leaving the page bare. A key that 404s is remembered for the rest
+  // of the session, so a missing image costs at most one request.
+  var ART_MISS={};
+  function applyArt(el, keys){
+    if(!el||!keys) return;
+    var list=[].concat(keys).filter(Boolean);
+    (function next(){
+      while(list.length && ART_MISS[list[0]]) list.shift();
+      var key=list.shift(); if(!key) return;
+      try{
+        var im=new Image();
+        im.onload=function(){ el.style.setProperty("--art",'url("art/'+key+'.jpg")'); el.classList.add("has-art"); };
+        im.onerror=function(){ ART_MISS[key]=1; next(); };
+        im.src="art/"+key+".jpg";
+      }catch(e){}
+    })();
+  }
   var HERO_EMBLEM='<svg class="hero-emblem" viewBox="0 0 96 96" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M48 8l30 10v21c0 24-17 38-30 45-13-7-30-21-30-45V18z"/><path d="M48 28v38M35 42h26"/><circle cx="48" cy="23" r="3.2" fill="currentColor" stroke="none"/></svg>';
   function homeHero(){
     var b=h("div",{class:"home-hero"});
