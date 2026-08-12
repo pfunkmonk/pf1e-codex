@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "44";
+  var DATA_V = "45";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -93,6 +93,41 @@
   LABEL.rules="Rules";  // Skills gets its own page (rules/Skills); drop the "& Skills" label
   // junk index pages scraped as rules entries ("2nd Level", "Cantrips", …) — hide from browse/search
   function isJunkEntry(r){ return r[I_SLUG]==="rules" && /^(\d+(?:st|nd|rd|th)\s+Level|Cantrips?|Orisons?)$/i.test(r[I_NAME]); }
+
+  // ---- entry paging ----------------------------------------------------------
+  // Whatever list you were last looking at (a category with its filters/sort applied,
+  // or a search result set) becomes the sequence Prev/Next walk, so paging matches what
+  // you actually saw. Arrive by deep link or 🎲 instead and it falls back to the whole
+  // bucket A-Z. Stores the FULL list, not the ~80 rendered, so you can page past the fold.
+  var NAV = { ids: [], label: "" };
+  function navSet(label, rows){ NAV = { ids: rows.map(function(r){ return r[I_ID]; }), label: label || "" }; }
+  var _bucketIds = {};
+  function bucketIds(slug){
+    if(_bucketIds[slug]) return _bucketIds[slug];
+    var rows = IDX.filter(function(r){ return r[I_SLUG]===slug && !isJunkEntry(r); });
+    rows.sort(function(a,b){ return a[I_NAME].localeCompare(b[I_NAME]); });
+    return (_bucketIds[slug] = rows.map(function(r){ return r[I_ID]; }));
+  }
+  var PAGER = { prev:null, next:null };
+  function entryPager(id, row){
+    var box = h("div",{class:"pager"});
+    PAGER = { prev:null, next:null };
+    var ids = NAV.ids, i = ids.indexOf(id), label = NAV.label;
+    if(i < 0){ ids = bucketIds(row[I_SLUG]); i = ids.indexOf(id); label = LABEL[row[I_SLUG]] || row[I_SLUG]; }
+    if(i < 0 || ids.length < 2) return box;
+    var prev = i>0 ? ids[i-1] : null, next = i<ids.length-1 ? ids[i+1] : null;
+    PAGER = { prev:prev, next:next };
+    function nameOf(x){ var r = idById()[x]; return r ? r[I_NAME] : ""; }
+    function step(target){ return function(){ if(target) location.hash = "#/e/" + encodeURIComponent(target); }; }
+    var pb = h("button",{class:"pgbtn"},"‹ Prev");
+    if(prev){ pb.title = "Previous: " + nameOf(prev) + "  (←)"; pb.onclick = step(prev); } else pb.disabled = true;
+    var nb = h("button",{class:"pgbtn"},"Next ›");
+    if(next){ nb.title = "Next: " + nameOf(next) + "  (→)"; nb.onclick = step(next); } else nb.disabled = true;
+    box.appendChild(pb);
+    box.appendChild(h("span",{class:"pgpos"}, (i+1).toLocaleString()+" / "+ids.length.toLocaleString()+(label?" · "+label:"")));
+    box.appendChild(nb);
+    return box;
+  }
   function color(slug){ return COLOR[slug] || "var(--accent)"; }
 
   // ===== Original SVG art + identity color system (hand-drawn line glyphs, inherit currentColor) =====
@@ -578,6 +613,7 @@
       else if(state.sort==="src") f.sort(function(a,b){ return srcOf(a).localeCompare(srcOf(b)) || a[I_NAME].localeCompare(b[I_NAME]); });
       else if(state.sort && state.sort!=="az" && SORT_UI[slug]) f=facetSort(slug, f, state.sort);
       else f.sort(function(a,b){ return a[I_NAME].localeCompare(b[I_NAME]); });
+      navSet(title, f);   // Prev/Next on an entry walks this exact filtered+sorted list
       listEl.innerHTML="";
       f.slice(0,state.shown).forEach(function(r){ listEl.appendChild(rowItem(r)); });
       if(f.length>state.shown){ var mb=h("button",{class:"more-btn"},"Load more ("+(f.length-state.shown)+" left)"); mb.onclick=function(){ state.shown+=LIST_STEP*4; paint(); }; listEl.appendChild(mb); }
@@ -649,6 +685,7 @@
     }
     function repaint(){
       head.innerHTML='<h2>Search</h2><span class="meta">'+results.length.toLocaleString()+' result'+(results.length===1?"":"s")+' for &ldquo;'+esc(q)+'&rdquo;'+(scope?' in '+esc(LABEL[scope]||scope):'')+(DEEP?' · full text':'')+'</span>';
+      navSet("Search: “"+q+"”", results.map(function(x){ return x[1]; }));  // page through results too
       listEl.innerHTML="";
       if(!results.length){ listEl.appendChild(h("div",{class:"empty"},'No matches. Words are AND-ed; use "quotes" for an exact phrase, -word to exclude.')); }
       results.slice(0,shown).forEach(function(x){ listEl.appendChild(rowItem(x[1])); });
@@ -831,7 +868,7 @@
     favb.onclick=function(){ toggleFav(id); updFav(); };
     var cmpb=h("button",{class:"favbtn cmpbtn"}); function updCmp(){ cmpb.innerHTML=inCmp(id)?"⇄ In Compare":"⇄ Compare"; cmpb.classList.toggle("on",inCmp(id)); } updCmp();
     cmpb.onclick=function(){ var res=toggleCmp(id); if(res==="full"){ cmpb.innerHTML="Max 4 pinned"; setTimeout(updCmp,1100); return; } updCmp(); };
-    var top=h("div",{class:"entry-top"}); top.appendChild(back); top.appendChild(favb); top.appendChild(cmpb); wrap.appendChild(top);
+    var top=h("div",{class:"entry-top"}); top.appendChild(back); top.appendChild(entryPager(id,row)); top.appendChild(favb); top.appendChild(cmpb); wrap.appendChild(top);
     var ic=identityColor(row);
     var card=h("div",{class:"entry"}); card.style.setProperty("--c",ic);
     var label=LABEL[row[I_SLUG]]||row[I_SLUG];
@@ -2163,6 +2200,12 @@
     var ae=document.activeElement, typing = ae && (ae.tagName==="INPUT" || ae.tagName==="TEXTAREA" || ae.isContentEditable);
     if(e.key==="Shift"){ pinInfoTip(); return; }
     if(e.key==="/" && !typing){ e.preventDefault(); searchEl.focus(); searchEl.select(); }
+    // ←/→ page through the current list while reading an entry
+    else if((e.key==="ArrowLeft"||e.key==="ArrowRight") && !typing && !e.metaKey && !e.ctrlKey && !e.altKey
+            && location.hash.indexOf("#/e/")===0){
+      var go = e.key==="ArrowLeft" ? PAGER.prev : PAGER.next;
+      if(go){ e.preventDefault(); location.hash = "#/e/" + encodeURIComponent(go); }
+    }
     else if(e.key==="Escape"){ hideInfoTip(true); if(ae===searchEl){ searchEl.blur(); } }
     else if(e.key==="r" && !typing && !e.metaKey && !e.ctrlKey){ $("#randomBtn").click(); }
   });
