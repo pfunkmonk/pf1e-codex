@@ -150,6 +150,13 @@ table.rt thead th:first-child{background:var(--chip)}
 .back:hover{color:var(--accent)}
 .entry-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
 .entry-top .back{margin-bottom:0}
+/* Artwork gallery — every shipped backdrop, browsable and QA-able in one page. */
+.artgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin:12px 0 26px}
+.artcell{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow)}
+.artcell img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--bg2)}
+.artcell figcaption{font:12px/1.3 ui-monospace,Menlo,monospace;color:var(--ink-soft);padding:7px 9px;word-break:break-word}
+.artcell.missing{border-color:#a33;opacity:.6}
+.artcell.missing figcaption::after{content:" — FILE MISSING";color:#e06666;font-weight:700}
 /* Prev/Next pager in the entry header — walks the list you were browsing. */
 .pager{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
 .pgbtn{border:1px solid var(--line);background:var(--bg);color:var(--ink-soft);border-radius:8px;padding:6px 12px;font-size:14px;font-weight:600;cursor:pointer}

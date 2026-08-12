@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; manifest-src 'self'">
 <title>PF1e Codex — Offline Reference</title>
-<link rel="stylesheet" href="styles.css?v=45">
+<link rel="stylesheet" href="styles.css?v=46">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0f1115">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -38,10 +38,10 @@
 <!-- ?v= must match DATA_V in app.js and CACHE in sw.js. The service worker only force-freshens
      app.js/styles.css/meta.js; without this token a client could pair a FRESH meta.js with a
      STALE index.js — new filter categories over rows that lack them, i.e. filters returning nothing. -->
-<script src="data/meta.js?v=45"></script>
-<script src="data/quickref.js?v=45"></script>
-<script src="data/index.js?v=45"></script>
+<script src="data/meta.js?v=46"></script>
+<script src="data/quickref.js?v=46"></script>
+<script src="data/index.js?v=46"></script>
 <!-- tables.js + feattree.js are loaded lazily by app.js (off the cold-start path) -->
-<script src="app.js?v=45"></script>
+<script src="app.js?v=46"></script>
 </body>
 </html>
