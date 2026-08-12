@@ -150,10 +150,24 @@ image in Box not shipped; re-add it only if you want the cat gods back as an eas
 and the celestial/fiend/elemental/giant/chromatic/metallic subtypes — is now shipped and wired
 per Batch 3 above. `race-lizardfolk` has no *race* entry but does back the Lizardfolk **monster**.)
 
-### Mirrored 2026-08-12
-`class-sorcerer`, `class-paladin`, `class-slayer` are **horizontally mirrored** versions of their v1
-source — each originally put its subject on the LEFT, directly under the entry title. Flipping moves
-the figure right and opens clean space for the heading, matching the rest of the set.
+### Mirrored 2026-08-12 — 9 class bands
+**Horizontally mirrored** because each originally put its subject on the LEFT, directly under the
+entry title. Flipping moves the figure right and opens clean space for the heading.
+
+| key | source mirrored | result |
+|---|---|---|
+| class-sorcerer | v1 | caster right, dark calm left |
+| class-paladin | v1 | knight + white horse right, misty valley left |
+| class-slayer | v1 | hooded assassin right, moon + skyline left |
+| class-arcanist | **v2** | caster + spellbook right, dark left |
+| class-hunter | v1 | archer + saber-cat right (the orc silhouette moves to the left foreground — dark, so the title still reads) |
+| class-investigator | v1 | detective right, dark alley left — cleanest of the set |
+| class-magus | v1 | swordsman right, glowing blade sweeping into calm left |
+| class-medium | v1 | channeler + spirit right, dark left (was centered) |
+| class-wizard | v1 | wizard right, candlelit dark left |
+
+⚠ **Mirror from the version that is actually SHIPPED** — arcanist ships v2, the rest v1. Mirroring
+the wrong version silently swaps the image as well as flipping it.
 
 Re-derived from the Box PNG with `RotateNoneFlipX` **before** the resize, so they stay a single JPEG
 pass rather than a re-compress of the shipped file. Reproduce with `mirror-art.ps1`.
