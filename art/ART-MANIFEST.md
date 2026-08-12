@@ -79,3 +79,59 @@ Classes are TOP-BAND backdrops (art fades to panel before stat text). All wired 
 The 8 school images back individual **spell entry** pages by school (`applyArt("school-<sch>")`, universal skipped), as a top band fading to panel. Chosen versions (from batch 1): abjuration v2, conjuration v2, divination v1, enchantment v1, evocation v1, illusion v1, necromancy v2, transmutation v1. Verified legible on an evocation spell.
 
 **Still pending:** `deities-pantheon` + all BATCH-2 prompts (creature types, races, page backdrops, page-texture) — awaiting generation. `home-parchment` still unwired.
+
+## Batch 2 — processed & wired 2026-08-12
+
+Batch 2 had in fact been generated and was sitting in `Box\CODEX IMAGES`, but was never
+processed into `art/` or wired — 68 of the 118 source keys had never shipped. Processed 41 of
+them here (1600×900, ~70% JPEG, same as batch 1), taking the repo from 50 art keys to 91.
+
+| group | keys | wiring |
+|---|---|---|
+| classes (12) | kineticist, ninja, occultist, psychic, samurai, shaman, skald, slayer, spiritualist, swashbuckler, vigilante, warpriest | none needed — `applyArt("class-<name>")` already derives the key |
+| deities | `deities-pantheon` | none needed — `CAT_ART` already requested it; the file simply wasn't there, so the Deities page silently fell back to the SVG sun |
+| races (17) | aasimar, catfolk, drow, dwarf, elf, gnome, goblin, half-elf, half-orc, halfling, human, kobold, orc, oread, ratfolk, tengu, tiefling | **new** — `applyArt("race-<name>")` on race entries |
+| creature types (11) | aberration, animal, construct, dragon, fey, humanoid, monstrous-humanoid, ooze, plant, undead, vermin | **new** — `applyArt("type-<t>")` keyed off the monster `t` facet |
+
+### v1/v2 selection — the 12 class bands were reviewed; the rest were not
+
+| class | chosen | why |
+|---|---|---|
+| kineticist | **v2** | v1 puts the fire column and figure under the title; v2 moves him right and leaves a calm field left |
+| samurai | **v2** | v1's subject sits left, directly under the title; v2 mirrors it — subject right, sunset sky left |
+| spiritualist | **v2** | v1 puts both man and ghost under the title; v2 shifts them right over a dark graveyard left |
+| ninja | v1 | bigger subject in the band; v2 drops its shuriken below the fold |
+| occultist · psychic · shaman | v1 | face high and clear, calm left; each v2 is a top-down view that sinks the face out of the band |
+| skald | v1 | the rune-song sweeps across the top band; v2 blocks the left with a dark back-of-head figure |
+| slayer | v1 | v2's subject sits at ~55% height — entirely below the visible band |
+| swashbuckler · vigilante · warpriest | v1 | face higher and larger, dark calm left already present |
+
+⚠ **Races, creature types and tool/page art were NOT reviewed** — processed at v1. Both versions
+remain in Box if any of them read poorly.
+
+A first attempt scored the pair automatically (title-zone luminance/busyness vs in-band detail).
+It reproduced the batch-1 human picks only **12/26 — worse than chance** — and recommended v1 for
+samurai, which is plainly wrong. It was discarded; the table above is an eyeball pass. **Don't
+trust a metric here without validating it against the reviewer picks first.**
+
+**Not shipped** (in Box, still no code path — say the word):
+`page-glossary`, `page-texture`, `misc-dice`, `home-parchment` (shipped but unwired; a global page
+texture is an aesthetic call, not a bug), `race-lizardfolk` (no matching race entry),
+`type-celestial` / `-fiend` / `-elemental` / `-giant` / `-dragon-chromatic` / `-dragon-metallic`
+(subtypes, not values of the `t` facet — the facet has only 13 values, and `magical beast` and
+`outsider` have no art at all), and `cat-deities` (retired cat-god image).
+
+### Batch 2b — tool & utility pages wired 2026-08-12
+All 14 `tool-*` images plus `page-mycharacters` and `page-starthere` processed and wired, taking
+art keys to **107**. Every tool view builds the same `.list-head` header, so these are wired ONCE
+off the route (`ROUTE_ART` in app.js) rather than by editing 16 view functions. Treatment is the
+`side` rule — art bleeds from the right, text on a panel scrim at the left. `cover` is safe on
+these because the header is a short fixed band, unlike the full-height entry card.
+
+### ⚠ The band CSS was broken the whole time
+`.entry.has-art` used `background-size:cover`. An entry card runs 5000–5800px tall, so `cover`
+scaled the 16:9 art to the card's **height** — a 5.6–6.5× blow-up showing only the top ~3% of the
+picture. Every class band since batch 1b was a smear; the taller the page, the worse (Cavalier at
+5805px showed 3.2% of its image and read as "no art at all"). Fixed by sizing the art layer to
+the card **width** (`background-size:auto,100% auto`), which renders it at its natural aspect and
+shows the top ~60% — the region these images were deliberately composed for.
