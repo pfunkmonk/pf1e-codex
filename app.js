@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "45";
+  var DATA_V = "46";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -109,6 +109,51 @@
     return (_bucketIds[slug] = rows.map(function(r){ return r[I_ID]; }));
   }
   var PAGER = { prev:null, next:null };
+  // ---- artwork gallery -------------------------------------------------------
+  // Every shipped image in one place: a browsable page, and in practice the fastest
+  // way to spot a backdrop that reads badly or got wired to the wrong thing.
+  var ART_GROUPS=[
+    ["Classes","class-","Class entry bands"],
+    ["Races","race-","Race entry bands (also used for same-named monsters)"],
+    ["Creature types","type-","Monster bands, chosen by creature type and alignment"],
+    ["Schools of magic","school-","Spell entry bands, by school"],
+    ["Category splashes","cat-","Category landing pages"],
+    ["Tools & pages","tool-","Tool and utility page headers"],
+    ["Site","page-","Page backdrops and textures"],
+    ["Other","","Everything else"]
+  ];
+  function viewArtGallery(){
+    setActiveNav(null);
+    var keys=Object.keys(ART).sort();
+    var used={};
+    var wrap=h("div");
+    var head=h("div",{class:"list-head"});
+    head.innerHTML='<h2>🖼 Artwork</h2><span class="meta">'+keys.length+' images · every backdrop in the Codex, grouped by where it is used</span>';
+    wrap.appendChild(head);
+    ART_GROUPS.forEach(function(g){
+      var prefix=g[1];
+      var mine=keys.filter(function(k){
+        if(used[k]) return false;
+        if(prefix && k.indexOf(prefix)!==0) return false;
+        used[k]=1; return true;
+      });
+      if(!mine.length) return;
+      wrap.appendChild(h("h3",{class:"section-h"},g[0]+" ("+mine.length+")"));
+      wrap.appendChild(h("div",{class:"codex-note"},g[2]));
+      var grid=h("div",{class:"artgrid"});
+      mine.forEach(function(k){
+        var fig=h("figure",{class:"artcell"});
+        var img=h("img",{loading:"lazy",alt:k,src:"art/"+k+".jpg"});
+        img.onerror=function(){ fig.classList.add("missing"); };
+        fig.appendChild(img);
+        fig.appendChild(h("figcaption",null,k));
+        grid.appendChild(fig);
+      });
+      wrap.appendChild(grid);
+    });
+    swap(wrap); window.scrollTo(0,0);
+  }
+
   function entryPager(id, row){
     var box = h("div",{class:"pager"});
     PAGER = { prev:null, next:null };
@@ -2038,7 +2083,8 @@
       ["At the table", [["⚔ Combat & Conditions","#/ref"],["🛡 GM Screen","#/gm"],["🧠 Rules I Forget","#/cheat"]]],
       ["Run the fight", [["⚔️ Encounter Builder","#/encounter"],["🎲 Random Encounter","#/randenc"],["⚡ Initiative Tracker","#/init"],["🪤 Trap Generator","#/trap"],["🎴 Crit & Fumble Deck","#/critfumble"]]],
       ["Loot & flavor", [["💰 Treasure Generator","#/treasure"],["🪄 Magic Shop","#/shop"],["🍺 NPC Spark","#/npc"],["🏷 Name-a-Thing","#/thing"],["🎲 Name Generator","#/names"],["🌦 Weather & Moon","#/weather"]]],
-      ["Build & character", [["🕸 Feat Web","#/featweb"],["📈 Class Progression","#/timeline"],["📜 Spell Pricer","#/spellprice"],["➕ Bonus Stacking","#/stacking"]]]
+      ["Build & character", [["🕸 Feat Web","#/featweb"],["📈 Class Progression","#/timeline"],["📜 Spell Pricer","#/spellprice"],["➕ Bonus Stacking","#/stacking"]]],
+      ["Browse", [["🖼 Artwork","#/art"]]]
     ].forEach(function(grp){ body.appendChild(h("div",{class:"nav-cool-sub"},grp[0])); grp[1].forEach(function(x){ body.appendChild(navItem(x[0],x[1],"cool-item")); }); });
     var open = (function(){ try{ return localStorage.getItem("pf_cool_open")!=="0"; }catch(e){ return true; } })();
     function setOpen(o){ cool.classList.toggle("collapsed",!o); toggle.querySelector(".nav-caret").textContent=o?"▾":"▸"; try{localStorage.setItem("pf_cool_open",o?"1":"0");}catch(e){} }
@@ -2112,6 +2158,7 @@
     if(hash==="/cheat") return viewCheat();
     if(hash==="/recent") return viewRecent();
     if(hash==="/timeline") return viewTimeline();
+    if(hash==="/art") return viewArtGallery();
     return viewHome();
   }
   var _reduceMotion=false; try{ _reduceMotion=matchMedia("(prefers-reduced-motion:reduce)").matches; }catch(e){}
