@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "43";
+  var DATA_V = "44";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -185,13 +185,61 @@
   // painted backdrops (art/<key>.jpg): preload; only apply if the image actually exists (future-proof)
   var CAT_ART={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
   function artKey(s){ return (""+s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""); }
+  // Every key present in art/. Kept explicit so the fallback chain can pick the most specific
+  // image that actually exists WITHOUT probing (which would 404 on most pages).
+  // ⚠ Ship a new image -> add its key here, or nothing will use it.
+  var ART={};
+  ("cat-archetypes,cat-classes,cat-classoptions,cat-feats,cat-hazards,cat-items,cat-monsters,cat-npcs,cat-races,"+
+   "cat-rules,cat-skills,cat-spells,cat-traits,class-alchemist,class-antipaladin,class-arcanist,class-barbarian,"+
+   "class-bard,class-bloodrager,class-brawler,class-cavalier,class-cleric,class-druid,class-fighter,class-gunslinger,"+
+   "class-hunter,class-inquisitor,class-investigator,class-kineticist,class-magus,class-medium,class-mesmerist,"+
+   "class-monk,class-ninja,class-occultist,class-oracle,class-paladin,class-psychic,class-ranger,class-rogue,"+
+   "class-samurai,class-shaman,class-skald,class-slayer,class-sorcerer,class-spiritualist,class-summoner,"+
+   "class-swashbuckler,class-vigilante,class-warpriest,class-witch,class-wizard,deities-pantheon,home-hero,"+
+   "home-parchment,misc-dice,page-glossary,page-mycharacters,page-starthere,page-texture,race-aasimar,race-catfolk,"+
+   "race-drow,race-dwarf,race-elf,race-gnome,race-goblin,race-half-elf,race-half-orc,race-halfling,race-human,"+
+   "race-kobold,race-lizardfolk,race-orc,race-oread,race-ratfolk,race-tengu,race-tiefling,school-abjuration,"+
+   "school-conjuration,school-divination,school-enchantment,school-evocation,school-illusion,school-necromancy,"+
+   "school-transmutation,tool-combat,tool-critfumble,tool-encounter,tool-featweb,tool-gmscreen,tool-initiative,"+
+   "tool-names,tool-npc,tool-randomencounter,tool-shop,tool-spellprice,tool-trap,tool-treasure,tool-weather,"+
+   "type-aberration,type-animal,type-celestial,type-construct,type-dragon,type-dragon-chromatic,type-dragon-metallic,"+
+   "type-elemental,type-fey,type-fiend,type-giant,type-humanoid,type-monstrous-humanoid,type-ooze,type-plant,"+
+   "type-undead,type-vermin").split(",").forEach(function(k){ ART[k]=1; });
+  function have(k){ return k && ART[k] ? k : null; }
+  // Category backdrop every entry falls back to, so no page is ever bare.
+  var CAT_FALLBACK={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",
+    feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",
+    items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
+  // Most specific image an entry can claim, else its category's.
+  function entryArtKey(row){
+    var b=row[I_SLUG], fac=row[I_FAC]||{}, nm=artKey(row[I_NAME]);
+    if(b==="classes")   return have("class-"+nm) || CAT_FALLBACK[b];
+    if(b==="races")     return have("race-"+nm)  || CAT_FALLBACK[b];
+    if(b==="deities")   return "deities-pantheon";
+    if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; return (c && have("class-"+artKey(c))) || CAT_FALLBACK[b]; }
+    if(b==="spells")    return (fac.sch && fac.sch!=="universal" && have("school-"+fac.sch)) || CAT_FALLBACK[b];
+    if(b==="monsters"){
+      if(have("race-"+nm)) return "race-"+nm;                   // Goblin, Orc, Kobold, Lizardfolk, Drow…
+      var t=artKey(fac.t||""), al=String(fac.al||"");
+      // Chromatic/metallic dragons and the celestial/fiend/elemental outsider families read off alignment.
+      if(t==="dragon")   return /E$/.test(al)?"type-dragon-chromatic":(/G$/.test(al)?"type-dragon-metallic":"type-dragon");
+      if(t==="outsider") return /G$/.test(al)?"type-celestial":(/E$/.test(al)?"type-fiend":"type-elemental");
+      // Real giants are humanoid(giant). Name alone is NOT enough: AON inverts names, so
+      // "Ant, Giant" and "Beetle, Giant" also end in "giant" — they're vermin. Gating on the
+      // type also picks up "Fire Giant King" etc., which don't end in the word at all.
+      if(t==="humanoid" && /giant/i.test(row[I_NAME])) return "type-giant";
+      return have("type-"+t) || CAT_FALLBACK[b];
+    }
+    return CAT_FALLBACK[b] || null;
+  }
   // Every tool/utility view builds the same `.list-head` header, so their backdrops are wired
   // once here off the route rather than editing 16 view functions.
   var ROUTE_ART={"/ref":"tool-combat","/combat":"tool-combat","/gm":"tool-gmscreen","/names":"tool-names",
     "/featweb":"tool-featweb","/init":"tool-initiative","/treasure":"tool-treasure","/npc":"tool-npc",
     "/encounter":"tool-encounter","/shop":"tool-shop","/randenc":"tool-randomencounter","/trap":"tool-trap",
     "/critfumble":"tool-critfumble","/spellprice":"tool-spellprice","/weather":"tool-weather",
-    "/fav":"page-mycharacters"};
+    "/fav":"page-mycharacters","/cheat":"page-glossary","/stacking":"misc-dice","/thing":"tool-names",
+    "/cards":"home-parchment","/compare":"cat-classoptions","/recent":"cat-rules","/timeline":"tool-gmscreen"};
   function applyRouteArt(hash){ var k=ROUTE_ART[hash]; if(k) applyArt(document.querySelector("#main .list-head"), k); }
   function applyArt(el, key){ if(!el||!key) return; try{ var im=new Image(); im.onload=function(){ el.style.setProperty("--art",'url("art/'+key+'.jpg")'); el.classList.add("has-art"); }; im.src="art/"+key+".jpg"; }catch(e){} }
   var HERO_EMBLEM='<svg class="hero-emblem" viewBox="0 0 96 96" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M48 8l30 10v21c0 24-17 38-30 45-13-7-30-21-30-45V18z"/><path d="M48 28v38M35 42h26"/><circle cx="48" cy="23" r="3.2" fill="currentColor" stroke="none"/></svg>';
@@ -792,10 +840,7 @@
     var entryArt = (row[I_SLUG]==="classes") ? '<div class="entry-scene">'+classArchScene(row[I_NAME])+'</div>'
                  : (row[I_SLUG]==="monsters" && row[I_FAC] && SCENE.monsters) ? '<div class="entry-scene"><svg class="cat-scene" viewBox="0 0 128 96" fill="currentColor" aria-hidden="true">'+SCENE.monsters+'</svg></div>'
                  : '';
-    if(row[I_SLUG]==="classes") applyArt(card, "class-"+artKey(row[I_NAME]));
-    else if(row[I_SLUG]==="races") applyArt(card, "race-"+artKey(row[I_NAME]));
-    else if(row[I_SLUG]==="monsters" && row[I_FAC] && row[I_FAC].t) applyArt(card, "type-"+artKey(row[I_FAC].t));
-    else if(row[I_SLUG]==="spells" && row[I_FAC] && row[I_FAC].sch && row[I_FAC].sch!=="universal") applyArt(card, "school-"+row[I_FAC].sch);
+    applyArt(card, entryArtKey(row));
     card.innerHTML=ornCorners()+entryArt+'<h1>'+titleIcon+esc(row[I_NAME])+'</h1><div class="badges"><span class="badge cat" style="--c:'+color(row[I_SLUG])+'">'+esc(label)+'</span>'+rawBadge+'</div>'+quickStats(row)+'<div class="sb-rule"></div><div class="body">Loading…</div>';
     wrap.appendChild(card);
     if(row[I_SLUG]==="feats") wrap.appendChild(featVizSection(id));
