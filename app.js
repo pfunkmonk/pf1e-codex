@@ -54,11 +54,14 @@
   window.PF_REG = function (slug, map) {
     BODIES[slug] = map; (pending[slug] || []).forEach(function (cb) { cb(); }); pending[slug] = [];
   };
+  // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
+  // — bump all three together on any data change, or clients mix fresh and stale payloads.
+  var DATA_V = "43";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
     if (pending[slug].length > 1) return;
-    var s = document.createElement("script"); s.src = "data/cat/" + slug + ".js";
+    var s = document.createElement("script"); s.src = "data/cat/" + slug + ".js?v=" + DATA_V;
     s.onerror = function () { BODIES[slug] = {}; (pending[slug]||[]).forEach(function(c){c();}); pending[slug]=[]; };
     document.body.appendChild(s);
   }
@@ -72,10 +75,10 @@
     var fin = function () { var cbs = _scr[src]; _scr[src] = "done"; (cbs||[]).forEach(function (c) { c && c(); }); };
     s.onload = fin; s.onerror = fin; document.head.appendChild(s);
   }
-  function ensureTables(cb) { if (window.PF_TABLES) return cb && cb(); loadScriptOnce("data/tables.js", cb); }
-  function ensureFeattree(cb) { if (window.PF_FEATTREE) return cb && cb(); loadScriptOnce("data/feattree.js", cb); }
-  function ensureNameForge(cb) { if (window.NameForge) return cb && cb(); loadScriptOnce("data/nameforge.bundle.js", cb); }
-  function ensureFeatWeb(cb) { ensureFeattree(function () { if (window.FeatWeb) return cb && cb(); loadScriptOnce("featweb.js", cb); }); }
+  function ensureTables(cb) { if (window.PF_TABLES) return cb && cb(); loadScriptOnce("data/tables.js?v=" + DATA_V, cb); }
+  function ensureFeattree(cb) { if (window.PF_FEATTREE) return cb && cb(); loadScriptOnce("data/feattree.js?v=" + DATA_V, cb); }
+  function ensureNameForge(cb) { if (window.NameForge) return cb && cb(); loadScriptOnce("data/nameforge.bundle.js?v=" + DATA_V, cb); }
+  function ensureFeatWeb(cb) { ensureFeattree(function () { if (window.FeatWeb) return cb && cb(); loadScriptOnce("featweb.js?v=" + DATA_V, cb); }); }
   // shared helpers for the FeatWeb graph views
   var _activeWeb = null;
   function featResolve(id) { var r = idById()[id]; if (!r) return { name: id, type: "General" }; return { name: r[I_NAME], type: (r[I_FAC] && r[I_FAC].t) || "General" }; }
@@ -181,6 +184,15 @@
   function classArchScene(name){ var a=CLASS_ARCH[(""+name).toLowerCase()], inner=(a&&ARCH_SCENE[a])?ARCH_SCENE[a]:SCENE.classes; return '<svg class="cat-scene" viewBox="0 0 128 96" fill="currentColor" aria-hidden="true">'+inner+'</svg>'; }
   // painted backdrops (art/<key>.jpg): preload; only apply if the image actually exists (future-proof)
   var CAT_ART={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
+  function artKey(s){ return (""+s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""); }
+  // Every tool/utility view builds the same `.list-head` header, so their backdrops are wired
+  // once here off the route rather than editing 16 view functions.
+  var ROUTE_ART={"/ref":"tool-combat","/combat":"tool-combat","/gm":"tool-gmscreen","/names":"tool-names",
+    "/featweb":"tool-featweb","/init":"tool-initiative","/treasure":"tool-treasure","/npc":"tool-npc",
+    "/encounter":"tool-encounter","/shop":"tool-shop","/randenc":"tool-randomencounter","/trap":"tool-trap",
+    "/critfumble":"tool-critfumble","/spellprice":"tool-spellprice","/weather":"tool-weather",
+    "/fav":"page-mycharacters"};
+  function applyRouteArt(hash){ var k=ROUTE_ART[hash]; if(k) applyArt(document.querySelector("#main .list-head"), k); }
   function applyArt(el, key){ if(!el||!key) return; try{ var im=new Image(); im.onload=function(){ el.style.setProperty("--art",'url("art/'+key+'.jpg")'); el.classList.add("has-art"); }; im.src="art/"+key+".jpg"; }catch(e){} }
   var HERO_EMBLEM='<svg class="hero-emblem" viewBox="0 0 96 96" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M48 8l30 10v21c0 24-17 38-30 45-13-7-30-21-30-45V18z"/><path d="M48 28v38M35 42h26"/><circle cx="48" cy="23" r="3.2" fill="currentColor" stroke="none"/></svg>';
   function homeHero(){
@@ -353,6 +365,7 @@
   function renderStartHere(){
     var g=META.guide; var box=h("section",{class:"start"});
     if(!g) return box;
+    applyArt(box, "page-starthere");
     box.appendChild(h("div",{class:"start-intro"},esc(g.intro)));
     box.appendChild(h("h3",{class:"start-h"},"Build a character — 7 steps"));
     var steps=h("div",{class:"steps"});
@@ -779,7 +792,9 @@
     var entryArt = (row[I_SLUG]==="classes") ? '<div class="entry-scene">'+classArchScene(row[I_NAME])+'</div>'
                  : (row[I_SLUG]==="monsters" && row[I_FAC] && SCENE.monsters) ? '<div class="entry-scene"><svg class="cat-scene" viewBox="0 0 128 96" fill="currentColor" aria-hidden="true">'+SCENE.monsters+'</svg></div>'
                  : '';
-    if(row[I_SLUG]==="classes") applyArt(card, "class-"+(""+row[I_NAME]).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""));
+    if(row[I_SLUG]==="classes") applyArt(card, "class-"+artKey(row[I_NAME]));
+    else if(row[I_SLUG]==="races") applyArt(card, "race-"+artKey(row[I_NAME]));
+    else if(row[I_SLUG]==="monsters" && row[I_FAC] && row[I_FAC].t) applyArt(card, "type-"+artKey(row[I_FAC].t));
     else if(row[I_SLUG]==="spells" && row[I_FAC] && row[I_FAC].sch && row[I_FAC].sch!=="universal") applyArt(card, "school-"+row[I_FAC].sch);
     card.innerHTML=ornCorners()+entryArt+'<h1>'+titleIcon+esc(row[I_NAME])+'</h1><div class="badges"><span class="badge cat" style="--c:'+color(row[I_SLUG])+'">'+esc(label)+'</span>'+rawBadge+'</div>'+quickStats(row)+'<div class="sb-rule"></div><div class="body">Loading…</div>';
     wrap.appendChild(card);
@@ -2020,7 +2035,7 @@
   var _reduceMotion=false; try{ _reduceMotion=matchMedia("(prefers-reduced-motion:reduce)").matches; }catch(e){}
   function render(){
     try{ ftHideTip(); hideInfoTip(); killWeb(); }catch(e){}
-    var run=function(){ try{ dispatch(); }catch(err){ showRouteError(err); } };
+    var run=function(){ try{ dispatch(); applyRouteArt(location.hash.replace(/^#/,"").split("?")[0]); }catch(err){ showRouteError(err); } };
     // native crossfade between views where supported; instant + safe everywhere else
     if(document.startViewTransition && !_reduceMotion){ try{ document.startViewTransition(run); return; }catch(e){} }
     run();

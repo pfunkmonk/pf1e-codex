@@ -645,9 +645,23 @@ body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
 .cat-splash.has-art .cat-splash-body{max-width:60%}
 @media(max-width:640px){.cat-splash.has-art{background-image:linear-gradient(var(--panel),color-mix(in srgb,var(--panel) 66%,transparent)),var(--art)}.cat-splash.has-art .cat-splash-body{max-width:100%}}
 /* CLASS ENTRY: art forms a top band that fades to solid panel BEFORE the stat text (body always on solid panel) */
-.entry.has-art{background-image:linear-gradient(to bottom,rgba(12,9,6,.4) 0,rgba(12,9,6,.5) 64px,color-mix(in srgb,var(--panel) 86%,transparent) 132px,var(--panel) 184px,var(--panel) 100%),var(--art);background-repeat:no-repeat;background-size:cover;background-position:top center}
+/* The art layer is sized to the card WIDTH (100% auto) — never `cover`. `cover` scales the
+   image to the card's full HEIGHT, and an entry card runs 5000px+, which blew the art up 6x
+   and left only the top ~3% of it visible as a smear. Width-sizing keeps the 16:9 art at its
+   natural aspect so the band shows the top ~60% of the picture, where the subjects sit. */
+.entry.has-art{background-image:linear-gradient(to bottom,rgba(12,9,6,.30) 0,rgba(12,9,6,.38) 84px,color-mix(in srgb,var(--panel) 55%,transparent) 196px,color-mix(in srgb,var(--panel) 90%,transparent) 262px,var(--panel) 310px,var(--panel) 100%),var(--art);background-repeat:no-repeat,no-repeat;background-size:auto,100% auto;background-position:top center,top center}
+@media(max-width:640px){.entry.has-art{background-image:linear-gradient(to bottom,rgba(12,9,6,.30) 0,rgba(12,9,6,.38) 46px,color-mix(in srgb,var(--panel) 55%,transparent) 108px,color-mix(in srgb,var(--panel) 90%,transparent) 146px,var(--panel) 174px,var(--panel) 100%),var(--art)}}
 .entry.has-art h1{color:#f7efdd;text-shadow:0 2px 12px rgba(0,0,0,.7)}
 .entry.has-art .entry-scene{display:none}
+/* TOOL / UTILITY HEADERS: every tool view shares `.list-head`, so one rule backs them all.
+   Same usability rule as the category splash — art bleeds from the RIGHT, text sits on a
+   solid panel scrim at the LEFT. `cover` is safe here: the header is a short, fixed band. */
+.list-head.has-art{align-items:center;min-height:96px;padding:14px clamp(14px,2.5vw,22px);margin-bottom:14px;border:1px solid var(--line);border-radius:12px;background-image:linear-gradient(100deg,var(--panel) 0%,var(--panel) 30%,color-mix(in srgb,var(--panel) 72%,transparent) 54%,transparent 92%),var(--art);background-size:auto,cover;background-position:center left,center right;background-repeat:no-repeat,no-repeat}
+.list-head.has-art .meta{max-width:60%}
+@media(max-width:640px){.list-head.has-art{background-image:linear-gradient(var(--panel),color-mix(in srgb,var(--panel) 60%,transparent)),var(--art)}.list-head.has-art .meta{max-width:100%}}
+/* START HERE: top band, same width-sized treatment as a class entry. */
+.start.has-art{background-image:linear-gradient(to bottom,rgba(12,9,6,.34) 0,color-mix(in srgb,var(--panel) 58%,transparent) 132px,var(--panel) 208px,var(--panel) 100%),var(--art);background-size:auto,100% auto;background-position:top center;background-repeat:no-repeat,no-repeat}
+.start.has-art .start-intro{color:#f7efdd;text-shadow:0 2px 10px rgba(0,0,0,.6)}
 /* Public-site attribution */
 .legal-note {
   padding: 12px 24px 16px;
