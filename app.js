@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "46";
+  var DATA_V = "47";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -286,6 +286,67 @@
    "type-elemental,type-fey,type-fiend,type-giant,type-humanoid,type-monstrous-humanoid,type-ooze,type-plant,"+
    "type-undead,type-vermin").split(",").forEach(function(k){ ART[k]=1; });
   function have(k){ return k && ART[k] ? k : null; }
+  var PRESTIGE="Prestige Classes";
+  // Class entries that have no art of their own but clearly belong to one that does.
+  // Prestige classes are mapped to the base class they read as; orders/oaths/bloodlines and
+  // the Unchained variants are handled by pattern below. Costs no images at all.
+  var CLASS_INHERIT={
+    // --- prestige classes -> the base class each reads as ---
+    "Agent of the Grave":"wizard","Aldori Swordlord":"fighter","Arcane Archer":"ranger",
+    "Arcane Trickster":"rogue","Arclord of Nex":"wizard","Argent Dramaturge":"bard","Asavir":"cavalier",
+    "Ashavic Dancer":"bard","Aspis Agent":"rogue","Assassin":"rogue","Balanced Scale of Abadar":"cleric",
+    "Battle Herald":"cavalier","Bellflower Tiller":"rogue","Blackfire Adept":"sorcerer","Bloatmage":"wizard",
+    "Brewkeeper":"cleric","Brightness Seeker":"monk","Brother of the Seal":"monk","Champion of Irori":"monk",
+    "Chernasardo Warden":"ranger","Chevalier":"cavalier","Crimson Templar":"inquisitor","Cyphermage":"wizard",
+    "Daggermark Poisoner":"alchemist","Daivrat":"summoner","Darechaser":"swashbuckler",
+    "Dawnflower Anchorite":"monk","Dawnflower Dissident":"cleric","Death Slayer":"inquisitor",
+    "Demoniac":"antipaladin","Devoted Muse":"bard","Diabolist":"wizard","Divine Scion":"cleric",
+    "Dragon Disciple":"sorcerer","Duelist":"swashbuckler","Eldritch Knight":"magus",
+    "Enchanting Courtesan":"bard","Envoy of Balance":"cleric","Esoteric Knight":"magus","Evangelist":"cleric",
+    "Exalted":"cleric","Feysworn":"druid","Genie Binder":"summoner","Golden Legionnaire":"paladin",
+    "Gray Corsair":"fighter","Gray Gardener":"inquisitor","Green Faith Acolyte":"druid",
+    "Halfling Opportunist":"rogue","Harrower":"oracle","Hellknight":"fighter","Hellknight Signifer":"wizard",
+    "Heritor Knight":"cavalier","Hinterlander":"ranger","Holy Vindicator":"cleric","Horizon Walker":"ranger",
+    "Inheritor's Crusader":"paladin","Inner Sea Pirate":"swashbuckler","Justicar":"inquisitor",
+    "Knight of Ozem":"paladin","Lantern Bearer":"ranger","Liberator":"paladin","Lion Blade":"rogue",
+    "Living Monolith":"fighter","Loremaster":"wizard","Low Templar":"fighter","Magaambyan Arcanist":"wizard",
+    "Mammoth Rider":"barbarian","Master Chymist":"alchemist","Master Spy":"rogue","Mortal Usher":"cleric",
+    "Mystery Cultist":"oracle","Mystic Theurge":"cleric","Nature Warden":"druid","Noble Scion":"cavalier",
+    "Pain Taster":"cleric","Pathfinder Chronicler":"bard","Pathfinder Delver":"rogue",
+    "Pathfinder Field Agent":"rogue","Pathfinder Savant":"wizard","Pit Fighter":"brawler","Proctor":"cleric",
+    "Prophet of Kalistrade":"cleric","Pure Legion Enforcer":"inquisitor","Rage Prophet":"barbarian",
+    "Razmiran Priest":"sorcerer","Red Mantis Assassin":"rogue","Riftwarden":"wizard","Ritualist":"occultist",
+    "Rivethun Emissary":"shaman","Rose Warden":"cavalier","Runeguard":"fighter","Sacred Sentinel":"cleric",
+    "Sanguine Angel":"paladin","Scar Seeker":"inquisitor","Sentinel":"cleric","Shackles Pirate":"swashbuckler",
+    "Shadowdancer":"rogue","Shieldmarshal":"gunslinger","Skyseeker":"fighter","Sleepless Detective":"investigator",
+    "Soul Warden":"cleric","Souldrinker":"antipaladin","Sphere Singer":"bard","Spherewalker":"cleric",
+    "Stalwart Defender":"fighter","Stargazer":"wizard","Steel Falcon":"paladin","Storm Kindler":"druid",
+    "Student of Perfection":"monk","Student of War":"fighter","Tattooed Mystic":"wizard","Technomancer":"wizard",
+    "Thuvian Alchemist":"alchemist","Twilight Talon":"ranger","Ulfen Guard":"fighter",
+    "Umbral Court Agent":"rogue","Veiled Illusionist":"wizard","Westcrown Devil":"rogue","Winter Witch":"witch",
+    // --- companions, NPC classes and odds and ends ---
+    "Ronin":"samurai","Companion":"druid","Drake":"hunter","Eidolon":"summoner","Familiar":"wizard",
+    "Phantom":"spiritualist","Adept":"cleric","Aristocrat":"cavalier","Commoner":"rogue","Expert":"investigator",
+    "Warrior":"fighter","Telekinetic Invisibility":"psychic",
+    // --- bloodrager bloodlines (they sit in the class bucket under their bare name) ---
+    "Aerial":"bloodrager","Anarchic":"bloodrager","Bedrock":"bloodrager","Brutal":"bloodrager",
+    "Dark Fey":"bloodrager","Empyreal":"bloodrager","Envenomed":"bloodrager","Groveborn":"bloodrager",
+    "Karmic":"bloodrager","Lifewater":"bloodrager","Linnorm":"bloodrager","Pit-Touched":"bloodrager",
+    "Primal":"bloodrager","Retribution":"bloodrager","Rime-Blooded":"bloodrager","Sage":"bloodrager",
+    "Sanguine":"bloodrager","Seaborn":"bloodrager","Shahzada":"bloodrager","Sylvan":"bloodrager",
+    "Umbral":"bloodrager","Visionary":"bloodrager","Void-Touched":"bloodrager","Warped":"bloodrager"
+  };
+  function inheritedClassArt(name){
+    var n=String(name||"");
+    if(/^Order of\b/i.test(n)) return have("class-cavalier");            // 37 cavalier/samurai orders
+    if(/^Oath\b/i.test(n))     return have("class-paladin");             // 15 paladin oaths
+    // Rogue (Unchained) -> rogue. Fall through to the map when the base has no art of its
+    // own either, so Eidolon (Unchained) still reaches summoner via Eidolon.
+    var un=n.match(/^(.*?)\s*\(Unchained\)$/i);
+    if(un) return have("class-"+artKey(un[1])) || (CLASS_INHERIT[un[1]] ? have("class-"+CLASS_INHERIT[un[1]]) : null);
+    var m=CLASS_INHERIT[n];
+    return m ? have("class-"+m) : null;
+  }
   // Category backdrop every entry falls back to, so no page is ever bare.
   var CAT_FALLBACK={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",
     feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",
@@ -293,7 +354,7 @@
   // Most specific image an entry can claim, else its category's.
   function entryArtKey(row){
     var b=row[I_SLUG], fac=row[I_FAC]||{}, nm=artKey(row[I_NAME]);
-    if(b==="classes")   return have("class-"+nm) || CAT_FALLBACK[b];
+    if(b==="classes")   return have("class-"+nm) || inheritedClassArt(row[I_NAME]) || CAT_FALLBACK[b];
     if(b==="races")     return have("race-"+nm)  || CAT_FALLBACK[b];
     if(b==="deities")   return "deities-pantheon";
     if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; return (c && have("class-"+artKey(c))) || CAT_FALLBACK[b]; }
@@ -572,7 +633,10 @@
     if(fr.length){ wrap.appendChild(h("h3",{class:"section-h"},"Good for first-timers")); wrap.appendChild(classCards(fr)); }
     wrap.appendChild(h("h3",{class:"section-h"},"All classes (A–Z)"));
     wrap.appendChild(classCards(cls.slice().sort(function(a,b){return a.name.localeCompare(b.name);})));
-    var more=h("div",{class:"chips"}); more.appendChild(h("a",{class:"chip",href:"#/c/classes/_all"},"Browse every class page A–Z (features, prestige classes…)")); wrap.appendChild(more);
+    var more=h("div",{class:"chips"});
+    more.appendChild(h("a",{class:"chip lg",href:"#/c/classes/"+encodeURIComponent(PRESTIGE)},"⚔ Prestige Classes — "+((subtypesOf("classes").filter(function(x){return x[0]===PRESTIGE;})[0]||["",0])[1])+" advanced paths"));
+    more.appendChild(h("a",{class:"chip",href:"#/c/classes/_all"},"Browse every class page A–Z (features, orders, bloodlines…)"));
+    wrap.appendChild(more);
     swap(wrap); window.scrollTo(0,0);
   }
   function viewCategory(slug, sub, query){
@@ -2100,6 +2164,11 @@
         if(c.slug==="rules"){ var sk=h("button",{class:"nav-cat"}); sk.dataset.slug="rules";
           sk.innerHTML='<span class="dot" style="background:'+color("rules")+'"></span>Skills<span class="cnt">'+((subtypesOf("rules").filter(function(x){return x[0]==="Skills";})[0]||["",0])[1])+'</span>';
           sk.onclick=function(){ location.hash="#/c/rules/Skills"; closeMenu(); }; gd.appendChild(sk); }
+        // Prestige classes are their own thing — 119 entries buried inside a 252-entry Classes
+        // list nobody scrolls. rawCat already separates them, so this is just a second door.
+        if(c.slug==="classes"){ var pc=h("button",{class:"nav-cat"}); pc.dataset.slug="classes";
+          pc.innerHTML='<span class="dot" style="background:'+color("classes")+'"></span>Prestige Classes<span class="cnt">'+((subtypesOf("classes").filter(function(x){return x[0]===PRESTIGE;})[0]||["",0])[1])+'</span>';
+          pc.onclick=function(){ location.hash="#/c/classes/"+encodeURIComponent(PRESTIGE); closeMenu(); }; gd.appendChild(pc); }
       });
       nav.appendChild(gd);
     });
