@@ -150,6 +150,17 @@ image in Box not shipped; re-add it only if you want the cat gods back as an eas
 and the celestial/fiend/elemental/giant/chromatic/metallic subtypes — is now shipped and wired
 per Batch 3 above. `race-lizardfolk` has no *race* entry but does back the Lizardfolk **monster**.)
 
+### Mirrored 2026-08-12
+`class-sorcerer`, `class-paladin`, `class-slayer` are **horizontally mirrored** versions of their v1
+source — each originally put its subject on the LEFT, directly under the entry title. Flipping moves
+the figure right and opens clean space for the heading, matching the rest of the set.
+
+Re-derived from the Box PNG with `RotateNoneFlipX` **before** the resize, so they stay a single JPEG
+pass rather than a re-compress of the shipped file. Reproduce with `mirror-art.ps1`.
+⚠ Mirror only art with no lettering, insignia or handedness that must read correctly.
+No cache-token bump was needed: Netlify serves `art/*` as `public,max-age=0,must-revalidate` with an
+ETag and the service worker is network-first, so replaced images propagate on their own.
+
 Still with **no art of their own**: the `magical beast` and `outsider` creature types have no
 dedicated image (outsiders resolve to celestial/fiend/elemental by alignment; magical beasts fall
 back to `cat-monsters`). Worth generating if you want them covered specifically.
