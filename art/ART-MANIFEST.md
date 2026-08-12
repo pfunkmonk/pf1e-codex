@@ -114,12 +114,45 @@ It reproduced the batch-1 human picks only **12/26 — worse than chance** — a
 samurai, which is plainly wrong. It was discarded; the table above is an eyeball pass. **Don't
 trust a metric here without validating it against the reviewer picks first.**
 
-**Not shipped** (in Box, still no code path — say the word):
-`page-glossary`, `page-texture`, `misc-dice`, `home-parchment` (shipped but unwired; a global page
-texture is an aesthetic call, not a bug), `race-lizardfolk` (no matching race entry),
-`type-celestial` / `-fiend` / `-elemental` / `-giant` / `-dragon-chromatic` / `-dragon-metallic`
-(subtypes, not values of the `t` facet — the facet has only 13 values, and `magical beast` and
-`outsider` have no art at all), and `cat-deities` (retired cat-god image).
+## Batch 3 — every image shipped, every page backed 2026-08-12
+
+The last 10 source images were processed (**art keys 107 → 117 = every usable image in Box**), and
+entry art became a **resolution chain** (`entryArtKey()` in app.js) instead of four special cases.
+Entry-page coverage went **20.3% → 100%** (5,255 → 25,926 pages); pages with *specific* rather than
+category art went 5,255 → **7,700**.
+
+Chain, most specific first:
+1. `class-<name>` / `race-<name>` / `deities-pantheon` / `school-<school>` (spells)
+2. **archetypes inherit their parent class's art** via the `cls` facet — 1,261 of 1,320 pages
+3. monsters: `race-<name>` first (Goblin, Orc, Kobold, Drow, Lizardfolk, Aasimar…), then
+   **alignment-aware families** — dragons split chromatic/metallic on evil/good, outsiders split
+   celestial/fiend/elemental on good/evil/neither — then `type-<t>`
+4. otherwise the entry's **category** image, so no page is ever bare
+
+`ART` in app.js is an explicit set of every shipped key, so the chain picks the most specific image
+that actually EXISTS without probing (probing would 404 on most pages).
+⚠ **Ship a new image → add its key to `ART`, or nothing will use it.**
+
+⚠ **Giants are matched on TYPE, not name.** AON inverts names, so "Ant, Giant" and "Beetle, Giant"
+end in the word "giant" but are vermin. The rule is `type === "humanoid" && /giant/`, which excludes
+all 35 comma-inverted bugs and also catches "Fire Giant King", which doesn't end in the word.
+An earlier name-only rule shipped `type-giant` onto giant ants — caught in browser verification.
+
+`page-texture` backs the **light theme only** (its palette is already parchment-tan `#f4ecd8`);
+dark keeps grain alone, since a tan sheet washes it out. `home-parchment` backs `/cards`
+(printable card sheet), `page-glossary` → `/cheat`, `misc-dice` → `/stacking`. All 23 routes with a
+`.list-head` now carry a backdrop.
+
+**Not shipped** (deliberate):
+Only **`cat-deities`** — the retired cat-god image, replaced by `deities-pantheon`. It is the one
+image in Box not shipped; re-add it only if you want the cat gods back as an easter egg.
+(Everything previously listed here — `page-glossary`, `page-texture`, `misc-dice`, `race-lizardfolk`,
+and the celestial/fiend/elemental/giant/chromatic/metallic subtypes — is now shipped and wired
+per Batch 3 above. `race-lizardfolk` has no *race* entry but does back the Lizardfolk **monster**.)
+
+Still with **no art of their own**: the `magical beast` and `outsider` creature types have no
+dedicated image (outsiders resolve to celestial/fiend/elemental by alignment; magical beasts fall
+back to `cat-monsters`). Worth generating if you want them covered specifically.
 
 ### Batch 2b — tool & utility pages wired 2026-08-12
 All 14 `tool-*` images plus `page-mycharacters` and `page-starthere` processed and wired, taking

@@ -564,6 +564,10 @@ table.gm-table th.rowh{font-weight:600;color:var(--ink);white-space:nowrap}
 #themeBtn.spin{animation:spin360 .5s ease}
 /* faint parchment grain woven into the page background (inline SVG, offline, no asset) */
 body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E")}
+/* LIGHT THEME gets the real parchment sheet behind the grain (the palette is already
+   parchment-tan, #f4ecd8). Dark keeps grain only — a tan sheet would wash it out. */
+:root[data-theme="light"] body,:root:not([data-theme]) body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E"),url("art/page-texture.jpg");background-repeat:repeat,no-repeat;background-size:auto,cover;background-attachment:scroll,fixed;background-position:top left,center}
+@media (prefers-color-scheme:dark){:root:not([data-theme]) body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E")}}
 
 /* ---- hover-preview: pin hint + pinned state ---- */
 .info-tip .ft-tip-hint{margin-top:7px;padding-top:6px;border-top:1px solid var(--line);font-size:11px;color:var(--ink-soft);opacity:.85;letter-spacing:.02em}
