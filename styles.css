@@ -150,6 +150,13 @@ table.rt thead th:first-child{background:var(--chip)}
 .back:hover{color:var(--accent)}
 .entry-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
 .entry-top .back{margin-bottom:0}
+/* Prev/Next pager in the entry header — walks the list you were browsing. */
+.pager{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
+.pgbtn{border:1px solid var(--line);background:var(--bg);color:var(--ink-soft);border-radius:8px;padding:6px 12px;font-size:14px;font-weight:600;cursor:pointer}
+.pgbtn:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.pgbtn:disabled{opacity:.38;cursor:default}
+.pgpos{color:var(--ink-soft);font-size:12px;white-space:nowrap;max-width:34ch;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:640px){.pgpos{display:none}.entry-top{gap:8px;flex-wrap:wrap}}
 .favbtn{border:1px solid var(--line);background:var(--bg);color:var(--ink-soft);border-radius:8px;padding:6px 14px;font-size:14px;cursor:pointer;font-weight:600}
 .favbtn:hover{border-color:var(--accent);color:var(--accent)}
 .favbtn.on{background:color-mix(in srgb,var(--accent2) 18%,transparent);color:var(--accent2);border-color:var(--accent2)}
