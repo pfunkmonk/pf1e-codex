@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "52";
+  var DATA_V = "53";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -128,10 +128,11 @@
     ["Other","","Everything else"]
   ];
   // Remembers which gallery groups you left open. Read with one argument, write with two.
-  // Everything defaults to open, so the page looks unchanged until you collapse something.
+  // Everything defaults to CLOSED — 452 thumbnails is too much to land on, and the headings
+  // carry the progress counts, so the shut page is already the status board.
   function artGroupOpen(name, val){
     var m={}; try{ m=JSON.parse(localStorage.getItem("pf_art_groups")||"{}")||{}; }catch(e){}
-    if(val===undefined) return m[name]!==false;
+    if(val===undefined) return m[name]===true;
     m[name]=!!val;
     try{ localStorage.setItem("pf_art_groups",JSON.stringify(m)); }catch(e){}
     return !!val;
