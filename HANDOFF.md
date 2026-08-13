@@ -148,13 +148,30 @@ to `creature-` for the same reason.
 
 ## What is left
 
-- **194 backdrops to generate**: 45 creature subtypes, 149 spells. Prompts are written and the
-  wiring is done — dropping the files in and running the ingest is all that remains.
+**Art is complete: 452 of 452.** Everything below is a known limit, not outstanding work.
+
 - `magical beast` and `outsider` have no dedicated creature-type art. Outsiders resolve by
   alignment to celestial/fiend/elemental; magical beasts fall back to the category banner.
 - 2,051 feats carry no type and 4,813 items no slot, so they keep the category banner. That is
   a data limitation, not a bug.
+- `creature-chaotic`, `creature-good` and `creature-lawful` exist but are **structurally
+  unreachable**: precedence always finds a more specific family first, so no monster ever
+  resolves to a bare alignment subtype. Only `evil` wins, and only for 7. Harmless, ~450 KB.
+  `tools/check-reachable.mjs` reports them; that is expected, not a regression.
 - `cat-deities.jpg` is retired and deliberately unshipped.
+
+### Slug rules must agree everywhere
+
+`artKey()` in `app.js`, the prompt packs, and `tools/` must slug names identically. Apostrophes
+are **dropped**, not turned into separators: `Bull's Strength` → `bulls-strength`. When these
+disagreed, the art for that spell existed on disk and was simply unreachable — the app looked
+for `spell-bull-s-strength` forever and silently fell back to the school image.
+
+Run after any art or data change:
+
+```bash
+node tools/check-reachable.mjs .    # every entry-derived art file must be reachable
+```
 
 ## Conventions worth keeping
 
