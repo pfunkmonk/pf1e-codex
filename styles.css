@@ -150,7 +150,15 @@ table.rt thead th:first-child{background:var(--chip)}
 .back:hover{color:var(--accent)}
 .entry-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
 .entry-top .back{margin-bottom:0}
-/* Artwork gallery — every shipped backdrop, browsable and QA-able in one page. */
+/* Artwork gallery — every shipped backdrop, browsable and QA-able in one page.
+   Groups collapse; the open/closed state is remembered per group. */
+.artgroup{margin:18px 0 4px;border-top:1px solid var(--line)}
+.artgroup-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;
+  border:0;background:none;cursor:pointer;padding:14px 2px 10px;color:var(--ink);text-align:left}
+.artgroup-toggle:hover{color:var(--accent)}
+.artgroup-title{font-family:Georgia,serif;font-size:17px}
+.artgroup-count{color:var(--ink-soft);font:600 12px/1 ui-monospace,Menlo,monospace;margin-left:8px}
+.artgroup.collapsed .artgroup-body{display:none}
 .artgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin:12px 0 26px}
 .artcell{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow)}
 .artcell img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--bg2)}
