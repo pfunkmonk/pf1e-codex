@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "49";
+  var DATA_V = "50";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -129,18 +129,19 @@
   ];
   function viewArtGallery(){
     setActiveNav(null);
-    var keys=Object.keys(ART).sort();
+    // Iterate the PLAN, not what is on disk, so work still to do is visible. Presence comes
+    // from the generated manifest — NOT from image load failures, which never fire for the
+    // lazy-loaded images below the fold and made this page report 100% when it was at 57%.
+    var keys=Object.keys(ART_PLANNED).sort();
+    var present=keys.filter(function(k){ return ART[k]; }).length;
     var used={};
     var wrap=h("div");
     var head=h("div",{class:"list-head"});
-    head.innerHTML='<h2>🖼 Artwork</h2><span class="meta">'+keys.length+' backdrops registered · anything not yet generated shows outlined in red</span>';
+    head.innerHTML='<h2>🖼 Artwork</h2><span class="meta">'+keys.length+' backdrops planned · anything not yet generated shows outlined in red</span>';
     wrap.appendChild(head);
-    var tally=h("div",{class:"codex-note"},"Counting…");
-    wrap.appendChild(tally);
-    setTimeout(function(){                       // let the lazy images settle, then report progress
-      var cells=wrap.querySelectorAll(".artcell"), miss=wrap.querySelectorAll(".artcell.missing").length;
-      tally.textContent=(cells.length-miss).toLocaleString()+" of "+cells.length.toLocaleString()+" generated · "+miss.toLocaleString()+" still to come";
-    },4000);
+    wrap.appendChild(h("div",{class:"codex-note"},
+      present.toLocaleString()+" of "+keys.length.toLocaleString()+" generated · "+
+      (keys.length-present).toLocaleString()+" still to come"));
     ART_GROUPS.forEach(function(g){
       var prefix=g[1];
       var mine=keys.filter(function(k){
@@ -149,14 +150,20 @@
         used[k]=1; return true;
       });
       if(!mine.length) return;
-      wrap.appendChild(h("h3",{class:"section-h"},g[0]+" ("+mine.length+")"));
+      var got=mine.filter(function(k){ return ART[k]; }).length;
+      wrap.appendChild(h("h3",{class:"section-h"},g[0]+" ("+got+" of "+mine.length+")"));
       wrap.appendChild(h("div",{class:"codex-note"},g[2]));
       var grid=h("div",{class:"artgrid"});
       mine.forEach(function(k){
         var fig=h("figure",{class:"artcell"});
-        var img=h("img",{loading:"lazy",alt:k,src:"art/"+k+".jpg"});
-        img.onerror=function(){ fig.classList.add("missing"); };
-        fig.appendChild(img);
+        if(ART[k]){
+          var img=h("img",{loading:"lazy",alt:k,src:"art/"+k+".jpg"});
+          img.onerror=function(){ fig.classList.add("missing"); };   // belt and braces
+          fig.appendChild(img);
+        }else{
+          fig.classList.add("missing");        // known-absent: don't request it at all
+          fig.appendChild(h("div",{class:"artmissing"},"not generated"));
+        }
         fig.appendChild(h("figcaption",null,k));
         grid.appendChild(fig);
       });
@@ -276,10 +283,13 @@
   // painted backdrops (art/<key>.jpg): preload; only apply if the image actually exists (future-proof)
   var CAT_ART={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
   function artKey(s){ return (""+s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""); }
-  // Every key present in art/. Kept explicit so the fallback chain can pick the most specific
-  // image that actually exists WITHOUT probing (which would 404 on most pages).
-  // ⚠ Ship a new image -> add its key here, or nothing will use it.
-  var ART={};
+  // Two different questions, two different lists — conflating them is what made the gallery
+  // claim every backdrop existed when a third of them had not been drawn yet:
+  //   ART_PLANNED — every key we INTEND to have. Hand-maintained; the roadmap. Drives the gallery.
+  //   ART         — every key that is actually ON DISK RIGHT NOW. Generated into data/art.js by
+  //                 tools/gen-art-manifest.mjs at ingest time, so it can never drift from reality.
+  // Resolution gates on ART, so a planned-but-undrawn image is never requested and never 404s.
+  var ART_PLANNED={};
   ("cat-archetypes,cat-classes,cat-classoptions,cat-feats,cat-hazards,cat-items,cat-monsters,cat-npcs,cat-races,"+
    "cat-rules,cat-skills,cat-spells,cat-traits,class-alchemist,class-antipaladin,class-arcanist,class-barbarian,"+
    "class-bard,class-bloodrager,class-brawler,class-cavalier,class-cleric,class-druid,class-fighter,class-gunslinger,"+
@@ -351,7 +361,12 @@
    "spell-true-seeing,spell-vampiric-touch,spell-wall-of-fire,spell-wall-of-force,spell-wall-of-stone,spell-web,,"+
    "spell-weird,spell-wish,spell-word-of-recall,trait-campaign,trait-combat,trait-cosmic,trait-drawback,,"+
    "trait-equipment,trait-exemplar,trait-faction,trait-faith,trait-family,trait-magic,trait-mount,trait-race,,"+
-   "trait-region,trait-religion,trait-social").split(",").forEach(function(k){ k=k.trim(); if(k) ART[k]=1; });
+   "trait-region,trait-religion,trait-social").split(",").forEach(function(k){ k=k.trim(); if(k) ART_PLANNED[k]=1; });
+  // What is genuinely on disk. Falls back to the plan if the manifest is missing, so a stale
+  // deploy degrades to the old behaviour rather than losing every backdrop at once.
+  var ART={};
+  (window.PF_ART && window.PF_ART.length ? window.PF_ART : Object.keys(ART_PLANNED))
+    .forEach(function(k){ ART[k]=1; });
   function have(k){ return k && ART[k] ? k : null; }
   var PRESTIGE="Prestige Classes";
   // Class entries that have no art of their own but clearly belong to one that does.
@@ -414,10 +429,9 @@
     var m=CLASS_INHERIT[n];
     return m ? have("class-"+m) : null;
   }
-  // Category backdrop every entry falls back to, so no page is ever bare.
-  var CAT_FALLBACK={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",
-    feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",
-    items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
+  // The category backdrop every entry falls back to, so no page is ever bare — the same map
+  // the category landing pages use. Deliberately NOT a second copy: they must never diverge.
+  var CAT_FALLBACK=CAT_ART;
   // FNV-1a. Used to give each weapon/armour entry a stable variant — the data does not
   // record damage type for 83% of weapons or armour class for 84% of armour, so the choice
   // is arbitrary but must be the SAME arbitrary choice on every visit.
@@ -2362,6 +2376,9 @@
 
   // ---- instant search palette (live dropdown, keyboard-first, fuzzy + synonyms) ----
   var searchEl=$("#search"), stimer;
+  // Keep the placeholder honest: it used to claim "27,000+ rules" long after the real
+  // figure had settled at 25,926. Derive it so a data rebuild can never leave it lying.
+  if(searchEl && META.total) searchEl.placeholder=searchEl.placeholder.replace("the rules", META.total.toLocaleString()+" rules");
   var SYN={stun:"stunned",stunning:"stunned",fear:"frightened shaken",invis:"invisible invisibility",
     flatfooted:"flat-footed","flat footed":"flat-footed",aoo:"attack of opportunity",ac:"armor class",
     hp:"hit points",cmb:"combat maneuver",cmd:"combat maneuver defense",sr:"spell resistance",dr:"damage reduction",
