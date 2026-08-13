@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "51";
+  var DATA_V = "52";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -127,6 +127,15 @@
     ["Site","page-","Page backdrops and textures"],
     ["Other","","Everything else"]
   ];
+  // Remembers which gallery groups you left open. Read with one argument, write with two.
+  // Everything defaults to open, so the page looks unchanged until you collapse something.
+  function artGroupOpen(name, val){
+    var m={}; try{ m=JSON.parse(localStorage.getItem("pf_art_groups")||"{}")||{}; }catch(e){}
+    if(val===undefined) return m[name]!==false;
+    m[name]=!!val;
+    try{ localStorage.setItem("pf_art_groups",JSON.stringify(m)); }catch(e){}
+    return !!val;
+  }
   function viewArtGallery(){
     setActiveNav(null);
     // Iterate the PLAN, not what is on disk, so work still to do is visible. Presence comes
@@ -151,8 +160,21 @@
       });
       if(!mine.length) return;
       var got=mine.filter(function(k){ return ART[k]; }).length;
-      wrap.appendChild(h("h3",{class:"section-h"},g[0]+" ("+got+" of "+mine.length+")"));
-      wrap.appendChild(h("div",{class:"codex-note"},g[2]));
+      // Collapsible, remembered per group — 452 thumbnails is a lot to scroll past when you
+      // only care about one set. Same toggle pattern as the sidebar's Cool Stuff group.
+      var sec=h("section",{class:"artgroup"});
+      var tog=h("button",{class:"artgroup-toggle"});
+      tog.innerHTML='<span class="artgroup-title">'+esc(g[0])+' <span class="artgroup-count">'+got+' of '+mine.length+'</span></span><span class="nav-caret"></span>';
+      var body=h("div",{class:"artgroup-body"});
+      body.appendChild(h("div",{class:"codex-note"},g[2]));
+      sec.appendChild(tog); sec.appendChild(body); wrap.appendChild(sec);
+      function setOpen(o){
+        sec.classList.toggle("collapsed",!o);
+        tog.querySelector(".nav-caret").textContent=o?"▾":"▸";
+        tog.setAttribute("aria-expanded",o?"true":"false");
+      }
+      setOpen(artGroupOpen(g[0]));
+      tog.onclick=function(){ var o=sec.classList.contains("collapsed"); setOpen(o); artGroupOpen(g[0],o); };
       var grid=h("div",{class:"artgrid"});
       mine.forEach(function(k){
         var fig=h("figure",{class:"artcell"});
@@ -167,7 +189,7 @@
         fig.appendChild(h("figcaption",null,k));
         grid.appendChild(fig);
       });
-      wrap.appendChild(grid);
+      body.appendChild(grid);
     });
     swap(wrap); window.scrollTo(0,0);
   }
