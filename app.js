@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "50";
+  var DATA_V = "51";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -282,7 +282,11 @@
   function classArchScene(name){ var a=CLASS_ARCH[(""+name).toLowerCase()], inner=(a&&ARCH_SCENE[a])?ARCH_SCENE[a]:SCENE.classes; return '<svg class="cat-scene" viewBox="0 0 128 96" fill="currentColor" aria-hidden="true">'+inner+'</svg>'; }
   // painted backdrops (art/<key>.jpg): preload; only apply if the image actually exists (future-proof)
   var CAT_ART={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
-  function artKey(s){ return (""+s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""); }
+  // Apostrophes are DROPPED, not turned into separators: "Bull's Strength" -> bulls-strength.
+  // The prompt packs slug filenames the same way, and when these two rules disagreed the art
+  // for that spell existed but was unreachable — the app looked for bull-s-strength forever.
+  // Any change here must match tools/ and the prompt packs.
+  function artKey(s){ return (""+s).toLowerCase().replace(/['’]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""); }
   // Two different questions, two different lists — conflating them is what made the gallery
   // claim every backdrop existed when a third of them had not been drawn yet:
   //   ART_PLANNED — every key we INTEND to have. Hand-maintained; the roadmap. Drives the gallery.
