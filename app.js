@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "53";
+  var DATA_V = "54";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -116,12 +116,18 @@
     ["Classes","class-","Class entry bands — prestige classes, orders, oaths and bloodlines inherit these"],
     ["Races","race-","Race entry bands (also used for same-named monsters)"],
     ["Creature types","type-","Monster bands, chosen by creature type and alignment"],
+    ["Named monsters","monster-","A creature's own portrait — beats every generic fallback"],
     ["Creature subtypes","creature-","Monster bands by subtype — these beat the creature-type image"],
+    ["Deities","deity-","A god's own portrait; the rest share the pantheon image"],
     ["Schools of magic","school-","Spell entry bands, by school"],
     ["Spells","spell-","Individual spell bands — everything else falls back to its school"],
     ["Trait categories","trait-","One per trait category, covering every trait page"],
     ["Feat types","feat-","One per feat type"],
-    ["Items","item-","Wondrous by slot, plus weapon and armour variants assigned by entry id"],
+    ["Items","item-","Named artifacts, wondrous by slot, plus weapon and armour variants assigned by entry id"],
+    ["Class options","opt-","One per option category"],
+    ["Hazards","hazard-","One per affliction category"],
+    ["Rules scenes","rules-","Variety set assigned across every rules page by entry id"],
+    ["NPC scenes","npc-","Variety set assigned across every NPC page by entry id"],
     ["Category splashes","cat-","Category landing pages"],
     ["Tools & pages","tool-","Tool and utility page headers"],
     ["Site","page-","Page backdrops and textures"],
@@ -388,7 +394,241 @@
    "spell-true-seeing,spell-vampiric-touch,spell-wall-of-fire,spell-wall-of-force,spell-wall-of-stone,spell-web,,"+
    "spell-weird,spell-wish,spell-word-of-recall,trait-campaign,trait-combat,trait-cosmic,trait-drawback,,"+
    "trait-equipment,trait-exemplar,trait-faction,trait-faith,trait-family,trait-magic,trait-mount,trait-race,,"+
-   "trait-region,trait-religion,trait-social").split(",").forEach(function(k){ k=k.trim(); if(k) ART_PLANNED[k]=1; });
+   "trait-region,trait-religion,trait-social,"+
+   "deity-abadar,deity-abraxas,deity-aegirran,deity-aesdurath,deity-ahriman,deity-ajids,deity-aksha,deity-akuma,,"+
+   "deity-alazhra,deity-aldinach,deity-alichino,deity-alocer,deity-ananshea,deity-andak,deity-andirifkhu,,"+
+   "deity-andoletta,deity-angazhan,deity-angradd,deity-anogetz,deity-apollyon,deity-arazni,deity-ardad-lili,,"+
+   "deity-areshkagal,deity-arlachramas,deity-aroggus,deity-arqueros,deity-arshea,deity-ashava,deity-asmodeus,,"+
+   "deity-ayrzul,deity-baalzebul,deity-baphomet,deity-barbariccia,deity-barbatos,deity-barravoclair,,"+
+   "deity-belial,deity-benorus,deity-bergelmir,deity-bharnarol,deity-bifrons,deity-black-butterfly,deity-bohga,,"+
+   "deity-bolka,deity-braismois,deity-bundha,deity-caera,deity-cagnazzo,deity-calcabrina,deity-calistria,,"+
+   "deity-camazotz,deity-cayden-cailean,deity-cernunnos,deity-chadali,deity-chaldira,deity-chamiaholom,,"+
+   "deity-charg,deity-charon,deity-chavazvug,deity-chimon,deity-chucaro,deity-chugarra,deity-chupurvagasti,,"+
+   "deity-circiatto,deity-cixyron,deity-corosbel,deity-crocell,deity-dachzerul,deity-daclau-sar,deity-dagon,,"+
+   "deity-dalenydra,deity-damerrich,deity-deskari,deity-desna,deity-deumus,deity-diceid,deity-dispater,,"+
+   "deity-doloras,deity-dradjit,deity-draghignazzo,deity-dranngvit,deity-dretha,deity-droskar,deity-ealdeez,,"+
+   "deity-eaqueo,deity-easivra,deity-eiseth,deity-eldas,deity-eligos,deity-erastil,deity-erecura,deity-eritrice,,"+
+   "deity-falayna,deity-fandarra,deity-farfarello,deity-feronia,deity-fharaas,deity-findeladlara,deity-flauros,,"+
+   "deity-folca,deity-folgrit,deity-furcas,deity-gaap,deity-gavidya,deity-geon,deity-ghenshau,deity-gogunta,,"+
+   "deity-gorum,deity-gozreh,deity-graffiacane,deity-green-faith,deity-grundinnar,deity-guyuku,deity-haagenti,,"+
+   "deity-haborym,deity-haggakal,deity-halcamora,deity-hastrikhal,deity-hataam,deity-hembad,deity-hshurha,,"+
+   "deity-hudima,deity-hydim,deity-iaozrael,deity-iggeret,deity-immonhiel,deity-inkariax,deity-inma,,"+
+   "deity-iomedae,deity-ioramvol,deity-irez,deity-irori,deity-isph-aun-vuln,deity-izyagna,deity-jacarkas,,"+
+   "deity-jaidz,deity-jalaijatali,deity-jezelda,deity-jiraviddain,deity-jubilex,deity-jyotah,deity-kabriri,,"+
+   "deity-kaikyton,deity-kalma,deity-kelinahat,deity-kelizandri,deity-keltheald,deity-ketephys,deity-kitumu,,"+
+   "deity-kols,deity-korada,deity-kostchtchie,deity-kroina,deity-kunkarna,deity-laivatiniel,deity-lalaci,,"+
+   "deity-lamashtu,deity-lanishra,deity-libicocco,deity-lissala,deity-llamolaek,deity-lorcan,deity-lorris,,"+
+   "deity-lorthact,deity-losarkur,deity-lymnieris,deity-lythertida,deity-maeha,deity-magrim,deity-malacoda,,"+
+   "deity-malthus,deity-mammon,deity-marishi,deity-mazmezz,deity-menxyr,deity-mestama,deity-mneoc,,"+
+   "deity-morrobahn,deity-murnath,deity-muronna,deity-mursha,deity-nalmungder,deity-nameless,deity-nataka,,"+
+   "deity-nergal,deity-neshen,deity-nethys,deity-nightripper,deity-nivi-rhombodazzle,deity-nocticula,,"+
+   "deity-norgorber,deity-nulgreth,deity-nurgal,deity-oaur-ooung,deity-olheon,deity-onamahli,deity-ondisso,,"+
+   "deity-onmyuza,deity-orcus,deity-ose,deity-osolmyr,deity-otikaya,deity-ovonovo,deity-ozranvial,deity-pavnuri,,"+
+   "deity-pazuzu,deity-pharasma,deity-picoperi,deity-pirias,deity-prihasta,deity-pulura,deity-quindiovatos,,"+
+   "deity-raetorgash,deity-ragathiel,deity-rahu,deity-rasvocel,deity-ravana,deity-reymenda,deity-roqorolos,,"+
+   "deity-rovagug,deity-rowdrosh,deity-ruapceras,deity-rubicante,deity-rull,deity-ruzel,deity-rytara,,"+
+   "deity-sabnach,deity-sarenrae,deity-scarmiglione,deity-seramaydiel,deity-sezelrian,deity-shamira,,"+
+   "deity-shawnari,deity-shax,deity-shei,deity-shelyn,deity-shiggarreb,deity-shivaska,deity-sifkesh,,"+
+   "deity-sinashakti,deity-sithhud,deity-skode,deity-skrymir,deity-slandrais,deity-smiad,deity-socothbenoth,,"+
+   "deity-soralyon,deity-stygidvod,deity-svarozic,deity-szuriel,deity-tamede,deity-tanagaar,deity-thamir-gixx,,"+
+   "deity-thisamet,deity-thremyr,deity-thuskchoon,deity-titivilus,deity-tjasse,deity-tolc,deity-torag,,"+
+   "deity-treerazer,deity-trelmarixian,deity-tresmalvos,deity-trudd,deity-uaransaph,deity-urazra,deity-urgathoa,,"+
+   "deity-uruskreil,deity-urxehl,deity-uskyeria,deity-valani,deity-vapula,deity-varg,deity-venkelvore,,"+
+   "deity-verex,deity-vildeis,deity-vois,deity-vorasha,deity-winlas,deity-wylgart,deity-xhasnaphar,,"+
+   "deity-xoveron,deity-xsistaid,deity-yamasoth,deity-yan-gant-y-tan,deity-ydersius,deity-yhidothrus,,"+
+   "deity-ylimancha,deity-ymeri,deity-yuelral,deity-zaebos,deity-zagresh,deity-zaigasnar,deity-zarongel,,"+
+   "deity-zelishkar,deity-zepar,deity-zevgavizeb,deity-zogmugot,deity-zohls,deity-zon-kuthon,deity-zura,,"+
+   "feat-acrobatic,feat-acrobatic-steps,feat-agile-maneuvers,feat-alertness,feat-alignment-channel,,"+
+   "feat-animal-affinity,feat-arcane-armor-mastery,feat-arcane-armor-training,feat-arcane-strike,,"+
+   "feat-armor-proficiency-light,feat-athletic,feat-augment-summoning,feat-bleeding-critical,feat-blind-fight,,"+
+   "feat-blinding-critical,feat-brew-potion,feat-catch-off-guard,feat-channel-smite,feat-cleave,,"+
+   "feat-combat-casting,feat-combat-expertise,feat-combat-reflexes,feat-command-undead,,"+
+   "feat-craft-magic-arms-and-armor,feat-craft-staff,feat-craft-wand,feat-craft-wondrous-item,,"+
+   "feat-critical-focus,feat-critical-mastery,feat-dazzling-display,feat-deadly-aim,feat-deadly-stroke,,"+
+   "feat-deafening-critical,feat-deceitful,feat-defensive-combat-training,feat-deflect-arrows,feat-deft-hands,,"+
+   "feat-diehard,feat-disruptive,feat-dodge,feat-double-slice,feat-elemental-channel,feat-empower-spell,,"+
+   "feat-endurance,feat-enlarge-spell,feat-eschew-materials,feat-exhausting-critical,,"+
+   "feat-exotic-weapon-proficiency,feat-extend-spell,feat-extra-ki,feat-extra-lay-on-hands,feat-extra-mercy,,"+
+   "feat-extra-performance,feat-far-shot,feat-fleet,feat-forge-ring,feat-gorgons-fist,feat-great-cleave,,"+
+   "feat-great-fortitude,feat-greater-bull-rush,feat-greater-disarm,feat-greater-feint,feat-greater-grapple,,"+
+   "feat-greater-overrun,feat-greater-penetrating-strike,feat-greater-shield-focus,feat-greater-spell-focus,,"+
+   "feat-greater-spell-penetration,feat-greater-sunder,feat-greater-trip,feat-greater-two-weapon-fighting,,"+
+   "feat-greater-vital-strike,feat-greater-weapon-focus,feat-greater-weapon-specialization,feat-heighten-spell,,"+
+   "feat-improved-bull-rush,feat-improved-counterspell,feat-improved-critical,feat-improved-disarm,,"+
+   "feat-improved-familiar,feat-improved-feint,feat-improved-grapple,feat-improved-great-fortitude,,"+
+   "feat-improved-initiative,feat-improved-iron-will,feat-improved-lightning-reflexes,feat-improved-overrun,,"+
+   "feat-improved-precise-shot,feat-improved-shield-bash,feat-improved-sunder,feat-improved-trip,,"+
+   "feat-improved-unarmed-strike,feat-improved-vital-strike,feat-improvised-weapon-mastery,,"+
+   "feat-intimidating-prowess,feat-leadership,feat-lightning-stance,feat-lunge,feat-magical-aptitude,,"+
+   "feat-manyshot,feat-martial-weapon-proficiency,feat-master-craftsman,feat-maximize-spell,feat-medusas-wrath,,"+
+   "feat-mobility,feat-mounted-archery,feat-mounted-combat,feat-natural-spell,feat-nimble-moves,,"+
+   "feat-penetrating-strike,feat-persuasive,feat-pinpoint-targeting,feat-point-blank-shot,feat-power-attack,,"+
+   "feat-precise-shot,feat-quick-draw,feat-quicken-spell,feat-rapid-shot,feat-ride-by-attack,feat-run,,"+
+   "feat-scorpion-style,hazard-corruptions,hazard-curses,hazard-diseases,hazard-drugs,hazard-haunts,,"+
+   "hazard-madnesses,hazard-poisons,item-abyssal-runestone,item-aegis,item-agrimmosh,item-aigers-kiss,,"+
+   "item-alaznists-hateful-ranseur,item-amatatsu-seal,item-amethyst-crescent-ioun-stone,item-anathema-archive,,"+
+   "item-anima-focus,item-apocalypse-box,item-apollyon-ring,item-argental-font,item-arms-of-the-iron-god,,"+
+   "item-artrosa-ring,item-autodoc,item-automaton-core,item-avernus-claw,item-axe-of-the-dwarvish-lords,,"+
+   "item-azlanti-orrery,item-azlanti-sealstone,item-baba-yagas-besom,item-baba-yagas-mortar-and-pestle,,"+
+   "item-balgorrah,item-barding-of-pleated-light,item-beacon-of-true-faith,item-beam-cannon-gravity-cannon,,"+
+   "item-belimariuss-invidious-halberd,item-bell-of-mercy,item-bellwether-brooch,item-black-iron-axe,,"+
+   "item-blackaxe,item-bloodstones-of-arazni,item-bone-house,item-book-of-infinite-spells,,"+
+   "item-book-of-the-damned,item-book-of-the-damned-apocrypha,item-book-of-the-damned-daemonic,,"+
+   "item-book-of-the-damned-demonic,item-book-of-the-damned-diabolic,item-bottle-of-the-bound,,"+
+   "item-bracers-of-the-immortal-hunt,item-branch-of-life,item-brazen-egg,item-briar,,"+
+   "item-bullroarers-of-outburst,item-calabash-of-last-draughts,item-cantorian-spring,item-celestial-lens,,"+
+   "item-chalice-of-lissala,item-chalice-of-ozem,item-chronicle-of-the-righteous,item-cicatrix,,"+
+   "item-cloud-castle-of-the-storm-king,item-cloud-diadem,item-codex-of-the-infinite-planes,,"+
+   "item-compact-ai-core,item-cradle-of-night,item-crook-and-flail-of-kings,item-crown-of-fangs,,"+
+   "item-crown-of-infernal-majesty,item-crown-of-the-iron-king,item-crown-of-the-simurgh,,"+
+   "item-crystal-control-rod,item-cubic-spiral,item-cup-of-forbidden-knowledge,item-dancing-hut-of-baba-yaga,,"+
+   "item-dark-grimoire,item-dawnflowers-kiss,item-decemvirate-helm,item-deck-of-harrowed-tales,,"+
+   "item-deck-of-many-things,item-demon-prince-armor,item-deskaris-tooth,item-final-blade,,"+
+   "item-flame-of-guidance,item-fork-of-the-forgotten-one,item-funerary-crown-of-the-true-king,,"+
+   "item-horns-of-naraga,item-jar-of-dragons-teeth,item-knucklebone-of-fickle-fortune,item-monkeys-paw,,"+
+   "item-orbs-of-dragonkind,item-perfect-golden-lute,item-perfections-key,item-philosophers-stone,,"+
+   "item-runescarred-dragonship,item-shadowstaff,item-skullsoul,item-sphere-of-annihilation,,"+
+   "item-spindle-of-perfect-knowledge,item-staff-of-the-magi,item-sun-orchid-elixir,item-talisman-of-pure-good,,"+
+   "item-talisman-of-reluctant-wishes,item-talisman-of-the-sphere,item-talisman-of-ultimate-evil,,"+
+   "item-the-moaning-diamond,item-the-shield-of-the-sun,item-wardstone,item-weird-queens-magpie,monster-aboleth,,"+
+   "monster-adult-black-dragon,monster-adult-brass-dragon,monster-adult-white-dragon,monster-alghollthu,,"+
+   "monster-animated-object,monster-ankheg,monster-ankylosaurus,monster-army-ant-swarm,monster-assassin-vine,,"+
+   "monster-aurochs,monster-azata,monster-babau,monster-barbed-devil-hamatula,monster-barghest,,"+
+   "monster-basidirond,monster-basilisk,monster-bat-swarm,monster-bearded-devil-barbazu,monster-bebilith,,"+
+   "monster-behir,monster-bison,monster-black-pudding,monster-boar,monster-bone-devil,,"+
+   "monster-bone-devil-osyluth,monster-brachiosaurus,monster-bralani,monster-bugbear,monster-bulette,,"+
+   "monster-cauchemar,monster-cave-fisher,monster-centaur,monster-centipede-swarm,monster-cheetah,,"+
+   "monster-chimera,monster-choker,monster-chuul,monster-clay-golem,monster-cloaker,monster-cloud-giant,,"+
+   "monster-cockatrice,monster-constrictor-snake,monster-couatl,monster-crab-swarm,monster-crocodile,,"+
+   "monster-cyclops,monster-dark-creeper,monster-dark-folk,monster-dark-naga,monster-dark-stalker,,"+
+   "monster-darkmantle,monster-deinonychus,monster-demon,monster-derro,monster-devil,monster-devourer,,"+
+   "monster-dinosaur,monster-dire-ape-gigantopithecus,monster-dire-bat,monster-dire-bear-cave-bear,,"+
+   "monster-dire-boar-daeodon,monster-dire-crocodile,monster-dire-hyena-hyaenodon,,"+
+   "monster-dire-lion-spotted-lion,monster-dire-shark-megalodon,monster-dire-tiger-smilodon,monster-dire-wolf,,"+
+   "monster-dire-wolverine,monster-djinni,monster-dog,monster-dolphin,monster-doppelganger,monster-dragon-black,,"+
+   "monster-dragon-blue,monster-dragon-brass,monster-dragon-bronze,monster-dragon-copper,monster-dragon-gold,,"+
+   "monster-dragon-green,monster-dragon-red,monster-dragon-silver,monster-dragon-turtle,monster-dragon-white,,"+
+   "monster-dretch,monster-drider,monster-dryad,monster-eagle,monster-efreeti,monster-elasmosaurus,,"+
+   "monster-elder-air-elemental,monster-elder-earth-elemental,monster-elder-fire-elemental,,"+
+   "monster-elder-water-elemental,monster-electric-eel,monster-elemental-air,monster-elemental-earth,,"+
+   "monster-elemental-fire,monster-elemental-water,monster-elephant,monster-erinyes,monster-ettercap,,"+
+   "monster-ettin,monster-fire-beetle,monster-fire-giant,monster-flesh-golem,monster-frost-giant,,"+
+   "monster-gargoyle,monster-gelatinous-cube,monster-genie,monster-ghost,monster-ghoul,monster-giant-ant,,"+
+   "monster-giant-centipede,monster-giant-crab,monster-giant-eagle,monster-giant-flytrap,,"+
+   "monster-giant-frilled-lizard,monster-giant-frog,monster-giant-leech,monster-giant-mantis,,"+
+   "monster-giant-moray-eel,monster-giant-octopus,monster-giant-scorpion,monster-giant-slug,,"+
+   "monster-giant-spider,monster-giant-squid,monster-giant-stag-beetle,monster-giant-wasp,,"+
+   "monster-gibbering-mouther,monster-girallon,monster-gnoll,monster-goblin-dog,monster-gorgon,monster-gorilla,,"+
+   "monster-gray-ooze,monster-greater-air-elemental,monster-greater-barghest,monster-greater-earth-elemental,,"+
+   "monster-greater-fire-elemental,monster-greater-shadow,monster-greater-water-elemental,monster-green-hag,,"+
+   "monster-griffon,monster-grizzly-bear,monster-guardian-naga,monster-gynosphinx,,"+
+   "monster-half-celestial-unicorn,monster-half-dragon-black-dragon-basilisk,monster-half-fiend-minotaur,,"+
+   "monster-harpy,monster-hell-hound,monster-herd-animal,monster-hill-giant,monster-homunculus,monster-horse,,"+
+   "monster-hound-archon,monster-huge-air-elemental,monster-huge-earth-elemental,monster-huge-fire-elemental,,"+
+   "monster-huge-water-elemental,monster-human-skeleton,monster-human-zombie,monster-hydra,monster-hyena,,"+
+   "monster-ice-golem,monster-imp,monster-intellect-devourer,monster-invisible-stalker,monster-iron-cobra,,"+
+   "monster-janni,monster-juvenile-white-dragon,monster-kyton,monster-lamia,monster-lantern-archon,,"+
+   "monster-large-air-elemental,monster-large-earth-elemental,monster-large-fire-elemental,,"+
+   "monster-large-water-elemental,monster-leech-swarm,monster-lemure,monster-lillend,monster-lion,,"+
+   "monster-lycanthrope,monster-manticore,monster-marid,monster-mastodon,monster-mature-adult-black-dragon,,"+
+   "monster-mature-adult-blue-dragon,monster-medium-air-elemental,monster-medium-earth-elemental,,"+
+   "monster-medium-fire-elemental,monster-medium-water-elemental,monster-medusa,monster-megafauna,,"+
+   "monster-mephit,monster-mimic,monster-minotaur,monster-mite,monster-mohrg,monster-monitor-lizard,,"+
+   "monster-morlock,monster-mummy,monster-nabasu,monster-naga,monster-nessian-warhound,monster-night-hag,,"+
+   "monster-nightmare,monster-nymph,monster-ochre-jelly,monster-octopus,monster-ogre,monster-ogre-mage,,"+
+   "monster-orca,monster-otyugh,monster-owlbear,monster-pegasus,monster-phase-spider,monster-pixie,,"+
+   "monster-poison-frog,monster-pony,monster-pseudodragon,monster-pteranodon,monster-quasit,monster-rakshasa,,"+
+   "monster-rat-swarm,monster-raven,monster-remorhaz,monster-rhinoceros,monster-riding-dog,monster-roc,,"+
+   "monster-rust-monster,monster-salamander,monster-satyr,monster-sea-hag,monster-shadow,monster-shadow-demon,,"+
+   "monster-shaitan,monster-shambling-mound,monster-shark,monster-shocker-lizard,monster-skeletal-champion,,"+
+   "monster-skeleton,monster-skum,monster-small-air-elemental,monster-small-earth-elemental,,"+
+   "monster-small-fire-elemental,monster-small-water-elemental,monster-spectre,monster-spider-swarm,,"+
+   "monster-spirit-naga,monster-squid,monster-stegosaurus,monster-stirge,monster-stone-giant,monster-succubus,,"+
+   "monster-tiger,monster-treant,monster-triceratops,monster-troglodyte,monster-troll,monster-tyrannosaurus,,"+
+   "monster-unicorn,monster-vampire,monster-vargouille,monster-vegepygmy,monster-venomous-snake,,"+
+   "monster-very-old-green-dragon,monster-violet-fungus,monster-vrock,monster-wasp-swarm,,"+
+   "monster-wererat-human-form,monster-wererat-hybrid-form,monster-werewolf-human-form,,"+
+   "monster-werewolf-hybrid-form,monster-wight,monster-will-o-wisp,monster-winter-wolf,monster-wolf,,"+
+   "monster-wolverine,monster-wood-golem,monster-woolly-rhinoceros,monster-worg,monster-wraith,,"+
+   "monster-wyrm-red-dragon,monster-wyvern,monster-xill,monster-xorn,monster-yellow-musk-creeper,,"+
+   "monster-yeth-hound,monster-yeti,monster-young-black-dragon,monster-young-blue-dragon,,"+
+   "monster-young-brass-dragon,monster-young-bronze-dragon,monster-young-copper-dragon,,"+
+   "monster-young-green-dragon,monster-young-red-dragon,monster-young-silver-dragon,monster-young-white-dragon,,"+
+   "npc-1,npc-10,npc-11,npc-12,npc-2,npc-3,npc-4,npc-5,npc-6,npc-7,npc-8,npc-9,opt-adv-armor-training,,"+
+   "opt-adv-weapon-training,opt-blessings,opt-bloodlines,opt-construct-mods,opt-disciplines,opt-domains,,"+
+   "opt-emotional-focus,opt-exploits,opt-implement-schools,opt-mysteries,opt-orders,opt-phrenic,opt-schools,,"+
+   "opt-shifter,opt-spirits,opt-stares,opt-tricks,opt-unique-patrons,opt-wild-talents,rules-1,rules-10,rules-11,,"+
+   "rules-12,rules-13,rules-14,rules-15,rules-16,rules-17,rules-18,rules-19,rules-2,rules-20,rules-21,rules-22,,"+
+   "rules-23,rules-24,rules-25,rules-26,rules-27,rules-28,rules-29,rules-3,rules-30,rules-31,rules-32,rules-33,,"+
+   "rules-34,rules-35,rules-36,rules-37,rules-38,rules-39,rules-4,rules-40,rules-5,rules-6,rules-7,rules-8,,"+
+   "rules-9,spell-abundant-ammunition,spell-air-breathing,spell-air-bubble,spell-air-step,spell-alarm,,"+
+   "spell-alaznists-jinx,spell-alleviate-addiction,spell-ally-across-time,spell-alter-summoned-monster,,"+
+   "spell-animal-purpose-training,spell-ant-haul,spell-ant-haul-communal,spell-army-across-time,,"+
+   "spell-artificers-curse,spell-aspect-of-the-nightingale,spell-banishing-blade,spell-baphomets-blessing,,"+
+   "spell-bears-endurance,spell-bears-endurance-mass,spell-bestow-curse,spell-bestow-curse-greater,,"+
+   "spell-bestow-insight,spell-bestow-planar-infusion-i,spell-bestow-planar-infusion-ii,,"+
+   "spell-bestow-weapon-proficiency,spell-bit-of-luck,spell-bleed,spell-blend,spell-blend-with-surroundings,,"+
+   "spell-blindness-deafness,spell-blood-biography,spell-blood-blaze,spell-blood-scent,spell-blood-tentacles,,"+
+   "spell-bloodbath,spell-bloody-arrows,spell-boiling-blood,spell-bone-fists,spell-bone-flense,spell-boneshaker,,"+
+   "spell-break-enchantment,spell-brightest-light,spell-brightest-night,spell-brittle-portal,spell-bullet-ward,,"+
+   "spell-bulls-strength-mass,spell-carrion-compass,spell-cats-grace,spell-cats-grace-mass,spell-cause-fear,,"+
+   "spell-caustic-blood,spell-celestial-companion,spell-celestial-healing,spell-celestial-healing-greater,,"+
+   "spell-channel-the-gift,spell-claim-identity,spell-claim-identity-greater,spell-clarion-call,spell-clay-skin,,"+
+   "spell-cloak-of-secrets,spell-cold-iron-fetters,spell-collaborative-thaumaturgy,spell-commune-with-birds,,"+
+   "spell-companion-transportation,spell-compel-hostility,spell-compel-tongue,spell-compel-tongue-mass,,"+
+   "spell-comprehend-languages,spell-concealed-breath,spell-conditional-favor,spell-contact-entity-i,,"+
+   "spell-contact-entity-ii,spell-contagion,spell-contagion-greater,spell-control-vermin,spell-cowards-cowl,,"+
+   "spell-cruel-jaunt,spell-cure-critical-wounds,spell-cure-light-wounds-mass,spell-cure-moderate-wounds,,"+
+   "spell-curse-of-befouled-fortune,spell-curse-terrain,spell-curse-terrain-greater,spell-cursed-treasure,,"+
+   "spell-daemon-ward,spell-dancing-darkness,spell-dancing-lantern,spell-dark-whispers,spell-darkness,,"+
+   "spell-darkvault,spell-darting-duplicate,spell-daze,spell-daze-mass,spell-deadeyes-arrow,spell-delay-pain,,"+
+   "spell-delay-poison-communal,spell-desperate-weapon,spell-detect-charm,spell-detect-fiendish-presence,,"+
+   "spell-detect-magic-greater,spell-detect-radiation,spell-detoxify,spell-dimensional-blade,,"+
+   "spell-diminish-resistance,spell-discharge,spell-discharge-greater,spell-display-aversion,,"+
+   "spell-draconic-malice,spell-eagles-splendor,spell-eagles-splendor-mass,spell-ears-of-the-city,,"+
+   "spell-elemental-speech,spell-enchantment-sight,spell-endure-elements,spell-endure-elements-communal,,"+
+   "spell-face-of-the-devourer,spell-false-future,spell-fear,spell-fear-the-sun,spell-ferment,,"+
+   "spell-final-sacrifice,spell-find-fault,spell-flaming-aura,spell-flash-forward,spell-flickering-lights,,"+
+   "spell-frigid-souls,spell-frosty-aura,spell-gird-ally,spell-glimpse-of-truth,spell-globe-of-tranquil-water,,"+
+   "spell-grasp,spell-guardian-armor,spell-guardian-monument-greater,spell-guardian-monument-lesser,,"+
+   "spell-hasten-judgment,spell-heightened-awareness,spell-hobble,spell-hold-fey,spell-horrifying-visage,,"+
+   "spell-hydrophobia,spell-ignoble-form,spell-infernal-healing,spell-infernal-healing-greater,,"+
+   "spell-influence-wild-magic,spell-insect-scouts,spell-instant-clot,spell-instant-portrait,,"+
+   "spell-instant-weapon,spell-iron-stake,spell-ironskin,spell-irradiate,spell-irregular-size,,"+
+   "spell-itching-curse,spell-kalistocrats-nightmare,spell-know-peerage,spell-lead-plating,spell-lend-path,,"+
+   "spell-liberating-command,spell-light-prison,spell-lighten-object,spell-lighten-object-mass,,"+
+   "spell-locate-object,spell-locate-portal,spell-lovers-vengeance,spell-lucky-number,spell-mages-decree,,"+
+   "spell-magic-circle-against-chaos,spell-magic-circle-against-evil,spell-magic-circle-against-good,,"+
+   "spell-magic-circle-against-law,spell-magic-weapon,spell-magic-weapon-greater,spell-marids-mastery,,"+
+   "spell-mark-of-buoyancy,spell-masters-escape,spell-masterwork-transformation,spell-mathematical-curse,,"+
+   "spell-mending,spell-mortal-terror,spell-murderous-crow,spell-neutralize-poison,,"+
+   "spell-neutralize-poison-greater,spell-night-blindness,spell-obscure-poison,spell-outbreak,,"+
+   "spell-overstimulate,spell-owls-wisdom,spell-owls-wisdom-mass,spell-pack-empathy,spell-paragon-surge,,"+
+   "spell-peace-bond,spell-pesh-vigor,spell-pierce-facade,spell-plague-bearer,spell-planar-orientation,,"+
+   "spell-planetarium,spell-poisoned-egg,spell-positive-pulse,spell-positive-pulse-greater,spell-preserve,,"+
+   "spell-protection-from-chaos,spell-protection-from-chaos-communal,spell-protection-from-energy,,"+
+   "spell-protection-from-energy-communal,spell-quick-change,spell-quieting-weapons,spell-radiation-ward,,"+
+   "spell-raging-rubble,spell-rain-of-frogs,spell-ravens-flight,spell-read-weather,spell-recharge-innate-magic,,"+
+   "spell-red-hand-of-the-killer,spell-redcaps-touch,spell-release-the-hounds,spell-remove-curse,,"+
+   "spell-remove-radioactivity,spell-remove-radioactivity-greater,spell-resist-energy,,"+
+   "spell-resist-energy-communal,spell-resistance,spell-returning-weapon,spell-returning-weapon-communal,,"+
+   "spell-reveal-mirage,spell-reveal-true-shape,spell-revenant-armor,spell-ride-the-waves,spell-rising-water,,"+
+   "spell-rock-whip,spell-sadomasochism,spell-sarzari-shadow-memory,spell-scrying,spell-scrying-greater,,"+
+   "spell-secret-speech,spell-seek-shelter,spell-sense-fear,spell-shadow-trap,spell-shadowmind,,"+
+   "spell-share-glory,spell-share-language,spell-shared-training,spell-shatter,spell-shield-speech,,"+
+   "spell-shield-speech-greater,spell-shroud-of-darkness,spell-silverlight,spell-skim,spell-slave-to-sin,,"+
+   "spell-soul-vault,spell-soulswitch,spell-spark,spell-speak-local-language,spell-speechreaders-sight,,"+
+   "spell-spell-gauge,spell-spirit-share,spell-spotlight,spell-starsight,spell-stone-shield,,"+
+   "spell-stone-throwing,spell-storm-sight,spell-summon-accuser,spell-summon-flight-of-eagles,,"+
+   "spell-summon-infernal-host,spell-summon-minor-monster,spell-summon-monster-1,spell-summon-monster-2,,"+
+   "spell-summon-swarm,spell-summon-totem-creature-shoanti,spell-suns-disdain,spell-suns-disdain-mass,,"+
+   "spell-suppress-charms-and-compulsions,spell-sure-casting,spell-sword-to-snake,spell-tail-current,,"+
+   "spell-tailwind,spell-tears-to-wine,spell-tongues,spell-tongues-communal,spell-touch-of-blindness,,"+
+   "spell-touch-of-bloodletting,spell-touch-of-slumber,spell-toxic-blood,spell-transplant-visage,,"+
+   "spell-trial-of-fire-and-acid,spell-twisted-futures,spell-umbral-strike,spell-unbreakable-heart,,"+
+   "spell-vampiric-hunger,spell-vile-dog-transformation,spell-vision-of-hell,spell-voluminous-vocabulary,,"+
+   "spell-waft,spell-wall-of-split-illumination,spell-water-breathing,spell-waterproof,spell-wave-form,,"+
+   "spell-web-shelter,spell-what-grows-within,spell-wind-wall,spell-winter-feathers").split(",").forEach(function(k){ k=k.trim(); if(k) ART_PLANNED[k]=1; });
   // What is genuinely on disk. Falls back to the plan if the manifest is missing, so a stale
   // deploy degrades to the old behaviour rather than losing every backdrop at once.
   var ART={};
@@ -472,8 +712,19 @@
   var ITEM_CAT_ART={"Rings":"ring","Rods":"rod","Staves":"staff","Artifacts":"artifact","Cursed Items":"cursed",
     "Intelligent Items":"intelligent","Potions & Oils":"potion","Pharmaceuticals":"potion","Technology":"technology",
     "Cybertech":"technology","Psi-Tech":"technology"};
+  // Class-option art is keyed off rawCat, but six of the twenty keys are NOT the slug of their
+  // category ("Phrenic Amplifications" -> opt-phrenic). Derived keys would silently miss those,
+  // so the mapping is explicit. Same lesson as the Bull's Strength slug mismatch.
+  var OPTION_ART={"Wild Talents":"wild-talents","Exploits":"exploits","Bloodlines":"bloodlines","Tricks":"tricks",
+    "Blessings":"blessings","Domains":"domains","Mysteries":"mysteries","Phrenic Amplifications":"phrenic",
+    "Shifter":"shifter","Stares":"stares","Advanced Weapon Training":"adv-weapon-training","Disciplines":"disciplines",
+    "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
+    "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
+    "Unique Patrons":"unique-patrons"};
+  var RULES_SCENES=40, NPC_SCENES=12;   // variety sets, assigned by id hash
   function itemArt(row, push){
     var raw=row[I_RAW]||"", slot=String((row[I_FAC]||{}).slot||"").toLowerCase();
+    push(have("item-"+artKey(row[I_NAME])));            // named artifacts win outright
     if(raw==="Weapons") return push("item-weapon-"+(hash32(row[I_ID])%6+1));
     if(raw==="Armor")   return push("item-armorset-"+(hash32(row[I_ID])%6+1));
     if(ITEM_CAT_ART[raw]) push("item-"+ITEM_CAT_ART[raw]);
@@ -492,16 +743,23 @@
     function push(k){ if(k) out.push(k); }
     if(b==="classes"){ push("class-"+nm); push(inheritedClassArt(row[I_NAME])); }
     else if(b==="races") push("race-"+nm);
-    else if(b==="deities") push("deities-pantheon");
+    else if(b==="deities"){ push(have("deity-"+nm)); push("deities-pantheon"); }
     else if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; if(c) push(have("class-"+artKey(c))); }
     else if(b==="traits"){ if(fac.cat) push("trait-"+artKey(fac.cat)); }
-    else if(b==="feats"){ if(fac.t) push("feat-"+artKey(fac.t)); }
+    else if(b==="feats"){ push(have("feat-"+nm)); if(fac.t) push("feat-"+artKey(fac.t)); }
     else if(b==="items") itemArt(row, push);
+    else if(b==="options"){ var oa=OPTION_ART[row[I_RAW]]; if(oa) push("opt-"+oa); }
+    else if(b==="hazards") push("hazard-"+artKey(row[I_RAW]||""));
+    // Rules and NPC pages have no category to sort them by, so they draw from a variety set,
+    // assigned by id hash: stable per page, but the reader stops seeing one picture everywhere.
+    else if(b==="rules") push(have("rules-"+(hash32(row[I_ID])%RULES_SCENES+1)));
+    else if(b==="npcs")  push(have("npc-"+(hash32(row[I_ID])%NPC_SCENES+1)));
     else if(b==="spells"){
       push(have("spell-"+nm));
       if(fac.sch && fac.sch!=="universal") push(have("school-"+fac.sch));
     }
     else if(b==="monsters"){
+      push(have("monster-"+nm));                                // its own portrait beats everything
       push(have("race-"+nm));                                   // Goblin, Orc, Kobold, Drow…
       if(fac.st) push("creature-"+artKey(fac.st));              // demon, devil, psychopomp…
       var t=artKey(fac.t||""), al=String(fac.al||"");
