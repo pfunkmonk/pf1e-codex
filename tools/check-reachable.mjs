@@ -10,20 +10,56 @@ const present = new Set(globalThis.window.PF_ART);
 // must stay identical to artKey() in app.js
 const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
+// Must mirror entryArtKey() in app.js. If a rule is added there and not here, this check
+// starts crying wolf; if a rule is added here and not there, real dead art goes unnoticed.
+const OPTION_ART = { "Wild Talents":"wild-talents","Exploits":"exploits","Bloodlines":"bloodlines","Tricks":"tricks",
+  "Blessings":"blessings","Domains":"domains","Mysteries":"mysteries","Phrenic Amplifications":"phrenic",
+  "Shifter":"shifter","Stares":"stares","Advanced Weapon Training":"adv-weapon-training","Disciplines":"disciplines",
+  "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
+  "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
+  "Unique Patrons":"unique-patrons" };
+const hash32 = s => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = (h * 16777619) >>> 0; } return h; };
+const SLOT_ART = { armor:"armor",weapon:"weapon",shield:"shield",head:"head",helmet:"head",face:"head",mask:"head",
+  ears:"head",headband:"headband",brain:"headband",eyes:"eyes",eye:"eyes",goggles:"eyes",neck:"neck",amulet:"neck",
+  necklace:"neck",shoulders:"shoulders",shoulder:"shoulders",cloak:"shoulders",mantle:"shoulders",back:"shoulders",
+  chest:"chest",body:"body",torso:"body",belt:"belt",waist:"belt",wrist:"wrists",wrists:"wrists",arm:"wrists",
+  arms:"wrists",hand:"hands",hands:"hands",gloves:"hands",gauntlet:"hands",feet:"feet",boots:"feet",legs:"feet",
+  ring:"ring",held:"held",rod:"held" };
+const ITEM_CAT_ART = { Rings:"ring",Rods:"rod",Staves:"staff",Artifacts:"artifact","Cursed Items":"cursed",
+  "Intelligent Items":"intelligent","Potions & Oils":"potion",Pharmaceuticals:"potion",Technology:"technology",
+  Cybertech:"technology","Psi-Tech":"technology" };
+
 const reach = new Set();
 for (const r of globalThis.window.PF_INDEX) {
-  const b = r[2], f = r[6] || {};
-  if (b === "spells")  reach.add("spell-" + artKey(r[1]));
-  if (b === "races")   reach.add("race-" + artKey(r[1]));
-  if (b === "classes") reach.add("class-" + artKey(r[1]));
+  const b = r[2], f = r[6] || {}, nm = artKey(r[1]);
+  if (b === "spells")  reach.add("spell-" + nm);
+  if (b === "races")   reach.add("race-" + nm);
+  if (b === "classes") reach.add("class-" + nm);
+  if (b === "deities") reach.add("deity-" + nm);
   if (b === "traits" && f.cat) reach.add("trait-" + artKey(f.cat));
-  if (b === "feats" && f.t)    reach.add("feat-" + artKey(f.t));
-  if (b === "monsters" && f.st) reach.add("creature-" + artKey(f.st));
-  // monsters try a same-named race portrait first — this is how race-lizardfolk earns its
-  // keep despite there being no Lizardfolk *race* entry
-  if (b === "monsters") reach.add("race-" + artKey(r[1]));
+  if (b === "feats") { reach.add("feat-" + nm); if (f.t) reach.add("feat-" + artKey(f.t)); }
+  if (b === "items") {
+    reach.add("item-" + nm);                                   // named artifacts
+    const slot = String(f.slot || "").toLowerCase();
+    if (SLOT_ART[slot]) reach.add("item-" + SLOT_ART[slot]);   // wondrous, by body slot
+    if (ITEM_CAT_ART[r[3]]) reach.add("item-" + ITEM_CAT_ART[r[3]]);
+    if (r[3] === "Wondrous Items") reach.add("item-wondrous");
+    reach.add("item-generalstore");
+  }
+  if (b === "options" && OPTION_ART[r[3]]) reach.add("opt-" + OPTION_ART[r[3]]);
+  if (b === "hazards") reach.add("hazard-" + artKey(r[3] || ""));
+  if (b === "rules") reach.add("rules-" + (hash32(r[0]) % 40 + 1));
+  if (b === "npcs")  reach.add("npc-" + (hash32(r[0]) % 12 + 1));
+  if (b === "monsters") {
+    reach.add("monster-" + nm);
+    if (f.st) reach.add("creature-" + artKey(f.st));
+    // monsters try a same-named race portrait first — this is how race-lizardfolk earns its
+    // keep despite there being no Lizardfolk *race* entry
+    reach.add("race-" + nm);
+  }
 }
-const fixedPrefixes = ["cat-", "school-", "tool-", "page-", "item-", "type-", "home-", "misc-", "deities-"];
+const fixedPrefixes = ["cat-", "school-", "tool-", "page-", "type-", "home-", "misc-", "deities-",
+  "item-weapon-", "item-armorset-", "item-wondrous", "item-generalstore"];
 const orphans = [...present].filter(k => !reach.has(k) && !fixedPrefixes.some(p => k.startsWith(p)));
 console.log(`art files: ${present.size}`);
 console.log(`unreachable from entry data: ${orphans.length}`);
