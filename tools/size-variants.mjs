@@ -44,6 +44,13 @@ const vk = (n, id) => `${n}-${hash32(id) % (VARIETY[n] || 1) + 1}`;
 const SLOT={armor:"armor",weapon:"weapon",shield:"shield",head:"head",helmet:"head",face:"head",mask:"head",ears:"head",headband:"headband",brain:"headband",eyes:"eyes",eye:"eyes",goggles:"eyes",neck:"neck",amulet:"neck",necklace:"neck",shoulders:"shoulders",shoulder:"shoulders",cloak:"shoulders",mantle:"shoulders",back:"shoulders",chest:"chest",body:"body",torso:"body",belt:"belt",waist:"belt",wrist:"wrists",wrists:"wrists",arm:"wrists",arms:"wrists",hand:"hands",hands:"hands",gloves:"hands",gauntlet:"hands",feet:"feet",boots:"feet",legs:"feet",ring:"ring",held:"held",rod:"held"};
 const ICAT={Rings:"ring",Rods:"rod",Staves:"staff",Artifacts:"artifact","Cursed Items":"cursed","Intelligent Items":"intelligent","Potions & Oils":"potion",Pharmaceuticals:"potion",Technology:"technology",Cybertech:"technology","Psi-Tech":"technology"};
 
+function bodyHit(bucket, id) {
+  const key = BODY_MAP[id]; if (!key) return null;
+  const table = BODY_THEMES[bucket]; if (!table || !table.some(r => r[0] === key)) return null;
+  const n = bodyVariants[`${bucket}/${key}`] || 1;
+  return { art: `theme-${bucket}-${key}-${n > 1 ? hash32(id) % n + 1 : 1}`, owner: { kind: "body", key: `${bucket}/${key}` } };
+}
+
 function themeHit(bucket, r) {
   const t = THEMES[bucket]; if (!t) return null;
   const n = r[1] || "", x = r[5] || "";
@@ -62,12 +69,14 @@ function resolve(r) {
     if (ART.has("feat-" + artKey(r[1]))) return null;                       // named: 1 page, fine
     const th = themeHit("feats", r);
     if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
+    const bh = bodyHit("feats", id); if (bh) return bh;
     return { art: vk(FALLBACK.feats, id), owner: { kind: "variety", key: FALLBACK.feats } };
   }
   if (b === "items") {
     if (ART.has("item-" + artKey(r[1]))) return null;
     const th = themeHit("items", r);
     if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
+    const bh = bodyHit("items", id); if (bh) return bh;
     const raw = r[3] || "", slot = String(fac.slot || "").toLowerCase();
     for (const [cond, name] of [[raw === "Weapons", "item-weapon"], [raw === "Armor", "item-armorset"], [raw === "Artifacts", "item-artifact"]])
       if (cond) return { art: vk(name, id), owner: { kind: "variety", key: name } };
@@ -85,11 +94,7 @@ function resolve(r) {
     if (ART.has("spell-" + artKey(r[1]))) return null;
     const th = themeHit("spells", r);
     if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
-    const bk = BODY_MAP[id];
-    if (bk && BODY_THEMES.spells && BODY_THEMES.spells.some(r => r[0] === bk)) {
-      const n = bodyVariants[`spells/${bk}`] || 1;
-      return { art: `theme-spells-${bk}-${n > 1 ? hash32(id) % n + 1 : 1}`, owner: { kind: "body", key: `spells/${bk}` } };
-    }
+    const bh = bodyHit("spells", id); if (bh) return bh;
     if (fac.sch && fac.sch !== "universal") return { art: vk("school-" + fac.sch, id), owner: { kind: "variety", key: "school-" + fac.sch } };
     return null;
   }

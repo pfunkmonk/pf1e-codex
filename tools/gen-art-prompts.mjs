@@ -21,6 +21,7 @@ import path from "node:path";
 import { ITEM_SCENES, ITEM_VARIETY } from "./art-scenes-items.mjs";
 import { SPELL_THEME_SCENES, SCHOOL_SCENES, BODY_MOTIF_SCENES } from "./art-scenes-spells.mjs";
 import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } from "./art-scenes-monsters.mjs";
+import { FEAT_MOTIF_SCENES, ITEM_MOTIF_SCENES } from "./art-scenes-motifs.mjs";
 import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
 
 const slug = t => String(t).toLowerCase().replace(/['\u2019]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -818,6 +819,7 @@ const BATCHES = {
     blurb: "This batch completes feat art: every one of the 3,457 feat pages ends up backed by an image\nserving no more than about 20 pages, down from a single image currently serving 2,010.",
     parts: [
       { kind: "themes", bucket: "feats", scenes: SCENES, section: "Theme art" },
+      { kind: "bodythemes", bucket: "feats", scenes: FEAT_MOTIF_SCENES, section: "Feat body motif art" },
       { kind: "variety", name: "feat-scene", scenes: FALLBACK_SCENES, section: "General feat scenes" },
       { kind: "named", list: NAMED_FEATS, section: "Named feats" }
     ]
@@ -828,6 +830,7 @@ const BATCHES = {
     blurb: "Items is the largest bucket in the Codex — 6,677 pages, a quarter of everything. These are the\nOBJECT themes: art keyed to what a thing actually is, replacing a single general-store image\nthat currently backs 1,931 pages.",
     parts: [
       { kind: "themes", bucket: "items", scenes: ITEM_SCENES, section: "Item theme art" },
+      { kind: "bodythemes", bucket: "items", scenes: ITEM_MOTIF_SCENES, section: "Item body motif art" },
       { kind: "variety", name: "item-neck", scenes: ITEM_VARIETY["item-neck"], section: "Body slot: neck" },
       { kind: "variety", name: "item-head", scenes: ITEM_VARIETY["item-head"], section: "Body slot: head" },
       { kind: "variety", name: "item-body", scenes: ITEM_VARIETY["item-body"], section: "Body slot: body" },
