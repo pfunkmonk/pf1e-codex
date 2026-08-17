@@ -304,7 +304,9 @@ const SCENES = {
 ,
     "A psychic pressing fingertips to their temple as an opponent staggers untouched.",
     "Two minds meeting as visible thought-light arcing between two seated figures."
-    ],
+    ,
+    "A psychic's projected thought striking an opponent as a visible ripple in the air."
+  ],
   "spirit-medium": [
     "A medium seated in a candlelit circle as a translucent spirit leans in over their shoulder.",
     "A shaman surrounded by drifting ancestral shapes, each half-formed from smoke and light.",
@@ -444,7 +446,9 @@ const SCENES = {
     "An enchanter tracing a rune onto a blade with a stylus of light.",
     "A wizard's workshop at night, a half-finished staff clamped in a vice, glowing at one end.",
     "A smith quenching a blade as sigils flare briefly along the fuller."
-    ],
+    ,
+    "A ring cooling on a jeweller's mandrel with a rune still glowing in the band."
+  ],
   alchemy: [
     "An alchemist's bench mid-reaction, glassware boiling over into coloured smoke.",
     "A bomb-thrower lighting a fuse, the flask already swinging back for the throw."
@@ -894,7 +898,7 @@ function varietyFamily(map, section) {
   return Object.entries(map).map(([name, scenes]) => ({ kind: "variety", name, scenes, section }));
 }
 
-const problems = [];
+const problems = [], spare = [];
 function buildBatch(n) {
   const spec = BATCHES[n], out = [];
   for (const part of spec.parts) {
@@ -904,7 +908,11 @@ function buildBatch(n) {
       for (const row of table) {
         const key = row[0], variants = row[3] || 1, scenes = part.scenes[key];
         if (!scenes) { problems.push(`${part.bucket}/${key} is declared in themes.js but has NO scene description`); continue; }
-        if (scenes.length !== variants) { problems.push(`${part.bucket}/${key} declares ${variants} variant(s) but has ${scenes.length} description(s)`); continue; }
+        // Too FEW descriptions is a hard error — that image would be commissioned blind.
+        // Too many is fine and expected: size-variants rebalances counts as the data shifts, and
+        // a spare description costs nothing. Surface it so it can be tidied, do not block on it.
+        if (scenes.length < variants) { problems.push(`${part.bucket}/${key} declares ${variants} variant(s) but has only ${scenes.length} description(s)`); continue; }
+        if (scenes.length > variants) spare.push(`${part.bucket}/${key} (+${scenes.length - variants})`);
         for (let v = 1; v <= variants; v++) {
           const artKeyName = `theme-${part.bucket}-${key}-${v}`;
           if (PRESENT.has(artKeyName)) continue;
@@ -916,9 +924,10 @@ function buildBatch(n) {
     } else if (part.kind === "variety") {
       const count = VARIETY[part.name];
       if (!count) { problems.push(`batch ${n}: variety set "${part.name}" is not declared in PF_VARIETY`); continue; }
-      if (!part.scenes || part.scenes.length !== count) {
-        problems.push(`variety "${part.name}" declares ${count} scene(s) but ${part.scenes ? part.scenes.length : 0} are described`); continue;
+      if (!part.scenes || part.scenes.length < count) {
+        problems.push(`variety "${part.name}" declares ${count} scene(s) but only ${part.scenes ? part.scenes.length : 0} are described`); continue;
       }
+      if (part.scenes.length > count) spare.push(`${part.name} (+${part.scenes.length - count})`);
       for (let v = 1; v <= count; v++) {
         const artKeyName = `${part.name}-${v}`;
         if (PRESENT.has(artKeyName)) continue;          // already drawn — nothing to commission
@@ -1008,4 +1017,6 @@ async function emit(n) {
     console.log("   wrote .docx");
   } catch { console.log("   (.docx skipped — set DOCX_MODULE to a local `docx` install)"); }
 }
+if (spare.length) console.log(`
+spare descriptions (harmless, counts were rebalanced): ${spare.length} — ${spare.slice(0, 6).join(", ")}${spare.length > 6 ? " …" : ""}`);
 for (const n of batchNums) await emit(n);

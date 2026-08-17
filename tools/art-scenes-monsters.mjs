@@ -130,7 +130,9 @@ export const TYPE_SCENES = {
     "Tracks in mud leading away into fog.",
     "A nest high on a cliff face with something stirring in it.",
     "A forest clearing full of watching animal eyes."
-  ],
+,
+    "A watering hole at dawn crowded with animals that have all stopped drinking at once."
+    ],
   "type-construct": [
     "A motionless guardian figure in an alcove, dust on its shoulders.",
     "A mechanism grinding into motion after long stillness.",

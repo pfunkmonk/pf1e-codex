@@ -237,15 +237,15 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 
 | Batch | Content | Images | Status |
 |---|---|---|---|
-| 10 | Feats — 288 theme, 57 general scenes, 93 named | 438 | **pack written** |
+| 10 | Feats — theme art, general scenes, 93 named | 433 | **pack written** |
 | 11 | Items, object themes + body slots | 290 | **pack written** |
-| 12 | Items, variety sets + 93 named magic items | 299 | **pack written** |
-| 13 | Spells — 79 theme + 106 school scenes | 185 | **pack written** |
-| 14 | Monsters — themes, creature types, 101 subtype scenes, hazards, bestiary stragglers | 292 | **pack written** |
+| 12 | Items, variety sets + 93 named magic items | 313 | **pack written** |
+| 13 | Spells — 140 theme + 106 school scenes | 190 | **pack written** |
+| 14 | Monsters — themes, types, 101 subtype scenes, hazards, stragglers | 278 | **pack written** |
 | 15 | Traits, class options, archetypes | 286 | **pack written** |
-| 16 | Rules (141), NPCs (36), the last 163 deities | 340 | **pack written** |
+| 16 | Rules (141), NPCs (36), the last 163 deities | 301 | **pack written** |
 
-**All seven packs are written — 2,130 prompts, about 85 hours of generation.** Packs and their
+**All seven packs are written — 2,091 prompts, about 84 hours of generation.** Packs and their
 `BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
 manifests up automatically; `--keys` is only needed to restrict to one batch.
 
@@ -269,6 +269,21 @@ page quietly falls back months later.
 HASH, so the split is random, not even — 183 rings over 10 images averages 18 but peaks near 28.
 Run `node tools/size-variants.mjs .` then `--apply`, **repeatedly until it reports "converged
 after 1 round"** — one pass can leave work behind. Then re-run `gen-art-prompts.mjs`.
+
+### Spells match on the STAT BLOCK, not the name
+
+Spell names are poetry — "Aphasia", "Blush of Youth" — so name matching alone reached only 44%.
+But the index snippet opens with the stat block: `School enchantment (compulsion) [mind-affecting]`.
+Subschool and descriptors are **authored categories**, far more reliable than any guess at a name,
+and matching them took coverage to **73%**. Aphasia lands on `charm-mind` off `(compulsion)` alone.
+
+If a bucket has structured data in its text, match on that before inventing name keywords.
+
+⚠ **size-variants only ever GREW a count, so repeated --apply runs ratcheted.** An unlucky hash
+split bumped a theme, the next run measured the new split and bumped again — `cold` ended up with
+7 images for 15 pages. It now resets each count to what its claim justifies before growing, floored
+at whatever is already drawn so art is never stranded. **It is idempotent now: a second --apply
+reports 0 changes.** If it does not, something is wrong.
 
 ⚠ **Existing art is not the same as adequately-spread art.** The sizer originally treated "this
 key has a file" as "fine" and so never noticed `creature-aquatic` backing 211 pages — worse than
