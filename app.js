@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "59";
+  var DATA_V = "60";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -736,8 +736,23 @@
   // Every variety set's size is declared in data/themes.js so the tools can enumerate them.
   // Falls back to the historical counts if that file failed to load.
   var VARIETY=window.PF_VARIETY||{};
-  function varietyKey(name,id){ var n=VARIETY[name]||1; return name+"-"+(hash32(id)%n+1); }
-  var RULES_SCENES=VARIETY.rules||40, NPC_SCENES=VARIETY.npc||12;
+  // How many variants of a set are ACTUALLY on disk, counting up from 1. Memoised.
+  var VAVAIL={};
+  function varietyAvail(name){
+    if(VAVAIL[name]!==undefined) return VAVAIL[name];
+    var n=0; while(ART[name+"-"+(n+1)]) n++;
+    return (VAVAIL[name]=n);
+  }
+  // Pick a stable variant. If the declared count is ahead of what has been generated — which is
+  // the normal state between declaring a set and the art arriving — hash within what EXISTS
+  // instead. Without this, raising `rules` from 40 to 181 sent 78% of rules pages to a key that
+  // does not exist yet and dropped them onto the category banner: art they already had, lost.
+  function varietyKey(name,id){
+    var n=VARIETY[name]||1, k=name+"-"+(hash32(id)%n+1);
+    if(ART[k]) return k;
+    var avail=varietyAvail(name);
+    return avail ? name+"-"+(hash32(id)%avail+1) : null;
+  }
   // Keyword themes (data/themes.js). Sits BETWEEN named art and the category fallback: an entry
   // with no picture of its own still gets art about what it actually does. See that file for why
   // table order is the whole mechanism. Degrades to nothing if the data file failed to load.
@@ -782,6 +797,17 @@
     push(have(varietyKey("item-scene",id)));
     push(raw==="Wondrous Items" ? "item-wondrous" : "item-generalstore");
   }
+  // 59 archetypes carry no `cls` facet, but every archetype NAME begins with its parent class
+  // ("Arcane Archer Deadeye Devotee", "Companion Aberrant Companion"). Longest prefix wins, so
+  // "Arcane Archer" is preferred over "Arcane". Recovers all 59 for no art at all.
+  function archetypeClassFromName(name){
+    var w=String(name||"").split(/\s+/);
+    for(var n=Math.min(3,w.length-1); n>=1; n--){
+      var p=w.slice(0,n).join(" ");
+      if(have("class-"+artKey(p)) || inheritedClassArt(p)) return p;
+    }
+    return null;
+  }
   // Trait bodies open "Category <X> Requirement(s) <Y> <prose…>". Y is a race for Race traits and
   // a deity for Religion traits — both things we already have art for. The requirement runs until
   // a bracketed aside or the start of the prose, which reliably begins with You/Your/A/An/The.
@@ -805,8 +831,8 @@
       // The parent class band is the RIGHT picture for an archetype — an Alchemist archetype
       // should look like an alchemist — so this stays keyed to the class rather than to any
       // theme drawn off the archetype's own name. Variants spread the busy classes (rogue 78).
-      var c=[].concat(fac.cls||[])[0];
-      if(c){ var ck="class-"+artKey(c); push(have(varietyKey("arch-"+artKey(c),row[I_ID]))); push(have(ck)); }
+      var c=[].concat(fac.cls||[])[0] || archetypeClassFromName(row[I_NAME]);
+      if(c){ var ck="class-"+artKey(c); push(have(varietyKey("arch-"+artKey(c),row[I_ID]))); push(have(ck)); push(inheritedClassArt(c)); }
     }
     else if(b==="traits"){
       // Trait bodies carry "Requirement(s) <X>", and for two categories that X is something we
@@ -859,7 +885,10 @@
       push(have("creature-"+nm)); push(have("type-"+nm));
       // Universal Monster Rules, Templates and Animal Companions are not creatures at all.
       push(have(themeArt("monsters",row)));
-      if(fac.st) push("creature-"+artKey(fac.st));              // demon, devil, psychopomp…
+      // Subtype art: demon, devil, psychopomp… The busy subtypes are variety sets — `aquatic`
+      // alone was backing 211 pages on a single image, worse than anything in items, and it went
+      // unnoticed because the sizer only looked at sets and treated "art exists" as "fine".
+      if(fac.st){ var sk2="creature-"+artKey(fac.st); push(have(varietyKey(sk2,row[I_ID]))); push(sk2); }
       var t=artKey(fac.t||""), al=String(fac.al||"");
       // Chromatic/metallic dragons and the celestial/fiend/elemental outsider families read off alignment.
       if(t==="dragon")        push(/E$/.test(al)?"type-dragon-chromatic":(/G$/.test(al)?"type-dragon-metallic":"type-dragon"));
@@ -868,6 +897,9 @@
       // "Ant, Giant" and "Beetle, Giant" also end in "giant" — they're vermin.
       if(t==="humanoid" && /giant/i.test(row[I_NAME])) push("type-giant");
       if(t){ push(have(varietyKey("type-"+t,row[I_ID]))); push(have("type-"+t)); }
+      // 307 obscure animals, templates and monster families match nothing above — Capybara,
+      // Bustard, Amargasaurus. They get the straggler set rather than the category banner.
+      push(have(varietyKey("monster-scene",row[I_ID])));
     }
     push(CAT_FALLBACK[b]);
     return out;

@@ -19,6 +19,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ITEM_SCENES, ITEM_VARIETY } from "./art-scenes-items.mjs";
+import { SPELL_THEME_SCENES, SCHOOL_SCENES } from "./art-scenes-spells.mjs";
+import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } from "./art-scenes-monsters.mjs";
+import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
+
+const slug = t => String(t).toLowerCase().replace(/['\u2019]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 const ROOT = process.argv[2] || ".";
 const OUT = process.argv[3] || ".";
@@ -59,28 +64,42 @@ const SCENES = {
     "Two fighters locked chest to chest in a wrestling clinch, boots dug into churned earth, every tendon straining.",
     "A brawler dragging an opponent down into a pinning hold, one arm locked across the throat, both bodies low to the ground.",
     "A constricting serpent coiled around an armoured torso, scales tightening, the trapped warrior's face contorted with effort."
+,
+    "A monk trapping a limb and rolling an opponent over one hip, both figures airborne for an instant.",
+    "A pinned fighter face-down on stone, one arm levered up behind the shoulder blade."
+    ],
+  "bull-rush": ["A shield-bearing warrior slamming shoulder-first into an opponent and driving them bodily backward off their feet, dust exploding from the impact.",
+    "A tower-shield line advancing as one and driving a knot of enemies backward off a bridge."
   ],
-  "bull-rush": ["A shield-bearing warrior slamming shoulder-first into an opponent and driving them bodily backward off their feet, dust exploding from the impact."],
   overrun: ["A charging warhorse and rider running straight over a broken shield-line, bodies scattering aside beneath the hooves."],
   "dirty-trick": ["A rogue flinging a fistful of sand into an opponent's eyes at close quarters, the victim recoiling blind, a knife already coming up low."],
   "steal-maneuver": ["A thief's hand lifting a pouch from an opponent's belt mid-fight, the cord parting cleanly, the victim entirely unaware."],
-  "reposition-drag": ["A warrior with a polearm hooked behind an opponent's knee, hauling them bodily out of a defensive line and off balance."],
+  "reposition-drag": ["A warrior with a polearm hooked behind an opponent's knee, hauling them bodily out of a defensive line and off balance.",
+    "A fighter hauling a spellcaster out of a doorway by the collar, boots skidding on flagstones."
+  ],
   feint: [
     "A duelist selling a high committed thrust that is not real, their opponent's guard rising to meet nothing, the true low line already opening.",
     "A fighter's shoulder and eyes lying about the direction of an attack, the blade travelling somewhere else entirely, the opponent leaning the wrong way."
-  ],
+,
+    "A fencer's blade dipping in invitation, the opponent committing to the opening that was never there."
+    ],
   "maneuver-general": ["Two combatants at the moment of a grip-and-turn, weapons momentarily irrelevant, the whole contest reduced to leverage and body mechanics."],
   "power-attack": [
     "A two-handed greatsword at the top of its arc, the wielder's whole mass committed behind it, air visibly distorting along the edge.",
     "A massive overhead maul strike landing, the ground cratering and cracks running outward from the point of impact.",
     "A shield split down the middle by a descending axe, the wielder still following through."
-  ],
+,
+    "A two-handed axe biting through a door and the man behind it, timber and splinters flying."
+    ],
   "vital-strike": [
     "A single devastating thrust driving through a breastplate at the seam, everything else in the frame motionless.",
     "A blade withdrawn from a fatal blow, one bright line of impact light still fading along the wound channel.",
     "A spear delivered with both hands at full extension, the point emerging cleanly through heavy armour plate.",
     "A hunter's arrow striking a single perfect point on a great beast, the animal's mass folding around the hit."
-  ],
+,
+    "A rapier point entering the eye-slit of a great helm with no wasted motion.",
+    "A single strike on a charging beast that stops it dead, its momentum collapsing into the ground."
+    ],
   "two-weapon": [
     "A fighter mid-flurry with paired blades, two separate attack arcs crossing in front of the body, both in motion at once.",
     "A ranger with sword and long knife working high and low simultaneously, an opponent's guard split between two threats."
@@ -88,21 +107,30 @@ const SCENES = {
   "finesse-duelist": [
     "A rapier duelist in a deep lunge, back leg extended, blade and arm one straight line, coat flaring behind.",
     "A swashbuckler beating an incoming blade aside and riposting in the same tempo, footwork precise on wet cobbles."
-  ],
+,
+    "A duelist's blade sliding along an opponent's steel in a bind, sparks running down the length.",
+    "A swashbuckler on a tavern table, boot on a tankard, blade extended with lazy precision."
+    ],
   archery: [
     "An archer at full draw, string at the cheek, arrow steady, the whole body a held curve of tension.",
     "The instant of release: bowstring blurred, fletching just clearing the riser, the archer's eyes locked downrange.",
     "A ranger loosing from a crouch behind cover, a second arrow already nocked between the fingers of the draw hand.",
     "A volley of arrows leaving a line of archers together, the sky briefly full of shafts."
-  ],
+,
+    "An archer shooting from horseback at full gallop, twisted backward in the saddle."
+    ],
   thrown: [
     "A warrior mid-throw with a heavy javelin, hips rotated fully through, the shaft leaving the hand.",
     "A rogue releasing a fan of throwing knives, three blades in flight at different distances from the hand."
-  ],
+,
+    "A handaxe turning end over end across a room toward a distant target."
+    ],
   firearms: [
     "A gunslinger firing a heavy pistol, muzzle flash blooming, smoke curling back over the hammer.",
     "A musketeer sighting down a long barrel braced on a rampart, match-cord smouldering, powder horn at the hip."
-  ],
+,
+    "A duellist's pistol raised at the moment of ignition, priming pan flaring white."
+    ],
   charge: [
     "A lancer at full gallop with the lance couched and levelled, everything behind them reduced to speed-blurred dust.",
     "An infantry charge breaking into a run, spears lowering in ragged unison, banners streaming."
@@ -115,11 +143,17 @@ const SCENES = {
     "The exact instant armour fails: a plate seam splitting, the weapon driving through, impact light flaring white at the contact point.",
     "A blade finding the gap beneath a helmet's jaw, the victim's whole posture collapsing in the same frame.",
     "A hammer blow landing on a shield arm, the limb buckling wrongly, the shield already falling away."
-  ],
+,
+    "A blade finding the gap under a raised arm, the strike landing exactly where armour is not.",
+    "A hammer blow to a helm, the metal deforming and the wearer's knees already folding."
+    ],
   "attacks-of-opp": [
     "A spearman punishing an opponent who tried to move past, the thrust landing into an exposed flank mid-step.",
     "A guard's blade snapping out to catch a caster the moment their hands begin a gesture, the spell dying unfinished."
-  ],
+,
+    "A spearman punishing a foe who tried to run past, the point catching them mid-stride.",
+    "A guard's blade flicking out at a caster who dared to cast within reach."
+    ],
   "combat-expertise": [
     "A fighter trading reach for safety, blade angled defensively across the body, weight settled back, reading the opponent.",
     "A duelist in a tight controlled guard turning aside three successive attacks without giving ground.",
@@ -128,7 +162,9 @@ const SCENES = {
   "dodge-mobility": [
     "A fighter bending backward out of a blade's path, the edge passing a finger's width from the throat.",
     "An acrobat rolling under a swing and coming up already inside the opponent's reach."
-  ],
+,
+    "A rogue bending backward under a horizontal cut, hair lifting as the blade passes."
+    ],
   "reach-polearm": [
     "A halberdier holding a corridor alone, the long weapon sweeping a wide arc that nothing can close through.",
     "A phalanx of levelled pikes seen from the flank, a hedge of steel points at a single height."
@@ -137,16 +173,26 @@ const SCENES = {
     "A shield braced at the moment of impact, an axe head embedded in the boards, splinters flying.",
     "A shield-bash driving the boss into an opponent's face, head snapping back.",
     "A locked shield wall from low angle, overlapping rims forming one unbroken barrier, arrows standing in the wood."
-  ],
+,
+    "A shield wall locked edge to edge, arrows standing in the fronts like a hedge.",
+    "A buckler turning a thrust aside at the last instant, blade skidding off the boss.",
+    "A shield swung as a weapon, rim catching an opponent under the jaw."
+    ],
   armor: [
     "Ornate battle plate taking a glancing blow, the strike skating off curved steel in a shower of sparks.",
     "A warrior being buckled into heavy armour in a lamplit tent, each strap and plate settling into place."
-  ],
+,
+    "A knight taking a heavy blow on the pauldron and simply walking through it.",
+    "An armourer fitting a breastplate to a warrior, straps drawn tight in a lamplit shop."
+    ],
   "toughness-saves": [
     "A battered warrior still standing amid fallen foes, bleeding, breathing hard, absolutely refusing to go down.",
     "A figure braced against a torrent of magical force, arms crossed before the face, ground scoured away behind them.",
     "A soldier shrugging off a blow that should have felled them, boots planted, jaw tight."
-  ],
+,
+    "A warrior standing alone amid fallen comrades, bloodied and still upright.",
+    "A figure braced against a wave of magical force, cloak shredding, feet holding."
+    ],
   "monk-style": [
     "A monk flowing into a crane-like stance on a rain-slick temple terrace, one leg raised, arms wide and poised.",
     "A tiger-style strike: clawed hands driving forward in a low aggressive lunge, muscles bunched.",
@@ -163,7 +209,9 @@ const SCENES = {
     "An elbow driven into an opponent's guard at close range, the whole body behind the short brutal motion.",
     "A monk's open palm strike stopping a charging opponent dead, dust ring pulsing outward from the point of contact.",
     "A grappler throwing an opponent over the hip, the victim inverted in mid-air above churned ground."
-  ],
+,
+    "A monk's elbow strike landing at close quarters, the opponent's guard collapsed inward."
+    ],
   "ki-meditation": [
     "A monk seated in perfect stillness on a wind-scoured peak, faint inner light at the brow, clouds far below.",
     "A practitioner drawing a breath before action, a soft luminous current visibly gathering along the arms and hands."
@@ -176,7 +224,9 @@ const SCENES = {
     "A ritual diagram rotating in the air, layers of script sliding over one another into a new configuration.",
     "A spell held unreleased in a closed fist, light escaping between the fingers.",
     "Two spells braided together into a single working above a caster's open hands."
-  ],
+,
+    "A caster splitting one spell into two divergent bolts with a twist of the wrist."
+    ],
   "spell-focus": [
     "A wizard with one school's sigil burning brighter than all the others orbiting them.",
     "A caster driving a spell through a shimmering magical ward, the barrier splitting apart around it.",
@@ -186,15 +236,22 @@ const SCENES = {
   summoning: [
     "A summoning circle blazing on flagstones as a great shape resolves out of the light within it.",
     "A caster with arm outflung as a called creature steps through a tear in the air behind them."
-  ],
+,
+    "A summoning circle flaring as something large begins to push through from the far side."
+    ],
   familiar: [
     "A caster shoulder to shoulder with a bonded raven, a faint tether of light linking the two.",
     "A cat familiar curled on an open spellbook, eyes reflecting arcane light, its wizard working in the background."
-  ],
+,
+    "A raven familiar landing on a wizard's shoulder, both heads turning to the same thing at once."
+    ],
   "animal-companion": [
     "A ranger and a great wolf moving as one through undergrowth, both alert to the same distant sound.",
     "A druid resting a hand on the shoulder of an enormous bear, entirely unafraid, the animal leaning into the touch."
-  ],
+,
+    "A ranger and wolf moving through undergrowth in perfect step, neither looking at the other.",
+    "A druid resting a hand on a great bear's flank as it stands guard over them."
+    ],
   bloodline: [
     "A sorcerer whose inherited power shows physically: faint draconic scaling along the forearms, eyes lit from within.",
     "An ancestral shape looming as a translucent presence behind a caster, echoing their raised-arm gesture."
@@ -213,11 +270,16 @@ const SCENES = {
     "A barbarian mid-roar, eyes wild, veins standing out, weapon raised in both hands.",
     "A berserker taking a wound without breaking stride, fury entirely overriding pain.",
     "A raging warrior driving through a shield wall by pure violence, defenders scattering."
-  ],
+,
+    "A barbarian mid-roar with a wound already forgotten, weapon raised for another blow."
+    ],
   bardic: [
     "A bard mid-performance on a battlefield's edge, playing while the fight rages, allies visibly lifted by it.",
     "A singer in a torchlit hall, the whole room turned toward them, sound made almost visible in the smoky air."
-  ],
+,
+    "A bard on a tavern bench, the whole room leaning toward the song without noticing.",
+    "A skald bellowing a war-chant on a shield wall's flank, warriors around them straightening."
+    ],
   "smite-paladin": [
     "A paladin's blade blazing with holy light as it descends on a fiendish foe, the light hurting the target.",
     "A knight kneeling to lay glowing hands on a dying soldier, radiance spilling between the fingers."
@@ -225,7 +287,9 @@ const SCENES = {
   "judgment-teamwork": [
     "Two allies fighting back to back in perfect coordination, shields overlapping into one wall.",
     "An inquisitor's judgment settling visibly over a battlefield as a cold ring of light, allies moving in unison beneath it."
-  ],
+,
+    "Two allies fighting back to back in a tight circle, covering each other's blind sides."
+    ],
   arcane: [
     "A wizard's hand wreathed in disciplined arcane fire, geometric sigils rotating around the wrist.",
     "A blade sheathed in crackling arcane energy mid-swing, magic and steel working as one weapon."
@@ -237,16 +301,26 @@ const SCENES = {
   "psychic-occult": [
     "A psychic with fingers to the temple, a lattice of thought-light unfolding outward from the skull.",
     "Two minds meeting as overlapping translucent shapes above a seated figure, an alien geometry between them."
-  ],
+,
+    "A psychic pressing fingertips to their temple as an opponent staggers untouched.",
+    "Two minds meeting as visible thought-light arcing between two seated figures."
+    ],
   "spirit-medium": [
     "A medium seated in a candlelit circle as a translucent spirit leans in over their shoulder.",
     "A shaman surrounded by drifting ancestral shapes, each half-formed from smoke and light.",
     "A haunted room where a spirit's outline is briefly visible in disturbed dust and guttering flame."
-  ],
+,
+    "A medium seated in a circle of candles as a translucent figure leans over their shoulder.",
+    "A shaman's spirit animal half-visible in the smoke of a low fire."
+    ],
   necromancy: [
     "A necromancer raising skeletal figures from broken ground, sickly green light pooling in the earth.",
     "A hooded caster drawing a thread of life-force from a dying thing into their own cupped hand."
-  ],
+,
+    "A necromancer's hand raised over a battlefield as bodies begin to shift and stand.",
+    "Skeletal hands breaking up through graveyard soil around a robed figure's boots.",
+    "A dark-robed figure drawing a thread of pale life-light out of a dying man's chest."
+    ],
   shadow: [
     "A figure stepping bodily into their own cast shadow and disappearing into it.",
     "Shadows detaching from a wall and rising into standing shapes with their own intent.",
@@ -256,26 +330,42 @@ const SCENES = {
     "A rift tearing open in the air, a wholly different sky visible through the gap.",
     "A horned fiend stepping across a burning summoning boundary, brimstone light beneath.",
     "A radiant celestial descending with wings spread, light too bright to look at directly."
-  ],
+,
+    "A rift opening in mid-air over a summoning floor, another sky visible through the tear.",
+    "A devil's contract unrolling on a table, the signature line glowing faintly red."
+    ],
   fire: [
     "A caster hurling a roaring gout of flame, heat distorting everything behind the stream.",
     "A blade wreathed in fire cutting a bright arc through darkness, embers trailing the swing."
+,
+    "A wall of flame roaring up along a corridor, silhouetting a figure who walks out of it."
+    ],
+  cold: ["A wave of frost racing outward across stone and water, everything it touches locking into rime and ice.",
+    "A blast of frost freezing a charging beast mid-leap, ice spreading across its hide."
   ],
-  cold: ["A wave of frost racing outward across stone and water, everything it touches locking into rime and ice."],
-  lightning: ["A bolt of lightning discharging from a caster's outstretched hand, the whole scene lit blue-white for one instant."],
+  lightning: ["A bolt of lightning discharging from a caster's outstretched hand, the whole scene lit blue-white for one instant.",
+    "A bolt earthing through an armoured figure, arcs crawling over every plate."
+  ],
   "acid-poison": [
     "A vial of acid striking armour and eating through it, the metal bubbling and running.",
     "A blade drawn across a poisoner's flask, a bead of dark venom gathering along the edge."
-  ],
+,
+    "A blade drawn across a whetstone slick with venom, a bead of it hanging from the edge."
+    ],
   "earth-stone": [
     "A caster driving a fist into the ground, a ridge of raised stone erupting in a line away from them.",
     "A figure of living rock rising out of a hillside, boulders settling into shoulders.",
     "Stone armour crusting over a warrior's skin, granite plates locking across the chest and arms."
-  ],
+,
+    "A stone fist erupting out of a flagstone floor to catch an opponent mid-run.",
+    "A dwarf braced in a doorway as the mountain itself seems to hold behind them."
+    ],
   "air-flight": [
     "A figure rising off the ground on a column of wind, cloak and hair thrown upward.",
     "A winged silhouette banking hard against a vast bright sky, far above the landscape."
-  ],
+,
+    "A figure lifting off a cliff edge on a hard updraft, cloak snapping straight out."
+    ],
   water: [
     "A wave rearing under a caster's raised hands, held impossibly upright before breaking.",
     "A swimmer moving powerfully through green underwater light, bubbles trailing behind."
@@ -287,11 +377,19 @@ const SCENES = {
   intimidate: [
     "A warrior roaring into an enemy's face at arm's length, the target visibly breaking.",
     "A towering armoured figure stepping forward as lesser foes back away, weapons wavering."
-  ],
+,
+    "A warrior lifting a visor to show a face that empties a room.",
+    "A single figure walking toward a line of armed men who are all beginning to step back.",
+    "A hand slamming a severed helm onto a table in a crowded hall, silence spreading outward.",
+    "A looming silhouette in a doorway, lamplight behind, everything in the room turned toward it.",
+    "A cornered enemy dropping their weapon before a blow has even been struck."
+    ],
   diplomacy: [
     "Two rival envoys clasping hands across a table, tension easing in the faces around them.",
     "A courtier speaking quietly to a seated noble, the whole room's attention bending toward the exchange."
-  ],
+,
+    "Two rival captains shaking hands over a map while their soldiers watch from either side."
+    ],
   "bluff-disguise": [
     "A spy pulling on another's face like a mask, the true features still half visible beneath.",
     "A confident liar mid-sentence, entirely believable, one hand hiding a stolen key behind the back."
@@ -299,7 +397,9 @@ const SCENES = {
   perception: [
     "A scout catching one wrong detail in a crowded market, eyes narrowing on it while everything else blurs.",
     "A ranger crouched at a trailhead, seeing the single broken stem that gives the ambush away."
-  ],
+,
+    "A scout's eyes catching the one wrong shadow in a treeline at dusk."
+    ],
   knowledge: [
     "A scholar in a towering library, a shaft of light falling on the one open book that matters.",
     "A sage comparing a monster's claw against an illustrated bestiary plate by candlelight.",
@@ -311,32 +411,53 @@ const SCENES = {
   athletics: [
     "A climber hauling over a cliff lip by fingertips, legs swinging over a long drop.",
     "A runner clearing a wide rooftop gap at full stretch, the street far below."
+,
+    "A figure vaulting a chasm between rooftops, both feet clear of the tiles.",
+    "A climber hauling over a cliff lip in rain, forearms corded with effort."
+    ],
+  "heal-medicine": ["A field surgeon working fast on a wounded soldier by lamplight, hands bloodied, instruments laid out on cloth.",
+    "A field surgeon working by lantern light in a tent, hands steady, patient still."
   ],
-  "heal-medicine": ["A field surgeon working fast on a wounded soldier by lamplight, hands bloodied, instruments laid out on cloth."],
   survival: [
     "A tracker kneeling over a print in wet ground, reading it while the trail runs on into mist.",
     "A lone traveller building a fire under a rock overhang as weather closes in behind them."
+,
+    "A tracker kneeling to read a print in mud, the trail running away into fog.",
+    "A lone traveller building a fire in driving snow, back to the wind."
+    ],
+  "traps-thievery": ["A thief's picks at work inside a complex lock, the mechanism drawn in warm light, a trap needle visible and unsprung.",
+    "A thief's picks turning in a lock, ear against the plate, breath held."
   ],
-  "traps-thievery": ["A thief's picks at work inside a complex lock, the mechanism drawn in warm light, a trap needle visible and unsprung."],
   leadership: [
     "A commander with sword raised turning a wavering line, soldiers rallying to the gesture.",
     "A captain briefing companions over a campaign map, every face turned toward them.",
     "A banner going up on contested ground as troops surge past it."
-  ],
+,
+    "A commander on a rise pointing with a sword, an army moving in the indicated direction.",
+    "A captain hauling a wavering soldier back into line by the shoulder strap."
+    ],
   linguistics: ["A translator working between an ancient inscribed tablet and a fresh page, script transforming under the pen."],
   "item-creation": [
     "A wizard-smith at an enchanting bench, hammer poised over a glowing blade on runic anvil-plates.",
     "A crafter binding a final rune into a finished item, the magic settling into it and going quiet."
-  ],
+,
+    "An enchanter tracing a rune onto a blade with a stylus of light.",
+    "A wizard's workshop at night, a half-finished staff clamped in a vice, glowing at one end.",
+    "A smith quenching a blade as sigils flare briefly along the fuller."
+    ],
   alchemy: [
     "An alchemist's bench mid-reaction, glassware boiling over into coloured smoke.",
     "A bomb-thrower lighting a fuse, the flask already swinging back for the throw."
-  ],
+,
+    "An alchemist's bench mid-experiment, retort boiling over into a cascade of coloured smoke."
+    ],
   "item-mastery": ["A hand raised holding a wondrous item blazing to life, its power visibly answering the wielder, light spilling between the fingers."],
   "natural-attacks": [
     "A beast's jaws closing on an armoured arm, teeth grating on steel.",
     "Raking claws opening four parallel lines across a shield face."
-  ],
+,
+    "A beastfolk warrior's claws extending fully as they drop into a hunting crouch."
+    ],
   "dragon-breath": [
     "A dragon's head rearing back and then unleashing a torrent of elemental breath down a valley.",
     "A humanoid with draconic heritage exhaling a cone of energy, throat and chest lit from inside."
@@ -344,7 +465,9 @@ const SCENES = {
   "race-dwarf": ["A dwarven warrior braced behind a heavy shield in a stone hall, beard braided with iron rings, absolutely immovable."],
   "race-elf": ["An elven archer among ancient trees, longbow half-drawn, dappled forest light across a composed face."],
   "race-gnome": ["A gnome tinkerer surrounded by half-built clockwork, goggles up, delighted by something just gone right."],
-  "race-halfling": ["A halfling moving nimbly along a tavern rafter above an oblivious crowd, purse in hand, grinning."],
+  "race-halfling": ["A halfling moving nimbly along a tavern rafter above an oblivious crowd, purse in hand, grinning.",
+    "A halfling scout slipping between the legs of a fight, entirely unnoticed."
+  ],
   "race-orc-gnoll": ["A half-orc warrior with a notched greataxe over one shoulder, tusks and scars catching hard low light."],
   "race-goblinoid": ["A goblin warband boiling out of a drainage tunnel with torches and crude blades, all teeth and motion."],
   "race-planetouched": ["A tiefling and an aasimar standing back to back, one horned and shadowed, one haloed in faint gold."],
@@ -370,13 +493,22 @@ const SCENES = {
     "A kneeling supplicant in a shaft of cathedral light, holy symbol glowing faintly at the throat.",
     "A pilgrim performing a daily rite at a roadside shrine at dawn, breath visible in cold air.",
     "A devotee tending an altar flame beneath towering carved statuary, incense in coloured beams."
-  ],
+,
+    "A pilgrim kneeling on stone before a weathered shrine at dawn, head bowed.",
+    "A cleric holding a holy symbol high in a dark place, light pushing the dark back."
+    ],
   "performance-combat": ["A gladiator playing to a roaring arena crowd mid-fight, arms spread, sand and sunlight everywhere."],
-  "siege-vehicle": ["A siege engine crew winding back a great catapult before a besieged wall, rope and timber under enormous strain."],
+  "siege-vehicle": ["A siege engine crew winding back a great catapult before a besieged wall, rope and timber under enormous strain.",
+    "A trebuchet crew hauling on ropes as the counterweight drops and the arm sweeps up."
+  ],
   "curse-disease": [
     "A cursed mark spreading visibly across a victim's skin in dark branching lines.",
     "A plague-stricken figure wrapped in rags at a shuttered door, the street behind them empty."
-  ],
+,
+    "A withered hand laying a curse on a doorframe, the wood darkening around the print.",
+    "A plague ward of sickbeds under high windows, a physician moving between them.",
+    "A figure watching their own reflection age decades in a still pool."
+    ],
   "light-radiance": [
     "A blazing point of holy light held aloft, driving shadows physically back down a corridor.",
     "Dawn breaking hard over a battlefield, the first light picking out a standing figure."
@@ -385,7 +517,9 @@ const SCENES = {
     "A caster drawing their own blood across a palm to pay a spell's price, the sigil beneath drinking it.",
     "A martyr standing between an enemy and their companions, already wounded, refusing to move.",
     "A hand pressed to a wound, blood running between the fingers onto a glowing sigil below."
-  ],
+,
+    "A blade drawn across a palm above a stone bowl, the offering already smoking."
+    ],
   "multiclass-dabble": ["A student borrowing from a second discipline: a fighter awkwardly but successfully tracing a spell sigil, sword still in the off hand."],
   "weapon-training": [
     "A weapon master's rack of blades in a lamplit armoury, each one maintained to perfection.",
@@ -710,8 +844,55 @@ const BATCHES = {
       { kind: "variety", name: "item-artifact", scenes: ITEM_VARIETY["item-artifact"], section: "Artifact scenes" },
       { kind: "named", list: NAMED_ITEMS, section: "Named magic items" }
     ]
+  },
+  13: {
+    file: "BATCH13-Spells",
+    title: "BATCH 13 (Spells)",
+    blurb: "Spell themes plus the per-school variety sets. Themes only reach 44% of spells — spell names\nare poetry, not description — so the school sets carry the rest and are sized for it. Today\nschool-transmutation alone backs 682 pages.",
+    parts: [
+      { kind: "themes", bucket: "spells", scenes: SPELL_THEME_SCENES, section: "Spell theme art" },
+      ...varietyFamily(SCHOOL_SCENES, "School scenes")
+    ]
+  },
+  14: {
+    file: "BATCH14-Monsters",
+    title: "BATCH 14 (Monsters and hazards)",
+    blurb: "Monster THEMES here are not creature portraits — real monsters already resolve by name,\nsubtype or type. These cover the rules-shaped pages that live in the monster bucket: Universal\nMonster Rules, Templates and Animal Companions. The type sets catch creatures with no portrait.",
+    parts: [
+      { kind: "themes", bucket: "monsters", scenes: MONSTER_THEME_SCENES, section: "Monster rules and template art" },
+      ...varietyFamily(TYPE_SCENES, "Creature type scenes"),
+      ...varietyFamily(CREATURE_SCENES, "Creature subtype scenes"),
+      { kind: "variety", name: "monster-scene", scenes: MONSTER_SCENES, section: "General bestiary scenes" },
+      ...varietyFamily(HAZARD_SCENES, "Hazard scenes")
+    ]
+  },
+  15: {
+    file: "BATCH15-Traits-Options-Archetypes",
+    title: "BATCH 15 (Traits, class options, archetypes)",
+    blurb: "All variety sets, keyed to facets the data already carries — trait category, class-option type,\nparent class. Trait names are evocative rather than categorical, so no keyword table can sort\nthem; the category facet can. trait-region alone backs 448 pages today.",
+    parts: [
+      ...varietyFamily(TRAIT_SCENES, "Trait category scenes"),
+      ...varietyFamily(OPT_SCENES, "Class option scenes"),
+      ...varietyFamily(ARCH_SCENES, "Archetype scenes")
+    ]
+  },
+  16: {
+    file: "BATCH16-Rules-NPCs-Deities",
+    title: "BATCH 16 (Rules, NPCs, and the last of the pantheon)",
+    blurb: "The rules bucket is 3,102 pages on 40 scenes. This takes it to 181. NPCs go 12 to 48. And the\nremaining 163 deities finish that bucket at 463 of 463 — which also gives the 57 religion traits\nwhose deity had no art a picture of their own god.",
+    parts: [
+      { kind: "variety", name: "rules", scenes: RULES_VARIETY, section: "Rules scenes" },
+      { kind: "variety", name: "npc", scenes: NPC_SCENES, section: "NPC scenes" },
+      { kind: "named", list: NAMED_DEITIES, keyFrom: "deity-", section: "Deities" }
+    ]
   }
 };
+
+// Expand a whole family of variety sets ("school-", "trait-", "type-", "opt-", "arch-", "hazard-")
+// into one part each, so a batch names the family rather than forty individual sets.
+function varietyFamily(map, section) {
+  return Object.entries(map).map(([name, scenes]) => ({ kind: "variety", name, scenes, section }));
+}
 
 const problems = [];
 function buildBatch(n) {
@@ -740,11 +921,15 @@ function buildBatch(n) {
       }
       for (let v = 1; v <= count; v++) {
         const artKeyName = `${part.name}-${v}`;
-        if (PRESENT.has(artKeyName)) continue;
+        if (PRESENT.has(artKeyName)) continue;          // already drawn — nothing to commission
+        // A null slot is only legal when its art already exists; needing one is a hard error.
+        if (part.scenes[v - 1] == null) { problems.push(`variety "${artKeyName}" has no art and no scene description`); continue; }
         out.push({ section: part.section, label: `${part.name} scene ${v}`, key: artKeyName, subject: part.scenes[v - 1] });
       }
     } else if (part.kind === "named") {
-      for (const [label, key, subject] of part.list) {
+      for (const row of part.list) {
+        // Either [label, key, subject] or, with keyFrom, [label, subject] with the key derived.
+        const [label, key, subject] = part.keyFrom ? [row[0], part.keyFrom + slug(row[0]), row[1]] : row;
         if (PRESENT.has(key)) continue;
         out.push({ section: part.section, label, key, subject });
       }
