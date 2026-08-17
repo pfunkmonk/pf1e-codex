@@ -1,9 +1,14 @@
 # Ingest a chosen variant per key, from variant-picks.json, into the repo art folder.
 # Resizes to 1600x900 at ~70% JPEG. Reports anything it could not find.
+# -Width/-Height set the output size. Batches 1-9 are 1600x900; batch 10 onward is prompted
+# at 1280x720, which is ~32% smaller on disk and still comfortably above the ~904 CSS px the
+# band actually renders at. Pass -Width 1280 -Height 720 for those.
 param(
   [string]$Src   = "C:\Users\mailp\Box\CODEX IMAGES",
   [string]$Repo  = "C:\Users\mailp\dev\pf1e-codex",
-  [string]$Picks = "C:\Users\mailp\AppData\Local\Temp\claude\C--Users-mailp-OneDrive-Desktop\9fab0ec5-a77d-4834-a44c-2e7473f65a1d\scratchpad\variant-picks.json"
+  [string]$Picks = "C:\Users\mailp\AppData\Local\Temp\claude\C--Users-mailp-OneDrive-Desktop\9fab0ec5-a77d-4834-a44c-2e7473f65a1d\scratchpad\variant-picks.json",
+  [int]$Width  = 1600,
+  [int]$Height = 900
 )
 
 Add-Type -AssemblyName System.Drawing
@@ -33,15 +38,24 @@ foreach ($r in $rows) {
     $p = Join-Path $Src $cand
     if (Test-Path $p) { $in = $p; break }
   }
+  # Fall back to ANY variant of this key. Cloud sync lands files one at a time, so the
+  # preferred variant can be momentarily absent while a sibling is already there; without
+  # this the ingest reports a spurious "missing source" for art that exists.
+  if (-not $in) {
+    $alt = Get-ChildItem $Src -File -Filter "$key*" -ErrorAction SilentlyContinue |
+           Where-Object { $_.BaseName -match "^$([regex]::Escape($key))(-v\d+)?$" -and $_.Extension -match '^\.(png|jpg|jpeg|bmp)$' } |
+           Select-Object -First 1
+    if ($alt) { $in = $alt.FullName }
+  }
   if (-not $in) { $miss += $key; continue }
 
   $img = [System.Drawing.Image]::FromFile($in)
-  $bmp = New-Object System.Drawing.Bitmap(1600, 900)
+  $bmp = New-Object System.Drawing.Bitmap($Width, $Height)
   $g = [System.Drawing.Graphics]::FromImage($bmp)
   $g.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
   $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::HighQuality
   $g.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
-  $g.DrawImage($img, 0, 0, 1600, 900)
+  $g.DrawImage($img, 0, 0, $Width, $Height)
   $bmp.Save((Join-Path $artDir "$key.jpg"), $codec, $eps)
   $g.Dispose(); $bmp.Dispose(); $img.Dispose()
   $ok++

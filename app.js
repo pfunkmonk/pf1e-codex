@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "55";
+  var DATA_V = "56";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -702,7 +702,15 @@
   // FNV-1a. Used to give each weapon/armour entry a stable variant — the data does not
   // record damage type for 83% of weapons or armour class for 84% of armour, so the choice
   // is arbitrary but must be the SAME arbitrary choice on every visit.
-  function hash32(s){ var h=2166136261; for(var i=0;i<s.length;i++){ h^=s.charCodeAt(i); h=(h*16777619)>>>0; } return h; }
+  // FNV-1a plus a murmur3 finaliser. The avalanche step matters: FNV's low bits are weak, and
+  // taking the raw hash mod 40 spread 3,102 rules pages across scenes from 10 to 300 apiece.
+  // Mixing first evens that out, so the variety sets actually feel varied.
+  function hash32(s){
+    var h=2166136261;
+    for(var i=0;i<s.length;i++){ h^=s.charCodeAt(i); h=Math.imul(h,16777619); }
+    h^=h>>>16; h=Math.imul(h,2246822507); h^=h>>>13; h=Math.imul(h,3266489909); h^=h>>>16;
+    return h>>>0;
+  }
   var SLOT_ART={armor:"armor",weapon:"weapon",shield:"shield",head:"head",helmet:"head",face:"head",mask:"head",
     ears:"head",headband:"headband",brain:"headband",eyes:"eyes",eye:"eyes",goggles:"eyes",neck:"neck",amulet:"neck",
     necklace:"neck",shoulders:"shoulders",shoulder:"shoulders",cloak:"shoulders",mantle:"shoulders",back:"shoulders",
