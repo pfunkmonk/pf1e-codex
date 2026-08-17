@@ -458,34 +458,34 @@ window.PF_VARIETY = {
   "school-illusion": 1,
   "school-necromancy": 3,
   "school-transmutation": 14,
-  "trait-campaign": 16,
+  "trait-campaign": 2,
   "trait-combat": 10,
   "trait-cosmic": 1,
-  "trait-drawback": 5,
+  "trait-drawback": 1,
   "trait-equipment": 1,
   "trait-exemplar": 1,
-  "trait-faction": 2,
+  "trait-faction": 1,
   "trait-faith": 8,
   "trait-family": 1,
   "trait-magic": 8,
   "trait-mount": 1,
-  "trait-race": 18,
-  "trait-region": 44,
-  "trait-religion": 7,
-  "trait-social": 14,
-  "type-aberration": 8,
-  "type-animal": 10,
-  "type-construct": 4,
-  "type-dragon": 9,
-  "type-fey": 6,
-  "type-humanoid": 2,
-  "type-magical-beast": 10,
-  "type-monstrous-humanoid": 6,
-  "type-ooze": 3,
+  "trait-race": 3,
+  "trait-region": 8,
+  "trait-religion": 2,
+  "trait-social": 2,
+  "type-aberration": 2,
+  "type-animal": 1,
+  "type-construct": 3,
+  "type-dragon": 3,
+  "type-fey": 2,
+  "type-humanoid": 1,
+  "type-magical-beast": 2,
+  "type-monstrous-humanoid": 1,
+  "type-ooze": 2,
   "type-outsider": 1,
-  "type-plant": 5,
-  "type-undead": 6,
-  "type-vermin": 2,
+  "type-plant": 1,
+  "type-undead": 3,
+  "type-vermin": 1,
   "item-wrists": 1,
   "item-shoulders": 2,
   "item-head": 2,
@@ -597,5 +597,48 @@ window.PF_BODY_THEMES = {
     ["poison-toxin",    /\bpoison\b|\btoxin\b|\bvenom\b/i, 3],
     ["light-source",    /\bsheds? .{0,15}light\b|\billuminat|\bbright light\b/i, 3],
     ["transport-item",  /\bteleport|\bfly speed\b|\bmount(s)? .{0,10}speed\b/i, 2]
+  ],
+
+  /* MONSTERS. Not creature portraits — those resolve by name, subtype or type long before this.
+     These are the 1,319 that reach a broad type-* set or the bestiary stragglers, and the signal
+     is the ENVIRONMENT line: authored, and the single most visual fact about a beast. Habitat also
+     matches how the art actually reads on a page — a swamp thing and a desert thing look different
+     even when both are "aberration".
+
+     ⚠ These are deliberately NOT case-insensitive. "Environment" is capitalised in the stat block
+     and its values are lowercase, so [^A-Z] is an exact "stay inside this field" bound. Adding /i
+     makes the class exclude BOTH cases, matching nothing — it silently scored 5% instead of 56%. */
+  monsters: [
+    ["habitat-underground", /Environment[^A-Z]{0,40}underground/, 9],
+    ["habitat-aquatic",     /Environment[^A-Z]{0,40}(ocean|water|aquatic|sea|coast|river|lake)/, 4],
+    ["habitat-desert",      /Environment[^A-Z]{0,40}desert/, 4],
+    ["habitat-arctic",      /Environment[^A-Z]{0,40}(cold|arctic|glacier|tundra)/, 3],
+    ["habitat-swamp",       /Environment[^A-Z]{0,40}(swamp|marsh|bog)/, 3],
+    ["habitat-mountain",    /Environment[^A-Z]{0,40}(mountain|hill)/, 6],
+    ["habitat-forest",      /Environment[^A-Z]{0,40}(forest|jungle|wood)/, 10],
+    ["habitat-plains",      /Environment[^A-Z]{0,40}(plain|savanna|steppe)/, 2],
+    ["habitat-urban",       /Environment[^A-Z]{0,40}(urban|city|ruin)/, 3],
+    ["habitat-planar",      /Environment[^A-Z]{0,40}(vacuum|plane|abyss|heaven|hell|astral|ethereal)/, 2],
+    ["group-swarm",         /Organization[^A-Z]{0,40}(swarm|colony|nest|hive|flock|cluster)/, 2],
+    ["group-pack",          /Organization[^A-Z]{0,40}(pack|herd|gang|tribe|band|troop|flight)/, 3]
+  ],
+
+  /* TRAITS. A trait's body is short (471 characters) and almost entirely backstory — which is
+     exactly what makes it useful here, because the category facet says only "Social" or "Region".
+     Race and Religion traits are excluded upstream: they already reuse the actual race and deity
+     art, which beats any motif. */
+  traits: [
+    ["heritage-blood",  /\b(blood|bloodline|ancestor|ancestry|forebear|born to|were born|birth)\b/i, 18],
+    ["loss-vengeance",  /\b(died|death of|killed|slain|murdered|orphan|revenge|vengeance|lost your)\b/i, 3],
+    ["mentor-training", /\b(trained|mentor|master taught|apprentice|studied under|have learned|tutor)\b/i, 6],
+    ["faith-devotion",  /\b(deity|god|goddess|temple|prayer|priest|faith|worship|blessed)\b/i, 11],
+    ["wealth-trade",    /\b(gold|coin|wealth|merchant|trade|purse|rich|poverty|poor)\b/i, 4],
+    ["wilderness",      /\b(wilderness|forest|mountain|desert|swamp|survival check|terrain|wild)\b/i, 4],
+    ["city-streets",    /\b(city|street|urban|alley|slum|market|guild|thieves)\b/i, 3],
+    ["battle-veteran",  /\b(battle|war|soldier|army|militia|veteran|campaign against|combat)\b/i, 10],
+    ["arcane-study",    /\b(arcane|spellbook|wizard|magic|spell|caster level|sorcerer)\b/i, 14],
+    ["social-tongue",   /\b(diplomacy|bluff|intimidate|sense motive|perform|charm|persuad)\b/i, 15],
+    ["saves-willpower", /\b(saving throws?|will save|fear effect|resist)\b/i, 6],
+    ["skill-knack",     /\b(skill check|knowledge \(|craft check|profession|trained in)\b/i, 4]
   ]
 };

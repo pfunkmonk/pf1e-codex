@@ -54,8 +54,34 @@ function matchText(bucket, b) {
     if (ben >= 0) s = s.slice(ben + 7);
     return s;
   }
+  // Monsters and traits are matched against the WHOLE body: the monster signal is the Environment
+  // line in the stat block, and a trait's body is almost entirely the prose already.
+  if (bucket === "monsters" || bucket === "traits") return s;
   const i = s.indexOf("Description");
   return i >= 0 ? s.slice(i + 11) : s;
+}
+
+/* Art that already resolves ahead of the body layer, per bucket. A motif must never displace
+ * something more specific — and it must not pad the map either, because size-variants would then
+ * size the motif sets for entries that never reach them.
+ *   MONSTERS: a real portrait, the family art, or the SUBTYPE art. Only the ones that fall through
+ *             to a broad type-* set are candidates.
+ *   TRAITS:   Race and Religion traits already reuse the actual race and deity art, which beats
+ *             any inferred motif outright. */
+function resolvesEarlier(bucket, r) {
+  const fac = r[6] || {}, nm = artKey(r[1]);
+  if (bucket === "monsters") {
+    if (["monster-", "race-", "creature-", "type-"].some(p => ART.has(p + nm))) return true;
+    return !!(fac.st && ART.has("creature-" + artKey(fac.st)));
+  }
+  if (bucket === "traits") {
+    const m = String(r[5] || "").match(/Requirement\(s\)\s+(.+?)(?:\s*\[|\s+(?:You|Your|A|An|The|Whenever|Once|As)\b|$)/);
+    const q = m ? artKey(m[1].trim()) : null;
+    if (!q) return false;
+    if (fac.cat === "Race" && ART.has("race-" + q)) return true;
+    if (fac.cat === "Religion" && ART.has("deity-" + q)) return true;
+  }
+  return false;
 }
 
 const out = {};
@@ -74,6 +100,7 @@ for (const [bucket, motifs] of Object.entries(BODY)) {
   for (const r of IDX) {
     if (r[2] !== bucket) continue;
     if (NAMED[bucket] && ART.has(NAMED[bucket] + artKey(r[1]))) continue;   // has its own art
+    if (resolvesEarlier(bucket, r)) continue;                                // bucket-specific art
     // Anything the snippet rules already place is left alone — authored beats inferred.
     let hit = null;
     for (const t of table) if (t[1] && t[1].test(r[1] || "")) { hit = 1; break; }

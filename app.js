@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "62";
+  var DATA_V = "63";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -859,6 +859,9 @@
         if(fac.cat==="Race")     push(have("race-"+artKey(rq)));
         if(fac.cat==="Religion") push(have("deity-"+artKey(rq)));
       }
+      // Then the trait's own backstory. Its category facet says only "Social" or "Region"; the
+      // body says whether that is a battlefield, a temple or a debt owed.
+      push(have(bodyThemeArt("traits",row)));
       if(fac.cat){ var tk="trait-"+artKey(fac.cat); push(have(varietyKey(tk,row[I_ID]))); push(tk); }
     }
     // named art -> keyword theme -> straggler scene -> feat-type art -> category.
@@ -920,6 +923,10 @@
       // Real giants are humanoid(giant). Name alone is NOT enough: AON inverts names, so
       // "Ant, Giant" and "Beetle, Giant" also end in "giant" — they're vermin.
       if(t==="humanoid" && /giant/i.test(row[I_NAME])) push("type-giant");
+      // Habitat, read from the Environment line. Sits BELOW subtype art (authored taxonomy) and
+      // ABOVE the broad type sets, because a swamp thing and a desert thing look different even
+      // when both are "aberration".
+      push(have(bodyThemeArt("monsters",row)));
       if(t){ push(have(varietyKey("type-"+t,row[I_ID]))); push(have("type-"+t)); }
       // 307 obscure animals, templates and monster families match nothing above — Capybara,
       // Bustard, Amargasaurus. They get the straggler set rather than the category banner.

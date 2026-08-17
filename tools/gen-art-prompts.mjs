@@ -22,6 +22,7 @@ import { ITEM_SCENES, ITEM_VARIETY } from "./art-scenes-items.mjs";
 import { SPELL_THEME_SCENES, SCHOOL_SCENES, BODY_MOTIF_SCENES } from "./art-scenes-spells.mjs";
 import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } from "./art-scenes-monsters.mjs";
 import { FEAT_MOTIF_SCENES, ITEM_MOTIF_SCENES } from "./art-scenes-motifs.mjs";
+import { MONSTER_MOTIF_SCENES, TRAIT_MOTIF_SCENES } from "./art-scenes-motifs2.mjs";
 import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
 
 const slug = t => String(t).toLowerCase().replace(/['\u2019]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -868,6 +869,7 @@ const BATCHES = {
     blurb: "Monster THEMES here are not creature portraits — real monsters already resolve by name,\nsubtype or type. These cover the rules-shaped pages that live in the monster bucket: Universal\nMonster Rules, Templates and Animal Companions. The type sets catch creatures with no portrait.",
     parts: [
       { kind: "themes", bucket: "monsters", scenes: MONSTER_THEME_SCENES, section: "Monster rules and template art" },
+      { kind: "bodythemes", bucket: "monsters", scenes: MONSTER_MOTIF_SCENES, section: "Habitat art" },
       ...varietyFamily(TYPE_SCENES, "Creature type scenes"),
       ...varietyFamily(CREATURE_SCENES, "Creature subtype scenes"),
       { kind: "variety", name: "monster-scene", scenes: MONSTER_SCENES, section: "General bestiary scenes" },
@@ -879,6 +881,7 @@ const BATCHES = {
     title: "BATCH 15 (Traits, class options, archetypes)",
     blurb: "All variety sets, keyed to facets the data already carries — trait category, class-option type,\nparent class. Trait names are evocative rather than categorical, so no keyword table can sort\nthem; the category facet can. trait-region alone backs 448 pages today.",
     parts: [
+      { kind: "bodythemes", bucket: "traits", scenes: TRAIT_MOTIF_SCENES, section: "Trait body motif art" },
       ...varietyFamily(TRAIT_SCENES, "Trait category scenes"),
       ...varietyFamily(OPT_SCENES, "Class option scenes"),
       ...varietyFamily(ARCH_SCENES, "Archetype scenes")
