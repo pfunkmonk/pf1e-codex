@@ -132,6 +132,31 @@ for (const [bucket, counts] of Object.entries(perBucket)) {
   if (dead.length) console.log(`  DEAD (claims nothing): ${dead.map(r => r[0]).join(", ")}`);
 }
 
+/* NPC stat blocks open with race and class — "Halfling commoner 4". The class is by far the best
+ * art signal an NPC has, and we already own the class images. Only REAL PC classes are recorded:
+ * the NPC classes (commoner, expert, aristocrat, warrior, adept) route through CLASS_INHERIT to
+ * rogue/investigator/cavalier/fighter/cleric, which would hand an Accomplished Angler a rogue
+ * portrait. Those are left to the role rules, where the name says "angler". */
+const PC_CLASS = /\b(barbarian|bard|cleric|druid|fighter|monk|paladin|ranger|rogue|sorcerer|wizard|alchemist|cavalier|gunslinger|inquisitor|magus|oracle|summoner|witch|antipaladin|brawler|hunter|investigator|shaman|skald|slayer|swashbuckler|warpriest|arcanist|bloodrager|kineticist|medium|mesmerist|occultist|psychic|spiritualist|vigilante|ninja|samurai)\s+\d+/;
+const npcClass = {};
+{
+  const bodies = {};
+  globalThis.window.PF_REG = (slug, map) => { if (slug === "npcs") Object.assign(bodies, map); };
+  const f = `${ROOT}/data/cat/npcs.js`;
+  if (fs.existsSync(f)) {
+    (0, eval)(fs.readFileSync(f, "utf8"));
+    for (const r of IDX) {
+      if (r[2] !== "npcs") continue;
+      const m = String(bodies[r[0]] || "").replace(/<[^>]+>/g, " ").match(PC_CLASS);
+      if (m && ART.has("class-" + m[1].toLowerCase())) npcClass[r[0]] = m[1].toLowerCase();
+    }
+  }
+  const counts = {};
+  for (const c of Object.values(npcClass)) counts[c] = (counts[c] || 0) + 1;
+  console.log(`\nnpcs: ${Object.keys(npcClass).length} resolved to an existing class image`);
+  console.log("  " + Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([k, n]) => `${k}:${n}`).join("  "));
+}
+
 if (DRY) { console.log("\n(dry run — nothing written)"); process.exit(0); }
 
 const lines = [
@@ -140,6 +165,8 @@ const lines = [
   " * Only entries that no name or stat-block rule could place appear here.",
   " * Re-run the tool after changing a motif regex or after a data refresh. */",
   "window.PF_BODY_THEME = " + JSON.stringify(out) + ";",
+  "/* NPC id -> the class named in its stat block, for classes we already have art for. */",
+  "window.PF_BODY_CLASS = " + JSON.stringify(npcClass) + ";",
   ""
 ];
 fs.writeFileSync(`${ROOT}/data/bodythemes.js`, lines.join("\n"));

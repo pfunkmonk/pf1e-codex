@@ -243,9 +243,9 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 | 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
 | 14 | Monsters — themes, habitat motifs, types, subtypes, hazards | 280 | **pack written** |
 | 15 | Traits — body motifs + category sets, class options, archetypes | 297 | **pack written** |
-| 16 | Rules (141), NPCs (36), the last 163 deities | 301 | **pack written** |
+| 16 | Rules, NPC scenes + 6 role images, the last 163 deities | 285 | **pack written** |
 
-**All seven packs are written — 2,079 prompts, about 83 hours of generation.** Packs and their
+**All seven packs are written — 2,063 prompts, about 82 hours of generation.** Packs and their
 `BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
 manifests up automatically; `--keys` is only needed to restrict to one batch.
 
@@ -306,6 +306,19 @@ Body motifs now cover **all five large buckets** — 3,830 entries in total:
 | monsters | 740 | the `Environment` line — habitat |
 | spells | 339 | subschool and descriptors, then prose |
 | feats | 209 | the Benefit line |
+
+### NPCs reuse art we already own
+
+NPCs were the last bucket on a pure hash — `npc-1..N` assigned at random, which is exactly what it
+looked like. They have two signals and both point at existing images: their stat block names a
+class ("Halfling commoner 4") and their name states a job ("Aldori Swordlord", "Besmaran Priest").
+**405 of 487 now resolve to art the Codex already owns**, and only six roles needed anything new —
+sailor, merchant, commoner, tavern, scholar, tradesman.
+
+Order is class, then role, then the `npc` set. Step one deliberately ignores the NPC classes
+(commoner, expert, aristocrat, warrior, adept): CLASS_INHERIT maps commoner to rogue, which would
+hand an *Accomplished Angler* a rogue portrait. Those fall to the role rules, where the name says
+"angler" and gets a tradesman. The `npc` set shrank from 48 back to 12 as a result.
 
 ⚠ **Each bucket needs its own text preparation, and getting it wrong is silent.** `matchText()` in
 derive-body-themes.mjs:

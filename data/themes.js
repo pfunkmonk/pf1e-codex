@@ -329,6 +329,12 @@ window.PF_THEMES = {
  * previous choice, so a number can be raised BEFORE the art is generated. LOWERING one strands
  * art on disk that nothing references. */
 window.PF_VARIETY = {
+  "npc-role-sailor": 1,
+  "npc-role-merchant": 1,
+  "npc-role-commoner": 1,
+  "npc-role-tavern": 1,
+  "npc-role-scholar": 1,
+  "npc-role-tradesman": 1,
   "monster-scene": 25,
   "creature-aeon": 1,
   "creature-agathion": 1,
@@ -493,7 +499,7 @@ window.PF_VARIETY = {
   "item-body": 2,
   "item-neck": 3,
   "rules": 156,          // rules pages have no category to sort them by
-  "npc": 34,
+  "npc": 12,
   "feat-scene": 45,     // feats matching no theme (725 of them)
   "item-scene": 14,     // mundane goods: Miscellaneous, Equipment, Magic Equipment
   "item-wondrous": 31,  // wondrous items no theme or slot caught
@@ -642,3 +648,56 @@ window.PF_BODY_THEMES = {
     ["skill-knack",     /\b(skill check|knowledge \(|craft check|profession|trained in)\b/i, 4]
   ]
 };
+
+/* NPC ROLES — name to an EXISTING art key, wherever one genuinely fits.
+ *
+ * NPCs were the last bucket still on a pure hash: npc-1..N, assigned at random, which is exactly
+ * what it looked like. But an NPC's name states its job — "Aldori Swordlord", "Accomplished
+ * Angler", "Besmaran Priest" — and its stat block names a class ("Halfling commoner 4"). Between
+ * the two, 405 of 487 resolve to art the Codex ALREADY OWNS. Only six roles needed anything new.
+ *
+ * Resolution order for an NPC is:
+ *   1. the class in the stat block, when it is a real PC class with art  (331) — precomputed into
+ *      data/bodythemes.js as PF_BODY_CLASS, because bodies are lazy-loaded
+ *   2. the role in the NAME, mapped here                                  (~110)
+ *   3. the npc-N variety set, for whatever is left
+ *
+ * Step 1 deliberately ignores the NPC classes — commoner, expert, aristocrat, warrior, adept.
+ * CLASS_INHERIT maps commoner to rogue, which would hand an Accomplished Angler a rogue portrait.
+ * Those fall to step 2, where the name says "angler" and gets a tradesman instead.
+ *
+ * Entries are [regex, artKey]. Most point at class art; the npc-role-* keys are the new six.
+ */
+window.PF_NPC_ROLES = [
+  [/\bsorcer/i,                                                    "class-sorcerer"],
+  [/\bwizard|\bmage\b|\bmagus\b|\barcanist|\bconjurer|\bdemonolog|\bnecromancer|\bevoker|\billusionist|\benchanter|\bdiviner|\btransmuter|\babjurer/i, "class-wizard"],
+  [/\bwitch\b|\bhag\b/i,                                          "class-witch"],
+  [/\bpriest|\bcleric|\bacolyte|\bheretic|\bprophet|\bseer\b|\bzealot|\bcultist|\bmissionary|\bloremaster|\bconfessor|\bchaplain|\bdevotee/i, "class-cleric"],
+  [/\bpaladin|\bcrusader|\bholy\b|\bchampion|\btemplar|\bsmiter|\bavenger/i, "class-paladin"],
+  [/\bknight|\bnoble\b|\blord\b|\blady\b|\bcavalier|\baristocrat|\bpolitician|\bdiplomat|\bcourtier|\benvoy|\bmagistrate|\bcouncil/i, "class-cavalier"],
+  [/\bdruid|\bhermit|\bshaman|\bwarden\b|\bgroveke|\bnaturalist/i, "class-druid"],
+  [/\branger|\barcher|\bhuntsman|\bscout\b|\btracker|\bsniper|\bbounty hunter|\bpathfinder|\bwoodsman|\btrapper|\bmarksman/i, "class-ranger"],
+  [/\bhunter\b|\bfalconer|\bbeastmaster/i,                        "class-ranger"],
+  [/\bmonk\b|\bmaster\b|\binitiate|\bascetic|\bdisciple/i,      "class-monk"],
+  [/\bbard\b|\bskald|\bentertainer|\bminstrel|\bdancer|\bsinger|\bperformer|\bstoryteller|\bherald\b/i, "class-bard"],
+  [/\bbarbarian|\bberserk|\braider|\bwarchief|\bsavage|\bbrute\b|\breaver|\bmarauder/i, "class-barbarian"],
+  [/\brogue\b|\bthief|\bbrigand|\bbandit|\bcriminal|\bkiller|\bassassin|\bstalker|\bspy\b|\bburglar|\bcutpurse|\bsmuggler|\brake\b|\bpoisoner|\bcutthroat|\bfence\b|\binfiltrat|\bsaboteur/i, "class-rogue"],
+  [/\bfighter|\bwarrior|\bguard\b|\bcaptain|\bofficer|\bmercenary|\bsoldier|\bgladiator|\bdefender|\bwarlord|\bcommander|\bveteran|\bblade\b|\baxe\b|\bswordl|\bconstable|\bmarshal|\bsentinel|\bbodyguard|\bmilitia|\bspearman|\bprotector|\bwarder\b/i, "class-fighter"],
+  [/\balchemist|\bchymist|\bapothecar/i,                          "class-alchemist"],
+  [/\bgunslinger|\bpistol|\bmusketeer/i,                          "class-gunslinger"],
+  [/\binquisitor|\bwitchfinder/i,                                   "class-inquisitor"],
+  [/\bsummoner|\bbinder\b/i,                                       "class-summoner"],
+  [/\boracle\b|\bmystic\b/i,                                      "class-oracle"],
+  [/\bswashbuckl|\bduelist|\bfencer/i,                            "class-swashbuckler"],
+  [/\bninja\b|\bshinobi/i,                                         "class-ninja"],
+  [/\bsamurai|\bronin/i,                                            "class-samurai"],
+  [/\bantipaladin|\bblackguard|\btyrant\b/i,                      "class-antipaladin"],
+  [/\bmonk\b/i,                                                     "class-monk"],
+  // These six have no class image that fits, so they are the only new NPC art in the batch.
+  [/\bpirate|\bsailor|\bcorsair|\bbuccaneer|\bcastaway|\bmariner|\bdeckhand|\bnavigator/i, "npc-role-sailor"],
+  [/\bmerchant|\btrader|\bpeddler|\bshopkeep|\bconsortium|\bagent\b|\bbroker|\bbanker/i, "npc-role-merchant"],
+  [/\bbeggar|\burchin|\bvagrant|\bslave\b|\bpeasant|\bcommoner|\blabou?rer|\bdrifter|\brefugee/i, "npc-role-commoner"],
+  [/\bbarmaid|\btavern|\binnkeep|\bcook\b|\bservant|\bsteward|\bhost\b/i, "npc-role-tavern"],
+  [/\bscholar|\bsage\b|\blibrarian|\bscribe|\bstudent|\bteacher|\barchivist|\blawyer|\bjeweler|\bjeweller/i, "npc-role-scholar"],
+  [/\bsmith\b|\bblacksmith|\bartisan|\bcrafts|\bmason|\bcarpenter|\bfarmer|\bangler|\bfisher|\bminer|\bherder|\btanner|\bbrewer|\bbaker|\bweaver|\bapprentice/i, "npc-role-tradesman"]
+];

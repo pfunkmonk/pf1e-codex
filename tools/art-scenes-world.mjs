@@ -695,3 +695,15 @@ export const NAMED_DEITIES = [
   ["Zyphus", "A grim god of accidental death with a broken headstone and a scythe."],
   ["Chaldira Zuzaristan", "A cheerful halfling goddess of luck and mischief with a short sword and a grin."]
 ];
+
+
+/* The only NPC art that is genuinely new. Every other role points at a class image the Codex
+   already owns — 405 of 487 NPCs resolve that way. These six have no class equivalent. */
+export const NPC_ROLE_SCENES = {
+  "npc-role-sailor": ["A weathered deckhand at a ship's rail with the harbour behind, rope over one shoulder."],
+  "npc-role-merchant": ["A merchant behind a laden stall, hand resting on a strongbox, weighing up a customer."],
+  "npc-role-commoner": ["A working figure in patched clothes at a doorway, tired and watchful."],
+  "npc-role-tavern": ["A barkeep drawing a pitcher behind a crowded counter, cloth over the shoulder."],
+  "npc-role-scholar": ["A scholar at a cluttered desk by lamplight, finger holding a place in a book."],
+  "npc-role-tradesman": ["A craftsman at a workbench with the tools of a trade, sleeves rolled, mid-task."]
+};
