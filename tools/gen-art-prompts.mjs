@@ -1,0 +1,620 @@
+/* Generates an art prompt pack from data/themes.js.
+ *
+ * WHY THIS READS themes.js INSTEAD OF LISTING KEYS ITSELF
+ * The art we commission and the art the app looks for must be the same set. When those were
+ * maintained separately we shipped `spell-bulls-strength` art that the resolver could never ask
+ * for, because two slug rules disagreed and nobody noticed for weeks. So the key list and the
+ * variant counts come from themes.js, and this script REFUSES TO RUN if any declared key has no
+ * scene description or if a description array is the wrong length. A missing scene is a hard
+ * error, never a silently skipped image.
+ *
+ * Usage:  node tools/gen-art-prompts.mjs [repoRoot] [outDir]
+ * Emits Markdown always; also emits .docx when the `docx` package is resolvable.
+ */
+import fs from "node:fs";
+import path from "node:path";
+
+const ROOT = process.argv[2] || ".";
+const OUT = process.argv[3] || ".";
+
+/* House style, carried verbatim from the batch 1-9 packs so new art matches what is already
+   on the site. Do not paraphrase these two strings — consistency of style across ~2,000
+   images depends on the generator repeating them exactly. */
+const SUFFIX =
+  "Composition: subject in the RIGHT half of the frame, high in the upper third; the LEFT third open, " +
+  "dark and uncluttered so overlaid title text stays readable. 16:9 cinematic banner, painted fantasy " +
+  "illustration, dramatic directional lighting, rich muted palette, no text, no lettering, no watermark, no border.";
+
+const STYLE = "Style: painterly digital oil in the manner of the existing PF1e Codex banners — " +
+  "visible brushwork and a fine canvas grain, grounded realistic fantasy anatomy, never anime, cel-shaded " +
+  "or cartoon. One strong directional key light with rim-light separating the subject, deep brown-black " +
+  "shadows, warm amber-gold highlights, a desaturated muted background carrying a single saturated accent " +
+  "colour. Heavy atmosphere: haze, drifting dust motes, god-rays. Subject rendered sharp, background " +
+  "falling off softly.";
+
+/* One entry per theme key in data/themes.js -> one description PER VARIANT.
+   Variants are shown on different pages, so they must read as different pictures of the same
+   idea, not the same picture twice. Write full words: an earlier pack used "cat." for category
+   and the generator produced cats. */
+const SCENES = {
+  trip: [
+    "A warrior hooking an opponent's lead ankle with the beard of a guisarme, the foe caught at the exact moment balance is lost, arms wheeling backward.",
+    "A duelist sweeping a low leg-scythe kick beneath a raised shield, their opponent's boots leaving the ground, dust bursting outward from the pivot."
+  ],
+  disarm: [
+    "A blade flicking upward beneath a crossguard, an opponent's sword spinning free and turning end over end in the air above the fight.",
+    "A whip curling around the haft of a raised axe, the weapon being ripped sideways out of a startled grip."
+  ],
+  sunder: [
+    "A greataxe crashing through the face of a wooden shield, splinters and iron bindings exploding outward in a spray.",
+    "A warhammer striking a blade flat and shattering it, fragments of broken steel hanging in the air catching the light."
+  ],
+  grapple: [
+    "Two fighters locked chest to chest in a wrestling clinch, boots dug into churned earth, every tendon straining.",
+    "A brawler dragging an opponent down into a pinning hold, one arm locked across the throat, both bodies low to the ground.",
+    "A constricting serpent coiled around an armoured torso, scales tightening, the trapped warrior's face contorted with effort."
+  ],
+  "bull-rush": ["A shield-bearing warrior slamming shoulder-first into an opponent and driving them bodily backward off their feet, dust exploding from the impact."],
+  overrun: ["A charging warhorse and rider running straight over a broken shield-line, bodies scattering aside beneath the hooves."],
+  "dirty-trick": ["A rogue flinging a fistful of sand into an opponent's eyes at close quarters, the victim recoiling blind, a knife already coming up low."],
+  "steal-maneuver": ["A thief's hand lifting a pouch from an opponent's belt mid-fight, the cord parting cleanly, the victim entirely unaware."],
+  "reposition-drag": ["A warrior with a polearm hooked behind an opponent's knee, hauling them bodily out of a defensive line and off balance."],
+  feint: [
+    "A duelist selling a high committed thrust that is not real, their opponent's guard rising to meet nothing, the true low line already opening.",
+    "A fighter's shoulder and eyes lying about the direction of an attack, the blade travelling somewhere else entirely, the opponent leaning the wrong way."
+  ],
+  "maneuver-general": ["Two combatants at the moment of a grip-and-turn, weapons momentarily irrelevant, the whole contest reduced to leverage and body mechanics."],
+  "power-attack": [
+    "A two-handed greatsword at the top of its arc, the wielder's whole mass committed behind it, air visibly distorting along the edge.",
+    "A massive overhead maul strike landing, the ground cratering and cracks running outward from the point of impact."
+  ],
+  "vital-strike": [
+    "A single devastating thrust driving through a breastplate at the seam, everything else in the frame motionless.",
+    "A blade withdrawn from a fatal blow, one bright line of impact light still fading along the wound channel.",
+    "A spear delivered with both hands at full extension, the point emerging cleanly through heavy armour plate.",
+    "A hunter's arrow striking a single perfect point on a great beast, the animal's mass folding around the hit."
+  ],
+  "two-weapon": [
+    "A fighter mid-flurry with paired blades, two separate attack arcs crossing in front of the body, both in motion at once.",
+    "A ranger with sword and long knife working high and low simultaneously, an opponent's guard split between two threats."
+  ],
+  "finesse-duelist": [
+    "A rapier duelist in a deep lunge, back leg extended, blade and arm one straight line, coat flaring behind.",
+    "A swashbuckler beating an incoming blade aside and riposting in the same tempo, footwork precise on wet cobbles."
+  ],
+  archery: [
+    "An archer at full draw, string at the cheek, arrow steady, the whole body a held curve of tension.",
+    "The instant of release: bowstring blurred, fletching just clearing the riser, the archer's eyes locked downrange.",
+    "A ranger loosing from a crouch behind cover, a second arrow already nocked between the fingers of the draw hand."
+  ],
+  thrown: [
+    "A warrior mid-throw with a heavy javelin, hips rotated fully through, the shaft leaving the hand.",
+    "A rogue releasing a fan of throwing knives, three blades in flight at different distances from the hand."
+  ],
+  firearms: [
+    "A gunslinger firing a heavy pistol, muzzle flash blooming, smoke curling back over the hammer.",
+    "A musketeer sighting down a long barrel braced on a rampart, match-cord smouldering, powder horn at the hip."
+  ],
+  charge: [
+    "A lancer at full gallop with the lance couched and levelled, everything behind them reduced to speed-blurred dust.",
+    "An infantry charge breaking into a run, spears lowering in ragged unison, banners streaming."
+  ],
+  mounted: [
+    "A knight and warhorse turning together in tight formation, barding swinging, the animal's weight visibly part of the technique.",
+    "A rider hanging low off the saddle at speed to strike beneath a shield line, one boot still hooked in the stirrup."
+  ],
+  "critical-hit": [
+    "The exact instant armour fails: a plate seam splitting, the weapon driving through, impact light flaring white at the contact point.",
+    "A blade finding the gap beneath a helmet's jaw, the victim's whole posture collapsing in the same frame.",
+    "A hammer blow landing on a shield arm, the limb buckling wrongly, the shield already falling away."
+  ],
+  "attacks-of-opp": [
+    "A spearman punishing an opponent who tried to move past, the thrust landing into an exposed flank mid-step.",
+    "A guard's blade snapping out to catch a caster the moment their hands begin a gesture, the spell dying unfinished."
+  ],
+  "combat-expertise": [
+    "A fighter trading reach for safety, blade angled defensively across the body, weight settled back, reading the opponent.",
+    "A duelist in a tight controlled guard turning aside three successive attacks without giving ground.",
+    "A veteran giving deliberate ground step by step, never breaking form, drawing an overcommitted opponent onto bad footing."
+  ],
+  "dodge-mobility": [
+    "A fighter bending backward out of a blade's path, the edge passing a finger's width from the throat.",
+    "An acrobat rolling under a swing and coming up already inside the opponent's reach."
+  ],
+  "reach-polearm": [
+    "A halberdier holding a corridor alone, the long weapon sweeping a wide arc that nothing can close through.",
+    "A phalanx of levelled pikes seen from the flank, a hedge of steel points at a single height."
+  ],
+  shield: [
+    "A shield braced at the moment of impact, an axe head embedded in the boards, splinters flying.",
+    "A shield-bash driving the boss into an opponent's face, head snapping back.",
+    "A locked shield wall from low angle, overlapping rims forming one unbroken barrier, arrows standing in the wood."
+  ],
+  armor: [
+    "Ornate battle plate taking a glancing blow, the strike skating off curved steel in a shower of sparks.",
+    "A warrior being buckled into heavy armour in a lamplit tent, each strap and plate settling into place."
+  ],
+  "toughness-saves": [
+    "A battered warrior still standing amid fallen foes, bleeding, breathing hard, absolutely refusing to go down.",
+    "A figure braced against a torrent of magical force, arms crossed before the face, ground scoured away behind them."
+  ],
+  "monk-style": [
+    "A monk flowing into a crane-like stance on a rain-slick temple terrace, one leg raised, arms wide and poised.",
+    "A tiger-style strike: clawed hands driving forward in a low aggressive lunge, muscles bunched.",
+    "A serpentine style of coiling deflection, the practitioner's arms winding around an incoming attack.",
+    "A grounded immovable stance, feet rooted wide, an opponent's full-force blow being absorbed without a step back.",
+    "A leaping aerial technique frozen at apex, robes streaming, a spinning kick just beginning to unwind."
+  ],
+  unarmed: [
+    "A bare-knuckle strike landing clean on a jaw, sweat and spit flying, both fighters unarmoured.",
+    "An elbow driven into an opponent's guard at close range, the whole body behind the short brutal motion.",
+    "A monk's open palm strike stopping a charging opponent dead, dust ring pulsing outward from the point of contact.",
+    "A grappler throwing an opponent over the hip, the victim inverted in mid-air above churned ground."
+  ],
+  "ki-meditation": [
+    "A monk seated in perfect stillness on a wind-scoured peak, faint inner light at the brow, clouds far below.",
+    "A practitioner drawing a breath before action, a soft luminous current visibly gathering along the arms and hands."
+  ],
+  metamagic: [
+    "A spell being reshaped mid-cast: concentric glowing rune-rings expanding and folding around an outstretched hand.",
+    "A caster stretching a spell's geometry between both palms, the lattice distending like worked glass.",
+    "A silent casting with no gesture at all, only the eyes and a bloom of contained light behind them.",
+    "A spell compressed to a dense burning point in the fingertips, far brighter than its size should allow.",
+    "A ritual diagram rotating in the air, layers of script sliding over one another into a new configuration."
+  ],
+  "spell-focus": [
+    "A wizard with one school's sigil burning brighter than all the others orbiting them.",
+    "A caster driving a spell through a shimmering magical ward, the barrier splitting apart around it.",
+    "A scholar-mage bent over a single spell diagram, everything else in the study dark and forgotten."
+  ],
+  counterspell: ["Two casters locked opposite each other, one spell unravelling into loose sparks the instant it meets the other's raised hand."],
+  summoning: [
+    "A summoning circle blazing on flagstones as a great shape resolves out of the light within it.",
+    "A caster with arm outflung as a called creature steps through a tear in the air behind them."
+  ],
+  familiar: [
+    "A caster shoulder to shoulder with a bonded raven, a faint tether of light linking the two.",
+    "A cat familiar curled on an open spellbook, eyes reflecting arcane light, its wizard working in the background."
+  ],
+  "animal-companion": [
+    "A ranger and a great wolf moving as one through undergrowth, both alert to the same distant sound.",
+    "A druid resting a hand on the shoulder of an enormous bear, entirely unafraid, the animal leaning into the touch."
+  ],
+  bloodline: [
+    "A sorcerer whose inherited power shows physically: faint draconic scaling along the forearms, eyes lit from within.",
+    "An ancestral shape looming as a translucent presence behind a caster, echoing their raised-arm gesture."
+  ],
+  "channel-energy": [
+    "A cleric with holy symbol raised, a wave of golden light rolling outward through a battlefield.",
+    "A priest channelling dark energy, black-violet light guttering from the holy symbol, undead stirring behind.",
+    "Healing light pouring from a cleric's hands into a wounded companion, wounds visibly closing."
+  ],
+  "hex-witch": [
+    "A witch tracing a hex sigil in the air, the mark hanging and burning where the finger passed.",
+    "A crone stirring a cauldron, the rising steam forming the face of a distant victim."
+  ],
+  "rage-barbarian": [
+    "A barbarian mid-roar, eyes wild, veins standing out, weapon raised in both hands.",
+    "A berserker taking a wound without breaking stride, fury entirely overriding pain.",
+    "A raging warrior driving through a shield wall by pure violence, defenders scattering."
+  ],
+  bardic: [
+    "A bard mid-performance on a battlefield's edge, playing while the fight rages, allies visibly lifted by it.",
+    "A singer in a torchlit hall, the whole room turned toward them, sound made almost visible in the smoky air."
+  ],
+  "smite-paladin": [
+    "A paladin's blade blazing with holy light as it descends on a fiendish foe, the light hurting the target.",
+    "A knight kneeling to lay glowing hands on a dying soldier, radiance spilling between the fingers."
+  ],
+  "judgment-teamwork": [
+    "Two allies fighting back to back in perfect coordination, shields overlapping into one wall.",
+    "An inquisitor's judgment settling visibly over a battlefield as a cold ring of light, allies moving in unison beneath it."
+  ],
+  arcane: [
+    "A wizard's hand wreathed in disciplined arcane fire, geometric sigils rotating around the wrist.",
+    "A blade sheathed in crackling arcane energy mid-swing, magic and steel working as one weapon."
+  ],
+  "mesmerist-stare": [
+    "An unblinking mesmerist holding a victim's gaze, hypnotic rings coiling outward from the eyes.",
+    "A victim frozen mid-motion, pupils blown wide with reflected light, the mesmerist calm behind them."
+  ],
+  "psychic-occult": [
+    "A psychic with fingers to the temple, a lattice of thought-light unfolding outward from the skull.",
+    "Two minds meeting as overlapping translucent shapes above a seated figure, an alien geometry between them."
+  ],
+  "spirit-medium": [
+    "A medium seated in a candlelit circle as a translucent spirit leans in over their shoulder.",
+    "A shaman surrounded by drifting ancestral shapes, each half-formed from smoke and light.",
+    "A haunted room where a spirit's outline is briefly visible in disturbed dust and guttering flame."
+  ],
+  necromancy: [
+    "A necromancer raising skeletal figures from broken ground, sickly green light pooling in the earth.",
+    "A hooded caster drawing a thread of life-force from a dying thing into their own cupped hand."
+  ],
+  shadow: [
+    "A figure stepping bodily into their own cast shadow and disappearing into it.",
+    "Shadows detaching from a wall and rising into standing shapes with their own intent."
+  ],
+  planar: [
+    "A rift tearing open in the air, a wholly different sky visible through the gap.",
+    "A horned fiend stepping across a burning summoning boundary, brimstone light beneath.",
+    "A radiant celestial descending with wings spread, light too bright to look at directly."
+  ],
+  fire: [
+    "A caster hurling a roaring gout of flame, heat distorting everything behind the stream.",
+    "A blade wreathed in fire cutting a bright arc through darkness, embers trailing the swing."
+  ],
+  cold: ["A wave of frost racing outward across stone and water, everything it touches locking into rime and ice."],
+  lightning: ["A bolt of lightning discharging from a caster's outstretched hand, the whole scene lit blue-white for one instant."],
+  "acid-poison": [
+    "A vial of acid striking armour and eating through it, the metal bubbling and running.",
+    "A blade drawn across a poisoner's flask, a bead of dark venom gathering along the edge."
+  ],
+  "earth-stone": [
+    "A caster driving a fist into the ground, a ridge of raised stone erupting in a line away from them.",
+    "A figure of living rock rising out of a hillside, boulders settling into shoulders.",
+    "Stone armour crusting over a warrior's skin, granite plates locking across the chest and arms."
+  ],
+  "air-flight": [
+    "A figure rising off the ground on a column of wind, cloak and hair thrown upward.",
+    "A winged silhouette banking hard against a vast bright sky, far above the landscape."
+  ],
+  water: [
+    "A wave rearing under a caster's raised hands, held impossibly upright before breaking.",
+    "A swimmer moving powerfully through green underwater light, bubbles trailing behind."
+  ],
+  stealth: [
+    "A rogue flattened into deep shadow beside a lit corridor, utterly still as a guard passes.",
+    "A blade sliding in from behind an unaware sentry, the assassin's face half-lit and calm."
+  ],
+  intimidate: [
+    "A warrior roaring into an enemy's face at arm's length, the target visibly breaking.",
+    "A towering armoured figure stepping forward as lesser foes back away, weapons wavering."
+  ],
+  diplomacy: [
+    "Two rival envoys clasping hands across a table, tension easing in the faces around them.",
+    "A courtier speaking quietly to a seated noble, the whole room's attention bending toward the exchange."
+  ],
+  "bluff-disguise": [
+    "A spy pulling on another's face like a mask, the true features still half visible beneath.",
+    "A confident liar mid-sentence, entirely believable, one hand hiding a stolen key behind the back."
+  ],
+  perception: [
+    "A scout catching one wrong detail in a crowded market, eyes narrowing on it while everything else blurs.",
+    "A ranger crouched at a trailhead, seeing the single broken stem that gives the ambush away."
+  ],
+  knowledge: [
+    "A scholar in a towering library, a shaft of light falling on the one open book that matters.",
+    "A sage comparing a monster's claw against an illustrated bestiary plate by candlelight.",
+    "An archaeologist reading carved glyphs on a buried wall, brushing away centuries of dust.",
+    "A student surrounded by orbiting diagrams of planes and stars, tracing one line of reasoning.",
+    "An old master and a young apprentice over a table of maps and instruments, mid-explanation."
+  ],
+  athletics: [
+    "A climber hauling over a cliff lip by fingertips, legs swinging over a long drop.",
+    "A runner clearing a wide rooftop gap at full stretch, the street far below."
+  ],
+  "heal-medicine": ["A field surgeon working fast on a wounded soldier by lamplight, hands bloodied, instruments laid out on cloth."],
+  survival: [
+    "A tracker kneeling over a print in wet ground, reading it while the trail runs on into mist.",
+    "A lone traveller building a fire under a rock overhang as weather closes in behind them."
+  ],
+  "traps-thievery": ["A thief's picks at work inside a complex lock, the mechanism drawn in warm light, a trap needle visible and unsprung."],
+  leadership: [
+    "A commander with sword raised turning a wavering line, soldiers rallying to the gesture.",
+    "A captain briefing companions over a campaign map, every face turned toward them.",
+    "A banner going up on contested ground as troops surge past it."
+  ],
+  linguistics: ["A translator working between an ancient inscribed tablet and a fresh page, script transforming under the pen."],
+  "item-creation": [
+    "A wizard-smith at an enchanting bench, hammer poised over a glowing blade on runic anvil-plates.",
+    "A crafter binding a final rune into a finished item, the magic settling into it and going quiet."
+  ],
+  alchemy: [
+    "An alchemist's bench mid-reaction, glassware boiling over into coloured smoke.",
+    "A bomb-thrower lighting a fuse, the flask already swinging back for the throw."
+  ],
+  "item-mastery": ["A hand raised holding a wondrous item blazing to life, its power visibly answering the wielder, light spilling between the fingers."],
+  "natural-attacks": [
+    "A beast's jaws closing on an armoured arm, teeth grating on steel.",
+    "Raking claws opening four parallel lines across a shield face."
+  ],
+  "dragon-breath": [
+    "A dragon's head rearing back and then unleashing a torrent of elemental breath down a valley.",
+    "A humanoid with draconic heritage exhaling a cone of energy, throat and chest lit from inside."
+  ],
+  "race-dwarf": ["A dwarven warrior braced behind a heavy shield in a stone hall, beard braided with iron rings, absolutely immovable."],
+  "race-elf": ["An elven archer among ancient trees, longbow half-drawn, dappled forest light across a composed face."],
+  "race-gnome": ["A gnome tinkerer surrounded by half-built clockwork, goggles up, delighted by something just gone right."],
+  "race-halfling": ["A halfling moving nimbly along a tavern rafter above an oblivious crowd, purse in hand, grinning."],
+  "race-orc-gnoll": ["A half-orc warrior with a notched greataxe over one shoulder, tusks and scars catching hard low light."],
+  "race-goblinoid": ["A goblin warband boiling out of a drainage tunnel with torches and crude blades, all teeth and motion."],
+  "race-planetouched": ["A tiefling and an aasimar standing back to back, one horned and shadowed, one haloed in faint gold."],
+  "race-beastfolk": [
+    "A catfolk scout balanced on a rooftop ridge, tail counterweighting, eyes reflecting lamplight.",
+    "A tengu in travelling clothes on a rainy street, feathers slick, sharp-eyed and mid-negotiation."
+  ],
+  "race-giant": ["An enormous giant rising against the sky, a boulder hefted overhead, tiny figures scattering below."],
+  "initiative-speed": [
+    "A duelist already moving while everyone else is still reacting, the first to understand the fight has started.",
+    "A blade half-drawn in a blur of motion, the wielder's eyes fixed and the crowd behind still frozen."
+  ],
+  "extra-resource": [
+    "A cupped pair of hands overflowing with more light than they should be able to hold.",
+    "A reserve of power visibly kept back behind a caster, waiting, banked like coals.",
+    "A depleted vessel refilling itself, light climbing back up the inside of a carved reliquary."
+  ],
+  "story-destiny": [
+    "A lone figure at a campfire writing in a battered journal, past deeds rising as images in the smoke.",
+    "A traveller at a fork in an old road under a huge sky, one path already chosen."
+  ],
+  "faith-obedience": [
+    "A kneeling supplicant in a shaft of cathedral light, holy symbol glowing faintly at the throat.",
+    "A pilgrim performing a daily rite at a roadside shrine at dawn, breath visible in cold air.",
+    "A devotee tending an altar flame beneath towering carved statuary, incense in coloured beams."
+  ],
+  "performance-combat": ["A gladiator playing to a roaring arena crowd mid-fight, arms spread, sand and sunlight everywhere."],
+  "siege-vehicle": ["A siege engine crew winding back a great catapult before a besieged wall, rope and timber under enormous strain."],
+  "curse-disease": [
+    "A cursed mark spreading visibly across a victim's skin in dark branching lines.",
+    "A plague-stricken figure wrapped in rags at a shuttered door, the street behind them empty."
+  ],
+  "light-radiance": [
+    "A blazing point of holy light held aloft, driving shadows physically back down a corridor.",
+    "Dawn breaking hard over a battlefield, the first light picking out a standing figure."
+  ],
+  "blood-sacrifice": [
+    "A caster drawing their own blood across a palm to pay a spell's price, the sigil beneath drinking it.",
+    "A martyr standing between an enemy and their companions, already wounded, refusing to move."
+  ],
+  "multiclass-dabble": ["A student borrowing from a second discipline: a fighter awkwardly but successfully tracing a spell sigil, sword still in the off hand."],
+  "weapon-training": [
+    "A weapon master's rack of blades in a lamplit armoury, each one maintained to perfection.",
+    "A drill instructor correcting a recruit's grip on a training sword in a muddy yard.",
+    "A soldier performing a maintenance ritual on a sword by firelight, whetstone and oiled cloth.",
+    "A veteran selecting a weapon from a wall of them, hand closing on exactly the right one."
+  ]
+};
+
+/* The straggler set. Deliberately GENERIC — these back feats that matched no theme, so they must
+   not imply any specific mechanic. Evocative rulebook furniture, nothing more. */
+const FALLBACK_SCENES = [
+  "An adventurer's gear laid out on oiled leather before a journey: notched blade, buckler, rope, lantern.",
+  "A lone torchbearer at the mouth of a dark dungeon corridor, light reaching only a few paces in.",
+  "A party of four silhouetted on a ridge at sunset, travel-worn, looking out over unknown country.",
+  "A tavern back table strewn with maps, coins and a half-drawn plan, faces lit from below by a candle.",
+  "A whetstone drawn along a blade's edge in close firelight, sparks and metal dust.",
+  "A heavy iron-bound door standing ajar in a stone wall, darkness beyond, hinges rimed with age.",
+  "A campfire at night with weapons stacked within reach and one figure keeping watch.",
+  "A weathered stone bridge over a gorge in mountain mist, a single traveller crossing.",
+  "An armoury wall of racked polearms and shields in raking lamplight.",
+  "A battlefield after the fighting, banners down, smoke drifting across broken ground.",
+  "A scholar's desk at night: open tome, guttering candle, scattered notes and an unlit lamp.",
+  "A city gate at dawn with carts queuing and guards checking papers under a portcullis.",
+  "A forest track in heavy rain, a hooded figure walking away from the viewer.",
+  "A ruined temple interior with roots breaking through the flagstones and light falling from a hole above.",
+  "A ship's deck in high wind, rigging taut, crew braced against the roll.",
+  "A blacksmith's forge at full heat, hammer raised, orange light filling the workshop.",
+  "A mountain pass under snow with a rope line of climbers strung across it.",
+  "An underground cavern lit by luminous fungus, still black water reflecting the glow.",
+  "A market square crowded with traders and livestock beneath striped awnings.",
+  "A watchtower silhouette against a stormy sky, one lit window near the top.",
+  "A crypt stair descending into darkness, cobwebs broken recently by someone's passage.",
+  "A frozen lake at dusk with a distant figure crossing the ice, long shadow behind.",
+  "A desert caravan strung out along a dune ridge in low golden light.",
+  "A monastery courtyard at dawn with practitioners at their forms in ordered rows.",
+  "An alchemist's shelf of labelled bottles catching lamplight, contents faintly luminous.",
+  "A war council tent with a map table and standing officers, lamplight from above.",
+  "A river ford with stepping stones and a broken cart half in the water.",
+  "A wizard's tower seen from below at night, one high window blazing with light.",
+  "A prison corridor of barred doors receding into gloom, a single lantern burning.",
+  "A hillside standing-stone circle in fog at first light.",
+  "A guild hall interior with a great fireplace and long tables, business being conducted.",
+  "A coastal cliff path with seabirds and heavy surf far below.",
+  "A dense marsh at twilight, mist on the water, a rickety boardwalk running into it.",
+  "A great library's spiral stair rising through tiers of shelved books.",
+  "A gladiator's tunnel looking out into a sunlit arena, crowd noise implied by the light.",
+  "A wagon train circled for the night on open plain, fires between the wheels.",
+  "A stormy crossroads gibbet and signpost, rain hammering down, no travellers in sight."
+];
+
+/* Named art for individual feats: the ones people actually look up. Each is one image, one page.
+   The Core Rulebook list is completed first (batches 1-9 stopped alphabetically at "S"), then the
+   most-discussed non-Core feats. */
+const NAMED_FEATS = [
+  // --- remaining Core Rulebook feats ---
+  ["Armor Proficiency, Heavy", "feat-armor-proficiency-heavy", "A knight fully armoured in heavy plate standing at ease, the sheer mass of the harness evident in the stance."],
+  ["Armor Proficiency, Medium", "feat-armor-proficiency-medium", "A soldier in a well-fitted chain hauberk and scale, moving easily, straps and buckles worn smooth with use."],
+  ["Craft Rod", "feat-craft-rod", "An enchanter binding the final sigil into a metal rod on a workbench, the shaft lighting along its length."],
+  ["Extra Rage", "feat-extra-rage", "A barbarian finding one more surge of fury after exhaustion, fists clenching, eyes reigniting."],
+  ["Improved Channel", "feat-improved-channel", "A cleric's channelled wave of light rolling further and brighter than expected, reaching the far wall."],
+  ["Improved Two-Weapon Fighting", "feat-improved-two-weapon-fighting", "A duelist delivering a rapid four-strike sequence with paired blades, multiple arcs overlapping."],
+  ["Iron Will", "feat-iron-will", "A lone figure standing unmoved inside a swirling assault of mind-magic, jaw set, eyes clear."],
+  ["Lightning Reflexes", "feat-lightning-reflexes", "A rogue twisting aside from a jet of flame at the last instant, the blast passing behind them."],
+  ["Scribe Scroll", "feat-scribe-scroll", "A wizard inscribing a scroll with a quill, letters igniting into light as they are written."],
+  ["Selective Channeling", "feat-selective-channeling", "Healing light rolling through a melee and curving deliberately around enemies to reach only allies."],
+  ["Self-Sufficient", "feat-self-sufficient", "A lone traveller mending their own wound by firelight, needle and thread, pack open beside them."],
+  ["Shatter Defenses", "feat-shatter-defenses", "A frightened opponent's guard falling apart entirely, weapon drooping as the attacker steps in."],
+  ["Shield Focus", "feat-shield-focus", "A warrior's shield angled with perfect economy, an incoming blade skating harmlessly off the rim."],
+  ["Shield Master", "feat-shield-master", "A fighter using a shield as an offensive weapon, boss driving forward while the blade works behind it."],
+  ["Shield Proficiency", "feat-shield-proficiency", "A recruit learning to carry a shield properly, the instructor adjusting the arm straps."],
+  ["Shield Slam", "feat-shield-slam", "A shield bash driving an opponent bodily backward off their feet, boots leaving the ground."],
+  ["Shot on the Run", "feat-shot-on-the-run", "An archer loosing an arrow mid-sprint between two pieces of cover, never breaking stride."],
+  ["Sickening Critical", "feat-sickening-critical", "A wounded foe doubling over, face grey, the wound visibly wrong and spreading."],
+  ["Silent Spell", "feat-silent-spell", "A bound and gagged caster completing a spell with eyes alone, light blooming without a sound."],
+  ["Simple Weapon Proficiency", "feat-simple-weapon-proficiency", "A rack of simple arms — spear, club, crossbow, dagger — in a training yard under morning light."],
+  ["Skill Focus", "feat-skill-focus", "A craftsman utterly absorbed in a single task, the rest of the workshop dark around the work."],
+  ["Snatch Arrows", "feat-snatch-arrows", "A monk plucking an arrow out of the air a hand's breadth from the chest, fingers closed on the shaft."],
+  ["Spell Focus", "feat-spell-focus", "A wizard with one school's sigil burning far brighter than the others circling them."],
+  ["Spell Mastery", "feat-spell-mastery", "A wizard casting from memory with the spellbook closed and set aside on the table."],
+  ["Spell Penetration", "feat-spell-penetration", "A spell punching through a shimmering resistance barrier, the ward splitting apart around the bolt."],
+  ["Spellbreaker", "feat-spellbreaker", "A warrior's blade snapping out to catch a caster mid-gesture, the half-formed spell collapsing."],
+  ["Spirited Charge", "feat-spirited-charge", "A lancer striking home at full gallop, the lance shattering with the force of the impact."],
+  ["Spring Attack", "feat-spring-attack", "A skirmisher darting in, striking, and already withdrawing, motion traced through the whole movement."],
+  ["Staggering Critical", "feat-staggering-critical", "A foe reeling from a terrible wound, unable to do more than stay upright."],
+  ["Stand Still", "feat-stand-still", "A guard halting a charging opponent dead in their tracks with a braced polearm across the body."],
+  ["Stealthy", "feat-stealthy", "A figure slipping between shadows in a lamplit alley, barely more than a suggestion of movement."],
+  ["Step Up", "feat-step-up", "A fighter closing the instant an opponent tries to disengage, staying inside their reach."],
+  ["Still Spell", "feat-still-spell", "A caster in chains completing a spell with no gesture at all, magic gathering regardless."],
+  ["Strike Back", "feat-strike-back", "A warrior answering a long polearm thrust from outside their reach, blade lashing back along the shaft."],
+  ["Stunning Critical", "feat-stunning-critical", "An opponent's eyes rolling as a blow lands, weapon falling from suddenly nerveless hands."],
+  ["Stunning Fist", "feat-stunning-fist", "A monk's palm strike landing on a sternum, the target's whole body locking rigid."],
+  ["Throw Anything", "feat-throw-anything", "An alchemist hurling an improvised object — a stool leg, a bottle — with lethal accuracy."],
+  ["Tiring Critical", "feat-tiring-critical", "A foe sagging with exhaustion after a punishing wound, weapon tip dragging in the dirt."],
+  ["Toughness", "feat-toughness", "A scarred veteran taking a heavy blow and simply absorbing it, still advancing."],
+  ["Tower Shield Proficiency", "feat-tower-shield-proficiency", "A soldier behind an enormous tower shield planted in the earth, arrows standing in its face."],
+  ["Trample", "feat-trample", "A warhorse running straight over a fallen opponent, rider low over the neck."],
+  ["Turn Undead", "feat-turn-undead", "Undead recoiling and fleeing from a raised holy symbol blazing with light."],
+  ["Two-Weapon Defense", "feat-two-weapon-defense", "A duelist using both blades defensively, forming a crossed guard that turns an attack aside."],
+  ["Two-Weapon Fighting", "feat-two-weapon-fighting", "A fighter attacking with sword and long knife simultaneously, two arcs crossing before the body."],
+  ["Two-Weapon Rend", "feat-two-weapon-rend", "Both blades landing at once and pulling apart, opening a terrible wound between them."],
+  ["Unseat", "feat-unseat", "A lance strike lifting an armoured rider clean out of the saddle, horse running on beneath."],
+  ["Vital Strike", "feat-vital-strike", "A single devastating thrust driving through armour at the seam, everything else motionless."],
+  ["Weapon Finesse", "feat-weapon-finesse", "A rapier duelist in a deep precise lunge, speed and placement doing the work instead of strength."],
+  ["Weapon Focus", "feat-weapon-focus", "A warrior and one particular blade, the weapon clearly an extension of the arm, grip perfectly set."],
+  ["Weapon Specialization", "feat-weapon-specialization", "A veteran delivering a technically perfect cut with a signature weapon, form flawless."],
+  ["Whirlwind Attack", "feat-whirlwind-attack", "A fighter spinning at the centre of a ring of enemies, blade sweeping every one of them at once."],
+  ["Widen Spell", "feat-widen-spell", "A spell's area of effect blooming far wider than expected, the edge of the effect racing outward."],
+  ["Wind Stance", "feat-wind-stance", "A fighter moving so fluidly that arrows pass through the space they have already left."],
+  // --- most-discussed non-Core feats ---
+  ["Fey Foundling", "feat-fey-foundling", "An infant left at a fairy ring in moonlight, faint fey lights watching from the treeline."],
+  ["Dervish Dance", "feat-dervish-dance", "A scimitar dancer mid-spin, robes flaring into a circle, blade tracing a bright ring."],
+  ["Slashing Grace", "feat-slashing-grace", "A duelist wielding a slashing blade with fencer's precision, weight forward on the front foot."],
+  ["Fencing Grace", "feat-fencing-grace", "A rapier held in an elegant high guard, the duelist's posture pure economy and balance."],
+  ["Piranha Strike", "feat-piranha-strike", "A light blade delivering a flurry of shallow rapid cuts, each one drawing blood."],
+  ["Furious Focus", "feat-furious-focus", "A two-handed warrior swinging with total commitment and no loss of accuracy, eyes locked on the target."],
+  ["Cornugon Smash", "feat-cornugon-smash", "A brutal blow landing while the attacker roars into the victim's face, terror and impact together."],
+  ["Hurtful", "feat-hurtful", "A warrior following a terrifying shout instantly with a second punishing strike."],
+  ["Dreadful Carnage", "feat-dreadful-carnage", "A foe cut down as surrounding enemies recoil in visible horror at the sight."],
+  ["Enforcer", "feat-enforcer", "A thug delivering a deliberately painful non-lethal blow with a sap, the victim's face contorted."],
+  ["Raging Vitality", "feat-raging-vitality", "A barbarian staying upright and furious despite a mortal-looking wound, refusing to fall."],
+  ["Extra Hex", "feat-extra-hex", "A witch with an additional hex sigil burning alongside the others orbiting her hand."],
+  ["Extra Revelation", "feat-extra-revelation", "An oracle receiving a further vision, a second mystery's light kindling behind the eyes."],
+  ["Extra Discovery", "feat-extra-discovery", "An alchemist's notebook open to a newly completed formula, the successful mixture still glowing."],
+  ["Extra Arcana", "feat-extra-arcana", "An arcanist's reservoir showing one more stored working, an extra sigil in the ring."],
+  ["Extra Channel", "feat-extra-channel", "A cleric channelling again after the light should have been spent, holy symbol flaring anew."],
+  ["Additional Traits", "feat-additional-traits", "A character sheet's worth of formative moments shown as small vignettes around a central figure."],
+  ["Boon Companion", "feat-boon-companion", "A ranger's animal companion grown notably larger and stronger, standing shoulder to shoulder with them."],
+  ["Eldritch Heritage", "feat-eldritch-heritage", "A non-caster manifesting inherited sorcerous power for the first time, startled by their own hand."],
+  ["Racial Heritage", "feat-racial-heritage", "A human with an ancestor's legacy showing faintly through — an orcish set to the jaw, a dwarf's build."],
+  ["Prodigy", "feat-prodigy", "A young artisan producing work far beyond their years, masters looking on in surprise."],
+  ["Rapid Reload", "feat-rapid-reload", "A crossbowman's hands blurring through a reload cycle, bolt already coming up to the groove."],
+  ["Clustered Shots", "feat-clustered-shots", "Three arrows standing in a single palm-sized group on a target's chest plate."],
+  ["Snap Shot", "feat-snap-shot", "An archer loosing at point-blank range into an enemy who has just stepped into reach."],
+  ["Point-Blank Master", "feat-point-blank-master", "An archer calmly drawing and firing while an enemy is right on top of them, no panic at all."],
+  ["Outflank", "feat-outflank", "Two allies on opposite sides of one enemy, exchanging a glance and striking in the same instant."],
+  ["Precise Strike", "feat-precise-strike", "Two flanking companions driving blades into the same gap in an opponent's armour."],
+  ["Paired Opportunists", "feat-paired-opportunists", "Two fighters punishing the same opening simultaneously, blades converging."],
+  ["Broken Wing Gambit", "feat-broken-wing-gambit", "A fighter deliberately dropping their guard to bait an attack, an ally already moving to punish it."],
+  ["Butterfly's Sting", "feat-butterflys-sting", "A warrior creating a perfect opening and stepping aside so an ally can land the killing blow."],
+  ["Vicious Stomp", "feat-vicious-stomp", "A boot driving down onto a foe who has just been knocked to the ground."],
+  ["Ki Throw", "feat-ki-throw", "A monk redirecting an opponent's momentum into a throw, the victim inverted mid-air."],
+  ["Combat Stamina", "feat-combat-stamina", "A fighter drawing on deep reserves late in a long fight, breathing hard but still precise."],
+  ["Dazing Spell", "feat-dazing-spell", "A spell landing and leaving its victim standing blank-eyed and unresponsive amid the aftermath."],
+  ["Persistent Spell", "feat-persistent-spell", "A spell's effect refusing to disperse, clinging to a target who has clearly tried to shake it off."],
+  ["Rime Spell", "feat-rime-spell", "A frost spell leaving its victim locked in a shell of ice, limbs frozen mid-motion."],
+  ["Elemental Spell", "feat-elemental-spell", "A familiar spell arriving in the wrong element, fire guttering into cold blue as it travels."],
+  ["Intensified Spell", "feat-intensified-spell", "A spell burning far past its normal limit, the caster braced against their own working."],
+  ["Spell Perfection", "feat-spell-perfection", "A single spell cast flawlessly at the height of a mage's power, the air itself deferring to it."],
+  ["Craft Construct", "feat-craft-construct", "An artificer completing a great construct in a workshop, its eyes lighting for the first time."]
+];
+
+/* ---------------------------------------------------------------- build --- */
+globalThis.window = {};
+(0, eval)(fs.readFileSync(`${ROOT}/data/themes.js`, "utf8"));
+const TABLE = globalThis.window.PF_THEMES.feats;
+const FB = globalThis.window.PF_THEME_FALLBACK.feats;
+
+const problems = [];
+const items = [];   // { section, label, key, subject }
+
+for (const row of TABLE) {
+  const key = row[0], variants = row[3] || 1, scenes = SCENES[key];
+  if (!scenes) { problems.push(`theme "${key}" declared in themes.js has NO scene description`); continue; }
+  if (scenes.length !== variants)
+    problems.push(`theme "${key}" declares ${variants} variant(s) but has ${scenes.length} description(s)`);
+  for (let v = 1; v <= variants; v++)
+    items.push({ section: "Theme art", label: `${key} (variant ${v} of ${variants})`,
+                 key: `theme-feats-${key}-${v}`, subject: scenes[v - 1] || "" });
+}
+for (const key of Object.keys(SCENES))
+  if (!TABLE.some(r => r[0] === key)) problems.push(`scene described for "${key}", which is NOT a theme in themes.js`);
+
+if (FALLBACK_SCENES.length !== FB.scenes)
+  problems.push(`fallback declares ${FB.scenes} scenes but ${FALLBACK_SCENES.length} are described`);
+FALLBACK_SCENES.forEach((s, i) =>
+  items.push({ section: "General feat scenes", label: `general scene ${i + 1}`, key: `${FB.key}-${i + 1}`, subject: s }));
+
+for (const [label, key, subject] of NAMED_FEATS)
+  items.push({ section: "Named feats", label, key, subject });
+
+if (problems.length) {
+  console.error("REFUSING TO GENERATE — themes.js and the scene list disagree:");
+  for (const p of problems) console.error("  - " + p);
+  process.exit(1);
+}
+
+const dupes = items.map(i => i.key).filter((k, i, a) => a.indexOf(k) !== i);
+if (dupes.length) { console.error("duplicate keys: " + dupes.join(", ")); process.exit(1); }
+
+const sections = [...new Set(items.map(i => i.section))];
+const lines = [];
+lines.push("# PF1e Codex — Art Prompts — BATCH 10 (Feats)");
+lines.push("");
+lines.push(`**${items.length} images.** This batch completes feat art: every one of the 3,457 feat pages ends up`);
+lines.push("with a picture backed by no more than 20 pages, down from a single image currently serving 2,010.");
+lines.push("");
+lines.push("## How to use this");
+lines.push("");
+lines.push("1. Generate one image per prompt below, in order.");
+lines.push("2. **Save each file using the exact _filename_ given in bold.** The site looks images up by that");
+lines.push("   name; a renamed file is an invisible file.");
+lines.push("3. Render at **1280x720** (16:9). Larger is fine and will be downscaled on ingest; smaller is not.");
+lines.push("4. If the generator produces two candidates per prompt, keep both — the ingest step picks one and");
+lines.push("   the spare stays available as an alternate.");
+lines.push("5. Drop everything into the `CODEX IMAGES` folder. Nothing else is needed.");
+lines.push("");
+for (const sec of sections) {
+  const mine = items.filter(i => i.section === sec);
+  lines.push(`## ${sec} (${mine.length})`);
+  lines.push("");
+  for (const it of mine) {
+    lines.push(`### ${it.label}`);
+    lines.push(`**${it.key}**`);
+    lines.push("");
+    lines.push(`${it.subject} ${SUFFIX} ${STYLE}`);
+    lines.push("");
+  }
+}
+const md = lines.join("\n");
+fs.writeFileSync(path.join(OUT, "PF1e-Codex-Art-Prompts-BATCH10-Feats.md"), md, "utf8");
+// The key manifest IS this batch's plan, and is what tools/ingest-art.mjs checks incoming files
+// against. Emitting it here rather than hand-adding 93 named feats to ART_PLANNED keeps the plan
+// in one place: whatever we commissioned is exactly what we will accept.
+fs.writeFileSync(path.join(OUT, "BATCH10-keys.json"), JSON.stringify(items.map(i => i.key), null, 1), "utf8");
+console.log(`wrote Markdown — ${items.length} prompts`);
+for (const sec of sections) console.log(`   ${sec}: ${items.filter(i => i.section === sec).length}`);
+
+// .docx when the package is available. It is deliberately NOT a repo dependency — this repo has
+// no package.json and Netlify publishes it straight from the root, so adding one risks turning a
+// static deploy into a build. Set DOCX_MODULE to a local install to get the .docx as well;
+// ESM ignores NODE_PATH, so an explicit path is the only thing that actually works here.
+try {
+  const { Document, Packer, Paragraph, HeadingLevel } = await import(process.env.DOCX_MODULE || "docx");
+  const kids = [new Paragraph({ text: "PF1e Codex — Art Prompts — BATCH 10 (Feats)", heading: HeadingLevel.TITLE })];
+  kids.push(new Paragraph({ text: `${items.length} images. Save each file under the exact filename shown in bold. Render at 1280x720 (16:9).` }));
+  for (const sec of sections) {
+    const mine = items.filter(i => i.section === sec);
+    kids.push(new Paragraph({ text: `${sec} (${mine.length})`, heading: HeadingLevel.HEADING_1 }));
+    for (const it of mine) {
+      kids.push(new Paragraph({ text: it.label, heading: HeadingLevel.HEADING_2 }));
+      kids.push(new Paragraph({ text: it.key + ".webp" }));
+      kids.push(new Paragraph({ text: `${it.subject} ${SUFFIX} ${STYLE}` }));
+    }
+  }
+  const buf = await Packer.toBuffer(new Document({ sections: [{ children: kids }] }));
+  fs.writeFileSync(path.join(OUT, "PF1e-Codex-Art-Prompts-BATCH10-Feats.docx"), buf);
+  console.log("wrote .docx");
+} catch (e) {
+  console.log("(.docx skipped — `docx` package not resolvable here; Markdown written)");
+}

@@ -84,7 +84,12 @@ made as idempotent repair passes over the built files.
 
 ## Art
 
-`art/<key>.jpg`, 1600×900, ~70% JPEG. 258 of 452 planned backdrops exist.
+`art/<key>.webp`. **1,652 images, 171 MB.** The extension lives in exactly one place —
+`ART_EXT` in `app.js` — because it appears in both the gallery and `applyArt`.
+
+**WebP since v57.** The library was re-encoded from JPEG at q78 with no resize: 226 MB → 171 MB,
+27% off, visually identical. That headroom is what makes the theme build-out affordable — per-entry
+art for 25,926 entries is ~86 generation batches and was never on the table.
 
 ### Two lists, two questions — do not merge them
 
@@ -107,12 +112,41 @@ than leaving a page bare. A 404 is remembered per session.
 classes    class-<name> -> inherited (see below) -> cat-classes
 races      race-<name> -> cat-races
 archetypes parent class art via the cls facet -> cat-archetypes
-traits     trait-<category>            feats  feat-<type>
+traits     trait-<category>
+feats      feat-<name> -> THEME -> feat-scene-<n> -> feat-<type> -> cat-feats
 items      by rawCat and slot          spells spell-<name> -> school-<school>
 monsters   race-<name> -> creature-<subtype> -> type-<t> (dragons and outsiders split on
            alignment) -> cat-monsters
 deities    deities-pantheon
 ```
+
+### Keyword themes (`data/themes.js`)
+
+A layer between named art and the category fallback. Before it, **one image backed 2,010 feat
+pages** and another backed 1,931 item pages. Themes match words that recur across many entries
+(`trip`, `metamagic`, `sneak attack`), so a page gets art about what it actually does without
+commissioning 25,926 pictures.
+
+Each row is `[key, nameRegex, textRegex, variants]`. Name is tried first across the whole table,
+then text — names are precise ("Improved Trip"), body text is chatty. `variants` images share a
+key and are picked by hashing the entry id: arbitrary, but the same on every visit.
+
+⚠ **Table order IS the mechanism — most specific first.** "Improved Trip" matches both `trip` and
+`weapon-training`; it only resolves correctly because `trip` is listed first. A broad theme placed
+high silently steals hundreds of entries from everything below it, and nothing looks broken
+because every page still gets *a* picture.
+
+```bash
+node tools/check-themes.mjs .      # fails if a theme is too broad, dead, or under-varied
+```
+
+That guard is not optional bookkeeping. The first draft of `weapon-training` also matched the bare
+adjectives improved/greater/master/advanced and quietly claimed 139 unrelated feats; the check
+caught it, and caught six undersized variant counts on its first run. It also prints how much art
+each bucket still owes, so batch sizes are measured rather than guessed.
+
+Theme keys are gated on the `ART` manifest, so declaring a theme changes nothing visually until
+its images exist — 3,336 unnamed feats would otherwise fire a 404 apiece.
 
 **Class art inheritance** covers 212 entries with no images at all: 119 prestige classes mapped
 to the base class each reads as, plus `/^Order of/`→cavalier (37), `/^Oath /`→paladin (15),
@@ -129,22 +163,49 @@ end in the word but are vermin. The rule is `type === "humanoid" && /giant/`.
 
 ### Adding new art
 
-```powershell
-tools\ingest-art.ps1                          # batches 1-9 (1600x900)
-tools\ingest-art.ps1 -Width 1280 -Height 720  # batch 10 onward
+Both the prompt pack and the ingest read `data/themes.js`, so what we commission and what the app
+looks for cannot drift apart:
+
+```bash
+# 1. write the pack (REFUSES to run if any declared theme lacks a scene description)
+DOCX_MODULE=file:///…/node_modules/docx/dist/index.mjs \
+  node tools/gen-art-prompts.mjs . "C:/Users/mailp/Box/CODEX IMAGES"
+
+# 2. ingest what came back — resize, WebP, verify each file decodes
+SHARP_MODULE=file:///…/node_modules/sharp/dist/index.mjs \
+  node tools/ingest-art.mjs --src "C:/Users/mailp/Box/CODEX IMAGES" \
+                            --keys "C:/Users/mailp/Box/CODEX IMAGES/BATCH10-keys.json"
+
+# 3. refresh the manifest and re-check
+node tools/gen-art-manifest.mjs . && node tools/check-themes.mjs . && node tools/check-reachable.mjs .
 ```
+
+`tools/ingest-art.ps1` is **gone** — it used GDI+, which cannot write WebP, so it would have
+produced `.jpg` files the app can no longer request.
+
+⚠ The ingest **skips keys already in `art/` unless you pass `--replace`.** The source PNGs for
+batches 1–9 are still in the same folder, so without that guard a routine run would silently
+downscale the entire 1600×900 library to the new 1280×720 target.
+
+⚠ `sharp` and `docx` are deliberately NOT repo dependencies. This repo has no `package.json` on
+purpose — Netlify publishes straight from the root, and adding one risks turning a static deploy
+into a build. Install them anywhere and point `SHARP_MODULE` / `DOCX_MODULE` at them; ESM ignores
+`NODE_PATH`, so an explicit path is the only thing that works.
 
 **Resolution policy.** Batches 1–9 were generated and stored at 1600×900. From batch 10 the
 prompt packs ask for **1280×720**, which is ~32% smaller on disk and still comfortably above the
 ~904 CSS px the band actually renders at (`#main` is `max-width: 1000px`). Do not re-encode the
-existing set to match: replacing 1,352 files would shrink the working tree by ~60 MB while adding
-~130 MB of new blobs to git history, so the clone gets *bigger*. Only new art changes size.
+existing set to match: it would shrink the working tree while adding a fresh copy of every blob to
+git history, so the clone gets *bigger*. Only new art changes size.
 
-Then add the new keys to `ART_PLANNED` in `app.js` if they are not already there, and check
-`#/art` — anything planned but absent shows outlined in red with a running count.
+For **named** art (one image, one entry) add the keys to `ART_PLANNED` in `app.js`. **Theme** keys
+need no such edit — `themes.js` is their plan, and `gen-art-prompts.mjs` emits a `BATCH<n>-keys.json`
+that the ingest checks against. Then check `#/art`, where anything planned but absent shows
+outlined in red with a running count.
 
 Source images and the prompt packs live in `C:\Users\mailp\Box\CODEX IMAGES`.
-Prompt packs: the two originals plus `BATCH3-Races`, `BATCH4-Categories`, `BATCH5-Spells`.
+Prompt packs: the two originals plus `BATCH3` … `BATCH10-Feats` (325 prompts: 195 theme images,
+37 general feat scenes, 93 named feats).
 ⚠ Reuse the house style verbatim from those documents, and keep the sentence placing the
 subject on the RIGHT with the LEFT third clear — the original left placement to chance, which
 is why nine class bands had to be mirrored afterwards.
@@ -155,7 +216,27 @@ to `creature-` for the same reason.
 
 ## What is left
 
-**Art is complete: 452 of 452.** Everything below is a known limit, not outstanding work.
+**Named art is complete at 1,652 images.** The open work is the theme build-out.
+
+### Theme build-out (in progress)
+
+Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for current numbers.
+
+| Batch | Content | Images | Status |
+|---|---|---|---|
+| 10 | Feats — 195 theme, 37 general scenes, 93 named | 325 | pack written, art not yet generated |
+| 11–12 | Items — themes for Miscellaneous/Equipment/Wondrous + named magic items | ~600 | not started |
+| 13 | Monsters — creature-family themes + named | ~300 | not started |
+| 14 | Spells — themes + named | ~300 | not started |
+| 15 | Rules scenes, trait themes (splits `trait-region` 448 / `trait-race` 419), NPC scenes | ~300 | not started |
+| 16 | Archetypes, options, hazards, the last 163 deities | ~300 | not started |
+
+Target is **no image backing more than 20 pages**. Going below that costs several more batches for
+a difference no reader can perceive; the budget is better spent on named art for entries people
+actually look up. Do **not** commission per-entry art for all 25,926 entries — that is ~86 batches
+(~6 weeks of generation) to improve pages nobody visits.
+
+Everything below is a known limit, not outstanding work.
 
 - `magical beast` and `outsider` have no dedicated creature-type art. Outsiders resolve by
   alignment to celestial/fiend/elemental; magical beasts fall back to the category banner.
