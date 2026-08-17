@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "63";
+  var DATA_V = "64";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -769,6 +769,18 @@
   // Body motifs are matched offline (bodies are lazy-loaded and arrive after applyArt), so at
   // runtime this is just a lookup: id -> motif key, then the usual hashed variant.
   var BODY_THEMES=window.PF_BODY_THEMES||{}, BODY_MAP=window.PF_BODY_THEME||{};
+  var BODY_CLASS=window.PF_BODY_CLASS||{}, NPC_ROLES=window.PF_NPC_ROLES||[];
+  // First role whose pattern the NPC's name matches. Ordered most specific first, same as themes.
+  // Most roles point at existing class art (a bare key); the six npc-role-* ones are declared in
+  // PF_VARIETY so they can grow variants later without touching this.
+  function npcRoleArt(row){
+    var n=String(row[I_NAME]||"");
+    for(var i=0;i<NPC_ROLES.length;i++) if(NPC_ROLES[i][0].test(n)){
+      var k=NPC_ROLES[i][1];
+      return VARIETY[k] ? varietyKey(k,row[I_ID]) : k;
+    }
+    return null;
+  }
   function bodyThemeArt(bucket,row){
     var key=BODY_MAP[row[I_ID]]; if(!key) return null;
     var table=BODY_THEMES[bucket]; if(!table) return null;
@@ -887,7 +899,17 @@
       push(have(themeArt("feats",row)));
       push(have(varietyKey("rules",row[I_ID])));
     }
-    else if(b==="npcs")  push(have(varietyKey("npc",row[I_ID])));
+    else if(b==="npcs"){
+      // NPCs were the last bucket on a pure hash, and it showed. Their stat block names a class
+      // ("Halfling commoner 4") and their name states a job ("Accomplished Angler"), so 405 of 487
+      // resolve to art the Codex already owns. The class map is precomputed — bodies arrive after
+      // applyArt — and covers only REAL PC classes; commoner/expert/aristocrat fall to the role
+      // rules instead, because CLASS_INHERIT would give an angler a rogue portrait.
+      var nc=BODY_CLASS[row[I_ID]];
+      if(nc) push(have("class-"+nc));
+      push(have(npcRoleArt(row)));
+      push(have(varietyKey("npc",row[I_ID])));
+    }
     else if(b==="spells"){
       push(have("spell-"+nm));
       push(have(themeArt("spells",row)));

@@ -33,6 +33,8 @@ const THEMES = globalThis.window.PF_THEMES, FALLBACK = globalThis.window.PF_THEM
 const VARIETY = { ...globalThis.window.PF_VARIETY };
 const BODY_THEMES = globalThis.window.PF_BODY_THEMES || {};
 const BODY_MAP = globalThis.window.PF_BODY_THEME || {};
+const BODY_CLASS = globalThis.window.PF_BODY_CLASS || {};
+const NPC_ROLES = globalThis.window.PF_NPC_ROLES || [];
 const bodyVariants = {};
 for (const [b, t] of Object.entries(BODY_THEMES)) for (const r of t) bodyVariants[`${b}/${r[0]}`] = r[2] || 1;
 const variants = {};   // "bucket/key" -> count
@@ -130,7 +132,18 @@ function resolve(r) {
     if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
     return { art: vk("rules", id), owner: { kind: "variety", key: "rules" } };
   }
-  if (b === "npcs") return { art: vk("npc", id), owner: { kind: "variety", key: "npc" } };
+  if (b === "npcs") {
+    // Class art and role art are FIXED single images we already own — nothing to size. Only what
+    // falls through to the npc set, or to one of the six new role images, needs a knob.
+    if (BODY_CLASS[id]) return { art: "class-" + BODY_CLASS[id], owner: { kind: "fixed", key: "class-" + BODY_CLASS[id] } };
+    const role = NPC_ROLES.find(([re]) => re.test(r[1] || ""));
+    if (role) {
+      const k = role[1];
+      return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } }
+                        : { art: k, owner: { kind: "fixed", key: k } };
+    }
+    return { art: vk("npc", id), owner: { kind: "variety", key: "npc" } };
+  }
   if (b === "hazards") { const k = "hazard-" + artKey(r[3] || ""); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }
   if (b === "archetypes") { const c = [].concat(fac.cls || [])[0]; if (!c) return null;
     const k = "arch-" + artKey(c); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }

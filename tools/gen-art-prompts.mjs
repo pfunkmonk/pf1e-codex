@@ -23,7 +23,7 @@ import { SPELL_THEME_SCENES, SCHOOL_SCENES, BODY_MOTIF_SCENES } from "./art-scen
 import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } from "./art-scenes-monsters.mjs";
 import { FEAT_MOTIF_SCENES, ITEM_MOTIF_SCENES } from "./art-scenes-motifs.mjs";
 import { MONSTER_MOTIF_SCENES, TRAIT_MOTIF_SCENES } from "./art-scenes-motifs2.mjs";
-import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
+import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NPC_ROLE_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
 
 const slug = t => String(t).toLowerCase().replace(/['\u2019]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
@@ -894,6 +894,7 @@ const BATCHES = {
     parts: [
       { kind: "variety", name: "rules", scenes: RULES_VARIETY, section: "Rules scenes" },
       { kind: "variety", name: "npc", scenes: NPC_SCENES, section: "NPC scenes" },
+      ...varietyFamily(NPC_ROLE_SCENES, "NPC role art"),
       { kind: "named", list: NAMED_DEITIES, keyFrom: "deity-", section: "Deities" }
     ]
   }
