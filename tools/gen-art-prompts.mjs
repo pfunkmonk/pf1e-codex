@@ -19,7 +19,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ITEM_SCENES, ITEM_VARIETY } from "./art-scenes-items.mjs";
-import { SPELL_THEME_SCENES, SCHOOL_SCENES } from "./art-scenes-spells.mjs";
+import { SPELL_THEME_SCENES, SCHOOL_SCENES, BODY_MOTIF_SCENES } from "./art-scenes-spells.mjs";
 import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } from "./art-scenes-monsters.mjs";
 import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
 
@@ -855,6 +855,7 @@ const BATCHES = {
     blurb: "Spell themes plus the per-school variety sets. Themes only reach 44% of spells — spell names\nare poetry, not description — so the school sets carry the rest and are sized for it. Today\nschool-transmutation alone backs 682 pages.",
     parts: [
       { kind: "themes", bucket: "spells", scenes: SPELL_THEME_SCENES, section: "Spell theme art" },
+      { kind: "bodythemes", bucket: "spells", scenes: BODY_MOTIF_SCENES, section: "Body motif art" },
       ...varietyFamily(SCHOOL_SCENES, "School scenes")
     ]
   },
@@ -934,6 +935,19 @@ function buildBatch(n) {
         // A null slot is only legal when its art already exists; needing one is a hard error.
         if (part.scenes[v - 1] == null) { problems.push(`variety "${artKeyName}" has no art and no scene description`); continue; }
         out.push({ section: part.section, label: `${part.name} scene ${v}`, key: artKeyName, subject: part.scenes[v - 1] });
+      }
+    } else if (part.kind === "bodythemes") {
+      const table = (globalThis.window.PF_BODY_THEMES || {})[part.bucket];
+      if (!table) { problems.push(`batch ${n}: no body-motif table for "${part.bucket}"`); continue; }
+      for (const [key, , variants] of table) {
+        const scenes = part.scenes[key];
+        if (!scenes) { problems.push(`body motif ${part.bucket}/${key} has NO scene description`); continue; }
+        if (scenes.length < (variants || 1)) { problems.push(`body motif ${part.bucket}/${key} declares ${variants} but has only ${scenes.length}`); continue; }
+        for (let v = 1; v <= (variants || 1); v++) {
+          const k = `theme-${part.bucket}-${key}-${v}`;
+          if (PRESENT.has(k)) continue;
+          out.push({ section: part.section, label: `${key} (body motif ${v} of ${variants})`, key: k, subject: scenes[v - 1] });
+        }
       }
     } else if (part.kind === "named") {
       for (const row of part.list) {

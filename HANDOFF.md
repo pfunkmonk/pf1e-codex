@@ -240,7 +240,7 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 | 10 | Feats — theme art, general scenes, 93 named | 433 | **pack written** |
 | 11 | Items, object themes + body slots | 290 | **pack written** |
 | 12 | Items, variety sets + 93 named magic items | 313 | **pack written** |
-| 13 | Spells — 140 theme + 106 school scenes | 190 | **pack written** |
+| 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
 | 14 | Monsters — themes, types, 101 subtype scenes, hazards, stragglers | 278 | **pack written** |
 | 15 | Traits, class options, archetypes | 286 | **pack written** |
 | 16 | Rules (141), NPCs (36), the last 163 deities | 301 | **pack written** |
@@ -270,14 +270,35 @@ HASH, so the split is random, not even — 183 rings over 10 images averages 18 
 Run `node tools/size-variants.mjs .` then `--apply`, **repeatedly until it reports "converged
 after 1 round"** — one pass can leave work behind. Then re-run `gen-art-prompts.mjs`.
 
-### Spells match on the STAT BLOCK, not the name
+### Spells match on the STAT BLOCK and the full DESCRIPTION, not the name
 
 Spell names are poetry — "Aphasia", "Blush of Youth" — so name matching alone reached only 44%.
 But the index snippet opens with the stat block: `School enchantment (compulsion) [mind-affecting]`.
 Subschool and descriptors are **authored categories**, far more reliable than any guess at a name,
 and matching them took coverage to **73%**. Aphasia lands on `charm-mind` off `(compulsion)` alone.
 
-If a bucket has structured data in its text, match on that before inventing name keywords.
+Then a third layer, because the snippet is only ~200 characters and stops before the prose.
+"Blush of Youth" is a page about a blood ritual worked by a circle of secondary casters; from the
+index it is nothing but "necromancy". The full bodies live in `data/cat/<bucket>.js` and average
+1,458 characters, and matching visual motifs in them places another **339 spells** — taking spell
+coverage past **85%**. `ritual-circle` alone claims 59 spells spanning necromancy, conjuration
+AND transmutation: a motif no school-based fallback could ever group.
+
+Bodies are lazy-loaded and `applyArt` runs before `loadCat` returns, so this CANNOT be matched at
+runtime without blocking the render or swapping the picture out from under the reader. It is
+precomputed instead:
+
+```bash
+node tools/derive-body-themes.mjs .      # rewrites data/bodythemes.js (12 KB, id -> motif)
+```
+
+**Re-run it after editing a motif regex or after any data refresh**, then re-run size-variants and
+gen-art-prompts. Motifs rank BELOW the stat block deliberately: subschool and descriptors are
+authored categories, prose motifs are inferred, and a spell that mentions blood once is not about
+blood.
+
+If a bucket has structured data in its text, match on that before inventing name keywords — and if
+its snippet is truncated, the full body is worth a precompute.
 
 ⚠ **size-variants only ever GREW a count, so repeated --apply runs ratcheted.** An unlucky hash
 split bumped a theme, the next run measured the new split and bumped again — `cold` ended up with

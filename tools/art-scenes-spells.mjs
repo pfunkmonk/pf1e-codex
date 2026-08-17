@@ -334,3 +334,59 @@ export const SCHOOL_SCENES = {
     "A caster's shadow detaching and moving on its own."
   ]
 };
+
+/* BODY MOTIF scenes. These back spells whose name and stat block say nothing useful but whose
+   DESCRIPTION does — "Blush of Youth" reads as necromancy from the index, and as a blood ritual
+   worked by a circle of secondary casters from its actual text. Keep these strongly visual. */
+export const BODY_MOTIF_SCENES = {
+  "ritual-circle": [
+    "A circle of robed secondary casters chanting around a central figure holding something aloft.",
+    "A ritual chamber at the moment of completion, sigils blazing on the floor and every candle guttering.",
+    "A long ritual gone wrong — the circle broken, casters collapsing, backlash tearing outward.",
+    "A midnight rite on a hilltop, participants ringed around a stone, a column of light rising.",
+    "A sacrificial altar ringed with kneeling figures, the air above it visibly distorting."
+  ],
+  "life-drain": ["Threads of blood and pale light drawn from ringed victims into a single figure at the centre."],
+  "binding-summon": ["A creature held motionless inside a burning circle, straining against a binding it cannot cross."],
+  transformation: [
+    "A figure mid-change inside a cracking shell of hardened matter, new form showing through.",
+    "A body reshaping itself on a stone slab, old features sloughing away."
+  ],
+  "mind-invasion": [
+    "A caster's fingers at a sleeping subject's temple, memories rising above them as images.",
+    "A person's remembered life unspooling into the air around their head."
+  ],
+  "ward-protect": [
+    "A doorway ringed with burning glyphs that something outside cannot pass.",
+    "A shimmering barrier holding around a small group as force breaks against it."
+  ],
+  "curse-mark": ["A dark sigil burning itself into a victim's skin as they claw at it."],
+  "divine-boon": [
+    "A supplicant kneeling as their deity's light settles over them in a shaft.",
+    "A holy symbol raised above a congregation, blessing spreading outward through the crowd."
+  ],
+  "nature-growth": [
+    "Vines and green growth erupting through flagstones at a caster's gesture.",
+    "A barren field flushing into full growth in a single moment."
+  ],
+  "weather-sky": ["A caster on a high place with both arms raised as the sky answers."],
+  "craft-forge": [
+    "An enchanter's bench with a half-made item glowing at one end.",
+    "A forge where a weapon is being finished with sigils rather than a hammer."
+  ],
+  "travel-path": [
+    "A road unrolling away toward a horizon under a wide sky.",
+    "A traveller stepping from one landscape directly into another."
+  ],
+  "battle-buff": [
+    "A warrior's weapon and armour flaring with borrowed power before a charge.",
+    "A caster's blessing landing on a formed-up line, every soldier straightening at once.",
+    "A blade lit from within as its wielder brings it up to guard.",
+    "A fighter surging forward with an aura of enhancement trailing behind them."
+  ],
+  "skill-mastery": [
+    "A scholar's hands moving with sudden uncanny precision over an intricate task.",
+    "A figure performing a difficult feat effortlessly while onlookers stare."
+  ],
+  "senses-sight": ["A figure's eyes lit from within, seeing clearly in a room that is pitch dark."]
+};

@@ -25,9 +25,16 @@ globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
 (0, eval)(fs.readFileSync(`${ROOT}/data/art.js`, "utf8"));
 (0, eval)(fs.readFileSync(themesPath, "utf8"));
+// Body motifs are precomputed into data/bodythemes.js; without them the school sets get sized for
+// spells that no longer reach them.
+if (fs.existsSync(`${ROOT}/data/bodythemes.js`)) (0, eval)(fs.readFileSync(`${ROOT}/data/bodythemes.js`, "utf8"));
 const IDX = globalThis.window.PF_INDEX, ART = new Set(globalThis.window.PF_ART);
 const THEMES = globalThis.window.PF_THEMES, FALLBACK = globalThis.window.PF_THEME_FALLBACK;
 const VARIETY = { ...globalThis.window.PF_VARIETY };
+const BODY_THEMES = globalThis.window.PF_BODY_THEMES || {};
+const BODY_MAP = globalThis.window.PF_BODY_THEME || {};
+const bodyVariants = {};
+for (const [b, t] of Object.entries(BODY_THEMES)) for (const r of t) bodyVariants[`${b}/${r[0]}`] = r[2] || 1;
 const variants = {};   // "bucket/key" -> count
 for (const [b, t] of Object.entries(THEMES)) for (const r of t) variants[`${b}/${r[0]}`] = r[3] || 1;
 
@@ -78,6 +85,11 @@ function resolve(r) {
     if (ART.has("spell-" + artKey(r[1]))) return null;
     const th = themeHit("spells", r);
     if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
+    const bk = BODY_MAP[id];
+    if (bk && BODY_THEMES.spells && BODY_THEMES.spells.some(r => r[0] === bk)) {
+      const n = bodyVariants[`spells/${bk}`] || 1;
+      return { art: `theme-spells-${bk}-${n > 1 ? hash32(id) % n + 1 : 1}`, owner: { kind: "body", key: `spells/${bk}` } };
+    }
     if (fac.sch && fac.sch !== "universal") return { art: vk("school-" + fac.sch, id), owner: { kind: "variety", key: "school-" + fac.sch } };
     return null;
   }
@@ -145,6 +157,7 @@ function drawnCount(name) { let n = 0; while (ART.has(`${name}-${n + 1}`)) n++; 
     const kind = k.slice(0, k.indexOf(":")), key = k.slice(k.indexOf(":") + 1);
     const ideal = Math.max(1, Math.ceil(n / TARGET));
     if (kind === "theme") variants[key] = Math.max(ideal, drawnCount(`theme-${key.replace("/", "-")}`));
+    else if (kind === "body") bodyVariants[key] = Math.max(ideal, drawnCount(`theme-${key.replace("/", "-")}`));
     else if (kind === "variety") VARIETY[key] = Math.max(ideal, drawnCount(key));
   }
 }
@@ -169,6 +182,7 @@ do {
     const [kind, key] = [k.slice(0, k.indexOf(":")), k.slice(k.indexOf(":") + 1)];
     const grow = Math.max(1, Math.ceil((n / TARGET - 1) * (kind === "theme" ? variants[key] : (VARIETY[key] || 1))));
     if (kind === "theme") variants[key] += grow;
+    else if (kind === "body") bodyVariants[key] += grow;
     else if (kind === "variety") VARIETY[key] = (VARIETY[key] || 1) + grow;
     else if (kind === "slot") VARIETY[key] = 2;      // promote a bare slot image to a variety set
     else continue;                                    // "fixed" rawCat art: nothing to turn
@@ -190,6 +204,10 @@ const themeChanges = [], varietyChanges = [];
 for (const [b, t] of Object.entries(THEMES)) for (const r of t) {
   const was = r[3] || 1, now = variants[`${b}/${r[0]}`];
   if (now !== was) themeChanges.push({ bucket: b, key: r[0], was, now });
+}
+for (const [b, t] of Object.entries(BODY_THEMES)) for (const r of t) {
+  const was = r[2] || 1, now = bodyVariants[`${b}/${r[0]}`];
+  if (now !== was) themeChanges.push({ bucket: b, key: r[0], was, now, body: true });
 }
 for (const [k, v] of Object.entries(VARIETY)) {
   const was = globalThis.window.PF_VARIETY[k];

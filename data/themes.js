@@ -450,14 +450,14 @@ window.PF_VARIETY = {
   "opt-tricks": 3,
   "opt-unique-patrons": 1,
   "opt-wild-talents": 21,
-  "school-abjuration": 6,
+  "school-abjuration": 4,
   "school-conjuration": 1,
-  "school-divination": 9,
+  "school-divination": 3,
   "school-enchantment": 1,
-  "school-evocation": 3,
+  "school-evocation": 2,
   "school-illusion": 1,
-  "school-necromancy": 7,
-  "school-transmutation": 24,
+  "school-necromancy": 3,
+  "school-transmutation": 14,
   "trait-campaign": 16,
   "trait-combat": 10,
   "trait-cosmic": 1,
@@ -509,3 +509,45 @@ window.PF_VARIETY = {
    own load. Those buckets need it: a spell's school and a monster's type are real, meaningful
    axes, whereas a feat that matches no theme has nothing left to sort it by. */
 window.PF_THEME_FALLBACK = { feats: "feat-scene", items: "item-scene", spells: "school-*", monsters: "monster-scene" };
+
+/* BODY MOTIFS — matched against the FULL entry body, not the index snippet.
+ *
+ * WHY THIS IS SEPARATE
+ * The snippet in data/index.js is truncated to ~200 characters, which for most spells is just the
+ * stat block. "Blush of Youth" is a page of prose about a blood ritual performed by a circle of
+ * secondary casters, and none of that reaches the snippet — from the index alone it is only
+ * "necromancy". The full bodies live in data/cat/<bucket>.js and average 1,458 characters.
+ *
+ * WHY IT IS PRECOMPUTED
+ * Bodies are lazy-loaded: applyArt runs when the entry renders, before loadCat returns. Matching
+ * at runtime would either block the render or swap the picture out from under the reader. So
+ * tools/derive-body-themes.mjs runs these offline and emits data/bodythemes.js, a small id -> key
+ * map the app reads directly.
+ *
+ * WHY IT RANKS BELOW THE STAT BLOCK
+ * Subschool and descriptors are AUTHORED categories — Paizo decided a spell is (compulsion).
+ * Prose motifs are inferred, and a spell that mentions blood once is not necessarily about blood.
+ * So the order is: name -> stat block -> body motif -> school. Inference goes last.
+ *
+ * Motifs must be VISUAL — things an illustrator can draw. "skill checks" is a mechanic;
+ * "a circle of robed casters around a sacrifice" is a picture.
+ */
+window.PF_BODY_THEMES = {
+  spells: [
+    ["ritual-circle",  /\bsecondary casters?\b|\bbacklash\b|\bprimary caster\b|\bskill checks?\b[^.]*\bsuccess(es)?\b/i, 5],
+    ["life-drain",     /\bsiphon|\bdrains?\b[^.]*\b(life|blood|energy|levels?)\b|\bnegative levels?\b|\bblood\b[^.]*\b(victim|caster)\b|\bsacrific/i, 1],
+    ["binding-summon", /\bbound\b[^.]*\bservice\b|\bbind(s|ing)?\b[^.]*\b(creature|outsider|spirit)\b|\bsummoned creature\b|\bcalled creature\b/i, 1],
+    ["transformation", /\bassumes? the form\b|\btransforms?\b|\bbecomes? an? \w+ (creature|beast|animal)\b/i, 2],
+    ["mind-invasion",  /\bmemor(y|ies)\b|\bthoughts?\b|\bdreams?\b|\bmind of\b/i, 1],
+    ["ward-protect",   /\bward(s|ed|ing)?\b|\bbarrier\b|\brepel/i, 2],
+    ["curse-mark",     /\bcurse[ds]?\b|\bafflict|\bwither/i, 1],
+    ["divine-boon",    /\bdeity\b|\bdivine\b|\bpray(er|s)?\b|\bblessing\b/i, 2],
+    ["nature-growth",  /\bplants?\b|\bvines?\b|\btrees?\b|\bsoil\b|\bharvest/i, 2],
+    ["weather-sky",    /\bsky\b|\bclouds?\b|\bstorms?\b|\brain\b|\bwinds?\b/i, 1],
+    ["craft-forge",    /\bcraft(s|ed|ing)?\b|\bforge[ds]?\b|\bcreates? an? (item|object|weapon)\b/i, 1],
+    ["travel-path",    /\btravels?\b|\bjourney\b|\bmiles?\b|\bdestination\b/i, 1],
+    ["battle-buff",    /\battack rolls?\b|\bweapon damage\b|\bwield/i, 3],
+    ["skill-mastery",  /\bcompetence bonus\b|\bKnowledge \(/i, 1],
+    ["senses-sight",   /\bdarkvision\b|\bblind(ed|ness)?\b|\bsee\b[^.]*\binvisible\b/i, 1]
+  ]
+};
