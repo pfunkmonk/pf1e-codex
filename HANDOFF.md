@@ -237,13 +237,33 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 
 | Batch | Content | Images | Status |
 |---|---|---|---|
-| 10 | Feats — 209 theme, 57 general scenes, 93 named | 359 | **pack written**, art not yet generated |
-| 11 | Items, object themes — 276 theme + 14 body-slot | 290 | **pack written** |
+| 10 | Feats — theme art, general scenes, 93 named | 359 | pack written, **now 79 short** (see below) |
+| 11 | Items, object themes + body slots | 290 | **pack written** |
 | 12 | Items, variety sets + 93 named magic items | 299 | **pack written** |
-| 13 | Monsters — creature-family themes + named | ~300 | not started |
-| 14 | Spells — themes + named | ~300 | not started |
-| 15 | Rules scenes, trait themes (splits `trait-region` 448 / `trait-race` 419), NPC scenes | ~300 | not started |
-| 16 | Archetypes, options, hazards, the last 163 deities | ~300 | not started |
+| 13 | Rules scenes (141) + NPC scenes (36) + hazards (24) + the 79 extra feat scenes | ~280 | scenes not yet authored |
+| 14 | Trait category sets (137) + spell school sets (106) | ~245 | scenes not yet authored |
+| 15 | Spell themes (79) + monster themes (71) + monster type sets (71) + class options (60) | ~280 | scenes not yet authored |
+| 16 | Archetype sets (89) + the last 163 deities | ~250 | scenes not yet authored |
+
+**1,818 images remain in total — 7 batches, not 4.** The count is measured, not estimated:
+`node tools/check-themes.mjs .` prints exactly what every theme and variety set still owes.
+
+⚠ **Batch 10 must be regenerated before it is used.** Feat theme art grew 209 → 288 when the 549
+"Combat Stamina" rules entries started sharing the feat theme table — more pages on the same
+themes means more variants. The added keys are new variant NUMBERS, so any art already generated
+from the old pack stays valid; the pack simply needs re-emitting to pick up the extra 79.
+
+⚠ **Do not size variant counts by hand.** `ceil(claimed / 20)` is wrong: entries are assigned to
+variants by HASH, so the split is random, not even — 183 rings over 10 images averages 18 but
+peaks near 28. The first items pass left 93 images over target, the worst backing 56 pages. Run:
+
+```bash
+node tools/size-variants.mjs .            # report what the counts should be
+node tools/size-variants.mjs . --apply    # write them into data/themes.js
+```
+
+Re-run it until it reports "converged after 1 round" — a single pass can leave work behind. Then
+re-run `gen-art-prompts.mjs` so the packs match the counts.
 
 Once batches 10-12 land, **no image in feats or items backs more than 23 pages** (the single
 exception is `item-technology`, a rawCat image with no variant knob). That is down from 2,010.
