@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "64";
+  var DATA_V = "65";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -785,6 +785,13 @@
     var key=BODY_MAP[row[I_ID]]; if(!key) return null;
     var table=BODY_THEMES[bucket]; if(!table) return null;
     for(var i=0;i<table.length;i++) if(table[i][0]===key){
+      // A 4th field means "use this existing art key" — the kineticist elements point at the
+      // elemental creature art we already own rather than commissioning it twice.
+      if(table[i][3]){
+        // Reuse existing art. If the target is itself a variety set, hash across it so the borrowed
+        // pages spread out — size-variants then grows that set to cover BOTH populations.
+        return VARIETY[table[i][3]] ? varietyKey(table[i][3],row[I_ID]) : table[i][3];
+      }
       var n=table[i][2]||1, v=n>1 ? (hash32(row[I_ID])%n+1) : 1;
       return "theme-"+bucket+"-"+key+"-"+v;
     }
@@ -888,8 +895,17 @@
       if(fac.t) push("feat-"+artKey(fac.t));
     }
     else if(b==="items") itemArt(row, push);
-    else if(b==="options"){ var oa=OPTION_ART[row[I_RAW]]; if(oa){ push(have(varietyKey("opt-"+oa,row[I_ID]))); push("opt-"+oa); } }
-    else if(b==="hazards"){ var hz="hazard-"+artKey(row[I_RAW]||""); push(have(varietyKey(hz,row[I_ID]))); push(hz); }
+    else if(b==="options"){
+      // Wild talents carry an Element and every option a Type — both beat the rawCat these were
+      // sorted by, where opt-wild-talents alone held 278 entries.
+      push(have(bodyThemeArt("options",row)));
+      var oa=OPTION_ART[row[I_RAW]]; if(oa){ push(have(varietyKey("opt-"+oa,row[I_ID]))); push("opt-"+oa); }
+    }
+    else if(b==="hazards"){
+      // Delivery type is the whole visual difference between poisons: a blade, a cup, a gas.
+      push(have(bodyThemeArt("hazards",row)));
+      var hz="hazard-"+artKey(row[I_RAW]||""); push(have(varietyKey(hz,row[I_ID]))); push(hz);
+    }
     // Rules and NPC pages have no category to sort them by, so they draw from a variety set,
     // assigned by id hash: stable per page, but the reader stops seeing one picture everywhere.
     else if(b==="rules"){
