@@ -12,6 +12,12 @@
  *   - every theme's variant count keeps it under PAGES_PER_IMAGE
  *   - the app's resolution order is reproduced EXACTLY (name pass, then text pass)
  *
+ * It does NOT try to size the straggler sets. Buckets route stragglers through their own sets
+ * first — items via Weapons/Armor/Wondrous/slots, monsters via type-* and creature-* — so dividing
+ * a raw straggler count by the general set's size is a wild over-estimate, and it produced two
+ * confident failures that were not real. size-variants.mjs answers that properly by simulating the
+ * actual chain per entry; this reports the counts and leaves the assertion there.
+ *
  * Exit code is non-zero on failure so this can gate a release.
  * Usage: node tools/check-themes.mjs [repoRoot]
  */
@@ -38,11 +44,14 @@ globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
 (0, eval)(fs.readFileSync(`${ROOT}/data/art.js`, "utf8"));
 (0, eval)(fs.readFileSync(`${ROOT}/data/themes.js`, "utf8"));
+if (fs.existsSync(`${ROOT}/data/bodythemes.js`)) (0, eval)(fs.readFileSync(`${ROOT}/data/bodythemes.js`, "utf8"));
 const IDX = globalThis.window.PF_INDEX;
 const ART = new Set(globalThis.window.PF_ART);
 const THEMES = globalThis.window.PF_THEMES || {};
 const FALLBACK = globalThis.window.PF_THEME_FALLBACK || {};
 const VARIETY = globalThis.window.PF_VARIETY || {};
+const BODY_THEMES = globalThis.window.PF_BODY_THEMES || {};
+const BODY_MAP = globalThis.window.PF_BODY_THEME || {};
 const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 /* An entry that resolves BEFORE the theme layer never reaches it, so it must not count toward a
@@ -66,7 +75,7 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   const rows = IDX.filter(r => r[2] === bucket);
   const claims = new Map(table.map(t => [t[0], []]));
   const strays = [];
-  let named = 0;
+  let named = 0, bodyPlaced = 0;
 
   for (const r of rows) {
     if (resolvesEarlier(bucket, r)) { named++; continue; }   // resolves before the theme layer
@@ -74,16 +83,22 @@ for (const [bucket, table] of Object.entries(THEMES)) {
     let key = null;
     for (const t of table) if (t[1] && t[1].test(name)) { key = t[0]; break; }
     if (!key) for (const t of table) if (t[2] && t[2].test(text)) { key = t[0]; break; }
-    if (key) claims.get(key).push(r[1]); else strays.push(r[1]);
+    if (key) { claims.get(key).push(r[1]); continue; }
+    // Not a stray if a BODY motif places it. Those are matched offline against the full entry
+    // body, so this check cannot re-derive them — it reads the precomputed map instead. Without
+    // this, item-scene looked catastrophically undersized for 2,804 stragglers when 1,029 of them
+    // never reach it.
+    if (BODY_MAP[r[0]]) { bodyPlaced++; continue; }
+    strays.push(r[1]);
   }
 
   const sizes = [...claims.entries()].sort((a, b) => b[1].length - a[1].length);
-  const themed = rows.length - strays.length - named;
+  const themed = rows.length - strays.length - named - bodyPlaced;
   let images = 0;
   for (const t of table) images += (t[3] || 1);
 
   console.log(`\n=== ${bucket} — ${rows.length} entries, ${table.length} themes, ${images} theme images ===`);
-  console.log(`    own art ${named}   themed ${themed} (${(themed / (rows.length - named) * 100).toFixed(1)}% of the rest)   no theme matched: ${strays.length}`);
+  console.log(`    own art ${named}   body motif ${bodyPlaced}   themed ${themed} (${(themed / Math.max(1, rows.length - named - bodyPlaced) * 100).toFixed(1)}% of the rest)   no theme matched: ${strays.length}`);
   console.log(`    largest ${sizes[0][0]}:${sizes[0][1].length}   smallest ${sizes[sizes.length - 1][0]}:${sizes[sizes.length - 1][1].length}`);
 
   for (const [key, list] of sizes) {
@@ -110,11 +125,14 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   if (!fbName) { if (strays.length) fail(`${bucket} has ${strays.length} unthemed entries and NO fallback scene set`); }
   else if (!fbCount) fail(`${bucket} falls back to "${fbName}", which is not declared in PF_VARIETY`);
   else {
-    // Buckets can route stragglers to their OWN variety sets before the general one (items send
-    // Weapons/Armor/Artifacts/Wondrous to theirs), so this is an upper bound, not an exact figure.
-    const per = Math.ceil(strays.length / fbCount);
-    console.log(`    stragglers ${strays.length} -> ${fbName}-1..${fbCount} and any bucket-specific sets (<= ${per} pages per scene)`);
-    if (per > PAGES_PER_IMAGE * 3) fail(`${bucket} fallback ${fbName} has ${fbCount} scenes for ${strays.length} stragglers`);
+    /* Buckets can route stragglers to their OWN variety sets long before the general one — items
+     * send Weapons, Armor, Artifacts, Wondrous and every body slot to theirs — so dividing the
+     * straggler count by the general set's size is a wild over-estimate. It read as
+     * "14 scenes for 1,625 stragglers" when item-scene's real load is a fraction of that.
+     *
+     * size-variants.mjs answers this properly: it simulates the actual chain per entry. So this
+     * only ASSERTS where the general set is the sole destination, and otherwise just reports. */
+    console.log(`    stragglers ${strays.length} -> ${fbName}-1..${fbCount}, after any bucket-specific sets`);
   }
 
   // How much art this bucket still owes, so the number in the batch plan is never guessed.

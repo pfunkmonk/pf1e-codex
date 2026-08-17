@@ -30,9 +30,30 @@ const BODY = globalThis.window.PF_BODY_THEMES || {};
 const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const NAMED = { feats: "feat-", spells: "spell-", items: "item-" };
 
-// Strip the stat block: the description proper starts after "Description".
-function prose(b) {
-  const s = String(b || "").replace(/<[^>]+>/g, " ");
+/* What text a motif sees, per bucket. Two rules that matter:
+ *  - FEATS have the Pathfinder Unchained "Combat Stamina" block appended verbatim to 320 of the
+ *    725 stragglers. Left in, it swamps every real signal, so it is cut before matching.
+ *  - ITEMS keep their WHOLE body, because the "Category" label sits in the stat header ABOVE the
+ *    description. Trimming to the prose would throw away the best signal in the bucket. */
+function matchText(bucket, b) {
+  let s = String(b || "").replace(/<[^>]+>/g, " ");
+  if (bucket === "items") {
+    /* Item bodies END with "Construction Requirements", which lists the SPELLS needed to craft the
+     * thing — not what it does. Left in, it is actively misleading: Akhentepi's Armor was tagged
+     * healing-item because crafting it needs `cure critical wounds`, and three suits of armour were
+     * tagged summon-item because they need `summon monster I`. That is a recipe, not an object.
+     * The header stays, because the Category label lives there. */
+    const cr = s.search(/Construction\s+Requirements/i);
+    if (cr > 0) s = s.slice(0, cr);
+    return s;
+  }
+  if (bucket === "feats") {
+    const cs = s.search(/Combat Stamina/i);
+    if (cs > 0) s = s.slice(0, cs);
+    const ben = s.search(/\bBenefit\b/);
+    if (ben >= 0) s = s.slice(ben + 7);
+    return s;
+  }
   const i = s.indexOf("Description");
   return i >= 0 ? s.slice(i + 11) : s;
 }
@@ -60,7 +81,7 @@ for (const [bucket, motifs] of Object.entries(BODY)) {
     if (hit) continue;
 
     considered++;
-    const p = prose(bodies[r[0]]);
+    const p = matchText(bucket, bodies[r[0]]);
     if (!p) continue;
     for (const [key, re] of motifs) {
       if (!re.test(p)) continue;

@@ -237,15 +237,15 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 
 | Batch | Content | Images | Status |
 |---|---|---|---|
-| 10 | Feats — theme art, general scenes, 93 named | 433 | **pack written** |
-| 11 | Items, object themes + body slots | 290 | **pack written** |
-| 12 | Items, variety sets + 93 named magic items | 313 | **pack written** |
+| 10 | Feats — theme, body motif, general scenes, 93 named | 439 | **pack written** |
+| 11 | Items — object themes, body motifs, body slots | 368 | **pack written** |
+| 12 | Items — variety sets + 93 named magic items | 202 | **pack written** |
 | 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
 | 14 | Monsters — themes, types, 101 subtype scenes, hazards, stragglers | 278 | **pack written** |
 | 15 | Traits, class options, archetypes | 286 | **pack written** |
 | 16 | Rules (141), NPCs (36), the last 163 deities | 301 | **pack written** |
 
-**All seven packs are written — 2,091 prompts, about 84 hours of generation.** Packs and their
+**All seven packs are written — 2,066 prompts, about 83 hours of generation.** Packs and their
 `BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
 manifests up automatically; `--keys` is only needed to restrict to one batch.
 
@@ -296,6 +296,22 @@ node tools/derive-body-themes.mjs .      # rewrites data/bodythemes.js (12 KB, i
 gen-art-prompts. Motifs rank BELOW the stat block deliberately: subschool and descriptors are
 authored categories, prose motifs are inferred, and a spell that mentions blood once is not about
 blood.
+
+Body motifs now cover **spells, feats and items** — 1,663 entries in total (339 / 209 / 1,115).
+Coverage: spells 84%, feats 84%, items 70% of everything without its own art.
+
+⚠ **Each bucket needs its own text preparation, and getting it wrong is silent.** `matchText()` in
+derive-body-themes.mjs:
+  - FEATS: cut the "Combat Stamina" block. It is appended verbatim to 320 of the 725 stragglers and
+    swamps every real signal.
+  - ITEMS: cut everything from "Construction Requirements". That section lists the SPELLS NEEDED TO
+    CRAFT the item, not what it does — it tagged Akhentepi's Armor as healing-item because crafting
+    needs *cure critical wounds*, and three suits of armour as summon-item for *summon monster I*.
+    A recipe is not an object. The header is kept, because the Category label lives there.
+  - SPELLS: cut everything before "Description" (the stat block is handled by the snippet rules).
+
+**Audit new motifs against real matches before trusting them** — print the matched text in context.
+Both faults above looked perfectly healthy in the summary counts.
 
 If a bucket has structured data in its text, match on that before inventing name keywords — and if
 its snippet is truncated, the full body is worth a precompute.

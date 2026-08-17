@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "61";
+  var DATA_V = "62";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -791,6 +791,10 @@
     var raw=row[I_RAW]||"", slot=String((row[I_FAC]||{}).slot||"").toLowerCase(), id=row[I_ID];
     push(have("item-"+artKey(row[I_NAME])));            // named artifacts win outright
     push(have(themeArt("items",row)));                  // then what the object actually IS
+    // Item bodies carry a "Category" label finer than the rawCat facet (Mounts/Pets, Alchemical
+    // Tools, Clothing), plus prose worth reading. Ranked above the generic rawCat scene sets,
+    // because that is the whole point: more specific than the fallback it displaces.
+    push(have(bodyThemeArt("items",row)));
     // "Weapons" and "Armor" are largely abstract magic QUALITIES — Keen, Bane, Vorpal, Animated —
     // which no name rule can depict, so the leftovers draw from a variety set. The legacy 1..6 key
     // is pushed as well, so raising a count in themes.js before the new art exists still resolves.
@@ -863,6 +867,8 @@
     else if(b==="feats"){
       push(have("feat-"+nm));
       push(have(themeArt("feats",row)));
+      // Then what the Benefit line describes — see the spells branch for why this is precomputed.
+      push(have(bodyThemeArt("feats",row)));
       push(have(themeFallback("feats",row)));
       if(fac.t) push("feat-"+artKey(fac.t));
     }

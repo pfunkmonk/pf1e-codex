@@ -486,20 +486,20 @@ window.PF_VARIETY = {
   "type-plant": 5,
   "type-undead": 6,
   "type-vermin": 2,
-  "item-wrists": 2,
+  "item-wrists": 1,
   "item-shoulders": 2,
   "item-head": 2,
   "item-eyes": 2,
   "item-body": 2,
-  "item-neck": 4,
+  "item-neck": 3,
   "rules": 156,          // rules pages have no category to sort them by
   "npc": 34,
-  "feat-scene": 57,     // feats matching no theme (725 of them)
-  "item-scene": 106,     // mundane goods: Miscellaneous, Equipment, Magic Equipment
-  "item-wondrous": 42,  // wondrous items no theme or slot caught
-  "item-weapon": 51,    // Weapons rawCat — largely abstract magic qualities (Keen, Bane, Vorpal)
-  "item-armorset": 23,  // Armor rawCat, same
-  "item-artifact": 10
+  "feat-scene": 45,     // feats matching no theme (725 of them)
+  "item-scene": 14,     // mundane goods: Miscellaneous, Equipment, Magic Equipment
+  "item-wondrous": 31,  // wondrous items no theme or slot caught
+  "item-weapon": 48,    // Weapons rawCat — largely abstract magic qualities (Keen, Bane, Vorpal)
+  "item-armorset": 22,  // Armor rawCat, same
+  "item-artifact": 6
 };
 
 /* Which variety set catches a bucket's unthemed entries, after every other candidate has missed.
@@ -549,5 +549,53 @@ window.PF_BODY_THEMES = {
     ["battle-buff",    /\battack rolls?\b|\bweapon damage\b|\bwield/i, 3],
     ["skill-mastery",  /\bcompetence bonus\b|\bKnowledge \(/i, 1],
     ["senses-sight",   /\bdarkvision\b|\bblind(ed|ness)?\b|\bsee\b[^.]*\binvisible\b/i, 1]
+  ],
+
+  /* FEATS. Thinner than spells — 725 stragglers whose name and type said nothing — but a feat's
+     Benefit line does describe what it DOES. The Combat Stamina block appended to combat feats is
+     stripped before matching; it appears verbatim in 320 of them and drowns out everything else. */
+  feats: [
+    ["mythic-power",    /\bmythic power\b|\bmythic tier\b/i, 1],
+    ["wild-shape",      /\bwild shape\b|\bchange shape\b|\bshapechang/i, 1],
+    ["natural-weapon",  /\bnatural (attack|weapon)s?\b|\bbite attack\b|\bclaw attacks?\b/i, 1],
+    ["animal-bond",     /\banimal companion\b|\bfamiliar\b|\bbonded creature\b/i, 1],
+    ["spell-like",      /\bspell-?like abilit|\bspell slot\b|\bspell list\b/i, 2],
+    ["magic-item-use",  /\bmagic items?\b|\buse magic device\b|\bcommand word\b|\bcharges?\b/i, 1],
+    ["energy-damage",   /\b(fire|cold|acid|electricity|sonic) damage\b|\benergy (type|damage)\b/i, 1],
+    ["healing-recovery",/\bfast healing\b|\bheals? .{0,20}hit points\b|\brecover/i, 1],
+    ["awareness",       /\bperception check\b|\bsurprise round\b|\bnotice\b/i, 1],
+    ["speed-movement",  /\bbase speed\b|\bmovement speed\b|\bdifficult terrain\b/i, 1],
+    ["social-skill",    /\bbluff\b|\bdiplomacy\b|\bsense motive\b|\bperform check\b/i, 2],
+    ["ally-support",    /\ballies within\b|\byour allies\b|\badjacent all(y|ies)\b/i, 1],
+    ["saves-resilience",/\bsaving throws?\b|\bwill saves?\b|\breflex saves?\b|\bfortitude saves?\b/i, 4]
+  ],
+
+  /* ITEMS. Bodies carry a "Category" label finer than the rawCat facet — 735 stragglers have one,
+     and it is AUTHORED rather than inferred, so those rules come first.
+     Deliberately NOT included: motifs matching "the wearer" (517 entries) and "the wielder" (341).
+     Both are accurate and both are useless — they say an item is worn, or is a weapon, which is
+     exactly what item-wondrous and item-weapon already say. A motif must be MORE specific than the
+     fallback it displaces, or it is pure churn. */
+  items: [
+    ["cat-mounts",      /Category\s+Mounts\/Pets/i, 9],
+    ["cat-advgear",     /Category\s+Adventuring Gear/i, 8],
+    ["cat-alchtools",   /Category\s+Alchemical Tools/i, 9],
+    ["cat-tools",       /Category\s+Tools\b/i, 6],
+    ["cat-remedies",    /Category\s+(Alchemical Remedies|Tincture|Concoctions)/i, 4],
+    ["cat-clothing",    /Category\s+Clothing/i, 3],
+    ["cat-alchweapons", /Category\s+Alchemical Weapons/i, 4],
+    ["cat-fooddrink",   /Category\s+Food\/Drink/i, 3],
+    ["cat-blackmarket", /Category\s+(Black Market|Torture Implements)/i, 2],
+    ["cat-animalgear",  /Category\s+Animal Gear/i, 2],
+    ["cat-kits",        /Category\s+Kits/i, 1],
+    ["cat-entertain",   /Category\s+(Entertainment|Lodging\/Services)/i, 1],
+    ["command-word",    /\bcommand word\b|\bspeak(s|ing)? the .{0,15}word\b/i, 7],
+    ["consumable",      /\bwhen (drunk|consumed|eaten|applied)\b|\bsingle dose\b|\bdoses?\b/i, 7],
+    ["summon-item",     /\bsummons?\b.{0,30}\b(creature|monster|ally|allies|swarm|elemental|beast|instrument)\b|\bconjures?\b.{0,25}\b(creature|monster|wings|weapon)\b|\bcalls? forth\b/i, 2],
+    ["healing-item",    /\bheals? .{0,20}hit points\b|\bcure \w+ wounds\b|\bcure\/inflict\b|\brestoration\b/i, 2],
+    ["splash-thrown",   /\bsplash weapon\b|\bdirect hit\b/i, 2],
+    ["poison-toxin",    /\bpoison\b|\btoxin\b|\bvenom\b/i, 3],
+    ["light-source",    /\bsheds? .{0,15}light\b|\billuminat|\bbright light\b/i, 3],
+    ["transport-item",  /\bteleport|\bfly speed\b|\bmount(s)? .{0,10}speed\b/i, 2]
   ]
 };
