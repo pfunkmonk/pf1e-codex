@@ -42,9 +42,19 @@ const FALLBACK = globalThis.window.PF_THEME_FALLBACK || {};
 const VARIETY = globalThis.window.PF_VARIETY || {};
 const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-// Named-art prefix per bucket: an entry with its own picture never reaches the theme layer,
-// so it must not count toward a theme's claim.
+/* An entry that resolves BEFORE the theme layer never reaches it, so it must not count toward a
+ * theme's claim. For most buckets that is just "has its own named art". Monsters are different:
+ * a real wolf resolves through race-/creature-/type- art long before any theme is consulted, and
+ * counting those inflated animal-canine from 12 to 31 and reported failures that do not exist.
+ * This mirrors the order in entryArtKey — if the two drift, this check goes quietly wrong. */
 const NAMED = { feats: "feat-", spells: "spell-", items: "item-" };
+function resolvesEarlier(bucket, row) {
+  if (NAMED[bucket] && ART.has(NAMED[bucket] + artKey(row[1]))) return true;
+  if (bucket !== "monsters") return false;
+  const nm = artKey(row[1]), fac = row[6] || {};
+  if (["monster-", "race-", "creature-", "type-"].some(p => ART.has(p + nm))) return true;
+  return !!(fac.st && ART.has("creature-" + artKey(fac.st)));
+}
 
 let failed = 0;
 const fail = m => { console.log(`  FAIL  ${m}`); failed++; };
@@ -56,7 +66,7 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   let named = 0;
 
   for (const r of rows) {
-    if (NAMED[bucket] && ART.has(NAMED[bucket] + artKey(r[1]))) { named++; continue; }   // has its own art
+    if (resolvesEarlier(bucket, r)) { named++; continue; }   // resolves before the theme layer
     const name = r[1] || "", text = r[5] || "";
     let key = null;
     for (const t of table) if (t[1] && t[1].test(name)) { key = t[0]; break; }
@@ -84,7 +94,16 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   }
 
   // The straggler set has to be big enough to absorb whatever matched nothing.
-  const fbName = FALLBACK[bucket], fbCount = VARIETY[fbName];
+  const fbName = FALLBACK[bucket];
+  if (fbName && fbName.endsWith("*")) {
+    // Per-facet fallback: every set sharing the prefix must exist. size-variants sizes them.
+    const prefix = fbName.slice(0, -1);
+    const sets = Object.keys(VARIETY).filter(k => k.startsWith(prefix));
+    if (!sets.length) fail(`${bucket} falls back to "${fbName}" but no set with that prefix is declared`);
+    else console.log(`    stragglers ${strays.length} -> ${sets.length} per-facet sets (${prefix}…), sized individually`);
+    continue;
+  }
+  const fbCount = VARIETY[fbName];
   if (!fbName) { if (strays.length) fail(`${bucket} has ${strays.length} unthemed entries and NO fallback scene set`); }
   else if (!fbCount) fail(`${bucket} falls back to "${fbName}", which is not declared in PF_VARIETY`);
   else {

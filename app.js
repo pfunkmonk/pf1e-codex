@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "58";
+  var DATA_V = "59";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -782,6 +782,13 @@
     push(have(varietyKey("item-scene",id)));
     push(raw==="Wondrous Items" ? "item-wondrous" : "item-generalstore");
   }
+  // Trait bodies open "Category <X> Requirement(s) <Y> <prose…>". Y is a race for Race traits and
+  // a deity for Religion traits — both things we already have art for. The requirement runs until
+  // a bracketed aside or the start of the prose, which reliably begins with You/Your/A/An/The.
+  function traitRequirement(row){
+    var m=String(row[I_SNIP]||"").match(/Requirement\(s\)\s+(.+?)(?:\s*\[|\s+(?:You|Your|A|An|The|Whenever|Once|As)\b|$)/);
+    return m ? m[1].trim() : null;
+  }
   // Candidates, most specific first. applyArt walks the list and uses the first that loads,
   // so art that has not been generated yet simply falls through to the next choice.
   // Keys drawn from a SMALL closed vocabulary (trait/feat/creature/item) are offered
@@ -794,8 +801,24 @@
     if(b==="classes"){ push("class-"+nm); push(inheritedClassArt(row[I_NAME])); }
     else if(b==="races") push("race-"+nm);
     else if(b==="deities"){ push(have("deity-"+nm)); push("deities-pantheon"); }
-    else if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; if(c) push(have("class-"+artKey(c))); }
-    else if(b==="traits"){ if(fac.cat) push("trait-"+artKey(fac.cat)); }
+    else if(b==="archetypes"){
+      // The parent class band is the RIGHT picture for an archetype — an Alchemist archetype
+      // should look like an alchemist — so this stays keyed to the class rather than to any
+      // theme drawn off the archetype's own name. Variants spread the busy classes (rogue 78).
+      var c=[].concat(fac.cls||[])[0];
+      if(c){ var ck="class-"+artKey(c); push(have(varietyKey("arch-"+artKey(c),row[I_ID]))); push(have(ck)); }
+    }
+    else if(b==="traits"){
+      // Trait bodies carry "Requirement(s) <X>", and for two categories that X is something we
+      // ALREADY have art for: a race (237 traits) and a deity (129). Reusing it costs no images
+      // at all and is far more specific than any category backdrop.
+      var rq=traitRequirement(row);
+      if(rq){
+        if(fac.cat==="Race")     push(have("race-"+artKey(rq)));
+        if(fac.cat==="Religion") push(have("deity-"+artKey(rq)));
+      }
+      if(fac.cat){ var tk="trait-"+artKey(fac.cat); push(have(varietyKey(tk,row[I_ID]))); push(tk); }
+    }
     // named art -> keyword theme -> straggler scene -> feat-type art -> category.
     // Theme keys are gated on ART: 3,336 unnamed feats would otherwise fire a 404 apiece for
     // themes whose images have not been generated yet.
@@ -806,19 +829,36 @@
       if(fac.t) push("feat-"+artKey(fac.t));
     }
     else if(b==="items") itemArt(row, push);
-    else if(b==="options"){ var oa=OPTION_ART[row[I_RAW]]; if(oa) push("opt-"+oa); }
-    else if(b==="hazards") push("hazard-"+artKey(row[I_RAW]||""));
+    else if(b==="options"){ var oa=OPTION_ART[row[I_RAW]]; if(oa){ push(have(varietyKey("opt-"+oa,row[I_ID]))); push("opt-"+oa); } }
+    else if(b==="hazards"){ var hz="hazard-"+artKey(row[I_RAW]||""); push(have(varietyKey(hz,row[I_ID]))); push(hz); }
     // Rules and NPC pages have no category to sort them by, so they draw from a variety set,
     // assigned by id hash: stable per page, but the reader stops seeing one picture everywhere.
-    else if(b==="rules") push(have("rules-"+(hash32(row[I_ID])%RULES_SCENES+1)));
-    else if(b==="npcs")  push(have("npc-"+(hash32(row[I_ID])%NPC_SCENES+1)));
+    else if(b==="rules"){
+      // 549 "Combat Stamina" entries are feats in all but name — Adder Strike, Agile Maneuvers,
+      // Arcane Strike. The feat theme table already describes them, so reuse it rather than
+      // sending them to a generic scene: 388 of them land on art about what they actually do.
+      push(have(themeArt("feats",row)));
+      push(have(varietyKey("rules",row[I_ID])));
+    }
+    else if(b==="npcs")  push(have(varietyKey("npc",row[I_ID])));
     else if(b==="spells"){
       push(have("spell-"+nm));
-      if(fac.sch && fac.sch!=="universal") push(have("school-"+fac.sch));
+      push(have(themeArt("spells",row)));
+      if(fac.sch && fac.sch!=="universal"){
+        var sk="school-"+fac.sch;
+        push(have(varietyKey(sk,row[I_ID])));
+        push(have(sk));
+      }
     }
     else if(b==="monsters"){
       push(have("monster-"+nm));                                // its own portrait beats everything
       push(have("race-"+nm));                                   // Goblin, Orc, Kobold, Drow…
+      // The taxonomy pages — "Creature Subtypes", "Monster Families", "Creature Types" — are
+      // NAMED for the family they describe, so the family's own art is already the right picture.
+      // 129 of them light up at no cost; without this they fell to the generic monster banner.
+      push(have("creature-"+nm)); push(have("type-"+nm));
+      // Universal Monster Rules, Templates and Animal Companions are not creatures at all.
+      push(have(themeArt("monsters",row)));
       if(fac.st) push("creature-"+artKey(fac.st));              // demon, devil, psychopomp…
       var t=artKey(fac.t||""), al=String(fac.al||"");
       // Chromatic/metallic dragons and the celestial/fiend/elemental outsider families read off alignment.
@@ -827,7 +867,7 @@
       // Real giants are humanoid(giant). Name alone is NOT enough: AON inverts names, so
       // "Ant, Giant" and "Beetle, Giant" also end in "giant" — they're vermin.
       if(t==="humanoid" && /giant/i.test(row[I_NAME])) push("type-giant");
-      push(have("type-"+t));
+      if(t){ push(have(varietyKey("type-"+t,row[I_ID]))); push(have("type-"+t)); }
     }
     push(CAT_FALLBACK[b]);
     return out;

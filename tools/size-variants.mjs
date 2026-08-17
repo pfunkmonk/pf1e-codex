@@ -74,6 +74,50 @@ function resolve(r) {
     if (raw === "Wondrous Items") return { art: vk("item-wondrous", id), owner: { kind: "variety", key: "item-wondrous" } };
     return { art: vk(FALLBACK.items, id), owner: { kind: "variety", key: FALLBACK.items } };
   }
+  if (b === "spells") {
+    if (ART.has("spell-" + artKey(r[1]))) return null;
+    const th = themeHit("spells", r);
+    if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
+    if (fac.sch && fac.sch !== "universal") return { art: vk("school-" + fac.sch, id), owner: { kind: "variety", key: "school-" + fac.sch } };
+    return null;
+  }
+  if (b === "monsters") {
+    const nm = artKey(r[1]);
+    for (const p of ["monster-", "race-", "creature-", "type-"]) if (ART.has(p + nm)) return null;
+    const th = themeHit("monsters", r);
+    if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
+    if (fac.st && ART.has("creature-" + artKey(fac.st))) return null;
+    const t = artKey(fac.t || "");
+    if (t) return { art: vk("type-" + t, id), owner: { kind: "variety", key: "type-" + t } };
+    return null;
+  }
+  if (b === "traits") {
+    const m = String(r[5] || "").match(/Requirement\(s\)\s+(.+?)(?:\s*\[|\s+(?:You|Your|A|An|The|Whenever|Once|As)\b|$)/);
+    const rq = m ? m[1].trim() : null;
+    if (rq && fac.cat === "Race" && ART.has("race-" + artKey(rq))) return null;
+    if (rq && fac.cat === "Religion" && ART.has("deity-" + artKey(rq))) return null;
+    if (fac.cat) return { art: vk("trait-" + artKey(fac.cat), id), owner: { kind: "variety", key: "trait-" + artKey(fac.cat) } };
+    return null;
+  }
+  if (b === "rules") {
+    const th = themeHit("feats", r);
+    if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
+    return { art: vk("rules", id), owner: { kind: "variety", key: "rules" } };
+  }
+  if (b === "npcs") return { art: vk("npc", id), owner: { kind: "variety", key: "npc" } };
+  if (b === "hazards") { const k = "hazard-" + artKey(r[3] || ""); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }
+  if (b === "archetypes") { const c = [].concat(fac.cls || [])[0]; if (!c) return null;
+    const k = "arch-" + artKey(c); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }
+  if (b === "options") {
+    const OPT = { "Wild Talents": "wild-talents", "Exploits": "exploits", "Bloodlines": "bloodlines", "Tricks": "tricks",
+      "Blessings": "blessings", "Domains": "domains", "Mysteries": "mysteries", "Phrenic Amplifications": "phrenic",
+      "Shifter": "shifter", "Stares": "stares", "Advanced Weapon Training": "adv-weapon-training", "Disciplines": "disciplines",
+      "Construct Mods": "construct-mods", "Schools": "schools", "Spirits": "spirits", "Emotional Focus": "emotional-focus",
+      "Orders": "orders", "Advanced Armor Training": "adv-armor-training", "Implement Schools": "implement-schools",
+      "Unique Patrons": "unique-patrons" };
+    const o = OPT[r[3]]; if (!o) return null;
+    const k = "opt-" + o; return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null;
+  }
   return null;
 }
 
