@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "56";
+  var DATA_V = "57";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -186,7 +186,7 @@
       mine.forEach(function(k){
         var fig=h("figure",{class:"artcell"});
         if(ART[k]){
-          var img=h("img",{loading:"lazy",alt:k,src:"art/"+k+".jpg"});
+          var img=h("img",{loading:"lazy",alt:k,src:"art/"+k+ART_EXT});
           img.onerror=function(){ fig.classList.add("missing"); };   // belt and braces
           fig.appendChild(img);
         }else{
@@ -309,7 +309,11 @@
     monk:"monk",alchemist:"alchemist",
     medium:"psychic",mesmerist:"psychic",occultist:"psychic",psychic:"psychic",spiritualist:"psychic"};
   function classArchScene(name){ var a=CLASS_ARCH[(""+name).toLowerCase()], inner=(a&&ARCH_SCENE[a])?ARCH_SCENE[a]:SCENE.classes; return '<svg class="cat-scene" viewBox="0 0 128 96" fill="currentColor" aria-hidden="true">'+inner+'</svg>'; }
-  // painted backdrops (art/<key>.jpg): preload; only apply if the image actually exists (future-proof)
+  // Art is WebP: same source images, ~27% smaller than the JPEGs they replaced (226MB -> 166MB).
+  // That headroom matters — the theme system below multiplies how many files we ship. Defined once
+  // here because the extension appears in the gallery AND in applyArt, and those must never disagree.
+  var ART_EXT=".webp";
+  // painted backdrops (art/<key>.webp): preload; only apply if the image actually exists (future-proof)
   var CAT_ART={classes:"cat-classes",options:"cat-classoptions",races:"cat-races",archetypes:"cat-archetypes",feats:"cat-feats",traits:"cat-traits",spells:"cat-spells",monsters:"cat-monsters",npcs:"cat-npcs",items:"cat-items",rules:"cat-rules",hazards:"cat-hazards",deities:"deities-pantheon"};
   // Apostrophes are DROPPED, not turned into separators: "Bull's Strength" -> bulls-strength.
   // The prompt packs slug filenames the same way, and when these two rules disagreed the art
@@ -730,6 +734,28 @@
     "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
     "Unique Patrons":"unique-patrons"};
   var RULES_SCENES=40, NPC_SCENES=12;   // variety sets, assigned by id hash
+  // Keyword themes (data/themes.js). Sits BETWEEN named art and the category fallback: an entry
+  // with no picture of its own still gets art about what it actually does. See that file for why
+  // table order is the whole mechanism. Degrades to nothing if the data file failed to load.
+  var THEMES=window.PF_THEMES||{}, THEME_FALLBACK=window.PF_THEME_FALLBACK||{};
+  // Name first (precise: "Improved Trip"), then body text (chatty: a feat can mention tripping
+  // without being about it). Returns the art key including its stable per-entry variant.
+  function themeArt(bucket,row){
+    var table=THEMES[bucket]; if(!table) return null;
+    var name=row[I_NAME]||"", text=row[I_SNIP]||"", i, t;
+    for(i=0;i<table.length;i++){ t=table[i]; if(t[1]&&t[1].test(name)) return themeKey(bucket,t,row); }
+    for(i=0;i<table.length;i++){ t=table[i]; if(t[2]&&t[2].test(text)) return themeKey(bucket,t,row); }
+    return null;
+  }
+  function themeKey(bucket,t,row){
+    var n=t[3]||1, v=n>1 ? (hash32(row[I_ID])%n+1) : 1;
+    return "theme-"+bucket+"-"+t[0]+"-"+v;
+  }
+  // The straggler set: entries matching no theme at all. Generic scenes, but numerous.
+  function themeFallback(bucket,row){
+    var f=THEME_FALLBACK[bucket]; if(!f) return null;
+    return f.key+"-"+(hash32(row[I_ID])%f.scenes+1);
+  }
   function itemArt(row, push){
     var raw=row[I_RAW]||"", slot=String((row[I_FAC]||{}).slot||"").toLowerCase();
     push(have("item-"+artKey(row[I_NAME])));            // named artifacts win outright
@@ -754,7 +780,15 @@
     else if(b==="deities"){ push(have("deity-"+nm)); push("deities-pantheon"); }
     else if(b==="archetypes"){ var c=[].concat(fac.cls||[])[0]; if(c) push(have("class-"+artKey(c))); }
     else if(b==="traits"){ if(fac.cat) push("trait-"+artKey(fac.cat)); }
-    else if(b==="feats"){ push(have("feat-"+nm)); if(fac.t) push("feat-"+artKey(fac.t)); }
+    // named art -> keyword theme -> straggler scene -> feat-type art -> category.
+    // Theme keys are gated on ART: 3,336 unnamed feats would otherwise fire a 404 apiece for
+    // themes whose images have not been generated yet.
+    else if(b==="feats"){
+      push(have("feat-"+nm));
+      push(have(themeArt("feats",row)));
+      push(have(themeFallback("feats",row)));
+      if(fac.t) push("feat-"+artKey(fac.t));
+    }
     else if(b==="items") itemArt(row, push);
     else if(b==="options"){ var oa=OPTION_ART[row[I_RAW]]; if(oa) push("opt-"+oa); }
     else if(b==="hazards") push("hazard-"+artKey(row[I_RAW]||""));
@@ -804,9 +838,9 @@
       var key=list.shift(); if(!key) return;
       try{
         var im=new Image();
-        im.onload=function(){ el.style.setProperty("--art",'url("art/'+key+'.jpg")'); el.classList.add("has-art"); };
+        im.onload=function(){ el.style.setProperty("--art",'url("art/'+key+ART_EXT+'")'); el.classList.add("has-art"); };
         im.onerror=function(){ ART_MISS[key]=1; next(); };
-        im.src="art/"+key+".jpg";
+        im.src="art/"+key+ART_EXT;
       }catch(e){}
     })();
   }
