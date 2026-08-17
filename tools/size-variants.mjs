@@ -128,6 +128,27 @@ function resolve(r) {
   return null;
 }
 
+/* RESET BEFORE GROWING.
+ * The loop below only ever raises a count, so running --apply repeatedly ratchets: an unlucky hash
+ * split bumps a theme, the next run measures the new split and bumps again, and nothing ever comes
+ * back down. That left `cold` with 7 images for 15 pages — 2 pages each, five images of waste.
+ * So first drop every count to what its claim actually justifies, then let the loop add back only
+ * what the hash unevenness really needs.
+ * A count is NEVER reduced below the number of variants already drawn, because that would strand
+ * art on disk that nothing references any more. */
+function drawnCount(name) { let n = 0; while (ART.has(`${name}-${n + 1}`)) n++; return n; }
+{
+  const claims = new Map();
+  for (const r of IDX) { const h = resolve(r); if (!h) continue;
+    claims.set(`${h.owner.kind}:${h.owner.key}`, (claims.get(`${h.owner.kind}:${h.owner.key}`) || 0) + 1); }
+  for (const [k, n] of claims) {
+    const kind = k.slice(0, k.indexOf(":")), key = k.slice(k.indexOf(":") + 1);
+    const ideal = Math.max(1, Math.ceil(n / TARGET));
+    if (kind === "theme") variants[key] = Math.max(ideal, drawnCount(`theme-${key.replace("/", "-")}`));
+    else if (kind === "variety") VARIETY[key] = Math.max(ideal, drawnCount(key));
+  }
+}
+
 let round = 0, bumped;
 do {
   bumped = 0;

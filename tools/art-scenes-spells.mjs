@@ -1,48 +1,88 @@
 /* Scene descriptions for the SPELLS bucket. Consumed by gen-art-prompts.mjs, which cross-checks
  * every key and count against data/themes.js and refuses to run on a mismatch.
  *
- * Two sets here. THEMES cover the 44% of spells whose names actually say what they do; SCHOOLS
- * are the per-school variety sets that catch the rest — the 56% whose names are poetry
- * ("Blush of Youth", "Cats and Mice") and can only be sorted by the school facet.
+ * Two sets here. THEMES now cover 73% of unnamed spells. Name matching alone reached only 44%,
+ * because spell names are poetry rather than description — "Aphasia" tells you nothing. The lift
+ * comes from matching the SNIPPET, which opens with the stat block: "School enchantment
+ * (compulsion) [mind-affecting]". Subschool and descriptors are authored categories, so they place
+ * a spell far more reliably than its name ever could. SCHOOLS are the per-school variety sets that
+ * catch whatever still has neither.
  */
 export const SPELL_THEME_SCENES = {
   resurrection: ["A body on a bier surrounded by kneeling companions as the first breath returns and light floods the chest."],
   healing: [
     "A healer's hands closing over a deep wound, torn flesh knitting shut beneath a warm glow.",
-    "A fallen fighter sitting up on a battlefield, colour returning to their face as a cleric withdraws."
+    "A fallen fighter sitting up on a battlefield, colour returning to their face as a cleric withdraws.",
+    "A battlefield medic's hands glowing over a chest wound as breathing steadies.",
+    "A whole party restored at once, light settling over each of them in turn."
   ],
   undead: [
     "A robed caster raising both arms over broken ground as skeletal figures haul themselves upright.",
-    "A pale hand touching a living shoulder, vitality draining visibly away into the toucher."
+    "A pale hand touching a living shoulder, vitality draining visibly away into the toucher.",
+    "A caster halting an advancing corpse mid-step with a raised palm."
   ],
   summoning: [
     "A chalk circle blazing on flagstones as a heavy shape resolves out of nothing inside it.",
     "A celestial creature descending through a shaft of light, wings still folding.",
     "A pack of summoned beasts appearing mid-lunge around a caster who has not moved.",
-    "An outsider stepping out of a tear in the air, one foot already on the floor."
+    "An outsider stepping out of a tear in the air, one foot already on the floor.",
+    "A circle of summoned defenders appearing in a ring around their caster.",
+    "A single enormous creature arriving in a courtyard too small for it.",
+    "A swarm of small conjured things boiling out of a sigil on the floor.",
+    "An elemental rising out of the material it is made from."
   ],
-  teleport: ["Two figures dissolving into streaks of light at one end of a hall and reforming at the other."],
+  teleport: ["Two figures dissolving into streaks of light at one end of a hall and reforming at the other.",
+    "A party vanishing from a burning room in a single silent flash.",
+    "A caster stepping through a doorway of light onto a distant hillside."
+  ],
   divination: [
     "A scrying bowl showing a distant room in perfect detail while the seer's own room stays dark.",
-    "A diviner surrounded by drifting images of possible futures, each slightly different."
+    "A diviner surrounded by drifting images of possible futures, each slightly different.",
+    "A caster's eyes filmed over white while their body stands motionless."
   ],
   illusion: [
     "A caster standing beside an exact duplicate of themselves, one of them faintly wrong.",
     "A stone wall rippling like water as a hidden corridor shows through the illusion.",
-    "A figure fading from sight from the feet upward, footprints still pressing into dust."
-  ],
+    "A figure fading from sight from the feet upward, footprints still pressing into dust.",
+    "A phantom army cresting a ridge, banners and all, casting no dust.",
+    "A door painted onto a blank wall that a hand is passing through.",
+    "A creature's terror given visible shape only it can see.",
+    "A silent scene playing out in the air above a caster's palm.",
+    "A room that shows a different room to each person in it.",
+    "A figure whose face keeps almost resolving and never does.",
+    "A mirage of water shimmering across a desert road.",
+    "A caster standing in plain sight while every eye slides past them."
+,
+    "A caster's reflection stepping out of a mirror and walking away independently."
+    ],
   "charm-mind": [
     "A caster's outstretched hand and a guard's face going slack and agreeable mid-challenge.",
-    "A crowd all turning to face one speaker at once with identical, untroubled expressions."
+    "A crowd all turning to face one speaker at once with identical, untroubled expressions.",
+    "A guard's hostile stance softening into open friendliness mid-challenge.",
+    "A puppeteer's gesture and a person's limbs answering it.",
+    "A crowd turning to face one speaker in perfect unison.",
+    "A prisoner cheerfully unlocking their own cell door.",
+    "Two figures locked eye to eye, one clearly losing.",
+    "A commander's own soldiers turning slowly toward them.",
+    "A whispered word entering an ear as a visible thread of light.",
+    "A banquet where every guest has stopped mid-motion, enraptured.",
+    "A warrior lowering a raised blade against obvious intent.",
+    "A figure walking calmly toward a cliff edge, smiling.",
+    "A caster's fingers moving and a distant person's mirroring them.",
+    "A person arguing passionately for something they hated an hour ago."
   ],
-  fear: ["A wave of visible dread rolling outward from a caster, armed men breaking and running from it."],
+  fear: ["A wave of visible dread rolling outward from a caster, armed men breaking and running from it.",
+    "A lone figure radiating dread as armed men drop weapons and run."
+  ],
   "sleep-daze": ["An entire guardroom slumped where they sat, cards still in one sleeping hand."],
   polymorph: [
     "A figure caught mid-transformation into a great bear, one arm still human.",
     "A wizard shrinking to the size of a mouse, robes collapsing around them.",
     "A caster's skin hardening into elemental stone from the fingertips inward.",
     "A druid unfolding into a bird of prey, the last of the human shape dissolving.",
-    "A warrior swelling to giant size, armour straps bursting one by one."
+    "A warrior swelling to giant size, armour straps bursting one by one.",
+    "A caster flowing into a form of running water and away down a drain.",
+    "A party all changed into birds, lifting from a tower window together."
   ],
   protection: [
     "A shimmering dome of force closing over a kneeling party as a blast breaks against it.",
@@ -68,32 +108,53 @@ export const SPELL_THEME_SCENES = {
   ],
   planar: [
     "A caster standing half in one plane and half in another, the seam running down their body.",
-    "A hall where the floor opens onto a burning sky and nobody falls."
+    "A hall where the floor opens onto a burning sky and nobody falls.",
+    "A summoned celestial and a summoned fiend facing off across a circle.",
+    "A caster's holy word striking fiends like a physical wave.",
+    "A doorway opening onto a plane of endless burning sky.",
+    "A blasphemous utterance withering everything good in the room.",
+    "A caster standing on ground that belongs to another world entirely."
   ],
   "curse-affliction": [
     "A pointing finger and a victim's eyes clouding over into blind white.",
     "A caster's whispered word rotting a strong man visibly into frailty.",
-    "A sigil burning itself into a victim's forehead as they claw at it."
+    "A sigil burning itself into a victim's forehead as they claw at it.",
+    "A victim's limbs stiffening as a curse takes hold.",
+    "A caster's finger tracing a mark that will not wash off.",
+    "Sickness spreading visibly through a body as a spell lands.",
+    "A once-strong figure withered to frailty in a moment.",
+    "A pointing hand and a target clutching at blinded eyes."
   ],
   "light-dark": [
     "A brilliant point of light hanging above an outstretched palm, driving shadow into the corners.",
     "A sphere of absolute darkness swallowing a lit room from its centre outward.",
-    "A sunburst detonating in a crypt, undead disintegrating in its wash."
+    "A sunburst detonating in a crypt, undead disintegrating in its wash.",
+    "A lantern of daylight held up in a cavern, shadows fleeing to the walls.",
+    "A caster swallowed by a sphere of darkness that eats even torchlight."
   ],
   fire: [
     "A fireball blooming at the far end of a hall, the shockwave already arriving.",
-    "A thin jet of flame lancing from two fingers across a dark room."
+    "A thin jet of flame lancing from two fingers across a dark room.",
+    "A ring of flame springing up around a caster in a defensive circle.",
+    "A single flaming sphere rolling down a corridor of its own accord.",
+    "A hand igniting a distant target with a snap of the fingers."
   ],
-  cold: ["A cone of frost freezing everything in its path, a charging figure locked mid-stride in ice."],
+  cold: ["A cone of frost freezing everything in its path, a charging figure locked mid-stride in ice.",
+    "A caster's breath freezing the air into a wall of drifting ice crystals."
+  ],
   lightning: [
     "A bolt of lightning leaping from a caster's fingers straight down a stone corridor.",
     "Forked electricity arcing between several targets in sequence, each lit for an instant."
   ],
   acid: ["A gout of acid striking a door and eating through it, edges hissing and running."],
-  sonic: ["A shouted word made visible as a distorting ring of force, glass shattering along its front."],
+  sonic: ["A shouted word made visible as a distorting ring of force, glass shattering along its front.",
+    "A caster's voice shattering a stone pillar into fragments."
+  ],
   force: [
     "Darts of pure force streaking unerringly around cover to their target.",
-    "An invisible hand lifting a heavy chest, dust falling from a shape that is not there."
+    "An invisible hand lifting a heavy chest, dust falling from a shape that is not there.",
+    "A wall of invisible force stopping a charge dead, bodies crumpling against nothing.",
+    "A caster's fist striking from across a room with no arm attached to it."
   ],
   "earth-stone": [
     "The ground heaving upward into a wall of raw stone at a caster's gesture.",
@@ -105,8 +166,13 @@ export const SPELL_THEME_SCENES = {
     "A druid speaking with a circle of attentive woodland animals in a clearing.",
     "A swarm of summoned creatures pouring over a barricade."
   ],
-  weather: ["A caster on a hilltop with both arms raised as a clear sky turns to storm above them."],
-  water: ["A column of water rising out of a river and holding its shape at a caster's command."],
+  weather: ["A caster on a hilltop with both arms raised as a clear sky turns to storm above them.",
+    "A caster parting a storm overhead into clear sky directly above them."
+  ],
+  water: ["A column of water rising out of a river and holding its shape at a caster's command.",
+    "A wave rising at a caster's command and standing upright.",
+    "A figure walking down into deep water and breathing easily."
+  ],
   "symbol-rune": [
     "A glowing rune inscribed on a floor flaring white as the first intruder crosses it.",
     "A caster tracing an intricate sigil in the air that hangs there, burning.",
@@ -115,13 +181,22 @@ export const SPELL_THEME_SCENES = {
   "mind-psychic": [
     "A caster and target locked eye to eye as visible thought passes between them.",
     "A person's memories spilling out into the air as readable fragments.",
-    "A seated figure's mind depicted as a lit architecture behind their skull."
-  ],
+    "A seated figure's mind depicted as a lit architecture behind their skull.",
+    "A caster reading a sleeping person's dream as pictures above the bed.",
+    "Two psychics duelling with nothing visible but their expressions."
+,
+    "A caster lifting a memory out of a subject's head as a slow drifting image."
+    ],
   communication: [
     "A whispered message travelling as a thread of light across a night landscape to a distant ear.",
     "Two figures in different rooms speaking as if face to face, a shimmer between them."
   ],
-  creation: ["A caster's gesture pulling a fully formed feast and table out of empty air."],
+  creation: ["A caster's gesture pulling a fully formed feast and table out of empty air.",
+    "A bridge assembling itself plank by plank across a chasm.",
+    "A wall of stone rising out of nothing to seal a corridor.",
+    "A caster pulling a rope, a lantern and a meal out of empty air.",
+    "A shelter unfolding from nothing on an exposed hillside."
+  ],
   "blood-flesh": [
     "A wound opening on an untouched target as a caster clenches their fist.",
     "Flesh knitting and unknitting in an unnatural way under a caster's hand.",

@@ -27,8 +27,11 @@ const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
  * Item names are NOUNS, so large claims can be entirely legitimate: `ring` claims 183 and `rod`
  * 152 simply because the game has that many rings and rods. Those are concrete objects an
  * illustrator can draw, not a vague catch-all, and their variant counts keep them under 20 pages
- * per image. The per-image check below is the real quality gate; this one catches vagueness. */
-const MAX_CLAIM = { feats: 150, items: 260 };
+ * per image. The per-image check below is the real quality gate; this one catches vagueness.
+ * Spells are the same story for a different reason: their themes match mostly on SUBSCHOOL and
+ * DESCRIPTOR, which are authored categories rather than guesses. `charm-mind` claims 191 because
+ * compulsion is genuinely the largest subschool in the game, not because the regex is sloppy. */
+const MAX_CLAIM = { feats: 150, items: 260, spells: 200 };
 const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
 globalThis.window = {};
