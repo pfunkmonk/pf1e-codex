@@ -733,7 +733,11 @@
     "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
     "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
     "Unique Patrons":"unique-patrons"};
-  var RULES_SCENES=40, NPC_SCENES=12;   // variety sets, assigned by id hash
+  // Every variety set's size is declared in data/themes.js so the tools can enumerate them.
+  // Falls back to the historical counts if that file failed to load.
+  var VARIETY=window.PF_VARIETY||{};
+  function varietyKey(name,id){ var n=VARIETY[name]||1; return name+"-"+(hash32(id)%n+1); }
+  var RULES_SCENES=VARIETY.rules||40, NPC_SCENES=VARIETY.npc||12;
   // Keyword themes (data/themes.js). Sits BETWEEN named art and the category fallback: an entry
   // with no picture of its own still gets art about what it actually does. See that file for why
   // table order is the whole mechanism. Degrades to nothing if the data file failed to load.
@@ -753,18 +757,30 @@
   }
   // The straggler set: entries matching no theme at all. Generic scenes, but numerous.
   function themeFallback(bucket,row){
-    var f=THEME_FALLBACK[bucket]; if(!f) return null;
-    return f.key+"-"+(hash32(row[I_ID])%f.scenes+1);
+    var name=THEME_FALLBACK[bucket]; if(!name) return null;
+    return varietyKey(name,row[I_ID]);
   }
   function itemArt(row, push){
-    var raw=row[I_RAW]||"", slot=String((row[I_FAC]||{}).slot||"").toLowerCase();
+    var raw=row[I_RAW]||"", slot=String((row[I_FAC]||{}).slot||"").toLowerCase(), id=row[I_ID];
     push(have("item-"+artKey(row[I_NAME])));            // named artifacts win outright
-    if(raw==="Weapons") return push("item-weapon-"+(hash32(row[I_ID])%6+1));
-    if(raw==="Armor")   return push("item-armorset-"+(hash32(row[I_ID])%6+1));
+    push(have(themeArt("items",row)));                  // then what the object actually IS
+    // "Weapons" and "Armor" are largely abstract magic QUALITIES — Keen, Bane, Vorpal, Animated —
+    // which no name rule can depict, so the leftovers draw from a variety set. The legacy 1..6 key
+    // is pushed as well, so raising a count in themes.js before the new art exists still resolves.
+    if(raw==="Weapons"){ push(have(varietyKey("item-weapon",id))); push("item-weapon-"+(hash32(id)%6+1)); }
+    else if(raw==="Armor"){ push(have(varietyKey("item-armorset",id))); push("item-armorset-"+(hash32(id)%6+1)); }
+    else if(raw==="Artifacts") push(have(varietyKey("item-artifact",id)));
     if(ITEM_CAT_ART[raw]) push("item-"+ITEM_CAT_ART[raw]);
-    if(SLOT_ART[slot])    push("item-"+SLOT_ART[slot]);
-    if(raw==="Wondrous Items") push("item-wondrous");
-    push("item-generalstore");
+    // Body-slot art. The busy slots (neck backed 56 pages, head 37) are declared as variety sets
+    // in themes.js; the bare key stays as the fallback beneath, so a slot works either way.
+    if(SLOT_ART[slot]){
+      var sk="item-"+SLOT_ART[slot];
+      if(VARIETY[sk]) push(have(varietyKey(sk,id)));
+      push(sk);
+    }
+    if(raw==="Wondrous Items") push(have(varietyKey("item-wondrous",id)));
+    push(have(varietyKey("item-scene",id)));
+    push(raw==="Wondrous Items" ? "item-wondrous" : "item-generalstore");
   }
   // Candidates, most specific first. applyArt walks the list and uses the first that loads,
   // so art that has not been generated yet simply falls through to the next choice.

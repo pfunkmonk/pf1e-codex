@@ -114,7 +114,9 @@ races      race-<name> -> cat-races
 archetypes parent class art via the cls facet -> cat-archetypes
 traits     trait-<category>
 feats      feat-<name> -> THEME -> feat-scene-<n> -> feat-<type> -> cat-feats
-items      by rawCat and slot          spells spell-<name> -> school-<school>
+items      item-<name> -> THEME -> rawCat variety (weapon/armorset/artifact) -> rawCat art
+           -> body slot -> item-wondrous-<n> -> item-scene-<n> -> item-generalstore
+spells     spell-<name> -> school-<school>
 monsters   race-<name> -> creature-<subtype> -> type-<t> (dragons and outsiders split on
            alignment) -> cat-monsters
 deities    deities-pantheon
@@ -147,6 +149,17 @@ each bucket still owes, so batch sizes are measured rather than guessed.
 
 Theme keys are gated on the `ART` manifest, so declaring a theme changes nothing visually until
 its images exist — 3,336 unnamed feats would otherwise fire a 404 apiece.
+
+### Variety sets
+
+Art assigned by hashing the entry id: arbitrary, but identical on every visit. **Every set's size
+is declared once, in `PF_VARIETY` in `data/themes.js`** — they used to be scattered across three
+files, which is why `check-reachable` had 40 and 12 hard-coded and drifted out of step with the app.
+
+Raising a count is safe: each key is gated on the manifest and falls through to the previous
+candidate, so a number can be raised *before* the art exists. **Lowering one strands art on disk
+that nothing references.** `item-weapon` and `item-armorset` keep their original 1..6 keys as an
+ungated fallback beneath the expanded set, so the expansion could ship before the new art.
 
 **Class art inheritance** covers 212 entries with no images at all: 119 prestige classes mapped
 to the base class each reads as, plus `/^Order of/`→cavalier (37), `/^Oath /`→paladin (15),
@@ -224,12 +237,29 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 
 | Batch | Content | Images | Status |
 |---|---|---|---|
-| 10 | Feats — 195 theme, 37 general scenes, 93 named | 325 | pack written, art not yet generated |
-| 11–12 | Items — themes for Miscellaneous/Equipment/Wondrous + named magic items | ~600 | not started |
+| 10 | Feats — 209 theme, 57 general scenes, 93 named | 359 | **pack written**, art not yet generated |
+| 11 | Items, object themes — 276 theme + 14 body-slot | 290 | **pack written** |
+| 12 | Items, variety sets + 93 named magic items | 299 | **pack written** |
 | 13 | Monsters — creature-family themes + named | ~300 | not started |
 | 14 | Spells — themes + named | ~300 | not started |
 | 15 | Rules scenes, trait themes (splits `trait-region` 448 / `trait-race` 419), NPC scenes | ~300 | not started |
 | 16 | Archetypes, options, hazards, the last 163 deities | ~300 | not started |
+
+Once batches 10-12 land, **no image in feats or items backs more than 23 pages** (the single
+exception is `item-technology`, a rawCat image with no variant knob). That is down from 2,010.
+
+⚠ **Do not size variant counts by hand.** `ceil(claimed / 20)` is wrong: entries are assigned to
+variants by HASH, so the split is random, not even — sizing 183 rings across 10 images gives an
+average of 18 but a worst case near 28. The first pass at items left 93 images over target, the
+worst backing 56 pages, and it also revealed that batch 10 had been undersized. Run:
+
+```bash
+node tools/size-variants.mjs .            # report what the counts should be
+node tools/size-variants.mjs . --apply    # write them into data/themes.js
+```
+
+It runs the real resolution chain over every entry, raises whatever is over target, and repeats
+until it converges. Re-run `gen-art-prompts.mjs` afterwards so the packs match.
 
 Target is **no image backing more than 20 pages**. Going below that costs several more batches for
 a difference no reader can perceive; the budget is better spent on named art for entries people

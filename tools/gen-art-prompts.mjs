@@ -8,11 +8,17 @@
  * scene description or if a description array is the wrong length. A missing scene is a hard
  * error, never a silently skipped image.
  *
- * Usage:  node tools/gen-art-prompts.mjs [repoRoot] [outDir]
- * Emits Markdown always; also emits .docx when the `docx` package is resolvable.
+ * Usage:  node tools/gen-art-prompts.mjs [repoRoot] [outDir] [batchNumbers...]
+ *   e.g.  node tools/gen-art-prompts.mjs . "C:/…/CODEX IMAGES" 11 12
+ * With no batch numbers it regenerates every batch. Emits Markdown always, and .docx when a
+ * `docx` install is reachable via DOCX_MODULE.
+ *
+ * Art that already exists on disk is SKIPPED, so a pack never re-commissions a picture we have
+ * already paid for — item-weapon-1..6 predate the variety-set expansion and must not be redrawn.
  */
 import fs from "node:fs";
 import path from "node:path";
+import { ITEM_SCENES, ITEM_VARIETY } from "./art-scenes-items.mjs";
 
 const ROOT = process.argv[2] || ".";
 const OUT = process.argv[3] || ".";
@@ -66,7 +72,8 @@ const SCENES = {
   "maneuver-general": ["Two combatants at the moment of a grip-and-turn, weapons momentarily irrelevant, the whole contest reduced to leverage and body mechanics."],
   "power-attack": [
     "A two-handed greatsword at the top of its arc, the wielder's whole mass committed behind it, air visibly distorting along the edge.",
-    "A massive overhead maul strike landing, the ground cratering and cracks running outward from the point of impact."
+    "A massive overhead maul strike landing, the ground cratering and cracks running outward from the point of impact.",
+    "A shield split down the middle by a descending axe, the wielder still following through."
   ],
   "vital-strike": [
     "A single devastating thrust driving through a breastplate at the seam, everything else in the frame motionless.",
@@ -85,7 +92,8 @@ const SCENES = {
   archery: [
     "An archer at full draw, string at the cheek, arrow steady, the whole body a held curve of tension.",
     "The instant of release: bowstring blurred, fletching just clearing the riser, the archer's eyes locked downrange.",
-    "A ranger loosing from a crouch behind cover, a second arrow already nocked between the fingers of the draw hand."
+    "A ranger loosing from a crouch behind cover, a second arrow already nocked between the fingers of the draw hand.",
+    "A volley of arrows leaving a line of archers together, the sky briefly full of shafts."
   ],
   thrown: [
     "A warrior mid-throw with a heavy javelin, hips rotated fully through, the shaft leaving the hand.",
@@ -136,14 +144,19 @@ const SCENES = {
   ],
   "toughness-saves": [
     "A battered warrior still standing amid fallen foes, bleeding, breathing hard, absolutely refusing to go down.",
-    "A figure braced against a torrent of magical force, arms crossed before the face, ground scoured away behind them."
+    "A figure braced against a torrent of magical force, arms crossed before the face, ground scoured away behind them.",
+    "A soldier shrugging off a blow that should have felled them, boots planted, jaw tight."
   ],
   "monk-style": [
     "A monk flowing into a crane-like stance on a rain-slick temple terrace, one leg raised, arms wide and poised.",
     "A tiger-style strike: clawed hands driving forward in a low aggressive lunge, muscles bunched.",
     "A serpentine style of coiling deflection, the practitioner's arms winding around an incoming attack.",
     "A grounded immovable stance, feet rooted wide, an opponent's full-force blow being absorbed without a step back.",
-    "A leaping aerial technique frozen at apex, robes streaming, a spinning kick just beginning to unwind."
+    "A leaping aerial technique frozen at apex, robes streaming, a spinning kick just beginning to unwind.",
+    "A mantis-like stance with hooked hands held high and close, elbows tight to the body.",
+    "A drunken swaying guard, apparently unbalanced, an attack sliding harmlessly past.",
+    "A low crouching stance on one knee, fingertips brushing the ground, ready to spring.",
+    "A two-handed pushing form, palms out, an opponent skidding backward on their heels."
   ],
   unarmed: [
     "A bare-knuckle strike landing clean on a jaw, sweat and spit flying, both fighters unarmoured.",
@@ -160,7 +173,9 @@ const SCENES = {
     "A caster stretching a spell's geometry between both palms, the lattice distending like worked glass.",
     "A silent casting with no gesture at all, only the eyes and a bloom of contained light behind them.",
     "A spell compressed to a dense burning point in the fingertips, far brighter than its size should allow.",
-    "A ritual diagram rotating in the air, layers of script sliding over one another into a new configuration."
+    "A ritual diagram rotating in the air, layers of script sliding over one another into a new configuration.",
+    "A spell held unreleased in a closed fist, light escaping between the fingers.",
+    "Two spells braided together into a single working above a caster's open hands."
   ],
   "spell-focus": [
     "A wizard with one school's sigil burning brighter than all the others orbiting them.",
@@ -187,7 +202,8 @@ const SCENES = {
   "channel-energy": [
     "A cleric with holy symbol raised, a wave of golden light rolling outward through a battlefield.",
     "A priest channelling dark energy, black-violet light guttering from the holy symbol, undead stirring behind.",
-    "Healing light pouring from a cleric's hands into a wounded companion, wounds visibly closing."
+    "Healing light pouring from a cleric's hands into a wounded companion, wounds visibly closing.",
+    "A burst of energy radiating from a raised holy symbol in a crypt, undead recoiling from it."
   ],
   "hex-witch": [
     "A witch tracing a hex sigil in the air, the mark hanging and burning where the finger passed.",
@@ -233,7 +249,8 @@ const SCENES = {
   ],
   shadow: [
     "A figure stepping bodily into their own cast shadow and disappearing into it.",
-    "Shadows detaching from a wall and rising into standing shapes with their own intent."
+    "Shadows detaching from a wall and rising into standing shapes with their own intent.",
+    "A pool of darkness spreading across a floor faster than any cast shadow should."
   ],
   planar: [
     "A rift tearing open in the air, a wholly different sky visible through the gap.",
@@ -288,7 +305,8 @@ const SCENES = {
     "A sage comparing a monster's claw against an illustrated bestiary plate by candlelight.",
     "An archaeologist reading carved glyphs on a buried wall, brushing away centuries of dust.",
     "A student surrounded by orbiting diagrams of planes and stars, tracing one line of reasoning.",
-    "An old master and a young apprentice over a table of maps and instruments, mid-explanation."
+    "An old master and a young apprentice over a table of maps and instruments, mid-explanation.",
+    "A cluttered study at night, one scholar surrounded by open books and a single answer found."
   ],
   athletics: [
     "A climber hauling over a cliff lip by fingertips, legs swinging over a long drop.",
@@ -365,14 +383,16 @@ const SCENES = {
   ],
   "blood-sacrifice": [
     "A caster drawing their own blood across a palm to pay a spell's price, the sigil beneath drinking it.",
-    "A martyr standing between an enemy and their companions, already wounded, refusing to move."
+    "A martyr standing between an enemy and their companions, already wounded, refusing to move.",
+    "A hand pressed to a wound, blood running between the fingers onto a glowing sigil below."
   ],
   "multiclass-dabble": ["A student borrowing from a second discipline: a fighter awkwardly but successfully tracing a spell sigil, sword still in the off hand."],
   "weapon-training": [
     "A weapon master's rack of blades in a lamplit armoury, each one maintained to perfection.",
     "A drill instructor correcting a recruit's grip on a training sword in a muddy yard.",
     "A soldier performing a maintenance ritual on a sword by firelight, whetstone and oiled cloth.",
-    "A veteran selecting a weapon from a wall of them, hand closing on exactly the right one."
+    "A veteran selecting a weapon from a wall of them, hand closing on exactly the right one.",
+    "A soldier drilling alone at a pell in an empty yard at first light."
   ]
 };
 
@@ -415,7 +435,27 @@ const FALLBACK_SCENES = [
   "A great library's spiral stair rising through tiers of shelved books.",
   "A gladiator's tunnel looking out into a sunlit arena, crowd noise implied by the light.",
   "A wagon train circled for the night on open plain, fires between the wheels.",
-  "A stormy crossroads gibbet and signpost, rain hammering down, no travellers in sight."
+  "A stormy crossroads gibbet and signpost, rain hammering down, no travellers in sight.",
+  "A shuttered village at dusk with one lit window and a road running past.",
+  "A stone stair spiralling up inside a tower, worn hollow at the centre of each step.",
+  "A rope bridge over a chasm in drifting cloud.",
+  "A cellar door thrown open onto steps descending into dark.",
+  "A field of standing crops with a treeline beyond and weather coming in.",
+  "A cluttered guardroom with a brazier, a bench and a rack of arms.",
+  "A moonlit graveyard of leaning headstones and long grass.",
+  "A mountain shrine with prayer flags snapping in wind.",
+  "A ford crossing at dawn, mist lying flat on the water.",
+  "A ruined watchtower with ivy through its arrow slits.",
+  "A caravan halted on a plain, animals picketed and fires lit.",
+  "A cave mouth framed by hanging roots, daylight ending a few paces in.",
+  "A city rooftop view across chimneys and washing lines at sunset.",
+  "A flooded crypt with water to the knee and carvings above the tideline.",
+  "A forge yard at night with sparks rising into the dark.",
+  "A wide stone bridge into a walled city, traffic at the gate.",
+  "A hunting camp in autumn woods, kit hung out of reach of animals.",
+  "A cliff-edge path with the sea far below and gulls at eye level.",
+  "A grand hall with long tables cleared and one figure still seated.",
+  "A frozen waterfall in a narrow gorge, blue ice catching light."
 ];
 
 /* Named art for individual feats: the ones people actually look up. Each is one image, one page.
@@ -520,101 +560,267 @@ const NAMED_FEATS = [
 ];
 
 /* ---------------------------------------------------------------- build --- */
+/* Named art for individual magic items: one image, one entry — the ones players actually look up.
+   Names are the EXACT index entries, verified against data/index.js. Several look wrong and are
+   not: AON concatenates the enhancement bonus onto the name, so the real entry really is
+   "Cloak of Resistance1" and "Pearl of Power1st". Using a tidied-up name here would produce art
+   the resolver could never ask for. */
+const NAMED_ITEMS = [
+  ["Bag of Holding Type I", "item-bag-of-holding-type-i", "A worn canvas sack held open, its interior impossibly deep and dark, a faint edge of another space visible inside."],
+  ["Handy Haversack", "item-handy-haversack", "A leather backpack with three flaps open at once, each revealing far more depth than the pack's outside allows."],
+  ["Cloak of Resistance1", "item-cloak-of-resistance1", "A plain travelling cloak on a stand, a faint protective shimmer running through the weave."],
+  ["Ring of Protection1", "item-ring-of-protection1", "A simple band on a raised finger, a soft ward of light haloing the hand."],
+  ["Amulet of Natural Armor1", "item-amulet-of-natural-armor1", "A carved bone amulet on a thong, the skin beneath it faintly toughened and scaled."],
+  ["Bracers of Armor1", "item-bracers-of-armor1", "A pair of light bracers with a translucent shell of force flaring outward from the forearms."],
+  ["Belt of Giant Strength2", "item-belt-of-giant-strength2", "A broad studded belt with a heavy buckle, the wearer's arms visibly corded with new power."],
+  ["Headband of Vast Intelligence2", "item-headband-of-vast-intelligence2", "A jewelled headband at the brow, faint diagrams of thought turning in the air behind the skull."],
+  ["Boots of Speed", "item-boots-of-speed", "Boots mid-stride trailing streaks of motion, the ground beneath blurring away."],
+  ["Winged Boots", "item-winged-boots", "Boots with small feathered wings at the heels, lifting a figure just clear of the ground."],
+  ["Boots of Elvenkind", "item-boots-of-elvenkind", "Soft green leather boots crossing dry leaves without disturbing a single one."],
+  ["Slippers of Spider Climbing", "item-slippers-of-spider-climbing", "Slippers gripping a sheer vertical wall, the wearer walking upward as if on level ground."],
+  ["Cloak of Elvenkind", "item-cloak-of-elvenkind", "A grey-green cloak whose wearer has almost vanished against the forest behind them."],
+  ["Efficient Quiver", "item-efficient-quiver", "A slim quiver holding far more than it should: arrows, javelins and a bow staff all at once."],
+  ["Portable Hole", "item-portable-hole", "A circle of black cloth unfolded on a floor, opening into a shaft of true darkness."],
+  ["Carpet of Flying10-ft.-by-10-ft.", "item-carpet-of-flying10-ft-by-10-ft", "A patterned carpet hovering level above the ground, tassels stirring in its own draught."],
+  ["Deck of Many Things", "item-deck-of-many-things", "An ornate card deck fanned on a table, one card turned face-up and glowing ominously."],
+  ["Rod of Wonder", "item-rod-of-wonder", "A gnarled rod discharging wild mismatched effects at once — butterflies, sparks, a gust of leaves."],
+  ["Staff of the Magi", "item-staff-of-the-magi", "A tall rune-carved staff held upright, immense contained power visible as light under its surface."],
+  ["Robe of the Archmagi", "item-robe-of-the-archmagi", "A deep midnight robe on a stand, silver sigils across it moving slowly like constellations."],
+  ["Robe of Useful Items", "item-robe-of-useful-items", "A patched robe covered in small cloth patches shaped like a ladder, a door, a boat."],
+  ["Pearl of Power1st", "item-pearl-of-power1st", "A luminous pearl held between finger and thumb, a spell rekindling inside it."],
+  ["Instant Fortress", "item-instant-fortress", "A small metal cube on the ground mid-expansion, a stone tower unfolding upward from it."],
+  ["Cube of Force", "item-cube-of-force", "A small cube projecting a shimmering barrier of force in a perfect box around its bearer."],
+  ["Immovable Rod", "item-immovable-rod", "An iron rod hanging fixed in empty air, a pack hung from it, utterly unmoving."],
+  ["Rope of Climbing", "item-rope-of-climbing", "A rope rising on its own into darkness above, its end curling like a questing snake."],
+  ["Decanter of Endless Water", "item-decanter-of-endless-water", "A stoppered flask gushing an impossible torrent of clear water across dry stone."],
+  ["Eyes of the Eagle", "item-eyes-of-the-eagle", "A pair of crystal lenses on a cloth, distant landscape sharply visible within them."],
+  ["Goggles of Night", "item-goggles-of-night", "Dark goggles showing a pitch-black room rendered in clear silvery detail."],
+  ["Hat of Disguise", "item-hat-of-disguise", "A plain hat lifted from a head, the face beneath changing between two people mid-motion."],
+  ["Helm of Brilliance", "item-helm-of-brilliance", "A gem-studded helm blazing with white light, each stone a separate star."],
+  ["Horn of Blasting", "item-horn-of-blasting", "A great brass horn sounding, a visible cone of force shattering stone before it."],
+  ["Iron Flask", "item-iron-flask", "A squat iron flask with a heavy stopper, something straining against the seal from within."],
+  ["Lantern of Revealing", "item-lantern-of-revealing", "A lantern whose beam shows an invisible figure standing plainly in the light."],
+  ["Mirror of Opposition", "item-mirror-of-opposition", "A tall mirror from which a duplicate is stepping out, identical and hostile."],
+  ["Necklace of Fireballs Type I", "item-necklace-of-fireballs-type-i", "A necklace strung with glowing spheres, one being plucked free and already alight."],
+  ["Periapt of Wound Closure", "item-periapt-of-wound-closure", "A dark amber periapt at a throat as a wound below it visibly knits shut."],
+  ["Scarab of Protection", "item-scarab-of-protection", "A gold and lapis scarab brooch, a curse breaking apart into sparks against it."],
+  ["Sovereign Glue", "item-sovereign-glue", "A small pot of amber adhesive with a brush, two objects fused inseparably beside it."],
+  ["Universal Solvent", "item-universal-solvent", "A vial of clear liquid dissolving a bond, the join running away like water."],
+  ["Stone of Good Luck (Luckstone)", "item-stone-of-good-luck-luckstone", "A polished agate in a palm, dice on the table beyond it all showing high faces."],
+  ["Wings of Flying", "item-wings-of-flying", "A cloak unfurling into a great pair of leathery wings mid-leap."],
+  ["Dust of Appearance", "item-dust-of-appearance", "Glittering dust thrown into the air, outlining invisible shapes where it settles."],
+  ["Dust of Disappearance", "item-dust-of-disappearance", "Fine dust falling over a figure who is fading out of sight as it lands."],
+  ["Elixir of Truth", "item-elixir-of-truth", "A clear elixir in a small glass, held out toward a seated and unwilling subject."],
+  ["Folding Boat", "item-folding-boat", "A wooden box on a shingle beach unfolding into a full-sized boat."],
+  ["Gem of Seeing", "item-gem-of-seeing", "A faceted gem held to one eye, illusions beyond it showing as hollow outlines."],
+  ["Glove of Storing", "item-glove-of-storing", "A glove with a weapon vanishing into the palm mid-gesture."],
+  ["Marvelous Pigments", "item-marvelous-pigments", "Pots of pigment and a brush beside a painted door that has become a real opening."],
+  ["Medallion of Thoughts", "item-medallion-of-thoughts", "A medallion at a throat, faint ribbons of another person's thought curling toward it."],
+  ["Pipes of the Sewers", "item-pipes-of-the-sewers", "A set of reed pipes played in a drain mouth, rats streaming toward the piper."],
+  ["Ring of Invisibility", "item-ring-of-invisibility", "A ring on a hand that is fading out of sight from the fingertips inward."],
+  ["Ring of Feather Falling", "item-ring-of-feather-falling", "A figure descending gently past a tower window, cloak billowing slowly upward."],
+  ["Ring of Sustenance", "item-ring-of-sustenance", "A plain ring on a hand beside an untouched meal and a burnt-out candle at dawn."],
+  ["Ring of Spell Storing", "item-ring-of-spell-storing", "A ring with several small spell-lights orbiting the band, waiting to be released."],
+  ["Ring of Regeneration", "item-ring-of-regeneration", "A ring above a wound that is closing over as it is watched."],
+  ["Ring of Djinni Calling", "item-ring-of-djinni-calling", "A ring pouring out smoke that gathers into the towering shape of a djinni."],
+  ["Rod of Absorption", "item-rod-of-absorption", "A rod drinking an incoming spell, the magic spiralling into its tip and vanishing."],
+  ["Rod of Lordly Might", "item-rod-of-lordly-might", "An ornate rod part-transformed, one end already reshaped into a blade."],
+  ["Rod of Rulership", "item-rod-of-rulership", "A jewelled rod raised before a crowd, every face turned toward it in unison."],
+  ["Staff of Fire", "item-staff-of-fire", "A staff with its head engulfed in controlled flame, heat warping the air above."],
+  ["Staff of Healing", "item-staff-of-healing", "A pale staff laid across a wounded figure, soft light spreading from the contact."],
+  ["Staff of Power", "item-staff-of-power", "A heavy staff crackling with barely contained force, its holder braced against it."],
+  ["Alchemist's fire", "item-alchemists-fire", "A thrown flask bursting into clinging orange flame across stone."],
+  ["Tanglefoot bag", "item-tanglefoot-bag", "A burst bag spraying expanding adhesive strands that snare boots to the ground."],
+  ["Thunderstone", "item-thunderstone", "A stone striking the floor and releasing a visible shockwave ring of sound."],
+  ["Antitoxin", "item-antitoxin", "A small labelled vial being uncorked beside a victim with blackened veins."],
+  ["Holy water", "item-holy-water", "A flask of blessed water shattering on undead flesh, searing white where it lands."],
+  ["Smokestick", "item-smokestick", "A stick pouring out dense grey smoke that fills a corridor in seconds."],
+  ["Tindertwig", "item-tindertwig", "A twig flaring alight on first strike, held to a lantern wick in the dark."],
+  ["Sunrod", "item-sunrod", "A rod glowing steady daylight-white, held up in a lightless cavern."],
+  ["Caltrops", "item-caltrops", "Iron caltrops scattered across flagstones, points always upward."],
+  ["Masterwork tool", "item-masterwork-tool", "A superbly made tool in a fitted case, every surface finished with obvious care."],
+  ["Alchemist's kit", "item-alchemists-kit", "A compact travelling alchemy kit open on a table, burner and glassware fitted into place."],
+  ["Bag of Holding, Minor", "item-bag-of-holding-minor", "A small drawstring pouch swallowing a full-sized helmet without changing shape."],
+  ["Bag of Holding (Giant) Type V", "item-bag-of-holding-giant-type-v", "An enormous sack propped open, a cart's worth of goods disappearing into it."],
+  ["Tanglefoot bundle", "item-tanglefoot-bundle", "A bundle of tanglefoot charges strapped together in an alchemist's satchel."],
+  ["Alchemist's Suit", "item-alchemists-suit", "A heavy protective alchemist's suit on a stand, glass faceplate and sealed seams."],
+  ["Alchemist's kindness", "item-alchemists-kindness", "A small paper packet of powder beside a cup of water and a wincing patient."],
+  ["Figurine of the Concealed Companion", "item-figurine-of-the-concealed-companion", "A tiny carved animal figurine in a palm, faintly warm and about to wake."],
+  ["Totemic Figurine", "item-totemic-figurine", "A carved totem figurine on a stone, ancestral shapes suggested in the grain."],
+  ["Unlucky Figurine", "item-unlucky-figurine", "A crude figurine with a cracked face, everything around it subtly going wrong."],
+  ["Mindbind Figurine", "item-mindbind-figurine", "A figurine wrapped in fine wire, faint thought-light trapped beneath the windings."],
+  ["Ramming", "item-ramming", "A reinforced weapon head mid-impact against a barred door, timber splitting."],
+  ["Rampaging", "item-rampaging", "A weapon trailing a wake of destruction, its wielder already moving to the next target."],
+  ["Haramaki", "item-haramaki", "A light quilted belly-wrap armour laid out flat, ties extended."],
+  ["Ram (combat-trained)", "item-ram-combat-trained", "A heavy-horned war ram in harness, head lowered and ready."],
+  ["Adamantine Battleaxe", "item-adamantine-battleaxe", "A battleaxe of dark adamantine, edge unnaturally black and perfectly keen."],
+  ["Adamantine Dagger", "item-adamantine-dagger", "A short adamantine dagger on cloth, the metal drinking the light around it."],
+  ["Akitonian Blade", "item-akitonian-blade", "A blade of alien red metal, forms and proportions subtly wrong to the eye."],
+  ["Aklys", "item-aklys", "A hooked club with a long cord at its butt, coiled ready to be recalled after a throw."],
+  ["Air repeater", "item-air-repeater", "A compressed-air repeating weapon on a bench, reservoir and magazine exposed."],
+  ["Aasen mortar", "item-aasen-mortar", "A squat siege mortar on a timber bed, muzzle angled high, crew tools stacked beside it."],
+  ["Altar of Abadar", "item-altar-of-abadar", "A stone vault altar with an intricate golden lock, keys and coins worked into the carving."],
+  ["Absinthe (bottle)", "item-absinthe-bottle", "A green bottle and a slotted spoon on a marble table, sugar dissolving into cloudy liquor."]
+];
+
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/themes.js`, "utf8"));
-const TABLE = globalThis.window.PF_THEMES.feats;
-const FB = globalThis.window.PF_THEME_FALLBACK.feats;
+(0, eval)(fs.readFileSync(`${ROOT}/data/art.js`, "utf8"));
+const THEMES = globalThis.window.PF_THEMES;
+const VARIETY = globalThis.window.PF_VARIETY;
+const PRESENT = new Set(globalThis.window.PF_ART);
+
+/* A batch is just a list of parts. Every part is validated against themes.js before anything
+   is written, and art that ALREADY EXISTS is skipped so a pack never re-commissions a picture
+   we have already paid for (item-weapon-1..6 predate the variety-set expansion). */
+const BATCHES = {
+  10: {
+    file: "BATCH10-Feats",
+    title: "BATCH 10 (Feats)",
+    blurb: "This batch completes feat art: every one of the 3,457 feat pages ends up backed by an image\nserving no more than about 20 pages, down from a single image currently serving 2,010.",
+    parts: [
+      { kind: "themes", bucket: "feats", scenes: SCENES, section: "Theme art" },
+      { kind: "variety", name: "feat-scene", scenes: FALLBACK_SCENES, section: "General feat scenes" },
+      { kind: "named", list: NAMED_FEATS, section: "Named feats" }
+    ]
+  },
+  11: {
+    file: "BATCH11-Items-Objects",
+    title: "BATCH 11 (Items — what the object is)",
+    blurb: "Items is the largest bucket in the Codex — 6,677 pages, a quarter of everything. These are the\nOBJECT themes: art keyed to what a thing actually is, replacing a single general-store image\nthat currently backs 1,931 pages.",
+    parts: [
+      { kind: "themes", bucket: "items", scenes: ITEM_SCENES, section: "Item theme art" },
+      { kind: "variety", name: "item-neck", scenes: ITEM_VARIETY["item-neck"], section: "Body slot: neck" },
+      { kind: "variety", name: "item-head", scenes: ITEM_VARIETY["item-head"], section: "Body slot: head" },
+      { kind: "variety", name: "item-body", scenes: ITEM_VARIETY["item-body"], section: "Body slot: body" },
+      { kind: "variety", name: "item-eyes", scenes: ITEM_VARIETY["item-eyes"], section: "Body slot: eyes" },
+      { kind: "variety", name: "item-shoulders", scenes: ITEM_VARIETY["item-shoulders"], section: "Body slot: shoulders" },
+      { kind: "variety", name: "item-wrists", scenes: ITEM_VARIETY["item-wrists"], section: "Body slot: wrists" }
+    ]
+  },
+  12: {
+    file: "BATCH12-Items-Variety-And-Named",
+    title: "BATCH 12 (Items — variety sets and named items)",
+    blurb: "The other half of items. The variety sets catch entries no name rule can depict — 'Weapons' and\n'Armor' are largely abstract magic qualities like Keen, Bane and Vorpal — and the named list\ncovers the famous magic items players actually look up.",
+    parts: [
+      { kind: "variety", name: "item-scene", scenes: ITEM_VARIETY["item-scene"], section: "General goods scenes" },
+      { kind: "variety", name: "item-wondrous", scenes: ITEM_VARIETY["item-wondrous"], section: "Wondrous item scenes" },
+      { kind: "variety", name: "item-weapon", scenes: ITEM_VARIETY["item-weapon"], section: "Weapon scenes" },
+      { kind: "variety", name: "item-armorset", scenes: ITEM_VARIETY["item-armorset"], section: "Armour scenes" },
+      { kind: "variety", name: "item-artifact", scenes: ITEM_VARIETY["item-artifact"], section: "Artifact scenes" },
+      { kind: "named", list: NAMED_ITEMS, section: "Named magic items" }
+    ]
+  }
+};
 
 const problems = [];
-const items = [];   // { section, label, key, subject }
-
-for (const row of TABLE) {
-  const key = row[0], variants = row[3] || 1, scenes = SCENES[key];
-  if (!scenes) { problems.push(`theme "${key}" declared in themes.js has NO scene description`); continue; }
-  if (scenes.length !== variants)
-    problems.push(`theme "${key}" declares ${variants} variant(s) but has ${scenes.length} description(s)`);
-  for (let v = 1; v <= variants; v++)
-    items.push({ section: "Theme art", label: `${key} (variant ${v} of ${variants})`,
-                 key: `theme-feats-${key}-${v}`, subject: scenes[v - 1] || "" });
+function buildBatch(n) {
+  const spec = BATCHES[n], out = [];
+  for (const part of spec.parts) {
+    if (part.kind === "themes") {
+      const table = THEMES[part.bucket];
+      if (!table) { problems.push(`batch ${n}: no theme table for bucket "${part.bucket}"`); continue; }
+      for (const row of table) {
+        const key = row[0], variants = row[3] || 1, scenes = part.scenes[key];
+        if (!scenes) { problems.push(`${part.bucket}/${key} is declared in themes.js but has NO scene description`); continue; }
+        if (scenes.length !== variants) { problems.push(`${part.bucket}/${key} declares ${variants} variant(s) but has ${scenes.length} description(s)`); continue; }
+        for (let v = 1; v <= variants; v++) {
+          const artKeyName = `theme-${part.bucket}-${key}-${v}`;
+          if (PRESENT.has(artKeyName)) continue;
+          out.push({ section: part.section, label: `${key} (variant ${v} of ${variants})`, key: artKeyName, subject: scenes[v - 1] });
+        }
+      }
+      for (const key of Object.keys(part.scenes))
+        if (!table.some(r => r[0] === key)) problems.push(`scene described for ${part.bucket}/"${key}", which is NOT a theme in themes.js`);
+    } else if (part.kind === "variety") {
+      const count = VARIETY[part.name];
+      if (!count) { problems.push(`batch ${n}: variety set "${part.name}" is not declared in PF_VARIETY`); continue; }
+      if (!part.scenes || part.scenes.length !== count) {
+        problems.push(`variety "${part.name}" declares ${count} scene(s) but ${part.scenes ? part.scenes.length : 0} are described`); continue;
+      }
+      for (let v = 1; v <= count; v++) {
+        const artKeyName = `${part.name}-${v}`;
+        if (PRESENT.has(artKeyName)) continue;
+        out.push({ section: part.section, label: `${part.name} scene ${v}`, key: artKeyName, subject: part.scenes[v - 1] });
+      }
+    } else if (part.kind === "named") {
+      for (const [label, key, subject] of part.list) {
+        if (PRESENT.has(key)) continue;
+        out.push({ section: part.section, label, key, subject });
+      }
+    }
+  }
+  return out;
 }
-for (const key of Object.keys(SCENES))
-  if (!TABLE.some(r => r[0] === key)) problems.push(`scene described for "${key}", which is NOT a theme in themes.js`);
 
-if (FALLBACK_SCENES.length !== FB.scenes)
-  problems.push(`fallback declares ${FB.scenes} scenes but ${FALLBACK_SCENES.length} are described`);
-FALLBACK_SCENES.forEach((s, i) =>
-  items.push({ section: "General feat scenes", label: `general scene ${i + 1}`, key: `${FB.key}-${i + 1}`, subject: s }));
-
-for (const [label, key, subject] of NAMED_FEATS)
-  items.push({ section: "Named feats", label, key, subject });
+const WANT = process.argv.slice(4).filter(a => /^\d+$/.test(a)).map(Number);
+const batchNums = WANT.length ? WANT : Object.keys(BATCHES).map(Number);
+const built = {};
+for (const n of batchNums) built[n] = buildBatch(n);
 
 if (problems.length) {
-  console.error("REFUSING TO GENERATE — themes.js and the scene list disagree:");
+  console.error("REFUSING TO GENERATE — themes.js and the scene lists disagree:");
   for (const p of problems) console.error("  - " + p);
   process.exit(1);
 }
-
-const dupes = items.map(i => i.key).filter((k, i, a) => a.indexOf(k) !== i);
-if (dupes.length) { console.error("duplicate keys: " + dupes.join(", ")); process.exit(1); }
-
-const sections = [...new Set(items.map(i => i.section))];
-const lines = [];
-lines.push("# PF1e Codex — Art Prompts — BATCH 10 (Feats)");
-lines.push("");
-lines.push(`**${items.length} images.** This batch completes feat art: every one of the 3,457 feat pages ends up`);
-lines.push("with a picture backed by no more than 20 pages, down from a single image currently serving 2,010.");
-lines.push("");
-lines.push("## How to use this");
-lines.push("");
-lines.push("1. Generate one image per prompt below, in order.");
-lines.push("2. **Save each file using the exact _filename_ given in bold.** The site looks images up by that");
-lines.push("   name; a renamed file is an invisible file.");
-lines.push("3. Render at **1280x720** (16:9). Larger is fine and will be downscaled on ingest; smaller is not.");
-lines.push("4. If the generator produces two candidates per prompt, keep both — the ingest step picks one and");
-lines.push("   the spare stays available as an alternate.");
-lines.push("5. Drop everything into the `CODEX IMAGES` folder. Nothing else is needed.");
-lines.push("");
-for (const sec of sections) {
-  const mine = items.filter(i => i.section === sec);
-  lines.push(`## ${sec} (${mine.length})`);
-  lines.push("");
-  for (const it of mine) {
-    lines.push(`### ${it.label}`);
-    lines.push(`**${it.key}**`);
-    lines.push("");
-    lines.push(`${it.subject} ${SUFFIX} ${STYLE}`);
-    lines.push("");
-  }
+for (const n of batchNums) {
+  const dupes = built[n].map(i => i.key).filter((k, i, a) => a.indexOf(k) !== i);
+  if (dupes.length) { console.error(`batch ${n} duplicate keys: ${dupes.join(", ")}`); process.exit(1); }
 }
-const md = lines.join("\n");
-fs.writeFileSync(path.join(OUT, "PF1e-Codex-Art-Prompts-BATCH10-Feats.md"), md, "utf8");
-// The key manifest IS this batch's plan, and is what tools/ingest-art.mjs checks incoming files
-// against. Emitting it here rather than hand-adding 93 named feats to ART_PLANNED keeps the plan
-// in one place: whatever we commissioned is exactly what we will accept.
-fs.writeFileSync(path.join(OUT, "BATCH10-keys.json"), JSON.stringify(items.map(i => i.key), null, 1), "utf8");
-console.log(`wrote Markdown — ${items.length} prompts`);
-for (const sec of sections) console.log(`   ${sec}: ${items.filter(i => i.section === sec).length}`);
 
-// .docx when the package is available. It is deliberately NOT a repo dependency — this repo has
-// no package.json and Netlify publishes it straight from the root, so adding one risks turning a
-// static deploy into a build. Set DOCX_MODULE to a local install to get the .docx as well;
-// ESM ignores NODE_PATH, so an explicit path is the only thing that actually works here.
-try {
-  const { Document, Packer, Paragraph, HeadingLevel } = await import(process.env.DOCX_MODULE || "docx");
-  const kids = [new Paragraph({ text: "PF1e Codex — Art Prompts — BATCH 10 (Feats)", heading: HeadingLevel.TITLE })];
-  kids.push(new Paragraph({ text: `${items.length} images. Save each file under the exact filename shown in bold. Render at 1280x720 (16:9).` }));
+async function emit(n) {
+  const spec = BATCHES[n], items = built[n];
+  const sections = [...new Set(items.map(i => i.section))];
+  const lines = [];
+  lines.push(`# PF1e Codex — Art Prompts — ${spec.title}`);
+  lines.push("");
+  lines.push(`**${items.length} images.**`);
+  lines.push("");
+  lines.push(spec.blurb);
+  lines.push("");
+  lines.push("## How to use this");
+  lines.push("");
+  lines.push("1. Generate one image per prompt below, in order.");
+  lines.push("2. **Save each file using the exact _filename_ given in bold.** The site looks images up by that");
+  lines.push("   name; a renamed file is an invisible file.");
+  lines.push("3. Render at **1280x720** (16:9). Larger is fine and will be downscaled on ingest; smaller is not.");
+  lines.push("4. If the generator produces two candidates per prompt, keep both — the ingest step picks one and");
+  lines.push("   the spare stays available as an alternate.");
+  lines.push("5. Drop everything into the `CODEX IMAGES` folder. Nothing else is needed.");
+  lines.push("");
   for (const sec of sections) {
     const mine = items.filter(i => i.section === sec);
-    kids.push(new Paragraph({ text: `${sec} (${mine.length})`, heading: HeadingLevel.HEADING_1 }));
+    lines.push(`## ${sec} (${mine.length})`);
+    lines.push("");
     for (const it of mine) {
-      kids.push(new Paragraph({ text: it.label, heading: HeadingLevel.HEADING_2 }));
-      kids.push(new Paragraph({ text: it.key + ".webp" }));
-      kids.push(new Paragraph({ text: `${it.subject} ${SUFFIX} ${STYLE}` }));
+      lines.push(`### ${it.label}`);
+      lines.push(`**${it.key}**`);
+      lines.push("");
+      lines.push(`${it.subject} ${SUFFIX} ${STYLE}`);
+      lines.push("");
     }
   }
-  const buf = await Packer.toBuffer(new Document({ sections: [{ children: kids }] }));
-  fs.writeFileSync(path.join(OUT, "PF1e-Codex-Art-Prompts-BATCH10-Feats.docx"), buf);
-  console.log("wrote .docx");
-} catch (e) {
-  console.log("(.docx skipped — `docx` package not resolvable here; Markdown written)");
+  fs.writeFileSync(path.join(OUT, `PF1e-Codex-Art-Prompts-${spec.file}.md`), lines.join("\n"), "utf8");
+  fs.writeFileSync(path.join(OUT, `${spec.file.split("-")[0]}-keys.json`), JSON.stringify(items.map(i => i.key), null, 1), "utf8");
+  console.log(`\n${spec.file}: ${items.length} prompts`);
+  for (const sec of sections) console.log(`   ${sec}: ${items.filter(i => i.section === sec).length}`);
+
+  try {
+    const { Document, Packer, Paragraph, HeadingLevel } = await import(process.env.DOCX_MODULE || "docx");
+    const kids = [new Paragraph({ text: `PF1e Codex — Art Prompts — ${spec.title}`, heading: HeadingLevel.TITLE })];
+    kids.push(new Paragraph({ text: `${items.length} images. Save each file under the exact filename shown in bold. Render at 1280x720 (16:9).` }));
+    for (const sec of sections) {
+      const mine = items.filter(i => i.section === sec);
+      kids.push(new Paragraph({ text: `${sec} (${mine.length})`, heading: HeadingLevel.HEADING_1 }));
+      for (const it of mine) {
+        kids.push(new Paragraph({ text: it.label, heading: HeadingLevel.HEADING_2 }));
+        kids.push(new Paragraph({ text: it.key + ".webp" }));
+        kids.push(new Paragraph({ text: `${it.subject} ${SUFFIX} ${STYLE}` }));
+      }
+    }
+    const buf = await Packer.toBuffer(new Document({ sections: [{ children: kids }] }));
+    fs.writeFileSync(path.join(OUT, `PF1e-Codex-Art-Prompts-${spec.file}.docx`), buf);
+    console.log("   wrote .docx");
+  } catch { console.log("   (.docx skipped — set DOCX_MODULE to a local `docx` install)"); }
 }
+for (const n of batchNums) await emit(n);
