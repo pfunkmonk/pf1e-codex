@@ -18,7 +18,18 @@
 import fs from "node:fs";
 
 const ROOT = process.argv[2] || ".";
-const MAX_CLAIM = 150, MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
+const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
+
+/* MAX_CLAIM is per bucket, because "too broad" means different things in each.
+ * A feat theme claiming 150+ is nearly always an accident — feat names are verb phrases, and a
+ * regex that big is usually matching bare adjectives (the first `weapon-training` draft caught
+ * improved/greater/master/advanced and swallowed 139 unrelated feats).
+ * Item names are NOUNS, so large claims can be entirely legitimate: `ring` claims 183 and `rod`
+ * 152 simply because the game has that many rings and rods. Those are concrete objects an
+ * illustrator can draw, not a vague catch-all, and their variant counts keep them under 20 pages
+ * per image. The per-image check below is the real quality gate; this one catches vagueness. */
+const MAX_CLAIM = { feats: 150, items: 260 };
+const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
@@ -28,6 +39,7 @@ const IDX = globalThis.window.PF_INDEX;
 const ART = new Set(globalThis.window.PF_ART);
 const THEMES = globalThis.window.PF_THEMES || {};
 const FALLBACK = globalThis.window.PF_THEME_FALLBACK || {};
+const VARIETY = globalThis.window.PF_VARIETY || {};
 const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 // Named-art prefix per bucket: an entry with its own picture never reaches the theme layer,
@@ -64,7 +76,7 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   for (const [key, list] of sizes) {
     const t = table.find(x => x[0] === key), variants = t[3] || 1;
     if (list.length === 0) fail(`${bucket}/${key} claims NOTHING — dead regex, or an earlier theme eats it`);
-    else if (list.length > MAX_CLAIM) fail(`${bucket}/${key} claims ${list.length} (> ${MAX_CLAIM}) — too broad; split it or move it later in the table`);
+    else if (list.length > maxClaim(bucket)) fail(`${bucket}/${key} claims ${list.length} (> ${maxClaim(bucket)}) — too broad; split it or move it later in the table`);
     else if (list.length < MIN_CLAIM) fail(`${bucket}/${key} claims only ${list.length} — dead weight, fold it into a neighbour`);
     const per = Math.ceil(list.length / variants);
     if (per > PAGES_PER_IMAGE)
@@ -72,12 +84,15 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   }
 
   // The straggler set has to be big enough to absorb whatever matched nothing.
-  const fb = FALLBACK[bucket];
-  if (!fb) { if (strays.length) fail(`${bucket} has ${strays.length} unthemed entries and NO fallback scene set`); }
+  const fbName = FALLBACK[bucket], fbCount = VARIETY[fbName];
+  if (!fbName) { if (strays.length) fail(`${bucket} has ${strays.length} unthemed entries and NO fallback scene set`); }
+  else if (!fbCount) fail(`${bucket} falls back to "${fbName}", which is not declared in PF_VARIETY`);
   else {
-    const per = Math.ceil(strays.length / fb.scenes);
-    console.log(`    fallback ${fb.key}-1..${fb.scenes}  ->  ${per} pages per scene`);
-    if (per > PAGES_PER_IMAGE) fail(`${bucket} fallback needs ${Math.ceil(strays.length / PAGES_PER_IMAGE)} scenes, has ${fb.scenes}`);
+    // Buckets can route stragglers to their OWN variety sets before the general one (items send
+    // Weapons/Armor/Artifacts/Wondrous to theirs), so this is an upper bound, not an exact figure.
+    const per = Math.ceil(strays.length / fbCount);
+    console.log(`    stragglers ${strays.length} -> ${fbName}-1..${fbCount} and any bucket-specific sets (<= ${per} pages per scene)`);
+    if (per > PAGES_PER_IMAGE * 3) fail(`${bucket} fallback ${fbName} has ${fbCount} scenes for ${strays.length} stragglers`);
   }
 
   // How much art this bucket still owes, so the number in the batch plan is never guessed.
@@ -85,9 +100,14 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   for (const t of table) for (let v = 1; v <= (t[3] || 1); v++) {
     const k = `theme-${bucket}-${t[0]}-${v}`; if (!ART.has(k)) missing.push(k);
   }
-  if (fb) for (let v = 1; v <= fb.scenes; v++) if (!ART.has(`${fb.key}-${v}`)) missing.push(`${fb.key}-${v}`);
-  console.log(`    art present ${images + (fb ? fb.scenes : 0) - missing.length} / ${images + (fb ? fb.scenes : 0)}   still to generate: ${missing.length}`);
+  console.log(`    theme art present ${images - missing.length} / ${images}   still to generate: ${missing.length}`);
 }
 
+console.log("\n=== variety sets ===");
+for (const [name, n] of Object.entries(VARIETY)) {
+  let have = 0;
+  for (let i = 1; i <= n; i++) if (ART.has(`${name}-${i}`)) have++;
+  console.log(`    ${name.padEnd(16)} ${String(have).padStart(3)} / ${n}${have < n ? `   (${n - have} to generate)` : ""}`);
+}
 console.log(failed ? `\n${failed} PROBLEM(S)\n` : "\nall theme checks pass\n");
 process.exit(failed ? 1 : 0);
