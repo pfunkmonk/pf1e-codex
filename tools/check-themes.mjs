@@ -143,6 +143,30 @@ for (const [bucket, table] of Object.entries(THEMES)) {
   console.log(`    theme art present ${images - missing.length} / ${images}   still to generate: ${missing.length}`);
 }
 
+/* Body motifs need the same guards as snippet themes — a dead regex is a dead regex, and one that
+ * matches nothing is exactly how a stray control byte hides. This was skipped entirely for TRAITS,
+ * which have no snippet-theme table and so never entered the loop above: 98 images' worth of
+ * motifs with nothing checking them at all. */
+console.log("\n=== body motif sets ===");
+for (const [bucket, table] of Object.entries(BODY_THEMES)) {
+  const claimed = {};
+  for (const [id, key] of Object.entries(BODY_MAP)) {
+    const r = IDX.find(x => x[0] === id);
+    if (r && r[2] === bucket) claimed[key] = (claimed[key] || 0) + 1;
+  }
+  let imgs = 0, have = 0;
+  for (const row of table) {
+    const n = claimed[row[0]] || 0, variants = row[2] || 1;
+    for (let v = 1; v <= variants; v++) { imgs++; if (ART.has(`theme-${bucket}-${row[0]}-${v}`)) have++; }
+    if (n === 0) fail(`body ${bucket}/${row[0]} claims NOTHING — dead regex, or a motif above eats it`);
+    else if (n < MIN_CLAIM) fail(`body ${bucket}/${row[0]} claims only ${n} — dead weight`);
+    else if (Math.ceil(n / variants) > PAGES_PER_IMAGE)
+      fail(`body ${bucket}/${row[0]} needs ${Math.ceil(n / PAGES_PER_IMAGE)} variants, has ${variants}`);
+  }
+  const placed = Object.values(claimed).reduce((a, n) => a + n, 0);
+  console.log(`    ${bucket.padEnd(9)} ${String(table.length).padStart(2)} motifs, ${String(imgs).padStart(3)} images (${have} drawn), ${placed} entries placed`);
+}
+
 console.log("\n=== variety sets ===");
 for (const [name, n] of Object.entries(VARIETY)) {
   let have = 0;

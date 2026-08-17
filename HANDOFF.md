@@ -241,11 +241,11 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 | 11 | Items — object themes, body motifs, body slots | 368 | **pack written** |
 | 12 | Items — variety sets + 93 named magic items | 202 | **pack written** |
 | 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
-| 14 | Monsters — themes, types, 101 subtype scenes, hazards, stragglers | 278 | **pack written** |
-| 15 | Traits, class options, archetypes | 286 | **pack written** |
+| 14 | Monsters — themes, habitat motifs, types, subtypes, hazards | 280 | **pack written** |
+| 15 | Traits — body motifs + category sets, class options, archetypes | 297 | **pack written** |
 | 16 | Rules (141), NPCs (36), the last 163 deities | 301 | **pack written** |
 
-**All seven packs are written — 2,066 prompts, about 83 hours of generation.** Packs and their
+**All seven packs are written — 2,079 prompts, about 83 hours of generation.** Packs and their
 `BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
 manifests up automatically; `--keys` is only needed to restrict to one batch.
 
@@ -297,8 +297,15 @@ gen-art-prompts. Motifs rank BELOW the stat block deliberately: subschool and de
 authored categories, prose motifs are inferred, and a spell that mentions blood once is not about
 blood.
 
-Body motifs now cover **spells, feats and items** — 1,663 entries in total (339 / 209 / 1,115).
-Coverage: spells 84%, feats 84%, items 70% of everything without its own art.
+Body motifs now cover **all five large buckets** — 3,830 entries in total:
+
+| bucket | placed by description | signal |
+|---|---|---|
+| traits | 1,427 | backstory prose (category says only "Social" or "Region") |
+| items | 1,115 | the `Category` label, finer than the rawCat facet |
+| monsters | 740 | the `Environment` line — habitat |
+| spells | 339 | subschool and descriptors, then prose |
+| feats | 209 | the Benefit line |
 
 ⚠ **Each bucket needs its own text preparation, and getting it wrong is silent.** `matchText()` in
 derive-body-themes.mjs:

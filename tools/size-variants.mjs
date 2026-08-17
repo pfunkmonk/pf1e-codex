@@ -111,6 +111,7 @@ function resolve(r) {
       return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } }
                         : { art: k, owner: { kind: "fixed", key: k } };
     }
+    const bh = bodyHit("monsters", id); if (bh) return bh;
     const t = artKey(fac.t || "");
     if (t) return { art: vk("type-" + t, id), owner: { kind: "variety", key: "type-" + t } };
     return { art: vk("monster-scene", id), owner: { kind: "variety", key: "monster-scene" } };
@@ -120,6 +121,7 @@ function resolve(r) {
     const rq = m ? m[1].trim() : null;
     if (rq && fac.cat === "Race" && ART.has("race-" + artKey(rq))) return null;
     if (rq && fac.cat === "Religion" && ART.has("deity-" + artKey(rq))) return null;
+    const bh = bodyHit("traits", id); if (bh) return bh;
     if (fac.cat) return { art: vk("trait-" + artKey(fac.cat), id), owner: { kind: "variety", key: "trait-" + artKey(fac.cat) } };
     return null;
   }
