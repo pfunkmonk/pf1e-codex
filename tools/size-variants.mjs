@@ -86,10 +86,17 @@ function resolve(r) {
     for (const p of ["monster-", "race-", "creature-", "type-"]) if (ART.has(p + nm)) return null;
     const th = themeHit("monsters", r);
     if (th) return { art: th.art, owner: { kind: "theme", key: th.key } };
-    if (fac.st && ART.has("creature-" + artKey(fac.st))) return null;
+    if (fac.st && ART.has("creature-" + artKey(fac.st))) {
+      // Subtype art EXISTS, which used to end the story here — and that was the bug. An image
+      // that exists can still be badly overloaded: creature-aquatic backed 211 pages. Existing
+      // art is not the same as adequately-spread art, so route it through its variety set.
+      const k = "creature-" + artKey(fac.st);
+      return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } }
+                        : { art: k, owner: { kind: "fixed", key: k } };
+    }
     const t = artKey(fac.t || "");
     if (t) return { art: vk("type-" + t, id), owner: { kind: "variety", key: "type-" + t } };
-    return null;
+    return { art: vk("monster-scene", id), owner: { kind: "variety", key: "monster-scene" } };
   }
   if (b === "traits") {
     const m = String(r[5] || "").match(/Requirement\(s\)\s+(.+?)(?:\s*\[|\s+(?:You|Your|A|An|The|Whenever|Once|As)\b|$)/);

@@ -237,16 +237,43 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 
 | Batch | Content | Images | Status |
 |---|---|---|---|
-| 10 | Feats — theme art, general scenes, 93 named | 359 | pack written, **now 79 short** (see below) |
+| 10 | Feats — 288 theme, 57 general scenes, 93 named | 438 | **pack written** |
 | 11 | Items, object themes + body slots | 290 | **pack written** |
 | 12 | Items, variety sets + 93 named magic items | 299 | **pack written** |
-| 13 | Rules scenes (141) + NPC scenes (36) + hazards (24) + the 79 extra feat scenes | ~280 | scenes not yet authored |
-| 14 | Trait category sets (137) + spell school sets (106) | ~245 | scenes not yet authored |
-| 15 | Spell themes (79) + monster themes (71) + monster type sets (71) + class options (60) | ~280 | scenes not yet authored |
-| 16 | Archetype sets (89) + the last 163 deities | ~250 | scenes not yet authored |
+| 13 | Spells — 79 theme + 106 school scenes | 185 | **pack written** |
+| 14 | Monsters — themes, creature types, 101 subtype scenes, hazards, bestiary stragglers | 292 | **pack written** |
+| 15 | Traits, class options, archetypes | 286 | **pack written** |
+| 16 | Rules (141), NPCs (36), the last 163 deities | 340 | **pack written** |
 
-**1,818 images remain in total — 7 batches, not 4.** The count is measured, not estimated:
-`node tools/check-themes.mjs .` prints exactly what every theme and variety set still owes.
+**All seven packs are written — 2,130 prompts, about 85 hours of generation.** Packs and their
+`BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
+manifests up automatically; `--keys` is only needed to restrict to one batch.
+
+Once they land, **every page in the Codex is backed by an image serving at most ~30 pages**, down
+from 2,010. The one deliberate exception is `class-cavalier` at 45 — those are the 37 cavalier
+orders, and showing all of them cavalier art is correct, not a defect.
+
+### The three checks, and what each is for
+
+```bash
+node tools/check-themes.mjs .                              # tables sane: not too broad, not dead
+node tools/check-reachable.mjs .                           # no art on disk that nothing requests
+node tools/check-coverage.mjs . "…/Box/CODEX IMAGES"       # nothing requested that nobody drew
+```
+
+The third is the one that catches the expensive mistake. The other two cannot see a key the
+resolver will ask for that is neither drawn nor in any pack — a gap that stays invisible until a
+page quietly falls back months later.
+
+⚠ **Do not size variant counts by hand.** `ceil(claimed / 20)` is wrong: variants are assigned by
+HASH, so the split is random, not even — 183 rings over 10 images averages 18 but peaks near 28.
+Run `node tools/size-variants.mjs .` then `--apply`, **repeatedly until it reports "converged
+after 1 round"** — one pass can leave work behind. Then re-run `gen-art-prompts.mjs`.
+
+⚠ **Existing art is not the same as adequately-spread art.** The sizer originally treated "this
+key has a file" as "fine" and so never noticed `creature-aquatic` backing 211 pages — worse than
+anything in items. Any single image can be overloaded; the sizer now routes subtype art through
+variety sets like everything else.
 
 ⚠ **Batch 10 must be regenerated before it is used.** Feat theme art grew 209 → 288 when the 549
 "Combat Stamina" rules entries started sharing the feat theme table — more pages on the same

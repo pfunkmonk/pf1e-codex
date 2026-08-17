@@ -48,9 +48,22 @@ const planned = new Set();
 for (const [bucket, table] of Object.entries(globalThis.window.PF_THEMES || {}))
   for (const row of table)
     for (let v = 1; v <= (row[3] || 1); v++) planned.add(`theme-${bucket}-${row[0]}-${v}`);
-for (const f of Object.values(globalThis.window.PF_THEME_FALLBACK || {}))
-  for (let v = 1; v <= f.scenes; v++) planned.add(`${f.key}-${v}`);
-if (KEYS) for (const k of JSON.parse(fs.readFileSync(KEYS, "utf8"))) planned.add(k);
+// Every variety set, from the single declaration in themes.js. This used to read
+// PF_THEME_FALLBACK as {key, scenes} objects; those became plain set NAMES when the counts moved
+// into PF_VARIETY, so it was silently adding nothing and ingest would reject every variety image
+// unless --keys happened to be supplied.
+for (const [name, count] of Object.entries(globalThis.window.PF_VARIETY || {}))
+  for (let v = 1; v <= count; v++) planned.add(`${name}-${v}`);
+/* Named art (feat-<name>, deity-<name>, item-<name>) cannot be enumerated from themes.js — it is
+ * per-entry and only exists because a pack asked for it. The key manifests live in the same folder
+ * as the images, so pick them all up automatically rather than relying on --keys being remembered.
+ * Forgetting it silently rejected every named image, which reads as "the generator skipped them". */
+const keyFiles = KEYS ? [KEYS]
+  : fs.readdirSync(SRC).filter(f => /^BATCH\d+-keys\.json$/.test(f)).map(f => path.join(SRC, f));
+for (const kf of keyFiles) {
+  for (const k of JSON.parse(fs.readFileSync(kf, "utf8"))) planned.add(k);
+}
+if (keyFiles.length) console.log(`key manifests: ${keyFiles.map(f => path.basename(f)).join(", ")}`);
 // Anything already shipped stays ingestable, so a re-run can replace an existing image.
 for (const f of fs.readdirSync(artDir)) if (/\.webp$/i.test(f)) planned.add(f.replace(/\.webp$/i, ""));
 console.log(`accepting ${planned.size} art keys`);
