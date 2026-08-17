@@ -11,9 +11,10 @@
 import fs from "node:fs";
 
 const ROOT = process.argv[2] || ".";
+// WebP since v57 — must match ART_EXT in app.js.
 const keys = fs.readdirSync(`${ROOT}/art`)
-  .filter(f => /\.jpg$/i.test(f))
-  .map(f => f.replace(/\.jpg$/i, ""))
+  .filter(f => /\.webp$/i.test(f))
+  .map(f => f.replace(/\.webp$/i, ""))
   .sort();
 
 const out = "window.PF_ART=" + JSON.stringify(keys) + ";\n";

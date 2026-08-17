@@ -2,10 +2,10 @@
    The site is served locally, so network is instant when the launcher is
    running (always fresh); when it isn't, we fall back to the cache so the
    installed app still works fully offline. */
-var CACHE = "pf1e-codex-v56";
+var CACHE = "pf1e-codex-v57";
 // ?v= MUST match index.html and DATA_V in app.js — the cache is keyed by full URL, so a
 // mismatch precaches files the page never requests (and leaves the real ones uncached offline).
-var V = "56";
+var V = "57";
 var PRECACHE = [
   "./",
   "./index.html",
@@ -18,6 +18,7 @@ var PRECACHE = [
   "./data/nameforge.bundle.js?v=" + V,
   "./data/index.js?v=" + V,
   "./data/art.js?v=" + V,
+  "./data/themes.js?v=" + V,
   "./data/tables.js?v=" + V,
   "./data/feattree.js?v=" + V,
   "./icons/icon-192.png",

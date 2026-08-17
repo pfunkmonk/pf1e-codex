@@ -5,6 +5,7 @@ const ROOT = process.argv[2] || ".";
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
 (0, eval)(fs.readFileSync(`${ROOT}/data/art.js`, "utf8"));
+(0, eval)(fs.readFileSync(`${ROOT}/data/themes.js`, "utf8"));
 const present = new Set(globalThis.window.PF_ART);
 
 // must stay identical to artKey() in app.js
@@ -18,7 +19,14 @@ const OPTION_ART = { "Wild Talents":"wild-talents","Exploits":"exploits","Bloodl
   "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
   "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
   "Unique Patrons":"unique-patrons" };
-const hash32 = s => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = (h * 16777619) >>> 0; } return h; };
+// Must stay byte-identical to hash32() in app.js, avalanche included. This copy was missing the
+// murmur3 finaliser and so disagreed with the app about which rules-N/npc-N scenes are reachable.
+const hash32 = s => {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  h ^= h >>> 16; h = Math.imul(h, 2246822507); h ^= h >>> 13; h = Math.imul(h, 3266489909); h ^= h >>> 16;
+  return h >>> 0;
+};
 const SLOT_ART = { armor:"armor",weapon:"weapon",shield:"shield",head:"head",helmet:"head",face:"head",mask:"head",
   ears:"head",headband:"headband",brain:"headband",eyes:"eyes",eye:"eyes",goggles:"eyes",neck:"neck",amulet:"neck",
   necklace:"neck",shoulders:"shoulders",shoulder:"shoulders",cloak:"shoulders",mantle:"shoulders",back:"shoulders",
@@ -57,6 +65,18 @@ for (const r of globalThis.window.PF_INDEX) {
     // keep despite there being no Lizardfolk *race* entry
     reach.add("race-" + nm);
   }
+}
+// Theme art: every declared theme key x variant is reachable, plus the straggler scene set.
+// Enumerated from data/themes.js rather than re-implementing the matcher — check-themes.mjs is
+// what proves each theme actually claims entries, so these two checks together cover both
+// directions (art with no route in, and routes with no art).
+{
+  const t = globalThis.window.PF_THEMES || {}, fb = globalThis.window.PF_THEME_FALLBACK || {};
+  for (const [bucket, table] of Object.entries(t))
+    for (const row of table)
+      for (let v = 1; v <= (row[3] || 1); v++) reach.add(`theme-${bucket}-${row[0]}-${v}`);
+  for (const f of Object.values(fb))
+    for (let v = 1; v <= f.scenes; v++) reach.add(`${f.key}-${v}`);
 }
 const fixedPrefixes = ["cat-", "school-", "tool-", "page-", "type-", "home-", "misc-", "deities-",
   "item-weapon-", "item-armorset-", "item-wondrous", "item-generalstore"];
