@@ -23,6 +23,7 @@ import { SPELL_THEME_SCENES, SCHOOL_SCENES, BODY_MOTIF_SCENES } from "./art-scen
 import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } from "./art-scenes-monsters.mjs";
 import { FEAT_MOTIF_SCENES, ITEM_MOTIF_SCENES } from "./art-scenes-motifs.mjs";
 import { MONSTER_MOTIF_SCENES, TRAIT_MOTIF_SCENES } from "./art-scenes-motifs2.mjs";
+import { OPTION_MOTIF_SCENES, HAZARD_MOTIF_SCENES } from "./art-scenes-motifs3.mjs";
 import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NPC_ROLE_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
 
 const slug = t => String(t).toLowerCase().replace(/['\u2019]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -873,6 +874,7 @@ const BATCHES = {
       ...varietyFamily(TYPE_SCENES, "Creature type scenes"),
       ...varietyFamily(CREATURE_SCENES, "Creature subtype scenes"),
       { kind: "variety", name: "monster-scene", scenes: MONSTER_SCENES, section: "General bestiary scenes" },
+      { kind: "bodythemes", bucket: "hazards", scenes: HAZARD_MOTIF_SCENES, section: "Hazard delivery art" },
       ...varietyFamily(HAZARD_SCENES, "Hazard scenes")
     ]
   },
@@ -883,6 +885,7 @@ const BATCHES = {
     parts: [
       { kind: "bodythemes", bucket: "traits", scenes: TRAIT_MOTIF_SCENES, section: "Trait body motif art" },
       ...varietyFamily(TRAIT_SCENES, "Trait category scenes"),
+      { kind: "bodythemes", bucket: "options", scenes: OPTION_MOTIF_SCENES, section: "Class option motif art" },
       ...varietyFamily(OPT_SCENES, "Class option scenes"),
       ...varietyFamily(ARCH_SCENES, "Archetype scenes")
     ]
@@ -946,7 +949,8 @@ function buildBatch(n) {
     } else if (part.kind === "bodythemes") {
       const table = (globalThis.window.PF_BODY_THEMES || {})[part.bucket];
       if (!table) { problems.push(`batch ${n}: no body-motif table for "${part.bucket}"`); continue; }
-      for (const [key, , variants] of table) {
+      for (const [key, , variants, reuse] of table) {
+        if (reuse) continue;              // reuse existing art — nothing to commission
         const scenes = part.scenes[key];
         if (!scenes) { problems.push(`body motif ${part.bucket}/${key} has NO scene description`); continue; }
         if (scenes.length < (variants || 1)) { problems.push(`body motif ${part.bucket}/${key} declares ${variants} but has only ${scenes.length}`); continue; }

@@ -54,9 +54,12 @@ function matchText(bucket, b) {
     if (ben >= 0) s = s.slice(ben + 7);
     return s;
   }
-  // Monsters and traits are matched against the WHOLE body: the monster signal is the Environment
-  // line in the stat block, and a trait's body is almost entirely the prose already.
-  if (bucket === "monsters" || bucket === "traits") return s;
+  /* These four keep the WHOLE body, because their signal lives in the stat-block HEADER, above the
+   * description — the monster Environment line, the hazard delivery Type, the option Element.
+   * Trimming to the prose throws away the best field in the bucket, which is what silently made
+   * haz-madness claim nothing: "Type greater madness" sits above "Description" and was being cut.
+   * (A trait's body is almost entirely prose already, so there is nothing to trim.) */
+  if (bucket === "monsters" || bucket === "traits" || bucket === "hazards" || bucket === "options") return s;
   const i = s.indexOf("Description");
   return i >= 0 ? s.slice(i + 11) : s;
 }
@@ -125,8 +128,9 @@ for (const [bucket, counts] of Object.entries(perBucket)) {
   console.log(`\n${bucket}:`);
   for (const [k, n] of Object.entries(counts).sort((a, b) => b[1] - a[1])) {
     const row = BODY[bucket].find(r => r[0] === k);
-    const per = Math.ceil(n / (row[2] || 1));
-    console.log(`  ${String(n).padStart(4)}  ${k.padEnd(16)} ${row[2]} variant(s) -> ${per} pages each${per > 20 ? "   ** OVER TARGET **" : ""}`);
+    const reuse = row[3];
+    const per = reuse ? 0 : Math.ceil(n / (row[2] || 1));
+    console.log(`  ${String(n).padStart(4)}  ${k.padEnd(16)} ${reuse ? `reuses ${reuse}` : `${row[2]} variant(s) -> ${per} pages each`}${per > 20 ? "   ** OVER TARGET **" : ""}`);
   }
   const dead = BODY[bucket].filter(r => !counts[r[0]]);
   if (dead.length) console.log(`  DEAD (claims nothing): ${dead.map(r => r[0]).join(", ")}`);

@@ -241,11 +241,11 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 | 11 | Items — object themes, body motifs, body slots | 368 | **pack written** |
 | 12 | Items — variety sets + 93 named magic items | 202 | **pack written** |
 | 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
-| 14 | Monsters — themes, habitat motifs, types, subtypes, hazards | 280 | **pack written** |
-| 15 | Traits — body motifs + category sets, class options, archetypes | 297 | **pack written** |
+| 14 | Monsters — themes, habitat, types, subtypes, hazard delivery art | 303 | **pack written** |
+| 15 | Traits, class option motifs + sets, archetypes | 317 | **pack written** |
 | 16 | Rules, NPC scenes + 6 role images, the last 163 deities | 285 | **pack written** |
 
-**All seven packs are written — 2,063 prompts, about 82 hours of generation.** Packs and their
+**All seven packs are written — 2,106 prompts, about 84 hours of generation.** Packs and their
 `BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
 manifests up automatically; `--keys` is only needed to restrict to one batch.
 
@@ -306,6 +306,19 @@ Body motifs now cover **all five large buckets** — 3,830 entries in total:
 | monsters | 740 | the `Environment` line — habitat |
 | spells | 339 | subschool and descriptors, then prose |
 | feats | 209 | the Benefit line |
+| options | 492 | the `Element` and `Type` fields |
+| hazards | 305 | the delivery `Type` — injury, ingested, inhaled, contact |
+
+**4,627 entries in total.** A body-motif row may carry a 4th field naming an EXISTING art key to
+reuse instead of commissioning new art: the kineticist elements borrow `creature-fire`,
+`creature-water`, `creature-air` and `creature-earth`. When the reuse target is itself a variety
+set, the borrowed pages hash across it and size-variants grows that set to cover **both**
+populations — otherwise 45 fire talents would have piled onto one elemental image.
+
+⚠ **ARCHETYPES were measured and deliberately left alone.** Name themes reach only 20% of 1,320,
+and the parent class band they would displace is already the right picture — an Alchemist archetype
+should look like an alchemist. A motif must be MORE specific than the fallback it displaces; at 20%
+this one is not, so it would trade good art for a guess four times out of five.
 
 ### NPCs reuse art we already own
 

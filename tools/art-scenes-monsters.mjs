@@ -129,10 +129,9 @@ export const TYPE_SCENES = {
     "A great beast drinking at a pool at dusk.",
     "Tracks in mud leading away into fog.",
     "A nest high on a cliff face with something stirring in it.",
-    "A forest clearing full of watching animal eyes."
-,
+    "A forest clearing full of watching animal eyes.",
     "A watering hole at dawn crowded with animals that have all stopped drinking at once."
-    ],
+  ],
   "type-construct": [
     "A motionless guardian figure in an alcove, dust on its shoulders.",
     "A mechanism grinding into motion after long stillness.",
@@ -220,7 +219,10 @@ export const CREATURE_SCENES = {
     "A noble beast-headed celestial with feathered wings on a sunlit hillside."
   ],
   "creature-air": [
-    "A being of coiling wind and dust, outline visible only in what it carries."
+    "A being of coiling wind and dust, outline visible only in what it carries.",
+    "A vortex of wind and dust holding a rough shape.",
+    "A gale carving a visible path across open ground.",
+    "Air compressed into a lens that bends the light behind it."
   ],
   "creature-angel": [
     "A radiant winged figure descending in a column of clean light."
@@ -293,7 +295,9 @@ export const CREATURE_SCENES = {
     "A stout armoured figure in a mountain hall, axe across the shoulders."
   ],
   "creature-earth": [
-    "A creature of tumbled stone and ore heaving up out of the ground."
+    "A creature of tumbled stone and ore heaving up out of the ground.",
+    "A mass of stone and ore heaving upward out of the ground.",
+    "Rock flowing like water around a raised hand."
   ],
   "creature-elemental": [
     "A being of raw elemental force holding a roughly humanoid shape.",
@@ -320,7 +324,11 @@ export const CREATURE_SCENES = {
   ],
   "creature-fire": [
     "A creature of living flame in a roughly humanoid shape.",
-    "A beast whose hide cracks open to show magma beneath."
+    "A beast whose hide cracks open to show magma beneath.",
+    "A column of living flame in a scorched circle, roughly humanoid.",
+    "Fire held and shaped between two open palms.",
+    "A wall of flame roaring up along a corridor.",
+    "Embers spiralling upward from a figure standing unburnt."
   ],
   "creature-giant": [
     "An enormous humanoid stooping under a doorway built for it.",
@@ -420,8 +428,12 @@ export const CREATURE_SCENES = {
     "A tight formation of soldiers moving and fighting as one body."
   ],
   "creature-water": [
-    "A shape of moving water holding together without a vessel."
-  ]
+    "A shape of moving water holding together without a vessel.",
+    "A wave rearing and holding its shape without breaking.",
+    "Water walking upright across a flooded floor.",
+    "A whirlpool turning in place in still air.",
+    "A figure moving inside a shell of running water."
+    ]
 };
 
 /* The straggler set: 307 monsters that no name, theme, subtype or type could place — obscure

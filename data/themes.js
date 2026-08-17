@@ -338,7 +338,7 @@ window.PF_VARIETY = {
   "monster-scene": 25,
   "creature-aeon": 1,
   "creature-agathion": 1,
-  "creature-air": 1,
+  "creature-air": 4,
   "creature-angel": 1,
   "creature-aquatic": 15,
   "creature-archon": 1,
@@ -356,12 +356,12 @@ window.PF_VARIETY = {
   "creature-devil": 1,
   "creature-div": 1,
   "creature-dwarf": 1,
-  "creature-earth": 1,
+  "creature-earth": 3,
   "creature-elemental": 2,
   "creature-elf": 1,
   "creature-evil": 1,
   "creature-extraplanar": 11,
-  "creature-fire": 2,
+  "creature-fire": 6,
   "creature-giant": 5,
   "creature-gnoll": 1,
   "creature-goblinoid": 2,
@@ -389,7 +389,7 @@ window.PF_VARIETY = {
   "creature-shapechanger": 2,
   "creature-swarm": 3,
   "creature-troop": 1,
-  "creature-water": 1,
+  "creature-water": 5,
   "arch-alchemist": 5,
   "arch-antipaladin": 1,
   "arch-arcanist": 1,
@@ -433,9 +433,9 @@ window.PF_VARIETY = {
   "hazard-curses": 2,
   "hazard-diseases": 3,
   "hazard-drugs": 2,
-  "hazard-haunts": 3,
+  "hazard-haunts": 1,
   "hazard-madnesses": 1,
-  "hazard-poisons": 12,
+  "hazard-poisons": 1,
   "opt-adv-armor-training": 1,
   "opt-adv-weapon-training": 2,
   "opt-blessings": 3,
@@ -444,7 +444,7 @@ window.PF_VARIETY = {
   "opt-disciplines": 2,
   "opt-domains": 2,
   "opt-emotional-focus": 1,
-  "opt-exploits": 5,
+  "opt-exploits": 1,
   "opt-implement-schools": 1,
   "opt-mysteries": 2,
   "opt-orders": 1,
@@ -646,8 +646,47 @@ window.PF_BODY_THEMES = {
     ["social-tongue",   /\b(diplomacy|bluff|intimidate|sense motive|perform|charm|persuad)\b/i, 15],
     ["saves-willpower", /\b(saving throws?|will save|fear effect|resist)\b/i, 6],
     ["skill-knack",     /\b(skill check|knowledge \(|craft check|profession|trained in)\b/i, 4]
+  ],
+
+  /* CLASS OPTIONS. Kineticist wild talents carry an ELEMENT field and every talent a TYPE — both
+     authored stat-block data, both far better than the rawCat these were sorted by (opt-wild-talents
+     alone held 278). Four of the elements already have art: creature-fire, creature-water,
+     creature-air and creature-earth are elemental creatures, which is exactly the right picture for
+     an elemental talent. A 4th field on a row means "use this existing key instead of new art".
+
+     ⚠ The Element/Type rules are NOT case-insensitive. The labels are capitalised and their values
+     lowercase, so [^A-Z] is an exact in-field bound; /i would make the class exclude both cases. */
+  options: [
+    ["element-fire",    /Element[^A-Z]{0,16}fire/, 1, "creature-fire"],
+    ["element-water",   /Element[^A-Z]{0,16}water/, 1, "creature-water"],
+    ["element-air",     /Element[^A-Z]{0,16}air/, 1, "creature-air"],
+    ["element-earth",   /Element[^A-Z]{0,16}earth/, 1, "creature-earth"],
+    ["element-aether",  /Element[^A-Z]{0,16}aether/, 2],
+    ["element-void",    /Element[^A-Z]{0,16}void/, 2],
+    ["element-wood",    /Element[^A-Z]{0,16}wood/, 2],
+    ["infusion",        /Type[^A-Z]{0,20}(substance infusion|form infusion)/, 2],
+    ["utility-talent",  /Type[^A-Z]{0,20}utility/, 1],
+    ["bloodline-power", /\bbloodline powers?\b/i, 5],
+    ["arcane-reservoir",/\barcane reservoir\b/i, 5],
+    ["domain-power",    /\bdomain (power|spell)s?\b/i, 3],
+    ["revelation",      /\brevelations?\b/i, 2]
+  ],
+
+  /* HAZARDS. The delivery TYPE is the entire visual difference between one poison and another —
+     a blade with a bead on the edge, a cup with residue in it, a gas filling a corridor, a coated
+     handle. Sorting 152 poisons by rawCat could never express that. 95% of the bucket resolves. */
+  hazards: [
+    ["haz-injury",    /Type[^A-Z]{0,24}injury/, 5],
+    ["haz-ingested",  /Type[^A-Z]{0,24}ingested/, 5],
+    ["haz-inhaled",   /Type[^A-Z]{0,24}inhaled/, 3],
+    ["haz-contact",   /Type[^A-Z]{0,24}contact/, 3],
+    ["haz-curse",     /Type[^A-Z]{0,24}(curse|regional curse)/, 2],
+    ["haz-madness",   /Type[^A-Z]{0,24}(lesser madness|greater madness|madness)/, 1],
+    ["haz-proximity", /Trigger[^A-Z]{0,24}proximity/, 3],
+    ["haz-disease",   /\bdisease\b/i, 1]
   ]
 };
+
 
 /* NPC ROLES — name to an EXISTING art key, wherever one genuinely fits.
  *

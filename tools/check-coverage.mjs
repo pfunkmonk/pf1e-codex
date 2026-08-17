@@ -39,8 +39,12 @@ for (const [name, count] of Object.entries(VARIETY))
 // Body motifs share the theme key namespace but are declared separately, because they are matched
 // offline against the full entry body rather than the index snippet.
 for (const [bucket, table] of Object.entries(globalThis.window.PF_BODY_THEMES || {}))
-  for (const row of table)
+  for (const row of table) {
+    // A 4th field means the motif REUSES an existing key (the kineticist elements borrow the
+    // elemental creature art), so it never requests a theme-<bucket>-<key>-N image of its own.
+    if (row[3]) continue;
     for (let v = 1; v <= (row[2] || 1); v++) want(`theme-${bucket}-${row[0]}-${v}`, `body motif ${bucket}/${row[0]}`);
+  }
 
 // Named art the app looks for per entry. Only the buckets where a named lookup is unconditional
 // or gated on ART — a gated key that does not exist is not a gap, it is the design.

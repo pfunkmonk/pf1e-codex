@@ -49,6 +49,11 @@ const ICAT={Rings:"ring",Rods:"rod",Staves:"staff",Artifacts:"artifact","Cursed 
 function bodyHit(bucket, id) {
   const key = BODY_MAP[id]; if (!key) return null;
   const table = BODY_THEMES[bucket]; if (!table || !table.some(r => r[0] === key)) return null;
+  // A reuse row points at art we already own — a fixed image, nothing to size.
+  const row = table.find(r => r[0] === key);
+  if (row[3]) return VARIETY[row[3]]
+    ? { art: vk(row[3], id), owner: { kind: "variety", key: row[3] } }
+    : { art: row[3], owner: { kind: "fixed", key: row[3] } };
   const n = bodyVariants[`${bucket}/${key}`] || 1;
   return { art: `theme-${bucket}-${key}-${n > 1 ? hash32(id) % n + 1 : 1}`, owner: { kind: "body", key: `${bucket}/${key}` } };
 }
@@ -144,7 +149,10 @@ function resolve(r) {
     }
     return { art: vk("npc", id), owner: { kind: "variety", key: "npc" } };
   }
-  if (b === "hazards") { const k = "hazard-" + artKey(r[3] || ""); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }
+  if (b === "hazards") {
+    const bh = bodyHit("hazards", id); if (bh) return bh;
+    const k = "hazard-" + artKey(r[3] || ""); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null;
+  }
   if (b === "archetypes") { const c = [].concat(fac.cls || [])[0]; if (!c) return null;
     const k = "arch-" + artKey(c); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }
   if (b === "options") {
@@ -154,6 +162,7 @@ function resolve(r) {
       "Construct Mods": "construct-mods", "Schools": "schools", "Spirits": "spirits", "Emotional Focus": "emotional-focus",
       "Orders": "orders", "Advanced Armor Training": "adv-armor-training", "Implement Schools": "implement-schools",
       "Unique Patrons": "unique-patrons" };
+    const bh = bodyHit("options", id); if (bh) return bh;
     const o = OPT[r[3]]; if (!o) return null;
     const k = "opt-" + o; return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null;
   }

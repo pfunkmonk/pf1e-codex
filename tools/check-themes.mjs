@@ -157,6 +157,8 @@ for (const [bucket, table] of Object.entries(BODY_THEMES)) {
   let imgs = 0, have = 0;
   for (const row of table) {
     const n = claimed[row[0]] || 0, variants = row[2] || 1;
+    // A reuse row commissions nothing and owns no images; its load is sized on the target set.
+    if (row[3]) { if (n === 0) fail(`body ${bucket}/${row[0]} claims NOTHING — dead regex`); continue; }
     for (let v = 1; v <= variants; v++) { imgs++; if (ART.has(`theme-${bucket}-${row[0]}-${v}`)) have++; }
     if (n === 0) fail(`body ${bucket}/${row[0]} claims NOTHING — dead regex, or a motif above eats it`);
     else if (n < MIN_CLAIM) fail(`body ${bucket}/${row[0]} claims only ${n} — dead weight`);
