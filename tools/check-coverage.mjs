@@ -36,6 +36,12 @@ for (const [bucket, table] of Object.entries(THEMES))
 for (const [name, count] of Object.entries(VARIETY))
   for (let v = 1; v <= count; v++) want(`${name}-${v}`, `variety ${name}`);
 
+// Body motifs share the theme key namespace but are declared separately, because they are matched
+// offline against the full entry body rather than the index snippet.
+for (const [bucket, table] of Object.entries(globalThis.window.PF_BODY_THEMES || {}))
+  for (const row of table)
+    for (let v = 1; v <= (row[2] || 1); v++) want(`theme-${bucket}-${row[0]}-${v}`, `body motif ${bucket}/${row[0]}`);
+
 // Named art the app looks for per entry. Only the buckets where a named lookup is unconditional
 // or gated on ART — a gated key that does not exist is not a gap, it is the design.
 const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");

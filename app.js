@@ -56,7 +56,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "60";
+  var DATA_V = "61";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -766,6 +766,18 @@
     for(i=0;i<table.length;i++){ t=table[i]; if(t[2]&&t[2].test(text)) return themeKey(bucket,t,row); }
     return null;
   }
+  // Body motifs are matched offline (bodies are lazy-loaded and arrive after applyArt), so at
+  // runtime this is just a lookup: id -> motif key, then the usual hashed variant.
+  var BODY_THEMES=window.PF_BODY_THEMES||{}, BODY_MAP=window.PF_BODY_THEME||{};
+  function bodyThemeArt(bucket,row){
+    var key=BODY_MAP[row[I_ID]]; if(!key) return null;
+    var table=BODY_THEMES[bucket]; if(!table) return null;
+    for(var i=0;i<table.length;i++) if(table[i][0]===key){
+      var n=table[i][2]||1, v=n>1 ? (hash32(row[I_ID])%n+1) : 1;
+      return "theme-"+bucket+"-"+key+"-"+v;
+    }
+    return null;
+  }
   function themeKey(bucket,t,row){
     var n=t[3]||1, v=n>1 ? (hash32(row[I_ID])%n+1) : 1;
     return "theme-"+bucket+"-"+t[0]+"-"+v;
@@ -870,6 +882,12 @@
     else if(b==="spells"){
       push(have("spell-"+nm));
       push(have(themeArt("spells",row)));
+      // Then what the full DESCRIPTION says. The snippet is truncated to ~200 characters, so a
+      // spell like Blush of Youth — a blood ritual worked by a circle of secondary casters — looks
+      // like nothing but "necromancy" from the index. Bodies are lazy-loaded and applyArt runs
+      // before they arrive, so the match is precomputed into data/bodythemes.js at build time.
+      // Ranked BELOW the stat block: subschool and descriptors are authored, prose motifs inferred.
+      push(have(bodyThemeArt("spells",row)));
       if(fac.sch && fac.sch!=="universal"){
         var sk="school-"+fac.sch;
         push(have(varietyKey(sk,row[I_ID])));
