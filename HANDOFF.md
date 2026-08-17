@@ -130,8 +130,15 @@ end in the word but are vermin. The rule is `type === "humanoid" && /giant/`.
 ### Adding new art
 
 ```powershell
-tools\ingest-art.ps1          # resize into art/, then regenerate data/art.js
+tools\ingest-art.ps1                          # batches 1-9 (1600x900)
+tools\ingest-art.ps1 -Width 1280 -Height 720  # batch 10 onward
 ```
+
+**Resolution policy.** Batches 1–9 were generated and stored at 1600×900. From batch 10 the
+prompt packs ask for **1280×720**, which is ~32% smaller on disk and still comfortably above the
+~904 CSS px the band actually renders at (`#main` is `max-width: 1000px`). Do not re-encode the
+existing set to match: replacing 1,352 files would shrink the working tree by ~60 MB while adding
+~130 MB of new blobs to git history, so the clone gets *bigger*. Only new art changes size.
 
 Then add the new keys to `ART_PLANNED` in `app.js` if they are not already there, and check
 `#/art` — anything planned but absent shows outlined in red with a running count.
