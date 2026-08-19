@@ -140,7 +140,11 @@ function resolve(r) {
   if (b === "npcs") {
     // Class art and role art are FIXED single images we already own — nothing to size. Only what
     // falls through to the npc set, or to one of the six new role images, needs a knob.
-    if (BODY_CLASS[id]) return { art: "class-" + BODY_CLASS[id], owner: { kind: "fixed", key: "class-" + BODY_CLASS[id] } };
+    if (BODY_CLASS[id]) {
+      const ak2 = "arch-" + BODY_CLASS[id];
+      return VARIETY[ak2] ? { art: vk(ak2, id), owner: { kind: "variety", key: ak2 } }
+                          : { art: "class-" + BODY_CLASS[id], owner: { kind: "fixed", key: "class-" + BODY_CLASS[id] } };
+    }
     const role = NPC_ROLES.find(([re]) => re.test(r[1] || ""));
     if (role) {
       const k = role[1];
