@@ -47,6 +47,37 @@ strict CSP blocks `eval`, so you cannot hot-patch the payload in the page either
 
 ---
 
+## Known debt — read before changing art resolution
+
+**The resolution chain is written out FOUR times**, and they must agree:
+
+| Where | What it does |
+|---|---|
+| `entryArtKey()` in `app.js` | the real thing — what a reader actually sees |
+| `resolve()` in `tools/size-variants.mjs` | simulates it to size every variant count |
+| `resolvesEarlier()` in `tools/check-themes.mjs` | decides which entries reach the theme layer |
+| `resolvesEarlier()` in `tools/derive-body-themes.mjs` | decides which entries reach the body layer |
+
+Every one of them has drifted at least once, and drift is silent — each page still gets *a*
+picture, so nothing looks broken:
+
+- `check-reachable` reported 603 false positives after the rules changed under it.
+- `check-themes` counted real wolves against `animal-canine`, inflating it 12 → 31 and failing the
+  build over a problem that did not exist.
+- `size-variants` treated "this key has a file" as "adequately spread" and never noticed
+  `creature-aquatic` backing 211 pages.
+
+**The fix, when someone has a clear run at it:** extract the chain into `data/resolve.js` assigning
+`window.PF_RESOLVE`, loaded by `index.html` and `eval`-ed by the tools exactly as they already do
+with `themes.js`. One implementation, four consumers. It was not attempted during the art work
+because every check was passing and a mid-flight refactor of the thing all the checks depend on is
+how you end up trusting a green build that is measuring nothing.
+
+Until then: **after editing `entryArtKey`, update the other three in the same commit**, and re-run
+all four checks plus `size-variants` until it reports 0 changes.
+
+---
+
 ## Data
 
 All content is static JS assigning `window.PF_*` globals. There is no backend.
@@ -58,6 +89,13 @@ All content is static JS assigning `window.PF_*` globals. There is no backend.
 | `data/art.js` | `PF_ART` | **generated** — which art files exist on disk |
 | `data/tables.js` | `PF_TABLES` | structured tables keyed by entry id, lazy-loaded |
 | `data/cat/<slug>.js` | via `PF_REG` | full entry bodies, lazy-loaded per category |
+| `data/themes.js` | `PF_THEMES`, `PF_BODY_THEMES`, `PF_VARIETY`, `PF_THEME_FALLBACK`, `PF_NPC_ROLES` | hand-written: every art rule in one place |
+| `data/bodythemes.js` | `PF_BODY_THEME`, `PF_BODY_CLASS` | **generated** by `derive-body-themes.mjs` — id → motif, and NPC id → class |
+| `data/artplan.js` | `PF_ART_PLAN` | **generated** by `gen-art-prompts.mjs` — the full roadmap; lazy, gallery only |
+
+Cold-start order is fixed by `index.html`: `meta → quickref → index → art → themes → bodythemes → app`.
+`themes.js` and `bodythemes.js` must load **before** `app.js`, which reads them at definition time.
+`tables.js`, `feattree.js` and `artplan.js` are deliberately NOT on that path.
 
 **The generator that produces `data/*.js` is not in this repo and not on this machine.**
 `D:\CODEX\aon-database-builder\` is a different, much smaller build. Data changes have been
@@ -95,8 +133,14 @@ art for 25,926 entries is ~86 generation batches and was never on the table.
 
 | | |
 |---|---|
-| `ART_PLANNED` in `app.js` | every key we INTEND to have. Hand-maintained. Drives the gallery. |
+| `ART_PLANNED` in `app.js` | every key we INTEND to have. **Derived** from `data/artplan.js`. Drives the gallery. |
 | `ART` from `data/art.js` | what is actually ON DISK. Generated. Gates resolution. |
+
+⚠ `ART_PLANNED` used to be a literal list of 1,652 keys inside `app.js`, and it went stale the
+instant the theme system began generating keys — the gallery would have shown 1,652 of 3,784 and
+reported the other 2,132 as not even planned. It is now generated into `data/artplan.js` by
+`gen-art-prompts.mjs` and **loaded lazily by the gallery alone** (~84 KB, no business on the
+cold-start path). Nothing about the roadmap is hand-maintained any more.
 
 Conflating these is what made the gallery report "452 of 452 generated" when a third had not
 been drawn: it inferred presence from `img.onerror`, which never fires for lazy-loaded images
@@ -211,7 +255,7 @@ prompt packs ask for **1280×720**, which is ~32% smaller on disk and still comf
 existing set to match: it would shrink the working tree while adding a fresh copy of every blob to
 git history, so the clone gets *bigger*. Only new art changes size.
 
-For **named** art (one image, one entry) add the keys to `ART_PLANNED` in `app.js`. **Theme** keys
+For **named** art (one image, one entry) add the keys to the pack's named list; the plan regenerates. **Theme** keys
 need no such edit — `themes.js` is their plan, and `gen-art-prompts.mjs` emits a `BATCH<n>-keys.json`
 that the ingest checks against. Then check `#/art`, where anything planned but absent shows
 outlined in red with a running count.
@@ -242,10 +286,10 @@ Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for cur
 | 12 | Items — variety sets + 93 named magic items | 202 | **pack written** |
 | 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
 | 14 | Monsters — themes, habitat, types, subtypes, hazard delivery art | 303 | **pack written** |
-| 15 | Traits, class option motifs + sets, archetypes | 317 | **pack written** |
+| 15 | Traits, class option motifs + sets, archetypes | 343 | **pack written** |
 | 16 | Rules, NPC scenes + 6 role images, the last 163 deities | 285 | **pack written** |
 
-**All seven packs are written — 2,106 prompts, about 84 hours of generation.** Packs and their
+**All seven packs are written — 2,132 prompts, about 85 hours of generation.** Packs and their
 `BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
 manifests up automatically; `--keys` is only needed to restrict to one batch.
 
