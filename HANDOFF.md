@@ -301,9 +301,16 @@ orders, and showing all of them cavalier art is correct, not a defect.
 
 ```bash
 node tools/check-themes.mjs .                              # tables sane: not too broad, not dead
-node tools/check-reachable.mjs .                           # no art on disk that nothing requests
+node tools/check-reachable.mjs .                           # no art on disk that nothing CAN request
 node tools/check-coverage.mjs . "…/Box/CODEX IMAGES"       # nothing requested that nobody drew
+node tools/check-used.mjs .                                # no art that nothing ACTUALLY shows
 ```
+
+`check-reachable` and `check-used` are not the same question. The first is structural — could the
+resolver ever ask for this key? The second walks all 25,926 entries and asks which files a page
+actually lands on. A key can be perfectly reachable and still never win, because a more specific
+candidate always beats it. That is how the older facet sets (`opt-wild-talents`, `trait-<cat>`,
+`hazard-<cat>`) went quiet once the body-motif layer started catching their entries first.
 
 The third is the one that catches the expensive mistake. The other two cannot see a key the
 resolver will ask for that is neither drawn nor in any pack — a gap that stays invisible until a
