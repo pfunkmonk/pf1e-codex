@@ -75,8 +75,23 @@ for (const r of globalThis.window.PF_INDEX) {
   for (const [bucket, table] of Object.entries(t))
     for (const row of table)
       for (let v = 1; v <= (row[3] || 1); v++) reach.add(`theme-${bucket}-${row[0]}-${v}`);
-  for (const f of Object.values(fb))
-    for (let v = 1; v <= f.scenes; v++) reach.add(`${f.key}-${v}`);
+  /* Every VARIETY set, from the single declaration in themes.js. This used to read
+   * PF_THEME_FALLBACK as {key, scenes} objects; those became plain set NAMES when the counts
+   * moved into PF_VARIETY, so it silently enumerated nothing and reported 813 live images as
+   * unreachable the moment they landed on disk. Identical bug to the one ingest-art carried --
+   * which is exactly the four-copies drift HANDOFF warns about. */
+  const V = globalThis.window.PF_VARIETY || {};
+  for (const [name, count] of Object.entries(V))
+    for (let v = 1; v <= count; v++) reach.add(`${name}-${v}`);
+  // Body motifs share the theme namespace but are declared separately; a row with a 4th field
+  // REUSES an existing key and owns none of its own.
+  const B = globalThis.window.PF_BODY_THEMES || {};
+  for (const [bucket, table] of Object.entries(B))
+    for (const row of table) {
+      if (row[3]) continue;
+      for (let v = 1; v <= (row[2] || 1); v++) reach.add(`theme-${bucket}-${row[0]}-${v}`);
+    }
+  void fb;
 }
 const fixedPrefixes = ["cat-", "school-", "tool-", "page-", "type-", "home-", "misc-", "deities-",
   "item-weapon-", "item-armorset-", "item-wondrous", "item-generalstore"];
