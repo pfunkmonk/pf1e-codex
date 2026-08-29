@@ -159,6 +159,29 @@ function chain(r) {
   return out;
 }
 
+// --predict prints id -> resolved key as JSON for a stratified sample, so the tool-side chain
+// can be diffed against what the LIVE app actually paints. The header warns that this chain is
+// mirrored in several files and that drift is silent; this makes checking it a command rather
+// than a manual spot-check. Usage: node tools/check-used.mjs . --predict [perBucket]
+if (process.argv.includes("--predict")) {
+  const n = Number(process.argv[process.argv.indexOf("--predict") + 1]) || 20;
+  const byBucket = new Map();
+  for (const r of IDX) {
+    if (!byBucket.has(r[2])) byBucket.set(r[2], []);
+    byBucket.get(r[2]).push(r);
+  }
+  const out = {};
+  for (const rows of byBucket.values()) {
+    const step = Math.max(1, Math.floor(rows.length / n));
+    for (let i = 0; i < rows.length && Object.keys(out).length < 1e5; i += step) {
+      const r = rows[i];
+      out[r[0]] = chain(r).find(k => ART.has(k)) || null;
+    }
+  }
+  console.log(JSON.stringify(out));
+  process.exit(0);
+}
+
 const used = new Map();
 let bare = 0;
 for (const r of IDX) {

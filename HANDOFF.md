@@ -49,7 +49,7 @@ strict CSP blocks `eval`, so you cannot hot-patch the payload in the page either
 
 ## Known debt — read before changing art resolution
 
-**The resolution chain is written out FOUR times**, and they must agree:
+**The resolution chain is written out FIVE times**, and they must agree:
 
 | Where | What it does |
 |---|---|
@@ -57,6 +57,13 @@ strict CSP blocks `eval`, so you cannot hot-patch the payload in the page either
 | `resolve()` in `tools/size-variants.mjs` | simulates it to size every variant count |
 | `resolvesEarlier()` in `tools/check-themes.mjs` | decides which entries reach the theme layer |
 | `resolvesEarlier()` in `tools/derive-body-themes.mjs` | decides which entries reach the body layer |
+| `chain()` in `tools/check-used.mjs` | walks every entry to see which files a page actually lands on |
+
+**You can now measure the drift instead of hoping.** `node tools/check-used.mjs . --predict 20`
+prints `id -> resolved key` as JSON for a stratified sample; load the site, walk those ids, and
+compare the key each page actually paints. Last run: **277 sampled, 277 agreed, 0 disagreements.**
+Do this after any edit to the chain — it is the only check that compares the tools against the app
+rather than against each other.
 
 Every one of them has drifted at least once, and drift is silent — each page still gets *a*
 picture, so nothing looks broken:
@@ -69,12 +76,13 @@ picture, so nothing looks broken:
 
 **The fix, when someone has a clear run at it:** extract the chain into `data/resolve.js` assigning
 `window.PF_RESOLVE`, loaded by `index.html` and `eval`-ed by the tools exactly as they already do
-with `themes.js`. One implementation, four consumers. It was not attempted during the art work
+with `themes.js`. One implementation, five consumers. It was not attempted during the art work
 because every check was passing and a mid-flight refactor of the thing all the checks depend on is
 how you end up trusting a green build that is measuring nothing.
 
-Until then: **after editing `entryArtKey`, update the other three in the same commit**, and re-run
-all four checks plus `size-variants` until it reports 0 changes.
+Until then: **after editing `entryArtKey`, update the other four in the same commit**, re-run all
+four checks plus `size-variants` until it reports 0 changes, and finish with the `--predict` diff
+above so you know the tools still agree with the app.
 
 ---
 
@@ -122,7 +130,7 @@ made as idempotent repair passes over the built files.
 
 ## Art
 
-`art/<key>.webp`. **1,652 images, 171 MB.** The extension lives in exactly one place —
+`art/<key>.webp`. **3,784 images, 259 MB.** The extension lives in exactly one place —
 `ART_EXT` in `app.js` — because it appears in both the gallery and `applyArt`.
 
 **WebP since v57.** The library was re-encoded from JPEG at q78 with no resize: 226 MB → 171 MB,
@@ -271,33 +279,38 @@ to `creature-` for the same reason.
 
 ---
 
-## What is left
+## Status — the art programme is COMPLETE
 
-**Named art is complete at 1,652 images.** The open work is the theme build-out.
+**All 3,784 images are drawn, ingested and live** (v68 onward). Named art finished at 1,652; the
+seven theme batches added the remaining 2,132. Every pack regenerates to **0 prompts**, every
+gallery group reads "N of N", and `check-coverage` reports nothing commissioned that is not drawn.
 
-### Theme build-out (in progress)
+Measured against the real chain: **3,584 of 3,784 files (94.7%) are shown on at least one of the
+25,926 pages, and no entry anywhere is without art.** The ~200 never shown are the older facet sets
+the body-motif layer now catches first (all 22 `opt-wild-talents`, most `trait-<category>`, the
+`hazard-<category>` sets). They are kept deliberately as a safety net if a motif regex is ever
+narrowed — `check-used` will list them, and that is expected, not a defect.
 
-Measured pressure, not guesswork — run `node tools/check-themes.mjs .` for current numbers.
+Worst-case load is now ~30 pages per image, down from 2,010. The one deliberate exception is
+`class-cavalier` at 55: those are the cavalier orders, and giving all of them cavalier art is
+correct.
 
-| Batch | Content | Images | Status |
-|---|---|---|---|
-| 10 | Feats — theme, body motif, general scenes, 93 named | 439 | **pack written** |
-| 11 | Items — object themes, body motifs, body slots | 368 | **pack written** |
-| 12 | Items — variety sets + 93 named magic items | 202 | **pack written** |
-| 13 | Spells — 138 theme + 25 body motif + 29 school scenes | 192 | **pack written** |
-| 14 | Monsters — themes, habitat, types, subtypes, hazard delivery art | 303 | **pack written** |
-| 15 | Traits, class option motifs + sets, archetypes | 343 | **pack written** |
-| 16 | Rules, NPC scenes + 6 role images, the last 163 deities | 285 | **pack written** |
+⚠ **The 1,652 batch-1..9 originals are 1600x900; everything newer is 1280x720.** Their source PNGs
+are still in the Box folder, so a plain ingest leaves them alone. `--replace` would silently
+downscale the entire library — never pass it without meaning to.
 
-**All seven packs are written — 2,132 prompts, about 85 hours of generation.** Packs and their
-`BATCHnn-keys.json` manifests live in `C:UsersmailpBoxCODEX IMAGES`. Ingest picks the
-manifests up automatically; `--keys` is only needed to restrict to one batch.
+### If you commission more art
 
-Once they land, **every page in the Codex is backed by an image serving at most ~30 pages**, down
-from 2,010. The one deliberate exception is `class-cavalier` at 45 — those are the 37 cavalier
-orders, and showing all of them cavalier art is correct, not a defect.
+Batches and their `BATCHnn-keys.json` manifests live in the Box folder
+`C:\Users\mailp\Box\CODEX IMAGES` (write it with real backslashes — an earlier edit of this file
+lost them to a shell heredoc). Ingest picks the manifests up automatically; `--keys` is only needed
+to restrict to one batch. Generation runs about 12 hours per 300 images.
 
-### The three checks, and what each is for
+**Do not go below ~20 pages per image** — it costs several batches for a difference no reader
+perceives. Spend it on named art instead. And never commission per-entry art for all 25,926
+entries: that is ~86 batches.
+
+### The four checks, and what each is for
 
 ```bash
 node tools/check-themes.mjs .                              # tables sane: not too broad, not dead
@@ -312,7 +325,7 @@ actually lands on. A key can be perfectly reachable and still never win, because
 candidate always beats it. That is how the older facet sets (`opt-wild-talents`, `trait-<cat>`,
 `hazard-<cat>`) went quiet once the body-motif layer started catching their entries first.
 
-The third is the one that catches the expensive mistake. The other two cannot see a key the
+`check-coverage` is the one that catches the expensive mistake. The other two cannot see a key the
 resolver will ask for that is neither drawn nor in any pack — a gap that stays invisible until a
 page quietly falls back months later.
 

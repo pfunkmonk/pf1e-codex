@@ -93,6 +93,17 @@
   LABEL.rules="Rules";  // Skills gets its own page (rules/Skills); drop the "& Skills" label
   // junk index pages scraped as rules entries ("2nd Level", "Cantrips", …) — hide from browse/search
   function isJunkEntry(r){ return r[I_SLUG]==="rules" && /^(\d+(?:st|nd|rd|th)\s+Level|Cantrips?|Orisons?)$/i.test(r[I_NAME]); }
+  // Every count we SHOW has to come from the same filter browse and search use, or the app
+  // advertises entries nobody can reach. data/meta.js bakes raw per-bucket counts that predate
+  // isJunkEntry, so the sidebar promised 3,102 rules and the hero 25,926 entries while only
+  // 3,093 and 25,917 were reachable. Derive from IDX instead, so widening the junk regex or
+  // refreshing the data can never make the nav lie again.
+  var VIS_N = {}, VIS_TOTAL = 0;
+  (function(){
+    for(var i=0;i<IDX.length;i++){ var r=IDX[i]; if(isJunkEntry(r)) continue;
+      VIS_N[r[I_SLUG]] = (VIS_N[r[I_SLUG]]||0) + 1; VIS_TOTAL++; }
+  })();
+  function visCount(slug, fallback){ return VIS_N[slug] != null ? VIS_N[slug] : (fallback||0); }
 
   // ---- entry paging ----------------------------------------------------------
   // Whatever list you were last looking at (a category with its filters/sort applied,
@@ -746,7 +757,7 @@
     var frieze=["spells","monsters","feats","classes","items","deities","traits"].map(function(s){ return '<a class="frieze-i" href="#/c/'+s+'" title="'+esc(LABEL[s]||cap(s))+'" style="color:'+color(s)+'">'+categoryScene(s)+'</a>'; }).join("");
     b.innerHTML=ornCorners()+HERO_EMBLEM
       +'<h1>The PF1e Codex</h1>'
-      +'<p>Your offline <span class="total">'+META.total.toLocaleString()+'</span> Pathfinder 1st Edition rules — search, browse, no internet required.</p>'
+      +'<p>Your offline <span class="total">'+VIS_TOTAL.toLocaleString()+'</span> Pathfinder 1st Edition rules — search, browse, no internet required.</p>'
       +'<div class="home-frieze">'+frieze+'</div>';
     applyArt(b, "home-hero");
     return b;
@@ -943,7 +954,7 @@
       g.cats.forEach(function(c){
         var a = h("a",{class:"card", href:"#/c/"+c.slug});
         a.style.setProperty("--c", color(c.slug));
-        a.innerHTML = '<h3>'+esc(c.label)+'</h3><div class="sub">'+c.count.toLocaleString()+' entries</div>';
+        a.innerHTML = '<h3>'+esc(c.label)+'</h3><div class="sub">'+visCount(c.slug,c.count).toLocaleString()+' entries</div>';
         cards.appendChild(a);
       });
       wrap.appendChild(cards);
@@ -1891,7 +1902,6 @@
     hook:["owe money to a dangerous lender","are minor nobility in hiding","know where a hidden cache lies","are being quietly blackmailed","spy for a rival faction","lost someone to the local threat","are desperate for an apprentice or heir","are hiding a fugitive","had a strange dream about the party","are not who they claim to be","want revenge on a former partner","guard an old family secret","are dying and hiding it","dabble in forbidden magic","saw something they weren’t meant to"],
     mood:["gruff","cheerful","weary","sly","earnest","anxious","aloof","warm","sardonic","timid","proud","harried"]
   };
-  var NPC_RACES=["human","half-elf","elf","dwarf","gnome","halfling","half-orc","tiefling","aasimar"];
   function rpick(a){ return a[(Math.random()*a.length)|0]; }
   function viewNPC(){
     setActiveNav(null);
@@ -2515,7 +2525,7 @@
       var gd=h("div",{class:"nav-group"}); gd.appendChild(h("h4",null,g.name));
       g.cats.forEach(function(c){
         var b=h("button",{class:"nav-cat"}); b.dataset.slug=c.slug;
-        b.innerHTML='<span class="dot" style="background:'+color(c.slug)+'"></span>'+esc(LABEL[c.slug]||c.label)+'<span class="cnt">'+c.count.toLocaleString()+'</span>';
+        b.innerHTML='<span class="dot" style="background:'+color(c.slug)+'"></span>'+esc(LABEL[c.slug]||c.label)+'<span class="cnt">'+visCount(c.slug,c.count).toLocaleString()+'</span>';
         b.onclick=function(){ location.hash="#/c/"+c.slug; closeMenu(); };
         gd.appendChild(b);
         if(c.slug==="rules"){ var sk=h("button",{class:"nav-cat"}); sk.dataset.slug="rules";
@@ -2615,9 +2625,10 @@
 
   // ---- instant search palette (live dropdown, keyboard-first, fuzzy + synonyms) ----
   var searchEl=$("#search"), stimer;
-  // Keep the placeholder honest: it used to claim "27,000+ rules" long after the real
-  // figure had settled at 25,926. Derive it so a data rebuild can never leave it lying.
-  if(searchEl && META.total) searchEl.placeholder=searchEl.placeholder.replace("the rules", META.total.toLocaleString()+" rules");
+  // Keep the placeholder honest: it used to claim "27,000+ rules" long after the real figure had
+  // settled, and later claimed 25,926 when only 25,917 were searchable. VIS_TOTAL is the count
+  // search itself can reach, so a data rebuild can never leave this lying.
+  if(searchEl && VIS_TOTAL) searchEl.placeholder=searchEl.placeholder.replace("the rules", VIS_TOTAL.toLocaleString()+" rules");
   var SYN={stun:"stunned",stunning:"stunned",fear:"frightened shaken",invis:"invisible invisibility",
     flatfooted:"flat-footed","flat footed":"flat-footed",aoo:"attack of opportunity",ac:"armor class",
     hp:"hit points",cmb:"combat maneuver",cmd:"combat maneuver defense",sr:"spell resistance",dr:"damage reduction",
