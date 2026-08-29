@@ -19,7 +19,8 @@
   <button id="menuBtn" class="icon-btn" title="Menu" aria-label="Menu">☰</button>
   <a class="brand" href="#/"><span class="brand-mark">⚔</span> PF1e&nbsp;Codex</a>
   <div class="search-wrap">
-    <!-- The entry count is filled in from PF_META at boot; do not hard-code it here or it goes stale. -->
+    <!-- The entry count is filled in at boot from VIS_TOTAL (entries search can actually reach,
+         not the raw row count); do not hard-code it here or it goes stale. -->
     <input id="search" type="search" placeholder='Search the rules…  words = AND, "phrase", -exclude   (press /)' autocomplete="off" spellcheck="false">
     <kbd class="search-hint">/</kbd>
   </div>
