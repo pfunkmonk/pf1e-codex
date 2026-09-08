@@ -160,18 +160,37 @@ function resolve(r) {
   if (b === "archetypes") { const c = [].concat(fac.cls || [])[0]; if (!c) return null;
     const k = "arch-" + artKey(c); return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null; }
   if (b === "options") {
-    const OPT = { "Wild Talents": "wild-talents", "Exploits": "exploits", "Bloodlines": "bloodlines", "Tricks": "tricks",
-      "Blessings": "blessings", "Domains": "domains", "Mysteries": "mysteries", "Phrenic Amplifications": "phrenic",
-      "Shifter": "shifter", "Stares": "stares", "Advanced Weapon Training": "adv-weapon-training", "Disciplines": "disciplines",
-      "Construct Mods": "construct-mods", "Schools": "schools", "Spirits": "spirits", "Emotional Focus": "emotional-focus",
-      "Orders": "orders", "Advanced Armor Training": "adv-armor-training", "Implement Schools": "implement-schools",
-      "Unique Patrons": "unique-patrons" };
     const bh = bodyHit("options", id); if (bh) return bh;
-    const o = OPT[r[3]]; if (!o) return null;
-    const k = "opt-" + o; return VARIETY[k] ? { art: vk(k, id), owner: { kind: "variety", key: k } } : null;
+    const o = OPTION_ART[r[3]];
+    if (o) {
+      const k = "opt-" + o;
+      if (VARIETY[k]) return { art: vk(k, id), owner: { kind: "variety", key: k } };
+    }
+    // Falls back to the owning class, same as entryArtKey.
+    const c = fac.cls;
+    if (c) for (const t of [c, String(c).replace(/\s*\([^)]*\)\s*$/, "")]) {
+      const k = "arch-" + artKey(t);
+      if (VARIETY[k]) return { art: vk(k, id), owner: { kind: "variety", key: k } };
+    }
+    return null;
   }
   return null;
 }
+
+/* OPTION_ART is read straight out of app.js. It used to be hand-copied here, which is a sixth
+ * transcription of the resolution chain and drifts the moment a category is added. */
+const APP_SRC = fs.readFileSync(`${ROOT}/app.js`, "utf8");
+function grabMap(decl) {
+  const i = APP_SRC.indexOf(decl);
+  if (i < 0) throw new Error("missing " + decl + " in app.js");
+  let j = APP_SRC.indexOf("{", i), depth = 0, end = -1;
+  for (let k = j; k < APP_SRC.length; k++) {
+    if (APP_SRC[k] === "{") depth++;
+    else if (APP_SRC[k] === "}") { depth--; if (depth === 0) { end = k; break; } }
+  }
+  return (0, eval)("(" + APP_SRC.slice(j, end + 1) + ")");
+}
+const OPTION_ART = grabMap("var OPTION_ART=");
 
 /* RESET BEFORE GROWING.
  * The loop below only ever raises a count, so running --apply repeatedly ratchets: an unlucky hash

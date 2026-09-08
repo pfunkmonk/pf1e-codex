@@ -43,7 +43,8 @@ export const OPTION_MOTIF_SCENES = {
   "domain-power": [
     "A cleric's holy symbol projecting one aspect of a god in light.",
     "A temple side-chapel dedicated to a single divine aspect.",
-    "A granted power manifesting around a priest's raised hand."
+    "A granted power manifesting around a priest's raised hand.",
+    "A sacred beast standing at a shrine's threshold, unafraid of the worshippers."
   ],
   revelation: [
     "An oracle stopped mid-sentence by something only they can see.",

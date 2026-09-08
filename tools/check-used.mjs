@@ -95,6 +95,16 @@ function traitReq(r) {
   const m = String(r[5] || "").match(/Requirement\(s\)\s+(.+?)(?:\s*\[|\s+(?:You|Your|A|An|The|Whenever|Once|As)\b|$)/);
   return m ? m[1].trim() : null;
 }
+function optionClassArt(r) {
+  const c = (r[6] || {}).cls;
+  if (!c) return null;
+  for (const t of [c, String(c).replace(/\s*\([^)]*\)\s*$/, "")]) {
+    const k = "arch-" + ak(t);
+    if (VARIETY[k]) { const v = vk(k, r[0]); if (v) return v; }
+    if (ART.has("class-" + ak(t))) return "class-" + ak(t);
+  }
+  return null;
+}
 function npcRole(r) {
   for (const [re, key] of NPC_ROLES) if (re.test(r[1] || "")) return VARIETY[key] ? vk(key, r[0]) : key;
   return null;
@@ -131,6 +141,7 @@ function chain(r) {
   } else if (b === "options") {
     P(have(bodyThemeArt("options", r)));
     const oa = OPTION_ART[r[3]]; if (oa) { P(have(vk("opt-" + oa, id))); P("opt-" + oa); }
+    P(have(optionClassArt(r)));
   } else if (b === "hazards") {
     P(have(bodyThemeArt("hazards", r)));
     const hz = "hazard-" + ak(r[3] || ""); P(have(vk(hz, id))); P(hz);
