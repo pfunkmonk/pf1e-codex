@@ -6,17 +6,33 @@
   var I_ID=0,I_NAME=1,I_SLUG=2,I_RAW=3,I_SRC=4,I_SNIP=5,I_FAC=6;
   var FACETS=(META.facets)||{};
   function fc(b,k){ return function(){ return (FACETS[b]&&FACETS[b][k])||[]; }; }
+  // Book lists are DERIVED from the rows, not read from the baked facet vocabulary. meta.js is
+  // written by a builder outside this repo, so any source added by a later data repair — the 1,713
+  // recovered class options brought ~90 new books — would be missing from the dropdown and simply
+  // unfilterable. Same reasoning as the derived category counts. Memoised; one pass is ~0.3 ms.
+  var _books={};
+  function booksOf(slug){
+    if(_books[slug]) return _books[slug];
+    var seen={}, out=[];
+    for(var i=0;i<IDX.length;i++){
+      var r=IDX[i]; if(r[I_SLUG]!==slug) continue;
+      var b=r[I_FAC]&&r[I_FAC].bk;
+      if(b&&!seen[b]){ seen[b]=1; out.push(b); }
+    }
+    return (_books[slug]=out.sort());
+  }
+  function fb(slug){ return function(){ return booksOf(slug); }; }
   // filter dropdowns per bucket: [stateKey, placeholder, optionsFn]
   var FILTER_UI={
-    spells:[["cls","Any class",fc("spells","classes")],["lvl","Any level",function(){return (FACETS.spells.levels||[]).map(String);}],["sch","Any school",fc("spells","schools")],["desc","Any descriptor",fc("spells","descriptors")],["save","Any save",fc("spells","saves")],["bk","Any book",fc("spells","books")]],
-    feats:[["t","Any type",fc("feats","types")],["bk","Any book",fc("feats","books")]],
-    monsters:[["t","Any type",fc("monsters","types")],["sz","Any size",fc("monsters","sizes")],["al","Any alignment",fc("monsters","alignments")],["bk","Any book",fc("monsters","books")]],
-    items:[["slot","Any slot",fc("items","slots")],["bk","Any book",fc("items","books")]],
-    traits:[["cat","Any category",fc("traits","cats")],["bk","Any book",fc("traits","books")]],
-    archetypes:[["cls","Any class",fc("archetypes","classes")],["bk","Any book",fc("archetypes","books")]],
-    rules:[["bk","Any book",fc("rules","books")]], options:[["bk","Any book",fc("options","books")]],
-    deities:[["bk","Any book",fc("deities","books")]], hazards:[["bk","Any book",fc("hazards","books")]],
-    npcs:[["bk","Any book",fc("npcs","books")]], races:[["bk","Any book",fc("races","books")]]
+    spells:[["cls","Any class",fc("spells","classes")],["lvl","Any level",function(){return (FACETS.spells.levels||[]).map(String);}],["sch","Any school",fc("spells","schools")],["desc","Any descriptor",fc("spells","descriptors")],["save","Any save",fc("spells","saves")],["bk","Any book",fb("spells")]],
+    feats:[["t","Any type",fc("feats","types")],["bk","Any book",fb("feats")]],
+    monsters:[["t","Any type",fc("monsters","types")],["sz","Any size",fc("monsters","sizes")],["al","Any alignment",fc("monsters","alignments")],["bk","Any book",fb("monsters")]],
+    items:[["slot","Any slot",fc("items","slots")],["bk","Any book",fb("items")]],
+    traits:[["cat","Any category",fc("traits","cats")],["bk","Any book",fb("traits")]],
+    archetypes:[["cls","Any class",fc("archetypes","classes")],["bk","Any book",fb("archetypes")]],
+    rules:[["bk","Any book",fb("rules")]], options:[["bk","Any book",fb("options")]],
+    deities:[["bk","Any book",fb("deities")]], hazards:[["bk","Any book",fb("hazards")]],
+    npcs:[["bk","Any book",fb("npcs")]], races:[["bk","Any book",fb("races")]]
   };
   var SORT_UI={ spells:[["","Sort: Name"],["lvl","Sort: Level"]], monsters:[["","Sort: Name"],["cr","Sort: CR"]], items:[["","Sort: Name"],["price","Sort: Price ↓"]] };
   function facetMatch(slug, f, st){
@@ -56,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "68";
+  var DATA_V = "69";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -474,6 +490,21 @@
     "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
     "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
     "Unique Patrons":"unique-patrons"};
+  // A class option belongs to a class, and we already own scene art for all 39 of them. Prefer the
+  // arch-<class> variety set (4-10 images each); fall back to the single class portrait. Names like
+  // "Rogue (Unchained)" have no set of their own, so the parenthetical is dropped and the base
+  // class used — the unchained rogue's talents still want a rogue.
+  function optionClassArt(row){
+    var c=row[I_FAC]&&row[I_FAC].cls; if(!c) return null;
+    var tries=[c, String(c).replace(/\s*\([^)]*\)\s*$/,"")], i, k;
+    for(i=0;i<tries.length;i++){
+      if(!tries[i]) continue;
+      k="arch-"+artKey(tries[i]);
+      if(VARIETY[k]) { var v=varietyKey(k,row[I_ID]); if(v) return v; }
+      if(ART["class-"+artKey(tries[i])]) return "class-"+artKey(tries[i]);
+    }
+    return null;
+  }
   // Every variety set's size is declared in data/themes.js so the tools can enumerate them.
   // Falls back to the historical counts if that file failed to load.
   var VARIETY=window.PF_VARIETY||{};
@@ -641,6 +672,12 @@
       // sorted by, where opt-wild-talents alone held 278 entries.
       push(have(bodyThemeArt("options",row)));
       var oa=OPTION_ART[row[I_RAW]]; if(oa){ push(have(varietyKey("opt-"+oa,row[I_ID]))); push("opt-"+oa); }
+      // Last resort before the category banner: the OWNING CLASS. The 1,713 recovered options
+      // (discoveries, rogue talents, hexes, rage powers…) have no opt-* set of their own yet, and
+      // without this every one of them lands on cat-classoptions — one picture for 1,713 pages,
+      // the same failure that once put 2,010 feats on a single image. Derived from the cls facet
+      // rather than a second rawCat table, so a later import needs no art wiring at all.
+      push(have(optionClassArt(row)));
     }
     else if(b==="hazards"){
       // Delivery type is the whole visual difference between poisons: a blade, a cup, a gas.

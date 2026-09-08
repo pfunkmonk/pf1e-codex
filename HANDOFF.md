@@ -61,7 +61,7 @@ strict CSP blocks `eval`, so you cannot hot-patch the payload in the page either
 
 **You can now measure the drift instead of hoping.** `node tools/check-used.mjs . --predict 20`
 prints `id -> resolved key` as JSON for a stratified sample; load the site, walk those ids, and
-compare the key each page actually paints. Last run: **277 sampled, 277 agreed, 0 disagreements.**
+compare the key each page actually paints. Last run: **300 sampled, 300 agreed, 0 disagreements.**
 Do this after any edit to the chain — it is the only check that compares the tools against the app
 rather than against each other.
 
@@ -105,11 +105,48 @@ Cold-start order is fixed by `index.html`: `meta → quickref → index → art 
 `themes.js` and `bodythemes.js` must load **before** `app.js`, which reads them at definition time.
 `tables.js`, `feattree.js` and `artplan.js` are deliberately NOT on that path.
 
-**The generator that produces `data/*.js` is not in this repo and not on this machine.**
-`D:\CODEX\aon-database-builder\` is a different, much smaller build. Data changes have been
-made as idempotent repair passes over the built files.
+**The step that produces `data/*.js` in Codex row format is not in this repo**, and its entry ids
+cannot be reproduced (they are not `sha256(url)[:16]`, which is what the upstream stages use). Data
+changes are therefore made as idempotent repair passes over the built files.
+
+The stages that ARE on this machine, and which the class-option recovery used:
+
+| Stage | Where | What it holds |
+|---|---|---|
+| raw capture | `Desktop\AON PAGES PARSED\START` | 49,000 archived AoN page exports (`.txt`, each with a `URL:` header). **Nothing was ever scraped by us** |
+| `aon_builder.py` | `D:\CODEX\aon-database-builder\` | cleans those into `FINISH\pages.jsonl` (28,432 pages after dedup). Offline, stdlib only |
+| `aon_structured_prep.py` | `FINISH\structured\` | types them into spells/feats/traits/... and **quarantines everything it cannot type** |
+
+⚠ **`_quarantine.jsonl` is 129 MB and holds 13,424 pages** — larger than the typed output. Most
+are genuinely duplicative index pages, but it is also where the 1,713 class options were found.
+Before concluding the Codex is missing something because it "was never captured", grep the
+quarantine: the page is usually sitting in it.
 
 ### Repairs already applied to the data
+
+- **1,713 CLASS OPTIONS recovered (2026-09-08).** The Codex was never scraped from AoN — it was
+  built from a folder of archived page exports, and the structuring step turned each PAGE into
+  entries. AoN publishes class options two ways, and only one survived that:
+
+  | AoN shape | Example | Result |
+  |---|---|---|
+  | one detail page per option | `KineticistTalentsDisplay.aspx?ItemName=Kinetic+Fist` | captured individually — **in the Codex** (278 wild talents, 75 bloodlines, 24 stares) |
+  | every option on ONE page | `AlchemistDiscoveries.aspx` | the listing page is the ONLY copy, and it looks exactly like a duplicative index (`Feats.aspx`, `Monsters.aspx?Letter=All`) — **quarantined, content lost** |
+
+  So the bucket held zero discoveries, rogue talents, witch hexes, rage powers or masterpieces.
+  `tools/import-class-options.mjs` reads those pages back out of
+  `…/FINISH/structured/_quarantine.jsonl` (nothing is fetched from the network) and rebuilds them.
+  Idempotent — a second run adds nothing. **Re-run it after any data rebuild, or the options
+  disappear again.** Options went 835 → 2,548; the index 25,926 → 27,639.
+
+  ⚠ Two traps found while writing it, both of which silently DELETE content:
+  - **Dedup on name alone drops real options.** "Charm" and "Healing" are cleric domains *and*
+    witch hexes; "Familiar" is a magus arcanum *and* a rogue talent; "Tremorsense" is an evolution
+    *and* a druid power. Scoped to `category + name`, which also keeps the tool idempotent.
+  - **The Unchained lists are NOT duplicates.** 32 of the 151 shared rogue-talent names carry
+    rewritten text, so merging them into the core list would have served Rogue (Unchained) players
+    the chained rules. They get their own categories.
+
 
 - **Trait categories.** The upstream extractor read a bare word after `Category`, so it missed
   the four basic types, written `Category Basic (Social)`. 535 of 1,978 traits had no `cat` and
@@ -130,7 +167,7 @@ made as idempotent repair passes over the built files.
 
 ## Art
 
-`art/<key>.webp`. **3,784 images, 259 MB.** The extension lives in exactly one place —
+`art/<key>.webp`. **3,784 images on disk, 259 MB; 3,912 planned** (BATCH15 holds the outstanding 128). The extension lives in exactly one place —
 `ART_EXT` in `app.js` — because it appears in both the gallery and `applyArt`.
 
 **WebP since v57.** The library was re-encoded from JPEG at q78 with no resize: 226 MB → 171 MB,
@@ -153,6 +190,23 @@ cold-start path). Nothing about the roadmap is hand-maintained any more.
 Conflating these is what made the gallery report "452 of 452 generated" when a third had not
 been drawn: it inferred presence from `img.onerror`, which never fires for lazy-loaded images
 below the fold. Presence is now a data question answered by the manifest.
+
+### Class options fall back to the OWNING CLASS
+
+The recovered options have no `opt-*` art of their own, and without a fallback all 1,713 landed on
+`cat-classoptions` — one picture for 1,713 pages, the same failure that once put 2,010 feats on a
+single image. `entryArtKey` now ends the options branch with `optionClassArt(row)`, which reads the
+`cls` facet the importer writes and returns that class's `arch-<class>` scene set (all 39 classes
+have one). "Rogue (Unchained)" has no set of its own, so the parenthetical is dropped and the base
+class used.
+
+It is DERIVED from the facet rather than a second rawCat table, so importing another option family
+needs no art wiring at all — give the rows a `cls` and they inherit their class's scenes.
+
+⚠ Those sets serve archetypes too, so the added load pushed them well over target
+(`arch-summoner-2` backed 88 pages). `size-variants` grew 18 of them, which is what **BATCH15's 128
+prompts** are. Until that art lands the counts are safe because `varietyKey` falls back to hashing
+within what is ON DISK.
 
 ### Resolution
 

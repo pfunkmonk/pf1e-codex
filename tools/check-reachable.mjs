@@ -13,12 +13,20 @@ const artKey = s => String(s).toLowerCase().replace(/['’]/g, "").replace(/[^a-
 
 // Must mirror entryArtKey() in app.js. If a rule is added there and not here, this check
 // starts crying wolf; if a rule is added here and not there, real dead art goes unnoticed.
-const OPTION_ART = { "Wild Talents":"wild-talents","Exploits":"exploits","Bloodlines":"bloodlines","Tricks":"tricks",
-  "Blessings":"blessings","Domains":"domains","Mysteries":"mysteries","Phrenic Amplifications":"phrenic",
-  "Shifter":"shifter","Stares":"stares","Advanced Weapon Training":"adv-weapon-training","Disciplines":"disciplines",
-  "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
-  "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
-  "Unique Patrons":"unique-patrons" };
+/* OPTION_ART and the variety sizes are read from the real sources rather than hand-copied.
+ * A stale transcription here is exactly how this tool once reported 813 live images as
+ * unreachable. */
+const APP_SRC = fs.readFileSync(`${ROOT}/app.js`, "utf8");
+const OPTION_ART = (() => {
+  const i = APP_SRC.indexOf("var OPTION_ART=");
+  let j = APP_SRC.indexOf("{", i), depth = 0, end = -1;
+  for (let k = j; k < APP_SRC.length; k++) {
+    if (APP_SRC[k] === "{") depth++;
+    else if (APP_SRC[k] === "}") { depth--; if (depth === 0) { end = k; break; } }
+  }
+  return (0, eval)("(" + APP_SRC.slice(j, end + 1) + ")");
+})();
+const VARIETY = globalThis.window.PF_VARIETY || {};
 // Must stay byte-identical to hash32() in app.js, avalanche included. This copy was missing the
 // murmur3 finaliser and so disagreed with the app about which rules-N/npc-N scenes are reachable.
 const hash32 = s => {
@@ -54,7 +62,16 @@ for (const r of globalThis.window.PF_INDEX) {
     if (r[3] === "Wondrous Items") reach.add("item-wondrous");
     reach.add("item-generalstore");
   }
-  if (b === "options" && OPTION_ART[r[3]]) reach.add("opt-" + OPTION_ART[r[3]]);
+  if (b === "options") {
+    if (OPTION_ART[r[3]]) reach.add("opt-" + OPTION_ART[r[3]]);
+    // and the owning-class fallback
+    const oc = (r[6] || {}).cls;
+    if (oc) for (const t of [oc, String(oc).replace(/\s*\([^)]*\)\s*$/, "")]) {
+      const k = "arch-" + artKey(t);
+      if (VARIETY[k]) for (let i = 1; i <= VARIETY[k]; i++) reach.add(`${k}-${i}`);
+      reach.add("class-" + artKey(t));
+    }
+  }
   if (b === "hazards") reach.add("hazard-" + artKey(r[3] || ""));
   if (b === "rules") reach.add("rules-" + (hash32(r[0]) % 40 + 1));
   if (b === "npcs")  reach.add("npc-" + (hash32(r[0]) % 12 + 1));
