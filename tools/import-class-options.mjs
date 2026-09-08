@@ -61,7 +61,9 @@ const PAGES = [
   [/\/BardMasterpieces\.aspx$/i,            "Masterpieces",          "Bard"],
   [/\/SummonerEvolutions\.aspx$/i,          "Evolutions",            "Summoner"],
   [/\/SummonerUCEvolutions\.aspx$/i,        "Evolutions (Unchained)", "Summoner (Unchained)"],
-  [/\/Inquisitions\.aspx$/i,                "Inquisitions",          "Inquisitor"],
+  // Forced to block: inline would yield the 79 granted powers instead of the ~40
+  // inquisitions, and the inquisition is what a character actually picks.
+  [/\/Inquisitions\.aspx$/i,                "Inquisitions",          "Inquisitor", null, "block"],
   [/\/BarbarianRagePowers\.aspx(\?|$)/i,    "Rage Powers",           "Barbarian"],
   [/\/OracleCurses\.aspx$/i,                "Oracle Curses",         "Oracle"],
   [/\/DruidDomains\.aspx$/i,                "Druid Domain Powers",   "Druid"],
@@ -94,7 +96,12 @@ const PAGES = [
   // the path page, not on PathAbilities.aspx, so importing only the ability lists left the
   // best-known mythic abilities missing. Kept separate from the selectable path abilities
   // because these are granted automatically; both share the opt-mythic-path art.
-  [/\/MythicPaths\.aspx\?Path=/i,          "Mythic Path Features",  null],
+  [/\/MythicPaths\.aspx\?Path=Archmage/i,            "Mythic Path Features",  "Wizard"],
+  [/\/MythicPaths\.aspx\?Path=Champion/i,            "Mythic Path Features",  "Fighter"],
+  [/\/MythicPaths\.aspx\?Path=Guardian/i,            "Mythic Path Features",  "Paladin"],
+  [/\/MythicPaths\.aspx\?Path=Hierophant/i,          "Mythic Path Features",  "Cleric"],
+  [/\/MythicPaths\.aspx\?Path=Marshal/i,             "Mythic Path Features",  "Cavalier"],
+  [/\/MythicPaths\.aspx\?Path=Trickster/i,           "Mythic Path Features",  "Rogue"],
 ];
 
 const pageRule = (url) => PAGES.find(([re]) => re.test(url));
@@ -122,7 +129,7 @@ const isDescSource = (s) => /^Description Source:/i.test(s);
 const SECTION_OK =
   /(?:Talents?|Discoveries|Hexes|Rage Powers|Curses|Arcana|Tricks|Deeds|Evolutions|Annointings|Masterpieces|Inquisitions|Domain|Powers|Styles|Exploits)\s*$/i;
 
-function parseInline(lines, startAt) {
+function parseInline(lines, startAt, pageSource) {
   const out = [];
   let cur = null, section = "";
   for (let i = startAt; i < lines.length; i++) {
@@ -131,10 +138,15 @@ function parseInline(lines, startAt) {
     if (isNav(s) || isDescSource(s)) continue;
     const m = INLINE.exec(s);
     if (m) {
+      // A lone "(Su)" / "(Ex)" / "(Sp)" is the ability TYPE, not a citation. Mythic path
+      // features are written "Wild Arcana (Su): ..." with no source of their own, so without
+      // this the body reads "Source Su" and the book facet becomes "Su".
+      let src = m.groups.src.trim(), tags = (m.groups.tags || "").trim();
+      if (/^(?:Su|Ex|Sp)$/i.test(src)) { tags = tags || `(${src})`; src = pageSource || ""; }
       cur = { name: m.groups.name.trim().replace(/\*+$/, ""),
-              tags: (m.groups.tags || "").trim(),
+              tags,
               deity: (m.groups.deity || "").trim(),
-              source: m.groups.src.trim(),
+              source: src,
               section,
               body: [m.groups.rest.trim()] };
       out.push(cur);
@@ -178,16 +190,23 @@ function parseBlock(lines, startAt) {
   return out;
 }
 
-function parsePage(content) {
+function parsePage(content, force) {
   const lines = content.split("\n");
   // Skip the class nav block and the page title at the top.
   let start = 0;
   for (let i = 0; i < Math.min(12, lines.length); i++) if (isNav(lines[i].trim())) start = i + 1;
-  const inline = parseInline(lines, start);
+  // The page's own "Source Mythic Adventures pg. 14" line, used when an entry has none.
+  let pageSource = "";
+  for (let i = start; i < Math.min(start + 12, lines.length); i++) {
+    const m = /^Source\s+(.+?)\s*$/.exec(lines[i].trim());
+    if (m) { pageSource = m[1]; break; }
+  }
+  const inline = parseInline(lines, start, pageSource);
   const block = parseBlock(lines, start);
   // Whichever shape yields more entries is the page's real shape.
-  const chosen = inline.length >= block.length ? inline : block;
-  const shape = inline.length >= block.length ? "inline" : "block";
+  const useInline = force ? force === "inline" : inline.length >= block.length;
+  const chosen = useInline ? inline : block;
+  const shape = (useInline ? "inline" : "block") + (force ? "*" : "");
   return { entries: chosen.filter((e) => e.name && e.body.join(" ").trim().length > 20), shape };
 }
 
@@ -229,6 +248,7 @@ for await (const line of rl) {
   if (!rule) continue;
   const pm = /[?&]Path=([^&]+)/i.exec(url);
   found.push({ url, cat: rule[1], cls: rule[2], bucket: rule[3] || "options",
+               shape: rule[4] || null,
                path: pm ? decodeURIComponent(pm[1].replace(/\+/g, " ")) : null,
                title: d.title || "", content: d.content || "" });
 }
@@ -246,7 +266,7 @@ let dupExisting = 0, dupInRun = 0;
 const dupNames = [];
 
 for (const pg of found.sort((a, b) => a.url.localeCompare(b.url))) {
-  const { entries, shape } = parsePage(pg.content);
+  const { entries, shape } = parsePage(pg.content, pg.shape);
   let added = 0, skipped = 0;
   for (const e of entries) {
     const key = e.name.toLowerCase();
@@ -259,13 +279,13 @@ for (const pg of found.sort((a, b) => a.url.localeCompare(b.url))) {
     existingIds.add(id);
 
     const desc = e.body.join("\n").trim();
-    const bookOnly = e.source.replace(/\s*pg\.\s*\d+.*$/, "").trim();
+    const bookOnly = (e.source || "").replace(/\s*pg\.\s*\d+.*$/, "").trim();
     // Body mirrors the shape the other option entries use: name line, Source line, then prose.
     (newBodies[pg.bucket] ||= {})[id] =
       `${e.name}${e.tags ? " " + e.tags : ""}${e.deity ? " [" + e.deity + "]" : ""}` +
       `\nSource ${e.source}\n${desc}`;
     newRows.push([id, e.name, pg.bucket, pg.cat, e.source, desc.slice(0, 200),
-                  { bk: bookOnly, ...(pg.cls ? { cls: pg.cls } : {}),
+                  { ...(bookOnly ? { bk: bookOnly } : {}), ...(pg.cls ? { cls: pg.cls } : {}),
                     ...(pg.path ? { path: pg.path } : {}),
                     ...(e.deity ? { deity: e.deity } : {}),
                     ...(e.section ? { sec: e.section } : {}) }]);

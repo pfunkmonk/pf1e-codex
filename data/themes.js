@@ -403,7 +403,7 @@ window.PF_VARIETY = {
   "arch-fighter": 8,
   "arch-gunslinger": 3,
   "arch-hunter": 2,
-  "arch-inquisitor": 9,
+  "arch-inquisitor": 6,
   "arch-investigator": 8,
   "arch-kineticist": 1,
   "arch-magus": 6,
