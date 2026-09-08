@@ -6,12 +6,12 @@ A fast, searchable Pathfinder First Edition rules reference published at
 The application is static and deploys directly from the repository root on
 Netlify. It supports offline use through its service worker and web manifest.
 
-27,630 browsable entries — classes, races, feats, traits, spells, monsters, items,
+28,387 browsable entries — classes, races, feats, traits, spells, monsters, items,
 rules and more — with search, per-category filtering, prev/next paging through any
 list, an artwork gallery backed by 3,784 illustrations, and a set of at-the-table
 tools (encounter builder, initiative tracker, treasure and NPC generators, GM screen).
 
-(The dataset holds 27,639 rows; nine are scraped "1st Level"–"9th Level" index pages
+(The dataset holds 28,396 rows; nine are scraped "1st Level"–"9th Level" index pages
 that are hidden from browse and search. Every count the app displays is derived from
 the same filter, so the nav never advertises an entry you cannot reach.)
 

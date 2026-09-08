@@ -30,6 +30,8 @@ export const SPELL_THEME_SCENES = {
     "A single enormous creature arriving in a courtyard too small for it.",
     "A swarm of small conjured things boiling out of a sigil on the floor.",
     "An elemental rising out of the material it is made from."
+  ,
+    "A creature arriving mid-stride out of a tear in the air.",
   ],
   teleport: ["Two figures dissolving into streaks of light at one end of a hall and reforming at the other.",
     "A party vanishing from a burning room in a single silent flash.",
@@ -83,6 +85,9 @@ export const SPELL_THEME_SCENES = {
     "A warrior swelling to giant size, armour straps bursting one by one.",
     "A caster flowing into a form of running water and away down a drain.",
     "A party all changed into birds, lifting from a tower window together."
+  ,
+    "A hand elongating into a talon between one frame and the next.",
+    "A caster's outline blurring between two animal shapes.",
   ],
   protection: [
     "A shimmering dome of force closing over a kneeling party as a blast breaks against it.",
@@ -90,10 +95,14 @@ export const SPELL_THEME_SCENES = {
     "A translucent shield snapping into place a hand's width from an incoming blade.",
     "Runes of warding igniting in sequence around a doorway.",
     "A traveller walking unharmed through driving flame inside a bubble of calm air."
+  ,
+    "A ring of still air holding back blowing ash.",
   ],
   "wall-barrier": [
     "A wall of roaring flame springing up across a corridor from floor to ceiling.",
     "A thicket of grasping vines erupting from flagstones to seal a passage."
+  ,
+    "A barrier of force springing up across a corridor mouth.",
   ],
   "weapon-buff": [
     "A plain sword igniting along its length as a caster draws a finger down the blade.",
@@ -186,7 +195,9 @@ export const SPELL_THEME_SCENES = {
     "Two psychics duelling with nothing visible but their expressions."
 ,
     "A caster lifting a memory out of a subject's head as a slow drifting image."
-    ],
+    ,
+    "Two figures facing each other, saying nothing, clearly speaking.",
+  ],
   communication: [
     "A whispered message travelling as a thread of light across a night landscape to a distant ear.",
     "Two figures in different rooms speaking as if face to face, a shimmer between them."
@@ -203,7 +214,9 @@ export const SPELL_THEME_SCENES = {
     "A caster drawing a rope of blood out of the air and shaping it."
   ],
   "ritual-occult": ["Robed figures around a chalk diagram at midnight, candles at every vertex, one shape forming above."],
-  "ability-buff": ["A warrior straightening as a blessing settles on them, muscles cording, eyes clearing."],
+  "ability-buff": ["A warrior straightening as a blessing settles on them, muscles cording, eyes clearing.",
+    "A caster's touch and an ally standing straighter for it.",
+  ],
   "dispel-negate": ["A caster's counter-gesture unravelling an enemy spell into fading threads of light."],
   "trap-alarm": ["An invisible ward across a doorway flaring into visibility as something breaks it."]
 };

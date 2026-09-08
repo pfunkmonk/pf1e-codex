@@ -124,6 +124,45 @@ quarantine: the page is usually sitting in it.
 
 ### Repairs already applied to the data
 
+- **A SECOND recovery pass, 2026-09-08 — 783 more entries.** Auditing the whole quarantine
+  (13,424 pages) turned up more than class options, and a *different* loss besides.
+
+  | What | Count | Where it had been |
+  |---|---|---|
+  | Mythic path abilities | 404 | quarantined `PathAbilities.aspx` (9 pages) |
+  | Mythic path features | 22 | quarantined `MythicPaths.aspx` — Wild Arcana, Fleet Charge, Rally |
+  | Eidolon subtypes / base forms | 36 | quarantined `Eidolon*.aspx` |
+  | Favors | 5 | quarantined `MagicFavorsDisplay.aspx` |
+  | Spells | 125 | **typed correctly, never indexed** |
+  | Feats | 165 | **typed correctly, never indexed** |
+  | Summon tables | 939 rows | quarantined `MasterSummonList.aspx` |
+
+  `tools/import-typed-orphans.mjs` handles the second kind. `aon_structured_prep.py` sorted these
+  into `spells.jsonl` / `feats.jsonl` correctly and the step that built `data/index.js` dropped
+  them — the Codex had "Beast Shape I" and "II" but not "III" or "IV", "Summon Monster 1" and "2"
+  but not 3-9, and **no "Detect Thoughts" at all**. Bodies come from `<stem>.detail.jsonl`, whose
+  `raw` field is already in `data/cat/<bucket>.js` shape.
+
+  ⚠⚠ **Match EXACTLY on the name; never fuzzily.** A fuzzy pass was wrong in both directions: it
+  called "Beast Shape III" a variant of "Beast Shape I" (it is a different spell), and called all
+  1,320 archetypes missing because the Codex stores them class-prefixed
+  ("Aerochemist" → "Alchemist Aerochemist").
+
+  ⚠⚠ **MAGIC ITEMS ARE EXCLUDED ON PURPOSE.** 166 look missing by name and every one is already
+  present under a mangled VARIANT name carrying the full parent body — "Bag of Tricks" lives as
+  "Bag of Tricks Aquamarine", "Cloak of Resistance" as "Cloak of Resistance1". Importing them
+  would have added 166 duplicate pages. The test that caught it: does any existing item body's
+  FIRST LINE equal the candidate's name?
+
+### Summon tables live on the spell they belong to
+
+AoN prints the whole 9-level creature list on every Summon Monster page; the Codex had captured it
+onto "Summon Monster 1" and "2" only, all 105 rows on each, and 3-9 did not exist. Each of the 18
+summon spells now carries the slice it can use — Summon Monster N gets levels 1..N — plus the
+deity-specific additions for its level from `MasterSummonList.aspx` (939 rows, previously nowhere).
+Rebuild with `tools/import-summon-tables.mjs`; it is idempotent.
+
+
 - **1,713 CLASS OPTIONS recovered (2026-09-08).** The Codex was never scraped from AoN — it was
   built from a folder of archived page exports, and the structuring step turned each PAGE into
   entries. AoN publishes class options two ways, and only one survived that:
@@ -137,7 +176,7 @@ quarantine: the page is usually sitting in it.
   `tools/import-class-options.mjs` reads those pages back out of
   `…/FINISH/structured/_quarantine.jsonl` (nothing is fetched from the network) and rebuilds them.
   Idempotent — a second run adds nothing. **Re-run it after any data rebuild, or the options
-  disappear again.** Options went 835 → 2,548; the index 25,926 → 27,639.
+  disappear again.** Options went 835 → 3,010; the index 25,926 → 28,396.
 
   ⚠ Two traps found while writing it, both of which silently DELETE content:
   - **Dedup on name alone drops real options.** "Charm" and "Healing" are cleric domains *and*

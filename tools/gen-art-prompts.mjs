@@ -161,6 +161,8 @@ const SCENES = {
     "A fighter trading reach for safety, blade angled defensively across the body, weight settled back, reading the opponent.",
     "A duelist in a tight controlled guard turning aside three successive attacks without giving ground.",
     "A veteran giving deliberate ground step by step, never breaking form, drawing an overcommitted opponent onto bad footing."
+  ,
+    "A fighter giving ground deliberately, blade angled to deflect.",
   ],
   "dodge-mobility": [
     "A fighter bending backward out of a blade's path, the edge passing a finger's width from the throat.",
@@ -378,6 +380,8 @@ const SCENES = {
   stealth: [
     "A rogue flattened into deep shadow beside a lit corridor, utterly still as a guard passes.",
     "A blade sliding in from behind an unaware sentry, the assassin's face half-lit and calm."
+  ,
+    "A sentry passing a doorway with nobody in it, a moment too late.",
   ],
   intimidate: [
     "A warrior roaring into an enemy's face at arm's length, the target visibly breaking.",
