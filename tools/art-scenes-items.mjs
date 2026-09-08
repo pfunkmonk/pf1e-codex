@@ -377,6 +377,8 @@ export const ITEM_SCENES = {
     "An inkwell, quill and half-written page on a writing desk.",
     "A stack of blank parchment weighted with a stone, sealing wax beside it.",
     "A sealed letter with a pressed wax seal on a salver."
+  ,
+    "A sealed letter, a stick of wax and a signet laid out ready.",
   ],
   "boat-vehicle": [
     "A heavy timber wagon with its team unhitched, tailgate down.",

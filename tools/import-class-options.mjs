@@ -70,6 +70,31 @@ const PAGES = [
   [/\/GunslingerDeeds\.aspx$/i,             "Deeds",                 "Gunslinger"],
   [/\/SwashbucklerDeeds\.aspx$/i,           "Deeds",                 "Swashbuckler"],
   [/\/RangerCombatStyles\.aspx$/i,          "Combat Styles",         "Ranger"],
+  // Mythic path abilities are character options in every sense — the choices a mythic character
+  // makes at each tier — and the Codex had the mythic RULES chapter and 89 mythic monsters but
+  // none of these. The class recorded is the one whose scenes they borrow until opt-mythic-path
+  // art exists, not a claim about who grants them; the real path is in the `path` facet.
+  [/\/PathAbilities\.aspx\?Path=Archmage/i,           "Mythic Path Abilities", "Wizard"],
+  [/\/PathAbilities\.aspx\?Path=Champion/i,           "Mythic Path Abilities", "Fighter"],
+  [/\/PathAbilities\.aspx\?Path=Guardian/i,           "Mythic Path Abilities", "Paladin"],
+  [/\/PathAbilities\.aspx\?Path=Hierophant/i,         "Mythic Path Abilities", "Cleric"],
+  [/\/PathAbilities\.aspx\?Path=Marshal/i,            "Mythic Path Abilities", "Cavalier"],
+  [/\/PathAbilities\.aspx\?Path=Trickster/i,          "Mythic Path Abilities", "Rogue"],
+  [/\/PathAbilities\.aspx\?Path=Godling/i,            "Mythic Path Abilities", "Sorcerer"],
+  [/\/PathAbilities\.aspx\?Path=Universal/i,          "Mythic Path Abilities", "Oracle"],
+  // Eidolon options — present as monster families, absent as the choices a summoner makes.
+  [/\/EidolonBaseForms\.aspx$/i,           "Eidolon Base Forms",    "Summoner"],
+  [/\/EidolonUCBaseForms\.aspx$/i,         "Eidolon Base Forms (Unchained)", "Summoner (Unchained)"],
+  [/\/EidolonUCSubtypes\.aspx$/i,          "Eidolon Subtypes (Unchained)",   "Summoner (Unchained)"],
+  // Favors are single-use magic items given by one creature to another. Their own detail pages
+  // were quarantined because "Favors" is not a type the structuring step knows. A 4th element
+  // sends rows to a bucket other than `options`.
+  [/\/MagicFavorsDisplay\.aspx/i,          "Favors",                null, "items"],
+  // A mythic path’s BASE features (Wild Arcana, Fleet Charge, Sudden Attack) are described on
+  // the path page, not on PathAbilities.aspx, so importing only the ability lists left the
+  // best-known mythic abilities missing. Kept separate from the selectable path abilities
+  // because these are granted automatically; both share the opt-mythic-path art.
+  [/\/MythicPaths\.aspx\?Path=/i,          "Mythic Path Features",  null],
 ];
 
 const pageRule = (url) => PAGES.find(([re]) => re.test(url));
@@ -77,9 +102,12 @@ const pageRule = (url) => PAGES.find(([re]) => re.test(url));
 /* ---------- parsing ---------------------------------------------------------------------- */
 
 // "Name (Su)* (Book pg. 29): text"  — the tags and the * are optional and may be absent.
+// Godling abilities insert a deity in brackets: "Drunken Luck (Su) [Cayden Cailean] (Mythic
+// Origins pg. 6): ...". Without allowing that bracket the whole Godling page parsed to zero.
 const INLINE = new RegExp(
-  "^(?<name>[^(:][^:(]{0,80}?)\\s*" +
+  "^(?<name>[^(:\\[][^:(\\[]{0,80}?)\\s*" +
   "(?<tags>(?:\\((?:Su|Ex|Sp|Su\\/Ex)\\)\\s*)?\\*?)\\s*" +
+  "(?:\\[(?<deity>[^\\]]{1,40})\\]\\s*)?" +
   "\\((?<src>[^)]*?(?:pg\\.\\s*\\d+|[A-Za-z]))\\):\\s*(?<rest>.*)$");
 
 // A block entry is a NAME line whose next non-blank line starts with "Source ".
@@ -105,6 +133,7 @@ function parseInline(lines, startAt) {
     if (m) {
       cur = { name: m.groups.name.trim().replace(/\*+$/, ""),
               tags: (m.groups.tags || "").trim(),
+              deity: (m.groups.deity || "").trim(),
               source: m.groups.src.trim(),
               section,
               body: [m.groups.rest.trim()] };
@@ -179,9 +208,8 @@ const existingIds = new Set(IDX.map((r) => r[I_ID]));
 // unrelated families: "Charm" and "Healing" are cleric domains AND witch hexes, "Familiar" is a
 // magus arcanum AND a rogue talent, "Tremorsense" is an evolution AND a druid power. A global
 // name test silently dropped 29 genuine options on the first run.
-const existingOptionKeys = new Set(
-  IDX.filter((r) => r[I_SLUG] === "options")
-     .map((r) => `${r[I_RAW]}|${r[I_NAME].toLowerCase()}`));
+const existingKeys = new Set(
+  IDX.map((r) => `${r[I_SLUG]}|${r[I_RAW]}|${r[I_NAME].toLowerCase()}`));
 
 const mintId = (cat, name) =>
   crypto.createHash("sha256").update(`pf1e-codex-option|${cat}|${name}`).digest("hex").slice(0, 16);
@@ -199,7 +227,10 @@ for await (const line of rl) {
   const url = d.url || "";
   const rule = pageRule(url);
   if (!rule) continue;
-  found.push({ url, cat: rule[1], cls: rule[2], title: d.title || "", content: d.content || "" });
+  const pm = /[?&]Path=([^&]+)/i.exec(url);
+  found.push({ url, cat: rule[1], cls: rule[2], bucket: rule[3] || "options",
+               path: pm ? decodeURIComponent(pm[1].replace(/\+/g, " ")) : null,
+               title: d.title || "", content: d.content || "" });
 }
 
 if (!found.length) {
@@ -219,20 +250,25 @@ for (const pg of found.sort((a, b) => a.url.localeCompare(b.url))) {
   let added = 0, skipped = 0;
   for (const e of entries) {
     const key = e.name.toLowerCase();
-    if (existingOptionKeys.has(`${pg.cat}|${key}`)) { dupExisting++; skipped++; dupNames.push(`${pg.cat}/${e.name}`); continue; }
-    if (seenThisRun.has(`${pg.cat}|${key}`)) { dupInRun++; skipped++; continue; }
-    seenThisRun.add(`${pg.cat}|${key}`);
+    if (existingKeys.has(`${pg.bucket}|${pg.cat}|${key}`)) { dupExisting++; skipped++; dupNames.push(`${pg.cat}/${e.name}`); continue; }
+    if (seenThisRun.has(`${pg.bucket}|${pg.cat}|${key}`)) { dupInRun++; skipped++; continue; }
+    seenThisRun.add(`${pg.bucket}|${pg.cat}|${key}`);
 
-    const id = mintId(pg.cat, e.name);
+    const id = mintId(pg.bucket === "options" ? pg.cat : `${pg.bucket}|${pg.cat}`, e.name);
     if (existingIds.has(id)) { console.error(`ID COLLISION for ${e.name}`); process.exit(1); }
     existingIds.add(id);
 
     const desc = e.body.join("\n").trim();
     const bookOnly = e.source.replace(/\s*pg\.\s*\d+.*$/, "").trim();
     // Body mirrors the shape the other option entries use: name line, Source line, then prose.
-    newBodies[id] = `${e.name}${e.tags ? " " + e.tags : ""}\nSource ${e.source}\n${desc}`;
-    newRows.push([id, e.name, "options", pg.cat, e.source, desc.slice(0, 200),
-                  { bk: bookOnly, cls: pg.cls, ...(e.section ? { sec: e.section } : {}) }]);
+    (newBodies[pg.bucket] ||= {})[id] =
+      `${e.name}${e.tags ? " " + e.tags : ""}${e.deity ? " [" + e.deity + "]" : ""}` +
+      `\nSource ${e.source}\n${desc}`;
+    newRows.push([id, e.name, pg.bucket, pg.cat, e.source, desc.slice(0, 200),
+                  { bk: bookOnly, ...(pg.cls ? { cls: pg.cls } : {}),
+                    ...(pg.path ? { path: pg.path } : {}),
+                    ...(e.deity ? { deity: e.deity } : {}),
+                    ...(e.section ? { sec: e.section } : {}) }]);
     added++;
   }
   perPage.push({ url: pg.url.replace("https://www.aonprd.com", ""), cat: pg.cat, cls: pg.cls,
@@ -273,9 +309,15 @@ const idxPath = path.join(ROOT, "data/index.js");
 const merged = IDX.concat(newRows);
 fs.writeFileSync(idxPath, "window.PF_INDEX=" + JSON.stringify(merged) + ";\n");
 
-const optPath = path.join(ROOT, "data/cat/options.js");
-const mergedBodies = Object.assign({}, OPT_BODIES, newBodies);
-fs.writeFileSync(optPath, `window.PF_REG("options",${JSON.stringify(mergedBodies)});\n`);
+for (const [bucket, add] of Object.entries(newBodies)) {
+  const p = path.join(ROOT, `data/cat/${bucket}.js`);
+  const holder = {};
+  globalThis.window.PF_REG = (slug, map) => { holder[slug] = map; };
+  (0, eval)(fs.readFileSync(p, "utf8"));
+  const merged = Object.assign({}, holder[bucket] || {}, add);
+  fs.writeFileSync(p, `window.PF_REG("${bucket}",${JSON.stringify(merged)});\n`);
+  console.log(`  data/cat/${bucket}.js  +${Object.keys(add).length} -> ${Object.keys(merged).length} bodies`);
+}
 
 // app.js derives every count it DISPLAYS, so this is not load-bearing — but leaving meta.js
 // claiming 835 class options when there are 2,548 is a trap for the next person reading the data.
@@ -294,7 +336,7 @@ fs.writeFileSync(metaPath, "window.PF_META=" + JSON.stringify(metaObj) + ";\n");
 
 console.log(`\napplied:`);
 console.log(`  data/index.js        ${IDX.length} -> ${merged.length} rows`);
-console.log(`  data/cat/options.js  ${Object.keys(OPT_BODIES).length} -> ${Object.keys(mergedBodies).length} bodies`);
+
 console.log(`  data/meta.js         ${touched} category count(s) synced, total -> ${merged.length}`);
 console.log(`\nNEXT: regenerate meta counts, re-run derive-body-themes + size-variants + the checks,`);
 console.log(`      and bump the three cache tokens.`);

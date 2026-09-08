@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "69";
+  var DATA_V = "70";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -489,7 +489,10 @@
     "Shifter":"shifter","Stares":"stares","Advanced Weapon Training":"adv-weapon-training","Disciplines":"disciplines",
     "Construct Mods":"construct-mods","Schools":"schools","Spirits":"spirits","Emotional Focus":"emotional-focus",
     "Orders":"orders","Advanced Armor Training":"adv-armor-training","Implement Schools":"implement-schools",
-    "Unique Patrons":"unique-patrons"};
+    "Unique Patrons":"unique-patrons",
+    // The 404 mythic path abilities get their own set rather than piling onto arch-<class>:
+    // those sets already back 1,320 archetypes plus the recovered class options.
+    "Mythic Path Abilities":"mythic-path","Mythic Path Features":"mythic-path"};
   // A class option belongs to a class, and we already own scene art for all 39 of them. Prefer the
   // arch-<class> variety set (4-10 images each); fall back to the single class portrait. Names like
   // "Rogue (Unchained)" have no set of their own, so the parenthetical is dropped and the base
