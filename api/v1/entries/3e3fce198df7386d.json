@@ -1,0 +1,26 @@
+{
+  "id": "3e3fce198df7386d",
+  "name": "Dwarven Veil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dwarves of Golarion pg. 22",
+  "book": "Dwarves of Golarion",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Dwarves of Golarion"
+  },
+  "body": "Source Dwarves of Golarion pg. 22\nSchool transmutation; Level cleric 2, oracle 2, paladin 2, warpriest 2 (Bolka)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell enhances the target’s dwarven or dwarf-like qualities, making it appear more attractive, personable, and worthy of respect and admiration by dwarves. The target is still recognizable as itself. The target gains a +2 circumstance bonus to checks to influence dwarves (such as Diplomacy, Intimidate, and so on).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3e3fce198df7386d.json",
+    "web": "https://codex.pipsprojects.com/#/e/3e3fce198df7386d"
+  },
+  "license": "OGL 1.0a"
+}

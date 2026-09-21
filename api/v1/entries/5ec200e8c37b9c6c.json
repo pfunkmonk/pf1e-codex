@@ -1,0 +1,29 @@
+{
+  "id": "5ec200e8c37b9c6c",
+  "name": "Blight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 250",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "druid": 4,
+      "hunter": 4,
+      "shaman": 5,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 250\nSchool necromancy; Level arcanist 5, druid 4, hunter 4, shaman 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget plant touched\nDuration instantaneous\nSaving Throw Fortitude half; see text; Spell Resistance yes\nDescription\nThis spell withers a single plant of any size. An affected plant creature takes 1d6 points of damage per level (maximum 15d6) and may attempt a Fortitude saving throw for half damage. A plant that isn't a creature doesn't receive a save and immediately withers and dies.\n\nThis spell has no effect on the soil or surrounding plant life.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ec200e8c37b9c6c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ec200e8c37b9c6c"
+  },
+  "license": "OGL 1.0a"
+}

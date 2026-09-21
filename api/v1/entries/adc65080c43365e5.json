@@ -1,0 +1,35 @@
+{
+  "id": "adc65080c43365e5",
+  "name": "Vigilant Rest",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 237",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 3,
+      "bard": 4,
+      "hunter": 3,
+      "medium": 3,
+      "mesmerist": 4,
+      "occultist": 3,
+      "paladin": 3,
+      "psychic": 4,
+      "ranger": 3,
+      "shaman": 4,
+      "skald": 4,
+      "spiritualist": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 237\nSchool abjuration; Level antipaladin 3, bard 4, hunter 3, medium 3, mesmerist 4, occultist 3, paladin 3, psychic 4, ranger 3, shaman 4, skald 4, spiritualist 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a handful of crushed glass)\nEffect\nRange touch\nTarget 1 living creature touche\nDuration 8 hours (D)\nSaving Throw Will (harmless); Spell Resistance yes (harmless)\nDescription\nWhile the target of this spell is asleep, she retains some of her normal powers of perception. While she tunes out harmless sounds such as the crackling of the campfire, crickets, or light breezes, she does not take the normal +10 modifier to the DC of Perception checks she attempts while asleep.\n\nIf the target detects a threat or unexplained noise while sleeping, she can wake immediately and stand up from her sleeping position as a free action.\n\nIf the target is roused but returns to sleep during the spell’s duration, she falls asleep immediately and does not count as having her sleep interrupted, even if she engaged in combat while she was awake.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adc65080c43365e5.json",
+    "web": "https://codex.pipsprojects.com/#/e/adc65080c43365e5"
+  },
+  "license": "OGL 1.0a"
+}

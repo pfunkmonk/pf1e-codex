@@ -1,0 +1,17 @@
+{
+  "id": "904c52016add71f9",
+  "name": "Emotion Aura",
+  "bucket": "monsters",
+  "category": "Universal Monster Rules",
+  "source": "Bestiary 5 pg. 292",
+  "book": "Bestiary 5",
+  "facets": {
+    "bk": "Bestiary 5"
+  },
+  "body": "All | Unique\nEmotion Aura (Su)\nSource Bestiary 5 pg. 292\nA creature with this ability surrounds itself with an area of swirling, chaotic emotions. These emotions make it difficult for spellcasters to cast spells with the emotion component. Living creatures within 30 feet must succeed at a concentration check (DC = 10 + 1/2 the HD of the creature with an emotion aura + that creature’s Charisma modifier) to cast a spell with an emotion component. Failing this check causes the spell to be lost with no effect. In addition, any spellcaster casting spells with the emotion or fear descriptor on targets inside this aura must succeed at this check or the spell fails to affect targets within the aura (although others outside the area are affected as normal). Creatures with this ability are immune to its effects and can cast spells normally.\n\nFormat: emotion (DC 17)\nLocation: Aura.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/904c52016add71f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/904c52016add71f9"
+  },
+  "license": "OGL 1.0a"
+}

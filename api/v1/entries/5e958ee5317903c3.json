@@ -1,0 +1,18 @@
+{
+  "id": "5e958ee5317903c3",
+  "name": "Decoy trigger (decoy pressure switch)",
+  "bucket": "items",
+  "category": "Equipment",
+  "source": "Kobolds of Golarion pg. 28",
+  "book": "Kobolds of Golarion",
+  "facets": {
+    "pr": 60,
+    "bk": "Kobolds of Golarion"
+  },
+  "body": "Decoy trigger\nSource Kobolds of Golarion pg. 28\nPrice 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire); Weight — (decoy pressure switch), — (decoy trap door), — (decoy tripwire)\nDescription\nDecoy triggers are misleading mechanisms intended to divert a victim’s attention from a real trap by presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to disarm or evade it, triggers the real trap.\n\nA decoy trigger grants a bonus to the Perception DC of any trap it accessorizes—the decoy itself has an intentionally low Perception DC. Though a decoy trigger increases the CR of the trap it augments, as a standalone accessory it doesn’t increase the trap’s Craft DC. Instead of a Disable Device DC, decoy triggers have a Sense Motive DC. If a creature succeeds at the decoy’s Sense Motive check, it immediately recognizes the decoy trigger as a fake, and the real trap loses the bonus to its Perception DC. All decoy triggers are single-use only.\nDecoy Pressure Switch\nType mechanical; Perception DC 12; Sense Motive DC 24\nEffects\nTrap Perception DC +6, CR Modifier: +2\n\nDecoy Trap Door\nType mechanical; Perception DC 10; Sense Motive DC 28\nEffects\nTrap Perception DC +9, CR Modifier: +3\n\nDecoy Tripwire\nType mechanical; Perception DC 15; Sense Motive DC 20\nEffects\nTrap Perception DC +3, CR Modifier: +1",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5e958ee5317903c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/5e958ee5317903c3"
+  },
+  "license": "OGL 1.0a"
+}

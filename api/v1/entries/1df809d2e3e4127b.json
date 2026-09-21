@@ -1,0 +1,17 @@
+{
+  "id": "1df809d2e3e4127b",
+  "name": "Damage Reduction",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 561",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nCombat / Special Abilities\n\nDamage Reduction\nSource PRPG Core Rulebook pg. 561\nSome magic creatures have the supernatural ability to instantly heal damage from weapons or ignore blows altogether as though they were invulnerable.\n\nThe numerical part of a creature’s damage reduction (or DR) is the amount of damage the creature ignores from normal attacks. Usually, a certain type of weapon can overcome this reduction (see Overcoming DR). This information is separated from the damage reduction number by a slash. For example, DR 5/magic means that a creature takes 5 less points of damage from all weapons that are not magic. If a dash follows the slash, then the damage reduction is effective against any attack that does not ignore damage reduction.\n\nWhenever damage reduction completely negates the damage from an attack, it also negates most special effects that accompany the attack, such as injury poison, a monk’s stunning, and injury-based disease. Damage reduction does not negate touch attacks, energy damage dealt along with an attack, or energy drains. Nor does it affect poisons or diseases delivered by inhalation, ingestion, or contact.\n\nAttacks that deal no damage because of the target’s damage reduction do not disrupt spells.\n\nSpells, spell-like abilities, and energy attacks (even nonmagical fire) ignore damage reduction.\n\nSometimes damage reduction represents instant healing. Sometimes it represents the creature’s tough hide or body. In either case, other characters can see that conventional attacks won’t work.\n\nIf a creature has damage reduction from more than one source, the two forms of damage reduction do not stack. Instead, the creature gets the benefit of the best damage reduction in a given situation.\n\nOvercoming DR: Damage reduction may be overcome by special materials, magic weapons (any weapon with a +1 or higher enhancement bonus, not counting the enhancement from masterwork quality), certain types of weapons (such as slashing or bludgeoning), and weapons imbued with an alignment.\n\nAmmunition fired from a projectile weapon with an enhancement bonus of +1 or higher is treated as a magic weapon for the purpose of overcoming damage reduction. Similarly, ammunition fired from a projectile weapon with an alignment gains the alignment of that projectile weapon (in addition to any alignment it may already have).\n\nWeapons with an enhancement bonus of +3 or greater can ignore some types of damage reduction, regardless of their actual material or alignment. The following table shows what type of enhancement bonus is needed to overcome some common types of damage reduction.\nDR Type Weapon Enhancement Bonus Equivalent\nCold Iron/Silver +3\nAdamantine* +4\nAlignment-based +5\n* Note that this does not give the ability to ignore hardness, like an actual adamantine weapon does",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1df809d2e3e4127b.json",
+    "web": "https://codex.pipsprojects.com/#/e/1df809d2e3e4127b"
+  },
+  "license": "OGL 1.0a"
+}

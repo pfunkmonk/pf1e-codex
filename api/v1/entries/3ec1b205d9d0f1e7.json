@@ -1,0 +1,33 @@
+{
+  "id": "3ec1b205d9d0f1e7",
+  "name": "Artificer's Curse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 19",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 7,
+      "bard": 6,
+      "cleric": 7,
+      "inquisitor": 6,
+      "occultist": 6,
+      "oracle": 7,
+      "shaman": 7,
+      "skald": 6,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 19\nSchool transmutation; Level arcanist 7, bard 6, cleric 7, inquisitor 6, occultist 6, oracle 7, shaman 7, skald 6, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a blank scroll or page from a spellbook)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 magical item\nDuration 1 minute/level (D)\nSaving Throw Will negates (object); Spell Resistance yes\nDescription\nYou temporarily suppress the most powerful qualities of a magical item. This item can be any object you suspect bears a magical enchantment, but if the targeted item is not magical, your spell has no effect. The spell reduces the object’s caster level by an amount equal to your caster level, to a minimum of 0. If the item grants a competence, deflection, enhancement, insight, luck, morale, natural armor, profane, resistance, or sacred bonus, the bonus is reduced by 1 for every 4 caster levels the item loses. If the item’s caster level is reduced to 0, all its magic qualities are suppressed (as if dispelled) for the duration of the spell. This spell has no effect on artifacts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ec1b205d9d0f1e7.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ec1b205d9d0f1e7"
+  },
+  "license": "OGL 1.0a"
+}

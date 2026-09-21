@@ -1,0 +1,37 @@
+{
+  "id": "c1ede77ce1f0b916",
+  "name": "Raging Rubble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 149",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "bloodrager": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 149\nSchool transmutation [earth]; Level arcanist 3, bard 3, bloodrager 3, cleric 3, druid 3, hunter 3, oracle 3, redmantisassassin 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3 (oread)\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one swarm of stones\nDuration concentration + 2 rounds\nSaving Throw none; Spell Resistance yes\nDescription\nYou animate an area of rubble, gravel, or other small stones, creating a dangerous, rolling area of debris. The animated rubble has a space of 10 feet and acts like a swarm, damaging (1d6 hit points) and distracting (DC 12) anything within it. As a move action, you can direct the rubble to move up to 10 feet. If the rubble is attacked, treat it as a Medium animated object with the young creature simple template and the swarm subtype.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c1ede77ce1f0b916.json",
+    "web": "https://codex.pipsprojects.com/#/e/c1ede77ce1f0b916"
+  },
+  "license": "OGL 1.0a"
+}

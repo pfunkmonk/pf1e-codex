@@ -1,0 +1,32 @@
+{
+  "id": "7f3281fa5e30efe3",
+  "name": "Frigid Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 221",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "druid": 2,
+      "hunter": 2,
+      "magus": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 221\nSchool evocation [cold]; Level arcanist 2, bloodrager 2, druid 2, hunter 2, magus 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nThis spell causes your hand to glow with a pale blue radiance. Your melee touch attack deals 4d6 points of cold damage and causes the target to be staggered for 1 round. If the attack is a critical hit, the target is staggered for 1 minute instead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7f3281fa5e30efe3.json",
+    "web": "https://codex.pipsprojects.com/#/e/7f3281fa5e30efe3"
+  },
+  "license": "OGL 1.0a"
+}

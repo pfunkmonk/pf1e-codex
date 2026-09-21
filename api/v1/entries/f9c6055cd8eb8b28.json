@@ -1,0 +1,36 @@
+{
+  "id": "f9c6055cd8eb8b28",
+  "name": "Sadomasochism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 239",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 3,
+      "inquisitor": 3,
+      "magus": 4,
+      "oracle": 3,
+      "sorcerer": 4,
+      "warpriest": 3,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 239\nSchool necromancy [pain]; Level antipaladin 3, arcanist 4, bloodrager 4, cleric 3, inquisitor 3, magus 4, oracle 3, sorcerer 4, warpriest 3, witch 4, wizard 4 (Zon-Kuthon)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nSaving Throw Will negates, see text; Spell Resistance yes\nDescription\nWhile subject to this spell, any time you are dealt damage, your attacker must roll damage for the attack twice and take the higher roll, but the attacker must also succeed at a Will saving throw or become demoralized (Core Rulebook 99) for 1 round. Each time you deal damage to a creature demoralized by this spell, you roll damage twice and take the higher result.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9c6055cd8eb8b28.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9c6055cd8eb8b28"
+  },
+  "license": "OGL 1.0a"
+}

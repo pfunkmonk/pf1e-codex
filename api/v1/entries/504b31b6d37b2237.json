@@ -1,0 +1,34 @@
+{
+  "id": "504b31b6d37b2237",
+  "name": "Restore Corpse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 235",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "medium": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 235\nSchool necromancy; Level arcanist 1, cleric 1, druid 1, hunter 1, medium 1, occultist 1, oracle 1, psychic 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget corpse touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou grow flesh on a decomposed or skeletonized corpse of a Medium or smaller creature, providing it with sufficient flesh that it can be animated as a zombie rather than a skeleton. The corpse looks as it did when the creature died. The new flesh is somewhat rotted and not fit for eating.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/504b31b6d37b2237.json",
+    "web": "https://codex.pipsprojects.com/#/e/504b31b6d37b2237"
+  },
+  "license": "OGL 1.0a"
+}

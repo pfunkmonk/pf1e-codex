@@ -1,0 +1,30 @@
+{
+  "id": "f7d6b6aebae07b78",
+  "name": "Eroding Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Plane-Hopper's Handbook pg. 30",
+  "book": "Plane-Hopper's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Plane-Hopper's Handbook"
+  },
+  "body": "Source Plane-Hopper's Handbook pg. 30\nSchool transmutation; Level arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou channel a fraction of the tumultuous ecosystem of the Hao Jin Tapestry and redirect it through your hands as a beam of deteriorating energy. You can fire one ray, plus one additional ray for every 4 levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and can target only a construct or an object. If a ray hits, the target begins to crumble, taking 2d6 points of damage. This damage ignores hardness and damage reduction.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f7d6b6aebae07b78.json",
+    "web": "https://codex.pipsprojects.com/#/e/f7d6b6aebae07b78"
+  },
+  "license": "OGL 1.0a"
+}

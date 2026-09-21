@@ -1,0 +1,28 @@
+{
+  "id": "7e78922ef553e6d2",
+  "name": "Death Candle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 131",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 131\nSchool necromancy [death, evil, fire]; Level antipaladin 1, cleric 2, inquisitor 2, oracle 2, warpriest 2, witch 2 (ifrit)\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous/1 round per HD of subject; see text\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions like death knell, except instead of using the slain target’s life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with summon monster II. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7e78922ef553e6d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/7e78922ef553e6d2"
+  },
+  "license": "OGL 1.0a"
+}

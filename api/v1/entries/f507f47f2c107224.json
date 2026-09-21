@@ -1,0 +1,26 @@
+{
+  "id": "f507f47f2c107224",
+  "name": "Putrefy Food and Drink",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 237",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "witch": 0
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 237\nSchool transmutation [poison]; Level witch 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 10 ft.\nTarget 1 cu. ft./level of food and water or one potion; see text\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis spell causes otherwise edible food to rot and spoil instantly, and water and other liquids to become brackish and undrinkable. Holy water and similar food and drink of significance are spoiled by putrefy food and drink, but the spell has no effect on creatures of any type, nor upon unholy water. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.\n\nAlthough potions and elixirs are unaffected by the normal use of the spell, you can instead choose to target a single such object with this spell, destroying it if it fails a saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f507f47f2c107224.json",
+    "web": "https://codex.pipsprojects.com/#/e/f507f47f2c107224"
+  },
+  "license": "OGL 1.0a"
+}

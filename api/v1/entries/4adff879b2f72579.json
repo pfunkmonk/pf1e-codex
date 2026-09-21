@@ -1,0 +1,31 @@
+{
+  "id": "4adff879b2f72579",
+  "name": "Free Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 23",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "medium": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "skald": 3,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3
+    },
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 23\nSchool abjuration; Level bard 3, cleric 3, druid 3, hunter 3, medium 3, oracle 3, shaman 3, skald 3, spiritualist 3, warpriest 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nThis spell allows you to channel the essence of Cayden Cailean’s philosophy, giving you the benefits of a freedom of movement spell and granting you a +4 bonus on saving throws against fear effects. The spell also makes you drunk. For the duration of the spell, you take a –2 penalty on attack rolls, ability checks, skill checks, and concentration checks. If you somehow remove or avoid these penalties, the spell’s duration ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4adff879b2f72579.json",
+    "web": "https://codex.pipsprojects.com/#/e/4adff879b2f72579"
+  },
+  "license": "OGL 1.0a"
+}

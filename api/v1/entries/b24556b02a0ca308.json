@@ -1,0 +1,27 @@
+{
+  "id": "b24556b02a0ca308",
+  "name": "Technomancy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Technology Guide pg. 11",
+  "book": "Technology Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Technology Guide"
+  },
+  "body": "Source Technology Guide pg. 11\nSchool divination; Level arcanist 1, bard 1, skald 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (oil stirred with a coil of wires)\nEffect\nRange 60 ft.\nTarget cone-shaped emanation\nDuration 3 rounds/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as detect magic, except it detects the presence of technological objects instead of magical objects. The spell grants you the Technologist feat for the purposes of attempting Knowledge (engineering) checks to identify the properties of technological items in your possession. If you already possess this feat, you gain a +10 bonus on Knowledge (engineering) checks to identify item properties.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b24556b02a0ca308.json",
+    "web": "https://codex.pipsprojects.com/#/e/b24556b02a0ca308"
+  },
+  "license": "OGL 1.0a"
+}

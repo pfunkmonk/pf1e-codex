@@ -1,0 +1,32 @@
+{
+  "id": "5a585cf20e10d51f",
+  "name": "Psychic Leech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Origins pg. 29",
+  "book": "Occult Origins",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "magus": 3,
+      "medium": 3,
+      "mesmerist": 2,
+      "psychic": 2,
+      "sorcerer": 3,
+      "spiritualist": 2,
+      "witch": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Origins"
+  },
+  "body": "Source Occult Origins pg. 29\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 3, bloodrager 3, magus 3, medium 3, mesmerist 2, psychic 2, sorcerer 3, spiritualist 2, witch 2, wizard 3\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 minute/level (D)\nSaving Throw Will partial; Spell Resistance yes\nDescription\nThe target experiences feelings of ennui and lethargy, becoming fatigued for the spell’s duration. While the target is fatigued and is within the spell’s range, you gain a +2 enhancement bonus to Strength and Dexterity. On a successful save, the target is fatigued for only 1d4 rounds and you receive no bonus. This spell has no effect if it targets a creature that is already fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a585cf20e10d51f.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a585cf20e10d51f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ce472c46582de95f",
+  "name": "Pain Strike, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 234",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "psychic": 2,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Pain Strike\nSource Advanced Player's Guide pg. 234\nSchool evocation [evil, pain]; Level arcanist 3, bloodrager 3, psychic 2, sorcerer 3, spiritualist 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nPain strike racks the targeted creature with agony, inflicting 1d6 points of nonlethal damage per round for 1 round per level (maximum 10 rounds). Additionally, the affected creature is sickened for the spell’s duration, and the caster gains a +4 circumstance bonus on Intimidate checks against the target.\nPain Strike, Mass\nSource Advanced Player's Guide pg. 234\nSchool evocation [evil, pain]; Level arcanist 5, psychic 4, sorcerer 5, spiritualist 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one living creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell works like pain strike, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce472c46582de95f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce472c46582de95f"
+  },
+  "license": "OGL 1.0a"
+}

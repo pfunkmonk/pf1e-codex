@@ -1,0 +1,29 @@
+{
+  "id": "ed03387d0c454b93",
+  "name": "Lunar Veil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 227",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "oracle": 7,
+      "psychic": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 227\nSchool illusion (shadow) [darkness, shadow]; Level arcanist 7, cleric 7, oracle 7, psychic 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nArea 120-ft.-radius emanation\nDuration 10 minute/level\nSaving Throw Will negates, see text; Spell Resistance no\nDescription\nYou conjure a tremendous area of shadow to obscure moonlight within the area, creating something akin to a lunar eclipse. The light level is lowered by two steps (though unlike deeper darkness, areas of normal light or dimmer become normal darkness rather than supernaturally dark). Lycanthropes in the area must make a Will save every round or revert to their humanoid forms. In addition, lycanthropes attempting to assume animal or hybrid form within the affected area take a –5 penalty on Constitution checks to do so.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed03387d0c454b93.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed03387d0c454b93"
+  },
+  "license": "OGL 1.0a"
+}

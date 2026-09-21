@@ -1,0 +1,27 @@
+{
+  "id": "af2c897b558910cd",
+  "name": "Denounce",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 215",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "inquisitor": 4,
+      "mesmerist": 4,
+      "psychic": 5,
+      "skald": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 215\nSchool enchantment (compulsion) [language-dependent, mind-affecting]; Level bard 4, inquisitor 4, mesmerist 4, psychic 5, skald 4\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-ft.-radius burst\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou speak out against a single creature within line of sight and turn possible allies against it by drawing upon the power of your voice and conviction. Creatures in the area who can see the denounced creature must make a Will saving throw or have their starting attitude toward the denounced creature worsened by two levels. For example, creatures previously indifferent to the subject turn unfriendly. Diplomacy checks made to reverse the effects of denounce are made at a –10 penalty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af2c897b558910cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/af2c897b558910cd"
+  },
+  "license": "OGL 1.0a"
+}

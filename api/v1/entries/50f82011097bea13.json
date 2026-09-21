@@ -1,0 +1,37 @@
+{
+  "id": "50f82011097bea13",
+  "name": "Cure Critical Wounds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 262",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 4,
+      "alchemist": 4,
+      "bard": 4,
+      "cleric": 4,
+      "druid": 5,
+      "hunter": 5,
+      "inquisitor": 4,
+      "investigator": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "skald": 4,
+      "spiritualist": 4,
+      "warpriest": 4,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 262\nSchool conjuration (healing); Level adept 4, alchemist 4, bard 4, cleric 4, druid 5, hunter 5, inquisitor 4, investigator 4, occultist 4, oracle 4, shaman 4, skald 4, spiritualist 4, warpriest 4, witch 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless); see text\nDescription\nThis spell functions like cure light wounds, except that it cures 4d8 points of damage +1 point per caster level (maximum +20).\nMythic Cure Critical Wounds\nSource Mythic Adventures pg. 89\nThe damage cured increases to 8d8 points of damage + 2 points per caster level (maximum +40). The spell cures up to 4 points of ability damage if the target is a living creature. The target chooses what types of ability damage are cured.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/50f82011097bea13.json",
+    "web": "https://codex.pipsprojects.com/#/e/50f82011097bea13"
+  },
+  "license": "OGL 1.0a"
+}

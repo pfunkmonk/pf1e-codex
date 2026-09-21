@@ -1,0 +1,27 @@
+{
+  "id": "31c4a3bbad5e34c9",
+  "name": "Fable Tapestry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 219",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "skald": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 219\nSchool illusion (shadow) [shadow]; Level bard 5, skald 5 (Varisian)\nCasting\nCasting Time 1 round\nComponents V, S, F (your kapenia)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 1 legendary character/4 caster levels\nDuration 1 round/level\nSaving Throw Will disbelief; Spell Resistance yes\nDescription\nThe spell weaves shadows and colors from your kapenia into the shape of legendary characters from Varisian folktales. This spell functions as shadow conjuration emulating summon monster I, except as noted here. You can summon only one copy of the same character at the same time, even with multiple castings of this spell. The shadow creatures are 40% real and are drawn from the list below.\n\nCharacter Source\nAnelda the beautiful (freelance thief) NPC Codex 147\nOld Mother Toad (fey giant toad) Bestiary 3 116\nSonnorae the storyteller (con artist) NPC Codex 29\nVyushbaro the savior (carousing champion) NPC Codex 47\nWinter’s Son (evasive slip) NPC Codex 65\nZykomso the slaver (bearded devil) Bestiary 73",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31c4a3bbad5e34c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/31c4a3bbad5e34c9"
+  },
+  "license": "OGL 1.0a"
+}

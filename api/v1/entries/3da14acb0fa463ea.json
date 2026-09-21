@@ -1,0 +1,27 @@
+{
+  "id": "3da14acb0fa463ea",
+  "name": "Aura of Inviolate Ownership",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Melee Tactics Toolbox pg. 30",
+  "book": "Melee Tactics Toolbox",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "warpriest": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Melee Tactics Toolbox"
+  },
+  "body": "Source Melee Tactics Toolbox pg. 30\nSchool abjuration; Level cleric 3, inquisitor 3, oracle 3, paladin 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell wards the attended items of all creatures it targets (items held, securely fastened to their person, or in containers on their person), enhancing each creature’s grip and protecting items from loss or theft. The DC of Sleight of Hand checks to remove items warded by the spell is increased by 20, and affected creatures gain a +20 bonus to their CMDs against disarm and steal combat maneuvers.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3da14acb0fa463ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/3da14acb0fa463ea"
+  },
+  "license": "OGL 1.0a"
+}

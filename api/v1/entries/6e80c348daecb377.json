@@ -1,0 +1,22 @@
+{
+  "id": "6e80c348daecb377",
+  "name": "Flexible Fury",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 182",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "skald": 3
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 182\nSchool transmutation; Level bard 3, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nYou swap one of your current rage powers for another rage power you qualify for. If the rage power granted by this spell has a use limitation (such as once per rage or a number of times per day), any uses of that rage power count toward that limit (including for later castings of this spell).\n\nIf you swap out a rage power that is required to qualify for another one of your rage powers, you cannot use any rage powers dependent on the one you swapped out until the spell ends. For example, if you have the intimidating glare and terrifying howl rage powers and you swap out intimidating glare for surprise accuracy, you cannot use terrifying howl until the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e80c348daecb377.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e80c348daecb377"
+  },
+  "license": "OGL 1.0a"
+}

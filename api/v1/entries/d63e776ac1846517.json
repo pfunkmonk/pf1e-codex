@@ -1,0 +1,28 @@
+{
+  "id": "d63e776ac1846517",
+  "name": "Eldritch Fever",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 218",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 3,
+      "inquisitor": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 218\nSchool necromancy [curse, disease, evil]; Level arcanist 3, inquisitor 3, psychic 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThe target gains the eldritch ague spellblight (see Ultimate Magic).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d63e776ac1846517.json",
+    "web": "https://codex.pipsprojects.com/#/e/d63e776ac1846517"
+  },
+  "license": "OGL 1.0a"
+}

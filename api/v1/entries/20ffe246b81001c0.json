@@ -1,0 +1,28 @@
+{
+  "id": "20ffe246b81001c0",
+  "name": "Delayed Blast Fireball",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 265",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 265\nSchool evocation [fire]; Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a ball of bat guano and sulfur)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius spread\nDuration 5 rounds or less; see text\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nThis spell functions like fireball, except that it is more powerful and can detonate up to 5 rounds after the spell is cast. The burst of flame deals 1d6 points of fire damage per caster level (maximum 20d6). The glowing bead created by delayed blast fireball can detonate immediately if you desire, or you can choose to delay the burst for as many as 5 rounds. You select the amount of delay upon completing the spell, and that time cannot change once it has been set unless someone touches the bead. If you choose a delay, the glowing bead sits at its destination until it detonates. A creature can pick up and hurl the bead as a thrown weapon (range increment 10 feet). If a creature handles and moves the bead within 1 round of its detonation, there is a 25% chance that the bead detonates while being handled.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20ffe246b81001c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/20ffe246b81001c0"
+  },
+  "license": "OGL 1.0a"
+}

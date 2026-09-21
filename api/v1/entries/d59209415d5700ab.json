@@ -1,0 +1,29 @@
+{
+  "id": "d59209415d5700ab",
+  "name": "Telekinesis",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 357",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 5,
+      "magus": 5,
+      "occultist": 5,
+      "psychic": 4,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 357\nSchool transmutation; Level arcanist 5, magus 5, occultist 5, psychic 4, sorcerer 5, spiritualist 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget or Targets see text\nDuration concentration (up to 1 round/level) or instantaneous; see text\nSaving Throw Will negates (object) or none; see text; Spell Resistance yes (object); see text\nDescription\nYou move objects or creatures by concentrating on them. Depending on the version selected, the spell can provide a gentle, sustained force, perform a variety of combat maneuvers, or exert a single short, violent thrust.\n\nSustained Force: A sustained force moves an object weighing no more than 25 pounds per caster level (maximum 375 pounds at 15th level) up to 20 feet per round. A creature can negate the effect on an object it possesses with a successful Will save or with spell resistance.\n\nThis version of the spell can last 1 round per caster level, but it ends if you cease concentration. The weight can be moved vertically, horizontally, or in both directions. An object cannot be moved beyond your range. The spell ends if the object is forced beyond the range. If you cease concentration for any reason, the object falls or stops.\n\nAn object can be telekinetically manipulated as if with one hand. For example, a lever or rope can be pulled, a key can be turned, an object rotated, and so on, if the force required is within the weight limitation. You might even be able to untie simple knots, though delicate activities such as these require DC 15 Intelligence checks.\n\nCombat Maneuver: Alternatively, once per round, you can use telekinesis to perform a bull rush, disarm, grapple (including pin), or trip. Resolve these attempts as normal, except that they don't provoke attacks of opportunity, you use your caster level in place of your Combat Maneuver Bonus, and you add your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer) in place of your Strength or Dexterity modifier. No save is allowed against these attempts, but spell resistance applies normally. This version of the spell can last 1 round per caster level, but it ends if you cease concentration.\n\nViolent Thrust: Alternatively, the spell energy can be spent in a single round. You can hurl one object or creature per caster level (maximum 15) that are within range and all within 10 feet of each other toward any target within 10 feet per level of all the objects. You can hurl up to a total weight of 25 pounds per caster level (maximum 375 pounds at 15th level).\n\nYou must succeed on attack rolls (one per creature or object thrown) to hit the target with the items, using your base attack bonus + your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer). Weapons cause standard damage (with no Strength bonus; note that arrows or bolts deal damage as daggers of their size when used in this manner). Other objects cause damage ranging from 1 point per 25 pounds (for less dangerous objects) to 1d6 points of damage per 25 pounds (for hard, dense objects). Objects and creatures that miss their target land in a square adjacent to the target.\n\nCreatures who fall within the weight capacity of the spell can be hurled, but they are allowed Will saves (and spell resistance) to negate the effect, as are those whose held possessions are targeted by the spell.\n\nIf a telekinesed creature is hurled against a solid surface, it takes damage as if it had fallen 10 feet (1d6 points).\nMythic Telekinesis\nSource Mythic Adventures pg. 110\nThe duration of this spell changes to 1 round per level. You may spend a move action to use the sustained force or combat maneuver effects of the spell.\n\nWhen using sustained force, you can move a number of objects up to your tier. These must be in the same square and together must weigh no more than the weight limit of the spell.\n\nUsing the violent thrust effect ends the spell, but the weight restriction increases to 50 pounds per caster level (maximum 750 pounds).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d59209415d5700ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/d59209415d5700ab"
+  },
+  "license": "OGL 1.0a"
+}

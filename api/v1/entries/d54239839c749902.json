@@ -1,0 +1,21 @@
+{
+  "id": "d54239839c749902",
+  "name": "Sawdust Slough",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Andoran, Birthplace of Freedom pg. 59",
+  "book": "Andoran",
+  "facets": {
+    "cr": 4,
+    "sz": "Large",
+    "t": "plant",
+    "al": "N",
+    "bk": "Andoran"
+  },
+  "body": "A cloud of fine dust particles hangs in the air around this seething mass of sawdust and wood shavings.\nSawdust Slough CR 4\nSource Andoran, Birthplace of Freedom pg. 59\nXP 1,200\nN Large plant\nInit –1; Senses low-light vision, tremorsense 60 ft.; Perception –5\nAura choking chaff (5 ft., DC 18)\nDefense\nAC 12, touch 8, flat-footed 12 (–1 Dex, +4 natural, –1 size)\nhp 57 (6d8+30)\nFort +10, Ref +1, Will –3\nDefensive Abilities amorphous; DR 5/—; Immune plant traits\nWeaknesses vulnerable to fire\nOffense\nSpeed 20 ft., climb 20 ft.\nMelee slam +7 (1d6+6)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks engulf (DC 17, 1d6+6 bludgeoning plus choking chaff)\nStatistics\nStr 18, Dex 8, Con 21, Int —, Wis 1, Cha 1\nBase Atk +4; CMB +9; CMD 18 (can’t be tripped)\nSkills Climb +12\nSQ flammable\nEcology\nEnvironment temperate forest\nOrganization solitary, pair, or cascade (3–6)\nTreasure standard\nSpecial Abilities\nChoking Chaff (Ex) A sawdust slough constantly releases particles of plant matter that form a cloud of choking dust around it. Creatures beginning their turns adjacent to a sawdust slough are coated with this dust, revealing invisible creatures (as glitterdust, though without any of that spell’s other effects) and dazzling creatures as long as they remain adjacent to it and for 1d3 rounds thereafter. In addition, creatures that breathe that begin their turns adjacent to the sawdust slough are sickened for the same duration (Fortitude DC 18 negates). Creatures that hold their breath before being exposed to the choking chaff aura are immune to the sickening effect for as long as they hold their breath. The save DC is Constitution-based. A sawdust slough’s choking chaff aura is burned off when it takes fire damage, and does not become active again until the end of the sawdust slough’s next turn.\n\nFlammable (Ex) Sawdust sloughs and the particulate cloud surrounding them are highly flammable, causing any damaging flame around them to flare up in gouts of fire. Any creature adjacent to a sawdust slough (including creatures engulfed by it) when it takes fire damage must succeed at a DC 18 Reflex save or take half as much fire damage as that dealt to the sawdust slough. The save DC is Constitution-based.\nDescription\nThe vast forests of Andoran have long been prime timberlands, logged and exploited for centuries as crucial resources in Andoran’s efforts to establish itself as a great naval and shipbuilding power. Rather than seek to work in balance with the forests, many logging groups have clearcut vast sections of woodland, and such depredations have not been without consequence.\n\nAs the blood of fey guardians is spilled and spirits of ancient plants and wild places are destroyed, the wild power sometimes weaves itself into the sawdust and shavings left behind by loggers, spawning mindlessly destructive masses of detritus called sawdust sloughs. These creatures are drawn to loud noises and vibrations, especially metallic sounds such as chopping and sawing. They savagely attack loggers and mills, engulfing and suffocating all creatures they encounter and grinding their flesh into bloody paste.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d54239839c749902.json",
+    "web": "https://codex.pipsprojects.com/#/e/d54239839c749902"
+  },
+  "license": "OGL 1.0a"
+}

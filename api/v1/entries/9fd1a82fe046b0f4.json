@@ -1,0 +1,32 @@
+{
+  "id": "9fd1a82fe046b0f4",
+  "name": "Summon Meladaemon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 39",
+  "book": "Book of the Damned - Volume 3: Horsemen of the Apocalypse",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "oracle": 8,
+      "sorcerer": 8,
+      "summoner": 6,
+      "witch": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Book of the Damned - Volume 3: Horsemen of the Apocalypse"
+  },
+  "body": "Source Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 39\nSchool conjuration (summoning) [evil]; Level arcanist 8, cleric 8, oracle 8, sorcerer 8, summoner 6, summoner (unchained) 6, witch 8, wizard 8\nCasting\nCasting Time 1 round\nComponents V, S, F (an empty wooden bowl)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster, except it summons a single meladaemon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9fd1a82fe046b0f4.json",
+    "web": "https://codex.pipsprojects.com/#/e/9fd1a82fe046b0f4"
+  },
+  "license": "OGL 1.0a"
+}

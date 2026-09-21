@@ -1,0 +1,28 @@
+{
+  "id": "7c1147351501b613",
+  "name": "Flame Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 283",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "shaman": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 283\nSchool evocation [fire]; Level druid 2, hunter 2, shaman 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 0 ft.\nEffect sword-like beam\nDuration 1 min./level\nSaving Throw none; Spell Resistance yes\nDescription\nA 3-foot-long, blazing beam of red-hot fire springs forth from your hand. You wield this blade-like beam as if it were a scimitar. Attacks with the flame blade are melee touch attacks. The blade deals 1d8 points of fire damage + 1 point per two caster levels (maximum +10). Since the blade is immaterial, your Strength modifier does not apply to the damage. A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.\nMythic Flame Blade\nSource Mythic Adventures pg. 94\nThe blade’s damage increases to 2d6 points of fire damage + 1 point per caster level (maximum +20). The blade threatens a critical hit on a natural 18–20 as if it were an actual scimitar.\n\nAugmented (3rd): If you expend two uses of mythic power, the blade threatens a critical hit on a natural 15–20, and bypasses hardness, fire resistance, and fire immunity.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c1147351501b613.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c1147351501b613"
+  },
+  "license": "OGL 1.0a"
+}

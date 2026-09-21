@@ -1,0 +1,29 @@
+{
+  "id": "e54e6d242fa0fdc5",
+  "name": "Whispering Lore",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 29",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 2,
+      "druid": 1,
+      "hunter": 1,
+      "medium": 1,
+      "oracle": 2,
+      "psychic": 1,
+      "ranger": 1,
+      "warpriest": 2,
+      "witch": 1
+    },
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 29\nSchool divination; Level cleric 2, druid 1, hunter 1, medium 1, oracle 2, psychic 1, ranger 1, warpriest 2, witch 1 (elf)\nCasting\nCasting Time 1 full-round action\nComponents V, S, M/DF (an owl’s beak)\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level (D)\nDescription\nUpon casting this spell, you are able to gain knowledge from the land itself. As you walk through the terrain, it whisper information in a language you understand, though the whispering is so rambling it is hard to distinguish useful information. This whispering grants you a +4 insight bonus on a single Knowledge skill type appropriate to the type of terrain you are in. If you are within a cold, desert, forest, jungle, mountain, plains, swamp, or water environment, you gain the bonus on Knowledge (nature) checks. If you are within an underground environment, you gain the bonus on Knowledge (dungeoneering) checks. If you are within an urban environment, you gain the bonus on Knowledge (local) checks. If you are on a plane other than the Material Plane, you gain the bonus on Knowledge (planes) checks. If you enter a new terrain, you lose the previous terrain’s skill bonus and gain the new bonus.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e54e6d242fa0fdc5.json",
+    "web": "https://codex.pipsprojects.com/#/e/e54e6d242fa0fdc5"
+  },
+  "license": "OGL 1.0a"
+}

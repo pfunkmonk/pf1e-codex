@@ -1,0 +1,29 @@
+{
+  "id": "08b73536373e582d",
+  "name": "Body Double",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dirty Tactics Toolbox pg. 30",
+  "book": "Dirty Tactics Toolbox",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "magus": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Dirty Tactics Toolbox"
+  },
+  "body": "Source Dirty Tactics Toolbox pg. 30\nSchool illusion (glamer); Level arcanist 2, bard 2, bloodrager 2, magus 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (two glass beads)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget two creatures; see text\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nUpon casting this spell, choose a primary target and a secondary target, both of which must be within range. If the primary target fails or forfeits its saving throw, its appearance, scent, sounds, and mannerisms change to match those of the secondary target.\n\nAs long as the two targets are of the same size category, they are indistinguishable. As a consequence, if the targets are adjacent and a creature takes an action that would affect one of the targets (such as an attack, a targeted spell, or an area effect), that action has a 50% chance of affecting the other target instead.\n\nAny action that would affect both of the creatures affects them both normally.\n\nThis spell does not deceive creatures that have true seeing. Likewise, a creature that can’t perceive one of the targets is not fooled by this spell (even if the spell fooled that creature earlier), and its attacks, targeted spells, and other actions affect targets as normal.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/08b73536373e582d.json",
+    "web": "https://codex.pipsprojects.com/#/e/08b73536373e582d"
+  },
+  "license": "OGL 1.0a"
+}

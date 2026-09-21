@@ -1,0 +1,29 @@
+{
+  "id": "4189930096e63ae4",
+  "name": "Arrow of Law",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 207",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "warpriest": 2
+    },
+    "desc": [
+      "lawful"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 207\nSchool evocation [lawful]; Level cleric 2, oracle 2, paladin 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF (a holy symbol)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect arrow-shaped projectile of lawful energy\nDuration instantaneous (1 round); see text\nSaving Throw Will partial (see text); Spell Resistance yes\nDescription\nYou fire a shimmering arrow of pure order from your holy symbol at any one target in range as a ranged touch attack. A chaotic creature struck by an arrow of law takes 1d8 points of damage per two caster levels (maximum 5d8). A chaotic outsider instead takes 1d6 points of damage per caster level (maximum 10d6) and is dazed for 1 round. A successful Will save reduces the damage to half and negates the daze effect. This spell deals only half damage to creatures that are neither chaotic nor lawful, and they are not dazed. The arrow has no effect on lawful creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4189930096e63ae4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4189930096e63ae4"
+  },
+  "license": "OGL 1.0a"
+}

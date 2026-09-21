@@ -1,0 +1,117 @@
+{
+  "id": "87d3f3c6ae510314",
+  "name": "Removing Spellblights",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Magic pg. 94",
+  "book": "Ultimate Magic",
+  "facets": {
+    "bk": "Ultimate Magic"
+  },
+  "body": "Rules Index | GM Screen\nGaining Spellblights\n\nRemoving Spellblights\nSource Ultimate Magic pg. 94\nWhile the most severe symptoms of a spellblight may manifest only episodically, the condition is often tenacious and difficult to remove. Each spellblight lists conditions for its removal, and can also be removed as if it were a curse (with remove curse, break enchantment, and so on). The caster level check DC to remove a minor spellblights is 20; the DC to remove a major spellblight is 30. The DC to remove the spellblight is reduced by 1 with each day that passes (minimum DC 10). Using anything other than a curse-removing spell to remove a spellblight imposes a –5 penalty on the caster level check. Any spellblight can be removed automatically, without a caster level check, with mage’s disjunction, miracle, or wish. When called to randomly determine a spellblight, roll on the appropriate table.\n\nTable 2-1: Random Minor Spellblights\nd10 Result\n1 Caster Blank\n2 Caster Croak\n3 Confounded Casting\n4 Disassociation\n5 Ebon Eyes\n6 Eldritch Ague\n7 Hemoculysis\n8 Lassitude\n9 Ritualistic Obsession\n10 Spell Addiction\n\nTable 2-2: Random Major Spellblights\nd10 Result\n1 Eldritch Cataracts\n2 Nameless Dread\n3 Negated\n4 Obsessive Fixation\n5 Phase Blight\n6 Spell Burn\n7 Spell Sap\n8 Transference Block\n9 Vertigo\n10 Roll twice on the minor spellblight chart. The spellcaster is affected with both spellblights.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d10",
+          "Result"
+        ],
+        [
+          "1",
+          "Caster Blank"
+        ],
+        [
+          "2",
+          "Caster Croak"
+        ],
+        [
+          "3",
+          "Confounded Casting"
+        ],
+        [
+          "4",
+          "Disassociation"
+        ],
+        [
+          "5",
+          "Ebon Eyes"
+        ],
+        [
+          "6",
+          "Eldritch Ague"
+        ],
+        [
+          "7",
+          "Hemoculysis"
+        ],
+        [
+          "8",
+          "Lassitude"
+        ],
+        [
+          "9",
+          "Ritualistic Obsession"
+        ],
+        [
+          "10",
+          "Spell Addiction"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d10",
+          "Result"
+        ],
+        [
+          "1",
+          "Eldritch Cataracts"
+        ],
+        [
+          "2",
+          "Nameless Dread"
+        ],
+        [
+          "3",
+          "Negated"
+        ],
+        [
+          "4",
+          "Obsessive Fixation"
+        ],
+        [
+          "5",
+          "Phase Blight"
+        ],
+        [
+          "6",
+          "Spell Burn"
+        ],
+        [
+          "7",
+          "Spell Sap"
+        ],
+        [
+          "8",
+          "Transference Block"
+        ],
+        [
+          "9",
+          "Vertigo"
+        ],
+        [
+          "10",
+          "Roll twice on the minor spellblight chart. The spellcaster is affected with both spellblights."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/87d3f3c6ae510314.json",
+    "web": "https://codex.pipsprojects.com/#/e/87d3f3c6ae510314"
+  },
+  "license": "OGL 1.0a"
+}

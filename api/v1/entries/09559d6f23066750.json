@@ -1,0 +1,27 @@
+{
+  "id": "09559d6f23066750",
+  "name": "Zephyr's Fleetness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 223",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "hunter": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 223\nSchool transmutation [air]; Level hunter 3, ranger 3 (Keleshite)\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nTargets one creature/2 levels\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou can call upon the spirits of the air to grant agility to your allies. Each target gains a +30 foot enhancement bonus to its land speed and fly speed (if any). Each target can also move (and charge) through difficult terrain without penalty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09559d6f23066750.json",
+    "web": "https://codex.pipsprojects.com/#/e/09559d6f23066750"
+  },
+  "license": "OGL 1.0a"
+}

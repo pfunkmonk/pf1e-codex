@@ -1,0 +1,24 @@
+{
+  "id": "b8af3e5295ae00d5",
+  "name": "Ethereal Envelopment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 170",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "psychic": 7,
+      "spiritualist": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 170\nSchool conjuration (teleportation); Level psychic 7, spiritualist 5\nCasting\nCasting Time 1 standard action\nComponents S, M (empty crystal box)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw Will negates, see text; Spell Resistance yes\nDescription\nThis spell is similar to ethereal envelope, but it allows you to shunt an unwilling creature to the Ethereal Plane and seal it there within a cocoon of misty ethereal fibers. If the target fails its save, it’s forced into a cataleptic meditative state as if unconscious. However, each round at the end of its turn, it can attempt a Will save to awaken itself from this meditation. Once the target awakens, it is considered pinned, treating your caster level as your CMB and your CMD as 10 + your caster level + your ability modifier for your primary spellcasting ability score. A successful grapple combat maneuver check or Escape Artist check leaves the creature grappled rather than pinned but doesn’t allow it to escape. However, a trapped creature can attack the cocoon as described in the ethereal envelope spell description.\n\nIf the creature breaks free of the ethereal envelopment or you dismiss the spell, the target is returned to its prior location on the Material Plane, as described for ethereal envelope, but if the target is conscious at the time, it doesn’t spend a round asleep or staggered.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8af3e5295ae00d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8af3e5295ae00d5"
+  },
+  "license": "OGL 1.0a"
+}

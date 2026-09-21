@@ -1,0 +1,27 @@
+{
+  "id": "170d929cdeafcaa8",
+  "name": "Telepathic Silence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Hunter's Handbook pg. 31",
+  "book": "Monster Hunter's Handbook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "medium": 4,
+      "mesmerist": 4,
+      "occultist": 4,
+      "psychic": 4,
+      "spiritualist": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Monster Hunter's Handbook"
+  },
+  "body": "Source Monster Hunter's Handbook pg. 31\nSchool illusion (glamer); Level medium 4, mesmerist 4, occultist 4, psychic 4, spiritualist 4\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nArea 60-ft.-radius emanation centered on a point in space\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nCreatures within the area cannot send or receive telepathic messages, and anyone in the area casting a spell with a thought component must succeed at a concentration check (DC = 20 + twice the spell’s level; this includes the increased concentration DC for casting spells with a thought component) or lose the spell. Furthermore, the thoughts of creatures within the area cannot be detected, located, or read with thoughtsense, detect thoughts, or similar effects. Telepathic silence does not hinder spells that target a creature’s mind or that do not rely on communication, such as mind thrustOA.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/170d929cdeafcaa8.json",
+    "web": "https://codex.pipsprojects.com/#/e/170d929cdeafcaa8"
+  },
+  "license": "OGL 1.0a"
+}

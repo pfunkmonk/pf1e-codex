@@ -1,0 +1,31 @@
+{
+  "id": "67f0d8c726c176be",
+  "name": "Darting Duplicate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Melee Tactics Toolbox pg. 30",
+  "book": "Melee Tactics Toolbox",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "magus": 1,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Melee Tactics Toolbox"
+  },
+  "body": "Source Melee Tactics Toolbox pg. 30\nSchool illusion (figment); Level antipaladin 1, arcanist 1, bard 1, magus 1, shaman 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange 5 ft.\nEffect visual figment of the caster\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nAn illusory duplicate of you steps clumsily into an adjacent square, presenting a tempting target before winking out of existence. Any creature that threatens that square must succeed at a Will save or make an attack of opportunity against the image. The image’s AC is equal to 10 + 1/2 your caster level, but as a figment, the image is unaffected by any attack.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67f0d8c726c176be.json",
+    "web": "https://codex.pipsprojects.com/#/e/67f0d8c726c176be"
+  },
+  "license": "OGL 1.0a"
+}

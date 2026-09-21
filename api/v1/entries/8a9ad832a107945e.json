@@ -1,0 +1,22 @@
+{
+  "id": "8a9ad832a107945e",
+  "name": "Hivemind Rat Swarm",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 156",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 8,
+    "sz": "Tiny",
+    "t": "magical beast",
+    "al": "N",
+    "bk": "Bestiary 6",
+    "st": "swarm"
+  },
+  "body": "A swarm of rats groups around a barrel, every pair of red eyes staring intently at one rat in the center of the mass.\nHivemind Rat Swarm CR 8\nSource Bestiary 6 pg. 156\nXP 4,800\nN Tiny magical beast (swarm)\nInit +6; Senses darkvision 60 ft., low-light vision, scent, thoughtsense 60 ft.; Perception +16\nDefense\nAC 20, touch 20, flat-footed 18 (+2 Dex, +6 insight, +2 size)\nhp 76 (9d10+27)\nFort +8, Ref +10, Will +4\nDefensive Abilities swarm traits\nOffense\nSpeed 15 ft., climb 15 ft., swim 15 ft.\nMelee swarm (2d6 plus disease and distraction)\nSpace 10 ft., Reach 0 ft.\nSpecial Attacks disease, distraction (DC 16), psychic spellcasting\nSpell-Like Abilities (CL 6th; concentration +9)\n3rd (4/day)—synaptic pulse (DC 16)\n2nd (6/day)—paranoia (DC 15), spontaneous immolation (DC 16)\n1st (7/day)—charm animal (DC 14), charm person (DC 14), mind thrust I (DC 14), unseen servant\n0 (at will)—bleed (DC 13), daze (DC 13), ghost sound (DC 13), haunted fey aspect (DC 13), mage hand, open/close, telekinetic projectile (DC 13)\nStatistics\nStr 2, Dex 15, Con 14, Int 17, Wis 13, Cha 10\nBase Atk +9; CMB —; CMD —\nFeats Combat Casting, Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Toughness\nSkills Acrobatics +14, Climb +14, Knowledge (arcana) +15, Perception +16, Stealth +22 (+32 when hiding the nexus), Swim +10; Racial Modifiers +10 Stealth when hiding the nexus\nLanguages Aklo, Common, Goblin, Halfling; telepathy 100 ft.\nSQ hivemind nexus\nEcology\nEnvironment any\nOrganization solitary or infestation (2–5 swarms)\nTreasure none\nSpecial Abilities\nDisease (Su) Swarm—injury; save Fort DC 16; onset 1d3 days; frequency 1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.\nDescription\nA hivemind consists of a swarm of smaller creatures whose individual minds have supernaturally bonded into one to become a single, collective intelligence. Hiveminds often occur in swarms that have existed for generations and that have dwelled in areas of potent magical influence, particularly areas of strong psychic magic. Over time, the swarm learns to work together in more intelligent ways to achieve its goals, and it eventually evolves a cohesive mind. Of course, this evolution can be hastened by direct intervention of potent magic (typically something on the level of a miracle or wish), or as an unintended side effect of esoteric rituals, the use or destruction of artifacts, or the deaths of powerful minds.\n\nA hivemind swarm learns from its surroundings, which in turn shape its choices in the languages it learns and the psychic spells it develops a penchant for casting. An urban swarm may pick up Common, Dwarven, Elven, or Halfling from snippets of conversations overheard through sewer grates, whereas an underground swarm may learn Dwarven or Undercommon. A hivemind may begin to exert its psychic abilities by compelling animals or people to bring it food or protect it from larger creatures, and it slowly graduates to defending itself and actively attacking as it gains experience.\n\nEventually, the hivemind’s mental network takes on more complex tasks as a collective mind. At this point, the hivemind creates a nexus, a single individual in the swarm through which the collective routes all thought. While the nexus is often fairly inconspicuous within the teeming mass of the swarm, it is possible for a highly perceptive observer to notice its decisive movements, spellcasting gestures, or intense gaze. The death of the nexus does not eliminate the shared intelligence of a hivemind, but it is disruptive, forcing the collective to focus inward to regroup and form a new nexus.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a9ad832a107945e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a9ad832a107945e"
+  },
+  "license": "OGL 1.0a"
+}

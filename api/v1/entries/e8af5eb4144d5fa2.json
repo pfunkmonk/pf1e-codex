@@ -1,0 +1,25 @@
+{
+  "id": "e8af5eb4144d5fa2",
+  "name": "Threefold Face",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of the First World pg. 25",
+  "book": "Legacy of the First World",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "medium": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "bk": "Legacy of the First World"
+  },
+  "body": "Source Legacy of the First World pg. 25\nSchool transmutation; Level arcanist 3, medium 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a three-pointed knot)\nEffect\nRange personal\nTarget you\nDuration 9 minutes\nDescription\nYou grow two additional faces set equidistantly around your head, each embodying a different aspect of your personality that you choose (such as kindliness, joy, or wrath). You gain all-around vision and can’t be flanked. Effects that would blind you, deafen you, block your mouth, or otherwise affect your face, including beneficial effects that grant you exceptional vision, only affect a single face (for example, it would take three castings of blindness/ deafness to blind you). You lose all-around vision if even a single face becomes blind. This spell doesn’t grant you additional magic item slots or additional heads. When threefold face ends, you gain all the conditions from all three faces, for good or ill.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8af5eb4144d5fa2.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8af5eb4144d5fa2"
+  },
+  "license": "OGL 1.0a"
+}

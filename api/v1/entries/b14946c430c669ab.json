@@ -1,0 +1,26 @@
+{
+  "id": "b14946c430c669ab",
+  "name": "Severed Fate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 324",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 3,
+      "oracle": 3,
+      "warpriest": 3,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 324\nSchool enchantment; Level cleric 3, oracle 3, warpriest 3, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 10 minutes/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by dispel magic, remove curse, or other similar effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b14946c430c669ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/b14946c430c669ab"
+  },
+  "license": "OGL 1.0a"
+}

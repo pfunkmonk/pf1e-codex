@@ -1,0 +1,35 @@
+{
+  "id": "ac94d15e7d69a467",
+  "name": "Plague Bearer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 238",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 6,
+      "antipaladin": 6,
+      "arcanist": 7,
+      "cleric": 6,
+      "druid": 6,
+      "hunter": 6,
+      "inquisitor": 6,
+      "investigator": 6,
+      "oracle": 6,
+      "sorcerer": 7,
+      "warpriest": 6,
+      "witch": 6,
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 238\nSchool necromancy [disease, evil]; Level alchemist 6, antipaladin 6, arcanist 7, cleric 6, druid 6, hunter 6, inquisitor 6, investigator 6, oracle 6, sorcerer 7, warpriest 6, witch 6, wizard 7 (Urgathoa)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one living creature\nDuration 1 round/level; see text\nSaving Throw Fortitude negates, see text; Spell Resistance yes\nDescription\nYou make the target an asymptomatic carrier for a host of virulent diseases. Creatures that end their turn adjacent to the target must succeed at a Fortitude save or be affected as if by the spell contagion. The target itself does not become diseased, and suffers no ill effects from this spell. Once plague bearer ends, the target is no longer contagious, though any creature it infected remains diseased.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ac94d15e7d69a467.json",
+    "web": "https://codex.pipsprojects.com/#/e/ac94d15e7d69a467"
+  },
+  "license": "OGL 1.0a"
+}

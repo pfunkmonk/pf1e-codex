@@ -1,0 +1,22 @@
+{
+  "id": "5ef7174f40a90a56",
+  "name": "Caller in Darkness",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 5 pg. 48",
+  "book": "Bestiary 5",
+  "facets": {
+    "cr": 9,
+    "sz": "Large",
+    "t": "undead",
+    "al": "CE",
+    "bk": "Bestiary 5",
+    "st": "incorporeal"
+  },
+  "body": "This roiling horror appears to be a swirling vortex of darkness and screaming, ghostly faces.\nCaller in Darkness CR 9\nSource Bestiary 5 pg. 48\nXP 6,400\nCE Large undead (incorporeal)\nInit +11; Senses darkvision 60 ft.; Perception +22\nAura unnatural aura (30 ft.)\nDefense\nAC 20, touch 20, flat-footed 12 (+3 deflection, +7 Dex, +1 dodge, -1 size)\nhp 97 (13d8+39)\nFort +7, Ref +11, Will +10\nDefensive Abilities incorporeal; Immune undead traits\nWeaknesses sunlight powerlessness\nOffense\nSpeed fly 60 ft. (good)\nMelee incorporeal touch +15 (6d6 plus consume mind)\nSpace 10 ft., Reach 10 ft.\nSpecial Attacks consume mind, wrap in despair\nPsychic Magic (CL 10th; concentration +12)\n12 PE—aversion (2 PE, DC 15), emotive block (3 PE, DC 16), greater oneiric horror (4 PE, DC 17), mind thrust V (5 PE, DC 18), paranoia (2 PE, DC 15), telempathic projection (1 PE, DC 14)\nStatistics\nStr —, Dex 25, Con —, Int 15, Wis 14, Cha 17\nBase Atk +9; CMB +13; CMD 27 (can’t be tripped)\nFeats Ability Focus (wrap in despair), Alertness, Combat Reflexes, Dodge, Improved Initiative, Skill Focus (Intimidate, Stealth)\nSkills Fly +5, Intimidate +25, Knowledge (arcana) +18, Perception +22, Sense Motive +22, Spellcraft +18, Stealth +21\nLanguages Abyssal, Common\nEcology\nEnvironment any\nOrganization solitary\nTreasure incidental\nSpecial Abilities\nConsume Mind (Su) Whenever a caller in darkness hits a creature with its incorporeal touch attack, or begins its turn occupying the same space as a creature, it drains away a portion of that creature’s mind, inflicting 1d4 points of Wisdom damage. This is a mind-affecting effect, but not a negative energy effect. If the caller in darkness reduces a living creature’s Wisdom score to 0 in this way, it absorbs that creature’s mind, killing it. The caller in darkness gains psychic energy equal to the creature’s HD and access to all of the creature’s memories. A creature whose mind is absorbed in this way cannot be resurrected until the caller in darkness is slain, unless the caster first uses a wish or miracle to free the creature’s mind.\n\nWrap in Despair (Su) Any living creature that begins its turn occupying the same space as a caller in darkness must succeed on a DC 21 Will save or be overwhelmed by crippling depression for 1d4 rounds. Affected creatures are unable to take any action. Adjacent allies can offer words of encouragement as a standard action to grant the creature a new saving throw. If the creature succeeds on a saving throw granted in this way, it is immune to the caller in darkness’s wrap in despair ability for 24 hours. Creatures with Intelligence scores of 2 or less are immune to this effect. This is a mind-affecting, emotion, and fear effect. The saving throw DC is Charisma-based.\nDescription\nA caller in darkness grows from the psychic remains of a creature with psychic sensitivity that died a violent death, its restless spirit compelled to visit upon others the horrors that it suffered before dying. As more and more minds are absorbed, it grows, and the original spirit is lost in the swirling mass of hatred, confusion, and despair.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ef7174f40a90a56.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ef7174f40a90a56"
+  },
+  "license": "OGL 1.0a"
+}

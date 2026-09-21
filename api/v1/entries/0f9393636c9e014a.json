@@ -1,0 +1,30 @@
+{
+  "id": "0f9393636c9e014a",
+  "name": "Undeath Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dungeons of Golarion pg. 63",
+  "book": "Dungeons of Golarion",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 5,
+      "inquisitor": 4,
+      "oracle": 5,
+      "sorcerer": 6,
+      "warpriest": 5,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Dungeons of Golarion"
+  },
+  "body": "Source Dungeons of Golarion pg. 63\nSchool abjuration; Level arcanist 6, cleric 5, inquisitor 4, oracle 5, sorcerer 6, warpriest 5, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (powdered silver)\nEffect\nRange 10 ft.\nArea 10-ft.-radius emanantion, centered on you\nDuration 1 minute/level (D)\nSaving Throw none or Will negates (see text); Spell Resistance yes\nDescription\nYou create a pale silver barrier that repels undead. Mindless undead and intelligent undead with fewer Hit Dice than your caster level cannot enter the area or penetrate the barrier. Undead of Hit Dice equal to or greater than your caster level can pass through this barrier by making a successful Will save against the spell, but as they do so, they take 3d6 points of damage. Once an undead creature makes its save against this spell and takes this damage, it can come and go without further penalty. This spell may only be used defensively, not aggressively. Forcing an undeath ward against creatures that the spell keeps at bay collapses the barrier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f9393636c9e014a.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f9393636c9e014a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "9182ea09db01e05e",
+  "name": "Thunderous Footfalls",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #91: Battle of Bloodmarch Hills pg. 71",
+  "book": "Pathfinder #91: Battle of Bloodmarch Hills",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Pathfinder #91: Battle of Bloodmarch Hills"
+  },
+  "body": "Source Pathfinder #91: Battle of Bloodmarch Hills pg. 71\nSchool transmutation; Level arcanist 3, sorcerer 3, summoner 3, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one Large or larger creature\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance no (harmless)\nDescription\nThis spell makes the target creature’s footfalls shake the ground violently as he trundles, which may knock down smaller creatures as he passes by, though it also makes the target slower on land. The target’s land speed is reduced by half (round down to the nearest 5-foot increment), but each time he moves overland adjacent to a creature that is at least one size category smaller than he is, that creature must succeed at a Fortitude saving throw or be knocked prone.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9182ea09db01e05e.json",
+    "web": "https://codex.pipsprojects.com/#/e/9182ea09db01e05e"
+  },
+  "license": "OGL 1.0a"
+}

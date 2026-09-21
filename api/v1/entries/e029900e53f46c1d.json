@@ -1,0 +1,22 @@
+{
+  "id": "e029900e53f46c1d",
+  "name": "Burning Child",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Belkzen, Hold of the Orc Hordes pg. 58",
+  "book": "Belkzen",
+  "facets": {
+    "cr": 10,
+    "sz": "Small",
+    "t": "undead",
+    "al": "CN",
+    "bk": "Belkzen",
+    "st": "fire"
+  },
+  "body": "The smell of scorched flesh accompanies this small child, who appears to be made entirely of dust and smoldering ash.\nBurning Child CR 10\nSource Belkzen, Hold of the Orc Hordes pg. 58\nXP 9,600\nCN Small undead (fire)\nInit +7; Senses Perception +17\nAura elemental aura (fire, DC 17), frightful presence (60 ft., DC 21)\nDefense\nAC 17, touch 15, flat-footed 13 (+3 Dex, +1 dodge, +2 natural, +1 size)\nhp 150 (15d8+75)\nFort +9, Ref +12, Will +11\nDefensive Abilities channel resistance +4, final embrace; Immune fire, undead traits\nWeaknesses vulnerable to cold\nOffense\nSpeed 40 ft.\nMelee slam +10 (1d4–2 plus burn)\nSpecial Attacks breath weapon (60-ft. cone, 10d6 fire damage, Reflex DC 21 half), burn (2d8, DC 21)\nSpell-Like Abilities (CL 11th; concentration +15)\nConstant—elemental auraAPG (fire only; DC 17), fire trailARG (DC 17)\nAt will—burning hands (DC 16), scorching ray (DC 16)\n3/day—quickened fireball (DC 17)\nStatistics\nStr 6, Dex 17, Con —, Int 10, Wis 15, Cha 18\nBase Atk +7; CMB 14; CMD 17\nFeats Dodge, Improved Initiative, Lightning Reflexes, Quicken Spell-Like Ability (fireball), Toughness, Weapon Finesse\nSkills Escape Artist +18, Intimidate +19, Perception +17, Sense Motive +17\nLanguages Common\nSQ binary state\nEcology\nEnvironment temperate plains\nOrganization unique\nTreasure none\nSpecial Abilities\nBinary State (Su) Most of the time the Burning Child is in a passive state, during which he’s incorporeal and invisible, though his soft sobs and the scent of burning flesh allow a creature to pinpoint his location with a successful DC 30 Perception check. If the Burning Child comes across a battle, the chance he enters his active state is equal to 1% per creature fighting (to a maximum of 100%). While active, the Burning Child is corporeal and visible. After 1d4 hours without being attacked or seeing conflict, the Burning Child reenters his passive state.\n\nBreath Weapon (Su) The Burning Child can use his breath weapon only when in his active state, and only once each time he becomes active.\n\nFinal Embrace (Ex) If the Burning Child is destroyed, he reforms in 2d4 days. He can be permanently destroyed only when active, by a humanoid embracing and calming him. This requires succeeding at DC 28 Diplomacy checks for 3 consecutive rounds.\nDescription\nBorn from the traumatic death of an abducted human child at the hands of orc alchemists seeking to unlock the mysteries of his sorcerous bloodline and convert him into a weapon, the Burning Child has haunted a wide stretch of wasteland in eastern Belkzen for centuries.\n\nFirst seen during the battle that bears his name, the Burning Child continues to wander in an endless search for his parents, constantly reliving the terrifying experience of his first fiery death. While in his passive state, he’s little more than disembodied sobbing and the scent of burning flesh. But when he happens upon the scene of a battle, the memory of his agonizing death pushes him to manifest, and he wanders into the fray crying out for rescue, all the while unintentionally sowing devastation as the uncontrollable energies coursing through him spill out of his unstable form.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e029900e53f46c1d.json",
+    "web": "https://codex.pipsprojects.com/#/e/e029900e53f46c1d"
+  },
+  "license": "OGL 1.0a"
+}

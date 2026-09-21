@@ -1,0 +1,30 @@
+{
+  "id": "0d0b583ed4e0b2df",
+  "name": "Tracking Mark",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 243, Pathfinder #32: Rivers Run Red pg. 71",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 243, Pathfinder #32: Rivers Run Red pg. 71\nSchool evocation; Level bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, paladin 1, ranger 1, warpriest 1 (Erastil)\nCasting\nCasting Time 1 standard action\nComponents S, DF\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration 10 minutes/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou gain a supernatural ability to detect tracks and other clues left behind by the target. You treat the DCs of all Survival checks made to track the target as if they were 5 lower than normal, and you gain a +5 bonus on Perception checks made to notice the target if it is using Stealth or recognize it if it is using Disguise.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d0b583ed4e0b2df.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d0b583ed4e0b2df"
+  },
+  "license": "OGL 1.0a"
+}

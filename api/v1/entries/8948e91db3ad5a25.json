@@ -1,0 +1,56 @@
+{
+  "id": "8948e91db3ad5a25",
+  "name": "Falling Objects",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 443",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nEnvironment / Environmental Rules\n\nFalling Objects\nSource PRPG Core Rulebook pg. 443\nJust as characters take damage when they fall more than 10 feet, so too do they take damage when they are hit by falling objects.\n\nObjects that fall upon characters deal damage based on their size and the distance they have fallen. Table 13– 11 determines the amount of damage dealt by an object based on its size. Note that this assumes that the object is made of dense, heavy material, such as stone. Objects made of lighter materials might deal as little as half the listed damage, subject to GM discretion. For example, a Huge boulder that hits a character deals 6d6 points of damage, whereas a Huge wooden wagon might deal only 3d6 damage. In addition, if an object falls less than 30 feet, it deals half the listed damage. If an object falls more than 150 feet, it deals double the listed damage. Note that a falling object takes the same amount of damage as it deals.\n\nDropping an object on a creature requires a ranged touch attack. Such attacks generally have a range increment of 20 feet. If an object falls on a creature (instead of being thrown), that creature can make a DC 15 Reflex save to halve the damage if he is aware of the object. Falling objects that are part of a trap use the trap rules instead of these general guidelines.\nTable 13-11: Damage from Falling Objects\nObject Size Damage\nTiny or smaller 1d6\nSmall 2d6\nMedium 3d6\nLarge 4d6\nHuge 6d6\nGargantuan 8d6\nColossal 10d6",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Object Size",
+          "Damage"
+        ],
+        [
+          "Tiny or smaller",
+          "1d6"
+        ],
+        [
+          "Small",
+          "2d6"
+        ],
+        [
+          "Medium",
+          "3d6"
+        ],
+        [
+          "Large",
+          "4d6"
+        ],
+        [
+          "Huge",
+          "6d6"
+        ],
+        [
+          "Gargantuan",
+          "8d6"
+        ],
+        [
+          "Colossal",
+          "10d6"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8948e91db3ad5a25.json",
+    "web": "https://codex.pipsprojects.com/#/e/8948e91db3ad5a25"
+  },
+  "license": "OGL 1.0a"
+}

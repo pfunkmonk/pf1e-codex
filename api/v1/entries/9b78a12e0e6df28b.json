@@ -1,0 +1,25 @@
+{
+  "id": "9b78a12e0e6df28b",
+  "name": "Reduce Animal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 330",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 330\nSchool transmutation; Level druid 2, hunter 2, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one willing animal of Small, Medium, Large, or Huge size\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like reduce person, except that it affects a single willing animal. Reduce the damage dealt by the animal's natural attacks as appropriate for its new size (see Equipment how to adjust damage for size).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b78a12e0e6df28b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b78a12e0e6df28b"
+  },
+  "license": "OGL 1.0a"
+}

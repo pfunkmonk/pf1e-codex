@@ -1,0 +1,27 @@
+{
+  "id": "b8fac590a152f707",
+  "name": "Path of Glory",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 189",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "cleric": 2,
+      "oracle": 2,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 189\nSchool conjuration (healing); Level bard 2, cleric 2, oracle 2, skald 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch (see text)\nArea four 5-ft. squares/level (see text)\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nYou cause four 5-foot squares (one of which must be your space) to glow with dim illumination. Starting on your next turn, as a swift action you can extend the glowing area by an additional four 5-foot squares; each new square must be adjacent to a square that was previously glowing. Allies that end their turns on a glowing square (including one who falls unconscious in the square) are healed of 1 point of damage.\nPath of Glory, Greater\nSource Advanced Class Guide pg. 189\nSchool conjuration (healing); Level bard 4, cleric 4, oracle 4, skald 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch (see text)\nArea four 5-ft. squares/level (see text)\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as path of glory, except as noted above, and a square provides 5 points of healing instead of 1.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8fac590a152f707.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8fac590a152f707"
+  },
+  "license": "OGL 1.0a"
+}

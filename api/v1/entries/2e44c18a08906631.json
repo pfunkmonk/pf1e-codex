@@ -1,0 +1,33 @@
+{
+  "id": "2e44c18a08906631",
+  "name": "Venomous Bite",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dirty Tactics Toolbox pg. 29",
+  "book": "Dirty Tactics Toolbox",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "druid": 2,
+      "hunter": 2,
+      "investigator": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Dirty Tactics Toolbox"
+  },
+  "body": "Source Dirty Tactics Toolbox pg. 29\nSchool transmutation [poison]; Level alchemist 2, druid 2, hunter 2, investigator 2, ranger 2, shaman 2, summoner 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a vial of injury poison worth at least 75 gp), DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nWhen you touch the poison vial against the target creature and cast this spell, the vial drains and the target’s teeth become envenomed with the same poison. The creature gains the use of 1 dose of the poison for every 5 caster levels you possess (maximum 4 doses). The creature gains immunity to that poison while this spell is in effect. The poison retains its normal properties, and this spell does not alter the DC to resist or cure the poison.\n\nEach successful bite attack counts as an expended dose. When all the poison is used, the spell ends. If the target creature doesn’t have a bite attack, or if the target’s bite attack is already poisonous, the spell has no effect. If the target has multiple heads, the spell affects only one bite attack.\n\nWhen this spell ends, any unused poison is harmlessly expelled from the target’s mouth and cannot be used again.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e44c18a08906631.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e44c18a08906631"
+  },
+  "license": "OGL 1.0a"
+}

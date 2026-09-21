@@ -1,0 +1,23 @@
+{
+  "id": "c984f2d705b61cd3",
+  "name": "Litany of Madness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 234",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "inquisitor": 6
+    },
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 234\nSchool enchantment (charm) [language-dependent, mind-affecting]; Level antipaladin 4, inquisitor 6\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 or more rounds (see below)\nSaving Throw no, see below; Spell Resistance yes\nDescription\nThis litany is a sermon of madness. The target is confused. At the start of each of its turns, it can make a Will saving throw against the confused effect (DC of the spell). If the target fails the save, it continues to be confused. If it makes the save, the effect ends.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c984f2d705b61cd3.json",
+    "web": "https://codex.pipsprojects.com/#/e/c984f2d705b61cd3"
+  },
+  "license": "OGL 1.0a"
+}

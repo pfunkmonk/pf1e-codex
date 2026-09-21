@@ -1,0 +1,35 @@
+{
+  "id": "1b1eb62369e398a0",
+  "name": "Aid",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 239",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 2,
+      "alchemist": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "investigator": 2,
+      "medium": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "spiritualist": 2,
+      "warpriest": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 239\nSchool enchantment (compulsion) [mind-affecting]; Level adept 2, alchemist 2, cleric 2, inquisitor 2, investigator 2, medium 2, oracle 2, shaman 2, spiritualist 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget living creature touched\nDuration 1 min./level\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nAid grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b1eb62369e398a0.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b1eb62369e398a0"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "af6a7a370e968880",
+  "name": "Rite of Bodily Purity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Divine Anthology pg. 13",
+  "book": "Divine Anthology",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 1,
+      "druid": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "meditative"
+    ],
+    "bk": "Divine Anthology"
+  },
+  "body": "Source Divine Anthology pg. 13\nSchool abjuration [meditative]; Level cleric 1, druid 1, paladin 1, ranger 1, shaman 1, warpriest 1\nCasting\nCasting Time 1 hour\nComponents V, M (soothing incense worth 100 gp)\nEffect\nRange personal\nTarget you\nDuration 24 hours or until discharged\nDescription\nYou energize your body’s immune system, improving your ability to resist toxins and ailments. You gain a +2 resistance bonus on saving throws to resist diseases, drugs, and poisons. Additionally, at any time during the spell’s duration, whenever you fail a saving throw to resist a disease, drug, or poison, you can expend the spell’s remaining duration as an immediate action in order to reroll that saving throw. You must take the second result, even if it’s worse. The +2 resistance bonus granted by the spell applies to the reroll, but after you make this reroll, the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af6a7a370e968880.json",
+    "web": "https://codex.pipsprojects.com/#/e/af6a7a370e968880"
+  },
+  "license": "OGL 1.0a"
+}

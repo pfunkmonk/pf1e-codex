@@ -1,0 +1,31 @@
+{
+  "id": "14094b1cda8858dc",
+  "name": "Build Trust",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 205",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "paladin": 1,
+      "psychic": 2,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 205\nSchool divination; Level bard 2, cleric 2, inquisitor 2, mesmerist 2, oracle 2, paladin 1, psychic 2, skald 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a gold piece)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 day/level; see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou get a sense of the best way to interact with the target in order to encourage positive regard and fellowship toward you. You gain a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks you attempt when interacting with the target. In addition, whenever you fail a Charisma check or Charisma-based skill check when interacting with the target, you can reroll the check as an immediate action. Attempting this reroll grants the target a new saving throw to end the spell. The target doesn’t become hostile to you when the spell ends, but it does become disillusioned of its new trust in you. Attacking the target or taking an obvious hostile action against it automatically ends the spell.\n\nIf you are using the contacts rules (Ultimate Campaign 148), your trust score with the target increases by 1 for the duration of the spell. If you’re using the individual influence system (see pages 102–109), if the target fails its initial saving throw you learn one of its influence skills, strengths, or weaknesses as though you had succeeded at a discovery check.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14094b1cda8858dc.json",
+    "web": "https://codex.pipsprojects.com/#/e/14094b1cda8858dc"
+  },
+  "license": "OGL 1.0a"
+}

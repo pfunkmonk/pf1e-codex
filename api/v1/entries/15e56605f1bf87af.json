@@ -1,0 +1,29 @@
+{
+  "id": "15e56605f1bf87af",
+  "name": "Allied Cloak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Armory 2 pg. 21",
+  "book": "Adventurer's Armory 2",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "bloodrager": 3,
+      "magus": 3,
+      "occultist": 2,
+      "skald": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "wizard": 3
+    },
+    "bk": "Adventurer's Armory 2"
+  },
+  "body": "Source Adventurer's Armory 2 pg. 21\nSchool abjuration; Level arcanist 3, bard 3, bloodrager 3, magus 3, occultist 2, skald 3, sorcerer 3, summoner 3, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, F (cloak or outer garment)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nYou cause a cloak, shawl, poncho, or other outer garment you are wearing to animate to aid and defend you. The cloak provides a +2 shield bonus to your AC. In addition, once each round during your turn, you can take a free action to direct your cloak to use the aid another action to assist your skill check, attack roll, or AC. The cloak has an attack bonus or a total skill bonus equal to your caster level plus your key spellcasting ability score modifier (Charisma for bards, Intelligence for wizards, and so on). If another creature dons the cloak during the duration, the cloak provides its protection and aid to the wearer, but it still uses the same bonus on the aid another actions as if you were the wearer. The cloak cannot take any other type of action.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/15e56605f1bf87af.json",
+    "web": "https://codex.pipsprojects.com/#/e/15e56605f1bf87af"
+  },
+  "license": "OGL 1.0a"
+}

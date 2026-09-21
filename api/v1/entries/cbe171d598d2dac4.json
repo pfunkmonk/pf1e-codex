@@ -1,0 +1,26 @@
+{
+  "id": "cbe171d598d2dac4",
+  "name": "Lament of Summer's Last Breath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 220",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 2,
+      "hunter": 2,
+      "ranger": 2,
+      "skald": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 220\nSchool abjuration [fire, good]; Level bard 2, hunter 2, ranger 2, skald 2 (Ulfen)\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-ft. radius spread centered on a creature, object, or point in space\nDuration 1 round/level\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou wrap the target in a mantle of summery air, within which the ambient temperature never falls below 70 degrees Fahrenheit. Creatures with the cold subtype that start their turns in the area take an amount of fire damage equal to 1d4 points + 1 point per 2 caster levels (maximum 1d4+5) with no saving throw. Each time an evil dragon, fey, or giant takes damage from the spell, it must succeed at a Will saving throw or become shaken for 1 round. Creatures attempting to cast a cold spell in the area must succeed at a Will save or the spell fails. Succeeding at one such save to cast a spell allows a creature to continue casting cold spells in the area for the spell’s remainder.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cbe171d598d2dac4.json",
+    "web": "https://codex.pipsprojects.com/#/e/cbe171d598d2dac4"
+  },
+  "license": "OGL 1.0a"
+}

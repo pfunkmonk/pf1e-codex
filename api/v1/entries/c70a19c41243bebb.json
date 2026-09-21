@@ -1,0 +1,519 @@
+{
+  "id": "c70a19c41243bebb",
+  "name": "Temperature Variations and Precipitation",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Wilderness pg. 166",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Rules Index | GM Screen\nMastering the Wild / Weather in the Wilderness\n\nTemperature Variations and Precipitation\nSource Ultimate Wilderness pg. 166\nOnce you have established weather baselines for a region and adjust them to match the elevation and season, the next step is to breathe life into the weather by determining the temperature’s variation from the adjusted baseline and the daily precipitation. With this system, you can build out weather patterns and events as far as you want into the future. If the PCs will be in a region for some time, it’s a good idea to plan out the weather’s variations and events at least a week in advance so if a character tries to use Survival to predict the weather, you’ll have information to work with. On the other hand, if you know the PCs are going to be in a region for only a few days, planning our a full week of weather isn’t necessary. And of course, you can randomly generate weather on a dayby- day basis if you’re comfortable with the possibility of an unexpected turn complicating the game’s other events.\n\nTemperature Variations\nSource Ultimate Wilderness pg. 166\nWeather is constantly changing, and a significant aspect of that change is the temperature. For the purposes of this system, it’s easiest to assume that the daily temperature remains relatively static during daylight hours and then drops by 2d6+3 degrees during the night.\n\nWhen setting a day’s temperature in a terrain, you can roll on the temperature variations table appropriate to the climate; the result determines how you should alter the adjusted baseline temperature, and also suggests the duration of that change. You can also use the tables without rolling for a result, consulting them as a guide to help you make decisions about variations in temperature.\n\nFor terrain in a cold region, roll on Table 4–15: Cold Region Temperature Variations. Temperature variations in this climate trend colder and last for a long period of time. For terrain in a temperate region, roll on Table 4–16: Temperate Region Temperature Variations. Temperature variations in this climate are about as likely to swing warmer or colder, and such variations tend to last for shorter periods. If you need to establish a day’s temperature for terrain in a temperate region, you can roll on Table 4–17: Tropical Region Temperature Variations. Temperature variations for tropical climates trend warm but for even shorter periods.\n\nTable 4-15: Cold Region Temperature Variations\nd% Variation Duration\n1-20 -3d10° F 1d4 days\n21-40 -2d10° F 1d6+1 days\n41-60 -1d10° F 1d6+2 days\n61-80 No variation 1d6+2 days\n81-95 +1d10° F 1d6+1 days\n96-99 +2d10° F 1d4 days days\n100 +3d10° F 1d2 days days\n\nTable 4-16: Temperate Region Temperature Variations\nd% Variation Duration\n1-5 -3d10° F 1d2 days\n6-15 -2d10° F 1d4 days\n16-35 -1d10° F 1d6+1 days\n36-65 No variation 1d6+1 days\n66-85 +1d10° F 1d6+1 days\n86-95 +2d10° F 1d4 days days\n96-100 +3d10° F 1d2 days days\n\nTable 4-17: Tropical Region Temperature Variations\nd% Variation Duration\n1-10 -2d10° F 1d2 days\n11-25 -1d10° F 1d2 days\n26-55 No variation 1d4 days\n56-85 +1d10° F 1d4 days\n86-100 +2d10° F 1d2 days days\n\nPrecipitation\nSource Ultimate Wilderness pg. 167\nThe next step in setting the local weather is to determine whether precipitation occurs and the intensity of that precipitation, if any.\n\nPrecipitation Frequency: Precipitation frequency is organized into five levels: drought, rare, intermittent, common, and constant. A region’s baseline precipitation frequency is set by the season, but it can be modified by the climate and other factors (for example, see the Deserts sidebar on page 168). A precipitation frequency can’t be reduced lower than drought or increased higher than constant. Check each day to determine whether precipitation occurs for that day; the percentage chance of precipitation occurring is summarized on Table 4–18: Daily\n\nTable 4-18: Daily Precipitation Chances\nFrequency Chance of Precipitation\nDrought 5% (decrease precipitation intensity by 2 steps\nRare 15%\nIntermittent 30%\nCommon 60%\nConstant 95%\n\nPrecipitation Intensity: The baseline precipitation intensity is dependent on the elevation and can be modified by the climate. Intensity has four categories. Light precipitation is the lowest level of intensity and generally consists of fog, a faint drizzle of rain or a few isolated flakes of snow. Medium precipitation represents a noticeable but not distracting fall of rain or snow. Heavy precipitation typically consists of a driving rainstorm or significant snowfall. Torrential precipitation is the highest level of intensity and consists of a deluge of rain or snow with conditions that can approach whiteout levels. Precipitation intensity can never be reduced below light or increased above torrential.\n\nOnce you establish the intensity and the temperature, you’ll determine how the precipitation manifests.\n\nPrecipitation Form: Precipitation can result in more than just rain. Depending upon the intensity and temperature, precipitation can range from a light fog or a faint drizzle of rain to a blizzard or thunderstorm. Once you know precipitation of a specific intensity is occurring, set the time of day the precipitation event occurs by rolling 1d12 to find the starting hour of the day and 1d6 to determine whether the hour is a.m. or p.m. (1–3 = a.m., 4–6 = p.m.).\n\nNext, use the appropriate table below for the baseline precipitation intensity and whether the temperature is above or below freezing (32° F) to generate the specific type of precipitation and its duration. (Remember that the temperature is lower at night!) See the Cloud Cover section for the effects of precipitation on visibility for flying creatures.\n\nTable 4-19: Light Unfrozen Precipitation\nd% Precipitation Duration\n1-20 Light fog 1d8 hours\n21-40 Medium fog 1d6 hours\n41-50 Drizzle 1d4 hours\n51-75 Drizzle 2d12 hours\n76-90 Light rain 1d4 hours\n91-100 Light rain (sleet if below 40° F) 1 hour\n\nTable 4-20: Light Frozen Precipitation\nd% Precipitation Duration\n1-20 Light fog 1d6 hours\n21-40 Light fog 1d8 hours\n41-50 Medium fog 1d4 hours\n51-60 Light snow 1 hour\n61-75 Light snow 1d4 hours\n76-100 Light snow 2d12 hours\n\nTable 4-21: Medium Unfrozen Precipitation\nd% Precipitation Duration\n01-10 Medium fog 1d8 hours\n11-20 Medium fog 1d12 hours\n21-30 Heavy fog 1d4 hours\n31-35 Rain 1d4 hours\n36-70 Rain 1d8 hours\n71-90 Rain 2d12 hours\n91-100 Rain (sleet if below 40° F) 1d4 hours\n\nTable 4-22: Medium Frozen Precipitation\nd% Precipitation Duration\n1-10 Medium fog 1d6 hours\n11-20 Medium fog 1d8 hours\n21-30 Heavy fog 1d4 hours\n31-50 Medium snow 1d4 hours\n51-90 Medium snow 1d8 hours\n91-100 Medium snow 2d12 hours\n\nTable 4-23: Heavy Unfrozen Precipitation\nd% Precipitation Duration\n1-10 Heavy fog 1d8 hours\n11-20 Heavy fog 2d6 hours\n21-50 Heavy rain 1d12 hours\n51-70 Heavy rain 2d12 hours\n71-85 Heavy rain (sleet if below 40° F) 1d8 hours\n86-90 Thunderstorm 1 hour\n91-100 Thunderstorm 1d3 hours\n\nTable 4-24: Heavy Frozen Precipitation\nd% Precipitation Duration\n1-10 Medium fog 1d8 hours\n11-20 Heavy fog 2d6 hours\n21-60 Light snow 2d12 hours\n61-90 Medium snow 1d8 hours\n91-100 Heavy snow 1d6 hours\n\nTable 4-25: Torrential Unfrozen Precipitation\nd% Precipitation Duration\n1-5 Heavy fog 1d8 hours\n6-10 Heavy fog 2d6 hours\n11-30 Heavy rain 2d6 hours\n31-60 Heavy rain 2d12 hours\n61-80 Heavy rain (sleet if below 40° F) 2d6 hours\n81-95 Thunderstorm 1d3 hours\n96-100 Thunderstorm 1d6 hours\n\nTable 4-26: Torrential Frozen Precipitation\nd% Precipitation Duration\n1-5 Heavy fog 1d8 hours\n6-10 Heavy fog 2d6 hours\n11-50 Heavy snow 1d4 hours\n51-90 Heavy snow 1d8 hours\n91-100 Heavy snow 2d12 hours\n\nDrizzle: Drizzle reduces visibility to three-quarters of the normal range, imposing a –2 penalty on Perception checks. It automatically extinguishes tiny unprotected flames (candles and the like, but not torches).\n\nFog, Heavy: Heavy fog obscures all vision beyond 5 feet, including darkvision. Creatures 5 feet away have concealment. Heavy fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Heavy fog occurs only when there is no or light wind.\n\nFog, Light: Light fog reduces visibility to three-quarters of the normal ranges, resulting in a –2 penalty on Perception checks and a –2 penalty on ranged attacks. Light fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Light fog occurs only when there is no or light wind.\n\nFog, Medium: Medium fog reduces visibility ranges by half, resulting in a –4 penalty on Perception checks and a –4 penalty on ranged attacks. Medium fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Medium fog occurs only when there is no or light wind.\n\nRain: Rain reduces visibility ranges by half, resulting in a –4 penalty on Perception checks. Rain automatically extinguishes unprotected flames (candles, torches, and the like) and imposes a –4 penalty on ranged attacks.\n\nRain, Heavy: Heavy rain reduces visibility to one-quarter of the normal range, resulting in a –6 penalty on Perception checks. Heavy rain automatically extinguishes unprotected flames and imposes a –6 penalty on ranged attacks.\n\nSleet: Essentially frozen rain, sleet has the same effect as light snow, but any accumulation typically doesn’t last longer than 1–2 hours after the storm.\n\nSnow, Heavy: Heavy snow reduces visibility ranges to onequarter of the normal range, resulting in a –6 penalty on Perception checks. It extinguishes unprotected flames and imposes a –6 penalty on ranged attacks. Heavy snow impedes movement even before it begins to stick. Moving into a square during a heavy snowstorm requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of heavy snow leaves 1d4 inches of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, 2 extra squares of movement are required to enter a snow-filled square instead. A heavy snowstorm has a 10% chance of generating thundersnow and has a 40% chance of becoming a blizzard if the wind speed is severe or stronger.\n\nSnow, Light: Light snow reduces visibility to three-quarters of the normal range, resulting in a –2 penalty on Perception checks. Light snow has a 75% chance each hour of extinguishing unprotected flames and imposes a –2 penalty on ranged attacks. Light snow does not impede movement unless it continues for 2 or more hours, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every 2 hours of light snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.\n\nSnow, Medium: Medium snow reduces visibility ranges by half, resulting in a –4 penalty on Perception checks. Medium snow extinguishes unprotected flames and imposes a –4 penalty on ranged attacks. Medium snow does not impede movement unless it continues for 1 hour, at which point moving into a square of such snow requires 1 extra 5-foot square of movement (this stacks with difficult terrain). Every hour of medium snow leaves 1 inch of snow on the ground. As long as at least 2 inches of snow remain on the ground, the requirement of an extra square of movement to enter a square of snow persists. If at least 1 foot of snow remains on the ground, entering a snow-filled square instead requires 2 extra squares of movement.\n\nThunderstorm: Thunderstorms feature powerful winds and heavy rain. To determine the type of wind associated with the thunderstorm, roll on Table 4–27: Thunderstorm Winds.\n\nTable 4-27: Thunderstorm Winds\nd% Thunderstorm Wind Strength\n1-50 Strong winds\n51-90 Severe winds\n91-100 Windstorm\n\nIn addition, there is a 40% chance that a thunderstorm features hail either up to an hour before or during the storm. An even greater danger presented by a thunderstorm is the lightning that occurs during the storm. These electrical discharges, generated by the roiling clouds, can pose a hazard to creatures that do not have proper shelters, especially creatures clad in metal armor. Every 10 minutes during a thunderstorm, a bolt of lightning strikes an unsheltered creature at random (though this can strike wildlife as easily as PCs). A creature struck by this lightning must succeed a DC 18 Reflex saving throw or take 10d8 points of electricity damage (a successful saving throw halves the damage). Creatures in metal armor take a –4 penalty on the Reflex saving throw.\n\nThere is a 10% chance that a thunderstorm with winds of windstorm strength also generates a tornado, while thunderstorms with windstorm-strength winds in temperatures higher than 85° F also have a 20% chance of being a precursor to a hurricane. There is a 20% chance that a thunderstorm of any strength in the desert also generates a haboob.\n\nDeserts\nDeserts are found in places where the weather must pass over mountains, causing a rain shadow, and in very cold environments. The baseline precipitation frequency in a desert is usually drought, but can be rare for a few weeks per year.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Variation",
+          "Duration"
+        ],
+        [
+          "1-20",
+          "-3d10° F",
+          "1d4 days"
+        ],
+        [
+          "21-40",
+          "-2d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "41-60",
+          "-1d10° F",
+          "1d6+2 days"
+        ],
+        [
+          "61-80",
+          "No variation",
+          "1d6+2 days"
+        ],
+        [
+          "81-95",
+          "+1d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "96-99",
+          "+2d10° F",
+          "1d4 days days"
+        ],
+        [
+          "100",
+          "+3d10° F",
+          "1d2 days days"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Variation",
+          "Duration"
+        ],
+        [
+          "1-5",
+          "-3d10° F",
+          "1d2 days"
+        ],
+        [
+          "6-15",
+          "-2d10° F",
+          "1d4 days"
+        ],
+        [
+          "16-35",
+          "-1d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "36-65",
+          "No variation",
+          "1d6+1 days"
+        ],
+        [
+          "66-85",
+          "+1d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "86-95",
+          "+2d10° F",
+          "1d4 days days"
+        ],
+        [
+          "96-100",
+          "+3d10° F",
+          "1d2 days days"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Variation",
+          "Duration"
+        ],
+        [
+          "1-10",
+          "-2d10° F",
+          "1d2 days"
+        ],
+        [
+          "11-25",
+          "-1d10° F",
+          "1d2 days"
+        ],
+        [
+          "26-55",
+          "No variation",
+          "1d4 days"
+        ],
+        [
+          "56-85",
+          "+1d10° F",
+          "1d4 days"
+        ],
+        [
+          "86-100",
+          "+2d10° F",
+          "1d2 days days"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Frequency",
+          "Chance of Precipitation"
+        ],
+        [
+          "Drought",
+          "5% (decrease precipitation intensity by 2 steps"
+        ],
+        [
+          "Rare",
+          "15%"
+        ],
+        [
+          "Intermittent",
+          "30%"
+        ],
+        [
+          "Common",
+          "60%"
+        ],
+        [
+          "Constant",
+          "95%"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-20",
+          "Light fog",
+          "1d8 hours"
+        ],
+        [
+          "21-40",
+          "Medium fog",
+          "1d6 hours"
+        ],
+        [
+          "41-50",
+          "Drizzle",
+          "1d4 hours"
+        ],
+        [
+          "51-75",
+          "Drizzle",
+          "2d12 hours"
+        ],
+        [
+          "76-90",
+          "Light rain",
+          "1d4 hours"
+        ],
+        [
+          "91-100",
+          "Light rain (sleet if below 40° F)",
+          "1 hour"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-20",
+          "Light fog",
+          "1d6 hours"
+        ],
+        [
+          "21-40",
+          "Light fog",
+          "1d8 hours"
+        ],
+        [
+          "41-50",
+          "Medium fog",
+          "1d4 hours"
+        ],
+        [
+          "51-60",
+          "Light snow",
+          "1 hour"
+        ],
+        [
+          "61-75",
+          "Light snow",
+          "1d4 hours"
+        ],
+        [
+          "76-100",
+          "Light snow",
+          "2d12 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "01-10",
+          "Medium fog",
+          "1d8 hours"
+        ],
+        [
+          "11-20",
+          "Medium fog",
+          "1d12 hours"
+        ],
+        [
+          "21-30",
+          "Heavy fog",
+          "1d4 hours"
+        ],
+        [
+          "31-35",
+          "Rain",
+          "1d4 hours"
+        ],
+        [
+          "36-70",
+          "Rain",
+          "1d8 hours"
+        ],
+        [
+          "71-90",
+          "Rain",
+          "2d12 hours"
+        ],
+        [
+          "91-100",
+          "Rain (sleet if below 40° F)",
+          "1d4 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-10",
+          "Medium fog",
+          "1d6 hours"
+        ],
+        [
+          "11-20",
+          "Medium fog",
+          "1d8 hours"
+        ],
+        [
+          "21-30",
+          "Heavy fog",
+          "1d4 hours"
+        ],
+        [
+          "31-50",
+          "Medium snow",
+          "1d4 hours"
+        ],
+        [
+          "51-90",
+          "Medium snow",
+          "1d8 hours"
+        ],
+        [
+          "91-100",
+          "Medium snow",
+          "2d12 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-10",
+          "Heavy fog",
+          "1d8 hours"
+        ],
+        [
+          "11-20",
+          "Heavy fog",
+          "2d6 hours"
+        ],
+        [
+          "21-50",
+          "Heavy rain",
+          "1d12 hours"
+        ],
+        [
+          "51-70",
+          "Heavy rain",
+          "2d12 hours"
+        ],
+        [
+          "71-85",
+          "Heavy rain (sleet if below 40° F)",
+          "1d8 hours"
+        ],
+        [
+          "86-90",
+          "Thunderstorm",
+          "1 hour"
+        ],
+        [
+          "91-100",
+          "Thunderstorm",
+          "1d3 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-10",
+          "Medium fog",
+          "1d8 hours"
+        ],
+        [
+          "11-20",
+          "Heavy fog",
+          "2d6 hours"
+        ],
+        [
+          "21-60",
+          "Light snow",
+          "2d12 hours"
+        ],
+        [
+          "61-90",
+          "Medium snow",
+          "1d8 hours"
+        ],
+        [
+          "91-100",
+          "Heavy snow",
+          "1d6 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-5",
+          "Heavy fog",
+          "1d8 hours"
+        ],
+        [
+          "6-10",
+          "Heavy fog",
+          "2d6 hours"
+        ],
+        [
+          "11-30",
+          "Heavy rain",
+          "2d6 hours"
+        ],
+        [
+          "31-60",
+          "Heavy rain",
+          "2d12 hours"
+        ],
+        [
+          "61-80",
+          "Heavy rain (sleet if below 40° F)",
+          "2d6 hours"
+        ],
+        [
+          "81-95",
+          "Thunderstorm",
+          "1d3 hours"
+        ],
+        [
+          "96-100",
+          "Thunderstorm",
+          "1d6 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Precipitation",
+          "Duration"
+        ],
+        [
+          "1-5",
+          "Heavy fog",
+          "1d8 hours"
+        ],
+        [
+          "6-10",
+          "Heavy fog",
+          "2d6 hours"
+        ],
+        [
+          "11-50",
+          "Heavy snow",
+          "1d4 hours"
+        ],
+        [
+          "51-90",
+          "Heavy snow",
+          "1d8 hours"
+        ],
+        [
+          "91-100",
+          "Heavy snow",
+          "2d12 hours"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Thunderstorm Wind Strength"
+        ],
+        [
+          "1-50",
+          "Strong winds"
+        ],
+        [
+          "51-90",
+          "Severe winds"
+        ],
+        [
+          "91-100",
+          "Windstorm"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c70a19c41243bebb.json",
+    "web": "https://codex.pipsprojects.com/#/e/c70a19c41243bebb"
+  },
+  "license": "OGL 1.0a"
+}

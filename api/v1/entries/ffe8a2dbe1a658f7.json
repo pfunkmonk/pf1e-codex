@@ -1,0 +1,34 @@
+{
+  "id": "ffe8a2dbe1a658f7",
+  "name": "Euphoric Cloud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 181, Dark Markets - A Guide to Katapesh pg. 57",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "druid": 2,
+      "hunter": 2,
+      "magus": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 181, Dark Markets - A Guide to Katapesh pg. 57\nSchool conjuration (creation) [poison]; Level arcanist 2, druid 2, hunter 2, magus 2, mesmerist 2, psychic 2, sahirafiyun 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (rare mushrooms worth 5 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect fog spreads in 20-ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw Fortitude negates (see text); Spell Resistance no\nDescription\nYou create a bank of fog similar to that created by fog cloud except its vapors are intoxicating. Living creatures in the cloud become fascinated. This condition lasts as long as a creature is in the cloud and for 1d4+1 rounds after it leaves. Any creature that succeeds at its save but remains in the cloud must continue to save each round on your turn.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ffe8a2dbe1a658f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/ffe8a2dbe1a658f7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "93e3f119ad63750c",
+  "name": "Treacherous Teleport",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 227",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 6,
+      "magus": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "summoner": 6,
+      "summoner (unchained)": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "ruse"
+    ],
+    "save": "Will",
+    "sr": "no and yes (object)",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Treacherous Teleport\nSource Ultimate Intrigue pg. 227\nSchool conjuration (teleportation) [ruse]; Level arcanist 6, magus 6, occultist 6, psychic 6, sorcerer 6, spiritualist 6, summoner 6, summoner (unchained) 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal and touch\nTarget you and touched objects or other touched willing creatures\nDuration instantaneous\nSaving Throw none and Will negates (object); Spell Resistance no and yes (object)\nDescription\nThis spell functions as teleport except that you can opt to intentionally cause any number of the creatures traveling with you to suffer a mishap or arrive in a specific different location you visualize simultaneously with the original destination, or both.\n\nAttempts to identify treacherous teleport with a skill check incorrectly identify it as teleport.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93e3f119ad63750c.json",
+    "web": "https://codex.pipsprojects.com/#/e/93e3f119ad63750c"
+  },
+  "license": "OGL 1.0a"
+}

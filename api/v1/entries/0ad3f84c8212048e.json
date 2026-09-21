@@ -1,0 +1,28 @@
+{
+  "id": "0ad3f84c8212048e",
+  "name": "Peerless Integrity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 31",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 31\nSchool illusion (glamer); Level antipaladin 2, arcanist 2, bard 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nArea 10-ft.-radius emanation centered on you\nDuration 10 minutes/level\nSaving Throw none or Will negates, see text; Spell Resistance none\nDescription\nPeerless integrity conceals the alignment of creatures from divination magic. All creatures within the spell’s area, including you, appear to have lawful good auras for the purposes of divination spells and effects that reveal alignments (such as detect law and see alignmentUC), instead of their actual alignments. If the caster of such divination magic succeeds at a Will save, the caster recognizes whether the readings are true or false. Any creature under the effects of this spell gains a +2 circumstance modifier on Bluff and Diplomacy checks.\n\nThis spell does not affect other types of divination magic (such as detect thoughts or discern lies) and does not protect against spells or effects that cause harm based on targeted creatures’ alignments.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ad3f84c8212048e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ad3f84c8212048e"
+  },
+  "license": "OGL 1.0a"
+}

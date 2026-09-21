@@ -1,0 +1,27 @@
+{
+  "id": "cf1a1c2729fffbad",
+  "name": "Synesthesia",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 187",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "mesmerist": 3,
+      "psychic": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 187\nSchool illusion (phantasm) [mind-affecting]; Level mesmerist 3, psychic 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou overstimulate the senses of the affected creature, causing its senses to interfere with another. While a creature is under the effects of this spell, sensory input is processed by the wrong senses, such that noise triggers bursts of colors, smells create sounds, and so on. The affected creature moves at half speed, has a 20% miss chance on attacks, and takes a –4 penalty to AC and on skill checks and Reflex saves. Successful spellcasting while affected requires a concentration check with a DC equal to this spell’s save DC plus the level of spell being cast.\n\nIn addition, the affected creature is considered distracted for the purpose of attempting Perception checks. Effects that negate or reduce concealment do not affect the miss chance from synesthesia.\nSynesthesia, Mass\nSource Occult Adventures pg. 188\nSchool illusion (phantasm) [mind-affecting]; Level mesmerist 5, psychic 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one or more living creatures, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like synesthesia, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf1a1c2729fffbad.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf1a1c2729fffbad"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "79c16aa6bb91850d",
+  "name": "Counterbalancing Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 40, Champions of Balance pg. 26",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "oracle": 8
+    },
+    "sr": "yes",
+    "bk": "Planar Adventures"
+  },
+  "body": "Source Planar Adventures pg. 40, Champions of Balance pg. 26\nSchool abjuration; Level cleric 8, oracle 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a set of scales worth 500 gp)\nEffect\nRange 20 ft.\nTarget one creature/level in a 20-ft.-radius burst centered on you\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\nDescription\nAn oscillating bronze glow surrounds the targets, protecting them from attacks, granting them resistance to spells cast by neutral creatures, and sickening or nauseating neutral creatures that strike the targets. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saving throws. This benefit applies against all attacks and effects, not just attacks by neutral creatures.\n\nSecond, a warded creature gains spell resistance 23 against spells cast by chaotic neutral, lawful neutral, neutral evil, and neutral good creatures, and spell resistance 27 against spells cast by neutral creatures with no other alignment components.\n\nThird, the spell protects warded creatures from possession and influence by such creatures (otherwise as protection from evil).\n\nFinally, if a chaotic neutral, lawful neutral, neutral evil, or neutral good creature successfully hits a warded creature with a melee attack, the attacker is sickened for 1d6 rounds (Fortitude negates). If a neutral creature successfully hits a warded creature with a melee attack, the attacker is instead nauseated for 1d6 rounds (Fortitude negates).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79c16aa6bb91850d.json",
+    "web": "https://codex.pipsprojects.com/#/e/79c16aa6bb91850d"
+  },
+  "license": "OGL 1.0a"
+}

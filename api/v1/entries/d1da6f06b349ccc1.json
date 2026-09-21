@@ -1,0 +1,35 @@
+{
+  "id": "d1da6f06b349ccc1",
+  "name": "Remove Disease",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 332",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 3,
+      "alchemist": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "inquisitor": 3,
+      "investigator": 3,
+      "oracle": 3,
+      "ranger": 3,
+      "shaman": 3,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 332\nSchool conjuration (healing); Level adept 3, alchemist 3, cleric 3, druid 3, hunter 3, inquisitor 3, investigator 3, oracle 3, ranger 3, shaman 3, spiritualist 3, warpriest 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\n\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1da6f06b349ccc1.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1da6f06b349ccc1"
+  },
+  "license": "OGL 1.0a"
+}

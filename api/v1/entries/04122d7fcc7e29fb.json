@@ -1,0 +1,28 @@
+{
+  "id": "04122d7fcc7e29fb",
+  "name": "Break, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 207",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Break\nSource Advanced Player's Guide pg. 207\nSchool transmutation; Level arcanist 1, bloodrager 1, occultist 1, psychic 1, redmantisassassin 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a twig)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one Medium or smaller object\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nYou can attempt to break or at least damage any one Medium or smaller object within range. If the target fails its Fortitude saving throw, it gains the broken condition. If cast on a broken item, that item is destroyed on a failed save.\nMythic Break\nSource Mythic Adventures pg. 87\nYou can target up to 1 Medium or smaller object per caster level.\n\nAugmented (3rd): If you expend two uses of mythic power, target objects gain the broken condition on a successful save and are destroyed on a failed save. This doesn’t affect mythic objects or objects held or carried by mythic creatures.\nBreak, Greater\nSource Ultimate Intrigue pg. 205\nSchool transmutation; Level arcanist 6, bloodrager 4, occultist 6, psychic 6, sorcerer 6, wizard 6\nCasting\nCasting Time 1 round\nComponents V, S, M (an unbroken platinum tuning fork worth 100 gp)\nEffect\nRange 30 ft.\nTargets all Medium or smaller objects in a 30-ft. burst centered on you\nDuration instantaneous\nSaving Throw none; Spell Resistance yes (object)\nDescription\nYou release a burst of destructive energy. Each Medium or smaller object in the area gains the broken condition unless it succeeds at a Fortitude saving throw. If a broken object fails this save, it is instead destroyed. Magic items can be broken by this spell, but not destroyed. Objects in your possession are not immune.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04122d7fcc7e29fb.json",
+    "web": "https://codex.pipsprojects.com/#/e/04122d7fcc7e29fb"
+  },
+  "license": "OGL 1.0a"
+}

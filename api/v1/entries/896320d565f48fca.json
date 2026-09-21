@@ -1,0 +1,32 @@
+{
+  "id": "896320d565f48fca",
+  "name": "Shadow Claws",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Villain Codex pg. 81",
+  "book": "Villain Codex",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "magus": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "bk": "Villain Codex"
+  },
+  "body": "Source Villain Codex pg. 81\nSchool illusion (shadow) [shadow]; Level antipaladin 1, arcanist 2, bard 2, bloodrager 2, magus 2, skald 2, sorcerer 2, spiritualist 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYou summon a pair of claws over your hands formed from semireal material. This grants you two primary claw attacks dealing 1d4 points of damage if you are Medium (1d3 if Small) plus 1 point of Strength damage. A successful Fortitude saving throw negates the Strength damage (DC = this spell’s DC).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/896320d565f48fca.json",
+    "web": "https://codex.pipsprojects.com/#/e/896320d565f48fca"
+  },
+  "license": "OGL 1.0a"
+}

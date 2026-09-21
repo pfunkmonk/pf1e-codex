@@ -1,0 +1,25 @@
+{
+  "id": "ecd0d4233793afc4",
+  "name": "Lockjaw",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 232",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 232\nSchool transmutation; Level druid 2, hunter 2, ranger 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (sticky tree gum)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou give a creature the ability to use one of its natural attacks to firmly attach itself to an opponent. Choose one of the creature’s natural attacks (usually a claw or bite attack). The creature gains the grab ability with that natural attack, including the +4 bonus on combat maneuver checks to start or maintain a grapple. A creature with multiple natural attacks can strike at its grappled opponent with its other natural attacks, but cannot attack any other creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ecd0d4233793afc4.json",
+    "web": "https://codex.pipsprojects.com/#/e/ecd0d4233793afc4"
+  },
+  "license": "OGL 1.0a"
+}

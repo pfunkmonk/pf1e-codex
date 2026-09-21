@@ -1,0 +1,24 @@
+{
+  "id": "a4ceba3ecdd32e27",
+  "name": "Gallant Inspiration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 225",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 2,
+      "skald": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 225\nSchool divination; Level bard 2, skald 2\nCasting\nCasting Time 1 immediate action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis word of arcane-empowered inspiration often ensures success of a crucial endeavor. Cast this spell when a creature fails an attack roll or skill check. The creature gains a +2d4 competence bonus to the attack roll or skill check retroactively. If the bonus is enough to turn the failure into a success, the roll succeeds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4ceba3ecdd32e27.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4ceba3ecdd32e27"
+  },
+  "license": "OGL 1.0a"
+}

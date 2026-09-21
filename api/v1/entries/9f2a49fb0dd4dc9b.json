@@ -1,0 +1,31 @@
+{
+  "id": "9f2a49fb0dd4dc9b",
+  "name": "Soothing Word",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "GameMastery Condition Cards pg. 0",
+  "book": "GameMastery Condition Cards",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "GameMastery Condition Cards"
+  },
+  "body": "Source GameMastery Condition Cards pg. 0\nSchool conjuration (healing); Level cleric 2, druid 2, hunter 2, inquisitor 2, oracle 2, paladin 2, ranger 2, warpriest 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target of this spell causes several conditions that he suffers from to be lessened in severity by one step. If he is nauseated, he is instead sickened. If he is stunned, he is instead dazed. If he is exhausted, he is fatigued. If he is frightened, he is shaken. If he is paralyzed, he is staggered. The duration of the effect is unchanged; the effect is simply reduced to the lesser version. This spell has no effect on conditions not listed above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f2a49fb0dd4dc9b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f2a49fb0dd4dc9b"
+  },
+  "license": "OGL 1.0a"
+}

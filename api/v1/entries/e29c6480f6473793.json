@@ -1,0 +1,23 @@
+{
+  "id": "e29c6480f6473793",
+  "name": "Spell Absorption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 61",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 61\nSchool abjuration; Level arcanist 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S, M (a prism)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nIf you successfully counterspell a 3rd-level or lower level spell (through either dispel magic or normal means) while spell absorption is in effect, you absorb the countered spell and use it to regain spells you have already cast. If you’re a wizard, you regain the use of any single spell that you have cast since the last time you prepared spells. If you’re a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained must be of an equal level or lower than the spell you counterspelled.\nSpell Absorption, Greater\nSource Inner Sea Magic pg. 61\nSchool abjuration; Level arcanist 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 round\nComponents V, S, M (a prism)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nThis spell functions as spell absorption, save that you can absorb countered spells of 6th level or lower.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e29c6480f6473793.json",
+    "web": "https://codex.pipsprojects.com/#/e/e29c6480f6473793"
+  },
+  "license": "OGL 1.0a"
+}

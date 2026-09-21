@@ -1,0 +1,31 @@
+{
+  "id": "0b8ff97798a7ecda",
+  "name": "Perfect Placement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 24",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "bloodrager": 2,
+      "magus": 3,
+      "psychic": 3,
+      "skald": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 24\nSchool divination; Level arcanist 3, bard 2, bloodrager 2, magus 3, psychic 3, skald 2, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a chess piece)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nAffected creatures gain tactical knowledge and maximize their efficiency on the field of battle. Each gains a +1 insight bonus to AC and Reflex saves. Against attacks of opportunity, the insight bonus to AC increases to +3.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b8ff97798a7ecda.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b8ff97798a7ecda"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "e516de3e42f5267d",
+  "name": "Allegro",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 205",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "skald": 2
+    },
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 205\nSchool transmutation; Level bard 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D) or until discharged\nDescription\nThis spell allows you to act more swiftly while maintaining a bardic performance. You must already be maintaining a bardic performance before you can cast allegro. You gain the benefits of the spell haste for as long as you maintain that bardic performance. If you cease maintaining the bardic performance or it is interrupted, this spell’s duration ends. As an immediate action while you are maintaining a bardic performance, you can dismiss allegro to reroll a Reflex save or Dexterity-based skill check—you must choose to reroll before the result of the original roll is known. You must take the result of the reroll, even if it’s worse than the original roll. Allegro dispels and is dispelled by slow.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e516de3e42f5267d.json",
+    "web": "https://codex.pipsprojects.com/#/e/e516de3e42f5267d"
+  },
+  "license": "OGL 1.0a"
+}

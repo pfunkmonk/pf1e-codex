@@ -1,0 +1,29 @@
+{
+  "id": "6234633738743f72",
+  "name": "Blood Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 176",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bloodrager": 2,
+      "investigator": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 176\nSchool transmutation; Level alchemist 2, arcanist 2, bloodrager 2, investigator 2, psychic 2, redmantisassassin 2, sorcerer 2, summoner 2, summoner (unchained) 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYour blood becomes as hard as iron upon contact with air. Each time you take at least 5 points of piercing or slashing damage, your armor gains a +1 enhancement bonus to your AC. An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell. This enhancement bonus stacks with itself, but not with an existing enhancement bonus, to a maximum enhancement bonus of +5. This spell has no effect while underwater or in environments that lack air.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6234633738743f72.json",
+    "web": "https://codex.pipsprojects.com/#/e/6234633738743f72"
+  },
+  "license": "OGL 1.0a"
+}

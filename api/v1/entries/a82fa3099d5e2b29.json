@@ -1,0 +1,39 @@
+{
+  "id": "a82fa3099d5e2b29",
+  "name": "Delay Poison, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 265",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 2,
+      "alchemist": 2,
+      "bard": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 1,
+      "inquisitor": 2,
+      "investigator": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "ranger": 1,
+      "shaman": 2,
+      "skald": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Delay Poison\nSource PRPG Core Rulebook pg. 265\nSchool conjuration (healing); Level adept 2, alchemist 2, bard 2, cleric 2, druid 2, hunter 1, inquisitor 2, investigator 2, mesmerist 2, occultist 2, oracle 2, paladin 2, ranger 1, shaman 2, skald 2, warpriest 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. Delay poison does not cure any damage that poison may have already done.\nDelay Poison, Communal\nSource Ultimate Combat pg. 227\nSchool conjuration (healing); Level alchemist 3, bard 3, cleric 3, druid 3, hunter 3, inquisitor 3, investigator 3, oracle 3, paladin 3, ranger 3, skald 3, warpriest 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets creatures touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like delay poison, except you divide the duration in 1-hour intervals among the creatures touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a82fa3099d5e2b29.json",
+    "web": "https://codex.pipsprojects.com/#/e/a82fa3099d5e2b29"
+  },
+  "license": "OGL 1.0a"
+}

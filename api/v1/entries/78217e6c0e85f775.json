@@ -1,0 +1,28 @@
+{
+  "id": "78217e6c0e85f775",
+  "name": "Warding Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 248",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 1,
+      "magus": 1,
+      "occultist": 1,
+      "psychic": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 248\nSchool abjuration; Level arcanist 2, bloodrager 1, magus 1, occultist 1, psychic 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, F (one melee weapon you are proficient in and you are holding)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nThe focus of this spell flies upward above your head and takes a defensive position within your space. It lunges at opponents, as if guided by a martially trained hand, parrying and turning back melee attacks aimed at you, but does not strike back at any opponent nor does it damage them. The weapon serves only as a defense. While it protects you, you can cast spells without provoking attacks of opportunity, without the need to cast them defensively.\n\nA creature with the Disruptive feat can easily bypass this spell’s defenses. You provoke attacks of opportunity for casting spells against these creatures even when subject to this spell, though you can still choose to cast defensively.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78217e6c0e85f775.json",
+    "web": "https://codex.pipsprojects.com/#/e/78217e6c0e85f775"
+  },
+  "license": "OGL 1.0a"
+}

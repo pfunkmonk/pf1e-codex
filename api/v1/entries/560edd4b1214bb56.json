@@ -1,0 +1,23 @@
+{
+  "id": "560edd4b1214bb56",
+  "name": "Zone of Silence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 371",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 4,
+      "mesmerist": 4,
+      "skald": 4
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 371\nSchool illusion (glamer); Level bard 4, mesmerist 4, skald 4\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange personal\nArea 5-ft.-radius emanation centered on you\nDuration 1 hour/level (D)\nDescription\nBy casting zone of silence, you manipulate sound waves in your immediate vicinity so that you and those within the spell's area can converse normally, yet no one outside can hear your voices or any other noises from within, including language-dependent or sonic spell effects. This effect is centered on you and moves with you. Anyone who enters the zone immediately becomes subject to its effects, but those who leave are no longer affected. Note, however, that a successful DC 20 Linguistics check to read lips can still reveal what's said inside a zone of silence.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/560edd4b1214bb56.json",
+    "web": "https://codex.pipsprojects.com/#/e/560edd4b1214bb56"
+  },
+  "license": "OGL 1.0a"
+}

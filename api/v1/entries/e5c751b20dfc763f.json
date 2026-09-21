@@ -1,0 +1,24 @@
+{
+  "id": "e5c751b20dfc763f",
+  "name": "Imbue Army Special Ability",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Quests and Campaigns pg. 29",
+  "book": "Quests and Campaigns",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 9,
+      "oracle": 9
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Quests and Campaigns"
+  },
+  "body": "Source Quests and Campaigns pg. 29\nSchool evocation; Level cleric 9, oracle 9\nCasting\nCasting Time 10 minutes\nComponents V, S, F (a silver mirror worth 100 gp)\nEffect\nRange 1 hex\nTarget one army\nDuration 1 battle\nSaving Throw none or Will negates (harmless); Spell Resistance yes\nDescription\nYou imbue the target with an army special ability (see page 242 of Ultimate Campaign) possessed by the army’s commander. The army is treated as if it consists of units who all possess the chosen special ability. This special ability is in addition to any special abilities the army inherently possessed prior to the casting of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5c751b20dfc763f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5c751b20dfc763f"
+  },
+  "license": "OGL 1.0a"
+}

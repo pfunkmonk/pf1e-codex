@@ -1,0 +1,25 @@
+{
+  "id": "43fca1af0b2d147d",
+  "name": "Summon Minor Ally",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 241",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "ranger": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 241\nSchool conjuration (summoning); Level druid 1, hunter 1, ranger 1\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 1d3 summoned creatures\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as summon nature’s ally I, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43fca1af0b2d147d.json",
+    "web": "https://codex.pipsprojects.com/#/e/43fca1af0b2d147d"
+  },
+  "license": "OGL 1.0a"
+}

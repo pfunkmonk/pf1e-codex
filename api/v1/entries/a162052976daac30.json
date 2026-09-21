@@ -1,0 +1,37 @@
+{
+  "id": "a162052976daac30",
+  "name": "Shadow Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 31",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 31\nSchool illusion (shadow); Level antipaladin 1, arcanist 1, bard 1, bloodrager 1, cleric 1, mesmerist 1, occultist 1, oracle 1, psychic 1, shaman 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou pin the target’s shadow to its current location, causing the target to become entangled and preventing it from moving farther than 5 feet from its original position, as if its shadow were anchored to the terrain. Each round on its turn, the target can attempt a new saving throw to end the effect as a full-round action. A flying creature can only hover in place or fall while entangled in this manner. This spell automatically fails when cast on a creature that doesn’t throw a shadow, and it ends if the creature is entirely in an area with no illumination.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a162052976daac30.json",
+    "web": "https://codex.pipsprojects.com/#/e/a162052976daac30"
+  },
+  "license": "OGL 1.0a"
+}

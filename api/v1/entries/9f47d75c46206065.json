@@ -1,0 +1,28 @@
+{
+  "id": "9f47d75c46206065",
+  "name": "Batrachian Surge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Beast pg. 11",
+  "book": "Blood of the Beast",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "summoner": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Blood of the Beast"
+  },
+  "body": "Source Blood of the Beast pg. 11\nSchool transmutation; Level bloodrager 1, druid 1, hunter 1, inquisitor 1, ranger 1, summoner 1, summoner (unchained) 1 (Grippli)\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round + 1 round/3 levels (D)\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nYou tap into your latent amphibian strengths, unlocking a short-lived physical talent. Armor or gear you are wearing adjusts to your new shape for the duration of the spell. When you cast batrachian surge, choose one of the following features to gain its associated benefits. You can have only one batrachian surge spell active on you at a time.\n\nGills: Your throat expands, and gill slits appear along your neck. You can breathe underwater.\n\nLeaping: Your legs elongate and become especially muscular. You are always treated as having a running start when attempting Acrobatics checks to jump, and you gain a competence bonus on Acrobatics checks to jump equal to your caster level.\n\nSwimming: You grow a large tadpole tail, and your other limbs shrink slightly. You gain a swim speed equal to your base land speed.\n\nTongue: Your tongue extends to the length of your body. Increase your reach by 5 feet when delivering touch spells. This increased reach doesn’t stack with any other spells or abilities that affect your reach.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f47d75c46206065.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f47d75c46206065"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1336e9ed1860e3d1",
+  "name": "Adhesive Spittle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 172",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "investigator": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 172\nSchool conjuration (creation); Level alchemist 1, arcanist 1, investigator 1, psychic 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 15 ft.\nTarget one creature\nDuration 1 round/level or until discharged (see text)\nSaving Throw Reflex partial; Spell Resistance no\nDescription\nOnce during this spell’s duration, you can spit a viscous liquid as a standard action. This liquid functions as a tanglefoot bag, except you do not have to make a successful attack roll to hit your target. The DCs to counteract this adhesive (to avoid being stuck to the floor, to fly, to break the adhesive, or to cast a spell) use the spell’s DC rather than a tanglefoot bag’s normal DCs. The adhesive persists for 2d4 rounds after you spit it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1336e9ed1860e3d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/1336e9ed1860e3d1"
+  },
+  "license": "OGL 1.0a"
+}

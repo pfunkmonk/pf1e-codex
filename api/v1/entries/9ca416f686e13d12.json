@@ -1,0 +1,31 @@
+{
+  "id": "9ca416f686e13d12",
+  "name": "Last Azlanti's Defending Sword, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 9",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "magus": 6,
+      "occultist": 6,
+      "psychic": 7,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Last Azlanti's Defending Sword\nSource Arcane Anthology pg. 9\nSchool evocation [force]; Level arcanist 6, magus 6, occultist 6, psychic 7, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a miniature platinum sword worth 250 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one sword\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nYou create a sword of force that functions as mage’s sword except as described here. The sword does not receive the additional +3 enhancement bonus a mage’s sword receives, and deals 3d6 points of force damage. You cannot command the sword. Until the sword is triggered, it hovers in your space without interfering with your actions. While hovering in this way, the sword attempts to defend you from incoming attacks, granting you a +4 shield bonus to your AC. The first time a foe within close range damages you or forces you to attempt a saving throw that you fail, the sword is triggered and begins attacking that target as described in mage’s sword for the duration of the spell. This ends the shield bonus. You cannot direct the sword to defend against a new target once it has begun to attack. If its target moves beyond the sword’s range, the sword returns to you and hovers until the target is again within range. The sword’s return does not restore the spell’s shield bonus to AC.\nLast Azlanti's Defending Sword, Mass\nSource Arcane Anthology pg. 9\nSchool evocation [force]; Level arcanist 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a miniature platinum sword worth 250 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffects up to one sword per 3 levels\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nThis spell functions as Aroden’s defending sword, except you can create one sword per 5 caster levels, each of which must defend a different creature within range.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9ca416f686e13d12.json",
+    "web": "https://codex.pipsprojects.com/#/e/9ca416f686e13d12"
+  },
+  "license": "OGL 1.0a"
+}

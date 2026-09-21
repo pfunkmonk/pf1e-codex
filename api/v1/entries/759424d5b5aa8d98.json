@@ -1,0 +1,26 @@
+{
+  "id": "759424d5b5aa8d98",
+  "name": "Speak with Animals",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 346",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "druid": 1,
+      "hunter": 1,
+      "psychic": 2,
+      "ranger": 1,
+      "skald": 3
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 346\nSchool divination; Level bard 3, druid 1, hunter 1, psychic 2, ranger 1, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level\nDescription\nYou can ask questions of and receive answers from animals, but the spell doesn't make them any more friendly than normal. Wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/759424d5b5aa8d98.json",
+    "web": "https://codex.pipsprojects.com/#/e/759424d5b5aa8d98"
+  },
+  "license": "OGL 1.0a"
+}

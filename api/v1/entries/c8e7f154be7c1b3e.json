@@ -1,0 +1,32 @@
+{
+  "id": "c8e7f154be7c1b3e",
+  "name": "Celestial Companion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Plane-Hopper's Handbook pg. 12",
+  "book": "Plane-Hopper's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "druid": 2,
+      "hunter": 2,
+      "paladin": 1,
+      "ranger": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "summoner": 1,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Plane-Hopper's Handbook"
+  },
+  "body": "Source Plane-Hopper's Handbook pg. 12\nSchool transmutation; Level arcanist 2, druid 2, hunter 2, paladin 1, ranger 2, shaman 2, sorcerer 2, summoner 1, summoner (unchained) 1, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF/M\nEffect\nRange touch\nTarget animal companion, eidolon, familiar, or mount\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou bestow divine protection on your companion. The target gains spell resistance equal to 5 plus half your caster level against spells and spell-like effects produced by evil creatures. The target also gains a +1 sacred bonus on saving throws and DR 5/evil or silver. Creatures under the effects of this spell often take on a celestial appearance, such as golden feathers or a radiant aura, but they are not truly celestial creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c8e7f154be7c1b3e.json",
+    "web": "https://codex.pipsprojects.com/#/e/c8e7f154be7c1b3e"
+  },
+  "license": "OGL 1.0a"
+}

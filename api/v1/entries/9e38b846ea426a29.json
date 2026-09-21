@@ -1,0 +1,36 @@
+{
+  "id": "9e38b846ea426a29",
+  "name": "Calamitous Flailing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Coven pg. 20",
+  "book": "Blood of the Coven",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "cleric": 4,
+      "mesmerist": 3,
+      "oracle": 4,
+      "skald": 3,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "warpriest": 4,
+      "witch": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Coven"
+  },
+  "body": "Source Blood of the Coven pg. 20\nSchool necromancy [curse]; Level arcanist 4, bard 3, cleric 4, mesmerist 3, oracle 4, skald 3, sorcerer 4, spiritualist 3, warpriest 4, witch 3, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou cause the victim’s attacks to careen wildly, endangering itself and those around it. Your target gains a 25% miss chance on all attack rolls. If an attack misses due to this magical effect, the victim instead targets an ally, or else itself if there are no allies within range of the original attack. Apply the attack roll for the original attack to the new target’s Armor Class to determine if this attack hits. This is a curse effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9e38b846ea426a29.json",
+    "web": "https://codex.pipsprojects.com/#/e/9e38b846ea426a29"
+  },
+  "license": "OGL 1.0a"
+}

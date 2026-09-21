@@ -1,0 +1,26 @@
+{
+  "id": "442421e276a7aa79",
+  "name": "Imprisonment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 300",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 300\nSchool abjuration; Level arcanist 9, psychic 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates; see text; Spell Resistance yes\nDescription\nWhen you cast imprisonment and touch a creature, it is entombed in a state of suspended animation (see the temporal stasis spell) in a small sphere far beneath the surface of the ground. The subject remains there unless a freedom spell is cast at the locale where the imprisonment took place. Magical search by a crystal ball, a locate object spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but discern location does. A wish or miracle spell will not free the recipient, but will reveal where it is entombed. If you know the target's name and some facts about its life, the target takes a –4 penalty on its save.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/442421e276a7aa79.json",
+    "web": "https://codex.pipsprojects.com/#/e/442421e276a7aa79"
+  },
+  "license": "OGL 1.0a"
+}

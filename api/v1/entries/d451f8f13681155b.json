@@ -1,0 +1,24 @@
+{
+  "id": "d451f8f13681155b",
+  "name": "Grace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 226",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "paladin": 1,
+      "warpriest": 2
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 226\nSchool abjuration; Level cleric 2, oracle 2, paladin 1, warpriest 2\nCasting\nCasting Time 1 swift action\nComponents V\nEffect\nRange personal\nTarget you\nDuration see text\nDescription\nUntil the end of your turn, your movement does not provoke attacks of opportunity.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d451f8f13681155b.json",
+    "web": "https://codex.pipsprojects.com/#/e/d451f8f13681155b"
+  },
+  "license": "OGL 1.0a"
+}

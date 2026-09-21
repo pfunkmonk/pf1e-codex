@@ -1,0 +1,30 @@
+{
+  "id": "298ca3d7075c6a1a",
+  "name": "Empower Holy Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Undead Slayer's Handbook pg. 26",
+  "book": "Undead Slayer's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "investigator": 2,
+      "paladin": 1,
+      "skald": 2
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Undead Slayer's Handbook"
+  },
+  "body": "Source Undead Slayer's Handbook pg. 26\nSchool transmutation [good]; Level alchemist 2, bard 2, investigator 2, paladin 1, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one or more vials of holy water\nDuration 1 minute/level\nSaving Throw none (object); Spell Resistance no\nDescription\nYou empower a vial of holy water to deal additional damage to undead creatures. You can empower one vial of holy water at 4th level, two at 8th level, and three at 12th level. When thrown at an undead creature, the affected vial of holy water deals an amount of bonus damage equal to your caster level (maximum +10) on a direct hit, and half that amount of bonus damage (maximum +5) to creatures caught in the splash area. This additional damage is positive energy damage, and has no effect on living creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/298ca3d7075c6a1a.json",
+    "web": "https://codex.pipsprojects.com/#/e/298ca3d7075c6a1a"
+  },
+  "license": "OGL 1.0a"
+}

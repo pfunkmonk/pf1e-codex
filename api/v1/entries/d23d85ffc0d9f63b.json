@@ -1,0 +1,32 @@
+{
+  "id": "d23d85ffc0d9f63b",
+  "name": "Pick Your Poison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 238, Gods and Magic pg. 11",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "skald": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 238, Gods and Magic pg. 11\nSchool conjuration (healing) [mind-affecting]; Level bard 1, cleric 1, inquisitor 1, oracle 1, skald 1, warpriest 1, witch 1 (Cayden Cailean)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell temporarily converts even the deadliest poison affecting a creature into an intoxicating alcohol. If the subject is affected by a poison effect while under the effects of this spell, instead of the poison’s normal effect, she feels intoxicated as if she’d just had a very strong drink and takes a –2 penalty on attacks, saves, and checks for the duration of the spell. When the spell’s duration expires, the penalty ends and the poison’s normal effects apply. Pick your poison does not affect any poison effects that occurred before the spell was cast.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d23d85ffc0d9f63b.json",
+    "web": "https://codex.pipsprojects.com/#/e/d23d85ffc0d9f63b"
+  },
+  "license": "OGL 1.0a"
+}

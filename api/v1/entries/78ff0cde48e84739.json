@@ -1,0 +1,26 @@
+{
+  "id": "78ff0cde48e84739",
+  "name": "Screaming Flames",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 126",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "cleric": 3,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 126\nSchool evocation [evil, fire, mind-affecting]; Level antipaladin 3, cleric 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a charred animal or humanoid skull fragment)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect a sheet of flames up to 15 ft. long and 10 ft. high that moves 15 ft. in a straight line\nDuration instantaneous\nSaving Throw Reflex half and Will negates (see text); Spell Resistance yes\nDescription\nA sheer wall of flame appears and rushes away from you. Tendrils of fire reach out of it, shaped into skulls screaming in agony. When the wall passes through a creature’s space, that creature must succeed at a Reflex save or take 1d8 points of fire damage for every 2 caster levels you have (maximum 5d8). Any creature taking fire damage must also succeed at a Will save or take 1d3 points of Wisdom damage. Deaf creatures receive a +4 circumstance bonus on their Will saves.\n\nIf your campaign uses the sanity system (see page 12), a creature takes 1d6 points of sanity damage instead of Wisdom damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78ff0cde48e84739.json",
+    "web": "https://codex.pipsprojects.com/#/e/78ff0cde48e84739"
+  },
+  "license": "OGL 1.0a"
+}

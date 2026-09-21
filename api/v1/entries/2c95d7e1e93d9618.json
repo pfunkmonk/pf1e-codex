@@ -1,0 +1,26 @@
+{
+  "id": "2c95d7e1e93d9618",
+  "name": "Death from Below",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 39",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 3,
+      "bloodrager": 2,
+      "skald": 3,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 39\nSchool abjuration; Level arcanist 2, bard 3, bloodrager 2, skald 3, sorcerer 2, wizard 2 (gnome)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nDescription\nYou grant the target a dodge bonus to its Armor Class against attacks from larger creatures. The bonus is equal to +1 for every size category the attacker is larger than the target of the spell, to a maximum of +1 per 3 caster levels. If the spell’s target is a gnome, the maximum bonus is equal to +1 per 2 caster levels.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c95d7e1e93d9618.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c95d7e1e93d9618"
+  },
+  "license": "OGL 1.0a"
+}

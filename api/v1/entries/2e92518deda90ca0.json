@@ -1,0 +1,26 @@
+{
+  "id": "2e92518deda90ca0",
+  "name": "Tactical Miscalculation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Society Primer pg. 15",
+  "book": "Pathfinder Society Primer",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "hunter": 2,
+      "inquisitor": 2,
+      "ranger": 2,
+      "skald": 2
+    },
+    "sr": "yes",
+    "bk": "Pathfinder Society Primer"
+  },
+  "body": "Source Pathfinder Society Primer pg. 15\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level bard 2, hunter 2, inquisitor 2, ranger 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\nDescription\nThe target becomes fixated on avoiding damage and fails to spot even the most opportune moments to attack. Whenever a creature the target threatens would provoke an attack of opportunity from the target, the target must succeed at a Will save or be unable to make the attack of opportunity against that creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e92518deda90ca0.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e92518deda90ca0"
+  },
+  "license": "OGL 1.0a"
+}

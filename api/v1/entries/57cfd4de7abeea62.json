@@ -1,0 +1,29 @@
+{
+  "id": "57cfd4de7abeea62",
+  "name": "Black Spot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pirates of the Inner Sea pg. 28",
+  "book": "Pirates of the Inner Sea",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 4,
+      "oracle": 4,
+      "sorcerer": 5,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pirates of the Inner Sea"
+  },
+  "body": "Source Pirates of the Inner Sea pg. 28\nSchool necromancy; Level arcanist 5, cleric 4, oracle 4, sorcerer 5, warpriest 4, witch 4, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe black spot is a specific and feared pirate curse. An intangible, illusory black spot manifests above the target’s head and remains until the target dies or the curse is lifted. The black spot cannot be covered or hidden by any means, including other illusions.\n\nThe black spot radiates a cursed aura in a 10-foot radius around its target. Anyone within the aura gains a +2 bonus on weapon attack and damage rolls against the target. In addition, the target has a –4 penalty on saving throws against death effects.\n\nEvery day in which a creature bears a black spot, it must make a Fortitude save. On a failed save, the creature takes 1 point of Constitution damage. The damage cannot be healed until the black spot is removed. If the creature’s Constitution reaches 0, it dies. Pirates killed by this spell often return as ghosts, but that is not a direct effect of this spell.\n\nThe black spot cannot be dispelled, but it can be removed with break enchantment, limited wish, miracle, remove curse, or wish.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57cfd4de7abeea62.json",
+    "web": "https://codex.pipsprojects.com/#/e/57cfd4de7abeea62"
+  },
+  "license": "OGL 1.0a"
+}

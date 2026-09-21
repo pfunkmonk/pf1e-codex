@@ -1,0 +1,22 @@
+{
+  "id": "3aee6662ce20b067",
+  "name": "Human Skeleton",
+  "bucket": "monsters",
+  "category": "Mythic Monsters",
+  "source": "Mythic Adventures pg. 216",
+  "book": "Mythic Adventures",
+  "facets": {
+    "cr": 1,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Mythic Adventures",
+    "st": "mythic"
+  },
+  "body": "Its eyes glowing like bluish-white flames amid the shadows of its kingly helm, this skeleton wields two fearsome scimitars.\nMythic Human Skeleton CR 1/MR 1\nSource Mythic Adventures pg. 216\nXP 400\nNE Medium undead (mythic)\nInit +7M ; Senses darkvision 60 ft.; Perception +0\nDefense\nAC 15, touch 12, flat-footed 13 (+2 Dex, +3 natural)\nhp 17 (2d8+8)\nFort +0, Ref +2, Will +3\nDefensive Abilities channel resistance +2 ; DR 5/bludgeoning ; Immune cold, undead traits\nOffense\nSpeed 30 ft.\nMelee 2 scimitars +3 (1d6+2/18–20) or 2 claws +3 (1d4+2)\nSpecial Attacks mythic power (1/day, surge +1d6), relentless, superior two-weapon fighting\nStatistics\nStr 15, Dex 14, Con —, Int —, Wis 10, Cha 10\nBase Atk +1; CMB +3; CMD 15\nFeats Improved InitiativeB M\nSkills Perception +0\nEcology\nEnvironment any\nOrganization any\nTreasure standard (2 scimitars, other treasure)\nDescription\nA mythic skeleton is an animated corpse created with mythic magic such as mythic animate dead. It has an unnatural cunning that belies its mindless nature and a natural instinct for killing.\nCreating a Mythic Skeleton\n“Mythic skeleton” is an acquired template that can be added to any creature with the skeleton template (referred to hereafter as the base skeleton).\n\nMythic Subtype: A mythic skeleton gains the mythic subtype, with a rank equal to half the CR of the base skeleton. Instead of gaining additional abilities according to its CR, it always gains channel resistance +2, relentless, and superior two-weapon fighting. The mythic skeleton gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).\n\nCR: Adjust the base skeleton’s CR according to its mythic rank (this template doesn’t increase the base skeleton’s CR other than from the mythic rank).\n\nHit Dice: A mythic skeleton’s Hit Dice are determined as though it were a zombie (Bestiary 288) instead of a skeleton.\n\nRelentless (Ex): Any melee attack made against a mythic skeleton provokes an attack of opportunity from the skeleton.\n\nSuperior Two Weapon Fighting (Ex): A mythic humanoid skeleton usually fights with a scimitar in each hand. It does not take a penalty on attack or damage rolls for attacking with two weapons.\nOther Mythic Skeletons\nOther types of skeletons have the following additional or altered abilities.\n\nMythic Bloody Skeleton: Destroying a mythic bloody skeleton in the area of a non-mythic bless spell doesn’t prevent it from returning to unlife.\n\nMythic Burning Skeleton: Add half the burning skeleton’s mythic rank to its fiery aura damage and melee attack fire damage. Add its mythic rank to the DC of its fiery death ability.\nMythic Skeletal Champion\nTo create a mythic skeletal champion, increase its channel resistance by +2, and add the mythic subtype, additional Hit Dice as if the skeletal champion were a zombie of its size, and mythic abilities according to the base skeletal champion’s Hit Dice.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3aee6662ce20b067.json",
+    "web": "https://codex.pipsprojects.com/#/e/3aee6662ce20b067"
+  },
+  "license": "OGL 1.0a"
+}

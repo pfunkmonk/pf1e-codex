@@ -1,0 +1,26 @@
+{
+  "id": "073aeab4a28737d2",
+  "name": "Repair Undead, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 191",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 191\nSchool necromancy; Level arcanist 5, sorcerer 5, spiritualist 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one undead creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as repair undead, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/073aeab4a28737d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/073aeab4a28737d2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "817c91fda972f51b",
+  "name": "Open Book",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 220",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "bard": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 220\nSchool divination [curse]; Level antipaladin 2, arcanist 3, bard 2, inquisitor 2, mesmerist 2, psychic 2, skald 2, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a page torn from a book)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou lay bare not only the mind of a target, but the target’s history as well. The target takes a –2 penalty on saving throws against divinations, and Diplomacy checks to gather information about the target gain a bonus equal to half your caster level (maximum +10).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/817c91fda972f51b.json",
+    "web": "https://codex.pipsprojects.com/#/e/817c91fda972f51b"
+  },
+  "license": "OGL 1.0a"
+}

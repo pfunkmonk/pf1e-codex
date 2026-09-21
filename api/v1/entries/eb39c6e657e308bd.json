@@ -1,0 +1,25 @@
+{
+  "id": "eb39c6e657e308bd",
+  "name": "Rusting Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 335",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "hunter": 4,
+      "occultist": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 335\nSchool transmutation; Level druid 4, hunter 4, occultist 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget one nonmagical ferrous object (or the volume of the object within 3 ft. of the touched point) or one ferrous creature\nDuration see text\nSaving Throw none; Spell Resistance no\nDescription\nAny iron or iron alloy item you touch crumbles into rust. If the item is so large that it cannot fit within a 3-foot radius, a 3-foot-radius volume of the metal is rusted and destroyed. Magic items made of metal are immune to this spell.\n\nYou may employ rusting grasp in combat with a successful melee touch attack. Rusting grasp used in this way instantaneously destroys 1d6 points of AC gained from metal armor (to the maximum amount of protection the armor offers) through corrosion.\n\nWeapons in use by an opponent targeted by the spell are more difficult to grasp. You must succeed on a melee touch attack against the weapon. A metal weapon that is hit is destroyed. Striking at an opponent's weapon provokes an attack of opportunity. Also, you must touch the weapon and not the other way around.\n\nAgainst a ferrous creature, rusting grasp instantaneously deals 3d6 points of damage + 1 per caster level (maximum +15) per successful attack. The spell lasts for 1 round per level, and you can make one melee touch attack per round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb39c6e657e308bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb39c6e657e308bd"
+  },
+  "license": "OGL 1.0a"
+}

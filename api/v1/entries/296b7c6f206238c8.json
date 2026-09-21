@@ -1,0 +1,718 @@
+{
+  "id": "296b7c6f206238c8",
+  "name": "Summon Monster 9",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 352",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Summon Monster 9\nSource PRPG Core Rulebook pg. 352\nSchool conjuration (summoning) [see text]; Level arcanist 9, cleric 9, oracle 9, psychic 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (a tiny bag and a small candle)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster I, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "1st Level",
+          "Subtype"
+        ],
+        [
+          "Dire rat*",
+          "—"
+        ],
+        [
+          "Dolphin*",
+          "—"
+        ],
+        [
+          "Dog*",
+          "—"
+        ],
+        [
+          "Eagle*",
+          "—"
+        ],
+        [
+          "Fire beetle*",
+          "—"
+        ],
+        [
+          "Poisonous frog*",
+          "—"
+        ],
+        [
+          "Pony (horse)*",
+          "—"
+        ],
+        [
+          "Viper (snake)*",
+          "—"
+        ],
+        [
+          "2nd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (worker)*",
+          "—"
+        ],
+        [
+          "Elemental (Small)",
+          "Elemental"
+        ],
+        [
+          "Giant centipede*",
+          "—"
+        ],
+        [
+          "Giant frog*",
+          "—"
+        ],
+        [
+          "Giant spider*",
+          "—"
+        ],
+        [
+          "Goblin dog*",
+          "—"
+        ],
+        [
+          "Horse*",
+          "—"
+        ],
+        [
+          "Hyena*",
+          "—"
+        ],
+        [
+          "Lemure (devil)",
+          "Evil, Lawful"
+        ],
+        [
+          "Octopus*",
+          "—"
+        ],
+        [
+          "Squid*",
+          "—"
+        ],
+        [
+          "Wolf*",
+          "—"
+        ],
+        [
+          "3rd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (soldier)*",
+          "—"
+        ],
+        [
+          "Ape*",
+          "—"
+        ],
+        [
+          "Aurochs (herd animal)*",
+          "—"
+        ],
+        [
+          "Boar*",
+          "—"
+        ],
+        [
+          "Cheetah*",
+          "—"
+        ],
+        [
+          "Constrictor snake*",
+          "—"
+        ],
+        [
+          "Crocodile*",
+          "—"
+        ],
+        [
+          "Dire bat*",
+          "—"
+        ],
+        [
+          "Dretch (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "Electric eel*",
+          "—"
+        ],
+        [
+          "Lantern archon",
+          "Good, Lawful"
+        ],
+        [
+          "Leopard (cat)*",
+          "—"
+        ],
+        [
+          "Monitor lizard*",
+          "—"
+        ],
+        [
+          "Shark*",
+          "—"
+        ],
+        [
+          "Wolverine*",
+          "—"
+        ],
+        [
+          "4th Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (drone)*",
+          "—"
+        ],
+        [
+          "Bison (herd animal)*",
+          "—"
+        ],
+        [
+          "Deinonychus (dinosaur)*",
+          "—"
+        ],
+        [
+          "Dire ape*",
+          "—"
+        ],
+        [
+          "Dire boar*",
+          "—"
+        ],
+        [
+          "Dire wolf*",
+          "—"
+        ],
+        [
+          "Elemental (Medium)",
+          "Elemental"
+        ],
+        [
+          "Giant scorpion*",
+          "—"
+        ],
+        [
+          "Giant wasp*",
+          "—"
+        ],
+        [
+          "Grizzly bear*",
+          "—"
+        ],
+        [
+          "Hell hound",
+          "Evil, Lawful"
+        ],
+        [
+          "Hound archon",
+          "Good, Lawful"
+        ],
+        [
+          "Lion*",
+          "—"
+        ],
+        [
+          "Mephit (any)",
+          "Elemental"
+        ],
+        [
+          "Pteranodon (dinosaur)*",
+          "—"
+        ],
+        [
+          "Rhinoceros*",
+          "—"
+        ],
+        [
+          "5th Level",
+          "Subtype"
+        ],
+        [
+          "Ankylosaurus (dinosaur)*",
+          "—"
+        ],
+        [
+          "Babau (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "Bearded devil",
+          "Evil, Lawful"
+        ],
+        [
+          "Bralani azata",
+          "Chaotic, Good"
+        ],
+        [
+          "Dire lion*",
+          "—"
+        ],
+        [
+          "Elemental (Large)",
+          "Elemental"
+        ],
+        [
+          "Giant moray eel*",
+          "—"
+        ],
+        [
+          "Kyton",
+          "Evil, Lawful"
+        ],
+        [
+          "Orca (dolphin)*",
+          "—"
+        ],
+        [
+          "Salamander",
+          "Evil"
+        ],
+        [
+          "Wooly rhinoceros*",
+          "—"
+        ],
+        [
+          "Xill",
+          "Evil, Lawful"
+        ],
+        [
+          "6th Level",
+          "Subtype"
+        ],
+        [
+          "Dire bear*",
+          "—"
+        ],
+        [
+          "Dire tiger*",
+          "—"
+        ],
+        [
+          "Elasmosaurus (dinosaur)*",
+          "—"
+        ],
+        [
+          "Elemental (Huge)",
+          "Elemental"
+        ],
+        [
+          "Elephant*",
+          "—"
+        ],
+        [
+          "Erinyes (devil)",
+          "Evil, Lawful"
+        ],
+        [
+          "Giant octopus*",
+          "—"
+        ],
+        [
+          "Invisible stalker",
+          "Air"
+        ],
+        [
+          "Lillend azata",
+          "Chaotic, Good"
+        ],
+        [
+          "Shadow demon",
+          "Chaotic, Evil"
+        ],
+        [
+          "Succubus (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "Triceratops (dinosaur)*",
+          "—"
+        ],
+        [
+          "7th Level",
+          "Subtype"
+        ],
+        [
+          "Bebelith",
+          "Chaotic, Evil"
+        ],
+        [
+          "Bone devil",
+          "Evil, Lawful"
+        ],
+        [
+          "Brachiosaurus (dinosaur)*",
+          "—"
+        ],
+        [
+          "Dire crocodile*",
+          "—"
+        ],
+        [
+          "Dire shark*",
+          "—"
+        ],
+        [
+          "Elemental (greater)",
+          "Elemental"
+        ],
+        [
+          "Giant squid*",
+          "—"
+        ],
+        [
+          "Mastadon (elephant)*",
+          "—"
+        ],
+        [
+          "Roc*",
+          "—"
+        ],
+        [
+          "Tyrannosaurus (dinosaur)*",
+          "—"
+        ],
+        [
+          "Vrock (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "8th Level",
+          "Subtype"
+        ],
+        [
+          "Barbed devil",
+          "Evil, Lawful"
+        ],
+        [
+          "Elemental (elder)",
+          "Elemental"
+        ],
+        [
+          "Hezrou (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "9th Level",
+          "Subtype"
+        ],
+        [
+          "Astral Deva (angel)",
+          "Good"
+        ],
+        [
+          "Ghaele azata",
+          "Chaotic, Good"
+        ],
+        [
+          "Glabrezu (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "Ice devil",
+          "Evil, Lawful"
+        ],
+        [
+          "Nalfeshnee (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "Trumpet archon",
+          "Good, Lawful"
+        ],
+        [
+          "* This creature is summoned with the celestial template if you are good, or the fiendish template if you are evil; you may choose either if you are neutral."
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Deity",
+          "Additional creature",
+          "Source"
+        ],
+        [
+          "Abadar",
+          "Kolyarut (Inevitable)† [lawful]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Abadar",
+          "Kolyarut (LN) [lawful]",
+          "Pathfinder #8: Seven Days to the Grave pg. 67"
+        ],
+        [
+          "Gozreh",
+          "Cloud Giant*",
+          "Pathfinder #38: Racing to Ruin pg. 71"
+        ],
+        [
+          "Gozreh",
+          "Great White Whale*†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Gozreh",
+          "Young Storm Giant*",
+          "Pathfinder #38: Racing to Ruin pg. 71"
+        ],
+        [
+          "Kabriri",
+          "Fiendish Black Jinni [chaotic, evil]",
+          "Mythic Realms pg. 55"
+        ],
+        [
+          "Kostchtchie",
+          "Fiendish Ice Elemental (Elder) [air, cold, water]",
+          "Pathfinder #69: Maiden, Mother, Crone pg. 66"
+        ],
+        [
+          "Mephistopheles",
+          "Heresy Devil (Ayngavhaul) [evil, lawful]",
+          "Pathfinder #102: Breaking the Bones of Hell pg. 72"
+        ],
+        [
+          "Pharasma",
+          "Morrigna (Psychopomp)†",
+          "Monster Summoner's Handbook pg. 31"
+        ],
+        [
+          "Sarenrae",
+          "Peri† [good]",
+          "Monster Summoner's Handbook pg. 31"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ankou",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Hamadryad",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Augnagar (Qlippoth)† [chaotic, evil]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Couatl†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Great White Whale*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Sepid (Div)† [evil]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Storm Giant†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Tarry Demodand† [chaotic, evil]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Valkyrie†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ankou (LE)",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Derghodaemon (Daemon, NE) [evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Gelugon (Devil, LE) [evil, lawful]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Glabrezu (Demon, CE) [chaotic, evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Nalfeshnee (Demon, CE) [chaotic, evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Sepid (Div, NE) [evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Thanadaemon (Daemon, NE) [evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Astral Deva (NG) [good]",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Couatl (LG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ghaele Azata (CG) [chaotic, good]",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Leonal Agathion (NG) [good]",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Storm Giant (CG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Trumpet Archon (LG) [good, lawful]",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Akhana (Aeon) (N)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Morrigna (Psychopomp)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Valkyrie (CN)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Akhana",
+          "Advanced Class Guide pg. 218"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Thanadaemon [evil]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Sepid [evil]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Marut [lawful]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Interlocutor [evil, lawful]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Imentesh [chaotic]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Morrigna",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Augnagar [chaotic, evil]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Shining Child [evil]",
+          "Inner Sea Magic pg. 44"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Astral Deva (Angel) [good]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ghaele Azata [chaotic, good]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Glabrezu (Demon) [chaotic, evil]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ice Devil [evil, lawful]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Nalfeshnee (Demon) [chaotic, evil]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Trumpet Archon [good, lawful]",
+          "PRPG Core Rulebook pg. 352"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/296b7c6f206238c8.json",
+    "web": "https://codex.pipsprojects.com/#/e/296b7c6f206238c8"
+  },
+  "license": "OGL 1.0a"
+}

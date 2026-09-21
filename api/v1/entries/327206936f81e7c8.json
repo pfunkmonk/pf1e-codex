@@ -1,0 +1,33 @@
+{
+  "id": "327206936f81e7c8",
+  "name": "Darkvision, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 264",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "arcanist": 2,
+      "hunter": 3,
+      "investigator": 2,
+      "medium": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "ranger": 3,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Darkvision\nSource PRPG Core Rulebook pg. 264\nSchool transmutation; Level alchemist 2, antipaladin 2, arcanist 2, hunter 3, investigator 2, medium 2, occultist 2, psychic 2, ranger 3, redmantisassassin 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (either a pinch of dried carrot or an agate)\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.\n\nDarkvision can be made permanent with a permanency spell.\nDarkvision, Communal\nSource Ultimate Combat pg. 226\nSchool transmutation; Level alchemist 3, antipaladin 3, arcanist 3, hunter 4, investigator 3, occultist 3, psychic 3, ranger 4, redmantisassassin 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (either a pinch of dried carrot or an agate)\nEffect\nRange touch\nTargets creatures touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like darkvision, except you may divide the duration in 1-hour intervals among the creatures touched.\nDarkvision, Greater\nSource Ultimate Magic pg. 216\nSchool transmutation; Level alchemist 4, antipaladin 4, arcanist 4, hunter 4, investigator 4, medium 4, occultist 4, psychic 4, ranger 4, redmantisassassin 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (either a pinch of dried carrot or an agate)\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as darkvision, except the target’s darkvision has a range of 120 feet.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/327206936f81e7c8.json",
+    "web": "https://codex.pipsprojects.com/#/e/327206936f81e7c8"
+  },
+  "license": "OGL 1.0a"
+}

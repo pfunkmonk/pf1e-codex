@@ -1,0 +1,30 @@
+{
+  "id": "4e5a35fa3afae22f",
+  "name": "Depilate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Beast pg. 27",
+  "book": "Blood of the Beast",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "druid": 1,
+      "hunter": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Beast"
+  },
+  "body": "Source Blood of the Beast pg. 27\nSchool necromancy; Level arcanist 1, bard 1, druid 1, hunter 1, skald 1, sorcerer 1, witch 1, wizard 1 (Tengu)\nCasting\nCasting Time 1 round\nComponents S, M (a sliver of cow's tongue)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature with hair or fur\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis simple jinx causes a target’s hair or fur to fall out in patchy clumps, leaving the creature disheveled and less commanding. A jinxed creature takes a –2 penalty on all Diplomacy, Intimidate, and Perform checks until the hair begins to regrow 1 week later, or until the damage can be concealed with a successful Disguise or Heal check (the DC is equal to the original save DC of the spell). A successful break enchantment, remove curse, or similar effect instantly regrows the target’s hair or fur and removes the spell’s effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e5a35fa3afae22f.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e5a35fa3afae22f"
+  },
+  "license": "OGL 1.0a"
+}

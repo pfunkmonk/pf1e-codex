@@ -1,0 +1,30 @@
+{
+  "id": "0a1a168d9391006c",
+  "name": "Tattoo Potion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 62",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "investigator": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 62\nSchool transmutation; Level alchemist 2, arcanist 2, bard 2, investigator 2, redmantisassassin 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 minute\nComponents V, S, M (a potion to be tattooed, special inks worth 500 gp)\nEffect\nRange one potion\nEffect one spell tattoo\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nWhen you cast this spell, you mix special tattoo inks into a potion of your choice. Once you finish casting tattoo potion, the potion begins bubbling and fizzing—if no one drinks the potion within 1 minute of the spell being cast, the potion bubbles away into vapor and is destroyed.\n\nWhen a potion under the effects of tattoo potion is imbibed, the effects of the potion do not occur. Instead, the potion transforms into a spell tattoo (see page 16) on the drinker’s chest tattoo slot—if the drinker already has a magic tattoo in this location, the tattoo potion is wasted. Once the potion transforms into a spell tattoo, it remains in place permanently until it is used as a spell tattoo.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a1a168d9391006c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a1a168d9391006c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "d31bdbb62f99a3c2",
+  "name": "Restore Mythic Power",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Mythic Adventures pg. 114",
+  "book": "Mythic Adventures",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "cleric": 3,
+      "medium": 2,
+      "oracle": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Mythic Adventures"
+  },
+  "body": "Source Mythic Adventures pg. 114\nSchool transmutation; Level arcanist 3, bard 3, cleric 3, medium 2, oracle 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTargets you and one mythic creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nBy laying your hands on the target, you’re able to transfer some of your mythic essence to the target. You expend three uses of your mythic power to restore one use of the target’s mythic power.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d31bdbb62f99a3c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d31bdbb62f99a3c2"
+  },
+  "license": "OGL 1.0a"
+}

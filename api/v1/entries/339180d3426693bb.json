@@ -1,0 +1,33 @@
+{
+  "id": "339180d3426693bb",
+  "name": "Psychic Reading",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 183",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 2,
+      "sorcerer": 2,
+      "spiritualist": 1,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 183\nSchool divination; Level arcanist 2, bard 2, inquisitor 2, medium 1, mesmerist 1, occultist 1, psychic 1, skald 2, sorcerer 2, spiritualist 1, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 round\nSaving Throw none; Spell Resistance yes\nDescription\nYou are able to read a person’s surface thoughts and take cues from the person’s appearance, body language, and manner of speech to infer a great deal of information about the person, even if that person is in disguise (including polymorph effects). When casting the spell, attempt a DC 20 Sense Motive check with a bonus equal to your caster level. A successful skill check reveals to you one of the following pieces of information of your choice, plus one additional piece of information for every 5 points by which your check result exceeds 20: age, alignment, class†, feats†, gender, native language, place of origin, race or ethnicity, racial traits†, religion, sexual orientation, or training in a Craft, Perform, or Profession skill. For items marked with a cross (†), if the target has more than one of these features, each one you discover counts as a piece of information.\n\nThere’s a 70% chance that all information you receive is correct. This roll is made secretly. Otherwise, on a roll of 71–80, you receive one false piece of information, on a roll of 81–90 you receive two, and on a roll of 91–100 you receive three. You can’t get more false information than the total number of pieces of information you discover.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/339180d3426693bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/339180d3426693bb"
+  },
+  "license": "OGL 1.0a"
+}

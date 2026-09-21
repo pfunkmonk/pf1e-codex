@@ -1,0 +1,38 @@
+{
+  "id": "b6f08a574c997283",
+  "name": "Returning Weapon, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 242",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 1,
+      "cleric": 2,
+      "hunter": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "occultist": 1,
+      "oracle": 2,
+      "psychic": 2,
+      "ranger": 1,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Returning Weapon\nSource Ultimate Combat pg. 242\nSchool conjuration (teleportation); Level arcanist 2, bard 2, bloodrager 1, cleric 2, hunter 1, inquisitor 1, magus 1, occultist 1, oracle 2, psychic 2, ranger 1, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one weapon that can be thrown\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nFor the duration of the spell, the target weapon acts as if it had the returning weapon special ability.\n\nThis spell can be used as the prerequisite for the returning weapon special ability.\nReturning Weapon, Communal\nSource Ultimate Combat pg. 243\nSchool conjuration (teleportation); Level arcanist 3, bard 3, cleric 3, hunter 2, inquisitor 2, magus 2, occultist 2, oracle 3, psychic 3, ranger 2, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets weapons that can be thrown\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell functions like returning weapon, except you divide the duration in 1-minute intervals among the targeted weapons.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6f08a574c997283.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6f08a574c997283"
+  },
+  "license": "OGL 1.0a"
+}

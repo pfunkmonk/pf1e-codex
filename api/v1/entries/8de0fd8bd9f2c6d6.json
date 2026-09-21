@@ -1,0 +1,40 @@
+{
+  "id": "8de0fd8bd9f2c6d6",
+  "name": "Protection from Energy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 327",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "bloodrager": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 2,
+      "inquisitor": 3,
+      "investigator": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "ranger": 2,
+      "shaman": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "summoner": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 327\nSchool abjuration; Level alchemist 3, arcanist 3, bloodrager 3, cleric 3, druid 3, hunter 2, inquisitor 3, investigator 3, occultist 3, oracle 3, psychic 3, ranger 2, shaman 3, sorcerer 3, spiritualist 3, summoner 3, summoner (unchained) 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 min./level or until discharged\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nProtection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\n\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.\nProtection from Energy, Communal\nSource Ultimate Combat pg. 240\nSchool abjuration; Level arcanist 4, cleric 4, druid 4, hunter 3, inquisitor 4, oracle 4, psychic 4, ranger 3, sorcerer 4, summoner 4, summoner (unchained) 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets creatures touched\nDuration 10 min./level or until discharged\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like protection from energy, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell’s effects end for that subject.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8de0fd8bd9f2c6d6.json",
+    "web": "https://codex.pipsprojects.com/#/e/8de0fd8bd9f2c6d6"
+  },
+  "license": "OGL 1.0a"
+}

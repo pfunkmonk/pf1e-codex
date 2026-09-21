@@ -1,0 +1,29 @@
+{
+  "id": "09958a128ac05ab0",
+  "name": "Betraying Sting",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 62",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 6,
+      "occultist": 6,
+      "oracle": 6,
+      "psychic": 6,
+      "shaman": 6,
+      "warpriest": 6,
+      "witch": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 62\nSchool evocation; Level cleric 6, occultist 6, oracle 6, psychic 6, shaman 6, warpriest 6, witch 6\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\nDescription\nYou unleash divine power to smite those who wrongly trusted you. The power takes the form of a yellow-and-black bolt of energy that makes the sound of a thousand angry, swarming wasps. This spell affects only creatures that have an attitude toward you of indifferent, friendly, or helpful. The spell deals 1d8 points of damage per 2 caster levels you have.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09958a128ac05ab0.json",
+    "web": "https://codex.pipsprojects.com/#/e/09958a128ac05ab0"
+  },
+  "license": "OGL 1.0a"
+}

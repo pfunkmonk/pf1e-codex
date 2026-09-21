@@ -1,0 +1,48 @@
+{
+  "id": "5edabd3ce1631496",
+  "name": "Lingering Breath",
+  "bucket": "monsters",
+  "category": "Universal Monster Rules",
+  "source": "Bestiary 5 pg. 295, Mythic Adventures pg. 227",
+  "book": "Bestiary 5",
+  "facets": {
+    "bk": "Bestiary 5"
+  },
+  "body": "All | Unique\nLingering Breath (Su) [Mythic]\nSource Bestiary 5 pg. 295, Mythic Adventures pg. 227\nThe creature can expend one use of mythic power as a free action when it uses its breath weapon to make the area radiate energy damage (of the same type as the breath weapon) for 1 round per mythic rank. Any creature in, entering, or passing through the breath weapon’s area during this duration takes damage according to the creature’s size. This ability has no effect on breath weapons that do not deal energy damage.\n\nTable 3-1: Lingering Breath Damage\nCreature Size Points of Energy Damage\nMedium or smaller 2d4\nLarge 2d6\nHuge 2d8\nGargantuan 4d6\nColossal 4d8\n\nFormat: lingering breath (2d6 fire, 5 rounds)\nLocation: Special Attacks.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Creature Size",
+          "Points of Energy Damage"
+        ],
+        [
+          "Medium or smaller",
+          "2d4"
+        ],
+        [
+          "Large",
+          "2d6"
+        ],
+        [
+          "Huge",
+          "2d8"
+        ],
+        [
+          "Gargantuan",
+          "4d6"
+        ],
+        [
+          "Colossal",
+          "4d8"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5edabd3ce1631496.json",
+    "web": "https://codex.pipsprojects.com/#/e/5edabd3ce1631496"
+  },
+  "license": "OGL 1.0a"
+}

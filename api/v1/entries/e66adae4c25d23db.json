@@ -1,0 +1,28 @@
+{
+  "id": "e66adae4c25d23db",
+  "name": "Strip Scales",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobolds of Golarion pg. 27",
+  "book": "Kobolds of Golarion",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 5,
+      "druid": 4,
+      "hunter": 4,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobolds of Golarion"
+  },
+  "body": "Source Kobolds of Golarion pg. 27\nSchool transmutation; Level arcanist 5, druid 4, hunter 4, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a single reptile scale)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 minute/level\nSaving Throw Fortitude; Spell Resistance yes\nDescription\nYou reduce the target’s racial natural armor bonus by 1 point per 3 caster levels.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e66adae4c25d23db.json",
+    "web": "https://codex.pipsprojects.com/#/e/e66adae4c25d23db"
+  },
+  "license": "OGL 1.0a"
+}

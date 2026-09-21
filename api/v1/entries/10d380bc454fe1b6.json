@@ -1,0 +1,31 @@
+{
+  "id": "10d380bc454fe1b6",
+  "name": "Rainbow Pattern",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 329",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 329\nSchool illusion (pattern) [mind-affecting]; Level arcanist 4, bard 4, psychic 4, redmantisassassin 4, skald 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V (bard only), S, M (a piece of phosphor), F (a crystal prism); see text\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect colorful lights with a 20-ft.-radius spread\nDuration concentration + 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nA glowing, rainbow-hued pattern of interweaving colors fascinates those within it. Rainbow pattern fascinates a maximum of 24 HD of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell's point of origin are affected first. An affected creature that fails its saves is fascinated by the pattern.\n\nWith a simple gesture (a free action), you can make the rainbow pattern move up to 30 feet per round (moving its effective point of origin). All fascinated creatures follow the moving rainbow of light, trying to remain within the effect. Fascinated creatures who are restrained and removed from the pattern still try to follow it. If the pattern leads its subjects into a dangerous area, each fascinated creature gets a second save. If the view of the lights is completely blocked, creatures who can't see them are no longer affected.\n\nThe spell does not affect sightless creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10d380bc454fe1b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/10d380bc454fe1b6"
+  },
+  "license": "OGL 1.0a"
+}

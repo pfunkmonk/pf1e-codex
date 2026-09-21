@@ -1,0 +1,33 @@
+{
+  "id": "ae4c91347bc7b56d",
+  "name": "Apport Animal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 157",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "ranger": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 157\nSchool conjuration (teleportation); Level arcanist 3, druid 3, hunter 3, medium 3, mesmerist 3, psychic 3, ranger 3, sorcerer 3, summoner 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange touch\nTarget one touched animal of Tiny or smaller size\nDuration instantaneous or 1 hour/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis spell functions like apport object except the target is an animal. Only normal, nonmagical creatures of the animal type can be teleported.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ae4c91347bc7b56d.json",
+    "web": "https://codex.pipsprojects.com/#/e/ae4c91347bc7b56d"
+  },
+  "license": "OGL 1.0a"
+}

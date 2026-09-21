@@ -1,0 +1,30 @@
+{
+  "id": "2a5700665b8c4e54",
+  "name": "Symbol of Fear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 356",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 6,
+      "occultist": 4,
+      "oracle": 6,
+      "sorcerer": 6,
+      "warpriest": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 356\nSchool necromancy [emotion, fear, mind-affecting]; Level arcanist 6, cleric 6, occultist 4, oracle 6, sorcerer 6, warpriest 6, witch 6, wizard 6\nCasting\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 1,000 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like symbol of death, except that all creatures within 60 feet of the symbol of fear instead become panicked for 1 round per caster level.\n\nNote: Magic traps such as symbol of fear are hard to detect and disable. A rogue (only) can use the Perception skill to find a symbol of fear and Disable Device to thwart it. The DC in each case is 25 + spell level, or 31 for symbol of fear.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a5700665b8c4e54.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a5700665b8c4e54"
+  },
+  "license": "OGL 1.0a"
+}

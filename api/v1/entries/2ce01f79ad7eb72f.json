@@ -1,0 +1,28 @@
+{
+  "id": "2ce01f79ad7eb72f",
+  "name": "Shapechanger's Gift",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 235",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "arcanist": 5,
+      "investigator": 5,
+      "magus": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 235\nSchool transmutation (polymorph); Level alchemist 5, arcanist 5, investigator 5, magus 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of the creature whose form you plan to assume)\nEffect\nRange touch\nTarget willing living creature touched\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou change the target into an animal (as per beast shape I), humanoid (as per alter self), or monstrous humanoid (as per monstrous physique I). The chosen form can’t have a fly speed. The subject’s statistics change as per the appropriate spell except the creature’s ability scores and natural armor do not change. The creature can change between its natural form and the chosen form at will as a standard action.\nShapechanger's Gift, Greater\nSource Ultimate Wilderness pg. 235\nSchool transmutation (polymorph); Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of the creature whose form you plan to assume)\nEffect\nRange touch\nTarget willing living creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as shapechanger’s gift except the chosen form can be an animal (as per beast shape I), elemental (as per elemental body I), fey (as per fey form I), humanoid (as per alter self), monstrous humanoid (as per monstrous physique I), or vermin (as per vermin shape I) and the chosen form can have a fly speed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ce01f79ad7eb72f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ce01f79ad7eb72f"
+  },
+  "license": "OGL 1.0a"
+}

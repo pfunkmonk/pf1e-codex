@@ -1,0 +1,23 @@
+{
+  "id": "dd844722c0e9eedb",
+  "name": "Glibness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 290",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "mesmerist": 3,
+      "skald": 3
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 290\nSchool transmutation; Level bard 3, mesmerist 3, skald 3\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange personal\nTarget you\nDuration 10 min./level (D)\nDescription\nYour speech becomes fluent and more believable, causing those who hear you to believe every word you say. You gain a +20 bonus on Bluff checks made to convince another of the truth of your words. This bonus doesn't apply to other uses of the Bluff skill, such as feinting in combat, creating a diversion to hide, or communicating a hidden message via innuendo.\n\nIf a magical effect is used against you that would detect your lies or force you to speak the truth, the user of the effect must succeed on a caster level check (1d20 + caster level) against a DC of 15 + your caster level to succeed. Failure means the effect does not detect your lies or force you to speak only the truth.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd844722c0e9eedb.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd844722c0e9eedb"
+  },
+  "license": "OGL 1.0a"
+}

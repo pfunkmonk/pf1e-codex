@@ -1,0 +1,28 @@
+{
+  "id": "e5d665834437b7bc",
+  "name": "Guiding Star",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 226",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 3,
+      "hunter": 2,
+      "oracle": 3,
+      "psychic": 3,
+      "ranger": 2,
+      "shaman": 2,
+      "warpriest": 3,
+      "witch": 3
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 226\nSchool divination; Level cleric 3, hunter 2, oracle 3, psychic 3, ranger 2, shaman 2, warpriest 3, witch 3\nCasting\nCasting Time 1 minute\nComponents V, S, M (a spool of thread or string)\nEffect\nRange personal\nTarget you\nDuration 1 day/level (D)\nDescription\nYou form a bond with your surroundings when you cast this spell. For the remaining duration of the spell you can always, as a standard action, determine your approximate distance from that area as well as the direction you must travel in order to reach it. You cannot determine the location of the area if you are on a different plane. The area counts as ”very familiar” for the purposes of teleport or similar spells. You can only attune yourself to one location at a time. If you cast the spell at another spot you lose the ability to locate your original area.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5d665834437b7bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5d665834437b7bc"
+  },
+  "license": "OGL 1.0a"
+}

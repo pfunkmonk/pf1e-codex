@@ -1,0 +1,27 @@
+{
+  "id": "ed640a363f56f9e4",
+  "name": "Litany of Vengeance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 235",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 4,
+      "inquisitor": 5,
+      "paladin": 4
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 235\nSchool transmutation [language-dependent]; Level antipaladin 4, inquisitor 5, paladin 4\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw no; Spell Resistance yes\nDescription\nThis litany causes your enemy to feel the pain of blows more sharply. Anyone who hits the target with an attack gains a +5 sacred or profane bonus (depending on the alignment of the caster) to that attack’s damage.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed640a363f56f9e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed640a363f56f9e4"
+  },
+  "license": "OGL 1.0a"
+}

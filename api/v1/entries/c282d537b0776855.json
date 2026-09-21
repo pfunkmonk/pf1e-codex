@@ -1,0 +1,29 @@
+{
+  "id": "c282d537b0776855",
+  "name": "Rapid Repair",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 234",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 5,
+      "occultist": 4,
+      "oracle": 5,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 234\nSchool transmutation; Level arcanist 5, cleric 5, occultist 4, oracle 5, sorcerer 5, warpriest 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget construct touched\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe targeted construct gains fast healing 5. This does not stack with any fast healing the construct already has. Fast healing has no effect on a construct that has been brought to 0 hit points or destroyed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c282d537b0776855.json",
+    "web": "https://codex.pipsprojects.com/#/e/c282d537b0776855"
+  },
+  "license": "OGL 1.0a"
+}

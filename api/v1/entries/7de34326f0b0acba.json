@@ -1,0 +1,21 @@
+{
+  "id": "7de34326f0b0acba",
+  "name": "Lotus Tree",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 5 pg. 160",
+  "book": "Bestiary 5",
+  "facets": {
+    "cr": 20,
+    "sz": "Gargantuan",
+    "t": "plant",
+    "al": "N",
+    "bk": "Bestiary 5"
+  },
+  "body": "This majestic tree of strange, twisted bark has countless pale fruits and an intensely pleasant scent.\nLotus Tree CR 20\nSource Bestiary 5 pg. 160\nXP 307,200\nN Gargantuan plant\nInit +10; Senses detect thoughts (DC 23), low-light vision, thoughtsense 60 ft., tremorsense 120 ft.; Perception +40\nAura hallucination (60 ft., DC 30, 4d6 hours)\nDefense\nAC 39, touch 12, flat-footed 33 (+6 Dex, +27 natural, –4 size)\nhp 356 (23d8+253); fast healing 15\nFort +23, Ref +15, Will +19\nDR 15/cold iron and slashing; Immune daze, plant traits; Resist cold 30, electricity 30, fire 30\nOffense\nSpeed 10 ft.\nMelee 4 slams +28 (5d6+14)\nSpace 20 ft., Reach 20 ft.\nSpecial Attacks hope theft\nSpell-Like Abilities (CL 23rd; concentration +32)\nConstant—detect thoughts (DC 23)\nAt will—mass suggestion (DC 25), mind thrust VI (DC 27)\n1/day—animate plants (DC 26; self unaffected), weird (DC 28)\nPsychic Magic (CL 23rd; concentration +32)\n40 PE—create greater mindscape (7 PE, DC 26), dream council (7 PE, DC 26), dream scan (6 PE, DC 25), dream voyage (9 PE, DC 28), greater dispel magic (6 PE), id insinuation IV (5 PE, DC 24), microcosm (9 PE, DC 28), mind probe (5 PE, DC 26), nightmare (5 PE, DC 24), psychic image (9 PE, DC 28)\nStatistics\nStr 38, Dex 23, Con 31, Int 23, Wis 30, Cha 28\nBase Atk +17; CMB +35; CMD 51 (can’t be tripped)\nFeats Ability Focus (hope theft), Alertness, Combat Reflexes, Greater Spell Focus (divination), Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Quicken Spell, Spell Focus (divination), Toughness, Weapon Focus (slam)\nSkills Bluff +32, Diplomacy +32, Knowledge (arcana, history, nature) +29, Perception +40, Sense Motive +37, Spellcraft +29\nLanguages Aklo, Common, Elven, Giant, Gnome, Sylvan; telepathy 300 ft.\nEcology\nEnvironment any coastlines or forests\nOrganization solitary or grove (1–3 plus 2–7 charmed allies)\nTreasure double\nSpecial Abilities\nHallucination (Su) A living creature that starts her turn within 60 feet of a lotus tree or eats its fruit hallucinates pleasantly as per synesthesia (DC 30 Will negates) for 4d6 hours. The hallucinations include a humanoid figure of shifting colors that conveys the tree’s telepathy and thoughtsense across any range, allowing the hallucinating creature to act as the tree’s proxy. Suppressing or resuming the aura is a free action. The save DC is Charisma-based.\nHope Theft (Sp) As a swift action at unlimited range, a lotus tree can permanently charm a hallucinating creature (as per mass charm monster but with no save bonus for hostility) unless it succeeds at a DC 29 Will save. Affected victims forget all longterm goals, desiring only more hallucinations, and grant the tree temporary PE equal to half their Hit Dice and 5 times that amount in temporary hit points for 1 day. Regardless of the save, the target automatically is affected as per mindwipe.\nDescription\nLotus trees grow in ancient forests and paradisiacal islands, feeding on the fantasies of sentient beings. Some lotus trees are curious and wise; others hoard secrets while claiming they provide refuge from reality. Intentionally or not, lotus trees attract those seeking wisdom or dreamy escape.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7de34326f0b0acba.json",
+    "web": "https://codex.pipsprojects.com/#/e/7de34326f0b0acba"
+  },
+  "license": "OGL 1.0a"
+}

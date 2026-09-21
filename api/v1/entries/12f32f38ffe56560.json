@@ -1,0 +1,17 @@
+{
+  "id": "12f32f38ffe56560",
+  "name": "Progression and End States",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 138",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\nPathfinder Unchained / Diseases and Poisons\n\nProgression and End States\nSource Pathfinder Unchained pg. 138\nWhen a victim fails his initial save and is afflicted with a disease or poison, he immediately gains the effects of the first step down that affliction’s progression track. For diseases, this is latent/carrier; for poisons, it’s usually weakened. This replaces the affliction’s normal effects (such as ability damage and ability drain), though many afflictions still produce additional symptoms. At the GM’s discretion, truly deadly diseases and poisons might cause the victim to start further along the progression track than normal. All effects from disease and poison tracks are cumulative.\n\nMost afflictions also have an end state—a point at which the disease or poison has progressed as far as it can. Once an affliction has reached its end state, the victim keeps all current effects (but doesn’t suffer further effects) and can no longer attempt saving throws to recover from the affliction. By default, each disease and poison track has an end state of dead, but some afflictions have less severe end states, and others might progress only to a certain intermediate state at worst, allowing victims to continue attempting saves.\n\nIn general, whenever a victim fails a saving throw against her affliction, she moves one step further down the progression track, gaining the effects of the next state and keeping all previous effects, until she reaches the end state. If she’s afflicted with a disease, she moves one step back toward healthy whenever she fulfills the conditions in the disease’s Cure entry (usually by succeeding at one or more saves). Once she reaches healthy, she is cured. Poisons work differently—fulfilling the cure condition removes a poison from the victim’s system, but she remains at the same step on the track and recovers gradually. (Treat a poison that has exhausted its duration in the same way.) For every day of bed rest (or 2 nights of normal rest), a victim recovers one step; this recovery is doubled as normal by Heal checks, and tenacious poisons might require a longer recovery period.\n\nUsually, neutralize poison or remove disease immediately moves the victim to a healthy state on the respective track, and a heal spell will work for both. However, once the disease or poison has reached its end state, only a more powerful spell such as miracle or wish can remove its effects.\n\nSome diseases and poisons cause the same effects as a condition (such as sickened) or render characters paralyzed. Effects that modify or remove those conditions (such as immunities) do not apply; only effects and immunities that help against diseases or poisons apply, as appropriate.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12f32f38ffe56560.json",
+    "web": "https://codex.pipsprojects.com/#/e/12f32f38ffe56560"
+  },
+  "license": "OGL 1.0a"
+}

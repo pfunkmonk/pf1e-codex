@@ -1,0 +1,21 @@
+{
+  "id": "39a1b5bb173e2a94",
+  "name": "Talismanic Implement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 188",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "occultist": 3
+    },
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 188\nSchool evocation; Level occultist 3\nCasting\nCasting Time 10 minutes\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 hour/level (D) or until discharged\nDescription\nThis spell functions as contingency, but you invest a spell whose level doesn’t exceed one-quarter of your level (rounded down, maximum spell level 3rd) into one of your implements that holds 2 or more points of mental focus. The spell’s school must match that of the implement, and the spell must be one that affects only your person. Casting talismanic implement reduces the selected implement’s mental focus by 2, including for the purposes of determining the effects of resonant powers. When you refresh your mental focus, talismanic implement ends automatically, even if the duration hasn’t elapsed. Unlike contingency, you may have multiple talismanic implements simultaneously, though a single implement can hold only one talismanic implement spell, and if you have any talismanic implements, you can’t have any other kind of contingency in effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/39a1b5bb173e2a94.json",
+    "web": "https://codex.pipsprojects.com/#/e/39a1b5bb173e2a94"
+  },
+  "license": "OGL 1.0a"
+}

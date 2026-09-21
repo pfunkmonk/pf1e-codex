@@ -1,0 +1,26 @@
+{
+  "id": "c98967bdf235853f",
+  "name": "Fire of Vengeance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 222",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "paladin": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 222\nSchool evocation [fire]; Level paladin 4\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange special; see text\nTarget one creature\nDuration see text\nSaving Throw none; Spell Resistance no\nDescription\nAfter casting this spell, the next creature you attack using your smite evil class ability is engulfed in holy flames that flare up when the target attacks someone other than you. If at any time during the duration of your smite evil effect the target makes an attack that does not include you, it takes 3d8 points of fire damage. Once triggered in this manner, or when your smite evil ability expires, the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c98967bdf235853f.json",
+    "web": "https://codex.pipsprojects.com/#/e/c98967bdf235853f"
+  },
+  "license": "OGL 1.0a"
+}

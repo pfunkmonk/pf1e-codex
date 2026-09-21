@@ -1,0 +1,31 @@
+{
+  "id": "c67fa60a50c4bdd9",
+  "name": "Flame Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 283",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "magus": 3,
+      "occultist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 283\nSchool transmutation [fire]; Level arcanist 3, bloodrager 3, magus 3, occultist 3, redmantisassassin 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of oil and a small piece of flint)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget fifty projectiles, all of which must be together at the time of casting\nDuration 10 min./level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell allows you to turn ammunition (such as arrows, crossbow bolts, shuriken, and sling stones) into fiery projectiles. Each piece of ammunition deals an extra 1d6 points of fire damage to any target it hits. A flaming projectile can easily ignite a flammable object or structure, but it won't ignite a creature it strikes.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c67fa60a50c4bdd9.json",
+    "web": "https://codex.pipsprojects.com/#/e/c67fa60a50c4bdd9"
+  },
+  "license": "OGL 1.0a"
+}

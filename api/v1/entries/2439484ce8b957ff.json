@@ -1,0 +1,35 @@
+{
+  "id": "2439484ce8b957ff",
+  "name": "Ignoble Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 16",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "arcanist": 4,
+      "bard": 2,
+      "druid": 3,
+      "hunter": 2,
+      "investigator": 2,
+      "medium": 2,
+      "ranger": 2,
+      "skald": 2,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 16\nSchool transmutation (polymorph); Level alchemist 2, antipaladin 2, arcanist 4, bard 2, druid 3, hunter 2, investigator 2, medium 2, ranger 2, skald 2, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a half-elf ear)\nEffect\nRange touch\nTarget one drow\nDuration 24 hours\nSaving Throw Fortitude negates (harmless); Spell Resistance no\nDescription\nThe target takes on the form of a half-elf from the surface world. Its skin, hair, and eyes change to match a specific human ethnicity. You can even change the target’s facial features or produce light facial hair or stubble. The target loses its darkvision, light blindness, and light sensitivity traits, if it normally has them. The target gains lowlight vision; a +3 racial bonus on a single Craft, Knowledge, Perform, or Profession skill of its choice; and both a +4 bonus on Bluff checks and a +10 bonus on Disguise checks to pass itself off as a half-elf.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2439484ce8b957ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/2439484ce8b957ff"
+  },
+  "license": "OGL 1.0a"
+}

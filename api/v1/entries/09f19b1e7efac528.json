@@ -1,0 +1,25 @@
+{
+  "id": "09f19b1e7efac528",
+  "name": "Open Arms",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 21",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 21\nSchool transmutation; Level arcanist 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 immediate action\nComponents V, S, F (a magical or masterwork melee weapon)\nEffect\nRange touch\nTarget melee weapon touched\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nYou cast this spell in response to a specific cavalier’s challenge (Pathfinder Roleplaying Game: Advanced Player’s Guide 32), inquisitor’s judgment (Advanced Player’s Guide 38), or smite (such as a paladin’s smite evil) declared against you by an enemy creature. It can also be cast if a creature uses a spell that causes you to qualify as the creature’s favored enemy when you normally wouldn’t, such as instant enemy (Advanced Player’s Guide 229).\n\nYou imbue your weapon with a powerful ability to ward off attacks made against you by the creature that challenged you. You gain a +5 insight bonus to your AC and CMD against the attacks of the initiating creature as long as you hold the weapon. If you release the weapon for any reason, the spell ends. You can cast this spell only in response to one of the conditions listed above. The spell fails if you attempt to cast it when you were not subject to a challenge or similar effect since your last turn.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09f19b1e7efac528.json",
+    "web": "https://codex.pipsprojects.com/#/e/09f19b1e7efac528"
+  },
+  "license": "OGL 1.0a"
+}

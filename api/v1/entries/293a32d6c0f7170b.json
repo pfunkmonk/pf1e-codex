@@ -1,0 +1,24 @@
+{
+  "id": "293a32d6c0f7170b",
+  "name": "Bestow Grace of the Champion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 208",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 7,
+      "oracle": 7,
+      "paladin": 4
+    },
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 208\nSchool transmutation [good, lawful]; Level cleric 7, oracle 7, paladin 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget lawful good creature touched\nDuration 1 round/level (see text)\nSaving Throw yes (harmless); Spell Resistance yes (harmless)\nDescription\nYou channel the power of good and law into the target, temporarily giving it powers similar to those of a paladin. The target gains the ability to use detect evil at will as a spell-like ability, immunity to disease (suppressing any diseases currently affecting it), and immunity to fear (ending any fear effects currently affecting it); can lay on hands (on itself only) once as a paladin of 1/2 your caster level; and can smite evil once as a paladin of 1/2 your caster level. It adds its Charisma bonus to all its saving throws. It can use spell completion, spell trigger, or other magic items that require the ability to cast spells as a paladin. Any abilities not used by the time the spell expires are lost. This spell has no effect if cast on a paladin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/293a32d6c0f7170b.json",
+    "web": "https://codex.pipsprojects.com/#/e/293a32d6c0f7170b"
+  },
+  "license": "OGL 1.0a"
+}

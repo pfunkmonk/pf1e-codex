@@ -1,0 +1,305 @@
+{
+  "id": "2de8cd16466ea318",
+  "name": "Summon Nature's Ally 2",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 354",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 2,
+      "shaman": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Summon Nature's Ally 2\nSource PRPG Core Rulebook pg. 354\nSchool conjuration (summoning); Level druid 2, hunter 2, ranger 2, shaman 2\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as summon nature's ally I, except that you summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "1st Level",
+          "Subtype"
+        ],
+        [
+          "Dire rat",
+          "—"
+        ],
+        [
+          "Dog",
+          "—"
+        ],
+        [
+          "Dolphin",
+          "—"
+        ],
+        [
+          "Eagle",
+          "—"
+        ],
+        [
+          "Giant centipede",
+          "—"
+        ],
+        [
+          "Fire beetle",
+          "—"
+        ],
+        [
+          "Mite (gremlin)",
+          "—"
+        ],
+        [
+          "Poisonous frog",
+          "—"
+        ],
+        [
+          "Pony (horse)",
+          "—"
+        ],
+        [
+          "Stirge",
+          "—"
+        ],
+        [
+          "Viper (snake)",
+          "—"
+        ],
+        [
+          "2nd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (worker)",
+          "—"
+        ],
+        [
+          "Elemental (Small)",
+          "Elemental"
+        ],
+        [
+          "Giant frog",
+          "—"
+        ],
+        [
+          "Giant spider",
+          "—"
+        ],
+        [
+          "Goblin Dog",
+          "—"
+        ],
+        [
+          "Horse",
+          "—"
+        ],
+        [
+          "Hyena",
+          "—"
+        ],
+        [
+          "Octopus",
+          "—"
+        ],
+        [
+          "Squid",
+          "—"
+        ],
+        [
+          "Wolf",
+          "—"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Deity",
+          "Additional creature",
+          "Source"
+        ],
+        [
+          "Calistria",
+          "Entropic Giant Bee†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Cayden Cailean",
+          "Celestial or Entropic Wolf†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Desna",
+          "Pseudodragon (CG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Erastil",
+          "Celestial Elk (LG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Gozreh",
+          "Dimorphodon (Dinosaur)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Green Faith",
+          "Axe Beak",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Green Faith",
+          "Dire Badger",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Green Faith",
+          "Giant Porcupine",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Irori",
+          "Shikigami (Kami)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Shelyn",
+          "Grig†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Urgathoa",
+          "Fiendish Giant Fly†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Zon-Kuthon",
+          "Augur (Kyton)† [evil, lawful]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Bulabar",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Gremlin, Jinkin",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Gourd Leshy",
+          "Heroes of the Wild pg. 23"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Leaf Ray",
+          "Heroes of the Wild pg. 23"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Gourd Leshy",
+          "Advanced Class Guide pg. 217"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Air Elemental (Small) [air]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ant, Giant (Worker)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Earth Elemental (Small) [earth]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Fire Elemental (Small) [fire]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Frog",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Spider",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Goblin Dog",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Horse",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Hyena",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ice Elemental (Small) [air, cold, water]",
+          "Bestiary 2 pg. 114"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Lightning Elemental (Small) [air]",
+          "Bestiary 2 pg. 116"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Magma Elemental (Small) [earth, fire]",
+          "Bestiary 2 pg. 118"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Mud Elemental (Small) [earth, water]",
+          "Bestiary 2 pg. 120"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Octopus",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Squid",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Water Elemental (Small) [water]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Wolf",
+          "PRPG Core Rulebook pg. 353"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2de8cd16466ea318.json",
+    "web": "https://codex.pipsprojects.com/#/e/2de8cd16466ea318"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "0ee5bee21823e4ac",
+  "name": "Knight's Calling",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 230",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "paladin": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 230\nSchool enchantment (compulsion) [mind-affecting]; Level paladin 1\nCasting\nCasting Time 1 standard action\nComponents V, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou compel an enemy to come and fight you. On its turn, the target moves its speed toward you, avoiding any other dangers along its path (including any movement that would provoke attacks of opportunity). The target may do nothing but move on its turn. If the target ends its move adjacent to you, you can make an attack of opportunity against the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ee5bee21823e4ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ee5bee21823e4ac"
+  },
+  "license": "OGL 1.0a"
+}

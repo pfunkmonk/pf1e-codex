@@ -1,0 +1,31 @@
+{
+  "id": "b6fa2e1ed3bc2374",
+  "name": "Summon Genie, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the Sands pg. 11",
+  "book": "People of the Sands",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "oracle": 4,
+      "sorcerer": 4,
+      "summoner": 3,
+      "summoner (unchained)": 3,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "People of the Sands"
+  },
+  "body": "Summon Genie, Lesser\nSource People of the Sands pg. 11\nSchool conjuration (summoning); Level arcanist 4, cleric 4, oracle 4, sorcerer 4, summoner 3, summoner (unchained) 3, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (an oil lamp worth at least 50 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned genie\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster I, except you can summon one janni.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6fa2e1ed3bc2374.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6fa2e1ed3bc2374"
+  },
+  "license": "OGL 1.0a"
+}

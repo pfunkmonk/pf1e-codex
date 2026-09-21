@@ -1,0 +1,34 @@
+{
+  "id": "8293c9b3b96ae4eb",
+  "name": "Rune of Ruin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 22",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 5,
+      "bard": 4,
+      "inquisitor": 4,
+      "investigator": 4,
+      "skald": 4,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 22\nSchool transmutation [curse]; Level alchemist 4, arcanist 5, bard 4, inquisitor 4, investigator 4, skald 4, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a self-portrait on a thin sheet of paper)\nEffect\nRange Medium (100 ft. plus 10 ft./level)\nTarget 1 object\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance no\nDescription\nYou curse a magic item, such as magical clothing, a suit of armor, or a weapon. The object is reduced to 1/4 its normal hit point total, gains the broken condition, and appears damaged and worn. If it grants a numeric bonus, such as a +2 deflection bonus to AC, that bonus is reduced by 1 for every 3 caster levels you possess, to a minimum of +0. Other magical qualities fail to work 50% of the time when called upon, so a resistance bonus on saves or a weapon’s flaming special ability could fail each time the item is used.\n\nIf the object is an intelligent magical item, its Ego score remains unchanged despite its reduced quality. The weapon has only a 50% chance to successfully use any spells or spell-like abilities it has, and has a 25% chance of forgetting its special purpose (if any). If an intelligent weapon is actively dominating its wielder when it fails its save against rune of ruin, the wielder gains an immediate saving throw with a +4 bonus to regain control. Rune of ruin has no affect on magical artifacts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8293c9b3b96ae4eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/8293c9b3b96ae4eb"
+  },
+  "license": "OGL 1.0a"
+}

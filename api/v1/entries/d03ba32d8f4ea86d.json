@@ -1,0 +1,17 @@
+{
+  "id": "d03ba32d8f4ea86d",
+  "name": "Liquid leprosy",
+  "bucket": "hazards",
+  "category": "Poisons",
+  "source": "Antihero's Handbook pg. 29",
+  "book": "Antihero's Handbook",
+  "facets": {
+    "bk": "Antihero's Handbook"
+  },
+  "body": "Source Antihero's Handbook pg. 29\nPrice 750 gp; Weight —\nType contact; Save Fortitude DC 20\nOnset 1 minute; Frequency 1/minute for 6 minutes\nEffect Each time the target fails its saving throw, part of his body begins to necrotize. Roll d% on the table below to determine which part of the body starts rotting. Each necrotizing effect stacks with the others but not with itself; if the same effect is rolled more than once, choose a new effect that hasn’t been rolled yet from on the table\nd% Effect\n1-30 Hands, 2 Dex damage\n31-60 Arms, 2 Str damage\n61-95 Torso, 2 Con damage\n96-100 Brain, 2 Int and 2 Wis damage\n\nCure 2 saves",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d03ba32d8f4ea86d.json",
+    "web": "https://codex.pipsprojects.com/#/e/d03ba32d8f4ea86d"
+  },
+  "license": "OGL 1.0a"
+}

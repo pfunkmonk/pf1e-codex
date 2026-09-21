@@ -1,0 +1,32 @@
+{
+  "id": "8da2804b241a5eb6",
+  "name": "Alter Winds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 201",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "druid": 1,
+      "hunter": 1,
+      "occultist": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 201\nSchool transmutation [air]; Level arcanist 1, druid 1, hunter 1, occultist 1, redmantisassassin 1, sorcerer 1, spiritualist 1, wizard 1\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange touch\nArea immobile 10-ft.-radius emanation\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou subtly enhance or diminish the effects of natural winds within the spell’s area, which is an immobile emanation around a point touched by you as the spell is cast. Within the area, natural (but not magical) wind effects are either increased or decreased by one step in intensity (Core Rulebook 439). The maximum wind force you can affect with this spell is based on your caster level, as shown on the table below. Alter winds has no effect on magical wind effects.\n\nCaster Level Wind Force\n1st–3rd Light\n4th–9th Moderate\n10th–15th Strong\n16th or higher Severe",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8da2804b241a5eb6.json",
+    "web": "https://codex.pipsprojects.com/#/e/8da2804b241a5eb6"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d40dfeb4b29e2bb8",
+  "name": "Boneshatter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #84: Pyramid of the Sky Pharaoh pg. 15, Osirion, Land of the Pharaohs pg. 26",
+  "book": "Pathfinder #84: Pyramid of the Sky Pharaoh",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 5,
+      "oracle": 5,
+      "sorcerer": 4,
+      "warpriest": 5,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Pathfinder #84: Pyramid of the Sky Pharaoh"
+  },
+  "body": "Source Pathfinder #84: Pyramid of the Sky Pharaoh pg. 15, Osirion, Land of the Pharaohs pg. 26\nSchool necromancy; Level arcanist 4, cleric 5, oracle 5, sorcerer 4, warpriest 5, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a broken bone)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corporeal creature or object\nDuration instantaneous and 1 minute/level (see text)\nSaving Throw Fortitude partial (see text); Spell Resistance yes\nDescription\nThe target’s bones (or exoskeleton) splinter, dealing 1d6 points of damage per caster level (maximum 15d6) to the target, which is also exhausted for 1 minute per caster level from the pain and exertion of the transformation.\n\nIf the target succeeds at its save, it takes half damage and is fatigued rather than exhausted. Objects made of bone, chitin, or similar material take half again as much damage (+50%) from this spell. This spell has no effect on a creature that has neither a skeleton nor a hard carapace.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d40dfeb4b29e2bb8.json",
+    "web": "https://codex.pipsprojects.com/#/e/d40dfeb4b29e2bb8"
+  },
+  "license": "OGL 1.0a"
+}

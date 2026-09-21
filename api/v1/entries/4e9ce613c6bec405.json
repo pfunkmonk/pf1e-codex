@@ -1,0 +1,25 @@
+{
+  "id": "4e9ce613c6bec405",
+  "name": "Spell Immunity, Greater Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 245",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 9,
+      "oracle": 9,
+      "psychic": 9
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Spell Immunity, Greater Communal\nSource Ultimate Combat pg. 245\nSchool abjuration; Level cleric 9, oracle 9, psychic 9\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets creatures touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like greater spell immunity, except you divide the duration among the creatures in 10-minute intervals among the creatures touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e9ce613c6bec405.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e9ce613c6bec405"
+  },
+  "license": "OGL 1.0a"
+}

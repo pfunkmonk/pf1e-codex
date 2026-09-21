@@ -1,0 +1,25 @@
+{
+  "id": "1ca0bed31be5778d",
+  "name": "Diminish Plants",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 270",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "hunter": 3,
+      "ranger": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 270\nSchool transmutation; Level druid 3, hunter 3, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange see text\nTarget or Area see text\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nThis spell has two versions.\n\nPrune Growth: This version of the spell causes normal vegetation within long range (400 feet + 40 feet per level) to shrink to about one-third normal size, becoming untangled and less bushy. The affected vegetation appears to have been carefully pruned and trimmed. This version of diminish plants automatically dispels any spells or effects that enhance plants, such as entangle, plant growth, and wall of thorns.\n\nAt your option, the area can be a 100-foot-radius circle, a 150-foot-radius semicircle, or a 200-foot-radius quarter-circle. You may also designate portions of the area that are not affected.\n\nStunt Growth: This version of the spell targets all normal plants within a range of 1/2 mile, reducing their potential productivity over the course of the following year to half normal.\n\nThis spell has no effect on plant creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ca0bed31be5778d.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ca0bed31be5778d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "8ef27a2615f3fbbb",
+  "name": "Infectious Spell",
+  "bucket": "options",
+  "category": "Mythic Path Abilities",
+  "source": "Mythic Origins pg. 20",
+  "book": "Mythic Origins",
+  "facets": {
+    "bk": "Mythic Origins",
+    "cls": "Wizard",
+    "path": "Archmage"
+  },
+  "body": "Infectious Spell (Su)\nSource Mythic Origins pg. 20\nYou know no limits when it comes to the potency and ravaging effects of your spells. Whenever you cast a spell that specifically targets a limited number of targets (such as “one creature/level” or “one or more creatures”) and has a duration longer than 1 round, you can expend one use of mythic power to make the spell infectious. Each round on your turn, so long as at least one creature is still under the effect of the infectious spell, the spell targets one additional enemy per mythic tier you possess. The range of the spell is the same, but it originates from a creature currently affected by the spell (your choice). A creature affected by an infectious spell suffers all of the effects of the original spell (and may attempt any saving throws as appropriate at the original save DC), but the duration does not reset (meaning the effect ends for all affected targets when the original duration of the spell expires). A creature can only be targeted by a given infectious spell once per casting. Once a round passes without any additional creatures affected by the spell, the spell stops being infectious. This ability can only affect spells whose level is equal to or less than double your tier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8ef27a2615f3fbbb.json",
+    "web": "https://codex.pipsprojects.com/#/e/8ef27a2615f3fbbb"
+  },
+  "license": "OGL 1.0a"
+}

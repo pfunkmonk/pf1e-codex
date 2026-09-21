@@ -1,0 +1,31 @@
+{
+  "id": "d84810c7c58b6952",
+  "name": "Chain Lightning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 253",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "magus": 6,
+      "occultist": 6,
+      "sorcerer": 6,
+      "witch": 7,
+      "wizard": 6
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 253\nSchool evocation [electricity]; Level arcanist 6, magus 6, occultist 6, sorcerer 6, witch 7, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a bit of fur, a piece of amber, glass, or a crystal rod; plus one silver pin per caster level)\nEffect\nRange long (400 ft. + 40 ft./level)\nTargets one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nThis spell creates an electrical discharge that begins as a single stroke commencing from your fingertips. Unlike lightning bolt, chain lightning strikes one object or creature initially, then arcs to other targets.\n\nThe bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary target. After it strikes, lightning can arc to a number of secondary targets equal to your caster level (maximum 20). The secondary bolts each strike one target and deal as much damage as the primary bolt.\n\nEach target can attempt a Reflex saving throw for half damage. The Reflex DC to halve the damage of the secondary bolts is 2 lower than the DC to halve the damage of the primary bolt. You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.\nMythic Chain Lightning\nSource Mythic Adventures pg. 87\nThis spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn’t reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not necessarily the primary target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d84810c7c58b6952.json",
+    "web": "https://codex.pipsprojects.com/#/e/d84810c7c58b6952"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "d99929816efede01",
+  "name": "Cushioning Bands",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 215",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 215\nSchool conjuration (creation) [force]; Level arcanist 2, psychic 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S,\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level or until discharged (D)\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nInvisible bands of force encircle vital areas of the target. The bands resist crushing forces and impacts without interfering with movement. The target gains DR 2/piercing or slashing and takes half damage from constriction, falling, and being buried, as well as from similar crushing effects such as crushing hand. Grapple checks for attacks other than constricting (such as pinning or swallowing whole) are not affected. Once the spell has blocked 12 points of damage per caster level (to a maximum of 120 points at 10th level), it is discharged. The bands have no effect on incorporeal attacks unless they deal damage from constriction or crushing, or unless the attacks would be subject to damage reduction.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d99929816efede01.json",
+    "web": "https://codex.pipsprojects.com/#/e/d99929816efede01"
+  },
+  "license": "OGL 1.0a"
+}

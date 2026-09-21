@@ -1,0 +1,26 @@
+{
+  "id": "548525fde5b47b49",
+  "name": "Permanency",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 318",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "arcanist": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 318\nSchool universal; Level arcanist 5, psychic 5, sorcerer 5, wizard 5\nCasting\nCasting Time 2 rounds\nComponents V, S, M (see tables below)\nEffect\nRange see text\nTarget see text\nDuration permanent; see text\nSaving Throw none; Spell Resistance no\nDescription\nThis spell makes the duration of certain other spells permanent. You first cast the desired spell and then follow it with the permanency spell.\n\nDepending on the spell, you must be of a minimum caster level and must expend a specific gp value of diamond dust as a material component.\n\nYou can make the following spells permanent in regard to yourself.\n\nSpell Minimum Caster Level GP Cost\nArcane sight 11th 7,500 gp\nComprehend languages 9th 2,500 gp\nDarkvision 10th 5,000 gp\nDetect magic 9th 2,500 gp\nRead magic 9th 2,500 gp\nSee invisibility 10th 5,000 gp\nTongues 11th 7,500 gp\n\nYou cannot cast these spells on other creatures. This application of permanency can be dispelled only by a caster of higher level than you were when you cast the spell.\n\nIn addition to personal use, permanency can be used to make the following spells permanent on yourself, another creature, or an object (as appropriate).\n\nSpell Minimum Caster Level GP Cost\nEnlarge person 9th 2,500 gp\nMagic fang 9th 2,500 gp\nMagic fang, greater 11th 7,500 gp\nReduce person 9th 2,500 gp\nResistance 9th 2,500 gp\nTelepathic bond* 13th 12,500 gp\n*Only bonds two creatures per casting of permanency\n\nAdditionally, the following spells can be cast upon objects or areas only and rendered permanent.\n\nSpell Minimum Caster Level GP Cost\nAlarm 9th 2,500 gp\nAnimate objects 14th 15,000 gp\nDancing lights 9th 2,500 gp\nGhost sound 9th 2,500 gp\nGust of wind 11th 7,500 gp\nInvisibility 10th 5,000 gp\nMage's private sanctum 13th 12,500 gp\nMagic mouth 10th 5,000 gp\nPhase door 15th 17,500 gp\nPrismatic sphere 17th 22,500 gp\nPrismatic wall 16th 20,000 gp\nShrink item 11th 7,500 gp\nSolid fog 12th 10,000 gp\nStinking cloud 11th 7,500 gp\nSymbol of death 16th 20,000 gp\nSymbol of fear 14th 15,000 gp\nSymbol of insanity 16th 20,000 gp\nSymbol of pain 13th 12,500 gp\nSymbol of persuasion 14th 15,000 gp\nSymbol of sleep 16th 20,000 gp\nSymbol of stunning 15th 17,500 gp\nSymbol of weakness 15th 17,500 gp\nTeleportation circle 17th 22,500 gp\nWall of fire 12th 10,000 gp\nWall of force 13th 12,500 gp\nWeb 10th 5,000 gp\n\nSpells cast on other targets are vulnerable to dispel magic as normal. The GM may allow other spells to be made permanent.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/548525fde5b47b49.json",
+    "web": "https://codex.pipsprojects.com/#/e/548525fde5b47b49"
+  },
+  "license": "OGL 1.0a"
+}

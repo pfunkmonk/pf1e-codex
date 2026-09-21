@@ -1,0 +1,28 @@
+{
+  "id": "dc5065e8485b1d19",
+  "name": "Find Traps",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 281",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "medium": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 281\nSchool divination; Level cleric 2, inquisitor 2, medium 2, occultist 2, oracle 2, psychic 2, warpriest 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level\nDescription\nYou gain intuitive insight into the workings of traps. You gain an insight bonus equal to 1/2 your caster level (maximum +10) on Perception checks made to find traps while the spell is in effect. You receive a check to notice traps within 10 feet of you, even if you are not actively searching for them. Note that find traps grants no ability to disable the traps that you may find.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dc5065e8485b1d19.json",
+    "web": "https://codex.pipsprojects.com/#/e/dc5065e8485b1d19"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "af120f2e894c699a",
+  "name": "Vrykolakas",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 273, Pathfinder #29: Mother of Flies pg. 88",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 10,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Bestiary 6",
+    "st": "shapechanger"
+  },
+  "body": "This twisted, barely-humanoid monstrosity has rancid-looking flesh, an unnaturally long neck, and a mouth full of fangs.\nVrykolakas CR 10\nSource Bestiary 6 pg. 273, Pathfinder #29: Mother of Flies pg. 88\nXP 9,600\nNE Medium undead (shapechanger)\nInit +8; Senses darkvision 60 ft.; Perception +13\nAura pestilent aura (5 ft., DC 22)\nDefense\nAC 23, touch 15, flat-footed 18 (+4 Dex, +1 dodge, +8 natural)\nhp 126 (12d8+72)\nFort +10, Ref +10, Will +12\nDefensive Abilities channel resistance +4; Immune undead traits\nWeaknesses vulnerable to fire\nOffense\nSpeed 40 ft., climb 20 ft.\nMelee bite +17 (1d6+8 plus energy drain), 2 claws +18 (1d8+8)\nSpecial Attacks create spawn, energy drain (1 level, DC 22), rend (2 claws, 1d6+12)\nSpell-Like Abilities (CL 10th; concentration +16)\n3/day—charm animal (DC 17), fear (DC 20), vampiric touch\nStatistics\nStr 26, Dex 19, Con —, Int 7, Wis 18, Cha 23\nBase Atk +9; CMB +17; CMD 32\nFeats Dodge, Improved Initiative, Lightning Reflexes, Mobility, Stealthy, Weapon Focus (claw)\nSkills Climb +25, Disguise +15 (+25 when disguised as former living self), Escape Artist +6, Perception +13, Stealth +15; Racial Modifiers +10 Disguise when disguised as former living self\nLanguages Common\nSQ change shape (as its previously living humanoid form; alter self), feral possession\nEcology\nEnvironment any\nOrganization solitary\nTreasure standard\nSpecial Abilities\nCreate Spawn (Su) A humanoid slain by a vrykolakas becomes a free-willed vrykolakas itself in 1d4 days if not blessed and given proper funerary rites. A blessing might entail either the spell bless or a more mundane consecration, but at the very least requires a proper prayer (with a successful DC 15 Knowledge [religion] check) invoking a good-aligned deity.\n\nFeral Possession (Su) Upon being reduced to 0 hit points, a vrykolakas attempts to possess any animal within 100 feet. This ability is similar to possession and has a duration equal to 1 day for every Hit Die the vrykolakas has. The target must succeed at a DC 22 Will save or be possessed. If the possession fails, the vrykolakas immediately dies. If the possession succeeds, the animal immediately retreats to the vrykolakas’s lair, where it attempts to bury itself in the earth. If left uninterrupted for 1d4 days, the animal transforms into a new vrykolakas with all the same statistics as the original. If discovered and slain during this time, both the animal and the vrykolakas are destroyed. If discovered and the possession effect is ended via dispel magic or a similar effect, the animal returns to normal and the vrykolakas is destroyed (caster level is equal to the vrykolakas’s CR for the purposes of resolving this dispel magic attempt). The save DC is Charisma-based.\n\nPestilent Aura (Su) Creatures within 5 feet of a vrykolakas must succeed at a DC 22 Fortitude save or contract bubonic plague. Any creature that successfully saves against a vrykolakas’s pestilent aura cannot be affected by the aura of that same vrykolakas for 24 hours. The save DC is Charisma-based.\n\nBubonic Plague: save Fort DC 21; onset 1 day; frequency 1/day; effect 1d4 Con damage and 1 Cha damage and target is fatigued; cure 2 consecutive saves.\nDescription\nThe vrykolakas knows only rage and relishes the suffering of those who failed it in life. Reanimated corpses of wicked and vengeful souls denied even the most basic burial rites, these unreasoning, vampire-like creatures unleash their wrath against the living indiscriminately, spreading disease and death among all in their paths.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af120f2e894c699a.json",
+    "web": "https://codex.pipsprojects.com/#/e/af120f2e894c699a"
+  },
+  "license": "OGL 1.0a"
+}

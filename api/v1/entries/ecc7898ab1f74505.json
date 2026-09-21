@@ -1,0 +1,26 @@
+{
+  "id": "ecc7898ab1f74505",
+  "name": "Coward's Lament",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 212",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "inquisitor": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 212\nSchool enchantment (compulsion) [mind-affecting]; Level inquisitor 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level (D)\nSaving Throw Will partial; Spell Resistance yes\nDescription\nYou compel an opponent to face you in combat, or suffer for its cowardice. Each round that the target fails to attack you in melee, it receives a cumulative –1 penalty to its Armor Class, attack rolls, and saving throws (maximum penalty –5). Each round at the end of its turn, the target may attempt a Will saving throw to prevent the penalties from increasing for that round. All penalties reset to zero when the target attacks you in melee, but increase again if it stops attacking. If the target is prevented from attacking you by physical restraint, magic, or impassable terrain, the penalties do not increase. If you move away from the target, the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ecc7898ab1f74505.json",
+    "web": "https://codex.pipsprojects.com/#/e/ecc7898ab1f74505"
+  },
+  "license": "OGL 1.0a"
+}

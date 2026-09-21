@@ -1,0 +1,28 @@
+{
+  "id": "0d56c96be1b41f03",
+  "name": "Sift",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 244",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 0,
+      "inquisitor": 0,
+      "medium": 0,
+      "occultist": 0,
+      "psychic": 0,
+      "skald": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 244\nSchool divination; Level bard 0, inquisitor 0, medium 0, occultist 0, psychic 0, skald 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea one 10-ft. cube\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou examine an area at range as if you were searching for fine details with the Perception skill. Make a Perception check with a –5 penalty, modified as normal for conditions. No penalty is applied for distance. Apply the result against the DC for any hidden features, such as secret doors, traps, or hidden treasure. You must be able to see the area you are attempting to search, and you only find details that can be perceived with sight or touch. Sift detects only objects and features, not actual creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d56c96be1b41f03.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d56c96be1b41f03"
+  },
+  "license": "OGL 1.0a"
+}

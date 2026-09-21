@@ -1,0 +1,24 @@
+{
+  "id": "d937e2868e68a226",
+  "name": "Mutagenic Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 237",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "investigator": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 237\nSchool transmutation; Level alchemist 4, investigator 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a whole fingernail)\nEffect\nRange touch\nTarget creature touched\nDuration special (see below)\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nWhen you are under of the effects of your mutagen, you can cast this spell to safely pass it to another creature with a touch. You must make a successful touch attack against the target. On a hit, the effect of the mutagen passes to the target touched, though in a lesser form. The mutagen’s effect ends for you, and passes on to the creature touched, but the target only gets half of the alchemical bonus to the physical ability modifier you chose when took the mutagen, and twice the penalty to the corresponding mental ability score. If the target’s mental ability score drops below 3, the target is also confused for the remaining duration of the mutagen. The mutagen continues until the duration has ended. It can be ended earlier if the target drinks or is fed the contents of a vial of antitoxin, but with only 50% chance of success.\n\nYou can use this spell on a mutagen with either the greater mutagen or advance mutagen discoveries. When you do, you always pass on half the alchemical bonus to physical abilities and twice the penalty to the mental ability score.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d937e2868e68a226.json",
+    "web": "https://codex.pipsprojects.com/#/e/d937e2868e68a226"
+  },
+  "license": "OGL 1.0a"
+}

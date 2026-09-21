@@ -1,0 +1,35 @@
+{
+  "id": "c4c09a8278c69b94",
+  "name": "Soul Vault",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 33",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 3,
+      "druid": 4,
+      "hunter": 4,
+      "inquisitor": 3,
+      "oracle": 3,
+      "psychic": 5,
+      "shaman": 4,
+      "sorcerer": 4,
+      "spiritualist": 2,
+      "warpriest": 3,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 33\nSchool abjuration; Level arcanist 4, cleric 3, druid 4, hunter 4, inquisitor 3, oracle 3, psychic 5, shaman 4, sorcerer 4, spiritualist 2, warpriest 3, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell protects the target’s soul by briefly enveloping the target in an ethereal vault. The target gains a +4 bonus on saving throws against spells and effects that would trap or redirect its soul (such as magic jar, soul bind, and trap the soul) and effects that would transform the target into an undead creature. The target is granted a save to negate such effects even if one is not normally allowed. If it’s cast on a living creature that then dies, the target’s body and spirit are protected by the spell for its duration. If it’s cast on a corpse within 1 round of death, the target’s body and soul are both protected. Otherwise, only the body receives the protection.\n\nAny spellcaster that worships Abadar may learn and cast soul vault as a 4th level spell, if it isn’t normally on her class spell list. Soul vault can be made permanent with the permanency spell at a cost of 7,500 gp and a minimum caster level of 11th.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4c09a8278c69b94.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4c09a8278c69b94"
+  },
+  "license": "OGL 1.0a"
+}

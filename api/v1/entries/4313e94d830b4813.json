@@ -1,0 +1,30 @@
+{
+  "id": "4313e94d830b4813",
+  "name": "Harmless Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Streets pg. 23",
+  "book": "Heroes of the Streets",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Heroes of the Streets"
+  },
+  "body": "Source Heroes of the Streets pg. 23\nSchool transmutation (polymorph); Level arcanist 2, druid 2, hunter 2, ranger 2, shaman 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one willing animal companion, familiar, or spirit animal\nDuration 8 hours (D)\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou transform the target into a harmless animal of the same approximate body type. The form assumed must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a horse, or a rat. This transformation can reduce the target by up to two size categories, but cannot make an animal smaller than Tiny. It cannot increase the size of the target or give it new natural attacks or new forms of movement. The spell otherwise functions as beast shape II.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4313e94d830b4813.json",
+    "web": "https://codex.pipsprojects.com/#/e/4313e94d830b4813"
+  },
+  "license": "OGL 1.0a"
+}

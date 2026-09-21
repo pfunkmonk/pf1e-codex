@@ -1,0 +1,30 @@
+{
+  "id": "c9b2db5c706d3a86",
+  "name": "Control Weather",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 261",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "druid": 7,
+      "oracle": 7,
+      "shaman": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 261\nSchool transmutation; Level arcanist 7, cleric 7, druid 7, oracle 7, shaman 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 10 minutes; see text\nComponents V, S\nEffect\nRange 2 miles\nArea 2-mile-radius circle, centered on you; see text\nDuration 4d12 hours; see text\nSaving Throw none; Spell Resistance no\nDescription\nYou change the weather in the local area. It takes 10 minutes to cast the spell and an additional 10 minutes for the effects to manifest. You can call forth weather appropriate to the climate and season of the area you are in. You can also use this spell to cause the weather in the area to become calm and normal for the season.\n\nSeason Possible Weather\nSpring Tornado, thunderstorm, sleet storm, or hot weather\nSummer Torrential rain, heat wave, or hailstorm\nAutumn Hot or cold weather, fog, or sleet\nWinter Frigid cold, blizzard, or thaw\nLate winter Hurricane-force winds or early spring\n\nYou control the general tendencies of the weather, such as the direction and intensity of the wind. You cannot control specific applications of the weather—where lightning strikes, for example, or the exact path of a tornado. The weather continues as you left it for the duration, or until you use a standard action to designate a new kind of weather (which fully manifests itself 10 minutes later). Contradictory conditions are not possible simultaneously.\n\nControl weather can do away with atmospheric phenomena (naturally occurring or otherwise) as well as create them.\n\nA druid casting this spell doubles the duration and affects a circle with a 3-mile radius.\nMythic Control Weather\nSource Mythic Adventures pg. 89\nThe casting time changes to 1 standard action, and the duration doubles. The weather changes after a number of rounds equal to 11 – your tier.\n\nAugmented (6th): If you expend two uses of mythic power, you can create weather of any type regardless of the season, and the weather changes after 1 round.\nWandering Weather\nSource Ultimate Wilderness pg. 237\nSchool transmutation; Level arcanist 8, cleric 8, druid 8, oracle 8, shaman 8, sorcerer 8, witch 8, wizard 8\nCasting\nCasting Time 10 minutes; see text\nComponents V, S\nEffect\nRange 2 miles\nArea 2-mile-radius circle, centered on you; see text\nDuration 4d12 hours; see text\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as control weather except you can opt for the weather to remain centered on you as you move.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9b2db5c706d3a86.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9b2db5c706d3a86"
+  },
+  "license": "OGL 1.0a"
+}

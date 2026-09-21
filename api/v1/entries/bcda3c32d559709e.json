@@ -1,0 +1,32 @@
+{
+  "id": "bcda3c32d559709e",
+  "name": "Summon Flight of Eagles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 77, Andoran, Spirit of Liberty pg. 27",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 6,
+      "bloodrager": 4,
+      "druid": 6,
+      "hunter": 4,
+      "ranger": 4,
+      "shaman": 6,
+      "sorcerer": 6,
+      "summoner": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 77, Andoran, Spirit of Liberty pg. 27\nSchool conjuration (summoning); Level arcanist 6, bloodrager 4, druid 6, hunter 4, ranger 4, shaman 6, sorcerer 6, summoner 6, summoner (unchained) 6, witch 6, wizard 6\nCasting\nCasting Time 1 round\nComponents V, S, F (a gold feather worth 100 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 1d4+1 summoned creatures\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\nDescription\nYou summon 1d4+1 giant eagles to serve as you designate. The summoned birds can fight if you wish, but can also serve as mounts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bcda3c32d559709e.json",
+    "web": "https://codex.pipsprojects.com/#/e/bcda3c32d559709e"
+  },
+  "license": "OGL 1.0a"
+}

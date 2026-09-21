@@ -1,0 +1,28 @@
+{
+  "id": "40c17176847346de",
+  "name": "Magic Vestment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 310",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 310\nSchool transmutation; Level cleric 3, inquisitor 3, occultist 3, oracle 3, shaman 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget armor or shield touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).\n\nAn outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.\nMythic Magic Vestment\nSource Mythic Adventures pg. 100\nYou can add one armor special ability to the target if it’s armor or one shield special ability if it’s a shield. The special ability must have a base price modifier no greater than a +1 enhancement bonus or 4,000 gp.\n\nAugmented (3rd): If you expend two uses of mythic power, you can add any number of special abilities with a total base price modifier no greater than a +2 enhancement bonus or 15,000 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40c17176847346de.json",
+    "web": "https://codex.pipsprojects.com/#/e/40c17176847346de"
+  },
+  "license": "OGL 1.0a"
+}

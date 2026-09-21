@@ -1,0 +1,31 @@
+{
+  "id": "85f8ae33c5d52734",
+  "name": "Decrepit Disguise",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 163",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 163\nSchool illusion (glamer); Level arcanist 1, bard 1, medium 1, mesmerist 1, occultist 1, psychic 1, skald 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one object of no more than 10 cu. ft./level\nDuration 1 day/level\nSaving Throw none (object) or Will disbelief (if interacted with); Spell Resistance no\nDescription\nYou make an object seem like a worthless version of itself. A masterwork or magic sword could seem to be a useless, rusting, discarded blade, and a luxurious throne could appear to be a decrepit wooden chair. If used against an attended object, the wielder can immediately attempt a Will save to disbelieve the effect. Decrepit disguise counters and dispels quintessence.\n\nDecrepit disguise can be made permanent with a permanency spell by a caster of 9th level or higher for the cost of 500 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85f8ae33c5d52734.json",
+    "web": "https://codex.pipsprojects.com/#/e/85f8ae33c5d52734"
+  },
+  "license": "OGL 1.0a"
+}

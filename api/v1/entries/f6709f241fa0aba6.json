@@ -1,0 +1,56 @@
+{
+  "id": "f6709f241fa0aba6",
+  "name": "Craft DCs for Mechanical Traps",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 423",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nCraft DCs for Mechanical Traps\nSource PRPG Core Rulebook pg. 423\nOnce you know the Challenge Rating of a trap, determine the Craft (traps) DC by referring to the values and modifiers given on Table 13–6.\n\nMaking the Checks: To determine how much progress a character makes on building a trap each week, that character makes a Craft (traps) check. See the Craft skill description for details on Craft checks and the circumstances that can affect them.\nTable 13-6: Craft (Traps) DCs\nTrap CR Base Craft (Traps) DC\n1-5 20\n6-10 25\n11-15 30\n16+ 35\n\nAdditional Components Modifier to Craft (Traps) DC\nProximity trigger +5\nAutomatic reset +5",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Trap CR",
+          "Base Craft (Traps) DC"
+        ],
+        [
+          "1-5",
+          "20"
+        ],
+        [
+          "6-10",
+          "25"
+        ],
+        [
+          "11-15",
+          "30"
+        ],
+        [
+          "16+",
+          "35"
+        ],
+        [
+          "Additional Components",
+          "Modifier to Craft (Traps) DC"
+        ],
+        [
+          "Proximity trigger",
+          "+5"
+        ],
+        [
+          "Automatic reset",
+          "+5"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f6709f241fa0aba6.json",
+    "web": "https://codex.pipsprojects.com/#/e/f6709f241fa0aba6"
+  },
+  "license": "OGL 1.0a"
+}

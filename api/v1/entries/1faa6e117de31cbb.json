@@ -1,0 +1,32 @@
+{
+  "id": "1faa6e117de31cbb",
+  "name": "Inner Focus",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the Sands pg. 21",
+  "book": "People of the Sands",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "adept": 2,
+      "antipaladin": 1,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 1,
+      "inquisitor": 2,
+      "oracle": 2,
+      "paladin": 1,
+      "ranger": 1,
+      "warpriest": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "People of the Sands"
+  },
+  "body": "Source People of the Sands pg. 21\nSchool illusion (glamer); Level adept 2, antipaladin 1, cleric 2, druid 2, hunter 1, inquisitor 2, oracle 2, paladin 1, ranger 1, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level\nSaving Throw none (harmless); Spell Resistance no\nDescription\nFor the duration of this spell, you may ignore any divine focus components of your spells, allowing you to cast such spells without holding or revealing your holy or unholy symbol.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1faa6e117de31cbb.json",
+    "web": "https://codex.pipsprojects.com/#/e/1faa6e117de31cbb"
+  },
+  "license": "OGL 1.0a"
+}

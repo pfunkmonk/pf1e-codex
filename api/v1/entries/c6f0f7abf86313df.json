@@ -1,0 +1,34 @@
+{
+  "id": "c6f0f7abf86313df",
+  "name": "Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 342",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "investigator": 1,
+      "magus": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "force"
+    ],
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 342\nSchool abjuration [force]; Level alchemist 1, arcanist 1, bloodrager 1, investigator 1, magus 1, occultist 1, psychic 1, sorcerer 1, spiritualist 1, summoner 1, summoner (unchained) 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level (D)\nDescription\nShield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c6f0f7abf86313df.json",
+    "web": "https://codex.pipsprojects.com/#/e/c6f0f7abf86313df"
+  },
+  "license": "OGL 1.0a"
+}

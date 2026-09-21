@@ -1,0 +1,28 @@
+{
+  "id": "f6a79a4570c30cc0",
+  "name": "Secure Shelter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 338",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 338\nSchool conjuration (creation); Level arcanist 4, bard 4, skald 4, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 10 minutes\nComponents V, S, M (a chip of stone, sand, a drop of water, and a wood splinter)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 20-ft.-square structure\nDuration 2 hours/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou conjure a sturdy cottage or lodge made of material that is common in the area where the spell is cast. The floor is level, clean, and dry. The lodging resembles a normal cottage, with a sturdy door, two shuttered windows, and a small fireplace.\n\nThe shelter must be heated as a normal dwelling, and extreme heat adversely affects it and its occupants. The dwelling does, however, provide considerable security otherwise—it is as strong as a normal stone building, regardless of its material composition. The dwelling resists flames and fire as if it were stone. It is impervious to normal missiles (but not the sort cast by siege engines or giants).\n\nThe door, shutters, and even chimney are secure against intrusion, the former two being secured with arcane lock and the latter by an iron grate at the top and a narrow flue. In addition, these three areas are protected by an alarm spell. Finally, an unseen servant is conjured to provide service to you for the duration of the shelter.\n\nThe secure shelter contains crude furnishings—eight bunks, a trestle table, eight stools, and a writing desk.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f6a79a4570c30cc0.json",
+    "web": "https://codex.pipsprojects.com/#/e/f6a79a4570c30cc0"
+  },
+  "license": "OGL 1.0a"
+}

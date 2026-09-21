@@ -1,0 +1,30 @@
+{
+  "id": "077e883a37ed22e0",
+  "name": "Resilient Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 333",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 4,
+      "occultist": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 333\nSchool evocation [force]; Level arcanist 4, occultist 4, psychic 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a crystal sphere)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 1-ft.-diameter/level sphere, centered around a creature\nDuration 1 min./level (D)\nSaving Throw Reflex negates; Spell Resistance yes\nDescription\nA globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere functions as a wall of force, except that it can be negated by dispel magic. A subject inside the sphere can breathe normally. The sphere cannot be physically moved either by people outside it or by the struggles of those within.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/077e883a37ed22e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/077e883a37ed22e0"
+  },
+  "license": "OGL 1.0a"
+}

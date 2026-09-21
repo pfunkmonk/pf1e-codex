@@ -1,0 +1,31 @@
+{
+  "id": "2c98f276630d49ed",
+  "name": "Probe History",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 222",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "cleric": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "skald": 3,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 222\nSchool divination; Level arcanist 4, bard 3, cleric 4, inquisitor 4, oracle 4, skald 3, sorcerer 4, warpriest 4, wizard 4 (Half-Elf)\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou gain a glimpse of a potential reality similar to this one but that never was. If the target fails her Will save, you can ask about one topic and attempt the appropriate Knowledge check with a +5 competence bonus; track Knowledge checks attempted with this spell separately for the purpose of disallowing retries on Knowledge checks. You learn information on that topic from a reality in which you were an acquaintance of the target, although the differences in that reality might cause the answer to be subtly different than in your own. Once you have probed a target’s history, successfully or not, you cannot target the same creature’s history or search for the same information in another creature’s history.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c98f276630d49ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c98f276630d49ed"
+  },
+  "license": "OGL 1.0a"
+}

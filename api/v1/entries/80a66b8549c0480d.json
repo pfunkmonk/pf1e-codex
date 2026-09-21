@@ -1,0 +1,25 @@
+{
+  "id": "80a66b8549c0480d",
+  "name": "Surmount Affliction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 241",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "spiritualist": 2,
+      "warpriest": 2
+    },
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 241\nSchool abjuration; Level cleric 2, inquisitor 2, oracle 2, spiritualist 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange you\nTarget personal\nDuration 1 round/level\nDescription\nYou temporarily overcome one harmful condition. This does not end the effect causing the condition; it just suspends that condition’s effect for the duration of the spell. You can surmount any one of the following conditions: blinded, confused, dazed, dazzled, deafened, fatigued, frightened, paralyzed, shaken, or sickened.\nMythic Surmount Affliction\nSource Mythic Adventures pg. 110\nYou can cast this spell with no verbal or somatic component, and even if you’re helpless (but not unconscious). You temporarily overcome a number of additional harmful conditions equal to half your tier.\n\nAugmented (7th): If you expend three uses of mythic power, you become immune to all afflictions the spell can normally overcome. In addition, you overcome (but do not become immune to) one of the following conditions: exhausted, nauseated, panicked, petrified, staggered, and stunned.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/80a66b8549c0480d.json",
+    "web": "https://codex.pipsprojects.com/#/e/80a66b8549c0480d"
+  },
+  "license": "OGL 1.0a"
+}

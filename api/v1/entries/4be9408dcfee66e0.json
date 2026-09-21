@@ -1,0 +1,26 @@
+{
+  "id": "4be9408dcfee66e0",
+  "name": "Flames of the Faithful",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 222",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "inquisitor": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 222\nSchool transmutation [fire]; Level inquisitor 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange touch\nTarget weapon touched\nDuration 1 round/level\nSaving Throw Fortitude negates (object, harmless); Spell Resistance yes (object, harmless)\nDescription\nWith a touch, you cause a glowing rune to appear on a single weapon, granting that weapon the flaming property (and allowing it to cause an extra 1d6 points of fire damage on a successful hit). If you are using the judgment class feature, your weapon gains the flaming burst property instead. The spell functions only for weapons that you wield. If the weapon leaves your hand for any reason, the spell effect ends. The effects of this spell do not stack with any existing flaming or flaming burst weapon property that the target weapon may already possess.\nMythic Flames of the Faithful\nSource Mythic Adventures pg. 94\nThe fire damage dealt by this spell bypasses fire resistance and fire immunity. On a successful critical hit, the target catches on fire (Core Rulebook 444).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4be9408dcfee66e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/4be9408dcfee66e0"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "74f438e6161d6570",
+  "name": "Ear-Piercing Scream",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 218",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "inquisitor": 1,
+      "medium": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 218\nSchool evocation [sonic]; Level arcanist 1, bard 1, bloodrager 1, inquisitor 1, medium 1, psychic 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous; see text\nSaving Throw Fortitude partial (see text); Spell Resistance yes\nDescription\nYou unleash a powerful scream, inaudible to all but a single target. The target is dazed for 1 round and takes 1d6 points of sonic damage per two caster levels (maximum 5d6). A successful save negates the daze effect and halves the damage.\nMythic Ear-Piercing Scream\nSource Mythic Adventures pg. 92\nThe damage dealt increases to 1d8 points of sonic damage per 2 caster levels (maximum 5d8) and the duration that creatures in the area are dazed is a number of rounds equal to your tier.\n\nAugmented (3rd): If you expend two uses of mythic power, the spell affects a 30-foot cone rather than a single target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74f438e6161d6570.json",
+    "web": "https://codex.pipsprojects.com/#/e/74f438e6161d6570"
+  },
+  "license": "OGL 1.0a"
+}

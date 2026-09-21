@@ -1,0 +1,31 @@
+{
+  "id": "f0f7ddc425e6000e",
+  "name": "Inflict Serious Wounds, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 301",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 3,
+      "inquisitor": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Inflict Serious Wounds\nSource PRPG Core Rulebook pg. 301\nSchool necromancy; Level antipaladin 4, cleric 3, inquisitor 3, occultist 3, oracle 3, shaman 3, spiritualist 3, warpriest 3, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nDescription\nThis spell functions like inflict light wounds, except that it deals 3d8 + 1 point per caster level (maximum +15).\nMythic Inflict Serious Wounds\nSource Mythic Adventures pg. 99\nThe damage dealt increases to 6d8 points of damage + 2 points per caster level (maximum +30). A living target is sickened for 1 round per caster level (maximum 15 rounds) if it fails its saving throw.\nInflict Serious Wounds, Mass\nSource PRPG Core Rulebook pg. 301\nSchool necromancy; Level cleric 7, oracle 7, shaman 7, witch 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nDescription\nThis spell functions like mass inflict light wounds, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f0f7ddc425e6000e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f0f7ddc425e6000e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "9349528759481c76",
+  "name": "Transfer Familiar",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Familiar Folio pg. 23",
+  "book": "Familiar Folio",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "sorcerer": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Familiar Folio"
+  },
+  "body": "Source Familiar Folio pg. 23\nSchool evocation; Level arcanist 6, sorcerer 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget your familiar and one willing creature\nDuration 1 day/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou temporarily grant control of your familiar to another willing creature. You, your familiar, and the target creature must all be touching each other when you cast this spell. The target gains all the benefits and abilities normally associated with having a familiar, including the ability to share spells, speak with the familiar, and so on. You lose all of these benefits for the duration of the spell. If the target already has a familiar, the spell fails.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9349528759481c76.json",
+    "web": "https://codex.pipsprojects.com/#/e/9349528759481c76"
+  },
+  "license": "OGL 1.0a"
+}

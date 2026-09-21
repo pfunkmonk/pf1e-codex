@@ -1,0 +1,26 @@
+{
+  "id": "990c4f93c9e5651c",
+  "name": "Find Quarry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 230",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "hunter": 4,
+      "inquisitor": 4,
+      "occultist": 5,
+      "ranger": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 230\nSchool divination; Level hunter 4, inquisitor 4, occultist 5, ranger 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou sense whether a well-known creature you can clearly visualize is within a 20-mile radius of your current location, as well as the distance and direction to the creature in relation to you. You also discern whether the creature is moving, and its direction, speed, and mode of movement. The radius you can sense increases by 5 miles for every two caster levels you have above 10th (to a maximum of a 45-mile radius at 20th level). Anything that would prevent locate creature from finding a creature also prevents find quarry from doing so.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/990c4f93c9e5651c.json",
+    "web": "https://codex.pipsprojects.com/#/e/990c4f93c9e5651c"
+  },
+  "license": "OGL 1.0a"
+}

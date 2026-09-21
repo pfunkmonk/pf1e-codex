@@ -1,0 +1,26 @@
+{
+  "id": "5ce094e94933db40",
+  "name": "Spiral Descent",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 43",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Spiral Ascent\nSource Inner Sea Temples pg. 43\nSchool conjuration (teleportation); Level cleric 3, inquisitor 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget you and touched objects\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou transform yourself into a helical beam of divine energy that instantly transports you upward to a spot within range. The destination must be a square in the spell’s range that’s within 10 feet of a point directly above you. The destination must be within your line of sight or familiar to you. After using this spell, you can’t take any other actions until your next turn. You can bring along objects as long as their weight doesn’t exceed your maximum load.\n\nIf you arrive in a place that is already occupied by a solid body, you are teleported to a random open space on a suitable surface within the range and other limitations of the spell. If no such space is available, the spell simply fails. This spell does not function on a plane lacking gravity. On a plane with subjective directional gravity, you can use this spell to teleport in any direction.\nSpiral Descent\nSource Inner Sea Temples pg. 43\nSchool conjuration (teleportation); Level cleric 2, inquisitor 2, oracle 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget you and touched objects\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis spell functions as spiral ascent, except the destination and direction of travel is downward from your current location.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ce094e94933db40.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ce094e94933db40"
+  },
+  "license": "OGL 1.0a"
+}

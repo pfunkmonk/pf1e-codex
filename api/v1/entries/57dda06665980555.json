@@ -1,0 +1,34 @@
+{
+  "id": "57dda06665980555",
+  "name": "Slow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 344",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "bloodrager": 3,
+      "magus": 3,
+      "medium": 2,
+      "occultist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "summoner": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 344\nSchool transmutation; Level arcanist 3, bard 3, bloodrager 3, magus 3, medium 2, occultist 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, spiritualist 3, summoner 2, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of molasses)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nAn affected creature moves and attacks at a drastically slowed rate. Creatures affected by this spell are staggered and can take only a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, it takes a –1 penalty on attack rolls, AC, and Reflex saves. A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.\n\nMultiple slow effects don't stack. Slow counters and dispels haste.\nMythic Slow\nSource Mythic Adventures pg. 109\nThe penalty on attack rolls, on Reflex saves, and to AC increases to –2, and affected creatures move at one-fourth speed. Select one affected creature; this creature is denied its Dexterity bonus to AC.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57dda06665980555.json",
+    "web": "https://codex.pipsprojects.com/#/e/57dda06665980555"
+  },
+  "license": "OGL 1.0a"
+}

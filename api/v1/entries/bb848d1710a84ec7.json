@@ -1,0 +1,141 @@
+{
+  "id": "bb848d1710a84ec7",
+  "name": "Age",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 168",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nBasics / Character Creation\n\nAge\nSource PRPG Core Rulebook pg. 168\nYou can choose or randomly generate your character’s age. If you choose it, it must be at least the minimum age for the character’s race and class (see Table 7–1). Alternatively, roll the dice indicated for your class on Table 7–1 and add the result to the minimum age of adulthood for your race to determine how old your character is.\n\nTable 7-1: Random Starting Ages\nRace Adulthood Barbarian, Rogue, Sorcerer Bard, Fighter, Paladin, Ranger Cleric, Druid, Monk, Wizard\nHuman 15 years +1d4 +1d6 +2d6\nDwarf 40 years +3d6 +5d6 +7d6\nElf 110 years +4d6 +6d6 +10d6\nGnome 40 years +4d6 +6d6 +9d6\nHalf-elf 20 years +1d6 +2d6 +3d6\nHalf-orc 14 years +1d4 +1d6 +2d6\nHalfling 20 years +2d4 +3d6 +4d6\n\nWith age, a character’s physical ability scores decrease and his mental ability scores increase (see Table 7–2). The effects of each aging step are cumulative. However, none of a character’s ability scores can be reduced below 1 in this way.When a character reaches venerable age, secretly roll his maximum age (on Table 7–2) and record the result, which the player does not know. A character who reaches his maximum age dies of old age sometime during the following year.\n\nThe maximum ages are for player characters. Most people in the world at large die from pestilence, accidents, infections, or violence before getting to venerable age.\nTable 7-2: Aging Effects\nRace Middle Age1 Old2 Venerable3 Maximum Age\nHuman 35 years 53 years 70 years 70 + 2d20 years\nDwarf 125 years 188 years 250 years 250 + 2d% years\nElf 175 years 263 years 350 years 350 + 4d% years\nGnome 100 years 150 years 200 years 200 + 3d% years\nHalf-elf 62 years 93 years 125 years 125 + 3d20 years\nHalf-orc 30 years 45 years 60 years 60 + 2d10 years\nHalfling 50 years 75 years 100 years 100 + 5d20 years\n1 At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha\n2 At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha\n3 at venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Race",
+          "Adulthood",
+          "Barbarian, Rogue, Sorcerer",
+          "Bard, Fighter, Paladin, Ranger",
+          "Cleric, Druid, Monk, Wizard"
+        ],
+        [
+          "Human",
+          "15 years",
+          "+1d4",
+          "+1d6",
+          "+2d6"
+        ],
+        [
+          "Dwarf",
+          "40 years",
+          "+3d6",
+          "+5d6",
+          "+7d6"
+        ],
+        [
+          "Elf",
+          "110 years",
+          "+4d6",
+          "+6d6",
+          "+10d6"
+        ],
+        [
+          "Gnome",
+          "40 years",
+          "+4d6",
+          "+6d6",
+          "+9d6"
+        ],
+        [
+          "Half-elf",
+          "20 years",
+          "+1d6",
+          "+2d6",
+          "+3d6"
+        ],
+        [
+          "Half-orc",
+          "14 years",
+          "+1d4",
+          "+1d6",
+          "+2d6"
+        ],
+        [
+          "Halfling",
+          "20 years",
+          "+2d4",
+          "+3d6",
+          "+4d6"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Race",
+          "Middle Age1",
+          "Old2",
+          "Venerable3",
+          "Maximum Age"
+        ],
+        [
+          "Human",
+          "35 years",
+          "53 years",
+          "70 years",
+          "70 + 2d20 years"
+        ],
+        [
+          "Dwarf",
+          "125 years",
+          "188 years",
+          "250 years",
+          "250 + 2d% years"
+        ],
+        [
+          "Elf",
+          "175 years",
+          "263 years",
+          "350 years",
+          "350 + 4d% years"
+        ],
+        [
+          "Gnome",
+          "100 years",
+          "150 years",
+          "200 years",
+          "200 + 3d% years"
+        ],
+        [
+          "Half-elf",
+          "62 years",
+          "93 years",
+          "125 years",
+          "125 + 3d20 years"
+        ],
+        [
+          "Half-orc",
+          "30 years",
+          "45 years",
+          "60 years",
+          "60 + 2d10 years"
+        ],
+        [
+          "Halfling",
+          "50 years",
+          "75 years",
+          "100 years",
+          "100 + 5d20 years"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb848d1710a84ec7.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb848d1710a84ec7"
+  },
+  "license": "OGL 1.0a"
+}

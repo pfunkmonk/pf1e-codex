@@ -1,0 +1,30 @@
+{
+  "id": "6157b9a2c6baf4a6",
+  "name": "Oppressive Boredom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 230",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 230\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 2, bard 2, medium 2, mesmerist 2, psychic 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level or until broken (see text)\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou fill your target with boredom. The target loses all interest in its current task and must make a Will save against the spell’s effect in order to perform its next action. If the target fails, it takes no action that round. The boredom lasts until the duration expires or the target breaks the spell’s effect with a successful Will save.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6157b9a2c6baf4a6.json",
+    "web": "https://codex.pipsprojects.com/#/e/6157b9a2c6baf4a6"
+  },
+  "license": "OGL 1.0a"
+}

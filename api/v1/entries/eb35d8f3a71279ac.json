@@ -1,0 +1,24 @@
+{
+  "id": "eb35d8f3a71279ac",
+  "name": "Reviving Finale",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 239",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 3,
+      "skald": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 239\nSchool conjuration (healing); Level bard 3, skald 3\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange 20 ft.\nArea a 20-ft.-radius burst centered on you\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless)\nDescription\nYou must have a bardic performance in effect to cast this spell. With a flourish, you immediately end your bardic performance, and allies within the area of the spell regain 2d6 hit points. This spell has no effect on undead creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb35d8f3a71279ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb35d8f3a71279ac"
+  },
+  "license": "OGL 1.0a"
+}

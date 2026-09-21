@@ -1,0 +1,31 @@
+{
+  "id": "62576dc2564c631a",
+  "name": "Create Armaments",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 7",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "medium": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 7\nSchool conjuration (creation); Level arcanist 4, bard 4, medium 4, psychic 4, skald 4, sorcerer 4, spiritualist 3, witch 4, wizard 4\nCasting\nCasting Time 1 minute\nComponents V, S, M (diamonds worth price of arms to be created)\nEffect\nRange 0 ft.\nEffect one nonmagical weapon, shield, or set of armor\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou create one nonmagical weapon, shield, or set of armor. To determine whether the item functions as intended, you must attempt an appropriate Craft check with the DC required to create the item normally. If you fail, the item is created with the broken condition. You can create items made of rare or unusual materials if you include a bit of that material as an additional material component when you cast the spell, but cannot create cold iron items with this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/62576dc2564c631a.json",
+    "web": "https://codex.pipsprojects.com/#/e/62576dc2564c631a"
+  },
+  "license": "OGL 1.0a"
+}

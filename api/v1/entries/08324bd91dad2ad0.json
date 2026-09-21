@@ -1,0 +1,30 @@
+{
+  "id": "08324bd91dad2ad0",
+  "name": "Preserve Grace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 115",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 1,
+      "oracle": 2,
+      "paladin": 1,
+      "warpriest": 2
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 115\nSchool divination [good]; Level cleric 2, inquisitor 1, oracle 2, paladin 1, warpriest 2\nCasting\nCasting Time 1 minute\nComponents V, S, F (a silver hand mirror worth 50 gp)\nEffect\nRange touch\nTarget one good-aligned creature\nDuration 1 day\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThe Lantern Bearers must often make difficult decisions during their missions, such as determining what to do with captured enemies—should they be executed, imprisoned, set free, or given a chance to mend their ways? With this spell, you grant a creature the ability to foresee moral consequences, as if the creature were wearing a phylactery of faithfulness. The spell’s guidance focuses on the protection of beauty and encourages peaceful resolution and mercy.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/08324bd91dad2ad0.json",
+    "web": "https://codex.pipsprojects.com/#/e/08324bd91dad2ad0"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "6573a9f7dd806f38",
+  "name": "Scarring Spell-Like Ability",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Horror Adventures pg. 92",
+  "book": "Horror Adventures",
+  "facets": {
+    "bk": "Horror Adventures"
+  },
+  "body": "General | Combat Stamina\n\nScarring Spell-Like Ability (Monster)\nSource Horror Adventures pg. 92\nYour spell-like ability leaves mental scars.\n\nPrerequisites: Spell-like ability at caster level 4th or higher.\n\nBenefit: Choose one of your spell-like abilities, subject to the restrictions described in this feat. You can use the chosen spell-like ability as a scarring spell-like ability three times per day (or less, if the ability is normally usable only once or twice per day).\n\nWhen you use a scarring spell-like ability, a target that fails its saving throw against the spell-like ability takes a –2 penalty on saving throws against emotion and fear effects you create, and a –1 penalty on saving throws against other emotion and fear effects, for the next 24 hours. If the spelllike ability doesn’t allow a saving throw, you can’t choose to enhance it with this feat. Penalties from multiple scarring spell-like abilities don’t stack. This feat can be applied only to spell-like abilities with the emotionUM or fear descriptor.\n\nYou can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 your caster level (round down) – 1. For a summary, see Table 3–1.\n\nSpecial: This feat can be taken multiple times. Each time it is taken, you can apply it to a different spell-like ability.\n\nSpell Level Caster Level1 Caster Level2\n0 2nd 4th\n1st 4th 6th\n2nd 6th 8th\n3rd 8th 10th\n4th 10th 12th\n5th 12th 14th\n6th 14th 16th\n7th 16th 18th\n8th 18th 20th\n9th 20th -\n1 Bouncing, disruptive, intensified, lingering, or scarring ability.\n2Fearsome, sickening, or traumatic ability.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Spell Level",
+          "Caster Level1",
+          "Caster Level2"
+        ],
+        [
+          "0",
+          "2nd",
+          "4th"
+        ],
+        [
+          "1st",
+          "4th",
+          "6th"
+        ],
+        [
+          "2nd",
+          "6th",
+          "8th"
+        ],
+        [
+          "3rd",
+          "8th",
+          "10th"
+        ],
+        [
+          "4th",
+          "10th",
+          "12th"
+        ],
+        [
+          "5th",
+          "12th",
+          "14th"
+        ],
+        [
+          "6th",
+          "14th",
+          "16th"
+        ],
+        [
+          "7th",
+          "16th",
+          "18th"
+        ],
+        [
+          "8th",
+          "18th",
+          "20th"
+        ],
+        [
+          "9th",
+          "20th",
+          "-"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6573a9f7dd806f38.json",
+    "web": "https://codex.pipsprojects.com/#/e/6573a9f7dd806f38"
+  },
+  "license": "OGL 1.0a"
+}

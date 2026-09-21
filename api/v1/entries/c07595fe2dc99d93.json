@@ -1,0 +1,29 @@
+{
+  "id": "c07595fe2dc99d93",
+  "name": "Permanent Hallucination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 221",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 7,
+      "psychic": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Permanent Hallucination\nSource Ultimate Intrigue pg. 221\nSchool illusion (phantasm) [mind-affecting]; Level arcanist 7, psychic 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration permanent (D)\nSaving Throw Will disbelief; Spell Resistance yes\nDescription\nThis spell functions as audiovisual hallucination, except that the phantasm you create includes visual, auditory, olfactory, tactile, and thermal components, and the phantasm follows a complex script. The phantasm follows that script without your having to concentrate on it and can react to stimuli the target perceives, as appropriate for the script. Unlike most illusions with a save to disbelieve, if the target disbelieves a permanent hallucination, she can choose to end the effect entirely at any time.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c07595fe2dc99d93.json",
+    "web": "https://codex.pipsprojects.com/#/e/c07595fe2dc99d93"
+  },
+  "license": "OGL 1.0a"
+}

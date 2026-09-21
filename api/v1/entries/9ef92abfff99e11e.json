@@ -1,0 +1,59 @@
+{
+  "id": "9ef92abfff99e11e",
+  "name": "Step 3: Determine CR",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder RPG Bestiary pg. 297",
+  "book": "Pathfinder RPG Bestiary",
+  "facets": {
+    "bk": "Pathfinder RPG Bestiary"
+  },
+  "body": "Rules Index | GM Screen\n\nStep 3: Determine CR\nSource Pathfinder RPG Bestiary pg. 297\nDetermining the final CR for a creature with class levels requires careful consideration. While adding a class level to a monster that stacks with its existing abilities and role generally adds 1 to its CR for each level taken, adding classes that do not stack is more complicated.\n\nTable 2–4 gives general guidelines regarding which core classes add directly to a monster’s abilities based on its role. Classes that are marked “key” generally add 1 to a creature’s CR for each level added. Classes marked with a “—” increase a creature’s CR by 1 for every 2 class levels added until the number of levels added are equal to (or exceed) the creature’s original CR, at which point they are treated as “key” levels (adding 1 to the creature’s CR for each level added). Creatures that fall into multiple roles treat a class as key if either of its roles treat the class as key. Note that levels in NPC classes are never considered key.\n\nTable 2-4: Monsters with Class Levels\nMonster Role Barbarian, Fighter, Ranger Cleric, Druid, Sorcerer, Wizard Bard, Rogue Monk, Paladin\nCombat Key — — —\nSpell — Key* — —\nSkill Key — Key —\nSpecial — — — —\n* This class is only key if its spellcasting levels stack with those possessed by the creature.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Monster Role",
+          "Barbarian, Fighter, Ranger",
+          "Cleric, Druid, Sorcerer, Wizard",
+          "Bard, Rogue",
+          "Monk, Paladin"
+        ],
+        [
+          "Combat",
+          "Key",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Spell",
+          "—",
+          "Key*",
+          "—",
+          "—"
+        ],
+        [
+          "Skill",
+          "Key",
+          "—",
+          "Key",
+          "—"
+        ],
+        [
+          "Special",
+          "—",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9ef92abfff99e11e.json",
+    "web": "https://codex.pipsprojects.com/#/e/9ef92abfff99e11e"
+  },
+  "license": "OGL 1.0a"
+}

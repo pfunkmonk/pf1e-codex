@@ -1,0 +1,22 @@
+{
+  "id": "bbe78bb59b589d5d",
+  "name": "Wraith",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Pathfinder RPG Bestiary pg. 281",
+  "book": "Pathfinder RPG Bestiary",
+  "facets": {
+    "cr": 5,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "LE",
+    "bk": "Pathfinder RPG Bestiary",
+    "st": "incorporeal"
+  },
+  "body": "This ghostly creature is little more than a dark shape with two flickering pinpoints of light where its eyes should be.\nWraith CR 5\nSource Pathfinder RPG Bestiary pg. 281\nXP 1,600\nLE Medium undead (incorporeal)\nInit +7; Senses darkvision 60 ft., lifesense; Perception +10\nAura unnatural aura (30 ft.)\nDefense\nAC 18, touch 18, flat-footed 14 (+5 deflection, +3 Dex)\nhp 47 (5d8+25)\nFort +6, Ref +4, Will +6\nDefensive Abilities channel resistance +2, incorporeal; Immune undead traits\nWeaknesses sunlight powerlessness\nOffense\nSpeed fly 60 ft. (good)\nMelee incorporeal touch +6 (1d6 negative energy plus 1d6 Con drain)\nStatistics\nStr —, Dex 16, Con —, Int 14, Wis 14, Cha 21\nBase Atk +3; CMB +6; CMD 21\nFeats Blind-Fight, Combat Reflexes, Improved Initiative\nSkills Diplomacy +10, Fly +7, Intimidate +13, Knowledge (planes) +7, Perception +10, Sense Motive +10, Stealth +11\nLanguages Common, Infernal\nEcology\nEnvironment any\nOrganization solitary, pair, gang (3–6), or pack (7–12)\nTreasure none\nSpecial Abilities\nCreate Spawn (Su) A humanoid slain by a wraith becomes a wraith in 1d4 rounds. These spawn are less powerful than typical wraiths, and suffer a –2 penalty on all d20 rolls and checks, receive –2 hp per HD, and only drain 1d2 points of Constitution on a touch. Spawn are under the command of the wraith that created them until its death, at which point they lose their spawn penalties and become free-willed wraiths. They do not possess any of the abilities they had in life.\n\nConstitution Drain (Su) Creatures hit by a wraith’s touch attack must succeed on a DC 17 Fortitude save or take 1d6 points of Constitution drain. On each successful attack, the wraith gains 5 temporary hit points. The save DC is Charisma-based.\n\nLifesense (Su) A wraith notices and locates living creatures within 60 feet, just as if it possessed the blindsight ability.\n\nSunlight Powerlessness (Ex) A wraith caught in sunlight cannot attack and is staggered.\n\nUnnatural Aura (Su) Animals do not willingly approach within 30 feet of a wraith, unless a master makes a DC 25 Handle Animal, Ride, or wild empathy check.\nDescription\nWraiths are undead creatures born of evil and darkness. They hate light and living things, as they have lost much of their connection to their former lives.\nDread Wraith\nA wraith that exists for long enough and feeds on enough life force undergoes an unholy transformation, becoming a creature known as a dread wraith. This causes the wraith to increase in size and strength, and to inflict 2d6 points of negative energy damage and 1d8 Constitution drain with its incorporeal touch. You can create a dread wraith by applying the giant and advanced simple templates, or you can increase the basic wraith to a Large 16 HD undead.\nVariant\nSource Undead Revisited pg. 55\nWhite Wraith (+1 CR): Created by fiends from the distilled and corrupted souls of holy crusading knights who succumbed to temptation and died as sinners and blasphemers, white wraiths are composed of blinding white light rather than darkness. These tortured souls deal 2d6 points of cold damage and 1d8 Dexterity drain with their incorporeal touch. Furthermore, white wraiths do not suffer from powerlessness in sunlight, as do their lesser cousins, and in fact exude an aura of light that causes all creatures within 20 feet to become dazzled as long as they remain within this area of bright illumination. Creatures slain by white wraiths rise as normal wraith spawn in 1d4 rounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bbe78bb59b589d5d.json",
+    "web": "https://codex.pipsprojects.com/#/e/bbe78bb59b589d5d"
+  },
+  "license": "OGL 1.0a"
+}

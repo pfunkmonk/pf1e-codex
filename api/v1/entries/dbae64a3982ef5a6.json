@@ -1,0 +1,29 @@
+{
+  "id": "dbae64a3982ef5a6",
+  "name": "Anti-Summoning Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Demon Hunter's Handbook pg. 26",
+  "book": "Demon Hunter's Handbook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 3,
+      "skald": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Demon Hunter's Handbook"
+  },
+  "body": "Source Demon Hunter's Handbook pg. 26\nSchool abjuration; Level arcanist 2, bard 2, inquisitor 3, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 50-ft.-radius\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWithin the area of effect, this spell impedes the use of spells of the summoning subschool and other effects that summon creatures. Any such spells, spell-like abilities, or similar summoning effects used within the area have a percent chance of failure equals 5% × your caster level, to a maximum 75% chance of failure. If the summoning effect already has a percent chance of failure (as is often the case with the summon spell-like ability of outsiders), these percentages stack. This spell does not affect summoners attempting to summon their eidolon, but it does affect summoners casting other summoning spells.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dbae64a3982ef5a6.json",
+    "web": "https://codex.pipsprojects.com/#/e/dbae64a3982ef5a6"
+  },
+  "license": "OGL 1.0a"
+}

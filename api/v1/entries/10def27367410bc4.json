@@ -1,0 +1,36 @@
+{
+  "id": "10def27367410bc4",
+  "name": "False Future",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 214",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 3,
+      "cleric": 4,
+      "medium": 3,
+      "mesmerist": 3,
+      "oracle": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "skald": 3,
+      "sorcerer": 5,
+      "spiritualist": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 214\nSchool illusion (glamer); Level arcanist 5, bard 3, cleric 4, medium 3, mesmerist 3, oracle 4, psychic 4, shaman 4, skald 3, sorcerer 5, spiritualist 4, warpriest 4, witch 4, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (crushed jade worth 100 gp)\nEffect\nRange touch\nTarget creature or object touched\nDuration 1 hour/level (D)\nSaving Throw Will negates or Will disbelief (see text); Spell Resistance yes\nDescription\nYou interfere with attempts to predict the target’s future by preventing divinations from revealing what the target will do and what will befall the target while under the spell’s effects. Instead of the target’s true actions or experiences, divinations resolve as if the target will experience some different future you describe as you cast false future. The target creature can attempt a Will save to avoid the initial effect, and creatures using divinations get a Will save to disbelieve the illusion. This spell doesn’t prevent divinations cast after the duration’s end from determining what the subject actually did during the time you obscured using false future.\n\nFalse future can’t be detected by detect magic or identify, but greater detect magic can detect it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10def27367410bc4.json",
+    "web": "https://codex.pipsprojects.com/#/e/10def27367410bc4"
+  },
+  "license": "OGL 1.0a"
+}

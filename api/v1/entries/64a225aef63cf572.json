@@ -1,0 +1,32 @@
+{
+  "id": "64a225aef63cf572",
+  "name": "Outbreak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Villain Codex pg. 69",
+  "book": "Villain Codex",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "bloodrager": 3,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "sorcerer": 3,
+      "warpriest": 2,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Villain Codex"
+  },
+  "body": "Source Villain Codex pg. 69\nSchool necromancy; Level antipaladin 2, arcanist 3, bloodrager 3, cleric 2, druid 2, hunter 2, oracle 2, sorcerer 3, warpriest 2, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 20-ft. burst\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYou cause any diseased creatures in the area to become extremely contagious. Any affected creature is overcome by a fit of wracking coughs, causing it to become fatigued and exposing any creatures within 10 feet of the diseased creature to the diseases it carries. On a successful save, a creature is fatigued for 1 round and doesn’t have a chance to infect nearby creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/64a225aef63cf572.json",
+    "web": "https://codex.pipsprojects.com/#/e/64a225aef63cf572"
+  },
+  "license": "OGL 1.0a"
+}

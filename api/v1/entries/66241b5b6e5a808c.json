@@ -1,0 +1,27 @@
+{
+  "id": "66241b5b6e5a808c",
+  "name": "Urgathoa's Beacon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Haunted Heroes Handbook pg. 29",
+  "book": "Haunted Heroes Handbook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Haunted Heroes Handbook"
+  },
+  "body": "Source Haunted Heroes Handbook pg. 29\nSchool necromancy (haunted) [emotion, fear, mind-affecting]; Level antipaladin 2, cleric 2, inquisitor 2, oracle 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea one 5-ft cube/level (S)\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou shroud an area in Urgathoa’s unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature’s attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as hide from undead). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature’s spells and special abilities. The undead also ignores any concealment less than total concealment that an affected creature has. Each time the spell draws an undead creature’s attention to an affected creature, the spell’s haunt-like manifestation occurs during that round.\n\nHaunt Statistics\nNotice Perception DC 20 (to see a pale light briefly in the area)\nhp 2 hp/level; Trigger proximity; Reset none",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/66241b5b6e5a808c.json",
+    "web": "https://codex.pipsprojects.com/#/e/66241b5b6e5a808c"
+  },
+  "license": "OGL 1.0a"
+}

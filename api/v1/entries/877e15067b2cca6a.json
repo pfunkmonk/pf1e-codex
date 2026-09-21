@@ -1,0 +1,17 @@
+{
+  "id": "877e15067b2cca6a",
+  "name": "Alignment Words",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Magic pg. 168",
+  "book": "Ultimate Magic",
+  "facets": {
+    "bk": "Ultimate Magic"
+  },
+  "body": "Rules Index | GM Screen\nWords of Power / Effect Word Descriptions\n\nAlignment Words\nSource Ultimate Magic pg. 168\nWords from this family deal specifically with alignment, detecting, damaging, or protecting creatures based on their moral compass.\n\nAlignment Shield (Alignment)\n\nSchool abjuration; Level cleric 1, inquisitor 1, paladin 1, sorcerer/wizard 1\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nWhen a wordspell with this effect word is cast, the wordcaster selects one alignment: good, evil, chaotic, or lawful. The target of this wordspell is protected from that alignment and receives a +2 deflection bonus to AC on attacks made from creatures of that alignment and a +2 resistance bonus on saving throws made on spells and effects from creatures of that alignment. The target of a wordspell with this effect word can choose to end this effect as an immediate action to reroll any one saving throw made against a spell or effect from the chosen alignment, but must take the second result, even if it is worse.\n\nAlignment Assault (Alignment)\n\nSchool evocation; Level cleric 5, inquisitor 5, paladin 4\nDuration instantaneous, see text\nSaving Throw Will partial; Spell Resistance yes\nTarget Restrictions burst, cone, line\n\nIf a wordspell with this effect word is cast, the wordcaster selects one alignment: good, evil, chaotic, or lawful. All creatures of that alignment take 1d8 points of damage per two caster levels (maximum 8d8). Outsiders of that alignment take 1d6 points of damage per caster level (maximum 15d6). In addition, creatures of the affected alignment are staggered for 1 round per caster level if they fail their saving throws.\n\nAlignment Aura (Alignment)\n\nSchool abjuration; Level cleric 8\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nA wordspell with this effect word functions as alignment shield, but the bonus to AC and on saving throws increases to +4. In addition, the creature gains SR 25 against spells cast by creatures of the chosen alignment. Finally, creatures of the chosen alignment find it painful to touch the warded creature, taking 2d6 points of damage for each successful hit with a melee weapon or natural weapon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/877e15067b2cca6a.json",
+    "web": "https://codex.pipsprojects.com/#/e/877e15067b2cca6a"
+  },
+  "license": "OGL 1.0a"
+}

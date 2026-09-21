@@ -1,0 +1,38 @@
+{
+  "id": "850f5252b5e0ac42",
+  "name": "Owl's Wisdom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 318",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "investigator": 2,
+      "medium": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "psychic": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 318\nSchool transmutation; Level alchemist 2, arcanist 2, cleric 2, druid 2, hunter 2, investigator 2, medium 2, oracle 2, paladin 2, psychic 2, ranger 2, redmantisassassin 2, shaman 2, sorcerer 2, summoner 2, summoner (unchained) 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (feathers or droppings from an owl)\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based spellcasters) who receive owl's wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.\nOwl's Wisdom, Mass\nSource PRPG Core Rulebook pg. 318\nSchool transmutation; Level arcanist 6, cleric 6, druid 6, hunter 6, oracle 6, psychic 6, shaman 6, sorcerer 6, summoner 4, summoner (unchained) 6, warpriest 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (feathers or droppings from an owl)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell functions like owl's wisdom, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/850f5252b5e0ac42.json",
+    "web": "https://codex.pipsprojects.com/#/e/850f5252b5e0ac42"
+  },
+  "license": "OGL 1.0a"
+}

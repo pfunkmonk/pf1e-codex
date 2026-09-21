@@ -1,0 +1,122 @@
+{
+  "id": "d926f990c0402885",
+  "name": "Mutated Shape",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Ultimate Wilderness pg. 115",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 115\nYour wild shape form gains an additional appendage you can use to attack your foes.\n\nPrerequisites: Wis 19, base attack bonus +6, wild shape class feature.\n\nBenefit: When you use wild shape, you grow an additional appendage of your choice that can be used to make one of the following attacks: bite, claw, gore, slam, sting, or talons. The appendage can be used as part of a full attack using your highest base attack bonus, and it deals damage as described in Table 3–2: Mutated Shape Appendage Attacks. This appendage lasts for as long as you stay in the same form with this use of wild shape.\n\nAttack Fine Diminutive Tiny Small Medium Large Huge Gargantuan Collosal Damage Type Attack Type\nBite 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 B/P/S Primary\nClaw - 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 B/S Primary\nGore 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 P Primary\nSlam - 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 B Primary\nSting - 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 P Primary\nTalons - 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 S Primary",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Attack",
+          "Fine",
+          "Diminutive",
+          "Tiny",
+          "Small",
+          "Medium",
+          "Large",
+          "Huge",
+          "Gargantuan",
+          "Collosal",
+          "Damage Type",
+          "Attack Type"
+        ],
+        [
+          "Bite",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "4d6",
+          "B/P/S",
+          "Primary"
+        ],
+        [
+          "Claw",
+          "-",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "B/S",
+          "Primary"
+        ],
+        [
+          "Gore",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "4d6",
+          "P",
+          "Primary"
+        ],
+        [
+          "Slam",
+          "-",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "B",
+          "Primary"
+        ],
+        [
+          "Sting",
+          "-",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "P",
+          "Primary"
+        ],
+        [
+          "Talons",
+          "-",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "S",
+          "Primary"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d926f990c0402885.json",
+    "web": "https://codex.pipsprojects.com/#/e/d926f990c0402885"
+  },
+  "license": "OGL 1.0a"
+}

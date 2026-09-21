@@ -1,0 +1,25 @@
+{
+  "id": "6d032677abbd3573",
+  "name": "Litany of the Red Crusader",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #140: Eulogy for Roslar's Coffer pg. 72",
+  "book": "Pathfinder #140: Eulogy for Roslar's Coffer",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "inquisitor": 2,
+      "paladin": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Pathfinder #140: Eulogy for Roslar's Coffer"
+  },
+  "body": "Source Pathfinder #140: Eulogy for Roslar's Coffer pg. 72\nSchool necromancy; Level antipaladin 1, inquisitor 2, paladin 1\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nFollowers of Arazni have made use of this litany since her days as a crusader and herald. Each time the target creature takes piercing or slashing damage, it takes 1 point of bleed damage; this bleed damage stacks with itself. While subject to this spell, the target cannot be the target of another spell that has the word “litany” in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6d032677abbd3573.json",
+    "web": "https://codex.pipsprojects.com/#/e/6d032677abbd3573"
+  },
+  "license": "OGL 1.0a"
+}

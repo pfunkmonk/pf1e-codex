@@ -1,0 +1,73 @@
+{
+  "id": "fedeeeccb12315c7",
+  "name": "Gates",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Combat pg. 167",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Rules Index | GM Screen\n\nGates\nSource Ultimate Combat pg. 167\nGates serve as the entrances and exits to fortified structures, and are typically the weakest spots in any fortification’s defenses. Gates are at least Large, but can be as large as Colossal. It typically takes three full-round actions to open or close a Large gate (up to three creatures can work together to close a Large gate as a full-round action), and larger gates typically take at least a minute to close or open. Gates have ACs based on their size (a Large gate is AC 4, a Huge gate is AC 3, and a Gargantuan or larger gate is AC 0).\n\nGates can be magically treated. Doing so doubles the hardness and hit points. Magically treating a gate costs 2,000 gp for a Large gate, 4,000 gp for a Huge gate, 8,000 gp for a Gargantuan gate, and 16,000 gp for a Colossal gate. A spellcaster with the Craft Magic Arms and Armor feat can magically treat gates.\n\nGates can be attacked and damaged, or they can become broken (as the condition) with a successful Strength check, usually as a result of ramming. When a gate gains the broken condition, it is effectively breached, and can be moved through as if it were an opening one size smaller.\nTable 3-20: Gates\nHit Points\nMaterial Break DC1 Hardness Large Huge Gargantuan Colossal\nWood 35 5 60 135 240 540\nStone 38 8 100 225 400 900\nIron or steel 24 10 200 500 800 1,800\nAdamantine 40 20 280 630 1,120 2,520\n1: The DC assumes the gate is size Large and is barred and locked. Huge doors increase the break DC by 5, Gargantuan doors increase the DC by 10, and Colossal doors increase the DC by 15. Arcane lock increases the DC by 10.",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Hit Points"
+        ],
+        [
+          "Material",
+          "Break DC1",
+          "Hardness",
+          "Large",
+          "Huge",
+          "Gargantuan",
+          "Colossal"
+        ],
+        [
+          "Wood",
+          "35",
+          "5",
+          "60",
+          "135",
+          "240",
+          "540"
+        ],
+        [
+          "Stone",
+          "38",
+          "8",
+          "100",
+          "225",
+          "400",
+          "900"
+        ],
+        [
+          "Iron or steel",
+          "24",
+          "10",
+          "200",
+          "500",
+          "800",
+          "1,800"
+        ],
+        [
+          "Adamantine",
+          "40",
+          "20",
+          "280",
+          "630",
+          "1,120",
+          "2,520"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fedeeeccb12315c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/fedeeeccb12315c7"
+  },
+  "license": "OGL 1.0a"
+}

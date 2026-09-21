@@ -1,0 +1,30 @@
+{
+  "id": "2a2fc33c45626a1f",
+  "name": "Wall of Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Elemental Master's Handbook pg. 18",
+  "book": "Elemental Master's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "magus": 3,
+      "shaman": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Elemental Master's Handbook"
+  },
+  "body": "Source Elemental Master's Handbook pg. 18\nSchool conjuration (creation) [air]; Level arcanist 3, magus 3, shaman 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect wall of thin fog 10 ft. long/level or dense fog 5 ft. long/level; either form 20 ft. high\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nWith a whispered incantation, you conjure a stationary vertical wall of misty vapor. The wall is straight, is 1 foot thick, and has a length up to 10 feet per caster level. The wall obscures vision, granting concealment (20% miss chance) against creatures on the other side of the wall. A creature that shares a square with the wall counts as being on neither side of the wall and neither benefits nor suffers from the concealment.\n\nAlternatively, you can create a wall with increased density, but doing so reduces the maximum length of the wall to 5 feet per caster level.\n\nIn addition to granting concealment, this denser wall also hinders movement. Any creature moving into or attempting to pass through the wall must succeed at a DC 15 Strength check or be entangled (and unable to move) until the start of its next turn. A creature that starts its turn in the wall can freely move within it or move out of the wall in either direction.\n\nOnly a severe or stronger wind (31+ mph) disperses the wall, and it does so in 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a2fc33c45626a1f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a2fc33c45626a1f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "411ea2f4764fbaf7",
+  "name": "Litany of Thunder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 235",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "inquisitor": 5,
+      "paladin": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 235\nSchool evocation [language-dependent, sonic]; Level antipaladin 4, inquisitor 5, paladin 4\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou call down a thunderous boom upon your enemy. The target becomes deafened until the condition is removed, and is confused for 1 round.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/411ea2f4764fbaf7.json",
+    "web": "https://codex.pipsprojects.com/#/e/411ea2f4764fbaf7"
+  },
+  "license": "OGL 1.0a"
+}

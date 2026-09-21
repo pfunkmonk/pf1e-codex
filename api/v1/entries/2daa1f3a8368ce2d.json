@@ -1,0 +1,32 @@
+{
+  "id": "2daa1f3a8368ce2d",
+  "name": "Summoner Conduit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 245",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "psychic": 5,
+      "sorcerer": 5,
+      "summoner": 4,
+      "warpriest": 4,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 245\nSchool necromancy; Level arcanist 5, cleric 4, occultist 4, oracle 4, psychic 5, sorcerer 5, summoner 4, summoner (unchained) 4, warpriest 4, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (two flies)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one summoned creature or eidolon\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou exploit the invisible, mystic connection between the target creature and its summoner to harm that summoner. Whenever the target’s summoned creature is the target of a spell that deals damage, the target’s summoner is also considered to be a target of that spell. Such a summoner gains his normal defenses against the spell, such as a saving throw and spell resistance, and cannot be affected if he is on another plane of existence.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2daa1f3a8368ce2d.json",
+    "web": "https://codex.pipsprojects.com/#/e/2daa1f3a8368ce2d"
+  },
+  "license": "OGL 1.0a"
+}

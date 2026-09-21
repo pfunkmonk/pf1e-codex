@@ -1,0 +1,29 @@
+{
+  "id": "2ad7175accfd70e4",
+  "name": "Detect Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 266",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "spiritualist": 1,
+      "warpriest": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 266\nSchool divination; Level adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 60 ft.\nArea cone-shaped emanation\nDuration concentration, up to 10 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like detect evil, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ad7175accfd70e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ad7175accfd70e4"
+  },
+  "license": "OGL 1.0a"
+}

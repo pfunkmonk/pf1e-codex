@@ -1,0 +1,31 @@
+{
+  "id": "4fc09cca8e2eb1b5",
+  "name": "Incessant Buzzing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 62",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 62\nSchool illusion (figment); Level antipaladin 1, arcanist 1, bard 1, psychic 1, shaman 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (insect wing)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect 10-ft.-diameter sphere\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou summon an illusory swarm of angry wasps that fills a 10-foot-diameter sphere. You can summon it so that it shares an area with other creatures, and you can move it up to 40 feet each round as a move action. Creatures caught inside the swarm’s area of effect cannot use skills that require patience or concentration. Additionally, spellcasters within the area must succeed at a caster level check (DC = 20 + level of spell to be cast) in order to cast spells. On a failed caster level check, the spell is lost. While the buzzing is unpleasant, it is not so loud as to drown out other noises or make communication difficult.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4fc09cca8e2eb1b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/4fc09cca8e2eb1b5"
+  },
+  "license": "OGL 1.0a"
+}

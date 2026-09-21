@@ -1,0 +1,33 @@
+{
+  "id": "506370c9d845b043",
+  "name": "Project Image",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 327",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 7,
+      "bard": 6,
+      "mesmerist": 6,
+      "occultist": 6,
+      "psychic": 7,
+      "skald": 6,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 327\nSchool illusion (shadow) [shadow]; Level arcanist 7, bard 6, mesmerist 6, occultist 6, psychic 7, skald 6, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small replica of you worth 5 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect one shadow duplicate\nDuration 1 round/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nYou tap energy from the Plane of Shadow to create a quasi-real, illusory version of yourself. The projected image looks, sounds, and smells like you but is intangible. The projected image mimics your actions (including speech) unless you direct it to act differently (which is a move action).\n\nYou can see through its eyes and hear through its ears as if you were standing where it is, and during your turn you can switch from using its senses to using your own, or back again, as a free action. While you are using its senses, your body is considered blinded and deafened.\n\nIf you desire, any spell you cast whose range is touch or greater can originate from the projected image instead of from you. The projected image can't cast any spells on itself except for illusion spells. The spells affect other targets normally, despite originating from the projected image.\n\nObjects are affected by the projected image as if they had succeeded on their Will save. You must maintain line of effect to the projected image at all times. If your line of effect is obstructed, the spell ends. If you use dimension door, teleport, plane shift, or a similar spell that breaks your line of effect, even momentarily, the spell ends.\nFamiliar Double\nSource Advanced Class Guide pg. 181\nSchool illusion (shadow); Level witch 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small replica of you worth 5 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect one shadow duplicate\nDuration 1 round/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell functions as project image, except the image appears in your familiar’s square and moves when your familiar moves.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/506370c9d845b043.json",
+    "web": "https://codex.pipsprojects.com/#/e/506370c9d845b043"
+  },
+  "license": "OGL 1.0a"
+}

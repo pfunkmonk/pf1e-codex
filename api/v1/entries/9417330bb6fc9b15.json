@@ -1,0 +1,30 @@
+{
+  "id": "9417330bb6fc9b15",
+  "name": "Haunting Mists",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 222",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 222\nSchool illusion (figment) [fear, shadow]; Level arcanist 2, bard 2, mesmerist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 20 ft.\nEffect cloud spreads in 20-ft. radius, 20 ft. high\nDuration 1 minute/level (D)\nSaving Throw Will partial (see text); Spell Resistance no\nDescription\nAn illusion of misty vapor inhabited by shadowy shapes arises around you. It is stationary. The illusory mist obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). All creatures within the mist must save or take 1d2 points of Wisdom damage and gain the shaken condition. The shaken condition lasts as long as the creature remains in the mist.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9417330bb6fc9b15.json",
+    "web": "https://codex.pipsprojects.com/#/e/9417330bb6fc9b15"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "446cde980ba61eae",
+  "name": "Divine Power",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 273",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "warpriest": 4
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 273\nSchool evocation; Level cleric 4, inquisitor 4, oracle 4, shaman 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nCalling upon the divine power of your patron, you imbue yourself with strength and skill in combat. You gain a +1 luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks for every three caster levels you have (maximum +6). You also gain 1 temporary hit point per caster level. Whenever you make a full-attack action, you can make an additional attack at your full base attack bonus, plus any appropriate modifiers. This additional attack is not cumulative with similar effects, such as haste or weapons with the speed special ability.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/446cde980ba61eae.json",
+    "web": "https://codex.pipsprojects.com/#/e/446cde980ba61eae"
+  },
+  "license": "OGL 1.0a"
+}

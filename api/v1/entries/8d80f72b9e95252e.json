@@ -1,0 +1,29 @@
+{
+  "id": "8d80f72b9e95252e",
+  "name": "Bestow Planar Infusion III",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 39",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "oracle": 7,
+      "psychic": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Planar Adventures"
+  },
+  "body": "Bestow Planar Infusion III\nSource Planar Adventures pg. 39\nSchool evocation; Level arcanist 7, cleric 7, oracle 7, psychic 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nThis functions as bestow planar infusion I, except that the touched creature gains the greater infusion of the current plane.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d80f72b9e95252e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d80f72b9e95252e"
+  },
+  "license": "OGL 1.0a"
+}

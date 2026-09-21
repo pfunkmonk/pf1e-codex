@@ -1,0 +1,25 @@
+{
+  "id": "40d7f32fef869c4e",
+  "name": "Imbue with Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 225",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 225\nSchool transmutation; Level cleric 2, oracle 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou infuse another creature with your divine aura, causing the target to radiate an aura identical to your own clerical aura. The target’s actual alignment is not changed, but spells like detect evil or detect good detect only the aura, not the creature’s actual alignment. For the duration of this spell, effects influenced by the target’s alignment function according to the imposed aura, not the creature’s actual aura. When the spell ends, the target’s aura returns to normal, and alignment-affecting magic affects it according to its actual alignment.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40d7f32fef869c4e.json",
+    "web": "https://codex.pipsprojects.com/#/e/40d7f32fef869c4e"
+  },
+  "license": "OGL 1.0a"
+}

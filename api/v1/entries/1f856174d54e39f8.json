@@ -1,0 +1,185 @@
+{
+  "id": "1f856174d54e39f8",
+  "name": "Wild Magic",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 147",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\nPathfinder Unchained / Spell Alterations\n\nWild Magic\nSource Pathfinder Unchained pg. 147\nThough many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see Implementing Wild Magic below), roll on Table 4–4: Wild Magic Surge.\n\nRoll to determine the surge effect before the spell is cast, but apply the effect after the spell is cast unless it alters the spell itself in some way (such as changing the effective caster level). Any reference on the table to the spell or the spell’s level applies to the spell being cast, supernatural ability being used, or magic item effect being activated. Similarly, any reference to the caster applies to the character who triggers the surge. If an effect requires a caster level, use the caster’s full character level.\n\nIf the wild magic surge effect you roll isn’t possible due to the nature of the spell or effect, roll instead on Table 4–5: Universal Surge Effects. A wild magic surge effect doesn’t allow a saving throw, even if it’s replicating a spell that normally would, and any effect that would normally have a limit on the amount of Hit Dice it can affect ignores that limit. Higher results on the table are more likely to be beneficial, so a GM might give a bonus or penalty on the check if an action would alter how likely it is that the wild magic surge would be helpful.\n\nTable 4-4: Wild Magi Surge\nd% Surge Effect\n01-02 The caster takes 1d6 points of damage per spell level.\n03-04 The caster is affected by a slow spell for 5 rounds.\n05 The spell takes effect at a random location within the spell’s range.\n06 The caster is confused for 1 round (as confusion).\n07 The caster takes 1 point of Constitution bleed.\n08 The caster takes 1 point of ability bleed that matches her spellcasting ability score (determine randomly if the creature isn’t a spellcaster).\n09-10 The caster is dazed for 1 round (as daze monster).\n11-12 The spell deals half as much damage as normal.\n13 The caster takes 1d4 points of bleed damage.\n14 The caster falls asleep for 1 minute (as sleep).\n15-16 The caster can’t cast or concentrate on spells for 1 round.\n17 The caster is affected by reduce person for 1 minute.\n18-19 The caster becomes sickened for 5 rounds.\n20 A zone of truth appears, centered on the caster.\n21-29 The caster is affected as if targeted by the spell.\n30-32 All targets of the spell are affected by lesser restoration.\n33-38 All targets of the spell are healed of 1d8+1 points of damage. This is a positive energy effect.\n39-43 The spell’s area or the targets of the spell become affected by silence for 3 rounds.\n44-50 All targets of the spell become invisible for 1 round (as invisibility).\n51-58 The area of the spell is filled with daylight.\n59-64 A shatter spell affects a 5-foot radius around each target of the spell (or the spell’s area).\n65-71 The spell’s area is coated in grease.\n72-74 One random tree or animal targeted by the spell or in the spell’s area is affected by awaken.\n75-78 An instrument appears adjacent to each target (as summon instrument).\n79-80 Every door within 100 feet of the caster is affected by a knock spell.\n81-83 The caster teleports to a square of her choice adjacent to the spell’s target or within the spell’s area.\n84-86 The next spell targeting the caster is turned back, as spell turning.\n87-90 The caster gains 2d6 temporary hit points that last 1 hour and don’t stack with any other temporary hit points.\n91-92 A random creature from the summon monster I list is summoned in a square adjacent to the caster. It is under the caster’s control.\n93-95 The caster is affected by tongues for 10 minutes.\n96-97 The caster is affected by haste for 5 rounds.\n98 The spell is extended.\n99 The spell is maximized.\n100 The spell slot used to cast the spell is not expended.\n\nTable 4-5: Universal Surge Effects\nd% Surge Effect\n01-20 The caster takes 1d6 points of damage that can’t be prevented in any way.\n21-80 The caster is affected by faerie fire for 1 round.\n81-100 The caster gains 1d6 temporary hit points that last for 1 hour. These don’t stack with other temporary hit points.\n\nImplementing Wild Magic\nSource Pathfinder Unchained pg. 147\nThough the rules on when to use wild magic are deliberately vague to give the GM leeway, here are some suggestions, presented in order from simplest to most complex.\n\nFailed Concentration: When a caster fails a concentration check, and thereby loses a spell, some of the spell’s energy escapes in a wild magic surge.\n\nDispel and Counterspell: When a spell or magical effect is dispelled or counterspelled, it triggers a wild magic surge on the caster or subject.\n\nWild Zones: Some places are magically unstable. When a creature casts a spell, uses a spell-like ability, or activates a magic item in such an area, it causes a wild magic surge.\n\nBoost Casting: A caster can attempt to use a metamagic feat she has with a spell she’s casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell’s level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat’s benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4–4, but subtracts from the result a number equal to the amount by which she failed the check.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Surge Effect"
+        ],
+        [
+          "01-02",
+          "The caster takes 1d6 points of damage per spell level."
+        ],
+        [
+          "03-04",
+          "The caster is affected by a slow spell for 5 rounds."
+        ],
+        [
+          "05",
+          "The spell takes effect at a random location within the spell’s range."
+        ],
+        [
+          "06",
+          "The caster is confused for 1 round (as confusion)."
+        ],
+        [
+          "07",
+          "The caster takes 1 point of Constitution bleed."
+        ],
+        [
+          "08",
+          "The caster takes 1 point of ability bleed that matches her spellcasting ability score (determine randomly if the creature isn’t a spellcaster)."
+        ],
+        [
+          "09-10",
+          "The caster is dazed for 1 round (as daze monster)."
+        ],
+        [
+          "11-12",
+          "The spell deals half as much damage as normal."
+        ],
+        [
+          "13",
+          "The caster takes 1d4 points of bleed damage."
+        ],
+        [
+          "14",
+          "The caster falls asleep for 1 minute (as sleep)."
+        ],
+        [
+          "15-16",
+          "The caster can’t cast or concentrate on spells for 1 round."
+        ],
+        [
+          "17",
+          "The caster is affected by reduce person for 1 minute."
+        ],
+        [
+          "18-19",
+          "The caster becomes sickened for 5 rounds."
+        ],
+        [
+          "20",
+          "A zone of truth appears, centered on the caster."
+        ],
+        [
+          "21-29",
+          "The caster is affected as if targeted by the spell."
+        ],
+        [
+          "30-32",
+          "All targets of the spell are affected by lesser restoration."
+        ],
+        [
+          "33-38",
+          "All targets of the spell are healed of 1d8+1 points of damage. This is a positive energy effect."
+        ],
+        [
+          "39-43",
+          "The spell’s area or the targets of the spell become affected by silence for 3 rounds."
+        ],
+        [
+          "44-50",
+          "All targets of the spell become invisible for 1 round (as invisibility)."
+        ],
+        [
+          "51-58",
+          "The area of the spell is filled with daylight."
+        ],
+        [
+          "59-64",
+          "A shatter spell affects a 5-foot radius around each target of the spell (or the spell’s area)."
+        ],
+        [
+          "65-71",
+          "The spell’s area is coated in grease."
+        ],
+        [
+          "72-74",
+          "One random tree or animal targeted by the spell or in the spell’s area is affected by awaken."
+        ],
+        [
+          "75-78",
+          "An instrument appears adjacent to each target (as summon instrument)."
+        ],
+        [
+          "79-80",
+          "Every door within 100 feet of the caster is affected by a knock spell."
+        ],
+        [
+          "81-83",
+          "The caster teleports to a square of her choice adjacent to the spell’s target or within the spell’s area."
+        ],
+        [
+          "84-86",
+          "The next spell targeting the caster is turned back, as spell turning."
+        ],
+        [
+          "87-90",
+          "The caster gains 2d6 temporary hit points that last 1 hour and don’t stack with any other temporary hit points."
+        ],
+        [
+          "91-92",
+          "A random creature from the summon monster I list is summoned in a square adjacent to the caster. It is under the caster’s control."
+        ],
+        [
+          "93-95",
+          "The caster is affected by tongues for 10 minutes."
+        ],
+        [
+          "96-97",
+          "The caster is affected by haste for 5 rounds."
+        ],
+        [
+          "98",
+          "The spell is extended."
+        ],
+        [
+          "99",
+          "The spell is maximized."
+        ],
+        [
+          "100",
+          "The spell slot used to cast the spell is not expended."
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Surge Effect"
+        ],
+        [
+          "01-20",
+          "The caster takes 1d6 points of damage that can’t be prevented in any way."
+        ],
+        [
+          "21-80",
+          "The caster is affected by faerie fire for 1 round."
+        ],
+        [
+          "81-100",
+          "The caster gains 1d6 temporary hit points that last for 1 hour. These don’t stack with other temporary hit points."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f856174d54e39f8.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f856174d54e39f8"
+  },
+  "license": "OGL 1.0a"
+}

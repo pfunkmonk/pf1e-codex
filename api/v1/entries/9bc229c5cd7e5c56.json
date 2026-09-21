@@ -1,0 +1,75 @@
+{
+  "id": "9bc229c5cd7e5c56",
+  "name": "Witch Pact Witch",
+  "bucket": "archetypes",
+  "category": "Archetype",
+  "source": "Planar Adventures pg. 16",
+  "book": "Planar Adventures",
+  "facets": {
+    "cls": "Witch",
+    "bk": "Planar Adventures"
+  },
+  "body": "Pact Witch\nSource Planar Adventures pg. 16\nThough all witches forge bonds with mysterious powers known as patrons, a pact witch takes this bond to an extreme by forging an inexorable pact with the Outer Planes.\n\nAlignment: A pact witch’s alignment must match that of his chosen plane. A pact witch whose alignment no longer matches his bonded plane becomes an ex–pact witch and loses all the benefits of this archetype until he atones for his transgressions. In time, likely after benefitting from an atonement spell, an ex–pact witch can forge a bond with another plane that matches his new alignment.\nTable 1-1: Planar Pacts\nPlane Alignment Familiar\nAbbadon NE Cacodaemon or doru\nAbyss CE Cythnigot or quasit\nAxis LN Arbiter\nBoneyard N Nosoi\nElysium CG CG cassisian or lyrakien\nHeaven LG LG cassisian or harbinger archon\nHell LE Imp or tripurasura\nMaelstrom CN Voidworm\nNirvana NG NG cassisian or silvanshee\n\nPlanar Pact (Su): A pact witch chooses one Outer Plane with which to forge a pact. This plane determines the alignment a pact witch must maintain and the type of improved familiar he gains at 6th level. Many pact witches worship specific deities or demigods native to the planes with which they forged their pacts. When a pact witch chooses his plane, his body transforms in minor, cosmetic ways associated with that plane. A pact with Hell might give a pact witch small devil horns, while a pact with the Heaven might cause a pact witch to have a softly glowing golden halo, and a pact with Axis might give a pact witch’s skin strange rune patterns. The nature of this cosmetic change varies from witch to witch, but has no mechanical effect. Instead of learning new spells from a patron, a pact witch learns new spells from his planar pact, starting at 2nd level and again every 2 levels thereafter.\n\n2nd Level: Protection from chaos/evil/good/law (choose one appropriate to your plane)\n\n4th Level: Time shudder.\n\n6th Level: Infuse self.\n\n8th Level: Lesser planar ally.\n\n10th Level: Plane shift (as a 5th level spell).\n\n12th Level: Planar ally.\n\n14th Level: Banishment.\n\n16th Level: Greater planar ally.\n\n18th Level: Gate.\n\nThis replaces patron.\n\nPlanar Familiar: When a pact witch reaches 6th level, his familiar turns into an outsider native to his chosen plane. The familiar retains its spells known; its memories; and its Intelligence, Wisdom, and Charisma scores, but is treated as a member of its new race in all other respects. The type of creature the familiar becomes is indicated above on Table 1–1: Planar Pacts; if more than one type of familiar is listed, a pact witch can choose which type his familiar becomes.\n\nThis alters the witch’s familiar and replaces the hex normally gained at 6th level.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Plane",
+          "Alignment",
+          "Familiar"
+        ],
+        [
+          "Abbadon",
+          "NE",
+          "Cacodaemon or doru"
+        ],
+        [
+          "Abyss",
+          "CE",
+          "Cythnigot or quasit"
+        ],
+        [
+          "Axis",
+          "LN",
+          "Arbiter"
+        ],
+        [
+          "Boneyard",
+          "N",
+          "Nosoi"
+        ],
+        [
+          "Elysium",
+          "CG",
+          "CG cassisian or lyrakien"
+        ],
+        [
+          "Heaven",
+          "LG",
+          "LG cassisian or harbinger archon"
+        ],
+        [
+          "Hell",
+          "LE",
+          "Imp or tripurasura"
+        ],
+        [
+          "Maelstrom",
+          "CN",
+          "Voidworm"
+        ],
+        [
+          "Nirvana",
+          "NG",
+          "NG cassisian or silvanshee"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9bc229c5cd7e5c56.json",
+    "web": "https://codex.pipsprojects.com/#/e/9bc229c5cd7e5c56"
+  },
+  "license": "OGL 1.0a"
+}

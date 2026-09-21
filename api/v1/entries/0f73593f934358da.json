@@ -1,0 +1,24 @@
+{
+  "id": "0f73593f934358da",
+  "name": "Timely Inspiration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 249",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 1,
+      "skald": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 249\nSchool divination; Level bard 1, skald 1\nCasting\nCasting Time 1 immediate action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nA word of arcane-empowered inspiration can snatch victory from seeming defeat. Cast this spell when a creature fails an attack roll or skill check. The target gains a +1 competence bonus per five caster levels (maximum +3 bonus) on the attack roll or skill check retroactively. If the bonus is enough to make the failure a success, the roll succeeds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f73593f934358da.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f73593f934358da"
+  },
+  "license": "OGL 1.0a"
+}

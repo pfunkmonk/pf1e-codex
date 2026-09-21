@@ -1,0 +1,26 @@
+{
+  "id": "4268e6812da4b97e",
+  "name": "Vigor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orcs of Golarion pg. 28",
+  "book": "Orcs of Golarion",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 0,
+      "cleric": 0,
+      "oracle": 0,
+      "warpriest": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orcs of Golarion"
+  },
+  "body": "Source Orcs of Golarion pg. 28\nSchool transmutation; Level adept 0, cleric 0, oracle 0, warpriest 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell infuses the subject with a small surge of strength. The creature gets a +1 competence bonus on a single melee damage roll. It must choose to use the bonus before making the roll to which it applies. Ranged or spell attacks are unaffected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4268e6812da4b97e.json",
+    "web": "https://codex.pipsprojects.com/#/e/4268e6812da4b97e"
+  },
+  "license": "OGL 1.0a"
+}

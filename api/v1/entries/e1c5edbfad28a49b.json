@@ -1,0 +1,26 @@
+{
+  "id": "e1c5edbfad28a49b",
+  "name": "Strand of the Tangled Knot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of the First World pg. 17",
+  "book": "Legacy of the First World",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "bk": "Legacy of the First World"
+  },
+  "body": "Source Legacy of the First World pg. 17\nSchool abjuration; Level cleric 1, inquisitor 1, oracle 1, shaman 1, warpriest 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a small knot of twin)\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D)\nDescription\nYou mimic tugging at the Green Mother’s legendary Tangled Knot to subtly alter your fate. The next single attack made against you takes a –10 penalty. If that attack is a critical hit, it is instead treated as a normal hit.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1c5edbfad28a49b.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1c5edbfad28a49b"
+  },
+  "license": "OGL 1.0a"
+}

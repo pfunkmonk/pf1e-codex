@@ -1,0 +1,192 @@
+{
+  "id": "4da6dfd44ea1e9e4",
+  "name": "Warrior",
+  "bucket": "classes",
+  "category": "Base Classes",
+  "source": "PRPG Core Rulebook pg. 450",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 450\n This is an NPC class and was not given a description.\nHit Die: d10.\nClass Skills\nThe Warrior's class skills are Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Profession (Wis), Ride (Dex), and Swim (Str).\n\nSkill Points at each Level: 2 + Int modifier.\nClass Features\nLevel Base Attack Bonus Fort Save Ref Save Will Save Special\n1st +1 +2 +0 +0 —\n2nd +2 +3 +0 +0 —\n3rd +3 +3 +1 +1 —\n4th +4 +4 +1 +1 —\n5th +5 +4 +1 +1 —\n6th +6/+1 +5 +2 +2 —\n7th +7/+2 +5 +2 +2 —\n8th +8/+3 +6 +2 +2 —\n9th +9/+4 +6 +3 +3 —\n10th +10/+5 +7 +3 +3 —\n11th +11/+6/+1 +7 +3 +3 —\n12th +12/+7/+2 +8 +4 +4 —\n13th +13/+8/+3 +8 +4 +4 —\n14th +14/+9/+4 +9 +4 +4 —\n15th +15/+10/+5 +9 +5 +5 —\n16th +16/+11/+6/+1 +10 +5 +5 —\n17th +17/+12/+7/+2 +10 +5 +5 —\n18th +18/+13/+8/+3 +11 +6 +6 —\n19th +19/+14/+9/+4 +11 +6 +6 —\n20th +20/+15/+10/+5 +12 +6 +6 —\n\nWeapon and Armor Proficiency: The warrior is proficient in the use of all simple and martial weapons and with all types of armor and shields.\nFavored Class Options\nKitsune (Blood of the Beast pg. 12): Gain 1/6 of a new Magical TailARG feat. Any kitsune character can choose this bonus upon gaining a level in her favored class.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Level",
+          "Base Attack Bonus",
+          "Fort Save",
+          "Ref Save",
+          "Will Save",
+          "Special"
+        ],
+        [
+          "1st",
+          "+1",
+          "+2",
+          "+0",
+          "+0",
+          "—"
+        ],
+        [
+          "2nd",
+          "+2",
+          "+3",
+          "+0",
+          "+0",
+          "—"
+        ],
+        [
+          "3rd",
+          "+3",
+          "+3",
+          "+1",
+          "+1",
+          "—"
+        ],
+        [
+          "4th",
+          "+4",
+          "+4",
+          "+1",
+          "+1",
+          "—"
+        ],
+        [
+          "5th",
+          "+5",
+          "+4",
+          "+1",
+          "+1",
+          "—"
+        ],
+        [
+          "6th",
+          "+6/+1",
+          "+5",
+          "+2",
+          "+2",
+          "—"
+        ],
+        [
+          "7th",
+          "+7/+2",
+          "+5",
+          "+2",
+          "+2",
+          "—"
+        ],
+        [
+          "8th",
+          "+8/+3",
+          "+6",
+          "+2",
+          "+2",
+          "—"
+        ],
+        [
+          "9th",
+          "+9/+4",
+          "+6",
+          "+3",
+          "+3",
+          "—"
+        ],
+        [
+          "10th",
+          "+10/+5",
+          "+7",
+          "+3",
+          "+3",
+          "—"
+        ],
+        [
+          "11th",
+          "+11/+6/+1",
+          "+7",
+          "+3",
+          "+3",
+          "—"
+        ],
+        [
+          "12th",
+          "+12/+7/+2",
+          "+8",
+          "+4",
+          "+4",
+          "—"
+        ],
+        [
+          "13th",
+          "+13/+8/+3",
+          "+8",
+          "+4",
+          "+4",
+          "—"
+        ],
+        [
+          "14th",
+          "+14/+9/+4",
+          "+9",
+          "+4",
+          "+4",
+          "—"
+        ],
+        [
+          "15th",
+          "+15/+10/+5",
+          "+9",
+          "+5",
+          "+5",
+          "—"
+        ],
+        [
+          "16th",
+          "+16/+11/+6/+1",
+          "+10",
+          "+5",
+          "+5",
+          "—"
+        ],
+        [
+          "17th",
+          "+17/+12/+7/+2",
+          "+10",
+          "+5",
+          "+5",
+          "—"
+        ],
+        [
+          "18th",
+          "+18/+13/+8/+3",
+          "+11",
+          "+6",
+          "+6",
+          "—"
+        ],
+        [
+          "19th",
+          "+19/+14/+9/+4",
+          "+11",
+          "+6",
+          "+6",
+          "—"
+        ],
+        [
+          "20th",
+          "+20/+15/+10/+5",
+          "+12",
+          "+6",
+          "+6",
+          "—"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4da6dfd44ea1e9e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4da6dfd44ea1e9e4"
+  },
+  "license": "OGL 1.0a"
+}

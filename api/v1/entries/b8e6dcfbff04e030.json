@@ -1,0 +1,33 @@
+{
+  "id": "b8e6dcfbff04e030",
+  "name": "Locate Gate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 121",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "cleric": 5,
+      "occultist": 5,
+      "oracle": 5,
+      "psychic": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "summoner": 5,
+      "warpriest": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 121\nSchool divination; Level arcanist 5, bard 5, cleric 5, occultist 5, oracle 5, psychic 5, skald 5, sorcerer 5, summoner 5, summoner (unchained) 5, warpriest 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, F/DF (a small lodestone sphere)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea circle centered on you with a radius of 400 ft. + 40 ft./level\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nYou sense the direction of the nearest teleportation circle (permanent or with a remaining duration), gate spell, or other effect which magically connects two different locations (for example, an active magic item, a creature’s special ability, or unique adventure location). Locate gate detects only spells or effects with a permanent or ongoing duration, not instantaneous effects like dimension door or teleport.\n\nLocate gate can be blocked by spells like nondetection, if the effect originates from a specific object or creature. However, spell effects can’t likewise be warded. For example, ring gates are a specific object, but a permanent teleportation circle is not (the surface in which it’s inscribed doesn’t count). Locate gate isn’t blocked by lead, water, or other physical environmental conditions, but it is blocked by any intervening area that is dimensionally warded (such as by dimensional lock or forbiddance).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8e6dcfbff04e030.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8e6dcfbff04e030"
+  },
+  "license": "OGL 1.0a"
+}

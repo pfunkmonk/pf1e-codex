@@ -1,0 +1,31 @@
+{
+  "id": "c057eb0a94e19d06",
+  "name": "Fire Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 282",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 4,
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 282\nSchool abjuration [fire]; Level arcanist 4, druid 2, hunter 2, occultist 4, sorcerer 4, wizard 4\nCasting\nCasting Time 10 minutes\nComponents V, S, M (gold dust worth 25 gp)\nEffect\nRange touch\nTarget object touched\nDuration permanent until discharged (D)\nSaving Throw Reflex half; see text; Spell Resistance yes\nDescription\nFire trap creates a fiery explosion when an intruder opens the item that the trap protects. A fire trap spell can ward any object that can be opened and closed.\n\nWhen casting fire trap, you select a point on the object as the spell's center. When someone other than you opens the object, a fiery explosion fills the area within a 5-foot radius around the spell's center. The flames deal 1d4 points of fire damage + 1 point per caster level (maximum +20). The item protected by the trap is not harmed by this explosion.\n\nA fire-trapped item cannot have a second closure or warding spell placed on it. A knock spell does not bypass a fire trap. An unsuccessful dispel magic spell does not detonate the spell. Underwater, this ward deals half damage and creates a large cloud of steam.\n\nYou can use the fire-trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast. Attuning a fire-trapped object to an individual usually involves setting a password that you can share with friends.\n\nMagic traps such as fire trap are hard to detect and disable. A character with trapfinding can use the Perception skill to find a fire trap and Disable Device to thwart it. The DC in each case is 25 + spell level (DC 27 for a druid's fire trap or DC 29 for the arcane version).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c057eb0a94e19d06.json",
+    "web": "https://codex.pipsprojects.com/#/e/c057eb0a94e19d06"
+  },
+  "license": "OGL 1.0a"
+}

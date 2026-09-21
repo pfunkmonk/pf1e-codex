@@ -1,0 +1,27 @@
+{
+  "id": "e857ebbf8b3a3563",
+  "name": "Miasmal Dread",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 221",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "inquisitor": 3,
+      "skald": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 221\nSchool enchantment (compulsion) [fear, mind-affecting]; Level antipaladin 2, bard 2, bloodrager 2, inquisitor 3, skald 2 (Half-Orc)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 feet\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nA cloud of sickly green mist pours from your mouth and coalesces around creatures in the cone. Attempt a single Intimidate check to demoralize as part of casting the spell, comparing the result against the DC to Intimidate each foe within the area. You demoralize all foes whose DC you meet or exceed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e857ebbf8b3a3563.json",
+    "web": "https://codex.pipsprojects.com/#/e/e857ebbf8b3a3563"
+  },
+  "license": "OGL 1.0a"
+}

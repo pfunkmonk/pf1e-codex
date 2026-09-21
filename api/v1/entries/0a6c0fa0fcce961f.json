@@ -1,0 +1,29 @@
+{
+  "id": "0a6c0fa0fcce961f",
+  "name": "Fleeting Defect",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 31",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "magus": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 31\nSchool transmutation; Level arcanist 2, bard 2, bloodrager 2, magus 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one solid object that does not have the broken condition, or one construct\nDuration 1 minute/level (D)\nSaving Throw Fortitude negates (harmless, object), see text; Spell Resistance no\nDescription\nYou cause a single object to temporarily gain the broken condition. The target must be a single solid object, regardless of its composition, weighing up to 10 pounds per caster level. Attended objects are allowed a Fortitude save. When this spell ends, the object reverts to its original quality. An item destroyed while under the effects of this spell remains destroyed when this spell ends.\n\nThis spell can be cast on a single construct to disrupt its animating force. A construct that fails its saving throw takes a –2 circumstance penalty on attack rolls, saving throws, skill checks, and ability checks for the duration of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a6c0fa0fcce961f.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a6c0fa0fcce961f"
+  },
+  "license": "OGL 1.0a"
+}

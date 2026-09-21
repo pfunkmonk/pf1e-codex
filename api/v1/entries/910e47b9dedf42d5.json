@@ -1,0 +1,40 @@
+{
+  "id": "910e47b9dedf42d5",
+  "name": "Eagle's Splendor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 275",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "investigator": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 275\nSchool transmutation; Level alchemist 2, antipaladin 2, arcanist 2, bard 2, bloodrager 2, cleric 2, investigator 2, medium 2, mesmerist 2, oracle 2, paladin 2, psychic 2, redmantisassassin 2, shaman 2, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (feathers or droppings from an eagle)\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/910e47b9dedf42d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/910e47b9dedf42d5"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "adda6652b83126b6",
+  "name": "Hex Vulnerability",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 184",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "shaman": 1,
+      "witch": 1
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 184\nSchool necromancy [curse]; Level shaman 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of your blood)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe targeted creature becomes susceptible to a repeat use of your harmful hexes, even if you could not otherwise target that creature with a particular hex for a certain time period. For example, normally after you target a creature with a charm hex, you cannot target it again for 1 day. But after casting this spell on a creature, you could try the charm hex repeatedly as long as the spell persists. The end of this spell has no effect on any active or ongoing hex on a creature. For example, if the creature failed its save against a second use of your charm hex, it remains charmed for the normal duration, even if the spell expires before the hex does.\n\nEach subsequent casting of this spell on a target within a 24-hour period gives the target a +4 bonus on its save against the spell and imposes a –4 penalty on your caster level check to overcome the target's spell resistance with this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adda6652b83126b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/adda6652b83126b6"
+  },
+  "license": "OGL 1.0a"
+}

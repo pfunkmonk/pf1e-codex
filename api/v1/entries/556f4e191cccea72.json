@@ -1,0 +1,26 @@
+{
+  "id": "556f4e191cccea72",
+  "name": "Freedom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 287",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 287\nSchool abjuration; Level arcanist 9, psychic 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels) or see text\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe subject is freed from spells and effects that restrict movement, including binding, entangle, grappling, imprisonment, maze, paralysis, petrification, pinning, sleep, slow, stunning, temporal stasis, and web. To free a creature from imprisonment or maze, you must know its name and background, and you must cast this spell at the spot where it was entombed or banished into the maze.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/556f4e191cccea72.json",
+    "web": "https://codex.pipsprojects.com/#/e/556f4e191cccea72"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e7030c9ba4d1299d",
+  "name": "Etherealness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 279",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "psychic": 8,
+      "shaman": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 279\nSchool transmutation; Level arcanist 9, cleric 9, oracle 9, psychic 8, shaman 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch; see text\nTargets you and one other touched creature per three levels\nDuration 1 min./level (D)\nSpell Resistance yes\nDescription\nThis spell functions like ethereal jaunt, except that you and other willing creatures joined by linked hands (along with their equipment) become ethereal. Besides yourself, you can bring one creature per three caster levels to the Ethereal Plane. Once ethereal, the subjects need not stay together.\n\nWhen the spell expires, all affected creatures on the Ethereal Plane return to material existence.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7030c9ba4d1299d.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7030c9ba4d1299d"
+  },
+  "license": "OGL 1.0a"
+}

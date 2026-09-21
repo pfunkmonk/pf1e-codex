@@ -1,0 +1,32 @@
+{
+  "id": "09588b8a41ae3e89",
+  "name": "Crushing Despair",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 262",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "bloodrager": 4,
+      "mesmerist": 3,
+      "psychic": 4,
+      "skald": 3,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 262\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 4, bard 3, bloodrager 4, mesmerist 3, psychic 4, skald 3, sorcerer 4, spiritualist 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nAn invisible cone of despair causes great sadness in the subjects. Each affected creature takes a –2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.\n\nCrushing despair counters and dispels good hope.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09588b8a41ae3e89.json",
+    "web": "https://codex.pipsprojects.com/#/e/09588b8a41ae3e89"
+  },
+  "license": "OGL 1.0a"
+}

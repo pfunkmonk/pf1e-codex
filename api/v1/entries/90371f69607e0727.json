@@ -1,0 +1,32 @@
+{
+  "id": "90371f69607e0727",
+  "name": "Beacon of Guilt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Villain Codex pg. 44",
+  "book": "Villain Codex",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "occultist": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Villain Codex"
+  },
+  "body": "Source Villain Codex pg. 44\nSchool evocation [curse]; Level arcanist 2, bard 2, inquisitor 2, occultist 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one object\nDuration 24 hours or until discharged, then instantaneous\nSaving Throw Will negates (object); see text; Spell Resistance yes\nDescription\nYou place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as faerie fire (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a break enchantment, limited wish, miracle, remove curse, or wish spell can remove it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/90371f69607e0727.json",
+    "web": "https://codex.pipsprojects.com/#/e/90371f69607e0727"
+  },
+  "license": "OGL 1.0a"
+}

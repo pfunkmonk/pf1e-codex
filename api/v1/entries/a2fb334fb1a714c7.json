@@ -1,0 +1,31 @@
+{
+  "id": "a2fb334fb1a714c7",
+  "name": "Ki Leech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 225",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 3,
+      "cleric": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 225\nSchool necromancy [evil]; Level arcanist 3, cleric 3, oracle 3, psychic 3, sorcerer 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nDescription\nYou place your spirit in a receptive state so when you confirm a critical hit against a living enemy or reduce a living enemy to 0 or fewer hit points, you can steal some of that creature’s ki. This replenishes 1 point of ki as long as you have at least 1 ki point in your ki pool. This does not allow you to exceed your ki pool’s maximum. This ability does not stack with similar abilities (such as the steal ki ability of the hungry ghost monk).\n\nThis spell has no effect if you do not have a ki pool.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a2fb334fb1a714c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/a2fb334fb1a714c7"
+  },
+  "license": "OGL 1.0a"
+}

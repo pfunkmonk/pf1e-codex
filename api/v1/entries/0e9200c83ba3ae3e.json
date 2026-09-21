@@ -1,0 +1,30 @@
+{
+  "id": "0e9200c83ba3ae3e",
+  "name": "Create Variant Mummy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #81: Shifting Sands pg. 73",
+  "book": "Pathfinder #81: Shifting Sands",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "oracle": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder #81: Shifting Sands"
+  },
+  "body": "Source Pathfinder #81: Shifting Sands pg. 73\nSchool necromancy [evil]; Level arcanist 7, cleric 7, oracle 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 hour\nComponents V, S, M (onyx gems worth 50 gp per HD of the undead to be created)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 corpse steeped in a peat bog for at least 24 hours\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as create undead (Pathfinder RPG Core Rulebook 262), except it creates one of the following variant mummies: bog mummy, ice mummy, or Osirian tomb guardian.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e9200c83ba3ae3e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e9200c83ba3ae3e"
+  },
+  "license": "OGL 1.0a"
+}

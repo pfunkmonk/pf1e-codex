@@ -1,0 +1,72 @@
+{
+  "id": "eb70a42e0cb5748c",
+  "name": "Breaking Items",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 175",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nExploration / Breaking and Entering\n\nBreaking Items\nSource PRPG Core Rulebook pg. 175\nWhen a character tries to break or burst something with sudden force rather than by dealing damage, use a Strength check (rather than an attack roll and damage roll, as with the sunder special attack) to determine whether he succeeds. Since hardness doesn't affect an object's break DC, this value depends more on the construction of the item than on the material the item is made of. Consult Table 7–15 for a list of common break DCs.\n\nIf an item has lost half or more of its hit points, the item gains the broken condition (see Appendix 2) and the DC to break it drops by 2.\n\nLarger and smaller creatures get size bonuses and size penalties on Strength checks to break open doors as follows: Fine –16, Diminutive –12, Tiny –8, Small –4, Large +4, Huge +8, Gargantuan +12, Colossal +16.\n\nA crowbar or portable ram improves a character's chance of breaking open a door (see Chapter 6).\n7-15: DCs to Break or Burst Items\nStrength Check to: DC\nBreak down simple door 13\nBreak down good door 18\nBreak down strong door 23\nBurst rope bonds 23\nBend iron bars 24\nBreak down barred door 25\nBurst chain bonds 26\nBreak down iron door 28\n\nCondition DC Adjustment*\nHold portal +5\nArcane lock +10\n*If both apply, use the larger number.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Strength Check to:",
+          "DC"
+        ],
+        [
+          "Break down simple door",
+          "13"
+        ],
+        [
+          "Break down good door",
+          "18"
+        ],
+        [
+          "Break down strong door",
+          "23"
+        ],
+        [
+          "Burst rope bonds",
+          "23"
+        ],
+        [
+          "Bend iron bars",
+          "24"
+        ],
+        [
+          "Break down barred door",
+          "25"
+        ],
+        [
+          "Burst chain bonds",
+          "26"
+        ],
+        [
+          "Break down iron door",
+          "28"
+        ],
+        [
+          "Condition",
+          "DC Adjustment*"
+        ],
+        [
+          "Hold portal",
+          "+5"
+        ],
+        [
+          "Arcane lock",
+          "+10"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb70a42e0cb5748c.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb70a42e0cb5748c"
+  },
+  "license": "OGL 1.0a"
+}

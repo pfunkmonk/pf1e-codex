@@ -1,0 +1,31 @@
+{
+  "id": "1f32543c4b06e832",
+  "name": "Ash Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 207",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 207\nSchool conjuration (creation) [fire]; Level arcanist 3, druid 3, hunter 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a pinch of ash)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea cylinder (40-ft. radius, 20 ft. high)\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nDriving ash blocks all sight (even darkvision) within the spell’s area of effect, and falling cinders cause the ground in the area to become difficult terrain.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f32543c4b06e832.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f32543c4b06e832"
+  },
+  "license": "OGL 1.0a"
+}

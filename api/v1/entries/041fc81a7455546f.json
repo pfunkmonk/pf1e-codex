@@ -1,0 +1,21 @@
+{
+  "id": "041fc81a7455546f",
+  "name": "Emerald Automaton",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Emerald Spire Superdungeon pg. 154",
+  "book": "The Emerald Spire Superdungeon",
+  "facets": {
+    "cr": 4,
+    "sz": "Medium",
+    "t": "construct",
+    "al": "N",
+    "bk": "The Emerald Spire Superdungeon"
+  },
+  "body": "An eerie green glow shines through the seams of this mechanical creature’s armor.\nEmerald Automaton CR 4\nSource The Emerald Spire Superdungeon pg. 154\nXP 1,200\nN Medium construct\nInit +1; Senses darkvision 60 ft., low-light vision; Perception +0\nAura electricity (5 ft., DC 12)\nDefense\nAC 17, touch 11, flat-footed 16 (+1 Dex, +6 natural)\nhp 47 (5d10+20)\nFort +1, Ref +2, Will +1\nDR 5/adamantine; Immune construct traits\nWeaknesses magic dependent\nOffense\nSpeed 30 ft.\nMelee guisarme +10 (2d4+7/×3) or longsword +10 (1d8+5/19–20), slam +5 (1d4+2)\nSpace 5 ft., Reach 5 ft. (10 ft. with guisarme)\nStatistics\nStr 20, Dex 13, Con —, Int —, Wis 11, Cha 1\nBase Atk +5; CMB +10 (+12 sunder); CMD 21 (23 vs. sunder)\nFeats Improved SunderB, Power AttackB\nSQ proficient\nEcology\nEnvironment any\nOrganization solitary, pair, or squad (3–8)\nTreasure incidental (guisarme, other treasure)\nSpecial Abilities\nElectricity Aura (Su) An emerald automaton reduced to half its hit points or fewer emits hazardous energy from its damaged magical battery. Any non-construct creature that ends its turn within 5 feet of a damaged emerald automaton takes 1d10 points of electricity damage (Reflex DC 12 negates). The save DC is Constitution-based.\n\nMagic Dependent (Su) An emerald automaton is partially powered by magic. When deprived of magic, the automaton is affected as if it were exhausted. The automaton’s magic can be cut off by antimagic, or suppressed by a dispel magic or mage’s disjunction effect as if it were a magic item.\n\nProficient (Ex) An emerald automaton is proficient with all simple and martial weapons.\nDescription\nLike other constructs, an emerald automaton is a mindless, unliving machine that exists only to follow the orders of its creator. It is a capable soldier and can wield almost any weapon its creator chooses to provide it, fighting until it or its target is destroyed.\n\nIn combat, emerald automatons often wield polearms and make use of their reach. When multiple automatons are fighting together, it’s common for one to sunder a target’s shield or weapon and the rest to gang up against the target. Getting inside the reach of an emerald automaton is no guarantee of safety—the constructs are quite strong, and can strike with a powerful slam attack at need. When badly damaged, an emerald automaton begins to emit crackling green sparks of electricity that can severely shock nearby creatures.\nConstruction\nAn emerald automaton begins as an articulated iron frame connected with thick copper wiring, and is then covered by armored plates. These materials cost at least 500 gp. The creator must then use a fist-sized shard of crystal from the Emerald Spire as the automaton’s main battery, placing it in the construct’s hollow chest.\nEmerald Automaton\nCL 6th; Price 12,000 gp\nConstruction\nRequirements Craft Construct, lesser geas, shocking grasp, creator must be caster level 6th; Skill Craft (armor) DC 20; Cost 6,500 gp",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/041fc81a7455546f.json",
+    "web": "https://codex.pipsprojects.com/#/e/041fc81a7455546f"
+  },
+  "license": "OGL 1.0a"
+}

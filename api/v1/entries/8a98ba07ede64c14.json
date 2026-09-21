@@ -1,0 +1,31 @@
+{
+  "id": "8a98ba07ede64c14",
+  "name": "Marionette Possession",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 228",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "investigator": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 228\nSchool necromancy; Level alchemist 3, arcanist 3, investigator 3, mesmerist 3, psychic 3, sorcerer 3, summoner 3, summoner (unchained) 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a piece of paper with the target’s name)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one willing creature\nDuration 10 minutes/level or until you return to your body\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou project your soul out of your body and into the body of a willing creature. This possession is blocked by protection from evil or a similar ward. The target’s soul shares its body with you; it is helpless but can still use its senses. You and the target’s soul can communicate telepathically as if using a common language.\n\nYou keep your Intelligence, Wisdom, Charisma, level, class, base attack bonus, base save bonuses, alignment, and mental abilities. The body retains its Strength, Dexterity, Constitution, hit points, natural abilities, and natural attacks (such as a bite or sting). A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal. You can’t choose to activate the body’s extraordinary, spell-like, or supernatural abilities.\n\nAs a standard action, you can return to your own body, ending the spell. While your soul is possessing the target, your body is helpless. If the host body is slain, you return to your own body if it is within range, and the life force of the host departs (it is slain). If the host body is slain beyond the range of the spell, both you and the host die. Any life force with nowhere to go is treated as slain.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a98ba07ede64c14.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a98ba07ede64c14"
+  },
+  "license": "OGL 1.0a"
+}

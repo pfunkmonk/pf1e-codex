@@ -1,0 +1,34 @@
+{
+  "id": "1bddccb935542979",
+  "name": "Dream Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Origins pg. 28",
+  "book": "Occult Origins",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 4,
+      "bard": 2,
+      "investigator": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 3,
+      "shaman": 2,
+      "skald": 2,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Occult Origins"
+  },
+  "body": "Source Occult Origins pg. 28\nSchool abjuration; Level alchemist 2, arcanist 4, bard 2, investigator 2, medium 2, mesmerist 2, psychic 3, shaman 2, skald 2, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (hollow glass ball or dreamcatcher)\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYou ward the target’s mind against intrusion and influence while she is unconscious. While sleeping, the target is protected against divinations such as nondetection and gains spell resistance equal to 10 + your caster level against mind-affecting effects. In addition, the subject immediately receives another saving throw (if one was allowed to begin with) against any spell or effect that would possess or exercise direct mental control over her. This functions in all respects like the second property of protection from evil but it applies regardless of the alignment of the creature or object that created the possession or mental influence effect.\n\nIf the target is awake, instead of the previous effects, the dream shield provides a +4 bonus on saving throws against sleep effects. The spell’s other effects are suppressed while the target is awake. If the target falls asleep or is otherwise rendered unconscious, the other effects of the dream shield resume. Every 10 minutes spent awake consumes 1 hour of the dream shield’s duration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1bddccb935542979.json",
+    "web": "https://codex.pipsprojects.com/#/e/1bddccb935542979"
+  },
+  "license": "OGL 1.0a"
+}

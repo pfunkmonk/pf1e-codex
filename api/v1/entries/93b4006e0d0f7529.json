@@ -1,0 +1,33 @@
+{
+  "id": "93b4006e0d0f7529",
+  "name": "False Life, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 280",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bloodrager": 2,
+      "investigator": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "False Life\nSource PRPG Core Rulebook pg. 280\nSchool necromancy; Level alchemist 2, arcanist 2, bloodrager 2, investigator 2, medium 2, mesmerist 2, occultist 2, psychic 2, shaman 2, sorcerer 2, spiritualist 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of blood)\nEffect\nRange personal\nTarget you\nDuration 1 hour/level or until discharged; see text\nDescription\nYou harness the power of unlife to grant yourself a limited ability to avoid death. While this spell is in effect, you gain temporary hit points equal to 1d10 + 1 per caster level (maximum +10).\nMythic False Life\nSource Mythic Adventures pg. 93\nThe temporary hit points gained increase to 2d8 + 2 per caster level (maximum +20). As an immediate action, you can dismiss the remaining duration of the spell to prevent 1 point of Strength, Dexterity, or Constitution damage per 10 temporary hit points remaining from the spell. This takes effect after the attack hits you and the damage is rolled, but before you take the damage. For example, if you have 22 temporary hit points from mythic false life and a wyvern stings you for 3 points of Constitution damage, you can dismiss the spell to prevent 2 points of Constitution damage from that attack.\nFalse Life, Greater\nSource Ultimate Magic pg. 219\nSchool necromancy; Level alchemist 4, arcanist 4, bloodrager 4, investigator 4, medium 3, mesmerist 3, occultist 4, psychic 4, shaman 4, sorcerer 4, spiritualist 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of blood)\nEffect\nRange personal\nTarget you\nDuration 1 hour/level or until discharged; see text\nDescription\nThis spell functions as false life, except you gain temporary hit points equal to 2d10 + 1 point per caster level (maximum +20). The effects of this spell do not stack with those of false life.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93b4006e0d0f7529.json",
+    "web": "https://codex.pipsprojects.com/#/e/93b4006e0d0f7529"
+  },
+  "license": "OGL 1.0a"
+}

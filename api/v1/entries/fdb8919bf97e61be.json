@@ -1,0 +1,30 @@
+{
+  "id": "fdb8919bf97e61be",
+  "name": "Battle Trance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 58",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 3,
+      "cleric": 4,
+      "hunter": 3,
+      "inquisitor": 3,
+      "investigator": 3,
+      "oracle": 4,
+      "ranger": 3,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 58\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level alchemist 3, antipaladin 3, cleric 4, hunter 3, inquisitor 3, investigator 3, oracle 4, ranger 3, warpriest 4, witch 4 (half-orc)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYou are transformed into a single-minded force of destruction. You gain the ferocity monster special ability, a number of temporary hit points equal to 1d6 + your caster level (maximum +10), and a +4 morale bonus on saving throws against mind-affecting effects. You cannot use the withdraw action or willingly move away from a creature that has attacked you.\n\nWhen you use this spell, you immediately take 4 points of Intelligence damage. You must make a DC 20 concentration check to cast spells, and all other concentration checks to cast spells have a –5 penalty.\nMythic Battle Trance\nSource Mythic Adventures pg. 85\nThe number of temporary hit points you gain increases to 2d6 + your caster level (maximum +10) + your tier. The morale bonus on saving throws against mind-affecting effects increases to +6.\n\nAugmented (5th): If you expend two uses of mythic power, you gain a +4 morale bonus to Strength, immunity to nonmythic mind-affecting effects, and DR 5/epic.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fdb8919bf97e61be.json",
+    "web": "https://codex.pipsprojects.com/#/e/fdb8919bf97e61be"
+  },
+  "license": "OGL 1.0a"
+}

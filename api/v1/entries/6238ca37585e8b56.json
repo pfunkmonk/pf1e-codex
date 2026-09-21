@@ -1,0 +1,28 @@
+{
+  "id": "6238ca37585e8b56",
+  "name": "Elemental Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 218",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bloodrager": 2,
+      "investigator": 2,
+      "magus": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 218\nSchool evocation [acid, cold, electricity, or fire]; Level alchemist 2, arcanist 2, bloodrager 2, investigator 2, magus 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a bit of the chosen element: earth, water, air, or fire)\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance no\nDescription\nUpon completing the casting of this spell, elemental energy infuses your hands. Choose an energy type: acid, cold, electricity, or fire. You gain a melee touch attack causing 1d6 points of damage of that energy type, along with a special effect described below. You also deal energy damage and the related special effect when you attack with your hands using an unarmed strike, a single claw, or a single slam attack. This bonus damage can never apply to multiple weapons.\n\nAcid: Your touch attack causes 1 point of ongoing acid damage per round for 1 round per three caster levels. The target must make a Fortitude save or be sickened for the duration of the ongoing acid damage.\nCold: The target must make a Fortitude save or be fatigued. A creature that is already fatigued suffers no additional effect.\nElectricity: The target must make a Fortitude save or be staggered for 1 round.\nFire: Your hands ignite and shed light as a torch. Your touch may cause targets to catch on fire (Core Rulebook 444).\n\nSubsequent attacks inflict the normal damage, but the additional effects do not stack. This spell grants no special protection to anything held in or worn on your hands. When you cast this spell to deal acid, cold, electricity, or fire damage, it is a spell of that type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6238ca37585e8b56.json",
+    "web": "https://codex.pipsprojects.com/#/e/6238ca37585e8b56"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "00853dd201a6aab3",
+  "name": "Wood Shape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 370",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 2,
+      "shaman": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 370\nSchool transmutation; Level druid 2, hunter 2, occultist 2, shaman 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget one touched piece of wood no larger than 10 cu. ft. + 1 cu. ft./level\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nWood shape enables you to form one existing piece of wood into any shape that suits your purpose. While it is possible to make crude coffers, doors, and so forth, fine detail isn't possible. There is a 30% chance that any shape that includes moving parts simply doesn't work.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/00853dd201a6aab3.json",
+    "web": "https://codex.pipsprojects.com/#/e/00853dd201a6aab3"
+  },
+  "license": "OGL 1.0a"
+}

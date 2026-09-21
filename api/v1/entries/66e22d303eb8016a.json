@@ -1,0 +1,31 @@
+{
+  "id": "66e22d303eb8016a",
+  "name": "Bleaching Resistance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 218",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 6,
+      "druid": 6,
+      "hunter": 6,
+      "investigator": 4,
+      "sorcerer": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 218\nSchool enchantment (compulsion) [mind-affecting]; Level alchemist 4, arcanist 6, druid 6, hunter 6, investigator 4, sorcerer 6, witch 6, wizard 6 (Gnome)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 24 hours\nDescription\nAbility score drain from the Bleaching doesn’t affect your ability score modifiers while you’re affected by this spell. This spell does not remove the Bleaching’s effect on your appearance, nor does it prevent you from suffering further ability penalties, dying, or becoming a bleachling as a result of the Bleaching.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/66e22d303eb8016a.json",
+    "web": "https://codex.pipsprojects.com/#/e/66e22d303eb8016a"
+  },
+  "license": "OGL 1.0a"
+}

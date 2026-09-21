@@ -1,0 +1,36 @@
+{
+  "id": "651d3bdd57edef48",
+  "name": "Revealing Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Hunter's Handbook pg. 31",
+  "book": "Monster Hunter's Handbook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "bard": 1,
+      "cleric": 2,
+      "inquisitor": 2,
+      "medium": 1,
+      "oracle": 2,
+      "psychic": 2,
+      "skald": 1,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Monster Hunter's Handbook"
+  },
+  "body": "Source Monster Hunter's Handbook pg. 31\nSchool evocation [light]; Level arcanist 2, bard 1, cleric 2, inquisitor 2, medium 1, oracle 2, psychic 2, skald 1, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (piece of a mirror)\nEffect\nRange touch\nTarget object touched\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\nDescription\nThe touched object emits a shimmering light (as per light) that causes shadows to shift constantly in a 20-foot radius. Creatures lose any racial bonus on Stealth checks while in the area, and the light suppresses any bonuses on Stealth checks granted by visual camouflage (such as from camouflage nettingUE or the camouflage rogue talentAPG). The unpredictable light patterns also interfere with spells and effects of the pattern subschool, granting all creatures in the area a +2 bonus on saves against such effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/651d3bdd57edef48.json",
+    "web": "https://codex.pipsprojects.com/#/e/651d3bdd57edef48"
+  },
+  "license": "OGL 1.0a"
+}

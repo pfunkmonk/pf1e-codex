@@ -1,0 +1,26 @@
+{
+  "id": "360fb09030d44d30",
+  "name": "Holy Whisper",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 228",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "paladin": 3
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 228\nSchool evocation [good]; Level paladin 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Fortitude negates, see text; Spell Resistance yes\nDescription\nYou whisper a single word in the primordial language of good that is anathema to the minions of evil and strengthens the resolve of good creatures. Evil creatures within the burst must make a Fortitude saving throw or become sickened for 1 round/level. Evil outsiders with the evil subtype, evil-aligned dragons, and undead in the burst also take 2d8 points of damage if they fail their saves. Good-aligned creatures in the burst gain a +2 sacred bonus on attack and damage rolls for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/360fb09030d44d30.json",
+    "web": "https://codex.pipsprojects.com/#/e/360fb09030d44d30"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "79558816def516d3",
+  "name": "Scripted Hallucination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 224",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "magus": 5,
+      "medium": 4,
+      "mesmerist": 5,
+      "occultist": 5,
+      "psychic": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Scripted Hallucination\nSource Ultimate Intrigue pg. 224\nSchool illusion (phantasm) [mind-affecting]; Level arcanist 5, bard 5, magus 5, medium 4, mesmerist 5, occultist 5, psychic 5, skald 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 minute/level (D)\nSaving Throw Will disbelief; Spell Resistance yes\nDescription\nThis spell functions as audiovisual hallucination, except that the phantasm includes visual, auditory, olfactory, tactile, and thermal components, and the phantasm follows a complex script. The phantasm follows that script without your concentration and can react to stimuli the targets perceive.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79558816def516d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/79558816def516d3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "faedfd75cae58cad",
+  "name": "Hollow Blades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Giant Hunter's Handbook pg. 26",
+  "book": "Giant Hunter's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "hunter": 1,
+      "magus": 2,
+      "ranger": 1,
+      "shaman": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Giant Hunter's Handbook"
+  },
+  "body": "Source Giant Hunter's Handbook pg. 26\nSchool transmutation; Level arcanist 3, hunter 1, magus 2, ranger 1, shaman 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nAll melee and natural attacks from the target deal damage as if the target were one size category smaller than it actually is. While the target is under the effects of this spell, weapons dropped by the target function normally for other creatures, while any melee weapons picked up by the target deal damage as if one size smaller. Ranged attacks and weapons are unaffected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/faedfd75cae58cad.json",
+    "web": "https://codex.pipsprojects.com/#/e/faedfd75cae58cad"
+  },
+  "license": "OGL 1.0a"
+}

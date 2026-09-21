@@ -1,0 +1,31 @@
+{
+  "id": "0e44dae9a0ba37ab",
+  "name": "Create Greater Undead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 261",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "oracle": 8,
+      "shaman": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 261\nSchool necromancy [evil]; Level arcanist 8, cleric 8, oracle 8, shaman 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 hour\nComponents V, S, M (a clay pot filled with grave dirt and an onyx gem worth at least 50 gp per HD of the undead to be created)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corpse\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like create undead, except that you can create more powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is based on caster level, as shown below.\n\nCaster Level Undead Created\n15th or lower Shadow\n16th-17th Wraith\n18th-19th Spectre\n20th or higher Devourer",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e44dae9a0ba37ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e44dae9a0ba37ab"
+  },
+  "license": "OGL 1.0a"
+}

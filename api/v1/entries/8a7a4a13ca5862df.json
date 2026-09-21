@@ -1,0 +1,27 @@
+{
+  "id": "8a7a4a13ca5862df",
+  "name": "Vacuous Vessel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 27",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 0,
+      "bard": 0,
+      "skald": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 27\nSchool illusion (glamer); Level arcanist 0, bard 0, skald 0, sorcerer 0, wizard 0\nCasting\nCasting Time 1 swift action\nComponents V\nEffect\nRange touch\nTarget container touched\nDuration 1 round/level (D)\nSaving Throw Will negates, see text; Spell Resistance yes, see text\nDescription\nThis spell makes a single bag, chest, sack, or other container look and feel empty. The container must be no larger than 1 cubic foot per caster level or the spell fails. Anyone peering into or reaching into the container must succeed at a Will save or perceive the container as being completely empty. All items within the container when the spell was cast are still present, but they can’t be noticed unless removed from the bag—such as by someone who can perceive them, or who upends the container.\n\nCasting vacuous vessel on another container or placing a new item in the existing container immediately dismisses the currently active spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a7a4a13ca5862df.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a7a4a13ca5862df"
+  },
+  "license": "OGL 1.0a"
+}

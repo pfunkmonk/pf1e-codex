@@ -1,0 +1,22 @@
+{
+  "id": "d4a96f03f5715e6d",
+  "name": "Hungry Mist",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Blood of Dragonscar pg. 15",
+  "book": "Blood of Dragonscar",
+  "facets": {
+    "cr": 14,
+    "sz": "Fine",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Blood of Dragonscar",
+    "st": "swarm"
+  },
+  "body": "Hungry Mist CR 14\nSource Blood of Dragonscar pg. 15\nNE Fine undead (incorporeal, swarm)\nInit +5; Senses blindsight 30 ft., darkvision 60 ft.; Listen +26, Spot +26\nDefense\nAC 15, touch 15, flat-footed 11 (+1 Dex, +4 deflection)\nhp 139 (20d12+9)\nFort +6, Ref +9, Will +13\nImmune incorporeal immunities, swarm immunities, undead immunities\nOffense\nSpeed fly 30 ft. (perfect)\nMelee swarm (5d6 plus blood drain)\nSpace 10 ft., Reach 0 ft. (shapeable)\nStatistics\nStr 1, Dex 12, Con —, Int 6, Wis 12, Cha 18\nBase Atk +10; Grapple —\nFeats Ability Focus (distraction), Alertness, Improved Initiative, Lightning Reflexes, Toughness (3)\nSQ blood drain, distraction, hive mind, immune to weapon damage, scent, swarm traits\nSpecial Abilities\nBlood Drain (Ex) Whenever the hungry mist damages a victim with its swarm attack, it inflicts 1 point of Constitution drain. With each successful attack, it gains 5 temporary hit points.\n\nDistraction (Ex) A creature that begins its turn in the same square as the hungry mist must make a Fortitude save (DC 21) or be nauseated for 1 round. In order to cast a spell while within the hungry mist, a character must succeed on a Spellcraft check (DC 21 + spell level).\n\nHive Mind (Ex) Any hungry mist with at least 20 hit points forms a hive mind, giving it an intelligence of 6. When a hungry mist is reduced below this hit point threshold, it becomes mindless.\n\nThere is no description for this monster.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d4a96f03f5715e6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/d4a96f03f5715e6d"
+  },
+  "license": "OGL 1.0a"
+}

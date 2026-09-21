@@ -1,0 +1,28 @@
+{
+  "id": "0ae94de1b0d31cce",
+  "name": "Fumblestep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Beast pg. 27",
+  "book": "Blood of the Beast",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "mesmerist": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Blood of the Beast"
+  },
+  "body": "Source Blood of the Beast pg. 27\nSchool conjuration; Level arcanist 1, mesmerist 1, sorcerer 1, spiritualist 1, witch 1, wizard 1 (Tengu)\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a sharp pebble)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level or until discharged (see text)\nSaving Throw none (see text); Spell Resistance yes\nDescription\nFumblestep coats a target’s feet in slick ectoplasm that retains some psychic connection to your mind. While the spell remains in effect, the target creature takes a –1 penalty on Reflex saving throws and Acrobatics checks.\n\nAt any point during the spell’s duration while the target remains in range, you can discharge the spell as a standard action, mentally tugging at the ectoplasm to perform a trip combat maneuver, using your caster level instead of your base attack bonus, and using your Charisma, Intelligence, or Wisdom modifier, whichever is highest, instead of your Strength modifier. This trip attempt does not provoke an attack of opportunity and cannot be affected by feats or other means of altering a trip combat maneuver’s effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ae94de1b0d31cce.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ae94de1b0d31cce"
+  },
+  "license": "OGL 1.0a"
+}

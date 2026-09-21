@@ -1,0 +1,17 @@
+{
+  "id": "66d038add8cacbe1",
+  "name": "Spell Focus",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "PRPG Core Rulebook pg. 134",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 134\nChoose a school of magic. Any spells you cast of that school are more difficult to resist.\n\nBenefit: Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.\n\nSpecial: You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school of magic.\nMythic Spell Focus\nSource Mythic Adventures pg. 74\nYour magical specialties are particularly effective.\n\nPrerequisites: Spell Focus.\n\nBenefit: Choose a school of magic you already have Spell Focus in. The bonus to save DCs provided by Spell Focus and Greater Spell Focus for that school increases by 1. You can expend one use of mythic power as part of casting a spell from your chosen school to force any of the spell’s targets to roll their saving throws twice, taking the lower result.\n\nSpecial: You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spell Focus feat.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/66d038add8cacbe1.json",
+    "web": "https://codex.pipsprojects.com/#/e/66d038add8cacbe1"
+  },
+  "license": "OGL 1.0a"
+}

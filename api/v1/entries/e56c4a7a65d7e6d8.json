@@ -1,0 +1,33 @@
+{
+  "id": "e56c4a7a65d7e6d8",
+  "name": "Touch of Idiocy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 360",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 360\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 2, bloodrager 2, medium 2, mesmerist 2, psychic 2, sorcerer 2, spiritualist 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration 10 min./level\nSaving Throw no; Spell Resistance yes\nDescription\nWith a touch, you reduce the target's mental faculties. Your successful melee touch attack applies a 1d6 penalty to the target's Intelligence, Wisdom, and Charisma scores. This penalty can't reduce any of these scores below 1.\n\nThis spell's effect may make it impossible for the target to cast some or all of its spells, if the requisite ability score drops below the minimum required to cast spells of that level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e56c4a7a65d7e6d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/e56c4a7a65d7e6d8"
+  },
+  "license": "OGL 1.0a"
+}

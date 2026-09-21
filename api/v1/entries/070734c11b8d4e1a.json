@@ -1,0 +1,26 @@
+{
+  "id": "070734c11b8d4e1a",
+  "name": "Stave Off Corruption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 128",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 128\nSchool abjuration; Level cleric 2, oracle 2, paladin 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (see text)\nEffect\nRange touch\nTarget one creature\nDuration 1 day/2 caster levels\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou ward the target to slow the advancement of its corruption. The target receives a +2 circumstance bonus on saving throws against the advancement of its corruption, as described in the catalyst section of each corruption. Multiple applications of this spell do not stack, nor does the bonus stack with morale, profane, or sacred bonuses on saving throws against the advancement of the target’s corruption.\n\nThe material components for this spell vary with the type of corruption. For example, garlic is used for a vampirism corruption, a sprig of wolfsbane is used for a lycanthropy corruption, and so on. The GM can determine appropriate material components, but the components should cost at least 25 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/070734c11b8d4e1a.json",
+    "web": "https://codex.pipsprojects.com/#/e/070734c11b8d4e1a"
+  },
+  "license": "OGL 1.0a"
+}

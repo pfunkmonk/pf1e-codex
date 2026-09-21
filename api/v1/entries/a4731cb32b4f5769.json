@@ -1,0 +1,37 @@
+{
+  "id": "a4731cb32b4f5769",
+  "name": "Flare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 284",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 0,
+      "bard": 0,
+      "druid": 0,
+      "hunter": 0,
+      "magus": 0,
+      "medium": 0,
+      "mesmerist": 0,
+      "occultist": 0,
+      "psychic": 0,
+      "skald": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 284\nSchool evocation [light]; Level arcanist 0, bard 0, druid 0, hunter 0, magus 0, medium 0, mesmerist 0, occultist 0, psychic 0, skald 0, sorcerer 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect burst of light\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis cantrip creates a burst of light. If you cause the light to burst in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. Sightless creatures, as well as creatures already dazzled, are not affected by flare.\nFlare Burst\nSource Advanced Player's Guide pg. 223\nSchool evocation [light]; Level arcanist 1, bard 1, bloodrager 1, druid 1, hunter 1, magus 1, psychic 1, skald 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 10-ft.-radius burst of light\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions as flare, except it affects all creatures in a 10-foot-radius burst from the target point.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4731cb32b4f5769.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4731cb32b4f5769"
+  },
+  "license": "OGL 1.0a"
+}

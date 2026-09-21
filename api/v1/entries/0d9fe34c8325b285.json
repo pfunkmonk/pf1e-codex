@@ -1,0 +1,30 @@
+{
+  "id": "0d9fe34c8325b285",
+  "name": "They Know",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 226",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "mesmerist": 3,
+      "paladin": 3,
+      "psychic": 4,
+      "shaman": 4,
+      "skald": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 226\nSchool enchantment (compulsion) [emotion, fear]; Level bard 3, inquisitor 3, mesmerist 3, paladin 3, psychic 4, shaman 4, skald 3, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S, F/DF, M (a drop of black ink)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one intelligent creature\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou instill a target with the fear that the nearest other intelligent creature knows her darkest secret. If she is in the midst of another situation as vital as protecting her darkest secret, such as combat, this doesn’t cause her to cease participating, but otherwise, she becomes compelled to use her abilities and skills to determine exactly how much the other individual knows. Even if she isn’t around other creatures or otherwise avoids confronting her paranoia for a time, the nagging fear causes the target to become shaken for the duration of the spell (though this doesn’t stack with other fear effects to make the target frightened or panicked).\n\nThe subject’s paranoia increases over time, forcing her to take additional steps to protect herself from the other creature. Depending on her personality (or subject to the GM’s discretion), she might confess, publicly demand to know what the other creature knows, attack the other creature to silence it, or offer the other creature a bribe.\n\nThe spell fails if the target truly feels she has nothing to hide.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d9fe34c8325b285.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d9fe34c8325b285"
+  },
+  "license": "OGL 1.0a"
+}

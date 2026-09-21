@@ -1,0 +1,104 @@
+{
+  "id": "88e4763e5eff9681",
+  "name": "Class Level",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Campaign pg. 190",
+  "book": "Ultimate Campaign",
+  "facets": {
+    "bk": "Ultimate Campaign"
+  },
+  "body": "Rules Index | GM Screen\nCampaign Systems / Retraining\n\nClass Level\nSource Ultimate Campaign pg. 190\nOne of the most critical choices you can make about your character is what class to choose when you gain a level.\n\nIn general, it takes 7 days to retrain one level in a class into one level in another class. Some classes are more suited for this kind of retraining, as they have a similar focus or purpose—this is called retraining synergy. If your old class has retraining synergy with your new class, retraining that class level takes only 5 days instead of 7 days. Determine class retraining synergies according to Table 3–8: Retraining Synergies.\n\nMost prestige classes have retraining synergy with base classes that share their common class features. For example, the arcane trickster prestige class requires and advances arcane spellcasting, so it has retraining synergy with all arcane spellcasting classes. It also requires and advances sneak attack, so it has retraining synergy with classes that grant sneak attack. The GM is the final arbiter of whether or not a prestige class has retraining synergy with a base class, but should err on the side of generosity—if you would rather spend time retraining levels over and over again instead of adventuring, that is your choice.\n\nTable 3-8: Retraining Synergies\nOld Class New Class\nAlchemist Magus, rogue, witch, wizard\nBarbarian Cavalier, fighter, ranger\nBard Oracle, rogue, sorcerer\nCavalier Barbarian, fighter\nCleric Druid, inquisitor, oracle, paladin\nDruid Cleric, oracle, ranger\nFighter Barbarian, cavalier, gunslinger, magus, monk, paladin, ranger, rogue\nGunslinger Fighter, ranger\nInquisitor Cleric, paladin, ranger\nMagus Alchemist, fighter, wizard\nMonk Fighter, rogue\nOracle Bard, cleric, druid, paladin, sorcerer\nPaladin Cleric, fighter, inquisitor, oracle\nRanger Barbarian, druid, fighter, gunslinger, inquisitor\nRogue Alchemist, bard, fighter, monk\nSorcerer Bard, oracle, summoner, witch, wizard\nSummoner Sorcerer, witch, wizard\nWitch Alchemist, sorcerer, summoner, wizard\nWizard Alchemist, magus, sorcerer, summoner, witch\n\nTraining requires spending time with a character who has at least 1 more level in the class you’re retraining than your current level in that class. If no trainer is available (such as if you are at the highest level for that class), you still have the option to retrain without a trainer by spending double the time.\n\nWhen you retrain a class level, you lose all the benefits of the highest level you have in that class. You immediately select a different class, add a level in that class, and gain all the benefits of that new class level.\n\nThis retraining does not allow you to reselect the feats your character gains at odd levels or the ability score increases your character gains every four levels (though you can retrain those options separately). If retraining a class level means you no longer qualify for a feat, prestige class, or other ability you have, you can’t use that feat, prestige class, or ability until you meet the qualifications again. (You can still retrain that feat, prestige class, or other ability.)\n\nExample: Mark is playing a ranger 5/rogue 2, and has decided he’d like to retrain one of his ranger levels into a rogue level (so he has to find a 3rd-level rogue). When he completes the training, he immediately loses all benefits from taking ranger level 5 (base attack bonus, saving throw bonuses, Hit Dice, hit points, skill ranks, and class features), then gains 1 level in rogue, immediately gaining all the benefits of rogue level 3. Mark’s character is now a ranger 4/rogue 3. This retraining did not change Mark’s 7th-level feat.\n\nIf you are retraining a level in an NPC class (adept, aristocrat, commoner, or expert) to a level in any other class, the training takes only 3 days. This allows an NPC soldier to begin her career as a warrior and eventually become an officer who is a single-classed fighter, and for a younger character to start out with one commoner or expert level and become a 1st-level adventurer with a PC class when he reaches adulthood (see Young Characters).",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Old Class",
+          "New Class"
+        ],
+        [
+          "Alchemist",
+          "Magus, rogue, witch, wizard"
+        ],
+        [
+          "Barbarian",
+          "Cavalier, fighter, ranger"
+        ],
+        [
+          "Bard",
+          "Oracle, rogue, sorcerer"
+        ],
+        [
+          "Cavalier",
+          "Barbarian, fighter"
+        ],
+        [
+          "Cleric",
+          "Druid, inquisitor, oracle, paladin"
+        ],
+        [
+          "Druid",
+          "Cleric, oracle, ranger"
+        ],
+        [
+          "Fighter",
+          "Barbarian, cavalier, gunslinger, magus, monk, paladin, ranger, rogue"
+        ],
+        [
+          "Gunslinger",
+          "Fighter, ranger"
+        ],
+        [
+          "Inquisitor",
+          "Cleric, paladin, ranger"
+        ],
+        [
+          "Magus",
+          "Alchemist, fighter, wizard"
+        ],
+        [
+          "Monk",
+          "Fighter, rogue"
+        ],
+        [
+          "Oracle",
+          "Bard, cleric, druid, paladin, sorcerer"
+        ],
+        [
+          "Paladin",
+          "Cleric, fighter, inquisitor, oracle"
+        ],
+        [
+          "Ranger",
+          "Barbarian, druid, fighter, gunslinger, inquisitor"
+        ],
+        [
+          "Rogue",
+          "Alchemist, bard, fighter, monk"
+        ],
+        [
+          "Sorcerer",
+          "Bard, oracle, summoner, witch, wizard"
+        ],
+        [
+          "Summoner",
+          "Sorcerer, witch, wizard"
+        ],
+        [
+          "Witch",
+          "Alchemist, sorcerer, summoner, wizard"
+        ],
+        [
+          "Wizard",
+          "Alchemist, magus, sorcerer, summoner, witch"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/88e4763e5eff9681.json",
+    "web": "https://codex.pipsprojects.com/#/e/88e4763e5eff9681"
+  },
+  "license": "OGL 1.0a"
+}

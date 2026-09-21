@@ -1,0 +1,34 @@
+{
+  "id": "f8574d15ac863d63",
+  "name": "Sleet Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 344",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 3,
+      "shaman": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 344\nSchool conjuration (creation) [cold]; Level arcanist 3, bloodrager 3, druid 3, hunter 3, magus 3, shaman 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (dust and water)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea cylinder (40-ft. radius, 20 ft. high)\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nDriving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the Acrobatics skill for details).\n\nThe sleet extinguishes torches and small fires.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f8574d15ac863d63.json",
+    "web": "https://codex.pipsprojects.com/#/e/f8574d15ac863d63"
+  },
+  "license": "OGL 1.0a"
+}

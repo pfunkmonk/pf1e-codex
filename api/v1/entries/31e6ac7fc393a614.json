@@ -1,0 +1,34 @@
+{
+  "id": "31e6ac7fc393a614",
+  "name": "Slave to Sin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 61",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "cleric": 3,
+      "inquisitor": 3,
+      "mesmerist": 2,
+      "oracle": 3,
+      "paladin": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 61\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 3, bard 2, cleric 3, inquisitor 3, mesmerist 2, oracle 3, paladin 2, skald 2, sorcerer 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a scrap of paper inscribed with the Sihedron rune)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates (see below); Spell Resistance yes\nDescription\nThis spell allows you to reach into an evil creature’s mind to expose and exploit its susceptibility to whichever of the seven so-called “deadly sins” it is most susceptible to. The targeted creature must succeed at a Will save or it is overwhelmed with an inability to repress urges to indulge in whatever sin most closely mirrors its personality, and a glowing rune appears upon the creature’s body (usually the brow), identifying the sin. (The GM adjudicates which rune manifests on the creature’s body, as appropriate.)\n\nEach round, at the start of its turn, the target must attempt a new Will saving throw against the spell’s DC to resist the sin’s enslavement. If the target succeeds at this saving throw, it is sickened for that round by the distractions of its sin. If it fails, it is sickened and staggered as it spends part of its action wallowing in its targeted sin (a wrathful victim might waste time spouting threats and profanity, while a slothful victim might merely be slow and hesitant, and a lustful victim could well spend precious moments ogling or fawning over something of beauty).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31e6ac7fc393a614.json",
+    "web": "https://codex.pipsprojects.com/#/e/31e6ac7fc393a614"
+  },
+  "license": "OGL 1.0a"
+}

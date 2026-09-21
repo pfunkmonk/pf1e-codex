@@ -1,0 +1,31 @@
+{
+  "id": "c7a6978de70b3d50",
+  "name": "Persistent Image",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 319",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "medium": 4,
+      "mesmerist": 5,
+      "occultist": 5,
+      "psychic": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 319\nSchool illusion (figment); Level arcanist 5, bard 5, medium 4, mesmerist 5, occultist 5, psychic 5, skald 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a bit of fleece)\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)\nDuration 1 min./level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell functions like silent image, except that the figment includes visual, auditory, olfactory, and thermal components, and the figment follows a script determined by you. The figment follows that script without your having to concentrate on it. The illusion can include intelligible speech if you wish.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7a6978de70b3d50.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7a6978de70b3d50"
+  },
+  "license": "OGL 1.0a"
+}

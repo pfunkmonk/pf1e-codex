@@ -1,0 +1,37 @@
+{
+  "id": "d1484f033b6092cb",
+  "name": "Shatter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 341",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "magus": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 341\nSchool evocation [sonic]; Level arcanist 2, bard 2, bloodrager 2, cleric 2, magus 2, occultist 2, oracle 2, psychic 2, skald 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a chip of mica)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea or Target 5-ft.-radius spread; or one solid object or one crystaline creature\nDuration instantaneous\nSaving Throw Will negates (object); Will negates (object) or Fortitude half; see text; Spell Resistance yes\nDescription\nShatter creates a loud, ringing noise that breaks brittle, nonmagical objects; sunders a single solid, nonmagical object; or damages a crystalline creature.\n\nUsed as an area attack, shatter destroys nonmagical objects of crystal, glass, ceramic, or porcelain. All such unattended objects within a 5-foot radius of the point of origin are smashed into dozens of pieces by the spell. Objects weighing more than 1 pound per your level are not affected, but all other objects of the appropriate composition are shattered.\n\nAlternatively, you can target shatter against a single solid nonmagical object, regardless of composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a Fortitude save for half damage.\nMythic Shatter\nSource Mythic Adventures pg. 107\nAdd your tier to your caster level when determining the maximum object weight you can affect. When targeting a crystalline creature, the spell’s damage increases to 1d8 points of sonic damage per caster level (maximum 10d8). You may damage a single magical object as if it were a crystalline creature. If the spell destroys an object or damages a crystalline creature, broken shards litter the spell area or creature’s space and act as caltrops.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1484f033b6092cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1484f033b6092cb"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "deae9b1bd57e692d",
+  "name": "Goodberry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 291",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "shaman": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 291\nSchool transmutation; Level druid 1, hunter 1, shaman 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets 2d4 fresh berries touched\nDuration 1 day/level\nSaving Throw none; Spell Resistance yes\nDescription\nCasting goodberry makes 2d4 freshly picked berries magical. You (as well as any other druid of 3rd or higher level) can immediately discern which berries are affected. Each transmuted berry provides nourishment as if it were a normal meal for a Medium creature. The berry also cures 1 point of damage when eaten, subject to a maximum of 8 points of such curing in any 24-hour period.\nMythic Goodberry\nSource Mythic Adventures pg. 96\nEach berry provides a full day’s nourishment and counts as 1 hour of complete rest for the purpose of removing exhaustion, fatigue, or nonlethal damage.\n\nAugmented (2nd): You can cast the spell to affect only one berry, imbuing into that berry any harmless druid spell you have prepared. The spell remains stored in the berry for the duration of the goodberry spell or until the berry is consumed. A creature that eats the berry gains the benefits of that spell as if you had cast it upon her. The maximum level of the imbued spell is equal to half your tier, and you must expend one use of mythic power for each spell level of the imbued spell (in addition to the one use needed to cast mythic goodberry). Similar to imbue with spell ability, you can’t prepare a spell in that spell’s slot until the berry is consumed or the mythic goodberry spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/deae9b1bd57e692d.json",
+    "web": "https://codex.pipsprojects.com/#/e/deae9b1bd57e692d"
+  },
+  "license": "OGL 1.0a"
+}

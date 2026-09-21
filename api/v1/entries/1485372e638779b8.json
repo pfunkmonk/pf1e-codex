@@ -1,0 +1,29 @@
+{
+  "id": "1485372e638779b8",
+  "name": "Interrogation, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 225",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Interrogation\nSource Ultimate Magic pg. 225\nSchool necromancy [evil, pain]; Level arcanist 1, inquisitor 1, mesmerist 1, psychic 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou question the target, backed up by the threat of magical pain. You may ask one question per two caster levels. The target can either answer the question or take 1d4 points of damage plus your Wisdom bonus. The target is not compelled to answer truthfully, but the threat of pain gives it a –4 penalty on Bluff checks to convince you when it is lying.\nInterrogation, Greater\nSource Ultimate Magic pg. 225\nSchool necromancy [evil, pain]; Level inquisitor 4, psychic 4\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions as interrogation, except you may ask one question per caster level and the spell deals damage equal to 1d8 points plus your Wisdom bonus if the target doesn’t answer a question.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1485372e638779b8.json",
+    "web": "https://codex.pipsprojects.com/#/e/1485372e638779b8"
+  },
+  "license": "OGL 1.0a"
+}

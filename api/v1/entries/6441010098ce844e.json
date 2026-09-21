@@ -1,0 +1,23 @@
+{
+  "id": "6441010098ce844e",
+  "name": "Fire of Entanglement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 221",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "paladin": 2
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 221\nSchool evocation; Level paladin 2\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange special; see text\nTarget one creature\nDuration 1 round/level\nSaving Throw Reflex partial; Spell Resistance yes\nDescription\nThe next creature you attack using your smite evil class ability is wreathed in flames that impede its movement. Until the end of the spell’s duration, the target is entangled. If the target starts its turn in a square adjacent to you, it is considered to be entangled to an immobile object (you) and cannot move. A target that saves against this spell is affected for only 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6441010098ce844e.json",
+    "web": "https://codex.pipsprojects.com/#/e/6441010098ce844e"
+  },
+  "license": "OGL 1.0a"
+}

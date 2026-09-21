@@ -1,0 +1,32 @@
+{
+  "id": "40d2bb85bd0b4f22",
+  "name": "Lighten Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 236, Faiths of Balance pg. 28",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "magus": 1,
+      "oracle": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 236, Faiths of Balance pg. 28\nSchool transmutation; Level arcanist 1, bard 1, cleric 1, magus 1, oracle 1, redmantisassassin 1, skald 1, sorcerer 1, summoner 1, summoner (unchained) 1, warpriest 1, wizard 1 (Gorum)\nCasting\nCasting Time 1 standard action\nComponents V, M (goose down)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 object of up to 1 cubic ft./level\nDuration 1 minute/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThe target’s weight decreases by half. If this spell is cast on armor, the armor’s armor check penalty decreases by 1, though its categorization as light, medium, or heavy does not change.\nLighten Object, Mass\nSource Inner Sea Gods pg. 236\nSchool transmutation; Level arcanist 5, cleric 5, magus 5, oracle 5, sorcerer 5, summoner 5, summoner (unchained) 5, warpriest 5, wizard 5 (Gorum)\nCasting\nCasting Time 1 standard action\nComponents V, M (goose down)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets multiple objects totaling up to 1 cubic ft./level, no two of which can be more than 30 ft. apart\nDuration 10 minutes/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis spell functions like lighten object, except that it affects a number of objects equal to half your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40d2bb85bd0b4f22.json",
+    "web": "https://codex.pipsprojects.com/#/e/40d2bb85bd0b4f22"
+  },
+  "license": "OGL 1.0a"
+}

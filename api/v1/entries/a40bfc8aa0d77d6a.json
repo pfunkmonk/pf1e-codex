@@ -1,0 +1,33 @@
+{
+  "id": "a40bfc8aa0d77d6a",
+  "name": "Pernicious Poison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 231",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 231\nSchool necromancy [poison]; Level antipaladin 2, arcanist 2, druid 2, hunter 2, occultist 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 minute/level\nSaving Throw none; Spell Resistance yes\nDescription\nYou weaken the target’s defenses against poison. The target gains a –4 penalty on saves against poison, and poisons affecting the target continue for another 2 frequency increments (for example, black adder venom lasts 8 rounds instead of 6, and arsenic lasts for 6 minutes instead of 4). Attempts to cure the poisoned target with skill or magic take a –4 penalty.\nMythic Pernicious Poison\nSource Mythic Adventures pg. 103\nThe number of successful saving throws needed to cure a poison increases by one. If the poison deals ability damage on a failed saving throw, that ability damage increases by 1.\n\nAugmented (6th): If you expend two uses of mythic power, the target’s penalty on saves against poison increases to –8, and the penalty for attempting to cure the target with skill or magic increases to –8.\n\nIf you expend three uses of mythic power, the poison bypasses the creature’s poison immunity (this doesn’t affect poison immunity from not having a Constitution score).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a40bfc8aa0d77d6a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a40bfc8aa0d77d6a"
+  },
+  "license": "OGL 1.0a"
+}

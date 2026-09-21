@@ -1,0 +1,26 @@
+{
+  "id": "26b1cdcf59d728b6",
+  "name": "Oracle's Burden",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 234",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 234\nSchool necromancy [curse]; Level oracle 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou entreat the forces of fate to bestow your oracle’s curse upon another creature. The target creature suffers all the hindrances and none of the benefits of your oracle’s curse class feature. You still suffer all effects of your oracle’s curse. If you do not have the oracle’s curse class feature, this spell has no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26b1cdcf59d728b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/26b1cdcf59d728b6"
+  },
+  "license": "OGL 1.0a"
+}

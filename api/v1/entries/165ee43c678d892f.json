@@ -1,0 +1,26 @@
+{
+  "id": "165ee43c678d892f",
+  "name": "Wooden Wing Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 14",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 4,
+      "druid": 4,
+      "hunter": 4,
+      "magus": 5,
+      "shaman": 4,
+      "summoner": 4
+    },
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 14\nSchool transmutation; Level bloodrager 4, druid 4, hunter 4, magus 5, shaman 4, summoner 4 (Gathlain)\nCasting\nCasting Time 1 immediate action\nComponents S\nEffect\nRange personal\nTarget you\nDuration 1 round/level or until you move\nDescription\nYour wings transmute into a wooden barrier resembling a tower shield to block attacks, granting you a +4 shield bonus to AC. If you move, the spell ends immediately.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/165ee43c678d892f.json",
+    "web": "https://codex.pipsprojects.com/#/e/165ee43c678d892f"
+  },
+  "license": "OGL 1.0a"
+}

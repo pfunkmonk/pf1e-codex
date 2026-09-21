@@ -1,0 +1,26 @@
+{
+  "id": "43c66f675ff9910a",
+  "name": "Hide from Animals",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 296",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 296\nSchool abjuration; Level druid 1, hunter 1, ranger 1, shaman 1\nCasting\nCasting Time 1 standard action\nComponents S, DF\nEffect\nRange touch\nTargets one creature touched/level\nDuration 10 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nAnimals cannot sense the warded creatures. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Animals simply act as though the warded creatures are not there. If a warded character touches an animal or attacks any creature, even with a spell, the spell ends for all recipients.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43c66f675ff9910a.json",
+    "web": "https://codex.pipsprojects.com/#/e/43c66f675ff9910a"
+  },
+  "license": "OGL 1.0a"
+}

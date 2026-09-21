@@ -1,0 +1,28 @@
+{
+  "id": "d2c22aca67efa954",
+  "name": "Litany of Admonition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Disciple's Doctrine pg. 13",
+  "book": "Disciple's Doctrine",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "inquisitor": 4,
+      "paladin": 3
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Disciple's Doctrine"
+  },
+  "body": "Source Disciple's Doctrine pg. 13\nSchool necromancy [language-dependent]; Level antipaladin 3, inquisitor 4, paladin 3\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou point out your target’s faults and failures, staggering the target for 1 round. While subject to this spell, the target cannot be the target of another spell that has the word “litany” in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d2c22aca67efa954.json",
+    "web": "https://codex.pipsprojects.com/#/e/d2c22aca67efa954"
+  },
+  "license": "OGL 1.0a"
+}

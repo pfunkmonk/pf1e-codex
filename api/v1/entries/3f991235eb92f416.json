@@ -1,0 +1,24 @@
+{
+  "id": "3f991235eb92f416",
+  "name": "Heightened Reflexes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 184",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "skald": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 184\nSchool transmutation; Level bard 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea allies within a 30-ft.-radius burst centered on you\nDuration 1 minute/level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou grant each of your allies within the area a +10 competence bonus on a single Reflex saving throw. Each ally must decide whether to use the bonus before making the roll to which it applies. When an ally uses the bonus, the spell ends for that individual.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3f991235eb92f416.json",
+    "web": "https://codex.pipsprojects.com/#/e/3f991235eb92f416"
+  },
+  "license": "OGL 1.0a"
+}

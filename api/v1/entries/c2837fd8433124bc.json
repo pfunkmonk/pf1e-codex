@@ -1,0 +1,54 @@
+{
+  "id": "c2837fd8433124bc",
+  "name": "Promotion Edicts",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Campaign pg. 209",
+  "book": "Ultimate Campaign",
+  "facets": {
+    "bk": "Ultimate Campaign"
+  },
+  "body": "Rules Index | GM Screen\n\nPromotion Edicts\nSource Ultimate Campaign pg. 209\nPromotion edicts are events and actions the kingdom uses to attract new citizens and increase the well-being of the kingdom, such as recruitment campaigns, advertisements about services and goods, and propaganda to improve the perception of your kingdom at home and abroad. Promotions increase Consumption, but also increase Stability.\n\nTable 4-2: Promotion Edicts\nPromotion Level Stability Consumption\nNone -1 +0\nToken +1 +1\nStandard +2 +2\nAggressive +3 +4\nExpansionist +4 +8",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Promotion Level",
+          "Stability",
+          "Consumption"
+        ],
+        [
+          "None",
+          "-1",
+          "+0"
+        ],
+        [
+          "Token",
+          "+1",
+          "+1"
+        ],
+        [
+          "Standard",
+          "+2",
+          "+2"
+        ],
+        [
+          "Aggressive",
+          "+3",
+          "+4"
+        ],
+        [
+          "Expansionist",
+          "+4",
+          "+8"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2837fd8433124bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2837fd8433124bc"
+  },
+  "license": "OGL 1.0a"
+}

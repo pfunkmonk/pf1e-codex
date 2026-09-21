@@ -1,0 +1,33 @@
+{
+  "id": "b54e2bae51ede00f",
+  "name": "Triggered Hallucination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 227",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 6,
+      "bard": 6,
+      "magus": 6,
+      "mesmerist": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Triggered Hallucination\nSource Ultimate Intrigue pg. 227\nSchool illusion (phantasm) [mind-affecting]; Level arcanist 6, bard 6, magus 6, mesmerist 6, occultist 6, psychic 6, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (jade dust worth 25 gp)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration permanent until triggered, then 1 minute/level\nSaving Throw Will disbelief; Spell Resistance yes\nDescription\nThis spell functions as audiovisual hallucination, except that this spell’s phantasm has no apparent effect until a specific condition occurs. You must overcome the target’s spell resistance to plant the triggered hallucination, but the target doesn’t attempt a Will save to disbelieve the illusion until the condition occurs (at which point it receives an automatic Will save, as with audiovisual hallucination). The phantasm can include auditory, olfactory, visual, tactile, and thermal elements, including intelligible speech.\n\nYou set the triggering condition (such as hearing a certain word or seeing a type of creature) when casting the spell. The event that triggers the illusion can be as general or detailed as desired but must be based on an audible, tactile, olfactory, or visual trigger. The trigger can’t be based on any quality not normally obvious to the senses, such as alignment. Triggered hallucination uses the target’s senses to notice triggers.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b54e2bae51ede00f.json",
+    "web": "https://codex.pipsprojects.com/#/e/b54e2bae51ede00f"
+  },
+  "license": "OGL 1.0a"
+}

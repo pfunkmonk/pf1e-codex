@@ -1,0 +1,28 @@
+{
+  "id": "93439f0f0524199c",
+  "name": "Wail of the Banshee",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 365",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 9,
+      "psychic": 9,
+      "shaman": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 365\nSchool necromancy [death, sonic]; Level arcanist 9, psychic 9, shaman 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature/level within a 40-ft.-radius spread\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nWhen you cast this spell, you emit a terrible, soul-chilling scream that possibly kills creatures that hear it (except for yourself). The spell affects up to one creature per caster level, inflicting 10 points of damage per caster level. Creatures closest to the point of origin are affected first.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93439f0f0524199c.json",
+    "web": "https://codex.pipsprojects.com/#/e/93439f0f0524199c"
+  },
+  "license": "OGL 1.0a"
+}

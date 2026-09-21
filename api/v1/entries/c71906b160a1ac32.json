@@ -1,0 +1,29 @@
+{
+  "id": "c71906b160a1ac32",
+  "name": "Project Weakness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Night pg. 30",
+  "book": "Blood of the Night",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 3,
+      "oracle": 3,
+      "sorcerer": 4,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Night"
+  },
+  "body": "Source Blood of the Night pg. 30\nSchool necromancy [curse, evil]; Level arcanist 4, cleric 3, oracle 3, sorcerer 4, warpriest 3, witch 3, wizard 4 (vampire)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou curse the target with the weaknesses of your kind of vampirism. The creature reacts to garlic, mirrors, ringing bells, sunlight, and so on as if it were a vampire of the same type as you. This cannot kill the target; anything that would kill it (such as a lengthy exposure to sunlight if you are a moroi vampire) renders it helpless until the curse or the harmful effect is removed. The target gains none of the benefits of being a vampire (such as fast healing or requiring special ways to be permanently killed), only the penalties.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c71906b160a1ac32.json",
+    "web": "https://codex.pipsprojects.com/#/e/c71906b160a1ac32"
+  },
+  "license": "OGL 1.0a"
+}

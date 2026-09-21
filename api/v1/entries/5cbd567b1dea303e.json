@@ -1,0 +1,38 @@
+{
+  "id": "5cbd567b1dea303e",
+  "name": "Magic Circle against Good",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 308",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "medium": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "summoner": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 308\nSchool abjuration [evil]; Level antipaladin 3, arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, summoner (unchained) 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a 3-ft.-diameter circle of powdered silver)\nEffect\nRange touch\nArea 10-ft.-radius emanation from touched creature\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance no; see text\nDescription\nThis spell functions like magic circle against evil, except that it is similar to protection from good instead of protection from evil, and it can imprison a nonevil called creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5cbd567b1dea303e.json",
+    "web": "https://codex.pipsprojects.com/#/e/5cbd567b1dea303e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3fc97bbfd3cd6a98",
+  "name": "Fool's Teleport",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Origins pg. 13",
+  "book": "Occult Origins",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "mesmerist": 3,
+      "psychic": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Occult Origins"
+  },
+  "body": "Source Occult Origins pg. 13\nSchool illusion (glamer); Level arcanist 4, mesmerist 3, psychic 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal and touch\nTarget you and other touched willing creatures\nDuration 1 minute/level\nSaving Throw Will negates (harmless), see text; Spell Resistance no\nDescription\nThis spell instantly renders you unseen as per invisibility, but creates a visual and auditory display that makes it appear as if you had teleported away. You can affect one additional Medium or smaller creature or its equivalent per 3 caster levels (a Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures, and so forth). All creatures to be affected must be in contact with one another, and at least one of those creatures must be in contact with you.\n\nIf a viewer identifies the spell with a successful Spellcraft check, she can attempt an immediate Will saving throw as if interacting with an illusion. With a successful Will save, the observer can correctly identify fool’s teleport for what it is; otherwise, she perceives the spell to be dimension door, teleport, or similar conjuration magic. A successful Will save doesn’t negate the invisibility.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3fc97bbfd3cd6a98.json",
+    "web": "https://codex.pipsprojects.com/#/e/3fc97bbfd3cd6a98"
+  },
+  "license": "OGL 1.0a"
+}

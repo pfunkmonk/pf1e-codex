@@ -1,0 +1,27 @@
+{
+  "id": "7731852cb42a69e3",
+  "name": "Magnifying Chime",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 186",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 6,
+      "skald": 6
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 186\nSchool transmutation [sonic]; Level bard 6, skald 6\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange touch\nEffect disruptive vibrations\nTarget one unattended object or object in your possession\nDuration 1 round/level\nSaving Throw Fortitude half (see text); Spell Resistance yes\nDescription\nYou cause the touched object to vibrate and release sonic energy once per round as a loud, dangerous chime. The sound grows in strength as time passes. On your turn in the round after you cast the spell, the chime deals 1d6 points of sonic damage to all creatures and objects within 5 feet of the target. Each round after that, the damage increases by 1d6 and reaches 5 feet farther in all directions. A successful Fortitude save halves the damage for that round only.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7731852cb42a69e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/7731852cb42a69e3"
+  },
+  "license": "OGL 1.0a"
+}

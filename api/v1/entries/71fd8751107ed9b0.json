@@ -1,0 +1,30 @@
+{
+  "id": "71fd8751107ed9b0",
+  "name": "Undeath to Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 363",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 6,
+      "inquisitor": 6,
+      "oracle": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "warpriest": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 363\nSchool necromancy; Level arcanist 6, cleric 6, inquisitor 6, oracle 6, sorcerer 6, spiritualist 6, warpriest 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (diamond powder worth 500 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea several undead creatures within a 40-ft.-radius burst\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like circle of death, except that it destroys undead creatures as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/71fd8751107ed9b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/71fd8751107ed9b0"
+  },
+  "license": "OGL 1.0a"
+}

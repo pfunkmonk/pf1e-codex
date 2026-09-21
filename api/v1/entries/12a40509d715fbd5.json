@@ -1,0 +1,101 @@
+{
+  "id": "12a40509d715fbd5",
+  "name": "Creating Scrolls",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 552",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nCreating Scrolls\nSource PRPG Core Rulebook pg. 552\nTo create a scroll, a character needs a supply of choice writing materials, the cost of which is subsumed in the cost for scribing the scroll: 12.5 gp × the level of the spell × the level of the caster.\n\nAll writing implements and materials used to scribe a scroll must be fresh and unused. A character must pay the full cost for scribing each spell scroll no matter how many times she previously has scribed the same spell.\n\nThe creator must have prepared the spell to be scribed (or must know the spell, in the case of a sorcerer or bard) and must provide any material component or focus the spell requires. A material component is consumed when she begins writing, but a focus is not. (A focus used in scribing a scroll can be reused.) The act of writing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster’s currently prepared spells, just as if it had been cast.)\n\nScribing a scroll requires 1 day per 1,000 gp of the base price. Although an individual scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.\n\nItem Creation Feat Required: Scribe Scroll.\n\nSkill Used in Creation: Spellcraft, Craft (calligraphy), or Profession (scribe).\nScroll Base Costs (By Scriber's Class)\nSpell Level Cleric, Druid, Wizard Sorcerer Bard Paladin, Ranger*\n0 12 gp 5 sp 12 gp 5 sp 12 gp 5 sp —\n1st 25 gp 25 gp 25 gp 25 gp\n2nd 150 gp 200 gp 200 gp 200 gp\n3rd 375 gp 450 gp 525 gp 525 gp\n4th 700 gp 800 gp 1,000 gp 1,000 gp\n5th 1,125 gp 1,250 gp 1,625 gp —\n6th 1,650 gp 1,800 gp 2,400 gp —\n7th 2,275 gp 2,450 gp — —\n8th 3,000 gp 3,200 gp — —\n9th 3,825 gp 4,050 gp — —\n* Caster level is equal to class level –3.\nPrices assume that the scroll was made at the minimum caster level. The cost to create a scroll is half the base price.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Spell Level",
+          "Cleric, Druid, Wizard",
+          "Sorcerer",
+          "Bard",
+          "Paladin, Ranger*"
+        ],
+        [
+          "0",
+          "12 gp 5 sp",
+          "12 gp 5 sp",
+          "12 gp 5 sp",
+          "—"
+        ],
+        [
+          "1st",
+          "25 gp",
+          "25 gp",
+          "25 gp",
+          "25 gp"
+        ],
+        [
+          "2nd",
+          "150 gp",
+          "200 gp",
+          "200 gp",
+          "200 gp"
+        ],
+        [
+          "3rd",
+          "375 gp",
+          "450 gp",
+          "525 gp",
+          "525 gp"
+        ],
+        [
+          "4th",
+          "700 gp",
+          "800 gp",
+          "1,000 gp",
+          "1,000 gp"
+        ],
+        [
+          "5th",
+          "1,125 gp",
+          "1,250 gp",
+          "1,625 gp",
+          "—"
+        ],
+        [
+          "6th",
+          "1,650 gp",
+          "1,800 gp",
+          "2,400 gp",
+          "—"
+        ],
+        [
+          "7th",
+          "2,275 gp",
+          "2,450 gp",
+          "—",
+          "—"
+        ],
+        [
+          "8th",
+          "3,000 gp",
+          "3,200 gp",
+          "—",
+          "—"
+        ],
+        [
+          "9th",
+          "3,825 gp",
+          "4,050 gp",
+          "—",
+          "—"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12a40509d715fbd5.json",
+    "web": "https://codex.pipsprojects.com/#/e/12a40509d715fbd5"
+  },
+  "license": "OGL 1.0a"
+}

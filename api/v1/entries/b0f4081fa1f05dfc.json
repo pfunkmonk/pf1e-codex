@@ -1,0 +1,29 @@
+{
+  "id": "b0f4081fa1f05dfc",
+  "name": "Hymn of Peace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Champions of Purity pg. 29",
+  "book": "Champions of Purity",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 6,
+      "cleric": 7,
+      "oracle": 7,
+      "skald": 6
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Champions of Purity"
+  },
+  "body": "Source Champions of Purity pg. 29\nSchool abjuration [good]; Level bard 6, cleric 7, oracle 7, skald 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 40 ft.\nArea 40-ft.-radius burst centered on you\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nEach time a subject of this spell attempts to attack another creature or object, or otherwise perform an aggressive or damaging action toward a creature or object, it must attempt a Will save. If the save succeeds, the subject can attack normally. If the save fails, the subject cannot follow through with the attack and loses that part of its action. Creatures not taking violent actions are unaffected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0f4081fa1f05dfc.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0f4081fa1f05dfc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "23063c8d05980c88",
+  "name": "Babble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 158",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 3,
+      "skald": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 158\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 3, bard 2, mesmerist 2, psychic 3, skald 2, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature; see text\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell causes the target to break into a fit of bizarre, uncontrollable babbling. The target also becomes nauseated. If the target succeeds at its save, the effects end. If not, the creature continues babbling and is nauseated for the entire duration.\n\nCreatures within 30 feet of the subject that can hear the target’s babbling must succeed at a Will save or become fascinated for as long as the babbling persists. Once a creature’s fascination ends, it can’t become fascinated by the same instance of babble again.\n\nCreatures with an Intelligence score of 2 or lower aren’t affected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/23063c8d05980c88.json",
+    "web": "https://codex.pipsprojects.com/#/e/23063c8d05980c88"
+  },
+  "license": "OGL 1.0a"
+}

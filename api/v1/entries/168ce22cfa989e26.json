@@ -1,0 +1,23 @@
+{
+  "id": "168ce22cfa989e26",
+  "name": "Sacrificial Oath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 240",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "paladin": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 240\nSchool abjuration; Level paladin 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou create a powerful bond between yourself and a single creature. Until the end of the spell’s duration, each time the target is hit with an attack or fails a saving throw, you can take the full damage of that attack and any other effects that creature suffers. If you choose not to take on the damage and effects, you instead take a number of points of damage equal to your Constitution score as backlash. Any resistances or immunities you have are applied normally, but you cannot otherwise reduce or negate the damage or effects of either the transfer or the backlash. If you or the subject of the spell move out of line of sight, the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/168ce22cfa989e26.json",
+    "web": "https://codex.pipsprojects.com/#/e/168ce22cfa989e26"
+  },
+  "license": "OGL 1.0a"
+}

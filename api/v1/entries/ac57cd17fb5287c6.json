@@ -1,0 +1,17 @@
+{
+  "id": "ac57cd17fb5287c6",
+  "name": "Elements of a Haunt",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "GameMastery Guide pg. 243",
+  "book": "GameMastery Guide",
+  "facets": {
+    "bk": "GameMastery Guide"
+  },
+  "body": "Rules Index | GM Screen\n\nElements of a Haunt\nSource GameMastery Guide pg. 243\nHaunts are presented in the following format.\n\nHaunt Name: The haunt’s name is followed by its CR.\n\nXP: This is the amount of XP to award the PCs for surviving the haunt, as determined by its CR.\n\nAlignment and Area: This line gives the haunt’s alignment and the dimensions of the area it infuses (up to 5 feet per CR). If a haunt is persistent, this is noted here as well.\n\nCaster Level: This is the haunt’s effective caster level for the purposes of dispelling any ongoing effects with dispel magic, and for determining the results of spell effects it creates.\n\nNotice: This indicates the skill check and DC required to notice the haunt in the surprise round before it manifests. The sensory input for what a successful check notices— such as a faint ghostly wailing, a smell of burning flesh, or fresh blood oozing from the walls—is listed in parentheses after the DC.\n\nhp: This lists the haunt’s effective hit points for the purposes of resolving positive energy damage. A haunt’s hit points are equal to twice its CR, except in the case of a persistent haunt, in which case its hit points are equal to its CR × 4.5 (round fractions down).\n\nWeakness: Any weaknesses the haunt might have, such as for haunts that can be tricked by effects like hide from undead or can be damaged by effects other than positive energy, are listed here.\n\nTrigger: The conditions that can cause the haunt to manifest are given here. Proximity-triggered haunts occur as soon as a creature enters the haunt’s area. A haunt triggered by touch does not activate until a living creature touches a specific object or location in its area, but it can sense (and thus target with its effects) any creature in its area.\n\nReset: This is the amount of time that must pass before a haunt can attempt to reset. Until it is destroyed, a haunt can reset after this period by succeeding on a DC 10 caster level check—failure indicates the haunt must wait that amount of time again before making another attempt to reset.\n\nEffect: This details the haunt’s exact effects, including a description of how the haunt manifests.\n\nDestruction: This describes the act needed to permanently destroy the haunt.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ac57cd17fb5287c6.json",
+    "web": "https://codex.pipsprojects.com/#/e/ac57cd17fb5287c6"
+  },
+  "license": "OGL 1.0a"
+}

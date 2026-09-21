@@ -1,0 +1,28 @@
+{
+  "id": "bead4853f6cf16cd",
+  "name": "Major Phantom Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 39",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "mesmerist": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 39\nSchool illusion (shadow) [shadow]; Level arcanist 5, mesmerist 5, psychic 5, sorcerer 5, wizard 5 (gnome)\nCasting\nCasting Time 10 minutes\nComponents V, S, M (a tiny piece of matter of the same sort of item you plan to create with major phantom object)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect illusory, unattended, nonmagical object, up to 1 cu. ft./level\nDuration 10 minutes/level (D)\nDescription\nThis spell functions as the major creation spell, except as noted above and the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bead4853f6cf16cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/bead4853f6cf16cd"
+  },
+  "license": "OGL 1.0a"
+}

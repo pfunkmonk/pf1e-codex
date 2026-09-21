@@ -1,0 +1,21 @@
+{
+  "id": "547d59d092b556f8",
+  "name": "Mummified Hippopotamus",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Pathfinder #81: Shifting Sands pg. 85",
+  "book": "Pathfinder #81: Shifting Sands",
+  "facets": {
+    "cr": 6,
+    "sz": "Large",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Pathfinder #81: Shifting Sands"
+  },
+  "body": "All | Unique\nMummified Animals, Mummified Hippopotamus\nMummified Hippopotamus CR 6\nSource Pathfinder #81: Shifting Sands pg. 85\nXP 2,400\nNE Large undead\nInit +4; Senses darkvision 60 ft., scent; Perception +8\nDefense\nAC 17, touch 9, flat-footed 17 (+8 natural, –1 size)\nhp 45 (7d8+14)\nFort +7, Ref +5, Will +3\nDR 5/—; Immune undead traits\nOffense\nSpeed 40 ft.\nMelee bite +8 (2d8+6)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks capsize, servant’s curse (DC 15), trample (1d8+6, DC 17)\nStatistics\nStr 19, Dex 10, Con —, Int 2, Wis 13, Cha 14\nBase Atk +5; CMB +10; CMD 20 (24 vs. trip)\nFeats Endurance, Improved Initiative, Power Attack, Skill Focus (Perception)\nSkills Perception +8, Stealth +1 (+11 underwater), Swim +11; Racial Modifiers +10 Stealth underwater\nSQ hold breath\nEcology\nEnvironment warm ruins\nOrganization solitary\nTreasure none\nSpecial Abilities\nCapsize (Ex) A hippopotamus can overturn a boat of its size or smaller by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain’s Profession (sailor) check, whichever is highest.\nDescription\nMuch like with elephants, the process for mummifying hippopotamuses is expensive and difficult; thus, only significant people are interred with these creatures. They are placed in tombs to protect against bad fortune. Because of their association with rivers, these protectors are often found in tombs near such waterways.\nCreating a Mummified Animal\n“Mummified animal” is an acquired template that can be added to a creature of the animal type. A mummified animal uses all the base creature’s statistics and special abilities except as noted here.\n\nChallenge Rating: HD 4 or fewer, as base creature; HD 5 to 10, as base creature +1; HD 11 or more, as base creature +2.\nAlignment: Neutral evil.\nType: The creature’s type changes to undead. Do not recalculate BAB, saves, or skills.\nSenses: A mummified animal gains darkvision 60 ft.\nDefensive Abilities: A mummified animal gains damage reduction based on its Hit Dice: one with 5 or fewer Hit Dice gains DR 2/—, one with 6–10 Hit Dice gains DR 5/—, and one with 11–20 Hit Dice gains DR 10/—.\nSpeed: Winged mummified animals can still fly, but their maneuverability drops to clumsy. Retain all other movement types.\nSpecial Attacks: A mummified animal retains all special attacks except those dependent on a living body to function, such as a snake’s poison or a skunk’s revolting musk. A mummified animal also gains the following special attack.\nServant’s Curse (Su): Once per day, a mummified animal can touch a creature or hit a creature with one of its natural attacks to deliver a curse. Any living creature struck by this attack must succeed at a Will save or take 1d3 points of Dex and Wis damage. The save DC is equal to 10 + 1/2 the mummified animal’s Hit Dice + the mummified animal’s Charisma modifier.\nAbilities: A mummified animal loses its Constitution score, and its Charisma score becomes 14.\nCreatures in \"Mummified Animals\" Category\nName CR\nMummified Baboon 1/2\nMummified Crocodile 2\nMummified Elephant 9\nMummified Hippopotamus 6\nMummified Animals",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/547d59d092b556f8.json",
+    "web": "https://codex.pipsprojects.com/#/e/547d59d092b556f8"
+  },
+  "license": "OGL 1.0a"
+}

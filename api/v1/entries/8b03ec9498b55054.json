@@ -1,0 +1,28 @@
+{
+  "id": "8b03ec9498b55054",
+  "name": "Transfiguring Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Intrigue pg. 63",
+  "book": "Inner Sea Intrigue",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "arcanist": 6,
+      "investigator": 5,
+      "occultist": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Intrigue"
+  },
+  "body": "Source Inner Sea Intrigue pg. 63\nSchool transmutation; Level alchemist 5, arcanist 6, investigator 5, occultist 6, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (alchemical reagents worth 1 gp or the value of the created material, whichever is more)\nEffect\nRange touch\nTarget object touched, up to 1 cubic foot per level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou create an alchemical residue on your hands that gradually converts a touched, unattended, nonmagical object into iron, paper, or wood (your choice). The spell converts at most 1 cubic foot of material per caster level you have; if the object is larger than the maximum volume, the transfiguration stops once that amount of matter has been converted. If your caster level is at least 14th, you can opt to create lead. If your caster level is at least 19th, you can opt to create precious metals. If you create a precious metal, you must use an equivalent value of alchemical reagents as a material component (5 sp per pound of copper, 5 gp per pound of silver, 50 gp per pound of gold, 500 gp per pound of platinum).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8b03ec9498b55054.json",
+    "web": "https://codex.pipsprojects.com/#/e/8b03ec9498b55054"
+  },
+  "license": "OGL 1.0a"
+}

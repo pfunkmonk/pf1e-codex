@@ -1,0 +1,31 @@
+{
+  "id": "85a5b6552dba7d72",
+  "name": "Blood Transcription",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 209",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "investigator": 2,
+      "magus": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 209\nSchool divination [evil]; Level alchemist 2, arcanist 2, investigator 2, magus 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one dead spellcaster\nDuration 24 hours\nSaving Throw none; Spell Resistance no\nDescription\nBy consuming 1 pint of blood from a spellcaster killed within the last 24 hours, you can attempt to learn a spell that spellcaster knew. Select one spell available to the dead spellcaster (this must be a spell on your spell list); you gain the knowledge of this spell for 24 hours. During this time, you may write it down (or teach it to your familiar, if you are a witch) using the normal rules for copying a spell from another source. Once you have learned it, you may prepare the spell normally.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85a5b6552dba7d72.json",
+    "web": "https://codex.pipsprojects.com/#/e/85a5b6552dba7d72"
+  },
+  "license": "OGL 1.0a"
+}

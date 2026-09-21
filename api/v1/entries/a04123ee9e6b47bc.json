@@ -1,0 +1,26 @@
+{
+  "id": "a04123ee9e6b47bc",
+  "name": "Unholy Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 364",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "oracle": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 364\nSchool abjuration [evil]; Level cleric 8, oracle 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a tiny reliquary worth 500 gp)\nEffect\nRange 20 ft.\nTargets one creature/level in a 20-ft.-radius burst centered on you\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes (harmless)\nDescription\nA malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by good creatures.\n\nSecond, a warded creature gains SR 25 against good spells and spells cast by good creatures.\n\nThird, the abjuration protects the subjects from possession and mental influence, just as protection from good does.\n\nFinally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of Strength damage (Fortitude negates).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a04123ee9e6b47bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/a04123ee9e6b47bc"
+  },
+  "license": "OGL 1.0a"
+}

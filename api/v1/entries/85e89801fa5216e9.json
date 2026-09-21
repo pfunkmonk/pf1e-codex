@@ -1,0 +1,34 @@
+{
+  "id": "85e89801fa5216e9",
+  "name": "Symbol of Sleep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 356",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 5,
+      "mesmerist": 5,
+      "occultist": 4,
+      "oracle": 5,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 356\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 5, cleric 5, mesmerist 5, occultist 4, oracle 5, sahirafiyun 5, sorcerer 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 1,000 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like symbol of death, except that all creatures of 10 HD or less within 60 feet of the symbol of sleep instead fall into a catatonic slumber for 3d6 × 10 minutes. Unlike with the sleep spell, sleeping creatures cannot be awakened by nonmagical means before this time expires.\n\nUnlike symbol of death, symbol of sleep has no hit point limit; once triggered, a symbol of sleep simply remains active for 10 minutes per caster level.\n\nNote: Magic traps such as symbol of sleep are hard to detect and disable. A rogue (only) can use the Perception skill to find a symbol of sleep and Disable Device to thwart it. The DC in each case is 25 + spell level, or 30 for symbol of sleep.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85e89801fa5216e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/85e89801fa5216e9"
+  },
+  "license": "OGL 1.0a"
+}

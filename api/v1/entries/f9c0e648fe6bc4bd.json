@@ -1,0 +1,39 @@
+{
+  "id": "f9c0e648fe6bc4bd",
+  "name": "Cure Serious Wounds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 263",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 3,
+      "alchemist": 3,
+      "bard": 3,
+      "cleric": 3,
+      "druid": 4,
+      "hunter": 4,
+      "inquisitor": 3,
+      "investigator": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "paladin": 4,
+      "ranger": 4,
+      "shaman": 3,
+      "skald": 3,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 263\nSchool conjuration (healing); Level adept 3, alchemist 3, bard 3, cleric 3, druid 4, hunter 4, inquisitor 3, investigator 3, occultist 3, oracle 3, paladin 4, ranger 4, shaman 3, skald 3, spiritualist 3, warpriest 3, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless); see text\nDescription\nThis spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15).\nMythic Cure Serious Wounds\nSource Mythic Adventures pg. 90\nThe damage cured increases to 6d8 points of damage + 2 points per caster level (maximum +30). The spell cures up to 3 points of ability damage if the target is a living creature. The target chooses what types of ability damage are cured.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9c0e648fe6bc4bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9c0e648fe6bc4bd"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "148e0f60921a076c",
+  "name": "Epidemic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 218",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 6,
+      "druid": 6,
+      "hunter": 6,
+      "oracle": 6,
+      "sorcerer": 7,
+      "warpriest": 6,
+      "witch": 6,
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 218\nSchool necromancy [disease, evil]; Level arcanist 7, cleric 6, druid 6, hunter 6, oracle 6, sorcerer 7, warpriest 6, witch 6, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget living creature\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThe target contracts one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom, as the spell contagion. However, the disease is highly contagious, and any creature that touches the infected target, is touched by the target, or spends more than an hour in a confined space with the target must make a save against the disease’s normal DC (not the spell DC) or contract the disease. If the initial target overcomes the disease by making the required number of saving throws, it remains a carrier of the disease for a length of time equal to the disease’s frequency, and can continue to infect others during this time.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/148e0f60921a076c.json",
+    "web": "https://codex.pipsprojects.com/#/e/148e0f60921a076c"
+  },
+  "license": "OGL 1.0a"
+}

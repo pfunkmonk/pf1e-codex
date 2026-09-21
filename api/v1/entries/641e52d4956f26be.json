@@ -1,0 +1,33 @@
+{
+  "id": "641e52d4956f26be",
+  "name": "Wave Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 61",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "water"
+    ],
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Source Aquatic Adventures pg. 61\nSchool transmutation [water]; Level arcanist 4, bloodrager 4, cleric 4, druid 4, hunter 4, oracle 4, shaman 4, sorcerer 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw see text\nDescription\nYou transform into a wave of frothing water up to 15 feet wide and 15 feet tall, as space permits, and then surge forth in a straight line in the direction of your choice, moving up to twice your base movement speed before immediately returning to your normal form. This movement does not provoke attacks of opportunity. While in wave form, you are immune to weapon attacks and attacks that target a specific number of creatures (since the spell is instantaneous, this is mainly relevant for readied actions and the like). All creatures and unattended objects in your path take 4d6 points of bludgeoning damage and are knocked prone. A successful Reflex save prevents a creature from being knocked prone.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/641e52d4956f26be.json",
+    "web": "https://codex.pipsprojects.com/#/e/641e52d4956f26be"
+  },
+  "license": "OGL 1.0a"
+}

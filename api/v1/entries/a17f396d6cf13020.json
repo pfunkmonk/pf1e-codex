@@ -1,0 +1,64 @@
+{
+  "id": "a17f396d6cf13020",
+  "name": "Trophy Weight",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Wilderness pg. 163",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Rules Index | GM Screen\nMastering the Wild / Trophies and Treasures\n\nTrophy Weight\nSource Ultimate Wilderness pg. 163\nIn most cases, the weight of trophy components recovered from a creature depend on the creature’s size. This weight is doubled for bones, hides, and skins, and halved for feathers, hair, and small organs such as eyes or glands. Once components have been processed into actual trophies, the resulting weight of the trophy is generally determined by the nature of the trophy created (in the case of jewelry or the like) or half the weight of the components used (in the case of something like a preserved head or limb).\n\nTable 4-10: Typical Trophy Weights\nCreature Size Trophy Weight\nFine —\nDiminutive 1/10 lb.\nTiny 1/2 lb.\nSmall 1d4 x 1/2 lbs.\nMedium 1d6 lbs.\nLarge 3d6 lbs.\nHuge 1d6 x 10 lbs.\nGargantuan 1d6 x 30 lbs.\nColossal 1d6 x 100 lbs.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Creature Size",
+          "Trophy Weight"
+        ],
+        [
+          "Fine",
+          "—"
+        ],
+        [
+          "Diminutive",
+          "1/10 lb."
+        ],
+        [
+          "Tiny",
+          "1/2 lb."
+        ],
+        [
+          "Small",
+          "1d4 x 1/2 lbs."
+        ],
+        [
+          "Medium",
+          "1d6 lbs."
+        ],
+        [
+          "Large",
+          "3d6 lbs."
+        ],
+        [
+          "Huge",
+          "1d6 x 10 lbs."
+        ],
+        [
+          "Gargantuan",
+          "1d6 x 30 lbs."
+        ],
+        [
+          "Colossal",
+          "1d6 x 100 lbs."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a17f396d6cf13020.json",
+    "web": "https://codex.pipsprojects.com/#/e/a17f396d6cf13020"
+  },
+  "license": "OGL 1.0a"
+}

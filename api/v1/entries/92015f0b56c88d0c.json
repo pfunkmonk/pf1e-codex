@@ -1,0 +1,48 @@
+{
+  "id": "92015f0b56c88d0c",
+  "name": "Dragon Blood",
+  "bucket": "monsters",
+  "category": "Universal Monster Rules",
+  "source": "Mythic Adventures pg. 226",
+  "book": "Mythic Adventures",
+  "facets": {
+    "bk": "Mythic Adventures"
+  },
+  "body": "All | Unique\nDragon Blood (Su) [Mythic]\nSource Mythic Adventures pg. 226\nThe mythic dragon’s blood and other fluids are infused with acid, cold, electricity, or fire, matching the dragon’s breath weapon energy type. Every time the dragon is damaged by a piercing or slashing weapon, the attacking creature takes energy damage according to Table 6–6: Dragon Blood Damage (or double damage if the attack is a critical hit). Using a reach weapon does not endanger the attacker in this way. If the dragon has the swallow whole ability, it adds this damage to its swallow whole damage.\n\nTable 6-6: Dragon Blood Damage\nDragon Size Points of Energy Damage\nMedium or smaller 1d4\nLarge 1d6\nHuge 1d8\nGargantuan 2d6\nColossal 2d8\n\nFormat: dragon blood (2d6 fire)\nLocation: Defensive Abilities.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Dragon Size",
+          "Points of Energy Damage"
+        ],
+        [
+          "Medium or smaller",
+          "1d4"
+        ],
+        [
+          "Large",
+          "1d6"
+        ],
+        [
+          "Huge",
+          "1d8"
+        ],
+        [
+          "Gargantuan",
+          "2d6"
+        ],
+        [
+          "Colossal",
+          "2d8"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/92015f0b56c88d0c.json",
+    "web": "https://codex.pipsprojects.com/#/e/92015f0b56c88d0c"
+  },
+  "license": "OGL 1.0a"
+}

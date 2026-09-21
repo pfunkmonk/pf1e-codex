@@ -1,0 +1,32 @@
+{
+  "id": "34654b0810ee4b78",
+  "name": "Gozreh's Trident",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 235, Gods and Magic pg. 19",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 235, Gods and Magic pg. 19\nSchool evocation [electricity]; Level bloodrager 2, cleric 2, druid 2, hunter 2, oracle 2, warpriest 2, witch 2 (Gozreh)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 0 ft.\nEffect trident-like bolt of electricity\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nA 4-foot-long, blazing, forked bolt of electricity springs forth from your hand. You wield this spear-like bolt as if it were a trident (you are considered proficient with the bolt). Attacks with Gozreh’s trident are melee touch attacks. The bolt deals 1d8 points of electricity damage + 1 point per 2 caster levels (maximum +10). Since the bolt is immaterial, your Strength modifier does not apply to the damage. The bolt can ignite combustible materials such as parchment, straw, dry sticks, and cloth.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34654b0810ee4b78.json",
+    "web": "https://codex.pipsprojects.com/#/e/34654b0810ee4b78"
+  },
+  "license": "OGL 1.0a"
+}

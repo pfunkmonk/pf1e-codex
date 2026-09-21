@@ -1,0 +1,18 @@
+{
+  "id": "2d7bd3ac30301c57",
+  "name": "Inquisitor Exarch",
+  "bucket": "archetypes",
+  "category": "Archetype",
+  "source": "Advanced Race Guide pg. 13",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "cls": "Inquisitor",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Exarch\nSource Advanced Race Guide pg. 13\nThe gruff traditionalism of most dwarves finds its apex in those who adhere to a strict orthodoxy rooted in ancient principles and practices and who are not amenable whatsoever to change or innovation.\n\nSpells: Exarchs cannot cast spells with the chaotic descriptor.\n\nInflexible Will (Ex): At 1st level, an exarch gains a +2 bonus on saving throws against confusion and insanity effects and effects with the chaotic descriptor. This ability replaces monster lore.\n\nDetect Chaos (Sp): At will, an exarch can use detect chaos. This ability replaces detect alignment.\n\nFearsome Jurist (Su): At 5th level, an exarch can imbue one of her weapons with the jurist or menacing weapon special ability as a swift action, and may switch between these properties as a swift action. When using either special ability, her weapon’s critical threat range doubles against chaotic creatures. This does not stack with keen edge, Improved Critical, or similar effects. This ability otherwise functions as and replaces bane.\n\nAura of Repetition (Su): At 8th level, once per day while using her judgment, an exarch can project an aura of repetition, as the Toil subdomain power. If the exarch takes Artifice (Toil) as her domain, the save DC of her aura increases by 2 but its duration does not increase. This ability replaces her second judgment.\n\nDouble Jeopardy (Su): At 12th level, whenever an exarch uses her fearsome jurist ability, she may choose to affect two weapons, with one gaining the jurist weapon special ability and the other the menacing special ability as above. Both special abilities may be combined in a single weapon, whose critical threat range doubles. This does not stack with keen edge, Improved Critical, or similar effects. This ability replaces greater bane.\n\nAura of Reversion (Su): At 16th level, while using her judgment, an exarch can project a 30-foot-radius emanation for a number of rounds per day equal to her inquisitor level. Any creature other than the exarch that is using a transmutation effect within this aura at the beginning of its turn becomes sickened, or sickened and nauseated if using a polymorph effect, including the change shape ability (Fortitude negates; DC 10 + 1/2 the exarch’s level + her Wisdom modifier). Continuous effects from permanent magical items do not cause this effect. Within the aura, dispel checks against transmutation effects gain a +4 bonus. This ability cannot be used simultaneously with aura of repetition. This ability replaces her third judgment.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d7bd3ac30301c57.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d7bd3ac30301c57"
+  },
+  "license": "OGL 1.0a"
+}

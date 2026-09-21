@@ -1,0 +1,35 @@
+{
+  "id": "21bcdd89b951d5c0",
+  "name": "Investigative Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 185",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "investigator": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 185\nSchool enchantment (compulsion) [mind-affecting]; Level alchemist 2, arcanist 2, bard 2, investigator 2, medium 2, mesmerist 2, occultist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level or until discharged\nDescription\nYour mind is able to correlate information effectively. When attempting an Appraise, Knowledge, Linguistics, or Spellcraft check, you can roll twice and take the higher result. If you have an ability that allows you to roll twice, you cannot use that ability and this benefit on the same roll.\n\nThe spell is discharged once you have used its benefit a number of times equal to your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/21bcdd89b951d5c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/21bcdd89b951d5c0"
+  },
+  "license": "OGL 1.0a"
+}

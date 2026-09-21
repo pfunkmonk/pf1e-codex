@@ -1,0 +1,28 @@
+{
+  "id": "4060cf38e175f78b",
+  "name": "Mark of Obvious Ethics",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 187",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 3,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 187\nSchool divination [curse]; Level cleric 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou mark one creature with a glowing sigil. The target’s alignment must be opposite yours on at least one alignment axis—if you are neutral with no other alignment components, the target must have an alignment with no neutral component. Any creature that sees the target can attempt a DC 15 Knowledge (religion) check to discern the target’s alignment, even if the mark is covered. You are aware of the direction and distance to the target as long as it remains within 100 miles of you and on the same plane.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4060cf38e175f78b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4060cf38e175f78b"
+  },
+  "license": "OGL 1.0a"
+}

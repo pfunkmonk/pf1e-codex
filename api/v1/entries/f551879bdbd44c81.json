@@ -1,0 +1,27 @@
+{
+  "id": "f551879bdbd44c81",
+  "name": "Deadly Finale",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 214",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 6,
+      "skald": 6
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 214\nSchool evocation [sonic]; Level bard 6, skald 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets 1 creature/3 levels no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYou must have a bardic performance in effect to cast this spell. With a flourish, you immediately end your performance, dealing 2d8 points of sonic damage to each target. In addition, each target takes 3d6 points of bleed damage for 1d6 rounds. A save negates the bleed damage but not the sonic damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f551879bdbd44c81.json",
+    "web": "https://codex.pipsprojects.com/#/e/f551879bdbd44c81"
+  },
+  "license": "OGL 1.0a"
+}

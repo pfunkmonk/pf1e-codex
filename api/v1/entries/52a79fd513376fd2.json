@@ -1,0 +1,22 @@
+{
+  "id": "52a79fd513376fd2",
+  "name": "Exiled Shade",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 123",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 6,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "CE",
+    "bk": "Bestiary 6",
+    "st": "incorporeal"
+  },
+  "body": "Gray and black shadows and mist coalesce into a humanoid figure, its face a distorted mask of rage and hatred.\nExiled Shade CR 6\nSource Bestiary 6 pg. 123\nXP 2,400\nCE Medium undead (incorporeal)\nInit +7; Senses darkvision 60 ft.; Perception +9\nDefense\nAC 18, touch 18, flat-footed 14 (+4 deflection, +3 Dex, +1 dodge)\nhp 68 (8d8+32)\nFort +6, Ref +5, Will +8\nDefensive Abilities channel resistance +2, incorporeal; Immune undead traits\nWeaknesses exiled\nOffense\nSpeed fly 40 ft. (perfect)\nMelee incorporeal touch +10 (1d6 Intelligence damage)\nSpecial Attacks rage thrall\nStatistics\nStr —, Dex 17, Con —, Int 7, Wis 14, Cha 19\nBase Atk +6; CMB +9; CMD 24\nFeats Dodge, Improved Initiative, Mobility, Weapon Focus (incorporeal touch)\nSkills Fly +18, Perception +9, Sense Motive +9, Stealth +10\nLanguages Common\nEcology\nEnvironment any\nOrganization solitary, pair, or banishment (3–10)\nTreasure none\nSpecial Abilities\nExiled (Ex) The symbols of an exiled shade’s former organization still hold power over its restless spirit. An exiled shade that can see such a symbol is sickened for as long as the symbol remains visible. Additionally, if a shade is directly confronted with such a symbol (which requires a standard action) it must succeed at a DC 16 Will save or become dazed for 1 round. If the shade succeeds, it can no longer be dazed in this manner for 24 hours, but remains sickened while in the symbol’s presence. If this symbol is a holy symbol and is used in the act of channeling energy, the exiled shade does not gain its channel resistance against the effect. The symbol must be something the exiled shade’s organization used to identify its members while the shade was alive, such as a noble crest, a knightly banner, or a holy icon.\n\nIntelligence Damage (Su) An exiled shade’s touch clouds the target’s mind with anger and resentment, dealing 1d6 points of Intelligence damage. This is an emotion-based, mind-affecting, negative energy effect.\n\nRage Thrall (Su) If an exiled shade deals a cumulative amount of Intelligence damage greater than or equal to a humanoid target’s actual Intelligence score, the affected creature does not fall unconscious as normal. Instead, the target ceases to take penalties from its Intelligence damage and falls under the control of the exiled shade, as per dominate person. Creatures so dominated cannot attempt new saving throws to escape the shade’s control until their Intelligence damage no longer equals or exceeds their actual Intelligence score. An exiled shade can control only a single creature in this manner. If an exiled shade deals enough Intelligence damage to a second creature to activate this ability, the first creature is relinquished from its control (though it might immediately fall unconscious if its Intelligence damage equals or exceeds its actual Intelligence score).\nDescription\nAn exiled shade is a wretched, undead remnant of an evil organization. Driven out and possibly even slain by its former allies, the exiled shade wallows in the pain of its betrayal and its paradoxical desires to simultaneously destroy and be reunited with its former comrades.\n\nExiled shades linger near the places they once served, but are psychologically unable to return to the places from which they were exiled. Instead they attack lonesome travelers, enslaving them to use as puppets against their onetime allies.\n\nAn exiled shade is approximately 6 feet tall.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/52a79fd513376fd2.json",
+    "web": "https://codex.pipsprojects.com/#/e/52a79fd513376fd2"
+  },
+  "license": "OGL 1.0a"
+}

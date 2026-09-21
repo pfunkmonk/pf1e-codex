@@ -1,0 +1,46 @@
+{
+  "id": "0dddcd4f00f1738e",
+  "name": "Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 304",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 0,
+      "arcanist": 0,
+      "bard": 0,
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "medium": 0,
+      "mesmerist": 0,
+      "occultist": 0,
+      "oracle": 0,
+      "psychic": 0,
+      "shaman": 0,
+      "skald": 0,
+      "sorcerer": 0,
+      "spiritualist": 0,
+      "summoner": 0,
+      "warpriest": 0,
+      "witch": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 304\nSchool evocation [light]; Level adept 0, arcanist 0, bard 0, cleric 0, druid 0, hunter 0, inquisitor 0, magus 0, medium 0, mesmerist 0, occultist 0, oracle 0, psychic 0, shaman 0, skald 0, sorcerer 0, spiritualist 0, summoner 0, summoner (unchained) 0, warpriest 0, witch 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, M/DF (a firefly)\nEffect\nRange touch\nTarget object touched\nDuration 10 min./level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.\n\nYou can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. Light can be used to counter or dispel any darkness spell of equal or lower spell level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0dddcd4f00f1738e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0dddcd4f00f1738e"
+  },
+  "license": "OGL 1.0a"
+}

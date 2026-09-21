@@ -1,0 +1,36 @@
+{
+  "id": "07bdde2a6f497609",
+  "name": "Transplant Visage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 244",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "antipaladin": 4,
+      "arcanist": 5,
+      "cleric": 4,
+      "inquisitor": 4,
+      "investigator": 5,
+      "magus": 5,
+      "oracle": 4,
+      "shaman": 4,
+      "sorcerer": 5,
+      "warpriest": 4,
+      "witch": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 244\nSchool transmutation [evil]; Level alchemist 5, antipaladin 4, arcanist 5, cleric 4, inquisitor 4, investigator 5, magus 5, oracle 4, shaman 4, sorcerer 5, warpriest 4, witch 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S, M (one corpse)\nEffect\nRange personal\nTarget you\nDuration permanent\nDescription\nThis spell allows you to add a creature’s stolen face to or remove such a face that you’ve already applied from your own. Before casting this spell, you must remove the face and eyes of a creature that has been dead no longer than 1 minute per caster level and place it over your own. Once you cast transplant visage, the creature’s stolen skin magically melds with your own, making the expressions and eye color on your new face seem perfectly natural. Your new appearance grants you a +10 bonus on Disguise checks. Because the alteration made by transplant visage is permanent, there is no residual magical aura, and your new appearance is not recognized by detect spells. Transplant visage may be cast innumerable times, allowing a single caster to wear layers upon layers of stolen faces. However, only the topmost face is visible at any one time.\n\nTransplant visage may also be used to remove a previously stolen face. This is the only way to remove a face short of using greater polymorph, miracle, or wish. When used in this way, transplant visage causes the topmost face to flake off and crumble into dust. A face so removed may not be reused. If the caster is wearing several stolen faces when the topmost face is removed, the next face down is revealed, and may be used as normal.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07bdde2a6f497609.json",
+    "web": "https://codex.pipsprojects.com/#/e/07bdde2a6f497609"
+  },
+  "license": "OGL 1.0a"
+}

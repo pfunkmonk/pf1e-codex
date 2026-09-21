@@ -1,0 +1,27 @@
+{
+  "id": "330f37614094476a",
+  "name": "Absorb Rune III",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 60",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Absorb Rune III\nSource Adventurer's Guide pg. 60\nSchool abjuration; Level arcanist 9, cleric 9, oracle 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a white silk glove worth 25 gp)\nEffect\nRange touch\nTarget one spell effect\nDuration instantaneous plus 1 minute/level (see text)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like absorb rune I, but it can affect runes equivalent to a spell of 8th level or lower.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/330f37614094476a.json",
+    "web": "https://codex.pipsprojects.com/#/e/330f37614094476a"
+  },
+  "license": "OGL 1.0a"
+}

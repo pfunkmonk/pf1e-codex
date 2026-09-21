@@ -1,0 +1,21 @@
+{
+  "id": "77bddbb4fa73e0d1",
+  "name": "Bonethorn",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 52",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 12,
+    "sz": "Medium",
+    "t": "plant",
+    "al": "N",
+    "bk": "Bestiary 6"
+  },
+  "body": "Ligaments of stringy black fungus connect the bones of this filthy skeleton. In numerous places, the fungus has formed thorny growths.\nBonethorn CR 12\nSource Bestiary 6 pg. 52\nXP 19,200\nN Medium plant\nInit +10; Senses lifesense, low-light vision; Perception +22\nDefense\nAC 27, touch 17, flat-footed 20 (+6 Dex, +1 dodge, +10 natural)\nhp 150 (20d8+60)\nFort +15, Ref +14, Will +11\nDefensive Abilities positive energy absorption; DR 10/bludgeoning; Immune plant traits\nOffense\nSpeed 30 ft.\nMelee gore +24 (2d6+9 plus spores), 2 claws +24 (2d6+9/19–20 plus spores)\nSpecial Attacks critical implantation\nStatistics\nStr 28, Dex 23, Con 17, Int 2, Wis 16, Cha 9\nBase Atk +15; CMB +24; CMD 41\nFeats Combat Reflexes, Critical Focus, Dodge, Improved Critical (claw), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Sickening Critical, Skill Focus (Perception)\nSkills Perception +22, Stealth +19\nEcology\nEnvironment any\nOrganization solitary, gang (2–6), or pack (7–12)\nTreasure incidental\nSpecial Abilities\nCritical Implantation (Ex) If a bonethorn scores a critical hit with any of its natural weapons, the victim takes a –4 penalty on its Fortitude save to resist the spore effect.\n\nPositive Energy Absorption (Sp) Those attempting to affect a bonethorn with positive energy quickly discover their mistake. Not only does positive energy heal the bonethorn (as it is a living creature, not undead), but it also absorbs the positive energy, boosting its metabolism. Whenever a bonethorn is affected by positive energy, it gains the benefits of haste and fast healing 5 for 1 round. This duration increases to 2 rounds if the bonethorn is not wounded at the time it is affected by positive energy. The durations from multiple exposures to positive energy effects stack.\n\nSpores (Su) Each time a bonethorn deals damage with its sporeladen natural attacks, its victim must attempt a DC 23 Fortitude save to avoid becoming infested by the fungus. If the victim fails, the fungus swiftly propagates through its body, erupting from wounds and ripping through undamaged flesh, dealing 2d6 points of slashing damage per round at the start of the infected creature’s turn. A creature that has a skeleton and that dies while infested with bonethorn spores is consumed over the course of 2d6 rounds, after which a new bonethorn rises from the remains. A new bonethorn created in this manner from a Large or larger body can animate only a Medium-sized portion of the skeleton, resulting in strange, partially skeletal hosts that have similar statistics to a bonethorn grown from a humanoid host. Burning or otherwise completely destroying the victim’s body before the spores complete their consumption prevents it from becoming a new bonethorn. This is a disease effect. The save DC is Constitution-based.\nDescription\nBonethorns form from bodies devoured and reanimated by a hideous, flesh-eating fungus. After consuming a creature’s flesh, the fungus binds to the bones and takes the place of the body’s muscular system. As the fungus spreads across the skeleton, it solidifies into numerous raised spikes used to implant fungal spores into other living creatures. Once permanently affixed, it uses the host skeleton to move around so as to spread spores and create more bonethorns.\n\nA bonethorn has a rudimentary intellect, but spends most of its time seeking new hosts. When flesh isn’t available, the fungus goes dormant and can remain so for hundreds of years. While dormant, the bonethorn is inanimate. As soon as the fungus senses life, it reanimates the skeleton—an action easily confused for a corpse rising from the dead. This can fool clerics into trying to turn the creatures, which absorb the positive energy to their benefit.\n\nA typical bonethorn is 6 feet tall and weighs 60 pounds",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77bddbb4fa73e0d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/77bddbb4fa73e0d1"
+  },
+  "license": "OGL 1.0a"
+}

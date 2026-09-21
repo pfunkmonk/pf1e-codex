@@ -1,0 +1,35 @@
+{
+  "id": "c5faf14ef7c12d32",
+  "name": "Charon's Dispensation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Book of the Damned pg. 183, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 38",
+  "book": "Book of the Damned",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "medium": 4,
+      "mesmerist": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Book of the Damned"
+  },
+  "body": "Source Book of the Damned pg. 183, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 38\nSchool abjuration; Level arcanist 4, cleric 4, inquisitor 4, medium 4, mesmerist 4, oracle 4, psychic 4, shaman 4, sorcerer 4, spiritualist 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (2 silver coins)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target of this spell gains immunity to the harmful effects of touching or drinking from the River Styx and a +4 profane bonus on saves against effects that alter or suppress memory (such as modify memory or mindwipe). This does not grant the target the ability to breathe water, nor does it grant any protection against creatures or mundane hazards such as rapids. The spell has no power to restore memory to a creature already suffering from an existing fugue or amnesia state.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c5faf14ef7c12d32.json",
+    "web": "https://codex.pipsprojects.com/#/e/c5faf14ef7c12d32"
+  },
+  "license": "OGL 1.0a"
+}

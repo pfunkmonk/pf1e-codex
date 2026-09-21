@@ -1,0 +1,31 @@
+{
+  "id": "06ab13ec01673893",
+  "name": "Insanity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 301",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 7,
+      "mesmerist": 6,
+      "psychic": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 301\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 7, mesmerist 6, psychic 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe affected creature suffers from a continuous confusion effect, as the spell.\n\nRemove curse does not remove insanity. Greater restoration, heal, limited wish, miracle, or wish can restore the creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/06ab13ec01673893.json",
+    "web": "https://codex.pipsprojects.com/#/e/06ab13ec01673893"
+  },
+  "license": "OGL 1.0a"
+}

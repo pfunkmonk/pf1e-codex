@@ -1,0 +1,21 @@
+{
+  "id": "bb2f444e81826db9",
+  "name": "Warmonger",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 274",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 19,
+    "sz": "Huge",
+    "t": "construct",
+    "al": "N",
+    "bk": "Bestiary 6"
+  },
+  "body": "This massive wood-and-metal giant wields a scythe, a wicked spiked wrecking ball, an immense pick, and a huge crossbow.\nWarmonger CR 19\nSource Bestiary 6 pg. 274\nXP 204,800\nN Huge construct\nInit +6; Senses darkvision 120 ft., low-light vision; Perception +7\nDefense\nAC 34, touch 14, flat-footed 28 (+6 Dex, +20 natural, –2 size)\nhp 344 (28d10+190)\nFort +9, Ref +15, Will +16\nDR 15/adamantine and bludgeoning; Immune construct traits\nOffense\nSpeed 40 ft.\nMelee reaper +37 (3d6+11/×4), siege pick +37 (2d6+11/×4), wrecking ball +37 (3d6+11 plus stun), 2 slams +37 (1d8+11)\nRanged 4 automatic crossbow bolts +32 (3d8/19–20), rock +33 (3d6+11)\nSpace 15 ft., Reach 15 ft. (30 ft. with wrecking ball)\nSpecial Attacks rock throwing (140 ft.), warmonger weaponry\nStatistics\nStr 32, Dex 23, Con —, Int —, Wis 25, Cha 11\nBase Atk +28; CMB +41; CMD 57\nSQ fortified construction\nEcology\nEnvironment any\nOrganization solitary\nTreasure none\nSpecial Abilities\nAutomatic Crossbow (Ex) Bolts fired from a warmonger’s automatic crossbow have a range increment of 100 feet and deal 3d8 points of piercing damage, with a critical threat range of 19–20. The weapon creates ammunition magically as needed and can fire up to four bolts per round as part of a full attack. A warmonger can throw one rock in the same round that it attacks with its automatic crossbow, but cannot throw rocks or use its crossbow in the same round it makes melee attacks.\n\nFortified Construction (Ex) A warmonger gains an additional 150 bonus hit points in addition to the 40 bonus hit points a Huge construct gains.\n\nWarmonger Weaponry (Ex) A warmonger’s weapons are all primary natural attacks. The reaper deals slashing damage, the siege pick piercing damage, and the wrecking ball bludgeoning damage. Creatures damaged by the wrecking ball are stunned for 1 round unless they succeed at a DC 24 Fortitude save. The save DC is Constitution-based.\nDescription\nWarmongers are the scourges of battlefields, unleashed by creators seeking decisive ends to large-scale conflicts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb2f444e81826db9.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb2f444e81826db9"
+  },
+  "license": "OGL 1.0a"
+}

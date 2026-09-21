@@ -1,0 +1,28 @@
+{
+  "id": "d82942bbf5c9274c",
+  "name": "Enemy Hammer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 219",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "wizard": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 219\nSchool transmutation; Level arcanist 6, occultist 6, psychic 6, sorcerer 6, spiritualist 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (puppet strings)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYou grab a creature with telekinesis and use it to batter nearby opponents or objects. You must target a specific creature when casting this spell and once you select that creature you cannot switch to another. Each round, as a standard action, you can attempt to hurl the target at any creature or object within 30 feet of it. You must make an attack roll whenever you use the target as a weapon. The attack bonus for this attack is equal to your caster level plus either your Intelligence or Charisma modifier (whichever is higher). If you successfully hit the new target with the creature both it and the creature take damage based on the creature’s size.\n\nCreature Size Damage Dealt\nFine 1d4\nDiminutive 1d6\nTiny 1d8\nSmall 1d10\nMedium 2d6\nLarge 2d8\nHuge 2d10\nGargantuan 3d6\nColossal 3d8\n\nThe target creature can make a Fortitude saving throw each time you attempt to use it as a weapon. If it makes its saving throw it can act normally, but if it fails its save it loses all actions for the round and ends its turn prone in a square adjacent to the target of your attack. However, if the creature chooses to resist your efforts to move it, taking no other actions for the round, it gets a +4 circumstance bonus on its saving throw. The spell ends immediately if the target creature dies or is destroyed.\nMythic Enemy Hammer\nSource Mythic Adventures pg. 93\nThe target becomes entangled whether or not it succeeds at its saving throw. When using the target as a weapon, add half your tier to your attack roll, and add your tier to the damage roll.\n\nAugmented (3rd): If you expend two uses of mythic power, when you use the target to hit a creature, you can attempt a free bull rush combat maneuver against that creature. Your CMB for this maneuver is equal to your attack bonus for mythic enemy hammer, except you add your tier instead of half your tier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d82942bbf5c9274c.json",
+    "web": "https://codex.pipsprojects.com/#/e/d82942bbf5c9274c"
+  },
+  "license": "OGL 1.0a"
+}

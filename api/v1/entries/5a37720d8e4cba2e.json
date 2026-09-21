@@ -1,0 +1,29 @@
+{
+  "id": "5a37720d8e4cba2e",
+  "name": "Heart of the Mammoth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dragonslayer's Handbook pg. 29",
+  "book": "Dragonslayer's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "druid": 8,
+      "oracle": 8,
+      "sorcerer": 8,
+      "witch": 8,
+      "wizard": 8
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Dragonslayer's Handbook"
+  },
+  "body": "Source Dragonslayer's Handbook pg. 29\nSchool transmutation; Level arcanist 8, cleric 8, druid 8, oracle 8, sorcerer 8, witch 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a fetish of mammoth hair soaked in dragon’s blood)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will (harmless); Spell Resistance no\nDescription\nThe target creature becomes stronger, hardier, and imbued with the courage of the greatest megafauna of the tundra. The spell grants a +8 enhancement bonus to Strength and Constitution, immunity to fear, a +4 morale bonus to Will saves, and doubles the critical threat range of all its attacks against creatures of the dragon type (this does not stack with Improved Critical, keen edge, or similar effects).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a37720d8e4cba2e.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a37720d8e4cba2e"
+  },
+  "license": "OGL 1.0a"
+}

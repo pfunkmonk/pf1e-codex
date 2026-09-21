@@ -1,0 +1,27 @@
+{
+  "id": "9f0713d90ea36b71",
+  "name": "Rubberskin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Melee Tactics Toolbox pg. 31",
+  "book": "Melee Tactics Toolbox",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 5,
+      "investigator": 4,
+      "magus": 4,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "bk": "Melee Tactics Toolbox"
+  },
+  "body": "Source Melee Tactics Toolbox pg. 31\nSchool transmutation; Level alchemist 4, arcanist 5, investigator 4, magus 4, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of rubber or drop of tar)\nEffect\nRange personal\n\nDuration 10 minutes/level\nDescription\nYour skin becomes more elastic, distributing crushing damage efficiently. For the duration of the spell, all bludgeoning and falling damage you take is converted into nonlethal damage. This spell has no effect if you’re immune to nonlethal damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f0713d90ea36b71.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f0713d90ea36b71"
+  },
+  "license": "OGL 1.0a"
+}

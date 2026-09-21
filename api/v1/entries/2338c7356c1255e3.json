@@ -1,0 +1,32 @@
+{
+  "id": "2338c7356c1255e3",
+  "name": "Reaper's Coterie",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Melee Tactics Toolbox pg. 31",
+  "book": "Melee Tactics Toolbox",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 2,
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "warpriest": 3,
+      "witch": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Melee Tactics Toolbox"
+  },
+  "body": "Source Melee Tactics Toolbox pg. 31\nSchool necromancy [evil]; Level antipaladin 2, bloodrager 2, cleric 3, inquisitor 3, oracle 3, warpriest 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget weapon touched\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nThe target weapon becomes a reservoir of spiritual energy, fueling its destructive power by drawing in a tiny fragment of the essence of each creature it is used to defeat. When the targeted weapon is used to reduce a living creature to 0 or fewer hit points, it gains a +1 profane bonus on damage rolls. This bonus increases by 1 for each creature reduced to 0 hit points or fewer with that weapon, up to a maximum bonus equal to 1/2 your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2338c7356c1255e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/2338c7356c1255e3"
+  },
+  "license": "OGL 1.0a"
+}

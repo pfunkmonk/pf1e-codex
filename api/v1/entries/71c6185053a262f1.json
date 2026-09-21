@@ -1,0 +1,28 @@
+{
+  "id": "71c6185053a262f1",
+  "name": "Handy Grapnel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 215",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 215\nSchool transmutation; Level arcanist 1, hunter 1, inquisitor 1, ranger 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (an arrowhead)\nEffect\nRange touch\nTarget one ropelike object, length up to 50 ft. + 5 ft./level\nDuration 1 minute/level (D)\nSaving Throw Fortitude negates (object); Spell Resistance no\nDescription\nYou cause the target rope to shrink and reshape itself into an arrow, bolt, or similar piece of ammunition, which you can shoot at any Medium or larger object. With a successful attack roll against an AC equal to 5 plus the hardness of the target object, the handy grapnel strikes and embeds itself in that object with the strength of an iron grappling hook.\n\nAs a move action, you can command the rope to extend from the arrow. If you are within a distance equal to the length of the rope and have a hand free, the end of the rope swings directly into your hand. With another move action, you can command the handy grapnel to retract itself up to the grappling hook, pulling up any creature or object supported by the rope at a speed of 50 feet per round.\n\nOnce embedded, the rope can be used for climbing or any other purpose a rope could serve, and it can bear up to 200 pounds per level of the caster at a time (maximum 1,000 pounds). If this weight limit is exceeded, the handy grapnel comes loose and any creature or object supported by the rope falls.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/71c6185053a262f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/71c6185053a262f1"
+  },
+  "license": "OGL 1.0a"
+}

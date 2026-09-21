@@ -1,0 +1,30 @@
+{
+  "id": "43f8b2342493cb63",
+  "name": "Make Lost",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Monster Codex pg. 41",
+  "book": "Inner Sea Monster Codex",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "druid": 2,
+      "hunter": 1,
+      "ranger": 1,
+      "skald": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Monster Codex"
+  },
+  "body": "Source Inner Sea Monster Codex pg. 41\nSchool enchantment (compulsion) [mind-affecting]; Level bard 2, druid 2, hunter 1, ranger 1, skald 2\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou strip the targets of their senses of direction and recent memories of travel. They immediately forget the route they took in the last hour (but not details of encounters along the way) and become lost (Pathfinder RPG Core Rulebook 424).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43f8b2342493cb63.json",
+    "web": "https://codex.pipsprojects.com/#/e/43f8b2342493cb63"
+  },
+  "license": "OGL 1.0a"
+}

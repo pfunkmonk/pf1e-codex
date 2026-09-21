@@ -1,0 +1,55 @@
+{
+  "id": "0919c2a3a952541c",
+  "name": "Satchel of Plentiful Feed Type I",
+  "bucket": "items",
+  "category": "Wondrous Items",
+  "source": "Villain Codex pg. 165",
+  "book": "Villain Codex",
+  "facets": {
+    "pr": 2000,
+    "bk": "Villain Codex"
+  },
+  "body": "Satchel of Plentiful Feed\nSource Villain Codex pg. 165\nAura faint conjuration; CL 5th\nSlot none; Price 2,000 gp ( Type I), 4,000 gp ( Type II), 7,500 gp ( Type III), 15,000 gp ( Type IV); Weight varies\nDescription\nThis item appears to be an unremarkable mesh bag with many small openings, but it is stuffed to overflowing with hay. It can be hung from a line, post, or tree limb and used to feed horses and ponies. It produces enough fresh feed for a number of horses or other similar mounts each day, as shown in the table below.\nSatchel Type Satchel Weight Mounts Fed/Day Market Price\nI 15 lbs. 4 2,000 gp\nII 20 lbs. 10 4,000 gp\nIII 25 lbs. 25 7,500 gp\nIV 30 lbs. 50 15,000 gp\nConstruction\nRequirements Craft Wondrous Item, create food and water; Cost 1,000 gp (Type I), 2,000 gp (Type II), 3,750 gp (Type III), 7,500 gp (Type IV)",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Satchel Type",
+          "Satchel Weight",
+          "Mounts Fed/Day",
+          "Market Price"
+        ],
+        [
+          "I",
+          "15 lbs.",
+          "4",
+          "2,000 gp"
+        ],
+        [
+          "II",
+          "20 lbs.",
+          "10",
+          "4,000 gp"
+        ],
+        [
+          "III",
+          "25 lbs.",
+          "25",
+          "7,500 gp"
+        ],
+        [
+          "IV",
+          "30 lbs.",
+          "50",
+          "15,000 gp"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0919c2a3a952541c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0919c2a3a952541c"
+  },
+  "license": "OGL 1.0a"
+}

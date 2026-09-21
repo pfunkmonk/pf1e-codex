@@ -1,0 +1,25 @@
+{
+  "id": "7388899906743daf",
+  "name": "Spell Turning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 347",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 7,
+      "psychic": 7,
+      "sorcerer": 7,
+      "summoner": 5,
+      "wizard": 7
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 347\nSchool abjuration; Level arcanist 7, psychic 7, sorcerer 7, summoner 5, summoner (unchained) 6, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a small silver mirror)\nEffect\nRange personal\nTarget you\nDuration until expended or 10 min./level\nDescription\nSpells and spell-like effects targeted on you are turned back upon the original caster. The abjuration turns only spells that have you as a target. Effect and area spells are not affected. Spell turning also fails to stop touch range spells. From seven to ten (1d4+6) spell levels are affected by the turning. The exact number is rolled secretly.\n\nWhen you are targeted by a spell of higher level than the amount of spell turning you have left, that spell is partially turned. Subtract the amount of spell turning left from the spell level of the incoming spell, then divide the result by the spell level of the incoming spell to see what fraction of the effect gets through. For damaging spells, you and the caster each take a fraction of the damage. For nondamaging spells, each of you has a proportional chance to be the one who is affected. If you and a spellcasting attacker are both warded by spell turning effects in operation, a resonating field is created. Roll randomly to determine the result.\n\nd% Effect\n01-70 Spell drains away without effect.\n71-80 Spell affects both of you equally at full effect.\n81-97 Both turning effects are rendered nonfunctional for 1d4 minutes.\n98-100 Both of you go through a rift into another plane.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7388899906743daf.json",
+    "web": "https://codex.pipsprojects.com/#/e/7388899906743daf"
+  },
+  "license": "OGL 1.0a"
+}

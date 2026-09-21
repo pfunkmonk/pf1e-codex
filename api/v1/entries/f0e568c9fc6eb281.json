@@ -1,0 +1,28 @@
+{
+  "id": "f0e568c9fc6eb281",
+  "name": "Summon Barghest II",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Comics #10 pg. 26",
+  "book": "Pathfinder Comics #10",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder Comics #10"
+  },
+  "body": "Summon Barghest I\nSource Pathfinder Comics #10 pg. 26\nSchool conjuration (summoning) [evil]; Level cleric 4, oracle 4, warpriest 4\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned barghest\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell summons a barghest from the Abyssal realm of Basalfeyst to serve the caster, functioning similarly to summon monster save that it may only be used to summon a single barghest. Although the summoned barghest does not have the feed ability, if you are at least caster level 9th the summoned barghest appears with 2 growth points (and with it the appropriate bonuses to its attacks, CMB, saves, skill checks, hit points, and caster level).\nSummon Barghest II\nSource Pathfinder Comics #10 pg. 27\nSchool conjuration (summoning) [evil]; Level cleric 6, oracle 6, warpriest 6\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned greater barghest or 1d3 summoned barghest\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon barghest I, save that it can summon 1 greater barghest or 1d3 normal barghests with 2 growth points each.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f0e568c9fc6eb281.json",
+    "web": "https://codex.pipsprojects.com/#/e/f0e568c9fc6eb281"
+  },
+  "license": "OGL 1.0a"
+}

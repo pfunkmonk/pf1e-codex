@@ -1,0 +1,28 @@
+{
+  "id": "ff2b38fd6d1fac85",
+  "name": "Crimson Confession",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 179",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 179\nSchool abjuration; Level arcanist 2, occultist 2, psychic 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange touch\nTarget or Area object touched or up to 1 sq. ft.\nDuration permanent and 1 hour/level (see text)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou ward an object or an area with your personal rune or mark. You can choose for the writing to be visible or invisible, and it doesn’t harm the material upon which it is placed. A detect magic spell causes an invisible mark to glow and be visible. If any creature other than you touches the warded object or area and fails a Fortitude save, its skin turns bright red for 1 hour per level. This coloring cannot be washed away, but it can be dispelled.\n\nSee invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible mark. A read magic spell reveals the words, if any. The ward cannot be dispelled, but it can be removed by the caster or by an erase spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff2b38fd6d1fac85.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff2b38fd6d1fac85"
+  },
+  "license": "OGL 1.0a"
+}

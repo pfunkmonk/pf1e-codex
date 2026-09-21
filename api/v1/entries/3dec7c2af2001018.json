@@ -1,0 +1,30 @@
+{
+  "id": "3dec7c2af2001018",
+  "name": "Detect Metal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the River pg. 26",
+  "book": "People of the River",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "investigator": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "People of the River"
+  },
+  "body": "Source People of the River pg. 26\nSchool divination; Level alchemist 1, arcanist 1, bard 1, investigator 1, skald 1, sorcerer 1, summoner 1, summoner (unchained) 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a magnetized nail or nugget of ore)\nEffect\nRange 60 ft.\nArea cone-shaped emanation\nDuration concentration, up to 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou detect any metal objects or creatures within a 60-foot cone. You can specify all metal objects or one or more specific types of metal (such as silver, cold iron, or a type of skymetal) when you cast this spell; in the case of the latter, you detect only objects or creatures made of the specified metal.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3dec7c2af2001018.json",
+    "web": "https://codex.pipsprojects.com/#/e/3dec7c2af2001018"
+  },
+  "license": "OGL 1.0a"
+}

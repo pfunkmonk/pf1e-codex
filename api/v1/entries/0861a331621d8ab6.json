@@ -1,0 +1,24 @@
+{
+  "id": "0861a331621d8ab6",
+  "name": "Litany of Righteousness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 235",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "inquisitor": 3,
+      "paladin": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 235\nSchool evocation [good, language-dependent]; Level inquisitor 3, paladin 2\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nCalling down a litany of anathema, you make an evil more susceptible to the attacks of good creatures. If the target is evil, it takes double damage from attacks made by creatures with a good aura (from a class feature or as a creature with the good subtype). If the target also has the evil subtype; when it is hit with attacks made by creatures with a good aura, it is also dazzled for 1d4 rounds. If this spell targets a nonevil creature (or one that lacks the evil subtype), it has no effect, and the spell is wasted.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0861a331621d8ab6.json",
+    "web": "https://codex.pipsprojects.com/#/e/0861a331621d8ab6"
+  },
+  "license": "OGL 1.0a"
+}

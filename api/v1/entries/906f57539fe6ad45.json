@@ -1,0 +1,33 @@
+{
+  "id": "906f57539fe6ad45",
+  "name": "Cloak of Secrets",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Streets pg. 30",
+  "book": "Heroes of the Streets",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Heroes of the Streets"
+  },
+  "body": "Source Heroes of the Streets pg. 30\nSchool illusion (glamer); Level antipaladin 1, arcanist 1, bard 1, cleric 1, inquisitor 1, oracle 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 5-ft.-radius emanation centered on a point in space\nDuration 10 minutes/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell forms an invisible bubble that filters all speech coming from inside the affected area so that creatures outside hear a completely different version of the conversation. The bubble also disguises lip movements to match the false conversation. Any creature listening to the conversation for at least 1 round can attempt a DC 15 Sense Motive check to realize that the apparent conversation doesn’t actually make any sense. The bubble also obscures the verbal components of spells cast within the area so it’s impossible to identify spells by their verbal components alone, and anyone outside the bubble attempting a Spellcraft check to identify a spell cast within the bubble takes a –5 penalty on the check. Furthermore, the bubble renders any language-dependent spells and effects used within the bubble ineffective against creatures outside the area.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/906f57539fe6ad45.json",
+    "web": "https://codex.pipsprojects.com/#/e/906f57539fe6ad45"
+  },
+  "license": "OGL 1.0a"
+}

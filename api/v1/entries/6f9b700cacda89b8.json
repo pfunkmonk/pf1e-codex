@@ -1,0 +1,30 @@
+{
+  "id": "6f9b700cacda89b8",
+  "name": "Mydriatic Spontaneity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 28",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 28\nSchool evocation [darkness, light]; Level arcanist 4, bard 3, mesmerist 3, psychic 3, skald 3, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou overstimulate the target with alternating flashes of light and shadow within its eyes, causing its pupils to rapidly dilate and contract. While under the effects of this spell, the target is racked by splitting headaches and unable to see clearly, becoming nauseated for the spell’s duration. Each round, the target’s pupils randomly become dilated or contracted for 1 round. During any round that its eyes are dilated, the target is blinded if exposed to bright light or dazzled if exposed to normal light. During any round its eyes are contracted, the target is blinded if exposed to darkness or dazzled if exposed to dim light. In addition, any creature can attempt a Stealth check to avoid detection from the target, even if the creature lacks cover or concealment.\nMydriatic Spontaneity, Mass\nSource Blood of Shadows pg. 29\nSchool evocation [darkness, light]; Level arcanist 7, bard 5, mesmerist 5, psychic 6, skald 5, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more living creatures, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as mydriatic spontaneity, except it can affect multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f9b700cacda89b8.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f9b700cacda89b8"
+  },
+  "license": "OGL 1.0a"
+}

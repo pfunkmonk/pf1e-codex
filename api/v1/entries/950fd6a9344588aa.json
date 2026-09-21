@@ -1,0 +1,31 @@
+{
+  "id": "950fd6a9344588aa",
+  "name": "Sun Metal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 245, Faiths of Purity pg. 28",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 245, Faiths of Purity pg. 28\nSchool transmutation [fire]; Level cleric 1, hunter 1, oracle 1, paladin 1, ranger 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one melee weapon\nDuration 1 round/level (see text)\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nThe target weapon ignites into flame that does not hurt the weapon or the wielder, but damages those hit by the weapon. When the weapon’s wielder hits with this weapon, it deals an additional 1d4 points of fire damage. This damage is not multiplied in the case of a critical hit. This effect immediately ends if the weapon is submerged in water. This effect does not stack with the flaming or flaming burst weapon special ability or any other effect that grants the weapon extra fire damage. It does not function on weapons with the frost or icy burst weapon special ability or any other effect that grants a weapon extra cold damage.\nMythic Sun Metal\nSource Mythic Adventures pg. 109\nThe additional damage dealt by the weapon increases to 1d6 points of fire damage. Any creature struck by the weapon is dazzled for 1 round (no saving throw). On a critical hit, the target is blinded for 1 round (Fortitude negates, DC equal to the DC of the spell).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/950fd6a9344588aa.json",
+    "web": "https://codex.pipsprojects.com/#/e/950fd6a9344588aa"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "55ec2dfd0b4698d2",
+  "name": "Call Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 160, Occult Mysteries pg. 54",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 5,
+      "medium": 3,
+      "oracle": 5,
+      "shaman": 5,
+      "spiritualist": 5,
+      "warpriest": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 160, Occult Mysteries pg. 54\nSchool conjuration (calling); Level cleric 5, medium 3, oracle 5, shaman 5, spiritualist 5, warpriest 5\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange 10 ft.\nEffect call the spirit of a single deceased humanoid creature\nDuration concentration\nSaving Throw Will negates, see text; Spell Resistance no\nDescription\nYou attempt to cause the spirit of a specific individual to manifest from its final resting place. You must request the spirit’s presence by speaking its name.\n\nUnwilling spirits can resist the summons by succeeding at a Will save. If the chosen spirit resists your call, another spirit with malevolent intent almost always takes its place, intent on deceiving you. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to the creature whose spirit you wish to call.\n\nKnowledge Will Save Modifier\nName only† +15\nSecondhand (you have heard of the subject) +10\nFirsthand (you met the subject in life) +5\nFamiliar (you knew the subject well) +0\n† You must have at least a name the creature was called in life.\n\nConnection Will Save Modifier\nLikeness or picture –2\nPossession or garment –4\nBody part, lock of hair, nail clipping, etc. –10\nDifferent alignment +4\n\nA successfully called spirit manifests as a wispy, vaporous form that vaguely resembles the form the deceased creature had in life. The spirit has the physical attributes of an unseen servant and is capable of minor physical manipulations, with the ability to speak in quiet, ghostly whispers in whatever languages the creature knew while it was alive. The spirit isn’t an undead creature, and isn’t beholden to its caller. Whether you summoned the chosen spirit or a deceitful replacement, the spirit can refuse to answer your questions or attempt to deceive you using Bluff, though in either case these spirits can speak about only what they knew in life and have no knowledge of events that occurred after their deaths. Malevolent spirits might take advantage of their limited physical abilities to cause terrifying spectacles designed to scare the caster.\n\nYou must concentrate on maintaining the spell (as a standard action) in order to ask questions at the rate of one per round. You can ask a total of one question per caster level; the spirit answers each during the same round. When the spell ends, the spirit’s ectoplasmic form fades and the soul returns to its rest. This spell can’t call the spirits of creatures that are currently undead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/55ec2dfd0b4698d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/55ec2dfd0b4698d2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "5bd58b79a18265d0",
+  "name": "Destrachan",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 2 pg. 83",
+  "book": "Bestiary 2",
+  "facets": {
+    "cr": 8,
+    "sz": "Large",
+    "t": "aberration",
+    "al": "NE",
+    "bk": "Bestiary 2"
+  },
+  "body": "The hunched, reptilian beast lopes on two clawed feet, its eyeless head dominated by a huge circular maw filled with jagged teeth.\nDestrachan CR 8\nSource Bestiary 2 pg. 83\nXP 4,800\nNE Large aberration\nInit +5; Senses blindsight 100 ft.; Perception +27\nDefense\nAC 19, touch 11, flat-footed 17 (+1 Dex, +1 dodge, +8 natural, –1 size)\nhp 90 (12d8+36)\nFort +9, Ref +7, Will +12\nDefensive Abilities protection from sonics; Immune gaze attacks, visual effects, illusions, and attacks relying on sight; Resist sonic 30\nOffense\nSpeed 30 ft.\nMelee bite +12 (2d6+4), 2 claws +12 (1d8+4)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks destructive harmonics\nStatistics\nStr 18, Dex 13, Con 16, Int 13, Wis 18, Cha 13\nBase Atk +9; CMB +14; CMD 26\nFeats Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Mobility, Vital Strike\nSkills Climb +19, Perception +27, Sense Motive +16, Stealth +12, Survival +19; Racial Modifiers +8 Perception (hearing only)\nLanguages Common (cannot speak)\nEcology\nEnvironment underground\nOrganization solitary, pair, or pack (3–5)\nTreasure incidental\nSpecial Abilities\nDestructive Harmonics (Su) A destrachan can project a blast of sonic energy in a cone up to 80 feet long or in a 30-foot-radius burst centered on itself as a standard action. It can adjust the harmonics of its sonic cry to generate one of two different effects on targets within the area of effect, but can only create one of these effects with each use of this ability. The save DCs are Constitution-based.\n\nDestruction: All creatures within the area of effect of the destructive harmonics take 8d6 points of sonic damage—a DC 19 Reflex save halves this damage. If the destrachan wishes, this damage can instead deal nonlethal damage rather than sonic damage. Alternatively, the destrachan can target a single crystal, metal, stone, or wooden object within 80 feet with this attack—that object takes 8d6 points of damage. This damage is not halved when applied to the object’s hit points, but is reduced by the object’s hardness. A magical or attended object can attempt a DC 19 Reflex save to halve the damage.\n\nPain: Rather than deal damage, the destrachan can cause intense pain and overwhelming sound to affect all creatures within the area. Targets in the area must succeed on a DC 19 Fortitude save to avoid being stunned for 1 round and deafened for 1d6 rounds.\n\nProtection from Sonics (Ex) A destrachan gains a +4 racial bonus on all saves against sonic attacks. It is immune to the effects of its own destructive harmonics. A destrachan whose sense of hearing is impaired is effectively blinded, treating all targets as if they had total concealment.\nDescription\nDespite its bestial appearance, the destrachan is in fact a creature of cunning and cruel intellect that enjoys inflicting pain and viciously toying with its prey. It has no eyes, and is completely blind, but possesses a pair of complex, tripartite ears it can adjust to different levels of sensitivity to sound, allowing the destrachan to hunt in absolute darkness as if it were able to see.\n\nDestrachans are carnivores, preferring to stalk and kill live prey, although they also feast on carrion. This habit serves them well, since they often kill more than they can immediately consume. They often hunt in packs, using a complex series of clicks, shrieks, and whistles to communicate with each other. While destrachans cannot speak, they are capable of understanding spoken languages like the common tongue, and often take pleasure in their victims’ cries and pleas for mercy.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5bd58b79a18265d0.json",
+    "web": "https://codex.pipsprojects.com/#/e/5bd58b79a18265d0"
+  },
+  "license": "OGL 1.0a"
+}

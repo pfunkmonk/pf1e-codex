@@ -1,0 +1,32 @@
+{
+  "id": "52ee9c24ab2143d5",
+  "name": "Unshakable Chill",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 246",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "druid": 2,
+      "hunter": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 246\nSchool necromancy [cold]; Level arcanist 2, bloodrager 2, druid 2, hunter 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 10 minutes/level; see text\nSaving Throw Fortitude negates (see text); Spell Resistance yes\nDescription\nThe target is filled with an unshakable chill for the duration of the spell, and suffers from the effects of severe cold (Core Rulebook 442). Severe cold means if the initial saving throw fails, the target takes 1d6 points of nonlethal cold damage and must save every 10 minutes (using the DC of severe cold instead of this spell’s DC) or take additional damage.\nMythic Unshakable Chill\nSource Mythic Adventures pg. 110\nOn a failed save, the target immediately takes 1d6 points of nonlethal cold damage per tier. Add your tier to the DC of any other Fortitude saves the target attempts to resist severe cold as part of the spell’s effects. The target also takes a –4 penalty on saves against spells or effects with the cold descriptor.\n\nAugmented (5th): If you expend two uses of mythic power, the target gains vulnerability to fire (Bestiary 305).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/52ee9c24ab2143d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/52ee9c24ab2143d5"
+  },
+  "license": "OGL 1.0a"
+}

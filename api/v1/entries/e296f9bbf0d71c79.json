@@ -1,0 +1,30 @@
+{
+  "id": "e296f9bbf0d71c79",
+  "name": "Cauterizing Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Society Primer pg. 14",
+  "book": "Pathfinder Society Primer",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "hunter": 2,
+      "magus": 2,
+      "ranger": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder Society Primer"
+  },
+  "body": "Source Pathfinder Society Primer pg. 14\nSchool transmutation; Level arcanist 3, bard 2, hunter 2, magus 2, ranger 2, redmantisassassin 3, skald 2, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a gobbet of melted wax)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one weapon or 50 projectiles, all of which must be together at the time of casting\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou infuse a weapon with faint but pernicious energy that stymies accelerated healing. Damage dealt by the weapon or ammunition is treated as acid, cold, electricity, and fire, but only for the purpose of negating a creature’s regeneration. The weapon is also treated as silver and cold iron at 8th level and is treated as chaotic, evil, good, and lawful at 11th level for the purpose of negating regeneration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e296f9bbf0d71c79.json",
+    "web": "https://codex.pipsprojects.com/#/e/e296f9bbf0d71c79"
+  },
+  "license": "OGL 1.0a"
+}

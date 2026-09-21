@@ -1,0 +1,32 @@
+{
+  "id": "5e05ab1494285040",
+  "name": "Spit Venom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 240",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 4,
+      "shaman": 4,
+      "warpriest": 4,
+      "witch": 3
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 240\nSchool transmutation [poison]; Level cleric 4, druid 3, hunter 3, oracle 4, shaman 4, warpriest 4, witch 3\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one stream of venom\nDuration instantaneous; see text\nSaving Throw Fortitude partial; Spell Resistance no\nDescription\nYou spit a stream of venom at a target using a ranged touch attack. If the venom hits, it causes blindness for 1 round. The target must also save or be poisoned by black adder venom; the DC in successive rounds of the poison is equal to the spell’s DC.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5e05ab1494285040.json",
+    "web": "https://codex.pipsprojects.com/#/e/5e05ab1494285040"
+  },
+  "license": "OGL 1.0a"
+}

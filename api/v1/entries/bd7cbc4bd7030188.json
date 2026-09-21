@@ -1,0 +1,30 @@
+{
+  "id": "bd7cbc4bd7030188",
+  "name": "Tomb Legion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faction Guide pg. 61, Osirion, Land of the Pharaohs pg. 27",
+  "book": "Faction Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "oracle": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Faction Guide"
+  },
+  "body": "Source Faction Guide pg. 61, Osirion, Land of the Pharaohs pg. 27\nSchool necromancy [evil]; Level arcanist 8, cleric 8, oracle 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect three or more advanced mummies, no two of which can be more than 30 ft. apart; see text\nDuration 7 days or 7 months (D); see text\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like shambler, except that it calls into existence 1d4+2 advanced mummies rather than shambling mounds.\n\nThough the spell has fallen out of favor among the Risen Guard because the Ruby Prince frowns on the use of undead, this spell is popular among followers of the Whispering Way.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bd7cbc4bd7030188.json",
+    "web": "https://codex.pipsprojects.com/#/e/bd7cbc4bd7030188"
+  },
+  "license": "OGL 1.0a"
+}

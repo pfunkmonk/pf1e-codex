@@ -1,0 +1,32 @@
+{
+  "id": "03ead265c77e9ea4",
+  "name": "Shroud of Innocuity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the High Court pg. 10",
+  "book": "Heroes of the High Court",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "shaman": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Heroes of the High Court"
+  },
+  "body": "Source Heroes of the High Court pg. 10\nSchool illusion (glamer); Level arcanist 3, bard 3, medium 3, mesmerist 3, psychic 3, shaman 3, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one willing creature plus one/2 caster levels, no two of which can be more than 30 ft. apart\nDuration 1 hour/level (D)\nSaving Throw none (harmless); see text; Spell Resistance no\nDescription\nAll affected creatures are veiled with a commonplace appearance. This appearance varies based on the viewer, but is always an ordinary member of that viewer’s race, ethnicity, or nationality. This familiarity grants a +2 bonus on Diplomacy checks attempted by affected targets against those not affected by the spell.\n\nCreatures with an attitude of unfriendly or hostile toward an affected target can attempt a Will save to disbelieve the effect the first time they encounter that target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/03ead265c77e9ea4.json",
+    "web": "https://codex.pipsprojects.com/#/e/03ead265c77e9ea4"
+  },
+  "license": "OGL 1.0a"
+}

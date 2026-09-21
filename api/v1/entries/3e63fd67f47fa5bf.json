@@ -1,0 +1,35 @@
+{
+  "id": "3e63fd67f47fa5bf",
+  "name": "Spindrift Spritz",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Elemental Master's Handbook pg. 14",
+  "book": "Elemental Master's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 1,
+      "inquisitor": 2,
+      "oracle": 2,
+      "paladin": 1,
+      "ranger": 1,
+      "shaman": 2,
+      "spiritualist": 2,
+      "warpriest": 2
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Elemental Master's Handbook"
+  },
+  "body": "Source Elemental Master's Handbook pg. 14\nSchool conjuration (healing) [water]; Level cleric 2, druid 2, hunter 1, inquisitor 2, oracle 2, paladin 1, ranger 1, shaman 2, spiritualist 2, warpriest 2\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou can cast this spell only as a response to a target attempting a saving throw against an effect that would cause the fatigued, shaken, sickened, or staggered conditions. The target can roll its saving throw twice and take the higher result.\nSpindrift Spritz, Mass\nSource Elemental Master's Handbook pg. 14\nSchool conjuration (healing) [water]; Level cleric 4, druid 4, hunter 3, inquisitor 4, oracle 4, paladin 3, ranger 3, shaman 4, spiritualist 4, warpriest 4\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 20 ft. apart\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as spindrift spritz, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3e63fd67f47fa5bf.json",
+    "web": "https://codex.pipsprojects.com/#/e/3e63fd67f47fa5bf"
+  },
+  "license": "OGL 1.0a"
+}

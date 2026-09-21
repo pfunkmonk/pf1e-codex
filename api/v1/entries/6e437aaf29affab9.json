@@ -1,0 +1,32 @@
+{
+  "id": "6e437aaf29affab9",
+  "name": "Eyebite",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 280",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 6,
+      "arcanist": 6,
+      "bard": 6,
+      "investigator": 6,
+      "mesmerist": 6,
+      "skald": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 280\nSchool necromancy [emotion, pain]; Level alchemist 6, arcanist 6, bard 6, investigator 6, mesmerist 6, skald 6, sorcerer 6, spiritualist 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nEach round, you can target a single living creature, striking it with waves of power. Depending on the target's HD, this attack has as many as three effects.\n\nHD Effect\n10 or more Sickened\n5-9 Panicked, sickened\n4 or less Comatose, panicked, sickened\n\nThe effects are cumulative and concurrent.\n\nSickened: Sudden pain and fever sweeps over the subject's body. A creature affected by this spell remains sickened for 10 minutes per caster level. The effects cannot be negated by a remove disease or heal spell, but a remove curse is effective.\n\nPanicked: The subject becomes panicked for 1d4 rounds. Even after the panic ends, the creature remains shaken for 10 minutes per caster level, and it automatically becomes panicked again if it comes within sight of you during that time. This is a fear effect.\n\nComatose: The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a sleep effect, and thus elves are not immune to it.\n\nYou must spend a swift action each round after the first to target a foe.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e437aaf29affab9.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e437aaf29affab9"
+  },
+  "license": "OGL 1.0a"
+}

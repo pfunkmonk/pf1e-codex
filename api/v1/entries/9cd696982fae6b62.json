@@ -1,0 +1,30 @@
+{
+  "id": "9cd696982fae6b62",
+  "name": "Adoration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 222",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 1,
+      "mesmerist": 1,
+      "psychic": 2,
+      "skald": 1,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 222\nSchool enchantment [emotion, mind-affecting]; Level arcanist 2, bard 1, mesmerist 1, psychic 2, skald 1, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe target of this spell is the subject of adoration by those whom it tries to affect with Diplomacy or during performance combat. If the target is out of combat, it receives a +2 morale bonus on all Diplomacy checks it makes to influence creatures. If the creature is engaged in performance combat (see page 153), the target gains a +2 morale bonus on all performance combat checks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9cd696982fae6b62.json",
+    "web": "https://codex.pipsprojects.com/#/e/9cd696982fae6b62"
+  },
+  "license": "OGL 1.0a"
+}

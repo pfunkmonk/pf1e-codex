@@ -1,0 +1,29 @@
+{
+  "id": "726bef92b2743fd8",
+  "name": "Restful Cloak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Armory 2 pg. 21",
+  "book": "Adventurer's Armory 2",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "warpriest": 2
+    },
+    "bk": "Adventurer's Armory 2"
+  },
+  "body": "Source Adventurer's Armory 2 pg. 21\nSchool conjuration (healing); Level cleric 2, druid 2, hunter 2, occultist 2, oracle 2, paladin 2, ranger 2, shaman 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, F (cloak)\nEffect\nRange personal\nTarget you\nDuration 1 hour/level\nDescription\nA cloak you are wearing transforms into a canvas tent large enough to hold four Medium creatures, firmly pitched in a flat area adjacent to you (if there is no such area, this spell simply fails). A creature regains 1 hit point for each hour it rests in the tent, in addition to any other benefits of resting. Additionally, a fatigued creature resting within the tent for 1 hour loses the fatigued condition, but a creature cannot recover from being fatigued more than once per casting of restful tent. At the end of the spell’s duration, the tent transforms back into a cloak. If the tent is moved prior to the expiration of the spell’s duration, the spell immediately ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/726bef92b2743fd8.json",
+    "web": "https://codex.pipsprojects.com/#/e/726bef92b2743fd8"
+  },
+  "license": "OGL 1.0a"
+}

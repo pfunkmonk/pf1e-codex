@@ -1,0 +1,21 @@
+{
+  "id": "dea0955cee4dd780",
+  "name": "Tongue of Rebuke",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Guardians of Dragonfall pg. 30",
+  "book": "Guardians of Dragonfall",
+  "facets": {
+    "cr": 9,
+    "sz": "Large",
+    "t": "construct",
+    "al": "N",
+    "bk": "Guardians of Dragonfall"
+  },
+  "body": "This iron automaton, sculpted in the form of a legless dragon with exaggerated features and dull gray eyes, glides through the air as a serpent across sand.\nTongue of Rebuke CR 9\nSource Guardians of Dragonfall pg. 30\nN Large construct\nInit -1; Senses darkvision 60 ft., low-light vision; Listen +0, Spot +0\nDefense\nAC 22, touch 8, flat-footed 22 (-1 Dex, +14 natural, -1 size)\nhp 85 (10d10+30)\nFort +3, Ref +2, Will +3\nDefensive Abilities construct traits, unbinding; DR 10/adamantine; Immune acid, cold, fire, or electricity; SR 20\nOffense\nSpeed 20 ft., fly 60 ft. (average)\nMelee bite +13 (4d6+10)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks breath weapon, improved grab, roar\nStatistics\nStr 24, Dex 8, Con —, Int —, Wis 11, Cha 13\nBase Atk +7; Grapple +18\nSQ imbued energy\nEcology\nEnvironment Dragonfall\nOrganization solitary or pair\nTreasure none\nAdvancement 11-20 HD (Large), 21-30 HD (Huge)\nSpecial Abilities\nBreath Weapon (Su) A tongue of rebuke has one type of breath weapon, a line of acid, cold, fire, or lightning (10d8 damage, Reflex DC 15), 80 feet in length. Once a tongue of rebuke breathes, it can’t breathe again until 1d4 rounds later.\n\nImbued Energy (Ex) Each tongue of rebuke is imbued with one of the following energy types: acid, cold, fire, or lightning. It is immune to this type of energy and its breath weapon is of this energy type.\n\nImproved Grab (Ex) To use this ability, a tongue of rebuke must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.\n\nRoar (Su) A tongue of rebuke can loose a devastating roar every 1d4 rounds. All creatures except dragons and tongues of rebuke within 120 feet must succeed on a DC 16 Will save or become shaken for 4d6 rounds. Those within 30 feet who fail their saves become panicked for 4d6 rounds. The save DC is Charisma-based.\n\nUnbinding (Ex) If a tongue of rebuke is reduced to 0 hp, its energy is released in a blast equivalent to its breath weapon with a radius of 20 feet.\nDescription\nThe tongues of rebuke exist to serve the interests of dragonkind by performing the most menial of roles and are typically encountered as guardians of important sites. Their inability to do more than follow simple commands, combined with their agelessness, has been known to leave them guarding a site long after its significance has passed.\n\nTypical Physical Characteristics: The scaled iron body of a tongue of rebuke measures twenty feet in length and two feet in diameter. Depending on the type of energy it was imbued with, the edges of its scales might crackle with electricity, whiten with frost, glow red with heat, or glisten with acid. An inert tongue of rebuke weighs two tons, but they are naturally weightless.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dea0955cee4dd780.json",
+    "web": "https://codex.pipsprojects.com/#/e/dea0955cee4dd780"
+  },
+  "license": "OGL 1.0a"
+}

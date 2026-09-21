@@ -1,0 +1,22 @@
+{
+  "id": "a7b765594d15b34f",
+  "name": "Winterwight",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 2 pg. 283",
+  "book": "Bestiary 2",
+  "facets": {
+    "cr": 17,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "CE",
+    "bk": "Bestiary 2",
+    "st": "cold"
+  },
+  "body": "Human-sized and of a deathly blue color, this long-taloned skeletal creature is partially encased in jagged sheets of ice.\nWinterwight CR 17\nSource Bestiary 2 pg. 283\nXP 102,400\nCE Medium undead (cold)\nInit +10; Senses darkvision 60 ft.; Perception +27\nAura cold (10 ft.)\nDefense\nAC 32, touch 16, flat-footed 26 (+6 Dex, +16 natural)\nhp 270 (20d8+180); fast healing 10\nFort +15, Ref +14, Will +16\nDefensive Abilities channel resistance +4; DR 15/bludgeoning and good; Immune cold, undead traits; SR 28\nWeaknesses vulnerability to fire\nOffense\nSpeed 30 ft.\nMelee bite +30 (2d8+15 plus blightfire), 2 claws +30 (2d6+15 plus blightfire)\nSpecial Attacks rend (2 claws 2d8+22)\nSpell-Like Abilities (CL 17th; concentration +26)\nConstant—air walk\nAt will—cone of cold (DC 24), dimension door, greater dispel magic, sleet storm, wall of ice\n3/day—polar ray\n1/day—control weather\nStatistics\nStr 40, Dex 23, Con —, Int 11, Wis 18, Cha 29\nBase Atk +15; CMB +30; CMD 46\nFeats Blind-Fight, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike\nSkills Acrobatics +26, Intimidate +32, Perception +27, Stealth +29\nLanguages Common\nEcology\nEnvironment any cold land\nOrganization solitary, pair, or incursion (3–6)\nTreasure standard\nSpecial Abilities\nAura of Cold (Su) Winterwights are surrounded by a 10-foot radius of deathly chill. Any creatures within this area during the winterwight’s turn takes 2d10 points of cold damage. All creatures of the cold subtype within this area (including the winterwight) are treated as having fast healing 10.\n\nBlightfire (Su) Whenever a winterwight damages a creature with a bite or claw, the wound erupts with tongues of black fire. For the next 5 rounds, the victim must make a DC 29 Fortitude saving throw at the start of its turn or take 1d6 points of Constitution drain. The winterwight gains 10 temporary hit points each time the creature fails a saving throw against blightfire. A creature cannot be affected by more than one instance of blightfire at a time. The save DC is Charisma-based.\nDescription\nThe winterwight is an undead horror born from the coldest depths of the negative energy plane. Infused with the dark, cold magic that permeates this realm of death, the winterwight takes the form of a skeleton coated in armor of jagged ice.\n\nThough it resembles an ordinary skeleton from a distance, the winterwight’s frame is much sturdier than the average humanoid’s, its frozen armor intertwining with its bone structure to form an incredibly hardy chassis. Sometimes called hatewraiths because of their insatiable lust for suffering, these frozen horrors are often found in areas that suffer from magical cold or frozen climates.\n\nWinterwights are 7 feet tall and weigh 250 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a7b765594d15b34f.json",
+    "web": "https://codex.pipsprojects.com/#/e/a7b765594d15b34f"
+  },
+  "license": "OGL 1.0a"
+}

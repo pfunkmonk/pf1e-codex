@@ -1,0 +1,35 @@
+{
+  "id": "e7b4cc8ac6272678",
+  "name": "Protection from Good, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 240",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "summoner (unchained)": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Protection from Good, Communal\nSource Ultimate Combat pg. 240\nSchool abjuration [evil]; Level antipaladin 2, arcanist 2, cleric 2, inquisitor 2, oracle 2, sorcerer 2, summoner 2, summoner (unchained) 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF\nEffect\nRange touch\nTargets creatures touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell functions like protection from good, except you divide the duration in 1-minute intervals among the creatures touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7b4cc8ac6272678.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7b4cc8ac6272678"
+  },
+  "license": "OGL 1.0a"
+}

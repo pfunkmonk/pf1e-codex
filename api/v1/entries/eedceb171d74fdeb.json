@@ -1,0 +1,38 @@
+{
+  "id": "eedceb171d74fdeb",
+  "name": "Dream Reality",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Intrigue pg. 60",
+  "book": "Inner Sea Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 5,
+      "arcanist": 6,
+      "bard": 5,
+      "cleric": 6,
+      "investigator": 5,
+      "mesmerist": 5,
+      "occultist": 5,
+      "oracle": 6,
+      "psychic": 6,
+      "skald": 5,
+      "sorcerer": 6,
+      "warpriest": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Intrigue"
+  },
+  "body": "Source Inner Sea Intrigue pg. 60\nSchool illusion (compulsion) [mind-affecting]; Level alchemist 5, arcanist 6, bard 5, cleric 6, investigator 5, mesmerist 5, occultist 5, oracle 6, psychic 6, skald 5, sorcerer 6, warpriest 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level (D)\nSaving Throw Will disbelief; Spell Resistance yes\nDescription\nYou cause the target to perceive the world as if in a dream. When the spell ends, the target forgets all identifying details of events that transpired while the spell lasted. The memories were not taken from it; rather, its mind never recorded the memories as real in the first place. If modify memory is cast upon it before the spell ends, the target remembers these events. A target under the effect of lullaby before this spell is cast applies its penalty to the saving throw against this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eedceb171d74fdeb.json",
+    "web": "https://codex.pipsprojects.com/#/e/eedceb171d74fdeb"
+  },
+  "license": "OGL 1.0a"
+}

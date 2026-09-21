@@ -1,0 +1,21 @@
+{
+  "id": "4c2e1ba3a073085f",
+  "name": "Mire Nettle",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 188",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 2,
+    "sz": "Small",
+    "t": "plant",
+    "al": "N",
+    "bk": "Bestiary 6"
+  },
+  "body": "The sawtooth edges of this plant’s glistening, triangular leaves weave around stalks adorned with needlelike spines.\nMire Nettle CR 2\nSource Bestiary 6 pg. 188\nXP 600\nN Small plant\nInit +1; Senses low-light vision; Perception +0\nDefense\nAC 14, touch 12, flat-footed 13 (+1 Dex, +2 natural, +1 size)\nhp 22 (4d8+4)\nFort +5, Ref +2, Will +1\nDR 5/slashing or bludgeoning; Immune plant traits\nOffense\nSpeed 20 ft., swim 20 ft.\nMelee 4 stings +4 (1d4)\nRanged thorns +5 (2d6)\nSpecial Attacks pain\nStatistics\nStr 10, Dex 12, Con 12, Int —, Wis 10, Cha 3\nBase Atk +3; CMB +2; CMD 13 (can’t be tripped)\nSkills Swim +8\nEcology\nEnvironment temperate swamps\nOrganization solitary, thicket (2–6), or grove (7–12)\nTreasure incidental\nSpecial Abilities\nPain (Ex) A mire nettle’s thorns contain painful toxin. When a victim is struck by a mire nettle’s sting or thorn attacks, it must succeed at a DC 13 Fortitude save or be staggered for 1 round from the pain. The effects of multiple failed saving throws stack, increasing the duration of the staggered effect by 1 round per failed saving throw. This is a pain and poison effect. The save DC is Constitution-based.\n\nThorns (Ex) Once every 1d4 rounds as a standard action, a mire nettle can fling a spray of sharp, slender thorns as a ranged attack against any target within 60 feet. This does not provoke attacks of opportunity. Targets struck by thorns are also subjected to the mire nettle’s pain ability.\nDescription\nThis small, carnivorous stinging nettle commonly grows in mires. It preys mostly on amphibians, fish, and small mammals, though they have been known to attack and kill much larger prey, especially when hunting in groups. Mire nettles are infamous for their hollow, needlelike thorns, which contain a natural toxin that causes extreme pain. While not lethal in and of itself, the pain caused by the toxins is intensely overwhelming.\n\nThose who are actively on the lookout can attempt a DC 12 Knowledge (nature) check to identify them by their triangular, jagged-edged leaves.\n\nWhile most consider mire nettles a nuisance, certain humanoids make use of them. Some cultivate the plants to mark territorial boundaries, while others repurpose the toxic thorns to make blowgun darts or use them in snares or traps. A few tribes incorporate them for rituals in which young members of the tribe must endure hours of pain from the nettle’s toxin as a rite of passage into adulthood. A creature can harvest 1d4 doses of mire nettle toxin from a freshly slain plant with a successful DC 20 Survival check. Mire nettle toxin retains its potency for 6 hours after the plant’s death, but certain alchemical processes (requiring a successful DC 20 Craft [alchemy] check, 30 minutes of work, and the expenditure of 50 gp of reagents per dose) can extend the potency of the toxin to 1 week.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c2e1ba3a073085f.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c2e1ba3a073085f"
+  },
+  "license": "OGL 1.0a"
+}

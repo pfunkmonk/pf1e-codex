@@ -1,0 +1,31 @@
+{
+  "id": "58b49b57fc7aec5f",
+  "name": "Summon Thanadaemon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 39",
+  "book": "Book of the Damned - Volume 3: Horsemen of the Apocalypse",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Book of the Damned - Volume 3: Horsemen of the Apocalypse"
+  },
+  "body": "Source Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 39\nSchool conjuration (summoning) [evil]; Level arcanist 9, cleric 9, oracle 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 1 round\nComponents V, S, F (two silver coins)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster, except it summons a single thanadaemon. You can only use this spell in an area with enough open water to accommodate the daemon’s skiff, or when on the Astral Plane or Ethereal Plane.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58b49b57fc7aec5f.json",
+    "web": "https://codex.pipsprojects.com/#/e/58b49b57fc7aec5f"
+  },
+  "license": "OGL 1.0a"
+}

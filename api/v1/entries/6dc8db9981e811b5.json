@@ -1,0 +1,30 @@
+{
+  "id": "6dc8db9981e811b5",
+  "name": "Vengeful Outrage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 246",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 6,
+      "bard": 5,
+      "mesmerist": 5,
+      "psychic": 6,
+      "skald": 5,
+      "sorcerer": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 246\nSchool enchantment (compulsion) [emotion, language-dependent, mind-affecting]; Level arcanist 6, bard 5, mesmerist 5, psychic 6, skald 5, sorcerer 6, witch 6, wizard 6\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou place a magical command upon a creature to seek out and destroy a single enemy that has inflicted some perceived or actual harm to the target. You designate the enemy at the time of casting, which must be known by the target (such as “your brother’s murderer”) or can easily identify by sight (such as “the hill giant king”). The target is under the effect of a geas to find and capture or kill this enemy, and the target takes the penalties of that spell as long as it is not actively trying to reach the enemy. When the target enters combat with the enemy, it gains a +6 morale bonus to Strength and Constitution, a +3 morale bonus on Will saves, and is immune to the shaken and frightened conditions.\n\nIf you designate one of the target’s friends or loved ones as the enemy, the target gains another saving throw to overcome the spell as soon as it enters combat with the enemy.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6dc8db9981e811b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/6dc8db9981e811b5"
+  },
+  "license": "OGL 1.0a"
+}

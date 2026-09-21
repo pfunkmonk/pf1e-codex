@@ -1,0 +1,35 @@
+{
+  "id": "79c77617e70b9711",
+  "name": "Obscure Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 317",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 1,
+      "cleric": 3,
+      "inquisitor": 3,
+      "mesmerist": 1,
+      "occultist": 2,
+      "oracle": 3,
+      "psychic": 2,
+      "skald": 1,
+      "sorcerer": 2,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 317\nSchool abjuration; Level arcanist 2, bard 1, cleric 3, inquisitor 3, mesmerist 1, occultist 2, oracle 3, psychic 2, skald 1, sorcerer 2, spiritualist 3, warpriest 3, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (chameleon skin)\nEffect\nRange touch\nTarget one object touched of up to 100 lbs./level\nDuration 8 hours (D)\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis spell hides an object from location by divination (scrying) effects, such as the scrying spell or a crystal ball. Such an attempt automatically fails (if the divination is targeted on the object) or fails to perceive the object (if the divination is targeted on a nearby location, object, or person).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79c77617e70b9711.json",
+    "web": "https://codex.pipsprojects.com/#/e/79c77617e70b9711"
+  },
+  "license": "OGL 1.0a"
+}

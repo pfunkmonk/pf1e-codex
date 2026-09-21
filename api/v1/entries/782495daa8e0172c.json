@@ -1,0 +1,35 @@
+{
+  "id": "782495daa8e0172c",
+  "name": "Cloak of Winds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 211",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 3,
+      "occultist": 3,
+      "ranger": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 211\nSchool abjuration [air]; Level arcanist 3, bloodrager 3, druid 3, hunter 3, magus 3, occultist 3, ranger 3, sorcerer 3, spiritualist 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou shroud a creature in a whirling screen of strong, howling wind. The subject is never checked or blown away by strong winds of windstorm or lesser strength (whether natural or magically created), and ranged attack rolls against the subject take a –4 penalty. Tiny or smaller creatures must succeed at a Fortitude save to successfully touch or attack the subject in melee. Failure knocks the attacker prone and pushes it 5 feet away from the subject per level of the caster. This movement can pass through the squares of other creatures without affecting them and does not provoke attacks of opportunity, but the creature takes 3d6 points of nonlethal damage, plus 1d6 if the creature strikes a solid object that blocks its movement.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/782495daa8e0172c.json",
+    "web": "https://codex.pipsprojects.com/#/e/782495daa8e0172c"
+  },
+  "license": "OGL 1.0a"
+}

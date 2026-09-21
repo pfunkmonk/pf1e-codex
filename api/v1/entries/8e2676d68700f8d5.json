@@ -1,0 +1,25 @@
+{
+  "id": "8e2676d68700f8d5",
+  "name": "Teratoid Caress",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Comics #10 pg. 27",
+  "book": "Pathfinder Comics #10",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Pathfinder Comics #10"
+  },
+  "body": "Source Pathfinder Comics #10 pg. 27\nSchool conjuration (calling) [chaotic, curse, evil]; Level cleric 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget 1 living non-evil creature\nDuration permanent\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nWith a gentle caress, you infuse the creature touched with a blight of energy from the Abyss that feeds upon goodness and transforms flesh into monstrous deformity. The target can resist a teratoid caress with a successful Fortitude save, but even on a successful save, the target becomes sickened for 1 round by the vile energies.\n\nIf the target fails the save, his body becomes infected with Abyssal energy and a small portion of his body distorts and grows hideous, inflicting 2 points of Dexterity damage or 2 points of Charisma damage (50% chance of either effect). This deformity is always unsightly and offensive. Thereafter, the victim suffers a -1 penalty on all saving throws against evil effects. Worse, whenever the victim casts a good spell, channels positive energy, or offers a prayer to a good-aligned deity, the Abyssal energies seethe inside him, forcing a new Fortitude save to resist suffering an additional 1 point of Dexterity or Charisma damage. A good-aligned divine spellcaster who suffers from this curse suffers a -4 penalty on all concentration checks. This is a curse effect, but the effect can also be instantly removed with a dispel evil or atonement spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8e2676d68700f8d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/8e2676d68700f8d5"
+  },
+  "license": "OGL 1.0a"
+}

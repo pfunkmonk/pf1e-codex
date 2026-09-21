@@ -1,0 +1,33 @@
+{
+  "id": "7c542c2637420371",
+  "name": "Remove Radioactivity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Technology Guide pg. 11",
+  "book": "Technology Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "paladin": 4,
+      "ranger": 4,
+      "skald": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Technology Guide"
+  },
+  "body": "Source Technology Guide pg. 11\nSchool conjuration (healing); Level bard 4, cleric 4, druid 4, hunter 4, inquisitor 4, oracle 4, paladin 4, ranger 4, skald 4, warpriest 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nYou remove all ongoing radiation effects, both primary and secondary, on a single target if you succeed at a caster level check (DC = the Fortitude DC associated with the radiation effect). In addition, you immediately restore 1d4 points of Constitution drain and 1d4 points of Strength drain caused by radiation—this spell cannot restore ability damage or drain caused by other sources. When cast on an area, a single casting of remove radioactivity removes radiation from a 20-foot-radius area around the point you touch. This spell has no power to negate naturally radioactive materials, and as long as such materials remain in an area, the radiation that was removed may return.\nRemove Radioactivity, Greater\nSource Technology Guide pg. 11\nSchool conjuration (healing); Level cleric 8, druid 8, oracle 8, witch 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nThis spell functions like remove radioactivity, save that it cures all ability damage and drain due to radioactivity that the target has taken. In addition, you can deplete a radioactive object as well, although because you must touch the object to affect it, you expose yourself to at least 1 round of contact with the object’s radiation. You must succeed at a caster level check (DC = 5 + the Fortitude DC associated with the radiation effect) in order to deplete the object. If you are successful, the object no longer emits radiation. In the case of a nuclear reactor or atomic warhead, this permanently renders the reactor or warhead inert and harmless.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c542c2637420371.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c542c2637420371"
+  },
+  "license": "OGL 1.0a"
+}

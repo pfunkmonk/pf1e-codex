@@ -1,0 +1,23 @@
+{
+  "id": "429e1db47f0ff589",
+  "name": "Retribution",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 239",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "inquisitor": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 239\nSchool necromancy [evil, pain]; Level inquisitor 3\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature who has just struck you with an attack\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nRetribution blasts those who have the temerity to assault your person. You may target anyone who has just struck you with an attack within the previous round, whether with a melee, ranged, or natural weapon, or a spell that requires an attack roll. The target is wracked with shooting pains that impose a –4 penalty on attack rolls, skills checks, and ability checks. On a successful Fortitude save, the penalty only lasts for 1 round. A target who worships the same god as you takes a –2 penalty on its saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/429e1db47f0ff589.json",
+    "web": "https://codex.pipsprojects.com/#/e/429e1db47f0ff589"
+  },
+  "license": "OGL 1.0a"
+}

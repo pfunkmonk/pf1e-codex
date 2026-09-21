@@ -1,0 +1,28 @@
+{
+  "id": "d75d3a65319412d6",
+  "name": "Maze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 312",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "summoner": 6,
+      "witch": 8,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 312\nSchool conjuration (teleportation); Level arcanist 8, psychic 8, sorcerer 8, summoner 6, witch 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration see text\nSaving Throw none; Spell Resistance yes\nDescription\nYou banish the subject into an extradimensional labyrinth. Each round on its turn, it may attempt a DC 20 Intelligence check to escape the labyrinth as a full-round action. If the subject doesn't escape, the maze disappears after 10 minutes, freeing the subject.\n\nOn escaping or leaving the maze, the subject reappears where it had been when the maze spell was cast. If this location is filled with a solid object, the subject appears in the nearest open space. Spells and abilities that move a creature within a plane, such as teleport and dimension door, do not help a creature escape a maze spell, although a plane shift spell allows it to exit to whatever plane is designated in that spell. Minotaurs are not affected by this spell.\nMythic Maze\nSource Mythic Adventures pg. 100\nA spectral minotaur hunts the target trapped in the maze. Every round the creature fails to escape from the maze, it takes 2d8 + your tier points of piercing and slashing damage from this phantom opponent.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d75d3a65319412d6.json",
+    "web": "https://codex.pipsprojects.com/#/e/d75d3a65319412d6"
+  },
+  "license": "OGL 1.0a"
+}

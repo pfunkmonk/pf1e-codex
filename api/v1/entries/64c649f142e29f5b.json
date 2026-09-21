@@ -1,0 +1,26 @@
+{
+  "id": "64c649f142e29f5b",
+  "name": "Searing Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 338",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 338\nSchool evocation; Level cleric 3, inquisitor 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nFocusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light takes 1d8 points of damage per two caster levels (maximum 5d8). An undead creature takes 1d6 points of damage per caster level (maximum 10d6), and an undead creature particularly vulnerable to bright light takes 1d8 points of damage per caster level (maximum 10d8). A construct or inanimate object takes only 1d6 points of damage per two caster levels (maximum 5d6).\nMythic Searing Light\nSource Mythic Adventures pg. 107\nThe spell’s damage increases to 1d6 per caster level (maximum 10d6). The damage dealt to an undead creature increases to 1d8 points of damage per caster level (maximum 10d8), or 2d6 per caster level (maximum 20d6) if the undead is vulnerable to bright light. The damage dealt to constructs increases to 1d8 points of damage per 2 caster levels (maximum 5d8). If a creature struck has light sensitivity or light blindness, it takes the penalty from that weakness for 1 round after being struck by the light.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/64c649f142e29f5b.json",
+    "web": "https://codex.pipsprojects.com/#/e/64c649f142e29f5b"
+  },
+  "license": "OGL 1.0a"
+}

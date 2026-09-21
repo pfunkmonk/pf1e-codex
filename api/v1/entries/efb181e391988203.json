@@ -1,0 +1,32 @@
+{
+  "id": "efb181e391988203",
+  "name": "Punishing Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Agents of Evil pg. 19",
+  "book": "Agents of Evil",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "investigator": 1,
+      "magus": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Agents of Evil"
+  },
+  "body": "Source Agents of Evil pg. 19\nSchool abjuration; Level alchemist 1, arcanist 1, bloodrager 1, investigator 1, magus 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level (D)\nSaving Throw Fortitude negates, see below; Spell Resistance no\nDescription\nYou coat yourself with a thin layer of shimmering energy. Any creature dealing nonlethal damage to you immediately takes half the amount of nonlethal damage dealt. A successful Fortitude save made by the attacking creature negates this damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efb181e391988203.json",
+    "web": "https://codex.pipsprojects.com/#/e/efb181e391988203"
+  },
+  "license": "OGL 1.0a"
+}

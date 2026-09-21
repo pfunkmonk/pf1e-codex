@@ -1,0 +1,30 @@
+{
+  "id": "278c498b0da40810",
+  "name": "Storm Step",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Elements pg. 13",
+  "book": "Blood of the Elements",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "magus": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Blood of the Elements"
+  },
+  "body": "Source Blood of the Elements pg. 13\nSchool conjuration (teleportation) [electricity]; Level arcanist 3, magus 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget you\nDuration instantaneous\nSaving Throw Reflex halves; Spell Resistance yes\nDescription\nYou are able to harness the power of the storm to transport yourself a short distance, by taking the form of a furious, sizzling bolt of elemental electricity. You must either have line of sight to your destination or you must specify a direction and distance within range. Creatures and objects in the path of your passage take 1d8 points of electricity damage per 2 caster levels (maximum 5d8). A successful Reflex save halves the damage.\n\nIf your path intersects with a solid object, you damage the barrier accordingly. If the damage is enough to break through the barrier, you continue beyond the barrier as long as the spell’s range permits; otherwise, your movement stops in the square adjacent to the barrier and the effect ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/278c498b0da40810.json",
+    "web": "https://codex.pipsprojects.com/#/e/278c498b0da40810"
+  },
+  "license": "OGL 1.0a"
+}

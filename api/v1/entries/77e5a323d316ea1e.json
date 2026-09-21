@@ -1,0 +1,31 @@
+{
+  "id": "77e5a323d316ea1e",
+  "name": "Acid Splash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 239",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "sorcerer": 0,
+      "summoner": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 239\nSchool conjuration (creation) [acid]; Level arcanist 0, inquisitor 0, magus 0, sorcerer 0, summoner 0, summoner (unchained) 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one missile of acid\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77e5a323d316ea1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/77e5a323d316ea1e"
+  },
+  "license": "OGL 1.0a"
+}

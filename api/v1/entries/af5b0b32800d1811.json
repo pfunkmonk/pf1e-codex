@@ -1,0 +1,26 @@
+{
+  "id": "af5b0b32800d1811",
+  "name": "Temporal Stasis",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 359",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 359\nSchool transmutation; Level arcanist 8, psychic 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S, M (powdered diamond, emerald, ruby, and sapphire dust worth 5,000 gp)\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow, and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful dispel magic spell or a freedom spell).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af5b0b32800d1811.json",
+    "web": "https://codex.pipsprojects.com/#/e/af5b0b32800d1811"
+  },
+  "license": "OGL 1.0a"
+}

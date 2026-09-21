@@ -1,0 +1,31 @@
+{
+  "id": "1aad12e897d0bf33",
+  "name": "Telepathic Bond",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 358",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 5,
+      "inquisitor": 5,
+      "medium": 4,
+      "mesmerist": 4,
+      "psychic": 4,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 358\nSchool divination; Level arcanist 5, inquisitor 5, medium 4, mesmerist 4, psychic 4, sorcerer 5, spiritualist 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (two eggshells from two different creatures)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets you plus one willing creature per three levels, no two of which can be more than 30 ft. apart\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou forge a telepathic bond among yourself and a number of willing creatures, each of which must have an Intelligence score of 3 or higher. Each creature included in the link is linked to all the others. The creatures can communicate telepathically through the bond regardless of language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another).\n\nIf desired, you may leave yourself out of the telepathic bond forged. This decision must be made at the time of casting.\n\nTelepathic bond can be made permanent with a permanency spell, though it only bonds two creatures per casting of permanency.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1aad12e897d0bf33.json",
+    "web": "https://codex.pipsprojects.com/#/e/1aad12e897d0bf33"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7b39f809bb7f657c",
+  "name": "Covetous Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rise of the Runelords Anniversary Edition pg. 418, Pathfinder #5: Sins of the Saviors pg. 58, Inner Sea World Guide pg. 294",
+  "book": "Rise of the Runelords Anniversary Edition",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rise of the Runelords Anniversary Edition"
+  },
+  "body": "Source Rise of the Runelords Anniversary Edition pg. 418, Pathfinder #5: Sins of the Saviors pg. 58, Inner Sea World Guide pg. 294\nSchool abjuration; Level arcanist 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange personal\nArea 25-ft.-radius emanation centered on you\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nAnytime a harmless (so noted by a spell’s saving throw description) spell of 3rd level or lower is cast within a covetous aura’s area of effect, you may choose to immediately gain the benefit of that spell as if it had also targeted you. The intended target still gains the effect of the spell. You gain the benefits of this duplicated spell only if the caster is in range of the covetous aura. Each time a covetous aura duplicates a spell effect, the remaining duration of the covetous aura is reduced by a number of rounds equal to the spell level of the spell effect that is duplicated.\nMythic Covetous Aura\nSource Mythic Origins pg. 12\nThe duration of the covetous aura increases to 1 minute per level or until discharged. You may gain the benefits of spells of 5th level or lower cast within the aura’s area of effect. You can gain the effects of two separate spells, after which the mythic covetous aura ends.\n\nAugmented (6th): If you expend two uses of mythic power, the duration increases to 10 minutes per level or until discharged. You may gain the benefits of spells of 7th level or lower cast within the aura’s area of effect. When you gain the benefit of a spell, the original spell is immediately targeted with a greater dispel magic spell at your caster level. If the dispel check succeeds, the spell ends for any of the original recipients in the area of your covetous aura.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7b39f809bb7f657c.json",
+    "web": "https://codex.pipsprojects.com/#/e/7b39f809bb7f657c"
+  },
+  "license": "OGL 1.0a"
+}

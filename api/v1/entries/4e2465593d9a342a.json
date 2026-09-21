@@ -1,0 +1,24 @@
+{
+  "id": "4e2465593d9a342a",
+  "name": "Shillelagh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 342",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "hunter": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 342\nSchool transmutation; Level druid 1, hunter 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget one touched nonmagical oak club or quarterstaff\nDuration 1 min./level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYour own nonmagical club or quarterstaff becomes a weapon with a +1 enhancement bonus on attack and damage rolls. A quarterstaff gains this enhancement for both ends of the weapon. It deals damage as if it were two size categories larger (a Small club or quarterstaff so transmuted deals 1d8 points of damage, a Medium 2d6, and a Large 3d6), +1 for its enhancement bonus. These effects only occur when the weapon is wielded by you. If you do not wield it, the weapon behaves as if unaffected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e2465593d9a342a.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e2465593d9a342a"
+  },
+  "license": "OGL 1.0a"
+}

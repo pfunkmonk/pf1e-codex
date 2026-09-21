@@ -1,0 +1,17 @@
+{
+  "id": "a29ed9653cdd68ab",
+  "name": "Dispelling Words",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Magic pg. 175",
+  "book": "Ultimate Magic",
+  "facets": {
+    "bk": "Ultimate Magic"
+  },
+  "body": "Rules Index | GM Screen\nWords of Power / Effect Word Descriptions\n\nDispelling Words\nSource Ultimate Magic pg. 175\nDispelling words have the power to unmake magic or suppress its effects.\n\nSurpress (Dispelling)\n\nSchool abjuration; Level bard 2, cleric 2, druid 2, inquisitor 2, magus 2, paladin 2, sorcerer/wizard 2, summoner 2, witch 2\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nThe caster of a wordspell with this effect word selects one spell effect that affects a willing target. The caster must then make a caster level check with a DC of 11 + the caster level of the spell effect. If successful, that spell effect is suppressed for the duration of this spell. If the suppressed spell has a limited duration, that duration continues to expire while this spell is in effect.\n\nBoost: The caster can target creatures that are not willing. The targets receive a saving throw to negate this effect word, and the caster must overcome the target’s spell resistance. Boosting this effect word increases its level by 1.\n\nResist Arcana (Dispelling)\n\nSchool abjuration; Level alchemist 5, cleric 5, inquisitor 5, sorcerer/wizard 6, summoner 6\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nThe target of a wordspell with this effect word gains spell resistance equal to 12 + the caster’s level.\n\nUnmake (Dispelling)\n\nSchool abjuration; Level bard 5, cleric 5, druid 5, inquisitor 6, magus 6, sorcerer/wizard 5, summoner 6, witch 5\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\nTarget Restrictions selected\n\nThe caster of a wordspell with this effect word unravels all of the magic effects affecting the target of the wordspell with this effect word. The caster must make a caster level check. The result of this check is compared to the caster level + 11 of every spell affecting the target. If successful, that spell effect immediately ends. The target can make a Will saving throw. If successful, this wordspell only attempts to unmake the highest-level spell affecting the target.\n\nNegation (Dispelling)\n\nSchool abjuration; Level cleric 8, sorcerer/wizard 6\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nTarget Restrictions burst\n\nThis effect word creates an area in which magic does not function. All magic effects are suppressed while inside the area. As a result, this word cannot be combined with other effect words. Magic effects cannot cross through the area. Time spent within the field counts against the duration of the suppressed effects. Summoned and incorporeal creatures cannot enter the area and are immediately forced to the nearest edge if inside the area when it forms. Objects still maintain their function while in the area, so a sword still cuts, even if it loses its magical properties.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a29ed9653cdd68ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/a29ed9653cdd68ab"
+  },
+  "license": "OGL 1.0a"
+}

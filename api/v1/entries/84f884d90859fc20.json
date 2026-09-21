@@ -1,0 +1,24 @@
+{
+  "id": "84f884d90859fc20",
+  "name": "Antiplant Shell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 243",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 4,
+      "hunter": 4
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 243\nSchool abjuration; Level druid 4, hunter 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 10 ft.\nArea 10-ft.-radius emanantion, centered on you\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nThe antiplant shell spell creates an invisible, mobile barrier that keeps all creatures within the shell protected from attacks by plant creatures or animated plants. As with many abjuration spells, forcing the barrier against creatures that the spell keeps at bay strains and collapses the field.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/84f884d90859fc20.json",
+    "web": "https://codex.pipsprojects.com/#/e/84f884d90859fc20"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dbefbe343f25af02",
+  "name": "Embrace Destiny",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Lost Kingdoms pg. 12",
+  "book": "Lost Kingdoms",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 2,
+      "oracle": 1,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "bk": "Lost Kingdoms"
+  },
+  "body": "Source Lost Kingdoms pg. 12\nSchool divination; Level arcanist 2, oracle 1, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level (see text)\nDescription\nUpon completing this spell, roll a single d20 and record the result. At any point during the duration of this spell, you may use that roll for a single ability check, attack roll, initiative check, saving throw, or skill check, using the recorded result in place of a roll. This spell cannot be used to replace a roll that has already been made; the recorded result must be used instead of a roll. Once you have used this recorded result or the duration of the spell ends, the spell’s effect ends. You can’t have more than one instance of embrace destiny active on you at the same time.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dbefbe343f25af02.json",
+    "web": "https://codex.pipsprojects.com/#/e/dbefbe343f25af02"
+  },
+  "license": "OGL 1.0a"
+}

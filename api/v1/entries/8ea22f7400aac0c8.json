@@ -1,0 +1,29 @@
+{
+  "id": "8ea22f7400aac0c8",
+  "name": "Symbol of Dispelling",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 243",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "oracle": 8,
+      "shaman": 8,
+      "sorcerer": 8,
+      "witch": 8,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 243\nSchool abjuration; Level arcanist 8, cleric 8, oracle 8, shaman 8, sorcerer 8, witch 8, wizard 8\nCasting\nCasting Time 10 minutes\nComponents V, S, M (pure grain alcohol and powdered diamond worth 5,000 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as symbol of death, except that all creatures within 40 feet of the symbol of dispelling are instead affected as if by the area dispel function of greater dispel magic. Attempt a dispel check when casting symbol of dispelling. Once the symbol is triggered, apply the result of that check to each creature in the area, as well as each object that is the target of one or more spells. Unlike symbol of death, symbol of dispelling grants no saving throws, and it is not subject to spell resistance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8ea22f7400aac0c8.json",
+    "web": "https://codex.pipsprojects.com/#/e/8ea22f7400aac0c8"
+  },
+  "license": "OGL 1.0a"
+}

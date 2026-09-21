@@ -1,0 +1,116 @@
+{
+  "id": "9de2a9fbba65ec90",
+  "name": "Step 8: Skills",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 240",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\nPathfinder Unchained / Simple Monster Creation\n\nStep 8: Skills\nSource Pathfinder Unchained pg. 240\nSkill bonuses in simple monster creation are divided into two categories: good and master. A good skill is one the monster has a significant bonus in, representing what would normally come from a moderate ability modifier and a decent number of skill ranks. A master skill is one the monster is incredibly talented with, representing a high ability modifier, full skill ranks, and possibly a significant racial bonus.\n\nAny skills that don’t have a good or master rating default to the monster’s appropriate ability modifier. Monsters automatically use the good modifier for Perception without needing to spend a good skill slot on it, though they can still increase this by taking Perception as a master skill.\n\nAssigning Skills\nSource Pathfinder Unchained pg. 240\nYour monster’s array—and potentially its grafts, spell list boons, and options—will tell you how many good and master skills to assign that monster. You should assign whatever feels right during this step. You might decide that an especially scholarly spellcaster monster should have more master skills than normal, or that you want to follow the construct array’s guidelines and forgo giving your construct any good or master skills at all. In any case, the total number of skills you choose should be within one or two of the suggested numbers.\n\nMark down all the skills the monster has and indicate their bonuses. Use the bonus as written—don’t add the monster’s ability modifier on top of it. For instance, a CR 9 combatant has a +7 for its highest ability modifier and a +17 for its master skill bonus. If you assigned the monster’s highest ability modifier to Strength and picked Climb as a master skill, the monster would still get only a +17 bonus on Climb checks, not a +24.\n\nChoosing Skills\nSource Pathfinder Unchained pg. 240\nPicking a monster’s skills should be simple. Typically, a monster should have master skills that match its highest ability modifiers. For example, if you have a monster with a high Dexterity modifier, consider Acrobatics, Escape Artist, and Stealth when choosing its master skills. If you find yourself unsure of which skills to give a monster, or if you draw a blank after selecting a few especially important ones, you can skip the rest of the skills step. A table listing the skills appears below for easy reference. To make it faster to select a monster’s spells, the table is divided into the most useful combat skills in the left-hand column and all other skills in the right-hand column. Combatants typically choose only combat skills.\n\nTable 5-8: Skills\nCombat Skill Noncombat Skill\nAcrobatics Appraise\nClimb Bluff\nEscape Artist Craft\nFly Diplomacy\nHeal Disable Device\nIntimidate Disguise\nPerception* Handle Animal\nRide Knowledge (arcane)\nSleight of Hand Knowledge (dungeoneering)\nSpellcraft Knowledge (engineering)\nStealth Knowledge (geography)\nSwim Knowledge (history)\nUse Magic Device Knowledge (local)\nKnowledge (nature)\nKnowledge (nobility)\nKnowledge (planes)\nKnowledge (religion)\nLinguistics\nPerform\nProfession\nSense Motive\nSurvival\n* Perception defaults to the good modifier for all monsters.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Combat Skill",
+          "Noncombat Skill"
+        ],
+        [
+          "Acrobatics",
+          "Appraise"
+        ],
+        [
+          "Climb",
+          "Bluff"
+        ],
+        [
+          "Escape Artist",
+          "Craft"
+        ],
+        [
+          "Fly",
+          "Diplomacy"
+        ],
+        [
+          "Heal",
+          "Disable Device"
+        ],
+        [
+          "Intimidate",
+          "Disguise"
+        ],
+        [
+          "Perception*",
+          "Handle Animal"
+        ],
+        [
+          "Ride",
+          "Knowledge (arcane)"
+        ],
+        [
+          "Sleight of Hand",
+          "Knowledge (dungeoneering)"
+        ],
+        [
+          "Spellcraft",
+          "Knowledge (engineering)"
+        ],
+        [
+          "Stealth",
+          "Knowledge (geography)"
+        ],
+        [
+          "Swim",
+          "Knowledge (history)"
+        ],
+        [
+          "Use Magic Device",
+          "Knowledge (local)"
+        ],
+        [
+          "",
+          "Knowledge (nature)"
+        ],
+        [
+          "",
+          "Knowledge (nobility)"
+        ],
+        [
+          "",
+          "Knowledge (planes)"
+        ],
+        [
+          "",
+          "Knowledge (religion)"
+        ],
+        [
+          "",
+          "Linguistics"
+        ],
+        [
+          "",
+          "Perform"
+        ],
+        [
+          "",
+          "Profession"
+        ],
+        [
+          "",
+          "Sense Motive"
+        ],
+        [
+          "",
+          "Survival"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9de2a9fbba65ec90.json",
+    "web": "https://codex.pipsprojects.com/#/e/9de2a9fbba65ec90"
+  },
+  "license": "OGL 1.0a"
+}

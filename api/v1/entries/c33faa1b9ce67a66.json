@@ -1,0 +1,33 @@
+{
+  "id": "c33faa1b9ce67a66",
+  "name": "Deeper Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 265",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 3,
+      "antipaladin": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 265\nSchool evocation [darkness]; Level adept 3, antipaladin 3, cleric 3, inquisitor 3, occultist 3, oracle 3, shaman 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, M/DF (bat fur and a piece of coal)\nEffect\nRange touch\nTarget object touched\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as darkness, except that objects radiate darkness in a 60-foot radius and the light level is lowered by two steps. Bright light becomes dim light and normal light becomes darkness. Areas of dim light and darkness become supernaturally dark. This functions like darkness, but even creatures with darkvision cannot see within the spell's confines.\n\nThis spell does not stack with itself. Deeper darkness can be used to counter or dispel any light spell of equal or lower spell level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c33faa1b9ce67a66.json",
+    "web": "https://codex.pipsprojects.com/#/e/c33faa1b9ce67a66"
+  },
+  "license": "OGL 1.0a"
+}

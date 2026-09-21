@@ -1,0 +1,27 @@
+{
+  "id": "49e904c673a030d9",
+  "name": "Waves of Exhaustion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 368",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 7,
+      "mesmerist": 6,
+      "psychic": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 368\nSchool necromancy; Level arcanist 7, mesmerist 6, psychic 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 60 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw no; Spell Resistance yes\nDescription\nWaves of negative energy cause all living creatures in the spell's area to become exhausted. This spell has no effect on a creature that is already exhausted.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/49e904c673a030d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/49e904c673a030d9"
+  },
+  "license": "OGL 1.0a"
+}

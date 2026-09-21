@@ -1,0 +1,33 @@
+{
+  "id": "b38f439fccab57f7",
+  "name": "Stalwart Resolve",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Society Field Guide pg. 58",
+  "book": "Pathfinder Society Field Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 2,
+      "cleric": 2,
+      "inquisitor": 1,
+      "investigator": 2,
+      "oracle": 2,
+      "paladin": 1,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder Society Field Guide"
+  },
+  "body": "Source Pathfinder Society Field Guide pg. 58\nSchool enchantment (compulsion) [mind-affecting]; Level alchemist 2, cleric 2, inquisitor 1, investigator 2, oracle 2, paladin 1, warpriest 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nStalwart resolve was originally created to temporarily aid those suffering from certain afflictions. The recipient of stalwart resolve ignores the effects of ability damage and penalties to a single ability score of your choice, except that damage equal to or greater than the ability score still causes unconsciousness or death. This applies whether or not the ability damage or penalty happened before or during the spell’s duration, and whether or not multiple sources are involved. This spell has no effect on ability drain.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b38f439fccab57f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/b38f439fccab57f7"
+  },
+  "license": "OGL 1.0a"
+}

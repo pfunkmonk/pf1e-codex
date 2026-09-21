@@ -1,0 +1,40 @@
+{
+  "id": "d07810b6bb8dcfa0",
+  "name": "Protection from Law",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 328",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "adept": 1,
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "medium": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "summoner (unchained)": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "Will",
+    "sr": "no; see text",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Protection from Law\nSource PRPG Core Rulebook pg. 328\nSchool abjuration [chaotic]; Level adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, summoner (unchained) 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance no; see text\nDescription\nThis spell functions like protection from evil, except that the deflection and resistance bonuses apply to attacks made by lawful creatures. The target receives a new saving throw against control by lawful creatures and lawful summoned creatures cannot touch the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d07810b6bb8dcfa0.json",
+    "web": "https://codex.pipsprojects.com/#/e/d07810b6bb8dcfa0"
+  },
+  "license": "OGL 1.0a"
+}

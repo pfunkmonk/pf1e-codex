@@ -1,0 +1,25 @@
+{
+  "id": "04cc8e516084c2d2",
+  "name": "See Through Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dwarves of Golarion pg. 25",
+  "book": "Dwarves of Golarion",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 4,
+      "hunter": 3,
+      "ranger": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Dwarves of Golarion"
+  },
+  "body": "Source Dwarves of Golarion pg. 25\nSchool divination; Level druid 4, hunter 3, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration concentration, up to 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou gain the ability to see through solid rock as if it were transparent glass. You may see through 1 foot of stone per caster level. You see within the stone as if you were looking at the area in normal light, even if there is no illumination, though low-light vision and darkvision have no effect on your ability to see through stone. Metal at least 1 inch thick or wood or dirt at least 3 feet thick blocks your vision.\n\nThe spell does not negate concealment for those creatures hiding behind stone objects (the stone is still an obstacle to your attacks).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04cc8e516084c2d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/04cc8e516084c2d2"
+  },
+  "license": "OGL 1.0a"
+}

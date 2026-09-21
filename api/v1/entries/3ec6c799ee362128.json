@@ -1,0 +1,17 @@
+{
+  "id": "3ec6c799ee362128",
+  "name": "Sanity Score, Edge, and Thresholds",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Horror Adventures pg. 12",
+  "book": "Horror Adventures",
+  "facets": {
+    "bk": "Horror Adventures"
+  },
+  "body": "Rules Index | GM Screen\n\nSanity Score, Edge, and Thresholds\nSource Horror Adventures pg. 12\nEach creature has a sanity score, along with a sanity edge and a sanity threshold. These values depend on the creature’s current ability scores and ability damage. Increases and penalties to ability scores (even temporary increases and penalties) adjust these numbers. Each discrete instance in which a creature takes 1 or more points of sanity damage is called a sanity attack, regardless of what caused the sanity damage.\n\nSince effects that deal sanity damage are always mind-affecting effects, mindless creatures are immune, and do not have a sanity score, sanity edge, or sanity threshold.\n\nSanity Score: Your sanity score is equal to the sum of your mental ability scores (Charisma, Intelligence, and Wisdom) minus any ability damage taken to those ability scores.\n\nSanity Threshold: Your sanity threshold is equal to the bonus of your highest mental ability score minus any ability damage to that score (minimum 0). When you experience a sanity attack, if the sanity damage from that attack equals or exceeds your sanity threshold, you gain a madness, either lesser or greater depending on the relation of your current sanity damage and your sanity edge (see below).\n\nIf your sanity threshold is 0, you always suffer a madness upon taking 1 or more points of sanity damage.\n\nSanity Edge: Your sanity edge is equal to 1/2 your sanity score. When you experience a sanity attack that causes you to gain a madness (see Sanity Threshold above), compare your total amount of sanity damage to your edge to determine the potency of the madness. If your current sanity damage is less than your sanity edge, then you manifest a lesser madness. If your current sanity damage is equal to or greater than your sanity edge, you manifest a greater madness instead. More information on madness, both greater and lesser, can be found in its section. Furthermore, when you accrue total sanity damage equal to or greater than your edge, any dormant lesser madnesses you have manifest again.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ec6c799ee362128.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ec6c799ee362128"
+  },
+  "license": "OGL 1.0a"
+}

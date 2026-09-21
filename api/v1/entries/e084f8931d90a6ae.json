@@ -1,0 +1,22 @@
+{
+  "id": "e084f8931d90a6ae",
+  "name": "Widen Auras",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 199",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "paladin": 2
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 199\nSchool transmutation; Level antipaladin 2, paladin 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nDescription\nThe range of your antipaladin or paladin auras doubles. For example, if you’re a paladin, your aura of courage affects allies within 20 feet instead of within 10 feet.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e084f8931d90a6ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/e084f8931d90a6ae"
+  },
+  "license": "OGL 1.0a"
+}

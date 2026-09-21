@@ -1,0 +1,32 @@
+{
+  "id": "7a0011f6dc155a8b",
+  "name": "Gentle Breeze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 183",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 1,
+      "druid": 1,
+      "hunter": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 183\nSchool evocation [air]; Level arcanist 1, druid 1, hunter 1, shaman 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration 1 hour (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou create a light wind that blows only against the target, from a direction of your choice. The breeze grants the target a +2 circumstance bonus on saves against very hot conditions, severe heat, and saves against clouds, vapors, and gases (such as cloudkill, stinking cloud, and inhaled poisons). There must be air present to use this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7a0011f6dc155a8b.json",
+    "web": "https://codex.pipsprojects.com/#/e/7a0011f6dc155a8b"
+  },
+  "license": "OGL 1.0a"
+}

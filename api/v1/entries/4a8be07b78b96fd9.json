@@ -1,0 +1,29 @@
+{
+  "id": "4a8be07b78b96fd9",
+  "name": "Disrupt Silence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 212",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 2,
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "skald": 2,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 212\nSchool abjuration; Level bard 2, cleric 3, inquisitor 3, oracle 3, psychic 3, skald 2, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents S, M (tiny silver bell, chime, or gong)\nEffect\nRange touch\nArea 10-ft.-radius emanation centered on a creature, object, or point in space\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou suppress magical sound-dampening effects within the area. Disrupt silence temporarily negates magical silence within its area, so that normal sounds can be heard within the overlapping areas of effect. Additionally, disrupt silence can automatically counter or dispel any magical silence effect of equal or lower level cast upon the same target, such as silence. If you cast disrupt silence on the target of a higher-level silence effect, it functions as dispel magic instead of its normal function.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a8be07b78b96fd9.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a8be07b78b96fd9"
+  },
+  "license": "OGL 1.0a"
+}

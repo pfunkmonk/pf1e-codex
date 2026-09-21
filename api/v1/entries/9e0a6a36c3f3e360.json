@@ -1,0 +1,78 @@
+{
+  "id": "9e0a6a36c3f3e360",
+  "name": "Wind",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Wilderness pg. 170",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Rules Index | GM Screen\n\nWind\nSource Ultimate Wilderness pg. 170\nOnce you’ve generated the day’s precipitation, you’ll need to establish the wind strength unless the precipitation indicates otherwise. For example, on foggy days, no significant wind occurs, while thunderstorms have their own rules for determining wind strength. To set the wind strength for the day, roll d% and consult the table below.\n\nTable 4-28: Wind Strength\nd% Wind Strength Wind Speed Ranged Weapon Penalty/Siege Weapon Penalty Check Size Blown Away Size Skill Penalty\n1-50 Light 0-10 mph —/— — — —\n51-80 Moderate 11-20 mph —/— — — —\n81-90 Strong 21-30 mph -2/— Tiny — -2\n91-95 Severe 31-50 mph -4/— Small Tiny -4\n96-100 Windstorm 51+ mph Impossible/-4 Medium Small -8\n\nWind Strength: This is the category of the wind strength.\n\nWind Speed: This is the range of wind speeds that occur. Wind speed typically fluctuates between these values through the period of the day, and for moderate or higher wind strength, there are periods in the day when the wind speed dips below the listed range.\n\nRanged Weapon Penalty/Siege Weapon Penalty: These are the penalties that characters take when firing ranged weapons and siege weapons in wind of the listed strength. In windstorm-strength wind, normal ranged weapon attacks (either projectile or thrown) are impossible. This includes ranged attacks made via spells of the conjuration school, but it does not include evocation ranged attacks. Siege weapons include all weapons of that type and boulders thrown by giants and other creatures with the rock throwing special attack.\n\nCheck Size: Creatures of the listed size or smaller are unable to move forward against the force of the wind unless they succeed at a DC 10 Strength check (on the ground) or a DC 20 Fly check if airborne.\n\nBlown Away Size: Creatures of the listed size on the ground are knocked prone, roll 1d4×10 feet, and take 2d6 points of nonlethal damage, unless they succeed on a DC 15 Strength check. Flying creatures of the listed size are blown back 2d6×10 feet and take 2d6 points of nonlethal damage due to battering and buffeting, unless they succeed at a DC 25 Fly check.\n\nSkill Penalty: This is the penalty for skill checks that can be affected by the wind. These penalties always apply on Fly checks and sound-based Perception checks, but GMs may also wish to apply them on Acrobatics checks, Climb checks, and any other ability or skill checks that could be adversely affected by winds.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Wind Strength",
+          "Wind Speed",
+          "Ranged Weapon Penalty/Siege Weapon Penalty",
+          "Check Size",
+          "Blown Away Size",
+          "Skill Penalty"
+        ],
+        [
+          "1-50",
+          "Light",
+          "0-10 mph",
+          "—/—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "51-80",
+          "Moderate",
+          "11-20 mph",
+          "—/—",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "81-90",
+          "Strong",
+          "21-30 mph",
+          "-2/—",
+          "Tiny",
+          "—",
+          "-2"
+        ],
+        [
+          "91-95",
+          "Severe",
+          "31-50 mph",
+          "-4/—",
+          "Small",
+          "Tiny",
+          "-4"
+        ],
+        [
+          "96-100",
+          "Windstorm",
+          "51+ mph",
+          "Impossible/-4",
+          "Medium",
+          "Small",
+          "-8"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9e0a6a36c3f3e360.json",
+    "web": "https://codex.pipsprojects.com/#/e/9e0a6a36c3f3e360"
+  },
+  "license": "OGL 1.0a"
+}

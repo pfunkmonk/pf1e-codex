@@ -1,0 +1,28 @@
+{
+  "id": "0f8c4fd9e46f643d",
+  "name": "Mirror Transport",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 188",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "occultist": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 188\nSchool transmutation; Level arcanist 4, occultist 4, psychic 4, redmantisassassin 4, sorcerer 4, spiritualist 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a glass or metal marble and a twisted loop of parchment)\nEffect\nRange touch\nTarget one mirror\nDuration 1 hour/level (D)\nSaving Throw yes (object); Spell Resistance yes (object)\nDescription\nThis spell functions as mirror hideaway, except any creature that enters the target mirror can spend a swift action to exit through another mirror within 500 feet as if using dimension door; this is a one-way transport. The creature can exit through a mirror only if it could fit through an opening the same size as the mirror. Each transport through the target mirror reduces the spell’s duration by 1 hour.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f8c4fd9e46f643d.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f8c4fd9e46f643d"
+  },
+  "license": "OGL 1.0a"
+}

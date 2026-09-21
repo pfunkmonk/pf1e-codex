@@ -1,0 +1,23 @@
+{
+  "id": "099b6cad3daeb5de",
+  "name": "Steam Ray Fusillade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 61",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Source Aquatic Adventures pg. 61\nSchool evocation [fire, water]; Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a scraping from a hydrothermal vent)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nFor the duration of the spell, you can fire three rays of steam once per round as a standard action (and you also fire three such rays as part of casting the spell). These rays function similarly to the rays from scorching ray (you can fire them at close range, they’re ranged touch attacks, they deal 4d6 points of fire damage each, and spell resistance negates them) except that they work both underwater and above water without a caster level check for being a fire spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/099b6cad3daeb5de.json",
+    "web": "https://codex.pipsprojects.com/#/e/099b6cad3daeb5de"
+  },
+  "license": "OGL 1.0a"
+}

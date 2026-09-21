@@ -1,0 +1,31 @@
+{
+  "id": "f3604c2865dffa6f",
+  "name": "Cloud Shape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 160",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "druid": 4,
+      "hunter": 4,
+      "ranger": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 160\nSchool transmutation [air]; Level arcanist 4, druid 4, hunter 4, ranger 4, redmantisassassin 4, sorcerer 4, wizard 4 (sylph)\nCasting\nCasting Time 1 standard action\nComponents S, M/DF (a bit of gauze and a wisp of smoke)\nEffect\nRange personal\nTarget you\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like gaseous form, except you assume the shape of a Colossal cloud with a space of 30 feet. You choose the general appearance of the cloud (white, stormy, fluffy, flat, and so on), after which your appearance cannot be changed. Even the closest inspection cannot reveal that the cloud in question is actually a magically concealed creature. To all normal tests you are, in fact, a cloud, although a detect magic spell reveals a moderate transmutation aura on the cloud. Your fly speed in cloud form is 30 feet.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f3604c2865dffa6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/f3604c2865dffa6f"
+  },
+  "license": "OGL 1.0a"
+}

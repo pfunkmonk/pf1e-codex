@@ -1,0 +1,28 @@
+{
+  "id": "30d96957fe29afc3",
+  "name": "Magic Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 310",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 310\nSchool transmutation; Level cleric 1, druid 1, hunter 1, oracle 1, shaman 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets up to three pebbles touched\nDuration 30 minutes or until discharged\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals 1d6+1 points of damage (including the spell's enhancement bonus), or 2d6+2 points against undead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/30d96957fe29afc3.json",
+    "web": "https://codex.pipsprojects.com/#/e/30d96957fe29afc3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "6e03a7ee502d7021",
+  "name": "Wall of Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 365",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 4,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "druid": 5,
+      "hunter": 5,
+      "magus": 4,
+      "occultist": 4,
+      "shaman": 5,
+      "sorcerer": 4,
+      "summoner": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 365\nSchool evocation [fire]; Level adept 4, arcanist 4, bloodrager 4, druid 5, hunter 5, magus 4, occultist 4, shaman 5, sorcerer 4, summoner 3, summoner (unchained) 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a piece of phosphor)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect opaque sheet of flame up to 20 ft. long/level or a ring of fire with a radius of up to 5 ft./two levels; either form 20 ft. high\nDuration concentration + 1 round/level\nSaving Throw none; Spell Resistance yes\nDescription\nAn immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those past 10 feet but within 20 feet. The wall deals this damage when it appears, and to all creatures in the area on your turn each round. In addition, the wall deals 2d6 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. The wall deals double damage to undead creatures.\n\nIf you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)\n\nWall of fire can be made permanent with a permanency spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.\nMythic Wall of Fire\nSource Mythic Adventures pg. 111\nThe wall’s damage increases to 2d6 points of fire damage to creatures within 10 feet, 1d6 points of fire damage to those past 10 feet but within 20 feet, and 2d8 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. Any creature that passes through the wall or is within 5 feet of the wall when it’s created must succeed at a Reflex save or catch fire. Attempts to extinguish this fire use the spell’s save DC.\n\nAugmented (5th): If you expend two uses of mythic power, you may move the wall 5 feet in any direction as a move action on your turn. Moving the wall into a fireproof barrier (such as a stone wall) destroys the part of the wall that overlaps the barrier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e03a7ee502d7021.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e03a7ee502d7021"
+  },
+  "license": "OGL 1.0a"
+}

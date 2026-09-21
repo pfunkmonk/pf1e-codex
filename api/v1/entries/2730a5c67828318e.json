@@ -1,0 +1,31 @@
+{
+  "id": "2730a5c67828318e",
+  "name": "Negative Reaction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 238",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "magus": 1,
+      "medium": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 238\nSchool illusion (glamer); Level arcanist 1, bard 1, magus 1, medium 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe target’s actions and words fail to impress. The target of this spell takes a –10 penalty on any Bluff, Diplomacy, and Intimidate checks as well as any performance combat checks it attempts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2730a5c67828318e.json",
+    "web": "https://codex.pipsprojects.com/#/e/2730a5c67828318e"
+  },
+  "license": "OGL 1.0a"
+}

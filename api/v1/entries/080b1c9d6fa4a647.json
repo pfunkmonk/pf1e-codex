@@ -1,0 +1,32 @@
+{
+  "id": "080b1c9d6fa4a647",
+  "name": "Waves of Ecstasy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 249",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 7,
+      "bard": 6,
+      "cleric": 7,
+      "mesmerist": 6,
+      "oracle": 7,
+      "psychic": 7,
+      "skald": 6,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 249\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 7, bard 6, cleric 7, mesmerist 6, oracle 7, psychic 7, skald 6, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration 1 round/level; see text\nSaving Throw Will partial (see text); Spell Resistance yes\nDescription\nYou emanate waves of intense pleasure that cause all targets within range to falter. Affected creatures are stunned for 1 round and are staggered for the remainder of the spell. A creature that makes its save is staggered for the first round and can act normally thereafter.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/080b1c9d6fa4a647.json",
+    "web": "https://codex.pipsprojects.com/#/e/080b1c9d6fa4a647"
+  },
+  "license": "OGL 1.0a"
+}

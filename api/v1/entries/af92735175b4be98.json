@@ -1,0 +1,104 @@
+{
+  "id": "af92735175b4be98",
+  "name": "Creating a Haunt",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "GameMastery Guide pg. 243",
+  "book": "GameMastery Guide",
+  "facets": {
+    "bk": "GameMastery Guide"
+  },
+  "body": "Rules Index | GM Screen\n\nCreating a Haunt\nSource GameMastery Guide pg. 243\nTo make a haunt like the example below, follow these steps.\n\nStep 1—Determine Base CR: A haunt’s base CR is equal to 1 + the level of the spell it duplicates.\n\nStep 2—Determine Actual CR: Select the elements you want the haunt to have and add up the adjustments to its CR to arrive at the haunt’s final CR (see Table 8–2: CR Modifiers for Haunts).\n\nStep 3—Determine Caster Level: A haunt’s caster level is equal to its actual CR score.\n\nStep 4—Determine Hit Points: A haunt’s hit points are equal to twice its CR (or equal to its CR × 4.5 if the haunt is persistent).\n\nStep 5—Calculate Attacks and Save DCs: A haunt’s attack modifier (if one is needed) is equal to its CR. If a haunt’s spell effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell.\nTable 8-1: CR Modifiers of Haunts\nFeature Type CR Modifier\nPersistent +2\nNotice DC CR Modifier\n15 or lower -1\n16-20 -\n21-25 +1\n26-29 +2\n30 or higher +3\nReset Time CR Modifier\n1 minute +2\n1 hour +1\n1 day +0\n1 week -1\nExample Weaknesses CR Modifier\nSlow (manifests at Initiative rank 0) -2\nSusceptible to an additional type of damage type -1 per additional type\nTricked by hide from undead -2\nTricked by invisibility -1\nTricked by Stealth* -3\nTriggered by touch -2\n* The haunt makes a caster level check instead of a Perception check to notice someone using Stealth.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Feature Type",
+          "CR Modifier"
+        ],
+        [
+          "Persistent",
+          "+2"
+        ],
+        [
+          "Notice DC",
+          "CR Modifier"
+        ],
+        [
+          "15 or lower",
+          "-1"
+        ],
+        [
+          "16-20",
+          "-"
+        ],
+        [
+          "21-25",
+          "+1"
+        ],
+        [
+          "26-29",
+          "+2"
+        ],
+        [
+          "30 or higher",
+          "+3"
+        ],
+        [
+          "Reset Time",
+          "CR Modifier"
+        ],
+        [
+          "1 minute",
+          "+2"
+        ],
+        [
+          "1 hour",
+          "+1"
+        ],
+        [
+          "1 day",
+          "+0"
+        ],
+        [
+          "1 week",
+          "-1"
+        ],
+        [
+          "Example Weaknesses",
+          "CR Modifier"
+        ],
+        [
+          "Slow (manifests at Initiative rank 0)",
+          "-2"
+        ],
+        [
+          "Susceptible to an additional type of damage type",
+          "-1 per additional type"
+        ],
+        [
+          "Tricked by hide from undead",
+          "-2"
+        ],
+        [
+          "Tricked by invisibility",
+          "-1"
+        ],
+        [
+          "Tricked by Stealth*",
+          "-3"
+        ],
+        [
+          "Triggered by touch",
+          "-2"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af92735175b4be98.json",
+    "web": "https://codex.pipsprojects.com/#/e/af92735175b4be98"
+  },
+  "license": "OGL 1.0a"
+}

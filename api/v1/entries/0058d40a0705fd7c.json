@@ -1,0 +1,32 @@
+{
+  "id": "0058d40a0705fd7c",
+  "name": "Minor Image",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 314",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "magus": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 314\nSchool illusion (figment); Level arcanist 2, bard 2, magus 2, medium 2, mesmerist 2, occultist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a bit of fleece)\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect visual figment that cannot extend beyond four 10 ft. cubes + one 10 ft. cube/level (S)\nDuration concentration + 2 rounds\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell functions like silent image, except that minor image includes some minor sounds but not understandable speech.\nMajor Image\nSource PRPG Core Rulebook pg. 311\nSchool illusion (figment); Level arcanist 3, bard 3, magus 3, medium 3, mesmerist 3, occultist 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a bit of fleece)\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)\nDuration concentration + 3 rounds\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell functions like silent image, except that sound, smell, and thermal illusions are included in the spell effect. While concentrating, you can move the image within the range.\n\nThe image disappears when struck by an opponent unless you cause the illusion to react appropriately.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0058d40a0705fd7c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0058d40a0705fd7c"
+  },
+  "license": "OGL 1.0a"
+}

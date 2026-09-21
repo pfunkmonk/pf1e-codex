@@ -1,0 +1,34 @@
+{
+  "id": "8a9c5df527b017ba",
+  "name": "Earth Glide",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 205",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "druid": 4,
+      "hunter": 4,
+      "investigator": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 205\nSchool transmutation [earth]; Level alchemist 4, arcanist 4, bloodrager 4, druid 4, hunter 4, investigator 4, redmantisassassin 4, shaman 4, sorcerer 4, wizard 4 (svirfneblin)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target can pass through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water, traveling at a speed of 5 feet. If protected against fire damage, it can move through lava. This movement leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. It requires as much concentration as walking, so the subject can attack or cast spells normally, but cannot charge or run. Casting move earth on an area containing the target flings the target back 30 feet, stunning it for 1 round (DC 15 Fortitude negates). This spell does not give the target the ability to breathe underground, so when passing through solid material, the creature must hold its breath.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a9c5df527b017ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a9c5df527b017ba"
+  },
+  "license": "OGL 1.0a"
+}

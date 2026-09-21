@@ -1,0 +1,17 @@
+{
+  "id": "7f0edd828ecd27f9",
+  "name": "Rebirthing Chamber",
+  "bucket": "items",
+  "category": "Artifacts",
+  "source": "Technology Guide pg. 61",
+  "book": "Technology Guide",
+  "facets": {
+    "bk": "Technology Guide"
+  },
+  "body": "Source Technology Guide pg. 61\nSlot none; Weight 1,200 lbs.\nCapacity —; Usage 200 charges/day\nDescription\nThis enclosed pod of metal and plastic contains a thinly padded bed on which to lay, and dozens of small vents along its interior. A rebirthing chamber cannot operate on its own power, and must be attached to an external power source. When a Small or Medium humanoid lies within a rebirthing chamber, the chamber automatically seals. Soporific gas fills the chamber, inducing a deathlike coma (Fortitude DC 30 each round negates; this is a poison effect). One minute after it seals, the chamber floods with nanites that first analyze, then reduce the occupant to its component molecules. The dismantling process deals 6d10 points of damage and 1d4 point of Constitution drain each round (Fortitude DC 30 half), a horrifically painful process should the occupant retain consciousness. Any gear worn by the occupant is dismantled and destroyed, with possibly catastrophic results for explosives and powered devices.\n\nOver the next 1d4 days, the nanites reconstruct and enhance the occupant, in effect optimizing its genetic code. The occupant wakes up with full memories of its prior existence, but in the body of a young adult of its race, halfway between the minimum and maximum age of its current age category. In the process, all ability scores receive a +2 inherent bonus.\n\nEach time a rebirthing chamber is used, there is a 10% chance its nanite reconstruction fails, leaving the host dead and without remains. Only a miracle, true resurrection, or wish can restore such a hapless victim. The nanite reservoir contains sufficient nanites for five rebirths, assuming it hasn’t been previously used.\n\nA rebirthing chamber only works on humanoids and humanoid corporeal undead. It can even restore life to a long-dead corpse, so long as usable genetic information remains, but with a 25% chance of failure instead of 10%. For each day that passed without preservation such as gentle repose, the revived creature loses roughly 10% of its memories and gains 1 permanent negative level. If the negative levels gained exceed the creature’s level, the revival fails. Intelligent corporeal undead retain their memories after revival, but lose all undead abilities and regain their original statistics and abilities from their time among the living. Effects that restore these negative levels also restore these lost memories.\n\nAttempts to rebirth a creature without a soul invariably fail, as do attempts to rebirth a creature from partial remains while the creature is still alive. A body is created and draws breath, but lacks any intellect and dies 2d6 hours after the process completed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7f0edd828ecd27f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/7f0edd828ecd27f9"
+  },
+  "license": "OGL 1.0a"
+}

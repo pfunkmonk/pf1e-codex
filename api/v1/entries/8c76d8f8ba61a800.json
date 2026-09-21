@@ -1,0 +1,26 @@
+{
+  "id": "8c76d8f8ba61a800",
+  "name": "Seer's Bane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #102: Breaking the Bones of Hell pg. 75",
+  "book": "Pathfinder #102: Breaking the Bones of Hell",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 6,
+      "inquisitor": 6,
+      "oracle": 6,
+      "warpriest": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #102: Breaking the Bones of Hell"
+  },
+  "body": "Source Pathfinder #102: Breaking the Bones of Hell pg. 75\nSchool abjuration; Level cleric 6, inquisitor 6, oracle 6, warpriest 6 (Mephistopheles)\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget creature or object touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell functions as nondetection, except that those who cast divination spells targeting the warded creature or item must succeed on a caster level check (DC = 15 + your caster level). If the caster of the divination fails, deadly magical feedback strikes at him, dealing 1d6 points of electricity damage per 2 caster levels you have (maximum 10d6 at 20th level).\n\nAlternatively, if you cast bestow curse, chaos hammer, contagion, holy smite, order’s wrath, poison, or unholy blight in the round immediately following seer’s bane, you can replace the spell’s damaging effect with the effects of that second spell (the divination’s caster—and potentially those around him—save as normal for the modifying spell).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8c76d8f8ba61a800.json",
+    "web": "https://codex.pipsprojects.com/#/e/8c76d8f8ba61a800"
+  },
+  "license": "OGL 1.0a"
+}

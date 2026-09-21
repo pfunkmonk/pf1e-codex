@@ -1,0 +1,28 @@
+{
+  "id": "776da6d94f1449f2",
+  "name": "Share Senses",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 243",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 4,
+      "medium": 3,
+      "psychic": 3,
+      "sorcerer": 4,
+      "witch": 3,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 243\nSchool divination (scrying); Level arcanist 4, medium 3, psychic 3, sorcerer 4, witch 3, wizard 4\nCasting\nCasting Time 1 full round\nComponents V, S, M (a hair, scale, or feather from your familiar)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget your familiar\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nSpending a moment in meditation and conjuring an image of the creature to mind, you reshape your link with your familiar, causing it to functions like a scrying sensor. Upon casting this spell you can hear, see, or smell (any one, your choice) what your familiar is experiencing. You gain the benefits of any nonmagical special abilities your familiar has tied to the chosen sense (such as low-light vision or scent), but use your own Perception skill. You don’t need line of sight or line of effect to your familiar, but you must have an active empathic link. You may change the sense you are sharing as a standard action. Unlike other scrying spells, share senses does not allow magically or supernaturally enhanced senses to work through it, and you are unable to see in magical or natural darkness unless your familiar possesses the ability to see in such conditions.\n\nThe sensory link with your familiar can be detected as though it were a scrying sensor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/776da6d94f1449f2.json",
+    "web": "https://codex.pipsprojects.com/#/e/776da6d94f1449f2"
+  },
+  "license": "OGL 1.0a"
+}

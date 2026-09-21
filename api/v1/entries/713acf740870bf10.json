@@ -1,0 +1,25 @@
+{
+  "id": "713acf740870bf10",
+  "name": "Control Undead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 260",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 260\nSchool necromancy; Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of bone and a piece of raw meat)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets up to 2 HD/level of undead creatures, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell enables you to control undead creatures for a short period of time. You command them by voice and they understand you, no matter what language you speak. Even if vocal communication is impossible, the controlled undead do not attack you. At the end of the spell, the subjects revert to their normal behavior.\n\nIntelligent undead creatures remember that you controlled them, and they may seek revenge after the spell's effects end.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/713acf740870bf10.json",
+    "web": "https://codex.pipsprojects.com/#/e/713acf740870bf10"
+  },
+  "license": "OGL 1.0a"
+}

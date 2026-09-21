@@ -1,0 +1,30 @@
+{
+  "id": "5c95eeaccbb10451",
+  "name": "Anonymous Interaction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 174",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 174\nSchool enchantment (compulsion) [mind-affecting]; Level bard 2, mesmerist 2, psychic 2, skald 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration permanent (see text)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou cause the targets to forget all but the most general information about you. If they saw you or interacted with you, they still remember your presence and your general shape (such as humanoid), as well as the gist of your interactions with them (such as “She was asking about the queen”), but they don’t remember specifically what you said, details of your appearance, or any identifying information about you. This spell targets any memories of you in the minute preceding its casting, but is otherwise permanent.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c95eeaccbb10451.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c95eeaccbb10451"
+  },
+  "license": "OGL 1.0a"
+}

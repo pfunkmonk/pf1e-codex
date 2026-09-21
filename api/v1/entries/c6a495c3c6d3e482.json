@@ -1,0 +1,26 @@
+{
+  "id": "c6a495c3c6d3e482",
+  "name": "Shadow Projection",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 243",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 243\nSchool necromancy [evil]; Level arcanist 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 minute\nComponents S\nEffect\nRange personal\nTarget you\nDuration 1 hour/level (D)\nDescription\nWith this spell, you infuse your life force and psyche into your shadow, giving it independent life and movement as if it were an undead shadow (see Pathfinder RPG Bestiary 245). Your physical body lies comatose while you are projecting your shadow, and your body has no shadow or reflection while the spell is in effect.\n\nWhile projecting your shadow, you gain a shadow’s darkvision, defensive abilities, fly speed, racial stealth modifier, and strength damage attack. You do not gain the creature’s create spawn ability, nor its skill ranks or Hit Dice. Your shadow has Hit Dice and hit points equal to your own. Your shadow projection has the undead type and may be turned or affected as undead.\n\nIf your shadow projection is slain, you return to your physical body and are immediately reduced to –1 hit points. Your condition becomes dying, and you must begin making Constitution checks to stabilize.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c6a495c3c6d3e482.json",
+    "web": "https://codex.pipsprojects.com/#/e/c6a495c3c6d3e482"
+  },
+  "license": "OGL 1.0a"
+}

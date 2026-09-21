@@ -1,0 +1,37 @@
+{
+  "id": "8f47d65ab3054c8a",
+  "name": "Hold Monster, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 296",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 5,
+      "bard": 4,
+      "inquisitor": 4,
+      "medium": 4,
+      "mesmerist": 4,
+      "occultist": 4,
+      "psychic": 5,
+      "skald": 4,
+      "sorcerer": 5,
+      "summoner": 4,
+      "witch": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Hold Monster\nSource PRPG Core Rulebook pg. 296\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 5, bard 4, inquisitor 4, medium 4, mesmerist 4, occultist 4, psychic 5, skald 4, sorcerer 5, summoner 4, summoner (unchained) 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (one hard metal bar or rod, which can be as small as a three-penny nail)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round/level (D); see text\nSaving Throw Will negates; see text; Spell Resistance yes\nDescription\nThis spell functions like hold person, except that it affects any living creature that fails its Will save.\nHold Monster, Mass\nSource PRPG Core Rulebook pg. 296\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 9, psychic 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (one hard metal bar or rod, which can be as small as a three-penny nail)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one or more creatures, no two of which can be more than 30 ft. apart\nDuration 1 round/level (D); see text\nSaving Throw Will negates; see text; Spell Resistance yes\nDescription\nThis spell functions like hold person, except that it affects multiple creatures and holds any living creature that fails its Will save.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8f47d65ab3054c8a.json",
+    "web": "https://codex.pipsprojects.com/#/e/8f47d65ab3054c8a"
+  },
+  "license": "OGL 1.0a"
+}

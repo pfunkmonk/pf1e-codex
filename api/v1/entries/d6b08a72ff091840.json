@@ -1,0 +1,38 @@
+{
+  "id": "d6b08a72ff091840",
+  "name": "Free Swim",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 59",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "bard": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "inquisitor": 3,
+      "investigator": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "ranger": 3,
+      "skald": 3,
+      "spiritualist": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Source Aquatic Adventures pg. 59\nSchool abjuration; Level alchemist 3, bard 3, cleric 3, druid 3, hunter 3, inquisitor 3, investigator 3, medium 3, mesmerist 3, occultist 3, oracle 3, psychic 3, ranger 3, skald 3, spiritualist 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a strip of kelp bound to the target), DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target can move and attack underwater normally without the usual penalties involved with underwater combat, as if under the effects of freedom of movement. However, the target doesn’t gain any protections against grapple, paralysis, and magical effects that impede movement (such as solid fog, slow, and web).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d6b08a72ff091840.json",
+    "web": "https://codex.pipsprojects.com/#/e/d6b08a72ff091840"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1a454b7b89c0a80c",
+  "name": "Phantom Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 190",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "investigator": 1,
+      "magus": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "wizard": 1
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 190\nSchool necromancy; Level alchemist 1, arcanist 1, bloodrager 1, investigator 1, magus 1, sorcerer 1, spiritualist 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level\nDescription\nYou bolster your life energy. If the loss of hit points at the end of a temporary effect that modifies your Constitution (such as barbarian’s rage or bloodrager’s bloodrage) would cause you to become unconscious or kill you, you gain temporary hit points equal to your caster level (maximum 10). Each casting of this spell grants you temporary hit points only once.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a454b7b89c0a80c.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a454b7b89c0a80c"
+  },
+  "license": "OGL 1.0a"
+}

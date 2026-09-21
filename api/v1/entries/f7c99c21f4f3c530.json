@@ -1,0 +1,32 @@
+{
+  "id": "f7c99c21f4f3c530",
+  "name": "Slay Living",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 344",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 5,
+      "oracle": 5,
+      "shaman": 6,
+      "spiritualist": 5,
+      "warpriest": 5,
+      "witch": 6
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 344\nSchool necromancy [death]; Level antipaladin 4, cleric 5, oracle 5, shaman 6, spiritualist 5, warpriest 5, witch 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYou can attempt to slay any one living creature. When you cast this spell, your hand seethes with eerie dark fire. You must succeed on a melee touch attack to touch the target. The target takes 12d6 points of damage + 1 point per caster level. If the target's Fortitude saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f7c99c21f4f3c530.json",
+    "web": "https://codex.pipsprojects.com/#/e/f7c99c21f4f3c530"
+  },
+  "license": "OGL 1.0a"
+}

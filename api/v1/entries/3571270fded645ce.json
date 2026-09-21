@@ -1,0 +1,32 @@
+{
+  "id": "3571270fded645ce",
+  "name": "Master's Escape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Summoner's Handbook pg. 22",
+  "book": "Monster Summoner's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 4,
+      "oracle": 4,
+      "sorcerer": 4,
+      "summoner": 3,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Monster Summoner's Handbook"
+  },
+  "body": "Source Monster Summoner's Handbook pg. 22\nSchool conjuration (teleportation); Level arcanist 4, cleric 4, druid 4, hunter 4, oracle 4, sorcerer 4, summoner 3, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget you and one summoned creature you control\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou create an extradimensional link between yourself and one summoned creature you control that allows you to switch places. After casting master’s escape, you can teleport to your summoned creature’s space as a swift action, causing your summoned creature to teleport to your former space. If your summoned creature is reduced to 0 or fewer hit points before you can use this spell’s effect, you can teleport to a space that you can see within 30 feet as an immediate action. After using either of these effects, the spell ends. A summoner can target his eidolon with this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3571270fded645ce.json",
+    "web": "https://codex.pipsprojects.com/#/e/3571270fded645ce"
+  },
+  "license": "OGL 1.0a"
+}

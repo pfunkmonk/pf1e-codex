@@ -1,0 +1,28 @@
+{
+  "id": "89afc691a728d9f5",
+  "name": "Ape Walk",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Sargava, the Lost Colony pg. 28",
+  "book": "Sargava",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 2,
+      "ranger": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Sargava"
+  },
+  "body": "Source Sargava, the Lost Colony pg. 28\nSchool transmutation; Level arcanist 3, druid 3, hunter 2, ranger 2, redmantisassassin 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (an ape or monkey paw)\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject can climb as well as an ape or monkey, gaining a climb speed of 30 feet and a +8 racial bonus on Climb skill checks. The affected creature must have her hands free to climb in this manner. In addition, as long as she has 10 feet of space in which to make a running start, the subject can make a long jump of up to 10 feet without making an Acrobatics check (an Acrobatics check is still required to jump longer distances).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89afc691a728d9f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/89afc691a728d9f5"
+  },
+  "license": "OGL 1.0a"
+}

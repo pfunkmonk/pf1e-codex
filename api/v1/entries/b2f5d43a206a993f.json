@@ -1,0 +1,18 @@
+{
+  "id": "b2f5d43a206a993f",
+  "name": "Rogue Rotdrinker",
+  "bucket": "archetypes",
+  "category": "Archetype",
+  "source": "Potions and Poisons pg. 12",
+  "book": "Potions and Poisons",
+  "facets": {
+    "cls": "Rogue",
+    "bk": "Potions and Poisons"
+  },
+  "body": "Rotdrinker\nSource Potions and Poisons pg. 12\nPoisons are common tools in a rogue’s trade, and some poison-using rogues are so frequently exposed to these toxins that they have developed resistances to particular poisons. Known as rotdrinkers, these rogues purposefully consume poisons to augment their minds and bodies, though they do so at the expense of traditional roguish nimbleness. This archetype is appropriate for rogues built using the Core Rulebook as well for unchained rogues.\n\nPoison Resistance (Ex): At 2nd level, a rotdrinker gains a +2 bonus on saving throws against all poisons. This bonus increases to +4 at 8th level.\n\nThis replaces evasion.\n\nUnnatural Ingestion (Ex): At 4th level, a rotdrinker gains immunity to all ingested poisons, including poisons that are converted to or considered ingested poisons (such as a poison converted to an ingested poison using the alchemist’s poison conversion discovery).\n\nFurther, when the rotdrinker ingests an ingested poison, she gains a number of temporary hit points equal to half her rogue level. These temporary hit points stack with temporary hit points from other effects, and they last until they are lost or for a number of rounds equal to the rotdrinker’s rogue level, whichever comes first.\n\nAdditionally, the rotdrinker gains benefits from the ingested poisons that she ingests depending on the poison’s details, as explained below. A rotdrinker can gain hit points and additional benefits from only one ingested poison at a time. If she ingests another poison while she has temporary hit points and additional benefits from another poison, the previous temporary hit points and benefits are lost. At 8th level, the temporary hit points and additional benefits last for a number of minutes equal to the rotdrinker’s rogue level.\n\nIngested poisons provide an alchemical bonus equal to the number of consecutive saving throws required to cure the poison (for example, lich dust provides a +2 bonus). An ingested poison that affects Strength, Dexterity, or Constitution grants this bonus on the rotdrinker’s damage rolls and Fortitude saving throws. An ingested poison that affects Intelligence, Wisdom, or Charisma instead grants this bonus on the rotdrinker’s attack rolls and Will saving throws. An ingested poison that does not affect any ability scores (such as oil of taggit) grants this bonus to the rotdrinker’s AC. If an ingested poison falls into more than one of these categories, the rotdrinker chooses which benefit she receives at the time of ingestion.\n\nThis replaces improved uncanny dodge and uncanny dodge.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b2f5d43a206a993f.json",
+    "web": "https://codex.pipsprojects.com/#/e/b2f5d43a206a993f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "eb0901b3fdb37312",
+  "name": "Vanish",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 253",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "magus": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 253\nSchool illusion (glamer); Level arcanist 1, bard 1, magus 1, mesmerist 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level (up to 5 rounds) (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like invisibility, except the effect only lasts for 1 round per caster level (maximum of 5 rounds). Like invisibility, the spell immediately ends if the subject attacks any creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb0901b3fdb37312.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb0901b3fdb37312"
+  },
+  "license": "OGL 1.0a"
+}

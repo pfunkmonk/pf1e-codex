@@ -1,0 +1,29 @@
+{
+  "id": "16f5ab9e50389a7f",
+  "name": "Hallucinatory Decor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Disciple's Doctrine pg. 19",
+  "book": "Disciple's Doctrine",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Disciple's Doctrine"
+  },
+  "body": "Source Disciple's Doctrine pg. 19\nSchool illusion (glamer); Level arcanist 3, bard 3, mesmerist 3, psychic 3, skald 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea one 10-ft. cube/level (S)\nDuration 1 hour/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nYou transform the decor of a courtyard, structure, or other edifice to meet your highest standards and personal tastes. Objects and architectural elements remain in the same configuration—a chair remains a chair—but can look, sound, and smell like a different physical material and artistic style. You cannot change the appearance of natural terrain, but landscaped areas such as a garden or orchard can be affected. This spell functions in all other ways as hallucinatory terrain.\n\nMembers of the Prophet of Kalistrade prestige class can cast this spell, even though it is not a divination or enchantment.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/16f5ab9e50389a7f.json",
+    "web": "https://codex.pipsprojects.com/#/e/16f5ab9e50389a7f"
+  },
+  "license": "OGL 1.0a"
+}

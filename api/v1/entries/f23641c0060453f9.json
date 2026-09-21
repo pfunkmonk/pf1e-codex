@@ -1,0 +1,29 @@
+{
+  "id": "f23641c0060453f9",
+  "name": "Animal Trance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 241",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 2,
+      "bard": 2,
+      "druid": 2,
+      "hunter": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 241\nSchool enchantment (compulsion) [mind-affecting, sonic]; Level adept 2, bard 2, druid 2, hunter 2, mesmerist 2, psychic 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets animals or magical beasts with Intelligence 1 or 2\nDuration concentration\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYour swaying motions and music (or singing, or chanting) compel animals and magical beasts to do nothing but watch you. Only a creature with an Intelligence score of 1 or 2 can be fascinated by this spell. Roll 2d6 to determine the total number of HD worth of creatures that you fascinate. The closest targets are selected first until no more targets within range can be affected.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f23641c0060453f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/f23641c0060453f9"
+  },
+  "license": "OGL 1.0a"
+}

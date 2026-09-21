@@ -1,0 +1,30 @@
+{
+  "id": "da11020160c7981b",
+  "name": "Suspend Drowning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Sea pg. 21",
+  "book": "Blood of the Sea",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "skald": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Sea"
+  },
+  "body": "Source Blood of the Sea pg. 21\nSchool transmutation; Level bard 1, cleric 1, druid 1, hunter 1, oracle 1, ranger 1, skald 1, warpriest 1\nCasting\nCasting Time 1 immediate action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one Medium creatures or smaller drowning creature/level, no two of which can be more than 20 ft. apart\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe affected creatures immediately—though temporarily—stop drowning and cannot suffocate or drown while this spell is in effect. A target that had been reduced to below 1 hit point from drowning immediately returns to 1 hit point. The magic of this spell allows the targets to breathe, drink, and talk normally for the duration of the spell, but targets cannot inhale to increase the amount of air remaining in their lungs. When the spell effect ends, the target resumes drowning unless it is in an environment that allows it to breathe normally (such as an air-breathing creature returning to the surface) or has obtained a method of breathing normally (such as by consuming a potion of water breathing).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/da11020160c7981b.json",
+    "web": "https://codex.pipsprojects.com/#/e/da11020160c7981b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "d675668de4cd2dd2",
+  "name": "Aura of Doom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 207",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "spiritualist": 4,
+      "warpriest": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 207\nSchool necromancy [emotion, fear, mind-affecting]; Level cleric 4, oracle 4, psychic 4, spiritualist 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (powdered bone)\nEffect\nRange personal\nArea 20-ft.-radius emanation centered on you\nDuration 10 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou emanate an almost palpable aura of horror. All non-allies within this spell’s area, or that later enter the area, must make a Will save to avoid becoming shaken. A successful save suppresses the effect. Creatures that leave the area and come back must save again to avoid being affected by the effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d675668de4cd2dd2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d675668de4cd2dd2"
+  },
+  "license": "OGL 1.0a"
+}

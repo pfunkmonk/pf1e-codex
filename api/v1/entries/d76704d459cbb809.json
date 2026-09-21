@@ -1,0 +1,26 @@
+{
+  "id": "d76704d459cbb809",
+  "name": "Companion Mind Link",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 226",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 3,
+      "hunter": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 226\nSchool enchantment (charm) [mind-affecting]; Level druid 3, hunter 3, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget your animal companion\nDuration 1 minute/level\nDescription\nThe link between you and your animal companion becomes stronger. As long as you are within line of sight of your animal companion, you can telepathically communicate with it as if you two shared a language. Also, as long as you are within line of sight of the animal companion, you can push your animal companion a swift action instead of a move action, and you do not need to succeed at Handle Animal checks to handle your animal companion. Such checks automatically succeed.\nMythic Companion Mind Link\nSource Mythic Adventures pg. 88\nYour animal companion understands complex instructions transmitted by the spell. It can perform any trick (even one it doesn’t know) as well as any activity that could be understood by a creature with an Intelligence score of 8.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d76704d459cbb809.json",
+    "web": "https://codex.pipsprojects.com/#/e/d76704d459cbb809"
+  },
+  "license": "OGL 1.0a"
+}

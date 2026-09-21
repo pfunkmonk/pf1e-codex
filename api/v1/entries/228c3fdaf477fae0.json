@@ -1,0 +1,27 @@
+{
+  "id": "228c3fdaf477fae0",
+  "name": "Enhanced Diplomacy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Taldor, Echoes of Glory pg. 24",
+  "book": "Taldor",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "oracle": 0,
+      "warpriest": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Taldor"
+  },
+  "body": "Source Taldor, Echoes of Glory pg. 24\nSchool divination; Level cleric 0, druid 0, hunter 0, oracle 0, warpriest 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou imbue the subject with divine diplomacy skills. The creature gets a +2 competence bonus on a single Diplomacy or Intimidate check. It must choose to use the bonus before making the roll to which it applies.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/228c3fdaf477fae0.json",
+    "web": "https://codex.pipsprojects.com/#/e/228c3fdaf477fae0"
+  },
+  "license": "OGL 1.0a"
+}

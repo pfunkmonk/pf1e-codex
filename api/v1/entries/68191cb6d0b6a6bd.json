@@ -1,0 +1,29 @@
+{
+  "id": "68191cb6d0b6a6bd",
+  "name": "Undeath Inversion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Undead Slayer's Handbook pg. 27",
+  "book": "Undead Slayer's Handbook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "oracle": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Undead Slayer's Handbook"
+  },
+  "body": "Source Undead Slayer's Handbook pg. 27\nSchool necromancy; Level arcanist 4, cleric 4, oracle 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, F/DF (a gold piece with one scratched face)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one undead creature\nDuration 1 round/level (D); see text\nSaving Throw Will negates, see text; Spell Resistance yes\nDescription\nYou alter an undead creature’s energy affinity so that it takes damage from negative energy and gains healing from positive energy, as if it were a living creature. If the target was able to channel negative energy or produce negative energy effects (such as inflict spells), these abilities produce positive energy instead, healing living targets and harming the undead. The target cannot impose negative levels on other creatures for the duration of the spell. The target’s creature type does not change, and it is still considered an undead creature. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68191cb6d0b6a6bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/68191cb6d0b6a6bd"
+  },
+  "license": "OGL 1.0a"
+}

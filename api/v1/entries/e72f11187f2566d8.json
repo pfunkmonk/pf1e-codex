@@ -1,0 +1,17 @@
+{
+  "id": "e72f11187f2566d8",
+  "name": "Counterspells",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 207",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nMagic / Casting Spells\n\nCounterspells\nSource PRPG Core Rulebook pg. 207\nIt is possible to cast any spell as a counterspell. By doing so, you are using the spell’s energy to disrupt the casting of the same spell by another character. Counterspelling works even if one spell is divine and the other arcane.\n\nHow Counterspells Work: To use a counterspell, you must select an opponent as the target of the counterspell. You do this by choosing to ready an action (see Combat). In doing so, you elect to wait to complete your action until your opponent tries to cast a spell. You may still move at your normal speed, since ready is a standard action.\n\nIf the target of your counterspell tries to cast a spell, make a Spellcraft check (DC 15 + the spell’s level). This check is a free action. If the check succeeds, you correctly identify the opponent’s spell and can attempt to counter it. If the check fails, you can’t do either of these things.\n\nTo complete the action, you must then cast an appropriate spell. As a general rule, a spell can only counter itself. If you are able to cast the same spell and you have it prepared (or have a slot of the appropriate level available), you cast it, creating a counterspell effect. If the target is within range, both spells automatically negate each other with no other results.\n\nCounterspelling Metamagic Spells: Metamagic feats are not taken into account when determining whether a spell can be countered.\n\nSpecific Exceptions: Some spells can counter other specific spells, often those with diametrically opposed effects.\n\nDispel Magic as a Counterspell: You can usually use dispel magic to counterspell another spell being cast without needing to identify the spell being cast. Dispel magic doesn’t always work as a counterspell (see the spell description).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e72f11187f2566d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/e72f11187f2566d8"
+  },
+  "license": "OGL 1.0a"
+}

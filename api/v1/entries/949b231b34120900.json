@@ -1,0 +1,30 @@
+{
+  "id": "949b231b34120900",
+  "name": "Harm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 293",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 6,
+      "inquisitor": 6,
+      "occultist": 6,
+      "oracle": 6,
+      "shaman": 7,
+      "spiritualist": 6,
+      "warpriest": 6,
+      "witch": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 293\nSchool necromancy; Level cleric 6, inquisitor 6, occultist 6, oracle 6, shaman 7, spiritualist 6, warpriest 6, witch 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half; see text; Spell Resistance yes\nDescription\nHarm charges a subject with negative energy that deals 10 points of damage per caster level (to a maximum of 150 points at 15th level). If the creature successfully saves, harm deals half this amount. Harm cannot reduce the target's hit points to less than 1.\n\nIf used on an undead creature, harm acts like heal.\nMythic Harm\nSource Mythic Adventures pg. 97\nThe damage dealt increases to 15 points of damage per caster level (maximum 225 points).\n\nAugmented: If you expend two uses of mythic power, the spell also acts as poison.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/949b231b34120900.json",
+    "web": "https://codex.pipsprojects.com/#/e/949b231b34120900"
+  },
+  "license": "OGL 1.0a"
+}

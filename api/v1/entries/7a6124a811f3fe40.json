@@ -1,0 +1,30 @@
+{
+  "id": "7a6124a811f3fe40",
+  "name": "Aquatic Trail",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 59",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 3,
+      "hunter": 2,
+      "inquisitor": 3,
+      "ranger": 2,
+      "shaman": 3
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Source Aquatic Adventures pg. 59\nSchool divination [water]; Level druid 3, hunter 2, inquisitor 3, ranger 2, shaman 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea circle centered on you, with a radius of 100 feet + 10 feet per level\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\nDescription\nYou use divination magic to enhance the underwater trails in the area around you, allowing you to track creatures through the water as if across soft ground as long as they passed through the area less than 1 week ago (this lets you notice trails that are much older than normal underwater trails). The spell’s area moves with you, so you can follow the trail through the water over long distances. Other creatures can also follow the trail as long as they move with you. Because of the plethora of sea creatures in the higher zones, it’s possible that the trail that most interests you will be covered by the trails of other aquatic creatures, making this spell even more useful than normal in the Abyssal and Abaddonian zones.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7a6124a811f3fe40.json",
+    "web": "https://codex.pipsprojects.com/#/e/7a6124a811f3fe40"
+  },
+  "license": "OGL 1.0a"
+}

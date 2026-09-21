@@ -1,0 +1,30 @@
+{
+  "id": "cfcdcea225b3a034",
+  "name": "True Appraisal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 33",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "skald": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 33\nSchool divination; Level bard 1, cleric 1, inquisitor 1, occultist 1, oracle 1, skald 1, warpriest 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, F (gold coin)\nEffect\nRange personal\nTarget you\nDuration 8 hours\nSaving Throw none; Spell Resistance no\nDescription\nYou gain temporary insight into the value of objects. You gain a +5 competence bonus on Appraise checks, can attempt an Appraise check to determine an object’s value as a move action, and can take 10 on an Appraise check even if stress or distractions would normally prevent you from doing so. You know if you fail an Appraise check, and you never determine a wildly inaccurate price.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfcdcea225b3a034.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfcdcea225b3a034"
+  },
+  "license": "OGL 1.0a"
+}

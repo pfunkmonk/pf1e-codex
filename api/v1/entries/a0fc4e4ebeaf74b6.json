@@ -1,0 +1,31 @@
+{
+  "id": "a0fc4e4ebeaf74b6",
+  "name": "Agonize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 205, Book of the Damned - Volume 1: Princes of Darkness pg. 46",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "psychic": 4,
+      "sorcerer": 4,
+      "summoner": 3,
+      "warpriest": 3,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 205, Book of the Damned - Volume 1: Princes of Darkness pg. 46\nSchool evocation [evil, pain]; Level arcanist 4, cleric 3, occultist 3, oracle 3, psychic 4, sorcerer 4, summoner 3, summoner (unchained) 4, warpriest 3, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one conjured outsider or elemental (see text)\nDuration 1 round\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou afflict a creature you have conjured via planar ally (or a similar spell) with bolts of vicious energy. These foul energies inflict terrible pain upon the conjured creature, torturing it to make it more pliant to your will. The targeted creature must make a Fortitude save or take a –1 penalty for every 2 levels you possess (maximum –10) on all saves and checks made against you for the next hour. In addition, creatures that demand payment for their services reduce the payment by 20% for every 4 levels you possess (maximum 60% reduction). However, beings tortured by this spell quickly come to resent you, making them more likely to try to pervert your orders to malicious ends or try to seek retribution after their release. This spell has no effect on creatures that are immune to nonlethal damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a0fc4e4ebeaf74b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/a0fc4e4ebeaf74b6"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "35221f0c75b126ee",
+  "name": "Seeming",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 339",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "medium": 4,
+      "mesmerist": 5,
+      "occultist": 5,
+      "psychic": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 339\nSchool illusion (glamer); Level arcanist 5, bard 5, medium 4, mesmerist 5, occultist 5, psychic 5, skald 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature per two levels, no two of which can be more than 30 ft. apart\nDuration 12 hours (D)\nSaving Throw Will negates or Will disbelief (if interacted with); Spell Resistance yes or no; see text\nDescription\nThis spell functions like disguise self, except that you can change the appearance of other people as well. Affected creatures resume their normal appearances if slain. Unwilling targets can negate the spell's effect on them by making Will saves or with spell resistance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/35221f0c75b126ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/35221f0c75b126ee"
+  },
+  "license": "OGL 1.0a"
+}

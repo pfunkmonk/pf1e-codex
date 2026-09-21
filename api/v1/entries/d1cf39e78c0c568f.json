@@ -1,0 +1,33 @@
+{
+  "id": "d1cf39e78c0c568f",
+  "name": "Forgetful Slumber",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 48",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "mesmerist": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 48\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 4, bard 4, mesmerist 4, psychic 4, skald 4, sorcerer 4, witch 4, wizard 4 (half-elf)\nCasting\nCasting Time 1 round\nComponents V, S, M (a few drops of river water)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell acts as the deeper slumber spell, but only affects one creature of 10 Hit Dice or fewer. In addition, a creature affected by this spell awakens with no knowledge of the events that led to the spell’s casting. The target loses all memory from the 5 minutes prior to falling asleep. No effect short of a miracle or wish can restore memories lost by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1cf39e78c0c568f.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1cf39e78c0c568f"
+  },
+  "license": "OGL 1.0a"
+}

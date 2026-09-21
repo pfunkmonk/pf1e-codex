@@ -1,0 +1,36 @@
+{
+  "id": "12e3da313984c495",
+  "name": "Blur",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 251",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "investigator": 2,
+      "magus": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 251\nSchool illusion (glamer); Level alchemist 2, arcanist 2, bard 2, investigator 2, magus 2, medium 2, mesmerist 2, occultist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, spiritualist 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject's outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).\n\nA see invisibility spell does not counteract the blur effect, but a true seeing spell does.\n\nOpponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12e3da313984c495.json",
+    "web": "https://codex.pipsprojects.com/#/e/12e3da313984c495"
+  },
+  "license": "OGL 1.0a"
+}

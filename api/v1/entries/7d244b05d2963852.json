@@ -1,0 +1,29 @@
+{
+  "id": "7d244b05d2963852",
+  "name": "Mage's Private Sanctum",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 307",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "medium": 4,
+      "mesmerist": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 307\nSchool abjuration; Level arcanist 5, medium 4, mesmerist 5, psychic 5, sorcerer 5, spiritualist 5, wizard 5\nCasting\nCasting Time 10 minutes\nComponents V, S, M (a sheet of lead, a piece of glass, a wad of cotton, and powdered chrysolite)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-ft. cube/level (S)\nDuration 24 hours (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.\n\nDivination (scrying) spells cannot perceive anything within the area, and those within are immune to detect thoughts. The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other communication, such as a sending or message spell, or telepathic communication, such as that between a wizard and her familiar.\n\nThe spell does not prevent creatures or objects from moving into and out of the area.\n\nMage's private sanctum can be made permanent with a permanency spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d244b05d2963852.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d244b05d2963852"
+  },
+  "license": "OGL 1.0a"
+}

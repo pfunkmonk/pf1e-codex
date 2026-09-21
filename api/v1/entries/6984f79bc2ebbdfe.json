@@ -1,0 +1,26 @@
+{
+  "id": "6984f79bc2ebbdfe",
+  "name": "Wrathful Mantle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 257",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 257\nSchool evocation [force, light]; Level cleric 3, oracle 3, paladin 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch or 5 ft.; see text\nTarget creature touched or all creatures within 5 ft.; see text\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nA shimmering mantle of light shrouds the subject, casting light like a torch. The subject of the spell gains a +1 resistance bonus on all saving throws per four caster levels (maximum +5 at 20th level). The subject can end the wrathful mantle at any time as a swift action to deal 2d8 points of force damage to all creatures within 5 feet.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6984f79bc2ebbdfe.json",
+    "web": "https://codex.pipsprojects.com/#/e/6984f79bc2ebbdfe"
+  },
+  "license": "OGL 1.0a"
+}

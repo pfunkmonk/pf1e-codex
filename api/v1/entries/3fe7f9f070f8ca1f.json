@@ -1,0 +1,29 @@
+{
+  "id": "3fe7f9f070f8ca1f",
+  "name": "Detect Good",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 267",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "spiritualist": 1,
+      "warpriest": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 267\nSchool divination; Level adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 60 ft.\nArea cone-shaped emanation\nDuration concentration, up to 10 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like detect evil, except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3fe7f9f070f8ca1f.json",
+    "web": "https://codex.pipsprojects.com/#/e/3fe7f9f070f8ca1f"
+  },
+  "license": "OGL 1.0a"
+}

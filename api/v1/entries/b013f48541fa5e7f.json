@@ -1,0 +1,32 @@
+{
+  "id": "b013f48541fa5e7f",
+  "name": "Shadow Evocation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 340",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "mesmerist": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 340\nSchool illusion (shadow) [shadow]; Level arcanist 5, bard 5, mesmerist 5, skald 5, sorcerer 5, spiritualist 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange see text\nEffect see text\nDuration see text\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\nDescription\nYou tap energy from the Plane of Shadow to cast a quasi-real, illusory version of a sorcerer or wizard evocation spell of 4th level or lower. Spells that deal damage have normal effects unless an affected creature succeeds on a Will save. Each disbelieving creature takes only one-fifth damage from the attack. If the disbelieved attack has a special effect other than damage, that effect is one-fifth as strong (if applicable) or only 20% likely to occur. If recognized as a shadow evocation, a damaging spell deals only one-fifth (20%) damage. Regardless of the result of the save to disbelieve, an affected creature is also allowed any save (or spell resistance) that the spell being simulated allows, but the save DC is set according to shadow evocation's level (5th) rather than the spell's normal level.\n\nNondamaging effects have normal effects except against those who disbelieve them. Against disbelievers, they have no effect.\n\nObjects automatically succeed on their Will saves against this spell.\nShadow Evocation, Greater\nSource PRPG Core Rulebook pg. 340\nSchool illusion (shadow) [shadow]; Level arcanist 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange see text\nEffect see text\nDuration see text\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\nDescription\nThis spell functions like shadow evocation, except that it enables you to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or lower. If recognized as a greater shadow evocation, a damaging spell deals only three-fifths (60%) damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b013f48541fa5e7f.json",
+    "web": "https://codex.pipsprojects.com/#/e/b013f48541fa5e7f"
+  },
+  "license": "OGL 1.0a"
+}

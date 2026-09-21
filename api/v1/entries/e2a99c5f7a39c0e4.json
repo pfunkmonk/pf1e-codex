@@ -1,0 +1,26 @@
+{
+  "id": "e2a99c5f7a39c0e4",
+  "name": "Coordinated Effort",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 212",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "psychic": 4,
+      "skald": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 212\nSchool divination; Level bard 3, inquisitor 3, psychic 4, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets you plus one willing creature per 3 levels, no two of which can be more than 30 ft. part\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nChoose a single teamwork feat that you possess. You forge a link with your allies, allowing them to gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of the group qualifying for a given bonus for your allies to gain the benefits. For example, two of your allies flanking an orc would gain no benefit from your Outflank feat, but an ally flanking the orc with you would. Your allies’ positioning and actions must still meet the prerequisites listed in the teamwork feat for either of you to receive the listed bonus.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2a99c5f7a39c0e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2a99c5f7a39c0e4"
+  },
+  "license": "OGL 1.0a"
+}

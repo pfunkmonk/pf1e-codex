@@ -1,0 +1,25 @@
+{
+  "id": "27dd5e0828e5a58b",
+  "name": "Confess",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 212",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "psychic": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 212\nSchool enchantment (compulsion) [language-dependent, mind-affecting]; Level inquisitor 2, mesmerist 2, psychic 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will partial, see text; Spell Resistance yes\nDescription\nYou ask the target creature a single question. On the subject’s next action, it must answer truthfully in the same language as the question or take 1d6 points of damage per two caster levels (maximum 5d6) and be sickened for 2d4 rounds. A successful Will save negates the sickening effect and halves the damage. A creature that is unable to answer still takes damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/27dd5e0828e5a58b.json",
+    "web": "https://codex.pipsprojects.com/#/e/27dd5e0828e5a58b"
+  },
+  "license": "OGL 1.0a"
+}

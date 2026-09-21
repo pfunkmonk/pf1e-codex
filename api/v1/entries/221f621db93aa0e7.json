@@ -1,0 +1,27 @@
+{
+  "id": "221f621db93aa0e7",
+  "name": "Power Word Kill",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 324",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 324\nSchool enchantment (compulsion) [death, mind-affecting]; Level arcanist 9, psychic 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature with 100 hp or less\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYou utter a single word of power that instantly kills one creature of your choice, whether the creature can hear the word or not. Any creature that currently has 101 or more hit points is unaffected by power word kill.\nMythic Power Word Kill\nSource Mythic Adventures pg. 103\nTreat the target’s current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting mythic power word kill would instantly kill a creature with 85 hit points or fewer.\n\nYou can target a creature with more hit points than this spell could normally affect, causing it to become exhausted.\n\nAugmented (6th): If you expend four uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target’s hit point total drops to the point that this spell would have killed it upon casting, it’s instantly slain.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/221f621db93aa0e7.json",
+    "web": "https://codex.pipsprojects.com/#/e/221f621db93aa0e7"
+  },
+  "license": "OGL 1.0a"
+}

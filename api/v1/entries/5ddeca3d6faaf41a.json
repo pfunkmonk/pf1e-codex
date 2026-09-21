@@ -1,0 +1,30 @@
+{
+  "id": "5ddeca3d6faaf41a",
+  "name": "Summon Lesser Psychopomp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #80: Empty Graves pg. 28",
+  "book": "Pathfinder #80: Empty Graves",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 5,
+      "oracle": 5,
+      "sorcerer": 5,
+      "summoner": 4,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder #80: Empty Graves"
+  },
+  "body": "Source Pathfinder #80: Empty Graves pg. 28\nSchool conjuration (summoning); Level arcanist 5, cleric 5, oracle 5, sorcerer 5, summoner 4, summoner (unchained) 4, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (a crocodile skull funerary mask)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one or more summoned psychopomps (see text)\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster, except that it summons 1d3 esobok psychopomps or 1d4+1 nosoi psychopomps. Esobok psychopomps are detailed on page 84. Nosoi psychopomps are detailed on page 220 of Pathfinder RPG Bestiary 4.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ddeca3d6faaf41a.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ddeca3d6faaf41a"
+  },
+  "license": "OGL 1.0a"
+}

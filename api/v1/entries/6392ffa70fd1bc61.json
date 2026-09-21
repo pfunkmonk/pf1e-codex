@@ -1,0 +1,31 @@
+{
+  "id": "6392ffa70fd1bc61",
+  "name": "Improve Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 137",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 2,
+      "inquisitor": 3,
+      "ranger": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 137\nSchool transmutation; Level antipaladin 2, arcanist 3, druid 3, hunter 2, inquisitor 3, ranger 2, redmantisassassin 3, sorcerer 3, witch 3, wizard 3 (kobold)\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one trap\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nWhen this spell is cast upon a trap, it improves one specific element of the trap chosen at the time of casting. The caster can improve the trap in any of the following ways (each one raises the trap’s CR by +1).\nIncrease DC of the Perception check required to locate the trap by +5.\nIncrease DC of the Disable Device check required to disarm trap by +5.\nIncrease the trap’s attack bonus or saving throw by +2.\nTo cast this on a trap, you must know that the trap exists and its precise location. A trap can only have one improvement from this spell at a time. A second casting changes the improvement on the trap, but does not add another improvement.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6392ffa70fd1bc61.json",
+    "web": "https://codex.pipsprojects.com/#/e/6392ffa70fd1bc61"
+  },
+  "license": "OGL 1.0a"
+}

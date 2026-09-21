@@ -1,0 +1,18 @@
+{
+  "id": "bf5b39bcb2bd4de9",
+  "name": "Robojack",
+  "bucket": "items",
+  "category": "Miscellaneous",
+  "source": "Technology Guide pg. 51",
+  "book": "Technology Guide",
+  "facets": {
+    "pr": 30000,
+    "bk": "Technology Guide"
+  },
+  "body": "Source Technology Guide pg. 51\nPrice 30,000 gp\nSlot none; Weight 3 lbs.\nCapacity 10; Usage 1 charge\nDescription\nA robojack is a strange, rod-like device that can be used to usurp control of an otherwise functional robot. In order to gain control of a robot, the wielder must first make a ranged touch attack against a target robot within a range of 60 feet. If the attack is successful, the robot must succeed at a DC 14 Will saving throw to prevent the robojack from linking to the robot’s command processor. On a subsequent turn after a link is established, the wielder can issue a command to the robot as a standard action—each attempt to do so consumes 1 charge from the robojack, and the robot gets a new DC 14 Will saving throw to resist following each command. The wielder must be within 60 feet of the robot and must issue the command in a language understood by the robot. The types of commands he can issue are similar to those allowed by a suggestion spell—once a command is successfully issued, the robot does its best to carry out the orders over the course of the next hour. This does not drain further charges from the robojack.\nConstruction\nCraft DC 29; Cost 15,000 gp\nCraft Technological Item, military lab",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf5b39bcb2bd4de9.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf5b39bcb2bd4de9"
+  },
+  "license": "OGL 1.0a"
+}

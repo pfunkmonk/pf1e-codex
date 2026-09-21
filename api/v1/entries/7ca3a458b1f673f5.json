@@ -1,0 +1,29 @@
+{
+  "id": "7ca3a458b1f673f5",
+  "name": "Ki Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 225",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 225\nSchool conjuration; Level arcanist 1, bard 1, psychic 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange touch\nTarget 1 arrow touched\nDuration instantaneous\nSaving Throw Fortitude (object); Spell Resistance yes (object)\nDescription\nYou imbue an arrow with your power and throw it at a target up to 100 feet away. Make a ranged attack roll. If it hits, the target takes damage from the arrow as if you had hit it with a single unarmed strike (including your Strength bonus).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7ca3a458b1f673f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/7ca3a458b1f673f5"
+  },
+  "license": "OGL 1.0a"
+}

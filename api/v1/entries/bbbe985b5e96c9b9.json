@@ -1,0 +1,35 @@
+{
+  "id": "bbbe985b5e96c9b9",
+  "name": "Darkvault",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 15",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 5,
+      "cleric": 5,
+      "druid": 5,
+      "hunter": 5,
+      "investigator": 3,
+      "oracle": 5,
+      "psychic": 5,
+      "shaman": 5,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 15\nSchool abjuration; Level alchemist 3, arcanist 5, cleric 5, druid 5, hunter 5, investigator 3, oracle 5, psychic 5, shaman 5, sorcerer 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a stone that has never seen sunlight)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-ft.-radius emanation\nDuration 24 hours\nSaving Throw none; Spell Resistance no\nDescription\nYou ward an area’s shadows such that light cannot penetrate them. The illumination level in the affected area no longer changes when nonmagical light enters it. Any magical effect must succeed at a caster level check (DC = 10 + your caster level) in order to change the light level within the spell’s radius. Darkvault has no effect on spells or effects that would make the spell’s area darker.\n\nThe spell must be cast on an area, such as a cave or room. A spellcaster of 11th level or higher can make darkvault permanent with a permanency spell, at a cost of 7,500 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bbbe985b5e96c9b9.json",
+    "web": "https://codex.pipsprojects.com/#/e/bbbe985b5e96c9b9"
+  },
+  "license": "OGL 1.0a"
+}

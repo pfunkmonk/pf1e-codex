@@ -1,0 +1,28 @@
+{
+  "id": "7c3f68e322db8122",
+  "name": "Defoliate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Sargava, the Lost Colony pg. 28",
+  "book": "Sargava",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "druid": 2,
+      "hunter": 1,
+      "ranger": 1,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Sargava"
+  },
+  "body": "Source Sargava, the Lost Colony pg. 28\nSchool necromancy; Level arcanist 2, druid 2, hunter 1, ranger 1, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a locust)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget or Area see text\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYou hurl a tiny ball of negative energy, destroying plant life either in a line 60 feet long or a 10-foot-radius spread. This effect removes the cover and concealment provided by trees and undergrowth, eliminates the movement penalties associated with undergrowth, and so forth.\n\nYou may also target a single plant creature with this spell. You must succeed on a ranged touch attack to hit your target. An affected plant creature takes 2d8 points of damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c3f68e322db8122.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c3f68e322db8122"
+  },
+  "license": "OGL 1.0a"
+}

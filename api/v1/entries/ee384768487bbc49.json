@@ -1,0 +1,27 @@
+{
+  "id": "ee384768487bbc49",
+  "name": "Breath of Life",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 251",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "spiritualist": 5,
+      "warpriest": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 251\nSchool conjuration (healing); Level cleric 5, oracle 5, shaman 5, spiritualist 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless) or Will half, see text; Spell Resistance yes (harmless) or yes, see text\nDescription\nThis spell cures 5d8 points of damage + 1 point per caster level (maximum +25).\n\nUnlike other spells that heal damage, breath of life can bring recently slain creatures back to life. If cast upon a creature that has died within 1 round, apply the healing from this spell to the creature. If the healed creature's hit point total is at a negative amount less than its Constitution score, it comes back to life and stabilizes at its new hit point total. If the creature's hit point total is at a negative amount equal to or greater than its Constitution score, the creature remains dead. Creatures brought back to life through breath of life gain a temporary negative level that lasts for 1 day.\n\nCreatures slain by death effects cannot be saved by breath of life.\n\nLike cure spells, breath of life deals damage to undead creatures rather than curing them, and cannot bring them back to life.\nMythic Breath of Life\nSource Mythic Adventures pg. 87\nThe spell heals 5d12 points of damage + 1 point per caster level (maximum +25). It can revive a creature that died of hp damage within the past 2 rounds. If the target was slain by a death effect that allows a saving throw, this spell allows the creature to attempt another save against that effect. If this save is successful, the creature is revived with –10 hp plus the amount healed by this spell.\n\nAugmented (9th): If you expend two uses of mythic power, you can target up to one creature per caster level within 30 feet of you. Alternatively, you can target one creature that has been dead for a number of rounds up to your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ee384768487bbc49.json",
+    "web": "https://codex.pipsprojects.com/#/e/ee384768487bbc49"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "247e39a713b217c7",
+  "name": "Stay the Hand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 246",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "paladin": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 246\nSchool enchantment (compulsion) [mind-affecting]; Level paladin 4\nCasting\nCasting Time 1 immediate action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level and special; see text\nSaving Throw Will partial; Spell Resistance yes\nDescription\nYou cause a creature’s arm to waver and prevent it from striking another creature. You can cast this spell when the target is about to make a melee attack against another creature. On a failed saving throw, the target does not follow through with its attack, and its entire action is wasted for the round. On a successful saving throw, the target can make its attack, forcing its strike though the compulsion but losing both accuracy and power, taking a –5 penalty on its attack and damage rolls. Whether or not the target makes its initial save or not, it is subject to a –2 penalty on attack and damage rolls against the creature it originally targeted for the duration of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/247e39a713b217c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/247e39a713b217c7"
+  },
+  "license": "OGL 1.0a"
+}

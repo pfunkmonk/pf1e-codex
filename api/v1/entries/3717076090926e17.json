@@ -1,0 +1,33 @@
+{
+  "id": "3717076090926e17",
+  "name": "Hidden Spring",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 231",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 231\nSchool transmutation [water]; Level cleric 1, druid 1, hunter 1, oracle 1, ranger 1, shaman 1, warpriest 1, witch 1\nCasting\nCasting Time 1 hour\nComponents V, S, F (a Y-shaped wooden rod)\nEffect\nRange touch\nEffect a spring of fresh water\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\nDescription\nYou spend 1 hour in quiet meditation, holding the focus component in both hands and walking around a natural area. You are simultaneously drawn to areas of natural moisture while drawing that moisture closer. As the spell’s casting time concludes, you thrust the focus component into the ground. From that point, a fresh, clean water trickles forth at a rate of 1 gallon every 10 minutes. You cannot cast this spell inside a building or in an area of worked stone, but you can cast it underground. You cannot cast this spell within 1 mile of an existing hidden spring.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3717076090926e17.json",
+    "web": "https://codex.pipsprojects.com/#/e/3717076090926e17"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "3e2380aba4156b4b",
+  "name": "Sow Thought",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 185",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 185\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 1, bard 1, mesmerist 1, psychic 1, skald 1, sorcerer 1, witch 1, wizard 1 (changeling)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou plant an idea, concept, or suspicion in the mind of the subject. The target genuinely believes that the idea is his own, but is not required to act upon it. If the idea is contrary to the target’s normal thoughts (such as making a paladin think, \"I should murder my friends\") the target may suspect mind-altering magic is at play. The idea must be fairly clear, enough so that it can be conveyed in one or two sentences. You do not need to share a common language for the spell to succeed, but without a common language you can only sow the most basic rudimentary ideas.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3e2380aba4156b4b.json",
+    "web": "https://codex.pipsprojects.com/#/e/3e2380aba4156b4b"
+  },
+  "license": "OGL 1.0a"
+}

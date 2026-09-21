@@ -1,0 +1,440 @@
+{
+  "id": "22a77e8f881c9399",
+  "name": "Dragon (Imperial, Underworld)",
+  "bucket": "monsters",
+  "category": "Monster Families",
+  "source": "Bestiary 3 pg. 102",
+  "book": "Bestiary 3",
+  "facets": {
+    "cr": 3,
+    "sz": "Colossal",
+    "t": "dragon",
+    "bk": "Bestiary 3"
+  },
+  "body": "Source Bestiary 3 pg. 102\nAlthough chromatic and metallic dragons are the most widely known, other categories of true dragon exist. Presented here are the five imperial dragons, regal guardians of ancient lands and servants of cosmic balance.\nAge Categories\nMany of a true dragon's abilities, attacks, and other statistics improve as a dragon grows older. These increases are divided into 12 age categories—as a dragon ages, its base statistics change as noted on the Dragon Age Categories table.\n\nAge Category Age in Years CR Size Hit Dice Natural Armor Breath Weapon\n1 Wyrmling 0–5 Base Base Base Base Base\n2 Very young 6–15 Base + 2 Base + 1 Base + 2 Base + 3 Base × 2\n3 Young 16–25 Base + 4 Base + 2 Base + 4 Base + 6 Base × 3\n4 Juvenile 26–50 Base + 5 Base + 2 Base + 6 Base + 9 Base × 4\n5 Young adult 51–100 Base + 7 Base + 3 Base + 8 Base + 12 Base × 5\n6 Adult 101–200 Base + 8 Base + 3 Base + 10 Base + 15 Base × 6\n7 Mature adult 201–400 Base + 9 Base + 3 Base + 12 Base + 18 Base × 7\n8 Old 401–600 Base + 11 Base + 4 Base + 14 Base + 21 Base × 8\n9 Very old 601–800 Base + 12 Base + 4 Base + 16 Base + 24 Base × 9\n10 Ancient 801–1,000 Base + 13 Base + 4 Base + 18 Base + 27 Base × 10\n11 Wyrm 1,001–1,200 Base + 14 Base + 4 Base + 20 Base + 30 Base × 11\n12 Great wyrm 1,201+ Base + 16 Base + 5 Base + 22 Base + 33 Base × 12\n\nAge Category: This is the age category's name.\nAge in Years: This is the dragon's actual age.\nCR: This column modifies the dragon's base CR.\nSize: This shows how many size categories by which to increase the dragon's base size, depending on its age (from Tiny to Small, Small to Medium, and so on). A true dragon does not gain the standard increases to ability scores when it achieves a larger size—instead, true dragons gain ability score increases according to their age category, as indicated on the Dragon Ability Scores table.\nHit Dice: This shows how many additional Hit Dice a dragon gains over its base Hit Dice as it grows. Increases to Hit Dice grant extra hit points, feats, and skill ranks as well as increase the dragon's base attack bonus and base save bonuses. Dragons have skill ranks equal to 6 + their Intelligence modifier per Hit Die. A dragon's increases to ability scores for gaining Hit Dice are included in the total ability score increases (see the Dragon Ability Scores table).\nNatural Armor: This shows by what amount the dragon's base natural armor bonus increases with each age category.\nBreath Weapon: Each dragon has a breath weapon (see Combat) that deals a base amount of damage. This multiplier increases the number of dice of damage dealt by the dragon's breath weapon. For example, a mature adult dragon with a base breath weapon that deals 2d6 acid damage would deal 14d6 acid damage (due to the ×7 multiplier).\n\nAge Category Str Dex Con Int Wis Chr\n1 Wyrmling Base Base Base Base Base Base\n2 Very young Base + 4 Base – 2 Base + 2 Base + 2 Base + 2 Base + 2\n3 Young Base + 8 Base – 2 Base + 4 Base + 2 Base + 2 Base + 2\n4 Juvenile Base + 10 Base – 2 Base + 6 Base + 4 Base + 4 Base + 4\n5 Young adult Base + 12 Base – 4 Base + 6 Base + 4 Base + 4 Base + 4\n6 Adult Base + 14 Base – 4 Base + 8 Base + 6 Base + 6 Base + 6\n7 Mature adult Base + 16 Base – 4 Base + 8 Base + 6 Base + 6 Base + 6\n8 Old Base + 18 Base – 6 Base + 10 Base + 8 Base + 8 Base + 8\n9 Very old Base + 20 Base – 6 Base + 10 Base + 8 Base + 8 Base + 8\n10 Ancient Base + 22 Base – 6 Base + 12 Base + 10 Base + 10 Base + 10\n11 Wyrm Base + 24 Base – 8 Base + 12 Base + 10 Base + 10 Base + 10\n12 Great wyrm Base + 26 Base – 8 Base + 14 Base + 12 Base + 12 Base + 12\nCombat\nThe Dragon Attacks and Speeds table lists the attacks a dragon can employ and the damage it deals (a dash indicates that a dragon of that size does not possess that natural attack). Other abilities described here are gained by dragons when they reach a specific age category.\n\nSize Fly Speed (maneuverability) 1 Bite 2 Claws Gore 1 Tail Slap 1 Crush 1 Tail Sweep Breath Weapon\nLine Cone\nTiny 100 ft. (average) 1d4 1d3 — — — — 30 ft. 15 ft.\nSmall 150 ft. (average) 1d6 1d4 — — — — 40 ft. 20 ft.\nMedium 150 ft. (average) 1d8 1d6 1d6 — — — 60 ft. 30 ft.\nLarge 200 ft. (poor) 2d6 1d8 1d8 1d8 — — 80 ft. 40 ft.\nHuge 200 ft. (poor) 2d8 2d6 2d6 2d6 2d8 — 100 ft. 50 ft.\nGargantuan 250 ft. (clumsy) 4d6 2d8 2d8 2d8 4d6 2d6 120 ft. 60 ft.\nColossal 250 ft. (clumsy) 4d8 4d6 4d6 4d6 4d8 2d8 140 ft. 70 ft.\n\nFly Speed: A dragon's fly speed increases as indicated, according to its size. Imperial dragons are wingless and their flight is a supernatural ability.\n\nBite: This is a primary attack that deals the indicated damage plus 1-1/2 times the dragon's Strength bonus (even though it has more than one attack). A dragon's bite attack has reach as if the creature were one size category larger (+10 feet for Colossal dragons).\n\nClaws: These primary attacks deal the indicated damage plus the dragon's Strength bonus.\n\nGore: As they are wingless, Medium and larger imperial dragons make gore attacks with their horns instead of wing attacks. A gore is a primary attack that deals the indicated damage plus 1-1/2 times the dragon's Strength bonus. An imperial dragon's gore attack has reach as if the creature were one size category larger (+10 feet for Colossal dragons).\n\nTail Slap: The dragon can slap one foe each round with its tail. A tail slap is a secondary attack that deals the indicated damage plus 1-1/2 times the dragon's Strength bonus (this is an exception to the normal secondary attack rules).\n\nCrush (Ex): A flying or jumping Huge or larger dragon can land on foes as a standard action, using its whole body to crush them. Crush attacks are effective only against opponents three or more size categories smaller than the dragon. A crush attack affects as many creatures as fit in the dragon's space. Creatures in the affected area must succeed at a Reflex save (DC equal to that of the dragon's breath weapon) or be pinned, automatically taking bludgeoning damage during the next round unless the dragon moves off them. If the dragon chooses to maintain the pin, it must succeed at a combat maneuver check as normal. Pinned foes take damage from the crush each round if they don't escape. A crush attack deals the indicated damage plus 1-1/2 times the dragon's Strength bonus.\n\nTail Sweep (Ex): This allows a Gargantuan or larger dragon to sweep with its tail as a standard action. The sweep affects a half-circle with a radius of 30 feet (or 40 feet for a Colossal dragon), extending from an intersection on the edge of the dragon's space in any direction. Creatures within the swept area are affected if they are four or more size categories smaller than the dragon. A tail sweep automatically deals the indicated damage plus 1-1/2 times the dragon's Strength bonus. Affected creatures can attempt Reflex saves to take half damage (DC equal to that of the dragon's breath weapon).\n\nBreath Weapon (Su): Using a breath weapon is a standard action. A dragon can use its breath weapon once every 1d4 rounds, even if it possesses more than one breath weapon. A breath weapon always starts at an intersection adjacent to the dragon and extends in a direction of the dragon's choice. Breath weapons come in two shapes, lines and cones, whose areas vary with the dragon's size. If a breath weapon deals damage, those caught in the area can attempt Reflex saves to take half damage. The save DC against a breath weapon is 10 + 1/2 the dragon's HD + the dragon's Con modifier. Saves against various breath weapons use the same DC; the type of saving throw is noted in the variety descriptions. A dragon can use its breath weapon when it is grappling or being grappled.\nAdditional Dragon Rules\nDragon Senses (Ex): Dragons have darkvision 120 ft. and blindsense 60 ft. They see four times as well as a human in dim light and twice as well in normal light.\nFrightful Presence (Ex): A dragon's frightful presence has a range equal to 30 feet × the dragon's age category, but otherwise functions as detailed in the Universal Monster Rules.\nSpells: A dragon knows and casts arcane spells as a sorcerer of the level indicated in its specific description. Its caster level depends on its age, as shown for each type.\nSpell-Like Abilities: A dragon's caster level for its spell-like abilities is equal to its total Hit Dice.\nDamage Reduction: Dragons gain damage reduction as they age, as indicated on each dragon's specific entry. Their natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.\nImmunities (Ex): Every dragon is immune to sleep and paralysis. In addition, a dragon is immune to one or two additional forms of attack no matter what its age, as given in its description.\nSpell Resistance (Ex): As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR.\nUnderworld Dragon\nLE dragon (fire)\nBase Statistics\nCR 3; Size Tiny; Hit Dice 4d12\nSpeed 40 ft., burrow 30 ft.\nNatural Armor +4; Breath Weapon line, 2d6 fire\nStr 13, Dex 14, Con 13, Int 10, Wis 11, Cha 10\nEcology\nEnvironment any underground\nOrganization solitary\nTreasure triple\nSpecial Abilities\nAdamantine Claws (Ex) The claws of an underworld dragon are made of adamantine, and have the qualities of a weapon made from that material.\nChange Shape (Su) A young or older underworld dragon can assume any humanoid form three times per day as if using polymorph.\nLava Eruption (Su) As a full-round action, a great wyrm underworld dragon can burrow through the ground up to twice its burrow speed. At the end of that movement, if the underworld dragon has use of its breath weapon, it can emerge from the ground spouting lava in a 30-foot-radius burst, dealing damage as the breath weapon.\nSmoke Vision (Ex) A very young and older underworld dragon can see perfectly in smoky conditions (such as those created by pyrotechnics). Underworld Burrower (Ex) An adult underworld dragon gains a 10-foot bonus to its burrow speed. When the underworld dragon becomes old and every two age categories thereafter, its burrow speed increases by an additional 10 feet.\n\nAge Category Special Abilities Caster Level\nWyrmling Adamantine claws, immunity to fire —\nVery young Smoke vision —\nYoung Change shape, soften earth and stone -\nJuvenile Frightful presence, stone shape 1st\nYoung adult DR 5/magic, spell resistance 3rd\nAdult Spike stones, underworld burrower 5th\nMature adult DR 10/magic 7th\nOld Wall of stone 9th\nVery old DR 15/magic 11th\nAncient Repel metal or stone 13th\nWyrm DR 20/magic 15th\nGreat wyrm Clashing rocks, lava eruption 17th\nMembers\nAdult Underworld Dragon (CR 11), Ancient Underworld Dragon (CR 16), Young Underworld Dragon (CR 7)",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Age Category",
+          "Age in Years",
+          "CR",
+          "Size",
+          "Hit Dice",
+          "Natural Armor",
+          "Breath Weapon"
+        ],
+        [
+          "1 Wyrmling",
+          "0–5",
+          "Base",
+          "Base",
+          "Base",
+          "Base",
+          "Base"
+        ],
+        [
+          "2 Very young",
+          "6–15",
+          "Base + 2",
+          "Base + 1",
+          "Base + 2",
+          "Base + 3",
+          "Base × 2"
+        ],
+        [
+          "3 Young",
+          "16–25",
+          "Base + 4",
+          "Base + 2",
+          "Base + 4",
+          "Base + 6",
+          "Base × 3"
+        ],
+        [
+          "4 Juvenile",
+          "26–50",
+          "Base + 5",
+          "Base + 2",
+          "Base + 6",
+          "Base + 9",
+          "Base × 4"
+        ],
+        [
+          "5 Young adult",
+          "51–100",
+          "Base + 7",
+          "Base + 3",
+          "Base + 8",
+          "Base + 12",
+          "Base × 5"
+        ],
+        [
+          "6 Adult",
+          "101–200",
+          "Base + 8",
+          "Base + 3",
+          "Base + 10",
+          "Base + 15",
+          "Base × 6"
+        ],
+        [
+          "7 Mature adult",
+          "201–400",
+          "Base + 9",
+          "Base + 3",
+          "Base + 12",
+          "Base + 18",
+          "Base × 7"
+        ],
+        [
+          "8 Old",
+          "401–600",
+          "Base + 11",
+          "Base + 4",
+          "Base + 14",
+          "Base + 21",
+          "Base × 8"
+        ],
+        [
+          "9 Very old",
+          "601–800",
+          "Base + 12",
+          "Base + 4",
+          "Base + 16",
+          "Base + 24",
+          "Base × 9"
+        ],
+        [
+          "10 Ancient",
+          "801–1,000",
+          "Base + 13",
+          "Base + 4",
+          "Base + 18",
+          "Base + 27",
+          "Base × 10"
+        ],
+        [
+          "11 Wyrm",
+          "1,001–1,200",
+          "Base + 14",
+          "Base + 4",
+          "Base + 20",
+          "Base + 30",
+          "Base × 11"
+        ],
+        [
+          "12 Great wyrm",
+          "1,201+",
+          "Base + 16",
+          "Base + 5",
+          "Base + 22",
+          "Base + 33",
+          "Base × 12"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Age Category",
+          "Str",
+          "Dex",
+          "Con",
+          "Int",
+          "Wis",
+          "Chr"
+        ],
+        [
+          "1 Wyrmling",
+          "Base",
+          "Base",
+          "Base",
+          "Base",
+          "Base",
+          "Base"
+        ],
+        [
+          "2 Very young",
+          "Base + 4",
+          "Base – 2",
+          "Base + 2",
+          "Base + 2",
+          "Base + 2",
+          "Base + 2"
+        ],
+        [
+          "3 Young",
+          "Base + 8",
+          "Base – 2",
+          "Base + 4",
+          "Base + 2",
+          "Base + 2",
+          "Base + 2"
+        ],
+        [
+          "4 Juvenile",
+          "Base + 10",
+          "Base – 2",
+          "Base + 6",
+          "Base + 4",
+          "Base + 4",
+          "Base + 4"
+        ],
+        [
+          "5 Young adult",
+          "Base + 12",
+          "Base – 4",
+          "Base + 6",
+          "Base + 4",
+          "Base + 4",
+          "Base + 4"
+        ],
+        [
+          "6 Adult",
+          "Base + 14",
+          "Base – 4",
+          "Base + 8",
+          "Base + 6",
+          "Base + 6",
+          "Base + 6"
+        ],
+        [
+          "7 Mature adult",
+          "Base + 16",
+          "Base – 4",
+          "Base + 8",
+          "Base + 6",
+          "Base + 6",
+          "Base + 6"
+        ],
+        [
+          "8 Old",
+          "Base + 18",
+          "Base – 6",
+          "Base + 10",
+          "Base + 8",
+          "Base + 8",
+          "Base + 8"
+        ],
+        [
+          "9 Very old",
+          "Base + 20",
+          "Base – 6",
+          "Base + 10",
+          "Base + 8",
+          "Base + 8",
+          "Base + 8"
+        ],
+        [
+          "10 Ancient",
+          "Base + 22",
+          "Base – 6",
+          "Base + 12",
+          "Base + 10",
+          "Base + 10",
+          "Base + 10"
+        ],
+        [
+          "11 Wyrm",
+          "Base + 24",
+          "Base – 8",
+          "Base + 12",
+          "Base + 10",
+          "Base + 10",
+          "Base + 10"
+        ],
+        [
+          "12 Great wyrm",
+          "Base + 26",
+          "Base – 8",
+          "Base + 14",
+          "Base + 12",
+          "Base + 12",
+          "Base + 12"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Size",
+          "Fly Speed (maneuverability)",
+          "1 Bite",
+          "2 Claws",
+          "Gore",
+          "1 Tail Slap",
+          "1 Crush",
+          "1 Tail Sweep",
+          "Breath Weapon"
+        ],
+        [
+          "Line",
+          "Cone"
+        ],
+        [
+          "Tiny",
+          "100 ft. (average)",
+          "1d4",
+          "1d3",
+          "—",
+          "—",
+          "—",
+          "—",
+          "30 ft.",
+          "15 ft."
+        ],
+        [
+          "Small",
+          "150 ft. (average)",
+          "1d6",
+          "1d4",
+          "—",
+          "—",
+          "—",
+          "—",
+          "40 ft.",
+          "20 ft."
+        ],
+        [
+          "Medium",
+          "150 ft. (average)",
+          "1d8",
+          "1d6",
+          "1d6",
+          "—",
+          "—",
+          "—",
+          "60 ft.",
+          "30 ft."
+        ],
+        [
+          "Large",
+          "200 ft. (poor)",
+          "2d6",
+          "1d8",
+          "1d8",
+          "1d8",
+          "—",
+          "—",
+          "80 ft.",
+          "40 ft."
+        ],
+        [
+          "Huge",
+          "200 ft. (poor)",
+          "2d8",
+          "2d6",
+          "2d6",
+          "2d6",
+          "2d8",
+          "—",
+          "100 ft.",
+          "50 ft."
+        ],
+        [
+          "Gargantuan",
+          "250 ft. (clumsy)",
+          "4d6",
+          "2d8",
+          "2d8",
+          "2d8",
+          "4d6",
+          "2d6",
+          "120 ft.",
+          "60 ft."
+        ],
+        [
+          "Colossal",
+          "250 ft. (clumsy)",
+          "4d8",
+          "4d6",
+          "4d6",
+          "4d6",
+          "4d8",
+          "2d8",
+          "140 ft.",
+          "70 ft."
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Age Category",
+          "Special Abilities",
+          "Caster Level"
+        ],
+        [
+          "Wyrmling",
+          "Adamantine claws, immunity to fire",
+          "—"
+        ],
+        [
+          "Very young",
+          "Smoke vision",
+          "—"
+        ],
+        [
+          "Young",
+          "Change shape, soften earth and stone",
+          "-"
+        ],
+        [
+          "Juvenile",
+          "Frightful presence, stone shape",
+          "1st"
+        ],
+        [
+          "Young adult",
+          "DR 5/magic, spell resistance",
+          "3rd"
+        ],
+        [
+          "Adult",
+          "Spike stones, underworld burrower",
+          "5th"
+        ],
+        [
+          "Mature adult",
+          "DR 10/magic",
+          "7th"
+        ],
+        [
+          "Old",
+          "Wall of stone",
+          "9th"
+        ],
+        [
+          "Very old",
+          "DR 15/magic",
+          "11th"
+        ],
+        [
+          "Ancient",
+          "Repel metal or stone",
+          "13th"
+        ],
+        [
+          "Wyrm",
+          "DR 20/magic",
+          "15th"
+        ],
+        [
+          "Great wyrm",
+          "Clashing rocks, lava eruption",
+          "17th"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/22a77e8f881c9399.json",
+    "web": "https://codex.pipsprojects.com/#/e/22a77e8f881c9399"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "67f1dd9a4740c5b2",
+  "name": "Planeslayer's Call",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 190",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 4,
+      "occultist": 4,
+      "oracle": 5,
+      "paladin": 4,
+      "warpriest": 5
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 190\nSchool enchantment (compulsion) [mind-affecting, see text]; Level cleric 5, inquisitor 4, occultist 4, oracle 5, paladin 4, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 20 ft.\nTargets allies within a 20-ft.-radius burst centered on you\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\nDescription\nThe magic of your allies in the area becomes more potent against certain outsiders. Chose one alignment subtype (chaotic, evil, good, or lawful). Against outsiders with that alignment component or subtype, your allies in the area gain a +2 bonus on caster level checks to overcome spell resistance, and their spells ignore the first 10 points of energy resistance (but not energy immunity).\n\nThis spell gains the alignment descriptor that is opposite the outsider alignment chosen. For example, if you choose for the spell to affect evil outsiders, then this spell has the good descriptor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67f1dd9a4740c5b2.json",
+    "web": "https://codex.pipsprojects.com/#/e/67f1dd9a4740c5b2"
+  },
+  "license": "OGL 1.0a"
+}

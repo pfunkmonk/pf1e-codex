@@ -1,0 +1,35 @@
+{
+  "id": "b72c6d32a0d9ff94",
+  "name": "Deep Slumber",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 265",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "shaman": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 265\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 3, bard 3, mesmerist 3, occultist 3, psychic 3, sahirafiyun 3, shaman 3, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S, M (fine sand, rose petals, or a live cricket)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea one or more living creatures within a 10-ft.-radius burst\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like sleep, except that it affects 10 HD of targets.\nMythic Deep Slumber\nSource Mythic Adventures pg. 90\nThis spell works like mythic sleep, except that it affects up to 20 Hit Dice of creatures. Alternatively, you may target one creature rather than an area, increasing the duration to 1 hour per level.\n\nAugmented (5th): If you expend two uses of mythic power, creatures affected by the spell can be awakened only by mythic effects. If you’re 5th tier and expend three uses of mythic power, the duration increases to 10 years per tier. If you’re 5th tier and expend four uses of mythic power, the spell has both augmented effects. Creatures sleeping for years because of this spell age and breathe as normal, but don’t need to eat or drink while the spell lasts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b72c6d32a0d9ff94.json",
+    "web": "https://codex.pipsprojects.com/#/e/b72c6d32a0d9ff94"
+  },
+  "license": "OGL 1.0a"
+}

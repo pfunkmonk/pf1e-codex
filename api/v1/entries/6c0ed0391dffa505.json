@@ -1,0 +1,28 @@
+{
+  "id": "6c0ed0391dffa505",
+  "name": "Faerie Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 280",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "mesmerist": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 280\nSchool evocation [light]; Level druid 1, hunter 1, mesmerist 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange long (400 ft. + 40 ft./level)\nArea creatures and objects within a 5-ft.-radius burst\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nA pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Creatures outlined by faerie fire take a –20 penalty on all Stealth checks. Outlined creatures do not benefit from the concealment normally provided by darkness (though a 2nd-level or higher magical darkness effect functions normally), blur, displacement, invisibility, or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.\nMythic Faerie Fire\nSource Mythic Adventures pg. 93\nOutlined creatures are dazzled. The spell outlines figment illusions in the burst, revealing them as such. This effect applies only to figments with a caster level equal to or less than your tier.\n\nAugmented (2nd): If you expend two uses of mythic power, each creature in the burst must succeed at a Fortitude save or be blinded for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6c0ed0391dffa505.json",
+    "web": "https://codex.pipsprojects.com/#/e/6c0ed0391dffa505"
+  },
+  "license": "OGL 1.0a"
+}

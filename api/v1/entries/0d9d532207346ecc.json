@@ -1,0 +1,23 @@
+{
+  "id": "0d9d532207346ecc",
+  "name": "Transmute Metal to Wood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 361",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 361\nSchool transmutation; Level druid 7\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange long (400 ft. + 40 ft./level)\nArea all metal objects within a 40-ft.-radius burst\nDuration instantaneous\nSaving Throw none; Spell Resistance yes (object; see text)\nDescription\nThis spell enables you to change all metal objects within its area to wood. Weapons, armor, and other metal objects carried by creatures are affected as well. A magic object made of metal effectively has spell resistance equal to 20 + its caster level against this spell. Artifacts cannot be transmuted. Weapons converted from metal to wood take a –2 penalty on attack and damage rolls. The armor bonus of any armor converted from metal to wood is reduced by 2. Weapons changed by this spell splinter and break on any natural attack roll of 1 or 2, and armor changed by this spell loses an additional point of armor bonus every time it is struck with a natural attack roll of 19 or 20.\n\nOnly limited wish, miracle, wish, or similar magic can restore a transmuted object to its metallic state.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d9d532207346ecc.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d9d532207346ecc"
+  },
+  "license": "OGL 1.0a"
+}

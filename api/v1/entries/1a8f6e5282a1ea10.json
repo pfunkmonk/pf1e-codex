@@ -1,0 +1,31 @@
+{
+  "id": "1a8f6e5282a1ea10",
+  "name": "Prognostication",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 273",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "medium": 3,
+      "oracle": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "spiritualist": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Divination\nSource PRPG Core Rulebook pg. 273\nSchool divination; Level cleric 4, inquisitor 4, medium 3, oracle 4, psychic 4, sahirafiyun 4, shaman 4, spiritualist 4, warpriest 4, witch 4\nCasting\nCasting Time 10 minutes\nComponents V, S, M (incense and an appropriate offering worth 25 gp)\nEffect\nRange personal\nTarget you\nDuration instantaneous\nDescription\nSimilar to augury but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within 1 week. The advice granted by the spell can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn't act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the die roll fails, you know the spell failed, unless specific magic yielding false information is at work.\n\nAs with augury, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.\nPrognostication\nSource Ultimate Intrigue pg. 223\nSchool divination; Level cleric 6, inquisitor 6, medium 4, oracle 6, psychic 6, shaman 6, spiritualist 6, warpriest 6, witch 6\nCasting\nCasting Time 8 hours\nComponents V, S, M (rare incense and tonics worth 250 gp)\nEffect\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou glimpse the future. Prognostication functions as divination except that the spell can see up to a year and a day into the future. Because of the increased unpredictability of the distant future, prognostication is significantly more cryptic than the already-cryptic divination spell.\nTrue Prognostication\nSource Ultimate Intrigue pg. 228\nSchool divination; Level cleric 8, oracle 8, psychic 8, shaman 8, witch 8\nCasting\nCasting Time 1 week\nComponents V, S, M (rare incense and tonics worth 1,000 gp)\nEffect\nRange personal\nTarget you\nDuration instantaneous\nDescription\nTrue prognostication functions as divination except that the spell can see up to 100 years into the future. Because of the extreme unpredictability of the far-distant future, true prognostication is incredibly cryptic when used to learn about events on such large a scale.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a8f6e5282a1ea10.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a8f6e5282a1ea10"
+  },
+  "license": "OGL 1.0a"
+}

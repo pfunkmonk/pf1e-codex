@@ -1,0 +1,17 @@
+{
+  "id": "84593bdaaea9cd44",
+  "name": "Notice Creatures and Details",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 61",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\n\nNotice Creatures and Details\nSource Pathfinder Unchained pg. 61\nYou can detect a creature that is using Stealth if you succeed at an opposed Perception check. You can also notice sights, sounds, and other stimuli detectable by your senses. Use the search function of Perception (see below) to find hidden objects, traps, secret doors, and other things that take time to detect.\n\nStimulus Perception DC\nHear a battle -10\nSmell rotting garbage -10\nHear details of a conversation 0\nSee a visible creature 0\nSmell smoke 0\nDetermine whether food is spoiled 5\nHear a creature walking 10\nHear details of a whispered conversation 15\nIdentify powers of a potion by taste 15 + potion's CL\nHear a key being turned in a lock 20\nHear a bow being drawn 25\nSense a burrowing creature underneath you 25\nNotice a pickpocket Opposed by Finesse\nNotice a creature using Stealth Opposed by Stealth\n\nThe DCs of Perception checks to notice (and to search) are modified as indicated in the table below.\n\nNotice Modifiers Perception DC Modifier\nDistance to the source, object, or creature +1 per 10 feet\nThrough a closed door +5\nThrough a wall +10 per foot of thickness\nFavorable conditions -2\nUnfavorable conditions +2\nTerrible conditions +5\nCreature attempting the check is distracted +5\nCreature attempting the check is asleep +10\nSource, object, or creature is invisible +20\n\nAction: None. This function is largely reactive in response to observable stimuli.\n\nTry Again: Yes.\n\nConditions: Favorable, unfavorable, and terrible conditions depend on the sense being used. Bright light might be a favorable condition if the check involves sight, while dimmer conditions such as torchlight or moonlight could be unfavorable. Background noise could increase the DC for a check involving hearing, and competing odors could increase the DC of a scent-based check. Terrible conditions could include candlelight impeding a sight check, a dragon’s roar drowning out other sounds, or an overpowering stench occluding a subtler smell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/84593bdaaea9cd44.json",
+    "web": "https://codex.pipsprojects.com/#/e/84593bdaaea9cd44"
+  },
+  "license": "OGL 1.0a"
+}

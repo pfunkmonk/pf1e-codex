@@ -1,0 +1,34 @@
+{
+  "id": "ba91d32383173494",
+  "name": "Speak Local Language",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Streets pg. 31",
+  "book": "Heroes of the Streets",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Heroes of the Streets"
+  },
+  "body": "Source Heroes of the Streets pg. 31\nSchool divination; Level arcanist 1, bard 1, cleric 1, hunter 1, inquisitor 1, oracle 1, ranger 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, M/DF (a worn-out coin)\nEffect\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell functions as tongues, except the creature touched gains only the ability to speak and understand a regional human language, such as Varisian or Common (Taldane in the Inner Sea region or Tien in Tian Xia), and the language granted must be one you know. You must select the language at the time of casting. The language can’t be a dead language, such as Ancient Osiriani or Jistka.\n\nThe target speaks the language with a native accent, but the spell doesn’t impart knowledge about any culture associated with the language, nor does it change the target’s appearance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ba91d32383173494.json",
+    "web": "https://codex.pipsprojects.com/#/e/ba91d32383173494"
+  },
+  "license": "OGL 1.0a"
+}

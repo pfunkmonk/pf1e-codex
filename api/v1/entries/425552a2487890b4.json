@@ -1,0 +1,32 @@
+{
+  "id": "425552a2487890b4",
+  "name": "Frost Fall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 230",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 230\nSchool evocation [cold]; Level arcanist 2, druid 2, hunter 2, occultist 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 5-foot radius burst\nDuration 1 round/2 levels\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nThe area of this spell is covered in chilling frost, dealing 2d6 points of cold damage to all creatures within it. Creatures that the spell initially damages must succeed at a Fortitude save or become staggered for 1 round. The area remains chilled for the spell’s duration. Any creature that starts your turn within the spell’s area takes 1d6 points of cold damage (Fortitude saving throw for half) but does not become staggered even on a failed saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/425552a2487890b4.json",
+    "web": "https://codex.pipsprojects.com/#/e/425552a2487890b4"
+  },
+  "license": "OGL 1.0a"
+}

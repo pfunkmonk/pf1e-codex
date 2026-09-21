@@ -1,0 +1,24 @@
+{
+  "id": "2fcd64e5cbef41c3",
+  "name": "Sealed Life",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 185",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "medium": 2,
+      "spiritualist": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 185\nSchool abjuration; Level medium 2, spiritualist 3\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\nDescription\nYou seal the life force within the target, preventing it from sharing its vitality with others. Affected creatures can’t transfer damage to or from another, such as through shield other, a spiritualist’s life bond, or a summoner’s life link. Effects such as vampiric touch that steal vitality from others deal damage normally, but provide no benefits.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2fcd64e5cbef41c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/2fcd64e5cbef41c3"
+  },
+  "license": "OGL 1.0a"
+}

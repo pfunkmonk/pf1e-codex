@@ -1,0 +1,17 @@
+{
+  "id": "d45f15f51ac7b012",
+  "name": "Trigger",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 417",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nTrigger\nSource PRPG Core Rulebook pg. 417\nA trap’s trigger determines how it is sprung.\n\nLocation: A location trigger springs a trap when someone stands in a particular square.\n\nProximity: This trigger activates the trap when a creature approaches within a certain distance of it. A proximity trigger differs from a location trigger in that the creature need not be standing in a particular square. Creatures that are flying can spring a trap with a proximity trigger but not one with a location trigger. Mechanical proximity triggers are extremely sensitive to the slightest change in the air. This makes them useful only in places such as crypts, where the air is unusually still.\n\nThe proximity trigger used most often for magic device traps is the alarm spell. Unlike when the spell is cast, an alarm spell used as a trigger can have an area that’s no larger than the area the trap is meant to protect. Some magic device traps have special proximity triggers that activate only when certain kinds of creatures approach. For example, a detect good spell can serve as a proximity trigger on an evil altar, springing the attached trap only when someone of good alignment gets close enough to it.\n\nSound: This trigger springs a magic trap when it detects any sound. A sound trigger functions like an ear and has a +15 bonus on Perception checks. A successful Stealth check, magical silence, and other effects that would negate hearing defeat it. A trap with a sound trigger requires the casting of clairaudience during its construction.\n\nVisual: This trigger for magic traps works like an actual eye, springing the trap whenever it “sees” something. A trap with a visual trigger requires the casting of arcane eye, clairvoyance, or true seeing during its construction. Sight range and the Perception bonus conferred on the trap depend on the spell chosen, as shown.\n\nSpell Sight Ranges Perception Bonus\nArcane eye Line of sight (unlimited range) +20\nClairvoyance One preselected location +15\nTrue seeing Line of sight (up to 120 ft.) +30\nIf you want the trap to see in the dark, you must either choose the true seeing option or add darkvision to the trap as well. (Darkvision limits the trap’s sight range in the dark to 60 feet.) If invisibility, disguises, or illusions can fool the spell being used, they can fool the visual trigger as well.\n\nTouch: A touch trigger, which springs the trap when touched, is one of the simplest kinds of trigger to construct. This trigger may be physically attached to the part of the mechanism that deals the damage or it may not. You can make a magic touch trigger by adding alarm to the trap and reducing the area of the effect to cover only the trigger spot.\n\nTimed: This trigger periodically springs the trap after a certain duration has passed.\n\nSpell: All spell traps have this kind of trigger. The appropriate spell descriptions explain the trigger conditions for traps that contain spell triggers.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d45f15f51ac7b012.json",
+    "web": "https://codex.pipsprojects.com/#/e/d45f15f51ac7b012"
+  },
+  "license": "OGL 1.0a"
+}

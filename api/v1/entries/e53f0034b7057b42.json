@@ -1,0 +1,36 @@
+{
+  "id": "e53f0034b7057b42",
+  "name": "Ride The Waves",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 235",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 235\nSchool transmutation [water]; Level arcanist 4, bloodrager 4, cleric 4, druid 4, hunter 4, oracle 4, redmantisassassin 4, shaman 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target gains the ability to breathe water and a swim speed of 30 feet. This swim speed means the target also gains the standard +8 bonus on Swim checks and the ability to take 10 on Swim checks even while distracted or endangered. The target can use the run action while swimming, provided it swims in a straight line. The spell does not make the target unable to breathe air.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e53f0034b7057b42.json",
+    "web": "https://codex.pipsprojects.com/#/e/e53f0034b7057b42"
+  },
+  "license": "OGL 1.0a"
+}

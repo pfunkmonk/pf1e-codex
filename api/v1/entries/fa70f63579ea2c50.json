@@ -1,0 +1,32 @@
+{
+  "id": "fa70f63579ea2c50",
+  "name": "Shadow Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 237",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 237\nSchool illusion (shadow) [shadow]; Level arcanist 1, bloodrager 1, occultist 1, psychic 1, redmantisassassin 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 0 ft.\nEffect one shadow weapon\nDuration 1 minute/level\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\nDescription\nDrawing upon the Plane of Shadow, you shape a quasi-real masterwork melee weapon of a type you are proficient with. You may use this weapon to make attacks as if it were a real weapon, dealing normal damage for a weapon of its type. The first time you hit a creature with the weapon, it may make a Will save to disbelieve; failure means the weapon deals damage normally, success means it only takes 1 point of damage from the weapon’s attacks. The weapon only deals 1 point of damage to objects.\n\nIf an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the shadow weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the target may save to disbelieve as normal.\n\nAt 5th level, the weapon gains a +1 enhancement bonus. At 10th-level, you may increase the enhancement bonus to +2 or add the frost or keen weapon property. The frost and keen properties have no effect if the target makes its disbelief save.\n\nThe spell ends if the weapon leaves your possession.\nMythic Shadow Weapon\nSource Mythic Adventures pg. 107\nAdd your tier to your caster level when determining what enhancement bonus or weapon special abilities the weapon can have. The weapon deals half damage to creatures that disbelieve in it and to objects, instead of only 1 point.\n\nYou can spend a swift action to transform the weapon into a dull black metal ring on your finger, or to return it from its ring form to its weapon form in your hand.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa70f63579ea2c50.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa70f63579ea2c50"
+  },
+  "license": "OGL 1.0a"
+}

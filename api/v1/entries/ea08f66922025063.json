@@ -1,0 +1,26 @@
+{
+  "id": "ea08f66922025063",
+  "name": "Venomous Promise",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 25",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 3,
+      "bard": 3,
+      "shaman": 3,
+      "skald": 3,
+      "witch": 3
+    },
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 25\nSchool transmutation [language-dependent, poison]; Level antipaladin 3, bard 3, shaman 3, skald 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents S, M (a vial of poison)\nEffect\nRange touch\nTarget one creature\nDuration permanent or until triggered\nSaving Throw yes; Spell Resistance yes\nDescription\nYou guard your words and person with poisonous power. You can impart a short amount of information—up to 25 words—as you cast this spell, entwining your words with the poison provided as a material component. If your target reveals the information you impart (verbally, in writing, with gestures, or by having its mind read with spells like detect thoughts), the target is immediately exposed to the poison (and is allowed any saving throw the poison allows).\n\nYour target instinctively knows that revealing this information will endanger it, but doesn’t automatically understand why or how. Neutralize poison removes the effect of this spell; the spellcaster must succeed at a caster level check against the spell’s save DC rather than the poison’s.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea08f66922025063.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea08f66922025063"
+  },
+  "license": "OGL 1.0a"
+}

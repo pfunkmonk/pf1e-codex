@@ -1,0 +1,29 @@
+{
+  "id": "764b2de0d8a272c4",
+  "name": "Lullaby",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 305",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 0,
+      "mesmerist": 0,
+      "psychic": 0,
+      "skald": 0
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 305\nSchool enchantment (compulsion) [mind-affecting]; Level bard 0, mesmerist 0, psychic 0, skald 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea living creatures within a 10-ft.-radius burst\nDuration concentration + 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nAny creature within the area that fails a Will save becomes drowsy and inattentive, taking a –5 penalty on Perception checks and a –2 penalty on Will saves against sleep effects while the lullaby is in effect. Lullaby lasts for as long as the caster concentrates, plus up to 1 round per caster level thereafter.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/764b2de0d8a272c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/764b2de0d8a272c4"
+  },
+  "license": "OGL 1.0a"
+}

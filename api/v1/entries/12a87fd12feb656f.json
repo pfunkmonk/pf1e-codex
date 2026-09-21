@@ -1,0 +1,27 @@
+{
+  "id": "12a87fd12feb656f",
+  "name": "Discern Value",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dungeoneer's Handbook pg. 30",
+  "book": "Dungeoneer's Handbook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Dungeoneer's Handbook"
+  },
+  "body": "Source Dungeoneer's Handbook pg. 30\nSchool divination; Level arcanist 3, bard 3, skald 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, F (platinum monocle worth 100 gp)\nEffect\nRange 60 ft.\nArea cone-shaped emanation\nDuration concentration, up to 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou can quickly analyze the monetary value of objects and identify which are most valuable to an average trader. You must specify a minimum value to detect when you cast this spell (such as 1 gp, 100 gp, or 1,000 gp). The amount of information revealed depends on how long you study a particular area or subject.\n\n1st Round: Presence or absence of objects worth at least the specified amount.\n\n2nd Round: The most valuable object in range glows brighter than all of the others. If an aura is outside your line of sight, then you discern its direction but not its exact location.\n\n3rd Round: Objects whose values are within 10% of the most valuable item in range glow slightly.\n\nThe spell’s effect does not indicate whether an item has magical properties and does not detect artifacts or items that are priceless.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12a87fd12feb656f.json",
+    "web": "https://codex.pipsprojects.com/#/e/12a87fd12feb656f"
+  },
+  "license": "OGL 1.0a"
+}

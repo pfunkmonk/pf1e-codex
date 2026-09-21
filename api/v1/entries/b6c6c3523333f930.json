@@ -1,0 +1,27 @@
+{
+  "id": "b6c6c3523333f930",
+  "name": "Polymorph Familiar",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 190",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "shaman": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 190\nSchool transmutation (polymorph); Level arcanist 3, redmantisassassin 3, shaman 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget your familiar\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nThis spell functions as beast shape I, except it grants your familiar the form of any Small animal. Your familiar retains all of its special abilities and continues to grant you the special ability associated with its normal shape (such as a bat familiar’s bonus on Fly checks).\n\nAt caster level 7th, this spell functions as beast shape II. At caster level 9th, it functions as beast shape III. At caster level 11th, it functions as beast shape IV.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6c6c3523333f930.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6c6c3523333f930"
+  },
+  "license": "OGL 1.0a"
+}

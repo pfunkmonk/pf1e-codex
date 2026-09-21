@@ -1,0 +1,29 @@
+{
+  "id": "1f21a307f7c31945",
+  "name": "Antilife Shell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 242",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 6,
+      "druid": 6,
+      "hunter": 6,
+      "oracle": 6,
+      "psychic": 6,
+      "shaman": 6,
+      "warpriest": 6
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 242\nSchool abjuration; Level cleric 6, druid 6, hunter 6, oracle 6, psychic 6, shaman 6, warpriest 6\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange 10 ft.\nArea 10-ft.-radius emanation, centered on you\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nYou bring into being a mobile, hemispherical energy field that prevents the entrance of most types of living creatures.\n\nThe effect hedges out animals, aberrations, dragons, fey, giants, humanoids, magical beasts, monstrous humanoids, oozes, plants, and vermin, but not constructs, elementals, outsiders, or undead.\n\nThis spell may be used only defensively, not aggressively. Forcing an abjuration barrier against creatures that the spell keeps at bay collapses the barrier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f21a307f7c31945.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f21a307f7c31945"
+  },
+  "license": "OGL 1.0a"
+}

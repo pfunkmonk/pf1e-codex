@@ -1,0 +1,23 @@
+{
+  "id": "003a920d3a0510cb",
+  "name": "Litany of Warding",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 235",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "inquisitor": 3,
+      "paladin": 2
+    },
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 235\nSchool transmutation; Level antipaladin 2, inquisitor 3, paladin 2\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 round\nDescription\nWith this litany, you become more aware of your opponents. You can make two additional attacks of opportunity this round. Furthermore, you gain a +2 sacred bonus to AC against attacks of opportunity.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/003a920d3a0510cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/003a920d3a0510cb"
+  },
+  "license": "OGL 1.0a"
+}

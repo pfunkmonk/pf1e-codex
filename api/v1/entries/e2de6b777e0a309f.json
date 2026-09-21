@@ -1,0 +1,30 @@
+{
+  "id": "e2de6b777e0a309f",
+  "name": "Bless Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 249",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 249\nSchool transmutation [good]; Level cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1\nCasting\nCasting Time 1 minute\nComponents V, S, M (5 pounds of powdered silver worth 25 gp)\nEffect\nRange touch\nTarget flask of water touched\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis transmutation imbues a flask (1 pint) of water with positive energy, turning it into holy water.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2de6b777e0a309f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2de6b777e0a309f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "2aaabcff313f5a6f",
+  "name": "Dermal Plating (Mark I)",
+  "bucket": "items",
+  "category": "Technology",
+  "source": "Technology Guide pg. 37",
+  "book": "Technology Guide",
+  "facets": {
+    "slot": "body",
+    "pr": 4000,
+    "bk": "Technology Guide"
+  },
+  "body": "Dermal Plating\nSource Technology Guide pg. 37\nPrice 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III), 64,000 gp (Mark IV), 100,000 gp (Mark V)\nSlot body; Weight 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III), 5 lbs. (Mark IV), 5 lbs. (Mark V)\nInstall DC 24 (Mark I), DC 26 (Mark II), DC 28 (Mark III), DC 30 (Mark IV), DC 32 (Mark V)\nImplantation 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)\nDescription\nDermal plating consists of sheets of highly resistant bioplastics anchored directly onto the patient’s skin. These armored plates grant an enhancement bonus to natural armor; this bonus influences other elements of the dermal plating, as detailed below.\n\nPlating Enhancement Implantation Install\nMark I +1 2 DC 24\nMark II +2 4 DC 26\nMark III +3 4 DC 28\nMark IV +4 8 DC 30\nMark V +5 10 DC 32\nConstruction\nCraft DC 24 (Mark I), DC 25 (Mark II), DC 26 (Mark III), DC 27 (Mark IV), DC 28 (Mark V); Cost 2,000 gp (Mark I), 8,000 gp (Mark II), 18,000 gp (Mark III), 32,000 gp (Mark IV), 50,000 gp (Mark V)\nCraft Cybertech, cybernetics lab",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Plating",
+          "Enhancement",
+          "Implantation",
+          "Install"
+        ],
+        [
+          "Mark I",
+          "+1",
+          "2",
+          "DC 24"
+        ],
+        [
+          "Mark II",
+          "+2",
+          "4",
+          "DC 26"
+        ],
+        [
+          "Mark III",
+          "+3",
+          "4",
+          "DC 28"
+        ],
+        [
+          "Mark IV",
+          "+4",
+          "8",
+          "DC 30"
+        ],
+        [
+          "Mark V",
+          "+5",
+          "10",
+          "DC 32"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2aaabcff313f5a6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2aaabcff313f5a6f"
+  },
+  "license": "OGL 1.0a"
+}

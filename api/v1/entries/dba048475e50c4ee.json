@@ -1,0 +1,21 @@
+{
+  "id": "dba048475e50c4ee",
+  "name": "Moldwretch",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 191",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 7,
+    "sz": "Small",
+    "t": "plant",
+    "al": "N",
+    "bk": "Bestiary 6"
+  },
+  "body": "This deformed mold creature has long, dragging arms and an even longer tentacle growing out of its back that spews clouds of spores.\nMoldwretch CR 7\nSource Bestiary 6 pg. 191\nXP 3,200\nN Small plant\nInit +10; Senses darkvision 60 ft., low-light vision, tremorsense 30 ft.; Perception +18\nDefense\nAC 20, touch 17, flat-footed 14 (+6 Dex, +3 natural, +1 size)\nhp 85 (10d8+40); fast healing 5\nFort +11, Ref +9, Will +8\nImmune plant traits\nOffense\nSpeed 40 ft., burrow 20 ft., climb 20 ft.\nMelee 2 slams +13 (1d8+5), tentacle +12 (1d8+2 plus spores)\nRanged spores +14 touch (spores)\nSpace 5 ft., Reach 5 ft. (10 ft. with tentacle)\nStatistics\nStr 20, Dex 22, Con 19, Int 14, Wis 21, Cha 15\nBase Atk +7; CMB +11; CMD 27\nFeats Improved Initiative, Multiattack, Power Attack, Skill Focus (Stealth), Weapon Focus (tentacle)\nSkills Climb +23, Knowledge (dungeoneering) +12, Perception +18, Stealth +29\nLanguages Undercommon\nSQ mold symbiosis\nEcology\nEnvironment any swamps or underground\nOrganization solitary, cluster (2–3), or growth (4–9)\nTreasure standard\nSpecial Abilities\nMold Symbiosis (Ex) A moldwretch forms bonds with mold hazards by spending time within their areas of effect. A moldwretch can bond with only one mold at a time, and the symbiotic bond forms only after the moldwretch spends 8 hours in contact with the hazard. A moldwretch is immune to fungal hazards. Three example mold symbiosis effects are detailed below.\n\nBrown Mold: The moldwretch is immune to fire, and fire-based attacks restore a number of hit points to it equal to half the damage the attacks would normally deal. Its spores deal 2d6 points of cold damage.\n\nRusset Mold: The moldwretch’s spores expose targets to the effects of russet mold (Pathfinder RPG Bestiary 273).\n\nYellow Mold: The moldwretch’s spores expose targets to the effects of yellow mold (Pathfinder RPG Core Rulebook 416).\n\nSpores (Ex) A moldwretch’s tentacle and spore launch attacks expose their targets to the creature’s spores, which have an effect linked to the moldwretch’s mold symbiosis. A successful DC 19 Fortitude save negates the additional effect of a moldwretch’s spores. The save DC is Constitution-based.\nDescription\nWhile they are usually reclusive and aren’t actively malevolent, moldwretches often come into conflict with adventurers who clear away patches of mold during dungeon exploration. They get along well with vegepygmies, but loathe and fear fungus queens (see page 130). A moldwretch is only 3 feet tall but is very dense and weighs 120 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dba048475e50c4ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/dba048475e50c4ee"
+  },
+  "license": "OGL 1.0a"
+}

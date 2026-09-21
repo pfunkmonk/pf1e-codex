@@ -1,0 +1,30 @@
+{
+  "id": "18b4d8cf4a0ba3ac",
+  "name": "Swarm of Fangs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Codex pg. 213",
+  "book": "Monster Codex",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Monster Codex"
+  },
+  "body": "Source Monster Codex pg. 213\nSchool conjuration (summoning); Level arcanist 3, druid 3, hunter 3, psychic 3, sorcerer 3, summoner 3, summoner (unchained) 3, witch 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S, M (a lizard’s tooth)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one swarm of animate teeth\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nYou summon a swarm consisting of thousands of animate, flying teeth in a 10-foot-by-10-foot cube. These fangs attack all creatures within the swarm’s area. You can summon the swarm so that it shares an area with other creatures, and you can move the swarm up to 40 feet each round as a move action. If you choose not to move the swarm, it automatically moves up to 40 feet to envelop the nearest creature (including you) if it has not already done so.\n\nCreatures caught inside the swarm’s area of effect take 2d6 points of damage. The fangs deal damage to all creatures sharing their area when they first appear, and at the end of their movement each round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/18b4d8cf4a0ba3ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/18b4d8cf4a0ba3ac"
+  },
+  "license": "OGL 1.0a"
+}

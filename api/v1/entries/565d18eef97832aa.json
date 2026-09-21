@@ -1,0 +1,29 @@
+{
+  "id": "565d18eef97832aa",
+  "name": "Invisibility, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 302",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 7,
+      "mesmerist": 6,
+      "psychic": 7,
+      "sorcerer": 7,
+      "summoner": 5,
+      "summoner (unchained)": 6,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Invisibility, Mass\nSource PRPG Core Rulebook pg. 302\nSchool illusion (glamer); Level arcanist 7, mesmerist 6, psychic 7, sorcerer 7, summoner 5, summoner (unchained) 6, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (an eyelash encased in gum arabic)\nEffect\nRange long (400 ft. + 40 ft./level)\nTargets any number of creatures, no two of which can be more than 180 ft. apart\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like invisibility, except that the effect moves with the group and is broken when anyone in the group attacks. Individuals in the group cannot see each other. The spell is broken for any individual who moves more than 180 feet from the nearest member of the group. If only two individuals are affected, the one moving away from the other one loses its invisibility. If both are moving away from each other, they both become visible when the distance between them exceeds 180 feet.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/565d18eef97832aa.json",
+    "web": "https://codex.pipsprojects.com/#/e/565d18eef97832aa"
+  },
+  "license": "OGL 1.0a"
+}

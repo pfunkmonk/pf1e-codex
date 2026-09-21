@@ -1,0 +1,36 @@
+{
+  "id": "9bb3bf82ab86f3ed",
+  "name": "Appearance of Life, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 108",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "cleric": 3,
+      "medium": 2,
+      "mesmerist": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Horror Adventures"
+  },
+  "body": "Appearance of Life\nSource Horror Adventures pg. 108\nSchool illusion (glamer) [evil]; Level arcanist 3, cleric 3, medium 2, mesmerist 3, oracle 3, psychic 3, sorcerer 3, spiritualist 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S, M (one Tiny or larger living creature)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one or more undead creatures\nDuration 10 minutes/level (D)\nSaving Throw Will disbelief or Will negates (see text); Spell Resistance no\nDescription\nThe illusion makes undead creatures of Medium size or smaller appear as if they were living humanoid creatures. You can target a number of undead creatures whose total number of Hit Dice is no greater than twice your caster level. When you create the illusion, you choose the races, genders, and attire for the undead creatures. Additionally, the illusion makes the undead creatures’ movements appear lifelike (two shuffling zombies could be made to appear as two strolling lovers). The illusion doesn’t create smell, sound, texture, or temperature. Undead with Intelligence scores can attempt a saving throw to negate the effect of the spell, but mindless undead do not. Any creatures interacting with the illusion receive a saving throw to disbelieve the illusion.\n\nThe illusion interferes with detect undead, requiring the caster to succeed at a caster check (DC = 11 + your caster level) for the spell to determine the creatures are undead.\n\nAppearance of life can be made permanent with a permanency spell by a caster of 12th level or higher for the cost of 10,000 gp.\nAppearance of Life, Greater\nSource Villain Codex pg. 8\nSchool illusion (glamer); Level arcanist 5, cleric 5, medium 4, mesmerist 5, oracle 5, psychic 5, sorcerer 5, spiritualist 4, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S, M (one Tiny or larger living creature)\nEffect\nRange touch\nTarget one willing undead creature touched\nDuration 1 hour/level\nSaving Throw Will disbelief or Will negates (see text); Spell Resistance no\nDescription\nThis spell functions as appearance of life (Pathfinder RPG Horror Adventures 108), except that you can disguise a single undead creature regardless of its number of Hit Dice, and the illusion also creates relevant smells, sounds, textures, and temperatures to match the appearance. If you disguise the target as a living version of itself, creatures that interact with the target take a –5 penalty on their Will saving throws to disbelieve the illusion, though if the target attacks a creature, the attacked creature no longer takes this penalty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9bb3bf82ab86f3ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/9bb3bf82ab86f3ed"
+  },
+  "license": "OGL 1.0a"
+}

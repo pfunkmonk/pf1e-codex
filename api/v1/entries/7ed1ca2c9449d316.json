@@ -1,0 +1,22 @@
+{
+  "id": "7ed1ca2c9449d316",
+  "name": "Termite Swarm",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 5 pg. 242",
+  "book": "Bestiary 5",
+  "facets": {
+    "cr": 6,
+    "sz": "Fine",
+    "t": "vermin",
+    "al": "N",
+    "bk": "Bestiary 5",
+    "st": "swarm"
+  },
+  "body": "The ground teems with crawling termites, biting and stinging as they come.\nTermite Swarm CR 6\nSource Bestiary 5 pg. 242\nXP 2,400\nN Fine vermin (swarm)\nInit +2; Senses darkvision 60 ft., scent, tremorsense 60 ft.; Perception +1\nDefense\nAC 20, touch 20, flat-footed 18 (+2 Dex, +8 size)\nhp 75 (10d8+30)\nFort +10, Ref +5, Will +4\nDefensive Abilities swarm traits; Immune disease, mind-affecting effects, visual effects, weapon damage; Resist acid 5\nWeaknesses blind\nOffense\nSpeed 30 ft., burrow 20 ft.\nMelee swarm (3d6 plus 1d6 acid)\nSpace 1/2 ft., Reach 0 ft.\nSpecial Attacks distraction (DC 17), gnaw, lingering sting\nStatistics\nStr 1, Dex 15, Con 16, Int —, Wis 12, Cha 7\nBase Atk +7; CMB —; CMD —\nEcology\nEnvironment warm forests, plains, or underground\nOrganization solitary, pair, nest (3–6), or colony (7–12)\nTreasure none\nSpecial Abilities\nGnaw (Ex) Termite swarms can burrow through earth and wood but not stone or metal. Their swarm attack and acid ignore hardness of 5 or less.\nLingering Sting (Ex) Creatures damaged by a termite swarm’s acid are sickened with pain (Fortitude DC 17 negates). Creatures can attempt a new save each round at the end of their turn to end this effect. The save DC is Constitution-based.\nDescription\nTermite swarms are the bane of architects and engineers in warm climes. They live in mounds and nests, devouring growing plants, decaying logs, and wooden structures alike from the inside out, and can quickly bring down even a solidly constructed building. They are nearly impossible to eradicate, and react with violence when their mounds are threatened.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7ed1ca2c9449d316.json",
+    "web": "https://codex.pipsprojects.com/#/e/7ed1ca2c9449d316"
+  },
+  "license": "OGL 1.0a"
+}

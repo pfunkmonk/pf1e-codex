@@ -1,0 +1,38 @@
+{
+  "id": "d948026666b68a0c",
+  "name": "Neutralize Poison, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 316",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 3,
+      "alchemist": 4,
+      "bard": 4,
+      "cleric": 4,
+      "druid": 3,
+      "hunter": 3,
+      "inquisitor": 4,
+      "investigator": 4,
+      "oracle": 4,
+      "paladin": 4,
+      "ranger": 3,
+      "shaman": 4,
+      "skald": 4,
+      "spiritualist": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Neutralize Poison\nSource PRPG Core Rulebook pg. 316\nSchool conjuration (healing); Level adept 3, alchemist 4, bard 4, cleric 4, druid 3, hunter 3, inquisitor 4, investigator 4, oracle 4, paladin 4, ranger 3, shaman 4, skald 4, spiritualist 4, warpriest 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (charcoal)\nEffect\nRange touch\nTarget creature or object of up to 1 cu. ft./level touched\nDuration instantaneous or 10 min./level; see text\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own.\n\nThis spell can instead neutralize the poison in a poisonous creature or object for 10 minutes per level, at the caster's option. If cast on a creature, the creature receives a Will save to negate the effect.\nNeutralize Poison, Greater\nSource Dirty Tactics Toolbox pg. 28\nSchool conjuration (healing); Level alchemist 6, bard 6, cleric 6, druid 5, hunter 5, inquisitor 6, investigator 6, oracle 6, skald 6, warpriest 6, witch 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a lump of charcoal)\nEffect\nRange touch\nTarget creature or object of up to 1 cu. ft./level touched\nDuration instantaneous or 1 hour/level (D)\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell functions as neutralize poison, except as noted here. You automatically succeed at all caster level checks to neutralize any poisons affecting the target creature. The spell also reverses all instantaneous or permanent effects caused by poisons, such as temporary ability damage or permanent ability drain (it does not heal ability drain caused by anything other than poison, however). If you use the spell to neutralize the poison in a poisonous creature or object, the duration is 1 hour per level rather than 10 minutes per level. If the spell is cast on a creature, the creature can negate the effect by succeeding at a Will saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d948026666b68a0c.json",
+    "web": "https://codex.pipsprojects.com/#/e/d948026666b68a0c"
+  },
+  "license": "OGL 1.0a"
+}

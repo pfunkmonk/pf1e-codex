@@ -1,0 +1,29 @@
+{
+  "id": "4bda20fc63030052",
+  "name": "Align Weapon, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 240",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Align Weapon\nSource PRPG Core Rulebook pg. 240\nSchool transmutation [see text]; Level cleric 2, inquisitor 2, oracle 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget weapon touched or 50 projectiles (all of which must be together at the time of casting)\nDuration 1 min./level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nAlign weapon makes a weapon chaotic, evil, good, or lawful, as you choose. A weapon that is aligned can bypass the damage reduction of certain creatures. This spell has no effect on a weapon that already has an alignment.\n\nYou can't cast this spell on a natural weapon, such as an unarmed strike. When you make a weapon chaotic, evil, good, or lawful, align weapon is a chaotic, evil, good, or lawful spell, respectively.\nAlign Weapon, Communal\nSource Advanced Class Guide pg. 173\nSchool transmutation [see text]; Level cleric 3, inquisitor 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget weapons or projectiles touched\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell functions as align weapon, except you divide the duration in 1-minute increments between any number of touched weapons. Every group of up to 50 projectiles (which must be together at the time of casting) counts as one weapon for the purpose of dividing the spell’s duration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4bda20fc63030052.json",
+    "web": "https://codex.pipsprojects.com/#/e/4bda20fc63030052"
+  },
+  "license": "OGL 1.0a"
+}

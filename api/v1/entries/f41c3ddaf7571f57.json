@@ -1,0 +1,24 @@
+{
+  "id": "f41c3ddaf7571f57",
+  "name": "Absorbing Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 200",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "investigator": 3
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 200\nSchool transmutation; Level alchemist 3, investigator 3\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange touch\nTarget object touched\nDuration 1 day/level (D)\nSaving Throw Fortitude negates (object); Spell Resistance no\nDescription\nYou absorb the next object your hand touches into your body. If you are already holding an object, you can attempt to absorb it; otherwise, you may touch an object as a standard action separate from casting the spell. You can absorb any nonmagical, nonliving object weighing no more than 1 pound per caster level. A container and its contents count as a single object. Objects in the possession of another creature receive a Fortitude saving throw to prevent absorption. You may continue to attempt to absorb objects until one is absorbed.\n\nAn absorbed object melds with your hand and cannot be targeted, but the object’s weight still counts against your carrying capacity. If you dismiss the spell, the item appears in the hand that absorbed it, or falls to the ground if that hand is full. Multiple castings let you absorb additional items, but you can only store a single item per hand.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f41c3ddaf7571f57.json",
+    "web": "https://codex.pipsprojects.com/#/e/f41c3ddaf7571f57"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "283ae0b077cbc0e0",
+  "name": "Rest Eternal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 238",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "druid": 5,
+      "hunter": 5,
+      "oracle": 4,
+      "shaman": 5,
+      "warpriest": 4,
+      "witch": 5
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 238\nSchool necromancy [curse]; Level cleric 4, druid 5, hunter 5, oracle 4, shaman 5, warpriest 4, witch 5\nCasting\nCasting Time 1 round\nComponents V, S, M/DF (ashes and a vial of holy or unholy water)\nEffect\nRange touch\nTarget one dead creature touched\nDuration permanent\nSaving Throw none; Spell Resistance no\nDescription\nYou place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell that would communicate with the dead creature, return it to life, or turn it into an undead creature must succeed on a caster level check with a DC of 11 plus your caster level. Rest eternal cannot be dispelled, but it can be negated with remove curse or break enchantment.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/283ae0b077cbc0e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/283ae0b077cbc0e0"
+  },
+  "license": "OGL 1.0a"
+}

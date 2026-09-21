@@ -1,0 +1,26 @@
+{
+  "id": "c50e2118d943ed28",
+  "name": "Vision",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 365",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 7,
+      "psychic": 7,
+      "shaman": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 365\nSchool divination; Level arcanist 7, psychic 7, shaman 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (incense worth 250 gp), F (four pieces of ivory worth 50 gp each)\nEffect\nRange personal\nTarget you\nDuration see text\nDescription\nThis spell functions like legend lore, except that it works more quickly and produces some strain on you. You pose a question about some person, place, or object, then cast the spell. If the person or object is at hand or if you are in the place in question, you receive a vision about it by succeeding on a caster level check (1d20 + 1 per caster level; maximum +25) against DC 20. If only detailed information on the person, place, or object is known, the DC is 25, and the information gained is incomplete. If only rumors are known, the DC is 30, and the information gained is vague. After this spell is complete, you are fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c50e2118d943ed28.json",
+    "web": "https://codex.pipsprojects.com/#/e/c50e2118d943ed28"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "81fe019557156ea0",
+  "name": "Inflict Critical Wounds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 300",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "spiritualist": 4,
+      "warpriest": 4,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 300\nSchool necromancy; Level cleric 4, inquisitor 4, occultist 4, oracle 4, shaman 4, spiritualist 4, warpriest 4, witch 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nDescription\nThis spell functions like inflict light wounds, except that you deal 4d8 points of damage + 1 point per caster level (maximum +20).\nMythic Inflict Critical Wounds\nSource Mythic Adventures pg. 98\nThe damage dealt increases to 8d8 points of damage + 2 points per caster level (maximum +40). A living target is sickened for 1 round per caster level (maximum 20 rounds) if it fails its saving throw.\nInflict Critical Wounds, Mass\nSource PRPG Core Rulebook pg. 300\nSchool necromancy; Level cleric 8, oracle 8, shaman 8, witch 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nDescription\nThis spell functions like mass inflict light wounds, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/81fe019557156ea0.json",
+    "web": "https://codex.pipsprojects.com/#/e/81fe019557156ea0"
+  },
+  "license": "OGL 1.0a"
+}

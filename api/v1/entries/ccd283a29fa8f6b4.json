@@ -1,0 +1,34 @@
+{
+  "id": "ccd283a29fa8f6b4",
+  "name": "Stabilize Pressure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 61",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "investigator": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "summoner": 2,
+      "warpriest": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Source Aquatic Adventures pg. 61\nSchool abjuration; Level alchemist 2, bloodrager 2, cleric 2, druid 2, hunter 2, investigator 2, oracle 2, psychic 2, ranger 2, shaman 2, summoner 2, summoner (unchained) 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of shell)\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou instantly stabilize the target’s pressure, causing it to adjust to its current pressure all at once. This doesn’t help it readjust to future pressure changes.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ccd283a29fa8f6b4.json",
+    "web": "https://codex.pipsprojects.com/#/e/ccd283a29fa8f6b4"
+  },
+  "license": "OGL 1.0a"
+}

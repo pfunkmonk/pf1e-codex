@@ -1,0 +1,36 @@
+{
+  "id": "4dd647d563da7baf",
+  "name": "Obscuring Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 317",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 1,
+      "arcanist": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "magus": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 317\nSchool conjuration (creation); Level adept 1, arcanist 1, cleric 1, druid 1, hunter 1, magus 1, mesmerist 1, oracle 1, shaman 1, sorcerer 1, spiritualist 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 20 ft.\nEffect cloud spreads in 20-ft. radius from you, 20 ft. high\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nA misty vapor arises around you. It is stationary. The vapor obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).\n\nA moderate wind (11+ mph), such as from a gust of wind spell, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A fireball, flame strike, or similar spell burns away the fog in the explosive or fiery spell's area. A wall of fire burns away the fog in the area into which it deals damage.\n\nThis spell does not function underwater.\nMythic Obscuring Mist\nSource Mythic Adventures pg. 102\nThe range increases to 50 feet, and the cloud’s radius and height both increase to 50 feet.\n\nAugmented (3rd): If you expend two uses of mythic power, the range increases to 500 feet. The cloud’s radius increases to 500 feet, and its height increases to 100 feet. Winds can’t dissipate the mist unless the area of the wind affects the entire area of this spell. Areas of mist burned away by fire spells become obscured again 1d4 rounds after the fire effect ends.\n\nIf you’re at least 6th tier and expend three uses of mythic power, the range increases to 1 mile, the cloud radius increases to 1 mile, and its height increases to 500 feet. The cloud is as resistant to wind and fire effects as the 3rd-tier version.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4dd647d563da7baf.json",
+    "web": "https://codex.pipsprojects.com/#/e/4dd647d563da7baf"
+  },
+  "license": "OGL 1.0a"
+}

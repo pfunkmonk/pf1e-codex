@@ -1,0 +1,29 @@
+{
+  "id": "d406f15da0c16c85",
+  "name": "Dispel Law",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 272",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 5,
+      "inquisitor": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "warpriest": 5
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 272\nSchool abjuration [chaotic]; Level antipaladin 4, cleric 5, inquisitor 5, oracle 5, shaman 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget or Targets you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object\nDuration 1 round/level or until discharged, whichever comes first\nSaving Throw see text; Spell Resistance see text\nDescription\nThis spell functions like dispel evil, except that you are surrounded by flickering, yellow chaotic energy, and the spell affects lawful creatures and spells rather than evil ones.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d406f15da0c16c85.json",
+    "web": "https://codex.pipsprojects.com/#/e/d406f15da0c16c85"
+  },
+  "license": "OGL 1.0a"
+}

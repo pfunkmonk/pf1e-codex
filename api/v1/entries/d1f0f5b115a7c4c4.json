@@ -1,0 +1,27 @@
+{
+  "id": "d1f0f5b115a7c4c4",
+  "name": "Deathwatch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 265",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 1,
+      "medium": 1,
+      "oracle": 1,
+      "spiritualist": 1,
+      "warpriest": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 265\nSchool necromancy; Level cleric 1, medium 1, oracle 1, spiritualist 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea cone-shaped emanation\nDuration 10 min./level\nSaving Throw none; Spell Resistance no\nDescription\nUsing the powers of necromancy, you can determine the condition of creatures near death within the spell's range. You instantly know whether each creature within the area is dead, fragile (alive and wounded, with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), healthy, undead, or neither alive nor dead (such as a construct). Deathwatch sees through any spell or ability that allows creatures to feign death.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1f0f5b115a7c4c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1f0f5b115a7c4c4"
+  },
+  "license": "OGL 1.0a"
+}

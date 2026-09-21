@@ -1,0 +1,30 @@
+{
+  "id": "084238eeba9fd636",
+  "name": "Aura of Distraction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Psychic Anthology pg. 10",
+  "book": "Psychic Anthology",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Psychic Anthology"
+  },
+  "body": "Source Psychic Anthology pg. 10\nSchool enchantment [mind-affecting]; Level arcanist 2, psychic 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange\nArea 20-ft.-radius emanation centered on you\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any creature within the aura that fails its save takes a –5 penalty on concentration checks. A creature must attempt the Will save upon entering the area of the aura, and the penalty ends as soon as the creature leaves the aura. A creature that succeeds at its save is immune to the effects of the aura for this casting of the spell, even if it leaves and reenters the aura, but must attempt another Will save each additional time this spell is cast. You are immune to your own aura of distraction.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/084238eeba9fd636.json",
+    "web": "https://codex.pipsprojects.com/#/e/084238eeba9fd636"
+  },
+  "license": "OGL 1.0a"
+}

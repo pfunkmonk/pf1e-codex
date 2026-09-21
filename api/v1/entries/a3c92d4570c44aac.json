@@ -1,0 +1,34 @@
+{
+  "id": "a3c92d4570c44aac",
+  "name": "Positive Pulse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 43",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Planar Adventures"
+  },
+  "body": "Source Planar Adventures pg. 43\nSchool necromancy; Level arcanist 1, cleric 1, inquisitor 1, oracle 1, paladin 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 5-ft.-radius burst\nDuration instantaneous plus 1 round (see text)\nSaving Throw Will negates or Will negates (harmless); see text; Spell Resistance yes\nDescription\nThis spell causes a wave of positive energy to spread from a point you designate, damaging foes vulnerable to positive energy and bolstering living creatures. Each creature damaged by positive energy in the area (such as undead) must succeed at a Will save or take 1d6 points of damage, plus 1 point for every 2 caster levels (maximum +5). Haunts manifesting in the spell’s area also take this damage.\n\nThis spell does not heal creatures healed by positive energy; such creatures instead gain a +2 bonus on saving throws against death effects, energy drain, negative energy, and effects directly caused by haunts. This bonus lasts for 1 round.\nPositive Pulse, Greater\nSource Planar Adventures pg. 43\nSchool necromancy; Level arcanist 4, cleric 4, inquisitor 4, oracle 4, paladin 4, shaman 4, sorcerer 4, spiritualist 4, summoner 4, summoner (unchained) 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 15-ft.-radius burst\nDuration instantaneous plus 1 round (see text)\nSaving Throw Will negates or Will negates (harmless); see text; Spell Resistance yes\nDescription\nThis spell functions like positive pulse, except that the damage dealt increases to 3d6 plus your caster level, and the bonus on saving throws increases to +8.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3c92d4570c44aac.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3c92d4570c44aac"
+  },
+  "license": "OGL 1.0a"
+}

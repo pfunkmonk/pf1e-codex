@@ -1,0 +1,28 @@
+{
+  "id": "e98aa27245105313",
+  "name": "Sealed Sending",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Intrigue pg. 61",
+  "book": "Inner Sea Intrigue",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Intrigue"
+  },
+  "body": "Source Inner Sea Intrigue pg. 61\nSchool conjuration (creation) [language-dependent]; Level arcanist 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange unlimited\nEffect one nonmagical parchment with a written message\nDuration 1 hour/level or until discharged\nSaving Throw none (harmless); Spell Resistance no (harmless)\nDescription\nYou create a scroll bearing a message in any language you can speak, with a maximum length of 50 words. The scroll magically appears anywhere you have viewed at least once on the same plane of existence you are on now. When the spell ends or when the message has been read completely, the scroll disintegrates, leaving no trace. This spell cannot be detected, traced, or blocked by any spell of a lower level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e98aa27245105313.json",
+    "web": "https://codex.pipsprojects.com/#/e/e98aa27245105313"
+  },
+  "license": "OGL 1.0a"
+}

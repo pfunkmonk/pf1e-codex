@@ -1,0 +1,30 @@
+{
+  "id": "faba05dbcd52a44d",
+  "name": "Circle of Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 255",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 6,
+      "inquisitor": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 255\nSchool necromancy [death]; Level arcanist 6, inquisitor 6, sorcerer 6, spiritualist 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a crushed black pearl worth 500 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea several living creatures within a 40-ft.-radius burst\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nCircle of death snuffs out the life force of living creatures, killing them instantly. The spell slays 1d4 HD worth of living creatures per caster level (maximum 20d4). Creatures with the fewest HD are affected first; among creatures with equal HD, those who are closest to the burst's point of origin are affected first. No creature of 9 or more HD can be affected, and HD that are not sufficient to affect a creature are wasted.\nMythic Circle of Death\nSource Mythic Adventures pg. 88\nThe number of Hit Dice worth of creatures killed by the spell increases to 1d6 per caster level (maximum 20d6). Add your tier to the maximum HD of creatures that can be affected by the spell. (For example, at 3rd tier, a creature with 12 HD cannot be affected.)\n\nAugmented (6th): If you expend two uses of mythic power, creatures that succeed at their saves against this spell take 1d6 points of damage per tier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/faba05dbcd52a44d.json",
+    "web": "https://codex.pipsprojects.com/#/e/faba05dbcd52a44d"
+  },
+  "license": "OGL 1.0a"
+}

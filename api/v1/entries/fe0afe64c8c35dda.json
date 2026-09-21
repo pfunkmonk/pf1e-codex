@@ -1,0 +1,28 @@
+{
+  "id": "fe0afe64c8c35dda",
+  "name": "Pup Shape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 240",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 240\nSchool transmutation (polymorph); Level arcanist 3, druid 3, hunter 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a rag doll)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one animal\nDuration 1 round/level\nSaving Throw Fortitude negates (and Will special, see text); Spell Resistance yes\nDescription\nYou transform the subject animal into a Small magical beast (or a magical beast one size category smaller than the original creature, whichever is smaller), creating a young magical version of itself for a short period of time. While in this form, the target has only 1 HD (maximum hit points), and the target takes a –4 penalty to Strength, Constitution, Intelligence and Wisdom (minimum 1). The creature also gains a +4 size bonus to Dexterity and a +2 natural bonus.\n\nAny nonevil creature that attempts to attack a creature in this form must succeed at a Will saving throw (using the DC of the spell) to overcome feelings of guilt and protectiveness toward the young and innocent-seeming creature. On a failed saving throw, it cannot follow through with the attack, that part of the action is lost, and it can’t directly attack the transformed creature for the duration of the spell or until the spell’s target attacks it. This part of the spell is a mind-affecting emotion effect. Evil creatures have no qualms about attacking the target of this spell, in fact, some particularly heinous creatures might go out of their ways to do the target harm.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe0afe64c8c35dda.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe0afe64c8c35dda"
+  },
+  "license": "OGL 1.0a"
+}

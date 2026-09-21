@@ -1,0 +1,31 @@
+{
+  "id": "a841f59a8217024d",
+  "name": "Ki Shout",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 226",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 7,
+      "bard": 5,
+      "psychic": 7,
+      "skald": 5,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 226\nSchool evocation [sonic]; Level arcanist 7, bard 5, psychic 7, skald 5, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nWith a guttural bark, you unleash a sudden blast of sonic energy that strikes your opponent. The target takes 1d6 points of sonic damage per level (maximum 20d6) and is stunned for 1 round; a successful Fortitude save reduces the damage by half and negates the stun.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a841f59a8217024d.json",
+    "web": "https://codex.pipsprojects.com/#/e/a841f59a8217024d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "e7acc64abc97ecf3",
+  "name": "Cyberfiber Muscles (Mark I)",
+  "bucket": "items",
+  "category": "Technology",
+  "source": "Technology Guide pg. 36",
+  "book": "Technology Guide",
+  "facets": {
+    "slot": "body",
+    "pr": 8000,
+    "bk": "Technology Guide"
+  },
+  "body": "Cyberfiber Muscles\nSource Technology Guide pg. 36\nPrice 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\nSlot body; Weight 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)\nInstall DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\nImplantation 2 (Mark I), 4 (Mark II), 8 (Mark III)\nDescription\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below.\n\nCyberfiber Enhancement Implantation Install\nMark I +2 Str 2 DC 24\nMark II +4 Str 4 DC 28\nMark III +6 Str 8 DC 36\nConstruction\nCraft DC 24 (Mark I), DC 28 (Mark II), DC 32 (Mark III); Cost 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III)\nCraft Cybertech, cybernetics lab",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Cyberfiber",
+          "Enhancement",
+          "Implantation",
+          "Install"
+        ],
+        [
+          "Mark I",
+          "+2 Str",
+          "2",
+          "DC 24"
+        ],
+        [
+          "Mark II",
+          "+4 Str",
+          "4",
+          "DC 28"
+        ],
+        [
+          "Mark III",
+          "+6 Str",
+          "8",
+          "DC 36"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7acc64abc97ecf3.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7acc64abc97ecf3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "fcb912e6cce79ad3",
+  "name": "Rings",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 159",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\nPathfinder Unchained / Innate Item Bonuses\n\nRings\nSource Pathfinder Unchained pg. 159\nRings work in much the same way as wondrous items.\n\nRemoved Items: Remove all rings of protection, and add the deflection bonus specified on Table 4–12: Rings to all other rings.\n\nMultiple Rings: Note that deflection bonuses granted by multiple rings don’t stack. It’s up to the GM to decide how to deal with this, with two main options. The first option is to follow the rule outlined above and charge the price increase for each ring—consider the additional cost the price of essentially getting a third ring slot. The other option is to make the deflection bonus granted by rings (and the associated price increases) optional on a ring-by-ring basis, allowing characters to avoid paying twice for a non-stacking bonus. Doing so adds additional bookkeeping, however.\n\nTable 4–12: Rings\nStarting Price Deflection Bonus to AC Price Increase\n0-1,999 gp - -\n2,000-7,999 gp +1 +2,000 gp\n8,000-17,999 gp +2 +8,000 gp\n18,000-31,999 gp +3 +18,000 gp\n32,000-49,999 gp +4 +32,000 gp\n50,000+ gp +5 +50,000 gp",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Starting Price",
+          "Deflection Bonus to AC",
+          "Price Increase"
+        ],
+        [
+          "0-1,999 gp",
+          "-",
+          "-"
+        ],
+        [
+          "2,000-7,999 gp",
+          "+1",
+          "+2,000 gp"
+        ],
+        [
+          "8,000-17,999 gp",
+          "+2",
+          "+8,000 gp"
+        ],
+        [
+          "18,000-31,999 gp",
+          "+3",
+          "+18,000 gp"
+        ],
+        [
+          "32,000-49,999 gp",
+          "+4",
+          "+32,000 gp"
+        ],
+        [
+          "50,000+ gp",
+          "+5",
+          "+50,000 gp"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fcb912e6cce79ad3.json",
+    "web": "https://codex.pipsprojects.com/#/e/fcb912e6cce79ad3"
+  },
+  "license": "OGL 1.0a"
+}

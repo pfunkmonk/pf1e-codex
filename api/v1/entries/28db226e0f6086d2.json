@@ -1,0 +1,28 @@
+{
+  "id": "28db226e0f6086d2",
+  "name": "Excruciating Deformation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 219",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 219\nSchool transmutation (polymorph) [evil, pain]; Level arcanist 3, bloodrager 3, psychic 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYour touch attack causes your target to become painfully malformed. Its limbs twist and buckle, while its body contorts uncontrollably, shifting and warping. Each round the target suffers excruciating pain and takes 2d6 points of nonlethal damage, 1 point of Dexterity damage, and 1 point of Constitution damage, and its speed is reduced by 10 feet. Once per round as a free action on its turn, the target can attempt a new Fortitude saving throw to resist the spell for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/28db226e0f6086d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/28db226e0f6086d2"
+  },
+  "license": "OGL 1.0a"
+}

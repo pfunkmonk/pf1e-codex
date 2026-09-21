@@ -1,0 +1,37 @@
+{
+  "id": "3bc46a776d2574d2",
+  "name": "Disfiguring Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 217, Book of the Damned - Volume 2: Lords of Chaos pg. 48",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 217, Book of the Damned - Volume 2: Lords of Chaos pg. 48\nSchool transmutation [curse]; Level arcanist 2, bloodrager 2, cleric 2, mesmerist 2, occultist 2, oracle 2, psychic 2, redmantisassassin 2, sorcerer 2, spiritualist 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWith a touch, you cause the victim of this spell to suffer a painful curse that causes it to grow hideously disfigured. The physical appearance of the deformity is subject to the caster’s whim (most demon worshipers choose deformities that reflect their Abyssal patron’s shape or form). The target takes one of the following penalties.\n–2 decrease to an ability score (minimum 1).\n–2 penalty on attack rolls or saving throws.\nLand speed reduced by 5 feet.\nYou may also invent other effects, but they should be no more powerful than those described above.\nMythic Disfiguring Touch\nSource Mythic Adventures pg. 91\nThe target takes two different penalties (chosen from the same list) instead of one.\n\nAugmented: If you expend two uses of mythic power, the target also gains the fatigued condition because of its painful disfigurement. If this fatigue is negated without removing the curse, it returns after 1 hour.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3bc46a776d2574d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/3bc46a776d2574d2"
+  },
+  "license": "OGL 1.0a"
+}

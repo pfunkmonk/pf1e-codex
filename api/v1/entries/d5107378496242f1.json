@@ -1,0 +1,26 @@
+{
+  "id": "d5107378496242f1",
+  "name": "Ill Omen",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 229",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "medium": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 229\nSchool enchantment (compulsion) [curse, mind-affecting]; Level medium 1, mesmerist 1, psychic 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (hair from a black cat)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level or until discharged\nSaving Throw none; Spell Resistance yes\nDescription\nYou afflict the target with bad luck. On the next d20 roll the target makes, it must roll twice and take the less favorable result. For every five caster levels you have, the target must roll twice on an additional d20 roll (to a maximum of five rolls at 20th level).\n\nA target who can speak and has at least one free hand and who is aware of the spell and its effects (such as from a Spellcraft check to identify the spell as it is cast) can negate one reroll by spending a move action to utter a brief prayer or good luck charm to appease the spirits of ill fortune.\nMythic Ill Omen\nSource Mythic Adventures pg. 98\nFor the target’s unlucky d20 rolls, it must roll three times and take the lowest result. Spending a move action to utter a prayer or good luck charm allows the target to roll twice instead of three times.\n\nAugmented (4th): If you expend two uses of mythic power, you afflict the target with especially foul luck. Any natural 20 it rolls counts as a natural 1 instead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d5107378496242f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/d5107378496242f1"
+  },
+  "license": "OGL 1.0a"
+}

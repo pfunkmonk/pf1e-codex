@@ -1,0 +1,30 @@
+{
+  "id": "d9d24771d00c1256",
+  "name": "Telekinetic Strikes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Psychic Anthology pg. 11",
+  "book": "Psychic Anthology",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "magus": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Psychic Anthology"
+  },
+  "body": "Source Psychic Anthology pg. 11\nSchool evocation [force]; Level arcanist 2, magus 2, psychic 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe touched creature’s limbs are charged with telekinetic force. For the duration of the spell, the target’s unarmed attacks or natural weapons deal an additional 1d4 points of force damage on each successful unarmed melee attack.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d9d24771d00c1256.json",
+    "web": "https://codex.pipsprojects.com/#/e/d9d24771d00c1256"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "90e96d7579e0e315",
+  "name": "Call Construct",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 210",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "occultist": 6,
+      "oracle": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 210\nSchool conjuration (teleportation); Level arcanist 8, cleric 8, occultist 6, oracle 8, psychic 8, sorcerer 8, wizard 8\nCasting\nCasting Time 10 minutes\nComponents V, S, M (a sapphire worth 1,000 or 5,000 gp; see text)\nEffect\nRange touch\nTarget construct touched\nDuration permanent until discharged\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as instant summons, except it can only summon a construct you control. For constructs such as golems that are immune to magic, the value of the specially inscribed sapphire must be at least 5,000 gp. For other constructs, a 1,000 gp sapphire suffices.\n\nIf the construct is no longer under your control or destroyed, the spell fails, but you know roughly where the construct or its remains are located.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/90e96d7579e0e315.json",
+    "web": "https://codex.pipsprojects.com/#/e/90e96d7579e0e315"
+  },
+  "license": "OGL 1.0a"
+}

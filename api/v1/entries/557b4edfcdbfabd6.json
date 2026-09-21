@@ -1,0 +1,17 @@
+{
+  "id": "557b4edfcdbfabd6",
+  "name": "Construct Shelter",
+  "bucket": "options",
+  "category": "Construct Mods",
+  "source": "Construct Handbook pg. 8",
+  "book": "Construct Handbook",
+  "facets": {
+    "bk": "Construct Handbook"
+  },
+  "body": "Source Construct Handbook pg. 8\nType Complex; Cost 11,250 gp\nRequirements Craft Construct, Craft Wondrous Item, mage’s private sanctum, Small or larger construct\nCR Increase None\nDescription\nThis modification allows a construct to transform into a shelter capable of housing its creator and her allies. The transformation is a rigorous process that requires 10 minutes to complete. Once transformed, the shelter can house a number of inhabitants based on the construct’s size. A Colossal construct can house one Colossal creature, two Gargantuan creatures, four Huge creatures, eight Large creatures, 16 Medium creatures, or 32 Small creatures. A Gargantuan construct can house one Gargantuan creature, two Huge creatures, four Large creatures, eight Medium creatures, or 16 Small creatures, and so forth. A construct shelter does not have any accommodations beyond the basics required to rest. Creatures within the shelter can see out, but creatures outside cannot see into the shelter.\n\nThe construct can still receive orders and can eject a creature or prevent a creature from entering according to its creator’s orders. A creature can avoid being ejected with a successful Reflex save (DC = 10 + the construct’s CR). A creature that attempts to enter the shelter must attempt to break through with a Strength check opposed by the construct’s Strength check, forcing its way into the shelter on a success. Alternatively, a creature seeking entry can attack the shelter. The shelter always has an AC of 10, but it retains any damage reduction or hardness the construct has. The attacker must deal damage equal to one-quarter the construct’s total hit points to gain entry, reducing the construct’s hit points by an equivalent amount.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/557b4edfcdbfabd6.json",
+    "web": "https://codex.pipsprojects.com/#/e/557b4edfcdbfabd6"
+  },
+  "license": "OGL 1.0a"
+}

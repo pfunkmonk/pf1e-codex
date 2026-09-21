@@ -1,0 +1,32 @@
+{
+  "id": "2d6fa99dec3660d8",
+  "name": "Shocking Image",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 243",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "bloodrager": 4,
+      "mesmerist": 4,
+      "occultist": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 243\nSchool illusion (figment) [electricity]; Level arcanist 4, bard 4, bloodrager 4, mesmerist 4, occultist 4, redmantisassassin 4, skald 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nSaving Throw none; Spell Resistance see text\nDescription\nThis spell works like mirror image, except the illusory doubles it creates discharge an electric shock when destroyed. An opponent that uses a melee attack to destroy one of your images takes 2d6 points of electricity damage. You must overcome a target’s spell resistance the first time you deal this electricity damage to it. Failure renders the target immune to damage from this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d6fa99dec3660d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d6fa99dec3660d8"
+  },
+  "license": "OGL 1.0a"
+}

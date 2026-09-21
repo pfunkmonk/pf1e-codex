@@ -1,0 +1,24 @@
+{
+  "id": "0410cb1c6bb99e14",
+  "name": "Litany of Eloquence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 234",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "inquisitor": 3,
+      "paladin": 2
+    },
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 234\nSchool enchantment (charm) [language-dependent, mind-affecting]; Level antipaladin 2, inquisitor 3, paladin 2\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw no; Spell Resistance yes\nDescription\nYour litany is a fascinating diatribe of grace, causing your target to do nothing but listen. The target is fascinated. As usual, obvious danger prevents fascination and potential danger grants a save.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0410cb1c6bb99e14.json",
+    "web": "https://codex.pipsprojects.com/#/e/0410cb1c6bb99e14"
+  },
+  "license": "OGL 1.0a"
+}

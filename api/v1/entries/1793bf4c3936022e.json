@@ -1,0 +1,26 @@
+{
+  "id": "1793bf4c3936022e",
+  "name": "Psychic Crush IV",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 183",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "psychic": 8
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Psychic Crush IV\nSource Occult Adventures pg. 183\nSchool necromancy [mind-affecting]; Level psychic 8\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will partial and Fortitude partial, see text; Spell Resistance yes\nDescription\nThis functions as psychic crush I, but the target takes 9d6 points of damage + 1 point of damage per caster level on a successful Fortitude or Will save. The target does not receive any saving throw bonus because of its hit points. If it is at fewer than half its total hit points, it doesn’t gain a Fortitude save to resist this spell but instead proceeds as if it had automatically failed its Fortitude save. This spell can be undercast.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1793bf4c3936022e.json",
+    "web": "https://codex.pipsprojects.com/#/e/1793bf4c3936022e"
+  },
+  "license": "OGL 1.0a"
+}

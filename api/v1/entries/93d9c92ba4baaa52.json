@@ -1,0 +1,37 @@
+{
+  "id": "93d9c92ba4baaa52",
+  "name": "Fear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 281",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "arcanist": 4,
+      "bard": 3,
+      "bloodrager": 4,
+      "inquisitor": 4,
+      "medium": 4,
+      "mesmerist": 3,
+      "occultist": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "skald": 3,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 281\nSchool necromancy [emotion, fear, mind-affecting]; Level antipaladin 4, arcanist 4, bard 3, bloodrager 4, inquisitor 4, medium 4, mesmerist 3, occultist 4, psychic 4, shaman 4, skald 3, sorcerer 4, spiritualist 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (the heart of a hen or a white feather)\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration 1 round/level or 1 round; see text\nSaving Throw Will partial; Spell Resistance yes\nDescription\nAn invisible cone of terror causes each living creature in the area to become panicked unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. If the Will save succeeds, the creature is shaken for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93d9c92ba4baaa52.json",
+    "web": "https://codex.pipsprojects.com/#/e/93d9c92ba4baaa52"
+  },
+  "license": "OGL 1.0a"
+}

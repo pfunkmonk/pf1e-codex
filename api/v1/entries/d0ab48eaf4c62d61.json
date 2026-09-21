@@ -1,0 +1,34 @@
+{
+  "id": "d0ab48eaf4c62d61",
+  "name": "Mage Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 306",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 306\nSchool conjuration (creation) [force]; Level arcanist 1, bloodrager 1, occultist 1, psychic 1, sorcerer 1, spiritualist 1, summoner 1, summoner (unchained) 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a piece of cured leather)\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nAn invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.\n\nUnlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor.\nMythic Mage Armor\nSource Mythic Adventures pg. 100\nThe armor bonus increases to +6. There is a 50% chance that any critical hit or sneak attack made against the target is negated and treated as a normal hit, as if the target were wearing moderate fortification armor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d0ab48eaf4c62d61.json",
+    "web": "https://codex.pipsprojects.com/#/e/d0ab48eaf4c62d61"
+  },
+  "license": "OGL 1.0a"
+}

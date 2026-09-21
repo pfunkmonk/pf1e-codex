@@ -1,0 +1,36 @@
+{
+  "id": "e70fdffa315ecc81",
+  "name": "Displacement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 273",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "bard": 3,
+      "investigator": 3,
+      "magus": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "summoner": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 273\nSchool illusion (glamer); Level alchemist 3, arcanist 3, bard 3, investigator 3, magus 3, medium 3, mesmerist 3, occultist 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, spiritualist 3, summoner 3, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, M (a small loop of leather)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total concealment. Unlike actual total concealment, displacement does not prevent enemies from targeting the creature normally. True seeing reveals its true location and negates the miss chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e70fdffa315ecc81.json",
+    "web": "https://codex.pipsprojects.com/#/e/e70fdffa315ecc81"
+  },
+  "license": "OGL 1.0a"
+}

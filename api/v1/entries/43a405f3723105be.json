@@ -1,0 +1,23 @@
+{
+  "id": "43a405f3723105be",
+  "name": "Changestaff",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 253",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 253\nSchool transmutation; Level druid 7\nCasting\nCasting Time 1 round\nComponents V, S, F (a quarterstaff that has been carved and polished for 28 days)\nEffect\nRange touch\nTarget your touched staff\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou change a specially prepared quarterstaff into a Huge treant-like creature, about 24 feet tall. When you plant the end of the staff in the ground and speak a special command to conclude the casting of the spell, your staff turns into a creature that looks and fights just like a treant. The staff-treant defends you and obeys any spoken commands. However, it is by no means a true treant; it cannot converse with actual treants or control trees. If the staff-treant is reduced to 0 or fewer hit points, it crumbles to powder and the staff is destroyed. Otherwise, the staff returns to its normal form when the spell duration expires (or when the spell is dismissed), and it can be used as the focus for another casting of the spell. The staff-treant is always at full strength when created, despite any wounds it may have incurred the last time it appeared.\nMythic Changestaff\nSource Mythic Adventures pg. 88\nThe treant-like creature created with this spell is considered a mythic creature, and it gains DR 10/epic and slashing instead of gaining DR 10/slashing.\n\nAugmented (7th): If you expend two uses of mythic power, the creature gains the savage mythic template (see page 224).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43a405f3723105be.json",
+    "web": "https://codex.pipsprojects.com/#/e/43a405f3723105be"
+  },
+  "license": "OGL 1.0a"
+}

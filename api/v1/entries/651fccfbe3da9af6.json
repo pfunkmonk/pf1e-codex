@@ -1,0 +1,33 @@
+{
+  "id": "651fccfbe3da9af6",
+  "name": "Zone of Truth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 371",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "medium": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "psychic": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 371\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 2, inquisitor 2, medium 2, oracle 2, paladin 2, psychic 2, warpriest 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 20-ft.-radius emanation\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nCreatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/651fccfbe3da9af6.json",
+    "web": "https://codex.pipsprojects.com/#/e/651fccfbe3da9af6"
+  },
+  "license": "OGL 1.0a"
+}

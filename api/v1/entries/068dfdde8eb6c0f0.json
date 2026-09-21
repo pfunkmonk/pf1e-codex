@@ -1,0 +1,32 @@
+{
+  "id": "068dfdde8eb6c0f0",
+  "name": "Summon Totem Creature (Shoanti)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Humans of Golarion pg. 29",
+  "book": "Humans of Golarion",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "ranger": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Humans of Golarion"
+  },
+  "body": "Source Humans of Golarion pg. 29\nSchool conjuration (summoning); Level arcanist 3, cleric 3, druid 3, hunter 3, oracle 3, ranger 3, sorcerer 3, summoner 3, summoner (unchained) 3, warpriest 3, wizard 3\nCasting\nCasting Time 10 minutes\nComponents V, S, M/DF (a piece of bone from any one of your totem animals)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 hour (D)\nSaving Throw none; Spell Resistance no\nDescription\nThe Shoanti revere more than the deities of distant planes, but also the animals and natural forces of the rugged lands they call home. Shoanti spellcasters have learned ways to call upon the might of their quahs’ totem creatures in times of need. A character must have been raised by the Shoanti and be considered part of a quah to be able to cast this spell. Characters with access to this spell can only summon creatures revered by the quah they are a part of, as noted on the following lists. Except as noted above, this spell functions as summon nature’s ally III.\n\nLyrune-Quah (Moon Clan): air elemental (small), 1d3 bats, wolf, 1d3 owls.\nShadde-Quah (Axe Clan): 1d3 eagles, earth elemental (small), water elemental (small).\nShriikirri-Quah (Hawk Clan): air elemental (small), 1d3+1 hawks (familiars), horse.\nShundar-Quah (Spire Clan): air elemental (small), earth elemental (small), 1d3 eagles.\nSklar-Quah (Sun Clan): 1d3 fire beetles, fire elemental (small), horse.\nSkoan-Quah (Skull Clan): 1d3+1 eagles (vultures), 1d3 fire beetles, 1d3 giant centipedes.\nTamiir-Quah (Wind Clan): air elemental (small), 1d3 eagles, earth elemental (small).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/068dfdde8eb6c0f0.json",
+    "web": "https://codex.pipsprojects.com/#/e/068dfdde8eb6c0f0"
+  },
+  "license": "OGL 1.0a"
+}

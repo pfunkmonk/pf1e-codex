@@ -1,0 +1,33 @@
+{
+  "id": "9efb3030479c222b",
+  "name": "Bleed for your Master",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 227, Animal Archive pg. 24",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "ranger": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 227, Animal Archive pg. 24\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 2, arcanist 3, druid 3, hunter 3, ranger 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange touch\nTarget your animal companion, familiar, or fiendish servant\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nWhen you would be hit by an attack that requires an attack roll, or when you are within an area of effect that allows you to attempt a Reflex saving throw, with a single touch you compel the target to throw itself in front of the blow or shield you from the effect.\n\nIf an attack roll triggered this spell’s casting, the target takes the damage instead of you, even if the attack roll would not normally hit the target’s Armor Class.\n\nIf an area of effect that allows you to attempt a Reflex save triggered this spell’s casting, the target instead grants you cover against the effect (+2 bonus on Reflex saves) if it is your size or smaller, or improved cover (+4 bonus on Reflex saves and improved evasion against the effect) if it is larger than you. The target automatically fails its Reflex save against the effect but can still benefit from improved evasion and similar mitigating effects.\n\nAfter taking damage, the target is shaken for 1 minute. If the target was already shaken, it becomes frightened instead.\nDie for Your Master\nSource Animal Archive pg. 24\nSchool enchantment (compulsion); Level antipaladin 4, arcanist 5, druid 5, hunter 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange touch\nTarget your animal companion, familiar, or fiendish servant\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as bleed for your master, but it allows your companion or familiar to intercept any attack that targets you, including those that do not require attack rolls (e.g., chain lightning, hold monster, and magic missile). Your companion or familiar cannot intercept effects that do not affect creatures of its type (e.g., dominate person).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9efb3030479c222b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9efb3030479c222b"
+  },
+  "license": "OGL 1.0a"
+}

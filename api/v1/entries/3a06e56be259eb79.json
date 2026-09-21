@@ -1,0 +1,29 @@
+{
+  "id": "3a06e56be259eb79",
+  "name": "Threefold Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of the First World pg. 25",
+  "book": "Legacy of the First World",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "medium": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "bk": "Legacy of the First World"
+  },
+  "body": "Source Legacy of the First World pg. 25\nSchool divination; Level arcanist 3, bard 3, medium 3, occultist 3, psychic 3, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a three-pointed knot)\nEffect\nRange personal\nTarget you\nDuration 3 minutes\nDescription\nYou view several possible futures at once, allowing you to thread a needle around disasters by taking a middle path. For the duration of this spell, whenever you roll for an attack, saving throw, or skill check, roll three d20 and use the middle of the three rolls (or the highest, if more than one die shows the same highest value, or the lowest, if more than one die shows the same lowest value). If another ability would make you roll an attack roll, saving throw, or skill check twice and take the higher result, roll twice and take the lower result, or reroll, that ability has no effect and threefold sight ends immediately.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a06e56be259eb79.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a06e56be259eb79"
+  },
+  "license": "OGL 1.0a"
+}

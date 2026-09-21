@@ -1,0 +1,39 @@
+{
+  "id": "31f18355f095bf07",
+  "name": "Cure Light Wounds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 263",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 1,
+      "alchemist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "investigator": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "ranger": 2,
+      "shaman": 1,
+      "skald": 1,
+      "spiritualist": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 263\nSchool conjuration (healing); Level adept 1, alchemist 1, bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, investigator 1, occultist 1, oracle 1, paladin 1, ranger 2, shaman 1, skald 1, spiritualist 1, warpriest 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless); see text\nDescription\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.\nMythic Cure Light Wounds\nSource Mythic Adventures pg. 89\nThe damage cured increases to 2d8 points of damage + 2 points per caster level (maximum +10). The spell cures up to 1 point of ability damage if the target is a living creature. The target chooses what type of ability damage is cured.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31f18355f095bf07.json",
+    "web": "https://codex.pipsprojects.com/#/e/31f18355f095bf07"
+  },
+  "license": "OGL 1.0a"
+}

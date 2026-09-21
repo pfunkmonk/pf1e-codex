@@ -1,0 +1,85 @@
+{
+  "id": "012a0e7a1803ad7a",
+  "name": "Armor for Unusual Creatures",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 153",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nArmor for Unusual Creatures\nSource PRPG Core Rulebook pg. 153\nArmor and shields for unusually big creatures, unusually little creatures, and nonhumanoid creatures (such as horses) have different costs and weights from those given on Table 6–6. Refer to the appropriate line on Table 6–8 and apply the multipliers to cost and weight for the armor type in question.\nTable 6-8: Armor for Unusual Creatures\nHumanoid Nonhumanoid\nSize Cost Weight Cost Weight\nTiny or smaller* ×1/2 ×1/10 ×1 ×1/10\nSmall ×1 ×1/2 ×2 ×1/2\nMedium ×1 ×1 ×2 ×1\nLarge ×2 ×2 ×4 ×2\nHuge ×4 ×5 ×8 ×5\nGargantuan ×8 ×8 ×16 ×8\nColossal ×16 ×12 ×32 ×12\n*Divide armor bonus by 2.",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Humanoid",
+          "Nonhumanoid"
+        ],
+        [
+          "Size",
+          "Cost",
+          "Weight",
+          "Cost",
+          "Weight"
+        ],
+        [
+          "Tiny or smaller*",
+          "×1/2",
+          "×1/10",
+          "×1",
+          "×1/10"
+        ],
+        [
+          "Small",
+          "×1",
+          "×1/2",
+          "×2",
+          "×1/2"
+        ],
+        [
+          "Medium",
+          "×1",
+          "×1",
+          "×2",
+          "×1"
+        ],
+        [
+          "Large",
+          "×2",
+          "×2",
+          "×4",
+          "×2"
+        ],
+        [
+          "Huge",
+          "×4",
+          "×5",
+          "×8",
+          "×5"
+        ],
+        [
+          "Gargantuan",
+          "×8",
+          "×8",
+          "×16",
+          "×8"
+        ],
+        [
+          "Colossal",
+          "×16",
+          "×12",
+          "×32",
+          "×12"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/012a0e7a1803ad7a.json",
+    "web": "https://codex.pipsprojects.com/#/e/012a0e7a1803ad7a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "d5d432101a8d67d8",
+  "name": "Burst of Glory",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 230, Gods and Magic pg. 21",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 4,
+      "oracle": 5,
+      "paladin": 4,
+      "warpriest": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 230, Gods and Magic pg. 21\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 5, inquisitor 4, oracle 5, paladin 4, warpriest 5 (Iomedae)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 10 ft.\nArea 10-ft.-radius burst, centered on you\nDuration 1 round/level (D; see text)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nAllies in the area of this spell at the time of casting gain a +1 sacred bonus on attack rolls and saves against fear effects, plus 1 temporary hit point per caster level (maximum 20). You shine with a white or golden radiance equal to a torch for the spell’s duration, though you can dismiss the glow effect as a free action.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d5d432101a8d67d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/d5d432101a8d67d8"
+  },
+  "license": "OGL 1.0a"
+}

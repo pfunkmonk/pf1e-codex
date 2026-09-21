@@ -1,0 +1,25 @@
+{
+  "id": "103c7ff2e523acd1",
+  "name": "Hunter's Eye",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 228",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "hunter": 2,
+      "inquisitor": 3,
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 228\nSchool divination; Level hunter 2, inquisitor 3, ranger 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 minute/level\nSaving Throw none; Spell Resistance yes\nDescription\nSharpening your perceptive abilities and tuning them against obfuscating effects, hunter’s eye greatly enhances your senses against the target creature. You gain the ability to perceive the target when it is invisible or ethereal as though using the see invisibility spell, and receive a +20 competence bonus on Perception checks to locate the target. You ignore concealment provided by fog or mist, blur, displacement, invisibility, and similar effects affecting the target, but not concealment provided by darkness. This spell provides no benefits to your allies, and no benefits against creatures other than the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/103c7ff2e523acd1.json",
+    "web": "https://codex.pipsprojects.com/#/e/103c7ff2e523acd1"
+  },
+  "license": "OGL 1.0a"
+}

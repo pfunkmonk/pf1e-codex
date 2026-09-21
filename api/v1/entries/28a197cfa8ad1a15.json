@@ -1,0 +1,32 @@
+{
+  "id": "28a197cfa8ad1a15",
+  "name": "Charnel House",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 111",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 5,
+      "cleric": 5,
+      "mesmerist": 5,
+      "oracle": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 111\nSchool illusion (shadow) [evil, shadow]; Level antipaladin 3, arcanist 5, cleric 5, mesmerist 5, oracle 5, psychic 5, sorcerer 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 10 minutes\nComponents V, S, M (one Tiny or larger living creature)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 20-ft. cube (S)\nDuration 10 minutes/level\nSaving Throw Will parital; Spell Resistance no\nDescription\nBy sacrificing a living creature, you create the grisly illusion of viscera and gore splattered about the nearby area. When the casting time is complete, the walls drip with blood and the floor is slick with unidentifiable lumps of meat and other signs of a massacre. Anyone entering the area must attempt a Will save or be sickened for 1d6 rounds. This is a mind-affecting effect. If a creature succeeds at its save, it can see the semi-real nature of the illusion.\n\nThe room itself is covered in a layer of slippery, semi-real gore. Any creature attempting to walk within or through the area of gore can move at half normal speed with a DC 10 Acrobatics check. Failure means it can’t move that round, and failure by 5 or more means it falls prone (see the Acrobatics skill for details). Creatures that don’t move on their turns don’t need to attempt this check and are not considered flat-footed. A creature that succeeded at its Will save gains a +5 bonus on the Acrobatics check.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/28a197cfa8ad1a15.json",
+    "web": "https://codex.pipsprojects.com/#/e/28a197cfa8ad1a15"
+  },
+  "license": "OGL 1.0a"
+}

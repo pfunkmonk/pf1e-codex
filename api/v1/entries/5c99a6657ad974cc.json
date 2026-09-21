@@ -1,0 +1,25 @@
+{
+  "id": "5c99a6657ad974cc",
+  "name": "Adroit Retrieval",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 30",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 30\nSchool transmutation; Level arcanist 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou instill the target with the ability to withdraw small items from her pockets or packs with supernatural swiftness. When the target retrieves an item stored on itself, it can retrieve the item either as a move action without provoking attacks of opportunity, or as a swift action that provokes attacks of opportunity. This effect functions only when the target attempts to retrieve a stored item that weighs less than 1 pound per caster level (maximum 15 pounds).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c99a6657ad974cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c99a6657ad974cc"
+  },
+  "license": "OGL 1.0a"
+}

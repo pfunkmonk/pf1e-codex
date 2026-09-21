@@ -1,0 +1,29 @@
+{
+  "id": "6437f34502639532",
+  "name": "Deadeye's Lore",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 226, Faiths of Purity pg. 28",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "skald": 1,
+      "warpriest": 1
+    },
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 226, Faiths of Purity pg. 28\nSchool divination; Level bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, oracle 1, ranger 1, skald 1, warpriest 1\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 hour/level\nDescription\nWhile subject to this spell, you take upon yourself the mantle of the hunter, channeling the insights of the spirits of the wild. You gain a +4 sacred bonus on all Survival checks for the duration of the spell, and you do not have to move at half your speed while traveling through the wilderness or while tracking.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6437f34502639532.json",
+    "web": "https://codex.pipsprojects.com/#/e/6437f34502639532"
+  },
+  "license": "OGL 1.0a"
+}

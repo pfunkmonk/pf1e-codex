@@ -1,0 +1,30 @@
+{
+  "id": "e83d7c779e432778",
+  "name": "Siphon Might",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Giant Hunter's Handbook pg. 27",
+  "book": "Giant Hunter's Handbook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Giant Hunter's Handbook"
+  },
+  "body": "Source Giant Hunter's Handbook pg. 27\nSchool necromancy; Level arcanist 3, druid 3, hunter 3, magus 3, sorcerer 3, summoner 3, summoner (unchained) 3, witch 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fortitude half; Spell Resistance yes\nDescription\nYou drain the might of the target and transfer that power to another creature. The subject takes a penalty to Strength equal to 1d6 + 1 per 2 caster levels (maximum 1d6 + 5). This effect can’t cause the subject’s Strength score to drop below 1. A successful Fortitude save halves this penalty. This penalty doesn’t stack with itself or the penalty applied from ray of enfeeblement.\n\nYou can grant any one creature adjacent to you (including yourself) an enhancement bonus to Strength equal to the Strength penalty imposed by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e83d7c779e432778.json",
+    "web": "https://codex.pipsprojects.com/#/e/e83d7c779e432778"
+  },
+  "license": "OGL 1.0a"
+}

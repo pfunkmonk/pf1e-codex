@@ -1,0 +1,33 @@
+{
+  "id": "668ea32b291b06e0",
+  "name": "Planetarium",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the Stars pg. 28",
+  "book": "People of the Stars",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "bk": "People of the Stars"
+  },
+  "body": "Source People of the Stars pg. 28\nSchool illusion (figment); Level arcanist 2, bard 2, cleric 2, druid 2, hunter 2, oracle 2, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 15-ft.-radius spherical projection of night sky\nDuration concentration + 3 rounds\nSaving Throw none; Spell Resistance Will disbelief (harmless)\nDescription\nYou project an image of the night sky based on your current location and the local time, allowing you to observe the heavens and all of its celestial bodies and features even during the daytime, indoors, or underground. Anyone within the planetarium’s sphere can see the projection, though outside of the sphere the image becomes grainy and indistinct.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/668ea32b291b06e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/668ea32b291b06e0"
+  },
+  "license": "OGL 1.0a"
+}

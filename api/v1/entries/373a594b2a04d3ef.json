@@ -1,0 +1,27 @@
+{
+  "id": "373a594b2a04d3ef",
+  "name": "Barghest Feast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #117: Assault on Longshadow pg. 76",
+  "book": "Pathfinder #117: Assault on Longshadow",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "investigator": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #117: Assault on Longshadow"
+  },
+  "body": "Source Pathfinder #117: Assault on Longshadow pg. 76\nSchool transmutation [evil]; Level alchemist 3, investigator 3 (Hadregash)\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level; see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target gains the ability to absorb power from devouring a humanoid corpse. To use this ability, the target must feed on the corpse of one nonevil humanoid creature, a process that takes 1 full round per Hit Die the creature had and provokes attacks of opportunity. For every 2 rounds it feeds on the corpse in this way, the target gains a +1 profane bonus on attack rolls, saving throws, and skill checks (to a maximum of +5).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/373a594b2a04d3ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/373a594b2a04d3ef"
+  },
+  "license": "OGL 1.0a"
+}

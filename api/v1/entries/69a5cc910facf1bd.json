@@ -1,0 +1,29 @@
+{
+  "id": "69a5cc910facf1bd",
+  "name": "Programmed Image",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 327",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 6,
+      "bard": 6,
+      "mesmerist": 6,
+      "psychic": 6,
+      "skald": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 327\nSchool illusion (figment); Level arcanist 6, bard 6, mesmerist 6, psychic 6, skald 6, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (fleece and jade dust worth 25 gp)\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect visual figment that cannot extend beyond a 20-ft. cube + one 10-ft. cube/level (S)\nDuration permanent until triggered, then 1 round/level\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell functions like silent image, except that this spell's figment activates when a specific condition occurs. The figment includes visual, auditory, olfactory, and thermal elements, including intelligible speech.\n\nYou set the triggering condition (which may be a special word) when casting the spell. The event that triggers the illusion can be as general or as specific and detailed as desired but must be based on an audible, tactile, olfactory, or visual trigger. The trigger cannot be based on some quality not normally obvious to the senses, such as alignment. See magic mouth for more details about such triggers.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/69a5cc910facf1bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/69a5cc910facf1bd"
+  },
+  "license": "OGL 1.0a"
+}

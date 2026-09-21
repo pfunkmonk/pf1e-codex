@@ -1,0 +1,37 @@
+{
+  "id": "e78e464701169502",
+  "name": "Nex's Secret Workshop",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 317",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 3,
+      "arcanist": 3,
+      "hunter": 4,
+      "inquisitor": 3,
+      "investigator": 3,
+      "medium": 2,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "ranger": 4,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "summoner": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Nondetection\nSource PRPG Core Rulebook pg. 317\nSchool abjuration; Level alchemist 3, antipaladin 3, arcanist 3, hunter 4, inquisitor 3, investigator 3, medium 2, mesmerist 3, occultist 3, psychic 3, ranger 4, sorcerer 3, spiritualist 3, summoner 3, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (diamond dust worth 50 gp)\nEffect\nRange touch\nTarget creature or object touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThe warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on an item currently in your possession, the DC is 15 + your caster level.\n\nIf cast on a creature, nondetection wards the creature's gear as well as the creature itself.\nNex's Secret Workshop\nSource Inner Sea Intrigue pg. 60\nSchool abjuration; Level arcanist 5, medium 4, mesmerist 5, occultist 5, psychic 5, sorcerer 5, spiritualist 5, summoner 5, summoner (unchained) 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (diamond dust worth 150 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets any number of creatures or objects in range\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nDesigned to protect a large number of items from rivals of the Arclords of Nex, this spell functions as nondetection except as noted above. You can exclude any creatures or objects in the spell’s range when casting this spell, if you wish.\nNondetection, Communal\nSource Ultimate Combat pg. 238\nSchool abjuration; Level antipaladin 4, arcanist 4, mesmerist 4, occultist 4, psychic 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (diamond dust worth 25 gp per target)\nEffect\nRange touch\nTargets creatures or objects touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell functions like nondetection, except you divide the duration in 1-hour increments among the creatures or objects touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e78e464701169502.json",
+    "web": "https://codex.pipsprojects.com/#/e/e78e464701169502"
+  },
+  "license": "OGL 1.0a"
+}

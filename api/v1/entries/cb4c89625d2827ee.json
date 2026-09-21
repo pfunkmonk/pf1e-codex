@@ -1,0 +1,23 @@
+{
+  "id": "cb4c89625d2827ee",
+  "name": "Armor of Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Campaign Setting pg. 206",
+  "book": "Pathfinder Campaign Setting",
+  "facets": {
+    "sch": "abjuration",
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder Campaign Setting"
+  },
+  "body": "Source Pathfinder Campaign Setting pg. 206\nSchool abjuration [darkness]\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell envelops the target in shadows that can, if you desire, conceal the creature’s features. It grants the recipient a +3 deflection bonus to Armor Class (+1 for every 4 caster levels, to a maximum bonus of +8). The subject can see through the armor and gains darkvision to 60 feet. The subject gains a +2 bonus on saving throws against any holy, good, or light spells or effects. Undead creatures under the effect gain +4 turn resistance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb4c89625d2827ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb4c89625d2827ee"
+  },
+  "license": "OGL 1.0a"
+}

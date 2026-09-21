@@ -1,0 +1,30 @@
+{
+  "id": "dd69ead475bc2022",
+  "name": "Abadar's Truthtelling",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 228, Pathfinder #8: Seven Days to the Grave pg. 71, Gods and Magic pg. 5",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 228, Pathfinder #8: Seven Days to the Grave pg. 71, Gods and Magic pg. 5\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions identically to the spell zone of truth, except as noted above. The target momentarily takes on the semblance of a being of perfect order, like an archon or inevitable, so that all who can see the target know it is affected by the spell. This divine guise flickers over the target for only an instant and does not allow it to pass as a member of a different race.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd69ead475bc2022.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd69ead475bc2022"
+  },
+  "license": "OGL 1.0a"
+}

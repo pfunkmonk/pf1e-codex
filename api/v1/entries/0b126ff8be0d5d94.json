@@ -1,0 +1,31 @@
+{
+  "id": "0b126ff8be0d5d94",
+  "name": "Corrosive Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 213",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "magus": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 213\nSchool conjuration (creation) [acid]; Level arcanist 1, bloodrager 1, magus 1, sorcerer 1, summoner 1, summoner (unchained) 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYour successful melee touch attack deals 1d4 points of acid damage per caster level (maximum 5d4).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b126ff8be0d5d94.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b126ff8be0d5d94"
+  },
+  "license": "OGL 1.0a"
+}

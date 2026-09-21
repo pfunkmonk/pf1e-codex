@@ -1,0 +1,36 @@
+{
+  "id": "6acacfad25a24380",
+  "name": "Animal Purpose Training",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 173",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 2,
+      "druid": 2,
+      "hunter": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "shaman": 2,
+      "skald": 2,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 173\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 1, bard 2, druid 2, hunter 1, inquisitor 1, paladin 1, psychic 1, ranger 1, shaman 2, skald 2, witch 1\nCasting\nCasting Time 1 minute\nComponents V, S, M (a swatch of black cloth)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one indifferent or friendly animal\nDuration 1 hour/level\nSaving Throw none; Spell Resistance yes\nDescription\nYou instill the target animal with a general purpose (see the Handle Animal skill), which can be any purpose except combat training—fighting, guarding, heavy labor, hunting, performance, or riding. This purpose supersedes the animal’s previous trained purpose and any tricks it knows. When the spell ends, the animal reverts to its previous trained purpose and known tricks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6acacfad25a24380.json",
+    "web": "https://codex.pipsprojects.com/#/e/6acacfad25a24380"
+  },
+  "license": "OGL 1.0a"
+}

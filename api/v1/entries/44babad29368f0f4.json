@@ -1,0 +1,29 @@
+{
+  "id": "44babad29368f0f4",
+  "name": "Carve Passage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 218",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 5,
+      "druid": 5,
+      "hunter": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "earth"
+    ],
+    "sr": "no",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 218\nSchool transmutation [earth]; Level arcanist 5, druid 5, hunter 5, sorcerer 5, wizard 5 (Kobold)\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a tiny diamond pick worth 500 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea dirt or loose rock in one 5-ft. cube/level\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\nDescription\nYou can excavate and move an amount of snow, earth, dust, sand, and loose or packed rocks or ice chunks (each no more than 5 feet in diameter) whose volume fills one 5-foot cube per level. If you are buried, you can open a space around yourself and use any remaining cubes for tunneling. This spell is otherwise similar to expeditious excavation (Pathfinder RPG Advanced Player’s Guide 220). Carve passage has no effect on earth creatures or solid rock or ice.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/44babad29368f0f4.json",
+    "web": "https://codex.pipsprojects.com/#/e/44babad29368f0f4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "9ac351e47055f80b",
+  "name": "Stone Fist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 247",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "magus": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 247\nSchool transmutation [earth]; Level alchemist 1, arcanist 1, bloodrager 1, druid 1, hunter 1, investigator 1, magus 1, redmantisassassin 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a chip of granite)\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nDescription\nThis spell transforms your hands into living stone. While this spell is in effect, your unarmed strikes do not provoke attacks of opportunity and deal 1d6 points of lethal bludgeoning damage (1d4 if you are Small). In addition, your unarmed strikes ignore the hardness of any object with a hardness less than 8.\n\nStone to flesh immediately dispels stone fist. Should you be the target of transmute rock to mud, this spell immediately ends and you take 4d6 points of damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9ac351e47055f80b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9ac351e47055f80b"
+  },
+  "license": "OGL 1.0a"
+}

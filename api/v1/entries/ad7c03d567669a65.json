@@ -1,0 +1,40 @@
+{
+  "id": "ad7c03d567669a65",
+  "name": "Draconic Malice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of Dragons pg. 29",
+  "book": "Legacy of Dragons",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "bard": 3,
+      "bloodrager": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "mesmerist": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "shaman": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "draconic"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Legacy of Dragons"
+  },
+  "body": "Source Legacy of Dragons pg. 29\nSchool enchantment [draconic]; Level antipaladin 3, arcanist 3, bard 3, bloodrager 3, cleric 3, inquisitor 3, mesmerist 3, oracle 3, psychic 3, shaman 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nEffect 10-foot aura centered on you\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYou surround yourself with a palpable aura of draconic fear and dread. Living creatures within this aura that are normally immune to fear or mind-affecting abilities lose those immunities against your spells, spell-like abilities, and supernatural abilities that create fear effects, as well as any Intimidate checks you attempt to demoralize foes.\n\nIf you have the antipaladin aura of cowardice class feature, this spell instead changes the penalty imposed by aura of cowardice to –6 for its duration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ad7c03d567669a65.json",
+    "web": "https://codex.pipsprojects.com/#/e/ad7c03d567669a65"
+  },
+  "license": "OGL 1.0a"
+}

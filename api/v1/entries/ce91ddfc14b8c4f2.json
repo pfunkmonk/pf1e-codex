@@ -1,0 +1,29 @@
+{
+  "id": "ce91ddfc14b8c4f2",
+  "name": "Bloatbomb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 175",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "arcanist": 4,
+      "cleric": 4,
+      "oracle": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 175\nSchool necromancy [acid, death]; Level antipaladin 4, arcanist 4, cleric 4, oracle 4, sorcerer 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous and 1 minute/level (see text)\nSaving Throw Fortitude negates or Reflex half (see text); Spell Resistance yes\nDescription\nThe target creature dies if it fails a Fortitude saving throw and its Hit Dice are no more than half your caster level. If it dies, its corpse rapidly putrefies. The next creature to touch the corpse within 1 minute per level of the target’s death causes the corpse to explode in a 10-foot-radius burst, dealing 3d6 points of acid damage (Reflex half).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce91ddfc14b8c4f2.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce91ddfc14b8c4f2"
+  },
+  "license": "OGL 1.0a"
+}

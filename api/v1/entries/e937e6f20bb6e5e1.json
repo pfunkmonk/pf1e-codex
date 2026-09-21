@@ -1,0 +1,31 @@
+{
+  "id": "e937e6f20bb6e5e1",
+  "name": "Object Possession, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 179",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "medium": 2,
+      "mesmerist": 3,
+      "occultist": 2,
+      "psychic": 3,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "No",
+    "bk": "Occult Adventures"
+  },
+  "body": "Object Possession, Lesser\nSource Occult Adventures pg. 179\nSchool necromancy; Level arcanist 4, medium 2, mesmerist 3, occultist 2, psychic 3, sorcerer 4, spiritualist 3, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget unattended Tiny or Small object\nDuration 1 minute/level (D)\nSaving Throw None; Spell Resistance No\nDescription\nThis spell functions as possession, except you possess an object instead of a creature.\n\nA possessed object becomes capable of animation, gaining the statistics of an animated object of its size (including 1 CP worth of abilities; Pathfinder RPG Bestiary 14). You can’t use any spells or other abilities while possessing an object.\n\nA spiritual tether connects your body to the possessed object, in a manner similar to a silver cord (see page 244). If the possessed object and your body are ever farther than close range (25 ft. + 5 ft./2 levels) from one another, this tether breaks, returning your consciousness to your body.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e937e6f20bb6e5e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/e937e6f20bb6e5e1"
+  },
+  "license": "OGL 1.0a"
+}

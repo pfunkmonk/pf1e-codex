@@ -1,0 +1,33 @@
+{
+  "id": "005858a3151d07a3",
+  "name": "Cure Light Wounds, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 263",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 5,
+      "cleric": 5,
+      "druid": 6,
+      "hunter": 6,
+      "inquisitor": 5,
+      "occultist": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "skald": 5,
+      "warpriest": 5,
+      "witch": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 263\nSchool conjuration (healing); Level bard 5, cleric 5, druid 6, hunter 6, inquisitor 5, occultist 5, oracle 5, shaman 5, skald 5, warpriest 5, witch 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will half (harmless) or Will half; see text; Spell Resistance yes (harmless) or yes; see text\nDescription\nYou channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/005858a3151d07a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/005858a3151d07a3"
+  },
+  "license": "OGL 1.0a"
+}

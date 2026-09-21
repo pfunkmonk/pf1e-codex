@@ -1,0 +1,34 @@
+{
+  "id": "0a3594ab42b0b457",
+  "name": "Echolocation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 218",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 5,
+      "bard": 4,
+      "druid": 4,
+      "hunter": 4,
+      "investigator": 4,
+      "occultist": 4,
+      "psychic": 5,
+      "skald": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "sonic"
+    ],
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 218\nSchool transmutation [sonic]; Level alchemist 4, arcanist 5, bard 4, druid 4, hunter 4, investigator 4, occultist 4, psychic 5, skald 4, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level\nDescription\nYou can perceive the world by creating high-pitched noises and listening to their echoes. This gives you blindsight to a range of 40 feet. The echo-producing noises are too high-pitched to be heard by most creatures, and can only be detected by dragons, other creatures with this ability (such as bats), and creatures with hearing-based blindsense or blindsight. You cannot use this ability if you are deaf, and cannot detect anything in an area of silence.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a3594ab42b0b457.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a3594ab42b0b457"
+  },
+  "license": "OGL 1.0a"
+}

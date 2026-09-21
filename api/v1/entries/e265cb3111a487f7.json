@@ -1,0 +1,30 @@
+{
+  "id": "e265cb3111a487f7",
+  "name": "Sotto Voce",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faction Guide pg. 61",
+  "book": "Faction Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 0,
+      "bard": 1,
+      "cleric": 0,
+      "oracle": 0,
+      "skald": 1,
+      "sorcerer": 0,
+      "warpriest": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Faction Guide"
+  },
+  "body": "Source Faction Guide pg. 61\nSchool necromancy [fear, mind-affecting, sonic]; Level arcanist 0, bard 1, cleric 0, oracle 0, skald 1, sorcerer 0, warpriest 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature of 4 HD or less\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYour dry, rasping whisper fills a living creature of 4 or fewer Hit Dice with unnatural dread. The affected creature must make a Will save or be shaken for 1 round.\n\nThis spell originated among the followers of the Whispering Way, but necromancers and other intimidating folk outside that group are known to use it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e265cb3111a487f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/e265cb3111a487f7"
+  },
+  "license": "OGL 1.0a"
+}

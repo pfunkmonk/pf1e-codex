@@ -1,0 +1,30 @@
+{
+  "id": "46981a4c583247f4",
+  "name": "Symbol of Slowing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 242",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "occultist": 3,
+      "oracle": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 242\nSchool transmutation; Level arcanist 4, cleric 4, occultist 3, oracle 4, redmantisassassin 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorous, plus powdered diamond and opal worth a total of 1,000 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as symbol of death, except all creatures within 60 feet of a symbol of slowing are slowed (as the slow spell) for 1 round per caster level.\n\nSymbol of slowing can be made permanent with a permanency spell by a caster of 11th level or higher for the cost of 10,000 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/46981a4c583247f4.json",
+    "web": "https://codex.pipsprojects.com/#/e/46981a4c583247f4"
+  },
+  "license": "OGL 1.0a"
+}

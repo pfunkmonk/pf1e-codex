@@ -1,0 +1,31 @@
+{
+  "id": "9a5e98d4d91fbf7d",
+  "name": "Inflict Light Wounds, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 300",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "spiritualist": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Inflict Light Wounds\nSource PRPG Core Rulebook pg. 300\nSchool necromancy; Level antipaladin 1, cleric 1, inquisitor 1, occultist 1, oracle 1, shaman 1, spiritualist 1, warpriest 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nDescription\nWhen laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage + 1 point per caster level (maximum +5).\n\nSince undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it.\nMythic Inflict Light Wounds\nSource Mythic Adventures pg. 99\nThe damage dealt increases to 2d8 points of damage + 2 points per caster level (maximum +10). A living target is sickened for 1 round per caster level (maximum 5 rounds) if it fails its saving throw.\nInflict Light Wounds, Mass\nSource PRPG Core Rulebook pg. 300\nSchool necromancy; Level cleric 5, inquisitor 5, occultist 5, oracle 5, shaman 5, warpriest 5, witch 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nDescription\nNegative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +25) to nearby living enemies.\n\nLike other inflict spells, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9a5e98d4d91fbf7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/9a5e98d4d91fbf7d"
+  },
+  "license": "OGL 1.0a"
+}

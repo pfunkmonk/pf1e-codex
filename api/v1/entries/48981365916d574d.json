@@ -1,0 +1,27 @@
+{
+  "id": "48981365916d574d",
+  "name": "Synaptic Scramble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 187",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 3,
+      "psychic": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 187\nSchool enchantment (compulsion) [mind-affecting]; Level mesmerist 3, psychic 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou scramble the synaptic connections of your target, causing it to lose the ability to coherently communicate and to take unintended actions when it meant to perform others. The target cannot effectively communicate while under the spell’s influence, and thus cannot engage in acts like speaking, attempting Bluff checks to pass secret messages, writing, or using telepathy, although the spell doesn’t prevent verbalizations made for purposes other than communication, such as command words or the verbal component of spellcasting.\n\nThe target’s mind is too scrambled to take full-round actions or longer actions, as the target’s attention inevitably wanders before the action completes. Whenever the target attempts to take a move action or a standard action, roll on the following table instead. If the result on the table is an action that the target cannot take, the target takes no action instead.\n\nd% Action\n1–20 Move action (must use move action to move)\n21–40 Other move action (perform a move action other than moving)\n41–60 Attack action (spend a standard action on the attack action, attacking once with a weapon)\n61–80 Other standard action (perform a standard action that isn’t the attack action)\n81–100 Desired action (perform whatever standard or move action the creature desires to perform)",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/48981365916d574d.json",
+    "web": "https://codex.pipsprojects.com/#/e/48981365916d574d"
+  },
+  "license": "OGL 1.0a"
+}

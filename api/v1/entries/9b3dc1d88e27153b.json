@@ -1,0 +1,32 @@
+{
+  "id": "9b3dc1d88e27153b",
+  "name": "Hairline Fractures",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 235, Faiths of Purity pg. 28",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 235, Faiths of Purity pg. 28\nSchool transmutation [earth]; Level cleric 1, druid 1, hunter 1, oracle 1, shaman 1, warpriest 1, witch 1 (Torag)\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a broken twig)\nEffect\nRange touch\nTarget 5-foot-square section of stone or a creature with the earth subtype\nDuration 1 round/level\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nWith a single touch, you create temporary hairline fractures in a piece of stone or a creature with the earth subtype. If you cast this spell on a section of stone, you reduce its hardness to 5 and its hit points to 10/inch of thickness. If you cast this spell on a creature with the earth subtype, that creature takes a –2 penalty to AC for the spell’s duration. Make whole reverses this spell’s effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b3dc1d88e27153b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b3dc1d88e27153b"
+  },
+  "license": "OGL 1.0a"
+}

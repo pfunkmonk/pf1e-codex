@@ -1,0 +1,33 @@
+{
+  "id": "38d8f7cd72ff7264",
+  "name": "Chain of Perdition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 225",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "cleric": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 225\nSchool evocation [force]; Level arcanist 3, bloodrager 3, cleric 3, oracle 3, psychic 3, sorcerer 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (chain link)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 10-ft. chain\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nA floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it normally. The chain’s AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).\n\nThe chain can perform the dirty trick (blind or entangle), drag, reposition, and trip combat maneuvers, using your caster level in place of your Combat Maneuver Bonus, and your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric) in place of your Strength or Dexterity modifier. The chain does not provoke attacks of opportunity for making combat maneuvers. It suffers no penalty or miss chance due to darkness, invisibility, or other forms of concealment.\n\nAs a move action, you can move the chain up to 30 feet. If the chain goes beyond the spell’s range or out of your sight, it returns to you.\n\nIf a creature that the chain attacks has spell resistance, you must make a caster level check (1d20 + caster level) against that spell resistance the first time the chain performs a successful maneuver against that creature. If the chain is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/38d8f7cd72ff7264.json",
+    "web": "https://codex.pipsprojects.com/#/e/38d8f7cd72ff7264"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "7bf726d0dacc959d",
+  "name": "Regeneration",
+  "bucket": "monsters",
+  "category": "Universal Monster Rules",
+  "source": "Bestiary 6 pg. 297, Pathfinder RPG Bestiary pg. 303, Bestiary 2 pg. 300, Bestiary 3 pg. 298, Bestiary 4 pg. 298, Bestiary 5 pg. 298",
+  "book": "Bestiary 6",
+  "facets": {
+    "bk": "Bestiary 6"
+  },
+  "body": "All | Unique\nRegeneration (Ex)\nSource Bestiary 6 pg. 297, Pathfinder RPG Bestiary pg. 303, Bestiary 2 pg. 300, Bestiary 3 pg. 298, Bestiary 4 pg. 298, Bestiary 5 pg. 298\nA creature with this ability is difficult to kill. Creatures with regeneration heal damage to themselves at a fixed rate, as with fast healing, but they can’t die as long as their regeneration is still functioning (although creatures with regeneration still fall unconscious when their hit points are below 0). Certain damage types, typically acid and fire, cause a creature’s regeneration to stop functioning on the round following the attack. During this round, the creature does not heal any damage and can die normally. The creature’s descriptive text describes the types of damage that cause the regeneration to cease functioning.\n\nAttacks that don’t deal hit point damage are not healed by regeneration. Regeneration also does not restore hit points lost from starvation, suffocation, or thirst. Regenerating creatures can regrow lost portions of their bodies and can reattach severed limbs or body parts if they are brought together within 1 hour of severing. Severed parts that are not reattached wither and die normally.\n\nA creature must have a Constitution score to have the regeneration ability.\n\nFormat: regeneration 5 (acid, fire)\nLocation: hp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7bf726d0dacc959d.json",
+    "web": "https://codex.pipsprojects.com/#/e/7bf726d0dacc959d"
+  },
+  "license": "OGL 1.0a"
+}

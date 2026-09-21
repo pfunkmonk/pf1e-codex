@@ -1,0 +1,30 @@
+{
+  "id": "31938abb80d5b04d",
+  "name": "Smug Narcissism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 238",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 5,
+      "bard": 3,
+      "mesmerist": 3,
+      "psychic": 5,
+      "skald": 3,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 238\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 5, bard 3, mesmerist 3, psychic 5, skald 3, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a tiny shard of a mirror)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 10 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou cause your target to become overwhelmed by its own importance, talents, and attractiveness. The target cannot help but look at itself in every reflective surface at every possible opportunity. In social situations, the target always tries to comment about how attractive it is or how ugly someone else is by comparison. The target remains constantly distracted, always looking for a reflective surface to gaze upon (such as a mirror, pool of water, a polished shield, and so on). The distraction gives the target a –2 penalty on all skill checks. In combat, the target worries about enemies damaging its appearance, and focuses on defense rather than offense (casting defensive spells rather than offensive spells, using the fight defensively or total defense action, and so on).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31938abb80d5b04d.json",
+    "web": "https://codex.pipsprojects.com/#/e/31938abb80d5b04d"
+  },
+  "license": "OGL 1.0a"
+}

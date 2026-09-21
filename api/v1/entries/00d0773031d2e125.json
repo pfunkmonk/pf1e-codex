@@ -1,0 +1,27 @@
+{
+  "id": "00d0773031d2e125",
+  "name": "Saving Finale",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 241",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "skald": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 241\nSchool evocation [mind-affecting]; Level bard 1, skald 1\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou must have a bardic performance in effect to cast this spell. With a flourish, you can immediately end your bardic performance when a creature within range affected by your bardic performance fails a saving throw, allowing the subject to immediately reroll the failed saving throw.\nMythic Saving Finale\nSource Mythic Adventures pg. 107\nAdd your tier as a bonus on the saving throw reroll.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/00d0773031d2e125.json",
+    "web": "https://codex.pipsprojects.com/#/e/00d0773031d2e125"
+  },
+  "license": "OGL 1.0a"
+}

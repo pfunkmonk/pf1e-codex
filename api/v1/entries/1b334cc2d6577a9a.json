@@ -1,0 +1,35 @@
+{
+  "id": "1b334cc2d6577a9a",
+  "name": "Touch of Combustion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 131",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 131\nSchool evocation [fire]; Level arcanist 1, bloodrager 1, druid 1, hunter 1, inquisitor 1, magus 1, psychic 1, sorcerer 1, witch 1, wizard 1 (ifrit)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw Reflex negates, see text; Spell Resistance yes\nDescription\nYour successful melee touch attack causes the target to ignite in a violent burst of flame, dealing 1d6 points of fire damage. If it fails its saving throw, the target also catches on fire . If the target catches fire, on the first round thereafter, creatures adjacent to it (including you) must each succeed at a Reflex save or take 1d4 points of fire damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b334cc2d6577a9a.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b334cc2d6577a9a"
+  },
+  "license": "OGL 1.0a"
+}

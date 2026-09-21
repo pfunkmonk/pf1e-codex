@@ -1,0 +1,40 @@
+{
+  "id": "fb8afbfce27bae15",
+  "name": "Bestow Curse, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 247",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 3,
+      "antipaladin": 3,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 3,
+      "medium": 2,
+      "mesmerist": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Bestow Curse\nSource PRPG Core Rulebook pg. 247\nSchool necromancy [curse]; Level adept 3, antipaladin 3, arcanist 4, bloodrager 4, cleric 3, medium 2, mesmerist 3, occultist 3, oracle 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 3, witch 3, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou place a curse on the subject. Choose one of the following.\n–6 decrease to an ability score (minimum 1).\n–4 penalty on attack rolls, saves, ability checks, and skill checks.\nEach turn, the target has a 50% chance to act normally; otherwise, it takes no action.\nYou may also invent your own curse, but it should be no more powerful than those described above.\n\nThe curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.\n\nBestow curse counters remove curse.\nBestow Curse, Greater\nSource Pathfinder #82: Secrets of the Sphinx pg. 75\nSchool necromancy; Level arcanist 8, cleric 7, oracle 7, sorcerer 8, witch 7, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou place a curse on the subject. Choose one of the following.\n–12 penalty to an ability score, or –6 penalty to two ability scores (to a minimum ability score of 1).\n–8 penalty on attack rolls, saves, ability checks, and skill checks.\nEach turn, the target has a 25% chance to act normally; otherwise, it takes no actions.\nBestow one of the curses or variants in this article.\nBestow curse of the ages or unluck (Core Rulebook 557).\nIf a specific affliction is bestowed, the save DC of the spell replaces the usual save DC of the affliction. You can also invent your own curse, but it should be no more powerful than those described above.\n\nThe curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, or wish spell. It cannot be removed with remove curse or suppressed with abeyance. The DC to remove the curse with break enchantment increases by 5.\nConditional Curse\nSource Ultimate Intrigue pg. 206\nSchool necromancy [curse]; Level antipaladin 4, arcanist 5, cleric 4, inquisitor 4, medium 3, mesmerist 3, occultist 4, oracle 4, psychic 5, shaman 4, sorcerer 5, spiritualist 5, warpriest 4, witch 4, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent (see text)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn’t understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with break enchantment or remove curse increases by 5.\nCurse, Major\nSource Ultimate Magic pg. 215\nSchool necromancy [curse]; Level arcanist 6, cleric 5, mesmerist 4, occultist 5, oracle 5, psychic 6, shaman 5, sorcerer 6, spiritualist 5, warpriest 5, witch 5, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as bestow curse, except the DC to remove the curse is equal to the save DC + 5.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb8afbfce27bae15.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb8afbfce27bae15"
+  },
+  "license": "OGL 1.0a"
+}

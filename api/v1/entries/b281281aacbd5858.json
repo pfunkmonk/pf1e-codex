@@ -1,0 +1,22 @@
+{
+  "id": "b281281aacbd5858",
+  "name": "Delayed Consumption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 215",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "investigator": 5
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 215\nSchool transmutation; Level alchemist 5, investigator 5\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange personal\nTarget you\nDuration 1 day/level (D) or until discharged\nDescription\nWhen you consume this extract, you quickly consume another extract of your choice—this second extract’s effects do not come into effect until a later point. You must consume this second, companion extract on the round following delayed consumption or waste the extract. The companion extract can be no higher than 4th level, and you must pay any costs associated with the companion extract when you consume it.\n\nAt any point during the duration of this extract, you can cause the companion extract to take effect as an immediate action. You can only have one delayed consumption in effect at one time. If a second is consumed, the first is dispelled without any effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b281281aacbd5858.json",
+    "web": "https://codex.pipsprojects.com/#/e/b281281aacbd5858"
+  },
+  "license": "OGL 1.0a"
+}

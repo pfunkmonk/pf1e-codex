@@ -1,0 +1,22 @@
+{
+  "id": "8a5fec870a7a7bde",
+  "name": "Vampire Spawn",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Monster Codex pg. 244",
+  "book": "Monster Codex",
+  "facets": {
+    "cr": 2,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Monster Codex",
+    "st": "human"
+  },
+  "body": "This pale humanoid has fangs and burning red eyes.\nVampire Spawn CR 2\nSource Monster Codex pg. 244\nXP 600\nHuman rogue 2\nNE Medium undead (human)\nInit +6; Senses darkvision 60 ft.; Perception +9\nDefense\nAC 20, touch 12, flat-footed 18 (+4 armor, +2 Dex, +4 natural)\nhp 18 (2d8+6); fast healing 2\nFort +2, Ref +5, Will +1\nDefensive Abilities channel resistance +2, evasion; DR 5/silver; Immune undead traits; Resist cold 10, electricity 10\nWeaknesses resurrection vulnerability, vampire weaknesses\nOffense\nSpeed 30 ft.\nMelee slam +4 (1d4+4 plus energy drain)\nRanged dagger +3 (1d4+3/19–20)\nSpecial Attacks blood drain, dominate (DC 13), energy drain (1 level, DC 13), sneak attack +1d6\nStatistics\nStr 17, Dex 14, Con —, Int 8, Wis 12, Cha 15\nBase Atk +1; CMB +4; CMD 16\nFeats Improved Initiative, Intimidating Prowess, Power Attack, Skill Focus (Perception)B\nSkills Acrobatics +13, Climb +6, Intimidate +10, Knowledge (local) +4, Perception +9, Sense Motive +6, Sleight of Hand +5, Stealth +13\nLanguages Common, Halfling\nSQ gaseous form, rogue talents (strong impressionAPG), shadowless, spider climb, trapfinding +1\nEcology\nEnvironment any\nOrganization gang (2–8) or family (vampire plus 2–8)\nTreasure NPC Gear (chain shirt, dagger, other treasure)\nDescription\nThe following template can be used to create unique vampire spawn with class levels.\nCreating a Vampire Spawn\n“Vampire spawn” is an acquired template that can be added to any living creature with 4 or more Hit Dice (referred to hereafter as the base creature). A vampire spawn uses the base creature’s stats and abilities except as noted here.\n\nCR: Same as the base creature + 1.\nAlignment: Any evil.\nType: The creature’s type changes to undead. Do not recalculate class Hit Dice, BAB, or saves.\nSenses: A vampire spawn gains darkvision to 60 feet.\nArmor Class: Natural armor increases to +4, unless the base creature’s natural armor is already +4 or higher.\nHit Dice: Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As undead, vampire spawn use their Cha modifier to determine bonus hit points (instead of Con).\nDefensive Abilities: A vampire spawn gains channel resistance +2, DR 5/silver, resistance cold and electricity 10, and fast healing 2.\nWeaknesses: A vampire spawn has the same weaknesses of the vampire that created it.\n\nResurrection Vulnerability (Su): A raise dead or similar spell cast on a vampire spawn destroys it (Will negates). Using the spell in this way does not require a material component.\n\nMelee: A vampire spawn gains a slam attack if the base creature didn’t have one. Damage for the slam depends on the vampire spawn’s size (see Bestiary 301).\nSpecial Attacks: A vampire spawn gains a vampire’s blood drain and dominate special attacks. The vampire who created the spawn can influence a spawn’s dominated creature as if she had dominated it herself.\n\nEnergy Drain (Su): A creature hit by a vampire spawn’s slam (or other natural weapon) gains 1 negative level. This ability only triggers only once per round.\n\nSpecial Qualities: A vampire spawn gains the gaseous form, shadowless, and spider climb abilities of a vampire.\nAbility Scores: Cha +2.\nSkills: Spawn gain a +8 racial bonus on Acrobatics and Stealth checks.\nFeats: Spawn gain Skill Focus (Perception) as a bonus feat.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a5fec870a7a7bde.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a5fec870a7a7bde"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "86d4b23eb65323dc",
+  "name": "Deflect Blame",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 210",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 210\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 3, bard 2, mesmerist 2, psychic 2, skald 2, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou can cast this spell immediately after attacking a creature, causing that creature to believe that a different creature that threatens it was responsible for the attack rather than you. You can instead cast this spell immediately after a failed Bluff, Diplomacy, or Intimidate check, causing the target of that check to believe that a different creature you designate within spell range was responsible for the content of that failed check. Using the spell in these ways doesn’t compel the target to undertake a specific action in response to its belief of where the blame lies.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86d4b23eb65323dc.json",
+    "web": "https://codex.pipsprojects.com/#/e/86d4b23eb65323dc"
+  },
+  "license": "OGL 1.0a"
+}

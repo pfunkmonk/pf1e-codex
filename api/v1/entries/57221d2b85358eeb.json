@@ -1,0 +1,26 @@
+{
+  "id": "57221d2b85358eeb",
+  "name": "Screen",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 337",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 337\nSchool illusion (glamer); Level arcanist 8, psychic 8, sorcerer 8, wizard 8\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-ft. cube/level (S)\nDuration 24 hours\nSaving Throw none or Will disbelief (if interacted with); see text; Spell Resistance no\nDescription\nThis spell creates a powerful protection from scrying and observation. When casting the spell, you dictate what will and will not be observed in the spell's area. The illusion created must be stated in general terms. Once the conditions are set, they cannot be changed. Attempts to scry the area automatically detect the image stated by you with no save allowed. Sight and sound are appropriate to the illusion created. Direct observation may allow a save (as per a normal illusion), if there is cause to disbelieve what is seen. Even entering the area does not cancel the illusion or necessarily allow a save, assuming that hidden beings take care to stay out of the way of those affected by the illusion.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57221d2b85358eeb.json",
+    "web": "https://codex.pipsprojects.com/#/e/57221d2b85358eeb"
+  },
+  "license": "OGL 1.0a"
+}

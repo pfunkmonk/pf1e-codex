@@ -1,0 +1,64 @@
+{
+  "id": "4a11405d36b1e610",
+  "name": "Armor Class",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 179",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nCombat / Combat Statistics\n\nArmor Class\nSource PRPG Core Rulebook pg. 179\nYour Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:\n\n10 + armor bonus + shield bonus + Dexterity modifier + other modifiers\n\nNote that armor limits your Dexterity bonus, so if you're wearing armor, you might not be able to apply your whole Dexterity bonus to your AC (see Table 6–6).\n\nSometimes you can't use your Dexterity bonus (if you have one). If you can't react to a blow, you can't use your Dexterity bonus to AC. If you don't have a Dexterity bonus, your AC does not change.\n\nOther Modifiers: Many other factors modify your AC.\n\nEnhancement Bonuses: Enhancement bonuses apply to your armor to increase the armor bonus it provides.\n\nDeflection Bonus: Magical deflection effects ward off attacks and improve your AC.\n\nNatural Armor: If your race has a tough hide, scales, or thick skin you receive a bonus to your AC.\n\nDodge Bonuses: Dodge bonuses represent actively avoiding blows. Any situation that denies you your Dexterity bonus also denies you dodge bonuses. (Wearing armor, however, does not limit these bonuses the way it limits a Dexterity bonus to AC.) Unlike most sorts of bonuses, dodge bonuses stack with each other.\n\nSize Modifier: You receive a bonus or penalty to your AC based on your size. See Table 8–1.\n\nTouch Attacks: Some attacks completely disregard armor, including shields and natural armor—the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, Dexterity modifier, and deflection bonus (if any) apply normally. Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as mage armor and bracers of armor.\n\nTable 8-1: Size Modifiers\nSize Size Modifier\nColossal -8\nGargantuan -4\nHuge -2\nLarge -1\nMedium +0\nSmall +1\nTiny +2\nDiminutive +4\nFine +8",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Size",
+          "Size Modifier"
+        ],
+        [
+          "Colossal",
+          "-8"
+        ],
+        [
+          "Gargantuan",
+          "-4"
+        ],
+        [
+          "Huge",
+          "-2"
+        ],
+        [
+          "Large",
+          "-1"
+        ],
+        [
+          "Medium",
+          "+0"
+        ],
+        [
+          "Small",
+          "+1"
+        ],
+        [
+          "Tiny",
+          "+2"
+        ],
+        [
+          "Diminutive",
+          "+4"
+        ],
+        [
+          "Fine",
+          "+8"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a11405d36b1e610.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a11405d36b1e610"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "26c34f660a604ca6",
+  "name": "Deadly Juggernaut",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 227",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "death"
+    ],
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 227\nSchool necromancy [death]; Level antipaladin 3, cleric 3, inquisitor 3, oracle 3, paladin 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nWith every enemy life you take, you become increasingly dangerous and difficult to stop. During the duration of the spell, you gain a cumulative +1 luck bonus on melee attack rolls, melee weapon damage rolls, Strength checks, and Strength-based skill checks as well as DR 2/— each time you reduce a qualifying opponent to 0 or few hit points (maximum +5 bonus and DR 10/—) with a melee attack. A qualifying opponent has a number of Hit Dice equal to or greater than your Hit Dice –4.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26c34f660a604ca6.json",
+    "web": "https://codex.pipsprojects.com/#/e/26c34f660a604ca6"
+  },
+  "license": "OGL 1.0a"
+}

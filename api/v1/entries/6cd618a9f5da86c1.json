@@ -1,0 +1,28 @@
+{
+  "id": "6cd618a9f5da86c1",
+  "name": "Shield Companion (AA)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 342",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "psychic": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Shield Other\nSource PRPG Core Rulebook pg. 342\nSchool abjuration; Level cleric 2, inquisitor 2, oracle 2, paladin 2, psychic 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a pair of platinum rings worth 50 gp worn by both you and the target)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. Additionally, the subject takes only half damage from all wounds and attacks (including those dealt by special abilities) that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not affected. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject.\n\nIf you and the subject of the spell move out of range of each other, the spell ends.\nMythic Shield Other\nSource Mythic Adventures pg. 108\nIncrease the range to long (400 feet + 40 feet per caster level). Subtract your tier from any damage transmitted to you through the mystical connection before applying the damage (minimum 1 hp of damage). When you use your surge ability to modify a saving throw against an effect that also affects your linked ally, the ally also applies your surge bonus die result to the ally’s saving throw. If the ally also uses its own surge ability, it takes either your result or its result, whichever is higher.\nShield Companion (AA)\nSource Animal Archive pg. 25\nSchool abjuration; Level antipaladin 1, arcanist 1, druid 1, hunter 1, paladin 1, ranger 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a pair of platinum rings worth 50 gp worn by both you and the target)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget your animal companion, familiar, or fiendish servant\nDuration 1 hour/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as shield other but affects only the caster’s animal companion or familiar. Spellcasters from classes that do not normally gain an animal companion, familiar, or fiendish servant but who gain one through an alternate class feature, archetype, or prestige class can prepare and cast this spell as a 1st-level spell if they are capable of casting spells.\nSympathetic Wounds\nSource Gods and Magic pg. 43\nSchool abjuration [evil]; Level cleric 2, druid 2, hunter 2, oracle 2, warpriest 2 (Zon-Kuthon)\nCasting\nCasting Time 1 standard action\nComponents V, S, M (250 gp of powdered amber)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like shield other, except some of your wounds transfer to the targeted creature rather than some of their wounds transferring to you. For example, you could link yourself to a nearby chained slave so that when you are wounded, some of the damage is transferred to the slave. You must have at least as many hit dice as the target, otherwise the spell fails. A creature can only be under the effects of one instance of this spell at a time.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6cd618a9f5da86c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/6cd618a9f5da86c1"
+  },
+  "license": "OGL 1.0a"
+}

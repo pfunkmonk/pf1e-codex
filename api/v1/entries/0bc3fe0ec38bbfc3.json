@@ -1,0 +1,30 @@
+{
+  "id": "0bc3fe0ec38bbfc3",
+  "name": "Mad Monkeys",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 227",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "druid": 3,
+      "hunter": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 227\nSchool conjuration (summoning); Level arcanist 3, bard 3, druid 3, hunter 3, skald 3, sorcerer 3, summoner 3, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect swarm of monkeys\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nYou summon a swarm of screeching, mischievous monkeys. The swarm understands and obeys your commands and has the statistics of a monkey swarm. Creatures failing a saving throw against the mad monkeys’ distraction attack are deafened for 1 minute as well as nauseated. The monkeys attempt one disarm or steal combat maneuver each turn as a free action against any creature that begins its turn in the swarm, using your caster level plus your casting ability score bonus (Intelligence for wizards; Wisdom for druids and oracles; Charisma for bards, sorcerers, and summoners) for its CMB. Recovering an item from the monkeys requires a successful disarm or steal attempt against that CMB + 10. An object stolen by the monkeys takes swarm damage each round the swarm is in possession of the object.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0bc3fe0ec38bbfc3.json",
+    "web": "https://codex.pipsprojects.com/#/e/0bc3fe0ec38bbfc3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "c617899cf489673f",
+  "name": "Thought Echo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 189",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "mesmerist": 1,
+      "psychic": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 189\nSchool illusion (glamer); Level mesmerist 1, psychic 1\nCasting\nCasting Time 1 round\nComponents V\nEffect\nRange touch\nTarget living creature touched\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nWhen you cast this spell, you establish a mental echo of up to 25 words. Any attempt to read the surface thoughts of the target creature reads only this mental echo unless the caster succeeds at a caster level check (DC = 11 + your caster level). If you cast thought echo on yourself, the DC is instead equal to 15 + your caster level. In addition, when casting this spell upon yourself, you can change the echoed thoughts by taking a standard action and concentrating.\n\nEach time you change the words echoed by the spell in this way, you reduce the spell’s remaining duration by 1 minute. Thought echo does not interfere with telepathy or mind reading effects that are capable of reaching thoughts deeper than surface thoughts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c617899cf489673f.json",
+    "web": "https://codex.pipsprojects.com/#/e/c617899cf489673f"
+  },
+  "license": "OGL 1.0a"
+}

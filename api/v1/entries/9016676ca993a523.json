@@ -1,0 +1,17 @@
+{
+  "id": "9016676ca993a523",
+  "name": "Bat Swarm",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 246",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\n\nBat Swarm\nSource Pathfinder Unchained pg. 246\nThe bat swarm is straightforward to create, but its swarm subtype is complicated and grants it additional features that make it unlike other monsters.\nArray: Since a bat swarm is made up of creatures with only animal intelligence, the combatant array is the only choice for it that makes sense.\nCreature Type: The animal type increases the bat swarm’s Fortitude and Reflex bonuses each from +3 to +5 and grants low-light vision, but it mandates an Intelligence modifier of either –4 or –5. Bats are slightly more intelligent than some other animals, so they have a –4 modifier.\nSubtype: The swarm subtype grants the bat swarm its various immunities, vulnerability to area effects, swarm traits, swarm attack, and distraction.\nSize: The bat swarm is made up of many Diminutive creatures, so it gains a +4 bonus to touch and flat-footed AC. As a swarm, it doesn’t have CMB or CMD, so the size adjustments to those numbers are ignored. It also gains Fly and Stealth as master skills.\nOptions: The bat swarm’s option is a weaker variant of the bleed attack option.\nSkills: Other than the master skills from size, the bat swarm’s echolocation enhances its ability to notice things, so it gets Perception as a master skill. That’s already plenty of skills for an animal, so the bat swarm doesn’t have any good skills.\nBat Swarm   CR/HD 2\nInit +3; Perception +10 (blindsense 20 ft., low-light vision)\nSize Diminutive (10 ft.); Speed 5 ft., fly 40 ft. (good)\nDefenses\nAC 16 (touch 16, flat-footed 16); Fort +5, Ref +5, Will +1\nhp 22; Immune bull rush, critical hits, flanking, grapple, spells that target a specific number of creatures, trip, weapon damage\nWeakness +50% damage from area effects\nDefense Options swarm traits\nAttacks\nMelee swarm (all targets in the swarm’s space) always hits (1d6 plus 1 bleed)\nAttack Options (DC 11) distraction\nStatistics\nStr –4, Dex +3, Con +1, Int –4, Wis +2; Fly +10, Stealth +10\nXP 600; N animal (swarm)",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9016676ca993a523.json",
+    "web": "https://codex.pipsprojects.com/#/e/9016676ca993a523"
+  },
+  "license": "OGL 1.0a"
+}

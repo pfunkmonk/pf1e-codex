@@ -1,0 +1,30 @@
+{
+  "id": "e824ec751b2e1ba2",
+  "name": "Adhesive Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 172",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bloodrager": 2,
+      "investigator": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 172\nSchool transmutation; Level alchemist 2, arcanist 2, bloodrager 2, investigator 2, psychic 2, redmantisassassin 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nSaving Throw Reflex negates (see text); Spell Resistance no\nDescription\nYour blood thickens to becomes a glue-like substance upon contact with air. A piercing or slashing weapon that deals hit point damage to you is stuck fast unless the wielder succeeds at a Reflex save. A creature can pry off a stuck weapon on its turn as a standard action with a successful Strength check against the spell’s DC. Strong alcohol or universal solvent dissolves the adhesive. The glue breaks down 5 rounds after you die, or when the duration ends. This glue has no effect while underwater or in environments that lack air.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e824ec751b2e1ba2.json",
+    "web": "https://codex.pipsprojects.com/#/e/e824ec751b2e1ba2"
+  },
+  "license": "OGL 1.0a"
+}

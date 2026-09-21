@@ -1,0 +1,25 @@
+{
+  "id": "f5da095fa4e8894e",
+  "name": "Residual Tracking",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 238",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "hunter": 1,
+      "occultist": 2,
+      "ranger": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 238\nSchool divination; Level hunter 1, occultist 2, ranger 1\nCasting\nCasting Time 1 minute\nComponents V, S, M (a bit of plaster)\nEffect\nRange touch\nTarget footprint touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nBy touching a footprint, you receive a clear mental image of the person or creature that made it. The image has the exact same appearance as the creature that made the footprint at the moment it made the imprint, including any telling features or expressions, any gear or equipment, or anything else the creature was carrying at the time. For example, the footprint of a horse would reveal both the horse and any creature riding it when it made the footprint.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f5da095fa4e8894e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f5da095fa4e8894e"
+  },
+  "license": "OGL 1.0a"
+}

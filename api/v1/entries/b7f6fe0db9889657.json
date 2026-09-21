@@ -1,0 +1,30 @@
+{
+  "id": "b7f6fe0db9889657",
+  "name": "Acid Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 239",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "magus": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 239\nSchool conjuration (creation) [acid]; Level arcanist 2, bloodrager 2, magus 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (rhubarb leaf and an adder's stomach), F (a dart)\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect one arrow of acid\nDuration 1 round + 1 round per three levels\nSaving Throw none; Spell Resistance no\nDescription\nAn arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch attack to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7f6fe0db9889657.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7f6fe0db9889657"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "e29b2363b636301b",
+  "name": "Siege Scatter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 223",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 5,
+      "hunter": 4,
+      "ranger": 4,
+      "shaman": 5
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 223\nSchool evocation [earth]; Level druid 5, hunter 4, ranger 4, shaman 5 (Dwarf)\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nArea 50-ft.-radius spread\nDuration instantaneous\nSaving Throw Reflex partial (see text); Spell Resistance yes (harmless)\nDescription\nA roiling blast of rough rock and dirt scatters along the ground in the area, dealing 1d6 points of slashing damage per 2 caster levels (maximum 5d6) to all creatures on the ground in the area, even on a successful saving throw. Creatures in the area that fail the Reflex save fall prone and are knocked to the nearest edge of the area, taking 1d6 points of bludgeoning damage for every 10 feet they travel this way. Creatures that did not move during the past round and those with the stability racial trait gain a +4 bonus on the saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e29b2363b636301b.json",
+    "web": "https://codex.pipsprojects.com/#/e/e29b2363b636301b"
+  },
+  "license": "OGL 1.0a"
+}

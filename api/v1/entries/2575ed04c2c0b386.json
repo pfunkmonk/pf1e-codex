@@ -1,0 +1,25 @@
+{
+  "id": "2575ed04c2c0b386",
+  "name": "Judgment Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 232",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "inquisitor": 4
+    },
+    "desc": [
+      "light"
+    ],
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 232\nSchool evocation [light]; Level inquisitor 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nArea 30-ft.-radius burst\nDuration instantaneous, see text\nSaving Throw see text; Spell Resistance yes\nDescription\nAn inquisitor may only cast this spell while she has a judgment active. When she does cast this spell, it causes one or more of the following effects based on the inquisitor’s active judgments.\n\nDestruction: Red light erupts from the caster. Enemies in the area take 4d8 points of damage and become shaken for 1d4 rounds. A successful Will saving throw halves the damage and negates the shaken effect.\n\nHealing: Green light erupts from the caster. Allies in the area regain a number of hit points equal to 1d8 + the caster’s Wisdom modifier.\n\nJustice: Blue light erupts from the caster, revealing hidden and invisible creatures to all. The light outlines such creatures for 1 round per caster level, imposing a –20 penalty on Stealth checks on those creatures.\n\nPiercing: Violet light erupts from the caster, reducing the spell resistance of enemies within the burst by 5 for 1 round per caster level.\n\nProtection: Amber light erupts from the caster, granting allies in the burst a +2 sacred bonus to AC and CMD, and a +4 bonus to AC against critical confirmation attack rolls for 1 round per caster level.\n\nPurity: White light erupts from the caster, allowing each ally within the burst to attempt a saving throw against a single effect that allows a saving throw with a +2 sacred bonus on the roll.\n\nResiliency: Golden light erupts from the caster, granting allies within the burst DR 3/magic or the alignment your judgment allows for 1 round per caster level.\n\nResistance: Copper light erupts from the caster, granting allies within the burst resistance 5 against the energy the judgment protects the inquisitor against when she casts this spell for 1 round per caster level.\n\nSmiting: Silver light erupts from the caster, making allies’ weapons within the burst count as magic, the alignment her weapon is, and adamantine for purposes of overcoming damage reduction for 1 round per caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2575ed04c2c0b386.json",
+    "web": "https://codex.pipsprojects.com/#/e/2575ed04c2c0b386"
+  },
+  "license": "OGL 1.0a"
+}

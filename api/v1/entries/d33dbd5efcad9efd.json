@@ -1,0 +1,38 @@
+{
+  "id": "d33dbd5efcad9efd",
+  "name": "Blood Scent",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 143",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 2,
+      "arcanist": 3,
+      "bloodrager": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 2,
+      "inquisitor": 3,
+      "investigator": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "ranger": 2,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 143\nSchool transmutation; Level alchemist 3, antipaladin 2, arcanist 3, bloodrager 3, cleric 3, druid 3, hunter 2, inquisitor 3, investigator 3, oracle 3, psychic 3, ranger 2, redmantisassassin 3, sorcerer 3, warpriest 3, witch 3, wizard 3 (orc)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one creature/2 levels, no two of which can be more than 30 ft. apart\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou greatly magnify the target’s ability to smell the presence of blood. The target is considered to have the scent universal monster ability, but only for purposes of detecting and pinpointing injured creatures (below full hit points). Creatures below half their full hit points or suffering bleed damage are considered strong scents for this ability.\n\nOrcs and any creature under the effects of rage gain a +2 morale bonus on attack and damage rolls against creatures they can smell with this spell, or a +4 morale bonus if the target’s blood counts as a strong scent.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d33dbd5efcad9efd.json",
+    "web": "https://codex.pipsprojects.com/#/e/d33dbd5efcad9efd"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "1f8fb10222baf314",
+  "name": "Toxic Spell",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Dirty Tactics Toolbox pg. 9",
+  "book": "Dirty Tactics Toolbox",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "Dirty Tactics Toolbox"
+  },
+  "body": "General | Combat Stamina\n\nToxic Spell (Metamagic)\nSource Dirty Tactics Toolbox pg. 9\nYou can infuse a spell with the power of a poison.\n\nPrerequisites: Craft (poison) 5 ranks, ability to cast 2nd-level spells, poison use class feature.\n\nBenefit: You can use 1 dose of contact, ingested, inhaled, or injury poison as an additional material component for a spell you cast. This spell gains the poison descriptor (Pathfinder RPG Ultimate Magic 138). Select a single creature affected by the spell. If that creature fails its saving throw against the spell, it must also attempt a saving throw against the poison used as a material component. If the target fails the save against the poison, the poison takes effect immediately, ignoring any onset time. The poison uses its save DC (rather than the save DC of the spell), but is modified by any effects that increase the spell’s DC (such as Spell Focus). This feat works only with spells whose effects can be negated by a successful Fortitude save. A toxic spell uses up a spell slot 1 level higher than the spell’s actual level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f8fb10222baf314.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f8fb10222baf314"
+  },
+  "license": "OGL 1.0a"
+}

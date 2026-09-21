@@ -1,0 +1,27 @@
+{
+  "id": "3d2524ca17186af1",
+  "name": "Psychic Surgery",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 183",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 5,
+      "psychic": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 183\nSchool enchantment [mind-affecting]; Level mesmerist 5, psychic 6\nCasting\nCasting Time 10 minutes\nComponents V, M (diamond dust worth 250 gp)\nEffect\nRange touch\nTarget one willing and living creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nPsychic surgery cures the target of all Intelligence, Wisdom, and Charisma damage and restores all points permanently drained from the target’s Intelligence, Wisdom, and Charisma scores. It also eliminates all ongoing insanity, confusion, and fear effects. Psychic surgery can also remove other mental afflictions, including enchantment spells and abilities, and even instantaneous effects, but in this case, if dispel magic couldn’t remove the effect, psychic surgery works only if the spell level or equivalent spell level of the effect was 6th level or lower. Psychic surgery removes all effects magically altering the target’s memory, even instantaneous effects, and it can restore a memory to perfect clarity like the second use of modify memory.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3d2524ca17186af1.json",
+    "web": "https://codex.pipsprojects.com/#/e/3d2524ca17186af1"
+  },
+  "license": "OGL 1.0a"
+}

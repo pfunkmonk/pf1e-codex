@@ -1,0 +1,39 @@
+{
+  "id": "f17d514185ec7503",
+  "name": "Tailwind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 236",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 4,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 4,
+      "occultist": 3,
+      "oracle": 4,
+      "ranger": 3,
+      "shaman": 3,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 236\nSchool transmutation [air]; Level arcanist 4, bloodrager 4, cleric 4, druid 3, hunter 3, magus 4, occultist 3, oracle 4, ranger 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 120 ft.\nTargets one or more creatures, no two of which can be more than 120 feet apart\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou compel the wind to push the targets in a direction of your choice. The subjects can hustle during local and overland movement without risk of fatigue. If the subjects are flying, the first 20 feet of movement each round in the chosen direction does not count against their movement for the round. Each creature remains affected only while within 120 feet of every other subject. You can change the tailwind’s direction once per hour by concentrating as a standard action. This spell has no effect underwater.\nTail Current\nSource Ultimate Wilderness pg. 236\nSchool transmutation [water]; Level arcanist 4, bloodrager 4, cleric 4, druid 3, hunter 3, magus 4, occultist 3, oracle 4, ranger 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 120 ft.\nTargets one or more creatures, no two of which can be more than 120 feet apart\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as tailwind except it creates a helpful current in water instead of in the air. It grants free movement while swimming rather than while flying and functions only underwater.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f17d514185ec7503.json",
+    "web": "https://codex.pipsprojects.com/#/e/f17d514185ec7503"
+  },
+  "license": "OGL 1.0a"
+}

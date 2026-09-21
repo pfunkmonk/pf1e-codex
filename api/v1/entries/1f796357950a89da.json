@@ -1,0 +1,22 @@
+{
+  "id": "1f796357950a89da",
+  "name": "Leng Hound",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 180",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 10,
+    "sz": "Medium",
+    "t": "aberration",
+    "al": "CE",
+    "bk": "Bestiary 6",
+    "st": "extraplanar"
+  },
+  "body": "This unnatural beast’s clawed hands dangle in front of its hind paws. Its bat-winged form blends humanoid features with canine.\nLeng Hound CR 10\nSource Bestiary 6 pg. 180\nXP 9,600\nCE Medium aberration (extraplanar)\nInit +11; Senses darkvision 60 ft., scent, sense fear; Perception +21\nDefense\nAC 25, touch 18, flat-footed 17 (+7 Dex, +1 dodge, +7 natural)\nhp 123 (13d8+65); fast healing 10\nFort +9, Ref +11, Will +13\nDefensive Abilities negative energy affinity; Immune cold, disease\nOffense\nSpeed 40 ft., fly 40 ft. (good)\nMelee bite +18 (2d6+9/19–20), 2 claws +18 (1d6+9)\nSpecial Attacks haunting howl, mutilate\nSpell-Like Abilities (CL 12th; concentration +16)\nConstant—sense fear\nAt will—locate creature, locate object\n3/day—dimension door, quickened summon swarm (bats only)\n1/day—word of recall (see grave link)\nStatistics\nStr 29, Dex 24, Con 21, Int 14, Wis 20, Cha 19\nBase Atk +9; CMB +18; CMD 36\nFeats Dodge, Flyby Attack, Improved Critical (bite), Improved Initiative, Mobility, Quicken Spell-Like Ability (summon swarm), Vital Strike\nSkills Acrobatics +23, Disguise +17 (+27 when using charnel deception), Fly +27, Perception +21, Stealth +23, Survival +21; Racial Modifiers +10 Disguise when using charnel deception\nLanguages Aklo, Common\nSQ charnel deception, freeze (as human skeleton when using charnel deception), grave link, no breath\nEcology\nEnvironment any\nOrganization solitary or pack (2–8)\nTreasure standard\nSpecial Abilities\nCharnel Deception (Ex) A Leng hound can retract its bestial features into its body as a full-round action—its fur and wings retract, the skin covering them slithers into hidden cavities, and its jaws pull back into a humanlike face. This grants it a +10 bonus on Disguise checks to appear as the decayed corpse of a slightly deformed human or similarly sized humanoid.\n\nGrave Link (Su) As a full-round action, a Leng hound can designate a grave containing the corpse of a creature that was evil in life as its grave link. When the Leng hound uses word of recall, it returns to this grave (a Leng hound with no active grave link cannot use word of recall). If a creature disturbs this grave or loots it, the Leng hound’s locate creature and locate object spell-like abilities have no range limit when searching for the creature that disturbed the grave or any objects looted from the grave.\n\nHaunting Howl (Su) Three times per day, a Leng hound can emit a deep, sardonic howl. Only creatures within 300 feet that the Leng hound has tracked or attempted to find with divination spell-like abilities can hear this haunting howl. Such creatures must succeed at a DC 20 Will save or take 1d4 points of Intelligence, Wisdom, and Charisma damage and become shaken for 1 hour. This is a mind-affecting fear effect. The save DC is Charisma-based.\n\nMutilate (Ex) A Leng hound savages its victims, shredding flesh and crushing bones. Whenever a Leng hound hits a creature with all three natural attacks in a single round, or with Vital Strike, the target must succeed at a DC 21 Fortitude save or take 2 points of Constitution drain. The save DC is Constitution-based.\nDescription\nLeng hounds hail from the nightmare plateau of Leng, where they haunt its eternity-old ruins. They are most often beckoned to the Material Plane to serve as guardians of grave sites, a duty they eagerly perform in exchange for the opportunity to feast upon the dead things elsewhere in the cemetery. Leng hounds prefer to lurk inside the coffins they guard, rearranging their bodies into skeletal shapes.\n\nA Leng hound can be contacted by a contact entity III spell. The caster must provide a corpse with grave goods worth at least 2,000 gp for the Leng hound to guard.\n\nA Leng hound is 7 feet tall but weighs only 150 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f796357950a89da.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f796357950a89da"
+  },
+  "license": "OGL 1.0a"
+}

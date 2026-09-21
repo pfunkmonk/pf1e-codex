@@ -1,0 +1,17 @@
+{
+  "id": "b6b5c569dae27f72",
+  "name": "When Spell Resistance Applies",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 566",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nWhen Spell Resistance Applies\nSource PRPG Core Rulebook pg. 566\nEach spell includes an entry that indicates whether spell resistance applies to the spell. In general, whether spell resistance applies depends on what the spell does.\n\nTargeted Spells: Spell resistance applies if the spell is targeted at the creature. Some individually targeted spells can be directed at several creatures simultaneously. In such cases, a creature’s spell resistance applies only to the portion of the spell actually targeted at that creature. If several different resistant creatures are subjected to such a spell, each checks its spell resistance separately.\n\nArea Spells: Spell resistance applies if the resistant creature is within the spell’s area. It protects the resistant creature without affecting the spell itself.\n\nEffect Spells: Most effect spells summon or create something and are not subject to spell resistance. Sometimes, however, spell resistance applies to effect spells, usually to those that act upon a creature more or less directly.\n\nSpell resistance can protect a creature from a spell that’s already been cast. Check spell resistance when the creature is first affected by the spell.\n\nCheck spell resistance only once for any particular casting of a spell or use of a spell-like ability. If spell resistance fails the first time, it fails each time the creature encounters that same casting of the spell. Likewise, if the spell resistance succeeds the first time, it always succeeds. If the creature has voluntarily lowered its spell resistance and is then subjected to a spell, the creature still has a single chance to resist that spell later, when its spell resistance is back up.\n\nSpell resistance has no effect unless the energy created or released by the spell actually goes to work on the resistant creature’s mind or body. If the spell acts on anything else and the creature is affected as a consequence, no roll is required. Spell-resistant creatures can be harmed by a spell when they are not being directly affected.\n\nSpell resistance does not apply if an effect fools the creature’s senses or reveals something about the creature.\n\nMagic actually has to be working for spell resistance to apply. Spells that have instantaneous durations but lasting results aren’t subject to spell resistance unless the resistant creature is exposed to the spell the instant it is cast.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6b5c569dae27f72.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6b5c569dae27f72"
+  },
+  "license": "OGL 1.0a"
+}

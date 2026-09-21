@@ -1,0 +1,17 @@
+{
+  "id": "17be57ac37d842ef",
+  "name": "Spell Resistance",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Magic pg. 132",
+  "book": "Ultimate Magic",
+  "facets": {
+    "bk": "Ultimate Magic"
+  },
+  "body": "Rules Index | GM Screen\nMastering Magic / Designing Spells\n\nSpell Resistance\nSource Ultimate Magic pg. 132\nWhether or not spell resistance applies to a spell depends mostly on whether or not it is an instantaneous or ongoing magical effect. Spell resistance applies to instantaneous magical effects (such as fireball) and ongoing magical effects (such as wall of fire), but not to nonmagical effects or spells that create nonmagical effects, whether instantaneous or ongoing. For example, wall of stone conjures an instantaneous wall of stone that cannot be dispelled; spell resistance doesn’t help you walk through the spell’s wall any more than it would if you tried to walk through a mortared stone wall in a castle—neither wall is magical, and both walls remain there even if you use dispel magic or antimagic field on them.\n\nThe general rule is that most spells allow spell resistance. Only when you’re deliberately designing a spell that creates a nonmagical object or nonmagical effect is spell resistance likely to be irrelevant. You can use move earth (instantaneous duration) to create a hill, and spell resistance won’t help you get over or through the hill because the spell moves the earth and thereafter stops being magical; likewise, you can use move earth to create a pit, and spell resistance won’t help you ignore the pit because it’s a nonmagical pit, just as if you had created it with a shovel. Magic stone adds magical power to stones, but spell resistance doesn’t help protect against being hit by the stones any more than spell resistance helps protect against a +1 arrow because the magic is focused on the stones, not on the creature with spell resistance.\n\nIt’s a common trick to design a spell that doesn’t allow spell resistance so the caster can use it against creatures who have spell resistance. In many cases, the idea behind the design is just silly, like a spell that creates a sphere of burning oil and hurls it at the intended area, where it bursts in an explosion of flame; clearly the intent is to create a nonmagical fireball that bypasses spell resistance. Golems in particular are often the intended targets of these spell designs, as their immunity to magic ability makes them completely immune to any effect that allows spell resistance. You should avoid letting these sorts of trick spells into your campaign, as they meddle with the balance of encounters (some monsters are designed to be harder for melee characters to fight, some are designed to be harder for spellcasters to fight, and some are just supposed to be difficult all around).\n\nWhether or not a spell allows spell resistance is not an indicator of the spell’s power; for most encounters, spell resistance isn’t a factor.\n\nIf a spell’s saving throw entry is marked as “(harmless)” or “(object),” the spell resistance entry should say that as well.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/17be57ac37d842ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/17be57ac37d842ef"
+  },
+  "license": "OGL 1.0a"
+}

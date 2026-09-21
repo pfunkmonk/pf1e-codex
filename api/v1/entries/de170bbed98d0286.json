@@ -1,0 +1,21 @@
+{
+  "id": "de170bbed98d0286",
+  "name": "Bone Priest",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Emerald Spire Superdungeon pg. 152",
+  "book": "The Emerald Spire Superdungeon",
+  "facets": {
+    "cr": 4,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "LE",
+    "bk": "The Emerald Spire Superdungeon"
+  },
+  "body": "This skeletal creature wears rotting robes, and carries a sword in its talon-like hands. An evil blue light dances in its empty eye sockets.\nBone Priest CR 4\nSource The Emerald Spire Superdungeon pg. 152\nXP 1,200\nLE Medium undead\nInit +6; Senses darkvision 60 ft.; Perception +11\nDefense\nAC 16, touch 12, flat-footed 14 (+2 Dex, +4 natural)\nhp 37 (5d8+15)\nFort +4, Ref +3, Will +7\nDefensive Abilities channel resistance +2; DR 5/bludgeoning and magic; Immune cold, undead traits\nOffense\nSpeed 30 ft.\nMelee mwk bastard sword +7 (1d10+3/19–20) or slam +5 (1d4+3)\nSpecial Attacks death drink, unnerving gaze\nSpells Prepared (CL 3rd; concentration +6)\n2nd—hold person (DC 15), spiritual weapon, touch of idiocyD (DC 15)\n1st—cause fear (DC 14), command (DC 14), lesser confusionD (DC 14), protection from good\n0—detect magic, guidance, read magic, resistance\nD domain spell; Domain Madness\nStatistics\nStr 14, Dex 15, Con —, Int 11, Wis 16, Cha 17\nBase Atk +3; CMB +5; CMD 17\nFeats Combat Casting, Improved Initiative, Weapon Focus (bastard sword)\nSkills Intimidate +11, Knowledge (religion) +8, Perception +11, Stealth +10\nLanguages Common, Undercommon\nEcology\nEnvironment any\nOrganization solitary\nTreasure standard (mwk bastard sword, other treasure)\nSpecial Abilities\nDeath Drink (Su) When a bone priest reduces a creature to 0 hit points or fewer with a melee attack or coup de grace, it can use death knell against that creature as a free action. It doesn’t need to be touching the creature to use this ability.\n\nSpells A bone priest casts spells as 3rd-level cleric. It also gains domain spells from the Madness domain, but none of the other domain abilities or cleric abilities.\n\nUnnerving Gaze (Su) A bone priest can make a gaze attack that strikes fear into the hearts of all creatures within a 30-foot radius that can see the bone priest. These creatures must succeed at a DC 15 Will saving throw or be shaken for 1d4 rounds. This is a mind-affecting fear effect. The save DC is Charisma-based.\nDescription\nBone priests are undead servants of evil gods, condemned to continue serving for decades or centuries after death. In life, bone priests were acolytes or underpriests who failed at some difficult test or fell in battle against powerful enemies of the faith. Their dark gods have rewarded their fanaticism by giving another chance to demonstrate their worthiness.\n\nBone priests retain the spellcasting ability and some of the domain spells they possessed in life. A typical bone priest casts spells as a 3rd-level cleric and has the bonus spells of one of the domains it had originally—usually Darkness, Death, Destruction, Evil, or Madness (the bone priest presented here possesses the Madness domain).\n\nWhile bone priests occasionally arise with no outside intervention other than the will of their gods, they are normally created through a profane ritual that culminates in the casting of a create undead spell by a caster of at least 11th level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de170bbed98d0286.json",
+    "web": "https://codex.pipsprojects.com/#/e/de170bbed98d0286"
+  },
+  "license": "OGL 1.0a"
+}

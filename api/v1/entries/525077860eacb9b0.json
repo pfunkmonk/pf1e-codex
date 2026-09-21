@@ -1,0 +1,30 @@
+{
+  "id": "525077860eacb9b0",
+  "name": "Contact High",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 19",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "cleric": 3,
+      "investigator": 2,
+      "oracle": 3,
+      "shaman": 3,
+      "skald": 2,
+      "warpriest": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 19\nSchool transmutation; Level alchemist 2, bard 2, cleric 3, investigator 2, oracle 3, sahirafiyun 3, shaman 3, skald 2, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creatures touched (up to one per level)\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nWhile under the effects of a drug, you can duplicate those effects in others. You can touch another creature once per round (this requires a melee touch attack if the target is unwilling). When touched, the target begins experiencing the effects of the same drug by which you are currently affected (select one, if you are under the influence of more than one drug). The target doesn’t take any ability damage or risk addiction from the drug.\n\nYou cannot impart the effects of any potion, poison, elixir, or mutagen currently affecting you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/525077860eacb9b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/525077860eacb9b0"
+  },
+  "license": "OGL 1.0a"
+}

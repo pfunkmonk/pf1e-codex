@@ -1,0 +1,33 @@
+{
+  "id": "4a8ff2aedfcb4f5b",
+  "name": "Hidden Blades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Tactics Toolbox pg. 25",
+  "book": "Magic Tactics Toolbox",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "investigator": 2,
+      "magus": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Magic Tactics Toolbox"
+  },
+  "body": "Source Magic Tactics Toolbox pg. 25\nSchool illusion (glamer); Level alchemist 2, antipaladin 2, arcanist 2, bard 2, inquisitor 2, investigator 2, magus 2, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a shard of glass)\nEffect\nRange touch\nTarget weapon or ammunition touched; see text\nDuration 10 minutes/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou render a target weapon or up to 50 pieces of ammunition invisible, granting the wielder a +20 bonus on Sleight of Hand checks made to conceal the weapon or ammunition and a +5 circumstance bonus on Bluff checks to feint with the weapon or ammunition.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a8ff2aedfcb4f5b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a8ff2aedfcb4f5b"
+  },
+  "license": "OGL 1.0a"
+}

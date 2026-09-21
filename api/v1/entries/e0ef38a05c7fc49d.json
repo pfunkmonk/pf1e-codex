@@ -1,0 +1,33 @@
+{
+  "id": "e0ef38a05c7fc49d",
+  "name": "Contagion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 259",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 3,
+      "antipaladin": 3,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "sorcerer": 4,
+      "warpriest": 3,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 259\nSchool necromancy [disease, evil]; Level adept 3, antipaladin 3, arcanist 4, bloodrager 4, cleric 3, druid 3, hunter 3, oracle 3, sorcerer 4, warpriest 3, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThe subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted immediately (the onset period does not apply). Use the disease's listed frequency and save DC to determine further effects. For more information see Diseases.\nMythic Contagion\nSource Mythic Adventures pg. 89\nThe affected target is highly contagious. Any creature it touches or that touches it with natural weapons or unarmed strikes must save or contract the disease. The save DC for these targets is equal to the spell’s DC – 4. The target can’t spread this disease to you.\n\nAugmented (7th): If you expend five uses of mythic power, the spell targets every living creature within a 1-mile radius. You can select one creature per caster level within your line of sight; these creatures are unaffected by the spell.\nContagion, Greater\nSource Ultimate Magic pg. 211\nSchool necromancy [disease, evil]; Level arcanist 6, cleric 5, druid 5, hunter 5, oracle 5, sorcerer 6, warpriest 5, witch 5, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions as contagion, except the victim cannot overcome the disease without magic—making the required number of saves does not cure it. The DC to remove the disease with magic is equal to the save DC + 5.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e0ef38a05c7fc49d.json",
+    "web": "https://codex.pipsprojects.com/#/e/e0ef38a05c7fc49d"
+  },
+  "license": "OGL 1.0a"
+}

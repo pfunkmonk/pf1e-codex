@@ -1,0 +1,30 @@
+{
+  "id": "f9fec840e3c5a055",
+  "name": "Charm Animal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 254",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 254\nSchool enchantment (charm) [mind-affecting]; Level druid 1, hunter 1, psychic 1, ranger 1, shaman 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one animal\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like charm person, except that it affects a creature of the animal type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9fec840e3c5a055.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9fec840e3c5a055"
+  },
+  "license": "OGL 1.0a"
+}

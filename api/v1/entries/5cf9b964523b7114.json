@@ -1,0 +1,23 @@
+{
+  "id": "5cf9b964523b7114",
+  "name": "Miracle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 314",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 9,
+      "oracle": 9
+    },
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 314\nSchool evocation; Level cleric 9, oracle 9\nCasting\nCasting Time 1 standard action\nComponents V, S; see text\nEffect\nRange see text\nTarget, Effect, or Area see text\nDuration see text\nSaving Throw see text; Spell Resistance yes\nDescription\nYou don't so much cast a miracle as request one. You state what you would like to have happen and request that your deity (or the power you pray to for spells) intercede.\n\nA miracle can do any of the following things.\nDuplicate any cleric spell of 8th level or lower.\nDuplicate any other spell of 7th level or lower.\nUndo the harmful effects of certain spells, such as feeblemind or insanity.\nHave any effect whose power level is in line with the above effects.\nAlternatively, a cleric can make a very powerful request. Casting such a miracle costs the cleric 25,000 gp in powdered diamond because of the powerful divine energies involved. Examples of especially powerful miracles of this sort could include the following:\nSwinging the tide of a battle in your favor by raising fallen allies to continue fighting.\nMoving you and your allies, with all your and their gear, from one plane to a specific locale through planar barriers with no chance of error.\nProtecting a city from an earthquake, volcanic eruption, flood, or other major natural disaster.\nIn any event, a request that is out of line with the deity's (or alignment's) nature is refused.\n\nA duplicated spell allows saving throws and spell resistance as normal, but the save DCs are as for a 9th-level spell. When a miracle spell duplicates a spell with a material component that costs more than 100 gp, you must provide that component.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5cf9b964523b7114.json",
+    "web": "https://codex.pipsprojects.com/#/e/5cf9b964523b7114"
+  },
+  "license": "OGL 1.0a"
+}

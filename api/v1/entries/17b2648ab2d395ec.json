@@ -1,0 +1,28 @@
+{
+  "id": "17b2648ab2d395ec",
+  "name": "Bungle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 209",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 209\nSchool enchantment (compulsion); Level arcanist 1, mesmerist 1, psychic 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid\nDuration concentration + 2 rounds or until triggered\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe target takes a –20 penalty on its next attack roll or check that requires a d20 roll. The action must be one deliberately taken by the target on its turn. Creatures with more than 10 HD are unaffected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/17b2648ab2d395ec.json",
+    "web": "https://codex.pipsprojects.com/#/e/17b2648ab2d395ec"
+  },
+  "license": "OGL 1.0a"
+}

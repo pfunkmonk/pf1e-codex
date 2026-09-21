@@ -1,0 +1,31 @@
+{
+  "id": "4bbf00094b1dced4",
+  "name": "Horn of Pursuit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 223",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "skald": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 223\nSchool evocation [sonic]; Level bard 1, hunter 1, inquisitor 1, paladin 1, ranger 1, skald 1\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange personal\nEffect 3 peals of a horn\nDuration 1 round\nSaving Throw none; Spell Resistance no\nDescription\nYou create the sound of a large hunting horn, blowing up to three notes as loud as a roaring dragon. These notes can be heard up to 2 miles away in typical outdoor conditions. You can make these sounds at any point during the spell’s duration as a free action, and each sounding can be short or long, allowing you to send very simple coded messages.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4bbf00094b1dced4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4bbf00094b1dced4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "3a3fd50e7d75fff4",
+  "name": "Enshroud Thoughts",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 169, Blood of the Elements pg. 13",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "hunter": 3,
+      "inquisitor": 2,
+      "investigator": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "ranger": 3,
+      "shaman": 2,
+      "skald": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 169, Blood of the Elements pg. 13\nSchool abjuration [mind-affecting]; Level alchemist 2, bard 2, hunter 3, inquisitor 2, investigator 2, medium 2, mesmerist 2, psychic 2, ranger 3, shaman 2, skald 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou become warded against the mental prying of others, including the effects of divination spells such as detect thoughts and seek thoughtsAPG, as well as enchantment spells such as modify memory and memory lapseAPG. If another creature attempts to target you with a mind-affecting spell that detects or alters your thoughts or memories, the caster must succeed at a caster level check against a DC equal to 11 + your caster level or the spell fails. Only spells that detect or alter your thoughts or memories are blocked by this spell; effects such as clairaudience/clairvoyance, detect evil, and locate creature continue to affect you as normal.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a3fd50e7d75fff4.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a3fd50e7d75fff4"
+  },
+  "license": "OGL 1.0a"
+}

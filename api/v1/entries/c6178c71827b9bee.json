@@ -1,0 +1,34 @@
+{
+  "id": "c6178c71827b9bee",
+  "name": "Motes of Dusk and Dawn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 28",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "magus": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "shaman": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 28\nSchool evocation [darkness, light]; Level arcanist 3, bard 3, magus 3, medium 3, mesmerist 3, occultist 3, psychic 3, shaman 3, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect Up to four motes, all within a 10-ft.-radius area\nDuration 1 minute (D)\nSaving Throw none; Spell Resistance no\nDescription\nWhen you cast this spell, you create up to four motes that shed light or darkness in a 20-foot-radius, increasing or decreasing the illumination level by up to two categories. You decide whether each individual mote sheds light or darkness when the spell is cast.\n\nThe motes of dusk and dawn must stay within a 10-foot-radius area of one another but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The motes can move up to 100 feet per round. A mote winks out if the distance between you and it exceeds the spell’s range.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c6178c71827b9bee.json",
+    "web": "https://codex.pipsprojects.com/#/e/c6178c71827b9bee"
+  },
+  "license": "OGL 1.0a"
+}

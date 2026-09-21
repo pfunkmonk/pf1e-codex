@@ -1,0 +1,21 @@
+{
+  "id": "20049053edb653a4",
+  "name": "Despoiler",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Seers of the Drowned City pg. 56",
+  "book": "Seers of the Drowned City",
+  "facets": {
+    "cr": 7,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "CE",
+    "bk": "Seers of the Drowned City"
+  },
+  "body": "Three spears of obsidian energy skewer this cadaverous figure.\nDespoiler CR 7\nSource Seers of the Drowned City pg. 56\nXP 3,200\nCE Medium undead\nInit +7; Senses darkvision 60 ft.; Perception +15\nDefense\nAC 20, touch 14, flat-footed 16 (+3 Dex, +1 dodge, +6 natural)\nhp 85 (10d8+40)\nFort +7, Ref +8, Will +9\nImmune undead traits\nOffense\nSpeed 30 ft.\nMelee 2 claws +13 (1d6+6 plus 1d6 negative energy and grab)\nRanged black shard +10 (4d6 negative energy)\nSpecial Attacks black shards, embrace of darkness\nStatistics\nStr 23, Dex 17, Con —, Int 12, Wis 14, Cha 19\nBase Atk +7; CMB +13; CMD 27\nFeats Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility\nSkills Climb +19, Intimidate +17, Knowledge (religion) +14, Perception +15, Stealth +16\nLanguages Common, Necril\nEcology\nEnvironment any land\nOrganization solitary, pair, or cult (3–6)\nTreasure standard\nSpecial Abilities\nBlack Shards (Ex) As a standard action, a despoiler can remove and throw a shard as a bolt of negative energy to a range of 80 feet, dealing 4d6 points of negative energy damage on a hit. A creature that takes damage from a black shard must succeed at a DC 19 Fortitude save or be staggered from the pain for 1d4 rounds. A despoiler can impale itself on a shard in this way to heal itself of 4d6 points of damage. Once a shard is used, it must be replenished via the despoiler’s embrace of darkness ability. The save DC is Charisma-based.\n\nEmbrace of Darkness (Su) If a despoiler pins a grappled creature, it deals 4d6 points of negative energy damage and staggers the victim for 1d3 rounds. When a despoiler uses this ability, it regrows a black shard (to a maximum of 3 black shards). A successful DC 19 Will save halves the damage and prevents the staggered condition and shard regrowth. The save DC is Charisma-based.\nDescription\nCreated from the remains of good clerics, despoilers sometimes guard desecrated sacred sites.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20049053edb653a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/20049053edb653a4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "a96d3212051283fc",
+  "name": "Mirage Arcana",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 314",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "mesmerist": 5,
+      "psychic": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 314\nSchool illusion (glamer); Level arcanist 5, bard 5, mesmerist 5, psychic 5, skald 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nArea one 20-ft. cube/level (S)\nDuration concentration +1 hour/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell functions like hallucinatory terrain, except that it enables you to make any area appear to be something other than it is. The illusion includes audible, visual, tactile, and olfactory elements. Unlike hallucinatory terrain, the spell can alter the appearance of structures (or add them where none are present). Still, it can't disguise, conceal, or add creatures (though creatures within the area might hide themselves within the illusion just as they can hide themselves within a real location).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a96d3212051283fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/a96d3212051283fc"
+  },
+  "license": "OGL 1.0a"
+}

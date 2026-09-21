@@ -1,0 +1,31 @@
+{
+  "id": "bd65fa7698ee9fcc",
+  "name": "Certain Grip",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 225",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bloodrager": 2,
+      "druid": 2,
+      "hunter": 2,
+      "investigator": 2,
+      "occultist": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 225\nSchool transmutation; Level alchemist 2, arcanist 2, bloodrager 2, druid 2, hunter 2, investigator 2, occultist 2, redmantisassassin 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a tiny ball of tar)\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject’s grip and footing become sure, granting a +4 competence bonus on Climb checks, on Acrobatics checks to balance, and to CMD against bull rush, drag, reposition, and trip attempts. While affected by this spell, the target is also immune to the disarm combat maneuver.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bd65fa7698ee9fcc.json",
+    "web": "https://codex.pipsprojects.com/#/e/bd65fa7698ee9fcc"
+  },
+  "license": "OGL 1.0a"
+}

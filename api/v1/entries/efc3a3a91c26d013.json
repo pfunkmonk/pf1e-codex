@@ -1,0 +1,28 @@
+{
+  "id": "efc3a3a91c26d013",
+  "name": "Muffle Sound",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 188",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 188\nSchool illusion (glamer); Level bard 2, cleric 2, inquisitor 2, mesmerist 2, oracle 2, psychic 2, skald 2, warpriest 2\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets 1 ally/level\nDuration 1 minute/level (D)\nDescription\nYou suppress sounds made by the targets, granting them a +4 bonus on Stealth checks. The targets have a 20% chance of spell failure when casting spells with verbal components or using abilities that have audible components (such as some bardic performances). This spell does not hamper the targets’ ability to hear other sounds and provides no protection against language-dependent or sonic spells and effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efc3a3a91c26d013.json",
+    "web": "https://codex.pipsprojects.com/#/e/efc3a3a91c26d013"
+  },
+  "license": "OGL 1.0a"
+}

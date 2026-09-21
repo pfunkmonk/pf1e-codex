@@ -1,0 +1,30 @@
+{
+  "id": "f90b839f5af0004e",
+  "name": "Scintillating Wall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Distant Realms pg. 42",
+  "book": "Distant Realms",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 5,
+      "bard": 4,
+      "psychic": 5,
+      "skald": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "sr": "no",
+    "bk": "Distant Realms"
+  },
+  "body": "Source Distant Realms pg. 42\nSchool illusion (pattern) [mind-affecting]; Level arcanist 5, bard 4, psychic 5, skald 4, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a handful of crushed d'ziriak chitin)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect wall with an area of up to one 10-ft. square/level\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance no\nDescription\nYou create a vibrant wall of hypnotic light and color. The wall does not impede movement or line of sight in any way. Creatures moving through the wall must succeed at a Will save or become fascinated. Each round, on its turn, a fascinated creature can attempt a new saving throw to end the effect as a full-round action that does not provoke attacks of opportunity. A creature that succeeds at the save against the fascination effect is no longer affected if it remains within the wall, but it must attempt a new saving throw if it leaves the area and later moves through the wall again. Creatures adjacent to the wall and creatures moving through the wall that succeed at their save against fascination are dazzled.\n\nIf you create the wall so that it appears in the same space as one or more creatures, each affected creature must succeed at a Fortitude save or become blinded. Creatures that successfully save against the blindness are subject to the fascination effect unless they leave the wall within 1 round of casting the spell.\n\nScintillating wall can be made permanent with a permanency spell cast by a caster of 13th level or higher, at a cost of 12,500 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f90b839f5af0004e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f90b839f5af0004e"
+  },
+  "license": "OGL 1.0a"
+}

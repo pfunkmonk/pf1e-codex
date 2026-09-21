@@ -1,0 +1,29 @@
+{
+  "id": "cbe51a808b0bc7df",
+  "name": "Alchemical Tinkering",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 155",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "cleric": 2,
+      "oracle": 2,
+      "sorcerer": 1,
+      "warpriest": 2,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 155\nSchool transmutation; Level arcanist 1, cleric 2, oracle 2, redmantisassassin 1, sorcerer 1, warpriest 2, witch 1, wizard 1 (ratfolk)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget firearm or alchemical item touched\nDuration 1 minute/level\nSaving Throw Fortitude negates (object); Spell Resistance yes\nDescription\nYou transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost. Magic items are unaffected by this spell. At the end of the spell’s duration, alchemical items used while transformed are destroyed and do not return to a usable state and firearms transformed revert back to their original type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cbe51a808b0bc7df.json",
+    "web": "https://codex.pipsprojects.com/#/e/cbe51a808b0bc7df"
+  },
+  "license": "OGL 1.0a"
+}

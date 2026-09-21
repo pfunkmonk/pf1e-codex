@@ -1,0 +1,35 @@
+{
+  "id": "956c3ecee3b87199",
+  "name": "Mind Swap, Major",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 176",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 6,
+      "medium": 3,
+      "mesmerist": 5,
+      "occultist": 4,
+      "psychic": 5,
+      "sorcerer": 6,
+      "spiritualist": 4,
+      "summoner": 5,
+      "witch": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Mind Swap\nSource Occult Adventures pg. 176\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 6, medium 3, mesmerist 5, occultist 4, psychic 5, sorcerer 6, spiritualist 4, summoner 5, witch 6, wizard 6\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell is similar to possession, except you switch minds with the target, so instead of the target’s soul sharing its body with yours and being unable to act, the target’s mind moves to your body and can control it as if you each had cast possession on the other.\nMind Swap, Major\nSource Occult Adventures pg. 176\nSchool enchantment (compulsion) [mind-affecting]; Level psychic 9\nCasting\nCasting Time 1 minute\nComponents V, S, M (diamonds worth 10,000 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature of your same race\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe spell functions as mind swap, except as noted above. In addition, after 24 hours, instead of using each other’s hit points, you each revert to your original hit points, modified by your new Constitution modifiers. This spell can be reversed only with miracle, wish, or another major mind swap.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/956c3ecee3b87199.json",
+    "web": "https://codex.pipsprojects.com/#/e/956c3ecee3b87199"
+  },
+  "license": "OGL 1.0a"
+}

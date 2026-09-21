@@ -1,0 +1,29 @@
+{
+  "id": "e9f303f51842b4d3",
+  "name": "Ray of Frost",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 330",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 0,
+      "magus": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 330\nSchool evocation [cold]; Level arcanist 0, magus 0, sorcerer 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nA ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9f303f51842b4d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9f303f51842b4d3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "7bbd0cfb44cf1c65",
+  "name": "Protection from Spells",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 328",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "summoner": 6,
+      "wizard": 8
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 328\nSchool abjuration; Level arcanist 8, psychic 8, sorcerer 8, summoner 6, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S, M (diamond worth 500 gp), F (One 1,000 gp diamond per target. Each subject must carry the gem for the duration of the spell. If a subject loses the gem, the spell ceases to affect him.)\nEffect\nRange touch\nTargets up to one creature touched per four levels\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe subject gains a +8 resistance bonus on saving throws against spells and spell-like abilities (but not against supernatural and extraordinary abilities).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7bbd0cfb44cf1c65.json",
+    "web": "https://codex.pipsprojects.com/#/e/7bbd0cfb44cf1c65"
+  },
+  "license": "OGL 1.0a"
+}

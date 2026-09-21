@@ -1,0 +1,36 @@
+{
+  "id": "160b53f7724acaf6",
+  "name": "Cursed Treasure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Villain Codex pg. 188",
+  "book": "Villain Codex",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Villain Codex"
+  },
+  "body": "Source Villain Codex pg. 188\nSchool necromancy [curse]; Level antipaladin 3, arcanist 4, bloodrager 4, cleric 3, oracle 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 3, witch 3, wizard 4\nCasting\nCasting Time 1 minute\nComponents V, S, M (a platinum piece)\nEffect\nRange touch\nTarget unattended object touched\nDuration permanent until discharged, then permanent (see text)\nSaving Throw Fortitude negates (object), then Will negates (see text); Spell Resistance yes (object), then yes (see text)\nDescription\nYou touch a piece of treasure or container filled with treasure and place a terrible curse upon it, choosing from any option available with bestow curse. The next creature to take the treasure or remove items from the container is affected by the curse, unless it succeeds at a Will save (spell resistance applies). If you are the next creature to take the treasure or get objects from the container, though, the spell discharges harmlessly instead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/160b53f7724acaf6.json",
+    "web": "https://codex.pipsprojects.com/#/e/160b53f7724acaf6"
+  },
+  "license": "OGL 1.0a"
+}

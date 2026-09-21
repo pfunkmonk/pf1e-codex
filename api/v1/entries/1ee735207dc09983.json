@@ -1,0 +1,26 @@
+{
+  "id": "1ee735207dc09983",
+  "name": "Thought Worm III",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Psychic Anthology pg. 11",
+  "book": "Psychic Anthology",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "psychic": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Psychic Anthology"
+  },
+  "body": "Source Psychic Anthology pg. 11\nSchool enchantment (compulsion) [mind-affecting]; Level psychic 4\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will partial (see text); Spell Resistance yes\nDescription\nThis functions as per thought worm II, except a target that succeeds at its Will save still takes a –2 penalty on Will saves against your mind-affecting spells and effects for the same duration. This spell can be undercast.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ee735207dc09983.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ee735207dc09983"
+  },
+  "license": "OGL 1.0a"
+}

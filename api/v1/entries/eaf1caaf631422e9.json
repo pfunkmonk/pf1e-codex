@@ -1,0 +1,27 @@
+{
+  "id": "eaf1caaf631422e9",
+  "name": "Sympathetic Vibration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 357",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 6,
+      "skald": 6
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 357\nSchool evocation [sonic]; Level bard 6, skald 6\nCasting\nCasting Time 10 minutes\nComponents V, S, F (a tuning fork)\nEffect\nRange touch\nTarget one freestanding structure\nDuration up to 1 round/level\nSaving Throw none; see text; Spell Resistance yes\nDescription\nBy attuning yourself to a freestanding structure, you can create a damaging vibration within it. Once it begins, the vibration deals 2d10 points of damage per round to the target structure, bypassing hardness. You can choose at the time of casting to limit the duration of the spell; otherwise it lasts for 1 round per level. If the spell is cast upon a target that is not freestanding, the surrounding stone dissipates the effect and no damage occurs.\n\nSympathetic vibration cannot affect creatures (including constructs). Since a structure is an unattended object, it gets no saving throw to resist the effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eaf1caaf631422e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/eaf1caaf631422e9"
+  },
+  "license": "OGL 1.0a"
+}

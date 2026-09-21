@@ -1,0 +1,26 @@
+{
+  "id": "034513d524d1e34b",
+  "name": "Litany of Weakness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 236",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "inquisitor": 1
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 236\nSchool necromancy [language-dependent]; Level antipaladin 1, inquisitor 1\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw no; Spell Resistance yes\nDescription\nYour litany proclaims your target weak, sapping its strength. The target is fatigued for 1 round.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/034513d524d1e34b.json",
+    "web": "https://codex.pipsprojects.com/#/e/034513d524d1e34b"
+  },
+  "license": "OGL 1.0a"
+}

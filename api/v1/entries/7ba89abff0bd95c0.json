@@ -1,0 +1,26 @@
+{
+  "id": "7ba89abff0bd95c0",
+  "name": "Instrument of Agony",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 232",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 232\nSchool transmutation; Level cleric 2, inquisitor 2, oracle 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget weapon touched\nDuration 1 minutes/level\nSaving Throw Will negates (harmless, object), see text; Spell Resistance yes (harmless, object), see text\nDescription\nYou cause a weapon to exude a palpable aura of divine fury. While wielding this weapon, a creature gains a +2 morale bonus on Intimidate checks. When an attack made using the targeted weapon hits, the wielder can spend a free action to discharge the effect to inflict agony on the creature the weapon hit. If that creature has spell resistance, it applies against this effect. If the creature fails a Will save, it is nauseated for 1d4+1 rounds. If it succeeds at the saving throw, the creature is instead sickened for 1 round. The sickened condition created by the instrument is a mind-affecting effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7ba89abff0bd95c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/7ba89abff0bd95c0"
+  },
+  "license": "OGL 1.0a"
+}

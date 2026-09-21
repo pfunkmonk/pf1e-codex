@@ -1,0 +1,112 @@
+{
+  "id": "18c70e4c1a4eb9d3",
+  "name": "Student of War",
+  "bucket": "classes",
+  "category": "Prestige Classes",
+  "source": "Adventurer's Guide pg. 142, Seekers of Secrets pg. 62",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 142, Seekers of Secrets pg. 62\nTo hear most warriors talk, battles are won by sharp iron and mighty thews. Yet the student of war knows that the key to victory is the mind behind the mettle, the training that guides the blade, and the discernment of when and where to strike. Any dedicated martial scholar can join this prestige class, but the Pathfinder Society draws the lion’s share. The Society’s libraries are a treasure trove to the aspiring student of war, home to obscure combat manuals, moldy bestiaries, and detailed histories of battle. Armed with these texts and hardened by constant drilling, the student of war fills her repertoire with tricks and techniques designed to exploit every weakness and negate every advantage of her foes.\n\nThe path of the student of war is particularly enticing to martially minded characters who seek to enhance and expand their mastery of skills. Students of war often pride themselves in studying topics that combat-focused types might not normally find value in, and their ability to draw upon unexpected lore and information has become something of a legend among their kind. This might be demonstrated by a heavily armored fighter’s training in Acrobatics allowing her to outmaneuver an overly confident swashbuckler, a rugged barbarian masterfully manipulating a magic wand via Use Magic Device, or similar unexpected techniques.\nRequirements\nTo qualify to become a student of war, a character must fulfill the following criteria.\nBase Attack Bonus: +5.\nFeats: Combat Expertise, Dodge, Skill Focus (any one Knowledge skill).\nProficiency: Must be proficient with two martial weapons.\nSkills: Knowledge (any two) 4 ranks in each.\nSpecial: Must have succeeded at Knowledge checks against five distinct creatures prior to defeating them.\nClass Skills\nThe Student of War's class skills are Climb (Str), Craft (Int), Disable Device (Dex), Handle Animal (Cha), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Survival (Wis), and Swim (Str).\n\nSkill Points at each Level: 6 + Int modifier.\nHit Die: d10.\nClass Features\nLevel Base Attack Bonus Fort Save Ref Save Will Save Special\n1st +1 +0 +0 +1 Additional skill, know your enemy +1 (move)\n2nd +2 +1 +1 +1 Combat feat, mind over metal\n3rd +3 +1 +1 +2 Additional skill, anticipate 1/day\n4th +4 +1 +1 +2 Know your enemy +2\n5th +5 +2 +2 +3 Additional skill, combat feat\n6th +6 +2 +2 +3 Anticipate 2/day, telling blow\n7th +7 +2 +2 +4 Additional skill, know your enemy +3 (swift)\n8th +8 +3 +3 +4 Combat feat\n9th +9 +3 +3 +5 Additional skill, anticipate 3/day, nemesis\n10th +10 +3 +3 +5 Deadly blow\n\nThe following are class features of the student of war prestige class.\n\nAdditional Skill: At 1st level and every 2 levels thereafter, a student of war gains a new class skill of her choice.\n\nKnow Your Enemy (Ex): As a move action, a student of war can study a foe she can see and attempt a Knowledge check appropriate to the creature’s type (DC = 10 + the target’s HD). Success grants her a +1 insight bonus against her enemy, which can be applied via one of the following stances (chosen when the check is attempted) to the indicated statistics and rolls.\n\nDefensive Stance: The bonus applies to Armor Class and on saving throws against the target’s attacks. At 6th level, the student of war is treated as having the Mobility feat when provoking attacks of opportunity from the studied foe. If she already has Mobility, the bonus she gains to her AC in this case increases to +6.\n\nMartial Stance: The bonus applies on attack and damage rolls against the target. At 4th level, the student of war is treated as having the Critical Focus feat for the purpose of attacks against the studied foe. If she already has Critical Focus, the bonus she gains when confirming her critical hits in this case is +6 instead.\n\nTactical Stance: The bonus applies on combat maneuver checks and to CMD when initiating or defending against bull rush, disarm, grapple, overrun, and trip combat maneuvers. At 8th level, the student of war no longer provokes attacks of opportunity from a studied foe when attempting to bull rush, disarm, grapple, overrun, or trip that target; this does not affect attacks of opportunity made by any creature other than the studied foe.\n\nA student of war can change her stance as a move action. The bonus lasts for 1 minute per class level or until the character uses this ability on another target. The bonus increases to +2 at 4th level and +3 at 7th level. At 7th level, the student can use this ability as a swift action rather than a move action.\n\nCombat Feat: At 2nd, 5th, and 8th levels, a student of war gains a bonus combat feat.\n\nMind Over Metal (Ex): At 2nd level, when a student of war is using armor or a shield, she can use her Intelligence modifier in place of her Dexterity modifier for determining her Armor Class. The armor’s normal maximum Dexterity bonus still applies (limiting how much of the character’s Intelligence bonus she can apply to her AC).\n\nAnticipate (Ex): At 3rd level, once per day as an immediate action, a student of war can ignore any damage and effects of a spell or ability she successfully saved against, such as the outlining effect of a glitterdust spell or the half damage from an inflict serious wounds spell. This ability has no effect against effects that do not allow saving throws (such as darkness, difficult terrain, etc.). This ability is usable one additional time per day for every 3 class levels beyond 3rd.\n\nTelling Blow (Ex): At 6th level, a student of war can aim her blows at the weakest point in a studied foe’s defense, ignoring up to 5 points of damage reduction. This does not apply to damage reduction without a type (such as DR 10/—). This ability cannot be used against creatures that are immune to critical hits or otherwise lack discernible weak points. This ability stacks with the Penetrating Strike feat.\n\nNemesis (Su): At 9th level, once per day as a swift action, a student of war can focus on a weapon she holds and render it anathema to her studied foe. The weapon gains the bane special ability against the creature for 1 minute or until the student of war uses know your enemy against a different foe.\n\nDeadly Blow (Su): At 10th level, a student of war can find weak spots where none should exist. A student of war who uses her know your enemy ability and exceeds the Knowledge check DC by 10 or more can ignore the target’s natural damage reduction and immunity to critical hits and sneak attacks. This does not apply to immunities granted by spells, environmental effects, or equipment.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Level",
+          "Base Attack Bonus",
+          "Fort Save",
+          "Ref Save",
+          "Will Save",
+          "Special"
+        ],
+        [
+          "1st",
+          "+1",
+          "+0",
+          "+0",
+          "+1",
+          "Additional skill, know your enemy +1 (move)"
+        ],
+        [
+          "2nd",
+          "+2",
+          "+1",
+          "+1",
+          "+1",
+          "Combat feat, mind over metal"
+        ],
+        [
+          "3rd",
+          "+3",
+          "+1",
+          "+1",
+          "+2",
+          "Additional skill, anticipate 1/day"
+        ],
+        [
+          "4th",
+          "+4",
+          "+1",
+          "+1",
+          "+2",
+          "Know your enemy +2"
+        ],
+        [
+          "5th",
+          "+5",
+          "+2",
+          "+2",
+          "+3",
+          "Additional skill, combat feat"
+        ],
+        [
+          "6th",
+          "+6",
+          "+2",
+          "+2",
+          "+3",
+          "Anticipate 2/day, telling blow"
+        ],
+        [
+          "7th",
+          "+7",
+          "+2",
+          "+2",
+          "+4",
+          "Additional skill, know your enemy +3 (swift)"
+        ],
+        [
+          "8th",
+          "+8",
+          "+3",
+          "+3",
+          "+4",
+          "Combat feat"
+        ],
+        [
+          "9th",
+          "+9",
+          "+3",
+          "+3",
+          "+5",
+          "Additional skill, anticipate 3/day, nemesis"
+        ],
+        [
+          "10th",
+          "+10",
+          "+3",
+          "+3",
+          "+5",
+          "Deadly blow"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/18c70e4c1a4eb9d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/18c70e4c1a4eb9d3"
+  },
+  "license": "OGL 1.0a"
+}

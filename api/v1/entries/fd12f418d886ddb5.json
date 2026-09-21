@@ -1,0 +1,30 @@
+{
+  "id": "fd12f418d886ddb5",
+  "name": "Archon's Trumpet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Champions of Purity pg. 28",
+  "book": "Champions of Purity",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 7,
+      "bard": 5,
+      "cleric": 7,
+      "oracle": 7,
+      "paladin": 4,
+      "skald": 5,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Champions of Purity"
+  },
+  "body": "Source Champions of Purity pg. 28\nSchool evocation [good, sonic]; Level arcanist 7, bard 5, cleric 7, oracle 7, paladin 4, skald 5, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nUpon hearing a booming report, as if from a trumpet archon’s mighty horn, all creatures in the area of the burst are paralyzed for 1d4 rounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fd12f418d886ddb5.json",
+    "web": "https://codex.pipsprojects.com/#/e/fd12f418d886ddb5"
+  },
+  "license": "OGL 1.0a"
+}

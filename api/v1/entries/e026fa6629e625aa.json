@@ -1,0 +1,30 @@
+{
+  "id": "e026fa6629e625aa",
+  "name": "Morning Sun",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Darklands pg. 15",
+  "book": "Heroes of the Darklands",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 7,
+      "druid": 7,
+      "inquisitor": 6,
+      "oracle": 7,
+      "shaman": 7
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Heroes of the Darklands"
+  },
+  "body": "Source Heroes of the Darklands pg. 15\nSchool evocation [light]; Level cleric 7, druid 7, inquisitor 6, oracle 7, shaman 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (500 gp worth of gold dust)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 60-ft. radius\nDuration 1 minute/level (D)\nSaving Throw Fortitude negates and Reflex half; see text; Spell Resistance no\nDescription\nThis spell conjures a miniature sphere of sunlight, approximately the size of a human fist, at a desired location within range. The sphere sheds bright light in a 60-foot-radius burst. Creatures that take penalties in bright light do so while within the sphere’s area of illumination. Creatures that start their turns within the area of illumination and that are damaged or destroyed by sunlight must succeed at a Fortitude save or become staggered until 1d4+1 rounds after they leave the affected area. Non-creatures, such as hazardous fungi and mold that are destroyed by sunlight, become inert for the duration of the spell. The sphere cannot be moved from the place it was cast. The sphere deals 10d6 points of fire damage to anything it touches and anything that passes within 5 feet of it. A successful Reflex save reduces this damage by half.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e026fa6629e625aa.json",
+    "web": "https://codex.pipsprojects.com/#/e/e026fa6629e625aa"
+  },
+  "license": "OGL 1.0a"
+}

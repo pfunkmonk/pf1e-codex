@@ -1,0 +1,33 @@
+{
+  "id": "95b2df2958e6cedf",
+  "name": "Lost Legacy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Tactics Toolbox pg. 22",
+  "book": "Magic Tactics Toolbox",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 7,
+      "bard": 6,
+      "cleric": 7,
+      "inquisitor": 6,
+      "occultist": 6,
+      "oracle": 7,
+      "psychic": 7,
+      "skald": 6,
+      "sorcerer": 7,
+      "witch": 6,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Magic Tactics Toolbox"
+  },
+  "body": "Source Magic Tactics Toolbox pg. 22\nSchool enchantment [curse, mind-affecting]; Level arcanist 7, bard 6, cleric 7, inquisitor 6, occultist 6, oracle 7, psychic 7, skald 6, sorcerer 7, witch 6, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, DF/F (a holy symbol of a dead or forgotten deity, or flag of a fallen or forgotten nation)\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou inflict a powerful curse on a touched creature that causes others to quickly forget positive aspects of their interactions with the target. The target cannot attempt a Diplomacy (or wild empathy or similar ability) check to improve the attitude of other creatures. Any creature that normally has an attitude of friendly or helpful toward the target must succeed at a Will save at the spell’s normal saving throw DC each time it interacts with the target, or its attitude becomes indifferent. Once this curse is removed, creatures coming back into contact with the target regain their pleasant memories of it. If their attitudes toward the target have not been reduced from indifferent, their original attitudes are restored.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95b2df2958e6cedf.json",
+    "web": "https://codex.pipsprojects.com/#/e/95b2df2958e6cedf"
+  },
+  "license": "OGL 1.0a"
+}

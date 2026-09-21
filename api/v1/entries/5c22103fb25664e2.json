@@ -1,0 +1,25 @@
+{
+  "id": "5c22103fb25664e2",
+  "name": "Hellmouth Lash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 173",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 173\nSchool transmutation [acid, electricity, or fire]; Level arcanist 4, bloodrager 4, redmantisassassin 4, sorcerer 4, witch 4, wizard 4 (tiefling)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D)\nDescription\nUpon casting this spell, your tongue transforms into an energy whip weapon that can deal acid, electricity, or fire damage. You choose what type of energy damage the spell deals when you cast it. You attack with your tongue as if it were a whip, except you make touch attacks with it and it can harm creatures with armor or natural armor bonuses. You are considered proficient with this weapon. A successful touch attack with the tongue deals 1d8 points of energy damage per two caster levels (maximum of 5d8 points of damage at 10th level).\n\nWhile the spell is in effect, you cannot speak, cast spells requiring verbal components, or activate items requiring command words.\n\nThe spell has the acid, electricity, or fire descriptor, depending on what type of energy damage you chose when you cast it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c22103fb25664e2.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c22103fb25664e2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2e5e2508f77f0617",
+  "name": "Magic Siege Engine",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 236",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 236\nSchool transmutation; Level antipaladin 2, arcanist 2, cleric 2, inquisitor 2, occultist 2, oracle 2, paladin 2, redmantisassassin 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget one siege engine touched\nDuration 1 minutes/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell permits an indirect fire siege engine to bombard its targets with greater accuracy, delivering more damage. The siege weapon receives a +1 enhancement bonus on targeting rolls and damage rolls. If used on a direct fire siege weapon, this spell acts a magic weapon.\nMagic Siege Engine, Greater\nSource Ultimate Combat pg. 236\nSchool transmutation; Level antipaladin 4, arcanist 4, cleric 5, inquisitor 4, occultist 4, oracle 5, paladin 4, redmantisassassin 4, sorcerer 4, warpriest 5, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (black powder)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one siege engine touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell functions like magic siege weapon, except it gives an indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as greater magic weapon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e5e2508f77f0617.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e5e2508f77f0617"
+  },
+  "license": "OGL 1.0a"
+}

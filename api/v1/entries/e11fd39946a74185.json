@@ -1,0 +1,27 @@
+{
+  "id": "e11fd39946a74185",
+  "name": "Exquisite Accompaniment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 219",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "skald": 3
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 219\nSchool illusion (shadow) [shadow]; Level bard 3, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nEffect phantom instrument\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou create a phantom instrument, a glowing construct of magic in the form of a portable musical instrument of your choice. The instrument floats beside you, moving as you move (even if you teleport). It cannot be damaged, but can be dispelled. The instrument plays as you direct, and as long as it plays, you do not have to expend rounds of bardic performance from your daily allotment to maintain an effect. Activating a bardic performance or switching to a new effect still costs a round of your overall bardic performances per day.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e11fd39946a74185.json",
+    "web": "https://codex.pipsprojects.com/#/e/e11fd39946a74185"
+  },
+  "license": "OGL 1.0a"
+}

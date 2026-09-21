@@ -1,0 +1,26 @@
+{
+  "id": "8a93f940da77f547",
+  "name": "Command Plants",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 257",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "hunter": 3,
+      "ranger": 3,
+      "shaman": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 257\nSchool transmutation; Level druid 4, hunter 3, ranger 3, shaman 4\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell allows you some degree of control over one or more plant creatures. Affected plant creatures can understand you, and they perceive your words and actions in the most favorable way (treat their attitude as friendly). They will not attack you while the spell lasts. You can try to give a subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. (Retries are not allowed.) A commanded plant never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.\n\nYou can affect a number of plant creatures whose combined level or HD do not exceed twice your level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a93f940da77f547.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a93f940da77f547"
+  },
+  "license": "OGL 1.0a"
+}

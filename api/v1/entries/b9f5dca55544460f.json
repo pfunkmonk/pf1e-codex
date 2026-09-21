@@ -1,0 +1,31 @@
+{
+  "id": "b9f5dca55544460f",
+  "name": "Delusional Pride",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 216",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 216\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 1, bard 1, medium 1, mesmerist 1, psychic 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe target becomes so distracted by an overblown sense of its worth that it takes a –2 penalty on attacks and skill checks. However, this feeling also gives the target a +2 morale bonus on saves against charm and compulsion effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9f5dca55544460f.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9f5dca55544460f"
+  },
+  "license": "OGL 1.0a"
+}

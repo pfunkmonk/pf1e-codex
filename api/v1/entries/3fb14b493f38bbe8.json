@@ -1,0 +1,28 @@
+{
+  "id": "3fb14b493f38bbe8",
+  "name": "Waves of Fatigue",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 368",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "mesmerist": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 368\nSchool necromancy; Level arcanist 5, mesmerist 5, psychic 5, sorcerer 5, spiritualist 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw no; Spell Resistance yes\nDescription\nWaves of negative energy render all living creatures in the spell's area fatigued. This spell has no effect on a creature that is already fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3fb14b493f38bbe8.json",
+    "web": "https://codex.pipsprojects.com/#/e/3fb14b493f38bbe8"
+  },
+  "license": "OGL 1.0a"
+}

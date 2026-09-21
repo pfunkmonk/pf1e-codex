@@ -1,0 +1,31 @@
+{
+  "id": "7c70dd34bf2d6d67",
+  "name": "Healing Token",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Healer's Handbook pg. 9",
+  "book": "Healer's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Healer's Handbook"
+  },
+  "body": "Source Healer's Handbook pg. 9\nSchool conjuration (healing); Level cleric 2, druid 2, hunter 2, inquisitor 2, oracle 2, paladin 2, ranger 2, shaman 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget one touched holy symbol per 3 caster levels\nDuration 10 minutes/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou imbue one touched holy symbol per 3 caster levels with a connection to your own divine power, turning the touched holy symbols into tokens of healing. Each of the targeted holy symbols can represent any deity regardless of the deity’s actual alignment.\n\nAs long as you wear or carry your divine focus, any creature carrying a token of healing can make a plea for healing in a language you understand as a standard action. When they do this, you are silently alerted to the plea for healing and can magically heal the target as an immediate action anytime before the end of your next turn.\n\nThe magical healing you use to do this can be either a supernatural ability that heals damage (if you have uses available) or a spell or spell-like ability that belongs to the healing subschool (if you can cast any). In either case, to use the ability or cast the spell through this spell, you must be able to include or target that creature, and the ability’s activation time or spell’s casting time must be no longer than one standard action.\n\nIf the ability or healing spell you use through a token would affect multiple creatures, such as mass cure light wounds, the ability or spell affects the creature that pleaded for healing as well as any other creatures within the healing spell’s normal range that are also holding a holy symbol imbued with this spell.\n\nSo, for example, when you use mass cure light wounds through a holy symbol that has been turned into a token of healing, that spell would heal the creature holding the token that pleaded for healing as well as one creature per level that is also holding a token (no two of which can be more than 30 feet apart). However, the mass cure light wounds spell would heal only creatures within range that are holding tokens.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c70dd34bf2d6d67.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c70dd34bf2d6d67"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "b63b0bd58f74d4e7",
+  "name": "Shadowbard",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 236",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "skald": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 236\nSchool illusion (shadow) [shadow]; Level bard 5, skald 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect phantom singer\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou conjure up a quasi-real phantom singer that is visible as a shifting, shadowy duplicate of yourself. The singer follows you automatically, moving as you move even if you teleport. The singer cannot be damaged, but can be dispelled. When a shadowbard comes into being, it immediately begins a bardic performance of your choice—it has access to all of the bardic performances that you do. It continues that bardic performance until you direct it as a move action to switch to a different performance. Rounds spent by a shadowbard creating a bardic performance do not decrease the number of rounds you can use your own bardic performance, nor can a shadowbard’s bardic performance be used to trigger spells that require you to begin or cease a bardic performance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b63b0bd58f74d4e7.json",
+    "web": "https://codex.pipsprojects.com/#/e/b63b0bd58f74d4e7"
+  },
+  "license": "OGL 1.0a"
+}

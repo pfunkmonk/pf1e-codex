@@ -1,0 +1,32 @@
+{
+  "id": "3d171348561fd325",
+  "name": "Necrostasis",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 42",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 3,
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "sorcerer": 3,
+      "spiritualist": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 42\nSchool necromancy; Level arcanist 3, cleric 2, inquisitor 2, oracle 2, shaman 2, sorcerer 3, spiritualist 2, warpriest 2, witch 2, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a finger bone)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one undead creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou drain necromantic energy from an undead creature, inducing a sluggish stupor. The target becomes staggered. For the duration of the spell, dark wisps of energy seep out of the target creature. If the target already has the staggered condition (as a zombie does), it becomes dazed for 1 round instead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3d171348561fd325.json",
+    "web": "https://codex.pipsprojects.com/#/e/3d171348561fd325"
+  },
+  "license": "OGL 1.0a"
+}

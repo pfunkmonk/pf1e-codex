@@ -1,0 +1,30 @@
+{
+  "id": "e5ba1020917997d1",
+  "name": "Wall of Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "The Dragon's Demand pg. 24",
+  "book": "The Dragon's Demand",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 5,
+      "druid": 5,
+      "hunter": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "The Dragon's Demand"
+  },
+  "body": "Source The Dragon's Demand pg. 24\nSchool evocation [light]; Level arcanist 5, druid 5, hunter 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a chip of mica)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect 10-ft.-high vertical sheet of light up to 5 ft. long/level\nDuration 1 minute/level (D)\nSaving Throw Fortitude partial, see text; Spell Resistance yes\nDescription\nAn immobile, blinding curtain of white light that blocks line of sight springs into existence. The wall sheds bright light to a range of 60 feet in all directions. A creature adjacent to the wall is blinded as long as it remains adjacent plus an additional 1d4 rounds thereafter-closing its eyes or succeeding at a Fortitude save negates the effect for 1 round. A creature that passes through the wall is automatically blinded, even if its eyes are closed. A creature from the Plane of Shadow gains 1d4 negative levels each round it spends within 5 feet of the wall (Fortitude negates). Passing through the wall imposes a -4 penalty on the save for that round. Twenty-four hours after gaining these negative levels, the subject must attempt a new Fortitude saving throw for each negative level. If a save succeeds, 1 negative level is removed. If it fails, the negative level becomes permanent. Wall of light can be made permanent with permanency (with a minimum caster level of 13th and cost of 11,000 gp).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5ba1020917997d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5ba1020917997d1"
+  },
+  "license": "OGL 1.0a"
+}

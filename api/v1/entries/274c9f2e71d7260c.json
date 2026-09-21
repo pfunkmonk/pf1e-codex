@@ -1,0 +1,25 @@
+{
+  "id": "274c9f2e71d7260c",
+  "name": "Implant False Reading",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 173",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 173\nSchool illusion (glamer); Level mesmerist 2, occultist 2, psychic 2\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange touch\nTarget object touched\nDuration 1 day/level\nSaving Throw none, see text; Spell Resistance no\nDescription\nYou implant a false psychometric reading into an object, imbuing the item with misleading information that might be learned from the object reading spell or through the psychometry occult skill unlock (see page 196). This information might fool enemies, create a false history, or pass on secret messages through objects to psychically attuned allies. You can implant any information you wish that could be implanted by the charge object spell, as well as up to one piece of information per 3 levels that could be attained using psychometry or the object reading spell. You can detail this information in any way you see fit, either making up a previous owner and circumstances involving the object from whole cloth, or attempting to emulate the biographical information and fictional accounts of a specific individual’s experience with the object.\n\nDuring the spell’s duration, creatures reading the object through the object reading spell or the psychometry occult skill unlock receive this false information in place of an item’s true history if they fail a Will saving throw. Creatures that succeed at their saves still detect and receive the false information, but recognize it for what is and are able to discern the fictitious information from the item’s true history without difficulty.\n\nThis spell masks its own magical aura, causing the target to not register as magical to detect spells and similar effects. This masking doesn’t conceal any other magical auras on the object, and can be overcome in the same ways as magic aura.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/274c9f2e71d7260c.json",
+    "web": "https://codex.pipsprojects.com/#/e/274c9f2e71d7260c"
+  },
+  "license": "OGL 1.0a"
+}

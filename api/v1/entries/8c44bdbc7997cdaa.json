@@ -1,0 +1,26 @@
+{
+  "id": "8c44bdbc7997cdaa",
+  "name": "Calculated Luck",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Mysteries pg. 50",
+  "book": "Occult Mysteries",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 3,
+      "oracle": 3,
+      "warpriest": 3,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Occult Mysteries"
+  },
+  "body": "Source Occult Mysteries pg. 50\nSchool divination; Level cleric 3, oracle 3, warpriest 3, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou are able to use the Path of Numbers to substantially boost your combat preparedness, but your foresight comes at a price. Roll 3d8 and refer to the Eight Basic Energies table on page 51. After rolling, assign each die to one of the following.\nEnergy Type: You gain vulnerability to the energy type that matches the die’s result for the duration of the spell. You take half again as much damage (+50%) from that energy type, regardless of whether you successfully saved against the damaging spell or effect.\nMagic School: For the spell’s duration, you cast all spells from the school that matches the die’s result at +1 caster level.\nd20 Roll Type: You receive a +2 luck bonus on the d20 roll that matches the die’s result for the duration of the spell.\n\nd8 Energy Type Magic School d20 Roll Type\n1 Air Enchantment Will save\n2 Electricity Illusion Reflex save\n3 Fire Necromancy Attack roll\n4 Sonic Evocation Initiative roll\n5 Acid Abjuration Fortitude save\n6 Water Transmutation Caster level check\n7 Cold Divination Concentration check\n8 Earth Conjuration Combat Maneuver Check",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8c44bdbc7997cdaa.json",
+    "web": "https://codex.pipsprojects.com/#/e/8c44bdbc7997cdaa"
+  },
+  "license": "OGL 1.0a"
+}

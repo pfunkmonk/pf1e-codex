@@ -1,0 +1,34 @@
+{
+  "id": "b04fae641eb02624",
+  "name": "Overwhelming Poison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 221",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 6,
+      "druid": 6,
+      "hunter": 4,
+      "oracle": 6,
+      "ranger": 4,
+      "shaman": 6,
+      "warpriest": 6,
+      "witch": 6
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 221\nSchool necromancy [poison]; Level antipaladin 4, cleric 6, druid 6, hunter 4, oracle 6, ranger 4, shaman 6, warpriest 6, witch 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (an adder's fang)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or one dose of poison; see text\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell increases the virulence of the targeted dose of poison, making the poison more difficult to resist. The poison is unaffected by delay poison, and the DC to remove it with neutralize poison is increased by 5. Additionally, the poison uses its own saving throw DC or overwhelming poison’s DC, whichever is higher.\n\nIf cast on a creature that is currently suffering from exposure to one or more doses of poison, the spell applies to one of the doses of your choice, or a random dose of poison affecting the target if you don’t know what poisons are afflicting the target.\n\nIf cast on a creature that is venomous, this spell affects the first dose of poison that creature delivers before the end of the spell’s duration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b04fae641eb02624.json",
+    "web": "https://codex.pipsprojects.com/#/e/b04fae641eb02624"
+  },
+  "license": "OGL 1.0a"
+}

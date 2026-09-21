@@ -1,0 +1,25 @@
+{
+  "id": "286481f3c2e25bdf",
+  "name": "Hardening",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Campaign Setting pg. 207",
+  "book": "Pathfinder Campaign Setting",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Pathfinder Campaign Setting"
+  },
+  "body": "Source Pathfinder Campaign Setting pg. 207\nSchool transmutation; Level arcanist 6, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one item of a volume no greater than 10 cu. ft./level\nDuration permanent\nSaving Throw none; Spell Resistance yes (object)\nDescription\nThis spell increases the hardness of materials by 1 point per 2 caster levels. The hardening spell does not in any way affect resistance to other forms of transformation.\n\nThis spell affects up to 10 cubic feet per level. If cast upon a metal or mineral, the spell affects 1 cubic foot per level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/286481f3c2e25bdf.json",
+    "web": "https://codex.pipsprojects.com/#/e/286481f3c2e25bdf"
+  },
+  "license": "OGL 1.0a"
+}

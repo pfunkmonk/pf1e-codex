@@ -1,0 +1,28 @@
+{
+  "id": "69ac2376e5b2d6e4",
+  "name": "Negate Aroma",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 234",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "occultist": 1,
+      "ranger": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 234\nSchool transmutation; Level alchemist 1, druid 1, hunter 1, investigator 1, occultist 1, ranger 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a pinch of alum)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object/level touched\nDuration 1 hour/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nWith a gesture, this spell allows you to dismiss even the foulest or most distinctive scents. When cast, the targeted creatures or objects lose all natural and unnatural odors. A creature under the effect of negate aroma cannot be tracked, located, or pinpointed by the scent special quality. In addition, this spell prevents the target creature from using the stench special ability and similar odor-based abilities (such as those possessed by troglodytes).\n\nNegate aroma does not prevent the target from acquiring outside smells or odors. Dowsing the creature with a pungent substance effectively negates the benefits of the spell until the substance is neutralized or washed away.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/69ac2376e5b2d6e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/69ac2376e5b2d6e4"
+  },
+  "license": "OGL 1.0a"
+}

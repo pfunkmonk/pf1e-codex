@@ -1,0 +1,26 @@
+{
+  "id": "dd285d9456f0768a",
+  "name": "Thirsting Entanglement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of the First World pg. 17",
+  "book": "Legacy of the First World",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "hunter": 4,
+      "ranger": 4,
+      "shaman": 4
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Legacy of the First World"
+  },
+  "body": "Thirsting Entanglement\nSource Legacy of the First World pg. 17\nSchool transmutation; Level druid 4, hunter 4, ranger 4, shaman 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange long (400 ft. + 40 ft./level)\nArea plants in a 40-ft.-radius spread\nDuration 1 min./level (D)\nSaving Throw Reflex partial; see text; Spell Resistance no\nDescription\nThis spell functions as entangle, except the plants latch on to targets and drain away their vitality. Any creature that fails a save to avoid becoming entangled or fails a check to break free takes 1d2 points of Constitution damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd285d9456f0768a.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd285d9456f0768a"
+  },
+  "license": "OGL 1.0a"
+}

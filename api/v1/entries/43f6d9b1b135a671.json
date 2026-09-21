@@ -1,0 +1,22 @@
+{
+  "id": "43f6d9b1b135a671",
+  "name": "Tick Swarm",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 2 pg. 265",
+  "book": "Bestiary 2",
+  "facets": {
+    "cr": 9,
+    "sz": "Fine",
+    "t": "vermin",
+    "al": "N",
+    "bk": "Bestiary 2",
+    "st": "swarm"
+  },
+  "body": "All | Unique\nTick, Tick Swarm\nThe rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm skitters forward.\nTick Swarm CR 9\nSource Bestiary 2 pg. 265\nXP 6,400\nN Fine vermin (swarm)\nInit +2; Senses darkvision 60 ft., scent; Perception +0\nDefense\nAC 23, touch 20, flat-footed 21 (+2 Dex, +3 natural, +8 size)\nhp 120 (16d8+48)\nFort +13, Ref +7, Will +5\nDefensive Abilities swarm traits; Immune mind-affecting effects, weapon damage\nOffense\nSpeed 30 ft., climb 30 ft.\nMelee swarm (4d6 plus disease, distraction, and blood drain)\nSpecial Attacks blood drain (1d4 Con), cling, distraction (DC 21)\nStatistics\nStr 1, Dex 14, Con 16, Int —, Wis 11, Cha 1\nBase Atk +12; CMB —; CMD —\nSkills Climb +10; Racial Modifiers uses Dex on Climb checks\nEcology\nEnvironment temperate forests\nOrganization solitary, pair, or colony (3–6)\nTreasure none\nSpecial Abilities\nCling (Ex) If a creature leaves a tick swarm’s square, the swarm takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes swarm damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.\n\nDisease (Ex) Bubonic Plague: Bite—injury; save Fort DC 21; onset 1 day; frequency 1/day; effect 1d4 Con damage, 1 Cha damage, fatigue; cure 2 consecutive saves. The DC is Con-based.\nDescription\nTick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks.\nCreatures in \"Tick\" Category\nName CR\nGiant Tick 1\nTick Swarm 9",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43f6d9b1b135a671.json",
+    "web": "https://codex.pipsprojects.com/#/e/43f6d9b1b135a671"
+  },
+  "license": "OGL 1.0a"
+}

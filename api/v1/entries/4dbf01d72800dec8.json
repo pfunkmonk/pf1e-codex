@@ -1,0 +1,27 @@
+{
+  "id": "4dbf01d72800dec8",
+  "name": "Shadow Invasion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 44",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "magus": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Planar Adventures"
+  },
+  "body": "Source Planar Adventures pg. 44\nSchool conjuration (summoning); Level arcanist 4, magus 4, sorcerer 4, summoner 4, summoner (unchained) 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a masterwork piercing or slashing weapon)\nEffect\nRange 30 ft.\nArea 30-ft. radius emanation centered on you\nDuration 1 round/level (D); see text\nSaving Throw none; Spell Resistance no\nDescription\nUsing a slashing motion with the spell’s focus as part of the casting of shadow invasion, you cut open a rift to the Plane of Shadow that fills a 30-foot area with shadowy energies. This area is stationary and becomes dark and gloomy, reducing the light level by one step (as darkness). Certain spells are enhanced within the area; spells of the shadow subschool that have reduced effects when disbelieved (such as shadow evocation) have their reduced effects increased by 20% (to a maximum of 90%) when determining their effects on targets within the area of shadow invasion.\n\nIn addition, the rift created by shadow invasion has a chance of attracting attention from the other side, and the spell can be inverted to bring these watchers through. When shadow invasion is dismissed as a standard action, there is a chance that a single evangelist kyton will be summoned under the caster’s command (as per summon monster V). This chance is 5% for every full round that shadow invasion was active. If the caster level of shadow invasion is 16th or greater, this effect summons an interlocutor kyton instead. A kyton summoned this way remains for a number of rounds equal to what the remaining duration of shadow invasion would have been had it not been dismissed. Successfully summoning a kyton this way is a lawful and evil act, as though casting a spell with the lawful and evil descriptors.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4dbf01d72800dec8.json",
+    "web": "https://codex.pipsprojects.com/#/e/4dbf01d72800dec8"
+  },
+  "license": "OGL 1.0a"
+}

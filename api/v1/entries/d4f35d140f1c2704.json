@@ -1,0 +1,732 @@
+{
+  "id": "d4f35d140f1c2704",
+  "name": "Summon Monster 4",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 352",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 4,
+      "arcanist": 4,
+      "bard": 4,
+      "cleric": 4,
+      "medium": 3,
+      "oracle": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "summoner": 3,
+      "summoner (unchained)": 3,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Summon Monster 4\nSource PRPG Core Rulebook pg. 352\nSchool conjuration (summoning) [see text]; Level antipaladin 4, arcanist 4, bard 4, cleric 4, medium 3, oracle 4, psychic 4, skald 4, sorcerer 4, spiritualist 4, summoner 3, summoner (unchained) 3, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (a tiny bag and a small candle)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster I, except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "1st Level",
+          "Subtype"
+        ],
+        [
+          "Dire rat*",
+          "—"
+        ],
+        [
+          "Dolphin*",
+          "—"
+        ],
+        [
+          "Dog*",
+          "—"
+        ],
+        [
+          "Eagle*",
+          "—"
+        ],
+        [
+          "Fire beetle*",
+          "—"
+        ],
+        [
+          "Poisonous frog*",
+          "—"
+        ],
+        [
+          "Pony (horse)*",
+          "—"
+        ],
+        [
+          "Viper (snake)*",
+          "—"
+        ],
+        [
+          "2nd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (worker)*",
+          "—"
+        ],
+        [
+          "Elemental (Small)",
+          "Elemental"
+        ],
+        [
+          "Giant centipede*",
+          "—"
+        ],
+        [
+          "Giant frog*",
+          "—"
+        ],
+        [
+          "Giant spider*",
+          "—"
+        ],
+        [
+          "Goblin dog*",
+          "—"
+        ],
+        [
+          "Horse*",
+          "—"
+        ],
+        [
+          "Hyena*",
+          "—"
+        ],
+        [
+          "Lemure (devil)",
+          "Evil, Lawful"
+        ],
+        [
+          "Octopus*",
+          "—"
+        ],
+        [
+          "Squid*",
+          "—"
+        ],
+        [
+          "Wolf*",
+          "—"
+        ],
+        [
+          "3rd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (soldier)*",
+          "—"
+        ],
+        [
+          "Ape*",
+          "—"
+        ],
+        [
+          "Aurochs (herd animal)*",
+          "—"
+        ],
+        [
+          "Boar*",
+          "—"
+        ],
+        [
+          "Cheetah*",
+          "—"
+        ],
+        [
+          "Constrictor snake*",
+          "—"
+        ],
+        [
+          "Crocodile*",
+          "—"
+        ],
+        [
+          "Dire bat*",
+          "—"
+        ],
+        [
+          "Dretch (demon)",
+          "Chaotic, Evil"
+        ],
+        [
+          "Electric eel*",
+          "—"
+        ],
+        [
+          "Lantern archon",
+          "Good, Lawful"
+        ],
+        [
+          "Leopard (cat)*",
+          "—"
+        ],
+        [
+          "Monitor lizard*",
+          "—"
+        ],
+        [
+          "Shark*",
+          "—"
+        ],
+        [
+          "Wolverine*",
+          "—"
+        ],
+        [
+          "4th Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (drone)*",
+          "—"
+        ],
+        [
+          "Bison (herd animal)*",
+          "—"
+        ],
+        [
+          "Deinonychus (dinosaur)*",
+          "—"
+        ],
+        [
+          "Dire ape*",
+          "—"
+        ],
+        [
+          "Dire boar*",
+          "—"
+        ],
+        [
+          "Dire wolf*",
+          "—"
+        ],
+        [
+          "Elemental (Medium)",
+          "Elemental"
+        ],
+        [
+          "Giant scorpion*",
+          "—"
+        ],
+        [
+          "Giant wasp*",
+          "—"
+        ],
+        [
+          "Grizzly bear*",
+          "—"
+        ],
+        [
+          "Hell hound",
+          "Evil, Lawful"
+        ],
+        [
+          "Hound archon",
+          "Good, Lawful"
+        ],
+        [
+          "Lion*",
+          "—"
+        ],
+        [
+          "Mephit (any)",
+          "Elemental"
+        ],
+        [
+          "Pteranodon (dinosaur)*",
+          "—"
+        ],
+        [
+          "Rhinoceros*",
+          "—"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Deity",
+          "Additional creature",
+          "Source"
+        ],
+        [
+          "Abadar",
+          "Resolute Griffon (LN)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Abadar",
+          "Two-Headed Celestial Giant Eagle (LN)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Ashava",
+          "Celestial Pegasus",
+          "Pathfinder #134: It Came from Hollow Mountain pg. 73"
+        ],
+        [
+          "Brigh",
+          "Clockwork Servant",
+          "Pathfinder #86: Lords of Rust pg. 74"
+        ],
+        [
+          "Deskari",
+          "Vermlek [chaotic, evil]",
+          "Pathfinder #78: City of Locusts pg. 70"
+        ],
+        [
+          "Erastil",
+          "Celestial Dire Boar (LG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Geryon",
+          "Venomous Snake Swarm",
+          "Pathfinder #107: Scourge of the Godclaw pg. 73"
+        ],
+        [
+          "Hastur",
+          "Byakhee",
+          "Pathfinder #110: The Thrushmoor Terror pg. 71"
+        ],
+        [
+          "Iomedae",
+          "Celestial Giant Eagle (LG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Irori",
+          "Giant Mantis",
+          "Pathfinder #53: Tide of Honor pg. 73"
+        ],
+        [
+          "Irori",
+          "Tiger",
+          "Pathfinder #53: Tide of Honor pg. 73"
+        ],
+        [
+          "Kabriri",
+          "Giant Fiendish Ghast",
+          "Mythic Realms pg. 55"
+        ],
+        [
+          "Lamashtu",
+          "Yeth Hound (CE)† [evil]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Mephistopheles",
+          "Guardian Scroll",
+          "Pathfinder #102: Breaking the Bones of Hell pg. 72"
+        ],
+        [
+          "Milani",
+          "Hound Archon (CG) [good, lawful]",
+          "Pathfinder #68: The Shackled Hut pg. 69"
+        ],
+        [
+          "Milani",
+          "Hound Archon (CG) [good, lawful]",
+          "Pathfinder #68: The Shackled Hut pg. 69"
+        ],
+        [
+          "Norgorber",
+          "Giant Black Widow (Spider)*†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Pharasma",
+          "Catrina (Psychopomp)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Szuriel",
+          "Fiendish urdefhan",
+          "Pathfinder #71: Rasputin Must Die! pg. 70"
+        ],
+        [
+          "Torag",
+          "Advanced Azer*† [fire]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Xhamen-Dor",
+          "Phycomid",
+          "Pathfinder #113: What Grows Within pg. 65"
+        ],
+        [
+          "Ydersius",
+          "Amphisbaena",
+          "Pathfinder #42: Sanctum of the Serpent God pg. 71"
+        ],
+        [
+          "Zon-Kuthon",
+          "Shadow (LE)",
+          "Pathfinder #11: Skeletons of Scarwall pg. 69"
+        ],
+        [
+          "Zyphus",
+          "Lacridaemon [evil]",
+          "Pathfinder #89: Palace of Fallen Stars pg. 75"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Choxani",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ekekeh",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Quickling",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Crysmal† [earth]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "D’ziriak†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dimetrodon (Dinasaur)*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Weasel*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Foo Lion† [good]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Seahorse*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Vulture*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giraffe (Herd Animal)*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Great White Shark*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Howler† [chaotic, evil]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Magmin† [fire]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Megaloceros (Megafauna)*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Pachycephalosaurus (Dinosaur)*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Parasaurolophus (Dinosaur)*†",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Schir (Demon)† [chaotic, evil]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Vulnudaemon (Daemon)† [evil]",
+          "Monster Summoner's Handbook pg. 29"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Black Widow*",
+          "Advanced Race Guide pg. 106"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Aghash (Div, NE) [evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Hell Hound (LE) [evil, fire, lawful]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Kelpie (NE)",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Schir (Demon, CE) [chaotic, evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Spring-Heeled Jack (CE)",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Yeth Hound (NE) [evil]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Zebub (Devil, LE) [evil, lawful]",
+          "Champions of Corruption pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Celestial Dire Wolf (NG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Celestial Giant Eagle (NG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Celestial Pegasus (NG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Faerie Dragon (NG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Foo Lion (NG) [good]",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Hound Archon (LG) [good, lawful]",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Pixie (NG)",
+          "Champions of Purity pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "D’ziriak (N)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Magmin (CN) [fire]",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Mephit (Any) (N)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Satyr (CN)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Shae (N)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Viduus (Psychopomp) (N)",
+          "Champions of Balance pg. 33"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Aghash [evil]",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Catrina",
+          "Advanced Class Guide pg. 219"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Nightmare Bats [evil]",
+          "Seven Swords of Sin pg. 32"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Aether Elemental (Medium)",
+          "Bestiary 5 pg. 106"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Air Elemental (Medium) [air]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ant, Giant (Drone)*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Bison (Herd Animal)*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Deinonychus (Dinosaur)*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Ape*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Boar*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Wolf*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Earth Elemental (Medium) [earth]",
+          "PRPG Core Rulebook pg. 351"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Fire Elemental (Medium) [fire]",
+          "PRPG Core Rulebook pg. 351"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Scorpion*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Wasp*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Grizzly Bear*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Hell Hound [evil, fire, lawful]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Hound Archon [good, lawful]",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ice Elemental (Medium) [air, cold, water]",
+          "Bestiary 2 pg. 114"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Lightning Elemental (Medium) [air]",
+          "Bestiary 2 pg. 116"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Lion*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Magma Elemental (Medium) [earth, fire]",
+          "Bestiary 2 pg. 118"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Mephit (Any)",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Mud Elemental (Medium) [earth, water]",
+          "Bestiary 2 pg. 120"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Pteranodon (Dinosaur)*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Rhinoceros*",
+          "PRPG Core Rulebook pg. 352"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Water Elemental (Medium) [water]",
+          "PRPG Core Rulebook pg. 351"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d4f35d140f1c2704.json",
+    "web": "https://codex.pipsprojects.com/#/e/d4f35d140f1c2704"
+  },
+  "license": "OGL 1.0a"
+}

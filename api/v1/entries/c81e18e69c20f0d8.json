@@ -1,0 +1,28 @@
+{
+  "id": "c81e18e69c20f0d8",
+  "name": "Nature's Exile",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 233",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "hunter": 3,
+      "witch": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 233\nSchool transmutation [curse]; Level druid 3, hunter 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell curses the creature touched, making it inimical to the natural world. All animals have an initial attitude of hostile toward the target. Familiars, being magical beasts, are not affected by this spell, but animal companions are. If you have an animal companion, it does not become hostile, but as long as you remain cursed, your animal companion takes a –2 penalty on all attack rolls, skill checks, and saving throws. The target also takes a –10 penalty on Survival skill checks as the weather and environment themselves seem to conspire to cause trouble.\n\nNature’s exile can be removed with break enchantment, limited wish, miracle, remove curse, or wish.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c81e18e69c20f0d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/c81e18e69c20f0d8"
+  },
+  "license": "OGL 1.0a"
+}

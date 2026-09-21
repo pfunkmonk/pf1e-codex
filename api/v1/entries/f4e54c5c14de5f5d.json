@@ -1,0 +1,34 @@
+{
+  "id": "f4e54c5c14de5f5d",
+  "name": "Paranoia",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 179",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "medium": 1,
+      "mesmerist": 1,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 179\nSchool illusion (phantasm) [mind-affecting]; Level arcanist 2, bard 2, medium 1, mesmerist 1, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe target believes everyone it sees is an enemy. The target becomes hostile to all creatures, treating all creatures as enemies and only itself as an ally. The target must attempt attacks of opportunity whenever any creature provokes them. Finally, whenever the target is adjacent to two or more creatures, its paranoia overwhelms it, and it takes a –2 penalty on attack rolls, weapon damage rolls, ability checks, skill checks, and saving throws.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f4e54c5c14de5f5d.json",
+    "web": "https://codex.pipsprojects.com/#/e/f4e54c5c14de5f5d"
+  },
+  "license": "OGL 1.0a"
+}

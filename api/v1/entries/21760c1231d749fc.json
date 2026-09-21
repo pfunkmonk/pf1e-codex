@@ -1,0 +1,24 @@
+{
+  "id": "21760c1231d749fc",
+  "name": "Castigate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 210",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "inquisitor": 2,
+      "mesmerist": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 210\nSchool enchantment (compulsion) [emotion, fear, language-dependent, mind-affecting]; Level inquisitor 2, mesmerist 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level or 1 round; see text\nSaving Throw Will partial; Spell Resistance yes\nDescription\nYou compel the target to beg for forgiveness. On a failed save, the target cowers with fear. On a successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a new save to end the effect. A creature who worships the same god as you takes a –2 penalty on its saving throw.\nCastigate, Mass\nSource Advanced Player's Guide pg. 210\nSchool enchantment (compulsion) [emotion, fear, language-dependent, mind-affecting]; Level inquisitor 5, mesmerist 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level or 1 round; see text\nSaving Throw Will partial; Spell Resistance yes\nDescription\nThis spell functions as castigate, except it affects many creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/21760c1231d749fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/21760c1231d749fc"
+  },
+  "license": "OGL 1.0a"
+}

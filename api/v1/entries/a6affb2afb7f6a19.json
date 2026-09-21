@@ -1,0 +1,30 @@
+{
+  "id": "a6affb2afb7f6a19",
+  "name": "Fumbletongue",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 221",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 221\nSchool enchantment (compulsion) [mind-affecting]; Level bard 1, mesmerist 1, psychic 1, skald 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1d4 rounds\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis enchantment causes a creature to be unable to speak intelligibly. Any effort the target makes to talk, in any language, comes out as a useless mix of unconnected words and noises. Even magic words are affected to some extent; the target has a 20% spell failure chance for any spell it attempts to cast with verbal components, and a 20% chance to incorrectly use a command word to activate a magic item. This spell has no effect on telepathic communication, or the vocalizations of creatures that lack a spoken language.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a6affb2afb7f6a19.json",
+    "web": "https://codex.pipsprojects.com/#/e/a6affb2afb7f6a19"
+  },
+  "license": "OGL 1.0a"
+}

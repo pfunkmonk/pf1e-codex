@@ -1,0 +1,28 @@
+{
+  "id": "2080e43c873bf0bb",
+  "name": "Absurdity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 108",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "spiritualist": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 108\nSchool illusion (phantasm) [emotion, mind-affecting]; Level bard 2, medium 2, mesmerist 2, psychic 2, skald 2, spiritualist 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget up to one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance no\nDescription\nYour targets perceive intimidation and threats as laughably absurd. A character attempting to intimidate your targets is instead perceived as having exaggerated facial features or babbling and awkward speech. Effects that impose fear conditions become objects of ridicule, with the targets making fun of the source of the object as it attempts to scare them.\n\nAbsurdity protects your targets from gaining lesser fear conditions (spooked, shaken, and scared), granting them immunity to spooked and a 50% chance to negate shaken or scared conditions instead of gaining them from any effect, including uses of the Intimidate skill to demoralize. Any other effect related to a spell or ability that generates fear (such as dying from a phantasmal killer) affects them normally, and effects that ignore immunity to fear also ignore absurdity.\n\nHowever, target creatures also have serious difficulty noticing potential threats; they take a –10 penalty on Sense Motive checks to avoid surprise or to notice that a creature is actively threatening or malicious and a –2 penalty on initiative checks. The spell doesn’t prevent spells or effects that provide early warning or a form of danger sense (like anticipate perilUM or find traps) from alerting the affected character to danger.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2080e43c873bf0bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/2080e43c873bf0bb"
+  },
+  "license": "OGL 1.0a"
+}

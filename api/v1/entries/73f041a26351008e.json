@@ -1,0 +1,29 @@
+{
+  "id": "73f041a26351008e",
+  "name": "Insect Plague",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 301",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 5,
+      "druid": 5,
+      "hunter": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "summoner": 4,
+      "warpriest": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 301\nSchool conjuration (summoning); Level cleric 5, druid 5, hunter 5, oracle 5, shaman 5, summoner 4, summoner (unchained) 5, warpriest 5\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect one swarm of wasps per three levels, each of which be adjacent to at least one other swarm\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\nDescription\nYou summon a number of swarms of wasps (one per three levels, to a maximum of six swarms at 18th level). The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). You may summon the wasp swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned, and won't pursue creatures that flee.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73f041a26351008e.json",
+    "web": "https://codex.pipsprojects.com/#/e/73f041a26351008e"
+  },
+  "license": "OGL 1.0a"
+}

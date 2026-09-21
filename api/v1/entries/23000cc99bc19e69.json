@@ -1,0 +1,22 @@
+{
+  "id": "23000cc99bc19e69",
+  "name": "Wickerman",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 4 pg. 277",
+  "book": "Bestiary 4",
+  "facets": {
+    "cr": 13,
+    "sz": "Colossal",
+    "t": "construct",
+    "al": "N",
+    "bk": "Bestiary 4",
+    "st": "fire"
+  },
+  "body": "This humanoid-shaped colossus is a towering fury of burning wicker and wood.\nWickerman CR 13\nSource Bestiary 4 pg. 277\nXP 25,600\nN Colossal construct (fire)\nInit +3; Senses darkvision 60 ft., low-light vision; Perception +0\nDefense\nAC 20, touch 5, flat-footed 17 (+3 Dex, +15 natural, –8 size)\nhp 157 (14d10+80); fast healing 1\nFort +4, Ref +7, Will +4\nDefensive Abilities fire healing, hardness 5; Immune construct traits, fire\nWeaknesses vulnerable to cold\nOffense\nSpeed 30 ft.\nMelee 2 slams +19 (2d8+13 plus burn and grab)\nRanged burning brand +9 (4d6+13 plus burn)\nSpace 30 ft., Reach 30 ft.\nSpecial Attacks burn (1d6 fire, DC 17), wicker cage\nStatistics\nStr 37, Dex 16, Con —, Int —, Wis 10, Cha 7\nBase Atk +14; CMB +35 (+39 grapple); CMD 48\nSQ constant blaze\nEcology\nEnvironment any land\nOrganization solitary\nTreasure none\nSpecial Abilities\nBurning Brand (Ex) Once per round, a wickerman can draw forth pieces of its own body and throw them as a ranged attack with a range increment of 60 feet.\n\nConstant Blaze (Su) A wickerman constantly burns but is never consumed. Its flames are magical. Immersion in water only suppresses the flames, and only for as long as the wickerman is immersed. While its flames are suppressed, the wickerman loses its burn ability, and its wicker cage ability doesn’t deal fire damage or cause creatures to catch on fire.\n\nFire Healing (Ex) A magical attack that deals fire damage heals the wickerman 1 point of damage for every 3 points of damage the attack would otherwise deal.\n\nWicker Cage (Su) If a wickerman successfully grapples a creature, as a move action it can shove the grabbed creature into the cage built into its chest. This works like swallow whole (4d6 fire damage plus the target automatically catches on fire [Pathfinder RPG Core Rulebook 444], AC 17, 15 hp). The DC to put out this fire is 17. If a creature cuts its way free, the wickerman can’t use this ability again until it is fully healed. The save DC is Constitution-based.\nDescription\nA wickerman is a towering wicker statue with a cage in its chest. Inanimate ones are used for sacrifices to gods or nature faiths, and the constructs to terrify a faith’s enemies.\nConstruction\nA wickerman is created from 12,000 pounds of wicker and rare wood costing 10,000 gp. Activating the wickerman requires sacrificing a living humanoid inside its chest cage. Sacrificing a creature is an evil act.\nWickerman\nCL 14th; Price 110,000 gp\nConstruction\nRequirements Craft Construct, fire seeds, wall of fire, warp wood, creator must be caster level 12th; Skill Craft (carpentry) or Craft (sculptures) DC 15; Cost 60,000 gp",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/23000cc99bc19e69.json",
+    "web": "https://codex.pipsprojects.com/#/e/23000cc99bc19e69"
+  },
+  "license": "OGL 1.0a"
+}

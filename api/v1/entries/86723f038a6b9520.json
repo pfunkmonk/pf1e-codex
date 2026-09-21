@@ -1,0 +1,23 @@
+{
+  "id": "86723f038a6b9520",
+  "name": "Tree Stride",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 362",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 5,
+      "hunter": 4,
+      "ranger": 4
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 362\nSchool conjuration (teleportation); Level druid 5, hunter 4, ranger 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 hour/level or until expended; see text\nDescription\nWhen you cast this spell, you gain the ability to step into a tree, magically infusing yourself with the plant. Once within a tree, you can teleport from that particular tree to another tree. The trees you enter must be of the same kind, must be living, and must have girth at least equal to yours. By moving into an oak tree (for example), you instantly know the location of all other oak trees within transport range (see below) and may choose whether you want to pass into one or simply step back out of the tree you moved into. You may choose to pass to any tree of the appropriate kind within the transport range as shown on the following table.\n\nType of Tree Transport Range\nOak, ash, yew 3,000 feet\nElm, linden 2,000 feet\nOther deciduous 1,500 feet\nAny coniferous 1,000 feet\n\nYou may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree). The spell lasts until the duration expires or you exit a tree. Each transport is a full-round action.\n\nYou can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends. If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86723f038a6b9520.json",
+    "web": "https://codex.pipsprojects.com/#/e/86723f038a6b9520"
+  },
+  "license": "OGL 1.0a"
+}

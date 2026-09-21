@@ -1,0 +1,27 @@
+{
+  "id": "3a12559faa621d3a",
+  "name": "Calm Animals",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 252",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 252\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level druid 1, hunter 1, psychic 1, ranger 1, shaman 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets animals within 30 ft. of each other\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell soothes and quiets animals, rendering them docile and harmless. Only ordinary animals (those with Intelligence scores of 1 or 2) can be affected by this spell. All the subjects must be of the same kind, and no two may be more than 30 feet apart. The maximum number of HD of animals you can affect is equal to 2d4 + caster level.\n\nThe affected creatures remain where they are and do not attack or flee. They are not helpless and defend themselves normally if attacked. Any threat breaks the spell on the threatened creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a12559faa621d3a.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a12559faa621d3a"
+  },
+  "license": "OGL 1.0a"
+}

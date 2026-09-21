@@ -1,0 +1,25 @@
+{
+  "id": "5f363a4b9f74318c",
+  "name": "Slowing Mud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 192",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "hunter": 4,
+      "shaman": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 192\nSchool conjuration (creation); Level druid 4, hunter 4, shaman 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (earth and water)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level (see text)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou coat the targets in thick, sticky mud. The mud acts as a slow spell and also blinds the targets. A creature can use a standard action to remove the mud from its eyes or the eyes of an adjacent creature, ending the blinded condition for that individual. Removing enough mud to end the slow effect is a full-round action. Jumping into a lake or being subject to an effect that creates a lot of water (such as create water or hydraulic push) removes all the mud in 1 round.\n\nA haste effect cast on a creature slowed by the mud allows it to act normally for the duration of the haste. Slow does not stack with the effects of slowing mud. This spell cannot counter or dispel haste.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5f363a4b9f74318c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5f363a4b9f74318c"
+  },
+  "license": "OGL 1.0a"
+}

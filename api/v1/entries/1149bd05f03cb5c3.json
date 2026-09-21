@@ -1,0 +1,350 @@
+{
+  "id": "1149bd05f03cb5c3",
+  "name": "Summon Nature's Ally 3",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 354",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "hunter": 3,
+      "ranger": 3,
+      "shaman": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Summon Nature's Ally 3\nSource PRPG Core Rulebook pg. 354\nSchool conjuration (summoning); Level druid 3, hunter 3, ranger 3, shaman 3\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon nature's ally I, except that you can summon one 3rd-level creature, 1d3 2nd-level creatures of the same kind, or 1d4+1 1st-level creatures of the same kind.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "1st Level",
+          "Subtype"
+        ],
+        [
+          "Dire rat",
+          "—"
+        ],
+        [
+          "Dog",
+          "—"
+        ],
+        [
+          "Dolphin",
+          "—"
+        ],
+        [
+          "Eagle",
+          "—"
+        ],
+        [
+          "Giant centipede",
+          "—"
+        ],
+        [
+          "Fire beetle",
+          "—"
+        ],
+        [
+          "Mite (gremlin)",
+          "—"
+        ],
+        [
+          "Poisonous frog",
+          "—"
+        ],
+        [
+          "Pony (horse)",
+          "—"
+        ],
+        [
+          "Stirge",
+          "—"
+        ],
+        [
+          "Viper (snake)",
+          "—"
+        ],
+        [
+          "2nd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (worker)",
+          "—"
+        ],
+        [
+          "Elemental (Small)",
+          "Elemental"
+        ],
+        [
+          "Giant frog",
+          "—"
+        ],
+        [
+          "Giant spider",
+          "—"
+        ],
+        [
+          "Goblin Dog",
+          "—"
+        ],
+        [
+          "Horse",
+          "—"
+        ],
+        [
+          "Hyena",
+          "—"
+        ],
+        [
+          "Octopus",
+          "—"
+        ],
+        [
+          "Squid",
+          "—"
+        ],
+        [
+          "Wolf",
+          "—"
+        ],
+        [
+          "3rd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (soldier)",
+          "—"
+        ],
+        [
+          "Ape",
+          "—"
+        ],
+        [
+          "Aurochs (herd animal)",
+          "—"
+        ],
+        [
+          "Boar",
+          "—"
+        ],
+        [
+          "Cheetah",
+          "—"
+        ],
+        [
+          "Constrictor snake",
+          "—"
+        ],
+        [
+          "Crocodile",
+          "—"
+        ],
+        [
+          "Dire bat",
+          "—"
+        ],
+        [
+          "Electric Eel",
+          "—"
+        ],
+        [
+          "Giant crab",
+          "—"
+        ],
+        [
+          "Leopard (cat)",
+          "—"
+        ],
+        [
+          "Monitor lizard",
+          "—"
+        ],
+        [
+          "Shark",
+          "—"
+        ],
+        [
+          "Wolverine",
+          "—"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Deity",
+          "Additional creature",
+          "Source"
+        ],
+        [
+          "Abadar",
+          "Resolute Hippogriff (LN)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Asmodeus",
+          "Hell Hound† [evil, fire, lawful]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Cayden Cailean",
+          "Satyr (without pipes, CG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Desna",
+          "Lyrakien (Azata)† [chaotic, good]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Gorum",
+          "Iron Cobra (no poison)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Nethys",
+          "Paracletus (Aeon)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Norgorber",
+          "Fiendish Choker†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Pharasma",
+          "Nosoi (Psychopomp)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Rovagug",
+          "Cythnigot (Qlippoth)† [chaotic, evil]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Shelyn",
+          "Silvanshee (agathion)† [good]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Torag",
+          "Dire Badger†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Brownie",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Leprechaun (without major creation)",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Fungus Leshy",
+          "Heroes of the Wild pg. 23"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Weedwhip",
+          "Heroes of the Wild pg. 23"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Shikigami",
+          "Advanced Class Guide pg. 217"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Fungus Leshy",
+          "Advanced Class Guide pg. 217"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ant, Giant (Soldier)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ape",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Aurochs (Herd Animal)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Boar",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Cheetah",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Constrictor Snake",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Crocodile",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Bat",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Electric Eel",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Crab",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Leopard (Cat)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Monitor Lizard",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Shark",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Wolverine",
+          "PRPG Core Rulebook pg. 353"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1149bd05f03cb5c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/1149bd05f03cb5c3"
+  },
+  "license": "OGL 1.0a"
+}

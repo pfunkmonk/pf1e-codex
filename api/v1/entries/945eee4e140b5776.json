@@ -1,0 +1,27 @@
+{
+  "id": "945eee4e140b5776",
+  "name": "Silt Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Sea pg. 21",
+  "book": "Blood of the Sea",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of the Sea"
+  },
+  "body": "Source Blood of the Sea pg. 21\nSchool illusion (glamer); Level arcanist 3, bard 3, skald 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a smooth stone)\nEffect\nRange 20 ft.\nEffect 20-ft.-radius centered on you\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell generates an illusory silt cloud that drifts around you and moves with you. The cloud provides total concealment to creatures within it (including you) when the spell is cast. Creatures moving into the cloud after the spell is cast gain concealment (but not total concealment) due to the illusion. Any creatures within the cloud can see each other normally and can see out from within the cloud as though it were transparent. If a creature other than you that has total concealment due to the cloud makes an attack against any foe, it loses total concealment and gains concealment instead. If you make an attack against any creature, the spell ends.\n\nA creature that examines the cloud from the outside and succeeds at a DC 20 Knowledge (nature) check notices the silt cloud is unnaturally compact and fast moving, and that creature can attempt an immediate saving throw to disbelieve the illusion. Other circumstances (such as if the silt cloud floats in the middle of otherwise clear waters) can modify the DC of the Knowledge (nature) check.\n\nThis spell can be cast only underwater.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/945eee4e140b5776.json",
+    "web": "https://codex.pipsprojects.com/#/e/945eee4e140b5776"
+  },
+  "license": "OGL 1.0a"
+}

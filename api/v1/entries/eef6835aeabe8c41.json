@@ -1,0 +1,26 @@
+{
+  "id": "eef6835aeabe8c41",
+  "name": "Sylvan Hideaway",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #116: Fangs of War pg. 67",
+  "book": "Pathfinder #116: Fangs of War",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "hunter": 3,
+      "ranger": 3,
+      "shaman": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder #116: Fangs of War"
+  },
+  "body": "Source Pathfinder #116: Fangs of War pg. 67\nSchool conjuration (creation); Level druid 3, hunter 3, ranger 3, shaman 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (one pound of unworked stone or wood)\nEffect\nRange touch\nTarget one 5-foot square of touched earth\nDuration 2 hours/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nWhen this spell is cast on a natural, unworked surface, it creates an extradimensional underground space large enough to comfortably hold two creatures of any size per caster level (maximum 12). The room is sealed by a 5-foot-square camouflaged trap door that can be locked from within. (This trap door has hardness 10 and 20 hit points per caster level; the Perception DC to see the hidden trap door equals the spell’s save DC.) The door and room are made of the same material of the material component used to cast the spell. You can choose the shape and configuration of the room when you create it; however, any furnishings (tables, beds, etc.) in the room are made of the same material as the room and cannot be moved once created. When the spell ends, anything inside the space is ejected to the surface in the nearest available square.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eef6835aeabe8c41.json",
+    "web": "https://codex.pipsprojects.com/#/e/eef6835aeabe8c41"
+  },
+  "license": "OGL 1.0a"
+}

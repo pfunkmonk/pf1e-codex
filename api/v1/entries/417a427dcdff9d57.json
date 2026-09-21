@@ -1,0 +1,25 @@
+{
+  "id": "417a427dcdff9d57",
+  "name": "Implanted Projection",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 188",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 1,
+      "psychic": 1,
+      "spiritualist": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Telempathic Projection\nSource Occult Adventures pg. 188\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level mesmerist 1, psychic 1, spiritualist 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou alter the target’s mood, adjusting its attitude toward you or another creature you designate by one step either positively or negatively (see the Diplomacy skill on page 94 of the Pathfinder RPG Core Rulebook). You can instead use this spell to assist your own or an ally’s Bluff, Diplomacy, Intimidate, Perform, or Sense Motive check, granting that check a +5 insight bonus against the target of your telempathic projection with no save. In this case, the spell’s duration expires immediately when the skill check is complete.\nImplanted Projection\nSource Occult Origins pg. 13\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level mesmerist 3, psychic 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance Yes\nDescription\nThis spell functions as telempathic projectionOA, except its mood-altering effects remain dormant in the target’s mind. Upon casting this spell, the caster designates a command word or phrase, of which the target retains no memory. The next creature to speak the command word or phrase to the target triggers the implanted telempathic projection, treating the speaker as the original spellcaster.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/417a427dcdff9d57.json",
+    "web": "https://codex.pipsprojects.com/#/e/417a427dcdff9d57"
+  },
+  "license": "OGL 1.0a"
+}

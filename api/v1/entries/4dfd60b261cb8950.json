@@ -1,0 +1,32 @@
+{
+  "id": "4dfd60b261cb8950",
+  "name": "Icicle Dagger",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 224",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "occultist": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 224\nSchool conjuration (creation) [cold]; Level arcanist 1, bloodrager 1, occultist 1, sorcerer 1, summoner 1, summoner (unchained) 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 0 ft.\nEffect one icicle\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nYou create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 frost dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4dfd60b261cb8950.json",
+    "web": "https://codex.pipsprojects.com/#/e/4dfd60b261cb8950"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3b7cb052db02a601",
+  "name": "Spell Scourge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 243",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "oracle": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 243\nSchool abjuration; Level arcanist 7, cleric 7, oracle 7, sorcerer 7, witch 7, wizard 7 (Nethys)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous or 1d4 rounds; see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nA whip of cracking magical might appears in your hand, allowing you lash spells from the mind of enemy spellcasters. With a lash of bluish-purple energy, you strip many protective spells and effects from a single creature. If the target of this spell is currently under the effects of any harmless spells or effects, it must succeed at a Will save or all of those spells and effects end, stripping the target of the benefit of those spells. If the target is not currently under the effect of least one harmless spell, the target is instead confused for 1d4 rounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3b7cb052db02a601.json",
+    "web": "https://codex.pipsprojects.com/#/e/3b7cb052db02a601"
+  },
+  "license": "OGL 1.0a"
+}

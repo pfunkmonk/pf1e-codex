@@ -1,0 +1,27 @@
+{
+  "id": "108a6049c1c73015",
+  "name": "Spiked Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 246",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "summoner (unchained)": 3,
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Spiked Pit\nSource Advanced Player's Guide pg. 246\nSchool conjuration (creation); Level arcanist 3, sorcerer 3, summoner 3, summoner (unchained) 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, F (miniature shovel costing 10 gp)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect 10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\nDuration 1 round + 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\nDescription\nThis spell functions as create pit, except that the pit is lined with wickedly sharp spikes along its bottom and walls and has a maximum depth of 50 feet. Creatures who fall into the pit take falling damage as normal, plus 2d6 points of piercing damage from the spikes. Any creature or object coming into contact with the spikes along the walls, such as a creature trying to climb out, or rope or other typical aids to climbing, takes 1d6 points of piercing damage each round they are in contact with the walls. For those willing to accept the damage incurred while climbing, the pit’s walls have a Climb DC of 20.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/108a6049c1c73015.json",
+    "web": "https://codex.pipsprojects.com/#/e/108a6049c1c73015"
+  },
+  "license": "OGL 1.0a"
+}

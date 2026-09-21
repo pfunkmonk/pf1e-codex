@@ -1,0 +1,27 @@
+{
+  "id": "69f4e3eec7d427d5",
+  "name": "Blazing Rainbow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 175",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 6,
+      "hunter": 6
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 175\nSchool evocation [light]; Level druid 6, hunter 6\nCasting\nCasting Time 1 round\nComponents V, S, M (a drop of rainwater)\nEffect\nRange 0 ft. or 10 ft./level\nEffect bow or bridge of light\nDuration 1 minute/level or until discharged (see text)\nSaving Throw none; Spell Resistance no\nDescription\nYou create a spectrum of multicolored solid light that can be used for one of two effects.\n\nBow: The spell creates a longbow or shortbow appropriate for your size, and you are proficient in the use of this weapon. When drawn, the bow automatically creates a +1 seeking brilliant energy arrow; it cannot fire any other arrows. A creature struck by one of these arrows is surrounded by faerie fire and dazzled for 1 minute. This version of the spell ends when you have fired a number of arrows equal to your caster level.\n\nBridge: The light forms a bridge or ramp 5 feet wide and up to 10 feet long per caster level. Creatures on the bridge are dazzled. Allies gain a bonus equal to your Wisdom modifier (minimum 1) on checks, saves, and to their CMD to resist being moved from the bridge against their will. Enemies take a penalty equal to your Wisdom modifier (minimum 1) checks, saves, and to their CMD to resist being moved from the bridge against their will.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/69f4e3eec7d427d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/69f4e3eec7d427d5"
+  },
+  "license": "OGL 1.0a"
+}

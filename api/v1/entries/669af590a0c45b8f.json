@@ -1,0 +1,29 @@
+{
+  "id": "669af590a0c45b8f",
+  "name": "Blessing of the Mole",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 208",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 3,
+      "hunter": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "ranger": 3,
+      "warpriest": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 208\nSchool transmutation; Level cleric 3, hunter 3, inquisitor 3, oracle 3, paladin 3, ranger 3, warpriest 3\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 1 creature/level\nDuration 1 minute/level\nSaving Throw none (harmless); Spell Resistance yes (harmless)\nDescription\nThe targets gain darkvision 30 feet and a +2 competence bonus on Stealth checks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/669af590a0c45b8f.json",
+    "web": "https://codex.pipsprojects.com/#/e/669af590a0c45b8f"
+  },
+  "license": "OGL 1.0a"
+}

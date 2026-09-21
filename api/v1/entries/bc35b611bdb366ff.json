@@ -1,0 +1,152 @@
+{
+  "id": "bc35b611bdb366ff",
+  "name": "Creating Occult Rituals",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Occult Adventures pg. 214",
+  "book": "Occult Adventures",
+  "facets": {
+    "bk": "Occult Adventures"
+  },
+  "body": "Rules Index | GM Screen\nOccult Rules / Occult Rituals\n\nCreating Occult Rituals\nSource Occult Adventures pg. 214\nWhile the occult rituals provided in this book give you numerous options with which to dabble, eventually you may want to create your own rituals. Creating a new occult ritual has five main steps.\n\nStep 1—Concept: As when creating any rules component, you should begin by deciding what you want the ritual to do. Rituals are often an interesting way to introduce unusually powerful magical effects into your game in a limited or controlled way. They can also introduce these effects in a manner that is more specific than similar higher-level spell effects. The ritual’s purpose should influence subsequent design decisions.\n\nStep 2—Determine School: Once you have the concept for the ritual, next determine which school best suits the ritual’s effect, just as if it were any other type of spell. If you’re unsure which school is most appropriate, compare the effects with existing spells. If a ritual could have one or more possible schools, determine which is the most relevant school and use that one.\n\nStep 3—Determine Ritual Level: This step involves setting the level of the occult ritual. Occult rituals are always equivalent to at least 4th-level spells. Often the best way to determine a ritual level is to compare it to other spells in the game, or to use the guidelines for designing new spells. The ritual level determines how many total successes are required to cast the ritual, the DCs for the skill checks needed to complete the ritual, the save DC for the ritual’s effect (if applicable), and indirectly determines the ritual’s range and duration.\n\nThe number of skill checks the ritual requires is equal to the level of the ritual, and the base DC of the skill checks needed to complete a ritual is 28 + the ritual level. Any saving throw DCs of the ritual (including any DC to remove a temporary negative level gained by the backlash or by failing the ritual) are equal to 10 + the ritual level + the primary caster’s Intelligence, Wisdom, or Charisma bonus (whichever is highest).\n\nIn general, the spell a ritual is based on will give guidelines on the range, targets, area, effect, duration, and any saving throw or spell resistance that applies. If you are unsure or are creating a new effect for your ritual, you can use the suggestions in the Ritual Benchmarks Based on School below.\n\nWhile the ritual’s school or the spell it’s based on gives you a starting point for the ritual’s details, you may want to deviate from those examples when determining the particulars. Doing so to a greater or lesser degree can and should affect the skill check DCs for casting a ritual, and can also affect the casting time of a ritual. Table 5–1: Modifying Occult Rituals gives some examples of how to modify DCs and casting times.\n\nTable 5-1: Modifying Occult Rituals\nCasting Time Check DC Modifier or Modification\nCasting time is restricted (such as \"only during a full moon\") -4\nCasting time is severely restricted (such as \"only during a lunar eclipse\") -8\nFocus and Material Components\nExpensive material component (500 gp) -1\nExpensive material component (5,000 gp) -2\nExpensive material component (25,000 gp) -4\nExpensive focus (5,000 gp) -1\nExpensive focus (25,000 gp) -2\nRange\nGreater range than normal +1 to +6\nShorter range than normal -1 to -4\nArea\nLarger area than normal +1 to +6\nSmaller area than normal -1 to -4\nTarget\nUnwilling target must be helpless -2\nLimited targets (by HD, creature type, and so on) -3\nSingle target to multiple targets +4\nDuration\nGreater duration than normal +1 to +6\nShorter duration than normal -1 to -4\nOne year or more casting time in increments of 1 hour/level instead of 10 minutes/level\nBacklash\nPer 2d6 points of damage -1\nCaster is exhausted -2\nPer temporary negative level caster gains -2\nPer permanent negative level caster gains -4\nCaster reduced to –1 hp -3\nCaster infected with disease -4\nCaster suffers curse effects -4\nBacklash affects secondary casters too -1\n\nStep 4—Determine Ritual’s Skills: This step involves determining the skills required to cast the ritual. The chosen skills should have a connection to the concept or the effect of the ritual. While a number of Knowledge skills are obvious choices (especially Knowledge [arcana] and Knowledge [religion]), more interesting rituals may feature other skills. Often these other skills allow secondary casters to play a more active role in the casting or make the ritual more interesting and challenging. In all cases, you should require checks from two or more skills.\n\nStep 5—Create Backlash and Failure Effects: The last step is to figure out the effects of the ritual’s backlash and what happens to the casters if the ritual fails. Like modifying the base spell or deviating from the baselines of the ritual’s school, the backlash and its severity can affect the DCs of the skill checks made to cast the ritual (see Table 5–1: Modifying Occult Rituals). Backlashes should be minor debilitations rather than severe punishments, and you need to decide whether they affect just the primary caster or all the casters.\n\nFailure effects should be much more severe and should not invalidate or overlap with the effects of the backlash (since the backlash occurs whether or not the ritual succeeds). They should always represent the cost associated with the casting of uncontrolled magic, and they can be very debilitating to the casters, and could even harm those not associated with the ritual (especially for high-level rituals).\n\nOccult Ritual Benchmarks by School\nEach summary below specifies the range, target, duration, and other aspects of an occult ritual associated with a particular school.\n\nAbjuration: Range close; Target one or more creatures, no two of which can be more than 30 ft. apart; Duration minutes; Saving Throw Will negates; SR yes.\n\nConjuration: Range close; Target one creature; Duration hours (instantaneous for teleportation subschool); Saving Throw Will negates (harmless); SR yes (harmless).\n\nDivination: Range long; Target personal; Duration minutes; Saving Throw none; SR no.\n\nEnchantment: Range close; Target one living creature; Duration minutes; Saving Throw Will negates; SR yes.\n\nEvocation: Range medium; Area 5-ft.-wide bolt or 20-ft.-radius burst; Duration instantaneous; Saving Throw Reflex half; SR yes.\n\nIllusion: Range touch; Target one living creature or 20 cu. ft. of matter; Duration minutes; Saving Throw Will disbelief; SR no.\n\nNecromancy: Range close; Target one or more creatures or corpses; Duration instantaneous; Saving Throw none; SR no.\n\nTransmutation: Range medium; Target one creature or 20 cu. ft. of matter; Duration rounds; Saving Throw Fortitude half (or harmless); SR yes.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Casting Time",
+          "Check DC Modifier or Modification"
+        ],
+        [
+          "Casting time is restricted (such as \"only during a full moon\")",
+          "-4"
+        ],
+        [
+          "Casting time is severely restricted (such as \"only during a lunar eclipse\")",
+          "-8"
+        ],
+        [
+          "Focus and Material Components",
+          ""
+        ],
+        [
+          "Expensive material component (500 gp)",
+          "-1"
+        ],
+        [
+          "Expensive material component (5,000 gp)",
+          "-2"
+        ],
+        [
+          "Expensive material component (25,000 gp)",
+          "-4"
+        ],
+        [
+          "Expensive focus (5,000 gp)",
+          "-1"
+        ],
+        [
+          "Expensive focus (25,000 gp)",
+          "-2"
+        ],
+        [
+          "Range",
+          ""
+        ],
+        [
+          "Greater range than normal",
+          "+1 to +6"
+        ],
+        [
+          "Shorter range than normal",
+          "-1 to -4"
+        ],
+        [
+          "Area",
+          ""
+        ],
+        [
+          "Larger area than normal",
+          "+1 to +6"
+        ],
+        [
+          "Smaller area than normal",
+          "-1 to -4"
+        ],
+        [
+          "Target",
+          ""
+        ],
+        [
+          "Unwilling target must be helpless",
+          "-2"
+        ],
+        [
+          "Limited targets (by HD, creature type, and so on)",
+          "-3"
+        ],
+        [
+          "Single target to multiple targets",
+          "+4"
+        ],
+        [
+          "Duration",
+          ""
+        ],
+        [
+          "Greater duration than normal",
+          "+1 to +6"
+        ],
+        [
+          "Shorter duration than normal",
+          "-1 to -4"
+        ],
+        [
+          "One year or more",
+          "casting time in increments of 1 hour/level instead of 10 minutes/level"
+        ],
+        [
+          "Backlash",
+          ""
+        ],
+        [
+          "Per 2d6 points of damage",
+          "-1"
+        ],
+        [
+          "Caster is exhausted",
+          "-2"
+        ],
+        [
+          "Per temporary negative level caster gains",
+          "-2"
+        ],
+        [
+          "Per permanent negative level caster gains",
+          "-4"
+        ],
+        [
+          "Caster reduced to –1 hp",
+          "-3"
+        ],
+        [
+          "Caster infected with disease",
+          "-4"
+        ],
+        [
+          "Caster suffers curse effects",
+          "-4"
+        ],
+        [
+          "Backlash affects secondary casters too",
+          "-1"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc35b611bdb366ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc35b611bdb366ff"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "45d1bb05d6328a82",
+  "name": "Depletable Statistics",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Magic pg. 135",
+  "book": "Ultimate Magic",
+  "facets": {
+    "bk": "Ultimate Magic"
+  },
+  "body": "Rules Index | GM Screen\nMastering Magic / Designing Spells\n\nDepletable Statistics\nSource Ultimate Magic pg. 135\nDepletable statistics are any values in a creature or object’s stat block that can be reduced by some form of attack and that can neutralize, kill, or destroy the creature or object when they reach a low value (typically 0). Hit points, ability scores, and levels are all depletable statistics—a creature falls unconscious below 0 hit points and eventually dies; objects, undead, and constructs are destroyed at 0 hit points; creatures are made helpless or killed by bringing an ability score to 0; creatures die when their negative levels equal their total Hit Dice. Many magical attacks and most nonmagical attacks reduce a target’s depletable statistics in some way, eventually defeating the target.\n\nHowever, attack bonuses, saving throw bonuses, Armor Class, hardness, CMB, CMD, initiative, speed, skill modifiers, and most other game statistics are not depletable statistics because no matter how low these statistics get, the affected creature or object is still able to take actions. For example, a spell that gives a target a –10 attack penalty has little effect on a sorcerer casting fireball, as would a spell that gave her a –10 penalty on her Will saving throws; despite her poor attack rolls and miserable Will saves, she is still quite capable of blasting her opponents to bits, whether these penalties are –10 or –100. Similarly, a fighter with a –10 penalty on Fortitude saving throws can still swing a sword, as can one with a –10 penalty to Armor Class; the fighter is still viable despite these penalties.\n\n“Depletable statistic” isn’t an official game term, but it is a helpful concept when comparing power levels of spells—attacking depletable statistics is a war of attrition that can eventually wear down the target, whereas adding penalties to non-depletable statistics may have no effect at all, as the target may have other attacks that allow them to ignore those penalties.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45d1bb05d6328a82.json",
+    "web": "https://codex.pipsprojects.com/#/e/45d1bb05d6328a82"
+  },
+  "license": "OGL 1.0a"
+}

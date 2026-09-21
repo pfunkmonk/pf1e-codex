@@ -1,0 +1,35 @@
+{
+  "id": "a79744cba653aefc",
+  "name": "Touch of Slime",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 243",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "druid": 4,
+      "hunter": 4,
+      "investigator": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "disease"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 243\nSchool conjuration (creation) [disease]; Level alchemist 4, arcanist 4, bloodrager 4, druid 4, hunter 4, investigator 4, psychic 4, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of acid and a black glass sphere)\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou create a coating of slime on your hand. When you make a successful melee touch attack with the slime, it pulls free of you and sticks to the target, at which point it acts like green slime, dealing 1d3 points of Constitution damage per round. Anything that destroys green slime (scraping, freezing, burning, cutting, sunlight, or remove disease) destroys this slime. If the slime kills a creature, it consumes the body and then dies. It cannot transfer to a creature other than the original target, and dies if separated from the original target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a79744cba653aefc.json",
+    "web": "https://codex.pipsprojects.com/#/e/a79744cba653aefc"
+  },
+  "license": "OGL 1.0a"
+}

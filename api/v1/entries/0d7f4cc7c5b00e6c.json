@@ -1,0 +1,26 @@
+{
+  "id": "0d7f4cc7c5b00e6c",
+  "name": "Shield of Faith",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 342",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 342\nSchool abjuration; Level cleric 1, inquisitor 1, oracle 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (parchment with a holy text written on it)\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).\nMythic Shield of Faith\nSource Mythic Adventures pg. 108\nAdd half your tier to the spell’s deflection bonus.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d7f4cc7c5b00e6c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d7f4cc7c5b00e6c"
+  },
+  "license": "OGL 1.0a"
+}

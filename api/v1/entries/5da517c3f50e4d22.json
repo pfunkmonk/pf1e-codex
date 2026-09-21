@@ -1,0 +1,26 @@
+{
+  "id": "5da517c3f50e4d22",
+  "name": "Microcosm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 176",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "psychic": 9
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 176\nSchool illusion (phantasm) [mind-affecting]; Level psychic 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one or more creatures\nDuration permanent\nSaving Throw Will partial (see text); Spell Resistance yes\nDescription\nYou plunge the targets’ minds into a veiled immersive mindscape (see page 235) of your own design. You can affect any number of creatures whose combined total Hit Dice do not exceed 30. A creature of 10 HD or fewer gets no saving throw, one of 11–15 HD escapes after 10 minutes per level you possess on a successful save, and a creature of 16 HD or more negates the effect on a successful save. Given time, the bodies of creatures whose minds are trapped in a microcosm can die of starvation and thirst without care. Creatures can neither escape from nor enter a microcosm, even via a mindscape door. Microcosm can be ended only by miracle or wish.\n\nCreatures inside a microcosm can be affected by mind-affecting effects targeted against their real bodies. However, they perceive them as natural events within their inner mindscape. Multiple creatures affected by the same microcosm can interact with one another within the mindscape.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5da517c3f50e4d22.json",
+    "web": "https://codex.pipsprojects.com/#/e/5da517c3f50e4d22"
+  },
+  "license": "OGL 1.0a"
+}

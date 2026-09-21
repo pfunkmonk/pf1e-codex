@@ -1,0 +1,37 @@
+{
+  "id": "caebb3f62ad0fbb0",
+  "name": "Rigor Mortis",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 126",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "magus": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 126\nSchool transmutation [pain]; Level arcanist 4, cleric 4, magus 4, occultist 4, oracle 4, psychic 4, shaman 4, sorcerer 4, spiritualist 3, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a knucklebone)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration instantaneous; see text\nSaving Throw Fortitude partial (see text); Spell Resistance yes\nDescription\nThe joints of a creature affected by this spell stiffen and swell, making movement painful and slow. The target takes 1d6 points of nonlethal damage per caster level. Additionally, the target takes a –4 penalty to Dexterity and its movement speed decreases by 10 feet; these additional effects last for 1 minute per caster level, though another creature can spend 1 minute and attempt a DC 25 Heal check to end them early. A successful save halves the nonlethal damage and negates the penalty to Dexterity and movement.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/caebb3f62ad0fbb0.json",
+    "web": "https://codex.pipsprojects.com/#/e/caebb3f62ad0fbb0"
+  },
+  "license": "OGL 1.0a"
+}

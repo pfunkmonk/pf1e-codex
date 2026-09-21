@@ -1,0 +1,19 @@
+{
+  "id": "57013a5e7ff790d2",
+  "name": "Nursing Necklace Ant",
+  "bucket": "items",
+  "category": "Wondrous Items",
+  "source": "Healer's Handbook pg. 29",
+  "book": "Healer's Handbook",
+  "facets": {
+    "slot": "neck",
+    "pr": 8000,
+    "bk": "Healer's Handbook"
+  },
+  "body": "Nursing Necklace\nSource Healer's Handbook pg. 29\nAura faint transmutation; CL 3rd\nSlot neck; Price 8,000 gp ( Ant), 8,000 gp ( Centipede), 8,000 gp ( Spider), 10,000 gp ( Leech), 10,000 gp ( Scarab); Weight —\nDescription\n The source for this item is missing the cost for the Mosquito variant and the text for the Scarab variant. These will be corrected once Paizo releases official errata.\n\nThis large, vermin-shaped medallion can crawl free from its setting to heal the wearer’s ills. On command, the vermin can animate to perform any function allowable by the Heal skill on the wearer only. The vermin has a +12 bonus on Heal checks for these purposes and acts as if it had unlimited uses of a healer’s kit (the circumstance bonus for using a healer’s kit is factored into the vermin’s bonus on Heal checks). Alternatively, the vermin can aid a healer working to treat the wearer. In this case, the vermin grants the healer a +10 circumstance bonus on Heal checks for this purpose.\n\nBased on its type, the vermin also grants additional benefits to the necklace that might affect creatures other than the wearer, as described below.\n\nAnt: If the wearer’s hit point total is negative, the vermin automatically activates and, on the wearer’s next turn, performs first aid (even if the wearer is unconscious).\n\nCentipede: On command, the vermin can use the Heal skill to provide long-term care for up to six creatures (which may or may not include the wearer), as long as the targets remain within 30 feet of the wearer for the duration of their rest. (This does not count as the wearer performing long-term care on herself; therefore the vermin can include her in the long-term care given.)\n\nLeech: Once per day on command, the vermin can suck impurities from the blood. This ends any ongoing poison effect if the vermin succeeds at a Heal skill check with a DC equal to the poison’s saving throw DC. On a failure, the wearer still receives a +4 competence bonus on her next saving throw against the poison.\n\nMosquito: Once per day on command, the vermin can neutralize disease in the blood. This ends any ongoing disease if the vermin succeeds at a Heal skill check with a DC equal to the disease’s saving throw DC. On a failure, the wearer still receives a +4 competence bonus on her next saving throw against the disease.\n\nSpider: Three times per day on command, the vermin can fire silk webbing over the wounds of a creature within 30 feet. This allows the vermin to attempt a Heal check to stabilize the creature or stop bleed damage at range.\nConstruction\nRequirements Craft Wondrous Item, cure light wounds, delay poison (leech only), remove sickness (mosquito only), summon swarm; Cost 4,000 gp (Ant), 4,000 gp (Centipede), 4,000 gp (Spider), 5,000 gp (Leech), 5,000 gp (Scarab)",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57013a5e7ff790d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/57013a5e7ff790d2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "14b03d7b9942d777",
+  "name": "Phantom Limb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Origins pg. 31",
+  "book": "Occult Origins",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "psychic": 6,
+      "spiritualist": 5
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Occult Origins"
+  },
+  "body": "Source Occult Origins pg. 31\nSchool necromancy; Level psychic 6, spiritualist 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one creature\nDuration 24 hours; see text\nSaving Throw none; Spell Resistance yes\nDescription\nThis spell creates a semi-visible psychic manifestation that allows a creature to replace a missing body part or parts. This could be as simple as a missing finger or toe or as complex as one or more limbs or even a set of wings. The creature can use these ghostly appendages exactly as if they were the creature’s own limbs, including any natural attacks or other special abilities. This includes any extraordinary abilities granted by the appendages, but not supernatural ones.\n\nIf the target does not need a replacement limb (or chooses not to use the spell in this way), it can instead select one of the following options. In this case, the spell lasts only for 10 minutes per level.\n\nExtra Arms: The target grows two phantom arms, granting it two extra natural claw attacks; the target cannot use the phantom arms for any other purpose.\n\nExtra Legs: The target grows two phantom legs and strong hindquarters like those of a horse, granting it a +30-foot enhancement bonus to speed and a +4 bonus to its CMD against overrun and trip combat maneuvers.\n\nMermaid’s Tail: The target grows a phantom tail, granting it a swim speed of 60 feet.\n\nPhantom Wings: The target grows phantom wings, granting it a fly speed of 60 feet (good maneuverability).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14b03d7b9942d777.json",
+    "web": "https://codex.pipsprojects.com/#/e/14b03d7b9942d777"
+  },
+  "license": "OGL 1.0a"
+}

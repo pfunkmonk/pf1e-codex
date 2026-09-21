@@ -1,0 +1,23 @@
+{
+  "id": "5ca5d7275116d25b",
+  "name": "Blessing of Liberty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Streets pg. 22",
+  "book": "Heroes of the Streets",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 2,
+      "shaman": 2,
+      "skald": 2
+    },
+    "bk": "Heroes of the Streets"
+  },
+  "body": "Source Heroes of the Streets pg. 22\nSchool abjuration; Level bard 2, shaman 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a feather or small object that symbolizes good fortune)\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYou imbue yourself with the blessings of liberty. You gain a +1 luck bonus per 6 caster levels (minimum +1, maximum +3) to your CMD and on saving throws against spells and traps that would move you or impede your movement. You can end the spell’s effects as a swift action to gain a +20 foot enhancement bonus to your base speed for 1 round per whole minute of duration remaining.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ca5d7275116d25b.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ca5d7275116d25b"
+  },
+  "license": "OGL 1.0a"
+}

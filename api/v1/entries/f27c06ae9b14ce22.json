@@ -1,0 +1,31 @@
+{
+  "id": "f27c06ae9b14ce22",
+  "name": "Silence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 343",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 343\nSchool illusion (glamer); Level antipaladin 2, bard 2, cleric 2, inquisitor 2, mesmerist 2, oracle 2, psychic 2, skald 2, warpriest 2\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius emanation centered on a creature, object, or point in space\nDuration 1 round/level (D)\nSaving Throw Will negates; see text or none (object); Spell Resistance yes; see text or no (object)\nDescription\nUpon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a Will save to negate the spell and can use spell resistance, if any. Items in a creature's possession or magic items that emit sound receive the benefits of saves and spell resistance, but unattended objects and points in space do not. Creatures in an area of a silence spell are immune to sonic or language-based attacks, spells, and effects.\nMythic Silence\nSource Mythic Adventures pg. 108\nThis spell also applies to telepathy, cutting off any mental communication within the area. At the time of casting, you can choose to be immune to your own mythic silence effect and can designate up to one creature per tier to also gain this immunity. Creatures immune to the mythic silence are subject to sonic effects as normal.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f27c06ae9b14ce22.json",
+    "web": "https://codex.pipsprojects.com/#/e/f27c06ae9b14ce22"
+  },
+  "license": "OGL 1.0a"
+}

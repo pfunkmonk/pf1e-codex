@@ -1,0 +1,28 @@
+{
+  "id": "43ef5e9eec2bce13",
+  "name": "Illusory Maze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Monster Codex pg. 41",
+  "book": "Inner Sea Monster Codex",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Monster Codex"
+  },
+  "body": "Source Inner Sea Monster Codex pg. 41\nSchool illusion (figment); Level arcanist 2, bard 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius spread\nDuration 1 round/level\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\nDescription\nThis spell creates the illusion of a translucent, ever-changing maze of glass in the target area. Creatures in the area who believe the maze to be real cannot move more than 5 feet continuously in any one direction and can’t move diagonally, forcing them to take a circuitous route to their destination.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43ef5e9eec2bce13.json",
+    "web": "https://codex.pipsprojects.com/#/e/43ef5e9eec2bce13"
+  },
+  "license": "OGL 1.0a"
+}

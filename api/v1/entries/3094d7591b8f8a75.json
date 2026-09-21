@@ -1,0 +1,26 @@
+{
+  "id": "3094d7591b8f8a75",
+  "name": "Warp Wood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 368",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 2,
+      "shaman": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 368\nSchool transmutation; Level druid 2, hunter 2, occultist 2, shaman 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 Small wooden object/level, all within a 20-ft. radius\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou cause wood to bend and warp, permanently destroying its straightness, form, and strength. A warped door springs open (or becomes stuck, requiring a Strength check to open, at your option). A boat or ship springs a leak. Warped ranged weapons are useless. A warped melee weapon causes a –4 penalty on attack rolls.\n\nYou may warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32.\n\nAlternatively, you can unwarp wood (effectively warping it back to normal) with this spell. Make whole, on the other hand, does no good in repairing a warped item.\n\nYou can combine multiple consecutive warp wood spells to warp (or unwarp) an object that is too large for you to warp with a single spell. Until the object is completely warped, it suffers no ill effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3094d7591b8f8a75.json",
+    "web": "https://codex.pipsprojects.com/#/e/3094d7591b8f8a75"
+  },
+  "license": "OGL 1.0a"
+}

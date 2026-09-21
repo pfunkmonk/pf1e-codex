@@ -1,0 +1,33 @@
+{
+  "id": "093af55469e476b4",
+  "name": "Echo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 229",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 1,
+      "druid": 1,
+      "hunter": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "skald": 1,
+      "spiritualist": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 229\nSchool illusion (figment); Level bard 1, druid 1, hunter 1, medium 1, mesmerist 1, occultist 1, psychic 1, ranger 1, skald 1, spiritualist 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents S, F (a conch shell)\nEffect\nRange close (25 ft. + 5 ft./2 levels) or long (400 ft. + 40 ft./level); see text\nArea one 10--ft. cube/level (S)\nDuration 1 round/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\nDescription\nYou cause a sound heard in the target area up to 1 round ago and lasting up to 1 round in duration to repeat at a regular interval. The original sound need not have come from the area, but it echoes from the target area at its original full volume. Any special effects of the sound are not duplicated by this spell. If the area is naturally prone to echoes, such as a space surrounded on at least two sides by cliffs or high river banks, the spell’s range is long. Otherwise, the spell’s range is close.\n\nYou can concentrate as a standard action to alter the echo. You can change it to be any sound audible in the area within the last 1 round, move the apparent source of the sound within the area, or attempt a Bluff check to create a distraction to hide with a bonus equal to your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/093af55469e476b4.json",
+    "web": "https://codex.pipsprojects.com/#/e/093af55469e476b4"
+  },
+  "license": "OGL 1.0a"
+}

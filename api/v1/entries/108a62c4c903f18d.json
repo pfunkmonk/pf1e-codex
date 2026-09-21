@@ -1,0 +1,26 @@
+{
+  "id": "108a62c4c903f18d",
+  "name": "Blade of Dark Triumph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 208",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 208\nSchool transmutation [evil]; Level antipaladin 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget your fiendish boon weapon\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYou strengthen the bond between your fiendish boon weapon and its unholy spirit. The weapon gains the ghost touch property. You may change your weapon’s damage type (bludgeoning, piercing, slashing) as a swift action. You gain a profane bonus to your CMD against disarm and sunder attacks directed at your boon weapon; this bonus is equal to half your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/108a62c4c903f18d.json",
+    "web": "https://codex.pipsprojects.com/#/e/108a62c4c903f18d"
+  },
+  "license": "OGL 1.0a"
+}

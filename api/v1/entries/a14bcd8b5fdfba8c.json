@@ -1,0 +1,28 @@
+{
+  "id": "a14bcd8b5fdfba8c",
+  "name": "Feather Step, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 221",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "druid": 1,
+      "hunter": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "skald": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Feather Step\nSource Advanced Player's Guide pg. 221\nSchool transmutation; Level bard 1, druid 1, hunter 1, psychic 1, ranger 1, skald 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nFor the duration of this spell, the subject ignores the adverse movement effects of difficult terrain, and can even take 5-foot steps in difficult terrain.\nFeather Step, Mass\nSource Advanced Player's Guide pg. 221\nSchool transmutation; Level bard 3, druid 3, hunter 3, psychic 3, ranger 3, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nAs feather step, except this spell affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a14bcd8b5fdfba8c.json",
+    "web": "https://codex.pipsprojects.com/#/e/a14bcd8b5fdfba8c"
+  },
+  "license": "OGL 1.0a"
+}

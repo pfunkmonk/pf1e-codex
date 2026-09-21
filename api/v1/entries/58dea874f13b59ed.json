@@ -1,0 +1,27 @@
+{
+  "id": "58dea874f13b59ed",
+  "name": "Lissalan Snake Sigil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #65: Into the Nightmare Rift pg. 75",
+  "book": "Pathfinder #65: Into the Nightmare Rift",
+  "facets": {
+    "lv": {
+      "arcanist": 3,
+      "cleric": 3,
+      "oracle": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Pathfinder #65: Into the Nightmare Rift"
+  },
+  "body": "Source Pathfinder #65: Into the Nightmare Rift pg. 75\nSchool multiple (see text); Level arcanist 3, cleric 3, oracle 3, sorcerer 3, warpriest 3, wizard 3 (Lissala)\nCasting\nCasting Time 10 minutes\nComponents V, S, M (powdered amber worth 500 gp and a snake scale)\nEffect\nRange touch\nTarget one touched book or written work\nDuration permanent or until discharged; 1 day/level; see text\nSaving Throw Reflex negates; Spell Resistance no\nDescription\nThere are seven variants of this spell, one for each of the Thassilonian schools of magic. Each functions like sepia snake sigil (and counts as that spell for the purpose of combining other spells that hide or garble text), except instead of trapping the subject, the triggered sigil’s effect depends on this spell’s school. This effect lasts for 1 day/level. This is a curse effect that can be removed via remove curse.\n\nAbjuration: All beneficial magical effects on the target last half as long as normal.\n\nConjuration: The target is nauseated. This is a poison effect.\n\nEnchantment: The target takes a 1d6 penalty to Intelligence, Wisdom, and Charisma. This is a compulsion effect.\n\nEvocation: The target gains vulnerability to an energy type, chosen randomly from the following: acid, cold, electricity, or fire. This is an acid, cold, electricity, or fire effect.\n\nIllusion: The target’s vision is blurred, giving it a –4 penalty on Perception checks relating to vision, and the target treats all other creatures as having displacement. This is a glamer effect.\n\nNecromancy: The target is exhausted. This condition cannot be removed with rest.\n\nTransmutation: Target is affected by slow.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58dea874f13b59ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/58dea874f13b59ed"
+  },
+  "license": "OGL 1.0a"
+}

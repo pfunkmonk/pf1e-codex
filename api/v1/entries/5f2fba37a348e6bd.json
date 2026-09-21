@@ -1,0 +1,49 @@
+{
+  "id": "5f2fba37a348e6bd",
+  "name": "Ladder, escalade, Huge",
+  "bucket": "items",
+  "category": "Weapons",
+  "source": "Ultimate Combat pg. 166",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 166\nStatistics\nCost 10 gp Weight —\nDamage —; Critical —; Range —; Type —\nCrew 4; Aim 0; Load 0; Speed 0 ft.\nCategory Close Assault; Proficiency Siege Engine\nDescription\nEscalade ladders have spiked bases for stability, and the upper 5 feet are metal-shod, with hardness 10 and 20 hit points. The remainder of the ladder is wooden and has hardness 5 and hit points based on its size. Large escalade ladders have 20 hit points, Huge ones have 30 hit points, Gargantuan ones have 80 hit points, and Colossal ones have 120 hit points. Escalade ladders cannot be armored.\n\nTable 3-16: Bridges and Escalade Ladders\nSize Width Length/Height\nLarge 5 ft. 20 ft.\nHuge 5 ft. 30 ft.\nGargantuan 10 ft. 40 ft.\nColossal 10 ft. 60 ft.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Size",
+          "Width",
+          "Length/Height"
+        ],
+        [
+          "Large",
+          "5 ft.",
+          "20 ft."
+        ],
+        [
+          "Huge",
+          "5 ft.",
+          "30 ft."
+        ],
+        [
+          "Gargantuan",
+          "10 ft.",
+          "40 ft."
+        ],
+        [
+          "Colossal",
+          "10 ft.",
+          "60 ft."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5f2fba37a348e6bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/5f2fba37a348e6bd"
+  },
+  "license": "OGL 1.0a"
+}

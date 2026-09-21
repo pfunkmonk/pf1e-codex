@@ -1,0 +1,18 @@
+{
+  "id": "374b9d505a57b50c",
+  "name": "Blanch bomb (cold iron)",
+  "bucket": "items",
+  "category": "Miscellaneous",
+  "source": "Alchemy Manual pg. 27",
+  "book": "Alchemy Manual",
+  "facets": {
+    "pr": 150,
+    "bk": "Alchemy Manual"
+  },
+  "body": "Source Alchemy Manual pg. 27\nPrice 150 gp; Weight 1/2 lb.\nCategory Alchemical Weapons\nDescription\nThe nearly invisible gas contained in this fragile glass sphere temporarily but drastically deteriorates the defenses—both manufactured and natural—of those affected. A blanch bomb is effective only against a target that is vulnerable to the type of blanch bomb employed against it. A blanch bomb is thrown as a splash weapon with a range increment of 10 feet. Upon contact with a hard surface, the blanch bomb releases a hazy cloud of gas within a 10-foot-radius burst centered on the point of impact. This cloud lasts for 1d4+1 rounds and can be dispersed as fog cloud. If a creature whose damage reduction is overcome by the specified substance begins its turn in the affected area, the subject’s DR/adamantine, DR/cold iron, or DR/silver (depending on the type of blanch bomb used) degrades at a rate of 1 point per round for as long as the creature remains in the area (to a minimum of DR 0). If the subject ends its turn outside the affected area, the creature’s damage reduction returns to its original amount at a rate of 1 point per round.\n\nMythic: You can expend one use of mythic power while throwing a blanch bomb to infuse the item with mythic power. When the blanch bomb activates, creatures in the area with the matching DR vulnerability must succeed at DC 16 Reflex saves or their DR is immediately reduced by an amount equal to 1/2 your mythic tier. The gas created by the blanch bomb lasts an additional number of rounds equal to your mythic tier, and it cannot be dispersed by wind. Non-mythic subjects who leave the affected area regain their DR at a rate of 1 point per minute.\nAlchemical Recipe\nRecipe (100 cold iron + 50 phosphorus + 20 saltpeter)/congelation; Craft 25\nTime 1 hour; Tools crucible; Type alchemical weapon",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/374b9d505a57b50c.json",
+    "web": "https://codex.pipsprojects.com/#/e/374b9d505a57b50c"
+  },
+  "license": "OGL 1.0a"
+}

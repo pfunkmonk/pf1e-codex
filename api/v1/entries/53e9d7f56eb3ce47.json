@@ -1,0 +1,30 @@
+{
+  "id": "53e9d7f56eb3ce47",
+  "name": "Instant Restoration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Summoner's Handbook pg. 22",
+  "book": "Monster Summoner's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "summoner": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Monster Summoner's Handbook"
+  },
+  "body": "Source Monster Summoner's Handbook pg. 22\nSchool conjuration (healing); Level cleric 4, druid 4, hunter 4, oracle 4, shaman 4, summoner 4, warpriest 4, witch 4\nCasting\nCasting Time 1 immediate action\nComponents V, S, F/DF (a thimble of water and a seed)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one summoned creature you control\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nInstant restoration channels planar energy into a summoned creature. This spell can be cast as an immediate action when a summoned creature you control drops to 0 or fewer hit points. Rather than immediately disappear, the creature is healed for 4d8 hp + 1 hit point per caster level (maximum 4d8+10 hit points). If this healing brings your summoned creature’s hit point total to 1 or more hit points, it remains as if its hit points had never dropped to 0 or fewer. Creatures slain by death effects cannot be saved by instant restoration. A summoner can target his eidolon with this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/53e9d7f56eb3ce47.json",
+    "web": "https://codex.pipsprojects.com/#/e/53e9d7f56eb3ce47"
+  },
+  "license": "OGL 1.0a"
+}

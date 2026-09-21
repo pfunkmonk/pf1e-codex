@@ -1,0 +1,28 @@
+{
+  "id": "9c34212fe7df6201",
+  "name": "Distressing Tone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 217",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "inquisitor": 2,
+      "skald": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 217\nSchool evocation [sonic]; Level bard 2, inquisitor 2, skald 2\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1d4 living creatures\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou create a powerful tone that vibrates living flesh. Targets must save or gain the sickened condition. Creatures that are immune to critical hits are immune to this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9c34212fe7df6201.json",
+    "web": "https://codex.pipsprojects.com/#/e/9c34212fe7df6201"
+  },
+  "license": "OGL 1.0a"
+}

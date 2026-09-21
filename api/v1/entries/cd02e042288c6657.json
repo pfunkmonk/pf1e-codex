@@ -1,0 +1,33 @@
+{
+  "id": "cd02e042288c6657",
+  "name": "Frigid Souls",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Haunted Heroes Handbook pg. 27",
+  "book": "Haunted Heroes Handbook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 3,
+      "oracle": 4,
+      "ranger": 3,
+      "shaman": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Haunted Heroes Handbook"
+  },
+  "body": "Source Haunted Heroes Handbook pg. 27\nSchool necromancy (haunted) [cold, emotion, fear, mind-affecting]; Level arcanist 4, cleric 4, druid 4, hunter 3, oracle 4, ranger 3, shaman 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a bloody icicle)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea one 5-ft. cube/level\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou harness the Irriseni people’s palpable fear of their frozen environment and cruel Jadwiga overlords into a haunt that withers defenses against the cold. Any creature that enters the affected area must succeed at a Will save or gain spell resistance equal to 11 + your caster level against any abjuration effect that provides resistance to or protection against cold damage or cold climates. This spell resistance cannot be voluntarily lowered. Once every 30 minutes as an immediate action, the haunt attempts a dispel check (1d20 + your caster level) against an active abjuration effect currently protecting a creature in the affected area against cold, even if it was active before the creature was haunted or it successfully bypassed the spell resistance imposed by the haunt. Against creatures with multiple layers of protection, these dispel checks start with the highest-level abjuration effects and work their way down the list. Each time the haunt attempts a dispel check, the spell’s haunt-like manifestation occurs during that round.\n\nHaunt Statistics\nNotice Perception 25 (to feel a biting chill as if through the touch of a frozen hand)\nhp 2 hp/level; Trigger proximity; Reset none",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd02e042288c6657.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd02e042288c6657"
+  },
+  "license": "OGL 1.0a"
+}

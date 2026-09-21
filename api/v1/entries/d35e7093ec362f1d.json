@@ -1,0 +1,30 @@
+{
+  "id": "d35e7093ec362f1d",
+  "name": "Sympathetic Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 37",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Sympathetic Aura\nSource Adventurer's Guide pg. 37\nSchool illusion (glamer); Level arcanist 2, bard 2, mesmerist 2, occultist 2, psychic 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a small square of silk that must be passed over the object that recieves the aura)\nEffect\nRange touch\nTarget one touched object weighing up to 5 lbs./level\nDuration 1 day/level (D)\nSaving Throw none (see text); Spell Resistance no\nDescription\nThis spell functions like magic aura, except it extends its altered aura to similar items in a 5-foot radius. For this purpose, similar items must be alike in approximate shape, composition, and function, so a potion of cure light wounds targeted by this spell to appear nonmagical would also obscure the auras of nearby potions, elixirs, and oils, as well as flasks. Items other than the targeted item retain their altered aura for 1 round per caster level after being removed from the spell’s area.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d35e7093ec362f1d.json",
+    "web": "https://codex.pipsprojects.com/#/e/d35e7093ec362f1d"
+  },
+  "license": "OGL 1.0a"
+}

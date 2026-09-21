@@ -1,0 +1,26 @@
+{
+  "id": "840bf96e2a97bf9c",
+  "name": "Nature's Ravages, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dungeoneer's Handbook pg. 31",
+  "book": "Dungeoneer's Handbook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "warpriest": 4,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Dungeoneer's Handbook"
+  },
+  "body": "Nature's Ravages\nSource Dungeoneer's Handbook pg. 31\nSchool necromancy; Level cleric 4, oracle 4, warpriest 4, witch 3\nCasting\nCasting Time 1 minute/HD of target\nComponents V, S, M/DF (dried maggots)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget corpse of creature whose total number of HD does not exceed your caster level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou greatly speed up the decomposition process of a nearby corpse and warp the fibers of time that permeate it, aging the corpse an additional amount of time equal to up to 1 day per 2 caster levels (maximum 10 days at 20th level). This spell prompts all the natural effects of the intended decomposition period, including crumbled clothing, rotted or liquefied flesh, maggot infestations, and the infiltration of any surrounding vegetation.\n\nIn addition to hindering mundane autopsies and investigations, this spell may effectively prohibit the use of raise dead on the target, though more powerful magic such as resurrection or true resurrection may still work.\nNature's Ravages, Greater\nSource Dungeoneer's Handbook pg. 31\nSchool necromancy; Level cleric 8, oracle 8, witch 7\nCasting\nCasting Time 10 minute/HD of target\nComponents V, S, M/DF (dried maggots)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget corpse of creature whose total number of HD does not exceed your caster level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like nature’s ravages, except the target corpse ages a number of years equal to up to 1 year per caster level (maximum 20 years at 20th level).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/840bf96e2a97bf9c.json",
+    "web": "https://codex.pipsprojects.com/#/e/840bf96e2a97bf9c"
+  },
+  "license": "OGL 1.0a"
+}

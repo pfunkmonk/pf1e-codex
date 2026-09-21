@@ -1,0 +1,29 @@
+{
+  "id": "5fd050be9842528c",
+  "name": "Burst of Force",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Psychic Anthology pg. 10",
+  "book": "Psychic Anthology",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Psychic Anthology"
+  },
+  "body": "Source Psychic Anthology pg. 10\nSchool evocation [force]; Level arcanist 5, psychic 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange\nArea 20-ft.-radius burst centered on you\nDuration instantaneous\nSaving Throw Fortitude half (see text); Spell Resistance yes\nDescription\nWith a burst of telekinetic force, you deal 1d6 points of force damage per caster level (maximum 15d6 points of damage) to all other creatures in the affected area. A successful Fortitude save reduces the damage taken by half. A creature that fails its Fortitude save must also succeed at a Reflex save or be knocked prone.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5fd050be9842528c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5fd050be9842528c"
+  },
+  "license": "OGL 1.0a"
+}

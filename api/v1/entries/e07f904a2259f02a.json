@@ -1,0 +1,33 @@
+{
+  "id": "e07f904a2259f02a",
+  "name": "Hollow Heroism, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 216",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 7,
+      "bard": 6,
+      "psychic": 7,
+      "skald": 6,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "mind-affecting",
+      "ruse"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Hollow Heroism, Greater\nSource Ultimate Intrigue pg. 216\nSchool enchantment (compulsion) [mind-affecting, ruse]; Level arcanist 7, bard 6, psychic 7, skald 6, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as greater heroism, except that you can reverse the spell by issuing a special command as a standard action if you are within medium range (100 feet + 10 feet per caster level) of the target. The target loses the bonuses and instead takes a –4 penalty on attack rolls, saving throws, and skill checks until the spell’s duration ends (no save), increasing to a –8 penalty against fear effects. Additionally, she takes damage equal to your caster level when you reverse the spell.\n\nAttempts to identify greater hollow heroism with a skill check incorrectly identify it as greater heroism.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e07f904a2259f02a.json",
+    "web": "https://codex.pipsprojects.com/#/e/e07f904a2259f02a"
+  },
+  "license": "OGL 1.0a"
+}

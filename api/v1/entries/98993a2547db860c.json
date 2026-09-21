@@ -1,0 +1,34 @@
+{
+  "id": "98993a2547db860c",
+  "name": "Blood Rage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orcs of Golarion pg. 28",
+  "book": "Orcs of Golarion",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 3,
+      "arcanist": 3,
+      "bard": 2,
+      "cleric": 3,
+      "oracle": 3,
+      "skald": 2,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orcs of Golarion"
+  },
+  "body": "Source Orcs of Golarion pg. 28\nSchool enchantment (compulsion) [mind-affecting]; Level adept 3, arcanist 3, bard 2, cleric 3, oracle 3, skald 2, sorcerer 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of blood from each creature to be affected)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one willing living creature per 2 levels, no two of which may be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe targets of this spell become angrier as they fight, the pain of their wounds fueling their strength. An affected creature gains a cumulative +2 morale bonus to Strength and a cumulative –1 penalty to AC for every 5 points of damage it takes (maximum +10 Strength, –5 AC) for the duration of the spell. These bonuses last until the spell expires or the target falls unconscious.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98993a2547db860c.json",
+    "web": "https://codex.pipsprojects.com/#/e/98993a2547db860c"
+  },
+  "license": "OGL 1.0a"
+}

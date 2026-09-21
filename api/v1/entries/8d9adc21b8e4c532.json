@@ -1,0 +1,41 @@
+{
+  "id": "8d9adc21b8e4c532",
+  "name": "Bestow Weapon Proficiency",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 224",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "arcanist": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "investigator": 2,
+      "magus": 2,
+      "medium": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 224\nSchool enchantment (compulsion) [mind-affecting]; Level alchemist 2, antipaladin 2, arcanist 2, cleric 2, inquisitor 2, investigator 2, magus 2, medium 2, occultist 2, oracle 2, paladin 2, psychic 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (pieces of shaved metal)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou bestow the subject with the ability to use a single type of weapon he is not proficient in as if he were proficient with that weapon. The weapon can be of any type, including an exotic weapon, but the subject of the spell must be holding the weapon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d9adc21b8e4c532.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d9adc21b8e4c532"
+  },
+  "license": "OGL 1.0a"
+}

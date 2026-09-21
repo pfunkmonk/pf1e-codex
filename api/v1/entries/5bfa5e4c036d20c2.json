@@ -1,0 +1,32 @@
+{
+  "id": "5bfa5e4c036d20c2",
+  "name": "Crime of Opportunity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 208",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "arcanist": 7,
+      "bard": 5,
+      "mesmerist": 5,
+      "psychic": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Crime Wave\nSource Ultimate Intrigue pg. 208\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 4, arcanist 7, bard 5, mesmerist 5, psychic 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a tarnished coin)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou instill overwhelming avarice in the targets and impel them toward a wild spree of larceny. Creatures affected by a crime wave must roll percentile dice each round to determine what action they take.\nd% Behavior\n1–25 Act normally, but with suspicion toward others. The target doesn’t benefit from or provide benefits with teamwork feats and the aid another action. If a creature attempts to use a harmless spell or effect on the target, there is a 50% chance the target tries to avoid that effect as best as possible (taking an attack of opportunity against a spellcaster, requiring a successful attack roll on a touch spell, or attempting a saving throw).\n26–50 Attempt a stealAPG combat maneuver or Sleight of Hand check to steal a random valuable object from the nearest creature (or a nearby unattended object, if obviously of great value), moving adjacent to that creature or object as needed. Once an affected creature has stolen an item, further results of 26–50 cause the affected creature to flee, focusing all of its efforts on escaping with its loot and fighting to prevent the stolen object from being taken.\n51–75 Attempt to break, destroy, or deface the nearest unattended manufactured object or structure. If the object or structure is too difficult to damage, the affected creature instead vandalizes or otherwise defaces its appearance.\n76–100 Attack the nearest creature (for this purpose, a familiar counts as part of the affected creature’s self).\nA character affected by a crime wave who is unable to carry out the indicated action moves toward the nearest source of cover or concealment and attempts a Stealth check to hide. Affected creatures with the ability to turn invisible (including through the use of magic items or spells) do so instead of attempting a Stealth check.\nCrime of Opportunity\nSource Ultimate Intrigue pg. 208\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 1, mesmerist 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a silt purse)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou awaken a sudden criminal impulse in the target, compelling it to commit a criminal act as if affected by the crime wave spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5bfa5e4c036d20c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/5bfa5e4c036d20c2"
+  },
+  "license": "OGL 1.0a"
+}

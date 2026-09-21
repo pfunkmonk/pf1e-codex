@@ -1,0 +1,18 @@
+{
+  "id": "d3387c2d9afe357a",
+  "name": "Inquisitor Keeper of Construct",
+  "bucket": "archetypes",
+  "category": "Archetype",
+  "source": "People of the Wastes pg. 27",
+  "book": "People of the Wastes",
+  "facets": {
+    "cls": "Inquisitor",
+    "bk": "People of the Wastes"
+  },
+  "body": "Keeper of Construct\nSource People of the Wastes pg. 27\nSome of Brigh’s inquisitors, and occasionally those who follow Torag, track down malicious construct crafters and fight renegade constructs with unrivaled expertise.\n\nPenetrating Blows (Ex): A keeper of constructs’ attacks are divinely guided to pierce the defenses of constructs. The keeper of constructs treats her weapons as adamantine for the purpose of overcoming damage reduction when attacking constructs. At 8th level, she ignores the first 5 points of DR or hardness when attacking constructs. At 16th level, she ignores the first 10 points of DR or hardness when attacking constructs.\n\nThis replaces the inquisitor’s domain.\n\nConstruct Influence (Ex): A keeper of constructs’ knowledge of constructs’ inner workings allows her to gain an upper hand over constructs. She can use the Intimidate skill to demoralize constructs, and when she attempts to do so, she gains a bonus on the check equal to half her inquisitor level (minimum 1).\n\nThis replaces stern gaze.\n\nConstruct Lore (Ex): A keeper of constructs adds twice her Wisdom modifier plus her Intelligence modifier as a bonus when attempting Knowledge checks to identify the abilities and weaknesses of constructs.\n\nThis replaces monster lore.\n\nWrest Control (Sp): At 14th level, three times per day, the keeper of constructs can issue a command to a construct as a standard action. This functions as a suggestion spell that is dismissible, affects the construct despite its normal immunity to mind-affecting effects, and has a caster level equal to the keeper of constructs’ inquisitor level. The construct can resist the command with a successful Will saving throw (DC = 10 + half the keeper of constructs’ inquisitor level + her Wisdom modifier). A construct that successfully saves is immune to this ability for the following 24 hours. This effect immediately ends if the construct is attacked while under its influence.\n\nIf an affected construct was being controlled by a creature, that individual can regain control of the construct with a successful Charisma check (attempting this check requires a standard action) opposed by the inquisitor’s Charisma check. On a success, the original creature regains full control of the construct and this effect ends.\n\nThis replaces exploit weakness.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d3387c2d9afe357a.json",
+    "web": "https://codex.pipsprojects.com/#/e/d3387c2d9afe357a"
+  },
+  "license": "OGL 1.0a"
+}

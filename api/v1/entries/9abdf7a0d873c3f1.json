@@ -1,0 +1,38 @@
+{
+  "id": "9abdf7a0d873c3f1",
+  "name": "Delay Pain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 216",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "emotion"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 216\nSchool enchantment [emotion]; Level arcanist 2, bard 2, bloodrager 2, cleric 2, inquisitor 2, mesmerist 2, oracle 2, psychic 2, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou override the target’s ability to feel pain. Pain effects (such as pain strike and symbol of pain) do not affect the target until this spell’s duration has expired. This does not negate any physical damage, ability damage, or ability drain that a pain effect has already done, but it does negate ongoing penalties from pain while the spell lasts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9abdf7a0d873c3f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/9abdf7a0d873c3f1"
+  },
+  "license": "OGL 1.0a"
+}

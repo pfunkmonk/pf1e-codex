@@ -1,0 +1,23 @@
+{
+  "id": "3d02192e5f9380c1",
+  "name": "Longstrider",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 305",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "ranger": 1
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 305\nSchool transmutation; Level druid 1, hunter 1, ranger 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of dirt)\nEffect\nRange personal\nTarget you\nDuration 1 hour/level (D)\nDescription\nThis spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other modes of movement, such as burrow, climb, fly, or swim.\nLongstrider, Greater\nSource Advanced Class Guide pg. 186\nSchool transmutation; Level druid 3, hunter 3, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of dirt)\nEffect\nRange personal\nTarget you\nDuration 1 hour/level (D)\nDescription\nThis functions as longstrider, except it gives you a +20-foot enhancement bonus to your base speed and a +10-foot enhancement bonus to your other modes of movement (burrow, climb, fly, swim, and so on). It does not affect movement modes you do not actually have—for example, if you do not have a swim speed, this spell does not grant you a swim speed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3d02192e5f9380c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/3d02192e5f9380c1"
+  },
+  "license": "OGL 1.0a"
+}

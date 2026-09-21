@@ -1,0 +1,44 @@
+{
+  "id": "ab783cb06bb95260",
+  "name": "Siege tower, Huge",
+  "bucket": "items",
+  "category": "Weapons",
+  "source": "Ultimate Combat pg. 166",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 166\nStatistics\nCost 2,000 gp Weight —\nDamage —; Critical —; Range —; Type —\nCrew 12; Aim 0; Load 0; Speed 15 ft.\nCategory Close Assault; Proficiency Siege Engine\nDescription\nA wooden gallery of stout construction, a siege tower consists of a tall protective shell with a roof section. The lower story of the tower contains the crew members who propel the tower, and provides total cover to those within. A siege tower with the broken condition moves at half speed. If a siege tower is destroyed, the entire tower collapses. Treat this as a cave-in.\n\nThe upper section of a siege tower provides improved cover for a number of soldiers (see below) and may have pierced walls allowing creatures to fire ranged weapons out the sides. The roof section may have a battlement and may mount a siege engine of the siege tower's size or smaller and a corvus. Siege towers have a base speed of 15 (or 10 feet if protected with medium or heavy armor).\n\nSiege towers have a hardness of 5, and hit points based on their size. A Large siege tower has 60 hit points, a Huge one has 240 hit points, a Gargantuan one has 640 hit points, and a Colossal one has 1,250 hit points.\n\nTable 3-17: Siege Tower Complement\nSize Soldiers\nLarge 5\nHuge 20\nGargantuan 50\nColossal 200",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Size",
+          "Soldiers"
+        ],
+        [
+          "Large",
+          "5"
+        ],
+        [
+          "Huge",
+          "20"
+        ],
+        [
+          "Gargantuan",
+          "50"
+        ],
+        [
+          "Colossal",
+          "200"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab783cb06bb95260.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab783cb06bb95260"
+  },
+  "license": "OGL 1.0a"
+}

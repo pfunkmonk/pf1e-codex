@@ -1,0 +1,29 @@
+{
+  "id": "155ee585938aad49",
+  "name": "Sabotage Construct",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the River pg. 27",
+  "book": "People of the River",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 6,
+      "bard": 5,
+      "inquisitor": 5,
+      "skald": 5,
+      "sorcerer": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "People of the River"
+  },
+  "body": "Source People of the River pg. 27\nSchool transmutation; Level arcanist 6, bard 5, inquisitor 5, skald 5, sorcerer 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents S, V\nEffect\nRange touch\nTargets all constructs in a 15-ft.-radius burst\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance yes\nDescription\nThis spell functions as confusion, except that it affects only constructs. When you are rolling for a confused construct’s behavior, a result of 26–50 indicates the construct twitches spasmodically. On a successful Will save, the construct is confused for only 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/155ee585938aad49.json",
+    "web": "https://codex.pipsprojects.com/#/e/155ee585938aad49"
+  },
+  "license": "OGL 1.0a"
+}

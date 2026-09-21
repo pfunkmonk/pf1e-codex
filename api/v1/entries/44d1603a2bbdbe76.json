@@ -1,0 +1,40 @@
+{
+  "id": "44d1603a2bbdbe76",
+  "name": "Skill Checks",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 86",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nSkills / Acquiring Skills\n\nSkill Checks\nSource PRPG Core Rulebook pg. 86\nWhen your character uses a skill, he isn’t guaranteed success. In order to determine success, whenever you attempt to use a skill, you must make a skill check.\n\nEach skill rank grants a +1 bonus on checks made using that skill. When you make a skill check, you roll 1d20 and then add your ranks and the appropriate ability score modifier to the result of this check. If the skill you’re using is a class skill (and you have invested ranks into that skill), you gain a +3 bonus on the check. If you are not trained in the skill (and if the skill may be used untrained), you may still attempt the skill, but you use only the bonus (or penalty) provided by the associated ability score modifier to modify the check. Skills can be further modified by a wide variety of sources—by your race, by a class ability, by equipment, by spell effects or magic items, and so on. See Table 4–2 for a summary of skill check bonuses.\n\nIf the result of your skill check is equal to or greater than the difficulty class (or DC) of the task you are attempting to accomplish, you succeed. If it is less than the DC, you fail. Some tasks have varying levels of success and failure depending on how much your check is above or below the required DC. Some skill checks are opposed by the target’s skill check. When making an opposed skill check, the attempt is successful if your check result exceeds the result of the target.\nTable 4-2: Skill Check Bonuses\nSkill Skill Check is Equal To*\nUntrained 1d20 + ability modifier + racial modifier\nTrained 1d20 + skill ranks + ability modifier + racial modifier\nTrained Class Skill 1d20 + skill ranks + ability modifier + racial modifier + 3\n* Armor check penalty applies to all Strength- and Dexterity-based skill checks",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Skill",
+          "Skill Check is Equal To*"
+        ],
+        [
+          "Untrained",
+          "1d20 + ability modifier + racial modifier"
+        ],
+        [
+          "Trained",
+          "1d20 + skill ranks + ability modifier + racial modifier"
+        ],
+        [
+          "Trained Class Skill",
+          "1d20 + skill ranks + ability modifier + racial modifier + 3"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/44d1603a2bbdbe76.json",
+    "web": "https://codex.pipsprojects.com/#/e/44d1603a2bbdbe76"
+  },
+  "license": "OGL 1.0a"
+}

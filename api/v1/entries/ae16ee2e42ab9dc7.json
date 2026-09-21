@@ -1,0 +1,28 @@
+{
+  "id": "ae16ee2e42ab9dc7",
+  "name": "Lightning Arc",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 227",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 227\nSchool evocation [electricity]; Level arcanist 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (fur and two glass figurines)\nEffect\nRange long (400 ft. + 40 ft./level)\nTargets two creatures or objects which must be no more than 60 ft. apart\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes (see text)\nDescription\nYou generate an arc of lightning between two targets. The lightning deals 1d6 points of electricity damage per caster level (maximum 15d6) to both targets and any creatures in a line connecting them. The spell fails if there is no line of effect between the targets. Lightning arc sets fire to combustibles and damages objects in its path. It can melt metals that have a low melting point, such as lead, gold, copper, silver, or bronze.\nMythic Lightning Arc\nSource Mythic Adventures pg. 99\nThe damage dealt increases to 1d8 points of electricity damage per caster level (maximum 15d8). A target that fails its save is blinded by the flash for 1 round and deafened by thunder for 1d4 rounds.\n\nAugmented (6th): If you expend two uses of mythic power, the two targets can be up to 120 feet apart, the lightning can turn once up to 90 degrees to connect the targets, and the spell’s electrical damage bypasses electricity resistance and electricity immunity.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ae16ee2e42ab9dc7.json",
+    "web": "https://codex.pipsprojects.com/#/e/ae16ee2e42ab9dc7"
+  },
+  "license": "OGL 1.0a"
+}

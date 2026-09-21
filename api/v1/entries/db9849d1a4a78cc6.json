@@ -1,0 +1,26 @@
+{
+  "id": "db9849d1a4a78cc6",
+  "name": "Rebuke",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 238",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "inquisitor": 4
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 238\nSchool evocation [sonic]; Level inquisitor 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 20 ft.\nArea 20-ft.-radius burst centered on you\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYour wrathful words cause physical harm to your enemies. Your enemies take 1d8 points of damage per two caster levels (maximum 5d8) and are staggered for 1 round. Half of this damage is sonic damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to sonic-based attacks. Rebuke is especially devastating to foes who worship your god, inflicting 1d6 points of damage per caster level (maximum 10d6) and stunning them for 1d4 rounds. A successful Fortitude save halves the damage and negates the staggering or stunning effect.\n\nEnemies do not need to hear a rebuke to be harmed by it, but it is negated by magical silence.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db9849d1a4a78cc6.json",
+    "web": "https://codex.pipsprojects.com/#/e/db9849d1a4a78cc6"
+  },
+  "license": "OGL 1.0a"
+}

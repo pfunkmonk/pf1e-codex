@@ -1,0 +1,30 @@
+{
+  "id": "418d93de75749399",
+  "name": "Freezing Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 287",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "magus": 6,
+      "occultist": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 287\nSchool evocation [cold]; Level arcanist 6, magus 6, occultist 6, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a small crystal sphere)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget, Effect, or Area see text\nDuration instantaneous or 1 round/level; see text\nSaving Throw Reflex half; see text; Spell Resistance yes\nDescription\nFreezing sphere creates a frigid globe of cold energy that streaks from your fingertips to the location you select, where it explodes in a 40-foot-radius burst, dealing 1d6 points of cold damage per caster level (maximum 15d6) to each creature in the area. A creature of the water subtype instead takes 1d8 points of cold damage per caster level (maximum 15d8) and is staggered for 1d4 rounds.\n\nIf the freezing sphere strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches in a 40-foot radius. This ice lasts for 1 round per caster level. Creatures that were swimming on the surface of a targeted body of water become trapped in the ice. Attempting to break free is a full-round action. A trapped creature must make a DC 25 Strength check or a DC 25 Escape Artist check to do so.\n\nYou can refrain from firing the globe after completing the spell, if you wish. Treat this as a touch spell for which you are holding the charge. You can hold the charge for as long as 1 round per level, at the end of which time the freezing sphere bursts centered on you (and you receive no saving throw to resist its effect). Firing the globe in a later round is a standard action.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/418d93de75749399.json",
+    "web": "https://codex.pipsprojects.com/#/e/418d93de75749399"
+  },
+  "license": "OGL 1.0a"
+}

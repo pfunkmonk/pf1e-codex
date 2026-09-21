@@ -1,0 +1,29 @@
+{
+  "id": "1b6ab8102c27ad5c",
+  "name": "Sunstalker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 17",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "hunter": 3,
+      "ranger": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 17\nSchool illusion (glamer); Level arcanist 3, bard 3, hunter 3, ranger 3, skald 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nA touched creature becomes invisible (as per invisibility) as long as it is in direct sunlight (or bright light shed by a daylight spell). If an action the target creature takes causes the invisible creature to become visible but does not end the sunstalker spell’s duration, the creature can use this spell’s magic to become invisible again as a standard action as long as it stands in an area of sunlight (as defined above). The creature gains only concealment (20% miss chance) in normal light.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b6ab8102c27ad5c.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b6ab8102c27ad5c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b08ab6b35fd94c9c",
+  "name": "Purify Food and Drink",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 328",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 0,
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "occultist": 0,
+      "oracle": 0,
+      "shaman": 0,
+      "warpriest": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 328\nSchool transmutation; Level adept 0, cleric 0, druid 0, hunter 0, occultist 0, oracle 0, shaman 0, warpriest 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 10 ft.\nTarget 1 cu. ft./level of contaminated food and water\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThis spell makes spoiled, rotten, diseased, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b08ab6b35fd94c9c.json",
+    "web": "https://codex.pipsprojects.com/#/e/b08ab6b35fd94c9c"
+  },
+  "license": "OGL 1.0a"
+}

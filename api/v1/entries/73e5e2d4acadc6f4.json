@@ -1,0 +1,32 @@
+{
+  "id": "73e5e2d4acadc6f4",
+  "name": "Shield Speech, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Taldor, Echoes of Glory pg. 25",
+  "book": "Taldor",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Taldor"
+  },
+  "body": "Shield Speech\nSource Taldor, Echoes of Glory pg. 25\nSchool abjuration; Level arcanist 1, bard 1, cleric 1, druid 1, hunter 1, oracle 1, skald 1, sorcerer 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 10 ft.\nTarget you and one other creature\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou can securely communicate with one creature within range. So long as your target remains within 10 feet of you, you and it can speak freely to each other without fear of being overheard. Communications that involve shield speech cannot be spied on, such as with a divination spell, and observers of the conversation can tell you are communicating but cannot read lips or hear the conversation unless they are the target of the spell. If you or the target speak to any other creatures, they can hear you normally (only communication between you and the target is protected). The spell does not shield writing, sign language, or any form of communication other than speaking.\nShield Speech, Greater\nSource Taldor, Echoes of Glory pg. 25\nSchool abjuration; Level arcanist 4, cleric 4, druid 4, hunter 4, oracle 4, sorcerer 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea 30-ft. emanation centered on you\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as shield speech, except all creatures within the dome may communicate with each other as if linked by shield speech. If they speak with anyone outside the area, those outside the area hear them normally.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73e5e2d4acadc6f4.json",
+    "web": "https://codex.pipsprojects.com/#/e/73e5e2d4acadc6f4"
+  },
+  "license": "OGL 1.0a"
+}

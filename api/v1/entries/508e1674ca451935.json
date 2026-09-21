@@ -1,0 +1,23 @@
+{
+  "id": "508e1674ca451935",
+  "name": "Transmogrify",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 250",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "summoner": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 250\nSchool transmutation; Level summoner 4, summoner (unchained) 4\nCasting\nCasting Time 1 hour\nComponents V, S, M (a flask of quicksilver worth 1,000 gp)\nEffect\nRange touch\nTarget your eidolon\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYour eidolon’s form shifts and transforms. This spell allows you to change any of the eidolon’s evolutions by allocating its evolution pool on new evolutions. If you have the aspect or greater aspect ability, this spell also allows you to change the evolution points spent to modify you, including removing or adding points as allowed by those abilities.\n\nYour eidolon cannot benefit from this spell more than once per day. This spell does not allow you to change your eidolon’s base form.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/508e1674ca451935.json",
+    "web": "https://codex.pipsprojects.com/#/e/508e1674ca451935"
+  },
+  "license": "OGL 1.0a"
+}

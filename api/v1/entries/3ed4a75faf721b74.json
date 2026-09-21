@@ -1,0 +1,32 @@
+{
+  "id": "3ed4a75faf721b74",
+  "name": "Rune Trace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 60",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 60\nSchool divination; Level arcanist 1, bard 1, cleric 1, occultist 1, oracle 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 minute\nComponents V, S, M (pinch of powdered gemstones worth 25 gp)\nEffect\nRange touch\nTarget rune touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nBy immersing yourself fully in the intricacies of a carved or written rune of any kind, you can divine the elements of that rune’s nature. While casting rune trace, you must run your fingers (which cannot be gloved at the time) over the rune, glyph, symbol, or other marking you want to examine (hereafter referred to as the “rune”). This does not trigger any effects that touching the rune would normally trigger. Runes, symbols, and other effects that trigger when read still trigger as normal if you do so— but note that this spell does not require you to view and read the rune that you’re targeting. When the spell’s casting time ends, you instantly receive flashes of insight regarding the rune’s nature, history, and purpose, including the following information.\n\nAge: You learn if the rune was placed within the last 24 hours, within the last month, within the last year, within the last decade, within the last century, or prior to the last century.\n\nInsight: If you have cast rune trace on a magical rune, you gain a +5 bonus on all skill rolls and checks to dispel, disable, or otherwise tamper with the rune.\n\nLanguage: You learn what language the character of the rune is taken from, or in the case of a rune that has no language, you learn that it is a unique image.\n\nPurpose: You learn the general purpose of the rune (such as whether it’s a decoration, information, a magical defense, or a warning).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ed4a75faf721b74.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ed4a75faf721b74"
+  },
+  "license": "OGL 1.0a"
+}

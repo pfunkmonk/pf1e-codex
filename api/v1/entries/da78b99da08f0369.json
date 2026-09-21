@@ -1,0 +1,28 @@
+{
+  "id": "da78b99da08f0369",
+  "name": "Ice Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 236, Pathfinder #38: Racing to Ruin pg. 71",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "warpriest": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 236, Pathfinder #38: Racing to Ruin pg. 71\nSchool transmutation [cold, water]; Level bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Gozreh)\nCasting\nCasting Time 1 minute\nComponents V, S, F (5 gallons of water)\nEffect\nRange 0 ft.; see text\nEffect a suit of armor made of ice\nDuration 1 hour/level or until destroyed\nSaving Throw none; Spell Resistance no\nDescription\nYou create a suit of armor made of ice. While cold to the touch, it does not harm the wearer, especially if worn over normal clothing (though it can hasten the effects of exposure in cold environments). It offers the same protection as a breastplate, except it has hardness 0 and 30 hit points. If the intended wearer is immersed in water when you cast this spell, you may form the armor around the wearer (who may be you); otherwise the wearer must don the armor normally. Attacks against the wearer that create heat or fire degrade the armor, reducing its armor bonus by 1 for every 5 points of fire damage the wearer takes; when the armor’s bonus to AC reaches 0, the armor is destroyed and the spell ends. Because the ice is slightly buoyant, the wearer gains a +2 circumstance bonus on Swim checks, except when swimming downward. Druids can wear ice armor without penalty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/da78b99da08f0369.json",
+    "web": "https://codex.pipsprojects.com/#/e/da78b99da08f0369"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5ff7cfd50873edc8",
+  "name": "Invisibility Purge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 302",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "spiritualist": 3,
+      "warpriest": 3
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 302\nSchool evocation; Level cleric 3, inquisitor 3, occultist 3, oracle 3, spiritualist 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level (D)\nDescription\nYou surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility.\n\nAnything invisible becomes visible while in the area.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ff7cfd50873edc8.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ff7cfd50873edc8"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5c06d639286c554e",
+  "name": "Shades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 340",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 340\nSchool illusion (shadow) [shadow]; Level arcanist 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange see text\nEffect see text\nDuration see text\nSaving Throw Will disbelief (if interacted with); varies; see text; Spell Resistance yes; see text\nDescription\nThis spell functions like shadow conjuration, except that it mimics conjuration spells of 8th level or lower. The illusory conjurations created deal four-fifths (80%) damage to nonbelievers, and nondamaging effects are 80% likely to work against nonbelievers.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c06d639286c554e.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c06d639286c554e"
+  },
+  "license": "OGL 1.0a"
+}

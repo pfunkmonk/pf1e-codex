@@ -1,0 +1,27 @@
+{
+  "id": "2641110f02158bca",
+  "name": "Curative Distillation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Healer's Handbook pg. 8",
+  "book": "Healer's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 2,
+      "cleric": 3,
+      "investigator": 2,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Healer's Handbook"
+  },
+  "body": "Source Healer's Handbook pg. 8\nSchool conjuration (healing); Level alchemist 2, cleric 3, investigator 2, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (healing herb, alchemical remady, or potion of a healing spell worth at least 50 gp)\nEffect\nRange touch\nTarget one living creature touched\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless)\nDescription\nYou concentrate the healing potential of the material component so that it’s exceptionally potent and restorative. This spell restores a number of hit points equal to 1d8 + 1 point per caster level (maximum +10) to the target, and also grants the target the benefits of the material component. Roll the hit points restored separately when determining how many total hit points this spell and the material component restore.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2641110f02158bca.json",
+    "web": "https://codex.pipsprojects.com/#/e/2641110f02158bca"
+  },
+  "license": "OGL 1.0a"
+}

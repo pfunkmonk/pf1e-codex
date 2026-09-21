@@ -1,0 +1,26 @@
+{
+  "id": "f31882c133039827",
+  "name": "Winter Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 237, People of the North pg. 26",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "shaman": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 237, People of the North pg. 26\nSchool conjuration (creation) [cold, water]; Level druid 2, hunter 2, shaman 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (ground glass)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius spread\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nIce encrusts the ground, radiating supernatural cold and making it hard for creatures to maintain their balance. This icy ground is treated as normal ice, forcing creatures to spend 2 squares of movement to enter an icy square and increasing the DC of Acrobatics checks in the area by 5. A creature that begins its turn in the affected area takes 1d6 points of cold damage and takes a –2 penalty on saving throws against spells with the cold descriptor for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f31882c133039827.json",
+    "web": "https://codex.pipsprojects.com/#/e/f31882c133039827"
+  },
+  "license": "OGL 1.0a"
+}

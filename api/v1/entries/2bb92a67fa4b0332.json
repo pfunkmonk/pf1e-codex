@@ -1,0 +1,29 @@
+{
+  "id": "2bb92a67fa4b0332",
+  "name": "Thorn Javelin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 196",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 196\nSchool conjuration (creation) [poison]; Level druid 1, hunter 1, ranger 1, shaman 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 0 ft.\nEffect javelin-like thorn\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nA wooden thorn the size of a javelin (appropriate for your size) appears in your open hand. You can wield this thorn as a javelin, and you are proficient in its use. Any creature struck by the javelin must succeed at a Fortitude save or be sickened for 1 round. If you throw the javelin, another one appears in your hand. Any javelin that leaves your grasp disappears at the end of your turn. Each javelin attack you make reduces the spell’s remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after that attack resolves.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2bb92a67fa4b0332.json",
+    "web": "https://codex.pipsprojects.com/#/e/2bb92a67fa4b0332"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2f2e1d02f4e65b16",
+  "name": "Bless Army",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Quests and Campaigns pg. 29",
+  "book": "Quests and Campaigns",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 6,
+      "oracle": 6,
+      "warpriest": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Quests and Campaigns"
+  },
+  "body": "Source Quests and Campaigns pg. 29\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 6, oracle 6, warpriest 6\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 1 hex\nTarget one army\nDuration 1 battle\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nBless army fills an army with courage. The army gains a +1 bonus on OM and Morale checks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2f2e1d02f4e65b16.json",
+    "web": "https://codex.pipsprojects.com/#/e/2f2e1d02f4e65b16"
+  },
+  "license": "OGL 1.0a"
+}

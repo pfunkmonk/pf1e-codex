@@ -1,0 +1,34 @@
+{
+  "id": "03ef25a5676afa67",
+  "name": "Film of Filth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #74: Sword of Valor pg. 74",
+  "book": "Pathfinder #74: Sword of Valor",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 3,
+      "oracle": 4,
+      "ranger": 3,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Pathfinder #74: Sword of Valor"
+  },
+  "body": "Source Pathfinder #74: Sword of Valor pg. 74\nSchool transmutation [poison]; Level arcanist 4, cleric 4, druid 4, hunter 3, oracle 4, ranger 3, redmantisassassin 4, sorcerer 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou cause the target’s flesh to exude a layer of putrescent slime so foul that the target is sickened (Fortitude negates) for the duration of the spell and for 1d4 rounds thereafter. All creatures within 20 feet also become sickened (Fortitude negates), and remain sickened for as long as they remain within 20 feet of the target and for 1d4 rounds thereafter. A creature that strikes the target with a bite attack must succeed at an additional save or become nauseated for 1d4 rounds. Creatures immune to poison are unaffected.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/03ef25a5676afa67.json",
+    "web": "https://codex.pipsprojects.com/#/e/03ef25a5676afa67"
+  },
+  "license": "OGL 1.0a"
+}

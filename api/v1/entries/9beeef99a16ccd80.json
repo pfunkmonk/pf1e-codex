@@ -1,0 +1,30 @@
+{
+  "id": "9beeef99a16ccd80",
+  "name": "Conversing Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ranged Tactics Toolbox pg. 30",
+  "book": "Ranged Tactics Toolbox",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ranged Tactics Toolbox"
+  },
+  "body": "Source Ranged Tactics Toolbox pg. 30\nSchool transmutation [air]; Level arcanist 4, bard 4, skald 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 1 mile/level\nArea 10-ft.-radius spread\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as whispering wind, except it can carry responses and doesn’t end after delivering its first message. After the wind completes its initial message, it waits for 1 round, then copies what it hear, and returns at the same speed and by the same route. It delivers what it heard to the location where the spell was originally cast. The wind continues back and forth in this way until the duration ends or the spell is dismissed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9beeef99a16ccd80.json",
+    "web": "https://codex.pipsprojects.com/#/e/9beeef99a16ccd80"
+  },
+  "license": "OGL 1.0a"
+}

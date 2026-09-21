@@ -1,0 +1,24 @@
+{
+  "id": "d15471d9a29c4141",
+  "name": "Vestment of the Champion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 247",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 2,
+      "paladin": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 247\nSchool abjuration; Level antipaladin 2, paladin 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget armor or shield touched\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nThis functions as magic vestment, except it only affects armor or a shield you are wearing or carrying. If the armor or shield is worn or carried by anyone other than you, the spell has no effect, but resumes its effect when you are wearing or carrying it again.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d15471d9a29c4141.json",
+    "web": "https://codex.pipsprojects.com/#/e/d15471d9a29c4141"
+  },
+  "license": "OGL 1.0a"
+}

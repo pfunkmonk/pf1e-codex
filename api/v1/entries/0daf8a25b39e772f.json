@@ -1,0 +1,33 @@
+{
+  "id": "0daf8a25b39e772f",
+  "name": "Shadow Step",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 237",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 237\nSchool illusion (shadow) [shadow]; Level arcanist 4, bard 4, psychic 4, redmantisassassin 4, skald 4, sorcerer 4, spiritualist 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget you\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nTo use this spell, you must be in an area of dim light or darkness. You enter a shadow or area of darkness, which transports you along a coiling path of shadowstuff to another dim or dark location within range.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0daf8a25b39e772f.json",
+    "web": "https://codex.pipsprojects.com/#/e/0daf8a25b39e772f"
+  },
+  "license": "OGL 1.0a"
+}

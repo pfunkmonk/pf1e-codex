@@ -1,0 +1,28 @@
+{
+  "id": "04e8bf260c7e855d",
+  "name": "Polar Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 323",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 323\nSchool evocation [cold]; Level arcanist 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a white ceramic cone or prism)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nA blue-white ray of freezing air and ice springs from your hand. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d6 points of cold damage per caster level (maximum 25d6) and 1d4 points of Dexterity drain.\nMythic Polar Ray\nSource Mythic Adventures pg. 103\nThe damage dealt increases to 1d8 points of cold damage per caster level (maximum 25d8) and 1d6 points of Dexterity drain. If the target takes damage from this spell, it becomes partially encased in ice, reducing its speed by half. Creatures with the cold or incorporeal subtypes or immunity to being grappled are immune to this effect. The reduced movement lasts until the ice is destroyed. Destroying the ice requires a successful Strength or dispel check against the spell’s DC or dealing 1 point of bludgeoning or fire damage per caster level to the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04e8bf260c7e855d.json",
+    "web": "https://codex.pipsprojects.com/#/e/04e8bf260c7e855d"
+  },
+  "license": "OGL 1.0a"
+}

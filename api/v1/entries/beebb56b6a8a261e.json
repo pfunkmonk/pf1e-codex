@@ -1,0 +1,239 @@
+{
+  "id": "beebb56b6a8a261e",
+  "name": "Placing Treasure",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 399",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nPlacing Treasure\nSource PRPG Core Rulebook pg. 399\nAs PCs gain levels, the amount of treasure they carry and use increases as well. The Pathfinder Roleplaying Game assumes that all PCs of equivalent level have roughly equal amounts of treasure and magic items. Since the primary income for a PC derives from treasure and loot gained from adventuring, it's important to moderate the wealth and hoards you place in your adventures. To aid in placing treasure, the amount of treasure and magic items the PCs receive for their adventures is tied to the Challenge Rating of the encounters they face—the higher an encounter's CR, the more treasure it can award.\n\nTable 12–4 lists the amount of treasure each PC is expected to have at a specific level. Note that this table assumes a standard fantasy game. Low-fantasy games might award only half this value, while high-fantasy games might double the value. It is assumed that some of this treasure is consumed in the course of an adventure (such as potions and scrolls), and that some of the less useful items are sold for half value so more useful gear can be purchased.\n\nTable 12–4 can also be used to budget gear for characters starting above 1st level, such as a new character created to replace a dead one. Characters should spend no more than half their total wealth on any single item. For a balanced approach, PCs that are built after 1st level should spend no more than 25% of their wealth on weapons, 25% on armor and protective devices, 25% on other magic items, 15% on disposable items like potions, scrolls, and wands, and 10% on ordinary gear and coins. Different character types might spend their wealth differently than these percentages suggest; for example, arcane casters might spend very little on weapons but a great deal more on other magic items and disposable items.\n\nTable 12–5 lists the amount of treasure each encounter should award based on the average level of the PCs and the speed of the campaign's XP progression (slow, medium, or fast). Easy encounters should award treasure one level lower than the PCs' average level. Challenging, hard, and epic encounters should award treasure one, two, or three levels higher than the PCs' average level, respectively. If you are running a low-fantasy game, cut these values in half. If you are running a high-fantasy game, double these values.\n\nEncounters against NPCs typically award three times the treasure a monster-based encounter awards, due to NPC gear. To compensate, make sure the PCs face off against a pair of additional encounters that award little in the way of treasure. Animals, plants, constructs, mindless undead, oozes, and traps are great “low treasure” encounters. Alternatively, if the PCs face a number of creatures with little or no treasure, they should have the opportunity to acquire a number of signif icantly more valuable objects sometime in the near future to make up for the imbalance. As a general rule, PCs should not own any magic item worth more than half their total character wealth, so make sure to check before awarding expensive magic items.\nTable 12-4: Character Wealth by Level\nPC Level* Wealth\n2 1,000 gp\n3 3,000 gp\n4 6,000 gp\n5 10,500 gp\n6 16,000 gp\n7 23,500 gp\n8 33,000 gp\n9 46,000 gp\n10 62,000 gp\n11 82,000 gp\n12 108,000 gp\n13 140,000 gp\n14 185,000 gp\n15 240,000 gp\n16 315,000 gp\n17 410,000 gp\n18 530,000 gp\n19 685,000 gp\n20 880,000 gp\n*For 1st-level PCs, see table 6-1 in Chapter 6.\nTable 12-5: Treasure Values per Encounter\nTreasure per Encounter\nAverage Party Level Slow Medium Fast\n1 170 gp 260 gp 400 gp\n2 350 gp 550 gp 800 gp\n3 550 gp 800 gp 1,200 gp\n4 750 gp 1,150 gp 1,700 gp\n5 1,000 gp 1,550 gp 2,300 gp\n6 1,350 gp 2,000 gp 3,000 gp\n7 1,750 gp 2,600 gp 3,900 gp\n8 2,200 gp 3,350 gp 6,000 gp\n9 2,850 gp 4,250 gp 6,400 gp\n10 3,650 gp 5,450 gp 8,200 gp\n11 4,650 gp 7,000 gp 10,500 gp\n12 6,000 gp 9,000 gp 13,500 gp\n13 7,750 gp 11,600 gp 17,500 gp\n14 10,000 gp 15,000 gp 22,000 gp\n15 13,000 gp 19,500 gp 29,000 gp\n16 16,500 gp 25,000 gp 38,000 gp\n17 22,000 gp 32,000 gp 48,000 gp\n18 28,000 gp 41,000 gp 72,000 gp\n19 35,000 gp 53,000 gp 79,000 gp\n20 44,000 gp 67,000 gp 100,000 gp",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "PC Level*",
+          "Wealth"
+        ],
+        [
+          "2",
+          "1,000 gp"
+        ],
+        [
+          "3",
+          "3,000 gp"
+        ],
+        [
+          "4",
+          "6,000 gp"
+        ],
+        [
+          "5",
+          "10,500 gp"
+        ],
+        [
+          "6",
+          "16,000 gp"
+        ],
+        [
+          "7",
+          "23,500 gp"
+        ],
+        [
+          "8",
+          "33,000 gp"
+        ],
+        [
+          "9",
+          "46,000 gp"
+        ],
+        [
+          "10",
+          "62,000 gp"
+        ],
+        [
+          "11",
+          "82,000 gp"
+        ],
+        [
+          "12",
+          "108,000 gp"
+        ],
+        [
+          "13",
+          "140,000 gp"
+        ],
+        [
+          "14",
+          "185,000 gp"
+        ],
+        [
+          "15",
+          "240,000 gp"
+        ],
+        [
+          "16",
+          "315,000 gp"
+        ],
+        [
+          "17",
+          "410,000 gp"
+        ],
+        [
+          "18",
+          "530,000 gp"
+        ],
+        [
+          "19",
+          "685,000 gp"
+        ],
+        [
+          "20",
+          "880,000 gp"
+        ]
+      ]
+    },
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Treasure per Encounter"
+        ],
+        [
+          "Average Party Level",
+          "Slow",
+          "Medium",
+          "Fast"
+        ],
+        [
+          "1",
+          "170 gp",
+          "260 gp",
+          "400 gp"
+        ],
+        [
+          "2",
+          "350 gp",
+          "550 gp",
+          "800 gp"
+        ],
+        [
+          "3",
+          "550 gp",
+          "800 gp",
+          "1,200 gp"
+        ],
+        [
+          "4",
+          "750 gp",
+          "1,150 gp",
+          "1,700 gp"
+        ],
+        [
+          "5",
+          "1,000 gp",
+          "1,550 gp",
+          "2,300 gp"
+        ],
+        [
+          "6",
+          "1,350 gp",
+          "2,000 gp",
+          "3,000 gp"
+        ],
+        [
+          "7",
+          "1,750 gp",
+          "2,600 gp",
+          "3,900 gp"
+        ],
+        [
+          "8",
+          "2,200 gp",
+          "3,350 gp",
+          "6,000 gp"
+        ],
+        [
+          "9",
+          "2,850 gp",
+          "4,250 gp",
+          "6,400 gp"
+        ],
+        [
+          "10",
+          "3,650 gp",
+          "5,450 gp",
+          "8,200 gp"
+        ],
+        [
+          "11",
+          "4,650 gp",
+          "7,000 gp",
+          "10,500 gp"
+        ],
+        [
+          "12",
+          "6,000 gp",
+          "9,000 gp",
+          "13,500 gp"
+        ],
+        [
+          "13",
+          "7,750 gp",
+          "11,600 gp",
+          "17,500 gp"
+        ],
+        [
+          "14",
+          "10,000 gp",
+          "15,000 gp",
+          "22,000 gp"
+        ],
+        [
+          "15",
+          "13,000 gp",
+          "19,500 gp",
+          "29,000 gp"
+        ],
+        [
+          "16",
+          "16,500 gp",
+          "25,000 gp",
+          "38,000 gp"
+        ],
+        [
+          "17",
+          "22,000 gp",
+          "32,000 gp",
+          "48,000 gp"
+        ],
+        [
+          "18",
+          "28,000 gp",
+          "41,000 gp",
+          "72,000 gp"
+        ],
+        [
+          "19",
+          "35,000 gp",
+          "53,000 gp",
+          "79,000 gp"
+        ],
+        [
+          "20",
+          "44,000 gp",
+          "67,000 gp",
+          "100,000 gp"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/beebb56b6a8a261e.json",
+    "web": "https://codex.pipsprojects.com/#/e/beebb56b6a8a261e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "aa144d198cef27d1",
+  "name": "Curse of Befouled Fortune",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Beast pg. 7",
+  "book": "Blood of the Beast",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "sorcerer": 4,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Beast"
+  },
+  "body": "Source Blood of the Beast pg. 7\nSchool necromancy [curse]; Level antipaladin 3, arcanist 4, bloodrager 4, cleric 3, oracle 3, shaman 3, sorcerer 4, spiritualist 3, warpriest 3, witch 3, wizard 4 (Catfolk)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou curse the target, making it incredibly unlucky. While affected by curse of befouled fortune, the target can’t receive luck bonuses or benefit from effects that grant it the ability to roll multiple times and take the higher result (like the swashbuckler’s charmed life ability). The target also can’t choose a die result, such as taking 10 or 20 in lieu of rolling (as per the bard’s lore master ability). Finally, the first time each turn the target would succeed at an attack, saving throw, or skill check, it must roll twice and use the worse of the two results.\n\nThis curse cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa144d198cef27d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa144d198cef27d1"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "be685d10d13ea8e1",
+  "name": "Mummified Crocodile",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Pathfinder #81: Shifting Sands pg. 84",
+  "book": "Pathfinder #81: Shifting Sands",
+  "facets": {
+    "cr": 2,
+    "sz": "Large",
+    "t": "undead",
+    "al": "N",
+    "bk": "Pathfinder #81: Shifting Sands"
+  },
+  "body": "All | Unique\nMummified Animals, Mummified Crocodile\nMummified Crocodile CR 2\nSource Pathfinder #81: Shifting Sands pg. 84\nXP 600\nN Large undead\nInit +1; Senses darkvision 60 ft.; Perception +8\nDefense\nAC 14, touch 10, flat-footed 13 (+1 Dex, +4 natural, –1 size)\nhp 19 (3d8+6)\nFort +5, Ref +4, Will +2\nDR 2/—; Immune undead traits\nOffense\nSpeed 20 ft., swim 30 ft.; sprint\nMelee bite +5 (1d8+4 plus grab), tail slap +0 (1d12+2)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks death roll, servant’s curse (DC 13)\nStatistics\nStr 19, Dex 12, Con —, Int 1, Wis 12, Cha 14\nBase Atk +2; CMB +7; CMD 18 (22 vs. trip)\nFeats Skill Focus (Stealth), Skill Focus (Perception)\nSkills Perception +8, Stealth +4 (+12 in water), Swim +16; Racial Modifiers +8 Stealth in water\nEcology\nEnvironment warm ruins\nOrganization solitary\nTreasure none\nSpecial Abilities\nDeath Roll (Ex) When grappling a foe of its size or smaller, a crocodile can perform a death roll upon making a successful grapple check. As it clings to its foe, it tucks in its legs and rolls rapidly, twisting and wrenching its victim. The crocodile deals its bite damage and knocks the creature prone. If successful, the crocodile maintains its grapple.\n\nSprint (Ex) Once per minute a crocodile may sprint, increasing its land speed to 40 feet for 1 round.\nDescription\nCrocodiles are depicted in many ways in ancient Osirion, but most often they are shown in association with the River Sphinx and, more importantly, with the god Sobek. Mummified crocodiles are common in crypts that are no farther from the river than a single day’s walk. Many mummif ied crocodiles have baby crocodiles placed on their backs or in their mouths, representing how live crocodiles transport and care for their young.\nCreating a Mummified Animal\n“Mummified animal” is an acquired template that can be added to a creature of the animal type. A mummified animal uses all the base creature’s statistics and special abilities except as noted here.\n\nChallenge Rating: HD 4 or fewer, as base creature; HD 5 to 10, as base creature +1; HD 11 or more, as base creature +2.\nAlignment: Neutral evil.\nType: The creature’s type changes to undead. Do not recalculate BAB, saves, or skills.\nSenses: A mummified animal gains darkvision 60 ft.\nDefensive Abilities: A mummified animal gains damage reduction based on its Hit Dice: one with 5 or fewer Hit Dice gains DR 2/—, one with 6–10 Hit Dice gains DR 5/—, and one with 11–20 Hit Dice gains DR 10/—.\nSpeed: Winged mummified animals can still fly, but their maneuverability drops to clumsy. Retain all other movement types.\nSpecial Attacks: A mummified animal retains all special attacks except those dependent on a living body to function, such as a snake’s poison or a skunk’s revolting musk. A mummified animal also gains the following special attack.\nServant’s Curse (Su): Once per day, a mummified animal can touch a creature or hit a creature with one of its natural attacks to deliver a curse. Any living creature struck by this attack must succeed at a Will save or take 1d3 points of Dex and Wis damage. The save DC is equal to 10 + 1/2 the mummified animal’s Hit Dice + the mummified animal’s Charisma modifier.\nAbilities: A mummified animal loses its Constitution score, and its Charisma score becomes 14.\nCreatures in \"Mummified Animals\" Category\nName CR\nMummified Baboon 1/2\nMummified Crocodile 2\nMummified Elephant 9\nMummified Hippopotamus 6\nMummified Animals",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/be685d10d13ea8e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/be685d10d13ea8e1"
+  },
+  "license": "OGL 1.0a"
+}

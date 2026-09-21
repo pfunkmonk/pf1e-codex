@@ -1,0 +1,28 @@
+{
+  "id": "eb2f55e28fa29e38",
+  "name": "Twisted Space",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 248",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "magus": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 248\nSchool transmutation; Level arcanist 2, magus 2, psychic 2, redmantisassassin 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a length of wire bent into a circle)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou distort the space around a creature, twisting the path of its melee attacks unpredictably, but always toward a nearby creature that the target threatens. Until the start of your next turn, melee attacks made by the target creature affect a random target instead of their intended target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb2f55e28fa29e38.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb2f55e28fa29e38"
+  },
+  "license": "OGL 1.0a"
+}

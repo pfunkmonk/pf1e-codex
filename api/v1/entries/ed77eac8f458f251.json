@@ -1,0 +1,32 @@
+{
+  "id": "ed77eac8f458f251",
+  "name": "Bless",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 249",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "shaman": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 249\nSchool enchantment (compulsion) [mind-affecting]; Level adept 1, cleric 1, inquisitor 1, oracle 1, paladin 1, shaman 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 50 ft.\nArea The caster and all allies within a 50-ft. burst, centered on the caster\nDuration 1 min./level\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nBless fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.\n\nBless counters and dispels bane.\nMythic Bless\nSource Mythic Adventures pg. 85\nThe +1 morale bonus applies on attack rolls, weapon damage rolls, and all saving throws. Once during the spell’s duration, an affected creature can roll an attack roll or saving throw twice and take the higher result. The target must decide to use this ability before the first roll is attempted.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed77eac8f458f251.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed77eac8f458f251"
+  },
+  "license": "OGL 1.0a"
+}

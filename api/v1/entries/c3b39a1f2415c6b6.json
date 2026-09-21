@@ -1,0 +1,29 @@
+{
+  "id": "c3b39a1f2415c6b6",
+  "name": "Scintillating Pattern",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 336",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 336\nSchool illusion (pattern) [mind-affecting]; Level arcanist 8, psychic 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a crystal prism)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect colorful lights in a 20-ft.-radius spread\nDuration concentration + 2 rounds\nSaving Throw none; Spell Resistance yes\nDescription\nA twisting pattern of coruscating colors weaves through the air, affecting creatures within. The spell affects a total number of HD of creatures equal to your caster level (maximum 20). Creatures with the fewest HD are affected first, and among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. The spell affects each subject according to its HD.\n\n6 or less: Unconscious for 1d4 rounds, then stunned for 1d4 rounds, and then confused for 1d4 rounds. (Treat an unconscious result as stunned for nonliving creatures.)\n\n7 to 12: Stunned for 1d4 rounds, then confused for an additional 1d4 rounds.\n\n13 or more: Confused for 1d4 rounds.\n\nSightless creatures are not affected by scintillating pattern.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c3b39a1f2415c6b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/c3b39a1f2415c6b6"
+  },
+  "license": "OGL 1.0a"
+}

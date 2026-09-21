@@ -1,0 +1,50 @@
+{
+  "id": "6b49dac2f9de89f6",
+  "name": "Thoracic Nanite Chamber (Mark I)",
+  "bucket": "items",
+  "category": "Technology",
+  "source": "Technology Guide pg. 38",
+  "book": "Technology Guide",
+  "facets": {
+    "slot": "body",
+    "pr": 8000,
+    "bk": "Technology Guide"
+  },
+  "body": "Thoracic Nanite Chamber\nSource Technology Guide pg. 38\nPrice 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\nSlot body; Weight 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III)\nInstall DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\nImplantation 2 (Mark I), 4 (Mark II), 8 (Mark III)\nDescription\nA thoracic nanite chamber augments the vital organs within a creature’s chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution. This enhancement bonus alters the implant’s price, implantation value, install DCs, and Craft DCs as listed below.\n\nChamber Enhancement Implantation Install\nMark I +2 Con 2 DC 24\nMark II +4 Con 4 DC 28\nMark III +6 Con 8 DC 36\nConstruction\nCraft DC 24 (Mark I), DC 28 (Mark II), DC 32 (Mark III); Cost 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III)\nCraft Cybertech, cybernetics lab",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Chamber",
+          "Enhancement",
+          "Implantation",
+          "Install"
+        ],
+        [
+          "Mark I",
+          "+2 Con",
+          "2",
+          "DC 24"
+        ],
+        [
+          "Mark II",
+          "+4 Con",
+          "4",
+          "DC 28"
+        ],
+        [
+          "Mark III",
+          "+6 Con",
+          "8",
+          "DC 36"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b49dac2f9de89f6.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b49dac2f9de89f6"
+  },
+  "license": "OGL 1.0a"
+}

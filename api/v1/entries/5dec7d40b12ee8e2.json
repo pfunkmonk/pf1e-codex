@@ -1,0 +1,27 @@
+{
+  "id": "5dec7d40b12ee8e2",
+  "name": "Early Judgment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 233, Faiths of Balance pg. 29",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "warpriest": 2,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 233, Faiths of Balance pg. 29\nSchool divination; Level cleric 2, inquisitor 2, oracle 2, warpriest 2, witch 1 (Pharasma)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1d4 rounds\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou show one creature the effect of its life so far and what it might expect when it passes under Pharasma’s impartial gaze at the end of its life. Depending on the creature’s alignment and its adherence to its ethos, you can provide it a brief glimpse of the reward or punishment that waits for it when it dies by showing it a mental image of its destined plane in the Great Beyond. If the target is good-aligned, it is fascinated for 1d4 rounds on a failed save. If the target is neutral-aligned, it is confused for 1d4 rounds on a failed save. If the target is evil-aligned, it is shaken for 1d4 rounds on a failed save.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5dec7d40b12ee8e2.json",
+    "web": "https://codex.pipsprojects.com/#/e/5dec7d40b12ee8e2"
+  },
+  "license": "OGL 1.0a"
+}

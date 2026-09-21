@@ -1,0 +1,169 @@
+{
+  "id": "00a8a605fc5b2899",
+  "name": "Natural Attacks",
+  "bucket": "monsters",
+  "category": "Universal Monster Rules",
+  "source": "Bestiary 6 pg. 295, Pathfinder RPG Bestiary pg. 301, Bestiary 2 pg. 299, Bestiary 3 pg. 297, Bestiary 4 pg. 296, Bestiary 5 pg. 296",
+  "book": "Bestiary 6",
+  "facets": {
+    "bk": "Bestiary 6"
+  },
+  "body": "Source Bestiary 6 pg. 295, Pathfinder RPG Bestiary pg. 301, Bestiary 2 pg. 299, Bestiary 3 pg. 297, Bestiary 4 pg. 296, Bestiary 5 pg. 296\nMost creatures have natural attacks (attacks made without a weapon). These attacks can be primary or secondary attacks. Primary attacks are made using the creature’s full base attack bonus and add the creature’s full Strength bonus to damage rolls. Secondary attacks are made using the creature’s base attack bonus – 5 and add only 1/2 the creature’s Strength bonus to damage rolls. If a creature has only one natural attack, it is always made using the creature’s full base attack bonus and adds 1-1/2 times the creature’s Strength bonus to damage rolls. This increase does not apply if the creature has multiple attacks but takes only one. If a creature has only one type of attack, but has multiple attacks per round, that attack is treated as a primary attack, regardless of its type. Table 3–1 lists some of the most common types of natural attacks and their classifications.\n\nSome creatures treat one or more of their attacks differently, such as dragons, which always add 1-1/2 times their Strength bonus to damage rolls with their bite attack. These exceptions are noted in the creature’s description.\n\nCreatures with natural attacks and attacks made with weapons can use both as part of a full attack action (although a creature must forgo one natural attack, be it a claw, slam, or tentacle attack, for each weapon clutched in a limb that would otherwise make a natural attack). Such creatures attack with their weapons normally but treat all of their natural attacks as secondary attacks during that attack, regardless of their type.\n\nThe Damage Type column refers to the sort of damage that the natural attack typically deals: bludgeoning (B), slashing (S), or piercing (P). Some attacks deal damage of more than one type, depending on the creature. In such cases, all the damage is considered to be of all listed types for the purpose of overcoming damage reduction.\n\nSome fey, humanoids, monstrous humanoids, and outsiders do not have natural attacks. These creatures can make unarmed strikes, but treat them as weapons for the purpose of determining attack bonuses, and they must use the two-weapon fighting rules when making attacks with both hands.\n\nSee Table 3–1 for typical damage values for natural attacks by creature size.\n\nTable 3-1: Natural Attacks by Size\nBase Damage by Size*\nNatural Attack Fine Diminutive Tiny Small Medium Large Huge Gargantuan Colossal Damage Type Attack Type\nBite 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 B/S/P Primary\nClaw — 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 B/S Primary\nGore 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 P Primary\nHoof, Tentacle, Wing — 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 B Secondary\nPincers, Tail Slap 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 4d6 B Secondary\nSlam — 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 B Primary\nSting — 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 P Primary\nTalons — 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 S Primary\nOther — 1 1d2 1d3 1d4 1d6 1d8 2d6 2d8 B/S/P Secondary\n* Individual creatures vary from this value as appropriate.\n\nFormat: bite +5 (1d6+1), 2 claws +5 (1d4+2), 4 tentacles +0 (1d4+1)\nLocation: Melee and Ranged.",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Base Damage by Size*",
+          ""
+        ],
+        [
+          "Natural Attack",
+          "Fine",
+          "Diminutive",
+          "Tiny",
+          "Small",
+          "Medium",
+          "Large",
+          "Huge",
+          "Gargantuan",
+          "Colossal",
+          "Damage Type",
+          "Attack Type"
+        ],
+        [
+          "Bite",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "4d6",
+          "B/S/P",
+          "Primary"
+        ],
+        [
+          "Claw",
+          "—",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "B/S",
+          "Primary"
+        ],
+        [
+          "Gore",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "4d6",
+          "P",
+          "Primary"
+        ],
+        [
+          "Hoof, Tentacle, Wing",
+          "—",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "B",
+          "Secondary"
+        ],
+        [
+          "Pincers, Tail Slap",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "4d6",
+          "B",
+          "Secondary"
+        ],
+        [
+          "Slam",
+          "—",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "B",
+          "Primary"
+        ],
+        [
+          "Sting",
+          "—",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "P",
+          "Primary"
+        ],
+        [
+          "Talons",
+          "—",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "S",
+          "Primary"
+        ],
+        [
+          "Other",
+          "—",
+          "1",
+          "1d2",
+          "1d3",
+          "1d4",
+          "1d6",
+          "1d8",
+          "2d6",
+          "2d8",
+          "B/S/P",
+          "Secondary"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/00a8a605fc5b2899.json",
+    "web": "https://codex.pipsprojects.com/#/e/00a8a605fc5b2899"
+  },
+  "license": "OGL 1.0a"
+}

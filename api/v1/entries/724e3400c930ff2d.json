@@ -1,0 +1,28 @@
+{
+  "id": "724e3400c930ff2d",
+  "name": "Brilliant Inspiration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 207",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 6,
+      "psychic": 8,
+      "skald": 6
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 207\nSchool evocation [language-dependent]; Level bard 6, psychic 8, skald 6\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level and special (see below)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou open a link between your mind and the subject’s mind, giving advice and encouragement for as long as the spell is in effect. Each time the subject of the spell makes an attack roll, ability check, or skill check, it rolls two d20s and takes the better result. If any roll is a natural 20, the spell’s effect ends—your brilliant advice is spent.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/724e3400c930ff2d.json",
+    "web": "https://codex.pipsprojects.com/#/e/724e3400c930ff2d"
+  },
+  "license": "OGL 1.0a"
+}

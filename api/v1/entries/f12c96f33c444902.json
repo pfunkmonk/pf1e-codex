@@ -1,0 +1,28 @@
+{
+  "id": "f12c96f33c444902",
+  "name": "Dimensional Bounce",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 179",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 7,
+      "psychic": 7,
+      "sorcerer": 7,
+      "summoner": 6,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 179\nSchool conjuration (teleportation); Level arcanist 7, psychic 7, sorcerer 7, summoner 6, summoner (unchained) 6, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets you and touched objects or other touched willing creatures\nDuration 1 round/level or until discharged\nSaving Throw none and Will negates (object); Spell Resistance no and yes (object)\nDescription\nYou designate two locations within range and create a dimensional link between them; you must have line of effect to both locations when casting this spell. As a swift action, you can teleport from your current location to either of the designated locations as if you had cast dimension door. The spell is discharged once you have used it to teleport a number of times equal to one-fourth your caster level (maximum 5 times).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f12c96f33c444902.json",
+    "web": "https://codex.pipsprojects.com/#/e/f12c96f33c444902"
+  },
+  "license": "OGL 1.0a"
+}

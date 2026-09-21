@@ -1,0 +1,31 @@
+{
+  "id": "2980837a3bce101e",
+  "name": "Knell of the Depths",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Coven pg. 21",
+  "book": "Blood of the Coven",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 2,
+      "shaman": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "witch": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Coven"
+  },
+  "body": "Source Blood of the Coven pg. 21\nSchool conjuration [curse, water]; Level arcanist 3, druid 3, hunter 3, magus 2, shaman 3, sorcerer 3, summoner 3, witch 2, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget one creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou invest a target with cursed elemental energy, causing nearby bodies of water to roil when the target draw nears and tendrils of water to drag it deeper under the waves. The target takes a –10 penalty on Swim checks and automatically sinks 15 feet per round when in any body of liquid. The creature does not sink if standing upon a solid surface capable of supporting its weight, even if it is submerged.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2980837a3bce101e.json",
+    "web": "https://codex.pipsprojects.com/#/e/2980837a3bce101e"
+  },
+  "license": "OGL 1.0a"
+}

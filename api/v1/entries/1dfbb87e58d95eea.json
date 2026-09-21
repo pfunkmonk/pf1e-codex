@@ -1,0 +1,28 @@
+{
+  "id": "1dfbb87e58d95eea",
+  "name": "Litany of Entanglement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 234",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 2,
+      "inquisitor": 3,
+      "paladin": 2
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 234\nSchool conjuration (calling) [language-dependent]; Level antipaladin 2, inquisitor 3, paladin 2\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYour litany conjures chains of energy that lash upward from the ground and hamper the target’s movement. The target is entangled. This spell has no effect on flying creatures, or creatures not standing upon solid ground.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1dfbb87e58d95eea.json",
+    "web": "https://codex.pipsprojects.com/#/e/1dfbb87e58d95eea"
+  },
+  "license": "OGL 1.0a"
+}

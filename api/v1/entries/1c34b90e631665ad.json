@@ -1,0 +1,28 @@
+{
+  "id": "1c34b90e631665ad",
+  "name": "Enhance Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 233, Faiths of Purity pg. 28",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "skald": 1,
+      "warpriest": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 233, Faiths of Purity pg. 28\nSchool transmutation; Level bard 1, cleric 1, oracle 1, paladin 1, skald 1, warpriest 1 (Cayden Cailean)\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget 1 pint of water/level\nDuration instantaneous\nSaving Throw Fortitude negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell transforms water into an alcoholic beverage, typically ale, beer, mead, or wine. The alcohol is of middling quality but perfectly drinkable. The spell also serves to remove poisons, diseases, minerals, and other toxins from the water as it transforms. The more contaminants that exist in the water, the darker the ale or the more full-bodied the wine becomes. The beverage’s alcohol content is not affected by the presence or absence of contaminants.\n\nThis spell does not work on unholy water, potions, or other liquids with magical power.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1c34b90e631665ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/1c34b90e631665ad"
+  },
+  "license": "OGL 1.0a"
+}

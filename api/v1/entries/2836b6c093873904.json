@@ -1,0 +1,27 @@
+{
+  "id": "2836b6c093873904",
+  "name": "Banshee Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 174",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 174\nSchool necromancy [death, fear, mind-affecting, sonic]; Level arcanist 6, sorcerer 6, spiritualist 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous and 1 round/level (see text)\nSaving Throw Reflex half and Will negates (see text); Spell Resistance yes\nDescription\nYou create a cone of spectral energy resembling screaming elven ghosts that deals 1d4 points of damage per caster level (maximum 15d4); a successful Reflex save halves this damage. Any creature that fails its Reflex save must succeed at a Will save or become panicked for 1 round/level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2836b6c093873904.json",
+    "web": "https://codex.pipsprojects.com/#/e/2836b6c093873904"
+  },
+  "license": "OGL 1.0a"
+}

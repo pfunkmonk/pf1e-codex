@@ -1,0 +1,21 @@
+{
+  "id": "668d3efb583f041e",
+  "name": "Prismatic Orrery",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Tombs of Golarion pg. 53",
+  "book": "Tombs of Golarion",
+  "facets": {
+    "cr": 13,
+    "sz": "Gargantuan",
+    "t": "construct",
+    "al": "N",
+    "bk": "Tombs of Golarion"
+  },
+  "body": "A series of metal rings rotates around a giant prismatic sphere.\nPrismatic Orrery CR 13\nSource Tombs of Golarion pg. 53\nXP 25,600\nN Gargantuan construct\nInit +2; Senses darkvision 60 ft., low-light vision, true seeing; Perception +12\nDefense\nAC 24, touch 8, flat-footed 22 (+2 Dex, +16 natural, –4 size)\nhp 159 (18d10+60)\nFort +6, Ref +8, Will +6\nDefensive Abilities all-around vision, dispel resistance, hardness 10; Immune construct traits\nOffense\nSpeed 0 ft. (cannot move)\nMelee slam +21 (6d6+10 plus grab)\nSpace 20 ft., Reach 15 ft.\nSpecial Attacks blinding pulse, constrict (6d6+10), prismatic refraction (+17 ranged touch, DC 21, every 1d4 rounds)\nSpell-Like Abilities (CL 13th; concentration +8)\nConstant—true seeing\nStatistics\nStr 25, Dex 14, Con —, Int —, Wis 10, Cha 1\nBase Atk +18; CMB +29 (+33 grapple); CMD 41\nSkills Perception +12; Racial Modifiers +12 Perception\nSpecial Abilities\nBlinding Pulse (Ex) As a move action, the prismatic orrery can set its lenses to refract the light of the prismatic sphere at its center, granting it a gaze attack that causes blindness in all targets that fail a DC 19 Fortitude saving throw. This gaze attack can be disabled as a move action, and is automatically disabled if the orrery uses its prismatic refraction ability or if the prismatic sphere is temporarily dispelled. The save DC is Constitution-based.\n\nDispel Resistance (Su) The prismatic sphere at the center of the orrery (CL 20th) can be dispelled with a targeted dispel magic spell, but only temporarily. As the sphere is fueled by the elemental energies within the Prismatic Lantern’s demiplane, it reappears after 1d3 rounds. While the prismatic sphere is inactive, the prismatic orrery cannot use its blinding pulse and prismatic refraction abilities.\n\nPrismatic Refraction (Ex) As a standard action, the prismatic orrery can position its many rings and lenses such that the magical energy of the prismatic sphere at its center is aimed in a series of beams at all targets within 60 feet. These beams take the form of a prismatic spray spell (CL 13th); determine the color of each ray randomly with a roll of 1d8 as indicated in the spell. A prismatic refraction ray is a ranged touch attack with a +17 bonus to hit and a save DC of 21. It takes the prismatic orrery 1d4 rounds to recalibrate its lenses to recharge this ability. The save DC is Dexterity-based.\nDescription\nThe automated orrery atop the Prismatic Lantern takes no defensive actions against intruders except when attacked or if commanded to do so by the wielder of a crystal control rod.\nConstruction\nA prismatic orrery must be built around a demiplane, using rare metals and delicate optics worth a total of 50,000 gp.\nPrismatic Orrery\nCL 17th; Price 170,000 gp\nConstruction\nRequirements Craft Construct, animate objects, permanency, prismatic sphere, true seeing, creator must be caster level 17th; Skill Craft (clockwork) DC 25; Cost 110,000 gp",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/668d3efb583f041e.json",
+    "web": "https://codex.pipsprojects.com/#/e/668d3efb583f041e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2c50f3d22d6032b6",
+  "name": "Steal Power",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Mythic Adventures pg. 114",
+  "book": "Mythic Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 5,
+      "mesmerist": 4,
+      "oracle": 5,
+      "psychic": 5,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Mythic Adventures"
+  },
+  "body": "Source Mythic Adventures pg. 114\nSchool necromancy; Level arcanist 5, cleric 5, mesmerist 4, oracle 5, psychic 5, sorcerer 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one mythic creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou sap the power from a mythic creature, using it to restore your own. The target loses 1d4 uses of mythic power. If you have the ability to expend mythic power, you regain one use for each use the target loses.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c50f3d22d6032b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c50f3d22d6032b6"
+  },
+  "license": "OGL 1.0a"
+}

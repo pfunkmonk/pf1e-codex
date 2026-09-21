@@ -1,0 +1,26 @@
+{
+  "id": "93a0c016f26d7c06",
+  "name": "Entrap Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 170",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "medium": 4,
+      "occultist": 5,
+      "psychic": 5,
+      "spiritualist": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 170\nSchool necromancy; Level medium 4, occultist 5, psychic 5, spiritualist 4\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a small silver mirror)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget incorporeal creature or haunt\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou trap the target in the mirror used as the spell’s focus. The target cannot be affected by any means while inside the mirror. If the mirror is destroyed, any incorporeal creature within is immediately freed and any haunt within returns to its original location. Creatures that assumed incorporeal form through a spell or other means remain incorporeal while trapped, even if the duration of the effect that rendered them incorporeal expires. If your focus mirror belonged to the target, the target takes a –2 penalty on its saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93a0c016f26d7c06.json",
+    "web": "https://codex.pipsprojects.com/#/e/93a0c016f26d7c06"
+  },
+  "license": "OGL 1.0a"
+}

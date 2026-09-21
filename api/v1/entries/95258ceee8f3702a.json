@@ -1,0 +1,56 @@
+{
+  "id": "95258ceee8f3702a",
+  "name": "Magic Device Trap Cost",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 423",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nMagic Device Trap Cost\nSource PRPG Core Rulebook pg. 423\nBuilding a magic device trap involves the expenditure of gp and requires the services of a spellcaster. Table 13–5 summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except alarm, which is free unless it must be cast by an NPC).\n\nThe costs derived from Table 13–5 assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them, those costs must be factored in as well (see Chapter 6).\n\nA magic device trap takes 1 day to construct per 500 gp of its cost.\n\nTable 13-5: Cost Modifiers for Magic Device Traps\nFeature Cost Modifier\nAlarm spell used in trigger —\nOne-Shot Trap\nEach spell used +50 gp × caster level × spell level\nMaterial components + material component costs\nAutomatic Reset Trap\nEach spell used +500 gp × caster level × spell level\nMaterial components +material component costs × 100",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Feature",
+          "Cost Modifier"
+        ],
+        [
+          "Alarm spell used in trigger",
+          "—"
+        ],
+        [
+          "One-Shot Trap",
+          ""
+        ],
+        [
+          "Each spell used",
+          "+50 gp × caster level × spell level"
+        ],
+        [
+          "Material components",
+          "+ material component costs"
+        ],
+        [
+          "Automatic Reset Trap",
+          ""
+        ],
+        [
+          "Each spell used",
+          "+500 gp × caster level × spell level"
+        ],
+        [
+          "Material components",
+          "+material component costs × 100"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95258ceee8f3702a.json",
+    "web": "https://codex.pipsprojects.com/#/e/95258ceee8f3702a"
+  },
+  "license": "OGL 1.0a"
+}

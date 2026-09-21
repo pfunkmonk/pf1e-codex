@@ -1,0 +1,17 @@
+{
+  "id": "ec561bfa24ccf381",
+  "name": "Hills Terrain",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 427",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nEnvironment / Wilderness\n\nHills Terrain\nSource PRPG Core Rulebook pg. 427\nA hill can exist in most other types of terrain, but hills can also dominate the landscape. Hills terrain is divided into two categories: gentle hills and rugged hills. Hills terrain often serves as a transition zone between rugged terrain such as mountains and flat terrain such as plains.\n\nHills Category\nGentle Hills Rugged Hills\nGradual slope 75% 40%\nSteep slope 20% 50%\nCliff 5% 10%\nLight undergrowth 15% 15%\n\nGradual Slope: This incline isn’t steep enough to affect movement, but characters gain a +1 bonus on melee attacks against foes downhill from them.\n\nSteep Slope: Characters moving uphill (to an adjacent square of higher elevation) must spend 2 squares of movement to enter each square of steep slope. Characters running or charging downhill (moving to an adjacent square of lower elevation) must succeed on a DC 10 Acrobatics check upon entering the first steep slope square. Mounted characters make a DC 10 Ride check instead. Characters who fail this check stumble and must end their movement 1d2 × 5 feet later. Characters who fail by 5 or more fall prone in the square where they end their movement. A steep slope increases the DC of Acrobatics checks by 2.\n\nCliff: A cliff typically requires a DC 15 Climb check to scale and is 1d4 × 10 feet tall, although the needs of your map might mandate a taller cliff. A cliff isn’t perfectly vertical, taking up 5-foot squares if it’s less than 30 feet tall and 10-foot squares if it’s 30 feet or taller.\n\nLight Undergrowth: Sagebrush and other scrubby bushes grow on hills, although they rarely cover the landscape. Light undergrowth provides concealment and increases the DC of Acrobatics and Stealth checks by 2.\n\nOther Hills Terrain Elements: Trees aren’t out of place in hills terrain, and valleys often have active streams (5 to 10 feet wide and no more than 5 feet deep) or dry streambeds (treat as a trench 5 to 10 feet across) in them. If you add a stream or streambed, remember that water always flows downhill.\n\nStealth and Detection in Hills: In gentle hills, the maximum distance at which a Perception check for detecting the nearby presence of others can succeed is 2d10 × 10 feet. In rugged hills, this distance is 2d6 × 10 feet. Hiding in hills terrain can be difficult if there isn’t undergrowth around. A hilltop or ridge provides enough cover to hide from anyone below the hilltop or ridge.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ec561bfa24ccf381.json",
+    "web": "https://codex.pipsprojects.com/#/e/ec561bfa24ccf381"
+  },
+  "license": "OGL 1.0a"
+}

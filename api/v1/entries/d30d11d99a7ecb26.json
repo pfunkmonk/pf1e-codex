@@ -1,0 +1,29 @@
+{
+  "id": "d30d11d99a7ecb26",
+  "name": "Shield of Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 29",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "spiritualist": 3,
+      "warpriest": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 29\nSchool evocation [darkness, shadow]; Level antipaladin 3, cleric 3, inquisitor 3, oracle 3, shaman 3, spiritualist 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou shield yourself with darkness, reducing the illumination level in your space to magical darkness and granting you total concealment. Your opponents are automatically aware of which squares you occupy, preventing you from attempting Stealth checks using this concealment unless every square adjacent to you has an illumination level of darkness or lower. Shield of darkness does not hinder your vision, and creatures that can see in magical darkness ignore this effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d30d11d99a7ecb26.json",
+    "web": "https://codex.pipsprojects.com/#/e/d30d11d99a7ecb26"
+  },
+  "license": "OGL 1.0a"
+}

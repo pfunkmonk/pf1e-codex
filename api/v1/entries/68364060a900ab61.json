@@ -1,0 +1,34 @@
+{
+  "id": "68364060a900ab61",
+  "name": "Rage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 329",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "bard": 2,
+      "bloodrager": 3,
+      "investigator": 3,
+      "mesmerist": 2,
+      "psychic": 3,
+      "skald": 2,
+      "sorcerer": 3,
+      "summoner": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 329\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level alchemist 3, arcanist 3, bard 2, bloodrager 3, investigator 3, mesmerist 2, psychic 3, skald 2, sorcerer 3, summoner 3, summoner (unchained) 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one willing living creature per three levels, no two of which may be more than 30 ft. apart\nDuration concentration + 1 round/level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nEach affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a –2 penalty to AC. The effect is otherwise identical with a barbarian's rage except that the subjects aren't fatigued at the end of the rage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68364060a900ab61.json",
+    "web": "https://codex.pipsprojects.com/#/e/68364060a900ab61"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "2bf046e2a23899df",
+  "name": "Channel the Gift",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 230, Gods and Magic pg. 27",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "ranger": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 230, Gods and Magic pg. 27\nSchool evocation; Level arcanist 3, bard 3, cleric 3, druid 3, hunter 3, oracle 3, ranger 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3 (Nethys)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget ally spellcaster touched\nDuration 1 round or see text\nSaving Throw Will negates (harmless) or none; Spell Resistance yes (harmless) or no\nDescription\nYou channel your magical power to fuel the target’s spellcasting. The next spell the target casts of 3rd level or lower does not expend a spell slot; in effect, you are using your spell slot to power the target’s spell. The target must start casting this spell before your next turn, and the spell cannot have a casting time longer than 1 full round. Your alignment, prohibited wizard school, and other restrictions on your own spellcasting do not affect the target, nor do you suffer any backlash from the target’s choice of spell.\n\nIf you target yourself with this spell, you may spontaneously cast any prepared spell of 3rd level or lower without expending its spell slot on your next turn (this aspect of the spell has no effect if you are a spontaneous caster). The spell that’s cast after channel the gift cannot have a casting time longer than 1 full round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2bf046e2a23899df.json",
+    "web": "https://codex.pipsprojects.com/#/e/2bf046e2a23899df"
+  },
+  "license": "OGL 1.0a"
+}

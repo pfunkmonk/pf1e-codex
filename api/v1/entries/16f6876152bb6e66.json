@@ -1,0 +1,36 @@
+{
+  "id": "16f6876152bb6e66",
+  "name": "Marid's Mastery",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 178",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 178\nSchool transmutation [water]; Level arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, ranger 1, redmantisassassin 1, sorcerer 1, warpriest 1, witch 1, wizard 1 (undine)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget willing creature touched\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water. If the opponent or the target is touching the ground, the target takes a –4 penalty on attack and damage rolls.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/16f6876152bb6e66.json",
+    "web": "https://codex.pipsprojects.com/#/e/16f6876152bb6e66"
+  },
+  "license": "OGL 1.0a"
+}

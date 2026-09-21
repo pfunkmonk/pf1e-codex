@@ -1,0 +1,28 @@
+{
+  "id": "669741d2169e6669",
+  "name": "Energy Drain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 277",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "shaman": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 277\nSchool necromancy; Level arcanist 9, cleric 9, oracle 9, shaman 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray of negative energy\nDuration instantaneous\nSaving Throw Fortitude partial; see text for enervation; Spell Resistance yes\nDescription\nThis spell functions like enervation, except that the creature struck gains 2d4 temporary negative levels. Twenty-four hours after gaining them, the subject must make a Fortitude saving throw (DC = energy drain spell's save DC) for each negative level. If the save succeeds, that negative level is removed. If it fails, that negative level becomes permanent.\n\nAn undead creature struck by the ray gains 2d4 × 5 temporary hit points for 1 hour.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/669741d2169e6669.json",
+    "web": "https://codex.pipsprojects.com/#/e/669741d2169e6669"
+  },
+  "license": "OGL 1.0a"
+}

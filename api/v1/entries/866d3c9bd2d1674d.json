@@ -1,0 +1,36 @@
+{
+  "id": "866d3c9bd2d1674d",
+  "name": "Demand Offering",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 164",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "mesmerist": 1,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 164\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 1, arcanist 2, bard 2, inquisitor 2, mesmerist 1, occultist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 5 ft.\nTarget one creature\nDuration instantaneous or 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nA creature that fails its save uses an immediate action to hand you whatever object it’s currently wielding or holding. If the target doesn’t have an immediate action available, it uses a move action at the beginning of its next turn to hand you the object. If it’s currently holding or wielding more than one item, determine randomly which item it gives you. If you’re no longer adjacent to the creature when it has to give you the item, the spell ends with no effect. A creature that isn’t holding an item when you cast this spell is unaffected.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/866d3c9bd2d1674d.json",
+    "web": "https://codex.pipsprojects.com/#/e/866d3c9bd2d1674d"
+  },
+  "license": "OGL 1.0a"
+}

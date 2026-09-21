@@ -1,0 +1,33 @@
+{
+  "id": "d1b51a778aa9a448",
+  "name": "Silent Table",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 192",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "cleric": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 192\nSchool illusion (glamer); Level arcanist 2, bard 2, cleric 2, mesmerist 2, oracle 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 round\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 5-ft.-diameter emanation centered on an object or a point in space\nDuration 1 minute/level (D)\nSaving Throw none (object); Spell Resistance no (object)\nDescription\nYou protect an area against casual eavesdropping. Sounds and sonic effects that originate inside the area are muffled for anyone outside the area; Perception DCs to hear or understand sounds leaving the area increase by 20, and any saving throw DCs of these effects decrease by 2. The spell does not affect sounds that enter the area or the Perception checks of creatures inside it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1b51a778aa9a448.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1b51a778aa9a448"
+  },
+  "license": "OGL 1.0a"
+}

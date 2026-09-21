@@ -1,0 +1,30 @@
+{
+  "id": "8d2d2f7e2635c96d",
+  "name": "Solid Fog",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 345",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "magus": 4,
+      "mesmerist": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 345\nSchool conjuration (creation); Level arcanist 4, magus 4, mesmerist 4, shaman 4, sorcerer 4, spiritualist 4, summoner (unchained) 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (powdered peas and an animal hoof)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect fog spreads in 20-ft. radius\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like fog cloud, but in addition to obscuring sight, the solid fog is so thick that it impedes movement. Creatures moving through a solid fog move at half their normal speed and take a –2 penalty on all melee attack and melee damage rolls. The vapors prevent effective ranged weapon attacks (except for magic rays and the like). A creature or object that falls into solid fog is slowed so that each 10 feet of vapor that it passes through reduces the falling damage by 1d6. A creature cannot take a 5-foot-step while in solid fog. Solid fog, and effects that work like solid fog, do not stack with each other in terms of slowed movement and attack penalties.\n\nUnlike normal fog, only a severe wind (31+ mph) disperses these vapors, and it does so in 1 round.\n\nSolid fog can be made permanent with a permanency spell. A permanent solid fog dispersed by wind reforms in 10 minutes.\nMythic Solid Fog\nSource Mythic Adventures pg. 109\nThe penalty on melee attack and damage rolls increases to –4. The cloud’s radius and height both increase to 50 feet.\n\nAugmented: The augmented version of mythic solid fog has the same additional benefits as the augmented version of mythic fog cloud.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d2d2f7e2635c96d.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d2d2f7e2635c96d"
+  },
+  "license": "OGL 1.0a"
+}

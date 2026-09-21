@@ -1,0 +1,34 @@
+{
+  "id": "3598352ac63b0e7d",
+  "name": "Tactical Acumen",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 246",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "medium": 2,
+      "occultist": 2,
+      "paladin": 1,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 246\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 2, bard 2, inquisitor 2, magus 2, medium 2, occultist 2, paladin 1, psychic 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a small piece of a map)\nEffect\nRange 30 ft.\nArea The caster and all allies within a 30-ft.-radius burst, centered on the caster\nDuration 1 round/level (D)\nDescription\nTactical acumen grants you and your allies a mastery of battlefield tactics. Whenever you would gain a bonus on attack rolls or to AC due to battlefield position, such as flanking, higher ground, or cover, you gain an additional +1 insight bonus. This bonus increases by +1 for every five caster levels above 5th you possess (maximum +4).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3598352ac63b0e7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/3598352ac63b0e7d"
+  },
+  "license": "OGL 1.0a"
+}

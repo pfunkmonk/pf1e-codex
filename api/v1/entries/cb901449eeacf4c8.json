@@ -1,0 +1,26 @@
+{
+  "id": "cb901449eeacf4c8",
+  "name": "Explode Head",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 171",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "magus": 6,
+      "psychic": 5,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 171\nSchool evocation; Level arcanist 6, magus 6, psychic 5, sorcerer 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living corporeal creature\nDuration instantaneous\nSaving Throw special, see text; Spell Resistance yes\nDescription\nYou cause incredible pressure to build in the target’s head; this spell works only on a creature that has a head and would die from the loss of a head. The spell kills any such target that has 20 hit points or fewer, exploding its head and spreading debris in a 10-foot radius. Each creature in the area must succeed at a Reflex saving throw or take 2d6 points of slashing damage from the flying debris.\n\nA target with more than 20 hit points takes 1d6 points of damage per caster level (maximum 20d6), but can attempt a Fortitude save to take only half damage. If this damage would cause the target to become disabled or dying, the target dies and its head explodes as described above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb901449eeacf4c8.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb901449eeacf4c8"
+  },
+  "license": "OGL 1.0a"
+}

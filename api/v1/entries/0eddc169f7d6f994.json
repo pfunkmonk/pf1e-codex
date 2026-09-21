@@ -1,0 +1,26 @@
+{
+  "id": "0eddc169f7d6f994",
+  "name": "Shining Cord",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 60",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 60\nSchool evocation [force]; Level magus 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small length fine of silver chain worth 100 gp)\nEffect\nRange 30 ft.\nTarget 1 creature\nDuration 1 round/level or instantaneous (see below)\nSaving Throw Fortitude partial (see below); Spell Resistance yes\nDescription\nWhen you cast this spell, you make a ranged touch attack against a single opponent within 30 feet. If you hit, a thin silver strand extends from your body to its, forming a connection that allows you to anticipate its actions. For the duration of the spell, you receive a +5 insight bonus on all Perception and Sense Motive checks opposed by the target. You gain a +5 insight bonus on all Spellcraft checks made to identify your opponent’s spell as part of a counterspelling attempt. Finally, you gain a +2 dodge bonus to your AC against attacks made against you by the target.\n\nLastly, if either you or the target moves more than 30 feet away from the other, the cord crackles with a surge of light and sends a blast of force along its length to the other end. This blast deals 1d6 points of damage per two caster levels (maximum 10d6) and stuns the one who moved out of range for 1 round—a successful Fortitude save halves the damage and negates the stun effect. This blast ends the spell and severs the connection between you and your target.\n\nAlthough the shining cord makes a visible connection between you and your target, creatures can move through it without ill effect. The cord even passes through solid objects as necessary to maintain the connection between you and the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0eddc169f7d6f994.json",
+    "web": "https://codex.pipsprojects.com/#/e/0eddc169f7d6f994"
+  },
+  "license": "OGL 1.0a"
+}

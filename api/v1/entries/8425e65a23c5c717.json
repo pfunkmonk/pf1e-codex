@@ -1,0 +1,22 @@
+{
+  "id": "8425e65a23c5c717",
+  "name": "Warden Jack Swarm",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Pathfinder #121: The Lost Outpost pg. 44",
+  "book": "Pathfinder #121: The Lost Outpost",
+  "facets": {
+    "cr": 4,
+    "sz": "Fine",
+    "t": "construct",
+    "al": "N",
+    "bk": "Pathfinder #121: The Lost Outpost",
+    "st": "swarm"
+  },
+  "body": "Warden Jack Swarm CR 4\nSource Pathfinder #121: The Lost Outpost pg. 44\nXP 1,200\nN Fine construct (swarm)\nInit +2; Senses darkvision 60 ft., low-light vision, tremorsense 30 ft.; Perception +0\nDefense\nAC 21, touch 20, flat-footed 19 (+2 Dex, +1 natural, +8 size)\nhp 27 (5d10)\nFort +1, Ref +3, Will +1\nImmune construct traits, weapon damage, swarm traits\nOffense\nSpeed 40 ft.\nMelee swarm (1d6 plus distraction)\nSpace 10 ft., Reach 0 ft.\nSpecial Attacks distraction (DC 12), topple, wounding spikes\nSpell-Like Abilities (CL 5th; concentration +0)\nAt will—open/close\nTactics\nDuring Combat The swarm doesn't use complex tactics, but it does use the terrain to its advantage when possible.\nMorale The swarm fights until destroyed.\nStatistics\nStr 4, Dex 14, Con —, Int —, Wis 11, Cha 1\nBase Atk +5; CMB —; CMD —\nSQ tower access\nSpecial Abilities\nTopple (Ex) Any living creature damaged by a warden jack swarm when its spikes are retracted must make a successful DC 12 Reflex save or fall prone. The save is Constitution-based.\nTower Access (Sp) This specific warden jack swarm can cast open/close as a move action on any door within area P. Circumstances that prevent open/close from functioning normally also prevent this ability from working. This ability is as much a feature of the building as it is the swarm; therefore, it does not function on containers or in any other building besides the tower.\n\nWounding Spikes (Ex) Any living creature hit by a warden jack swarm when its spikes are extended also takes 1 point of bleed damage.\nDescription\nThe warden jack swarm comprises thousands of Fine steel ball bearings that move in electro-thaumaturgical cohesion, making a clicking or clinking sound as it moves. Each sphere can extrude sharp spikes, which essentially transforms it into a swarm of caltrops. The creature can navigate uneven terrain, roll up hills and very sharp slopes, and flow around and between obstacles. The warden jack swarm has one severe limitation: it cannot climb a 90-degree angle. It can roll down steps but not climb them, and it can be trapped in a pit. It can sense the topology of the ground, allowing it to generally avoid pits. In this encounter, the warden jack swarm cannot scale the large rock piles or the steps, although it can roll around the rocks and up the slope alongside the steps. It can also flow through the ankheg nymph tunnels and move underground at a depth of a few feet below the current elevation. When the swarm flows underground, it reveals the location of one of the tunnels’ access points, but if the PCs have not noticed the other holes, they may not know where the swarm might emerge. While underground, the swarm can determine the PCs’ location using its tremorsense.\n\nThe swarm is programmed to attack humanoids in a restricted area but not wildlife or other creatures. The swarm does not interpret monstrous humanoids like skum as legitimate targets—perhaps an oversight by the swarm’s programmer.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8425e65a23c5c717.json",
+    "web": "https://codex.pipsprojects.com/#/e/8425e65a23c5c717"
+  },
+  "license": "OGL 1.0a"
+}

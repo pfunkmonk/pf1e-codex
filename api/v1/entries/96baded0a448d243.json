@@ -1,0 +1,26 @@
+{
+  "id": "96baded0a448d243",
+  "name": "Eldritch Conduit, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 54",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Eldritch Conduit\nSource Inner Sea Magic pg. 54\nSchool transmutation; Level arcanist 2, redmantisassassin 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small mirror)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nOriginally created by a disciple of the archwizard Nex, this spell was used to turn enemy soldiers in Geb’s undead armies into conduits capable of blasting spell energy back into the far reaches of the Gebite lines. Since then, it has become a favorite among arcane casters with an understanding of battlefield tactics.\n\nIf the target of this spell fails to resist its effects with a Will save, he becomes outlined in faint radiance, as if via faerie fire. At any time before the eldritch conduit expires, you may cast another spell with an area effect of cone, cylinder, line, or sphere and use the subject of the eldritch conduit as the point of origin for that spell. Doing so ends the spell immediately. The target must be within close range (25 feet + 5 feet/2 levels) in order for you to use the conduit—if the target moves out of range, the eldritch conduit effect persists but cannot be utilized by you until you get back within range.\nEldritch Conduit, Greater\nSource Inner Sea Magic pg. 54\nSchool transmutation; Level arcanist 6, sorcerer 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small mirror)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like eldritch conduit save for the differences listed above and that the target must be within medium range (100 ft. + 10 ft./level) in order for you to use the conduit. Using a creature as a conduit for a spell ends the greater eldritch conduit effect on that creature, but does not end the effect for other eldritch conduits.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/96baded0a448d243.json",
+    "web": "https://codex.pipsprojects.com/#/e/96baded0a448d243"
+  },
+  "license": "OGL 1.0a"
+}

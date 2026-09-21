@@ -1,0 +1,25 @@
+{
+  "id": "63a7800e187c4b2d",
+  "name": "Bloody Claws",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 206",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 4,
+      "hunter": 3,
+      "ranger": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 206\nSchool necromancy; Level druid 4, hunter 3, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget living creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou give a creature the ability to deal bleed damage when making natural attacks so long as the attack deals slashing or piercing damage. This bleed damage for each attack is equal to one-half your caster level (limited to the creature’s maximum damage with that attack), though bleed damage does not stack. When two or more attacks deal bleed damage, take the worse effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63a7800e187c4b2d.json",
+    "web": "https://codex.pipsprojects.com/#/e/63a7800e187c4b2d"
+  },
+  "license": "OGL 1.0a"
+}

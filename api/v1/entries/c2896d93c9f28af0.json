@@ -1,0 +1,31 @@
+{
+  "id": "c2896d93c9f28af0",
+  "name": "Steal Voice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 240",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 240\nSchool necromancy; Level arcanist 2, bard 2, medium 2, mesmerist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration permanent (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThe target’s throat constricts, giving it the caster croak spellblight (see Ultimate Magic).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2896d93c9f28af0.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2896d93c9f28af0"
+  },
+  "license": "OGL 1.0a"
+}

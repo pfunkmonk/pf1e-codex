@@ -1,0 +1,27 @@
+{
+  "id": "6b38c375fe751ae1",
+  "name": "Burst of Nettles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 210",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "hunter": 3
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 210\nSchool conjuration [acid]; Level druid 3, hunter 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nYou release a burst of barbed, acid-filled nettles. Creatures caught in the burst take 3d6 points of damage plus 1d6 points of acid damage on the next round. Those that save take half damage from the initial burst and no damage on the next round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b38c375fe751ae1.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b38c375fe751ae1"
+  },
+  "license": "OGL 1.0a"
+}

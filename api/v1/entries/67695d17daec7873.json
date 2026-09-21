@@ -1,0 +1,29 @@
+{
+  "id": "67695d17daec7873",
+  "name": "Symbol of Weakness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 357",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "occultist": 5,
+      "oracle": 7,
+      "sorcerer": 7,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 357\nSchool necromancy; Level arcanist 7, cleric 7, occultist 5, oracle 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 5,000 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions like symbol of death, except that every creature within 60 feet of a symbol of weakness instead suffers crippling weakness that deals 3d6 points of Strength damage.\n\nUnlike symbol of death, symbol of weakness has no hit point limit; once triggered, a symbol of weakness simply remains active for 10 minutes per caster level. A creature can only be affected by this symbol once.\n\nNote: Magic traps such as symbol of weakness are hard to detect and disable. A rogue (only) can use the Perception skill to find a symbol of weakness and Disable Device to thwart it. The DC in each case is 25 + spell level, or 32 for symbol of weakness.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67695d17daec7873.json",
+    "web": "https://codex.pipsprojects.com/#/e/67695d17daec7873"
+  },
+  "license": "OGL 1.0a"
+}

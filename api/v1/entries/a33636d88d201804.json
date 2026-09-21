@@ -1,0 +1,35 @@
+{
+  "id": "a33636d88d201804",
+  "name": "Vampiric Hunger",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faiths of Corruption pg. 29",
+  "book": "Faiths of Corruption",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Faiths of Corruption"
+  },
+  "body": "Source Faiths of Corruption pg. 29\nSchool necromancy (polymorph) [evil]; Level antipaladin 3, arcanist 3, cleric 3, druid 3, hunter 3, oracle 3, sorcerer 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange touch\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe target of this spell grows the fangs of a vampire, as well as a thirst for blood. For the duration of this spell, the target gains the ability to drain an opponent’s blood during a grapple; if the target establishes or maintains a pin, it drains blood, dealing 1d4 points of Constitution damage. Each round it drains blood in this way, the target heals 5 hit points or gains 5 temporary hit points for the duration of the spell (up to a maximum number of temporary hit points equal to its full normal hit points). If the target does not drain blood in this way while under the effects of this spell, it becomes exhausted at the end of the spell’s duration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a33636d88d201804.json",
+    "web": "https://codex.pipsprojects.com/#/e/a33636d88d201804"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "a565069bcead6b45",
+  "name": "Height and Weight",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 169",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nBasics / Character Creation\n\nHeight and Weight\nSource PRPG Core Rulebook pg. 169\nTo determine a character’s height, roll the modifier dice indicated on Table 7–3 and add the result, in inches, to the base height for your character’s race and gender. To determine a character’s weight, multiply the result of the modifier dice by the weight multiplier and add the result to the base weight for your character’s race and gender.\nTable 7-3: random Height and Weight\nRace Base Height Base Weight Modifier Weight Multiplier\nHuman, male 4 ft. 10 in. 120 lbs. 2d10 × 5 lbs.\nHuman, female 4 ft. 5 in. 85 lbs. 2d10 × 5 lbs.\nDwarf, male 3 ft. 9 in. 150 lbs. 2d4 × 7 lbs.\nDwarf, female 3 ft. 7 in. 120 lbs. 2d4 × 7 lbs.\nElf, male 5 ft. 4 in. 100 lbs. 2d8 × 3 lbs.\nElf, female 5 ft. 4 in. 90 lbs. 2d6 × 3 lbs.\nGnome, male 3 ft. 0 in. 35 lbs. 2d4 x 1 lb.\nGnome, female 2 ft. 10 in. 30 lbs. 2d4 × 1 lb.\nHalf-elf, male 5 ft. 2 in. 110 lbs. 2d8 × 5 lbs.\nHalf-elf, female 5 ft. 0 in. 90 lbs. 2d8 × 5 lbs.\nHalf-orc, male 4 ft. 10 in. 150 lbs. 2d12 × 7 lbs.\nHalf-orc, female 4 ft. 5 in. 110 lbs. 2d12 × 7 lbs.\nHalfling, male, 2 ft. 8 in. 30 lbs. 2d4 × 1 lb.\nHalfling, female 2 ft. 6 in. 25 lbs. 2d4 × 1 lb.",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "Race",
+          "Base Height",
+          "Base Weight",
+          "Modifier",
+          "Weight Multiplier"
+        ],
+        [
+          "Human, male",
+          "4 ft. 10 in.",
+          "120 lbs.",
+          "2d10",
+          "× 5 lbs."
+        ],
+        [
+          "Human, female",
+          "4 ft. 5 in.",
+          "85 lbs.",
+          "2d10",
+          "× 5 lbs."
+        ],
+        [
+          "Dwarf, male",
+          "3 ft. 9 in.",
+          "150 lbs.",
+          "2d4",
+          "× 7 lbs."
+        ],
+        [
+          "Dwarf, female",
+          "3 ft. 7 in.",
+          "120 lbs.",
+          "2d4",
+          "× 7 lbs."
+        ],
+        [
+          "Elf, male",
+          "5 ft. 4 in.",
+          "100 lbs.",
+          "2d8",
+          "× 3 lbs."
+        ],
+        [
+          "Elf, female",
+          "5 ft. 4 in.",
+          "90 lbs.",
+          "2d6",
+          "× 3 lbs."
+        ],
+        [
+          "Gnome, male",
+          "3 ft. 0 in.",
+          "35 lbs.",
+          "2d4",
+          "x 1 lb."
+        ],
+        [
+          "Gnome, female",
+          "2 ft. 10 in.",
+          "30 lbs.",
+          "2d4",
+          "× 1 lb."
+        ],
+        [
+          "Half-elf, male",
+          "5 ft. 2 in.",
+          "110 lbs.",
+          "2d8",
+          "× 5 lbs."
+        ],
+        [
+          "Half-elf, female",
+          "5 ft. 0 in.",
+          "90 lbs.",
+          "2d8",
+          "× 5 lbs."
+        ],
+        [
+          "Half-orc, male",
+          "4 ft. 10 in.",
+          "150 lbs.",
+          "2d12",
+          "× 7 lbs."
+        ],
+        [
+          "Half-orc, female",
+          "4 ft. 5 in.",
+          "110 lbs.",
+          "2d12",
+          "× 7 lbs."
+        ],
+        [
+          "Halfling, male,",
+          "2 ft. 8 in.",
+          "30 lbs.",
+          "2d4",
+          "× 1 lb."
+        ],
+        [
+          "Halfling, female",
+          "2 ft. 6 in.",
+          "25 lbs.",
+          "2d4",
+          "× 1 lb."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a565069bcead6b45.json",
+    "web": "https://codex.pipsprojects.com/#/e/a565069bcead6b45"
+  },
+  "license": "OGL 1.0a"
+}

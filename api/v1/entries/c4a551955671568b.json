@@ -1,0 +1,30 @@
+{
+  "id": "c4a551955671568b",
+  "name": "Scorching Ash Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 131",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 4,
+      "investigator": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 131\nSchool transmutation [fire]; Level alchemist 4, arcanist 4, investigator 4, redmantisassassin 4, sorcerer 4, wizard 4 (ifrit)\nCasting\nCasting Time 1 standard action\nComponents S, M (a bit of gauze and a handful of ashes)\nEffect\nRange touch\nTarget willing corporeal creature touched\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like gaseous form, except the target becomes a visible swirl of hot ash and smoke instead of harmless translucent gas. The target gains the fire subtype. Any creature that begins its turn sharing a space with the target takes 2d6 points of fire damage and must make a Fortitude save (DC 15, + 1 per previous check) or suffer the effects of smoke inhalation.\nMythic Scorching Ash Form\nSource Mythic Adventures pg. 107\nThe damage dealt increases to 3d6 points of fire damage. This otherwise makes the same changes as mythic gaseous form.\n\nAugmented: If you expend two uses of mythic power, the target can shift into or out of scorching ash form as a move action.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4a551955671568b.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4a551955671568b"
+  },
+  "license": "OGL 1.0a"
+}

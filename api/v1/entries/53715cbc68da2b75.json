@@ -1,0 +1,26 @@
+{
+  "id": "53715cbc68da2b75",
+  "name": "Grove of Respite",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 226",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "hunter": 4,
+      "ranger": 4,
+      "shaman": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 226\nSchool conjuration (creation); Level druid 4, hunter 4, ranger 4, shaman 5\nCasting\nCasting Time 10 minutes\nComponents V, S, M/DF (a leaf or blade of grass and a drop of water)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 20-ft.-radius grove\nDuration 2 hours/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou conjure a sheltered grove of trees surrounding a shallow spring. The grove appears from nowhere even in the most barren, rocky soil regardless of season, but the spell must be cast outside on open ground.\n\nThe area within the grove is temperate and comfortable, like that of a tiny hut, although the grove provides no illumination and provides no protection from the elements. The water in the grove’s spring is clean and drinkable. Additionally, the trees provide a variety of ripe fruit, regardless of season, which acts as a goodberry spell for up to eight people. The grove is warded with an alarm spell that alerts you whenever any creature enters the area. Once the spell expires, the grove vanishes, including all fruit, water, and other materials from it, although any nourishment or healing gained from its effects remains.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/53715cbc68da2b75.json",
+    "web": "https://codex.pipsprojects.com/#/e/53715cbc68da2b75"
+  },
+  "license": "OGL 1.0a"
+}

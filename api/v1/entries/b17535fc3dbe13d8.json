@@ -1,0 +1,32 @@
+{
+  "id": "b17535fc3dbe13d8",
+  "name": "Cold Ice Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 211",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 6,
+      "occultist": 6,
+      "oracle": 6,
+      "sorcerer": 6,
+      "warpriest": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 211\nSchool evocation [cold]; Level arcanist 6, cleric 6, occultist 6, oracle 6, sorcerer 6, warpriest 6, wizard 6\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange 30 ft.\nArea 30-ft. line\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nYou create a shredding flurry of ice slivers, which blast from your hand in a line. The line deals 1d6 points of cold damage per caster level (maximum 15d6).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b17535fc3dbe13d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/b17535fc3dbe13d8"
+  },
+  "license": "OGL 1.0a"
+}

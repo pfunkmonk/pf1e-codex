@@ -1,0 +1,515 @@
+{
+  "id": "0da24b707a8b160e",
+  "name": "Summon Nature's Ally 4",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 354",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "hunter": 4,
+      "ranger": 4,
+      "shaman": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Summon Nature's Ally 4\nSource PRPG Core Rulebook pg. 354\nSchool conjuration (summoning); Level druid 4, hunter 4, ranger 4, shaman 4\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon nature's ally I, except that you can summon one 4th-level creature, 1d3 3rd-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "1st Level",
+          "Subtype"
+        ],
+        [
+          "Dire rat",
+          "—"
+        ],
+        [
+          "Dog",
+          "—"
+        ],
+        [
+          "Dolphin",
+          "—"
+        ],
+        [
+          "Eagle",
+          "—"
+        ],
+        [
+          "Giant centipede",
+          "—"
+        ],
+        [
+          "Fire beetle",
+          "—"
+        ],
+        [
+          "Mite (gremlin)",
+          "—"
+        ],
+        [
+          "Poisonous frog",
+          "—"
+        ],
+        [
+          "Pony (horse)",
+          "—"
+        ],
+        [
+          "Stirge",
+          "—"
+        ],
+        [
+          "Viper (snake)",
+          "—"
+        ],
+        [
+          "2nd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (worker)",
+          "—"
+        ],
+        [
+          "Elemental (Small)",
+          "Elemental"
+        ],
+        [
+          "Giant frog",
+          "—"
+        ],
+        [
+          "Giant spider",
+          "—"
+        ],
+        [
+          "Goblin Dog",
+          "—"
+        ],
+        [
+          "Horse",
+          "—"
+        ],
+        [
+          "Hyena",
+          "—"
+        ],
+        [
+          "Octopus",
+          "—"
+        ],
+        [
+          "Squid",
+          "—"
+        ],
+        [
+          "Wolf",
+          "—"
+        ],
+        [
+          "3rd Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (soldier)",
+          "—"
+        ],
+        [
+          "Ape",
+          "—"
+        ],
+        [
+          "Aurochs (herd animal)",
+          "—"
+        ],
+        [
+          "Boar",
+          "—"
+        ],
+        [
+          "Cheetah",
+          "—"
+        ],
+        [
+          "Constrictor snake",
+          "—"
+        ],
+        [
+          "Crocodile",
+          "—"
+        ],
+        [
+          "Dire bat",
+          "—"
+        ],
+        [
+          "Electric Eel",
+          "—"
+        ],
+        [
+          "Giant crab",
+          "—"
+        ],
+        [
+          "Leopard (cat)",
+          "—"
+        ],
+        [
+          "Monitor lizard",
+          "—"
+        ],
+        [
+          "Shark",
+          "—"
+        ],
+        [
+          "Wolverine",
+          "—"
+        ],
+        [
+          "4th Level",
+          "Subtype"
+        ],
+        [
+          "Ant, giant (drone)",
+          "—"
+        ],
+        [
+          "Bison (herd animal)",
+          "—"
+        ],
+        [
+          "Deinonychus (dinosaur)",
+          "—"
+        ],
+        [
+          "Dire ape",
+          "—"
+        ],
+        [
+          "Dire boar",
+          "—"
+        ],
+        [
+          "Dire wolf",
+          "—"
+        ],
+        [
+          "Elemental (Medium)",
+          "Elemental"
+        ],
+        [
+          "Giant scorpion",
+          "—"
+        ],
+        [
+          "Giant stag beetle",
+          "—"
+        ],
+        [
+          "Giant wasp",
+          "—"
+        ],
+        [
+          "Griffon",
+          "—"
+        ],
+        [
+          "Grizzly bear",
+          "—"
+        ],
+        [
+          "Lion",
+          "—"
+        ],
+        [
+          "Mephit (any)",
+          "Elemental"
+        ],
+        [
+          "Owlbear",
+          "—"
+        ],
+        [
+          "Pteranodon (dinosaur)",
+          "—"
+        ],
+        [
+          "Rhinoceros",
+          "—"
+        ],
+        [
+          "Satyr",
+          "—"
+        ],
+        [
+          "Tiger",
+          "—"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Deity",
+          "Additional creature",
+          "Source"
+        ],
+        [
+          "Abadar",
+          "Resolute Griffon (LN)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Abadar",
+          "Two-Headed Celestial Giant Eagle (LN)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Erastil",
+          "Celestial Dire Boar (LG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Green Faith",
+          "Giant Chameleon Lizard",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Green Faith",
+          "Giant Skunk",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Green Faith",
+          "Giant Vulture",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Green Faith",
+          "Seaweed Leshy",
+          "Pathfinder #75: Demon's Heresy pg. 69"
+        ],
+        [
+          "Iomedae",
+          "Celestial Giant Eagle (LG)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Lamashtu",
+          "Yeth Hound (CE)† [evil]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Norgorber",
+          "Giant Black Widow (Spider)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Pharasma",
+          "Catrina (Psychopomp)†",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "Torag",
+          "Advanced Azer† [fire]",
+          "Monster Summoner's Handbook pg. 30"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Choxani",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ekekeh",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Quickling",
+          "The First World, Realm of the Fey pg. 57"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Black Widow",
+          "Advanced Race Guide pg. 106"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Assassin Vine",
+          "Heroes of the Wild pg. 23"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Seaweed Leshy",
+          "Heroes of the Wild pg. 23"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Forest Drake [air]",
+          "Advanced Class Guide pg. 217"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Shadow Drake [cold]",
+          "Advanced Class Guide pg. 217"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Seaweed Leshy",
+          "Advanced Class Guide pg. 217"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Anhana",
+          "Pathfinder #116: Fangs of War pg. 82"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Air Elemental (Medium) [air]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ant, Giant (Drone)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Bison (Herd Animal)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Deinonychus (Dinosaur)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Ape",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Boar",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Dire Wolf",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Earth Elemental (Medium) [earth]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Fire Elemental (Medium) [fire]",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Scorpion",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Stag Beetle",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Giant Wasp",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Griffon",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Grizzly Bear",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Ice Elemental (Medium) [air, cold, water]",
+          "Bestiary 2 pg. 114"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Lightning Elemental (Medium) [air]",
+          "Bestiary 2 pg. 116"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Lion",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Magma Elemental (Medium) [earth, fire]",
+          "Bestiary 2 pg. 118"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Mephit (Any)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Mud Elemental (Medium) [earth, water]",
+          "Bestiary 2 pg. 120"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Owlbear",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Pteranodon (Dinosaur)",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Rhinoceros",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Satyr",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Tiger",
+          "PRPG Core Rulebook pg. 353"
+        ],
+        [
+          "The Eldest (Pantheon)",
+          "Water Elemental (Medium) [water]",
+          "PRPG Core Rulebook pg. 353"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0da24b707a8b160e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0da24b707a8b160e"
+  },
+  "license": "OGL 1.0a"
+}

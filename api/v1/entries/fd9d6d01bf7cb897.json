@@ -1,0 +1,33 @@
+{
+  "id": "fd9d6d01bf7cb897",
+  "name": "Misdirection",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 314",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 314\nSchool illusion (glamer); Level arcanist 2, bard 2, medium 2, mesmerist 2, occultist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, spiritualist 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object, up to a 10-ft. cube in size\nDuration 1 hour/level\nSaving Throw none or Will negates; see text; Spell Resistance no\nDescription\nBy means of this spell, you misdirect the information from divination spells that reveal auras (detect evil, detect magic, discern lies, and the like). On casting the spell, you choose another object within range. For the duration of the spell, the subject of misdirection is detected as if it were the other object. Neither the subject nor the other object gets a saving throw against this effect. Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save. For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth. This spell does not affect other types of divination magic (augury, detect thoughts, clairaudience/clairvoyance, and the like).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fd9d6d01bf7cb897.json",
+    "web": "https://codex.pipsprojects.com/#/e/fd9d6d01bf7cb897"
+  },
+  "license": "OGL 1.0a"
+}

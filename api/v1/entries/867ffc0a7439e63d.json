@@ -1,0 +1,34 @@
+{
+  "id": "867ffc0a7439e63d",
+  "name": "Pressure Adaptation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 61",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "bloodrager": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "investigator": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "ranger": 3,
+      "shaman": 3,
+      "summoner": 3,
+      "warpriest": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Source Aquatic Adventures pg. 61\nSchool abjuration; Level alchemist 3, bloodrager 3, cleric 3, druid 3, hunter 3, investigator 3, oracle 3, psychic 3, ranger 3, shaman 3, summoner 3, summoner (unchained) 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (slime from a cephalopod)\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target adapts incredibly quickly to changes in pressure, adjusting to 100 feet of new pressure (or the entire shift, in the case of an instantaneous shift within its native range; see page 48) after just one successful Fortitude saving throw instead of the usual five.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/867ffc0a7439e63d.json",
+    "web": "https://codex.pipsprojects.com/#/e/867ffc0a7439e63d"
+  },
+  "license": "OGL 1.0a"
+}

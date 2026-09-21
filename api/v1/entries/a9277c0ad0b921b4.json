@@ -1,0 +1,31 @@
+{
+  "id": "a9277c0ad0b921b4",
+  "name": "Hag's Seasoning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Coven pg. 21",
+  "book": "Blood of the Coven",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 2,
+      "druid": 3,
+      "hunter": 3,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Blood of the Coven"
+  },
+  "body": "Source Blood of the Coven pg. 21\nSchool transmutation [curse]; Level antipaladin 2, bloodrager 2, druid 3, hunter 3, shaman 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents S, M (a handful of spices)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent (D)\nSaving Throw none; Spell Resistance yes\nDescription\nYou render the affected creature supernaturally delicious, making it the preferred target for animalistic monsters, as well as biting insects, stray animals, and vermin. A creature that makes a successful bite attack against or otherwise ingests a portion of the victim (such as with drain blood or swallow whole) gains a number of temporary hit points equal to half your caster level. These temporary hit points last for 1 hour. A creature cannot gain temporary hit points from this spell more than once per day, no matter how many times it bites your target or how many different cursed targets it bites.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9277c0ad0b921b4.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9277c0ad0b921b4"
+  },
+  "license": "OGL 1.0a"
+}

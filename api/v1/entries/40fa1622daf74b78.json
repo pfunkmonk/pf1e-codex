@@ -1,0 +1,31 @@
+{
+  "id": "40fa1622daf74b78",
+  "name": "Befuddled Combatant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Healer's Handbook pg. 17",
+  "book": "Healer's Handbook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "mesmerist": 5,
+      "psychic": 5,
+      "shaman": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Healer's Handbook"
+  },
+  "body": "Source Healer's Handbook pg. 17\nSchool enchantment (compulsion) [curse, mind-affecting]; Level arcanist 5, bard 5, mesmerist 5, psychic 5, shaman 5, skald 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (cooked noodles)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nAs a way to befuddle your target, you fill its mind with all manner of swirling images as well as baffling and incoherent thoughts, making the target an ineffective combatant and rendering its spellcasting and other such abilities much more feeble.\n\nFor the spell’s duration, the DCs of all of the target’s spells, spell-like abilities, supernatural abilities, and extraordinary abilities are reduced by 4. Any of its attacks that would deal hit point damage, including its melee and ranged physical attacks, deal minimum damage for the duration of this spell.\n\nThis curse applies only to effects created by the creature while this spell is actively affecting the target; applying or removing this curse doesn’t alter the ongoing damage of effects previously created by the target (such as an incendiary cloud spell that was cast before the target became affected by this spell).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40fa1622daf74b78.json",
+    "web": "https://codex.pipsprojects.com/#/e/40fa1622daf74b78"
+  },
+  "license": "OGL 1.0a"
+}

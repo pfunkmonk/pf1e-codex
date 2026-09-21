@@ -1,0 +1,26 @@
+{
+  "id": "fe86cae815109e3a",
+  "name": "Holy Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 297",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "oracle": 8
+    },
+    "desc": [
+      "good"
+    ],
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 297\nSchool abjuration [good]; Level cleric 8, oracle 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a tiny reliquary worth 500 gp)\nEffect\nRange 20 ft.\nTargets one creature/level in a 20-ft.-radius burst centered on you\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes (harmless)\nDescription\nA brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from evil, this benefit applies against all attacks, not just against attacks by evil creatures.\n\nSecond, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.\n\nThird, the abjuration protects the recipient from possession and mental influence, just as protection from evil does.\n\nFinally, if an evil creature succeeds on a melee attack against a creature warded by a holy aura, the offending attacker is blinded (Fortitude save negates, as blindness/deafness, but against holy aura's save DC).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe86cae815109e3a.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe86cae815109e3a"
+  },
+  "license": "OGL 1.0a"
+}

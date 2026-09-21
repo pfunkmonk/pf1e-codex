@@ -1,0 +1,34 @@
+{
+  "id": "ad950e0733ccbb9b",
+  "name": "Guardian Monument, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 8",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "occultist": 3,
+      "paladin": 3,
+      "psychic": 3,
+      "shaman": 4,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 8\nSchool abjuration; Level arcanist 3, bard 3, inquisitor 3, magus 3, occultist 3, paladin 3, psychic 3, shaman 4, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 full round\nComponents V, S, F (an unattended, nonmagical object)\nEffect\nRange touch\nArea 40-ft. radius from touched object or 60-ft. radius from touched object; see text\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nYou touch an unattended, nonmagical object to create a touchstone for humans defending the area. Such human defenders are protected by a shimmering aura as long as they are in the area. The spell grants each subject damage reduction 2/magic. Humans who leave the area and reenter regain the damage reduction. The spell is suppressed if the object is moved from its place, but resumes if the object is put back. Its duration continues to elapse while it is suppressed this way.\n\nNormally, the area of effect is 40 feet from the touched object. If the touched object is a monument to human achievement, the area increases to a 60-foot radius.\nGuardian Monument, Greater\nSource Arcane Anthology pg. 9\nSchool abjuration; Level arcanist 5, bard 5, inquisitor 5, occultist 5, psychic 5, skald 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 full round\nComponents V, S, F (an unattended, nonmagical object)\nEffect\nRange touch\nArea 40-ft. radius from touched object or 60-ft. radius from touched object; see text\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell functions as lesser guardian monument, except it grants DR 4/magic.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ad950e0733ccbb9b.json",
+    "web": "https://codex.pipsprojects.com/#/e/ad950e0733ccbb9b"
+  },
+  "license": "OGL 1.0a"
+}

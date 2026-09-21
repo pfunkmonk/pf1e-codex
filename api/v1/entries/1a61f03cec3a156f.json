@@ -1,0 +1,31 @@
+{
+  "id": "1a61f03cec3a156f",
+  "name": "Burst of Speed",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 225",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 3,
+      "bloodrager": 3,
+      "hunter": 3,
+      "inquisitor": 3,
+      "investigator": 3,
+      "magus": 3,
+      "medium": 3,
+      "paladin": 3,
+      "psychic": 3,
+      "ranger": 3
+    },
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 225\nSchool transmutation; Level alchemist 3, antipaladin 3, bloodrager 3, hunter 3, inquisitor 3, investigator 3, magus 3, medium 3, paladin 3, psychic 3, ranger 3\nCasting\nCasting Time 1 swift action\nComponents V\nEffect\nRange personal\nTarget you\nDuration see text\nDescription\nUntil the end of your turn, you gain a +20-foot bonus to speed (or +10-foot bonus if you are wearing Medium or Heavy armor), your movement does not provoke attacks of opportunity, and you can move through the space of creatures that are larger than you are, but you cannot end your movement this round in a space occupied by a creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a61f03cec3a156f.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a61f03cec3a156f"
+  },
+  "license": "OGL 1.0a"
+}

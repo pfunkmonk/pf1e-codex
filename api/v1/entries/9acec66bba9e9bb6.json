@@ -1,0 +1,35 @@
+{
+  "id": "9acec66bba9e9bb6",
+  "name": "Infernal Healing, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Hell's Vengeance Player's Guide pg. 11",
+  "book": "Hell's Vengeance Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "magus": 1,
+      "oracle": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Hell's Vengeance Player's Guide"
+  },
+  "body": "Infernal Healing\nSource Hell's Vengeance Player's Guide pg. 11\nSchool conjuration (healing) [evil]; Level arcanist 1, bloodrager 1, cleric 1, magus 1, oracle 1, sorcerer 1, summoner 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 round\nComponents V, S, M (1 drop of devil blood or 1 dose of unholy water)\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou anoint a wounded creature with devil’s blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as evil for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target’s alignment.\nInfernal Healing, Greater\nSource Hell's Vengeance Player's Guide pg. 11, Pathfinder #29: Mother of Flies pg. 67, Gods and Magic pg. 7, Inner Sea World Guide pg. 295\nSchool conjuration (healing) [evil]; Level arcanist 4, cleric 4, magus 4, oracle 4, sorcerer 4, summoner 4, summoner (unchained) 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 round\nComponents V, S, M (1 drop of devil blood or 1 dose of unholy water)\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nAs per infernal healing, except the target gains fast healing 4 and the target detects as an evil cleric.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9acec66bba9e9bb6.json",
+    "web": "https://codex.pipsprojects.com/#/e/9acec66bba9e9bb6"
+  },
+  "license": "OGL 1.0a"
+}

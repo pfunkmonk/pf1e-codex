@@ -1,0 +1,26 @@
+{
+  "id": "922f37e3fd0e8a75",
+  "name": "Underbrush Decoy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 228",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 228\nSchool transmutation; Level druid 1, hunter 1, ranger 1, shaman 1\nCasting\nCasting Time 1 swift action\nComponents S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one non-creature plant of size Tiny, Small, or Medium\nDuration 1 round\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou cause a plant to rustle noisily, distracting nearby creatures. You can attempt a Bluff check to create a distraction to hide, using your caster level + your Wisdom modifier in place of your total Bluff skill bonus and applying the result to all creatures within 30 feet. You count the target as distracted, as do any creatures that knew about your distraction in advance. Creatures might not be distracted if they detect you casting the spell or otherwise anticipate your subterfuge.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/922f37e3fd0e8a75.json",
+    "web": "https://codex.pipsprojects.com/#/e/922f37e3fd0e8a75"
+  },
+  "license": "OGL 1.0a"
+}

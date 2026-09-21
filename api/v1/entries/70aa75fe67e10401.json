@@ -1,0 +1,33 @@
+{
+  "id": "70aa75fe67e10401",
+  "name": "Disguise Self",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 271",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 1,
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "investigator": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 271\nSchool illusion (glamer); Level alchemist 1, antipaladin 1, arcanist 1, bard 1, inquisitor 1, investigator 1, medium 1, mesmerist 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 min./level (D)\nDescription\nYou make yourself—including clothing, armor, weapons, and equipment—look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\n\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of you or your equipment. If you use this spell to create a disguise, you get a +10 bonus on the Disguise check. A creature that interacts with the glamer gets a Will save to recognize it as an illusion.\nDisguise Other\nSource Ultimate Magic pg. 217\nSchool illusion (glamer); Level arcanist 2, bard 2, inquisitor 2, medium 2, occultist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 10 minute/level (D)\nDescription\nThis spell functions as disguise self, except you can disguise either yourself or another creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/70aa75fe67e10401.json",
+    "web": "https://codex.pipsprojects.com/#/e/70aa75fe67e10401"
+  },
+  "license": "OGL 1.0a"
+}

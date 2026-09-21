@@ -1,0 +1,24 @@
+{
+  "id": "4fac2ea025ac1f0a",
+  "name": "Atavism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 207",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "hunter": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 207\nSchool transmutation; Level druid 4, hunter 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one animal\nDuration 1 minute/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nBy bringing forth the primeval ancestry of the target animal, you awaken a savage engine of destruction. The animal immediately gains the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls and special ability DCs, a +4 bonus to AC and CMD, and +2 hit points per HD. The animal’s primal instincts take hold for the duration of this spell—if the animal knows tricks granted by the Handle Animal skill, it loses access to all of those tricks save for “attack.” This spell has no effect on animals that already have the advanced creature template.\nAtavism, Mass\nSource Ultimate Magic pg. 207\nSchool transmutation; Level druid 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one animal/level, no two of which can be more than 30 ft. apart\nDuration 1 minute/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions as atavism, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4fac2ea025ac1f0a.json",
+    "web": "https://codex.pipsprojects.com/#/e/4fac2ea025ac1f0a"
+  },
+  "license": "OGL 1.0a"
+}

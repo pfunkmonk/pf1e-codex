@@ -1,0 +1,33 @@
+{
+  "id": "6276d784336d8f4f",
+  "name": "Versatile Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 254",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "bloodrager": 3,
+      "hunter": 2,
+      "magus": 3,
+      "occultist": 2,
+      "psychic": 3,
+      "ranger": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 254\nSchool transmutation; Level arcanist 3, bard 2, bloodrager 3, hunter 2, magus 3, occultist 2, psychic 3, ranger 2, redmantisassassin 3, skald 2, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (iron filings)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one weapon or 50 projectiles, all of which must be together at the time of casting\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou transform the physical makeup of a weapon as you desire. This spell functions like greater magic weapon, except that it subtly alters the physical properties of a weapon, enabling it to bypass damage reduction of one the following types: bludgeoning, cold iron, piercing, silver, or slashing. The affected weapon still inflicts damage of its normal type and its hardness and hit points are unchanged. This spell can be cast on a natural weapon or unarmed strike.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6276d784336d8f4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/6276d784336d8f4f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cfab6a721f834f93",
+  "name": "Cast Out",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 210",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "inquisitor": 3,
+      "medium": 2,
+      "psychic": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 210\nSchool abjuration; Level inquisitor 3, medium 2, psychic 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\nDescription\nWith a melee touch attack you blast a single creature and disrupt any magic controlling it. The target takes 2d8 points of damage + 1 point per caster level (maximum +15). In addition, you make a dispel check against any magic jar effect (including a ghost’s malevolence ability) or enchantment (compulsion) spells on the target creature, starting with the highest level spells and proceeding to lower level spells. Treat this as a targeted dispel magic spell, except cast out can dispel one such spell for every four caster levels you possess. A successful Will save halves the damage and limits the dispelling to a single spell or effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfab6a721f834f93.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfab6a721f834f93"
+  },
+  "license": "OGL 1.0a"
+}

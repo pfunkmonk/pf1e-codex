@@ -1,0 +1,33 @@
+{
+  "id": "0d5b40ed3e7ca769",
+  "name": "Unlife Current",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Aquatic Adventures pg. 60",
+  "book": "Aquatic Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "ranger": 3,
+      "shaman": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Aquatic Adventures"
+  },
+  "body": "Life Current\nSource Aquatic Adventures pg. 60\nSchool conjuration (healing) [water]; Level cleric 3, druid 3, hunter 3, oracle 3, paladin 3, ranger 3, shaman 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea current or portion of current\nDuration 1 round\nSaving Throw Will half; Spell Resistance yes\nDescription\nYou infuse the current with positive energy. At the start of their turn when the current moves them, living creatures in the current’s area heal 1d6 hit points per 10 feet of the current’s speed (maximum 6d6). Undead creatures in the current instead take an equal amount of damage.\nUnlife Current\nSource Aquatic Adventures pg. 61\nSchool conjuration (healing) [water]; Level antipaladin 3, cleric 3, druid 3, hunter 3, oracle 3, ranger 3, shaman 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea current or portion of current up to 20 feet wide and 100 feet long\nDuration 1 round\nSaving Throw Will half; Spell Resistance yes\nDescription\nThis functions as life current except you infuse the current with negative energy, so it heals undead and harms living creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d5b40ed3e7ca769.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d5b40ed3e7ca769"
+  },
+  "license": "OGL 1.0a"
+}

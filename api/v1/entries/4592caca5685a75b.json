@@ -1,0 +1,26 @@
+{
+  "id": "4592caca5685a75b",
+  "name": "Stench of Prey",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 194",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "hunter": 3,
+      "ranger": 3,
+      "shaman": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 194\nSchool transmutation; Level druid 3, hunter 3, ranger 3, shaman 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature (see text)\nDuration 1 minute/level\nSaving Throw Fortitude negates (see text); Spell Resistance yes\nDescription\nThe target exudes a strong odor that most predators recognize as the scent of helpless prey. The closest 1d4+1 predatory creatures within 30 feet must succeed at a Will save or start attacking the target (animals with the scent ability are affected if within 60 feet). If the predator is an animal, it can be called away from the target by a handler using the “down” trick (Core Rulebook 97) or any effect that suspends or dispels emotion or rage effects.\n\nThis spell has no effect on constructs, undead, or creatures with the unnatural aura ability or effects that repel animals.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4592caca5685a75b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4592caca5685a75b"
+  },
+  "license": "OGL 1.0a"
+}

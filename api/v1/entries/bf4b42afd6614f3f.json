@@ -1,0 +1,28 @@
+{
+  "id": "bf4b42afd6614f3f",
+  "name": "Summon Greater Demon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #74: Sword of Valor pg. 75",
+  "book": "Pathfinder #74: Sword of Valor",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder #74: Sword of Valor"
+  },
+  "body": "Source Pathfinder #74: Sword of Valor pg. 75\nSchool conjuration (summoning) [chaotic, evil]; Level arcanist 9, cleric 9, oracle 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (a tiny bag and a small candle)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster, except it allows you to summon a single coloxus (Pathfinder RPG Bestiary 3 72), an omox demon (Pathfinder RPG Bestiary 2 79), or 1d3 kalavakus demons (Bestiary 2 78).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf4b42afd6614f3f.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf4b42afd6614f3f"
+  },
+  "license": "OGL 1.0a"
+}

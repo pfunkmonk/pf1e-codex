@@ -1,0 +1,32 @@
+{
+  "id": "48b5da2cd42306a4",
+  "name": "Companion Transportation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 228",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 4,
+      "arcanist": 5,
+      "druid": 5,
+      "hunter": 4,
+      "paladin": 4,
+      "ranger": 4,
+      "shaman": 5,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 228\nSchool conjuration (teleportation); Level antipaladin 4, arcanist 5, druid 5, hunter 4, paladin 4, ranger 4, shaman 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a feather, tuft of fur, or similar momento from your target)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget yourself and one animal companion, familiar, or spirit animal within range\nDuration instantaneous\nSaving Throw none (Harmless); Spell Resistance no\nDescription\nYou trade places with the other target, teleporting as if you were both affected by dimension door. Both you and the other target arrive in a square you choose in the other’s former space. If the targets are different sizes, they must appear in locations that cover previously occupied squares. As with dimension door, after casting this spell, you can’t take any other actions until your next turn, and the other target is staggered until the end of its next turn due to the transposition.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/48b5da2cd42306a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/48b5da2cd42306a4"
+  },
+  "license": "OGL 1.0a"
+}

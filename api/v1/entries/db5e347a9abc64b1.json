@@ -1,0 +1,30 @@
+{
+  "id": "db5e347a9abc64b1",
+  "name": "Feast of Ashes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 220",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "witch": 2
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 220\nSchool transmutation [curse]; Level druid 2, hunter 2, occultist 2, psychic 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of ash)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 2 days/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou curse the target with a hunger no food can assuage. On a failed saving throw, the target begins to starve. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of eating can counter the effect and, further, even attempting to eat causes the target to become nauseated for 1 round unless they make a DC 12 Fortitude save. The target still experiences the other normal effects of anything consumed (such as poisons or potions). Feast of ashes can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell, but effects suffered as a result of starvation must be healed by normal means.\nMythic Feast of Ashes\nSource Mythic Adventures pg. 93\nOn a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell’s effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a heroes’ feast spell (though the food is still used up when the target eats it).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db5e347a9abc64b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/db5e347a9abc64b1"
+  },
+  "license": "OGL 1.0a"
+}

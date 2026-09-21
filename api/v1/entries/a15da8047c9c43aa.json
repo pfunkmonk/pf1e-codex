@@ -1,0 +1,33 @@
+{
+  "id": "a15da8047c9c43aa",
+  "name": "Vampiric Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 364",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "bloodrager": 3,
+      "magus": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "spiritualist": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 364\nSchool necromancy; Level antipaladin 3, arcanist 3, bloodrager 3, magus 3, medium 3, mesmerist 3, psychic 3, sorcerer 3, spiritualist 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous/1 hour; see text\nSaving Throw none; Spell Resistance yes\nDescription\nYou must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. You can't gain more than the subject's current hit points + the subject's Constitution score (which is enough to kill the subject). The temporary hit points disappear 1 hour later.\nMythic Vampiric Touch\nSource Mythic Adventures pg. 111\nThe spell’s damage increases to 1d8 points of damage per 2 caster levels (maximum 10d8). Your melee touch attack to deliver the spell threatens a critical hit on a 19 or 20. This expanded threat range doesn’t stack with other effects or abilities that increase the threat range. If the damage kills the target, you gain fast healing 5 for a number of rounds equal to the Hit Dice of the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a15da8047c9c43aa.json",
+    "web": "https://codex.pipsprojects.com/#/e/a15da8047c9c43aa"
+  },
+  "license": "OGL 1.0a"
+}

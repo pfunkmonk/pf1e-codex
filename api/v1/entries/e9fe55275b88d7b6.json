@@ -1,0 +1,39 @@
+{
+  "id": "e9fe55275b88d7b6",
+  "name": "Shared Training",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Ancients pg. 13",
+  "book": "Blood of the Ancients",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "cleric": 3,
+      "hunter": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "oracle": 3,
+      "paladin": 2,
+      "psychic": 3,
+      "ranger": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of the Ancients"
+  },
+  "body": "Source Blood of the Ancients pg. 13\nSchool divination [mind-affecting]; Level arcanist 3, bard 2, cleric 3, hunter 2, inquisitor 2, magus 2, oracle 3, paladin 2, psychic 3, ranger 2, skald 2, sorcerer 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets you plus one willing creature per 3 levels, no two of which can be more than 30 ft. apart\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\nDescription\nSelect one teamwork feat you have. You can grant this feat to allies within range for the duration of the spell. Allies do not need to meet the prerequisites of this teamwork feat. At caster level 9th, you can grant two teamwork feats you have to your allies. At caster level 13th, you can grant three teamwork feats, and at caster level 17th, you can grant up to four teamwork feats.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9fe55275b88d7b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9fe55275b88d7b6"
+  },
+  "license": "OGL 1.0a"
+}

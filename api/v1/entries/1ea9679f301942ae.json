@@ -1,0 +1,30 @@
+{
+  "id": "1ea9679f301942ae",
+  "name": "Skeleton Crew",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pirates of the Inner Sea pg. 29",
+  "book": "Pirates of the Inner Sea",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 3,
+      "oracle": 3,
+      "sorcerer": 4,
+      "summoner": 4,
+      "warpriest": 3,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Pirates of the Inner Sea"
+  },
+  "body": "Source Pirates of the Inner Sea pg. 29\nSchool necromancy; Level arcanist 4, cleric 3, oracle 3, sorcerer 4, summoner 4, summoner (unchained) 4, warpriest 3, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange touch\nTargets one or more humanoid corpses touched\nDuration 1 day/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell turns corpses into skeletons (Pathfinder RPG Bestiary 250) that act as crew and obey your commands to the extent of their abilities.\n\nThe undead you create are 1 Hit Die skeletons that possess Profession (sailor) scores equal to half your character level plus your Wisdom modifier (for clerics), Intelligence modifier (for witches and wizards), or Charisma modifier (for sorcerers and summoners). Each skeleton can perform the duties of one crew member but has no other abilities. The created skeletons cannot speak, attack, or even defend themselves. The only orders they obey are ones pertaining to the operation of a ship. Skeletal crew members are not proficient with any weapons or armor.\n\nYou can’t create more Hit Dice of skeletal crew members than twice your caster level with a single casting of skeleton crew. The desecrate spell doubles this limit.\n\nThe undead you create by casting skeleton crew remain under your control for the duration of the spell, and do not count against your limit of total Hit Dice worth of undead creatures you can control.\n\nA skeletal crew member can only be created from a mostly intact humanoid corpse. The corpse must have bones. When you cast this spell, any flesh left on the corpses melts away into fog.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ea9679f301942ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ea9679f301942ae"
+  },
+  "license": "OGL 1.0a"
+}

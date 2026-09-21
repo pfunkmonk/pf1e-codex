@@ -1,0 +1,19 @@
+{
+  "id": "2c884d1d31407215",
+  "name": "Ring of Resilience",
+  "bucket": "items",
+  "category": "Rings",
+  "source": "Advanced Class Guide pg. 218",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "slot": "ring",
+    "pr": 15000,
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 218\nAura moderate conjuration CL 10th\nSlot ring; Price 15,000 gp; Weight —\nDescription\nThis tarnished copper band sheds its patina when worn by anyone with panache or grit. Whenever the wearer regains a panache or grit point through her actions (not just a daily refresh), she can try to end a single ongoing condition affecting her, attempting a new saving throw against the original DC. The effect must be one that allowed a saving throw, can be removed by either dispel magic or heal, and be an effect against which the wearer failed her initial saving throw. If the wearer succeeds at the new save, the effect is removed even if succeeding at the save would normally have other consequences, and even if the effect normally requires multiple saves to remove. If the effect allowed more than one type of saving throw, use the type and DC for the first saving throw the wearer failed for the effect. The wearer can use the ring only once for each ongoing condition. As the wearer must regain a panache or grit point to reroll a save, the ring provides no benefit if she hasn’t used any grit or panache.\nConstruction\nRequirements Forge Ring, restoration, creator must be a grit or panache user; Cost 7,500 gp",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c884d1d31407215.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c884d1d31407215"
+  },
+  "license": "OGL 1.0a"
+}

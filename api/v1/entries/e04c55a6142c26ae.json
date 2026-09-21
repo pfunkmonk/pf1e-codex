@@ -1,0 +1,23 @@
+{
+  "id": "e04c55a6142c26ae",
+  "name": "Control Plants",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 260",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 8
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 260\nSchool transmutation; Level druid 8\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance no\nDescription\nThis spell enables you to control the actions of one or more plant creatures for a short period of time. You command the creatures by voice and they understand you, no matter what language you speak. Even if vocal communication is impossible, the controlled plants do not attack you. At the end of the spell, the subjects revert to their normal behavior.\n\nSuicidal or self-destructive commands are simply ignored.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e04c55a6142c26ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/e04c55a6142c26ae"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2fcd217e86918fef",
+  "name": "Telekinetic Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 188",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 9
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 188\nSchool evocation [force]; Level psychic 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange\nArea 40-ft.-radius burst centered on you\nDuration instantaneous\nSaving Throw Fortitude partial (see text); Spell Resistance yes\nDescription\nYou generate a storm of telekinetic energy that emanates from you, ripping through the spell’s area of effect with devastating force. Any creature caught in the spell’s radius takes 1d6 points of damage per caster level (maximum 20d6) and is dazed and stunned for 1 round. A successful Fortitude save reduces the damage by half and negates the dazed and stunned effects.\n\nThe telekinetic storm damages objects in the area. If the damage caused to an interposing barrier shatters or breaks through it, the telekinetic storm continues beyond the barrier if the spell’s area permits; otherwise, it stops at the barrier just as any other spell effect does.\n\nYou can designate any number of creatures to be immune to the spell’s effect, though you must be capable of targeting those creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2fcd217e86918fef.json",
+    "web": "https://codex.pipsprojects.com/#/e/2fcd217e86918fef"
+  },
+  "license": "OGL 1.0a"
+}

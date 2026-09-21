@@ -1,0 +1,21 @@
+{
+  "id": "f1d49ec2836c4c23",
+  "name": "Cytillesh Zombie",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "No Response from Deepmar pg. 21",
+  "book": "No Response from Deepmar",
+  "facets": {
+    "cr": 1,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "No Response from Deepmar"
+  },
+  "body": "Cytillesh Zombie CR 1\nSource No Response from Deepmar pg. 21\nXP 400\nNE Medium undead\nInit +4; Senses darkvision 60 ft.; Perception +0\nDefense\nAC 18, touch 12, flat-footed 14 (+2 armor, +4 Dex, +2 natural)\nhp 12 each (2d8+3)\nFort +0, Ref +4, Will +3\nDefensive Abilities +4 turn resistance; Immune undead traits\nOffense\nSpeed 40 ft.\nMelee slam +6 (1d6+5 plus poison)\nTactics\nDuring Combat A cytillesh zombie attacks any creature trying to interact with it verbally or physically. Once it targets an opponent, it continues attacking its target until the target or the zombie is dead or destroyed.\nMorale A cytillesh zombie fights to the death.\nStatistics\nStr 21, Dex 18, Con —, Int —, Wis 10, Cha 10\nBase Atk +1; CMB +6; CMD 20\nFeats Toughness\nGear leather armor\nSpecial Abilities\nCytillesh Symbiosis (Su) The cytillesh fungus infesting the host creature’s body acts as the dead flesh’s animating force. It grants the creature a +4 enhancement bonus to Strength and Dexterity and a poisonous touch. The slam of a cytillesh zombie releases spores that subject the creature to a mild dose of cytillesh poison. The creature must succeed at a DC 18 Fortitude save or become dazed for 1d3 rounds as it suffers memory loss of the previous moments. Multiple poisoning effects do not stack, but rather only extend the duration.\n\nQuick Strikes (Ex) Whenever a cytillesh zombie takes a full-attack action, it can make one additional slam attack at its highest base attack bonus.\n\nThere is no description for this monster.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1d49ec2836c4c23.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1d49ec2836c4c23"
+  },
+  "license": "OGL 1.0a"
+}

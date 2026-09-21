@@ -1,0 +1,32 @@
+{
+  "id": "b404d181afa72f74",
+  "name": "Inspiring Recovery",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Healer's Handbook pg. 9",
+  "book": "Healer's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 6,
+      "hunter": 4,
+      "inquisitor": 6,
+      "oracle": 6,
+      "paladin": 4,
+      "ranger": 4,
+      "warpriest": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Healer's Handbook"
+  },
+  "body": "Source Healer's Handbook pg. 9\nSchool conjuration (healing) [mind-affecting]; Level cleric 6, hunter 4, inquisitor 6, oracle 6, paladin 4, ranger 4, warpriest 6\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one target creature and all its allies within 60 feet; see text\nDuration instantaneous and 1 minute\nSaving Throw Will half (harmless); Spell Resistance yes (harmless)\nDescription\nYou can heal a creature, harm an undead creature, or call upon a very recently dead creature to fight beyond death’s reach. The target creature regains 1d8 hit points per 2 caster levels (maximum 10d8).\n\nThis healing can even bring back to life creatures that have been dead within the previous 1 round (but they cannot have been dead for any longer). If you apply this spell’s healing to such a creature and its hit point total is at a negative amount less than its Constitution score, it comes back to life and stabilizes at its new hit point total. If you awaken a dead creature in this way, all allies of that creature within 60 feet who can see it regain consciousness gain a +2 morale bonus on attack rolls, damage rolls, and saving throws for 1 minute thereafter, as the healing powers of your deity have imbued them with renewed vigor.\n\nCreatures killed by death effects cannot be revived this way. This spell deals damage to undead creatures rather than curing them, and it cannot bring them back to life.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b404d181afa72f74.json",
+    "web": "https://codex.pipsprojects.com/#/e/b404d181afa72f74"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "522b64569e368216",
+  "name": "Moonrise Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #134: It Came from Hollow Mountain pg. 72",
+  "book": "Pathfinder #134: It Came from Hollow Mountain",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Pathfinder #134: It Came from Hollow Mountain"
+  },
+  "body": "Source Pathfinder #134: It Came from Hollow Mountain pg. 72\nSchool evocation [light]; Level cleric 3, inquisitor 3, magus 3, occultist 3, oracle 3, paladin 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget up to 50 pieces of ammunition, all of which must be together at the time of casting\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou cause ammunition, including shuriken, to glow with faint silvery light. The ammunition counts as magic and silver for the purpose of overcoming damage reduction, in addition to the properties of any other special material the ammunition has. Incorporeal undead and shapechangers take an additional 1d8 points of damage from such ammunition. The targeted ammunition sheds dim light in a 5-foot radius for 1 round after it is fired or thrown.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/522b64569e368216.json",
+    "web": "https://codex.pipsprojects.com/#/e/522b64569e368216"
+  },
+  "license": "OGL 1.0a"
+}

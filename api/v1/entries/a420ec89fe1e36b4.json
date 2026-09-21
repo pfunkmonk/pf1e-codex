@@ -1,0 +1,21 @@
+{
+  "id": "a420ec89fe1e36b4",
+  "name": "Blood Bramble",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 48",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 10,
+    "sz": "Large",
+    "t": "plant",
+    "al": "N",
+    "bk": "Bestiary 6"
+  },
+  "body": "A tremendous bramble of intertwined bushes rises from a sizable pile of bones heaped at its roots, and its thorny flowers drip blood.\nBlood Bramble CR 10\nSource Bestiary 6 pg. 48\nXP 9,600\nN Large plant\nInit +13; Senses low-light vision, tremorsense 30 ft.; Perception +14\nDefense\nAC 24, touch 18, flat-footed 15 (+9 Dex, +6 natural, –1 size)\nhp 126 (12d8+72)\nFort +14, Ref +13, Will +8\nDR 10/slashing; Immune plant traits\nWeaknesses vulnerable to fire\nOffense\nSpeed 40 ft., climb 40 ft.\nMelee 4 vines +17 (1d8+6/19–20 plus bleed)\nSpace 10 ft., Reach 10 ft.\nSpecial Attacks bleed (1d6), bramble incursion, swift trip\nStatistics\nStr 22, Dex 28, Con 22, Int 3, Wis 15, Cha 9\nBase Atk +9; CMB +16; CMD 35 (can’t be tripped)\nFeats Improved Critical (vine), Improved Initiative, Iron Will, Skill Focus (Perception), Skill Focus (Stealth), Weapon Finesse\nSkills Climb +14, Perception +14, Stealth +17\nLanguages Aklo (cannot speak)\nSQ freeze (as berry bush)\nEcology\nEnvironment temperate forests\nOrganization solitary, pair, or thicket (3–8)\nTreasure incidental\nSpecial Abilities\nBramble Incursion (Ex) Like a swarm, a blood bramble can move into areas occupied by other creatures. Its brambles weave quickly across the ground, wounding and tripping creatures sharing the same space. Moving into another creature’s space is a move action that provokes attacks of opportunity. Creatures sharing a space with a blood bramble are considered to be moving in difficult terrain. Each time a creature takes a move or standard action within the blood bramble’s space, it must first succeed at a DC 25 Reflex save or take 1d8 points of piercing damage from the sharp thorns. The save DC is Dexterity-based.\n\nSwift Trip (Ex) Whenever a blood bramble occupies the same space as another creature, it can attempt a special trip combat maneuver check as a swift action. The check affects all creatures that share the blood bramble’s space and does not provoke attacks of opportunity. Any targets knocked prone by the trip combat maneuver take 1d8 points of piercing damage from falling into the sharp thorns.\n\nVines (Ex) A blood bramble’s vines constitute a primary natural attack that deals piercing damage.\nDescription\nThese aggressive, ambulatory brambles closely resemble large patches of normal bushes, a similarity they take advantage of with deadly efficacy. Although they are autotrophic, blood brambles also gain water and nutrients by consuming the blood of living creatures. They are avid hunters, though they are not known to be territorial. On rare occasions, they may take up permanent residence, but only in regions where both sunlight and prey remain plentiful, such as along trade routes.\n\nBlood brambles attack by rushing into their opponent’s space and weakening individuals by mercilessly thrashing them with thick, spiny vines.\n\nA typical blood bramble is 12 feet wide and has a height of 7 feet. Its thorny flowers are most often a deep red, though a variety of different colors have been reported.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a420ec89fe1e36b4.json",
+    "web": "https://codex.pipsprojects.com/#/e/a420ec89fe1e36b4"
+  },
+  "license": "OGL 1.0a"
+}

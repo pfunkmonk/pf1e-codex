@@ -1,0 +1,33 @@
+{
+  "id": "e8addea59d4a4f5c",
+  "name": "Murderous Command",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 230",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 230\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 1, cleric 1, medium 1, mesmerist 1, occultist 1, oracle 1, psychic 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou give the target a mental urge to kill its nearest ally, which it obeys to the best of its ability. The target attacks its nearest ally on its next turn with a melee weapon or natural weapon. If necessary, it moves to or charges to the nearest ally in order to make this attack. If it is unable to reach its closest ally on its next turn, the target uses its turn to get as close as possible to the ally.\nMythic Murderous Command\nSource Mythic Adventures pg. 102\nThis spell lasts for a number of rounds equal to your tier. Each round after the first, the target can attempt a new saving throw at the beginning of its turn to break free of the spell.\n\nAugmented: If you expend two uses of mythic power, the target attacks its nearest ally with its most powerful spell, spell-like ability, or supernatural ability. If it has no such ability, it attacks the ally with a melee weapon or natural weapon as normal and gains a +4 morale bonus on the attack and damage rolls.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8addea59d4a4f5c.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8addea59d4a4f5c"
+  },
+  "license": "OGL 1.0a"
+}

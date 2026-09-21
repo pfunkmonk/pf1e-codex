@@ -1,0 +1,31 @@
+{
+  "id": "f63231b4a8776f2d",
+  "name": "Shared Suffering",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Champions of Corruption pg. 25",
+  "book": "Champions of Corruption",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "inquisitor": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Champions of Corruption"
+  },
+  "body": "Source Champions of Corruption pg. 25\nSchool necromancy [evil]; Level antipaladin 2, arcanist 2, inquisitor 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, F (a silver dagger inlaid with onyx and jade worth 100 gp)\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one living creature\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYou infuse a dagger with necromantic energy, then plunge the dagger into your own body. You take 1d6 points of negative energy damage plus 1d6 points of damage for every 2 caster levels you possess beyond 1st (to a maximum of 5d6 at 9th level). The target takes an amount of damage equal to the damage you took this way, plus an amount equal to your Intelligence modifier (if you’re a witch or wizard), Wisdom modifier (if you’re an inquisitor), or Charisma modifier (if you’re an antipaladin or sorcerer).\n\nDamage from this spell cannot be divided by effects such as shield other or unwilling shieldAPG; it cuts through such protections completely.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f63231b4a8776f2d.json",
+    "web": "https://codex.pipsprojects.com/#/e/f63231b4a8776f2d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "3bcff9c0ef4c8b4e",
+  "name": "Getting Into and Out of Armor",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 153",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nGetting Into and Out of Armor\nSource PRPG Core Rulebook pg. 153\nThe time required to don armor depends on its type; see Table 6–7.\n\nDon: This column tells how long it takes a character to put the armor on. (One minute is 10 rounds.) Readying (strapping on) a shield is only a move action.\n\nDon Hastily: This column tells how long it takes to put the armor on in a hurry. The armor check penalty and armor bonus for hastily donned armor are each 1 point worse than normal.\n\nRemove: This column tells how long it takes to get the armor off. Removing a shield from the arm and dropping it is only a move action.\n\nTable 6-7: Donning Armor\nArmor Type Don Don Hastily Remove\nShield (any) 1 move action n/a 1 move action\nPadded, leather, hide, studded leather, or chain shirt 1 minute 5 rounds 1 minute1\nBreastplate, scale mail, chainmail, banded mail, or splint mail 4 minutes1 1 minute 1 minute1\nHalf-plate or full plate 4 minutes2 4 minutes1 1d4+1 minutes1\n1 If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Twocharacters can’t help each other don armor at the same time.\n2 The wearer must have help to don this armor. Without help, it can be donned only hastily.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Armor Type",
+          "Don",
+          "Don Hastily",
+          "Remove"
+        ],
+        [
+          "Shield (any)",
+          "1 move action",
+          "n/a",
+          "1 move action"
+        ],
+        [
+          "Padded, leather, hide, studded leather, or chain shirt",
+          "1 minute",
+          "5 rounds",
+          "1 minute1"
+        ],
+        [
+          "Breastplate, scale mail, chainmail, banded mail, or splint mail",
+          "4 minutes1",
+          "1 minute",
+          "1 minute1"
+        ],
+        [
+          "Half-plate or full plate",
+          "4 minutes2",
+          "4 minutes1",
+          "1d4+1 minutes1"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3bcff9c0ef4c8b4e.json",
+    "web": "https://codex.pipsprojects.com/#/e/3bcff9c0ef4c8b4e"
+  },
+  "license": "OGL 1.0a"
+}

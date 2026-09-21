@@ -1,0 +1,33 @@
+{
+  "id": "02dacfff72a4de2f",
+  "name": "Passing Fancy, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spymaster's Handbook pg. 29",
+  "book": "Spymaster's Handbook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Spymaster's Handbook"
+  },
+  "body": "Passing Fancy\nSource Spymaster's Handbook pg. 29\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 2, bard 2, mesmerist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 4d4 rounds (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nTaldor’s infamous Lion Blades imported this spell from the ninja clans of Minkai, and both groups use it to great effect when maneuvering among the shallow upper classes. When you cast the spell, you dictate one specific topic or recent event and instill a magical obsession with that subject within the target. An affected creature becomes fascinated by the topic, and becomes completely focused on discussing the event with anyone nearby, possibly wandering off or distracting unaffected creatures. Passing fancy has no effect on a creature with an Intelligence of 2 or less.\n\nBecause the target talks and interacts with its usual cadence, onlookers take a –10 penalty on Sense Motive checks to notice that anything is amiss with the target’s behavior.\nPassing Fancy, Mass\nSource Spymaster's Handbook pg. 29\nSchool enchantment (compulsion) [mind-affecting]; Level bard 4, mesmerist 4, psychic 5, skald 4, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature/level, no two of which can be more thatn 30 ft. apart\nDuration 4d4 rounds (D)\nDescription\nThis spell functions as per passing fancy except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02dacfff72a4de2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/02dacfff72a4de2f"
+  },
+  "license": "OGL 1.0a"
+}

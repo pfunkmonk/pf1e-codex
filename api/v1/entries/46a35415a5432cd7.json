@@ -1,0 +1,30 @@
+{
+  "id": "46a35415a5432cd7",
+  "name": "Arcane Mark",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 244",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "arcanist": 0,
+      "magus": 0,
+      "psychic": 0,
+      "shaman": 0,
+      "sorcerer": 0,
+      "summoner": 0,
+      "witch": 0,
+      "wizard": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 244\nSchool universal; Level arcanist 0, magus 0, psychic 0, shaman 0, sorcerer 0, summoner 0, summoner (unchained) 0, witch 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nEffect one personal rune or mark, all of which must fit within 1 sq. ft.\nDuration permanent\nSaving Throw none; Spell Resistance no\nDescription\nThis spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable.\n\nSee invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an erase spell.\n\nIf an arcane mark is placed on a living being, the effect gradually fades in about a month.\n\nArcane mark must be cast on an object prior to casting instant summons on the same object (see that spell description for details).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/46a35415a5432cd7.json",
+    "web": "https://codex.pipsprojects.com/#/e/46a35415a5432cd7"
+  },
+  "license": "OGL 1.0a"
+}

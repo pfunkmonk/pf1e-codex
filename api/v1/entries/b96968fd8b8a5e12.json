@@ -1,0 +1,31 @@
+{
+  "id": "b96968fd8b8a5e12",
+  "name": "Truespeak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 89",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 5,
+      "bard": 4,
+      "cleric": 6,
+      "mesmerist": 4,
+      "oracle": 6,
+      "psychic": 5,
+      "skald": 4,
+      "sorcerer": 5,
+      "warpriest": 6,
+      "witch": 5,
+      "wizard": 5
+    },
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 89\nSchool divination; Level arcanist 5, bard 4, cleric 6, mesmerist 4, oracle 6, psychic 5, skald 4, sorcerer 5, warpriest 6, witch 5, wizard 5 (aasimar)\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYou can communicate with any creature that is not mindless. As long as you can be heard, your speech is understandable to all creatures, each of which hears you as though you were conversing in its language or other natural mode of communication, and you hear their responses as though in your own native language. You may ask questions and receive answers, though this spell does not make creatures more friendly or cooperative than normal, and non-sentient creatures may give limited responses. While using truespeak, your language-dependent effects can affect any creature that is not mindless.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b96968fd8b8a5e12.json",
+    "web": "https://codex.pipsprojects.com/#/e/b96968fd8b8a5e12"
+  },
+  "license": "OGL 1.0a"
+}

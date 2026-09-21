@@ -1,0 +1,34 @@
+{
+  "id": "f27bb432c2d161eb",
+  "name": "Rock Whip",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Darklands pg. 9",
+  "book": "Heroes of the Darklands",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 1,
+      "magus": 2,
+      "oracle": 2,
+      "ranger": 1,
+      "shaman": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Heroes of the Darklands"
+  },
+  "body": "Source Heroes of the Darklands pg. 9\nSchool conjuration (creation); Level arcanist 2, cleric 2, druid 2, hunter 1, magus 2, oracle 2, ranger 1, shaman 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 0 ft\nEffect whip of earth and stone\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nA 15-foot-long lash of crumbling crystal and earth emerges from the palm of your hand. This weapon is treated as a nonmagical whip that deals 1d8 points of bludgeoning damage. You can wield this weapon as a whip as if you were proficient with it, and it isn’t subject to the disarm or sunder combat maneuver. The whip passes through natural unworked stone effortlessly, allowing you to ignore cover between you and your target from such sources. Armor and natural armor have no effect on the damage dealt by a rock whip (unlike a normal whip), but the whip deals no damage to outsiders with the earth subtype. Attacks with a rock whip strike with resounding force; you can make a free bull rush combat maneuver against any creature you strike with a rock whip, using your caster level in place of your base attack bonus and your primary casting ability score modifier (Charisma for sorcerers, Intelligence for wizards, and so on) in place of your Strength modifier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f27bb432c2d161eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/f27bb432c2d161eb"
+  },
+  "license": "OGL 1.0a"
+}

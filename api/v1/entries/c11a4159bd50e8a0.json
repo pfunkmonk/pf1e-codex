@@ -1,0 +1,23 @@
+{
+  "id": "c11a4159bd50e8a0",
+  "name": "Restore Eidolon, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 235",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "summoner": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 235\nSchool conjuration (healing); Level summoner 2, summoner (unchained) 2\nCasting\nCasting Time 3 rounds\nComponents V, S\nEffect\nRange touch\nTarget eidolon touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as lesser restoration, except it only affects an eidolon.\nRestore Eidolon\nSource Ultimate Magic pg. 235\nSchool conjuration (healing); Level summoner 3, summoner (unchained) 3\nCasting\nCasting Time 1 minute\nComponents V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)\nEffect\nRange touch\nTarget eidolon touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as restoration, except it only affects an eidolon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c11a4159bd50e8a0.json",
+    "web": "https://codex.pipsprojects.com/#/e/c11a4159bd50e8a0"
+  },
+  "license": "OGL 1.0a"
+}

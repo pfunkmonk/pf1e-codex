@@ -1,0 +1,29 @@
+{
+  "id": "a667c8bab602a7ad",
+  "name": "Anywhere but Here",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 38",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "magus": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Planar Adventures"
+  },
+  "body": "Source Planar Adventures pg. 38\nSchool conjuration (teleportation); Level arcanist 4, magus 4, psychic 4, sorcerer 4, summoner 4, summoner (unchained) 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange touch\nTarget you and up to four willing creatures, none of whom can be on their home plane\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell functions similarly to plane shift, but instead of transporting the targets to a destination near an intended location on a specific plane, anywhere but here transports affected creatures to a random plane. A creature can be affected by anywhere but here only if it is currently not on its home plane (although targets can, by chance, end up traveling to their home plane as a result of this spell). Subjects always appear in a location that is not inherently harmful, but the exact destination is otherwise random. The specific plane is determined by the table below; the location on the destination plane where the transported creatures arrive is completely subject to the GM’s whim.\nd% Planar Destination\n1-7 Abyss\n8-14 Abaddon\n15-20 Hell\n21-24 Shadow Plane\n25-28 First World\n29-35 Maelstrom\n36-42 Boneyard\n43-49 Axis\n50-56 Ethereal Plane\n57-63 Elysium\n64-70 Nirvana\n71-77 Heaven\n78-84 Astral Plane\n85-90 Random demiplane\n91-95 Material Plane (random world)\n96-100 GM's choice\nA creature that is transported by anywhere but here cannot be affected by a subsequent casting of anywhere but here for 24 hours afterward (but can be affected normally by other forms of planar travel).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a667c8bab602a7ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/a667c8bab602a7ad"
+  },
+  "license": "OGL 1.0a"
+}

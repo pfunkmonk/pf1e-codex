@@ -1,0 +1,27 @@
+{
+  "id": "43518d00f0c45bdc",
+  "name": "Unshakable Zeal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 190",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "inquisitor": 6,
+      "psychic": 7,
+      "skald": 5,
+      "spiritualist": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 190\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level bard 5, inquisitor 6, psychic 7, skald 5, spiritualist 6\nCasting\nCasting Time 1 standard action\nComponents S, F (a silver circlet)\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou fill the target with boundless enthusiasm and faith in its ultimate triumph. Whenever the target fails an attack roll, a save, a skill check, a concentration check, or an ability check, the target receives a +4 morale bonus on its next attempt at the failed check within 1 round (this includes attack rolls against the same foe, saving throws against the same ability from the same foe, and so on). In addition, when the target would be affected by a fear or emotion effect, it can instead dismiss unshakable zeal without spending an action to negate the effect on itself.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43518d00f0c45bdc.json",
+    "web": "https://codex.pipsprojects.com/#/e/43518d00f0c45bdc"
+  },
+  "license": "OGL 1.0a"
+}

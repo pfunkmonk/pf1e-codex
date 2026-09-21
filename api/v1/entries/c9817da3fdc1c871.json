@@ -1,0 +1,28 @@
+{
+  "id": "c9817da3fdc1c871",
+  "name": "Weaken Powder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 249",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "druid": 1,
+      "hunter": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 249\nSchool transmutation; Level arcanist 1, druid 1, hunter 1, redmantisassassin 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (an empty paper cartridge)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 loaded firearm\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nAmmunition in the target firearm generates less of an explosive charge when fired. With such ammunition, the firearm’s range increment is halved and the firer takes a –2 penalty on damage rolls. If aware of this spell’s effect prior to firing the altered ammunition (a DC 16 Spellcraft check to identify the spell being cast or similar effect), the firearm’s user can spend a standard action to clear the altered ammunition from the firearm. Doing so destroys that ammunition.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9817da3fdc1c871.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9817da3fdc1c871"
+  },
+  "license": "OGL 1.0a"
+}

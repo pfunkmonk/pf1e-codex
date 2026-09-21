@@ -1,0 +1,27 @@
+{
+  "id": "3ac2793a0f1ae7cb",
+  "name": "Martyr's Last Blessing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #68: The Shackled Hut pg. 69",
+  "book": "Pathfinder #68: The Shackled Hut",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "ranger": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #68: The Shackled Hut"
+  },
+  "body": "Source Pathfinder #68: The Shackled Hut pg. 69\nSchool conjuration (healing); Level cleric 3, hunter 3, oracle 3, ranger 3, warpriest 3 (Milani)\nCasting\nCasting Time 1 minute\nComponents V, S, DF\nEffect\nRange personal (see text)\nTarget you and one ally/level, no two of which can be more than 30 ft. apart (see text)\nDuration 1 hour/level or instantaneous (see text)\nSaving Throw Will half (harmless, see text); Spell Resistance yes (harmless)\nDescription\nYou charge your body with healing energy, which erupts from you if you are dying or are killed before 1 hour per level has passed. If you’re brought below 0 hit points or killed (including by effects that kill without dealing damage, such as phantasmal killer and power word kill), the eruption of healing energy acts as mass cure light wounds on allies (other than you). Allies with the fewest Hit Dice are affected first. Among allies with equal HD, those closest to you are affected first. If the duration ends, the stored healing energy dissipates with no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ac2793a0f1ae7cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ac2793a0f1ae7cb"
+  },
+  "license": "OGL 1.0a"
+}

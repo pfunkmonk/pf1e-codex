@@ -1,0 +1,26 @@
+{
+  "id": "57d058dca16849d8",
+  "name": "Cheetah's Sprint",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Wild pg. 30",
+  "book": "Heroes of the Wild",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "bk": "Heroes of the Wild"
+  },
+  "body": "Source Heroes of the Wild pg. 30\nSchool transmutation; Level bloodrager 1, druid 1, hunter 1, ranger 1, shaman 1, witch 1\nCasting\nCasting Time 1 swift action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 round\nDescription\nA wild surge of energy courses through your body and propels you into a sprint. If you take a charge or run action before the end of your turn, you can move a total distance of up to 10 times your base land speed. This adjustment is an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with other effects that increase your speed, this spell affects your jumping distance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57d058dca16849d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/57d058dca16849d8"
+  },
+  "license": "OGL 1.0a"
+}

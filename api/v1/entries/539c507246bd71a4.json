@@ -1,0 +1,25 @@
+{
+  "id": "539c507246bd71a4",
+  "name": "Plant Shape III",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 323",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "none",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Plant Shape III\nSource PRPG Core Rulebook pg. 323\nSchool transmutation (polymorph); Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of the creature whose form you plan to assume)\nEffect\nRange personal\nTarget you\nDuration 1 min./level (D)\nDescription\nThis spell functions as plant shape II except that it also allows you to assume the form of a Huge creature of the plant type. If the form you assume has any of the following abilities, you gain the listed ability: DR, regeneration 5, and trample.\n\nHuge plant: If the form you take is that of a Huge plant, you gain a +8 size bonus to your Strength, a –2 penalty to your Dexterity, a +4 size bonus to your Constitution, and a +6 natural armor bonus.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/539c507246bd71a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/539c507246bd71a4"
+  },
+  "license": "OGL 1.0a"
+}

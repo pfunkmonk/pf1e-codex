@@ -1,0 +1,69 @@
+{
+  "id": "808e43a7592624fa",
+  "name": "Setting Up Shop",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 77",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\n\nSetting Up Shop\nSource Pathfinder Unchained pg. 77\nThe full function of the Profession skill allows you to run a business of the appropriate type successfully. Professions in most cases can be operated from static locations (such as store fronts or offices) or performed while traveling. They can be small operations requiring little in the way of assistance or large companies that demand numerous laborers. Table 2–7: Business Size and Setup lists the size of the business, the minimum and maximum number of employees needed to operate it, the amount of time it takes to establish the business (find and purchase equipment and the location from which to run the business, hire employees, renovate or repair the property, apply and pay for any licenses, advertise, etc.), the costs to open or upgrade the business, and the amount of profits to be gained.\n\nTable 2-7: Business Size and Setup\nBusiness Size Labor Factor Minimum Employees Maximum Employees Setup Time Initial/Upgrade Cost Monthly Profits Factor\nMobile 0 0 2 1 day 1 gp/rank 5\nSmall -2 2 4 1 week 100 gp/rank 10\nMedium -5 5 10 2 weeks 1,000 gp/rank 100\nLarge -10 10 20 1 month 5,000 gp/rank 1,000\n\nLabor Factor: This value indicates the minimum labor “cost” of running your business. It serves as a penalty on your Profession skill check to determine profits, accounting for the various laborers, assistants, experts, and apprentices you must employ to maintain a business of the associated size. Typically, your business can have a maximum number of employees equal to 2 × the positive value of its base Labor Factor (or a maximum of two employees for a mobile business), but each employee your business has beyond the minimum increases the Labor Factor penalty by 1.\n\nMinimum Employees: This is the minimum number of employees needed to run a business.\n\nMaximum Employees: This is the maximum number of employees a business can maintain.\n\nInitial/Upgrade Costs: The cost listed is the amount required to either establish (for a Mobile or Small business) or upgrade (from Small to Medium, or Medium to Large) a business. The value is multiplied by the number of ranks you have in the appropriate Profession skill, and reflects the quality of tools, equipment, decor, advertising, and so forth needed to maximize your talents and effectiveness at running a business of that size. If you gain more skill ranks, you must pay for the increased cost associated with those ranks in order to gain the benefit of those ranks on checks to determine profits—otherwise, all checks made to determine profits are capped at the highest skill rank for which you’ve paid. If you spend 125% of the listed cost, you set up a masterwork operation, with the finest equipment, tools, and furnishings available. Such a workspace grants you a +2 circumstance bonus on all associated Profession checks (including ones to determine profits).\n\nMonthly Profits Factor: This value is used to calculate net income earned after the cost of goods, overhead, and labor are taken into account.\n\nMobile Business: Your business functions as a traveling operation, either as a small street-side setup within a town or city (such as a rug to display wares at a bazaar or a cart or wagon pulled through the city while the proprietor hawks the goods), as a roving professional service moving between multiple communities, or as a service that actually involves travel (such as that of a sailor, merchant, etc.).\n\nSmall Business: Your business is a small shop, usually one of several within a single building. A Small business might cater to a community as small as a hamlet or to a single neighborhood within a metropolis.\n\nMedium Business: Your business is either a large shop occupying all of a single building or multiple smaller storefronts (each equivalent to a small business). A Medium business usually occupies a small town or larger community.\n\nLarge Business: Your operations are sizable, either functioning as several Medium businesses within a single small city or larger settlement, or as multiple businesses of any size distributed among several small towns or larger communities.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Business Size",
+          "Labor Factor",
+          "Minimum Employees",
+          "Maximum Employees",
+          "Setup Time",
+          "Initial/Upgrade Cost",
+          "Monthly Profits Factor"
+        ],
+        [
+          "Mobile",
+          "0",
+          "0",
+          "2",
+          "1 day",
+          "1 gp/rank",
+          "5"
+        ],
+        [
+          "Small",
+          "-2",
+          "2",
+          "4",
+          "1 week",
+          "100 gp/rank",
+          "10"
+        ],
+        [
+          "Medium",
+          "-5",
+          "5",
+          "10",
+          "2 weeks",
+          "1,000 gp/rank",
+          "100"
+        ],
+        [
+          "Large",
+          "-10",
+          "10",
+          "20",
+          "1 month",
+          "5,000 gp/rank",
+          "1,000"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/808e43a7592624fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/808e43a7592624fa"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "73d24e14cfcefaa1",
+  "name": "Fairness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 233, Faiths of Balance pg. 28",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 2,
+      "oracle": 1,
+      "paladin": 2,
+      "warpriest": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 233, Faiths of Balance pg. 28\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 1, inquisitor 2, oracle 1, paladin 2, warpriest 1 (Abadar)\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature per level\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nHumanoid creatures affected by this spell must trade fairly with others to the best of their knowledge. If they know the fair value (or even an estimated fair value) of a good or service, they cannot participate in a trade if it would benefit one side unfairly, and must attempt to stop such trades from occurring, preventing them from cheating another while under the influence of this spell. The symbol of Abadar appears above the heads of those affected by this spell, making those affected and unaffected by the spell immediately apparent.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73d24e14cfcefaa1.json",
+    "web": "https://codex.pipsprojects.com/#/e/73d24e14cfcefaa1"
+  },
+  "license": "OGL 1.0a"
+}

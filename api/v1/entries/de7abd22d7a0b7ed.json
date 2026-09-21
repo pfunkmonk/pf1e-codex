@@ -1,0 +1,27 @@
+{
+  "id": "de7abd22d7a0b7ed",
+  "name": "Shrink Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 342",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 342\nSchool transmutation; Level arcanist 3, occultist 3, psychic 3, redmantisassassin 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one touched object of up to 2 cu. ft./level\nDuration 1 day/level; see text\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou are able to shrink one nonmagical item (if it is within the size limit) to 1/16 of its normal size in each dimension (to about 1/4,000 the original volume and mass). This change effectively reduces the object's size by four categories. Optionally, you can also change its now shrunken composition to a clothlike one. Objects changed by a shrink item spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original caster. Even a burning fire and its fuel can be shrunk by this spell. Restoring the shrunken object to its normal size and composition ends the spell.\n\nShrink item can be made permanent with a permanency spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de7abd22d7a0b7ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/de7abd22d7a0b7ed"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "365bca2b2adaa1fa",
+  "name": "Banelight",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 37",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 12,
+    "sz": "Medium",
+    "t": "fey",
+    "al": "NE",
+    "bk": "Bestiary 6"
+  },
+  "body": "This creature has a dragonfly’s body and a woman’s head and arms. A glowing red vortex gathers between her hands.\nBanelight CR 12\nSource Bestiary 6 pg. 37\nXP 19,200\nNE Medium fey\nInit +15; Senses blindsight 60 ft., low-light vision; Perception +25\nAura banelight (60 ft.)\nDefense\nAC 27, touch 21, flat-footed 16 (+11 Dex, +6 natural)\nhp 168 (16d6+112); fast healing 10\nFort +14, Ref +21, Will +16\nDR 10/cold iron; Immune magic\nWeaknesses susceptible to darkness\nOffense\nSpeed 20 ft., fly 100 ft. (perfect)\nMelee 2 light vortices +19 touch (5d8)\nRanged 2 light vortices +19 touch (5d8)\nSpecial Attacks create will-o’-wisp\nSpell-Like Abilities (CL 12th; concentration +18)\nConstant—daylight (centered on self)\nAt will—wandering star motes (DC 20)\n3/day—quickened wandering star motes (DC 20)\nStatistics\nStr 12, Dex 32, Con 25, Int 21, Wis 22, Cha 23\nBase Atk +8; CMB +9; CMD 38 (42 vs. trip)\nFeats Combat Reflexes, Defensive Combat Training, Great Fortitude, Improved Great Fortitude, Improved Initiative, Quicken Spell-Like Ability (wandering star motes), Vital Strike, Weapon Finesse\nSkills Acrobatics +30, Bluff +25, Escape Artist +30, Fly +38, Intimidate +22, Knowledge (nature) +24, Perception +25, Sense Motive +25, Spellcraft +21, Stealth +30, Use Magic Device +25\nLanguages Aklo, Auran, Common, Draconic, Sylvan\nEcology\nEnvironment any\nOrganization solitary, pair, or witchlight (3–10 plus 4–6 will-o’-wisps or lurkers in light)\nTreasure standard\nSpecial Abilities\nBanelight Aura (Su) Creatures within a banelight’s aura and also in an area of bright light (generally the case because of the creature’s constant daylight) are dazzled and affected as by the spell bane, with no saving throw. All magical light sources that come within a banelight’s aura turn bright red except those from her own spell-like abilities.\n\nCreate Will-o’-Wisp (Su) Up to three times per day as a swift action, a banelight can cause a single nonliving source of light (other than one she created) within the area of her banelight aura to spawn an advanced will-o’-wisp under her control. Will-o’-wisps created in this manner exist for up to 1 minute before vanishing. A single banelight can maintain up to three will-o’-wisps at a time in this manner.\n\nImmune to Magic (Ex) Banelights are immune to all spells and spell-like abilities that allow spell resistance except magic missile, maze, and their personal daylight (which constantly affects them even though they aren’t an object).\n\nLight Vortex (Su) A banelight can use its light vortices as melee touch attacks or ranged touch attacks with a 60-foot range. Each vortex deals 5d8 points of damage to most targets, but deals 5d6 points of damage to constructs and inanimate objects, 10d6 points of damage to undead, and 10d8 points of damage to creatures specifically vulnerable to sunlight or bright light. This damage bypasses all damage reduction and energy resistance.\n\nSusceptible to Darkness (Ex) A banelight gains much of its power from light. It can reactivate its daylight on its turn if the effect is dispelled, but a banelight in an area of darkness does not have a banelight aura, loses its fast healing, and is staggered.\nDescription\nBanelights are cruel fey who stalk mortals in the darkness and loathe the increasing ubiquity of mortalmade light. Banelights are strangely social creatures, and they conduct bizarre courtship dances among themselves or with will-o’-wisps. In the absence of other fey to keep them company, banelights sometimes capture mortals to keep them entertained. While a good conversationalist can survive as a banelight’s “guest” for years, banelights are quick to dispatch companions who bore them.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/365bca2b2adaa1fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/365bca2b2adaa1fa"
+  },
+  "license": "OGL 1.0a"
+}

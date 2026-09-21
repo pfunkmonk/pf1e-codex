@@ -1,0 +1,34 @@
+{
+  "id": "4e5f6aa2b5c46d9e",
+  "name": "Solidify Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Hunter's Handbook pg. 31",
+  "book": "Monster Hunter's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Monster Hunter's Handbook"
+  },
+  "body": "Source Monster Hunter's Handbook pg. 31\nSchool transmutation [earth]; Level arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, shaman 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea up to two 10-foot cubes per level (S)\nDuration 1 minute/level\nSaving Throw Reflex negates (see text); Spell Resistance no\nDescription\nStone, dirt, and other types of earth within the area become more tightly packed. Burrowing creature (including those using earth glide) treat the area as difficult terrain. Any creature that begins its turn burrowing in the affected area becomes entangled for 1 round (Reflex negates). Tremorsense and similar senses are ineffective within the affected area. Creatures with the earth mastery special ability (such as earth elementals) double their bonus on attack and damage rolls so long as both they and their targets are touching the area affected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e5f6aa2b5c46d9e.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e5f6aa2b5c46d9e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "398e410a5255bb67",
+  "name": "Open/Close",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 317",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 0,
+      "bard": 0,
+      "magus": 0,
+      "medium": 0,
+      "mesmerist": 0,
+      "occultist": 0,
+      "psychic": 0,
+      "skald": 0,
+      "sorcerer": 0,
+      "spiritualist": 0,
+      "summoner": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 317\nSchool transmutation; Level arcanist 0, bard 0, magus 0, medium 0, mesmerist 0, occultist 0, psychic 0, skald 0, sorcerer 0, spiritualist 0, summoner 0, summoner (unchained) 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a brass key)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget object weighing up to 30 lbs. or portal that can be opened or closed\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity (such as a bar on a door or a lock on a chest), the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell's ability to affect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/398e410a5255bb67.json",
+    "web": "https://codex.pipsprojects.com/#/e/398e410a5255bb67"
+  },
+  "license": "OGL 1.0a"
+}

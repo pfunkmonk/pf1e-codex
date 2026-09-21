@@ -1,0 +1,34 @@
+{
+  "id": "fe0b1ce4560a4342",
+  "name": "Flickering Lights",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 118",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 118\nSchool evocation [darkness, light]; Level arcanist 2, bard 2, cleric 2, inquisitor 2, magus 2, occultist 2, oracle 2, shaman 2, skald 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 round\nComponents V, S, M (a patch of white cloth and a patch of black cloth)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea contiguous area consisting of one 10-foot cube/level (S)\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou cause the illumination in the area to seem to flicker erratically, fluctuating between absolute darkness and blinding brightness. The level of light in the area changes at the start of each creature’s turn, as determined by rolling a percentile die and consulting the following table.\nd% Illumination Level\n1-10 Supernatural darkness\n11-25 Darkness\n26-50 Dim light\n51-90 Normal light\n91-00 Bright light\nEven darkvision can’t see through supernatural darkness (as deeper darkness). Bright light affects creatures with light blindness or light sensitivity. For the purpose of superseding its effects with higher-level light or darkness spells, flickering lights counts as a light spell when it increases the ambient light level and a darkness spell when it decreases the ambient light level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe0b1ce4560a4342.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe0b1ce4560a4342"
+  },
+  "license": "OGL 1.0a"
+}

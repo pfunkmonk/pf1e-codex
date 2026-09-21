@@ -1,0 +1,35 @@
+{
+  "id": "d7b754875edbe9eb",
+  "name": "Poison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 323",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 4,
+      "druid": 3,
+      "hunter": 3,
+      "mesmerist": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 323\nSchool necromancy [poison]; Level antipaladin 4, cleric 4, druid 3, hunter 3, mesmerist 4, occultist 4, oracle 4, shaman 4, warpriest 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget living creature touched\nDuration instantaneous; see text\nSaving Throw Fortitude negates; see text; Spell Resistance yes\nDescription\nCalling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. This poison deals 1d3 Constitution damage per round for 6 rounds. Poisoned creatures can make a Fortitude save each round to negate the damage and end the affliction.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7b754875edbe9eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7b754875edbe9eb"
+  },
+  "license": "OGL 1.0a"
+}

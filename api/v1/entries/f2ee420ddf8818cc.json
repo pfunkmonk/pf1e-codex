@@ -1,0 +1,26 @@
+{
+  "id": "f2ee420ddf8818cc",
+  "name": "Apsu's Shining Scales",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of Dragons pg. 28",
+  "book": "Legacy of Dragons",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "bloodrager": 3,
+      "medium": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "bk": "Legacy of Dragons"
+  },
+  "body": "Source Legacy of Dragons pg. 28\nSchool evocation [draconic, good]; Level alchemist 3, arcanist 3, bloodrager 3, medium 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of mercury)\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYou envelop your body with silver radiance that manifests as scales surrounding your body, granting you a +5 armor bonus to your AC and causing your natural attacks and unarmed strikes to bypass damage reduction as if they were good and silver weapons.\n\nWhenever you attack with a breath weapon (including effects that are similar to a dragon’s breath weapon, such as an elixir of dragon breath or the dragon’s breathAPG spell), you can discharge the Apsu’s shining scales spell as a swift action in order to infuse your breath with silver light, causing any evil creature caught within the area of the breath to take a -4 penalty on its Reflex save and to lose the benefits of the evasion ability against that breath weapon attack. Evil creatures with improved evasion are instead treated as if they had only evasion when attempting to save against this breath weapon attack.\n\nClerics, inquisitors, oracles, paladins, and warpriests who worship Apsu add Apsu’s shining scales to their class spell lists as a 3rd-level spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f2ee420ddf8818cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/f2ee420ddf8818cc"
+  },
+  "license": "OGL 1.0a"
+}

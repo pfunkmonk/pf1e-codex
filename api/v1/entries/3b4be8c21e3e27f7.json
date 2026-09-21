@@ -1,0 +1,25 @@
+{
+  "id": "3b4be8c21e3e27f7",
+  "name": "Word of Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 371",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 7,
+      "inquisitor": 6,
+      "oracle": 7
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 371\nSchool evocation [chaotic, sonic]; Level cleric 7, inquisitor 6, oracle 7\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange 40 ft.\nArea nonchaotic creatures in a 40-ft. radius spread centered on you\nDuration instantaneous\nSaving Throw none or Will negates; see text; Spell Resistance yes\nDescription\nAny nonchaotic creature within the area of a word of chaos spell suffers the following ill effects, depending on their HD.\n\nHD Effect\nEqual to caster level Deafened\nUp to caster level -1 Stunned, deafened\nUp to caster level -5 Confused, stunned, deafened\nUp to caster level -10 Killed, confused, stunned, deafened\n\nThe effects are cumulative and concurrent. A successful Will save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.\n\nDeafened: The creature is deafened for 1d4 rounds. Save negates.\n\nStunned: The creature is stunned for 1 round. Save negates.\n\nConfused: The creature is confused for 1d10 minutes. This is a mind-affecting enchantment effect. Save reduces the confused effect to 1 round.\n\nKilled: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).\n\nFurthermore, if you are on your home plane when you cast this spell, nonchaotic extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the word of chaos or not. The banishment effect allows a Will save (at a –4 penalty) to negate.\n\nCreatures whose HD exceed your caster level are unaffected by word of chaos.\nMythic Word of Chaos\nSource Mythic Adventures pg. 112\nWhen determining the spell’s effect on non-mythic creatures, add your tier to your caster level. Non-chaotic creatures that fail their saves against the spell also take a –4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell’s other effects last.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3b4be8c21e3e27f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/3b4be8c21e3e27f7"
+  },
+  "license": "OGL 1.0a"
+}

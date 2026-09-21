@@ -1,0 +1,26 @@
+{
+  "id": "ba35f3e83728e2cd",
+  "name": "Blade of Bright Victory",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 208",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "paladin": 3
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 208\nSchool transmutation [good]; Level paladin 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget your paladin bonded weapon\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYou strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the ghost touch property. You may change your weapon’s damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ba35f3e83728e2cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/ba35f3e83728e2cd"
+  },
+  "license": "OGL 1.0a"
+}

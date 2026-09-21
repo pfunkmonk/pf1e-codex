@@ -1,0 +1,28 @@
+{
+  "id": "3f65f17316fedb92",
+  "name": "Illusory Wall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 299",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "mesmerist": 4,
+      "occultist": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 299\nSchool illusion (figment); Level arcanist 4, mesmerist 4, occultist 4, psychic 4, redmantisassassin 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect image 1 ft. by 10 ft. by 10 ft.\nDuration permanent\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nThis spell creates the illusion of a wall, floor, ceiling, or similar surface. It appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search reveals the true nature of the surface, though such measures do not cause the illusion to disappear. Although the caster can see through his illusory wall, other creatures cannot, even if they succeed at their will save (but they do learn that it is not real).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3f65f17316fedb92.json",
+    "web": "https://codex.pipsprojects.com/#/e/3f65f17316fedb92"
+  },
+  "license": "OGL 1.0a"
+}

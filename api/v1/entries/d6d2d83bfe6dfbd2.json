@@ -1,0 +1,32 @@
+{
+  "id": "d6d2d83bfe6dfbd2",
+  "name": "Caustic Safeguard",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Agents of Evil pg. 30",
+  "book": "Agents of Evil",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 4,
+      "bloodrager": 3,
+      "investigator": 3,
+      "magus": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Agents of Evil"
+  },
+  "body": "Source Agents of Evil pg. 30\nSchool abjuration [acid]; Level alchemist 3, arcanist 4, bloodrager 3, investigator 3, magus 3, sorcerer 4, wizard 4\nCasting\nCasting Time 1 round\nComponents V, S, M (a thin metal wire and a vial of acid)\nEffect\nRange touch\nTarget object touched\nDuration 1 hour/level (D)\nSaving Throw Reflex half (see text); Spell Resistance no\nDescription\nYou imbue a single object with an acidic protective ward. Any creature other than you that touches the object takes 1d6 points of acid damage per 2 caster levels (maximum 10d6; Reflex half). Each time the spell discharges, the number of damage dice it deals is halved (rounded down); when the spell’s damage dice reach 0, the spell ends. While casting this spell, you can touch up to one creature per 4 caster levels, which allows them to handle the warded object without triggering this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d6d2d83bfe6dfbd2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d6d2d83bfe6dfbd2"
+  },
+  "license": "OGL 1.0a"
+}

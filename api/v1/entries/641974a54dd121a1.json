@@ -1,0 +1,35 @@
+{
+  "id": "641974a54dd121a1",
+  "name": "Identify",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 299",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "investigator": 1,
+      "medium": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 299\nSchool divination; Level alchemist 1, arcanist 1, bard 1, investigator 1, medium 1, occultist 1, psychic 1, skald 1, sorcerer 1, spiritualist 1, summoner 1, summoner (unchained) 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (wine stirred with an owl's feather)\nEffect\nRange 60 ft.\nArea cone-shaped emanation\nDuration 3 rounds/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as detect magic, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/641974a54dd121a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/641974a54dd121a1"
+  },
+  "license": "OGL 1.0a"
+}

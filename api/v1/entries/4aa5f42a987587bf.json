@@ -1,0 +1,22 @@
+{
+  "id": "4aa5f42a987587bf",
+  "name": "Death Coach",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 5 pg. 67",
+  "book": "Bestiary 5",
+  "facets": {
+    "cr": 14,
+    "sz": "Huge",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Bestiary 5",
+    "st": "incorporeal"
+  },
+  "body": "Two spectral horses pull this ornate, ghostly carriage, whose windows are blocked by dark, heavy curtains.\nDeath Coach CR 14\nSource Bestiary 5 pg. 67\nXP 38,400\nNE Huge undead (incorporeal)\nInit +14; Senses darkvision 60 ft., deathwatch, lifesense; Perception +30\nAura aura of doom (30 ft., DC 26)\nDefense\nAC 27, touch 27, flat-footed 16 (+8 deflection, +10 Dex, +1 Dodge, -2 size)\nhp 212 (17d8+136)\nFort +13, Ref +15, Will +14\nDefensive Abilities channel resistance +4, incorporeal; Immune undead traits\nOffense\nSpeed 40 ft., fly 30 ft. (average); soulbound gallop\nMelee incorporeal touch +20 (17d6 negative energy)\nSpace 15 ft., Reach 15 ft.\nSpecial Attacks collect soul\nSpell-Like Abilities (CL 16th; concentration +24)\nAt will—ghost sound (DC 18), scare (DC 20), distracting cacophony (DC 21)\n3/day—quickened fear (DC 22), phantasmal killer (DC 22)\nStatistics\nStr —, Dex 30, Con —, Int 15, Wis 18, Cha 27\nBase Atk +12; CMB +24; CMD 43 (can’t be tripped)\nFeats Combat Reflexes, Dodge, Improved Initiative, Lightning Stance, Mobility, Quicken Spell-Like Ability (fear), Skill Focus (Intimidate), Skill Focus (Perception), Wind Stance\nSkills Fly +26, Intimidate +34, Knowledge (geography, history, local, nobility) +9, Perception +30, Sense Motive +13, Survival +21\nLanguages Abyssal, Common, Infernal (can’t speak any language)\nEcology\nEnvironment any\nOrganization solitary\nTreasure standard\nSpecial Abilities\nAura of Doom (Su) The death coach’s aura acts like an aura of doom with a radius of 30 feet. A creature that succeeds at its save is immune to that death coach’s aura for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based.\n\nCollect Soul (Su) When a death coach deals damage to a creature with its touch attack, it can immediately attempt to collect the creature’s soul, forcing the creature to attempt a DC 24 Fortitude save. Creatures under the effects of a fear effect take a -4 penalty on this save. A creature that succeeds at its save takes 3d6+16 points of damage. On a failed save, the creature takes 160 points of damage (as if affected by a CL 16 finger of death). The soul of a creature slain by this attack becomes trapped in the death coach’s interior. A trapped soul can be restored to life only by a miracle or wish. This is a death effect, and a creature that succeeds at its save is immune to that death coach’s collect soul ability for 24 hours. The save DC is Charisma-based.\n\nSoulbound Gallop (Su) When the death coach has trapped a soul with its collect soul ability, all of its movement speeds double. The doubling occurs before applying any other effects that increase its speed.\nDescription\nFearsome phantasmal carriages pulled by ghostly horses, death coaches appear without warning to collect and carry off unwilling mortal souls to the afterlife, slaying their victims first if need be.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4aa5f42a987587bf.json",
+    "web": "https://codex.pipsprojects.com/#/e/4aa5f42a987587bf"
+  },
+  "license": "OGL 1.0a"
+}

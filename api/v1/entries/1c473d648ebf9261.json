@@ -1,0 +1,30 @@
+{
+  "id": "1c473d648ebf9261",
+  "name": "Dragon Turtle Shell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dragonslayer's Handbook pg. 28",
+  "book": "Dragonslayer's Handbook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "cleric": 3,
+      "druid": 2,
+      "hunter": 2,
+      "investigator": 3,
+      "oracle": 3,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "bk": "Dragonslayer's Handbook"
+  },
+  "body": "Source Dragonslayer's Handbook pg. 28\nSchool abjuration; Level alchemist 3, arcanist 3, cleric 3, druid 2, hunter 2, investigator 3, oracle 3, sorcerer 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of turtle shell)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nWhen you are struck by an opponent’s natural attacks, the damage is resolved as if the attack came from a creature one size smaller per 5 caster levels (maximum of four size categories smaller at CL 20th). Refer to Table 3–1 in the Pathfinder RPG Bestiary to determine an attack’s altered base damage. If the creature’s natural attack deals nonstandard damage, refer instead to the Improved Natural Attack feat on page 315 of the Bestiary. It is not possible to reduce the base damage of a creature’s natural attack below 1d2 with this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1c473d648ebf9261.json",
+    "web": "https://codex.pipsprojects.com/#/e/1c473d648ebf9261"
+  },
+  "license": "OGL 1.0a"
+}

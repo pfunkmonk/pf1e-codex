@@ -1,0 +1,27 @@
+{
+  "id": "e7ebfd829d7d43a8",
+  "name": "Disrupt Undead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 273",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "sorcerer": 0,
+      "wizard": 0
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 273\nSchool necromancy; Level arcanist 0, inquisitor 0, magus 0, sorcerer 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYou direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7ebfd829d7d43a8.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7ebfd829d7d43a8"
+  },
+  "license": "OGL 1.0a"
+}

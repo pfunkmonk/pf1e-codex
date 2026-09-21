@@ -1,0 +1,27 @@
+{
+  "id": "6d56b4356a89a13d",
+  "name": "Toilsome Chant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 19",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "skald": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 19\nSchool enchantment (compulsion)[mind-affecting]; Level bard 1, skald 1 (dwarf)\nCasting\nCasting Time see text\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou can cast this spell as part of the action to begin an inspire competence bardic performance. The benefit of inspire competence persists for as long as is necessary to complete the target’s next skill check using the chosen skill (up to a maximum of 1 hour per caster level), even if you cease your bardic performance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6d56b4356a89a13d.json",
+    "web": "https://codex.pipsprojects.com/#/e/6d56b4356a89a13d"
+  },
+  "license": "OGL 1.0a"
+}

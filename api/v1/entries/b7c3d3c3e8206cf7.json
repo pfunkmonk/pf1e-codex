@@ -1,0 +1,24 @@
+{
+  "id": "b7c3d3c3e8206cf7",
+  "name": "Blood Song",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faiths and Philosophies pg. 28",
+  "book": "Faiths and Philosophies",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "skald": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Faiths and Philosophies"
+  },
+  "body": "Source Faiths and Philosophies pg. 28\nSchool evocation; Level bard 4, skald 4\nCasting\nCasting Time 2 minutes\nComponents V, S, M (the caster’s blood)\nEffect\nRange touch\nTarget creature touched; see text\nDuration 1 day or until discharged (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as imbue with spell ability, with the following exceptions: only bard spells of the conjuration (healing), enchantment, and transmutation schools can be transferred; the imbued spells last for 1 day; and the subject isn’t beholden to any principles regarding the imbued spells’ use.\n\nAs part of the casting, the caster must shed some of his blood (or an equivalent humor). If the caster isn’t susceptible to bleed damage, regardless of the reason, he can’t cast blood song. For each spell that is imbued using blood song, the caster loses 5 hit points, which can’t be regained by any means until the spell ends or is discharged.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7c3d3c3e8206cf7.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7c3d3c3e8206cf7"
+  },
+  "license": "OGL 1.0a"
+}

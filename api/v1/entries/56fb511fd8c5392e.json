@@ -1,0 +1,30 @@
+{
+  "id": "56fb511fd8c5392e",
+  "name": "Move Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 316",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 6,
+      "druid": 6,
+      "hunter": 6,
+      "sorcerer": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 316\nSchool transmutation [earth]; Level arcanist 6, druid 6, hunter 6, sorcerer 6, wizard 6\nCasting\nCasting Time see text\nComponents V, S, M (clay, loam, sand, and an iron blade)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea dirt in an area up to 750 ft. square and up to 10 ft. deep (S)\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nMove earth moves dirt (clay, loam, sand, and soil), possibly collapsing embankments, moving hillocks, shifting dunes, and so forth.\n\nIn no event can rock formations be collapsed or moved. The area to be affected determines the casting time. For every 150-foot square (up to 10 feet deep), casting takes 10 minutes. The maximum area, 750 feet by 750 feet, takes 4 hours and 10 minutes to move.\n\nThis spell does not violently break the surface of the ground. Instead, it creates wavelike crests and troughs, with the earth reacting with glacial fluidity until the desired result is achieved. Trees, structures, rock formations, and such are mostly unaffected except for changes in elevation and relative topography.\n\nThe spell cannot be used for tunneling and is generally too slow to trap or bury creatures. Its primary use is for digging or filling moats or for adjusting terrain contours before a battle.\n\nThis spell has no effect on earth creatures.\nMythic Move Earth\nSource Mythic Adventures pg. 102\nThis spell can move earth much more quickly, with each full round of casting allowing you to reshape a 25-foot-square area up to 10 feet deep. All creatures on or under the ground within that area are knocked prone and moved to the closest square outside the area being shaped. A successful Reflex save prevents a creature from being knocked prone, but it’s still moved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/56fb511fd8c5392e.json",
+    "web": "https://codex.pipsprojects.com/#/e/56fb511fd8c5392e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ea077b1e59febf7e",
+  "name": "Strong Jaw",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 247",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "hunter": 3,
+      "ranger": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 247\nSchool transmutation; Level druid 4, hunter 3, ranger 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nLaying a hand upon an allied creature’s jaw, claws, tentacles, or other natural weapons, you enhance the power of that creature’s natural attacks. Each natural attack that creature makes deals damage as if the creature were two sizes larger than it actually is. If the creature is already Gargantuan or Colossal-sized, double the amount of damage dealt by each of its natural attacks instead. This spell does not actually change the creature’s size; all of its statistics except the amount of damage dealt by its natural attacks remain unchanged.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea077b1e59febf7e.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea077b1e59febf7e"
+  },
+  "license": "OGL 1.0a"
+}

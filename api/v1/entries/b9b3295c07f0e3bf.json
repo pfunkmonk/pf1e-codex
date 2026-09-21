@@ -1,0 +1,29 @@
+{
+  "id": "b9b3295c07f0e3bf",
+  "name": "Storm of Blades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the Sands pg. 11",
+  "book": "People of the Sands",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 3,
+      "magus": 2,
+      "oracle": 3,
+      "sorcerer": 2,
+      "warpriest": 3,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "People of the Sands"
+  },
+  "body": "Source People of the Sands pg. 11\nSchool conjuration (creation); Level arcanist 2, cleric 3, magus 2, oracle 3, sorcerer 2, warpriest 3, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a sword)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou create floating swords of the type used as the material component for this spell (such as a rapier or scimitar) and magically propel them at your target. You can create one sword for every 2 caster levels that you possess, up to a maximum of five swords at 10th level. You must have line of effect between you and the target, and the target must be within the spell’s range. You make a ranged attack roll for each sword (with no penalties for range increments or using melee weapons as ranged weapons); each attack has the same threat range and critical modifier and deals the same damage as a standard sword of the type expended. Swords created by this spell disappear after striking (or missing) their targets.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9b3295c07f0e3bf.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9b3295c07f0e3bf"
+  },
+  "license": "OGL 1.0a"
+}

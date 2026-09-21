@@ -1,0 +1,36 @@
+{
+  "id": "dcdaa4c13e00b9c9",
+  "name": "Soulswitch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Familiar Folio pg. 23",
+  "book": "Familiar Folio",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "cleric": 5,
+      "druid": 5,
+      "hunter": 5,
+      "inquisitor": 5,
+      "magus": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Familiar Folio"
+  },
+  "body": "Source Familiar Folio pg. 23\nSchool necromancy; Level arcanist 5, bard 5, cleric 5, druid 5, hunter 5, inquisitor 5, magus 5, oracle 5, shaman 5, skald 5, sorcerer 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, F (two brass collars worth 50 gp each)\nEffect\nRange touch\nTargets you and your familiar\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar’s soul is placed in your body. This functions as if you possessed your familiar using magic jar; your familiar simultaneously possesses your body in the same manner. You can’t freely transfer your soul between your body and your familiar’s—if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dcdaa4c13e00b9c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/dcdaa4c13e00b9c9"
+  },
+  "license": "OGL 1.0a"
+}

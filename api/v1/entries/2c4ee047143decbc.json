@@ -1,0 +1,27 @@
+{
+  "id": "2c4ee047143decbc",
+  "name": "Blood Boil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magical Marketplace pg. 24",
+  "book": "Magical Marketplace",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 5,
+      "magus": 5,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Magical Marketplace"
+  },
+  "body": "Source Magical Marketplace pg. 24\nSchool necromancy; Level arcanist 5, magus 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of mercury)\nEffect\nRange touch\nTarget one living creature\nDuration 3 rounds\nSaving Throw Fortitude negates (see text); Spell Resistance yes\nDescription\nThe temperature of the target creature’s blood (or other similar body fluid) begins to rise over the next 3 rounds during the caster’s turn. Each round starting with the first, the target creature attempts a new saving throw at the start of the caster’s turn to resist that round’s effect. A successful save does not end the spell effect, but does prevent that round’s effect. On the round that this spell is cast, the target becomes fatigued. On the next round, as the blood temperature begins to rise, the target’s capillaries burst, dealing 1d6 points of Constitution damage to the target. On the third and final round, the target’s blood begins to boil; the spell deals 1d6 points of damage per caster level (to a maximum of 15d6), and—if the target is still alive—the target becomes exhausted rather than fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c4ee047143decbc.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c4ee047143decbc"
+  },
+  "license": "OGL 1.0a"
+}

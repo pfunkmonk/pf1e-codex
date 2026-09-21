@@ -1,0 +1,21 @@
+{
+  "id": "a59b114ab871dbcd",
+  "name": "Kravyad",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Seers of the Drowned City pg. 59",
+  "book": "Seers of the Drowned City",
+  "facets": {
+    "cr": 7,
+    "sz": "Large",
+    "t": "magical beast",
+    "al": "CE",
+    "bk": "Seers of the Drowned City"
+  },
+  "body": "Glowing motes of electricity dance over this massive ursine creature’s hairless hide.\nKravyad CR 7\nSource Seers of the Drowned City pg. 59\nXP 3,200\nCE Large magical beast\nInit +7; Senses darkvision 60 ft., low-light vision, scent; Perception +13\nAura electrocution (10 ft., DC 18)\nDefense\nAC 20, touch 12, flat-footed 17 (+3 Dex, +8 natural, –1 size)\nhp 85 (9d10+36)\nFort +10, Ref +9, Will +6\nDefensive Abilities ferocity; Immune electricty\nOffense\nSpeed 40 ft., swim 20 ft.\nMelee bite +12 (2d6+4 plus 1d6 electricity), 2 claws +12 (1d6+4 plus 1d6 electricity)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks howl of hungry lightning\nStatistics\nStr 19, Dex 16, Con 19, Int 5, Wis 12, Cha 16\nBase Atk +9; CMB +14; CMD 27 (31 vs. trip)\nFeats Combat Reflexes, Improved Initiative, Improved Iron Will, Iron Will, Power Attack\nSkills Perception +13, Swim +12\nLanguages Aquan\nEcology\nEnvironment warm swamps\nOrganization solitary, pair, or ravage (3–6)\nTreasure incidental\nSpecial Abilities\nElectrocution Aura (Su) A kravyad is surrounded by an aura of electricity that arcs out to strike all Small and larger creatures within the area of effect. Any affected creature that begins its turn within a kravyad’s electrocution aura takes 2d6 points of electricity damage unless it succeeds at a DC 18 Reflex saving throw. The save DC is Constitution-based.\n\nHowl of Hungry Lightning (Su) As a standard action once every 1d4 rounds, a kravyad can loose a thunderous howl that causes its electrocution aura to vastly expand, transforming its lightning into arcs of electricity tipped with gnashing jaws made out of energy. When the kravyad uses this ability, its electrocution aura expands to a 60-foot radius, and the electricity damage it deals increases to 6d6 points (Reflex DC 18 Reflex half). As part of the howl, the kravyad attempts a combat maneuver check. If the kravyad succeeds at the check, its target is pulled 5 feet closer to the kravyad in a straight line. For every 5 by which the kravyad’s combat maneuver exceeds a creature’s CMD, the target moves an additional 5 feet toward the krayvad. The kravyad does not move, but this effect otherwise functions as a drag combat maneuver affecting all creatures within its aura. Creatures that are immune to electricity are immune to this effect. The save DC is Constitution-based.\nDescription\nThe result of strange magics that rose in the aftermath of the rise of the Eye of Abendego, the always ravenous kravyads constantly travel in search of new prey. They are drawn to shipwrecks, flooded battlefields, and regions experiencing calamitous thunderstorms. A particularly starving kravyad will resort to eating nearly anything, and as such, a kravyad’s “treasure” typically consists of swallowed items that it failed to digest.\n\nThough intelligent and capable of brutish speech in Aquan, a kravyad is driven mainly by its excessive gluttony. Those seeking to coerce a kravyad into service must rely on either mental enslavement or shows of strength—combined with a steady supply of electrocuted corpses.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a59b114ab871dbcd.json",
+    "web": "https://codex.pipsprojects.com/#/e/a59b114ab871dbcd"
+  },
+  "license": "OGL 1.0a"
+}

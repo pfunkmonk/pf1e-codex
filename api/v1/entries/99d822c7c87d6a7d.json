@@ -1,0 +1,30 @@
+{
+  "id": "99d822c7c87d6a7d",
+  "name": "Transformation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 360",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 6,
+      "arcanist": 6,
+      "investigator": 6,
+      "magus": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 360\nSchool transmutation; Level alchemist 6, arcanist 6, investigator 6, magus 6, occultist 6, psychic 6, sorcerer 6, spiritualist 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a potion of bull's strength, which you drink and whose effects are subsumed by the spell effects)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nYou become a fighting machine—stronger, tougher, faster, and more skilled in combat. Your mindset changes so that you relish combat and you can't cast spells, even from magic items.\n\nYou gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, a +4 natural armor bonus to AC, a +5 competence bonus on Fortitude saves, and proficiency with all simple and martial weapons. Your base attack bonus equals your character level (which may give you multiple attacks).\n\nYou lose your spellcasting ability, including your ability to use spell activation or spell completion magic items, just as if the spells were no longer on your class list.\nMythic Transformation\nSource Mythic Adventures pg. 110\nYou can still cast spells and use spell completion and spell trigger items, but the level of the spell you’re casting or using must be equal to or less than your tier. You gain a number of temporary hit points equal to your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/99d822c7c87d6a7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/99d822c7c87d6a7d"
+  },
+  "license": "OGL 1.0a"
+}

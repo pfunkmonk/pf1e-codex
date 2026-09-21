@@ -1,0 +1,28 @@
+{
+  "id": "956ee77776bc33ee",
+  "name": "Produce Flame",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 326",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 326\nSchool evocation [fire]; Level druid 1, hunter 1, shaman 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 0 ft.\nEffect flame in your palm\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nFlames as bright as a torch appear in your open hand. The flames harm neither you nor your equipment.\n\nIn addition to providing illumination, the flames can be hurled or used to touch enemies. You can strike an opponent with a melee touch attack, dealing fire damage equal to 1d6 + 1 point per caster level (maximum +5). Alternatively, you can hurl the flames up to 120 feet as a thrown weapon. When doing so, you attack with a ranged touch attack (with no range penalty) and deal the same damage as with the melee attack. No sooner do you hurl the flames than a new set appears in your hand. Each attack you make reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves.\n\nThis spell does not function underwater.\nPale Flame\nSource Heroes of the Darklands pg. 15\nSchool evocation [fire]; Level druid 2, hunter 2, shaman 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (caphorite shard)\nEffect\nRange 0 ft.\nEffect flame in your palm\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance yes\nDescription\nThis spell functions as per produce flame, except that the flames never glow brighter than dim light, including any fires started by this spell. These flames cast light only half the distance of a torch and cannot be seen from more than 100 feet away. The flames deal 2d6 points of fire damage + 1 point per caster level (maximum +5). Against plants, this damage increases to 2d6 points + 2 points per caster level (maximum +10).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/956ee77776bc33ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/956ee77776bc33ee"
+  },
+  "license": "OGL 1.0a"
+}

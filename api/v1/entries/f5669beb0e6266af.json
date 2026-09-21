@@ -1,0 +1,17 @@
+{
+  "id": "f5669beb0e6266af",
+  "name": "Type",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 416",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nType\nSource PRPG Core Rulebook pg. 416\nA trap can be either mechanical or magical in nature.\n\nMechanical: Dungeons are frequently equipped with deadly mechanical (nonmagical) traps. A trap typically is defined by its location and triggering conditions, how hard it is to spot before it goes off, how much damage it deals, and whether or not the characters receive a saving throw to mitigate its effects. Traps that attack with arrows, sweeping blades, and other types of weaponry make normal attack rolls, with specific attack bonuses dictated by the trap’s design. A mechanical trap can be constructed by a PC through successful use of the Craft (traps) skill (see Designing a Trap on page 423 and the skill description on page 91).\n\nCreatures that succeed on a Perception check detect a trap before it is triggered. The DC of this check depends on the trap itself. Success generally indicates that the creature has detected the mechanism that activates the trap, such as a pressure plate, odd gears attached to a door handle, and the like. Beating this check by 5 or more also gives some indication of what the trap is designed to do.\n\nMagic: Many spells can be used to create dangerous traps. Unless the spell or item description states otherwise, assume the following to be true.\n\nA successful Perception check (DC 25 + spell level) detects a magic trap before it goes off.\nMagic traps permit a saving throw in order to avoid the effect (DC 10 + spell level × 1.5).\nMagic traps may be disarmed by a character with the trapfinding class feature with a successful Disable Device skill check (DC 25 + spell level). Other characters have no chance to disarm a magic trap with a Disable Device check.\nMagic traps are further divided into spell traps and magic device traps. Magic device traps initiate spell effects when activated, just as wands, rods, rings, and other magic items do. Creating a magic device trap requires the Craft Wondrous Item feat.\n\nSpell traps are simply spells that themselves function as traps. Creating a spell trap requires the services of a character who can cast the needed spell or spells, who is usually either the character creating the trap or an NPC spellcaster hired for that purpose.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f5669beb0e6266af.json",
+    "web": "https://codex.pipsprojects.com/#/e/f5669beb0e6266af"
+  },
+  "license": "OGL 1.0a"
+}

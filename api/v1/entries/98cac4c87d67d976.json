@@ -1,0 +1,32 @@
+{
+  "id": "98cac4c87d67d976",
+  "name": "Curse Terrain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 114",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Horror Adventures"
+  },
+  "body": "Curse Terrain, Lesser\nSource Horror Adventures pg. 114\nSchool necromancy [curse, evil]; Level arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, shaman 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 10 minutes\nComponents V, S, M (the heart of a creature that dwelled in the area and powdered onxy worth 350 gp)\nEffect\nRange touch\n300-ft. radius emanating from the touched point\nDuration 1 day (D)\nSaving Throw none; Spell Resistance no\nDescription\nBy touching the ground, you curse the land with three unnatural hazards, as the minor perilous demesne curse (see page 145). Though this makes the hazards appear frequently, their manifestations are still unpredictable—you can’t control when the hazards begin or end, nor where they appear within the cursed terrain.\n\nCurse terrain spells can be made permanent with a permanency spell. The minimum caster level and gp cost are shown on the table. The spell is still dismissable if made permanent.\n\nSpell Minimum Caster Level GP Cost\nLesser Curse Terrain 9th 2,500 gp\nCurse Terrain 11th 7,500 gp\nGreater Curse Terrain 15th 17,500 gp\nSupreme Curse Terrain 19th 27,500 gp\n\nPerillous Demesne, Minor\nType regional curse; Area 300-foot-radius emanation; Save Will DC 13 to remove\n\nEffect Up to three hazards (see the Environments section onpage 152), each of CR 3 or less, imperil creatures in the area, though never with more than one hazard at a time.If a creature places this curse, it can choose the hazards.The hazards must be appropriate to the type of terrain (atthe GM’s discretion). Any of the hazards that are rendered safe reset themselves and become dangerous again at each midnight.\nCurse Terrain\nSource Horror Adventures pg. 114\nSchool necromancy [curse, evil]; Level arcanist 4, cleric 4, druid 4, hunter 4, oracle 4, shaman 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 10 minutes\nComponents V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 700 gp)\nEffect\nRange touch\nArea 1-mile radius emanting from the touched point\nDuration 1 day (D)\nDescription\nBy touching the ground, you curse the land with four unnatural hazards. This functions as lesser curse terrain, but with the effects of the major perilous demesne curse (see page 145).\nPerilous Demesne, Major\nType regional curse; Area 1-mile-radius emanation; Save Will DC 16 to remove\n\nEffect As per minor perilous demesne (see below), except this can involve up to four hazards, each of CR 6 or less, imperil creatures in the area. If any hazards are encountered together, the encounter’s effective CR from hazards must be no more than 7 (for instance, two CR 5 hazards could be encountered together).\nCurse Terrain, Greater\nSource Horror Adventures pg. 114\nSchool necromancy [curse, evil]; Level arcanist 6, cleric 6, druid 6, hunter 6, oracle 6, shaman 6, sorcerer 6, warpriest 6, witch 6, wizard 6\nCasting\nCasting Time 10 minutes\nComponents V, S, M (the heart of the creature that dwelled in the area and powdered onyx worth 1,500 gp)\nEffect\nRange touch\nArea 5-mile radius emanating from the touched point\nDuration 1 day (D)\nDescription\nBy touching the ground, you curse the land with six unnatural hazards. This functions as lesser curse terrain, but with the effects of the greater perilous demesne curse (see page 145).\nPerilous Demesne, Greater\nType regional curse; Area 6-mile-radius emanation; Save Will DC 19 to remove\n\nEffect As per major perilous demesne (see below), except up to six hazards, each of CR 10 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter’s effective CR from hazards must be no more than 11 (for instance, two CR 9 hazards could be encountered together).\n\nCure Remove curse removes a greater perilous demesne only if followed by a casting of hallow at the effect’s center.\nCurse Terrain, Supreme\nSource Horror Adventures pg. 115\nSchool necromancy [curse, evil]; Level arcanist 8, cleric 8, druid 8, oracle 8, shaman 8, sorcerer 8, witch 8, wizard 8\nCasting\nCasting Time 10 minutes\nComponents V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 4,000 gp)\nEffect\nRange touch\nArea 5-mile radius emanating from the touched point\nDuration 1 day (D)\nDescription\nBy touching the ground, you curse the land with seven unnatural hazards. This functions as lesser curse terrain, but with the effects of the grand perilous demesne curse (see page 144).\nPerilous Demesne, Grand\nType regional curse; Area 18-mile-radius emanation; Save Will DC 22 to remove\n\nEffect As per major perilous demesne (see page 145), except up to seven hazards, each of CR 14 or less, imperil creatures in the area. The hazards are arranged so that if any are encountered together, the encounter’s effective CR from hazards must be no more than 15 (for instance, two CR 13 hazards could be encountered together).\n\nCure Remove curse removes a grand perilous demesne only if followed by a casting of hallow at the effect’s center, and then casting disintegrate on each of the hazards before the next nightfall or midnight.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98cac4c87d67d976.json",
+    "web": "https://codex.pipsprojects.com/#/e/98cac4c87d67d976"
+  },
+  "license": "OGL 1.0a"
+}

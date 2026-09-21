@@ -1,0 +1,24 @@
+{
+  "id": "fd66ce66edb61ad2",
+  "name": "Wandering Trail",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Intrigue pg. 63",
+  "book": "Inner Sea Intrigue",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 6,
+      "hunter": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Intrigue"
+  },
+  "body": "Source Inner Sea Intrigue pg. 63\nSchool transmutation; Level druid 6, hunter 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 1 mile/level\nTarget up to one creature/level within 180 feet\nDuration 1 day/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou cause the trail left by the targets within range to automatically reroute, potentially taking any course within the area. Your modification of the trail within the spell’s area can result in a trail at least half the original length or up to twice the original length. If the trail continues beyond the spell’s range, you must leave it connecting at that point on the edge of the spell’s range. If a tracking creature exceeds the DC of the skill check to follow the trail by an amount equal to your caster level, the tracker recognizes that the trail has been manipulated by this spell, although it cannot see the trail’s true nature unless it uses magical means, such as true seeing.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fd66ce66edb61ad2.json",
+    "web": "https://codex.pipsprojects.com/#/e/fd66ce66edb61ad2"
+  },
+  "license": "OGL 1.0a"
+}

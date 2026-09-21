@@ -1,0 +1,25 @@
+{
+  "id": "8583b52333b63a86",
+  "name": "Dweomer Retaliation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Cheliax, Empire of Devils pg. 22",
+  "book": "Cheliax",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Cheliax"
+  },
+  "body": "Source Cheliax, Empire of Devils pg. 22\nSchool abjuration; Level arcanist 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 immediate action\nComponents V\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature you counterspelled since your last turn\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYou may only cast this spell immediately after successfully counterspelling an opponent. Drawing upon the residual energy of the countered spells, you gain a number of temporary hit points equal to the level of the countered spell plus your Charisma or Intelligence modifier (for sorcerers and wizards, respectively); your counterspelled opponent takes damage equal to this amount.\n\nIf the countered spell was at least 4th level, you and your opponent make opposed concentration checks. If you beat your opponent by 10 or more, you retain this spell (or its spell slot, if you are a sorcerer) as if you had not cast it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8583b52333b63a86.json",
+    "web": "https://codex.pipsprojects.com/#/e/8583b52333b63a86"
+  },
+  "license": "OGL 1.0a"
+}

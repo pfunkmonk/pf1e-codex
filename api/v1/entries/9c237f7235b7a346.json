@@ -1,0 +1,30 @@
+{
+  "id": "9c237f7235b7a346",
+  "name": "Winged Sword",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 10",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "inquisitor": 3,
+      "magus": 2,
+      "occultist": 2,
+      "paladin": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 10\nSchool transmutation; Level arcanist 2, bloodrager 2, inquisitor 3, magus 2, occultist 2, paladin 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one melee weapon\nDuration 10 minutes/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThe weapon targeted by this spell grows small feathered wings. For the duration of the spell, the weapon acts as if it had the throwing weapon special ability. This spell can be used in place of magic stone as a prerequisite for the throwing weapon special ability.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9c237f7235b7a346.json",
+    "web": "https://codex.pipsprojects.com/#/e/9c237f7235b7a346"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "132ae9c574da8e0c",
+  "name": "Gravity Bow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 226",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "hunter": 1,
+      "occultist": 1,
+      "ranger": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 226\nSchool transmutation; Level arcanist 1, hunter 1, occultist 1, ranger 1, redmantisassassin 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nDescription\nGravity bow significantly increases the weight and density of arrows or bolts fired from your bow or crossbow the instant before they strike their target and then return them to normal a few moments later. Any arrow fired from a bow or crossbow you are carrying when the spell is cast deals damage as if one size larger than it actually is. For instance, an arrow fired from a Medium longbow normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if fired from a gravity bow. Only you can benefit from this spell. If anyone else uses your bow to make an attack the arrows deal damage as normal for their size.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/132ae9c574da8e0c.json",
+    "web": "https://codex.pipsprojects.com/#/e/132ae9c574da8e0c"
+  },
+  "license": "OGL 1.0a"
+}

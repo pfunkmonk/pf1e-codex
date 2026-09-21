@@ -1,0 +1,132 @@
+{
+  "id": "90653476cfc55cc5",
+  "name": "Bonus Type",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Magic pg. 134",
+  "book": "Ultimate Magic",
+  "facets": {
+    "bk": "Ultimate Magic"
+  },
+  "body": "Rules Index | GM Screen\nMastering Magic / Designing Spells\n\nBonus Type\nSource Ultimate Magic pg. 134\nThere are many types of bonuses in the game. It’s tempting to look at that list of bonuses, find “holes” in the spell list that don’t have spells for certain bonus types, and create a new spell that adds one of those unused bonus types to your favorite statistic or roll. Resist this temptation. Not all bonus types are equal within the game, and many bonus types are only meant for certain things. See Table 2–7: Bonus Types and Effects.\n\nA dash entry (—) in the table indicates there are no common examples of items or spells that grant that kind of bonus. If you’re designing an item or spell and want to include a certain type of bonus to a particular ability or statistic, check Table 2–7 first; if the bonus type doesn’t say it can affect that ability or statistic, use one that does instead. One reason for this table is that some bonuses are better than others (deflection bonuses work against incorporeal creatures and when you are flat-footed, natural armor bonuses do not). A second reason is that allowing any kind of bonus on any roll or statistic makes it really easy to stack many small bonuses more cheaply than a larger bonus, which makes powerful magic items like a ring of protection +5 much less interesting. A third reason is that some of these combinations just don’t make sense, like a deflection bonus to Strength or a shield bonus on Knowledge checks.\nTable 2-7: Bonus Types and Effects\nBonus Type Can Affect Sample Item Sample Spell\nAlchemical Ability scores, saves Antitoxin -\nArmor AC Bracers of armor Mage armor\nCircumstance Attacks, checks Robe of blending -\nCompetence Attacks, checks, saves Boots of elvenkind Guidance\nDeflection AC Ring of protection -\nDodge AC Never* Never*\nEnhancement Ability scores, AC, attacks, damage, speed Belt of giant strength Magic weapon\nInherent Ability scores Manual of bodily health Wish\nInsight AC, attacks, checks, saves Dusty rose prism ioun stone True strike\nLuck AC, attacks, checks, damage, saves Stone of good luck Divine favor\nMorale Attacks, checks, damage, saves, Str, Con, Dex Candle of invocation Bless\nNatural armor AC Amulet of natural armor Barkskin\nProfane AC, checks, damage, DCs, saves - Desecrate\nResistance Saves Cloak of resistance Mind blank\nSacred AC, checks, damage, DCs, saves - Consecrate\nShield AC Ring of force shield Shield\nSize Ability scores, attacks, AC - Enlarge person\n* Spells and magic items should never grant dodge bonuses because dodge bonuses always stack, and it would be a simple matter achieving that AC using the armor, deflection, enhancement, and natural armor bonuses in the game.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Bonus Type",
+          "Can Affect",
+          "Sample Item",
+          "Sample Spell"
+        ],
+        [
+          "Alchemical",
+          "Ability scores, saves",
+          "Antitoxin",
+          "-"
+        ],
+        [
+          "Armor",
+          "AC",
+          "Bracers of armor",
+          "Mage armor"
+        ],
+        [
+          "Circumstance",
+          "Attacks, checks",
+          "Robe of blending",
+          "-"
+        ],
+        [
+          "Competence",
+          "Attacks, checks, saves",
+          "Boots of elvenkind",
+          "Guidance"
+        ],
+        [
+          "Deflection",
+          "AC",
+          "Ring of protection",
+          "-"
+        ],
+        [
+          "Dodge",
+          "AC",
+          "Never*",
+          "Never*"
+        ],
+        [
+          "Enhancement",
+          "Ability scores, AC, attacks, damage, speed",
+          "Belt of giant strength",
+          "Magic weapon"
+        ],
+        [
+          "Inherent",
+          "Ability scores",
+          "Manual of bodily health",
+          "Wish"
+        ],
+        [
+          "Insight",
+          "AC, attacks, checks, saves",
+          "Dusty rose prism ioun stone",
+          "True strike"
+        ],
+        [
+          "Luck",
+          "AC, attacks, checks, damage, saves",
+          "Stone of good luck",
+          "Divine favor"
+        ],
+        [
+          "Morale",
+          "Attacks, checks, damage, saves, Str, Con, Dex",
+          "Candle of invocation",
+          "Bless"
+        ],
+        [
+          "Natural armor",
+          "AC",
+          "Amulet of natural armor",
+          "Barkskin"
+        ],
+        [
+          "Profane",
+          "AC, checks, damage, DCs, saves",
+          "-",
+          "Desecrate"
+        ],
+        [
+          "Resistance",
+          "Saves",
+          "Cloak of resistance",
+          "Mind blank"
+        ],
+        [
+          "Sacred",
+          "AC, checks, damage, DCs, saves",
+          "-",
+          "Consecrate"
+        ],
+        [
+          "Shield",
+          "AC",
+          "Ring of force shield",
+          "Shield"
+        ],
+        [
+          "Size",
+          "Ability scores, attacks, AC",
+          "-",
+          "Enlarge person"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/90653476cfc55cc5.json",
+    "web": "https://codex.pipsprojects.com/#/e/90653476cfc55cc5"
+  },
+  "license": "OGL 1.0a"
+}

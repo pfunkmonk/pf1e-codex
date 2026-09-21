@@ -1,0 +1,24 @@
+{
+  "id": "c0f2ec6bc62dd648",
+  "name": "Litany of Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 235",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "antipaladin": 3,
+      "inquisitor": 4,
+      "paladin": 3
+    },
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 235\nSchool divination; Level antipaladin 3, inquisitor 4, paladin 3\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 round\nSaving Throw no; Spell Resistance yes\nDescription\nThis litany reveals the unseen to you. You can see invisible creatures and objects within 30 feet.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0f2ec6bc62dd648.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0f2ec6bc62dd648"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "66a63c51da7796d1",
+  "name": "Ectoplasmic Eruption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 168",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 7,
+      "spiritualist": 6
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 168\nSchool evocation; Level psychic 7, spiritualist 6\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 30-ft.-radius burst\nDuration 1 round/level\nSaving Throw Reflex half and Will partial, see text; Spell Resistance yes\nDescription\nA cascading avalanche of pale, swirling ectoplasmic matter erupts from a point you select. All creatures in the area when the spell is cast take 6d6 points of bludgeoning damage and are entangled for a number of rounds equal to your caster level. This spell passes between planes, so it affects ethereal and incorporeal creatures normally.\n\nIn addition, each ethereal or incorporeal creature in the area must succeed at a Will save or be pushed partially onto the Material Plane for a number of rounds equal to your caster level. It must attempt this Will save regardless of whether it succeeded at the Reflex save. An incorporeal creature pushed partially onto the Material Plane can’t enter or pass through solid objects, takes half damage from nonmagical attack forms, and takes full damage from magic weapons, spells, spell-like effects, and supernatural effects. Corporeal spells and effects that don’t cause damage affect the creature normally instead of having a 50% chance of affecting it. The creature still gains the other benefits of being incorporeal, and retains its attack bonuses and Armor Class.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/66a63c51da7796d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/66a63c51da7796d1"
+  },
+  "license": "OGL 1.0a"
+}

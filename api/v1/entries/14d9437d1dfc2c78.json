@@ -1,0 +1,32 @@
+{
+  "id": "14d9437d1dfc2c78",
+  "name": "Stinking Cloud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 349",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "magus": 3,
+      "shaman": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 349\nSchool conjuration (creation) [poison]; Level arcanist 3, bloodrager 3, magus 3, shaman 3, sorcerer 3, summoner (unchained) 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a rotten egg or cabbage leaves)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect cloud spreads in 20-ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw Fortitude negates; see text; Spell Resistance no\nDescription\nStinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are nauseating. Living creatures in the cloud become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each nauseated character.) Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. This is a poison effect.\n\nStinking cloud can be made permanent with a permanency spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes.\nMythic Stinking Cloud\nSource Mythic Adventures pg. 109\nCreatures that succeed at their saves are sickened while they remain in the cloud and for 1d4+1 rounds after they leave. Creatures that fail their saves continue to be sickened for 1 hour after leaving the cloud.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14d9437d1dfc2c78.json",
+    "web": "https://codex.pipsprojects.com/#/e/14d9437d1dfc2c78"
+  },
+  "license": "OGL 1.0a"
+}

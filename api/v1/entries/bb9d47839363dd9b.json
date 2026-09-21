@@ -1,0 +1,44 @@
+{
+  "id": "bb9d47839363dd9b",
+  "name": "Dueling Counter",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Combat pg. 151",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Rules Index | GM Screen\nMastering Combat / Duels\n\nDueling Counter\nSource Ultimate Combat pg. 151\nEach participant in a duel can take a special action called a dueling counter. A dueling counter is similar to a counterspell, but is easier to use.\n\nWhen a dueling opponent tries to cast a spell, the targeted spellcaster can make a Spellcraft check (DC 15 + the spell’s level) as a free action. If the check succeeds, she can identify her opponent’s spell and can attempt a dueling counter. If it fails, she cannot attempt a dueling counter against that spell (although special actions are still available to her).\n\nA dueling counter is an immediate action that does not provoke attacks of opportunity. To attempt a dueling counter, the countering duelist must expend a spell or spell slot of a level equal to or higher than that of the spell being cast. Note that characters who cast spells spontaneously (such as bards, oracles, and sorcerers) must choose which exact spell they are using to counterspell in addition to the slot being used. The countering duelist must then make a caster level check against a DC of 15 + the spell’s caster level. Unlike when using a true counterspell action (which requires a readied action), even expending an exact copy of the spell being cast does not guarantee success. The caster attempting the counterspell receives a bonus or penalty on her check depending upon the level of the spell slot being expended and the exact spell used, as noted in Table 3–10. If the check is successful, the spell is countered—it is negated and the spell is lost. If not, the spell takes effect as normal and the duelist attempting to counter the spell takes a –2 penalty on any saving throws made against the spell’s effect.\n\nAlternatively, a spellcaster can use dispel magic or greater dispel magic as a dueling counter. When a duelist spellcaster does so, he does not need to identify the spell being cast, can counter a spell of any level, and must succeed at a caster level check against a DC of 11 + the spell’s caster level. When dispel magic is used as a dueling counter, it is not modified by any of the circumstances in Table 3–10.\n\nBecause readying a counterspell is its own action, a dueling spellcaster can prepare to counterspell and make a dueling counter in the same round. This is only useful if the participant is facing multiple opponents, or someone with access to the Quicken Spell feat or other abilities that allow casting two spells in the same round.\nCircumstance Modifier\nSpell is of a different school -2\nSpell is of the same school, but not the same spell +2\nSpell is of a higher level than the spell being countered +1/level above\nSpell is the same as the spell being countered +10",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Circumstance",
+          "Modifier"
+        ],
+        [
+          "Spell is of a different school",
+          "-2"
+        ],
+        [
+          "Spell is of the same school, but not the same spell",
+          "+2"
+        ],
+        [
+          "Spell is of a higher level than the spell being countered",
+          "+1/level above"
+        ],
+        [
+          "Spell is the same as the spell being countered",
+          "+10"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb9d47839363dd9b.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb9d47839363dd9b"
+  },
+  "license": "OGL 1.0a"
+}

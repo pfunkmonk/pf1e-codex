@@ -1,0 +1,28 @@
+{
+  "id": "330e3a446f88adcc",
+  "name": "Blood Crow Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 208",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 208\nSchool evocation [fire]; Level cleric 4, oracle 4, warpriest 4\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYour unarmed strikes release blasts of energy in the form of bolts of fire or glowing red crows, which fly instantaneously to strike your target. You can make unarmed strike or flurry of blows attacks against the target as if it were in your threatened area; each successful attack deals damage as if you had hit it with your unarmed strike, except half the damage is fire and half is negative energy (this negative energy does not heal undead). For example, if you are a 14th-level monk, you can use a flurry of blows to attack five times, creating one energy crow for each successful attack against the target, and dealing 2d6 points of damage (plus appropriate unarmed strike modifiers) with each crow.\nMythic Blood Crow Strike\nSource Mythic Adventures pg. 87\nUnarmed strikes attempted with this spell are treated as if you had the Improved Critical (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/330e3a446f88adcc.json",
+    "web": "https://codex.pipsprojects.com/#/e/330e3a446f88adcc"
+  },
+  "license": "OGL 1.0a"
+}

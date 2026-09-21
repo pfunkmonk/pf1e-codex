@@ -1,0 +1,25 @@
+{
+  "id": "2fcc7d25b8aa40b5",
+  "name": "Life Channel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 101",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 101\nSchool transmutation; Level cleric 2, oracle 2, warpriest 2 (dhampir)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one touched creature with negative energy affinity\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nWhen cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points. When subject to an effect that heals hit points only to living creatures (such as cure light wounds or channel positive energy), the target gains a number of temporary hit points equal to half the number of hit points that the positive energy would normally heal. These temporary hit points go away at the end of this spell’s duration.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2fcc7d25b8aa40b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/2fcc7d25b8aa40b5"
+  },
+  "license": "OGL 1.0a"
+}

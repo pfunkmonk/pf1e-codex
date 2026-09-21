@@ -1,0 +1,21 @@
+{
+  "id": "58c3042fdeec68ae",
+  "name": "Crypt Thing",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 2 pg. 60",
+  "book": "Bestiary 2",
+  "facets": {
+    "cr": 5,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Bestiary 2"
+  },
+  "body": "Shreds of leathery flesh cling to this skeletal figure’s body, while twin motes of fiery light glow deep in its eye sockets.\nCrypt Thing CR 5\nSource Bestiary 2 pg. 60\nXP 1,600\nNE Medium undead\nInit +6; Senses darkvision 60 ft., low-light vision; Perception +15\nAura fear (10 ft., frightened for 1d4 rounds, Will DC 16 negates)\nDefense\nAC 19, touch 13, flat-footed 16 (+2 Dex, +1 dodge, +6 natural)\nhp 52 (8d8+16)\nFort +4, Ref +6, Will +8\nDefensive Abilities channel resistance +2; DR 10/bludgeoning or magic; Immune undead traits\nOffense\nSpeed 30 ft.\nMelee 2 claws +10 (1d8+4)\nSpecial Attacks teleporting burst\nSpell-Like Abilities (CL 8th; concentration +10)\n3/day—quickened dimension door\nStatistics\nStr 19, Dex 14, Con —, Int 13, Wis 14, Cha 15\nBase Atk +6; CMB +10; CMD 23\nFeats Alertness, Dodge, Improved Initiative, Lightning Reflexes\nSkills Bluff +6, Intimidate +13, Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Knowledge (history) +3, Perception +15, Sense Motive +15, Stealth +9\nLanguages Common\nEcology\nEnvironment any underground\nOrganization solitary\nTreasure standard\nSpecial Abilities\nTeleporting Burst (Su) Once per day, a crypt thing can teleport all creatures within 50 feet of it to randomly determined locations. The crypt thing can only affect creatures of which it is aware and to which it has line of sight. A successful DC 16 Will save negates this effect. An affected creature is teleported in a random direction (roll 1d8, with 1 indicating north and the other numbers indicating compass going clockwise) and a random distance (1d10 × 100 feet) away from the crypt thing; determine each creature’s direction randomly. A teleported creature arrives in the closest open space to the determined destination, but must appear on a solid surface capable of supporting its weight. If there is no appropriate destination in that direction, the creature does not teleport at all. The save DC is Charisma-based.\nDescription\nCrypt things are undead creatures found guarding tombs, graves, and crypts. Necromancers and other spellcasters create them to guard such areas, and the crypt things never leave their appointed lairs, even to pursue enemies. Their warded area may be a single room or passage, an entire grave complex, or even a city-sized necropolis. Though naturally solitary, multiple crypt things may guard a common area, often in conjunction with constructs or other undead.\n\nA crypt thing only initiates combat if it is attacked or if the object or crypt it is guarding is touched or entered. Until this condition is met, a crypt thing is content to remain motionless—it may even answer questions or otherwise interact with visitors if its master has directed it to do so. Rumors exist of variant crypt things that do not teleport their foes, but instead paralyze opponents and turn them invisible, leaving victims to helplessly watch their allies being torn apart by the angry guardian.\nCreation\nA 15th-level spellcaster can create a crypt thing using create undead. The spell also requires the creator or an assistant to be able to cast teleport, greater teleport, or word of recall (or provide this magic from a scroll or other source).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58c3042fdeec68ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/58c3042fdeec68ae"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "a8f66898a1991844",
+  "name": "Locate Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 305",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "cleric": 3,
+      "inquisitor": 3,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "oracle": 3,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 305\nSchool divination; Level arcanist 2, bard 2, cleric 3, inquisitor 3, medium 2, mesmerist 2, occultist 2, oracle 3, psychic 2, skald 2, sorcerer 2, spiritualist 3, warpriest 3, witch 3, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, F/DF (a forked twig)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea circle, centered on you, with a radius of 400 ft. + 40 ft./level\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\nDescription\nYou sense the direction of a well-known or clearly visualized object. You can search for general items, in which case you locate the nearest of its kind if more than one is within range. Attempting to find a certain item requires a specific and accurate mental image; if the image is not close enough to the actual object, the spell fails. You cannot specify a unique item unless you have observed that particular item firsthand (not through divination).\n\nThe spell is blocked by even a thin sheet of lead. Creatures cannot be found by this spell. Polymorph any object and nondetection fool it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8f66898a1991844.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8f66898a1991844"
+  },
+  "license": "OGL 1.0a"
+}

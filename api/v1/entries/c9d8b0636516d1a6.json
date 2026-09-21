@@ -1,0 +1,31 @@
+{
+  "id": "c9d8b0636516d1a6",
+  "name": "Overwhelming Presence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "",
+  "book": "",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 9,
+      "bard": 6,
+      "cleric": 9,
+      "inquisitor": 6,
+      "mesmerist": 6,
+      "oracle": 9,
+      "psychic": 9,
+      "skald": 6,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "Will",
+    "sr": "yes"
+  },
+  "body": "ErrataSource Ultimate Magic pg. 230\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 9, bard 6, cleric 9, inquisitor 6, mesmerist 6, oracle 9, psychic 9, skald 6, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a swan feather)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates, see text; Spell Resistance yes\nDescription\nYour presence inspires incredible awe in those nearby. A creature that fails a save against this spell falls to the ground and prostrates itself before you, believing it bows before a divine presence. A flying creature incapable of hovering must land immediately in order to prostrate itself. These creatures are considered to be helpless for the duration of the spell. Each round on its turn, a target of this spell may attempt a new saving throw to end the effect; this is a full-round action that does not provoke attacks of opportunity. A creature that recovers from this spell early after being affected by it for at least 1 round takes 1d6 points of Wisdom drain and is staggered for 1d4 rounds. A creature that makes the initial save to resist this spell is merely staggered for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9d8b0636516d1a6.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9d8b0636516d1a6"
+  },
+  "license": "OGL 1.0a"
+}

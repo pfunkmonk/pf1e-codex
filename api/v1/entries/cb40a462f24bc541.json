@@ -1,0 +1,37 @@
+{
+  "id": "cb40a462f24bc541",
+  "name": "Night Blindness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 19, Dark Markets - A Guide to Katapesh pg. 57",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "cleric": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 2,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 19, Dark Markets - A Guide to Katapesh pg. 57\nSchool necromancy [curse]; Level antipaladin 1, arcanist 1, bard 1, bloodrager 1, cleric 2, oracle 2, sahirafiyun 1, shaman 2, skald 1, sorcerer 1, warpriest 2, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 day/level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYour target’s vision becomes impaired as if the light level were one step lower, treating bright light as normal light, normal light as dim light, and dim light as darkness. In addition, the subject gains no benefit from darkvision, low-light vision, or the see in darkness ability. The subject gains a +4 bonus on saving throws to resist the blind or dazzled condition caused by bright light (such as flare). Remove blindness/deafness dispels night blindness.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb40a462f24bc541.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb40a462f24bc541"
+  },
+  "license": "OGL 1.0a"
+}

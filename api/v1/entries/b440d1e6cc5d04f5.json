@@ -1,0 +1,21 @@
+{
+  "id": "b440d1e6cc5d04f5",
+  "name": "Disenchanter",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 3 pg. 81, Misfit Monsters Redeemed pg. 27",
+  "book": "Bestiary 3",
+  "facets": {
+    "cr": 3,
+    "sz": "Large",
+    "t": "magical beast",
+    "al": "N",
+    "bk": "Bestiary 3"
+  },
+  "body": "This blue-furred creature sports a short trunk and a camel-like body. The air around it seems to shimmer with magical energy.\nDisenchanter CR 3\nSource Bestiary 3 pg. 81, Misfit Monsters Redeemed pg. 27\nXP 800\nN Large magical beast\nInit +3; Senses darkvision 60 ft., detect magic, low-light vision; Perception +9\nDefense\nAC 15, touch 12, flat-footed 12 (+3 Dex, +3 natural, –1 size)\nhp 30 (4d10+8)\nFort +6, Ref +7, Will +4\nDR 5/magic\nWeaknesses vulnerable to dispel magic\nOffense\nSpeed 50 ft.\nMelee trunk +7 touch (disenchant), 2 hooves +2 (1d6+2)\nSpace 10 ft., Reach 5 ft. (10 ft. with trunk)\nSpecial Attacks power spray\nSpell-Like Abilities (CL 4th; concentration +3)\nConstant—detect magic\n3/day—magic weapon\n1/day—dimension door\nStatistics\nStr 19, Dex 17, Con 14, Int 5, Wis 12, Cha 8\nBase Atk +4; CMB +9; CMD 22 (26 vs. trip)\nFeats Iron Will, Skill Focus (Perception)\nSkills Escape Artist +5, Perception +9\nLanguages none\nEcology\nEnvironment warm land\nOrganization solitary, pair, or family (2 adults and 1–2 calves with the young creature template)\nTreasure none\nSpecial Abilities\nDisenchant (Ex) A disenchanter can use its trunk to make a melee touch attack against a target’s worn, held, or carried magic item in an attempt to drink the item’s magic. The disenchanter makes a caster level check (+4) opposed by the target’s Fortitude save. If the check succeeds, the disenchanter drains the item’s magic, rendering it nonmagical. To determine which of a target’s magic items is affected, use Table 9–2 on page 216 of the Core Rulebook (though a disenchanter never uses this ability on a headband or similar head-slot item unless it has first tried to wear the item). Disenchanters may instead target specific visible items, in which case they generally target the most obvious items. Artifacts are immune to this ability. Disenchant only works against objects that a disenchanter can touch, and even a thin layer of cloth effectively protects items from it.\n\nPower Spray (Su) Once per day, a disenchanter can release a 20-foot cone-shaped burst of raw magical energy through its trunk. Creatures in the cone take 4d6 points of damage (DC 14 Reflex save for half). Creatures immune to magic effects that allow spell resistance (such as golems) are immune to this ability. The save DC is Constitution-based.\n\nVulnerable to Dispel Magic (Ex) A disenchanter targeted by dispel magic takes 1d6 points of damage per caster level (maximum 10d6, Fortitude save for half). Greater dispel magic functions similarly (maximum 20d6 damage, Fortitude save for half).\nDescription\nA disenchanter is a blue-furred creature that resembles a single-humped camel with a prehensile trunk. The creatures can sense magic, which they consume for sustenance, draining the power of magic items and storing their magical energy in their humps. Disenchanters are social creatures, and often seek the companionship of other intelligent beings, making excellent mounts and trackers for treasure hunters. A typical disenchanter is 8 feet long and weighs 1,600 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b440d1e6cc5d04f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/b440d1e6cc5d04f5"
+  },
+  "license": "OGL 1.0a"
+}

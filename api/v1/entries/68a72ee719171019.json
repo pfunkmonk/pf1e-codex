@@ -1,0 +1,38 @@
+{
+  "id": "68a72ee719171019",
+  "name": "Tears to Wine",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 22",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 2,
+      "bard": 1,
+      "cleric": 2,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "medium": 1,
+      "occultist": 1,
+      "oracle": 2,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 22\nSchool transmutation; Level alchemist 1, arcanist 2, bard 1, cleric 2, druid 1, hunter 1, investigator 1, medium 1, occultist 1, oracle 2, shaman 1, skald 1, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a single grape)\nEffect\nRange 10 ft.\nTarget 1 cu. ft./2 levels of liquid (see text)\nDuration 10 minutes/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nLegend claims runelords used this spell to literally benefit from drinking the tears of their captured foes. This spell turns nonmagic liquids—including spoiled, rotten, diseased, poisonous, or otherwise contaminated drinks, tears, seawater, and similar fluids—into mead or wine of average quality. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar liquids of significance are spoiled by tears to wine, but the spell has no effect on creatures of any type or on magic potions.\n\nCreatures that drink the mead or wine created by this spell become sharp-witted and clear-minded, gaining a +2 enhancement bonus on all Intelligence- and Wisdom-based skill checks. This increases to a +5 bonus at caster level 9th, and to +10 (the maximum) at caster level 15th.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68a72ee719171019.json",
+    "web": "https://codex.pipsprojects.com/#/e/68a72ee719171019"
+  },
+  "license": "OGL 1.0a"
+}

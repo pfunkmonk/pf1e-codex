@@ -1,0 +1,24 @@
+{
+  "id": "5256170733591f53",
+  "name": "Veil of Positive Energy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 254",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "paladin": 1
+    },
+    "desc": [
+      "good"
+    ],
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 254\nSchool abjuration [good]; Level paladin 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal or 5 ft.; see text\nTarget you or all creatures within 5 ft.; see text\nDuration 10 minutes/level (D)\nDescription\nYou surround yourself with a veil of positive energy, making it harder for undead creatures to harm you. When under the effect of this spell, you gain a +2 sacred bonus to AC and a +2 sacred bonus on saves. Both of these bonuses apply only against attacks or effects created by undead creatures. You can dismiss this spell before its normal duration as a swift action on your turn to deal a number of points of positive energy damage equal to your level to all undead creatures within 5 feet of you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5256170733591f53.json",
+    "web": "https://codex.pipsprojects.com/#/e/5256170733591f53"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ec36f33e59299d17",
+  "name": "Summon Eidolon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 248",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "summoner": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 248\nSchool conjuration (summoning); Level summoner 2, summoner (unchained) 2\nCasting\nCasting Time 1 round\nComponents V, S, M (a silver coin)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one eidolon\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your eidolon normally, except that it only remains with you for the duration of this spell. While summoned in this way, your eidolon cannot touch any creature warded by protection from evil or a similar effect and your eidolon can be sent back to its home plane by dispel magic.\n\nIf you cast this spell while your eidolon is already on your plane, this spell has no effect. This spell allows you to summon your eidolon even if it has been returned to its home plane due to damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ec36f33e59299d17.json",
+    "web": "https://codex.pipsprojects.com/#/e/ec36f33e59299d17"
+  },
+  "license": "OGL 1.0a"
+}

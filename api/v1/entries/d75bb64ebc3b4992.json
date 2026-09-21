@@ -1,0 +1,24 @@
+{
+  "id": "d75bb64ebc3b4992",
+  "name": "Bouncing Bomb Admixture",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Tactics Toolbox pg. 10",
+  "book": "Magic Tactics Toolbox",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "investigator": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Magic Tactics Toolbox"
+  },
+  "body": "Source Magic Tactics Toolbox pg. 10\nSchool transmutation; Level alchemist 3, investigator 3\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nUpon drinking an extract created with this formula, you make a significant change to your magical reserve that modifies the nature of the next bomb you create and throw during this extract’s duration. This effect on your magical reserve has no effect on any discoveries that you use to modify your bombs, but you can only have one admixture effect (a formula with “bomb admixture” in its title) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the new one becomes active.\n\nWhen you throw your next bomb, choose one target that would normally be hit by the bomb’s splash damage. The target is affected as if it suffered a direct hit from the bomb instead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d75bb64ebc3b4992.json",
+    "web": "https://codex.pipsprojects.com/#/e/d75bb64ebc3b4992"
+  },
+  "license": "OGL 1.0a"
+}

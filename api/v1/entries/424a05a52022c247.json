@@ -1,0 +1,31 @@
+{
+  "id": "424a05a52022c247",
+  "name": "Cloudkill",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 256",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 5,
+      "magus": 5,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 256\nSchool conjuration (creation) [poison]; Level arcanist 5, magus 5, sorcerer 5, spiritualist 5, summoner (unchained) 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect cloud spreads in 20-ft. radius, 20 ft. high\nDuration 1 min./level\nSaving Throw Fortitude partial; see text; Spell Resistance no\nDescription\nThis spell generates a bank of fog, similar to a fog cloud, except that its vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3 or fewer HD (no save). A living creature with 4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it takes 1d4 points of Constitution damage on your turn each round while in the cloud).\n\nA living creature with 6 or more HD takes 1d4 points of Constitution damage on your turn each round while in the cloud (a successful Fortitude save halves this damage). Holding one's breath doesn't help, but creatures immune to poison are unaffected by the spell.\n\nUnlike a fog cloud, the cloudkill moves away from you at 10 feet per round, rolling along the surface of the ground.\n\nFigure out the cloud's new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where you cast the spell.\n\nBecause the vapors are heavier than air, they sink to the lowest level of the land, even pouring down den or sinkhole openings. It cannot penetrate liquids, nor can it be cast underwater.\nMythic Cloudkill\nSource Mythic Adventures pg. 88\nAs a move action, you can move the cloud 10 feet in any direction. Add your tier to the spell’s level and Hit Dice categories to determine its effect on creatures. (For example, at 3rd tier a creature with 6 or fewer HD gets no save, one with 7–9 HD must save or die, and one with 10 or more HD must save or take 1d4 points of Con damage.)\n\nAugmented (6th): If you expend two uses of mythic power, the spell bypasses the poison immunity of living creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/424a05a52022c247.json",
+    "web": "https://codex.pipsprojects.com/#/e/424a05a52022c247"
+  },
+  "license": "OGL 1.0a"
+}

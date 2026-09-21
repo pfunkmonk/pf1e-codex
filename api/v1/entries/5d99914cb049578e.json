@@ -1,0 +1,76 @@
+{
+  "id": "5d99914cb049578e",
+  "name": "Concentration",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 206",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\nMagic / Casting Spells\n\nConcentration\nSource PRPG Core Rulebook pg. 206\nTo cast a spell, you must concentrate. If something interrupts your concentration while you’re casting, you must make a concentration check or lose the spell. When you make a concentration check, you roll d20 and add your caster level and the ability score modifier used to determine bonus spells of the same type. Clerics, druids, and rangers add their Wisdom modifier. Bards, paladins, and sorcerers add their Charisma modifier. Finally, wizards add their Intelligence modifier. The more distracting the interruption and the higher the level of the spell you are trying to cast, the higher the DC (see Table 9–1). If you fail the check, you lose the spell just as if you had cast it to no effect.\n\nInjury: If you take damage while trying to cast a spell, you must make a concentration check with a DC equal to 10 + the damage taken + the level of the spell you’re casting. If you fail the check, you lose the spell without effect. The interrupting event strikes during spellcasting if it comes between the time you started and the time you complete a spell (for a spell with a casting time of 1 full round or more) or if it comes in response to your casting the spell (such as an attack of opportunity provoked by the spell or a contingent attack, such as a readied action).\n\nIf you are taking continuous damage, such as from an acid arrow or by standing in a lake of lava, half the damage is considered to take place while you are casting a spell. You must make a concentration check with a DC equal to 10 + 1/2 the damage that the continuous source last dealt + the level of the spell you’re casting. If the last damage dealt was the last damage that the effect could deal, then the damage is over and does not distract you.\n\nSpell: If you are affected by a spell while attempting to cast a spell of your own, you must make a concentration check or lose the spell you are casting. If the spell affecting you deals damage, the DC is 10 + the damage taken + the level of the spell you’re casting.\n\nIf the spell interferes with you or distracts you in some other way, the DC is the spell’s saving throw DC + the level of the spell you’re casting. For a spell with no saving throw, it’s the DC that the spell’s saving throw would have if a save were allowed (10 + spell level + caster’s ability score).\n\nGrappled or Pinned: Casting a spell while you have the grappled or pinned condition is difficult and requires a concentration check (DC 10 + the grappler’s CMB + the level of the spell you’re casting). Pinned creatures can only cast spells that do not have somatic components.\n\nVigorous Motion: If you are riding on a moving mount, taking a bouncy ride in a wagon, on a small boat in rough water, belowdecks in a storm-tossed ship, or simply being jostled in a similar fashion, you must make a concentration check (DC 10 + the level of the spell you’re casting) or lose the spell.\n\nViolent Motion: If you are on a galloping horse, taking a very rough ride in a wagon, on a small boat in rapids or in a storm, on deck in a storm-tossed ship, or being pitched roughly about in a similar fashion, you must make a concentration check (DC 15 + the level of the spell you’re casting) or lose the spell. If the motion is extremely violent, such as that caused by an earthquake, the DC is equal to 20 + the level of the spell you’re casting.\n\nViolent Weather: You must make a concentration check if you try to cast a spell in violent weather. If you are in a high wind carrying blinding rain or sleet, the DC is 5 + the level of the spell you’re casting. If you are in wind-driven hail, dust, or debris, the DC is 10 + the level of the spell you’re casting. In either case, you lose the spell if you fail the concentration check. If the weather is caused by a spell, use the rules as described in the spell’s description.\n\nCasting Defensively: If you want to cast a spell without provoking any attacks of opportunity, you must make a concentration check (DC 15 + double the level of the spell you’re casting) to succeed. You lose the spell if you fail.\n\nEntangled: If you want to cast a spell while entangled in a net or by a tanglefoot bag or while you’re affected by a spell with similar effects, you must make a concentration check to cast the spell (DC 15 + the level of the spell you’re casting). You lose the spell if you fail.\nTable 9-1: Concentration Check DCs\nSituation Concentration Check DC\nCast defensively 15 + double spell level\nInjured while casting 10 + damage dealt + spell level\nContinuous damage while casting 10 + 1/2 damage dealt + spell level\nAffected by a non-damaging spell while casting DC of the spell + spell level\nGrappled or pinned while casting 10 + grappler's CMB + spell level\nVigorous motion while casting 10 + spell level\nViolent motion while casting 15 + spell level\nExtremely violent motion while casting 20 + spell level\nWind with rain or sleet while casting 5 + spell level\nWind with hail and debris while casting 10 + spell level\nWeather caused by spell see spell\nEntangled while casting 15 + spell level",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Situation",
+          "Concentration Check DC"
+        ],
+        [
+          "Cast defensively",
+          "15 + double spell level"
+        ],
+        [
+          "Injured while casting",
+          "10 + damage dealt + spell level"
+        ],
+        [
+          "Continuous damage while casting",
+          "10 + 1/2 damage dealt + spell level"
+        ],
+        [
+          "Affected by a non-damaging spell while casting",
+          "DC of the spell + spell level"
+        ],
+        [
+          "Grappled or pinned while casting",
+          "10 + grappler's CMB + spell level"
+        ],
+        [
+          "Vigorous motion while casting",
+          "10 + spell level"
+        ],
+        [
+          "Violent motion while casting",
+          "15 + spell level"
+        ],
+        [
+          "Extremely violent motion while casting",
+          "20 + spell level"
+        ],
+        [
+          "Wind with rain or sleet while casting",
+          "5 + spell level"
+        ],
+        [
+          "Wind with hail and debris while casting",
+          "10 + spell level"
+        ],
+        [
+          "Weather caused by spell",
+          "see spell"
+        ],
+        [
+          "Entangled while casting",
+          "15 + spell level"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5d99914cb049578e.json",
+    "web": "https://codex.pipsprojects.com/#/e/5d99914cb049578e"
+  },
+  "license": "OGL 1.0a"
+}

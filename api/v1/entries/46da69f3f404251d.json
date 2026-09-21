@@ -1,0 +1,31 @@
+{
+  "id": "46da69f3f404251d",
+  "name": "Unadulterated Loathing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 244",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 3,
+      "skald": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 244\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level antipaladin 2, arcanist 3, bard 2, mesmerist 2, psychic 3, skald 2, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou fill the target with a terrible loathing aimed at a specific creature. At the time of the casting, you designate a single creature as the object of the target’s revulsion. Thereafter, the target does all it can to remain at least 60 feet away from the object of its loathing. As soon as the target moves within this range, it becomes nauseated until it can again get away from the object of its revulsion. If traveling beyond 60 feet of the object of its loathing would place the target in obvious physical danger, the target can attempt a second save to break the spell’s effect.\n\nUnadulterated loathing counters reckless infatuation.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/46da69f3f404251d.json",
+    "web": "https://codex.pipsprojects.com/#/e/46da69f3f404251d"
+  },
+  "license": "OGL 1.0a"
+}

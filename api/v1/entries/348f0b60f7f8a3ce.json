@@ -1,0 +1,27 @@
+{
+  "id": "348f0b60f7f8a3ce",
+  "name": "Create Food and Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 261",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "warpriest": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 261\nSchool conjuration (creation); Level cleric 3, occultist 3, oracle 3, shaman 3, warpriest 3\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect food and water to sustain three humans or one horse/level for 24 hours\nDuration 24 hours; see text\nSaving Throw none; Spell Resistance no\nDescription\nThe food that this spell creates is simple fare of your choice—highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a purify food and water spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/348f0b60f7f8a3ce.json",
+    "web": "https://codex.pipsprojects.com/#/e/348f0b60f7f8a3ce"
+  },
+  "license": "OGL 1.0a"
+}

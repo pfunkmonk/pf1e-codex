@@ -1,0 +1,30 @@
+{
+  "id": "cd3f51838e838605",
+  "name": "Summon Lesser Demon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #74: Sword of Valor pg. 75",
+  "book": "Pathfinder #74: Sword of Valor",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 5,
+      "oracle": 5,
+      "sorcerer": 5,
+      "summoner": 4,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder #74: Sword of Valor"
+  },
+  "body": "Source Pathfinder #74: Sword of Valor pg. 75\nSchool conjuration (summoning) [chaotic, evil]; Level arcanist 5, cleric 5, oracle 5, sorcerer 5, summoner 4, summoner (unchained) 4, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (a tiny bag and a small candle)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like summon monster, except it allows you to summon a single brimorak (Lords of Chaos 56), one incubus (Bestiary 3 73), one thoxel demon (see page 86), 1d3 schir demons (Bestiary 3 74), or 1d4+1 vermlek demons (Lords of Chaos 54).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd3f51838e838605.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd3f51838e838605"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "382a6f6b7deb6232",
+  "name": "Open and Shut",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 220",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 220\nSchool illusion (glamer); Level arcanist 1, bard 1, inquisitor 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 swift action\nComponents V, S, F (a doornail, doorknob, or hinge)\nEffect\nRange touch\nTarget one door, window, or similar portal no more than 10 feet by 10 feet in area\nDuration 1 round/level (D)\nSaving Throw Will disbelief; Spell Resistance no\nDescription\nYou alter the appearance of a door and disguise whether it is open or closed. You can cause the touched door to appear closed regardless of whether it is open or closed, to appear open regardless of whether it is open or closed, or to appear to open or close. After you cast the spell, you can change between these options as a move action. Creatures using a move action to open or shut the door can attempt a Will save to disbelieve the illusion.\n\nRegardless of how you alter the appearance of the door, creatures that believe the illusion take a –5 penalty on Perception checks regarding the door itself or creatures on the other side of the door.\n\nThis spell affects windows, gates, and similar openings in the same way it affects doors.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/382a6f6b7deb6232.json",
+    "web": "https://codex.pipsprojects.com/#/e/382a6f6b7deb6232"
+  },
+  "license": "OGL 1.0a"
+}

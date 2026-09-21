@@ -1,0 +1,34 @@
+{
+  "id": "4c7b0a77b6dcb18c",
+  "name": "Delay Disease",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 155",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "inquisitor": 2,
+      "investigator": 2,
+      "mesmerist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "warpriest": 2,
+      "witch": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 155\nSchool conjuration (healing); Level alchemist 2, cleric 2, druid 2, hunter 2, inquisitor 2, investigator 2, mesmerist 2, oracle 2, paladin 2, ranger 2, warpriest 2, witch 1 (ratfolk)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 day\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target becomes temporarily immune to disease. Any disease to which it is exposed during the spell’s duration does not affect the target until the spell’s duration has expired. If the target is currently infected with a disease, you must make a caster level check against the disease’s DC to suspend it for the duration of the spell; otherwise, that disease affects the target normally. Delay disease does not cure any damage a disease may have already done.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c7b0a77b6dcb18c.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c7b0a77b6dcb18c"
+  },
+  "license": "OGL 1.0a"
+}

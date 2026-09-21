@@ -1,0 +1,25 @@
+{
+  "id": "ee926b81c6f9adb9",
+  "name": "Replenish Ki",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 238, Pathfinder #53: Tide of Honor pg. 73",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "warpriest": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 238, Pathfinder #53: Tide of Honor pg. 73\nSchool conjuration (healing); Level cleric 4, oracle 4, warpriest 4 (Irori)\nCasting\nCasting Time 1 minute\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou attune the target’s internal store of supernatural energy to the cosmos, replenishing its ki pool. If you are the target, you regain 2 ki points. If another creature is the target, it regains 1 ki point. This does not allow the target to exceed its ki pool’s maximum. This spell has no effect if the target does not have a ki pool.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ee926b81c6f9adb9.json",
+    "web": "https://codex.pipsprojects.com/#/e/ee926b81c6f9adb9"
+  },
+  "license": "OGL 1.0a"
+}

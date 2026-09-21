@@ -1,0 +1,26 @@
+{
+  "id": "02f72ad04c141f74",
+  "name": "Divide Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 164",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "psychic": 9
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 164\nSchool enchantment [mind-affecting]; Level psychic 9\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 minute\nSaving Throw none; Spell Resistance no\nDescription\nYou partition your mind to maximize your mental power. Until the spell ends, you roll twice and use the higher result for all Will saves, Intelligence checks, and Intelligence-based skill checks. In addition, as a swift action you can have your second mind perform any purely mental action that normally requires a standard action or a move action. This includes casting psychic spells, using spell-like abilities, and concentrating on spells. Spells and spell-like abilities cast or used by your secondary mind this way can’t exceed 5th level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02f72ad04c141f74.json",
+    "web": "https://codex.pipsprojects.com/#/e/02f72ad04c141f74"
+  },
+  "license": "OGL 1.0a"
+}

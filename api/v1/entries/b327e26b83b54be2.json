@@ -1,0 +1,27 @@
+{
+  "id": "b327e26b83b54be2",
+  "name": "Healing Flames",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Healer's Handbook pg. 8",
+  "book": "Healer's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "paladin": 4,
+      "warpriest": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Healer's Handbook"
+  },
+  "body": "Source Healer's Handbook pg. 8\nSchool conjuration (healing) [fire, good]; Level cleric 4, inquisitor 4, oracle 4, paladin 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange\nArea 10-ft.-radius burst, centered on you\nDuration instantaneous\nSaving Throw Reflex half; see text; Spell Resistance yes\nDescription\nYou unleash a blast of holy flames that washes over all creatures in the area in a glorious display of divine power. This deals damage to evil creatures and heals good creatures in the area. The amount of damage dealt and the number of hit points restored in each case is 1d8 points per 2 caster levels (maximum 5d8).\n\nHalf of the damage this spell deals to evil creatures is fire damage, and half of the damage is pure divine power that is therefore not subject to reduction by energy resistance to fire-based attacks.\n\nNeutral enemies within the spell’s area of effect also take the fire damage, but do not take the divine damage. Neutral allies within the area are healed by half as much as good creatures. A successful Reflex saving throw halves the damage taken in all cases.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b327e26b83b54be2.json",
+    "web": "https://codex.pipsprojects.com/#/e/b327e26b83b54be2"
+  },
+  "license": "OGL 1.0a"
+}

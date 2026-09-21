@@ -1,0 +1,33 @@
+{
+  "id": "bd749c2b98056a63",
+  "name": "Frost Mammoth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 134, People of the North pg. 26",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 7,
+      "druid": 7,
+      "oracle": 7,
+      "shaman": 7,
+      "sorcerer": 7,
+      "summoner": 6,
+      "wizard": 7
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 134, People of the North pg. 26\nSchool conjuration (creation) [cold]; Level arcanist 7, cleric 7, druid 7, oracle 7, shaman 7, sorcerer 7, summoner 6, summoner (unchained) 6, wizard 7\nCasting\nCasting Time 1 round\nComponents V, S, M (a fragment of mammoth tusk)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one frost mammoth\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nA blast of snow suddenly fills an area with a space of 15 feet, immediately taking the shape of a woolly mammoth made of snow with tusks of solid ice. The mammoth has statistics identical to those of a mastodon (Pathfinder RPG Bestiary 128), except it also has the cold subtype (and thus gains immunity to cold and vulnerability to fire). The frost mammoth obeys your telepathic commands. It allows you or anyone you designate to ride it, and it is treated as if combat trained. At 17th level, a frost mammoth you conjure deals an additional 1d6 points of cold damage with each physical attack.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bd749c2b98056a63.json",
+    "web": "https://codex.pipsprojects.com/#/e/bd749c2b98056a63"
+  },
+  "license": "OGL 1.0a"
+}

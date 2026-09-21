@@ -1,0 +1,33 @@
+{
+  "id": "1e9a110e0fb7cbb3",
+  "name": "Blurred Movement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 176",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "investigator": 1,
+      "magus": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 176\nSchool illusion (glamer); Level alchemist 1, arcanist 1, bard 1, bloodrager 1, investigator 1, magus 1, mesmerist 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, summoner 1, summoner (unchained) 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nDescription\nThis spell functions as blur, except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to protect against attacks on your turn, such as attacks of opportunity. If you move at least twice your speed on your turn, the blurring lasts until the start of your next turn.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e9a110e0fb7cbb3.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e9a110e0fb7cbb3"
+  },
+  "license": "OGL 1.0a"
+}

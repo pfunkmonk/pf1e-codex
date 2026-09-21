@@ -1,0 +1,27 @@
+{
+  "id": "b07317e0700b084a",
+  "name": "Fungal Infestation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 221",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 3,
+      "hunter": 3
+    },
+    "desc": [
+      "disease"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 221\nSchool necromancy [disease]; Level druid 3, hunter 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1d3 days\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou coat the target in necrotic fungus that makes its flesh soft and fragile. Toadstools, ringworm, and other disgusting fungal growths sprout from its skin. The target takes 1d3 points of Charisma damage. Any physical attack against the target automatically adds 1d6 points of bleed damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b07317e0700b084a.json",
+    "web": "https://codex.pipsprojects.com/#/e/b07317e0700b084a"
+  },
+  "license": "OGL 1.0a"
+}

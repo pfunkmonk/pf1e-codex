@@ -1,0 +1,27 @@
+{
+  "id": "92b41251be829e2f",
+  "name": "Blood Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 209",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 8,
+      "shaman": 8
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 209\nSchool conjuration (creation) [poison]; Level druid 8, shaman 8\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of dried red algae)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 60-ft. radius\nDuration 1 minute/level\nSaving Throw Fortitude negates (see text); Spell Resistance yes\nDescription\nThis spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain concealment. Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the “attack nearest creature” result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/92b41251be829e2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/92b41251be829e2f"
+  },
+  "license": "OGL 1.0a"
+}

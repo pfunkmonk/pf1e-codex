@@ -1,0 +1,31 @@
+{
+  "id": "6d3c0a9d2327a3f3",
+  "name": "Discern Location",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 270",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "oracle": 8,
+      "psychic": 8,
+      "shaman": 8,
+      "sorcerer": 8,
+      "summoner": 6,
+      "witch": 8,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 270\nSchool divination; Level arcanist 8, cleric 8, oracle 8, psychic 8, shaman 8, sorcerer 8, summoner 6, witch 8, wizard 8\nCasting\nCasting Time 10 minutes\nComponents V, S, DF\nEffect\nRange unlimited\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nA discern location spell is among the most powerful means of locating creatures or objects. Nothing short of a mind blank spell or the direct intervention of a deity keeps you from learning the exact location of a single individual or object. Discern location circumvents normal means of protection from scrying or location. The spell reveals the name of the creature or object's location (place, name, business name, building name, or the like), community, county (or similar political division), country, continent, and the plane of existence where the target lies.\n\nTo find a creature with the spell, you must have seen the creature or have some item that once belonged to it. To find an object, you must have touched it at least once.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6d3c0a9d2327a3f3.json",
+    "web": "https://codex.pipsprojects.com/#/e/6d3c0a9d2327a3f3"
+  },
+  "license": "OGL 1.0a"
+}

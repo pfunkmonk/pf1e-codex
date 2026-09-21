@@ -1,0 +1,29 @@
+{
+  "id": "1a4dbac67df3acf2",
+  "name": "Soothe Construct",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 239",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "sorcerer": 5,
+      "warpriest": 4,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 239\nSchool abjuration; Level arcanist 5, cleric 4, occultist 4, oracle 4, sorcerer 5, warpriest 4, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one construct\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou soothe the elemental spirit of a targeted construct, reducing its chance of going berserk by 1d4% per four caster levels (maximum 5d4%). If cast on a construct that has already gone berserk and you are its master, you may immediately roll d% to end the construct’s berserk state, it returns to normal functioning, and its berserk chance returns to 0%.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a4dbac67df3acf2.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a4dbac67df3acf2"
+  },
+  "license": "OGL 1.0a"
+}

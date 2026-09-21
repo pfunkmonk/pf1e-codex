@@ -1,0 +1,28 @@
+{
+  "id": "0dfe89c1b9c6bfb3",
+  "name": "Perceive Betrayal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the High Court pg. 25",
+  "book": "Heroes of the High Court",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 7,
+      "cleric": 6,
+      "inquisitor": 4,
+      "oracle": 6,
+      "sorcerer": 7,
+      "warpriest": 6,
+      "witch": 6,
+      "wizard": 7
+    },
+    "bk": "Heroes of the High Court"
+  },
+  "body": "Source Heroes of the High Court pg. 25\nSchool divination; Level arcanist 7, cleric 6, inquisitor 4, oracle 6, sorcerer 7, warpriest 6, witch 6, wizard 7\nCasting\nCasting Time 1 minute\nComponents V, S, M (12 drops of blood), F (a silver circlet worth 500 gp)\nEffect\nRange personal\nTarget you\nDuration 1 hour/level\nDescription\nBy donning a silver circlet anointed with blood, you gain the ability to sense traitorous intent toward a single person to whom you defer, designated when you cast the spell. The spell alerts you when a creature with traitorous intent is within 200 feet, although it doesn’t identify the source. By concentrating, you can learn the strength of the greatest threat, based on the following categories.\n\nIll Will: Someone dislikes your liege, but isn’t planning to act against her.\n\nPlotting: Someone is actively conspiring against your liege.\n\nImminent: Someone is in the process of carrying out a plot against your liege.\n\nCreatures that are immune to mind-affecting or thought-detecting effects cannot have their intent detected by perceive betrayal.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0dfe89c1b9c6bfb3.json",
+    "web": "https://codex.pipsprojects.com/#/e/0dfe89c1b9c6bfb3"
+  },
+  "license": "OGL 1.0a"
+}

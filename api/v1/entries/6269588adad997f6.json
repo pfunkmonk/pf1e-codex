@@ -1,0 +1,33 @@
+{
+  "id": "6269588adad997f6",
+  "name": "Remove Fear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 332",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "skald": 1,
+      "spiritualist": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 332\nSchool abjuration; Level bard 1, cleric 1, inquisitor 1, medium 1, mesmerist 1, oracle 1, psychic 1, sahirafiyun 1, shaman 1, skald 1, spiritualist 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature plus one additional creature per four levels, no two of which can be more than 30 ft. apart\nDuration 10 minutes; see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.\n\nRemove fear counters and dispels cause fear.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6269588adad997f6.json",
+    "web": "https://codex.pipsprojects.com/#/e/6269588adad997f6"
+  },
+  "license": "OGL 1.0a"
+}

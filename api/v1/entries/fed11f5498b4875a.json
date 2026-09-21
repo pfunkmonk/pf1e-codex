@@ -1,0 +1,30 @@
+{
+  "id": "fed11f5498b4875a",
+  "name": "Opportunistic Loyalty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #115: Trail of the Hunted pg. 75",
+  "book": "Pathfinder #115: Trail of the Hunted",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #115: Trail of the Hunted"
+  },
+  "body": "Source Pathfinder #115: Trail of the Hunted pg. 75\nSchool enchantment (compulsion); Level antipaladin 1, cleric 1, inquisitor 1, mesmerist 1, oracle 1, psychic 1, warpriest 1, witch 1\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nCast this spell when a creature within range casts a spell that provides an effect for its allies (such as bless or prayer). You are considered an ally of the caster for the purposes of that spell. Although you are momentarily considered an ally, the caster need not target you if the spell requires that the caster select one or more allies to be affected by the spell (as does haste). This spell does not allow a target spell to affect more creatures than described in its target entry. If this spell would raise the total number of affected targets above that allowed by the target spell, opportunistic loyalty has no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fed11f5498b4875a.json",
+    "web": "https://codex.pipsprojects.com/#/e/fed11f5498b4875a"
+  },
+  "license": "OGL 1.0a"
+}

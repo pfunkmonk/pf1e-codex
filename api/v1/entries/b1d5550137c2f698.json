@@ -1,0 +1,35 @@
+{
+  "id": "b1d5550137c2f698",
+  "name": "Share Language, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 243",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "mesmerist": 2,
+      "occultist": 3,
+      "oracle": 3,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Share Language, Communal\nSource Ultimate Combat pg. 243\nSchool divination; Level arcanist 3, bard 2, cleric 3, druid 3, hunter 3, mesmerist 2, occultist 3, oracle 3, psychic 2, skald 2, sorcerer 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a page from a dictionary)\nEffect\nRange touch\nTargets creatures touched\nDuration 24 hours\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like share language, except you divide the duration in 1-hour increments among the creatures touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b1d5550137c2f698.json",
+    "web": "https://codex.pipsprojects.com/#/e/b1d5550137c2f698"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "f46d811a007dad03",
+  "name": "Power Word Stun",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 324",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 8,
+      "psychic": 8,
+      "sorcerer": 8,
+      "witch": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 324\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 8, psychic 8, sorcerer 8, witch 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature with 150 hp or less\nDuration see text\nSaving Throw none; Spell Resistance yes\nDescription\nYou utter a single word of power that instantly causes one creature of your choice to become stunned, whether the creature can hear the word or not. The duration of the spell depends on the target's current hit point total. Any creature that currently has 151 or more hit points is unaffected by power word stun.\n\nHit Points Duration\n50 or less 4d4 rounds\n51-100 2d4 rounds\n101-150 1d4 rounds\nMythic Power Word Stun\nSource Mythic Adventures pg. 104\nTreat the target’s current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting this spell would affect a creature with 60 hp as though it had 45 hp, and the spell would last an additional 2d4 rounds.\n\nYou can target a creature with more hit points than this spell could normally affect, causing it to become dazed for 1 round.\n\nAugmented (6th): If you expend three uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target’s hit points are reduced enough to put it in a lower category for the spell’s effects, the spell affects the creature according to its new hit point total. For example, a creature in the 101–150 hp category reduced to 80 hp is immediately stunned for an additional 1d4 rounds. The spell’s effects don’t diminish if the target regains hit points.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f46d811a007dad03.json",
+    "web": "https://codex.pipsprojects.com/#/e/f46d811a007dad03"
+  },
+  "license": "OGL 1.0a"
+}

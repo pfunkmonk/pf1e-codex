@@ -1,0 +1,74 @@
+{
+  "id": "a3c665831923ecfe",
+  "name": "Magical Affinities of Trophies",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Wilderness pg. 163",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Rules Index | GM Screen\nMastering the Wild / Trophies and Treasures\n\nMagical Affinities of Trophies\nSource Ultimate Wilderness pg. 163\nCertain creatures provide trophy components that, once processed into actual trophies, are exceptionally useful for the construction of alchemical or magic items. When used as raw materials for the crafting of alchemical or magic items, these trophies are worth more than their normal values for the purposes of calculating the total gp needed to craft the item. The following section details trophy uses for a wide range of creature categories. This list is not intended to be exhaustive, and GMs should feel free to add specific affinities to a creature as their campaigns demand. Recovery: In order to preserve trophy components into a trophy usable for its magical affinities, a character must use a different skill than Craft to create the trophy. The specific skill required varies according to the creature, as detailed below. Creating a trophy to be used in this way is more difficult than creating one to simply be an art object: the DC to create a magical affinity trophy is equal to 20 + the creature’s CR. If a creature’s trophy components fall into multiple categories (such as an erinyes), the character can choose which of the associated skills to use to craft the trophy.\nAffinities: The magical uses for a trophy in the construction of alchemical or magic items are listed here. When a trophy is incorporated into raw materials, its gp value is considered to be 20% greater than normal.\n\nDemons\nRecovery Knowledge (planes)\nAffinities A demon’s heart contains the essence of sin. It can be used in the creation of any magic item that has a spell with the evil descriptor as a requirement.\n\nDevils\nRecovery Knowledge (planes)\nAffinities A devil’s tongue is infused with the word of law. It can be used in the creation of any magic item that has a spell with the lawful descriptor as a requirement.\n\nDoppelgangers and Mimics\nRecovery Knowledge (arcana)\nAffinities Swaths of skin harvested from a doppelganger or mimic can be used in the creation of any magic item that has a spell of the polymorph subschool as a requirement.\n\nELEMENTALS\nRecovery Knowledge (planes)\nAffinities Residual material harvested from a slain elemental can be used in the creation of magic items that have spells with specific descriptors, as summarized in the table below.\n\nTable 4-11: Elemental Trophy Affinities\nElemental Type Material Harvested Associated Descriptor\nAether Crystalized memories Force\nAir Fine dust Air\nEarth Stone fragments Earth\nFire Warm ash Fire\nIce Blue ice Cold\nLightning Sparkling powder Electricity\nMagma Glowing embers Fire\nMud Viscous sludge Acid\nWater Rare liquid Water\n\nGiants\nRecovery Knowledge (local)\nAffinities The sweat glands or muscles and tendons that are harvested from a giant’s arms or legs can be used in the creation of magic items that have enlarge person as a requirement or in the creation of any magic melee weapon.\n\nIntelligent Undead\nRecovery Knowledge (religion)\nAffinities Necromancy-infused dust or organs from an intelligent undead creature can be used in the creation of any magic item that has animate dead, create undead, create greater undead, energy drain, or enervation as a requirement; at the GM’s discretion, other necromancy spells can be added to this list (a ghoul, for example, might aid in the creation of items that require ghoul’s touch).\n\nOozes\nRecovery Knowledge (dungeoneering)\nAffinities Fluids harvested from an ooze that deals acid damage can be used in the creation of any magic item that has a spell with the acid descriptor as a requirement or for alchemical gear and weapons associated with acid.\n\nPetrifying Monsters\nRecovery Knowledge (arcana) Affinity The portion of a creature capable of petrifying targets (eyes of a basilisk or medusa, talons of a cockatrice, or a gorgon’s lungs, for example) can be used in the creation of any magic item that has flesh to stone or stone to flesh as a requirement.\n\nPrimeval Creatures\nRecovery Knowledge (nature)\nAffinities The claws, fangs, horns, and tusks of primeval creatures (including all dinosaurs and megafauna, as well as dire animals) can be used in the creation of any magic item that has bear’s endurance, bull’s strength, or cat’s grace as a requirement.\n\nProteans\nRecovery Knowledge (planes)\nAffinities Scales harvested from a protean seethe with pure chaos and can be used in the creation of any magic item that has a spell with the chaotic descriptor as a requirement.\n\nQlippoth\nRecovery Knowledge (planes)\nAffinities A qlippoth’s brain is infused with raw madness, and it can be used in the creation of any magic item that has confusion, insanity, lesser confusion, or symbol of insanity as a requirement.\n\nRakshasas\nRecovery Knowledge (planes)\nAffinities A rakshasa’s eyes can be used in the creation of any magic item that has detect thoughts as a requirement.\n\nTrolls\nRecovery Knowledge (local)\nAffinities A troll’s liver can be used in the creation of any magic item that has a spell of the healing subschool as a requirement.\n\nTrue Dragons\nRecovery Knowledge (arcana)\nAffinities The organs associated with a true dragon’s breath weapon can be utilized in the creation of any magic item that has a spell that deals energy damage of the same type as the dragon’s breath weapon as a requirement.\n\nWeb-Using Monsters\nRecovery Knowledge (nature); when harvested from something other than a vermin, the DC of the check to harvest the trophy increases by 2.\nAffinity The spinnerets of a creature capable of using web as per the universal monster rule can be used in the creation of any magic item that has spider climb or web as a requirement.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Elemental Type",
+          "Material Harvested",
+          "Associated Descriptor"
+        ],
+        [
+          "Aether",
+          "Crystalized memories",
+          "Force"
+        ],
+        [
+          "Air",
+          "Fine dust",
+          "Air"
+        ],
+        [
+          "Earth",
+          "Stone fragments",
+          "Earth"
+        ],
+        [
+          "Fire",
+          "Warm ash",
+          "Fire"
+        ],
+        [
+          "Ice",
+          "Blue ice",
+          "Cold"
+        ],
+        [
+          "Lightning",
+          "Sparkling powder",
+          "Electricity"
+        ],
+        [
+          "Magma",
+          "Glowing embers",
+          "Fire"
+        ],
+        [
+          "Mud",
+          "Viscous sludge",
+          "Acid"
+        ],
+        [
+          "Water",
+          "Rare liquid",
+          "Water"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3c665831923ecfe.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3c665831923ecfe"
+  },
+  "license": "OGL 1.0a"
+}

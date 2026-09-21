@@ -1,0 +1,25 @@
+{
+  "id": "db9f023568fb068f",
+  "name": "Fury of the Sun",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 131",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 131\nSchool transmutation [curse, fire]; Level druid 2, hunter 2, witch 2 (ifrit)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature\nDuration 10 minutes/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou curse the target to suffer unbearable heat. On a failed saving throw, the target is immediately subjected to severe heat , takes 1d4 points of nonlethal damage, and is suffering from heatstroke (fatigued). The target must save every 10 minutes as normal for severe heat (starting at DC 15 rather than the DC of this spell). Because this heat is internal, the target cannot avoid it using the normal methods for escaping heat dangers such as Survival checks or finding shade.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db9f023568fb068f.json",
+    "web": "https://codex.pipsprojects.com/#/e/db9f023568fb068f"
+  },
+  "license": "OGL 1.0a"
+}

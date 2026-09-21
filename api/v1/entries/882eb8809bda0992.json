@@ -1,0 +1,49 @@
+{
+  "id": "882eb8809bda0992",
+  "name": "Barding (Large creature)",
+  "bucket": "items",
+  "category": "Equipment",
+  "source": "Ultimate Equipment pg. 81, PRPG Core Rulebook pg. 159",
+  "book": "Ultimate Equipment",
+  "facets": {
+    "bk": "Ultimate Equipment"
+  },
+  "body": "Barding\nSource Ultimate Equipment pg. 81, PRPG Core Rulebook pg. 159\nPrice ×4 (Large creature), ×2 (Medium creature); Weight ×2 (Large creature), ×1 (Medium creature)\nDescription\nBarding is a type of armor that covers the head, neck, chest, body, and possibly legs of a horse or other mount. Barding made of medium or heavy armor provides better protection than light barding, but at the expense of speed. Barding can be made of any of the armor types found on Table 1–1: Armor and Shields.\n\nArmor for a horse (a Large non-humanoid creature) costs four times as much as armor for a human (a Medium humanoid creature) and also weighs twice as much (see Table 1–2: Armor for Unusual Creatures). If the barding is for a pony or other Medium mount, the price is only double, and the weight is the same as for Medium armor worn by a humanoid. Medium or heavy barding slows a mount that wears it, as shown on the table below.\n\nFlying mounts can’t fly in medium or heavy barding.\n\nRemoving and fitting barding takes five times as long as the figures given on Table 1–3: Donning Armor. A barded animal cannot be used to carry any load other than a rider, and normal saddlebags.\n\nBase Speed\nBarding (40 ft.) (50 ft.) (60 ft.)\nMedium armor 30 ft. 35 ft. 40 ft.\nHeavy armor 30 ft.* 35 ft.* 40 ft.*\n* A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple.",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Base Speed"
+        ],
+        [
+          "Barding",
+          "(40 ft.)",
+          "(50 ft.)",
+          "(60 ft.)"
+        ],
+        [
+          "Medium armor",
+          "30 ft.",
+          "35 ft.",
+          "40 ft."
+        ],
+        [
+          "Heavy armor",
+          "30 ft.*",
+          "35 ft.*",
+          "40 ft.*"
+        ],
+        [
+          "* A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/882eb8809bda0992.json",
+    "web": "https://codex.pipsprojects.com/#/e/882eb8809bda0992"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "98d4fc029144f068",
+  "name": "Antitoxin Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Potions and Poisons pg. 11",
+  "book": "Potions and Poisons",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Potions and Poisons"
+  },
+  "body": "Source Potions and Poisons pg. 11\nSchool abjuration; Level alchemist 1, druid 1, hunter 1, investigator 1, ranger 1, shaman 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small drop of antitoxin)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target’s skin secretes a small amount of venom-resistant oils for the spell’s duration. The target cannot accidentally poison itself while applying poison. Additionally, the target does not risk exposure to a creature’s poison when attempting to milk venom (Ultimate Wilderness 142).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98d4fc029144f068.json",
+    "web": "https://codex.pipsprojects.com/#/e/98d4fc029144f068"
+  },
+  "license": "OGL 1.0a"
+}

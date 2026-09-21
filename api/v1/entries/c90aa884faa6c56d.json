@@ -1,0 +1,21 @@
+{
+  "id": "c90aa884faa6c56d",
+  "name": "Gliding Tutle",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Pathfinder #121: The Lost Outpost pg. 82",
+  "book": "Pathfinder #121: The Lost Outpost",
+  "facets": {
+    "cr": 2,
+    "sz": "Large",
+    "t": "animal",
+    "al": "N",
+    "bk": "Pathfinder #121: The Lost Outpost"
+  },
+  "body": "This giant turtle has a large, thin membrane of scaly skin extending from its shell to its legs.\nGliding Tutle CR 2\nSource Pathfinder #121: The Lost Outpost pg. 82\nXP 600\nN Large animal\nInit +0; Senses low-light vision; Perception +0\nDefense\nAC 14, touch 9, flat-footed 14 (+5 natural, -1 size)\nhp 19 (3d8+6)\nFort +4, Ref +3, Will +1\nOffense\nSpeed 10 ft., fly 30 ft. (clumsy), swim 20 ft.\nMelee bite +3 (1d8+3)\nSpace 10 ft., Reach 10 ft.\nSpecial Attacks gliding charge\nStatistics\nStr 14, Dex 10, Con 13, Int 2, Wis 11, Cha 5\nBase Atk +2; CMB +5; CMD 15\nFeats Flyby Attack, Toughness\nSkills Fly -4, Swim +10\nSQ glide, shell\nEcology\nEnvironment temperate forests and coasts\nOrganization solitary, pair, or den (3-8)\nTreasure none\nSpecial Abilities\nGlide (Ex) A gliding turtle can’t use its fly speed to hover. When flying, a gliding turtle must end its movement at least 5 feet lower in elevation than where it started.\n\nGliding Charge (Ex) While gliding, a gliding turtle can ram into a creature. When it does, it makes a charge attack against a creature it can reach with its speed. If the attack hits, it deals 2d6+3 points of bludgeoning damage and the turtle can immediately perform a bull rush combat maneuver as a free action against its target without provoking attacks of opportunity. The gliding turtle immediately stops gliding after this attack, landing on the ground and, if applicable, taking falling damage as if it deliberately jumped.\n\nShell (Ex) As a move action, a gliding turtle can retract its limbs and head into its shell. It can’t move or attack while in this state, but its armor bonus from natural armor increases by 2 as long as it does. Emerging from its shell is a move action.\nDescription\nThe gliding turtles of Azlant evolved thin layers of skin that connect their limbs to their shells and allow them to glide from ridges and drop onto unsuspecting prey. A gliding turtle is about 7 feet long and weighs over 1,000 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c90aa884faa6c56d.json",
+    "web": "https://codex.pipsprojects.com/#/e/c90aa884faa6c56d"
+  },
+  "license": "OGL 1.0a"
+}

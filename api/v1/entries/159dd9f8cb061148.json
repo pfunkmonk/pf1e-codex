@@ -1,0 +1,29 @@
+{
+  "id": "159dd9f8cb061148",
+  "name": "Holy Smite",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 297",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 297\nSchool evocation [good]; Level cleric 4, inquisitor 4, oracle 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius burst\nDuration instantaneous (1 round); see text\nSaving Throw Will partial; see text; Spell Resistance yes\nDescription\nYou draw down holy power to smite your enemies. Only evil and neutral creatures are harmed by the spell; good creatures are unaffected.\n\nThe spell deals 1d8 points of damage per two caster levels (maximum 5d8) to each evil creature in the area (or 1d6 points of damage per caster level, maximum 10d6, to an evil outsider) and causes it to become blinded for 1 round. A successful Will saving throw reduces damage to half and negates the blinded effect.\n\nThe spell deals only half damage to creatures who are neither good nor evil, and they are not blinded. Such a creature can reduce that damage by half (down to one-quarter of the roll) with a successful Will save.\nMythic Holy Smite\nSource Mythic Adventures pg. 98\nThe damage dealt to evil outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage dealt to other evil creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures in the area are blinded increases to 2 rounds. On a successful save, an evil creature is blinded for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/159dd9f8cb061148.json",
+    "web": "https://codex.pipsprojects.com/#/e/159dd9f8cb061148"
+  },
+  "license": "OGL 1.0a"
+}

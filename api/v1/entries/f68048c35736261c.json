@@ -1,0 +1,32 @@
+{
+  "id": "f68048c35736261c",
+  "name": "Unholy Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Agents of Evil pg. 19",
+  "book": "Agents of Evil",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 4,
+      "cleric": 4,
+      "inquisitor": 3,
+      "oracle": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "bk": "Agents of Evil"
+  },
+  "body": "Source Agents of Evil pg. 19\nSchool abjuration [evil]; Level antipaladin 3, arcanist 4, cleric 4, inquisitor 3, oracle 4, sorcerer 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level (D)\nSaving Throw Fort negates (harmless)\nDescription\nThis spell grants you resistance to the holy powers of good-aligned deities and their servants. You resist 10 points of damage from holy sources (divine power damage from flame strike, additional damage from smite evil, channeled positive energy, etc.), provided they originate from a good-aligned source or a servant of a good-aligned god. You ignore a maximum of 10 points of damage per caster level, at which point the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f68048c35736261c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f68048c35736261c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "606fa673030bbf03",
+  "name": "Pesh Vigor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 19, Dark Markets - A Guide to Katapesh pg. 57",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "magus": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 19, Dark Markets - A Guide to Katapesh pg. 57\nSchool transmutation; Level alchemist 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, magus 1, oracle 1, sahirafiyun 1, shaman 1, sorcerer 1, summoner 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a dose of pesh worth 15 gp)\nEffect\nRange touch\nTarget living creature touched\nDuration 1 round/level; see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThe target gains a +2 enhancement bonus to its Strength. Once per round as a free action, the target can choose to increase the enhancement bonus by 2 for 1 round; if it does so, it takes 1d6 points of nonlethal damage and the spell’s duration decreases by 1 additional round. For every 5 caster levels you have, the target can choose to increase the enhancement bonus by an additional 2, taking an additional 1d6 points of nonlethal damage and decreasing the duration by 1 additional round per increase to the Strength bonus, to a maximum enhancement bonus of +10 and 4d6 points of nonlethal damage at caster level 15th. The subject can’t spend more rounds than remain in the duration. When the spell ends, the subject becomes fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/606fa673030bbf03.json",
+    "web": "https://codex.pipsprojects.com/#/e/606fa673030bbf03"
+  },
+  "license": "OGL 1.0a"
+}

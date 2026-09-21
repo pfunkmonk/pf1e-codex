@@ -1,0 +1,30 @@
+{
+  "id": "a66d66c6155f023d",
+  "name": "Touch of Gracelessness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 249",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "mesmerist": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 249\nSchool transmutation; Level arcanist 1, bard 1, bloodrager 1, mesmerist 1, redmantisassassin 1, skald 1, sorcerer 1, spiritualist 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nWith a single touch, you reduce a creature to a fumbling clown. The target takes a penalty to its Dexterity equal to 1d6+1 per two caster levels (maximum 1d6+5). This penalty cannot drop the target’s Dexterity score below 1.\n\nIn addition, if the subject moves more than half its speed, it falls prone. If the subject flies, its maneuverability is reduced by one step (perfect maneuverability becomes good, good becomes average, and so on).\n\nA successful Fortitude save halves the penalty to Dexterity and negates the possibility of falling prone or the reduction to fly maneuverabilities.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a66d66c6155f023d.json",
+    "web": "https://codex.pipsprojects.com/#/e/a66d66c6155f023d"
+  },
+  "license": "OGL 1.0a"
+}

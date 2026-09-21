@@ -1,0 +1,31 @@
+{
+  "id": "99a96765bd79545e",
+  "name": "Haze of Dreams",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 235, Faiths of Purity pg. 28",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "shaman": 1,
+      "skald": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 235, Faiths of Purity pg. 28\nSchool enchantment (charm) [emotion, mind-affecting]; Level bard 1, cleric 1, inquisitor 1, oracle 1, paladin 1, shaman 1, skald 1, warpriest 1, witch 1 (Desna)\nCasting\nCasting Time 1 standard action\nComponents V, M (pinch of sand)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou fill an enemy’s head with waking dreams, a reminder of the pleasures, delights, and terrors to be found in the dream world. While in this strange dream state, the target moves at half its normal speed (round down to the next 5-foot increment), which affects the creature’s jumping distance as normal for decreased speed.\n\nMultiple haze of dreams effects do not stack, nor does this spell’s effect stack with slow.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/99a96765bd79545e.json",
+    "web": "https://codex.pipsprojects.com/#/e/99a96765bd79545e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "de65f6d070ccd9cb",
+  "name": "Repel Vermin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 333",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 4,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 3,
+      "oracle": 4,
+      "ranger": 3,
+      "shaman": 4,
+      "skald": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 333\nSchool abjuration [pain]; Level bard 4, cleric 4, druid 4, hunter 3, oracle 4, ranger 3, shaman 4, skald 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 10 ft.\nArea 10-ft.-radius emanation centered on you\nDuration 10 min./level (D)\nSaving Throw none or Will negates; see text; Spell Resistance yes\nDescription\nAn invisible barrier holds back vermin. A vermin with HD of less than one-third your level cannot penetrate the barrier.\n\nA vermin with HD of one-third your level or more can penetrate the barrier if it succeeds on a Will save. Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de65f6d070ccd9cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/de65f6d070ccd9cb"
+  },
+  "license": "OGL 1.0a"
+}

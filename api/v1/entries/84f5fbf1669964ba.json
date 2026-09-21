@@ -1,0 +1,25 @@
+{
+  "id": "84f5fbf1669964ba",
+  "name": "Implosion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 299",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 9,
+      "oracle": 9,
+      "psychic": 9
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 299\nSchool evocation; Level cleric 9, oracle 9, psychic 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corporeal creature/round\nDuration concentration (up to 1 round per 2 levels)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell causes a destructive resonance in a corporeal creature's body. Each round you concentrate (including the first), you can cause one creature to collapse in on itself, inflicting 10 points of damage per caster level. If you break concentration, the spell immediately ends, though any implosions that have already happened remain in effect. You can target a particular creature only once with each casting of the spell. Implosion has no effect on creatures in gaseous form or on incorporeal creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/84f5fbf1669964ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/84f5fbf1669964ba"
+  },
+  "license": "OGL 1.0a"
+}

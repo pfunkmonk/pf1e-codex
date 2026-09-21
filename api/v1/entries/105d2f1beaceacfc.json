@@ -1,0 +1,29 @@
+{
+  "id": "105d2f1beaceacfc",
+  "name": "Transmute Wine to Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Night pg. 30",
+  "book": "Blood of the Night",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "oracle": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Blood of the Night"
+  },
+  "body": "Source Blood of the Night pg. 30\nSchool transmutation; Level arcanist 2, cleric 2, oracle 2, redmantisassassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (drop of animal blood)\nEffect\nRange touch\nTarget bottle of wine worth at least 10 gp\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nYou transform one bottle of fine wine into 1 pint of animal blood, sufficient for a creature with the blood drain ability to feed upon as if it came from a Medium animal with 1 Hit Die. If you are using the optional hunger rules (see page 22), this blood satiates an undead creature’s hunger, negating any withdrawal effects, but does not grant the creature a feeding bonus. The blood coagulates and spoils at the normal rate.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/105d2f1beaceacfc.json",
+    "web": "https://codex.pipsprojects.com/#/e/105d2f1beaceacfc"
+  },
+  "license": "OGL 1.0a"
+}

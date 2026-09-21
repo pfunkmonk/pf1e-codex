@@ -1,0 +1,34 @@
+{
+  "id": "d8f4335de01b4654",
+  "name": "Accept Affliction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Champions of Purity pg. 28",
+  "book": "Champions of Purity",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "skald": 3,
+      "warpriest": 3,
+      "witch": 3
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Champions of Purity"
+  },
+  "body": "Source Champions of Purity pg. 28\nSchool conjuration (healing) [good]; Level bard 3, cleric 3, druid 3, hunter 3, oracle 3, paladin 3, skald 3, warpriest 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (dove’s heart)\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe caster can transfer the effects of afflictions such as curses, diseases, and poisons from the target creature to himself. This spell can also transfer the blinded, deafened, fatigued, nauseated, shaken, and sickened conditions. All aspects of the transferred afflictions (save DCs, remaining duration, removal conditions, and so on) remain the same, but affect the caster instead of the original target. After transferring the affliction or condition, the caster is free to cure it in any way he can.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d8f4335de01b4654.json",
+    "web": "https://codex.pipsprojects.com/#/e/d8f4335de01b4654"
+  },
+  "license": "OGL 1.0a"
+}

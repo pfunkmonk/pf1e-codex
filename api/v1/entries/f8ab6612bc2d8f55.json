@@ -1,0 +1,19 @@
+{
+  "id": "f8ab6612bc2d8f55",
+  "name": "Force field (black)",
+  "bucket": "items",
+  "category": "Technology",
+  "source": "Technology Guide pg. 45",
+  "book": "Technology Guide",
+  "facets": {
+    "slot": "wrist",
+    "pr": 20000,
+    "bk": "Technology Guide"
+  },
+  "body": "Force field\nSource Technology Guide pg. 45\nPrice 20,000 gp (black), 120,000 gp (blue), 4,000 gp (brown), 60,000 gp (gray), 80,000 gp (green), 140,000 gp (orange), 220,000 gp (prismatic), 100,000 gp (red), 40,000 gp (white)\nSlot wrist; Weight 1 lb. (black), 1 lb. (blue), 1 lb. (brown), 1 lb. (gray), 1 lb. (green), 1 lb. (orange), 1 lb. (prismatic), 1 lb. (red), 1 lb. (white)\nCapacity varies; Usage 1 charge/minute\nDescription\nForce fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, dozens of tiny biofeedback needles pierce the wearer’s arms to interface with the nervous system; this process is somewhat painful and the wearer must succeed at a DC 15 Fortitude save to avoid being dazed for 1 round as the force field is activated. Once active, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink.\n\nActivating a force field is a standard action that consumes 1 charge, after which point the field consumes 1 additional charge every minute it remains active. While a force field is active, the user gains a number of temporary hit points that varies depending on the force field’s power. All damage dealt to the wearer of a force field is subtracted from the temporary hit points it grants first. As long as the force field is active, the wearer is immune to critical hits (but not precision-based damage, such as sneak attacks). A force field has fast healing that replenishes its temporary hit points at a fixed rate each round, but if the force field’s temporary hit points are ever reduced to 0, the force field shuts down and cannot be reactivated for 24 hours. Force fields are automatically reduced to 0 hp by disintegration effects. A force field can be deactivated as a free action.\n\nThe charge capacity, amount of temporary hit points granted, and rate of fast healing these temporary hit points have varies according to the force field’s color code, as detailed below.\n\nColor Capacity Temp HP Fast Healing\nBrown 10 5 1\nBlack 15 10 2\nWhite 20 15 3\nGray 25 20 4\nGreen 30 25 5\nRed 35 30 6\nBlue 40 35 7\nOrange 45 40 8\nPrismatic 50 60 10\nConstruction\nCraft DC 28 (black), DC 33 (blue), DC 27 (brown), DC 30 (gray), DC 31 (green), DC 34 (orange), DC 35 (prismatic), DC 32 (red), DC 29 (white)\nCost 10,000 gp (black), 60,000 gp (blue), 2,000 gp (brown), 30,000 gp (gray), 40,000 gp (green), 70,000 gp (orange), 110,000 gp (prismatic), 50,000 gp (red), 20,000 gp (white)\nCraft Technological Item, graviton lab",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f8ab6612bc2d8f55.json",
+    "web": "https://codex.pipsprojects.com/#/e/f8ab6612bc2d8f55"
+  },
+  "license": "OGL 1.0a"
+}

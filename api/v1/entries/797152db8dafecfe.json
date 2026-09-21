@@ -1,0 +1,32 @@
+{
+  "id": "797152db8dafecfe",
+  "name": "Fire Snake",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 222",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 5,
+      "druid": 5,
+      "hunter": 5,
+      "magus": 5,
+      "occultist": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 222\nSchool evocation [fire]; Level arcanist 5, druid 5, hunter 5, magus 5, occultist 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a snake scale)\nEffect\nRange 60 ft.\nArea see text\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nYou create a sinuous line of flames that you may shape as desired. The fire snake affects one 5-foot square per caster level, and each square must be adjacent to the previous square, starting with you. The fire snake may not extend beyond its maximum range. Creatures in the path of the fire snake take 1d6 points of fire damage per caster level (maximum 15d6).\nMythic Fire Snake\nSource Mythic Adventures pg. 94\nThe damage dealt increases to 1d10 points of damage per level (maximum 15d10). Any creature that fails its saving throw against the spell is grappled by a snake made of fire that lasts for 1 round per caster level. The snake can be dispelled, but not attacked. A grappled creature takes 1d10 points of fire damage on your turn each round. The snake’s CMB is equal to your caster level plus your tier, and its CMD is equal to its CMB + 10.\n\nAugmented (6th): If you expend two uses of mythic power, the maximum damage increases to 20d10, and any creature that fails its saving throw against the spell is pinned instead of grappled.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/797152db8dafecfe.json",
+    "web": "https://codex.pipsprojects.com/#/e/797152db8dafecfe"
+  },
+  "license": "OGL 1.0a"
+}

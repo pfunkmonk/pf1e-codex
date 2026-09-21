@@ -1,0 +1,29 @@
+{
+  "id": "9dd2d3c2fb3e1edd",
+  "name": "Hunter's Blessing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 235",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 5,
+      "druid": 5,
+      "hunter": 5,
+      "inquisitor": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "warpriest": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 235\nSchool transmutation; Level cleric 5, druid 5, hunter 5, inquisitor 5, oracle 5, shaman 5, warpriest 5 (Erastil)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nWhen casting this spell, you designate a type or type and subtype of creature (using the ranger’s favored enemy categories; Pathfinder RPG Core Rulebook 64) and a type of terrain (using the list of ranger’s favored terrain categories, Core Rulebook 65). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9dd2d3c2fb3e1edd.json",
+    "web": "https://codex.pipsprojects.com/#/e/9dd2d3c2fb3e1edd"
+  },
+  "license": "OGL 1.0a"
+}

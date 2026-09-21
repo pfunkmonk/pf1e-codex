@@ -1,0 +1,34 @@
+{
+  "id": "d456b7fbbfbf49c2",
+  "name": "Stricken Heart",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 194",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "shaman": 3,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 194\nSchool necromancy [death]; Level arcanist 2, inquisitor 2, mesmerist 2, psychic 2, shaman 3, sorcerer 2, spiritualist 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nThis spell covers your hand with a writhing black aura. As part of casting the spell, you can make a melee touch attack that deals 2d6 points of negative energy damage and causes the target to be staggered for 1 round. If the attack is a critical hit, the target is staggered for 1 minute instead. Creatures immune to precision damage are immune to the staggered effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d456b7fbbfbf49c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d456b7fbbfbf49c2"
+  },
+  "license": "OGL 1.0a"
+}

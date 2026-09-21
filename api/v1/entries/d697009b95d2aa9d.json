@@ -1,0 +1,17 @@
+{
+  "id": "d697009b95d2aa9d",
+  "name": "Modify an Existing Monster",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Mythic Adventures pg. 225",
+  "book": "Mythic Adventures",
+  "facets": {
+    "bk": "Mythic Adventures"
+  },
+  "body": "Rules Index | GM Screen\n\nModify an Existing Monster\nSource Mythic Adventures pg. 225\nMaking a mythic monster out of an ordinary monster is fairly straightforward—just follow these steps.\n\nStep 1—Determine its mythic rank (MR). Divide your monster’s CR by 2 to get its approximate mythic rank. If the result is not a whole number, it just means you have some flexibility in choosing the MR. For example, if your monster is a CR 7 chimera, half of 7 is 3.5, which means you can try it at MR 3 or MR 4. It’s easier to start with a lower MR—you can always increase the MR later if you need the monster to be a little more powerful.\n\nStep 2—Add the mythic subtype. The mythic subtype is described on page 226. The modifications to the creature’s ability scores, hit points, and other game statistics depend on your monster’s MR.\n\nStep 3—Add additional mythic abilities. As described in the mythic subtype, the monster gains a number of mythic abilities equal to its MR + 1.\n\nStep 4—Evaluate the monster at its final CR. Your monster’s final CR is its initial CR + 1/2 its MR (round down; minimum 1). Use Table 6–8: Monster Statistics by CR to evaluate whether the monster’s abilities are appropriately challenging for its final CR. If a creature’s mythic abilities complement its non-mythic abilities particularly well, that mythic creature may be too powerful for its final CR. If a creature’s mythic abilities don’t interact with its non-mythic abilities, that creature may be too weak for its final CR. If either of these situations occur, make adjustments to the creature so it better fits the intended CR.\n\nIf the creature is too weak and you rounded the creature’s MR down in Step 1, you can round up instead (adjusting the modifiers from the mythic subtype). If the creature is too strong and you rounded the creature’s MR up in Step 1, you can round down instead (adjusting the modifiers from the mythic subtype).\n\nOnce the creature’s abilities and statistics fit its CR, you’re done.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d697009b95d2aa9d.json",
+    "web": "https://codex.pipsprojects.com/#/e/d697009b95d2aa9d"
+  },
+  "license": "OGL 1.0a"
+}

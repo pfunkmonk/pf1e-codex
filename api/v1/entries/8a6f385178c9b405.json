@@ -1,0 +1,40 @@
+{
+  "id": "8a6f385178c9b405",
+  "name": "Endure Elements, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 277",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "adept": 1,
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "summoner": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Endure Elements\nSource PRPG Core Rulebook pg. 277\nSchool abjuration; Level adept 1, alchemist 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, paladin 1, psychic 1, ranger 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, summoner (unchained) 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 24 hours\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nA creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between –50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.\n\nEndure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.\nMythic Endure Elements\nSource Mythic Adventures pg. 93\nThe target changes to one creature touched per level. Affected creatures gain cold resistance 5 and fire resistance 5. They’re not slowed by snow, and ignore penalties on Perception checks and ranged weapon attacks from hail, rain, sleet, and snow. They treat wind as one category weaker.\nEndure Elements, Communal\nSource Ultimate Combat pg. 228\nSchool abjuration; Level alchemist 3, arcanist 2, cleric 2, druid 2, hunter 2, investigator 3, oracle 2, paladin 2, psychic 2, ranger 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTargets creatures touched\nDuration 24 hours\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like endure elements, except you divide the duration in 1-hour increments among the creatures touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a6f385178c9b405.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a6f385178c9b405"
+  },
+  "license": "OGL 1.0a"
+}

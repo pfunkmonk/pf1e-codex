@@ -1,0 +1,29 @@
+{
+  "id": "a4a18f1b408cc60a",
+  "name": "Destruction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 266",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 7,
+      "oracle": 7,
+      "shaman": 8,
+      "witch": 8
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 266\nSchool necromancy [death]; Level cleric 7, oracle 7, shaman 8, witch 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (holy or unholy symbol costing 500 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nThis spell instantly delivers 10 points of damage per caster level. If the spell slays the target, it consumes the remains utterly in holy (or unholy) fire (but not its equipment or possessions). If the target's Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell (and was slain) is to use true resurrection, a carefully worded wish spell followed by resurrection, or miracle.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4a18f1b408cc60a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4a18f1b408cc60a"
+  },
+  "license": "OGL 1.0a"
+}

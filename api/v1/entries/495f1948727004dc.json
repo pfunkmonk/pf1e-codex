@@ -1,0 +1,25 @@
+{
+  "id": "495f1948727004dc",
+  "name": "Litany of Sloth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 235",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "inquisitor": 1,
+      "paladin": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 235\nSchool enchantment (compulsion) [language-dependent, mind-affecting]; Level antipaladin 1, inquisitor 1, paladin 1\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWith a litany against the wages of sloth, you slow the target’s defenses. The target cannot make attacks of opportunity or cast spells defensively.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/495f1948727004dc.json",
+    "web": "https://codex.pipsprojects.com/#/e/495f1948727004dc"
+  },
+  "license": "OGL 1.0a"
+}

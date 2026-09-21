@@ -1,0 +1,30 @@
+{
+  "id": "a9b3b423e667edcb",
+  "name": "Finger of Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 282",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 7,
+      "druid": 8,
+      "psychic": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 282\nSchool necromancy [death]; Level arcanist 7, druid 8, psychic 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nThis spell instantly delivers 10 points of damage per caster level. If the target's Fortitude saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.\nMythic Finger of Death\nSource Mythic Adventures pg. 94\nThe damage dealt increases to 15 points of damage per caster level plus 1d8 points of Constitution damage. A creature that succeeds at its saving throw takes 3d8 points of damage + 1 point per caster level, takes 1d4 points of Constitution damage, and is staggered for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9b3b423e667edcb.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9b3b423e667edcb"
+  },
+  "license": "OGL 1.0a"
+}

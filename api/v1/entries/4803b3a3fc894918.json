@@ -1,0 +1,31 @@
+{
+  "id": "4803b3a3fc894918",
+  "name": "Theft Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 167",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 167\nSchool abjuration; Level arcanist 1, cleric 1, inquisitor 1, mesmerist 1, oracle 1, sorcerer 1, warpriest 1, witch 1, wizard 1 (tengu)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one object\nDuration 1 day\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou ward a single object in your possession against theft. You gain a +10 bonus on Perception checks to notice someone trying to take the object from you.\nMythic Theft Ward\nSource Mythic Adventures pg. 110\nAdd your tier to the Perception check bonus. Add your tier to your CMD against disarm and steal combat maneuvers attempted against the item.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4803b3a3fc894918.json",
+    "web": "https://codex.pipsprojects.com/#/e/4803b3a3fc894918"
+  },
+  "license": "OGL 1.0a"
+}

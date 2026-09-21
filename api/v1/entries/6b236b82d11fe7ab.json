@@ -1,0 +1,28 @@
+{
+  "id": "6b236b82d11fe7ab",
+  "name": "Curse Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #64: Beyond the Doomsday Door pg. 73",
+  "book": "Pathfinder #64: Beyond the Doomsday Door",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #64: Beyond the Doomsday Door"
+  },
+  "body": "Source Pathfinder #64: Beyond the Doomsday Door pg. 73\nSchool necromancy [curse]; Level cleric 2, oracle 2, warpriest 2 (Groetus)\nCasting\nCasting Time 1 minute\nComponents V, S, DF\nEffect\nRange touch\nTarget object touched\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nThe object becomes flawed and prone to failure. The effects of this spell depend on the nature of the object.\n\nMagic Item: The item functions intermittently, gaining either an unreliable curse or a random dependent curse (Pathfinder RPG Core Rulebook 536).\n\nNonmagical Armor or Shield: The item gains the fragile armor quality (Pathfinder RPG Ultimate Equipment 8).\n\nNonmagical Weapon: The item gains the fragile weapon quality (Ultimate Equipment 22).\n\nTool: The item gains the broken condition if a creature rolls a natural 1 while making a skill check with the tool.\n\nOther Item: Each day it is used, the item has a 5% chance of gaining the broken condition.\n\nThis spell does not affect artifacts. The item can be sold or discarded as normal (the bearer is not compelled to keep it). If a cleric of Groetus is using an item that is affected by this spell, he or she may make a DC 20 Will saving throw to override the item’s curse for 1 day (using it as if the item were not cursed).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b236b82d11fe7ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b236b82d11fe7ab"
+  },
+  "license": "OGL 1.0a"
+}

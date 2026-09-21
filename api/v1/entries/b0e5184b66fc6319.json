@@ -1,0 +1,28 @@
+{
+  "id": "b0e5184b66fc6319",
+  "name": "Curse of Burning Sleep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 179",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 179\nSchool transmutation [curse, fire]; Level arcanist 4, psychic 4, redmantisassassin 4, shaman 4, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a feather and a drop of oil)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent until triggered (see text)\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou place a curse upon the target that triggers 1 hour after the next time it falls asleep. When the curse is triggered, the creature bursts into flame, taking 1d6 points of fire damage per 2 caster levels (maximum 8d6). Furthermore, it catches on fire, taking 2d6 points of fire damage per round at the end of its turn each round until the creature dies or is quenched as normal (Pathfinder RPG Core Rulebook 444). If the target is still asleep, the fire damage from this spell wakes it.\n\nOnly one of these spells can be in place on a creature at any time. This has no effect on creatures that don’t sleep.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0e5184b66fc6319.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0e5184b66fc6319"
+  },
+  "license": "OGL 1.0a"
+}

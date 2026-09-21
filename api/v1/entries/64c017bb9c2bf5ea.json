@@ -1,0 +1,21 @@
+{
+  "id": "64c017bb9c2bf5ea",
+  "name": "Deeplit",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Down the Blighted Path pg. 53",
+  "book": "Down the Blighted Path",
+  "facets": {
+    "cr": 5,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Down the Blighted Path"
+  },
+  "body": "This granite-skinned humanoid stands as tall as a dwarf, though a flickering flame hovers where its head should be.\nDeeplit CR 5\nSource Down the Blighted Path pg. 53\nXP 1,600\nNE Medium undead\nInit +2; Senses darkvision 60 ft.; Perception +13\nAura palelight (20 ft., DC 16)\nDefense\nAC 19, touch 12, flat-footed 17 (+4 armor, +2 Dex, +3 natural)\nhp 52 (7d8+21)\nFort +5, Ref +4, Will +8\nImmune blindness, undead traits\nWeaknesses pattern susceptibility\nOffense\nSpeed 20 ft.\nMelee mwk heavy pick +13 (1d6+10/×4)\nRanged rock +7 (1d4+7)\nSpecial Attacks consume light\nStatistics\nStr 25, Dex 14, Con —, Int 10, Wis 16, Cha 17\nBase Atk +5; CMB +12 (+14 sunder); CMD 24 (26 vs. sunder)\nFeats Cleave, Improved Sunder, Power Attack, Throw Anything\nSkills Climb +16, Knowledge (dungeoneering) +7, Perception +13, Profession (miner) +10\nLanguages Dwarven, Undercommon (can’t speak)\nEcology\nEnvironment any underground\nOrganization solitary, pair, or team (3–12)\nTreasure standard\nSpecial Abilities\nConsume Light (Su) A deeplit can inhale nearby lights as a standard action. The deeplit makes a single Charisma check against all light sources within 20 feet (DC = 10 + the flame’s spell level; nonmagical torches and lanterns have a DC of 10, while alchemical light sources have a DC of 11). Affected light sources are immediately extinguished. If the deeplit consumes a light source that is at least normal brightness, it can either immediately regurgitate or swallow the light as a free action. Regurgitating the light deals 2d6 points of fire damage to all creatures in a 15-foot cone, and blinds affected creatures for 1d6 rounds. A successful DC 16 Reflex saving throw halves the damage and dazzles victims instead of blinding them. Swallowing the light enhances the deeplit’s palelight aura for 1d6 rounds. The save DC is Charisma-based. Deeplit are immune to this ability, and to any damage inflicted by regurgitated light.\n\nPalelight Aura (Su) A deeplit’s flaming head emits dim light in a 20-foot radius. When a deeplit swallows light, its head instead emits bright light over the same area for 1d6 rounds. Any living creatures within the area of this unholy light become fatigued for 1 hour (Fortitude DC 16 negates). A creature that successfully saves against a deeplit’s palelight aura can’t be affected by that same deeplit’s aura for 24 hours. Its save DC is Charisma-based.\n\nPattern Susceptibility (Ex) Pattern effects and spells affect deeplits normally, ignoring the normal undead immunity to mind-affecting effects.\nDescription\nDeeplits spawn from unfortunate creatures lost underground. Many were dwarves who fell during the Quest for Sky, but miners and explorers may also succumb to similar fates. Deeplits dig through caves and mines, yearning to see sunlight one last time, but are cursed to repeat the same confused paths they followed in life.\n\nDeeplits paradoxically crave the light other undead despise. Thanks to their long exposure to lightless realms, deeplits find bright lights euphoric.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/64c017bb9c2bf5ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/64c017bb9c2bf5ea"
+  },
+  "license": "OGL 1.0a"
+}

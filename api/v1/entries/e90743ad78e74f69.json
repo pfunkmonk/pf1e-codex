@@ -1,0 +1,33 @@
+{
+  "id": "e90743ad78e74f69",
+  "name": "Hydraulic Push",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 228",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "magus": 1,
+      "shaman": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 228\nSchool evocation [water]; Level arcanist 1, bloodrager 1, druid 1, hunter 1, magus 1, shaman 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\nDescription\nYou call forth a quick blast of water that knocks over and soaks one creature or square. You can use this blast of water to make a bull rush against any one creature or object. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. This bull rush does not provoke an attack of opportunity. Hydraulic push extinguishes any normal fires on a creature, object, or in a single 5-foot square which it is targeted against. Magical fires are unaffected.\nMythic Hydraulic Push\nSource Mythic Adventures pg. 98\nThe water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e90743ad78e74f69.json",
+    "web": "https://codex.pipsprojects.com/#/e/e90743ad78e74f69"
+  },
+  "license": "OGL 1.0a"
+}

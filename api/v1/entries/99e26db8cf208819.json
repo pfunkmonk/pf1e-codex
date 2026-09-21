@@ -1,0 +1,31 @@
+{
+  "id": "99e26db8cf208819",
+  "name": "Stunning Barrier",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 194",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 194\nSchool abjuration; Level arcanist 1, cleric 1, inquisitor 1, oracle 1, paladin 1, psychic 1, sorcerer 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level or until discharged\nSaving Throw none and Will negates (see text); Spell Resistance no and yes (see text)\nDescription\nYou are closely surrounded by a barely visible magical field. The field provides a +1 deflection bonus to AC and a +1 resistance bonus on saves. Any creature that strikes you with a melee attack is stunned for 1 round (Will negates). Once the field has stunned an opponent, the spell is discharged.\nStunning Barrier, Greater\nSource Advanced Class Guide pg. 195\nSchool abjuration; Level arcanist 3, cleric 3, inquisitor 3, oracle 3, paladin 3, psychic 3, sorcerer 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level or until discharged\nSaving Throw none and Will negates (see text); Spell Resistance no and yes (see text)\nDescription\nThis spell functions as stunning barrier, except as noted above, and it provides a +2 bonus to AC and on saving throws. It is not discharged until it has stunned a number of creatures equal to your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/99e26db8cf208819.json",
+    "web": "https://codex.pipsprojects.com/#/e/99e26db8cf208819"
+  },
+  "license": "OGL 1.0a"
+}

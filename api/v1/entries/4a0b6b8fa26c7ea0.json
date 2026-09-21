@@ -1,0 +1,31 @@
+{
+  "id": "4a0b6b8fa26c7ea0",
+  "name": "Lay of the Land",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faiths and Philosophies pg. 29",
+  "book": "Faiths and Philosophies",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "ranger": 2,
+      "skald": 2,
+      "warpriest": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Faiths and Philosophies"
+  },
+  "body": "Source Faiths and Philosophies pg. 29\nSchool divination; Level bard 2, cleric 2, druid 2, hunter 2, oracle 2, ranger 2, skald 2, warpriest 2, witch 2\nCasting\nCasting Time 1 minute\nComponents V, S, M (a piece of soil from the land to be memorized)\nEffect\nRange personal\nTarget you\nDuration 1 day\nSaving Throw none; Spell Resistance yes\nDescription\nIn a flash of recognition, you learn about the geography of your surroundings within a radius of 1 mile per 2 caster levels (minimum 1 mile). This instant familiarity grants you an insight bonus equal to your caster level (maximum +5) on Knowledge (geography) checks and Survival checks to avoid getting lost so long as you remain in the affected area.\n\nAdditionally, for the duration of the spell you can make Knowledge (geography) checks regarding the affected area as though you were trained in that skill.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a0b6b8fa26c7ea0.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a0b6b8fa26c7ea0"
+  },
+  "license": "OGL 1.0a"
+}

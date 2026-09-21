@@ -1,0 +1,27 @@
+{
+  "id": "68a9c3c86ae503f5",
+  "name": "Unseen Engineers",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobolds of Golarion pg. 27",
+  "book": "Kobolds of Golarion",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "summoner": 2,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobolds of Golarion"
+  },
+  "body": "Source Kobolds of Golarion pg. 27\nSchool conjuration (creation); Level arcanist 3, sorcerer 3, summoner 2, summoner (unchained) 2, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (materials required to construct the trap)\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect a team of tiny, invisible engineers\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nYou conjure an invisible team of tiny engineers to construct a trap at alarming speed. Originating at your location, the team must remain within range of you or the spell ends. The engineers construct a mechanical trap of your choice. Construction takes a number of rounds equal to the trap’s challenge rating. The engineers must have the materials available. At the end of the construction time, use your Craft (traps) skill with a +5 bonus to determine the success of their work. If the engineers succeed, the trap is complete and the spell ends. If they fail, the materials are deposited at that location and the spell ends. If the spell’s duration ends before the trap is complete, the engineers automatically fail.\n\nThe engineers move at your base speed and can carry only materials required in the construction of the desired trap. They can’t attack in any way or be killed, and dissipate if they take 12 points of damage from area attacks (they get no saves against attacks).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68a9c3c86ae503f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/68a9c3c86ae503f5"
+  },
+  "license": "OGL 1.0a"
+}

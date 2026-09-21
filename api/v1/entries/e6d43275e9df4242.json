@@ -1,0 +1,28 @@
+{
+  "id": "e6d43275e9df4242",
+  "name": "Pox Pustules",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 236",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "witch": 2
+    },
+    "desc": [
+      "disease"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 236\nSchool necromancy [disease]; Level druid 2, hunter 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (leaves from a toxic plant)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou inflict a painful, itching rash on the target creature. The target is sickened and takes a –4 penalty to Dexterity (this penalty cannot lower Dexterity below 0). The target can spend a move action scratching furiously at the rash to remove the sickened condition (but not the Dexterity penalty) until the start of its next turn.\nMythic Pox Pustules\nSource Mythic Adventures pg. 104\nThe Dexterity penalty increases to –6. The target takes 1 point of bleed damage each round. If the target spends a move action scratching, increase its bleed damage each round by 1. If the bleeding is stopped, scratching causes it to start again at 1 point of bleed per round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6d43275e9df4242.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6d43275e9df4242"
+  },
+  "license": "OGL 1.0a"
+}

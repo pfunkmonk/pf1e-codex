@@ -1,0 +1,17 @@
+{
+  "id": "89338d98786d8c72",
+  "name": "Mental Static Aura",
+  "bucket": "monsters",
+  "category": "Universal Monster Rules",
+  "source": "Bestiary 6 pg. 295, Bestiary 5 pg. 295",
+  "book": "Bestiary 6",
+  "facets": {
+    "bk": "Bestiary 6"
+  },
+  "body": "All | Unique\nMental Static Aura (Su)\nSource Bestiary 6 pg. 295, Bestiary 5 pg. 295\nA creature with this ability creates a field around itself that makes concentrating difficult for those without this ability. Living creatures within 30 feet must succeed at a concentration check (DC = 10 + 1/2 the HD of the creature with the mental static aura + that creature’s Charisma modifier) to cast a spell with a thought component. Failing this check causes the spell to be lost with no effect. In addition, all spellcasters must attempt this check at the start of their turns if they are concentrating on an active spell or effect. Failing it means that they cease concentrating on the spell or effect. Creatures with this ability are immune to its effects and can cast spells normally.\n\nFormat: mental static (DC 18)\nLocation: Aura.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89338d98786d8c72.json",
+    "web": "https://codex.pipsprojects.com/#/e/89338d98786d8c72"
+  },
+  "license": "OGL 1.0a"
+}

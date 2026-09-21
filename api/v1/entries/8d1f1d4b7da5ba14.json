@@ -1,0 +1,31 @@
+{
+  "id": "8d1f1d4b7da5ba14",
+  "name": "Mark of Justice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 312",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 5,
+      "oracle": 5,
+      "paladin": 4,
+      "warpriest": 5,
+      "witch": 5
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 312\nSchool necromancy [curse]; Level cleric 5, inquisitor 5, oracle 5, paladin 4, warpriest 5, witch 5\nCasting\nCasting Time 10 minutes\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration permanent; see text\nSaving Throw none; Spell Resistance yes\nDescription\nYou mark a subject and state some behavior on the part of the subject that will activate the mark. When activated, the mark curses the subject. Typically, you designate some sort of undesirable behavior that activates the mark, but you can pick any act you please. The effect of the mark is identical with the effect of bestow curse.\n\nSince this spell takes 10 minutes to cast and involves writing on the target, you can cast it only on a creature that is willing or restrained.\n\nLike the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. These restrictions apply regardless of whether the mark has activated.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d1f1d4b7da5ba14.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d1f1d4b7da5ba14"
+  },
+  "license": "OGL 1.0a"
+}

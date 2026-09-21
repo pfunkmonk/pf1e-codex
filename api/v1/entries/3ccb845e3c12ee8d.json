@@ -1,0 +1,27 @@
+{
+  "id": "3ccb845e3c12ee8d",
+  "name": "Parchment Swarm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 180",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 5,
+      "magus": 5,
+      "occultist": 4,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 180\nSchool transmutation; Level arcanist 5, magus 5, occultist 4, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents S, M (blank parchment or magic scroll; see text)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Reflex half, see text; Spell Resistance yes\nDescription\nWhen you cast this spell, you quickly tear a parchment into shreds, releasing the flying fragments to swarm around a target creature and deliver thousands of tiny paper cuts. Using normal parchment, the spell deals 1d6 points of magical slashing damage per caster level (maximum 15d6).\n\nIf you use a magic scroll as the material component, choose one of the spells stored in the scroll. If the spell is 1st level, you can choose to apply the effect of that spell to the parchment swarm’s target on a failed Reflex save (if the spell on the scroll has its own saving throw, the target then attempts that save as normal). If the spell on the scroll is at least 2nd level, you can choose to instead change parchment swarm to affect a 20-foot-radius spread instead of a single target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ccb845e3c12ee8d.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ccb845e3c12ee8d"
+  },
+  "license": "OGL 1.0a"
+}

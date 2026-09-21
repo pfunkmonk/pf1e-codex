@@ -1,0 +1,32 @@
+{
+  "id": "2854f6da90826704",
+  "name": "Fox's Cunning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 286",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "investigator": 2,
+      "medium": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 286\nSchool transmutation; Level alchemist 2, arcanist 2, bard 2, investigator 2, medium 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (hairs or dung from a fox)\nEffect\nRange touch\nTarget you\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe target becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligence-based skill checks and other uses of the Intelligence modifier. Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spell's effect do increase. This spell doesn't grant extra skill ranks.\nFox's Cunning, Mass\nSource PRPG Core Rulebook pg. 286\nSchool transmutation; Level arcanist 6, bard 6, psychic 6, skald 6, sorcerer 6, summoner 4, summoner (unchained) 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (hairs or dung from a fox)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell functions like fox's cunning, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2854f6da90826704.json",
+    "web": "https://codex.pipsprojects.com/#/e/2854f6da90826704"
+  },
+  "license": "OGL 1.0a"
+}

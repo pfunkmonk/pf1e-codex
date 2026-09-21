@@ -1,0 +1,26 @@
+{
+  "id": "24dd4d0e92278949",
+  "name": "Hide from Undead, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 296",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Hide from Undead\nSource PRPG Core Rulebook pg. 296\nSchool abjuration; Level cleric 1, inquisitor 1, oracle 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets one touched creature/level\nDuration 10 min./level (D)\nSaving Throw Will negates (harmless); see text; Spell Resistance yes\nDescription\nUndead cannot see, hear, or smell creatures warded by this spell. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Nonintelligent undead creatures (such as skeletons or zombies) are automatically affected and act as though the warded creatures are not there. An intelligent undead creature gets a single Will saving throw. If it fails, the subject can't see any of the warded creatures. If it has reason to believe unseen opponents are present, however, it can attempt to find or strike them. If a warded creature attempts to channel positive energy, turn or command undead, touches an undead creature, or attacks any creature (even with a spell), the spell ends for all recipients.\nHide from Undead, Greater\nSource People of the Wastes pg. 29\nSchool abjuration; Level cleric 3, inquisitor 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets one touched creature/level\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmles); see text; Spell Resistance yes\nDescription\nThis spell functions as hide from undead, except the spell does not immediately end if a warded creature attempts to turn or command undead, channels positive energy, touches an undead creature, or attacks any creature. Instead, when the warded creature takes one of these actions, an intelligent undead creature can attempt another Will saving throw to negate the effects of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/24dd4d0e92278949.json",
+    "web": "https://codex.pipsprojects.com/#/e/24dd4d0e92278949"
+  },
+  "license": "OGL 1.0a"
+}

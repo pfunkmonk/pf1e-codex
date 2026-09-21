@@ -1,0 +1,34 @@
+{
+  "id": "e0d27c59ee6529c0",
+  "name": "Jump",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 303",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "magus": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 303\nSchool transmutation; Level alchemist 1, arcanist 1, bloodrager 1, druid 1, hunter 1, investigator 1, magus 1, psychic 1, ranger 1, redmantisassassin 1, sorcerer 1, summoner 1, summoner (unchained) 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a grasshopper's hind leg)\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe subject gets a +10 enhancement bonus on Acrobatics checks made to attempt high jumps or long jumps. The enhancement bonus increases to +20 at caster level 5th, and to +30 (the maximum) at caster level 9th.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e0d27c59ee6529c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/e0d27c59ee6529c0"
+  },
+  "license": "OGL 1.0a"
+}

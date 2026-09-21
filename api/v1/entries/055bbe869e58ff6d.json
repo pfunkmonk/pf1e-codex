@@ -1,0 +1,27 @@
+{
+  "id": "055bbe869e58ff6d",
+  "name": "Halfling Vengeance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #131: The Reaper's Right Hand pg. 72",
+  "book": "Pathfinder #131: The Reaper's Right Hand",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #131: The Reaper's Right Hand"
+  },
+  "body": "Source Pathfinder #131: The Reaper's Right Hand pg. 72\nSchool divination; Level antipaladin 1, cleric 2, inquisitor 2, oracle 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one Small or smaller creature touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou grant the touched target the ability to ascertain the weaknesses of foes. The target deals an additional 1d6 points of precision damage on successful attacks with daggers or slings against foes within 30 feet, as long as the attacked foe is denied its Dexterity bonus to Armor Class or is flanked by the target. This additional damage increases by 1d6 for every 4 caster levels you have beyond 3rd, to a maximum of 5d6 at 19th level. This bonus damage is precision damage and stacks with other sources of precision damage, such as sneak attack. This bonus damage is not multiplied on a critical hit.\n\nOnce per round on a successful attack that deals this precision damage, the target can choose to forgo 2d6 points of precision damage (either granted by this spell or from other sources of precision damage, such as sneak attack) to inflict one of the following conditions on the attacked foe for 1 round:\nThe attacked foe can’t make attacks of opportunity against creatures smaller than it.\nThe attacked foe is denied its Dexterity bonus to Armor Class against attacks made with daggers or slings.\nThe attacked foe takes a –2 penalty on attacks against creatures smaller than it.\nThe attacked foe can’t take 5-foot steps.\nA creature can benefit from only one halfling vengeance spell at a time.\nHalfling Vengeance, Mass\nSource Pathfinder #131: The Reaper's Right Hand pg. 72\nSchool divination; Level antipaladin 4, cleric 7, inquisitor 6, oracle 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one Small or smaller creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like halfling vengeance, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/055bbe869e58ff6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/055bbe869e58ff6d"
+  },
+  "license": "OGL 1.0a"
+}

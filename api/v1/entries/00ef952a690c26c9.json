@@ -1,0 +1,26 @@
+{
+  "id": "00ef952a690c26c9",
+  "name": "Cloak of Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 255",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "oracle": 8
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 255\nSchool abjuration [chaotic]; Level cleric 8, oracle 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a tiny reliquary worth 500 gp)\nEffect\nRange 20 ft.\nTargets one creature/level in a 20-ft.-radius burst centered on you\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes (harmless)\nDescription\nA random pattern of color surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by lawful creatures, and causing lawful creatures that strike the subjects to become confused. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from law, the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.\n\nSecond, each warded creature gains spell resistance 25 against lawful spells and spells cast by lawful creatures.\n\nThird, the abjuration protects from possession and mental influence, just as protection from law does.\n\nFinally, if a lawful creature succeeds on a melee attack against a warded creature, the offending attacker is confused for 1 round (Will save negates, as with the confusion spell, but against the save DC of cloak of chaos).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/00ef952a690c26c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/00ef952a690c26c9"
+  },
+  "license": "OGL 1.0a"
+}

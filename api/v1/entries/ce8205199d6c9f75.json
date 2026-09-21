@@ -1,0 +1,25 @@
+{
+  "id": "ce8205199d6c9f75",
+  "name": "Talisman of Reprieve",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Plane-Hopper's Handbook pg. 12",
+  "book": "Plane-Hopper's Handbook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 4,
+      "occultist": 5,
+      "paladin": 3,
+      "warpriest": 5
+    },
+    "bk": "Plane-Hopper's Handbook"
+  },
+  "body": "Source Plane-Hopper's Handbook pg. 12\nSchool abjuration; Level cleric 5, inquisitor 4, occultist 5, paladin 3, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 20-ft.-radius emanation centered on an item\nDuration 10 minutes/level\nDescription\nYou imbue an item with an aura of divine amnesty, allowing all allies within the aura’s area to ignore penalties to Intelligence-, Wisdom-, and Charisma-based checks resulting from a plane’s mildly or strongly aligned traits (Planar Adventures 62), regardless of the allies’ alignments. In addition, the item grants a +4 circumstance bonus on checks with one Intelligence-, Wisdom-, or Charisma-based skill determined by you at the time of casting.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce8205199d6c9f75.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce8205199d6c9f75"
+  },
+  "license": "OGL 1.0a"
+}

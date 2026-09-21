@@ -1,0 +1,33 @@
+{
+  "id": "8153ee0c1fbd55c5",
+  "name": "Life Bubble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 230",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 5,
+      "druid": 4,
+      "hunter": 3,
+      "occultist": 4,
+      "oracle": 5,
+      "psychic": 5,
+      "ranger": 3,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 230\nSchool abjuration; Level arcanist 5, cleric 5, druid 4, hunter 3, occultist 4, oracle 5, psychic 5, ranger 3, sorcerer 5, warpriest 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a bit of eggshell)\nEffect\nRange touch\nTarget creatures touched, up to one/level\nDuration 2 hours/level; see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou surround the touched creatures with a constant and moveable 1-inch shell of tolerable living conditions. This shell enables the subjects to breathe freely, even underwater or in a vacuum, as well as making them immune to harmful gases and vapors, including inhaled diseases and poisons and spells like cloudkill and stinking cloud. In addition, the shell protects subjects from extremes of temperature (per endure elements) as well as extremes of pressure.\n\nLife bubble does not provide protection from negative or positive energy (such as found on the Negative and Positive Energy planes), the ability to see in conditions of poor visibility (such as in smoke or fog), nor the ability to move or act normally in conditions that impede movement (such as underwater).\n\nWhen you cast this spell it has a total duration of 2 hours per caster level. You can divide this duration up in any manner you wish, not necessarily equally, between up to 1 creature per caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8153ee0c1fbd55c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/8153ee0c1fbd55c5"
+  },
+  "license": "OGL 1.0a"
+}

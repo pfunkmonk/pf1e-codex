@@ -1,0 +1,56 @@
+{
+  "id": "6bc3d75c1ad34c39",
+  "name": "Creating a Loci Spirit",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Occult Adventures pg. 228",
+  "book": "Occult Adventures",
+  "facets": {
+    "bk": "Occult Adventures"
+  },
+  "body": "Rules Index | GM Screen\n\nCreating a Loci Spirit\nSource Occult Adventures pg. 228\nTo make your own loci spirit like the examples below, follow these steps.\n\nStep 1—Determine Base CR: A loci spirit’s base CR is equal to 1 + the level of the spell it duplicates.\n\nStep 2—Determine Actual CR: Select the elements you want the loci spirit to have and add up the adjustments to its CR to arrive at the loci spirit’s final CR (see Table 6–1: CR Modifiers for Loci Spirits).\n\nStep 3—Determine Caster Level: A loci spirit’s caster level is equal to its CR.\n\nStep 4—Determine Hit Points: A loci spirit’s hit points are equal to twice its CR.\n\nStep 5—Determine Ceremony DC: The ceremony check DC is equal to 20 + the loci spirit’s CR.\n\nStep 6—Save DCs: If a loci spirit’s ceremonial effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell. Normally, the ceremonial effect is harmless and thus applies only if a creature voluntarily wishes to resist or negate the effect.\n\nStep 7—Determine Corruption Effect, Attack, and Save DCs: A corrupted loci spirit manifests a mind-affecting fear effect with the same spell level as its unique effect. A corrupted loci spirit’s attack bonus (if needed) is usually equal to its CR.\n\nTable 6-1: CR Modifiers for Loci Spirits\nFeature Type CR Modifiers for Loci Spirits\nCeremony requires more than 1 skill check +1 for each additional skill check\nPermanent effects +1 for each additional permanent effect beyond the first\nSingular -1\nCoterie 0\nBoon +1\nHard to heal1 -1\nSusceptible to corruption2 -1\n1 Loci spirits that are hard to heal gain only half the normal amount of hit points from effects that restore hit points.\n2 Loci spirits that are susceptible to corruption lose twice the amount of hit points from corrupting actions.\nBenevolent Priest CR 5\nXP 1,600\nNG protective coterie loci spirit (10-ft.-by-10-ft. room) Caster Level 5th hp 10; Ceremony Knowledge (religion) DC 25, Survival DC 25 Effect When the celebrant performs the appropriate offering of twigs and berries, the loci spirit manifests as a ghostly, rotund man in clerical garb bearing trays of food, which he offers to the celebrant and its allies, as the create food and water spell. Corruption Effect Create food and water becomes contagion (DC 14).\nGhostly Warriors CR 5\nXP 1,600 LG sacred boon loci spirit (5-ft. radius centered on the shrine) Caster Level 5th hp 10; Ceremony Diplomacy DC 25, Perform (oratory) DC 25 Effect Invoking the ceremony with pomp and vigor rouses a cadre of ghostly figures in ancient armor that kneel before all creatures in the loci spirit’s area of effect and present their weapons, granting a boon of align weapon (each recipient’s choice of lawful or good only). Corruption Effect Align weapon becomes shatter (DC 13).\nHero's Call CR 4\nXP 1,200 CG energized singular loci spirit (15-ft. radius centered on the hero’s statue) Caster Level 4th hp 8; Ceremony Knowledge (history) DC 24, Perform (oratory) DC 24 Effect The celebrant entreats the brave hero from the ancient past, recalling the hero’s great deeds and requesting some of the hero’s strength for the celebrant’s own quest. If the ceremony is successful, the hero’s statue seems to raise its sword in a salute, and the celebrant gains the benefit of a heroism spell. Corruption Effect Heroism becomes scare (DC 13).",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Feature Type",
+          "CR Modifiers for Loci Spirits"
+        ],
+        [
+          "Ceremony requires more than 1 skill check",
+          "+1 for each additional skill check"
+        ],
+        [
+          "Permanent effects",
+          "+1 for each additional permanent effect beyond the first"
+        ],
+        [
+          "Singular",
+          "-1"
+        ],
+        [
+          "Coterie",
+          "0"
+        ],
+        [
+          "Boon",
+          "+1"
+        ],
+        [
+          "Hard to heal1",
+          "-1"
+        ],
+        [
+          "Susceptible to corruption2",
+          "-1"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6bc3d75c1ad34c39.json",
+    "web": "https://codex.pipsprojects.com/#/e/6bc3d75c1ad34c39"
+  },
+  "license": "OGL 1.0a"
+}

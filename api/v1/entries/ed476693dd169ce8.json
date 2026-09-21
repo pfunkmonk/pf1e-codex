@@ -1,0 +1,27 @@
+{
+  "id": "ed476693dd169ce8",
+  "name": "Languid Bomb Admixture",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 233",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 5,
+      "investigator": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 233\nSchool enchantment (compulsion) [mind-affecting]; Level alchemist 5, investigator 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nSaving Throw Will negates (special, see below); Spell Resistance yes\nDescription\nUpon drinking an extract created with this formula, you make a significant change to your magical reserve that modifies the nature of all bombs you create and throw during this extract’s duration. This effect on your magical reserve has no effect on any discoveries that you use to modify your bombs, but you can only have one admixture effect (formulae with the words “bomb admixture” in their titles) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the those of the new one become active.\n\nWhen you throw a bomb and hit a direct target, it affects up to four creatures—the creature the bomb hit directly, and up to three other creatures damaged by the splash (alchemist’s choice). Those creatures must succeed at a Will saving throw or become fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed476693dd169ce8.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed476693dd169ce8"
+  },
+  "license": "OGL 1.0a"
+}

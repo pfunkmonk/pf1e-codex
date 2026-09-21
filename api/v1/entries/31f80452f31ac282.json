@@ -1,0 +1,30 @@
+{
+  "id": "31f80452f31ac282",
+  "name": "Rotgut",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Villain Codex pg. 188",
+  "book": "Villain Codex",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Villain Codex"
+  },
+  "body": "Source Villain Codex pg. 188\nSchool transmutation; Level antipaladin 2, bard 2, cleric 2, inquisitor 2, occultist 2, oracle 2, skald 2, warpriest 2\nCasting\nCasting Time 1 round\nComponents V, S, M (a pinch of hops)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 gallon of water/level\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\nDescription\nYou transform the target into a cheap alcohol of your choice, such as beer, grog, mead, rum, or wine. The alcohol doesn’t taste good, but it’s drinkable and just as effective as normal alcohol in making creatures inebriated (Pathfinder RPG GameMastery Guide 237). This spell doesn’t work on holy water, potions, magical liquids, or water that is part of a creature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31f80452f31ac282.json",
+    "web": "https://codex.pipsprojects.com/#/e/31f80452f31ac282"
+  },
+  "license": "OGL 1.0a"
+}

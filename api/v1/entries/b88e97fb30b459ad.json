@@ -1,0 +1,25 @@
+{
+  "id": "b88e97fb30b459ad",
+  "name": "Debilitating Speech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Disciple's Doctrine pg. 10",
+  "book": "Disciple's Doctrine",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Disciple's Doctrine"
+  },
+  "body": "Source Disciple's Doctrine pg. 10\nSchool enchantment [language-dependent, mind-affecting]; Level arcanist 4, sorcerer 4, wizard 4\nCasting\nCasting Time see below\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets 1 or more living creatures/level, no two of which may be more than 30 feet apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nBy speaking eloquently on the subject of your opponents’ ineptitude in combat, past failures, personal hygiene, or other faults, you sap their will to fight.\n\nThis spell can be cast as a standard action or as a full-round action. If cast as a standard action, it takes effect in 1d4 rounds following the spell’s casting. If cast as a full-round action, it takes effect 1 round after its casting. Enemies with 4 Hit Dice or fewer are panicked, enemies with 5–8 Hit Dice are cowering, and enemies with more than 8 Hit Dice are shaken.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b88e97fb30b459ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/b88e97fb30b459ad"
+  },
+  "license": "OGL 1.0a"
+}

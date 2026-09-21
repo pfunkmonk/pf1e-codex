@@ -1,0 +1,37 @@
+{
+  "id": "2b09443c73c53f80",
+  "name": "Discern Next of Kin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 179",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 179\nSchool divination [mind-affecting]; Level arcanist 1, bard 1, medium 1, mesmerist 1, occultist 1, psychic 1, shaman 1, skald 1, sorcerer 1, spiritualist 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a copper piece)\nEffect\nRange 60 ft.\nTarget one creature\nDuration concentration, up to 1 minute/level (D)\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou can scan the thoughts of one individual and learn the names and locations of the target’s living relatives, as well as the attitude of the target toward those relatives (and vice versa). You learn about one relative per round you concentrate on the target. For example, you might learn that the target’s father’s name is Jarn, the father lives on a nearby farm, and the target and his father don’t get along. Since this spell reads the target’s mind, you can learn only what the target knows or believes.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b09443c73c53f80.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b09443c73c53f80"
+  },
+  "license": "OGL 1.0a"
+}

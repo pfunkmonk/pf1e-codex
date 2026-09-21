@@ -1,0 +1,29 @@
+{
+  "id": "82226209b829bd91",
+  "name": "Staggering Fall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rival Guide pg. 35",
+  "book": "Rival Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "oracle": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rival Guide"
+  },
+  "body": "Source Rival Guide pg. 35\nSchool transmutation; Level arcanist 2, cleric 2, oracle 2, redmantisassassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one falling creature\nDuration 1 round/level (see below)\nSaving Throw Fortitude partial (see below); Spell Resistance yes\nDescription\nThis spell must be cast on a creature as it falls, either from a height or after being knocked prone or tripped. The magic of this spell causes the creature to hit the ground particularly hard, knocking the wind from it. The creature takes an additional 1d6 points of damage from the fall. In addition, the creature becomes staggered for the duration of the spell unless it makes a Will save. Each round the spell’s effects persist, the creature may attempt a new Will save as a free action to end the staggered effect early. A creature under the effects of this spell must take a standard action to stand up.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/82226209b829bd91.json",
+    "web": "https://codex.pipsprojects.com/#/e/82226209b829bd91"
+  },
+  "license": "OGL 1.0a"
+}

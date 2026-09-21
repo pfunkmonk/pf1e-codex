@@ -1,0 +1,27 @@
+{
+  "id": "cbadf49025685031",
+  "name": "Litany of Truth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Qadira, Jewel of the East pg. 33",
+  "book": "Qadira",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "inquisitor": 6,
+      "paladin": 4
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Qadira"
+  },
+  "body": "Source Qadira, Jewel of the East pg. 33\nSchool divination [language-dependent]; Level inquisitor 6, paladin 4\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWith a tirade against deceit, you strip the target of any illusions cloaking it. Any illusion spells or effects affecting the target are suppressed for the spell’s duration. In addition, the target can’t benefit from concealment.\n\nWhile subject to this spell, the target cannot be the target of another spell that has the word “litany” in the title.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cbadf49025685031.json",
+    "web": "https://codex.pipsprojects.com/#/e/cbadf49025685031"
+  },
+  "license": "OGL 1.0a"
+}

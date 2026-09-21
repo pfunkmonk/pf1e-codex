@@ -1,0 +1,30 @@
+{
+  "id": "48be45bec6c7be01",
+  "name": "Read Weather",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 238, Faiths of Balance pg. 28",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "skald": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 238, Faiths of Balance pg. 28\nSchool divination; Level bard 1, cleric 1, druid 1, hunter 1, oracle 1, ranger 1, shaman 1, skald 1, warpriest 1, witch 1 (Gozreh)\nCasting\nCasting Time 1 minute\nComponents V, S, F (a set of marked sticks or bones worth at least 25 gp)\nEffect\nRange personal\nTarget you\nDuration instantaneous\nDescription\nThis spell allows you to forecast the weather at your location for the next 48 hours, providing you with advance warning of storms, tornadoes, and so on. This forecast reveals only the weather that would arise naturally, and does not take into account any magical occurrences that might change the weather.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/48be45bec6c7be01.json",
+    "web": "https://codex.pipsprojects.com/#/e/48be45bec6c7be01"
+  },
+  "license": "OGL 1.0a"
+}

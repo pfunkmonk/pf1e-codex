@@ -1,0 +1,33 @@
+{
+  "id": "5ad230e840019df2",
+  "name": "Adjustable Polymorph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 172",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 4,
+      "bard": 4,
+      "investigator": 4,
+      "magus": 4,
+      "medium": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 172\nSchool transmutation (polymorph); Level alchemist 4, arcanist 4, bard 4, investigator 4, magus 4, medium 4, psychic 4, redmantisassassin 4, shaman 4, skald 4, sorcerer 4, summoner 4, summoner (unchained) 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a small piece of doppelganger flesh)\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D)\nDescription\nThis spell functions as alter self, except you can as a swift action alter the disguise (within the limitations of alter self). For example, you could transform yourself into a halfling, then a lizardfolk, then an elf, and so on. You can change your form a number of times equal to your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ad230e840019df2.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ad230e840019df2"
+  },
+  "license": "OGL 1.0a"
+}

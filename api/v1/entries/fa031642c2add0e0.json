@@ -1,0 +1,33 @@
+{
+  "id": "fa031642c2add0e0",
+  "name": "Illusory Script",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 299",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 299\nSchool illusion (phantasm) [mind-affecting]; Level arcanist 3, bard 3, mesmerist 3, occultist 3, psychic 3, redmantisassassin 3, skald 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 minute per page\nComponents V, S, M (lead-based ink worth 50 gp)\nEffect\nRange touch\nTarget one touched object weighing no more than 10 lbs.\nDuration one day/level (D)\nSaving Throw Will negates; see text; Spell Resistance yes\nDescription\nYou write instructions or other information on parchment, paper, or any suitable writing material. The illusory script appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it's unintelligible to any other character.\n\nAny unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast. The suggestion lasts only 30 minutes. Typical suggestions include “Close the book and leave,” “Forget the existence of this note,” and so forth. If successfully dispelled by dispel magic, the illusory script and its secret message disappear. The hidden message can be read by a combination of the true seeing spell with the read magic or comprehend languages spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa031642c2add0e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa031642c2add0e0"
+  },
+  "license": "OGL 1.0a"
+}

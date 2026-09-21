@@ -1,0 +1,56 @@
+{
+  "id": "652e4ff149648200",
+  "name": "Disrepute and Infamy",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Campaign pg. 184",
+  "book": "Ultimate Campaign",
+  "facets": {
+    "bk": "Ultimate Campaign"
+  },
+  "body": "Rules Index | GM Screen\nCampaign Systems / Reputation and Fame\n\nDisrepute and Infamy\nSource Ultimate Campaign pg. 184\nIf your Fame drops below 0, your reputation is based on infamy rather than fame. Treat your Fame as a positive number instead of a negative number for all rules relating to Fame, Sphere of Influence, and Prestige Points (for example, a villainous Fame of –20 is equivalent to a heroic Fame of 20 for the purpose of determining what awards you can buy).\n\nIf an event would increase your Fame, you may choose to increase your Fame (bringing it closer to 0) or decrease your Fame (making it a larger negative number). For example, if your Fame is –20 and you publicly roll a 30 on a Craft check to create a masterwork sword (normally worth +2), you may increase your Fame to –18 or decrease it to –22. Negative events that decrease your Fame always count as negative (a villain attacking innocent people doesn’t make the public like him more).\n\nIf you have a negative Fame, nonevil NPCs often have unfriendly or hostile reactions to you (see Table 3–7: Negative Fame Reactions). Note that if you have a reputation for being powerful and dangerous, NPCs might avoid you rather than confront you.\n\nTable 3-7: Negative Fame Reactions\nFame Reaction\n-5 Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community.\n-8 Merchants, hirelings, and innkeepers refuse to accept your business. If you enter a business, you are immediately asked to leave. If you refuse, the owner calls for the authorities or locals to throw you out\n-10 When you approach, businesses shutter their windows and bar their doors. Most citizens refuse to speak with you. Others request that you leave immediately. If you remain for longer than 24 hours or act out against the citizens, your Fame decreases by 5 and the citizens form a mob to run you out of town.\n-15 Incensed that you display the gall to enter their community, an angry mob gathers. If you do not leave within a few minutes, the mob starts pelting you with fruit, sticks, and rocks.\n-20 An angry mob forms shortly after you enter town. Not willing to wait for a potentially corrupt trial, they attempt to capture you and execute you for your crimes.\n-25 An authority figure has issued a warrant for your arrest, including a reward to anyone who captures you. This is well known and many are eager to collect it.\n-30 An authority figure has issued a bounty for your head. This is well known and many are eager to collect it.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Fame",
+          "Reaction"
+        ],
+        [
+          "-5",
+          "Merchants, hirelings, and innkeepers overcharge you by 10% to discourage you from doing business in their community."
+        ],
+        [
+          "-8",
+          "Merchants, hirelings, and innkeepers refuse to accept your business. If you enter a business, you are immediately asked to leave. If you refuse, the owner calls for the authorities or locals to throw you out"
+        ],
+        [
+          "-10",
+          "When you approach, businesses shutter their windows and bar their doors. Most citizens refuse to speak with you. Others request that you leave immediately. If you remain for longer than 24 hours or act out against the citizens, your Fame decreases by 5 and the citizens form a mob to run you out of town."
+        ],
+        [
+          "-15",
+          "Incensed that you display the gall to enter their community, an angry mob gathers. If you do not leave within a few minutes, the mob starts pelting you with fruit, sticks, and rocks."
+        ],
+        [
+          "-20",
+          "An angry mob forms shortly after you enter town. Not willing to wait for a potentially corrupt trial, they attempt to capture you and execute you for your crimes."
+        ],
+        [
+          "-25",
+          "An authority figure has issued a warrant for your arrest, including a reward to anyone who captures you. This is well known and many are eager to collect it."
+        ],
+        [
+          "-30",
+          "An authority figure has issued a bounty for your head. This is well known and many are eager to collect it."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/652e4ff149648200.json",
+    "web": "https://codex.pipsprojects.com/#/e/652e4ff149648200"
+  },
+  "license": "OGL 1.0a"
+}

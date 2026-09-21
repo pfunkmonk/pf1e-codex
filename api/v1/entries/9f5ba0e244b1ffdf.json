@@ -1,0 +1,25 @@
+{
+  "id": "9f5ba0e244b1ffdf",
+  "name": "Command Undead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 257",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 257\nSchool necromancy; Level arcanist 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a shread of raw meat and a splinter of bone)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one undead creature\nDuration 1 day/level\nSaving Throw Will negates; see text; Spell Resistance yes\nDescription\nThis spell allows you a degree of control over an undead creature. If the subject is intelligent, it perceives your words and actions favorably (treat its attitude as friendly). It will not attack you while the spell lasts. You can give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn't ordinarily do. Retries are not allowed. An intelligent commanded undead never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.\n\nA nonintelligent undead creature gets no saving throw against this spell. When you control a mindless being, you can communicate only basic commands, such as “come here,” “go there,” “fight,” “stand still,” and so on. Nonintelligent undead won't resist suicidal or obviously harmful orders.\n\nAny act by you or your apparent allies that threatens the commanded undead (regardless of its Intelligence) breaks the spell.\n\nYour commands are not telepathic. The undead creature must be able to hear you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f5ba0e244b1ffdf.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f5ba0e244b1ffdf"
+  },
+  "license": "OGL 1.0a"
+}

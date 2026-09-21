@@ -1,0 +1,30 @@
+{
+  "id": "0d27d7336ea9b427",
+  "name": "Tough Crowd",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 27",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "inquisitor": 4,
+      "mesmerist": 4,
+      "psychic": 3,
+      "sorcerer": 4,
+      "witch": 3,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 27\nSchool abjuration; Level arcanist 4, bard 4, inquisitor 4, mesmerist 4, psychic 3, sorcerer 4, witch 3, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget 1 creature/level\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou fortify your allies against attempts to control or mislead them. Each ally in the spell’s range gains a +4 insight bonus on the saving throw to resist the next enchantment or illusion spell cast on it. In addition, the DC of any Bluff, Diplomacy, Disguise, or Intimidate check to influence an affected character increases by 4 for the duration of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d27d7336ea9b427.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d27d7336ea9b427"
+  },
+  "license": "OGL 1.0a"
+}

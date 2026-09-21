@@ -1,0 +1,32 @@
+{
+  "id": "97b7f8aa3e4ecb5f",
+  "name": "Discern Lies",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 270",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "investigator": 4,
+      "medium": 3,
+      "oracle": 4,
+      "paladin": 3,
+      "psychic": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 270\nSchool divination; Level alchemist 4, cleric 4, inquisitor 4, investigator 4, medium 3, oracle 4, paladin 3, psychic 4, warpriest 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration concentration, up to 1 round/level\nSaving Throw Will negates; Spell Resistance no\nDescription\nEach round, you concentrate on one target, who must be within range. You know if the target deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.\n\nEach round, you may concentrate on a different target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/97b7f8aa3e4ecb5f.json",
+    "web": "https://codex.pipsprojects.com/#/e/97b7f8aa3e4ecb5f"
+  },
+  "license": "OGL 1.0a"
+}

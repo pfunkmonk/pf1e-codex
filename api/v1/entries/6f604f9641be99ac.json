@@ -1,0 +1,30 @@
+{
+  "id": "6f604f9641be99ac",
+  "name": "Arcane Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 244",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "inquisitor": 3,
+      "investigator": 3,
+      "magus": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 244\nSchool divination; Level alchemist 3, arcanist 3, inquisitor 3, investigator 3, magus 3, occultist 3, psychic 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level (D)\nDescription\nThis spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you. The effect is similar to that of a detect magic spell, but arcane sight does not require concentration and discerns aura location and power more quickly.\n\nYou know the location and power of all magical auras within your sight. An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the detect magic spell. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.)\n\nIf you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities, whether these are arcane or divine (spell-like abilities register as arcane), and the strength of the most powerful spell or spell-like ability the creature currently has available for use.\n\nAs with detect magic, you can use this spell to identify the properties of magic items, but not artifacts.\n\nArcane sight can be made permanent with a permanency spell.\nArcane Sight, Greater\nSource PRPG Core Rulebook pg. 244\nSchool divination; Level arcanist 7, psychic 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level (D)\nDescription\nThis spell functions like arcane sight, except that you automatically know which spells or magical effects are active upon any individual or object you see.\n\nUnlike arcane sight, this spell cannot be made permanent with a permanency spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f604f9641be99ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f604f9641be99ac"
+  },
+  "license": "OGL 1.0a"
+}

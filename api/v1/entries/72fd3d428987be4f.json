@@ -1,0 +1,30 @@
+{
+  "id": "72fd3d428987be4f",
+  "name": "Touch of the Sea",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 250",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 250\nSchool transmutation; Level alchemist 1, arcanist 1, bloodrager 1, druid 1, hunter 1, investigator 1, redmantisassassin 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a fish scale)\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou cause webs to grow between the target’s fingers and its feet to transform into flippers, granting a swim speed of 30 feet along with the standard +8 bonus on Swim checks and the ability to take 10 even if distracted or endangered. You can also use the run action while swimming, provided you swim in a straight line. This transformation causes any boots or gloves the target is wearing to meld into its form (although magic items with a continuous effect continue to function). This spell does not grant the target any ability to breathe water.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/72fd3d428987be4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/72fd3d428987be4f"
+  },
+  "license": "OGL 1.0a"
+}

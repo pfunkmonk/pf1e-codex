@@ -1,0 +1,25 @@
+{
+  "id": "6067e581e8356d81",
+  "name": "Speak with Plants",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 346",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 4,
+      "druid": 3,
+      "hunter": 2,
+      "ranger": 2,
+      "skald": 4
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 346\nSchool divination; Level bard 4, druid 3, hunter 2, ranger 2, skald 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 min./level\nDescription\nYou can communicate with normal plants and plant creatures, and can ask questions of and receive answers from them. A normal plant's sense of its surroundings is limited, so it won't be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity. The spell doesn't make plant creatures any more friendly or cooperative than normal. Furthermore, wary and cunning plant creatures are likely to be terse and evasive, while the more stupid ones may make inane comments. If a plant creature is friendly, it may do some favor or service for you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6067e581e8356d81.json",
+    "web": "https://codex.pipsprojects.com/#/e/6067e581e8356d81"
+  },
+  "license": "OGL 1.0a"
+}

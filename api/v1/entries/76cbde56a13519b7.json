@@ -1,0 +1,30 @@
+{
+  "id": "76cbde56a13519b7",
+  "name": "Prayer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 324",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 324\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 3, inquisitor 3, oracle 3, paladin 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 40 ft.\nArea all allies and foes within a 40-ft.-radius burst centered on you\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\nDescription\nYou bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks, while each of your foes takes a –1 penalty on such rolls.\nMythic Prayer\nSource Mythic Adventures pg. 104\nThe spell’s luck bonus increases to +2, and the penalty for enemies changes to –2. When you cast the spell, your affected allies heal an amount of hit point damage equal to double your tier, and affected enemies take an amount of damage equal to double your tier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/76cbde56a13519b7.json",
+    "web": "https://codex.pipsprojects.com/#/e/76cbde56a13519b7"
+  },
+  "license": "OGL 1.0a"
+}

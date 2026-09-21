@@ -1,0 +1,25 @@
+{
+  "id": "f62d181f2937443c",
+  "name": "Shadow of Doubt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 222",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 4,
+      "skald": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 222\nSchool enchantment (compulsion) [darkness, emotion, evil, mind-affecting]; Level antipaladin 4, bard 4, skald 4 (Tiefling)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/3 levels\nDuration 1 round/level\nSaving Throw Will partial (see text); Spell Resistance yes\nDescription\nYou create a shadowy aura of doubt fueled by a foe’s own inner flaws. Targets perceive all illumination as if it were one light level darker, to a minimum light level of darkness (not supernatural darkness), even on a successful saving throw.\n\nFleeting mental shadows of regrets and anxieties distract the spell’s targets; at the start of each of their turns, they must each succeed at a Will save or be staggered for 1 round. A good-aligned target takes a –4 penalty on saving throws against this effect; an evil-aligned target gains a +4 bonus instead.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f62d181f2937443c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f62d181f2937443c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f24c3838d3f44d00",
+  "name": "Stage Fright",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 27",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "bard": 3,
+      "inquisitor": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 27\nSchool enchantment (compulsion) [emotion, fear, mindaffecting]; Level antipaladin 3, arcanist 3, bard 3, inquisitor 3, mesmerist 3, psychic 3, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget 1 creature/level, no two of which may be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou fill your targets with the sudden fear of failure. A creature that fails its saving throw takes a –4 penalty on ability checks, skill checks, and any checks that require concentration (such as casting a spell in difficult circumstances or operating a complex device).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f24c3838d3f44d00.json",
+    "web": "https://codex.pipsprojects.com/#/e/f24c3838d3f44d00"
+  },
+  "license": "OGL 1.0a"
+}

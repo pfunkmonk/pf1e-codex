@@ -1,0 +1,33 @@
+{
+  "id": "c3bc0a0748d4a745",
+  "name": "Dancing Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 28",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "magus": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "spiritualist": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Source Blood of Shadows pg. 28\nSchool evocation [darkness, shadow]; Level antipaladin 1, arcanist 1, bard 1, magus 1, psychic 1, shaman 1, skald 1, sorcerer 1, spiritualist 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect Up to four spheres, all within a 10-ft.-radius area\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou create either up to four spheres of darkness that each reduce the illumination level by one step within a 20-foot-radius, or one dimly lit, vaguely humanoid shape. Each sphere of dancing darkness must stay within a 10-foot-radius area of one another but can otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The darkness can move up to 100 feet per round. The effect winks out if the distance between you and it exceeds the spell’s range.\n\nDancing shadows can be made permanent with a permanency spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c3bc0a0748d4a745.json",
+    "web": "https://codex.pipsprojects.com/#/e/c3bc0a0748d4a745"
+  },
+  "license": "OGL 1.0a"
+}

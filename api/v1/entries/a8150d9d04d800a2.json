@@ -1,0 +1,25 @@
+{
+  "id": "a8150d9d04d800a2",
+  "name": "Rune of Durability",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dwarves of Golarion pg. 25",
+  "book": "Dwarves of Golarion",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Dwarves of Golarion"
+  },
+  "body": "Source Dwarves of Golarion pg. 25\nSchool transmutation; Level arcanist 3, redmantisassassin 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 minute\nComponents V, S, M (iron fillings)\nEffect\nRange touch\nTarget weapon touched\nDuration permanent\nSaving Throw none; Spell Resistance no\nDescription\nYou inscribe an angular rune upon the surface of a weapon, increasing its hit points. A weapon that bears this rune multiplies its hit points by 2, as if it were one size category larger than it actually is. Placing more than one rune of this type on a weapon has no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8150d9d04d800a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8150d9d04d800a2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "218b364b83337273",
+  "name": "Detonate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 215",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "investigator": 4,
+      "magus": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 215\nSchool evocation [acid, cold, electricity, or fire]; Level alchemist 4, arcanist 4, bloodrager 4, investigator 4, magus 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (two vials; one containing acid and one containing an alkaline solution worth a total of 50 gp)\nEffect\nRange 30 ft.\nArea 30-ft.-radius spread centered on you\nDuration 1 round, then instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nYou flood yourself with a potent surge of elemental energy. One round after completing the casting of the spell, the energy explodes from your body.\n\nWhen this spell creates the explosion of energy, choose one of the following four energy types: acid, cold, electricity, or fire. The explosion inflicts 1d8 points of damage of that energy type per caster level (maximum 10d8) to all creatures and unattended objects within 15 feet, and half that amount to targets past 15 feet but within 30 feet. You automatically take half damage from the explosion, without a saving throw, but any other energy resistance or energy immunity effects you may have in place can prevent or lessen this overflow damage caused by the explosion.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/218b364b83337273.json",
+    "web": "https://codex.pipsprojects.com/#/e/218b364b83337273"
+  },
+  "license": "OGL 1.0a"
+}

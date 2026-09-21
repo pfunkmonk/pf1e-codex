@@ -1,0 +1,31 @@
+{
+  "id": "cdcc76b5ea767b59",
+  "name": "Loathsome Veil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 227",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 227\nSchool illusion (pattern) [mind-affecting]; Level arcanist 3, mesmerist 3, psychic 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a tangle of multicolored threads)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect transparent pattern 40 ft. long, 20 ft. high\nDuration concentration + 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell creates a transparent veil of shifting, multicolored strands of light that form into endlessly varied and alien patterns. One side of the veil, chosen by you at the time of casting, is harmless. The other side twists and turns into impossible shapes, affecting any creature with 60 feet who views the veil. The veil affects a maximum of 24 Hit Dice of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell are affected first. The effect is according to the creature’s HD.\n\n4 HD or fewer: The creature is nauseated while it can see the veil, nauseated for 1d4 rounds after it last saw the veil, then sickened for 2d4 rounds after it last saw the veil.\n8 HD or fewer: The creature is nauseated for 1d4 rounds, sickened while it can see the veil, then sickened for 1d4 rounds after it last saw the veil.\n9 or more HD: The creature is sickened while it can see the veil.\n\nA successful saving throw ignores all effects of the veil. Sightless creatures are not affected by loathsome veil. Affected creatures can avert or close their eyes to avoid seeing the veil, similar to avoiding a gaze attack.\n\nLoathsome veil can be made permanent with the permanency spell by a caster of 10th level or higher for the cost of 7,500 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cdcc76b5ea767b59.json",
+    "web": "https://codex.pipsprojects.com/#/e/cdcc76b5ea767b59"
+  },
+  "license": "OGL 1.0a"
+}

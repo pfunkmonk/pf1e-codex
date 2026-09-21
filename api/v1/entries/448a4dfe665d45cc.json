@@ -1,0 +1,25 @@
+{
+  "id": "448a4dfe665d45cc",
+  "name": "Arcane Cannon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 223",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 223\nSchool transmutation; Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 round\nComponents V, S, F (an ornate miniature cannon forged with a drop of your blood that costs 5,000 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one magically animated cannon\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nYour focus becomes a Medium arcane cannon that appears in an unoccupied square within the spell’s range. If no unoccupied square is within range, the spell fails. The cannon comes into existence loaded. Each round thereafter, the cannon can either fire or load. A cannon must be loaded to fire. You do not need to supply ammunition for the cannon.\n\nOn your turn, you can spend a move action to direct the cannon to wheel itself to a new location, moving the cannon up to 20 feet. If the arcane cannon ever leaves your line of sight, it winks out of existence, and the spell’s duration ends.\n\nThe cannon has a range increment of 50 feet. It targets touch attack in the first range increment, and it has no misfire chance. The cannon acts as a weapon with the conductive special weapon ability, which you can use to channel your spell-like or supernatural abilities as long as you are within the range of arcane cannon. The cannon’s attack bonus is equal to your caster level + your Intelligence bonus or your Charisma bonus (for wizards or sorcerers, respectively) with an additional +1 per four caster levels (maximum +5 at 20th level). On a hit, the cannon deals 4d10 damage. The arcane cannon attacks have a critical modifier of ×4.\n\nThe cannon has AC 10, hardness 10, and 80 hit points. If the cannon is subject to a spell or effect that requires a save, it uses your saving throw modifiers. The cannon never provokes attacks of opportunity. If the cannon is destroyed, so is your focus.\nMythic Arcane Cannon\nSource Mythic Adventures pg. 84\nThe cannon deals 6d10 points of damage on a successful hit. Add your tier to the cannon’s hardness and your tier × 5 to its hit points. Its conductive property can channel any spell with a range of touch (you have to expend only one spell for this, not two). You may cast a spell with an energy descriptor on the cannon. If you do, for a number of rounds equal to the spell’s level, half the cannon’s damage is untyped damage and the other half is energy damage of the spell’s type. Casting a spell with a different energy descriptor onto the cannon replaces its current energy type with that of the new spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/448a4dfe665d45cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/448a4dfe665d45cc"
+  },
+  "license": "OGL 1.0a"
+}

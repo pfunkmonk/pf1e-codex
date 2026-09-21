@@ -1,0 +1,50 @@
+{
+  "id": "eb76234a3a11d61e",
+  "name": "Wirejack Tendons (Mark I)",
+  "bucket": "items",
+  "category": "Technology",
+  "source": "Technology Guide pg. 38",
+  "book": "Technology Guide",
+  "facets": {
+    "slot": "body",
+    "pr": 8000,
+    "bk": "Technology Guide"
+  },
+  "body": "Wirejack Tendons\nSource Technology Guide pg. 38\nPrice 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\nSlot body; Weight 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)\nInstall DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\nImplantation 2 (Mark I), 4 (Mark II), 8 (Mark III)\nDescription\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity. This enhancement bonus alters the price, implantation values, install DCs, and Craft DCs of the implant as listed below.\n\nWirejack Enhancement Implantation Install\nMark I +2 Dex 2 DC 24\nMark II +4 Dex 4 DC 28\nMark III +6 Dex 8 DC 36\nConstruction\nCraft DC 24 (Mark I), DC 28 (Mark II), DC 32 (Mark III); Cost 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III)\nCraft Cybertech, cybernetics lab",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Wirejack",
+          "Enhancement",
+          "Implantation",
+          "Install"
+        ],
+        [
+          "Mark I",
+          "+2 Dex",
+          "2",
+          "DC 24"
+        ],
+        [
+          "Mark II",
+          "+4 Dex",
+          "4",
+          "DC 28"
+        ],
+        [
+          "Mark III",
+          "+6 Dex",
+          "8",
+          "DC 36"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb76234a3a11d61e.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb76234a3a11d61e"
+  },
+  "license": "OGL 1.0a"
+}

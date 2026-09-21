@@ -1,0 +1,48 @@
+{
+  "id": "04e76a6df6974c53",
+  "name": "Puzzle heel",
+  "bucket": "items",
+  "category": "Miscellaneous",
+  "source": "Ultimate Intrigue pg. 234",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 234\nPrice varies; Weight —\nCategory Adventuring Gear\nDescription\nUsed as a replacement for the heel and sole of a shoe or boot, a puzzle heel can be used to secret away items so you can retrieve them when needed. To open the small compartment inside a puzzle heel, you must press, turn, and twist the heel and sole in a particular pattern. The increased complexity of a puzzle heel grants a circumstance bonus on Sleight of Hand checks to conceal items, depending on the complexity of the opening process. Opening the heel without knowing the sequence requires a successful Disable Device check. A puzzle heel compartment is roughly 5 cubic inches in volume.\nComplexity Price Sleight of Hand bonus Disable Device DC\n3 steps 20 gp +4 20\n4 steps 40 gp +6 25\n5 steps 80 gp +8 30",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Complexity",
+          "Price",
+          "Sleight of Hand bonus",
+          "Disable Device DC"
+        ],
+        [
+          "3 steps",
+          "20 gp",
+          "+4",
+          "20"
+        ],
+        [
+          "4 steps",
+          "40 gp",
+          "+6",
+          "25"
+        ],
+        [
+          "5 steps",
+          "80 gp",
+          "+8",
+          "30"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04e76a6df6974c53.json",
+    "web": "https://codex.pipsprojects.com/#/e/04e76a6df6974c53"
+  },
+  "license": "OGL 1.0a"
+}

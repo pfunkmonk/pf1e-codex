@@ -1,0 +1,27 @@
+{
+  "id": "4b7f9c277bc7d8c4",
+  "name": "Tieldlara's Feint",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 27",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "skald": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 27\nSchool enchantment (charm) [mind-affecting]; Level bard 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 20 ft.\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWith a lascivious wink and a sensuous sway, you flood a foe’s mind with lustful thoughts of you, distracting your target and rendering that creature vulnerable to your attacks. An affected creature takes a penalty equal to half your caster level on concentration checks and to its CMD against dirty trickAPG, grapple, and stealAPG combat maneuvers you perform. The creature is also denied its Dexterity bonus to AC for the first melee attack you make against it each round.\n\nIf the target would not normally be sexually attracted to you, it receives a +4 bonus on its saving throw. If you end your turn more than 20 feet from the target or end your turn where your target cannot see you, this spell immediately ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b7f9c277bc7d8c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b7f9c277bc7d8c4"
+  },
+  "license": "OGL 1.0a"
+}

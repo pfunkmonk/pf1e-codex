@@ -1,0 +1,23 @@
+{
+  "id": "ce75628500984a53",
+  "name": "Rally Point",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 237",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "paladin": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 237\nSchool enchantment (compulsion) [emotion, good, mind-affecting]; Level paladin 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 5 ft.\nArea one 5-ft. square\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou create a spot that has the power to briefly hearten any good creature who comes into contact with it. A good creature who enters this square (even if simply as part of its normal move) gains a +2 morale bonus on attacks, saving throws, and 2 temporary hit points per caster level for 1 round. Nongood creatures gain no benefit from this spell. A creature cannot benefit more than once from the same casting of this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce75628500984a53.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce75628500984a53"
+  },
+  "license": "OGL 1.0a"
+}

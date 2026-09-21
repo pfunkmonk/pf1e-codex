@@ -1,0 +1,34 @@
+{
+  "id": "8bd06e74c6c666e5",
+  "name": "Wartrain Mount",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 248",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 2,
+      "druid": 2,
+      "hunter": 1,
+      "inquisitor": 1,
+      "mesmerist": 2,
+      "paladin": 1,
+      "ranger": 1,
+      "skald": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 248\nSchool enchantment (compulsion) [mind-affecting]; Level antipaladin 1, bard 2, druid 2, hunter 1, inquisitor 1, mesmerist 2, paladin 1, ranger 1, skald 2\nCasting\nCasting Time 1 minute\nComponents V, S, M (a swatch of black cloth)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one indifferent or friendly animal\nDuration 1 hour/level\nSaving Throw none; Spell Resistance yes\nDescription\nYou instill the target animal with the combat training general purpose (see the Handle Animal skill). This supersedes the animal’s previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8bd06e74c6c666e5.json",
+    "web": "https://codex.pipsprojects.com/#/e/8bd06e74c6c666e5"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "262505a3eeecc472",
+  "name": "Fleshworm Infestation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 220",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 220\nSchool conjuration (summoning) [evil]; Level arcanist 4, cleric 4, inquisitor 4, oracle 4, psychic 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Fortitude partial (see text); Spell Resistance yes\nDescription\nWith a touch, you cause an infestation of ravenous worms to manifest in the target’s flesh. The target must make a Fortitude save every round. Failure means it takes 1d6 hit points of damage and 2 points of Dexterity damage, and is staggered for 1 round. If it makes the save, it takes no hit point or Dexterity damage and is only sickened for 1 round rather than staggered. Fleshworm infestation cannot be ended early by remove disease or heal, as the infestation starts anew if the current worms are slain. Protection from evil negates this spell’s effects for as long as the two durations overlap. Dispel evil automatically ends a fleshworm infestation.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/262505a3eeecc472.json",
+    "web": "https://codex.pipsprojects.com/#/e/262505a3eeecc472"
+  },
+  "license": "OGL 1.0a"
+}

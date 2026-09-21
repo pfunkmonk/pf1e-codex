@@ -1,0 +1,32 @@
+{
+  "id": "76cbf2952fb8fb89",
+  "name": "Thaumaturgic Circle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 189",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "medium": 3,
+      "occultist": 3,
+      "oracle": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "warpriest": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 189\nSchool abjuration; Level arcanist 4, cleric 4, inquisitor 4, medium 3, occultist 3, oracle 4, sorcerer 4, summoner 4, warpriest 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a 3-ft.-diameter circle of powdered silver), DF\nEffect\nRange touch\nArea 10-ft.-radius emanation from touched creature\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell functions as magic circle against chaos, evil, good, or law, but rather than stipulating an alignment descriptor, you can designate any one non-alignment subtype of outsider, including air, earth, fire, and water, as well as outsider races such as angels and devils.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/76cbf2952fb8fb89.json",
+    "web": "https://codex.pipsprojects.com/#/e/76cbf2952fb8fb89"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "99c6c3a4170ce0ea",
+  "name": "Sand Whirlwind, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Taldor, Echoes of Glory pg. 25",
+  "book": "Taldor",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "oracle": 3,
+      "warpriest": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Taldor"
+  },
+  "body": "Sand Whirlwind\nSource Taldor, Echoes of Glory pg. 25\nSchool conjuration (creation); Level cleric 3, oracle 3, warpriest 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a handful of sand, dust, or fine powder)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates (blinding only); Spell Resistance no\nDescription\nA whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To speak while affected by the spell, the target must make a Concentration check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC increases by the level of the spell being cast. A successful Will save negates the blindness but not the speechhampering effect.\nSand Whirlwind, Greater\nSource Taldor, Echoes of Glory pg. 25\nSchool conjuration (creation); Level cleric 5, oracle 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a handful of sand, dust, or fine powder)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 10-ft.-radius spread\nDuration 1 round/level\nSaving Throw Will negates (blinding only); Spell Resistance no\nDescription\nThis spell functions as sand whirlwind except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/99c6c3a4170ce0ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/99c6c3a4170ce0ea"
+  },
+  "license": "OGL 1.0a"
+}

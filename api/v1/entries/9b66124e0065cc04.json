@@ -1,0 +1,25 @@
+{
+  "id": "9b66124e0065cc04",
+  "name": "Nine Lives",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 95",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "oracle": 8,
+      "witch": 8
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 95\nSchool abjuration; Level cleric 8, oracle 8, witch 8 (catfolk)\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a cat's whisker)\nEffect\nRange touch\nTarget one creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nDespite its name, this powerful ward does not grant the target multiple lives, but rather gives the target the ability to get out of trouble and relieves harmful effects and conditions. For the spell’s duration, the target can use any of the following abilities as an immediate action, but only up to a total of nine times, at which point the spell ends.\n\nCat’s Luck: The target can use this ability when it fails a saving throw. The target can reroll the failed saving throw, but must take the new result even if it is worse.\n\nFortitude: The target uses this ability when a critical hit or sneak attack is scored against it. The critical hit or sneak attack is negated and the damage is instead rolled normally.\n\nRejuvenate: The target uses this ability when it is reduced to 0 or fewer hit points. The target is instantly healed 3d6 points of damage. If enough hit points are regained to bring the target to positive hit points, it does not fall unconscious. If it is not enough to leave the target with positive hit points, the target automatically stabilizes. Both of these effects work even if the damage was originally enough to kill the target.\n\nShake Off: The target uses this ability when it is under the effects of any of the following conditions: blinded, confused, cowering, dazed, dazzled, entangled, exhausted, fatigued, frightened, nauseated, panicked, shaken, sickened, or staggered. Using this ability ends one of those conditions.\n\nShimmy Out: The target uses this ability when it is grappled or pinned. The target automatically escapes the grapple as if it had succeeded at an Escape Artist check to escape the grapple.\n\nStay Up: The target uses this ability when it is tripped or otherwise knocked prone. The target steadies itself and stays upright.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b66124e0065cc04.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b66124e0065cc04"
+  },
+  "license": "OGL 1.0a"
+}

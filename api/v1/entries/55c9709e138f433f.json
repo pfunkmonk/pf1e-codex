@@ -1,0 +1,34 @@
+{
+  "id": "55c9709e138f433f",
+  "name": "Memorize Page",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 187",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 187\nSchool enchantment [mind-affecting]; Level arcanist 1, bard 1, mesmerist 1, occultist 1, psychic 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 10 minutes\nComponents V, S, F (the page to be memorized)\nEffect\nRange touch\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target gains a perfect memory of the page you used as a focus component. The target can visualize this page as easily as looking at it in person, including minute details visible to close scrutiny by the naked eye. The memory of the page includes text and images, such as a drawing or a map. Someone unfamiliar with the language on the page (or even an illiterate person) could relay what is written simply by copying the shapes of the letters so another person can read them.\n\nThe maximum number of pages that a particular target can memorize through repeated castings of this spell is equal to the target’s Intelligence modifier (minimum 1); any attempts beyond this limit have no effect, although the target’s memory of a page could be erased (using modify memory or a similar effect) to effectively make room for a different one.\n\nA creature that memorizes magical writing (such as a scroll or a page from a spellbook) cannot borrow, duplicate, or retain any of the magic in the writing. However, this would allow a wizard to copy a spell into his spellbook so he could prepare the spell from his book (assuming the spell takes up only one page in a spellbook).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/55c9709e138f433f.json",
+    "web": "https://codex.pipsprojects.com/#/e/55c9709e138f433f"
+  },
+  "license": "OGL 1.0a"
+}

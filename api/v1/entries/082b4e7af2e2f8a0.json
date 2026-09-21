@@ -1,0 +1,30 @@
+{
+  "id": "082b4e7af2e2f8a0",
+  "name": "Accursed Glare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Moon pg. 9",
+  "book": "Blood of the Moon",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Moon"
+  },
+  "body": "Source Blood of the Moon pg. 9\nSchool necromancy [curse]; Level antipaladin 3, arcanist 3, sorcerer 3, witch 3, wizard 3 (werebat)\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou channel a fell curse through your glare. If the target fails its saving throw, it begins to obsessively secondguess its actions and attract bad luck. Whenever the target attempts an attack roll or saving throw while the curse lasts, it must roll twice and take the lower result. While you cast this spell, an ally within range of the subject can attempt an Intimidate check as a move action (DC = save DC of this spell); on a success, the ally adds its own glare to yours, granting you a +2 bonus on your caster level check to overcome spell resistance (if any). Multiple allies can attempt Intimidate checks; this bonus stacks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/082b4e7af2e2f8a0.json",
+    "web": "https://codex.pipsprojects.com/#/e/082b4e7af2e2f8a0"
+  },
+  "license": "OGL 1.0a"
+}

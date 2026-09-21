@@ -1,0 +1,34 @@
+{
+  "id": "51410506d460288c",
+  "name": "Brightest Night",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Ancients pg. 13",
+  "book": "Blood of the Ancients",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Blood of the Ancients"
+  },
+  "body": "Source Blood of the Ancients pg. 13\nSchool transmutation; Level arcanist 1, bard 1, cleric 1, druid 1, hunter 1, oracle 1, paladin 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one willing creature plus one additional willing creature per 3 levels, no two of which can be more than 30 ft. apart\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\nDescription\nYou grant low-light vision to the affected creatures. Creatures that already have low-light vision have their existing lowlight vision enhanced so that they can see four times as far in conditions of dim light. Creatures within 10 feet of someone under the effects of brightest night do not gain concealment from dim light.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/51410506d460288c.json",
+    "web": "https://codex.pipsprojects.com/#/e/51410506d460288c"
+  },
+  "license": "OGL 1.0a"
+}

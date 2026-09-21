@@ -1,0 +1,29 @@
+{
+  "id": "4123bac4a5e17045",
+  "name": "Dispel Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 271",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 5,
+      "oracle": 5,
+      "paladin": 4,
+      "shaman": 5,
+      "warpriest": 5
+    },
+    "desc": [
+      "lawful"
+    ],
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 271\nSchool abjuration [lawful]; Level cleric 5, inquisitor 5, oracle 5, paladin 4, shaman 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget or Targets you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object\nDuration 1 round/level or until discharged, whichever comes first\nSaving Throw see text; Spell Resistance see text\nDescription\nThis spell functions like dispel evil, except that you are surrounded by constant, blue lawful energy, and the spell affects chaotic creatures and spells rather than evil ones.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4123bac4a5e17045.json",
+    "web": "https://codex.pipsprojects.com/#/e/4123bac4a5e17045"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "24ff21ab3fcf4c4f",
+  "name": "Overwhelming Grief",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 230",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "mesmerist": 3,
+      "psychic": 4,
+      "skald": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 230\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level arcanist 4, bard 3, mesmerist 3, psychic 4, skald 3, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates (see text); Spell Resistance yes\nDescription\nYou cause a single opponent to become profoundly stricken with intense grief. He can take no actions, takes a –2 penalty to Armor Class, and loses his Dexterity bonus (if any). He can attempt a new save each round to break the spell’s effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/24ff21ab3fcf4c4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/24ff21ab3fcf4c4f"
+  },
+  "license": "OGL 1.0a"
+}

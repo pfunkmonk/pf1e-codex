@@ -1,0 +1,29 @@
+{
+  "id": "f9269f6a04183a58",
+  "name": "Tripvine",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faction Guide pg. 62",
+  "book": "Faction Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "druid": 1,
+      "hunter": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Faction Guide"
+  },
+  "body": "Source Faction Guide pg. 62\nSchool transmutation; Level arcanist 1, bard 1, druid 1, hunter 1, redmantisassassin 1, skald 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget 10-foot-long rope or vine\nDuration 10 minutes/level\nSaving Throw Reflex negates; Spell Resistance no\nDescription\nYou animate a rope, vine, or similar object so that it attempts to trip any creature that comes near. The rope attacks anything in a 10-foot-square area you designate. The rope does not provoke an attack of opportunity. Its CMB is equal to your caster level +2. A tripped target that was running, jumping, or charging takes 1d6 points of nonlethal damage. Creatures aware of the tripvine gain a +4 bonus to their CMD against it.\n\nThe Green Faith created this spell, but it is now common.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9269f6a04183a58.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9269f6a04183a58"
+  },
+  "license": "OGL 1.0a"
+}

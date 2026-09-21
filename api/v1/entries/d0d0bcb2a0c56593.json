@@ -1,0 +1,39 @@
+{
+  "id": "d0d0bcb2a0c56593",
+  "name": "Cat's Grace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 252",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 2,
+      "alchemist": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "druid": 2,
+      "hunter": 2,
+      "investigator": 2,
+      "magus": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "ranger": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 252\nSchool transmutation; Level adept 2, alchemist 2, arcanist 2, bard 2, bloodrager 2, druid 2, hunter 2, investigator 2, magus 2, medium 2, mesmerist 2, psychic 2, ranger 2, redmantisassassin 2, skald 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (pinch of cat fur)\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThe transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier.\nCat's Grace, Mass\nSource PRPG Core Rulebook pg. 252\nSchool transmutation; Level arcanist 6, bard 6, druid 6, hunter 6, magus 6, psychic 6, skald 6, sorcerer 6, summoner 4, summoner (unchained) 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (pinch of cat fur)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell functions like cat's grace, except it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d0d0bcb2a0c56593.json",
+    "web": "https://codex.pipsprojects.com/#/e/d0d0bcb2a0c56593"
+  },
+  "license": "OGL 1.0a"
+}

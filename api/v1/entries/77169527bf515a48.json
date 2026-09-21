@@ -1,0 +1,33 @@
+{
+  "id": "77169527bf515a48",
+  "name": "Inflict Pain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 174",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "inquisitor": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "sorcerer": 3,
+      "spiritualist": 2,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 174\nSchool enchantment [mind-affecting, pain]; Level antipaladin 2, arcanist 3, inquisitor 2, medium 2, mesmerist 2, occultist 2, psychic 2, sorcerer 3, spiritualist 2, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will partial, see text; Spell Resistance yes\nDescription\nYou telepathically wrack the target’s mind and body with agonizing pain that imposes a –4 penalty on attack rolls, skill checks, and ability checks. A successful Will save reduces the duration to 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77169527bf515a48.json",
+    "web": "https://codex.pipsprojects.com/#/e/77169527bf515a48"
+  },
+  "license": "OGL 1.0a"
+}

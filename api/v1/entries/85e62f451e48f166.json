@@ -1,0 +1,27 @@
+{
+  "id": "85e62f451e48f166",
+  "name": "Impede Speech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Second Darkness Player's Guide pg. 27",
+  "book": "Second Darkness Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "skald": 2,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Second Darkness Player's Guide"
+  },
+  "body": "Source Second Darkness Player's Guide pg. 27\nSchool necromancy; Level arcanist 3, bard 2, skald 2, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis minor curse interferes with the target’s ability to speak. On a failed save, the target has difficulty stringing words together. Only with great concentration can he communicate intelligibly. Speaking in combat becomes a move-equivalent action rather than a free action. If the target attempts to cast a spell with a verbal component, he has a 50% chance of making an error and losing the spell. Even if he can successfully cast a spell, doing so takes 1 round if the spell’s normal casting time is less than 1 round. If the spell’s casting time is usually 1 round or longer, its casting time doubles (up until the end of impede speech). Impede speech cannot be dispelled, but break enchantment, limited wish, miracle, remove curse, or wish can end it prematurely.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85e62f451e48f166.json",
+    "web": "https://codex.pipsprojects.com/#/e/85e62f451e48f166"
+  },
+  "license": "OGL 1.0a"
+}

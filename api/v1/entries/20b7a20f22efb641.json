@@ -1,0 +1,277 @@
+{
+  "id": "20b7a20f22efb641",
+  "name": "Step 2: Add Hit Dice",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder RPG Bestiary pg. 295",
+  "book": "Pathfinder RPG Bestiary",
+  "facets": {
+    "bk": "Pathfinder RPG Bestiary"
+  },
+  "body": "Rules Index | GM Screen\n\nStep 2: Add Hit Dice\nSource Pathfinder RPG Bestiary pg. 295\nNext, determine how many Hit Points the base monster receives per Hit Die (see Table 1–5 for average results based on the die type). Using Table 2–1, add up all of the values in the Hit Point Change column for each increase using the Higher CR column. For example, if the base monster was CR 3 and the new monster is set to be CR 5, the total would be 25 hit points. Next, add additional Hit Dice to the monster to increase its hit points by the desired amount. Note that if the creature increases in size, its Constitution may also increase, as noted on Table 2–2, granting it additional hit points that might offset the need for additional Hit Dice (this also applies to any other Constitution increases).\n\nThese values are not absolute. Some monsters have fewer hit points than normal for a creature of their CR and rely on a higher AC or other defenses. Some creatures are primarily spellcasters and typically have fewer Hit Dice. When advancing your monster in this way, be sure to take these factors into account and adjust your monster accordingly.\n\nTable 2-1: Monster Advancement\nHigher CR Lower CR Hit Point Change AC Change Attack Bonus Change Damage Change\n1 Less than 1 5 1 1 2-3\n2 1 5 2 1 2-3\n3 2 10 1 1-2 2-3\n4 3 10 2 2 2-3\n5 4 15 1 1-2 3-4\n6 5 15 1 1-2 3-5\n7 6 15 1 1-2 4-5\n8 7 15 1 1-2 4-5\n9 8 15 2 1-2 4-5\n10 9 15 1 1 3-5\n11 10 15 1 1 4-5\n12 11 15 2 1-2 4-5\n13 12 20 1 1 4-5\n14 13 20 1 1 3-5\n15 14 20 1 1 4-5\n16 15 20 1 1-2 8-10\n17 16 30 1 1 7-10\n18 17 30 1 1 8-10\n19 18 30 1 1 7-10\n20 19 40 2 1 8-10\n21+ 20+ 40 2 1 8-10\n\nTable 2-2: Size Changes\nOld Size* New Size Str Dex Con Natural Armor\nFine Diminutive Same -2 Same Same\nDiminutive Tiny +2 -2 Same Same\nTiny Small +4 -2 Same Same\nSmall Medium +4 -2 +2 Same\nMedium Large +8 -2 +4 +2\nLarge Huge +8 -2 +4 +3\nHuge Gargantuan +8 Same +4 +4\nGargantuan Colossal +8 Same +4 +5\n* Repeat the adjustment if the creature moves up more than one size.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Higher CR",
+          "Lower CR",
+          "Hit Point Change",
+          "AC Change",
+          "Attack Bonus Change",
+          "Damage Change"
+        ],
+        [
+          "1",
+          "Less than 1",
+          "5",
+          "1",
+          "1",
+          "2-3"
+        ],
+        [
+          "2",
+          "1",
+          "5",
+          "2",
+          "1",
+          "2-3"
+        ],
+        [
+          "3",
+          "2",
+          "10",
+          "1",
+          "1-2",
+          "2-3"
+        ],
+        [
+          "4",
+          "3",
+          "10",
+          "2",
+          "2",
+          "2-3"
+        ],
+        [
+          "5",
+          "4",
+          "15",
+          "1",
+          "1-2",
+          "3-4"
+        ],
+        [
+          "6",
+          "5",
+          "15",
+          "1",
+          "1-2",
+          "3-5"
+        ],
+        [
+          "7",
+          "6",
+          "15",
+          "1",
+          "1-2",
+          "4-5"
+        ],
+        [
+          "8",
+          "7",
+          "15",
+          "1",
+          "1-2",
+          "4-5"
+        ],
+        [
+          "9",
+          "8",
+          "15",
+          "2",
+          "1-2",
+          "4-5"
+        ],
+        [
+          "10",
+          "9",
+          "15",
+          "1",
+          "1",
+          "3-5"
+        ],
+        [
+          "11",
+          "10",
+          "15",
+          "1",
+          "1",
+          "4-5"
+        ],
+        [
+          "12",
+          "11",
+          "15",
+          "2",
+          "1-2",
+          "4-5"
+        ],
+        [
+          "13",
+          "12",
+          "20",
+          "1",
+          "1",
+          "4-5"
+        ],
+        [
+          "14",
+          "13",
+          "20",
+          "1",
+          "1",
+          "3-5"
+        ],
+        [
+          "15",
+          "14",
+          "20",
+          "1",
+          "1",
+          "4-5"
+        ],
+        [
+          "16",
+          "15",
+          "20",
+          "1",
+          "1-2",
+          "8-10"
+        ],
+        [
+          "17",
+          "16",
+          "30",
+          "1",
+          "1",
+          "7-10"
+        ],
+        [
+          "18",
+          "17",
+          "30",
+          "1",
+          "1",
+          "8-10"
+        ],
+        [
+          "19",
+          "18",
+          "30",
+          "1",
+          "1",
+          "7-10"
+        ],
+        [
+          "20",
+          "19",
+          "40",
+          "2",
+          "1",
+          "8-10"
+        ],
+        [
+          "21+",
+          "20+",
+          "40",
+          "2",
+          "1",
+          "8-10"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Old Size*",
+          "New Size",
+          "Str",
+          "Dex",
+          "Con",
+          "Natural Armor"
+        ],
+        [
+          "Fine",
+          "Diminutive",
+          "Same",
+          "-2",
+          "Same",
+          "Same"
+        ],
+        [
+          "Diminutive",
+          "Tiny",
+          "+2",
+          "-2",
+          "Same",
+          "Same"
+        ],
+        [
+          "Tiny",
+          "Small",
+          "+4",
+          "-2",
+          "Same",
+          "Same"
+        ],
+        [
+          "Small",
+          "Medium",
+          "+4",
+          "-2",
+          "+2",
+          "Same"
+        ],
+        [
+          "Medium",
+          "Large",
+          "+8",
+          "-2",
+          "+4",
+          "+2"
+        ],
+        [
+          "Large",
+          "Huge",
+          "+8",
+          "-2",
+          "+4",
+          "+3"
+        ],
+        [
+          "Huge",
+          "Gargantuan",
+          "+8",
+          "Same",
+          "+4",
+          "+4"
+        ],
+        [
+          "Gargantuan",
+          "Colossal",
+          "+8",
+          "Same",
+          "+4",
+          "+5"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20b7a20f22efb641.json",
+    "web": "https://codex.pipsprojects.com/#/e/20b7a20f22efb641"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "654d86f032e45a99",
+  "name": "Forceful Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 55",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "magus": 4,
+      "oracle": 4,
+      "paladin": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 55\nSchool evocation [force]; Level cleric 4, inquisitor 4, magus 4, oracle 4, paladin 4, warpriest 4\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange touch or reach of melee weapon\nTarget 1 creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nYou cast this spell as you strike a creature with a melee weapon, unarmed strike, or natural attack to unleash a concussive blast of force. You deal normal weapon damage from the blow, but also deal an additional amount of force damage equal to 1d4 points per caster level (maximum of 10d4). The force of the blow may be enough to knock the target backward as well. To determine if the target is pushed back, make a combat maneuver check with a bonus equal to your caster level to resolve a bull rush attempt against the creature struck. You do not move as a result of this free bull rush, but it can push the target back if it defeats the target’s CMD. A successful Fortitude save halves the force damage and negates the bull rush effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/654d86f032e45a99.json",
+    "web": "https://codex.pipsprojects.com/#/e/654d86f032e45a99"
+  },
+  "license": "OGL 1.0a"
+}

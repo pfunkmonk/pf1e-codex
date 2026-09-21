@@ -1,0 +1,26 @@
+{
+  "id": "7fe1ffcfc48b2606",
+  "name": "Unholy Sword",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 245",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 245\nSchool evocation [evil]; Level antipaladin 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget melee weapon touched\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 unholy weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a magic circle against good effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.\n\nIf this spell is cast on a magic weapon, the powers of the spell supersede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with any spells that modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon’s bonus to attack does not stack with this spell’s enhancement bonus to attack.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7fe1ffcfc48b2606.json",
+    "web": "https://codex.pipsprojects.com/#/e/7fe1ffcfc48b2606"
+  },
+  "license": "OGL 1.0a"
+}

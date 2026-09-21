@@ -1,0 +1,18 @@
+{
+  "id": "94152b81e11e9d60",
+  "name": "Negating",
+  "bucket": "items",
+  "category": "Weapons",
+  "source": "Ultimate Equipment pg. 145",
+  "book": "Ultimate Equipment",
+  "facets": {
+    "slot": "weapon",
+    "bk": "Ultimate Equipment"
+  },
+  "body": "Source Ultimate Equipment pg. 145\nAura moderate abjuration CL 5th\nSlot weapon quality; Price +2 bonus; Weight —\nDescription\nA negating weapon briefly nullifies some forms of damage reduction when it damages a creature. Whenever a negating weapon damages a foe with DR/chaotic, DR/evil, DR/good, DR/lawful, or DR/magic, it reduces the value of that damage reduction by 5 points for 1 round. For example, a +1 negating lance hitting a creature with DR 10/good and lawful reduces the creature’s DR to 5/good and lawful. If the creature has a component to its damage reduction other than the alignment types listed above, that component is unaffected. Thus, if the +1 negating lance above hits a demon with DR 10/good and cold iron, it would leave the demon with DR 10/cold iron and 5/good for 1 round. The effects of multiple negating weapons (or multiple hits from the same weapon) do not stack. This ability can only be placed on melee weapons.\nConstruction\nRequirements Craft Magic Arms and Armor, dispel chaos, evil, good, or law; Price —",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94152b81e11e9d60.json",
+    "web": "https://codex.pipsprojects.com/#/e/94152b81e11e9d60"
+  },
+  "license": "OGL 1.0a"
+}

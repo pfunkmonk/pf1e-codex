@@ -81,8 +81,66 @@ because every check was passing and a mid-flight refactor of the thing all the c
 how you end up trusting a green build that is measuring nothing.
 
 Until then: **after editing `entryArtKey`, update the other four in the same commit**, re-run all
-four checks plus `size-variants` until it reports 0 changes, and finish with the `--predict` diff
+checks plus `size-variants` until it reports 0 changes, and finish with the `--predict` diff
 above so you know the tools still agree with the app.
+
+---
+
+## JSON API
+
+`https://codex.pipsprojects.com/api/v1/` — the same data as the site, as static read-only JSON, CORS
+open, no key. Human docs at `/api/`; the machine-readable manifest is `/api/v1/index.json`.
+
+| Path | What |
+|---|---|
+| `api/v1/index.json` | manifest: totals, every bucket and category with counts, `dataVersion`, licence notice |
+| `api/v1/<bucket>.json` | every entry in a bucket, no body, one entry per line (git-diff friendly) |
+| `api/v1/names.json` | `[id, name, bucket]` for everything — one small file for cross-bucket lookup |
+| `api/v1/entries/<id>.json` | one entry in full: body text and any tables |
+| `api/index.html` | the docs page — GENERATED, so its counts and example can never go stale |
+
+**It is generated. After ANY data change — an importer, a data repair, a rebuild — run**
+
+```bash
+node tools/gen-api.mjs .        # writes api/ ; idempotent, only changed files are touched
+node tools/check-api.mjs .      # must pass; fails until you have regenerated
+```
+
+**and commit `api/`.** It is ~28k files / ~93 MB, but output is fully deterministic (no timestamp, no
+locale-dependent sort) so a re-run over unchanged data changes nothing and git sees nothing.
+
+Design decisions worth knowing:
+
+- **Static on purpose.** The site has no backend and no build step; a function would have meant one
+  (and a 50 MB bundle limit against ~63 MB of bodies). So the API is files on the same CDN. It is
+  therefore PUBLIC and read-only by construction — exactly the data the site already serves.
+- **`tools/lib/api-build.mjs` is the only place the API is built.** `gen-api` writes what it returns;
+  `check-api` re-derives it and compares. Two copies of that logic would make "generated == committed"
+  a comparison of two guesses — the art chain has been written out five times and drifted every time.
+- **It exposes exactly what the app does.** The predicate for the hidden "1st Level"…"9th Level" pages
+  is lifted out of `app.js`'s `isJunkEntry` rather than re-typed; if that function is reshaped the
+  generator fails loudly instead of leaking junk pages into a public API.
+- **`check-api` has two halves on purpose.** FRESHNESS (byte-identical to a fresh build) forces a
+  regeneration; TRUTH (bodies byte-equal to `data/cat`, table row counts equal `PF_TABLES`, no U+FFFD,
+  every id has exactly one file) means a bug in the builder cannot also be a bug in its test. Verified
+  by mutation: a truncated body, a deleted file and a stray file are each caught.
+- **`gen-api` never deletes** — stale entry files are reported and removed only with `--prune`.
+- **Bodies are served RAW and their layout is NOT uniform.** At v73 only ~9% start with the entry name,
+  ~44% with a `Source` line, ~47% with something from the original page (a breadcrumb such as
+  `Rules Index | GM Screen`, a subtitle, intro prose). I first documented "line one is the name" from
+  a small sample and it was false for half the data; the manifest now carries the measured split in
+  `totals.bodyLayout`. Consumers should read `name`/`source`/`book`/`facets`, not parse the body.
+- **IDs are opaque and stable only while the data is not rebuilt** — the upstream generator that
+  minted the originals is not in this repo, and the ids are not derivable from anything. Recovered
+  entries have deterministic minted ids (`sha256("pf1e-codex-option|…")[:16]`).
+- **No art in the API.** Resolving an entry's art needs the chain, which is already written out five
+  times. Adding a sixth copy for a data API was not worth it.
+- **51 tables in `PF_TABLES` are keyed to ids no entry has**, so they can be displayed neither by the
+  app nor the API. Pre-existing; `check-tables` reports the count.
+
+Headers and redirects for `/api/*` live in `netlify.toml` (open CORS, 5-minute cache, `/api/v1` →
+manifest). Licence: the site's existing OGL 1.0a notice travels in the manifest, every list header and
+every entry file.
 
 ---
 
@@ -160,7 +218,12 @@ AoN prints the whole 9-level creature list on every Summon Monster page; the Cod
 onto "Summon Monster 1" and "2" only, all 105 rows on each, and 3-9 did not exist. Each of the 18
 summon spells now carries the slice it can use — Summon Monster N gets levels 1..N — plus the
 deity-specific additions for its level from `MasterSummonList.aspx` (939 rows, previously nowhere).
-Rebuild with `tools/import-summon-tables.mjs`; it is idempotent.
+Rebuild with `tools/import-summon-tables.mjs`. The complete 9-level lists live in
+`tools/sources/summon-lists.json`, a file the tool only ever READS — it used to take them from
+Summon Monster 1's own table, which it then overwrote, so a second run sliced the slice and Summon
+Monster 2-9 all showed only level 1. That shipped in v71 and was fixed in v73. `tools/check-tables.mjs`
+now asserts that Summon Monster N lists exactly levels 1..N; it fails with 16 problems on the broken
+data, so it would have caught it.
 
 
 - **1,713 CLASS OPTIONS recovered (2026-09-08).** The Codex was never scraped from AoN — it was
@@ -176,7 +239,7 @@ Rebuild with `tools/import-summon-tables.mjs`; it is idempotent.
   `tools/import-class-options.mjs` reads those pages back out of
   `…/FINISH/structured/_quarantine.jsonl` (nothing is fetched from the network) and rebuilds them.
   Idempotent — a second run adds nothing. **Re-run it after any data rebuild, or the options
-  disappear again.** Options went 835 → 3,010; the index 25,926 → 28,396.
+  disappear again.** Options went 835 → 2,970; the index 25,926 → 28,356 (28,347 of them visible in the app).
 
   ⚠ Two traps found while writing it, both of which silently DELETE content:
   - **Dedup on name alone drops real options.** "Charm" and "Healing" are cleric domains *and*
@@ -206,7 +269,7 @@ Rebuild with `tools/import-summon-tables.mjs`; it is idempotent.
 
 ## Art
 
-`art/<key>.webp`. **3,784 images on disk, 259 MB; 3,912 planned** (BATCH15 holds the outstanding 128). The extension lives in exactly one place —
+`art/<key>.webp`. **3,959 images, 270.6 MB — every planned key is drawn.** The extension lives in exactly one place —
 `ART_EXT` in `app.js` — because it appears in both the gallery and `applyArt`.
 
 **WebP since v57.** The library was re-encoded from JPEG at q78 with no resize: 226 MB → 171 MB,
@@ -374,12 +437,12 @@ to `creature-` for the same reason.
 
 ## Status — the art programme is COMPLETE
 
-**All 3,784 images are drawn, ingested and live** (v68 onward). Named art finished at 1,652; the
-seven theme batches added the remaining 2,132. Every pack regenerates to **0 prompts**, every
+**All 3,959 images are drawn, ingested and live** (v72). Named art finished at 1,652; the
+seven theme batches added 2,132; the class-option recovery added the last 175. Every pack regenerates to **0 prompts**, every
 gallery group reads "N of N", and `check-coverage` reports nothing commissioned that is not drawn.
 
-Measured against the real chain: **3,584 of 3,784 files (94.7%) are shown on at least one of the
-25,926 pages, and no entry anywhere is without art.** The ~200 never shown are the older facet sets
+Measured against the real chain: **3,759 of 3,959 files (94.9%) are shown on at least one of the
+28,356 pages, and no entry anywhere is without art.** The ~200 never shown are the older facet sets
 the body-motif layer now catches first (all 22 `opt-wild-talents`, most `trait-<category>`, the
 `hazard-<category>` sets). They are kept deliberately as a safety net if a motif regex is ever
 narrowed — `check-used` will list them, and that is expected, not a defect.
@@ -403,13 +466,16 @@ to restrict to one batch. Generation runs about 12 hours per 300 images.
 perceives. Spend it on named art instead. And never commission per-entry art for all 25,926
 entries: that is ~86 batches.
 
-### The four checks, and what each is for
+### The seven checks, and what each is for
 
 ```bash
 node tools/check-themes.mjs .                              # tables sane: not too broad, not dead
 node tools/check-reachable.mjs .                           # no art on disk that nothing CAN request
 node tools/check-coverage.mjs . "…/Box/CODEX IMAGES"       # nothing requested that nobody drew
 node tools/check-used.mjs .                                # no art that nothing ACTUALLY shows
+node tools/check-tables.mjs .                              # tables on a page say the right thing
+node tools/check-api.mjs .                                 # the JSON API is fresh and true to the data
+node tools/check-guide.mjs .                               # Start Here links, counts, intro copy
 ```
 
 `check-reachable` and `check-used` are not the same question. The first is structural — could the

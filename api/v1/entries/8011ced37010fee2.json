@@ -1,0 +1,23 @@
+{
+  "id": "8011ced37010fee2",
+  "name": "Word of Resolve",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 249",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "paladin": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 249\nSchool abjuration; Level paladin 1\nCasting\nCasting Time 1 immediate action\nComponents V, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one ally\nDuration instantaneous\nSaving Throw Will negate (harmless); Spell Resistance yes (harmless)\nDescription\nYou focus your aura on one ally, allowing it to reroll a failed saving throw against a charm or fear effect with a +4 sacred bonus. If you do not have the aura of courage class ability, this spell has no effect on the target’s fear. If you do not have the aura of resolve class ability, this spell has no effect on any charm effects on the target.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8011ced37010fee2.json",
+    "web": "https://codex.pipsprojects.com/#/e/8011ced37010fee2"
+  },
+  "license": "OGL 1.0a"
+}

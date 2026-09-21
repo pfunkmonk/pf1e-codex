@@ -1,0 +1,24 @@
+{
+  "id": "06f73242bcabda1c",
+  "name": "Fester, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 221",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "inquisitor": 3,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Fester\nSource Advanced Player's Guide pg. 221\nSchool necromancy; Level inquisitor 3, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (rotted meat)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level or 1 round; see text\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nNecrotic energy permeates the target, blocking healing abilities. The subject gains spell resistance equal to 12 + your caster level against effects that restore hit points or grant temporary hit points. In addition, any healing provided by effects that ignore spell resistance (such as fast healing, regeneration, and some spells) are halved. If the target succeeds on a Fortitude saving throw, fester lasts only a single round.\nFester, Mass\nSource Advanced Player's Guide pg. 221\nSchool necromancy; Level inquisitor 6, witch 6\nCasting\nCasting Time 1 standard action\nComponents V, S, M (rotted meat)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level or 1 round; see text\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nThis spell functions as fester, except that it affects multiple foes.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/06f73242bcabda1c.json",
+    "web": "https://codex.pipsprojects.com/#/e/06f73242bcabda1c"
+  },
+  "license": "OGL 1.0a"
+}

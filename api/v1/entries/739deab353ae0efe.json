@@ -1,0 +1,30 @@
+{
+  "id": "739deab353ae0efe",
+  "name": "Ghoul Hunger",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 234, Gods and Magic pg. 41",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "cleric": 2,
+      "oracle": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 234, Gods and Magic pg. 41\nSchool necromancy [evil, mind-affecting]; Level antipaladin 2, arcanist 2, cleric 2, oracle 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Urgathoa)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 round/level; see text\nSaving Throw Will negates, see text; Spell Resistance yes\nDescription\nYou awaken an unnatural hunger in the target, compelling it to fall upon a nearby helpless or dead humanoid creature and begin eating its flesh. The target defends itself normally but takes no other actions while eating. The target does not take extraordinary risks to satisfy this urge (it wouldn’t jump over a pit or swim through lava to reach a suitable victim). If the target can’t fulfill this urge on its next turn, the spell fails. Each round on its turn, the target can attempt a new saving throw to end the effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/739deab353ae0efe.json",
+    "web": "https://codex.pipsprojects.com/#/e/739deab353ae0efe"
+  },
+  "license": "OGL 1.0a"
+}

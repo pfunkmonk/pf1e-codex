@@ -1,0 +1,32 @@
+{
+  "id": "4959463815684265",
+  "name": "Globe of Tranquil Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Wild pg. 30",
+  "book": "Heroes of the Wild",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 4,
+      "druid": 4,
+      "hunter": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "sorcerer": 5,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Heroes of the Wild"
+  },
+  "body": "Source Heroes of the Wild pg. 30\nSchool abjuration; Level arcanist 5, cleric 4, druid 4, hunter 4, oracle 4, shaman 4, sorcerer 5, warpriest 4, witch 4, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a glass globe)\nEffect\nRange 20 ft.\nArea 20-ft.-radius emanation, centered on you\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nUpon casting this spell, a rippling bubble of calm water extends outward from you to a radius of 20 feet and remains centered on you when you move. The bubble blocks all natural and magical precipitation such as rain, snow, and hail (including spells such as ice storm). This bubble also pushes out any fog or mist within the area, though it does not affect temperature and can’t block natural or magical lightning.\n\nAll water in this radius counts as calm water for the purposes of Swim checks, and the bubble prevents sprays and blasts of mundane and magic water from striking with enough force to deal damage, move creatures or halt their movement, or perform any action that requires an attack roll or combat maneuver check.\n\nWater elementals are affected by a globe of tranquil water the same way creatures of the plant type are affected by an antiplant shell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4959463815684265.json",
+    "web": "https://codex.pipsprojects.com/#/e/4959463815684265"
+  },
+  "license": "OGL 1.0a"
+}

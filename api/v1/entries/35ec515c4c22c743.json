@@ -1,0 +1,17 @@
+{
+  "id": "35ec515c4c22c743",
+  "name": "Determining Wound Points and Vigor Points",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Combat pg. 206",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Rules Index | GM Screen\nOptional Rule Systems / Wounds and Vigor\n\nDetermining Wound Points and Vigor Points\nSource Ultimate Combat pg. 206\nInstead of hit points, creatures using this system have a number of wound points and vigor points. These two replacement scores are kept track of separately, and represent different ways a character handles the damage inflicted on him. The following are descriptions of these scores and how they work within the variant system of damage tracking.\n\nWound Points\nSource Ultimate Combat pg. 206\nTypically a creature has a number of wound points equal to twice its Constitution score. It also has a wound threshold equal to its Constitution score.\n\nWound points represent the amount of physical punishment a creature can take before it dies. When a creature’s wound points drop to or below its wound threshold, that creature becomes wounded. When a creature is wounded, it gains the staggered condition until it is no longer wounded. Furthermore, when a creature is wounded, if that creature takes any standard or move action on its turn, its remaining wound points are reduced by 1 and it must make a DC 10 Constitution check. If the creature fails that check, it falls unconscious.\n\nWhen a creature reaches 0 or fewer wound points, it is dead.\n\nWound Points and Constitution Damage, Drain, and Penalties: A creature’s wound points and Constitution score are intrinsically linked. For each point of Constitution damage a creature takes, it loses 2 wound points, but this damage does not affect the creature’s wound threshold. When a creature takes a penalty to its Constitution score or its Constitution is drained, it loses 1 wound point per point of drain or per penalty for the duration of the penalty or drain. A penalty to Constitution or Constitution drain has no effect on the creature’s wound threshold.\n\nVigor Points\nSource Ultimate Combat pg. 206\nVigor represents a creature’s ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see Critical Hits).\n\nCreatures with one or more full Hit Dice or levels gain vigor points. With each level gained or each Hit Die a creature has, it gains a number of vigor points based on its Hit Die type. Use the creature’s Hit Dice to generate its vigor points, just like you would hit points, but without adding the creature’s Constitution modifier. A creature gains maximum vigor points on its first Hit Die if it comes from a character class level. Creatures whose first full Hit Die comes from an NPC class or from their race roll their Hit Dice to determine their starting vigor points. A creature with less than one Hit Die has no vigor points; it only has wound points.\n\nWhen a creature no longer has any vigor points, any additional damage it takes reduces its wound point total.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/35ec515c4c22c743.json",
+    "web": "https://codex.pipsprojects.com/#/e/35ec515c4c22c743"
+  },
+  "license": "OGL 1.0a"
+}

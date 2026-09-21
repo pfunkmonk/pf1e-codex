@@ -1,0 +1,72 @@
+{
+  "id": "587ab1fe122b5d45",
+  "name": "Dedicated Powers",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "PRPG Core Rulebook pg. 535",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Rules Index | GM Screen\n\nDedicated Powers\nSource PRPG Core Rulebook pg. 535\nA dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant (see Items Against Characters). The caster level for these effects is equal to the item’s caster level. Save DCs are based on the item’s highest mental ability score. See Table 15–26 for a list of dedicated powers.\nd% Dedicated Power Base Price Modifier Ego Modifier\n01–20 Item can detect any special purpose foes within 60 feet +10,000 gp +1\n21–35 Item can use a 4th-level spell at will +56,000 gp +2\n36–50 Wielder gets +2 luck bonus on attacks, saves, and checks +80,000 gp +2\n51–65 Item can use a 5th-level spell at will +90,000 gp +2\n66–80 Item can use a 6th-level spell at will +132,000 gp +2\n81–95 Item can use a 7th-level spell at will +182,000 gp +2\n96–100 Item can use true resurrection on wielder, once per month +200,000 gp +2",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Dedicated Power",
+          "Base Price Modifier",
+          "Ego Modifier"
+        ],
+        [
+          "01–20",
+          "Item can detect any special purpose foes within 60 feet",
+          "+10,000 gp",
+          "+1"
+        ],
+        [
+          "21–35",
+          "Item can use a 4th-level spell at will",
+          "+56,000 gp",
+          "+2"
+        ],
+        [
+          "36–50",
+          "Wielder gets +2 luck bonus on attacks, saves, and checks",
+          "+80,000 gp",
+          "+2"
+        ],
+        [
+          "51–65",
+          "Item can use a 5th-level spell at will",
+          "+90,000 gp",
+          "+2"
+        ],
+        [
+          "66–80",
+          "Item can use a 6th-level spell at will",
+          "+132,000 gp",
+          "+2"
+        ],
+        [
+          "81–95",
+          "Item can use a 7th-level spell at will",
+          "+182,000 gp",
+          "+2"
+        ],
+        [
+          "96–100",
+          "Item can use true resurrection on wielder, once per month",
+          "+200,000 gp",
+          "+2"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/587ab1fe122b5d45.json",
+    "web": "https://codex.pipsprojects.com/#/e/587ab1fe122b5d45"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bae22ec6458db0de",
+  "name": "Brand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 207",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "inquisitor": 0
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 207\nSchool transmutation [curse]; Level inquisitor 0\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 day/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nBrand etches an indelible rune or mark of no more than 6 characters onto a creature, inflicting 1 point of damage. The mark may be placed on any exposed portion of the creature, typically the head or forearm. A brand can be hidden by clothing or removed by scraping it away (causing 1d6 points of damage), though the brand returns if the damage is healed.\nBrand, Greater\nSource Advanced Player's Guide pg. 207\nSchool transmutation [curse]; Level inquisitor 4\nCasting\nCasting Time 1 round\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions like brand, except that it inflicts 1d6 points of damage when applied and cannot be removed, even temporarily. In addition, a greater brand blazes as bright as a torch when brought within 30 feet of a visible symbol of your faith. While the symbol is blazing, the recipient is sickened. Like the effects of bestow curse, a greater brand cannot be dispelled, but it can be removed by any means that removes a mark of justice.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bae22ec6458db0de.json",
+    "web": "https://codex.pipsprojects.com/#/e/bae22ec6458db0de"
+  },
+  "license": "OGL 1.0a"
+}

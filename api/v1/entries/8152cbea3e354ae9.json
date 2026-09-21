@@ -1,0 +1,31 @@
+{
+  "id": "8152cbea3e354ae9",
+  "name": "Protection from Natural Attacks",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Hunter's Handbook pg. 30",
+  "book": "Monster Hunter's Handbook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "druid": 4,
+      "hunter": 2,
+      "investigator": 3,
+      "psychic": 4,
+      "ranger": 2,
+      "shaman": 4,
+      "spiritualist": 3,
+      "summoner": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Monster Hunter's Handbook"
+  },
+  "body": "Source Monster Hunter's Handbook pg. 30\nSchool abjuration; Level alchemist 3, druid 4, hunter 2, investigator 3, psychic 4, ranger 2, shaman 4, spiritualist 3, summoner 3, summoner (unchained) 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a scale from a lizard)\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nUpon casting this spell, select one type of natural attack from the following: bite, claw, gore, hoof, pincers, slam, sting, swarm, tail slap, talon, tentacle, or wing. For the duration of the spell, the target gains DR 5/— against all attacks from natural weapons of the selected type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8152cbea3e354ae9.json",
+    "web": "https://codex.pipsprojects.com/#/e/8152cbea3e354ae9"
+  },
+  "license": "OGL 1.0a"
+}

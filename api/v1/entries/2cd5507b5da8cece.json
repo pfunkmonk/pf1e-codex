@@ -1,0 +1,36 @@
+{
+  "id": "2cd5507b5da8cece",
+  "name": "Instant Portrait",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Adventurer's Guide pg. 176",
+  "book": "Adventurer's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Adventurer's Guide"
+  },
+  "body": "Source Adventurer's Guide pg. 176\nSchool conjuration (creation); Level arcanist 1, bard 1, cleric 1, inquisitor 1, mesmerist 1, occultist 1, oracle 1, psychic 1, skald 1, sorcerer 1, summoner 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nEffect a monochromatic illustration up to 1 square foot in area\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou touch a surface and produce a painted portrait of either yourself or a creature you can see without needing to attempt a Craft (painting) check. The surface to be affected must be relatively flat, such as a piece of paper or a wall. The image can be any color of your choice, but is monochromatic. While it is of too poor a quality to sell, it is otherwise accurate enough to recognize the subject or to serve as a target for the enter image spell. The portrait reflects your perception of the creature depicted, including any disguises, magical or mundane, that the subject is wearing at the time of the painting’s creation. The portrait is only as durable as normal paint and can be removed by mundane means.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2cd5507b5da8cece.json",
+    "web": "https://codex.pipsprojects.com/#/e/2cd5507b5da8cece"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cf1c194000eda37e",
+  "name": "Acidic Spray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 204",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 5,
+      "magus": 5,
+      "sorcerer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 204\nSchool conjuration (creation) [acid]; Level arcanist 5, magus 5, sorcerer 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a vial of acid worth 10 gp)\nEffect\nRange 60 ft.\nEffect 60-ft. line\nDuration instantaneous\nSaving Throw Reflex partial (see text); Spell Resistance yes\nDescription\nA spray of acid erupts from your outstretched hand, dealing 1d6 points of acid damage per caster level (maximum 15d6) to each creature within its area (Reflex half). This acid continues to burn for 1 round, dealing 1d6 points of acid damage per two caster levels (maximum 7d6) to any creature that failed its saving throw against the spell (a second Reflex save on the creature's turn negates this additional damage).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf1c194000eda37e.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf1c194000eda37e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "a0ae6c1e913c64e8",
+  "name": "Wind Walk",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 369",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 6,
+      "cleric": 6,
+      "druid": 7,
+      "investigator": 6,
+      "oracle": 6,
+      "shaman": 7,
+      "warpriest": 6
+    },
+    "desc": [
+      "air"
+    ],
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 369\nSchool transmutation [air]; Level alchemist 6, cleric 6, druid 7, investigator 6, oracle 6, shaman 7, warpriest 6\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets you and one touched creature per three levels\nDuration 1 hour/level (D); see text\nSaving Throw no and Will negates (harmless); Spell Resistance no and yes (harmless)\nDescription\nYou alter the substance of your body to a cloudlike vapor (as the gaseous form spell) and move through the air, possibly at great speed. You can take other creatures with you, each of which acts independently.\n\nNormally, a wind walker flies at a speed of 10 feet with perfect maneuverability. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round (60 mph) with poor maneuverability. Wind walkers are not invisible but rather appear misty and translucent. If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, or the like.\n\nA wind walker can regain its physical form as desired and later resume the cloud form. Each change to and from vaporous form takes 5 rounds, which counts toward the duration of the spell (as does any time spent in physical form). As noted above, you can dismiss the spell, and you can even dismiss it for individual wind walkers and not others.\n\nFor the last minute of the spell's duration, a wind walker in cloud form automatically descends 60 feet per round (for a total of 600 feet), though it may descend faster if it wishes. This descent serves as a warning that the spell is about to end.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a0ae6c1e913c64e8.json",
+    "web": "https://codex.pipsprojects.com/#/e/a0ae6c1e913c64e8"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "30e97d3c343e318d",
+  "name": "Spellscar",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 61",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 8,
+      "cleric": 8,
+      "oracle": 8,
+      "sorcerer": 8,
+      "wizard": 8
+    },
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 61\nSchool abjuration; Level arcanist 8, cleric 8, oracle 8, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of sand from the Spellscar Desert)\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea two 10-ft. cubes per level (S)\nDuration 10 minutes/level (D)\nDescription\nThis potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago— albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a primal magic event—a spellcaster can avoid triggering such an event by making a concentration check (DC 15 + twice the spell’s level), but non-spellcasters who activate magic items have no such option.\n\nYou gain a +4 insight bonus on concentration checks made to avoid triggering primal magic events while within a spellscar you have created, and if you do trigger a primal magic event, you may roll d% twice and pick which of the two results you wish to have occur.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/30e97d3c343e318d.json",
+    "web": "https://codex.pipsprojects.com/#/e/30e97d3c343e318d"
+  },
+  "license": "OGL 1.0a"
+}

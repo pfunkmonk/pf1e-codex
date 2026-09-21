@@ -1,0 +1,30 @@
+{
+  "id": "b432fa9f89f762c7",
+  "name": "Telepathy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 189",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 6,
+      "medium": 4,
+      "mesmerist": 4,
+      "psychic": 5,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 189\nSchool divination [mind-affecting]; Level arcanist 6, medium 4, mesmerist 4, psychic 5, sorcerer 6, spiritualist 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nYou can mentally communicate with any other creature within 100 feet that has a language. It is possible to address multiple creatures at once telepathically, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as speaking and listening to multiple people simultaneously.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b432fa9f89f762c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/b432fa9f89f762c7"
+  },
+  "license": "OGL 1.0a"
+}

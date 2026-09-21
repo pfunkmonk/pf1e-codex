@@ -1,0 +1,27 @@
+{
+  "id": "cf2d4cfaff17e28d",
+  "name": "Wooden Phalanx",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 249",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 249\nSchool conjuration (creation); Level arcanist 9, cleric 9, oracle 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect three or more wood golems, no two of which can be more than 30 ft. apart (see text)\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou create 1d4+2 wood golems with the advanced template. The golems willingly aid you in combat or battle, perform a specific mission, or serve as bodyguards. You can only have one wooden phalanx spell in effect at one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf2d4cfaff17e28d.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf2d4cfaff17e28d"
+  },
+  "license": "OGL 1.0a"
+}

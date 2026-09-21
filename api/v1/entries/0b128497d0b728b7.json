@@ -1,0 +1,27 @@
+{
+  "id": "0b128497d0b728b7",
+  "name": "Marching Chant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 187",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "cleric": 2,
+      "oracle": 2,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 187\nSchool transmutation; Level bard 2, cleric 2, oracle 2, skald 2, warpriest 2\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level\nDuration concentration\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou invigorate your allies, who can hustle (Core Rulebook 170) as long as you continue to sing or chant (which requires your concentration). This movement counts as a walk (not a hustle) for the purpose of accruing nonlethal damage and fatigue. You can concentrate on this spell and hustle at the same time.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b128497d0b728b7.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b128497d0b728b7"
+  },
+  "license": "OGL 1.0a"
+}

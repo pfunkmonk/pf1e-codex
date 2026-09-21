@@ -1,0 +1,49 @@
+{
+  "id": "354a2d8639748c5a",
+  "name": "Bridge, assault, Gargantuan",
+  "bucket": "items",
+  "category": "Weapons",
+  "source": "Ultimate Combat pg. 165",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 165\nStatistics\nCost 50 gp Weight —\nDamage —; Critical —; Range —; Type —\nCrew 0; Aim 0; Load 0; Speed 0 ft.\nCategory Close Assault; Proficiency Siege Engine\nDescription\nAn assault bridge is used to span a ditch, moat, or other gap. Raising an assault bridge requires one full-round action per 5 feet of length; up to four creatures may cooperate to raise a bridge. The time required is doubled for each size category that the bridge is larger than the creatures raising it. Large assault bridges have 40 hit points, Huge ones have 60 hit points, Gargantuan ones have 160 hit points, and Colossal ones have 240 hit points.\n\nTable 3-16: Bridges and Escalade Ladders\nSize Width Length/Height\nLarge 5 ft. 20 ft.\nHuge 5 ft. 30 ft.\nGargantuan 10 ft. 40 ft.\nColossal 10 ft. 60 ft.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Size",
+          "Width",
+          "Length/Height"
+        ],
+        [
+          "Large",
+          "5 ft.",
+          "20 ft."
+        ],
+        [
+          "Huge",
+          "5 ft.",
+          "30 ft."
+        ],
+        [
+          "Gargantuan",
+          "10 ft.",
+          "40 ft."
+        ],
+        [
+          "Colossal",
+          "10 ft.",
+          "60 ft."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/354a2d8639748c5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/354a2d8639748c5a"
+  },
+  "license": "OGL 1.0a"
+}

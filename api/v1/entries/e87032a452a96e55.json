@@ -1,0 +1,28 @@
+{
+  "id": "e87032a452a96e55",
+  "name": "Diamond Spray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #24: The Final Wish pg. 60",
+  "book": "Pathfinder #24: The Final Wish",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Pathfinder #24: The Final Wish"
+  },
+  "body": "Source Pathfinder #24: The Final Wish pg. 60\nSchool evocation [earth]; Level arcanist 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a lump of coal)\nEffect\nRange 20 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nA cone of tiny, sparkling slivers as hard and sharp as filed diamonds springs from your outstretched fingers at tremendous speed. Any creature in the area of the torrent takes 1d6 points of slashing damage per caster level (maximum 10d6). These magical slivers are treated as adamantine and cold iron for the purpose of overcoming damage reduction. In addition, this spell bypasses up to 1 point of an object’s hardness per 2 caster levels (maximum 10).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e87032a452a96e55.json",
+    "web": "https://codex.pipsprojects.com/#/e/e87032a452a96e55"
+  },
+  "license": "OGL 1.0a"
+}

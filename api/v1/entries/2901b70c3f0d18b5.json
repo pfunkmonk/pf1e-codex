@@ -1,0 +1,29 @@
+{
+  "id": "2901b70c3f0d18b5",
+  "name": "Foe to Friend",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 224",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "mesmerist": 5,
+      "psychic": 7,
+      "skald": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 224\nSchool enchantment (compulsion) [mind-affecting]; Level bard 5, mesmerist 5, psychic 7, skald 5\nCasting\nCasting Time 1 immediate action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nCast this spell when an enemy is about to make an attack against an ally. The creature makes the attack against a valid target of your choice instead or the attack is negated. In addition, the target is considered an ally for determining flanking for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2901b70c3f0d18b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/2901b70c3f0d18b5"
+  },
+  "license": "OGL 1.0a"
+}

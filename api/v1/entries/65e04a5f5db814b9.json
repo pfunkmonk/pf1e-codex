@@ -1,0 +1,21 @@
+{
+  "id": "65e04a5f5db814b9",
+  "name": "Hero's Defiance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 226",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "paladin": 1
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 226\nSchool conjuration (healing); Level paladin 1\nCasting\nCasting Time 1 immediate action\nComponents V\nEffect\nRange personal\nTarget you\nDuration instantaneous\nDescription\nThe instant before you are reduced to 0 or fewer hit points, you can expend a use of your lay on hands ability to heal yourself as if you had used lay on hands, plus an additional 1d6 hit points. If this healing brings your hit point total above 0 hit points, you do not fall, and may continue to act. If you have no more uses of lay on hands this spell has no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65e04a5f5db814b9.json",
+    "web": "https://codex.pipsprojects.com/#/e/65e04a5f5db814b9"
+  },
+  "license": "OGL 1.0a"
+}

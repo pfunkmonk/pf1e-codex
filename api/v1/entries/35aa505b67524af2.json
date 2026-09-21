@@ -1,0 +1,65 @@
+{
+  "id": "35aa505b67524af2",
+  "name": "Ioun Memory Node Type I",
+  "bucket": "items",
+  "category": "Wondrous Items",
+  "source": "Pathfinder #123: The Flooded Cathedral pg. 78",
+  "book": "Pathfinder #123: The Flooded Cathedral",
+  "facets": {
+    "pr": 6000,
+    "bk": "Pathfinder #123: The Flooded Cathedral"
+  },
+  "body": "Ioun Memory Node\nSource Pathfinder #123: The Flooded Cathedral pg. 78\nAura strong transmutation; CL 13th\nSlot none; Price 6,000 gp (Type I), 14,000 gp (Type II), 24,000 gp (Type III), 36,000 gp (Type IV); Weight —\nDescription\nWhen this ioun stone is embedded in a clockwork construct, it grants the recipient humanlike sentience, as per the awaken construct spell. The transformation is not permanent, and regardless of the body a stone is embedded in, the creature in which it’s embedded always gains the same alignment, Charisma score increase, Intelligence score, language, memories, personality, and skills. These statistics depend on the ioun memory node type, as noted in the table below.\n\nType Int Cha Skills Languages Max HD\nI 7 +2 1 1 4\nII 10 +5 2 1 8\nIII 12 +7 3 2 12\nIV 15 +10 4 3 16\n\nThe skills, languages, and alignment are chosen when the node is created. The node grants a number of skill ranks in those skills equal to the clockwork’s Hit Dice. Unlike awaken construct, an ioun memory node doesn’t grant feats. A clockwork that is already intelligent can access the memories collected in the ioun memory node but is otherwise unaffected. A clockwork whose number of Hit Dice exceeds the maximum HD for that type of ioun memory node is unaffected.\nConstruction\nRequirements Craft Wondrous Item, awaken construct; Cost 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Type",
+          "Int",
+          "Cha",
+          "Skills",
+          "Languages",
+          "Max HD"
+        ],
+        [
+          "I",
+          "7",
+          "+2",
+          "1",
+          "1",
+          "4"
+        ],
+        [
+          "II",
+          "10",
+          "+5",
+          "2",
+          "1",
+          "8"
+        ],
+        [
+          "III",
+          "12",
+          "+7",
+          "3",
+          "2",
+          "12"
+        ],
+        [
+          "IV",
+          "15",
+          "+10",
+          "4",
+          "3",
+          "16"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/35aa505b67524af2.json",
+    "web": "https://codex.pipsprojects.com/#/e/35aa505b67524af2"
+  },
+  "license": "OGL 1.0a"
+}

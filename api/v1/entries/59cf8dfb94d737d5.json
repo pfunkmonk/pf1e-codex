@@ -1,0 +1,32 @@
+{
+  "id": "59cf8dfb94d737d5",
+  "name": "Remove Blindness/Deafness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 332",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 3,
+      "cleric": 3,
+      "investigator": 3,
+      "mesmerist": 3,
+      "oracle": 3,
+      "paladin": 3,
+      "shaman": 3,
+      "spiritualist": 3,
+      "warpriest": 3,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 332\nSchool conjuration (healing); Level alchemist 3, cleric 3, investigator 3, mesmerist 3, oracle 3, paladin 3, shaman 3, spiritualist 3, warpriest 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nRemove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\n\nRemove blindness/deafness counters and dispels blindness/deafness.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/59cf8dfb94d737d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/59cf8dfb94d737d5"
+  },
+  "license": "OGL 1.0a"
+}

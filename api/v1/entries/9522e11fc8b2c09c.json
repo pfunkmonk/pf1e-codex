@@ -1,0 +1,35 @@
+{
+  "id": "9522e11fc8b2c09c",
+  "name": "Guidance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 292",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "adept": 0,
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "inquisitor": 0,
+      "medium": 0,
+      "occultist": 0,
+      "oracle": 0,
+      "shaman": 0,
+      "spiritualist": 0,
+      "summoner": 0,
+      "warpriest": 0,
+      "witch": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 292\nSchool divination; Level adept 0, cleric 0, druid 0, hunter 0, inquisitor 0, medium 0, occultist 0, oracle 0, shaman 0, spiritualist 0, summoner 0, summoner (unchained) 0, warpriest 0, witch 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell imbues the subject with a touch of divine guidance. The creature gets a +1 competence bonus on a single attack roll, saving throw, or skill check. It must choose to use the bonus before making the roll to which it applies.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9522e11fc8b2c09c.json",
+    "web": "https://codex.pipsprojects.com/#/e/9522e11fc8b2c09c"
+  },
+  "license": "OGL 1.0a"
+}

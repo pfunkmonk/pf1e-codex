@@ -1,0 +1,25 @@
+{
+  "id": "31814a3c536b5ac4",
+  "name": "Resize Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Giant Hunter's Handbook pg. 33",
+  "book": "Giant Hunter's Handbook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Giant Hunter's Handbook"
+  },
+  "body": "Source Giant Hunter's Handbook pg. 33\nSchool transmutation; Level arcanist 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (silver calipers worth 25 gp)\nEffect\nRange touch\nTarget one weapon or suit of armor weighing up to 25 lbs./level\nDuration 24 hours (D)\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou alter a magic weapon or suit of armor to be up to two size categories larger or smaller. If the spell on a resized suit of armor ends while the armor is being worn, the armor falls off harmlessly. If the spell would cause an item to grow too large for the area containing it, its growth halts just before that point.\n\nResize item can be made permanent with a permanency spell for 7,500 gp, in which case the affected object is set at one specific new size within two steps of its original size.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31814a3c536b5ac4.json",
+    "web": "https://codex.pipsprojects.com/#/e/31814a3c536b5ac4"
+  },
+  "license": "OGL 1.0a"
+}

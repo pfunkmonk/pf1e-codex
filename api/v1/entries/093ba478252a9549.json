@@ -1,0 +1,28 @@
+{
+  "id": "093ba478252a9549",
+  "name": "Binding Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 149",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "witch": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 149\nSchool transmutation [earth]; Level druid 2, hunter 2, witch 2 (oread)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or unattended object (see text)\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nIf the target of this spell fails its Fortitude save, areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.\n\nIf the target is a creature, it treats all areas of earth and stone it moves through as difficult terrain. Furthermore, for each 5 feet a creature moves through such areas, it takes 1d6 points of damage. Creatures with a burrow speed or the earth glide ability are unaffected by binding earth.\n\nIf cast on an unattended object resting on an area of stone or earth, the stone or earth warps and wraps around it, pulling it firmly to the ground. A DC 15 Strength check is required to pull the object free from snapping earth or stone.\nBinding Earth, Mass\nSource Advanced Race Guide pg. 149\nSchool transmutation [earth]; Level druid 6, hunter 6, witch 6 (oread)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature or object/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis spell functions as binding earth, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/093ba478252a9549.json",
+    "web": "https://codex.pipsprojects.com/#/e/093ba478252a9549"
+  },
+  "license": "OGL 1.0a"
+}

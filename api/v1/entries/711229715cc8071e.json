@@ -1,0 +1,34 @@
+{
+  "id": "711229715cc8071e",
+  "name": "Starsight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "People of the Stars pg. 29",
+  "book": "People of the Stars",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "investigator": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "bk": "People of the Stars"
+  },
+  "body": "Source People of the Stars pg. 29\nSchool divination; Level alchemist 1, arcanist 1, bard 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, ranger 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level\nDescription\nYou can observe the night sky and all of its celestial bodies as if it were a clear night, regardless of weather conditions that would otherwise block your view. Your vision penetrates any light pollution from nonmagical sources, though this spell doesn’t function in daylight, indoors, or underground. You see through forest canopies and similar natural obstructions, but only for the purpose of stargazing. For the spell’s duration, you gain a +2 insight bonus on Knowledge (geography) checks relating to the stars and planets and Survival checks to avoid getting lost.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/711229715cc8071e.json",
+    "web": "https://codex.pipsprojects.com/#/e/711229715cc8071e"
+  },
+  "license": "OGL 1.0a"
+}

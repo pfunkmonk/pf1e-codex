@@ -1,0 +1,39 @@
+{
+  "id": "f93a62f3ac95aec3",
+  "name": "Mending",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 312",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 0,
+      "arcanist": 0,
+      "bard": 0,
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "occultist": 0,
+      "oracle": 0,
+      "psychic": 0,
+      "shaman": 0,
+      "skald": 0,
+      "sorcerer": 0,
+      "spiritualist": 0,
+      "summoner": 0,
+      "warpriest": 0,
+      "witch": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 312\nSchool transmutation; Level adept 0, arcanist 0, bard 0, cleric 0, druid 0, hunter 0, occultist 0, oracle 0, psychic 0, shaman 0, skald 0, sorcerer 0, spiritualist 0, summoner 0, summoner (unchained) 0, warpriest 0, witch 0, wizard 0\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange 10 ft.\nTarget one object up to 1 lb./level\nDuration instantaneous\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nThis spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f93a62f3ac95aec3.json",
+    "web": "https://codex.pipsprojects.com/#/e/f93a62f3ac95aec3"
+  },
+  "license": "OGL 1.0a"
+}

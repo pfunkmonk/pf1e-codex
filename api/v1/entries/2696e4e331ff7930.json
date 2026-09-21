@@ -1,0 +1,26 @@
+{
+  "id": "2696e4e331ff7930",
+  "name": "Sea Stallion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 234",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "paladin": 2,
+      "ranger": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Sea Steed\nSource Ultimate Wilderness pg. 234\nSchool transmutation (polymorph); Level druid 2, hunter 2, paladin 2, ranger 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget a creature you are mounted upon\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target adapts to life in the water, gaining piscine scales that cover its body and growing fins in place of feet. It gains the aquatic subtype, the amphibious quality, and a swim speed equal to its base speed before it came under the effect of this spell. While under the effects of this spell, the target’s base speed is reduced by 10 feet (minimum 10 feet).\nSea Stallion\nSource Ultimate Wilderness pg. 234, Animal Archive pg. 25\nSchool transmutation (polymorph); Level druid 4, hunter 4, paladin 4, ranger 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget a creature you are mounted upon\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as sea steed, but as long as you stay mounted on the target, you also gain the amphibious quality and your melee attacks function as if you were under the effect of freedom of movement. The benefits you gain from this spell are not polymorph effects. If you dismount from the target, you retain the amphibious quality for up to 1 minute, but not the other benefits. You regain all of the benefits once you mount the target creature again.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2696e4e331ff7930.json",
+    "web": "https://codex.pipsprojects.com/#/e/2696e4e331ff7930"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3536ade32d60f912",
+  "name": "Pinecone Bomb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Wilderness Origins pg. 13",
+  "book": "Wilderness Origins",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 3,
+      "shaman": 2,
+      "witch": 2
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Wilderness Origins"
+  },
+  "body": "Source Wilderness Origins pg. 13\nSchool evocation; Level druid 2, hunter 2, ranger 3, shaman 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinecone)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius spread\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nDescription\nCreated by Ghorus when he was working to create the ghorans, pinecone bomb infuses a small pinecone with power, causing it to detonate with explosive force when thrown. You throw the pinecone at a target or point within range and it detonates immediately upon landing, dealing 1d6 points of piercing damage per 2 caster levels you have (maximum 5d6) to each creature caught in the spread.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3536ade32d60f912.json",
+    "web": "https://codex.pipsprojects.com/#/e/3536ade32d60f912"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3a75a4e7ef64c1e8",
+  "name": "Retrieve Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Classic Treasures Revisited pg. 27",
+  "book": "Classic Treasures Revisited",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Classic Treasures Revisited"
+  },
+  "body": "Source Classic Treasures Revisited pg. 27\nSchool conjuration (calling); Level arcanist 2, bard 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 full round\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget an unattended object weighing 1 lb. or less whose longest dimension is 6 inches or less\nDuration permanent until discharged\nSaving Throw none; Spell Resistance no\nDescription\nYou call a specific nonliving item directly to your hand from a nearby location. First, you must cast the spell on the item while holding it. Thereafter, you can summon the item by speaking a special word (set by you when the spell is cast) and snapping your fingers. The item appears instantly in your hand.\n\nIf the item is in the possession of another creature, the spell fails.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a75a4e7ef64c1e8.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a75a4e7ef64c1e8"
+  },
+  "license": "OGL 1.0a"
+}

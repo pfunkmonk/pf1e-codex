@@ -1,0 +1,33 @@
+{
+  "id": "5ac661671ff2b76c",
+  "name": "Radiation Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Darklands pg. 15",
+  "book": "Heroes of the Darklands",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 1,
+      "oracle": 2,
+      "ranger": 1,
+      "shaman": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Heroes of the Darklands"
+  },
+  "body": "Source Heroes of the Darklands pg. 15\nSchool abjuration; Level alchemist 2, arcanist 2, cleric 2, druid 2, hunter 1, oracle 2, ranger 1, shaman 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\nDescription\nA creature warded by this spell gains a +4 bonus on saving throws against radiation-based effects. In addition, the warded creature is immediately aware when it enters an area of radiation, as well as the radiation level (low, medium, high, or severe) suffusing the area.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ac661671ff2b76c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ac661671ff2b76c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "9bc8328b3ca2221d",
+  "name": "Animate Plants",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 242",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "shaman": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 242\nSchool transmutation; Level druid 7, shaman 7\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one Large plant per three caster levels or all plants within range; see text\nDuration 1 round/level or 1 hour/level; see text\nSaving Throw none; Spell Resistance no\nDescription\nYou imbue inanimate plants with mobility and a semblance of life. Each animated plant then immediately attacks whomever or whatever you initially designate as though it were an animated object of the appropriate size category. You may animate one Large or smaller plant, or a number of larger plants as follows: a Huge plant counts as two Large or smaller plants, a Gargantuan plant as four, and a Colossal plant as eight. You can change the designated target or targets as a move action, as if directing an active spell.\n\nUse the statistics for animated objects, except that plants smaller than Large don't have hardness.\n\nAnimate plants cannot affect plant creatures, nor does it affect nonliving vegetable material.\n\nEntangle: Alternatively, you may imbue all plants within range with a degree of mobility, which allows them to entwine around creatures in the area. This usage of the spell duplicates the effect of an entangle spell. Spell resistance does not keep creatures from being entangled. This effect lasts 1 hour per caster level.\nMythic Animate Plants\nSource Mythic Adventures pg. 84\nAnimated plants you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1–1/2 times the normal number of construction points.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9bc8328b3ca2221d.json",
+    "web": "https://codex.pipsprojects.com/#/e/9bc8328b3ca2221d"
+  },
+  "license": "OGL 1.0a"
+}

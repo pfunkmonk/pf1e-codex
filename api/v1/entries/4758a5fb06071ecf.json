@@ -1,0 +1,32 @@
+{
+  "id": "4758a5fb06071ecf",
+  "name": "Fastidiousness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Disciple's Doctrine pg. 13",
+  "book": "Disciple's Doctrine",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "bk": "Disciple's Doctrine"
+  },
+  "body": "Source Disciple's Doctrine pg. 13\nSchool abjuration; Level arcanist 1, bard 1, cleric 1, mesmerist 1, occultist 1, oracle 1, paladin 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 24 hours\nDescription\nWhile protected by fastidiousness, your person and your equipment stay clean and dry. Dust and moisture slough off immediately; even when you are completely soiled, your appearance reverts to a pristine state over the course of 1 minute. While this spell offers no protection against most attacks, staying constantly sanitary grants you a +2 circumstance bonus on Fortitude saving throws against inhaled and ingested diseases.\n\nMembers of the Prophet of Kalistrade prestige class can cast this spell, even though it is not a divination or enchantment.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4758a5fb06071ecf.json",
+    "web": "https://codex.pipsprojects.com/#/e/4758a5fb06071ecf"
+  },
+  "license": "OGL 1.0a"
+}

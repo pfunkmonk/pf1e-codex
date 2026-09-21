@@ -1,0 +1,28 @@
+{
+  "id": "56d546872847f3af",
+  "name": "Interplanetary Teleport",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 225, Pathfinder #14: Children of the Void pg. 54, Inner Sea World Guide pg. 295",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "oracle": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "wizard": 9
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 225, Pathfinder #14: Children of the Void pg. 54, Inner Sea World Guide pg. 295\nSchool conjuration (teleportation); Level arcanist 9, cleric 9, oracle 9, psychic 9, sorcerer 9, wizard 9\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange personal and touch\nTarget you and touched objects or other touched willing creatures\nDuration instantaneous\nSaving Throw none and Will negates (object); Spell Resistance no and yes (object)\nDescription\nThis spell functions as teleport, except there is truly no range limit and you do not need to have seen your destination, though you must have a solid grasp of which world you wish to travel to (“the third planet from the sun” is an acceptable destination, but “a habitable world near that bright star” is not). If you have a specific location on a planet in mind, you arrive there without a chance of failure; otherwise you arrive at a location that would not immediately be life-threatening. If no such safe landing zone exists on the world, such as someone attempting to travel into the sun without the proper precautions in place, the spell simply fails.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/56d546872847f3af.json",
+    "web": "https://codex.pipsprojects.com/#/e/56d546872847f3af"
+  },
+  "license": "OGL 1.0a"
+}

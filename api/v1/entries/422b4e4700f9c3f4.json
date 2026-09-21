@@ -1,0 +1,28 @@
+{
+  "id": "422b4e4700f9c3f4",
+  "name": "Respectful Quiet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Races pg. 222",
+  "book": "Inner Sea Races",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "cleric": 5,
+      "inquisitor": 3,
+      "oracle": 5,
+      "skald": 3,
+      "warpriest": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Races"
+  },
+  "body": "Source Inner Sea Races pg. 222\nSchool illusion (glamer); Level bard 3, cleric 5, inquisitor 3, oracle 5, skald 3, warpriest 5 (Chelaxian)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets any number of creatures in a 30-ft.-radius burst\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nAll targets are rendered silent, as per silence. The silence affects the entirety of each creature but does not extend beyond. However, the silence is one-way—sounds from outside the creatures’ spaces can still enter. Quieted creatures gain a +10 circumstance bonus on Stealth checks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/422b4e4700f9c3f4.json",
+    "web": "https://codex.pipsprojects.com/#/e/422b4e4700f9c3f4"
+  },
+  "license": "OGL 1.0a"
+}

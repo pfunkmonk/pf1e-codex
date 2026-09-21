@@ -1,0 +1,37 @@
+{
+  "id": "051e7ddb15517434",
+  "name": "Liberating Command",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 233, Andoran, Spirit of Liberty pg. 27",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "medium": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 233, Andoran, Spirit of Liberty pg. 27\nSchool transmutation; Level arcanist 1, bard 1, cleric 1, druid 1, hunter 1, medium 1, occultist 1, oracle 1, paladin 1, psychic 1, ranger 1, redmantisassassin 1, skald 1, sorcerer 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 immediate action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nIf the target is bound, grappled, or otherwise restrained, he may make an Escape Artist check to escape as an immediate action. He gains a competence bonus on this check equal to twice your caster level (maximum +20). This spell has no effect if the target could not get free by using the Escape Artist skill (for example, if he were under the effects of a hold person spell or paralyzed by Strength damage).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/051e7ddb15517434.json",
+    "web": "https://codex.pipsprojects.com/#/e/051e7ddb15517434"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "614ff5922654681f",
+  "name": "Conjure Black Pudding",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 211",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 6,
+      "psychic": 6,
+      "sorcerer": 6,
+      "summoner": 5,
+      "wizard": 6
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 211\nSchool conjuration (summoning) [acid]; Level arcanist 6, psychic 6, sorcerer 6, summoner 5, summoner (unchained) 5, wizard 6\nCasting\nCasting Time 1 round\nComponents V, S, M (a flask of acid worth 10 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned black pudding\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou summon a black pudding that immediately attacks creatures near it. You have no control over the creature, and it may attack you if there are no more obvious opponents. The black pudding is treated as a summoned creature and has the extraplanar subtype. The black pudding’s split ability works normally, but all puddings derived from the summoned one disappear when the spell ends.\nMythic Conjure Black Pudding\nSource Mythic Adventures pg. 89\nThe black pudding has fast healing equal to your tier, as do any puddings that split off from it. The black puddings from this spell never attack you, though they’re otherwise uncontrolled and might attack your allies if there are no other obvious opponents.\n\nAugmented (6th): If you expend two uses of mythic power, the pudding gains the savage mythic template (see page 224). Puddings that split off from the giant pudding don’t gain the template.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/614ff5922654681f.json",
+    "web": "https://codex.pipsprojects.com/#/e/614ff5922654681f"
+  },
+  "license": "OGL 1.0a"
+}

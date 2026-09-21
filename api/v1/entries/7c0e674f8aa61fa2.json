@@ -1,0 +1,29 @@
+{
+  "id": "7c0e674f8aa61fa2",
+  "name": "Chaos Hammer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 254",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "oracle": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 254\nSchool evocation [chaotic]; Level cleric 4, inquisitor 4, oracle 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius burst\nDuration instantaneous (1d6 rounds); see text\nSaving Throw Will partial; see text; Spell Resistance yes\nDescription\nYou unleash chaotic power to smite your enemies. The power takes the form of a multicolored explosion of leaping, ricocheting energy. Only lawful and neutral (not chaotic) creatures are harmed by the spell.\n\nThe spell deals 1d8 points of damage per two caster levels (maximum 5d8) to lawful creatures (or 1d6 points of damage per caster level, maximum 10d6, to lawful outsiders) and slows them for 1d6 rounds (see the slow spell). A successful Will save reduces the damage by half and negates the slow effect.\n\nThe spell deals only half damage against creatures who are neither lawful nor chaotic, and they are not slowed. Such a creature can reduce the damage by half again (down to one-quarter) with a successful Will save.\nMythic Chaos Hammer\nSource Mythic Adventures pg. 88\nThe damage dealt to lawful outsiders increases to 1d10 points of damage per caster level (maximum 10d10), and the damage dealt to other lawful creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration of slow increases to 2d6 rounds. Lawful creatures that succeed at their saves are slowed for 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c0e674f8aa61fa2.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c0e674f8aa61fa2"
+  },
+  "license": "OGL 1.0a"
+}

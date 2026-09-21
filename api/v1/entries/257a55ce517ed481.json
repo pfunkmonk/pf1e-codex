@@ -1,0 +1,25 @@
+{
+  "id": "257a55ce517ed481",
+  "name": "Rune of Warding",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dwarves of Golarion pg. 25",
+  "book": "Dwarves of Golarion",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 3,
+      "sorcerer": 3,
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Dwarves of Golarion"
+  },
+  "body": "Source Dwarves of Golarion pg. 25\nSchool abjuration; Level arcanist 3, sorcerer 3, wizard 3\nCasting\nCasting Time 1 hour\nComponents V, S, M (powdered adamantine, diamond, or mithral worth 200 gp)\nEffect\nRange touch\nTarget doorway or portal touched\nDuration permanent until discharged (D)\nSaving Throw Reflex half; Spell Resistance no (object) and yes (see text)\nDescription\nYou inscribe a series of runes upon the surface of a door or around the border of an entryway. They function as a glyph of warding (blast glyph), though unlike a glyph of warding, these runes are always visible. The runes count as a glyph of warding for the purpose of what spells can defeat it, placing multiple glyphs in the same area, and so on.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/257a55ce517ed481.json",
+    "web": "https://codex.pipsprojects.com/#/e/257a55ce517ed481"
+  },
+  "license": "OGL 1.0a"
+}

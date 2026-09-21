@@ -1,0 +1,25 @@
+{
+  "id": "cab6817f8d0ed090",
+  "name": "Polymorph, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 324",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 324\nSchool transmutation (polymorph); Level arcanist 7, sorcerer 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of the creature whose form you choose)\nEffect\nRange touch\nTarget living creature touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions as polymorph except that it allows the creature to take on the form of a dragon or plant creature. If you use this spell to cause the target to take on the form of an animal or magical beast, it functions as beast shape IV. If the form is that of an elemental, the spell functions as elemental body III. If the form is that of a humanoid, the spell functions as alter self. If the form is that of a plant, the spell functions as plant shape II. If the form is that of a dragon, the spell functions as form of the dragon I. The subject may choose to resume its normal form as a full-round action; doing so ends the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cab6817f8d0ed090.json",
+    "web": "https://codex.pipsprojects.com/#/e/cab6817f8d0ed090"
+  },
+  "license": "OGL 1.0a"
+}

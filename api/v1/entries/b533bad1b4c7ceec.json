@@ -1,0 +1,31 @@
+{
+  "id": "b533bad1b4c7ceec",
+  "name": "Spell Resistance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 347",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 5,
+      "cleric": 5,
+      "inquisitor": 5,
+      "investigator": 5,
+      "occultist": 5,
+      "oracle": 5,
+      "psychic": 5,
+      "spiritualist": 5,
+      "warpriest": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 347\nSchool abjuration; Level alchemist 5, cleric 5, inquisitor 5, investigator 5, occultist 5, oracle 5, psychic 5, spiritualist 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target gains spell resistance equal to 12 + your caster level.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b533bad1b4c7ceec.json",
+    "web": "https://codex.pipsprojects.com/#/e/b533bad1b4c7ceec"
+  },
+  "license": "OGL 1.0a"
+}

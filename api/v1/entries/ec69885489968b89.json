@@ -1,0 +1,27 @@
+{
+  "id": "ec69885489968b89",
+  "name": "Disrupting Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 273",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 5,
+      "oracle": 5,
+      "spiritualist": 5,
+      "warpriest": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 273\nSchool transmutation; Level cleric 5, inquisitor 5, oracle 5, spiritualist 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTargets one melee weapon\nDuration 1 round/level\nSaving Throw Will negates (harmless, object); see text; Spell Resistance yes (harmless, object)\nDescription\nThis spell makes a melee weapon deadly to undead. Any undead creature with HD equal to or less than your caster level must succeed on a Will save or be destroyed utterly if struck in combat with this weapon. Spell resistance does not apply against the destruction effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ec69885489968b89.json",
+    "web": "https://codex.pipsprojects.com/#/e/ec69885489968b89"
+  },
+  "license": "OGL 1.0a"
+}

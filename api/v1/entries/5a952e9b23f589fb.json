@@ -1,0 +1,33 @@
+{
+  "id": "5a952e9b23f589fb",
+  "name": "Virtue",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 365",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "inquisitor": 0,
+      "medium": 0,
+      "oracle": 0,
+      "paladin": 1,
+      "psychic": 0,
+      "shaman": 0,
+      "spiritualist": 0,
+      "warpriest": 0
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 365\nSchool transmutation; Level cleric 0, druid 0, hunter 0, inquisitor 0, medium 0, oracle 0, paladin 1, psychic 0, shaman 0, spiritualist 0, warpriest 0\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 1 min.\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nWith a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a952e9b23f589fb.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a952e9b23f589fb"
+  },
+  "license": "OGL 1.0a"
+}

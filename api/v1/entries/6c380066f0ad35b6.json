@@ -1,0 +1,25 @@
+{
+  "id": "6c380066f0ad35b6",
+  "name": "Mind Over Matter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Origins pg. 30",
+  "book": "Occult Origins",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "mesmerist": 2,
+      "psychic": 2,
+      "spiritualist": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Occult Origins"
+  },
+  "body": "Source Occult Origins pg. 30\nSchool necromancy; Level mesmerist 2, psychic 2, spiritualist 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget one creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\nDescription\nYou blur the lines between mind and body, reassigning ability damage or drain your target has taken to a corresponding ability score, as per the following table.\n\nPhysical Ability Score Mental Ability Score\nStrength Intelligence\nDexterity Wisdom\nConstitution Charisma\n\nThe transfer of damage can go either way—you can convert Intelligence damage to Strength damage and vice versa. You can transfer any number of points of damage or drain in a single casting, though only from one ability score to the corresponding ability score. You cannot transfer enough ability damage or drain to reduce an ability score to 0.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6c380066f0ad35b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/6c380066f0ad35b6"
+  },
+  "license": "OGL 1.0a"
+}

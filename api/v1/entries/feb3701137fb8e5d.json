@@ -1,0 +1,34 @@
+{
+  "id": "feb3701137fb8e5d",
+  "name": "Mark of Buoyancy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Ancients pg. 26",
+  "book": "Blood of the Ancients",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "cleric": 3,
+      "magus": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "warpriest": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Ancients"
+  },
+  "body": "Source Blood of the Ancients pg. 26\nSchool transmutation; Level arcanist 3, bard 3, cleric 3, magus 3, occultist 3, oracle 3, psychic 3, skald 3, sorcerer 3, summoner 3, summoner (unchained) 3, warpriest 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget touched object weighing up to 10 lbs./level\nDuration 1 hour/level (D)\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou cause the touched object to become lighter than air, such that it floats if not weighted down. The object is effectively weightless and, if left unattended, will rise to a number of feet off the ground equal to twice your caster level, and then remain floating at that height. The object can be pushed, dragged, carried, or otherwise moved normally, and it can be carried by the wind if not held or secured. The object is buoyant enough that it can carry an additional weight of up to 10 pounds per caster level with it, potentially allowing it to be used to carry small objects or creatures.\n\nMark of buoyancy can be made permanent with a permanency spell cast by a caster of 11th level or higher at the cost of 7,500 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/feb3701137fb8e5d.json",
+    "web": "https://codex.pipsprojects.com/#/e/feb3701137fb8e5d"
+  },
+  "license": "OGL 1.0a"
+}

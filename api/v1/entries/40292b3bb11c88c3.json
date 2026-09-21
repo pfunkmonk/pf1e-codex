@@ -1,0 +1,27 @@
+{
+  "id": "40292b3bb11c88c3",
+  "name": "Expel Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Elemental Master's Handbook pg. 13",
+  "book": "Elemental Master's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 7,
+      "sorcerer": 7,
+      "summoner": 6,
+      "witch": 7,
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Elemental Master's Handbook"
+  },
+  "body": "Source Elemental Master's Handbook pg. 13\nSchool conjuration [evil, water]; Level arcanist 7, sorcerer 7, summoner 6, summoner (unchained) 6, witch 7, wizard 7\nCasting\nCasting Time 1 round\nComponents V, S, M (a drop of blood from each of three different creatures)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one Small or larger living creature\nDuration instantaneous and 1 round/level; see text\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou animate a portion of the target’s blood, causing it to force itself out of the victim’s body and form a corrupted water elemental. The target takes 2d4 points of Constitution damage unless it succeeds at a Fortitude saving throw. Additionally, if the target fails the saving throw, blood (or an analogous internal fluid, such as ichor) pours from the target’s body and pools in an empty adjacent square of your choice. The fluids immediately form into a fiendish water elemental (Pathfinder RPG Bestiary 294, 126) of the same size as the target (but not larger than a Large fiendish water elemental). This fiendish water elemental does not have the vortex ability, but it has the blood drain special attack (Pathfinder RPG Bestiary 2 294), which deals 1d3 points of Constitution damage at the end of the water elemental’s turn if it grapples a foe. The elemental gains Improved Grapple as a bonus feat. You have no control over the fiendish water elemental once it is summoned, though the water elemental does not attack you under any circumstances.\n\nThis spell does not affect creatures that are Small or smaller or those that don’t have blood or some analogous internal fluid.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40292b3bb11c88c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/40292b3bb11c88c3"
+  },
+  "license": "OGL 1.0a"
+}

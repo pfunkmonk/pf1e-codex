@@ -1,0 +1,22 @@
+{
+  "id": "921431665c2aed3a",
+  "name": "Follow Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 224",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "inquisitor": 2,
+      "occultist": 3
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 224\nSchool divination [chaotic, evil, good, or lawful]; Level inquisitor 2, occultist 3\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level (D)\nDescription\nChoose one alignment type: chaotic, evil, good, or lawful. You gain the ability to follow the trail of a strong or overwhelming aura of that alignment (see detect evil, Core Rulebook 266). This is treated as tracking using the scent special quality, except you are following the traces of their aura upon the ground rather than their scent, and you receive no bonus on Perception checks. At 10th level, you can track the trail of creatures with a moderate alignment aura as well.\n\nWhen you use this spell to track a given alignment, it gains the descriptor of the opposite alignment. For example, when follow aura is used to track evil, it gains the good descriptor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/921431665c2aed3a.json",
+    "web": "https://codex.pipsprojects.com/#/e/921431665c2aed3a"
+  },
+  "license": "OGL 1.0a"
+}

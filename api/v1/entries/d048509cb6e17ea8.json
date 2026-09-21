@@ -1,0 +1,86 @@
+{
+  "id": "d048509cb6e17ea8",
+  "name": "Guardian Spirit",
+  "bucket": "monsters",
+  "category": "Templates",
+  "source": "",
+  "book": "",
+  "facets": {},
+  "body": "All | Unique\nMonster Templates\nGuardian Spirit (CR - Varies)\nMonster Summoner's Handbook pg. 26\nAcquired/Inherited Template Acquired\nSimple Template No\nUsable with Summons No\n\nA guardian spirit is bound to the fate of a mortal being (called its “ward”). This bond may be formed by any number of beings or events carrying the weight of destiny, such as deities, the Eldest, norns, and mythic creatures and magic. A spirit can bind itself willingly if it believes that doing so is likely to further its agenda, give it more power, or allow it access to the world of mortals. Mortals can generally invoke a guardian spirit only with summoning and calling spells.\n\n“Guardian spirit” is an acquired template that can be added to any fey or outsider that qualifies to become a familiar through the Improved Familiar feat (this template does not make it a familiar, however). A guardian spirit uses all the base creature’s statistics and special abilities except as noted here. A guardian spirit has a rune on its forehead similar to that on an eidolon (though its ward does not gain a matching rune).\n\nConjuration Spell Level CR Armor Class Hit Dice Ability Scores Special\n3 +0 +0 +0 +2 Smite threat 1/day, spell-like abilities\n4 +2 +2 +2 +2 Fated guardian, spell-like ability\n5 +4 +4 +4 +4 Spell-like ability\n6 +6 +6 +6 +4 Smite threat 2/day, spell-like ability\n7 +8 +8 +8 +6 Spell-like ability\n8 +10 +10 +10 +6 Co-walker, spell-like ability\n9 +12 +12 +12 +8 Smite threat 3/day, spell-like ability\n\nCR: The guardian spirit’s CR increases based on the level of spell used to summon it, as noted on the Conjured Guardian table on page 27.\n\nArmor Class: The guardian spirit’s natural armor bonus increases based on the level of spell used to summon it, as noted on the Conjured Guardian table.\n\nHit Dice: The guardian spirit’s Hit Dice increase based on the level of spell used to summon it, as noted on the Conjured Guardian table. It gains appropriate skill points, feats, ability score increases, base attack bonus, and base saving throw advancements for its increased Hit Dice.\n\nDefensive Abilities: The guardian spirit has an amount of spell resistance equal to 11 + its CR unless the base creature’s SR was higher.\n\nAbility Scores: The guardian spirit’s Charisma score becomes 18 unless the base creature’s Charisma score was higher. Each of the guardian spirit’s ability scores increases when it’s summoned by higher-level spells, as noted on the Conjured Guardian table above.\n\nSpecial Attacks: If the guardian spirit has extraordinary or supernatural abilities that deal hit point damage measured in dice, the number of dice increases by an amount equal to the level of spell used to conjure it – 3. If the ability requires at least a standard action to activate and has an instantaneous duration, the damage increases by an additional die.\n\nSpecial: The guardian spirit gains a smite and additional special abilities as noted on the table.\n\nSmite Threat (Su): Once per day as a swift action, the guardian spirit can add its Charisma bonus on attack rolls and its HD on damage rolls against a foe that currently threatens its ward or has attacked the ward within the past 24 hours; this smite persists until the target is dead or the summoning of the guardian spirit ends. If the spirit is summoned by a 6th-level spell, it can use smite threat an additional time per day, and if the spirit is summoned by a 9th-level spell, it can use smite threat a third time per day.\n\nSpell-Like Abilities: A guardian spirit’s caster level for its spell-like abilities is equal to its Challenge Rating + 1, or to the base creature’s caster level, whichever is higher. It can cast guidance at will. For every spell level of the conjuration spell used to call or summon it (such as planar ally, planar binding, or summon monster if the summoner has the Summon Guardian Spirit feat), the guardian spirit gains access to one additional spell-like ability of the ward’s choice from the following list:\n\nSpell Level 3: Chill touch, ill omenAPG, protection from chaos/evil/good/law (choose one; its alignment descriptor must oppose the guardian spirit’s alignment).\nSpell Level 4: Call lightning, detect thoughts, invisibility.\nSpell Level 5: Cure serious wounds, dispel magic, shout.\nSpell Level 6: Call lightning storm, death ward, freedom of movement.\nSpell Level 7: Break enchantment, breath of life, contagious flameAPG.\nSpell Level 8: Cloak of dreamsAPG, greater heroism, sunbeam.\nSpell Level 9: Greater shout, power word blind, regenerate.\n\nEach chosen spell-like ability is available once per day.\n\nFated Guardian (Su): When conjured by a 4th-level or higher spell, a guardian spirit can protect the destiny of another creature within 30 feet as a standard action once per day. For 1 round, any time the creature makes an attack or attempts a saving throw, it rolls twice and takes the better result.\n\nCo-Walker (Sp): When conjured by an 8th-level or higher spell, a guardian spirit can assume the shape of its ward as if with alter self, except it can appear to be only the ward (even if the ward is not of a creature type or size that can normally be assumed with alter self) and it gains a +10 bonus on Disguise checks to appear to be the ward.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Conjuration Spell Level",
+          "CR",
+          "Armor Class",
+          "Hit Dice",
+          "Ability Scores",
+          "Special"
+        ],
+        [
+          "3",
+          "+0",
+          "+0",
+          "+0",
+          "+2",
+          "Smite threat 1/day, spell-like abilities"
+        ],
+        [
+          "4",
+          "+2",
+          "+2",
+          "+2",
+          "+2",
+          "Fated guardian, spell-like ability"
+        ],
+        [
+          "5",
+          "+4",
+          "+4",
+          "+4",
+          "+4",
+          "Spell-like ability"
+        ],
+        [
+          "6",
+          "+6",
+          "+6",
+          "+6",
+          "+4",
+          "Smite threat 2/day, spell-like ability"
+        ],
+        [
+          "7",
+          "+8",
+          "+8",
+          "+8",
+          "+6",
+          "Spell-like ability"
+        ],
+        [
+          "8",
+          "+10",
+          "+10",
+          "+10",
+          "+6",
+          "Co-walker, spell-like ability"
+        ],
+        [
+          "9",
+          "+12",
+          "+12",
+          "+12",
+          "+8",
+          "Smite threat 3/day, spell-like ability"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d048509cb6e17ea8.json",
+    "web": "https://codex.pipsprojects.com/#/e/d048509cb6e17ea8"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "d7177eedc1a025dc",
+  "name": "Daze, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 264",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 0,
+      "bard": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "medium": 0,
+      "mesmerist": 0,
+      "occultist": 0,
+      "psychic": 0,
+      "shaman": 0,
+      "skald": 0,
+      "sorcerer": 0,
+      "spiritualist": 0,
+      "summoner": 0,
+      "witch": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Daze\nSource PRPG Core Rulebook pg. 264\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 0, bard 0, inquisitor 0, magus 0, medium 0, mesmerist 0, occultist 0, psychic 0, shaman 0, skald 0, sorcerer 0, spiritualist 0, summoner 0, summoner (unchained) 0, witch 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of wool or similar substance)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature of 4 HD or less\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it. After a creature has been dazed by this spell, it is immune to the effects of this spell for 1 minute.\nDaze, Mass\nSource Ultimate Magic pg. 216\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 4, bard 4, inquisitor 4, medium 3, mesmerist 4, occultist 4, psychic 3, skald 4, sorcerer 4, summoner 4, summoner (unchained) 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange medium (100 ft. + 10 ft./level)\nTargets one or more humanoid creatures, no two of which may be more than 30 ft. apart\nDuration 1 round\nSaving Throw will negates; Spell Resistance yes\nDescription\nThis spell functions as daze, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7177eedc1a025dc.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7177eedc1a025dc"
+  },
+  "license": "OGL 1.0a"
+}

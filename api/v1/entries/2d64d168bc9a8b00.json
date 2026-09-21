@@ -1,0 +1,34 @@
+{
+  "id": "2d64d168bc9a8b00",
+  "name": "Hidden Presence",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 216",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Source Ultimate Intrigue pg. 216\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 2, bard 2, inquisitor 2, mesmerist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (eye drops made with extract of poppy)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget up to one creature per 3 caster levels\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou prevent the targets from having conscious awareness of your presence. You make yourself completely undetectable to the subjects by erasing all awareness of your presence from their minds. The targets can’t see, hear, smell, feel, or taste you, including with extraordinary or supernatural senses such as blindsense, blindsight, scent, or tremorsense. They can’t pinpoint your location by any means, including detect spells.\n\nThe targets remain unaware of your actions, provided you don’t make any attacks or cause any obvious or directly threatening changes in the targets’ environment. If you attack any of the target creatures, the effect ends. If you take an action that creates a sustained and obvious change in the target’s environment—for example, attacking a creature other than a target or moving a sizeable or attended object the target can see—the target immediately receives a new saving throw.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d64d168bc9a8b00.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d64d168bc9a8b00"
+  },
+  "license": "OGL 1.0a"
+}

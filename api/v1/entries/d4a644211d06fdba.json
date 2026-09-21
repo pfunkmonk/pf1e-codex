@@ -1,0 +1,31 @@
+{
+  "id": "d4a644211d06fdba",
+  "name": "Dominate Monster",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 274",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "summoner": 6,
+      "witch": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 274\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 9, psychic 9, sorcerer 9, summoner 6, witch 9, wizard 9\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like dominate person, except that the spell is not restricted by creature type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d4a644211d06fdba.json",
+    "web": "https://codex.pipsprojects.com/#/e/d4a644211d06fdba"
+  },
+  "license": "OGL 1.0a"
+}

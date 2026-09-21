@@ -1,0 +1,30 @@
+{
+  "id": "71e380a05b245f9c",
+  "name": "Shield of the Dawnflower, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea World Guide pg. 296",
+  "book": "Inner Sea World Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "cleric": 4,
+      "hunter": 4,
+      "magus": 4,
+      "oracle": 4,
+      "paladin": 4,
+      "ranger": 4,
+      "skald": 4,
+      "warpriest": 4
+    },
+    "sr": "no",
+    "bk": "Inner Sea World Guide"
+  },
+  "body": "Shield of the Dawnflower\nSource Inner Sea World Guide pg. 296\nSchool evocation [fire, good, light]; Level bard 4, cleric 4, hunter 4, magus 4, oracle 4, paladin 4, ranger 4, skald 4, warpriest 4 (Sarenrae)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nSaving Throw see text; Spell Resistance no\nDescription\nYou create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15). Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination as if it were a continual flame spell. You can only have one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield.\nMythic Shield of the Dawnflower\nSource Mythic Origins pg. 13\nThe disk of sunlight protects you as a buckler with a +1 enhancement bonus per 4 caster levels (maximum +5).\n\nYou can make a melee touch attack with your shield of the Dawnflower in place of a normal attack to deal its fire damage to a creature. Creatures taking damage from your shield catch on fire (Reflex negates); the save DC to extinguish the fire is equal to the DC of the spell.\nShield of the Dawnflower, Greater\nSource Inner Sea Gods pg. 240\nSchool evocation [fire, good, light]; Level bard 6, cleric 6, magus 6, oracle 6, skald 6, warpriest 6 (Sarenrae)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nYou create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell flame strike). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a daylight spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower (The Inner Sea World Guide 296).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/71e380a05b245f9c.json",
+    "web": "https://codex.pipsprojects.com/#/e/71e380a05b245f9c"
+  },
+  "license": "OGL 1.0a"
+}

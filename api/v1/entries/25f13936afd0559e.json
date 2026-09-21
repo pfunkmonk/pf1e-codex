@@ -1,0 +1,39 @@
+{
+  "id": "25f13936afd0559e",
+  "name": "Irregular Size",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Tactics Toolbox pg. 21",
+  "book": "Magic Tactics Toolbox",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 3,
+      "medium": 2,
+      "mesmerist": 3,
+      "occultist": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "sorcerer": 4,
+      "spiritualist": 4,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Magic Tactics Toolbox"
+  },
+  "body": "Source Magic Tactics Toolbox pg. 21\nSchool transmutation [curse]; Level antipaladin 3, arcanist 4, bloodrager 4, cleric 3, medium 2, mesmerist 3, occultist 3, oracle 3, shaman 3, sorcerer 4, spiritualist 4, warpriest 3, witch 3, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou curse a creature so one set of its limbs (typically its arms, legs, or wings) shrivels in size.\n\nArms: The creature counts as one size category smaller for the purpose of determining the size of weapon it can wield. If the creature is capable of making natural attacks with its arms, the damage dealt by those attacks decreases as though the target were one size category smaller than its actual size.\n\nLegs: The creature’s base speed decreases by 10 feet (to a minimum of 5 feet) and its Strength score counts as 4 lower for the purpose of determining its carrying capacity.\n\nWings: The creature’s Fly speed decreases by 10 feet (to a minimum of 5 feet), the damage dealt by any wing attacks decreases as though the target were one size category smaller than its actual size, and its fly maneuverability decreases by a step (to a minimum of clumsy).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/25f13936afd0559e.json",
+    "web": "https://codex.pipsprojects.com/#/e/25f13936afd0559e"
+  },
+  "license": "OGL 1.0a"
+}

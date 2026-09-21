@@ -1,0 +1,29 @@
+{
+  "id": "93d4a955b5e9c8da",
+  "name": "Know the Enemy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 226",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 1,
+      "hunter": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "warpriest": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 226\nSchool divination; Level cleric 1, hunter 1, inquisitor 1, oracle 1, paladin 1, ranger 1, warpriest 1\nCasting\nCasting Time 1 minute\nComponents S, V, DF\nEffect\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou commune with the divine, reflecting on one type of creature you encountered in the last day. You may make a Knowledge check regarding that creature type with a +10 insight bonus.\nMythic Know the Enemy\nSource Mythic Adventures pg. 99\nThe insight bonus increases to +15 plus your tier. If the check is successful, you gain a +5 insight bonus on your next attack roll or saving throw against a creature of that type, as long as the roll occurs within 24 hours of casting the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93d4a955b5e9c8da.json",
+    "web": "https://codex.pipsprojects.com/#/e/93d4a955b5e9c8da"
+  },
+  "license": "OGL 1.0a"
+}

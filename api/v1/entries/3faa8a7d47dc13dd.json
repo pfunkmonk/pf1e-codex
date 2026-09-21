@@ -1,0 +1,35 @@
+{
+  "id": "3faa8a7d47dc13dd",
+  "name": "Charm Monster",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 254",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "mesmerist": 3,
+      "occultist": 4,
+      "psychic": 4,
+      "skald": 3,
+      "sorcerer": 4,
+      "summoner": 3,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 254\nSchool enchantment (charm) [mind-affecting]; Level arcanist 4, bard 3, mesmerist 3, occultist 4, psychic 4, skald 3, sorcerer 4, summoner 3, summoner (unchained) 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like charm person, except that the effect is not restricted by creature type or size.\nCharm Monster, Mass\nSource PRPG Core Rulebook pg. 254\nSchool enchantment (charm) [mind-affecting]; Level arcanist 8, bard 6, mesmerist 6, occultist 6, psychic 8, skald 6, sorcerer 8, summoner 6, witch 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more creatures, no two of which can be more than 30 ft. apart\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions like charm monster, except that mass charm monster affects a number of creatures whose combined HD do not exceed twice your level, or at least one creature regardless of HD. If there are more potential targets than you can affect, you choose them one at a time until you must choose a creature with too many HD to affect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3faa8a7d47dc13dd.json",
+    "web": "https://codex.pipsprojects.com/#/e/3faa8a7d47dc13dd"
+  },
+  "license": "OGL 1.0a"
+}

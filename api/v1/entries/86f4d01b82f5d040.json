@@ -1,0 +1,31 @@
+{
+  "id": "86f4d01b82f5d040",
+  "name": "Spell Immunity, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 346",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "investigator": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "spiritualist": 4,
+      "warpriest": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Spell Immunity\nSource PRPG Core Rulebook pg. 346\nSchool abjuration; Level alchemist 4, cleric 4, inquisitor 4, investigator 4, occultist 4, oracle 4, psychic 4, spiritualist 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe warded creature is immune to the effects of one specified spell for every four levels you have. The spells must be of 4th level or lower. The warded creature effectively has unbeatable spell resistance regarding the specified spell or spells. Naturally, that immunity doesn't protect a creature from spells for which spell resistance doesn't apply. Spell immunity protects against spells, spell-like effects of magic items, and innate spell-like abilities of creatures. It does not protect against supernatural or extraordinary abilities, such as breath weapons or gaze attacks.\n\nOnly a particular spell can be protected against, not a certain domain or school of spells or a group of spells that are similar in effect. A creature can have only one spell immunity or greater spell immunity spell in effect on it at a time.\nSpell Immunity, Communal\nSource Ultimate Combat pg. 244\nSchool abjuration; Level cleric 5, inquisitor 5, occultist 5, oracle 5, psychic 5, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets creatures touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like spell immunity, except you divide the duration in 10-minute intervals among the creatures touched.\nSpell Immunity, Greater\nSource PRPG Core Rulebook pg. 347\nSchool abjuration; Level cleric 8, oracle 8, psychic 8\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like spell immunity, except the immunity applies to spells of 8th level or lower. A creature can have only one spell immunity or greater spell immunity spell in effect on it at a time.\nSpell Immunity, Greater Communal\nSource Ultimate Combat pg. 245\nSchool abjuration; Level cleric 9, oracle 9, psychic 9\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTargets creatures touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like greater spell immunity, except you divide the duration among the creatures in 10-minute intervals among the creatures touched.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86f4d01b82f5d040.json",
+    "web": "https://codex.pipsprojects.com/#/e/86f4d01b82f5d040"
+  },
+  "license": "OGL 1.0a"
+}

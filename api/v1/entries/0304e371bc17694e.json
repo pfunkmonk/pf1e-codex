@@ -1,0 +1,28 @@
+{
+  "id": "0304e371bc17694e",
+  "name": "Funereal Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Temples pg. 42",
+  "book": "Inner Sea Temples",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "occultist": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Temples"
+  },
+  "body": "Source Inner Sea Temples pg. 42\nSchool transmutation; Level cleric 1, inquisitor 1, occultist 1, oracle 1, paladin 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget weapon touched or 50 projectiles (all of which must be together at the time of casting)\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou imbue a weapon with a faint silvery glow that dimly illuminates a 5-foot square. An affected weapon also easily bypasses the physical defenses of undead creatures, ignoring 5 points of an undead creature’s damage reduction, as long as the damage reduction is not DR/epic. For example, attacks with a weapon affected by this spell completely ignore a zombie’s DR 5/slashing or reduce a lich’s damage reduction to DR 10/bludgeoning and magic.\n\nYou can’t cast this spell on a natural weapon, such as an unarmed strike. Funereal weapon affects the DR of only undead creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0304e371bc17694e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0304e371bc17694e"
+  },
+  "license": "OGL 1.0a"
+}

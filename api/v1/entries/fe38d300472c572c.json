@@ -1,0 +1,28 @@
+{
+  "id": "fe38d300472c572c",
+  "name": "Wrathful Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Origins pg. 31",
+  "book": "Advanced Class Origins",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "warpriest": 4
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Class Origins"
+  },
+  "body": "Source Advanced Class Origins pg. 31\nSchool transmutation [see text]; Level cleric 4, oracle 4, warpriest 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget melee weapon touched (see text)\nDuration 1 minute/level\nSaving Throw Will (harmless, object); Spell Resistance yes (object)\nDescription\nYou grant the targeted weapon one of the following weapon special abilities: anarchic, axiomatic, holy, or unholy. If anarchic, this spell has the chaos descriptor; if axiomatic, the law descriptor; if holy, the good descriptor; and if unholy, the evil descriptor. If the caster attempts to place a special ability on a weapon that already has that special ability, the spell fails.\n\nIf a warpriest casts this spell on his sacred weapon, the duration doubles. Warpriests with unarmed strike as a sacred weapon can cast this spell on their unarmed strike.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe38d300472c572c.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe38d300472c572c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2adbd4c932bb6e71",
+  "name": "Bleeding Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #77: Herald of the Ivory Labyrinth pg. 75",
+  "book": "Pathfinder #77: Herald of the Ivory Labyrinth",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "ranger": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Pathfinder #77: Herald of the Ivory Labyrinth"
+  },
+  "body": "Source Pathfinder #77: Herald of the Ivory Labyrinth pg. 75\nSchool necromancy; Level antipaladin 1, cleric 1, hunter 1, oracle 1, ranger 1, warpriest 1, witch 1 (Baphomet)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nEffect one slashing melee weapon touched\nDuration 1 round/level or until discharged\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\nDescription\nYou imbue a slashing melee weapon with the ability to create a bleeding wound. As a free action when the weapon hits a living creature, the wielder can discharge this spell to add 1 point of bleed damage to the weapon’s base damage. This bleeding is difficult to stop; add your spellcasting ability modifier (Wisdom for clerics, and so on) to the DC to stop the bleeding.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2adbd4c932bb6e71.json",
+    "web": "https://codex.pipsprojects.com/#/e/2adbd4c932bb6e71"
+  },
+  "license": "OGL 1.0a"
+}

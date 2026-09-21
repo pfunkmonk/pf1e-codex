@@ -1,0 +1,36 @@
+{
+  "id": "accbc62efba088d3",
+  "name": "Flaming Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #91: Battle of Bloodmarch Hills pg. 70",
+  "book": "Pathfinder #91: Battle of Bloodmarch Hills",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 4,
+      "magus": 4,
+      "oracle": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Pathfinder #91: Battle of Bloodmarch Hills"
+  },
+  "body": "Source Pathfinder #91: Battle of Bloodmarch Hills pg. 70\nSchool transmutation [fire]; Level arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, shaman 4, sorcerer 4, summoner 4, summoner (unchained) 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a small piece of charcoal)\nEffect\nRange personal\nTarget you (see text)\nDuration 1 minute/level\nSaving Throw none (harmless, see text); Spell Resistance no (harmless, see text)\nDescription\nThe spell allows you channel fire into your very being. If you don’t already have the fire subtype, this spell grants you the fire subtype. If you already have the fire subtype, you instead channel the flames from your being outward, creating a 10-foot-radius aura of fire centered on you. Creatures who enter or end their turns in the aura must succeed at a Fortitude saving throw or take 1d8 points of fire damage.\n\nMultiple castings of this spell stack; you can cast it once on yourself to gain the fire subtype, then again to manifest the aura of flames around you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/accbc62efba088d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/accbc62efba088d3"
+  },
+  "license": "OGL 1.0a"
+}

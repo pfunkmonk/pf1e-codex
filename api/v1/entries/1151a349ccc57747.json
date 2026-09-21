@@ -1,0 +1,35 @@
+{
+  "id": "1151a349ccc57747",
+  "name": "Spell Gauge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 242, Faiths of Balance pg. 29",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "oracle": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 242, Faiths of Balance pg. 29\nSchool divination [mind-affecting]; Level arcanist 2, bard 2, cleric 2, inquisitor 2, oracle 2, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Nethys)\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a silver piece)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou immediately discover some of the spells that the target knows or has prepared. The number of spells revealed to you is equal to your caster level. The target’s lowest-level spells are revealed first—ignoring 0-level spells—in a random order. Once all of the target’s 1st-level spells are revealed, the spell begins revealing 2nd-level spells, then 3rd-level spells. This spell does not reveal spells of 4th level or higher, nor does it reveal spelllike abilities or other special abilities. If cast on a creature that is not a spellcaster, that has only 0-level spells or spells of 4th level or higher prepared, that has expended all of its spells, or that has not prepared any spells that day, the spell has no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1151a349ccc57747.json",
+    "web": "https://codex.pipsprojects.com/#/e/1151a349ccc57747"
+  },
+  "license": "OGL 1.0a"
+}

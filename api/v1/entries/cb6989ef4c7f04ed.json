@@ -1,0 +1,29 @@
+{
+  "id": "cb6989ef4c7f04ed",
+  "name": "Gorum's Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea World Guide pg. 294, Gods and Magic pg. 17",
+  "book": "Inner Sea World Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "warpriest": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Inner Sea World Guide"
+  },
+  "body": "Source Inner Sea World Guide pg. 294, Gods and Magic pg. 17\nSchool transmutation; Level bloodrager 1, cleric 1, inquisitor 1, magus 1, oracle 1, shaman 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (1 iron spike)\nEffect\nRange touch\nTarget 1 suit of metal armor or 1 metal shield\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe targeted suit of armor or shield sprouts thousands of tiny iron spikes like porcupine quills. These do not harm the armor’s wearer (though donning or removing armor under the effects of this spell takes twice as long), but they act as armor spikes or shield spikes (as appropriate). Any creature attacking the wearer with natural weapons takes 1 point of piercing damage for each attack that hits. At 5th level, the spikes gain a +1 enhancement bonus on attack and damage rolls; this bonus increases to +2 at 10th level. At 15th level, the spikes also gain the anarchic weapon quality.\nMythic Gorum's Armor\nSource Mythic Origins pg. 12\nThe damage to attackers increases to 1d4 points of piercing damage and affects creatures that attack the wearer with a melee weapon, an unarmed strike, or a natural weapon. Melee weapons with reach do not endanger a creature in this way. If you’re wearing the armor and are taking bleed damage, the spikes lengthen and grow wicked barbs—this increases their damage against foes that strike you to 1d6 + 1/2 your caster level (maximum +5), and the spikes deal 1 point of bleed damage to any foe damaged by them. When your bleeding stops, the spikes immediately return to their normal size and any bleed effects caused by the armor end.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb6989ef4c7f04ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb6989ef4c7f04ed"
+  },
+  "license": "OGL 1.0a"
+}

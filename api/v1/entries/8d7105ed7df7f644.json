@@ -1,0 +1,29 @@
+{
+  "id": "8d7105ed7df7f644",
+  "name": "Hallucinogenic Smoke",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Faiths and Philosophies pg. 28",
+  "book": "Faiths and Philosophies",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4,
+      "oracle": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Faiths and Philosophies"
+  },
+  "body": "Source Faiths and Philosophies pg. 28\nSchool conjuration [poison]; Level cleric 4, oracle 4, warpriest 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents S, M (tobacco leaves, ingested)\nEffect\nRange personal\nTarget you\nDuration 3 rounds/level or until discharged; see text\nSaving Throw Fortitude partial; Spell Resistance yes\nDescription\nDark gray smoke seeps from your eyes, ears, and mouth for the spell’s duration, though the smoke doesn’t significantly hamper your vision. Upon casting the spell, you may immediately exhale the smoke in a 30-foot cone or do so in a later round as a standard action, ending the spell. Each living creature caught within the cone must succeed at a Fortitude save or be nauseated for 1 round per caster level as it is wracked with waves of nausea and disorienting visions. If it succeeds at its Fortitude save, the creature is instead sickened for 1d4 rounds.\n\nIf you don’t expel the smoke by the end of the spell’s duration, you suffer the spell’s effects instead.\n\nIf you cast augury during the duration of hallucinogenic smoke, treat your caster level as 5 higher when determining the chance for a meaningful reply. Additionally, you know whether a result of “nothing” resulted from a failed or successful augury.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d7105ed7df7f644.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d7105ed7df7f644"
+  },
+  "license": "OGL 1.0a"
+}

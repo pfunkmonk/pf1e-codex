@@ -1,0 +1,32 @@
+{
+  "id": "c2e419c93d45d044",
+  "name": "Symbol of Strife",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 242",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 9,
+      "cleric": 9,
+      "occultist": 6,
+      "oracle": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 242\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 9, cleric 9, occultist 6, oracle 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorous, plus powdered diamond opal worth a total of 15,000 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as symbol of death, except all creatures within the radius of a symbol of strife are compelled to attack the nearest conscious creature for 1 round per caster level (similar to the “attack nearest creature” result of the confusion spell), even after leaving the symbol’s area of effect. If no other creatures are visible, an affected creature can act normally. Once triggered, the symbol remains active for 10 minutes per caster level.\n\nSymbol of strife can be made permanent with a permanency spell by a caster of 18th level or higher for the cost of 25,000 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2e419c93d45d044.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2e419c93d45d044"
+  },
+  "license": "OGL 1.0a"
+}

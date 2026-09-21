@@ -1,0 +1,48 @@
+{
+  "id": "a9544c4e7ce96762",
+  "name": "Elevation",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Wilderness pg. 166",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Rules Index | GM Screen\n\nElevation\nSource Ultimate Wilderness pg. 166\nWhile the climate sets baselines for temperatures, elevation plays a key factor as well. Elevation can affect the baseline temperature, and it sets the baseline intensity of precipitation in the region, as explained below and displayed in Table 4–13: Elevation Baselines.\n\nSea Level: Temperatures in sea-level and coastal regions are 10º warmer. Sea-level regions also tend to have more precipitation than areas of higher elevation, so the baseline precipitation intensity in a sea-level region is heavy.\n\nLowland: Lowlands are areas of low elevation not near the coast, generally at an elevation of 1,000 to 5,000 feet. This elevation range does not alter baseline temperatures. The baseline precipitation intensity in lowlands is medium.\n\nHighland: Highlands include regions with elevations above 5,000 feet. Decrease baseline temperatures in highlands by 10º (although in particularly arid and flat regions, you should instead increase the baseline temperature by 10º, while in particularly high-altitude regions such as significant mountain ranges, you should instead decrease the baseline temperature by 20º). The frequency of precipitation is decreased by one step, and baseline precipitation intensity is medium.\n\nTable 4-13: Elevation Baselines\nElevation Altitude Range Baseline Temp. Adjust. Baseline Precipitation Intensity\nSea level Below 1,000 ft. +10º F Heavy\nLowland 1,000 ft. to 5,000 ft. — Medium\nHighland Above 5,000 ft. -10º F Medium (decrease precipitation frequency by one step)",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Elevation",
+          "Altitude Range",
+          "Baseline Temp. Adjust.",
+          "Baseline Precipitation Intensity"
+        ],
+        [
+          "Sea level",
+          "Below 1,000 ft.",
+          "+10º F",
+          "Heavy"
+        ],
+        [
+          "Lowland",
+          "1,000 ft. to 5,000 ft.",
+          "—",
+          "Medium"
+        ],
+        [
+          "Highland",
+          "Above 5,000 ft.",
+          "-10º F",
+          "Medium (decrease precipitation frequency by one step)"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9544c4e7ce96762.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9544c4e7ce96762"
+  },
+  "license": "OGL 1.0a"
+}

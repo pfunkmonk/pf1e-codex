@@ -1,0 +1,26 @@
+{
+  "id": "89df3d89db2e7eb1",
+  "name": "Malfunction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 228",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 4,
+      "occultist": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 228\nSchool transmutation; Level arcanist 4, occultist 4, redmantisassassin 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea one construct\nDuration 1 round/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nThis functions as confusion, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89df3d89db2e7eb1.json",
+    "web": "https://codex.pipsprojects.com/#/e/89df3d89db2e7eb1"
+  },
+  "license": "OGL 1.0a"
+}

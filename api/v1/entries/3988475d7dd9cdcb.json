@@ -1,0 +1,30 @@
+{
+  "id": "3988475d7dd9cdcb",
+  "name": "Witness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 249",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 249\nSchool divination (scrying); Level bard 3, inquisitor 3, medium 3, mesmerist 3, occultist 3, psychic 3, skald 3, witch 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one living creature\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou link your senses to the target, allowing you to see and hear through its eyes and ears. As a move action you can shift your senses from yourself to the target or back again. When using the target’s senses, you are blind and deaf. When perceiving through the target, you use its normal and special senses (such as darkvision), not your own.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3988475d7dd9cdcb.json",
+    "web": "https://codex.pipsprojects.com/#/e/3988475d7dd9cdcb"
+  },
+  "license": "OGL 1.0a"
+}

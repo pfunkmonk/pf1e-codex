@@ -1,0 +1,27 @@
+{
+  "id": "f69a080f2c40a890",
+  "name": "Hold Portal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 297",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 297\nSchool abjuration; Level arcanist 1, occultist 1, psychic 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one portal, up to 20 sq. ft./level\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A knock spell or a successful dispel magic spell can negate a hold portal spell.\n\nAdd 5 to the normal DC for forcing open a portal affected by this spell.\nMythic Hold Portal\nSource Mythic Adventures pg. 98\nThe target portal can be as large as 30 square feet per caster level. A creature attempting to force open the portal must first succeed at a Will save against the spell’s DC. This is a mindaffecting effect. Failure means the creature can’t open the door while the spell is in effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f69a080f2c40a890.json",
+    "web": "https://codex.pipsprojects.com/#/e/f69a080f2c40a890"
+  },
+  "license": "OGL 1.0a"
+}

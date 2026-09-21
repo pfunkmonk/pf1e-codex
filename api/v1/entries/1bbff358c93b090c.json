@@ -1,0 +1,25 @@
+{
+  "id": "1bbff358c93b090c",
+  "name": "Thorn Snare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Conquest of Bloodsworn Vale pg. 29",
+  "book": "Conquest of Bloodsworn Vale",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "hunter": 3,
+      "ranger": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Conquest of Bloodsworn Vale"
+  },
+  "body": "Source Conquest of Bloodsworn Vale pg. 29\nSchool transmutation; Level druid 4, hunter 3, ranger 3\nCasting\nCasting Time 3 rounds\nComponents V, S, M, DF\nEffect\nRange touch\nTarget touched nonmagical circle of vine, rope, or thong with a 2 ft. diameter + 2 ft./level\nDuration until triggered or broken\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions just like the spell snare but those caught in it take 1 point of damage per round, as the thorn-covered vine slowly cuts into them. In addition, any attempt to escape or destroy the snare deals 1d6 points of damage to the trapped creature.\n\nA thorn snare can only be found with a DC 24 Search check. A trapped creature can escape by making a DC 24 Escape Artist check or a DC 24 Strength check as a full-round action.\n\nMaterial Component: A length of blood-thorn rose vine.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1bbff358c93b090c.json",
+    "web": "https://codex.pipsprojects.com/#/e/1bbff358c93b090c"
+  },
+  "license": "OGL 1.0a"
+}

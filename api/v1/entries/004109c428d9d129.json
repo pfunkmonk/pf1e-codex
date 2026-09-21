@@ -1,0 +1,33 @@
+{
+  "id": "004109c428d9d129",
+  "name": "Stone Discus",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 194",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "bloodrager": 2,
+      "druid": 2,
+      "hunter": 2,
+      "magus": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 194\nSchool conjuration (creation) [earth]; Level arcanist 2, bloodrager 2, druid 2, hunter 2, magus 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of earth or metal)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one or more stone discuses\nDuration Instantaneous\nSaving Throw none; Spell Resistance no\nDescription\nYou create a stone discus, which flies at an enemy. You can create one discus, plus one additional discus at 7th and 11th caster levels. For each discus you create, you decide whether its edge is blunt (and deals bludgeoning damage) or sharp (and deals slashing damage). Each discus requires a ranged attack to hit and deals 4d6 points of damage. The discuses can be launched at more than one target, but all must be aimed at targets within 30 feet of each other and launched simultaneously.\n\nAt caster level 5th, the discuses count as magic and silver. At caster level 10th, they also count as cold iron. At caster level 15th, they also count as adamantine.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/004109c428d9d129.json",
+    "web": "https://codex.pipsprojects.com/#/e/004109c428d9d129"
+  },
+  "license": "OGL 1.0a"
+}

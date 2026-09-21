@@ -1,0 +1,35 @@
+{
+  "id": "b5366aa11ef829ba",
+  "name": "Vocal Alteration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 248",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "investigator": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 248\nSchool transmutation; Level alchemist 1, arcanist 1, bard 1, inquisitor 1, investigator 1, medium 1, mesmerist 1, occultist 1, psychic 1, redmantisassassin 1, skald 1, sorcerer 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 minute/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou alter the target’s voice to something else. For example, you could make the target’s voice high-pitched, husky, or nasal, or change its accent to an accent you are familiar with. If this spell is used as part of a disguise, the target gets a +10 bonus on the Disguise check when trying to fool a listener.\n\nThe target can vary the disguised voice just as it could its normal voice. For example, a halfling female given a male dwarf noble’s voice and accent could speak in falsetto, with a rural halfling accent, and so on.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b5366aa11ef829ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/b5366aa11ef829ba"
+  },
+  "license": "OGL 1.0a"
+}

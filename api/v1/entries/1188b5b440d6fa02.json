@@ -1,0 +1,27 @@
+{
+  "id": "1188b5b440d6fa02",
+  "name": "Serren's Armor Lock",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Knights of the Inner Sea pg. 29",
+  "book": "Knights of the Inner Sea",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "magus": 2,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Knights of the Inner Sea"
+  },
+  "body": "Source Knights of the Inner Sea pg. 29\nSchool transmutation; Level arcanist 3, magus 2, redmantisassassin 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of rust)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one armored creature\nDuration 1 round/level (D)\nSaving Throw Reflex partial, see text; Spell Resistance yes\nDescription\nUpon pointing at an armored foe, you cause all of the joints of the target’s armor to stiffen as otherworldly chains wrap around the target. On a failed Reflex save, a target in heavy metal armor becomes staggered. A target in light or medium metal armor instead becomes entangled. Targets wearing no armor or nonmetallic armor are unaffected. If the target is wearing heavy metal armor and succeeds at its Reflex save, it becomes entangled instead of staggered; a target in light or medium metal armor that succeeds at its saving throw is unaffected by the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1188b5b440d6fa02.json",
+    "web": "https://codex.pipsprojects.com/#/e/1188b5b440d6fa02"
+  },
+  "license": "OGL 1.0a"
+}

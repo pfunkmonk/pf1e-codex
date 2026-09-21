@@ -1,0 +1,34 @@
+{
+  "id": "08e31a6605ede668",
+  "name": "Air Geyser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 173",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 3,
+      "bloodrager": 3,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 3,
+      "shaman": 4,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 173\nSchool evocation [air]; Level arcanist 3, bloodrager 3, druid 3, hunter 3, magus 3, shaman 4, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object up to Large size\nDuration instantaneous\nSaving Throw Reflex partial (see text); Spell Resistance yes\nDescription\nYou create a powerful blast of air capable of flinging an opponent upward. If the target fails its Reflex save, the force of the air deals 2d6 points of bludgeoning damage and hurls the target upward a number of feet equal to 5 × your caster level. If a solid object (such as a ceiling) is encountered, the target strikes the object in the same manner as it would during a normal fall. After this blast of air ceases, the target falls down (unless it was flying), taking falling damage as normal. A successful save means the target takes half damage from the air blast but is not moved by it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/08e31a6605ede668.json",
+    "web": "https://codex.pipsprojects.com/#/e/08e31a6605ede668"
+  },
+  "license": "OGL 1.0a"
+}

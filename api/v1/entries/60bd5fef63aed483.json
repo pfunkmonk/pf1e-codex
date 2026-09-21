@@ -1,0 +1,144 @@
+{
+  "id": "60bd5fef63aed483",
+  "name": "Temperature Variations",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Wilderness pg. 166",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Rules Index | GM Screen\n\nTemperature Variations\nSource Ultimate Wilderness pg. 166\nWeather is constantly changing, and a significant aspect of that change is the temperature. For the purposes of this system, it’s easiest to assume that the daily temperature remains relatively static during daylight hours and then drops by 2d6+3 degrees during the night.\n\nWhen setting a day’s temperature in a terrain, you can roll on the temperature variations table appropriate to the climate; the result determines how you should alter the adjusted baseline temperature, and also suggests the duration of that change. You can also use the tables without rolling for a result, consulting them as a guide to help you make decisions about variations in temperature.\n\nFor terrain in a cold region, roll on Table 4–15: Cold Region Temperature Variations. Temperature variations in this climate trend colder and last for a long period of time. For terrain in a temperate region, roll on Table 4–16: Temperate Region Temperature Variations. Temperature variations in this climate are about as likely to swing warmer or colder, and such variations tend to last for shorter periods. If you need to establish a day’s temperature for terrain in a temperate region, you can roll on Table 4–17: Tropical Region Temperature Variations. Temperature variations for tropical climates trend warm but for even shorter periods.\n\nTable 4-15: Cold Region Temperature Variations\nd% Variation Duration\n1-20 -3d10° F 1d4 days\n21-40 -2d10° F 1d6+1 days\n41-60 -1d10° F 1d6+2 days\n61-80 No variation 1d6+2 days\n81-95 +1d10° F 1d6+1 days\n96-99 +2d10° F 1d4 days days\n100 +3d10° F 1d2 days days\n\nTable 4-16: Temperate Region Temperature Variations\nd% Variation Duration\n1-5 -3d10° F 1d2 days\n6-15 -2d10° F 1d4 days\n16-35 -1d10° F 1d6+1 days\n36-65 No variation 1d6+1 days\n66-85 +1d10° F 1d6+1 days\n86-95 +2d10° F 1d4 days days\n96-100 +3d10° F 1d2 days days\n\nTable 4-17: Tropical Region Temperature Variations\nd% Variation Duration\n1-10 -2d10° F 1d2 days\n11-25 -1d10° F 1d2 days\n26-55 No variation 1d4 days\n56-85 +1d10° F 1d4 days\n86-100 +2d10° F 1d2 days days",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Variation",
+          "Duration"
+        ],
+        [
+          "1-20",
+          "-3d10° F",
+          "1d4 days"
+        ],
+        [
+          "21-40",
+          "-2d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "41-60",
+          "-1d10° F",
+          "1d6+2 days"
+        ],
+        [
+          "61-80",
+          "No variation",
+          "1d6+2 days"
+        ],
+        [
+          "81-95",
+          "+1d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "96-99",
+          "+2d10° F",
+          "1d4 days days"
+        ],
+        [
+          "100",
+          "+3d10° F",
+          "1d2 days days"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Variation",
+          "Duration"
+        ],
+        [
+          "1-5",
+          "-3d10° F",
+          "1d2 days"
+        ],
+        [
+          "6-15",
+          "-2d10° F",
+          "1d4 days"
+        ],
+        [
+          "16-35",
+          "-1d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "36-65",
+          "No variation",
+          "1d6+1 days"
+        ],
+        [
+          "66-85",
+          "+1d10° F",
+          "1d6+1 days"
+        ],
+        [
+          "86-95",
+          "+2d10° F",
+          "1d4 days days"
+        ],
+        [
+          "96-100",
+          "+3d10° F",
+          "1d2 days days"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d%",
+          "Variation",
+          "Duration"
+        ],
+        [
+          "1-10",
+          "-2d10° F",
+          "1d2 days"
+        ],
+        [
+          "11-25",
+          "-1d10° F",
+          "1d2 days"
+        ],
+        [
+          "26-55",
+          "No variation",
+          "1d4 days"
+        ],
+        [
+          "56-85",
+          "+1d10° F",
+          "1d4 days"
+        ],
+        [
+          "86-100",
+          "+2d10° F",
+          "1d2 days days"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/60bd5fef63aed483.json",
+    "web": "https://codex.pipsprojects.com/#/e/60bd5fef63aed483"
+  },
+  "license": "OGL 1.0a"
+}

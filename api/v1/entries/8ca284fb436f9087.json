@@ -1,0 +1,37 @@
+{
+  "id": "8ca284fb436f9087",
+  "name": "Poisoned Egg",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 238, Gods and Magic pg. 29",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 238, Gods and Magic pg. 29\nSchool transmutation [poison]; Level arcanist 1, bard 1, cleric 1, inquisitor 1, magus 1, oracle 1, redmantisassassin 1, shaman 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1 (Norgorber)\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange touch\nTarget one egg\nDuration 1 minute/level\nSaving Throw none (object); Spell Resistance no (object)\nDescription\nYou transform the contents of a normal egg into a single dose of small centipede poison (injury; save DC 11; frequency 1/round for 4 rounds; effect 1 Dex; cure 1 save). The poison reverts to a normal egg at the end of the spell’s duration (the reverted egg substance is harmless unless the poisoned creature is vulnerable to eggs). The egg may be raw or cooked but must be whole and not empty when you cast the spell. When applying the poisoned egg’s contents to a weapon, the wielder has no chance of poisoning herself, as though she had the poison use class feature.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8ca284fb436f9087.json",
+    "web": "https://codex.pipsprojects.com/#/e/8ca284fb436f9087"
+  },
+  "license": "OGL 1.0a"
+}

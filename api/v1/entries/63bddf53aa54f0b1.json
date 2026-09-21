@@ -1,0 +1,27 @@
+{
+  "id": "63bddf53aa54f0b1",
+  "name": "Blistering Invective",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 224",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "investigator": 2,
+      "mesmerist": 2,
+      "skald": 2
+    },
+    "save": "Ref",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 224\nSchool evocation [fire, language-dependent]; Level alchemist 2, bard 2, inquisitor 2, investigator 2, mesmerist 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nArea 30-ft. radius\nDuration instantaneous\nSaving Throw Reflex partial, see text; Spell Resistance special, see below\nDescription\nYou unleash an insulting tirade so vicious and spiteful that enemies who hear it are physically scorched by your fury. When you cast this spell, make an Intimidate check to demoralize each enemy within 30 feet of you. Enemies that are demoralized this way take 1d10 points of fire damage and must succeed at a Reflex save or catch fire. Spell resistance can negate the fire damage caused by this spell, but does not protect the creature from the demoralizing effect.\nMythic Blistering Invective\nSource Mythic Adventures pg. 86\nEnemies that are demoralized by your Intimidate check take 2d8 points of fire damage and catch fire (no saving throw). Any Reflex save attempted to extinguish the flames automatically fails as long as the creature remains demoralized by your Intimidate check.\n\nAugmented (5th): If you expend two uses of mythic power, the spell doesn’t have the language-dependent descriptor and you don’t take a penalty on your Intimidate check to demoralize creatures that are larger than you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63bddf53aa54f0b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/63bddf53aa54f0b1"
+  },
+  "license": "OGL 1.0a"
+}

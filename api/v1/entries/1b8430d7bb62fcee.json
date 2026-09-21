@@ -1,0 +1,24 @@
+{
+  "id": "1b8430d7bb62fcee",
+  "name": "True Resurrection",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 362",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 9,
+      "oracle": 9
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 362\nSchool conjuration (healing); Level cleric 9, oracle 9\nCasting\nCasting Time 10 minutes\nComponents V, S, DF, M (diamond worth 25,000 gp)\nEffect\nRange touch\nTarget dead creature touched\nDuration instantaneous\nSaving Throw none, see text; Spell Resistance yes (harmless)\nDescription\nThis spell functions like raise dead, except that you can resurrect a creature that has been dead for as long as 10 years per caster level. This spell can even bring back creatures whose bodies have been destroyed, provided that you unambiguously identify the deceased in some fashion (reciting the deceased's time and place of birth or death is the most common method).\n\nUpon completion of the spell, the creature is immediately restored to full hit points, vigor, and health, with no negative levels (or Constitution points) and all of the prepared spells possessed by the creature when it died.\n\nYou can revive someone killed by a death effect or someone who has been turned into an undead creature and then destroyed. This spell can also resurrect elementals or outsiders, but it can't resurrect constructs or undead creatures.\n\nEven true resurrection can't restore to life a creature who has died of old age.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b8430d7bb62fcee.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b8430d7bb62fcee"
+  },
+  "license": "OGL 1.0a"
+}

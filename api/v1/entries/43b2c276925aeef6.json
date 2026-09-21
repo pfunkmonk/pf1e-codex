@@ -1,0 +1,30 @@
+{
+  "id": "43b2c276925aeef6",
+  "name": "Fleeting Memory",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 24",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 4,
+      "bard": 3,
+      "skald": 3,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Source Black Markets pg. 24\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 4, bard 3, skald 3, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will partial; Spell Resistance yes\nDescription\nYou create a gap in the target’s memory, preventing the target from remembering anything that happens from the moment you cast this spell until the moment its complete duration ends. Fleeting memory doesn’t wipe out its target’s memories until the end of its duration, so the target can remember the preceding rounds until the spell’s duration ends. If the spell ends prematurely, either because you dismiss it or because it is dispelled, it disperses without affecting its target’s memory.\n\nWhether or not the target’s save is successful, the target forgets that you cast a spell.\nFleeting Memory, Mass\nSource Black Markets pg. 25\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 8, bard 6, skald 6, sorcerer 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level (D)\nSaving Throw Will partial; Spell Resistance yes\nDescription\nThis spell functions as fleeting memory, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43b2c276925aeef6.json",
+    "web": "https://codex.pipsprojects.com/#/e/43b2c276925aeef6"
+  },
+  "license": "OGL 1.0a"
+}

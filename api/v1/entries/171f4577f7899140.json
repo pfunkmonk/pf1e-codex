@@ -1,0 +1,34 @@
+{
+  "id": "171f4577f7899140",
+  "name": "Instant Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Melee Tactics Toolbox pg. 31",
+  "book": "Melee Tactics Toolbox",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "oracle": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "bk": "Melee Tactics Toolbox"
+  },
+  "body": "Source Melee Tactics Toolbox pg. 31\nSchool conjuration (creation) [force]; Level arcanist 2, bard 2, bloodrager 2, cleric 2, inquisitor 2, magus 2, oracle 2, skald 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 0 ft.\nEffect melee weapon of opaque force\nDuration 1 minute/level\nDescription\nYou create a melee weapon sized appropriately for you from opaque force. You are considered proficient with this weapon, which acts in all ways as a masterwork weapon typical of its type. The instant weapon has hardness 20 and the same number of hit points as a typical weapon of its type. As a force effect, it can strike and damage incorporeal creatures. If the instant weapon leaves your hand at any time, the spell ends at the beginning of your next turn.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/171f4577f7899140.json",
+    "web": "https://codex.pipsprojects.com/#/e/171f4577f7899140"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "86cbf84b1eaf9e95",
+  "name": "Victory, Rout, or Defeat",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Campaign pg. 239",
+  "book": "Ultimate Campaign",
+  "facets": {
+    "bk": "Ultimate Campaign"
+  },
+  "body": "Rules Index | GM Screen\nKingdoms and War / Mass Combat\n\nVictory, Rout, or Defeat\nSource Ultimate Campaign pg. 239\nAn army is victorious if all of its enemy armies flee the battlefield or are defeated. The aftermath of the battle can be different for each army, and depends on whether it was defeated, routed, or victorious.\n\nDefeated: If an army’s hit points are reduced to 0, it is defeated. A defeated army may have a few survivors, but they are so demoralized and wounded (and probably captured by the enemy) that the army no longer exists as a cohesive unit and can’t be used again in mass combat. If your army is defeated, reduce your kingdom’s Economy, Loyalty, and Stability according to the size of the army.\n\nArmy Size Economy Loyalty Stability\nFine 0 0 0\nDiminutive 0 -1 0\nTiny -1 -1 0\nSmall -1 -1 -1\nMedium -2 -2 -2\nLarge -3 -2 -2\nHuge -4 -2 -2\nGargantuan -4 -2 -3\nColossal -4 -3 -3\n\nRouted: If the army routs, reduce its Morale by 1. If the army’s current hp are lower than the army’s ACR, increase its hit points to its ACR. A routed army refuses to fight until you succeed at a Loyalty check during your kingdom’s Upkeep phase (you may attempt this check once per turn). Note that a routed army can still be attacked by enemy armies, and can attempt Offense checks in battles—it just can’t initiate a battle.\n\nVictorious: If your army is the last one left on the battlefield (not counting other friendly armies), it is victorious. Each time an army wins a battle, you can attempt a Loyalty check against your kingdom’s Control DC. If you succeed at this check, your army learns a new tactic and its Morale increases by 1 (maximum of Morale +4). If the army’s current hit points are lower than the army’s ACR, increase its hit points to its ACR. You may attempt a second Loyalty check; if you succeed, the army’s commander learns a new boon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86cbf84b1eaf9e95.json",
+    "web": "https://codex.pipsprojects.com/#/e/86cbf84b1eaf9e95"
+  },
+  "license": "OGL 1.0a"
+}

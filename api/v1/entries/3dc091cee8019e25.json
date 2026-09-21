@@ -1,0 +1,24 @@
+{
+  "id": "3dc091cee8019e25",
+  "name": "Arcane Concordance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 203",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "skald": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 203\nSchool evocation; Level bard 3, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a spent wand)\nEffect\nRange personal\nTarget you\nArea 10-ft.-radius emanation centered on you\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nA shimmering, blue and gold radiance surrounds you, enhancing arcane spells cast by your allies within its area. Any arcane spell cast by a creature within the area gains a +1 enhancement bonus to the DC of any saving throws against the spell, and can be cast as if one of the following metamagic feats was applied to it (without increasing the spell level or casting time): Enlarge Spell, Extend Spell, Silent Spell, or Still Spell (you choose the metamagic feat when you cast arcane concordance).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3dc091cee8019e25.json",
+    "web": "https://codex.pipsprojects.com/#/e/3dc091cee8019e25"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "7a2ca056f017f162",
+  "name": "Eaisge",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Ire of the Storm pg. 62",
+  "book": "Ire of the Storm",
+  "facets": {
+    "cr": 1,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Ire of the Storm",
+    "st": "aquatic"
+  },
+  "body": "Water gushes from the mouth and nose of this bloated creature. Broken wood and jagged nails jut from its half-rotted flesh.\nEaisge CR 1\nSource Ire of the Storm pg. 62\nXP 400\nNE Medium undead (aquatic)\nInit +0; Senses darkvision 60 ft.; Perception +3\nDefense\nAC 12, touch 10, flat-footed 12 (+2 natural)\nhp 16 (3d8+3)\nFort +2, Ref +1, Will +4\nDR 5/piercing or slashing; Immune undead traits; Resist cold 5, fire 5\nOffense\nSpeed 30 ft.\nMelee slam +4 (1d8+3)\nRanged gush +2 (1d4+2 plus trip)\nSpecial Attacks create spawn, embedded debris, gush\nStatistics\nStr 15, Dex 10, Con —, Int 6, Wis 8, Cha 13\nBase Atk +2; CMB +4; CMD 14\nFeats Blind-Fight, Iron Will\nSkills Intimidate +6, Perception +3, Stealth +5 (+9 underwater), Swim +6; Racial Modifiers +4 Stealth underwater\nLanguages Aquan\nEcology\nEnvironment any swamp or water\nOrganization solitary, pair, or wreck (3–15)\nTreasure standard\nSpecial Abilities\nCreate Spawn (Su) As a full-round action, an eaisge can expel water from its mouth onto a creature it has killed in the past minute. A humanoid creature with fewer than 3 Hit Dice bathed in these putrid waters rises as a zombie 1d4 rounds later. A humanoid with 3 Hit Dice or more rises as a new eaisge, though these newly formed eaisge lack the embedded debris special ability for the first 24 hours. An eaisge has no ability to control the undead it creates.\n\nEmbedded Debris (Ex) Large chunks of flotsam are embedded in an eaisge’s body, increasing the undead’s slam damage. This debris can be sundered as if it were a held weapon (hardness 5, 10 hp), but not disarmed. If an eaisge’s debris is destroyed, the eaisge’s slam damage is reduced to 1d4 + its Strength modifier for 24 hours while its body recollects debris.\n\nGush (Ex) An eaisge can spew a gout of putrid water from its mouth as a standard action, targeting a single creature within 30 feet with this ranged touch attack. If this attack hits, it deals damage as a thrown weapon (as indicated above), and the eaisge can attempt to trip its target as a free action that does not provoke an attack of opportunity. If the attempt fails by 10 or more, the eaisge isn’t knocked prone.\nDescription\nEaisges form in the aftermath of torrential storms linked to the Elemental Planes, especially the Plane of Water. Extraplanar energies warp and twist the mortal souls of those claimed in these disasters, and this eventually animates their bloated corpses as horrid mockeries of life. Eaisges resemble their living forms, but with bloated bodies that drip rancid water and their skin pruned into repulsive folds. They weigh twice what they did in life thanks to this saturation.\n\nThese horrible creatures may lie dormant and harmless for months or years before suddenly exploding with terrible purpose. Eaisges naturally attract bits of flotsam and debris. Their bodies absorb this refuse, wrapping their limbs around driftwood and rubble— this causes the constant pain that inspires their outrage and bursts of violence.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7a2ca056f017f162.json",
+    "web": "https://codex.pipsprojects.com/#/e/7a2ca056f017f162"
+  },
+  "license": "OGL 1.0a"
+}

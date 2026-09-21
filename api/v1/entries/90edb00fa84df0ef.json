@@ -1,0 +1,18 @@
+{
+  "id": "90edb00fa84df0ef",
+  "name": "Fleeting Spell",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Ultimate Intrigue pg. 83",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "General | Combat Stamina\n\nFleeting Spell (Metamagic)\nSource Ultimate Intrigue pg. 83\nYour spells vanish with unusual speed.\n\nBenefit: A fleeting spell’s duration becomes dismissible, if it is not already. You can dismiss your own fleeting spell as a swift action. When you dismiss a fleeting spell, its lingering aura cannot be detected by magic unless the caster succeeds at a caster level check against a DC equal to 11 + your caster level. The DC of dispel checks to counter a fleeting spell is reduced by 2, and once active, dispel magic removes a fleeting spell without a caster level check. A fleeting spell has half its normal duration (with an extended fleeting spell, these duration adjustments cancel out). Only spells with a duration of at least 2 rounds can be made fleeting, and instantaneous or permanent spells cannot be fleeting spells. A fleeting spell does not use up a higher-level spell slot than the spell’s actual level.\n\nNormal: It is a standard action to dismiss a dismissible spell, and only spells whose Duration entry is marked with a D are dismissible.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/90edb00fa84df0ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/90edb00fa84df0ef"
+  },
+  "license": "OGL 1.0a"
+}

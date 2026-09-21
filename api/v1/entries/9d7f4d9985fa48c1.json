@@ -1,0 +1,21 @@
+{
+  "id": "9d7f4d9985fa48c1",
+  "name": "Slithering Tracker",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 2 pg. 250",
+  "book": "Bestiary 2",
+  "facets": {
+    "cr": 4,
+    "sz": "Small",
+    "t": "ooze",
+    "al": "N",
+    "bk": "Bestiary 2"
+  },
+  "body": "A long, moist streak along the dark stone suddenly undulates like a serpent and then rises up to attack.\nSlithering Tracker CR 4\nSource Bestiary 2 pg. 250\nXP 1,200\nN Small ooze\nInit +4; Senses blindsense 60 ft.; Perception +7\nDefense\nAC 15, touch 15, flat-footed 11 (+4 Dex, +1 size)\nhp 42 (4d8+24)\nFort +7, Ref +5, Will +1\nImmune mind-affecting effects, ooze traits\nOffense\nSpeed 10 ft., climb 10 ft.\nMelee 2 slams +7 (1d6+3 plus grab and paralysis)\nSpecial Attacks blood drain (1d2 Constitution), grab (Colossal)\nStatistics\nStr 16, Dex 18, Con 23, Int 11, Wis 10, Cha 1\nBase Atk +3; CMB +5 (+9 grapple); CMD 19 (can’t be tripped)\nFeats Skill Focus (Perception), Skill Focus (Stealth)\nSkills Climb +11, Perception +7, Stealth +20; Racial Modifiers +8 Stealth\nLanguages Undercommon (cannot speak)\nSQ transparent\nEcology\nEnvironment any ruins or underground\nOrganization solitary or pair\nTreasure incidental\nSpecial Abilities\nParalysis (Ex) Any creature that is hit by a slithering tracker’s slam attack comes into contact with the anesthetizing slime it secretes. The opponent must succeed on a DC 18 Fortitude save or be paralyzed—at the end of each round thereafter, the paralyzed victim can attempt a new Fortitude save to recover from this paralysis. When a victim recovers from a slithering tracker’s paralysis, the victim is staggered for 1d6 rounds. This DC is Constitution-based.\n\nTransparent (Ex) Because of its lack of coloration, a slithering tracker is difficult to discern from its surroundings in most environments. The slithering tracker gains a +8 racial bonus on Stealth checks as a result, and can move at full speed without taking a penalty on Stealth checks. A creature that fails to notice a slithering tracker and walks into it automatically takes damage as if struck by the slithering tracker’s slam attack and is immediately subject to a grab attempt and paralysis by the ooze.\nDescription\nAn alien inhabitant of the dark underworld, the slithering tracker is a glistening creature of transparent ooze, typically about 3 inches thick and at least 3 feet in diameter. When still, it looks like a wet patch of stone or a patch of condensation on a wall. Comparatively slow moving, the slithering tracker relies on its transparency and knack for ambushing to surprise prey.\n\nOnce a slithering tracker has paralyzed a living creature, it flows over an exposed patch of flesh, grabbing on and draining blood from the victim. A slithering tracker can drain a human-sized creature of its blood with shocking swiftness, leaving only a desiccated carcass behind. A slithering tracker can go some time between meals, but never turns down easy prey. The larger a slithering tracker grows, the more voracious its appetite becomes, until, after a particularly large feeding, the creature splits into two smaller slithering trackers that eventually go their separate ways in search of feeding territory.\n\nSlithering trackers are not harmed by bright light, but still prefer to avoid areas of intense illumination or natural sunlight, and so only venture aboveground at night. They prefer the cool, damp environment of their native caves and tunnels.\n\nAlthough intelligent and cunning, slithering trackers are entirely alien creatures. They do not possess any language of their own, although they can usually understand the dominant language of the region they dwell in—usually Undercommon. Some underworld inhabitants do manage to forge alliances with slithering trackers, or at least exist with them in symbiosis by providing the creatures with easy and regular prey, but as one can never truly know a slithering tracker’s desires or motivations, such alliances are dangerous to rely upon.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d7f4d9985fa48c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d7f4d9985fa48c1"
+  },
+  "license": "OGL 1.0a"
+}

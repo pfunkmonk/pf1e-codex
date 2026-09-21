@@ -1,0 +1,17 @@
+{
+  "id": "cdccc53ab10e7365",
+  "name": "Familiar Parasite",
+  "bucket": "archetypes",
+  "category": "Archetype",
+  "source": "Wilderness Origins pg. 21",
+  "book": "Wilderness Origins",
+  "facets": {
+    "bk": "Wilderness Origins"
+  },
+  "body": "Parasite\nSource Wilderness Origins pg. 21\nMost familiars are still something akin to normal animals, conduits for power rather than powers themselves. The parasite is one of the more disturbing exceptions.\n\nInfest (Su): As a full-round action, a parasite can infest a willing or helpless target at least two size categories larger than the parasite. This deals 1d6 points of Constitution damage as the parasite burrows through viscera before attaching itself to the target’s brain or spinal cord (or equivalent). There, the parasite curls up, with no ability to see or hear anything itself, but with access to its host’s senses.\n\nDespite the gaping wound, this process is curiously painless. Assuming that the location of the wound and the resultant blood is not obvious (most parasites infest from the back for this reason), the victim must succeed at a Heal or Sense Motive check opposed by the familiar’s Bluff check to notice that something is amiss.\n\nRemoving a parasite requires a successful Heal check opposed by the familiar’s Stealth check, or a successful casting of break enchantment against a DC of 11 + the parasite’s level. If successful, the parasite is destroyed. The parasite can leave the host willingly as a full-round action. If the host is killed, the parasite must succeed at a DC 20 Fortitude save or be killed as well.\n\nThis replaces improved evasion and share spells.\n\nPuppeteer (Sp): Beginning at 3rd level, the parasite can attempt to control its host once per day. This functions as suggestion. At 7th level, the parasite can use this ability to replicate dominate person instead. At 15th level, the parasite can replicate dominate monster. The DC for this ability is calculated as if the parasite’s master had cast the spell (defaulting to Charisma if the owner has no spellcasting ability).\n\nThis replaces deliver touch spells, speak with animals of its kind, spell resistance, and scry on familiar.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cdccc53ab10e7365.json",
+    "web": "https://codex.pipsprojects.com/#/e/cdccc53ab10e7365"
+  },
+  "license": "OGL 1.0a"
+}

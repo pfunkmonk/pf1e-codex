@@ -1,0 +1,36 @@
+{
+  "id": "5cb6636138d24162",
+  "name": "Complex Hallucination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Intrigue pg. 206",
+  "book": "Ultimate Intrigue",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "magus": 4,
+      "medium": 3,
+      "mesmerist": 4,
+      "occultist": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Intrigue"
+  },
+  "body": "Complex Hallucination\nSource Ultimate Intrigue pg. 206\nSchool illusion (phantasm) [mind-affecting]; Level arcanist 4, bard 4, magus 4, medium 3, mesmerist 4, occultist 4, psychic 4, skald 4, sorcerer 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange long (400 ft. + 40 ft./level)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration concentration + 3 rounds\nSaving Throw Will disbelief; Spell Resistance yes\nDescription\nThis spell functions as audiovisual hallucination, except that the phantasm you create can also include olfactory, tactile, and thermal effects.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5cb6636138d24162.json",
+    "web": "https://codex.pipsprojects.com/#/e/5cb6636138d24162"
+  },
+  "license": "OGL 1.0a"
+}

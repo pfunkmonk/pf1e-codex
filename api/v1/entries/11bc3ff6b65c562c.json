@@ -1,0 +1,29 @@
+{
+  "id": "11bc3ff6b65c562c",
+  "name": "Mental Block",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 176",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 1,
+      "psychic": 2,
+      "skald": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 176\nSchool divination [mind-affecting]; Level bard 2, mesmerist 1, psychic 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou lock access to the target’s procedural memories, preventing it from drawing upon its experience and expertise. The target loses all skill ranks, spells known, and spells prepared, as well as activated feat, extraordinary, supernatural, and spell-like abilities. Each round at the end of the target’s turn, the target can attempt another Will save to end this effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/11bc3ff6b65c562c.json",
+    "web": "https://codex.pipsprojects.com/#/e/11bc3ff6b65c562c"
+  },
+  "license": "OGL 1.0a"
+}

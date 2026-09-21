@@ -1,0 +1,29 @@
+{
+  "id": "468ade1585e1cb32",
+  "name": "Bane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 246",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "warpriest": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 246\nSchool enchantment (compulsion) [emotion, fear, mind-affecting]; Level antipaladin 1, cleric 1, inquisitor 1, mesmerist 1, oracle 1, shaman 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 50 ft.\nArea 50-ft.-radius burst, centered on you\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nBane fills your enemies with fear and doubt. Each affected creature takes a –1 penalty on attack rolls and a –1 penalty on saving throws against fear effects. Bane counters and dispels bless.\nMythic Bane\nSource Mythic Adventures pg. 85\nThe –1 penalty applies on attack rolls, weapon damage rolls, and all saving throws. Each affected creature must roll its next attack roll or saving throw twice and take the lower result.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/468ade1585e1cb32.json",
+    "web": "https://codex.pipsprojects.com/#/e/468ade1585e1cb32"
+  },
+  "license": "OGL 1.0a"
+}

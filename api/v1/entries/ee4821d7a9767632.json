@@ -1,0 +1,27 @@
+{
+  "id": "ee4821d7a9767632",
+  "name": "Seismic Fissure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Wilderness Origins pg. 27",
+  "book": "Wilderness Origins",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "shaman": 7
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Wilderness Origins"
+  },
+  "body": "Source Wilderness Origins pg. 27\nSchool transmutation [earth]; Level druid 7, shaman 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nEffect 10-ft.-by-80-ft. fissure in the earth, 40 ft. deep\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance no\nDescription\nWith a thrust of tectonic energy, you split the earth. Each creature standing in the area where the fissure opens must succeed at a Reflex saving throw to avoid falling into the rift. Those standing adjacent to the fissure when it is created must succeed at a Reflex save or be knocked prone by tremors. This spell is effective only when cast on an area of dirt, earth, sand, or stone.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ee4821d7a9767632.json",
+    "web": "https://codex.pipsprojects.com/#/e/ee4821d7a9767632"
+  },
+  "license": "OGL 1.0a"
+}

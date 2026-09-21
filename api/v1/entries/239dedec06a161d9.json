@@ -1,0 +1,30 @@
+{
+  "id": "239dedec06a161d9",
+  "name": "Effortless Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 228",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 2,
+      "hunter": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "paladin": 2,
+      "psychic": 2,
+      "ranger": 2,
+      "warpriest": 2
+    },
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 228\nSchool transmutation; Level cleric 2, hunter 2, inquisitor 2, magus 2, occultist 2, oracle 2, paladin 2, psychic 2, ranger 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nArmor you wear no longer reduces your speed. You also reduce the armor’s armor check penalty by 1 + 1 per five caster levels (maximum 5).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/239dedec06a161d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/239dedec06a161d9"
+  },
+  "license": "OGL 1.0a"
+}

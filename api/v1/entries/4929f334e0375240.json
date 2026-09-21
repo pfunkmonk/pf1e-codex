@@ -1,0 +1,25 @@
+{
+  "id": "4929f334e0375240",
+  "name": "Harvest Season",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Streets pg. 23",
+  "book": "Heroes of the Streets",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "shaman": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Heroes of the Streets"
+  },
+  "body": "Source Heroes of the Streets pg. 23\nSchool abjuration; Level druid 2, hunter 2, shaman 2\nCasting\nCasting Time 1 minute\nComponents V, S, M\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one plant\nDuration instantaneous; see text\nSaving Throw none; Spell Resistance no\nDescription\nYou cause an explosive burst of growth in a single plant, causing it to grow through a cycle of flower, fruit, or grain production as appropriate. If the plant is not one that normally produces food fit for humanoid consumption, it produces edible flowers under the effect of this spell. The plant produces enough food to nourish one Medium creature per caster level. Food harvested through this spell rots if not eaten within 24 hours. This spell nourishes, fertilizes, and pollinates the plant, and doesn’t harm the plant in any way. This spell has no effect on plant creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4929f334e0375240.json",
+    "web": "https://codex.pipsprojects.com/#/e/4929f334e0375240"
+  },
+  "license": "OGL 1.0a"
+}

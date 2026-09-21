@@ -1,0 +1,21 @@
+{
+  "id": "cbf7364c7a732293",
+  "name": "Gravitic Globe",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Tombs of Golarion pg. 52",
+  "book": "Tombs of Golarion",
+  "facets": {
+    "cr": 10,
+    "sz": "Large",
+    "t": "construct",
+    "al": "N",
+    "bk": "Tombs of Golarion"
+  },
+  "body": "This large, adamantine sphere is carved to resemble the surface of Golarion, and burns with magical flame.\nGravitic Globe CR 10\nSource Tombs of Golarion pg. 52\nXP 9,600\nN Large construct\nInit –1; Senses darkvision 60 ft., low-light vision; Perception –5\nAura magnetism (30 ft., DC 20)\nDefense\nAC 18, touch 8, flat-footed 18 (–1 Dex, +10 natural, –1 size)\nhp 140 (20d10+30)\nFort +6, Ref +5, Will +1\nDefensive Abilities hardness 20, magnetism; Immune construct traits\nOffense\nSpeed 30 ft.\nMelee slam +29 (3d6+15 plus burn)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks burn (2d6 fire, DC 20), trample (3d6+15 plus burn, DC 30)\nStatistics\nStr 30, Dex 8, Con —, Int —, Wis 1, Cha 1\nBase Atk +20; CMB +31; CMD 40 (can’t be tripped)\nSpecial Abilities\nMagnetism (Ex) The gravitic globe is surrounded by an aura of magnetism that allows it to attract metal objects and creatures. A metal creature or creature wearing metal armor that begins its turn within the globe’s aura must succeed at a DC 20 Reflex saving throw or fall prone; standing up from prone within the aura is a standard action for such creatures. Such a creature that enters the globe’s aura must succeed at a DC 20 Reflex save or be pushed back 5 feet, ending its movement. On its turn, the gravitic globe can attempt a bull rush, pull, or trip combat maneuver against a single metal or metal-wearing creature within its aura as a swift action that does not provoke attacks of opportunity. Alternatively, it can attempt a disarm or steal combat maneuver targeting a metal weapon or item within its aura as a swift action that does not provoke attacks of opportunity. The erratic magnetic field surrounding the globe grants it a 20% miss chance against attacks made with metallic weapons (including ammunition), as the invisible forces make targeting unpredictable. The save DC is Constitution-based.\nDescription\nHaving seen a similar construct made of stone in an arcane library in the Five Kings Mountains, Alzika Karr was determined to improve upon the design. Wishing to make the construct as realistic as possible so as to fall in line with her experiences in the Darklands researching magnetic ores and magma, the Arclord procured a rare sample of a plasma ooze (Pathfinder RPG Bestiary 3 220) from a colleague in Oenopion and infused it into the core of her gravitic globe. The effects on the newly forged construct were remarkable— not only did it draw metallic objects toward it as the ooze did, but it occasionally repelled them as well.\nConstruction\nA gravitic globe’s outermost surface is a thin layer of adamantine galvanized around a hollow iron core containing a sample of a plasma ooze, which weighs 4,000 pounds and is worth 15,000 gp in total.\nGravitic Globe\nCL 13th; Price 75,000 gp\nConstruction\nRequirements Craft Construct; animate objects, repulsion, reverse gravity, telekinesis, creator must be caster level 13th; Skill Craft (sculptures) DC 16; Cost 45,000 gp",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cbf7364c7a732293.json",
+    "web": "https://codex.pipsprojects.com/#/e/cbf7364c7a732293"
+  },
+  "license": "OGL 1.0a"
+}

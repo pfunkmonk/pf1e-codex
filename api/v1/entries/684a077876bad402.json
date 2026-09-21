@@ -1,0 +1,33 @@
+{
+  "id": "684a077876bad402",
+  "name": "Gentle Repose",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 289",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 3,
+      "cleric": 2,
+      "medium": 2,
+      "occultist": 3,
+      "oracle": 2,
+      "shaman": 2,
+      "sorcerer": 3,
+      "spiritualist": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 289\nSchool necromancy; Level arcanist 3, cleric 2, medium 2, occultist 3, oracle 2, shaman 2, sorcerer 3, spiritualist 2, warpriest 2, witch 2, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (salt and a copper piece for each of the corpse's eyes)\nEffect\nRange touch\nTarget corpse touched\nDuration 1 day/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\nDescription\nYou preserve the remains of a dead creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see raise dead). Days spent under the influence of this spell don't count against the time limit. Additionally, this spell makes transporting a slain (and thus decaying) comrade less unpleasant.\n\nThe spell also works on severed body parts and the like.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/684a077876bad402.json",
+    "web": "https://codex.pipsprojects.com/#/e/684a077876bad402"
+  },
+  "license": "OGL 1.0a"
+}

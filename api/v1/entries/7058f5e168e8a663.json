@@ -1,0 +1,29 @@
+{
+  "id": "7058f5e168e8a663",
+  "name": "Dungeonsight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dragonslayer's Handbook pg. 28",
+  "book": "Dragonslayer's Handbook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 5,
+      "bard": 4,
+      "cleric": 5,
+      "inquisitor": 4,
+      "oracle": 5,
+      "skald": 4,
+      "sorcerer": 5,
+      "warpriest": 5,
+      "wizard": 5
+    },
+    "bk": "Dragonslayer's Handbook"
+  },
+  "body": "Source Dragonslayer's Handbook pg. 28\nSchool divination; Level arcanist 5, bard 4, cleric 5, inquisitor 4, oracle 5, skald 4, sorcerer 5, warpriest 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a small glass orb worth 150 gp)\nEffect\nRange personal\nArea 60-ft.-radius emanation\nDuration instantaneous\nDescription\nYou receive a clear and memorable view of the layout of chambers, barriers, and connecting passages within the area of effect. This spell does not reveal the contents or inhabitants of any of these locations, only the basic architecture of the space. For example, a staircase leading up to a pair of doors would be apparent, but the iron golems guarding the doors would not. This spell does identify the locations of secret doors and hidden passages but gives no clue as to the means of opening or accessing them.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7058f5e168e8a663.json",
+    "web": "https://codex.pipsprojects.com/#/e/7058f5e168e8a663"
+  },
+  "license": "OGL 1.0a"
+}

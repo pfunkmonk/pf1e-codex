@@ -1,0 +1,33 @@
+{
+  "id": "d07933a481f09b87",
+  "name": "Collaborative Thaumaturgy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder Society Primer pg. 12",
+  "book": "Pathfinder Society Primer",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "arcanist": 3,
+      "bard": 3,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "magus": 3,
+      "oracle": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "summoner": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "bk": "Pathfinder Society Primer"
+  },
+  "body": "Source Pathfinder Society Primer pg. 12\nSchool universal; Level arcanist 3, bard 3, cleric 3, druid 3, hunter 3, magus 3, oracle 3, skald 3, sorcerer 3, summoner 3, summoner (unchained) 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 immediate action\nComponents V, S, F (a bronze tuning fork)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nDescription\nYou tap into the magical resonance between you and your allies to enhance one another’s magic. Cast this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can cast. The ally casts her spell as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: Enlarge Spell, Extend Spell, Silent Spell, or Still Spell. If the ally is the target of two collaborative thaumaturgy spells when casting a spell, the ally can instead apply the Empower Spell metamagic feat to a spell at least 2 levels lower than the highest-level spell she can cast. Finally, if the ally is the target of three collaborative thaumaturgy spells when casting a spell, she can instead apply the Maximize Spell or Widen Spell metamagic feat to a spell at least 3 levels lower than the highest-level spell she can cast. You can’t target yourself with collaborative thaumaturgy.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d07933a481f09b87.json",
+    "web": "https://codex.pipsprojects.com/#/e/d07933a481f09b87"
+  },
+  "license": "OGL 1.0a"
+}

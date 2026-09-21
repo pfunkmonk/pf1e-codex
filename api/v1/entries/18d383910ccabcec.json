@@ -1,0 +1,26 @@
+{
+  "id": "18d383910ccabcec",
+  "name": "Kiss of the First World",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 58",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "druid": 4,
+      "hunter": 4,
+      "skald": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 58\nSchool transmutation; Level bard 4, druid 4, hunter 4, skald 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (diamond dust worth 100 gp)\nEffect\nRange touch\nArea living or undead creature touched\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell—a favorite of fey spellcasters—is traditionally bestowed with a kiss, though all that’s really required to gift someone with a kiss of the First World is a touch. This spell infuses a living creature with a surge of positive energy from the First World, filling the target with the raw energies of life. The exact effects of this spell vary, depending on the nature of the creature touched. Constructs are immune to the effects of this spell.\n\nLiving Creature: A living creature gains a 20-foot increase to his base land speed and a +2 insight bonus on all Charisma-based skill checks. In addition, the creature gains fast healing 2. Fire, acid, and negative energy cause this fast healing to stop functioning on the round following the attack.\n\nUndead Creature: An undead creature targeted by this spell is staggered for the duration of this spell. It does not gain the benefits of any channel resistance it might normally enjoy, and the save DCs for any of its special attacks (but not spell-like abilities or spells) are reduced by 2.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/18d383910ccabcec.json",
+    "web": "https://codex.pipsprojects.com/#/e/18d383910ccabcec"
+  },
+  "license": "OGL 1.0a"
+}

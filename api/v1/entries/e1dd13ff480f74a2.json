@@ -1,0 +1,26 @@
+{
+  "id": "e1dd13ff480f74a2",
+  "name": "Semblance of Flesh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #86: Lords of Rust pg. 75",
+  "book": "Pathfinder #86: Lords of Rust",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "oracle": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "bk": "Pathfinder #86: Lords of Rust"
+  },
+  "body": "Source Pathfinder #86: Lords of Rust pg. 75\nSchool illusion (glamer); Level arcanist 2, cleric 2, oracle 2, sorcerer 2, warpriest 2, wizard 2 (Brigh)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget construct touched\nDuration 10 minute/level (D)\nDescription\nYou make the target construct appear to be a living creature of flesh and bone, regardless of its actual materials. You can make it seem 1 foot shorter or taller, and appear thin, fat, or anywhere in between. Its bodily configuration does not change; for example, a centaur-like construct looks like a centaur rather than a human. The extent of the apparent change (such as flesh color, hair color, apparent age, and so on) is up to you.\n\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile or audible properties of the construct. If you use this spell to create a disguise, the construct gains a +10 bonus on the Disguise check. A creature that interacts with the glamer receives a Will save to recognize it as an illusion.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1dd13ff480f74a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1dd13ff480f74a2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "aeff1336776564a1",
+  "name": "Share Memory",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 238",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 238\nSchool divination; Level arcanist 2, bard 2, medium 2, mesmerist 2, occultist 2, psychic 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget you and one creature touched\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou momentarily link your mind with the target and share a single memory of no longer than 1 minute. You can show the target one of your memories, show the target one of its own memories, or view one of the target’s memories.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aeff1336776564a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/aeff1336776564a1"
+  },
+  "license": "OGL 1.0a"
+}

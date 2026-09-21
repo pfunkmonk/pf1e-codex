@@ -1,0 +1,28 @@
+{
+  "id": "8abd33a459e6f1f6",
+  "name": "Time Shudder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 196",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "magus": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 196\nSchool transmutation; Level arcanist 2, magus 2, psychic 2, redmantisassassin 2, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a tiny hourglass)\nEffect\nRange 30 ft.\nArea 30-ft.-radius emanation centered on you\nDuration 1 round\nSaving Throw none; Spell Resistance yes\nDescription\nYou cause a ripple in time that affects all creatures in the area. At the start of each creature’s turn, there is a 50% chance the creature is hasted (as haste); otherwise it is slowed (as slow).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8abd33a459e6f1f6.json",
+    "web": "https://codex.pipsprojects.com/#/e/8abd33a459e6f1f6"
+  },
+  "license": "OGL 1.0a"
+}

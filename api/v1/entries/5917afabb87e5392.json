@@ -1,0 +1,49 @@
+{
+  "id": "5917afabb87e5392",
+  "name": "Walls",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Combat pg. 167",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Rules Index | GM Screen\n\nWalls\nSource Ultimate Combat pg. 167\nThe walls that guard castles and cities are sturdy fortifications, usually constructed in a series of 5-foot squares. A square of wall has an AC of 5, and hardness and hit points equal to its type.\n\nSquares of walls can be magically treated. Doing so doubles the hardness and hit points. Magically treating wall squares costs 500 gp per wall square. A spellcaster with the Craft Magic Arms and Armor feat can magically treat walls.\n\nWhen a wall gains the broken condition, its hardness is halved, but the wall is not breached. Only destroying a section of wall allows it to become breached. When a square of wall is breached, any sections directly above it fall onto the missing section of walls. Doing this reduces the falling wall section to half its current hit point total –1, which applies the broken condition to that square of wall.\nTable 3-19: Walls\nMaterial Hardness Hit Points per 5-Foot Square\nWood 5 30\nStone 8 45\nIron or steel 10 90\nAdamantine 20 120",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Material",
+          "Hardness",
+          "Hit Points per 5-Foot Square"
+        ],
+        [
+          "Wood",
+          "5",
+          "30"
+        ],
+        [
+          "Stone",
+          "8",
+          "45"
+        ],
+        [
+          "Iron or steel",
+          "10",
+          "90"
+        ],
+        [
+          "Adamantine",
+          "20",
+          "120"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5917afabb87e5392.json",
+    "web": "https://codex.pipsprojects.com/#/e/5917afabb87e5392"
+  },
+  "license": "OGL 1.0a"
+}

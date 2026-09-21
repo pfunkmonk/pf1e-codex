@@ -1,0 +1,30 @@
+{
+  "id": "0c02121956b13a9b",
+  "name": "Mount",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 315",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bloodrager": 1,
+      "magus": 1,
+      "occultist": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 315\nSchool conjuration (summoning); Level arcanist 1, bloodrager 1, magus 1, occultist 1, sorcerer 1, summoner 1, summoner (unchained) 1, witch 1, wizard 1\nCasting\nCasting Time 1 round\nComponents V, S, M (a bit of horse hair)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one mount\nDuration 2 hours/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nYou summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly and well. The mount comes with a bit and bridle and a riding saddle.\nMount, Communal\nSource Ultimate Combat pg. 237\nSchool conjuration (summoning); Level arcanist 2, magus 2, occultist 2, sorcerer 2, summoner 2, summoner (unchained) 2, witch 2, wizard 2\nCasting\nCasting Time 1 round\nComponents V, S, M (a bit of horse hair)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect up to six mounts\nDuration 2 hours/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like mount, except you can summon up to six light horses or ponies, and you divide the duration in 2-hour increments among the steeds summoned.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0c02121956b13a9b.json",
+    "web": "https://codex.pipsprojects.com/#/e/0c02121956b13a9b"
+  },
+  "license": "OGL 1.0a"
+}

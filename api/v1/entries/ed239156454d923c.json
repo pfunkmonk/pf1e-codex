@@ -1,0 +1,31 @@
+{
+  "id": "ed239156454d923c",
+  "name": "Dust of Twilight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 217",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 217\nSchool conjuration [darkness]; Level arcanist 2, bard 2, bloodrager 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (coal dust)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget creatures and objects in a 10-ft. spread\nDuration instantaneous\nSaving Throw Fortitude negates (fatigue only); Spell Resistance no\nDescription\nA shower of iridescent black particles clings to and extinguishes torches, lanterns, sunrods, and similar mundane light sources and dispels any spell of 2nd level or lower with the light descriptor (as dispel magic). Creatures in the area must make a Fortitude save or become fatigued.\nMythic Dust of Twilight\nSource Mythic Adventures pg. 92\nA creature that fails its Fortitude save against the spell must also succeed at a Will save at the same DC or fall asleep (as the sleep spell). Creatures that succeed at their saves are merely drowsy (as the lullaby spell).\n\nAugmented: If you expend two uses of mythic power, add half your tier to the level of light spells mythic dust of twilight dispels.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed239156454d923c.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed239156454d923c"
+  },
+  "license": "OGL 1.0a"
+}

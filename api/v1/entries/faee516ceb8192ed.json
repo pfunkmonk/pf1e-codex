@@ -1,0 +1,34 @@
+{
+  "id": "faee516ceb8192ed",
+  "name": "Songbird",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 44",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "good"
+    ],
+    "bk": "Planar Adventures"
+  },
+  "body": "Source Planar Adventures pg. 44\nSchool conjuration [good]; Level arcanist 1, bard 1, cleric 1, mesmerist 1, oracle 1, paladin 1, psychic 1, skald 1, sorcerer 1, warpriest 1, wizard 1\nCasting\nCasting Time 1 swift action\nComponents S\nEffect\nRange personal\nTarget you\nDuration 1 round\nDescription\nYou conjure uplifting music from the wilds of Elysium, Heaven, or Nirvana to bolster other musical activities.\n\nIf you cast songbird during the same round in which you attempt a Perform check, songbird acts as accompaniment and grants a +3 bonus on that Perform check.\n\nIf you cast songbird in the same round in which you activate a bardic performance, that round of bardic performance does not count against your total rounds of bardic performance available for the day.\n\nIf you cast songbird in the same round in which you cast a spell with the sonic descriptor, that spell’s save DC increases by 1.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/faee516ceb8192ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/faee516ceb8192ed"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cadabc9cfd334157",
+  "name": "Detect Aberration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 215",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "psychic": 1,
+      "ranger": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 215\nSchool divination; Level druid 1, hunter 1, psychic 1, ranger 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange long (400 ft. + 40 ft./level)\nArea cone-shaped emanation\nDuration concentration, up to 10 minutes/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like detect animals or plants, except it detects creatures of the aberration type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cadabc9cfd334157.json",
+    "web": "https://codex.pipsprojects.com/#/e/cadabc9cfd334157"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b878d5fad15662cb",
+  "name": "Amplify Stench",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Monster Codex pg. 213",
+  "book": "Monster Codex",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "wizard": 2
+    },
+    "bk": "Monster Codex"
+  },
+  "body": "Source Monster Codex pg. 213\nSchool transmutation; Level arcanist 2, cleric 2, druid 2, hunter 2, oracle 2, psychic 2, shaman 2, sorcerer 2, warpriest 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 10 minutes/level\nDescription\nYou amplify your natural stench special ability—its save DC increases by 2, and creatures that fail their saving throws against your stench become nauseated rather than sickened. If your stench ability normally causes a creature to become nauseated (such as with the foul stench ability), the radius of your stench doubles instead. This spell has no effect if you don’t possess the stench special ability.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b878d5fad15662cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/b878d5fad15662cb"
+  },
+  "license": "OGL 1.0a"
+}

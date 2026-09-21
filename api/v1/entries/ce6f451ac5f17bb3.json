@@ -1,0 +1,35 @@
+{
+  "id": "ce6f451ac5f17bb3",
+  "name": "Stabilize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 348",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 0,
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "inquisitor": 0,
+      "medium": 0,
+      "occultist": 0,
+      "oracle": 0,
+      "psychic": 0,
+      "shaman": 0,
+      "spiritualist": 0,
+      "warpriest": 0,
+      "witch": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 348\nSchool conjuration (healing); Level adept 0, cleric 0, druid 0, hunter 0, inquisitor 0, medium 0, occultist 0, oracle 0, psychic 0, shaman 0, spiritualist 0, warpriest 0, witch 0\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nUpon casting this spell, you target a living creature that has –1 or fewer hit points. That creature is automatically stabilized and does not lose any further hit points. If the creature later takes damage, it continues dying normally.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce6f451ac5f17bb3.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce6f451ac5f17bb3"
+  },
+  "license": "OGL 1.0a"
+}

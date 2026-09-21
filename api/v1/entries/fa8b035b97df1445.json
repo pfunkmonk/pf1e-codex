@@ -1,0 +1,33 @@
+{
+  "id": "fa8b035b97df1445",
+  "name": "Analyze Dweomer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 240",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 6,
+      "arcanist": 6,
+      "bard": 6,
+      "investigator": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "skald": 6,
+      "sorcerer": 6,
+      "spiritualist": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 240\nSchool divination; Level alchemist 6, arcanist 6, bard 6, investigator 6, occultist 6, psychic 6, skald 6, sorcerer 6, spiritualist 6, witch 6, wizard 6\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a ruby and gold lens worth 1,500 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one object or creature per caster level\nDuration 1 round/level (D)\nSaving Throw none or Will negates; see text; Spell Resistance no\nDescription\nYou can observe magical auras. Each round, you may examine a single creature or object that you can see as a free action. In the case of a magic item, you learn its functions (including any curse effects), how to activate its functions (if appropriate), and how many charges are left (if it uses charges). In the case of an object or creature with active spells cast upon it, you learn each spell, its effect, and its caster level.\n\nAn attended object may attempt a Will save to resist this effect if its holder so desires. If the save succeeds, you learn nothing about the object except what you can discern by looking at it. An object that makes its save cannot be affected by any other analyze dweomer spells for 24 hours.\n\nAnalyze dweomer does not function when used on an artifact.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa8b035b97df1445.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa8b035b97df1445"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cfba3488aa46754d",
+  "name": "Countless Eyes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 213",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "arcanist": 3,
+      "bloodrager": 3,
+      "inquisitor": 3,
+      "investigator": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 213\nSchool transmutation; Level alchemist 3, arcanist 3, bloodrager 3, inquisitor 3, investigator 3, occultist 3, psychic 3, redmantisassassin 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target sprouts extra eyes all over its body, including on the back of its head. It gains all-around vision and cannot be flanked.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfba3488aa46754d.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfba3488aa46754d"
+  },
+  "license": "OGL 1.0a"
+}

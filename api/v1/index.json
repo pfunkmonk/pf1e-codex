@@ -1,0 +1,235 @@
+{
+  "name": "PF1e Codex API",
+  "apiVersion": 1,
+  "dataVersion": "73",
+  "site": "https://codex.pipsprojects.com",
+  "base": "https://codex.pipsprojects.com/api/v1",
+  "docs": "https://codex.pipsprojects.com/api/",
+  "license": "OGL 1.0a",
+  "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
+  "totals": {
+    "entries": 28347,
+    "buckets": 13,
+    "tables": 2058,
+    "bodyLayout": {
+      "nameFirst": 2523,
+      "sourceFirst": 12472,
+      "other": 13352
+    }
+  },
+  "endpoints": {
+    "manifest": "/api/v1/index.json",
+    "list": "/api/v1/{bucket}.json",
+    "names": "/api/v1/names.json",
+    "entry": "/api/v1/entries/{id}.json",
+    "web": "/#/e/{id}"
+  },
+  "notes": [
+    "Read-only static JSON; there is no query string. Filter lists client-side.",
+    "Entry ids are opaque and stable for as long as the underlying data is not rebuilt; dataVersion changes with every data release.",
+    "body is the entry text exactly as the Codex stores it, and its layout is NOT uniform: some begin with the entry name, many with a Source line, and many with something carried over from the original page (a breadcrumb such as 'Rules Index | GM Screen', a subtitle, or intro prose). totals.bodyLayout gives the measured split. Read the structured fields — name, source, book, facets — rather than parsing the first lines of body.",
+    "The API exposes exactly what the site's browse and search expose; scraped index pages the site hides are omitted here too."
+  ],
+  "buckets": [
+    {
+      "slug": "archetypes",
+      "label": "Archetypes",
+      "count": 1320,
+      "list": "archetypes.json",
+      "categories": {
+        "Archetype": 1320
+      }
+    },
+    {
+      "slug": "classes",
+      "label": "Classes",
+      "count": 252,
+      "list": "classes.json",
+      "categories": {
+        "Base Classes": 133,
+        "Prestige Classes": 119
+      }
+    },
+    {
+      "slug": "deities",
+      "label": "Deities",
+      "count": 463,
+      "list": "deities.json",
+      "categories": {
+        "Deities": 462,
+        "Deity": 1
+      }
+    },
+    {
+      "slug": "feats",
+      "label": "Feats",
+      "count": 3622,
+      "list": "feats.json",
+      "categories": {
+        "Feats": 3622
+      }
+    },
+    {
+      "slug": "hazards",
+      "label": "Afflictions & Hazards",
+      "count": 322,
+      "list": "hazards.json",
+      "categories": {
+        "Corruptions": 16,
+        "Curses": 23,
+        "Diseases": 41,
+        "Drugs": 29,
+        "Haunts": 45,
+        "Madnesses": 16,
+        "Poisons": 152
+      }
+    },
+    {
+      "slug": "items",
+      "label": "Equipment & Items",
+      "count": 6682,
+      "list": "items.json",
+      "categories": {
+        "Altars": 22,
+        "Armor": 456,
+        "Artifacts": 345,
+        "Cursed Items": 87,
+        "Cybertech": 12,
+        "Equipment": 255,
+        "Favors": 5,
+        "Intelligent Items": 32,
+        "Magic Equipment": 125,
+        "Miscellaneous": 1551,
+        "Pharmaceuticals": 11,
+        "Potions & Oils": 10,
+        "Psi-Tech": 9,
+        "Rings": 183,
+        "Rods": 143,
+        "Staves": 106,
+        "Technology": 16,
+        "Thrones": 3,
+        "Weapons": 1174,
+        "Wondrous Items": 2137
+      }
+    },
+    {
+      "slug": "monsters",
+      "label": "Monsters",
+      "count": 3919,
+      "list": "monsters.json",
+      "categories": {
+        "Animal Companions": 214,
+        "Creature Subtypes": 84,
+        "Creature Types": 13,
+        "Monster Families": 140,
+        "Monsters": 3083,
+        "Mythic Monsters": 89,
+        "Templates": 164,
+        "Universal Monster Rules": 132
+      }
+    },
+    {
+      "slug": "npcs",
+      "label": "NPCs",
+      "count": 487,
+      "list": "npcs.json",
+      "categories": {
+        "NPCs": 487
+      }
+    },
+    {
+      "slug": "options",
+      "label": "Class Options",
+      "count": 2970,
+      "list": "options.json",
+      "categories": {
+        "Advanced Armor Training": 12,
+        "Advanced Weapon Training": 23,
+        "Annointings": 4,
+        "Blessings": 42,
+        "Bloodlines": 75,
+        "Combat Styles": 29,
+        "Construct Mods": 21,
+        "Deeds": 41,
+        "Disciplines": 23,
+        "Discoveries": 176,
+        "Domains": 35,
+        "Druid Domain Powers": 51,
+        "Eidolon Base Forms": 6,
+        "Eidolon Base Forms (Unchained)": 4,
+        "Eidolon Subtypes (Unchained)": 26,
+        "Emotional Focus": 15,
+        "Evolutions": 78,
+        "Evolutions (Unchained)": 60,
+        "Exploits": 79,
+        "Implement Schools": 12,
+        "Inquisitions": 39,
+        "Investigator Talents": 62,
+        "Magus Arcana": 64,
+        "Masterpieces": 68,
+        "Mysteries": 34,
+        "Mythic Path Abilities": 404,
+        "Mythic Path Features": 22,
+        "Ninja Tricks": 65,
+        "Oracle Curses": 41,
+        "Orders": 14,
+        "Phrenic Amplifications": 31,
+        "Rage Powers": 234,
+        "Rogue Talents": 212,
+        "Rogue Talents (Unchained)": 159,
+        "Schools": 17,
+        "Shaman Hexes": 17,
+        "Shifter": 30,
+        "Slayer Talents": 42,
+        "Spirits": 17,
+        "Stares": 24,
+        "Tricks": 44,
+        "Unique Patrons": 9,
+        "Vigilante Talents": 127,
+        "Wild Talents": 278,
+        "Witch Hexes": 104
+      }
+    },
+    {
+      "slug": "races",
+      "label": "Races",
+      "count": 77,
+      "list": "races.json",
+      "categories": {
+        "Races": 77
+      }
+    },
+    {
+      "slug": "rules",
+      "label": "Rules & Skills",
+      "count": 3093,
+      "list": "rules.json",
+      "categories": {
+        "Combat Stamina": 549,
+        "Definitions": 52,
+        "Rules": 2466,
+        "Skills": 26
+      }
+    },
+    {
+      "slug": "spells",
+      "label": "Spells",
+      "count": 3162,
+      "list": "spells.json",
+      "categories": {
+        "Occult Rituals": 81,
+        "Spellbooks": 42,
+        "Spells": 3039
+      }
+    },
+    {
+      "slug": "traits",
+      "label": "Traits",
+      "count": 1978,
+      "list": "traits.json",
+      "categories": {
+        "Traits": 1978
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "9f7493c7e177b938",
+  "name": "Compel Tongue, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Black Markets pg. 24",
+  "book": "Black Markets",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 2,
+      "bard": 1,
+      "cleric": 2,
+      "druid": 2,
+      "hunter": 2,
+      "oracle": 2,
+      "skald": 1,
+      "sorcerer": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Black Markets"
+  },
+  "body": "Compel Tongue\nSource Black Markets pg. 24\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 2, bard 1, cleric 2, druid 2, hunter 2, oracle 2, skald 1, sorcerer 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a wooden block carved with a letter)\nEffect\nRange touch\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as share language, granting a creature the ability to read, understand, and communicate to the best of its ability in any one language you know. For the spell’s entire duration, the target can speak and write only in the language imparted, but its ability to understand other languages is unaffected.\nCompel Tongue, Mass\nSource Black Markets pg. 24\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 5, bard 4, cleric 5, druid 5, hunter 5, oracle 5, skald 4, sorcerer 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a wooden block carved with a letter)\nEffect\nRange touch\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as compel tongue, except it affects multiple creatures. The same language restriction applies to all creatures, and the same language must be imparted to all creatures affected by the same casting of this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f7493c7e177b938.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f7493c7e177b938"
+  },
+  "license": "OGL 1.0a"
+}

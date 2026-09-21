@@ -1,0 +1,24 @@
+{
+  "id": "cd7fe329620f78c2",
+  "name": "Forced Repentance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 224",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "inquisitor": 4,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 224\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level inquisitor 4, paladin 4\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one evil creature without the evil subtype\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou force an evil creature that does not have the evil subtype to momentarily reflect on its past actions and be overcome by grief and conscience. The target immediately drops prone and begins to loudly confess all of its sins and transgressions to the caster for the duration of the spell. The spell immediately ends if you move out of line of sight or if the target is attacked.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd7fe329620f78c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd7fe329620f78c2"
+  },
+  "license": "OGL 1.0a"
+}

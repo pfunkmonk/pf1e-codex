@@ -1,0 +1,25 @@
+{
+  "id": "e5d9ec119a8178f5",
+  "name": "Wild Instinct",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Wild pg. 31",
+  "book": "Heroes of the Wild",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bloodrager": 2,
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 2,
+      "shaman": 2
+    },
+    "bk": "Heroes of the Wild"
+  },
+  "body": "Source Heroes of the Wild pg. 31\nSchool divination; Level bloodrager 2, druid 2, hunter 2, ranger 2, shaman 2\nCasting\nCasting Time standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 8 hours\nDescription\nThis spell sharpens your senses, allowing you to perceive threats you would otherwise miss. You become aware of sounds and smells you would normally overlook, and even retain the ability to detect threats when soundly asleep. For the duration of the spell, you gain a +5 bonus on Perception checks to act in a surprise round. Additionally, you don’t take a penalty on Perception checks while sleeping, and can choose to wake if you notice a threat while asleep.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5d9ec119a8178f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5d9ec119a8178f5"
+  },
+  "license": "OGL 1.0a"
+}

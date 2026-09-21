@@ -1,0 +1,25 @@
+{
+  "id": "c23d27dd00949289",
+  "name": "Terrain Bond",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 247",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "hunter": 4,
+      "ranger": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 247\nSchool enchantment (compulsion) [mind-affecting]; Level hunter 4, ranger 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a pinch of earth taken from your most favored terrain)\nEffect\nRange personal\nTarget you\nDuration 1 hour/2 levels (D)\nDescription\nYou call upon the spirits of nature to help you adapt to your environment. You treat the terrain you are in as your most favored terrain until this spell ends.\n\nIf you do not have the favored terrain class feature, you gain no benefit from this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c23d27dd00949289.json",
+    "web": "https://codex.pipsprojects.com/#/e/c23d27dd00949289"
+  },
+  "license": "OGL 1.0a"
+}

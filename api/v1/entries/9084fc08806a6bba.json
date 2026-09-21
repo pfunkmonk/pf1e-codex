@@ -1,0 +1,21 @@
+{
+  "id": "9084fc08806a6bba",
+  "name": "Spore Stalker",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Seers of the Drowned City pg. 62",
+  "book": "Seers of the Drowned City",
+  "facets": {
+    "cr": 7,
+    "sz": "Medium",
+    "t": "plant",
+    "al": "NE",
+    "bk": "Seers of the Drowned City"
+  },
+  "body": "This fungoid canine creature skitters forward on many segmented legs, a gurgling growl issuing from its fanged maw.\nSpore Stalker CR 7\nSource Seers of the Drowned City pg. 62\nXP 3,200\nNE Medium plant\nInit +7; Senses darkvision 60 ft., low-light vision; Perception +14\nDefense\nAC 20, touch 13, flat-footed 17 (+3 Dex, +7 natural)\nhp 85 (9d8+45)\nFort +11, Ref +6, Will +5\nDefensive Abilities reactive escape; Immune plant traits\nOffense\nSpeed 40 ft., climb 30 ft.\nMelee bite +14 (2d6+12 plus grab)\nSpecial Attacks colonize victim, paralytic spores\nSpell-Like Abilities (CL 7th; concentration +6)\n3/day—ethereal jaunt (self only)\nStatistics\nStr 26, Dex 16, Con 20, Int 7, Wis 15, Cha 9\nBase Atk +6; CMB +14 (+18 grapple); CMD 27 (can't be tripped)\nFeats Improved Initiative, Power Attack, Skill Focus (Stealth), Step Up, Vital Strike\nSkills Climb +16, Perception +14, Stealth +14, Survival +10; Racial Modifiers +8 Stealth, +8 Survival\nLanguages Aklo; telepathy 100 ft.\nEcology\nEnvironment warm swamps\nOrganization solitary, pair, or pack (3-12)\nTreasure incidental\nSpecial Abilities\nColonize Victim (Ex) As a standard action, a spore stalker can inject spores into the body of a Small or larger living, corporeal, nonplant creature that is pinned or helpless. The victim can resist the spores’ infestation with a successful DC 19 Fortitude save. If it fails this save, the victim takes 1d2 points of Constitution drain per round for 6 rounds but can attempt a new DC 19 Fortitude save to end the effect each round, similar to saving against a poison (although this is not a poison effect). Multiple colonizations do not increase the Constitution damage or save DC, but they do increase the duration of the effect by 6 rounds per infestation. A creature that perishes from this Constitution damage splits open, and a fully grown spore stalker crawls from the rapidly decaying remains. This is an infestation effect. The save DC is Constitution-based.\n\nParalytic Spores (Ex) When a spore stalker is hit by a melee or ranged weapon, it can release a cloud of paralytic spores in a 5-foot radius around itself as an immediate action. Any creature within range when the cloud is released must succeed at a DC 19 Fortitude save or be paralyzed for 1d3 rounds. At the start of a creature’s turn, it can attempt a new DC 19 Fortitude save as a standard action to end this paralysis effect early. This is a poison effect; the save DC is Constitution-based.\n\nReactive Escape (Su) Whenever a spore stalker is hit by a melee or ranged weapon, it can teleport up to 30 feet in any direction as an immediate action. This ability otherwise functions as per dimension door (CL 7th).\nDescription\nCapable of spreading and colonizing with disturbing speed, a spore stalker and its kin can quickly overrun an area. Fortunately, a spore stalker’s life span is relatively short; a typical spore stalker perishes of natural causes in only a few weeks. Spore stalkers are often used by mi-go or agents of the Dominion of the Black as biological weapons against unsuspecting citizens of newly discovered planets.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9084fc08806a6bba.json",
+    "web": "https://codex.pipsprojects.com/#/e/9084fc08806a6bba"
+  },
+  "license": "OGL 1.0a"
+}

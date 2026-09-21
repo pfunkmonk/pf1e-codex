@@ -1,0 +1,32 @@
+{
+  "id": "402152ea338d3e58",
+  "name": "Summon Infernal Host",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rival Guide pg. 59",
+  "book": "Rival Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 5,
+      "bard": 5,
+      "cleric": 5,
+      "oracle": 5,
+      "skald": 5,
+      "sorcerer": 5,
+      "summoner": 5,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rival Guide"
+  },
+  "body": "Source Rival Guide pg. 59\nSchool conjuration (summoning) [evil, lawful]; Level arcanist 5, bard 5, cleric 5, oracle 5, skald 5, sorcerer 5, summoner 5, summoner (unchained) 5, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 round\nComponents V, S, F/DF (strip of rune-inscribed parchment)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect 1d4+1 lesser host devils or 1 greater host devil\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions as summon monster V, save that it can only be used to summon host devils. These noxious flying devils, known also as gaavs and magaavs, are detailed on page 58 of Pathfinder Campaign Setting: Princes of Darkness, Book of the Damned, Vol. 1.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/402152ea338d3e58.json",
+    "web": "https://codex.pipsprojects.com/#/e/402152ea338d3e58"
+  },
+  "license": "OGL 1.0a"
+}

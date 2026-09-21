@@ -1,0 +1,23 @@
+{
+  "id": "bac7b45a5eeb6b36",
+  "name": "Hex Glyph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 184",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "shaman": 3,
+      "witch": 3
+    },
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 184\nSchool abjuration; Level shaman 3, witch 3\nCasting\nCasting Time 10 minutes\nComponents V, S, M (powdered diamond worth 200 gp)\nEffect\nRange touch\nTarget or Area object touched or up to 5 sq. ft./level\nDuration permanent until discharged (D)\nSaving Throw see text; Spell Resistance no (object) and yes (see text)\nDescription\nThis spell functions like the spell glyph version of glyph of warding, except you can store a hex you know (but not a major hex or a grand hex) instead of a spell. If the hex has a target, it targets the intruder. If the hex has an area or an amorphous effect, the area or effect is centered on the intruder. The triggered hex uses this spell’s caster level and DC.\n\nRead magic allows its caster to identify a hex glyph with a successful DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a hex, but does not indicate the effect of that hex.\nHex Glyph, Greater\nSource Advanced Class Guide pg. 184\nSchool abjuration; Level shaman 5, witch 5\nCasting\nCasting Time 10 minutes\nComponents V, S, M (powdered diamond worth 400 gp)\nEffect\nRange touch\nTarget or Area object touched or up to 5 sq. ft./level\nDuration permanent until discharged (D)\nSaving Throw see text; Spell Resistance no (object) and yes (see text)\nDescription\nThis spell functions as hex glyph, except you can store a hex or a major hex (but not a grand hex). You trace the glyph with incense, which must first be sprinkled with powdered diamond (as noted in the material line).\n\nRead magic allows its caster to identify a greater hex glyph with a DC 16 Spellcraft check.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bac7b45a5eeb6b36.json",
+    "web": "https://codex.pipsprojects.com/#/e/bac7b45a5eeb6b36"
+  },
+  "license": "OGL 1.0a"
+}

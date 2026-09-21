@@ -1,0 +1,27 @@
+{
+  "id": "8caaeffe1eb00f5d",
+  "name": "Incorporeal Chains",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 174",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 6,
+      "spiritualist": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 174\nSchool evocation [force]; Level psychic 6, spiritualist 5\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one incorporeal creature/level, no two of which can be more than 30 ft. apart\nDuration concentration\nSaving Throw none; Spell Resistance yes\nDescription\nYou summon ghostly chains to bind incorporeal creatures. The chains’ CMB is equal to your caster level + your Intelligence modifier. Roll only once for the entire spell effect and apply the result to all targeted incorporeal creatures.\n\nIf the chains succeed in grappling an incorporeal creature, the creature takes an amount of damage equal to 1d8 + your key spellcasting ability score modifier and gains the grappled condition. Grappled opponents can’t move without first breaking the grapple. The spell prohibits all other movement unless the creature breaks the grapple first (although dimensional magic and the like still work as normal). Each round you concentrate, the chains continue grappling their current targets (though they don’t seek out targets they aren’t currently grappling). The incorporeal chains receive a +5 bonus on grapple combat maneuver checks against opponents the chains are already grappling, but can’t move foes or pin foes. Each round the incorporeal chains succeed at a grapple combat maneuver check, they deal an additional amount of damage equal to 1d8 + your key spellcasting ability score modifier. The CMD of incorporeal chains, for the purposes of escaping the grapple, is equal to 10 + its CMB. If you move out of range of any of the grappled creatures, the chains cease grappling those creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8caaeffe1eb00f5d.json",
+    "web": "https://codex.pipsprojects.com/#/e/8caaeffe1eb00f5d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "6fcf25ea9468aed7",
+  "name": "Structure Hardness and Hit Points",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Combat pg. 166",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Rules Index | GM Screen\nMastering Combat / Siege Engines\n\nStructure Hardness and Hit Points\nSource Ultimate Combat pg. 166\nWhile armies can use siege weapons against troops, usually the goal of a siege engine is to demoralize foes and pound their structures to rubble. The following rules give the statistics for various buildings and barriers that are often the targets of siege engine attacks. They are split up into three different categories: buildings, gates, and walls.\n\nWhen any of these structures gain the broken condition, their hardness is halved, along with any other effects of the broken condition.\n\nBuildings\nSource Ultimate Combat pg. 167\nBuildings are sizable structures with many hit points and very poor ACs (a Large building is AC 4, a Huge building is AC 3, and a Gargantuan or larger building is AC 0). When a building is reduced to half its hit points, it is broken—it still stands, but only partially. It can be easily entered, and for all intents and purposes it has been breached. Reducing a building to 0 hit points completely destroys that building. Creatures inside the building suffer the effects of a cave-in.\n\nAll these building statistics assume that the structure’s inside is somewhat hollow but sturdily built, with enough space for its occupants to walk around inside. Flimsy buildings have half the hit points of the buildings detailed in Table 3–18. Buildings can be magically treated, like dungeon walls and doors can. Doing so doubles their hardness and hit points. Magically treating a building costs 5,000 gp for a Large building, 10,000 gp for a Huge building, 20,000 gp for a Gargantuan building, and 40,000 gp for a Colossal building. A spellcaster with the Craft Magic Arms and Armor feat can magically treat buildings.\n\nFor larger buildings, put together multiple buildings of these sizes and add the hit points together.\nTable 3-18: Buildings\nHit Points\nMaterial Hardness Large Huge Gargantuan Colossal\nWood 5 120 270 960 3,240\nStone 8 200 450 1,600 5,400\nIron or steel 10 400 900 3,200 10,800\nAdamantine 20 560 1,260 4,480 15,120\n\nGates\nSource Ultimate Combat pg. 167\nGates serve as the entrances and exits to fortified structures, and are typically the weakest spots in any fortification’s defenses. Gates are at least Large, but can be as large as Colossal. It typically takes three full-round actions to open or close a Large gate (up to three creatures can work together to close a Large gate as a full-round action), and larger gates typically take at least a minute to close or open. Gates have ACs based on their size (a Large gate is AC 4, a Huge gate is AC 3, and a Gargantuan or larger gate is AC 0).\n\nGates can be magically treated. Doing so doubles the hardness and hit points. Magically treating a gate costs 2,000 gp for a Large gate, 4,000 gp for a Huge gate, 8,000 gp for a Gargantuan gate, and 16,000 gp for a Colossal gate. A spellcaster with the Craft Magic Arms and Armor feat can magically treat gates.\n\nGates can be attacked and damaged, or they can become broken (as the condition) with a successful Strength check, usually as a result of ramming. When a gate gains the broken condition, it is effectively breached, and can be moved through as if it were an opening one size smaller.\nTable 3-20: Gates\nHit Points\nMaterial Break DC1 Hardness Large Huge Gargantuan Colossal\nWood 35 5 60 135 240 540\nStone 38 8 100 225 400 900\nIron or steel 24 10 200 500 800 1,800\nAdamantine 40 20 280 630 1,120 2,520\n1: The DC assumes the gate is size Large and is barred and locked. Huge doors increase the break DC by 5, Gargantuan doors increase the DC by 10, and Colossal doors increase the DC by 15. Arcane lock increases the DC by 10.\n\nWalls\nSource Ultimate Combat pg. 167\nThe walls that guard castles and cities are sturdy fortifications, usually constructed in a series of 5-foot squares. A square of wall has an AC of 5, and hardness and hit points equal to its type.\n\nSquares of walls can be magically treated. Doing so doubles the hardness and hit points. Magically treating wall squares costs 500 gp per wall square. A spellcaster with the Craft Magic Arms and Armor feat can magically treat walls.\n\nWhen a wall gains the broken condition, its hardness is halved, but the wall is not breached. Only destroying a section of wall allows it to become breached. When a square of wall is breached, any sections directly above it fall onto the missing section of walls. Doing this reduces the falling wall section to half its current hit point total –1, which applies the broken condition to that square of wall.\nTable 3-19: Walls\nMaterial Hardness Hit Points per 5-Foot Square\nWood 5 30\nStone 8 45\nIron or steel 10 90\nAdamantine 20 120",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Hit Points"
+        ],
+        [
+          "Material",
+          "Hardness",
+          "Large",
+          "Huge",
+          "Gargantuan",
+          "Colossal"
+        ],
+        [
+          "Wood",
+          "5",
+          "120",
+          "270",
+          "960",
+          "3,240"
+        ],
+        [
+          "Stone",
+          "8",
+          "200",
+          "450",
+          "1,600",
+          "5,400"
+        ],
+        [
+          "Iron or steel",
+          "10",
+          "400",
+          "900",
+          "3,200",
+          "10,800"
+        ],
+        [
+          "Adamantine",
+          "20",
+          "560",
+          "1,260",
+          "4,480",
+          "15,120"
+        ]
+      ]
+    },
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Hit Points"
+        ],
+        [
+          "Material",
+          "Break DC1",
+          "Hardness",
+          "Large",
+          "Huge",
+          "Gargantuan",
+          "Colossal"
+        ],
+        [
+          "Wood",
+          "35",
+          "5",
+          "60",
+          "135",
+          "240",
+          "540"
+        ],
+        [
+          "Stone",
+          "38",
+          "8",
+          "100",
+          "225",
+          "400",
+          "900"
+        ],
+        [
+          "Iron or steel",
+          "24",
+          "10",
+          "200",
+          "500",
+          "800",
+          "1,800"
+        ],
+        [
+          "Adamantine",
+          "40",
+          "20",
+          "280",
+          "630",
+          "1,120",
+          "2,520"
+        ]
+      ]
+    },
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Material",
+          "Hardness",
+          "Hit Points per 5-Foot Square"
+        ],
+        [
+          "Wood",
+          "5",
+          "30"
+        ],
+        [
+          "Stone",
+          "8",
+          "45"
+        ],
+        [
+          "Iron or steel",
+          "10",
+          "90"
+        ],
+        [
+          "Adamantine",
+          "20",
+          "120"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6fcf25ea9468aed7.json",
+    "web": "https://codex.pipsprojects.com/#/e/6fcf25ea9468aed7"
+  },
+  "license": "OGL 1.0a"
+}

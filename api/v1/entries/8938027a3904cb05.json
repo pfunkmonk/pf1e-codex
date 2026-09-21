@@ -1,0 +1,30 @@
+{
+  "id": "8938027a3904cb05",
+  "name": "Mad Hallucination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 227",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 227\nSchool illusion (phantasm); Level arcanist 2, bard 2, mesmerist 2, psychic 2, redmantisassassin 2, skald 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 5 minute/level (maximum 1 hour)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell induces a hallucinogenic reality in the mind of your target. Surfaces seem to swim, and movement constantly distracts the eye. The target takes a –2 penalty on Will saving throws, caster level checks, Intelligence-based skill checks, and Wisdom-based skill checks.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8938027a3904cb05.json",
+    "web": "https://codex.pipsprojects.com/#/e/8938027a3904cb05"
+  },
+  "license": "OGL 1.0a"
+}

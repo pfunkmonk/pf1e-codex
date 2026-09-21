@@ -1,0 +1,30 @@
+{
+  "id": "92b57eb629b2ba68",
+  "name": "Blessing of the Watch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Gods pg. 230, Pathfinder #8: Seven Days to the Grave pg. 71, Gods and Magic pg. 5",
+  "book": "Inner Sea Gods",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "paladin": 1,
+      "warpriest": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Inner Sea Gods"
+  },
+  "body": "Source Inner Sea Gods pg. 230, Pathfinder #8: Seven Days to the Grave pg. 71, Gods and Magic pg. 5\nSchool enchantment (compulsion) [mind-affecting]; Level cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar )\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 50 ft.\nArea The caster and all allies within a 50-ft. burst, centered on the caster\nDuration 1 hour/level\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nThis spell functions like bless, except as noted. It works only in the caster’s home city, and in areas under the jurisdiction of the city watch. For example, if the watch patrols a shantytown outside the city walls but not the ruined subterranean tunnels that lie beneath the city, the spell works in the former area but not the latter.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/92b57eb629b2ba68.json",
+    "web": "https://codex.pipsprojects.com/#/e/92b57eb629b2ba68"
+  },
+  "license": "OGL 1.0a"
+}

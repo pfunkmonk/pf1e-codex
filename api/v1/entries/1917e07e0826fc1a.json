@@ -1,0 +1,38 @@
+{
+  "id": "1917e07e0826fc1a",
+  "name": "Umbral Infusion, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of Shadows pg. 31",
+  "book": "Blood of Shadows",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 4,
+      "antipaladin": 4,
+      "arcanist": 4,
+      "cleric": 4,
+      "investigator": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of Shadows"
+  },
+  "body": "Umbral Infusion\nSource Blood of Shadows pg. 31\nSchool necromancy [shadow]; Level alchemist 4, antipaladin 4, arcanist 4, cleric 4, investigator 4, occultist 4, oracle 4, psychic 4, shaman 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one mindless undead creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou infuse the target mindless undead creature with power drawn from the Shadow Plane, immediately granting it the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls, a +2 bonus to special ability DCs, a +4 bonus to AC and CMD, and 2 additional hit points per Hit Die. The undead creature’s destructive instincts take hold for the duration of this spell, and any attempts to control or command the undead creature have a 50% chance of failing; if uncontrolled, the undead creature attacks any living creatures it sees. This spell has no effect on undead creatures that already have the advanced creature template.\nUmbral Infusion, Mass\nSource Blood of Shadows pg. 31\nSchool necromancy [shadow]; Level arcanist 8, cleric 8, oracle 8, sorcerer 8, witch 8, wizard 8\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one mindless undead creature/level, no two of which can be more than 30 ft. apart\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as umbral infusion, except it can affect multiple mindless undead creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1917e07e0826fc1a.json",
+    "web": "https://codex.pipsprojects.com/#/e/1917e07e0826fc1a"
+  },
+  "license": "OGL 1.0a"
+}

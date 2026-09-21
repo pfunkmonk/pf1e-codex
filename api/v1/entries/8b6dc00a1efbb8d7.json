@@ -1,0 +1,27 @@
+{
+  "id": "8b6dc00a1efbb8d7",
+  "name": "Martial Marionette",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Inner Sea Magic pg. 58",
+  "book": "Inner Sea Magic",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "skald": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Inner Sea Magic"
+  },
+  "body": "Source Inner Sea Magic pg. 58\nSchool enchantment (compulsion) [mind-affecting]; Level bard 3, skald 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a marionette’s crossbar)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWhen you cast this spell, you take partial control of an opponent’s limbs, making it difficult for him to attack you. Any attacks made against you by the target of the spell take a –2 penalty due to the erratic and random motions the spell forces onto any efforts to strike you. In addition, any creature suffering the effects of this spell cannot flank you and cannot aid other opponents in flanking you.\n\nAs long as the affected creature is adjacent to you, you can cause the creature’s limbs to flail into the path of other attacks against you as an immediate action. This provides partial cover against that attack, granting you a +2 bonus to AC and a +1 bonus on Reflex saves.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8b6dc00a1efbb8d7.json",
+    "web": "https://codex.pipsprojects.com/#/e/8b6dc00a1efbb8d7"
+  },
+  "license": "OGL 1.0a"
+}

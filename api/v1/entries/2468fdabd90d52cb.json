@@ -1,0 +1,26 @@
+{
+  "id": "2468fdabd90d52cb",
+  "name": "Retrocognition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 185",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "arcanist": 7,
+      "medium": 3,
+      "occultist": 3,
+      "psychic": 5,
+      "sorcerer": 7,
+      "wizard": 7
+    },
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 185\nSchool divination; Level arcanist 7, medium 3, occultist 3, psychic 5, sorcerer 7, wizard 7\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration concentration, up to 1 minute/level\nDescription\nThis spell allows you to gain psychic impressions from past events that occurred in your current location. Retrocognition reveals psychic impressions from events that occurred over the course of the last hour throughout the first minute of the duration, followed by impressions from the next hour back the next minute you concentrate, and so on. If a psychically traumatic or turbulent event happened during that time period, you must succeed at a concentration check (DC = 20, 30, or 40, depending on the severity of the psychic disturbance) or lose concentration on the spell.\n\nAt caster level 13th and higher, you can choose to collect impressions from over the course of a longer interval of time than an hour, beginning at 1 week per minute of concentration (as listed on the table below). The amount of detail you receive diminishes, so this eventually makes it harder to distinguish impressions left by anything but the most major events.\n\nCaster Level Time Period\n13th–15th 1 week per minute\n16th–18th 1 year per minute\n19th+ 1 century per minute",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2468fdabd90d52cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/2468fdabd90d52cb"
+  },
+  "license": "OGL 1.0a"
+}

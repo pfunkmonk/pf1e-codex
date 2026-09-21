@@ -1,0 +1,27 @@
+{
+  "id": "e3d6ea85797c6237",
+  "name": "Litany of Escape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 234",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 3,
+      "inquisitor": 4,
+      "paladin": 3
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 234\nSchool conjuration (teleportation) [language-dependent]; Level antipaladin 3, inquisitor 4, paladin 3\nCasting\nCasting Time 1 swift action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one willing creature that is grappled\nDuration instantaneous\nSaving Throw no; Spell Resistance yes\nDescription\nWith a powerful prayer, you call upon the servants of your god to whisk a friend out of a grapple. The target loses the grappled and pinned conditions and is teleported 10 feet. If there is no available space for the target to teleport to, the spell fails.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e3d6ea85797c6237.json",
+    "web": "https://codex.pipsprojects.com/#/e/e3d6ea85797c6237"
+  },
+  "license": "OGL 1.0a"
+}

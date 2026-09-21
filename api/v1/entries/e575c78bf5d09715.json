@@ -1,0 +1,29 @@
+{
+  "id": "e575c78bf5d09715",
+  "name": "Spore Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Cohorts and Companions pg. 21",
+  "book": "Cohorts and Companions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 2,
+      "hunter": 2,
+      "ranger": 3,
+      "shaman": 2,
+      "witch": 2
+    },
+    "desc": [
+      "poison"
+    ],
+    "sr": "no",
+    "bk": "Cohorts and Companions"
+  },
+  "body": "Source Cohorts and Companions pg. 21\nSchool conjuration [poison]; Level druid 2, hunter 2, ranger 3, shaman 2, witch 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a tiny puffball mushroom)\nEffect\nRange touch\nTarget one plant creature; see text\nDuration see text\nSaving Throw special, see text; Spell Resistance no\nDescription\nYou cause a willing plant creature’s body to sprout small, puffy mushrooms that remain for 1 round per caster level or until the creature uses them. As a standard action, the target can cause these mushrooms to burst open, releasing a cloud of toxic spores that affect all creatures in a 20-foot-radius spread. Those in the area must succeed at Fortitude saves or be sickened for 1d6 rounds as they are overcome by sneezing and coughing. The caster is immune to this poison effect, as are all creatures of the plant type.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e575c78bf5d09715.json",
+    "web": "https://codex.pipsprojects.com/#/e/e575c78bf5d09715"
+  },
+  "license": "OGL 1.0a"
+}

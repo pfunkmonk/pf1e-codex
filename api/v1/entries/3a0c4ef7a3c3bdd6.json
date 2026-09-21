@@ -1,0 +1,26 @@
+{
+  "id": "3a0c4ef7a3c3bdd6",
+  "name": "Shield of Law",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 342",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "oracle": 8
+    },
+    "desc": [
+      "lawful"
+    ],
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 342\nSchool abjuration [lawful]; Level cleric 8, oracle 8\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a reliquary worth 500 gp)\nEffect\nRange 20 ft.\nTargets one creature/level in a 20-ft.-radius burst centered on you\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes (harmless)\nDescription\nA dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects. This abjuration has four effects.\n\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike protection from chaos, this benefit applies against all attacks, not just against attacks by chaotic creatures.\n\nSecond, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.\n\nThird, the abjuration protects you from possession and mental influence, just as protection from chaos does.\n\nFinally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is slowed (Will save negates, as the slow spell, but against shield of law's save DC).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a0c4ef7a3c3bdd6.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a0c4ef7a3c3bdd6"
+  },
+  "license": "OGL 1.0a"
+}

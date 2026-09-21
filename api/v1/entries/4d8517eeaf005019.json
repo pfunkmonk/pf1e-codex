@@ -1,0 +1,22 @@
+{
+  "id": "4d8517eeaf005019",
+  "name": "Polong",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 5 pg. 196",
+  "book": "Bestiary 5",
+  "facets": {
+    "cr": 8,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Bestiary 5",
+    "st": "incorporeal"
+  },
+  "body": "This crimson spectral creature drips with blood, its skeletal face contorted with malice.\nPolong CR 8\nSource Bestiary 5 pg. 196\nXP 4,800\nNE Medium undead (incorporeal)\nInit +8; Senses darkvision 60 ft.; Perception +15\nAura murderous intent (30 ft.)\nDefense\nAC 19, touch 19, flat-footed 15 (+5 deflection, +4 Dex)\nhp 95 (10d8+50)\nFort +8, Ref +7, Will +11\nDefensive Abilities incorporeal; channel resistance +2; Immune undead traits\nWeaknesses bottle-bound (DC 22)\nOffense\nSpeed fly 40 ft. (perfect)\nMelee incorporeal touch +12 (6d8 plus 1d4 bleed and terrible wounds)\nSpecial Attacks bleed (1d4), terrible wounds\nStatistics\nStr —, Dex 18, Con —, Int 13, Wis 14, Cha 20\nBase Atk +7; CMB +11; CMD 26\nFeats Blind-Fight, Improved Initiative, Iron Will, Skill Focus (Intimidate), Weapon Focus (incorporeal touch)\nSkills Fly +25, Intimidate +24, Perception +15, Stealth +17, Survival +12\nLanguages Common\nEcology\nEnvironment any\nOrganization solitary\nTreasure standard\nSpecial Abilities\nBottle-Bound (Su) A polong is bound to a bottle as part of the ritual to create it. A polong must remain within 1 mile of its bottle, and regains 1d8+5 hit points for each hour it spends inside its bottle. If a polong’s bottle (AC 11, hardness 1, hp 1) is destroyed, the polong is considered staggered until the bottle reforms in 24 hours. Once per day, a creature that possesses a polong’s bottle can attempt to take control of the polong for 24 hours as if the polong where under the effect of a dominate monster spell. The polong can attempt a DC 20 Will save to negate this effect. A creature that’s controlling the polong is immune to its murderous intent aura.\nMurderous Intent (Su) A polong generates a seething aura of unrestrained violence and malicious intent. As an immediate action, a polong can attempt an Intimidate check to demoralize any creature entering its aura. A creature that doesn’t become demoralized is immune to the polong’s aura for 24 hours. This is a mind-affecting fear effect.\nTerrible Wounds (Su) A polong’s touch deals slashing damage, and opens up terrible gashes. Each round a creature takes bleed damage from the polong’s touch attack, it must succeed at a DC 20 Fortitude saving throw or take 2 points of Constitution damage. The save DC is Charisma-based.\nDescription\nPolongs are the spirits of murderers who have been magically bound to a bottle. Whoever possesses a polong’s bottle can command the creature to carry out murderous acts. Necromancers, cultists, and assassins sometimes use polongs to perform assassinations from afar. Commanding polongs is dangerous, however, as their desire to kill makes them turn on their own masters if given the chance.\n\nWhen a polong’s bottle is opened, the creature manifests as a blood-drenched spirit with hands transformed into long claws. Its thirst for violence and murder twists its distorted features into a hateful visage. Polongs remember little of their past lives, their own thoughts turned to committing the heinous acts commanded by their masters.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d8517eeaf005019.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d8517eeaf005019"
+  },
+  "license": "OGL 1.0a"
+}

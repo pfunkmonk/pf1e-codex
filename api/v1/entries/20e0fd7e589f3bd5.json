@@ -1,0 +1,26 @@
+{
+  "id": "20e0fd7e589f3bd5",
+  "name": "Hex Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 223",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "inquisitor": 1,
+      "occultist": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 223\nSchool abjuration; Level inquisitor 1, occultist 1, shaman 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou give the target a +4 resistance bonus on saving throws against witch hexes.\nMythic Hex Ward\nSource Mythic Adventures pg. 98\nThe target gains immunity to one witch hex (but not a major hex or grand hex) of your choice.\n\nAugmented (3rd): If you expend two uses of mythic power, instead of granting immunity to one witch hex, you can grant immunity to two hexes or one major hex.\n\nIf you’re at least 6th tier and expend three uses of mythic power, you instead grant immunity to three hexes, two major hexes, or one grand hex.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20e0fd7e589f3bd5.json",
+    "web": "https://codex.pipsprojects.com/#/e/20e0fd7e589f3bd5"
+  },
+  "license": "OGL 1.0a"
+}

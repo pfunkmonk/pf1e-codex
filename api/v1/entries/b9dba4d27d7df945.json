@@ -1,0 +1,28 @@
+{
+  "id": "b9dba4d27d7df945",
+  "name": "Nauseating Dart",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 189",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "hunter": 1,
+      "witch": 1
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 189\nSchool conjuration (creation) [poison]; Level druid 1, hunter 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nEffect one poisonous stinger\nDuration instantaneous\nSaving Throw Fortitude partial (see text); Spell Resistance no\nDescription\nYou spit a poisonous stinger around the size of a quill at a creature within range, as though you had fired a dart from a blowgun. You must succeed at a ranged attack to hit your target. The stinger deals 1d2 points of piercing damage and poisons the target, causing it to become nauseated for 1 round unless it succeeds at a Fortitude save.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9dba4d27d7df945.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9dba4d27d7df945"
+  },
+  "license": "OGL 1.0a"
+}

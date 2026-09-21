@@ -1,0 +1,30 @@
+{
+  "id": "c77e31d150e91943",
+  "name": "Remove Sickness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 234",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "mesmerist": 1,
+      "oracle": 1,
+      "spiritualist": 1,
+      "warpriest": 1,
+      "witch": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 234\nSchool conjuration (healing); Level cleric 1, druid 1, hunter 1, mesmerist 1, oracle 1, spiritualist 1, warpriest 1, witch 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature\nDuration 10 minutes/level; see text\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou quell feelings of illness and nausea in the target, giving it a +4 morale bonus on saving throws against disease, nausea, and sickened effects. If the subject is already under the influence of one of these effects when receiving the spell, that effect is suppressed for the duration of the spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c77e31d150e91943.json",
+    "web": "https://codex.pipsprojects.com/#/e/c77e31d150e91943"
+  },
+  "license": "OGL 1.0a"
+}

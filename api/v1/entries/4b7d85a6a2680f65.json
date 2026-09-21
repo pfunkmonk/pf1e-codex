@@ -1,0 +1,31 @@
+{
+  "id": "4b7d85a6a2680f65",
+  "name": "Healing Leak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Plane-Hopper's Handbook pg. 13",
+  "book": "Plane-Hopper's Handbook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 3,
+      "cleric": 3,
+      "oracle": 3,
+      "paladin": 2,
+      "shaman": 3,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Plane-Hopper's Handbook"
+  },
+  "body": "Source Plane-Hopper's Handbook pg. 13\nSchool necromancy; Level antipaladin 2, arcanist 3, cleric 3, oracle 3, paladin 2, shaman 3, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a piece of muslin)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nWhenever the target is affected by a spell or effect that heals hit point damage through the use of positive or negative energy, it regains only half the number of hit points it normally would recover. If the target employs a spell or effect that heals itself or other creatures through the use of positive or negative energy, the target must succeed at a concentration check (DC = this spell’s save DC) or the effect restores only half of the normal number of hit points. Other forms of healing (such as from the Heal skill) are not affected by this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b7d85a6a2680f65.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b7d85a6a2680f65"
+  },
+  "license": "OGL 1.0a"
+}

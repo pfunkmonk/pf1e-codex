@@ -1,0 +1,21 @@
+{
+  "id": "220e3a12ec17f8d8",
+  "name": "Living Wall",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 4 pg. 182",
+  "book": "Bestiary 4",
+  "facets": {
+    "cr": 4,
+    "sz": "Large",
+    "t": "construct",
+    "al": "N",
+    "bk": "Bestiary 4"
+  },
+  "body": "This gruesome wall is made stacked corpses mortared together into an unyielding mass of grasping limbs, topped with a dragon skull.\nLiving Wall CR 4\nSource Bestiary 4 pg. 182\nXP 1,200\nN Large construct\nInit –4; Senses darkvision 60 ft., low-light vision; Perception +0\nDefense\nAC 12, touch 5, flat-footed 12 (–4 Dex, +7 natural, –1 size)\nhp 46 (3d10+30); fast healing 1\nFort +1, Ref –3, Will +1\nDR 5/slashing; Immune construct traits; Resist acid 5, cold 5, fire 5\nOffense\nSpeed 10 ft.\nMelee 2 slams +6 (1d8+4 plus grab)\nSpace 10 ft., Reach 5 ft.\nSpecial Attacks crushing push, push (slam, 5 ft.)\nStatistics\nStr 18, Dex 3, Con —, Int —, Wis 11, Cha 1\nBase Atk +3; CMB +8 (+10 bull rush, +12 grapple); CMD 14 (16 vs. bull rush)\nFeats Improved Bull RushB\nSQ fleshy link\nEcology\nEnvironment any ruins or underground\nOrganization solitary or pack (2–8)\nTreasure incidental\nSpecial Abilities\nCrushing Push (Ex) A living wall adjacent to a creature that is also adjacent to a barrier (such as a dungeon wall, gate, or another living wall) can spend a standard action to crush that creature against the barrier, dealing 1d8+6 points of damage. If the living wall is grappling the target, as part of this attack it can attempt a free combat maneuver check to pin the target.\n\nFleshy Link (Ex) A living wall that is adjacent to another living wall automatically links with it, forming an impassible solid barrier. Linked living walls coordinate their attacks and move as one creature. Any linked wall can unlink itself as a free action. Any damage to one linked living wall is divided evenly among all linked living walls (for example, if three walls are linked and one takes 15 points of damage, each wall instead takes 5 points of damage). Two or three linked living walls count as a Huge creature for the purpose of effects affected or limited by size (such as bull rush), four or five count as Gargantuan, and six or more count as Colossal.\nDescription\nA living wall is a construct built out of the bodies of many creatures and mortared together with liquefied flesh. Like a gelatinous cube, it fills an entire 10-foot square, allowing it to completely block a hallway. Several living walls placed next to one another can obstruct an entire room. Its normal method of attack is to creep into range to make slam attacks, then push opponents against other walls and crush them to death. Living walls follow basic orders and are normally used to block access to certain parts of their creator’s lair—to get through a living wall, it must be killed and hacked apart to create a space other creatures can pass through. Living walls can be ordered to stack themselves on top of each other to reach higher ceilings, but this requires a ramp to allow one to climb onto the other.\n\nA living wall rises 8 to 10 feet high and weighs 4,000 pounds. The appearance of each one varies wildly depending on the creatures used to make up its constituent parts.\nConstruction\nThe pieces of a living wall must come from normal humanoid corpses that have not decayed significantly. The wall must also include at least one skull of a Large or larger creature (not necessarily a humanoid). Assembly requires at least 20 different full bodies. Special flesh-dissolving acids worth 500 gp are also required to cement the pieces together. Note that creating a living wall requires casting a spell with the evil descriptor.\nLiving Wall\nCL 12th; Price 18,500 gp\nConstruction\nRequirements Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; Cost 9,500 gp",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/220e3a12ec17f8d8.json",
+    "web": "https://codex.pipsprojects.com/#/e/220e3a12ec17f8d8"
+  },
+  "license": "OGL 1.0a"
+}

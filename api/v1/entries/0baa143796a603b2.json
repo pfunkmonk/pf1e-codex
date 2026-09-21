@@ -1,0 +1,29 @@
+{
+  "id": "0baa143796a603b2",
+  "name": "Dahak's Release",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legacy of Dragons pg. 28",
+  "book": "Legacy of Dragons",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 5,
+      "mesmerist": 5,
+      "occultist": 5,
+      "shaman": 5,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legacy of Dragons"
+  },
+  "body": "Source Legacy of Dragons pg. 28\nSchool enchantment (compulsion) [draconic, mind-affecting]; Level arcanist 5, mesmerist 5, occultist 5, shaman 5, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a dried drop of blood)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou unleash all the target’s anger and destructive urges, causing it to fly into a violent bloodlust. The target attacks creatures as determined by the following table. If a creature is killed or the target is for some reason unable to effectively attack it, roll on the table again to select a new action for the target.\n\nd% Behavior\n01-25 Target attacks the creature nearest to it.\n26-75 Target attacks its nearest ally.\n76-100 Target always attacks the last creature to attack it.\n\nBeginning on its next turn, the target attacks the subject determined by the chart with a melee weapon, natural weapon, or supernatural ability that deals damage. If necessary, it moves to or charges to the subject in order to make this attack. If it is unable to reach its subject on its next turn, the target uses its turn to get as close as possible to the subject of its bloodlust. The target gains a +2 morale bonus on attack and damage rolls, and cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any abilities that require patience or concentration. This spell is otherwise treated as confusion and rage—any creature immune to confusion or rage is immune to this spell, and any ability or effect that ends confusion or rage (such as calm emotions) can end this spell.\n\nAntipaladins, bloodragers, clerics, and inquisitors who worship Dahak add Dahak’s release to their spell lists as a 4th-level spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0baa143796a603b2.json",
+    "web": "https://codex.pipsprojects.com/#/e/0baa143796a603b2"
+  },
+  "license": "OGL 1.0a"
+}

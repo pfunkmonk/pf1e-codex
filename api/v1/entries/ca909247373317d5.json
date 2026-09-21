@@ -1,0 +1,28 @@
+{
+  "id": "ca909247373317d5",
+  "name": "Shock Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 243",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "arcanist": 1,
+      "bloodrager": 1,
+      "investigator": 1,
+      "magus": 1,
+      "occultist": 1,
+      "sorcerer": 1,
+      "wizard": 1
+    },
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 243\nSchool abjuration [electricity, force]; Level alchemist 1, arcanist 1, bloodrager 1, investigator 1, magus 1, occultist 1, sorcerer 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange personal\nTarget you\nDuration 1 minutes/level (D)\nDescription\nThis spell creates an invisible shield similar to but not as strong as the shield spell. This shield hovers in front of you and negates magic missile attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.\n\nAt any time, as a free action, you may dismiss your shield, at which point it deals 1d6 points of electrical damage to all creatures within a 5-foot burst, including you. A Reflex saving throw halves the damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ca909247373317d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/ca909247373317d5"
+  },
+  "license": "OGL 1.0a"
+}

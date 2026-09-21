@@ -1,0 +1,27 @@
+{
+  "id": "222a2d1581db338b",
+  "name": "Invigorate, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 230",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "skald": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Invigorate\nSource Advanced Player's Guide pg. 230\nSchool illusion (figment); Level bard 1, medium 1, mesmerist 1, psychic 1, skald 1\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell banishes feelings of weariness. For the duration, the subject takes no penalties from the fatigued or exhausted conditions. The effect of invigorate is merely an illusion, however, not a substitute for actual rest or respite. When the spell ends, the subject takes 1d6 points of nonlethal damage, along with the return of the original condition(s). A creature can be under the effects of only one invigorate spell at a time; if it is cast a second time on that creature, the first effect immediately ends.\nInvigorate, Mass\nSource Advanced Player's Guide pg. 230\nSchool illusion (figment); Level bard 3, mesmerist 3, psychic 4, skald 3\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange touch\nTargets creatures touched, up to one/level\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell works as invigorate, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/222a2d1581db338b.json",
+    "web": "https://codex.pipsprojects.com/#/e/222a2d1581db338b"
+  },
+  "license": "OGL 1.0a"
+}

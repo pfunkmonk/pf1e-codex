@@ -1,0 +1,28 @@
+{
+  "id": "7c96ed51fdd6f5b8",
+  "name": "Out of Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Origins pg. 31",
+  "book": "Occult Origins",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "medium": 3,
+      "mesmerist": 3,
+      "psychic": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Occult Origins"
+  },
+  "body": "Source Occult Origins pg. 31\nSchool enchantment [mind-affecting]; Level medium 3, mesmerist 3, psychic 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a strip of black cloth)\nEffect\nRange personal\nTarget you\nDuration 1 minute/level (D); see text\nSaving Throw Will negates, see text; Spell Resistance yes\nDescription\nThe spell inhibits the memories of creatures that perceive you. While creatures can perceive you normally, when a creature stops observing you, it must attempt a Will save (spell resistance applies). If it fails, it loses all memory of its awareness of you and your actions while you were under the effects of this spell. The spell’s duration listed above measures how long the out of sight effect lasts on you, but the memory alteration is instantaneous and can be reversed only by magic such as modify memory.\n\nThe creature is still aware of any other changes to itself or its environment. For instance, a guard will remember running, and may notice a newly unlocked door, but will not remember that he was chasing after you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c96ed51fdd6f5b8.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c96ed51fdd6f5b8"
+  },
+  "license": "OGL 1.0a"
+}

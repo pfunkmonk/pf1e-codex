@@ -1,0 +1,35 @@
+{
+  "id": "f3f7ed494962fa74",
+  "name": "Gullibility",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Blood of the Beast pg. 14",
+  "book": "Blood of the Beast",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 3,
+      "bard": 3,
+      "inquisitor": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "skald": 3,
+      "sorcerer": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Blood of the Beast"
+  },
+  "body": "Source Blood of the Beast pg. 14\nSchool enchantment (charm) [mind-affecting]; Level antipaladin 3, arcanist 3, bard 3, inquisitor 3, mesmerist 3, psychic 3, skald 3, sorcerer 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 10 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou befuddle the target’s mind, making it more willing to believe even the most outlandish tales. The target takes a –10 penalty on Sense Motive checks for the spell’s duration. In addition, creatures that attempt to lie to or deceive the target gain a +10 bonus on their Bluff checks, as if the target wanted to believe them and was drunk or impaired simultaneously. Furthermore, the believability of any lie told to a creature under the effects of gullibility increases by one step; an impossible lie seems far-fetched, a far-fetched lie seems unlikely, and an unlikely lie seems believable.\n\nA creature gains no benefits from glibness on Bluff checks to lie to or deceive a creature that is under the effects of gullibility; in effect, gullibility renders a target so willing to believe what others say that glibness cannot make their words any more believable.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f3f7ed494962fa74.json",
+    "web": "https://codex.pipsprojects.com/#/e/f3f7ed494962fa74"
+  },
+  "license": "OGL 1.0a"
+}

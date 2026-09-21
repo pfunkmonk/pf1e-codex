@@ -1,0 +1,30 @@
+{
+  "id": "2aea30ee2eb2ff16",
+  "name": "Shadowfade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Darklands pg. 9",
+  "book": "Heroes of the Darklands",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "skald": 1,
+      "sorcerer": 1,
+      "summoner": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Heroes of the Darklands"
+  },
+  "body": "Source Heroes of the Darklands pg. 9\nSchool illusion (shadow); Level arcanist 1, bard 1, inquisitor 1, mesmerist 1, skald 1, sorcerer 1, summoner 1, summoner (unchained) 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a blindfold)\nEffect\nRange touch\nTarget creature touched\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nIn areas of darkness, the target of shadowfade is invisible to creatures using darkvision to see. In areas of dim light, the target gains concealment against creatures using darkvision. This spell has no effect in areas of normal light or brighter, and is automatically dispelled if the target enters an area of bright light or takes a hostile action.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2aea30ee2eb2ff16.json",
+    "web": "https://codex.pipsprojects.com/#/e/2aea30ee2eb2ff16"
+  },
+  "license": "OGL 1.0a"
+}

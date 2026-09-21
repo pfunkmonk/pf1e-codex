@@ -1,0 +1,30 @@
+{
+  "id": "a2afcf382f97fe81",
+  "name": "Heroic Fortune",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 324",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "cleric": 2,
+      "investigator": 2,
+      "oracle": 2,
+      "paladin": 3,
+      "skald": 2,
+      "warpriest": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 324\nSchool evocation; Level alchemist 2, bard 2, cleric 2, investigator 2, oracle 2, paladin 3, skald 2, warpriest 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF, M (diamond dust worth 100 gp)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell grants 1 hero point to the target. This hero point must be spent before the duration expires, or it is lost. The bonus hero point is spent before any other hero points the target might possess.\nHeroic Fortune, Mass\nSource Advanced Player's Guide pg. 324\nSchool evocation; Level bard 4, cleric 5, oracle 5, skald 4, warpriest 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF, M (diamond dust worth 1,000 gp)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more creatures, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell functions like heroic fortune, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a2afcf382f97fe81.json",
+    "web": "https://codex.pipsprojects.com/#/e/a2afcf382f97fe81"
+  },
+  "license": "OGL 1.0a"
+}

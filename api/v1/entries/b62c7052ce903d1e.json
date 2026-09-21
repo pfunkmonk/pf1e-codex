@@ -1,0 +1,34 @@
+{
+  "id": "b62c7052ce903d1e",
+  "name": "Decollate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Horror Adventures pg. 116",
+  "book": "Horror Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 4,
+      "antipaladin": 4,
+      "arcanist": 5,
+      "cleric": 5,
+      "investigator": 4,
+      "oracle": 5,
+      "psychic": 6,
+      "sorcerer": 5,
+      "spiritualist": 4,
+      "warpriest": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Horror Adventures"
+  },
+  "body": "Source Horror Adventures pg. 116\nSchool necromancy; Level alchemist 4, antipaladin 4, arcanist 5, cleric 5, investigator 4, oracle 5, psychic 6, sorcerer 5, spiritualist 4, warpriest 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, F (a red wax pencil)\nEffect\nRange touch\nTarget one willing humanoid or monstrous humanoid creature\nDuration 24 hours\nSaving Throw none; Spell Resistance yes (harmless)\nDescription\nA thin red line circles the target’s neck. The target’s head becomes detachable so long as she removes it willingly. While the target’s head is detached, she gains DR 2/— and immunity to decapitation effects and other effects that require their target to have a head or a particular facial feature. The target is blind so long as she has no head, but she gains blindsense to a distance of 15 feet. The target hears normally even without its head.\n\nWhile detached, the target’s head appears to be dead. The target can’t see through its eyes or hear events around the head. The target’s body knows the direction and distance to its head. Without additional protection, the severed head has AC 7, hardness 5, and 10 hit points. Destroying the head while the spell is in effect kills the target of the spell. If the spell’s duration expires normally without the head being reattached, the target dies. If either the target or the head are removed to a different plane, or if the spell is dispelled, the head teleports back to its owner and reattaches without further harm.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b62c7052ce903d1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/b62c7052ce903d1e"
+  },
+  "license": "OGL 1.0a"
+}

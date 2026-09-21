@@ -1,0 +1,54 @@
+{
+  "id": "d9a448af72fee3e3",
+  "name": "Taxation Edicts",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Campaign pg. 209",
+  "book": "Ultimate Campaign",
+  "facets": {
+    "bk": "Ultimate Campaign"
+  },
+  "body": "Rules Index | GM Screen\n\nTaxation Edicts\nSource Ultimate Campaign pg. 209\nSetting the tax level determines how much revenue you collect from taxes in the Income phase. Higher taxes increase your kingdom’s Economy (making it easier for you to succeed at Economy checks to generate revenue) but make your citizens unhappy (reducing Loyalty).\n\nTable 4-3: Taxation Edicts\nTax Level Economy Loyalty\nNone +0 +1\nLight +1 -1\nNormal +2 -2\nHeavy +3 -4\nOverwhelming +4 -8",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Tax Level",
+          "Economy",
+          "Loyalty"
+        ],
+        [
+          "None",
+          "+0",
+          "+1"
+        ],
+        [
+          "Light",
+          "+1",
+          "-1"
+        ],
+        [
+          "Normal",
+          "+2",
+          "-2"
+        ],
+        [
+          "Heavy",
+          "+3",
+          "-4"
+        ],
+        [
+          "Overwhelming",
+          "+4",
+          "-8"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d9a448af72fee3e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/d9a448af72fee3e3"
+  },
+  "license": "OGL 1.0a"
+}

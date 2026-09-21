@@ -1,0 +1,29 @@
+{
+  "id": "12aacb934e0c5300",
+  "name": "Minor Reversion, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Plane-Hopper's Handbook pg. 28",
+  "book": "Plane-Hopper's Handbook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 6,
+      "oracle": 6,
+      "psychic": 5,
+      "sorcerer": 6,
+      "warpriest": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "none",
+    "bk": "Plane-Hopper's Handbook"
+  },
+  "body": "Minor Reversion, Mass\nSource Plane-Hopper's Handbook pg. 28\nSchool conjuration (healing); Level arcanist 6, cleric 6, oracle 6, psychic 5, sorcerer 6, warpriest 6, wizard 6\nCasting\nCasting Time 30 minutes\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 24 hours\nDescription\nYou create a replica within the Akashic Record of each target at the time the spell is cast. Each targeted creature must currently have at least half its hit points. If at any time during the duration of the spell a target is brought below half her maximum hit points, that target can end the spell on herself as an immediate action to absorb strength from her replica and immediately regain a number of hit points equal to 1d8 plus 1 point per caster level (maximum +25).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12aacb934e0c5300.json",
+    "web": "https://codex.pipsprojects.com/#/e/12aacb934e0c5300"
+  },
+  "license": "OGL 1.0a"
+}

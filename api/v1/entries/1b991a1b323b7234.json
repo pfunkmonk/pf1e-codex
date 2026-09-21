@@ -1,0 +1,29 @@
+{
+  "id": "1b991a1b323b7234",
+  "name": "Sign of the Dawnflower",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Taldor, Echoes of Glory pg. 25",
+  "book": "Taldor",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 0,
+      "druid": 0,
+      "hunter": 0,
+      "oracle": 0,
+      "paladin": 1,
+      "ranger": 1,
+      "warpriest": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Taldor"
+  },
+  "body": "Source Taldor, Echoes of Glory pg. 25\nSchool transmutation; Level cleric 0, druid 0, hunter 0, oracle 0, paladin 1, ranger 1, warpriest 0 (Sarenrae)\nCasting\nCasting Time 1 standard action\nComponents S, F (your holy symbol, or a depiction of either Sarenrae's holy symbol or the goddess herself)\nEffect\nRange medium (100 ft. + 10 ft./level)\nTarget one creature/level\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\nDescription\nAs message, except the only information you can transmit is that you are a worshiper of Sarenrae. Once notified, the target can reply that he understands your sign. The spell transmits meaning, not sound, and transcends language barriers.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b991a1b323b7234.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b991a1b323b7234"
+  },
+  "license": "OGL 1.0a"
+}

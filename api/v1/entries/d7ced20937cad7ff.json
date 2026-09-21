@@ -1,0 +1,36 @@
+{
+  "id": "d7ced20937cad7ff",
+  "name": "Share Glory",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Mythic Adventures pg. 114",
+  "book": "Mythic Adventures",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 3,
+      "bard": 2,
+      "cleric": 3,
+      "druid": 3,
+      "hunter": 3,
+      "medium": 1,
+      "oracle": 3,
+      "psychic": 3,
+      "skald": 2,
+      "sorcerer": 3,
+      "summoner": 2,
+      "warpriest": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Mythic Adventures"
+  },
+  "body": "Source Mythic Adventures pg. 114\nSchool transmutation; Level arcanist 3, bard 2, cleric 3, druid 3, hunter 3, medium 1, oracle 3, psychic 3, redmantisassassin 3, skald 2, sorcerer 3, summoner 2, summoner (unchained) 2, warpriest 3, witch 3, wizard 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one non-mythic creature/3 levels\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou imbue the targets with a fraction of your mythic nature. They count as mythic creatures for the purpose of path abilities, spells, and other effects that function differently for mythic creatures. This doesn’t grant the targets mythic tiers or any uses of mythic power; it merely gives them a greater advantage when others use abilities that work differently for mythic creatures. You must be at least a 1st-tier mythic character to cast this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7ced20937cad7ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7ced20937cad7ff"
+  },
+  "license": "OGL 1.0a"
+}

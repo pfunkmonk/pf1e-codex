@@ -1,0 +1,35 @@
+{
+  "id": "2f0e37b63c42ecd0",
+  "name": "Protective Penumbra",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 233",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 2,
+      "occultist": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "spiritualist": 2,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 233\nSchool evocation [darkness]; Level arcanist 2, cleric 2, occultist 2, oracle 2, psychic 2, sorcerer 2, spiritualist 2, warpriest 2, witch 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S,\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell keeps the target slightly in shadow. A target with light blindness, light sensitivity, or vulnerability to sunlight (such as vampires and wraiths) may ignore penalties from those qualities. The spell gives the target a +2 bonus on saving throws against nonmagical hazards related to bright light, such as glare or sunburn.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2f0e37b63c42ecd0.json",
+    "web": "https://codex.pipsprojects.com/#/e/2f0e37b63c42ecd0"
+  },
+  "license": "OGL 1.0a"
+}

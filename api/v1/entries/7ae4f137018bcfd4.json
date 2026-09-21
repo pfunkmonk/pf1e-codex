@@ -1,0 +1,22 @@
+{
+  "id": "7ae4f137018bcfd4",
+  "name": "Protective Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 237",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "hunter": 2,
+      "ranger": 2
+    },
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 237\nSchool conjuration (creation); Level hunter 2, ranger 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nA protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you against unexpected attacks. When a creature makes an attack of opportunity against you, the protective spirit makes an immediate attack using your base attack bonus plus your Dexterity modifier. On a successful hit, the spirit does no damage, but it causes the attack of opportunity to automatically miss. A protective spirit can defend against a number of attacks of opportunity equal to your Dexterity bonus (minimum 1) per round.\n\nA protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A protective spirit’s AC against touch attacks is 10 + your Dexterity modifier.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7ae4f137018bcfd4.json",
+    "web": "https://codex.pipsprojects.com/#/e/7ae4f137018bcfd4"
+  },
+  "license": "OGL 1.0a"
+}

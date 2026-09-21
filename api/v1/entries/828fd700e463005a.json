@@ -1,0 +1,24 @@
+{
+  "id": "828fd700e463005a",
+  "name": "Hunter's Howl",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 228",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "hunter": 1,
+      "ranger": 1
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 228\nSchool necromancy [emotion, fear, mind-affecting]; Level hunter 1, ranger 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange 20 ft.\nArea 20-ft.-radius burst\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance none\nDescription\nWith a single primal howl, you strike fear in your opponents. Until the end of the spell’s duration, you treat those affected by it as if they were your favored enemy, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/828fd700e463005a.json",
+    "web": "https://codex.pipsprojects.com/#/e/828fd700e463005a"
+  },
+  "license": "OGL 1.0a"
+}

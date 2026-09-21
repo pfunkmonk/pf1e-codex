@@ -1,0 +1,31 @@
+{
+  "id": "c10934adfbda6eca",
+  "name": "Devil Snare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Agents of Evil pg. 17",
+  "book": "Agents of Evil",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 4,
+      "oracle": 4,
+      "sorcerer": 5,
+      "warpriest": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Agents of Evil"
+  },
+  "body": "Source Agents of Evil pg. 17\nSchool abjuration [good]; Level arcanist 5, cleric 4, oracle 4, sorcerer 5, warpriest 4, wizard 5\nCasting\nCasting Time 1 full-round action\nComponents V, S, M (a pouch of silvered powder worth 25 gp)\nEffect\nRange touch\nEffect 10-ft.-radius circle\nDuration 1 round/level\nSaving Throw Will negates, see text; Spell Resistance yes, see text\nDescription\nYour touch creates an invisible circle on a flat surface. Any outsider passing through this circle must succeed at a Will save or be caught within. Once trapped, a creature must succeed at a Will save as a standard action to physically exit the confines of the circle, teleport, or use any form of extradimensional travel (as per dimensional anchor). Contained outsiders can still attack adjacent creatures outside of the circle, or target others with ranged attacks, spells, and spell-like abilities. Despite the spell’s name, devil snare captures outsiders of any type, not only devils.\n\nAs a standard action, you can dismiss the circle, expelling any outsiders still trapped within to their planes of origin (as per dismissal). An outsider can resist this effect with a successful Will save, enabling it to remain after the spell is dismissed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c10934adfbda6eca.json",
+    "web": "https://codex.pipsprojects.com/#/e/c10934adfbda6eca"
+  },
+  "license": "OGL 1.0a"
+}

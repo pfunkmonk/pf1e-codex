@@ -1,0 +1,28 @@
+{
+  "id": "f50132d26424a221",
+  "name": "Duplicate Familiar",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Familiar Folio pg. 22",
+  "book": "Familiar Folio",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 5,
+      "investigator": 4,
+      "sorcerer": 5,
+      "witch": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Familiar Folio"
+  },
+  "body": "Source Familiar Folio pg. 22\nSchool conjuration (creation); Level alchemist 4, arcanist 5, investigator 4, sorcerer 5, witch 5, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (alchemically preserved mockingfey feathers), F (familiar)\nEffect\nRange touch\nEffect temporary duplicate of familiar touched\nDuration 10 minutes/level\nSaving Throw Fortitude negates; Spell Resistance no\nDescription\nYou create a duplicate of a familiar. The familiar’s master can use the duplicate as if it were his familiar in all respects, though he doesn’t gain the bonus special ability from more than one familiar at a time. When the spell’s duration expires, the familiar duplicate shrivels into nothing, even if petrified or otherwise transformed.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f50132d26424a221.json",
+    "web": "https://codex.pipsprojects.com/#/e/f50132d26424a221"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "0ff66596177657a9",
+  "name": "Cacophonous Call, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 208",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "skald": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Cacophonous Call\nSource Advanced Player's Guide pg. 208\nSchool enchantment (compulsion) [mind-affecting]; Level bard 2, skald 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a scrap of sheet music)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou fill your target’s mind with a blaring cacophony of discordant sounds, making it hard for the target to act and concentrate. The creature gains the nauseated condition for the duration of the spell if it fails its Will save.\nCacophonous Call, Mass\nSource Advanced Player's Guide pg. 208\nSchool enchantment (compulsion) [mind-affecting]; Level bard 5, skald 5\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a scrap of sheet music)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level (all of which must be within 30 feet)\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nDescription\nThis spell functions as cacophonous call, except that it affects multiple creatures.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ff66596177657a9.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ff66596177657a9"
+  },
+  "license": "OGL 1.0a"
+}

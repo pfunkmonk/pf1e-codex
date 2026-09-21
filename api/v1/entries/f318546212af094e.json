@@ -1,0 +1,19 @@
+{
+  "id": "f318546212af094e",
+  "name": "Neutralizing Bomb",
+  "bucket": "options",
+  "category": "Discoveries",
+  "source": "Healer's Handbook pg. 11",
+  "book": "Healer's Handbook",
+  "facets": {
+    "bk": "Healer's Handbook",
+    "cls": "Alchemist",
+    "sec": "Bomb Discoveries"
+  },
+  "body": "Neutralizing Bomb\nSource Healer's Handbook pg. 11\nWhen the alchemist creates a bomb, he can choose to give it the potential to end certain ongoing effects instead of dealing damage. Each creature in the splash radius can attempt a new saving throw against any poison afflicting it and any ongoing conditions or ongoing acid, cold, electricity, fire, or sonic damage. (If an effect did not allow a saving throw, this bomb doesn’t allow affected creatures to attempt one.) Success counts as one successful save toward ending poison and immediately ends other conditions. Exposed poison in the splash radius is also rendered harmless. A creature with poison abilities that is directly struck by the bomb finds those abilities useless for 1d4 rounds unless it succeeds at a Fortitude saving throw. This discovery doesn’t stack with any other that modifies bombs.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f318546212af094e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f318546212af094e"
+  },
+  "license": "OGL 1.0a"
+}

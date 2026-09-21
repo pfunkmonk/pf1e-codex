@@ -1,0 +1,68 @@
+{
+  "id": "745046ebc52fd34c",
+  "name": "Active Spellcasting",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder Unchained pg. 148",
+  "book": "Pathfinder Unchained",
+  "facets": {
+    "bk": "Pathfinder Unchained"
+  },
+  "body": "Rules Index | GM Screen\nPathfinder Unchained / Spell Alterations\n\nActive Spellcasting\nSource Pathfinder Unchained pg. 148\nUnder the core rules, a spellcaster is largely passive when resolving the effects of her spells. She announces which spell she’s casting, and the targets roll their saves in response. Compare this with attacks, where the attacker rolls all the dice. The following variants help spellcasters feel more involved in the resolution of spells.\n\nOverclocked Spells\nSource Pathfinder Unchained pg. 148\nUsing the overclocked spells variant, confident spellcasters can attempt to weave more power into their spells as they cast them. This is not without risk: deviating from the stable, standard formulation of the spell risks collapse of the spell and the magical energy therein.\n\nAs a swift action while casting a spell, a spellcaster can attempt to increase either the spell’s DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell’s level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a scroll mishap.\n\nWith Limited Magic: If you are using the limited magic rules, instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.\n\nWith Spell Fumbles: Apply the results of a spell fumble in place of a mishap.\n\nSpell Attack Rolls\nSource Pathfinder Unchained pg. 148\nWhen casting a spell or using a magical effect that allows a saving throw, the caster makes a spell attack roll, rolling 1d20 with a bonus equal to her spellcasting ability modifier plus the spell’s level. Any bonuses that would normally make the spell more difficult to avoid (such as the Spell Focus feat) also apply. The DC of this roll is equal to 11 + the target’s relevant save bonus. If the caster succeeds, treat the spell or effect as if the target had failed its save. Otherwise, treat it as if the target succeeded at its save. Just like an ordinary attack roll, a natural 1 is an automatic failure, while a natural 20 is an automatic success. This rule does not change the chances of success; it just changes who is rolling the die.\n\nFor example, a wizard with an Intelligence score of 18 casts charm person on an orc guard. Normally, the orc would attempt a DC 15 Will saving throw (10 + 1 for a 1st-level spell + 4 for the wizard’s Intelligence bonus). Since the orc’s Will save modifier is –1, he has to roll a 16 to succeed, and thus will fail his save 80% of the time. Under the spell attack roll rules, rather than the orc attempting a Will save, the wizard makes a spell attack roll with a +5 bonus (the spell’s DC of 15 – 10) against a DC of 10 (11 + the orc’s –1 Will save modifier). The wizard has to roll at least a 5 to succeed, so he still affects his target 80% of the time.\n\nThis variant puts more dice in the hands of the players. Consider running NPC spellcasters under the core rules instead, so that players can feel responsible for their own saves. It’s usually easiest for the player to write down the spell attack roll bonus for each level.\n\nFaster Variant: Normally, a caster would roll a separate spell attack roll against each target. A GM who wants to speed up play (at the expense of making the game more prone to extremes and not matching the core rules as closely) can instead require only a single roll and apply it against the defenses of all the targets.\n\nSpell Critical Hits\nSource Pathfinder Unchained pg. 149\nSpells that require attack rolls follow the standard critical hit rules as described in the Core Rulebook. With this variant, spells that require a saving throw gain the same benefit. If a creature rolls a natural 1 on its saving throw, the spell threatens a critical hit. That creature rolls the save again, and if it fails on this second roll, the critical hit is confirmed, and any numeric effect of the spell is doubled. For spells that lack a direct numeric effect, such as charm person, the duration is doubled instead. A spell that requires both an attack roll and a saving throw (such as ray of enfeeblement) can threaten a critical hit only on the attack roll.\n\nThe GM is encouraged to apply other types of doubling where appropriate. For instance, a poison spell might afflict a target with 2 doses of poison on a critical hit instead of doubling the effect of the poison.\n\nWith Spell Attack Rolls: This rule combines well with the spell attack roll rule. If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you’re also using spell critical hits, or at the very least roll to confirm each one separately.\n\nWith Spell Fumbles: This system is meant to be used in a campaign alongside the spell fumbles variant, though the two can be used separately.\n\nSpell Fumbles\nSource Pathfinder Unchained pg. 149\nSpells have a chance to automatically miss, just like any other attack. Normally, this is represented by the target rolling a natural 20 on its save. However, you might be interested in a more dramatic “fumble” result. If an enemy rolls a natural 20 on its save, it rolls the save again. If it succeeds at the second save, then the spell was fumbled, resulting in an accident similar to a scroll mishap (Core Rulebook 491). Roll 1d10 and consult Table 4–6: Spell Fumbles. You can fumble only once per spell cast. If more than one target rolls a 20, only the first target rolls to confirm the fumble.\n\nTable 4-6: Spell Fumbles\nd10 Fumble Result\n1 A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the caster.\n2 The spell strikes the caster or an ally instead of the intended target.\n3 The spell takes effect at a random location within the spell’s range.\n4 The spell’s effect on the target is contrary to the spell’s normal effect.\n5 The spellcaster suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or 2d10 minutes for instantaneous spells.\n6 A random innocuous item or items suddenly appear in the spell’s area.\n7 The spell’s effect is delayed. Sometime within the next 1d12 hours, the spell activates. The spell goes off in the general direction of the original target, up to the spell’s maximum range if the target has moved away.\n8 The caster can’t cast or concentrate on spells for 1 round.\n9 The caster is dazed for 1 round.\n10 The caster takes 1 point of Constitution damage.\n\nWith the Critical Fumble Deck: If you’re using the Pathfinder Cards: Critical Fumble Deck in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the Critical Fumble Deck for spell fumbles in your game even if you aren’t using it to add other fumbles.\n\nWith Wild Magic: You can use Table 4–4: Wild Magic Surge instead of Table 4–6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.\n\nWith Spell Attack Rolls: When using the spell attack roll variant, a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time—if it would miss again, the spell has fumbled.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "d10",
+          "Fumble Result"
+        ],
+        [
+          "1",
+          "A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the caster."
+        ],
+        [
+          "2",
+          "The spell strikes the caster or an ally instead of the intended target."
+        ],
+        [
+          "3",
+          "The spell takes effect at a random location within the spell’s range."
+        ],
+        [
+          "4",
+          "The spell’s effect on the target is contrary to the spell’s normal effect."
+        ],
+        [
+          "5",
+          "The spellcaster suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or 2d10 minutes for instantaneous spells."
+        ],
+        [
+          "6",
+          "A random innocuous item or items suddenly appear in the spell’s area."
+        ],
+        [
+          "7",
+          "The spell’s effect is delayed. Sometime within the next 1d12 hours, the spell activates. The spell goes off in the general direction of the original target, up to the spell’s maximum range if the target has moved away."
+        ],
+        [
+          "8",
+          "The caster can’t cast or concentrate on spells for 1 round."
+        ],
+        [
+          "9",
+          "The caster is dazed for 1 round."
+        ],
+        [
+          "10",
+          "The caster takes 1 point of Constitution damage."
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/745046ebc52fd34c.json",
+    "web": "https://codex.pipsprojects.com/#/e/745046ebc52fd34c"
+  },
+  "license": "OGL 1.0a"
+}

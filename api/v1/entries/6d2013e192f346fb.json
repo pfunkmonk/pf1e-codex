@@ -1,0 +1,30 @@
+{
+  "id": "6d2013e192f346fb",
+  "name": "Heroic Invocation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 231",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 9,
+      "psychic": 9,
+      "sorcerer": 9,
+      "witch": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 231\nSchool enchantment (compulsion) [mind-affecting]; Level arcanist 9, psychic 9, sorcerer 9, witch 9, wizard 9\nCasting\nCasting Time 10 minutes\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one or more creatures, no two of which can be more than 30 ft. apart\nDuration 10 minutes /level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nUsing worlds of ancient power, you bestow heroic powers on all creatures subject to this spell. They gain a +4 morale bonus on attack and damage rolls, gain 2d8+4 temporary hit points, and become immune to both fear and charm effects for the spell’s duration.\n\nAt the end of the spell’s duration, the subjects become fatigued.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6d2013e192f346fb.json",
+    "web": "https://codex.pipsprojects.com/#/e/6d2013e192f346fb"
+  },
+  "license": "OGL 1.0a"
+}

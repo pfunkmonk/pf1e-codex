@@ -1,0 +1,68 @@
+{
+  "id": "098d78fb95e503b0",
+  "name": "Buildings",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Ultimate Combat pg. 167",
+  "book": "Ultimate Combat",
+  "facets": {
+    "bk": "Ultimate Combat"
+  },
+  "body": "Rules Index | GM Screen\n\nBuildings\nSource Ultimate Combat pg. 167\nBuildings are sizable structures with many hit points and very poor ACs (a Large building is AC 4, a Huge building is AC 3, and a Gargantuan or larger building is AC 0). When a building is reduced to half its hit points, it is broken—it still stands, but only partially. It can be easily entered, and for all intents and purposes it has been breached. Reducing a building to 0 hit points completely destroys that building. Creatures inside the building suffer the effects of a cave-in.\n\nAll these building statistics assume that the structure’s inside is somewhat hollow but sturdily built, with enough space for its occupants to walk around inside. Flimsy buildings have half the hit points of the buildings detailed in Table 3–18. Buildings can be magically treated, like dungeon walls and doors can. Doing so doubles their hardness and hit points. Magically treating a building costs 5,000 gp for a Large building, 10,000 gp for a Huge building, 20,000 gp for a Gargantuan building, and 40,000 gp for a Colossal building. A spellcaster with the Craft Magic Arms and Armor feat can magically treat buildings.\n\nFor larger buildings, put together multiple buildings of these sizes and add the hit points together.\nTable 3-18: Buildings\nHit Points\nMaterial Hardness Large Huge Gargantuan Colossal\nWood 5 120 270 960 3,240\nStone 8 200 450 1,600 5,400\nIron or steel 10 400 900 3,200 10,800\nAdamantine 20 560 1,260 4,480 15,120",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "",
+          "Hit Points"
+        ],
+        [
+          "Material",
+          "Hardness",
+          "Large",
+          "Huge",
+          "Gargantuan",
+          "Colossal"
+        ],
+        [
+          "Wood",
+          "5",
+          "120",
+          "270",
+          "960",
+          "3,240"
+        ],
+        [
+          "Stone",
+          "8",
+          "200",
+          "450",
+          "1,600",
+          "5,400"
+        ],
+        [
+          "Iron or steel",
+          "10",
+          "400",
+          "900",
+          "3,200",
+          "10,800"
+        ],
+        [
+          "Adamantine",
+          "20",
+          "560",
+          "1,260",
+          "4,480",
+          "15,120"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/098d78fb95e503b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/098d78fb95e503b0"
+  },
+  "license": "OGL 1.0a"
+}

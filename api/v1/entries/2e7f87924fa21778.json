@@ -1,0 +1,35 @@
+{
+  "id": "2e7f87924fa21778",
+  "name": "Celestial Healing, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Arcane Anthology pg. 13",
+  "book": "Arcane Anthology",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "cleric": 4,
+      "magus": 4,
+      "oracle": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Arcane Anthology"
+  },
+  "body": "Source Arcane Anthology pg. 13\nSchool conjuration (healing) [good]; Level arcanist 4, bloodrager 4, cleric 4, magus 4, oracle 4, sorcerer 4, summoner 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 round\nComponents V, S, M (1 drop of blood from a good outsider or 1 dose of holy water)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/2 levels\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nAs per celestial healing, except the target gains fast healing 4 and the target radiates the aura of a good cleric.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e7f87924fa21778.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e7f87924fa21778"
+  },
+  "license": "OGL 1.0a"
+}

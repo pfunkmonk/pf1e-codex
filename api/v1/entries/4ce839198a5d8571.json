@@ -1,0 +1,24 @@
+{
+  "id": "4ce839198a5d8571",
+  "name": "Speak with Waves",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 349",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 6,
+      "hunter": 6,
+      "psychic": 6,
+      "shaman": 7
+    },
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Stone Tell\nSource PRPG Core Rulebook pg. 349\nSchool divination; Level druid 6, hunter 6, psychic 6, shaman 7\nCasting\nCasting Time 10 minutes\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 min./level\nDescription\nYou gain the ability to speak with stones, which relate to you who or what has touched them as well as revealing what is covered or concealed behind or under them. The stones relate complete descriptions if asked. A stone's perspective, perception, and knowledge may prevent the stone from providing the details you are looking for. You can speak with natural or worked stone.\nSpeak with Waves\nSource Elemental Master's Handbook pg. 14\nSchool divination [water]; Level druid 6, hunter 6, shaman 7\nCasting\nCasting Time 10 minutes\nComponents V, S, DF\nEffect\nRange personal\nTarget you\nDuration 1 minute/level\nDescription\nThis spell functions as stone tell but allows conversations only with a body of standing or flowing fresh water at least as large as you are. Flowing water can generally speak about events happening upstream but not events happening downstream.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4ce839198a5d8571.json",
+    "web": "https://codex.pipsprojects.com/#/e/4ce839198a5d8571"
+  },
+  "license": "OGL 1.0a"
+}

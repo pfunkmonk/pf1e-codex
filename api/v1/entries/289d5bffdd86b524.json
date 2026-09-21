@@ -1,0 +1,21 @@
+{
+  "id": "289d5bffdd86b524",
+  "name": "Crag Spider",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Pathfinder #6: Spires of Xin-Shalast pg. 77",
+  "book": "Pathfinder #6: Spires of Xin-Shalast",
+  "facets": {
+    "cr": 8,
+    "sz": "Huge",
+    "t": "vermin",
+    "al": "N",
+    "bk": "Pathfinder #6: Spires of Xin-Shalast"
+  },
+  "body": "This gigantic spider-thing is covered in jagged red-and-black chitin. Many-legged and alien, the creature’s waving tendrils and serrated pedipalps twitch hungrily beneath a cluster of unblinking black eyes. Hooked claws at the ends of its many-jointed legs pierce the earth with every step.\nCrag Spider CR 8\nSource Pathfinder #6: Spires of Xin-Shalast pg. 77\nAlways N Huge vermin\nInit +4; Senses darkvision 60 ft., tremorsense 60 ft.; Listen +0, Spot +8\nDefense\nAC 19, touch 12, flat-footed 15 (+4 Dex, +7 natural, -2 size)\nhp 104 (16d8+32)\nFort +12, Ref +9, Will +5\nImmune mind-affecting effects\nOffense\nSpeed 40 ft., climb 30 ft.\nMelee bite +15 (2d6+7 plus poison)\nRanged web +14 touch (entangle)\nSpace 15 ft., Reach 10 ft.\nSpecial Attacks web\nStatistics\nStr 20, Dex 18, Con 14, Int —, Wis 10, Cha 2\nBase Atk +12; Grapple +25\nFeats Altitude AffinityB\nSkills Climb +21, Hide +0, Jump +15, Spot +8; Racial Modifiers +4 Jump\nSQ tether\nEcology\nEnvironment cold mountains\nOrganization solitary or colony (2-5)\nTreasure 1/10 coins; 50% goods; 50% items\nAdvancement 17-32 HD (Huge), 33-48 HD (Gargantuan)\nSpecial Abilities\nPoison (Ex) Injury, Fortitude DC 20, 1d8 Str/1d8 Str. The save DC is Constitution-based.\n\nTether (Ex) As a move action, a crag spider can anchor itself to a surface within its reach by a tether of webbing. This web is identical in characteristics to its normal webbing. A tethered crag spider gains a +10 competence bonus on Climb and Jump checks and can arrest any fall as a free action, taking no damage. The maximum distance a crag spider can jump or climb while tethered is 200 feet. It can release its tether as a free action and start another normally if it needs to move its anchor point.\n\nA crag spider cannot use any of its other web abilities while anchored to a tether. Creating a tether counts as one of the eight times a crag spider can throw its web per day.\n\nWeb (Ex) Crag spiders can use the web ability as other monstrous spiders (see page 288 of the MM). An entangled creature can escape with a successful DC 20 Escape Artist check or burst the web with a DC 24 Strength check. Each 5-foot section has 16 hit points.\nDescription\nThe original crag spiders were magically engineered from a species of common spider that resides atop the mountain and were created to serve as steeds for the personal guards of the Runelords of Greed. They are still primarily used for that purpose, but escapees from captivity over the years have begun to breed in the wild and migrate to other mountaintops.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/289d5bffdd86b524.json",
+    "web": "https://codex.pipsprojects.com/#/e/289d5bffdd86b524"
+  },
+  "license": "OGL 1.0a"
+}

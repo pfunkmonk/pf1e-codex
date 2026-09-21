@@ -1,0 +1,28 @@
+{
+  "id": "57627eb668220e1f",
+  "name": "Arbitrament",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Planar Adventures pg. 39, Champions of Balance pg. 26",
+  "book": "Planar Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 7,
+      "inquisitor": 6,
+      "oracle": 7
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Planar Adventures"
+  },
+  "body": "Source Planar Adventures pg. 39, Champions of Balance pg. 26\nSchool evocation [sonic]; Level cleric 7, inquisitor 6, oracle 7\nCasting\nCasting Time 1 standard action\nComponents V\nEffect\nRange 40 ft.\nTarget non-neutral creatures in a 40-ft.-radius spread centered on you\nDuration instantaneous\nSaving Throw Will partial, see text; Spell Resistance yes\nDescription\nAll chaotic evil, chaotic good, lawful evil, and lawful good creatures within the area of this spell suffer the following conditions, based on their Hit Dice.\nHit Dice Effect\nEqual to caster level Sickened\nUp to caster level - 1 Sickened, staggered\nUp to caster level - 5 Nauseated, sickened, staggered\nUp to caster level - 10 Killed, nauseated, sickened, staggered\nThe effects are concurrent. A creature can attempt a Will save to reduce or negate the effects. If subject to multiple effects, the creature rolls once and applies the result to each effect.\n\nSickened: The creature is sickened for 1d4 rounds (Will negates).\n\nStaggered: The creature is staggered for 2d4 rounds, or for 1d4 rounds on a successful Will save.\n\nNauseated: The creature is nauseated for 1d10 minutes, or for 1d4 rounds on a successful Will save.\n\nKilled: Living creatures die, and undead creatures are destroyed. On a successful Will save, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).\n\nFurthermore, if you are on your home plane when you cast this spell, all chaotic evil, chaotic good, lawful evil, and lawful good extraplanar creatures within the area are banished to their home planes (Will negates, at a –4 penalty). Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the arbitrament.\n\nCreatures whose Hit Dice exceed your caster level are unaffected by arbitrament.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57627eb668220e1f.json",
+    "web": "https://codex.pipsprojects.com/#/e/57627eb668220e1f"
+  },
+  "license": "OGL 1.0a"
+}

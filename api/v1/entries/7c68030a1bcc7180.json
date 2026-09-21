@@ -1,0 +1,29 @@
+{
+  "id": "7c68030a1bcc7180",
+  "name": "Hallucinatory Terrain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 293",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "bard": 4,
+      "mesmerist": 4,
+      "psychic": 4,
+      "skald": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 293\nSchool illusion (glamer); Level arcanist 4, bard 4, mesmerist 4, psychic 4, redmantisassassin 4, skald 4, sorcerer 4, wizard 4\nCasting\nCasting Time 10 minutes\nComponents V, S, M (a stone, a twig, and a green leaf)\nEffect\nRange long (400 ft. + 40 ft./level)\nArea one 30-ft. cube/level (S)\nDuration 2 hours/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\nDescription\nYou make natural terrain look, sound, and smell like some other sort of natural terrain. Structures, equipment, and creatures within the area are not hidden or changed in appearance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c68030a1bcc7180.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c68030a1bcc7180"
+  },
+  "license": "OGL 1.0a"
+}

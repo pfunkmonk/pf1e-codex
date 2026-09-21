@@ -1,0 +1,23 @@
+{
+  "id": "4d2d261b5c4ca96e",
+  "name": "Font of Spirit Magic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 182",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 182\nSchool conjuration (creation); Level shaman 3\nCasting\nCasting Time 1 standard action\nComponents V, S, M (gold dust worth 50 gp)\nEffect\nRange 30 ft.\nArea 30-ft.-radius emanation centered on you\nDuration concentration + 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nYou amplify the effect of magic associated with your spirit and wandering spirit (any spells on the spirit magic spell lists for these spirits). When allies within the area cast these spells, they gain a +2 bonus on caster level checks and concentration checks, as well as to spell DCs. This bonus is a sacred bonus if you are good-aligned or a profane bonus if you are evil-aligned; if you are neither good nor evil, you can choose what type of bonus the spell grants when you cast it.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d2d261b5c4ca96e.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d2d261b5c4ca96e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "a4eecf2af8620bd8",
+  "name": "Lend Judgment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 226",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "inquisitor": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 226\nSchool divination; Level inquisitor 1\nCasting\nCasting Time 1 standard action\nComponents V, DF\nEffect\nRange touch\nTarget one ally\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nYou create a conduit of divine knowledge and outrage between you and an ally. That ally gains the benefit of one of your active judgments (as do you). If you cannot use a judgment (for example, if you are not in combat, are frightened or unconscious, and so on) or change judgments, the ally loses the benefit of the judgment. If you have multiple judgments active, the ally gains only one, chosen when you cast this spell.\nLend Judgment, Greater\nSource Ultimate Magic pg. 227\nSchool divination; Level inquisitor 5\nCasting\nCasting Time 1 standard action\nComponents V, DF\nEffect\nRange touch\nTarget one ally\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis functions as lend judgment, except the ally gains the benefit of all your active judgments.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4eecf2af8620bd8.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4eecf2af8620bd8"
+  },
+  "license": "OGL 1.0a"
+}

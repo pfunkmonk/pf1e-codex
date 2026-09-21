@@ -1,0 +1,31 @@
+{
+  "id": "871974afbb44e01b",
+  "name": "Ball Lightning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 204",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 4,
+      "bloodrager": 4,
+      "druid": 4,
+      "hunter": 4,
+      "magus": 4,
+      "occultist": 4,
+      "shaman": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 204\nSchool evocation [air, electricity]; Level arcanist 4, bloodrager 4, druid 4, hunter 4, magus 4, occultist 4, shaman 4, sorcerer 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (a small iron ring)\nEffect\nRange medium (100 ft. + 10 ft./level)\nEffect two or more 5-ft.-diameter spheres\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance yes\nDescription\nYou create two globes of lightning that fly in whichever direction you indicate. For every 4 caster levels above 7th, you create an additional globe of lightning (3 globes at 11th, 4 globes at 15th, to the maximum of 5 globes at 19th). These globes fly at a rate of 20 feet per round and have perfect maneuverability. Wind does not affect a flying sphere’s course.\n\nIf a globe enters a space with a creature, it stops moving for the round and deals 3d6 points of electricity damage to that creature, though a successful Reflex save negates the damage. Creatures wearing metal armor take a –4 penalty on this saving throw.\n\nEach globe moves as long as you actively direct it (it’s a move action for you to direct all the spheres created by a single casting of this spell); otherwise they stay at rest. These globes have no mass and cannot push aside unwilling creatures or move solid objects. A ball lightning globe winks out if it exceeds the spell’s range.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/871974afbb44e01b.json",
+    "web": "https://codex.pipsprojects.com/#/e/871974afbb44e01b"
+  },
+  "license": "OGL 1.0a"
+}

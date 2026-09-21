@@ -1,0 +1,24 @@
+{
+  "id": "1e5733e18232d86d",
+  "name": "Summon Instrument",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 350",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 0,
+      "skald": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 350\nSchool conjuration (summoning); Level bard 0, skald 0\nCasting\nCasting Time 1 round\nComponents V, S\nEffect\nRange 0 ft.\nEffect one summoned handheld musical instrument\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell summons one handheld musical instrument of your choice. This instrument appears in your hands or at your feet (your choice). The instrument is typical for its type. Only one instrument appears per casting, and it will play only for you. You can't summon an instrument too large to be held in two hands. The summoned instrument disappears at the end of this spell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e5733e18232d86d.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e5733e18232d86d"
+  },
+  "license": "OGL 1.0a"
+}

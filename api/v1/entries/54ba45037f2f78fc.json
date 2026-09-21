@@ -1,0 +1,31 @@
+{
+  "id": "54ba45037f2f78fc",
+  "name": "Nondetection, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Tactics Toolbox pg. 25",
+  "book": "Magic Tactics Toolbox",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "arcanist": 2,
+      "inquisitor": 2,
+      "investigator": 2,
+      "ranger": 3,
+      "sorcerer": 2,
+      "summoner": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Magic Tactics Toolbox"
+  },
+  "body": "Source Magic Tactics Toolbox pg. 25\nSchool abjuration; Level alchemist 2, antipaladin 2, arcanist 2, inquisitor 2, investigator 2, ranger 3, sorcerer 2, summoner 2, summoner (unchained) 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of mercury)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget creature touched\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance no\nDescription\nThis spell functions like nondetection, except it blocks the effects of only divination spells and effects that target an area, rather than you or an object in your possession specifically. For example, lesser nondetection doesn’t ward you against a spellcaster who is attempting to scry on you with the scrying spell or find an object in your possession with locate object, but it does protect you against effects that target an area you happen to be in, such as detect spells or clairaudience/clairvoyance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/54ba45037f2f78fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/54ba45037f2f78fc"
+  },
+  "license": "OGL 1.0a"
+}

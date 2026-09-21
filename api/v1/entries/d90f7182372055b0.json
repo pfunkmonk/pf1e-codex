@@ -1,0 +1,18 @@
+{
+  "id": "d90f7182372055b0",
+  "name": "Trapped item (trapped scroll case)",
+  "bucket": "items",
+  "category": "Equipment",
+  "source": "Kobolds of Golarion pg. 29",
+  "book": "Kobolds of Golarion",
+  "facets": {
+    "pr": 50,
+    "bk": "Kobolds of Golarion"
+  },
+  "body": "Trapped item\nSource Kobolds of Golarion pg. 29\nPrice 50 gp (trapped disguise kit), 40 gp (trapped scroll case); Weight 8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)\nDescription\nKobold artisans are constantly looking for new ways to increase the effectiveness of their traps, all while decreasing their setup time. To fit these two needs, kobold inventors have created a series of small and easy-to-use trapped items. These replica items have traps built into them, and can be armed in a standard action. They’re self-contained, single-use, and as easily transportable as the items they mimic.\nTrapped Disguise Kit\nType mechanical; Perception DC 25; Disable Device DC 25\nEffects\nTrigger touch; Reset repair\nEffect scent mark; never miss; onset delay (1 round)\nDescription\nThis appears to be a normal disguise kit, except that if any of the makeup or false facial hair is applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its own over several days.\n\nTrapped Scroll Case\nType mechanical; Perception DC 20; Disable Device DC 20\nEffects\nTrigger touch; Reset none\nEffect poison gas (Ungol dust)\nDescription\nThis seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud disperses after 1 round.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d90f7182372055b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/d90f7182372055b0"
+  },
+  "license": "OGL 1.0a"
+}

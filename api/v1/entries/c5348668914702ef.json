@@ -1,0 +1,21 @@
+{
+  "id": "c5348668914702ef",
+  "name": "Gravesludge",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 6 pg. 145",
+  "book": "Bestiary 6",
+  "facets": {
+    "cr": 12,
+    "sz": "Medium",
+    "t": "ooze",
+    "al": "NE",
+    "bk": "Bestiary 6"
+  },
+  "body": "This filthy, shuddering mass of sludge and bones seems to have formed from a mass of muddy grave soil.\nGravesludge CR 12\nSource Bestiary 6 pg. 145\nXP 19,200\nNE Medium ooze\nInit +10; Senses blindsight 60 ft., lifesense; Perception +19\nDefense\nAC 27, touch 21, flat-footed 21 (+5 deflection, +6 Dex, +6 natural)\nhp 161 (14d8+98)\nFort +11, Ref +15, Will +11\nDefensive Abilities haunted, negative energy affinity; DR 10/good; Immune acid, cold, death effects, energy drain, fear, negative energy, ooze traits\nOffense\nSpeed 30 ft., burrow 30 ft.\nMelee 2 slams +20 (2d8+10/19–20 plus 2d6 negative energy and lifeleech)\nSpace 5 ft., Reach 10 ft.\nSpecial Attacks create spawn, lifeleech, swift slam\nSpell-Like Abilities (CL 12th; concentration +17)\nAt will—ghost sound (DC 15), telekinesis (DC 20)\n3/day—quickened death knell (DC 17), phantasmal killer (DC 19), wall of ectoplasm (DC 20)\n1/day—harm (DC 21)\nStatistics\nStr 31, Dex 22, Con 24, Int 15, Wis 21, Cha 20\nBase Atk +10; CMB +20; CMD 41\nFeats Combat Casting, Combat Reflexes, Improved Critical (slam), Improved Initiative, Iron Will, Power Attack, Quicken Spell-Like Ability (death knell)\nSkills Climb +24, Knowledge (religion) +16, Perception +19, Stealth +20\nLanguages Common; telepathy 100 ft.\nEcology\nEnvironment any land\nOrganization solitary, pair, or haunt (3–5)\nTreasure standard\nSpecial Abilities\nCreate Spawn (Su) A creature slain by a gravesludge animates as a free-willed juju zombie 1d4 rounds after it is slain.\n\nHaunted (Su) The eldritch spiritual energy that infuses a gravesludge grants it a deflection bonus to its AC and a resistance bonus on Reflex saves equal to its Charisma modifier (+5 for the typical gravesludge).\n\nLifeleech (Su) When a gravesludge deals negative energy damage to a creature, that creature continues to take 1d6 points of negative energy damage at the start of its turn each round. This effect can be stopped via magical healing, and otherwise stops on its own 3 rounds after the initial slam attack. Multiple slam attacks extend the duration of this ongoing negative energy damage but do not increase the amount of damage.\n\nSwift Slam (Ex) A gravesludge can attack twice with its slam attack as a standard action.\nDescription\nGravesludges straddle the line between oozes and undead. Primarily made of ectoplasm and grave dirt, gravesludges spontaneously arise in areas where a grave is desecrated, near strong haunt activity, and in the defiled graves of unhallowed cemeteries. Intelligent undead often entreat gravesludges to bolster their defenses, but solitary gravesludges wander cemeteries, charnel houses, and ossuaries, driven by little more than a burning jealousy and hatred for the living. Occasionally, living creatures work with a gravesludge to secure a grisly form of life after death as juju zombies.\n\nThe average gravesludge measures 6 feet across and weighs 750 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c5348668914702ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/c5348668914702ef"
+  },
+  "license": "OGL 1.0a"
+}

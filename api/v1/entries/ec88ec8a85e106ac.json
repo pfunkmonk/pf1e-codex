@@ -1,0 +1,28 @@
+{
+  "id": "ec88ec8a85e106ac",
+  "name": "Minor Phantom Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 39",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 4,
+      "mesmerist": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 39\nSchool illusion (shadow) [shadow]; Level arcanist 4, mesmerist 4, psychic 4, redmantisassassin 4, sorcerer 4, wizard 4 (gnome)\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange 0 ft.\nEffect illusory, unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level\nDuration 10 minutes/level (D)\nDescription\nThis spell functions as the minor creation spell, except the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ec88ec8a85e106ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/ec88ec8a85e106ac"
+  },
+  "license": "OGL 1.0a"
+}

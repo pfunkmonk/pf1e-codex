@@ -1,0 +1,26 @@
+{
+  "id": "50d96f4e1de866ab",
+  "name": "Challenge Evil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 210",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "paladin": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 210\nSchool enchantment (compulsion) [mind-affecting]; Level paladin 1\nCasting\nCasting Time 1 standard action\nComponents V, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one evil creature\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\nDescription\nYou challenge an evil creature to bring the fight to you, or suffer the consequences. You gain a +2 sacred bonus on all melee attacks against the subject of the spell. At the end of its turn, if the target has not made at least one attack on you, it becomes sickened. If you move away from the target, the spell ends.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/50d96f4e1de866ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/50d96f4e1de866ab"
+  },
+  "license": "OGL 1.0a"
+}

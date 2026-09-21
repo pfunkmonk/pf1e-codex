@@ -1,0 +1,34 @@
+{
+  "id": "e4442c623b9a91c2",
+  "name": "Deathless",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Mythic Adventures pg. 113",
+  "book": "Mythic Adventures",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 4,
+      "arcanist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "investigator": 4,
+      "medium": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Mythic Adventures"
+  },
+  "body": "Source Mythic Adventures pg. 113\nSchool necromancy; Level alchemist 4, arcanist 4, cleric 4, inquisitor 4, investigator 4, medium 4, oracle 4, psychic 4, sorcerer 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget living creature touched\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target’s soul is strongly anchored to its body, preventing death from hit point damage. No matter how low the target’s hit points get, it remains alive (though not necessarily conscious).\n\nThis spell doesn’t prevent death from sources other than hit point damage—such as Constitution damage or drain, death effects, or energy drain. Spells that cure hit points affect the creature normally.\nMythic Deathless\nSource Mythic Adventures pg. 113\nIf you expend one use of mythic power when you cast the spell, you become an anchor for the souls of you and your cohorts. The range increases to 30 feet, and instead of affecting one creature, it affects all allies within a 30-footradius emanation centered on you.\n\nAugmented (8th): If you expend three uses of mythic power, the range increases to 1 mile, and the area to a 1-mileradius emanation centered on you.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4442c623b9a91c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4442c623b9a91c2"
+  },
+  "license": "OGL 1.0a"
+}

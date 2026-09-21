@@ -1,0 +1,24 @@
+{
+  "id": "46d29d502db125ec",
+  "name": "Instant Enemy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 229",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "hunter": 3,
+      "ranger": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 229\nSchool enchantment; Level hunter 3, ranger 3\nCasting\nCasting Time 1 swift action\nComponents V, S\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature that is not your favored enemy.\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nDescription\nWith this spell you designate the target as your favored enemy for the remainder of its duration. Select one of your favored enemy types. For the duration of the spell, you treat the target as if it were that type of favored enemy for all purposes.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/46d29d502db125ec.json",
+    "web": "https://codex.pipsprojects.com/#/e/46d29d502db125ec"
+  },
+  "license": "OGL 1.0a"
+}

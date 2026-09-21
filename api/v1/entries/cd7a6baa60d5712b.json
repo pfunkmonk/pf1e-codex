@@ -1,0 +1,28 @@
+{
+  "id": "cd7a6baa60d5712b",
+  "name": "Symbol of Mirroring",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Magic pg. 241",
+  "book": "Ultimate Magic",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "arcanist": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "sorcerer": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Magic"
+  },
+  "body": "Source Ultimate Magic pg. 241\nSchool illusion (figment); Level arcanist 2, mesmerist 2, occultist 2, redmantisassassin 2, sorcerer 2, witch 2, wizard 2\nCasting\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorous, plus powdered diamond and opal worth a total of 100 gp)\nEffect\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Will partial (harmless); Spell Resistance yes\nDescription\nThis spell functions as symbol of death, except it instead creates one illusory duplicate of each creature within 60 feet of the symbol. These duplicates function as mirror image, moving with the original creatures and mimicking their movements, sounds, and actions exactly. If an illusory double is destroyed, a new one appears on the creature’s turn. The images last for as long as a creature remains within 60 feet of the symbol, and for 1 round/level thereafter. Once triggered, the symbol remains active for 10 minutes per caster level.\n\nSymbol of mirroring can be made permanent with a permanency spell by a caster of 10th level or higher for the cost of 5,000 gp.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd7a6baa60d5712b.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd7a6baa60d5712b"
+  },
+  "license": "OGL 1.0a"
+}

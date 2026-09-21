@@ -1,0 +1,28 @@
+{
+  "id": "645f374b8c39796d",
+  "name": "Quick Throwing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Pathfinder #91: Battle of Bloodmarch Hills pg. 71",
+  "book": "Pathfinder #91: Battle of Bloodmarch Hills",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 2,
+      "hunter": 2,
+      "magus": 2,
+      "paladin": 2,
+      "ranger": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Pathfinder #91: Battle of Bloodmarch Hills"
+  },
+  "body": "Source Pathfinder #91: Battle of Bloodmarch Hills pg. 71\nSchool transmutation; Level antipaladin 2, bloodrager 2, hunter 2, magus 2, paladin 2, ranger 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\nDescription\nThose under the effects of this spell become faster in the use of thrown weapons. They can draw thrown weapons (including rocks if they have the rock throwing ability) on their bodies or within their space without the need for the Quick Draw feat, allowing them to make their full normal rate of attacks with such weapons. This has no effects on other forms of ranged weapon ammunition.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/645f374b8c39796d.json",
+    "web": "https://codex.pipsprojects.com/#/e/645f374b8c39796d"
+  },
+  "license": "OGL 1.0a"
+}

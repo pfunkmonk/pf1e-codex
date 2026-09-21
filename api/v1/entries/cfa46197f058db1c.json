@@ -1,0 +1,22 @@
+{
+  "id": "cfa46197f058db1c",
+  "name": "Totenmaske",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Bestiary 2 pg. 269, Pathfinder #3: The Hook Mountain Massacre pg. 82",
+  "book": "Bestiary 2",
+  "facets": {
+    "cr": 7,
+    "sz": "Medium",
+    "t": "undead",
+    "al": "NE",
+    "bk": "Bestiary 2",
+    "st": "shapechanger"
+  },
+  "body": "This spindly, skeletal humanoid has moldy green flesh, long talons for hands, and a head that seems to be mostly mouth.\nTotenmaske CR 7\nSource Bestiary 2 pg. 269, Pathfinder #3: The Hook Mountain Massacre pg. 82\nXP 3,200\nNE Medium undead (shapechanger)\nInit +10; Senses darkvision 60 ft.; Perception +15\nDefense\nAC 20, touch 16, flat-footed 14 (+6 Dex, +4 natural)\nhp 85 (10d8+40)\nFort +7, Ref +9, Will +9\nImmune undead traits; Resist cold 20\nOffense\nSpeed 50 ft.\nMelee bite +13 (1d8+4 plus 1d4 Cha drain), 2 claws +13 (1d6+4)\nSpecial Attacks fleshdrink, shape flesh\nStatistics\nStr 18, Dex 23, Con —, Int 16, Wis 15, Cha 19\nBase Atk +7; CMB +11; CMD 27\nFeats Ability Focus (Charisma drain), Combat Expertise, Combat Reflexes, Improved Initiative, Weapon Finesse\nSkills Acrobatics +16 (+24 jump), Bluff +14, Diplomacy +14, Disguise +17, Perception +15, Sense Motive +15, Stealth +19\nLanguages Abyssal, Celestial, Common, Infernal\nSQ change shape (the previous humanoid it successfully used its fleshdrink ability on; alter self)\nEcology\nEnvironment any land or underground\nOrganization solitary or pair\nTreasure standard\nSpecial Abilities\nCharisma Drain (Su) A totenmaske can eat the hopes and dreams of a creature it bites, dealing 1d4 points of Charisma drain unless the victim makes a DC 21 Will save. The save DC is Charisma-based.\n\nFleshdrink (Su) If a totenmaske hits a single creature with both claw attacks, the hollow claws drain away some of the target’s flesh, dealing 1d6 points of Constitution damage and making the victim sickened for 1d4 rounds. A successful DC 19 Fortitude save negates the Constitution damage and reduces the sickened condition duration to 1 round. The save DC is Charisma-based.\n\nShape Flesh (Su) By spending 1 minute in contact with a helpless creature, a totenmaske can reshape the target’s face, causing flesh to cover vital features. The target may attempt a DC 19 Fortitude save to resist. Changes are permanent, but can be reversed with heal, restoration, or regeneration, or by surgically opening the sealed flesh with a DC 15 Heal check that takes 1d3 rounds and deals 1d4 points of damage even if the check is not successful. A totenmaske can use this ability on one of four different features per use: ears (target becomes deaf), eyes (target becomes blind), mouth (target cannot speak or eat), or nose (target cannot smell). Multiple uses can have increasingly serious effects (such as sealing the mouth and nose, which causes suffocation). The save DC is Charisma-based.\nDescription\nConsumed by the same lusts and excesses that led them in life, the souls of some sinners rise as totenmaskes, drinking the flesh and memories of living creatures and even stepping into their lives to once more pursue their base desires. Incapable of resuming their sinful pursuits in their natural form, totenmaskes often keep their victims alive for as long as possible, renewing their stolen identities regularly in order to continue indulging in pleasures of the flesh.\n\nA totenmaske can be created from the corpse of a sinful mortal by a cleric of at least 18th level using the create greater undead spell.\n\nA totenmaske is 6 feet tall and weighs 140 pounds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfa46197f058db1c.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfa46197f058db1c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "962c962f3182a238",
+  "name": "Detect Law",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 267",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "spiritualist": 1,
+      "warpriest": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 267\nSchool divination; Level adept 1, cleric 1, inquisitor 1, oracle 1, shaman 1, spiritualist 1, warpriest 1\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange 60 ft.\nArea cone-shaped emanation\nDuration concentration, up to 10 min./level (D)\nSaving Throw none; Spell Resistance no\nDescription\nThis spell functions like detect evil, except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/962c962f3182a238.json",
+    "web": "https://codex.pipsprojects.com/#/e/962c962f3182a238"
+  },
+  "license": "OGL 1.0a"
+}

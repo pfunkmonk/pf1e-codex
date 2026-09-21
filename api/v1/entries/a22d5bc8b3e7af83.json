@@ -1,0 +1,29 @@
+{
+  "id": "a22d5bc8b3e7af83",
+  "name": "Persistent Vigor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Class Guide pg. 190",
+  "book": "Advanced Class Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "investigator": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "warpriest": 4,
+      "witch": 4
+    },
+    "bk": "Advanced Class Guide"
+  },
+  "body": "Source Advanced Class Guide pg. 190\nSchool transmutation; Level alchemist 4, cleric 4, inquisitor 4, investigator 4, oracle 4, psychic 4, shaman 4, warpriest 4, witch 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M/DF (ginseng root shavings)\nEffect\nRange personal\nTarget you\nDuration 1 round/level (D)\nDescription\nYou are filled with a persistent vigor. You gain fast healing 2 and are immune to bleed effects as well as the sickened and nauseated conditions. When you succeed at a saving throw against a disease or poison effect, that disease or poison effect ends (as if you had succeeded at enough saving throws to cure that effect).\n\nIf you fail a saving throw against a disease or poison effect, you can instantly dismiss this spell to reroll that saving throw with a +4 bonus; you must take the result of this reroll, even if it is lower.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a22d5bc8b3e7af83.json",
+    "web": "https://codex.pipsprojects.com/#/e/a22d5bc8b3e7af83"
+  },
+  "license": "OGL 1.0a"
+}

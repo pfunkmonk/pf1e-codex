@@ -1,0 +1,23 @@
+{
+  "id": "e18c3d508137d03b",
+  "name": "Heal Mount",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 294",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "paladin": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 294\nSchool conjuration (healing); Level paladin 3\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget your mount touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThis spell functions like heal, but it affects only the paladin's special mount (typically a horse).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e18c3d508137d03b.json",
+    "web": "https://codex.pipsprojects.com/#/e/e18c3d508137d03b"
+  },
+  "license": "OGL 1.0a"
+}

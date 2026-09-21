@@ -1,0 +1,35 @@
+{
+  "id": "e047b461fc68b09c",
+  "name": "Dismissal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 271",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 5,
+      "cleric": 4,
+      "inquisitor": 4,
+      "medium": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "psychic": 5,
+      "shaman": 4,
+      "sorcerer": 5,
+      "spiritualist": 5,
+      "summoner": 4,
+      "warpriest": 4,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 271\nSchool abjuration; Level arcanist 5, cleric 4, inquisitor 4, medium 4, occultist 4, oracle 4, psychic 5, shaman 4, sorcerer 5, spiritualist 5, summoner 4, summoner (unchained) 5, warpriest 4, wizard 5\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nTarget one extraplanar creature\nDuration instantaneous\nSaving Throw Will negates; see text; Spell Resistance yes\nDescription\nThis spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own.\nHomeward Bound\nSource Planar Adventures pg. 41\nSchool abjuration; Level arcanist 4, cleric 3, oracle 3, sorcerer 4, warpriest 3, wizard 4\nCasting\nCasting Time 1 minute\nComponents V, S\nEffect\nRange touch\nTarget one living extraplanar creature\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes\nDescription\nThis spell functions as dismissal, except as noted above.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e047b461fc68b09c.json",
+    "web": "https://codex.pipsprojects.com/#/e/e047b461fc68b09c"
+  },
+  "license": "OGL 1.0a"
+}

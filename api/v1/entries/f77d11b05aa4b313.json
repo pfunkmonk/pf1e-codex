@@ -1,0 +1,33 @@
+{
+  "id": "f77d11b05aa4b313",
+  "name": "Air Bubble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 222",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 1,
+      "cleric": 1,
+      "druid": 1,
+      "hunter": 1,
+      "oracle": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "sorcerer": 1,
+      "warpriest": 1,
+      "witch": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 222\nSchool conjuration (creation); Level arcanist 1, cleric 1, druid 1, hunter 1, oracle 1, psychic 1, ranger 1, sorcerer 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents S, M/DF (a small bladder filled with air)\nEffect\nRange touch\nTarget one creature or one object no larger than a Large two-handed weapon\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nAir bubble creates a small pocket of breathable air that surrounds the touched creature’s head or the touched object. The air bubble allows the creature touched to breathe underwater or in similar airless environments, or protects the object touched from water damage.\n\nA firearm within an air bubble can be loaded—assuming the black powder comes from a powder horn, a cartridge, or some other airtight protective device—and fired. When shooting such a firearm underwater, the shot still takes the standard –2 penalty on attack rolls for every 5 feet of water the bullet passes through, in addition to normal penalties due to range. If a firearm within the air bubble explodes, the explosion occurs normally.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f77d11b05aa4b313.json",
+    "web": "https://codex.pipsprojects.com/#/e/f77d11b05aa4b313"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9f3ede54c17b23d6",
+  "name": "Sense Vitals",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Dirty Tactics Toolbox pg. 31",
+  "book": "Dirty Tactics Toolbox",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "antipaladin": 2,
+      "arcanist": 2,
+      "bard": 2,
+      "hunter": 2,
+      "ranger": 2,
+      "skald": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "bk": "Dirty Tactics Toolbox"
+  },
+  "body": "Source Dirty Tactics Toolbox pg. 31\nSchool divination; Level antipaladin 2, arcanist 2, bard 2, hunter 2, ranger 2, skald 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of blood)\nEffect\nRange personal\nTarget you\nDuration 1 round/level\nDescription\nThis spell makes your eyes shine blood red and allows you to see the vital areas and weak points of creatures within 30 feet of you as a warm glow. This allows you to use any manufactured weapon to make sneak attacks, as the rogue ability of the same name, dealing an additional 1d6 points of damage; this additional damage increases by 1d6 for every 3 caster levels you possess beyond 3rd, to a maximum of +5d6 at 15th level. This additional damage stacks with other sources of precision damage.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f3ede54c17b23d6.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f3ede54c17b23d6"
+  },
+  "license": "OGL 1.0a"
+}

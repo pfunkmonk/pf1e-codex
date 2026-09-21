@@ -1,0 +1,30 @@
+{
+  "id": "ecd42b8bbf887262",
+  "name": "Touch of Fatigue",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "PRPG Core Rulebook pg. 360",
+  "book": "PRPG Core Rulebook",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 0,
+      "arcanist": 0,
+      "mesmerist": 0,
+      "occultist": 0,
+      "shaman": 0,
+      "sorcerer": 0,
+      "witch": 0,
+      "wizard": 0
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "PRPG Core Rulebook"
+  },
+  "body": "Source PRPG Core Rulebook pg. 360\nSchool necromancy; Level adept 0, arcanist 0, mesmerist 0, occultist 0, shaman 0, sorcerer 0, witch 0, wizard 0\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a drop of sweat)\nEffect\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\nDescription\nYou channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spell's duration.\n\nThis spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell's duration expires.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ecd42b8bbf887262.json",
+    "web": "https://codex.pipsprojects.com/#/e/ecd42b8bbf887262"
+  },
+  "license": "OGL 1.0a"
+}

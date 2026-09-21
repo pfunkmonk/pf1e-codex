@@ -1,0 +1,104 @@
+{
+  "id": "e52ba7b8078b4038",
+  "name": "Haunts",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "GameMastery Guide pg. 242",
+  "book": "GameMastery Guide",
+  "facets": {
+    "bk": "GameMastery Guide"
+  },
+  "body": "Rules Index | GM Screen\nGameMastery Guide / Advanced Topics\n\nHaunts\nSource GameMastery Guide pg. 242\nThe distinction between a trap and an undead creature blurs when you introduce a haunt—a hazardous region created by unquiet spirits that react violently to the presence of the living. The exact conditions that cause a haunt to manifest vary from case to case—but haunts always arise from a source of terrific mental or physical anguish endured by living, tormented creatures. A single, source of suffering can create multiple haunts, or multiple sources could consolidate into a single haunt. The relative power of the source has little bearing on the strength of the resulting haunt—it’s the magnitude of the suffering or despair that created the haunt that decides its power. Often, undead inhabit regions infested with haunts—it’s even possible for a person who dies to rise as a ghost (or other undead) and trigger the creation of numerous haunts. A haunt infuses a specific area, and often multiple haunted areas exist within a single structure. The classic haunted house isn’t a single haunt, but usually a dozen or more haunted areas spread throughout the structure.\n\nHaunt Rules\nSource GameMastery Guide pg. 242\nAlthough haunts function like traps, they are difficult to detect since they cannot be easily observed until the round in which they manifest. Detect undead or detect alignment spells of the appropriate type allow an observer a chance to notice a haunt even before it manifests (allowing that character the appropriate check to notice the haunt, but at a –4 penalty).\n\nA haunt can infuse a maximum area with a 5-foot radius per point of CR possessed by the haunt, but the actual area is usually limited by the size of the room in which the haunt is located.\n\nWhen a haunt is triggered, its effects manifest at initiative rank 10 in a surprise round. All characters in the haunt’s proximity can attempt to notice the haunt at the start of this surprise round by making a notice check). All haunts detect life sources and trigger as a result of the approach of or contact with living creatures, but some haunts can be tricked by effects like hide from undead or invisibility.\n\nOn the surprise round in which a haunt manifests, positive energy applied to the haunt (via channeled energy, cure spells, and the like) can damage the haunt’s hit points (a haunt never gains a Will save to lessen the damage done by such effects, and attacks that require a successful attack roll to work must strike AC 10 in order to affect the haunt and not merely the physical structure it inhabits). Unless the haunt has an unusual weakness, no other form of attack can reduce its hit points. If the haunt is reduced to 0 hit points by positive energy, it is neutralized— if this occurs before the haunt takes its action at initiative rank 10, its effect does not occur.\n\nA haunt can have virtually any effect identical to an existing spell effect, but often with different—and distinctly more frightening or unnerving—sensory or physical features than that spell effect normally has. (A haunt that has an effect not identical to an existing spell is certainly possible, but this requires designing a new spell effect.) A haunt might cause a room to explode into flames (duplicating fireball or fire storm), infuse a chamber with fear (duplicating cause fear, scare, or fear), or try to frighten a target to death (duplicating phantasmal killer or slay living). How the haunt’s effects manifest are left to you to determine.\n\nA neutralized haunt is not destroyed, and can manifest again after a period of time—to destroy a haunt, a specific action must be taken in the region to end the effect forever (such as burning a haunted house to the ground or burying the bones of the slaves who died on the site to create the haunt). This specific act is different for every haunt (although a number of nearby haunts often share the same destruction act).\n\nSome haunts are persistent, and their immediate effects continue beyond the surprise round into actual full rounds. Persistent haunts continue to trigger their haunt effects once per round on their initiative rank until destroyed or they no longer have a target.\n\nAll primary effects created by a haunt are mind-affecting fear effects, even those that actually produce physical effects. Immunity to fear grants immunity to a haunt’s direct effects, but not to secondary effects that arise as a result of the haunt’s attack.\n\nElements of a Haunt\nSource GameMastery Guide pg. 243\nHaunts are presented in the following format.\n\nHaunt Name: The haunt’s name is followed by its CR.\n\nXP: This is the amount of XP to award the PCs for surviving the haunt, as determined by its CR.\n\nAlignment and Area: This line gives the haunt’s alignment and the dimensions of the area it infuses (up to 5 feet per CR). If a haunt is persistent, this is noted here as well.\n\nCaster Level: This is the haunt’s effective caster level for the purposes of dispelling any ongoing effects with dispel magic, and for determining the results of spell effects it creates.\n\nNotice: This indicates the skill check and DC required to notice the haunt in the surprise round before it manifests. The sensory input for what a successful check notices— such as a faint ghostly wailing, a smell of burning flesh, or fresh blood oozing from the walls—is listed in parentheses after the DC.\n\nhp: This lists the haunt’s effective hit points for the purposes of resolving positive energy damage. A haunt’s hit points are equal to twice its CR, except in the case of a persistent haunt, in which case its hit points are equal to its CR × 4.5 (round fractions down).\n\nWeakness: Any weaknesses the haunt might have, such as for haunts that can be tricked by effects like hide from undead or can be damaged by effects other than positive energy, are listed here.\n\nTrigger: The conditions that can cause the haunt to manifest are given here. Proximity-triggered haunts occur as soon as a creature enters the haunt’s area. A haunt triggered by touch does not activate until a living creature touches a specific object or location in its area, but it can sense (and thus target with its effects) any creature in its area.\n\nReset: This is the amount of time that must pass before a haunt can attempt to reset. Until it is destroyed, a haunt can reset after this period by succeeding on a DC 10 caster level check—failure indicates the haunt must wait that amount of time again before making another attempt to reset.\n\nEffect: This details the haunt’s exact effects, including a description of how the haunt manifests.\n\nDestruction: This describes the act needed to permanently destroy the haunt.\n\nCreating a Haunt\nSource GameMastery Guide pg. 243\nTo make a haunt like the example below, follow these steps.\n\nStep 1—Determine Base CR: A haunt’s base CR is equal to 1 + the level of the spell it duplicates.\n\nStep 2—Determine Actual CR: Select the elements you want the haunt to have and add up the adjustments to its CR to arrive at the haunt’s final CR (see Table 8–2: CR Modifiers for Haunts).\n\nStep 3—Determine Caster Level: A haunt’s caster level is equal to its actual CR score.\n\nStep 4—Determine Hit Points: A haunt’s hit points are equal to twice its CR (or equal to its CR × 4.5 if the haunt is persistent).\n\nStep 5—Calculate Attacks and Save DCs: A haunt’s attack modifier (if one is needed) is equal to its CR. If a haunt’s spell effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell.\nTable 8-1: CR Modifiers of Haunts\nFeature Type CR Modifier\nPersistent +2\nNotice DC CR Modifier\n15 or lower -1\n16-20 -\n21-25 +1\n26-29 +2\n30 or higher +3\nReset Time CR Modifier\n1 minute +2\n1 hour +1\n1 day +0\n1 week -1\nExample Weaknesses CR Modifier\nSlow (manifests at Initiative rank 0) -2\nSusceptible to an additional type of damage type -1 per additional type\nTricked by hide from undead -2\nTricked by invisibility -1\nTricked by Stealth* -3\nTriggered by touch -2\n* The haunt makes a caster level check instead of a Perception check to notice someone using Stealth.",
+  "tables": [
+    {
+      "headerRow": true,
+      "rows": [
+        [
+          "Feature Type",
+          "CR Modifier"
+        ],
+        [
+          "Persistent",
+          "+2"
+        ],
+        [
+          "Notice DC",
+          "CR Modifier"
+        ],
+        [
+          "15 or lower",
+          "-1"
+        ],
+        [
+          "16-20",
+          "-"
+        ],
+        [
+          "21-25",
+          "+1"
+        ],
+        [
+          "26-29",
+          "+2"
+        ],
+        [
+          "30 or higher",
+          "+3"
+        ],
+        [
+          "Reset Time",
+          "CR Modifier"
+        ],
+        [
+          "1 minute",
+          "+2"
+        ],
+        [
+          "1 hour",
+          "+1"
+        ],
+        [
+          "1 day",
+          "+0"
+        ],
+        [
+          "1 week",
+          "-1"
+        ],
+        [
+          "Example Weaknesses",
+          "CR Modifier"
+        ],
+        [
+          "Slow (manifests at Initiative rank 0)",
+          "-2"
+        ],
+        [
+          "Susceptible to an additional type of damage type",
+          "-1 per additional type"
+        ],
+        [
+          "Tricked by hide from undead",
+          "-2"
+        ],
+        [
+          "Tricked by invisibility",
+          "-1"
+        ],
+        [
+          "Tricked by Stealth*",
+          "-3"
+        ],
+        [
+          "Triggered by touch",
+          "-2"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e52ba7b8078b4038.json",
+    "web": "https://codex.pipsprojects.com/#/e/e52ba7b8078b4038"
+  },
+  "license": "OGL 1.0a"
+}

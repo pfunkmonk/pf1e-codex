@@ -1,0 +1,33 @@
+{
+  "id": "0912743e380bef84",
+  "name": "Ancestral Regression",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Race Guide pg. 107",
+  "book": "Advanced Race Guide",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 3,
+      "arcanist": 3,
+      "cleric": 2,
+      "investigator": 2,
+      "oracle": 2,
+      "psychic": 2,
+      "sorcerer": 3,
+      "warpriest": 2,
+      "witch": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Race Guide"
+  },
+  "body": "Source Advanced Race Guide pg. 107\nSchool transmutation (polymorph); Level alchemist 2, antipaladin 3, arcanist 3, cleric 2, investigator 2, oracle 2, psychic 2, redmantisassassin 3, sorcerer 3, warpriest 2, witch 2, wizard 3 (drow)\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget willing drow touched\nDuration 24 hours (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe target drow transforms into a surface elf. The drow loses her darkvision and light-blindness racial traits and gains the low-light vision racial trait in their place. The alignment and personality of the drow are not affected by the transformation, but the spell conceals her alignment as an undetectable alignment spell. The spell grants the target a +10 bonus on Disguise checks to pass as an elf, though she appears to be an elven analog of herself and can be recognized as such by other drow who know her.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0912743e380bef84.json",
+    "web": "https://codex.pipsprojects.com/#/e/0912743e380bef84"
+  },
+  "license": "OGL 1.0a"
+}

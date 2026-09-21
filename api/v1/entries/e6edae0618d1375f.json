@@ -1,0 +1,26 @@
+{
+  "id": "e6edae0618d1375f",
+  "name": "Spirit-Bound Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Occult Adventures pg. 186",
+  "book": "Occult Adventures",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "medium": 4,
+      "occultist": 4,
+      "shaman": 4,
+      "spiritualist": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Occult Adventures"
+  },
+  "body": "Source Occult Adventures pg. 186\nSchool evocation; Level medium 4, occultist 4, shaman 4, spiritualist 3\nCasting\nCasting Time 1 standard action\nComponents S\nEffect\nRange touch\nTarget weapon touched\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance no\nDescription\nYou focus emotional energy and weave it into a shroud of hardened ectoplasm around the weapon you touch, infusing it with a ghostly glow and great power. The weapon becomes a ghost touch weapon, and gains one of the following additional benefits, depending on the type of emotion you infuse into the weapon. If a special ability wouldn’t apply to the chosen weapon (such as vicious on a ranged weapon), the weapon doesn’t gain that benefit.\n\nAnger: The weapon also gains the vicious special ability.\nDedication: The weapon also gains the returning special ability.\nDespair: The weapon also gains the cruelUE special ability.\nFear: The weapon also gains the menacingUE special ability.\nHatred: The weapon also gains the cunningUE special ability.\nJealousy: The weapon also gains the mimeticUE special ability.\nZeal: The weapon also gains the keen special ability.\n\nIf you are a spiritualist and the type of emotional energy you choose matches the emotional focus of your phantom, the weapon grants its wielder a +2 bonus on skill checks with both skills you gain Skill Focus in from your phantom’s emotional focus.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6edae0618d1375f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6edae0618d1375f"
+  },
+  "license": "OGL 1.0a"
+}

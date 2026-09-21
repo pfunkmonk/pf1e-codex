@@ -1,0 +1,26 @@
+{
+  "id": "4b38013449eabb0f",
+  "name": "Aura of Greater Courage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Advanced Player's Guide pg. 204",
+  "book": "Advanced Player's Guide",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "paladin": 2
+    },
+    "desc": [
+      "emotion"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Advanced Player's Guide"
+  },
+  "body": "Source Advanced Player's Guide pg. 204\nSchool abjuration [emotion]; Level paladin 2\nCasting\nCasting Time 1 standard action\nComponents V, S, DF\nEffect\nRange personal\nArea 10-ft.-radius emanation centered on you\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nWhen you cast this spell you strengthen your paladin’s aura of courage. Until the end of its duration, all allies within that aura are immune to fear (magical or otherwise). If you do not have the aura of courage class feature, aura of greater courage has no effect.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b38013449eabb0f.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b38013449eabb0f"
+  },
+  "license": "OGL 1.0a"
+}

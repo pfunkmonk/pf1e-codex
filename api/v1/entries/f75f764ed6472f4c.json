@@ -1,0 +1,24 @@
+{
+  "id": "f75f764ed6472f4c",
+  "name": "Explosion of Rot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Wilderness pg. 229, Champions of Balance pg. 25",
+  "book": "Ultimate Wilderness",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 4,
+      "hunter": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ultimate Wilderness"
+  },
+  "body": "Source Ultimate Wilderness pg. 229, Champions of Balance pg. 25\nSchool necromancy; Level druid 4, hunter 4\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a rotting flower)\nEffect\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius burst\nDuration instantaneous\nSaving Throw Reflex half (see text); Spell Resistance yes\nDescription\nYou call forth a burst of decay that ravages all creatures in the area. Even nonliving creatures such as constructs and undead crumble or wither in this malignant eruption of rotting energy. Creatures in the area of effect take 1d6 points of damage per caster level (maximum 15d6) and are staggered for 1d4 rounds. A target that succeeds at a Reflex saving throw takes half damage and negates the staggered effect. Plant creatures are particularly susceptible to this rotting effect; a plant creature caught in the burst takes a –2 penalty on the saving throw and takes 1 extra point of damage per die.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f75f764ed6472f4c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f75f764ed6472f4c"
+  },
+  "license": "OGL 1.0a"
+}

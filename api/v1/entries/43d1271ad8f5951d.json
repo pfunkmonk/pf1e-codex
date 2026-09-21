@@ -1,0 +1,30 @@
+{
+  "id": "43d1271ad8f5951d",
+  "name": "Bullet Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ultimate Combat pg. 225",
+  "book": "Ultimate Combat",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "arcanist": 2,
+      "bloodrager": 2,
+      "investigator": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ultimate Combat"
+  },
+  "body": "Source Ultimate Combat pg. 225\nSchool abjuration; Level alchemist 2, arcanist 2, bloodrager 2, investigator 2, occultist 2, psychic 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a bullet)\nEffect\nRange touch\nTarget creature touched\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nDescription\nThe warded creature gains a +4 deflection bonus to AC against firearm and ranged attacks, with an additional +1 to the bonus for every five caster levels you have (to a maximum of +8 at 20th level). Though the spell is called bullet shield, it also grants this protection from attacks made from firearms with the scatter weapon quality.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/43d1271ad8f5951d.json",
+    "web": "https://codex.pipsprojects.com/#/e/43d1271ad8f5951d"
+  },
+  "license": "OGL 1.0a"
+}

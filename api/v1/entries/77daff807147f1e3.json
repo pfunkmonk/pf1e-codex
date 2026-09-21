@@ -1,0 +1,27 @@
+{
+  "id": "77daff807147f1e3",
+  "name": "Mage's Crawl Space",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Heroes of the Darklands pg. 9",
+  "book": "Heroes of the Darklands",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "shaman": 2,
+      "sorcerer": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Heroes of the Darklands"
+  },
+  "body": "Source Heroes of the Darklands pg. 9\nSchool transmutation; Level arcanist 2, bard 2, shaman 2, sorcerer 2, wizard 2\nCasting\nCasting Time 1 standard action\nComponents V, S, M (a piece of clay)\nEffect\nRange personal\nEffect 5-foot sphere centered on yourself\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\nDescription\nWhen you cast this spell, you merge with an adjacent natural stone surface, forming a 5-foot pocket within. If the stone surface does not have enough volume to safely contain a 5-foot sphere of empty space, the spell fails. When created, there is sufficient air within the pocket for up to one Medium creature to survive for the spell’s duration, including one additional Tiny or smaller creature, such as a familiar. At the end of the spell’s duration, you are immediately expelled into the nearest available open space adjacent to the surface you merged with.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77daff807147f1e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/77daff807147f1e3"
+  },
+  "license": "OGL 1.0a"
+}

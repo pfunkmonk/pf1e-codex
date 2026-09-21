@@ -1,0 +1,94 @@
+{
+  "id": "c74d56aa3853eac9",
+  "name": "Step 4: Skills and Feats",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder RPG Bestiary pg. 296",
+  "book": "Pathfinder RPG Bestiary",
+  "facets": {
+    "bk": "Pathfinder RPG Bestiary"
+  },
+  "body": "Rules Index | GM Screen\n\nStep 4: Skills and Feats\nSource Pathfinder RPG Bestiary pg. 296\nWhen adding skills, check to see if the creature’s Int modifier changed. If it is unchanged, simply multiply the total number of ranks per Hit Dice gained by a monster of its type times the total number of added Hit Dice and add that number of ranks to its existing skills. If its Intelligence modifier has increased, perform the same calculation as if it had not increased and then multiply the change in its Intelligence modifier times its new total number of Hit Dice and add that number of additional ranks as well (adding new skills as needed to spend all of the ranks). If the creature changed size, make sure to adjust its Fly skill and Stealth skill bonuses (if any) as noted on Table 2–3.\n\nNext, give the creature additional feats. Creatures gain one feat at 1 Hit Die and one additional feat for every 2 Hit Dice above 1. Most additional feats should be focused on increasing the creature’s combat abilities, but metamagic feats and skill feats are also possible choices depending on the creature’s role.\n\nTable 2-3: Size Bonuses and Penalties\nSize AC/Attack CMB/CMD Fly Skill Stealth Skill\nFine +8 -8 +8 +16\nDiminutive +4 -4 +6 +12\nTiny +2 -2 +4 +8\nSmall +1 -1 +2 +4\nMedium +0 +0 +0 +0\nLarge -1 +1 -2 -4\nHuge -2 +2 -4 -8\nGargantuan -4 +4 -6 -12\nColossal -8 +6 -8 -16",
+  "tables": [
+    {
+      "headerRow": false,
+      "rows": [
+        [
+          "Size",
+          "AC/Attack",
+          "CMB/CMD",
+          "Fly Skill",
+          "Stealth Skill"
+        ],
+        [
+          "Fine",
+          "+8",
+          "-8",
+          "+8",
+          "+16"
+        ],
+        [
+          "Diminutive",
+          "+4",
+          "-4",
+          "+6",
+          "+12"
+        ],
+        [
+          "Tiny",
+          "+2",
+          "-2",
+          "+4",
+          "+8"
+        ],
+        [
+          "Small",
+          "+1",
+          "-1",
+          "+2",
+          "+4"
+        ],
+        [
+          "Medium",
+          "+0",
+          "+0",
+          "+0",
+          "+0"
+        ],
+        [
+          "Large",
+          "-1",
+          "+1",
+          "-2",
+          "-4"
+        ],
+        [
+          "Huge",
+          "-2",
+          "+2",
+          "-4",
+          "-8"
+        ],
+        [
+          "Gargantuan",
+          "-4",
+          "+4",
+          "-6",
+          "-12"
+        ],
+        [
+          "Colossal",
+          "-8",
+          "+6",
+          "-8",
+          "-16"
+        ]
+      ]
+    }
+  ],
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c74d56aa3853eac9.json",
+    "web": "https://codex.pipsprojects.com/#/e/c74d56aa3853eac9"
+  },
+  "license": "OGL 1.0a"
+}
