@@ -54,16 +54,28 @@ function sectionsOf(rows) {
   return out;
 }
 
+/* The COMPLETE 9-level lists live in a source file this tool only ever READS.
+ *
+ * This used to take them from the "Summon Monster 1" spell's own table in data/tables.js — the very
+ * table it then overwrote with the level-1 slice. The first run was right; every re-run sliced the
+ * slice, so Summon Monster 2-9 all ended up showing only the 1st-level creatures. It shipped, and
+ * was only noticed when the rows were counted. The source must never be something we write. */
+const SOURCE = JSON.parse(fs.readFileSync(path.join(ROOT, "tools/sources/summon-lists.json"), "utf8")).lists;
+
 const FAMILIES = [
-  { base: "Summon Monster", src: "Summon Monster 1" },
-  { base: "Summon Nature's Ally", src: "Summon Nature's Ally 1" },
+  { base: "Summon Monster" },
+  { base: "Summon Nature's Ally" },
 ];
 
 const plan = [];       // { id, name, tables }
 for (const fam of FAMILIES) {
-  const srcRow = spellNamed(fam.src);
-  if (!srcRow || !TABLES[srcRow[0]]) { console.error(`no source table on ${fam.src}`); continue; }
-  const sec = sectionsOf(TABLES[srcRow[0]][0].r);
+  const full = SOURCE[fam.base];
+  if (!full) { console.error(`no source list for ${fam.base}`); process.exit(1); }
+  const sec = sectionsOf(full);
+  // Refuse to slice a partial list: a missing level would silently drop creatures from every
+  // spell that should show it, and every page would still render.
+  for (let l = 1; l <= 9; l++)
+    if (!sec[l]) { console.error(`source list for ${fam.base} has no ${l}th-level section — refusing to slice a partial list`); process.exit(1); }
   for (let n = 1; n <= 9; n++) {
     const row = spellNamed(`${fam.base} ${n}`);
     if (!row) { console.error(`missing spell ${fam.base} ${n}`); continue; }
