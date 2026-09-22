@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; manifest-src 'self'">
 <title>PF1e Codex — Offline Reference</title>
-<link rel="stylesheet" href="styles.css?v=73">
+<link rel="stylesheet" href="styles.css?v=74">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0f1115">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,18 +35,31 @@
   PF1e Codex is an unofficial, noncommercial fan reference and is not published,
   endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks
   are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.
+  <br><a href="#/feedback">Found an error, or is some content here yours? Let us know →</a>
 </footer>
+<!-- Hidden shadow form: Netlify's deploy-time bot parses the STATIC HTML for a <form data-netlify>
+     to register the form and its fields; it never runs app.js. The real, visible form is built by
+     viewFeedback() in app.js and submits itself via fetch(), so this copy is never shown or filled
+     in by a person — its only job is to exist in the deployed markup with matching field names. -->
+<form name="codex-feedback" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="codex-feedback">
+  <input type="text" name="bot-field">
+  <select name="type"><option value="claim">This content is mine</option><option value="report">Report a problem</option><option value="other">Other</option></select>
+  <input type="text" name="entry">
+  <textarea name="message"></textarea>
+  <input type="email" name="email">
+</form>
 <div id="scrim"></div>
 <!-- ?v= must match DATA_V in app.js and CACHE in sw.js. The service worker only force-freshens
      app.js/styles.css/meta.js; without this token a client could pair a FRESH meta.js with a
      STALE index.js — new filter categories over rows that lack them, i.e. filters returning nothing. -->
-<script src="data/meta.js?v=73"></script>
-<script src="data/quickref.js?v=73"></script>
-<script src="data/index.js?v=73"></script>
-<script src="data/art.js?v=73"></script>
-<script src="data/themes.js?v=73"></script>
-<script src="data/bodythemes.js?v=73"></script>
+<script src="data/meta.js?v=74"></script>
+<script src="data/quickref.js?v=74"></script>
+<script src="data/index.js?v=74"></script>
+<script src="data/art.js?v=74"></script>
+<script src="data/themes.js?v=74"></script>
+<script src="data/bodythemes.js?v=74"></script>
 <!-- tables.js + feattree.js are loaded lazily by app.js (off the cold-start path) -->
-<script src="app.js?v=73"></script>
+<script src="app.js?v=74"></script>
 </body>
 </html>

@@ -306,8 +306,13 @@ table.gm-table th.rowh{font-weight:600;color:var(--ink);white-space:nowrap}
 .nf-field label{font-size:11.5px;color:var(--ink-soft);font-weight:700;letter-spacing:.03em;text-transform:uppercase}
 .nf-num{width:82px}
 .nf-seed{min-width:180px}
-.nf-panel input[type=number],.nf-panel input[type=text]{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:15px;outline:none;min-height:40px}
-.nf-panel input:focus{border-color:var(--accent)}
+.nf-panel input[type=number],.nf-panel input[type=text],.nf-panel input[type=email],.nf-panel textarea{background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:15px;outline:none;min-height:40px;font-family:inherit}
+.nf-panel textarea{resize:vertical;min-height:110px}
+.nf-panel input:focus,.nf-panel textarea:focus{border-color:var(--accent)}
+/* Feedback form (#/feedback): its two free-text fields should run the full panel width, not shrink
+   to content like the short seed/number inputs elsewhere in .nf-panel. */
+.fb-wide{width:100%}
+.fb-err{color:#c0552f;margin-top:8px}
 .nf-seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
 .nf-seg button{background:var(--bg);color:var(--ink-soft);border:0;padding:9px 13px;font-size:14px;cursor:pointer;font-weight:600}
 .nf-seg button.on{background:var(--accent);color:#fff}
