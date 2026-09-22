@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "73";
+  var DATA_V = "74";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2313,6 +2313,50 @@
     swap(wrap); window.scrollTo(0,0);
   }
 
+  // ---- Feedback / claim-this-content form ----
+  // Submits to Netlify Forms via fetch (not a native <form> POST, so the page's strict
+  // form-action:'none' CSP is never in play — this is just a same-origin fetch, already allowed
+  // by connect-src:'self'). Netlify's deploy-time bot registers the form from the hidden static
+  // copy in index.html; this is the one a person actually sees and fills in.
+  function viewFeedback(query){
+    setActiveNav(null);
+    var wrap=h("div"); var head=h("div",{class:"list-head"});
+    head.innerHTML='<h2>✉ Feedback</h2><span class="meta">Spot an error, or recognize something here as your own work? Tell us — this goes straight to the Codex\'s owner.</span>';
+    wrap.appendChild(head);
+    var panel=h("div",{class:"nf-panel"});
+    var form=h("form");
+    function field(l,c){ var f=h("div",{class:"nf-field"}); f.appendChild(h("label",null,l)); f.appendChild(c); return f; }
+    var typeSel=h("select",{class:"char-sel"});
+    [["This content is mine","claim"],["Report a problem","report"],["Something else","other"]].forEach(function(o){ typeSel.appendChild(new Option(o[0],o[1])); });
+    var entryIn=h("input",{type:"text",placeholder:"e.g. Devil, Erinyes",class:"fb-wide"}); entryIn.value=(query&&query.entry)||"";
+    var msgTa=h("textarea",{placeholder:"What should we know?",rows:"6",class:"fb-wide"});
+    var emailIn=h("input",{type:"email",placeholder:"you@example.com (optional, if you want a reply)",class:"fb-wide"});
+    var bot=h("input",{type:"text",name:"bot-field",tabindex:"-1",autocomplete:"off"}); bot.style.cssText="position:absolute;left:-9999px;width:1px;height:1px";
+    var row1=h("div",{class:"nf-row"}); row1.appendChild(field("What's this about?",typeSel)); row1.appendChild(field("Which entry (optional)",entryIn));
+    form.appendChild(row1);
+    form.appendChild(field("Message",msgTa));
+    form.appendChild(field("Your email (optional)",emailIn));
+    form.appendChild(bot);
+    var err=h("div",{class:"muted fb-err"},""); err.style.display="none";
+    var actions=h("div",{class:"nf-actions"});
+    var send=h("button",{class:"char-act nf-primary",type:"submit"},"Send");
+    actions.appendChild(send); form.appendChild(actions); form.appendChild(err);
+    function setBusy(b){ send.disabled=b; send.textContent=b?"Sending…":"Send"; }
+    form.onsubmit=function(e){
+      e.preventDefault();
+      if(bot.value){ showThanks(); return; }                 // a bot filled the honeypot: pretend success, send nothing
+      if(!msgTa.value.trim()){ err.textContent="Add a message before sending."; err.style.display=""; msgTa.focus(); return; }
+      err.style.display="none"; setBusy(true);
+      var body=new URLSearchParams({ "form-name":"codex-feedback", type:typeSel.value, entry:entryIn.value, message:msgTa.value, email:emailIn.value });
+      fetch("/", { method:"POST", headers:{"Content-Type":"application/x-www-form-urlencoded"}, body:body.toString() })
+        .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); showThanks(); })
+        .catch(function(){ setBusy(false); err.textContent="Couldn't send that — check your connection and try again."; err.style.display=""; });
+    };
+    function showThanks(){ panel.innerHTML=""; panel.appendChild(h("div",{class:"muted"},"✅ Thanks — got it.")); }
+    panel.appendChild(form); wrap.appendChild(panel);
+    swap(wrap); window.scrollTo(0,0);
+  }
+
   // ---- "Rules I Always Forget" cheat page ----
   var CHEATS=[
     ["Flanking","You and an ally on opposite sides of a foe you both threaten each get +2 to melee attacks. Rogues can sneak attack a flanked foe. Reach/positioning still has to line up through the enemy’s center."],
@@ -2631,6 +2675,7 @@
     if(hash==="/spellprice") return viewSpellPrice();
     if(hash==="/stacking") return viewStacking();
     if(hash==="/weather") return viewWeather();
+    if(hash==="/feedback") return viewFeedback(query);
     if(hash==="/cheat") return viewCheat();
     if(hash==="/recent") return viewRecent();
     if(hash==="/timeline") return viewTimeline();
