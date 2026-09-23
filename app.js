@@ -1149,9 +1149,14 @@
     return a;
   }
 
+  // Curly vs straight apostrophe: entries repaired from archiver corruption (demojibake(), and this
+  // Codex's own d20pfsrd sanitizeText()) land on a typographic '’' ("Ocean’s Army"), but a
+  // keyboard types the straight "'" — found live when "ocean's" matched nothing because plain
+  // indexOf() never equates the two. Both search paths (runSearch, fuzzyNames) must fold them together.
+  function normApos(s){ return String(s||"").replace(/[‘’]/g,"'"); }
   // Boolean query: space = AND, "quoted phrase", leading - = exclude.
   function parseQuery(q){
-    var lower=(q||"").toLowerCase(), phrases=[];
+    var lower=normApos((q||"").toLowerCase()), phrases=[];
     lower=lower.replace(/"([^"]+)"/g,function(_,p){var t=p.trim();if(t)phrases.push(t);return " ";});
     var terms=[],excludes=[];
     lower.split(/\s+/).forEach(function(t){t=t.trim();if(!t)return;if(t.charAt(0)==="-"&&t.length>1)excludes.push(t.slice(1));else if(t)terms.push(t);});
@@ -1166,9 +1171,9 @@
   function runSearch(p){
     var res=[];
     for(var i=0;i<IDX.length;i++){
-      var r=IDX[i]; if(isJunkEntry(r)) continue; var name=r[I_NAME].toLowerCase();
-      var hay=name+" "+r[I_RAW].toLowerCase()+" "+(r[I_SNIP]||"").toLowerCase();
-      if(DEEP){ var b=(BODIES[r[I_SLUG]]||{})[r[I_ID]]; if(b) hay+=" "+b.toLowerCase(); }
+      var r=IDX[i]; if(isJunkEntry(r)) continue; var name=normApos(r[I_NAME].toLowerCase());
+      var hay=name+" "+normApos(r[I_RAW].toLowerCase())+" "+normApos((r[I_SNIP]||"").toLowerCase());
+      if(DEEP){ var b=(BODIES[r[I_SLUG]]||{})[r[I_ID]]; if(b) hay+=" "+normApos(b.toLowerCase()); }
       var ok=true,j;
       for(j=0;j<p.terms.length;j++){ if(hay.indexOf(p.terms[j])<0){ok=false;break;} }
       if(ok) for(j=0;j<p.phrases.length;j++){ if(hay.indexOf(p.phrases[j])<0){ok=false;break;} }
@@ -2722,9 +2727,9 @@
   var palItems=[], palSel=-1;
   function bigrams(s){ var b={},i; for(i=0;i<s.length-1;i++){var g=s.substr(i,2); b[g]=(b[g]||0)+1;} return b; }
   function fuzzyNames(q){
-    q=q.toLowerCase(); if(q.length<3) return [];
+    q=normApos(q.toLowerCase()); if(q.length<3) return [];
     var qb=bigrams(q), out=[], fc=q.charAt(0);
-    for(var i=0;i<IDX.length;i++){ var nm=IDX[i][I_NAME].toLowerCase();
+    for(var i=0;i<IDX.length;i++){ var nm=normApos(IDX[i][I_NAME].toLowerCase());
       if(nm.charAt(0)!==fc || Math.abs(nm.length-q.length)>3) continue;
       var nb=bigrams(nm), inter=0, g; for(g in qb) if(nb[g]) inter+=Math.min(qb[g],nb[g]);
       var dice=2*inter/((q.length-1)+(nm.length-1)||1);
