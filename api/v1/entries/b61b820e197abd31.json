@@ -1,0 +1,32 @@
+{
+  "id": "b61b820e197abd31",
+  "name": "Curse of Yig",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 7,
+      "druid": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "chaotic",
+      "death",
+      "poison"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School transmutation [chaotic, death, poison]; Level cleric 7, druid 7, shaman 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange unlimited\nTarget one humanoid who has betrayed a secret that the caster directly shared\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nA limb (usually an arm) of the target transforms into a viper and bites the target, automatically hitting and dealing 1d4+1 piercing damage. Unless the target is immune to poison, it automatically suffers 1d4 points of Constitution damage and its flesh bloats purple around the wound, hemorrhaging throughout its body (but leaving the snake unharmed). Each round, the snake bites again as before. The viper is a Small venomous snake with the advanced template and hit points equal to half the victim’s maximum. Any damage, healing, or spell targeting the viper or victim while they are attached applies to the other as well. The viper is not affected by poison or by damage to the victim’s ability scores. If the victim dies, the viper detaches and moves to attack the nearest creature within 1 mile per caster level that you know to have learned the secret or the victim knew to have learned the secret you wish to keep hidden, continuing on a rampage of murder until the snake is killed or no targets are left within range. The snake then becomes a normal viper.\n\nThe viper detaches from the victim when its hit points are reduced to 0. If the limb is cut off or falls off, a regenerate spell or the regeneration ability cannot restore the original limb, but a limited wish, greater restoration, wish, or miracle spell can. If the target dies from the snake’s attack or other causes later while still missing the limb, he cannot be raised from the dead by the raise dead spell. Only a more powerful spell such as resurrection, true resurrection, miracle, or wish can bring the victim back to life.\n\nThis spell can only be cast on a target once by a particular caster, regardless of the number of secrets betrayed or the outcome of the spell. You cannot cast this spell on the same target again.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b61b820e197abd31.json",
+    "web": "https://codex.pipsprojects.com/#/e/b61b820e197abd31"
+  },
+  "license": "OGL 1.0a"
+}

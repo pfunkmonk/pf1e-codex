@@ -1,0 +1,27 @@
+{
+  "id": "f6c991e0b2ebff8f",
+  "name": "One Track Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target will continually repeat his last action before the spell was cast for the duration of the spell, whether it was swinging a weapon at a target that may no longer be in front of him, casting a spell that he may no longer have available, drinking from a potion vial that is now empty, etc. The target gets a new save each round to shake off the effects of the spell.\n\nIf the target’s last action was casting a spell, he will only successfully cast the spell again if he still has that spell prepared or available, and has any necessary components\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f6c991e0b2ebff8f.json",
+    "web": "https://codex.pipsprojects.com/#/e/f6c991e0b2ebff8f"
+  },
+  "license": "OGL 1.0a"
+}

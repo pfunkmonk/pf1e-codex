@@ -1,0 +1,29 @@
+{
+  "id": "3c5dff672a0b28bc",
+  "name": "Flashbang",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire",
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire, light]; Level bloodrager 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of phosphorus)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius burst\nDuration instantaneous; see text\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a flash of bright fire in the area. Sighted creatures are blinded for 2d8 rounds. A successful Fortitude save reduces the effect to dazzled. Creatures outside the radius of the burst but within 120 feet of its center must make a Fortitude save or be blinded for 2d4 rounds, if they have line-of-sight on the flashbang. A successful save negates the effect for them altogether.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3c5dff672a0b28bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/3c5dff672a0b28bc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e1b415bd25767bb0",
+  "name": "Burning Skull",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 4,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation; Level psychic 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (pinch of saltpeter)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one creature\nDuration instantaneous\nSaving Throw Fortitude half and Reflex (see description); Spell Resistance yes\n\nDESCRIPTION\n\nYou turn the target’s skull into a conflagration from the inside out. The target takes 6d6 fire damage and is blinded. They then catch on fire taking 3d6 fire each round. The target remains blinded for as long as they are on fire. A successful initial Fortitude save halves the fire damage and negates the blinding and catching on fire. Then each round they can attempt to put out the fire with a Reflex save against this spell’s DC. The ongoing fire damage does not stack with other fire damage dealt from being on fire.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1b415bd25767bb0.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1b415bd25767bb0"
+  },
+  "license": "OGL 1.0a"
+}

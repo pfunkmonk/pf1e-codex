@@ -1,0 +1,28 @@
+{
+  "id": "b7eb48f58b7fadb9",
+  "name": "Inspiring Speech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "paladin": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 5, cleric/oracle 5, paladin 4\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M/DF\n\nEFFECT\n\nRange 500 ft.\nArea caster and all allies within a 500-ft. burst, centered on the caster\nDuration 1 hr./level and see below\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou give a rousing speech for 10 min. while you cast this spell. Upon finishing, all allies within the area of effect who heard your speech gain a +2 morale bonus on attack rolls and saving throws against mind-affecting effects. Additionally, each recipient benefits from the Diehard feat while bolstered by this spell. Finally, each ally affected by this spell gains the effects of status with respect to you.\n\nIf you move farther away than 1 mile from your allies or you die, this spell ends. A character may only be affected by one inspiring speech at a time; any subsequent castings automatically fail.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7eb48f58b7fadb9.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7eb48f58b7fadb9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "453aa6ff5ac604fc",
+  "name": "Undead Beacon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "cleric": 2,
+      "inquisitor": 2
+    },
+    "desc": [
+      "emotion",
+      "evil",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy (haunted) [emotion, evil, fear, mind-affecting]; Level antipaladin 2, cleric 2, inquisitor 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one 5-ft. cube/level (S)\nDuration 1 hour/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou shroud an area in unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature’s attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as hide from undead). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature’s spells and special abilities. The undead also ignores any concealment less than total concealment that an affected creature has. Each time the spell draws an undead creature’s attention to an affected creature, the spell’s haunt-like manifestation occurs during that round.\n\nHAUNT STATISTICS\n\nNotice Perception DC 20 (to see a pale light briefly in the area); hp 2 hp/level; Trigger proximity; Reset none\n\nPathfinder Player Companion: Haunted Heroes Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, Thurston Hillman, Isabelle Lee, Stephen Rowe, and Christopher Wasko.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/453aa6ff5ac604fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/453aa6ff5ac604fc"
+  },
+  "license": "OGL 1.0a"
+}

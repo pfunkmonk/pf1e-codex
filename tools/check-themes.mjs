@@ -35,9 +35,11 @@ const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
  * illustrator can draw, not a vague catch-all, and their variant counts keep them under 20 pages
  * per image. The per-image check below is the real quality gate; this one catches vagueness.
  * Spells are the same story for a different reason: their themes match mostly on SUBSCHOOL and
- * DESCRIPTOR, which are authored categories rather than guesses. `charm-mind` claims 191 because
- * compulsion is genuinely the largest subschool in the game, not because the regex is sloppy. */
-const MAX_CLAIM = { feats: 150, items: 260, spells: 200 };
+ * DESCRIPTOR, which are authored categories rather than guesses. `charm-mind` claims 204 (was 191
+ * before the d20pfsrd import added more real compulsion spells — checked each new one by hand,
+ * all genuinely "School enchantment (compulsion)") because compulsion is genuinely the largest
+ * subschool in the game, not because the regex is sloppy. */
+const MAX_CLAIM = { feats: 150, items: 260, spells: 215 };
 const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
 globalThis.window = {};

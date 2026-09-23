@@ -1,0 +1,32 @@
+{
+  "id": "e4b51521561034e2",
+  "name": "Animate Dead, Hasty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 3,
+      "antipaladin": 3,
+      "cleric": 3,
+      "occultist": 3,
+      "shaman": 3,
+      "spiritualist": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School necromancy [evil]; Level adept 3, antipaladin 3, cleric 3, occultist 3, shaman 3, spiritualist 3, wizard 4\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange touch\nTargets one or more corpses touched\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as animate dead, except as noted above and as follows. It turns corpses into undead skeletons or zombies that obey your spoken commands. The spell has a duration and is thus subject to dispel magic. At the end of the duration, undead created by it revert to corpses. Corpses affected by this spell cannot later be made into undead again by a spell of less than 4th level.\n\nRegardless of the type of undead you create with this spell, you can’t have more total HD of undead created by this spell at one time than your caster level. The desecrate spell doubles this limit.\n\nThis spell counts as animate undead for purposes of how many total HD of undead you can control at once.\n\nHasty Spells © 2024, Owen K.C. Stephens; Author: Joshua Hennington. Developer: Owen K.C. Stephens. Project manager and Planning: Lj Stephens. Bon Vivant: Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4b51521561034e2.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4b51521561034e2"
+  },
+  "license": "OGL 1.0a"
+}

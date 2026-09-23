@@ -1,0 +1,30 @@
+{
+  "id": "a4bd34fecc414a6a",
+  "name": "Poisoned Needles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "legendary ninja": 4,
+      "magus": 4,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "metal",
+      "poison"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation) [metal, poison]; Level legendary ninja 4, magus 4, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a metal needle)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more creature, no two of which can be more than 30 feet apart\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like hail of needles, but you can deal maximum damage with your needles of 15d4 (though bleed damage to any creature cannot exceed 1/2 your caster level). In addition, any creature damaged by the needles is also exposed to one of the following poison effects:\n\nDeadly poison-injury: effect 1d3 Con; frequency 1/round; duration 6 rounds, cure 1 save.\nNumbing poison-injury: effect 1d4 Con; frequency 1/round; duration 6 rounds, cure 1 save.\nParalytic poison-injury: effect paralysis 1 round; secondary effect paralysis 2d6 rounds.\n\nThe save DC for any of these poison effects is equal to the spell’s save DC.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4bd34fecc414a6a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4bd34fecc414a6a"
+  },
+  "license": "OGL 1.0a"
+}

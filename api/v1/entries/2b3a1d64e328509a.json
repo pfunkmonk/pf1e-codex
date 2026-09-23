@@ -1,0 +1,25 @@
+{
+  "id": "2b3a1d64e328509a",
+  "name": "Shadow’s Blessing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "wizard": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (transmutation); Level bard 1, cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe recipient of this spell enjoys several benefits depending on the illumination level. In bright light, the recipient gains no bonuses from shadow’s blessing. In normal light, the recipient gains a +2 morale bonus on Stealth checks and imposes a 10% miss chance on other creatures that attack the recipient, as the spell provides a lesser form of concealment.\n\nIn dim light, the recipient gains a +4 morale bonus on Stealth checks and increases the miss chance from concealment with respect to him to 30%. In darkness, the recipient gains a +6 morale bonus on Stealth checks and imposes a 10% miss chance on creatures with darkvision that attack the recipient (there is no additional miss chance for creatures without darkvision).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b3a1d64e328509a.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b3a1d64e328509a"
+  },
+  "license": "OGL 1.0a"
+}

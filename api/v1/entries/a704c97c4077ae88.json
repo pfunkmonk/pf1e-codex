@@ -1,0 +1,24 @@
+{
+  "id": "a704c97c4077ae88",
+  "name": "Countervailing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 0,
+      "druid": 0
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level cleric/oracle 0, druid 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou compensate after the fact for the effects of any ongoing detrimental spell; the penalty is temporarily removed and turned into a bonus equal to one-half the value of that penalty (round fractions up). For example, if a character is affected by a bane spell that makes her suffer a –1 morale penalty on attacks and saves against fear, then the spell grants a +1 morale bonus to attacks and saves against fear. If a curse causes a character to suffer a –6 penalty to Strength, this spell grants a +3 bonus to Strength.\n\nCountervailing affects only targets affected by spells with a non-instantaneous duration. This spell does not heal wounds (or compensate for them), although it will grant bonuses to ability scores to compensate for very temporary effective losses, such as the effects of a ray of enfeeblement.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a704c97c4077ae88.json",
+    "web": "https://codex.pipsprojects.com/#/e/a704c97c4077ae88"
+  },
+  "license": "OGL 1.0a"
+}

@@ -268,7 +268,7 @@ window.PF_THEMES = {
     ["sonic",         /\bsound\b|\bsonic|\bshout|\bscream|\bshriek|\bnoise|\bsilence|\bcacoph|\bsong\b/i, /\[[^\]]*sonic/i, 2],
     ["force",         /\bforce\b|\bhand\b|\bsphere\b|\btelekine|\bbattering/i, /\[[^\]]*force/i, 3],
     ["earth-stone",   /\bstone\b|\bearth\b|\brock\b|\bmeld\b|\bsoften|\btransmute|\bmove earth|\bmetal\b|\biron\b|\bcrystal/i, /\[[^\]]*earth/i, 3],
-    ["plant-nature",  /\bplant\b|\btree\b|\bwood\b|\bvine\b|\bthorn|\bbriar|\bgrove|\bnature|\bbloom|\bgrasp|\bshillelagh|\bgoodberry/i, null, 1],
+    ["plant-nature",  /\bplant\b|\btree\b|\bwood\b|\bvine\b|\bthorn|\bbriar|\bgrove|\bnature|\bbloom|\brusting grasp|\bshillelagh|\bgoodberry/i, null, 1],
     ["animal",        /\banimal|\bbeast\b|\bvermin|\bswarm|\bmagic fang|\bbite\b|\bcharm animal|\bhold animal|\bspeak with animals/i, null, 2],
     ["weather",       /\bweather|\brain\b|\bwind\b|\bsleet|\bhail\b|\bcontrol winds|\bgust\b|\bfog cloud/i, /\[[^\]]*air/i, 2],
     ["water",         /\bwater\b|\baqua|\bocean|\bsea\b|\btide\b|\bwave\b|\bdrown|\bswim/i, /\[[^\]]*water/i, 3],

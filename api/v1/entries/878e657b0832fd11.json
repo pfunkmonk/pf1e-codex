@@ -1,0 +1,27 @@
+{
+  "id": "878e657b0832fd11",
+  "name": "Bound Prophecy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 9
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind-affecting]; Level cleric/oracle 9\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration permanent until fulfilled; see text\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou make a prophecy about the target creature or his descendants. From the point of casting onward, the target and his descendants (including adopted descendants) are treated as if under a permanent geas/quest, which drives them to fulfill the stated prophecy. The only way to remove the effects of bound prophecy (other than successful fulfillment of the prophecy) is by a miracle or wish spell, cast by a spellcaster 3 or more levels higher than you.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/878e657b0832fd11.json",
+    "web": "https://codex.pipsprojects.com/#/e/878e657b0832fd11"
+  },
+  "license": "OGL 1.0a"
+}

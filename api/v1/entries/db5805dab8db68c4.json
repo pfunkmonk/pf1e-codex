@@ -1,0 +1,27 @@
+{
+  "id": "db5805dab8db68c4",
+  "name": "Delude Divination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "chaos"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (glamer) [chaos]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object, up to a 10-ft. cube in size\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nDivinations cast on the target are scrambled, giving random results to effects that detect auras (detect evil, detect magic, discern lies, and the like). If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spelleaster who cast the delude divination. If successful, the divination works normally for its duration. Otherwise, the divination is nullified, giving random results each minute.\n\nFor spells that detect presence or absence, there is a 50% chance for either possibility, rolled each minute that the divination is focused on the target. For spells that determine intensity, roll 1d6.\n\nd6\tIndicated Result\n1\tNon-existent\n2\tDim (or Faint if this category does not normally exist for the divination)\n3\tFaint\n4\tModerate\n5\tStrong\n6\tOverwhelming\n\nThis spell does not affect other types of divination (augury, detect thoughts, clairaudience/clairvoyance, and the like).\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db5805dab8db68c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/db5805dab8db68c4"
+  },
+  "license": "OGL 1.0a"
+}

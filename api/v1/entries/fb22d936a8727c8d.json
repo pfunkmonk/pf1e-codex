@@ -1,0 +1,25 @@
+{
+  "id": "fb22d936a8727c8d",
+  "name": "Eldritch Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "magus": 4,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 4, magus 4, witch 5\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, F (fresh blood)\n\nEFFECT\n\nRange short (25 ft. +5 ft./2 levels)\nTarget one living creature\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nWhen you score a critical hit on a creature within this spell’s range or cause such a creature to suffer a bleed effect, you can use its spilled blood to forge an eldritch link between the bleeding creature’s entire ancestry and one target within range of your choice. The spilled blood serves as the focus for this spell.\n\nThe target you select gains access to the bloodline arcana and bloodline powers of either the arcane or destined bloodline (as determined by you), using your caster level as its sorcerer level. The target does not receive any bonus skills, spells, or feats.\n\nAny bonuses that would normally be permanent (such as gaining a familiar or having a bonus to saving throws in a surprise round) last for the spell’s duration. Any abilities that can only be used a limited number of times per day may each only be used once by the target of this spell (even if they could normally be used more often). This is true even if the target gains bloodline abilities via this spell multiple times in the same day. For example, a target that gains the touch of destiny ability via this spell can only use it once per day, even if this spell is cast on it multiple times in the same day.\n\nWhen an alchemist uses this as an extract, the creature injured to create the focus blood must be adjacent to the alchemist. The extract created can be immediately drank by the alchemist as a free action, or drank by an ally that becomes the recipient of bloodline powers and abilities (if the alchemist has the infusion discovery) as a standard action later. The extract’s duration still runs from the time it is created (rather than beginning when it is drank).\n\nIf the blood used as a focus is from an aberration, you may instead gain the described benefits of the aberrant bloodline.\n\nIf the blood used as a focus is from a chaotic evil outsider, you may instead gain the described benefits of the abyssal bloodline.\n\nIf the blood used as a focus is from a good-aligned outsider, you may instead gain the described benefits of the celestial bloodline.\n\nIf the blood used as a focus is from a dragon, you may instead gain the described benefits of the draconic bloodline. In this case, you gain the breath weapon of the type of dragon whose blood fuels this spell.\n\nIf the blood used as a focus is from a creature with the air, earth, fire, or water subtype, you may instead gain the described benefits of a matching elemental bloodline. (Note that elementals are immune to critical hits and bleeds, and thus cannot be the donor of blood for this spell.) If the blood used as a focus is from a creature with the fey type, you may instead gain the described benefits of the fey bloodline.\n\nIf the blood used as a focus is from a non-chaotic and evil outsider, you may instead gain the described benefits of the infernal bloodline.\n\nIf the blood used as a focus is divine blood (the creature is a demigod, an outsider with 20 or more HD, or has godling class levels from Super Genius Games’ The Genius Guide to the Godling), the target of this spell also gains one random bonus feat from the bloodline for the duration of this spell.\n\nMythic: The target may use abilities with a limited number of uses per day as often as a sorcerer of your caster level would be able to.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb22d936a8727c8d.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb22d936a8727c8d"
+  },
+  "license": "OGL 1.0a"
+}

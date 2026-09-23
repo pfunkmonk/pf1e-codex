@@ -1,0 +1,23 @@
+{
+  "id": "4d87d6ac48f6c84b",
+  "name": "Decelerate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "domain time": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 2; Domain Time 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, F/DF (a toy top)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels) Target one creature\nDuration 1 round/level\nSaving Throw Will partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou slow the flow of time around a creature. The target’s speed is halved each round at the beginning of his or her turn, rounded up to the nearest 5-ft. increment. This reduction to speed is treated as a penalty.\n\nFor example, a character with a speed of 30 ft. begins the next turn with a speed of 15 ft., the following round with a speed of 10 ft., and the following and subsequent rounds with a speed of 5 ft. This spell cannot reduce a creature’s speed to less than 5 ft. The target may spend a full-round action each round to attempt another saving throw. If the target successfully saves on the initial or subsequent saving throws, the reduction to speed lasts for the following round and then ends.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d87d6ac48f6c84b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d87d6ac48f6c84b"
+  },
+  "license": "OGL 1.0a"
+}

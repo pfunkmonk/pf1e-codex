@@ -1,0 +1,25 @@
+{
+  "id": "452632b2e72a17b7",
+  "name": "Remortification",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School necromancy; Level cleric 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (diamonds worth 250 gp)\n\nEFFECT\n\nRange touch\nTarget dead creature touched\nDuration 5 rounds\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe corpse you touch returns to life with a permanent negative level and 7d6 + caster level hit points (maximum 7d6+15, to a maximum of the creature’s reduced maximum hit point total). The corpse must have been dead for no longer than 5 rounds when you cast the spell. At the end of the target creature’s action on the 5th round, the creature dies again, regardless of any healing magic used in the intervening time. When it dies at the end of the spell, its negative hit points return to the same number it had before, allowing the creature to be revived by effects like breath of life as if no time had passed since its previous death. If it is killed before the 5 rounds elapse, the spell ends immediately and its negative hit points become what they were when it last died or remain at the current total, whichever is worse. Remortification has no effect on undead creatures.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/452632b2e72a17b7.json",
+    "web": "https://codex.pipsprojects.com/#/e/452632b2e72a17b7"
+  },
+  "license": "OGL 1.0a"
+}

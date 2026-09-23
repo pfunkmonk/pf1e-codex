@@ -1,0 +1,31 @@
+{
+  "id": "c1ca270924e5786c",
+  "name": "Earthen Shard",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "elementer": 1,
+      "invoker": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "summoner": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [earth]; Level druid 1, elementer 1, invoker 1, shaman 1, sorcerer/wizard 1, summoner 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 4-ft.-high slab of earth\nDuration 1 round\nSaving Throw Reflex half; Spell Resistance no\n\nThe ground beneath a single target bursts forth as a slab of earth strikes it from below. The target takes 1d6 bludgeoning damage per caster level (max 5d6) and is rendered flat-footed for 1 round by the sudden upheaval of earth. A Reflex save halves the damage and negates the flat-footed effect.\n\nThe shard must originate from the ground in an area of earthen material, be it dirt, sand, or stone. The target must be on the ground or close above its surface (less than 3 feet) to be struck by the earthen shard.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c1ca270924e5786c.json",
+    "web": "https://codex.pipsprojects.com/#/e/c1ca270924e5786c"
+  },
+  "license": "OGL 1.0a"
+}

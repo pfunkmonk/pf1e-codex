@@ -1,0 +1,27 @@
+{
+  "id": "fa7e183ff9d62130",
+  "name": "Maw of the Nightwave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 8,
+      "witch": 8
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration [darkness]; Level sorcerer/wizard 8, witch 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a shark’s tooth, plus a polished onyx stone worth at least 50 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect mouth that takes up a 20-ft. cube of space\nDuration 1 round/4 levels\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nUpon finishing this spell, the front half of a shadowy, shark-like creature appears where you specify in range, its maw a gnashing void of death. The form belongs to none other than the nightwave, the strongest known form of the undead monstrosities known as nightshades.\n\nThe maw has a space of 20 feet and a reach of 20 feet. The maw can be conjured in another creature’s space. Upon casting the spell and each round afterwards on your turn for the duration, the maw can make a single attack on a creature within its space or within its reach. The maw uses your caster level in place of its base attack bonus, with a +19 Strength bonus (it has 49 Strength) and a -4 size penalty for being gargantuan. On a successful bite, the victim takes 5d10+19 piercing damage, 4d6 cold damage, and gains a negative level. Twenty-four hours after gaining any negative levels, the subject must make a Fortitude saving throw (DC = maw of the nightwave’s spell’s save DC) for each negative level. If the save succeeds, that negative level is removed. If it fails, that negative level becomes permanent.\n\nThe maw has the grab and swallow whole universal monster abilities, allowing it to grapple a creature that it bites as a free action and eventually swallow it. It is able to grab a creature of any size up to colossal, but cannot swallow whole a colossal creature. The maw gets a +4 bonus on grapple checks (from having the grab ability), a +4 size bonus, and has a Dexterity of 16. A creature swallowed whole by the maw takes 5d10+28 bludgeoning damage each round and gains a negative level, as described above. A creature can cut its way out of the maw; the maw’s insides has an AC of 25 and 40 hit points. If a creature manages to cut its way out of the maw, the spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa7e183ff9d62130.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa7e183ff9d62130"
+  },
+  "license": "OGL 1.0a"
+}

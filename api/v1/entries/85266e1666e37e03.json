@@ -1,0 +1,29 @@
+{
+  "id": "85266e1666e37e03",
+  "name": "Intensifying Force",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "ranger": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [force]; Level cleric/oracle 4, druid/shaman 4, ranger 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a tiny wooden funnel)\n\nEFFECT\n\nRange 15 ft.\nArea coned-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA mighty force of energy gathers strength through the affected area. All creatures in the area fall prone.\n\nCreatures within 5 ft. of the cone take 1d4 hp damage per level (maximum 5d4). Creatures 5-10 ft. from the apex of the cone take 1d6 hp damage per level (maximum 10d6). Creatures 10-15 ft. from the apex take 1d8 hp damage per level (maximum 20d8). A successful Reflex save halves the damage and prevents the target from falling prone.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85266e1666e37e03.json",
+    "web": "https://codex.pipsprojects.com/#/e/85266e1666e37e03"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a90b5645690eba52",
+  "name": "Ocean’s Army",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 9,
+      "wizard": 9,
+      "summoner": 6
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [water]; Level druid/shaman 9, sorcerer/wizard 9, summoner 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (open body of water; see text)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou summon Huge water elementals from a significant body of open water, such as a pond, lake, sea or ocean.\n\nYou summon one Huge water elemental for every 5 levels you possess. You may mentally command them each round as a swift action to attack foes, tear down structures, and so on.\n\nIf they are within the spell’s range from the water from which they were summoned, the elementals can make themselves into a vortex on land and do not suffer any penalties.\n\nWater elementals that move beyond the spell’s range from the water’s edge lose these bonuses, and you must succeed in a DC 25 Spellcraft check each round or that elemental is dispelled.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a90b5645690eba52.json",
+    "web": "https://codex.pipsprojects.com/#/e/a90b5645690eba52"
+  },
+  "license": "OGL 1.0a"
+}

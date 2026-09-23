@@ -8,25 +8,26 @@
   "facets": {
     "sch": "evocation",
     "lv": {
-      "arcanist": 1,
-      "cleric": 1,
-      "inquisitor": 1,
-      "magus": 1,
-      "medium": 1,
-      "occultist": 1,
-      "oracle": 1,
-      "psychic": 1,
-      "sorcerer": 1,
-      "summoner": 1,
-      "warpriest": 1,
-      "witch": 1,
-      "wizard": 1
+      "arcanist": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "magus": 4,
+      "medium": 4,
+      "occultist": 4,
+      "oracle": 4,
+      "psychic": 4,
+      "sorcerer": 4,
+      "summoner": 4,
+      "summoner (unchained)": 4,
+      "warpriest": 4,
+      "witch": 4,
+      "wizard": 4
     },
     "save": "Fort",
     "sr": "yes",
     "bk": "Planar Adventures"
   },
-  "body": "Bestow Planar Infusion I\nSource Planar Adventures pg. 39\nSchool evocation; Level arcanist 1, cleric 1, inquisitor 1, magus 1, medium 1, occultist 1, oracle 1, psychic 1, sorcerer 1, summoner 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nThis spell draws upon the latent planar energy of the caster’s surroundings, allowing her to temporarily infuse a creature with the plane’s power. The touched creature gains that plane’s basic infusion for the spell’s duration. This spell has no effect if cast on the Material Plane, and it ends as soon as the spell’s target leaves the plane with which it has been infused. Details on planar infusions can be found in each plane’s Infusion section (listed here).\n\nOnce a creature gains the benefits of bestow planar infusion I, it remains attuned to that plane for 24 hours. Additional castings of bestow planar infusion I during this time bestow the same infusion that was granted by the initial casting that day. Planar infusions that can be used a limited number of times per day are not refreshed by multiple castings of bestow planar infusion I.\nBestow Planar Infusion II\nSource Planar Adventures pg. 39\nSchool evocation; Level arcanist 4, cleric 4, inquisitor 4, magus 4, medium 4, occultist 4, oracle 4, psychic 4, sorcerer 4, summoner 4, summoner (unchained) 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nThis functions as bestow planar infusion I, except that the touched creature gains the improved infusion of the current plane.\nBestow Planar Infusion III\nSource Planar Adventures pg. 39\nSchool evocation; Level arcanist 7, cleric 7, oracle 7, psychic 7, sorcerer 7, witch 7, wizard 7\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nThis functions as bestow planar infusion I, except that the touched creature gains the greater infusion of the current plane.",
+  "body": "Bestow Planar Infusion I\nSource Planar Adventures pg. 39\nSchool evocation; Level arcanist 1, cleric 1, inquisitor 1, magus 1, medium 1, occultist 1, oracle 1, psychic 1, sorcerer 1, summoner 1, summoner (unchained) 1, warpriest 1, witch 1, wizard 1\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nThis spell draws upon the latent planar energy of the caster’s surroundings, allowing her to temporarily infuse a creature with the plane’s power. The touched creature gains that plane’s basic infusion for the spell’s duration. This spell has no effect if cast on the Material Plane, and it ends as soon as the spell’s target leaves the plane with which it has been infused. Details on planar infusions can be found in each plane’s Infusion section (listed here).\n\nOnce a creature gains the benefits of bestow planar infusion I, it remains attuned to that plane for 24 hours. Additional castings of bestow planar infusion I during this time bestow the same infusion that was granted by the initial casting that day. Planar infusions that can be used a limited number of times per day are not refreshed by multiple castings of bestow planar infusion I.\nBestow Planar Infusion II\nSource Planar Adventures pg. 39\nSchool evocation; Level arcanist 4, cleric 4, inquisitor 4, magus 4, medium 4, occultist 4, oracle 4, psychic 4, sorcerer 4, summoner 4, summoner (unchained) 4, warpriest 4, witch 4, wizard 4\nCasting\nCasting Time 1 standard action\nComponents V, S\nEffect\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\nDescription\nThis functions as bestow planar infusion I, except that the touched creature gains the improved infusion of the current plane.",
   "links": {
     "api": "https://codex.pipsprojects.com/api/v1/entries/6d51be97f46c06ba.json",
     "web": "https://codex.pipsprojects.com/#/e/6d51be97f46c06ba"

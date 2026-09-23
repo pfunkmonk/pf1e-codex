@@ -1,0 +1,30 @@
+{
+  "id": "ecc116b460c9423f",
+  "name": "Night Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 4,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "darkness",
+      "water"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [darkness, water]; Level antipaladin 2, oracle 4, shaman 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents: S, M (a drop of ink)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cylinder (10-ft. radius, 40 ft. high)\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nWith a complex gesture, you draw down an eerie black rain. The rain falls for the spell’s duration, soaking the target area and any objects or creatures within it, which are stained ink-black.\n\nIf the target is on fire, the flames are automatically extinguished. Fires smaller than campfires (such as lanterns and torches) are automatically extinguished by this spell. Effects and abilities that modify the impact of weather apply as normal.\n\nThe target area, as well as any targets soaked by the rain, emit darkness in a 5’ radius for the spell’s duration and for 1 minute afterwards, as though affected by a darkness spell (typically leaving a 5’-high layer of darkness on the ground). Night rain can be used to counter or dispel any light spell of equal or lower spell level.\n\nThe Antipaladin’s Almanac, © 2020, Librarians & Leviathans.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ecc116b460c9423f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ecc116b460c9423f"
+  },
+  "license": "OGL 1.0a"
+}

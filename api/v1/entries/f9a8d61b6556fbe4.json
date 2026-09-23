@@ -1,0 +1,29 @@
+{
+  "id": "f9a8d61b6556fbe4",
+  "name": "Fate Denied",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination [mind-affecting]; Level bard 1, cleric/oracle 1, druid/shaman 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/F (a small bit of crystal)\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nWith a single touch, you align the fates against the target. That target suffers a -1 penalty on attack rolls, skill checks, and saving throws. You can dismiss this spell as an immediate action after the target has made an attack roll, skill check, or saving throw, forcing the target to reroll that attack roll, skill check, or saving throw. When it does so, the target takes a -4 penalty instead of a -1 penalty. The target must be in your line of sight for you to dismiss this spell.\n\nFate denied counters and dispels fate revealed.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9a8d61b6556fbe4.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9a8d61b6556fbe4"
+  },
+  "license": "OGL 1.0a"
+}

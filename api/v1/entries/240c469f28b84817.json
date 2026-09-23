@@ -1,0 +1,24 @@
+{
+  "id": "240c469f28b84817",
+  "name": "Cloak of Serpents",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 5,
+      "druid": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 5, druid 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nA writhing, twisting, and hissing mass of snakes surrounds you, protecting you from attacks and biting those that come near you. This spell has two effects: First, you gain a +2 deflection bonus to your AC for the duration of the spell.\n\nSecond, the snakes surrounding you are at your command and attack any creature that comes within 5 feet of you if you so desire. All the snakes attack as a single monster and use your base attack bonus + your Strength modifier. On a successful attack, the target takes 1d4 points of damage and must succeed on a Fortitude save (DC 10 + 1/2 your caster level + your Wis modifier) or take 1d8 points of Strength damage. One minute later, another save (same DC) must be made to avoid another 1d8 points of Strength damage. The target’s resistance or immunity to poison applies.\n\nYou can attack or move normally (including casting other spells) while this spell is in effect. You do not need to concentrate to maintain it.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/240c469f28b84817.json",
+    "web": "https://codex.pipsprojects.com/#/e/240c469f28b84817"
+  },
+  "license": "OGL 1.0a"
+}

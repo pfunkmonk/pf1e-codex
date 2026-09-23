@@ -1,0 +1,24 @@
+{
+  "id": "18b34c9fe89f4ce4",
+  "name": "Devouring Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation; Level cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft. radius\nDuration instantaneous (see text)\nSaving Throw Reflex half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou create a blast of negative energy that damages living creatures and leaves behind an area of darkness. Living creatures within the area of effect suffer take 1d6 points of negative energy damage per caster level of damage (10d6 max; Reflex save for half) and leaves behind an area of darkness equal to that left by a deeper darkness spell for 1 round/caster level. As a negative energy-based spell, undead within the area of effect are healed instead of damaged and creatures protected against negative energy damage suffer no ill effects.\n\nCreatures slain by a devouring darkness spell rise in 1d4+2 rounds as a shadow. The newly risen shadow is not under the caster’s control and is as likely to attack its creator as it is any other nearby creatures.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/18b34c9fe89f4ce4.json",
+    "web": "https://codex.pipsprojects.com/#/e/18b34c9fe89f4ce4"
+  },
+  "license": "OGL 1.0a"
+}

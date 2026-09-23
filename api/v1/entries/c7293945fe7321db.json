@@ -1,0 +1,27 @@
+{
+  "id": "c7293945fe7321db",
+  "name": "Ink Cloud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "creation",
+      "ink"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [creation, ink]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (squid or octopus head)\n\nEFFECT\n\nRange 20 ft.\n\nEffect ink spreads in 20-ft. radius from you, 20 ft. high\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA cloud of ink billows outward from you. The ink obscures all sight, including darkvision, beyond 5 ft. Creatures within 5 ft. of you have concealment.\n\nCreatures farther away have total concealment. A moderate gust of wind or, if underwater, a moderate current (11 mph or more for each) disperses the ink in 4 rounds; a strong wind or current (21 mph or more) disperses the ink in 1 round.\n\nThis spell only functions underwater or in other liquid.\n\nMythic: The cloud of ink spreads 40 ft. from you and is 40 ft. high. Moderate gusts or currents do not disperse the cloud at all. A strong gust or current disperses it in 4 rounds.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7293945fe7321db.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7293945fe7321db"
+  },
+  "license": "OGL 1.0a"
+}

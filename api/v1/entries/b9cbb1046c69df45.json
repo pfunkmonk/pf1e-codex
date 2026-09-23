@@ -1,0 +1,27 @@
+{
+  "id": "b9cbb1046c69df45",
+  "name": "Earth Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School abjuration [earth]; Level druid 5, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 minutes/level or until discharged (see text)\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nYou cover the target in a thick layer of earth with protruding spikes of harder rock, forming a protective barrier. The target gains a +8 armor bonus to AC, and 1d4 temporary hit points per 2 caster levels (maximum 10d4). The armor reduces the target’s movement as if he was in heavy armor (though this has no affect on characters whose movement is already reduced as a result of heavy armor), has a 20% arcane spell failure, maximum Dexterity bonus to AC of +1, and no armor check penalty. The target functions as if wearing heavy armor for purpose of special abilities.\n\nWhile wearing the armor, the target can walk along any earth, stone, or rock surface as if it were flat (including up walls and across ceilings), and no rocky terrain ever counts as difficult terrain. The target can smash foes with his earthen limbs, which attack, threaten foes, and deal damage as if he was armed with a morningstar (but leave his hands free). If the target’s temporary hit point total is dropped to 0 or lower, the spell ends.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9cbb1046c69df45.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9cbb1046c69df45"
+  },
+  "license": "OGL 1.0a"
+}

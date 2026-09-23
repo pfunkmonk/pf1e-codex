@@ -1,0 +1,29 @@
+{
+  "id": "8ac47b1191a347ad",
+  "name": "Prism Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "elementer": 4
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "see text",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration [acid, cold, electricity, fire]; Level elementer 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget willing creature touched\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance see text\n\nYou weave a mutable form of elemental energy, creating a shimmering barrier of force that negates any incoming –or outgoing–elemental energy.\n\nAny elemental energy or force attempting to target the creature and any elemental energy/force being used by the creature are negated, as an antimagic field. For this purpose, “elemental energy or forces” that are negated by the shield includes:\n\nSpells and effects with the air, acid, earth, cold, electricity, fire, or water descriptor, aside from the prism shield itself.\nMagical or supernatural effects that deal acid, cold, electricity, or fire damage, including magic items that deal these damage types (like a flaming weapon)\nContact by summoned creatures with the elemental, air, earth, cold, fire, or water subtypes. This prevents such summoned creatures from harming the creature directly, though indirect forms of contact (such as throwing a weapon at them) can still harm the target. A summoned creature with spell resistance can possibly still hit the target, as described in the antimagic field spell.\n\nArtifacts and deities are unaffected by this spell’s effects. Any effects that can negate, penetrate, or otherwise interact with an antimagic field has the same effect on the prism shield.\n\nIf you sacrifice a prepared prism shield spell to create a spell twist, you treat the spell twist as if created using a spell one level lower than normal (minimum 1st level) but you gain a +5 bonus on checks to overcome spell resistance with that twist, similar to the effects of a Piercing Spell metamagic feat.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8ac47b1191a347ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/8ac47b1191a347ad"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "7f826fff3ab522a1",
+  "name": "Create Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 0,
+      "cleric": 0,
+      "ranger": 1,
+      "shaman": 0,
+      "wizard": 0,
+      "summoner": 0
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School conjuration (creation) [cold, water]; Level adept 0, cleric 0, ranger 1, shaman 0, sorcerer/wizard 0, summoner 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nEffect up to 5 pounds of ice/level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create flakes of frozen water which pile on the touched surface or fall from your hand. The ice is pure and melts into drinkable water over time. This water and ice disappear after 1 day if not consumed.\n\nIf created in a calm body of fresh water, the flakes freeze the surrounding water to create a solid mass. A 5-foot square of water gains an inch of ice on its surface for every 10 pounds summoned into it. Turbulent or hot water breaks up or melts the ice before it forms into a solid surface. A 4-inch covering of ice generally supports up to 200 pounds and is safe for a Medium creature to walk on.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7f826fff3ab522a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/7f826fff3ab522a1"
+  },
+  "license": "OGL 1.0a"
+}

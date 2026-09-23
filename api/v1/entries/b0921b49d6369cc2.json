@@ -1,0 +1,25 @@
+{
+  "id": "b0921b49d6369cc2",
+  "name": "Conjure Barricade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 2,
+      "wizard": 2,
+      "vanguard": 2
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation); Level magus 2, sorcerer/wizard 2, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a nail)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect barricade 10 ft. wide and up to 1 ft./level high\nDuration 1 min./level\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows you to conjure a small barricade to impede foes and provide cover to allies. The barricade is 10 feet wide and can be as high as 1 foot per caster level, is made primarily of wood, and is held together by metal bands and nails. The barricade itself is about six inches thick; it has 60 hit points and hardness 5, and can be broken in one strike with a DC 23 Strength check. As it’s made out of wood, it is fairly susceptible to fire; fire damage ignores the hardness of and deals full damage to a barricade.\n\nOne side of the barricade, designated by you, is covered in spikes 1 foot in length each, spaced about six inches apart. A creature that charges into the barrier rams into the spikes, taking 3d6 points of piercing damage; a Reflex save halves the damage taken. A creature can attempt to climb over a barricade with a DC 15 Climb check, but doing so requires it to make a Reflex save or take 1d6 piercing damage and stop climbing that round.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0921b49d6369cc2.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0921b49d6369cc2"
+  },
+  "license": "OGL 1.0a"
+}

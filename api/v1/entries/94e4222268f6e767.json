@@ -1,0 +1,23 @@
+{
+  "id": "94e4222268f6e767",
+  "name": "Cannibalize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nArea 20-ft. radius + 5 ft./2 levels\nDuration instantaneous\nSaving Throw see below; Spell Resistance no\n\nDESCRIPTION\n\nUp to 4 HD of undead creatures within this spell’s area of effect are destroyed, and you steal hp from them to heal your injuries. For each HD of undead creatures destroyed by the spell, you gain 2 hp. You cannot gain hp beyond your maximum, and you cannot regain hp lost due to Constitution damage.\n\nUndead you have commanded with the Command Undead feat receive no save to avoid this spell’s effects. If undead you do not command make a successful Fortitude save, they still suffer 2d6 hp damage. Undead killed by this damage heal you as if they had failed their save.\n\nGaining hp via this spell is dangerous because it involves infusing negative energy into your living body. If this spell grants you hp equal to two-thirds of your maximum, you must make a Fortitude save (DC 19). Failure results in immediate transformation into a free-willed undead creature—typically an intelligent skeleton or zombie. Undead casters can use this spell without risk.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94e4222268f6e767.json",
+    "web": "https://codex.pipsprojects.com/#/e/94e4222268f6e767"
+  },
+  "license": "OGL 1.0a"
+}

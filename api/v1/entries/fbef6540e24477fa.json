@@ -1,0 +1,27 @@
+{
+  "id": "fbef6540e24477fa",
+  "name": "Animate Living Skeleton",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (an onyx gem worth at least 25 gp per HD of the target)\n\nEFFECT\n\nRange close (25 f. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level (D)\nSaving Throw Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe target’s bones take on a life of their own and move within the target’s flesh. The target must make a Fortitude save each round this spell is in effect as the target’s skeleton animates from within. Each failure means the target takes 1d6 hp of negative energy damage and 1 point of Constitution damage, and it becomes staggered and sickened for 1 round. If the target makes its save, it takes no hp or Constitution damage but is still sickened for 1 round.\n\nIf the target creature dies during the duration of this spell, its remaining flesh immediately falls away and its type changes to undead as it becomes an animated skeleton (wearing and wielding all of the target’s equipment). Starting on your next turn and lasting until the spell ends, the skeleton is under your direct control. When the spell duration expires, the controlled skeleton collapses into a heap of bones.\n\nProtection from evil negates this spell’s effects for as long as the two durations overlap. Dispel evil automatically ends the spell.\n\nThis spell has no effect on creatures without internal skeletons.\n\nMythic\n\nThis spell deals 2d6 hp negative energy damage and 2 points of Constitution damage upon each failed saving throw, as well as the target becoming staggered. a successful saving throw results in 1d6 hp negative energy damage, no Constitution damage, and the target is sickened for 1 round.\n\nIf the target dies during the duration of a mythic animate living skeleton it becomes an animated skeleton under control of the caster as per the animate dead spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fbef6540e24477fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/fbef6540e24477fa"
+  },
+  "license": "OGL 1.0a"
+}

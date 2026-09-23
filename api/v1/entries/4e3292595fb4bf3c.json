@@ -1,0 +1,28 @@
+{
+  "id": "4e3292595fb4bf3c",
+  "name": "Dark Blessing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Fire Mountain Games",
+  "book": "Fire Mountain Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 1,
+      "inquisitor": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Fire Mountain Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level antipaladin 1, cleric 1, inquisitor 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 50 ft.\nArea The caster and allies within a 50-ft. burst, centered on the caster\nDuration 1 min./level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nDark blessing grants you and your allies a spark of infernal power.\n\nYou and each ally in range gains a +1 morale bonus on weapon damage rolls and on saving throws against compulsion effects.\n\nWay of the Wicked Book Six — The Wages of Sin. Copyright 2013, Fire Mountain Games LLC; Author: Gary McBride.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e3292595fb4bf3c.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e3292595fb4bf3c"
+  },
+  "license": "OGL 1.0a"
+}

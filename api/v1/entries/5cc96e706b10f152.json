@@ -1,0 +1,30 @@
+{
+  "id": "5cc96e706b10f152",
+  "name": "Impact",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 4,
+      "magus": 4,
+      "saboteur": 4,
+      "wizard": 4,
+      "vanguard": 4
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level bloodrager 4, magus 4, saboteur 4, sorcerer/wizard 4, vanguard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets up to four creatures, no two of which can be more than 30 feet apart\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure a number of magically-charged orbs of iron and steel, each of which impact their targets with great force. You create one orb per four caster levels (max 4). Each orb you create flies out to strike creatures within range; you can have more than orb target a single creature, but a single orb only hits once. You must make a ranged touch attack to strike with each orb. On a hit, the target takes 4d6 bludgeoning damage. This damage is considered magic for the purpose of overcoming damage reduction. If multiple orbs strike a single creature, the damage is totaled before damage reduction is applied.\n\nOnce a creature has been struck by an orb, you can make a bull rush or trip attempt against the target; this check does not provoke attacks of opportunity. You use your caster level + your Intelligence, Wisdom, or Charisma modifier (whichever is highest) in place of your CMB, and you gain a +5 on the check for each orb that strikes the same target. You must roll separately for each target struck.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5cc96e706b10f152.json",
+    "web": "https://codex.pipsprojects.com/#/e/5cc96e706b10f152"
+  },
+  "license": "OGL 1.0a"
+}

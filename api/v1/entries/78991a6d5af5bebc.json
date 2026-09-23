@@ -1,0 +1,29 @@
+{
+  "id": "78991a6d5af5bebc",
+  "name": "Sonic Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "shaman": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bloodrager 1, druid/shaman 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 15 ft.\nArea 15-foot-radius burst centered on you\nDuration instantaneous\nSaving Throw Fort half (see text); Spell Resistance yes\n\nYou explode in a concussive force that deals 1d4 sonic damage per caster level (maximum 5d4). Additionally, on a failed save, each creature is pushed back 5 feet. If the save is failed by 5 or more, they are pushed back 10 feet instead.\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78991a6d5af5bebc.json",
+    "web": "https://codex.pipsprojects.com/#/e/78991a6d5af5bebc"
+  },
+  "license": "OGL 1.0a"
+}

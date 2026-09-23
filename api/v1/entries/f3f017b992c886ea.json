@@ -1,0 +1,23 @@
+{
+  "id": "f3f017b992c886ea",
+  "name": "Vril Vampirism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round\nSaving Throw special (see below); Spell Resistance yes\n\nDESCRIPTION\n\nVril Spells and Class Options Although any character of the appropriate class can use them, vril spells particularly complement the vril adept and vrilbound magus archetypes.\n\nThis spell allows you to augment your next vril blast by drawing life energy from your target. On any round in which you cast this spell as a swift action, you can sacrifice spells or spell slots as normal to create vril blasts.\n\nIf you succeed on the blast’s ranged touch attack, it deals damage as normal. On a successful attack, you gain temporary hp equal to the damage dealt. There is no save against this effect. You can’t gain more than the subject’s current hp + the subject’s Constitution score (which is enough to kill the subject). The temporary hp disappear 1 hr. later.\n\nIf the target can cast arcane spells, you can siphon spell energy from the subject rather than gaining temporary hp. The vril blast deals damage as normal, but rather than gaining temporary hp, you drain 1 spell level or spell slot for every die of damage you inflict. Spellcasting targets lose a corresponding number of prepared spells or spell slots appropriate to the drained spell levels, chosen randomly. A successful Fortitude save avoids this draining effect, but not the damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f3f017b992c886ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/f3f017b992c886ea"
+  },
+  "license": "OGL 1.0a"
+}

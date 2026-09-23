@@ -1,0 +1,18 @@
+{
+  "id": "5ade8b7ba264e4fa",
+  "name": "Bind Spell (Metamagic)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "You can cast spells that are bound to a ranged weapon.\n\nPrerequisite(s): Postpone Spell, caster level 10th or higher\n\nBenefit: A spell that has been affected by this feat may be cast on a ranged weapon with which the caster is proficient. It is not necessary for the caster to be using the weapon, nor does he even have to be holding it; he must be merely proficient in its use. (In other words, the caster can cast the spell on a ranged weapon and then hand the weapon to someone else who actually fires it.) The spell may also be cast as a normal spell, sacrificing the benefits of this feat. Any spell with a range of Personal cannot be used in conjunction with this feat.\n\nA bound spell only lasts for one round inside the weapon, and if the weapon is not fired before the caster’s next turn the spell is lost. If the weapon is fired, the first successful hit in the round discharges the bound spell. If no attack made with the weapon hits before the round ends, then the spell is wasted. Only one character (whether the caster or someone else) may attempt to fire the weapon.\n\nIf an attack made with the weapon hits, the bound spell goes off. Single-target spells, rays, spreads, and bursts are centered on the target that was struck by the weapon. Cone effects are instead treated as a burst with a radius half their standard length. Multi-target spells where the caster chooses the targets (such as slow) are treated as single target spells and only affect the creature struck by the weapon.\n\nLevel Increase: +4 (a bound spell uses up a spell slot four levels higher than the spell’s actual level.)\n\nUndefeatable: The Collected Feats Sourcebook, Copyright 2009 – 2010, Louis Porter Jr. Design, Inc. Undefeated, Copyright 2011, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ade8b7ba264e4fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ade8b7ba264e4fa"
+  },
+  "license": "OGL 1.0a"
+}
