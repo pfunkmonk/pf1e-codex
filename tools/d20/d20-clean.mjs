@@ -82,7 +82,11 @@ export function parsePage(text, file) {
  * have thrown away real classes, monsters and rules chapters. Strip only the link list: it ends at
  * the first line that is the page's own title, a stat-block label, a tab-separated row, or a real
  * sentence. What is stripped is kept as `children`, since parent -> child is structure worth having. */
-const LABEL = /^(CR|XP|DEFENSE|OFFENSE|STATISTICS|Price|School|Level|Aura|Benefit:|Prerequisites?:|Casting Time|Slot|Weight|Table:|Source|Alignment:|Role:|Hit Die:)\b/i;
+// Environment/Organization/Treasure added at 4,000-page scale: a monster-FAMILY overview page ("Ceroptor",
+// which lists itself alongside "Ceroptor, Bodied"/"Ceroptor, Swarm" under Subpages) has these three short
+// lines right after its child list, before the real flavor prose — none of the existing labels catch them,
+// so they were being swept up as three more bogus "children".
+const LABEL = /^(CR|XP|DEFENSE|OFFENSE|STATISTICS|Price|School|Level|Aura|Benefit:|Prerequisites?:|Casting Time|Slot|Weight|Table:|Source|Alignment:|Role:|Hit Die:|Environment|Organization|Treasure)\b/i;
 /** "Subpages" does not always open the page — Family Traits runs three paragraphs of category flavor
  * text FIRST, then "Subpages", then its child list. Find the heading anywhere, not just at the top,
  * and splice the child list back out; what is before and after it stays in the body untouched. A
@@ -90,19 +94,43 @@ const LABEL = /^(CR|XP|DEFENSE|OFFENSE|STATISTICS|Price|School|Level|Aura|Benefi
  * real content. */
 export function stripSubpages(lines, title) {
   const subI = lines.findIndex((l) => l.trim() === "Subpages");
-  if (subI < 0) return { lines, children: [] };
-  const children = [];
-  let i = subI + 1;
   const want = String(title || "").trim().toLowerCase();
-  for (; i < lines.length; i++) {
-    const t = lines[i].trim();
-    if (!t) continue;
-    const words = t.split(/\s+/).length;
-    if (t.toLowerCase() === want || LABEL.test(t) || /\t/.test(t) || words >= 9 || /[.!?:;]$/.test(t)) break;
-    children.push(t);
+  if (subI >= 0) {
+    const children = [];
+    let i = subI + 1;
+    for (; i < lines.length; i++) {
+      const t = lines[i].trim();
+      if (!t) continue;
+      const words = t.split(/\s+/).length;
+      // A family-overview page can list ITSELF as the first subpage ("Ceroptor" -> "Ceroptor" /
+      // "Ceroptor, Bodied" / "Ceroptor, Swarm") — only treat a title match as "list is over, this is
+      // my own restated title" once at least one other child has already been collected, so this
+      // legitimate leading self-reference isn't mistaken for the end of the list before it starts.
+      if ((children.length > 0 && t.toLowerCase() === want) || LABEL.test(t) || /\t/.test(t) || words >= 9 || /[.!?:;]$/.test(t)) break;
+      children.push(t);
+    }
+    if (children.length) return { lines: [...lines.slice(0, subI), ...lines.slice(i)], children };
   }
-  if (!children.length) return { lines, children: [] };
-  return { lines: [...lines.slice(0, subI), ...lines.slice(i)], children };
+  // A BARE LINK LIST: no "Subpages" heading at all, straight into a list of similarly-tagged link
+  // labels right after the title — found at 4,000-page scale: "(Bestiary) By Challenge Rating" opens
+  // directly with "(Bestiary) CR under 1" / "(Bestiary) CR 1-2" / ... and nothing else, read as one
+  // giant "entry" because there was no "Subpages" heading to strip. Recognized only when every
+  // candidate line repeats the TITLE's own bracketed tag — specific enough that a real entry's
+  // opening lines never accidentally look like this.
+  const tagM = /^\(([^)]{2,30})\)/.exec(title || "");
+  if (tagM) {
+    const tag = `(${tagM[1]})`;
+    const children = [];
+    let i = 0;
+    for (; i < lines.length; i++) {
+      const t = lines[i].trim();
+      if (!t) { if (children.length) break; continue; }
+      if (!t.startsWith(tag) || /[.!?:;]$/.test(t) || t.split(/\s+/).length >= 12) break;
+      children.push(t);
+    }
+    if (children.length >= 3) return { lines: lines.slice(i), children };
+  }
+  return { lines, children: [] };
 }
 
 /* ---- publisher / third-party --------------------------------------------------------------- */
@@ -130,6 +158,15 @@ export function isHubUrl(url) {
 // A company name has a legal-entity suffix; a bare product TITLE ("Vampire Hunter D", "Table: Fiendish")
 // does not, so it is never enough evidence on its own.
 const COMPANY = /(inc\.|llc|games|publishing|press|studios?|entertainment|productions?|ltd|wizards|paizo)/i;
+// "Paizo Rules Systems" is a d20pfsrd TAXONOMY label (alternate rule systems Paizo originated — Mythic
+// Adventures, Occult Adventures, Words of Power…), not a publisher identity: a page filed under it can
+// still be a third-party addition to that system, and a further author-hub segment later in the same
+// crumb already overrides it when present. Found the hard way at 4,000-page scale: 3 live "Mythic ___"
+// feats (from Owen K.C. Stephens' "Mythic Options: The Missing Core Feats", 2013, with its own Section
+// 15 notice) had no such trailing segment, so this bare match was the ONLY crumb evidence and wrongly
+// asserted Paizo — exactly the "confident wrong credit" the owner said is worse than admitting we don't
+// know. Excluded here so these fall through to Section 15 / other evidence instead.
+const NOT_A_PUBLISHER_CRUMB = new Set(["paizo rules systems"]);
 // A copyright notice usually spells out "©", but a handful render it as literal "(c) 2012" instead (an
 // artifact of the source book, kept as-is by the archiver) — missed entirely until "Bukavac" (Midgard
 // Bestiary, "(c) 2012 Open Design LLC" = Kobold Press) fell through to unverified despite carrying a
@@ -203,7 +240,7 @@ export function publisherOf(crumb, url, s15, body = "") {
     const par = /\(([^)]{3,60})\)\s*$/.exec(seg);
     const dashAfter = /\s[–-]\s(.{3,60})$/.exec(seg);
     const dashBefore = /^(.{3,60}?)\s[–-]\s/.exec(seg);
-    const bare = COMPANY.test(seg) && !/3rd|third/i.test(seg) ? seg : null;
+    const bare = COMPANY.test(seg) && !/3rd|third/i.test(seg) && !NOT_A_PUBLISHER_CRUMB.has(seg.toLowerCase()) ? seg : null;
     const cand = (par && par[1]) || (dashBefore && COMPANY.test(dashBefore[1]) && dashBefore[1]) || (dashAfter && dashAfter[1]) || bare;
     if (cand && COMPANY.test(cand)) publisher = cand.trim();
   }
@@ -359,9 +396,12 @@ export function isCategoryRoot(children, crumb, chars, body) {
 }
 /** A TOOL-LINK page points at an external database or generator instead of holding content itself
  * ("Magic Items DB": a paragraph of preamble, then "Open this in a new Window" and nothing else). The
- * existing stub check only fires when that phrase starts the page; here it is one line among several. */
+ * existing stub check only fires when that phrase starts the page; here it is one line among several.
+ * Also catches the embedded-frame phrasing found at 4,000-page scale ("Cleric/Oracle Spell List
+ * (Filter)": "...if you can't see the spell filter, please click here to open it in a new window") —
+ * same class of stub, different wording ("open it" not "open this", mid-sentence not line-initial). */
 export function isToolLinkPage(body) {
-  return body.split("\n").some((l) => /^open this in a new (window|page)\b/i.test(l.trim()));
+  return body.split("\n").some((l) => /embedded frame|open (this|it) in a new (window|page)\b/i.test(l.trim()));
 }
 /* A CATALOG page is a single page that is actually MANY separate items — an equipment or goods table
  * (Animals & Animal Gear, Armor and Shields) rather than one entry. It has no child links (the rows are a
@@ -369,9 +409,16 @@ export function isToolLinkPage(body) {
  * and the entry tests and would otherwise be read as one giant "entry". It needs a dedicated table-row
  * importer, not the one-page-to-one-Codex-row matcher, so it is set aside rather than guessed at. */
 export function isCatalogPage(bucket, chars, ls) {
-  if (bucket !== "items" || chars < 8000) return false;
+  if (bucket !== "items") return false;
   const priced = ls.filter((l) => /\b\d[\d,]*\s*(gp|sp|cp)\b/i.test(l)).length;
-  return priced >= 15;
+  if (chars >= 8000 && priced >= 15) return true;
+  // A SMALL catalog ("Bronze Age Weapons": ~2,000 chars, 5 priced rows) slipped past the size gate at
+  // 4,000-page scale — the byte-count threshold was tuned against big examples (Armor and Shields,
+  // Alchemical Creations) and never meant to be the only signal. A real single item is prose; d20's
+  // own multi-item tables are TAB-separated ("Mattock\t12 gp\t1d6\t2d4…"), which a real entry's body
+  // never contains regardless of size, so this catches a small catalog the size gate alone cannot.
+  const tabPriced = ls.filter((l) => /\t/.test(l) && /\b\d[\d,]*\s*(gp|sp|cp)\b/i.test(l)).length;
+  return tabPriced >= 3;
 }
 
 /* ---- run ----------------------------------------------------------------------------------- */

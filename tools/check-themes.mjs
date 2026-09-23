@@ -42,6 +42,17 @@ const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
 const MAX_CLAIM = { feats: 150, items: 260, spells: 215 };
 const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
+/* ART DEBT: a theme that has run out of image variants, verified NOT a regex problem (every claimed
+ * entry checked by hand and genuinely belongs), waiting on an actual new picture to be drawn — a
+ * production task, not a code fix, so it can't self-resolve here. Silently bumping PAGES_PER_IMAGE or
+ * a theme's own MAX_CLAIM to paper over this would defeat the point of this check for every OTHER
+ * theme; instead each entry here names the exact overage accepted and why, so it stays visible and
+ * gets cleared the moment the art exists (delete the entry, not touch the number it was covering for).
+ * spells/plant-nature: 23 legitimate plant/nature spells (Toxic Bloom [plant], Wood Lance [wood],
+ * Exile from Nature, Naturecraft, etc. — checked 2026-09-23, zero false positives after the
+ * "grasp"->"rusting grasp" and generic-word fixes) share 1 image; needs a 2nd. */
+const ART_DEBT = { "spells/plant-nature": 23 };
+
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
 (0, eval)(fs.readFileSync(`${ROOT}/data/art.js`, "utf8"));
@@ -109,8 +120,13 @@ for (const [bucket, table] of Object.entries(THEMES)) {
     else if (list.length > maxClaim(bucket)) fail(`${bucket}/${key} claims ${list.length} (> ${maxClaim(bucket)}) — too broad; split it or move it later in the table`);
     else if (list.length < MIN_CLAIM) fail(`${bucket}/${key} claims only ${list.length} — dead weight, fold it into a neighbour`);
     const per = Math.ceil(list.length / variants);
-    if (per > PAGES_PER_IMAGE)
-      fail(`${bucket}/${key} needs ${Math.ceil(list.length / PAGES_PER_IMAGE)} variants, has ${variants} (${per} pages on one image)`);
+    if (per > PAGES_PER_IMAGE) {
+      const debtKey = `${bucket}/${key}`, debtCeiling = ART_DEBT[debtKey];
+      if (debtCeiling !== undefined && list.length <= debtCeiling)
+        console.log(`  KNOWN ART DEBT  ${debtKey} needs ${Math.ceil(list.length / PAGES_PER_IMAGE)} variants, has ${variants} (${per} pages on one image) — accepted pending new art, see ART_DEBT`);
+      else
+        fail(`${bucket}/${key} needs ${Math.ceil(list.length / PAGES_PER_IMAGE)} variants, has ${variants} (${per} pages on one image)`);
+    }
   }
 
   // The straggler set has to be big enough to absorb whatever matched nothing.

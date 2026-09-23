@@ -249,7 +249,16 @@ window.PF_THEMES = {
     ["teleport",      /\bteleport|\bdimension|\btranslocat|\bblink\b|\bshadow walk|\bword of recall|\btransport|\bphase\b|\bethereal jaunt/i, /\(teleportation\)/i, 3],
     ["divination",    /\bdetect |\bscry|\bdivination|\baugury|\bcommune|\bforesight|\bclairvoy|\bidentify|\blocate|\btrue seeing|\bread \b|\bvision\b|\bprying eyes/i, /\(scrying\)/i, 3],
     ["illusion",      /\billusion|\bimage\b|\bphantasm|\bmirage|\bglamer|\binvisib|\bblur\b|\bdisplace|\bmislead|\bveil\b|\bhallucinat|\bsilent image|\bdisguise/i, /\((glamer|figment|phantasm|pattern|shadow)\)/i, 12],
-    ["charm-mind",    /\bcharm|\bdominat|\bsuggestion|\bcommand\b|\bcompel|\bconfus|\bdespair|\bhold \b|\bhideous laughter|\benthrall|\bgeas|\bmodify memory|\btelepath|\bcalm emotions/i, /((compulsion|charm))/i, 14],
+    // NAME regex narrowed at ~5,000-page scale: bare English words like "charm"/"dominat"/"command"/
+    // "confus"/"hold"/"telepath" read fine in isolation but misfire on mechanically-unrelated spells
+    // whose flavor text just happens to use the word ("Confuse Constructs" is transmutation, "Dominate
+    // Clockwork" is a construct-override effect, "Hearth Charm" is a fire ward, "Hold Portal" holds a
+    // door, "Telepathy"/"Telepathic Bond/Censure/Silence" are divination/abjuration/illusion, not
+    // enchantment) — 11 confirmed false positives found this way, none of them lost by dropping these
+    // stems, since the BODY regex already reliably catches every genuine "School enchantment (charm)"
+    // or "(compulsion)" spell regardless of what its name says. Kept only the Pathfinder-specific
+    // compound terms unlikely to appear outside a real charm/compulsion effect.
+    ["charm-mind",    /\bsuggestion|\bhideous laughter|\benthrall|\bgeas|\bmodify memory|\bcalm emotions/i, /((compulsion|charm))/i, 14],
     ["fear",          /\bfear\b|\bterror|\bhorror|\bscare\b|\bcause fear|\bdoom\b|\bphantasmal killer|\bnightmare|\bpanic|\bbane\b/i, /[[^]]*fear|(fear)/i, 2],
     ["sleep-daze",    /\bsleep\b|\bdaze\b|\bslumber|\bunconscious|\bstun\b|\bhypnot|\bdeep slumber/i, /(sleep)|[[^]]*sleep/i, 1],
     ["polymorph",     /\bform\b|\bpolymorph|\bshape\b|\btransform|\bmetamorph|\bbeast shape|\balter self|\banimal aspect|\bgrowth\b|\benlarge|\breduce\b|\bsize\b/i, /\(polymorph\)/i, 9],
@@ -265,12 +274,27 @@ window.PF_THEMES = {
     ["cold",          /\bcold\b|\bfrost|\bice\b|\bfrozen|\bfreez|\bwinter|\brime\b|\bsnow|\bchill/i, /\[[^\]]*cold/i, 2],
     ["lightning",     /\blightning|\belectric|\bthunder|\bshock|\bstorm\b/i, /\[[^\]]*electricity/i, 2],
     ["acid",          /\bacid\b|\bcorros|\bmelt\b|\bdissolv/i, /\[[^\]]*acid/i, 1],
-    ["sonic",         /\bsound\b|\bsonic|\bshout|\bscream|\bshriek|\bnoise|\bsilence|\bcacoph|\bsong\b/i, /\[[^\]]*sonic/i, 2],
-    ["force",         /\bforce\b|\bhand\b|\bsphere\b|\btelekine|\bbattering/i, /\[[^\]]*force/i, 3],
-    ["earth-stone",   /\bstone\b|\bearth\b|\brock\b|\bmeld\b|\bsoften|\btransmute|\bmove earth|\bmetal\b|\biron\b|\bcrystal/i, /\[[^\]]*earth/i, 3],
+    // "song" dropped: too metaphorical ("Blood Song" is blood magic, "Song of Kyonin" is a healing
+    // spell) — a real Song-named sonic spell ("Song of Discord") still carries the [sonic] tag, so it
+    // falls through to charm-mind (also genuinely correct, since it's [mind-affecting, sonic]) rather
+    // than being lost.
+    ["sonic",         /\bsound\b|\bsonic|\bshout|\bscream|\bshriek|\bnoise|\bsilence|\bcacoph/i, /\[[^\]]*sonic/i, 2],
+    // "hand"/"sphere" dropped at ~5,000-page scale: too generic ("Helping Hand" is a Message-style
+    // guidance spell, "Silt Sphere" is a sand-cloud illusion — neither is force magic), and every real
+    // Hand-/Sphere-family force spell already carries the [force] tag the body regex catches anyway.
+    ["force",         /\bforce\b|\btelekine|\bbattering/i, /\[[^\]]*force/i, 3],
+    // "transmute" dropped: it matched ANY "Transmute X to Y" spell by name regardless of subject
+    // ("Transmute Wine to Blood" is not earth-themed) — the earth-relevant ones ("Transmute Rock to
+    // Mud") still match via "rock"/"metal" on their own. "iron" excluded before "will" specifically:
+    // the "Tower of Iron Will" series (I-V, a Will-save buff) is an idiom, not a metal/stone effect —
+    // "Iron Body"/"Iron Spine" (genuine metal-skin transmutations) still match "iron" everywhere else.
+    ["earth-stone",   /\bstone\b|\bearth\b|\brock\b|\bmeld\b|\bsoften|\bmove earth|\bmetal\b|\biron\b(?!\s+will)|\bcrystal/i, /\[[^\]]*earth/i, 3],
     ["plant-nature",  /\bplant\b|\btree\b|\bwood\b|\bvine\b|\bthorn|\bbriar|\bgrove|\bnature|\bbloom|\brusting grasp|\bshillelagh|\bgoodberry/i, null, 1],
     ["animal",        /\banimal|\bbeast\b|\bvermin|\bswarm|\bmagic fang|\bbite\b|\bcharm animal|\bhold animal|\bspeak with animals/i, null, 2],
-    ["weather",       /\bweather|\brain\b|\bwind\b|\bsleet|\bhail\b|\bcontrol winds|\bgust\b|\bfog cloud/i, /\[[^\]]*air/i, 2],
+    // "rain" dropped: "Wit of Memory's Rain" is divination, no [air] tag — a real rain spell tagged
+    // [water] instead of [air] ("Dousing Rain", "Night Rain") now correctly falls through to the
+    // "water" theme's own descriptor check instead of being force-fit here by name alone.
+    ["weather",       /\bweather|\bwind\b|\bsleet|\bhail\b|\bcontrol winds|\bgust\b|\bfog cloud/i, /\[[^\]]*air/i, 2],
     ["water",         /\bwater\b|\baqua|\bocean|\bsea\b|\btide\b|\bwave\b|\bdrown|\bswim/i, /\[[^\]]*water/i, 3],
     ["symbol-rune",   /\bsymbol\b|\brune\b|\bglyph|\bsigil|\bexplosive runes|\bsepia|\bmark\b/i, null, 3],
     ["mind-psychic",  /\bpsychic|\bmind\b|\bthought|\bmemory|\bego\b|\bintellect|\bsynapse|\bmindscape|\bbrain/i, /[[^]]*(mind-affecting|meditative|draconic)/i, 7],
