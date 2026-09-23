@@ -1,0 +1,27 @@
+{
+  "id": "d700aadc4fac79a2",
+  "name": "Confuse Constructs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "saboteur": 4,
+      "wizard": 4,
+      "vanguard": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bard 4, saboteur 4, sorcerer/wizard 4, vanguard 3, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a few twisted metal wires)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget all constructs in a 10-ft.-radius burst\nDuration 1 round/level or instantaneous; see text\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as confusion, except it only affects constructs. When you are rolling for a confused construct’s behavior, a result of 26–50 indicates the construct twitches uncontrollably.\n\nIf a construct in the area has the berserk ability (such as a clay golem), you can forgo confusing it to instead cause it to go berserk (this effect is instantaneous).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d700aadc4fac79a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d700aadc4fac79a2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "484b4535f9925f89",
+  "name": "Comet Swarm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea four 40-ft.-radius spreads, see text\nDuration instantaneous\nSaving Throw none or Reflex half, see text; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, four 2-foot-diameter spheres spring from your outstretched hand and streak in straight lines to the spots you select. The comets leave a trail of freezing mist behind them.\n\nIf you aim a comet at a specific creature, you may make a ranged touch attack to strike the target with the meteor. Any creature struck by a sphere takes 2d6 points of bludgeoning damage (no save) and must make a Reflex save or be stunned for 1 round. This stunning effect does not stack from multiple hits. If a targeted sphere misses its target, it simply explodes at the nearest corner of the target’s space. You may aim more than one sphere at the same target.\n\nOnce a comet reaches its destination, it explodes in a 40-foot-radius spread, dealing 6d6 points of cold damage to each creature in the area. A separate Reflex save halves this damage. If a creature is within the area of more than one sphere, it must save separately against each. Despite stemming from separate spheres, all of the cold damage is added together after the saves have been made, and cold resistance is applied only once.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/484b4535f9925f89.json",
+    "web": "https://codex.pipsprojects.com/#/e/484b4535f9925f89"
+  },
+  "license": "OGL 1.0a"
+}

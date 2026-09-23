@@ -1,0 +1,27 @@
+{
+  "id": "8924e0a5158b25df",
+  "name": "Empathic Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, cleric/oracle 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget all creatures within a 50-ft. radius burst\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou broadcast your emotions to those around you. If they fail their saves, those nearby suddenly feel exactly the way you do. If you are currently shaken, those who fail their saves are shaken as well. Note that this spell does not share thoughts or reasons, just the emotions themselves; a priest who is infuriated because his shrine has been desecrated could share only his righteous anger, not the reasons behind it. The other limitation of this spell is that it shares only whatever the caster is currently feeling; if he is angry, he cannot use this spell to make others feel sad or happy. This spell is frequently used in conjunction with a stirring oratory to incite a crowd to take some action the caster fervently desires; it may be used to incite riots, or to enhance the enjoyment of everyone at a festival.\n\nEmpathic Wave, Other\n\nSchool enchantment; Level bard 4, cleric/oracle 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget all creatures within a 50-ft. radius burst\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nAs empathic wave, but you tap the emotions of another creature within 30 feet and broadcast that individual’s emotions to the target area. The individual in question can attempt a Will save to prevent his emotions from being shared in this way. If the creature whose emotions you intend to tap is currently shaken, frightened, panicked, confused or sickened, this condition is passed on to all subjects within the target area who fail their saving throws.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8924e0a5158b25df.json",
+    "web": "https://codex.pipsprojects.com/#/e/8924e0a5158b25df"
+  },
+  "license": "OGL 1.0a"
+}

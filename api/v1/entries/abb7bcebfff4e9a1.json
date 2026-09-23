@@ -1,0 +1,27 @@
+{
+  "id": "abb7bcebfff4e9a1",
+  "name": "Titan’s Wrath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level cleric 8, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a sword)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect one colossal blade\nDuration 1 round/level\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nCalling upon the power of the ancient titans, you hold the blade aloft and let out a valiant battle cry. Above your foes, a weapon of massive proportions appears, slamming down with immense force.\n\nTitan’s wrath conjures a colossal greatsword, throwing it point-first into the ground with a powerful blow. You designate a point on the ground for the blade to impact. The blade flies straight down onto that point, flying through a 5-foot radius column, 100 feet high. Any creature in the path of the blade takes 1d6 slashing damage per two caster levels (max 10d6).\n\nAny creature within 20 feet of the impact point is struck by an upheaval of debris and stone, taking 1d6 bludgeoning damage per two caster levels (max 10d6) and is knocked prone. A Reflex save halves the damage and negates the prone effect; a creature that was struck directly by the blade (as described above) takes a -2 penalty on its Reflex save to avoid the debris. The damage only occurs once, right when the blade impacts the ground.\n\nThe massive tremor caused by the blade’s impact also causes the ground within 20 feet of the blade to become difficult terrain; this difficult terrain remains even after the spell’s duration ends.\n\nThe blade remains for 1 round per caster level. As a colossal weapon, the blade is 10 feet wide and 60 feet long, with 10 feet of its blade being stuck in the ground. It otherwise acts as a wall of iron while it remains, though it does not fall over unless it is pulled from the ground (requiring a DC 60 Strength check).\n\nTitan’s wrath can only be cast in a space that can hold the blade and allow it to fall (at least 100 feet high).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/abb7bcebfff4e9a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/abb7bcebfff4e9a1"
+  },
+  "license": "OGL 1.0a"
+}

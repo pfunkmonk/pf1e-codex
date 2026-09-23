@@ -1,0 +1,29 @@
+{
+  "id": "3bb34522a1265710",
+  "name": "Puff Of Smoke",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 0,
+      "shaman": 0,
+      "ranger": 1,
+      "wizard": 0
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air]; Level bard 0, druid/shaman 0, ranger 1, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one puff of smoke\nDuration 1 round\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis cantrip creates a puff of smoke. If the smoke bursts in front of a single creature, it must make a Reflex save. If it fails, anything the creature attacks gains concealment against it, and its attacks have a 20% chance to miss.\n\nSightless and blinded creatures, as well as creatures from which you are already concealed, are not affected.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3bb34522a1265710.json",
+    "web": "https://codex.pipsprojects.com/#/e/3bb34522a1265710"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "80327763adba9b64",
+  "name": "Vespertine Decay",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 4,
+      "death mage": 4,
+      "inquisitor": 4,
+      "paladin": 3,
+      "shaman": 4,
+      "wizard": 4,
+      "white necromancer": 4,
+      "witch": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level cleric/oracle 4, death mage 4, inquisitor 4, paladin 3, shaman 4, sorcerer/wizard 4, white necromancer 4, witch 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 20 ft.\nArea 20-ft.-emanation centered on you\nDuration 1 round/level (D)\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an aura that causes degradation to any creature lurking in the dark. At the beginning of your turn, creatures in dim light take 3d4 damage. Creatures in darkness or creatures with the shadow subtype instead take 3d6 damage. A successful Fortitude save halves this damage. You are also affected by the spell if in an area of dim light or darker.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/80327763adba9b64.json",
+    "web": "https://codex.pipsprojects.com/#/e/80327763adba9b64"
+  },
+  "license": "OGL 1.0a"
+}

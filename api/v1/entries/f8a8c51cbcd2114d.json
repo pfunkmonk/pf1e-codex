@@ -1,0 +1,28 @@
+{
+  "id": "f8a8c51cbcd2114d",
+  "name": "Sense The Tapestry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "psychic": 2,
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [void]; Level psychic 2, shaman 2, sorcerer/wizard 2\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange 30 feet\n\nEffect emanation centered on you\n\nDuration 2 rounds\n\nSaving Throw none; Spell Resistance no\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists). If a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nThis spell briefly enables you to sense the weaves and state of the Void in your vicinity. For the duration of this spell, you are immediately aware, as if you possess the blindsight universal monster ability, of where there is the presence or absence of the Void within range, Outsiders with the good subtype, creatures with the elemental subtype, characters with the Void Core Cultivator feat, and character with 10+ levels in the following classes are detected as strong sources in the Void: geomancer, spirit shamans, and any class that grants points to a ki pool, jutsu pool, mettle, or resolve ability. Tainted creatures (those with a Corruption score) are identifiable as such as a turbid presence in the balance of the elements. Creatures whose essence is from beyond the universe (such as the servants of the Great Old Ones) are noticed as an absence in the area of effect. If an effect prevents a creature’s subtype, connection to the Void, points from a ki pool, jutsu pool, mettle, or resolve ability, or Corruption from being detected or otherwise identified, this spell does not draw attention to that creature.\n\nBecause illusions lack a connection to the Void, they are more easily noticed with this spell. Once per round at the end of your turn, you gain an additional and immediate saving throw with a +2 circumstance bonus against illusion spells with the figment or glamer subschools to disbelieve them whenever they are within this spell’s range or whenever you are affected by them.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f8a8c51cbcd2114d.json",
+    "web": "https://codex.pipsprojects.com/#/e/f8a8c51cbcd2114d"
+  },
+  "license": "OGL 1.0a"
+}

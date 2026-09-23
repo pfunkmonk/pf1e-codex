@@ -1,0 +1,17 @@
+{
+  "id": "98499a16a59e292c",
+  "name": "Jelly, Stun",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Stun Jelly from the Tome of Horrors Complete",
+  "book": "Stun Jelly from the Tome of Horrors Complete",
+  "facets": {
+    "bk": "Stun Jelly from the Tome of Horrors Complete"
+  },
+  "body": "What appears to be a section of the wall comes to life, revealing a slightly translucent protoplasmic creature.\n\nStunjelly\nCR 3\n\nXP 800\nN Large ooze\nInit +0; Senses blindsight 60 ft.; Perception -5\n\nDEFENSE\n\nAC 9, touch 9, flat-footed 9 (-1 size)\nhp 42 (4d8+24)\nFort +7, Ref +1, Will -4\nDefensive Abilities camouflage; Immune ooze traits\n\nOFFENSE\n\nSpeed 10 ft.\nMelee slam +3 (1d6+1 plus 1d6 acid plus paralysis)\nSpace 10 ft.; Reach 5 ft.\nSpecial Attacks corrosion, engulf (DC 13, 1d6 acid and paralysis), paralysis (3d6 rounds, DC 18)\n\nSTATISTICS\n\nStr 12, Dex 10, Con 22, Int –, Wis 1, Cha 1\nBase Atk +3; CMB +5; CMD 15(can’t be tripped)\n\nSPECIAL ABILITIES\n\nAcid (Ex)\n\nA stunjelly secretes a digestive acid that dissolves organic material quickly, but does not affect metal or stone. Any melee hit deals acid damage, and the opponent’s clothing and armor (non-metal only) take the same amount of damage unless they succeed on DC 18 Reflex save. A wooden weapon that strikes a stunjelly takes 1d6 acid damage unless it succeeds on a DC 18 Reflex save. If a stunjelly remains in contact with a wooden object for 1 full round, it inflicts 18 points of damage (no save) to the object. The save DCs are Constitution-based.\n\nCamouflage (Ex)\n\nSince a stunjelly looks like normal stone when at rest, it takes a DC 20 Perception check to notice it before it attacks. Anyone with ranks in Survival or Knowledge (dungeoneering) can use one of those skills instead of Perception to notice the stunjelly. Dwarves can use stonecunning to notice a stunjelly.\n\nCorrosion (Ex)\n\nAn opponent that is being engulfed by a stunjelly suffers a -4 penalty on Reflex saves made to resist acid damage applying to clothing and armor.\n\nECOLOGY\n\nEnvironment underground\nOrganization solitary\nTreasure incidental\n\nStunjellies are distant relatives of the dungeon-dwelling gelatinous cube. It appears as a section of ordinary wall and covers an area of at least 10 square feet, and is 2-1/2 to 5 feet thick. A stunjelly is gray in color and slightly translucent. It gives off a mild vinegar odor that can be detected at a range of 5 feet (DC 15 Perception check).\n\nWhen a target moves within 5 feet of a stunjelly, it attacks with its slam attack. Any creature paralyzed by a stunjelly is engulfed and devoured.\n\nStun Jelly from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene, based on original material by Neville White.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98499a16a59e292c.json",
+    "web": "https://codex.pipsprojects.com/#/e/98499a16a59e292c"
+  },
+  "license": "OGL 1.0a"
+}

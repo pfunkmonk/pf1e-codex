@@ -1,0 +1,31 @@
+{
+  "id": "703c6f3b4c284762",
+  "name": "Dark Confinement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "inquisitor": 2,
+      "nightblade": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "darkness",
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [darkness, shadow]; Level antipaladin 2, inquisitor 2, nightblade 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a spider web)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature per level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nEach creature targeted by this spell finds itself unable to enter well-lit areas. As long as dark confinement persists, affected creatures must remain within areas of dim light, darkness, or supernatural darkness and cannot willingly enter into areas of normal light or bright light; attempts to do so feel as if struggling against a solid wall. This spell has no effect on creatures that are not in an area of dim light, darkness, or supernatural darkness at the time of casting. If an affected creature is forcefully moved into an area of normal or bright light (such as by a bull rush maneuver), or if the space containing the creature is brought to normal light or brighter, the spell is suppressed for that creature until it moves back into an area of dim light or darker, at which point the effects of dark confinement resume (assuming the spell has duration remaining). A creature is not compelled to move back into darker areas if moved in such a manner.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/703c6f3b4c284762.json",
+    "web": "https://codex.pipsprojects.com/#/e/703c6f3b4c284762"
+  },
+  "license": "OGL 1.0a"
+}

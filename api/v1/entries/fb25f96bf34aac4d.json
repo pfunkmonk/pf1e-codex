@@ -1,0 +1,25 @@
+{
+  "id": "fb25f96bf34aac4d",
+  "name": "Mischief",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion; Level bard 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nArea 10-foot-radius burst\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the area with whimsical magic, the nature of the burst depends upon the caster.\n\nRoll on Table: Random Mishaps each round to determine the effect upon any creatures in the area. Each round after the first, you can move the area of the spell 10 feet before you determine the effect. The center of the area must remain within close range or the spell ends prematurely.\n\nRandom Mishaps\nd4\tEffect\n1\tThe area is filled with a warm, sweet, comforting smell. All creatures in the area must make a Will save or be affected as though by the charm person spell for 1 round.\n2\tFlowers or bursts of colorful powders fill the air. All creatures in the area must make a Reflex save or be blinded for 1 round.\n3\tA disembodied voice says something that all the creatures in the area find funny in their own language. They must make a Will save or be overcome with giggling and become staggered for 1 round. This is a mind-affecting effect.\n4\tA sticky, multi-colored substance floats and fills the area causing difficult terrain for all movement types for 1 round.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb25f96bf34aac4d.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb25f96bf34aac4d"
+  },
+  "license": "OGL 1.0a"
+}

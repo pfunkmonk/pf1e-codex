@@ -1,0 +1,24 @@
+{
+  "id": "5d46694856143739",
+  "name": "Magic Spike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (cold iron spike)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature or object\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou form a bolt of magical energy that strikes a target and robs it of its magical energy. With a successful ranged touch attack and upon a failed save, your target’s spell save DCs and the DCs of any supernatural and spell-like abilities it possesses suffer a -2 penalty. A successful dispel magic negates this spell’s effects.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5d46694856143739.json",
+    "web": "https://codex.pipsprojects.com/#/e/5d46694856143739"
+  },
+  "license": "OGL 1.0a"
+}

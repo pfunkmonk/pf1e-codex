@@ -1,0 +1,24 @@
+{
+  "id": "78262fe7ce486ef4",
+  "name": "Blood and Steel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget construct touched\nDuration see text\nSaving Throw Fortitude special (object); Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, you cut yourself with any immediately available implement (including your fingers, if necessary), and the blood from that wound seeps into the target construct. This cut deals 1d4 hp damage that cannot be healed until after the target construct is destroyed or the spell ends. This wound has no effect on the spell’s casting and does not require the spellcaster to make a concentration check.\n\nIf the target construct fails a Fortitude save, the blood binds with it to form a false soul, causing the construct to have thoughts and emotions. If the construct is not already under your control, you gain control of it for 1 round/level, starting with the round after you cast this spell.\n\nIf the construct is already under your control, you instead give it an Intelligence of 10 for 1 hr./level (unless it already somehow had a higher Intelligence score, in which case it retains its existing Intelligence), and you may assign it one rank for each of its HD in two skills of your choice. The construct is now capable of acting independently, though it remains loyal to you. You may also assign the construct one feat for every 3 HD it has. The first time you cast this spell, once you have determined which skills and feats to grant the target construct, you always assign those skills and feats whenever you cast the spell. The spell may be learned more than once (counting as an additional spell known each time it is taken, for sorcerers), with each version of the spell granting different skills and feats.\n\nConstructs normally immune to all spells (such as most golems) are not immune to this spell, but do gain a +10 bonus to their saving throw to ignore its effects. a construct you control may be instructed to intentionally fail its saving throw.\n\nWhen cast on a construct you control, the spell may be made permanent with the permanency spell, for a cost of 15,000 gp and a minimum caster level of 13th.\n\nMythic\n\nWhen made permanent, this spell acts as an awaken spell for the construct, and allows it to develop a personality, earn class levels, become a cohort, etc.\n\nThe foe you strike must be one that contains blood— targets immune to bleed effects cannot be used as the focus for this spell.\n\nIf the focus of this spell has divine blood (demigods, outsiders with 20 or more HD, or characters with godling class levels), the blood armor also gives you a +2 bonus to Will saves.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78262fe7ce486ef4.json",
+    "web": "https://codex.pipsprojects.com/#/e/78262fe7ce486ef4"
+  },
+  "license": "OGL 1.0a"
+}

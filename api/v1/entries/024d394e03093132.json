@@ -1,0 +1,23 @@
+{
+  "id": "024d394e03093132",
+  "name": "Bee Sting",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation); Level druid 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bumblebee’s stinger)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more creatures, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Fortitude partial; see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell strikes its targets with a nasty sting, as if from a very large bee. You create one sting for every three caster levels (minimum 1, maximum 6 at 18th level). Each bee sting inflicts 1 point of piercing damage, as if from a magical weapon for the purposes of overcoming damage reduction. If this damage is not somehow negated (such as by damage reduction), the subject is poisoned with weak venom that inflicts 1 Con damage, with a Fortitude save allowed at the spell’s DC to negate it. The damage and venom from multiple stings is cumulative, though a subject saves only once even if subjected to several stings by a single casting.\n\n101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/024d394e03093132.json",
+    "web": "https://codex.pipsprojects.com/#/e/024d394e03093132"
+  },
+  "license": "OGL 1.0a"
+}

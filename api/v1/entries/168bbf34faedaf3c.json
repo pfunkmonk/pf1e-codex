@@ -1,0 +1,27 @@
+{
+  "id": "168bbf34faedaf3c",
+  "name": "Rolling Boulder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [earth]; Level druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (smooth spherical pebble)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect 5-ft.-diameter sphere\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nA spherical boulder of elemental earth rolls around the battlefield under your control. It moves up to 20 feet in a straight line every round (less if it strikes an immovable object) in a direction of your choice, bowling over creatures in its path. Creatures struck by the boulder must make a successful save or be knocked prone, taking 3d6 points of bludgeoning damage as the boulder rolls over them.\n\nThe boulder has hardness 5 and 150 hit points.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/168bbf34faedaf3c.json",
+    "web": "https://codex.pipsprojects.com/#/e/168bbf34faedaf3c"
+  },
+  "license": "OGL 1.0a"
+}

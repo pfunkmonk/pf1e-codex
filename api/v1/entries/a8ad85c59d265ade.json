@@ -1,0 +1,26 @@
+{
+  "id": "a8ad85c59d265ade",
+  "name": "Bone Blight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a few drops of aqua regia and a bit of powdered bone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration see text\nSaving Throw Fort negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe subject contracts a supernatural curse known as bone blight that strikes immediately (no incubation period). See the sidebar for information on bone blight. The DC noted is for subsequent saves (use this spell’s normal save DC for the initial saving throw).\n\nBone blight is a supernatural curse that causes an afflicted creature’s bones to deteriorate at an alarming rate. In the final stages of the disease, the victim’s skull and spine collapse, killing it. Successful saves do not allow the victim to recover (though they do prevent damage normally).\n\nCreatures without bones (oozes, plants) and incorporeal creatures are immune to the effects of bone blight.\n\nUnlike normal diseases, bone blight continues until the victim reaches Strength 0 and Constitution 0 (and dies) or is cured as described below.\n\nBone blight is a powerful curse, not a natural disease. While afflicted with bone blight, a character does not heal damage (ability or hit points) naturally. Also, any bludgeoning attack doubles its critical threat range against an afflicted character. Further, a character attempting to cast any conjuration (healing) spell on a creature afflicted with bone blight must succeed on a DC 20 caster level check, or the spell has no effect on the afflicted character.\n\nTo eliminate bone blight, the curse must first be broken with break enchantment or remove curse (requiring a DC 20 caster level check for either spell), after which a caster level check is no longer necessary to cast healing spells on the victim, and the bone blight can be magically cured as any normal disease.\n\nAn afflicted creature that dies of bone blight collapses into a mound of quivering flesh.\n\nType curse and disease—spell; Fort DC as the spell; onset instant; frequency 1/day; effect 1d4 Strength, 1d4 Con; cure —\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8ad85c59d265ade.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8ad85c59d265ade"
+  },
+  "license": "OGL 1.0a"
+}

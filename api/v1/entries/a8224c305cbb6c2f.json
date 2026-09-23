@@ -1,0 +1,17 @@
+{
+  "id": "a8224c305cbb6c2f",
+  "name": "Troop, Testudo",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "A column of soldiers move together, their weapons at the ready in a coordinated front.\n\nTestudo Troops\nCR 7\n\nXP 3,200\nLE Medium humanoid (human, troop)\nInit +5; Senses Perception +13\n\nDEFENSE\n\nAC 20, touch 11, flat-footed 19 (+9 armor, +1 Dex)\nhp 85 (9d8+45)\nFort +10, Ref +4, Will +6\nDefensive Abilities troop traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee troop (2d6+6)\nSpace 20 ft.; Reach 5 ft.\nSpecial Attacks volley\n\nSTATISTICS\n\nStr 22, Dex 13, Con 18, Int 8, Wis 13, Cha 11\nBase Atk +6; CMB +12; CMD 23\nFeats Ability Focus (volley), Improved Initiative, Iron Will, Skill Focus (Perception), Toughness\nSkills Perception +13\nLanguages Common\nSQ protect ally\n\nSPECIAL ABILITIES\n\nProtect Ally (Ex)\n\nA testudo troop provides soft cover to any creature it recognizes as an ally who shares its space.\n\nSuch protected allies treat squares occupied by the troop as difficult terrain and must succeed at a concentration check (DC = 15 + spell level) to cast spells while so protected, but do not take troop damage from being within the troop’s space.\n\nVolley (Ex)\n\nA testudo troop can fire a volley of arrows as a standard action. This attack takes the form of up to four lines with a range of 100 feet. These lines can start from the corner of any square in the troop’s space. All creatures in one of these lines take 4d6 points of piercing damage (Reflex DC 17 half). The save DC is Dexterity-based, and includes the bonus from the testudo troop’s Ability Focus feat.\n\nPathfinder Adventure Path #100: A Song of Silver © 2015, Paizo Inc.; Authors: James Jacobs, with Adam Daigle, Crystal Frasier, Jim Groves, Tim Hitchcock, Brandon Hodge, Nicolas Logue, Stephanie Lorée, Rob McCreary, Erik Mona, Jason Nelson, Richard Pett, Sean K Reynolds, F. Wesley Schneider, Amber E. Scott, Mike Shel, Neil Spicer, and Greg A. Vaughan.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8224c305cbb6c2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8224c305cbb6c2f"
+  },
+  "license": "OGL 1.0a"
+}

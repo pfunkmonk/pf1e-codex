@@ -1,0 +1,26 @@
+{
+  "id": "b2ff8d0ef8d074fc",
+  "name": "Warp Glass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation; Level adept 1, cleric 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, see text\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget non-magical glass or non-magical glass object touched, up to 1 sq. ft. + 1 sq. ft./level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou cause existing glass or a glass object to warp, becoming either fogged or tinted a certain color.\n\nTinted: Light that passes through tinted glass is reduced in light level by 1.\nFogged: Creatures staring through fogged glass take a –2 penalty on sight-based Perception checks, and any creature targeted through the glass gains concealment in addition to any cover the glass would offer.\n\nWarp glass can be used to grant a +2 competence bonus on a single Craft (glassblowing) check, but this requires an additional component: a bag of colorless sand worth 10 gp.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b2ff8d0ef8d074fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/b2ff8d0ef8d074fc"
+  },
+  "license": "OGL 1.0a"
+}

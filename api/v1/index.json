@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "78",
+  "dataVersion": "79",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 28901,
+    "entries": 29928,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
-      "nameFirst": 2541,
+      "nameFirst": 2580,
       "sourceFirst": 12472,
-      "other": 13888
+      "other": 14876
     }
   },
   "endpoints": {
@@ -34,20 +34,20 @@
     {
       "slug": "archetypes",
       "label": "Archetypes",
-      "count": 1387,
+      "count": 1449,
       "list": "archetypes.json",
       "categories": {
-        "Archetype": 1387
+        "Archetype": 1449
       }
     },
     {
       "slug": "classes",
       "label": "Classes",
-      "count": 265,
+      "count": 286,
       "list": "classes.json",
       "categories": {
-        "Base Classes": 140,
-        "Prestige Classes": 125
+        "Base Classes": 155,
+        "Prestige Classes": 131
       }
     },
     {
@@ -63,10 +63,10 @@
     {
       "slug": "feats",
       "label": "Feats",
-      "count": 3704,
+      "count": 3890,
       "list": "feats.json",
       "categories": {
-        "Feats": 3704
+        "Feats": 3890
       }
     },
     {
@@ -87,11 +87,11 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 6716,
+      "count": 6819,
       "list": "items.json",
       "categories": {
         "Altars": 22,
-        "Armor": 458,
+        "Armor": 461,
         "Artifacts": 345,
         "Cursed Items": 87,
         "Cybertech": 12,
@@ -99,7 +99,7 @@
         "Favors": 5,
         "Intelligent Items": 32,
         "Magic Equipment": 125,
-        "Miscellaneous": 1559,
+        "Miscellaneous": 1617,
         "Pharmaceuticals": 11,
         "Potions & Oils": 10,
         "Psi-Tech": 9,
@@ -108,21 +108,21 @@
         "Staves": 106,
         "Technology": 16,
         "Thrones": 3,
-        "Weapons": 1188,
-        "Wondrous Items": 2151
+        "Weapons": 1210,
+        "Wondrous Items": 2171
       }
     },
     {
       "slug": "monsters",
       "label": "Monsters",
-      "count": 4000,
+      "count": 4185,
       "list": "monsters.json",
       "categories": {
         "Animal Companions": 214,
         "Creature Subtypes": 84,
         "Creature Types": 13,
         "Monster Families": 140,
-        "Monsters": 3164,
+        "Monsters": 3349,
         "Mythic Monsters": 89,
         "Templates": 164,
         "Universal Monster Rules": 132
@@ -140,18 +140,28 @@
     {
       "slug": "options",
       "label": "Class Options",
-      "count": 3034,
+      "count": 3121,
       "list": "options.json",
       "categories": {
-        "3rd Party Classes": 1,
+        "3rd Party Classes": 2,
+        "4 Winds Fantasy Gaming – Domains": 2,
+        "Adamant Entertainment": 1,
         "Advanced Armor Training": 12,
         "Advanced Weapon Training": 23,
+        "Agent Elite": 1,
+        "Air Domain": 1,
+        "Animal Domain": 1,
         "Annointings": 4,
         "Arcane Discoveries – Paizo, Inc.": 2,
         "Arcane Discoveries – Rite Publishing": 1,
         "Artifice Domain": 1,
-        "Ascension Games, LLC – Alchemist Discoveries": 1,
-        "Bardic Masterpieces – Everyman Gaming, LLC": 1,
+        "Artificer": 1,
+        "Ascension Games, LLC – Alchemist Discoveries": 2,
+        "Augmentations": 1,
+        "Bardic Masterpieces – Everyman Gaming, LLC": 2,
+        "Bardic Masterpieces – Paizo, Inc.": 1,
+        "Binder Secrets": 1,
+        "Bladestorm": 1,
         "Blessings": 42,
         "Bloodlines": 75,
         "Bloodlines – Paizo, Inc.": 1,
@@ -160,123 +170,162 @@
         "Cavalier Orders – Radiance House": 1,
         "Combat Styles": 29,
         "Community Domain": 1,
+        "Conjuration": 1,
         "Construct Mods": 21,
+        "Darkness Domain": 1,
         "Deeds": 41,
         "Destruction Domain": 1,
+        "Direlock": 1,
         "Disciplines": 23,
         "Discoveries": 176,
         "Domains": 35,
         "Domains and Subdomains – Legendary Games": 1,
-        "Domains – Bloodstone Press": 2,
-        "Drop Dead Studios – Advanced Rogue Talents": 2,
-        "Drop Dead Studios – Rogue Talents": 1,
+        "Domains – Bloodstone Press": 3,
+        "Dreamscarred Press": 1,
+        "Drop Dead Studios – Advanced Rogue Talents": 3,
+        "Drop Dead Studios – Rogue Talents": 2,
         "Druid Domain Powers": 51,
         "Eidolon Base Forms": 6,
         "Eidolon Base Forms (Unchained)": 4,
         "Eidolon Subtypes (Unchained)": 26,
         "Emotional Focus": 15,
+        "Everyman Gaming, LLC – Investigator Talents": 1,
         "Everyman Gaming, LLC – Slayer Talents": 1,
         "Evolutions": 78,
         "Evolutions (Unchained)": 60,
         "Exploits": 79,
+        "Far Distant Future Publishing": 1,
+        "Fat Goblin Games": 1,
         "Fat Goblin Games – Sorcerer Bloodlines": 1,
+        "Fey Order": 2,
         "Frog God Games – Gods": 4,
         "Healing Domain": 1,
+        "Heir Apparent": 1,
+        "Illusion": 1,
         "Implement Schools": 12,
         "Inquisitions": 39,
         "Investigator Talents": 62,
         "Kobold Press – Bloodlines": 2,
-        "Legendary Games": 1,
+        "Legendary Games": 2,
+        "Legendary Games – Alchemist Discoveries": 2,
         "Legendary Games – Arcane Schools": 1,
-        "Little Red Goblin Games": 2,
+        "Legendary Gunslinger": 2,
+        "Legendary Hunter": 2,
+        "Legendary Kineticist": 1,
+        "Legendary Ranger": 1,
+        "Little Red Goblin Games": 4,
+        "Louis Porter Jr. Design": 1,
         "Madness Domain": 1,
-        "Magic Skull Games": 3,
+        "Magic Skull Games": 5,
         "Magus Arcana": 64,
-        "Magus Arcana – Rogue Genius Games": 1,
+        "Magus Arcana – Rite Publishing": 2,
+        "Magus Arcana – Rogue Genius Games": 3,
         "Masterpieces": 68,
+        "Medium Influences": 1,
         "Michael Mars – Sorcerer Bloodlines": 1,
         "Mysteries": 34,
         "Mythic Path Abilities": 404,
         "Mythic Path Features": 22,
+        "Nightblade Arts": 3,
         "Ninja Tricks": 65,
+        "Optimal Shenanigans Games": 1,
         "Oracle Curses": 41,
         "Oracle Mysteries – Rite Publishing": 1,
         "Orders": 14,
-        "Orphaned Bookworm Productions": 3,
+        "Orphaned Bookworm Productions": 5,
         "Paizo, Inc. – Rogue Advanced Talents": 1,
+        "Paths": 1,
         "Phrenic Amplifications": 31,
+        "Plant Domain": 2,
         "Protection Domain": 1,
         "Purple Duck Games – Domains": 1,
-        "Purple Duck Games – Gods": 1,
+        "Purple Duck Games – Gods": 2,
         "Rage Powers": 234,
-        "Rage Powers – Ascension Games, LLC": 1,
+        "Rage Powers – Ascension Games, LLC": 2,
+        "Rage Powers – Paizo, Inc.": 2,
         "Rage Powers – Petersen Games": 1,
         "Rite Publishing – Bloodlines": 1,
+        "Rite Publishing – Rogue Advanced Talents": 2,
         "Rite Publishing – Rogue Talents": 2,
-        "Rogue Genius Games": 2,
-        "Rogue Genius Games – Ninja Tricks": 1,
+        "Rogue Genius Games": 3,
+        "Rogue Genius Games – Domains": 1,
+        "Rogue Genius Games – Ninja Tricks": 3,
         "Rogue Talents": 212,
         "Rogue Talents (Unchained)": 159,
+        "S-Class Characters": 2,
+        "Saboteur Tricks": 1,
+        "Sample Animal Companions": 1,
         "Samurai Orders – Name’s Games": 1,
-        "Samurai Sheepdog": 2,
+        "Samurai Sheepdog": 5,
+        "Scalykind Domain": 1,
+        "Scholar Studies": 1,
         "Schools": 17,
         "Shaman Hexes": 17,
         "Shifter": 30,
         "Silver Games LLC – Bloodlines": 1,
         "Slayer Talents": 42,
         "Sorcerer Bloodlines – Orphaned Bookworm Productions": 1,
+        "Soulforged Souls": 1,
+        "Specialty Casters": 1,
         "Spes Magna Games – Bloodlines": 1,
         "Spirits": 17,
         "Stares": 24,
         "Studio M-": 1,
+        "Terrain List": 1,
+        "The Conduit": 1,
+        "The Draionádúr": 1,
+        "Touch of Loss": 2,
         "Tricks": 44,
         "Unique Patrons": 9,
         "Vigilante Talents": 127,
+        "Void Domain": 1,
         "Warpriest Blessings – Paizo": 1,
-        "Water Domain": 1,
+        "Water Domain": 2,
         "Wild Talents": 278,
-        "Witch Hexes": 104
+        "Witch Hexes": 104,
+        "Witch Hexes – Jon Brazer Enterprises": 2,
+        "Zenith Games": 1
       }
     },
     {
       "slug": "races",
       "label": "Races",
-      "count": 137,
+      "count": 182,
       "list": "races.json",
       "categories": {
-        "Races": 137
+        "Races": 182
       }
     },
     {
       "slug": "rules",
       "label": "Rules & Skills",
-      "count": 3130,
+      "count": 3218,
       "list": "rules.json",
       "categories": {
         "Combat Stamina": 549,
         "Definitions": 52,
-        "Rules": 2503,
+        "Rules": 2591,
         "Skills": 26
       }
     },
     {
       "slug": "spells",
       "label": "Spells",
-      "count": 3256,
+      "count": 3485,
       "list": "spells.json",
       "categories": {
         "Occult Rituals": 81,
         "Spellbooks": 42,
-        "Spells": 3133
+        "Spells": 3362
       }
     },
     {
       "slug": "traits",
       "label": "Traits",
-      "count": 2000,
+      "count": 2021,
       "list": "traits.json",
       "categories": {
-        "Traits": 2000
+        "Traits": 2021
       }
     }
   ]

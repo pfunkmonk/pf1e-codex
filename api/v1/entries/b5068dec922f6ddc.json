@@ -1,0 +1,31 @@
+{
+  "id": "b5068dec922f6ddc",
+  "name": "Shining Beacon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "paladin": 4
+    },
+    "desc": [
+      "emotion",
+      "hope",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, hope, mind-affecting]; Level bard 5, cleric/oracle 5, inquisitor 5, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nEffect 30ft. aura centered on the caster\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nUpon completion of this spell you are limned in a nimbus of light that shines like a torch, you gain a +4 enhancement bonus to Charisma and are immune to fear and despair effects. Additionally you exude an aura of hope granting all allies within 30 feet a +1 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. The bonus to saving throws is increased to +4 vs. fear and despair effects.\n\nAny ally under the effect of a despair or fear effect that enters the aura is granted an immediate save to end the effect with the bonus provided by the aura.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b5068dec922f6ddc.json",
+    "web": "https://codex.pipsprojects.com/#/e/b5068dec922f6ddc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "c5e9f7f1418e8637",
+  "name": "Body Meld",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "oracle": 5,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 5, cleric/oracle 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (sliver of mirror)\n\nEFFECT\n\nRange touch\nTarget one creature of your size category or smaller\nDuration 1 min./level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou subsume another creature, including all of its gear, into yourself for the duration of the spell. No time passes for the subsumed creature, all of its bodily functions cease, and no force or effect can act upon it. Effectively, it cannot be harmed or magically detected, although it also cannot perceive anything or act while this spell is in effect. When the spell expires or is removed, such as by a successful dispel magic spell, the creature appears in the safest adjacent square. While the creature remains inside you, scrutiny reveals the subsumed creature’s image reflected in your eyes—an effect that betrays kidnappers and poachers.\n\nThis spell can be made permanent with the permanency spell for a cost of 12,500 gp and a minimum caster level of 13th, though the subsumed creature may make a Will save again to negate the permanency effect. This spell can be cast on a dead creature as long as it has been dead for no longer than 1 day per your caster level. If you target a dead creature with this spell, that creature’s body receives a Will save with its appropriate bonus to negate this effect, and it receives a second Will save if you or another creature try to make this effect permanent.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c5e9f7f1418e8637.json",
+    "web": "https://codex.pipsprojects.com/#/e/c5e9f7f1418e8637"
+  },
+  "license": "OGL 1.0a"
+}

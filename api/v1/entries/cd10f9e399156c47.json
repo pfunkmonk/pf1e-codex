@@ -1,0 +1,19 @@
+{
+  "id": "cd10f9e399156c47",
+  "name": "Breaking",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction [sonic]; Level 2\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one object weighing no more than 5 lbs. per caster level, see text\nDuration instantaneous\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou cause an object to shatter to pieces. You can use this script against a single solid non-magical object, regardless of composition, weighing up to 5 pounds per caster level. The object targeted by breaking is immediately destroyed. An unattended item gets no saving throw, but an attended item can negate the effects with a successful Fortitude saving throw.\n\nOverload: For every runic charge overloaded into this script, you can target an additional object within 10 feet of the original. If you overload four destruction charges into this script, instead of targeting multiple mundane objects, you can target a single magic item. The item gets a Fortitude save to negate the effect (whether attended or not) and is destroyed on a failed saving throw. This cannot target artifacts or similarly unique items.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd10f9e399156c47.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd10f9e399156c47"
+  },
+  "license": "OGL 1.0a"
+}

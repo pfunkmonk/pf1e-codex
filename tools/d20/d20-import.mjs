@@ -72,6 +72,19 @@ const SAVE_TYPES = ["fortitude", "reflex", "will"];
 // Paizo-or-not), useless as a display string ("📖 Source: PRG:OB" tells a reader nothing). Only trust
 // it here when it actually looks like a title (has a space, isn't a short all-caps/code token);
 // otherwise fall back to the already-clean p.publisher, or a generic label.
+// A third-party page with evidence:"section15" and no other signal (no Source line, no hub folder,
+// no breadcrumb tag) still names its own book right in the notice itself — "Mythic Options: The
+// Missing Core Feats. © 2013, Owen K.C. Stephens; Author: Owen K.C. Stephens" — but bkOf() never read
+// p.s15 at all, so 138 correctly-third-party entries in this batch showed the generic "Third-party
+// (unattributed)" when a real title was sitting right there. Extract everything before the first
+// copyright mark; empty or copyright-first text (a bare "© 2003, Wizards of the Coast" SRD notice
+// with no title of its own) correctly yields nothing, falling through to the existing generic label.
+const CR_MARK = /©|Copyright|\(c\)\s*\d{4}/i;
+function s15TitleOf(s15) {
+  if (!s15 || !s15.length) return null;
+  const first = s15[0].split(CR_MARK)[0].replace(/[.,;\s]+$/, "").trim();
+  return first && first.length <= 80 ? first : null;
+}
 function bkOf(p) {
   const src = field(p.body, "Source");
   // A real title is short ("Advanced Player's Guide"); a few third-party pages instead put their WHOLE
@@ -80,6 +93,7 @@ function bkOf(p) {
   const looksLikeTitle = src && src.length <= 60 && / /.test(src) && !/^[A-Z0-9:&]+$/.test(src) && !/copyright|\(c\)|©/i.test(src);
   if (looksLikeTitle) return bookOf(src);
   if (p.publisher) return p.publisher;
+  if (p.thirdParty && p.evidence === "section15") { const t = s15TitleOf(p.s15); if (t) return t; }
   return p.thirdParty ? "Third-party (unattributed)" : "Paizo, Inc.";
 }
 function spellFacets(p, bk) {

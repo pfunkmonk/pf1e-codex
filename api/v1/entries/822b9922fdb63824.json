@@ -1,0 +1,29 @@
+{
+  "id": "822b9922fdb63824",
+  "name": "Starve the Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 2,
+      "druid": 2,
+      "shaman": 2,
+      "witch": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level alchemist 2, druid 2, shaman 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of dirt)\n\nEFFECT\n\nRange self\nArea 30-foot aura\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create an area where fire is weakened. All fire-based lights decreased their bright and dim radii by 10 feet. All fire-based spells and effects decrease their DC by 1 for those affected within the aura. Additionally, all fire damage dealt within the radius is decreased by 1 per dice of fire damage dealt, or by 1 if no dice are used. Finally, any creature with the fire subtype is fatigued. If they are immune to fatigue, they instead take a -1 penalty to their attack and damage rolls.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/822b9922fdb63824.json",
+    "web": "https://codex.pipsprojects.com/#/e/822b9922fdb63824"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "f822fe9d2bf14b67",
+  "name": "Animate Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget a body of water equal in volume to a Small creature/caster level; see text\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou imbue water with cohesiveness, giving it a humanoid shape and a semblance of life.\n\nThe volume of water affected determines the possible sizes of the creature you create. You can animate a larger amount of water based on the following: a Medium creation counts as two Small or smaller creatures; a Large creation as four; a Huge creation as eight; a Gargantuan creation as 16; and a Colossal creation as 32. You can change the size and number of the creations as a move action, as if directing an active spell.\n\nThe creations have the statistics of animated objects with the following difference: Instead of hardness the animated water has DR 10/magic and takes half damage from piercing and slashing weapons. This spell cannot affect any liquids carried by a creature.\n\nAnimate water can be made permanent with a permanency spell at a cost of 17,500 gp and a minimum caster level of 13th.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f822fe9d2bf14b67.json",
+    "web": "https://codex.pipsprojects.com/#/e/f822fe9d2bf14b67"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "faeba83a475577d0",
+  "name": "Blade of My Brother",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 6,
+      "inquisitor": 4,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 6, inquisitor 4, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (melee weapon owned by a dead creature; see text), DF\n\nEFFECT\n\nRange touch\nTarget one unattended weapon\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou animate a touched melee weapon that a dead creature has recently used in battle.\n\nThe weapon leaps into the air and fights beside you or an ally with 30 ft. The weapon has an attack bonus equal to your caster level. The weapon’s normal bonuses also apply. The weapon fights for 1 round per your caster level or until the effect is dispelled, at which point it drops to the ground.\n\nThe weapon shares the same space as the creature it fights beside and never leaves, not even if magically moved. If the item is forced to leave the creature’s square for any reason, the spell ends. If spells or maneuvers are used against the weapon, treat it as if you wield it.\n\nMythic\n\nAdd your mythic tier to your caster level to determine the weapon’s attack bonus. Furthermore, each round the spell is active, you can instruct the weapon to fight beside another creature within your line of sight as a free action, but you can only change targets once per round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/faeba83a475577d0.json",
+    "web": "https://codex.pipsprojects.com/#/e/faeba83a475577d0"
+  },
+  "license": "OGL 1.0a"
+}

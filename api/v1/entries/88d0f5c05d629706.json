@@ -1,0 +1,28 @@
+{
+  "id": "88d0f5c05d629706",
+  "name": "Calm Pages",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "special",
+    "sr": "no (harmless, object)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Calm Pages\n\nSchool abjuration [air]; Level alchemist 1, magus 0, wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one book touched\nDuration 1 minute/level\nSaving Throw none (harmless, object); Spell Resistance no (harmless, object)\n\nWhile affected by calm pages, a book or document isn’t affected by winds or air currents, and windy conditions don’t impose any penalties to reading or using such written materials. Documents protected by this spell aren’t at risk of being blown away by the wind.\n\nIf cast underwater, it provides the same protection against water currents; however, the paper must be waterproofed by other means.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/88d0f5c05d629706.json",
+    "web": "https://codex.pipsprojects.com/#/e/88d0f5c05d629706"
+  },
+  "license": "OGL 1.0a"
+}

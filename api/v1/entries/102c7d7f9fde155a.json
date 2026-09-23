@@ -1,0 +1,28 @@
+{
+  "id": "102c7d7f9fde155a",
+  "name": "Prismatic Sword",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "inquisitor": 4,
+      "paladin": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level inquisitor 4, paladin 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw will negates; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a shimmering blade of scintillating colors. You are automatically proficient in this blade and it is treated as a +1 ghost touch longsword. When summoned and at the start of each round roll 1d8 to select one of the effects listed on the table below to the sword until the beginning of the next round.\n\nAdditionally, the sword’s enhancement bonus increases by 1 for every 5 caster levels you possess to a maximum of +5.\n\nAny creature struck by the sword must succeed at a will saving throw or be dazed for one round. Once a creature succeeds at this saving throw it is immune to the dazing for 24 hours or until a critical hit is confirmed against them using the prismatic sword.\n\n* Chosen by wielder when result is rolled.\n\nd8\n\nColor\n\nEffect Gained\n\n1 Red Flaming property 2 Orange Corrosive property 3 Yellow Shocking property 4 Green Bane property* 5 Blue Frost property 6 Indigo Vicious property 7 Violet Keen property 8 Two Colors Roll twice ignoring any result of ‘8’\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/102c7d7f9fde155a.json",
+    "web": "https://codex.pipsprojects.com/#/e/102c7d7f9fde155a"
+  },
+  "license": "OGL 1.0a"
+}

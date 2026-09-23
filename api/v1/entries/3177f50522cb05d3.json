@@ -1,0 +1,25 @@
+{
+  "id": "3177f50522cb05d3",
+  "name": "Resistance to Fear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 0,
+      "druid": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration; Level cleric/oracle 0, druid 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject gains a +2 morale bonus against fear effects for 1 minute. If the subject is under the influence of a fear effect when receiving this spell, he can immediately attempt a save (with the +2 bonus) to break the effect. If the save fails, this spell has no effect.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3177f50522cb05d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/3177f50522cb05d3"
+  },
+  "license": "OGL 1.0a"
+}

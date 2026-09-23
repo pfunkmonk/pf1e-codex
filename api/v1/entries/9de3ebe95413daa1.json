@@ -1,0 +1,23 @@
+{
+  "id": "9de3ebe95413daa1",
+  "name": "Second Chance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration; Level cleric/oracle 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject can attempt a new saving throw to shrug off one unwanted ongoing condition or effect. Second chance does not heal damage already suffered from an effect or condition. If an effect doesn’t allow a save, or if it has a duration of Instantaneous, then second chance has no effect. The save DC is the same as for the first saving throw. Effects with a Permanent duration add +2 to the DC of the second save. This spell can be cast only once per unwanted condition—if the second save fails, this spell cannot help.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9de3ebe95413daa1.json",
+    "web": "https://codex.pipsprojects.com/#/e/9de3ebe95413daa1"
+  },
+  "license": "OGL 1.0a"
+}

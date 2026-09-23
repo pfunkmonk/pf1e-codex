@@ -1,0 +1,33 @@
+{
+  "id": "b62dc30349424a01",
+  "name": "Wracking Sobs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting]; Level bard 2, mesmerist 2, occultist 2, psychic 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a vial of tears)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/2 levels\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the target to be wracked with debilitating sobs and torrents of tears. For the duration of the spell, the target is sickened and blinded. A successful Will save negates the effect entirely.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b62dc30349424a01.json",
+    "web": "https://codex.pipsprojects.com/#/e/b62dc30349424a01"
+  },
+  "license": "OGL 1.0a"
+}

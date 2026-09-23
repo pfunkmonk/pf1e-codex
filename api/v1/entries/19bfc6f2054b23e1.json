@@ -1,0 +1,23 @@
+{
+  "id": "19bfc6f2054b23e1",
+  "name": "Chronal Lance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a spring)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one or more creatures\nDuration instantaneous and 1/round level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou compel temporal energy to coalesce into one or more glowing lances of pure force that hover next to you. With a gesture, you send them streaking toward their targets. You create one lance plus one additional lance every 3 caster levels past first (maximum 4).\n\nFor each lance, make a ranged touch attack against a target creature. If hit, the target creature is staggered for 1 round/level. You can target a single creature with more than one lance and make an attack roll for each lance used the stagger effect duration does not stack. As force effects, the lances can affect incorporeal and ethereal creatures.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/19bfc6f2054b23e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/19bfc6f2054b23e1"
+  },
+  "license": "OGL 1.0a"
+}

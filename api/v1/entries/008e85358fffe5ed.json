@@ -1,0 +1,26 @@
+{
+  "id": "008e85358fffe5ed",
+  "name": "Destabilize Magic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 2
+    },
+    "desc": [
+      "chaos"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [chaos]; Level cleric/oracle 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bottle of wine and 25 gp worth of cold-iron dust, all of which must be sprinkled around the area)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 20-ft.-radius emanation\nDuration 2 hours/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell imbues an area with chaotic energies. The save DC to resist spells, spell-like, and supernatural abilities within the area of this spell suffer a -10 destabilizing penalty and then add a 1d20 destabilizing bonus to their DC. So for example if a wizard‘s fireball, a demon’s spell-like cone of cold, and a green dragon’s breath weapon all have a normal Reflex DC of 25, within the area of this spell that Reflex DC would be 15+1d20. Spells or effects without Save DCs are not affected by this spell.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/008e85358fffe5ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/008e85358fffe5ed"
+  },
+  "license": "OGL 1.0a"
+}

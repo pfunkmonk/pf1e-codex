@@ -1,0 +1,30 @@
+{
+  "id": "e447b4096a61850b",
+  "name": "Elemental Horns",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "or fire"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [acid, cold, electricity, or fire]; Level magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a tindertwig)\n\nEFFECT\n\nRange touch\nTarget one living creature with horns\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell causes the target’s horns to crackle with elemental energy. Select one of the following energy types: acid, cold, electricity, or fire. The creature’s gore attack deals 1d6 hp energy damage of the chosen type in addition to any other damage it deals. If the creature confirms a critical hit with its gore attack, it can choose to end this spell in a burst of elemental power. This deals 4d6 hp damage of the chosen energy type to the target of the gore attack, in addition to the damage from the critical hit.\n\nMythic: If you expend one use of mythic power when casting elemental horns, the energy damage dealt by a gore attack increases to 2d6 hp. In addition, if the spell is expended on a critical hit, the target takes 6d6 energy damage. Finally, the target of this spell also gains energy resistance 10 against the selected energy type as long as the spell lasts.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e447b4096a61850b.json",
+    "web": "https://codex.pipsprojects.com/#/e/e447b4096a61850b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "f80d0d8c2daec784",
+  "name": "Control Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "druid": 4,
+      "shaman": 4
+    },
+    "desc": [
+      "darkness",
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness, light]; Level cleric 4, druid 4, shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pearl and a piece of obsidian, each worth at least 10 gp)\n\nEFFECT\n\nRange 60 ft.\nArea 60 ft.-radius centered on you\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nAs you cast this spell, the gem that you hold in each hand dissolves away, the pearl staining one hand with a silvery glow, the obsidian blackening your other hand with darkness. Upon casting this spell, you designate the light level that you wish to maintain (bright light, normal light, dim light, or darkness). The lighting within 60 feet of you is changed to that light level, regardless of existing conditions. By concentrating on the spell (a standard action) you can change the lightning level this spell creates by one step in either direction.\n\nNonmagical sources of light or shadows do not have any effect within the area of this spell. Any magical source of light or darkness that would alter the lighting to a different light level than you have designated has a chance of being suppressed. You must make an opposed caster level check against the caster of the other source of light or darkness. Success means the other source of light or darkness has no effect inside the area of this spell for the remaining duration of this spell, even if the area of light or darkness is brought outside the area of this spell and later brought back in. Failure means the other spell’s effects supersede the lighting or darkness created by control light for the duration of the spell.\n\nControl light counters or dispels any light or darkness spell of the same level or lower, such as daylight or snuff.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f80d0d8c2daec784.json",
+    "web": "https://codex.pipsprojects.com/#/e/f80d0d8c2daec784"
+  },
+  "license": "OGL 1.0a"
+}

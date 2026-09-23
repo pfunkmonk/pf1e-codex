@@ -1,0 +1,29 @@
+{
+  "id": "428e4a9afc7fb60c",
+  "name": "Silver Arc",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 5,
+      "druid": 5,
+      "shaman": 5,
+      "witch": 5
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level adept 5, druid 5, shaman 5, witch 5\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget two creatures or objects which must be no more than 60 ft. apart\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an arcing beam of moonlight between two targets. This moonlight deals 1d6 points of cold damage per caster level (maximum 15d6) to both targets and any creatures in the line connecting them.\n\nAdditionally, all affected creatures are affected by the effects of moonlight if they have abilities or conditions triggered by moonlight. Any creature that has their DR assed by silver instead takes 1d8 per caster level (maximum 15d8) points of untyped damage. A successful Fortitude save halves the damage.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/428e4a9afc7fb60c.json",
+    "web": "https://codex.pipsprojects.com/#/e/428e4a9afc7fb60c"
+  },
+  "license": "OGL 1.0a"
+}

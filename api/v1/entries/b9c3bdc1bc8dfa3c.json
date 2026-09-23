@@ -1,0 +1,25 @@
+{
+  "id": "b9c3bdc1bc8dfa3c",
+  "name": "Symbol Of Condemnation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level cleric/oracle 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M (mercury and phosphorus, plus a powdered scarlet red ruby worth 200 gp)\n\nEFFECT\n\nRange 0 ft.; see text\nTarget one symbol\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as symbol of death, except the spell does not cause death. Instead, symbol of condemnation marks all creatures that fail a Will save in the spell’s 60-ft. burst with a glowing, scarlet-red symbol of condemnation somewhere visible on the creature’s body (GM’s choice).\n\nAny intelligent creature that views the symbol of condemnation on a creature immediately shifts their attitude toward the affected creature to unfriendly, and the marked creature must make Diplomacy checks while interacting with it. Additionally, creatures marked with a symbol of condemnation act unfriendly to each other.\n\nThe symbol of condemnation remains visible on the creature for one day per caster level unless magically dispelled.\n\nAny guards or lawful officials who view the inflicted creature may make an Intelligence check to determine if the inflicted should be judged for their crimes.\n\nSymbol of condemnation can be made permanent with a permanency spell by a caster of 10th level or higher for the cost of 5,000 gp.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9c3bdc1bc8dfa3c.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9c3bdc1bc8dfa3c"
+  },
+  "license": "OGL 1.0a"
+}

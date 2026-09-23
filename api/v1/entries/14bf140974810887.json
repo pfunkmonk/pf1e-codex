@@ -1,0 +1,31 @@
+{
+  "id": "14bf140974810887",
+  "name": "Spikes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 2,
+      "cleric": 2,
+      "magus": 2,
+      "wizard": 2,
+      "vanguard": 2
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Will",
+    "sr": "yes (object), see text",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [metal]; Level antipaladin 2, bloodrager 2, cleric 2, magus 2, sorcerer/wizard 2, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget or Area see text\nDuration 1 min./level (D)\nSaving Throw Will negates (object); Spell Resistance yes (object), see text\n\nDESCRIPTION\n\nSpikes is a versatile spell that causes sharp, metallic spikes to grow from a surface, object, or creature. The uses of spikes vary greatly, as shown below:\n\nYou can cover a weapon in spikes. A weapon with spikes can be used to deal piercing damage (if it couldn’t already) and causes creatures struck to take 1 point of bleeding damage each round.\nYou can make the outside of a single suit of armor or a shield spiky, treating it as having armor spikes or shield spikes respectively.\nYou can cause the handle of a weapon or shield to become spiky. The creature carrying it takes 1d6 piercing damage each round unless it drops the item.\nYou can cause a relatively flat surface to grow spikes, affecting a space up to one 5-foot square per caster level (max 10 squares). The spaces are treated as having caltrops scattered within them, though the spikes deal 1d6 damage instead of just 1.\nYou can make a creature’s skin grow spikes. You can affect all or some of its body. The target’s natural attacks and unarmed strikes deal piercing damage, and any creature striking the target with natural weapons or grappling it takes 1d6 points of piercing damage (this damage occurs each round it is grappled).\nYou can make a single unattended object spiky all over. The object cannot exceed 2 cubic feet per caster level (max 20 cubic feet). Any creature that carries, wears, touches, or wields the object takes 1d6 piercing damage each round.\n\nThe spell can create any other effect that would logically extend from making an object spiky, such as growing spikes from boots or a wagon wheel to create traction, subject to GM discretion. A creature or magic item that does not wish to receive a spikes spell can make a Will save to negate its effects, and spell resistance applies. Non-magic items do not receive a saving throw unless they are attended.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14bf140974810887.json",
+    "web": "https://codex.pipsprojects.com/#/e/14bf140974810887"
+  },
+  "license": "OGL 1.0a"
+}

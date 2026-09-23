@@ -1,0 +1,17 @@
+{
+  "id": "745ae63f79df428d",
+  "name": "Zombie, Deer",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Cliffside Manor",
+  "book": "Cliffside Manor",
+  "facets": {
+    "bk": "Cliffside Manor"
+  },
+  "body": "DEER ZOMBIE\nCR 1\n\nXP 400\nNE Large undead\nInit -1; darkvision 60 ft., low-light vision, scent; Perception +10\n\nDEFENSE\n\nAC 11, touch 8, flat-footed 11 (-1 Dex, -1 size, +3 natural)\nhp 26 (4d8 + 8)\nFort +1, Ref +0, Will +4\nDR 5/slashing; Immune undead traits\n\nOFFENSE\n\nSpeed 50 ft.\nMelee gore +4 (1d8+4)\nSpace 10 ft.; Reach 5 ft.\n\nSTATISTICS\n\nStr 16, Dex 9, Con —, Int —, Wis 10, Cha 10\nBase Atk +2; CMB +6; CMD 15 (19 vs. trip)\nFeats Toughness\nSkills Perception +10\nLanguages —\nSQ single actions only\n\nABOUT\n\nThis rotting stag ambles out from the rain-soaked tree line, its neck torn open with fatal puncture wounds and its dead eyes staring blankly into the storm.\n\nAnimated by ambient necromantic energies, it charges blindly into travelers, battering through barricades with its heavy antlers.\n\nCliffside Manor Copyright 2013-2016, Chris Lundy; Author: Chris Lundy.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/745ae63f79df428d.json",
+    "web": "https://codex.pipsprojects.com/#/e/745ae63f79df428d"
+  },
+  "license": "OGL 1.0a"
+}

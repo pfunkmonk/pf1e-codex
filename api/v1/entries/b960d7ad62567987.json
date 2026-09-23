@@ -1,0 +1,30 @@
+{
+  "id": "b960d7ad62567987",
+  "name": "Pasturage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 1,
+      "alchemist": 1,
+      "druid": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Zenith Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting); Level adept 1, alchemist 1, druid 1, mesmerist 1, psychic 1, ranger 1, shaman 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one animal with 2 HD or fewer\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou designate a livestock animal when casting pasturage. If the creature is currently being threatened or attacked by you or your allies, it is immune to this effect. The animal turns in the direction of its most suitable mate within 10 miles + 1 mile/level, with a good temperament toward the subject animal and assurance of long-lived, productive offspring from the animals’ union. If no suitable mate exists, the spell fails. For the duration of the spell, the animal seeks out its mate.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b960d7ad62567987.json",
+    "web": "https://codex.pipsprojects.com/#/e/b960d7ad62567987"
+  },
+  "license": "OGL 1.0a"
+}

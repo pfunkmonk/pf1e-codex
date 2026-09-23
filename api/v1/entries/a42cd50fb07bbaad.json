@@ -1,0 +1,28 @@
+{
+  "id": "a42cd50fb07bbaad",
+  "name": "Resin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "wood"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration [wood]; Level druid 3, shaman 3, witch 3\n\nCasting Time 1 standard action\n\nComponents V, S, M (a bit of wood resin)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration 1 round/level (D)\n\nSaving Throw see text; Spell Resistances yes\n\nWood: Spells with this descriptor include those that directly create, utilize, or manipulate plant or wood in some manner or conjure creatures with the plant subtype or composed of wood. Such spells are considered to belong to the Wood element (for geomancers) and the Wood elemental school (for wood elementalists).\n\nYou conjure a globule of wood resin that you toss at an enemy within range as a ranged touch attack. On a hit, the target is staggered for the duration. Additionally, the resin reduces their ability to defend themselves by slowing their movements and rendering their existing armor ineffective. They take a penalty to AC 1/4 your caster level (minimum +1). An affected creature can attempt Strength check against the spell’s save DC to break free from the resin.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a42cd50fb07bbaad.json",
+    "web": "https://codex.pipsprojects.com/#/e/a42cd50fb07bbaad"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b1bd94f100503117",
+  "name": "Summon Greater Wondrous Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "summoner": 6,
+      "witch": 6
+    },
+    "desc": [
+      "chaotic",
+      "glamer"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [chaotic, glamer]; Level magus 6, sorcerer/wizard 6, summoner 6, witch 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange 0 ft.\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nAs summon wondrous item, but this spell summons one random wondrous item from the Medium Wondrous Item table.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b1bd94f100503117.json",
+    "web": "https://codex.pipsprojects.com/#/e/b1bd94f100503117"
+  },
+  "license": "OGL 1.0a"
+}

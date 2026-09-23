@@ -1,0 +1,32 @@
+{
+  "id": "f0f21c98aa7c6a06",
+  "name": "Embodiment of Grief",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 4,
+      "lathspell": 4,
+      "mesmerist": 4,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting]; Level antipaladin 4, bard 4, lathspell 4, mesmerist 4, sorcerer/wizard 5, witch 5\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange self\nArea 20-foot radius emanation centered on you\nDuration instantaneous\nSaving Throw 1 round/level, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou exude an aura of despair, causing those around you to feel immense grief. Each creature that enters or begins their turn in the aura must make a Will save or take a -1 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls for 1 minute. If the subject creature fails their Will saving throw while taking penalties from this ability, the condition worsens. On a failure while taking a -1 penalty, the penalty increases to -2 for 10 minutes. On a failure while taking the -2 penalty, the penalty increases to -4 for 1 hour. If the creature fails while taking the -4 penalty, it does not worsen but the 1 hour duration resets. If a creature succeeds on a saving throw, it is immune to gaining or increasing the penalty from this aura, but the already imposed penalty remains for its duration.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f0f21c98aa7c6a06.json",
+    "web": "https://codex.pipsprojects.com/#/e/f0f21c98aa7c6a06"
+  },
+  "license": "OGL 1.0a"
+}

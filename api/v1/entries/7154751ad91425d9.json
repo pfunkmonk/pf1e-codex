@@ -1,0 +1,30 @@
+{
+  "id": "7154751ad91425d9",
+  "name": "Clarifying Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 5,
+      "druid": 4,
+      "hunter": 4
+    },
+    "desc": [
+      "lawful",
+      "mind-affecting",
+      "water"
+    ],
+    "save": "None",
+    "sr": "yes (see text)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Clarifying Rain\n\nSchool conjuration (creation) [lawful, mind-affecting, water]; Level cleric 5, druid 4, hunter 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (an aquamarine worth 50 gp)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea cylinder (40-ft. radius, 20 ft. high)\nDuration 1 round/level (see text)\nSaving Throw none; Spell Resistance yes (see text)\n\nYou call forth a shower of clear water, washing away confusion and misunderstanding. This functions as heavy rain. If a creature within the area is suffering from a mind-affecting effect that impairs its thought (including charm, compulsion, confusion and emotion effects), at the start of each turn spent in the rain, it reduces the effect’s duration as though an additional round had passed. If it receives a saving throw to avoid or shake off such an effect, the creature can roll twice and take the better result. In addition, creatures dampened by the rain gain an insight bonus equal to +1 per 3 caster levels on Sense Motive checks for as long as they remain in the rain and 1 minute thereafter.\n\nEffects and abilities that modify the impact of weather apply as normal.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7154751ad91425d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/7154751ad91425d9"
+  },
+  "license": "OGL 1.0a"
+}

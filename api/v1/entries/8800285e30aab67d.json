@@ -1,0 +1,25 @@
+{
+  "id": "8800285e30aab67d",
+  "name": "Erase Tattoo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 1, cleric 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M, (gem dust with a value equal to twice the value of the tattoo to be removed)\n\nEFFECT\n\nRange touch\nTarget 1 creature\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou may use this spell to remove a mundane tattoo from a willing subject. If the subject is not willing to lose the tattoo, or the tattoo is enchanted, the spell fails and the material components are wasted. So long as the subject is willing, the tattoo is permanently removed upon the completion of the spell. If a subject has more than one tattoo, the spell can affect larger areas of skin at the same time, but the material cost increases accordingly.\n\nThe Way of the Yakuza Copyright 2011, Steven D. Russell and Michael Tumey, all rights reserved; Author Jonathan McAnulty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8800285e30aab67d.json",
+    "web": "https://codex.pipsprojects.com/#/e/8800285e30aab67d"
+  },
+  "license": "OGL 1.0a"
+}

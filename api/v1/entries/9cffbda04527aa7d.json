@@ -1,0 +1,30 @@
+{
+  "id": "9cffbda04527aa7d",
+  "name": "Phantom Warhorse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "str": 20,
+      "dex": 20,
+      "con": 21,
+      "int": 2,
+      "wis": 17
+    },
+    "desc": [
+      "creation"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School conjuration [creation]; Level: bard 4, magus 4, sorcerer/wizard 4, summoner 4\n\nComponents: V, S\n\nCasting Time: 10 minutes\n\nRange: 0 ft.\n\nEffect: one quasi-real, horse-like creature\n\nDuration: 1 hour/2 levels (D)\n\nSaving Throw: None; Spell Resistance: no\n\nThis spell functions like phantom steed, but conjures a fierce destrier trained for battle, though it is not as fast or mobile as a phantom steed, and does not last as long.\n\nThe mount is war trained and will attack if ordered to do so by its rider. Animals normally shun it, but may still attack it. Only the caster may ride the phantom warhorse, and he gains +2 bonus on Ride checks while doing so. The caster gains the ability to use the Mounted Combat and Ride-by Attack feats while riding the warhorse.\n\nSpd 50; AC 18, touch 14, flat-footed 13 (+5 Dex, –1 size, +4 natural); hp 25 + 3 per caster level (2d8+10), BAB +5*; Atk: 2 hooves +4 (1d6+2), bite +4 (1d4+2); Fort +8, Ref +8, Will +3; Init +4; Senses low-light vision; Str 20, Dex 20, Con 21, Int 2, Wis 17, Cha 11; Base Atk +5; CMB +7; CMD 21 (25 vs. trip); Feats: Endurance, Improved Sunder, Power Attack, Run; Tricks: Combat Training, Down, Heel, Stay\n\n*The mount’s base attack bonus increases by +1 for every three caster levels after level six (e.g., +6 at caster level nine, +7 at caster level twelve, etc.). If it loses all its hit points, the phantom warhorse disappears. It can bear its rider’s weight plus up to 10 pounds per caster level.\n\nThese mounts gain certain powers according to caster level. A mount’s abilities include those of mounts of lower caster levels.\n\n8th Level: The mount can ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed. While mounted on the steed, the caster may also use the Trample feat twice per day. The mount’s bite and hoof attacks are considered magic weapons.\n10th Level: While mounted on the steed, the caster may also use the Spirited Charge feat three times per day.\n12th Level: The mount appears wearing chainmail barding (+6 to AC, cannot be removed, and does not reduce the mount’s speed). The mount’s bite and hoof attacks are also considered one of the following: good or evil weapons, cold iron, or silver. The caster selects one type when the spell is cast, and it cannot be changed for the duration of the spell.\n14th Level: The mount appears wearing half-plate barding (+8 to AC, cannot be removed, and does not reduce the mount’s speed). The mount’s hooves have one of the following enhancements: flaming, frost, ghost touch, or shock. The caster selects one type when the spell is cast, and it cannot be changed for the duration of the spell.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9cffbda04527aa7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/9cffbda04527aa7d"
+  },
+  "license": "OGL 1.0a"
+}

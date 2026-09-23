@@ -1,0 +1,28 @@
+{
+  "id": "5869d89320ced13e",
+  "name": "Icy Impalement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 9,
+      "wizard": 8,
+      "witch": 9
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level shaman 9, sorcerer/wizard 8, witch 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one creature (or object)/level, no two of which are more than 60 ft. apart\nDuration instantaneous, see text\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nEach target is surrounded and impaled by freezing ice crystals. Each target in the area takes 1d6 points of damage per caster level (maximum 20d6). Half of the damage is cold, the other is magical piercing.\n\nAdditionally to the damage, the target is slowed as per the slow spell for 1 round per caster level. A successful Reflex save halves the damage and negates the slow effect.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5869d89320ced13e.json",
+    "web": "https://codex.pipsprojects.com/#/e/5869d89320ced13e"
+  },
+  "license": "OGL 1.0a"
+}

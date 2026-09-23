@@ -1,0 +1,28 @@
+{
+  "id": "2064e73a037abb16",
+  "name": "Self-Sabotage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 1,
+      "psychic": 1,
+      "focus supremacy": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level mesmerist 1, psychic 1, spiritualist 1; Focus supremacy 1\n\nCASTING\n\nCasting Time 1 standard or immediate action\nComponents V, S\n\nEFFECT\n\nRange close\nTarget one creature\nDuration until discharged\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe target is tricked into undermining its own actions. The next time it would succeed on a roll, check or saving throw, or when failing any of the above by more would have a detrimental effect, it must attempt a Will saving throw. On a failure, the triggering roll, check or saving throw suffers a penalty equal to the difference between this spell’s saving throw DC and the result. If the result of the saving throw is a natural 1, the penalized result is treated as 1, regardless of the difference. R damage roll that resulted from an attack roll is penalized the same amount as that attack roll. The spell does not penalize saving throws made against it.\n\nSelf-Sabotage II\n\nLevel mesmerist 2, psychic 2, spiritualist 2; Focus supremacy 2\n\nCASTING\n\nCasting Time 1 standard action\nSaving Throw Will partial (see text)\n\nDESCRIPTION\n\nAs self-sabotage I, except as noted above, and the target must continue to attempt saving throws or suffer the penalty until a roll, check or saving throw that would otherwise succeed fails due to the penalty. This spell can be undercast.\n\nSelf-Sabotage III\n\nLevel mesmerist 3, psychic 3, spiritualist 3; Focus supremacy 3\n\nDESCRIPTION\n\nAs self-sabotage II, except as noted above, and the penalty suffered by the initial failed roll, check or saving throw is instead applied to every roll, check or saving throw the target attempts, reduced by one each subsequent time. The spell is discharged when the penalty inflicted the following time would be 0. This spell can be undercast.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2064e73a037abb16.json",
+    "web": "https://codex.pipsprojects.com/#/e/2064e73a037abb16"
+  },
+  "license": "OGL 1.0a"
+}

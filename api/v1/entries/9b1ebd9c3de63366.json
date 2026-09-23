@@ -1,0 +1,31 @@
+{
+  "id": "9b1ebd9c3de63366",
+  "name": "Imagined Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2,
+      "occultist": 3,
+      "psychic": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "air",
+      "phantasm)"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Imagined Wind\n\nSchool illusion [air, phantasm)]; Level bard 2, mesmerist 2, occultist 3, psychic 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a fan)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (see text)\nSaving Throw Will disbelieves (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the subject to believe it is battered by a terrific wind, coming from a direction of your choice. Treat this as a windstorm-strength wind, with the following exceptions.\n\nIf small enough to be checked by the wind, the target must make a Strength or Fly check at the beginning of each turn. On a failure by 5 or more, the creature staggers 5 feet backward and must make a Reflex saving throw or fall prone. A successful check allows the target to move against the wind at half speed, while a success by 5 or more allows it to move at full speed.\n\nTo the creature’s senses, the wind has all the expected effects on its surroundings. This can create additional effects; for example, if cast in a dusty environment, it might cause the creature to perceive a cloud of dust that grants concealment.\n\nEffects and abilities that modify the impact of wind or weather apply as normal.\n\nA successful Will saving throw allows the target to disbelieve the illusion.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b1ebd9c3de63366.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b1ebd9c3de63366"
+  },
+  "license": "OGL 1.0a"
+}

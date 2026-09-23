@@ -1,0 +1,26 @@
+{
+  "id": "61a65b150818818f",
+  "name": "Ironforge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "paladin": 1,
+      "ranger": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless, object)",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level bloodrager 1, magus 1, paladin 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one weapon or 50 projectiles, all of which must be together at the time of casting\nDuration 1 minute/level\nSaving Throw Fort negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou transform the touched weapon or projectiles so that it is treated as a cold iron weapon for the purpose of overcoming damage reduction. The weapon is not actually transformed into cold iron, and it retains any special qualities or properties that it already possesses because of its material, masterwork, or magical properties. This spell cannot affect an item worn or wielded by another creature unless that creature is willing.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/61a65b150818818f.json",
+    "web": "https://codex.pipsprojects.com/#/e/61a65b150818818f"
+  },
+  "license": "OGL 1.0a"
+}

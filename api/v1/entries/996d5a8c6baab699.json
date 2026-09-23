@@ -1,0 +1,23 @@
+{
+  "id": "996d5a8c6baab699",
+  "name": "Transposition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleport); Level sorcerer /wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch and Medium (100 ft. + 10 ft./level)\nTarget you and up to four other touched, willing creatures\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou select up to four other targets, and you may instantly trade places with each other. As an immediate action that does not provoke an attack of opportunity, any of the spell’s recipients may teleport to the location of another recipient, which teleports to the first recipient’s square. None of the creatures you designate may initiate a transposition with you, but you may initiate one with them.\n\nThe swap takes place instantaneously, so each creature involved in the swap must face the circumstances of any action(s) targeting the creatures before the exchange. The transposition must occur between two living creatures, but a recipient may initiate a transposition with an unconscious, sleeping, dying, or otherwise disabled recipient.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/996d5a8c6baab699.json",
+    "web": "https://codex.pipsprojects.com/#/e/996d5a8c6baab699"
+  },
+  "license": "OGL 1.0a"
+}

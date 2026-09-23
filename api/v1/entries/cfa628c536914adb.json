@@ -1,0 +1,25 @@
+{
+  "id": "cfa628c536914adb",
+  "name": "Divine Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "paladin": 3,
+      "inquisitor": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation; Level antipaladin 3, paladin 3, inquisitor 4\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level or until discharged, see text\n\nDESCRIPTION\n\nWith a word of conviction, you strike your opponent with divine wrath, creating a cascade of energy to burst from your weapon’s strike.\n\nAfter casting divine strike, your weapons glow with a pale radiance (about as bright as a candle); the color of the radiance is up to you. At any point during the spell’s duration when you strike an opponent with a weapon attack, you may discharge the effect onto the creature struck. This can be a melee attack or a ranged attack (ranged weapons bestow the effect onto their ammunition).\n\nThe target struck takes an additional 2d8 damage (no save); this damage is considered divine power and ignores damage reduction (but it not multiplied on a critical hit). Any creature that is adjacent to the creature struck (except you) also takes this damage. If the creature is the target of your smite evil or smite good, or if you are currently using your judgment ability, the damage doubles to 4d8. Once you have dealt additional damage with divine strike, the spell is discharged.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfa628c536914adb.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfa628c536914adb"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "e7c69585054c7f65",
+  "name": "As You Were",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level antipaladin 2, bard 2, inquisitor 2, magus 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M (a piece of flesh of a creature of the target’s race)\n\nEFFECT\n\nTarget one undead creature touched; see text\nDuration 1 day/level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nBy casting this spell and touching the target, you change the target’s appearance to what it was just before the creature died. The target looks, feels, and detects as a healthy, living creature, and it must eat, drink and sleep as a living creature does (although it requires only 2 hrs. sleep per night). The target can benefit from first aid and long-term care (see the Heal skill) but it also becomes susceptible to poisons (treat the target’s Constitution score as 0.)\n\nThe target is still destroyed when it reaches 0 hp. Positive energy still harms it, and negative energy heals it as is usual for undead. Any amount of positive energy damage, Constitution damage, or energy drain immediately ends this spell.\n\nThis spell can also affect a corpse. In this case, treat as gentle repose, except for the change of appearance. If this spell is cast on an intelligent undead, the target must be willing or it is entitled to a Will save.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7c69585054c7f65.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7c69585054c7f65"
+  },
+  "license": "OGL 1.0a"
+}

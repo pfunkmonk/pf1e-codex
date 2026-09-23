@@ -1,0 +1,23 @@
+{
+  "id": "4098da9a9b2c4e99",
+  "name": "Ley Pulse Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25ft. +5 ft./2 levels)\nArea 20-ft.-radius burst\nTarget up to 5 creatures\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nLesser ley pulse generates ley-line vibrations within creatures in the burst’s area of effect. The pulse removes DR for one type of damage or one type of energy resistance (it does not remove immunities) from the targets for the spell’s duration.\n\nThe caster must specify the type of removed damage reduction or energy resistance, so familiarity with the targets’ defensive abilities via the appropriate Knowledge skill is necessary for effective use of this spell. For instance, you could choose to remove two hezrou demons‘ resist acid 10 with this spell, making the creatures susceptible to acid, or, you could choose to allow slashing damage to overcome their DR, making it easier for allies to damage them.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4098da9a9b2c4e99.json",
+    "web": "https://codex.pipsprojects.com/#/e/4098da9a9b2c4e99"
+  },
+  "license": "OGL 1.0a"
+}

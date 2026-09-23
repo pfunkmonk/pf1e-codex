@@ -1,0 +1,28 @@
+{
+  "id": "6568adc20a45d268",
+  "name": "Antienergy Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 5,
+      "druid": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [see text]; Level cleric/oracle 5, druid 5, sorcerer/wizard 5\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange personal\n\nArea 10-ft.-radius emanation centered on you\n\nDuration 10 min./level (D)\n\nSaving Throw none; Spell Resistance yes\n\nA spherical energy field comes into being that matches the element you are defending against. When casting the spell you choose between acid, cold, electricity, fire, or sonic. All creatures within the emanation gain immunity to the chosen damage type. Additionally, any creature with the element as a subtype is unable to enter the area unless their spell resistance makes them immune to the spell. This spell gains the descriptor of the energy type chosen when cast.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6568adc20a45d268.json",
+    "web": "https://codex.pipsprojects.com/#/e/6568adc20a45d268"
+  },
+  "license": "OGL 1.0a"
+}

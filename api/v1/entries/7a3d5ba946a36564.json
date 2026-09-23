@@ -1,0 +1,23 @@
+{
+  "id": "7a3d5ba946a36564",
+  "name": "Quell The Tide",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 8
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 8\nComponents V, S, M (a vial of blood from a spellcaster)\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou briefly use the power in your blood to quell the reservoir from which the target can draw its abilities.\n\nAny spellcaster or creature with spell-like abilities targeted by quell the tide must make a Fortitude save or feel the magical power stripped from its blood. While affected by quell the tide, creatures cannot cast any spells, and a creature with spell-like abilities cannot access them. Extraordinary and supernatural abilities, however, are not affected. Creatures that fail their save are also sickened.\n\nAny creature affected by this spell may make a Fortitude save each round to negate the spell’s effects.\n\nAdditionally, quell the tide can be used to deny a sorcerer access to his bloodline powers and a wizard access to his arcane school powers, causing them to fail (or be unavailable) while the spell is in effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7a3d5ba946a36564.json",
+    "web": "https://codex.pipsprojects.com/#/e/7a3d5ba946a36564"
+  },
+  "license": "OGL 1.0a"
+}

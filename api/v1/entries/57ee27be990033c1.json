@@ -1,0 +1,28 @@
+{
+  "id": "57ee27be990033c1",
+  "name": "Energy Charge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "bloodrager": 1,
+      "shaman": 1,
+      "magus": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level alchemist 1, bloodrager 1, druid/shaman 1, magus 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents S\n\nEFFECT\n\nRange self\nTarget you\nDuration 1 round or until discharged\n\nThe spell captures some of the energy directed at you, lessening it and storing it for your next melee attack. You gain energy resistance 5 against a chosen damage type until the end of your next turn. The energy type must be chosen at the time of casting and does not change for the duration of the spell. You cannot have multiple iterations of this spell active at one time. If you are damaged by the selected damage type during the spell’s duration, you may discharge this spell by making an enhanced melee attack as part of your normal attacks, including attacks of opportunity, made in the round. You must declare the discharge before the attack is made and if the attack misses, the extra energy damage is lost. The energy discharge attack, if successful, adds 1d6 of that energy damage to your attack. The discharge only affects one attack in the round regardless of the number of attacks you may have. This discharge may be used on attacks of opportunity.\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57ee27be990033c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/57ee27be990033c1"
+  },
+  "license": "OGL 1.0a"
+}

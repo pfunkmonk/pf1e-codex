@@ -1,0 +1,32 @@
+{
+  "id": "3675952ecb29c72b",
+  "name": "Caustic Brew",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 1,
+      "bloodrager": 1,
+      "shaman": 1,
+      "magus": 1,
+      "ranger": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [acid]; Level alchemist 1, bloodrager 1, druid/shaman 1, magus 1, ranger 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of rotten food)\n\nEFFECT\n\nRange 30 feet\nArea 30-foot line\nDuration 1 round/level (D)\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou shoot out a stream of acid coating all targets in a 30-foot line. All creatures must succeed at a Reflex save or be covered in acid and take 1d4 acid damage at the beginning of their turn. At the end of each of their turns, the affected creature can attempt a Reflex save to end the effect or spend a standard action to scrape off the acid.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3675952ecb29c72b.json",
+    "web": "https://codex.pipsprojects.com/#/e/3675952ecb29c72b"
+  },
+  "license": "OGL 1.0a"
+}

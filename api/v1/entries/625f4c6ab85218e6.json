@@ -1,0 +1,17 @@
+{
+  "id": "625f4c6ab85218e6",
+  "name": "Prismatic Mold",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Known as prismatic mold, this multicolored fungus faintly glows with swirling patterns, casting dim light.\n\nVolatile and easily disturbed, prismatic mold emits a colorful burst of spores when a creature moves within 5 feet of it. Each of these spore clouds is a different color and fills a 10-foot area centered on a corner of the mold’s square. The spore clouds each manifest a different effect related to the color of the spore cloud.\n\nOnce triggered, prismatic mold continues to emit these spore clouds for as long as a creature is within 5 feet and for 1d4 rounds after the creature leaves the area. To determine which color spore cloud the prismatic mold ejects, roll 1d8 and consult the Prismatic Mold table.\n\nTargeting a prismatic mold with dispel magic instantly withers it into mundane and permanently inert (albeit still colorful) mold.\n\nTable: Prismatic Mold Random Results\n1d8\tColor\tEffect\tSave\n1\tRed\t5d6 points of fire damage\tReflex DC 18 for half damage\n2\tOrange\t6d6 points of acid damage\tReflex DC 18 for half damage\n3\tYellow\t7d6 points of electricity damage\tReflex DC 18 for half damage\n4\tGreen\t1d4 points of Constitution damage\tFortitude DC 18 negates\n5\tBlue\t1d4 points of Dexterity damage\tFortitude DC 18 negates\n6\tIndigo\tConfused for 1d6 rounds\tWill DC 18 negates\n7\tViolet\tInstantly teleported 1d6 squares in a random direction; arriving in an occupied square deals 2d6 points of damage and the creature is shunted to the nearest free space\tWill DC 18 negates\n8\tTwo spore clouds\tRoll twice, ignoring any “8” results, and apply both results simultaneously\t—\n\nPathfinder Adventure Path #123: The Flooded Cathedral © 2017, Paizo Inc.; Authors: Mikko Kallio, with John Compton, Adam Daigle, Kalervo Oikarinen, and David Schwartz.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/625f4c6ab85218e6.json",
+    "web": "https://codex.pipsprojects.com/#/e/625f4c6ab85218e6"
+  },
+  "license": "OGL 1.0a"
+}

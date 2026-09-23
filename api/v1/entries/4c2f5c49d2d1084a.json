@@ -1,0 +1,27 @@
+{
+  "id": "4c2f5c49d2d1084a",
+  "name": "Shadow Space",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 6,
+      "wizard": 7
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 6, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 50 ft.\nArea 50-ft.-radius emanation\nDuration 1 round/level (D)\nSaving Throw Fortitude partial, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou cause an area to be overlaid by the Plane of Shadow, its mutable shape and space distorting the movement and positioning of creatures and objects in the area. The area of the spell is centered on you when you cast the spell and stays in that location thereafter, even if you move. Each round on your turn, starting with the round you cast the spell, the space is distorted in a different way, affecting everything within. Roll a d100 to determine what effects occur on that round, as shown on Table: Shadow Space.\n\nTable: Shadow Space\nd100\n\tEffect\n01-\n05\tThe space is inverted, causing creatures and objects to fall upwards as a reverse gravity spell. If an object or creature reaches the top of the shadow space without striking anything, it remains there, oscillating slightly, until this effect ends.\n\n06-\n19\tThe space distorts and twists wildly. Creatures in the area must make a Fortitude save or fall prone.\n\n20-\n39\tDistances between locations become longer than normal, effectively reducing the movement forms of all creatures in the area by half. This does not count as difficult terrain, but stacks with the penalty of any preexisting difficult terrain.\n\n40-\n59\tDistances between locations become shorter than normal, effectively increasing the movement forms of all creatures in the area by 20 feet.\n\n60-\n79\tCreatures in the area are randomly shifted about the space. Each creature is teleported in a random direction 15 feet, using the rules for splash weapons to determine the direction. A creature cannot be teleported into a structure or inside another creature, nor can it be teleported outside the area of the shadow space. If a creature would be teleported to one of these spaces, it appears in the nearest open space inside the spell’s area.\n\n80-\n94\tSurfaces no longer feel limiting to a creature’s movement. All creatures in the area ignore difficult terrain and can climb on surfaces as if affected by a spider climb spell.\n\n95-\n100\tLiquids and solid structures no longer feel fully there. Creatures in the area gain a swim speed of 30 feet (if it didn’t have a swim speed) and can move through stone and dirt as if it had a burrow speed of 20 feet with the earth glide universal monster ability (if it didn’t have a burrow speed). If a creature burrows into a surface and this effect is not rolled again the next round, it becomes trapped in the surface. This effect does not grant creatures the ability to breathe underwater or while in stone.\n\nEach effect lasts until the start of your next turn, at which point you roll for a new effect, except for the effects of falling prone and being teleported a random direction, which happen once when you roll the effect. A creature with the planar adaptation spell cast on it is immune the effects of this spell, both beneficial and harmful. This spell does not function in the area of a dimensional lock spell or similar effects that block planar travel or teleportation.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c2f5c49d2d1084a.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c2f5c49d2d1084a"
+  },
+  "license": "OGL 1.0a"
+}

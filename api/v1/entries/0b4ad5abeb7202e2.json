@@ -1,0 +1,23 @@
+{
+  "id": "0b4ad5abeb7202e2",
+  "name": "Spelltower Beacon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School universal; Level wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 0 ft.\n\nArea the space occupied by the caster at the time the spell is cast\nDuration 1 day/level (D)\n\nDESCRIPTION\n\nYou create a dimensional link between yourself and the space you occupy at the time this spell is cast.\n\nWhenever a shadow walk or teleportation effect causes you to appear within 500 miles of the linked space, if the linked space is within the range of that shadow walk or teleportation space, you may teleport to the linked space as an immediate action. This functions as a greater teleport spell using your wizard caster level, and allows 6 you to bring additional creatures with you when you teleport, as normal for that spell.\n\nYou can only have one Spelltower beacon spell active at any given time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit. If your wizard caster level is 9th or higher, you can use permanency to make this spell permanent; doing so requires diamond dust worth 2,500 gp as a material component.\n\nConvergent Paths: Students of Arcanum Archetypes Copyright 2013 Steven D. Russell; Author: Eric Morton",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b4ad5abeb7202e2.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b4ad5abeb7202e2"
+  },
+  "license": "OGL 1.0a"
+}

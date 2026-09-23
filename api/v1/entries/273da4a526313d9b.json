@@ -1,0 +1,24 @@
+{
+  "id": "273da4a526313d9b",
+  "name": "Manipulate Symbol",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (an ink quill)\n\nEFFECT\n\nRange personal\nTarget you\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhile under the effect of this spell, you cannot trigger a single symbol spell, which must be designated when you cast manipulate symbol. This effect lasts for 1 round per caster level.\n\nWith a successful caster level check against the caster level of the symbol’s creator, you can alter the symbol spell into any other symbol you can cast. You also may change how and when the symbol is triggered. You must touch the symbol to alter it. A natural 1 is always a failure on this check.\n\nIf you fail to manipulate the symbol, you trigger it instead.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/273da4a526313d9b.json",
+    "web": "https://codex.pipsprojects.com/#/e/273da4a526313d9b"
+  },
+  "license": "OGL 1.0a"
+}

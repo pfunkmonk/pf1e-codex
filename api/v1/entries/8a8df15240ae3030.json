@@ -1,0 +1,30 @@
+{
+  "id": "8a8df15240ae3030",
+  "name": "Chance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 0,
+      "mesmerist": 0,
+      "oracle": 0,
+      "spelljack": 0,
+      "witch": 0
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [chaotic]; Level bard 0, mesmerist 0, oracle 0, spelljack 0, witch 0\n\nCASTING\n\nCasting Time 1 swift action (see text)\nComponents S\n\nEFFECT\n\nRange personal\nTarget self\nDuration instantaneous\n\nThis spell was developed to help nudge games of chance though it has other minor uses, as such it has no obvious tell and requires a Spellcraft check with a DC of 15 to identify that a spell has been cast. When you cast this spell you may roll twice on any check related to a game of chance in the same round. Alternatively if a percentile would be rolled to determine how an effect would affect you you may cast this spell as an immediate action to increase or decrease that percentile by 5% before the results of the roll are known.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a8df15240ae3030.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a8df15240ae3030"
+  },
+  "license": "OGL 1.0a"
+}

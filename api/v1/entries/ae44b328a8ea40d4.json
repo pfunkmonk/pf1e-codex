@@ -1,0 +1,19 @@
+{
+  "id": "ae44b328a8ea40d4",
+  "name": "Winter’s Bite",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation [cold]; Level 1\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange 15 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA spray of chilling snow and ice sprays from your outstretched hand. Any creature in the area takes 1d4 points of cold damage per caster level (maximum 5d4). A Reflex save halves the damage.\n\nOverload: For every runic charge overloaded into this script, the range increases by 5 feet, to a maximum of 30 feet. For every two runic charges overloaded, the damage dice increases by one step (from d4 to d6, and from d6 to d8).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ae44b328a8ea40d4.json",
+    "web": "https://codex.pipsprojects.com/#/e/ae44b328a8ea40d4"
+  },
+  "license": "OGL 1.0a"
+}

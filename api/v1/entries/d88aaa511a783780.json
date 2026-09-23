@@ -1,0 +1,23 @@
+{
+  "id": "d88aaa511a783780",
+  "name": "Awaken the Deep Magic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "wizard": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School universal; Level sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 full-round action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget an active ley line\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou concentrate on pulling additional magical energy through a functioning ley line as a full-round action.\n\nThe following round, make a DC 15 caster level check for a weak ley line or a DC 20 caster level check for a strong one. If you succeed, the weak line generates a new effect determined randomly from the Strong Ley Line table (see page 43) and a strong ley line subject to this spell generates a new effect randomly from the Titanic Ley Line table.\n\nOnce the ley line’s power is increased, you must concentrate each round to maintain the new level of power. If the concentration ends or when the cantrip’s duration expires, the ley line power immediately reverts to its prior level.\n\nMythic\n\nIf you expend one use of mythic power and make a DC 25 caster level check, you may awaken additional resonances of a Titanic ley line. a Titanic line awakened through this spell shifts its power from the normal effect to any one Titanic power chosen by the caster.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d88aaa511a783780.json",
+    "web": "https://codex.pipsprojects.com/#/e/d88aaa511a783780"
+  },
+  "license": "OGL 1.0a"
+}

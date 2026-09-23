@@ -1,0 +1,31 @@
+{
+  "id": "f61f407241efb2c8",
+  "name": "Beam of Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 5,
+      "oracle": 5,
+      "sorcerer": 6,
+      "wizard": 6,
+      "warpriest": 5
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation [light]; Level arcanist 6, cleric 5, oracle 5, sorcerer 6, wizard 6, warpriest 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange unlimited (see text)\nTarget personal\nDuration instantaneous\n\nDESCRIPTION\n\nYou transform into a beam of light and instantly travel into any location you can see.\n\nThis travel must be in a straight line, but otherwise you can travel anywhere that light can enter. The range of this travel is limited only by how far the light can travel in your turn, so in practice the range of this spell is limited to about 1 million miles.\n\nMercy of the Sun Copyright 2026 Varyag's Forge Author: Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f61f407241efb2c8.json",
+    "web": "https://codex.pipsprojects.com/#/e/f61f407241efb2c8"
+  },
+  "license": "OGL 1.0a"
+}

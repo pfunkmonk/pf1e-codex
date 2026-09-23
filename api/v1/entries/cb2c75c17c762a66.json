@@ -1,0 +1,27 @@
+{
+  "id": "cb2c75c17c762a66",
+  "name": "Duelist’s Spellward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 4,
+      "inquisitor": 4,
+      "magus": 4,
+      "psychic": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level bard 4, inquisitor 4, magus 4, psychic 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a glass eye)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nWhen you cast this spell you gesture a ward of protection and toss the material component in the air, the glass eye then shatters harmlessly and a halo of shimmering glass dust floats above your head.\n\nWhile a duelist’s spellward lasts you may counterspell as an immediate action without having previously readied an action to do so and you gain a +4 insight bonus to Spellcraft checks to identify spells being cast. The first time you successfully counter a spell while under the effects of duelist’s spellward it ends, granting you a +1 bonus to caster level for the next spell you cast before the end of your next turn.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb2c75c17c762a66.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb2c75c17c762a66"
+  },
+  "license": "OGL 1.0a"
+}

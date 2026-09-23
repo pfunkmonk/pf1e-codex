@@ -1,0 +1,30 @@
+{
+  "id": "2732337a4cfcc913",
+  "name": "Toxic Bloom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 5,
+      "invoker": 4,
+      "shaman": 5,
+      "witch": 5
+    },
+    "desc": [
+      "plant",
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [plant, poison]; Level druid 5, invoker 4, shaman 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of nectar)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect toxic flower blossom\nDuration 1 round/level (D); see text\nSaving Throw Fortitude partial or Fort negates (see text); Spell Resistance no\n\nThe nectar dissolves in your hand as an oversized flower springs forth from the ground nearby. The toxic bloom is considered a small object (roughly 3 feet in height and diameter) and must be conjured in a space sufficient to hold it. It must be conjured on a surface, but the surface does not have to be conducive to plants: the bloom can grow upon solid stone as easily as it can in rich soil.\n\nThe bloom itself is magically hardened, having hardness 8, 5 hit points per caster level, and an AC of 5. Fire damage ignores its hardness and deals full damage to it. While the bloom remains, it emits a cloud of noxious vapor in a 15-foot-radius spread around itself, depending on the type of flower conjured. You can choose one of three flower types to create with toxic bloom:\n\nNightshade: The bloom is surrounded by an aura of deadly poison. Creatures that fail their saving throw take 1d3 Constitution damage. A successful save halves the damage (minimum 0).\nRafflesia: The bloom emits a disgusting aroma. Any creature that fails its saving throw is nauseated for 1 round. A successful save renders the creature sickened for 1 round instead.\nRose: The bloom is sickeningly sweet. Creatures with 8 HD or less that fail their saving throw fall asleep. Creatures with more than 8 HD become drowsy, taking a -5 penalty on perception checks and staggering them for 1 round. A successful save negates the effect for that turn only.\n\nDestroying the toxic bloom ends its effect, but any already-applied penalties remain. Creatures with the scent ability take a -4 penalty on their saving throws against this spell. Spells that wither and destroy plants like blight destroy the blossom instantly, ending its effects.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2732337a4cfcc913.json",
+    "web": "https://codex.pipsprojects.com/#/e/2732337a4cfcc913"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "c555c1b9ecc69ce7",
+  "name": "Self-Cleaning Room Trap (CR 8)",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Self-Cleaning Room Trap\nCR 8\n\nType mechanical and magical; Perception DC 29; Disable Device DC 29\n\nEFFECTS\n\nTrigger proximity; Reset automatic (10 minutes)\nEffect Atk +15 ranged (3d6+10 fire, lava balls); multiple targets (4 per round, one per target, attacking creatures or objects in order from largest to smallest); floor slants up and is covered in grease spells (DC 11 Reflex to avoid falling down and sliding towards pit trap).\n\nOpening the door to this room primes an elaborate trap, which triggers as soon as something (or someone) enters the room and the squares immediately outside the door are no longer occupied. A round after both of these conditions are met, the door slams down and secures itself with a mundane lock (Disable Device DC 35).\n\nAt that point, the floor immediately tips up 15 degrees, coats itself with grease spells, causing everything inside to slide towards an open chasm and everything within is pelted with balls of lava hurled by an animated cauldron at the southern end of the room. Movement through the room is affected as by the grease spell, with each character making a DC 11 Reflex save to keep his feet and DC 10 Acrobatics checks each round to move at half speed.\n\nAny character who falls prone automatically slides 1d4 x 5 ft. toward a chasm at the opposite end of the room. The cauldron hurls lava balls for 10 rounds then resets and remains dormant for 10 minutes, during which time the counter-weighted door unlocks and can be opened from the inside with a DC 15 Strength check. (From the outside, merely standing in the designated squares causes it to open.)\n\nThe chasm that waste is dumped into is open to GM discretion but any pit trap should be sufficient.\n\nThe cauldron at the far end of the room is actually an elaborate animated object. It has AC 5 (it does not move), hardness 5 and 172 hp, and is disabled if reduced to 0 hp.\n\nDesigned to clean the room of waste and debris, it fires lava balls each round, targeting the largest objects first. Once the trap resets, the cauldron ceases its “attacks” and does not defend itself.\n\nGameMastery Module D2: Seven Swords of Sin. Copyright 2007 Paizo Publishing, LLC. Author: James Lafond Sutter.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c555c1b9ecc69ce7.json",
+    "web": "https://codex.pipsprojects.com/#/e/c555c1b9ecc69ce7"
+  },
+  "license": "OGL 1.0a"
+}

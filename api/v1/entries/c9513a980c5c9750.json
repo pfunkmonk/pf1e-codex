@@ -1,0 +1,27 @@
+{
+  "id": "c9513a980c5c9750",
+  "name": "Produce Flame, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level druid 5, shaman 5\n\nThis spell functions as produce flame, except its light range is doubled and the fire damage is 2d6 + 1 point per caster level (maximum +15).\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9513a980c5c9750.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9513a980c5c9750"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "d7e4c749bdbf61a2",
+  "name": "Brain Freeze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting",
+      "pain"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [mind-affecting, pain]; Level cleric/oracle 1, druid 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (an icicle)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one living creature\n\nDuration 1 round\n\nSaving Throw Fort negates; Spell Resistance yes\n\nThis spell causes fleeting yet intense pain in the subject’s brain triggered by a false sensory response to extreme cold. On a failed save, the subject takes 1d6 points of nonlethal damage + 1 point per caster level (maximum +5), and is staggered and distracted. Although this spell deals no cold damage, creatures immune to cold damage are also immune to this spell.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7e4c749bdbf61a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7e4c749bdbf61a2"
+  },
+  "license": "OGL 1.0a"
+}

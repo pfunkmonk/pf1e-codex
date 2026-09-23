@@ -1,0 +1,35 @@
+{
+  "id": "219543f88ddae7d6",
+  "name": "Weakness, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "unchained summoner": 1,
+      "witch": 1
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level bard 1, cleric/oracle 1, druid 1, inquisitor 1, paladin 1, psychic 1, shaman 1, sorcerer/wizard 1, summoner/unchained summoner 1, witch 1\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions as weakness except as noted above.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/219543f88ddae7d6.json",
+    "web": "https://codex.pipsprojects.com/#/e/219543f88ddae7d6"
+  },
+  "license": "OGL 1.0a"
+}

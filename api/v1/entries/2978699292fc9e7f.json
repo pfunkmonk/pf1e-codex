@@ -1,0 +1,18 @@
+{
+  "id": "2978699292fc9e7f",
+  "name": "Weak Spell (Metamagic)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "3rd Party – Rogue Genius Games",
+  "book": "3rd Party – Rogue Genius Games",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "3rd Party – Rogue Genius Games"
+  },
+  "body": "You can prepare weaker versions of spells as lower-level versions.\n\nBenefit: Only spells that deal hit point damage and have no other effect can be cast as weak spells. A weak spell deals half as much damage as normal. Weak spells cannot also have metamagic feats added that increase their damage or save DCs. A weak spell uses up a spell slot one level lower than the spell’s actual level (minimum 1st level). Unlike most metamagic feats, a spell prepared as a weak spell calculates its save DCs using the new, lower spell level.\n\nExample: Davor is a 9th level half–orc wizard with an 18 Intelligence. He prepares a weak fireball as a 2nd level spell. When he casts the spell, he rolls 9d6 for damage (rolling a total of 30) and it has a save DC of 16 (10 + 2 for modified spell level + 4 Intelligence modifier). Since the fireball was a weak spell he halves that damage to 15 (and targets that make successful Reflex saves take half that, or 7 points of damage). If Davor had prepared a weak still fireball as a 3rd level spell, he would still calculate its save DC as a 2nd level spell.\n\nThe Genius Guide To: Feats of Metamagic The Genius Guide To: Feats of Metamagic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2978699292fc9e7f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2978699292fc9e7f"
+  },
+  "license": "OGL 1.0a"
+}

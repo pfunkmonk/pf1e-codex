@@ -1,0 +1,30 @@
+{
+  "id": "6f47ecd193d3176a",
+  "name": "Not So Fast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "temporal"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (transmutation) [temporal]; Level bard 1, cleric/oracle 1, druid/shaman 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dried turtle shell)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft. /level)\nTarget one creature per level\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell enables you to reduce the speed of a creature by a factor that varies according to your caster level. You reduce the target’s speed by as much as 5 ft. up to caster level 5; by as much as 10 ft. up to caster level 10; by as much as 15 ft. up to caster level 15; and by as much as 20 ft. for caster level 16 or higher. You can’t immobilize a creature completely with this spell; a target can always move at least 5 ft. and can still run, albeit not as fast as usual.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f47ecd193d3176a.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f47ecd193d3176a"
+  },
+  "license": "OGL 1.0a"
+}

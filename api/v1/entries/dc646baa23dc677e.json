@@ -1,0 +1,24 @@
+{
+  "id": "dc646baa23dc677e",
+  "name": "Bladelust",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level cleric/oracle 4. druid 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (one drop of the caster’s blood)\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 1 day + 1 round/level (see below)\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nBladelust can be cast on any slashing or piercing weapon. The spell lies dormant until the weapon inflicts damage or until the next sunrise, at which point the spell is discharged without effect. If the weapon inflicts at least 1 point of damage against a living creature before that time, however, the spell is activated.\n\nOnce activated, the weapon gains a limited, feral intelligence and a lust to shed more blood. Every 5 points of damage that the weapon inflicts grants a +1 morale bonus to attack and damage rolls up to a maximum of +5 for l round/caster level. Since this is a morale bonus, it stacks with any enhancement bonuses the weapon may have and any morale bonuses the wielder may have, but is not considered a magical bonus for the purposes of damaging creatures with damage reduction. In addition, any non-evil creature struck by a blade affected by bladelust must succeed on a Will save or suffer a morale penalty of –2 on attacks made against the blade’s wielder due to the aura of glee emanating from the weapon when it draws blood. These effects last 1 round/level of the caster, after which the spell ends.\n\nIf dispel magic is cast on a bladelust weapon wielded by someone other than the caster, the weapon may receive a saving throw if its wielder wishes to avoid the spell’s effects. Weapons with the holy special ability under the effect of bladelust must make a Will saving throw each time they slay a living enemy or become unholy. Similarly, intelligent weapons with non-evil alignments must make a Will saving throw for each living being killed while under this spell or have their alignments shift one step toward neutral evil. These effects can be eliminated by a remove curse spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dc646baa23dc677e.json",
+    "web": "https://codex.pipsprojects.com/#/e/dc646baa23dc677e"
+  },
+  "license": "OGL 1.0a"
+}

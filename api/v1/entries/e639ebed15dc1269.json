@@ -1,0 +1,24 @@
+{
+  "id": "e639ebed15dc1269",
+  "name": "Examine Coffin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School divination (scrying); Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F /DF (a small glass lens)\n\nEFFECT\n\nRange touch\nTargets coffin, sarcophagus or burial niche touched\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nExamine coffin allows the caster to touch any sealed burial receptacle and see its contents. The spell magically illuminates the coffin’s interior, although it does not enable the caster to see through magical darkness or to view the inside of a casket protected by magical means or lead sheeting. Upon touching the coffin, the caster receives a cursory view of the coffin’s interior that reveals no hidden objects or precise details. On the subsequent round, the caster may attempt a Perception check to locate any objects not in plain view, or gather additional details, but he still cannot see objects concealed by an intervening barrier, such as the body itself or a false bottom.\n\nViewing the coffin’s interior in the former manner only requires a standard action, while conducting a more thorough examination necessitates a full-round action. The caster may touch and examine multiple coffins until the spell expires.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e639ebed15dc1269.json",
+    "web": "https://codex.pipsprojects.com/#/e/e639ebed15dc1269"
+  },
+  "license": "OGL 1.0a"
+}

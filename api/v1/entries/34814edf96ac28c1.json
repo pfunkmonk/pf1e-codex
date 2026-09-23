@@ -1,0 +1,29 @@
+{
+  "id": "34814edf96ac28c1",
+  "name": "Wood Lance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "wood"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [wood]; Level druid 2, ranger 2, shaman 2, sorcerer/wizard 2\n\nCasting Time 1 standard action\n\nComponents V, S, M (a splinter of wood)\n\nRange close (25 ft. + 5 ft./2levels)\n\nEffect one or more lances made of wood\n\nDuration instantaneous\n\nSaving Throw none; Spell Resistance yes\n\nWood: Spells with this descriptor include those that directly create, utilize, or manipulate plant or wood in some manner or conjure creatures with the plant subtype or composed of wood. Such spells are considered to belong to the Wood element (for geomancers) and the Wood elemental school (for wood elementalists).\n\nYou create a rough, but sharp spear of wood that launches at a target in range. You may fire one lance, plus one additional lance for every four levels beyond 3rd (to a maximum of three lances at 11th level). Each lance requires a ranged touch attack to hit and deals 4d6 points of piercing damage and has a x3 critical.\n\nThe lances may be fired at the same or different targets, but all lances must be aimed at targets within 30 feet of each other and fired simultaneously.\n\nIf you cast this spell in forested terrain, the lances are treated as magic and cold iron for DR purposes.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34814edf96ac28c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/34814edf96ac28c1"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "fe339a6c76096095",
+  "name": "Forbidden Speech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "inquisitor": 5,
+      "mesmerist": 5,
+      "psychic": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level antipaladin 4, inquisitor 5, lathspell 4 mesmerist 5, psychic 5, shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cast the spell, making it impossible for the target to speak about a single topic. The topic needs to be narrow for the spell to work, though it is up to the GMs discretion. For example, you could forbid the target to reveal the names of their conspirators, reveal the location of a hidden treasure, or the secret password to a portal. You may not forbid the verbal components of spells, a whole life history, or topics that cover many areas of information, like the existence of an entire city.\n\nIf the target attempts to speak about the topic, they may be rendered mute, speak in gibberish or end up speaking about something else entirely. Similar effects impact their writing or otherwise communicating the topic, including pantomiming, telepathy, or pictures.\n\nThe target has not forgotten the information, and the inability to communicate can be maddening.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe339a6c76096095.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe339a6c76096095"
+  },
+  "license": "OGL 1.0a"
+}

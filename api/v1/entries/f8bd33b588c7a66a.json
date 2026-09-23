@@ -1,0 +1,24 @@
+{
+  "id": "f8bd33b588c7a66a",
+  "name": "Dancing Wand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (1 wand)\n\nEFFECT\n\nRange touch\nTarget 1 wand\nDuration 4 rounds\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell animates one of your wands in a fashion similar to a dancing weapon. For the duration of the spell, you can utilize a wand with a move action as if you were holding it, leaving you free to take standard actions such as casting a spell, using another item, making an attack, etc. Using the wand requires charges to be spent at twice the normal rate.\n\nWhile animated, the wand shares the same space as you and is considered wielded or held by you for all maneuvers and effects that target items. The wand accompanies you everywhere, whether you move by physical or magical means.\n\nYou can grasp the wand as a free action at any time, including when the spell ends, though this effectively ends the spell even if the duration has not yet expired. If you cannot grab the wand at the spell’s expiration, it clatters to the ground unharmed (subject to GM discretion).\n\nThe caster may only have one wand animated at any given time; a second casting of the spell cancels the initial spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f8bd33b588c7a66a.json",
+    "web": "https://codex.pipsprojects.com/#/e/f8bd33b588c7a66a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "246eec97bb816368",
+  "name": "Postpone Spell (Metamagic)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "You can cast spells that take effect a few seconds after casting.\n\nPrerequisite(s): Knowledge (arcana) 9 ranks\n\nBenefit: Spells enhanced with this feat take effect on the caster’s initiative on the following round. Spells that require a target must fulfill all normal requirements to achieve that target during casting. Range, line of sight, line of effect, etc. must be established as normal for the spell as it is being cast, and must remain valid when the spell goes off. If any target leaves the spell’s maximum range after being successfully targeted when the spell is cast, then the spell fails to affect that target. Saving throws and spell resistance rolls, if any, are made when the spell goes off, not when it is cast.\n\nA postponed spell has its normal magical aura, as if it were an ongoing spell. It can be dispelled by dispel magic before it takes effect and its target(s) will avoid all effects. Magical or mundane precautions taken after the casting, but before the spell’s trigger, will provide full protection as if they were taken before the spell was cast. For example, suppose that the target of a postponed scorching ray makes a Spellcraft check and recognizes his danger. He casts a prepared protection from elements (fire) before the effects of the scorching ray are felt, and enjoys the full protection of the spell even though it was cast after the scorching ray.\n\nAll the caster’s decisions must be made during the initial casting. Spells that require the caster to concentrate in order to maintain their effects may not be used in conjunction with this feat.\n\nEffects that occur in a series, such as the initial damage and arcing damage of a chain lightning spell, do not begin until the spell takes effect. In the case of a postponed chain lighting, the initial target would take damage if it was still within range, then the spell would arc to the nearest applicable targets. If some of the creatures who were originally in range to be extra targets have moved away before the spell goes off, while other creatures have moved into range, the spell’s additional targets are chosen randomly (except for original targets who have remained in range). If the original target had moved out of range of the chain lightning before it went off, then the entire spell would fail.\n\nLevel Increase: +2 (a postponed spell uses up a spell slot two levels higher than the spell’s actual level.)\n\nUndefeatable: The Collected Feats Sourcebook, Copyright 2009 – 2010, Louis Porter Jr. Design, Inc. Undefeated, Copyright 2011, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/246eec97bb816368.json",
+    "web": "https://codex.pipsprojects.com/#/e/246eec97bb816368"
+  },
+  "license": "OGL 1.0a"
+}

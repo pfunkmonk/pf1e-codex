@@ -1,0 +1,31 @@
+{
+  "id": "9f01ee4c8542175d",
+  "name": "Hymn of Battle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "bloodrager": 2,
+      "oracle": 3,
+      "paladin": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [emotion, mind-affecting]; Level bard 2, bloodrager 2, cleric/oracle 3, paladin 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft..\n\nEffect All allies within 30 ft.\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nWith a wave of your hand a distant hum grows louder until an uplifting chorus urges your allies towards victory, all allies within range may make a new save against any effect currently affecting them. While this spell lasts allies continue to be allowed additional saving throws against ongoing effects at the start of your turn.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f01ee4c8542175d.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f01ee4c8542175d"
+  },
+  "license": "OGL 1.0a"
+}

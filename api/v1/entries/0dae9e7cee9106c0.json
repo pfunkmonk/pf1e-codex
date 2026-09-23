@@ -1,0 +1,28 @@
+{
+  "id": "0dae9e7cee9106c0",
+  "name": "Horror (fear)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level sorcerer/wizard 7, witch 7\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Fortitudenegates; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word causes the target to take 10 points of damage per caster level. If the save succeeds, the target instead takes 3d6 points of damage + 1 per caster level.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0dae9e7cee9106c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/0dae9e7cee9106c0"
+  },
+  "license": "OGL 1.0a"
+}

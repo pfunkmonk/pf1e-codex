@@ -1,0 +1,29 @@
+{
+  "id": "d695d4a7d8c65195",
+  "name": "Burning Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 4,
+      "inquisitor": 3,
+      "paladin": 3
+    },
+    "desc": [
+      "fire",
+      "good"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire, good]; Level cleric/oracle 4, inquisitor 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nEffect A sword-shaped blade of holy fire\nDuration 1 min./level (D)\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou summon a sword of holy fire to wield against your enemies. Attacks with the cherub’s burning blade are resolved as touch attacks with an attack bonus equal your base attack bonus plus your caster level. The blade deals 4d6 hp fire damage + 1 hp per two caster levels. The target must succeed at a Reflex save or catch on fire if struck.\n\nHalf of the damage inflicted by the sword is fire damage, but the other half is positive energy, as it is the product of divine power and unaffected by fire resistance or immunity; this includes the damage from catching on fire.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d695d4a7d8c65195.json",
+    "web": "https://codex.pipsprojects.com/#/e/d695d4a7d8c65195"
+  },
+  "license": "OGL 1.0a"
+}

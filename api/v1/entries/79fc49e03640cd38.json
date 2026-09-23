@@ -1,0 +1,28 @@
+{
+  "id": "79fc49e03640cd38",
+  "name": "Curse of Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [chaotic]; Level bard 3, cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (flask of alcohol with a chrysalis in it)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis curse alters random attributes and features of the target every day. The curse of chaos can be cast in two forms, baneful or annoying. When casting the spell, choose if you want one or both modes of the curse to affect the target.\n\nBaneful: The baneful mode of the fluctuating curse can seriously weaken a person. Each day, one ability at random is affected. Roll 1d6 to determine which ability is changed. For that particular day, the ability gains a -4 inherent penalty (to a minimum of 1).\n\n1d6\tAbility\n1\tStrength\n2\tDexterity\n3\tConstitution\n4\tIntelligence\n5\tWisdom\n6\tCharisma\n\nAnnoying: The second mode of the fluctuating curse is intended to simply frustrate or teach a lesson to the cursed individual, but it can be used in conjunction with the baneful mode of the curse to make the subject’s life miserable. Roll for 1d4 physical traits of the cursed creature that change for that day, and then roll to determine how each trait changes.\n\n2d4\tAmount of Change\n2\tChanges drastically to that of a different race, sex, or species\n3\tMajor detrimental change\n4\tMinor detrimental change\n5\tConstant miniscule changes\n6\tMinor positive change\n7\tMajor positive change\n8\tCursed individual chooses how he changes\n1d12\tPhysical Change\n1\tHeight\n2\tWeight\n3\tHair color\n4\tEye color\n5\tSkin color\n6\tBody hair\n7\tVocal pitch\n8\tApparent age\n9\tFacial appearance\n10\tSkin texture\n11\tOdor\n12\tSize or shape of randomly chosen body part\n\nThe GM is left to adjudicate exact changes. Changes that are detrimental or positive might grant a circumstance bonus (+/-1 for minor, +/-3 for major) to appropriate skill checks. For example, a majorly detrimental change in weight could make the cursed individual so obese to grant a -3 circumstance penalty to all Dexterity-based checks, or a minor positive change in body hair might grant a +1 circumstance bonus to social skills like Bluff or Diplomacy because of how well-groomed the character looks. This spell is not fatal, does not cause damage, and every day the changed attributes revert to normal, and different ones change. All changes of appearance are merely cosmetic. Fish heads do not let the target breathe water, but nor does the target suffocate in air. A curse of chaos can be removed as a normal bestow curse, and can also be affected by dispel magic.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79fc49e03640cd38.json",
+    "web": "https://codex.pipsprojects.com/#/e/79fc49e03640cd38"
+  },
+  "license": "OGL 1.0a"
+}

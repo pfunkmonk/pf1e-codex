@@ -1,0 +1,28 @@
+{
+  "id": "abe0b9211d1c8067",
+  "name": "Stunning Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 2,
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School evocation [force]; Level cleric/oracle 2, magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25ft + 5ft/2 levels)\nEffect one ray\nDuration instantaneous\nSaving Throw Fort (partial); see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou blast your opponent with a ray of nonlethal force that may leave them disoriented. You fire a ray that requires a ranged touch attack to hit and deals 3d6 points of nonlethal damage. This is a force effect. A target struck by this ray must succeed a Fortitude save, or be stunned for 1 round.\n\nArt of Magic: Magic and Melee, © 2021, d20pfsrd.com Publishing; Author: Mark Thomas",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/abe0b9211d1c8067.json",
+    "web": "https://codex.pipsprojects.com/#/e/abe0b9211d1c8067"
+  },
+  "license": "OGL 1.0a"
+}

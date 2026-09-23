@@ -1,0 +1,25 @@
+{
+  "id": "3c69eafaaadc7b34",
+  "name": "Wolf Call",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "ranger": 4,
+      "shaman": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (summoning); Level druid 4, ranger 4, shaman 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect summoned wolf (wolves)\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\n\nYou let out a howl of a wolf to summon nearby wolves to your side. You summon 1 wolf per caster level. Alternatively you can exchange 5 wolves for 1 dire wolf or 1 wolf swarm. The wolf swarm uses a dire wolf‘s statistics but it gains the swarm subtype and a swarm attack that deals 3d6 damage, and the distraction special attack (DC 15). Whenever the pack damages an opponent with its swarm attack, it can immediately attempt a trip combat maneuver check against that creature with its trip special attack. The pack does not gain any damage reduction or immunity to damage and can be attacked by effects that target a specific number of creatures, though such attacks deal 1/4 the normal amount of damage (25%) and effects that don’t deal hit point damage are only 25% likely to work.\n\nPrayer – Gods of Winter and Hunting, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3c69eafaaadc7b34.json",
+    "web": "https://codex.pipsprojects.com/#/e/3c69eafaaadc7b34"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "e4c5eddba9309910",
+  "name": "Ray of Bedevilment, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "mesmerist": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [mind-affecting]; Level bard 5, mesmerist 5\nEffect multiple rays of chaotic light\nDuration 1 round/level\n\nDESCRIPTION\n\nThis spell functions as ray of bedevilment except it allows you to shoot one ray per round. The dazed duration remains 1d3 rounds and the target that makes their save is still dazzled for 1 round. If you hit the same target, the duration of the effects do not stack, instead the condition is replaced by the condition with the longer duration or greater effect if both are 1 round.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4c5eddba9309910.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4c5eddba9309910"
+  },
+  "license": "OGL 1.0a"
+}

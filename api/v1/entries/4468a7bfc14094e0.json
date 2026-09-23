@@ -1,0 +1,26 @@
+{
+  "id": "4468a7bfc14094e0",
+  "name": "Seam Ripper",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 0,
+      "magus": 1,
+      "wizard": 0,
+      "witch": 0
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level bard 0, magus 1, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, F (a small fishhook or barbed needle)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget article of clothing touched\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nYou animate a small, barbed metal object that flies from your hand at a single target. On a successful ranged touch, the hook splits into dozens of tiny copies, which infest a non-magical garment worn by the target and violently tug it apart.\n\nUsed as an attack on a worn article of clothing, seam ripper destroys fabric, fur, or hide garments. Clothing, armor, cloaks, and other cloth items enchanted to +1 or better are not affected.\n\nAdditionally, the wearer is subject to a dirty trick combat maneuver based on the type of garment and the nature of its sudden destruction. Your Intelligence modifier is applied for the CMB check rather than your Strength modifier. A target can be blinded by swirling fabric strips, entangled by collapsed trousers, dazzled by burst batting, or shaken from mortifying humiliation caused by sudden nudity, subject to the GM’s discretion. This condition lasts for 1 round.\n\nOn a successful Fortitude save, the object gains the broken condition instead of being destroyed, and this also negates the dirty trick maneuver.\n\nThis spell has no effect on armor or on wooden, chitin, stone, metal or other clothing, or objects that do not employ fabric or seams that can be cut or torn apart.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4468a7bfc14094e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/4468a7bfc14094e0"
+  },
+  "license": "OGL 1.0a"
+}

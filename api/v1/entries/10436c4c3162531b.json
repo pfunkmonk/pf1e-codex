@@ -1,0 +1,26 @@
+{
+  "id": "10436c4c3162531b",
+  "name": "Time Step",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "temporal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (transmutation) [temporal]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round /level (D)\n\nDESCRIPTION\n\nWhen you cast this spell, your movements become as darting as a hummingbird’s, as if the rest of the world briefly pauses while you move and act.\n\nFor all natural modes of movement (including land, burrow, climb, fly, and swim) your base movement distance is doubled, including 5-ft. steps (which in essence become 10-ft. steps). You can, for instance, cast a spell or take some other standard action and then make what would normally be a double move.\n\nThis will stack with another spell or similar effect that grants an enhancement bonus to your base speed (such as expeditious retreat) but it will not stack with a magically conferred movement type with a set speed (such as fly or burrow) or an enhancement with a specified maximum (such as haste). As with expeditious retreat, this spell will affect your jumping distance.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10436c4c3162531b.json",
+    "web": "https://codex.pipsprojects.com/#/e/10436c4c3162531b"
+  },
+  "license": "OGL 1.0a"
+}

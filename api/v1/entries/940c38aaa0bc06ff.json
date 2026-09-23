@@ -1,0 +1,28 @@
+{
+  "id": "940c38aaa0bc06ff",
+  "name": "Shining Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 4,
+      "paladin": 4
+    },
+    "desc": [
+      "good",
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation) [good, light]; Level cleric/oracle 4, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea one 10-ft. cube/level (S)\nDuration 1 minute/level\nSaving Throw Fortitude partial (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou create a cloud of shimmering mist suffused with the light of heaven. This functions as solid fog, but creatures with the evil subtype beginning their turn within the shining mist are automatically dazzled and must succeed in a Fortitude save or become blind. This blindness and dazzling persists as long as the creature remains within the shining mist. A Creature that exits the mist can attempt a new Fortitude save each round as a free action at the end of its turn to eliminate the dazzled condition or reduce blinded to dazzled.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/940c38aaa0bc06ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/940c38aaa0bc06ff"
+  },
+  "license": "OGL 1.0a"
+}

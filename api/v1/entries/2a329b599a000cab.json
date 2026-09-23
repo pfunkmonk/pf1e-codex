@@ -1,0 +1,30 @@
+{
+  "id": "2a329b599a000cab",
+  "name": "Spook Animal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 0,
+      "oracle": 0,
+      "druid": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level bard 0, cleric/oracle 0, druid 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living animal\nDuration 1 round/level or 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Animals with more than 8 HD are immune to this effect. (Animal companions that have 8 or fewer HD can be affected by this spell.)\n\nSection 15: Copyright Notice – 101 0-Level Spells 101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a329b599a000cab.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a329b599a000cab"
+  },
+  "license": "OGL 1.0a"
+}

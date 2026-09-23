@@ -1,0 +1,30 @@
+{
+  "id": "92f85ad42bd9b5bb",
+  "name": "Coldsnap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "elementer": 3,
+      "magus": 3,
+      "occultist": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [cold]; Level bloodrager 3, elementer 3, magus 3, occultist 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 15 ft.\n\nArea 15 ft.-radius burst, centered on you\nDuration instantaneous, then 1 round/2 levels\nSaving Throw Reflex half; Spell Resistance yes\n\nA sudden burst of bone-chilling cold rushes from your space. All creatures in the burst (except you) take 1d6 points of cold damage per caster level (max 10d6). A Reflex save halves the damage. The damage only occurs once, when the spell is cast.\n\nThe sudden chill coats the area of the spell with ice for 1 round per two caster levels. A creature can walk within or through the area at half normal speed with a DC 10 Acrobatics check. Failure means it can’t move that round, while failure by 5 or more means it falls. Unattended objects, doors, furnishings, and the like are similarly coated in ice for the duration of the spell, freezing containers and doors shut while anchoring objects to whatever surface they lay on. Once the spell ends, the ice rapidly thaws, leaving no trace.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/92f85ad42bd9b5bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/92f85ad42bd9b5bb"
+  },
+  "license": "OGL 1.0a"
+}

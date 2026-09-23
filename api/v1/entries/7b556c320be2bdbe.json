@@ -1,0 +1,29 @@
+{
+  "id": "7b556c320be2bdbe",
+  "name": "Elements Release",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "psychic": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [void]; Level psychic 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget 1 creature or unattended object\n\nDuration instantaneous\n\nSaving Throw no; Spell Resistance no\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nWith the guidance of the Void, this spell enables you to manipulate minor imbalances of the elements within a target to disperse and reach their natural state in the world.\n\nThis spell causes each on-going 1st level or lower spell (including from spell-like abilities) in effect on the target to be dispelled (as per dispel magic but no dispel check needed) if your caster level (CL) is greater than the CL of the on-going spell. As part of casting this spell, you may expend 1 ki point to add +1d4 to your CL for the purposes of this spell.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7b556c320be2bdbe.json",
+    "web": "https://codex.pipsprojects.com/#/e/7b556c320be2bdbe"
+  },
+  "license": "OGL 1.0a"
+}

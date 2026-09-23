@@ -1,0 +1,31 @@
+{
+  "id": "c9231bfc3a81dbf4",
+  "name": "Vampiric Drain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "bloodrager": 1,
+      "magus": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "wizard": 1,
+      "spiritualist": 1,
+      "witch": 1
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level antipaladin 1, bloodrager 1, magus 1, medium 1, mesmerist 1, psychic 1, sorcerer/wizard 1, spiritualist 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one living creature\nDuration concentration, up to 1 round/level\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou pull the life essence from the target. This can be blood leaving the body or a dark energy, it is up to the caster. The target must make a Fortitude save or be dealt 1d6 + 1 per caster level (max +5) negative energy damage. Additionally, you gain temporary hit points equal to the damage dealt. The temporary hit points granted by this spell stack each round but the total gained from this spell cannot exceed 6 + 1 per caster level (max +5). These temporary hit points disappear 1 hour later. A successful Fortitude save by the target halves the damage and negates the temporary hit point gain by you. Each round while concentrating on the spell, you may change the target of the spell.\n\nContact Other Plane: World of the Old Scrolls I, © 2023, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9231bfc3a81dbf4.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9231bfc3a81dbf4"
+  },
+  "license": "OGL 1.0a"
+}

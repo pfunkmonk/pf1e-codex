@@ -1,0 +1,23 @@
+{
+  "id": "f1dabb3ff6bb716e",
+  "name": "Ocularum",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination (scrying); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 minute\nComponents S, M (ocular fluid from living creature)\n\nEFFECT\n\nRange touch\nEffect one scrying symbol\nDuration 24 hrs.\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou can paint a glyph with the clear fluids extracted from the eye of any living creature, creating a potent scrying tool.\n\nAs a full-round action, you can attune yourself to any such glyph you have created that is within a range of 1 mile/caster level. After that round, you see out of that glyph as if you were physically present at that location, including any enhanced vision such as darkvision and see invisibility. You cannot use any senses other than vision through the ocularum.\n\nThe glyph is nearly imperceptible and requires a DC 20 Perception check to locate. It has 1 hp, and if the glyph is destroyed while you are actively looking through it, you are immediately and permanently blinded. While actively scrying through the glyph, you become unaware of your own surroundings, receiving a -10 penalty to all Perception checks in your actual location and easily surprised. This spell only functions on the plane of existence you are currently occupying.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1dabb3ff6bb716e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1dabb3ff6bb716e"
+  },
+  "license": "OGL 1.0a"
+}
