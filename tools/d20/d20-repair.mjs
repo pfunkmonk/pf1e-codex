@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare } from "./d20-clean.mjs";
-import { repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { stripTemplateJunk, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -67,6 +67,8 @@ for (const r of d20) {
   if (APPLY) bodies[r[2]][r[0]] = nb;
   rebroke++;
 }
+let cleaned = 0;
+for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = stripTemplateJunk(b); if (nb !== b) { console.log(`  stripped template text: ${r[1]} (${b.length - nb.length} chars)`); if (APPLY) bodies[r[2]][r[0]] = nb; cleaned++; } }
 for (const r of listPages) drop.set(r[0], `${r[1]}  <>  (a list of names, no content of its own)`);
 
 // ---- 2. inverted-name duplicates of ORIGINAL rows ----

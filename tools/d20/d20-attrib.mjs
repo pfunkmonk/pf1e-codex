@@ -82,3 +82,14 @@ export function nameKeys(name) {
   m = /^([^(]+?)\s*\(([^)]+)\)$/.exec(n); if (m) { ks.add(alnum(m[2] + " " + m[1])); ks.add(alnum(m[1] + " " + m[2])); }
   return [...ks];
 }
+
+/* ---- source-site template leftovers ------------------------------------------------------------------
+ * Some d20pfsrd pages still carry the literal text of the publisher's blank template ("Italicized descriptive text
+ * here. There should be no hyperlinks in this section." above a stat block; "Ability: This is placeholder text."
+ * inside race-trait tables; an ecology block of "Environment ZZ / Treasure {{none/standard/...}}"). Found by loading
+ * 200 random imported pages (audit 2026-09-24): 9 entries. These lines carry no rules content, so they are removed;
+ * unfinished stat VALUES ("Perception +ZZ") are the source's own gaps and are left alone rather than invented over. */
+const TEMPLATE_LINE = /^(?:Italicized descriptive text here\.\s*There should be no hyperlinks in this section\.|[A-Za-z][A-Za-z0-9 ]*:\s*This is placeholder text\.?|Environment ZZ|Organization ZZ\s*\{\{.*\}\}|Treasure\s*\{\{.*\}\}.*)\s*$/;
+export function stripTemplateJunk(body) {
+  return String(body).split("\n").filter((l) => !TEMPLATE_LINE.test(l.trim())).join("\n").replace(/\n{3,}/g, "\n\n").replace(/^\s+/, "");
+}
