@@ -1,0 +1,31 @@
+{
+  "id": "93ef237aacf3a6e5",
+  "name": "Wind Wall (wall)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "magus": 3,
+      "ranger": 3,
+      "wizard": 3,
+      "summoner": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [air]; Level cleric/oracle 3, druid 3, magus 3, ranger 3, sorcerer/wizard 3, summoner 3\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\nTarget Restrictions barrier\n\nDESCRIPTION\n\nThis effect word creates a vertical wall of swirling wind. This wind does not obscure sight, but missile weapons that pass through the wall automatically miss (with the exception of large missiles, such as giant-thrown rocks and siege weapons). Creatures that pass through the wall treat it as difficult terrain and must make a DC 10 Strength check. Failure indicates that the creature cannot pass through the wall this round, but may try again in future rounds. Gases, gaseous breath weapons, and creatures in gaseous form cannot pass through the wall.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93ef237aacf3a6e5.json",
+    "web": "https://codex.pipsprojects.com/#/e/93ef237aacf3a6e5"
+  },
+  "license": "OGL 1.0a"
+}

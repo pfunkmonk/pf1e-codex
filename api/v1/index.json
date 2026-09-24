@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "90",
+  "dataVersion": "91",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 50816,
+    "entries": 50880,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
       "nameFirst": 3653,
       "sourceFirst": 12478,
-      "other": 34685
+      "other": 34749
     }
   },
   "endpoints": {
@@ -63,10 +63,10 @@
     {
       "slug": "feats",
       "label": "Feats",
-      "count": 7704,
+      "count": 7714,
       "list": "feats.json",
       "categories": {
-        "Feats": 7704
+        "Feats": 7714
       }
     },
     {
@@ -87,7 +87,7 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 8122,
+      "count": 8125,
       "list": "items.json",
       "categories": {
         "Altars": 22,
@@ -99,7 +99,7 @@
         "Favors": 5,
         "Intelligent Items": 32,
         "Magic Equipment": 125,
-        "Miscellaneous": 2455,
+        "Miscellaneous": 2457,
         "Pharmaceuticals": 11,
         "Potions & Oils": 10,
         "Psi-Tech": 9,
@@ -108,21 +108,21 @@
         "Staves": 106,
         "Technology": 16,
         "Thrones": 3,
-        "Weapons": 1349,
+        "Weapons": 1350,
         "Wondrous Items": 2438
       }
     },
     {
       "slug": "monsters",
       "label": "Monsters",
-      "count": 8840,
+      "count": 8868,
       "list": "monsters.json",
       "categories": {
         "Animal Companions": 214,
         "Creature Subtypes": 84,
         "Creature Types": 13,
         "Monster Families": 140,
-        "Monsters": 8004,
+        "Monsters": 8032,
         "Mythic Monsters": 89,
         "Templates": 164,
         "Universal Monster Rules": 132
@@ -140,7 +140,7 @@
     {
       "slug": "options",
       "label": "Class Options",
-      "count": 4992,
+      "count": 4996,
       "list": "options.json",
       "categories": {
         "4 Winds Fantasy Gaming": 4,
@@ -192,7 +192,7 @@
         "Bloodline Disciple": 14,
         "Bloodline Mutations": 3,
         "Bloodlines": 75,
-        "Bloodlines – Paizo, Inc.": 7,
+        "Bloodlines – Paizo, Inc.": 8,
         "Bloodlord Sanguine Paths": 3,
         "Bloodrager Bloodlines – Ascension Games, LLC": 2,
         "Bloodrager Bloodlines – Everyman Gaming, LLC": 1,
@@ -266,7 +266,7 @@
         "Everyman Gaming, LLC – Rogue Talents": 9,
         "Everyman Gaming, LLC – Rogue Talents, Advanced": 6,
         "Everyman Gaming, LLC – Slayer Advanced Talents": 4,
-        "Everyman Gaming, LLC – Slayer Talents": 9,
+        "Everyman Gaming, LLC – Slayer Talents": 10,
         "Everyman Gaming, LLC – Subdomains": 2,
         "Everyman Gaming, LLC – Unchained Ninja": 1,
         "Everyman Gaming, LLC – Unchained Ninja Master Tricks": 4,
@@ -395,6 +395,7 @@
         "Oracle Mysteries – Kobold Press": 14,
         "Oracle Mysteries – Legendary Games": 2,
         "Oracle Mysteries – Orphaned Bookworm Productions": 3,
+        "Oracle Mysteries – Paizo, Inc.": 1,
         "Oracle Mysteries – Radiance House": 1,
         "Oracle Mysteries – Rite Publishing": 8,
         "Orders": 14,
@@ -406,7 +407,7 @@
         "Paizo, Inc. – Domains": 3,
         "Paizo, Inc. – Investigator Talents‎": 1,
         "Paizo, Inc. – Rogue Advanced Talents": 1,
-        "Paizo, Inc. – Rogue Talents": 3,
+        "Paizo, Inc. – Rogue Talents": 4,
         "Paizo, Inc. – Samurai Orders": 2,
         "Paizo, Inc. – Slayer Advanced Talents": 1,
         "Paizo, Inc. – Slayer Talents": 1,
@@ -553,42 +554,42 @@
     {
       "slug": "races",
       "label": "Races",
-      "count": 597,
+      "count": 598,
       "list": "races.json",
       "categories": {
-        "Races": 597
+        "Races": 598
       }
     },
     {
       "slug": "rules",
       "label": "Rules & Skills",
-      "count": 5966,
+      "count": 5972,
       "list": "rules.json",
       "categories": {
         "Combat Stamina": 549,
         "Definitions": 52,
-        "Rules": 5339,
+        "Rules": 5345,
         "Skills": 26
       }
     },
     {
       "slug": "spells",
       "label": "Spells",
-      "count": 7775,
+      "count": 7783,
       "list": "spells.json",
       "categories": {
         "Occult Rituals": 81,
         "Spellbooks": 42,
-        "Spells": 7652
+        "Spells": 7660
       }
     },
     {
       "slug": "traits",
       "label": "Traits",
-      "count": 2235,
+      "count": 2239,
       "list": "traits.json",
       "categories": {
-        "Traits": 2235
+        "Traits": 2239
       }
     }
   ]

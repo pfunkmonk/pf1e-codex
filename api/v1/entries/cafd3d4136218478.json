@@ -1,0 +1,29 @@
+{
+  "id": "cafd3d4136218478",
+  "name": "Fire Wall (wall)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 4,
+      "magus": 4,
+      "wizard": 4,
+      "summoner": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [fire]; Level druid 4, magus 4, sorcerer/wizard 4, summoner 4\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\nTarget Restrictions barrier\n\nDESCRIPTION\n\nThis effect word creates a vertical wall of crackling flame. Creatures in the space of the wall when it forms or that attempt to pass through the wall take 2d6 points of fire damage + 1 point of fire damage per level of the wordcaster (maximum +20). A Reflex save halves this damage. The wall blocks line of sight.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cafd3d4136218478.json",
+    "web": "https://codex.pipsprojects.com/#/e/cafd3d4136218478"
+  },
+  "license": "OGL 1.0a"
+}

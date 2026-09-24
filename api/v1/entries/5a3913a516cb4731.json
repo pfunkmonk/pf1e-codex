@@ -1,0 +1,26 @@
+{
+  "id": "5a3913a516cb4731",
+  "name": "Finger of Death (Hellenic)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Sean K. Reynolds Games",
+  "book": "Sean K. Reynolds Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "hellenic sorceress": 5
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Sean K. Reynolds Games"
+  },
+  "body": "School necromancy [death]; Level Hellenic sorceress 5\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one living creature; see text\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell guides the spirits of death to the target, who suffers an unfortunate accident or injury within 1d4 rounds, causing them to bleed to death (losing 3d6 damage +1 point per caster level per round, which can only be stopped with magical healing or a DC 30 Heal check). If the target’s Fortitude saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.\n\nBecause this form of the spell causes the target to bleed to death, it can affect nonliving creatures that are vulnerable to bleeding wounds.\n\n– New Argonauts New Argonauts. Copyright 2004 Sean K Reynolds. All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a3913a516cb4731.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a3913a516cb4731"
+  },
+  "license": "OGL 1.0a"
+}

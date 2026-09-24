@@ -1,0 +1,27 @@
+{
+  "id": "648d37837d838127",
+  "name": "Stone Wall (wall)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 5,
+      "druid": 6,
+      "magus": 5,
+      "wizard": 5,
+      "summoner": 5
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 5, druid 6, magus 5, sorcerer/wizard 5, summoner 5\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\nTarget Restrictions barrier\n\nDESCRIPTION\n\nThis effect word creates a vertical wall of solid stone. The wall must be a smooth, uninterrupted surface when formed. The wall is 1 inch thick per caster level, has hardness 8, and has 15 hit points per inch of thickness. The wall blocks line of sight.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/648d37837d838127.json",
+    "web": "https://codex.pipsprojects.com/#/e/648d37837d838127"
+  },
+  "license": "OGL 1.0a"
+}

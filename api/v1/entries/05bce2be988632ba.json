@@ -1,0 +1,27 @@
+{
+  "id": "05bce2be988632ba",
+  "name": "Wind Blast (weather)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [air]; Level druid 2, sorcerer/wizard 3\n\nEFFECT\n\nDuration 1 round\nSaving Throw Fortitude negates; Spell Resistance yes\nTarget Restrictions line\n\nDESCRIPTION\n\nThis effect word creates a blast of air that can knock over or hinder those in its path. When a wordspell with this effect word is cast, any Large or smaller creature within the area of the wordspell must make a Fortitude save or be knocked prone and pushed back 10 feet. Any creature wishing to move through the line of air must make a DC 20 Strength check. Failure means the creature wastes 5 feet of movement, but is otherwise unhindered and can continue to move (so long as it does not move through the line of air). The DC increases to 30 if the creature attempts to move toward the source of the wind. Flying creatures take a -4 penalty on saves and Strength checks made against this effect.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/05bce2be988632ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/05bce2be988632ba"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e29c029c1fc79b22",
+  "name": "Leshy, Seaweed",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "We Be Leshys",
+  "book": "We Be Leshys",
+  "facets": {
+    "bk": "We Be Leshys"
+  },
+  "body": "SEAWEED LESHY\nCR 5\n\nThis vaguely humanoid creature has a body formed of soggy green seaweed and wears crude armor made from seashells.\n\nXP 1,600\nN Small plant (leshy)\nInit +5; Senses darkvision 60 ft., low-light vision; Perception +2\n\nDEFENSE\n\nAC 19, touch 17, flat-footed 13 (+5 Dex, +1 dodge, +2 natural, +1 size)\nhp 45 (7d8+14)\nFort +7, Ref +7, Will +4\nImmune electricity, plant traits, sonic\n\nOFFENSE\n\nSpeed 20 ft., swim 20 ft.\nMelee slam +5 (1d4–1)\nRanged 2 water jets +11 (2d6 plus blind)\nSpecial Attacks verdant channel 3/day (4d6)\nSpell-Like Abilities (CL 7th; concentration +8)\n\n3/day—fog cloud\nAt-Will—tree shape (small seaweed only)\nConstant—pass without trace, speak with plants\n\nSTATISTICS\n\nStr 9, Dex 21, Con 14, Int 10, Wis 15, Cha 12\nBase Atk +5; CMB +3; CMD 19\nFeats Dodge, Far Shot, Point-Blank Shot, Precise Shot\nSkills Diplomacy +8, Stealth +9 (+17 Stealth in water), Survival +9 (+17 Survival in water), Swim +7; Racial Modifiers +8 Stealth and Survival in water\nLanguages Common, Druidic, Sylvan\n\nSPECIAL ABILITIES\n\nAir Cyst (Su)\n\nA seaweed leshy constantly grows small bulbs filled with air. As a move action, it can detach a bulb and give it to another creature. If consumed as a standard action, this air cyst grants water breathing (as the spell) for 10 minutes. A seaweed leshy can have a maximum of four usable air cysts at any one time, and air cysts regrow at a rate of one per 24 hours.\n\nWater Jet (Ex)\n\nA seaweed leshy can expel high-pressure jets of water from its mouth. These jets have a range increment of 20 feet. If a jet hits, the blast deals 2d6 point of bludgeoning damage unmodified by Strength. The creature hit must make a DC 15 Fortitude save or be blinded for 1 round. The save DC is Constitution-based.\n\nVerdant Channel (Ex)\n\nA seaweed leshy can channel verdant energy to a range of 30 feet. This acts as channel positive energy, but it can only heal plant creatures and deals no damage to undead.\n\nWe Be Leshys Copyright 2025 Zenith Games Authors Mike Welham and Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e29c029c1fc79b22.json",
+    "web": "https://codex.pipsprojects.com/#/e/e29c029c1fc79b22"
+  },
+  "license": "OGL 1.0a"
+}

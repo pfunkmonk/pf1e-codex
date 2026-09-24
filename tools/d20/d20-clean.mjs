@@ -32,6 +32,36 @@ const isPaizo = (s) => /paizo/i.test(s);
 
 /* ---- one page ------------------------------------------------------------------------------ */
 // Three spellings seen in the crawl: "Latest Products from this Publisher…" (32 pages), "Latest from This Publisher…" (10), "Latest from this Publisher…" (1).
+/* The Section 15 zone holds copyright NOTICES — but on a few hundred pages it also holds real content (Buildings (Wayfinder #4)
+ * carries 17,000 characters of rules there; Arcane Ace's credit line runs on into a whole archetype after a "~~~"). A line is a
+ * notice when it carries a copyright mark or an "Author(s):" credit and is a plausible length (longest real notice seen: 899
+ * chars). Anything else is content when it is part of a RUN of 3+ non-notice lines, or is itself long (>200 chars, or a
+ * notice-less line >900). Short isolated non-notice lines ("ClerverNickname @ EnWorld", "Pathfinder 43.") stay credits. */
+const NOTICE_MARK = /©|\(c\)\s*\d{4}|copyright|\bAuthors?\b/i;
+const AFTER_DIVIDER = "\u0001";   // marks text that followed a "~~~" divider: content by construction
+export function splitCreditsZone(lines) {
+  const parts = [];
+  for (const l of lines) {
+    const i = l.indexOf("~~~");
+    if (i >= 0) { const before = l.slice(0, i).trim(), after = l.slice(i + 3).trim(); if (before) parts.push(before); if (after) parts.push(AFTER_DIVIDER + after); }
+    else parts.push(l);
+  }
+  const credits = [], content = [];
+  const isNotice = (t) => !t.startsWith(AFTER_DIVIDER) && t.length <= 2500 && NOTICE_MARK.test(t);
+  let i = 0;
+  while (i < parts.length) {
+    if (isNotice(parts[i])) { credits.push(parts[i]); i++; continue; }
+    let j = i; while (j < parts.length && !isNotice(parts[j])) j++;
+    let run = parts.slice(i, j);
+    // an author list wrapped past its notice line: short lines while the notice has not reached a full stop
+    while (run.length && credits.length && !/[.!?)”"]$/.test(credits[credits.length - 1]) && run[0].length <= 120 && !run[0].startsWith(AFTER_DIVIDER)) credits.push(run.shift());
+    if (!run.length) { i = j; continue; }
+    if (run.length >= 3 || run.some((t) => t.length > 200) || run.some((t) => t.startsWith(AFTER_DIVIDER))) content.push(...run.map((t) => t.split(AFTER_DIVIDER).join("")));
+    else credits.push(...run);
+    i = j;
+  }
+  return { credits, content };
+}
 export const AD_MARK = /^Latest (?:Products )?from this Publisher at OpenGamingStore\.com!?/i;
 export function parsePage(text, file) {
   const lines = text.replace(/\r/g, "").split("\n");
@@ -78,6 +108,11 @@ export function parsePage(text, file) {
       if (t) s15.push(t);
     }
   }
+  // Some pages put their "Section 15" heading BEFORE real content (credits, then body text, then credits again), so the
+  // zone below the heading is not all credits. Give the content back to the body; see splitCreditsZone.
+  const zone = splitCreditsZone(s15);
+  s15.length = 0; s15.push(...zone.credits);
+  bodyLines = [...bodyLines, ...zone.content];
   const { lines: contentLines, children } = stripSubpages(bodyLines, nameRaw);
   const body = contentLines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 

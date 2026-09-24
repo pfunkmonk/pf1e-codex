@@ -1,0 +1,29 @@
+{
+  "id": "815c22d54a1d7134",
+  "name": "Ice Wall (wall)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 4,
+      "magus": 4,
+      "wizard": 4,
+      "summoner": 4
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [cold]; Level druid 4, magus 4, sorcerer/wizard 4, summoner 4\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\nTarget Restrictions barrier\n\nDESCRIPTION\n\nThis effect word creates a vertical wall of solid ice. The wall must be a smooth, uninterrupted surface when formed. The wall is 1 inch thick per caster level and has 3 hit points per inch of thickness. The wall blocks line of sight.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/815c22d54a1d7134.json",
+    "web": "https://codex.pipsprojects.com/#/e/815c22d54a1d7134"
+  },
+  "license": "OGL 1.0a"
+}

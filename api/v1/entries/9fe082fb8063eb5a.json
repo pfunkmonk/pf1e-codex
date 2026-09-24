@@ -1,0 +1,31 @@
+{
+  "id": "9fe082fb8063eb5a",
+  "name": "Freezing Fog (Orphaned Bookworm Productions)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodlord": 6,
+      "druid": 6,
+      "magus": 6,
+      "shaman": 6,
+      "wizard": 6,
+      "unchained summoner": 6
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [cold]; Level bloodlord 6, druid 6, magus 6, shaman 6, sorcerer/wizard 6, unchained summoner 6\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange medium (100 ft. + 10 ft./level)\n\nEffect fog spreads in 20-ft. radius, 20 ft. high\n\nDuration 1 round/level\n\nSaving Throw none; Spell Resistance no\n\nFreezing fog creates a billowing mass of freezing vapors like the solid fog spell. Additionally, this spell’s vapors are freezing cold.\n\nEach round on your turn, starting when you cast the spell, the fog deals 2d6 points of cold damage to each creature and object within it.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9fe082fb8063eb5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/9fe082fb8063eb5a"
+  },
+  "license": "OGL 1.0a"
+}
