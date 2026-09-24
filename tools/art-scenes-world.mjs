@@ -980,7 +980,9 @@ export const NAMED_DEITIES = [
   ["Nyarlathotep", "A black-robed pharaoh of crawling chaos before a shattered obelisk, a swarm of mad shadows rising behind him."],
   ["Shamash", "A many-eyed lion-headed sun-judge above a road of law, a billion eyes gazing from a flaring sun."],
   // Batch 9: the "Gods of Porphyra" overview page (a pantheon introduction, not one god).
-  ["Purple Duck Games – Gods", "A circle of shrouded god-statues ringing a vast open-air theater under a storm-lit sky, a lone chronicler with a scroll at its center."]
+  ["Purple Duck Games – Gods", "A circle of shrouded god-statues ringing a vast open-air theater under a storm-lit sky, a lone chronicler with a scroll at its center."],
+  // Batch 10: a warlock patron filed by d20 among the gods.
+  ["Great Old One", "A vast tentacled shape of madness rising behind a cracked star-field, a lone robed warlock at its feet shielding her eyes."]
 ];
 
 

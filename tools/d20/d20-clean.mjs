@@ -589,7 +589,12 @@ export function commaListShare(ls) {
   const list = ls.filter((l) => { const it = l.split(","); return it.length >= 12 && it.every((x) => x.trim().split(/\s+/).length <= 4) && !/[.!?]\s/.test(l); });
   return list.reduce((n, l) => n + l.length, 0) / total;
 }
+// A BLANK publisher stat-block TEMPLATE ("Demon, Ember", "Malach": "XP ZZ,ZZZ", "AC ZZ, touch ZZ…", "{{Don’t list entry if…}}") —
+// ~95 unfilled ZZ slots, no rules content. Found in batch 10. Real entries with a few unfinished values ("Perception +ZZ")
+// have a handful of ZZ; a template has dozens. Checked before hasOwnStatBlock, which a CR/XP header would satisfy.
+export const blankTemplateSlots = (body) => (String(body).match(/\bZZ|ZZ\b|\bXX\b/g) || []).length;
 export function isCatalogPage(bucket, chars, ls, body, title) {
+  if (blankTemplateSlots(body) >= 20) return true;
   // A real ARCHETYPE never restates Hit Die (it modifies an existing class) so it can't use the general
   // stat-block check below, but can carry its own spellcasting-progression table just as long as a real
   // class's ("Primagus" ran 40+ tab rows) — bucket is the only reliable signal there.

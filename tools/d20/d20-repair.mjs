@@ -5,7 +5,7 @@
  * Usage: node tools/d20/d20-repair.mjs [--apply] [--root C:/Users/mailp/dev/pf1e-codex] */
 import fs from "node:fs";
 import crypto from "node:crypto";
-import { commaListShare, AD_MARK, isGodSummaryTable } from "./d20-clean.mjs";
+import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
 import { snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
@@ -77,6 +77,7 @@ for (const r of d20) {
   else { console.log(`  stripped ad block: ${r[1]} (${head.length - nh.length} chars)`); if (APPLY) bodies[r[2]][r[0]] = nh + "\n\n" + tail; }
   adStripped++;
 }
+for (const r of d20) { if (blankTemplateSlots(String(bodies[r[2]][r[0]])) >= 20) { drop.set(r[0], `${r[1]}  <>  (a blank stat-block template)`); console.log(`  drop ${r[1]} [${r[2]}]: a blank stat-block template`); } }
 let cleaned = 0, dividers = 0;
 for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = tidyDividers(b); if (nb !== b) { console.log(`  tidied ~~~ dividers: ${r[1]}`); if (APPLY) bodies[r[2]][r[0]] = nb; dividers++; } }   // snippets are re-derived by the drift step below
 for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = stripTemplateJunk(b); if (nb !== b) { console.log(`  stripped template text: ${r[1]} (${b.length - nb.length} chars)`); if (APPLY) { bodies[r[2]][r[0]] = nb; r[5] = snippetOf(nb); } cleaned++; } }
