@@ -9,6 +9,7 @@ Working ledger and reports: `D:\CODEX\d20-pilot\` (`sample.json`, `pages.jsonl`,
 node tools/d20/d20-sample.mjs --n 5000          # draw a batch (cumulative ledger; never re-draws a page)
 node tools/d20/d20-clean.mjs                    # parse, classify (entry / catalog / index / stub), attribute
 node tools/d20/d20-xref.mjs                     # pull the individual pages that catalog rows point to, to convergence
+node tools/d20/d20-xref-coverage.mjs --show     # catalogs that are the ONLY home of their rows -> catalog-keep.json (imported as one table page each)
 node tools/d20/d20-clean.mjs                    # ...and re-clean the enlarged pilot
 node tools/d20/d20-match.mjs                    # NEW / DUP / NAMESAKE / AMBIGUOUS against the Codex
 node tools/d20/d20-conflicts.mjs                # rules-number conflicts against matched Codex entries
@@ -19,6 +20,24 @@ node tools/gen-api.mjs . --prune && node tools/check-api.mjs .
 ```
 
 Stage in a scratch copy first when in doubt: `d20-import.mjs --root <copy of data/ + app.js> --apply`, then diff it against the repo.
+
+## Held verdicts (NAMESAKE / AMBIGUOUS) are resolved by the importer, not left for a person
+
+`d20-match` marks pages "same name, different content" (NAMESAKE) or "same name, middling content" (AMBIGUOUS). A sample
+of 1,473 showed most are genuinely different entries (a third-party "Shedu", two publishers' "Energy Weapon", regional
+traits that share a name). So `d20-import` decides with its own guards:
+- NAMESAKE is imported; on a same-name+bucket collision a NAMED third-party publisher is kept as `Name (Publisher)`,
+  a Paizo/unconfirmed page (matcher says different content) as `Name (d20pfsrd)`.
+- AMBIGUOUS is imported only from a named third-party publisher and only when the match is weak (cont < 0.25, cos < 0.6);
+  anything else is probably the same entity re-worded and is reported as skipped.
+- Two pages minting one id in a run: the first keeps the plain name, a second from a different publisher gets the suffix,
+  a second from the same publisher is a duplicate and is skipped.
+
+## Finishing an archive
+
+`d20-sample.mjs --margin 0 --min-chars 0` draws the true remainder once the crawl has finished (the default margin
+protects pages a running crawler might still be writing). After the last batch: run `d20-xref-coverage.mjs`, re-clean, and
+read the skipped lists in `import-report.json` (`skippedHeldDuplicate`, `skippedExistingCollision`, `skippedInvertedDup`).
 
 ## The rule that keeps this safe
 

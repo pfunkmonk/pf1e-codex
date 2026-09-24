@@ -44,7 +44,7 @@ const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
  * (monsters). Two of the underlying regexes (`fire`, `cold`) turned out to have real false positives
  * at this scale — checked by hand, found and fixed (see data/themes.js) — but the corrected counts
  * are still legitimately this large; this is content growth, not remaining sloppiness. */
-const MAX_CLAIM = { feats: 280, items: 340, spells: 450, monsters: 260 };
+const MAX_CLAIM = { feats: 280, items: 400, spells: 450, monsters: 260 };
 const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
 /* ART DEBT: a theme that has run out of image variants, waiting on an actual new picture to be drawn —
@@ -67,28 +67,30 @@ const maxClaim = b => MAX_CLAIM[b] ?? 150;
  * verified" — a good candidate for a follow-up pass with the same by-hand method before assuming
  * every one of them is 100% clean. */
 const ART_DEBT = {
-  "feats/power-attack": 92, "feats/archery": 121, "feats/charge": 43, "feats/unarmed": 118,
-  "feats/ki-meditation": 90, "feats/metamagic": 236, "feats/spell-focus": 93, "feats/familiar": 69,
-  "feats/bloodline": 63, "feats/channel-energy": 106, "feats/hex-witch": 41, "feats/judgment-teamwork": 133,
-  "feats/arcane": 69, "feats/shadow": 72, "feats/acid-poison": 63, "feats/stealth": 66,
-  "feats/knowledge": 161, "feats/heal-medicine": 42, "feats/leadership": 103, "feats/linguistics": 28,
-  "feats/item-mastery": 28, "feats/natural-attacks": 74, "feats/dragon-breath": 53, "feats/extra-resource": 135,
-  "feats/faith-obedience": 125, "feats/multiclass-dabble": 22, "feats/weapon-training": 129, "items/ring-item": 304,
-  "items/helm-crown": 85, "items/orb-sphere": 41, "items/mirror-lens": 21, "items/carpet-banner": 45,
-  "items/deck-game": 22, "spells/healing": 150, "spells/undead": 112, "spells/summoning": 212,
-  "spells/teleport": 98, "spells/divination": 91, "spells/illusion": 286, "spells/charm-mind": 421,
-  "spells/fear": 84, "spells/polymorph": 187, "spells/protection": 181, "spells/wall-barrier": 117,
-  "spells/weapon-buff": 159, "spells/armor-buff": 52, "spells/movement": 41, "spells/planar": 230,
-  "spells/curse-affliction": 236, "spells/light-dark": 226, "spells/fire": 187, "spells/cold": 94,
-  "spells/lightning": 113, "spells/acid": 49, "spells/sonic": 83, "spells/force": 127,
-  "spells/earth-stone": 150, "spells/plant-nature": 46, "spells/animal": 66, "spells/weather": 79,
-  "spells/water": 101, "spells/symbol-rune": 66, "spells/mind-psychic": 151, "spells/communication": 58,
-  "spells/creation": 207, "spells/blood-flesh": 93, "spells/ritual-occult": 30, "spells/ability-buff": 64,
-  "spells/trap-alarm": 26, "monsters/animal-bigcat": 64, "monsters/animal-canine": 48, "monsters/animal-bear": 32,
-  "monsters/animal-bird": 57, "monsters/animal-aquatic": 78, "monsters/animal-insect": 141, "monsters/animal-hoofed": 82,
-  "monsters/animal-primate": 23, "monsters/animal-small": 50, "monsters/template-undead": 217, "monsters/template-fiend": 232,
-  "monsters/template-celestial": 35, "monsters/template-elemental": 123, "monsters/template-beast": 72, "monsters/template-mutation": 144,
-  "monsters/umr-affliction": 28,
+  "feats/power-attack": 104, "feats/archery": 133, "feats/charge": 47, "feats/mounted": 41,
+  "feats/critical-hit": 110, "feats/reach-polearm": 21, "feats/unarmed": 125, "feats/ki-meditation": 92,
+  "feats/metamagic": 273, "feats/spell-focus": 103, "feats/counterspell": 22, "feats/summoning": 63,
+  "feats/familiar": 73, "feats/bloodline": 64, "feats/channel-energy": 109, "feats/hex-witch": 41,
+  "feats/smite-paladin": 41, "feats/judgment-teamwork": 150, "feats/arcane": 75, "feats/shadow": 88,
+  "feats/acid-poison": 66, "feats/air-flight": 63, "feats/stealth": 72, "feats/knowledge": 180,
+  "feats/heal-medicine": 48, "feats/leadership": 104, "feats/linguistics": 28, "feats/item-mastery": 28,
+  "feats/natural-attacks": 88, "feats/dragon-breath": 61, "feats/extra-resource": 139, "feats/faith-obedience": 136,
+  "feats/multiclass-dabble": 23, "feats/weapon-training": 137, "items/ring-item": 351, "items/helm-crown": 93,
+  "items/orb-sphere": 45, "items/mirror-lens": 25, "items/gem-stone": 85, "items/carpet-banner": 47,
+  "items/deck-game": 23, "spells/healing": 155, "spells/undead": 114, "spells/summoning": 218,
+  "spells/teleport": 103, "spells/divination": 98, "spells/illusion": 299, "spells/charm-mind": 450,
+  "spells/fear": 89, "spells/sleep-daze": 21, "spells/polymorph": 198, "spells/protection": 191,
+  "spells/wall-barrier": 130, "spells/weapon-buff": 174, "spells/armor-buff": 58, "spells/movement": 45,
+  "spells/planar": 240, "spells/curse-affliction": 248, "spells/light-dark": 239, "spells/fire": 207,
+  "spells/cold": 103, "spells/lightning": 124, "spells/acid": 53, "spells/sonic": 89,
+  "spells/force": 141, "spells/earth-stone": 177, "spells/plant-nature": 47, "spells/animal": 71,
+  "spells/weather": 82, "spells/water": 114, "spells/symbol-rune": 68, "spells/mind-psychic": 155,
+  "spells/communication": 61, "spells/creation": 215, "spells/blood-flesh": 99, "spells/ritual-occult": 32,
+  "spells/ability-buff": 66, "spells/trap-alarm": 28, "monsters/animal-bigcat": 72, "monsters/animal-canine": 54,
+  "monsters/animal-bear": 33, "monsters/animal-bird": 61, "monsters/animal-aquatic": 85, "monsters/animal-insect": 150,
+  "monsters/animal-hoofed": 89, "monsters/animal-primate": 24, "monsters/animal-small": 54, "monsters/template-undead": 232,
+  "monsters/template-fiend": 239, "monsters/template-celestial": 35, "monsters/template-elemental": 129, "monsters/template-beast": 75,
+  "monsters/template-construct": 149, "monsters/template-mutation": 147, "monsters/umr-affliction": 30,
 };
 
 globalThis.window = {};
