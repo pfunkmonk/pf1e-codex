@@ -1,0 +1,23 @@
+{
+  "id": "bfd31d6f7397dc4b",
+  "name": "Explosive Cloud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect fog spreads 30 ft. wide, 20 ft. high\nDuration 10 minutes/level or until discharged\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nExplosive cloud creates invisible explosive vapors. Whenever a flame, whether magical or normal, is brought into its area of effect, the explosive cloud ignites, doing 1d6 points of damage per level of the caster (maximum 10d6), with a Reflex save for half damage. If a fire-based spell is cast into explosive cloud’s area, resolve both damage effects separately.\n\nCreatures entering an explosive cloud or coming within 5 feet of one may make a DC 18 Perception check to notice the faint odor of the explosive cloud’s vapors. Creatures with scent automatically detect the explosive cloud, though they won’t necessarily know what it is.\n\nExplosive cloud’s vapors are heavier than air and settle into the lowest point within the area of effect.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bfd31d6f7397dc4b.json",
+    "web": "https://codex.pipsprojects.com/#/e/bfd31d6f7397dc4b"
+  },
+  "license": "OGL 1.0a"
+}

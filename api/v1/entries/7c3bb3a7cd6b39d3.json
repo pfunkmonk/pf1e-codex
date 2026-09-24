@@ -1,0 +1,27 @@
+{
+  "id": "7c3bb3a7cd6b39d3",
+  "name": "Fear Focus",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "sorcerer": 3
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level sorcerer 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nTarget you\nArea cone shaped burst\nDuration 1 round/level; see text\nSaving Throw Will partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nNote: This spell was designed to be used by dragons, thus it may alter or replace core dragon abilities (like frightful presence etc.)\n\nThis spell turns your frightful presence into a directable cone with a range equal to the range of your frightful presence. A new direction for the cone can be decided once each round as a free action. Those caught in the cone must succeed on a Will save against the normal DC of your frightful presence or become panicked. Those that succeed become frightened instead. The fear effect lasts for 5d6 rounds. This spell automatically fails if the caster does not have a frightful presence ability.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c3bb3a7cd6b39d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c3bb3a7cd6b39d3"
+  },
+  "license": "OGL 1.0a"
+}

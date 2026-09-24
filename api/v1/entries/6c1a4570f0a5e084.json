@@ -1,0 +1,28 @@
+{
+  "id": "6c1a4570f0a5e084",
+  "name": "Confound Senses",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a broken compass)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets all creatures in a 20-ft. burst\nDuration 10 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell befuddles the minds of the targets. Those that fail their Will saves have their speed reduced to half, as they find moving difficult. In addition, the targets take a –4 penalty on ranged attack rolls.\n\nAffected creatures find it impossible to keep track of their location as well. They automatically fail any Survival skill checks to avoid getting lost and cannot remember where they have recently been in relation to where they are now. Whenever the affected creatures must choose between one or more paths, they choose at random and do not remember which direction they chose. At the end of the spell duration, they are lost.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6c1a4570f0a5e084.json",
+    "web": "https://codex.pipsprojects.com/#/e/6c1a4570f0a5e084"
+  },
+  "license": "OGL 1.0a"
+}

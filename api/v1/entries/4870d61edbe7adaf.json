@@ -1,0 +1,27 @@
+{
+  "id": "4870d61edbe7adaf",
+  "name": "Siphon Sands",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy (aging) [pact]; Level sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (an hourglass)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature and personal\nDuration instantaneous and 1 day/level (see text)\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nYou age the target in order to temporarily regain your youth.\n\nThe target’s age is immediately increased by up to three categories (minimum 1). For each category older that your target becomes, you may either reduce your own age category by one (minimum Youth) or grant yourself a +1 inherent bonus to Strength, Dexterity, or Constitution. This inherent bonus stacks with itself (but not with other inherent bonuses), to a maximum of +3. If you siphon multiple age categories from a target, you spend siphoned age categories as you see fit. For example, if you siphon three categories, you could reduce your category by 1 and grant yourself a +2 inherent bonus to Strength, or reduce your age category by 1 and grant yourself a +1 inherent bonus to Strength and Constitution.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4870d61edbe7adaf.json",
+    "web": "https://codex.pipsprojects.com/#/e/4870d61edbe7adaf"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "03fd47301861cc95",
+  "name": "Panacea Salve",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 6,
+      "legendary hunter": 6
+    },
+    "desc": [
+      "herbal"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (healing) [herbal]; Level druid 6, legendary hunter 6\n\nCASTING\n\nCasting Time 3 rounds\nComponents S, H\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nNote Herbal spells use raw components from the environment to enhance their potency. Herbs, plants, mineral water, and occasionally common animal components can be harvested in many locations, at the GM’s discretion. Foraging for the necessary materials takes 1 minute and requires a survival check with a DC equal to 10 + twice the level of the spell. Such materials need to be used within 1 minute to remain potent. If successful, the spell may then be cast. The GM may apply a +5 or -5 modifier for especially fertile or sterile areas. If the spellcaster can beat the DC by 20, he finds sufficient materials to cast the spell without using a spell slot. Using herbal spells without raw components is possible by substituting large amounts of rare herbs. For every level of the spell, an herbal spell will cost 10 gp to cast.\n\nYou administer a herbal salve that ends all of the following adverse conditions affecting the target ability damage, blinded, confused, dazed, dazzled, deafened, diseased, exhausted, fatigued, feebleminded, insanity, nauseated, poisoned, sickened, and stunned. It also cures 15 hit points of damage per level of the caster, to a maximum of 225 points at 15th level.\n\nPanacea salve does not heal negative levels or restore permanently drained ability score points.\n\nLegendary Hunters © 2020, Legendary Games; Authors Connor Bates, Cerise Herndon, and W. Hervay",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/03fd47301861cc95.json",
+    "web": "https://codex.pipsprojects.com/#/e/03fd47301861cc95"
+  },
+  "license": "OGL 1.0a"
+}

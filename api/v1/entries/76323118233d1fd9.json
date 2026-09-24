@@ -1,0 +1,17 @@
+{
+  "id": "76323118233d1fd9",
+  "name": "Negative Energy Elemental, Elder",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Elder Negative Energy Elemental\nCR 12\n\nXP 19,200\nN Huge outsider (elemental, extraplanar)\nInit +14; Senses darkvision 60 ft.; Perception +20\n\nDEFENSE\n\nAC 27, touch 19, flat-footed 16 (+10 Dex, +1 dodge, +8 natural, –2 size)\nhp 161 (17d10+68)\nFort +9, Ref +20, Will +10\nDR 10/—; Immune elemental traits, negative energy\n\nOFFENSE\n\nSpeed fly 60 ft. (good)\nMelee 2 slams +25 (2d8+6 plus 2d8 negative energy plus energy drain)\nSpace 15 ft.; Reach 15 ft.\nSpecial Attacks energy drain (3 levels, DC 18), negative energy attacks, negative energy burst 4/day (DC 22, 9d6)\n\nSTATISTICS\n\nStr 22, Dex 31, Con 18, Int 10, Wis 11, Cha 11\nBase Atk +17; CMB +25; CMD 46\nFeats Cleave, Combat Reflexes, Command UndeadB, Dodge, Flyby Attack, Improved Initiative, Mobility, Power Attack, Spring Attack, Weapon Finesse\nSkills Acrobatics +30, Bluff +20, Fly +30, Knowledge (planes) +20, Perception +20, Stealth +22\nSQ death throes\n\nSPECIAL ABILITIES\n\nDeath Throes (Su)\n\nIf the negative energy elemental is killed, it explodes in a flash of swirling negative energy that affects all within a 50-foot radius. Living creatures within the area take 8d8 points of negative energy damage (Reflex DC 22 for half). Negative energy-based creatures and undead gain hit points equal to the amount of damage the death throes would have otherwise dealt (see Negative Energy Attacks regarding temporary hit points and doubling hit points). The save DC is Constitution-based.\n\nNegative Energy Attacks (Ex)\n\nThe elemental’s slam attacks are infused with negative energy. This deals extra damage to a living target but heals undead (and other negative energy-based creatures) by the same amount. Undead and negative energy creatures can be healed up to their normal hit point total, gaining extra hit points as temporary hit points. These temporary hit points disappear 1 minute later. Creatures healed to twice their normal hit points must make a DC 22 Fortitude save or explode in a burst of negative energy (no damage to others). The save DC is Constitution-based.\n\nNegative Energy Burst (Su)\n\nA negative energy elemental can channel negative energy in a 30-foot radius as a 17th-level cleric. The elemental can use this ability a number of times per day equal to its Constitution modifier. The save DC is Constitution-based.\n\nECOLOGY\n\nNot given in source material.\n\nPathfinder Module: The Witchwar Legacy . © 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/76323118233d1fd9.json",
+    "web": "https://codex.pipsprojects.com/#/e/76323118233d1fd9"
+  },
+  "license": "OGL 1.0a"
+}

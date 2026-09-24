@@ -1,0 +1,28 @@
+{
+  "id": "3fc0d5230b177356",
+  "name": "Word of Critical Healing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 4,
+      "oracle": 4,
+      "druid": 5,
+      "inquisitor": 4,
+      "shaman": 4,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level bard 4, cleric/oracle 4, druid 5, inquisitor 4, shaman 4, witch 5\n\nThis spell functions like word of light healing except except that it cures 4d4 points of damage plus 1 per two caster level (maximum +10).\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3fc0d5230b177356.json",
+    "web": "https://codex.pipsprojects.com/#/e/3fc0d5230b177356"
+  },
+  "license": "OGL 1.0a"
+}

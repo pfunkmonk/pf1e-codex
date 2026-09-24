@@ -1,0 +1,36 @@
+{
+  "id": "7e3d1238a8f5f49f",
+  "name": "Indifference",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 1,
+      "antipaladin": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "lathspell": 1,
+      "legendary ninja": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level adept 1, antipaladin 1, bard 1, inquisitor 1, lathspell 1, legendary ninja 1, mesmerist 1, psychic 1, shaman 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTargets one creature, and a target creature\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill a target creature with feelings of indifference toward a secondary target creature. The target’s attitude is shifted to indifferent and cannot be shifted by Diplomacy and they are immune to spells like 25 charm person or spite of the same spell level or lower.\n\nAdditionally, the target cannot be treated as an ally or enemy for the purposes of spell or ability targeting and cannot provide flanking, teamwork feat benefits, or similar benefits to any other creature.\n\nIf the affected creature was hostile to the secondary target, they gain a +5 bonus on its saving throw. They will no longer be hostile on a failure but if attacked, will defend themselves and attack their attacker, though still feeling indifference while doing so.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7e3d1238a8f5f49f.json",
+    "web": "https://codex.pipsprojects.com/#/e/7e3d1238a8f5f49f"
+  },
+  "license": "OGL 1.0a"
+}

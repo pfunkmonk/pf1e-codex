@@ -1,0 +1,28 @@
+{
+  "id": "1261564cff9b13c0",
+  "name": "Telepathy Block",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "fateshaper": 4,
+      "inquisitor": 5,
+      "psychic": 4,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level bard 5, cleric/oracle 5, fateshaper 4, inquisitor 5, psychic 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRangeclose (25 ft. + 5 ft./2 levels)\nArea 80-ft. emanation\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe area centered on the designated point in space, object, or creature blocks all telepathic communication. If the spell is cast upon an object or creature, the center point of the emanation moves.\n\nOtherwise it is stationary.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1261564cff9b13c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/1261564cff9b13c0"
+  },
+  "license": "OGL 1.0a"
+}

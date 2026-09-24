@@ -1,0 +1,29 @@
+{
+  "id": "63fae965386d5958",
+  "name": "Vortex of Shadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "death mage": 7,
+      "wizard": 7,
+      "summoner": 6,
+      "unchained summoner": 6
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration [shadow]; Level death mage 7, sorcerer/wizard 7, summoner 6, unchained summoner 6\n\nCAST\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level.\n\nEffect shadowy whirlwind\nDuration 1 round, see text\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a violent whirlwind of shadowy material. It occupies the space of a huge creature and on the turn it is summoned, it can move 60 feet in a straight line. Any creature that is in the space of the whirlwind when it is summoned or anywhere along its movement must make two saving throws.\n\nFirst, the target must make a Fortitude save or take 1d6 cold damage per caster level (maximum 15d6). A successful saving throw halves this damage.\n\nSecond, the target must make a Reflex save or be thrown 1d4 x 10 feet in a random direction, taking 1d6 damage per 10 feet traveled. If the save is failed by 10 or more, they are also prone. A successful Reflex save moves the creature 5 feet in a random direction and no damage is taken.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63fae965386d5958.json",
+    "web": "https://codex.pipsprojects.com/#/e/63fae965386d5958"
+  },
+  "license": "OGL 1.0a"
+}

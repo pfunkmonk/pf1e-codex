@@ -1,0 +1,29 @@
+{
+  "id": "5de7e0c0124cefb3",
+  "name": "Eyes Sewn Shut",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "bloodrager": 1,
+      "oracle": 2,
+      "lathspell": 1,
+      "shaman": 2,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level antipaladin 1, bloodrager 1, cleric/oracle 2, lathspell 1, shaman 2, sorcerer/wizard 1, witch 1\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corporeal creature\nDuration permanent; see text\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou complete the spell and the target’s eyes are fused shut. On a failed saving throw the target is blinded.\n\nThis blinding is permanent unless the target forces their eyes open with a DC 10 Strength check, a full-round DC 15 Heal check is performed on the target, or the target cuts their eyes open. The Strength check or cutting option deals 1d6 damage and 1 bleed damage.\n\nUsing the Heal check option still deals 1d6 damage but negates the bleed.\n\nThis spell is not affected by remove blindness but can be removed by heal, dispel magic, limited wish, wish, or miracle. This spell cannot target creatures without eyes or flesh with which to cover their eyes.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5de7e0c0124cefb3.json",
+    "web": "https://codex.pipsprojects.com/#/e/5de7e0c0124cefb3"
+  },
+  "license": "OGL 1.0a"
+}

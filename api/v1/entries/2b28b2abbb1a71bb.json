@@ -1,0 +1,24 @@
+{
+  "id": "2b28b2abbb1a71bb",
+  "name": "Earth Scar",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "ranger": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level druid 3, ranger 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 60 feet\nArea 60-foot-radius burst\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou let out a pulse of energy that resonates and breaks up or solidifies earthen terrain. This spell removes any natural earthen difficult terrain except for such terrain caused by slopes or inclines. This spell dispels or removes difficult terrain created by spells such as spike stones, stone call or earth tremor. Natural terrain is solidified and smoothed out. This spell has no effect on plants, vegetation, creatures using spells or abilities to traverse rock or stone like earth glide, burrowing creatures, larger structures like walls or pillars, holes except to prevent them from causing difficult terrain, or manufactured difficult terrain like caltrops or spikes.\n\nAdditionally, any earth subtype creature within the radius of the spell takes 2d8 points of sonic damage. A successful Fortitude save halves this damage.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b28b2abbb1a71bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b28b2abbb1a71bb"
+  },
+  "license": "OGL 1.0a"
+}

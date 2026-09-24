@@ -1,0 +1,28 @@
+{
+  "id": "79dcb1e3329c84fd",
+  "name": "Early Warning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School divination [stronghold]; Level inquisitor 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a silver hourglass filled with diamond dust worth 500 gp)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hour/level\n\nDESCRIPTION\n\nYou gain a precognitive sense that presages the appearance of creatures teleporting into your stronghold, as long as they appear within 5 feet per level of your location. This distance is measured directly from you and does not require line of sight or line of effect, and it reveals to you the size, number, and location of creature arriving by teleportation effects, even if their arrival in your stronghold is unintentional (such as an errant teleport or plane shift). When your early warning is triggered, you cannot be surprised by the teleporting creatures and are not flat-footed against them before you act in combat (though you can be rendered flat-footed by other effects or abilities). Your premonition enables you to take 1 round of actions before they arrive. If allies are present, you can quickly inform them of what is coming in general terms, granting them a +4 bonus on initiative checks when the teleporting creatures arrive, but they do not gain the other benefits of the early warning.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79dcb1e3329c84fd.json",
+    "web": "https://codex.pipsprojects.com/#/e/79dcb1e3329c84fd"
+  },
+  "license": "OGL 1.0a"
+}

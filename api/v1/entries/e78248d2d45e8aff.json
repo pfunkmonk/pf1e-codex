@@ -1,0 +1,23 @@
+{
+  "id": "e78248d2d45e8aff",
+  "name": "Create Dark Creeper",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 5; sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 hr.\nComponents V, S, M/DF (rags treated with unguents worth 2,500 gp per dark creeper created)\n\nEFFECT\n\nRange touch\nTarget dead creature touched\nDuration instantaneous\nSaving Throw Will save; Spell Resistance yes\n\nDESCRIPTION\n\nWith this spell, you bring a single dark creeper or more to life from a creature’s corpse, as long as the creature has been dead for a week or less. After wrapping the corpse in the treated rags and performing a macabre ritual (which requires concentration for 30 consecutive min.), the creature melts and reforms into a number of dark creepers depending on the creature’s size.\n\nA Small creature transforms into one dark creeper, a Medium creature becomes two dark creepers, and each size increase adds an additional dark creeper, to a maximum of six. The newly created dark creepers are typical representatives of the race, and they carry no afflictions, illnesses, or memories from the former creature. When created, the dark creepers attack your opponents to the best of their ability. If you can communicate with them, you can direct them not to attack, to attack particular enemies, or to perform other actions.\n\nThe corpse receives a Will save with the same modifier the creature had in life to resist this magic. As time passes, though, the former inhabitant of the corpse loses its connection to the body. For every day that passes from the creature’s death, the Will save DC increases by 1. Once the spell has been successfully cast, the only way to restore the original creature to its former state is through a miracle or wish, regardless of whether the dark stalkers created from the corpse still lives.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e78248d2d45e8aff.json",
+    "web": "https://codex.pipsprojects.com/#/e/e78248d2d45e8aff"
+  },
+  "license": "OGL 1.0a"
+}

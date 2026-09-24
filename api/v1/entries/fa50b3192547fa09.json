@@ -1,0 +1,25 @@
+{
+  "id": "fa50b3192547fa09",
+  "name": "Ghostly Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 3,
+      "elven archer": 2,
+      "ranger": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 3, elven archer 2, ranger 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (an arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget arrows or bolts touched\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nArrows you fire while this spell is in effect are imbued with the spiritual power of the forest; they become misty and insubstantial while in flight. They return to normal when they strike a foe’s corporeal body. Arrows that miss are lost.\n\nAttacking with ghostly arrows requires a successful touch attack. The arrows ignore any AC bonuses for armor or cover from intervening creatures or terrain.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa50b3192547fa09.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa50b3192547fa09"
+  },
+  "license": "OGL 1.0a"
+}

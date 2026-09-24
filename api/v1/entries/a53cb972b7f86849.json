@@ -1,0 +1,23 @@
+{
+  "id": "a53cb972b7f86849",
+  "name": "Chronal Healing, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, M (a piece of amber worth at least 4,000 gp containing an insect carved into the shape of a sundial)\n\nEFFECT\n\nRange touch\nTarget living or dead creature touched\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nGreater chronal healing reaches back through time, creates a duplicate of the target, and pulls it forward, displacing the current target. The caster is able to reach back in time up to 1 round/2 levels to the point where the target is least injured; if the target suffered injury or death before this time, the spell fails. The target must then make a Fortitude save (DC 10 + number of rounds displaced) or remain unconscious for a number of days equal to 10 minus his Constitution modifier. At the end of that time, he is restored to life and health as described below.\n\nIf the Fortitude save succeeds, the target is then restored to the same state as when she moved forward in time. In addition, the target is stunned for a number of rounds equal to the number of rounds she was displaced in time. Characters restored to life in this manner gain one permanent negative level (or suffer 1 point of Constitution drain if the subject was 1st level). The target loses all memory of events that occurred between the round she was displaced in time and the round the spell is cast.\n\nChronal Healing, Lesser\n\nSchool transmutation; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, M (small golden sundial worth at least 100 gp)\n\nEFFECT\n\nRange touch\nTarget a single living creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell rapidly advances time for the body of one individual, allowing him to heal as if he had rested for 1 day/2 caster levels. The caster may reduce the number of days of the effect if desired. This heals 1 point of temporary ability damage/day equivalent and hit points equal to the caster’s level/day equivalent. The spell’s major drawback is that the time-healed body may suffer from hunger, thirst, or fatigue as a result of being sent forward in time. If the subject is healed a number of days greater than his Constitution bonus, he suffers the effects of hunger and thirst and be fatigued (see “Starvation and Thirst”).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a53cb972b7f86849.json",
+    "web": "https://codex.pipsprojects.com/#/e/a53cb972b7f86849"
+  },
+  "license": "OGL 1.0a"
+}

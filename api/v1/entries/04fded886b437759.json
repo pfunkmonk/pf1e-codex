@@ -1,0 +1,25 @@
+{
+  "id": "04fded886b437759",
+  "name": "Blind Seer’s Madness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level magus 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 round\nComponents S\n\nEFFECT\n\nRange 5 ft.\nArea 5-ft.-radius emanation, centered on you\nDuration 1 min./level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou emanate vibrations that draw the eyes of nearby creatures toward a strange, unknown dimension that exists behind the fabric of reality. All living creatures that begin their turn or end their movement within 5 ft. of you must make a Will save, even if they have previously made a successful save against the effect.\n\nCreatures that fail any Will saves required by this spell are paralyzed, fascinated, and blinded. Their eyes vanish from front to back, leaving empty eye sockets as they turn their gaze to the maddening geometry of the alternate dimension. Neither allies nor potential threats can shake a victim free of the spell’s effects. Taking any amount of damage ends this spell and its effects.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04fded886b437759.json",
+    "web": "https://codex.pipsprojects.com/#/e/04fded886b437759"
+  },
+  "license": "OGL 1.0a"
+}

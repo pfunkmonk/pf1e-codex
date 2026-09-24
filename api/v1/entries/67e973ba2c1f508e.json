@@ -1,0 +1,28 @@
+{
+  "id": "67e973ba2c1f508e",
+  "name": "Deflect Breath Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "warpriest": 3,
+      "hunter": 3,
+      "magus": 2,
+      "ranger": 3,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level arcanist 2, cleric/oracle/warpriest 3, druid/hunter 3, magus 2, ranger 3, sorcerer/wizard 2\n\nCASTING\n\nCasting Time immediate action\nComponents S\n\nEFFECT\n\nRange special\nArea special\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nNote: This spell was designed to be used by dragons, thus it may alter or replace core dragon abilities (like frightful presence etc.)\n\nIn a last ditch attempt, you pit your magic against the full force of a foe’s breath weapon.\n\nDepending on the type of breath weapon, you can attempt the following:\n\nCone: You create a 15-foot long cone of force that you can place anywhere within 15 feet. All those that are within the cone’s area of effect gain a +8 bonus on their Reflex saves to evade the breath weapon’s effect.\nLine: You attempt to deflect the line away by creating an angled wall of force 5 feet in front of you. The angled wall grants you a +10 bonus on your Reflex save. If you succeed on your Reflex save against the breath weapon you deflect the line either to the left or right of you (your choice) at a 45 degree angle, possibly causing it to hit other targets, who must make Reflex saves as normal for the breath weapon.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67e973ba2c1f508e.json",
+    "web": "https://codex.pipsprojects.com/#/e/67e973ba2c1f508e"
+  },
+  "license": "OGL 1.0a"
+}

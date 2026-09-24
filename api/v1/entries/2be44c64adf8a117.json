@@ -1,0 +1,27 @@
+{
+  "id": "2be44c64adf8a117",
+  "name": "Earthen Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [earth]; Level druid 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\nArea 5 ft. line, 30 ft. long\nDuration instantaneous\nSaving Throw Reflex (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou strike the earth with enough magical force to send a wave through the ground away from you in a straight line. The 5-foot-wide line extends as far as 30 feet, potentially knocking anyone in the area off their feet.\n\nCreatures within the area take 5d6 points of physical damage from the flying rock and soil and must succeed at a Reflex save to remain standing.\n\nThose that fail their save are knocked prone.\n\nCreatures with the earth subtype are not knocked prone by this spell and take only half damage. This spell can be cast only in an area of natural stone or earth; it does not function on worked stone.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2be44c64adf8a117.json",
+    "web": "https://codex.pipsprojects.com/#/e/2be44c64adf8a117"
+  },
+  "license": "OGL 1.0a"
+}

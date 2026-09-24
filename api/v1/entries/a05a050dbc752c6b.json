@@ -1,0 +1,26 @@
+{
+  "id": "a05a050dbc752c6b",
+  "name": "Animal Contagion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 3,
+      "shaman": 3,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy (evil); Level bard 3, druid/shaman 3, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nTarget one creature\nRange close (12 ft. + 2 ft./4 levels)\nDuration 2 hrs. + 1 hr./4 levels\nSaving Throw Will (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou compel a Tiny animal to go to a spot you designate within one day’s travel. Once it arrives at its destination, the creature remains there for the remaining duration of the spell. If the animal cannot reach its destination before the spell’s duration ends, it travels in the destination’s direction but travels randomly once the spell ends.\n\nAny humanoid creature that comes within 30 ft. of the animal during the spell’s duration must make a Fortitude save or contract one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, mindfire, red ache, shakes, or slimy doom (you choose which at the time of casting). The disease sets in immediately; there is no onset period, but only one save is required to cure the disease. All other disease effects proceed normally.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a05a050dbc752c6b.json",
+    "web": "https://codex.pipsprojects.com/#/e/a05a050dbc752c6b"
+  },
+  "license": "OGL 1.0a"
+}

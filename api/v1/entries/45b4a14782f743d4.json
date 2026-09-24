@@ -1,0 +1,25 @@
+{
+  "id": "45b4a14782f743d4",
+  "name": "Acidic Grease",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 6,
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level bard 6, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nDuration 1 min./level\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou conjure a solid surface (up to a 40-ft. square) of slippery, highly acidic grease that can make creatures in the area slip and burn their flesh. Any creatures caught in the area must make a Reflex save or fall prone. a creature can walk within or through the area at half normal speed with a DC 10 Acrobatics check. Failure means the creature can’t move that round (and must then make a Reflex save or fall), while failure by 5 or more means the creature falls (see the Acrobatics skill for details). Immobile creatures do not need to make this check and are not considered flat-footed.\n\nCreatures that fall in the area and unattended objects touching the grease take 1d6/caster level hp acid damage (maximum 15d6). On your turn in each of the next 2 rounds, creatures and objects that have taken acid damage take an additional 1d6 hp acid damage per 2 caster levels (maximum 8d6) unless the acid is neutralized, dispelled, or washed away.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45b4a14782f743d4.json",
+    "web": "https://codex.pipsprojects.com/#/e/45b4a14782f743d4"
+  },
+  "license": "OGL 1.0a"
+}

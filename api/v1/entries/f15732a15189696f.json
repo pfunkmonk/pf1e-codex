@@ -1,0 +1,23 @@
+{
+  "id": "f15732a15189696f",
+  "name": "Hunter Seeker Drones",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 6
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation; Level machinesmith 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (three small clockwork devices shaped like an axle surrounded by three to five scythelike blades)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget three small clockwork devices shaped like an axle surrounded by three to five scythelike blades\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as blade drone, except as noted here. Three separate Drones are activated by the spell, which can each target a different enemy. In addition, upon casting the spell, the caster may designate one of three effects to apply to all three drones:\n\nEach drone is invisible as if affected by a greater invisibility spell at the caster’s caster level.\nEach drone can be commanded to explode individually as a swift action, dealing 5d6 points of slashing and fire damage, Reflex save for half. This destroys the drone.\nEach drone also deals force damage. As a force effect it can damage incorporeal creatures without the normal reduction in damage.\n\nClasses of NeoExodus: Machinesmith Copyright 2012, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f15732a15189696f.json",
+    "web": "https://codex.pipsprojects.com/#/e/f15732a15189696f"
+  },
+  "license": "OGL 1.0a"
+}

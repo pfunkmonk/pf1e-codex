@@ -1,0 +1,31 @@
+{
+  "id": "f0e5106d013da39e",
+  "name": "Sword of Storms",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 3,
+      "bloodrager": 2,
+      "hunter": 2,
+      "magus": 3,
+      "paladin": 3,
+      "ranger": 2
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Sword of Storms\n\nSchool transmutation [air]; Level antipaladin 3, bloodrager 2, hunter 2, magus 3, paladin 3, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a butterfly’s wing)\n\nEFFECT\n\nRange touch\nTarget bludgeoning or slashing melee weapon touched\nDuration 1 minute/level (see text)\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou infuse the target weapon with a hint of elemental storms, turning the wind of its passing into a whirling gust. Once per round when you miss with an attack using the target weapon, it generates a blast of wind to bull rush the creature, using your caster level as its base attack bonus.\n\nAs a full-round action, you can spin the weapon in an arc around you, allowing you to use this bull rush against each creature you threaten with the weapon. In this case, each attack is rolled separately. Using the weapon in this way expends a full minute of the spell’s duration.\n\nEffects that increase your threatened area but not the reach of your weapon (such as Combat Patrol) do not apply.\n\nFor the spell’s duration, any time you make a full attack, all physical ranged attacks made against you before the beginning of your next turn suffer penalties as though the wind were two steps stronger.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f0e5106d013da39e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f0e5106d013da39e"
+  },
+  "license": "OGL 1.0a"
+}

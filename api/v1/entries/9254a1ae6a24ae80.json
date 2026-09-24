@@ -1,0 +1,36 @@
+{
+  "id": "9254a1ae6a24ae80",
+  "name": "Blinding Nightmare Hex",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 3,
+      "oracle": 2,
+      "death mage": 3,
+      "lathspell": 1,
+      "shaman": 3,
+      "wizard": 3,
+      "spiritualist": 2,
+      "witch": 2
+    },
+    "desc": [
+      "curse",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse, fear, mind-affecting]; Level antipaladin 2, bloodrager 3, cleric/oracle 2, death mage 3, lathspell 1, shaman 3, sorcerer/wizard 3, spiritualist 2, witch 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 day/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou place a curse on the target plaguing them with terrors when they are in the darkness or cannot see. If the target fails their initial Will save they are cursed. Until the duration expires or the spell is removed by any spell that can dispel a curse, the target is shaken while unable to see, or in dim light or darker. If the target enters or begins their turn in an area of dim light, they get a Will save to negate the shaken condition for 1 minute. There is no save for when the target is blinded or in darkness. Ability to see in the dark by any means does not negate the shaken condition.\n\nAdditionally, these terrors make it difficult to sleep.\n\nAnytime the target attempts to sleep, they must make another Will save or awaken Fatigued until they get a restful night’s sleep.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9254a1ae6a24ae80.json",
+    "web": "https://codex.pipsprojects.com/#/e/9254a1ae6a24ae80"
+  },
+  "license": "OGL 1.0a"
+}

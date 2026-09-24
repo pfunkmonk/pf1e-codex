@@ -1,0 +1,26 @@
+{
+  "id": "91604afe5ebd2d62",
+  "name": "Analyze Ancestry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "paladin": 2,
+      "ranger": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School divination; Level cleric/oracle 3, druid 3, paladin 2, ranger 2\n\nCASTING\n\nCasting Time 24 hours\nComponents V, S, M (rare herbs and oils worth 100 gp), DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nThe target creature’s complete genealogy, going back ten generations, is instantly revealed to you. You know the name, race, and other identifying characteristics of each of the individual’s ancestors.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/91604afe5ebd2d62.json",
+    "web": "https://codex.pipsprojects.com/#/e/91604afe5ebd2d62"
+  },
+  "license": "OGL 1.0a"
+}

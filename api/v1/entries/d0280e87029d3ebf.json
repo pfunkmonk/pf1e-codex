@@ -1,0 +1,27 @@
+{
+  "id": "d0280e87029d3ebf",
+  "name": "Needle Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [metal]; Level magus 1, sorcerer/wizard 1\n\nCasting Time 1 standard action\n\nComponents V, S, M (a metal needle)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget up to 5 targets\n\nDuration instantaneous\n\nSaving Throw none; Spell Resistance yes\n\nMetal: Spells with this descriptor include those that directly create, utilize, or manipulate metal in some manner or conjure creatures composed of metal. Such spells are considered to belong to the Metal element (for geomancers) and the metal elemental school (for metal elementalists).\n\nYou toss up the needle and it splits into a multitude of needles that rain down on targets. You make a ranged touch attack against up to 5 targets in range, with separate rolls for each target. The spell deals a total of 1d4 magic piercing per caster level, to a maximum of 5d4. The damage is split between each of the targets in 1d4 intervals. So you cannot target more creatures than you have d4s of damage.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d0280e87029d3ebf.json",
+    "web": "https://codex.pipsprojects.com/#/e/d0280e87029d3ebf"
+  },
+  "license": "OGL 1.0a"
+}

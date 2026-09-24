@@ -1,0 +1,28 @@
+{
+  "id": "9f8f78938f26f6f5",
+  "name": "Volatile Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [see text]; Level bloodrager 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius spread\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nYou launch a small bead of energy that flares at one moment and crackles with frost at another. The bead of energy explodes dealing 1d8 plus 1d6 damage per caster level after the first (maximum 9d6) to every creature in the area. The damage dealt by the spell is random.\n\nRoll a d8 and consult the table under the volatile bolt spell.\n\nLike the volatile bolt spell, you may choose the damage type by using the result of the d8 damage die or the d8 rolled for the table. If both results are the same, the radius of the burst is increased by 10 feet.\n\nThe positive and negative energy rules are the same as the volatile bolt spell. Unattended objects also take this damage. The explosion creates almost no pressure.\n\nYou point your finger and determine the range (distance and height) at which the spell is to burst. Unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, the spell blossoms into the volatile burst at the designated point. An early impact results in an early detonation. If you attempt to send the bead through a narrow passage, such as through an arrow slit, you must “hit” the opening with a ranged touch attack, or else the bead strikes the barrier and detonates prematurely.\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f8f78938f26f6f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f8f78938f26f6f5"
+  },
+  "license": "OGL 1.0a"
+}

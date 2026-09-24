@@ -1,0 +1,31 @@
+{
+  "id": "8dbb2f87cf48f6c6",
+  "name": "Where The Light Dies",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 5,
+      "death mage": 5,
+      "inquisitor": 5,
+      "lathspell": 4,
+      "legendary ninja": 4
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [darkness]; Level antipaladin 4, cleric/oracle 5, death mage 5, inquisitor 5, lathspell 4, legendary ninja 4, shaman .\n\nDESCRIPTION\n\nThis spell functions as deeper darkness but any light source, magical or otherwise, is snuffed out. All non-magical light sources are extinguished, and all magical light sources are automatically subject to a targeted dispel check as per the spell dispel magic. This includes any such light source brought into the area of darkness.\n\nAdditionally, the darkness is so deep even creatures with the see in darkness ability can only see 10 feet around them and anything more than 5 feet away has concealment.\n\nThis spell does not stack with itself or other darkness spells. Where the light dies can be used to counter or dispel any light spell of equal or lower spell level.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8dbb2f87cf48f6c6.json",
+    "web": "https://codex.pipsprojects.com/#/e/8dbb2f87cf48f6c6"
+  },
+  "license": "OGL 1.0a"
+}

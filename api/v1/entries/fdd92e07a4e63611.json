@@ -1,0 +1,33 @@
+{
+  "id": "fdd92e07a4e63611",
+  "name": "Sleep Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "magus": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, magus 2, mesmerist 2, occultist 2, psychic 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (sand), F (a dart)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect one magical arrow\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nAn arrow, glowing like a star at night, springs from your hand and speeds to its target. You must succeed on a ranged touch attack to affect the target. If hit, the target must make a Will save or fall asleep as per the sleep spell for 1 minute/level, with no HD limit. On a successful saving throw, the target is fatigued for 1 minute.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fdd92e07a4e63611.json",
+    "web": "https://codex.pipsprojects.com/#/e/fdd92e07a4e63611"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "786c4ee37a4d9cc6",
+  "name": "Desecrated Stronghold",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 6
+    },
+    "desc": [
+      "evil",
+      "stronghold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [evil, stronghold]; Level antipaladin 4, cleric 6\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (four vials of unholy water), DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea see text\nDuration 1 day/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as desecrate, but it blesses your entire stronghold with negative energy. A desecrated stronghold automatically dispels any consecrate spells within your stronghold, and no new consecrate spell can be cast there while the desecrated stronghold persists unless the consecrate spell’s caster level exceeds yours, in which case the consecrate caster must attempt a caster level check (DC 15 + your caster level) or the spell fails. Even if successfully cast, the consecrate spell’s duration is halved.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/786c4ee37a4d9cc6.json",
+    "web": "https://codex.pipsprojects.com/#/e/786c4ee37a4d9cc6"
+  },
+  "license": "OGL 1.0a"
+}

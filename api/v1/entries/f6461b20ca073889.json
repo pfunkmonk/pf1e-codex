@@ -1,0 +1,33 @@
+{
+  "id": "f6461b20ca073889",
+  "name": "Spiritual Agony, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "lathspell": 1,
+      "occultist": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [pain]; Level adept 2, cleric/oracle 2, inquisitor 2, lathspell 1, occultist 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration see text\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou instill a divinely-empowered creature with pain.\n\nThe target must be a creature with class levels in a class that grants divine spellcasting or has supernatural abilities that draw their power from a divine source. It also affects aligned outsiders. The target takes 4d8 nonlethal damage and is nauseated for 1 round, then sickened for 1 minute. A successful saving throw halves the damage and reduces the condition to sickened for 1d4 rounds.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f6461b20ca073889.json",
+    "web": "https://codex.pipsprojects.com/#/e/f6461b20ca073889"
+  },
+  "license": "OGL 1.0a"
+}

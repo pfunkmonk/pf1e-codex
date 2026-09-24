@@ -1,0 +1,30 @@
+{
+  "id": "8b547ea18247f1c7",
+  "name": "Quick Breath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 1,
+      "druid": 1,
+      "legendary ninja": 1,
+      "magus": 1,
+      "ranger": 1
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation) [air]; Level bloodrager 1, druid 1, legendary ninja 1, magus 1, ranger 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level; see text\n\nDESCRIPTION\n\nYou fill your lungs instantly with fresh air, and this air supply is continuously refreshed so that you do not need to breathe. When the spell expires, you are treated as if you had just taken a full breath of air to being holding your breath. If you cast this spell when you are exposed to an inhaled poison, you get a +4 bonus on your saving throw to resist that poison. If you cast it when affected by a suffocate spell, it grants you a +4 bonus on your saving throw against that spell’s effects but does not provide immunity to it.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8b547ea18247f1c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/8b547ea18247f1c7"
+  },
+  "license": "OGL 1.0a"
+}

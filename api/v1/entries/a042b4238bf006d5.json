@@ -1,0 +1,23 @@
+{
+  "id": "a042b4238bf006d5",
+  "name": "Dedicated Masses",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 8
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 30 ft.\nTarget one person, humanoid or giant creature/level in a 30-ft.-radius burst centered on you\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell is similar to dedicated shield, except that everyone within range provides protection. When the spell is cast, all eligible targets (humanoids or giants) within the target area who fail their saving throws become linked to you. (Willing targets may choose to forgo a save, of course.) Those who subsequently enter the spell’s area of effect are not targeted by the spell; only those within 30 feet of you at the time you cast the spell are affected.\n\nAny hit point damage done to you is divided evenly (rounding down) among all affected targets within range. If anyone in the crowd is reduced to 0 hit points or below (whether from the absorbed damage, from wounds of their own, or from some combination of the two), they are released from the spell effects and subsequent damage to you is divided among the survivors. If all subjects linked to you at the time of casting are reduced to 0 hit points or move beyond 30 feet of you, the spell ends.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a042b4238bf006d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/a042b4238bf006d5"
+  },
+  "license": "OGL 1.0a"
+}

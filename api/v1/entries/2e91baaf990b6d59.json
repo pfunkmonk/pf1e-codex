@@ -1,0 +1,32 @@
+{
+  "id": "2e91baaf990b6d59",
+  "name": "Expectation of Failure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "lathspell": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, cleric/oracle 1, lathspell 1, mesmerist 1, psychic 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bit of rat fur)\n\nEFFECT\n\nRange 50 ft.\nTarget enemies within a 50-ft. burst centered on the caster\nDuration 1 minute/level or until discharged\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nEach affected creature is filled with the potential for profound failure. If the creature is subject to a penalty from a fear or despair effect, the caster may discharge the spell to double the penalty on one roll made by the subject before the roll is made. Alternatively, the caster may discharge the spell to double the AC penalty (if applicable) against a single attack.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e91baaf990b6d59.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e91baaf990b6d59"
+  },
+  "license": "OGL 1.0a"
+}

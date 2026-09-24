@@ -21,10 +21,10 @@ td.n{text-align:right;font-variant-numeric:tabular-nums}.mut{color:var(--mut)}
 <main>
 <p class="mut"><a href="/">&larr; PF1e Codex</a></p>
 <h1>PF1e Codex API</h1>
-<p>Read-only JSON for all <strong>29,928</strong> entries in the Codex &mdash;
+<p>Read-only JSON for all <strong>37,479</strong> entries in the Codex &mdash;
 classes, spells, feats, monsters, items, rules and more. No key, no sign-up, and CORS is open, so it works
 from a browser as well as a script.</p>
-<p class="mut">Data release <code>79</code> &middot; base URL <code>https://codex.pipsprojects.com/api/v1</code></p>
+<p class="mut">Data release <code>80</code> &middot; base URL <code>https://codex.pipsprojects.com/api/v1</code></p>
 
 <h2>Endpoints</h2>
 <div class="wrap"><table>
@@ -38,19 +38,19 @@ from a browser as well as a script.</p>
 <h2>Buckets</h2>
 <div class="wrap"><table>
 <tr><th>bucket</th><th>What</th><th class="n">Entries</th><th>List</th></tr>
-<tr><td><code>archetypes</code></td><td>Archetypes</td><td class="n">1,449</td><td><a href="/api/v1/archetypes.json">archetypes.json</a></td></tr>
-<tr><td><code>classes</code></td><td>Classes</td><td class="n">286</td><td><a href="/api/v1/classes.json">classes.json</a></td></tr>
+<tr><td><code>archetypes</code></td><td>Archetypes</td><td class="n">1,615</td><td><a href="/api/v1/archetypes.json">archetypes.json</a></td></tr>
+<tr><td><code>classes</code></td><td>Classes</td><td class="n">325</td><td><a href="/api/v1/classes.json">classes.json</a></td></tr>
 <tr><td><code>deities</code></td><td>Deities</td><td class="n">463</td><td><a href="/api/v1/deities.json">deities.json</a></td></tr>
-<tr><td><code>feats</code></td><td>Feats</td><td class="n">3,890</td><td><a href="/api/v1/feats.json">feats.json</a></td></tr>
+<tr><td><code>feats</code></td><td>Feats</td><td class="n">4,414</td><td><a href="/api/v1/feats.json">feats.json</a></td></tr>
 <tr><td><code>hazards</code></td><td>Afflictions &amp; Hazards</td><td class="n">322</td><td><a href="/api/v1/hazards.json">hazards.json</a></td></tr>
-<tr><td><code>items</code></td><td>Equipment &amp; Items</td><td class="n">6,819</td><td><a href="/api/v1/items.json">items.json</a></td></tr>
-<tr><td><code>monsters</code></td><td>Monsters</td><td class="n">4,185</td><td><a href="/api/v1/monsters.json">monsters.json</a></td></tr>
+<tr><td><code>items</code></td><td>Equipment &amp; Items</td><td class="n">7,024</td><td><a href="/api/v1/items.json">items.json</a></td></tr>
+<tr><td><code>monsters</code></td><td>Monsters</td><td class="n">7,038</td><td><a href="/api/v1/monsters.json">monsters.json</a></td></tr>
 <tr><td><code>npcs</code></td><td>NPCs</td><td class="n">487</td><td><a href="/api/v1/npcs.json">npcs.json</a></td></tr>
-<tr><td><code>options</code></td><td>Class Options</td><td class="n">3,121</td><td><a href="/api/v1/options.json">options.json</a></td></tr>
-<tr><td><code>races</code></td><td>Races</td><td class="n">182</td><td><a href="/api/v1/races.json">races.json</a></td></tr>
-<tr><td><code>rules</code></td><td>Rules &amp; Skills</td><td class="n">3,218</td><td><a href="/api/v1/rules.json">rules.json</a></td></tr>
-<tr><td><code>spells</code></td><td>Spells</td><td class="n">3,485</td><td><a href="/api/v1/spells.json">spells.json</a></td></tr>
-<tr><td><code>traits</code></td><td>Traits</td><td class="n">2,021</td><td><a href="/api/v1/traits.json">traits.json</a></td></tr>
+<tr><td><code>options</code></td><td>Class Options</td><td class="n">3,381</td><td><a href="/api/v1/options.json">options.json</a></td></tr>
+<tr><td><code>races</code></td><td>Races</td><td class="n">254</td><td><a href="/api/v1/races.json">races.json</a></td></tr>
+<tr><td><code>rules</code></td><td>Rules &amp; Skills</td><td class="n">3,758</td><td><a href="/api/v1/rules.json">rules.json</a></td></tr>
+<tr><td><code>spells</code></td><td>Spells</td><td class="n">6,342</td><td><a href="/api/v1/spells.json">spells.json</a></td></tr>
+<tr><td><code>traits</code></td><td>Traits</td><td class="n">2,056</td><td><a href="/api/v1/traits.json">traits.json</a></td></tr>
 </table></div>
 
 <h2>Examples</h2>
@@ -112,7 +112,7 @@ Entries with tables &mdash; the Summon Monster spells, class progressions &mdash
 <li><strong>IDs are opaque.</strong> They stay put as long as the underlying data is not rebuilt. Store the id together with the name, and re-resolve through <code>names.json</code> if a lookup ever misses.</li>
 <li><strong>Versioning.</strong> <code>dataVersion</code> changes with every data release. Responses may be cached for a few minutes.</li>
 <li><strong>Same view as the site.</strong> A few scraped index pages the site hides from browse and search are hidden here too.</li>
-<li><strong>Be kind.</strong> It is static files on a CDN, so there is no rate limit &mdash; but bulk-pulling every entry is ~30k requests; fetch the bucket lists and only the entries you need.</li>
+<li><strong>Be kind.</strong> It is static files on a CDN, so there is no rate limit &mdash; but bulk-pulling every entry is ~37k requests; fetch the bucket lists and only the entries you need.</li>
 </ul>
 
 <h2>Licence</h2>

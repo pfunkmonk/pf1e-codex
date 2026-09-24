@@ -1,0 +1,24 @@
+{
+  "id": "597a9ec0f6eba641",
+  "name": "Intensify Death Throes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M/DF (pinch of sulfur)\n\nEFFECT\n\nRange touch\nTarget creature touched; see below\nDuration 1 hr./level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target of this spell must have the death throes abilities. This spell greatly increases the impact of the recipient’s death throes.\n\nIf the spell’s target dies within the spell’s duration, its death throes ability deals double the normal damage (or inflicts an additional 2d6 hp fire damage if the death throes normally deals no damage), increases the range by 10 ft., and adds +2 to the DC for any saves associated with the death throes.\n\nAdditionally, the death throes utterly destroy the target’s body and any gear it carries (magic items receive a Reflex saving throw to avoid destruction, with a DC equal to this spell’s DC.\n\nYou can set this spell to trigger death throes when the target becomes unconscious or unable to move, but you must decide on the conditions when casting the spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/597a9ec0f6eba641.json",
+    "web": "https://codex.pipsprojects.com/#/e/597a9ec0f6eba641"
+  },
+  "license": "OGL 1.0a"
+}

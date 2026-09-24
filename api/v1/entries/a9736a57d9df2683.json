@@ -1,0 +1,29 @@
+{
+  "id": "a9736a57d9df2683",
+  "name": "Aspect of the Four Winds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "shaman": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [air]; Level cleric/oracle 1, druid/shaman 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou take on the seemingly discordant characteristics of the four winds, making your actions swift and unpredictable. You gain one of the following benefits based on the aspect you select at casting:\n\nNorth Aspect: +5 enhancement bonus to speed.\n\nSouth Aspect: +2 competence bonus to Acrobatics and Fly skill checks.\n\nEast Aspect: +1 luck bonus to saving throws.\n\nWest Aspect: +1 luck bonus to ranged attacks.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9736a57d9df2683.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9736a57d9df2683"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3a3d8a07f1d9a10e",
+  "name": "Ray of Desiccation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 5,
+      "magus": 5,
+      "wizard": 5,
+      "summoner": 5,
+      "witch": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy; Level druid 5, magus 5, sorcerer/wizard 5, summoner 5, witch 5\n\nCASTING\n\nCasting Time: 1 standard action\nComponents V, S, M (a sponge)\n\nEFFECT\n\nRange close (25 ft. + 5 ft. /2 levels)\nEffect one or more rays\nDuration 1 minute/level\nSaving Throw Fort half; Spell Resistance yes\n\nDESCRIPTION\n\nYou fire a desiccating ray that drains the water from a target on a successful ranged touch attack roll. You may fire one ray, plus one additional ray for every four levels beyond 9th (to a maximum of three rays at 17th level).\n\nEach ray requires a ranged touch attack to hit. The rays must be fired at different targets and are fired simultaneously. The target suffers 1d6+1/2 levels (max 1d6+5) penalty to its Constitution score. The subject’s Constitution score cannot drop below 1. Oozes and creatures with the aquatic or water subtype are particularly susceptible, suffering 1d6+1/level (max. 1d6+10) penalty to their Constitution score and their Constitution score can drop below 1 (resulting in death).\n\nCreatures with the fire subtype are immune to this spell.\n\n101 Variant Monsters Copyright 2013, Steven D. Russell; Author Steven D. Russell",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a3d8a07f1d9a10e.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a3d8a07f1d9a10e"
+  },
+  "license": "OGL 1.0a"
+}

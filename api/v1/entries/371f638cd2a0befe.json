@@ -1,0 +1,32 @@
+{
+  "id": "371f638cd2a0befe",
+  "name": "Conjure Abyssal Parasite",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "lathspell": 3,
+      "medium": 3,
+      "mesmerist": 3,
+      "psychic": 4,
+      "witch": 4
+    },
+    "desc": [
+      "chaotic",
+      "curse",
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (calling) [chaotic, curse, evil]; Level lathspell 3, medium 3, mesmerist 3, psychic 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of material from the abyss)\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nWith a touch you summon forth a creature from the depths of the abyssal waterways and let it loose in your target. Even on a successful save, the energies unleashed leave the target nauseated for one round.\n\nOn a failed save you deposit the summoned abyssal parasite into your target, dealing 2 damage to their Dexterity and Charisma scores as it twists and deforms a part of their body into its new permanent home. While infested, the target takes a -2 penalty on all saving throws against spells with the evil or curse descriptors as the parasite acts as a magnet for such magics. Whenever the target would be subject to a healing spell or casts a healing spell they take 1 damage to each of their Dexterity and Charisma scores. If the parasite is removed or destroyed the target’s body reverts to normal, leaving no evidence of the parasite aside from any remaining ability damage.\n\nThe parasite, a pitifully weak creature, can be removed in several ways:\n\nA successful Heal check with a DC equal to the spell’s save DC + 10 can remove the parasite and takes 4 hours of work.\nA casting of remove curse destroys the parasite, as does a casting of regeneration.\n\nLesser restoration and its more powerful versions can repair some or all of the damage caused by the parasite, but they do not remove the parasite from the host.\n\nSpells that banish extradimensional creatures will end this spell if cast upon the host.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/371f638cd2a0befe.json",
+    "web": "https://codex.pipsprojects.com/#/e/371f638cd2a0befe"
+  },
+  "license": "OGL 1.0a"
+}

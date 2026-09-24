@@ -1,0 +1,28 @@
+{
+  "id": "244a3b8bd08ac98b",
+  "name": "Merfolk Transformation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "magus": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "summoner": 5,
+      "witch": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (polymorph); Level druid 5, magus 5, shaman 5, sorcerer/wizard 5, summoner 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget touched creature\nDuration permanent\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou merge the target’s legs together into a powerful, finned tail. If the new form would prove fatal to the creature, such as an aquatic creature not in water, the subject gains a +4 bonus on the save.\n\nIf the spell succeeds, the subject gains the aquatic subtype and a swim speed equal to its base speed plus any modifications to its speed from class features (such as fast movement) or feats (such as Fleet). Additionally, the subject’s land speed is reduced to 5 feet and it loses the ability to breathe air.\n\nAny polymorph effects on the target are automatically dispelled when a target fails to resist the effects of merfolk transformation, and as long as merfolk transformation remains in effect, the target cannot use other polymorph spells or effects to assume a new form. Creatures with the shapechanger subtype can continue to assume any form allowed by their change shape ability, but the effects of this polymorph effect continue to apply to whatever form the creature takes; for instance, a kitsune that has failed its saving throw against this spell can use her change shape ability to assume a human form, but her human form has a swim speed, the aquatic subtype, and all other modifications described by merfolk transformation; in effect, this polymorph effect stacks with that of a shapechanger’s change shape ability. Incorporeal or gaseous creatures are immune to merfolk transformation.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/244a3b8bd08ac98b.json",
+    "web": "https://codex.pipsprojects.com/#/e/244a3b8bd08ac98b"
+  },
+  "license": "OGL 1.0a"
+}

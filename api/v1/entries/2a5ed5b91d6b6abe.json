@@ -1,0 +1,24 @@
+{
+  "id": "2a5ed5b91d6b6abe",
+  "name": "Faerie Ring",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 5,
+      "witch": 6
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 5, witch 6\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, F (a natural dirt, wood, or stone altar)\n\nEFFECT\n\nRange touch\nArea 40-ft. radius emanating from the touched point\nDuration 2 hrs./level\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell saturates an area with the primordial power of nature and the fey, making arcane magic and the passage of time quite erratic. Any arcane caster casting a spell within (or into) the faerie ring must roll on the following table to determine how the caster and the spell are affected. Arcane casters who are fey creatures, elves, half-elves, or fey bloodline sorcerers may roll twice and take the more favorable result.\n\nTable 2-3: Faerie Ring Effects\nd%\tEffect\n0-20\tSpell fails and causes the caster 1d6 slashing damage per spell level (Fort negates) as the magical backlash warps the flow of time within their body.\n21-40\tSpell effects appear in slow motion, and are delayed until the start of the casters next turn.\n41-60\tSpell requires at least a full-round action to cast.\n61-80\tSpell is cast as normal.\n81-100\tSpell is automatically quickened (as the feat).\n\nIf a spell has a casting time of more than one full round or this result comes up twice in one round, the spell is instead cast as normal.\n\nIt is dangerous for mortals to dwell within the faerie ring for long periods of time. For every full hour that passes within its bounds, living creatures without the animal, fey, or plant type are aged one year (Fort negates).\n\nThis aging includes all physical signs that time has passed, such as hair and nail growth. If the creature reaches its maximum age, it dies. Treat this as death from old age for the purposes of raise dead or similar effects. The aging caused by faerie ring has no effect on any spell durations or conditions affecting the target.\n\nFaerie ring can be made permanent with a permanency spell (minimum caster level 13, cost 12,500 gp).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a5ed5b91d6b6abe.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a5ed5b91d6b6abe"
+  },
+  "license": "OGL 1.0a"
+}

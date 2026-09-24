@@ -1,0 +1,29 @@
+{
+  "id": "45a827d161d9d673",
+  "name": "Conjurer’s Burden",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 3,
+      "inquisitor": 3,
+      "medium": 2,
+      "wizard": 3,
+      "summoner": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level antipaladin 2, cleric/oracle 3, inquisitor 3, medium 2, sorcerer/wizard 3, summoner 3, witch 3\n\nCASTING\n\nCasting Time 1 round\nComponents: V, S, M/DF (a broken stick of chalk)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one called or summoned creature\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou make a conjured creature more difficult for casters to control, whether by the spell that conjured it or by other means. If a summoned target fails its Will save, it can only make a single standard action each round unless the conjurer concentrates on it as a standard action. It gains a +4 bonus on saving throws against the spells and abilities of its summoner, and the DC its summoner’s skill checks and caster level checks made to control it increase by 4. An unwilling target can attempt a new Will saving throw once per hour to end the spell’s effects. If you target a called creature, the creature may attempt a new saving throw against the DC of the spell that called it. If successful, it can return home immediately.\n\nIf the target’s hit dice exceed your caster level, this spell fails.\n\nThe Antipaladin’s Almanac, © 2020, Librarians & Leviathans.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45a827d161d9d673.json",
+    "web": "https://codex.pipsprojects.com/#/e/45a827d161d9d673"
+  },
+  "license": "OGL 1.0a"
+}

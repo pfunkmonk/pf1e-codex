@@ -1,0 +1,25 @@
+{
+  "id": "ca958b849f6e5bde",
+  "name": "Bone Shards",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2,
+      "white necromancer": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 2, white necromancer 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one or more bone shards\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA jagged shard of bone bursts from your hand. You may fire one bone shard, plus one additional shard for every four levels beyond 2nd (to a maximum of three bone shards at 10th level). Each bone shard requires a ranged touch attack to hit and deals 1d6 hp piercing damage. You must be within 30 ft. of the target to make a ranged touch attack.\n\nThis damage also causes deep gashes which deal an additional 1d4 hp bleed damage to the target each round at the start of the target’s turn. Creatures that are not living do not sustain this bleeding damage.\n\nThe bone shards may be fired at the same or different targets, but all shards must be aimed at targets within 30 ft. of each other and fired simultaneously. The bone shards vanish immediately after hitting or missing their target.\n\nBone Shards, Greater\n\nSchool evocation; Level sorcerer/wizard 5, white necromancer 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nJagged shards of bone burst from your hand, dealing 1d6 hp piercing damage per caster level (maximum 15d6) to all creatures within the burst. Living creatures affected by the bone shards also sustain an additional 1d4 hp bleed damage each round. This bleeding can be stopped by a successful DC 15 Heal skill check or through the application of any magical healing. The bone shards vanish immediately after hitting or missing their target.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ca958b849f6e5bde.json",
+    "web": "https://codex.pipsprojects.com/#/e/ca958b849f6e5bde"
+  },
+  "license": "OGL 1.0a"
+}

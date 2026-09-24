@@ -1,0 +1,23 @@
+{
+  "id": "9b82d5d7f768eb66",
+  "name": "Not This Day!",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 5
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level cleric/oracle 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 24 hrs.\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell marks the target’s body with a unique rune that represents its fate. The rune prevents death by a specific type of harm for one day; the type of harm must be specified when this spell is cast.\n\nThis harm can be either an energy type (fire, cold, etc.), a broad category of dangerous creature (e.g., such as an animal or a giant), or a specific danger (sword blows, poison, falling, etc.).\n\nFor the next 24 hrs., the target gain a +4 luck bonus to any saving throws prompted by this kind of attack, and any damage suffered from it is nonlethal. This nonlethal damage does not become lethal if it exceeds the target’s maximum hp. However, if creature falls unconscious, this nonlethal damage must be healed before the creature can regain consciousness.\n\nA character can only be under the effects of a single not this day! rune at any time. The rune’s magic can be made permanent on the caster or another creature using permanency at a cost of 7,500 gp and a minimum caster level of 11th.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b82d5d7f768eb66.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b82d5d7f768eb66"
+  },
+  "license": "OGL 1.0a"
+}

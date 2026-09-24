@@ -1,0 +1,29 @@
+{
+  "id": "355f5cc8d3d26895",
+  "name": "Sprawling Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "unchained summoner": 6
+    },
+    "desc": [
+      "chaos",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes see text 30",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [chaos, mind-affecting]; Level magus 6, sorcerer/wizard 6, unchained summoner 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a shard of broken glass)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect fog spreads in 20-ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw Will negates, see text; Spell Resistance yes see text 30\n\nDESCRIPTION\n\nYou create a shifting cloud of chaotic colors and lights that functions like the fog cloud spell. Any creatures passing through the cloud take 2d6 damage from the chaotic psychic energies and if they take damage, they must make a Will save or be confused as per the spell confusion for 1d4 rounds. Additional instances of confusion do not stack, but the duration is extended by the 1d4 rolled. The damage and confusion effect are mind-affecting effects and are subject to spell resistance.\n\nThe fog cloud effect is not subject to spell resistance.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/355f5cc8d3d26895.json",
+    "web": "https://codex.pipsprojects.com/#/e/355f5cc8d3d26895"
+  },
+  "license": "OGL 1.0a"
+}

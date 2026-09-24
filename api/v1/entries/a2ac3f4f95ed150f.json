@@ -1,0 +1,26 @@
+{
+  "id": "a2ac3f4f95ed150f",
+  "name": "Vomit Green Slime",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 3
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [acid]; Level alchemist 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous; see text\nSaving Throw Reflex half; see text; Spell Resistance no\n\nDESCRIPTION\n\nYou vomit forth a cone of caustic slime that liquefies organic material. Creatures caught in the cone initially suffer 1d8 hp acid damage per two caster levels. A successful Reflex save halves this damage.\n\nOn subsequent rounds, those that have taken initial damage from this extract suffer 1 point of Constitution damage per round as the slime dissolves their flesh.\n\nAnything that deals cold or fire damage, a piercing or slashing weapon, sunlight, or a remove disease spell destroys this extract’s slime; although if the target is hit with cold, fire, piercing, or slashing damage to dissolve the slime it must also take that additional damage.\n\nScraping off the slime (thereby destroying the scraping device) also destroys this slime and ends the continuing damage.\n\nAdditionally, dousing the affected creature with a vial of nushadir pellets or a flask of nushadir-water neutralizes the slime. However, if this is done, the target is nauseated for 1d4 rounds (Fort DC 10 negates).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a2ac3f4f95ed150f.json",
+    "web": "https://codex.pipsprojects.com/#/e/a2ac3f4f95ed150f"
+  },
+  "license": "OGL 1.0a"
+}

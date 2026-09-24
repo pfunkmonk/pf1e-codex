@@ -1,0 +1,24 @@
+{
+  "id": "e32311d3d1168a2a",
+  "name": "Summon Clockwork Warriors",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 8,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (summoning); Level cleric/oracle 8, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a gear and a spring)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 2d4+2 clockwork soldiers\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou speak a word of animation as the gear and spring call forth a strike-force of clockwork warriors. When you cast this spell you summon 2d4+2 clockwork soldiers that attack your foes. As a move action each round you may designate an enemy and all clockwork soldiers will use their actions to move towards or attack that enemy until given another command. If not given any orders, the soldiers will each target the nearest enemy to themselves.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e32311d3d1168a2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/e32311d3d1168a2a"
+  },
+  "license": "OGL 1.0a"
+}

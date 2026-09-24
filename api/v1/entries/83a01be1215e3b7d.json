@@ -1,0 +1,27 @@
+{
+  "id": "83a01be1215e3b7d",
+  "name": "Ley Hail",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [earth]; Level druid/shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M/DF (a shimmery pebble)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect cylinder (40-ft.-radius, 60 ft. high)\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure magical, ley-infused rocks that rain down from the sky and deal 4d6 hp bludgeoning damage and 3d6 hp electricity damage to every creature in the area.\n\nThis damage occurs just once, when the spell is first cast.\n\nFor the remaining duration of the spell, clods of dirt and pebbles rain down in the area. Creatures inside this area take a -4 penalty on Perception skill checks and the entire area is treated as difficult terrain. At the end of the duration, the raining dirt disappears, but the fallen rocks remain, affecting movement in the terrain.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83a01be1215e3b7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/83a01be1215e3b7d"
+  },
+  "license": "OGL 1.0a"
+}

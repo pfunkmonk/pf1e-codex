@@ -1,0 +1,28 @@
+{
+  "id": "556d23e40afd07a5",
+  "name": "Entangling Shot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "legendary hunter": 1,
+      "ranger": 1
+    },
+    "desc": [
+      "primeval"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [primeval]; Level druid 1, legendary hunter 1, ranger 1\n\nCASTING\n\nCasting Time 1 swift action Components V\n\nRange touch\nTarget one projectile or piece of ammunition\nDuration 1 round or until discharged, then 1 minute/level.\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nNote Primeval spells are a type of spell that can enchant a single piece of ammunition the ranger is wielding with raw, elemental power. It can then be used by the hunter as part of an attack any time during the next round, even on their current turn. If the attack misses, the spell is lost.\n\nA blow from the touched missile causes an explosion of vines and roots on the target that wrap and wind around the target. If the target fails a reflex save gains the entangled condition. If the target makes the save or break free of the entangle, they may move as normal but the square in which they were hit is considered difficult terrain for the duration of the spell. The entangled creature can attempt to break free as a move action, making a Strength or Escape Artist check. The DC for this check is equal to the DC of the spell. Any creature entering the affected square during the duration of the spell must save immediately or be entangled and have their movement ended.\n\nLegendary Hunters © 2020, Legendary Games; Authors Connor Bates, Cerise Herndon, and W. Hervay",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/556d23e40afd07a5.json",
+    "web": "https://codex.pipsprojects.com/#/e/556d23e40afd07a5"
+  },
+  "license": "OGL 1.0a"
+}

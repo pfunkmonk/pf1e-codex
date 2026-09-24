@@ -1,0 +1,34 @@
+{
+  "id": "6caab00c4fd467d9",
+  "name": "Shared Pain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 0,
+      "antipaladin": 1,
+      "oracle": 0,
+      "inquisitor": 0,
+      "lathspell": 0,
+      "mesmerist": 0,
+      "psychic": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [pain]; Level adept 0, antipaladin 1, cleric/oracle 0, inquisitor 0, lathspell 0, mesmerist 0, psychic 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30ft.\n\nTarget one living creature\nDuration 1 round\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou make a small cut on your body and the same small cut appears on the target. Both you and the subject take 1 point of damage. On a failed saving throw, the subject takes a –1 penalty on attack rolls, saving throws, skill checks, and ability checks for the duration due to the annoying pain.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6caab00c4fd467d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/6caab00c4fd467d9"
+  },
+  "license": "OGL 1.0a"
+}

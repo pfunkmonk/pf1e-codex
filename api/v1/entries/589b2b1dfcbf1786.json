@@ -1,0 +1,31 @@
+{
+  "id": "589b2b1dfcbf1786",
+  "name": "Foehn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "archon": 3,
+      "oracle": 2,
+      "death mage": 3,
+      "druid": 2,
+      "wizard": 3,
+      "witch": 2
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School necromancy [air]; Level archon 3, cleric/oracle 2, death mage 3, druid 2, sorcerer/wizard 3, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. +5 ft./2 levels)\nArea cone-shaped spread\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a foehn, a mountain wind that carries with it a miasma of disease, to blow through the spell’s area. Subjects in the area when foehn is cast must save or suffer the sickened condition for 1 minute per caster level. The area does not remain dangerous after the spell is cast, and those affected remain sickened even if they leave the spell’s original area. A character may remove the sickened condition from a target by making a Heal check with a DC equal to the spell’s save DC. This takes one minute of uninterrupted treatment.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/589b2b1dfcbf1786.json",
+    "web": "https://codex.pipsprojects.com/#/e/589b2b1dfcbf1786"
+  },
+  "license": "OGL 1.0a"
+}

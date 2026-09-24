@@ -1,0 +1,31 @@
+{
+  "id": "2eeb9fdb6d32a162",
+  "name": "Purifying Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "hunter": 3,
+      "paladin": 3,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "special",
+    "sr": "yes (harmless, object)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Purifying Rain\n\nSchool conjuration (creation) [water]; Level cleric/oracle 3, druid 3, hunter 3, paladin 3, shaman 3, witch 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (an aquamarine worth 50 gp)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea cylinder (40-ft. radius, 20 ft. high)\nDuration 1 round/level (see text)\nSaving Throw none (harmless); Spell Resistance yes (harmless, object)\n\nYou conjure a shower of pure water, cleansing whatever it touches. This functions as heavy rain. The area where the rain falls is affected as though by purify food and drink. Any exposed non-magical poison, disease or similar contamination affecting a surface is neutralized, and creatures within the area gain a +4 bonus on saving throws and skill checks to resist or treat such effects (magical or otherwise) for as long as they remain in the rain and 1 hour thereafter. The area is cleansed of grime, blood and similar filth within 1 round. Effects dependent on the presence of blood or filth, such as a grease or charnel house spell, can be removed, dispelled or suppressed with a successful caster level check as though using dispel magic.\n\nEffects and abilities that modify the impact of weather apply as normal.\n\nPurifying rain counters and dispels tainted sleet.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2eeb9fdb6d32a162.json",
+    "web": "https://codex.pipsprojects.com/#/e/2eeb9fdb6d32a162"
+  },
+  "license": "OGL 1.0a"
+}

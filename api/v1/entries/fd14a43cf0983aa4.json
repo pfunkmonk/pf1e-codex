@@ -1,0 +1,32 @@
+{
+  "id": "fd14a43cf0983aa4",
+  "name": "Euthanize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "mesmerist": 1,
+      "paladin": 1,
+      "wizard": 1,
+      "spiritualist": 1,
+      "witch": 1
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School necromancy [death]; Level adept 1, cleric 1, mesmerist 1, paladin 1, sorcerer/wizard 1, spiritualist 1, witch 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one willing or helpless creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou instantly and painlessly end the life of a target creature. The target is aware of the intent of the spell, and can change whether they are willing before they are affected. You cannot euthanize creatures under the effects of a mind-affecting spell or ability.\n\nUnlike most death effects, euthanize does not prevent the target from being brought back to life.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fd14a43cf0983aa4.json",
+    "web": "https://codex.pipsprojects.com/#/e/fd14a43cf0983aa4"
+  },
+  "license": "OGL 1.0a"
+}

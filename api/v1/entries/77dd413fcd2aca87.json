@@ -1,0 +1,26 @@
+{
+  "id": "77dd413fcd2aca87",
+  "name": "Acid Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spes Magna Games",
+  "book": "Spes Magna Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Spes Magna Games"
+  },
+  "body": "School conjuration (creation) [acid]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature or object touched\nDuration 1 round + 1 round per three levels\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYour successful melee touch attack deals 3d4 points of acid damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 3d4 points of damage in each round.\n\nIn One’s Blood. Copyright 2010, Spes Magna Games; Mark L. Chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77dd413fcd2aca87.json",
+    "web": "https://codex.pipsprojects.com/#/e/77dd413fcd2aca87"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bd8a4c33e855e3d4",
+  "name": "Impending Doom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 4,
+      "inquisitor": 3,
+      "witch": 3
+    },
+    "desc": [
+      "fear",
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [fear, language-dependent, mind-affecting]; Level bard 3, cleric/oracle 4, inquisitor 3, witch 3\n\nCASTING\n\nCasting Time 1 round\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one living creature/4 levels\nDuration 5 min.\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nEach minute that your target performs a specific action you tell it to discontinue or refrain from (specified when this spell is cast), it suffers a cumulative -1 penalty to all rolls and increasingly frequent visions of the moments leading up to its death. The spell is so disturbing that the target takes a cumulative -1 penalty/minute to all rolls if it performs the forbidden action. If the spell expires before the target starts or discontinues the action, the target envisions its death and must succeed on a Fortitude save or die from fear. Even if the Fortitude save is successful, the subject takes 2d6 hp damage. The stated action cannot be one that would result in certain death if discontinued. You define the exact visions the target sees.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bd8a4c33e855e3d4.json",
+    "web": "https://codex.pipsprojects.com/#/e/bd8a4c33e855e3d4"
+  },
+  "license": "OGL 1.0a"
+}

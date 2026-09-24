@@ -1,0 +1,31 @@
+{
+  "id": "7984a784163f09f5",
+  "name": "Flicker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "druid": 4,
+      "hunter": 4,
+      "occultist": 4,
+      "psychic": 3,
+      "ranger": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation; Level bard 4, druid 4, hunter 4, occultist 4, psychic 3, ranger 4, shaman 4, sorcerer/wizard 4, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of wire or copper)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-ft.-radius emanation\nDuration 1 round/level (D)\nSaving Throw Fortitude partial (see below); Spell Resistance yes\n\nYou interrupt electrical currents and signals in the targeted area.\n\nElectronic machines are turned off and equipment dependent on electricity to operate lose power, regardless of whether that power comes from an outside source or an internal battery, power cell, or similar power supply. Magic items that deal electricity damage or create electricity effects cease functioning, and any non-instantaneous spell or extraordinary, supernatural, or spell-like ability with the electricity descriptor is suppressed. Sentient creatures and objects can attempt to reactivate themselves, an object they are wearing or wielding, or a device they are operating once per round as a swift action by attempting a new saving throw; however, even if successful a new save is required every round thereafter to keep the object or ability functioning. During any round in which the save is failed (or if the creature does not spend an action to attempt a save at the beginning of its turn), the object or ability once again ceases functioning.\n\nCreating an electricity effect (including instantaneous electricity effects) within the flicker is difficult. Such effects are suppressed within the area unless the caster succeeds on a caster level check against a DC of 11 + the caster level of the flicker spell; for extraordinary or supernatural effects, treat the creature’s Hit Dice (or the creature’s level in the class that grants the ability, if a class feature) as its caster level. If the effect affects an area or multiple targets, some of whom are inside and some outside the flicker, those outside its area are affected normally.\n\nLegendary Planet Adventure Path © 2019, Legendary Games; Authors: Authors: Matt Goodall, Jim Groves, Steven T. Helt, Tim Hitchcock, Jason Nelson, Richard Pett, Tom Phillips, Mike Shel, Neil Spicer, Mike D. Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7984a784163f09f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/7984a784163f09f5"
+  },
+  "license": "OGL 1.0a"
+}

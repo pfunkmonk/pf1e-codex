@@ -1,0 +1,26 @@
+{
+  "id": "5f85b4d11b507190",
+  "name": "Serac",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration [cold]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange personal\nEffect 5-ft.-radius of moving ice\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell summons a platform of glacier-like ice two feet thick and five feet in radius. If the caster moves more than 25 feet from the serac, it evaporates. If the caster stands on the ice platform, it moves under his mental command. The platform can carry 800 lbs + 100 lbs per level at a speed of 40 ft. The caster can direct it at this speed each round as a free action, or cause the platform to take a double move as a move action.\n\nThe serac sticks to the ground and glides on a watery surface. It can flow over obstacles as high as five feet and a slope as steep as 45 degrees, ignoring difficult terrain. Any object or creature the caster wishes to stay on the platform has no chance of slipping off no matter how fast or wildly it moves. Anything that tries to remain on the platform against the caster’s wishes finds the platform very slick (as if it was covered in a grease spell cast by the caster of the serac). The ice platform leaves an obvious path on typical terrain, giving a +10 bonus to anyone attempting to track its movements. On ground covered with snow or ice the platform leaves no trail, and actually places a –5 penalty on all efforts to track it.\n\nAny time a [fire] spell of 3rd level or higher deals damage in the area of the serac, the caster of the [fire] spell should make a caster level check with a DC of 10 + (caster level of the serac). On a successful check, the serac spell ends.\n\nThe Genius Guide To: Ice Magic The Genius Guide To: Ice Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5f85b4d11b507190.json",
+    "web": "https://codex.pipsprojects.com/#/e/5f85b4d11b507190"
+  },
+  "license": "OGL 1.0a"
+}

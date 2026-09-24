@@ -1,0 +1,29 @@
+{
+  "id": "f250408a41b87670",
+  "name": "Greenery Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 1,
+      "druid": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School evocation [light]; Level adept 1, druid 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 full round Components V, S, F (a half of a crystal druse or a cut-glass lamp)\n\nEFFECT\n\nRange touch\nTarget focus object touched\nEffect 20-feet violet light emanation\nDuration 1 day/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nPale violet light, equivalent in brightness to a torch, springs forth from the spell’s focus. Its dim radiation is particularly nourishing for plants within 20 feet, who can use it as a substitute for natural daylight (plants harmed by sunlight are not affected). Creatures gain a +4 circumstance bonus to Profession (farmer and gardener) checks on plants within 20 feet of the light. Plant creatures within 20 feet of the greenery light regain an additional hit point per 8 hours rested.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f250408a41b87670.json",
+    "web": "https://codex.pipsprojects.com/#/e/f250408a41b87670"
+  },
+  "license": "OGL 1.0a"
+}

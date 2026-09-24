@@ -1,0 +1,24 @@
+{
+  "id": "9f77f3b505e859a3",
+  "name": "Transmute Water to Acid",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "wizard": 5
+    },
+    "save": "special",
+    "sr": "see text",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/M (a few drops of acid and water)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./ 2 levels)\nEffect up to 2 gallons of water/level\nDuration instantaneous\nSaving Throw see text; Spell Resistance see text\n\nSource\n\nTome of Horrors Complete\nSupport Open Gaming\nwww.opengamingstore.com\n\nDESCRIPTION\n\nThis spell transforms a volume of normal or magically created water into an equal volume of highly corrosive acid. Any creature touching this acid takes 1d6 points of damage per round of exposure. If the acid is consumed, the victim takes 10d6 points of damage and must succeed at a Fortitude save (DC 15 + caster’s\nrelevant ability score modifier) or take 1d6 points of Constitution damage. One minute later the victim must make a second save (same DC) or take another 1d6 points of Constitution damage.\n\nThis spell cannot be used to affect water that a creature has already consumed or ingested. If this spell is cast on a potion, the potion must make a successful Fortitude save (DC 15 + caster’s relevant ability score modifier) or lose its magical properties as it changes into acid. If the affected potion is consumed, the imbiber takes damage as detailed above.\n\nA creature constructed of water or native to the Plane of Water can be targeted by this spell and takes 1d4 points of damage per caster level (maximum 10d4). The elemental can attempt a Fortitude save to reduce the damage by half unless otherwise stated.\n\nTransmute Water to Acid from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f77f3b505e859a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f77f3b505e859a3"
+  },
+  "license": "OGL 1.0a"
+}

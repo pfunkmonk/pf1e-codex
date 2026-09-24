@@ -1,0 +1,27 @@
+{
+  "id": "1070d71d10602fa2",
+  "name": "Gaze Of The World Serpent",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 9
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment [fear, mind-affecting]; Level cleric/oracle 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nArea 30-ft. radius burst centered on you\nDuration instantaneous and 1 round/level\nSaving Throw Will partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou summon the attention of the World Serpent, for the briefest of instants, and his fury is profound.\n\nCreatures that fail their saves are stunned for 2d4 rounds and are then shaken and staggered for the remainder of the spell’s duration. A successful save leaves the target shaken for the spell’s duration.\n\nDragonkin, creatures of the draconic subtype, and reptile animals receive a +4 bonus to their Will saves.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1070d71d10602fa2.json",
+    "web": "https://codex.pipsprojects.com/#/e/1070d71d10602fa2"
+  },
+  "license": "OGL 1.0a"
+}

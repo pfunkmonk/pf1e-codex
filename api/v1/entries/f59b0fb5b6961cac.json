@@ -1,0 +1,27 @@
+{
+  "id": "f59b0fb5b6961cac",
+  "name": "Enchant Ring",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "domain rune": 6
+    },
+    "desc": [
+      "curse",
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "no (object); see text",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (charm) [curse, mind-affecting]; Level sorcerer/wizard 6; Domain Rune 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1,000 gp worth of diamond dust)\n\nEFFECT\n\nRange touch\nTarget unattended ring touched\nDuration permanent until discharged\nSaving Throw none (object), see text; Spell Resistance no (object); see text\n\nDESCRIPTION\n\nThe next creature that willingly wears the affected ring regards you as an ally for 1 day/level. The spell is discharged from the ring once it is worn. If the creature is directly threatened by you or your allies when it puts on the ring, this enchantment fails.\n\nThe spell does not enable you to control the charmed creature as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to convince it to do anything it wouldn’t ordinarily do. (Retries are not allowed.) An affected creature never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing. Any act by you or your apparent allies that threatens the charmed creature breaks the spell. You must speak the creature’s language to communicate your commands (or else be good at pantomiming).\n\nThis curse can be removed from the ring or the cursed individual by any method that can remove spells with the curse descriptor. A Spellcraft check (DC 25 + your caster level) identifies the item as cursed.\n\nThis effect is subject to spell resistance as soon as the ring is worn. This spell affects magical and non-magical rings, but rings that are intelligence receive a Will save.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f59b0fb5b6961cac.json",
+    "web": "https://codex.pipsprojects.com/#/e/f59b0fb5b6961cac"
+  },
+  "license": "OGL 1.0a"
+}

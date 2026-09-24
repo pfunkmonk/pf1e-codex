@@ -1,0 +1,25 @@
+{
+  "id": "330b77010d7614ea",
+  "name": "Cruor of Visions",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level cleric/oracle 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 min.\nComponents V, S, F (a bone needle)\n\nEFFECT\n\nRange special; see text\nEffect magic pool of blood\nDuration 1 min./level\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nWhen casting this spell, you prick yourself with the focus and deal 1 hp damage (if that damage is somehow prevented or negated, this spell is not cast). This drop of blood grows into a pool that is 1 ft. in diameter. You must have some horizontal surface that can accommodate the pool without spilling the blood, otherwise the spell ends (a platter or even a flat rock will do).\n\nThis pool can act as a crystal ball for anyone adjacent to it, though only one creature can use it at a time (if more than one creature wishes to use it, the final decision is yours).\n\nIf you have a drop of a creature’s blood (or dried flakes of preserved blood) and place it into the cruor of visions, the creature suffers a -4 penalty to any Will save to prevent you from scrying on it. (This is in addition to the -10 penalty built into the scrying function of a crystal ball for having a bit of a creature.) Additionally, you gain the ability to treat the pool of blood as a crystal ball with telepathy (see the item’s description).\n\nIf you have divine blood (you are a demigod, an outsider with 20 or more HD, or have godling class levels), the pool of blood acts as a crystal ball with see invisibility.\n\nMythic\n\nThe pool of blood acts as a crystal ball with detect thoughts and true seeing.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/330b77010d7614ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/330b77010d7614ea"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e0afbf85b85ff084",
+  "name": "Brimstone Flames",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [fire]; Level sorcerer/wizard 4\n\nCasting Time 1 standard action\n\nComponents V, S, M (pinch of brimstone)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration instantaneous\n\nSaving Throw Fortitude partial; Spell Resistance no\n\nYou cause the target to be engulfed in sulfurous flames.\n\nThe target takes 1d6 fire damage per caster level (maximum 15d6) and are sickened for 2d4 rounds. A successful Fortitude save halves the damage and negates the sickening.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e0afbf85b85ff084.json",
+    "web": "https://codex.pipsprojects.com/#/e/e0afbf85b85ff084"
+  },
+  "license": "OGL 1.0a"
+}

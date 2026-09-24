@@ -1,0 +1,27 @@
+{
+  "id": "dd4adbe2123a0ad8",
+  "name": "Acid Spit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [acid]; Level druid 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (fur and a glass rod)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 3 rounds\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, you spit acid in the face of one creature, dealing 1d6 points of damage per level (maximum 10d6). If the target has eyes and is not somehow protected, the spell also blinds the target. A successful saving throw reduces the damage by half and negates the blindness.\n\nOn the second round, the spell deals half its original damage, and on the third round it deals half that again (the damage in the second and third rounds is further reduced if the target made its save).\n\nIf a target of this spell spends a full round washing the affected area in water (or similar liquid) the spell (including blindness) will be negated.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd4adbe2123a0ad8.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd4adbe2123a0ad8"
+  },
+  "license": "OGL 1.0a"
+}

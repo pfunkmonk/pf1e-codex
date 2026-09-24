@@ -1,0 +1,25 @@
+{
+  "id": "85f5758eb818b07d",
+  "name": "Expel Spirits",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Purple Duck Games",
+  "book": "Purple Duck Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "hedge witch": 5,
+      "medium": 4,
+      "witch": 5
+    },
+    "save": "special",
+    "sr": "see text",
+    "bk": "Purple Duck Games"
+  },
+  "body": "School abjuration; Level hedge witch 5, medium 4, witch 5\n\nCASTING\n\nComponents V, S\nRange touch\n\nEFFECT\n\nTarget you and a touched spirit from another plane, or you and an enchantment spell on a touched creature or object\nDuration 1 round/level or until discharged\nSaving Throw see text; Spell Resistance see text\n\nDESCRIPTION\n\nA pale silver light surrounds you.\n\nThis energy has three effects.\n\nFirst, you gain a +4 deflection bonus to AC against attacks by fey, outsiders, and undead.\nSecond, on making a successful melee touch attack against an extraplanar fey, outsider, or undead, you can choose to drive that creature back to its home plane. The creature can negate the effects with a successful Will save (spell resistance applies). This use discharges and ends the spell.\nThird, with a touch you can automatically dispel any one enchantment spell cast by a fey, outsider, or undead. Spells that can’t be dispelled by dispel magic also can’t be dispelled by expel spirits. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell.\n\nLegendary Classes: Covenant Magic, © 2013, Purple Duck Games; Author: David Nicholas Ross.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85f5758eb818b07d.json",
+    "web": "https://codex.pipsprojects.com/#/e/85f5758eb818b07d"
+  },
+  "license": "OGL 1.0a"
+}

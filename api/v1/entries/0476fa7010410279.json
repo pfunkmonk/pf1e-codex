@@ -1,0 +1,36 @@
+{
+  "id": "0476fa7010410279",
+  "name": "Primordial Rage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 4,
+      "bard": 3,
+      "bloodrager": 4,
+      "mesmerist": 3,
+      "psychic": 4,
+      "wizard": 4,
+      "summoner": 4,
+      "unchained summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting",
+      "polymorph"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting, polymorph]; Level alchemist 4, bard 3, bloodrager 4, mesmerist 3, psychic 4, sorcerer/wizard 4, summoner 4, unchained summoner 4, witch 4\n\nDESCRIPTION\n\nThis spell functions as rage except if the target does not have natural attacks, they gain a 1d6 bite attack in addition to the normal benefits of the rage. If the target has natural attacks, their damage dice are increased by 1 step while the spell is active in addition to the rage benefits.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0476fa7010410279.json",
+    "web": "https://codex.pipsprojects.com/#/e/0476fa7010410279"
+  },
+  "license": "OGL 1.0a"
+}

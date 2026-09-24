@@ -1,0 +1,29 @@
+{
+  "id": "a420cf2877bfb226",
+  "name": "Falling Sky",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 8,
+      "psychic": 8,
+      "wizard": 8,
+      "witch": 8
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [air]; Level druid/shaman 8, psychic 8, sorcerer/wizard 8, witch 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cylinder (30-ft. radius, 60 ft. high)\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou manipulate the pressure of the air in an area an bring it down like a massive weight down to the ground. All flying creatures in the area descend to the bottom of the spell’s area, taking double the normal fall damage if it results in hitting the ground or another hard surface. If they do not strike a surface within the spell’s area, they instead take normal fall damage instead of double due to the concussive movement downward.\n\nCreatures within the spells area are knocked prone and are stunned for 1 round, then staggered for 1d4 rounds thereafter. On a successful Fortitude save, the affected creatures are instead knocked prone and staggered for 1d4 rounds.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a420cf2877bfb226.json",
+    "web": "https://codex.pipsprojects.com/#/e/a420cf2877bfb226"
+  },
+  "license": "OGL 1.0a"
+}

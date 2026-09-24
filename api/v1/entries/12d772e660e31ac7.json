@@ -1,0 +1,28 @@
+{
+  "id": "12d772e660e31ac7",
+  "name": "Cast Into Time",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "occultist": 6,
+      "psychic": 6,
+      "shaman": 7,
+      "wizard": 6,
+      "spiritualist": 6,
+      "witch": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level occultist 6, psychic 6, shaman 7, sorcerer/wizard 6, spiritualist 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 15 ft.\nArea cone-shaped burst\nDuration Instantaneous, 1 round\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou release a wave of temporal energy that send creatures within the area violently tumbling through time, scarring their thoughts and bodies with the time and objects flowing around them. Although the journey can feel like it lasts for minutes or even days, the targets reappear at the beginning of your next turn. Witnessing the chaotic flow of time and striking objects from different times deals 1d8 damage per caster level (max 15d8) to the affected creatures. Half of the damage is non-magical bludgeoning and half of the damage is mental trauma and not subject to resistance or damage reduction. However, if a creature is immune to mind-affecting effects, they are immune to the mental-half of the damage. The creature reappears in the square they left and are sickened for 1 round. If the square is occupied at that time, it instead appears in the nearest empty space, chosen by the GM. A successful Fortitude save halves the damage, negates the sickened condition and the creature reappears at the beginning of their turn instead of the beginning of your next turn.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12d772e660e31ac7.json",
+    "web": "https://codex.pipsprojects.com/#/e/12d772e660e31ac7"
+  },
+  "license": "OGL 1.0a"
+}

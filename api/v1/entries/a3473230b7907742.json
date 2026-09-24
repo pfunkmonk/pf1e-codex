@@ -1,0 +1,29 @@
+{
+  "id": "a3473230b7907742",
+  "name": "Aura of Dread",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "psychic": 6,
+      "spiritualist": 6,
+      "warpriest": 6
+    },
+    "desc": [
+      "emotion"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [emotion]; Level cleric/oracle 6, psychic 6, spiritualist 6, warpriest 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nArea 20-ti.-radius emanation centered on you\nDuration 10 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nCasting this spell causes you to radiate an aura of lingering dread that removes even the most willful creatures’ resistance to fear effects. Each of your enemies who enter the area must make a Will saving throw; if they fail, they lose any immunity to fear effects they possess as well as any bonuses to saving throws against fear effects they possess until they leave the area of the aura. If a creature is also immune to mind-affecting effects, this benefit does not apply to fear effects while affected by this spell. A successful save suppresses this effect. If a creature leaves the area and enters it again they must make a new save against its effect.; Aura of dread can be made permanent with a permanency spell by you of 13th level or higher at a cost of 15,000 gp.\n\nAkashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray Section 15: Copyright Notice Akashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3473230b7907742.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3473230b7907742"
+  },
+  "license": "OGL 1.0a"
+}

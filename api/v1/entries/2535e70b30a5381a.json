@@ -1,0 +1,24 @@
+{
+  "id": "2535e70b30a5381a",
+  "name": "Corpse Rebellion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. + 5 ft./2 levels)\nTarget one corporeal undead creature\nDuration 1 round/level\nSaving Throw Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nWith the help of this spell, the once-living spirit of an undead creature tries to regain control of its body.\n\nThis functions as the confused condition, affecting the undead creature. In addition, if the “act normally” result is rolled and the spirit of the creature would be opposed to being undead, it instead deals damage to itself as if it had rolled that result instead. If the undead fails its Will save, it receives a new saving throw at the end of each of its turns to end this effect. Mindless undead creatures take a –4 penalty on their saving throws against this spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2535e70b30a5381a.json",
+    "web": "https://codex.pipsprojects.com/#/e/2535e70b30a5381a"
+  },
+  "license": "OGL 1.0a"
+}

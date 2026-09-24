@@ -1,0 +1,23 @@
+{
+  "id": "c0c5d86502f3ad20",
+  "name": "Maze Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 9
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration see text\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as maze, but the target takes 4d6 hp damage each round it is within the maze, as traps and other hazards constantly attack it. The target can make a Reflex saving throw each round to halve the damage.\n\nEscaping the maze is more difficult as well, requiring the target to make 2 consecutive DC 20 Intelligence checks.\n\nFinally, the spell’s duration is increased to 1 min. per level if the target does not escape through other means.\n\nMythic: If you expend one use of mythic power when casting the spell, the target must make 3 consecutive Intelligence checks to escape the maze and the maze lasts until the target succeeds at these checks. No other means of escape are possible unless the target is mythic.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0c5d86502f3ad20.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0c5d86502f3ad20"
+  },
+  "license": "OGL 1.0a"
+}

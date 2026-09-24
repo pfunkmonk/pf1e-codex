@@ -1,0 +1,27 @@
+{
+  "id": "681c590dd4192e94",
+  "name": "Rune of Transgression",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "curse",
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School universal [curse, evil]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECTS\n\nRange close (25 feet + 5 feet/2 levels)\nTarget 1 creature\nDuration permanent, see text\nSaving Throw Will partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nAn unknowably ancient arcane secret passed down to ancient wizards by the enigmatic Shining Children, the Rune of Transgression invokes a school of magic in its purest form, creating a mechanism which allows the wielder to circumvent most any defense offered against it. The target of this spell is branded with a glowing white rune corresponding to a certain sin, causing it to take a -4 penalty on all saving throws and a -10 penalty to any spell resistance it may possess (you may choose to negate these penalties if you are casting this spell on a willing creature). In addition, the target suffers from an additional effect depending on the sin invoked by this spell. A successful Will saving throw reduces the duration of this spell to 1 round.\n\nEnvy (Abjuration): The caster level of the target and of any effects on them are reduced by 10 for the purpose of dispelling.\nWrath (Evocation): The target loses any energy resistances or immunities that it possesses.\nGreed (Transmutation): The target does not automatically end your transmutation effects upon them when they change shape, and if they possess the shapechanger subtype cannot end your transmutation effects by reverting to their natural shape.\nPride (Illusion): The target loses any special or supernatural senses it possesses as well as any special bonuses to saving throws against illusions.\nSloth (Conjuration): The target takes a -4 penalty to attack rolls, damage rolls, and AC against called or summoned creatures.\nLust (Enchantment): The target loses any immunities or bonuses to saving throws against mind-affecting effects, fear effects, and compulsion effects.\nGluttony (Necromancy): The target loses any channel resistance and any immunities or bonuses to saving throws against negative energy, energy drain, and death effects\nDoubt (Divination): The target cannot benefit from effects which would block or falsify divinations (such as mind blank, nondetection, screen, or undetectable alignment).\n\nIn order to invoke a specific sin with this spell, a character must be specialized in the corresponding arcane school (for example, only a wizard or arcanist who specializes in the abjuration school could invoke Envy with a Rune of Transgression). A character who is not a specialist in a certain school may still cast this spell, but they only inflict the penalties on saving throws and spell resistance. A specialist can prepare rune of transgression as if it belonged to their specialty school (so a transmuter could prepare it as their 6th-level transmutation school bonus spell).\n\nSentence of the Sinlords © 2020, Legendary Games; Author: Matt Daley",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/681c590dd4192e94.json",
+    "web": "https://codex.pipsprojects.com/#/e/681c590dd4192e94"
+  },
+  "license": "OGL 1.0a"
+}

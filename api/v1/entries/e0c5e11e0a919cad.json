@@ -1,0 +1,30 @@
+{
+  "id": "e0c5e11e0a919cad",
+  "name": "Itchy Feet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, mesmerist 2, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1d4+1 rounds\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou complete the spell and the target is filled with the irresistible urge to move. For the duration of the spell, the subject must begin their turn by moving at least 10 feet by their main movement mode. This movement provokes attacks of opportunity as normal. The target has control over where they move, so long as they move at least 10 feet from their starting point. If the target is unable to move 10 feet in a given turn due to any reason, they are dazed for the round instead.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e0c5e11e0a919cad.json",
+    "web": "https://codex.pipsprojects.com/#/e/e0c5e11e0a919cad"
+  },
+  "license": "OGL 1.0a"
+}

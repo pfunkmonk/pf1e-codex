@@ -1,0 +1,34 @@
+{
+  "id": "794cb7101a2f549a",
+  "name": "Mark of The Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "bloodrager": 4,
+      "oracle": 3,
+      "death mage": 3,
+      "lathspell": 2,
+      "shaman": 3,
+      "wizard": 4,
+      "spiritualist": 3,
+      "witch": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 3, bloodrager 4, cleric/oracle 3, death mage 3, lathspell 2, shaman 3, sorcerer/wizard 4, spiritualist 3, witch 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou touch the target creature and a mark of a bladed weapon appears on their skin. Anytime the target takes slashing or piercing damage they are dealt 1d4 extra damage. This damage is increased on a critical by 1d4 for each multiple. For example, a critical hit from a greataxe would deal 3d4 extra damage.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/794cb7101a2f549a.json",
+    "web": "https://codex.pipsprojects.com/#/e/794cb7101a2f549a"
+  },
+  "license": "OGL 1.0a"
+}

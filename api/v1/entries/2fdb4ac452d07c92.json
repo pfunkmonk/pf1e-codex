@@ -1,0 +1,26 @@
+{
+  "id": "2fdb4ac452d07c92",
+  "name": "Knockdown Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 30-ft. radius burst\nDuration instantaneous\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou initiate a shockwave centered at the point you designate that instantly explodes in a 30-ft. radius. The shockwave deals no direct damage, but it makes a bull rush attempt against every creature in the shockwave’s radius. The shockwave’s CMB equals your caster level + your Charisma or Intelligence modifier (whichever is greater) + 4, and it makes a single check against all affected creatures. Each creature 20 to 35 ft. away from the shockwave’s origin gains a +2 circumstance bonus to its CMD against the bull rush attempt, while creatures 40 or more ft. from the origin gain a +4 circumstance bonus to CMD. Creatures bull rushed by this spell’s effects must make a Reflex save or be knocked prone.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2fdb4ac452d07c92.json",
+    "web": "https://codex.pipsprojects.com/#/e/2fdb4ac452d07c92"
+  },
+  "license": "OGL 1.0a"
+}

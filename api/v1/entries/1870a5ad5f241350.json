@@ -1,0 +1,23 @@
+{
+  "id": "1870a5ad5f241350",
+  "name": "Leeching Lanthorn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (shadow); Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a silver lantern worth 400 gp)\n\nEFFECT\n\nRange lantern touched\nArea 30-ft. radius\nDuration 1 round/level or until lantern destroyed\nSaving Throw Fort negates; Spell Resistance no\n\nDESCRIPTION\n\nBy lighting a silver, ritually prepared lantern, you generate an area within which one ability score is drawn out of all creatures around you and channeled through the lantern into you.\n\nAt the time of the spell’s casting, you choose Strength, Dexterity, or Constitution. All creatures within the lantern’s light must make a Fortitude save each round that they remain in the area.\n\nSuccess means they are unaffected that round. Failure means they suffer 1d4 ability damage in the relevant ability score, and you gain points in the same ability equal to 1 per creature damaged in this way. You retain these points for 10 rounds after the spell ends. If the lantern is destroyed, the spell ends immediately, and you lose all leeched ability score points.\n\nThe lantern required as a focus for this spell is fueled with pure oil and shadowstuff. It always has hardness 4 and 30 hp.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1870a5ad5f241350.json",
+    "web": "https://codex.pipsprojects.com/#/e/1870a5ad5f241350"
+  },
+  "license": "OGL 1.0a"
+}

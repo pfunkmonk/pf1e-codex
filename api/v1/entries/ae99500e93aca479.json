@@ -1,0 +1,30 @@
+{
+  "id": "ae99500e93aca479",
+  "name": "Butler’s Bell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "adept": 1,
+      "bard": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Zenith Games"
+  },
+  "body": "School divination; Level adept 1, bard 1, medium 1, mesmerist 1, occultist 1, paladin 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget a device capable of issuing sound or an alarm spell, and you or a willing creature\nDuration 1 day/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou attune yourself or a willing creature touched to a bell, whistle, gong, or a similar device capable of issuing sound, or an alarm spell. The target automatically becomes aware when the device is sounded or the alarm triggered as long as the target is within medium range (100 feet + 10 ft./caster level) of the source of the sound. This notification wakes the target. As a free action, the target may sever its connection to butler’s bell.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ae99500e93aca479.json",
+    "web": "https://codex.pipsprojects.com/#/e/ae99500e93aca479"
+  },
+  "license": "OGL 1.0a"
+}

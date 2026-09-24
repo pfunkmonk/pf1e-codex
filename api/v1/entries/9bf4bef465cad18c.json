@@ -1,0 +1,23 @@
+{
+  "id": "9bf4bef465cad18c",
+  "name": "Sacrifice Minions",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "summoner": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level summoner 6\n\nCASTING\n\nCasting Time standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft. per caster level)\nTarget creatures you have summoned\nDuration instant; see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nBy pointing at each of the creatures you have summoned, you immediately return one or more of them to the plane from whence they came. Your eidolon gains a circumstance bonus to attack equal to the total HD of the creatures unsummoned in this way. In addition, your eidolon gains a number of temporary hp equal to 1d6 + the HD of the creature(s) unsummoned. Your eidolon’s attack bonus and temporary hp last for 1 round/caster level.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9bf4bef465cad18c.json",
+    "web": "https://codex.pipsprojects.com/#/e/9bf4bef465cad18c"
+  },
+  "license": "OGL 1.0a"
+}

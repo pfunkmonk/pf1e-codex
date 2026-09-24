@@ -1,0 +1,27 @@
+{
+  "id": "cc366ebbddb520b8",
+  "name": "Blood Lure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (blood pool)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one pool of blood\nDuration 1 hr./level\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nYou point at a puddle that contains at least a quart of ordinary blood. For a moment, it flashes with sparkling light before regaining its former hue.\n\nAffected blood radiates a powerful compulsion effect. Only predators and creatures that feed on blood are affected by the compulsion, but even blood-feeding undead, which are normally immune to mind-affecting spells, are susceptible to it. (Immunity to mind-affecting effects granted from a source other than creature type still blocks this spell).\n\nAny creature that feeds on raw flesh or blood that moves within 60 ft. of the affected blood can smell it. If the creature has the scent ability, the range of detection is 180 ft. As soon as a creature smells the affected blood, it must make a Will save or be drawn toward it. The creature is fascinated for as long as it can smell the blood, and it moves unerringly towards the source unless impeded.\n\nOnce it reaches the blood, it attempts to feed on it, foregoing all other actions until the blood is consumed. a successful attack on the affected creature ends the effect, as does the complete consumption of the blood source, which is a full-round action. Creatures with the scent ability or that feed on the blood take a –2 penalty to the Will save to resist this spell, while any undead creature that feeds on blood gains a +4 bonus.\n\nMythic\n\nIt takes three full-round actions for a creature fascinated by this spell’s effect to consume the entire pool of blood enchanted by this spell. When a creature consuming the blood is subject to an attack, the duration only ends if that creature makes a successful Will save.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cc366ebbddb520b8.json",
+    "web": "https://codex.pipsprojects.com/#/e/cc366ebbddb520b8"
+  },
+  "license": "OGL 1.0a"
+}

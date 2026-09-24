@@ -1,0 +1,17 @@
+{
+  "id": "73cb5a96a5af62e4",
+  "name": "Jinglejell",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Orcus on 34th Level",
+  "book": "Orcus on 34th Level",
+  "facets": {
+    "bk": "Orcus on 34th Level"
+  },
+  "body": "JINGLEJELL\nCR 6\n\nXP 2,400\nUnique frostfallen giant jellyfish\nNE Large undead (cold)\nInit +2; Senses lifesense; Perception +0\n\nDEFENSES\n\nAC 15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)\nhp 31 (9d8-9)\nFort +1, Ref +5, Will +6; DR 5/bludgeoning; Immune cold, undead traits\nWeaknesses vulnerability to fire\n\nOFFENSE\n\nSpeed fly 20 ft. (clumsy)\nMelee slam +10 (2d6 + 5 plus 2d6 cold), 4 tentacles +10 (1d6 + 5 plus 2d6 cold)\nSpace 10 ft.; Reach 15 ft.\nSpecial Attacks cold body, jingle bells\n\nSTATISTICS\n\nStr 20, Dex 15, Con —, Int —, Wis 10, Cha 7\nBase Atk +6; CMB +12; CMD 24 (can’t be tripped)\nFeats Toughness\nSkills Fly +0\n\nSPECIAL ABILITIES\n\nCold Body (2d6)\n\nA frostfallen creature’s body generates intense cold, dealing an amount of cold damage with its touch determined by its Hit Dice. Creatures attacking a frostfallen creature with unarmed strikes or natural weapons take this same cold damage each time one of their attacks hits.\n\nJingle Bells (DC 12)\n\nThe jinglejell has 4 tentacles, each of which is decorated in silver bells that lend a rhythmic and musical quality to their movements. Anyone within 20 feet who listens to their jingling bells when the jinglejell takes a full attack action must succeed on a Will saving throw or be fascinated for 1 round.\n\nOrcus on 34th Level © 2020, Frog God Games; Author: Jon Hook; Pathfinder Conversion: Michael “Mars” Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73cb5a96a5af62e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/73cb5a96a5af62e4"
+  },
+  "license": "OGL 1.0a"
+}

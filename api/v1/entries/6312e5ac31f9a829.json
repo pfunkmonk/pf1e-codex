@@ -1,0 +1,28 @@
+{
+  "id": "6312e5ac31f9a829",
+  "name": "Charged Missile",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [electricity]; Level bard 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (the arrow or bolt)\n\nEFFECT\n\nRange touch\nTarget 1 arrow\nDuration permanent until discharged\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou touch a single arrow or bolt, which then can be shot at a foe with no risk to the archer. On a successful hit, in addition to normal damage, the arrow inflicts 1d6+1 points of electrical damage per caster level, up to a maximum of 10d6+10. If the arrow misses, the spell is wasted and has no effect.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6312e5ac31f9a829.json",
+    "web": "https://codex.pipsprojects.com/#/e/6312e5ac31f9a829"
+  },
+  "license": "OGL 1.0a"
+}

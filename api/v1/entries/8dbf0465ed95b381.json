@@ -1,0 +1,24 @@
+{
+  "id": "8dbf0465ed95b381",
+  "name": "Stenchcoin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "special",
+    "sr": "none",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of rotten meat)\n\nEFFECT\n\nRange touch\nTarget one coin\nDuration permanent\nSaving Throw Fort negates (object); Spell Resistance none\n\nDESCRIPTION\n\nThis rather unpleasant spell is more annoying than deadly, and it must be cast on a coin of any valuation. This stenchcoin is scentless until it is disturbed, for example, by being placed into a container or otherwise moved from its resting place. At this point, it excretes a foul odor similar to a combination of skunk and rotting meat. The scent permeates other nearby coins (if the stenchcoin is in a coin pile, a purse with other coins, etc.) and fill any closed container. After 1 hr., the stench fills a regular bag or backpack, and after 4 hrs. it fills an extra-dimensional space such as a bag of holding or a handy haversack.\n\nIf the container is open after that point, anyone within 5 ft. of the container must make a Fortitude save or be nauseated for one round.\n\nDealing with the stenchcoin requires finding it. As other coins absorb scent, this process requires a DC 20 + caster level Perception check and 1 min. of work per 10 coins examined. As the scent spreads among all nearby coins, using detect magic on a stenchcoin in a pile of other coins will only indicate the 5-ft. square where the stenchcoin resides.\n\nIf the stenchcoin is not with only coins, detect magic works as normal. Once found and discarded, the smell fades over several hours and can no longer cause nausea.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8dbf0465ed95b381.json",
+    "web": "https://codex.pipsprojects.com/#/e/8dbf0465ed95b381"
+  },
+  "license": "OGL 1.0a"
+}

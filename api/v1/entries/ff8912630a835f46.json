@@ -1,0 +1,36 @@
+{
+  "id": "ff8912630a835f46",
+  "name": "Curse of Melancholy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "bloodrager": 4,
+      "oracle": 3,
+      "lathspell": 3,
+      "shaman": 3,
+      "wizard": 4,
+      "spiritualist": 3,
+      "witch": 3
+    },
+    "desc": [
+      "curse",
+      "despair",
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse, despair, emotion, mind-affecting]; Level antipaladin 3, bloodrager 4, cleric/oracle 3, lathspell 3, shaman 3, sorcerer/wizard 4, spiritualist 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell inflicts a curse upon the target where everything seems impossible and hope is all but lost.\n\nWhile under the effects of this curse, the target does not benefit from any morale bonus and they are subject to the doubting condition. Additionally, the save penalty the target suffers from the doubting condition is increased to -4 vs. fear and despair effects.\n\nThe curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.\n\nCurse of melancholy can counter remove curse.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff8912630a835f46.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff8912630a835f46"
+  },
+  "license": "OGL 1.0a"
+}

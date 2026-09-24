@@ -1,0 +1,24 @@
+{
+  "id": "3c80da79f7589152",
+  "name": "Charismatic Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "oracle": 7
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (charm) (mind-affecting); Level bard 6, cleric/oracle 7\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, F (a personal keepsake and phial of rare perfume)/DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea all foes within 50 ft.\nDuration 1 minute/level\nSaving Throw Will negates (see below); Spell Resistance no\n\nDESCRIPTION\n\nThis spell has two primary effects. First, the caster gains a sacred bonus to AC equal to her Charisma modifier. Second, opponents within 50 feet of the caster cannot take any action to harm or impede her unless they successfully save against the spell. The DC is increased by +4 for individuals who are attracted to those of the caster’s gender and general creature type (i.e., animal, humanoid, etc.).\n\nOpponents must roll saving throws against this spell as soon as they come within 50 feet of the caster. Those who fail their save are still affected, even if they move farther than 50 feet from the caster. Creatures that successfully save against this spell, however, need not make any further saving throws. If the caster engages in offensive action against creatures affected by the spell, the spell is broken only for those creatures that the caster attacks. Otherwise, the caster is free to act as she wishes.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3c80da79f7589152.json",
+    "web": "https://codex.pipsprojects.com/#/e/3c80da79f7589152"
+  },
+  "license": "OGL 1.0a"
+}

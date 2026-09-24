@@ -1,0 +1,27 @@
+{
+  "id": "7e10af6e6945b302",
+  "name": "Guardian Deva",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 7,
+      "summoner": 7
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [good]; Level cleric/oracle 7, summoner 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nEffect A deva form that defends your person against attacks\nDuration 1 round/level\nSaving Throw Reflex, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a deva in a form designed to protect you from attack. The deva appears as an angel robed in golden cloth and bearing a flaming sword-but it is flat and angular, more like a stained glass image rather than a living creature. The deva orbits about you at an astounding speed, and others see it as a semitransparent, whirling barrier of white wings, golden robes, and flaming blades. This barrier moves with you and provides both cover and concealment.\n\nThe guardian deva moves to intercept any melee or ranged attack against you, including melee touch attacks and rays. Any opponent attacking you must first make a Reflex save to bypass the guardian deva. On a failed save, the attack instead automatically hits the deva. The deva has 126 hp, DR 10/evil, SR 21, and is immune to acid, cold, electricity, fire, death effects, energy drain, and petrification. It always takes full damage from spell effects that harm it.\n\nIf the attacker is within melee range, then the deva makes an immediate retaliatory strike against the opponent, automatically hitting for 2d6+7 hp damage plus 1d6 fire. This retaliatory strike will hit melee opponents attacking with natural reach, but not those using reach weapons.\n\nIf the guardian deva takes damage equal to its total hp, the spell ends.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7e10af6e6945b302.json",
+    "web": "https://codex.pipsprojects.com/#/e/7e10af6e6945b302"
+  },
+  "license": "OGL 1.0a"
+}

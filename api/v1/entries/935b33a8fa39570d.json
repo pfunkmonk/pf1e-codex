@@ -1,0 +1,17 @@
+{
+  "id": "935b33a8fa39570d",
+  "name": "Shield Warden, Lesser",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Aventyr Bestiary",
+  "book": "Aventyr Bestiary",
+  "facets": {
+    "bk": "Aventyr Bestiary"
+  },
+  "body": "Lesser Shield Warden\nCR 7\n\nClad in steel, this imposing creature is surrounded by a number of flying shields.\n\nXP 3,200\nLN Medium outsider (extraplanar, lawful)\nInit +3; Senses darkvision 60 ft.; Perception +11\n\nDEFENSE\n\nAC 22, touch 13, flat-footed 19 (+3 Dex, +6 natural, +3 shield)\nhp 75 (6d10+42); fast healing 2\nFort +12, Ref +5, Will +7; +4 vs mind-affecting effects\nDefensive Abilities indomitable will; DR 5/—; SR 17\n\nOFFENSE\n\nSpeed 40 ft., fly 60 ft. (average)\nMelee +1 heavy steel shield +13 (1d4+7)\nSpecial Attacks lend shield\nSpace 5 ft.; Reach 10 ft. (+1 heavy steel shield)\nSpell-Like Abilities (CL 6th; concentration +8)\n\nAt will—mage armor, sanctuary (DC 13), shield\n5/day—dimension door, protection from arrows, protection from energy, shield other\n1/day—dispel magic\n\nSTATISTICS\n\nStr 24, Dex 16, Con 25, Int 11, Wis 14, Cha 15\nBase Atk +6; CMB +13; CMD 26\nFeats Bodyguard, Combat Reflexes, Improved Shield Bash, Power AttackB\nSkills Acrobatics +8, Diplomacy +11, Fly +8, Knowledge (engineering) +9, Knowledge (planes) +9, Perception +11, Sense Motive +11\nLanguages Celestial, Common; truespeech\nSQ deflection aura, share defenses\n\nSPECIAL ABILITIES\n\nDeflection Aura (Su)\n\nAllies adjacent to a shield warden gain a +2 deflection bonus to AC (as usual this also applies to combat maneuver defense).\n\nIndomitable Will (Su)\n\nA shield warden gains a +4 bonus against mind-affecting effects.\n\nLend Shield (Ex)\n\nAs a standard action, a shield warden can duplicate one of its shields and send it flying to aid an ally.\n\nThe target must be within 60 ft. and within line of sight of the shield warden to benefit from this ability. A creature protected by this ability gains a +3 shield bonus to armor class and spell resistance 17. These protections remain in effect for 1 minute. A shield warden can use this ability a number of times per day equal to its Hit Dice.\n\nShare Defenses (Su)\n\nA shield warden can use its mage armor and shield spell-like abilities as if they had a range of close and could target a single creature (instead of a range of personal). A shield warden can do this a number of times per day equal to its Hit Dice, even if it can cast those spell-like abilities more often.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, pair, troop (3–12)\nTreasure standard (+1 heavy steel shield)\n\nAventyr Bestiary © 2017 AAW GAMES LLC Authors Mike Myler, Jonathan G. Nelson Developers, Michael Allen, Curtis Baum, Wolfgang Baur, Brian Berg, Adam Daigle, Jeffrey Gomez, Joshua Gullion, Jacob Kellogg, Jared Jeanquart, Juan Lucha, Justin Andrew Mason, Jonathan McAnulty, Michael McCarthy, Raven Mimura, Brian Wiborg Monster, Will Myers, Mike Myler, Jason Nelson, Jonathan G. Nelson, Owen K.C. Stephens, Colin Stricklin, Cory Vickruck, Stephen Yeardley Jonathan G. Nelson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/935b33a8fa39570d.json",
+    "web": "https://codex.pipsprojects.com/#/e/935b33a8fa39570d"
+  },
+  "license": "OGL 1.0a"
+}

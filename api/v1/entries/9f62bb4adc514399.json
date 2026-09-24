@@ -1,0 +1,26 @@
+{
+  "id": "9f62bb4adc514399",
+  "name": "Drums of Panic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Morten Braten and Xoth.Net Publishing",
+  "book": "Morten Braten and Xoth.Net Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Morten Braten and Xoth.Net Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level druid 4\n\nComponents V, S, F\n\nCasting Time 1 round\n\nRange Personal\n\nArea All enemies in a 30-ft. radius burst, centered on the caster\n\nDuration Concentration (maximum 1 round/level)\n\nSaving Throw See text; Spell Resistance yes\n\nTo cast drums of panic, the caster must have at least one rank in the Perform (drums) skill. All applicable targets within 30 feet of the caster must make a Will save with a DC equal to the result of a Perform (drums) check or become panicked for 1d4 rounds.\n\nIf a target successfully saves, the caster can continue to play the drums for a maximum of 1 round per level, re-rolling the Perform (drums) check and requiring a new Will save from those within the area each round.\n\nFocus: A set of masterwork drums.\n\nPlayer’s Guide to the World of Xoth Copyright © 2015 Morten Braten and Xoth.Net Publishing. Author Morten Braten (a.k.a. Thulsa)",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f62bb4adc514399.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f62bb4adc514399"
+  },
+  "license": "OGL 1.0a"
+}

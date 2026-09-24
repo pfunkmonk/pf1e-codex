@@ -1,0 +1,23 @@
+{
+  "id": "53456ec918b65112",
+  "name": "Crumblewall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one structure; see text\nArea see text\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis arcane siege spell is similar to earthquake, but it topples large structures made of masonry or hewn stone, including castles, fortifications, temples, and so on. The target structure or structure portion may be of any height, but it cannot be more than 80 ft. in length or width.\n\nWhen cast, this spell instantaneously opens a running fissure in a straight line from you to the target structure. The fissure remains about 5 ft. wide and 20 ft. deep until it reaches the target, at which it becomes a gaping chasm. Any creature in the straight line between you and the target structure must make a Reflex save to avoid falling into the fissure. Creatures that fall into the fissure take 2d6 hp damage. The target structure takes damage equal to 2d4 × 100. Because this damage is magically bound to affect structures, this damage is not halved as with object damage and bypasses any of the structure’s hardness.\n\nIf the damage exceeds the hp of the masonry or stone structure, then the structure collapses.\n\nAnyone standing in or on the collapsing structure or within a distance equal to the height of the structure takes 8d6 hp damage with a DC 15 Reflex save for half damage. Creatures failing the saving throw are pinned beneath rubble, as per the earthquake spell.\n\nIf this spell would affect a portion of a structure, only the creatures inside that portion or within a distance of its height take damage when that portion falls.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/53456ec918b65112.json",
+    "web": "https://codex.pipsprojects.com/#/e/53456ec918b65112"
+  },
+  "license": "OGL 1.0a"
+}

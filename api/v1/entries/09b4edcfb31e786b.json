@@ -1,0 +1,28 @@
+{
+  "id": "09b4edcfb31e786b",
+  "name": "Lightning Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level magus 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a copper ring)\n\nEFFECT\n\nRange personal\nArea 50-ft. disc-burst that is 5-ft. wide along one plane (horizontal, vertical, or anywhere in between)\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou burst out with a sheet of lightning dealing 1d6 electricity damage per caster level (maximum 15d6) to all creatures in the burst. You are not affected by this spell and a Reflex save halves the damage.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09b4edcfb31e786b.json",
+    "web": "https://codex.pipsprojects.com/#/e/09b4edcfb31e786b"
+  },
+  "license": "OGL 1.0a"
+}

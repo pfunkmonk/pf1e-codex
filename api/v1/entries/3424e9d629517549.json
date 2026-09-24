@@ -1,0 +1,26 @@
+{
+  "id": "3424e9d629517549",
+  "name": "Sea Spray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 0
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [water]; Level cleric/oracle 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of water)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nA salty mist flies directly into the target’s eyes. They must make a Fortitude save or be blinded by the stinging salt for 1 round.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3424e9d629517549.json",
+    "web": "https://codex.pipsprojects.com/#/e/3424e9d629517549"
+  },
+  "license": "OGL 1.0a"
+}

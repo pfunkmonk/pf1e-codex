@@ -1,0 +1,29 @@
+{
+  "id": "139992b07e605105",
+  "name": "Shadow Slaves",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "shadowsworn": 4,
+      "wizard": 5,
+      "witch": 6
+    },
+    "desc": [
+      "evil",
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination [evil, shadow]; Level shadowsworn 4, sorcerer/wizard 5, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of rotten flesh ingested during casting)\n\nEFFECT\n\nRange personal\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nUpon casting this spell, you begin to vomit forth 1d3 shadows. The shadows are completely under your control. You take a point of Strength damage for each shadow vomited, as negative energy pains wrack your body, and you are also nauseated the next round.\n\nThese shadows move and attack on your initiative, but they cannot travel more than 100 ft. beyond you.\n\nIf one of the shadows moves past this limit due to your movement or its movement, it dissipates instantly.\n\nThese shadows do not count toward the maximum number of undead you can control. Shadows summoned in this manner can be dispelled by dispel magic effects and can be harmed by channeled negative energy as usual.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/139992b07e605105.json",
+    "web": "https://codex.pipsprojects.com/#/e/139992b07e605105"
+  },
+  "license": "OGL 1.0a"
+}

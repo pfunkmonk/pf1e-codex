@@ -1,0 +1,25 @@
+{
+  "id": "ff3847ec2eec07c5",
+  "name": "Consume Likeness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "magus": 5,
+      "wizard": 6
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School transmutation (polymorph); Level alchemist 5, magus 5, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe face and appearance of the target change into the face and appearance of another creature of the same size and creature type that you clearly recall from memory.\n\nThe target creature gains an enhancement bonus of up to +4 or penalty of up to -4 as appropriate to bring its Strength, Dexterity, and Constitution scores toward those of the new likeness. If you have eaten any of a corpse, you can produce an appearance resembling the creature that corpse once was (at any age) even if you have never seen the creature alive.\n\nThis spell can be made permanent with a casting of the permanency spell (requiring caster level 14th and diamonds worth 15,000 gp).\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff3847ec2eec07c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff3847ec2eec07c5"
+  },
+  "license": "OGL 1.0a"
+}

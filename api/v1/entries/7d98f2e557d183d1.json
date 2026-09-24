@@ -1,0 +1,31 @@
+{
+  "id": "7d98f2e557d183d1",
+  "name": "Endless Slumber",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "mesmerist": 5,
+      "occultist": 6,
+      "psychic": 6,
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 5, mesmerist 5, occultist 6, psychic 6, shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a pinch of black sand)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou complete the spell and cause the target to fall into a permanent magically-induced slumber. This operates as the sleep spell for the purposes of how the target may be awakened. Otherwise, the target may make a new save every 24 hours to awaken early. The subject does not need to eat or drink during this time, though they still age and need to breathe.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d98f2e557d183d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d98f2e557d183d1"
+  },
+  "license": "OGL 1.0a"
+}

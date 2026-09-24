@@ -1,0 +1,29 @@
+{
+  "id": "0873294df107b4f7",
+  "name": "Thunderous Voice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "witch": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bard 2, cleric/oracle 2, inquisitor 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 min./level (D)\n\nDESCRIPTION\n\nYour voice is amplified greatly. Subtract 10 from Perception check DCs to hear you speaking or whispering, and you gain a +2 circumstance bonus on Intimidate checks.\n\nWhile the spell is active you can shout as a swift action dealing 1d8 sonic damage in a 15-foot cone. Creatures that take damage must also make a Fortitude save or be stunned for 1 round. Using this action discharges the spell.\n\nCreatures that cannot hear are not stunned but still take the sonic damage. This spell cannot pass through an area of silence.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0873294df107b4f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/0873294df107b4f7"
+  },
+  "license": "OGL 1.0a"
+}

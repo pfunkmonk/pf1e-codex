@@ -1,0 +1,28 @@
+{
+  "id": "467f0fbb60fd9659",
+  "name": "Nuclear Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 7,
+      "wizard": 6,
+      "summoner": 6
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School conjuration (summoning) [chaotic]; Level cleric 7, sorcerer/wizard 6, summoner 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 30-ft.-radius spread\nDuration instantaneous\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nMultiple minor appendages of Azathoth extend into your current reality and lash out at everything in the area. Creatures and objects take 1d100 points of damage and are knocked prone. A successful Reflex save negates being knocked prone and reduces the damage by half.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/467f0fbb60fd9659.json",
+    "web": "https://codex.pipsprojects.com/#/e/467f0fbb60fd9659"
+  },
+  "license": "OGL 1.0a"
+}

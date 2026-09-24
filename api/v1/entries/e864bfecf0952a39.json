@@ -1,0 +1,24 @@
+{
+  "id": "e864bfecf0952a39",
+  "name": "Forgebane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "ranger": 3
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 2, ranger 3\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one weapon\nDuration 1 round/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell enhances a non-metal weapon such as a cudgel or stone spear so that it ignores metal armor and other protections made of metal. Any portion of a target’s AC that derives from metal armor is ignored, though magical bonuses still apply. Non-metal armor protects targets normally.\n\nIf attacking a metal object, the foregebane weapon ignores the object’s hardness rating.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e864bfecf0952a39.json",
+    "web": "https://codex.pipsprojects.com/#/e/e864bfecf0952a39"
+  },
+  "license": "OGL 1.0a"
+}

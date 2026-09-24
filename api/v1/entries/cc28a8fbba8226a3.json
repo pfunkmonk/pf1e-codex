@@ -1,0 +1,27 @@
+{
+  "id": "cc28a8fbba8226a3",
+  "name": "Soulmending",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "inquisitor": 4,
+      "mesmerist": 4,
+      "paladin": 3,
+      "wizard": 4
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (charm); Level bard 4, cleric/oracle 4 inquisitor 4, mesmerist 4, paladin 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, F (a book or scroll which tells a story of adventure)\n\nEFFECT\n\nRange touch\nDuration instantaneous\nSaving Throw none Spell Resistance no\n\nDESCRIPTION\n\nYou wave a hand over an inspirational text and use the magic of its heartening tale to heal the mind and soul of a target. With a touch you clear any mind-affecting or emotion effect the target is currently subject to, with the exception of permanent effects like insanity. In addition you restore any memories lost to the creature and remove all negative levels.\n\nSoulmending, Greater\n\nSchool enchantment (charm); Level bard 6, cleric/oracle 6, inquisitor 6, mesmerist 6, paladin 4, sorcerer/wizard 6\n\nDESCRIPTION\n\nThis spell functions as soulmending except it also removes permanent effects, and it restores 2d4 Intelligence, Wisdom or Charisma damage. Instead of healing ability score damage, this spell can also remove drain at the cost of 3 ability damage healing per 1 drain healing. The healing result may be divided up between the three ability scores. If using sanity rules, this spell can remove a lesser madness and heal 5 sanity damage/level.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cc28a8fbba8226a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/cc28a8fbba8226a3"
+  },
+  "license": "OGL 1.0a"
+}

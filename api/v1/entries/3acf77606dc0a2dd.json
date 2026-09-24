@@ -1,0 +1,26 @@
+{
+  "id": "3acf77606dc0a2dd",
+  "name": "Patron’s Aspect",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (phantasm)) [fear; mind-affecting, evil]; Level bard 3, cleric/oracle 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will disbelief; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou commune with dark spirits to conjure an image of a particularly terrifying fiend, and then you send it hurtling toward a foe. Unless it succeeds at a Will save, the foe believes it has incurred the fiend’s wrath and flees or freezes with fright.\n\nIf the target fails its save, it believes the image is real. The target then must make a Reflex save. If the Reflex save fails, the target takes 3d6 hp of damage and is stunned for 1d3 rounds. If the save succeeds, it is frightened.\n\nThis effect lasts as long as it takes the creature to flee the encounter or until it dies in combat.\n\nThis spell is most commonly found among the tieflings, and rarely seen elsewhere. Some believe that a human caster who casts this spell more than once becomes a tiefling himself.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3acf77606dc0a2dd.json",
+    "web": "https://codex.pipsprojects.com/#/e/3acf77606dc0a2dd"
+  },
+  "license": "OGL 1.0a"
+}

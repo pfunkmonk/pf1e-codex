@@ -1,0 +1,25 @@
+{
+  "id": "24cfe8ed8c1a62a2",
+  "name": "Amanuensis",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 0,
+      "oracle": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level bard 0, cleric/oracle 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget object or objects with writing\nDuration 10 minutes/level\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou cause writing to be copied from one source to another. For example you could copy a book into a blank book. The spell copies one page per minute and creates a perfect duplicate though it is written in your handwriting. This spell copies only non-magical text. So any magical writing (such as spellbooks or scrolls), sigils (such as a sepia snake sigil) or illustrations are left as blank spaces on the page. This spell will trigger rune, sigil and symbol spells (if applicable) even if it does not copy them.\n\nA blank medium (paper, parchment or book) must be provided for the spell to write upon. The spell will automatically turn pages of the source material and the destination medium for copying, if applicable. If there are insufficient blank pages for copying, you are alerted by a light pinging in your head and the spell stops copying until more blank material is provided. At any time, you may change sources or destinations of the copying.\n\nThis spell will not translate the text being copied. If you do not understand the original, you cannot understand the copied text.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/24cfe8ed8c1a62a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/24cfe8ed8c1a62a2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "c9d76fd567ce8e01",
+  "name": "Beneficent Breeze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "archon": 2,
+      "bard": 3,
+      "oracle": 3,
+      "druid": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [air]; Level archon 2, bard 3, cleric/oracle 3, druid 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nA strong wind surrounds the subject, aiding his movement. This wind has the following benefits.\n\nThe subject can jump up to ten feet across, five feet up, or twenty feet down without making an Acrobatics check, and adds these distances to any jumps that are made with an Acrobatics check. At 8th-caster-level, these distances double.\nThe subject does not spend extra movement when moving through difficult terrain. At 8th-caster-level, the subject gains a +10 foot bonus to its move and fly rates.\nThe subject gains a +10 bonus to all Climb checks, and does not lose its Dex bonus to AC when climbing. At 8th-caster-level, this bonus increases to +20.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9d76fd567ce8e01.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9d76fd567ce8e01"
+  },
+  "license": "OGL 1.0a"
+}

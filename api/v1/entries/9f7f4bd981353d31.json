@@ -1,0 +1,32 @@
+{
+  "id": "9f7f4bd981353d31",
+  "name": "Boil Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 0,
+      "bard": 0,
+      "cleric": 0,
+      "druid": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "fire",
+      "water"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School evocation [fire, water]; Level adept 0, bard 0, cleric 0, druid 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of salt)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget up to 1 gallon of water/level\nDuration concentration + 1 min./level (D)\nSaving Throw Fort negates (object); Spell Resistance no\n\nDESCRIPTION\n\nAs you maintain concentration, you apply heat to a quantity of fresh or salt water. The heat is enough to bring 1 gallon per level of room temperature water to a boil over the course of a minute. If the target water is part of a larger body, you slowly raise the overall temperature of the water as if directing a campfire’s heat into the liquid.\n\nYou cannot target creatures with this spell. You can only have one boil water spell active at any one time.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f7f4bd981353d31.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f7f4bd981353d31"
+  },
+  "license": "OGL 1.0a"
+}

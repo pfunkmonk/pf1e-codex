@@ -1,0 +1,28 @@
+{
+  "id": "fe2d5b19613ad951",
+  "name": "Charm Snakes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "ranger": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level cleric/oracle 1, druid 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nTarget one or more snakes, no two of which can be more than 30 ft. apart\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions like charm person or charm animal, except that it only affects snakes. This spell affects a number of snakes whose combined HD do not exceed twice your level. If there are more potential targets than you can affect, you choose them one at a time until you choose a creature with too many HD. Unfortunately, this spell only affects snakes of the animal type. Snake-like creatures (such as magical beasts, aberrations, outsiders, and so on) cannot be affected by this spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe2d5b19613ad951.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe2d5b19613ad951"
+  },
+  "license": "OGL 1.0a"
+}

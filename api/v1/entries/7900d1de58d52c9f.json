@@ -1,0 +1,23 @@
+{
+  "id": "7900d1de58d52c9f",
+  "name": "Chain Enervation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (the finger bone of a wight, which is broken during the casting of the spell)\n\nEFFECT\n\nRange medium (100 ft. +10 ft./ levels)\nTarget one primary target, plus one secondary target/level (each of which must be with 30 ft. of the primary target)\nDuration instantaneous\nSaving Throw none and Reflex (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou fire a bolt of negative energy at a primary target that then splits and strikes nearby enemies. The negative energy suppresses the life force of the targeted creatures. The caster must make a ranged touch attack upon the primary target. Creatures can avoid the secondary bolts with a successful Reflex save at a –4 penalty.\n\nIf the attack misses the primary target, all the bolts fade harmless away.\n\nIf the attack succeeds, the primary target gains 1d4 negative levels. Lesser bolts leap from the primary target to one additional opponent per level of the caster. All adjacent opponents of the primary target gain 1 negative level. All opponents must be within 30 feet of each other.\n\nIf the subjects have as many negative levels as HD, they die. Each negative levels bestows a –1 penalty to attack rolls, saving throws, skill checks, ability checks, and effective level (for determining the power, duration, DC, and other details of spells or spell-like abilities).\n\nAdditionally, a spellcaster loses one spell or spell slot from his or her highest available. These negative levels stack.\n\nAssuming the subject survives, the negative levels return after a number of hours equal to the caster level. Unlike enervation, if the duration exceeds 24 hours either by a 24th-level caster or the use of a metamagic feat, the negative levels have a chance of becoming permanent. A single Fortitude DC versus the spell must be made after 24 hours to see if the negative levels become permanent (see negative levels).\n\nUndead creatures struck by the bolts gain 1d6x5 temporary hit points for 1 hour.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7900d1de58d52c9f.json",
+    "web": "https://codex.pipsprojects.com/#/e/7900d1de58d52c9f"
+  },
+  "license": "OGL 1.0a"
+}

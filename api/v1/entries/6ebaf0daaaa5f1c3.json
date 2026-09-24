@@ -1,0 +1,24 @@
+{
+  "id": "6ebaf0daaaa5f1c3",
+  "name": "Aquatic Entangle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "oracle": 1
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 1, cleric/oracle 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 40-ft.-diameter spread\nDuration 1 minute/level\nSaving Throw Reflex (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell is an aquatic version of the druid spell entangle. It calls forth sea grasses and seaweed to snare swimmers and underwater travelers.\n\nSmall ships can also be caught in the area of effect.\n\nAny target caught in the area of effect suffers a –2 penalty to attack rolls, –4 to Dexterity, and cannot move. An entangled creature attempting to cast a spell must succeed on a Concentration check (DC 15 + spell level), or lose the spell. The target may attempt a DC 20 Strength check or Escape Artist check to escape the entanglement. A successful save allows the target to move at half speed out of the area. A ship caught must be smaller than 30 feet in length, and to escape, the navigator of the vessel must succeed on a successful DC 20 check using whichever skill or ability is required to pilot the vessel (see “Vehicles”).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6ebaf0daaaa5f1c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/6ebaf0daaaa5f1c3"
+  },
+  "license": "OGL 1.0a"
+}

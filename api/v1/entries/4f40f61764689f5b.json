@@ -1,0 +1,27 @@
+{
+  "id": "4f40f61764689f5b",
+  "name": "Glacial Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 3
+    },
+    "desc": [
+      "air",
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air, cold]; Level druid/shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nEffect 60-ft. line of blasted cold\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a severe, freezing blast of air (approximately 50 mph) that originates from you, affecting all creatures in a 60-ft. line. All creatures in this area suffer 1d4 hp cold damage per caster level (maximum 10d4) and are staggered for one round. A successful Fortitude save halves the damage and negates the staggered condition. This spell acts in all other ways like a gust of wind.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4f40f61764689f5b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4f40f61764689f5b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "c45a7042619b8ed1",
+  "name": "Stalwart",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 4,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 4, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one touched creature\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou bring a reeling, unconscious, exhausted, or sorely wounded creature back to full hp, fresh vigor, and inspired courage.\n\nApplication of this spell ends the blinded, confused, dazed, deafened, exhausted, fatigued, nauseated, sickened, and stunned conditions. It temporarily restores lost hp and suspends the effects of ability damage, disease, insanity, and poison. When stalwart expires, suspended conditions return, and the spell recipient ends up 1 hp better than they were when this spell was applied to them, unless they were already at full hp. You may only cast this spell on yourself once per day, but you may cast it an unlimited number of times on other creatures.\n\nWhen stalwart is applied to an undead creature, it deals 1 hp damage per caster level every round, and it temporarily restores the mind of the undead to the alignment, views, knowledge, and attitude it had before death. If stalwart magic (one spell or multiple stalwarts, in combination) reduces an undead to negative hp before spell expiration, the undead is destroyed. If not, it returns to 1 hp less than it had when the spell affected it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c45a7042619b8ed1.json",
+    "web": "https://codex.pipsprojects.com/#/e/c45a7042619b8ed1"
+  },
+  "license": "OGL 1.0a"
+}

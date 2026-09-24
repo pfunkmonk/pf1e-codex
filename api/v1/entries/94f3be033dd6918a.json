@@ -1,0 +1,34 @@
+{
+  "id": "94f3be033dd6918a",
+  "name": "Space Madness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "mesmerist": 3,
+      "psychic": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School illusion (phantasm) [emotion, fear, mind-affecting]; Level bard 3, cleric 3, inquisitor 3, mesmerist 3, psychic 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a square of black cloth with a tear in the middle)\n\nEFFECT\n\nRange close (25 ft. plus 5 ft./2 levels)\nTarget 1 creature\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nYou craft an image of a rift in space and time, revealing the dangerous vastness of space, and causing your target to feel insignificant. The subject’s attitude toward all other creatures changes to unfriendly (per the Diplomacy skill) and it takes a –4 penalty to any skill or ability check involving concentration. A character who becomes hostile toward another creature while under the influence of this spell is convinced the creature intends harm in the near future and reacts accordingly. Space madness affects any intelligent creature in spite of immunity to mind-affecting effects (such as constructs or undead).\n\nThe Four Horsemen Present: Character Options – Gods in the Void © 2015, Rogue Genius Games. Author: Steven T. Helt.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94f3be033dd6918a.json",
+    "web": "https://codex.pipsprojects.com/#/e/94f3be033dd6918a"
+  },
+  "license": "OGL 1.0a"
+}

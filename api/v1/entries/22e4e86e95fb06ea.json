@@ -1,0 +1,29 @@
+{
+  "id": "22e4e86e95fb06ea",
+  "name": "Form of the Phoenix",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 8,
+      "oracle": 8,
+      "druid": 8,
+      "shaman": 8
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation (polymorph) [fire]; Level arcanist/sorcerer/wizard 8, cleric/oracle 8, druid 8, shaman 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of phoenix blood)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\nSaving Throw see below; Spell Resistance no\n\nDESCRIPTION\n\nThis spell was devised by the jyoti, to allow themselves to assume the shape of their majestic phoenix relatives.\n\nWhen casting this spell, you assume the form of a Gargantuan phoenix. This works as beast shape IV, except as noted below.\n\nYou gain the following abilities: a +10 size bonus to Strength, -6 size penalty to Dexterity, +6 size bonus to Constitution, a +19 natural armor bonus, fly 120 feet (good), darkvision 90 feet, damage reduction 10/evil, low-light vision, immunity to fire, and vulnerability to cold. You also gain one bite (2d8), two claws (2d6), regeneration 10 (cold or evil), and shroud of flame as supernatural abilities.\n\nShroud of flame allows you to cause your feathers to blast into fire as a free action for 1 round per caster level in the spell’s duration. These rounds have not to be consecutive.\n\nWhile your feathers are burning, you inflict an additional 1d6 points of fire damage with each natural attack, and any creature within 20 feet must make a DC 25 Reflex save each round to avoid taking 4d6 points of fire damage at the start of its turn. A creature that attacks you with natural or non-reach melee weapons takes 1d6 points of fire damage (no save) with each successful hit. The save DC is Constitution-based.\n\nThe Bardess’ Library #2 - Elements, © 2024, Legendary Games; Author: Margherita Tramontano.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/22e4e86e95fb06ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/22e4e86e95fb06ea"
+  },
+  "license": "OGL 1.0a"
+}

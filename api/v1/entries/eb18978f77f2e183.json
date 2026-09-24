@@ -1,0 +1,25 @@
+{
+  "id": "eb18978f77f2e183",
+  "name": "Antagonize Wound",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 0,
+      "druid": 0,
+      "wizard": 0
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy; Level cleric/oracle 0, druid 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 1 round/level (D); see text\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nWith a touch, you cause an existing wound to deal 1 point of damage. Each round thereafter, the target must succeed on a Fortitude save or take an additional 1 point of damage. If the target succeeds on two consecutive saves or is subjected to a Conjuration (healing) spell, the effect ends.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb18978f77f2e183.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb18978f77f2e183"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "02ec333c088230a7",
+  "name": "Deathcloak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Sean K. Reynolds Games",
+  "book": "Sean K. Reynolds Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "hellenic sorceress": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Sean K. Reynolds Games"
+  },
+  "body": "School transmutation [evil]; Level Hellenic sorceress 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M (rare herbs and exotic drugs worth 100 gp)\n\nEFFECT\n\nRange touch\nTarget cloak or other piece of clothing touched\nDuration 1 hour/level or until discharged; see text\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou imbue a cloak, cape, gown, shirt, or other piece of clothing with a magical trap so that it bursts into flames as soon as it is put on, igniting the target as if he were doused with alchemist’s fire (1d6 fire damage per round, Reflex save for half, minimum 1 damage), although once the deathcloak ignites it cannot be extinguished (without using magic) until a number of rounds equal to your caster level has passed.\n\nThe cursed cloth sticks to the target and cannot be removed unless he succeeds at a Strength check (DC equal to the spell’s saving throw DC). Removing the cloth means the flames can be extinguished normally, and ends all magic in the cloak. Any creature that tries to help extinguish the flames on the target while the cloth is still worn is immediately affected as if doused with alchemist’s fire (which can be extinguished normally). Creatures other than the target can attempt to remove the cloak from him, though the attempt also ignites them as with alchemist’s fire.\n\n– New Argonauts New Argonauts. Copyright 2004 Sean K Reynolds. All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02ec333c088230a7.json",
+    "web": "https://codex.pipsprojects.com/#/e/02ec333c088230a7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cc019d022f431717",
+  "name": "Charnel Stench",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a few internal organs taken from a rotting corpse)/DF\n\nEFFECT\n\nRange 10 ft.\nArea 10-ft.-radius emanation centered on you\nDuration 1 round/level (D)\nSaving Throw none or Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou exude a carrion stench that causes all living creatures (except you) in a 10-foot-radius emanation to become sickened. This condition lasts as long as the creature is in the area and for 1d4+1 rounds after it leaves. Any creature that succeeds on its save but remains in the area must continue to save each round on your turn. A neutralize poison spell removes the effects from a sickened creature, and creatures immune to poison are unaffected by the stench.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cc019d022f431717.json",
+    "web": "https://codex.pipsprojects.com/#/e/cc019d022f431717"
+  },
+  "license": "OGL 1.0a"
+}

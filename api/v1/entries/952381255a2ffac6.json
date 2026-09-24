@@ -1,0 +1,17 @@
+{
+  "id": "952381255a2ffac6",
+  "name": "Spectral Rock Troll",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "This humanoid creature stands nearly twice as tall as a human. Its arms are long and gangly and end in sharpened talons. Filthy black, matted hair streams down from its head.\n\nSpectral Rock Troll\nCR 7\n\nXP 3,200\nCE Large undead (incorporeal)\nInit +5; Senses darkvision 60 ft., low-light vision, scent; Perception +16\n\nDEFENSE\n\nAC 11, touch 11, flat-footed 10 (+1 deflection, +1 Dex, –1 size)\nhp 52 (8d8+8 plus 8)\nFort +7; Ref +3; Will +1\nDefensive Abilities channel resistance +4, incorporeal, rejuvenation; Immune undead traits\n\nOFFENSE\n\nSpeed 30 ft., fly 30 ft. (perfect)\nMelee corrupting touch +6 (7d6, Fort DC 15 half)\nSpace 10 ft.; Reach 10 ft.\nSpecial Attacks create spawn\n\nSTATISTICS\n\nStr —, Dex 12, Con —, Int 6, Wis 9, Cha 12\nBase Atk +6; CMB +7; CMD 19\nFeats Alertness, Improved InitiativeB, Intimidating Prowess, Power Attack, Skill Focus (Intimidate), ToughnessB\nSkills Fly +7, Intimidate +8, Linguistics –2 , Perception +16, Sense Motive +3, Stealth +5; Racial Modifiers +8 Perception, +8 Stealth\nLanguages Common, Giant\nSQ vanish\n\nSPECIAL ABILITIES\n\nCorrupting Touch (Su)\n\nSpectral trolls gain an incorporeal touch attack. As a standard action a troll inflicts a number of d6s equal to its CR in damage. The damage is not negative energy—it manifests in the form of physical wounds and aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save (DC = 10 + 1/2 the spectral troll’s Hit Dice + spectral troll’s Charisma modifier) halves the damage inflicted.\n\nCreate Spawn (Su)\n\nAny humanoid killed by a spectral troll rises 1d3 days later as a free-willed spectre unless a cleric of the victim’s religion casts bless or consecrate on the corpse before such time.\n\nRejuvenation (Su)\n\nIn most cases, it’s difficult to destroy a spectral troll through simple combat: The “destroyed” spirit often restores itself in 2d4 days. Even the most powerful spells are usually only temporary solutions. The only way to get rid of a spectral troll for sure is to determine the reason for its existence and set right whatever prevents it from resting in peace. The exact means varies with each spirit and may require a good deal of research.\n\nVanish (Su)\n\nSpectral trolls vanish in direct sunlight. They are not harmed by it, nor does it cause them any discomfort: they simply do not appear in sunlight. Spectral trolls that are held, restrained, confined, or imprisoned (including magical means such as temporal stasis) vanish in direct sunlight. Once night has fallen, a spectral troll reappears. (If the spectral troll was magically held or restrained, the magic does not resume when it reappears.)\n\nEditor’s Note\n\nBase template: Spectral Troll (CR +1)\n\nECOLOGY\n\nEnvironment any\nOrganization solitary\nTreasure standard\n\nSpectral Rock Troll from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene, based on original material by Wizards of the Coast.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/952381255a2ffac6.json",
+    "web": "https://codex.pipsprojects.com/#/e/952381255a2ffac6"
+  },
+  "license": "OGL 1.0a"
+}

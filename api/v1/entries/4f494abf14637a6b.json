@@ -1,0 +1,25 @@
+{
+  "id": "4f494abf14637a6b",
+  "name": "Voidmote",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 1,
+      "wizard": 1
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level bard 2, cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nEffect black missile fires from caster’s hand towards target\nDuration 1 round per caster/level\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nAn urchin-shaped missile made from the black stuff of the Void flies from your fingers, deals 1d3+1 hp cold damage, and may fatigue the target.\n\nThe missile strikes unerringly, even if the target is in melee combat, as long as you have line of sight. Specific parts of a creature can’t be singled out. Objects are not damaged by the spell. The target may make a Reflex save to avoid being fatigued.\n\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures, and each missile has the possibility of fatiguing the target (although a creature hit with multiple missiles is only subject to one chance of being fatigued for one round). A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4f494abf14637a6b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4f494abf14637a6b"
+  },
+  "license": "OGL 1.0a"
+}

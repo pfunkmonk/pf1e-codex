@@ -1,0 +1,28 @@
+{
+  "id": "a3b4728e320210ac",
+  "name": "Fey Healing, Mass Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "magus": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "summoner": 5,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation (healing); Level druid 5, magus 5, shaman 5, sorcerer/wizard 5, summoner 5, witch 5\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 5 rounds + 1 round/level (max 15)\n\nDESCRIPTION\n\nThis spell functions like lesser fey healing except it affects multiple targets.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3b4728e320210ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3b4728e320210ac"
+  },
+  "license": "OGL 1.0a"
+}

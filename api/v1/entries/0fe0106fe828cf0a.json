@@ -1,0 +1,26 @@
+{
+  "id": "0fe0106fe828cf0a",
+  "name": "Agonizing Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [electricity]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft. / 2 levels)\nTarget creature or object\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nA palm-sized translucent sphere with a black core shoots forward. You must succeed on a ranged touch attack to hit your target. If it hits, the sphere inflicts 2d6 hp electrical damage + 1d6 for every two caster levels beyond third.\n\nA creature struck by the sphere is also stunned for 1 round plus an additional round per three caster levels as electricity courses through it. On a critical hit, the target is initially stunned for 2 rounds plus the additional round per three caster levels.\n\nA successful Fortitude save negates the stunned condition, but it does not reduce the damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0fe0106fe828cf0a.json",
+    "web": "https://codex.pipsprojects.com/#/e/0fe0106fe828cf0a"
+  },
+  "license": "OGL 1.0a"
+}

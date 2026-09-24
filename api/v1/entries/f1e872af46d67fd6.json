@@ -1,0 +1,27 @@
+{
+  "id": "f1e872af46d67fd6",
+  "name": "Vicarious Trauma",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "lathspell": 2,
+      "psychic": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level antipaladin 2, cleric/oracle 2, inquisitor 2, lathspell 2, psychic 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, F (an iron ring)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a vile connection between you and another creature that transfers some of your wounds to them.\n\nYou take a -1 penalty to AC and saving throws, but you take only half damage from all wounds and attacks that deal hit point damage. The amount of damage not taken by you is transferred to the targeted creature.\n\nOther detrimental effects that do not cause hit point damage are not shared, including lowered total HP due to changes in their Constitution modifier.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1e872af46d67fd6.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1e872af46d67fd6"
+  },
+  "license": "OGL 1.0a"
+}

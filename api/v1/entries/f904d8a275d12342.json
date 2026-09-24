@@ -1,0 +1,28 @@
+{
+  "id": "f904d8a275d12342",
+  "name": "Doom Of The Earthen Maw",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [earth]; Level antipaladin 4, cleric/oracle 5, druid/shaman 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius spread (S)\nDuration 10 rounds\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThe ground within 30 ft. of the point the caster designates turns to a filthy and slippery muck, drawing all those in the area down into a watery death. Creatures within the area all gain the entangled condition.\n\nEntangled creatures can attempt to break free as a move action, making a Strength check. The DC for this check is equal to the DC of the spell. The entire area of effect is difficult terrain while the effect lasts, and all creatures within it are flat-footed.\n\nThe depth of the muck grows deeper each round, and some creatures may find it impossible to escape.\n\nIn round 1, creatures within the area of effect sink to about 3 ft. deep unless they leave the area of the spell.\n\nIn round 2, the earthen maw draws all Small creatures under the surface, possibly drowning them.\n\nIn round 3, the maw pulls all Medium or larger creatures under, possibly drowning them.\n\nIn round 4, all Large creatures are pulled under the surface of the muck, possible drowning them.\n\nCreatures of size Huge or bigger may be trapped in the muck, but they are never in danger of slipping below the surface.\n\nCreatures still stuck in the earthen maw at the end of round 10 are sealed in as the ground returns to solid form-however, creatures sunken into the ground do not take direct damage. Escaping from the earth, stone, forest roots, or other material requires digging or help from others, and creatures trapped this way are often easy prey.\n\nAntipaladins sometimes combine this spell with a magical item that provides easy access to air, such as a ring of water breathing or a particular form of ioun stone.\n\nOthers use this spell as an easy way to make a dramatic escape (combined with a hidden tunnel or slowly digging themselves out of the earth long after the duration ends).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f904d8a275d12342.json",
+    "web": "https://codex.pipsprojects.com/#/e/f904d8a275d12342"
+  },
+  "license": "OGL 1.0a"
+}

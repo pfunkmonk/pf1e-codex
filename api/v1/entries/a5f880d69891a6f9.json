@@ -1,0 +1,25 @@
+{
+  "id": "a5f880d69891a6f9",
+  "name": "Repair Light Damage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level alchemist 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget construct touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen you touch a damaged (but not destroyed) creature with the construct type you repair 1d6 points of damage +1 point per caster level (maximum +5). When an alchemist creates an extract of repair light damage, it can be applied by touch even if the alchemist does not have the infusion discovery.\n\nRepair Moderate Damage\n\nSchool transmutation; Level alchemist 2, magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\n\nDESCRIPTION\n\nAs repair light damage, except that it repairs 2d6 points of damage +1 per caster level (maximum +10).\n\nRepair Serious Damage\n\nSchool transmutation; Level alchemist 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\n\nDESCRIPTION\n\nAs repair light damage, except that it repairs 3d6 points of damage +1 per caster level (maximum +15).\n\nRepair Critical Damage\n\nSchool transmutation; Level alchemist 4, magus 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\n\nDESCRIPTION\n\nAs repair light damage, except that it repairs 4d6 points of damage +1 per caster level (maximum +20).\n\nAlien Codex © 2018, Legendary Games; Lead Designer: Jason Nelson. Authors: Anthony Adam, Kate Baker, John Bennet, Eytan Bernstein, Robert Brookes, Russ Brown, Duan Byrd, Paris Crenshaw, Jeff Dahl, Robyn Fields, Joel Flank, Matt Goodall, Robert J. Grady, Jim Groves, Steven T. Helt, Thurston Hillman, Tim Hitchcock, Nick Hite, Daniel Hunt, Mike Kimmel Marshall, Isabelle Lee, Jeff Lee, Lyz Liddell, Jason Nelson, Richard Pett, Tom Phillips, Jeff Provine, Alistair J. Rigg, Alex Riggs, Wendall Roy, Mike Shel, Neil Spicer, Todd Stewart, Russ Taylor, Rachel Ventura, Mike Welham, George Loki Williams, Scott Young.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a5f880d69891a6f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/a5f880d69891a6f9"
+  },
+  "license": "OGL 1.0a"
+}

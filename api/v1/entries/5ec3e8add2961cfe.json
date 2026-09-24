@@ -1,0 +1,26 @@
+{
+  "id": "5ec3e8add2961cfe",
+  "name": "Wall Of Runes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6,
+      "summoner": 5,
+      "witch": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, sorcerer/wizard 6, summoner 5, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a rune inscribed on a piece of parchment)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ephemeral wall one 10-ft. square/level\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nAn opaque wall covered in shimmering runes springs into existence. The runes may take on different appearances depending on the culture from which you hail-some appear as detailed hieroglyphs, others as complex cuneiform-but whatever the appearance of the wall, its effects are the same.\n\nThe wall is ephemeral and offers no physical resistance, but anyone passing through the wall must succeed at a Will save or be cursed.\n\nChoose one of the following curses when casting this spell. The wall imposes this curse on all creatures that pass through it.\n\n-6 decrease to an ability score (minimum 1).\n-4 penalty on attack rolls, saves, ability checks, and skill checks.\nEach turn, the target has a 50% chance to act normally; otherwise, it takes no action.\n\nYou may also invent your own curse, but it should be no more powerful than those described above. The curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ec3e8add2961cfe.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ec3e8add2961cfe"
+  },
+  "license": "OGL 1.0a"
+}

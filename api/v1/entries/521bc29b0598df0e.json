@@ -1,0 +1,23 @@
+{
+  "id": "521bc29b0598df0e",
+  "name": "Steal Dying Breath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy; Level cleric 2\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange 10 feet\nTarget one creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nWhen a creature within range of you dies, you can cast this spell to trap a portion of its fading life essence, adding 1 point to your ki pool. If the target had a ki pool in life and had at least 1 point in its ki pool at the time of its death, you instead add 2 points to your ki pool. These ki points are temporary and dissipate if not spent within 1 hour. This effect does not apply if the caster lacks a ki pool. If the target is later returned to life, it gains a temporary negative level lasting 24 hours; this is in addition to any negative levels gained from breath of life, raise dead, reincarnate, or similar spells. If this negative level (or the total of combined negative levels) would exceed the creature’s Hit Dice, the creature takes an additional point of Constitution drain instead. A Fortitude save negates this effect.\n\nLegendary Investigators © 2022, Legendary Games; Connor Bates, Andrew J Gibson, Norman Mitchell, Margherita Tramontano, Tara Collins",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/521bc29b0598df0e.json",
+    "web": "https://codex.pipsprojects.com/#/e/521bc29b0598df0e"
+  },
+  "license": "OGL 1.0a"
+}

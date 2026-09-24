@@ -1,0 +1,23 @@
+{
+  "id": "11ebdaef7f549df8",
+  "name": "Industrial Flame Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 2
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (fire); Level machinesmith 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of lamp oil)\n\nEFFECT\n\nRange touch\nTarget one melee weapon touched\nDuration 1 round/level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell attaches to a weapon a mechanism that continually coats and ignites its cutting or impact edge with fiery oil. Each time this weapon hits, it deals an extra 1d6 fire damage. A target that takes fire damage from this spell must succeed on a Reflex save or catch on fire.\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/11ebdaef7f549df8.json",
+    "web": "https://codex.pipsprojects.com/#/e/11ebdaef7f549df8"
+  },
+  "license": "OGL 1.0a"
+}

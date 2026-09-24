@@ -1,0 +1,30 @@
+{
+  "id": "483e96df1a75b097",
+  "name": "Though Crystal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "inquisitor": 2,
+      "lathspell": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [mind-affecting]; Level inquisitor 2, lathspell 2, psychic 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\nTarget one living creature with an Intelligence of 3 or higher\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cast this spell and focus your mind upon the mind of another. After 3 rounds of concentrating on this spell, a shard of crystal forcibly bursts from the target’s head. The crystal deals 2d8 damage and 1d2 Intelligence damage and flies to your outstretched hand. If the spell is interrupted during the 3 rounds of concentration, it is lost.\n\nOnce you have received the crystal, you can use a full-round action to look into it and view the target’s recent memories and surface thoughts. This acts as the spell detect thoughts regarding the surface thoughts and you can view memories of events the target was involved in within the last day. The crystal remains for 24 hours or until it has been viewed then disintegrates into a grayish powder.\n\nIf the target has had their memory modified or obliterated, this spell gets the modified version of events or the lack thereof. Only the caster can view the contents of the crystal.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/483e96df1a75b097.json",
+    "web": "https://codex.pipsprojects.com/#/e/483e96df1a75b097"
+  },
+  "license": "OGL 1.0a"
+}

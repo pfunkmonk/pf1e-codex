@@ -1,0 +1,30 @@
+{
+  "id": "77541afb7e27a075",
+  "name": "Stone Piston",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "summoner": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [earth]; Level bard 3, cleric/oracle 3, druid/shaman 3, sorcerer/wizard 3, summoner 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a small basalt cylinder)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nDuration 1 round/level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nYour upthrust arms cause a massive column stone to jut up from the floor with tremendous force and speed.\n\nThe column’s height can be up to 5 ft. per your level and its diameter can be up to 5 ft. per every five levels you possess.\n\nAll creatures and objects in the area of effect that fail a Reflex save are smashed against the ceiling, take 1d6 hp bludgeoning damage per caster level (maximum 10d6 hp damage) and must succeed on a second Reflex save or gain the pinned condition until they escape or the spell ends. The column’s CMD, for the purposes of escaping the pin, is equal to 16 + caster’s BAB. If the conjured column does not reach the ceiling, those who fail their save are carried aloft to the full height of the column.\n\nWhether crushed or carried, those atop the column are subject to falling damage (1d6 hp damage/10 ft. of the column’s height) when the spell ends.\n\nConjured columns can be made permanent with the permanency spell for a cost of 7,500 gp and a minimum caster level of 11th.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77541afb7e27a075.json",
+    "web": "https://codex.pipsprojects.com/#/e/77541afb7e27a075"
+  },
+  "license": "OGL 1.0a"
+}

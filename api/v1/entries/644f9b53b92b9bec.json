@@ -1,0 +1,27 @@
+{
+  "id": "644f9b53b92b9bec",
+  "name": "Ray of Hope",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 1,
+      "paladin": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [light]; Level cleric/oracle 1, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 level)\nEffect ray\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou cast a beam of golden light at the target, bathing it in warm heavenly radiance if you succeed in a ranged touch attack. Your allies are filled with hope at the possibility of overcoming the target, gaining a +2 morale bonus on attack rolls, ability checks, skill checks, and saving throws made against the target. If that target is reduced to 0 hit points, you may expend one use of your channel energy ability as an immediate action to fire a new ray of hope at a different target.\n\nIf the ray of hope hits, any remaining duration is transferred to that new target.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/644f9b53b92b9bec.json",
+    "web": "https://codex.pipsprojects.com/#/e/644f9b53b92b9bec"
+  },
+  "license": "OGL 1.0a"
+}

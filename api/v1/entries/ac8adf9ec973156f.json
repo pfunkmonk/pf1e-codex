@@ -1,0 +1,28 @@
+{
+  "id": "ac8adf9ec973156f",
+  "name": "Farstrike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level cleric/oracle 3, druid 3, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Visual Range\nTarget one creature or object\nDuration instantaneous\nSaving Throw Reflex negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nFarstrike creates a bolt of flame that flies from your finger to strike any single target within your line of sight. Your sight may be augmented to improve his natural vision, but visions based on scrying or similar effects do not aid in targeting this spell. Farstrike does 1d4 points of damage per caster level (max 10d4) and has a chance of setting anything flammable it hits on fire. The bolt flies in a parabolic arc and, thus, can be seen coming from a distance, allowing the target time to get out of the way, hence a Reflex save negates all damage.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ac8adf9ec973156f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ac8adf9ec973156f"
+  },
+  "license": "OGL 1.0a"
+}

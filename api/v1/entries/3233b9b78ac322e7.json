@@ -1,0 +1,29 @@
+{
+  "id": "3233b9b78ac322e7",
+  "name": "Powder of Ibn Ghazi",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 4,
+      "magus": 4,
+      "mesmerist": 4,
+      "occultist": 4,
+      "wizard": 4,
+      "summoner": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School abjuration; Level bard 4, magus 4, mesmerist 4, occultist 4, sorcerer/wizard 4, summoner 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (any fine powder), F (a tube or similar implement)\n\nEFFECT\n\nRange 20 ft.\nTargets all creatures, spells, and objects in a burst centered on you\nDuration instantaneous and 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou blow the powder through a tube or other implement around you, which briefly clings to and then magically reveals all invisible creatures and objects in the area.\n\nAll effects that cause invisibility are immediately ended and no new effect can make those creatures or objects invisible again for 1 minute per caster level. All spells and magic items in the area radiate their magic auras as described in detect magic for all to see for 1 minute per caster level. Observers can only interpret the significance of an aura with a successful Spellcraft check as a standard action.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3233b9b78ac322e7.json",
+    "web": "https://codex.pipsprojects.com/#/e/3233b9b78ac322e7"
+  },
+  "license": "OGL 1.0a"
+}

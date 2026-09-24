@@ -1,0 +1,23 @@
+{
+  "id": "118f550437625ea1",
+  "name": "Dimensional Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (dimensional); Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nArea 30-ft.-radius emanation centered on you\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, a powerful wave erupts from your body in all directions, warping space around you.\n\nThe wave crashes over friends and foes, dealing 1d6 hp force damage per caster level (maximum 20d6 hp damage) to all creatures (except you) within 10 ft. It deals 1d4 hp force damage per caster level (maximum 20d4 hp damage) to all creatures between 11 and 30 ft. A successful save halves the damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/118f550437625ea1.json",
+    "web": "https://codex.pipsprojects.com/#/e/118f550437625ea1"
+  },
+  "license": "OGL 1.0a"
+}

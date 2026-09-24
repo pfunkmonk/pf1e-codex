@@ -1,0 +1,23 @@
+{
+  "id": "b09cd7e8ef21d8a8",
+  "name": "Absorption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause any liquid carried by a creature to dry up. The spell affects potable waters as well as potions, although magical potions get a saving throw to resist the effect. Potions carried by a creature can use that creature’s Fortitude saving throw bonus or their own, whichever is better. While the spell instantly dries up water carried by a character, it can destroy only a limited number of magic potions. Potions destroyed are limited to those whose total spell levels are less than half the level of the spell’s caster. For example, a 7th-level caster can destroy a potion of mage armor (1st-level), and a potion of barkskin (2nd-level) but is unable to destroy any more potions. Which potion is affected first should be determined randomly. The target of the spell knows that something has happened to the liquids in his possession but does not know which potions, if any, might be ruined until he takes the time to examine all of his vials. The spell cannot be used against a living creature or plant to dry up its blood or other biological fluids.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b09cd7e8ef21d8a8.json",
+    "web": "https://codex.pipsprojects.com/#/e/b09cd7e8ef21d8a8"
+  },
+  "license": "OGL 1.0a"
+}

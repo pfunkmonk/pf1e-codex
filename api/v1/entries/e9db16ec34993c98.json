@@ -1,0 +1,30 @@
+{
+  "id": "e9db16ec34993c98",
+  "name": "Create Soil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 1,
+      "druid": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School conjuration (creation) [earth]; Level adept 1, druid 1, ranger 1, shaman 1, sorcerer/wizard 1, summoner\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect up to 1 cubic foot of soil/level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell generates rich, arable soil appropriate for crops or other plants. The soil is loose and dry, weighing about 75 pounds per cubic foot.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9db16ec34993c98.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9db16ec34993c98"
+  },
+  "license": "OGL 1.0a"
+}

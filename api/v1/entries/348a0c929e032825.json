@@ -1,0 +1,30 @@
+{
+  "id": "348a0c929e032825",
+  "name": "Ray of Sorrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 1,
+      "oracle": 1,
+      "lathspell": 1,
+      "mesmerist": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level antipaladin 1, bard 1, cleric/oracle 1, lathspell 1, mesmerist 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou shoot a ray of dark energy causing the target to be filled with doubt and sadness. You must succeed on a ranged touch attack against the target to affect them. If you hit, the target takes a -3 penalty on saving throws, attack rolls, ability checks and skill checks.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/348a0c929e032825.json",
+    "web": "https://codex.pipsprojects.com/#/e/348a0c929e032825"
+  },
+  "license": "OGL 1.0a"
+}

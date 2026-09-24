@@ -1,0 +1,25 @@
+{
+  "id": "f58d17db7905396b",
+  "name": "Keen Fangs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "ranger": 3,
+      "shaman": 4
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level druid 4, ranger 3, shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one creature with natural attacks per level no two which can be more than 30 ft. apart\nDuration concentration + 1 round\nSaving Throw no (harmless); Spell Resistance no\n\nDESCRIPTION\n\nYou cause claws and fangs to deal more grievous wounds. You invest the targeted creatures with primal power increasing the threat range of all natural weapons they possess by one. For example if a creature possesses a claw attack with a critical threat range of 19-20/x2 this spell increases the range to 18-20/x2. This increase stacks with effects such as the Improved Critical feat but is applied last.\n\nBreath of Life: The Scout, © 2024, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr. and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f58d17db7905396b.json",
+    "web": "https://codex.pipsprojects.com/#/e/f58d17db7905396b"
+  },
+  "license": "OGL 1.0a"
+}

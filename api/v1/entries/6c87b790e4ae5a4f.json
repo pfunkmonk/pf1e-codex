@@ -1,0 +1,28 @@
+{
+  "id": "6c87b790e4ae5a4f",
+  "name": "Wall Of Time",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "force",
+      "temporal"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (abjuration) [force, temporal]; Level cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/F (an hourglass)\n\nEFFECT\n\nEffect wall of magical gears up to 20 ft. long/level or a ring with a radius of 5 ft./2 levels\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA wall of shimmering blocks and intangible, moving gears springs into existence. Non-magical ranged attacks that cross the wall vanish into time. The wall offers total concealment (50% miss chance) against magical ranged attacks and spells that pass through the wall. A creature that passes through the wall is slowed, per the spell slow, for the duration of this spell.\n\nThis wall is considered a force effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6c87b790e4ae5a4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/6c87b790e4ae5a4f"
+  },
+  "license": "OGL 1.0a"
+}

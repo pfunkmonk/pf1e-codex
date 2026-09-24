@@ -1,0 +1,24 @@
+{
+  "id": "5b183e57cfc75e47",
+  "name": "Freezing Wall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "evocation",
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School evocation [cold, water]; Level: druid 6, magus 5, sorcerer/wizard 5, summoner 5, winter warlock 5\n\nComponents: V, S, M/DF (an icicle carved from arctic crystal)\n\nCasting Time: 1 standard action\n\nRange: Medium (100 ft. + 10 ft./level)\n\nEffect: Opaque wall of ice up to 20 ft. long/level or a ring of ice with a radius of up to 5 ft. per two levels; either form 20 ft. high. and 1 inch/level thick\n\nDuration: 1 round/level\n\nSaving Throw: None; Spell Resistance: yes\n\nThis spell creates an anchored wall of ice that emanates a deep, freezing cold. The wall cannot be formed in an area occupied by creatures or objects. The wall is 1 inch thick per caster level. One side of the wall emanates bone-chilling cold, dealing 2d6 points of cold damage to creatures within 10 feet and 1d6 points of cold damage to those past 10 feet but within 20 feet. The wall deals this damage when it appears and on your turn each round to all creatures in the area. In addition, the wall deals 2d6 points of cold damage +1 point of cold damage per caster level (maximum +20) to any creature touching it. Each 10-foot length of wall has 5 hit points per inch of thickness. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.\n\nEven when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage +1 point per caster level (no save).\n\nIf any 10-foot length of wall takes 25 points of fire damage or more in 1 round, that length melts. (Do not divide fire damage by 4, as normal for objects.) Freezing wall can be made permanent with a permanency spell. A permanent freezing wall that is extinguished by fire damage becomes inactive for 10 minutes, then reforms at normal strength.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5b183e57cfc75e47.json",
+    "web": "https://codex.pipsprojects.com/#/e/5b183e57cfc75e47"
+  },
+  "license": "OGL 1.0a"
+}

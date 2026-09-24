@@ -1,0 +1,24 @@
+{
+  "id": "ab4a82bbc5674d62",
+  "name": "Vultures of Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "necromancy",
+    "desc": [
+      "death",
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School necromancy [death, evil]; Level: antipaladin 3, cleric 3, sorcerer/wizard 3, summoner 3, witch 3\n\nComponents: V,S,M (a vulture bone)/DF\n\nCasting Time: 1 round\n\nRange: Close (25 ft. + 5 ft./2 levels)\n\nEffect: Three summoned vultures\n\nDuration: 1 round/level\n\nSaving Throw: None; Spell Resistance: no\n\nThis spell summons three ominous black vultures with white, milky eyes, considered magical beasts. These vultures have the same statistics as a normal small eagle, though they are slower flyers (40 fly speed). Each vulture has one-third the caster’s total hit points (not including temporary hit points), rounded down, regardless of its actual Hit Dice, and has a +1 natural armor adjustment per two caster levels. Each vulture also has an empathic link with the caster (1,000 ft. range), and an intelligence of 4.\n\nThe vultures have a continuous short range deathwatch ability (20 ft. cone), making them aware of the physical condition of creatures near them. They empathically relay an emotion of eagerness to the caster when they detect a creature within range is dead, fragile or fighting off death, as described in the deathwatch spell. However, they are not able to communicate the target creature’s exact condition.\n\nEach vulture must remain within 20 ft. of the other vultures at all times. If a vulture is somehow separated from the others, it must spend a full action each round to get within range, or do nothing.\n\nThe vultures will attack opponents to the best of their ability. The caster can also direct them not to attack, to attack particular enemies, or to perform other actions.\n\nIf a living creature within 30 ft. of one of the vultures falls to 4 or less hit points, the vultures immediately move on their next turn and attack that creature or its body, regardless of what the caster commands. If more than one such severely wounded target is available, roll randomly for each vulture to determine which one it attacks. The vultures continue to attack such targets and cannot be commanded by the caster for a full round. If one of the vultures kills the target, each vulture gains 1d8 temporary hit points and a +2 enhancement bonus to Strength, similar to a death knell spell. These bonuses last until the spell ends.\n\nWhen within the area of a desecrate spell, the vultures gain improved evasion, suffering no damage when successfully saving vs. an attack that normally allows a Reflex saving throw, and suffering only half damage even if the saving throw fails.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab4a82bbc5674d62.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab4a82bbc5674d62"
+  },
+  "license": "OGL 1.0a"
+}

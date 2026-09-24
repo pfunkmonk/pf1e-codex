@@ -1,0 +1,23 @@
+{
+  "id": "278e8ddb51255b85",
+  "name": "Catapult",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small platinum lever and fulcrum worth 400 gp)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTargets one object or creature per 2 caster levels\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou violently hurl one or more objects or creatures into the air. You can hurl one object or creature per every 2 caster levels (maximum 10). You must hurl objects or creatures that are within the spell’s range and that are within 40 ft. of each other. The target must be within 400 ft. of all objects thrown.\n\nYou can hurl up to a total weight of 50 lbs. per caster level (maximum 1,000 lbs. at 20th level). Objects hurled at moving targets require an attack roll (one per creature or object thrown) to hit, using your base attack bonus plus your Intelligence (if a wizard) or Charisma (if a sorcerer) modifier. You deal 1d4 hp damage to the target creature per 50 lbs. of the object or creature thrown.\n\nCreatures within the spell’s weight capacity can be hurled, but they receive Will saves and spell resistance, if applicable, to negate the effect, as do held objects targeted by the spell. If a catapulted creature is hurled against a solid surface, it takes 1d6 hp damage per every 3 caster levels you possess.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/278e8ddb51255b85.json",
+    "web": "https://codex.pipsprojects.com/#/e/278e8ddb51255b85"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "1dc615219b761297",
+  "name": "Earthrift",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "druid": 3,
+      "magus": 3,
+      "shaman": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [earth]; Level bloodrager 3, druid 3, magus 3, shaman 3, sorcerer/wizard 3\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget line up to close range (see above)\n\nDuration instantaneous\n\nSaving Throw Reflex half; Spell Resistance yes\n\nYou unleash a resonance into the ground in a line causing it to burst upward in a line. All creatures in the line must make a Reflex save or take 1d6 bludgeoning damage per caster level (maximum 10d6). A successful Reflex save halves this damage. The line cannot cross wood floors or open air.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1dc615219b761297.json",
+    "web": "https://codex.pipsprojects.com/#/e/1dc615219b761297"
+  },
+  "license": "OGL 1.0a"
+}

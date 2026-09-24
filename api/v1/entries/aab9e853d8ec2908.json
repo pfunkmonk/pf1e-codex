@@ -1,0 +1,32 @@
+{
+  "id": "aab9e853d8ec2908",
+  "name": "Extract Awakened Specter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "medium": 6,
+      "occultist": 6,
+      "shaman": 6,
+      "spiritualist": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 6, medium 6, occultist 6, shaman 6, spiritualist 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (onyx gems worth at least 50 gp per Hit Die of the created specter)\n\nEFFECT\n\nRange touch\nTarget one touched corpse\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as greater extract specter, save that the specter you animate copies the mannerisms, memories and intelligence of the base creature. It gains the alignment, feats, proficiencies, languages, personality, memories, mental statistics and skill ranks of the base creature it was extracted from. An awakened specter always treats Fly and Stealth as class skills.\n\nAn awakened specter is still under your control, treats you as an ally, and will obey most of your commands, but does not necessarily consider you its friend. The specter will attack any target you command it to and move to any location you require, but will attempt to ignore any other orders it would not have willingly performed in life (such as sharing any secrets or information it would not wish to tell you, or taking a suicidal action). Ordering such an action allows the specter to make a Will saving throw to resist the order. If an awakened specter successfully makes this saving throw it may ignore that order for 24 hours.\n\nAkashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray Section 15: Copyright Notice Akashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aab9e853d8ec2908.json",
+    "web": "https://codex.pipsprojects.com/#/e/aab9e853d8ec2908"
+  },
+  "license": "OGL 1.0a"
+}

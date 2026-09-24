@@ -1,0 +1,30 @@
+{
+  "id": "382f3cffab62fe2a",
+  "name": "Echopraxia",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "bloodrager": 4,
+      "legendary ninja": 3,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, bloodrager 4, legendary ninja 3, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou take control of the target’s mind, forcing them to mimic the movements you make. On a failed Will save the target must be forced to make the same action in the same directions as you do on your turn. For example, if you attack an empty space or creature to your West, on their turn the target must attack whatever is to the West of them. Or if you move, the target must move in the same pattern but from their starting point. If these actions would put them in danger, like movement sending them off a cliff, causing them to provoke an attack of opportunity, or causing them to harm one of their allies, they gain a Will save to stop short of making that action with a +5 bonus to the roll. This does not end the effect, but it prevents the action while still expending it. If the creature is unable to make the action, like you casting a spell, they still mimic the movement and expend the action without creating any effect.\n\nAny action that you do not take is available for the target to use on their turn. Like an unused swift action would allow a bard target to maintain their bardic performance. However, any freed action would take place after the mimicked actions.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/382f3cffab62fe2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/382f3cffab62fe2a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "290f10c9a77dc78f",
+  "name": "Lye Field",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [acid] [earth]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea three 10-ft. squares per level\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the ground in the affected area to be covered in a field of sharp, spiked lumps of white lye. This spell only affects areas with a solid surface and does not work underwater. The area becomes difficult terrain. Any creature moving on foot into or through the spell’s area takes 1d6 points of acid damage for each 5 feet of movement through the lye field.\n\nAny creature that takes damage from this spell must also succeed on a Fortitude save or suffer injuries to its feet and legs that slow its land speed by half. This speed penalty lasts for 24 hours or until the injured creature receives a cure spell (which also restores lost hit points). Another character can remove the penalty by taking 10 minutes to dress the injuries and succeeding on a Heal check against the spell’s save DC.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/290f10c9a77dc78f.json",
+    "web": "https://codex.pipsprojects.com/#/e/290f10c9a77dc78f"
+  },
+  "license": "OGL 1.0a"
+}

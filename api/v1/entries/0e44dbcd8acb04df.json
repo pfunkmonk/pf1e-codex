@@ -1,0 +1,27 @@
+{
+  "id": "0e44dbcd8acb04df",
+  "name": "Blessed Lands of Compassion and Hate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "ranger": 1
+    },
+    "desc": [
+      "curse",
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [curse, evil]; Level ranger 1\n\nCASTING\n\nComponents V, S, M (portrait of a close friend)\n\nEFFECT\n\nRange Medium (100 ft + 10 ft/level)\nArea 6 contiguous 5-foot squares plus two 5-foot squares/level\n\nDuration 1 round/level\n\nSaving Throw: none; Spell Resistance: no\n\nDESCRIPTION\n\nYou bless the land with your own feelings of compassion for your allies, and hatred against your enemies. Select four 5-foot squares, plus an additional 2 squares for every caster level. These squares must be adjacent to at least one other square and may form lines or circles or any sort of shape but must be continuous. For the duration of the spell, these selected squares are considered blessed. Anything touching the surface of the squares is affected by this spell (meaning that this spell does not work against flying creatures, creatures that are swimming above the floor, or creatures that can hover above the floor.)\n\nAllies that begin their turn on one of these squares heal for 1 + 1 per 3 caster levels, as if targeted by a cure or inflict spell (whichever would heal them). Enemies that begin their turn on these squares instead suffer that much damage as if targeted by a similar effect, only whichever one would damage them.\n\nYou decide who is considered an enemy or ally at the time the spell is cast. You may not change this choice once the spell is cast. Any new creature that enters the spell’s effect area must be decided to be an ally or enemy as soon as you realize they are present and are immune to its effects until then.\n\nBlessed Lands of Compassion and Hate, Greater\n\nSchool necromancy ; Level ranger 3\n\nCASTING\n\nComponents V, S, M (the heart of a creature that dwelled in the area and powdered onyx worth 1,500 gp)\n\nEFFECT\n\nRange Long (400 ft + 40 ft/level)\nArea 10 contiguous 5-foot squares plus four 5-foot squares/level\n\nDuration 1 round/level\n\nSaving Throw: none; Spell Resistance: no\n\nDESCRIPTION\n\nThis spell functions as Lesser Blessed Lands of Compassion and Hate, except that you mark 10 squares, plus an additional 4 per caster level. Additionally, the healing is increased to 1d8 + 1 per 2 caster levels, and the damage is increased to the same amount.\n\nThis spell may be made permanent through permanency. To do so, you must be at least caster level 11th and expend 7,500 gold as part of the casting of permanency.\n\nLegendary Rangers © 2019, Legendary Games; Authors: Andrew J. Gibson, Wren Rosario, and Jeff Gomez.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e44dbcd8acb04df.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e44dbcd8acb04df"
+  },
+  "license": "OGL 1.0a"
+}

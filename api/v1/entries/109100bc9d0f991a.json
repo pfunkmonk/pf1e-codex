@@ -1,0 +1,30 @@
+{
+  "id": "109100bc9d0f991a",
+  "name": "Scenic Repartee",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "bloodrager": 4,
+      "mesmerist": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind-affecting]; Level bard 5, bloodrager 4, mesmerist 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration concentration, max 1 round/level\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou begin to recite a long comedy sketch which requires a certain fixed response from the public every time the actor says a catchphrase. At the beginning of each round, all enchanted creatures within range must attempt a saving throw. Anyone who fails the save is unable to do anything but scream the fixed response, while a successful save allows a creature to behave normally in that round. You may exclude creatures from the effect as you wish. Anyone attacking first an enchanted creature in a round in which it failed its save frees the creature from the spell effect; enchanted creatures can be attacked normally in rounds in which they succeeded at the save.\n\nA variant of this spell could require that all enchanted creatures drop whatever they have in hand and clap their hands on cue for 1 round.\n\nThe Bardess’ Library #18: Fun, © 2026, Legendary Games; Authors: Margherita Tramontano, Aaron Hollingsworth, and Shane O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/109100bc9d0f991a.json",
+    "web": "https://codex.pipsprojects.com/#/e/109100bc9d0f991a"
+  },
+  "license": "OGL 1.0a"
+}

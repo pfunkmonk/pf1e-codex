@@ -1,0 +1,25 @@
+{
+  "id": "533c1b59878db82e",
+  "name": "Barnacle Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 3,
+      "shaman": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level alchemist 3, druid/shaman 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small barnacle shell)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe touched creature grows a colony of encrusting barnacles that provides protection from cuts and slashes.\n\nThe subject gains DR 5/bludgeoning. Once the spell has prevented a total of 5 damage/caster level (maximum 50 hp), it is discharged and the encrustation crumbles off. In addition, the sharp barnacles allow you to deal an extra 1d6 hp piercing damage on a successful grapple attack. You can also make a regular melee attack (or off- hand attack) with the barnacles, and they count as a light simple weapon in this case, although you can’t also make an attack with them if you have already made an attack with another off-hand weapon, and vice versa.\n\nThe barnacles provide a +5 to Escape Artist checks to escape soft bonds that can be cut, such as ropes.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/533c1b59878db82e.json",
+    "web": "https://codex.pipsprojects.com/#/e/533c1b59878db82e"
+  },
+  "license": "OGL 1.0a"
+}

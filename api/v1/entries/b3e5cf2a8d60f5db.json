@@ -1,0 +1,28 @@
+{
+  "id": "b3e5cf2a8d60f5db",
+  "name": "Lightless Walk",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "death mage": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "darkness",
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [darkness, shadow]; Level death mage 9, sorcerer/wizard 9\n\nCAST\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange self\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nYou may transform into a utter-dark shadow as a standard action and instantly travel in a straight line to a distance of up to 120 feet, re-materializing in the new location as a free action. This movement does not provoke attacks of opportunity. Creatures in this line take 10d6 points of cold damage and the area of the line is treated as deeper darkness for 1 round (a successfu Reflex save halves the damage, spell resistance applies).\n\nObjects and liquids in the path are frozen creating sheets of ice if applicable. If your path is interrupted by a barrier or otherwise deflected, you materialize short of your final destination in the nearest open space; targets in the line to that point take damage as normal. You are immune to cold while this spell lasts.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b3e5cf2a8d60f5db.json",
+    "web": "https://codex.pipsprojects.com/#/e/b3e5cf2a8d60f5db"
+  },
+  "license": "OGL 1.0a"
+}

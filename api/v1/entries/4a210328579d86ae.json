@@ -1,0 +1,25 @@
+{
+  "id": "4a210328579d86ae",
+  "name": "Snakepit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3,
+      "summoner": 3,
+      "unchained summoner": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 3, summoner 3, unchained summoner 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, F (a miniature shovel wrapped in snakeskin costing 10 gp)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget 10-ft.-by-10-ft. hole, 10 ft. deep/2 levels\nDuration 1 round + 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as create pit, except that the bottom of the pit is filled with a mass of writhing snakes and the maximum depth is 50 feet. Creatures that fall in take damage as normal and there is a venomous snake swarm that takes up the entire bottom. The snake swarm will not attempt to crawl out of the pit but will attack any creature at the bottom of the pit or within 5 feet of the bottom. If the snake swarm is destroyed another swarm forms at the beginning of your next turn.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a210328579d86ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a210328579d86ae"
+  },
+  "license": "OGL 1.0a"
+}

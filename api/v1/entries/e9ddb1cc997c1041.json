@@ -1,0 +1,28 @@
+{
+  "id": "e9ddb1cc997c1041",
+  "name": "Word of Light Healing, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "druid": 6,
+      "inquisitor": 5,
+      "shaman": 5,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level bard 5, cleric/oracle 5, druid 6, inquisitor 5, shaman 5, witch 6\nTarget one living creature/level, no two of which can be more than 30 feet apart.\n\nThis spell functions like word of light healing except that it heals 1d4 + 1 per two caster levels to all creatures (maximum +12).\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9ddb1cc997c1041.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9ddb1cc997c1041"
+  },
+  "license": "OGL 1.0a"
+}

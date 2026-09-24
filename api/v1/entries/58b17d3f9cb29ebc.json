@@ -1,0 +1,26 @@
+{
+  "id": "58b17d3f9cb29ebc",
+  "name": "Transcribe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "machinesmith": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation); Level bard 1, cleric 1, machinesmith 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a scroll, book or tablet)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nTarget one scroll, book, or tablet\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spells copies a conversation onto the material component of the spell. A clay tablet, single page or piece of scroll can hold up to one minute of conversation.\n\nIf the caster runs out of material component before the spell ends, the spell ends immediately.\n\nClasses of NeoExodus: Machinesmith Copyright 2012, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58b17d3f9cb29ebc.json",
+    "web": "https://codex.pipsprojects.com/#/e/58b17d3f9cb29ebc"
+  },
+  "license": "OGL 1.0a"
+}

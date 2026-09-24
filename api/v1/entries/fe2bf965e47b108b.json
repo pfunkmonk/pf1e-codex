@@ -1,0 +1,29 @@
+{
+  "id": "fe2bf965e47b108b",
+  "name": "Hail of Needles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "legendary ninja": 1,
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation) [metal]; Level legendary ninja 1, magus 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a metal needle)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more creature, no two of which can be more than 30 feet apart\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou create a rain of deadly sharp needles that deal a total of 1d4 points of damage per caster level (maximum 5d4), which you may direct all at a single target or at multiple targets, allotting a number of damage dice to each target as you choose. You must make a ranged attack roll against each creature, though you do not take a penalty on attack rolls due to soft cover (such as creatures in between you and the target) or because a creature is in melee combat. Creatures damaged by the hail of needles take bleed damage equal to the number of dice of damage dealt to them (e.g., a creature taking 5d4 points of damage would then take 5 points of bleed damage), beginning on your next turn. This bleed damage lasts a maximum number of rounds equal to your caster level. Creatures wearing heavy armor or whose natural armor bonus to AC is +5 or greater are immune to this bleed damage.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe2bf965e47b108b.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe2bf965e47b108b"
+  },
+  "license": "OGL 1.0a"
+}

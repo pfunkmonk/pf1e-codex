@@ -1,0 +1,26 @@
+{
+  "id": "59ec1ecc6be4c7ef",
+  "name": "Flame Spiral",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 0\nEffect spinning flames out to a 30-ft. radius\nDuration instantaneous (see text)\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nFire flares into a 5-foot-wide roaring funnel that spirals out and away from you. One at a time, the flames enter each and every square around yours out to a 30-foot radius, beginning clockwise. The caster is not affected by the spell. Anyone in the area takes 1d6 points of fire damage per caster level (Reflex save for half; maximum 10d6). Anyone failing the saving throw is dazed for one round. Creatures with more hit dice than you and creatures with the fire subtype are not subject to the daze effect.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/59ec1ecc6be4c7ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/59ec1ecc6be4c7ef"
+  },
+  "license": "OGL 1.0a"
+}

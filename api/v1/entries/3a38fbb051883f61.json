@@ -1,0 +1,29 @@
+{
+  "id": "3a38fbb051883f61",
+  "name": "Mire Deep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3,
+      "summoner": 3,
+      "unchained summoner": 3
+    },
+    "desc": [
+      "earth",
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [earth, water]; Level sorcerer/wizard 3, summoner 3, unchained summoner 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, M (some mud)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level.\nEffect 20-ft.-by-20-ft. quicksand pit, 5 ft. deep/2 levels\nDuration 1 round + 1 round/level\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou create a large patch of deep quicksand. Creatures in the area must make a Reflex save. On a failure the target falls into the quicksand right where they are and must immediately make a Swim check to keep from going under the surface. On a successful saving throw, the target moves 5 feet closer to the edge, or if they are already at the edge of the area, they get to move to just outside the area assuming it is safe to do so.\n\nCreatures must make a Swim check DC 7 + the caster level of the spell to tread water and stay in place, or DC 12 + the caster level of the spell to move 5 feet in any direction. If a creature fails by 5 or more, they sink down 5 feet and must begin holding their breath or drown. Such creatures can attempt to swim back to the surface with a Swim check DC 12 + the caster level of the spell plus +1 per consecutive round being under the surface. In all cases the Swim checks are move actions, but any creature under the surface suffers a 50% spell failure due to the viscous nature of the quicksand and retrieving or stowing items requires a Strength check equal to DC 12 + the caster level of the spell.\n\nA creature may attempt to save a creature stuck in the magical quicksand with a long branch or other long item. The rescuer must make a Strength check DC 12 + the caster level of the spell as a standard action to pull and the rescu-ee must make a Strength check DC 7 + the caster level of the spell to hold onto the item. If both checks, the trapped creature is pulled 5 feet closer to safety. If the trapped creature fails to hold on they must make a DC 12 + the caster level of the spell Swim check or go under the surface. The standard action to save the stuck creature does not include retrieving an item with which to save them.\n\nCreatures that are large, with the exception of swarms, require more turns than smaller creatures to be affected.\n\nHuge creatures treat the area as difficult terrain on their first turn, then on subsequent failures, they are stuck.\n\nCreatures larger than huge treat the area as difficult terrain only and do not need to make a saving throw.\n\nThe suction and viscous nature of the quicksand prevents flight or levitation from helping a stuck creature from escaping, but such creatures that are flying or levitating do not initially get affected by the spell. Control water can be used to grant creatures in the affected area to gain a +5 bonus on their Swim checks.\n\nTransmute mud to stone turns the affected area to stone, trapping creatures within, per that spell. Other spells and their interaction with the quicksand are at the discretion of the GM.\n\nOtherwise this quicksand operates as normal and when the spell ends, any trapped creatures are left on the ground where the quicksand was.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a38fbb051883f61.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a38fbb051883f61"
+  },
+  "license": "OGL 1.0a"
+}

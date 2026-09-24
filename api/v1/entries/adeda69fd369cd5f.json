@@ -1,0 +1,27 @@
+{
+  "id": "adeda69fd369cd5f",
+  "name": "Phantasmal Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (phantasm) [fear, mind-affecting]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round/level or one round\nSaving Throw Will disbelief, then Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a phantasmal image of a pit simply by forming the thoughts of the subject’s subconscious mind into something that its conscious mind can visualize: an infinite pit. Only the spell’s subject can sense the phantasmal pit. You see only a vague shape on the ground. The target first gets a Will save to recognize the sensation as unreal. If that save fails, the subject believes it is falling and falls prone. The subject then must succeed on a second Will save or is afflicted with the stunned condition from fear. If the subject of phantasmal pit succeeds in disbelieving and possesses telepathy or is wearing a helm of telepathy, the fear of the pit can be turned upon you. You must then disbelieve it or become subject to believing you’re falling, fall prone, and succeed on your second Will save or be stunned.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adeda69fd369cd5f.json",
+    "web": "https://codex.pipsprojects.com/#/e/adeda69fd369cd5f"
+  },
+  "license": "OGL 1.0a"
+}

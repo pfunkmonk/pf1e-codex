@@ -1,0 +1,28 @@
+{
+  "id": "459fc50b36a83b84",
+  "name": "Merciful Mandate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "paladin": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, cleric/oracle 2, paladin 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, O (peace)\n\nEFFECT\n\nRange short (25 ft. + 5 ft./2 levels)\nArea one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nThe target must show gentleness and mercy to opponents in combat. The target is unable to attack helpless opponents or create effects that deal lethal hit point damage or inflict negative levels, ability damage, ability drain, or death effects.\n\nIf the target engages in combat, it must use attacks that deal nonlethal damage, including taking a -4 penalty on attack rolls to deal nonlethal damage with a weapon that normally deals lethal damage.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/459fc50b36a83b84.json",
+    "web": "https://codex.pipsprojects.com/#/e/459fc50b36a83b84"
+  },
+  "license": "OGL 1.0a"
+}

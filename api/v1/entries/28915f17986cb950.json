@@ -1,0 +1,28 @@
+{
+  "id": "28915f17986cb950",
+  "name": "Storming Thunderhead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 9,
+      "shaman": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [air]; Level druid 9, shaman 9, sorcerer/wizard 9\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange long (400 ft. + 40 ft./level)\n\nEffect 40-ft.-radius\n\nDuration 1 round/4 levels\n\nSaving Throw none; Spell Resistance no\n\nYou create a towering dark storm cloud in the designated area. The area acts as both a fog cloud spell and a wind wall spell, except the cloud is not disbursed by winds. You can see and move normally within the storming thunderhead, though your ranged attacks are still hindered.\n\nAny sonic or electricity spell of 7th level or lower cast within the area is automatically empowered as if by the Empower Spell feat, but with no adjustment to the spell’s level or casting time. This does not empower already empowered spells.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/28915f17986cb950.json",
+    "web": "https://codex.pipsprojects.com/#/e/28915f17986cb950"
+  },
+  "license": "OGL 1.0a"
+}

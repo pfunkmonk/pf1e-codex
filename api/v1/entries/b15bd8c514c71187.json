@@ -1,0 +1,24 @@
+{
+  "id": "b15bd8c514c71187",
+  "name": "Animated Shieldbearer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (construct); Level machinesmith 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (any shield)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget shield touched\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nNote on the Construct subschool: This subschool is usually associated with conjuration or transmutation spells. Construct spells either create or animate mechanical objects to produce a specific effect as determined by the spell. All mechanical objects produced by construct spells can be attacked and destroyed like normal objects. Unless otherwise noted, constructs created by these spells are Tiny, have AC and CMD equal to 12 + the spell’s level, and use the spellcaster’s saving throws. These constructs have hit points equal to the caster level of the spell + 5 and hardness equal to the spell’s level. When all constructs produced by the spell are destroyed, the spell is considered dispelled.\n\nThis spell attaches a tiny humanoid or spider-like construct to the back of a light or heavy shield, but not a tower shield. Once cast, the construct skitters towards the target at a speed of 30 feet. Once it enters the target’s space, using the shield it attempts to deflect attacks against the target as best it can. As long as the construct remains in the target’s space, the target gains a shield bonus to AC equal to the bonus of the shield attached to the construct. If the target moves, the construct attempts to move with it, but it cannot fly or swim. If attacked, the construct and shield must be targeted separately.\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b15bd8c514c71187.json",
+    "web": "https://codex.pipsprojects.com/#/e/b15bd8c514c71187"
+  },
+  "license": "OGL 1.0a"
+}

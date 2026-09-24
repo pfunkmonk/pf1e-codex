@@ -1,0 +1,27 @@
+{
+  "id": "c553ea9ab7447a6c",
+  "name": "Void Walker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9
+    },
+    "desc": [
+      "cold",
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, darkness]; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nYou may transform into an embodiment of the void between the stars as a standard action and instantly travel in a straight line to a distance of up to 120 feet, rematerializing in the new location as a free action.\n\nThis movement does not provoke attacks of opportunity. Creatures in this line take 10d6 points of cold damage and are staggered as they catch their lost breath for 1 round (a successful Fortitude save halves the damage and negates the staggered condition, spell resistance applies, creatures who do not breathe are immune to the staggering). The area you traverse is treated as if affected by the darkness spell until the beginning of your next turn. If your path is interrupted by a barrier or otherwise deflected, you materialize short of your final destination in the nearest open space; targets in the line to that point take damage as normal. You are immune to cold while this spell lasts.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c553ea9ab7447a6c.json",
+    "web": "https://codex.pipsprojects.com/#/e/c553ea9ab7447a6c"
+  },
+  "license": "OGL 1.0a"
+}

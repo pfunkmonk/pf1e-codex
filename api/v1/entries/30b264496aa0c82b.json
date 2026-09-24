@@ -1,0 +1,27 @@
+{
+  "id": "30b264496aa0c82b",
+  "name": "Stellar Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 6,
+      "magus": 6,
+      "occultist": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation; Level druid/shaman 6, magus 6, occultist 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cylinder (40-ft. Radius, 40 ft. high)\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nFiery plasma rains down from the stars into the area dealing 1d6 damage per level to all creatures and objects in the area (max 20d6).\n\nThe damage dealt is half fire damage and half electricity damage. A successful Reflex save halves this damage.\n\nThis spell is considered exposure to sunlight for creatures that fail their save and are affected by such effects.\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/30b264496aa0c82b.json",
+    "web": "https://codex.pipsprojects.com/#/e/30b264496aa0c82b"
+  },
+  "license": "OGL 1.0a"
+}

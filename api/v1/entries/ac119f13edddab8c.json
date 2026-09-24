@@ -1,0 +1,29 @@
+{
+  "id": "ac119f13edddab8c",
+  "name": "Heaven’s Call",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "mesmerist": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (glamer) [good]; Level bard 3, cleric/oracle 3, mesmerist 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (ground sunstone worth at least 5 gp)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect 50-ft.-radius emanation\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou overlay a realistic illusion of a heavenly realm upon an area. Structures, equipment, and creatures within the area are not hidden, though environmental features take on an angelic appearance. Evil-aligned creatures within the area must make a Will save or become shaken and also take a –2 penalty on saves versus fear effects; the fear and penalty persists as long as the creature remains in the area. Good-aligned creatures gain a +4 bonus on Will saves against fear effects while within the area.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ac119f13edddab8c.json",
+    "web": "https://codex.pipsprojects.com/#/e/ac119f13edddab8c"
+  },
+  "license": "OGL 1.0a"
+}

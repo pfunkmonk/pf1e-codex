@@ -1,0 +1,27 @@
+{
+  "id": "d139cefb87984ee0",
+  "name": "Charm of Secrets",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "wizard": 5,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level sorcerer/wizard 5, witch 4\n\nCASTING\n\nCasting Time one round\nComponents V, S, M (lock of hair)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target becomes unable to divulge secrets without paying a terrible price. You may name one secret for every four levels that you possess; the target cannot reveal these secrets without suffering great pain.\n\nIf the target willingly or unwillingly divulges the secret(s) named, they take 10 hp damage per caster level unless they make a successful Fortitude saving throw. In this case, the target only takes 4d4 hp damage +1 point per caster level.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d139cefb87984ee0.json",
+    "web": "https://codex.pipsprojects.com/#/e/d139cefb87984ee0"
+  },
+  "license": "OGL 1.0a"
+}

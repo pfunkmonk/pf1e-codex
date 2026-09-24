@@ -1,0 +1,26 @@
+{
+  "id": "19039d4742011953",
+  "name": "Ley Whip",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 7
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a miniature whip worth 250 gp)\n\nEFFECT\n\nEffect one whip\nRange close (25 ft. + 5 ft./2 levels)\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell brings into being a shimmering, whip-like tendril of ley energy. The whip strikes at any opponent within its range, as you desire, starting in the round that you cast the spell. The whip attacks its designated target once each round on your turn. Its attack bonus is equal to your caster level + your Intelligence bonus (wizard) or Charisma bonus (sorcerer) with an additional +3 enhancement bonus. The ley energy that forms this whip acts as a force effect, and as such it can strike ethereal and incorporeal creatures. It deals 4d6+3 hp ley energy damage, with a threat range of 19-20 and a critical multiplier of x2.\n\nThe whip always strikes from your direction. It does not get or provide a bonus for flanking. If the whip goes beyond the spell range from you, passes out of your sight, or its current target is knocked unconscious or moves out of range, it returns to you and hovers.\n\nEach round after the first, you can use a standard action to switch the whip to a new target. If you do not, the whip continues to attack the previous round’s target.\n\nThe whip cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it.\n\nIf an attacked creature has spell resistance, the resistance is checked the first time the ley whip strikes it.\n\nIf the whip is successfully resisted, the spell is dispelled. If not, the whip has its normal full effect on that creature for the duration of the spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/19039d4742011953.json",
+    "web": "https://codex.pipsprojects.com/#/e/19039d4742011953"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "d7574c98d6285a71",
+  "name": "Acid Coat, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [acid]; Level magus 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one living or undead creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou envelop the target a coat of acid dealing 1d4 acid damage. This reduces the hardness of objects and DR of constructs by 1 for 1 round. A successful Reflex save halves this damage and negates the hardness/DR reduction.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7574c98d6285a71.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7574c98d6285a71"
+  },
+  "license": "OGL 1.0a"
+}

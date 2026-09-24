@@ -1,0 +1,25 @@
+{
+  "id": "5c6c82e1d94c1211",
+  "name": "Tainted Treasure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "warpriest": 4,
+      "hunter": 4,
+      "witch": 4
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy; Level cleric/oracle/warpriest 4, druid/hunter 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (lead coin), DF\n\nEFFECT\n\nRange touch\nTarget a dragon’s hoard\nDuration see text\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nWeaving poisonous magic into a dragon’s hoard, you set a deadly trap. Once a dragon touches the affected hoard, the trap springs, poisoning the dragon. This poison deals 1d4 Constitution damage per round for 7 rounds. Poisoned creatures can make a Fortitude save each round to halve this Con damage. Two saves are required to end the affliction. The magic lasts for 1 day per level.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c6c82e1d94c1211.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c6c82e1d94c1211"
+  },
+  "license": "OGL 1.0a"
+}

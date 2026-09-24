@@ -1,0 +1,27 @@
+{
+  "id": "bdc7f8648f584b92",
+  "name": "Darkbolts",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "death mage": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [shadow]; Level death mage 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect 1 bolt/ 2 caster levels\nDuration instantaneous (see text)\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou unleash bolts of pure darkness from your outstretched hand. You must succeed on a ranged touch to affect a target. Each bolt may be at a different target and the targets must be living creatures.\n\nEach creature hit takes 2d8 negative energy damage and must make a Will save or be dazed for 1 round. The dazing does not stack from multiple hits.\n\nThe bolts may be fired all at once or one per round as a free action. If a bolt is not launched in a particular round, it is lost. If the bolts are launched all at once, the targets must all be within 30 feet of each other.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bdc7f8648f584b92.json",
+    "web": "https://codex.pipsprojects.com/#/e/bdc7f8648f584b92"
+  },
+  "license": "OGL 1.0a"
+}

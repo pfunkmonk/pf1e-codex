@@ -1,0 +1,26 @@
+{
+  "id": "ddedd3cb22c7b384",
+  "name": "Electric Gag",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous, 1 round/level\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou jolt the target with electricity in their vocal cords rendering them temporarily incapable of speech. The target takes 1d6 electricity damage per caster level (maximum 10d6), and is unable to speak, make vocal sounds, use language-dependent abilities, or use spells with vocal components for 1 round per level. A successful Reflex save halves the electricity damage and negates the silencing effect.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ddedd3cb22c7b384.json",
+    "web": "https://codex.pipsprojects.com/#/e/ddedd3cb22c7b384"
+  },
+  "license": "OGL 1.0a"
+}

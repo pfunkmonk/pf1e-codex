@@ -1,0 +1,24 @@
+{
+  "id": "01be12ce827929f1",
+  "name": "Summon Star",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "oracle": 7,
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (conjuration) (summoning); Level cleric/oracle 7, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (a sunrod, which is consumed if the star dies)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a star from the heavens to do your bidding.\n\nIt appears as a glowing humanoid with long white hair, birdlike talons as well as hands, and it carries a staff made of pure force. All creatures other than you who view the star must make a DC 20 Will save or be fascinated for the duration of the spell. The star is otherwise equivalent to an avoral agathion with 91 hp whose lightning bolt ability deals force damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/01be12ce827929f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/01be12ce827929f1"
+  },
+  "license": "OGL 1.0a"
+}

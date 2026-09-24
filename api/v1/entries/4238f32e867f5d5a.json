@@ -1,0 +1,33 @@
+{
+  "id": "4238f32e867f5d5a",
+  "name": "Condemned to Rot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "death mage": 6,
+      "lathspell": 4,
+      "shaman": 6,
+      "wizard": 7,
+      "witch": 6
+    },
+    "desc": [
+      "curse",
+      "disease",
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse, disease, evil]; Level cleric/oracle 6, death mage 6, lathspell 4, shaman 6, sorcerer/wizard 7, witch 6\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration permanent\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou infect the target with a cursed disease of wasting.\n\nThe target is not able to be healed by magical means and loses any natural healing, including fast healing or regeneration. Heal skill checks do not help.\n\nAdditionally, if they have any damage, they additionally must make a Fortitude save each time they rest overnight or take damage equal to their hit dice.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4238f32e867f5d5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/4238f32e867f5d5a"
+  },
+  "license": "OGL 1.0a"
+}

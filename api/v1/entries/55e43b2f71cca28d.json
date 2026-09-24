@@ -1,0 +1,26 @@
+{
+  "id": "55e43b2f71cca28d",
+  "name": "Blue Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (healing)[cold]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F\n\nEFFECT\n\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nBlue touch covers one of the caster’s hands with a blue aura, which is transferred by touch to a creature or object. The aura draws heat and burns out of the thing touched, healing 1d4 hp +1 point per level of the caster (maximum 1d4+5). The healing only works on hp lost to fire damage, or on any damage suffered by a creature of the [cold] subtype. A target of this spell stops bleeding (stabilizing if dying) even if it has suffered no fire damage.\n\nThe Genius Guide To: Ice Magic The Genius Guide To: Ice Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/55e43b2f71cca28d.json",
+    "web": "https://codex.pipsprojects.com/#/e/55e43b2f71cca28d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "d927325ceef750fa",
+  "name": "Transport To Yondo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "psychic": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "summoner": 5,
+      "witch": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School conjuration (teleportation); Level psychic 5, shaman 5, sorcerer/wizard 5, summoner 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (sand)\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 1d4 rounds, then 1 min./level\nSaving Throw Will negates and Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nUnless it succeeds on a Will save, the target is transported to the desert Yondo. It remains there for 1d4 rounds and then returns to the exact spot it left. Upon returning, it must immediately succeed at a Fortitude save or shrivel as the spell regardless of its creature type. It suffers a –1 penalty on this save for every round it spent in Yondo.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d927325ceef750fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/d927325ceef750fa"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2689b08beeed075f",
+  "name": "Melt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "see text",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, water]; Level druid 1, shaman 1\n\nCasting Time 1 standard action\n\nComponents V, S, M (a pinch of rock salt)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one 5-ft. cube of ice or 10-ft. cube of snow/level, or one cold creature/level\n\nDuration instantaneous\n\nSaving Throw none or Fortitude half, see text; Spell Resistance see text\n\nThis spell melts all snow and ice in the area turning into an equal volume of water and then spreads. Snow decreases to one-tenth of its volume in water. This does not prevent the water from refreezing.\n\nIf used on a cold creature or a magical ice object like the wall of ice, this spell deals 2 damage per caster level (maximum 10 damage). A successful Fortitude save halves this damage, if applicable.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2689b08beeed075f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2689b08beeed075f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "848b83bb6ac1a25b",
+  "name": "Animate Dead, Improved",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (one onyx gem per body part worth at least 25 gp per hit dice of the undead)\n\nEFFECT\n\nRange touch\nTarget one or more body parts\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell turns the separated body parts of dead creatures into animated undead. The spell is similar in all respects to animate dead, except that it does not require complete bodies. The resulting undead operate as Small zombies with the following modifications:\n\nAny class-based HD become racial HD (d8).\nThey retain class-based Reflex saves but use the Fortitude and Will saves of a zombie of equal HD.\nThey retain the defensive abilities of their base creature, including Dexterity bonus and natural bonuses to armor.\nThey gain DR 5/slashing, any size bonuses and penalties to AC, and the natural armor bonus of a zombie by size.\nThey fly at 30 ft. (poor). Fast movement affects their speed.\nThey retain all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature(s). They gain a slam attack as a zombie one size larger.\nIf this spell is cast on a spellcaster’s arm, the arm retains the last spell cast by the original creature in life at its original caster level, which it may cast once per day without need for material or verbal components.\nThey retain any of the base creature’s special attacks feasibly usable by the body part animated.\nThey retain the original Dexterity and add +2 to Strength.\nThey have no Constitution or Intelligence score, and their Wisdom and Charisma become 10.\nTheir base attack bonus is as per their original class.\nThey have no skill ranks.\nThey gain Toughness as a bonus feat and retain all feats from their former life that are still useable in their current form, including Improved Initiative.\nThey retain the special qualities of their base creature(s) that remain useable in their current form, unaffected by the zombie staggered special quality.\nMythic\n\nAdd your tier to the caster level when determining how many Hit Dice of zombies you can animate with a single casting of this spell. This does not increase the total number of Hit Dice worth of undead you can control. By expending a second use of mythic power, you can ignore the spell’s material component.\n\nAugmented (6th): If you expend two uses of mythic power, the zombies you animate gain either the agile or savage mythic template for a number of days equal to your tier. At 8th tier, you can expend 10 uses of mythic power and apply either the agile or savage mythic template permanently to the zombies you create with this spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/848b83bb6ac1a25b.json",
+    "web": "https://codex.pipsprojects.com/#/e/848b83bb6ac1a25b"
+  },
+  "license": "OGL 1.0a"
+}

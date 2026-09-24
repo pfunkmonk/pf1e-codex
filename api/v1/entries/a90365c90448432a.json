@@ -1,0 +1,17 @@
+{
+  "id": "a90365c90448432a",
+  "name": "Graveshell",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Graveshell\nCR 1\n\nXP 400\nN Large magical beast\nInit -1; Senses darkvision 60 ft., blindsense (water only) 30 ft., Perception\n\nDEFENSE\n\nAC 12, touch 8, flat-footed 12 (-1 Dex, +4 natural, -1 size)\nhp 17 (2d10+6)\nFort +6, Ref +2, Will +1\n\nOFFENSE\n\nSpeed 20 ft., swim 20 ft\nMelee bite +4 (1d8+3), Shell Spike -1 (1d4+1)\n\nSTATISTICS\n\nStr 17, Dex 9, Con 16, Int 4, Wis 13, Cha 10\nBase Atk +2; CMB +6, CMD 15 (19 vs. trip)\nFeats Skill Focus (Swim)\nSkills Stealth -5 (+5 in water), Swim +11; Racial Bonus +10 to Stealth when in water\n\nSPECIAL ABILITIES\n\nDeep Breath (Ex)\n\nA graveshell can hold its breath for up to 20 minutes before it must begin making constitution checks to avoid suffocation.\n\nShell Game (Ex)\n\nAs a move action, a graveshell can withdraw into its shell. It gains a +2 shield bonus to AC and allows the use of its Shield Block ability. This lasts until the graveshell moves or makes an attack with anything other than its shell spike. While withdrawn into its shell, it treats its shell spike as a primary natural attack.\n\nIf a graveshell’s shell is broken it cannot use this ability, loses its shell spike natural attack, and its natural armor bonus is reduced by -2. If the graveshell’s shell is destroyed, it loses its natural armor bonus entirely. The shell naturally repairs itself in 1 week if the graveshell is alive.\n\nShell Block (Ex)\n\nWhen a graveshell is attacked while withdrawn into its shell, it can attempt to block the attack as an immediate action. This reduces the damage from the attack by an amount equal to the shell’s hardness. Any damage in excess of the hardness is dealt to both the graveshell and its shell. The shell has a hardness of 6 and 10 hit points. When reduced to 5 hit points or fewer, the shell is broken.\n\nCorpse Disguise (Ex)\n\nA graveshell conceals its true nature by impaling a corpse (typically humanoid) on its spiky shell before partially submerging itself in water. Spotting a submerged graveshell requires a successful DC 18 Perception check.\n\nThe Blargy Blog Author: KVid",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a90365c90448432a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a90365c90448432a"
+  },
+  "license": "OGL 1.0a"
+}

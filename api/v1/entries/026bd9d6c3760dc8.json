@@ -1,0 +1,31 @@
+{
+  "id": "026bd9d6c3760dc8",
+  "name": "Storm Front",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "magus": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "unchained summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [electricity]; Level druid 4, magus 4, shaman 4, sorcerer/wizard 4, unchained summoner 4, witch 4\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange medium (100 ft. + 10 ft. level)\n\nEffect fog spreads in 20-ft. radius\n\nDuration 1 round/level\n\nSaving Throw Reflex half, see text; Spell Resistance no\n\nThis spell functions as fog cloud, except the duration is shorter and the cloud is suffused with charged electricity. Any creature entering or beginning their turn within the cloud takes 1d4 points of electricity damage +1 per caster level (maximum +15).\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/026bd9d6c3760dc8.json",
+    "web": "https://codex.pipsprojects.com/#/e/026bd9d6c3760dc8"
+  },
+  "license": "OGL 1.0a"
+}

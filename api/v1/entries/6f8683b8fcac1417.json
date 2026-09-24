@@ -1,0 +1,27 @@
+{
+  "id": "6f8683b8fcac1417",
+  "name": "Static Jolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [electricity]; Level magus 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYour hand surges with a powerful static shock.\n\nYou must succeed on a melee touch attack to deliver this jolt, which deals 1d4 points of electricity damage.\n\nLegendary Magus, © 2018, Legendary Games. Authors: Dave Nelson and Hal Kennette.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f8683b8fcac1417.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f8683b8fcac1417"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bec2d7adbbc89583",
+  "name": "Peacock Pose",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 1,
+      "bard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level alchemist 1, bard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget several living creatures, no two of which may be more than 30 ft. apart\nDuration 1d4 rounds plus 1 round/level after 1st (maximum 10 rounds)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nBy standing completely still in a mesmerizing pose of your choice, your skin shines and your teeth sparkle in such a way that your opponents become fascinated with you. You may fascinate 1d4 +1/caster level (maximum 10) total HD of creatures. Fascinated creatures will stop what they are doing and stare at you for the duration of this extract as long as you do nothing other than pose and sparkle beautifully. Creatures must be able to fully see you to be affected by this extract. A creature that succeeds on its Will save against this effect is immune to it for another 24 hrs.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bec2d7adbbc89583.json",
+    "web": "https://codex.pipsprojects.com/#/e/bec2d7adbbc89583"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "8892fd5e65c4b2a8",
+  "name": "Blistering Gust",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "druid": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation; Level bloodrager 3, druid 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft..\n\nEffect 60 ft. gust of scorching wind 5 ft. wide extending from your hand\nDuration 1 round +1 round/level (concentration)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as gust of wind, creating a severe blast of air that originates from you, affecting all creatures in its path. Any creature in the area of effect takes 1d6 fire damage per two caster levels (to a maximum of 10d6 at caster level 20) and is fatigued by the rush of heat. A successful Fortitude save halves this damage and negates the fatigued condition. If you choose to maintain the effect a new save is required each round. This effect can cause a fatigued creature to become exhausted.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8892fd5e65c4b2a8.json",
+    "web": "https://codex.pipsprojects.com/#/e/8892fd5e65c4b2a8"
+  },
+  "license": "OGL 1.0a"
+}

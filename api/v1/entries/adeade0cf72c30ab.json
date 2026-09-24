@@ -1,0 +1,29 @@
+{
+  "id": "adeade0cf72c30ab",
+  "name": "Defiant Cure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "druid": 5,
+      "ranger": 4,
+      "shaman": 5,
+      "witch": 5
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level alchemist 5, cleric/oracle 5, inquisitor 5, druid 5, ranger 4, shaman 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/2 levels\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell functions as a combination of remove disease and neutralize poison. Except that if the disease or poison are not removed, you can continue to attempt to remove it each round. Once the poison or disease is removed, this spell ends.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adeade0cf72c30ab.json",
+    "web": "https://codex.pipsprojects.com/#/e/adeade0cf72c30ab"
+  },
+  "license": "OGL 1.0a"
+}

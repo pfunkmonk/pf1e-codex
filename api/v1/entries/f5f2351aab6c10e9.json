@@ -1,0 +1,29 @@
+{
+  "id": "f5f2351aab6c10e9",
+  "name": "Aspect of the Hope Devourer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 9,
+      "death mage": 9
+    },
+    "desc": [
+      "despair",
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [despair, emotion, mind-affecting]; Level cleric/oracle 9, death mage 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nYour presence saps the hope and joy from your enemies. A creature that fails a save against this spell paralyzed by unbearable despair and hopelessness. A flying creature may continue to hover while paralyzed by this effect and if they cannot hover, they immediately land but are otherwise paralyzed. These creatures are paralyzed for the duration of the spell.\n\nEach round on its turn, a target of this spell may attempt a new saving throw to end the effect; this is a full-round action that does not provoke attacks of opportunity. A creature that recovers from this spell early after being affected by it for at least 1 round takes 1d6 points of Wisdom drain and is hopeless for 1d4 rounds. A creature that makes the initial save to resist this spell is merely hopeless for 1 round.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f5f2351aab6c10e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/f5f2351aab6c10e9"
+  },
+  "license": "OGL 1.0a"
+}

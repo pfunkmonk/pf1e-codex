@@ -1,0 +1,29 @@
+{
+  "id": "17cf1399c998f97e",
+  "name": "Celestial Rebuke",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 1,
+      "inquisitor": 1,
+      "paladin": 1
+    },
+    "desc": [
+      "good",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [good, fire]; Level cleric/oracle 1, inquisitor 1, paladin 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget attacking creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou pull fire from the heavens to strike any who would deign to attack you. When activated, the creature that targeted you with an attack or offensive ability or spell is dealt 1d4 damage per caster level (maximum 5d4). Half of the damage dealt is fire damage and the other half is divine damage and is not subject to energy resistance or immunity.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/17cf1399c998f97e.json",
+    "web": "https://codex.pipsprojects.com/#/e/17cf1399c998f97e"
+  },
+  "license": "OGL 1.0a"
+}

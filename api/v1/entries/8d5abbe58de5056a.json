@@ -1,0 +1,27 @@
+{
+  "id": "8d5abbe58de5056a",
+  "name": "Ray of Bedevilment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [mind-affecting]; Level bard 2, mesmerist 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one ray of chaotic light\nDuration 1d3 rounds\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou shoot a ray of chaotic light and energy at a target that clouds the mind of the target with peals of insane laughter. You must succeed on a ranged touch attack against the target to affect them. If affected, the target then must make a Will save or be dazed for 1d3 rounds.\n\nOn a successful save, the target is dazzled for 1 round.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d5abbe58de5056a.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d5abbe58de5056a"
+  },
+  "license": "OGL 1.0a"
+}

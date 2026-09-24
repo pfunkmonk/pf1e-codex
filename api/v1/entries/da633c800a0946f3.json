@@ -1,0 +1,28 @@
+{
+  "id": "da633c800a0946f3",
+  "name": "Gaze of Ghatanothoa",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "curse",
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School necromancy [curse, evil]; Level cleric 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/F (an abstract representation of Ghatanothoa)\n\nEFFECT\n\nRange close (25 ft + 5 ft./2 levels)\nTarget one humanoid\nDuration 1 round/5 levels\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou take on a fleeting aspect of the unspeakable form of Ghatanothoa in the eyes of the target creature, causing it to mummify rapidly if it can see you clearly.\n\nAt the start of your turn each round, the target must make a successful Fortitude save or take 1d10 points of Dexterity drain as its body begins to stiffen and mummify. If the Fortitude save succeeds, the spell ends.\n\nIf a creature’s Dexterity score is drained to 0 in this way, it transforms into a perfectly preserved and completely immobile mummy, yet the victim does not die. A creature mummified in this way no longer needs to eat, drink, or breathe, and no longer ages.\n\nIt is essentially immortal, and can observe the world around it (and may even take purely mental actions, including the use of psychic magic), but can take no other actions.\n\nNo magical effect can end this condition (even if the victim’s Dexterity drain is healed) save for an effect that removes this curse. The curse can only be removed by limited wish, wish, or miracle. If the target was trapped for a long time, it will likely have developed some form of madness.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/da633c800a0946f3.json",
+    "web": "https://codex.pipsprojects.com/#/e/da633c800a0946f3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "3a68f54529ecee0b",
+  "name": "Twist The Skein",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 1,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level cleric/oracle 1, witch 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou tweak a strand of the subject’s fate as they are making an attack roll, saving throw, or skill check. The target receives a circumstance modifier of 1d20-10 to his or her check, which may be enough to retroactively turn a failure into a success (or vice versa). The target must take the modified result even if it’s worse than the original.\n\nMythic: When determining the fate modifier granted by this spell, roll 1d20-10 twice. You can pick which result is applied.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a68f54529ecee0b.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a68f54529ecee0b"
+  },
+  "license": "OGL 1.0a"
+}

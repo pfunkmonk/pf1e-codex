@@ -1,0 +1,27 @@
+{
+  "id": "2c3e633a91183dfc",
+  "name": "Martial Master",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "shaman": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level antipaladin 1, cleric/oracle 1, inquisitor 1, paladin 1, shaman 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level\n\nDESCRIPTION\n\nThis special spell can only be learned and cast by divine spellcasters whose patron deity is [this deity] and they possess the Equilibrium Initiate feat. This spell temporarily grants you sufficient knowledge and experience to expertly execute one type of martial maneuver.\n\nFor the duration of the spell, you gain the use of one combat feat of your choice. This selected combat feat must enables you to perform a combat maneuver without provoking an attack of opportunity, such as Improved Bull Rush, Improved Disarm, etc. If the selected combat feat has prerequisites, such as a minimum ability score or base attack bonus, you are not required to have them. If the prerequisites are other feats you do not have, you are considered to have them for the express purpose of being able to use the selected combat feat for the duration of this spell.\n\nYou may spend a full-round action at any time during this spell’s duration to select a different combat feat, as described above, but the spell’s remaining duration is reduced by 1 minute.\n\nYou cannot have more than one casting of martial master in effect on you and you cannot use martial master to meet the prerequisites of other feats (nor qualify for other effects).\n\nPrayer - Gods of Balance and Heroes, © 2025, Orphaned Bookworm Productions, LLC, Author: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c3e633a91183dfc.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c3e633a91183dfc"
+  },
+  "license": "OGL 1.0a"
+}

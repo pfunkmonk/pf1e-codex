@@ -1,0 +1,26 @@
+{
+  "id": "0d21f21516a7e29e",
+  "name": "Containment Orbs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 7
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration [force]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates one force orb per 3 caster levels that can be used to absorb certain spells. The type of orb is determined by the caster. The first type absorbs transmutation spells, the second absorbs conjuration spells, the third type absorbs enchantment spells, the fourth absorbs necromancy spells, and the fifth absorbs evocation spells.\n\nAny spells of the appropriate type that are directed at the caster are automatically absorbed by their corresponding orb. After an orb absorbs a spell, the caster can cause it to explode to inflict 1d6 points of damage per spell level on all targets in a 20-foot radius centered on the caster. The caster is immune to this damage, but his allies are not. Rather than causing it to explode, the caster may also cause the orb to discharge its absorbed spell without effect, though this too destroys the orb. If the orbs have not been charged or caused to explode at the end of the spell’s duration, they vanish along with the absorbed spells.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d21f21516a7e29e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d21f21516a7e29e"
+  },
+  "license": "OGL 1.0a"
+}

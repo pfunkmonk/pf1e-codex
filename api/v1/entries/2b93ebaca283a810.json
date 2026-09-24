@@ -1,0 +1,24 @@
+{
+  "id": "2b93ebaca283a810",
+  "name": "Marching Chant, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 5,
+      "oracle": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level bard 5, cleric/oracle 5\nTarget 1 creature/level, no two of which can be more than 30 ft. apart\nDuration 1 day/2 levels, up to a maximum of 10 days (D); see text\n\nThis spell functions as marching chant, except as above. You also do not need to concentrate (via singing or chanting) to maintain this spell. Instead, you need only spend 10 minutes daily singing or chanting before attempting to hustle or overland travel for the first time each day of this spell’s duration to maintain the effects of greater marching chant for the affected creatures. Failure to do so ends the spell for all affected creatures. Additionally, greater marching chant makes a forced march easier to endure for the spell’s targets. When a target creature attempts a forced march each day, the Constitution check to avoid suffering nonlethal damage from each hour of forced march is DC is 5 (+1 per extra hour). Affected creatures also ignore any fatigue, but not the nonlethal damage, caused by a forced march. Once greater marching chant ends, if an affected creature still has any remaining nonlethal damage caused by a forced march, they become fatigued (or exhausted if already fatigued by another effect).\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b93ebaca283a810.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b93ebaca283a810"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b34f72293965262e",
+  "name": "Ring of Blades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 3,
+      "bloodrager": 3,
+      "lathspell": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [metal]; Level bard 3, bloodrager 3, lathspell 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (A metal slashing weapon)\n\nEFFECT\n\nRange personal\nEffect you\nDuration 1 min./level (D)\n\nYou create a ring of spinning blades within an area of 5 feet around you. This ring of blades stays with you, and at the end of your turn, any creature within the area takes 1d6 non-magical slashing damage + 1 point per caster level (maximum +10). Such creatures can make a Reflex save to halve this damage.\n\nAdditionally, when casting the spell, if you use a weapon with the corresponding damage type, the blades can be considered silver or cold iron for damage reduction purposes. However, if the damage is silver, the slashing damage is reduced by 1.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b34f72293965262e.json",
+    "web": "https://codex.pipsprojects.com/#/e/b34f72293965262e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5c2736da846fa923",
+  "name": "Electric Connection",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "occultist": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level bloodrager 1, magus 1, occultist 1, shaman 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (an object that was struck by lighting)\n\nEFFECT\n\nRange 30 feet\nTarget one creature\nDuration concentration, up to 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou form an electrical arc between you and the target dealing 1d4 electricity damage. When taking a move action to maintain the spell, the target takes an additional 1d4 electricity damage. A successful Reflex save halves the damage taken that round. If the target leaves the range, or breaks line-of-effect from you, the spell ends. If when maintaining the spell, there is another creature in the line-of-effect between you and the target, that creature is affected by the spell instead of the target, the closest creature on the line is affected.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c2736da846fa923.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c2736da846fa923"
+  },
+  "license": "OGL 1.0a"
+}

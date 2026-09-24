@@ -1,0 +1,29 @@
+{
+  "id": "1243e5a9719325ee",
+  "name": "Power Word Pain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting",
+      "pain"
+    ],
+    "save": "None",
+    "sr": "Yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting, pain]; Level mesmerist 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature with 100 hp or less\nDuration see text\nSaving Throw none; Spell Resistance Yes\n\nDESCRIPTION\n\nYou utter a single word of power that wracks the target with pain dealing 1d6 points of damage each round at the beginning of their turn. The target does not need to hear or understand the word. The duration of the spell depends on the target’s current hit point total. Any creature that currently has 101 or more hit points is unaffected by power word pain.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1243e5a9719325ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/1243e5a9719325ee"
+  },
+  "license": "OGL 1.0a"
+}

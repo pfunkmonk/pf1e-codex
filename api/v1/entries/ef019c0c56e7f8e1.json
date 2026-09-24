@@ -1,0 +1,25 @@
+{
+  "id": "ef019c0c56e7f8e1",
+  "name": "Reality Warp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "occultist": 5,
+      "psychic": 5,
+      "wizard": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level occultist 5, psychic 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration 1 minute/level (see text)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou fold the boundaries of several realities around your target causing them to shift and change in unpredictable ways. These could be aging/de-aging of various portions of their bodies, parts of their bodies and organs swapped or misplaced, etc. If the target fails their Fortitude save (which can affect constructs and undead), roll on the table below and apply the resulting effect to the target. If the target is immune to the selected effect, roll a second time on the table and apply the second effect instead. If they are immune to the second effect, they are unaffected by the spell.\n\nThe duration of the effects are variable:\n\n* instantaneous.\n** Effects which the target can attempt a new saving throw each round to end the effect early.\n*** At the end of each minute the affected creature may attempt a new saving throw to end the effect early. Those without notation follow the normal duration rules.\n\nExcept for baleful polymorph, a reality warp’s effects cannot be dispelled, but they can be removed by break enchantment or any spell that removes the specific condition.\n\nd12\tReality Warp Effect\n1\tParalyzed**\n2\tBaleful polymorph\n3\t2d6 bleed or ongoing acid or fire damage**\n4\tNauseated**\n5\tBlinded or deafened**\n6\tstaggered**\n8\tSickened***\n7\tShaken***\n9\tDazzled***\n10\t1d6 damage per caster level (max 10d6)*\n11\tFatigued\n12\tStunned**\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ef019c0c56e7f8e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/ef019c0c56e7f8e1"
+  },
+  "license": "OGL 1.0a"
+}

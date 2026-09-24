@@ -1,0 +1,25 @@
+{
+  "id": "12c5205feaa9e2cd",
+  "name": "Ravaging Remorse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "oracle": 5,
+      "legendary inquisitor": 4,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School illusion (phantasm)) [good, mind-affecting]; Level cleric/oracle 5, legendary inquisitor 4, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou tap into the depth of the target’s evil and unleash the horrors it has visited on others in thought, word, and deed within its own vile imagination, drawing its mind into an imaginary hellscape of madness and woe. The target takes Wisdom damage and Charisma damage depending on the strength of its evil aura, as described in the detect evil spell:\n\nStrength of Evil Aura\tWis/Cha damage\nNone\t–\nFaint\t1d4\nModerate\t2d4\nStrong\t3d4\nOverwhelming\t4d4\n\nA creature whose Wisdom or Charisma damage from ravaging remorse equals or exceeds its Wisdom or Charisma score does not become unconscious or helpless but becomes shaken or staggered (equal chance of either) until its ability damage is cured or heals naturally so that it is lower than the target’s Wisdom or Charisma score. The target becomes shaken and staggered if its ability damage exceeds its ability score in both Wisdom and Charisma. An evil creature can become shaken or staggered by ravaging remorse even if it is normally immune to those conditions.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12c5205feaa9e2cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/12c5205feaa9e2cd"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "9e1dac4f06314f06",
+  "name": "Frost Shards",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 4,
+      "ranger": 4,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation); Level bard 4, druid 3. ranger 4, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (wineskin of water)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget persons targeted\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates one shard of ice per caster level to dance around the caster (maximum of 10 shards), granting him an enhancement bonus to AC equal to the total number of shards. As a standard action, the caster may send one or all of the shards of ice to attack any opponents within range, with each shard inflicting 1d6 points of piercing damage. Using a shard to attack destroys the shard and lowers the AC bonus by one. The caster must roll a normal ranged attack for each shard in order to hit a foe.\n\nMultiple shards may attack multiple opponents.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9e1dac4f06314f06.json",
+    "web": "https://codex.pipsprojects.com/#/e/9e1dac4f06314f06"
+  },
+  "license": "OGL 1.0a"
+}

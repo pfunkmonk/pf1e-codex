@@ -1,0 +1,26 @@
+{
+  "id": "a7cb8428bcc8b9d5",
+  "name": "Time Jump",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "temporal"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (transmutation) [temporal]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget touched construct\nDuration 1d4+1 rounds\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nYou throw a construct forward through time.\n\nEffectively, the target disappears for 1d4+1 rounds.\n\nDuring this time, the creature cannot be perceived or scryed upon in any way, nor can it act or be acted upon, even with a wish.\n\nPersistent effects with durations that affect the creature each round do not affect it, and spells or effects on the creature with durations do not have their durations decreased. When the creature returns to the time stream, it is unaware that any time has passed.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a7cb8428bcc8b9d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/a7cb8428bcc8b9d5"
+  },
+  "license": "OGL 1.0a"
+}

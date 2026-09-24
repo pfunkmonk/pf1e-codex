@@ -1,0 +1,33 @@
+{
+  "id": "ebf0d8305de25881",
+  "name": "Buried in Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "oracle": 4,
+      "druid": 4,
+      "inquisitor": 4,
+      "magus": 4,
+      "paladin": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "special",
+    "sr": "see text",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level bard 4, cleric/oracle 4, druid 4, inquisitor 4, magus 4, paladin 4, shaman 4, sorcerer/wizard 4\nSaving Throw Fort negates; Spell Resistance see text\n\nDESCRIPTION\n\nThis spell functions as the spell daylight except any creature that enters the area of light created by this spell must make a Fortitude save or treat the area as difficult terrain or worse. Areas of normal light within the 120-foot-total radius is considered difficult terrain for those that fail their Fortitude save. Areas of bright light are considered difficult terrain but cost 15 feet per 5 feet moved instead of 10 feet for those that failed their Fortitude save. Those that succeed on their saving throw ignore the difficult terrain in normal light and treat bright light as normal difficult terrain. When casting this spell, you can designate a number of creatures, including yourself, equal 1/2 your caster level, to not be subject to this spell. Spell resistance protects against the difficult terrain portion of this spell but not the light created by the spell.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ebf0d8305de25881.json",
+    "web": "https://codex.pipsprojects.com/#/e/ebf0d8305de25881"
+  },
+  "license": "OGL 1.0a"
+}

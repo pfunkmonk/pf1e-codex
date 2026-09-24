@@ -1,0 +1,27 @@
+{
+  "id": "9cf765857abbe52e",
+  "name": "Bead of Blasting",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [sonic]; Level bard 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (a bead carved from a bone, horn, or ivory of any magical sonic creature, including high-level bards)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 5-ft. radius\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nWhen evoking this spell, you place a musical note to a bead, either by singing or playing an instrument, then toss the bead at the targeted area where it explodes with concussive force. Those in the radius affected by the spell take 3d8 points of damage. Furthermore, those in the area of effect who fail their Reflex save are deafened for 2d6 rounds.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9cf765857abbe52e.json",
+    "web": "https://codex.pipsprojects.com/#/e/9cf765857abbe52e"
+  },
+  "license": "OGL 1.0a"
+}

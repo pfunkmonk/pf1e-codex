@@ -1,0 +1,31 @@
+{
+  "id": "83cfae5d1efdb93d",
+  "name": "Backbiting Blow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "legendary ninja": 1,
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "metal",
+      "wood"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [metal, wood]; Level antipaladin 1, legendary ninja 1, magus 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one wooden or wooden-hafted weapon\nDuration 1 round/level or until discharged (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause a weapon to twist around and strike its wielder. The next time the target weapon is used to make a melee attack or as a thrown weapon, its shaft twists around and strikes at its wielder instead. The wielder makes a normal attack roll against its own AC, dealing normal damage on a hit (including bonus damage for Power Attack and other feats or abilities that improve damage). The wielder may not choose to deal nonlethal damage with this attack, though damage reduction may apply against the damage dealt by the weapon. If the weapon wielder misses, the backbiting blow effect persist and each attack he makes with the target weapon twists around to attack him instead until he successfully hits and damage himself or switches to a different weapon.\n\nThis spell affects weapons entirely made of wood, such as a club or staff, as well as hafted or handled weapons such as axes, maces, spears, nunchaku, flails, polearms, and the like. It does not affect entirely metallic weapons such as swords and daggers.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83cfae5d1efdb93d.json",
+    "web": "https://codex.pipsprojects.com/#/e/83cfae5d1efdb93d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "04fd4013a0249798",
+  "name": "Jellyhemoth",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "JELLYHEMOTH CR 10\n\nA gigantic milky jellyfish floats in the water, its sprawling tendrils spreading for almost a hundred feet from end to end.\n\nXP 9,600\nN Colossal vermin (aquatic)\nInit +1; Senses darkvision 60 ft.; Perception +0\nAura cloud of tentacles (40 ft.)\n\nDEFENSE\n\nAC 15, touch 3, flat-footed 14 (+1 Dex, –8 size, +12 natural)\nhp 148 (9d8+108)\nFort +18, Ref +4, Will +3\nDefensive Abilities amorphous; DR 10/piercing or slashing; Immune mind-affecting effects\n\nOFFENSE\n\nSpeed swim 20 ft.\nMelee 4 tentacles +14 (2d8+16 plus poison and grab)\nSpace 30 ft.; Reach 40 ft.\n\nSTATISTICS\n\nStr 42, Dex 13, Con 34, Int —, Wis 11, Cha 1\nBase Atk +6; CMB +30; CMD 41 (can’t be tripped)\nSkills Swim +18\nSQ compression, waterbound\n\nSPECIAL ABILITIES\n\nCloud of Tentacles (Ex)\n\nA jellyhemoth is surrounded by a cloud of floating tentacles. It does not make attacks of opportunity. If a creature ends its round within the cloud of tentacles, the jellyhemoth makes a single tentacles attack against it.\n\nPoison (Ex)\n\nTentacles-injury; save Fort DC 24; frequency 1/round for 6 rounds; effect staggered 1 round and 1d4 Con damage; cure 2 consecutive saves. The save DC is Constitution based and includes a –4 racial penalty.\n\nWaterbound (Ex)\n\nA jellyhemoth lacks the strength to move its tendrils above the waterline. It can only make attacks below water, and its aura only extends below water.\n\nECOLOGY\n\nEnvironment any oceans\nOrganization solitary, pack (2-5), or bloom (6-12)\nTreasure None\n\nThe jellyhemoth is a massive jellyfish with tentacles that spread almost a hundred feet from end to end. It is slow and mindless, but capable of consuming whales whole should the creatures be foolish enough to get caught in the translucent tendrils.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04fd4013a0249798.json",
+    "web": "https://codex.pipsprojects.com/#/e/04fd4013a0249798"
+  },
+  "license": "OGL 1.0a"
+}

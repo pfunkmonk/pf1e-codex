@@ -1,0 +1,17 @@
+{
+  "id": "4a13b186eb2e7769",
+  "name": "Skeleton, Reindeer",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Icebound",
+  "book": "Icebound",
+  "facets": {
+    "bk": "Icebound"
+  },
+  "body": "SKELETON, REINDEER\nCR 1\n\nXP 400\nNE Medium undead\nInit +7; Senses low-light vision; Perception +0\n\nDEFENSE\n\nAC 16, touch 13, flat-footed 13 (+3 Dex, +3 natural)\nhp 9 (2d8)\nFort +0; Ref +3; Will +3; DR 5/bludgeoning; Immune cold, undead traits\n\nOFFENSE\n\nSpeed 50 ft.\nMelee gore +3 (1d6+2), 2 hooves –2 (1d3+1)\n\nSTATISTICS\n\nStr 14, Dex 17, Con —, Int —, Wis 10, Cha 10\nBase Atk +1; CMB +3; CMD 16 (20 vs. trip)\nFeats Improved Initiative B\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a13b186eb2e7769.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a13b186eb2e7769"
+  },
+  "license": "OGL 1.0a"
+}

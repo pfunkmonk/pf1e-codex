@@ -1,0 +1,27 @@
+{
+  "id": "da0f82fe20627604",
+  "name": "Ebonflame",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "fear",
+      "fire"
+    ],
+    "save": "special",
+    "sr": "yes (harmless, see text)",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fear, fire]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one subject\nDuration 1 round/level (D) (maximum 25 rounds)\nSaving Throw Fort negates (see text); Spell Resistance yes (harmless, see text)\n\nDESCRIPTION\n\nEach round, the subject must succeed on a Fortitude saving throw against this spell or take 1d10 points of damage. Likewise, victims with spell resistance roll every round to prevent the spell effects for that round.\n\nA single success on a saving throw or spell resistance does not negate the ebonflame; that can be accomplished only at the will of the caster or by a successful dispel magic.\n\nIn addition to the damage, the spell causes a mind-affecting fear effect in its victim. On any round during which the spell’s victim takes damage, she must also succeed on a Will save versus this spell’s DC. Victims who fail their Will save are considered to be cowering (no Dexterity adjustment to AC, opponents have +2 to attack rolls on victim, victim does not move). Such a subject is not able to take any action (melee, spellcasting, etc.) except to fruitlessly attempt to douse the flames by rolling on the ground and swatting at them.\n\nOnce targeted, the ebonflame stays on its victim for the spell’s duration.\n\nOnly a dimension door, teleport or the like separates the victim from the ebonflame. Additionally, the spell does not function underwater, but bursts back into effect for any amount of its remaining duration when the victim is not completely submerged.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/da0f82fe20627604.json",
+    "web": "https://codex.pipsprojects.com/#/e/da0f82fe20627604"
+  },
+  "license": "OGL 1.0a"
+}

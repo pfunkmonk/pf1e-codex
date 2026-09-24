@@ -1,0 +1,29 @@
+{
+  "id": "92cc05dcbc6bdc4d",
+  "name": "Infernal Contract",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "evil",
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [evil, language-dependent, mind-affecting]; Level cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a piece of parchment, ink, and a pen)\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA creature who signs this contract, whether willingly or through some other magical compulsion, is bound to the letter of the document as if by the spell geas. The contract appears to be mundane in nature, and a creature must succeed a Spellcraft check of a DC equal to 10 + the creator’s caster level + the creator’s casting ability score modifier to realize the magical nature of the contract. The contract must clearly state what the creature signing is required to do.\n\nA remove curse spell ends the effects of an infernal contract only if its caster is at least two levels higher than the contract creator’s caster level. Break enchantment does not end the terms of then infernal contract, but limited wish, miracle, and wish do. The signer’s death also ends the infernal contract, unless a clause within the contract specifically states otherwise.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/92cc05dcbc6bdc4d.json",
+    "web": "https://codex.pipsprojects.com/#/e/92cc05dcbc6bdc4d"
+  },
+  "license": "OGL 1.0a"
+}

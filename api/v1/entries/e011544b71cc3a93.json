@@ -1,0 +1,29 @@
+{
+  "id": "e011544b71cc3a93",
+  "name": "Banish Pact Spirits",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration [pact]; Level cleric 7, shaman 7, sorcerer/wizard 7, witch 7\n\nDESCRIPTION\n\nThis spell functions as dismiss pact spirit†, except that the granted abilities of all of the target’s bound spirits become suppressed for 5 rounds on a failed Will save. At the conclusion of this suppression, the target makes a Will save for each spirit that it is bound to. On a failed saving throw, the suppressed spirit becomes exorcised.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e011544b71cc3a93.json",
+    "web": "https://codex.pipsprojects.com/#/e/e011544b71cc3a93"
+  },
+  "license": "OGL 1.0a"
+}

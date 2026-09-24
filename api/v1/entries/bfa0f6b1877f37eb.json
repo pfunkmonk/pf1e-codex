@@ -1,0 +1,28 @@
+{
+  "id": "bfa0f6b1877f37eb",
+  "name": "Soften Metal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "occultist": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "yes (object)",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation [earth]; Level adept 1, occultist 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 minute\nComponents S, M (enough wet clay to coat over half the target)\n\nEFFECT\n\nRange touch\nTarget non-magical metal of no more than 5 lbs./level and hardness of 8 +1/level\nDuration 8 hours\nSaving Throw Fort negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nAs part of casting this spell, you must apply wet clay to over half the surface of the target object. If you are unable reach over half the surface area of the target, or are otherwise unable to coat enough surface area of the target with wet clay, the spell fails. The metal becomes pliable to firm pressure, and can be easily reshaped without need for heat or overt force: swords can be bent or re-honed, metal plating can be bent by an average human’s strength, and so on. Any metal removed from the original target object retains this property until the effect of soften metal ends. At the GMs discretion, creatures can craft or alter softened metal objects with a crafting skill such as Craft (pottery) or Craft (sculptures). Crafters can also add the masterwork quality to metal items affected by soften metal without need for forges or steady heat, though they must supply the extra gold in materials as normal (which also need to be affected by a second casting of soften metal).\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bfa0f6b1877f37eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/bfa0f6b1877f37eb"
+  },
+  "license": "OGL 1.0a"
+}

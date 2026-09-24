@@ -1,0 +1,31 @@
+{
+  "id": "26ce425716dce46b",
+  "name": "Freezing Snow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [cold, water]; Level druid 1, ranger 1, shaman 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a handful of chalk)/DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft. radius\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nYou cause sheets of freezing snow to spread over the ground in the area of effect. This layer of snow is 1 foot deep and constantly shifts and churns, transforming the ground in the area into difficult terrain. The snow deals 1d4 points of cold damage to any creature that ends its turn in contact with the ground within the area of effect. At the end of the duration, the snow vanishes, leaving no after-effects (other than damage dealt).\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26ce425716dce46b.json",
+    "web": "https://codex.pipsprojects.com/#/e/26ce425716dce46b"
+  },
+  "license": "OGL 1.0a"
+}

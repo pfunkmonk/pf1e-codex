@@ -1,0 +1,25 @@
+{
+  "id": "ab3597cb97cc3b94",
+  "name": "Replicate, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "vanguard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation); Level magus 4, sorcerer/ wizard 4, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget object weighing no more than 10 lbs.\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as replicate, except you can only target an object weighing 10 pounds or less. In addition, despite its appearance being identical, the replicated item does not maintain the special material properties of the original. Metallic items constructed with special materials (such as adamantine or mithral) are instead made of typical steel, wooden items made of special materials (such as wyroot) are made of a common timber, and so on for other kinds of materials like leather, stone, or glass. Even if the material is changed, the replicated item maintains the same coloration and weight as the original materials, so to an untrained eye it appears as an exact replica. The DC to identify it as a fake is -5 lower than the DC outlined in replicate.\n\nYou cannot replicate an artifact with this spell.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab3597cb97cc3b94.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab3597cb97cc3b94"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "e7f7f83caac791a1",
+  "name": "Banish Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 7,
+      "nightblade": 6,
+      "paladin": 4,
+      "wizard": 7
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration [light]; Level cleric 7, nightblade 6, paladin 4, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft\nArea 30 ft.-radius emanation, centered on you\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA field of brilliant light emanates from you and follows you, removing all darkness within the area. The lighting within the spell’s area becomes bright light, as a daylight spell, regardless of existing lighting conditions. Supernatural abilities that create darkness, spells with the darkness or shadow descriptor, and spells of the shadow subschool are suppressed within the area of the spell, as an antimagic field. Creatures within the area of the spell do not cast a shadow. If an object or creature is hidden away within a creature’s shadow, such as a nightblade’s shadow bond ability or an object hidden by a shadow courier spell, the hidden object or creature cannot be accessed or utilized while in the area of this spell. Negative energy effects in the area deal only half their normal damage to living creatures and heal half their normal hit points to undead creatures.\n\nBanish shadows can be used to counter or dispel a spell of the shadow subschool or a spell with the shadow or darkness descriptor of any level, even those with a higher level than banish shadows.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7f7f83caac791a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7f7f83caac791a1"
+  },
+  "license": "OGL 1.0a"
+}

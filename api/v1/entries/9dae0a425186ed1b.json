@@ -1,0 +1,29 @@
+{
+  "id": "9dae0a425186ed1b",
+  "name": "Heartseeker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 1,
+      "wizard": 1,
+      "bloodrager": 1,
+      "warpriest": 2,
+      "magus": 1,
+      "shaman": 2,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy; Level arcanist 1, sorcerer/wizard 1, bloodrager 1, cleric/oracle/warpriest 2, magus 1, shaman 2, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (heart)\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 3 rounds + 1 round/2 levels (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nNote: This spell was designed to be used by dragons, thus it may alter or replace core dragon abilities (like frightful presence etc.)\n\nTwisting the strands of fate, you imbue one weapon with a desperate need to seek vital organs. Upon a strike, you deal an additional 5 points of negative energy damage plus 1 point of damage per caster level (to a maximum of 15 points of damage) to the target. The magic dissipates after one hit.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9dae0a425186ed1b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9dae0a425186ed1b"
+  },
+  "license": "OGL 1.0a"
+}

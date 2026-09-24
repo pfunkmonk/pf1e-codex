@@ -1,0 +1,30 @@
+{
+  "id": "a8fb075a68ae8feb",
+  "name": "Implant Dark Young",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 6,
+      "druid": 6,
+      "shaman": 6,
+      "witch": 6
+    },
+    "desc": [
+      "chaotic",
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School conjuration (creation) [chaotic, evil]; Level cleric 6, druid 6, shaman 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a small boil on the target. If the target succeeds at a Fortitude saving throw, the boil withers and falls off within one round. If the target fails this save, the boil grows with amazing speed over the course of 1d4 rounds. At that point, the target takes 1d6 points of bleed as an adolescent dark young of Shub-Niggurath bursts from the boil in a shower of pus and blood. The dark young attacks any creature besides a cultist of Shub-Niggurath or someone wearing an unholy symbol of Shub-Niggurath.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8fb075a68ae8feb.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8fb075a68ae8feb"
+  },
+  "license": "OGL 1.0a"
+}

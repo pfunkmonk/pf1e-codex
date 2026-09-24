@@ -1,0 +1,30 @@
+{
+  "id": "11c50e979186eea5",
+  "name": "Frost Chakram",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 2,
+      "legendary ninja": 2,
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [cold]; Level alchemist 2, legendary ninja 2, magus 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of water or piece of ice)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect one chakram of ice\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou create a razor-sharp ring of enchanted ice that speeds to strike a target you designate as a ranged attack, dealing 1d8 points of slashing damage, and if the target fails a Fortitude save it also takes 2 points of Dexterity damage. After impact, the frost chakram explodes in a 10-foot-radius burst of ice crystals dealing 1d8 points of cold damage (Reflex half ) to all creatures in the area and making the area very slippery (as a grease spell) for 1 round. If the frost chakram misses, treat it as a miss with a splash weapon. It explodes in a burst of ice crystals as noted above at the point of impact.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/11c50e979186eea5.json",
+    "web": "https://codex.pipsprojects.com/#/e/11c50e979186eea5"
+  },
+  "license": "OGL 1.0a"
+}

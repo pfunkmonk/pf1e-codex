@@ -1,0 +1,28 @@
+{
+  "id": "4d039b512160a4e3",
+  "name": "Thunderous Cacophony",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bard 4, magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius spread\nDuration 1 round/2 levels (D)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the area with roaring thunderous crashes. Each creature beginning their turn in or entering the area takes 4d6 points of sonic damage and is deafened for 2 rounds. This deafening does not stack on consecutive rounds, but it extends the duration. A successful Fortitude save halves the damage and negates the deafening.\n\nThis cacophony has the added effect of disrupting other auditory effects. Any such language-dependent, auditory, or sonic effect only has a 50% chance of being effective against a creature in the area each round.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d039b512160a4e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d039b512160a4e3"
+  },
+  "license": "OGL 1.0a"
+}

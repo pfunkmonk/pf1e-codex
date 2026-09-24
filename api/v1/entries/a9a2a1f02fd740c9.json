@@ -1,0 +1,34 @@
+{
+  "id": "a9a2a1f02fd740c9",
+  "name": "Sunlight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 5,
+      "cleric": 5,
+      "druid": 5,
+      "hunter": 5,
+      "inquisitor": 5,
+      "oracle": 5,
+      "paladin": 4,
+      "shaman": 5,
+      "warpriest": 5
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [light]; Level bard 5, cleric 5, druid 5, hunter 5, inquisitor 5, oracle 5, paladin 4, shaman 5, warpriest 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell works as daylight, except the spell counts as natural sunlight for the purpose of creatures and effects affected by it.\n\nMercy of the Sun Copyright 2026 Varyag's Forge Author: Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9a2a1f02fd740c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9a2a1f02fd740c9"
+  },
+  "license": "OGL 1.0a"
+}

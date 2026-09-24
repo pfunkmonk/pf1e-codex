@@ -1,0 +1,23 @@
+{
+  "id": "8faf6b0aa2534db3",
+  "name": "Circle of Doom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Wizards of the Coast",
+  "book": "Wizards of the Coast",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Wizards of the Coast"
+  },
+  "body": "School necromancy; Level cleric/oracle 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 20 ft\nArea All living enemies and undead creatures within a 20-ft-radius burst centered on the caster\nDuration Instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nNegative energy bursts in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +20) to nearby living enemies.\n\nLike inflict spells, circle of doom cures undead in its area rather than damaging them.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8faf6b0aa2534db3.json",
+    "web": "https://codex.pipsprojects.com/#/e/8faf6b0aa2534db3"
+  },
+  "license": "OGL 1.0a"
+}

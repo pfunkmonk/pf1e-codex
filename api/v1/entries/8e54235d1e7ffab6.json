@@ -1,0 +1,24 @@
+{
+  "id": "8e54235d1e7ffab6",
+  "name": "Sacrificial Monkey",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 6 hrs.\nComponents V, S, M (freshly killed body of a monkey)\n\nEFFECT\n\nEffect one creature\nDuration 1 day/caster level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a shadow monkey-a foul, animated object that clings to you like a sickened baby.\n\nThe sacrificial monkey has a single use: to stop a confirmed critical from affecting you. When an enemy confirms a critical hit against you, the monkey throws itself before the melee, ranged, or ranged touch attack and takes the hit itself. The monkey always stops such attacks and never stops any other attacks. The monkey cannot stop damage inflicted by critical hits from spells or spell-like abilities.\n\nThe monkey cannot attack in any way; it is never allowed an attack roll. It cannot be killed, but dissipates if it takes 6 hp damage/caster level (it gets no save against any attacks it stops).\n\nThe sacrificial monkey can be dismissed or commanded to remain at a given location. Issuing such a command temporarily suppresses the benefit of the sacrificial monkey until it is again within your space. You can never have more than a single sacrificial monkey at any given time.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8e54235d1e7ffab6.json",
+    "web": "https://codex.pipsprojects.com/#/e/8e54235d1e7ffab6"
+  },
+  "license": "OGL 1.0a"
+}

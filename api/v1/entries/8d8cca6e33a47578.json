@@ -1,0 +1,24 @@
+{
+  "id": "8d8cca6e33a47578",
+  "name": "Dimensional Shove",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation, dimensional); Level bard 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one creature touched\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell pushes your target through a dimensional portal, causing it to reappear a short distance away.\n\nYou must make a successful melee touch attack to use this spell. If the target fails its Will save, it disappears from its current location and reappears 10 ft. away from you per caster level (maximum 100 ft.). It appears in a location directly away from you. This travel can take it through walls, creatures, or other solid surfaces, but if the distance traveled would place the creature inside a solid object, it instead appears in the nearest open square in the path of travel.\n\nMythic: If you expend one use of mythic power when casting dimensional shove, the target does not receive a Will saving throw to resist the spell, unless the target is mythic. In addition, you can select the destination of the target, as long as that destination is known to you, on solid ground, and is within the normal range of the shove (100 ft.). The location cannot be within a solid object, otherwise the spell fails.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d8cca6e33a47578.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d8cca6e33a47578"
+  },
+  "license": "OGL 1.0a"
+}

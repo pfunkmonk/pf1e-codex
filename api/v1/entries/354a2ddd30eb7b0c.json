@@ -1,0 +1,25 @@
+{
+  "id": "354a2ddd30eb7b0c",
+  "name": "Monstrous Birth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 7,
+      "druid": 7,
+      "witch": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 7, druid 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of mother’s milk)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living humanoid or monstrous humanoid\nDuration 1 round/level\nSaving Throw Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou create the seed of newborn life inside the target’s abdomen, causing it to gestate and swell with horrific rapidity. If the target succeeds on its Fortitude save, it is staggered for 1 round by the turmoil in its abdominal cavity but suffers no other ill effects. If the initial save is failed, you create a blighted, mutated fetal duplicate of the target inside its own abdomen. The target is staggered and is treated as if carrying a medium load, and each round at the end of its turn it must succeed in another Fortitude save to prevent the abomination from growing further.\n\nA second failed save allows it to continue growing, causing the target to become nauseated and to be treated as if carrying a heavy load. On a third failed save, the abomination bursts open the target’s abdomen from within, dealing 2d4 points of Strength, Constitution, and Dexterity damage and 2d6 points of bleed damage. The target is no longer considered to be carrying a heavy load but remains nauseated and staggered.\n\nOnce the abomination has erupted from the target’s abdomen, the target may continue attempting a Fortitude save each round at the end of its turn. One successful save ends the nauseated condition and a second successful save ends the staggered condition. Both conditions are ended immediately by heal or regenerate.\n\nThe abomination itself resembles a smaller version of the target, naked and bloody and its features and form twisted and malformed. It shares the base statistics, feats, skills, and exceptional abilities of its parent, but is one size category smaller and has only half its parent’s hit points. If the target was affected by any harmless spell or magic item effects at the time the monstrous birth tears free of its body, the abomination shares those effects.\n\nThe newborn creature gains two claw attacks and a bite attack as primary natural weapons; if it already has these natural attacks, they deal damage as if it were the same size as its parent. The abomination attacks its unwilling parent in preference to other targets, but if unable to reach that target it attacks any living creature other than the caster.\n\nThe abomination’s is born in agony and it is immune to pain effects and cannot be staggered or stunned. However, its broken body blood and fluids constantly, causing it to take 1d6 points of bleed damage per round. The abomination dies when the spell ends, collapsing into a pile of reeking offal.\n\nIf the caster spends 10 minutes casting this spell on a willing or helpless target and expends 50 gp in alchemical reagents and sacred oils and incense per Hit Die of the target, the duration is increased to 1 hour per level and the abomination takes bleed damage only once per hour.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/354a2ddd30eb7b0c.json",
+    "web": "https://codex.pipsprojects.com/#/e/354a2ddd30eb7b0c"
+  },
+  "license": "OGL 1.0a"
+}

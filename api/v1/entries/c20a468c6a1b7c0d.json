@@ -1,0 +1,25 @@
+{
+  "id": "c20a468c6a1b7c0d",
+  "name": "Spell Envelope",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "arcanist": 2,
+      "wizard": 2,
+      "warpriest": 3
+    },
+    "save": "None",
+    "sr": "special",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level arcanist 2, sorcerer/wizard 2, cleric/oracle/warpriest 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (powdered iron), DF Range special\n\nEFFECT\n\nTarget one creature\nDuration 1 round (see text)\nSaving Throw none; Spell Resistance special\n\nDESCRIPTION\n\nYou weave an anti-magical cocoon to more easily pierce a single creature’s spell resistance. Until the end of your next round, one spell may be placed in the cocoon and hurled towards the designated target. The spell placed inside the cocoon does not have to be yours, but if cast by another, that caster must be within 10 feet of you. The spell resistance of the target creature is reduced by 5 for this one spell. This spell stacks with feats that reduce spell resistance. If the spell contained in the envelope does not target or affect the target of spell envelope, the magic fizzles and fades.\n\nSpell Envelope, Greater\n\nSchool abjuration; Level arcanist 4, sorcerer/wizard 4, cleric/oracle/warpriest 5\n\nDESCRIPTION\n\nNote: This spell was designed to be used by dragons, thus it may alter or replace core dragon abilities (like frightful presence etc.)\n\nAs spell envelope, but the spell resistance of the target creature is reduced by 15 for the one spell stored in the spell envelope.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c20a468c6a1b7c0d.json",
+    "web": "https://codex.pipsprojects.com/#/e/c20a468c6a1b7c0d"
+  },
+  "license": "OGL 1.0a"
+}

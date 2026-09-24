@@ -1,0 +1,28 @@
+{
+  "id": "4322de7676660ee4",
+  "name": "Corrupt Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 5,
+      "druid": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [water]; Level cleric/oracle 5, druid 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (the venom of a spider or the tooth of a viper)/DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels) Corpse Armor\nArea water in a volume of 10 ft./level by 10 ft./level by 2 ft./level (S)\nDuration 1 round/level (D)\nSaving Throw Fort negates or Fortitude half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou change an area of water into a poisonous and toxic substance.\n\nCreatures in the area or that enter the area while the spell is in effect must succeed on a Fortitude save or be affected by the poison (see below).\n\nCreatures with the water subtype can be targeted with this spell and take 1d6 points of damage per caster level (maximum 10d6). A successful Fortitude save halves the damage.\n\nCorrupted Water: type contact; Fort DC 10 + spell level + caster’s key ability; onset 1 round; frequency 1/minute for 5 minutes; effect 1d3 Con damage; cure 1 save.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4322de7676660ee4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4322de7676660ee4"
+  },
+  "license": "OGL 1.0a"
+}

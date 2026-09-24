@@ -1,0 +1,25 @@
+{
+  "id": "1703ae7e865b1360",
+  "name": "Contamination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 7,
+      "druid": 7,
+      "wizard": 8
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 7, druid 7, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe subject contracts 1d3 diseases that strike immediately (no incubation period). The caster infects the subject with any disease allowed by the GM, though a Fortitude save is allowed for each. For the next day, if uncured, all living creatures that come within 20 feet must save against each disease the subject carries. The individual disease, not the spell, affects those failing their saves in this case. In order to rid the victim of this curse, each disease must be individually cured by magical means.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1703ae7e865b1360.json",
+    "web": "https://codex.pipsprojects.com/#/e/1703ae7e865b1360"
+  },
+  "license": "OGL 1.0a"
+}

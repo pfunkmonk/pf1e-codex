@@ -1,0 +1,25 @@
+{
+  "id": "d7162bcd6db36d00",
+  "name": "Alter Age",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy (aging); Level cleric 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature or object\n\nDuration 10 minutes/level (D)\n\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou temporarily alter the target’s physical age, advancing or regressing it by up to three age categories. Adjust the target’s Strength, Dexterity, and Constitution scores as appropriate for its new age category. The target’s maturity and mental ability scores remain unchanged. A creature whose age is unknown is treated as if this spell had advanced its age to Middle Age or regressed it to Youth (your choice).\n\nIf you cast this spell on an object, construct, or undead creature, it either takes 10 points of damage per caster level you possess or heals 10 points of damage per caster level you possess, to a maximum of 200 points.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7162bcd6db36d00.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7162bcd6db36d00"
+  },
+  "license": "OGL 1.0a"
+}

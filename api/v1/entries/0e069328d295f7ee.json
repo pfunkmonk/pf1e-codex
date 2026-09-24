@@ -1,0 +1,27 @@
+{
+  "id": "0e069328d295f7ee",
+  "name": "Caustic Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "acid",
+      "earth"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [acid, earth]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 1 minute/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nCaustic weapon imbues the targeted weapon with a shimmering stone-like field which grants the weapon a magic enhancement that deals an additional +1d6 acid damage on each successful strike. (If the weapon is not magical, it also counts as a magic weapon for purposes of bypassing DR for the duration of the spell.) This spell fails if cast upon a weapon that already deals acid damage. It cannot be cast on most natural weapons or a collection of ammunition, though it can be cast on a ranged weapon, imbuing all missiles fired from the weapon the additional damage for the spell’s duration. It can be cast on the natural weapons of a creature of the earth subtype.\n\nSection 15: Copyright Notices Adventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e069328d295f7ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e069328d295f7ee"
+  },
+  "license": "OGL 1.0a"
+}

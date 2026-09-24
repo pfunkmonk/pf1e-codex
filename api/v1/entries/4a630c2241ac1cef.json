@@ -1,0 +1,25 @@
+{
+  "id": "4a630c2241ac1cef",
+  "name": "Gravity Bomb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 2,
+      "psychic": 2,
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level magus 2, psychic 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/2 levels\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou forcibly twist a creature’s gravity field inwards, causing on-going damage that disrupts the creature’s body even on a cellular level and slightly increases the damage of certain attacks against the target.\n\nEach round at the beginning of the target’s turn, they take 1d4 points of damage. Additionally, this spell increases the bludgeoning, piercing, or slashing dealt to the target creature by any ranged attack or ranged spell by 2 points. This secondary effect only applies if the target creature does not have any effect or defense that reduces the damage dealt.\n\nFinally, each round in which the target creature suffers the damage from gravity bomb, any fast healing or regeneration they possess does not work in the following round.\n\nContact Other Plane: World of Mass Effects I, © 2025, Orphaned Bookworm Productions; Author: Connor Bates and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a630c2241ac1cef.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a630c2241ac1cef"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "d6cb069d3db3aac3",
+  "name": "Blessed Halo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 4,
+      "inquisitor": 3,
+      "paladin": 3
+    },
+    "desc": [
+      "good",
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [good, light]; Level cleric/oracle 4, inquisitor 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nEffect a glowing halo of celestial light that enhances healing and social skills\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell surrounds your head with a nimbus of golden light. The halo gives off light equivalent to a continual flame spell, and temporarily represses any darkness effect, even those of higher level, within the radius of its own light.\n\nWhile the halo is in effect, you gain fast healing 1. This ability increases by 1 for every three additional levels above 7th (fast healing 2 at 10th, 3 at 13th, etc., to a maximum of 5 at 19th level.) Any cure spells you cast while the blessed halo is active heal 1 extra hp per die.\n\nFinally, good-aligned creatures are impressed with your bearing and demeanor and you gain a +4 sacred bonus to all Charisma-based checks towards such creatures for the duration of the spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d6cb069d3db3aac3.json",
+    "web": "https://codex.pipsprojects.com/#/e/d6cb069d3db3aac3"
+  },
+  "license": "OGL 1.0a"
+}

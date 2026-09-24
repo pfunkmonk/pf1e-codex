@@ -1,0 +1,33 @@
+{
+  "id": "183d953e9c268327",
+  "name": "Lethargy of Tsathoggua",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "medium": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "chaotic",
+      "evil",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School enchantment (compulsion) [chaotic, evil, mind-affecting]; Level bard 1, cleric 1, medium 1, mesmerist 1, psychic 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1d4 rounds\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target becomes wholly complacent, desiring nothing. The target stands idle or sits for the duration of the spell unless attacked. If the target is attacked, it is staggered for 1 round but can otherwise act normally.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/183d953e9c268327.json",
+    "web": "https://codex.pipsprojects.com/#/e/183d953e9c268327"
+  },
+  "license": "OGL 1.0a"
+}

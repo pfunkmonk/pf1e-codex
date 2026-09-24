@@ -1,0 +1,28 @@
+{
+  "id": "894e5f746234cc54",
+  "name": "Cyclone Barrier",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 9,
+      "druid": 8,
+      "wizard": 9
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [air]; Level cleric/oracle 9, druid 8, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect wall up to 20 ft./level long and 10 ft./ level high (S)\nDuration 1 minute/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA vertical curtain of swirling, visible wind appears. It is 5 feet thick and of hurricane strength. Gargantuan or larger creatures can move through the barrier normally. Huge creatures must make a DC 10 Strength check to move through the barrier on land, and a DC 20 Fly check to move through while airborne. Large creatures must make a DC 15 Strength check to move through the barrier on land, and a DC 25 Fly check to move through while airborne. Medium or smaller creatures must make a DC 20 Strength check to move through the barrier on land, and cannot pass through the barrier if airborne.\n\nNormal ranged attacks cannot be made through the wall, while ranged spell attacks, giant boulders, and siege weapons suffer a –8 penalty if made against a target on the far side of the cyclone barrier. Gases, gaseous breath weapons, and creatures in gaseous form cannot pass through the wall (although it presents no barrier to incorporeal creatures). A structure or vehicle caught in the barrier suffers 4d6 damage each round (applying hardness normally).\n\nWhile the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square cyclone walls to enclose specific points.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/894e5f746234cc54.json",
+    "web": "https://codex.pipsprojects.com/#/e/894e5f746234cc54"
+  },
+  "license": "OGL 1.0a"
+}

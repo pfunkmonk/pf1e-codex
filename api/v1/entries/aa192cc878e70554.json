@@ -1,0 +1,30 @@
+{
+  "id": "aa192cc878e70554",
+  "name": "Chain Gang",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "paladin": 3,
+      "vanguard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level antipaladin 3, cleric 3, inquisitor 3, paladin 3, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a set of manacles worth at least 15 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/2 levels, no two of which can be more than 30 ft. apart\nDuration 1 min./level (D)\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nA spell created by prison wardens in the case of an attempted escape, chain gang chains multiple creatures together with metal shackles.\n\nEach target must succeed on a Reflex save or be shackled to the nearest creature that also failed its Reflex save by metal chains. For the duration of chain gang, the creatures cannot move further apart from the creature it is shackled to than the distance they were from each other at the time they were shackled by the chain gang spell. A creature that is sufficiently strong can break the chains; a chain has hardness 10 and 20 hit points, and can be broken in one attack by a DC 28 Strength check. A creature can also escape the chains with a DC 35 Escape Artist check. Once a chain is broken, the two creatures connected by that chain are no longer limited in movement in relation to each other, but are still restricted should there be chains connecting them to other creatures. A creature could also attempt to drag other creatures with it by the chains while it moves, should it be strong enough to do so.\n\nOne chain is also formed between you and one creature of your choice that failed its saving throw; this chain does not restrict your movement and simply appears in your grasp, allowing you to pull or restrain the creatures by a “lead line”. You can fasten the chain to a structure or other creature (it has a manacle to clasp onto a creature’s arms or onto iron bars, to name a few uses), or you can simply pull on the chain should you want to lead the creatures about. Letting go of the lead line does not end the spell, and another creature (or you) can pick up the lead line to pull the affected creatures.\n\nChain gang has no effect on an incorporeal creature or a swarm.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa192cc878e70554.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa192cc878e70554"
+  },
+  "license": "OGL 1.0a"
+}

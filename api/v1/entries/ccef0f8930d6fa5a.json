@@ -1,0 +1,32 @@
+{
+  "id": "ccef0f8930d6fa5a",
+  "name": "Lure of Greed",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "arcanist": 3,
+      "wizard": 3,
+      "skald": 3,
+      "warpriest": 3,
+      "hunter": 3,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level arcanist 3, sorcerer/wizard 3, bard/skald 3, cleric/oracle/warpriest 3, druid/hunter 3, shaman 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (gold coin)\n\nEFFECT\n\nRange touch\nEffect see text\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nNote: This spell was designed to be used by dragons, thus it may alter or replace core dragon abilities (like frightful presence etc.)\n\nYou turn a dragon’s keen senses against itself by enchanting a single gold coin. All dragons within 400 feet + 40 feet per caster level of the enchanted coin must succeed on a Will save each round or be compelled to move closer to the enchanted coin (at full speed). Succeeding on the Will save allows the dragon to function normally for that round. Once the dragon reaches the coin, it becomes completely captivated by its beauty, taking no actions. Attacking or injuring the affected dragon ends the spell.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ccef0f8930d6fa5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/ccef0f8930d6fa5a"
+  },
+  "license": "OGL 1.0a"
+}

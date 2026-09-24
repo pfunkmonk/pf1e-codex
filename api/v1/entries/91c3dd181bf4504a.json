@@ -1,0 +1,26 @@
+{
+  "id": "91c3dd181bf4504a",
+  "name": "Time Vortex",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "temporal"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (transmutation) [temporal]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a clockwork butterfly)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nArea 30-ft. radius spread\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou disturb the currents of time to destabilize your target area, creating a swirling vortex of temporal energy.\n\nA creature in the area is subject to one of the following effects for that round, determined by rolling on the following table at the start of the creature’s turn.\n\nTable 2-16: Time Vortex Effects\nd%\tEffect\n1-30\tThe target can only move at half speed for 1 round.\n31-60\tThe target is staggered for 1 round.\n61-90\tThe target is subject to slow for 1 round.\n91-100\tThe target is subject to temporal stasis for 1 round.\n\nThe target can make a Will save each round to avoid the effect, but is subject to the spell each round he or she begins in the area.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/91c3dd181bf4504a.json",
+    "web": "https://codex.pipsprojects.com/#/e/91c3dd181bf4504a"
+  },
+  "license": "OGL 1.0a"
+}

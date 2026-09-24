@@ -1,0 +1,24 @@
+{
+  "id": "74176dbbad73f603",
+  "name": "Anticipate Teleportation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "psychic": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level psychic 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (an hourglass made of precious metal costing at least 500 gp)\n\nEFFECT\n\nRange touch\nTarget one willing creature touched\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe target of the spell is surrounded by an invisible aura that extends out to 5 feet per caster level. The aura anticipates and delays teleportation into the spell’s area.\n\nAny teleportation spell or effect (including all spells with the teleportation descriptor) can be anticipated, making the target of the spell instantly aware of the exact location where the teleporting creature(s) will arrive, and their size(s). The spell also delays the arrival of the teleporting creature(s) by 1 round, making it arrive on its initiative count immediately before its next turn. The teleporting creature does not perceive this delay.\n\nSince a teleporting creature doesn’t necessarily arrive at the precise location it intends, the spell also functions against a creature that arrives in range even though its intended destination was elsewhere. For a creature that intends to teleport into range but inadvertently arrives outside the spell’s area, the spell gives this spell’s target awareness that a creature has attempted to teleport into range and delays the creature as normal, but doesn’t give any awareness as to the actual location of its imminent arrival.\n\nThe spell has no effect on creatures attempting to teleport away from the spell’s area, though if their destination is within the area, the spell will affect their re-entry as normal.\n\nAnticipate Teleportation, Greater\n\nSchool abjuration; Level psychic 6, sorcerer/wizard 6\n\nDESCRIPTION\n\nThis spell functions as anticipate teleportation except it identifies the type of creature arriving, and if the creature is known to the target of the spell, the creature’s identity. Additionally, the delay increases up to 3 rounds, as determined when cast.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74176dbbad73f603.json",
+    "web": "https://codex.pipsprojects.com/#/e/74176dbbad73f603"
+  },
+  "license": "OGL 1.0a"
+}

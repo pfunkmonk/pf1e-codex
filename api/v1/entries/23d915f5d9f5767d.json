@@ -1,0 +1,32 @@
+{
+  "id": "23d915f5d9f5767d",
+  "name": "Tongues of Hell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 0,
+      "inquisitor": 0,
+      "wizard": 0,
+      "summoner": 0,
+      "unchained summoner": 0,
+      "witch": 0
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [evil]; Level antipaladin 1, cleric/oracle 0, inquisitor 0, sorcerer/wizard 0, summoner 0, unchained summoner 0, witch 0\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one dead creature\nDuration 1 round\n\nDESCRIPTION\n\nYou touch the corpse and allow fiendish presences to speak through it. The corpse will spit out random sentences for 1 round. There is only a 10% chance the information related is useful to you, but it is difficult to distinguish whether the information is useful (the GM makes the percentile roll in secret). If you are good aligned, or if a good-aligned creature is within 10 feet of the corpse, you are unable to get any useful information through the corpse.\n\nUseful information may include warnings about dangers deeper in a dungeon, the command word to a magic item, or even vague and spectral warnings of your or your companions’ future. The GM decides what information, useful or not, is related by the fiendish presence.\n\nOnce a corpse has been subject to tongues of hell by any caster, any new attempt to cast tongues of hell on that corpse fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the head of the corpse must have a mouth in order to speak at all.\n\nThis spell doesn’t affect a corpse that has been turned into an undead creature.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/23d915f5d9f5767d.json",
+    "web": "https://codex.pipsprojects.com/#/e/23d915f5d9f5767d"
+  },
+  "license": "OGL 1.0a"
+}

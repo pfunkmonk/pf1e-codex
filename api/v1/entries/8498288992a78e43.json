@@ -1,0 +1,29 @@
+{
+  "id": "8498288992a78e43",
+  "name": "Resounding Voice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "mesmerist": 2,
+      "psychic": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [sonic]; Level bard 2, cleric/oracle 2, mesmerist 2, psychic 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe touched target’s voice becomes magically enhanced. It is able to be heard clearly up to 100 feet away per caster level. This does not bypass areas of silence or deafness.\n\nThis spell counters and dispels silence on the target and is countered and dispelled by silence.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8498288992a78e43.json",
+    "web": "https://codex.pipsprojects.com/#/e/8498288992a78e43"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "c609b23f358f693f",
+  "name": "Crisis of Faith",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 3,
+      "inquisitor": 3,
+      "lathspell": 2,
+      "paladin": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (emotion, mind-affecting); Level antipaladin 2, cleric/oracle 3, inquisitor 3, lathspell 2, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou utter words that shake the target’s faith in their beliefs or their deity. The mental turmoil deals 1d6/caster level damage (maximum 10d6). If the target is able to cast divine spells, they instead take 1d8/caster level (maximum 10d8) damage and must make concentration checks to cast their divine spells for 1 round as if needing to cast defensively. A successful Will save halves this damage and negates the need for concentration checks if applicable.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c609b23f358f693f.json",
+    "web": "https://codex.pipsprojects.com/#/e/c609b23f358f693f"
+  },
+  "license": "OGL 1.0a"
+}

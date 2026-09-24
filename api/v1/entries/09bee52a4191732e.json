@@ -1,0 +1,19 @@
+{
+  "id": "09bee52a4191732e",
+  "name": "Sun and Moon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "None",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation [darkness, light]; Level 3\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou invoke the powers of the sun and moon to either bring light or create darkness, which radiates out from the object in a 20-foot radius. You choose whether to create light or darkness when you cast sun and moon.\n\nIf you create light, the light level increases, as a daylight spell, except as noted here.\n\nIf you create darkness, the light level around the object decreases, as a darkness spell, except as noted here.\n\nOverload: For every runic charge overloaded into this script, the radius of the light and darkness increases by 10 feet. If three or more charges are used, the effects grow stronger. If used to create light, the lighting out to double the light’s radius increases by two steps (from darkness to normal light, and from dim light or higher to bright light). If used to create darkness, the light level drops by two steps (from bright light to dim light, and from normal light or lower to darkness).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09bee52a4191732e.json",
+    "web": "https://codex.pipsprojects.com/#/e/09bee52a4191732e"
+  },
+  "license": "OGL 1.0a"
+}

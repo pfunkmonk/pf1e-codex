@@ -1,0 +1,25 @@
+{
+  "id": "ea0ddfa8bf11230b",
+  "name": "Wotan’s Rede",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 2,
+      "oracle": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level bard 2, cleric/oracle 3, witch 3\n\nCASTING\n\nCasting Time 1d6 rounds\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw Will, negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nYou recite a poem that is sent to your lips by the ancient gods of knowledge and wisdom. It grants you supernatural insight or advice.\n\nAs a result, you may make one Knowledge (geography, history, local, nature, or nobility) or Perform (oratory) check with an insight bonus equal to your caster level.\n\nYou may make this check even if you are untrained in the skill. If you are trained in the skill, your normal bonus stacks with the insight bonus this spell provides.\n\nIf you choose not to use this spell in place of a skill check, it instead provides a piece of general advice that’s equivalent to one from an augury or divination spell. This spell may not be used with the Silent Spell feat.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea0ddfa8bf11230b.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea0ddfa8bf11230b"
+  },
+  "license": "OGL 1.0a"
+}

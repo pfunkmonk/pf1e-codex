@@ -1,0 +1,26 @@
+{
+  "id": "72d5bc99fe6d94d6",
+  "name": "Spell Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 4,
+      "oracle": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level bard 4, cleric/oracle 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 hr./level or until triggered\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell lays an arcane trap on another spellcaster. The next time the affected spellcaster targets another creature with a spell or casts an area-of-effect spell that causes hp damage, this spell trap triggers and their own spell affects them instead of their intended target unless they succeed on a Will save.\n\nFor an area-of-effect spell, the area is centered on the affected caster. If the target casts spells that do not do damage, those spells are not affected by the spell trap.\n\nThis spell affects spells of 4th level or lower. If the affected spellcaster casts a higher level spell that otherwise fit the criteria, spell trap remains untriggered.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/72d5bc99fe6d94d6.json",
+    "web": "https://codex.pipsprojects.com/#/e/72d5bc99fe6d94d6"
+  },
+  "license": "OGL 1.0a"
+}

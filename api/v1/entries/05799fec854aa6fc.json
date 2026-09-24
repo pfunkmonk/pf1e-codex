@@ -1,0 +1,27 @@
+{
+  "id": "05799fec854aa6fc",
+  "name": "Earth Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [earth]; Level magus 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pebble or pinch of dirt)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nThis spell wreathes you in hard, rocky earth that increases your natural armor by 4. The earthen armor also renders you immune to unarmed/nonlethal and normal ranged attacks (siege weapon attacks affect you normally, but must penetrate a hardness of 15 first). Your base speed is reduced by 10 ft. for the duration of the spell (minimum 5 ft./round), but you suffer no Dexterity penalty or spell failure chance.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/05799fec854aa6fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/05799fec854aa6fc"
+  },
+  "license": "OGL 1.0a"
+}

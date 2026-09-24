@@ -1,0 +1,25 @@
+{
+  "id": "8bd01e5bc620d206",
+  "name": "Crushing Trample",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 3,
+      "shaman": 3,
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 3, druid/shaman 3, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration see text\n\nDESCRIPTION\n\nUpon completing this spell, you are filled with a desire to overrun and trample your foes. You immediately move up to twice your speed in a straight line, trampling every foe in your path. During this movement, you can overrun any creature equal to your size or smaller. This works like the combat maneuver, but you do not need to make the check. You simply move through foes. Trampling a foe deals 1d6 hp damage plus 1-1/2 your Strength modifier (1d8 if you are Large).\n\nIf you possess hooves, you add twice your Strength modifier to the damage instead. Targets you overrun can take an attack of opportunity against you, but at a –4 penalty. Targets that forgo their attack of opportunity can attempt a Reflex save to halve the damage (DC as for this spell).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8bd01e5bc620d206.json",
+    "web": "https://codex.pipsprojects.com/#/e/8bd01e5bc620d206"
+  },
+  "license": "OGL 1.0a"
+}

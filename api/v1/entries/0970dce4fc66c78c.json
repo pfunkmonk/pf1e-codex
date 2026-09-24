@@ -1,0 +1,28 @@
+{
+  "id": "0970dce4fc66c78c",
+  "name": "Somnambulance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "language-dependent; mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [language-dependent; mind-affecting]; Level bard 3, cleric/oracle 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature; see text\nDuration 1 hr./level or until completed; see text\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nYour ancestors’ studies of eldritch slumber have taught you how to implant a suggestion into the mind of a creature under the effects of sleep or deep slumber.\n\nMagically sleeping creatures believe this suggestion comes from their own unconscious minds, and therefore do not get a save against the suggestion. However, as with that spell, suggesting a creature do an obviously harmful act negates its effects.\n\nIf the suggestion would take the creature longer to complete than the duration of the sleep or deep slumber spell, a new sleep-inducing spell must be cast on it before the initial spell’s effect ends. Otherwise, the creature awakens and does not complete the activity. If this happens, it receives a Will save to realize the suggestion was the result of magic and not its own mind.\n\nTypically, only tieflings can choose this spell, although other appropriate races may choose it at the GM’s discretion.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0970dce4fc66c78c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0970dce4fc66c78c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "b72ca79804881786",
+  "name": "Summon Slime and Fungi",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "conjuration",
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School conjuration (summoning) [see text];; Level: cleric 4, sorcerer/wizard 4, summoner 4, witch 4\n\nComponents: V, S, F/DF (a piece of rotting food or flesh and a small candle)\n\nCasting Time: 1 round\n\nRange: Close (25 ft. + 5 ft./2 levels)\n\nTarget(s): One summoned creature\n\nDuration: 1 round/2 levels (D)\n\nSaving Throw: None; Spell Resistance: no\n\nThis spell works like summon monster, but summons a random ooze, slime, mold or fungus from the list below, depending on the caster’s level. If the caster does not meet the minimum required caster level for the creature, roll again. The caster must specify where the random creature will appear before rolling to see which creature is actually summoned.\n\nd10\tMinimum Caster Level\tMonster(s)\n1-2\t7\t1d3 shriekers (use splash damage diagram to determine exact location of each shrieker)\n3\t7\tMold, brown (10 ft. square)\n4\t7\tGray ooze\n5\t8\tGreen slime (10 ft. square)\n6\t8\tMold, yellow (10 ft. square)\n7\t8\tViolet fungus\n8\t8\tGelatinous cube\n9\t9\tMold, russet (10 ft. square)\n10\t9\tOchre jelly\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Magic Skull Games.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b72ca79804881786.json",
+    "web": "https://codex.pipsprojects.com/#/e/b72ca79804881786"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e2791feb2655c772",
+  "name": "Scarecrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 2,
+      "bard": 2,
+      "cleric": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School conjuration (creation); Level adept 2, bard 2, cleric 2, sorcerer/wizard 2, summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (rags and sticks)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one Medium-size scarecrow\nDuration 1 day/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou animate a collection of rags, sticks, and other detritus into a mute, roughly humanoid automaton that patrols an area. When created, you designate an area, typically a field or garden, that cannot exceed 50 square ft. per level. The scarecrow patrols the area to the best of its ability, chasing away birds and other pests. If any creatures except for you and those you indicate enter the field, it approaches them and attempts to ward them away. If any foreign objects are left in the area, it attempts to remove them. It has an effective Strength score of 2 (allowing it to lift 20 lbs. or drag 100 lbs.). It can’t perform any task that requires a skill check with a DC higher than 10 or that requires a check using a skill that can’t be used untrained. Its base speed is 20 feet.\n\nThe scarecrow cannot attack in any way; it is never allowed an attack roll. It has an AC of 10, hardness 0, and 12 hit points. It cannot willingly leave the area, and is instantly destroyed if forced to do so.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2791feb2655c772.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2791feb2655c772"
+  },
+  "license": "OGL 1.0a"
+}

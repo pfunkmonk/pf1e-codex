@@ -1,0 +1,24 @@
+{
+  "id": "4a9da739dd6ae721",
+  "name": "Antimagic Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 9,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level cleric/oracle 9, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (A pinch of iron filings mixed with ruby dust worth 100 gp)\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nEffect ray\nDuration 1 round/level\nSaving Throw Will negates (objects); Spell Resistance yes\n\nDESCRIPTION\n\nYou must succeed at a ranged touch attack to affect a target. The target, if struck, functions as if inside an antimagic field if it fails its Will save.\n\nIf the spell is used on a creature, they cannot cast spells, use supernatural abilities or spell-like effects, nor can they be affected by such. The target can still use spell completion (such as scrolls) or spell trigger items (such as wands), though they must use Use Magic Device to emulate the ability to cast the spells.\n\nIf the spell is used on an object, its magic powers are suppressed, as are any spells currently active on the object (like light or darkness). It also cannot be targeted by spells, supernatural abilities or spell-like abilities.\n\nThis ray will not affect objects except the target of the ray. For example, if a creature affected by the antimagic ray, their magic items still function normally.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a9da739dd6ae721.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a9da739dd6ae721"
+  },
+  "license": "OGL 1.0a"
+}

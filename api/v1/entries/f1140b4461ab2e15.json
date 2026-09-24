@@ -1,0 +1,23 @@
+{
+  "id": "f1140b4461ab2e15",
+  "name": "Spiritual Pike Wall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 5
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation (force); Level cleric 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect two spiritual soldiers\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a pair of force constructs, each similar to a spiritual ally, though unlike a typical spiritual ally your spiritual pike wall has a land speed of 20 feet (if you spend a swift action to command it to move) rather than a fly speed of 30 feet. The spiritual pike wall must be created in two contiguous squares; it cannot appear in diagonal squares. Each construct bears a shield of force and carries a long pike that grants it reach. While it takes the form of a pair of spectral soldiers, your spiritual pike wall is treated as a single effect for the purpose of being dispelled or otherwise destroyed. It makes one set of attacks (making iterative attacks as your base attack bonus allows) as if using a reach weapon; it does not threaten adjacent squares. It uses your CMD, with a bonus equal to your Wisdom modifier, to set the DC for creatures attempting to use Acrobatics to avoid its attacks of opportunity.\n\nIn addition to its ability to attack, a spiritual pike wall uses its shields for defense. It grants a +2 cover bonus to AC against any attack made by your enemies that passes through its space. This does not affect attacks made by you or your allies.\n\nAs an immediate action, you can direct your spiritual pike wall to adopt a defensive stance until the end of your next turn, during which they cannot attack but increases the cover bonus it provides to AC to +4. Alternatively, if a charging creature enters the spiritual pike wall’s threatened area, as an immediate action you can command it to attack that creature. If the attack hits, it deals double damage and the spiritual pike wall can attempt a combat maneuver check using your caster level plus your Wisdom modifier in place of its CMB.\n\nIf the check succeeds, the charging creature’s movement is stopped as if the spiritual pike wall had the Stand Still feat.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1140b4461ab2e15.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1140b4461ab2e15"
+  },
+  "license": "OGL 1.0a"
+}

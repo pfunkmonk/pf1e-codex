@@ -1,0 +1,31 @@
+{
+  "id": "9d26b135272e4ff9",
+  "name": "Dagger of Deception",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "legendary ninja": 4,
+      "magus": 4,
+      "occultist": 4,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 4, legendary ninja 4, magus 4, occultist 4, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a tiny sword and a set of loaded dice)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect blade of force\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a dagger of force that glows with a sickly green radiance. The blade functions as a spiritual weapon, but in addition each time it strikes the target acquires a curse of unluck, causing it to take a -1 penalty on its next attack roll and its next saving throw. This penalty is doubled to -2 on a critical hit, and the penalty stacks up to a maximum of -5. The curse persists until the target makes an attack roll or saving throw in a dangerous situation. It cannot be dispelled but can be removed with remove curse.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d26b135272e4ff9.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d26b135272e4ff9"
+  },
+  "license": "OGL 1.0a"
+}

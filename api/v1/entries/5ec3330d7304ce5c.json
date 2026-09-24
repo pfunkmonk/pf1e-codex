@@ -1,0 +1,30 @@
+{
+  "id": "5ec3330d7304ce5c",
+  "name": "Fiery Ice Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 6,
+      "magus": 6,
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "cold",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, fire]; Level druid 6, magus 6, shaman 6, sorcerer/wizard 6\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange long (400 ft. + 40 ft./level)\n\nTarget 20-ft.-radius cylinder, 40 ft. high\n\nDuration instantaneous, see text\n\nSaving Throw Reflex half; Spell Resistance yes\n\nYou call a terrifying storm of flaming meteors and chunks of freezing ice. All creatures in the area or who enter it take 6d6 fire damage and 6d6 cold damage. The area also is filled with steam and functions as a fog cloud for 1 minute thereafter.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ec3330d7304ce5c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ec3330d7304ce5c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "9d0aac40a63ffd36",
+  "name": "Elemental Glyphs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "fire",
+      "or sonic"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [acid, cold, electricity, fire, or sonic]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 full round action\nComponents S, M (phosphorescent inks worth 30 gp), F (copper plaque)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one or more elemental glyphs\nDuration 1 round/caster level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou call forth a brightly glowing glyph of white energy, plus one additional glyph for every four levels beyond 3rd.\n\nThe glyphs orbit your body in a dazzling display for 1 round/level. As a standard action, you can send a single glyph streaking forth as a ranged touch attack to target a foe within range, dealing 3d6 hp damage of either acid, cold, electricity, fire, or sonic damage, chosen as you unleash the glyph. Once either all of the glyphs are expended in this manner, or the duration ends, the spell is ended.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d0aac40a63ffd36.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d0aac40a63ffd36"
+  },
+  "license": "OGL 1.0a"
+}

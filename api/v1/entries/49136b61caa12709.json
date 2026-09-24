@@ -1,0 +1,30 @@
+{
+  "id": "49136b61caa12709",
+  "name": "Summon Wondrous Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 3,
+      "wizard": 3,
+      "summoner": 3,
+      "witch": 3
+    },
+    "desc": [
+      "chaotic",
+      "glamer"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [chaotic, glamer]; Level magus 3, sorcerer/wizard 3, summoner 3, witch 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange personal\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nThis spell summons one random wondrous item from the Minor Wondrous Item table (see previous spells).\n\nThe item appears at your feet or in your hands (your choice). These items are often in an alien style or have a garish appearance and are clearly a conjuration to anyone with a single rank in Spellcraft.\n\nYou may only have one item summoned by this spell at a time, as you must dismiss your current item or let its duration end before summoning a new wondrous item.\n\nThe summoned item and its effects disappear at the end of this spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/49136b61caa12709.json",
+    "web": "https://codex.pipsprojects.com/#/e/49136b61caa12709"
+  },
+  "license": "OGL 1.0a"
+}

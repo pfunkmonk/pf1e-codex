@@ -1,0 +1,27 @@
+{
+  "id": "038ac45e8ae6bda7",
+  "name": "Horrors Of The Deep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "fear; mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [fear; mind-affecting]; Level bard 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one intelligent creature\nDuration 1 round/level; see text\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nThe horrors of the deep physically engulf your target, coating it in grim, slithering, twitching fluid and subjecting it to the despair of a drowning man. This inflicts 1d6 hp nonlethal damage each round on a failed save.\n\nA successful Will save negates the damage for that round but does not end the effect. Instead, each successful save escalates the effect, ending it sooner but potentially causing more damage. If a target saves against this spell once, reduce the remaining duration by half and increase the nonlethal damage per round to 2d6 hp.\n\nIf the target successfully saves a second time, reduce the duration again by half and increase the nonlethal damage per round to 4d6 hp. Three successful saves completely resists the spell.\n\nMythic: The damage dealt by this spell is lethal instead of nonlethal.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/038ac45e8ae6bda7.json",
+    "web": "https://codex.pipsprojects.com/#/e/038ac45e8ae6bda7"
+  },
+  "license": "OGL 1.0a"
+}

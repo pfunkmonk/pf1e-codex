@@ -1,0 +1,27 @@
+{
+  "id": "d8926560fd500ed2",
+  "name": "River of Moonlight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "shaman": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level druid/shaman 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of powdered moonstone)\n\nEFFECT\n\nRange 60 ft.\nArea see text\nDuration 2d4 rounds\nSaving Throw Will half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a shimmering line of moonlight that you can shape as desired. The river of moonlight affects one 5-ft. square per caster level, and each square must be adjacent to the previous square, starting with you. The river of moonlight cannot extend beyond its maximum range. Living creatures in this path are transfixed by the luminous, sparkling moonlight, causing them to be fascinated for 2d4 rounds. Creatures that succeed on a Will save are fascinated for half the number of rounds.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d8926560fd500ed2.json",
+    "web": "https://codex.pipsprojects.com/#/e/d8926560fd500ed2"
+  },
+  "license": "OGL 1.0a"
+}

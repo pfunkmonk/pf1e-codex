@@ -1,0 +1,27 @@
+{
+  "id": "96fdea340344de41",
+  "name": "Watery Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [water]; Level druid/shaman 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bit of shell)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nEffect 5-ft.-diameter sphere\nDuration concentration\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nA globe of water moves and rolls in a direction of your choice at a speed of up to 30 ft./round. As part of this movement, it can climb or jump up to 30 ft. to strike an object. It quenches fires and can entangle one creature of Medium sized or smaller.\n\nWhen the sphere enters the space of a target, it can be avoided with a successful Reflex save. On a failed save, the target is entangled by the sphere; it is immediately considered submerged and must hold its breath to avoid drowning if it cannot breathe water. Once the watery sphere has entangled a creature, it moves with them. The entangled creature can attempt to break free of the sphere as a move action, making a Strength or Escape Artist check with a DC to escape equal to the DC of the spell.\n\nA creature breaking free of the globe ends the spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/96fdea340344de41.json",
+    "web": "https://codex.pipsprojects.com/#/e/96fdea340344de41"
+  },
+  "license": "OGL 1.0a"
+}

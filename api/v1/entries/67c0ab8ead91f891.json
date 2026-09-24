@@ -1,0 +1,25 @@
+{
+  "id": "67c0ab8ead91f891",
+  "name": "Mental Overload",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "occultist": 5,
+      "psychic": 5,
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination (mind-affecting); Level occultist 5, psychic 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou touch the target and send a jolt of psychic information flooding into their mind.\n\nYou must succeed at a melee touch attack to affect the target. If successful, the target takes 1d8 damage per caster level (max 20d8) and the target is staggered for 1 minute. A successful Fortitude save negates the staggered condition and halves the damage.\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67c0ab8ead91f891.json",
+    "web": "https://codex.pipsprojects.com/#/e/67c0ab8ead91f891"
+  },
+  "license": "OGL 1.0a"
+}

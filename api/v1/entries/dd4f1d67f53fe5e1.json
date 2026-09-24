@@ -1,0 +1,29 @@
+{
+  "id": "dd4f1d67f53fe5e1",
+  "name": "Death Mask",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "death mage": 9,
+      "shaman": 9,
+      "wizard": 9,
+      "witch": 9
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [death]; Level death mage 9, shaman 9, sorcerer/wizard 9, witch 9\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, F (a death mask worth at least 1,000 gp)\n\nEFFECT\n\nRange self, see tex.\n\nEffect deadly gaze\nDuration 1 round/level (D)\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou complete the spell and don the terrifying death mask. Your eyes glow with a pale deathly light and a look from you can kill. Any living enemy that meets your gaze, must make a Fortitude save or die. A creature can avert their eyes as with any other gaze attack but you can focus your gaze on a target as a standard action to force a saving throw on them. You can kill a number of HD worth of creatures equal to 1d4 HD per caster level, but cannot kill creatures of 18th or higher HD.\n\nA creature that succeeds on its saving throw or has too many HD does not count against the HD the spell can kill.\n\nIf at the end of the spell you have remaining hit dice worth of killing remaining, you can unleash the remaining necromantic energy as a ray of negative energy. You make a ranged touch attack against one target and on a hit deal negative energy damage equal to 10 times the remaining hit dice of killing remaining.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd4f1d67f53fe5e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd4f1d67f53fe5e1"
+  },
+  "license": "OGL 1.0a"
+}

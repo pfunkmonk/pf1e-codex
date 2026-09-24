@@ -1,0 +1,30 @@
+{
+  "id": "8f0521c085622dec",
+  "name": "Tangle Scarf",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "legendary ninja": 2,
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [metal]; Level bard 2, legendary ninja 2, magus 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a silk scarf )\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous; see text\nSaving Throw none and Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like scarf of slashing steel, but if you hit the target it is entangled (Reflex negates) and rooted to the spot for 1 round/level. The target can escape the tangle scarf with a successful DC 20 Escape Artist check or DC 26 Strength check. The entangled creature cannot attack scarf, but an ally can try to destroy it and free the trapped creature; the tangle scarf is as strong as steel, with hardness 10 and hit points equal to 1d4 plus your caster level. You may choose to make a melee touch or ranged touch attack with a tangle scarf rather than a normal attack roll. A hit with the tangle scarf as a touch attack deals no damage but can still entangle the target as described above.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8f0521c085622dec.json",
+    "web": "https://codex.pipsprojects.com/#/e/8f0521c085622dec"
+  },
+  "license": "OGL 1.0a"
+}

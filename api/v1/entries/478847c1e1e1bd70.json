@@ -1,0 +1,25 @@
+{
+  "id": "478847c1e1e1bd70",
+  "name": "Hone Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "cleric": 0,
+      "paladin": 1
+    },
+    "save": "Will",
+    "sr": "yes (object, harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level antipaladin 1, cleric 0, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a small whetstone or lodestone chip)\n\nEFFECT\n\nRange touch\nTarget weapon touched (must be bladed)\nDuration 1round/level or until first successful attack with enchanted weapon\nSaving Throw Will negates (object, harmless); Spell Resistance yes (object, harmless)\n\nDESCRIPTION\n\nYou magically sharpen the edge of any bladed weapon or object. The target weapon gets +1 to damage with its next successful hit during the spell duration. The spell also allows the weapon to overcome 1 point of DR for that one attack only.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/478847c1e1e1bd70.json",
+    "web": "https://codex.pipsprojects.com/#/e/478847c1e1e1bd70"
+  },
+  "license": "OGL 1.0a"
+}

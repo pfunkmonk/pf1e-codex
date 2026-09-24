@@ -1,0 +1,29 @@
+{
+  "id": "3a135a218fa90f23",
+  "name": "Dimensional Pull",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 6,
+      "psychic": 6,
+      "sorcerer": 6,
+      "summoner": 5,
+      "unchained summoner": 6,
+      "witch": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (teleportation); Level arcanist 6, psychic 6, sorcerer 6, summoner 5, unchained summoner 6, witch 6, wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of sulfur and a pinch of aether)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature of your size or smaller\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou instantly teleport a creature from its current location to a chosen, empty space adjacent to yourself. If the target creature cannot fit safely into the new space without squeezing, or you try to teleport the target into an occupied space or a space it could not normally stand within, the spell fails.\n\nFiend Bestiary Copyright 2025 Varyag's Forge Author Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a135a218fa90f23.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a135a218fa90f23"
+  },
+  "license": "OGL 1.0a"
+}

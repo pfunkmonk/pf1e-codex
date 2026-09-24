@@ -1,0 +1,29 @@
+{
+  "id": "c70dcebab80108d2",
+  "name": "Fire Claws",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level alchemist 3, druid/shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (pinch of sulfur)\n\nEFFECT\n\nTarget you\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nYour hands and/or melee weapon become wreathed in searing flames. Your unarmed, touch, or melee attacks made gain 1d6 fire damage for every 3 caster levels (maximum 5d6) for the duration of the spell.\n\nYou can also set flammable objects alight with a touch.\n\nCold, electricity, and acid variants of this spell are common among some dragon mages and even esoteric orders of druids.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c70dcebab80108d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/c70dcebab80108d2"
+  },
+  "license": "OGL 1.0a"
+}

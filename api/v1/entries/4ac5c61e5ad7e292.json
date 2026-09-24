@@ -1,0 +1,24 @@
+{
+  "id": "4ac5c61e5ad7e292",
+  "name": "Lesser To Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 5,
+      "summoner": 5
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation (polymorph); Level sorcerer/wizard 5, summoner 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (dragon scale for the greater dragon form)\n\nEFFECT\n\nRange touch\nTarget lesser dragon touched\nDuration 1 min./level (D)\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell causes a lesser dragon to take on the form of one of its larger cousins. This effect operates in the same manner as form of the dragon I, except the creature must have some aspect in common with the dragon whose form it will take (shared breath weapon, environment, or elemental subtype). For a sorcerer or wizard able to cast 6th level spells, this spell operates as form of the dragon II, and for those who can cast 7th level spells, it operates as form of the dragon III.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4ac5c61e5ad7e292.json",
+    "web": "https://codex.pipsprojects.com/#/e/4ac5c61e5ad7e292"
+  },
+  "license": "OGL 1.0a"
+}

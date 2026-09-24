@@ -1,0 +1,25 @@
+{
+  "id": "f5c34bf640858e4b",
+  "name": "Chain of Bones",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 5,
+      "white necromancer": 5,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 5, white necromancer 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 20-ft.-radius spread\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWrithing chains of bone appear floating in a 20-ft.-radius space of your choosing within range and wrap around or otherwise impede hostile creatures in the area of effect. Every creature within or entering the area of the spell becomes the target of a combat maneuver (see below), as determined when the spell is cast.\n\nThe bone chains can target each individual creature within range with a different combat maneuver if desired, although a creature may only be affected by one such combat maneuver at a time. If not otherwise directed, the spell attempts a grapple combat maneuver. A bone chain will attempt to maintain a successful combat maneuver, or continue attempting the same unsuccessful combat maneuver, until the spell ends or otherwise directed by the caster of the spell.\n\nThe bone chains are Medium size and do not provoke attacks of opportunity when making combat maneuvers. Their CMB is equal to your caster level plus 5. Bone chains suffer no penalty or miss chance due to darkness, invisibility, or other forms of concealment. They cannot be damaged physically, but they can be dispelled as normal.\n\nGrapple: A bone chain can attempt to grapple a foe using the grapple combat maneuver. If the bone chain succeeds in grappling a foe, that foe takes 1d8+4 hp damage and gains the grappled condition. Grappled opponents cannot move without first breaking the grapple. All other movement is prohibited unless the creature breaks the grapple first. The chain receives a +5 bonus on grapple checks made against opponents it is already grappling, but cannot move or pin foes. Each round the bone chain succeeds on a grapple check, it deals an additional 1d8+4 points of bludgeoning damage. The grappled foe can attempt to break free by making a combat maneuver check or Escape Artist check as a standard action. The bone chain’s CMD for the purposes of escaping the grapple is equal to 10 + its CMB.\nDisarm: A bone chain can use the disarm combat maneuver. Weapons or items disarmed drop at the foe’s feet and cannot be picked up by a bone chain.\nTrip: A bone chain can use the trip combat maneuver.\n\nAs a standard action you may change any or all of the combat maneuvers targeting foes within the spell’s area of effect. This immediately ceases the current combat maneuver and replaces it with a new one of your choice which requires a new CMB attempt as normal.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f5c34bf640858e4b.json",
+    "web": "https://codex.pipsprojects.com/#/e/f5c34bf640858e4b"
+  },
+  "license": "OGL 1.0a"
+}

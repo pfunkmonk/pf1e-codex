@@ -1,0 +1,27 @@
+{
+  "id": "aacdbff50f527097",
+  "name": "Torc Of The Pharaoh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 2,
+      "summoner": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [force]; Level sorcerer/wizard 2, summoner 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a small square of gold)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hr./level\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nA tangible field of force surrounding the subject appears as a gold collar studded with small gems. Though the torc is tangible, it weighs next to nothing and the field of force surrounds the subject on all sides. The force provides the subject with a +4 armor bonus to AC and protects vital areas more effectively. When a critical hit is scored on the subject or when sneak attack damage would be rolled, there is a 25% chance that the critical hit is negated and that damage is instead rolled normally.\n\nAdditionally, there is a 25% chance that the sneak attack does not do additional damage.\n\nUnlike mundane armor, a torc of the pharaoh entails no armor check penalty, arcane spell failure chance, or speed reduction. Since the torc of the pharaoh is made of force, incorporeal creatures can’t bypass it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aacdbff50f527097.json",
+    "web": "https://codex.pipsprojects.com/#/e/aacdbff50f527097"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "db94ba887b1f0291",
+  "name": "Entrenchment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "ranger": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [earth]; Level druid 4, ranger 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea see text\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions much like expeditious excavation, but it excavates a trench 5 feet long for every 2 caster levels. The trench is 5 feet wide and 5 feet deep. Creatures in the area where the trench appears are affected as expeditious excavation.\n\nThe dirt excavated by the spell is hurled up to form a 5-foot-high earthen berm along one side of the trench. This berm is of loosely packed soil, with hardness 0 and 90 hit points per 5-foot section.\n\nCreatures in the area where the berm appears are partially buried and gain the entangled condition unless they succeed on a Reflex save (a prone creature takes a -2 penalty on this saving throw).\n\nA successful save allows them to move into an adjacent square and avoid being entangled; this movement does not provoke attacks of opportunity.\n\nA creature partially buried can free themselves with a successful DC 15 Strength check or Escape Artist check or can dig themselves out by dealing 15 points of damage to the berm.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db94ba887b1f0291.json",
+    "web": "https://codex.pipsprojects.com/#/e/db94ba887b1f0291"
+  },
+  "license": "OGL 1.0a"
+}

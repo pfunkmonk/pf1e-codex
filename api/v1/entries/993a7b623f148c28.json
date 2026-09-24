@@ -1,0 +1,30 @@
+{
+  "id": "993a7b623f148c28",
+  "name": "Snowball Fight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [cold, water]; Level druid 3, magus 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a snowball)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft. level)\n\nArea cylinder (40-ft. radius, 20-ft. high)\n\nDuration 1 round/level (D)\n\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nThis spell causes a barrage of snowballs made from compacted ice and snow to fly randomly throughout the area. Every creature within the area of the spell is the target of 1d3 ranged attacks each round at the beginning of your turn, including the round when you cast snowball fight. Creatures entering the area of effect are also automatically attacked. The snowballs use your caster level as their base attack bonus with no range increments. You must succeed on a ranged attack to hit a target.\n\nEach snowball deals 1d6 points of cold damage on a successful hit. On a confirmed critical hit, the foe also suffers from one of the following randomly determined effects on a failed Fortitude save in addition to taking the snowball’s normal damage.\n\nDifferent snowball fight effects stack, but the same effect overlaps.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/993a7b623f148c28.json",
+    "web": "https://codex.pipsprojects.com/#/e/993a7b623f148c28"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "9999c04c7f75ff69",
+  "name": "Depose Identity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "medium": 4,
+      "mesmerist": 6,
+      "occultist": 6,
+      "wizard": 6,
+      "focus madness": 6,
+      "stare": 6,
+      "voice": 6
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind-affecting]; Level medium 4, mesmerist 6, occultist 6, sorcerer/wizard 6, psychic 6; Focus madness 6, stare 6, voice 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange close\nTarget one humanoid\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou push a humanoid’s identity into the back of its mind and create a replacement to take over its body. As part of casting the spell, you must communicate to the target what you want the new self to be, limited to one sentence every 5 caster levels. The target can sense the words intruding into its head, allowing it time to react before you finish casting. Upon a failed save, the pseudo-self comes into being, taking control of the target’s body. The original self remains aware but can only take purely mental actions. The pseudo-identity is crude. Its Charisma is 1, leaving it blank faced and barely conscious of itself, often repeating fragments of the phrases used to create it. It will take all actions necessary for its continued survival, but otherwise acts of its own initiative only based on what you told it to be. It can be convinced to take other actions as normal. Its alignment is True Neutral, even if it is told to take on heroic or villainous traits, as it is unable to change its behavior. Its actions do not violate the alignment or tenets of the original self. The sentences used to create it act as its basic nature. It will not follow your orders unless your words described it as an underling of some kind. You can use the sentences to determine its starting attitude towards others. Basic social interaction is enough to reveal the target is under an enchantment, without the need for a Sense Motive check. Other creatures can grant it another saving throw to resist by appealing to the original personality through a successful Diplomacy check.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9999c04c7f75ff69.json",
+    "web": "https://codex.pipsprojects.com/#/e/9999c04c7f75ff69"
+  },
+  "license": "OGL 1.0a"
+}

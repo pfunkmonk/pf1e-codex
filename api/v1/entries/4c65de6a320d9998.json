@@ -1,0 +1,30 @@
+{
+  "id": "4c65de6a320d9998",
+  "name": "Expose",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "elementer": 3,
+      "magus": 3,
+      "occultist": 3,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [curse]; Level elementer 3, magus 3, occultist 3, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration 1 round/level\nSaving Throw Fortitude partial (object); Spell Resistance no\n\nWith a wave of your hand, you reduce the target’s defenses. Choose one of the following penalties:\n\nThe target takes a -4 penalty to its AC\nThe target’s Damage Reduction and/or hardness (if any) is reduced by 5.\nThe target’s Spell Resistance is lowered by 5.\nAll energy resistances the target has are reduced by 10. This has no effect on a creature or object with immunity to a damage type.\n\nA successful Fortitude save reduces the duration of the effect to 1 round. The effects of this spell do not stack, but multiple castings can each impose a different penalty type.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c65de6a320d9998.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c65de6a320d9998"
+  },
+  "license": "OGL 1.0a"
+}

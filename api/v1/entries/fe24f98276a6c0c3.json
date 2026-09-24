@@ -1,0 +1,26 @@
+{
+  "id": "fe24f98276a6c0c3",
+  "name": "Sculpted Servant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "summoner": 2
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation); Level bard 2, druid/shaman 2, sorcerer/wizard 2, summoner 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a humanoid figurine of clay, stone, or wood)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one tiny animate figurine\nDuration 1 hr./level\nSaving Throw Reflex half (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou imbue a Diminutive (1 ft. tall or smaller) humanoid figurine with mobility and a semblance of life. The servant can fetch things, open unstuck doors, hold chairs, and clean and mend. The servant can perform only one activity at a time, but it repeats the same activity if told to do so as long as you remain within range. It can only open normal doors, drawers, lids, and the like.\n\nDespite its size, it has an effective Strength score of 6 (so it can lift 60 lbs. or drag 300 lbs). It can trigger traps and similar devices, but it can exert only 60 lbs. of force.\n\nIt can’t perform any task that requires a skill check with a DC higher than 10 or that requires a check using a skill that can’t be used untrained. The servant cannot fly, climb, or swim (though wooden servants may float), but it can levitate up to 5 ft. in the air as a standard action. Its base speed is 20 ft. It can be instructed to run or hustle, but it stops before it would take any nonlethal damage.\n\nThe servant cannot undertake a forced march.\n\nThe servant cannot attack in any way; it is never allowed an attack roll. However, if the servant takes 15 or more hp damage, it explodes, dealing 1d6 hp damage per 2 caster levels in a 5-ft.-radius burst centered on the servant.\n\nAnyone in the area of effect can attempt a Reflex save for half damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe24f98276a6c0c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe24f98276a6c0c3"
+  },
+  "license": "OGL 1.0a"
+}

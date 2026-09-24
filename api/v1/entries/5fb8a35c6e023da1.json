@@ -1,0 +1,29 @@
+{
+  "id": "5fb8a35c6e023da1",
+  "name": "Dispel Cold",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [fire]; Level druid 5, cleric/oracle 5, inquisitor 5, shaman 5\n\nThis spell functions as dispel evil, except it surrounds you in a warm yellow-orange aura and it affects cold creatures rather than evil ones.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5fb8a35c6e023da1.json",
+    "web": "https://codex.pipsprojects.com/#/e/5fb8a35c6e023da1"
+  },
+  "license": "OGL 1.0a"
+}

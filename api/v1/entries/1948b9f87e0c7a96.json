@@ -1,0 +1,29 @@
+{
+  "id": "1948b9f87e0c7a96",
+  "name": "Absolute Zero",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 8,
+      "druid": 8,
+      "wizard": 8,
+      "witch": 8
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [cold]; Level cleric/oracle 8, druid 8, sorcerer/wizard 8, witch 8\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a hailstone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nArea cylinder (10-ft. radius, 20-ft. high)\n\nDuration 1 round/level (D)\n\nSaving Throw see text; Spell Resistance no\n\nWhen you cast this spell, the temperature within the affected area plummets to absolute zero (0° Kelvin, –470° Fahrenheit, –273° Celsius). All gaseous and liquid molecules instantaneously freeze and become solid, granting concealment and total cover to creatures within the area. If creatures are within the area when you first cast the spell, they may avoid being caught in the area with a successful Reflex save, appearing in the closest unoccupied square adjacent to the area. If there are no unoccupied squares adjacent to the spell’s area, the creature may remain in its original location or move to any unoccupied square of the creature’s choice within the affected area.\n\nCreatures and objects within the area take 10d6 points of cold damage at the beginning of your turn, including the round when absolute zero is cast. If the damage would be sufficient to kill the creature, it lapses into cryogenic stasis instead and no longer takes cold damage from this spell. In this state, its hit points are a negative amount equal to one higher than its Constitution score (for instance, –12 for a creature with a Constitution score of 13), which renders it unconscious, but still alive. (However, damage other than cold damage dealt to the creature from another source, such as a successful melee attack, can still kill the creature while in cryogenic stasis.) Its bodily functions completely cease, and it is frozen solid. The creature cannot heal naturally and most magical healing also fails. Only a heal, limited wish, miracle, or wish can affect a creature in cryogenic stasis. The creature’s cryogenic stasis ends when the spell’s duration expires or the creature is removed from the affected area. When this occurs, the creature must succeed on a Fortitude save with a penalty equal to the number of rounds the creature spent in cryogenic stasis. If the creature succeeds, it stabilizes. On a failed save, the creature immediately dies.\n\nCreatures who survive the damage are not frozen solid, but they must hold their breath or risk suffocating and are also trapped in place by the solidified gases and liquids encasing them. Despite being solidified, creatures can force their way through the formerly gaseous material by making a Strength check as a full-round action. For every 5 points by which the check exceeds 10, a creature moves 5 feet (up to a maximum distance equal to its normal land speed), though it can move only through areas occupied by solidified gases or liquids and not permanent, fixed objects. Creatures attempting to enter the area from the outside must do the same in addition to taking cold damage when they enter the affected area. Nonmagical objects within the area become brittle, reducing their hardness to 0.\n\nEthereal creatures can move through the area without hindrance.\n\nAt the end of the duration, gases and liquids solidified by the extreme cold return to their natural state as the temperature also reverts to what it was before you cast the spell. If you cast this spell within a vacuum, creatures may move freely through the affected area without making Strength checks.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1948b9f87e0c7a96.json",
+    "web": "https://codex.pipsprojects.com/#/e/1948b9f87e0c7a96"
+  },
+  "license": "OGL 1.0a"
+}

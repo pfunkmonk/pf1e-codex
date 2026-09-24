@@ -1,0 +1,23 @@
+{
+  "id": "7e50e0c11b2d3820",
+  "name": "Bone Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 3
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level or until discharged\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou strengthen the bones of a single creature you touch. The subject gains DR 5/piercing or slashing. Once the spell prevents a total of 10 points of damage per caster level (maximum 100 points), it is discharged.\n\nCreatures without bones (such as oozes and plants) do not gain any benefit from this spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7e50e0c11b2d3820.json",
+    "web": "https://codex.pipsprojects.com/#/e/7e50e0c11b2d3820"
+  },
+  "license": "OGL 1.0a"
+}

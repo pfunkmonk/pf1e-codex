@@ -1,0 +1,27 @@
+{
+  "id": "1d0a0b4533cb5148",
+  "name": "Shadow Snare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shadowsworn": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [shadow]; Level shadowsworn 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nEffect one shadow\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen cast on a normal shadow (not a creature or magical effect), this spell transforms it into a long, thick tentacle. The tentacle stays rooted to the caster (or to the point on the wall or floor where it originally fell, if the shadow is not connected to you), but can extend 5 ft. per level to attack an opponent.\n\nThe tentacle is intangible. Attempts to physically sever or break it simply pass right through it, while the shadow instantly reforms itself or flows around interposing objects.\n\nWhen shadow snare is cast, the tentacle attacks any target you indicate during the spell’s casting. A successful touch attack means the shadow has entangled a victim (the tentacle seems quite solid to the victim). An entangled victim suffers -2 to attack rolls and a -4 penalty to effective Dexterity. An entangled spellcaster must make a DC 15 concentration check to cast a spell.\n\nSince the animated shadow is considered anchored, it can hold a victim motionless if you desire. Otherwise, the victim can move at half speed up to the length of the shadow away from the shadow’s anchor point. A standard action allows you to indicate a new target.\n\nIf the victim is attacked by his own shadow, he cannot be held motionless by it, but the penalty to attack rolls is -3 and to effective Dexterity is -6.\n\nStrength and Escape Artist checks (DC 15 + your caster level) can be used to break free of the entanglement.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1d0a0b4533cb5148.json",
+    "web": "https://codex.pipsprojects.com/#/e/1d0a0b4533cb5148"
+  },
+  "license": "OGL 1.0a"
+}

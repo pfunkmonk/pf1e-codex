@@ -1,0 +1,32 @@
+{
+  "id": "5cc47de22d3826c9",
+  "name": "Malice Funnel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "classic mesmerist": 6,
+      "investigator": 6,
+      "inquisitor": 6,
+      "legendary mesmerist": 7,
+      "occultist": 6,
+      "psychic": 7,
+      "focus supremacy": 7
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration [mind-affecting]; Level classic mesmerist 6, investigator 6, inquisitor 6, legendary mesmerist 7, occultist 6, psychic 7, witch 7; Focus supremacy 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (silk from a funnel-web spider)\n\nEFFECT\n\nRange 60 feet (see text)\nArea 60 ft.-radius emanation centered on you\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou expand your mind through the Astral Plane into a web that draws hostile intent inside it. You automatically become aware of the presence of creatures within the spell’s area who mean you harm, or to your surroundings in a way that would harm you in the process. This also includes creatures whose starting attitude to you would be hostile, even if they do not know of you yet, as well as creatures who currently pose no threat, but would harm you if given the chance. The spell can distinguish between creatures willing to hurt you, and those actively trying. This otherwise functions as blindsense. The spell can only detect harmful intent. It cannot foresee accidents or natural disasters. concentrating as a full-round action, you can extend the spell’s radius tenfold. Unless you are on the Astral Plane, the magic aura of malice funnel is hidden away on the part of the Astral Plane conterminous with your location on your current plane, making it detectable only on your person. Creatures who are on or peer into the Astral can detect the spell throughout its area as normal. You also gain a +4 insight bonus on Will saving throws against magic originating from within the spell’s area. On a success, you learn what its effect would have been as though you succeeded on the Spellcraft check.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5cc47de22d3826c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/5cc47de22d3826c9"
+  },
+  "license": "OGL 1.0a"
+}

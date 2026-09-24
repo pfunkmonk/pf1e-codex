@@ -1,0 +1,30 @@
+{
+  "id": "37ca2d764d35874e",
+  "name": "Rally",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 3,
+      "shaman": 3,
+      "magus": 3,
+      "paladin": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 3, druid/shaman 3, magus 3, paladin 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 10-ft.-radius emanation centered on you\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou rally your allies, alleviating their fatigue or exhaustion, raising their position to the top of the initiative order, and granting them a +1 morale bonus on attack rolls and on saving throws against fear effects.\n\nAffected allies’ initiative order is determined in descending order by their initiative bonuses. If two or more allies have identical initiative bonuses, those allies should roll to determine in which order they act. Affected allies who are fatigued or exhausted are not affected by those conditions while this spell is in effect, but when this spell’s duration is over, those conditions continue to effect the allies as if this spell was not cast.\n\nThis spell cannot affect the same ally multiple times per casting, and multiple castings do not stack. During the spell’s duration, it continues to affect allies that move out of range. When the spell expires, the spell effect vanishes for all allies affected, regardless of when they were affected.\n\nMythic: If you expend one use of mythic power when casting this spell, it also grants each ally one temporary hp for each caster level you possess.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/37ca2d764d35874e.json",
+    "web": "https://codex.pipsprojects.com/#/e/37ca2d764d35874e"
+  },
+  "license": "OGL 1.0a"
+}

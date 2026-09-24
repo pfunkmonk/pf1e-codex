@@ -1,0 +1,29 @@
+{
+  "id": "d532c13d75e1c2f7",
+  "name": "Embers, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level bloodrager 1, magus 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1 piece of burnt wood or charcoal)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 5 rounds + 1 round/level (max 5)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cover the target creature with burning embers, dealing 1 fire damage to them at the beginning of their turn. A successful Fortitude save negates the damage for the round. This spell counters a spell of of equal or lower level and is countered by a spell of equal or higher level from the rime group of spells. If the target is affected by a cold or water descriptor spell of the same spell level or higher, this spell ends.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d532c13d75e1c2f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/d532c13d75e1c2f7"
+  },
+  "license": "OGL 1.0a"
+}

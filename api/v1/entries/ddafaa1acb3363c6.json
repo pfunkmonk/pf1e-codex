@@ -1,0 +1,29 @@
+{
+  "id": "ddafaa1acb3363c6",
+  "name": "Stronghold Status",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 5,
+      "inquisitor": 4,
+      "paladin": 4,
+      "psychic": 5
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School divination [stronghold]; Level cleric 5, inquisitor 4, paladin 4, psychic 5\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget all allies within your stronghold\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell is identical to status but allows you to monitor the status of every ally within your stronghold.\n\nIf an ally leaves your stronghold, including becoming ethereal or entering an extradimensional space, you cannot perceive them with stronghold status until they return. You also cannot detect allies using nondetection, mind blank, or similar magic to screen them from divinations.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ddafaa1acb3363c6.json",
+    "web": "https://codex.pipsprojects.com/#/e/ddafaa1acb3363c6"
+  },
+  "license": "OGL 1.0a"
+}

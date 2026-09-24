@@ -1,0 +1,27 @@
+{
+  "id": "cdf29100bc2a1978",
+  "name": "Cloud of Corrosion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "vanguard": 6
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [metal]; Level druid 7, vanguard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of rust)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect cloud of corrosive gas spreads in 20-ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a cloud of corroding energy that destroys objects made of metal. This functions as a solid fog spell, but in addition any objects made of iron or iron alloys within the area are destroyed, including weapons and armor. An item that is made of non-iron metal, such as mithral or adamantine, instead take 1d6 damage each round; this damage bypasses hardness.\n\nA creature that is made of iron takes 5d6 points of damage + 1 per caster level (max +10) each round it remains in the cloud. A metallic creature that is not made of iron takes half this damage.\n\nThis spell has no effect on magic items. The cloud is heavy and thick enough that it has difficulty penetrating containers; any metal items secured in a closed container, such as a scroll box or a coin purse, are generally unaffected (unless the container is destroyed first by the cloud of corrosion).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cdf29100bc2a1978.json",
+    "web": "https://codex.pipsprojects.com/#/e/cdf29100bc2a1978"
+  },
+  "license": "OGL 1.0a"
+}

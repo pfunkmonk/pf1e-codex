@@ -1,0 +1,30 @@
+{
+  "id": "636acbf72265bd52",
+  "name": "Doom Of Cowards",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 2,
+      "inquisitor": 2,
+      "domain fate": 1
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level antipaladin 1, bard 2, inquisitor 2, witch 1; Domain fate 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF (unholy symbol)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget 10-ft. radius affecting creatures of 5 HD or less\nDuration 1 round/2 levels; see text\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYour presence becomes mighty, vile, and terrifying to creatures nearby. All creatures within the spell’s radius must make a Will save at the start of their turn; if it fails, they are shaken. They must continue to make saving throws each round, and shaken creatures that fail become frightened; any frightened creatures that fail a save become panicked. The spell’s caster must maintain the doom aura via concentration each round.\n\nIf the subject succeeds on a Will save, it not shaken but must make another saving throw if it remains within the area of effect. Creatures with 6 or more HD are immune to this effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/636acbf72265bd52.json",
+    "web": "https://codex.pipsprojects.com/#/e/636acbf72265bd52"
+  },
+  "license": "OGL 1.0a"
+}

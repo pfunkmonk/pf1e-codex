@@ -1,0 +1,32 @@
+{
+  "id": "a9c570d33e930878",
+  "name": "Optimism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "medium": 4,
+      "mesmerist": 4,
+      "psychic": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting]; Level bard 4, medium 4, mesmerist 4, psychic 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a mirror)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou bolster the target’s confidence and instill a sense of bravery.\n\nThis confidence manifests as a +2 morale bonus on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls. Additionally, the target increases the bonus to +4 on saves vs. emotion and fear effects. No amount of failure counters the spell’s effects—the target simply explains away negative events with a self-assured perspective.\n\nCertain events can solidify the character’s belief that they are the best. Whenever the target rolls a natural 20 on an attack roll or saving throw, or succeeds on an ability or skill check by more than 5, the bonuses to rolls imposed by optimism becomes +3 (or +6 vs. emotion or fear) for 1 round.\n\nThis increased penalty doesn’t stack, even if multiple triumphs occur on the same round.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9c570d33e930878.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9c570d33e930878"
+  },
+  "license": "OGL 1.0a"
+}

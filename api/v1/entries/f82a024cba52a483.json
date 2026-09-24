@@ -1,0 +1,27 @@
+{
+  "id": "f82a024cba52a483",
+  "name": "Lightless Star",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "death mage": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [darkness]; Level death mage 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius spread\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a shifting orb of shadow that explodes in the target area. The spell deals 1d6 points of damage per caster level (maximum 15d6). Half of the damage is cold, and the other half is negative energy. This negative energy does not harm undead, nor does it heal them.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f82a024cba52a483.json",
+    "web": "https://codex.pipsprojects.com/#/e/f82a024cba52a483"
+  },
+  "license": "OGL 1.0a"
+}

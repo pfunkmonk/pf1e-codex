@@ -1,0 +1,25 @@
+{
+  "id": "7815900dbd0656f3",
+  "name": "Aura of Purity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 4,
+      "inquisitor": 4,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level cleric/oracle 4, inquisitor 4, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 30 ft.\nArea 30-foot-radius aura\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou create a soothing aura out to 30 feet that moves with you. Any ally in the aura, including yourself, is immune to non-magical disease and poison and gains a +4 sacred bonus on saves vs. magical diseases and poisons, and spells or effects that cause the blinded, deafened, despairing, doubting, hopeless, shaken, frightened, panicked, paralyzed and stunned conditions. This does not remove or suppress conditions, poisons or diseases already present on an ally upon entering the aura.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7815900dbd0656f3.json",
+    "web": "https://codex.pipsprojects.com/#/e/7815900dbd0656f3"
+  },
+  "license": "OGL 1.0a"
+}

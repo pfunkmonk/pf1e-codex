@@ -1,0 +1,33 @@
+{
+  "id": "d3d80f606058bf75",
+  "name": "Sickening Reality",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 3,
+      "oracle": 2,
+      "lathspell": 2,
+      "shaman": 2,
+      "wizard": 3,
+      "spiritualist": 3,
+      "witch": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 2, bloodrager 3, cleric/oracle 2, lathspell 2, shaman 2, sorcerer/wizard 3, spiritualist 3, witch 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou place a curse on the target that forces them to seek some kind of mind-altering state. Anytime the target is not subject to an enchantment or illusion (figment) spell of 2nd level or higher or if they are not under the influence of a drug, they are sickened. If the target creature is sickened and subject to an effect that also imposes the sickened condition, they are instead nauseated.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d3d80f606058bf75.json",
+    "web": "https://codex.pipsprojects.com/#/e/d3d80f606058bf75"
+  },
+  "license": "OGL 1.0a"
+}

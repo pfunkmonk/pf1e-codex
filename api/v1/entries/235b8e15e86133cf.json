@@ -1,0 +1,27 @@
+{
+  "id": "235b8e15e86133cf",
+  "name": "Dread Scream",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [fear, mind-affecting]; Level bard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 40 ft.\nArea 40-ft. cone\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create sound vibrations in a 40-foot-cone burst that gives creatures a deep feeling of dread. Creatures failing their Will save are panicked for the duration. Those that succeed remain so uneasy that they are shaken and have a –2 penalty on all future Will saves against fear effects for the duration.\n\nAlthough this spell is based on sound, it is vibrations from the sound that cause the fear effect. Deaf or deafened creatures are not immune, but they do receive a +4 circumstance bonus to their Will saves.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/235b8e15e86133cf.json",
+    "web": "https://codex.pipsprojects.com/#/e/235b8e15e86133cf"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "f760f2271f428a7a",
+  "name": "Whirlpool",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spes Magna Games",
+  "book": "Spes Magna Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Spes Magna Games"
+  },
+  "body": "School evocation [water]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect whirlpool 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall\nDuration 1 round/level (D)\nSaving Throw Reflex negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a powerful whirlpool of raging waters that moves along the ground or through water at a speed of 60 feet per round. You can concentrate on controlling the whirlpool’s every movement or specify a simple program. Directing the whirlpool’s movement or changing its programmed movement is a standard action for you. The whirlpool always moves during your turn. If the whirlpool exceeds the spell’s range, it moves in a random, uncontrolled fashion for 1d3 rounds and then dissipates. (You can’t regain control of the whirlpool, even if it comes back within range.)\n\nAny Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the whirlpool and held suspended in its powerful currents, taking 1d8 points of damage each round on your turn with no save allowed. You may direct the whirlpool to eject any carried creatures whenever you wish, depositing the hapless souls wherever the whirlpool happens to be when they are released.\n\nIn One’s Blood. Copyright 2010, Spes Magna Games; Mark L. Chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f760f2271f428a7a.json",
+    "web": "https://codex.pipsprojects.com/#/e/f760f2271f428a7a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "49c303ffc2281de1",
+  "name": "Encouragement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2
+    },
+    "desc": [
+      "emotion",
+      "hope",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, hope, mind-affecting]; Level bard 2, mesmerist 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nTargets allies within a 30-ft. burst\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou complete the spell and give a call of encouragement to your allies. All allies may immediately make a save against one ongoing mind-affecting effect of the ally’s choosing (with the exception of curses). If the effect is a despair effect, the subject gains a +4 morale bonus on this save. This spell cannot be used on characters under a charm effect or under dominate person or similar spell.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/49c303ffc2281de1.json",
+    "web": "https://codex.pipsprojects.com/#/e/49c303ffc2281de1"
+  },
+  "license": "OGL 1.0a"
+}

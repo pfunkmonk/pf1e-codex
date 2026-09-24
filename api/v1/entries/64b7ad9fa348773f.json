@@ -1,0 +1,23 @@
+{
+  "id": "64b7ad9fa348773f",
+  "name": "Walking Wall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (100 miniature axes)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one mobile wall composed entirely of axes\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a monstrous wall of swinging axes from the pile of miniature axes you use in the casting of the spell. The wall takes on a vaguely humanoid shape, stands 10 ft. tall, and has a space and reach of 10 ft. You direct the wall as a move action, but it will continue executing any command you gave it previously if you choose not to direct it.\n\nThe wall has a base speed of 50 ft. (it cannot run or charge), and it can make a total of four attacks per round.\n\nEach axe deals damage as a Large battleaxe (1d10/x3) and attacks with an attack bonus equal to your caster level plus your Charisma and Intelligence modifier (whichever is greater) minus 1 (for its Large size). The axe wall has hardness 20 and 200 hp.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/64b7ad9fa348773f.json",
+    "web": "https://codex.pipsprojects.com/#/e/64b7ad9fa348773f"
+  },
+  "license": "OGL 1.0a"
+}

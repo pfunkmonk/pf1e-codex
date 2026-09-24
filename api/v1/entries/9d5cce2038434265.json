@@ -1,0 +1,30 @@
+{
+  "id": "9d5cce2038434265",
+  "name": "Incinerate, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "magus": 3,
+      "ranger": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level druid 3, magus 3, ranger 3, sorcerer/wizard 3, witch 3\n\nArea 10-ft. radius burst\n\nThis functions as incinerate, except that it affects all creatures within the area.\n\nContact Other Plane: World of Mass Effects II, © 2025, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d5cce2038434265.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d5cce2038434265"
+  },
+  "license": "OGL 1.0a"
+}

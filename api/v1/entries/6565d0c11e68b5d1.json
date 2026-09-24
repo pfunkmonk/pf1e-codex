@@ -1,0 +1,29 @@
+{
+  "id": "6565d0c11e68b5d1",
+  "name": "Prism Barrier",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "elementer": 6
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [acid, cold, electricity, fire]; Level elementer 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect translucent barrier up to 10 ft. long/level or a ring-shaped barrier with a radius of up to 5 ft./four levels; either form 20 ft. high\nDuration 1 round/level (D), see text\nSaving Throw Reflex half; Spell Resistance yes\n\nYou weave a mutable form of elemental energy, warding an area with a sparkling barrier that harms those that trespass and aids those that it protects.\n\nThe damage dealt by the prism barrier is determined randomly once per round, starting with the turn you cast the spell and at the start of each of your turns thereafter. All damage dealt by the wall is of the randomly chosen type for that round only. To determine the damage type for a given round, roll 1d4 and consult Table: Prism Barrier, below.\n\nTable: Prism Barrier\nd4\tDamage Type\n1\tAcid\n2\tCold\n3\tElectricity\n4\tFire\n\nOne side of the wall (chosen by you) is the side the prism barrier protects. Any weapon attacks projected through the wall (be it a projectile attack or a reach weapon) from creatures on that side deal 1d6 additional energy damage of the randomly chosen type.\n\nCreatures that attempt to pass through the wall from the opposite side (heading towards the protected side), take 1d6 damage of the selected type per four caster levels (max 5d6). A successful Reflex save halves the damage taken. Additionally, a creature that fails its saving throw is further afflicted by the arcane energies, suffering one of the following effects depending on which damage type it took:\n\nAcid: The creature is sickened for 1d4 rounds.\nCold: The creature is entangled for 1d4 rounds.\nElectricity: The creature is staggered for 1d4 rounds.\nFire: The creature catches on fire and is blinded for 1 round.\n\nA creature that took zero damage of the listed type (such as due to energy resistance or protection from energy) is unaffected, even if it failed its saving throw. If you evoke the prism barrier so that it appears where creatures are, each creature takes damage as if passing through the wall. A creature can only be harmed once per round due to passing through the wall.\n\nIf you sacrifice a prepared prism barrier spell to create a spell twist, you treat the spell twist as if created using a spell two levels lower than normal (minimum 1st level) but a creature subjected to the spell twist must make their saving throw twice, similar to the effects of an Persistent Spell metamagic feat. Spell twists that do not allow for a saving throw are unaffected.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6565d0c11e68b5d1.json",
+    "web": "https://codex.pipsprojects.com/#/e/6565d0c11e68b5d1"
+  },
+  "license": "OGL 1.0a"
+}

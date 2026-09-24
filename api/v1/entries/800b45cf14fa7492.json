@@ -1,0 +1,28 @@
+{
+  "id": "800b45cf14fa7492",
+  "name": "Flame Jet (fire)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 0,
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [fire]; Level druid 0, magus 0, sorcerer/wizard 0\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflexhalf; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect word deals 1d4 points of fire damage. If the wordspell with this effect has only a single target, it requires a melee or ranged touch attack to hit and does not allow a saving throw.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/800b45cf14fa7492.json",
+    "web": "https://codex.pipsprojects.com/#/e/800b45cf14fa7492"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cadcb6ed9cf75e9e",
+  "name": "Create Crypt Thing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level cleric 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M (a clay pot filled with grave dirt and a black pearl worth at least 300 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corpse\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows you to animate a single Medium or Large corpse of a creature 18 HD or less into a crypt thing. This spell must be cast in the area the creature is to guard or it fails. The corpse must be mostly intact and must be humanoid-shaped and have a skeletal system or structure. Only one crypt thing is created with this spell, and it remains in the area where it was created until destroyed. The black gem is placed inside the mouth of the corpse. When the corpse animates, the gem is destroyed.\n\nCreate Crypt Thing from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene, based on original material by Roger Musson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cadcb6ed9cf75e9e.json",
+    "web": "https://codex.pipsprojects.com/#/e/cadcb6ed9cf75e9e"
+  },
+  "license": "OGL 1.0a"
+}

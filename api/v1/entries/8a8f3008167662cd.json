@@ -1,0 +1,26 @@
+{
+  "id": "8a8f3008167662cd",
+  "name": "Bestow Lifepath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "medium": 1,
+      "mesmerist": 1,
+      "shaman": 1,
+      "focus mind": 1
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School illusion (phantasm)) [mind-affecting]; Level medium 1, mesmerist 1, shaman 1, spiritualist 1; Focus mind 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange close\nTarget one creature\nDuration 1 day/level or until discharged\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nYou implant impressions of another life into the target, granting it the benefits of a character trait. You make any choices the trait requires for the target. Granting a campaign, cosmic, exemplar and religion trait requires the target to fulfill its prerequisites; otherwise, the spell fails. To grant a regional trait, a trait restricted to races, or a trait similarly limited in its scope by geography, you must either qualify for the trait yourself, or pass an appropriate Knowledge check to know it exists. You can only grant a trait associated with a specific secret society if you qualify for it. The target’s mind produces vague, false memories that match the trait. Until the spell ends, these memories feel real. They do not, by themselves, cause the target to believe they’re real events, but do make Bluff checks made to that effect more believable by one step. The target immediately attempts another Sense Motive check to contest such Bluff checks after the spell ends. The spell is discharged after the target benefits from a bonus of the trait. If the trait comes with one or more physical features, the target perceives itself to have those features for the duration. R trait that grants equipment as part of its benefits does not grant that equipment, but the target can choose to treat a single item or set of items of the same type as though it was granted by the trait. You may give the same trait to the same target multiple times. If the trait grants an ability with limited uses, the target may only benefit from that ability the same number of times as a creature who has the trait.\n\nBestow Lifepath, Greater\n\nSchool illusion (phantasm)) [mind-affecting]; Level medium 2, mesmerist 3, shaman 3, spiritualist 3; Focus mind 3\nDuration 1 day/level\n\nDESCRIPTION\n\nAs bestow lifepath, except the spell is not discharged the first time the target benefits from the bestowed trait: Instead, its benefits are granted for the whole duration.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a8f3008167662cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a8f3008167662cd"
+  },
+  "license": "OGL 1.0a"
+}

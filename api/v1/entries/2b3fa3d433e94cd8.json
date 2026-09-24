@@ -1,0 +1,31 @@
+{
+  "id": "2b3fa3d433e94cd8",
+  "name": "Punji Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 2,
+      "druid": 2,
+      "legendary ninja": 1,
+      "ranger": 1,
+      "wizard": 2
+    },
+    "desc": [
+      "earth",
+      "wood"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [earth, wood]; Level bloodrager 2, druid 2, legendary ninja 1, ranger 1, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (tiny shovel and a sharpened stake)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nArea dirt in a 10-ft. cube\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou can instantly excavate a 10-foot-deep pit lined with sharpened stakes. This spell functions like expeditious excavation, but creatures falling into the pit take 1d6 points of falling damage and 1d6 points of piercing damage and must succeed on a Fortitude save or have their movement impaired, reducing the creature’s speed by half because its legs or feet are wounded. A creature failing its Fortitude save by 5 or more also contracts filth fever. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A DC 15 Climb check is required to climb out of a punji pit, and a creature that fails its Climb check by 5 or more falls back into the punji pit and takes falling and piercing damage and must save or have its feet injured as above.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b3fa3d433e94cd8.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b3fa3d433e94cd8"
+  },
+  "license": "OGL 1.0a"
+}

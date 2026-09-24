@@ -1,0 +1,29 @@
+{
+  "id": "0fac191724b17ed5",
+  "name": "Magnetic Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 2,
+      "legendary ninja": 2,
+      "magus": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [metal]; Level bloodrager 2, legendary ninja 2, magus 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a lodestone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration 1 round/level\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou can target a metallic item each round and draw it towards you. The item’s weight cannot exceed 25 pounds per caster level and must be primarily comprised of metal. If the item is secured or attached to a larger item or structure, you can make a Strength check to burst or break that item, treating the strength of the magnetic ray as if it had a Strength bonus equal to your Intelligence (for wizards) or Charisma (for bloodragers and sorcerers) modifier. If the check succeeds, the item is ripped free and drawn to your hand. If the target item is worn or held by another creature, you can use the arm to perform a disarm or steal combat maneuver to seize the item and draw it to you. You treat your caster level as your base attack bonus and add your Intelligence (for wizards) or Charisma (for bloodragers and sorcerers) modifier to determine your CMB for this maneuver. The target gains a +4 bonus to its CMD against this check if it is wielding an item in two hands. If the target is wearing medium or heavy armor made of metal, or is a creature primarily composed of metal, you can instead use the magnetic ray to perform a drag combat maneuver to pull the creature towards you, as long as it is your size or smaller, regardless of its actual weight.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0fac191724b17ed5.json",
+    "web": "https://codex.pipsprojects.com/#/e/0fac191724b17ed5"
+  },
+  "license": "OGL 1.0a"
+}

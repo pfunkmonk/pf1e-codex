@@ -1,0 +1,29 @@
+{
+  "id": "d325d327b14ff63a",
+  "name": "Inflict Doom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "shaman": 3,
+      "elven archer": 2,
+      "ranger": 3
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level druid/shaman 3, elven archer 2, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (bow and arrow or bolt), DF\n\nEFFECT\n\nRange 60 ft.\nEffect ray\nTarget one living creature\nDuration 1 round/level or 1 round; see text\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nAlthough your bow need not be drawn, you must have an arrow nocked in it to cast this spell. When you point, a black ray projects from your pointing finger and causes your target (must be a living creature) to feel the naked horror of your arrow piercing its heart. You must succeed on a ranged touch attack with the ray to further affect your target, as described below.\n\nThe target becomes panicked unless it succeeds on a Will save. If cornered, a panicked creature begins cowering. If the Will save succeeds, the creature is instead shaken for 1 round.\n\nYou may point at as many creatures per round as you have attacks. Creatures must be able to see you or sense your presence to be affected.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d325d327b14ff63a.json",
+    "web": "https://codex.pipsprojects.com/#/e/d325d327b14ff63a"
+  },
+  "license": "OGL 1.0a"
+}

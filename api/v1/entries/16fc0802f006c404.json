@@ -1,0 +1,27 @@
+{
+  "id": "16fc0802f006c404",
+  "name": "Armor of the Mountains",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2,
+      "shaman": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [earth]; Level sorcerer/wizard 2, druid/shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a miniature helmet carved from basalt worth 5 gp)\n\nEFFECT\n\nRange creature touched\nTarget one creature\nDuration 1 min./level\nSaving Throw Reflex half; see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell wraps its subject in jagged shards of stone and slabs of slate, granting a +4 natural armor bonus to AC and immunity to the paralyzed and petrified conditions. As the stone and slate created is magical in nature, the armor does not confer an arcane spell failure chance or armor check penalty, nor does it slow movement.\n\nIn addition, any creature that moves adjacent to the subject or begins its turn adjacent to the subject takes 1d6 hp slashing damage +1 hp/caster level (maximum +10). a Reflex save halves this damage. The spell does not differentiate between friend and foe, but an armor of the mountains spell cannot affect the caster.\n\nIf the subject takes more than 10 hp damage in a round from a magical source with the air descriptor, the stone armor crumbles and the spell ends.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/16fc0802f006c404.json",
+    "web": "https://codex.pipsprojects.com/#/e/16fc0802f006c404"
+  },
+  "license": "OGL 1.0a"
+}

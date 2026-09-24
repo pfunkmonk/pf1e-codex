@@ -1,0 +1,27 @@
+{
+  "id": "4c8f480b6286b35a",
+  "name": "Mundane Paradigm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 4,
+      "occultist": 3,
+      "psychic": 4,
+      "wizard": 4,
+      "witch": 5
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration; Level bard 4, occultist 3, psychic 4, wizard 4, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 10 minutes/level\nSaving Throw none (harmless, object); Spell Resistance no\n\nThe target object gains spell resistance equal to 12 + your caster level. This spell resistance cannot be voluntarily suppressed, even by the object’s wearer or wielder.\n\nLegendary Planet Adventure Path © 2019, Legendary Games; Authors: Authors: Matt Goodall, Jim Groves, Steven T. Helt, Tim Hitchcock, Jason Nelson, Richard Pett, Tom Phillips, Mike Shel, Neil Spicer, Mike D. Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c8f480b6286b35a.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c8f480b6286b35a"
+  },
+  "license": "OGL 1.0a"
+}

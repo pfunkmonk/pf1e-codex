@@ -1,0 +1,23 @@
+{
+  "id": "e7c98a368af92473",
+  "name": "Divine Mantle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget personal or one creature of the same religion\nDuration 2 rounds/level\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell operates similarly to the spell sanctuary, but with the distinction that a divine mantle does not break if the creature it protects directly attacks another. Whether the protected creature attacks or not, anyone who wishes to do direct harm to the creature protected by divine mantle (including melee or ranged attacks or targeted spells but not area of effect spells such as fireball) must succeed on a Will save. Success means the attacker may act normally and need not save again in order to continue attacking the protected creature. Failure means the attacker loses the action(s) committed to the attack and may not attack the protected creature at all that round.\n\nHowever, the attacker may attempt another save the next round.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7c98a368af92473.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7c98a368af92473"
+  },
+  "license": "OGL 1.0a"
+}

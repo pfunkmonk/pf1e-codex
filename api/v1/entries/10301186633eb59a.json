@@ -1,0 +1,25 @@
+{
+  "id": "10301186633eb59a",
+  "name": "Wood Chop",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 0,
+      "ranger": 1,
+      "wizard": 0
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation; Level adept 0, ranger 1, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a caltrop or jack made from wood or lumber)\n\nEFFECT\n\nRange 5 ft.\n\nTarget one wooden target or a target of barkskin\nDuration instantaneous\nSaving Throw none or Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou strike downward with your hand, neatly slicing wood as if with an axe. Logs and branches are cut into easily carried cords. Against other wooden targets, such as a wooden door, a foe’s quarterstaff, or even creatures made primarily of wood, you inflict 1d4 slashing damage (ignoring hardness). Attended objects and creatures receive a Fortitude save to negate this damage.\n\nIf wood chop is directed at the target of a barkskin spell, a caster level check is made (DC 11 + barkskin’s CL) to dispel the barkskin.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10301186633eb59a.json",
+    "web": "https://codex.pipsprojects.com/#/e/10301186633eb59a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "4a3bd1e126ec9d8f",
+  "name": "Solar Shroud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "paladin": 4
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [light]; Level cleric/oracle 5, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 1 round/level\nSaving Throw none (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou encase the target in a halo of dazzling radiance that functions as daylight centered on the target. In addition, you gain damage reduction 5/? against undead and creatures with the evil subtype. This damage reduction applies even against spells, spell-like abilities, and supernatural abilities that deal hit point damage, as long as they are delivered by a melee attack or melee touch attack. In addition, when struck by a melee attack by an undead creature or creature with the evil subtype, as an immediate action the target of the spell can discharge 1d4+1 rounds of the spell’s remaining duration to target her attacker with a flash of holy radiance that duplicates searing light, though it requires a successful melee attack roll. If the result of the roll is greater than the remaining duration of the spell, the searing light effect deals half damage and the solar shroud spell ends after resolving the searing light and the attack that prompted it.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4a3bd1e126ec9d8f.json",
+    "web": "https://codex.pipsprojects.com/#/e/4a3bd1e126ec9d8f"
+  },
+  "license": "OGL 1.0a"
+}

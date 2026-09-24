@@ -1,0 +1,25 @@
+{
+  "id": "db9d57208a28579f",
+  "name": "Lich’s Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy; Level magus 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets living creature or creatures touched (up to one/level)\nDuration instantaneous\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYour hands become gaunt and dehydrated, shimmering with necrotic power.\n\nEach living creature you touch takes negative energy damage equal to 3d10 + 1 point per caster level and is paralyzed for 1d2 rounds. A successful Fortitude saving throw halves the damage and negates the paralysis. You can use this melee touch attack up to one time per level.\n\nLegendary Magus, © 2018, Legendary Games. Authors: Dave Nelson and Hal Kennette.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db9d57208a28579f.json",
+    "web": "https://codex.pipsprojects.com/#/e/db9d57208a28579f"
+  },
+  "license": "OGL 1.0a"
+}

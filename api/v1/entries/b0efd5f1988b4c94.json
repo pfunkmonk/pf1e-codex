@@ -1,0 +1,24 @@
+{
+  "id": "b0efd5f1988b4c94",
+  "name": "Elemental Cloak",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 7,
+      "druid": 6
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level cleric/oracle 7, druid 6\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (a gemstone from the appropriate inner plane that is worth at least 12,500 gp)\n\nEFFECT\n\nRange touch\nTarget willing creature touched\nDuration permanent\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou transform a willing creature into something with a near elemental nature converting it to subtype cold or fire and giving it new immunities and weaknesses (see below). A creature can possess only one subtype; casting of this spell on a creature already possessing one of the above subtypes automatically fails. Once a creature has a new subtype, it can be removed only with a limited wish, wish, miracle, or similar magic.\n\nThe subtypes that can be conferred with an elemental cloak and the abilities added to the creature that receives that subtype are listed below:\n\nCold Subtype: immunity to cold damage, takes 50% more damage from fire-based spells whether or not a save is allowed.\n\nFire Subtype: immunity to fire damage, takes 50% more damage from cold-based spells whether or not a save is allowed.\n\nA creature with the new subtype is not considered an elemental and does not gain any additional immunities. It does not gain the outsider type and can still be raised or resurrected just as it could before having its subtype changed.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0efd5f1988b4c94.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0efd5f1988b4c94"
+  },
+  "license": "OGL 1.0a"
+}

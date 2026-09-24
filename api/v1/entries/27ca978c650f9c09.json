@@ -1,0 +1,27 @@
+{
+  "id": "27ca978c650f9c09",
+  "name": "Pummel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 5,
+      "wizard": 3
+    },
+    "desc": [
+      "stone"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation) [stone]; Level cleric 5, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a piece of a sling)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one stone projectile/round\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a stone projectile each round of its duration. Each round you may pick a target and make a ranged attack which, if the projectile hits, inflicts 3d6 hp of damage. The projectiles act as magic silver weapons for purposes of penetrating DR, although no bonus is granted to attack or damage rolls. Though the attack takes only a swift action each round after the first, you cannot make any other attacks or cast any other spells while the pummel spell is in effect.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/27ca978c650f9c09.json",
+    "web": "https://codex.pipsprojects.com/#/e/27ca978c650f9c09"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "79a3070910a905ff",
+  "name": "Drowsy Fireflies",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "legendary ninja": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (summoning); Level legendary ninja 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a live firefly)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one swarm of fireflies\nDuration 1 round; see text\nSaving Throw Fort negates (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou summon a small cloud of glimmering fireflies that fills a 10-foot cube, obscuring vision into or through the cloud (providing concealment if line of sight must pass through 5 feet or more of the swarm), and causing all creatures within the swarm to become dazzled (no save). In addition, the drowsy fireflies secrete a soporific pheromone that causes all creatures within the cloud to fall into a light slumber for 2d6 rounds; creatures succeeding on a Fortitude save instead become drowsy for 1 round, taking a -5 penalty on Perception checks and a -2 penalty on Will saves for 1 round. This is a sleep effect. The slumber induced by the drowsy fireflies is not as deep as that caused by sleep or deep slumber, and loud noises such as combat allow sleeping creatures to attempt a DC 10 Perception check (with a -10 penalty for being asleep) each round at the beginning of their turn to awaken. Sleeping creatures can be automatically awakened by an ally as a standard action.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79a3070910a905ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/79a3070910a905ff"
+  },
+  "license": "OGL 1.0a"
+}

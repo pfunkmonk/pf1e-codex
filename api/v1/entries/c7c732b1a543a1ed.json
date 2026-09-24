@@ -1,0 +1,24 @@
+{
+  "id": "c7c732b1a543a1ed",
+  "name": "Copy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a drop of black ink), F (a blank page)\n\nEFFECT\n\nRange touch\nArea one page or book\nDuration instantaneous\nSaving Throw Will negates (object, see text); Spell Resistance yes (object)\n\nDESCRIPTION\n\nCopy enables you to make a perfect duplicate of any written or drawn document (legal documents, letters, maps, and so on). To copy text, you simply hold a blank piece of parchment or paper over the object to be duplicated during the casting. The amount of text that can be copied in a single casting is limited to 10 pages.\n\nIf the target being copied is currently in a creature’s possession, the object receives a saving throw.\n\nMagical writings (such as scrolls) cannot be copied. Attempting to use this spell to copy a spellbook results in pages of indecipherable code.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7c732b1a543a1ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7c732b1a543a1ed"
+  },
+  "license": "OGL 1.0a"
+}

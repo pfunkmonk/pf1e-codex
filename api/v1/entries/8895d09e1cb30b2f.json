@@ -1,0 +1,26 @@
+{
+  "id": "8895d09e1cb30b2f",
+  "name": "Sundering Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 4,
+      "vanguard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration; Level bloodrager 3, magus 3, sorcerer/wizard 4, vanguard 3\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round or until discharged\n\nDESCRIPTION\n\nYou create a destructive barrier between yourself and your opponent’s weapon, reducing the damage you take by forcing the strength of the blow back into the attacker’s weapon.\n\nThe barrier protects you against one physical attack, granting you DR/– equal to you caster level against that attack. The wielder of the weapon must then make a Reflex save or have the force of the blow flow back into the weapon, dealing damage to the weapon equal to double the damage prevented this way. Hardness of the weapon applies against this damage.\n\nOnce the shield has blocked a single attack in this manner, the spell ends.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8895d09e1cb30b2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/8895d09e1cb30b2f"
+  },
+  "license": "OGL 1.0a"
+}

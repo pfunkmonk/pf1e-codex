@@ -1,0 +1,31 @@
+{
+  "id": "c53689ad5b53761d",
+  "name": "Bond of Hospitality",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 2,
+      "alchemist": 2,
+      "bard": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind-affecting]; Level adept 2, alchemist 2, bard 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (the food or drink)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget you and up to 2 other creatures/level\nDuration 24 hours\nSaving Throw Will negates (see below); Spell Resistance yes\n\nDESCRIPTION\n\nWhen you provide food or drink to others, you explain the sacred bonds of hospitality. You and those who accept the refreshment are bound by those rules for the next 24 hours (no save). A creature that is unable to hear or understand the rules being laid forth is not affected by the bonds. Over the next 24 hours, any affected creature attempting to directly attack another affected creature, even with a targeted spell, must attempt a Will save. If the save succeeds, the creature can’t follow through with the attack and that part of the attack is lost, and the creature is nauseated for one round and then sickened for 1 hour. However, the bonds of hospitality are broken for all parties and the creature may attack the next round. All parties are immediately aware that the bonds have been broken, though they do not know which creature broke it. If the save fails, the opponent is nauseated for one minute, can’t follow through with the attack, and that part of its action is lost.\n\nIf the bonds are broken through any means, for example by the application of dispel magic, the spell ends on all targets.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c53689ad5b53761d.json",
+    "web": "https://codex.pipsprojects.com/#/e/c53689ad5b53761d"
+  },
+  "license": "OGL 1.0a"
+}

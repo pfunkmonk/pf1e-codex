@@ -1,0 +1,27 @@
+{
+  "id": "e492f010c98e8e96",
+  "name": "Doom Harvester",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4
+    },
+    "desc": [
+      "emotion",
+      "fear"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [emotion, fear]; Level cleric 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (an empty pouch of skin)\n\nEFFECT\n\nRange 10 ft.\n\nArea 10-ft.-radius emanation, centered on you\nDuration 1 round/level (D)\n\nYou feed upon the suffering of those around you. Each round at the end of your turn you gain fast healing equal to the number of creatures within 10 feet that are nauseated, sickened, or suffering from a fear, pain, or harmful emotion effect. This fast healing applies until the beginning of your next turn. Each affected creature provides only 1 point of fast healing, regardless of how many conditions affect it, and the amount of fast healing you gain cannot exceed one-half your caster level (maximum fast healing 10). If you have a ki pool, you may increase the range of this effect by 5 feet per point you spend from your ki pool when casting the spell. In addition, you may choose to gain 1 temporary ki point at the beginning of your turn rather than gaining fast healing. If you choose this effect, you gain only 1 ki point, regardless of the number of affected creatures within range. These ki points are lost if not used before the end of the spell’s duration.\n\nLegendary Investigators © 2022, Legendary Games; Connor Bates, Andrew J Gibson, Norman Mitchell, Margherita Tramontano, Tara Collins",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e492f010c98e8e96.json",
+    "web": "https://codex.pipsprojects.com/#/e/e492f010c98e8e96"
+  },
+  "license": "OGL 1.0a"
+}

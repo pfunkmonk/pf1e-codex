@@ -1,0 +1,26 @@
+{
+  "id": "0f9e468e9e600b49",
+  "name": "Temple of the Gods",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 7
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [force]; Level cleric/oracle 7\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, F (a holy symbol worth at least 50 gp)\n\nEFFECT\n\nRange medium (100 feet + 10 ft./level)\nEffect 1 temple up to 120 feet on each side\nDuration 1 day (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause a temple to your deity or faith to phase into existence in an unoccupied area.\n\nThe temple is to the faith of the holy symbol used as a focus and it remains in the area for the duration of the spell or until dismissed.\n\nYou determine the characteristics of the temple’s appearance, layout, lighting, sensory aspects and material composition. However, the enclosed interior only has 1 entry door.\n\nWhen casting you designate who can open and close the door. While the temple appears as you chose, it is actually composed of force and extends to the ethereal plane.\n\nYou can determine up to 1 creature type per 4 caster levels that are not allowed to enter the temple. Such creatures are allowed a Will save upon attempting entry. If they fail, they are unable to cross the threshold or otherwise enter. On a success, they are able to enter the area but they take a -2 penalty to all attacks, ability checks, skill checks and saving throws.\n\nThe area within the temple negates any attempt at scrying within its walls. All conjuration (healing) spells cast within its confines are treated as though affected by the Empower Spell metamagic feat.\n\nIf you cast this spell on the same point every day for a year it becomes permanent. However, you can only have one instance of this spell active at a time. If you cast this spell while another casting is active, including a permanent one, the previous spell ends.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f9e468e9e600b49.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f9e468e9e600b49"
+  },
+  "license": "OGL 1.0a"
+}

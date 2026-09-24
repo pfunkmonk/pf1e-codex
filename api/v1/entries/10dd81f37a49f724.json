@@ -1,0 +1,27 @@
+{
+  "id": "10dd81f37a49f724",
+  "name": "Solid Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "shadowsworn": 5,
+      "wizard": 6
+    },
+    "desc": [
+      "creation"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (conjuration) [creation]; Level shadowsworn 5, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nEffect darkness spreads in a 30-ft. radius\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA cloud of inky darkness billows out from the point you designate. The darkness completely obscures all sight, including darkvision.\n\nA creature within the cloud is considered to have full concealment; attacks against it suffer a 50% miss chance, and the attacker can’t use sight to locate the target.\n\nSolid darkness is so thick that any creature attempting to move through it progresses at 1/10 normal speed (minimum of 5 ft. per round, although it cannot take a 5-ft. step), and all melee attack and melee damage rolls suffer a -2 penalty. The darkness prevents effective ranged weapon attacks by physical objects, but immaterial magic rays and the like are unaffected.\n\nA creature or object that falls into solid darkness is slowed, so that each 10 ft. of darkness that the creature or object falls through reduces the damage of a fall by 1d6 hp, with a minimum damage of 0 hp.\n\nFor example, if a creature falls 30 ft. and then passes through 20 ft. of solid darkness before striking the ground, the total damage of the fall is 3d6 (or 5d6-2d6; accounting for total fall of 50 ft. with 20 ft. of the fall being through solid darkness).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10dd81f37a49f724.json",
+    "web": "https://codex.pipsprojects.com/#/e/10dd81f37a49f724"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83fb5604172b8e3c",
+  "name": "Wind Down",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (transmutation); Level bard 1, cleric/oracle 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nTarget one ongoing spell or spell-like ability\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou decrease the duration of one ongoing spell or spell-like ability that has been cast on a creature or object.\n\nYou must make a caster level check, and if the check’s total exceeds the target effect’s spell level, its duration is reduced by half (minimum 1 round). If you are targeting a temporary effect from a magic item, use its caster level rather than the spell level for the level check.\n\nA spell that is not subject to dispel magic is also not subject to wind down. The spell otherwise acts as dispel magic, but it cannot affect spells made permanent with permanency or magic items with no duration such as weapons, armor, or wands. However, wind down can affect ongoing spells and effects cast by magic items, schools, and potions.\n\nMythic: You automatically reduce the target spell or spell-like effect’s duration by a number of rounds (if the spell has a duration of rounds) or minutes (if the spell has a duration of minutes or higher) equal to your mythic tier. This reduction occurs even if you do not succeed the caster level check.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83fb5604172b8e3c.json",
+    "web": "https://codex.pipsprojects.com/#/e/83fb5604172b8e3c"
+  },
+  "license": "OGL 1.0a"
+}

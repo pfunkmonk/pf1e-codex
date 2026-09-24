@@ -1,0 +1,28 @@
+{
+  "id": "615fab57e93b9748",
+  "name": "Fiery Sandstorm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 7,
+      "wizard": 6,
+      "witch": 7
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level druid/shaman 7, sorcerer/wizard 6, witch 7\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (pinch of sulfur)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nArea two 10-ft. cubes/level\nDuration 2 rounds/level\nSaving Throw Reflex half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe caster generates a furious sandstorm, with massive wind speeds, that is laced with punishing flames. For every turn that a creature is in the area of effect, it takes 2d6 hp bludgeoning damage for every four caster levels (Reflex save for half) and 1d6 hp fire damage for every 4 levels every round (no saving throw).\n\nNatural flying is impossible, but magical flight (such as levitation) is still possible. Note that if any spellcasters are within the area of effect, they must make a DC 25 concentration check first to attempt spellcasting.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/615fab57e93b9748.json",
+    "web": "https://codex.pipsprojects.com/#/e/615fab57e93b9748"
+  },
+  "license": "OGL 1.0a"
+}

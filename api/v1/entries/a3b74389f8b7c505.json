@@ -1,0 +1,27 @@
+{
+  "id": "a3b74389f8b7c505",
+  "name": "Alter Other",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "magus": 3,
+      "wizard": 3,
+      "summoner": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (polymorph); Level bard 3, magus 3, sorcerer/wizard 3, summoner 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (a piece of the creature whose form you choose)\n\nEFFECT\n\nRange touch\n\nTarget living creature touched\n\nDuration 1 minute/level (D)\n\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell functions as alter self, except you can transform either yourself or another creature.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3b74389f8b7c505.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3b74389f8b7c505"
+  },
+  "license": "OGL 1.0a"
+}

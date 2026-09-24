@@ -1,0 +1,26 @@
+{
+  "id": "40ab12f45dfdc8cf",
+  "name": "Sky Warning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "inquisitor": 2,
+      "psychic": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration; Level inquisitor 2, psychic 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a metal bell or gong)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20 ft./level square area\nDuration 2 hours/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like alarm, but its area extends 50 feet per caster level into the air, and it is triggered only by flying creatures, including creatures using air walk, wind walk, levitate, feather fall, and any other magical effect that allows travel through the air. You may set your sky warning to trigger only by the entry of flying creatures of a certain size, and you may also choose to exclude flying creatures with Intelligence 2 or lower from triggering its alarm. If you choose the latter option, the alarm is still triggered if a more intelligent creature is mounted on a flying mount with Intelligence of 2 or lower.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40ab12f45dfdc8cf.json",
+    "web": "https://codex.pipsprojects.com/#/e/40ab12f45dfdc8cf"
+  },
+  "license": "OGL 1.0a"
+}

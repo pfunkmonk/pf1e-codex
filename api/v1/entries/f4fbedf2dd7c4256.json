@@ -1,0 +1,27 @@
+{
+  "id": "f4fbedf2dd7c4256",
+  "name": "Sinful Suspicion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "legendary inquisitor": 5,
+      "paladin": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level legendary inquisitor 5, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, O (abstinence)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one creature/level, no two of whom can be more than 30 feet apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou awaken mistrustful and paranoid thoughts and suspicions in the minds of the targets, compelling them to believe its own allies are plotting betrayal and murder against them. Affected creatures do not treat any creatures as their allies and always take attacks of opportunity against creatures they threaten that take actions that provoke them. They must attempt saving throws against harmless or beneficial spells used on them by other creatures. Each round on its turn, if a former ally has attacked it during the spell’s duration, an affected creature is compelled to attack the former ally that attacked it most recently. If no ex-ally has attacked it, an affected creature nonetheless has a 50% chance each round of being compelled to attack the nearest former ally, attacking evil-aligned allies in preference to nonevil allies. An affected creature can attack with melee or ranged weapons, spells, special abilities, or any other method, but typically uses its most effective attacks and may not intentionally deal nonlethal damage or use beneficial or harmless effects that would benefit its former allies. Affected creatures do not ignore other creatures and can include them in area effects or effects it creates that target multiple creatures, though it must include as many former allies as possible in such effects when doing so. This spell functions only on creatures of evil alignment.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f4fbedf2dd7c4256.json",
+    "web": "https://codex.pipsprojects.com/#/e/f4fbedf2dd7c4256"
+  },
+  "license": "OGL 1.0a"
+}

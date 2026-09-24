@@ -1,0 +1,28 @@
+{
+  "id": "efcc7be2c506c55f",
+  "name": "Displaced Load",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "no and yes (object)",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation; Level adept 1, bard 1, cleric 1, inquisitor 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a set of calibrated metal weights)\n\nEFFECT\n\nRange touch\nTarget one touched object as well as yourself plus an additional touched willing creature/level\nDuration 1 hour/level (D)\nSaving Throw none and Will negates (object); Spell Resistance no and yes (object)\n\nDESCRIPTION\n\nYou evenly distribute the weight of one touched object between yourself and a number of other willing creatures, burdening all parties with an equal fraction of the object’s weight. The item’s actual weight is unchanged for all effects (such as whether mage hand can move it or shatter can destroy it). Additional creatures do not count as carrying the object for magical effects or purposes, nor are they affected by items which affect the wearer or possessor. Creatures are never damaged by accepting this weight. Accepting a new displaced load replaces the previous one.\n\nIn order to maintain the link, all creatures involved must remain within 100 feet of you. If a target moves beyond 100 feet of you, the spell’s effect ends on that creature and the object’s weight is re-divided amongst the remaining creatures. Moving back into range does not re-establish the link. Dispelling the link from a creature ends the link for that target only. Dispelling it from you ends it for all targets. Targets may voluntarily end their participation in the link as a free action at any time. If you lose contact with the object, the spell ends.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efcc7be2c506c55f.json",
+    "web": "https://codex.pipsprojects.com/#/e/efcc7be2c506c55f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "79acd146fb06f036",
+  "name": "Cloud Boots",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Ref",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [air]; Level druid 5, shaman 5\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration 1 hour/level (D)\n\nSaving Throw Reflex negates (harmless); Spell Resistance yes (harmless)\n\nYou form boots out of cloud-material around the target’s feet. These clouds allow them to move up or down in the air at a speed of 30 feet, laterally with a speed of 60 feet (perfect), and hover. The target cannot get more than 90-feet off the ground.\n\nIf the spell ends or is dismissed while the target is in the air, they fall to the ground as if affected by feather fall.\n\nThe target can dismiss this spell and walk normally by shaking the cloud-material off their boots.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79acd146fb06f036.json",
+    "web": "https://codex.pipsprojects.com/#/e/79acd146fb06f036"
+  },
+  "license": "OGL 1.0a"
+}

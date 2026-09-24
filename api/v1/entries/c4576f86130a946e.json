@@ -1,0 +1,29 @@
+{
+  "id": "c4576f86130a946e",
+  "name": "Curse of Horror",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 3
+    },
+    "desc": [
+      "fear",
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [fear, language-dependent, mind-affecting]; Level bard 3, cleric/oracle 3\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration see text\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe victim must hear the caster’s voice as she pronounces the curse and defines the object of the victim’s fear. If the saving throw fails, the victim develops a powerful phobia of the named object. Whenever the victim encounters the subject of his phobia, he must succeed on a Will save or be panicked for as long as the subject is within 30 feet of him. For instance, a person cursed to fear wide-open spaces would have to succeed on a Will save to go outside for more than a few seconds. The phobia lasts until the victim rolls a natural 20 on the saving throw or until other magic removes the curse.\n\nMultiple castings of curse of horror do stack, although any casting that would set up a contradictory phobia automatically fails. For example, a victim already afraid of wide-open spaces cannot also be made claustrophobic.\n\nCurse of horror automatically fails if the victim could not possibly avoid the subject of his fear. Thus, a victim cannot be cursed to fear himself or breathing or anything else whose avoidance would be suicidal. On the other hand, a dark elf could be cursed to fear darkness; near-blindness from living in constant bright light would greatly inconvenience a dark elf, but not physically threaten her life.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4576f86130a946e.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4576f86130a946e"
+  },
+  "license": "OGL 1.0a"
+}

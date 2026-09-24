@@ -1,0 +1,29 @@
+{
+  "id": "69dc689a85716158",
+  "name": "Force Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 0,
+      "bloodrager": 0,
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [force]; Level bard 0, bloodrager 0, magus 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange self\nTarget you\nDuration 1 round\n\nYou create a minor force barrier around yourself. Until the end of your next turn, you gain DR 1/-.\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/69dc689a85716158.json",
+    "web": "https://codex.pipsprojects.com/#/e/69dc689a85716158"
+  },
+  "license": "OGL 1.0a"
+}

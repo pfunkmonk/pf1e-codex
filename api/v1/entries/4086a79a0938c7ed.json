@@ -1,0 +1,19 @@
+{
+  "id": "4086a79a0938c7ed",
+  "name": "Stormcall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation [air, electricity, water]; Level 5\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea cylinder (20-ft. radius, 40 ft. high)\nDuration 1 round/level (D)\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nDark thunderclouds appear in an instant, sending down lightning and rain. When you cast stormcall, bolts of lightning strike down upon creatures in the area, dealing 10d6 points of electricity damage ( Reflex half). This damage only occurs once, when the script is cast.\n\nFor the remaining duration of stormcall, heavy rain and winds fill the area. Creatures inside this area take a -4 penalty on Perception skill checks, exposed flames are extinguished, and the entire area is treated as difficult terrain.\n\nOverload: For every runic charge overloaded into this script, you can increase the area’s radius by 5 feet and the height by 10 feet.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4086a79a0938c7ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/4086a79a0938c7ed"
+  },
+  "license": "OGL 1.0a"
+}

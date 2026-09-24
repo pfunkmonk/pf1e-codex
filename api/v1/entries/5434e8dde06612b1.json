@@ -1,0 +1,24 @@
+{
+  "id": "5434e8dde06612b1",
+  "name": "Replicate, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 8,
+      "vanguard": 6
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 8, vanguard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget object weighing no more than 10 lbs./level\nDuration 1 min./level\nSaving Throw none or Will negates (harmless, object), see text; Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nThis functions as replicate, but the created object maintains the magical and special material properties of the original. Only magical properties that are continuous or have unlimited uses function on the created item; a +2 radiant breastplate, for example, would maintain its radiant ability to shine brightly as a torch but could not be commanded to create a daylight effect, as that ability of the radiant property is only usable once per day. Items with limited charges, such as a wand or ring of wishes, can be replicated but are created with no charges. The DC to identify the item as not being the original is +5 higher than the DC outlined in replicate.\n\nYou can choose whether or not to replicate the magical properties of a targeted magic item; if you do not copy the magical properties of the item, the targeted object receives no saving throw. Non-magical items receive no saving throw.\n\nYou can use greater replicate on an artifact, but its magical properties are never bestowed upon the created object. Artifacts always receive a saving throw against greater replicate.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5434e8dde06612b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/5434e8dde06612b1"
+  },
+  "license": "OGL 1.0a"
+}

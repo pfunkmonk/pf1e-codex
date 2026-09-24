@@ -1,0 +1,26 @@
+{
+  "id": "7c3f4c31031d6454",
+  "name": "Chasm of Immurement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [earth]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one creature in contact with the ground\nDuration 1 minute/level; see text\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause a rent in the ground to open up below the target, draw them in and close around them, sealing them into a tomb of earth and stone. You trap the target in stone 1 inch thick per caster level. If the creature fails its save, it is helpless and must begin holding their breath at the end of their next turn. They will suffocate if they are not freed from the stone. If the target makes its save, it gains the entangled condition and is unable to move until they are broken free of them but can otherwise act normally and breathe. The stone has hardness 8 and 15 hit points per inch of thickness; if broken, the creature is freed. A creature can break the stone as a full-round action with a successful Strength check (DC 20 + your caster level).\n\nOnce the spell ends, the chasm reopens freeing the creature within.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c3f4c31031d6454.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c3f4c31031d6454"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "19276c304065ef00",
+  "name": "Fortify Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 3,
+      "paladin": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level antipaladin 2, cleric/oracle 3, paladin 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (the armor or shield that is being enhanced)\n\nEFFECT\n\nRange touch\nTarget one non-magical shield or suit of armor\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou transform a suit of armor or a shield into something of legendary make and quality for a short while. Although this only works on a non-magical shield or suit of armor, it doubles the effectiveness of the armor.\n\nFor example, this spell cast on a chain shirt would cause the chain shirt to give a +8 armor bonus instead of the normal +4. This does not alter any armor check penalties or Dexterity bonus limitations.\n\nThis spell does have one unfortunate drawback, the armor affected by this spell crumbles to dust (or flakes away if leather or hide) at the end of the spell’s duration. If the armor is reduced to 0 hp by a sunder attack, it crumbles to dust immediately.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/19276c304065ef00.json",
+    "web": "https://codex.pipsprojects.com/#/e/19276c304065ef00"
+  },
+  "license": "OGL 1.0a"
+}

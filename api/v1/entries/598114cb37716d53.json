@@ -1,0 +1,27 @@
+{
+  "id": "598114cb37716d53",
+  "name": "Wooden Hands",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "druid": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level adept 1, druid 1, ranger 1, shaman 1, witch 1\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, M (a chunk of wood)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou transform the target’s hands into wooden carvings.\n\nWhile this spell is in effect the target is unable to manipulate, grasp, or release items. If they have no weapon equipped they can use, they gain a 1d6 slam attack. The target’s Cmd against disarm increases by 5. However, their hands are susceptible to spells that affect wood, like warp wood. At the end of the spell, the target’s hands return to normal, including any changes to the wood caused by other effects.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/598114cb37716d53.json",
+    "web": "https://codex.pipsprojects.com/#/e/598114cb37716d53"
+  },
+  "license": "OGL 1.0a"
+}

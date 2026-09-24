@@ -1,0 +1,26 @@
+{
+  "id": "ccf828b1493035ec",
+  "name": "Ocean’s Depths",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spes Magna Games",
+  "book": "Spes Magna Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Spes Magna Games"
+  },
+  "body": "School transmutation [water]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft. radius, 20 ft. high spread\nDuration 1 round/level (D)\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nAn ocean’s depths spell transforms the air in the area of effect into a zone of water that emulates the crushing pressure and icy chill of the deep water. The water obscures all sight as a fog cloud does. In addition, the crushing pressure deal 4d6 points of damage to everything within the cloud on your turn each round. All targets can make Fortitude saves each round to take half damage. Targets also suffer 1d6 points of nonlethal cold damage.\n\nCreatures caught in the area move and act as if underwater. Swim checks within ocean’s depths face a DC of 15.\n\nBy concentrating, you can make the area move as much as 60 feet each round. Any portion of the cloud area would extend beyond your maximum range dissipates harmlessly, reducing the remainder’s spread thereafter. Creatures within ocean’s depths who do not wish to move with the spell may make a DC 15 Swim check to remain in their current square.\n\nCreatures in the area may also drown. Any character can hold his breath for a number of rounds equal to twice his Constitution score. If a character takes a standard or full-round action, the remaining duration that the character can hold his breath is reduced by 1 round. After this period of time, the character must make a DC 10 Constitution check every round in order to continue holding his breath. Each round, the DC increases by 1.\n\nWhen the character finally fails his Constitution check, he begins to drown. In the first round, he falls unconscious (0 hp). In the following round, he drops to -1 hit points and is dying. In the third round, he drowns.\n\nUnconscious characters must begin making Constitution checks immediately upon being submerged (or upon becoming unconscious if the character was conscious when submerged). Once he fails one of these checks, he immediately drops to -1 (or loses 1 additional hit point, if his total is below -1). On the following round, he drowns.\n\nIn One’s Blood. Copyright 2010, Spes Magna Games; Mark L. Chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ccf828b1493035ec.json",
+    "web": "https://codex.pipsprojects.com/#/e/ccf828b1493035ec"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "daef2635fa706eff",
+  "name": "Negative Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 4,
+      "druid": 4,
+      "inquisitor": 4,
+      "shaman": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing)/necromancy [evil]; Level antipaladin 4, cleric/oracle 4, druid 4, inquisitor 4, shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a piece of any undead that has connections to the negative energy plane), DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea cylinder (15 ft. radius, 40 ft. high)\nDuration concentration\nSaving Throw none or Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis special spell can only be learned and cast by divine spellcasters whose patron deity is [this god] and they possess the Equilibrium Initiate feat.\n\nNegative rain is both an offensive and defensive dual-school spell that sucks the life from your opponents and bestows that life force upon your allies.\n\nWhen you cast this spell, you create a zone of negative energy. For the duration of this spell, whenever a creature starts their turn within the area of effect, they take 1 point of negative energy damage for every two caster levels you possess (maximum 5). You can then channel that energy as positive energy to target one other creature within the area of effect to heal it of an equal amount of damage. This channeling occurs instantly and it does not require any action on your part while you concentrate to maintain this spell.\n\nCreatures immune to energy drain, such as constructs, are not harmed by the negative energy. Since undead are powered by negative energy, the normally harmful effects of this spell heal them instead. However, undead are harmed by the positive energy of this spell, though they may make a Will save to negate the damage from this positive energy each time they are targeted.\n\nPrayer - Gods of Balance and Heroes, © 2025, Orphaned Bookworm Productions, LLC, Author: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/daef2635fa706eff.json",
+    "web": "https://codex.pipsprojects.com/#/e/daef2635fa706eff"
+  },
+  "license": "OGL 1.0a"
+}

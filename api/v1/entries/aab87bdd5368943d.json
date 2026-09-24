@@ -1,0 +1,27 @@
+{
+  "id": "aab87bdd5368943d",
+  "name": "Ironpage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School abjuration [earth]; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget book or scroll touched\nDuration 1 day/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nIronpage protects one book or scroll from damage. Not every book is eligible to be the target of this spell—only finely crafted works worth no less than one gp/page of text or 20 gp total can be affected by ironpage. The book or scroll is no longer considered flammable (it can be damaged by fire, but never catches on fire), is completely waterproof, and gains a hardness of 15 and 1 hp per gp of value.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aab87bdd5368943d.json",
+    "web": "https://codex.pipsprojects.com/#/e/aab87bdd5368943d"
+  },
+  "license": "OGL 1.0a"
+}

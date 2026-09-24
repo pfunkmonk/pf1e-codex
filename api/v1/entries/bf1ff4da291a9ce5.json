@@ -1,0 +1,26 @@
+{
+  "id": "bf1ff4da291a9ce5",
+  "name": "Halo of Bones",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bloodlord": 3,
+      "death mage": 3,
+      "shaman": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level bloodlord 3, death mage 3, shaman 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bone fragment)\n\nEFFECT\n\nRange personal\nTarget self\nDuration 10 mins./level or until expended\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a floating disc of bones that hovers behind your head. You create one bone per caster level. As a standard action, you can deploy one of the bones to create a standard human skeleton under your control, or launch it as a projectile at a target within 60 feet.\n\nIf you create a skeleton, it persists until destroyed or until the spell ends at which time it crumbles to grave dust. This skeleton does not count against your HD limit for undead controlling but gains the benefits of any feats or abilities that bolster created undead.\n\nIf you fire it as a projectile, you must make a standard ranged attack against the target’s AC but using your spellcasting ability modifier in place of your Dexterity modifier, if higher. If the bone-projectile hits, it deals 1d8 piercing damage plus your spellcasting ability modifier and is considered magic for the purposes of bypassing DR.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf1ff4da291a9ce5.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf1ff4da291a9ce5"
+  },
+  "license": "OGL 1.0a"
+}

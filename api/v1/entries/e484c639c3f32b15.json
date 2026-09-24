@@ -1,0 +1,33 @@
+{
+  "id": "e484c639c3f32b15",
+  "name": "Befoe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "skald": 1,
+      "wizard": 1,
+      "focus opportunist": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 1, mesmerist 1, occultist 1, psychic 1, shaman 1, skald 1, sorcerer/wizard 1, witch 1; Focus opportunist 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the target to dislike you. At the time of casting, you may choose to turn its attitude towards you either unfriendly or hostile. On a successful saving throw, the duration is reduced to 1 minute per level. The target is not blind nor single-minded in its newfound hatred but is willing to harm you without provocation when given the opportunity, within the limits of its alignment. The spell causes a strictly personal vendetta towards you; attitudes towards your allies aren’t besmirched by association.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e484c639c3f32b15.json",
+    "web": "https://codex.pipsprojects.com/#/e/e484c639c3f32b15"
+  },
+  "license": "OGL 1.0a"
+}

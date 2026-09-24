@@ -1,0 +1,31 @@
+{
+  "id": "fe65c2449305b004",
+  "name": "Brand of Truth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 2,
+      "oracle": 3,
+      "paladin": 3,
+      "warpriest": 3
+    },
+    "desc": [
+      "curse",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment (compulsion) [curse, mind-affecting]; Level cleric 3, inquisitor 2, oracle 3, paladin 3, warpriest 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 day/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell etches a symbol of justice, light, order or truth on the target’s body, dealing 1d6 points of damage. The mark can be placed on any exposed portion of the creature, typically on the head or forearm. A creature branded in this way cannot speak any deliberate and intentional lies, though it may avoid answering questions to which it would normally respond with a lie, or it may be evasive as long as it remains within the boundaries of the truth. A brand of truth can be hidden by clothing or removed by scraping the brand away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed), but in either case the effects of a brand of truth continue to function.\n\nMercy of the Sun Copyright 2026 Varyag's Forge Author: Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe65c2449305b004.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe65c2449305b004"
+  },
+  "license": "OGL 1.0a"
+}

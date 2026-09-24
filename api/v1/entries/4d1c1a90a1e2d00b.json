@@ -1,0 +1,31 @@
+{
+  "id": "4d1c1a90a1e2d00b",
+  "name": "Frost Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 2,
+      "druid": 2,
+      "magus": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level bloodrager 2, druid 2, magus 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange 30 ft.\n\nArea cone-shaped burst\n\nDuration instantaneous\n\nSaving Throw Fort negates; Spell Resistance yes\n\nYou release a blast of freezing air that covers the ground and creatures within the cone in a thin layer of ice. Any creature in the area takes 1d6 points of cold damage per two caster levels (maximum 10d6). Additionally, all creatures that take cold damage are fatigued for 1 minute. A successful Fortitude save halves the cold damage and negates the fatigue.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d1c1a90a1e2d00b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d1c1a90a1e2d00b"
+  },
+  "license": "OGL 1.0a"
+}

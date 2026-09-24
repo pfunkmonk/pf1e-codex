@@ -1,0 +1,24 @@
+{
+  "id": "fcd15b038580e4a0",
+  "name": "Master’s Eyes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V,S\n\nEFFECT\n\nRange touch\nTarget your familiar\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen you identify targets for a ranged spell, you may use your familiar’s senses to identify targets within the spell’s range, even if you do not have line of sight to them.\n\nYour familiar must see the creature or object to target it. You gain the following information: the existence of targets your familiar identifies, their physical position relative to you, and whether your familiar considers them allies, neutral, or enemies.\n\nTo identify a target, the familiar must make a Perception check with all normal modifiers applying. If the familiar does not sense the target and its location, it cannot identify the target or supply information on the target’s location. Even if identified, the familiar’s lack of line of sight may prevent a spell from targeting an individual.\n\nMaster’s eyes doesn’t affect the ranged spell in any way other than to provide potential targets for the spell. All other requirements for your ranged spell must be met as normal, and it still originates from you.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fcd15b038580e4a0.json",
+    "web": "https://codex.pipsprojects.com/#/e/fcd15b038580e4a0"
+  },
+  "license": "OGL 1.0a"
+}

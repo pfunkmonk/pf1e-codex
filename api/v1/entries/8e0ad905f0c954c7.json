@@ -1,0 +1,23 @@
+{
+  "id": "8e0ad905f0c954c7",
+  "name": "Arrow Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (ammunition used in the spell)\n\nEFFECT\n\nRange 0 ft.\nArea 30-foot-radius\nDuration 8 hours\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou place up to 1 piece of ammunition per caster level on the ground and charge them with magic energy to ward an area. You are not affected by this spell and when casting the spell you may designate any number of individuals that are also exempted from the spell. When any other creature enters within 30 feet of the pile of ammunition or begins their turn in the area, a piece of the ammunition shoots up and toward the target and you make a ranged attack. If the attack hits it deals 1d6 plus your spellcasting modifier in damage. The damage type is the same normally dealt by the ammunition but is also considered magic for damage reduction purposes. If the attack is triggered, the ammunition is lost. The spell ends when all the ammunition places is expended. This spell does not function with magical ammunition like slaying arrows.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8e0ad905f0c954c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/8e0ad905f0c954c7"
+  },
+  "license": "OGL 1.0a"
+}

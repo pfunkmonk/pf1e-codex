@@ -1,0 +1,27 @@
+{
+  "id": "2bda872e3c35ac19",
+  "name": "Resounding Runes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "occultist": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [sonic]; Level occultist 1, sorcerer/wizard 1\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as explosive runes, except it creates a small burst of sound rather than an explosion of force.\n\nThe runes automatically deal 1d4 points of sonic damage to any creatures and objects in adjacent squares, and those creatures are deafened for 1d6 rounds unless they succeed at Fortitude saves.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2bda872e3c35ac19.json",
+    "web": "https://codex.pipsprojects.com/#/e/2bda872e3c35ac19"
+  },
+  "license": "OGL 1.0a"
+}

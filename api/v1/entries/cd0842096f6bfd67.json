@@ -1,0 +1,32 @@
+{
+  "id": "cd0842096f6bfd67",
+  "name": "Ash Cloud",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 2,
+      "magus": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "unchained summoner": 2,
+      "witch": 2
+    },
+    "desc": [
+      "air",
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration [air, fire]; Level adept 2, magus 2, shaman 2, sorcerer/wizard 2, unchained summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of ash)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-foot-radius burst\nDuration 1 round/level\nSaving Throw Fortitude, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a roiling cloud of ash and smoke in the area. The cloud is difficult terrain for flying creatures due to the shifting temperatures but it does not cause concealment. However, it is impossible to use scent within the area.\n\nWhen a creature ends their turn within the area of the smoke, they must make a Fortitude save or be nauseated for 1 round from smoke inhalation and take 1d4 fire damage from the burning ash in the lungs. On a success, the creature is only sickened for 1 round. If a creature does not need to breathe or if they are immune to fire damage, they are immune to these effects.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd0842096f6bfd67.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd0842096f6bfd67"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bbe9daa052da7725",
+  "name": "Final Rest",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "inquisitor": 6,
+      "white necromancer": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, inquisitor 6, white necromancer 5\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M/DF (a vertebrae)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nTarget one undead creature with rejuvenation\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou speak a holy word and perform a simple ritual to ensure that one undead creature does not return. Once an undead creature with rejuvenation is destroyed, you must cast this spell on its physical remains. In the case of a ghost, you must locate the creature’s body, bones, or specific area or item that the ghost haunts and cast the spell there. A failed Will saving throw permanently destroys the undead creature.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bbe9daa052da7725.json",
+    "web": "https://codex.pipsprojects.com/#/e/bbe9daa052da7725"
+  },
+  "license": "OGL 1.0a"
+}

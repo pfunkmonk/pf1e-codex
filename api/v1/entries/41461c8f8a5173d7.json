@@ -1,0 +1,23 @@
+{
+  "id": "41461c8f8a5173d7",
+  "name": "Ingest",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 2
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); transmutation; Level alchemist 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hr./level\nSaving Throw none; see text; Spell Resistance no\n\nDESCRIPTION\n\nDrinking this extract allows you, as a standard action, to swallow objects or willing creatures. Objects and creatures you wish to swallow shrink when your mouth touches them and are stored in an extra-dimensional space accessed through your mouth. You may store one object that is one size category smaller than yourself or up to three objects that are two size categories smaller this way.\n\nSimilarly, you may store one creature that is one size category smaller than yourself or up to three creatures that are two size categories smaller. The creatures must be willing; trying to swallow an unwilling creature ends the effects immediately. The extra-dimensional space has enough air for one creature for 1 hr. per caster level, for two creatures for 30 min. per caster level, or for three creatures for 15 min. per caster level.\n\nCreatures that run out of air while they are still stored immediately begin to suffocate.\n\nYou may recover an object or creature as a move action, but you must have a free hand to reach into your mouth and draw the object or creature forth. If this spell ends before a creature leaves your mouth, it is harmlessly shunted to the nearest open space that will accommodate it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/41461c8f8a5173d7.json",
+    "web": "https://codex.pipsprojects.com/#/e/41461c8f8a5173d7"
+  },
+  "license": "OGL 1.0a"
+}

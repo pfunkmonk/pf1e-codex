@@ -1,0 +1,37 @@
+{
+  "id": "3b46391d5cbe45b8",
+  "name": "Bound by Misery",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 3,
+      "bard": 3,
+      "bloodrager": 4,
+      "oracle": 4,
+      "inquisitor": 3,
+      "lathspell": 3,
+      "mesmerist": 3,
+      "psychic": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting]; Level antipaladin 3, bard 3, bloodrager 4, cleric/oracle 4, inquisitor 3, lathspell 3, mesmerist 3, psychic 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level (D); see text\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the target to be overwhelmed with such sadness that they grab themselves and sob uncontrollably. Each round at the beginning of their turn the target must make a grapple attempt or an attempt to maintain a grapple against themselves. If the target is grappled by themselves during the round, they cannot move. The target cannot elect to release the grapple as a free action. Each round at the end of its turn, the target can attempt a Will save to end the spell.\n\nBound by Misery, Mass\n\nSchool enchantment (compulsion) [emotion, mind-affecting]; Level cleric/oracle 8, mesmerist 6, psychic 8, shaman 8, sorcerer/wizard 8, witch .\n\nTargets one or more creatures, no two of which can be more than 30 ft. apart\n\nThis spell functions as bound by misery except that it affects multiple creatures as noted above.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3b46391d5cbe45b8.json",
+    "web": "https://codex.pipsprojects.com/#/e/3b46391d5cbe45b8"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "23211d009ed5da2a",
+  "name": "Touch of Despair",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 0,
+      "bloodrager": 1,
+      "lathspell": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "despair",
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [despair, emotion, mind-affecting]; Level antipaladin 1, bard 0, bloodrager 1, lathspell 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute or until discharged\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell imbues the target with a sense of impending loss and sadness.\n\nFor the duration of the spell or until it is discharged, the target takes a -1 penalty on saves vs. fear and despair effects. As an immediate action the cast of this spell can discharge it to impose a -1 penalty on the target’s next attack, ability or skill check, saving throw, or damage roll.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/23211d009ed5da2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/23211d009ed5da2a"
+  },
+  "license": "OGL 1.0a"
+}

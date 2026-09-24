@@ -1,0 +1,17 @@
+{
+  "id": "d67556dd6ee34101",
+  "name": "Clockwork Guardian, Unwound",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Tower Vault Heist",
+  "book": "The Tower Vault Heist",
+  "facets": {
+    "bk": "The Tower Vault Heist"
+  },
+  "body": "UNWOUND CLOCKWORK GUARDIAN\nCR 2\n\nThis ogre-sized figure crafted from metal stands absolutely stationary. Only a faint whir gives away the presence of clockwork within. One hand is shaped into a fist, while the other is is formed from a serrated circular blade.\n\nXP 600\nN Large construct (clockwork)\nInit +2; Senses darkvision 60 ft.; Perception +3\n\nDEFENSE\n\nAC 12 touch 11, flat-footed 11 (+1 Dex, +2 natural, -1 size)\nhp 46 (2d10+30)\nFort +2, Ref +3, Will +2\nImmune construct traits\nWeaknesses vulnerable to electricity\n\nOFFENSE\n\nSpeed 10 ft.\nMelee 1 slam +6 (1d10+3)\n\nSTATISTICS\n\nStr 16, Dex 12, Con -, Int -, Wis 10, Cha 2\nBase Atk +6; CMB +6, CMD 16\n\nSPECIAL ABILITIES\n\nClockwork Wind-up (Ex)\n\nAs a move action the Clockwork Guardian can wind up its second arm. Once wound then it can make a single attack with the saw-blade arm as an standard attack or as part of a full attack.\n\nSpinning Sawblade (Ex)\n\nMelee Slashing +5 dealing 2d6+3 damage. The spinning sawblade attack deals normal damage if it hits the target. If it hits the target’s touch AC but misses the full AC then the sawblade strikes armour and rips into it. The damage is dealt to the shield of the target first, or if there is no shield then to the armour.\n\nTreat it as though a successful sunder had been made on that item. This does not provoke an attack of opportunity.\n\nClockwork Power (Ex)\n\nSpells can be cast into the Clockwork Guardian to wind up the clockwork within. It gains one charge per level of the spell cast into it and this puts it into one of three states:\n\n0 to 1 charges: Unwound\n2 to 8 charges: Normal\n9 or 10 charges: Supercharged\n\nThe Clockwork Guardian cannot store more than 10 charges and normal running causes it to lose 1 charge per week. At the DM’s discretion high amounts of activity may cause it to lose charges more rapidly.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, or guard (2-12)\nTreasure none\n\nClockwork Guardians were creating by an eccentric gnome wizard. He had originally intended them to absorb hostile spells cast at them in order to power their workings but he didn’t manage to get that part of the plan working reliably before he lost interest in the project.\n\nSturdy and strong they make excellent front line fighters, although when not properly charged they do become a lot slower and easier to handle.\n\nThe Tower Vault Heist © 2015 Zero Separation Ltd.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d67556dd6ee34101.json",
+    "web": "https://codex.pipsprojects.com/#/e/d67556dd6ee34101"
+  },
+  "license": "OGL 1.0a"
+}

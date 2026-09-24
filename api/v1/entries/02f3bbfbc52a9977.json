@@ -1,0 +1,29 @@
+{
+  "id": "02f3bbfbc52a9977",
+  "name": "Dispel Metal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [fire]; Level druid 5, cleric/oracle 5, inquisitor 5, shaman 5\n\nThis spell functions as dispel evil, except it surrounds you in a fiery aura and it affects creatures bearing metal weapons or armor and metal constructs, rather than evil ones. You cannot cast this spell if you are bearing metal.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02f3bbfbc52a9977.json",
+    "web": "https://codex.pipsprojects.com/#/e/02f3bbfbc52a9977"
+  },
+  "license": "OGL 1.0a"
+}

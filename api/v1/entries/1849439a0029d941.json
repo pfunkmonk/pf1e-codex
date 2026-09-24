@@ -1,0 +1,30 @@
+{
+  "id": "1849439a0029d941",
+  "name": "Runecasting, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "skald": 5,
+      "bloodrager": 4,
+      "oracle": 5,
+      "magus": 5,
+      "occultist": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School divination; Level bard/skald 5, bloodrager 4, cleric/oracle 5, magus 5, occultist 5, shaman 5, sorcerer/wizard 5, witch 5\nTarget one creature, plus one additional creature for every 3 caster levels\nDuration 1 day/level\n\nDESCRIPTION\n\nThis spell functions as runecasting, except it can affect an entire group of creatures. Draw one rune for each participant.\n\nThe subject gains the bonus or penalty from that rune as listed above under “Runic Divination” for all the spell’s duration. A subject with the Patron Rune trait or the Cast Rune feat always treats its patron rune as positive(see above).\n\nIf its patron rune has not a positive meaning, the subject gains instead the ability to use it as a curse once in the spell’s duration: the curse ends when the spell expires.\n\nA single creature can be under the effects of only one harrowingiswg, runecasting, greater harrowinghh, or greater runecasting at a time. If the subject is targeted with a second such spell while a previous one is still affecting him, the new spell automatically fails for that subject. Divine casters, witches, and wizards don’t usually employ both harrowing and runecasting for their predictions.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1849439a0029d941.json",
+    "web": "https://codex.pipsprojects.com/#/e/1849439a0029d941"
+  },
+  "license": "OGL 1.0a"
+}

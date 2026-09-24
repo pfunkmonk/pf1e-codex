@@ -1,0 +1,26 @@
+{
+  "id": "41b2062f2b641be4",
+  "name": "Backlash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 2,
+      "ranger": 2,
+      "wizard": 2,
+      "vanguard": 2
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bloodrager 2, ranger 2, sorcerer/wizard 2, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one manufactured weapon\nDuration 1 round/level or until discharged\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou cause a weapon to strike back at its wielder. The weapon does not receive an initial saving throw.\n\nIf the targeted weapon is used to attack while backlash is in effect, the weapon must make a Will save or flex backwards towards its wielder. The weapon uses the wielder’s saving throw bonus unless its own is higher. If it fails the save, the weapon attempts to strike at its wielder, using the attack roll of its wielder against the wielder’s flat-footed AC. If it hits, it deals damage as appropriate for the weapon, plus any special properties the weapon has (such as flaming). The attack does not receive any damage bonus; it only does the base damage of the weapon, and it cannot critically strike its wielder.\n\nThe weapon can attempt to backlash at its wielder once plus an additional time for every five caster levels above 3rd (maximum 3), after which the spell is discharged. The weapon makes a separate saving throw for each backlash that triggers. This spell cannot affect artifacts or similarly unique weapons.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/41b2062f2b641be4.json",
+    "web": "https://codex.pipsprojects.com/#/e/41b2062f2b641be4"
+  },
+  "license": "OGL 1.0a"
+}

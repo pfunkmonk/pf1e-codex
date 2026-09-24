@@ -1,0 +1,27 @@
+{
+  "id": "cb7124894fdc1c33",
+  "name": "Shadow Shape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "shadowsworn": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (transmutation) [shadow]; Level shadowsworn 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadow\nDuration 10 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell can be used to change the shape of any shadow, allowing you to depict an outline of your choosing accurately. The total area covered by the shadow is unchanged, although if resize shadow is cast on the shadow immediately before shadow shape, you can shape the resized shadow until the duration of the former spell ends.\n\nShadow shape can cause 1d6 hp damage/level (maximum 5d6) against any one shadow-based creature or illusion that fails its saving throw.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb7124894fdc1c33.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb7124894fdc1c33"
+  },
+  "license": "OGL 1.0a"
+}

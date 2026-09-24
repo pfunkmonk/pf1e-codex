@@ -1,0 +1,28 @@
+{
+  "id": "6e055ecedc9cdc1e",
+  "name": "Ice Mirror",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 4,
+      "druid": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School divination (scrying) [cold]; Level bard 4, druid 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, F (sheet of ice)\n\nEFFECT\n\nRange see text\nEffect magical sensor\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nIce mirror creates an invisible magical sensor at a specific location that allows you to see as if you were at that location. You don’t need line of sight or line of effect, but the locale must be known—a place familiar to you, or an obvious one. Once you have selected the locale, the sensor can move at a fly speed of 10 feet, though it must have an unobstructed path to do so (the sensor is approximately 1 foot in diameter, and cannot squeeze through smaller spaces). As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. Ice mirror functions only on the plane of existence you are currently occupying.\n\nIce Mirror, Greater\n\nSchool divination (scrying) [cold]; Level druid 8, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, F (sheet of ice)\n\nEFFECT\n\nRange see text\nEffect magical sensor\nDuration 10 minutes/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like ice mirror, except as noted above. Additionally, you can cast any 0-or 1st-level spells through the magic sensor it creates, counting spell ranges as beginning at the location of the sensor.\n\nThe Genius Guide To: Ice Magic The Genius Guide To: Ice Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e055ecedc9cdc1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e055ecedc9cdc1e"
+  },
+  "license": "OGL 1.0a"
+}

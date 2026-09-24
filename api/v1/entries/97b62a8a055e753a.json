@@ -1,0 +1,27 @@
+{
+  "id": "97b62a8a055e753a",
+  "name": "Lingering Fireball",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level magus 6, sorcerer/wizard 6\n\nDuration 3 rounds\n\nThis spell functions as fireball, except that the flames linger in the area for 3 rounds. Any creature beginning their turn in or entering the area take the fireball damage again. A successful Reflex save halves this damage.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/97b62a8a055e753a.json",
+    "web": "https://codex.pipsprojects.com/#/e/97b62a8a055e753a"
+  },
+  "license": "OGL 1.0a"
+}

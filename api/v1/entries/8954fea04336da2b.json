@@ -1,0 +1,28 @@
+{
+  "id": "8954fea04336da2b",
+  "name": "Void Zone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "psychic": 9,
+      "shaman": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [void]; Level psychic 9, shaman 9, sorcerer/wizard 9\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange 30 feet\n\nEffect emanation centered on you\n\nDuration concentration, up to 1 round/level\n\nSaving Throw none; Spell Resistance no\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nYou erect a transparent magical dome composed of interlinked and continuous manifestations of sigils that are symbolic expressions for the Void.\n\nWithin the dome, the lighting condition is set to dim light, overriding and suppressing all other magical or natural sources of light or darkness.\n\nEach round while within the dome, an ally affected by this spell may re-roll any one attack roll, saving throw, or skill check they make, and keep the better result. This effect may stack with other effects that allow re-rolls but an ally may only be under effects of one void zone at a time.\n\nThe dome is mobile, moving along with you, but only allies who were within the area of effect when you cast this spell will continue to be affected by this spell so long as they remain within the dome. Anyone who leaves the dome is no longer affected, even if they return. You cannot move more than 20 feet each round while you are the emanation of this spell.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8954fea04336da2b.json",
+    "web": "https://codex.pipsprojects.com/#/e/8954fea04336da2b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "d7c1f2a8c409cf60",
+  "name": "Terror Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "death mage": 9,
+      "shaman": 9,
+      "wizard": 9,
+      "witch": 9
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (summoning) [emotion, fear, mind-affecting]; Level death mage 9, shaman 9, sorcerer/wizard 9, witch 9\n\nCAST\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level.\n\nEffect 360-ft.-radius storm cloud\nDuration concentration (maximum 10 rounds) (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an evil-looking black storm cloud in the air. Each creature under the cloud must succeed on a Will save or be shaken for 1d4 x 10 minutes.\n\nEach round you continue to concentrate, the spell generates additional effects as noted below.\n\nEach effect occurs on your turn.\n\n2nd Round: Negative energy floods the area, dealing 1d6 points of negative energy damage to living creatures (no save), undead are not healed by this negative energy.\n\n3rd Round: You call six bolts of lightning down from the cloud. You decide where the bolts strike. No two bolts may be directed at the same target. Each bolt deals 10d6 points of electricity damage. A creature struck can attempt a Reflex save for half damage.\n\n4th Round: Hailstones rain down in the area, dealing 5d6 points of bludgeoning damage (no save).\n\n5th through 10th Rounds: All living creatures take 1d6 negative energy damage (no save) and must make a Will save or be panicked for 1 round.\n\nPositive energy spells deal half the amount of damage or heal half the amount of wounds in the area.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7c1f2a8c409cf60.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7c1f2a8c409cf60"
+  },
+  "license": "OGL 1.0a"
+}

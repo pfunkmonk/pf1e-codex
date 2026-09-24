@@ -1,0 +1,27 @@
+{
+  "id": "e8e42ef688310895",
+  "name": "Sound of Broken Bells",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "oracle": 4
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bard 4, cleric/oracle 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, F/DF (a broken bell)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 15-ft.-radius spread\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou ring the broken bell and the affected area is filled with a painful clangor of bells. Each creature in the area is dealt 1d4 sonic damage per caster level (maximum 10d4) and the target is deafened for 2d6 rounds. A successful Fortitude save negates the deafness and halves the sonic damage.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8e42ef688310895.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8e42ef688310895"
+  },
+  "license": "OGL 1.0a"
+}

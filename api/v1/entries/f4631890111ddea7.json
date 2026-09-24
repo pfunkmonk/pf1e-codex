@@ -1,0 +1,28 @@
+{
+  "id": "f4631890111ddea7",
+  "name": "Volatile Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [see text]; Level bloodrager 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nEffect bolt of chaotic energy\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nYou hurl a volatile bolt of energy that one moment sizzles and another crackles with electricity.You must succeed on a ranged touch attack with the bolt to deal damage to the target. The bolt deals 1d8 damage plus 1d6 per two caster levels (maximum 4d6). The damage dealt by the spell is random. Roll a d8 and consult the table below. To determine the damage dealt by the spell, you may choose the result of your d8 damage dice or the d8 rolled for this purpose.\n\nIf both results are the same, the bolt may be directed to a secondary target within range. If the ranged touch attack hits, they are dealt 1/2 the damage dealt to the initial target. The damage type of the second bolt is determined by a single d8 roll.\n\nIf the damage type is negative energy, it heals creatures normally healed by negative energy instead of damaging them. If the damage type is positive energy it does not heal creatures but it the damage is increased by 50% against creatures normally healed by negative energy.\n\nd8\tDamage Type\n1\tAcid\n2\tCold\n3\tElectricity\n4\tFire\n5\tForce\n6\tPositive Energy\n8\tSonic\n7\tNegative Energy\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f4631890111ddea7.json",
+    "web": "https://codex.pipsprojects.com/#/e/f4631890111ddea7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "0f2620c78f0b71f0",
+  "name": "Speak Ill",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 3,
+      "medium": 2,
+      "mesmerist": 3,
+      "occultist": 3,
+      "spiritualist": 3,
+      "focus curse": 3,
+      "voice": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [curse]; Level bard 3, medium 2, mesmerist 3, occultist 3, spiritualist 3, witch 3; Focus curse 3, voice 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V(see below)\n\nEFFECT\n\nRange auditory\nTarget one living creature or corpse\nDuration concentration, or instantaneous (see below)\nSaving Throw Will negates (see below); Spell Resistance no\n\nDESCRIPTION\n\nYou invoke negative energy to speak sickness into a creature’s soul. Speak ill has no spell manifestation. While it has a vocal component and you need to speak it clearly as normal, you may use everyday language and innocuous topics to do so. If you do, creatures not trained in Spellcraft cannot recognize a spell is being cast. This spell has two possible uses.\n\nOf the Living: A living target becomes increasingly ill. You must say at least one legible word each round you continue to concentrate. When you do, it must attempt a Will saving throw on the beginning of its turn. It becomes sickened for 1d4 minutes on the first failure, nauseated for 1d4 turns on the second, dazed for 1d4 turns on the third, and finally unconscious for 1d4 hours on the fourth.\nOf the Dead: A target corpse attempts a Will saving throw as if it was alive. It’s considered to take 10 on its Perception check to determine whether it is in range. A corpse buried with rites gets a +1 bonus to its saving throw; if it was buried with its preferred rites, the bonus increases to +2. On a failure, the corpse will rise within 1d4 days as an undead creature appropriate for the circumstances of its life and death. It isn’t under your control. A corpse that succeeds on its saving throw is immune to your uses of speak ill for the next 24 hours.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f2620c78f0b71f0.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f2620c78f0b71f0"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5eda1d20a8addd36",
+  "name": "White Lightning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "wizard": 5
+    },
+    "desc": [
+      "cold",
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [cold, electricity]; Level magus 6, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (a small piece of copper)\n\nEFFECT\n\nRange 60 ft.\n\nArea 60-ft. line\n\nDuration instantaneous\n\nSaving Throw Reflex half; Spell Resistance yes\n\nYou release a powerful stroke of frigid electrical energy that deals 1d6 points of damage per caster level (maximum 15d6) to each creature within its area. The stroke begins at your fingertips.\n\nHalf the damage is electrical damage, and the other half is cold damage. If the damage caused to an interposing barrier shatters or breaks through it, the stroke may continue beyond the barrier if the spell’s range permits; otherwise, it stops at the barrier just as any other spell effect does.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5eda1d20a8addd36.json",
+    "web": "https://codex.pipsprojects.com/#/e/5eda1d20a8addd36"
+  },
+  "license": "OGL 1.0a"
+}

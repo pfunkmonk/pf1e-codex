@@ -1,0 +1,17 @@
+{
+  "id": "037fad0889f69667",
+  "name": "Moon-Beast Master",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Mythos Monsters (PF1)",
+  "book": "Mythos Monsters (PF1)",
+  "facets": {
+    "bk": "Mythos Monsters (PF1)"
+  },
+  "body": "Moon-Beast Master\nCR 13\n\nXP 25,600\nCE Huge aberration (mythos)\nInit +8; Senses blindsight 90 ft.; Perception +23\nAura fear aura (60 ft., DC 24)\n\nDEFENSE\n\nAC 30, touch 13, flat-footed 25 (+4 Dex, +1 dodge, +17 natural, –2 size)\nhp 189 (14d8+126)\nFort +13; Ref +10; Will +17\nDefensive Abilities amorphous; DR 10/piercing or slashing; Immune cold, gaze attacks, illusions, poison; Resist electricity 30; SR 24\n\nOFFENSE\n\nSpeed 50 ft., climb 20 ft.; air walk\nMelee 2 claws +18 (1d8+10), 4 tentacles +14 (1d8+5)\nSpace 15 ft.; Reach 15 ft.\nSpecial Attacks rend (2 tentacles, 1d8+15 plus 1d6 Wisdom drain)\nSpell-Like Abilities (CL 11th):\n\nConstant—air walk\nAt will—detect thoughts (DC 21)\n3/day—charm monster (DC 22), dispel magic, dominate person (DC 24), dream, shadow conjuration (DC 23), shadow evocation (DC 24), suggestion (DC 22), veil (DC 25)\n1/day—confusion (DC 23), feeblemind (DC 24), major image (DC 22), modify memory (DC 23), mirage arcana (DC 24), plane shift (self only, can’t use)\n\nSTATISTICS\n\nStr 30, Dex 19, Con 28, Int 23, Wis 22, Cha 29\nBase Atk +10; CMB +22; CMD 38\nFeats Combat Casting, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Weapon Focus (tentacles)\nSkills Climb +18, Diplomacy +16, Intimidate +26, Knowledge (arcana) +13, Knowledge (planes) +20, Perception +23, Sense Motive +20, Spellcraft +23, Stealth +21, Use Magic Device +23; Racial Modifiers +8 Stealth\nLanguages Aklo (cannot speak); telepathy 300 ft.\nSQ compression, no breath\n\nSPECIAL ABILITIES\n\nFear Aura (Su)\n\nAll creatures within a 60-foot radius that see or hear a moon-beast master must succeed at a DC 26 Will save or be shaken for as long as they are within the aura. Whether or not the save is successful, that creature cannot be affected again by a moon-beast master ’s fear aura for 24 hours. This is a mind-affecting fear affect and the save is Charisma-based.\n\nNightmare Slave (Su)\n\nWhen a moon-beast master reduces a target to 0 Wisdom with its Wisdom drain then instead of gaining the effects of a heal spell (see below), the moon-beast may instead choose to enslave the target with a permanent dominate monster effect.\n\nThe enslaved creature is healed of all Wisdom drain taken from a moon-beast master ’s rend attacks.\n\nWisdom Drain (Su)\n\nA creature that takes rend damage from a moon-beast master must succeed at a DC 24 Will save or take 1d6 points of Wisdom drain. A moon-beast master heals 5 points of damage for each point of Wisdom it drains in this manner. If it drains a victim to 0 Wisdom, a moon-beast master gains the effects of a heal spell. The save DC is Constitution-based.\n\nABOUT\n\nEnvironment any land\nOrganization solitary or cult (1 moon-beast master plus 2-8 mooncalves)\nTreasure double\n\nThis creature has a pale, froglike appearance with clawed hands, no eyes, a wide mouth, and a snout ending in pink tentacles.\n\nMythos Monsters (PF1) © 2022, Legendary Games; Authors Jason Nelson, Jim Groves, Jonathan Keith, Tom Phillips, Alistair J. Rigg, and Greg A. Vaughan",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/037fad0889f69667.json",
+    "web": "https://codex.pipsprojects.com/#/e/037fad0889f69667"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "25a74a6c55a7b12a",
+  "name": "Emberhand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "desc": [
+      "fire",
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire, light]; Level druid 1, ranger 1, shaman 1, witch 1\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange touch\n\nTarget creature or creatures touched (up to one/level)\n\nDuration instantaneous\n\nSaving Throw none; Spell Resistance yes\n\nYour hand becomes surrounded in glowing motes and sparks or a color you choose. These motes illuminate like a candle, though it produces no heat and cannot ignite objects until the spell is discharged. Each touch channels fiery light that deals 1d8 points of fire damage +1 per level.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/25a74a6c55a7b12a.json",
+    "web": "https://codex.pipsprojects.com/#/e/25a74a6c55a7b12a"
+  },
+  "license": "OGL 1.0a"
+}

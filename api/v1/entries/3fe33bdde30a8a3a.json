@@ -1,0 +1,31 @@
+{
+  "id": "3fe33bdde30a8a3a",
+  "name": "Nova",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "shaman": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "light",
+      "force"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (evocation) [light, force] Level druid/shaman 5, cleric/oracle 5, inquisitor 5, magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration concentration\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou glow with a light of increasing intensity eventually becoming nearly unbearable to look at directly.\n\nYou may concentrate for up to four rounds, increasing the spell’s power each round. Concentrating on this spell is a standard action. At any point during your turn, you may release this spell’s energy as an immediate action, causing damage to all nearby creatures but not yourself.\n\nThe duration spent concentrating causes various effects as indicated below.\n\n1st round: You emit dim light in a 10-ft. radius.\n\nReleasing the energy this round deals 2d6 hp force damage to all creatures in a 10-ft. radius.\n\n2nd round: You emit normal light in a 15-ft. radius. Any creature looking directly at you is dazed for 1 round (Will negates); releasing the energy this round deals 4d6 hp force damage to all creatures in a 15-ft. radius.\n\n3rd round: You emit normal light in a 25-ft. radius.\n\nAny creature looking directly at the caster is dazzled for 1d4 rounds (Will negates). Releasing the energy this round deals 6d6 hp force damage to all creatures in a 25-ft. radius.\n\n4th round: You emit the equivalent of daylight in a 30-ft. radius. Any creature looking directly at you is blinded for 1d4 rounds (Will negates). The built-up energy must be released this round and deals 10d6 hp force damage to all creatures in a 30-ft. radius.\n\nIf you fail to release the energy (if you’re knocked unconscious or otherwise), you take a full 20d6 hp damage; creatures in the radius are unharmed.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3fe33bdde30a8a3a.json",
+    "web": "https://codex.pipsprojects.com/#/e/3fe33bdde30a8a3a"
+  },
+  "license": "OGL 1.0a"
+}

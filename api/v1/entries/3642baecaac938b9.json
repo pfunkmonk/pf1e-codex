@@ -1,0 +1,33 @@
+{
+  "id": "3642baecaac938b9",
+  "name": "Mask of Night",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 2,
+      "death mage": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "spiritualist": 2,
+      "witch": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (shadow) [shadow]; Level antipaladin 2, bard 2, death mage 2, mesmerist 2, psychic 2, sorcerer/wizard 2, spiritualist 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target is covered in a shadow that hides their full being. Their countenance is obscured, but their size remains identifiable. This does not provide them any protection from attacks, but they are not affected by light or sunlight if they are damaged by such or have weaknesses like sunlight powerlessness or light blindness. Additionally, they gain a resistance bonus on saving throws and deflection bonus to AC against spells or effects with the light descriptor or that are light-based equal to 1/2 your caster level.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3642baecaac938b9.json",
+    "web": "https://codex.pipsprojects.com/#/e/3642baecaac938b9"
+  },
+  "license": "OGL 1.0a"
+}

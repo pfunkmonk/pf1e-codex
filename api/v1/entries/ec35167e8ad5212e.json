@@ -1,0 +1,29 @@
+{
+  "id": "ec35167e8ad5212e",
+  "name": "Nova Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 6,
+      "inquisitor": 5,
+      "paladin": 4,
+      "magus": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level cleric/oracle 6, inquisitor 5, paladin 4, magus 5\n\nCASTING\n\nCasting Time immediate action\nComponents V\n\nEFFECT\n\nRange personal\nTarget a weapon you wield that just confirmed a critical hit\nDuration instantaneous\n\nDESCRIPTION\n\nYou channel a fragment of the energy of an exploding sun into your blow. This has the effect of dealing an additional 1d8 hp fire damage for every two caster levels.\n\nThis fire damage is not multiplied with the critical hit, but it stacks with any other fire damage dealt by the weapon, no matter if it is from another spell or a weapon special ability. Any creature reduced to 0 or fewer hp by the target weapon’s attack while channeling this energy is entirely disintegrated, leaving behind only a trace of ash, but these ashes can still be affected by spells such as raise dead. A disintegrated creature’s equipment is unaffected.\n\nIf this spell is channeled through the attack of a non-magical weapon, the weapon is automatically disintegrated as soon as the attack is resolved.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ec35167e8ad5212e.json",
+    "web": "https://codex.pipsprojects.com/#/e/ec35167e8ad5212e"
+  },
+  "license": "OGL 1.0a"
+}

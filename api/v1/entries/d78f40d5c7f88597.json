@@ -1,0 +1,26 @@
+{
+  "id": "d78f40d5c7f88597",
+  "name": "Flaming Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of sulfur)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one or more creatures, no two of which can be more than 15 ft. apart.\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create two flaming missiles, plus one for every 2 levels of experience past 1st. Thus, you have two bolts at 1st level, three bolts at 3rd, four bolts at 5th, etc.\n\nThis spell differs from the more common magic missile in that it provides more missiles, does fire damage, and has no upper limit on the number of bolts created. Each flaming bolt that hits its target does 1d4+1 points of damage.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d78f40d5c7f88597.json",
+    "web": "https://codex.pipsprojects.com/#/e/d78f40d5c7f88597"
+  },
+  "license": "OGL 1.0a"
+}

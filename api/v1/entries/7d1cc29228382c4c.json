@@ -1,0 +1,17 @@
+{
+  "id": "7d1cc29228382c4c",
+  "name": "Electrified Barbed-Wire Fence (CR 9)",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Electrified Barbed-Wire Fence\nCR 9\n\nXP 6,400\nType mechanical; Notice Perception DC 25; Disable Disable Device DC 35\n\nEFFECTS\n\nTrigger touch; Reset automatic (immediate); Bypass control panel in area C3 (Disable Device DC 30)\n\nEffect barbed wire (see below) plus electric shock (4d6 electricity damage each round of contact, Reflex DC 25 half); multiple targets (any target adjacent to fence when triggered)\n\nBarbed Wire Any creature moving through a square containing ordinary barbed wire takes 1d4 points of piercing damage for each 5 feet of movement through the area. In addition, each creature trying to move through barbed wire must succeed at a DC 20 Reflex save or gain the entangled condition. Entangled creatures can try to break free of the barbed wire as a full round action with a successful DC 20 Strength check or Escape Artist check. A creature trapped in barbed wire can opt to remain motionless in order to avoid taking any more damage. A creature can try to pick its way slowly through a field of barbed wire without taking damage or risking entanglement by attempting a Dexterity check as a full round action. For every 5 points by which the check exceeds 10, the creature can move 5 feet (up to its normal land speed).\n\nPathfinder Adventure Path #71: Rasputin Must Die! © 2013, Paizo Publishing, LLC; Author: Brandon Hodge.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d1cc29228382c4c.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d1cc29228382c4c"
+  },
+  "license": "OGL 1.0a"
+}

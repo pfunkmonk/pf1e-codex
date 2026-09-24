@@ -1,0 +1,26 @@
+{
+  "id": "dec544683b231ae2",
+  "name": "Flame Foe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level cleric/oracle 3, inquisitor 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a white dragon scale)\n\nEFFECT\n\nRange personal\n\nTarget you\n\nDuration 10 min./level\n\nYou gain spell resistance equal to 10 + your caster level against spells with the fire descriptor.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dec544683b231ae2.json",
+    "web": "https://codex.pipsprojects.com/#/e/dec544683b231ae2"
+  },
+  "license": "OGL 1.0a"
+}

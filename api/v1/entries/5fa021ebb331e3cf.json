@@ -1,0 +1,23 @@
+{
+  "id": "5fa021ebb331e3cf",
+  "name": "Fumble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small bit of solidified milk fat)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will partial and Reflex negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nA fumble spell causes the subject to become clumsy, taking a –4 penalty to Dexterity. Further, in any round the subject moves (including taking a 5-foot step), he must succeed on a Reflex save or fall prone. This save is repeated each time the subject attempts to move. The subject can move at one-half normal speed with a DC 10 Acrobatics check. Failure means it can’t move that round (and must make a Reflex save or fall), while failure by 5 or more means it falls.\n\nAn affected creature likewise has trouble holding on to weapons, shields, and so on. Any object the subject is holding when this spell takes effect is dropped. A Reflex save must be made each round that the creature attempts to pick an object up or use an object in its hands.\n\nA creature that succeeds on its initial Will saving throw resists the effects of this spell, but functions as if slowed (as the spell, no save) for 1 round/caster level.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5fa021ebb331e3cf.json",
+    "web": "https://codex.pipsprojects.com/#/e/5fa021ebb331e3cf"
+  },
+  "license": "OGL 1.0a"
+}

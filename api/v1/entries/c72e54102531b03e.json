@@ -1,0 +1,26 @@
+{
+  "id": "c72e54102531b03e",
+  "name": "Riyal’s Minor Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "magus": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level magus 2, sorcerer/wizard 2, summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange creature touched\nTarget one creature\nEffect green cloud surrounding creature\nDuration 1 minute/level (D)\nSaving Throw special, see text; Spell Resistance yes\n\nDESCRIPTION\n\nThe touched creature is surrounded by a green transparent cloud. The caster must specify a single creature type when casting this spell (see favored enemy for list of valid choices). All creatures of the type specified must make a Will save if they wish to make a melee attack against the protected creature. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell.\n\nBook of Magic: Spells 1, Copyright 2011, Jon Brazer Enterprises. Author: Dale C. McCoy, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c72e54102531b03e.json",
+    "web": "https://codex.pipsprojects.com/#/e/c72e54102531b03e"
+  },
+  "license": "OGL 1.0a"
+}

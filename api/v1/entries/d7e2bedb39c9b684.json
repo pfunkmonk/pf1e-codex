@@ -1,0 +1,17 @@
+{
+  "id": "d7e2bedb39c9b684",
+  "name": "Wall Flensing Trap (CR 4)",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Flensing Room\nCR 4\n\nXP 1,200\n\nSource: Pathfinder Adventure Path #37\n\nThis room contains a murderous trap, one that the residents would normally deactivate by pressing one of four hidden buttons. A DC 30 Perception check is required to notice one of these buttons. If one of these buttons isn’t pressed within 3 rounds of a Small or larger creature entering the room, sheets of strange red-streaked bronze slide down over the doorways with a clang. A creature standing adjacent to a door can jump through to one side or the other by making a DC 15 Reflex save. A creature in a doorway that fails this save is struck by a falling sheet of bronze, takes 3d6 points of damage, and is knocked prone and pinned by the metal. A pinned creature can escape with a DC 30 Escape Artist check, or a DC 25 Strength check to lift the metal sheet. Once these barricades are in place, they function as metal walls (hardness 10, hp 90, Break DC 30) that quite effectively seal off this chamber from the outside. One round after the bronze walls crash down, the actual trap activates. A pendulum tipped with a razor sharp axe blade swings down from one of the grooves and ridges in the ceiling, scything across the entire room and attacking a random character before retracting up into the stone above. This continues for 3 rounds, after which the pendulums and the bronze plates retract back up into the ceiling, automatically resetting. If a bypass button isn’t depressed within 3 rounds, the trap activates again as long as a creature of Small or larger size is in the room. The trap itself, while composed of mechanical parts, is in fact kept in good repair and powered by ancient magic, so someone who scans the room with detect magic sees moderate transmutation magic on the ceilings. Doing so also allows an automatic Perception check to see small auras of transmutation magic glowing on the pillars where the bypass buttons are located and grants a +10 circumstance bonus to the Perception check to see them as well.\n\nType mechanical; Perception DC 20; Disable Device DC 25; Bypass hidden switch (Perception DC30)\n\nEFFECTS\n\nTrigger proximity (alarm); Onset Delay 4 rounds; Duration 3 rounds; Reset automatic (4 rounds)\n\nEffect Atk +5 melee (ld6+4/x3); multiple targets (one random target in room each round)\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Paizo, Inc. (Pathfinder Roleplaying Game Reference Document).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7e2bedb39c9b684.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7e2bedb39c9b684"
+  },
+  "license": "OGL 1.0a"
+}

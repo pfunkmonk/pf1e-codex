@@ -1,0 +1,23 @@
+{
+  "id": "9503f6622bcee912",
+  "name": "Scrivener Glyph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "no (see text)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one or more written works within 5 ft. of each other\nDuration instantaneous\nSaving Throw Reflex negates (object); Spell Resistance no (see text)\n\nDESCRIPTION\n\nYou trace a wildly animated glyph in the air and make a ranged touch attack to strike your target. If the attack misses, use the misdirected thrown splash weapon rules to determine where the glyph lands.\n\nOn a successful attack, the glyph attaches itself to a randomly determined written work on the target (or the nearest target to where the glyph lands) and replaces every word with non-magical copies of itself in one full round. If another unaffected written work is within 5 ft. of its first target, the glyph jumps to that work to begin anew.\n\nIf no unaffected work remains within range, or any target successfully saves, the spell ends. The glyph only affects mundane works or magic items with a maximum caster level of 4th. The maximum caster level affected increases to 8th when you cast this spell at caster level 9th, to 12th at caster level 13th, and to 16th at caster level 17th. For the purposes of this spell, a spellbook is considered to have a caster level equal to the minimum caster level necessary to cast the highest-level spell in it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9503f6622bcee912.json",
+    "web": "https://codex.pipsprojects.com/#/e/9503f6622bcee912"
+  },
+  "license": "OGL 1.0a"
+}

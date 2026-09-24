@@ -1,0 +1,24 @@
+{
+  "id": "b0157363c304672a",
+  "name": "Muscle Spasm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 0,
+      "druid": 0
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation; Level cleric/oracle 0, druid 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the target’s muscles to twitch and cramp for 1 round. If the target fails their Reflex save, they drop any held items; if they make their save, they manage to hold on to everything, but still suffer the muscle spasms.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0157363c304672a.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0157363c304672a"
+  },
+  "license": "OGL 1.0a"
+}

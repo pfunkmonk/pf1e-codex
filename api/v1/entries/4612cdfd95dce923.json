@@ -1,0 +1,27 @@
+{
+  "id": "4612cdfd95dce923",
+  "name": "Fiery Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "fire",
+      "force"
+    ],
+    "save": "special",
+    "sr": "(see text)",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration [fire, force]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\nSaving Throw (see text); Spell Resistance (see text)\n\nDESCRIPTION\n\nYou cause a large shield composed of brilliant flames and invisible magical force to come into existence on your arm. The shield acts in all ways like a large shield, except that it is weightless and causes no armor check penalties. The shield gives a base +1 bonus to AC against melee attacks and a +2 bonus to AC against missile attacks.\n\nFor every 2 levels of the caster, the shield grants an additional +1 AC, to a maximum of +7 against melee and +8 missile attacks. The armor bonus of fiery shield stacks with the armor bonus granted by mage armor.\n\nSince the fiery shield is partially made of force, incorporeal creatures cannot bypass it as they can normal armor. Additionally, any creature that strikes a holder of a fiery shield with a natural weapon (claws, fangs, etc.) suffers 1d6 points of flame damage per strike. A successful Reflex saving throw negates the damage.\n\nThe somatic component of fiery shield requires only one hand, enabling the caster to perform it while brandishing a weapon in his other hand.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4612cdfd95dce923.json",
+    "web": "https://codex.pipsprojects.com/#/e/4612cdfd95dce923"
+  },
+  "license": "OGL 1.0a"
+}

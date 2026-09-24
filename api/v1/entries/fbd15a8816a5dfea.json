@@ -1,0 +1,23 @@
+{
+  "id": "fbd15a8816a5dfea",
+  "name": "Song of The Dead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level bard 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 60 feet\nArea 60-ft. radius emanation\nDuration concentration + 2 rounds\nSaving Throw Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou begin a mystical necromantic song that causes all undead to freeze in their place and listen. Roll 2d4 and add your caster level (maximum 10) to determine the total number of HD of undead affected. Creatures closest to you and with the fewest HD are affected first. HD that are no sufficient to affect a creature are wasted. Mindless undead do not get a saving throw to resist the effects, but intelligent undead do. All affected undead become fascinated by the song intoned. This spell affects incorporeal undead, but those incapable of hearing the son are not affected. If the target is attacked, they get a saving throw to resist the spell’s effects, with the exception of mindless undead.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fbd15a8816a5dfea.json",
+    "web": "https://codex.pipsprojects.com/#/e/fbd15a8816a5dfea"
+  },
+  "license": "OGL 1.0a"
+}

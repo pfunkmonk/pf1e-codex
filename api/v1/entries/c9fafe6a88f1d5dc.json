@@ -1,0 +1,37 @@
+{
+  "id": "c9fafe6a88f1d5dc",
+  "name": "Draw Seal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "summoner": 1,
+      "witch": 1
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation [pact]; Level antipaladin 1, bard 1, bloodrager 1, cleric 1, druid 1, inquisitor 1, paladin 1, ranger 1, shaman 1, sorcerer/wizard 1, summoner 1, witch 1\n\nCASTING\n\nCasting Time 1 full-round action\nComponents V, S, M (a drawing of the seal to be created with this spell and a stick of chalk)\n\nEFFECT\n\nRange personal; see text\n\nEffect Creates a 5-ft. seal suitable for binding a spirit\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou magically draw a perfect replica of a spirit’s seal out of chalk. The seal appears in the 5 foot square that you are currently standing on or in; if the seal could not normally be drawn in this square for any reason, the spell is wasted. Once the seal has been created, it can be used to summon its associated spirit normally. As with any seal, after the pact has finished this seal disappears.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c9fafe6a88f1d5dc.json",
+    "web": "https://codex.pipsprojects.com/#/e/c9fafe6a88f1d5dc"
+  },
+  "license": "OGL 1.0a"
+}

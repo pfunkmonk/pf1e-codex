@@ -1,0 +1,26 @@
+{
+  "id": "52a12ac54f5fe93c",
+  "name": "Biting Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [cold]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a whistle made of walrus or bear bone)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nEffect animated breeze\nDuration 1 minute/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates an animate wind of freezing cold air that moves and attacks a single target as directed by the caster. The breeze must make a touch attack using the caster’s ranged attack bonus, dealing 1d6 points of non-lethal damage. The wind is invisible, and gains all the bonuses of an invisible attacker (though it cannot be used to deliver sneak attacks). The wind strikes as a spell rather than a weapon (and thus can hit incorporeal creatures for 50% damage) and always strikes from the direction of the caster. It attacks its designated target once each round unless directed to a new target by the caster (which requires a standard action).\n\nCreatures that take damage from the wind must make a Fortitude save. On a failed save the target is shaken and suffers a –2 penalty to all attack and damage rolls and skill check for 1 round/caster level.\n\nThe Genius Guide To: Ice Magic The Genius Guide To: Ice Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens Adventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/52a12ac54f5fe93c.json",
+    "web": "https://codex.pipsprojects.com/#/e/52a12ac54f5fe93c"
+  },
+  "license": "OGL 1.0a"
+}

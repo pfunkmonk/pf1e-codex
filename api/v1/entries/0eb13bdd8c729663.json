@@ -1,0 +1,33 @@
+{
+  "id": "0eb13bdd8c729663",
+  "name": "Spiritual Agony",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 4,
+      "oracle": 4,
+      "inquisitor": 4,
+      "lathspell": 3,
+      "occultist": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [pain]; Level adept 4, cleric/oracle 4, inquisitor 4, lathspell 3, occultist 4, shaman 4, sorcerer/wizard 4, witch 4\n\nDESCRIPTION\n\nThis spell functions as lesser spiritual agony except the damage is increased to 1d6 nonlethal per caster level (maximum 15d6) and the target is nauseated for 1d6 rounds, then sickened for 1 minute thereafter. A successful save halves the damage and reduces the effect to sickened for 1 minute.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0eb13bdd8c729663.json",
+    "web": "https://codex.pipsprojects.com/#/e/0eb13bdd8c729663"
+  },
+  "license": "OGL 1.0a"
+}

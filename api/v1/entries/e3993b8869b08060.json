@@ -1,0 +1,24 @@
+{
+  "id": "e3993b8869b08060",
+  "name": "Vigilant Fist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "paladin": 4
+    },
+    "save": "None",
+    "sr": "special",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level cleric/oracle 5, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of your blood)\n\nEFFECT\n\nRange long (400 ft. + 40 ft/level)\nArea An area up to 10 cubic ft./level\nDuration 1 hr./level\nSaving Throw none; Spell Resistance special\n\nDESCRIPTION\n\nYou create an invisible, immobile, warded area. If anything moving intrudes into this area, the vigilant fist activates. The area can include existing elements that move, such as hanging curtains or lamps, and their movements won’t trigger the magic, but if anything new enters the area, the spell awakens.\n\nThe air of the warded area solidifies into an invisible fist that strikes the intruder with a single blow. It receives a +9 bonus to hit (spell resistance reduces this to no attack bonus), and it deals bludgeoning damage of 4d4+1 hp per caster level. At the same time, the air gives you a solid but harmless rap on the knuckles or shoulder to awaken or alert you to the intrusion. If there are multiple intruders, the foremost will be attacked; if multiple intruders attack in a line and none is foremost, the largest is struck (if they are the same size, a random intruder will be struck).\n\nA vigilant fist is usually cast in an entrance, across a passage, behind the caster, or to guard a back way while the caster personally guards the front. The caster of vigilant fist can’t be taken unawares when sleeping.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e3993b8869b08060.json",
+    "web": "https://codex.pipsprojects.com/#/e/e3993b8869b08060"
+  },
+  "license": "OGL 1.0a"
+}

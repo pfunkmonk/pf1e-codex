@@ -1,0 +1,27 @@
+{
+  "id": "1e1ff8da2d0f973c",
+  "name": "Black Hole",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [darkness]; Level psychic 8, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 40-foot-radius sphere\nDuration concentration, up to 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a dark void rift from the dark tapestry in a 40-foot radius sphere. The area is supernaturally dark as if by the deeper darkness spell and no sound can be heard within as per the silence spell. Movement through the radius of the sphere is difficult terrain.\n\nAny creature that enters the area or begins their turn within the sphere must make a Fortitude save or take 8d6 force damage and be moved 5 feet toward the center of the sphere. A successful save halves this damage and prevents the movement. If the creature is unable to move toward the center due to an obstruction or the spaces already being occupied, the creature doe not move. A creature at the center of the sphere takes 8d10 force damage instead of 8d6. A creature reduced to 0 hit points by this spell is disintegrated into a fine gray dust.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e1ff8da2d0f973c.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e1ff8da2d0f973c"
+  },
+  "license": "OGL 1.0a"
+}

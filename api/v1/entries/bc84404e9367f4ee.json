@@ -1,0 +1,28 @@
+{
+  "id": "bc84404e9367f4ee",
+  "name": "Spellsword",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3,
+      "skald": 4,
+      "bloodrager": 4,
+      "magus": 3,
+      "occultist": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object) When you cast this spell on a weapon, you cause an extradimensional space to open within it. As part of the casting, you can insert a single magic rod or magic staff into the weapon’s extradimensional space, after which the space closes. For the spell’s duration, a character wielding the transmuted weapon is also considered to be wielding the rod or staff.",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Spellsword\n\nSchool transmutation; Level arcanist/sorcerer/wizard 3, bard/skald 4, bloodrager 4, magus 3, occultist 4, witch 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (a magic rod or staff)\n\nEFFECT\n\nRange touch\nEffect one melee weapon sized appropriately for you\nDuration 10 minutes/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object) When you cast this spell on a weapon, you cause an extradimensional space to open within it. As part of the casting, you can insert a single magic rod or magic staff into the weapon’s extradimensional space, after which the space closes. For the spell’s duration, a character wielding the transmuted weapon is also considered to be wielding the rod or staff.\n\nIf the rod or staff can be used to make attacks, you can attack normally with the weapon or use the weapon as if it were the merged rod or staff.\n\nIf the effect created by the rod or staff requires an attack roll to successfully strike a foe, you can make the attack roll as if you were making an attack with the weapon at its highest bonus (including any bonuses the weapon would normally receive) rather than just a normal attack with the rod or staff’doing so does not allow you to add the weapon’s damage to the attack, but instead allows you to use your skill with the weapon to boost your chance of hitting with the rod or staff’s attack, spell, or effect.\n\nAt the end of the spell’s duration, the merged rod or staff is ejected from the weapon. If you have a free hand, you can catch the rod or staff as a free action; otherwise, it drops to the ground.\n\nIf the merged weapon is broken or destroyed during the duration of spellsword, the merged rod or staff is similarly broken or destroyed.\n\nBook of Magic: Spell Codex Volume 1. (c) 2022, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc84404e9367f4ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc84404e9367f4ee"
+  },
+  "license": "OGL 1.0a"
+}

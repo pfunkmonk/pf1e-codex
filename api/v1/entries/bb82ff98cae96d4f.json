@@ -1,0 +1,29 @@
+{
+  "id": "bb82ff98cae96d4f",
+  "name": "Shallan’s Wall Of Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 1,
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School illusion (shadow) [shadow]; Level bard 1, magus 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a black stone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect wall whose area is up to one 10-ft. square/level\nDuration 1 round /level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nAn immobile thin curtain of shadows appears. All creatures and objects being viewed through this 10 ft. high wall are granted concealment (20% miss chance) from attacks. All creatures and objects can pass through the wall unhindered. Magical light sources (such as a light spell) suppress the part of the wall’s effect that is within the area that provides normal light. These spells do not, however, counter this spell; the wall of shadows returns if the light source moves way. Mundane light sources (like the sun) do not suppress this effect.\n\nShallan’s Wall Of Shadows, Greater\n\nSchool illusion (shadow) [shadow]; Level bard 3, magus 3, sorcerer/wizard 3, witch 3\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect wall whose area is up to one 20-ft. square/level\nDuration 1 minute /level (D)\n\nDESCRIPTION\n\nThis spell functions like the wall of shadows spell except the wall grants total concealment (50% miss chance) and the wall is 30 ft. high. Magical light sources of 2nd-level or lower do not suppress this effect.\n\nBook of Magic: Signature Spells 1, Copyright 2011, Jon Brazer Enterprises. Author: Dale C. McCoy, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb82ff98cae96d4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb82ff98cae96d4f"
+  },
+  "license": "OGL 1.0a"
+}

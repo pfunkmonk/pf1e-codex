@@ -1,0 +1,30 @@
+{
+  "id": "db1e7bbe088115f7",
+  "name": "Summon Heroic Spirits",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodlord": 9,
+      "oracle": 9,
+      "shaman": 9,
+      "wizard": 9,
+      "witch": 9
+    },
+    "desc": [
+      "lawful"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (summoning) [lawful]; see text; Level bloodlord 9, cleric/oracle 9, shaman 9, sorcerer/wizard 9, witch 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (a pouch filled with the ashes of past heroes; costs 50 gp/HD of the summoned creature), DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one summoned creature (or more; see text)\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nDual School Spells: While extremely rare (and heavily restricted in most such cases), some spells are considered dual-school, meaning that they possess magical energies stemming from two separate schools of magic. For all intended purposes, other than described here, a dual-school spell always counts as being both schools of magic. If you are unable, for any reason, to access any of the two schools of that spell, that spell remains inaccessible to you. A dual-school spell can only benefit once from any effect that would normally apply to either, or both, schools, such as Spell Focus or a metamagic feat. If applying a metamagic feat (or similar effect) to a dualschool spell, both of its schools must be eligible for applying the metamagic feat to be successful.\n\nThis spell functions like summon monster IX, except it allows you to summon a single manu; its creature bond is always the same as your ancestry), an amarok with the resolute template, or 1d3 couatls.\n\nIf you are attempting to summon the couatls, you must have a focus (as described above) on hand for each of the three coualts, even if you only summoned one or two couatls.\n\nIf you cast this spell to summon a manu, it is also a spell with the good descriptor.\n\nPrayer - Gods of Balance and Heroes, © 2025, Orphaned Bookworm Productions, LLC, Author: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db1e7bbe088115f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/db1e7bbe088115f7"
+  },
+  "license": "OGL 1.0a"
+}

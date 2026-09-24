@@ -1,0 +1,29 @@
+{
+  "id": "b6a354a2b5078a4b",
+  "name": "Flash of Spikes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 3,
+      "wizard": 3,
+      "summoner": 3,
+      "vanguard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level magus 3, sorcerer/wizard 3, summoner 3, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 5 ft.\nArea 5-ft.-radius burst, centered on you\nDuration instantaneous\nSaving Throw Reflex half (object); Spell Resistance no\n\nDESCRIPTION\n\nA vicious but practical spell, flash of spikes causes numerous sharpened spikes of metal to immediately protrude from your body, harming creatures directly next to you and destroying bindings. A creature or object caught in the area takes 1d6 piercing damage per caster level (max 10d6); a creature struck begins bleeding from the impaling strike, taking 1d6 bleeding damage each round. A Reflex save halves the damage and negates the bleeding effect. The damage counts as magic and silver at 5th level. It also counts as cold iron at 10th level, and adamantine at 15th level.\n\nYou gain a +4 bonus on concentration checks to cast this spell while grappled or pinned. In addition, a creature that is grappling you takes a -2 penalty on its Reflex save, and if it fails its saving throw it takes a penalty to its CMB to maintain its hold on you during the next round equal to half your caster level (max -10).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6a354a2b5078a4b.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6a354a2b5078a4b"
+  },
+  "license": "OGL 1.0a"
+}

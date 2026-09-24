@@ -1,0 +1,31 @@
+{
+  "id": "455680fa5b6ecdbc",
+  "name": "Castellan’s Call",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "paladin": 2
+    },
+    "desc": [
+      "sonic",
+      "stronghold*"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [sonic, stronghold*]; Level bard 2, cleric 2, inquisitor 2, mesmerist 2, paladin 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nYou empower the target with tremendous vocal prowess, enabling its voice to be clearly heard everywhere in your stronghold. It does not penetrate areas of magical silence or allow deafened creatures to hear the target’s voice, nor does it overcome language barriers.\n\nIf the target has a bardic performance ability that requires audible components and no limit on range or number of targets, such as inspire courage, all creatures within the stronghold can benefit from that performance. Bardic performance abilities that require audible components and have a limited range, such as inspire competence, dirge of doom, or inspire greatness, have their range increased by 5 feet per 2 caster levels (maximum of 30 feet at 12th level).\n\nCastellan’s call can be used to counter or dispel a silence spell, even if you are not within your stronghold.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/455680fa5b6ecdbc.json",
+    "web": "https://codex.pipsprojects.com/#/e/455680fa5b6ecdbc"
+  },
+  "license": "OGL 1.0a"
+}

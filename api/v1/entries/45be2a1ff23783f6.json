@@ -1,0 +1,32 @@
+{
+  "id": "45be2a1ff23783f6",
+  "name": "Enhance Emotions",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "shaman": 2
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting]; Level bard 2, cleric/oracle 2, inquisitor 2, mesmerist 2, psychic 2, shaman 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets creatures in a 20-ft.-radius spread\nDuration concentration, up to 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell exacerbates any emotions the targets may be feeling. Any creature caught in the area may make a Will save to negate the effects. However, any creature may choose to forgo the Will save. An affected creature has any bonus (usually morale) or penalty created by an emotion or fear effect doubled while under the effects of this spell. This includes effects that affect the creature after they are subject to this spell.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45be2a1ff23783f6.json",
+    "web": "https://codex.pipsprojects.com/#/e/45be2a1ff23783f6"
+  },
+  "license": "OGL 1.0a"
+}

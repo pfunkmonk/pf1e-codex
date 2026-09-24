@@ -1,0 +1,28 @@
+{
+  "id": "5a8c50154aa323ba",
+  "name": "Acid Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 5,
+      "summoner": 5,
+      "unchained summoner": 5
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [acid]; Level sorcerer/wizard 5, summoner 5, unchained summoner 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a flask of acid)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft. radius cylinder, 40 ft. high, which must connect to the ground\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nCaustic rain pours down in the area for 1 round. All creatures beginning their turn in or entering the area take 6d6 acid damage, no save. For 1 round per caster level, the ground is muddy or slick causing it to be difficult terrain. Any creature that moves more than 10 feet in the difficult terrain takes 1d4 acid damage.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a8c50154aa323ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a8c50154aa323ba"
+  },
+  "license": "OGL 1.0a"
+}

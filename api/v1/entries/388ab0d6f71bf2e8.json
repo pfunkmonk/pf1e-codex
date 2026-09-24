@@ -1,0 +1,29 @@
+{
+  "id": "388ab0d6f71bf2e8",
+  "name": "Armor of Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 4,
+      "white necromancer": 4,
+      "witch": 4
+    },
+    "desc": [
+      "good",
+      "light"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [good, light]; Level sorcerer/wizard 4, white necromancer 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target is covered in an armor of pure light. The target gains a +4 deflection bonus to their AC. This AC bonus increases by +1 for every three levels above 7th, to a maximum of +8 at 19th level. This armor sheds light like a torch. The target also gains an additional +2 bonus to AC and to their saves against darkness, evil, and shadow effects. If the target is living, they also gain a +4 bonus on saves vs. channel negative energy, touch of corruption, or similar abilities.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/388ab0d6f71bf2e8.json",
+    "web": "https://codex.pipsprojects.com/#/e/388ab0d6f71bf2e8"
+  },
+  "license": "OGL 1.0a"
+}

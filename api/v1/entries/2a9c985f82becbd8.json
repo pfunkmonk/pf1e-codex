@@ -1,0 +1,27 @@
+{
+  "id": "2a9c985f82becbd8",
+  "name": "Flame of Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature per round\nDuration 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a ball of flame that attempts to attack a random target anywhere within range each round. The caster must succeed on a DC 12 Will save each round. If he succeeds, then he may select any target within range; if he fails, then the fire attacks a random target. The caster is never targeted by the spell, but his allies may be. The ball inflicts 4d4 points of fire damage on a successful hit; a Reflex save halves the damage.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a9c985f82becbd8.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a9c985f82becbd8"
+  },
+  "license": "OGL 1.0a"
+}

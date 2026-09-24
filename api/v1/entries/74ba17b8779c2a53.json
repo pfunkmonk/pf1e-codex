@@ -1,0 +1,26 @@
+{
+  "id": "74ba17b8779c2a53",
+  "name": "Offering to the Wild",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 4,
+      "ranger": 3,
+      "shaman": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level druid 4, ranger 3, shaman 4, witch 4\n\nCAST\n\nCasting Time 10 minutes\nComponents V, S, M (a sacrificial animal or other suitable sacrifice)\n\nEFFECT\n\nRange touc.\n\nTargets 1 willing touched creature/caster level\nDuration 1 day/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou complete the sacrifice and anoint each creature to be protected with some part of the sacrifice, typically blood or ash, leaving the rest to the spirits of nature.\n\nFor the duration the protected creatures gain a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival skill checks while in the terrain that the spell was cast in.\n\nThe terrain is determined similarly to a ranger’s favored terrain and stacks with the effects of that ability.\n\nAdditionally, any animal or magical beast native to the affected wilds begins with a neutral disposition and will not run from nor attack a protected creature, unless attacked first or impelled by some outside means. This spell cannot be used on urban terrain.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74ba17b8779c2a53.json",
+    "web": "https://codex.pipsprojects.com/#/e/74ba17b8779c2a53"
+  },
+  "license": "OGL 1.0a"
+}

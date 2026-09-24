@@ -1,0 +1,29 @@
+{
+  "id": "c8caa25aee23b9b1",
+  "name": "Doom Of Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 2,
+      "inquisitor": 2,
+      "witch": 1
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil]; Level antipaladin 1, bard 2, inquisitor 2, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF (unholy symbol)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature with 5 or fewer HD\nDuration 1 round/2 caster levels; see text\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nOn speaking the last unholy word of the doom of blood, you begin to bleed from eyes, mouth, and nose and takes 1 hp bleed damage for the duration of the spell. Creatures within the spell’s radius of 15 ft. also bleed, taking 2 hp bleed damage as long as the spell lasts. A successful saving throw reduces this to 1 hp bleed damage.\n\nFor each round that creatures spend in the spell’s area of effect, the bleed increases by 1 hp (for both you and those around you). Creatures leaving the area of effect lock in the bleed damage at whatever rate was current when they left; returning to the area increases the bleed again by an additional 1 hp per round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c8caa25aee23b9b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/c8caa25aee23b9b1"
+  },
+  "license": "OGL 1.0a"
+}

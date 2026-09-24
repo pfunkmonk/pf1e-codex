@@ -1,0 +1,24 @@
+{
+  "id": "259bc401589a454a",
+  "name": "Greater To Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation (polymorph); Level sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (dragon eggshell)\n\nEFFECT\n\nRange close (30 ft. + 10 ft./level)\nTarget one dragon (14 HD or less)\nDuration permanent\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nA dragon targeted by this spell becomes a lesser dragon determined by the caster of no more than 1/3 its current HD. The creature retains its Intelligence, Wisdom, and Charisma scores, as well as all of its extraordinary and supernatural abilities, which are subject to the new form’s HD and physical stats.\n\nBreath weapons are limited to half its new HD (minimum of 1 die of damage). Additionally, it loses any spell-like abilities available to adult or older dragons, and its spell casting is limited to 0- and 1st-level spells.\n\nA creature under the effect of a form of the dragon spell that fails the save changes to a drake of the related drake form spell (for example, a creature benefiting from form of the dragon II becomes a drake as per drake form II).\n\nIf you use the eggshell the spell’s target hatched from as a material component, the creature suffers -8 to its saving throw.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/259bc401589a454a.json",
+    "web": "https://codex.pipsprojects.com/#/e/259bc401589a454a"
+  },
+  "license": "OGL 1.0a"
+}

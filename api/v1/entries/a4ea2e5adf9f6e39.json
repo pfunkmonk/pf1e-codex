@@ -1,0 +1,29 @@
+{
+  "id": "a4ea2e5adf9f6e39",
+  "name": "Lightning Rod",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [electricity]; Level cleric/oracle 5, druid/shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a steel needle)\n\nEFFECT\n\nRange personal\nArea 30-ft-radius emanation centered on you\nDuration one round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou become a living lightning rod. You are immune to electricity as if you were the recipient of protection from energy (with which this spell does not stack or overlap).\n\nYou can absorb 12 hp electricity damage per caster level (maximum 180 hp at 15th level).\n\nAdditionally, all magical electricity ranged attacks (such as lightning bolt, chain lightning, or dragons‘ electrical breath weapons) that originate within or pass through the area of effect are drawn to you, as if you had been the target. If you are outside the range of the attack, the attack is still drawn toward you, but it does not reach you. Any other creatures between you and the source of the attack are targeted or affected as normal by the attack.\n\nWhile this spell lasts, you do not get a Reflex save against any electricity attacks, nor do you benefit from evasion or improved evasion against these attacks. Lightning rod overlaps (but does not stack with) resist energy.\n\nIf the spell absorbs the full amount of electrical damage (according to your caster level), it is discharged, you take any remaining damage from that attack, and the area effect ends. If the spell is dismissed, all its effects end.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4ea2e5adf9f6e39.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4ea2e5adf9f6e39"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "65321ae6aa109c08",
+  "name": "Gale Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 0,
+      "magus": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [air]; Level druid/shaman 0, magus 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange self\nArea 5-foot burst centered on you\nDuration Instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou focus and release a burst of air, shunting your enemies away from you. Each creature within 5 feet of you takes 1d3 non-magical bludgeoning damage and is pushed directly away from you 5 feet. Any creature that is a size category larger than you is unaffected. A successful Fortitude save reduces the bludgeoning damage to 1 and the creature is not pushed back. If the pushing back would put the creature in immense danger, like shunting them off a cliff, they gain a + 5 bonus on the save.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65321ae6aa109c08.json",
+    "web": "https://codex.pipsprojects.com/#/e/65321ae6aa109c08"
+  },
+  "license": "OGL 1.0a"
+}

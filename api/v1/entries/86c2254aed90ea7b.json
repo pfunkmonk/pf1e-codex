@@ -1,0 +1,26 @@
+{
+  "id": "86c2254aed90ea7b",
+  "name": "Cleansing Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 0,
+      "shaman": 0,
+      "inquisitor": 1,
+      "witch": 0
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level cleric/oracle 0, druid/shaman 0, inquisitor 1, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou direct a ray of negative energy that is harmful to simple organisms. You must make a ranged touch attack to hit, and if the ray hits an ooze or plant creature, it deals 1d6 hp damage. You may instead target a square (AC 5), destroying a 5-ft. patch of non-creature fungus, mold, or slime and disinfecting unattended, non- magical objects in the square. Objects tainted with magical or unusual diseases, parasites, or infestations are unaffected by this spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86c2254aed90ea7b.json",
+    "web": "https://codex.pipsprojects.com/#/e/86c2254aed90ea7b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "e2bf48b595ec655e",
+  "name": "Death Spores",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 5
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation); Level druid 5\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nEffect cone extending out from the caster\nDuration 1 hour/level\nSaving Throw Fort negates; Spell Resistance no\n\nDESCRIPTION\n\nYou exhale a cloud of fungal spores.\n\nIn 1d6 hours after a failed saving throw, the host experiences an itching, burning sensation and loses 1 temporary point of Strength and Constitution per hour. Purplish-black fungus oozes from the victim’s eyes and nose, and his skin takes on a sickly pallor. Anyone who touches the host must succeed on a DC 15 Fortitude save or also become infected. While infected, the host emits a foul odor that attracts predators and causes them to attack him immediately with a +1 bonus to their attack rolls and damage.\n\nA cure disease spell ends the infestation if the victim has lost less than half his Constitution. After the host loses more than half, however, the cure disease does not work unless it is cast immediately after a regeneration spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2bf48b595ec655e.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2bf48b595ec655e"
+  },
+  "license": "OGL 1.0a"
+}

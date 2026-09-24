@@ -1,0 +1,32 @@
+{
+  "id": "4e364cb3f85bf500",
+  "name": "Awful Apparition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "legendary ninja": 2,
+      "occultist": 2,
+      "witch": 2
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School illusion (glamer) [fear, mind-affecting]; Level antipaladin 2, bard 2, inquisitor 2, legendary ninja 2, occultist 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou shroud the target’s face with a horrible and terrifying mask of monstrous mien, with coloration and features as described by you (though you cannot duplicate the appearance of any specific creature), causing its own allies to react with fear and revulsion. The target is unaware of the illusion, and you and your allies perceive the illusory nature of the target’s appearance and are not disturbed suffer no ill effects, but any other creature within 10 feet of the target must succeed on a Will save or become shaken as long as they have line of sight to the awful apparition and for 1 round thereafter. This fear effect ends immediately when the spell ends.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e364cb3f85bf500.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e364cb3f85bf500"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "e97147db141ed946",
+  "name": "Control Snow And Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 4,
+      "druid": 4,
+      "shaman": 4,
+      "wizard": 6
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [cold, water]; Level cleric/oracle 4, druid 4, shaman 4, sorcerer/wizard 6\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (some salt for lower snow and ice or a drop of water for raise snow and ice)\n\nRange long (400 ft. + 40 ft./level)\n\nArea ice and/or snow in a volume of 10 ft./level by 10 ft./level by 2 ft./level (S)\n\nDuration 10 min./level (D)\n\nSaving Throw none; see text; Spell Resistance no\n\nThis spell has two different applications, both of which control snow and ice in different ways. The first version of this spell causes snow and ice in the area to swiftly melt or compact, lowering the snow and ice’s depth.\n\nThe second version causes the snow and ice to grow and expand, increasing its overall depth and possibly cascading into nearby areas.\n\nLower Snow and Ice: This causes the snow and/or ice to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The snow and ice is lowered within a squarish depression whose sides are up to caster level x 10 feet long. In extremely large and deep snow or ice fields, such as a glacier, the spell creates a crevasse that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on ice elementals and other iceor snow-based creatures, this spell acts as a slow spell (Will negates). The spell has no effect on other creatures.\nRaise Snow and Ice: This causes snow and ice to rise in height, just as the lower snow and ice version causes it to lower. Creatures in the center of the area are raised up with the ice or snow, but creatures on the edges slide down the sides of the hump that the spell creates.\n\nWith either version of this spell, you may reduce one horizontal dimension (length or width) by half and double the other horizontal dimension to change the overall area of effect.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e97147db141ed946.json",
+    "web": "https://codex.pipsprojects.com/#/e/e97147db141ed946"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1a90aff9d85bb1e6",
+  "name": "Hide from Enemies",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 3,
+      "legendary ninja": 3,
+      "mesmerist": 3,
+      "paladin": 3,
+      "psychic": 3,
+      "shaman": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration; Level cleric 3, legendary ninja 3, mesmerist 3, paladin 3, psychic 3, shaman 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis functions as hide from undead, but the target is undetectable to creatures who may have hostile intentions toward it. Creatures with Intelligence of 2 or less can perceive the target normally, as their motivations are based on instinct and survival rather than actual hostility.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a90aff9d85bb1e6.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a90aff9d85bb1e6"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "87136e900fabfd97",
+  "name": "Demon Flesh, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration [evil]; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/M (small amount of flesh of a demon)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe creature touched gains damage reduction 5/cold iron and good for the duration of the spell. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/87136e900fabfd97.json",
+    "web": "https://codex.pipsprojects.com/#/e/87136e900fabfd97"
+  },
+  "license": "OGL 1.0a"
+}

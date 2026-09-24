@@ -1,0 +1,24 @@
+{
+  "id": "b0de3c1815123eea",
+  "name": "Fangbox",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "special",
+    "sr": "no (object)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, Range touch\n\nEFFECT\n\nTarget one container (bag, box, flask, container or crate of up to Large size)\nDuration 1 round/level\nSaving Throw Fort negates (object); Spell Resistance no (object)\n\nDESCRIPTION\n\nThis rather vicious spell transforms a container into a hateful, fanged monster for a short period of time.\n\nKobold spellcasters often use this spell to wreak havoc among adventurers by turning handy haversacks and scroll cases into biting horrors.\n\nWhile transmuted, any items held in the case may be accessed by a standard action even if the action would regularly be a free, swift, or move action; when an item is retrieved from it, the fangbox gets an attack of opportunity. A fangbox gets a base attack equal to 5+ your caster level and has a bite attack (see damage table below).\n\nA Strength check (DC 10 + your caster level) is required to retrieve an item from the fangbox.\n\nEach round on your initiative, the fangbox attacks one creature adjacent to it. If a creature retrieved an item from it and stands adjacent to it, the fangbox always attacks that creature. The fangbox cannot move.\n\nThe fangbox deals damage based on its size and the level of the caster.\n\nTable 2-4: Fangbox Damage\nFangbox Size\tDamage\nTiny (potion flask, coin purse)\t1d4+ 1/2 caster levels\nSmall (scroll case, small bag, quiver)\t1d6+ 1/2 caster levels\nMedium (backpack, sack, saddlebag)\t2d6 +1/2 caster levels\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0de3c1815123eea.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0de3c1815123eea"
+  },
+  "license": "OGL 1.0a"
+}

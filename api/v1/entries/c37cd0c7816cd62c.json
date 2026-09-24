@@ -1,0 +1,28 @@
+{
+  "id": "c37cd0c7816cd62c",
+  "name": "Abrasive Hallucinations",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "legendary ninja": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (glamer, figment) [mind-affecting]; Level bard 5, legendary ninja 4, sorcerer/wizard 5\n\nCAST\n\nCasting Time 10 minutes\nComponents V, S, M (a jagged stone or thorned twig)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea one 30-ft. cube/level (S)\nDuration 2 hours/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as hallucinatory terrain except the terrain is harmful to those that believe in it. Any creature that enters the area and fails the Will save takes 1d8 magical piercing or slashing damage per 10 feet they move within the area and if they enter or begin their turn within as the sharp rocks and barbed plants tear at their flesh. Each round when they would take damage, they may make another Will save to disbelieve.\n\nOn a successful Will save, any damage taken by the spell is converted to nonlethal damage as the affected creature realizes it was a hallucination.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c37cd0c7816cd62c.json",
+    "web": "https://codex.pipsprojects.com/#/e/c37cd0c7816cd62c"
+  },
+  "license": "OGL 1.0a"
+}

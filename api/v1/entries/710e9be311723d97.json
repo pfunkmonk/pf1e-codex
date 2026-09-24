@@ -1,0 +1,17 @@
+{
+  "id": "710e9be311723d97",
+  "name": "Bomber",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Kobold Quest From Ashes to Empire",
+  "book": "Kobold Quest From Ashes to Empire",
+  "facets": {
+    "bk": "Kobold Quest From Ashes to Empire"
+  },
+  "body": "BOMBER\nCR 6\n\nXP 2,400\nN Medium humanoid\nInit +2, Senses Perception +11\n\nDEFENSE\n\nAC 15, touch 12, flat-footed 13 (+2 Dex, +3 natural)\nhp 39 (6d6 +18) (30 hp strings)\nFort +3, Ref +4, Will +2\n\nOFFENSE\n\nSpeed 45 ft.\nMelee slam +12 (1d4+2 bludgeoning plus grab)\n\nSTATISTICS\n\nStr 14, Dex 15, Con 16, Int -, Wis -, Cha –\nBase Atk +6; CMB +8 (+14 grapple), CMD 20\n\nSPECIAL ABILITIES\n\nGrab (Ex)\n\nThe bomber makes a grapple check against creatures it hits. Creatures grabbed by the bomber do not get a save when it detonates.\n\nSingle-Minded (Ex)\n\nThese creatures do not s pea k. They do not understand language. They only try to grab living targets other than themselves.\n\nDetonate (Ex)\n\nUpon death or if a bomber starts its turn with a grabbed creature, it will detonate. All creatures other than other bombers within a 10-foot radius suffer 8d6 force damage. A Reflex save DC 17 is given to cut this damage in half.\n\nKobold Quest From Ashes to Empire Copyright 2024 Explorer's Guild Publishing; Author Richard Davis",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/710e9be311723d97.json",
+    "web": "https://codex.pipsprojects.com/#/e/710e9be311723d97"
+  },
+  "license": "OGL 1.0a"
+}

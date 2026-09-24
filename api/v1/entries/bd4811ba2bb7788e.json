@@ -1,0 +1,25 @@
+{
+  "id": "bd4811ba2bb7788e",
+  "name": "Mask Of The Pharaoh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 8,
+      "wizard": 8,
+      "witch": 8
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 8, sorcerer/wizard 8, witch 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (piece of turquoise shaped like an eye)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/4 levels (see text)\nSaving Throw Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYour face becomes a golden death mask with gems for eyes. As a standard action, as long as this spell’s duration lasts, you may direct your gaze at a creature within 30 ft. of you. A targeted creature must succeed at a Fortitude save or be turned to stone, as the flesh to stone spell, for 1 round per your caster level.\n\nOn a successful save, the target’s joints stiffen and its limbs grow heavy. The target is staggered for 1 round/caster level, so it can take either a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, the target takes a -1 penalty on attack rolls, AC, and Reflex saves. It moves at half its normal speed (rounded down to the next 5-ft. increment), which affects the creature’s jumping distance as normal for decreased speed. This effect dispels haste.\n\nOnly creatures made of flesh are affected by this spell.\n\nNote that this spell does not grant an actual gaze attack foes and allies are not in danger of petrification simply from meeting your gaze.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bd4811ba2bb7788e.json",
+    "web": "https://codex.pipsprojects.com/#/e/bd4811ba2bb7788e"
+  },
+  "license": "OGL 1.0a"
+}

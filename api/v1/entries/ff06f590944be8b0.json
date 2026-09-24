@@ -1,0 +1,25 @@
+{
+  "id": "ff06f590944be8b0",
+  "name": "Avert Attack",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 1,
+      "paladin": 1,
+      "wizard": 1
+    },
+    "save": "special",
+    "sr": "no (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 1, paladin 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level or until discharged\nSaving Throw none (harmless); Spell Resistance no (harmless)\n\nDESCRIPTION\n\nYou grant the subject a +5 deflection bonus to AC against the next attack that targets it. Whether the attack succeeds or not, the spell is triggered and the effect ends.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff06f590944be8b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff06f590944be8b0"
+  },
+  "license": "OGL 1.0a"
+}

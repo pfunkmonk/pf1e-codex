@@ -1,0 +1,28 @@
+{
+  "id": "c0836c5c3c953350",
+  "name": "Frostfire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [cold]; Level cleric/oracle 2, druid 2, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 15 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA cone of freezing ice shoots from your fingertips.\n\nAny creature in the area of the blast takes 1d4 points of cold damage per caster level (maximum 5d4).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0836c5c3c953350.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0836c5c3c953350"
+  },
+  "license": "OGL 1.0a"
+}

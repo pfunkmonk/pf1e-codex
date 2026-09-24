@@ -1,0 +1,30 @@
+{
+  "id": "1cc92ff542fdc40b",
+  "name": "Windblown Wisp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "druid": 1,
+      "hunter": 1,
+      "witch": 1
+    },
+    "desc": [
+      "air",
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Windblown Wisp\n\nSchool transmutation [air, curse]; Level adept 1, druid 1, hunter 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a dandelion seed)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou place a subtle curse on a creature, making it more susceptible to the effects of air currents. For the purposes of winds and weather, the creature is treated as being one size category smaller.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1cc92ff542fdc40b.json",
+    "web": "https://codex.pipsprojects.com/#/e/1cc92ff542fdc40b"
+  },
+  "license": "OGL 1.0a"
+}

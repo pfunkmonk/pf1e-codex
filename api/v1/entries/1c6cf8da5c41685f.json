@@ -1,0 +1,31 @@
+{
+  "id": "1c6cf8da5c41685f",
+  "name": "Blanket of Stars",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 6,
+      "druid": 6,
+      "mesmerist": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "shaman": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (pattern) [mind-affecting]; Level bard 6, druid 6, mesmerist 6, occultist 6, psychic 6, shaman 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level\n\nA flowing cloak of darkness broken by points of light, like the lights of distant stars, enshrouds you. You gain a +2 bonus to Stealth checks in dark areas. While outside at night, you are invisible if you have not moved during the turn. If you have moved, you are visible but have 20% concealment. This concealment and invisibility is not considered mind-affecting. Attacking or taking hostile actions does not break the invisibility.\n\nGazing at the pattern of stars can be disorienting. Any creature that ends their turn adjacent to you must make a Will save or be confused and dazzled for 1 round. On a successful saving throw, the creature is dazzled for 1 round.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1c6cf8da5c41685f.json",
+    "web": "https://codex.pipsprojects.com/#/e/1c6cf8da5c41685f"
+  },
+  "license": "OGL 1.0a"
+}

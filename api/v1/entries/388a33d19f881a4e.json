@@ -1,0 +1,27 @@
+{
+  "id": "388a33d19f881a4e",
+  "name": "Lucent Leaching",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 6,
+      "paladin": 4
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [good]; Level cleric/oracle 6, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration concentration\nSaving Throw Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou unleash the spark of purity within yourself and attempt to infuse it into a creature with the evil subtype, subverting the essence of its evil that exudes from its pores and encases it in a tomb of its own wickedness. If you succeed on a melee touch attack, the target is paralyzed (Fort negates) for as long as you maintain concentration. In addition, each round that you maintain concentration on the spell the target takes 1d6 points of Constitution drain (Fort negates). A successful save ends paralysis and precludes further Constitution drain; however, the exuded evil purged from the target clings to it like glowing tar, causing the target to become entangled for a number of rounds equal to the number of rounds of Constitution drain it took, to a 22 minimum of 1 round even if it took no Constitution drain.\n\nWhile this luminous exudate clings to the target, it takes a -20 penalty on Stealth checks and its location is clearly revealed even if it is invisible.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/388a33d19f881a4e.json",
+    "web": "https://codex.pipsprojects.com/#/e/388a33d19f881a4e"
+  },
+  "license": "OGL 1.0a"
+}

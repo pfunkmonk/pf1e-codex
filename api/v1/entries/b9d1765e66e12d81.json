@@ -1,0 +1,23 @@
+{
+  "id": "b9d1765e66e12d81",
+  "name": "Exorcise",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 4
+    },
+    "save": "Will",
+    "sr": "yes (see text)",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 4\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, DF\n\nEFFECT\n\nRange 10 ft.\nTarget one creature or object\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes (see text)\n\nDESCRIPTION\n\nBy casting this spell, you negate possession of a creature or object by any force, whether creature (a ghost using its malevolence ability, for example) or magic (a spellcaster using magic jar).\n\nWhen you cast this spell, you must make a caster level check (1d20 + your caster level) against the possessing creature’s spell resistance. If successful, the possessing creature is ejected from the host and stunned for 1 round. Creatures without spell resistance are automatically ejected.\n\nA creature affected by this spell cannot attempt to possess the same host for one day.\n\nThis spell can be cast on a lich’s phylactery or an ancient vampire’s soul object. If the creature currently inhabits its phylactery or soul object, it is immediately ejected and possesses the closest material body (which could very well be yours). A creature so inhabited (possessed) is affected as if by magic jar.\n\nIf holy water is sprinkled on the object or creature during the casting of this spell, you gain a +2 bonus on your caster level check and the Will save DC (for creatures without spell resistance) is increased by +2.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9d1765e66e12d81.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9d1765e66e12d81"
+  },
+  "license": "OGL 1.0a"
+}

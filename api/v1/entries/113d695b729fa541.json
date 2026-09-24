@@ -1,0 +1,28 @@
+{
+  "id": "113d695b729fa541",
+  "name": "Elder Cure (healing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 4,
+      "bard": 4,
+      "oracle": 4,
+      "druid": 5,
+      "inquisitor": 4,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (healing); Level alchemist 4, bard 4, cleric/oracle 4, druid 5, inquisitor 4, witch 5\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will half (harmless) or Will half; Spell-Resistance yes (harmless)\nTarget restrictions personal, selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word is cured of 4d6 points of damage + 1 point per caster level (maximum +20). Undead are damaged by this effect word, but can attempt a Will save for half damage and spell resistance as normal.\n\nBoost: The target is cured of 4d8 points of damage + 1 point per caster level (maximum +20).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/113d695b729fa541.json",
+    "web": "https://codex.pipsprojects.com/#/e/113d695b729fa541"
+  },
+  "license": "OGL 1.0a"
+}

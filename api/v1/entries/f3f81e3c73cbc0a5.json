@@ -1,0 +1,27 @@
+{
+  "id": "f3f81e3c73cbc0a5",
+  "name": "Wresting Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air]; Level druid/shaman 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft. radius burst\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a burst of air that attempts to forcibly remove wielded weapons from all creatures in the area of effect. The CMB for the disarm attempt equals your caster level + your primary spellcasting attribute’s modifier + 2, and the spell makes one attempt for all applicable targets in the area. If the disarm attempt exceeds a target’s CMD by 10, the target’s weapon lands 10 ft. away from the target in a random direction (use rules for splash weapons to determine where it lands).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f3f81e3c73cbc0a5.json",
+    "web": "https://codex.pipsprojects.com/#/e/f3f81e3c73cbc0a5"
+  },
+  "license": "OGL 1.0a"
+}

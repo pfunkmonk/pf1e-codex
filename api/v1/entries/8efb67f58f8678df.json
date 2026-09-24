@@ -1,0 +1,30 @@
+{
+  "id": "8efb67f58f8678df",
+  "name": "Hot Tar Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 6,
+      "legendary hunter": 6,
+      "ranger": 6
+    },
+    "desc": [
+      "earth",
+      "fire",
+      "trap"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [earth, fire, trap]; Level druid 6, legendary hunter 6, ranger 6\n\nCASTING\n\nCasting Time 1 minute\n\nComponents V, S, M\n\nEFFECT\n\nRange touch\nTarget one trap\nDuration permanent until discharged, then 1 round per level\nSaving Throw Reflex partial, see text; Spell Resistance no\n\nDESCRIPTION\n\nNote Trap spells are a type of spell that allows a hunter to create a trap magically. This trap may be magical or non- magical but is otherwise permanent until triggered. A trap occupies a 5-foot square at minimum and cannot be placed where it will be immediately triggered. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 15 + the spell level + the caster’s casting ability modifier. Trap spells are triggered by a creature entering the square they occupy. They can sense any creature as if using tremorsense. Once triggered, the trap is destroyed and cannot be reset.\n\nYou create a trap that occupies one square. When a creature other than you enters the square, the ground below them turns into boiling tar. The triggering creature takes 1d6 points of fire damage per two caster levels (maximum of 10d6) and must succeed at a Reflex save or become entangled. The entangled creature can attempt to break free as a move action, making a Strength or Escape Artist check. The DC for this check is equal to the DC of the spell. A creature that moves into or starts its turn in the area takes 2d6 points of fire damage and must reattempt this Reflex save or becomes entangled. A creature that falls prone in the area takes a –4 penalty on its Reflex save against the tar and on Strength and Escape Artist checks to escape the tar.\n\nA creature that escapes the tar still takes fire damage from the tar until the spell ends or that creature spends a full-round action removing the tar. A creature with tar on it takes a –4 penalty on Acrobatics and Fly checks made to fly with wings or similar appendages.\n\nLegendary Hunters © 2020, Legendary Games; Authors Connor Bates, Cerise Herndon, and W. Hervay",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8efb67f58f8678df.json",
+    "web": "https://codex.pipsprojects.com/#/e/8efb67f58f8678df"
+  },
+  "license": "OGL 1.0a"
+}

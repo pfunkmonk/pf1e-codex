@@ -1,0 +1,27 @@
+{
+  "id": "74ef54ce8bab6d6f",
+  "name": "Typhoon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [air]; Level druid 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange 1 mile/5 levels\nArea radius of 1 mile/5 levels\nDuration 10 minutes/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou summon a windstorm such as is seen in nature only once a century. The winds in the area of the spell increase in intensity by one step each round (from light to moderate, strong, severe, windstorm, hurricane, and then tornado) after the spell is cast. It is important to note you are not immune to the effects of these winds.\n\nOne round after tornado force winds, the wind conditions increase to a typhoon— sustained winds in excess of 300 mph in the entire area of the spell. This is treated as the conditions for a tornado, with the following modifications: In addition to ranged attacks being impossible, melee attacks suffer a –4 penalty within the typhoon. Perception checks of any type are limited to a maximum of 10 feet. Gargantuan creatures are unable to move forward against the force of the wind unless they make a DC 15 Strength check (if on the ground) or a DC 25 Fly check (if airborne) each round. Huge creatures are blown away unless they make a DC 20 Strength check (if on the ground) or a DC 30 Fly check (if airborne) each round. Creatures blown away take 6d6 lethal damage, rather than the normal 2d6 nonlethal. Vehicles, buildings, large plants and unsupported geologic features in the area take 8d6 damage every round (applying their hardness normally).\n\nAlthough you can dismiss this spell, its effects do not end immediately. Each round after you dismiss a typhoon, the wind conditions in the spell’s area are reduced by one step.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74ef54ce8bab6d6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/74ef54ce8bab6d6f"
+  },
+  "license": "OGL 1.0a"
+}

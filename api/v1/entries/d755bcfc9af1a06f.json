@@ -1,0 +1,29 @@
+{
+  "id": "d755bcfc9af1a06f",
+  "name": "Personal Shade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 0,
+      "cleric": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Zenith Games"
+  },
+  "body": "School evocation [darkness]; Level adept 0, cleric 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou cloak a creature in faint shadow, obstructing the harshest light that would reach it. Personal shade prevents sunburns and reduces heat and discomfort on sunny days as though the target had found appropriate cover. Creatures with light sensitivity or light blindness still suffer those effects, as do creatures vulnerable to direct sunlight like vampires.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d755bcfc9af1a06f.json",
+    "web": "https://codex.pipsprojects.com/#/e/d755bcfc9af1a06f"
+  },
+  "license": "OGL 1.0a"
+}

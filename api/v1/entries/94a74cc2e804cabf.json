@@ -1,0 +1,28 @@
+{
+  "id": "94a74cc2e804cabf",
+  "name": "Blind Spot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a scrap of black cloth)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell convinces its target that you simply do not exist. The target will ignore you for the spell’s duration, provided you do nothing to alert the target to your existence.\n\nEven the target’s allies cannot effectively alert the target to your presence, as the target sees right through you and your equipment. Objects you pick up during this spell also become invisible to the target, although they immediately become visible when you do or when you put them down.\n\nThis spell does not magically silence you to the target’s ears, however, and so the target can hear sounds you make, including speech, while this spell is in effect. If you talk within the target’s earshot while this spell is in effect, the target receives a new Will save to see you. If you talk or make sounds for multiple rounds while this spell is in effect, the target receives a save each round.\n\nDispel magic does not restore the target’s mind; break enchantment or a stronger spell is required to dispel blind spot. However, if you attack the target or cast a spell that damages the target or requires the target to make a saving throw, the spell immediately ends.\n\nFor the duration of the spell, the target is treated as flat-footed with respect to you while it cannot see you.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94a74cc2e804cabf.json",
+    "web": "https://codex.pipsprojects.com/#/e/94a74cc2e804cabf"
+  },
+  "license": "OGL 1.0a"
+}

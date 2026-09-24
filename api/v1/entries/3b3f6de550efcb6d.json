@@ -1,0 +1,25 @@
+{
+  "id": "3b3f6de550efcb6d",
+  "name": "Outflanking Boon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (figment); Level bard 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw Will negates; see text; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell creates a single illusory double of each target.\n\nThe double stands 10 to 15 ft. away from the target, as you direct. If the double appears in a position to grant a flanking bonus, the target receives the flanking bonus unless its opponent succeeds at a Will save to disbelieve the illusion.\n\nIf you create a double of yourself and the double could grant you a flanking bonus, the spell grants you a +3 flanking bonus instead of the normal +2 bonus.\n\nAnother recipient’s double cannot grant you a flanking bonus. Opponents who successfully disbelieve the illusory double cannot be flanked by any of the doubles.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3b3f6de550efcb6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/3b3f6de550efcb6d"
+  },
+  "license": "OGL 1.0a"
+}

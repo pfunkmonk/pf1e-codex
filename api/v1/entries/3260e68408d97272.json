@@ -1,0 +1,17 @@
+{
+  "id": "3260e68408d97272",
+  "name": "Doomweb",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "DOOMWEB\nCR 9\n\nThe animated exoskeleton of some titanic spider rides on a tidal wave of black spider, billions upon billions crawling within its mass.\n\nXP 6,400\nN Colossal undead\nInit +5; Senses darkvision 60 ft.; Perception +15\nAura frightful presence (60 ft., DC 21), infestation (10 ft., 1d6 plus poison)\n\nDEFENSE\n\nAC 23, touch 3, flat-footed 22 (+1 Dex, +20 natural, –8 size)\nhp 115 (11d8+44)\nFort +9, Ref +4, Will +8\nImmune undead traits\n\nOFFENSE\n\nSpeed 30 ft., climb 30 ft.\nMelee bite +20 (8d6+30 plus poison)\nSpace 30 ft.; Reach 30 ft.\nSpecial Attacks web (+9 ranged, DC 21, 11 hp)\n\nSTATISTICS\n\nStr 50, Dex 12, Con —, Int 7, Wis 13, Cha 22\nBase Atk +8; CMB +36; CMD 47 (59 vs. trip)\nFeats Awesome Blow, Cleave, Improved Bull Rush, Improved Initiative, Power Attack, Vital Strike\nSkills Climb +22, Perception +15, Stealth +1; Racial Modifiers +4 Stealth\nSQ compression\n\nSPECIAL ABILITIES\n\nPoison (Ex)\n\nBite and infestation-injury; save Fort DC 21; frequency 1/round for 6 rounds; effect 1d4 Str damage; cure 2 consecutive saves. The save DC is Charisma-based.\n\nInfestation (Su)\n\nAn infestation of poisonous spiders, which nest within this creature’s exoskeleton, constantly surrounds a doomweb, to a radius of 10 feet. Any creature within the infestation takes 1d6 points of damage at the end of each round it remains in the area. A creature that takes this damage must make a DC 21 Fortitude save or be nauseated for 1 round. In addition, those damaged by this infestation are poisoned as well. Any area effect attack that deals 10 or more points of damage to a doomweb destroys its infesting spiders, removing its aura for 3 rounds, after which a new batch of spiders swarms out of the undead‘s body to replenish the infestation. The save DC is Charisma-based.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, pair, or nest (3-8)\nTreasure incidental\n\nA doomweb is the husk of massive spider, reanimated by powerful black magic. To give the exoskeleton form and weight, billions of living spiders are drawn to its mass and form thousands of hives. Together, these spiders mimic some semblance of intelligence and drive the doomweb to kill. Doomwebs are constantly ravenous, and seek living prey at all time to feed their internal horde. While they are patient hunters, and may track and observe large prey for days before attacking, their every thought is overwhelmed by a desire for meat.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3260e68408d97272.json",
+    "web": "https://codex.pipsprojects.com/#/e/3260e68408d97272"
+  },
+  "license": "OGL 1.0a"
+}

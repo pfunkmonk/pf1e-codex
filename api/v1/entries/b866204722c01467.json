@@ -1,0 +1,27 @@
+{
+  "id": "b866204722c01467",
+  "name": "Geyser of Acid",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [acid]; Level magus 6, sorcerer/wizard 6\n\nCasting Time 1 standard action\n\nComponents V, S, M (a drop of acid)\n\nRange medium (100 ft. + 10 ft./level)\n\nArea 10-ft. radius, 40-ft. high cylinder\n\nDuration instantaneous\n\nSaving Throw Reflex half; Spell Resistance yes\n\nYou cause a geyser of hissing acid to erupt from the point you designate. A creature at the center of the cylinder takes 1d8 points of acid damage per caster level (maximum 20d8). Each other creature within the cylinder takes 1d6 acid damage per 2 caster levels you possess (maximum 10d6). Creatures in a further 10-foot radius of the area take 1d6 acid damage.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b866204722c01467.json",
+    "web": "https://codex.pipsprojects.com/#/e/b866204722c01467"
+  },
+  "license": "OGL 1.0a"
+}

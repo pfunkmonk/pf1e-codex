@@ -1,0 +1,30 @@
+{
+  "id": "ef2930c9871c3a1f",
+  "name": "Hero’s Steel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "paladin": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [fear, mind-affecting]; Level bard 3, inquisitor 3, paladin 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTargets one melee weapon\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou infuse the metal of a melee weapon with the fearsome aura of a mighty hero. Brandishing the weapon, which is a swift action, gives the wielder a +4 item bonus to Intimidate checks. When struck in melee, opponents with fewer HD than the wielder must make a Will save; opponents of 4 HD of more that fail the save are shaken for 5d6 rounds. Opponents with 4 HD or less become panicked for 5d6 rounds. An opponent that succeeds on the saving throw is immune to this effect from the same weapon for 24 hrs.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ef2930c9871c3a1f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ef2930c9871c3a1f"
+  },
+  "license": "OGL 1.0a"
+}

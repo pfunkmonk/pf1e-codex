@@ -1,0 +1,17 @@
+{
+  "id": "c97346e174fc61eb",
+  "name": "Corrupted Treant",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "We Be Leshys",
+  "book": "We Be Leshys",
+  "facets": {
+    "bk": "We Be Leshys"
+  },
+  "body": "CORRUPTED TREANT\nCR 8\n\nXP 4,800\nNE Huge plant\nInit –1; Senses low-light vision; Perception +12\n\nDEFENSE\n\nAC 21, touch 7, flat-footed 21 (–1 Dex, +14 natural, –2 size)\nhp 104 (12d8+48)\nFort +12, Ref +3, Will +9\nDefensive Abilities plant traits, negative energy affinity\nWeaknesses vulnerability to fire\n\nOFFENSE\n\nSpeed 40 ft.\nMelee 2 slams +17 (2d6+7/19–20)\nRanged rock +7 (2d6+10)\nSpace 15 ft.; Reach 15 ft.\nSpecial Attacks rock throwing (180 ft.), trample (2d6+10, DC 25)\n\nTACTICS\n\nThe corrupted treant uses a swift action to summon a negative energy storm on his first turn, then tramples or simply bludgeons his enemies to death. Animated by dark magic, he fights to the death.\n\nSTATISTICS\n\nStr 24, Dex 8, Con 19, Int 12, Wis 16, Cha 13\nBase Atk +9; CMB +18; CMD 27\nFeats Alertness, Improved Critical (slam), Improved Sunder, Iron Will, Power Attack, Weapon Focus (slam)\nSkills Diplomacy +9, Intimidate +9, Knowledge (nature) +9, Perception +12, Sense Motive +9, Stealth –9 (+7 in forests); Racial Modifiers +16 Stealth in forests\nLanguages Common, Sylvan, Treant\nSQ double damage against objects, treespeech\n\nSPECIAL ABILITIES\n\nDouble Damage Against Objects (Ex)\n\nA treant or animated tree that makes a full attack against an object or structure deals double damage.\n\nTreespeech (Ex)\n\nA treant has the ability to converse with plants as if subject to a continual speak with plants spell, and most plants greet them with an attitude of friendly or helpful.\n\nNegative Energy Storm (Su)\n\nOnce per day as a swift action, a corrupt treant can conjure a negative energy storm. The winds instantly grow to strong in a 100-ft. radius, and the storm grows at the start of each of the treant’s subsequent turns.\n\n1st Round–Black rain starts pouring from the sky (concealment past 50 feet, total concealment past 100 feet).\n2nd Round–The rain becomes hail, dealing 1 point of lethal damage to all creatures in the area each round while maintaining the concealment.\n3th Round–As a swift action, the corrupted treant may call a red, negatively-charged lightning strike on any creature within 100 feet (including the treant itself). The bolt deals 4d6 points of negative energy damage, and deafens all creatures within 10 feet of impact for one minute (DC 17 Reflex halves the damage, DC 17 Fort negates deafness). This save is Charisma–based.\n\nThe thunderstorm abates after 1d6 minutes, or instantly if the corrupt treant is reduced to negative hit points. If reduced to negative hit points, a corrupt treant falls unconscious but is still corrupted.\n\nWe Be Leshys Copyright 2025 Zenith Games Authors Mike Welham and Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c97346e174fc61eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/c97346e174fc61eb"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "548c07102eb69d05",
+  "name": "Fiery Lightning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level magus 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (pinch of sulfur)\n\nEFFECT\n\nRange 100 ft.\nArea 100-ft. line\nDuration instantaneous\nSaving Throw Reflex for half; Spell Resistance yes\n\nDESCRIPTION\n\nThe caster invokes a powerful stroke of green lightning, wreathed in crackling flames, from his or her outstretched fingertips. The bolt does 1d6 hp electricity damage and 1d6 fire damage per level (maximum 10d6 each) to the target. Otherwise treat as a standard lightning bolt spell.\n\nMythic: The damage increases to 1d8 hp electricity damage and 1d8 hp fire damage per caster level (maximum 10d8 hp each). Any creature that fails its save is staggered for 1 round.\n\nAugmented (4th): You can expend two uses of mythic power to bend the line of the spell once up to up to 90 degrees. Any creature that fails its save is stunned for 1 round and catches on fire.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/548c07102eb69d05.json",
+    "web": "https://codex.pipsprojects.com/#/e/548c07102eb69d05"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "5688b87bec631996",
+  "name": "Brutal Blow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "ranger": 4
+    },
+    "desc": [
+      "force",
+      "primeval"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [force, primeval]; Level ranger 4\n\nCasting Time 1 swift action\n\nComponents V\n\nRange touch\n\nTarget one projectile or piece of ammunition\n\nDuration 1 round or until discharged\n\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThe creature successful struck by the enchanted missile is slammed with telekinetic force, dealing 1d4 force damage per caster level (maximum 12d4). In addition, the target is pushed away from you in a straight line up to 5 feet per two caster levels. For every size category of the target above Medium, reduce the distance pushed by 5 feet (–5 feet for Large, –10 feet for Huge, –15 for Gargantuan, and –20 feet for Colossal) to a minimum of 0 feet. A successful Fortitude save negates the movement but not the damage. The targeted projectile loses its potency if not used within 1 round.\n\nLegendary Rangers © 2019, Legendary Games; Authors: Andrew J. Gibson, Wren Rosario, and Jeff Gomez.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5688b87bec631996.json",
+    "web": "https://codex.pipsprojects.com/#/e/5688b87bec631996"
+  },
+  "license": "OGL 1.0a"
+}

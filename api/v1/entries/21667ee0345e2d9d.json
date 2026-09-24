@@ -1,0 +1,29 @@
+{
+  "id": "21667ee0345e2d9d",
+  "name": "Diabolical Aspect, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 8,
+      "wizard": 8,
+      "witch": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [evil]; Level antipaladin 4, cleric 8, sorcerer/wizard 8, witch 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like lesser diabolical aspect, except you gain the see in darkness supernatural ability, DR 10/good, immunity to fire and poison, and resistance to cold and electricity 10. You gain leathery black wings that allow you to fly with a speed of 60 feet (good maneuverability), and you can telepathically communicate with all non-good creatures within 100 feet, even if you do not share a common language.\n\nOnce during the spell’s duration, you can expend 3 rounds of the spell’s remaining duration to summon one or more devils to aid you, as if casting summon monster VI;. You may summon only devils with this ability, but you may summon any devil of CR 5 or lower as a 5th-level monster and any devil of CR 6 to 8 as a 6th-level monster. You can enhance the power of this summons to duplicate summon monster VII; (treating any devil of CR 9 or 10 as a 7th-level monster), but each round the devils remain present causes one minute of the greater diabolical aspect spell to elapse. You can dismiss the summoned devils at any time as a standard action, and if your greater diabolical aspect spell ends, any summoned devils immediately disappear.\n\nYou are treated as a lawful evil outsider or your actual type, whichever is worse, for the purpose of spells, magic items, class features, and other effects that vary based on your type, such as bane weapons or a ranger’s favored enemy.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/21667ee0345e2d9d.json",
+    "web": "https://codex.pipsprojects.com/#/e/21667ee0345e2d9d"
+  },
+  "license": "OGL 1.0a"
+}

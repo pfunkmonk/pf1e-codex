@@ -1,0 +1,27 @@
+{
+  "id": "119c0fb368113481",
+  "name": "Winter’s Chill",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 4,
+      "druid": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 4, druid 5\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration 1 round/level\n\nSaving Throw Will negates; Spell Resistance yes\n\nThe subject experiences severe chills, causing him to believe he is rapidly freezing to death. If there is a source of warmth such as a smoldering hearth, open flames, or even a creature with the fire subtype in the subject’s line of sight, the subject must move toward the heat source as quickly as possible by the most direct route. The subject moves through threatened areas without hesitation, though it does avoid obviously hazardous locations such as a chasm in its path. When the subject reaches the heat source, the subject takes no actions other than to shiver uncontrollably. If there are no heat sources within the subject’s line of sight, the subject takes no actions while shivering uncontrollably. Despite the subject’s obsession with staying warm, the subject is not helpless.\n\nAfter the spell ends, the subject can act normally. On the creature’s next turn, it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity. If this save is successful, the effect ends. If not, the creature continues to seek the closest source of warmth or remains motionless while shivering uncontrollably.\n\nCreatures immune to cold and those with resistance to cold are immune to the effects of this spell.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/119c0fb368113481.json",
+    "web": "https://codex.pipsprojects.com/#/e/119c0fb368113481"
+  },
+  "license": "OGL 1.0a"
+}

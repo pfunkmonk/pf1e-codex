@@ -1,0 +1,28 @@
+{
+  "id": "0ae3a0c7ae3fdf4f",
+  "name": "Power Word Infirm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "Yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level mesmerist 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature with 75 hp or less\nDuration see text\nSaving Throw none; Spell Resistance Yes\n\nDESCRIPTION\n\nYou utter a single word of power that causes the target to become sickly and weak, taking 2 Constitution damage. The target does not need to hear or understand the word. The duration of the spell depends on the target’s current hit point total. Any creature that currently has 76 or more hit points is unaffected by power word infirm.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ae3a0c7ae3fdf4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ae3a0c7ae3fdf4f"
+  },
+  "license": "OGL 1.0a"
+}

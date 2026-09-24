@@ -1,0 +1,25 @@
+{
+  "id": "6f8b4f0bda5ea622",
+  "name": "Freeze Time",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "yes (object)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (dimensional); Level magus 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 immediate action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget One moving object in a 15-ft. cube totaling no more than 25 lbs./level\nDuration until triggered or 1 round/level\nSaving Throw none; Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou grasp the space between a moving object and its destination and stretch it in a tall arc through an alternate dimension, allowing you to pause surrounding events at will. To all observers, when you trigger this spell’s effect, the moving object appears to stop abruptly and pause for 1 round. It then resumes its original velocity. During the paused round, you (or anyone else) might sidestep a killing arrow, kick in a door before letting paused bullets fly, or pull a head free just before a guillotine’s blade slams down.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f8b4f0bda5ea622.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f8b4f0bda5ea622"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "a4fa08e185fbf121",
+  "name": "Command of the Bloody Tongue",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "bloodrager": 3,
+      "cleric": 4,
+      "druid": 4,
+      "shaman": 4,
+      "spiritualist": 4,
+      "witch": 4
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School necromancy; Level antipaladin 3, bloodrager 3, cleric 4, druid 4, shaman 4, spiritualist 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of your own blood drawn by biting your tongue)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level (maximum 15 rounds)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nAs part of casting the spell, you must damage your tongue (typically with a bite) to draw blood, dealing yourself 1 point of damage. Any damage the target takes also causes 1d6 points of bleed in addition to its other effects. The bleed does not stack with itself or other sources of bleed. If the target has or gains the dying condition, it cannot be stabilized while this spell lasts. Only by restoring the victim to 0 or more hit points can the dying condition be removed.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4fa08e185fbf121.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4fa08e185fbf121"
+  },
+  "license": "OGL 1.0a"
+}

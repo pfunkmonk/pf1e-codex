@@ -1,0 +1,27 @@
+{
+  "id": "515d79154e2de0ee",
+  "name": "Ebon Lightning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 7
+    },
+    "desc": [
+      "electricity",
+      "chaotic"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [electricity, chaotic]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (500 gp worth of small gem stones)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 5 ft. wide to medium range (100 ft. + 10 ft./level), or 10 ft. wide to 50 ft. wide + 5 ft./caster level\nDuration instantaneous\nSaving Throw Reflex half, Will negates (see text); Spell Resistance no\n\nDESCRIPTION\n\nIn most respects, ebon lightning duplicates the effects of the more familiar lightning bolt spell. As with the lightning bolt spell, the target suffers 1d6 points of electricity damage per level of the caster, but in the case of ebon lightning, the maximum damage is 20d6. Additionally, a spellcaster struck by ebon lightning loses 1d6 random spell slots instantly if he fails a Will save. The spells lost disappear as if cast.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/515d79154e2de0ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/515d79154e2de0ee"
+  },
+  "license": "OGL 1.0a"
+}

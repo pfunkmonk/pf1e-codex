@@ -1,0 +1,27 @@
+{
+  "id": "ff655e5f2178be7b",
+  "name": "Mind’s Eye Map",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "ink",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination [ink, mind-affecting]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (ink and material to record the map)\n\nEFFECT\n\nRange 60 ft.\n\nTarget one creature\nDuration concentration, 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nA mind’s eye map allows you to magically craft a map taken directly from the target’s mind, using yourself as a conduit. You spill a steady stream of ink upon the chosen surface for the map, which slowly undulates and forms shapes that perfectly copy the target’s mental image; 100 sq. ft. of space may be mapped per minute. The map is only as complete as the target knows or can recall, and it includes any illusions, visual tricks, or inaccuracies the target witnessed.\n\nIf the target is unwilling, you may attempt to forcefully extract the mental image, but you must succeed on a touch attack and paint a cipher on the creature. An unwilling target is allowed a Will save; success negates the spell. Another mind’s eye map reflecting the same mapped area cannot be created from the same unwilling target until the caster advances in level (or until the target becomes willing).\n\nIf you paint the cipher on an unwilling target with arcane mark, the DC for the Will save increases by +2.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff655e5f2178be7b.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff655e5f2178be7b"
+  },
+  "license": "OGL 1.0a"
+}

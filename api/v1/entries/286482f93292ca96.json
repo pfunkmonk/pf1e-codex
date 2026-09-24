@@ -1,0 +1,28 @@
+{
+  "id": "286482f93292ca96",
+  "name": "Embers, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level magus 5, sorcerer/wizard 5, witch 5\nDuration 5 rounds + 1 round/level (max 15)\n\nDESCRIPTION\n\nThis spell functions as embers except it deals 3 fire damage per round and if the target critically fails their saving throw, they are nauseated for until the beginning of their next turn.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/286482f93292ca96.json",
+    "web": "https://codex.pipsprojects.com/#/e/286482f93292ca96"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "07ad8f74e34dc344",
+  "name": "Greeneater",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "GREENEATER\nCR 6\n\nThis immense green cube plods forward, carrying a forest’s worth of rapidly dissolving detritus within its bulk.\n\nXP 2,400\nN Colossal ooze\nInit +2; Senses blindsense 120 ft.; Perception –1\n\nDEFENSE\n\nAC –2, touch –2, flat-footed –2 (–4 Dex, –8 size)\nhp 93 (11d8+44)\nFort +7, Ref –1, Will +2\nImmune acid, ooze traits\n\nOFFENSE\n\nSpeed 30 ft.\n\nSpace 30 ft.; Reach 0 ft.\nSpecial Attacks engulf (DC 16, 6d6 acid plus 1 Dex drain)\n\nSTATISTICS\n\nStr 7, Dex 2, Con 19, Int 0, Wis 8, Cha 2\nBase Atk +8; CMB +14; CMD 20\n\nSPECIAL ABILITIES\n\nEngulf (Ex)\n\nA greeneater can engulf creatures in its path as part of a standard action. It cannot make other attacks during a round in which it engulfs. The creature merely has to move over its opponents, affecting as many as it can cover. Targeted creatures can make attacks of opportunity against the creature, but if they do so, they are not entitled to a saving throw against the engulf attack. Those who do not attempt attacks of opportunity can attempt a Reflex save to avoid being engulfed—on a success, they are pushed back or aside (target’s choice) as the creature moves forward. Engulfed opponents gain the pinned condition, are in danger of suffocating, are trapped within the creature’s body until they are no longer pinned, and may be subject to other special attacks from the creature. The save DC is Strength-based.\n\nGreeneating (Ex)\n\nA greeneater’s acid works particularly well against vegetation. The ooze’s engulf attack deals 6d8 acid damage against plants instead of 6d6 acid damage.\n\nECOLOGY\n\nEnvironment forest\nOrganization solitary\nTreasure Value incidental\n\nGreeneaters are colossal green oozes which subsist primarily on plant life. They move slowly through the forest at about a mile a day, consuming everything in their paths. While animals and insects usually get out of the way, vegetation is completely obliterated. Greeneaters leave huge, acid-scarred cross-crosses in the lands they inhabit.\n\nWhen attacked, greeneaters lunge forward with surprising speed, and engulf enemies in their digestive bulk.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07ad8f74e34dc344.json",
+    "web": "https://codex.pipsprojects.com/#/e/07ad8f74e34dc344"
+  },
+  "license": "OGL 1.0a"
+}

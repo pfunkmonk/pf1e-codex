@@ -1,0 +1,28 @@
+{
+  "id": "0f7af8c26634b467",
+  "name": "Liquefy Air",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "air",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [air, water]; Level druid/shaman 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\n\nDESCRIPTION\n\nThe air around you takes on the characteristics of a light, viscous fluid. When in motion, you create a pressure wave, which may move creatures and objects around you.\n\nUsing this pressure wave, the caster gains the ability to make an Improved Bull Rush (as the feat) once per round as a free action. The CMB of the pressure wave is calculated using the caster’s level + spell level + Intelligence (wizards), Charisma (sorcerers) or Wisdom (druids and shamans).\n\nThis effect is active only while the caster is in motion.\n\nThe pressure wave only affects creatures directly in the caster’s path at any point during his movement. During movement, the pressure wave separates the caster and the target by one square. They remain separate by one square when movement stops.\n\nAlternatively, the caster may use liquefy air each round to move light, loose, unattached objects (e.g. papers), to move one square of a swarm, or to extinguish one square of flame.\n\nWhile the air in the caster’s square feels like fluid, it is otherwise unchanged and breathable.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f7af8c26634b467.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f7af8c26634b467"
+  },
+  "license": "OGL 1.0a"
+}

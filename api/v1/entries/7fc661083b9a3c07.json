@@ -1,0 +1,28 @@
+{
+  "id": "7fc661083b9a3c07",
+  "name": "Stunning Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "unchained summoner": 3,
+      "witch": 3
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation); Level bloodrager 3, magus 3, shaman 3, sorcerer/wizard 3, unchained summoner 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a thunderstone)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect cloud spreads in 20-ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw Fort negates; see text; Spell Resistance no\n\nDESCRIPTION\n\nStunning mist creates a bank of fog like that created by fog cloud, except that the vapors resonate in a way that stuns those within. Living creatures in the cloud become stunned. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each stunned character.) A creature gets a new save at the beginning of each of their turns to become un-stunned. Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. Stunning mist can be made permanent with a permanency spell. A permanent stunning mist dispersed by wind reforms in 10 minutes.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7fc661083b9a3c07.json",
+    "web": "https://codex.pipsprojects.com/#/e/7fc661083b9a3c07"
+  },
+  "license": "OGL 1.0a"
+}

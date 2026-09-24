@@ -1,0 +1,25 @@
+{
+  "id": "0129e2d67e4a11b7",
+  "name": "Green Decay",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "druid": 4,
+      "wizard": 4
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School transmutation; Level cleric 4, druid 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of green mold)\n\nEFFECT\n\nRange close (25 ft + 5 ft./2 levels)\nTargets all undead in a 20-ft.-radius burst\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause all undead in the area of effect of 4 HD or less to decay into piles of harmless green mold unless they succeed at a Fortitude save. Each undead gains a bonus or penalty on this saving throw based on the brightest level of illumination in its space: supernatural darkness (+3), darkness (+2), dim light (+1), normal light (+0), bright light (–1).\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0129e2d67e4a11b7.json",
+    "web": "https://codex.pipsprojects.com/#/e/0129e2d67e4a11b7"
+  },
+  "license": "OGL 1.0a"
+}

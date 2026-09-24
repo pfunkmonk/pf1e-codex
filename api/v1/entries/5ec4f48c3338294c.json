@@ -1,0 +1,29 @@
+{
+  "id": "5ec4f48c3338294c",
+  "name": "Pact Beyond Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 5, shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M/DF (grave dirt and powdered onyx worth 40 gp per HD of the target, which they must ingest)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature subject to a geas\nDuration see text\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nWhen casting this spell on a creature subject to your geas spell, their geas now reaches beyond their mortal lifetime. If they die before the geas is fulfilled, they are reanimated as an undead 1 hour later per the spell create undead so that they may continue on their task. The exact type of undead is determined by the caster when this spell is cast.\n\nOnce the task is complete or the target is destroyed while in their undead form, this spell ends and the target returns to death. This change to undead does not remove any penalties incurred by the geas spell.\n\nIf the target is subject to a spell, effect, or set of circumstances that prevent them reanimating as an undead like the target dying in an area of the hallow spell, they are not reanimated. Spells like sanctify corpse only delay this reanimation.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5ec4f48c3338294c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5ec4f48c3338294c"
+  },
+  "license": "OGL 1.0a"
+}

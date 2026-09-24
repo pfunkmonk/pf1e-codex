@@ -1,0 +1,25 @@
+{
+  "id": "0414ed9e0f5bf32d",
+  "name": "Moderate Wound (wounding)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "inquisitor": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy; Level cleric/oracle 2, inquisitor 2, witch 2\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word takes 2d6 points of damage + 1 point per wordcaster level (maximum +10). Undead are instead healed by this wordspell and do not receive a saving throw or spell resistance.\n\nBoost: The target takes 2d8 points of damage + 1 point per caster level (maximum +10).\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0414ed9e0f5bf32d.json",
+    "web": "https://codex.pipsprojects.com/#/e/0414ed9e0f5bf32d"
+  },
+  "license": "OGL 1.0a"
+}

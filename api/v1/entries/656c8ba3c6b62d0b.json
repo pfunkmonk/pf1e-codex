@@ -1,0 +1,26 @@
+{
+  "id": "656c8ba3c6b62d0b",
+  "name": "Rending Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy; Level bloodrager 3, magus 3, sorcerer/ wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets living creature or creatures touched (up to one/level)\nDuration instantaneous\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYour touch glows with a pale ruby light, and its touch tears the flesh of living beings.\n\nEach touch rends the targets flesh, dealing damage equal to 2d6 + 1 point per caster level.\n\nThe wounds left by this spell are very difficult to heal, an affected creature must make a Fortitude saving throw, if it fails damage dealt by this spell can only be healed through magical or supernatural means. You can use this melee touch attack up to one time per level.\n\nLegendary Magus, © 2018, Legendary Games. Authors: Dave Nelson and Hal Kennette.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/656c8ba3c6b62d0b.json",
+    "web": "https://codex.pipsprojects.com/#/e/656c8ba3c6b62d0b"
+  },
+  "license": "OGL 1.0a"
+}

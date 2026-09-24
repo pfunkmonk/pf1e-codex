@@ -1,0 +1,26 @@
+{
+  "id": "84d9a2b95c18e913",
+  "name": "Crystal Wail",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [sonic]; Level bard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 40 ft.\nArea 40-ft. radius centered on you\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYour piercing scream vibrates through the surrounding materials and people, damaging almost everything within a 40-foot radius. Unattended crystal or glass items take 1d6 points of damage/caster level (max 10d6) with no saving throw while crystalline creatures or creatures receive a Fortitude saving throw for half damage. All creatures in the area must make a Fortitude save to avoid being deafened for 1d4 rounds. The sound vibrations are so powerful that they can damage metal (2d6 points of damage) and stone (3d6 points of damage) objects. The sound damage ignores hardness. Held or carried metal and stone items are unaffected, but structures such as walls or doors are damaged. You are unable to speak or vocalize for 2 full rounds after casting this spell, leaving you unable to cast any spells that have a vocal component (unless you have the Silent Spell metamagic feat) or communicate verbally with your party.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/84d9a2b95c18e913.json",
+    "web": "https://codex.pipsprojects.com/#/e/84d9a2b95c18e913"
+  },
+  "license": "OGL 1.0a"
+}

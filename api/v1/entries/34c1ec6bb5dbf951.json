@@ -1,0 +1,30 @@
+{
+  "id": "34c1ec6bb5dbf951",
+  "name": "Elemental Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "or fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [acid, cold, electricity, or fire]; Level druid/shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of the chosen element: earth, water, air, or fire)\n\nEFFECT\n\nRange 60 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nElemental energy erupts from your hand and extends outward in a cone.\n\nChoose one of the following: acid, cold, electricity, or fire.\n\nThe elemental blast causes 6d6 hp damage +1 hp per caster level of the chosen energy type to all creatures in the cone. A successful Reflex save halves this damage.\n\nAn elemental blast also has a special effect based on its energy type, described below.\n\nAcid: Your elemental blast causes 1d6 hp acid damage for the next 2d6 rounds. Those affected must make a Fortitude save or be sickened for the duration of the ongoing acid damage.\nCold: Creatures taking damage become fatigued (or exhausted, if already fatigued, such as from a previous elemental blast) for 2d6 rounds.\nElectricity: Creatures taking damage are staggered for 2d6 rounds.\nFire: Your elemental blast causes 1d6 hp fire damage for the next 2d6 rounds. Those affected can use a full-round action to extinguish the flames and negate this additional damage.\n\nWhen you cast this spell to deal acid, cold, electricity, or fire damage, it is a spell of that type.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34c1ec6bb5dbf951.json",
+    "web": "https://codex.pipsprojects.com/#/e/34c1ec6bb5dbf951"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "d05fce33c048669c",
+  "name": "Bubble Net",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "save": "Ref",
+    "sr": "yes (harmless, object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (palm-sized net)/DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one Target creature or object\nDuration 1 round/level (D)\nSaving Throw Reflex negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nBubble net causes a targeted underwater creature or object to be wrapped in a magical net of air bubbles that rises to the water’s surface.\n\nWhen successfully cast, bubble net immediately lifts the target toward the surface of the water. The rate of ascent is quick, at 120 feet per round.\n\nThe bubble net equalizes pressure during the ascent so that creatures decompress without getting the bends. Once the target reaches the surface, the bubble net matches pressure with the surrounding water and no longer propels the target upward but maintains the target at the surface for the spell’s remaining duration.\n\nThe bubble net is not restrictive in any way, so the target is able to swim about as normal, but any attempt at descent only serves to counter some or all of the 120 feet per round ascent, depending on the target’s swimming speed. The spell does not interfere with attacks or other actions taken by a target creature.\n\nThe target of this spell cannot weigh more than 100 pounds per caster level. Finally, the spell functions the same in liquid mediums other than water.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d05fce33c048669c.json",
+    "web": "https://codex.pipsprojects.com/#/e/d05fce33c048669c"
+  },
+  "license": "OGL 1.0a"
+}

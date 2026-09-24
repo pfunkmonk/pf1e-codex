@@ -1,0 +1,30 @@
+{
+  "id": "ebf6973458046b6f",
+  "name": "Shepherd’s Sermon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 1,
+      "bard": 1,
+      "cleric": 1,
+      "mesmerist": 1
+    },
+    "desc": [
+      "language dependent",
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School enchantment (compulsion) [language dependent, mind-affecting]; Level adept 1, bard 1, cleric 1, mesmerist 1\n\nCASTING\n\nCasting Time 30 Minutes\nComponents V, S, DF\n\nEFFECT\n\nRange 40 ft.\nArea all allies within 40 ft.\n\nDuration 1 day/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nOver the course of 30 minutes, you deliver a powerful sermon extolling the virtues of hard work. Any creatures that remain for the duration of the sermon receive a +2 morale bonus to checks one for specific Profession (chosen by you) for the duration of the spell.\n\nIf you have personal experience in the field, your sermon gains potency. For every 4 ranks you have in the selected profession, the morale bonus increases by +1.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ebf6973458046b6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ebf6973458046b6f"
+  },
+  "license": "OGL 1.0a"
+}

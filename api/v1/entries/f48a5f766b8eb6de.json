@@ -1,0 +1,24 @@
+{
+  "id": "f48a5f766b8eb6de",
+  "name": "Transmute Acid to Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "wizard": 5
+    },
+    "save": "special",
+    "sr": "see text",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/M (a few drops of acid and water)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./ 2 levels)\nEffect up to 2 gallons of acid/level\nDuration instantaneous\nSaving Throw see text; Spell Resistance see text\n\nDESCRIPTION\n\nThis spell is identical to transmute water to acid but it changes an equal volume of corrosive acid into plain, clear (and safe) water. A creature constructed of acid or native to the Quasi-Plane of Acid can be targeted by this spell and takes 1d4 points of damage per caster level (maximum 10d4). The elemental can attempt a Fortitude save to reduce the damage by half unless otherwise stated.\n\nTransmute Acid to Water from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f48a5f766b8eb6de.json",
+    "web": "https://codex.pipsprojects.com/#/e/f48a5f766b8eb6de"
+  },
+  "license": "OGL 1.0a"
+}

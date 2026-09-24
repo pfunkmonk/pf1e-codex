@@ -1,0 +1,30 @@
+{
+  "id": "f7ce85db9cf37eba",
+  "name": "Shadowchains",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 6,
+      "death mage": 6,
+      "inquisitor": 5,
+      "paladin": 4,
+      "wizard": 6
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [evil]; Level cleric/oracle 6, death mage 6, inquisitor 5, paladin 4, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a length of blackened chain)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nA creature targeted by this spell is held immobile by dark chains composed of pure shadow. The creature is paralyzed and held in place, but may attempt a new saving throw each round to end the effect. While held by the shadowy chains, a creature cannot use any sort of extradimensional travel, such as astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spells and spell-like abilities. The spell does not affect creatures that are already in ethereal or astral form when the spell is cast.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f7ce85db9cf37eba.json",
+    "web": "https://codex.pipsprojects.com/#/e/f7ce85db9cf37eba"
+  },
+  "license": "OGL 1.0a"
+}

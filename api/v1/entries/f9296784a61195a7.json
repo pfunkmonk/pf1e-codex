@@ -1,0 +1,28 @@
+{
+  "id": "f9296784a61195a7",
+  "name": "Webbed Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "elven archer": 1,
+      "ranger": 2,
+      "druid": 2
+    },
+    "desc": [
+      "creation"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [creation]; Level elven archer 1, ranger 2, druid 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S, M (a bit of spider web), DF (an arrow or bolt)\nEffect webs in a 10-ft.-radius spread\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nDuration 1 min/level (D)\nSaving Throw Reflex negates; see text; Spell Resistance no\n\nDESCRIPTION\n\nThe next arrow you shoot trails a gossamer web of strong, sticky spider silk behind it. The web’s strands anchor to any targeted creature of Large size or smaller, trapping it. The web does not affect the arrow’s range or accuracy.\n\nIf your arrow hits its target, it does its normal damage, and the creature must make a Reflex save or gain the grappled condition. If the creature successfully saves, the web harmlessly encases its body, but it is otherwise unaffected. Grappled creatures can break free by making a combat maneuver check or an Escape Artist check as a standard action against the spell’s DC.\n\nAny fire can set the web alight and burn away the constricting web on a creature; that creature takes 2d4 fire damage from the flames.\n\nAlternately, the archer may shoot near the creature to avoid causing it damage (treat as a tricky shot, with a –5 penalty). If successful, and the creature fails its Reflex save, the creature is still grappled but is not harmed.\n\nThe arrow must be shot within 1 round of this spell’s casting, or the spell dissipates.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9296784a61195a7.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9296784a61195a7"
+  },
+  "license": "OGL 1.0a"
+}

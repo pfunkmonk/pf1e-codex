@@ -1,0 +1,30 @@
+{
+  "id": "80c164ce90e639dd",
+  "name": "Necromorphic Illumination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 2,
+      "death mage": 1,
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [light]; Level antipaladin 1, cleric/oracle 2, death mage 1, shaman 2, sorcerer/wizard 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget 30-ft. burst.\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause all the undead in the burst to be limned with ghostly blue light. They glow light torches, and take a -20 penalty to Stealth checks. The undead cannot benefit from concealment from darkness, blur, displacement, invisibility, or similar effects.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/80c164ce90e639dd.json",
+    "web": "https://codex.pipsprojects.com/#/e/80c164ce90e639dd"
+  },
+  "license": "OGL 1.0a"
+}

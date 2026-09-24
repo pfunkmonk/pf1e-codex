@@ -1,0 +1,28 @@
+{
+  "id": "a06bc7edda92740b",
+  "name": "Starfall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "alchemist": 4,
+      "shadowsworn": 4,
+      "wizard": 6
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (evocation) [force]; Level alchemist 4, shadowsworn 4, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./two levels)\nTarget one creature/level\nDuration 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou release a number of powerful force bolts from your body equal to your level. Each strikes a creature within line of sight. No more than 3 bolts can strike a single target. Creatures struck take 3d12 hp damage, and a Reflex save halves that damage. Those that fail their saving throw are also blinded and knocked prone.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a06bc7edda92740b.json",
+    "web": "https://codex.pipsprojects.com/#/e/a06bc7edda92740b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "02e836ac57c64c70",
+  "name": "Commanding Whistle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "ranger": 2,
+      "shaman": 3
+    },
+    "desc": [
+      "animal",
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [animal, sonic]; Level druid 3, ranger 2, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a reed whistle worth at least 1 sp)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget see text\nDuration 1 min./level, see text\nSaving Throw none; Spell Resistance no\n\nYou blow upon the reed used as a focus for the spell, but no audible sound emerges. Nearby animals, however, perk up and await your instruction.\n\nUpon casting commanding whistle and as a standard action at any point during the spell’s duration, you can blow upon the reed to emit a silent command. This allows you to make Handle Animal checks to handle an animal or push one from a distance using the normal DC. You do not need line of sight to an animal to affect it, but the sound of the whistle must reach it: a deaf animal is unaffected, and the spell does not pierce through an area of silence or similar spells.\n\nYou can choose to command only a subset of animals, such as only canines or only equines, but your whistle (and Handle Animal check) affects all creatures of that type that can hear it within the spell’s range.\n\nWhile the spell’s effects are typically only audible to creatures of the animal type, dragons and creatures with echolocation and other sound-based detection can also pick up on the sound, though they are not affected unless they are also animals themselves.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02e836ac57c64c70.json",
+    "web": "https://codex.pipsprojects.com/#/e/02e836ac57c64c70"
+  },
+  "license": "OGL 1.0a"
+}

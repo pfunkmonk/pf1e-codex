@@ -1,0 +1,27 @@
+{
+  "id": "cc45274ef54d9761",
+  "name": "Storm of Needles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [metal]; Level magus 4, sorcerer/wizard 4\n\nCasting Time 1 standard action\n\nComponents V, S, M (a small needle)\n\nRange 30 feet\n\nArea cone-shaped emanation\n\nDuration instantaneous\n\nSaving Throw Reflex half; Spell Resistance no\n\nMetal: Spells with this descriptor include those that directly create, utilize, or manipulate metal in some manner or conjure creatures composed of metal. Such spells are considered to belong to the Metal element (for geomancers) and the metal elemental school (for metal elementalists).\n\nYou unleash a spray of small metal needles in a 30-foot cone. Each creature in the area must make a Reflex save or take 1d4 piercing damage per caster level (maximum 15d4). A successful Reflex save halves this damage.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cc45274ef54d9761.json",
+    "web": "https://codex.pipsprojects.com/#/e/cc45274ef54d9761"
+  },
+  "license": "OGL 1.0a"
+}

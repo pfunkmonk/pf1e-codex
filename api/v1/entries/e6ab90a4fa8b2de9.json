@@ -1,0 +1,30 @@
+{
+  "id": "e6ab90a4fa8b2de9",
+  "name": "Earthen Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 2,
+      "magus": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [earth]; Level bloodrager 2, magus 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCasting Time 1 standard action\n\nComponents V, S, M (A ball of hard-packed earth)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nEffect animated earthen hand\n\nDuration 1 round/level (D)\n\nSaving Throw none; Spell Resistance yes\n\nYou create a large hand to burst up from the ground and attempt to grapple nearby creatures. This hand must be created in a square whose ground is dirt, mud, or earth, but not stone.\n\nThe arm is medium sized and has a CMB equal to your caster level plus your spellcasting ability modifier. The arm cannot move from the square in which they were formed, but it attempts to grapple any creature in an adjacent square. You get to choose if there are multiple targets. If the hand manages to pin a target it begins to deal 1d6 damage plus your spellcasting ability modifier.\n\nThe hand has an AC of 15, a hardness of 4, and 3 hit points per caster level. If the hand is reduced to 0 hit points, it crumbles to dust.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6ab90a4fa8b2de9.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6ab90a4fa8b2de9"
+  },
+  "license": "OGL 1.0a"
+}

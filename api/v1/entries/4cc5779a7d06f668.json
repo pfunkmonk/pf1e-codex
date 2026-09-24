@@ -1,0 +1,25 @@
+{
+  "id": "4cc5779a7d06f668",
+  "name": "Summon Warhound",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 8,
+      "summoner": 6,
+      "witch": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level sorcerer/wizard 8, summoner 6, witch 7\n\nCASTING\n\nCasting Time one round\nComponents V, S, F (DF)\n\nEFFECT\n\nRange close (25 feet + 5 ft./ 2 caster levels)\nEffect Summons a Unique Nessian warhound (CR 11)\nDuration one round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell summons a unique Nessian warhound. Treat it as a Nessian warhound with the following exceptions: It is immune to fire, cold, and acid, and it is immune to all spells 3rd level and below. Black Gnash devours the soul of any creature it kills; they cannot be raised, resurrected, or reincarnated. Wish or miracle is required.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4cc5779a7d06f668.json",
+    "web": "https://codex.pipsprojects.com/#/e/4cc5779a7d06f668"
+  },
+  "license": "OGL 1.0a"
+}

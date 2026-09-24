@@ -1,0 +1,28 @@
+{
+  "id": "5b446fb3122ac66d",
+  "name": "Memento Mori",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Fat Goblin Games",
+  "book": "Fat Goblin Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Fat Goblin Games"
+  },
+  "body": "School necromancy [evil]; Level antipaladin 1, cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget creatures within sight\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou transform yourself into a horrifying vision of death, crawling with maggots and rotting away, exuding the stench of the grave. All creatures that see you are entitled to a Will save; those that fail lose their next standard action (or lose all actions next round if they roll a saving throw of 1).\n\nThose that roll a successful saving throw are immune to further castings of this spell for 24 hours.\n\nKnowledge Check: Last Rites. © 2015, Fat Goblin Games; Authors: Jason Wallace and Richard D. Bennett",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5b446fb3122ac66d.json",
+    "web": "https://codex.pipsprojects.com/#/e/5b446fb3122ac66d"
+  },
+  "license": "OGL 1.0a"
+}

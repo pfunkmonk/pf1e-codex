@@ -1,0 +1,25 @@
+{
+  "id": "de48038388d9d779",
+  "name": "Shed the Rain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "shaman": 2,
+      "elven archer": 1,
+      "ranger": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level druid/shaman 2, elven archer 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a duck feather), DF\n\nEFFECT\n\nRange touch\nTarget one touched creature\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nRain and similar liquids bead and roll off you like water off a duck’s back.\n\nIn addition to your skin, this protection extends to anything you are wearing or carrying. As a result, for example, you can walk outside during a downpour and remain dry. This effect also gives you a +1 circumstance bonus on saving throws against splash attacks, such as acid and flaming oil. Any damage from such attacks is reduced by 1 (but never can be less than 0).\n\nThis spell does not affect gooey liquids or those significantly thicker than water, such as grease. This spell also does not protect against immersion; wading through a puddle or falling into a lake still leaves the affected equipment and body parts soaked. In addition, this spell does not affect items that are already wet.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de48038388d9d779.json",
+    "web": "https://codex.pipsprojects.com/#/e/de48038388d9d779"
+  },
+  "license": "OGL 1.0a"
+}

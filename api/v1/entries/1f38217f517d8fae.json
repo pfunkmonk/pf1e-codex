@@ -1,0 +1,32 @@
+{
+  "id": "1f38217f517d8fae",
+  "name": "Shadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 0,
+      "druid": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "legendary ninja": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [darkness]; Level antipaladin 1, cleric/oracle 0, druid 0, inquisitor 0, magus 0, legendary ninja 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M/DF (a piece of coal)\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes a touched object to absorb light out to a 20-foot radius. This darkness causes the illumination level in the area to drop one step, from bright light to normal light, from normal light to dim light, or from dim light to darkness. This spell has no effect in an area that is already dark. Creatures with light vulnerability or sensitivity take no penalties in normal light. All creatures gain concealment (20% miss chance) in dim light. All creatures gain total concealment (50% miss chance) in darkness. Creatures with darkvision can see in an area of dim light or darkness without penalty.\n\nIf shadow is cast on a small object that is then placed inside or under a light-proof covering, the spell’s effect is blocked until the covering is removed. You can only have one shadow spell active at any one time.\n\nIf you cast this spell while another casting is still in effect, the previous casting is dispelled. Shadow can be used to counter or dispel any light spell of equal or lower spell level. If you make this spell permanent (through permanency or a similar effect), it does not count against this limit.\n\nLegendary Ninjas © 2020, Legendary Games; Authors N. Jolly, Mia Yoshida, Connor Bates, Cerise Herndon, and Nate Wright.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f38217f517d8fae.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f38217f517d8fae"
+  },
+  "license": "OGL 1.0a"
+}

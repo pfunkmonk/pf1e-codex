@@ -1,0 +1,29 @@
+{
+  "id": "9ee951eaf4c4ccc6",
+  "name": "Flame Dash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 2,
+      "elementer": 2,
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "no (see text)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [fire]; Level bloodrager 2, elementer 2, magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nEffect burning wall of fire; see text\nDuration 1 round\nSaving Throw Reflex half (see text); Spell Resistance no (see text)\n\nIn an instant, you dash forward, a swirling mass of flame trailing you and burning your path.\n\nYour speed is increased by 40 feet until the start of your next turn, and your movement does not provoke attacks of opportunity for the same duration. When you move, your are wreathed in flames that scorch the ground and harm any creature you pass. Any creature you pass within 5 feet of must make a Reflex save or take fire damage equal to 3d6 + 1 per caster level (max +10): a successful save halves the damage. A single creature can only be harmed once in this manner by a single casting of this spell, and spell resistance applies.\n\nIn addition, you leave a trail of fire along the ground, assuming you were traveling on the ground while affected by flame dash. A wall of fire as wide as your space (maximum 10 feet wide and 10 feet high) occupies whatever spaces you travel through for the duration, appearing as you leave each space. Each creature that enters into the area of flame takes 2d6 fire damage. A Reflex save halves this damage, and spell resistance applies. The trail lasts until the start of your next turn.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9ee951eaf4c4ccc6.json",
+    "web": "https://codex.pipsprojects.com/#/e/9ee951eaf4c4ccc6"
+  },
+  "license": "OGL 1.0a"
+}

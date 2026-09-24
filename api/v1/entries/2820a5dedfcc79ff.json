@@ -1,0 +1,28 @@
+{
+  "id": "2820a5dedfcc79ff",
+  "name": "Touch of Torment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 0,
+      "druid": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 0, druid 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 1 minute\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nWith a touch, you cause the subject to suffer sharp pains that impose a –1 circumstance penalty on attack rolls, skill checks, and ability checks.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2820a5dedfcc79ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/2820a5dedfcc79ff"
+  },
+  "license": "OGL 1.0a"
+}

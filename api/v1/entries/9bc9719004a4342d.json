@@ -1,0 +1,26 @@
+{
+  "id": "9bc9719004a4342d",
+  "name": "Wall of Caustics",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation) [acid] [earth]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of salt)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea caustic salt wall whose area is up to one 5‑ft. square/2 levels (S)\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a freestanding barrier of caustic salt. A wall of caustics is 1 inch thick per four caster levels and composed of up to one 5‑foot square per level. You can double the wall’s area by halving its thickness. The wall cannot be conjured so that it occupies the same space as a creature or another object.\n\nUnlike a wall of iron, you can create a wall of caustics in almost any shape you desire. The wall created need not be vertical. However, it’s entire length must be supported by a firm foundation. It can be used as a ramp, for example, but not to bridge a chasm (unless the wall of caustics can fill the entire chasm). The wall can be crudely shaped to allow crenelations, battlements, and so forth, though this level of detail reduces the spell’s area by half.\n\nLike any other wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and digging. Each 5‑foot square of the wall has hardness 0 and 10 hit points per inch of thickness. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 10 + 2 per inch of thickness. It is possible, but difficult, to trap mobile opponents within or under a wall of caustics, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.\n\nAny creature attacking the wall with natural weapons, or while adjacent to it, suffers acid damage as the caustic salts of the wall shatter into corrosive dust. Each time such an attack causes hp damage to the wall of caustics, it deals 1d6 points of acid damage to its attacker, +1 per caster level (maximum +20). A creature walking on the wall or forced to squeeze through an area that includes the wall also suffers this damage. (Damage is dealt when the creature first comes in contact with the wall and at the beginning of each round it maintains the contact, though the creature never suffers this damage more than once per round.)\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9bc9719004a4342d.json",
+    "web": "https://codex.pipsprojects.com/#/e/9bc9719004a4342d"
+  },
+  "license": "OGL 1.0a"
+}

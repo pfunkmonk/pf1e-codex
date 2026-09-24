@@ -1,0 +1,23 @@
+{
+  "id": "9882ce7ac7c8f1e5",
+  "name": "Rage Against Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy; Level cleric 3\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, M (a drop of your blood)\n\nEFFECT\n\nRange close (25 feet + 5 feet/2 levels)\nTarget one creature\nDuration concentration + 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nWhen an ally within range gains the dying condition, you can spend 1 point from your ki pool to cast this spell. You can cast this spell on yourself if you are about to gain the dying condition. The target loses the dying condition and any bleed effect is ended. In addition, the target gains the benefits of the rage spell. In addition, every time the target hits with a melee attack it gains 1 temporary hit point; these temporary hit points stack with themselves but not with any other source of temporary hit points.\n\nLegendary Investigators © 2022, Legendary Games; Connor Bates, Andrew J Gibson, Norman Mitchell, Margherita Tramontano, Tara Collins",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9882ce7ac7c8f1e5.json",
+    "web": "https://codex.pipsprojects.com/#/e/9882ce7ac7c8f1e5"
+  },
+  "license": "OGL 1.0a"
+}

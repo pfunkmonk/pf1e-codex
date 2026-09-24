@@ -1,0 +1,17 @@
+{
+  "id": "b5aeffbcbecdc9ef",
+  "name": "Charybdis, Stone Idol",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Fort Scurvy",
+  "book": "Fort Scurvy",
+  "facets": {
+    "bk": "Fort Scurvy"
+  },
+  "body": "Stone idol charybdis\nCR 16\n\nXP 76,800\nStone idol charybdis\nCE Gargantuan construct (aquatic)\nInit +3; Senses blindsight 60 ft., darkvision 120 ft.; Perception +23\nAura stone fear (60 ft., shaken 1 hour, DC 14)\n\nDEFENSE\n\nAC 31, touch 5, flat-footed 31 (-1 Dex, +26 natural, -4 size)\nhp 164 (16d10+76); fast healing 10\nFort +5, Ref +3, Will +8\nDefensive Abilities channel resistance +2, hardness 8, half damage from energy attacks and ranged attacks; DR 10/bludgeoning; Immune acid, construct immunities; Resist cold 20\nWeaknesses vulnerable to sonic\n\nOFFENSE\n\nSpeed 20 ft., swim 50 ft.\nMelee bite +22 (2d8+14/19-20 plus grab), 2 claws +22 (2d6+14)\nSpace 20 ft.; Reach 20 ft.\nSpecial Attacks charming gaze (DC 14), fast swallow, rending claws, swallow whole (6d6 bludgeoning damage plus 6d6 acid damage, AC 23, hp 16), vortex\n\nSTATISTICS\n\nStr 38, Dex 7, Con ?, Int 6, Wis 17, Cha 4\nBase Atk +12; CMB +30 (+34 grapple); CMD 39 (can’t be tripped)\nFeats Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike\nSkills Perception +22, Swim +22\nLanguages Aquan\nSQ creator’s failsafe, power from worship, restless spirit\n\nSPECIAL ABILITIES\n\nRending Claws (Ex)\n\nA charybdis’s claws are particularly devastating when used against objects, and ignore the first 10 points of an object’s hardness rating.\n\nVortex (Su)\n\nA charybdis can generate a whirlpool as a standard action at will. This ability functions identically to the whirlwind special attack, but the whirlpool can only form underwater and cannot leave the water. It’s a DC 25 Reflex save to avoid being caught by it’s vortex. The vortex itself is 20 feet across and 120 feet deep, and deals 2d6+12 points of damage per round. The save DC is Constitution-based. In addition, 1d3 rounds after it rises, a pair of spectral phantoms rise from the depths, surrounded by phantom witches. The phantoms flit menacingly around combatants, locked in struggle with one another. If attacked, they disappear momentarily and then manifest for 1 minute as advanced spectres. If it is permanently destroyed, so are the phantoms.\n\nFort Scurvy © 2018, Legendary Games; Author Jason Nelson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b5aeffbcbecdc9ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/b5aeffbcbecdc9ef"
+  },
+  "license": "OGL 1.0a"
+}

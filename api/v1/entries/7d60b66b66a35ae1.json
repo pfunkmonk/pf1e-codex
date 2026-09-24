@@ -1,0 +1,28 @@
+{
+  "id": "7d60b66b66a35ae1",
+  "name": "Redemption/Temptation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 7,
+      "inquisitor": 6,
+      "oracle": 7
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment [mind-affecting]; Level cleric 7, inquisitor 6, oracle 7\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M (burning incense), DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis works as the “redemption or temptation” part of the atonement spell, except you forcefully warp the target’s mind to adjust to your alignment. The target does not need to be willing, but has to be present for the entire casting of the spell. Upon completion of the spell, the target must succeed at a Will save or change its alignment to exactly match yours and take 2d6 points of Charisma drain. A successful save negates the alignment change and changes Charisma drain to Charisma damage. Any alignment alteration resulting from this spell is mental as well as moral, and the individual changed by the magic thoroughly enjoys his new outlook. Only a wish, a miracle, a psychic surgery or the atonement spell can restore a character’s former alignment, and the affected individual does not make any attempt to return to the former alignment. In fact, he views the prospect with horror and avoids it in any way possible.\n\nThis spell doesn’t work on mindless creatures, outsiders and creatures with an alignment subtype.\n\nMercy of the Sun Copyright 2026 Varyag's Forge Author: Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d60b66b66a35ae1.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d60b66b66a35ae1"
+  },
+  "license": "OGL 1.0a"
+}

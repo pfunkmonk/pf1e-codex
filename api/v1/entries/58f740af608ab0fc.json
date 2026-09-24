@@ -1,0 +1,27 @@
+{
+  "id": "58f740af608ab0fc",
+  "name": "Force of Will",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "paladin": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (charm); Level bard 1, inquisitor 1, mesmerist 1, paladin 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou guard the mind of the target against spells or effects that would cause them to do things against their morals or normal actions. The target gains a +4 resistance bonus on saving throws against charm, compulsion, and fear effects.\n\nForce of Will, Greater\n\nSchool enchantment (charm); Level bard 2, inquisitor 2, mesmerist 2, paladin 2, sorcerer/wizard 2\nDuration 1 min./level\n\nDESCRIPTION\n\nThis spell functions as force of will except the creature casting such a spell on the target must make a Will save or believe the spell worked and is now under their control. The creature protected by this spell is aware of the commands of the controlling spell and can choose to act as that spell dictates to keep up the ruse.\n\nForce of Will, Mass\n\nSchool enchantment (charm); Level bard 2, inquisitor 2, mesmerist 2, paladin 2, sorcerer/wizard 2\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 min./level\n\nDESCRIPTION\n\nThis spell functions as force of will except as noted above.\n\nForce of Will, Mass, Greater\n\nSchool enchantment (charm); Level bard 4, inquisitor 4, mesmerist 4, paladin 4, sorcerer/wizard 4\nTarget one creature/level, no two of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions as greater force of will except as noted above.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58f740af608ab0fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/58f740af608ab0fc"
+  },
+  "license": "OGL 1.0a"
+}

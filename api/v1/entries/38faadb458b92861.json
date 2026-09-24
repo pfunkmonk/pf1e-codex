@@ -1,0 +1,24 @@
+{
+  "id": "38faadb458b92861",
+  "name": "Curse of the Epidemic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "necromancy",
+    "desc": [
+      "disease",
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School necromancy [disease, evil]; Level: antipaladin 5, cleric 5, sorcerer/wizard 5, witch 5\n\nCasting Time: 1 standard action\n\nComponents: V, S\n\nRange: Close (25 ft. + 5 ft./2 levels)\n\nTarget(s): One living creature\n\nDuration: 1 round/level (D)\n\nSaving Throw: Fort negates; Spell Resistance: yes\n\nThis spell causes a single living creature to become a carrier of diseases, poison, and curses. A creature under this curse may pass along any disease, poison, or curse they suffer from or contract while this spell is in effect. Any living creature that comes within 5 ft. of the carrier of curse of the epidemic must make a save vs. each of the carrier’s current diseases, poisons, or curses, although they get a +2 bonus on each save. A creature can only contract one of the bearer’s diseases, poisons or curses. If they fail to save vs. more than one, roll randomly to determine which one they actually contract. The effects passed on by the carrier take effect immediately. A maximum of three living creatures may be affected by the carrier. It is not possible for the carrier to pass along curse of the epidemic itself. A dispel magic or remove curse spell will remove the effects passed on by the carrier, even if they normally cannot be removed by those means. Unlike bestow curse, curse of the epidemic can be removed from the carrier with dispel magic as well as remove curse.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/38faadb458b92861.json",
+    "web": "https://codex.pipsprojects.com/#/e/38faadb458b92861"
+  },
+  "license": "OGL 1.0a"
+}

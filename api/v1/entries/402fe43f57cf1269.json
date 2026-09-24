@@ -1,0 +1,28 @@
+{
+  "id": "402fe43f57cf1269",
+  "name": "Mantle of Wisdom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "psychic": 9,
+      "shaman": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [void]; Level psychic 9, shaman 9, sorcerer/wizard 9\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange personal\n\nTarget self\n\nDuration 1 round/level\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nThis powerful spell tethers you to the Void, sheathing you in a mantle of quintessence that resembles the void of space with the faint glittering of stars that slowly moves along the mantle.\n\nYou gain the benefits of a true seeing spell and all weapon attacks, including natural attacks, unarmed strikes fail to affect you. Any effects from the weapon that would normally trigger upon physically striking you or harming you (such as the energy damage from the flaming weapon enhancement) are likewise not triggered in this way.\n\nAdditionally, because of the overwhelming presence and influence of the Void upon you through this spell, you suffer a huge drawback. You take a -6 circumstance penalty to your saves against spells, with an additional -4 penalty (for a total of -10) against spells with the [void] descriptor.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/402fe43f57cf1269.json",
+    "web": "https://codex.pipsprojects.com/#/e/402fe43f57cf1269"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "138da43e5220f803",
+  "name": "Mine!",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level magus 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close\nDuration 1 min./level or until discharged\nSaving Throw Will (negates); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell renders an object of 15 lbs. or less insubstantial to all creatures but you. You must be able to see the object in order to cast this spell on it. If used offensively (for example, to affect a potion on someone’s belt, a sword in their hand, or their pants), the bearer of the object can negate the spell’s effect with a successful Will save. If an object carried or worn by a creature becomes insubstantial, it falls off the bearer’s body or out of its hand.\n\nIf mine! is cast on a major artifact, the spell automatically fails, and you must make a Will save or be confused for 1 min./level.\n\nObjects affected by mine! are insubstantial to any creature but the caster who tries to grasp, hold, move or attack the object. The objects are not insubstantial in other respects: for example, they do not sink through floors or tables, or pass through walls. A fragile item worn on a belt will still shatter if it hits the ground.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/138da43e5220f803.json",
+    "web": "https://codex.pipsprojects.com/#/e/138da43e5220f803"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "006e61bb5663aaf5",
+  "name": "Sunbeam, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "shaman": 3
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level druid 3, shaman 3\n\nEFFECT\n\nRange 30 ft.\n\nThis ability functions as sunbeam except it creates one beam per four caster levels (maximum of 5 beams at 20th level). The beam dazzles and deals 2d6 points of damage. The damage is doubled against creatures harmed by sunlight and a successful Reflex save halves the damage and negates the dazzled effect. The damage to undead is capped at 5d6 instead of 20d6.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/006e61bb5663aaf5.json",
+    "web": "https://codex.pipsprojects.com/#/e/006e61bb5663aaf5"
+  },
+  "license": "OGL 1.0a"
+}

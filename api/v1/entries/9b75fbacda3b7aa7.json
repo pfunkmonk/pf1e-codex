@@ -1,0 +1,27 @@
+{
+  "id": "9b75fbacda3b7aa7",
+  "name": "Icelance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [cold]; Level druid 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a clear stone, glass or gemstone worth at least 50 gp, or 10 lbs of snow or ice)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one lance of ice\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou must succeed on a ranged touch attack to affect the target with the icelance. If the attack hits, you deal 1d6 damage per level (maximum 10d6).\n\nHalf of the damage is piercing, the other half is cold damage. Additionally, the target must make a Fortitude save or be stunned for 1d4 rounds. After striking or missing its target, the icelance shatters.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b75fbacda3b7aa7.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b75fbacda3b7aa7"
+  },
+  "license": "OGL 1.0a"
+}

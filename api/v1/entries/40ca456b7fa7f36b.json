@@ -1,0 +1,27 @@
+{
+  "id": "40ca456b7fa7f36b",
+  "name": "Spell Conversion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "cleric": 6,
+      "shaman": 6,
+      "magus": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School universal; Level cleric 6, druid/shaman 6, magus 6, wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration instantaneous\n\nDESCRIPTION\n\nThis spell is only usable if you prepare your spells like a wizard or cleric. Upon completing this spell you can exchange one prepared spell for another you have available, via your spell list, spell book or familiar depending upon how you source your spells. The replacement spell must be the same level or lower than the one replaced. The new spell is then prepared and ready as if you had it prepared from the beginning. You may apply metamagic.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40ca456b7fa7f36b.json",
+    "web": "https://codex.pipsprojects.com/#/e/40ca456b7fa7f36b"
+  },
+  "license": "OGL 1.0a"
+}

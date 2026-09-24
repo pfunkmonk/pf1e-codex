@@ -1,0 +1,24 @@
+{
+  "id": "23fc4e9ebea0d326",
+  "name": "Slingshot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "special",
+    "sr": "yes (for target)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a toy catapult)\n\nEFFECT\n\nRange Medium (100 ft.+10 ft./level)\nTarget one Small creature per caster level\nDuration instantaneous\nSaving Throw Fort negates (for target); Spell Resistance yes (for target)\n\nDESCRIPTION\n\nThis spell fires one or more Small or smaller creatures as if from a catapult. The fired creature is immediately given a free movement and charge attack. If the catapulted creature fails a DC 15 Acrobatics check, it falls prone before it can attack and loses the +2 to attack due to charge, but it still receives the free move action (meaning it can stand up).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/23fc4e9ebea0d326.json",
+    "web": "https://codex.pipsprojects.com/#/e/23fc4e9ebea0d326"
+  },
+  "license": "OGL 1.0a"
+}

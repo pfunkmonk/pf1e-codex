@@ -1,0 +1,23 @@
+{
+  "id": "d12269b610afbc8b",
+  "name": "Dispelling Glyph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 full round action\nComponents S, M (rare inks worth 1,000 gp)\n\nEFFECT\n\nRange personal\nEffect one or more dispelling glyphs\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou call forth a writhing, inky glyph of dark force for every four caster levels you possess.\n\nThese slithering inscriptions orbit your person to intercept hostile magics. Each glyph counters a single spell, treated as a targeted dispel magic at your caster level. Scribing the glyphs requires inks made with aboleth ichor and powdered stone ioun essence.\n\nNo more than one glyph can trigger in a single round, and a glyph is expended regardless of the results of the dispel check. At 14th level, the glyphs are treated as greater dispel magic for the purposes of countering spells.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d12269b610afbc8b.json",
+    "web": "https://codex.pipsprojects.com/#/e/d12269b610afbc8b"
+  },
+  "license": "OGL 1.0a"
+}

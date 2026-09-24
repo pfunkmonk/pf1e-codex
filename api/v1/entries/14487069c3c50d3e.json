@@ -1,0 +1,28 @@
+{
+  "id": "14487069c3c50d3e",
+  "name": "Moonburst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 7,
+      "witch": 7
+    },
+    "desc": [
+      "cold",
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, light]; Level druid/shaman 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a claw)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 60-foot burst\nDuration Instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an explosive globe of moonlight in the area, dealing 1d6 cold damage per level (maximum 20d6) to all creatures in the area. If the affected creature is undead or has DR that is bypassed by silver, this spell instead deals 1d8 untyped damage per class level (maximum 20d8). A successful Fortitude save halves the damage.\n\nIf there is a darkness or deeper darkness spell or similar effect within the radius, it is dispelled.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14487069c3c50d3e.json",
+    "web": "https://codex.pipsprojects.com/#/e/14487069c3c50d3e"
+  },
+  "license": "OGL 1.0a"
+}

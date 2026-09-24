@@ -1,0 +1,28 @@
+{
+  "id": "93ea413df059072f",
+  "name": "Stanch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "paladin": 1,
+      "wizard": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level antipaladin 1, cleric/oracle 1, inquisitor 1, ranger 1, paladin 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hr./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou coagulate the target’s blood. The target is stabilized if dying, all bleed effects upon it end, and it is immune to bleed effects for the duration of the spell.\n\nIt also cannot be the source of blood for any spell or effect that requires even a drop of blood be taken from a creature to cast the spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93ea413df059072f.json",
+    "web": "https://codex.pipsprojects.com/#/e/93ea413df059072f"
+  },
+  "license": "OGL 1.0a"
+}

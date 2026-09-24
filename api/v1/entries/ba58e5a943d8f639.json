@@ -1,0 +1,32 @@
+{
+  "id": "ba58e5a943d8f639",
+  "name": "Blood Mantra",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "bard": 1,
+      "death mage": 1,
+      "mesmerist": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [emotion, mind-affecting]; Level adept 1, bard 1, death mage 1, mesmerist 1, shaman 1, witch 1\n\nCAST\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 60 ft.\nArea the caster and all allies within a 60-ft. Burst, centered on the caster\nDuration concentration, up to 1 round/level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou let out a chant or series of sounds that resound that heightens the blood of you and your allies. For as long as you concentrate on the spell, you and your allies gain a +2 morale bonus on attack rolls, damage rolls, and saving throws.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ba58e5a943d8f639.json",
+    "web": "https://codex.pipsprojects.com/#/e/ba58e5a943d8f639"
+  },
+  "license": "OGL 1.0a"
+}

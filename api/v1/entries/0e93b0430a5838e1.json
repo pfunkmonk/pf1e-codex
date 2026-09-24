@@ -1,0 +1,26 @@
+{
+  "id": "0e93b0430a5838e1",
+  "name": "Sacred Servant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3
+    },
+    "desc": [
+      "healing"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [healing]; Level cleric/oracle 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, DF\n\nEFFECT\n\nRange close (25 ft. +5 ft./level)\nEffect one healing sphere of light\nDuration 1 round/1 level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a small ball of light, similar in appearance to a will-o’-wisp, that hovers about a foot off the ground.\n\nAs a move action, you can direct the sacred servant to move to and touch one living target in range, restoring hp equal to 1d6 + your Wisdom modifier.\n\nThe sacred servant cannot make attack rolls and thus cannot use its positive energy to damage undead or other creatures damaged by positive energy. The sacred servant cannot be harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it normally.\n\nIf a touched creature has spell resistance, make a caster level check (1d20 + caster level) against that spell resistance the first time the sacred servant touches the creature. If the sacred servant is successfully resisted, the spell is dispelled. If not, the sacred servant has its normal full effect on that creature for the duration of the spell.\n\nSacred Servant, Greater\n\nSchool conjuration [summoning]; Level cleric/oracle 5\n\nDESCRIPTION\n\nAs sacred servant, but the greater servant restores hp equal to 2d6 + your Wisdom modifier.\n\nMythic: The sacred servant heals 2d6 hp + your Wisdom modifier + your mythic tier hit points. The sacred servant can also attack undead. On a successful touch attack, using your own attack modifier, the sacred servant deals positive energy damage equal to 2d6 hp + your Wisdom modifier + your mythic tier to undead. Mythic undead get a Will save to halve the damage, but non-mythic creatures do not.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e93b0430a5838e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e93b0430a5838e1"
+  },
+  "license": "OGL 1.0a"
+}

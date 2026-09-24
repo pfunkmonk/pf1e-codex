@@ -1,0 +1,24 @@
+{
+  "id": "88473cf9cd0c1cbe",
+  "name": "Fortune’s Frown",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "oracle": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level bard 1, cleric/oracle 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V,S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level; see text (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target creature becomes unlucky. Any luck bonuses the target possesses are immediately dispelled for the duration of the spell. In addition, when the target rolls a d20, it must roll two d20s and take the worse result.\n\nThis effect lasts for the duration of the spell or after 1d4 rounds, whichever comes first.\n\nMythic: The target also takes a penalty to attack rolls, saving throws, skill checks, and ability checks equal to half your mythic tier (minimum 1). This effect and all others last for 1 min./level.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/88473cf9cd0c1cbe.json",
+    "web": "https://codex.pipsprojects.com/#/e/88473cf9cd0c1cbe"
+  },
+  "license": "OGL 1.0a"
+}

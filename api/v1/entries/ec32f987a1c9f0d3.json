@@ -1,0 +1,26 @@
+{
+  "id": "ec32f987a1c9f0d3",
+  "name": "Chains of Shadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 3,
+      "lathspell": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (shadow); Level antipaladin 3, lathspell 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (links of a chain, painted black)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius burst\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a burst of shadow chains in a target point.\n\nCreatures in the area that fail a Will save are dazed for 1 round and are entangled for the rest of the duration.\n\nThey can attempt to break free of the shadowy chains by making a Strength or Escape Artist check against a DC of 10 + your caster level, as a full-round action. If the target makes their Will save, or they escape the chains, they treat the area as difficult terrain.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ec32f987a1c9f0d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/ec32f987a1c9f0d3"
+  },
+  "license": "OGL 1.0a"
+}

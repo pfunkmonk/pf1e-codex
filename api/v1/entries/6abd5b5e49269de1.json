@@ -1,0 +1,28 @@
+{
+  "id": "6abd5b5e49269de1",
+  "name": "Metal Coating",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "legendary hunter": 2,
+      "ranger": 2
+    },
+    "desc": [
+      "herbal"
+    ],
+    "save": "special",
+    "sr": "Fortitude (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [herbal]; Level druid 2, legendary hunter 2, ranger 2\n\nCASTING\n\nCasting Time 3 rounds\nComponents S, H\n\nEFFECT\n\nRange touch\nTarget item or natural weapon touched\nDuration 10 min/level\nSaving Throw Fort negates (harmless); Spell Resistance Fortitude (harmless)\n\nDESCRIPTION\n\nNote Herbal spells use raw components from the environment to enhance their potency. Herbs, plants, mineral water, and occasionally common animal components can be harvested in many locations, at the GM’s discretion. Foraging for the necessary materials takes 1 minute and requires a survival check with a DC equal to 10 + twice the level of the spell. Such materials need to be used within 1 minute to remain potent. If successful, the spell may then be cast. The GM may apply a +5 or -5 modifier for especially fertile or sterile areas. If the spellcaster can beat the DC by 20, he finds sufficient materials to cast the spell without using a spell slot. Using herbal spells without raw components is possible by substituting large amounts of rare herbs. For every level of the spell, an herbal spell will cost 10 gp to cast.\n\nYou administer a herbal paste that coats a weapon or natural weapon that grants the weapon a particular metallic coating. The spell-paste grants the weapon either the cold-iron or silver property, chosen at the time of casting. The paste may be applied to a set of 50 ammunition. There is no penalty to damage or increased cost to enchanting the weapon while the spell-paste is applied.\n\nLegendary Hunters © 2020, Legendary Games; Authors Connor Bates, Cerise Herndon, and W. Hervay",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6abd5b5e49269de1.json",
+    "web": "https://codex.pipsprojects.com/#/e/6abd5b5e49269de1"
+  },
+  "license": "OGL 1.0a"
+}

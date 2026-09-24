@@ -1,0 +1,27 @@
+{
+  "id": "e6a287b2e3fce4de",
+  "name": "Prismatic Meteor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget up to 5 creatures no two of which can be more than 15 ft. apart\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA small, brightly glowing prismatic meteor darts forth from your fingertips to strike your enemies. Each meteor requires a ranged touch attack to hit and deals 2d6 hp fire damage. Creatures struck by a meteor are also dazzled for a number of rounds equal to your caster level. On a critical hit, the target is instead blinded for a number of rounds equal to your caster level.\n\nFor every two caster levels beyond 5th, you gain an additional meteor-two at 7th level, three at 9th and so on to a maximum of five at 13th level. A target struck by multiple meteors must make saving throws against each to resist the spell’s secondary effect (the duration of which does not stack). Sightless creatures are not affected by a prismatic meteor’s secondary effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6a287b2e3fce4de.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6a287b2e3fce4de"
+  },
+  "license": "OGL 1.0a"
+}

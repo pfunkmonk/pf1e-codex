@@ -1,0 +1,28 @@
+{
+  "id": "9869a0c833288b2b",
+  "name": "Hardened Surface",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "earth",
+      "stronghold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [earth, stronghold]; Level cleric 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange touch\nArea one 5-foot-square area per 2 levels, 1 foot thick\nDuration permanent\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou cause the surface of a permanent structure within your stronghold, such as a wall, door, or statue, to become harder and more durable, increasing its hardness by 1 per 2 caster levels and adding 2 hit points per caster level to each 5-foot square you affect. The hardened surface extends 1 foot deep into the structure. If you wish to harden the entire thickness of an object that is thicker than 1 foot, you can cast hardened surface repeatedly in the same area, with each casting increasing its depth by 1 foot. While this spell increases the surface’s resistance to physical damage, it does not alter the fundamental characteristics of the material that makes up the structure. A wall of paper or straw still can be set aflame, a structure of snow or ice can melt, and so on.\n\nThis spell also can be used to harden structures made of snow and ice. When cast in this way, this spell gains the cold and water subtypes.\n\nIf you establish a new stronghold, any hardened surface spells you cast in your former stronghold begin to fade, ending after one day per caster level passes.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9869a0c833288b2b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9869a0c833288b2b"
+  },
+  "license": "OGL 1.0a"
+}

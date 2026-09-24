@@ -1,0 +1,30 @@
+{
+  "id": "2baffb99c71e4dbc",
+  "name": "Shriek of the Byakhee",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "occultist": 5,
+      "psychic": 5,
+      "wizard": 5,
+      "summoner": 5
+    },
+    "desc": [
+      "chaotic",
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School conjuration (summoning) [chaotic, evil]; Level occultist 5, psychic 5, sorcerer/wizard 5, summoner 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level) Effect one byakhee\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance no\n\nDESCRIPTION\n\nYou summon one byakhee to attack a target you designate when you finish casting the spell.\n\nThe targeted creature can interfere with your control with a successful Will save. If the target creature succeeds at this saving throw, the byakhee attacks the target’s nearest apparent foes for 1d4 rounds and then vanishes or attacks you. Regardless of the results of the save, it does not follow the target’s orders. If the target dies, the byakhee vanishes. The byakhee must be one known to you or which you have researched extensively, which generally requires 1d4 weeks and a successful Knowledge (planes) check against DC 15 + CR.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2baffb99c71e4dbc.json",
+    "web": "https://codex.pipsprojects.com/#/e/2baffb99c71e4dbc"
+  },
+  "license": "OGL 1.0a"
+}

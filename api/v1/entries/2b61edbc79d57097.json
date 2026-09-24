@@ -1,0 +1,28 @@
+{
+  "id": "2b61edbc79d57097",
+  "name": "Cursed Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "lathspell": 4,
+      "witch": 5
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 4, lathspell 4, witch 5\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange touch\nTarget one melee weapon\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou coat a weapon in powerful necromantic energy causing it to leave truly grievous wounds.\n\nThe weapon gains the wounding magic weapon property and any damage dealt by the weapon cannot be healed by magical or natural means until the damaged creature has been subject to a remove curse spell or similar effect which would remove a curse. If a creature is slain by a weapon benefiting from this spell the body must likewise be purged of this effect before the creature can be raised or resurrected.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b61edbc79d57097.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b61edbc79d57097"
+  },
+  "license": "OGL 1.0a"
+}

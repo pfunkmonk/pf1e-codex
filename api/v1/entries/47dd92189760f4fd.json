@@ -1,0 +1,17 @@
+{
+  "id": "47dd92189760f4fd",
+  "name": "Bone Reaper Reflection (3pp)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Rappan Athuk",
+  "book": "Rappan Athuk",
+  "facets": {
+    "bk": "Rappan Athuk"
+  },
+  "body": "The reflection appears as a hazy representation of the large humanoid statue bearing large, bony hooks mounted where hands should be, not unlike the claws of a praying mantis. The perspective is quite disorienting.\n\nBone Reaper Reflection\nCR 10\n\nXP 9,600\nN Large Construct\nInit +2; Senses darkvision 60 ft., low-light vision; Perception +0\n\nDEFENSE\n\nAC 20, touch 11, flat-footed 18 (+2 Dex, +9 natural, –1 size)\nhp 90 (11d10+30)\nFort +3; Ref +5; Will +3\nDefensive Abilities reflection; DR 15/adamantine; Immune bone reaper traits, construct traits\n\nOFFENSE\n\nSpeed 40 ft. (can’t run)\nMelee 2 claws +15 (1d8+5/x4)\nSpace 10 ft.; Reach 10 ft.\n\nSTATISTICS\n\nStr 20, Dex 14, Con —, Int —, Wis 11, Cha 1\nBase Atk +11; CMB +17; CMD 29\n\nSPECIAL ABILITIES\n\nBone Reaper Traits (Ex)\n\nThe bone reaper reflection takes no damage from fire attacks; instead, fire heals the reaper one hit point for every 3 points of damage inflicted, and breaks any slow effects. At least 5 points of electrical damage in a single attack slows the reaper for 1 round. It is affected by rust attacks normally. It is immune to all other spells and effects that would not affect a golem. Finally, any damage that is done to the statue anchoring the bone reaper is also inflicted upon the bone reaper reflection (and vice versa).\n\nReflection (Su)\n\nThe bone reaper can only be directly attacked by viewing its reflection and striking blindly at where it would be from that view. This incurs a –4 circumstance penalty to attack rolls and CMB checks and a –2 circumstance penalty to AC against its attacks. Note that this is not invisibility, and see invisibility or even true seeing does not allow one to look directly at the bone reaper reflection’s effective location.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary\nTreasure none\n\nRappan Athuk © 2012 Frog God Games; Authors: Bill Webb, Matt Finch, Clark Peterson, WDB Kenower, Greg Raglund, Greg Vaughan, and Skeeter Green.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/47dd92189760f4fd.json",
+    "web": "https://codex.pipsprojects.com/#/e/47dd92189760f4fd"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "93cb5a316678611d",
+  "name": "Wheeze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "arcanist": 2,
+      "wizard": 2,
+      "warpriest": 3,
+      "hunter": 3,
+      "magus": 2,
+      "ranger": 3,
+      "shaman": 3,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy; Level antipaladin 3, arcanist 2, sorcerer/wizard 2, cleric/oracle/warpriest 3, druid/hunter 3, magus 2, ranger 3, shaman 3, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 3 rounds/level (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou lob brackish miasma straight into the target’s mouth. As long as the spell is in effect, the time required to reset the target’s breath weapon is increased by 1d6 rounds. Once the spell ends, the obstruction is cleared and the reset modifier is removed immediately.\n\nWounding Wheeze\n\nSchool necromancy; Level antipaladin 4, arcanist 3, sorcerer/wizard 3, cleric/oracle/warpriest 4, druid/hunter 4, magus 3, ranger 4, shaman 4, witch 3\n\nAs wheeze, but if the target employs its breath weapon, the miasma boils and burns inside the target’s mouth, dealing 4d8 plus 1 point of damage per caster level of either fire or acid damage (your choice) to the target.\n\nBook of Magic: Dragon Spells and Archetypes. 2017, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93cb5a316678611d.json",
+    "web": "https://codex.pipsprojects.com/#/e/93cb5a316678611d"
+  },
+  "license": "OGL 1.0a"
+}

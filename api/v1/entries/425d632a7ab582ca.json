@@ -1,0 +1,23 @@
+{
+  "id": "425d632a7ab582ca",
+  "name": "Frame",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a scrap of goatskin)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level or until discharged\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell transfers your bad luck to another. You nominate a creature within range to be the recipient of your misfortune. If the target fails its saving throw, the two of you are linked. While the spell is in effect, if you fail an attack roll, saving throw or skill check, you may choose to transfer that failed roll to the target and roll again. You cannot transfer more than one roll and must accept the results of your second roll. Once you have successfully transferred a bad roll to the target, the next attack roll, saving throw or skill check the target makes must use the result of your die roll before your own modifiers.\n\nNote that the target must be within range of the spell when it is cast, but after it has taken effect, the spell lasts to its duration no matter how far away the scapegoat is.\n\nFrame, Greater\n\nSchool abjuration; Level sorcerer/wizard 4\n\nDESCRIPTION\n\nAs frame, except you may transfer multiple poor rolls to the target. The target may have only one transferred roll “in the wings” at a time; if the target has yet to take an action that would use the transferred roll (for instance, if the target chooses to move instead of attacking), you cannot transfer another poor roll to him. If the target is paralyzed, knocked unconscious, killed or otherwise rendered incapable of action, you cannot choose a second target.\n\nYou may transfer a maximum of one poor roll per three caster levels to the scapegoat by use of this spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/425d632a7ab582ca.json",
+    "web": "https://codex.pipsprojects.com/#/e/425d632a7ab582ca"
+  },
+  "license": "OGL 1.0a"
+}

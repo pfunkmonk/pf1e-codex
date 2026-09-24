@@ -1,0 +1,24 @@
+{
+  "id": "503ae23e5cfa14c8",
+  "name": "Call of the Bloodstone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (Compulsion); Level bard 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a bloodstone worth 500 gp)\n\nEFFECT\n\nRange unlimited\nTarget one creature\nDuration see text\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA specific creature you name (a creature without a name is immune) must immediately attack the nearest creature it is aware of. After the subject attacks once, the spell ends (regardless of success). The subject may have to pass through dangerous areas (moving through a region covered by enemy archers) to get at the creature, or it may even have to break through a barrier. A barrier that requires more than 5 rounds to get through is considered impassable for the purposes of this spell. The spell ends immediately if the subject physically cannot reach the creature-including a situation forcing the subject to pass through an area that would, without a doubt, kill it. For example, a subject that breathes only in water but must cross land to reach its target is unaffected by the spell.\n\nWhile under the effects of protection from evil or a similar spell, the subject can ignore the compulsion, but such a ward does not prevent establishing call of the bloodstone, nor dispel it.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/503ae23e5cfa14c8.json",
+    "web": "https://codex.pipsprojects.com/#/e/503ae23e5cfa14c8"
+  },
+  "license": "OGL 1.0a"
+}

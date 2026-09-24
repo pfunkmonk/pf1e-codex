@@ -1,0 +1,27 @@
+{
+  "id": "35a5abe41d8cbd46",
+  "name": "Daze Animal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 0,
+      "ranger": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level druid 0, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of fur from an animal)/DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one animal of 4 HD or less\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis enchantment clouds the mind of an animal with 4 or fewer Hit Dice so that it takes no actions. Animals of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/35a5abe41d8cbd46.json",
+    "web": "https://codex.pipsprojects.com/#/e/35a5abe41d8cbd46"
+  },
+  "license": "OGL 1.0a"
+}

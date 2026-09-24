@@ -1,0 +1,34 @@
+{
+  "id": "fb5b88010084042e",
+  "name": "Pledge Brand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 2,
+      "bard": 2,
+      "cleric": 2,
+      "inquisitor": 2,
+      "paladin": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "curse",
+      "language-dependent"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School enchantment [curse, language-dependent]; Level adept 2, bard 2, cleric 2, inquisitor 2, paladin 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (henna ink worth at least 1 gp)\n\nEFFECT\n\nRange touch\nTarget one willing creature\nDuration 1 week/level, or until fulfilled (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou intone a command of no more than twenty words while inscribing a tattoo around a non-vital part of the target’s anatomy: a finger, toe, ear, nose, tail, or tongue. The command can take many forms, including prescribing a course of action (‘deliver this gold to the thieves’ guild within seven days’) or prohibiting certain actions (‘do not speak unless first spoken to’), but the command must be amenable to the target creature. If the command is broken at any point during the spell’s duration, the tattoo amputates the anatomical part it encircles and the spell ends. The wound closes after the amputation as if completely healed.\n\nIf the command takes the form of a prescribed action and that action is completed by the target, the spell ends without ill-effect to the target.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb5b88010084042e.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb5b88010084042e"
+  },
+  "license": "OGL 1.0a"
+}

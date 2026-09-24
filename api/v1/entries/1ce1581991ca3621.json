@@ -1,0 +1,17 @@
+{
+  "id": "1ce1581991ca3621",
+  "name": "Mantis Shrimp Lord",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Centipedes Reforged",
+  "book": "Centipedes Reforged",
+  "facets": {
+    "bk": "Centipedes Reforged"
+  },
+  "body": "Mantis Shrimp Lord\nCR 14\n\nXP 38,400\nN Large vermin (aquatic)\nInit +6; Senses darkvision 60 ft., incredible sight; Perception +2\n\nDEFENSE\n\nAC 27, touch 15, flat-footed 21 (+6 Dex, +12 natural, -1 size)\nhp 199 (21d8+105)\nFort +17, Ref +13, Will +9\nImmune mind-affecting effects; Resist sonic 20\n\nOFFENSE\n\nSpeed 50 ft.; swim 40 ft.\nMelee 2 pincers +22/+17/+12 (3d6+8 plus grab and sonic burst)\nSpace 10 ft.; Reach 10 ft.\nSpecial Attacks sonic burst, speedy pincers\n\nSTATISTICS\n\nStr 26, Dex 23, Con 20, Int —, Wis 15, Cha 16\nBase Atk +15; CMB +24 (+28 grapple); CMD 40 (52 vs. trip)\n\nSPECIAL ABILITIES\n\nDevastating Pincers (Ex)\n\nA mantis shrimp lord can make iterative attacks with its pincers and ignores the first 20 points of hardness when attacking objects.\n\nIncredible Sight (Ex)\n\nA mantis shrimp lord’s eyes pick up colors well beyond those visible to humans, and it can see perfectly in all light conditions, including supernatural darkness. As long as the mantis shrimp lord is not blinded, it is treated as having blindsight 60 feet.\n\nSonic Burst (Ex)\n\nA mantis shrimp lord attacks with such extreme speed that its pincers issue a concussive blast of light and force when they snap closed. Each time a mantis shrimp lord makes a pincer attack, whether it hits or misses, each creature in a 20-foot-radius burst centered on the attack’s target takes 2d6 points of sonic damage and must succeed at a DC 25 Fortitude save or be stunned for 1 round. A creature that succeeds at this save is immune to the stun effect from additional sonic bursts from that mantis shrimp lord until the vermin’s next turn, but it still takes sonic damage from additional sonic bursts. The mantis shrimp lord is immune to this effect. The save DC is Constitution-based.\n\nECOLOGY\n\nEnvironment warm water\nOrganization solitary\nTreasure none\n\nCentipedes Reforged Copyright 2025 Varyag's Forge Author Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ce1581991ca3621.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ce1581991ca3621"
+  },
+  "license": "OGL 1.0a"
+}

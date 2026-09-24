@@ -1,0 +1,24 @@
+{
+  "id": "ef16480848999055",
+  "name": "Donor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a needle)/DF\n\nEFFECT\n\nRange touch (see text)\nTarget two creatures, both of which can be no more than 10 ft. apart (see text)\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nBy means of this spell, you can transfer hit points from yourself or a donor creature to another creature. The donor must be within 10 feet of the subject. If the donor is unwilling, you must succeed at a melee touch attack. You can serve as the donor, but cannot be the recipient of this spell’s effects.\n\nFor every hit point you drain from the donor, you transfer an equal amount to the subject. Using this spell, you can drain and transfer a total number of hit points equal to your caster level.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ef16480848999055.json",
+    "web": "https://codex.pipsprojects.com/#/e/ef16480848999055"
+  },
+  "license": "OGL 1.0a"
+}

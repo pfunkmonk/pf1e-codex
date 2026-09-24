@@ -1,0 +1,17 @@
+{
+  "id": "5612eefafc1b9a2f",
+  "name": "Clockwork Mage Apprentice",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Mechanical Monsters",
+  "book": "Mechanical Monsters",
+  "facets": {
+    "bk": "Mechanical Monsters"
+  },
+  "body": "Clockwork Mage Apprentice\nCR 9\n\nXP 6,400\nVariant clockwork mage\nN Medium construct (clockwork)\nInit +9; Senses darkvision 60 ft., low-light vision; Perception +17\n\nDEFENSE\n\nAC 23, touch 15, flat-footed 18 (+5 Dex, +8 natural)\nhp 117 (15d10+35)\nFort +9, Ref +14, Will +11\nDefensive Abilities hardness 10; Immune construct traits\nWeaknesses vulnerable to critical hits, vulnerable to electricity\n\nOFFENSE\n\nSpeed 30 ft.\nMelee 4 slams +18 (1d6+3)\nSpecial Attacks electromagnetic casting, wand magic\nConjuration Spells Known (CL 9th; concentration +4)\n\n3rd (1)—stinking cloud (DC 8)\n2nd (3)—glitterdust (DC 7), web (DC 7)\n1st (at will)—grease, summon monster I\n\nSTATISTICS\n\nStr 16, Dex 21, Con —, Int 10, Wis 14, Cha 1\nBase Atk +15; CMB +18; CMD 33\nFeats Combat Casting, Great Fortitude, Improved Initiative, Improved Natural Attack (slams), Iron Will, Lightning Reflexes, Power Attack, Toughness\nSkills Knowledge (arcana) +5, Knowledge (engineering) +5, Knowledge (geography) +5, Perception +17\nLanguages Aklo, Common\nGear +2 cloak of resistance\n\nSPECIAL ABILITIES\n\nElectromagnetic Casting (Su)\n\nA clockwork apprentice infuses its spells with electromagnetic energy. A creature targeted by a clockwork apprentice’s spell or within the area of a clockwork apprentice’s spell when it is cast takes 1d6 points of electricity damage and 1d6 points of force damage in addition to experiencing the effects of the spell, regardless of whether the creature succeeds or fails its saving throw (or whether a saving throw is allowed).\n\nMechanical Monsters © 2023, Legendary Games; Authors: Jason Nelson, Tom Phillips, Mike D. Welham, Matt Goodall, Alex Riggs, Matt Daley.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5612eefafc1b9a2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/5612eefafc1b9a2f"
+  },
+  "license": "OGL 1.0a"
+}

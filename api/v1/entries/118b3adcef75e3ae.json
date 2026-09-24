@@ -1,0 +1,27 @@
+{
+  "id": "118b3adcef75e3ae",
+  "name": "Excavate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [earth]; Level druid 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a trowel or any digging tool)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect see text\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a hole in earth, clay, packed dirt, or stone, but not in harder materials such as processed or forged metals or non‑earthen material such as wood. The size of the hole is dependent on the hardness of the material excavated. When used on earthen materials of hardness 7 or less, the spell can create a hole as large as one five-foot-cube per level. Against materials with a hardness of 8 or more (including most stone, rock, and masonry), the spell effect is reduced to no more than one cubic foot per level. Materials with a hardness greater than 15 are not affected by this spell.\n\nHoles created by the excavate spell may be any simple geometric shape, such as a hemisphere, cube or trench. It is not possible to create complex tunnel systems or mazes with a single use of the spell, though such things could be constructed by connecting numerous smaller holes from multiple castings.\n\nAlternatively, you may also cast this spell on a creature of the [earth] subtype, as a single-target spell. Rather than it’s normal effect, the excavate deals 1d6 points of damage (a successful Fortitude save halves the damage).\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/118b3adcef75e3ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/118b3adcef75e3ae"
+  },
+  "license": "OGL 1.0a"
+}

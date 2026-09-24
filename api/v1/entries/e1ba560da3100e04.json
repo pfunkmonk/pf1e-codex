@@ -1,0 +1,31 @@
+{
+  "id": "e1ba560da3100e04",
+  "name": "Chromatic Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 4,
+      "magus": 4,
+      "mesmerist": 4,
+      "occultist": 4,
+      "psychic": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [light]; Level bard 4, magus 4, mesmerist 4, occultist 4, psychic 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one willing creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou wrap the target in armor made from sheets of colored light. The armor sheds bright light for 20 feet and dim light for the next 20 feet. Whenever an adjacent creature attacks the target or attacks the target with a melee natural weapon, the attacker must make a Will save at the end of its turn. On a failure, it is dazzled until the end of its next turn.\n\nWhen you cast the spell, roll 1d8 twice on the table below to see the armor’s colors (re-rolling any duplicates). Each color grants resistance equal to 5 against the indicated energy type. On a roll of 8, the armor matches the damage most recently taken, if there was none or the armor already has resistance to that type, roll again. This resistance increases by 5 every 4 caster levels after 7th, to a maximum of 20 at 19th. You can spend a standard action on your turn to adjust the colors affecting a target of this spell. A single creature can only benefit from one casting of chromatic armor at a time.\n\nd8\tDamage Type\n1\tRed: fire\n2\tOrange: acid\n3\tYellow: electricity\n4\tGreen: cold\n5\tBlue: sonic\n6\tIndigo: negative energy\n7\tViolet: force\n8\tMatching color or roll again, re-rolling any results of 8.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1ba560da3100e04.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1ba560da3100e04"
+  },
+  "license": "OGL 1.0a"
+}

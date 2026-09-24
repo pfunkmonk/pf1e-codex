@@ -1,0 +1,29 @@
+{
+  "id": "9246496087e9702a",
+  "name": "Listless Obeisance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 3,
+      "shaman": 3,
+      "spiritualist": 3,
+      "focus stare": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level mesmerist 3, shaman 3, spiritualist 3, witch 3; Focus stare 3\n\nCASTING\n\nCasting Time 1 full-round action\nComponents V, S\n\nEFFECT\n\nRange close\nTarget one humanoid\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou suppress a humanoid’s agency, leaving it beholden to your will. A creature who fails its saving throw stops whatever it is doing with a distant expression, awaiting you to tell it what to do. It understands commands to the limit of its Intelligence score, and may be given instructions ahead of time, but the spell does not grant you means to communicate with it. While it has no instructions from you, or its current tasks are fulfilled, it will remain stationary. Even when ordered to act, the target lacks any motivation or impetus. Its movement speed is halved, and it may only take one standard or move action each turn. This penalty stacks with the staggered condition. It can attempt noncombat actions that require a round or more to complete, but takes twice as long as normal. Its expression and slow movements are obviously out of place; a DC 5 Sense Motive check is sufficient for others to recognize its enchanted state. While under your spell, the target cannot benefit from morale bonuses. However, receiving a morale bonus, as well as taking damage, suffering a harmful condition, each round it spends unable to enact your orders, being left without any, or being made to act against its nature, grants it an additional saving throw to end the effect, up to once per round.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9246496087e9702a.json",
+    "web": "https://codex.pipsprojects.com/#/e/9246496087e9702a"
+  },
+  "license": "OGL 1.0a"
+}

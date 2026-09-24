@@ -1,0 +1,17 @@
+{
+  "id": "646da49c00f15eca",
+  "name": "Devouring Mist",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Rappan Athuk",
+  "book": "Rappan Athuk",
+  "facets": {
+    "bk": "Rappan Athuk"
+  },
+  "body": "This drifting nightmare resembles a cloud of dark red vapor about 10 ft. in diameter.\n\nDevouring Mist\nCR 10\n\nXP 9,600\nNE Large undead (swarm)\nInit +4; Senses darkvision 60 ft.; Perception +26\n\nDEFENSE\n\nAC 13, touch 13, flat-footed 9 (+3 Dex, +1 dodge, –1 size)\nhp 133 (14d12+42)\nFort +9; Ref +10; Will +12\nDefensive Abilities channel resistance +4, swarm traits;\nImmune undead traits, weapon damage; SR 24\nWeaknesses swarm traits\n\nOFFENSE\n\nSpeed fly 40 ft. (perfect)\nMelee swarm (blood drain)\nSpace 10 ft.; Reach 0 ft.\nSpecial Attacks create spawn, distraction (DC 20)\n\nSTATISTICS\n\nStr 1, Dex 19, Con —, Int 8, Wis 16, Cha 16\nBase Atk +10; CMB —; CMD—\nFeats Dodge, Great Fortitude, Improved Channel Resistance*, Lightning Reflexes, Mobility, Skill Focus (Perception), Skill Focus (Stealth)\nSkills Fly +27, Perception +26, Stealth +20 (+30 in the Bloodways); Racial Modifiers +10 circumstance bonus on Stealth checks while in the red mists of the Bloodways\n\nSPECIAL ABILITIES\n\nBlood Drain (Ex)\n\nCreatures in the devouring mist’s space at the end of its movement each round take 1d4 points of Constitution damage as it siphons blood out of the victim’s body. For every point so drained, the devouring mist heals 5 hit points of damage. Creatures without blood take no damage from the devouring mist.\n\nCreate Spawn (Su)\n\nAny creature slain by a devouring mist rises as a vampire spawn in 1d4 days, unless the remains are blessed. If the victim had more than 5 hit dice, there is a 1% chance per hit die that it arises as a full-fledged vampire instead, or a 5% chance per hit die if the victim was of the humanoid type.\n\nEditor’s Note\n\nImproved Channel Resistance? Yeah, we can’t find it either. Appears to improve channel resistance. Go figure.\n\nECOLOGY\n\nEnvironment underground (the Bloodways)\nOrganization solitary\nTreasure none\n\nDevouring mists are undead composed of equal parts blood and malice, wedded together by negative energy. They look for living prey to feed on and torment. When they strike, they surround their enemies and draw their blood from their bodies.\n\nDevouring mists are possessed of a malicious cunning. They are quite capable of blending into mists so as to take their prey unaware. They may also follow creatures for a time and attack when they are distracted or preoccupied. A devouring mist may even stalk its prey over hours or even days, striking again and again, in effect milking them of blood.\n\nRappan Athuk Copyright 2012 Bill Webb, Frog God Games",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/646da49c00f15eca.json",
+    "web": "https://codex.pipsprojects.com/#/e/646da49c00f15eca"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "95f7b7eb61f21cdf",
+  "name": "Animated Swordsman",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (construct); Level machinesmith 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (any one-handed weapon)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget shield touched\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nNote on the Construct subschool: This subschool is usually associated with conjuration or transmutation spells. Construct spells either create or animate mechanical objects to produce a specific effect as determined by the spell. All mechanical objects produced by construct spells can be attacked and destroyed like normal objects. Unless otherwise noted, constructs created by these spells are Tiny, have AC and CMD equal to 12 + the spell’s level, and use the spellcaster’s saving throws. These constructs have hit points equal to the caster level of the spell + 5 and hardness equal to the spell’s level. When all constructs produced by the spell are destroyed, the spell is considered dispelled.\n\nThis spell attaches a tiny humanoid or spider-like construct to the hilt of a one-handed melee weapon.\n\nOnce cast, the construct skitters toward its target at a speed of 30 feet. When it attacks, it strikes the target with its attached weapon using your base attack bonus (allowing for multiple attacks at a high enough level) plus your Intelligence modifier. On a hit, it deals damage equal to the weapon’s normal damage, +1 per 3 caster levels. All relevant magical bonuses the weapon originally had apply to these attacks, including critical threat ranges and multipliers.\n\nIf the target moves, the construct tries to follow it on your turn, but it cannot threaten, fly, or swim. If it moves out of the spell’s range, cannot reach the target, or successfully kills the target, the construct returns to the caster until the caster designates another target as a move action.\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95f7b7eb61f21cdf.json",
+    "web": "https://codex.pipsprojects.com/#/e/95f7b7eb61f21cdf"
+  },
+  "license": "OGL 1.0a"
+}

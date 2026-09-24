@@ -1,0 +1,26 @@
+{
+  "id": "63c59a4fa3901eba",
+  "name": "Trip Line",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 0
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one trip line of force\nDuration 1 minute (D)\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou create a shimmering line of force up to ten feet long that hovers two feet off the ground. The line is translucent and difficult to see, requiring a Perception check (DC 20) to notice. If a creature is aware of the line, she can either slow down and step over it using a move action or she can attempt to jump over it with a successful Acrobatics check (DC 8). A failed Acrobatics check is the same as failing a Reflex save (described below).\n\nCreatures unaware of the line must make a Reflex save when they run into the line. Those who fail fall prone and take 1d6 points of non-lethal damage. Those that succeed do not fall but must end their movement for that round directly in front of the line.\n\nThose who are running when they encounter the line add +4 to the DC of the save.\n\nCreatures Huge size or larger and those of Tiny size or smaller are unaffected by this line.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63c59a4fa3901eba.json",
+    "web": "https://codex.pipsprojects.com/#/e/63c59a4fa3901eba"
+  },
+  "license": "OGL 1.0a"
+}

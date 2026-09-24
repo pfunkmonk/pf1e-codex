@@ -1,0 +1,30 @@
+{
+  "id": "3bede3123aaf70c1",
+  "name": "Stolen Valor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 2,
+      "bard": 3,
+      "inquisitor": 3,
+      "mesmerist": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level antipaladin 2, bard 3, inquisitor 3, mesmerist 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou denounce your enemy as callow and feckless, unworthy of loyalty and shorn of hope. The target cannot benefit from morale bonuses and cannot grant morale bonuses to others, and also takes a penalty equal to your caster level on Diplomacy checks made to improve the reactions of others. In addition, any creatures that would be affected by a charm, compulsion, or fear effect created by the target gain a +2 circumstance bonus on their saving throws against such effects, and must attempt saving throws to resist such effects even if they are 37 harmless. If your caster level is 10th or higher, this bonus increases to +4.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3bede3123aaf70c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/3bede3123aaf70c1"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "13cb9e3106a18a53",
+  "name": "Hot Foot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School evocation [fire]; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of sulfur dust or a tindertwig)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nWith a successful ranged touch attack, magical flames spring to life on the target’s feet. The flames deal 1d3 points of fire damage per round, and give the target a -2 penalty to AC, ability checks, skill checks and saves until the spell ends or the fire is otherwise extinguished. The target can use a full round action to douse the flames.\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/13cb9e3106a18a53.json",
+    "web": "https://codex.pipsprojects.com/#/e/13cb9e3106a18a53"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2c3e5f4e0e33873f",
+  "name": "Revitalizing Word",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "inquisitor": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 3, inquisitor 3, witch 4\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V\n\nEFFECT\n\nRange short (25 ft + 5 ft./2 levels)\nTarget one living creature that has just taken damage\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell heals hp equal to 1d6 + your caster level (maximum +10 hp) to a creature that was damaged during this round. If the damage the target took would reduce it to lower than 0 hp, and the damage healed by this spell brings it to 0 or more hp, the target does not fall unconscious. If the target dies because of the damage from the triggering damage, this spell has no effect and its casting is wasted.\n\nMythic: The target creature gains a +2 morale bonus to attack rolls, ability checks, and skill checks for a number of rounds equal to your mythic tier. If you expend two uses of mythic power, the bonus increases to +4.\n\nAugmented (6th): If you expend two uses of mythic power, the bonus increases to +4 and otherwise fatal damage does not kill the target, so long as the revitalizing word brings the creature to an amount of negative hit points greater than its Constitution score.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c3e5f4e0e33873f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c3e5f4e0e33873f"
+  },
+  "license": "OGL 1.0a"
+}

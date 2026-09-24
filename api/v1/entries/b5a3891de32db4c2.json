@@ -1,0 +1,23 @@
+{
+  "id": "b5a3891de32db4c2",
+  "name": "Innocuous Aspect",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (glamer); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a paper ring)\n\nEFFECT\n\nRange personal\nArea 20-ft.-radius emanation centered on you\nDuration concentration + 1 min./level\nSaving Throw Will disbelief (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nCreatures of the same size (all Medium, all Large, etc.) within 20 ft. of you are disguised as a single type of creature or object of your choosing. The illusionary forms must be of roughly the same size as the creatures affected.\n\nFor example, a group of dwarves could be disguised to resemble a flock of sheep (Medium-sized creatures) or as Medium-sized piles of snow.\n\nA DC 20 Perception check reveals that something seems strange about the group-the creatures move oddly or the objects looks strangely similar-and keen-eyed observers can make a Will save to see through the illusion. Only sight is affected by this glamer; strange sounds or other uncharacteristic actions also grant a Will save. Any hostile action by the spell recipients ends the spell immediately.\n\nInk Creature Details Defensive Abilities: An ink creature as DR 5/magic, and immunity to poison and critical hits.\n\nIt does not need to eat, sleep, or breathe.\n\nSlam Attack: An ink creature gains a slam attack, which uses the base creature’s base attack bonus. See Table 2-6 for the damage this slam attack deals.\n\nOffense: An ink creature may cast spells and use supernatural abilities as normal (except those that require material components other than ink or liquid), but it may not physically attack using any means other than its slam attack Speed: An ink creature moves at regular base speed and can pass through small cracks or openings. It may enter water and retain its shape while moving at its regular base speed with the same degree of ease it had on land; however, it must make Swim checks to avoid drowning as if still in natural form (though it does not suffocate, the effects from drowning are the same).\n\nTable 2-6: Ink Creature Slam Damage\nSize\tDamage\nFine\t1\nDiminutive\t1d2\nTiny\t1d3\nSmall\t1d4\nMedium\t1d6\nLarge\t1d8\nHuge\t2d6\nGargantuan\t2d8\nColossal\t4d6\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b5a3891de32db4c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/b5a3891de32db4c2"
+  },
+  "license": "OGL 1.0a"
+}

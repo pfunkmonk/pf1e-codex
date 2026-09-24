@@ -1,0 +1,27 @@
+{
+  "id": "539f4da342c04b75",
+  "name": "Fireburst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "elven archer": 4,
+      "shaman": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level elven archer 4, druid/shaman 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a drop of pitch mixed with sawdust, and an arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nArea 20-ft.-radius spread; see text\nDuration 1 round\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nThe next arrow you shoot resembles a flaming arrow, and you may choose to have it explode at any point in its trajectory. The explosion scatters burning sawdust and embers in a 20-ft. radius. These burning, colored embers hang suspended in the air for 1 round. After 1 round, nothing remains but a bit of smoke and some light ash.\n\nYou choose how loud the explosion is, from a tiny pop to a large boom. You also choose the flame’s colors. The arrow may be shot high into the air as a signal, or low over an area to provide 1 round of illumination. Fireburst provides clear illumination in a 100-ft. radius. It provides shadowy illumination out to 200 ft.\n\nFireburst does not burn as hot as a wizard’s fireball. A creature struck by an arrow that has had fireburst cast on it takes 1d4 hp fire damage per caster level (maximum 15d4). Fireburst does ignite combustibles, but it cannot melt metals.\n\nAn arrow enchanted with fireburst always explodes on contact with any solid object—thus, an invisible wall or similar barriers can stop it. Objects struck with arrows enchanted with fireburst also take 1d4 hp fire damage per caster level with no maximum (no saving throw).\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/539f4da342c04b75.json",
+    "web": "https://codex.pipsprojects.com/#/e/539f4da342c04b75"
+  },
+  "license": "OGL 1.0a"
+}

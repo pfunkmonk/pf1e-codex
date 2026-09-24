@@ -1,0 +1,27 @@
+{
+  "id": "a84a65d11ad21aca",
+  "name": "Mundane Resistance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration; Level bard 1, occultist 1, psychic 1, wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 1 round/level\nSaving Throw none (harmless, object); Spell Resistance no\n\nThe target object gains a +1 resistance bonus on saving throws and checks against magical spells and effects, including spell-like and supernatural abilities. For every three caster levels you possess, this bonus increases by +1, to a maximum bonus of +4 at 12th level.\n\nLegendary Planet Adventure Path © 2019, Legendary Games; Authors: Authors: Matt Goodall, Jim Groves, Steven T. Helt, Tim Hitchcock, Jason Nelson, Richard Pett, Tom Phillips, Mike Shel, Neil Spicer, Mike D. Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a84a65d11ad21aca.json",
+    "web": "https://codex.pipsprojects.com/#/e/a84a65d11ad21aca"
+  },
+  "license": "OGL 1.0a"
+}

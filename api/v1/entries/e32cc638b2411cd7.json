@@ -1,0 +1,26 @@
+{
+  "id": "e32cc638b2411cd7",
+  "name": "Fault Line",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [earth]; Level druid/shaman 6\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 100-ft. line\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell thrusts the ground sharply upward along a line you designate, and all spaces affected by the spell become difficult terrain.\n\nIn addition, the spell makes a trip attempt against any creature within an affected space at the moment of casting. The CMB for this trip equals your caster level plus your Wisdom modifier +4; make a single check against all affected creatures. Each tripped creature takes 1d6 hp bludgeoning damage due to the suddenness of the ground’s upheaval. Regardless of the check result, any creatures approaching the line must stop at an affected square, and creatures cannot charge through the line.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e32cc638b2411cd7.json",
+    "web": "https://codex.pipsprojects.com/#/e/e32cc638b2411cd7"
+  },
+  "license": "OGL 1.0a"
+}

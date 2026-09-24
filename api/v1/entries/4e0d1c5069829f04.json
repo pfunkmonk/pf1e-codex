@@ -1,0 +1,28 @@
+{
+  "id": "4e0d1c5069829f04",
+  "name": "Zyngaya",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 7,
+      "shaman": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School necromancy [evil]; Level cleric 7, shaman 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M (a clay pot filled with grave dirt and an onyx gem worth 50 gp per HD of the undead to be created)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corpse\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou turn the corpse into a Mythos undead if the creature had fewer Hit Dice than your caster level. It is loyal to the King in Yellow. Although it recognizes you as its creator, it works with you only insofar as you serve the purposes of the King in Yellow.\n\nIf you are capable of commanding undead, you may attempt to command the undead creature as it forms.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e0d1c5069829f04.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e0d1c5069829f04"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "04fd942189b26e78",
+  "name": "Earthen Snare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 5,
+      "druid": 5,
+      "wizard": 5
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration; Level cleric/oracle 5, druid 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget single creature\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nYou conjure a small planar trap that opens beneath the target creature (which must be Large or smaller) that creates a burst of suction pulling the target creature into a spherical containment cell of the same height and width as the longest dimension of the trapped creature. A successful Reflex save avoids the trap completely. Rogues may add their trap sense modifier to this save. A trapped creature can attempt to break the walls of its enclosure to force the spell to end early (Hardness 8, hp equal to caster); otherwise it must simply wait for the spell to end. Once the spell ends, the victim is violently ejected from the earth and takes 8d6 points of physical damage and ends up prone in the spot it originally occupied. If the space it was in is occupied, it is shunted in a random direction to the closest open square.\n\nAs a magical, quasi-planar opening, spells such as ethereal jaunt, teleport, dimension door, or related spells don’t function. The earth snare can be dispelled normally from either the inside or outside, ending the spell as above.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/04fd942189b26e78.json",
+    "web": "https://codex.pipsprojects.com/#/e/04fd942189b26e78"
+  },
+  "license": "OGL 1.0a"
+}

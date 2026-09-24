@@ -1,0 +1,17 @@
+{
+  "id": "1adcc024b0d59f32",
+  "name": "Studded Lizard",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Lost Atlanteans",
+  "book": "Lost Atlanteans",
+  "facets": {
+    "bk": "Lost Atlanteans"
+  },
+  "body": "Studded Lizard CR 5\n\nA blue-black, forked tongue flicks out of this stocky lizard’s mouth as it sniffs out its next meal.\n\nXP 1,600\nN Small animal\nInit +6; Senses low-light vision, scent, tremorsense 60 ft.; Perception +16\n\nDEFENSE\n\nAC 19, touch 13, flat-footed 17 (+2 Dex, +6 natural, +1 size)\nhp 52 (7d8+21)\nFort +8, Ref +4, Will +8\nDefensive Abilities Dr 5/bludgeoning or piercing\n\nOFFENSE\n\nSpeed 20 ft.\nMelee bite +10 (1d6+7 plus 5 bleed [anticoagulant saliva] plus poison)\nSpace 5 ft.; Reach 5 ft.\n\nSTATISTICS\n\nStr 20, Dex 14, Con 17, Int 2, Wis 16, Cha 6\nBase Atk +5; CMB +9 (includes -1 size modifier); CMD 21 (includes -1 size modifier)\nFeats Improved Initiative, Improved Natural Armor, Skill Focus (Perception), Skill Focus (Stealth)\nSkills Climb +14, Perception +16, Stealth +19, Swim +9; Size Modifier +4 Stealth\nLanguages —\nSq anticoagulant saliva, mimic, slowing venom\n\nSPECIAL ABILITIES\n\nAnticoagulant Saliva (Ex)\n\nWhen a studded lizard makes a successful bite attack against a creature, the creature takes 5 points of bleed damage.\n\nMimic (Ex)\n\nA studded lizard changes the pigmentation and patterns on its skin to exactly mimic other non-venomous lizards native to the desert. The DC to identify the studded lizard is 5 higher than normal to see past this ruse and correctly identify it. On a failed skill check, the studded lizard is incorrectly identified as a native, nonthreatening lizard that feeds on insects.\n\nPoison (Ex)\n\nBite—injury; save Fort DC 15; onset immediate; frequency 1 round; effect 1d4 Constitution damage and 1d2 Dexterity damage. The save DC is Constitution-based.\n\nSlowing Venom (Ex)\n\nA creature’s speed is decreased by 5 feet for every point of Dexterity damage that it takes from the studded lizard’s poison. Slowing Venom can’t reduce a creature’s speed to less than 5 feet. A creature’s speed is restored if the poison is neutralized or when the Dexterity damage is healed, whichever comes first.\n\nECOLOGY\n\nEnvironment desert\nOrganization solitary\nTreasure none\n\nLost Atlanteans, Copyright 2024, Bloodstone Press; author Beth Jones",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1adcc024b0d59f32.json",
+    "web": "https://codex.pipsprojects.com/#/e/1adcc024b0d59f32"
+  },
+  "license": "OGL 1.0a"
+}

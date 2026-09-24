@@ -1,0 +1,17 @@
+{
+  "id": "927bd9fca822d858",
+  "name": "Dark Rover",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "DARK ROVER\nCR 15\n\nA massive, rusted shape reminiscent of a battering ram shifts on tall, arachnid legs, its black frame shrouded in unnatural silence.\n\nXP 51,200\nN Colossal construct\nInit +6; Senses darkvision 120 ft., low-light vision; Perception +21\nAura silence (25-ft. radius, DC 22)\n\nDEFENSE\n\nAC 30, touch 8, flat-footed 24 (+6 Dex, +22 natural, –8 size)\nhp 190 (20d10+80); fast healing 5\nFort +6, Ref +12, Will +7\nDefensive Abilities fortification (50%), freeze, hardness 10; Immune construct traits, electricity\nWeaknesses vulnerability to cold\n\nOFFENSE\n\nSpeed 80 ft., burrow 40 ft., climb 40 ft.\nMelee gore +27 (4d6+15), 4 slam +27 (2d8+15)\nRanged 4 tendril +13 touch (reposition)\nSpace 30 ft.; Reach 30 ft.\nSpecial Attacks powerful charge (gore, 8d6+15), tendril, trample (2d8+22, DC 35)\n\nSTATISTICS\n\nStr 41, Dex 22, Con —, Int 15, Wis 13, Cha 2\nBase Atk +20; CMB +43 (+47 overrun, +45 reposition); CMD 59 (63 vs. overrun, 61 vs. reposition, 71 vs. trip)\nFeats Blind-Fight, Charge Through, Combat Expertise, Combat Reflexes, Greater Overrun, Improved Overrun, Improved Reposition, Moonlight Stalker, Moonlight Stalker Feint, Power Attack\nSkills Acrobatics +26 (+46 jump), Bluff +16, Perception +21, Stealth +18; Racial Modifiers +8 stealth\nLanguages Common\nSQ siege engine\n\nSPECIAL ABILITIES\n\nSiege Engine (Ex)\n\nDark rovers are treated as siege engines for the purposes of attacking objects.\n\nSilence (Su)\n\nA dark rover may activate an aura of silence as a swift action. This aura functions as the spell silence to the limit of the dark rover’s reach. When an unwilling creature enters the aura, it can make a DC 22 Will save to resist or remain silenced while within the aura. A successful save renders a creature immune to this ability for 24 hours. The save DC is Intelligence-based.\n\nTendril (Ex)\n\nDark rovers can shoot sticky tendrils up to 100 feet from launchers concealed on their body. The tendrils do no damage, but allow the dark rover a free reposition combat maneuver attempt on a successful hit. Success knocks flying creatures from the air, and allows the dark rover to pull the attached creature in a straight line towards its body. The dark rover can detach the tendril at any point along this path.\n\nECOLOGY\n\nEnvironment any land\nOrganization solitary\nTreasure none\n\nThese ancient armored troop transports have long outlived the civilizations of their birth. Designed to ferry specialist troops quickly into and out of combat, the machines double as rams and sapping instruments—capable of single-handedly destroying city walls. Now the dark metal beasts rumble on, guided by some unknowable internal logic, massive armored carapace swaying back and forth suspended between great arachnid legs. Dark rovers alternate between long periods of hibernation, appearing as hills amongst the surrounding terrain, and long journeys in which they destroy everything in their path. Their presence prefaced only by a sudden and pronounced silence.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/927bd9fca822d858.json",
+    "web": "https://codex.pipsprojects.com/#/e/927bd9fca822d858"
+  },
+  "license": "OGL 1.0a"
+}

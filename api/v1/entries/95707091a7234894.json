@@ -1,0 +1,25 @@
+{
+  "id": "95707091a7234894",
+  "name": "Flames of Youth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy (aging); Level cleric 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget touched creature or object\nDuration 10 minutes/level or instantaneous (see text)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou temporarily regress the target, immediately returning it to the previous age category. The target immediately alters its Strength, Dexterity, and Constitution scores to reflect its new age, but it does not alter its Intelligence, Wisdom, or Charisma for that category. A creature whose age is unknown is treated as if the spell regresses it to Youth.\n\nIf you cast this spell on an object, construct, or undead creature, it is healed 3d6 points of damage + 1 point per caster level (maximum +15) as time reconstructs and repairs it. This version of the spell has an instantaneous duration. This spell counters and dispels sands of time†.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95707091a7234894.json",
+    "web": "https://codex.pipsprojects.com/#/e/95707091a7234894"
+  },
+  "license": "OGL 1.0a"
+}

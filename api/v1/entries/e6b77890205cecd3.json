@@ -1,0 +1,23 @@
+{
+  "id": "e6b77890205cecd3",
+  "name": "Bleeding Plague",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 0
+    },
+    "save": "special",
+    "sr": "yes (see text)",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 0\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, DF\n\nEFFECT\n\nRange 100 ft.\nTarget one random creature + one creature/level\nDuration variable (see spell effect)\nSaving Throw Fort negates (symptoms only, see text); Spell Resistance yes (see text)\n\nDESCRIPTION\n\nUpon casting, bleeding plague randomly selects a victim from those individuals within 100 feet who have not prayed at a shrine or temple dedicated to the god of pestilence in over a week. If no such targets are within range, the spell fails.\n\nIf the target fails her saving throw, she develops the disease’s symptoms after one hour. The symptoms disappear 24 hours later and result in 1 point of damage at the 18-hour mark if they have not been arrested by then. Symptoms can be arrested by appropriate curative magic (which also stops the contagious nature of the disease in the victim cured).\n\nA victim becomes a carrier of the bleeding plague, whether her saving throw or spell resistance succeeds or fails. The next physical contact that the victim has with another individual passes the disease to that individual.\n\nThis new target individual must make his own saving throw to resist the spell’s effects and also becomes a carrier.\n\nBleeding plague continues passing from person to person in this fashion until a number of people have been subjected to it equal to the caster level plus one.\n\nAny given individual cannot be victimized by this spell more frequently than once per month and, in any case, cannot fall prey to the same casting more than once. If a carrier dies before passing the sickness on to another victim, the victim’s corpse is still considered contagious.\n\nThis spell is only granted by gods of pestilence and disease.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6b77890205cecd3.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6b77890205cecd3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "16ada3be56d8f7c5",
+  "name": "Shifting Fortune",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bloodrager": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level bloodrager 1, inquisitor 1, magus 1, psychic 1, shaman 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration instantaneous, see text\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou shift the fortunes of the target creature and give them to another. You may cast this spell on a target that had just succeeded on an attack roll, ability check, caster level check, skill check or saving throw. The target must make a Will save or be forced to reroll the check and use the lower roll.\n\nYou can then choose a different creature, including yourself to get the target’s good fortune for 1 minute. If the benefiting creature rolls the same check as the original target, they can roll that check twice and take the higher result. Once this ability is used on a check, the spell ends.\n\nA creature can only benefit from one casting of this spell at a time.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/16ada3be56d8f7c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/16ada3be56d8f7c5"
+  },
+  "license": "OGL 1.0a"
+}

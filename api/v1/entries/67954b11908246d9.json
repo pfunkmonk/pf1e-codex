@@ -1,0 +1,27 @@
+{
+  "id": "67954b11908246d9",
+  "name": "Raise Lesser Undead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 2, sorcerer/wizard 2\n\nEFFECT\n\nTarget one corpse touched\n\nDESCRIPTION\n\nThis spell functions as animate dead except that it can create a single skeleton or zombie with a maximum number of HD equal to your 1/2 your caster level, to a maximum 5 HD at 10th level. You cannot have more than one undead creature under your control through this spell. If you cast this spell a second time, the first creature immediately crumbles to dust. This creature counts against your maximum limit of undead creatures you can control.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67954b11908246d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/67954b11908246d9"
+  },
+  "license": "OGL 1.0a"
+}

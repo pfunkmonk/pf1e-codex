@@ -1,0 +1,27 @@
+{
+  "id": "3542b19c286895f7",
+  "name": "Hex of Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "chaos"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [chaos]; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level or until discharged\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell inflicts a new random curse on the target each round. Roll on the following table at the start of the target’s turn each round to see what the effect of the curse is, until the duration ends or it is discharged.\n\nd12\tEffect\n1\tAbility damage; 1 point to Str, Dex, Con, Int, Wis, or Cha (roll 1d6 to determine Ability Score [discharges])\n2\tBlinded (Permanent [discharges])\n3\tDazed\n4\tDeafened (Permanent [discharges])\n5\tDiminution (as per reduce person [discharges])\n6\tFascinated\n7\tFrightened\n8\tGrappled (break free by making a combat maneuver check or Escape Artist check as a standard action against the DC of this spell [discharges])\n9\tNauseated\n10\tPoisoned (Fortitude DC equal to spell DC; frequency 1/round for 4 rounds; effect 1d2 Strength damage; cure 1 save [discharges])\n11\tParalyzed\n12\t-4 penaltv to Str, Dex, Con, Int, Wis, or Cha (roll 1d6 to determine Ability Score, cannot be reduced below 1).\n\nSo a 3rd level caster could cause permanent blindness, poison, or cause diminution for only 3 rounds. If a creature is immune to an effect, or the effect is not applicable and the spell does not discharge, continue to roll again the next round.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3542b19c286895f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/3542b19c286895f7"
+  },
+  "license": "OGL 1.0a"
+}

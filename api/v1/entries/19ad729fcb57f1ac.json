@@ -1,0 +1,27 @@
+{
+  "id": "19ad729fcb57f1ac",
+  "name": "Tiger Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "legendary ninja": 4,
+      "ranger": 4,
+      "wizard": 5,
+      "summoner": 4
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation); Level druid 4, legendary ninja 4, ranger 4, sorcerer/wizard 5, summoner 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (miniature shovel costing 10 gp and a tiger claw)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\n\nArea 20-ft.-by-20-ft. square\nDuration 1 hour/level or until discharged (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a magical covered pit trap that triggers whenever a creature enters the area. Once triggered, the tiger trap activates and creates an extradimensional pit (identical in effect to that created by create pit) 20 feet square and 20 feet deep, lasting for 1 round per level. In addition, when the pit is created it also summons a tiger, which attacks all other creatures entering the pit. If the tiger is killed, its body disappears but the pit remains for the remainder of its duration. One round after the tiger trap is triggered, its covering reappears and it is once more hidden from view. When the cover has reappeared, creatures within the pit cannot climb out. The cover of the tiger trap can be broken through with a DC 23 Strength check or by damage; it has hardness 5 and 3 hit points per level of the caster. A tiger trap can be detected and disarmed as a magical trap. If the tiger trap is triggered and its cover then closes, the trap can again be found and disarmed as a magical trap and disarming it can force the opening to appear and remain open. A creature that sees the tiger trap open and activated gains a +4 bonus on Perception and Disable Device checks to find and disarm it while it is closed.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/19ad729fcb57f1ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/19ad729fcb57f1ac"
+  },
+  "license": "OGL 1.0a"
+}

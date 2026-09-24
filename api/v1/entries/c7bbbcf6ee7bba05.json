@@ -1,0 +1,28 @@
+{
+  "id": "c7bbbcf6ee7bba05",
+  "name": "Call Voidling",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [evil]; Level cleric/oracle 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange close (25 ft + 5 ft./2 caster levels)\nEffect one summoned voidling\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell summons a voidling.\n\nIt appears where you designate and acts immediately on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions. See below for the voidling’s statistics.\n\nVoidling CR 11\n\nXP 12,800\nCE Large outsider\nInit +11; Senses darkvision 60 ft.; Perception +27\n\nDEFENSE\n\nAC 27, touch 24, flat-footed 17; (+5 deflection, +9 Dex, +1 dodge, –1 size, +3 natural)\nhp 88 (16d8+16)\nFort +3, Ref +12, Will +9\nDefensive Abilities natural invisibility (see below), fed by darkness; Immune magic (see below)\n\nOFFENSE\n\nSpeed fly 50 ft. (perfect)\nMelee 5 tendrils +18 (1d8+5 plus grab)\nSpace 10 ft. Reach 15 ft.\nSpecial Attacks negative burst\nSpell-Like Abilities (CL 11th)\n\nConstant—detect magic, see invisibility\nAt will—cause fear (DC 15), deeper darkness, black tentacles\n3/day—reverse gravity (DC 19), quickened magic missile\n1/day—horrid wilting (DC 22), waves of fatigue\n\nSTATISTICS\n\nStr 20, Dex 29, Con 10, Int 15, Wis 16, Cha 14\nBase Atk +9; CMB +13; CMD 27\nFeats Alertness, Blind-Fight, Dazzling Display, Dodge, Improved Initiative, Skill Focus (Perception), Toughness, Weapon Finesse, Weapon Focus (tendrils)\nSkills Acrobatics +21, Bluff +18, Intimidate +18, Escape Artist +21, Fly +31, Perception +27, Stealth +28\nLanguages telepathy 60 ft.\nSQ feed by darkness\n\nSPECIAL ABILITIES\n\nFed by Darkness (Su)\n\nIn magical darkness, a voidling gains fast healing 5.\n\nImmunity to Magic (Ex)\n\nVoidlings are immune to all spells and spell-like abilities that allow spell resistance, except for spells with the light descriptor.\n\nNatural Invisibility (Ex)\n\nVoidlings are made of darkness and thus receive a +40 bonus to Stealth checks made while in complete darkness, even while moving.\n\nNegative Burst (Su)\n\nOnce per round as a standard action, a voidling can release a burst of negative energy negative that deals 2d8 hp damage to adjacent creatures and objects. a DC 21 Fortitude save halves this damage. The save DC is Constitution-based.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7bbbcf6ee7bba05.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7bbbcf6ee7bba05"
+  },
+  "license": "OGL 1.0a"
+}

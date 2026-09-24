@@ -1,0 +1,36 @@
+{
+  "id": "36092a65aca11c57",
+  "name": "Stubborn Dogma",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "oracle": 6,
+      "classic mesmerist": 5,
+      "druid": 6,
+      "inquisitor": 6,
+      "legendary mesmerist": 6,
+      "medium": 4,
+      "occultist": 6,
+      "psychic": 6,
+      "focus intensity": 5,
+      "opportunist": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 5, cleric/oracle 6, classic mesmerist 5, druid 6, inquisitor 6, legendary mesmerist 6, medium 4, occultist 6, psychic 6, spiritualist 5; Focus intensity 5, opportunist 5\n\nCASTING\n\nCasting Time 1 full-round action\nComponents V, S\n\nEFFECT\n\nRange close\nTarget one creature\nDuration 1 hour/level (D)\nSaving Throw none, then Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou solidify the target’s opinions of others. At the time of casting, you may decide if this applies to its attitude towards a single creature you designate, a group of people, or all creatures. Whenever the target’s attitude towards your choice would change because of words or actions, they are instead perceived in a way that reaffirms its current attitude. If the attitude change would be caused by the target itself being threatened, or protected from harm, it may attempt a Will saving throw. If its attitude towards multiple chosen creatures would change at the same time for this reason, it attempts a single saving throw. On a failure, the target rationalizes events to be in line with its current impression, keeping its attitude the same. This prevents effects that change the target’s attitude (such as charm monster) from ending prematurely because of a threat. On a success, its attitude changes normally, but stubborn dogma remains in effect.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/36092a65aca11c57.json",
+    "web": "https://codex.pipsprojects.com/#/e/36092a65aca11c57"
+  },
+  "license": "OGL 1.0a"
+}

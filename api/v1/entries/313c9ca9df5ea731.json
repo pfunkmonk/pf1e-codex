@@ -1,0 +1,23 @@
+{
+  "id": "313c9ca9df5ea731",
+  "name": "Energy Absorption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "special",
+    "sr": "yes (see below)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V,S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level (D)\nSaving Throw Fort negates (see below); Spell Resistance yes (see below)\n\nDESCRIPTION\n\nEnergy absorption grants temporary immunity to six energy types when cast: acid, cold, electricity, fire, ley, and sonic; the caster does not need to specify a type.\n\nWhen the spell absorbs 12 hp per caster level of any energy damage (to a maximum of 120 hp at 10th level), it is discharged.\n\nEnergy absorption does not stack with protection from energy. It overlaps (and does not stack with) resist energy.\n\nIf a character is warded by energy absorption and resist energy, the energy absorption spell absorbs damage until its power is exhausted.\n\nYou can also use energy absorption as an attack spell to diffuse a foe’s energy-based spells or abilities, including channeled energy or spells protecting against energy.\n\nIf you make a successful touch attack against a foe, the foe must make an opposed caster level check to cast an energy-based evocation spell or energy-based abjuration spell. If the check fails, the foe’s spell dissipates; if it succeeds, the foe’s spell succeeds but is reduced to half damage or half protection, as applicable.\n\nThe energy absorption can be removed with dispel magic; otherwise, it dissipates after it absorbs its energy limit or within 1 min./caster level, whichever comes first.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/313c9ca9df5ea731.json",
+    "web": "https://codex.pipsprojects.com/#/e/313c9ca9df5ea731"
+  },
+  "license": "OGL 1.0a"
+}

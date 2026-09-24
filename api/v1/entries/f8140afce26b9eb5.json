@@ -1,0 +1,35 @@
+{
+  "id": "f8140afce26b9eb5",
+  "name": "Bloodlust Contamination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "bloodrager": 4,
+      "lathspell": 3,
+      "mesmerist": 3,
+      "psychic": 4,
+      "wizard": 4,
+      "unchained summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "curse",
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [curse, emotion, mind-affecting]; Level bard 3, bloodrager 4, lathspell 3, mesmerist 3, psychic 4, sorcerer/wizard 4, summoner/unchained summoner 4, witch 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 minute/level (D); see text\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cast the spell on a single target sending them into a blinding rage. If the target fails their Will save, they are sent into a rage gaining a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical with a barbarian’s rage including the fatigue at the end of the rage. The rage lasts for one round per caster level.\n\nEven if the initial target succeeds on their Will save, they can still cause adjacent creatures to fly into a rage, see below.\n\nFor the duration of the spell, anytime the original target or a creature subject to the rage effect of this spell is adjacent to a creature who is not currently raging, that adjacent creature must make a Will save or be subject to the rage effect for one round per caster level. This rage effect can last longer than the duration of the original spell. The original target of the spell is not subject to making a Will save from being adjacent to itself while not raging but may be affected by others.\n\nThe rage can be triggered on a creature that is fatigued, unlike barbarian rage and any fear effect is suppressed while the creature is subject to the rage effect.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f8140afce26b9eb5.json",
+    "web": "https://codex.pipsprojects.com/#/e/f8140afce26b9eb5"
+  },
+  "license": "OGL 1.0a"
+}

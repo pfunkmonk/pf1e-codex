@@ -1,0 +1,26 @@
+{
+  "id": "35a85f9cefc6d9d5",
+  "name": "Find Treasure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "inquisitor": 3,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level cleric/oracle 4, druid/shaman 4, inquisitor 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a rod and a sample of the desired material; see below)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./caster level)\nTarget creature touched\nDuration 10 min./level (D)\n\nDESCRIPTION\n\nThe recipient of this spell can find the closest large mass of metal or gems with a volume of 5 cubic ft. or greater.\n\nThe recipient can find the material outside, indoors, or underground within the spell’s range. Though used most often to locate treasure hoards, the spell sometimes locates raw material such as unmined metal, unrefined or refined gems, or worked material primarily composed of one substance, such as piles of gold coins or a large iron cauldron. Unlike locate object, lead does not block the spell.\n\nLead can even be the material sought, although magical effects that block divinations work normally.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/35a85f9cefc6d9d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/35a85f9cefc6d9d5"
+  },
+  "license": "OGL 1.0a"
+}

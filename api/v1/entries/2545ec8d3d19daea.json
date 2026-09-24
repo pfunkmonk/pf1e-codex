@@ -1,0 +1,27 @@
+{
+  "id": "2545ec8d3d19daea",
+  "name": "Consecrate Battlefield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 6,
+      "inquisitor": 6
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [good]; Level cleric/oracle 6, inquisitor 6\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (a vial of holy water and 1 pound of platinum dust worth 500 gp)\n\nEFFECT\n\nRange medium (100 feet + 10 feet per level)\nArea 100-ft.-radius emanation\nDuration 1 day/level\n\nDESCRIPTION\n\nYou fill the battlefield with positive energy. This spell functions as consecrate, except as above and as follows:\n\nAny creature slain within the area cannot be turned into undead for the duration of the spell, even if removed.\n\nThis spell counters and dispels desecrate and desecrate battlefield.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2545ec8d3d19daea.json",
+    "web": "https://codex.pipsprojects.com/#/e/2545ec8d3d19daea"
+  },
+  "license": "OGL 1.0a"
+}

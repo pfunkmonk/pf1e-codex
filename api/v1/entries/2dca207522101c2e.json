@@ -1,0 +1,25 @@
+{
+  "id": "2dca207522101c2e",
+  "name": "Hypothermia",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 5,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy; Level druid 5, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S\n\nEFFECT\n\nRange touch\n\nTarget one living creature\n\nDuration 3 rounds\n\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nYou can attempt to freeze one living creature to death.\n\nWhen you cast this spell, frigid air swirls around your hand. You must succeed on a melee touch attack to touch the target. The target can attempt to resist the spell’s effect with a Fortitude save. If he succeeds, the target takes 2d6 points of nonlethal damage +1 point per caster level from the flash freezing, but suffers no further effects. If the target fails, the subject’s blood, organs, and tissue rapidly freeze. On the target’s next turn, he is paralyzed and takes 4d6 points of cold damage +1 point of cold damage per caster level. One round later, the target takes 8d6 points of cold damage +1 point of cold damage per level and lapses into unconsciousness. One round after that, the target dies from hypothermia, regardless of its hit point total.\n\nEach round, the target can delay that round’s effects from affecting him with a successful Fortitude save, but the spell continues for 3 rounds, and each failed Fortitude save moves the subject one step further along the track to freezing to death. Living creatures immune to cold damage and those with the cold subtype are immune to this spell.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2dca207522101c2e.json",
+    "web": "https://codex.pipsprojects.com/#/e/2dca207522101c2e"
+  },
+  "license": "OGL 1.0a"
+}

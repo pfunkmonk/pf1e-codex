@@ -1,0 +1,17 @@
+{
+  "id": "8e9e1a7cfa26f61c",
+  "name": "Puddinghemoth",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "PUDDINGHEMOTH\nCR 9\n\nThis immense quivering blob bubbles and churns like a cauldron of foul oil, and gives off the sharp scent of stomach acid.\n\nXP 6,400\nN Colossal ooze\nInit –5; Senses blindsight 60 ft.; Perception –5\n\nDEFENSE\n\nAC 6, touch –3, flat-footed 6 (–8 size, –5 Dex, +9 natural)\nhp 145 (10d8+100)\nFort +13, Ref –2, Will –2\nDefensive Abilities split, ooze traits\n\nOFFENSE\n\nSpeed 20 ft., climb 20 ft.\nMelee slam +10 (4d6+12 plus 2d6 acid plus grab)\nSpace 30 ft.; Reach 25 ft.\nSpecial Attacks constrict (4d6+12 plus 2d6 acid), corrosion\n\nSTATISTICS\n\nStr 32, Dex 1, Con 30, Int —, Wis 1, Cha 1\nBase Atk +7; CMB +26 (+30 grapple); CMD 31 (can’t be tripped)\nSkills Climb +15\nSQ ooze traits, suction\n\nSPECIAL ABILITIES\n\nAcid (Ex)\n\nA puddinghemoth secretes a digestive acid that dissolves organic material and metal quickly, but does not affect stone. Each time a creature suffers damage from a puddinghemoth’s acid, its clothing and armor take the same amount of damage from the acid. A DC 25 Reflex save prevents damage to clothing and armor. A metal or wooden weapon that strikes a puddinghemoth takes 2d6 acid damage unless the weapon’s wielder succeeds on a DC 25 Reflex save. If a puddinghemoth remains in contact with a wooden or metal object for 1 full round, it inflicts 21 points of acid damage (no save) to the object. The save DCs are Constitution-based.\n\nCorrosion (Ex)\n\nAn opponent that is being constricted by a puddinghemoth suffers a –4 penalty on Reflex saves made to resist acid damage applying to clothing and armor.\n\nSplit (Ex)\n\nSlashing and piercing weapons deal no damage to a puddinghemoth. Instead, the creature splits into two identical puddings, each with half of the original’s current hit points (round down). A pudding with 14 hit points or less cannot be further split and dies if reduced to 0 hit points.\n\nSuction (Ex)\n\nThe puddinghemoth can create powerful suction against any surface as it climbs, allowing it to cling to inverted surfaces with ease. A puddinghemoth can establish or release suction as a swift action, and as long as it is using suction, it moves at half speed. Because of the suction, a puddinghemoth’s CMD score gets a +10 circumstance bonus to resist bull rush, awesome blows, and other attacks and effects that attempt to physically move it from its location.\n\nECOLOGY\n\nEnvironment any underground\nOrganization solitary\nTreasure none\n\nThough many black puddings reproduce when they grow large enough, others refuse to be so divided. These selfish oozes are capable of incredible sizes given a constant stream of organic matter. Puddinghemoths generally wander lush underground wonderlands, consuming fungi, giant insects, dwarves, and anything else that gets in their way. Should their food become scarce, they split into two and head opposite directions, or simply shrink over time to a more reasonable girth.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8e9e1a7cfa26f61c.json",
+    "web": "https://codex.pipsprojects.com/#/e/8e9e1a7cfa26f61c"
+  },
+  "license": "OGL 1.0a"
+}

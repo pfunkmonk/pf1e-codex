@@ -1,0 +1,26 @@
+{
+  "id": "bf3b2a89a01f3e4c",
+  "name": "Starbolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (evocation) [force]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nEffect scattered bolts in 20-ft. cube\nDuration instantaneous\nSaving Throw Fortitude partial; see text; Spell Resistance no\n\nDESCRIPTION\n\nYou unleash a shower of bright force bolts that falls from the heavens in a 20-ft. cube and illuminates targets.\n\nThis spell creates one bolt at 1st level and one additional bolt for each two additional levels; thus, you command two bolts at 3rd level, three at 5th, and so on. The bolts deals 1d6+1 damage and can be targeted separately at any creatures in the area. In addition, a creature hit by a starbolt must make a Fortitude save or be dazed for the remainder of the round.\n\nMythic: The effect of the spell becomes a 40-ft. cube.\n\nFurthermore, the spell creates an additional number of bolts equal to half of your mythic tier (minimum 1).\n\nAugmented (3rd): You may expend two additional uses of mythic power to blind creatures that fail their save for 1 minute.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf3b2a89a01f3e4c.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf3b2a89a01f3e4c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7e8237265c6c735b",
+  "name": "Steal Book",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "special",
+    "sr": "yes (object)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level bard 3, inquisitor 3, sorcerer/wizard 3, witch 3\nCasting Time 1 standard action\nComponents V, S\nRange touch\nTarget one book touched\nDuration permanent\nSaving Throw Fort negates (object); Spell Resistance yes (object)\n\nThis spell has long been popular among espionage agents and ruthless scholars of all sorts. Though occasionally used to repair defaced or incomplete texts, the spell is more often used by thieves seeking to swipe valuable information, heedless of the often ancient and priceless texts they destroy in the process.\n\nOften used by bards, spies, and arcane scholars to steal important texts without alerting their owners, steal book allows you to copy the contents of one book, folio, scroll, or other text to a blank one of sufficient size. In doing so, the original pages are wiped blank, though any covers or binding remain unchanged. Differences in size between the original and the blank folio don’t matter, though the blank folio that the information is being transferred to must have an equal or greater amount of space (in number of pages or inches of scroll) or else any text that overflows the document is lost forever.\n\nThis spell cannot transfer magical writing (such as a wizard’s spellbook or a magical scroll). At GM’s discretion, the spell can restore lost information, such as a page obscured by spill wine, text erased by magic or mundane means, or even pages lost to fire or another type of damage.\n\nWhen steal book is cast from a scroll, the beginning of the stolen text appears on the steal book scroll until you select a target book for the text to appear in. The stolen text glitters and sparkles while it remains on the scroll.\n\nKobold Quarterly issue 14, Copyright 2010, Open Design LLC, www.koboldquarterly.com. All rights reserved",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7e8237265c6c735b.json",
+    "web": "https://codex.pipsprojects.com/#/e/7e8237265c6c735b"
+  },
+  "license": "OGL 1.0a"
+}

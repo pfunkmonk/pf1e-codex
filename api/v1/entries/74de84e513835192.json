@@ -1,0 +1,27 @@
+{
+  "id": "74de84e513835192",
+  "name": "Rending Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 3,
+      "shaman": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [earth]; Level cleric/oracle 3, druid/shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small clay disc carved with an image of a claw)\n\nEFFECT\n\nRange touch\nTarget 1 creature\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions like vengeful grasp, but it also prevents the target from charging and deals 1d4 hp bludgeoning damage per round. Any round in which the target makes its Reflex save, it avoids taking damage and can move and charge freely (but this does not end the spell effect).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74de84e513835192.json",
+    "web": "https://codex.pipsprojects.com/#/e/74de84e513835192"
+  },
+  "license": "OGL 1.0a"
+}

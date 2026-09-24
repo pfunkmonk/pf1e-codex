@@ -1,0 +1,29 @@
+{
+  "id": "70335c166dbb7415",
+  "name": "Hag’s Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "spiritualist": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 3, spiritualist 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe touched creature visibly ages, appearing to all purposes as a venerable member of its race. It receives a –4 penalty to Constitution, Dexterity, and Strength that does not stack with age penalties.\n\nCreatures immune to aging or immune to critical hits are immune to this spell’s effects. Children who are aged by this spell receive the penalties, but are not considered adults for any other purpose.\n\nParagon Hags & Occult Rituals Copyright 2025 Zenith Games Author Landon Winkler",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/70335c166dbb7415.json",
+    "web": "https://codex.pipsprojects.com/#/e/70335c166dbb7415"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "65497923600e2f4f",
+  "name": "Sigil of the Tyrant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bloodlord": 4,
+      "oracle": 4,
+      "druid": 4,
+      "psychic": 4,
+      "wizard": 4,
+      "summoner": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level bloodlord 4, cleric/oracle 4, druid 4, psychic 4, sorcerer/wizard 4, summoner 3, witch 4; Autarky\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (blood from a lemming used to draw the sigil)\n\nEFFECT\n\nRange personal and close (25 ft. + 5 ft./2 caster levels); see text\nTarget you\nDuration 1 hour/level\n\nDESCRIPTION\n\nAs part of casting this spell, you use blood drawn from a lemming to paint on your forehead the personal sigil of a mysterious summoner known only as Tyrant. For the duration of this spell, you draw in fragments of the essence of your summoned creatures to collect and form a boon you can bestow upon target creatures.\n\nDuring this spell’s duration, whenever one of your summoned creatures within close range of you is killed, the sigil of the Tyrant absorbs a fragment of the summoning magic, generating 1 rune fragment. Each time the sigil of the Tyrant has collected 4 rune fragments, the 4 rune fragments fuse to form 1 tyrannical runemark (which is then stored into the sigil). For the purposes of this spell, only your summoned creatures from spells you have personally cast counts towards generating a rune fragment (summoned creatures via spell-like abilities, supernatural abilities, class features, magic items, and other sources do not count).\n\nAs a swift action, you can bestow 1 tyrannical runemark upon a target creature within close range. A tyrannical runemark confers the target creature a +1 dodge bonus to AC and a +1 luck bonus to attack and damage rolls with melee weapons (including thrown melee weapons, unarmed strike, and natural attacks).\n\nThe benefits of a tyrannical runemark, once bestowed upon a target creature, lasts for a number of rounds equal to 1 round/5 caster levels you possess. A creature can only gain the benefit of up to 5 tyrannical runemarks. You can only designate 1 target creature for any given tyrannical runemark.\n\nAlternatively, you may spend a full-round action to bestow all of the tyrannical runemarks your sigil of the Tyrant currently holds upon target creatures within close range.\n\nContact Other Plane - Evalvarith Codex I, © 2025, Orphaned Bookworm Productions, LLC, Authors: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65497923600e2f4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/65497923600e2f4f"
+  },
+  "license": "OGL 1.0a"
+}

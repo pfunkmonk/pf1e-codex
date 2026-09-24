@@ -1,0 +1,17 @@
+{
+  "id": "d6a1e11b271f0fb0",
+  "name": "Shrine Ooze",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "SHRINE OOZE\nCR 9\n\nThe quaint wooden floor and solid walls of the monastery quiver like gelatin. The pine-scented air of the room rushes out, suddenly replaced by liquid as the giant ooze reveals itself.\n\nXP 6,400\nN Colossal ooze\nInit –5; Senses blindsight 60 ft.; Perception +1\n\nDEFENSE\n\nAC 7, touch –3, flat-footed 7 (–5 Dex, +12 natural, –8 size)\nhp 161 (14d8+98); fast healing 5\nFort +11, Ref –1, Will +4\nDefensive Abilities consume; Immune ooze traits; Resist acid 10, cold 10, electricity 10, fire 10; SR 22\n\nOFFENSE\n\nSpeed 10 ft.\nMelee 2 slams +10 (2d8+8 plus poison)\nSpace 30 ft.; Reach 30 ft.\nSpecial Attacks engulf (DC 21, poison), poison, smother\n\nSTATISTICS\n\nStr 26, Dex 1, Con 24, Int —, Wis 6, Cha 4\nBase Atk +10; CMB +26; CMD 31\nSkills Disguise –3 (+17 as a building); Racial Modifiers +20 Disguise as a building\nSQ false idol\n\nSPECIAL ABILITIES\n\nConsume (Ex)\n\nAny creature who hits a shrine ooze with a melee weapon while within 5 feet of the ooze must succeed at a DC 21 Reflex save or become engulfed. The DC is Strength-based, and includes a –4 penalty to the DC.\n\nFalse Idol (Su)\n\nA shrine ooze appears as a small, non-denominational shrine set in the countryside, and can always take 20 to disguise itself as such. Divine spellcasters who avail themselves of the facilities and fail a DC 15 Will save find their prayers might go unanswered when the ooze reveals itself and their faith wavers—imparting 50% spell failure chance until the next time they prepare spells. The save DC is Wisdom-based.\n\nShrine Poison (Ex)\n\nWhen a creature takes damage from the shrine ooze’s engulf or slam ability, it must save against shrine poison. The DC of the poison includes a –4 racial penalty.\n\nEngulf or slam—injury; save Fort DC 20, frequency 1/round for 6 rounds, effect 1d4 Dex and Str damage, cure 2 consecutive saves.\n\nECOLOGY\n\nEnvironment any warm, urban\nOrganization solitary, pair, or complex (3-8)\nTreasure double\n\nThese ooze are found along quiet back-roads where travelers might stop to rest—appearing as places of sanctuary. This transformation is quite complete, and includes a variety of supplies available for use. Those who avail themselves of the facilities find their good fortune cut short however, as the ooze reveals itself once their guard is down, engulfing the unfortunate souls. Their sedentary nature requires them to feed only infrequently, and they are often mistaken for real buildings when people move into the area.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d6a1e11b271f0fb0.json",
+    "web": "https://codex.pipsprojects.com/#/e/d6a1e11b271f0fb0"
+  },
+  "license": "OGL 1.0a"
+}

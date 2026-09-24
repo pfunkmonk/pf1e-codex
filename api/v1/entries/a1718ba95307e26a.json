@@ -1,0 +1,25 @@
+{
+  "id": "a1718ba95307e26a",
+  "name": "Ooze Shape II",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 6,
+      "shaman": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation (polymorph); Level alchemist 6, druid/shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of the ooze you wish to replicate)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level\n\nDESCRIPTION\n\nThis spell functions as ooze shape I and also allows you to assume the form of a Tiny or Large creature with the ooze type. If the form you assume has any of the following abilities, you gain the ability: acid, paralysis, transparent, engulf, corrosion, split, and suction.\n\nIf the creature has a climb or swim speed, you gain that movement at the creature’s movement rate (max 30 ft.).\n\nYou don’t gain immunity to mind-affecting effects, but you do gain a +4 resistance bonus on all saving throws against such effects. You also gain blindsight and are not vulnerable to flanking or sneak attacks.\n\nSplit divides you into two similar jellies or oozes, each with half your hp. One contains your intelligence.\n\nThe other is mindless, though it does not attack other creatures with the ooze type. When the spell ends, any other oozes created in this way disappear, and the remaining hp return to you. A caster who takes the form of a Tiny ooze gains a +4 size bonus to Dexterity and a -2 penalty to Strength. A caster who takes the form of a Large ooze gains a +4 size bonus to Strength and a -2 penalty to Dexterity.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a1718ba95307e26a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a1718ba95307e26a"
+  },
+  "license": "OGL 1.0a"
+}

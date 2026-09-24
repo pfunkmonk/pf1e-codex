@@ -1,0 +1,24 @@
+{
+  "id": "825ae4768e90e3be",
+  "name": "Shadowself",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (shadow, shadowflesh); Level sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 6 hrs.\nComponents V, S, M (a piece of your flesh, fur, or hair)\n\nEFFECT\n\nRange personal\nTarget you\nEffect one duplicate creature\nDuration 1 month/caster level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a fleshy shadow-copy of yourself. This creature is similar to a simulacrum, but it is less powerful and permanent than the creature created by that spell.\n\nThe duplicate has only 1/5 of your class levels and/or HD (minimum 1 class level or HD). It also has only 1/5 your hp, and if you have any special abilities not tied to your class level (such as those resulting from feats), it can only use them once per day each.\n\nYou must make a Disguise check when you create the duplicate to determine how good the copy is; a creature familiar with you might detect a ruse with a successful Perception check (opposed to the caster’s original Disguise check) or a DC 20 Sense Motive check.\n\nCreatures receive bonuses to their Perception checks based on their familiarity with you (see the Disguise skill).\n\nThe duplicate creature cannot increase its abilities and skills. The duplicate remains under your control at all times, but no telepathic link exists, so commands must be verbal.\n\nIf the shadowself is reduced to 0 hp, it is destroyed.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/825ae4768e90e3be.json",
+    "web": "https://codex.pipsprojects.com/#/e/825ae4768e90e3be"
+  },
+  "license": "OGL 1.0a"
+}

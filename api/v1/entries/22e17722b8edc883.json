@@ -1,0 +1,25 @@
+{
+  "id": "22e17722b8edc883",
+  "name": "Classify",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Purple Duck Games",
+  "book": "Purple Duck Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 2,
+      "inquisitor": 1,
+      "ranger": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Purple Duck Games"
+  },
+  "body": "School divination; Level cleric/oracle 2, inquisitor 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of hair or dung)\n\nEFFECT\n\nRange close (25 ft. plus 5 ft. / 2 levels)\nTarget 1 creature/round\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell is a magical manifestation of an identify monsters skill check, giving information to the caster as if he obtained a result of 20 + his caster level on his check; a successful Will save denies the information to the caster, though he can make the attempt as many times as the duration of the spell, or target other creatures.\n\nHeroes of the Middle Kingdoms, Copyright 2014, Purple Duck Games; Authors Perry Fehr, Mark Gedak.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/22e17722b8edc883.json",
+    "web": "https://codex.pipsprojects.com/#/e/22e17722b8edc883"
+  },
+  "license": "OGL 1.0a"
+}

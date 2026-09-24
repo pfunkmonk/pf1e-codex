@@ -1,0 +1,29 @@
+{
+  "id": "3dbed1e58370dc6e",
+  "name": "Hail of Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "magus": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [earth]; Level druid 1, magus 1, shaman 1, sorcerer/wizard 1\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange medium (100 ft. + 10 ft./level)\n\nArea 5-foot radius cylinder, 40 ft. high\n\nDuration instantaneous\n\nSaving Throw Reflex half; Spell Resistance yes\n\nYou cause a rain of stones to come down in the area dealing 1d4 bludgeoning damage per caster level (maximum 5d4) to all creatures in the area. A successful Reflex save halves this damage.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3dbed1e58370dc6e.json",
+    "web": "https://codex.pipsprojects.com/#/e/3dbed1e58370dc6e"
+  },
+  "license": "OGL 1.0a"
+}

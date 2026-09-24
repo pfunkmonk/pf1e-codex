@@ -1,0 +1,25 @@
+{
+  "id": "490f86c4c4348435",
+  "name": "Telekinetic Lance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 3,
+      "psychic": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level magus 3, psychic 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one lance of telekinetic force\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou must succeed on a ranged touch attack to affect the target with the telekinetic lance. If the attack hits, you deal 1d6 damage per level (maximum 10d6). The damage is considered magical piercing damage. Additionally, the target must make a Fortitude save or be launched back 5 feet per 4 caster levels you possess. After striking or missing its target, the telekinetic lance disappears.\n\nContact Other Plane: World of Mass Effects I, © 2025, Orphaned Bookworm Productions; Author: Connor Bates and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/490f86c4c4348435.json",
+    "web": "https://codex.pipsprojects.com/#/e/490f86c4c4348435"
+  },
+  "license": "OGL 1.0a"
+}

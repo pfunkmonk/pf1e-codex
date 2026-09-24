@@ -1,0 +1,27 @@
+{
+  "id": "c788b0117f0303f3",
+  "name": "Chaos Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "chaotic",
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [chaotic, force]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou tap the realm of chaos and release a bolt of chaotic energy that deals 1d6 points of damage per caster level (maximum 10d6) to your target. A lawful-aligned creature receives a –4 penalty on its saving throw.\n\nA chaotic-aligned creature receives a +4 bonus on its saving throw. The bolt begins at your fingertips.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c788b0117f0303f3.json",
+    "web": "https://codex.pipsprojects.com/#/e/c788b0117f0303f3"
+  },
+  "license": "OGL 1.0a"
+}

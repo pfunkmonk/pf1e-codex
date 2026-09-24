@@ -1,0 +1,26 @@
+{
+  "id": "187f012db7097b8e",
+  "name": "Conflagration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a small wax doll and a pinch of dung)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nConflagration sets the subject on fire and deals 1d6 points of fire damage/2 levels each round (maximum 12d6) for the duration of the spell . Creatures within 10 feet of the subject take 2d6 points of fire damage (Fortitude save for no damage). Flammables within 10 feet of the subject likewise catch fire. The subject can move and fight normally (at least as normally as a person on fire can), but cannot cast spells while ablaze.\n\nThe conflagration can be controlled by fully immersing the subject in sand or water. This reduces the damage to 1d4 points per round for as long as he remains immersed. Dousing the subject with water or sand (including water or sand created by spells) does not extinguish the fire and causes a cloud of steam or burning dust to fill a 20-foot radius for 1 round, centered on the subject. Creatures caught within the cloud take 1d6 points of fire damage.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/187f012db7097b8e.json",
+    "web": "https://codex.pipsprojects.com/#/e/187f012db7097b8e"
+  },
+  "license": "OGL 1.0a"
+}

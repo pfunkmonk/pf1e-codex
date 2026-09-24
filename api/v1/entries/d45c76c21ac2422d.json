@@ -1,0 +1,27 @@
+{
+  "id": "d45c76c21ac2422d",
+  "name": "Sink Land",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 9,
+      "shaman": 9
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [water]; Level cleric/oracle 9, druid/shaman 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (heartblood of an epic leviathan or kraken worth 5,000 gp), DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 500-ft.-radius spread (S)\nDuration 3 rounds\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nWhen you cast sink land, the earth around you sinks and the water table rises. This creates a powerful shockwave and tidal rush and permanently alters the terrain near you.\n\nThe sinking effect lasts for 3 rounds, during which time creatures on the ground can’t move or attack. In the first and second rounds, the land sinks and movement and attacks are hampered; in the third round, water rushes into the area of the spell and speech, movement, and attacks are all prevented. Starting in the fourth round, creatures can move and act normally.\n\nSpellcasters on the ground must make a concentration check (DC 20 + spell level) or lose any spells they try to cast. Being underwater in the third round, spellcasters must follow the rules for underwater spellcasting and must also make the same concentration check for verbal components as in previous rounds.\n\nThe sinking land affects all terrain, vegetation, structures, and creatures in the area. The specific effect of a sink land spell depends on the nature of the terrain where it is cast, as listed below.\n\nCave, cavern, or tunnel: The roof collapses, dealing 8d8 hp damage to any creature caught under the cave-in (Reflex DC 16 for half) and pinning that creature under the rubble (see below). Water floods the cavern or tunnel; creatures unable to breathe water must hold their breath until freed or drown.\n\nCliffs, hills, and mountains: Cliffs crumble and mountains sink by up to 10 ft./caster level. This creates a landslide or mudslide that travels 40 ft. for every 10 ft. it falls vertically. Any creature in the path takes 8d8 hp bludgeoning damage (Reflex DC 16 for half) and is pinned under the rubble (see below). In addition, springs and melting snow or ice water spring forth from the hillside, turning the terrain to mud. The affected area slumps down and may form an alpine lake, ice field, or tarn if surrounded by higher terrain.\n\nOpen ground: Each creature standing in the area must make a DC 16 Reflex save to successfully take a breath before plunging underwater; otherwise, they begin drowning and they drop held items. The sinking creates a large lake or waterhole in even the driest region. The lake is 10 ft. deep/caster level in marsh, swamp, plains, or urban terrain; 5 ft. deep/caster level in forests or jungle; and 5 ft. deep/2 caster levels in snowy tundra. In a desert, the sinking creates a marsh 5 ft. deep regardless of caster level and affects half the usual radius. If cast along a shoreline or coast, the lake merges with the nearby body of water.\n\nStructures: Any structure on open ground takes 100 hp damage from sinking foundations and rushing floodwaters. This collapses a typical wooden or masonry building, but not a structure of stone or reinforced masonry. Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is. Any creature inside a collapsing structure takes 8d6 hp bludgeoning damage (Reflex DC 16 for half) and is pinned beneath the rubble (see below) below water level and may be subject to drowning.\n\nPinned under rubble: Any creature pinned beneath rubble takes 1d6 hp nonlethal damage/min. while pinned. If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 hp lethal damage each minute thereafter until freed or dead.\n\nThe material component is the heartblood of an epic leviathan or kraken.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d45c76c21ac2422d.json",
+    "web": "https://codex.pipsprojects.com/#/e/d45c76c21ac2422d"
+  },
+  "license": "OGL 1.0a"
+}

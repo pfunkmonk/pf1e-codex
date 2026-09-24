@@ -1,0 +1,32 @@
+{
+  "id": "fba40a1735050300",
+  "name": "Despoiling Utterance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 3,
+      "inquisitor": 3,
+      "psychic": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "sonic",
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic, evil]; Level antipaladin 2, cleric/oracle 3, inquisitor 3, psychic 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a scroll of insults written in abyssal)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous (see text)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe caster draws forth power from ancient abyssal curses and foul dark secrets. The utterance is so damning that it harms the very soul of the creature that hears it. The despoiling utterance causes one subject within range to take 1d4 points of Charisma drain. The caster gains 5 temporary hit points for each point of drain inflicted by this spell.\n\nThese temporary hit points disappear after 1 hour.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fba40a1735050300.json",
+    "web": "https://codex.pipsprojects.com/#/e/fba40a1735050300"
+  },
+  "license": "OGL 1.0a"
+}

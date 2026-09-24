@@ -1,0 +1,24 @@
+{
+  "id": "6efb226315b1aba8",
+  "name": "Hunter’s Shot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "shaman": 6,
+      "elven archer": 4
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level druid/shaman 6, elven archer 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget arrows or bolts touched\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou can slay creatures with one shot. If your prey’s total Hit Dice are less than or equal to half your archer level, on a failed Fortitude save, your prey must make a second Fortitude save or be killed. On a successful Fortitude save, your prey takes damage equal to half its current hp, or equal to your normal arrow damage, whichever is greater.\n\nIf your prey’s total Hit Dice exceed half your archer level, on a failed Fortitude save your prey takes damage equal to half its current hp, or equal to your normal arrow damage, whichever is greater. On a successful Fortitude save, your prey takes only your normal arrow damage.\n\nThis spell affects all the arrows you shoot during each round it remains in effect. Although this spell can kill outright, it is not a “death attack;” it simply helps your arrows strike as effectively as possible. Therefore, it does not prevent the subsequent use of raise dead or similar magic.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6efb226315b1aba8.json",
+    "web": "https://codex.pipsprojects.com/#/e/6efb226315b1aba8"
+  },
+  "license": "OGL 1.0a"
+}

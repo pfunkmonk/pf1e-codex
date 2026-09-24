@@ -1,0 +1,24 @@
+{
+  "id": "1d43b932cede78cd",
+  "name": "Melt Flesh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 6,
+      "spiritualist": 6
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 6, spiritualist 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (burnt piece of flesh)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature with flesh\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe flesh melts off the victim’s body, causing 6d6 points of damage. The ears, lips, eyelids, and nostrils run away or partially seal up, giving the victim a –4 penalty on all skill checks that would require the use of these body parts or its senses. One of these orifices (chosen randomly) is sealed completely and cannot be opened without cutting the creature, which inflicts 1d6 points of bleed damage to the victim. The target has a 10% chance of losing any spell it attempts to cast that requires a verbal or somatic component. The penalties last until the victim is healed by regenerate, limited wish, wish, or miracle.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1d43b932cede78cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/1d43b932cede78cd"
+  },
+  "license": "OGL 1.0a"
+}

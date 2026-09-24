@@ -1,0 +1,30 @@
+{
+  "id": "47a76f022b0e301b",
+  "name": "Doom Of Consuming Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 2,
+      "magus": 3,
+      "wizard": 3,
+      "summoner": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [cold]; Level alchemist 3, antipaladin 2, magus 3, sorcerer/wizard 3, summoner 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dead coal or fistful of ashes)\n\nEFFECT\n\nRange personal plus 5-ft. radius\nTarget you\nDuration 1 round/level (D)\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell wreathes you in cold purple fire and damages each creature near you in melee. When casting this spell, you do subject yourself to severe chilling fire, and the freezing flames cause 1d8 hp cold damage to you each round.\n\nAny creature within 5 ft. of you takes 1d12 hp cold damage + 1 per caster level (maximum +15).\n\nCreatures wielding melee weapons with reach are not subject to this damage if they attack you from more than 5 ft. away.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/47a76f022b0e301b.json",
+    "web": "https://codex.pipsprojects.com/#/e/47a76f022b0e301b"
+  },
+  "license": "OGL 1.0a"
+}

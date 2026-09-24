@@ -1,0 +1,28 @@
+{
+  "id": "f888749f14803122",
+  "name": "Forcedisk",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 2,
+      "psychic": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation (creation) [force]; Level magus 2, psychic 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small glass disk)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature plus up to 1 additional creature per 2 levels (max 5, see text)\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou throw a spinning disk of force at a target that has the possibility of ricocheting to additional targets. You must make a ranged touch attack. If the attack hits, the target is dealt 3d6 force damage and the disk ricochets to another target within 15 feet of the initial target. The secondary target must also be hit with a ranged touch attack and if hit, is dealt 2d6 force damage. This continues until you reach your maximum number of secondary targets (1 per 2 caster levels, max 5), run out of eligible targets or voluntarily end the spell. A creature may only be damaged by this spell once.\n\nThe disk is subject to spell resistance and if you fail the caster level check to overcome spell resistance, the spell ends.\n\nThe exact form, color and nature of the force disk is mutable and determined by the caster of the spell. The form does not change the damage type of the spell.\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f888749f14803122.json",
+    "web": "https://codex.pipsprojects.com/#/e/f888749f14803122"
+  },
+  "license": "OGL 1.0a"
+}

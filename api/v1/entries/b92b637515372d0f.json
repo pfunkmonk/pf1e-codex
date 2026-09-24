@@ -1,0 +1,28 @@
+{
+  "id": "b92b637515372d0f",
+  "name": "Binding Chains",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "saboteur": 3,
+      "wizard": 3,
+      "vanguard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level saboteur 3, sorcerer/wizard 3, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure several metal chains to wrap a creature and restrict its movement. A creature that fails its saving throw is considered pinned by the chains; a successful save makes it entangled instead.\n\nA creature that is held by the chains can make Strength check (DC = binding chains’ DC) or an Escape Artist check (DC = binding chains’ DC + 5) as a full-round action to break or escape the chains, which ends the spell. Binding chains cannot bind an incorporeal creature nor a swarm.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b92b637515372d0f.json",
+    "web": "https://codex.pipsprojects.com/#/e/b92b637515372d0f"
+  },
+  "license": "OGL 1.0a"
+}

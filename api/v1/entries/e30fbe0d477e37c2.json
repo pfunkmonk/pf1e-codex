@@ -1,0 +1,28 @@
+{
+  "id": "e30fbe0d477e37c2",
+  "name": "Tempest Hammer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 7,
+      "elementer": 7,
+      "shaman": 7
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [air]; Level druid 7, elementer 7, shaman 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea cylinder (30-ft.-radius, 200 ft. high)\nDuration 1 round\nSaving Throw Fortitude partial (object); Spell Resistance yes (object)\n\nAn intense blast of air slams down from above, crushing anything below with tornado-strength winds. Each creature, unattended object, and structure inside the area when the spell is cast takes 1d6 bludgeoning damage per caster level (max 20d6); this damage counts as magic for the purpose of overcoming damage reduction. Creatures are forced prone, and flying creatures are immediately forced to the ground and forced prone, taking falling damage as appropriate for the height it fell. A successful Fortitude save halves the damage and negates both the prone effect and grounding effect.\n\nFor 1 round thereafter, the wind continues to blast downward, acting as hurricane-strength winds directly towards the ground (see the Environment rules). Any flying creature in the area must make a DC 25 Fly check (with a -12 penalty imposed by the hurricane force of the wind) or be forced immediately to the ground and forced prone, taking falling damage as normal. Loose objects are scattered about, and objects and structures that are still intact after the initial damage of the spell may be further damaged by the powerful winds.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e30fbe0d477e37c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/e30fbe0d477e37c2"
+  },
+  "license": "OGL 1.0a"
+}

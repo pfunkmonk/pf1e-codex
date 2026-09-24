@@ -1,0 +1,26 @@
+{
+  "id": "ed295548abb02833",
+  "name": "Phantasmal Assailants",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bloodrager": 2,
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (phantasm)) [emotion, fear, mind-affecting]; Level bloodrager 2, magus 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will disbelief, then Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a phantasmal image of nightmarish creatures surrounding the target. Only the spell’s target can see the phantasmal assailants. You see shadowy shapes, while others see nothing. The target first gets a Will save to recognize the image as unreal, at which point, on a success the spell fails. If the target fails their saving throw, the phantasms strike, dealing 8 points of Wisdom and Dexterity damage. A successful Fortitude save at this point halves the ability damage.\n\nIf the target of the phantasmal assailants succeeds in disbelieving and possesses telepathy or is wearing a helm of telepathy, the spell can be turned upon you.\n\nYou must then disbelieve it or become subject to its effects.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed295548abb02833.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed295548abb02833"
+  },
+  "license": "OGL 1.0a"
+}

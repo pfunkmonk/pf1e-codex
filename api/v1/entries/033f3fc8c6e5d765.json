@@ -1,0 +1,27 @@
+{
+  "id": "033f3fc8c6e5d765",
+  "name": "Poisonous Entangle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "shaman": 7
+    },
+    "desc": [
+      "wood"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [wood]; Level druid 7, shaman 7\n\nSaving Throw Reflex partial and Fortitude partial, see text\n\nWood: Spells with this descriptor include those that directly create, utilize, or manipulate plant or wood in some manner or conjure creatures with the plant subtype or composed of wood. Such spells are considered to belong to the Wood element (for geomancers) and the Wood elemental school (for wood elementalists).\n\nThis spell functions as entangle, except any creature entering the area or entangled by the spell must make a Fortitude save or be poisoned. A creature that begins their turn and is not entangled does not need to make a Fortitude save unless they fail their Reflex save. The poison deals 1d6 Dex damage per round for 6 rounds and requires 2 consecutive saves to end the affliction.\n\nYou and any creatures you designate are immune to the poison, but not the entangling effect of this spell.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/033f3fc8c6e5d765.json",
+    "web": "https://codex.pipsprojects.com/#/e/033f3fc8c6e5d765"
+  },
+  "license": "OGL 1.0a"
+}

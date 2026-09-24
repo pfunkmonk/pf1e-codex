@@ -1,0 +1,26 @@
+{
+  "id": "e39cf11574b55bc4",
+  "name": "Piercing Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThe piercing bolt spell allows you to hurl a single missile of force energy that has two effects. You make a single ranged touch attack when casting piercing bolt, if you succeed, you automatically dispel all abjuration spells protecting the target and all protective spells that have the force descriptor (such as mage armor or shield) of 3rd level or less. It even suppresses bracers of armor and rings of protection for 1d4+1 rounds. You also cause 1d8 points of damage per two caster levels (maximum 5d8).\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e39cf11574b55bc4.json",
+    "web": "https://codex.pipsprojects.com/#/e/e39cf11574b55bc4"
+  },
+  "license": "OGL 1.0a"
+}

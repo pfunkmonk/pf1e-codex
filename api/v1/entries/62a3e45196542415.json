@@ -1,0 +1,27 @@
+{
+  "id": "62a3e45196542415",
+  "name": "Mocking Jibe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 0
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [language-dependent, mind-affecting]; Level bard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nYou unleash magically-enhanced insults and verbal jabs at a target in range. If the target can hear you, they must make a Will save or be dealt 1d4 damage and take a -1 penalty on attack rolls and concentration checks until your next turn. A successful save halves the damage and negates the penalty.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/62a3e45196542415.json",
+    "web": "https://codex.pipsprojects.com/#/e/62a3e45196542415"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dcfd15a038833de5",
+  "name": "Mimic Form of Nyarlathotep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "chaotic",
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School transmutation (polymorph) [chaotic, evil]; Level cleric 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nYou take on one of Nyarlathotep’s forms, generally that of the Howler, though other forms with similarly potent benefits might be available at GM’s discretion. You become Huge and gain a +6 size bonus to Strength and Dexterity. You gain blindsight 60 feet, darkvision 60 feet, air walk at a speed of 60 feet, and constrict (3d6). You gain the following natural weapons: bite (2d6), 2 claws (1d8), and tentacle (3d6 and grab at reach 30 ft.). You also randomly gain one of the following abilities of that form. The DC for any of these abilities equals your DC for this spell.\n\nd6\tRandom Ability\n1\tCloak of chaos\n2\tEnergy resistances of player’s choice\n3\tHowl\n4\tMillion favored ones\n5\tTrue seeing\n6\tVampirism\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dcfd15a038833de5.json",
+    "web": "https://codex.pipsprojects.com/#/e/dcfd15a038833de5"
+  },
+  "license": "OGL 1.0a"
+}

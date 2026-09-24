@@ -1,0 +1,27 @@
+{
+  "id": "857cbd55631e6611",
+  "name": "Demon Flesh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration [evil]; Level cleric/oracle 5, sorcerer/wizard 5\n\nDESCRIPTION\n\nThis spell functions as lesser demon flesh, but grants the subject damage reduction 10/cold iron and good for the duration of the spell.\n\nDemon Flesh, Lesser\n\nSchool abjuration [evil]; Level antipaladin 3, cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of flesh from a demon)/DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe creature touched gains damage reduction 5/cold iron and good for the duration of the spell. Once the spell prevents a total of 10 points of damage per caster level (maximum 100 points), it is discharged.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/857cbd55631e6611.json",
+    "web": "https://codex.pipsprojects.com/#/e/857cbd55631e6611"
+  },
+  "license": "OGL 1.0a"
+}

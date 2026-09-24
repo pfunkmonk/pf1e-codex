@@ -1,0 +1,26 @@
+{
+  "id": "72a71f947a4746a9",
+  "name": "Flames of Purification",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of sulfur)/DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea ray\nDuration 1 round/level (D) (see text)\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell causes the target’s body to burst into flames if you succeed at a ranged touch attack. The target suffers 3d6 points of damage or half damage if he succeeds at his initial Fortitude saving throw. Anyone within 5 feet of the target also takes 1d6 points of fire damage with no saving throw. The flames of purification continue to deal similar damage each round until they are extinguished or the spell’s duration lapses. Each round that the flames are in effect, the victim must roll a new Fortitude save for half damage.\n\nThe target can try and beat the flames out (see “Catching on Fire”).\n\nIf the fire burns for more than two full rounds, it deals the same damage each round after the second to the target’s personal gear as it deals to the target.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/72a71f947a4746a9.json",
+    "web": "https://codex.pipsprojects.com/#/e/72a71f947a4746a9"
+  },
+  "license": "OGL 1.0a"
+}

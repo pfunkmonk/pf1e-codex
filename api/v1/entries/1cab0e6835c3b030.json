@@ -1,0 +1,24 @@
+{
+  "id": "1cab0e6835c3b030",
+  "name": "Mountain Stride",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 5,
+      "ranger": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); Level druid/shaman 5, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hr./level or until expended; see text\n\nDESCRIPTION\n\nWhen you cast this spell, you gain the ability to step into a mountain’s stone (or another appropriately large piece of rock) and magically meld with it. Once you are within a section of rock, you can teleport from that particular stone to another block of stone. The stone you enter must be of the same kind, it must be unworked (you cannot teleport into a stone tunnel or building), and it must be large enough to envelop your body.\n\nIn addition, by moving into a section of basalt (for example), you instantly know the location of all other basalt within transport range (see below) and may choose whether you want to teleport into a different stone or simply step back out of the stone you moved into. You may choose to teleport into any stone of the appropriate kind within the transport range as shown on the following table.\n\nTable 2-9: Stone Types and Teleporting\nType of Stone Transport\tRange\nIron ore or quartz\t3,000 ft.\nGranite, basalt, or feldspar\t2,000 ft.\nObsidian or lava\t1,500 ft.\nAny sedimentary stone (sandstone, limestone, etc.)\t1,000 ft.\n\nWhile this spell is in effect, you may move into a stone block once per caster level (passing from one stone to another counts only as moving into one stone). The spell lasts until the duration expires or you exit a stone face.\n\nStepping into a stone, teleporting to another stone, and stepping out of a stone all are full-round actions.\n\nYou can remain within a stone without transporting yourself while this spell is in effect, but when it ends you are forced out of the stone and into a random, adjacent square (or shunted to the nearest open space). If the stone in which you are concealed is shattered or split, you are slain.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1cab0e6835c3b030.json",
+    "web": "https://codex.pipsprojects.com/#/e/1cab0e6835c3b030"
+  },
+  "license": "OGL 1.0a"
+}

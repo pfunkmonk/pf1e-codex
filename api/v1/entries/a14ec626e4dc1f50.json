@@ -1,0 +1,29 @@
+{
+  "id": "a14ec626e4dc1f50",
+  "name": "Inferno Crevasse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Fire Mountain Games",
+  "book": "Fire Mountain Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 6,
+      "inquisitor": 5
+    },
+    "desc": [
+      "evil",
+      "fire"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Fire Mountain Games"
+  },
+  "body": "School evocation [evil, fire]; Level antipaladin 4, cleric 6, inquisitor 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 100 ft.\nArea up to one 5-ft.cube/level (S)\nDuration 1 round/level (D)\nSaving Throw none (see text); Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes a great crack to open up from the ground that leads directly to the darkest pits of hell. The crack starts in a square adjacent to you, and each additional area containing the widening crack must be adjacent to another square. Creatures occupying one of these squares when the crack forms takes 1d6 points of damage per level of the caster. Half of this damage is fire damage, while the other half is unholy damage that is not reduced by resistances or immunities. A successful Reflex save halves this damage. After the crack opens, any creature entering a square containing the crack takes this damage, with no save allowed.\n\nIn addition, each round, on the caster’s turn the claws and tails of devils reach out from this crack, attacking any non-evil creature occupying or adjacent to a square containing the crack.\n\nThese attacks are made with a bonus equal to the caster level + the caster’s Charisma modifier. Only one attack is made against each creature. These attacks deal 1d8 points of slashing damage + the caster level. If the attack hits, the target is also entangled until the caster’s next turn. Targets entangled in this way lose the condition if they move to a square that is not adjacent to any square containing the crevasse.\n\nFinally, if any summon spell is cast within 30 feet of the crack, the creature summoned must be a devil or a creature with the fiendish template and such creatures appear by crawling out of the crack. The duration of any such spells is doubled so long as it was cast near the crack. This doubling does not stack with the Extend Spell feat or similar effects.\n\nWay of the Wicked Book Six — The Wages of Sin. Copyright 2013, Fire Mountain Games LLC; Author: Gary McBride.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a14ec626e4dc1f50.json",
+    "web": "https://codex.pipsprojects.com/#/e/a14ec626e4dc1f50"
+  },
+  "license": "OGL 1.0a"
+}

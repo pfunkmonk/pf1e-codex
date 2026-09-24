@@ -1,0 +1,28 @@
+{
+  "id": "26b817115d11e157",
+  "name": "Fireburst, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level bloodrager 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of sulfur)\n\nEFFECT\n\nRange 5 ft.\nArea burst centered on you\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou burst forth with a flash of flame dealing 1d4 fire damage per caster level (maximum 5d4) to all creatures within the burst, except for you or creatures occupying your square. A successful Reflex save halves this damage. Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26b817115d11e157.json",
+    "web": "https://codex.pipsprojects.com/#/e/26b817115d11e157"
+  },
+  "license": "OGL 1.0a"
+}

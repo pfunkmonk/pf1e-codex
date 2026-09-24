@@ -1,0 +1,26 @@
+{
+  "id": "284eaeb274f6da95",
+  "name": "Divine Light, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 0,
+      "oracle": 0,
+      "inquisitor": 0,
+      "white necromancer": 0
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation; Level adept 0, cleric/oracle 0, inquisitor 0, white necromancer 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one living or undead creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou envelop the target a shining radiance dealing 1d3 positive energy damage to the target if they are a living creature, or 1d6 positive energy damage if the creature is undead. This has no effect on constructs or objects. A successful Reflex save halves this damage.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/284eaeb274f6da95.json",
+    "web": "https://codex.pipsprojects.com/#/e/284eaeb274f6da95"
+  },
+  "license": "OGL 1.0a"
+}

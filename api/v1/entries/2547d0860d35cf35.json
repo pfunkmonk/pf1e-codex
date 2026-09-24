@@ -1,0 +1,27 @@
+{
+  "id": "2547d0860d35cf35",
+  "name": "Lightning Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "shaman": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level druid 2, shaman 2\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange 0 ft.\n\nEffect sword-like bolt\n\nDuration 1 round/level (D) or until discharged\n\nSaving Throw none; Spell Resistance yes\n\nA 3-foot-long bolt of lightning shaped like a longsword springs forth from your hand. You wield this blade-like beam as if it were a longsword, though you are proficient even if you are not proficient with longswords. Attacks with the lightning blade are melee touch attacks. The blade deals 1d8 points of electricity damage + 1 point per two caster levels (maximum +10). Since the blade is immaterial, your Strength modifier does not apply to the damage. You can discharge the spell to create a 30-foot ranged touch attack that deals 1d6 electricity damage per round of duration remaining (maximum 10d6), however, you subtract an amount of damage equal to the number of times you have dealt damage with the lightning blade with melee touch attacks while the spell is active. This cannot reduce the damage below 0.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2547d0860d35cf35.json",
+    "web": "https://codex.pipsprojects.com/#/e/2547d0860d35cf35"
+  },
+  "license": "OGL 1.0a"
+}

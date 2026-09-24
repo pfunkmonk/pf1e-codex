@@ -1,0 +1,17 @@
+{
+  "id": "bcd4f84129252606",
+  "name": "Consumed",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Into the Wilds: Consumed",
+  "book": "Into the Wilds: Consumed",
+  "facets": {
+    "bk": "Into the Wilds: Consumed"
+  },
+  "body": "CONSUMED\nCR 9\n\nAs the jumble of putrefied blood, bits of flesh, and broken bones roils across the ground, those nearby fight a wave of nausea.\n\nXP 6,400\nN Medium aberration\nInit +2; Senses darkvision 60 ft., scent; Perception +23 Aura revulsion (DC 21 3 rounds)\n\nDEFENSE\n\nAC 20, touch 12, flat-footed 18 (+2 Dex, +8 natural)\nhp 133 (14d8+56)\nFort +9, Ref +5, Will +6; DR 5/-; Immune acid, critical hits, exhaustion, fatigue, nauseated, poison, polymorph, precision damage, sickened\n\nOFFENSE\n\nSpeed 30 ft.\nMelee 2 slams +12 (1d6+2 plus digestive juices)\nSpace 5 ft.; Reach 5 ft.\n\nSTATISTICS\n\nStr 22, Dex 14, Con 18, Int 6, Wis 11, Cha 5\nBase Atk +6; CMB +12; CMD 24 (28 vs trip)\nFeats Blood Feast, Great Fortitude, Improved Natural Attack, Skill Focus (Perception), Toughness\nSkills Escape Artist 19, Perception +23\nSQ digestive juices, unidentifiable anatomy\nLanguages understands Common, but can’t speak\n\nSPECIAL ABILITIES\n\nDigestive Juices (Ex)\n\nWhen a consumed makes a successful melee attack against a creature, the wound is bathed in acidic digestive fluids. The creature must make a DC 21 Fortitude save. The creature takes 4d6 acid damage on a failed save or half as much on a successful save. The save DC is Constitution-based.\n\nRevulsion (Ex)\n\nAll living creatures within 30 feet of a consumed must make a Fortitude save DC 21. A creature is nauseated for three rounds on a failed save or sickened for 1 round on a successful save.\n\nWhether or not a creature succeeds or fails on its saving throw, it can’t be affected again by the revulsion aura of the same consumed for 24 hours.\n\nDelay poison or neutralize poison removes the effect from the affected creature. Creatures with immunity to poison are immune to this aura. The save DC is Constitution-based.\n\nUnidentifiable Anatomy (Ex)\n\nThe organs of a consumed are randomly arranged and difficult to differentiate amongst the gore. This grants the creature immunity to precision damage and critical hits.\n\nECOLOGY\n\nEnvironment any wilderness\nOrganization solitary\nTreasure standard (undigested held or worn items of victims in the stomach of the consumed)\n\nThe threat of being eaten alive by a wild beast can lead a person to an act of desperation. An insane and particularly perverted entity from beyond the Void lurks in remote wilderness locations, waiting to take advantage of just such a situation. When the soon-to-be-eaten individual is at their most vulnerable, the demented being offers the terrified creature a bargain—an escape from death—but at a horrible price!\n\nThough the threatened creature is spared from death, it is transformed into a consumed. A consumed is an unrecognizable mass of torn flesh and broken body parts that must undulate along the ground rather than walk upright. The consumed loses its ability to speak and is cursed with an unquenchable hunger. For the rest of its days, the consumed roams the wilderness seeking to abate its accursed hunger with whatever unfortunate creature crosses its path.\n\nInto the Wilds: Consumed, © 2024, Bloodstone Press; Designer Beth Jones",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bcd4f84129252606.json",
+    "web": "https://codex.pipsprojects.com/#/e/bcd4f84129252606"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "632e78d50f9aa997",
+  "name": "Mock Life",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 2,
+      "legendary ninja": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Legendary Games"
+  },
+  "body": "School illusion; Level antipaladin 2, cleric/oracle 2, legendary ninja 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bottle of alcohol)\n\nEFFECT\n\nRange touch\nTarget object corpse\nDuration 10 minutes/level (D)\nSaving Throw Will negates; Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell makes a corpse seem alive and blacked-out drunk to any observer. The spell makes the body register as alive to any divination spell unless the caster succeeds at a caster level check DC 11 plus your caster level. This spell does not, however, hide the body’s location. The spell hides any damage or missing parts of the corpse. The body and its equipment and clothing look as they would have in life as long as the body has not been dead longer than 1 week per caster level. The smell the corpse may have is hidden by the smell of overwhelming alcohol and vomit.\n\nIf the illusion made by this spell is interacted with while in your presence, you may make a Bluff check in lieu of the normal Will DC of the spell.\n\nA corpse for purposes of this corpse is no longer alive nor has it been reanimated as undead. The corpse must be one from the material plane and leave behind remains on which to cast the spell. This spell does not prevent revival while under the effects of this spell and a spell is cast to revive the target that does not require the remains to be present ends this spell effect.\n\nLegendary Ninjas © 2020, Legendary Games; Authors N. Jolly, Mia Yoshida, Connor Bates, Cerise Herndon, and Nate Wright.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/632e78d50f9aa997.json",
+    "web": "https://codex.pipsprojects.com/#/e/632e78d50f9aa997"
+  },
+  "license": "OGL 1.0a"
+}

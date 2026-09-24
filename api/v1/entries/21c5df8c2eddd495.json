@@ -1,0 +1,29 @@
+{
+  "id": "21c5df8c2eddd495",
+  "name": "Water Snakes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "wizard": 5,
+      "witch": 4
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [water]; Level cleric/oracle 4, druid/shaman 4, sorcerer/wizard 5, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a stirred vial of water)\n\nEFFECT\n\nRange personal\nArea 1-mile radius burst centered on you\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create and/or control surface currents within 1 mile of your position, allowing you to speed your vessel or steer enemy ships toward shoals and rocks. You can confound experienced navigators and make entering a narrow inlet a harrowing, backbreaking gamble.\n\nYou may devise as complex a system of slow or fast moving surface currents as desired. Each current carries floating creatures, flotsam, and vessels at a speed of up to 60 ft. in the horizontal direction of your choice.\n\nThe currents persist until the spell ends, you move beyond the area of effect, or you choose to alter them by concentrating.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/21c5df8c2eddd495.json",
+    "web": "https://codex.pipsprojects.com/#/e/21c5df8c2eddd495"
+  },
+  "license": "OGL 1.0a"
+}

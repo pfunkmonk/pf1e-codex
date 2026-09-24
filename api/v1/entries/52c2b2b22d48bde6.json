@@ -1,0 +1,17 @@
+{
+  "id": "52c2b2b22d48bde6",
+  "name": "Lumocantha",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Galactic Bestiary 19",
+  "book": "Galactic Bestiary 19",
+  "facets": {
+    "bk": "Galactic Bestiary 19"
+  },
+  "body": "LUMOCANTHA\nCR 2\n\nXP 600\nN Medium plant\nInit +2; Senses low-light vision; Perception +5\n\nDEFENSE\n\nAC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)\nhp 19 (3d8+6)\nFort +5, Ref +3, Will +2\nImmune plant traits; Resist fire 5\n\nOFFENSE\n\nSpeed 10 ft., climb 10 ft.\nMelee slam +3 (1d6+1 B)\nRanged laser spines +4 touch (1d8 fire, range incr. 30 ft.)\n\nSTATISTICS\n\nStr 12 (+1); Dex 15 (+2); Con 14 (+2); Int —; Wis 12 (+1); Cha 10 (+0)\nBase Atk +2; CMB +3; CMD 15\nSkills Climb +9, Perception +5, Survival +5; Species Modifiers +4 Perception, +4 Survival\nSQ dye capsules\n\nSPECIAL ABILITIES\n\nDye capsules (Ex)\n\nA lumocantha’s center has many individual capsules filled with a corrosive dye that acts as a lasing medium.\n\nA creature adjacent to the lumocantha who hits it with a melee attack takes 1d4 acid damage and is stained by dye. An affected creature can attempt a DC 13 Reflex save to take half damage and avoid being stained.\n\nThe lumocantha gains a +2 circumstance bonus on ranged attacks against creatures stained by this dye, even if the dye came from another lumocantha. The save DC is Constitution-based.\n\nLaser Spines (Ex)\n\nA lumocantha’s individual capsules are constantly lasing, and the creature makes attacks by squeezing a shutter-like fiber at the base of each spine to allow light through. This is a ranged touch attack that has a range increment of 30 feet (10 range increments), and does not provoke attacks of opportunity.\n\nECOLOGY\n\nEnvironment temperate and warm forests\nOrganization solitary or colony (3–8)\nTreasure special (300 gp worth of dye; Survival DC 17 to harvest)\n\nLumocanthas are a marvel of evolution.\n\nTheir flowers have red, fluid-filled capsules that are able to focus stored energy into concentrated laser beams. Being mindless, they do not do this out of malice but solely out of instinct, protecting themselves from creatures they perceive as threats, but allowing small animals and other plants to pass unharmed.\n\nLumocanthas require rich soil and large amounts of sunlight, and are able to move themselves around to pursue these needs. If their path is blocked, they use their laser blasts to clear the way forward.\n\nLumocantha dye is highly prized, but hunting the plants is forbidden on many worlds. Harvesting dye from a lumocantha requires a Survival check (DC 15 + the lumocantha’s CR) and yields 100 gp worth of dye per Hit Die.\n\nLumocanthas can live to be hundreds of years old, and continue to grow throughout their lives. Most grow to a height of about 5 feet, but the oldest can reach heights of 10 feet or more.\n\nGalactic Bestiary 19. © 2026, Far Distant Future Publishing; Author: Bryan Mangum.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/52c2b2b22d48bde6.json",
+    "web": "https://codex.pipsprojects.com/#/e/52c2b2b22d48bde6"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "be8a28dd65738d8b",
+  "name": "Geomagnetic Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 4,
+      "druid": 3
+    },
+    "desc": [
+      "electricity",
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [electricity, light]; Level cleric/oracle 4, druid 3\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\n\nArea cylinder (40-ft. radius, 20-ft. high)\n\nDuration 1 round/level\n\nSaving Throw none; Spell Resistance yes\n\nDazzling multicolored lights taking on a multitude of unique shapes fill the area, though the illumination sheds only dim light in the area. Sparks of electricity continuously surge through the area, dealing 1d6 points of electricity damage + 1 point of electricity damage per two caster levels (maximum +10) to creatures and objects within the storm. The storm deals this damage when it appears, and to all creatures in the area on your turn each round. The magnetism created by the storm is too weak to affect most metallic objects, but any ranged attack made with small metallic projectiles including arrows, bolts, and bullets passing through the storm suffers a 50% miss chance.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/be8a28dd65738d8b.json",
+    "web": "https://codex.pipsprojects.com/#/e/be8a28dd65738d8b"
+  },
+  "license": "OGL 1.0a"
+}

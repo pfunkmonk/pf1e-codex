@@ -1,0 +1,24 @@
+{
+  "id": "33ff0826d9902831",
+  "name": "Decrypt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School divination; Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget document touched\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou gain insight into an encrypted message. This spell gives you a +10 circumstance bonus to any Linguistics skill checks to interpret or read a document. This spell can be specifically used to counter the encrypt spell and automatically removes encryption created by the spell (though this doesn’t make the language it was written in any easier to interpret).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/33ff0826d9902831.json",
+    "web": "https://codex.pipsprojects.com/#/e/33ff0826d9902831"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e5a7a3a812038760",
+  "name": "Hand of Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 3,
+      "druid": 3,
+      "elementer": 3,
+      "invoker": 3,
+      "shaman": 3,
+      "summoner": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [earth]; Level bloodrager 3, druid 3, elementer 3, invoker 3, shaman 3, summoner 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect hand of stone\nDuration 1 round/level\nSaving Throw Reflex partial; Spell Resistance no\n\nWith a gesture, a large hand of stone and earth rises from the ground, tightly grasping the target.\n\nThis spell conjures a massive hand made of clay, stone, and other earthen materials. The spell only works when cast upon earthen terrain (including mud or sand) or on worked stone and soil; it does not work on metallic or wooden surfaces.\n\nUpon casting the spell and each round at the start of your turn, the hand can attempt to grasp a creature or unattended object within 5 feet of it. A creature or magic item can make a Reflex save to avoid being grabbed: unattended, non-magical objects receive no save.\n\nThe first time a creature fails its saving throw it becomes held by the hand, entangling it. Entangled creatures can’t move from their space without breaking free. A target that is already held by the hand and fails its saving throw is pulled to the ground, forcing it prone. In addition, every round the creature fails its saving throw, it takes bludgeoning damage equal to 1d8 + 1 per two caster levels (max +5) as the hand crushes it. A creature that makes its saving throw takes half damage and goes back one step in the above progression (from prone to entangled, and entangled to free).\n\nAn affected creature can attempt to break out as a standard action, making either a Strength check (DC = hand of stone’s save DC) or an Escape Artist check (DC = hand of stone’s save DC + 5). Success frees it from the hand, but the hand can attempt to grab it again at the start of your next turn if it does not move away.\n\nAn object held by the hand takes bludgeoning damage equal to 1d8 + 1 per two caster levels (max +5) each round as it is crushed by the earth, which ignores hardness. It cannot be moved by another creature unless first pulled out with a Strength check (DC = hand of stone’s save DC).\n\nThe hand cannot move from the space it is created in. It can only grab one creature or object at a time, and only if that creature or object is Large or smaller. It will target creatures and objects as you direct it (no action). If you are unable to direct it (i.e. you are unconscious, confused, or similarly impaired) the hand will continue to grasp a creature or object it is currently holding, but otherwise will not attack until you can direct it again.\n\nThe hand is created as a medium-sized object with AC 16, hardness 5, and 5 hit points per caster level (max 50). If reduced to 0 hit points, the hand of stone crumbles to pieces, ending the spell.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5a7a3a812038760.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5a7a3a812038760"
+  },
+  "license": "OGL 1.0a"
+}

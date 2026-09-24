@@ -1,0 +1,29 @@
+{
+  "id": "b8062fc20236a2b2",
+  "name": "Deadly Proficiency",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "lathspell": 1,
+      "paladin": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level antipaladin 1, bard 1, cleric/oracle 1, inquisitor 1, lathspell 1, paladin 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 swift action\nComponents S, F (a weapon or shield)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWith a touch, the knowledge of soldiers and generals flows through your target.\n\nWhen you cast this spell you draw the focus with a flourish and lay a hand on your target. The target of the spell gains proficiency with the type of weapon or shield used as the focus for this spell. If the target is already proficient, they deal damage with the weapon as though it were one size larger.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8062fc20236a2b2.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8062fc20236a2b2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "366c49233c4756b3",
+  "name": "Portage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 5,
+      "wizard": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [force]; Level bard 5, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (a plank of wood)\n\nEFFECT\n\nRange touch\n\nTarget one vehicle touched of up to 6 squares/level\n\nDuration 8 hours\n\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nYou create a pair of sharp runners that appear on the keel, bottom, or undercarriage of the touched vehicle.\n\nThe runners are the same length as the vehicle and appear on the vehicle’s starboard and port sides. At the time of casting, you may use the spell to gently lift the vehicle onto any solid surface, including ice, adjacent to any part of the vehicle. The entire vehicle then appears in the closest unoccupied squares adjacent to that point. While on a solid surface, the vehicle may be pulled overland by muscle or current, up to the vehicle’s maximum speed in the case of a land vehicle or up to half the vehicle’s maximum speed for a water or air vehicle. Alternatively, as long as you are within 30 feet of the vehicle, you may direct the spell to lug the vehicle in any direction of your choice, though the vehicle’s maximum speed is only half your normal speed.\n\nThe runners wink out of existence when the spell duration expires. When they disappear, the vehicle falls to the surface beneath it. In the case of a vehicle outside of its normal medium, such as a water vehicle on land, the vehicle takes damage from the fall. Treat the impact as if it collided with a Colossal object (see the “Vehicles in Combat” section in Chapter 4 of the Pathfinder Roleplaying Game Ultimate Combat). In addition, if the vehicle does not normally have a flat bottom, the vehicle falls over onto a randomly determined side, which is treated as a second collision with a Colossal object.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/366c49233c4756b3.json",
+    "web": "https://codex.pipsprojects.com/#/e/366c49233c4756b3"
+  },
+  "license": "OGL 1.0a"
+}

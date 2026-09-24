@@ -1,0 +1,24 @@
+{
+  "id": "57c7623c7084a1d7",
+  "name": "Of Two Minds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nTarget one creature\n\nEFFECT\n\nRange close (12 ft. + 2 ft./4 levels)\nDuration 4 hrs. + 1 hr./4 levels\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell generates random, subconscious thoughts in the creature targeted. The target creature is unaware of the thoughts generated, but anyone attempting to read the creature’s mind hears only gibberish or static.\n\nThis spell grants a circumstance bonus equal to 15 + your caster level to saves against any divination spell that doesn’t normally grant a save, such as locate creature. It grants a +4 resistance bonus to divination spells that do allow a save, such as detect thoughts. The spell also grants a +2 resistance bonus to saving throws against all mind-affecting spells and effects.\n\nThe spell does not grant any bonus or resistance against limited wish, miracle, or wish spells when they are used to scry on or otherwise gain information about the target of the spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57c7623c7084a1d7.json",
+    "web": "https://codex.pipsprojects.com/#/e/57c7623c7084a1d7"
+  },
+  "license": "OGL 1.0a"
+}

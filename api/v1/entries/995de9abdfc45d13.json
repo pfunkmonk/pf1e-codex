@@ -1,0 +1,27 @@
+{
+  "id": "995de9abdfc45d13",
+  "name": "Fiery Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level cleric/oracle 5, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of sulfur and a bit of candle wax)/DF\n\nEFFECT\n\nRange 60 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nFiery blast creates an area of extreme heat and flame, originating at your hand and extending outward in a cone, dealing 1d6 points of fire damage per caster level (maximum 10d6).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/995de9abdfc45d13.json",
+    "web": "https://codex.pipsprojects.com/#/e/995de9abdfc45d13"
+  },
+  "license": "OGL 1.0a"
+}

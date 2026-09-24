@@ -1,0 +1,31 @@
+{
+  "id": "94f870029f76a7d3",
+  "name": "Healing Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 1,
+      "bard": 1,
+      "oracle": 1,
+      "druid": 1,
+      "paladin": 1,
+      "ranger": 2,
+      "shaman": 1,
+      "white necromancer": 1,
+      "witch": 1
+    },
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level adept 1, bard 1, cleric/oracle 1, druid 1, paladin 1, ranger 2, shaman 1, white necromancer 1, witch 1\nCasting Time 1 standard action\nComponents V, S\nRange touch\nTarget one living creature\nDuration concentration, up to 1 round/level\nSaving Throw Fortitude half (harmless); Spell Resistance yes (harmless)\n\nYou hold your touch on the target and their wounds begin to mend.\n\nEach round that you touch a target you heal them 1d2 + 1 per two caster levels (maximum +2).\n\nThis spell cannot be used to harm undead. Each round while concentrating on the spell, you may change who you are touching for this spell.\n\nHealing Touch\n\nSchool conjuration (healing); Level adept 3, bard 3, cleric/oracle 3, druid 4, paladin 3, ranger 4, shaman 3, white necromancer 3, witch 3\n\nThis spell functions as lesser healing touch except that the amount healed is 1d6 + 1 per caster level (max +10).\n\nHealing Touch, Greater\n\nSchool conjuration (healing); Level adept 5, bard 5, cleric/oracle 5, druid 6, paladin 4, shaman 5, white necromancer 5, witch 5\n\nThis spell functions as lesser healing touch except that the amount healed is 1d8 + 1 per caster level (max +15).\n\nContact Other Plane: World of the Old Scrolls I, © 2023, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94f870029f76a7d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/94f870029f76a7d3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "9cca3b040e5d035c",
+  "name": "Surgeon’s Watch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "adept": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "wizard": 2,
+      "spiritualist": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School abjuration; Level adept 2, bard 2, inquisitor 2, medium 2, mesmerist 2, paladin 2, ranger 2, sorcerer/wizard 2, spiritualist 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a clean bandage)\n\nEFFECT\n\nRange touch\nTarget one helpless or willing creature\nDuration 24 hours (D)\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nYou place an invisible sensor on the target creature’s body. For the next 24 hours, whenever the target creature takes damage, takes ability score drain, dies, or fails a Fortitude save, you receive a mental alarm in the form of a single mental “ping.” This alarm awakens you from normal sleep but does not otherwise disturb concentration. You are not informed of the nature of the distress, just that a disturbance has occurred.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9cca3b040e5d035c.json",
+    "web": "https://codex.pipsprojects.com/#/e/9cca3b040e5d035c"
+  },
+  "license": "OGL 1.0a"
+}

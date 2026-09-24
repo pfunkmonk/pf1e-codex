@@ -1,0 +1,27 @@
+{
+  "id": "8ef0a69d2685829b",
+  "name": "Shadow Binding",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates, Will partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause a creature’s shadow to animate and restrict the creature, the shadow becoming a semi-real aggressor. A creature that fails its Will save has its shadow stretch along its body like a sheet to bind the creature, making it entangled (though it is not anchored and can still move at half speed). In addition to the normal penalties imparted by being entangled, the shadow restricts the creature’s attacks even further. Any time the creature attempts to attack, the creature must make another Will save or have the attack automatically miss, its movement hindered too much by the shadow to strike at its target. The shadow can only stop one attack each round, regardless of how many attacks the creature can make.\n\nA creature in bright light gains a +2 bonus on its saving throw against this spells effects, including the Will saves made to make attacks unhindered. A creature cannot be targeted this spell if it does not cast a shadow, such as by being a vampire or being under a curse of the lightless spell.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8ef0a69d2685829b.json",
+    "web": "https://codex.pipsprojects.com/#/e/8ef0a69d2685829b"
+  },
+  "license": "OGL 1.0a"
+}

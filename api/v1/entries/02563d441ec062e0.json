@@ -1,0 +1,24 @@
+{
+  "id": "02563d441ec062e0",
+  "name": "Moonlight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "shaman": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment; Level druid/shaman 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (seeds or flower of a moonflower)\n\nEFFECT\n\nRange medium (100 ft. + 10ft./level)\nArea 5-foot-radius, 40-foot-high cylinder\nDuration 1 round/level (D)\nSaving Throw Fort half; Spell Resistance yes\n\nYou create a column of silvery moonlight in a 5-foot-radius in a 40-foot-high cylinder centered on a point within range.\n\nWhen a creature enters the spell’s area for the first time or if they begin their turn in the area, they are immolated by ghostly energy.\n\nThe creature must make a Fortitude save or be dealt 3d4 damage and be subject to any effects triggered by moonlight. A successful save halves the damage and does not trigger any moonlight effects.\n\nYou may, as a move action, direct the moonlight to move up to 30 feet per round.\n\nThe shaft of moonlight winks out of existence if it is moved out of the spell’s range. The area in the cylinder is considered dim light. A spell that creates darkness of 3rd-level or higher negates the effects of this spell within the radius of its darkness effect but does not dispel the moonlight spell.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02563d441ec062e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/02563d441ec062e0"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "115febd4633aefef",
+  "name": "Gate of the Faithful",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "paladin": 3
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration [stronghold]; Level antipaladin 3, cleric 3, inquisitor 3, paladin 3\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one door, chest, portal or opening, up to 30 sq. ft./level in size\nDuration 1 hour/level (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou infuse a door, gate, portal, or opening such as an archway or colonnade in your stronghold with a magical field that repels creatures that do not worship your deity. Creatures that share your patron or wear its holy symbol can move through the gate of the faithful without impediment, but other creatures attempting to enter the gate are pushed back 5 feet and stunned for 1 round (Fort negates). Creatures failing their saves thereafter are staggered for 1 round (Fort negates) if they move or begin their turn within 10 feet of the gate of the faithful. Once a creature successfully saves against this spell, they can freely move through the gate.\n\nGate of the faithful gains the alignment subtypes of your deity. For example, if your deity is lawful evil, it gains the evil and lawful subtypes.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/115febd4633aefef.json",
+    "web": "https://codex.pipsprojects.com/#/e/115febd4633aefef"
+  },
+  "license": "OGL 1.0a"
+}

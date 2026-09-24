@@ -1,0 +1,31 @@
+{
+  "id": "9d57879c86aecf3f",
+  "name": "Chinook",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "archon": 2,
+      "oracle": 2,
+      "druid": 1,
+      "wizard": 2,
+      "witch": 3
+    },
+    "desc": [
+      "air",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [air, fire]; Level archon 2, cleric/oracle 2, druid 1, sorcerer/wizard 2, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. +5 ft./2 levels)\nArea 25 ft. + 5 ft./2 levels radius cylinder 25 ft. high\nDuration 1 minute/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a chinook—a warm wind able to melt snow and warm chilled objects. You warm the area of the spell by 20° F (11° C), to a maximum of 89° F (31.5° C), for the duration of the spell. Objects made of ice or snow that are within the area suffer 2d4 points of damage per minute (this damage bypasses any hardness). You may choose to limit the area to any cylindrical area less than your full limit.\n\nAt any time during the spell’s duration, as a move action you can focus the chinook to attempt to dispel a cold spell or effect. This acts as dispel magic, but only works against spells or effects with the [cold] descriptor. Whether the dispel attempt is successful or not, this use ends the chinook.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d57879c86aecf3f.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d57879c86aecf3f"
+  },
+  "license": "OGL 1.0a"
+}

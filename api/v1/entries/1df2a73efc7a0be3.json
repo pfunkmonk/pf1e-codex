@@ -1,0 +1,17 @@
+{
+  "id": "1df2a73efc7a0be3",
+  "name": "Cadaver Lord",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Cadaver Lord from the Tome of Horrors Complete",
+  "book": "Cadaver Lord from the Tome of Horrors Complete",
+  "facets": {
+    "bk": "Cadaver Lord from the Tome of Horrors Complete"
+  },
+  "body": "The rotted flesh and tattered garments of this creature do little to hide the savage gleam of intellect in its burning eyes nor the grin of anticipation that crosses its features as it advances.\n\nCadaver Lord\nCR 5\n\nXP 1,600\nCE Medium undead\nInit +6; Senses darkvision 60 ft.; Perception +12; Aura desecrate (20 ft. radius, desecrate spell)\n\nDEFENSE\n\nAC 18, touch 12, flat-footed 16 (+2 Dex, +6 natural)\nhp 37 (5d8+10 plus 5); reanimation\nFort +3; Ref +3; Will +5\nDefensive Abilities channel resistance +4; DR 5/bludgeoning and magic; Immune cold, undead traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee 2 claws +7 (1d4+3 plus disease), bite +6 (1d6+3 plus disease)\nSpecial Attacks create spawn\nSpell–like Abilities (CL 5th):\n\n1/day—darkness, fear (DC 13), summon (7 HD of cadavers)\n\nSTATISTICS\n\nStr 17, Dex 15, Con —, Int 10, Wis 12, Cha 14\nBase Atk +3; CMB +6; CMD 18\nFeats Command UndeadB, Improved InitiativeB, Skill Focus (Perception), Toughness, Weapon Focus (claw)\nSkills Knowledge (religion) +8, Perception +12, Sense Motive +9, Stealth +10\nLanguages Common; undead telepathy 100 ft.\n\nSPECIAL ABILITIES\n\nDisease: Filth Fever (Ex)\n\nClaw Or Bite—Injury; save Fort DC 14; onset 1d3 days; frequency 1 day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.\n\nReanimation (Su)\n\nWhen reduced to 0 hit points or less, a cadaver lord is not destroyed; rather it falls inert and begins the process of reanimating by regaining 1 hit point per round. Hit points lost to magical weapons or spells are not regained. When the creature reaches its full hit point total (minus damage dealt by magical attacks and weapons), it stands up, ready to fight again.\n\nIf the creature is destroyed by channeled positive energy, it cannot reanimate. If a cleric casts gentle repose on the cadaver when it is reduced to 0 hit points, it cannot reanimate. A bless spell delays the reanimation, causing the creature to regain hit points at half the normal rate (i.e. 1 hit point every other round).\n\nEditor’s Note\n\nBase Template: Undead Lord (CR +1 or +2)\n\nECOLOGY\n\nEnvironment any\nOrganization solitary or troupe (cadaver lord plus 1–4 cadavers)\nTreasure standard\n\nCadaver Lord from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1df2a73efc7a0be3.json",
+    "web": "https://codex.pipsprojects.com/#/e/1df2a73efc7a0be3"
+  },
+  "license": "OGL 1.0a"
+}

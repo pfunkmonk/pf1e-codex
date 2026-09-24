@@ -1,0 +1,25 @@
+{
+  "id": "3cd4fb3f909455b1",
+  "name": "Slime Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a pinch of slime mold spores)\n\nEFFECT\n\nRange touch\nTarget willing, non-ooze corporeal creature touched\nDuration 2 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe subject and all of its gear collapse into a pool of greenish liquid. The creature gains +5 AC and material armor becomes worthless, though size, Dexterity, deflection, and armor bonuses from forces still apply.\n\nWhile in slime form, the creature becomes immune to sneak attacks and critical hits, but it cannot attack or cast spells with verbal, somatic, material, or focus components, and it also loses any supernatural abilities.\n\nThe creature can squeeze through any opening larger than 1 inch and gains a +20 to Climb rolls for the spell’s duration. The subject’s movement drops to 10 ft. per round until the spell ends.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3cd4fb3f909455b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/3cd4fb3f909455b1"
+  },
+  "license": "OGL 1.0a"
+}

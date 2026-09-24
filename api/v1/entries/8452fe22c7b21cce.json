@@ -1,0 +1,24 @@
+{
+  "id": "8452fe22c7b21cce",
+  "name": "Natural Order",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 9,
+      "shaman": 9
+    },
+    "save": "Will",
+    "sr": "yes (see text)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation; Level druid 9, shaman 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 30-ft.-radius burst\nDuration instantaneous, see text\nSaving Throw Will negates and Will half (see text); Spell Resistance yes (see text)\n\nA shimmering aurora falls over the area with a faint hum. It bursts with light, purging unnatural threats and restoring balance to the world. This powerful spell ravages creatures that do not belong in the wilds and returns creatures to their natural states. This has several effects, each effect occurring in sequence as follows: First, magical effects are dispelled in the area. Treat this as the area version of greater dispel magic. This dispellation can also dispel anything that can be removed by remove curse. Second, all creatures are forced back to their natural forms. Any shapeshifted or polymorphed creatures in the area must make a Will save or be subjected to a true form spell, using your caster level and save DC for natural order for its effect. If used to remove a polymorph effect, you must make a caster level check to remove it as described in true form, but your caster level bonus is not limited to +15 as it normally is for true form.\n\nFinally, the spell gravely injures creatures that are not in harmony with nature. Undead, constructs, aberrations, and non-native outsiders are injured the most, taking 1d8 damage per caster level (max 20d8). Against a golem, this spell is treated as if it did not allow spell resistance. Dragons, humanoids, monstrous humanoids, and oozes take 1d8 per two caster levels (max 10d8). In either case, a Will save halves the damage taken. Animals, plants, fey, magical beasts, outsiders of the native subtype, and vermin are not damaged by the spell, but are still subjected to its other effects.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8452fe22c7b21cce.json",
+    "web": "https://codex.pipsprojects.com/#/e/8452fe22c7b21cce"
+  },
+  "license": "OGL 1.0a"
+}

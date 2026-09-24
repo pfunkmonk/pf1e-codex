@@ -1,0 +1,24 @@
+{
+  "id": "264b391a48537e49",
+  "name": "Bottomless Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 6,
+      "summoner": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 6, summoner 6, unchained summoner .\n\nEffect 10-ft.-by-10-ft. hol.\n\nThis spell functions as create pit except there is no bottom to the pit so the creatures that fall into the pit, fall until the end of the duration or they find some other means of stopping a fall.\n\nIf the creature can fly, they are immune to this spell’s effects as long as they make a Fly check against the save DC of the spell. Each round such a flying creature can reattempt the Fly check to catch themselves. On their turn a falling creature can attempt to cast a spell if they have the ability, however, the creature must make a concentration check as if they took 6d6 falling damage that turn. The walls of the pit are difficult to get a hold of and falling creatures must make a DC 35 Climb check to stop their fall, and the same Climb DC to climb up its sides.\n\nEach full round spent falling in the extradimensional pit counts as 60 feet. If the creature is able to fly or levitate, they must move the total distance they fell before they can leave the pit. If a creature moves up to the bottomless pit and fails their Reflex save, they deduct their previous movement from the 60 feet maximum fall during the turn, to a minimum of 10 feet.\n\nRetrieving and using items is very difficult while falling in the pit. Any creature attempting to retrieve and use an item, like a potion or a scroll, must make a Reflex save or drop the item. They can attempt the same Reflex save each round on their turn to grab the item out of the air next to them. At the end of the spell’s duration, falling items do not take damage.\n\nAt the end of the duration of the spell, the creatures in the pit are shunted back out of the extradimensional area taking 1d6 damage per 10 feet from the top of the pit, to a maximum of 1d6 per caster level (maximum 20d6). Effects like slow fall or feather fall do not negate this damage but such creatures only fall 30 feet per full round and only are treated as taking 3d6 damage for their concentration check.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/264b391a48537e49.json",
+    "web": "https://codex.pipsprojects.com/#/e/264b391a48537e49"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "155e1d5562cc76b1",
+  "name": "Desperate Volley",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 6,
+      "lathspell": 4,
+      "paladin": 4,
+      "ranger": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment Level antipaladin 4, cleric/oracle 6, lathspell 4, paladin 4, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 feet + 5 feet/2 levels)\nTarget 1 enemy plus 1 per caster level (see text)\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nYou can stoke the fury of your allies and concentrate their efforts on a single foe.\n\nWhen you cast this spell you must choose targets from among creatures with ranged weapons in hand. Each targeted creature may make a ranged attack against a single enemy you designate within the first two range increments of their weapon. The attacks granted by this spell are treated as attacks of opportunity and count against each targeted creatures’ number of available attacks of opportunity for the round.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/155e1d5562cc76b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/155e1d5562cc76b1"
+  },
+  "license": "OGL 1.0a"
+}

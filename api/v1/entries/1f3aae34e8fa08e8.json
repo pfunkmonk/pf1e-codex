@@ -1,0 +1,26 @@
+{
+  "id": "1f3aae34e8fa08e8",
+  "name": "Warp Defenses",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 2,
+      "magus": 2,
+      "psychic": 2,
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level bloodrager 2, magus 2, psychic 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/2 levels (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou reach out and impact the defenses of the target. The target takes a penalty to their AC and regeneration equal to -2, with an additional -1 penalty for every six levels you have (maximum -5 penalty at 18th level). This spell cannot reduce their AC below 10 + their Dexterity or reduce their regeneration below 0.\n\nContact Other Plane: World of Mass Effects I, © 2025, Orphaned Bookworm Productions; Author: Connor Bates and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f3aae34e8fa08e8.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f3aae34e8fa08e8"
+  },
+  "license": "OGL 1.0a"
+}

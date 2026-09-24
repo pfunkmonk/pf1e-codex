@@ -1,0 +1,30 @@
+{
+  "id": "fbb21ab51b967fc8",
+  "name": "Elemental Infusion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 8,
+      "druid": 7,
+      "wizard": 8
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [acid, cold, fire]; Level cleric/oracle 8, druid 7, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (handful of the desired element or its equivalent in a container. Air is freely available and fire can be represented by a piece of igneous rock)\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell heals all of its recipient’s hit points and makes him immune to poison (eliminating any current poison effects), aging, mind control, sleep, paralysis, and stunning. The target is no longer subject to critical hits and sneak attacks, has 60-foot darkvision and damage reduction 10/magic. He also chooses a preferred element for an additional immunity (fire type grants fire immunity, water grants cold immunity, air grants electricity immunity, and earth grants acid immunity). The target looks normal, except that his eyes faintly glow with the color of the chosen element (Perception DC 20 to notice the change).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fbb21ab51b967fc8.json",
+    "web": "https://codex.pipsprojects.com/#/e/fbb21ab51b967fc8"
+  },
+  "license": "OGL 1.0a"
+}

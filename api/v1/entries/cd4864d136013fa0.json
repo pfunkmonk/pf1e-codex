@@ -1,0 +1,30 @@
+{
+  "id": "cd4864d136013fa0",
+  "name": "Distant Accuracy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "legendary ninja": 1,
+      "magus": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "metal",
+      "wood"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [metal, wood]; Level legendary ninja 1, magus 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets one ranged weapon, or one thrown weapon/level\nDuration 10 minutes/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes\n\nDESCRIPTION\n\nYou enchant the target weapon(s) with the ability to strike creatures far beyond its normal range, doubling its range increment. If cast on a ranged weapon, this effect applies to all ammunition shot from it. Any creature wielding these weapons gains this benefit.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd4864d136013fa0.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd4864d136013fa0"
+  },
+  "license": "OGL 1.0a"
+}

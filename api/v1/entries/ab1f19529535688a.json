@@ -1,0 +1,23 @@
+{
+  "id": "ab1f19529535688a",
+  "name": "Storm Cloud (AVV)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bloodstone Press",
+  "book": "Bloodstone Press",
+  "facets": {
+    "sch": "conjuration",
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Bloodstone Press"
+  },
+  "body": "School conjuration (creation) [electricity]; Level druid (avv) 8, priestess (avv) 8, sorcerer (avv) /wizard (avv) 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cloud spreads in 20-ft. radius, 20 ft. high\nDuration 1 round/level (D)\nSaving Throw Reflex half, see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a billowing misty fog, shot through with bolts of lightning at ground level. The fog obscures all sight as a fog cloud does. In addition, the bolts of lightning within the cloud deal 6d6 points of electricity damage to everything within the cloud on your turn each round. All targets can make Reflex saves each round to take half damage.\n\nAs with a cloudkill spell, the fog moves away from you at 10 feet per round. Figure out the fog’s new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell. By concentrating, you can make the storm cloud move as much as 60 feet each round. Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder’s spread thereafter.\n\nAs with fog cloud, wind disperses the fog, and the spell can’t be cast underwater.\n\nAmazon Vs Valkyries: Core Classes, Copyright 2016, Bloodstone Press; Author: L.J. Ogre",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab1f19529535688a.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab1f19529535688a"
+  },
+  "license": "OGL 1.0a"
+}

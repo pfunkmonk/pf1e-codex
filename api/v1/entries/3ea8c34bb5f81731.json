@@ -1,0 +1,28 @@
+{
+  "id": "3ea8c34bb5f81731",
+  "name": "True Daylight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 6,
+      "druid": 6,
+      "legendary inquisitor": 6
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [light]; Level cleric/oracle 6, druid 6, legendary inquisitor 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget divine focus touched\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis is identical to the daylight spell, except it uses a divine focus and is the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ea8c34bb5f81731.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ea8c34bb5f81731"
+  },
+  "license": "OGL 1.0a"
+}

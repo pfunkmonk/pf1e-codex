@@ -1,0 +1,27 @@
+{
+  "id": "159a354c4ffe8c7d",
+  "name": "Rain of Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "elementer": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [fire]; Level elementer 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect 120-ft.-radius cloud of ash, 40 feet high\nDuration 1 round/2 levels (D)\nSaving Throw Reflex half (object); Spell Resistance yes (object)\n\nThe sky darkens as what appears to be a storm cloud manifests overhead.\n\nThe cloud itself must be conjured at least 100 feet above the ground: as such, the spell typically has to be cast outdoors. The cloud blocks sunlight from reaching the area beneath it. Treat the cloud itself as a fog cloud, should any flying creatures attempt to enter it.\n\nEach round on your turn starting with the round you cast rain of fire, three balls of flame come streaking down from the cloud. Each one strikes a point of your choosing beneath the cloud, exploding in a 10-footradius burst. Each burst deals 2d6 fire damage +1 per four caster levels (max +5) to creatures, objects, and structures in the area (Reflex half). If a target is caught in multiple bursts in a single round, they only get one saving throw, and the damage from all bursts is totaled before energy resistance is applied.\n\nThe balls of flame originate almost directly above your chosen targets. As such, you must determine cover and line-of-effect for each burst from above the target’s space, rather than from your own.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/159a354c4ffe8c7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/159a354c4ffe8c7d"
+  },
+  "license": "OGL 1.0a"
+}

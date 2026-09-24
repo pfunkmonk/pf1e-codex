@@ -1,0 +1,24 @@
+{
+  "id": "1fab8814d39bf63b",
+  "name": "Tripping Stick",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a stick or pole)\n\nEFFECT\n\nRange close (25 ft. +5 ft. per level)\nTarget one stick or pole\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou animate a stick or pole and use it to trip a nearby opponent. The stick can move up to 30 ft. in the first round as a free action. After the first round, you must concentrate to move the stick. The stick attacks one enemy within 5 ft. of it on your initiative, and when it attacks, it attempts a trip maneuver with a CMB equal to your CMD + your caster level. This attack does not provoke attacks of opportunity.\n\nThe stick can be attacked, and it has hardness and hp based on its construction. Wooden sticks have hardness 5 and 5 hp. Metal staves have a hardness of 10 and 10 hp.\n\nThe stick can be broken and destroyed as normal, and it can be grappled, assuming it has a CMD equal to the caster’s CMB + the caster’s level.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1fab8814d39bf63b.json",
+    "web": "https://codex.pipsprojects.com/#/e/1fab8814d39bf63b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "06d9c5afce5ce0f3",
+  "name": "Shrieking Flock",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 6,
+      "shaman": 6,
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion; Level bard 6, druid/shaman 6, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect an illusory flock of ravens\nTarget you\nDuration 1 round/level (D) and concentration + 3 rounds\nSaving Throw none or Will disbelief (if interacted with); see text; Spell Resistance no\n\nDESCRIPTION\n\nYou transform into a whirling, shrieking flock of ravens ready to tear your foes apart with their beaks and talons. Shrieking flock functions as the mislead spell, but all creatures of less than 6 HD within 100 ft. of the caster must succeed on a Will save or become frightened.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/06d9c5afce5ce0f3.json",
+    "web": "https://codex.pipsprojects.com/#/e/06d9c5afce5ce0f3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "69a2b99c79934ab1",
+  "name": "Freeze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 0,
+      "elementer": 0,
+      "invoker": 0,
+      "shaman": 0,
+      "witch": 0
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [cold]; Level druid 0, elementer 0, invoker 0, shaman 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature, object of size small or smaller, or 5-ft.-square surface touched (see text)\nDuration see text\nSaving Throw Fort negates (object), see text; Spell Resistance yes (object)\n\nWith a touch, you chill the target to sub-zero temperatures. If you target a creature, you must succeed on a melee touch attack. On a hit, your touch deals 1d3 cold damage (no save).\n\nIf you touch an object, that object is covered in a thin layer of frost. This effect is not cold enough to cause immediate damage, but prolonged direct exposure (such as holding a frosted sword without gloves) across several rounds can cause some minor frostbite, subject to GM discretion. Targeting an object that lies on a surface can freeze that object to it, requiring the melting of the ice or a DC 10 Strength check to un-stick it. Attended objects or magical objects can make a Fortitude save to negate the effect.\n\nIf you target a surface, you coat a 5-foot square with ice. This can also be used to freeze the surface of a body of water, freezing a 5-foot square up to two inches thick. A creature can walk within or through the square at half normal speed with a DC 10 Acrobatics check. Failure means it can’t move that round, while failure by 5 or more means it falls. Trying to use freeze to freeze a creature within a body of water or to a surface causes the spell to fail.\n\nThe effects of freeze (aside from damage) remain for 1 minute per level on average: hotter temperatures can cut this duration in half, while cold weather can let the ice last indefinitely without melting. Exposure to fire damage typically melts the ice within 1 round.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/69a2b99c79934ab1.json",
+    "web": "https://codex.pipsprojects.com/#/e/69a2b99c79934ab1"
+  },
+  "license": "OGL 1.0a"
+}

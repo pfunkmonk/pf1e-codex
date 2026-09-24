@@ -1,0 +1,28 @@
+{
+  "id": "72cb6d7b7f942ae3",
+  "name": "Stalls Of The Pharaoh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [electricity]; Level magus 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a finger-bone tipped with gold)\n\nEFFECT\n\nRange 30 ft.\nArea 30-ft. line\nDuration 1 round/3 levels (see text)\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYour fingers appear covered by shining gold stalls (sheaths) with electricity crackling at the tips. As a standard action, for as long as the spell persists, you may release a powerful stroke of electrical energy that deals 1d6 hp electricity damage/caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\n\nThe lightning bolts you generate set fire to combustibles and damage objects in their paths. They can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage shatters or breaks through an interposing barrier, a bolt may continue beyond the barrier if the spell’s range permits; otherwise it stops at the barrier as any other spell effect does.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/72cb6d7b7f942ae3.json",
+    "web": "https://codex.pipsprojects.com/#/e/72cb6d7b7f942ae3"
+  },
+  "license": "OGL 1.0a"
+}

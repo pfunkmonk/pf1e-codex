@@ -1,0 +1,24 @@
+{
+  "id": "14913b3473737152",
+  "name": "Weapon Of Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation (necrophagy); Level alchemist 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of iron shavings)\n\nEFFECT\n\nRange personal\nDuration 1 min./level\n\nDESCRIPTION\n\nWhen you cast this spell, you cut yourself with any immediately available implement, and the trickling blood transforms into a short, sharp blade of solid red metal.\n\nThis cut deals 1d4 hp of damage that cannot be healed until after the blade it creates is destroyed or the spell ends. This wound has no effect on the spell’s casting and does not require the spellcaster to make a concentration check.\n\nOnce the spell is cast, the blood flowing from the spellcaster’s body transforms into a razor sharp blade that functions as a +1 dagger. This dagger has the hardness and hp of steel and lasts until it is sundered or the duration expires, whereupon it transforms back into normal blood and flows away.\n\nAt higher levels, the spellcaster can increase the power of the dagger as described on Table 2-18.\n\nFor every increase in power, the spellcaster must spend an additional amount of blood equal to 2 hp of damage.\n\nTherefore, a 12th-level spellcaster must take 1d4+6 hp of damage to create a +3 keen dagger. He could also take just 1d4+2 hp damage to create a +2 dagger or 1d4+4 hp damage to create a +2 keen dagger.\n\nTable 2-18: Weapon of Blood Details\nSpellcaster Level\tWeapon Created\n3rd-6th\t+2 dagger\n7th-9th\t+2 keen dagger\n10th-13th\t+3 keen dagger\n14th-17th\t+3 keen wounding dagger\n18th-20th\t+5 keen wounding dagger\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14913b3473737152.json",
+    "web": "https://codex.pipsprojects.com/#/e/14913b3473737152"
+  },
+  "license": "OGL 1.0a"
+}

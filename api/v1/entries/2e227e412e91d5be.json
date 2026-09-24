@@ -1,0 +1,23 @@
+{
+  "id": "2e227e412e91d5be",
+  "name": "Murdersphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1-inch-diameter silver sphere worth 500 gp)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level) and see below\nEffect one summoned, 2-ft.-diameter sphere\nDuration concentration + 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou conjure a malevolent, silver sphere that you direct to attack your foes. The Tiny sphere has 85 hp, AC 23 (touch 19, flat-footed 16), and CMD 15. It has a fly speed of 90 ft. (perfect).\n\nWhen it is summoned, the sphere can appear with a metal whip that has a 10-ft. reach and deals 2d6 hp damage or with a serrated blade that deals 2d8 hp damage and has a 5-ft. reach. The sphere can only use one weapon at a time, but it can change weapons as a move action for you that provokes an attack of opportunity on the sphere.\n\nThe sphere attacks with a bonus equal to your BAB, and each of its weapons act as +1 wounding adamantine weapons. It also receives any iterative attacks you have with the appropriate bonus applied.\n\nAs a move action, you can direct the sphere to move to and attack a designated opponent. Once you cease concentrating on the spell, or once the sphere leaves the spell’s range, it continues to attack its most recently designated foe until the spell’s duration expires or you dismiss the sphere. If a foe is helpless or disabled, it performs a coup de grace.\n\nIf you cease concentrating and the sphere no longer has an opponent to attack, it does nothing. You must be within range of the sphere to dismiss it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e227e412e91d5be.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e227e412e91d5be"
+  },
+  "license": "OGL 1.0a"
+}

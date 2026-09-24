@@ -1,0 +1,30 @@
+{
+  "id": "f3a0b0d4faa1c7fd",
+  "name": "Shadow Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "nightblade": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "cold",
+      "darkness",
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [cold, darkness, electricity]; Level magus 6, nightblade 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\nArea 60 ft. cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a destructive blast of shadows, lightning, and ice from your outstretched hand, drawing upon the Plane of Shadow to create a twisted replica of a fearsome thunderstorm. Any creature caught in the area of the shadow blast must make a Reflex save or take 1d6 damage per caster level (max 20d6). Half this damage is cold damage, the other half is electricity damage. Creatures that fail their Reflex saves are blinded for 1 round by the shadowy energies.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f3a0b0d4faa1c7fd.json",
+    "web": "https://codex.pipsprojects.com/#/e/f3a0b0d4faa1c7fd"
+  },
+  "license": "OGL 1.0a"
+}

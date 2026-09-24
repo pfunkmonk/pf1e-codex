@@ -1,0 +1,25 @@
+{
+  "id": "3a69ae2ac848cea3",
+  "name": "Point the Way",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "shaman": 2,
+      "elven archer": 1,
+      "ranger": 2
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level druid/shaman 2, elven archer 1, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (an arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nDuration instantaneous\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nAfter casting this spell, as free actions you may whisper a question concerning a location to an arrow or bolt, and then you toss it into the air. In response to your question, the arrow or bolt lands pointing in a specific direction—indicating, if you’ve utilized the spell correctly, the direction you seek.\n\nFor this spell to function properly, you must request straight-line directions to geographic features and landmarks. This spell does not reveal the direction to features or landmarks whose locations are not common knowledge, were never common knowledge, or are deliberately hidden.\n\nSuitable questions might include: “Which way to Ridge Road?” or “In what direction is the <specific, unique waterfall name> waterfall?” Unsuitable questions might include: “Where is the lost city of Shiboleth?” or “Which way to the secret lair of the goblin king?”\n\nIf you cast this spell and ask an unsuitable question, the arrow or bolt lands pointing in a random direction, at the GM’s discretion.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a69ae2ac848cea3.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a69ae2ac848cea3"
+  },
+  "license": "OGL 1.0a"
+}

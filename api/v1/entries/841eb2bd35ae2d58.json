@@ -1,0 +1,27 @@
+{
+  "id": "841eb2bd35ae2d58",
+  "name": "Charge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 2,
+      "wizard": 4
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration [electricity]; Level druid 2, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (a thin strand of copper wire wrapped around a small piece of lodestone)\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration permanent until discharged\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou protect a single item with a magical trap that releases an electrical charge when anyone other than you touches it. The discharge deals 1d4 points of electrical damage +1 point per caster level (maximum +20). A successful save halves the damage. The item protected by this spell is not harmed by this discharge.\n\nA charged item cannot have a second closure or warding spell placed on it. A knock spell does not bypass charge, although it can unlock any locks or open the item; when the charged item is touched, however, the spell still goes off. An unsuccessful dispel magic spell does not discharge the spell.\n\nYou can use the charged object without discharging it, as can any individual to whom the object was specifically attuned when cast. Attuning a charged object to an individual usually involves setting a password that you can share with friends.\n\nNote: Magic traps such as a charged trap are hard to detect and disable.\n\nA rogue (only) can use the Perception skill to find a charged trap and Disable Device to thwart it. The DC in each case is 25 + spell level (DC 27 for a druid’s charge or DC 29 for the arcane version).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/841eb2bd35ae2d58.json",
+    "web": "https://codex.pipsprojects.com/#/e/841eb2bd35ae2d58"
+  },
+  "license": "OGL 1.0a"
+}

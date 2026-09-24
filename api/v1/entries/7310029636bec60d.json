@@ -1,0 +1,27 @@
+{
+  "id": "7310029636bec60d",
+  "name": "Hymn of Dissonance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6
+    },
+    "desc": [
+      "evil",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [evil, mind-affecting]; Level bard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 40 ft.\n\nTarget radius burst centered on you\nDuration 1 round/level (D)\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nEach creature within the area who is not already taking an action to physically attack a creature during their turn must make a Will save. On a failure, they must physically attack the nearest creature, whether enemy or ally. This will include moving up to their normal movement to do so. If they are unable to attack during the turn due to no targets nearby, they are nauseated for 1 round. You are not affected by the song.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7310029636bec60d.json",
+    "web": "https://codex.pipsprojects.com/#/e/7310029636bec60d"
+  },
+  "license": "OGL 1.0a"
+}

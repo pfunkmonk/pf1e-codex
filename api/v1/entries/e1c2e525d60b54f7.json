@@ -1,0 +1,27 @@
+{
+  "id": "e1c2e525d60b54f7",
+  "name": "Change Water to Dust",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [earth]; Level druid 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of seashell and powdered diamond worth at least 500 gp)/DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea up to two 10-ft. cubes/level (S)\nDuration permanent\nSaving Throw none or Fortitude partial (see text); Spell Resistance no\n\nDESCRIPTION\n\nThis spell transforms normal water into fine dust. Any creature in the water is allowed a Reflex save to escape before the area is turned to dust (though only creatures that require water for survival, such as fish, suffer any ill effects from the dust).\n\nIf the body of water targeted is larger than the area affected by this spell, the remaining water simply pours into the affected area to mix with the dust and cause a silt-like mud to form on the surface in the area.\n\nIf targeted against a water-based creature (one with the water subtype) of Huge or smaller size, the spell kills the creature if it fails a Fortitude saving throw. Even if the save succeeds, the creature takes 1d6 points of damage per caster level (maximum 15d6).\n\nChange water to dust counters and dispels change dust to water.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1c2e525d60b54f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1c2e525d60b54f7"
+  },
+  "license": "OGL 1.0a"
+}

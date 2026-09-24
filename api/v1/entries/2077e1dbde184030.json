@@ -1,0 +1,26 @@
+{
+  "id": "2077e1dbde184030",
+  "name": "Dominion’s Wrath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "invoker": 3
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [see text]; Level invoker 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 15 ft.-radius burst\nDuration instantaneous, see text\nSaving Throw Reflex half; Spell Resistance yes\n\nYou may only cast this spell if you are a spirit companion.\n\nWith an incantation of ancient power, you call to the spirits of nature to wreak havoc upon those that stand in your way. Choose a single option from the list below. You may only choose an effect that matches the dominion of an invoked spirit of the invoker you are bonded with. Each creature in the area takes 1d8 damage per two caster levels (max 5d8): the damage type is determined by the dominion option chosen. Each dominion also has a secondary effect, as listed below:\n\nBeasts: The burst deals slashing damage, and any creature that fails its save begins to bleed for 1d6 points of damage.\nLand: The burst deals bludgeoning damage, and any creature that fails its save is blinded for 1 round.\nSea: The burst deals cold damage, and any creature that fails its save is entangled for 1d4 rounds.\nSky: The burst deals electricity damage, and any creature that fails its save is staggered for 1d3 rounds.\nWilds: The burst deals piercing damage, and any creature that fails its save is nauseated for 1 round. A successful Reflex save halves the damage dealt and negates the secondary effect. The damage only occurs once, when the spell is cast. Damage from this spell is considered magical for the purpose of overcoming damage reduction.\n\nWhen you choose a particular spirit type, the spell gains a descriptor appropriate to that type, as follows: animal (beasts), earth (land), water (sea), air (sky), or plant (wilds).\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2077e1dbde184030.json",
+    "web": "https://codex.pipsprojects.com/#/e/2077e1dbde184030"
+  },
+  "license": "OGL 1.0a"
+}

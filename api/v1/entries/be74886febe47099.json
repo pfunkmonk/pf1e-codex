@@ -1,0 +1,27 @@
+{
+  "id": "be74886febe47099",
+  "name": "Reviving Salve",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 5,
+      "legendary hunter": 5
+    },
+    "desc": [
+      "herbal"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (healing) [herbal]; Level druid 5, legendary hunter 5\n\nCASTING\n\nCasting Time 3 rounds\nComponents S, H\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nNote Herbal spells use raw components from the environment to enhance their potency. Herbs, plants, mineral water, and occasionally common animal components can be harvested in many locations, at the GM’s discretion. Foraging for the necessary materials takes 1 minute and requires a survival check with a DC equal to 10 + twice the level of the spell. Such materials need to be used within 1 minute to remain potent. If successful, the spell may then be cast. The GM may apply a +5 or -5 modifier for especially fertile or sterile areas. If the spellcaster can beat the DC by 20, he finds sufficient materials to cast the spell without using a spell slot. Using herbal spells without raw components is possible by substituting large amounts of rare herbs. For every level of the spell, an herbal spell will cost 10 gp to cast.\n\nYou administer a herbal salve that cures 5d2 points of damage + 1 per caster level (maximum +25)\n\nUnlike other herbal remedies that heal damage, reviving salve can bring recently slain creatures back to life. If cast upon a creature that has died within 5 rounds, apply the healing from this spell to the creature. If the healed creature’s hit point total is at a negative amount less than its Constitution score, it comes back to life and stabilizes at its new hit point total. If the creature’s hit point total is at a negative amount equal to or greater than its Constitution score, the creature remains dead. Creatures brought back to life through reviving salve gain a temporary negative level that lasts 1 day.\n\nCreatures slain by death effects cannot be revived by reviving salve.\n\nLegendary Hunters © 2020, Legendary Games; Authors Connor Bates, Cerise Herndon, and W. Hervay",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/be74886febe47099.json",
+    "web": "https://codex.pipsprojects.com/#/e/be74886febe47099"
+  },
+  "license": "OGL 1.0a"
+}

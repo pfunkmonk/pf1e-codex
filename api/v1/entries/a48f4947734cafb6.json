@@ -1,0 +1,17 @@
+{
+  "id": "a48f4947734cafb6",
+  "name": "Desecrated Ghoul",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Call of the Frog God",
+  "book": "Call of the Frog God",
+  "facets": {
+    "bk": "Call of the Frog God"
+  },
+  "body": "DESECRATED GHOUL\nCR 1\n\nXP 400\nCE Medium undead\nInit +2; Senses darkvision 60 ft.; Perception +7\n\nDEFENSE\n\nAC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)\nhp 21 (2d8+12)\nFort +4, Ref +4, Will +7\nDefensive Abilities channel resistance +8; Immune undead traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee bite +5 (1d6+3 plus disease and paralysis) and 2 claws +5 (1d6+3 plus paralysis)\nSpecial Attacks paralysis (1d4+1 rounds, DC 13, elves are immune to this effect)\n\nSTATISTICS\n\nStr 13, Dex 15, Con —, Int 13, Wis 14, Cha 14\nBase Atk +1; CMB +2; CMD 14\nFeats Weapon Finesse\nSkills Acrobatics +4, Climb +6, Perception +7, Stealth +7, Swim +3\nLanguages Common\n\nSPECIAL ABILITIES\n\nDisease (Su)\n\nGhoul Fever: Bite—injury; save Fort DC 13; onset 1 day; frequency 1/day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based.\n\nCall of the Frog God Copyright 2013 Bill Webb, Frog God Games, Authors Casey Christofferson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a48f4947734cafb6.json",
+    "web": "https://codex.pipsprojects.com/#/e/a48f4947734cafb6"
+  },
+  "license": "OGL 1.0a"
+}

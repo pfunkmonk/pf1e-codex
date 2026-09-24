@@ -1,0 +1,25 @@
+{
+  "id": "c2429feff544d851",
+  "name": "Energy Loop",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo Fans United",
+  "book": "Paizo Fans United",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "Yes (harmless)",
+    "bk": "Paizo Fans United"
+  },
+  "body": "School transmutation; Level cleric/oracle 2, druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (copper ring)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level) (minimum distance of 40 feet above caster’s head)\nEffect 20 ft. radius ring that affects any creature passing through it\nDuration 1 round/level (D)\nSaving Throw Yes (harmless); Spell Resistance Yes (harmless)\n\nDESCRIPTION\n\nThis spell forms a crackling circle in the air that gives creatures passing through it an energy aura that not only protects them from that sort of energy but also allows them to deal extra damage of that type when they make a melee attack. The caster must choose which sort of energy to make the circle from at the moment of casting and once made cannot change this decision. Any creature passing through the circle develops a flickering corona, the color of which corresponds to the energy type of the circle (acid=black, cold=white, electricity=blue, fire=red, sonic=green). The creature gains energy resistance 10 to that energy type for one minute, until it deals damage with a melee attack, or it touches ground (whichever comes first). If the creature makes a successful melee attack while protected with this aura it deals an extra 1d6 points of energy damage to its opponent.\n\nCreatures may travel through this circle multiple times, regaining the energy aura with each trip. If a mounted creature passes through the circle both the mount and the rider gain the energy aura and continue to share its effects if one of them loses the aura but remains in contact with the other.\n\nAnimals and similar creatures only fly through this circle if specifically trained to do so.\n\nNew Trick: Dart\n\nSome spells require that animals and similar creatures act against their instincts to exploit their effects. Mindful of this limitation elves have developed specialized training techniques that teach animals to respond properly to these spells. The trick described below requires one week of training and a successful Handle Animals check against the indicated DC in order for the animal to learn.\n\nDart (DC 25) (must know Attack) (energy loop): The animal flies through the circle of energy before making an attack.\n\nWayfinder #1. © 2009, Paizo Fans United. Author: Adam Daigle, Charles Evans, Clinton J. Boomer, Colter “Dreamweaver” Guthrie, Craig “flash_cxxi” Johnston, Cristian “Cicattrix” Bodea, Dennis “daOgre” Baker, Eric “Epic Meepo” Morton, Ernesto “Montalve” Ramirez, Guy Humual, Hal Maclean, Ian “cappadocious” Cunningham, Kelly “Gotrek22” Gragg, Jeff “Shadowborn” Lee, Jonathan “Wicht” McAnulty, Joshua “Zynete” Blazej, Justin “Black Fang” Sluder, Larry “Larcifer” Wilhelm, Lissa “SunshineGrrrl” Guillet, Matthew “The Twitching King” Stinson, Michael “Ask a Shoanti” Kortes, Mike “taig” Welham, Neil Spicer, Ross Byers, Russ Taylor, Paris Crenshaw, Tae-Bin “Nerrat Dei” Gulliver, Theodore “Zuxius” Thompson, Troy E. Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2429feff544d851.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2429feff544d851"
+  },
+  "license": "OGL 1.0a"
+}

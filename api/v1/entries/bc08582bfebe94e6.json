@@ -1,0 +1,23 @@
+{
+  "id": "bc08582bfebe94e6",
+  "name": "Vibrational Blade Enhancement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 2
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation; Level machinesmith 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a coil of copper wire)\n\nEFFECT\n\nRange touch\nTarget one slashing or piercing melee weapon touched\nDuration 1 round/level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell attaches a mechanism that vibrates the blade of the weapon at fantastic speeds, making it appear blurry. The weapon, when it connects, now does hideous damage and is likely lethal when it lands a critical blow. The weapon’s damage multiplier on a critical hit increases by one (e.g., ×2 to ×3, ×3 to ×4). The weapon also deals an additional 1d4 bleed damage.\n\nCasting the spell multiple times does not stack the bleed damage or increase in critical multiplier, and this spell does not stack with the keen weapon property or any other effect that increases threat range or alters threat multiplier.\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc08582bfebe94e6.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc08582bfebe94e6"
+  },
+  "license": "OGL 1.0a"
+}

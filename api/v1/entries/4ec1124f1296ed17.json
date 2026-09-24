@@ -1,0 +1,23 @@
+{
+  "id": "4ec1124f1296ed17",
+  "name": "Breath of Oblivion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 9
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou exhale a breath of oblivion. Each creature and object in the area is subject to a disintegrate spell that deals 2d6 hp of damage/2 caster levels (maximum 20d6).\n\nLike disintegrate, a successful Fortitude save reduces the damage to 5d6 hp.\n\nWhen an object is in the cone’s path, this spell simply disintegrates as much as a 30-ft. cube of nonliving matter. Thus, the spell disintegrates only part of any very large object or structure targeted. The ray affects even objects constructed entirely of force, such as forceful hand or a wall of force, but not magical effects such as a globe of invulnerability or an antimagic field.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4ec1124f1296ed17.json",
+    "web": "https://codex.pipsprojects.com/#/e/4ec1124f1296ed17"
+  },
+  "license": "OGL 1.0a"
+}

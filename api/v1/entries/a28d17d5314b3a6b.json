@@ -1,0 +1,28 @@
+{
+  "id": "a28d17d5314b3a6b",
+  "name": "Power Word Graceless",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "Yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level mesmerist 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature with 75 hp or less\nDuration see text\nSaving Throw none; Spell Resistance Yes\n\nDESCRIPTION\n\nYou utter a single word of power that causes the target to become uncoordinated and graceless, taking 2 Dexterity damage. The target does not need to hear or understand the word. The duration of the spell depends on the target’s current hit point total. Any creature that currently has 76 or more hit points is unaffected by power word graceless.\n\nHit Points\tDuration\n25 or less\tPermanent\n26-50\t1d4+1 minutes\n51-100\t1d4+1 rounds\nHit Points\tDuration\n25 or less\t1d4+1 hours\n26-50\t1d4+1 minutes\n51-100\t1d4+1 rounds\nHit Points\tDuration\n50 or less\t2d4+2 rounds\n51-100\t1d4+1 rounds\n101-150\t1 round\nHit Points\tDuration\n10 or less\tThe Dexterity damage is permanent and is changed to drain\n10-25\tPermanent\n26-50\t1d4+1 minutes\n51-75\t1d4+1 rounds\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a28d17d5314b3a6b.json",
+    "web": "https://codex.pipsprojects.com/#/e/a28d17d5314b3a6b"
+  },
+  "license": "OGL 1.0a"
+}

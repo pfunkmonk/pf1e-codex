@@ -1,0 +1,25 @@
+{
+  "id": "59446cdf22992957",
+  "name": "Breathlessness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 4, druid/shaman 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets living creatures touched\nDuration 2 hrs./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, the touched creatures do not need to breathe at all. Divide the duration evenly among all the creatures you touch. This spell enables the subjects to survive underwater, in the void of space, and so on without breathing. Breathlessness renders the subjects immune to inhaled poisons and provides a +4 bonus to saving throws against abilities, that rely on a sense of smell (such as a troglodyte’s stench attack).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/59446cdf22992957.json",
+    "web": "https://codex.pipsprojects.com/#/e/59446cdf22992957"
+  },
+  "license": "OGL 1.0a"
+}

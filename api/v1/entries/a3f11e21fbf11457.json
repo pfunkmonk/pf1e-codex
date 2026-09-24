@@ -1,0 +1,24 @@
+{
+  "id": "a3f11e21fbf11457",
+  "name": "Freya’s Instant Ballista",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 4,
+      "ranger": 3
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 4, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a thick arrow)\n\nEFFECT\n\nRange touch\nEffect creates one arrow/level\nDuration 1 hr./level (D)\nSaving Throw none; see text; Spell Resistance no\n\nDESCRIPTION\n\nYou turn at least one large, felled tree into blunt arrows that enlarge to the trees’ original size moments before they hit their targets (or when the spell expires). When you cast this spell, the arrows you create appear in your hand, and you may throw them at your target as a ranged touch attack with a +2 competency bonus. Or, you may shoot them from a ranged weapon as +2 arrows.\n\nWhen these arrows hit, they deal damage equivalent to that of heavy ballista bolts (3d8 hp damage/19-20).\n\nFlame arrow and similar spells affect the arrows this spell creates normally.\n\nAt least one naturally or artificially felled tree must exist within 100 ft. of your location when you cast this spell, regardless of how many arrows you create. Otherwise, the spell fizzles.\n\nWhen this spell expires, if you are still holding the arrows, they instantly become logs and you must succeed on a number of Reflex saves (DC equal to this spell’s DC) equal to the number of arrows you held or be grappled.\n\nNo matter how many saves you fail, you are only grappled once, and you must make a combat maneuver check (DC 14) to escape the grapple.\n\nMythic: If you expend one use of mythic power when casting this spell, it affects twice as many trees as normal, and each tree deals 3d10 points of damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3f11e21fbf11457.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3f11e21fbf11457"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fa2714c38eb6a32c",
+  "name": "Skinbook",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "ink"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [ink]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 10 min. per spell level\nComponents S, M; V (henna or exotic inks; see text for cost)\n\nEFFECT\n\nRange personal\nDuration permanent; see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nUsing a process known only to ink magic scriveners (See Symbolic Magic, page 288), you may inscribe an ink magic cipher or spell on your skin to serve as a scroll or as a recorded spell in a spellbook. A Medium-sized caster may record up to 24 spell levels on their bodies (by shaving all body hair), while Small casters may record up to 12 spell levels on their bodies. For example, recording a 9th level spell requires nine spell levels, leaving the caster with 15 spell levels for recording on their body.\n\nIf used together with illusory script, the spell or scroll is invisible to all but the caster.\n\nIf recorded as a spell, the script must be tattooed or scratched into the flesh and made permanent. The caster treats any such recorded spell as if they had the Spell Mastery feat for that spell, and daily preparation of that spell is instantaneous. Further, any such recorded spell may be instantly swapped for another memorized spell of equivalent level.\n\nIf recorded as a scroll, black henna is typically used and the cost is calculated as normal for making a scroll.\n\nCasting a scroll recorded on one’s skin this way can be done as a swift action.\n\nDamage to one’s skin through cutting, slashing, or fire prevents use of the skin-recorded spell until that flesh is healed, while skin-recorded scrolls may be destroyed this way. Skin-recorded spells are permanent but may be changed by using erase to remove them.\n\nSkin-recorded scrolls dissipate upon use. Dispel magic destroys a skin-recorded scroll but has no effect on a skin-recorded spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa2714c38eb6a32c.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa2714c38eb6a32c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "d55796dfaee38adc",
+  "name": "Luminous Wrath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "evocation",
+    "desc": [
+      "good",
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School evocation [good, light]; Level: champion of light 4, cleric 5, inquisitor 5\n\nComponents: V, S\n\nCasting Time: 1 standard action\n\nRange: Touch\n\nTarget(s): Object touched\n\nDuration: 10 min./level (D)\n\nSaving Throw: None; Spell Resistance: yes (see below)\n\nThis spell functions identically to the luminous retribution spell. Additionally, if this spell is used in an area occupied by magic darkness, it acts as a dispel magic against it.\n\nIf it successfully dispels the darkness, it also causes 1d4 damage per level of the caster (max 10d4), no save (although spell resistance applies), to the creature that created the darkness, provided the creature is within 100 ft. of the object radiating this spell. Only one dispel attempt is allowed per casting of this spell.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d55796dfaee38adc.json",
+    "web": "https://codex.pipsprojects.com/#/e/d55796dfaee38adc"
+  },
+  "license": "OGL 1.0a"
+}

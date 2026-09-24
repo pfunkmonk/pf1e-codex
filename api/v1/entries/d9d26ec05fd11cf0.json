@@ -1,0 +1,30 @@
+{
+  "id": "d9d26ec05fd11cf0",
+  "name": "War Cry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "bloodrager": 3,
+      "lathspell": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, bloodrager 3, lathspell 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped emanation\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou unleash a battlecry that causes all creatures within the cone to cower in fear for 1d4 rounds. Any creature that fails their Fortitude save loses their Dexterity bonus to AC and is dazed.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d9d26ec05fd11cf0.json",
+    "web": "https://codex.pipsprojects.com/#/e/d9d26ec05fd11cf0"
+  },
+  "license": "OGL 1.0a"
+}

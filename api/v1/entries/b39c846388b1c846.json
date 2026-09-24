@@ -1,0 +1,29 @@
+{
+  "id": "b39c846388b1c846",
+  "name": "Complex Order (command)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 3,
+      "witch": 4
+    },
+    "desc": [
+      "language-dependent",
+      "mind affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind affecting]; Level bard 3, sorcerer/wizard 3, witch 4\n\nEFFECT\n\nDuration 10 minutes/level\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word must follow the wordcaster’s instructions. The wordcaster must be able to convey the orders within 1 round and the action must be possible to complete within the wordspell’s duration. The instructions cannot include anything that is obviously dangerous or harmful to the target. The instructions do not have to take the entire duration, and once completed, a wordspell with this effect word ends. If the instructions are not completed by the time the duration expires, the target is under no compulsion to finish enacting them.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b39c846388b1c846.json",
+    "web": "https://codex.pipsprojects.com/#/e/b39c846388b1c846"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "38ee2224fbffea0a",
+  "name": "Pale Extraction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\n\nDESCRIPTION\n\nThis spell attunes your body and soul with the ability to extract the pale energies of living or undead beings who you reduce to 0 or fewer hit points. Whenever you do so, you regain 1 spent theology point. Theology points you gain from this spell cannot allow you to go above your maximum theology points each day. You may only extract pale energy from a specific creature once per use of this spell, even if you reduce it to 0 or fewer hit points multiple times during the spells duration, and you may only extract theology points from creatures with at least half as many Hit Dice as your Hit Dice (rounded up).\n\nIf you do not have a pool of theology points, you are considered to have a maximum theology points pool of 1 and have 0 points upon casting this spell. Any unspent points you gain using this spell are lost when the spell ends. In such a case, when you cast this spell choose either the imbue with the pale or imbue with unlife abilities of the pale theologian. You may use theology points gained using this spell with the chosen ability, treating your caster level with this spell as your pale theologian level with that ability (to a maximum of your Hit Dice).\n\nAkashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray Section 15: Copyright Notice Akashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/38ee2224fbffea0a.json",
+    "web": "https://codex.pipsprojects.com/#/e/38ee2224fbffea0a"
+  },
+  "license": "OGL 1.0a"
+}

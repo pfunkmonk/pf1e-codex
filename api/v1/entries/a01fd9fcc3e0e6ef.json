@@ -1,0 +1,33 @@
+{
+  "id": "a01fd9fcc3e0e6ef",
+  "name": "Reign of Terror",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 9,
+      "legendary mesmerist": 9,
+      "psychic": 9,
+      "shaman": 9,
+      "wizard": 9,
+      "focus fear": 9
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [emotion, fear, mind-affecting]; Level cleric/oracle 9, legendary mesmerist 9, psychic 9, shaman 9, sorcerer/wizard 9, witch 9; Focus fear 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\nArea 60 ft.-radius spread centered on you\nDuration Instantaneous\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou trigger a primal fear of horrors long gone from living memory in all enemies around you, sending the weak running for their lives. Each enemy in the area who fails its saving throw becomes panicked for as long as you are in its line of sight, and 1 round after that. Those who succeed on their saving throw are shaken instead. For 1 minute after the condition expires, if you enter an affected creature’s line of sight, they must attempt another saving throw, with the same results as though you’ve cast the spell another time. The conditions created by this spell are mundane, and thus cannot be dispelled. Magic that ends fear effects (such as remove fear) functions as normal.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a01fd9fcc3e0e6ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/a01fd9fcc3e0e6ef"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "13240486fc9dd64d",
+  "name": "Charged Armor, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 3,
+      "psychic": 3,
+      "wizard": 3,
+      "summoner": 3,
+      "unchained summoner": 3,
+      "witch": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [force]; Level bloodrager 3, psychic 3, sorcerer/wizard 3, summoner 3, unchained summoner 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (diamond dust worth 25 gp)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level or until discharged\nSaving Throw Will negates (harmless), Reflex, see text; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou create a field of force around the target that protects them from damage. The subject gains DR 5/-. It ignores the first 5 points of damage each time it takes damage from a weapon. Once the spell has prevented a total of 5 points of damage per caster level (maximum 50), it is discharged and explodes with force. All creatures within 5 feet of the target must make a Reflex save or take 1d4 force damage per caster level (maximum 10d4).\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/13240486fc9dd64d.json",
+    "web": "https://codex.pipsprojects.com/#/e/13240486fc9dd64d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "40f1cb1c96aa02b0",
+  "name": "Fey Healing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 3,
+      "druid": 3,
+      "magus": 3,
+      "ranger": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "summoner": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation (healing); Level bloodrager 3, druid 3, magus 3, ranger 3, shaman 3, sorcerer/wizard 3, summoner 3, witch 3\nDuration 5 rounds + 1 round/level (max 10)\n\nDESCRIPTION\n\nThis spell functions like lesser fey healing except it grants fast healing 2 and you detect as a chaotically-aligned cleric with a level equal to the caster level of the spell.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40f1cb1c96aa02b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/40f1cb1c96aa02b0"
+  },
+  "license": "OGL 1.0a"
+}

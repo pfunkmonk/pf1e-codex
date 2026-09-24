@@ -1,0 +1,33 @@
+{
+  "id": "68093df5a325427c",
+  "name": "Planar Pariah",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 4,
+      "hunter": 4,
+      "inquisitor": 4,
+      "occultist": 4,
+      "paladin": 4,
+      "ranger": 4,
+      "shaman": 4,
+      "spiritualist": 4,
+      "summoner": 4,
+      "wizard": 4
+    },
+    "save": "special",
+    "sr": "yes (object)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level antipaladin 4, cleric/oracle 4, hunter 4, inquisitor 4, occultist 4, paladin 4, ranger 4, shaman 4, spiritualist 4, summoner 4, wizard 4\n\nCASTING\n\nCasting Time 1 round\nComponents: V, S, M/DF (lemon peel)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget several extraplanar creatures, no two of which may be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fort negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis functions as lesser planar pariah except that the penalties are increased by 1, and it can affect any number of creatures within 30 ft. of each other, to a maximum of 12 HD in total. You choose which creatures are affected.\n\nPlanar Pariah, Lesser\n\nSchool abjuration; Level antipaladin 1, cleric/oracle 1, hunter 1, inquisitor 1, occultist 1, paladin 1, ranger 1, summoner 1, shaman 1, spiritualist 1, wizard 1\n\nCASTING\n\nCasting Time 1 round\nComponents: V, S, M/DF (lemon peel)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one extraplanar creature of up to 6 HD\nDuration 1 round/level\nSaving Throw Fort negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou amplify the planar disharmonies that exist between your current plane of existence and an extraplanar creature, hampering its activities. For the duration of the spell, the creature suffers a -1 penalty on attack rolls, saving throws, skill checks and concentration checks. At caster level 8th and 16th, the penalty increases by 1.\n\nCasting this spell impedes magic that binds a creature to this plane: if the target is confined in a magic circle or similar effect, the spell instead allows a new Charisma check to break free with a bonus equal to the penalty it applies on attack rolls. A creature that breaks free as a result of this Charisma check immediately returns to its own plane, and cannot choose to remain where it was conjured.\n\nPlanar Pariah, Greater\n\nSchool abjuration; Level cleric/oracle 6, occultist 6, shaman 6, spiritualist 6, summoner 5, wizard 6\n\nCASTING\n\nCasting Time 1 round\nComponents: V, S, M/DF (lemon peel)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget several extraplanar creatures, no two of which may be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fort negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis functions as planar pariah except that it can affect up to 18 HD of creatures, and the penalties are increased by 1.\n\nThe Antipaladin’s Almanac, © 2020, Librarians & Leviathans.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68093df5a325427c.json",
+    "web": "https://codex.pipsprojects.com/#/e/68093df5a325427c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "528e40f313fa1e8f",
+  "name": "Cloying Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 1
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (shadow) [darkness]; Level bard 2, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be further than 25 ft. apart.\n\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nWith a gesture you cause nearby shadows to wrap and twist around your target’s eyes. Any creature that fails its Will save can see only 5 feet and its vision is clouded as the darkness spell, granting creatures within 5 ft. of the target partial concealment.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/528e40f313fa1e8f.json",
+    "web": "https://codex.pipsprojects.com/#/e/528e40f313fa1e8f"
+  },
+  "license": "OGL 1.0a"
+}

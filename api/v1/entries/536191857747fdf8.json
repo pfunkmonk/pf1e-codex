@@ -1,0 +1,29 @@
+{
+  "id": "536191857747fdf8",
+  "name": "Cursed Slumber",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "psychic": 9,
+      "wizard": 9,
+      "witch": 9
+    },
+    "desc": [
+      "curse",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School enchantment (compulsion) [curse, mind-affecting]; Level psychic 9, sorcerer/wizard 9, witch 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (white sand)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one living creature with an Intelligence of 3 or higher\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nNo violence, face-full of water, or kiss will wake the target of the cursed slumber. The target creature falls into a magical sleep with no need of food or water (although it must still breathe). The target continues to age normally and can die of old age. This spell is a curse and can only be removed by remove curse or related spells.\n\nIf the target remains asleep for at least 1 year, the spell grants benefits to spellcasters in its vicinity.\n\nAll arcane and psychic spellcasters within 30 feet of the sleeping target gain a +2 competence bonus on Knowledge (arcana) checks and Spellcraft checks.\n\nTreat the caster level of any arcane or psychic spell cast within 30 feet of the sleeping target as 1 higher if the target has been asleep at least 1 year. Caster level increases from multiple cursed creatures are not cumulative.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/536191857747fdf8.json",
+    "web": "https://codex.pipsprojects.com/#/e/536191857747fdf8"
+  },
+  "license": "OGL 1.0a"
+}

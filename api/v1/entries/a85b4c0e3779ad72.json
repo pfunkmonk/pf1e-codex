@@ -1,0 +1,24 @@
+{
+  "id": "a85b4c0e3779ad72",
+  "name": "Accelerate Decay",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "ranger": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level druid 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 creature/level\nDuration instantaneous\nSaving Throw Will Partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell only affects corporeal undead creatures and creatures kept artificially young through magic. This spell accelerates the creatures’ rot back to where a body would be ruined. The damage to undead creatures and creatures that are kept artificially young through magic (such as a potion of youth ) is 1d6 points per level (to a maximum of 10d6). Particularly ancient creatures such as vampires take double damage. Mummies get +4 to their Will saves and take only half damage due to their initial preservation techniques when buried. Fast healing possessed by undead creatures is suppressed for 24 hours. If an undead creature is reduced to 0 hit points, it crumbles into a pile of dust. A successful save results in half damage and negates all other effects.\n\nThe spell does not affect artificial constructs unless those constructs are made of corpses, like flesh golems. These creatures also get a Will save. If the construct is reduced to 0 hit points or less it falls apart and is destroyed.\n\n101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a85b4c0e3779ad72.json",
+    "web": "https://codex.pipsprojects.com/#/e/a85b4c0e3779ad72"
+  },
+  "license": "OGL 1.0a"
+}

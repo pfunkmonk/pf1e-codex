@@ -1,0 +1,25 @@
+{
+  "id": "e8da7725b6325da0",
+  "name": "Dance of the Dead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 4,
+      "white necromancer": 3,
+      "witch": 4
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 4, white necromancer 3, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one Medium skeleton or zombie per caster level; see text\nDuration 1 round/level\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nYou imbue normal humanoid remains with mobility and a bit of your life essence. On casting the spell, you lose 2d4 hp that return when the spell ends. Each animated skeleton or corpse immediately attacks any target you designate or performs simple tasks as directed.\n\nThese animated creatures must be created from existing skeletons or corpses. You may animate one Medium skeleton or zombie per caster level. These skeletons or zombies immediately revert to their previous, inanimate state when the spell ends or they move out of the spell’s radius.\n\nIf used to attack enemies, treat as standard human skeletons or zombies (alignment neutral). You can change the designated target or targets as a move action, as if directing an active spell.\n\nIf used to perform basic tasks, treat the skeletons or zombies as having capabilities similar to an unseen servant.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8da7725b6325da0.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8da7725b6325da0"
+  },
+  "license": "OGL 1.0a"
+}

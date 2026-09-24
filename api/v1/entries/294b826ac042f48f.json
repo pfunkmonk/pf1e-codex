@@ -1,0 +1,29 @@
+{
+  "id": "294b826ac042f48f",
+  "name": "Restricting Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "cleric": 3,
+      "inquisitor": 2,
+      "magus": 2,
+      "wizard": 3,
+      "vanguard": 2,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bard 2, cleric 3, inquisitor 2, magus 2, sorcerer/wizard 3, vanguard 2, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level that are wearing armor, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nA creature that fails its saving throw becomes entangled for the duration of the spell. A successful Fortitude save reduces the duration to 1 round.\n\nHeavier armors are more difficult to fight against for creatures. A creature wearing medium armor takes a -1 penalty on its saving throw, whereas a creature in heavy armor takes a -2 penalty. A creature wearing armor he is not proficient in is significantly hindered, applying the armor’s Armor Check Penalty to his saving throw against restricting armor.\n\nCreatures wearing non-corporeal armor, such as that provided by mage armor or instant armor, are not affected by restricting armor. Shields do not count as armor for the purpose of this spell.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/294b826ac042f48f.json",
+    "web": "https://codex.pipsprojects.com/#/e/294b826ac042f48f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "1be577e4f1287ea5",
+  "name": "Obscure Text",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (glamer); Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (gold dust worth 50 gp)\n\nEFFECT\n\nRange touch\nTarget text touched, up to 1 page or 1 square foot/level\nDuration one day/Level (D)\nSaving Throw Will negates (object); see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell causes writings, inscriptions, and even magical symbols and glyphs to become temporarily unintelligible. The writing looks normal to the casual viewer, but seems meaningless whenever anyone tries to actively read it.\n\nWhen this spell is applied to nonmagical writing, characters with the Linguistics skill can attempt to piece together the meaning – add this spell’s caster level to the normal Linguistics DC (10 for writing that would be readable normally). Placing this spell on magical writing such as a scroll or spellbook increases the Spellcraft DC to decipher the writing by +1 per caster level.\n\nPlacing this spell on a scribed magical ward does not disrupt the ward’s function but might prevent it from being recognized. For example, explosive runes with an obscure text spell applied still detonates when an attempt to read them is made, but the attempt won’t reveal the runes’ meaning (if any). Likewise, an illusory script with an obscure text spell applied still implants its suggestion in the minds of unauthorized readers. The Spellcraft DC to identify a ward under the effects of obscure script increases by +1 per caster level, but note that placing this spell on a ward triggered by touch activates the ward unless you succeed on a caster level check (DC 10 + the ward’s caster level).\n\nObscure text is difficult to dispel, adding a +5 bonus to its dispel check DC.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1be577e4f1287ea5.json",
+    "web": "https://codex.pipsprojects.com/#/e/1be577e4f1287ea5"
+  },
+  "license": "OGL 1.0a"
+}

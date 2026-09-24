@@ -1,0 +1,24 @@
+{
+  "id": "41f09a98576815ff",
+  "name": "Comrades in Arms",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 5,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level cleric/oracle 5, Paladin 4\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, M (drop of blood of a dead hero of the caster’s faith that died honorably), DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature per 3 caster levels\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nAny targets affected by comrades in arms may donate a number of hit points per round equal to the caster’s level to other targets of the spell that are in the contributor’s line of sight. The contributor takes those hit points as damage, while the recipient receives the hit points first as healing and then as additional temporary hit points, up to a maximum of the caster’s level. One point of Strength may be similarly donated, with the contributor taking a temporary loss of Strength and the recipient gaining a +1 Strength enhancement. Strength enhancements are cumulative, up to a maximum bonus of half the caster’s level. Hit points are not returned to the donor when the spell expires, but Strength returns to the donor. Temporary hit points are lost when the spell ends.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/41f09a98576815ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/41f09a98576815ff"
+  },
+  "license": "OGL 1.0a"
+}

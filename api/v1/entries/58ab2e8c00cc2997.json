@@ -1,0 +1,26 @@
+{
+  "id": "58ab2e8c00cc2997",
+  "name": "Dream Speaker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "mind effecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind effecting]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, F\n\nEFFECT\n\nRange close touch\nTarget one sleeping creature\nDuration 10 minutes (see text)\nSaving Throw Will negates/harmless (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou touch a sleeping creature and whisper questions quietly into its ear. If the target fails its initial Will save, it answers the questions in an equally quiet whisper (not heard beyond 5 feet) in their native language.\n\nA creature that makes its initial saving throw simply rolls away from the caster and continues sleeping. While the answers are never lies or direct trickery, the target can make a second Will save to avoid divulging special secrets or hidden plans. If this save is successful, it awakens immediately with no memory of the questioning; on a failed save, the target answers.You can ask one question/level. This spell does not work on creatures with an Intelligence score less than 3 nor does it grant any means to understand the language spoken by the target. It can’t be cast more than once on a single target in a 24-hour period.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58ab2e8c00cc2997.json",
+    "web": "https://codex.pipsprojects.com/#/e/58ab2e8c00cc2997"
+  },
+  "license": "OGL 1.0a"
+}

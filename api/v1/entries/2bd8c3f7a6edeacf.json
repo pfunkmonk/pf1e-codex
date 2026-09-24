@@ -1,0 +1,29 @@
+{
+  "id": "2bd8c3f7a6edeacf",
+  "name": "Forced Isolation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "mesmerist": 6,
+      "psychic": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 6, mesmerist 6, psychic 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou overwhelm the target’s mind, making them unable to perceive other sentient creatures.\n\nSeemingly they are alone. For the duration of the spell other creatures are imperceptible to the target in any way, including true seeing. Creatures are not merely invisible to the target, their mind has been altered to block out other sentient beings as background noise in the same way creatures do not hear the sounds of their own bodies such as joints moving, blood pumping or even their own heartbeat outside normal circumstances and the same way many creatures (particularly humanoids) have blindspots in vision. If the target of this spell is damaged, or targeted by a hostile magical effect they receive a new save against this spell. Allies can try to end the effect by dealing damage to them, therefore triggering a new save. The target is considered flat-footed for the duration against all attacks.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2bd8c3f7a6edeacf.json",
+    "web": "https://codex.pipsprojects.com/#/e/2bd8c3f7a6edeacf"
+  },
+  "license": "OGL 1.0a"
+}

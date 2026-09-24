@@ -1,0 +1,25 @@
+{
+  "id": "f636ef9271842695",
+  "name": "Seeker’s Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 3,
+      "elven archer": 2,
+      "ranger": 3
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 3, elven archer 2, ranger 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (an arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nDuration 1 hr./level\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nYou make a minor spiritual bond with one of your arrows, which you—and only you—then can fire at an enemy creature. If this arrow hits, the target must make a Will save.\n\nIf the save fails, the spiritual bond transfers from the arrow to the target, and you gain a constant awareness of the creature’s presence, even after the creature has extracted and discarded your arrow. If the creature is invisible and within 300 ft., you sense the exact square it is in, but you cannot see it. You also gain a +10 to Survival checks to track this enemy, and you always know in which direction your target lies.\n\nThis bond lasts as long as the target is within a number of miles equal to 10 × your caster level (for example, within 30 miles for a 3rd-level caster).\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f636ef9271842695.json",
+    "web": "https://codex.pipsprojects.com/#/e/f636ef9271842695"
+  },
+  "license": "OGL 1.0a"
+}

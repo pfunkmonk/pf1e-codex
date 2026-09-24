@@ -1,0 +1,27 @@
+{
+  "id": "ffa749a690ef3ea7",
+  "name": "Message In A Bottle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [language-dependent]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (copper wire and a drinking vessel with stopper)\n\nEFFECT\n\nTargets one object\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou whisper a message into the mouth of a drinking vessel. The size of the vessel dictates the maximum length of the message; a potion vial holds 30 words, an acid flask holds 60, and a wine bottle holds 150. The vessel is not considered enchanted, though its contents are and the whole thing gives off a faint transmutation aura.\n\nAfter speaking the message, you must seal the container. As soon as the vessel is uncorked, the message is audibly recited to all those within hearing distance.\n\nSubsequent openings have no effect. You hear the first 30 words of the first response spoken to your message, so long as you are on the same plane as the speaker.\n\nMultiple messages may be imparted via the same vessel as long as they fit. An unopened vessel holds its message as long as the vessel remains otherwise inviolate. If the vessel is broken, torn or otherwise rendered useless as a container, the magic and the message are lost.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ffa749a690ef3ea7.json",
+    "web": "https://codex.pipsprojects.com/#/e/ffa749a690ef3ea7"
+  },
+  "license": "OGL 1.0a"
+}

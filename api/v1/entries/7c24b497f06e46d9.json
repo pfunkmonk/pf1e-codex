@@ -1,0 +1,27 @@
+{
+  "id": "7c24b497f06e46d9",
+  "name": "Squall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 8,
+      "druid": 8
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [water]; Level arcanist/sorcerer/wizard 8, druid 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of rainwater)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 80-ft.-radius burst\nDuration 1 round/level (D)\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nYou conjure a sudden, violent rainstorm that pelts your enemies with hard rain and hailstones. Creatures within the affected area take 6d6 piercing damage each round; affected creatures with the fire subtype instead take 1d6 points of piercing damage per caster level each round (maximum 20d6).\n\nThe squall also extinguishes all non-magical fires and dispels fire spells within the affected area (as the quench spell). Additionally, attempts to cast any spell with the fire descriptor within the squall require a concentration check (DC 15 + double spell level).\n\nIf cast over land, the squall soaks the ground, changing the terrain type to shallow bog (see the Environment chapter of the Pathfinder Roleplaying Game Core Rulebook for details) for the spell’s duration and an additional 1d4 minutes thereafter. If cast over a body of water, the DC of all driving checks for water vehicles within the affected area is increased by 15, and any sails in the squall take half the squall’s base piercing damage each round (see Vehicles for more details).\n\nBook of Heroic Races: Advanced Lizardfolk. © 2015, Jon Brazer Enterprises",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c24b497f06e46d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c24b497f06e46d9"
+  },
+  "license": "OGL 1.0a"
+}

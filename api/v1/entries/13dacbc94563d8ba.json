@@ -1,0 +1,27 @@
+{
+  "id": "13dacbc94563d8ba",
+  "name": "Jeweled Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [earth]; Level druid/shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one flying creature\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nOn a successful ranged touch attack, you conjure up a large, jagged, prismatic crystal that bursts from the ground and flies toward a flying target.\n\nThe crystal shatters into smaller jewels that cover the target creature and deal 1d4 hp damage per 2 caster levels. The target must make a Fortitude save or immediately begin falling. If the save is successful, the target descends to the ground at a rate of 60 ft. per round and takes no damage upon landing. A failed save means an uncontrolled fall.\n\nAn affected creature cannot fly until the jewels are removed, a process which takes 10 min. for Medium-size creatures, 20 min. for Large, 30 min. for Huge, and so on. The jewels themselves always crumble into worthless powder when removed.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/13dacbc94563d8ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/13dacbc94563d8ba"
+  },
+  "license": "OGL 1.0a"
+}

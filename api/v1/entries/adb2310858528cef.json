@@ -1,0 +1,24 @@
+{
+  "id": "adb2310858528cef",
+  "name": "Shieldlight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 1,
+      "paladin": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level cleric/oracle 1, paladin 1\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange touch\nTarget one shield\nDuration 10 min./level (D)\n\nDESCRIPTION\n\nYou affect an existing shield (of any size and material, as long as you can hold and use it) to give off a steady, gentle, translucent, pearly-white light in a 20-ft. radius, and increasing the light level for an additional 20 ft. by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). As long as you are alive, this light persists even in your absence until the spell expires. While a shield is affected by shieldlight, it gains a +1 bonus (both as a weapon, and in augmenting a bearer’s AC).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adb2310858528cef.json",
+    "web": "https://codex.pipsprojects.com/#/e/adb2310858528cef"
+  },
+  "license": "OGL 1.0a"
+}

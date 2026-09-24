@@ -1,0 +1,25 @@
+{
+  "id": "13eedda47d9267bc",
+  "name": "Shadow Landscape",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "druid": 8,
+      "wizard": 9,
+      "witch": 9
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (shadow); Level druid 8, sorcerer/wizard 9, witch 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (dark earth)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea one-mile-radius spread centered on a designated point\nDuration 1 day/level (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou blend the landscape of the area with the same area on the shadow plane, making the terrain and features more dangerous. The spell effects depend upon the affected terrain as follows:\n\nDesert: The desert becomes unbearably hot or cold depending upon whether it is a desert during daytime, or a tundra or desert at night. During the day in traditionally hot deserts, the temperature increases by 30 degrees, for tundras or nocturnal deserts, the temperature drops by 30 degrees. Additionally, sandstorms, or snowstorms in tundra, blow through this terrain every hour.\nForest: Forests become terrifying places, with deepening shadows, dark leaves, gnarled trees, twisting paths and the smell of blood and moss. Light undergrowth becomes heavy undergrowth, and places of heavy undergrowth are affected as though they are the entangle spell using the shadow landscape’s save DC. Additionally, all light sources, magical or otherwise, are reduced by 1 level.\nHill: The hills become daunting and treacherous. Light undergrowth becomes heavy and all slopes take double the movement they normally would as they seem to lengthen as you traverse them. Cliffs on the hills become crumbly and dangerous increasing their Climb check to DC 25.\nMarsh: Marshes become even more forbidding, if that is even possible. Any difficult terrain caused by marshy conditions becomes quicksand.\nMountain: Mountains become jagged and foreboding. As hills, the rock faces and cliffs become crumbly and dangers increasing their DC to 25. Any failed Climb checks or loud noises have a 10% chance of causing an avalanche or rock-slide. Additionally, altitude effects are treated as one level greater.\nPlain: Plains become stormy and choked with thick bushes. Each space traversed that has any undergrowth in such a plain has a 50% chance of being affected by the entangle spell using the shadow landscape’s spell DC.\nUnderground: naturally occurring caverns turn into veritable pits of shadow. All natural stone floors in the area are treated as difficult terrain, and any spaces that were already difficult terrain require 4 squares of movement to traverse. Additionally, all light sources, magical or otherwise, are reduced by 1 level. You and up to 1 creature/4 caster levels may be marked as immune to the detrimental effects of the spell, though you still see them.\n\nFinally, you can designate a number of animals, plants, or magical beasts native to the area normally as shadowy protectors. You can designate 1 HD/level, split up in any grouping you wish. For example, a 19th-level sorcerer could designate a giant flytrap (13 HD) and 3 wolves (2 HD) as shadowy guardians. As long as the creatures remain within the spell’s area, they have a friendly disposition toward you and the creatures marked when casting the spell, and they gain the shadow creature template.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/13eedda47d9267bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/13eedda47d9267bc"
+  },
+  "license": "OGL 1.0a"
+}

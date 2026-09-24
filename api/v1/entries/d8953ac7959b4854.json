@@ -1,0 +1,25 @@
+{
+  "id": "d8953ac7959b4854",
+  "name": "Snowfire Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9,
+      "druid": 9,
+      "shaman": 9
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation (cold, fire); Level arcanist/sorcerer/wizard 9, druid 9, shaman 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea cylinder (20-ft. radius, 40 ft. high)\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nRoaring flames and heavy hail pour down from the sky at the same time, inflicting 1d6 points of damage per caster level to other creatures in the area in the first round (Reflex save for half damage). Half of this is fire damage, and half is cold damage; resistance or immunity to one of these elements has no effect on the other.\n\nFor the remainder of the spell’s duration, falling snow and rising smoke obscure all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). Speed is reduced by three-quarters.\n\nThe Bardess’ Library #2 - Elements, © 2024, Legendary Games; Author: Margherita Tramontano.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d8953ac7959b4854.json",
+    "web": "https://codex.pipsprojects.com/#/e/d8953ac7959b4854"
+  },
+  "license": "OGL 1.0a"
+}

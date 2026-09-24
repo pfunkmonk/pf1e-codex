@@ -1,0 +1,30 @@
+{
+  "id": "f1cbad10db78c6ee",
+  "name": "Diabolical Temper",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "oracle": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 4, cleric/oracle 5, druid/shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYour spell awakens seething rage in a targeted creature, rendering it incoherent and unable to cast even the simplest magic or use any verbal skills or abilities. It splutters, gesticulates, and hops about in a fit of pure temper for the spell’s duration. Each round on its turn, the subject may attempt a new saving throw to end the effect.\n\nNon-spellcasting targets gain a +2 bonus to melee attacks and damage rolls they make while under this spell’s influence. Affected creatures cannot take any action other than combat attacks while the spell continues.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1cbad10db78c6ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1cbad10db78c6ee"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "461fbfa4ee94bcb2",
+  "name": "Ocular Overload",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 4,
+      "bloodrager": 4,
+      "shaman": 4,
+      "magus": 4,
+      "mesmerist": 4,
+      "psychic": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (pattern); Level bard 4, bloodrager 4, druid/shaman 4, magus 4, mesmerist 4, psychic 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget attacking creature\nDuration Instantaneous\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nJust as a creature is about to attack you or target you with a targeted spell or effect, you create a burst of jarring colors and patterns.\n\nThe creature must make a Fortitude save or be blinded for 1 round, including for before the attack or spell/ability targeting, and dazzled for 1 minute thereafter. On a successful save, the target creature is dazzled for 1d6 rounds.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/461fbfa4ee94bcb2.json",
+    "web": "https://codex.pipsprojects.com/#/e/461fbfa4ee94bcb2"
+  },
+  "license": "OGL 1.0a"
+}

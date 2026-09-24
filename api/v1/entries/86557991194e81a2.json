@@ -1,0 +1,24 @@
+{
+  "id": "86557991194e81a2",
+  "name": "Disguise Magic Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School illusion (glamer); Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (the remains of a shattered, used or destroyed magic item)\n\nEFFECT\n\nRange touch\nTarget one magic item\nDuration 24 hours (D)\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou disguise a magic item’s aura to appear stronger or weaker than it really is. An object’s magic aura may be shifted to be one category stronger or weaker than the item’s actual aura rating, as outlined in detect magic. (Faint magic auras may be made to appear non-magical.) At 6th level, you may disguise the aura to be two categories different. At 12th level, you may change it by three, and at 17th level, you may alter it by up to four categories.\n\nArtifacts cannot be made to appear less than faintly magical by this spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86557991194e81a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/86557991194e81a2"
+  },
+  "license": "OGL 1.0a"
+}

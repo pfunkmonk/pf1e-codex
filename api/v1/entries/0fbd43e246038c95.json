@@ -1,0 +1,23 @@
+{
+  "id": "0fbd43e246038c95",
+  "name": "Soul Freeze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Otherverse Games",
+  "book": "Otherverse Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 9
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Otherverse Games"
+  },
+  "body": "School evocation (cold); Level druid 9\n\nCASTING\n\nCasting Time full-round action\nComponents V, S\n\nEFFECT\n\nArea 1 mile radius + 1 mile per 4 caster levels\nDuration 1 round/level (D)\nSaving Throw Fort partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou open a portal behind the clouds, unleashing a snowstorm for the ages, summoned from the coldest corner of multiverse.\n\nAll creatures and objects within the area-of-effect suffer 1d6 cold damage per two caster levels.\n\nImmediately, and again every 10 rounds a creature remains within the area-of-effect, the creature suffers 1d6 Dexterity damage, and it’s land speed is reduced by 10 ft. A successful Fort save halves the cold damage, and negates that round’s Dexterity damage and reduction in base land speed.\n\nCreatures reduced to either 0 Dexterity or 0 ft. speed by freeze completely, transforming into an icy statue, as if by flesh to stone, save that the target is transformed to ice rather than stone.\n\nCreatures that are not killed or frozen solid by this spell regain 1 point of Dexterity and 5 ft. of land speed per minute after the duration expires.\n\nAdditionally, the spell deposits roughly half an inch of snow and ice per round, which melts normally after the spell’s duration expires.\n\nNemesis Unleashed Volume II. Copyright 2019, Otherverse Games. Author: Chris A. Field",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0fbd43e246038c95.json",
+    "web": "https://codex.pipsprojects.com/#/e/0fbd43e246038c95"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "427a93bf2c277fe6",
+  "name": "Flurry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "shaman": 1,
+      "ranger": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 1, druid/shaman 1, ranger 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, M (a vial of slushy water)\n\nEFFECT\n\nRange personal\nTarget touch\nArea 5 ft.-radius Duration: 1 round Saving Throw: Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nA 5 ft.-radius flurry of snow surrounds you. For 1 round, any creature within this area, including you, receive a -4 penalty on Perception checks. Creatures within this area also have a 20% chance to miss when attacking, as with concealment.\n\nMythic: The area of the spell increases to a 10-ft. radius, and you are not affected by either the -4 penalty to Perception checks nor the 20% miss chance.\n\nAugmented (2nd): You may expend an additional use of mythic power to also prevent your allies from being affected by the -4 penalty to Perception checks and the 20% miss chance.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/427a93bf2c277fe6.json",
+    "web": "https://codex.pipsprojects.com/#/e/427a93bf2c277fe6"
+  },
+  "license": "OGL 1.0a"
+}

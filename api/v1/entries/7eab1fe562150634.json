@@ -1,0 +1,29 @@
+{
+  "id": "7eab1fe562150634",
+  "name": "Dispel Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "air/wood"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [air/wood]; Level druid 5, cleric/oracle 5, inquisitor 5, shaman 5\n\nWood: Spells with this descriptor include those that directly create, utilize, or manipulate plant or wood in some manner or conjure creatures with the plant subtype or composed of wood. Such spells are considered to belong to the Wood element (for geomancers) and the Wood elemental school (for wood elementalists).\n\nThis spell functions as dispel evil, except it surrounds you in a white aura and it affects earth creatures rather than evil ones.This can also be considered a wood spell, in which case it has a verdant green aura.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7eab1fe562150634.json",
+    "web": "https://codex.pipsprojects.com/#/e/7eab1fe562150634"
+  },
+  "license": "OGL 1.0a"
+}

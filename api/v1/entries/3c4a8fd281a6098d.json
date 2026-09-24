@@ -1,0 +1,23 @@
+{
+  "id": "3c4a8fd281a6098d",
+  "name": "Wall of Disease",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo Fans United",
+  "book": "Paizo Fans United",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo Fans United"
+  },
+  "body": "School conjuration (creation); Level druid 5 sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a pinch of dried fungus)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect wall whose area is up to one 5-ft. square/level\nDuration Concentration + 1 round/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nAs you cast this spell, millions of mosquito-sized larvae begin to swim through the air, desperate for living creatures with which to spread their pestilence.\n\nChoose a disease you are familiar with when you cast this spell. Any living creature that comes within 10 feet of your wall of disease must make a Fortitude save or contract the disease. This save is based on the DC of your spell, not the normal DC of the disease. Targets immediately suffer the effect of the disease, ignoring its usual onset. They suffer further effects of the disease at the normal frequency.\n\nAdditionally, any target attacked through the wall of disease gains concealment.\n\nWayfinder #4. © 2011, Paizo Fans United. Author: Adam Strasser, Carl Rossi, Charles Evans, Dane Pitchford, Darrin Drader, Dave Gross, David Schwartz, Dustin Nelson, Elaine Cunningham, Elizabeth Leib, Guy Fox, Jesper Haglund, Jess Door, Jodi Reynolds, John C. Rock, Jonathan McAnulty, Justin Sluder, Michael Kortes, Mike Richards, Mike Welham, Neil Spicer, Oliver von Spreckelsen, Phil Tucker, Robert Andrade, Robert Gresham, Russell Estes, Ryan Costello Jr., Theodore Thompson, Trevor Gulliver, Troy E. Taylor, Truly Clark.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3c4a8fd281a6098d.json",
+    "web": "https://codex.pipsprojects.com/#/e/3c4a8fd281a6098d"
+  },
+  "license": "OGL 1.0a"
+}

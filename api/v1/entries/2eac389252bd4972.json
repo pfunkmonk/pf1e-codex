@@ -1,0 +1,27 @@
+{
+  "id": "2eac389252bd4972",
+  "name": "Trilling Field",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [sonic]; Level bard 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dead cicada)\n\nEFFECT\n\nEffect sonic field in a 30-ft. radius centered on you\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create high-vibrato sound in the area around you. This effect negates any sound-based blindsense or blindsight of creatures within the area (such as bats or a caster using the echolocation spell). Any creatures within the area of effect find the sound loud, painful, and distracting, and they take a -1 penalty to attacks, ability checks, and skill checks.\n\nSpellcasters must make concentration checks to successfully cast while within the field (DC equal to 10 + the spell’s level). Deafened creatures are immune to penalties and do not need to make concentration checks. Those within the field must shout to be heard, and any hearing-based Perception checks are made with a -20 penalty.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2eac389252bd4972.json",
+    "web": "https://codex.pipsprojects.com/#/e/2eac389252bd4972"
+  },
+  "license": "OGL 1.0a"
+}

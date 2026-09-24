@@ -1,0 +1,27 @@
+{
+  "id": "1ca652615e073206",
+  "name": "Homicidal Repentance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "bloodrager": 2,
+      "lathspell": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment; Level bard 2, bloodrager 2, lathspell 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the target with sadness and guilt anytime they harm a target. On a failed Will save, if the target deals damage to another creature, they take a -1 penalty to attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls for 1d6 rounds. If the target renders a creature unconscious, or kills/destroys them, the penalty is increased to -2 for 2d6 rounds. The conditions do not stack, only the highest penalty is applied and each subsequent penalty instead increases the duration of the highest penalty.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ca652615e073206.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ca652615e073206"
+  },
+  "license": "OGL 1.0a"
+}

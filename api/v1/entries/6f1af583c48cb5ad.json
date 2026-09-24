@@ -1,0 +1,29 @@
+{
+  "id": "6f1af583c48cb5ad",
+  "name": "Chaotic Spell Lash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [force]; Level bard 5, cleric/oracle 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nEffect magical whip\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA shimmering, magical whip appears in your hand, as multihued as a rainbow. When used to strike an enemy’s touch AC as a standard action, it randomly inflicts a condition on that enemy for one round. The whip inflicts a different condition every time it successfully strikes an enemy, even if it strikes the same enemy more than once.\n\nRoll d10 and consult the list of conditions below:\n\nNauseated\nFrightened\nEntangled\nBlinded\nConfused\nFatigued\nShaken\nSickened\nExhausted\nStunned\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f1af583c48cb5ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f1af583c48cb5ad"
+  },
+  "license": "OGL 1.0a"
+}

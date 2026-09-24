@@ -1,0 +1,27 @@
+{
+  "id": "e25c46a34df213be",
+  "name": "Phantasmal Decoy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "inquisitor": 3,
+      "lathspell": 4,
+      "ranger": 3,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (phantasm)) [mind-affecting]; Level inquisitor 3, lathspell 4, ranger 3, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou create a phantasmal image of the target’s most hated enemy or favored prey. Only the spell’s target can see the phantasmal decoy. You see a shadowy shape, while others see nothing. On a failed Will save, the target will chase after and primarily target the phantasmal decoy. Creatures with an Int of 3 or less will automatically chase after it, while more intelligent creatures will avoid taking foolish or dangerous actions, like provoking attacks of opportunity, to do so.\n\nAs a move action, you can move the phantasmal decoy up to 60 feet in any direction within the range of the spell. Because it is a phantasm), the phantasmal decoy is not subject to difficult terrain, though you can choose to make it seem as though it is affected to keep up the facade. The target of the spell gets another Will save to disbelieve the phantasmal decoy if it successfully attacks or moves adjacent to the phantasm).\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e25c46a34df213be.json",
+    "web": "https://codex.pipsprojects.com/#/e/e25c46a34df213be"
+  },
+  "license": "OGL 1.0a"
+}

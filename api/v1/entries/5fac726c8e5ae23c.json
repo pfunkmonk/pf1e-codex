@@ -1,0 +1,25 @@
+{
+  "id": "5fac726c8e5ae23c",
+  "name": "Raining Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "death mage": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level death mage 5, sorcerer/wizard 5, witch 5\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of blood)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft. radius cylinder, 40 ft. high\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a downpour of blood in the area that deals 1d6 points of negative energy damage per caster level (maximum 15d6) to every living creature in the area.\n\nAny corporeal undead or creature with the blood drain ability in the area is healed by 4d6. A successful Fortitude save halves the damage. For the remaining duration, the area is filled with the smell of putrid offal.\n\nAny living creature entering or beginning their turn in the area must also make a Fortitude save or be sickened until the beginning of their next turn.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5fac726c8e5ae23c.json",
+    "web": "https://codex.pipsprojects.com/#/e/5fac726c8e5ae23c"
+  },
+  "license": "OGL 1.0a"
+}

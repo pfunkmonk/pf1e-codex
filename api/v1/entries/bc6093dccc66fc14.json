@@ -1,0 +1,23 @@
+{
+  "id": "bc6093dccc66fc14",
+  "name": "Tempest",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "none",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a miniature paddle or fan of coral)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget an area of water of 10 ft. radius (+ 5ft./2 levels) and 5 ft. deep (+5 ft./2 levels)\nDuration 1 round/level\nSaving Throw none (see text); Spell Resistance none\n\nDESCRIPTION\n\nYou make the water churn and roil, increasing the DC of Swim checks and hampering the movement of creatures within. The DC to swim in the affected area is equal to the spell’s DC and must be made each round the creature is in the area. Creatures who fail their Swim checks are pulled underwater 5 ft. and take 1d4 hp bludgeoning damage/2 caster levels from the churning water. Attacks made through or into the area of rough water suffer a 20% miss chance.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc6093dccc66fc14.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc6093dccc66fc14"
+  },
+  "license": "OGL 1.0a"
+}

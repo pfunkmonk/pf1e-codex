@@ -1,0 +1,25 @@
+{
+  "id": "b446c30e1aec5303",
+  "name": "Analyze Portal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "psychic": 3,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level bard 3, psychic 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (a crystal lens and a small mirror)\n\nEFFECT\n\nRange 60 ft.\n\nArea Cone-shaped emanation\nDuration Concentration up to 1 round/level (D)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou can detect whether there is a magic portal or a gate spell within the area. If you study the area for 1 round you know the size and locations of the portals in the area. Once you find a portal, you can then study it to find more information. You can only study one portal at a time if there are more than one in the area.\n\nWith each round of study you gain one piece of information in this order:\n\nA key or command word needed to use the portal.\nAny specific circumstances needed for activation, like time of day or presence of certain creatures.\nWhether the portal is one-way or two-way.\nA glimpse into the place where the portal leads.\n\nThis perspective uses your own unaided vision as if you were standing on the other end of the portal. This does not allow you to use other divination spells through this vision. This glimpse lasts only 1 round.\n\nFor each property, you must make a caster level check equal to the caster level of the portal or gate effect. If you fail you may attempt the check again the next round.\n\nThis spell has only a minor ability to determine other portal effects as follows:\n\nRandom portals: The spell reveals only that the portal is random and if it can be activated now. It does not reveal any timeframes.\nVariable portals: The spell reveals only that the portal is variable. The destination shown is only the one it is currently set to.\nCreature portals: The spell reveals this property. If their equipment is separated from the creature, the destination of the equipment is not revealed.\nMalfunctioning portals: The spell only reveals it is malfunctioning, not what the malfunction is.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b446c30e1aec5303.json",
+    "web": "https://codex.pipsprojects.com/#/e/b446c30e1aec5303"
+  },
+  "license": "OGL 1.0a"
+}

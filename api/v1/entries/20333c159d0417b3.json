@@ -1,0 +1,33 @@
+{
+  "id": "20333c159d0417b3",
+  "name": "Orne’s Black",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 4,
+      "cleric": 4,
+      "inquisitor": 4,
+      "magus": 4,
+      "occultist": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School evocation [darkness]; Level antipaladin 4, bard 4, cleric 4, inquisitor 4, magus 4, occultist 4, shaman 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 30-foot radius emanation from a point in space\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA one-directional gloom covers the affected area, making the illumination level darkness. Creatures in the area can see outside of the affected area normally.\n\nCreatures in the area have total concealment and can’t be located by sight. The shadow dispels all magical light sources of a lower spell level in the area and suppresses the effect of all light sources and light spells (including daylight). Creatures who cannot see in darkness move through the area as if they were blinded (generally, at half speed).\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20333c159d0417b3.json",
+    "web": "https://codex.pipsprojects.com/#/e/20333c159d0417b3"
+  },
+  "license": "OGL 1.0a"
+}

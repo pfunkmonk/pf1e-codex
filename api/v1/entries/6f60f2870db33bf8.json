@@ -1,0 +1,26 @@
+{
+  "id": "6f60f2870db33bf8",
+  "name": "Baneweapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "magus": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 4, druid/shaman 4, magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M/DF\n\nEFFECT\n\nTarget one melee weapon or six projectiles touched\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou grant the bane special ability to one melee weapon or up to six projectiles (as in arrows, bolts, or other ammunition) for the spell’s duration. The type of creature targeted (such as dragons, undead, and so on) must be chosen at the time of casting. While the spell lasts, the affected weapon is a bane weapon, with a +2 bonus against designated foes and the ability to deal an extra 2d6 hp damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f60f2870db33bf8.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f60f2870db33bf8"
+  },
+  "license": "OGL 1.0a"
+}

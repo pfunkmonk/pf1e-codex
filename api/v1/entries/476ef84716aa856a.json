@@ -1,0 +1,27 @@
+{
+  "id": "476ef84716aa856a",
+  "name": "Divine Burden",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 6,
+      "wizard": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration [force]; Level druid 6, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 30-ft.-radius burst\nDuration 1 minute/level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell targets all divine spellcasters within range. All those affected must succeed on a Fortitude save or be treated as if heavily encumbered.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/476ef84716aa856a.json",
+    "web": "https://codex.pipsprojects.com/#/e/476ef84716aa856a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8099791fd45a6940",
+  "name": "Vitrified Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "earth",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [earth, fire]; Level druid 6, sorcerer/wizard 6\n\nDESCRIPTION\n\nThis spell functions as transmute mud to rock except the resulting ‘rock’ is more akin to glass or obsidian and the spell can be cast upon already rocky earth. All creatures touching or within the affected earth take 1d6 fire damage per caster level (maximum 10d6) and half that damage dealt the following round. A successful Reflex save halves this damage, however creatures inside of the affected earth, like using burrow, earthglide or stuck in quicksand automatically fail their saving throw.\n\nAs a side effect, if the affected area is or becomes wet, it becomes difficult terrain because the rock is slick.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8099791fd45a6940.json",
+    "web": "https://codex.pipsprojects.com/#/e/8099791fd45a6940"
+  },
+  "license": "OGL 1.0a"
+}

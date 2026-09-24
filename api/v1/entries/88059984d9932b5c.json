@@ -1,0 +1,27 @@
+{
+  "id": "88059984d9932b5c",
+  "name": "Harrying Cipher",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "force",
+      "ink"
+    ],
+    "save": "None",
+    "sr": "yes; see text",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [force, ink]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M; see text\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nEffect one 5-ft.-by-5-ft. glyph\nDuration 10 min./level\nSaving Throw none; Spell Resistance yes; see text\n\nDESCRIPTION\n\nYou sketch a 5-ft.-by-5-ft. string of translucent arcane symbols on any surface. Doing so brings a Tiny construct to life to act as a guard, scout, or trap.\n\nThe cipher can straighten out and move like a snake, squeezing through openings that only tiny sized creatures may fit. A harrying cipher has the following statistics: Harrying Cipher N Tiny construct Init +3; Senses darkvision 60 ft., low-light vision; Perception +0 DEFENSE AC 15 (+3 Dex, +2 size), touch 15, flat-footed 12 hp 6 (1d10 + 1hp per caster level) Fort +0, Ref +3, Will +0 Immune construct traits OFFENSE Speed 20 ft.\n\nMelee jolt +3 (1d4+1 nonlethal damage) Space 2  ft.; Reach 2  ft.\n\nSpecial Attacks jolt, trip STATISTICS Str 12, Dex 16, Con 0, Int 0, Wis 10, Cha 1 Base Atk +0; CMB -1 (+1 to trip); CMD 12 (14 vs Trip) Feats Improved Trip Skills Stealth +19; Racial Modifiers +8 to Stealth A harrying cipher can deliver a jolt of force during melee that causes nonlethal damage. It may trip a Medium or smaller sized creature by wrapping itself around their legs; when it succeeds with a jolt attack, it can attempt to trip the opponent as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot attempt to trip the harrying cipher. Creatures receive a Reflex save against all jolt attacks.\n\nYou cannot see or hear what the cipher sees, but the cipher can report back to you and answer very simple questions (regarding number, distance, etc.) by rearranging its wording and allowing you to read the answer, if you instructed the cipher to seek out this information. A harrying cipher can perform only one simple task or answer one simple question at time. (If scouting for enemies, for example, a cipher could report back how many beings it saw, but it could not report their distance from the doorway unless sent to scout a second time.)\n\nA harrying cipher moves to the limit of the spell’s range and then waits for you, its master. Ciphers forced beyond this range wink out of existence.\n\nUse of illusory script in conjunction produces an invisible cipher construct.\n\nThis spell’s material component is ink to sketch the cipher mixed with your own fresh blood, which deals 3 hp damage to you. This damage cannot be healed as long as the cipher exists.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/88059984d9932b5c.json",
+    "web": "https://codex.pipsprojects.com/#/e/88059984d9932b5c"
+  },
+  "license": "OGL 1.0a"
+}

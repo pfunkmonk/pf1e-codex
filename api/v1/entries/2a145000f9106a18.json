@@ -1,0 +1,23 @@
+{
+  "id": "2a145000f9106a18",
+  "name": "Tireless Vigil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "paladin": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level paladin 1\n\nCASTING\n\nCasting Time 1 round\nComponents S\n\nEFFECT\n\nRange touch\nTarget one willing creature\nDuration 8 hours\nSaving Throw none (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou infuse the target with an unshakable sense of duty and devotion as they stand guard over a location you specify.\n\nWhen you cast this spell, the target is linked to a 10-foot-radius emanation centered on the spot where you cast the spell. As long as the target remains within this area, he gains immunity to fatigue and sleep and gains a +2 bonus on saving throws against mind-affecting effects, exhaustion, and any effect that would forcibly remove him from the area of his tireless vigil. He also gains a sacred bonus equal to your caster level (maximum +5) on Perception checks made against evil creatures. This bonus is doubled against creatures with the evil subtype. When the spell ends, the target becomes exhausted. If the target leaves the area of the tireless vigil, each round that he ends his turn outside the designated area depletes one hour of the spell’s remaining duration.\n\nIf you cast this spell within an area affected by consecrate, hallow, or sacred space, the target can move as he wishes throughout the area of that spell without adversely affecting his tireless vigil.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a145000f9106a18.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a145000f9106a18"
+  },
+  "license": "OGL 1.0a"
+}

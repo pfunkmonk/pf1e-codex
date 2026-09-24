@@ -1,0 +1,17 @@
+{
+  "id": "61946315eb93453d",
+  "name": "Lava Strider",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Into the Wilds: Mountains and Volcanoes",
+  "book": "Into the Wilds: Mountains and Volcanoes",
+  "facets": {
+    "bk": "Into the Wilds: Mountains and Volcanoes"
+  },
+  "body": "LAVA STRIDER CR 3\n\nThis insect glides across lava like a water strider across a pond. Its glowing red carapace shimmers with heat while searing-hot venom drips from sickle-like pincers at its jaw.\n\nXP 800\nN Small vermin\nInit +2; Senses darkvision 60 ft.; Perception +4\n\nDEFENSE\n\nAC 16, touch 14, flat-footed 13 (+2 Dex, +1 dodge, +2 natural, +1 size)\nhp 27 (5d8+5)\nFort +5, Ref +3, Will +1\nImmune fire, mind-affecting effects\nWeaknesses vulnerability to cold and automatically slowed (as the spell slow) for 1 round whenever it takes 6 or more points of cold damage\n\nOFFENSE\n\nSpeed 30 ft.\nMelee bite +6 (2d4+2 plus flameblood venom)\nSpace 5 ft.; Reach 5 ft.\n\nSpecial Attacks flameblood venom, spew lava\n\nSTATISTICS\n\nStr 15, Dex 15, Con 13, Int —, Wis 10, Cha 2\nBase Atk +3; CMB +4; CMD 17 (25 vs. trip)\nSkills Acrobatics +6, Perception +4, Stealth +6; Racial Modifiers +4 Acrobatics, +4 Perception, +4 Stealth\nSQ erratic movement, superheated carapace\n\nSPECIAL ABILITIES\n\nErratic Movement (Ex)\n\nLava striders move with an unpredictable, herky-jerky motion, dodging obstacles and threats with ease. They gain a +1 dodge bonus to AC.\n\nFlameblood Venom (Ex)\n\nBite—injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2 Con; cure 3 consecutive saves. The save DC is Constitution-based.\n\nSpew Lava (Ex)\n\nA lava strider may spew lava as a standard action, once every 1d4 rounds. Lava shoots from the strider’s mouth in a 15’ line and deals 4d6 fire damage to those creatures within the line. A successful Reflex save (DC 13) halves the damage. The save DC is Constitution-based.\n\nSuperheated Carapace (Ex)\n\nA lava strider constantly emits waves of superheated air in a 5’ radius of itself. Any creature that starts its turn adjacent to a lava strider must make a successful DC 13 Fortitude save or take 1d6 fire damage. The save DC is Constitution-based.\n\nECOLOGY\n\nEnvironment volcano\nOrganization solitary or infestation (4-10)\nTreasure half standard (random NPC gear that wasn’t destroyed by environmental lava)\n\nA lava strider’s eggs must be exposed to intense heat to hatch, making lava striders perfect inhabitants of volcanic mountains.\n\nOnce hatched, the larval lava striders quickly grow to adulthood within one week.\n\nThereafter, they live only to eat and breed, spending their entire lives in and around lava. Lava striders prefer a diet of scorched flesh, though the particular type of meat is irrelevant. Lava striders instinctively rush towards any sort of movement to investigate the source’s potential as a meal.\n\nInto the Wilds: Mountains and Volcanoes, Copyright 2024, Bloodstone Press; author Beth Jones",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/61946315eb93453d.json",
+    "web": "https://codex.pipsprojects.com/#/e/61946315eb93453d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3d9c58a4c1537593",
+  "name": "Psychosilencer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "psychic": 2,
+      "wizard": 3,
+      "summoner": 3,
+      "unchained summoner": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [mind-affecting]; Level bard 3, inquisitor 3, psychic 2, sorcerer/wizard 3, summoner 3, unchained summoner 3, witch 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou impose a muffling silence into the mind of the target. The target must make a Will save or be unable to use Intelligence-based skills, unable to mak.\n\nIntelligence checks, lose any telepathy they possess or ability to be communicated with via telepathy, gain a +4 bonus on saves against mind-affecting effects, any attempt to detect their thoughts fails, and have a 50% spell failure chance for casting any spells with Intelligence-based DCs or psychic spells with a thought component. On a successful saving throw, the duration is reduced to 1 round and the target is only subject to a 10% spell failure and a -4 penalty on Intelligence-based skill and ability checks but is not subject to the other detrimental effects.\n\nPsychosilencer, Mass\n\nSchool divination [mind-affecting]; Level bard 5, inquisitor 5, psychic 4, sorcerer/wizard 5, summoner 5, unchained summoner 5, witch .\n\nTargets one creature/level, no two of which can be more than 30 ft. apart.\n\nDESCRIPTION\n\nThis spell functions as psychosilencer, except as noted above.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3d9c58a4c1537593.json",
+    "web": "https://codex.pipsprojects.com/#/e/3d9c58a4c1537593"
+  },
+  "license": "OGL 1.0a"
+}

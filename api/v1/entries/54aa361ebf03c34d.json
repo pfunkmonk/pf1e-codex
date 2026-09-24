@@ -1,0 +1,24 @@
+{
+  "id": "54aa361ebf03c34d",
+  "name": "Vinestrike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level druid 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a part or seed of a thorned plant)\n\nEFFECT\n\nRange 30 ft.\nTarget one creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nYou transmute a bit of thorned plant matter into a long thorned whip. You make a standard melee attack roll at one creature within range.\n\nThis attack roll may be affected by Weapon Finesse if applicable. On a hit, you deal 1d6 piercing damage to the target and attempt to pull it toward you. You make a reposition combat maneuver against the target and add your Wisdom bonus to the attempt. If the check is successful, you may only pull the target toward you.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/54aa361ebf03c34d.json",
+    "web": "https://codex.pipsprojects.com/#/e/54aa361ebf03c34d"
+  },
+  "license": "OGL 1.0a"
+}

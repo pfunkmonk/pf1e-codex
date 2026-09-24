@@ -1,0 +1,30 @@
+{
+  "id": "c79c870d2e036da6",
+  "name": "Spellguard Watchtower",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "psychic": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School divination [stronghold]; Level cleric 3, inquisitor 3, psychic 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 10 minutes/level (D)\n\nDESCRIPTION\n\nWithin your stronghold, you can perceive the flow of magical forces more easily and can counter their manipulation. You can a bonus equal to your caster level on Spellcraft checks to identify spells. In addition, you can sense the use of any spell or spell-like ability (including spells created by magic items) being used within your stronghold if the caster or the spell effect is within 10 feet times your caster level of you, even if you have no line of sight or line of effect to the creature using the ability. You can attempt to identify the spell being cast, though in this case the DC is increased by 10.\n\nIf you have identified a spell being cast within your stronghold and you have line of effect to the creature casting it (even if you do not have line of sight), you can attempt to counter that spell as an immediate action. This otherwise follows the normal rules for counterspelling. If you successfully counter the spell, your spellguard watchtower ends.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c79c870d2e036da6.json",
+    "web": "https://codex.pipsprojects.com/#/e/c79c870d2e036da6"
+  },
+  "license": "OGL 1.0a"
+}

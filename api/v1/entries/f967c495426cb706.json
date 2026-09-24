@@ -1,0 +1,37 @@
+{
+  "id": "f967c495426cb706",
+  "name": "Undetectable Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 3,
+      "bard": 3,
+      "bloodrager": 3,
+      "druid": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "ranger": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "summoner": 3,
+      "witch": 3
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration [pact]; Level alchemist 3, antipaladin 3, bard 3, bloodrager 3, druid 3, cleric 3, inquisitor 3, ranger 3, shaman 3, sorcerer/wizard 3, summoner 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one spirit-bound creature\nDuration 24 hours\n\nDESCRIPTION\n\nYou cloak the presence of pact spirits within the target, making it difficult to detect the presence of any spirits that are bound to the target by divination spells such as detect pact spirits†. Undetectable spirit also prevents detection by such magic items as an exorcist’s revealing box. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast undetectable spirit. If you cast undetectable spirit on yourself or on an item currently in your possession, the DC is 15 + your caster level.\n\nIf cast on a creature, undetectable spirit wards the creature’s gear as well as the creature itself.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f967c495426cb706.json",
+    "web": "https://codex.pipsprojects.com/#/e/f967c495426cb706"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "85452f811edc2478",
+  "name": "Clear Terrain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "elementer": 2,
+      "invoker": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [earth]; Level druid 2, elementer 2, invoker 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a square of checkered cloth)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one 10-ft. square/level (S)\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\n\nThis spell subtly morphs terrain to make movement easier. The area of the spell is never considered difficult terrain due to natural impediments such as rubble, sand, or thick plant growth. Magically-induced difficult terrain, such as from an entangle spell, is unaffected by clear terrain.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/85452f811edc2478.json",
+    "web": "https://codex.pipsprojects.com/#/e/85452f811edc2478"
+  },
+  "license": "OGL 1.0a"
+}

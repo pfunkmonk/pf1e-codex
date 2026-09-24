@@ -1,0 +1,24 @@
+{
+  "id": "0a11f8db609f3d3e",
+  "name": "Call Lesser Demon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (calling); Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned demon of up to 5 HD\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nBy casting this spell, you summon a demon of 5 HD or less. You do not need to have the same alignment or general alignment as the demon summoned. This spell was specifically created by a powerful demon lord (some mention Demogorgon, others say Orcus) and allowed to pass into the hands of mortal spellcasters to summon demons of corruption so they might corrupt the caster and turn him toward chaos and evil.\n\nThe target creature gets a Will save. If the save succeeds, the creature resists the spell. If the save fails, the creature is immediately drawn to your location. A demon subjected to this spell receives a penalty to its save or SR roll based on the alignment of the caster and how far away from chaotic evil the caster is. For each step that the caster is removed from chaos (on the law-chaos axis), the demon receives a –1 penalty to its save and SR roll. For each step that the caster is removed from evil (on the good-evil axis), the demon receives a –1 to its save and SR roll.\n\nThese penalties stack. Thus, a demon summoned by a neutral evil caster receives a –1 penalty to its save and SR roll (neutral is one step removed from chaos on the law-chaos axis), while a demon summoned by a lawful good caster receives a –4 penalty to its save and SR roll (+2 for lawful and +2 for good).\n\nYou may ask the demon to perform one task for you, and the demon may ask for some service in return (note that demons of corruption never request anything in return, desiring only to use their whisper of madness ability). The more demanding the task requested, the greater the return favor asked by the summoned demon. This bargaining takes at least 1 round, so any actions by the demon begin the round after it arrives. If the character agrees to the service, the demon performs the task the character requested, reports back to the character afterward (if possible), and returns to its home plane. The character is honor-bound to perform the return favor. If the return favor is not completed as promised, the summoner is visited by an appropriate number of demons to slay him and take his soul.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a11f8db609f3d3e.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a11f8db609f3d3e"
+  },
+  "license": "OGL 1.0a"
+}

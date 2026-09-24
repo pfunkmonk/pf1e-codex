@@ -1,0 +1,27 @@
+{
+  "id": "5229ff4dedc2f2a5",
+  "name": "Ioun Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration instantaneous\nSaving Throw Fort negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure a small, super-dense ioun stone of a color and shape of your choosing and hurl it at your enemy.\n\nThe stone requires a ranged touch attack to hit. If the stone hits its target, it flashes out of existence in a burst of bright light and deals 1d6 hp bludgeoning, piercing or slashing damage (as you prefer) per caster level (maximum 5d6). Additionally, the target is blinded for 1 round. A successful Fortitude saving throw negates the blindness effect. Sightless creatures are immune to his secondary effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5229ff4dedc2f2a5.json",
+    "web": "https://codex.pipsprojects.com/#/e/5229ff4dedc2f2a5"
+  },
+  "license": "OGL 1.0a"
+}

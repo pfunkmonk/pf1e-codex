@@ -1,0 +1,29 @@
+{
+  "id": "fc2e45510d458d0e",
+  "name": "Dessicate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 3,
+      "elementer": 3,
+      "shaman": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School necromancy [water]; Level druid 3, elementer 3, shaman 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a fistful of sand)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels) Area 30-ft.-radius spread\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nA wave of entropic energy washes over the area, draining it of water. This has several effects, as outlined below.\n\nFirst, water (both liquid and mist) evaporates. The spell can evaporate up to 40 gallons of liquid water (about 5 cubic feet) per caster level. Any natural fog or mist in the area vanishes, and magical fog of 2nd level or lower (such as fog cloud) is likewise removed. Solid ice and snow evaporates at half the rate of liquid water.\n\nSecond, non-creature plant-life that is Medium or smaller withers and dies, including grass, shrubbery, and so on. Plant-life that is Large or bigger in the area lose some moisture, but it is not enough to fell most trees or larger plants without several castings.\n\nFinally, creatures affected by dessicate have moisture drawn from their bodies. Creatures must make a Fortitude save or become dehydrated (see the Starvation and Thirst section in Chapter 13 of the Pathfinder Roleplaying Game Core Rulebook), causing them to immediately take 1d6 points of nonlethal damage and become fatigued. This nonlethal damage and fatigue cannot be overcome until the creature sates its thirst. Plant creatures, water elementals, and other water-based creatures that fail their saving throw take 1d8 points of lethal damage per two caster levels (max 5d8).\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fc2e45510d458d0e.json",
+    "web": "https://codex.pipsprojects.com/#/e/fc2e45510d458d0e"
+  },
+  "license": "OGL 1.0a"
+}

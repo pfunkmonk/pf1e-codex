@@ -1,0 +1,28 @@
+{
+  "id": "066c9a1a095a759d",
+  "name": "Word of Moderate Healing, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 6,
+      "oracle": 6,
+      "druid": 7,
+      "inquisitor": 6,
+      "shaman": 6,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level bard 6, cleric/oracle 6, druid 7, inquisitor 6, shaman 6, witch 6\n\nThis spell functions like mass word of light healing except that it heals 2d4 + 1 per two caster levels to all creatures (maximum +15).\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/066c9a1a095a759d.json",
+    "web": "https://codex.pipsprojects.com/#/e/066c9a1a095a759d"
+  },
+  "license": "OGL 1.0a"
+}

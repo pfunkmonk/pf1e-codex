@@ -1,0 +1,33 @@
+{
+  "id": "f7d9161db4fd9fe4",
+  "name": "Restorative Sleep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 5,
+      "bard": 5,
+      "oracle": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "good",
+      "hope",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [good, hope, mind-affecting]; Level alchemist 5, bard 5, cleric/oracle 5, shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets one living creature per 3 levels\nDuration instantaneous (see text)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou send out a protective barrier to the sleep of your targets. Restful sleep counters nightmare and any other harmful spell that targets the creature through their sleep or dreams if the spell is of equal or lower level. If the detrimental spell is successfully countered or dispelled, the caster of the spell is stunned for 1 minute per caster level. Additionally, the target of the spell gains 1d10 extra hit points of healing and gains the effects of lesser heroism for 1 hour per caster level after they awaken.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f7d9161db4fd9fe4.json",
+    "web": "https://codex.pipsprojects.com/#/e/f7d9161db4fd9fe4"
+  },
+  "license": "OGL 1.0a"
+}

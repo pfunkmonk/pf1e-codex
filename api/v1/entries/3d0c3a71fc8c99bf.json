@@ -1,0 +1,24 @@
+{
+  "id": "3d0c3a71fc8c99bf",
+  "name": "Encrypt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget document touched\nDuration permanent (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou alter the writing on a scroll or piece of paper to make it unintelligible.\n\nProperly interpreting the encrypted text requires a Linguistics skill check (DC 25 + caster level). This spell is directly opposed by the decrypt spell, which can easily remove the encryption placed on the hidden message or information.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3d0c3a71fc8c99bf.json",
+    "web": "https://codex.pipsprojects.com/#/e/3d0c3a71fc8c99bf"
+  },
+  "license": "OGL 1.0a"
+}

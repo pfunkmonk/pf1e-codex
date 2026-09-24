@@ -1,0 +1,28 @@
+{
+  "id": "7153d5ed6fd0bc6b",
+  "name": "Deific Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 1,
+      "paladin": 1
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [see text]; Level antipaladin 1, cleric/oracle 1, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nEffect bolt of divine energy\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou launch a bolt of divine energy at your target. The nature of the divine bolt varies depending upon the deity or creed that grants you your powers. You must succeed on a ranged touch attack with the bolt to deal damage to the target. The bolt deals 1d6 damage plus 1d6 per 2 levels (max 5d6). Additionally, if hit, the target is limned in the energy imposing a -5 penalty on Stealth checks and a -1 penalty to AC for 1 round. The spell gains the alignment descriptor corresponding to your deity’s or creed’s alignment.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7153d5ed6fd0bc6b.json",
+    "web": "https://codex.pipsprojects.com/#/e/7153d5ed6fd0bc6b"
+  },
+  "license": "OGL 1.0a"
+}

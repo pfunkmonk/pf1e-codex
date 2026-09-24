@@ -1,0 +1,25 @@
+{
+  "id": "60fde06beb2abf2c",
+  "name": "Essence Jar",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy (necrophagy); Level cleric/oracle 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (an ornate jar worth at least 100 gp)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 day/level (D) (see text)\n\nDESCRIPTION\n\nYou transfer one of your vital organs into a protective jar, which serves as the focus for this spell. Your organ remains living and healthy as long as the jar remains unopened, and your body continues to function normally but enjoys a measure of protection based on which organ you chose to remove. Choose one of the following organs and its related effect.\n\nBrain: You gain a +8 bonus on saving throws to resist mind-affecting spells and effects. You are granted a save to negate such effects even if one is not normally allowed.\nHeart: You are immune to death effects, such as finger of death, as well as negative energy effects including a cleric’s negative energy channeling.\nLiver: You are immune to all poisons.\nLungs: You no longer need to breathe. You cannot drown or suffocate, and you can hold your breath indefinitely.\nStomach: You no longer need to eat or drink and cannot starve or dehydrate. You are immune to the nauseated and sickened conditions.\n\nYou may cast this spell as many times as you like, provided you have a separate jar for each organ you preserve. For each organ you have preserved beyond the first, your maximum hp decreases by 5. This damage can never be healed or overcome in any way until the spell duration ends or your organ returns to your body.\n\nYou can return your organ to your body by touching its containing jar at any time. At the end of the spell’s duration, the organ is automatically restored to your body. If the jar is opened before the spell duration ends, the organ still automatically returns to your body but you take 5d6 hp damage. This damage cannot be avoided, but the organ’s return to your body is instantaneous and cannot be interrupted.\n\nAnyone holding a jar containing one of your organs can cast spells on you as if they could see and touch you. You take a -2 penalty on saving throws to resist spells cast in this way.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/60fde06beb2abf2c.json",
+    "web": "https://codex.pipsprojects.com/#/e/60fde06beb2abf2c"
+  },
+  "license": "OGL 1.0a"
+}

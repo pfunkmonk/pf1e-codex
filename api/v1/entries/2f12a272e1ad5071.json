@@ -1,0 +1,30 @@
+{
+  "id": "2f12a272e1ad5071",
+  "name": "Doom Of Serpent Coils",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 4,
+      "shaman": 3,
+      "witch": 4
+    },
+    "desc": [
+      "evil",
+      "poison"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil, poison]; Level antipaladin 4, cleric/oracle 4, druid/shaman 3, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF, M (vial of poison)\n\nEFFECT\n\nRange personal and 10 ft. radius\nArea of Effect caster and living creatures within 10-foot radius\nDuration 1 round/level\nSaving Throw Fort negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou drink a bottle of venom or other poisons, and through the unholy power of your dark gods, you share the effects with all living things around you. The caster suffers the effects of the poison normally, but so do all those within a 10-ft. radius.\n\nThis poison deals 1d3 points of Constitution damage per round for 6 rounds. Poisoned creatures can make a Fortitude save each round to negate the damage and end the affliction. Once the caster makes such a saving throw (or otherwise neutralizes the poison), the spell ends immediately. Creatures already poisoned by the spell remain poisoned, however, and must make saving throws until they die, succeed on a saving throw, or negate the poison through other means.\n\nThe caster may choose to fail the saving throw each round rather than rolling. If he or she does so, all creatures within range suffer a -2 profane penalty to their Fortitude saving throw against this spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2f12a272e1ad5071.json",
+    "web": "https://codex.pipsprojects.com/#/e/2f12a272e1ad5071"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "532216c3e2357603",
+  "name": "Combat Competency",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "bloodrager": 1,
+      "oracle": 1,
+      "magus": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level antipaladin 1, bloodrager 1, cleric/oracle 1, magus 1, paladin 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou grant the creature greater insight into combat.\n\nThey gain a +1 competence bonus to their base attack bonus. If this would grant the target more iterative attacks, they gain the extra iterative attack. This cannot grant more iterative attacks after +20. This stacks with competence bonus to your attack rolls.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/532216c3e2357603.json",
+    "web": "https://codex.pipsprojects.com/#/e/532216c3e2357603"
+  },
+  "license": "OGL 1.0a"
+}

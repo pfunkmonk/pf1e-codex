@@ -1,0 +1,28 @@
+{
+  "id": "6894c632bb2b3f89",
+  "name": "Crown of Terror",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "paladin": 3
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [fear, mind-affecting]; Level cleric/oracle 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 60 ft.\nEffect a fiery halo\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure a fiery halo that continually sends forth blood-red beams across the area around you. Whenever you charge, attack, or cast an offensive spell, opponents within 60 feet who witness the action become shaken (if they have the same or more Hit Dice than your caster level) or frightened (if they have fewer Hit Dice than your caster level).\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6894c632bb2b3f89.json",
+    "web": "https://codex.pipsprojects.com/#/e/6894c632bb2b3f89"
+  },
+  "license": "OGL 1.0a"
+}

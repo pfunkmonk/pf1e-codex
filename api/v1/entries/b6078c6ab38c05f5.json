@@ -1,0 +1,28 @@
+{
+  "id": "b6078c6ab38c05f5",
+  "name": "Spirit Needle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [metal]; Level magus 6, sorcerer/wizard 6, witch 6\n\nCasting Time 1 standard action\n\nComponents V, S, M (a metal needle)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one incorporeal creature\n\nDuration 1 round/level\n\nSaving Throw none; Spell Resistance yes\n\nMetal: Spells with this descriptor include those that directly create, utilize, or manipulate metal in some manner or conjure creatures composed of metal. Such spells are considered to belong to the Metal element (for geomancers) and the metal elemental school (for metal elementalists).\n\nYou fling an empowered needle at an incorporeal creature. You must succeed at a normal ranged attack.\n\nOn a hit, the incorporeal creature loses all the benefits of being incorporeal and is unable to move from the spot in which they were hit. This does not restrict their actions otherwise, except they are unable to use any supernatural or spell-like abilities to move or change its form. The incorporeal creature cannot remove the needle, but another creature can as a standard action.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6078c6ab38c05f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6078c6ab38c05f5"
+  },
+  "license": "OGL 1.0a"
+}

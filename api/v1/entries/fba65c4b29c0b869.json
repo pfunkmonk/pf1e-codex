@@ -1,0 +1,28 @@
+{
+  "id": "fba65c4b29c0b869",
+  "name": "Frigid Flurry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, water]; Level druid/shaman 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 120 ft.\nArea a line up to 120 feet.\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou complete the spell by breathing out a cold breath that freezes the ambient moisture in the air into jagged shards. The flurry deals 1d6 damage per caster level (max 20d6) half of which is cold damage and the other half is slashing damage that is treated as magical for DR purposes. Allies within the line are left unaffected and enemies within the line may make a Reflex save to halve the damage.\n\nAdditionally the cold snap carries you to any point along the line of affect if you choose to move and this movement does not provoke attacks of opportunity. This spell and the movement cannot pass through solid barriers.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fba65c4b29c0b869.json",
+    "web": "https://codex.pipsprojects.com/#/e/fba65c4b29c0b869"
+  },
+  "license": "OGL 1.0a"
+}

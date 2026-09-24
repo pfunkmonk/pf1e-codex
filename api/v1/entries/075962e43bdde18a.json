@@ -1,0 +1,26 @@
+{
+  "id": "075962e43bdde18a",
+  "name": "Soul Drinking",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 7
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid\nDuration instantaneous\nSaving Throw spell Fortitude, see below; Spell Resistance yes\n\nDESCRIPTION\n\nA howling wind blows between you and a target within range, rapidly aging it.\n\nThe target receives two Fortitude saves. If both saves succeed, the target is unaffected, and the spell is wasted.\n\nIf only one succeeds, the target ages by one category, and it permanently loses 1 Strength, Dexterity, and Constitution point. If both saving throws fail, the target ages one category and suffers the mentioned ability damage; additionally, the caster gains 20 temporary hp and permanently gains 1 of the 3 lost ability points chosen at random as an inherent bonus.\n\nIf this spell is cast on an undead creature, the caster loses 1 point of Strength, Dexterity, and Constitution permanently, and the undead gains 20 temporary hp. If the caster is undead, it receives a Fortitude save to avoid losing ability score points.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/075962e43bdde18a.json",
+    "web": "https://codex.pipsprojects.com/#/e/075962e43bdde18a"
+  },
+  "license": "OGL 1.0a"
+}

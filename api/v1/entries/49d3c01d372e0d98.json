@@ -1,0 +1,30 @@
+{
+  "id": "49d3c01d372e0d98",
+  "name": "Word of Moderate Healing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 3,
+      "inquisitor": 2,
+      "paladin": 3,
+      "ranger": 3,
+      "shaman": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level bard 2, cleric/oracle 2, druid 3, inquisitor 2, paladin 3, ranger 3, shaman 2, witch 2\n\nThis spell functions like word of light healing except except that it cures 2d4 points of damage plus 1 per two caster level (maximum +5).\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/49d3c01d372e0d98.json",
+    "web": "https://codex.pipsprojects.com/#/e/49d3c01d372e0d98"
+  },
+  "license": "OGL 1.0a"
+}

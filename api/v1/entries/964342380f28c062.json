@@ -1,0 +1,27 @@
+{
+  "id": "964342380f28c062",
+  "name": "Electric Arc",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one primary target plus one additional target/3 levels (each of which must be within 15 ft. of the primary target)\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell causes an arc of lightning to leap from your fingers, shocking a number of enemies nearby. It deals 1d6 points of electricity damage per caster level (maximum 10d6). For every additional target the discharge arcs to, reduce the number of damage dice by half (rounded down). Therefore, at 9th level, your electric arc deals 9d6 points of electricity damage to the primary target, then 4d6 points of electricity damage to a secondary target, then 2d6 points of electricity damage to a third target, and 1d6 to a fourth.\n\nEach target can attempt a Reflex saving throw for half damage. The Reflex DC to halve the damage of the secondary bolts is 2 lower than the DC to halve the damage of the primary bolt. You may choose secondary targets as you like, but they must all be within 15 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/964342380f28c062.json",
+    "web": "https://codex.pipsprojects.com/#/e/964342380f28c062"
+  },
+  "license": "OGL 1.0a"
+}

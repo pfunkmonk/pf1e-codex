@@ -1,0 +1,25 @@
+{
+  "id": "a03ed35803058198",
+  "name": "Black Exhalation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "druid": 6,
+      "wizard": 6
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, druid 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 5 minutes\nComponents V, S, M (a piece of flesh from a plague victim)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea cone\nDuration 1 round/level (Discharge)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe caster exhales a cone-shaped cloud of deadly spores. Those in the cloud’s area of effect must succeed on a Fortitude save or suffer 1d3 points of Intelligence drain as the spores spread through the brain and nervous system. Victims must make a Fortitude save each subsequent round up to the spell’s maximum duration or continue to lose Intelligence. The cloud is infectious only on the round that it is discharged.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a03ed35803058198.json",
+    "web": "https://codex.pipsprojects.com/#/e/a03ed35803058198"
+  },
+  "license": "OGL 1.0a"
+}

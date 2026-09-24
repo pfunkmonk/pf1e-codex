@@ -1,0 +1,26 @@
+{
+  "id": "ac3937affaadca53",
+  "name": "Secure Seal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "special",
+    "sr": "see text",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration [stronghold]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (gold dust worth 100 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one door, chest, or portal, up to 30 sq. ft./level in size\nDuration permanent\nSaving Throw see text; Spell Resistance see text\n\nDESCRIPTION\n\nThis spell affects a portal or opening within your stronghold as arcane lock, but it additionally creates a magical trap on it. If the secure seal is forced open by any means, it explodes in a 20- foot radius burst, dealing 1d4 points of force damage per caster level (maximum 10d4). This burst does not harm the walls, floor, windows, or any other permanent furnishings or features of your stronghold. Spell resistance applies against this damage, and a Reflex save is allowed for half damage. The secure seal can be detected as a magical trap with a DC 29 Perception check, and a successful DC 29 Disable Device check suppresses its explosive burst feature for 10 minutes. After a secure seal explodes, the spell ends. You can freely pass through your own secure seal without triggering its explosion.\n\nYou can cast this spell outside your stronghold, but its duration is reduced to 1 day per caster level.\n\nSecure Seal, Greater\n\nSchool abjuration [stronghold]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (gold dust worth 500 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one door, chest, portal or opening, up to 30 sq. ft./level in size\nDuration permanent\nSaving Throw see text; Spell Resistance see text\n\nDESCRIPTION\n\nThis spell functions as secure seal, but it can be cast even on an opening without a door or similar barrier, such as an archway, alleyway, corridor, or similar opening, preventing creatures from passing through the sealed location. If cast upon an actual door, gate, chest, or similar object, it increases the object’s hardness by 10, its break DC by 5, and increases its hit points by 5 per caster level. The warded object is always entitled to make saving throws as if it were a magic item, using your caster level to determine its base saving throw bonuses, and it gains a further +4 resistance bonus on all saving throws. A greater secure seal cannot be breached by a knock spell. It can be removed with dispel magic, but the caster level check to dispel it is increased to 15 plus your caster level.\n\nLike a secure seal, if the portal or opening guarded by this spell is destroyed or forced open, it explodes in a 20-foot-radius burst, dealing 1d6 points of force damage per caster level (maximum 20d6). A greater secure seal can be detected as a magical trap with a DC 32 Perception check, and a successful DC 32 Disable Device check suppresses its explosive ability for 10 minutes. Unlike a secure seal, this explosion does not end the spell, though it cannot explode again until 24 hours have passed.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ac3937affaadca53.json",
+    "web": "https://codex.pipsprojects.com/#/e/ac3937affaadca53"
+  },
+  "license": "OGL 1.0a"
+}

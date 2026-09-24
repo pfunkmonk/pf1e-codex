@@ -1,0 +1,25 @@
+{
+  "id": "b4bb62fcb91fdc6d",
+  "name": "Prison Without Walls",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "yes (object)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (dimensional); Level magus 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a 5-ft. length of silk rope)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes (object)\n\nDESCRIPTION\n\nWith a series of sweeping arm gestures, you attempt an incorporeal ranged touch attack (although you do not become incorporeal) to tether a target to a fixed object in hyperdimensional space. Your incorporeal ranged touch attack ignores the target’s cover bonuses, shield, natural armor, and most armor, but it does not ignore armor bonuses granted by force effects such as mage armor, bracers of armor, and elf lord’s battle armor.\n\nWhile tethered, the target cannot move farther than 100 ft. minus 5 ft. per caster level (minimum 5 ft.) from its current position. Since the tether exists entirely in another dimension, the target cannot sever it directly.\n\nHowever, a successful DC 23 Escape Artist check, a successful DC 23 Strength check, or any form of dimensional travel frees it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b4bb62fcb91fdc6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/b4bb62fcb91fdc6d"
+  },
+  "license": "OGL 1.0a"
+}

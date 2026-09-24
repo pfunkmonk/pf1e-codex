@@ -1,0 +1,17 @@
+{
+  "id": "eadcad2ab8e35ac7",
+  "name": "Plasmin",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Alien Bestiary Companion",
+  "book": "Alien Bestiary Companion",
+  "facets": {
+    "bk": "Alien Bestiary Companion"
+  },
+  "body": "PLASMIN\nCR 3\n\nThis strange entity is formed from interwoven, translucent threads of an unusual multicolored material.\n\nXP 800\nN Medium outsider (elemental, extraplanar, fire)\nInit +2; Senses darkvision 60 ft.; Perception +8\n\nDEFENSE\n\nAC 16, touch 13, flat-footed 13 (+2 Dex, +1 dodge, +3 natural)\nhp 35 (5d10+10)\nFort +3, Ref +8, Will +4\nImmune electricity, elemental traits, fire\nWeaknesses vulnerable to cold\n\nOFFENSE\n\nSpeed 50 ft.\nMelee slam +9 (1d6+1 plus plasma burn)\nSpecial Attacks plasma burn\n\nSTATISTICS\n\nStr 13, Dex 18, Con 14, Int 5, Wis 11, Cha 10\nBase Atk +5; CMB +6; CMD 20\nFeats Dodge, Mobility, Spring Attack, Weapon FinesseB\nSkills Acrobatics +12, Fly +9, Perception +8, Stealth +12\nLanguages Auran, Ignan\nSQ zero-G propulsion\n\nSPECIAL ABILITIES\n\nPlasma Burn (Ex)\n\nThe energized plasma of its body clings to the target for 1d4 rounds (DC 14 Reflex negates), dealing an additional 1d4 points of damage each round. This damage is half electricity damage and half fire damage. If the target fails its save on a critical hit by the plasmin, it can choose to double this burn damage or deal normal burn damage and cause the target to be staggered for as long as the burn continues. The target can attempt a DC 14 Fortitude save each round at the end of its turn to end the staggered effect; this does not require an action. As a full-round action, the target can extinguish the burning plasma with a successful DC 14 Reflex save, with a +4 bonus for dropping prone and rolling on the ground. Creatures striking the plasmin with natural weapons, melee touch attacks, or unarmed strikes must succeed on a Reflex save or be affected by this ability as if the plasmin had struck them. The save DC is Constitution-based.\n\nZero-G Propulsion (Ex)\n\nA plasmin gains a fly speed of 50 ft. (average maneuverability) in space or similar zero-gravity environments. They cannot fly within gravity, but they can buffer the effects of gravity allowing them to feather fall at will (self only).\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, pair, or cluster (3–8)\nTreasure none\n\nPlasmin are strange beings formed of congealed stellar energies, often birthed during solar flares that rupture planar boundaries along the edges of the Elemental Planes and cast residual sentient energetic matter into the void.\n\nAlien Bestiary Companion © 2018, Legendary Games; Lead Designer: Jason Nelson. Authors: Anthony Adam, Kate Baker, John Bennet, Eytan Bernstein, Robert Brookes, Russ Brown, Duan Byrd, Jeff Dahl, Robyn Fields, Joel Flank, Matt Goodall, Robert J. Grady, Jim Groves, Steven T. Helt, Thurston Hillman, Eric Hindley, Tim Hitchcock, Nick Hite, Daniel Hunt, Mike Kimmel Marshall, Isabelle Lee, Jeff Lee, Lyz Liddell, Jason Nelson, Richard Pett, Tom Phillips, Alistair J. Rigg, Alex Riggs, Wendall Roy, Mike Shel, Neil Spicer, Todd Stewart, Russ Taylor, Rachel Ventura, Mike Welham, George Loki Williams, Scott Young.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eadcad2ab8e35ac7.json",
+    "web": "https://codex.pipsprojects.com/#/e/eadcad2ab8e35ac7"
+  },
+  "license": "OGL 1.0a"
+}

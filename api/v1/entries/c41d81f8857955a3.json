@@ -1,0 +1,27 @@
+{
+  "id": "c41d81f8857955a3",
+  "name": "Sparkfist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3,
+      "summoner": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 3, inquisitor 3, magus 3, sorcerer/wizard 3, summoner 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of copper shavings)\n\nEFFECT\n\nRange touch\nTarget one construct\nDuration 1 min./level\n\nDESCRIPTION\n\nThe spell causes a construct’s fists to transform into rugged, unpolished metal, growing to roughly the size of a humanoid’s head, and crackle with electricity.\n\nWhile under this spell’s effect, the target construct’s fists deal 1d10 hp bludgeoning damage (1d6 hp for Small constructs) and 1d8 hp electricity damage. Treat the fists as secondary natural weapons. If applicable, the target’s unarmed strikes do not provoke attacks of opportunity while this spell is active.\n\nTypically, only gearforged can choose this spell, although other appropriate races may choose it at the GM’s discretion.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c41d81f8857955a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/c41d81f8857955a3"
+  },
+  "license": "OGL 1.0a"
+}

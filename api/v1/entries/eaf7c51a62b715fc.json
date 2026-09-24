@@ -1,0 +1,27 @@
+{
+  "id": "eaf7c51a62b715fc",
+  "name": "Ferox",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 9,
+      "druid": 9,
+      "shaman": 9,
+      "wizard": 9,
+      "witch": 9
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Petersen Games"
+  },
+  "body": "School transmutation; Level cleric 9, druid 9, shaman 9, sorcerer/wizard 9, witch 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/2 levels\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target’s Strength score increases to 30 or the highest among all enemies within 60 feet, whichever is lower. This spell has no effect if the subject has no enemies within 60 feet. Its bonus adjusts at the start of its turn each round to reflect the highest Strength among foes within 60 feet. This spell has no effect on creatures with Strength scores of 30 or greater.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eaf7c51a62b715fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/eaf7c51a62b715fc"
+  },
+  "license": "OGL 1.0a"
+}

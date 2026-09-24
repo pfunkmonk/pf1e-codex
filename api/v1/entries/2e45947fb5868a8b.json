@@ -1,0 +1,29 @@
+{
+  "id": "2e45947fb5868a8b",
+  "name": "Armor of Shadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "death mage": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "darkness",
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [darkness, shadow]; Level death mage 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target is covered in armor that seems to eat light.\n\nThe target gains a +4 deflection bonus to their AC.\n\nThis AC bonus increases by +1 for every three levels above 7th, to a maximum of +8 at 19th level. This armor does not impede sight or lower light levels, but it grants the target darkvision out to 60 ft. if they do not already possess it. The target also gains an additional +2 bonus to AC and to their saves against good or light effects. If the target is undead they also gain a +4 channel resistance.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e45947fb5868a8b.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e45947fb5868a8b"
+  },
+  "license": "OGL 1.0a"
+}

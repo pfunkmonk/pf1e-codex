@@ -1,0 +1,32 @@
+{
+  "id": "667525bfb799bd8b",
+  "name": "Haunted Ruin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 4,
+      "cleric": 4,
+      "occultist": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "fear",
+      "stronghold"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School illusion (glamer) [fear, stronghold]; Level antipaladin 4, bard 4, cleric 4, occultist 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea see text\nDuration 10 minutes/level (D)\nSaving Throw Will disbelief and Will negates (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou shroud your stronghold in a macabre illusion, causing it to appear as a grisly abattoir, a place of despair and massacre. This functions like mirage arcana, but the effect is always gruesome and unsettling, with a look of disuse and abandonment.\n\nIllusory bloodstains are everywhere, as are hacked remains, broken weapons, scorch marks, and eerie noises like scratching scavengers, moving shadows, and distant, bloodcurdling wails and moans.\n\nThe distraction caused by the haunted ruin causes enemies to take a -5 penalty on Perception and Survival checks unless they successfully disbelieve the illusion. In addition, creatures spending more than 1 minute within the haunted ruin must succeed on a Will save once per minute or become shaken as long they remain within it and for 1d4 rounds thereafter. Creatures failing their save take an additional -2 penalty on saving throws against fear effects as long as they remain shaken or otherwise afraid.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/667525bfb799bd8b.json",
+    "web": "https://codex.pipsprojects.com/#/e/667525bfb799bd8b"
+  },
+  "license": "OGL 1.0a"
+}

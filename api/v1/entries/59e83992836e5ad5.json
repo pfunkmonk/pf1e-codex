@@ -1,0 +1,24 @@
+{
+  "id": "59e83992836e5ad5",
+  "name": "Clot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M\n\nEFFECT\n\nRange touch\nTarget one being\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause a being’s blood to solidify inside its body, inflicting damage on internal organs as blood flow slows. The being suffers 1d6 points of damage per caster level (12d6 maximum). If a being suffers more than 50 total points of damage from a single casting of the spell, it must make a separate Fort save or suffer 2d6 additional points of damage from internal organ damage.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/59e83992836e5ad5.json",
+    "web": "https://codex.pipsprojects.com/#/e/59e83992836e5ad5"
+  },
+  "license": "OGL 1.0a"
+}

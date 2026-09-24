@@ -1,0 +1,29 @@
+{
+  "id": "c004871b509f29de",
+  "name": "Shout of the Cold North",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "cold",
+      "sonic"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, sonic]; Level bard 4, magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nEffect cone-shaped burst\nDuration instantaneous\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou let out a powerful shout empowered by the icy-cold North. All creatures within the cone take 1d6 damage per level (maximum 15d6). Half of this damage is cold, the other is sonic. A successful Reflex save halves this damage. Additionally, any creature who fails their save must make a Fortitude save or be dazed for 1 round.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c004871b509f29de.json",
+    "web": "https://codex.pipsprojects.com/#/e/c004871b509f29de"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ba03875df4e59f57",
+  "name": "Snap The Leash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment [mind-affecting]; Level druid/shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (used leash or similar object)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou remove the shackles of domestication from a creature’s mind, so that it entirely forgets being broken or trained. Mounts refuse all riders, and other animals forget any tricks learned and obedience taught.\n\nMemories are not affected, so creatures may remain drawn to those who have treated them kindly and aggressive toward those who have harmed them. The animal can be domesticated again, but the trainer must start from scratch.\n\nThis spell is only partly effective against animals with more than 2 Intelligence, animal companions, familiars, and paladin mounts. Although the spell removes any tricks they know, the bond between animal and master is otherwise unaffected.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ba03875df4e59f57.json",
+    "web": "https://codex.pipsprojects.com/#/e/ba03875df4e59f57"
+  },
+  "license": "OGL 1.0a"
+}

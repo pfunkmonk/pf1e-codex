@@ -1,0 +1,29 @@
+{
+  "id": "29882b0bc985cb8b",
+  "name": "Angelic Seal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 7,
+      "inquisitor": 6,
+      "paladin": 4,
+      "wizard": 7
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration [good]; Level cleric/oracle 7, inquisitor 6, paladin 4, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M (5,000 gp worth of powdered silver, gold, and gemstones), DF\n\nEFFECT\n\nRange touch\nEffect a hemisphere with a diameter of 10 ft. per caster level, or up to one 10 ft. cube per caster level\nDuration permanent; see text\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou ward a location with angelic power to prevent the entry of evil. During the casting, you inscribe an angelic seal on a solid surface—such as the ground, floor, wall, or ceiling—and infuse the area with holy energy. Outdoors, this creates a protective hemisphere in a radius centered on the seal. Indoors or underground, the seal conforms to the shape of the building, including floors, ceilings, walls, and doorways, up to the maximum area allowed. If the structure is too large to be covered by the spell’s area, you may shape the area as you see fit.\n\nEvil creatures cannot enter the warded area using extradimensional travel, as per the forbiddance spell. Any evil creature attempting to enter the area warded by the seal, or coming into physical contact with doors, windows, or walls under its effects, immediately takes 10d6 hp damage, is flung back 5 ft. for every 5 hp damage taken, is knocked prone, and is stunned for 1 round. a successful Fortitude save halves the damage and negates the stunning effect. Evil creatures with the extraplanar subtype must also make a Will save or be forced back to their home plane. If the angelic seal is visible to such a creature, the DC of the save increases by 4.\n\nThe angelic seal is well-guarded against physical attacks, and it resists any damage done by weaponry, unless that weapon has the holy property or is good-aligned, whether manufactured or a natural weapon. a successful greater dispel magic, limited wish, miracle, or wish spell can remove an angelic seal. Also, any Lawful Good outsider can remove the seal as a standard action by simply touching the seal and speaking a word.\n\nAngelic Seal, Greater\n\nSchool abjuration [good]; Level cleric/oracle 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M (10,000 gp worth of powdered gold, mithral, and gemstones), DF\n\nEFFECT\n\nRange touch\nEffect up to one 10-ft. cube per caster level\nDuration permanent; see text\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis powerful spell defends against the greatest evils, warding a location with angelic power. It acts in all ways as an angelic seal with the following exceptions: Damage suffered by an evil creature touching or entering the warded area is 20d6 hp; evil, extraplanar creatures that fail their Fortitude saves are instantly killed, and they only make a Will save against being forced back to their home plane if they survive the Fortitude save. Only a miracle or wish can remove a greater angelic seal magically. The physical means are identical to the less powerful version of the spell.\n\nAlso, a greater angelic seal can instead be focused inward, trapping any evil creatures within the area of effect at the time of casting. Any attempts to leave the area trigger the spell’s effects.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/29882b0bc985cb8b.json",
+    "web": "https://codex.pipsprojects.com/#/e/29882b0bc985cb8b"
+  },
+  "license": "OGL 1.0a"
+}

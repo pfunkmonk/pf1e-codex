@@ -1,0 +1,24 @@
+{
+  "id": "f7a1d2b41cd06d19",
+  "name": "Master Key",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 3,
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (fire); Level machinesmith 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (an iron cylinder packed with explosive material)\n\nEFFECT\n\nRange touch\nDuration 5 rounds or until discharged\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nThis spell attaches a small but powerful explosive device to a door, wall, or other object. The object must be Small or larger, or must be a part of a larger object such as the bars of a jail cell window. The device is too cumbersome to attach to living creatures. This device detonates when its duration elapses or when the caster discharges the spell as a swift action. When it explodes, the device emits a 15-foot cone towards the object to which it is attached, dealing 1d6 piercing and fire damage per caster level (maximum 15d6) to the object.\n\nThis damage ignores half of the object’s hardness. If the explosion destroys the object, the cone continues outward, dealing damage to creatures beyond it (Reflex save for half damage).\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f7a1d2b41cd06d19.json",
+    "web": "https://codex.pipsprojects.com/#/e/f7a1d2b41cd06d19"
+  },
+  "license": "OGL 1.0a"
+}

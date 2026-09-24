@@ -1,0 +1,26 @@
+{
+  "id": "10a0e21a23d62211",
+  "name": "Mage Armor, Shadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration,",
+    "lv": {
+      "magus": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration, Illusion; Level magus 2, sorcerer/wizard 2, summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw Will (negates, harmless); Spell Resistance no\n\nDESCRIPTION\n\nThis spell grants a +4 armor bonus to the recipient’s AC and is a force effect that applies to incorporeal attacks as mage armor. In addition the armor takes on a black smoky appearance, granting a +4 enhancement bonus to stealth checks and the recipient gains total concealment in dim light unless the observer has darkvision or other means of seeing clearly in shadows in which case the recipient is considered to have partial concealment. Those with blindsight or tremor sense are not affected by the concealment properties of the armor.\n\nNote:\n\nThis spell lists two different schools. The general rules regarding this issue are as follows:\n\nIf a school is listed, a specialist wizard may cast the spell as one of his daily bonus spells at the level indicated.\nThe Spell Focus feat does grant the effective DC bonus for the spell if one of the schools listed includes the focus feat chosen.\nIf one of the schools listed is an opposition school, the caster must pay the price of two spell slots to prepare the spell.\nIf both schools listed encompasses the caster’s school of specialization and his school of opposition then the spell may be used to occupy the bonus spell slot, but an additional slot must be used as well.\n\nThis spell is built upon the standard mage armor spell. As a result the benefits of these spells do not stack with each other. If the spell caster casts another mage armor (or mage armor variant spell) while one is currently active, the new spell replaces the active spell and any effects from the previous spell are ended immediately. Any spell that grants a force-based armor bonus is considered a mage armor (or variant) spell for purposes of this restriction.\n\nSpell Innovations, Mage Armor © 2014, The Knotty-Works; Author: John Buckley.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10a0e21a23d62211.json",
+    "web": "https://codex.pipsprojects.com/#/e/10a0e21a23d62211"
+  },
+  "license": "OGL 1.0a"
+}

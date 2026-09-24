@@ -1,0 +1,27 @@
+{
+  "id": "cb358b82965b35ca",
+  "name": "Inferno",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [fire]; Level druid 5, shaman 5\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration 1 round/2 levels\n\nSaving Throw Fort negates and Reflex partial; see text; Spell Resistance yes\n\nYou designate a creature and it bursts into flame taking 1d6 fire damage per 2 caster levels unless it succeeds on a Fortitude save. Each round thereafter the target must make a Reflex save or take 1d6 less fire damage than the previous round. For example, if the first round dealt 4d6 fire damage, the second round would deal 3d6 fire damage. A successful save, Fortitude or Reflex, halves the damage taken in the current round and ends the effect. Taking a full action to roll on the ground grants a +2 circumstance bonus to the Reflex save that turn.\n\nLeaping into enough water to submerse the target or magically putting out flames will douse the flames.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb358b82965b35ca.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb358b82965b35ca"
+  },
+  "license": "OGL 1.0a"
+}

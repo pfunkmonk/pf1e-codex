@@ -1,0 +1,27 @@
+{
+  "id": "40e85f999b83412f",
+  "name": "Barbaric Yawp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [sonic]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea cone\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nWhen the caster releases his barbaric yawp, all creatures (of 6 or fewer HD) in a cone area in front of the caster must make a Fortitude saving throw or be stunned for one round. A stunned creature drops everything held, can’t take actions, takes a –2 penalty to AC, and loses its Dexterity bonus to AC (if any).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40e85f999b83412f.json",
+    "web": "https://codex.pipsprojects.com/#/e/40e85f999b83412f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "34b8d3f96dbfae14",
+  "name": "Blessed Warmth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "paladin": 3
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched (see text)\nDuration 10 min./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou draw a shaft of shimmering light down on the creature touched, granting it cold resistance 10. For every level above 7th, you can create another shaft of light to ward another creature (maximum of 14 shafts at 20th level). Warded creatures must remain within 20 feet of you or they lose the benefit of this spell and the shaft of light warding them winks out (though you can create another shaft to protect the creature if it moves back within range).\n\nNote: Blessed warmth overlaps (and does not stack with) protection from energy (cold) and resist energy (cold).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34b8d3f96dbfae14.json",
+    "web": "https://codex.pipsprojects.com/#/e/34b8d3f96dbfae14"
+  },
+  "license": "OGL 1.0a"
+}

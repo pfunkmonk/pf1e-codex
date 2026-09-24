@@ -1,0 +1,27 @@
+{
+  "id": "7014075c3fc6e149",
+  "name": "Earth’s Cold",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [cold]; Level druid 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius emanation\nDuration 1 round/level (D)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the earth to become arctic cold. Each round on your turn, including the turn the spell is cast, all creatures in contact with stone or earth within the area take 2d6 cold damage. A creature with the earth subtype instead takes 4d6 cold damage. A Fortitude save halves the damage taken in the round.\n\nAdditionally, the temperature in the area is dropped by 2 bands for the purposes of weather and temperature effects. If the area was already cold, the damage increases by 1 per dice rolled.\n\nHD compared to your CL\tEffect\n9 HD or more under your CL\tUnconscious for 10 minutes\n6 to 8 HD under your CL\tDazed for 2d4 rounds, then confused for 1 round/level\n1 to 5 HD under your CL\tDazed for 1 round, then confused for 1 round/level\nEqual to your CL Confused for 1 round/level\tGreater than your CL Confused for 1 round\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7014075c3fc6e149.json",
+    "web": "https://codex.pipsprojects.com/#/e/7014075c3fc6e149"
+  },
+  "license": "OGL 1.0a"
+}

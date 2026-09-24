@@ -1,0 +1,27 @@
+{
+  "id": "b60da89d0cbfd11a",
+  "name": "Armored Shell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "creation",
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [creation, earth]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a rivet)\n\nEFFECT\n\nRange touch\nTarget personal\nDuration 1 hr./level\n\nDESCRIPTION\n\nA suit of heavy armor appears around you, granting you a +8 bonus to AC, but applying a 40% chance of arcane spell failure, a –5 armor check penalty, and the normal speed reduction for wearing heavy armor. The spell fails if you are already wearing any kind of armor when you cast it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b60da89d0cbfd11a.json",
+    "web": "https://codex.pipsprojects.com/#/e/b60da89d0cbfd11a"
+  },
+  "license": "OGL 1.0a"
+}

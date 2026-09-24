@@ -1,0 +1,24 @@
+{
+  "id": "dee78e821726e407",
+  "name": "Dust to Dust",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "druid": 2,
+      "ranger": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level druid 2, ranger 2\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M, (fine powder made of exotic dried seeds worth at least 250 gp)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nNon-animated corpses that the caster touches are instantly turned into a fine dust. The corpse can then no longer be magically animated or otherwise become undead. Dust to dust does not interfere with resurrection.\n\nA non-animated corpse gets no saving throw. The spell has no effect on living matter. If the spell is cast upon a skeleton, zombie, ghoul, or any other corpse that has been raised as undead, the target must succeed on a Fortitude save. If it fails, it is instantly turned into dust, as detailed above.\n\nIf it succeeds, it suffers 1d4+1/level (maximum +10) points of damage. If the spell inflicts enough damage to destroy the undead corpse, the corpse turns to a fine dust and can no longer be animated or raised again as detailed above. If the spell does not inflict enough damage to destroy the undead corpse, the spell has no further effect.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dee78e821726e407.json",
+    "web": "https://codex.pipsprojects.com/#/e/dee78e821726e407"
+  },
+  "license": "OGL 1.0a"
+}

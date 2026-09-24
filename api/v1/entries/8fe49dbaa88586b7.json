@@ -1,0 +1,27 @@
+{
+  "id": "8fe49dbaa88586b7",
+  "name": "Distill Cure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "alchemist": 1,
+      "cleric": 1,
+      "druid": 1,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation; Level adept 1, alchemist 1, cleric 1, druid 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one non-magical cure\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou dramatically increase the effectiveness of a non-magical consumed item which provides a bonus to Fortitude saves against disease, nausea, sickness, or poison (such as antiplague, antitoxin or soothe syrup). Whenever the user would attempt a saving throw with a bonus due to the cure, the user rolls the saving throw twice and takes the higher result.\n\nAs long as the item is consumed within the spell’s duration, the improved effects continue until the end of the alchemical cure’s normal duration.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8fe49dbaa88586b7.json",
+    "web": "https://codex.pipsprojects.com/#/e/8fe49dbaa88586b7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "4d5c5520cc8f8590",
+  "name": "Constant Heat",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "druid": 1,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level bard 2, druid 1, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, F (fist-sized piece of igneous rock)\n\nEFFECT\n\nRange touch\nTarget 1 fist-sized piece of igneous rock\nDuration permanent\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell enchants a piece of igneous rock to unlock some of the heat that went into its creation, warming the surrounding area through convection.\n\nWhen a fist-sized chunk of igneous rock is subjected to this spell, it glows red-hot and radiates heat sufficient to warm a 20-cubic-foot area to 70 degrees. If the rock is touched directly, it causes 1d4 points of fire damage per round of contact.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d5c5520cc8f8590.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d5c5520cc8f8590"
+  },
+  "license": "OGL 1.0a"
+}

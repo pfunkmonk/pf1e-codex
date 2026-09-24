@@ -1,0 +1,28 @@
+{
+  "id": "eda7f72dd3326a2a",
+  "name": "Dust Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "druid": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation)[earth]; Level bard 2, druid 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of dust)\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nArea 20‑ft.‑radius‑spread\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA swirling mass of thick dust spreads out from the point you designate. This dust severely limits visibility, creates a constant droning noise, and blocks scent, granting concealment against all senses (including special senses such as tremorsense) for anything entirely within its area (but not to Large or bigger creatures and objects only partially within the spell’s area). Creatures with concealment gain a 20% miss chance against successful attacks and can make Stealth checks, as outlined in the normal rules for concealment. This spell cannot be negated by high winds, and is fully functional underwater.\n\nYou may choose to double the spell’s radius when cast, at the cost of reducing its duration to one round/2 levels.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eda7f72dd3326a2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/eda7f72dd3326a2a"
+  },
+  "license": "OGL 1.0a"
+}

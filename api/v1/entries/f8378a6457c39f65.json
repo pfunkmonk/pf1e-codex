@@ -1,0 +1,28 @@
+{
+  "id": "f8378a6457c39f65",
+  "name": "Hidden in The Void",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "psychic": 9,
+      "shaman": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [void]; Level psychic 9, shaman 9, sorcerer/wizard 9\n\nCasting Time 2 hours\n\nComponents V, S, DF\n\nRange personal\n\nEffect creates a personal anti-magic field\n\nDuration up to a number of hours equal to your spellcasting ability modifier or until discharged (D); see text\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nThrough centering yourself on the nothingness of the Void, you are sheathed with the Void and your existence slips the conceptual perception of certain magic.\n\nWhile you are cloaked by this spell, you are effectively invisible and undetectable to almost any magical alarm, barrier, symbol, trap, or ward created or maintained by spells (or spell-like abilities) of lower spell level than hidden in the void. Such spells (including those with the void descriptor) simply fail to react or trigger to your presence in any way for this effect.\n\nAny other spellcaster other than you (including an allied spellcaster) attempting to target you with a spell of lower spell level than hidden in the void must first succeed on an opposed mental ability score check (both of you use your highest ability score modifier respectively on the opposed roll). If that spellcaster wins the opposed check, their spell may target you as normal.\n\nIf you win, their spell fails to have any effect upon you as if they failed to cast the spell. Spells with the [void] descriptor are not affected by this effect.\n\nHidden in the void is discharged the first time a spell is successfully cast upon you by another spellcaster (including area of effect spells), unless you expend a ki point. You may only expend 1 ki point per round in this way to prevent the discharge of this spell.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f8378a6457c39f65.json",
+    "web": "https://codex.pipsprojects.com/#/e/f8378a6457c39f65"
+  },
+  "license": "OGL 1.0a"
+}

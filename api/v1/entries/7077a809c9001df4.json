@@ -1,0 +1,29 @@
+{
+  "id": "7077a809c9001df4",
+  "name": "Fate Revealed",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination [mind-affecting]; Level bard 1, cleric/oracle 1, druid/shaman 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/F (a small bit of crystal)\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration 1 min./level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nWith a single touch, you cause the fates to smile on the target. That target gains a +1 insight bonus on attack rolls, skill checks, and saving throws. Unlike other spells that can be dismissed, this spell cannot be dismissed by the caster, but rather it can be dismissed by the target. As an immediate action, the target can reroll a single attack roll, skill check, or saving throw with a +4 insight bonus.\n\nMaking this reroll dismisses the spell.\n\nFate revealed counters and dispels fate denied.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7077a809c9001df4.json",
+    "web": "https://codex.pipsprojects.com/#/e/7077a809c9001df4"
+  },
+  "license": "OGL 1.0a"
+}

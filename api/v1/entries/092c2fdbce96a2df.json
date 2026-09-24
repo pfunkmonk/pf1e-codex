@@ -1,0 +1,28 @@
+{
+  "id": "092c2fdbce96a2df",
+  "name": "Chains of Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "witch": 7
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level magus 6, sorcerer/wizard 6, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (2 crystal rods)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTargets one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)\nDuration Instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates an jumping cold blast that begins as a single beam commencing from your fingertips. Like chain lightning, chains of ice strikes one object or creature initially, then arcs to other targets.\n\nThe ray deals 1d6 points of cold damage per caster level (maximum 20d6) to the primary target. After it strikes, freezing ray can arc to a number of secondary targets equal to your caster level (maximum 20). The secondary rays each strike one target and deal as much damage as the primary bolt.\n\nEach target can attempt a Fortitude saving throw for half damage. The Reflex DC to halve the damage of the secondary rays is 2 lower than the DC to halve the damage of the primary ray. You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/092c2fdbce96a2df.json",
+    "web": "https://codex.pipsprojects.com/#/e/092c2fdbce96a2df"
+  },
+  "license": "OGL 1.0a"
+}

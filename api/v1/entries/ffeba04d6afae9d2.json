@@ -1,0 +1,30 @@
+{
+  "id": "ffeba04d6afae9d2",
+  "name": "Icy Simulacrum",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "shaman": 4,
+      "wizard": 5,
+      "witch": 4
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration [cold, water]; Level druid 4, shaman 4, sorcerer/wizard 5, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration see text\nSaving Throw see text; Spell Resistance yes\n\nYou create a powerful freezing rain on the target that deals 2d6 cold damage, Reflex save for half. If the target fails the Reflex save, they are frozen in place, covered with a thick sheet of ice for 1 round. The target is paralyzed and may only take mental actions but may make a DC 25 Strength or Escape Artist check to free themselves as a full-round action. Allies may also attempt to break the target free by making the Strength check themselves or attempting to break the ice which is treated as having 30 hp and 5 hardness.\n\nIf the target remains frozen for 1 round, the target is freed but the ice turns into a moving copy of the target under your control. The simulacrum lasts for 1 round per level.\n\nThe copy has none of the spellcasting, spell-like abilities, supernatural abilities, class abilities or feats of the target, though it is automatically proficient with any weapon it is created with. It has an attack bonus equal to your base attack bonus plus your spellcasting modifier. Giving direction to the simulacrum is a move action that may be performed mentally. If given no orders, the simulacrum continues with its previous orders or attacks the original target of the spell.\n\nThe simulacrum deals damage and attacks using a copy of the weapon used by the target except it has none of the magical properties of the weapon. The weapon instead deals half of the normal physical damage and half cold damage, is considered magical for DR purposes and adds your spellcasting modifier to damage (though is not multiplied for two-handed). If the simulacrum has no weapon (or natural weapon), is disarmed or is ordered to drop its copy weapon, it has a slam attack that deals 1d6 damage, half of which is bludgeoning, half is cold damage.\n\nThe simulacrum has hit points equal to the higher of half the total of the original target or 30, AC equal to 10 + your spellcasting modifier and hardness 5. If the simulacrum is destroyed, the spell ends.\n\nPrayer – Gods of Winter and Hunting, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ffeba04d6afae9d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/ffeba04d6afae9d2"
+  },
+  "license": "OGL 1.0a"
+}

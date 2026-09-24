@@ -1,0 +1,27 @@
+{
+  "id": "c8da4e5f5accfbb7",
+  "name": "Blood Geyser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 3,
+      "wizard": 2
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [acid]; Level cleric/oracle 3, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-by-20-ft. square\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nCasting this spell causes a geyser of blood to erupt from the ground, spraying all within a 20-foot-by-20-foot area. The blood, filled with the hatred of the defeated, burns as if it were a powerful acid, causing 1d6 points of acid damage per 2 caster levels, up to a maximum of 10d6.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c8da4e5f5accfbb7.json",
+    "web": "https://codex.pipsprojects.com/#/e/c8da4e5f5accfbb7"
+  },
+  "license": "OGL 1.0a"
+}

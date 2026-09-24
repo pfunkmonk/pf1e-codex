@@ -1,0 +1,31 @@
+{
+  "id": "649ab0e707df8baa",
+  "name": "Gout of Flame",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "magus": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level adept 1, bloodrager 1, druid 1, magus 1, shaman 1, sorcerer/wizard 1\nCasting Time 1 standard action\nComponents V, S\nRange 30 ft.\nEffect 30-foot-line gout of flame\nDuration concentration, up to 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\n\nYou spray a long gout of flame from your fingertips engulfing your foe.\n\nWhile the spell is a 30-foot line, only the closest target to you is affected in each round.\n\nThe affected target must make a Reflex save or be dealt 1d6 + 1 per caster level (max +5) fire damage. You may elect to exclude the square adjacent to you from the area of effect if you so choose. These flames can ignite flammable materials and any creature that fails their Reflex save against this spell two rounds in a row catches fire as per the environmental rules in the Pathfinder Core Rulebook. If the target is already on fire, this spell only deals 1 damage per caster level (max 5) but the target is unable to roll the Reflex save to put out the fire on themselves during that round. Each round while concentrating on the spell, you may redirect the line of effect.\n\nContact Other Plane: World of the Old Scrolls I, © 2023, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/649ab0e707df8baa.json",
+    "web": "https://codex.pipsprojects.com/#/e/649ab0e707df8baa"
+  },
+  "license": "OGL 1.0a"
+}

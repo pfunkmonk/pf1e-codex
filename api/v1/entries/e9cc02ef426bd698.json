@@ -1,0 +1,26 @@
+{
+  "id": "e9cc02ef426bd698",
+  "name": "Hide Body",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 2,
+      "oracle": 2,
+      "legendary ninja": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Legendary Games"
+  },
+  "body": "School illusion; Level antipaladin 2, cleric/oracle 2, legendary ninja 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a burlap sack)\n\nEFFECT\n\nRange touch\nTarget object corpse\nDuration 8 hours (D)\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nThis spell makes a corpse invisible to all but the caster of the spell. If the corpse was a creature carrying gear, that vanishes, too. The location of the corpse is also hidden from location by divination (scrying) effects, such as the scrying spell or a crystal ball. Such an attempt automatically fails (if the divination is targeted on the corpse) or fails to perceive the corpse (if the divination is targeted on a nearby location, object, or person). This protection from scrying does not extend to the corpse’s equipment if applicable.\n\nItems that fall off the invisible corpse become visible; items picked up disappear if tucked into the clothing or pouches worn by the corpse. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the corpse carries but that extends more than 10 feet from it becomes visible. Also, any parts severed from the corpse are not under the effects of the spell unless tucked into the body like any object or piece of equipment, those pieces are affected by the anti-scrying effect like the body. This spell does not hide any viscera or blood spilled by the corpse.\n\nThe corpse requires a DC 40 Perception check to detect, though the spell does not prevent a scent being put off by the corpse which can be detected by the scent ability.\n\nA corpse for purposes of this corpse is no longer alive nor has it been reanimated as undead. The corpse must be one from the material plane and leave behind remains on which to cast the spell. This spell does not prevent revival while under the effects of this spell and a spell is cast to revive the target that does not require the remains to be present ends this spell effect.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9cc02ef426bd698.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9cc02ef426bd698"
+  },
+  "license": "OGL 1.0a"
+}

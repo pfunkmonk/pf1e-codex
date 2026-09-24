@@ -1,0 +1,26 @@
+{
+  "id": "5646e9cb3f6503ef",
+  "name": "Inkblot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "ink"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [ink]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (indigo ink)\n\nEFFECT\n\nRange touch\nTarget one corporeal creature\nDuration 2 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou turn the subject into a malleable being of pure ink, which takes on the ink subtype. An ink creature’s gear, weapons, and armor turn to ink and are absorbed into the creature; however, its size, Dexterity, deflection, and armor bonuses still apply. See table 2-6: Ink Creature Slam Damage for damage by size category.\n\nInk creatures may not manipulate objects with fine detail, though they may cling to them and move them along their wave of ink if the subject could have carried the object in its regular form. Ink creatures gain a +8 racial modifier to Stealth checks.\n\nFor more details on ink creatures’ statistics, see the sidebar.\n\nFinally, ink creatures that assume the form of puddles act as a grease spell exactly as if cast by a caster of the same level (or hit dice) to all beings that enter it.\n\nThis spell requires a vial of indigo ink, which must be consumed during casting.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5646e9cb3f6503ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/5646e9cb3f6503ef"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "adcbaa8536f98d60",
+  "name": "Programmed Amnesia",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "psychic": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level psychic 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (A crystal lens set in a loop of precious metal worth at least 500 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou pry open the target’s mind and memories, selectively destroying, adding, or modifying memories at your whim. If the target fails their saving throw, you have access to the target’s memories and thoughts for 1 hour, you can record that information if you like, but you can also implement one or all of the following :\n\nMemory Erasure: Selected memories can be erased, including knowledge of specific events, people or places. You can erase up to 1 week of memories from the subject’s mind.\nMemory Implant: You can create false memories in the subject’s mind. You can implant relationships with people or places that do not exist, events that did not take place, or untrue knowledge.\nNegative Levels: You can bestow a number of negative levels equal to 1/2 their character level or less (leaving them at a minimum of an effective 1st-level). This represents the erasure of experience and training. These negative levels can never become permanent, but neither can they be removed by saving throws or spells less than greater restoration, wish or miracle. Instead, the negative levels return at a rate of 1 level per day.\nPersona Change: You can change the subject’s morals and personality through this change in experiences, thoughts and memories. You can change its alignment by up to one step in both alignment directions. This causes them to have different beliefs, and reactions to the world.\nProgrammed Trigger: You can program a timed or triggered delay to these effects. The triggers could include coded messages, capture by enemies, arrival at a place, interaction with a specific individual, etc. You can also set a timed delay or trigger to remove all of the alterations you implanted.\n\nThis spell, if not crafted perfectly, can leave contradictions or situations where the subject is confronted with the falsity of their implanted memories. For example, if the subject is implanted with a memory of being friends with a high profile noble and the noble dismisses them in turn as an unknown peasant. If faced with this new information, the subject may seek an explanation and possibly a magical fix to this gap in their memory that could negate the spell’s effect.\n\nThe programmed amnesia cannot be dispelled and is permanent until a specified trigger or timed delay expires, if applicable, or the effects are removed by greater restoration, miracle, or wish.\n\nHit Points\tDuration\n25 or less\t1d4+1 hours\n26-50\t1d4+1 minutes\n51-100\t1d4+1 rounds\nHit Points\tDuration\n25 or less\t1d4+1 hours\n26-50\t1d4+1 minutes\n51-100\t1d4+1 rounds\nHit Points\tDuration\n10 or less\tThe Strength damage is permanent and is changed to drain\n10-25\tPermanent\n26-50\t1d4+1 minutes\n51-75\t1d4+1 rounds\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adcbaa8536f98d60.json",
+    "web": "https://codex.pipsprojects.com/#/e/adcbaa8536f98d60"
+  },
+  "license": "OGL 1.0a"
+}

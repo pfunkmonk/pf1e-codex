@@ -1,0 +1,28 @@
+{
+  "id": "3ea87acb71091e9f",
+  "name": "Disappear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "medium": 4,
+      "mesmerist": 6,
+      "wizard": 6,
+      "occultist": 6,
+      "focus external": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation); Level magus 6, medium 4, mesmerist 6, sorcerer/wizard 6, occultist 6, psychic 6; Focus external 6\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange 1 mile/level\nArea 1 mile radius emanation centered on you\nDuration Instantaneous (see text)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou grant yourself the spell-like ability to create magical ciphers within the spell’s range, in which you can encrypt a fragment of your existence. You can create one cipher at a time in an adjacent, unoccupied square as a standard action. These ciphers are not visible, not even to true sight, but can be detected through their magic aura. They are removable with dispel magic and similar effects. Rater, while you are within the spell’s area, as an immediate action, you may choose a point in time no less than 1 round, or more than 1 hour per level, into the future. You then remove yourself from existence. Doing so leaves no lingering aura in your location. While you are gone, for all intents and purposes, you do not exist. You do not age nor breathe, and your hunger, thirst, afflictions or the duration of effects on you do not progress. You cannot take any actions, nor can you be detected or interacted with in any way. It the designated time, the ciphers you have put into place reconstitute you in the spot from which you disappeared. If that space has since been occupied, you appear in the nearest unoccupied space instead, and your ciphers disappear in your place. If you have less ciphers at that time than you have hit dice, you suffer negative levels equal to the difference. Casting disappear causes your ciphers from previous castings to disappear.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ea87acb71091e9f.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ea87acb71091e9f"
+  },
+  "license": "OGL 1.0a"
+}

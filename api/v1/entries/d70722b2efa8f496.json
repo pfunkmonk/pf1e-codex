@@ -1,0 +1,28 @@
+{
+  "id": "d70722b2efa8f496",
+  "name": "Circle of Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air]; Level cleric/oracle 1, druid/shaman 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a crystal ring)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nLight winds encircle you, leaving you in the center of a mild vortex. You receive a +2 deflection bonus to AC against ranged attacks. You also receive a +4 bonus on saves against very hot conditions, including the negative impacts of mundane heat (see Environmental Rules for heat effects), and saves against cloud vapors and gases (such as cloudkill, stinking cloud, and inhaled poisons). This spell does not function without air or underwater.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d70722b2efa8f496.json",
+    "web": "https://codex.pipsprojects.com/#/e/d70722b2efa8f496"
+  },
+  "license": "OGL 1.0a"
+}

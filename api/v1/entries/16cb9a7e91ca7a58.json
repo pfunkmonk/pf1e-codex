@@ -1,0 +1,17 @@
+{
+  "id": "16cb9a7e91ca7a58",
+  "name": "Puppet Soldier",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Kobold Quest From Ashes to Empire",
+  "book": "Kobold Quest From Ashes to Empire",
+  "facets": {
+    "bk": "Kobold Quest From Ashes to Empire"
+  },
+  "body": "PUPPET SOLDIER\nCR 6\n\nXP 2,400\nN Medium construct\nInit +1, Senses blindsense 60 ft., Perception +10\n\nDEFENSE\n\nAC 19, touch 11, flat-footed 18 (+1 Dex, +8 natural)\nhp 66 (8d10 +20) (30 hp strings)\nFort +2, Ref +3, Will +2; DR 10/adamantine; Immune construct traits, magic\n\nOFFENSE\n\nSpeed 25 ft.\nMelee longsword +12/+7 (2d8+4 slashing plus bind)\n\nSTATISTICS\n\nStr 18, Dex 13, Con -, Int -, Wis -, Cha –\nBase Atk +8; CMB +13, CMD 19, immune to trip\n\nSPECIAL ABILITIES\n\nOn a String (Ex)\n\nThe strings of these puppets can be attacked. It has the same armor class as the puppet, but has no damage reduction. If the strings are brought to zero hit points, the puppet dies instantly. The strings are vulnerable to slashing damage, and immune to bludgeoning. They have standard object immunities.\n\nHard to Kill (Ex)\n\nPuppet soldiers do not die at zero hit points. If the body is brought to zero hit points, it is instead put to 50 hit points, as most of the armor breaks. All of its rolls are at -4 when this occurs. If a puppet’s body is brought to 0 hit points while in this state, it dies.\n\nBind (Ex)\n\nA creature struck by a puppet soldier’s longs word must make a Reflex save DC 13. If it fails, the creature is bound in strings, giving it the grappled condition. This persists until the creature uses a standard action to make a DC 13 Strength check or Escape Artist check to break out.\n\nKobold Quest From Ashes to Empire Copyright 2024 Explorer's Guild Publishing; Author Richard Davis",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/16cb9a7e91ca7a58.json",
+    "web": "https://codex.pipsprojects.com/#/e/16cb9a7e91ca7a58"
+  },
+  "license": "OGL 1.0a"
+}

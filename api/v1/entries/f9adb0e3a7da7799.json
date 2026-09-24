@@ -1,0 +1,25 @@
+{
+  "id": "f9adb0e3a7da7799",
+  "name": "Beguiling Bauble",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 3,
+      "bard": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (glamer); Level alchemist 3, bard 4, witch 4\n\nCASTING\n\nCasting Time 1 hr.\nComponents V\n\nEFFECT\n\nRange touch\nTarget one small, non-magical object you are wearing\nDuration permanent\n\nDESCRIPTION\n\nWhen this spell is cast on a target bauble—typically a mundane ring, amulet, or circlet—you may choose an alignment. While you wear the bauble, for all purposes you seem to be of this alignment, including when you are the target of detect good, detect evil, and similar effects. Your true alignment is concealed from all forms of divination.\n\nThe bauble thwarts all magical detection and dispelling, whether you wear it or not (short of a limited wish, miracle, wish, commune, or divine knowledge). The enchantment does not work for other creatures wearing the bauble.\n\nIf the wearer commits an act that clearly violates the assumed alignment, all witnesses gain an immediate Will save to recognize the deception. If any witnesses’ saving throws succeed, the beguiling bauble loses its intended enchantment, and the object glows red hot until removed. If the wearer is unwilling or unable to immediately discard it, it inflicts 2d4 hp fire damage each round until the subject is reduced to ash.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9adb0e3a7da7799.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9adb0e3a7da7799"
+  },
+  "license": "OGL 1.0a"
+}

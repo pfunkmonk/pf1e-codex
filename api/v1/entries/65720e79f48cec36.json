@@ -1,0 +1,37 @@
+{
+  "id": "65720e79f48cec36",
+  "name": "Conceal Pact Magic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "cleric": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "summoner": 1,
+      "witch": 1
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration [pact]; Level antipaladin 1, bard 1, bloodrager 1, cleric 1, druid 1, inquisitor 1, paladin 1, ranger 1, shaman 1, sorcerer/wizard 1, summoner 1, witch 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (vial of squid ink)\n\nEFFECT\n\nRange 20 feet\nArea 20-foot radius emanation\nDuration 24 hours (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou trace a mystic symbol within the area that obscures the presence of spirits. The presence of bound spirits is completely hidden from divination spells and abilities used outside of this spell’s area of effect. The spell does not conceal creatures, objects, thoughts, or phenomena caused by spirits; only the presence and absence of pact magic. This symbol can be removed before its duration ends using erase and other effects that destroy magical writing.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65720e79f48cec36.json",
+    "web": "https://codex.pipsprojects.com/#/e/65720e79f48cec36"
+  },
+  "license": "OGL 1.0a"
+}

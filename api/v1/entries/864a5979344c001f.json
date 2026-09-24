@@ -1,0 +1,31 @@
+{
+  "id": "864a5979344c001f",
+  "name": "Shield, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 4,
+      "bloodrager": 4,
+      "magus": 4,
+      "psychic": 4,
+      "wizard": 4,
+      "unchained summoner": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [force]; Level alchemist 4, bloodrager 4, magus 4, psychic 4, sorcerer/wizard 4, summoner/unchained summoner 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 10 minutes/level (D)s\n\nDESCRIPTION\n\nWhen you cast this spell the material component breaks apart into a dozen pieces which float around you and protect you from harm. You gain all the benefits of shield except as follows. The bonus to AC increases to +6 and it can absorb up to 12 levels worth of ray spells directed at you.\n\nWhen you are targeted by a ray you make a caster level check against it with a DC of 11 + the caster level of the ray. If you succeed the ray is deflected harmlessly to a side. You may instead choose to expend twice as many levels as needed to deflect the ray to redirect it back onto its original caster. You use the ray’s original attack roll to determine if the ray strikes its new target.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/864a5979344c001f.json",
+    "web": "https://codex.pipsprojects.com/#/e/864a5979344c001f"
+  },
+  "license": "OGL 1.0a"
+}

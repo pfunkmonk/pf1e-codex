@@ -1,0 +1,27 @@
+{
+  "id": "cfb91c4df1a8ba81",
+  "name": "Animate Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [fire]; Level druid 1, shaman 1\n\nCasting Time 1 round\n\nComponents V, S, M (a pinch of ash)\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one small fire\n\nDuration 1 round/level (D)\n\nSaving Throw none; Spell Resistance no\n\nYou animate a fire the size of a campfire. For the duration, the animated fire has the statistics of a small fire elemental. At the end of the duration, the animated fire and the original fire are extinguished. The animated fire cannot move beyond the range of the spell from the caster.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfb91c4df1a8ba81.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfb91c4df1a8ba81"
+  },
+  "license": "OGL 1.0a"
+}

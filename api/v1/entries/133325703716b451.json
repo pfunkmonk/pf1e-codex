@@ -1,0 +1,23 @@
+{
+  "id": "133325703716b451",
+  "name": "Violent Growth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 8
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation); Level druid 8\n\nCasting Time 1 standard action\n\nComponents V, S, M (preserved part of a sentient plant)\n\nRange medium (100 feet + 10 feet per caster level.)\n\nTarget one living creature (see text)\n\nDuration 1 round (see text)\n\nSaving Throw fortitude half (see text); Spell Resistance yes\n\nFocusing on the bit of plant matter and the intended living creature, you create a small kernel of primal energy in the target. One round after the completion of the spell, the spell deals 1d6 per caster level (maximum 20d6) physical damage as a violent plant growth bursts from the body of the target. This physical damage is considered bludgeoning, piercing and magic for the purposes of damage reduction additionally, it inflicts 1d4 bleed damage. The target that succeeds at a fortitude save takes half of the physical damage and negates the bleed damage.\n\nAdditionally the explosion of plant growth creates an entangle effect as the spell entangle in a 20 ft. radius around the target. Any living creature that stays in the entangle effect for more than 1 round has a kernel of the primal energy put into them. As with the original target, the kernel causes a violent explosion of plant growth and the cycle begins anew.\n\nThe entangle effect created by the explosion lasts for 1d4+2 rounds. Any creature that has taken damage from this spell is immune to an additional kernel from this spell but is still subject to the entangling condition above.\n\nPolymorph: The Conduit, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/133325703716b451.json",
+    "web": "https://codex.pipsprojects.com/#/e/133325703716b451"
+  },
+  "license": "OGL 1.0a"
+}

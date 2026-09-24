@@ -1,0 +1,25 @@
+{
+  "id": "22e2e07a282fc94f",
+  "name": "Corpse Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level antipaladin 3, cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a humanoid or monstrous humanoid corpse), DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hour/level or special\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows the caster to create magical armor from the remains of a dead humanoid or monstrous humanoid the same size as you or larger. The caster must touch a corpse (the corpse can be fresh, rotting or even skeletal, so long as enough of it remains that it could be animated via the animate dead spell) and invoke the spell. The corpse then stands erect, embraces the caster and begins to bend and twist, wrapping itself around the caster to form a gruesome armor of bones and dead flesh. The armor grants a +2 enhancement bonus to the caster’s AC, 25 temporary hit points, a –1 armor check penalty and a 5% arcane spell failure penalty. Damage dealt to the caster is first removed from these temporary hit points. The spell ends either when the duration expires or 25 points of damage are dealt to the armor.\n\nShould the spell end normally, all remaining temporary hit points are lost. If you cast this spell on a corpse larger than you, you gain no extra benefit; the extra flesh and body mass simply sloughs away.\n\nA corpse affected by this spell disintegrates at the end of the duration, and thus cannot later be the subject of this spell, or animated, raised, or resurrected.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/22e2e07a282fc94f.json",
+    "web": "https://codex.pipsprojects.com/#/e/22e2e07a282fc94f"
+  },
+  "license": "OGL 1.0a"
+}

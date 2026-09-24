@@ -1,0 +1,28 @@
+{
+  "id": "7dab84cbbe77b396",
+  "name": "Gale Scythe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "archon": 4,
+      "druid": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [air]; Level archon 4, druid 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. +5 ft./2 levels)\nEffect 5-foot diameter disk of focused air\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nGale scythe creates a focused arc of furiously whirling air you can direct against your enemies. The gale scythe is visible as a blur of shearing winds. It occupies the same space as a Medium creature, but does not threaten spaces around it. As a move action, you can move the gale scythe up to 60 feet each round. A creature occupying the same square as the gale scythe is subject to it’s trip attack (see below). The gale scythe can enter an occupied space, but doing so ends its movement for the round. Other creatures may freely enter the space a gale scythe occupies (or may be forced to do so), but are subject to its trip attack as soon as they do so. A gale scythe grants hard cover against ranged attacks that track their line of sight through the space it occupies.\n\nThe CMB for the gale scythe’s trip attack is equal to your caster level + plus your Intelligence or Wisdom modifier (whichever is higher) + plus the spell’s level. Thus a 12th-level wizard with an 18 Intelligence casting gale scythe uses a CMB of +20 (caster level 12 + 4 Int modifier + 4 spell level).\n\nWhile casting this spell provokes attacks of opportunity normally, subsequent attacks made with it do not. This spell functions indoors, underground, and underwater.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7dab84cbbe77b396.json",
+    "web": "https://codex.pipsprojects.com/#/e/7dab84cbbe77b396"
+  },
+  "license": "OGL 1.0a"
+}

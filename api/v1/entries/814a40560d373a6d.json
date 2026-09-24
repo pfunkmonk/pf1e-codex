@@ -1,0 +1,34 @@
+{
+  "id": "814a40560d373a6d",
+  "name": "Antagonize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 3,
+      "bard": 3,
+      "lathspell": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level adept 3, bard 3, lathspell 3, mesmerist 3, occultist 3, psychic 3, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou call out an insult charged with infuriating power. The target takes 1d4 damage per caster level (maximum 10d4). Additionally, the target must make an attack against a target of your choosing, using their attack of opportunity in the process. On a successful saving throw the target takes half damage and does not make the attack.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/814a40560d373a6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/814a40560d373a6d"
+  },
+  "license": "OGL 1.0a"
+}

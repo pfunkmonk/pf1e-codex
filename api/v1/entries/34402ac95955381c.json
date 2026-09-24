@@ -1,0 +1,30 @@
+{
+  "id": "34402ac95955381c",
+  "name": "Runecasting",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "bloodrager": 2,
+      "oracle": 3,
+      "magus": 3,
+      "occultist": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School divination; Level bard 3, bloodrager 2, cleric/oracle 3, magus 3, occultist 3, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, F (a rune satchel)\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 1 day\n\nYou are able to draw runic stones to tell a fortune for yourself or someone else. If you cast runecasting on another creature you must remain within close range from the target for the duration of the casting time. A runecasting only gives vague advice or warning about the situation at hand.\n\nDraw runes from a satchel, from a minimum of three to a maximum of nine (if you don’t have access to runic stones, you can use leaflets or pieces of cardboard). Each of these will grant a +2 bonus to all checks in the associated skill for the next 24 hours, or a -1 penalty if a rune is reversed. Runes that are positive only always grant bonuses, and runes that are negative only always grant penalties, unless the subject possess the Patron Rune trait or the Cast Rune feat: such a character always gains a skill bonus from its patron rune.\n\nThe subject can also forfeit some of their bonuses to cancel an equal number of penalties if they wish.\n\nA single creature can only be under the effects of one harrowing or runecasting spell at a time. If it is subjected to a second such spell while a previous one is still in effect, the new spell automatically fails. Divine casters, witches, and wizards don’t usually employ both harrowing and runecasting for their predictions.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34402ac95955381c.json",
+    "web": "https://codex.pipsprojects.com/#/e/34402ac95955381c"
+  },
+  "license": "OGL 1.0a"
+}

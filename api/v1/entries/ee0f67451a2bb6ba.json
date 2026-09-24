@@ -1,0 +1,30 @@
+{
+  "id": "ee0f67451a2bb6ba",
+  "name": "Cryo Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "magus": 2,
+      "ranger": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level druid 2, magus 2, ranger 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration see text\nSaving Throw Fortitude partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the temperature around the target to drop quickly freezing them solid. The target takes 1d6 points of cold damage + 1 point per caster level (maximum +10). The target must then make a Fortitude save or be paralyzed by the cold for 1 round per caster level. The target gains another Fortitude save to end the effect at the beginning of each of their rounds. If in an area of hot or summer weather, or if the creature has the fire subtype, they gain a +5 bonus on the saving throw. Additionally, they gain a +1 bonus on their saving throw for each round they have been paralyzed. While paralyzed the target cannot be subject to a coup de grace and they gain a hardness of 8.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ee0f67451a2bb6ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/ee0f67451a2bb6ba"
+  },
+  "license": "OGL 1.0a"
+}

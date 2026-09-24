@@ -1,0 +1,17 @@
+{
+  "id": "83c58fa1bb7b8113",
+  "name": "Wight (CR +1)[3pp]",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Wight Template",
+  "book": "Wight Template",
+  "facets": {
+    "bk": "Wight Template"
+  },
+  "body": "Creating a Wight\n\n“Wight” is an acquired template that can be added to any living corporeal creature (hereafter referred to as the base creature). Most wights were once humanoid, monstrous humanoid, or giants. A wight uses all of the base creature’s statistics except as noted here.\n\nCR: As base creature +1\n\nAlignment: Always Lawful Evil.\n\nType: The creature’s type changes to undead (augmented). Do not recalculate class Hit Dice, BAB, or saves.\n\nSenses: A wight gains darkvision 60 ft.\n\nArmor Class: Natural armor improves by +4\n\nHit Dice: Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As undead, wights use their Charisma modifier to determine bonus hit points (instead of Constitution).\n\nWeaknesses: A wight gains the following weakness:\n\nResurrection Vulnerability (Su)\n\nA raise dead or similar spell cast on a wight destroys it (Will negates). Using the spell in this way does not require a material component.\n\nMelee: A wight gains a slam attack if it does not already have one (see Natural Attacks). Its slam also causes energy drain (see below).\n\nSpecial Attacks: Wights gain the energy drain special attack. Save DCs are equal to 10+1/2 the wight’s HD + the wight’s Cha modifier.\n\nEnergy Drain (Su)\n\nA creature hit by a wight’s slam (or other natural weapon) gains a negative level.\n\nSpecial Abilities: A wight gains the following special ability:\n\nCreate Spawn (Su)\n\nAny humanoid creature that is slain by a wight becomes a wight itself in only 1d4 rounds. Spawn so created are less powerful than typical wights, and suffer a –2 penalty on all d20 rolls and checks, as well as –2 hp per HD. Spawn are under the command of the wight that created them and remain enslaved until its death, at which point they lose their spawn penalties and become full-fledged and free-willed wights. They do not possess any of the abilities they had in life.\n\nAbilities: Increase from the base creature as follows: Str +2, Dex +2, Wis +2, Cha +4. As undead creatures, wights have no Con score.\n\nSkills: Wights gain a +8 racial modifier to Stealth checks.\n\nFeats: Wights gain the Blind-Fight feat, assuming the base creature doesn’t already have the feat.\n\nWight Template. Copyright Andy Collins 2001-2008",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83c58fa1bb7b8113.json",
+    "web": "https://codex.pipsprojects.com/#/e/83c58fa1bb7b8113"
+  },
+  "license": "OGL 1.0a"
+}

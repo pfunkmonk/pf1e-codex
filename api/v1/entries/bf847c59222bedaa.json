@@ -1,0 +1,26 @@
+{
+  "id": "bf847c59222bedaa",
+  "name": "Lizardbane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [fire]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (one fire source)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one fire source, up to a 20-ft. cube\nDuration instantaneous\nSaving Throw Reflex negates; see text; Spell Resistance no\n\nDESCRIPTION\n\nYou make an existing fire erupt into a geyser of liquid flame that targets reptiles and all draconic creatures. The single fire source required (as small as a torch’s flame, but not a candle or lantern) is immediately extinguished.\n\nA fire larger than a 20-ft. cube, however, is only partly extinguished, with the details up to the GM’s discretion (a targeted volcano’s magma might harden in a 20-ft. cube, or a forest fire might burn out in same area). Magical fires are not extinguished, but a creature of the fire subtype used as the source takes 1 hp damage per caster level with no saving throw.\n\nThe resulting rain of fire seeks out reptilian creatures and those with the dragon subtype. It fills a hemispherical burst with a radius of 60 ft. All affected creatures and objects in the area take 3d6 points of fire damage and catch fire.\n\nWith a successful Reflex save, an affected creature takes half damage and does not catch fire.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf847c59222bedaa.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf847c59222bedaa"
+  },
+  "license": "OGL 1.0a"
+}

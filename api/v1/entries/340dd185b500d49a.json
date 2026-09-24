@@ -1,0 +1,24 @@
+{
+  "id": "340dd185b500d49a",
+  "name": "Doom Of Disenchantment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 3,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level antipaladin 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget or Area one suit of armor and shield\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen you cast the doom of disenchantment, your armor and shield (if any) glow an unearthly, steady shade of bluishgrey, a light that seems unholy. When any foe strikes you with a weapon or a natural attack augmented by a spell that enhances combat (such as prayer, magic fang, etc.), your doom dispels that augmenting magic or temporarily suppresses the magical abilities of a magic item.\n\nA disenchanted spell ends as if its duration had expired.\n\nThe magical abilities of an item or a spell that has been made permanent are suppressed for 3 rounds. The doom of disenchantment can dispel (but not counter) spell-like and supernatural effects just as it does spells. Spells with an instantaneous duration can’t be disenchanted, because the magical effect is already over before the disenchantment can take effect.\n\nYou take damage from the attack normally. Your own armor is never disenchanted by this doom.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/340dd185b500d49a.json",
+    "web": "https://codex.pipsprojects.com/#/e/340dd185b500d49a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "87ecce08cddde4ff",
+  "name": "Trapshadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 2
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (mirror or other reflective object)\n\nEFFECT\n\nRange touch\nTarget 1 trap\nDuration permanent until trap is triggered\nSaving Throw none (object); Spell Resistance no\n\nDESCRIPTION\n\nThis spell increases the detection DC of a trap by an amount equal to half your caster level. This is an illusion effect, and any one touching the trap is able to make a Will save to disbelieve the illusion. (Usually, however, touching the trap also trips it.) If dispel magic is cast on the trapped area, it may dispel this spell if it is the highest-level spell in the area. Also, if the trap is discharged, trapshadow ends and must be recast.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/87ecce08cddde4ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/87ecce08cddde4ff"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "4585c760514863aa",
+  "name": "Devouring Cultist",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Kobold Quest From Ashes to Empire",
+  "book": "Kobold Quest From Ashes to Empire",
+  "facets": {
+    "bk": "Kobold Quest From Ashes to Empire"
+  },
+  "body": "DEVOURING CULTIST\nCR 8\n\nXP 4,800\nCE Medium humanoid (human)\nInit +2, Senses darkvision 60 ft.; Perception +13\n\nDEFENSE\n\nAC 24, touch 12, flat-footed 22 (+2 Dex, +6 armor, +6 natural)\nhp 126 (11d10 +66)\nFort +13, Ref +5, Will +8\nBody spikes; Immunities mind-affecting spells and effects\n\nOFFENSE\n\nSpeed 30 ft.\nMelee slam +20/15/10 (1d10 +10/19-20 plus grab)\nRanged Spike Volley +13/+8/+3 (4d6)\n\nSTATISTICS\n\nStr 20, Dex 15, Con 15, Int 12, Wis 8, Cha 17\nBase Atk +11; CMB +18 (+20 bull rush), CMD 30 (32 vs bull rush)\nFeats Improved Bull Rush, Power Attack\n\nSPECIAL ABILITIES\n\nBody Spikes (Ex)\n\nAll melee attacks against a devouring cultist cause the attacker 1 piercing damage. Additionally, creatures a devouring cultist successfully grapples suffer 4d6 piercing damage.\n\nDevour (Ex)\n\nThis standard action can only be us ed if the target is grappled. The grappled creature suffers 10d6 piercing damage. An Escape Artist check DC 20 is granted to reduce the damage to half. If the check is failed, the cultist is healed by half of the damage dealt by this attack (rounded down).\n\nKobold Quest From Ashes to Empire Copyright 2024 Explorer's Guild Publishing; Author Richard Davis",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4585c760514863aa.json",
+    "web": "https://codex.pipsprojects.com/#/e/4585c760514863aa"
+  },
+  "license": "OGL 1.0a"
+}

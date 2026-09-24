@@ -1,0 +1,27 @@
+{
+  "id": "20451313844005c4",
+  "name": "Deep Stupor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (a pinch of green lotus dust)/DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget several creatures within a 50-ft. radius\nDuration 1 hour/caster level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell puts 1d4 HD worth of creatures per caster level (maximum 20d4) to sleep. Creatures with the fewest HD are affected first. Among creatures with equal HD, those closest to the caster are affected first. Creatures with 13 or more HD are not affected. Creatures put to sleep by this spell remain asleep until the duration expires, or a successful dispel magic, greater dispelling, limited wish, restoration or wish is used to awaken them.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20451313844005c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/20451313844005c4"
+  },
+  "license": "OGL 1.0a"
+}

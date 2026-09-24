@@ -1,0 +1,28 @@
+{
+  "id": "fccf07eee9225737",
+  "name": "Night’s Ember",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 2,
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level bloodrager 2, magus 2, sorcerer/wizard 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of coal)\n\nEFFECT\n\nRange 60 feet\nArea 60-foot-radius emanation\nDuration 1 round/level (D)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou hold up the coal which alights in a soft orange light.\n\nThis light does not burn your hand, however any creature in the radius with the shadow subtype or currently in an area of dim light or darker is covered is a nimbus of orange flame, glowing like a candle as per the spell faerie fire. Additionally at the beginning of their turn, an affected creature must make a Fortitude save or take 1 fire damage. A successful saving throw negates damage but not the highlighting. This fire can target incorporeal creatures.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fccf07eee9225737.json",
+    "web": "https://codex.pipsprojects.com/#/e/fccf07eee9225737"
+  },
+  "license": "OGL 1.0a"
+}

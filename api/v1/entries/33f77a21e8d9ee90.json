@@ -1,0 +1,30 @@
+{
+  "id": "33f77a21e8d9ee90",
+  "name": "Healing Touch, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 5,
+      "bard": 5,
+      "oracle": 5,
+      "druid": 6,
+      "paladin": 4,
+      "shaman": 5,
+      "white necromancer": 5,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level adept 5, bard 5, cleric/oracle 5, druid 6, paladin 4, shaman 5, white necromancer 5, witch 5\n\nThis spell functions as lesser healing touch except that the amount healed is 1d8 + 1 per caster level (max +15).\n\nContact Other Plane: World of the Old Scrolls I, © 2023, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/33f77a21e8d9ee90.json",
+    "web": "https://codex.pipsprojects.com/#/e/33f77a21e8d9ee90"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0b447b3b60f42b96",
+  "name": "Mountain Goat’s Grit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 2,
+      "ranger": 2
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 2, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nEffect creature touched\nDuration 1 hr./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe affected creature gains the vitality and stamina necessary for travel at high altitudes. For the duration of the spell, the subject is well acclimated to high altitudes. At altitudes between 5,000 and 15,000 ft., the subject suffers no ill effects from the thin air. At altitudes above 15,000 ft., the subject receives a +4 racial bonus on saving throws to resist high altitude effects and altitude sickness. If subjected to a vacuum or while underwater, the subject can hold its breath for double the normal duration.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b447b3b60f42b96.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b447b3b60f42b96"
+  },
+  "license": "OGL 1.0a"
+}

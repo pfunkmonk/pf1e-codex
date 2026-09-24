@@ -1,0 +1,29 @@
+{
+  "id": "7765a8495d6f14e2",
+  "name": "Astrological Charting",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 6,
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination [language-dependent, mind-affecting]; Level cleric/oracle 6, druid/shaman 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, DF/F (an astrolabe and star charts)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect astrological reading for one creature/level\nDuration 1 hr. plus 12 hrs.; see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou must cast this spell on a clear night, allowing you to read and measure the positions of the stars and planets. When you have completed the casting, you gather the creatures you wish to affect with the reading and spend the next hour explaining the intricacies of magical astrological readings and each of the creature’s place in your findings. Each creature participating in that explanation has any curse, compulsion, or charm currently affecting them removed. Furthermore, they gain a +4 insight bonus to resist all emotion, curses, compulsions, and charm effects, and are immune to confusion for the duration of the spell.\n\nIf the reading is interrupted for any reason, the spell is ruined and all effects of the spell are negated.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7765a8495d6f14e2.json",
+    "web": "https://codex.pipsprojects.com/#/e/7765a8495d6f14e2"
+  },
+  "license": "OGL 1.0a"
+}

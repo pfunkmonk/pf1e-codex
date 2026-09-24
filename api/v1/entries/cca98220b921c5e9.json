@@ -1,0 +1,23 @@
+{
+  "id": "cca98220b921c5e9",
+  "name": "Crystal Transformation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small crystalline dagger worth at least 20 gp that is shattered during the casting)\n\nEFFECT\n\nRange touch\nTarget one touched object of up to 2 cubic ft./level\nDuration permanent\nSaving Throw Will negates (object) or Fortitude half (see text); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou change one metal object into a crystalline, glass-like substance that is more easily broken or damaged.\n\nYou must succeed at a melee touch attack against the object to be affected if it is worn or attended by a creature. If you succeed, one single metal item is affected. Thus, you could affect a creature’s shield, but his armor and weapon would be unaffected. Normal, non-magical items are automatically affected, but attended or worn magic items receive a save and use their own or the saves of the wearer, whichever is better.\n\nAn item affected by this spell becomes brittle (hardness 1, 1 hp/inch of thickness) and is easily shattered or broken. Artifacts and relics cannot be affected by this spell.\n\nIf you target a metallic creature with this spell, you must make a melee touch attack. If the attack succeeds, the creature must make a successful Fortitude save to resist the effects. Even if the save succeeds, the creature takes 1d6 points of damage per caster level (maximum 10d6).\n\nThe effects of this spell are permanent and can be reversed only with a wish, miracle, or greater magic.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cca98220b921c5e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/cca98220b921c5e9"
+  },
+  "license": "OGL 1.0a"
+}

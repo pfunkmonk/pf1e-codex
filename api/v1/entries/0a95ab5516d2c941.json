@@ -1,0 +1,26 @@
+{
+  "id": "0a95ab5516d2c941",
+  "name": "Nail Foot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "elven archer": 2,
+      "inquisitor": 2,
+      "ranger": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level elven archer 2, inquisitor 2, ranger 2, witch 2\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, M/DF (a rusty nail)\n\nEFFECT\n\nRange touch; see text\nTarget one or more footprints of a creature you have tracked\nDuration instantaneous; see text\nSaving Throw Fort negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou may cast this spell on the footprints or tracks of a creature you can successfully tracked using the Survival skill or a similar ability. Once the spell is complete, you pierce the footprint with a sharp object such as a sword, dagger, or nail.\n\nIf the creature you are tracking and whose footprint you have stabbed is within 20 miles of you when you cast this spell, it takes 1 piercing damage and its speed is reduced by half. In effect, its foot is wounded as if it had stepped on a caltrop. Because you have created a magical link between the footprint and the creature, this spell is not subject to damage reduction.\n\nYou may stab a number of footprints equal to your caster level, but each stab grants a new saving throw to resist the spell’s effects. Each successful stab inflicts 1 damage and reduces the creature’s speed by half (minimum 5 ft.).\n\nThe wounded creature may resume its normal movement with a DC 15 Heal check or with 1 hp of magical healing. Creatures with unusual anatomy do not have their speed reduced if they do not have feet, but they still take damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a95ab5516d2c941.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a95ab5516d2c941"
+  },
+  "license": "OGL 1.0a"
+}

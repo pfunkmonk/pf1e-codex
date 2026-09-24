@@ -1,0 +1,25 @@
+{
+  "id": "962f75049e77d5a3",
+  "name": "Create Wormhole",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 5,
+      "wizard": 6,
+      "magus": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); Level bard 5, sorcerer/wizard 6, magus 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a platinum key worth 100 gp)\n\nEFFECT\n\nRange medium (100 ft. +10 ft./level)\nEffect two entrances to the wormhole\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a temporary wormhole between two points in space within range and your line of sight. Each side of the wormhole takes up a 5-ft. square space, and it must be placed on a spot of stable ground. If a creature or object enters that space, it is instantly transported to the other space. If it does not move out of the other space as part of its movement, it is automatically shunted to an unoccupied square adjacent to that space as part of this teleportation.\n\nIf there is no unoccupied space on the other end of the wormhole, creatures and objects cannot pass through it. Effectively, its passage is cut off.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/962f75049e77d5a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/962f75049e77d5a3"
+  },
+  "license": "OGL 1.0a"
+}

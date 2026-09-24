@@ -1,0 +1,23 @@
+{
+  "id": "2d479eb87de4c57e",
+  "name": "Create Drone Defenders",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a batch of brass balls worth 15 gp)\nDuration 1 hour/level (D)\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as create drone, except it creates a mass of fine brass drones that occupies a 10-foot radius area centered on the point you designate. They gain swarm traits, but otherwise retain the stats of the original spell. The swarm cannot move from the designated area. Any creature passing through its area must make a Reflex save or take 4d6 force damage. A successful save halves the damage. Once the drone defenders deal damage to a number of creatures equal to your caster level, the spell ends.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d479eb87de4c57e.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d479eb87de4c57e"
+  },
+  "license": "OGL 1.0a"
+}

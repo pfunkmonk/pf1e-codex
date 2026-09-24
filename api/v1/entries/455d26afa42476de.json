@@ -1,0 +1,24 @@
+{
+  "id": "455d26afa42476de",
+  "name": "Plumage Lure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo Fans United",
+  "book": "Paizo Fans United",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "druid": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo Fans United"
+  },
+  "body": "School illusion (pattern) (mind-affecting); Level druid 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget 1 willing flying creature with feathers\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell causes the feathers of a willing creature with a fly speed to emit pulses of light that other specific sorts of creatures find almost irresistibly intriguing. The caster must designate a particular type or subtype of creature as susceptible to these pulses at the time of casting. Creatures normally immune to mind-affecting effects, or those who lack the ability to see, are not vulnerable to this spell. Any eligible creature belonging to the category established by the caster that comes within 30 feet of the target and has a clear line of sight must make a Will saving throw to avoid becoming fascinated. Fascinated creatures follow the target if it moves away and remain under its influence so long as they can continue to see it and stay within 90 feet of it.\n\nAnimals and similar creatures only stay within sight of those they have fascinated if specifically trained to do so.\n\nNew Trick: Bait\n\nSome spells require that animals and similar creatures act against their instincts to exploit their effects. Mindful of this limitation elves have developed specialized training techniques that teach animals to respond properly to these spells. The trick described below requires one week of training and a successful Handle Animals check against the indicated DC in order for the animal to learn.\n\nBait (DC 25) (must know Seek) The animal stays within the sight and range of creatures fascinated by the pattern of light emitted by its feathers. Unless specifically trained to also stay in one location, it slowly leads them away in either a random direction or one determined by you.\n\nWayfinder #1. © 2009, Paizo Fans United. Author: Adam Daigle, Charles Evans, Clinton J. Boomer, Colter “Dreamweaver” Guthrie, Craig “flash_cxxi” Johnston, Cristian “Cicattrix” Bodea, Dennis “daOgre” Baker, Eric “Epic Meepo” Morton, Ernesto “Montalve” Ramirez, Guy Humual, Hal Maclean, Ian “cappadocious” Cunningham, Kelly “Gotrek22” Gragg, Jeff “Shadowborn” Lee, Jonathan “Wicht” McAnulty, Joshua “Zynete” Blazej, Justin “Black Fang” Sluder, Larry “Larcifer” Wilhelm, Lissa “SunshineGrrrl” Guillet, Matthew “The Twitching King” Stinson, Michael “Ask a Shoanti” Kortes, Mike “taig” Welham, Neil Spicer, Ross Byers, Russ Taylor, Paris Crenshaw, Tae-Bin “Nerrat Dei” Gulliver, Theodore “Zuxius” Thompson, Troy E. Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/455d26afa42476de.json",
+    "web": "https://codex.pipsprojects.com/#/e/455d26afa42476de"
+  },
+  "license": "OGL 1.0a"
+}

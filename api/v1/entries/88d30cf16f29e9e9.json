@@ -1,0 +1,28 @@
+{
+  "id": "88d30cf16f29e9e9",
+  "name": "Frozen Acid",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "acid",
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [acid, cold]; Level magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (a vial of acid)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration 2 rounds\n\nSaving Throw none; Spell Resistance yes\n\nYou hurl a fist-sized snowball made from frozen acid.\n\nYou must succeed on a ranged touch attack to hit your target. On a successful hit, you deal 1d6 points of cold damage per two caster levels (maximum 5d6). At the beginning of your next turn, the ball of frozen acid melts, dealing 1d4 points of acid damage per two caster levels (maximum 5d4). The target may spend a full-round washing off the acid with at least a gallon of water. If the target does so prior to the beginning of your next turn, the subject takes no acid damage from the melted acid.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/88d30cf16f29e9e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/88d30cf16f29e9e9"
+  },
+  "license": "OGL 1.0a"
+}

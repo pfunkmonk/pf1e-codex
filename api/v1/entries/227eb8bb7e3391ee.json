@@ -1,0 +1,26 @@
+{
+  "id": "227eb8bb7e3391ee",
+  "name": "Prismatic Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level or until discharged (D)\n\nYou are surrounded by an aura of scintillating colors.\n\nThis shimmering aura grants you concealment and any creature that hits you with a non-reach melee weapon or a melee natural weapon is subject to a random prismatic effect. Roll on the prismatic spray table. The aura cannot generate two effects at once, so reroll any 8s rolled. Each time an effect is expended, that color dissipates from the aura and must be re-rolled if rolled on the table on future rounds. Once all the colors have been used, the spell ends. An attacker is entitled to the applicable saves, and spell resistance applies.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/227eb8bb7e3391ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/227eb8bb7e3391ee"
+  },
+  "license": "OGL 1.0a"
+}

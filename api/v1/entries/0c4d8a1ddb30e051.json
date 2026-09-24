@@ -1,0 +1,33 @@
+{
+  "id": "0c4d8a1ddb30e051",
+  "name": "Solar Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 6,
+      "cleric": 5,
+      "oracle": 5,
+      "sorcerer": 6,
+      "paladin": 4,
+      "wizard": 6,
+      "warpriest": 5
+    },
+    "desc": [
+      "fire",
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [fire, light]; Level arcanist 6, cleric 5, oracle 5, sorcerer 6, paladin 4, wizard 6, warpriest 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a pinch of magnesium)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nThis spell works as the warm shield version of the fire shield, except the flames are golden, increasing the light level up to bright light. Half the damage dealt by this spell is fire damage, and the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks. Any creature taking damage from this spell must succeed at a Reflex saving throw or be blinded for 1 round and affected as if exposed to 1 round of natural sunlight.\n\nMercy of the Sun Copyright 2026 Varyag's Forge Author: Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0c4d8a1ddb30e051.json",
+    "web": "https://codex.pipsprojects.com/#/e/0c4d8a1ddb30e051"
+  },
+  "license": "OGL 1.0a"
+}

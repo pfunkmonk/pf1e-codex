@@ -1,0 +1,30 @@
+{
+  "id": "fce8de1b46ef8b7a",
+  "name": "Cone of Boiling Acid",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 6,
+      "shaman": 7,
+      "wizard": 6,
+      "witch": 7
+    },
+    "desc": [
+      "acid",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [acid, fire]; Level magus 6, shaman 7, sorcerer/wizard 6, witch 7\n\nEFFECT\n\nRange 60 ft.\n\nThis spell functions as cone of boiling acid except the cone is larger and the maximum damage is increased to 15d6.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fce8de1b46ef8b7a.json",
+    "web": "https://codex.pipsprojects.com/#/e/fce8de1b46ef8b7a"
+  },
+  "license": "OGL 1.0a"
+}

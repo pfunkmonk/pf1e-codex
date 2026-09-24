@@ -1,0 +1,17 @@
+{
+  "id": "13dd193825f388a0",
+  "name": "Ice Mephit Familiar",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Icebound",
+  "book": "Icebound",
+  "facets": {
+    "bk": "Icebound"
+  },
+  "body": "ICE MEPHIT FAMILIAR\nCR —\n\nXP —\nN Small outsider (cold)\nInit +6; Senses darkvision 60 ft.; Perception +6\n\nDEFENSE\n\nAC 21, touch 14, flat-footed 18 (+2 Dex, +1 dodge, +7 natural, +1 size)\nhp 20 (7 HD); fast healing 2 (when below freezing)\nFort +3; Ref +5; Will +5\nDefensive Abilities improved evasion; DR 5/magic; Immune cold\nWeaknesses vulnerability to fire\n\nOFFENSE\n\nSpeed 30 ft., fly 40 ft. (average)\nMelee 2 claws +5 (1d3+1)\nSpecial Attacks breath weapon (15–foot cone every 4 rounds, 1d4 cold pus sickened 3 rounds, Reflex DC 13 for half and negates), deliver touch spells\nSpell-like Abilities (CL 6th):\n\n1/hour—magic missile\n1/day—chill metal (DC 14), summon (level 2, 1 ice mephit 25%)\n\nSTATISTICS\n\nStr 13, Dex 15, Con 12, Int 9, Wis 11, Cha 14\nBase Atk +3; CMB +3; CMD 16\nFeats Dodge, Improved Initiative\nSkills Bluff +9, Fly +10, Perception +6, Stealth +13\nLanguages Auran, Ulnat; empathic link with master, speak with master\nSQ share spells\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/13dd193825f388a0.json",
+    "web": "https://codex.pipsprojects.com/#/e/13dd193825f388a0"
+  },
+  "license": "OGL 1.0a"
+}

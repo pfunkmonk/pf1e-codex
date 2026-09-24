@@ -1,0 +1,23 @@
+{
+  "id": "9a55a2c4f7f99dea",
+  "name": "Withering Bomb Admixture",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level alchemist 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nThe nature of all bombs you create and throw during this extract’s duration is changed.\n\nWhen you throw a bomb and hit a direct target, black tendrils of necromantic energy writhe out from the bomb. These tendrils suck the strength from the target, and it takes a penalty to Strength equal to 1d4+1 / two caster levels (maximum 1d4 +4). A successful Fortitude save reduces this penalty by half.\n\nThis penalty to Strength lasts for 1 round/caster level.\n\nMultiple penalties assessed in this way do not stack; instead, when multiple withering bomb admixtures effect a target, apply only the largest penalty.\n\nWhen you throw a bomb while this extract is in effect and you miss your target, the tendrils are not released.\n\nYou must target a creature and not a square for the tendrils to be released.\n\nThis extract has no effect on any discoveries that modify your bombs, and you can only have one admixture effect (formula with the word bomb admixture in its title) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the new admixture becomes active.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9a55a2c4f7f99dea.json",
+    "web": "https://codex.pipsprojects.com/#/e/9a55a2c4f7f99dea"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "9638ea08f017f050",
+  "name": "Drugged Stupor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "lathspell": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [mind-affecting]; Level bard 2, cleric/oracle 2, lathspell 2, mesmerist 2, psychic 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 minute\nComponents S, M (some kind of poisonous fungi or drug)\n\nEFFECT\n\nRange touch\nTarget one helpless creature\nDuration 1 hour/level (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou place the helpless creature in a clouded, confused state. The target cannot think clearly, take actions and is unaware of their surroundings. The target can be moved or forced to walk along, if guided by another creature.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9638ea08f017f050.json",
+    "web": "https://codex.pipsprojects.com/#/e/9638ea08f017f050"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "fc9bbb3538fb4615",
+  "name": "Control Temperature",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "elementer": 3,
+      "psychic": 3,
+      "shaman": 3
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level druid 3, elementer 3, psychic 3, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a thin tube of mercury)\n\nEFFECT\n\nRange 40 ft./level\nArea 40 ft./level radius cylinder, 40 ft. high\nDuration 10 min./level (D)\nSaving Throw Fort negates; Spell Resistance no\n\nDESCRIPTION\n\nYou alter the temperature of the surrounding area. You can choose to either raise or lower the temperature: how much you can alter the temperature depends on your caster level, as shown above on Table: Control Temperature (below), which is organized from coldest to warmest. A creature in the area might have to make Fortitude saves to ignore its effects.\n\nYou can concentrate on the spell at any time to change the temperature level by one step in either direction, assuming you have the caster level necessary to create the chosen temperature level.\n\nTable: Control Temperature\nCaster Level\tTemperature Level\tTemperature\n9th\tExtreme Cold\tBelow -20° F\n7th\tSevere Cold\t-19 ° F – -1° F\n5th\tCold\t0° F – 39° F\n3rd\tTemperate\t40 ° F – 90° F\n5th\tVery Hot\t91° F – 110° F\n7th\tSevere Heat\t111° F – 140° F\n9th\tExtreme Heat\tAbove 140° F\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fc9bbb3538fb4615.json",
+    "web": "https://codex.pipsprojects.com/#/e/fc9bbb3538fb4615"
+  },
+  "license": "OGL 1.0a"
+}

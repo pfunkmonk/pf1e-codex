@@ -1,0 +1,27 @@
+{
+  "id": "bb722cc787ab7511",
+  "name": "Bone Twister",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "death mage": 6,
+      "shaman": 6,
+      "wizard": 6,
+      "white necromancer": 6
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, death mage 6, shaman 6, sorcerer/wizard 6, white necromancer 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a hammer)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect 20-ft. Radius, 40-foot-high tornado of bones\nDuration 1 round/level (D)\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou must center the spell on one or more corpses that have bones. The bones are torn from the bodies within the radius, making them not considered whole for the purposes of raise dead or similar spells. The bones are then shattered and turned into deadly shards that spin in a tornado. Those within the tornado, with the exception of you if applicable, take 1d6 slashing, piercing, and bludgeoning damage per 2 caster levels.\n\nThis damage is subject to damage reduction but not spell resistance but a successful Reflex save halves the damage taken during the round.\n\nAs a move action on your round you can direct the tornado to move up to 30 feet in the direction you designate.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb722cc787ab7511.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb722cc787ab7511"
+  },
+  "license": "OGL 1.0a"
+}

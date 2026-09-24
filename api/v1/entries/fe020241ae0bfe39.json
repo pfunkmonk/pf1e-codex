@@ -1,0 +1,27 @@
+{
+  "id": "fe020241ae0bfe39",
+  "name": "Fool’s Luck",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level cleric/oracle 2, druid 2, paladin 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nThe transmuted creature becomes luckier with respect to traps and hazards. The spell grants a +2 luck bonus to all saves against traps, hazards, diseases and poisons. The subject also gains a +2 luck bonus to Perception and Disable Device checks. While subject to fool’s luck, any damage dealt by traps or hazards is reduced by 5 points.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe020241ae0bfe39.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe020241ae0bfe39"
+  },
+  "license": "OGL 1.0a"
+}

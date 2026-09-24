@@ -1,0 +1,17 @@
+{
+  "id": "83760178b32f0682",
+  "name": "Daemon, Alorbidaemon",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Mechanical Monsters",
+  "book": "Mechanical Monsters",
+  "facets": {
+    "bk": "Mechanical Monsters"
+  },
+  "body": "Alorbidaemon\nCR 12\n\nXP 19,200\nNE Large outsider (daemon, evil, extraplanar)\nInit +12; Senses blindsense (life) 60 ft., darkvision 120 ft.; Perception +23\nAura hazardous reality (100 ft., DC 21)\n\nDEFENSE\n\nAC 26, touch 18, flat-footed 17 (+8 Dex, +1 dodge, +8 natural, -1 size)\nhp 190 (20d10+80)\nFort +17, Ref +23, Will +20\nImmune acid, death effects, disease, poison; Resistances cold 10, electricity 10, fire 10\n\nOFFENSE\n\nSpeed 10 ft., fly 50 ft. (Su, average)\nMelee slam +28 (3d10+4 bludgeoning)\nSpace 10 ft.; Reach 5 ft.\nSpecial Attacks virtual mortality\nSpell-Like Abilities (CL 12th; concentration +17)\n\n1/day—hallucinatory terrain (DC 19), phantasmal killer (DC 19)\n3/day—blur (DC 17), displacement (DC 18), major image (DC 18), lightning bolt (DC 18)\n\nSTATISTICS\n\nStr 18, Dex 26, Con 14, Int 16, Wis 16, Cha 21\nBase Atk +20; CMB +25; CMD 43\nFeats Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Weapon Finesse\nSkills Bluff +25, Diplomacy +25, Intimidate +25, Knowledge (arcana) +23, Knowledge (planes) +23, Perception +23, Sense Motive +23, Spellcraft +23, Stealth +28\nLanguages Abyssal, Infernal; telepathy 100 ft.\n\nSPECIAL ABILITIES\n\nHazardous Reality (Su)\n\nAn alorbidaemon can distort reality around themself. Each creature within 100 feet of the alorbidaemon must succeed at a DC 21 Will save or take a –2 penalty to saving throws against illusions; this penalty persists while the creature remains in the aura and for 1 minute afterward. Any creature taking this penalty also takes 4d10 damage at the end of each turn that they’re within an area of hallucinatory terrain or major image (Will DC 21 negates), as the illusory threats attack them and inflict mental strain. A creature that succeeds at either Will save against hazardous reality is immune to that alorbidaemon’s aura for 24 hours. This is a mind-affecting effect.\n\nVirtual Mortality (Su)\n\nAs a standard action, an alorbidaemon can focus on a single living creature within 60 feet that has immediate access to a personal comm unit or datapad.\n\nUnless the target succeeds at a DC 21 Will save, the device immediately activates a vidgame that compels the target to play it. While the vidgame is active, the target takes a –2 penalty to AC and saving throws. The target can take a move action to play the vidgame, allowing it to attempt another DC 15 Will save to end the effect. At the end of each turn that the target doesn’t take this move action, it begins to lose the vidgame and takes 3d8 damage from the vidgame as deadly feedback. Whether or not a creature succeeds at its saving throw against this ability, it’s immune to further instances of this effect for 24 hours. This is a mind-affecting effect.\n\nABOUT\n\nEnvironment any\nOrganization solitary\nTreasure standard\n\nThis diminutive figure resembles a withered humanoid wedged into a floating mechanical chair, with wires running into its body and flashing screens surrounding it.\n\nMechanical Monsters © 2023, Legendary Games; Authors: Jason Nelson, Tom Phillips, Mike D. Welham, Matt Goodall, Alex Riggs, Matt Daley.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83760178b32f0682.json",
+    "web": "https://codex.pipsprojects.com/#/e/83760178b32f0682"
+  },
+  "license": "OGL 1.0a"
+}

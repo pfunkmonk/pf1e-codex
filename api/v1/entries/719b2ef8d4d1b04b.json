@@ -1,0 +1,27 @@
+{
+  "id": "719b2ef8d4d1b04b",
+  "name": "Scalding Cauldron",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation) [stronghold]; Level alchemist 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget 10-ft.-radius cylinder, up to 40 ft. high\nDuration 1 round; see text\nSaving Throw Reflex half or Reflex negates (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou create huge cauldron atop a structure within your stronghold, which tips over and spills its burning-hot contents (such as oil, scalding water, ashes, sand, etc.) upon those below. The flow from the scalding cauldron must be adjacent to a wall, and all creatures failing their saves take 4d6 points of fire damage (Reflex half). In addition, the burning effluent from the scalding cauldron sticks to creatures failing their Reflex saves for one round per three caster levels, dealing an additional 2d6 points of damage each round on your turn.\n\nThe scalding material created by the cauldron is not flammable, but it does make the floor at the bottom of the cylinder, as well as all walls adjacent to the cylinder and any rope, ladder, or similar item in the area, as slippery as a grease spell for a number of rounds equal to one-third your caster level.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/719b2ef8d4d1b04b.json",
+    "web": "https://codex.pipsprojects.com/#/e/719b2ef8d4d1b04b"
+  },
+  "license": "OGL 1.0a"
+}

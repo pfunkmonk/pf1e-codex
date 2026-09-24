@@ -1,0 +1,27 @@
+{
+  "id": "f0adc043b107171d",
+  "name": "Shape Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [water]; Level druid/shaman 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (the water to be shaped)\n\nEFFECT\n\nRange touch\nTarget water, up to 10 cubic ft. + 1 cubic ft./level\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou can shape water into any hard object. The object is solid but fine details aren’t possible. There is a 30% chance that any shapes that have moving parts simply don’t work.\n\nAquatic spellcasters use this spell to construct items not easily fashioned underwater such as doors, walls, chests, bottles, cups, and coffins. The items are translucent and have a hard, glass-like consistency, with hardness 5 and 5 hp per inch of thickness.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f0adc043b107171d.json",
+    "web": "https://codex.pipsprojects.com/#/e/f0adc043b107171d"
+  },
+  "license": "OGL 1.0a"
+}

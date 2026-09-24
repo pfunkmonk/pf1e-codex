@@ -1,0 +1,28 @@
+{
+  "id": "ffdb648f3c621bb4",
+  "name": "Battlement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 8,
+      "vanguard": 6
+    },
+    "desc": [
+      "earth",
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [earth, metal]; Level sorcerer/wizard 8, vanguard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a hammer, plus gold powder worth 100 gp)\n\nEFFECT\n\nRange 0 ft.\nEffect 10-ft.-high wall, up to 5 ft. long/level (S)\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a battlement of metal and stone that you and your allies can fight from.\n\nThe wall can be up to 5 feet long per caster level and can be in any shape you desire, but must form into a closed loop with either itself or nearby walls or structures. The wall is 5 feet thick. Each 5-foot section of the wall has 180 hit points and hardness 10. A section of the wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 60.\n\nThe top of the wall has a battlement suitable for walking on. It has regularly-spaced arrow slits and openings for archers to fire through. The inside of the created wall has your choice of either a single set of stairs leading to the wall’s top (in which case, the stairs take up a 5 foot by 10 foot space adjacent to one wall) or up to one ladder per four caster levels built into the wall directly. You can, at your choice, also include an iron door in one part of the wall (60 hit points, hardness 10, DC 28 to break). The door is barred upon being created, if you desire.\n\nLike any other wall made of metal, the metal in the wall is subject to rust, perforation, and other natural phenomena. Metal created by this spell is not suitable for use in the creation of other objects and is worthless.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ffdb648f3c621bb4.json",
+    "web": "https://codex.pipsprojects.com/#/e/ffdb648f3c621bb4"
+  },
+  "license": "OGL 1.0a"
+}

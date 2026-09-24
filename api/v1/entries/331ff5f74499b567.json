@@ -1,0 +1,32 @@
+{
+  "id": "331ff5f74499b567",
+  "name": "Spell Clear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "SHM Publishing",
+  "book": "SHM Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "bloodrager": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "elemental school earth": 1,
+      "metal": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "SHM Publishing"
+  },
+  "body": "School transmutation; Level bard 1, bloodrager 1, cleric/oracle 1, inquisitor 1, paladin 1, psychic 1, shaman 1, sorcerer/ wizard 1, witch 1; Domain earth 1; Subdomain metal 1; Elemental School earth 1, metal 1\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange touch\n\nTarget creature touched\n\nDuration instantaneous\n\nThis spell repairs a damaged firearm held by the target creature, restoring 1d6 hit points to the firearm and removing the broken condition, as long as that condition was gained by a firearm misfire.\n\nSavage Company © 2020 SHM Publishing, Owen Martin, Adam Martin, Bryan Miller, David Thomas, and Doug Morgan",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/331ff5f74499b567.json",
+    "web": "https://codex.pipsprojects.com/#/e/331ff5f74499b567"
+  },
+  "license": "OGL 1.0a"
+}

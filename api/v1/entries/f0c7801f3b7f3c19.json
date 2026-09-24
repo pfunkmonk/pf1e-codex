@@ -1,0 +1,32 @@
+{
+  "id": "f0c7801f3b7f3c19",
+  "name": "Invader’s Bane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "cleric": 3,
+      "inquisitor": 3,
+      "medium": 3,
+      "paladin": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "curse",
+      "stronghold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [curse, stronghold]; Level antipaladin 3, cleric 3, inquisitor 3, medium 3, paladin 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea see text\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou name a single specific kind of creature and rebuke them for daring to invade your stronghold.\n\nYou must designate the invaders specifically, not just as a creature type or subtype; hence, you could designate red dragons but not all dragons, or frost giants but not all humanoids of the giant subtype. You also could designate members of a specific religious or political group as your invaders. There must be at least five creatures of the designated type within your stronghold when you cast the spell or the spell fails.\n\nAllies within your stronghold gain a luck bonus on damage rolls equal to one-third your caster level against your chosen invaders. They also apply this bonus on attack rolls made to confirm a critical hit and on Intimidate checks made to demoralize the invaders.\n\nIf your designated invaders are one of your favored enemies, the bonus this spell provides increases by 1.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f0c7801f3b7f3c19.json",
+    "web": "https://codex.pipsprojects.com/#/e/f0c7801f3b7f3c19"
+  },
+  "license": "OGL 1.0a"
+}

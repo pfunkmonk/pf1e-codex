@@ -1,0 +1,30 @@
+{
+  "id": "173de1bc9d495864",
+  "name": "Throne of ash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "ranger": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [fire]; Level druid 3, ranger 3, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a handful of ash)\n\nEFFECT\n\nRange 20 ft.\n\nArea radius aura centered on you\nDuration 1 round/level (D)\nSaving Throw Reflex partial, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a mass of burning ash under you. You are 20 feet higher at the center, the ash pile then drops 5 feet down and then slopes down to the edges. The area is considered difficult terrain to all creatures, aside from yourself, due to the shifting ash and the angle of the hill.\n\nAdditionally, targets within the area take 1d6 fire damage and must make a Reflex save or catch fire.\n\nFlammable, unattended objects catch fire after 1 round.\n\nAny creature that does not move on their turn sinks down as if in quicksand.\n\nYour movement is not impeded, in fact your speed is doubled while in the area and you can get up to the apex of the pile as if it were flat.\n\nAt the end of the duration, the ash vanishes, leaving no aftereffects (except the damage and burning objects or creatures).\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/173de1bc9d495864.json",
+    "web": "https://codex.pipsprojects.com/#/e/173de1bc9d495864"
+  },
+  "license": "OGL 1.0a"
+}

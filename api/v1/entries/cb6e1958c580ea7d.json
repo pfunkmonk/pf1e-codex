@@ -1,0 +1,27 @@
+{
+  "id": "cb6e1958c580ea7d",
+  "name": "Devil’s Charm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level bard 2, cleric/oracle 2, druid/shaman 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a devil’s sweat)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 6 rounds\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nGlib and full of guile, you suddenly become a paragon of stunning personality-though quite briefly. You gain a +6 bonus to Charisma the round after casting the spell, and this bonus declines by 1 at the start of each following round. The bonus is +5 in the next round, +4 the round after that, and so on, ending in the seventh round after casting.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb6e1958c580ea7d.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb6e1958c580ea7d"
+  },
+  "license": "OGL 1.0a"
+}

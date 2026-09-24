@@ -1,0 +1,28 @@
+{
+  "id": "3410e4d9e62f5f5c",
+  "name": "Internal Combustion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation [fire]; Level cleric/oracle 1, druid 1, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a pumice stone)\n\nEFFECT\n\nRange touch\n\nTarget living creature touched\n\nDuration 5 rounds\n\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nYour touch increases the subject’s internal body temperature. When you cast this spell, waves of heat emanate from your hand. You must succeed on a melee touch attack to hit the target.\n\nOn the first round of the spell, the target feels uncomfortably warm but takes no damage. On subsequent rounds, the effects intensify. The following table describes the spell’s effects on most creatures as well as its effects on creatures with the cold subtype.\n\nEach round’s effects are not cumulative.\n\nAny cold intense enough to damage the creature negates fire damage from the spell on a point-for-point basis, but not the distracted, sickened, nauseated, or dazed effects. An affected target must attempt a Fortitude save each round at the beginning of its turn.\n\nA successful save negates the distracted, sickened, nauseated, or dazed effect for that round and reduces the fire damage by half. This spell has no effect on creatures with the fire subtype and those immune to fire damage.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3410e4d9e62f5f5c.json",
+    "web": "https://codex.pipsprojects.com/#/e/3410e4d9e62f5f5c"
+  },
+  "license": "OGL 1.0a"
+}

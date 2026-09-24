@@ -1,0 +1,23 @@
+{
+  "id": "a735ee1c469e31db",
+  "name": "Curse of Infirmity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of ground bone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration Instantaneous or 1 minute/caster level\nSaving Throw Will partial (see below); Spell Resistance yes\n\nDESCRIPTION\n\nYou reach out and magically drain the life force from one humanoid, animal, or magical beast. The subject rapidly ages, advancing to the beginning of the next age category. Thus, an adult target is advanced to the first year of middle age, a target in middle age is advanced to old, and an old target is advanced to venerable. Targets that are already in the venerable age category die of old age if struck by this spell.\n\nAging caused by this spell reduces Strength, Dexterity and Constitution by the appropriate amounts. Intelligence, Wisdom and Charisma scores are not affected, nor are skills and memories. Targets who suffer no penalties from aging, such as druids with the timeless body class ability, are not affected by this spell unless pushed past venerable age.\n\nIf the target succeeds on a Will save, the advanced age is only temporary, lasting for 1 minute per caster level with a successful save. Otherwise, the effects are instantaneous and cannot be dispelled (though the target may be restored to youth by the spells restore true form, limited wish, wish or miracle).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a735ee1c469e31db.json",
+    "web": "https://codex.pipsprojects.com/#/e/a735ee1c469e31db"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "1e02475ebeca381e",
+  "name": "Fiery Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 5,
+      "wizard": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [fire]; Level druid/shaman 5, sorcerer/wizard 4\nComponents V, S, M (pinch of sulfur)\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration 2 rounds/level\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nThe blood of the target becomes fiery and burns with a hot, purifying flame. The target glows as brightly as a torch and acquires fast healing 4 for the duration of the spell. In addition, any opponent that successfully strikes the target with a piercing or slashing attack takes 1 hp fire damage for every die of damage inflicted on the target of the spell.\n\nMythic: The target of the spell gains fire resistance 10.\n\nThe fire damage that an opponent takes when it hits the target with a piercing or slashing weapon is increased by a number equal to your mythic tier.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e02475ebeca381e.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e02475ebeca381e"
+  },
+  "license": "OGL 1.0a"
+}

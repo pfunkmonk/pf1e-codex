@@ -1,0 +1,23 @@
+{
+  "id": "48765344fa15fb8a",
+  "name": "Heavy Burden",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (transmutation); Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a lodestone worth 100 gp)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one creature per two levels\nDuration 1 round/level\nSaving Throw none; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell makes targets’ limbs feel remarkably heavy, making them drop all held items and slowing their movement by 20 ft. (40 ft. for flying movement). If this penalty reduces movement to zero, targets can no longer take move actions, use items, or cast spells with material components, though they can defend flat-footed.\n\nAt the end of the spell duration, affected creatures must make a Fortitude save or be exhausted. Creatures that successfully save are fatigued.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/48765344fa15fb8a.json",
+    "web": "https://codex.pipsprojects.com/#/e/48765344fa15fb8a"
+  },
+  "license": "OGL 1.0a"
+}

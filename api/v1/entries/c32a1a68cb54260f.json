@@ -1,0 +1,26 @@
+{
+  "id": "c32a1a68cb54260f",
+  "name": "Baleful Alter Other",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "summoner": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (polymorph); Level magus 4, sorcerer/wizard 4, summoner 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration permanent\n\nSaving Throw Fort negates, Will partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nAs alter other, except that you change the subject into a Small or Medium humanoid of no more than 1 HD. If the new form would prove fatal to the creature, such as an aquatic creature not in water, the subject gets a +4 bonus on the save.\n\nIf the spell succeeds, the subject must also make a Will save. If this second save fails, the creature loses all abilities that depend upon its race or form, including extraordinary, supernatural, and spell-like abilities, its racial traits, and the ability to cast spells (if its race had the ability). Additionally, the creature gains the racial traits of those of its new form and all of its ability scores become equal to 10 + any racial ability score modifiers that its new form possesses. It still retains its class and level (or HD), as well as all benefits deriving therefrom (such as base attack bonus, base save bonuses, and hit points). It retains all class features it possesses that aren’t tied to the creature’s race.\n\nAny polymorph effects on the target are automatically dispelled when a target fails to resist the effects of baleful alter other, and as long as baleful alter other remains in effect, the target cannot use other polymorph spells or effects to assume a new form. Incorporeal or gaseous creatures are immune to baleful alter other, and a creature with the shapechanger subtype can revert to its natural form as a standard action.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c32a1a68cb54260f.json",
+    "web": "https://codex.pipsprojects.com/#/e/c32a1a68cb54260f"
+  },
+  "license": "OGL 1.0a"
+}

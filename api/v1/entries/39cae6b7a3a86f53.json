@@ -1,0 +1,23 @@
+{
+  "id": "39cae6b7a3a86f53",
+  "name": "Electroshock Coil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 5
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (electricity); Level machinesmith 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a coil of copper wire)\n\nEFFECT\n\nRange touch\nTarget one metallic melee weapon touched\nDuration 1 minute/level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell attaches a charged wrapping of wire to the base of the blade or the metal headpiece of the weapon, sending a powerful current of electricity through it. The weapon now deals an additional 3d6 electricity damage that does not stack with the shock weapon property. Also, whenever the weapon confirms a critical hit, the target must now succeed on a Reflex save or be stunned for 2d4 rounds.\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/39cae6b7a3a86f53.json",
+    "web": "https://codex.pipsprojects.com/#/e/39cae6b7a3a86f53"
+  },
+  "license": "OGL 1.0a"
+}

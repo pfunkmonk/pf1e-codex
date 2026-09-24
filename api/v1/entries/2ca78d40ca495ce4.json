@@ -1,0 +1,28 @@
+{
+  "id": "2ca78d40ca495ce4",
+  "name": "Elemental Eye",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 3,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [see text]; Level druid 3, shaman 3, witch 3\n\nCasting Time 1 round\n\nComponents V, S, F (a small object representing one of the five elements [earth, fire, metal, water, wood])\n\nRange long (400 ft. + 40 ft./level)\n\nTarget the focus item\n\nDuration see text (D)\n\nSaving Throw none; Spell Resistance no\n\nWood: Spells with this descriptor include those that directly create, utilize, or manipulate plant or wood in some manner or conjure creatures with the plant subtype or composed of wood. Such spells are considered to belong to the Wood element (for geomancers) and the Wood elemental school (for wood elementalists).\n\nYou infuse the object with divination magics. This allows you to gain the benefits of clairaudience/clairvoyance centered on the infused object for 1 minute per level. The object is considered the sensor for this effect.\n\nOnce you have infused the object, you have 1 hour per caster level and can activate its effect as a standard action.\n\nThis spell gains the relevant descriptor based on which element is employed.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ca78d40ca495ce4.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ca78d40ca495ce4"
+  },
+  "license": "OGL 1.0a"
+}

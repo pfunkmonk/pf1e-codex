@@ -1,0 +1,29 @@
+{
+  "id": "c65505d5a91156ea",
+  "name": "Cobra Spit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 2,
+      "druid": 2,
+      "legendary ninja": 2,
+      "witch": 2
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (creation) [poison]; Level alchemist 2, druid 2, legendary ninja 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a cobra’s fang)\n\nEFFECT\n\nRange 10 ft.\n\nArea 10-ft. cone-shaped burst\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance no\n\nDESCRIPTION\n\nYou spew forth a spray of virulent venom, causing all creatures in the area to take 1d3 points of Constitution damage. In addition, creatures failing their saves are dazzled for 1 minute by stinging in their eyes. Creatures rolling a natural 1 on their saving throw are instead blinded for 1 minute.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c65505d5a91156ea.json",
+    "web": "https://codex.pipsprojects.com/#/e/c65505d5a91156ea"
+  },
+  "license": "OGL 1.0a"
+}

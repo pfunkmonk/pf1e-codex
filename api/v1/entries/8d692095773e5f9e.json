@@ -1,0 +1,36 @@
+{
+  "id": "8d692095773e5f9e",
+  "name": "Aimless Arrow, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 2,
+      "bard": 2,
+      "lathspell": 2,
+      "medium": 2,
+      "mesmerist": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "spiritualist": 2,
+      "witch": 2
+    },
+    "desc": [
+      "curse",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [curse, mind-affecting]; Level adept 2, bard 2, lathspell 2, medium 2, mesmerist 2, occultist 2, psychic 2, sorcerer/wizard 2, spiritualist 2, witch 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, M (a broken arrow)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou curse the target’s ability to target at range. For the duration of the spell any ranged attack, spell or otherwise, or targeted spell that operates at range but first pass a 20% miss chance as the affected creature is unable to place the target correctly.\n\nAimless Arrow, Greater\n\nSchool enchantment (compulsion) [curse, mind-affecting]; Level adept 3, bard 3, lathspell 3, medium 3, mesmerist 3, occultist 3, psychic 3, sorcerer/wizard 3, spiritualist 3, witch .\n\nThis spell functions as lesser aimless arrow except the target is subject to a 50% miss chance.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d692095773e5f9e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d692095773e5f9e"
+  },
+  "license": "OGL 1.0a"
+}

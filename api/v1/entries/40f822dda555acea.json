@@ -1,0 +1,26 @@
+{
+  "id": "40f822dda555acea",
+  "name": "Awaken Undead",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level cleric/oracle 7, shaman 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 24 hours\nComponents V, S, M (bone dust or grave dirt), DF\n\nEFFECT\n\nRange touch\nTarget undead touched\nDuration instantaneous\nSaving Throw none (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell grants intelligence to mindless undead such as skeletons and zombies. Undead creatures with Intelligence scores are unaffected. A mindless undead gains an Intelligence score of 1d6+4, subject to the limitation that it cannot become more intelligent than a typical living creature of the same kind. For example, an animal skeleton would simply have an Intelligence of 2 (no roll needed), while an orc may make a die roll but not exceed 8.\n\nThe newly awakened undead regains any proficiencies and abilities they had in life.\n\nAdditionally the awakened undead gains an additional +2 channel resistance. This bonus stacks with their normal channel resistance.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40f822dda555acea.json",
+    "web": "https://codex.pipsprojects.com/#/e/40f822dda555acea"
+  },
+  "license": "OGL 1.0a"
+}

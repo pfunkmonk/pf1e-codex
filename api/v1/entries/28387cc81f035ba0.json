@@ -1,0 +1,30 @@
+{
+  "id": "28387cc81f035ba0",
+  "name": "Freeze Potion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "oracle": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [cold]; Level alchemist 1, cleric/oracle 1, druid/shaman 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget potion vial or flask of Diminutive or smaller size\nDuration instantaneous\nSaving Throw Reflex negates (item); Spell Resistance yes\n\nDESCRIPTION\n\nA blue spark flies from your hand into a potion vial, drinking horn, waterskin or similar container, instantly freezing the contents. The contents melt normally and are not otherwise harmed, although it’s not possible to consume them in this state.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/28387cc81f035ba0.json",
+    "web": "https://codex.pipsprojects.com/#/e/28387cc81f035ba0"
+  },
+  "license": "OGL 1.0a"
+}

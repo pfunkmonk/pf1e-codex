@@ -1,0 +1,31 @@
+{
+  "id": "e74ad67401fbb44e",
+  "name": "Glimpse Eternity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "oracle": 7,
+      "druid": 7,
+      "mesmerist": 6,
+      "psychic": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [mind-affecting]; Level bard 6, cleric/oracle 7, druid 7, mesmerist 6, psychic 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a pinch of sand from an hourglass)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou call forth ancient memories of the multiverse and channel that power into a target. Unless they succeed at a Will saving throw they experience thousands of years of memories in the blink of an eye dealing 15d6 nonlethal damage and 1d6 Intelligence drain. If your target is knocked unconscious by this damage they enter a catatonic slumber for 24 hours.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e74ad67401fbb44e.json",
+    "web": "https://codex.pipsprojects.com/#/e/e74ad67401fbb44e"
+  },
+  "license": "OGL 1.0a"
+}

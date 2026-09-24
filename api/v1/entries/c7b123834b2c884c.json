@@ -1,0 +1,31 @@
+{
+  "id": "c7b123834b2c884c",
+  "name": "Bed-Time Story",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 0,
+      "bard": 0,
+      "cleric": 0,
+      "mesmerist": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind-affecting]; Level adept 0, bard 0, cleric 0, mesmerist 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange 10 ft.\n\nTarget a creature of the same type as you\nDuration concentration, up to 1 minute per level\nSaving Throw Will negates (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou tell a story as part of the verbal components of bed-time story. Every minute you tell the story, starting at the end of the casting time, your target may attempt a Will save. If it fails, it becomes fatigued until the spell ends. If it is already fatigued, it becomes exhausted until the spell ends. If it is already exhausted, it falls into a natural eight hour sleep. Slapping, wounding, or loud noises awaken the creature. If the target is being threatened or attacked, it is immune to this effect.\n\nIf a creature succeeds on all Will saves on a particular casting on bed-time story, it is immune to your bed-time stories for 24 hours.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7b123834b2c884c.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7b123834b2c884c"
+  },
+  "license": "OGL 1.0a"
+}

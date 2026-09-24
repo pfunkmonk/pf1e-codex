@@ -1,0 +1,23 @@
+{
+  "id": "6132ff86e70cc3ae",
+  "name": "Wyrmfold",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 9
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange personal + variable radius; see below\nEffect 1-ft.-radius/level sphere, plus variable;see below\nDuration instantaneous\nSaving Throw none (Reflex special); Spell Resistance no\n\nDESCRIPTION\n\nA blending of teleport and plane shift, wyrmfold allows you to instantaneously travel to any point you have physically visited before, regardless of distance or planar location.\n\nThere is no chance of error, and any barrier or warding short of a deity’s intervention is ignored.\n\nThe wyrmfold effect has a variable radius, up to 1 ft. per caster level, but it is always a sphere centered on the caster. Everything inside the sphere is transported. Only volume matters; mass does not.\n\nYou can also sacrifice hp to increase the radius. Every 5 hp sacrificed adds 1 ft. to the radius, but you may not reduce yourself to less than 1 hp by casting wyrmfold.\n\nYou may also reduce the radius below the 1 ft. per level norm, but your body must always fit completely inside the sphere-you cannot reduce it in a way that only covers yourself partially.\n\nIf you are standing on a solid surface, a hemisphere of that material will travel with you to the destination and so with the air within the area of effect. Because wyrmfold transports everything in the radius, it creates a total vacuum immediately after the spell is cast. Everything within 100 ft. of the outer radius suffers from a gust of wind directed into the center of the void. Creatures or objects within 10 ft. of the outer radius take 5d8 hp bludgeoning damage from the air rushing in to fill the void (Fortitude halves).\n\nAny creature bisected by the outer edge of the radius of the wyrmfold must make a Reflex save; if successful, they may choose to either go entirely into or entirely out of the spell area. If the Reflex save fails, the creature is subject to a disintegrate spell (Fortitude save as normal, but with no spell resistance), but is otherwise in or out of the spell area as they chose. Any non-living object or matter inside the sphere is teleported to the destination, with any portion outside the sphere staying where it is (no save or spell resistance allowed).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6132ff86e70cc3ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/6132ff86e70cc3ae"
+  },
+  "license": "OGL 1.0a"
+}

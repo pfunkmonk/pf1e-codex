@@ -1,0 +1,31 @@
+{
+  "id": "ed4a34feb3a3899c",
+  "name": "Nostalgia",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, mind-affecting]; Level bard 2, mesmerist 2, psychic 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels).\n\nTarget one creature\nDuration 1 round/level (D); see text\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the target’s head with visions of good events and happy memories that leave them stuck in a bittersweet reverie. The target is dazed but may make a new save each round on their turn to break the effect.\n\nThis is a full round action that does not provoke attacks of opportunity.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed4a34feb3a3899c.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed4a34feb3a3899c"
+  },
+  "license": "OGL 1.0a"
+}

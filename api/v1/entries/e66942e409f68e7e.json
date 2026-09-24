@@ -1,0 +1,30 @@
+{
+  "id": "e66942e409f68e7e",
+  "name": "Elemental Surge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "air",
+      "earth",
+      "fire",
+      "or water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [air, earth, fire, or water]; Level druid/shaman 2, sorcerer/ wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (air, earth, fire, or water)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows a caster to manipulate one of the four elements and form it into a ray or sphere to hurl at a target. The element used as the material component dictates the resulting form of the spell.\n\nUsing any source of one of the elements (air, earth, fire, water), the caster manipulates and magnifies it into a more dense form suitable for hurling toward a single target. It requires a ranged touch attack to hit and deals 2d6 + 1 hp damage per caster level (maximum +10, type listed below). Each element also has a secondary effect.\n\nAir: Bludgeoning damage. If target is hit, it is subject to a bull rush attack from the force of the air. The CMB uses caster level in place of its base attack bonus.\n\nEarth: Bludgeoning damage. Debris trail from this attack blinds the target for one round. Fort negates.\n\nFire: Fire damage. Intense flames burn the target on the following round for 2d4 fire damage. Reflex negates.\n\nWater: Bludgeoning damage. Impact of the water dazes the target for one additional round. Fort negates.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e66942e409f68e7e.json",
+    "web": "https://codex.pipsprojects.com/#/e/e66942e409f68e7e"
+  },
+  "license": "OGL 1.0a"
+}

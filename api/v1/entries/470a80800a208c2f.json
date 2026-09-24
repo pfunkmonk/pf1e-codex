@@ -1,0 +1,28 @@
+{
+  "id": "470a80800a208c2f",
+  "name": "Flame Shuriken",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "legendary ninja": 2,
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [fire]; Level legendary ninja 2, magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a shuriken coated with pitch or oil)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one or more magical shuriken\nDuration 1 minute (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a handful of shuriken that crackle with multicolored flames. You create 1d4 flame shuriken, plus one additional shuriken per 2 caster levels (maximum +5). You are considered proficient with these flame shuriken and can hurl them as thrown weapons with a range increment of 10 feet, dealing 1d2 points of piercing damage and 1d4 points of fire damage. You may hurl up to three flame shuriken as a standard action, though if you hurl more than one flame shuriken as a standard action, all must target the same creature. Any remaining flame shuriken remain in your hand, shedding light as a torch, though they cannot be used to make melee attacks. Any flame shuriken unused after 1 minute are lost, as are any flame shuriken you are holding if you cast another spell with a somatic component.\n\nIf you hit the same creature with three flame shuriken in the same round, or if you confirm a critical hit with a flame shuriken, the burning projectiles burst in a puff of multicolored smoke, as if a smokestick had been lit in the target’s space.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/470a80800a208c2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/470a80800a208c2f"
+  },
+  "license": "OGL 1.0a"
+}

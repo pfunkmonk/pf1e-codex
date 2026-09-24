@@ -1,0 +1,33 @@
+{
+  "id": "78be7ad9832cf1f4",
+  "name": "Ray of Sunlight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "paladin": 2,
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level bard 2, cleric/oracle 2, druid 2, inquisitor 2, magus 2, paladin 2, shaman 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one ray\nDuration 1 round\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou release a bright beam of light. You must succeed on a ranged touch attack with the ray to deal damage to a target. The target is blinded for 1 round and takes 2d6 points of damage. A successful Reflex save negates the blinding. Creatures harmed by sunlight and undead take 4d6 damage. Undead that are particularly adverse to sunlight, like vampires, take 6d6 damage.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78be7ad9832cf1f4.json",
+    "web": "https://codex.pipsprojects.com/#/e/78be7ad9832cf1f4"
+  },
+  "license": "OGL 1.0a"
+}

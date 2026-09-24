@@ -1,0 +1,27 @@
+{
+  "id": "56e1ce8feabf604a",
+  "name": "Euphoric Ecstasy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute/level or permanent\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe target is overcome with feelings of pleasure and euphoria. He suffers a –4 morale penalty to AC, attack and damage rolls, skill or ability checks, and saving throws. In addition, he suffers 1d4 points of Wisdom damage until the spell ends.\n\nImmediately after the spell’s duration expires, if the target failed his initial Will save, he must succeed on a Fortitude save versus the spell’s DC or suffer 1 point of Wisdom drain. Only a greater restoration, limited wish, miracle, or wish restores this lost point.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/56e1ce8feabf604a.json",
+    "web": "https://codex.pipsprojects.com/#/e/56e1ce8feabf604a"
+  },
+  "license": "OGL 1.0a"
+}

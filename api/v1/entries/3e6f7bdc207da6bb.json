@@ -1,0 +1,26 @@
+{
+  "id": "3e6f7bdc207da6bb",
+  "name": "Wood Rot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4
+    },
+    "desc": [
+      "wood"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [wood]; Level druid 4\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange touch\n\nEffect one non-magical wooden object (or the volume of the object within 3 ft. of the touched point) or one plant creature\n\nDuration instantaneous\n\nSaving Throw none; Spell Resistance no\n\nWood: Spells with this descriptor include those that directly create, utilize, or manipulate plant or wood in some manner or conjure creatures with the plant subtype or composed of wood. Such spells are considered to belong to the Wood element (for geomancers) and the Wood elemental school (for wood elementalists).\n\nYou touch the wooden object and it begins to degrade with a terrible wood rot. The subject wooden object or part of a larger wooden object is destroyed and crumbles into wood dust.\n\nThis can be used to sunder a wooden or wooden-hafted weapon as a melee touch attack. This still provokes an attack of opportunity if you do not possess the requisite feats. If the object is a shield or other protection too large to be fully targeted, the wielder instead takes a – 1d6 penalty to their AC (to a maximum of the AC provided by the object).\n\nIf used on a plant creature, the melee touch deals 3d6 damage + 1 per caster level (maximum +15).\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3e6f7bdc207da6bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/3e6f7bdc207da6bb"
+  },
+  "license": "OGL 1.0a"
+}

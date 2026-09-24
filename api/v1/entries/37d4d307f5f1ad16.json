@@ -1,0 +1,27 @@
+{
+  "id": "37d4d307f5f1ad16",
+  "name": "Wall of Mithral",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 9,
+      "wizard": 7
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation) [earth]; Level druid 9, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a coin-sized piece of mithral worth 50 gp)\n\nEFFECT\n\nRange long (400 ft. +40 ft./level)\nEffect mithral wall whose area is up to on 5‑ft. square/level (S)\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou cause a mithral wall to spring into being. The wall cannot be conjured so that it occupies the same space as a creature or another object. A wall of mithral is 1 inch thick per three caster levels. You can double the wall’s area by halving its thickness. Each 5‑foot square of the wall has 30 hit points per inch of thickness and hardness 15. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 30 + 2 per inch of thickness.\n\nYou can create a wall of mithral in almost any shape you desire. The wall created need not be vertical, but it must merge with or sit upon a firm foundation. It can be used to bridge a chasm, for instance, or as a ramp. For this use, if the span is more than 20 feet, the wall must be arched and buttressed. This requirement reduces the spell’s area by half. The wall can be crudely shaped to allow crenelations, battlements, and so forth by likewise reducing the area.\n\nIf you desire, the wall can be created vertically resting on a flat surface but not attached to the surface, so that it can be tipped over to fall on and crush creatures beneath it. The wall is 50% likely to tip in either direction if left unpushed. Creatures can push the wall in one direction rather than letting it fall randomly. A creature must make a DC 30 Strength check to push the wall over. Creatures with room to flee the falling wall may do so by making successful Reflex saves. Any Large or smaller creature that fails takes 7d6 points of damage while fleeing from the wall. The wall cannot crush Huge and larger creatures.\n\nThe wall can also be a flat, vertical plane, suitable for sealing off a passage or closing a breach, in which case the wall inserts itself into any surrounding nonliving material if its area is sufficient to do so.\n\nIt is possible, but difficult, to trap mobile opponents within or under a wall of mithral, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.\n\nLike any wall, this wall is subject to disintegration or destruction from magical energies. Mithral created by this spell is not suitable for use in the creation of other objects and cannot be sold.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/37d4d307f5f1ad16.json",
+    "web": "https://codex.pipsprojects.com/#/e/37d4d307f5f1ad16"
+  },
+  "license": "OGL 1.0a"
+}

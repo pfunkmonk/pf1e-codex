@@ -1,0 +1,26 @@
+{
+  "id": "1f7d47cb02139fb6",
+  "name": "Conquering Countermand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 6,
+      "psychic": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level cleric/oracle 6, psychic 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of black wool)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect see text\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like dispel magic except you may add your caster level up to a maximum of +20 to the dispel check and you may only use this spell to make a targeted dispel or a counterspell. When you use this spell to make a counterspell attempt you may also make a caster level check with a DC of 25 + twice the level of the spell you are countering, if you succeed you may gain control of that spell. This means you cast the countered spell as an immediate action, treating it as though it had been cast from one of your own spell slots. Using your caster level and calculating save DC as normal for your spellcasting feature.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1f7d47cb02139fb6.json",
+    "web": "https://codex.pipsprojects.com/#/e/1f7d47cb02139fb6"
+  },
+  "license": "OGL 1.0a"
+}

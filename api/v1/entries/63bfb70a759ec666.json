@@ -1,0 +1,29 @@
+{
+  "id": "63bfb70a759ec666",
+  "name": "Spark of Hope",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 0,
+      "mesmerist": 0
+    },
+    "desc": [
+      "emotion",
+      "hope",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [emotion, hope, mind-affecting]; Level bard 0, mesmerist 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell imbues the target with a swelling sense of hope.\n\nFor the duration of the spell or until it is discharged, the target gets a +1 morale bonus on saves vs. fear and despair effects. On any other saving throw, attack roll skill check, the target may discharge the spell to gain a +1 morale bonus on that roll.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63bfb70a759ec666.json",
+    "web": "https://codex.pipsprojects.com/#/e/63bfb70a759ec666"
+  },
+  "license": "OGL 1.0a"
+}

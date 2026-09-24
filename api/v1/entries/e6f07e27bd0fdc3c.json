@@ -1,0 +1,28 @@
+{
+  "id": "e6f07e27bd0fdc3c",
+  "name": "Battering Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 2,
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [force]; Level bloodrager 2, magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a carved ram’s horn)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a bolt of force resembling a battering ram that strikes a single target you choose, dealing 1d6 points of force damage, plus one point per caster level when used to attack an object. The battering bolt deals full damage to objects. In addition, the force of the battering bolt allows you to make a combat maneuver check to bull rush a creature struck, using your caster level plus your Intelligence or Charisma modifier in place of your CMB. This bull rush does not provoke an attack of opportunity. If you target a door, wall, or similar structure, you can instead make an Intelligence or Charisma check in place of a Strength check to attempt to burst the door, with a bonus equal to one-half your caster level (maximum +5).\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6f07e27bd0fdc3c.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6f07e27bd0fdc3c"
+  },
+  "license": "OGL 1.0a"
+}

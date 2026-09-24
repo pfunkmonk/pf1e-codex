@@ -1,0 +1,27 @@
+{
+  "id": "cf2680899b52824e",
+  "name": "Undeath (death)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 2, sorcerer/wizard 3\n\nEFFECT\n\nDuration instantaneous\nSaving Throw none; Spell Resistance no\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word can only target the corpses of dead creatures. These creatures rise as either skeletons or zombies, as decided by the caster. These undead follow the caster’s commands to the best of their limited ability. They remain undead creatures until destroyed. The caster can create at most 2 Hit Dice worth of undead per caster level with each casting of a wordspell with this effect word. The caster can control no more than 4 HD per caster level of undead creatures. If additional undead are created, the caster chooses which undead to lose control of to get back under the limit.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf2680899b52824e.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf2680899b52824e"
+  },
+  "license": "OGL 1.0a"
+}

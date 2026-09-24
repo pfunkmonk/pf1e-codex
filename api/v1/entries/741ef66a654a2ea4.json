@@ -1,0 +1,17 @@
+{
+  "id": "741ef66a654a2ea4",
+  "name": "Skevill",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Alien Bestiary Companion",
+  "book": "Alien Bestiary Companion",
+  "facets": {
+    "bk": "Alien Bestiary Companion"
+  },
+  "body": "SKEVILL\nCR 3\n\nThe manifold eyes of this chitinous myriapod pulse with crackling inner light.\n\nXP 800\nN Medium vermin\nInit +1; Senses darkvision 60 ft., static sense; Perception +0\nAura static aura (15 ft., DC 14)\n\nDEFENSE\n\nAC 16, touch 11, flat-footed 15 (+1 Dex, +5 natural)\nhp 39 (6d8+12)\nFort +7, Ref +5, Will +2\nImmune electricity, vermin traits\n\nOFFENSE\n\nSpeed 30 ft., climb 20 ft.\nMelee bite +8 (1d6+4 plus 1d4 electricity)\nRanged static pulse +8 ranged touch (2d4 electricity)\nSpecial Attacks shocking bite\n\nSTATISTICS\n\nStr 18, Dex 13, Con 14, Int —, Wis 11, Cha 7\nBase Atk +4; CMB +8; CMD 19\nSkills Climb +12\n\nSPECIAL ABILITIES\n\nShocking Bite (Ex)\n\nA skevill gains a +3 bonus on attack rolls against creatures wearing metal armor, and if it hits the target’s touch AC its bite deals electricity damage to the target even if the attack otherwise would have missed.\n\nStatic Aura (Ex)\n\nA skevill emits an aura of static around itself to a radius of 15 feet. Every round, this energy coalesces around one creature at random in the area (including other skevills in the area, though these creatures are unharmed due to their immunity to electricity), dealing 1d4 points of electricity damage (DC 14 Reflex half). This does not require an action. The save DC is Constitution-based.\n\nStatic Pulse (Ex)\n\nAs a standard action, a skevill can target a creature within 30 feet with an arc of electricity. If it confirms a critical hit with its static pulse, the electricity arcs to strike all creatures adjacent to the target, dealing 1d4 points of electricity damage to each (DC 14 Reflex half). The save DC is Constitution-based.\n\nStatic Sense (Ex)\n\nA skevill can sense the presence and location of creatures wearing metal armor (or carrying a large amount of metal, at the GM’s discretion) as if it had blindsense 30 ft., or as blindsight if adjacent to the skevill.\n\nECOLOGY\n\nEnvironment any underground\nOrganization solitary, cluster (2–5), or swarm (6–12)\nTreasure none\n\nSkevills are subterranean predators that are attracted to large volumes of metal, including veins of unrefined ore. They are the bane of miners and robotic mining machines, scrambling their circuitry and gnawing on all exposed wiring and fragile metallic equipment. While able to metabolize raw ores and metals, they also draw sustenance from gorging themselves on organic material, extracting trace metallic residues along with flesh, blood, and bone.\n\nAlien Bestiary Companion © 2018, Legendary Games; Lead Designer: Jason Nelson. Authors: Anthony Adam, Kate Baker, John Bennet, Eytan Bernstein, Robert Brookes, Russ Brown, Duan Byrd, Jeff Dahl, Robyn Fields, Joel Flank, Matt Goodall, Robert J. Grady, Jim Groves, Steven T. Helt, Thurston Hillman, Eric Hindley, Tim Hitchcock, Nick Hite, Daniel Hunt, Mike Kimmel Marshall, Isabelle Lee, Jeff Lee, Lyz Liddell, Jason Nelson, Richard Pett, Tom Phillips, Alistair J. Rigg, Alex Riggs, Wendall Roy, Mike Shel, Neil Spicer, Todd Stewart, Russ Taylor, Rachel Ventura, Mike Welham, George Loki Williams, Scott Young.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/741ef66a654a2ea4.json",
+    "web": "https://codex.pipsprojects.com/#/e/741ef66a654a2ea4"
+  },
+  "license": "OGL 1.0a"
+}

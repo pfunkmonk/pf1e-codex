@@ -1,0 +1,17 @@
+{
+  "id": "032b705b32e762ba",
+  "name": "Clockwork Sentinel, Unwound",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Tower Vault Heist",
+  "book": "The Tower Vault Heist",
+  "facets": {
+    "bk": "The Tower Vault Heist"
+  },
+  "body": "UNWOUND CLOCKWORK SENTINEL\nCR 1\n\nThis man-sized figure formed from metal stands absolutely stationary, with only a faint whir giving away the presence of clockwork within.\n\nXP 400\nN Medium construct (clockwork)\nInit +2; Senses darkvision 60 ft.; Perception +5\n\nDEFENSE\n\nAC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)\nhp 31 (2d10+20)\nFort +1, Ref +3, Will +1\nImmune construct traits\nWeaknesses vulnerable to electricity\n\nOFFENSE\n\nSpeed 10 ft.\nMelee 1 slam +4 (1d6+2)\n\nSTATISTICS\n\nStr 14, Dex 14, Con -, Int -, Wis 10, Cha 2\nBase Atk +4; CMB +4, CMD 16\n\nSPECIAL ABILITIES\n\nClockwork Wind-up (Ex)\n\nAs a move action the Clockwork Sentinel can wind up its second arm. Once wound then on its next turn it has the ability to make a full attack, gaining a second slam attack with the same statistics as the first.\n\nClockwork Power (Ex)\n\nSpells can be cast into the Clockwork Sentinel to wind up the clockwork within. It gains one charge per level of the spell cast into it and this puts it into one of three states:\n\n0 to 1 charges: Unwound\n2 to 8 charges: Normal\n9 or 10 charges: Supercharged\n\nThe Clockwork Sentinel cannot store more than 10 charges and normal running causes it to lose 1 charge per week. At the DM’s discretion high amounts of activity may cause it to lose charges more rapidly.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, or watch (2-12)\nTreasure none\n\nClockwork Sentinels were creating by an eccentric gnome wizard. He had originally intended them to absorb hostile spells cast at them in order to power their workings but he didn’t manage to get that part of the plan working reliably before he lost interest in the project.\n\nWith their darkvision and lack of need to for sleep they make excellent, if unintelligent, sentries. In an Unwound state though they can be slow to react and do not always spot everything they should.\n\nThe Tower Vault Heist © 2015 Zero Separation Ltd.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/032b705b32e762ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/032b705b32e762ba"
+  },
+  "license": "OGL 1.0a"
+}

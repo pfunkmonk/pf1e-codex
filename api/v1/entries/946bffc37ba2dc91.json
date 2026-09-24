@@ -1,0 +1,30 @@
+{
+  "id": "946bffc37ba2dc91",
+  "name": "Black Bomb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cabalist": 4,
+      "nightblade": 4,
+      "occultist": 4,
+      "shaper": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadowmorph"
+    ],
+    "save": "Ref",
+    "sr": "yes, see text",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [shadowmorph]; Level cabalist 4, nightblade 4, occultist 4, shaper 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you, see text\nDuration 1 min./level or until discharged (D)\nSaving Throw Reflex half, see text; Spell Resistance yes, see text\n\nDESCRIPTION\n\nYour shadow detaches from you and condenses into a puddle of pitch-black energy, its unstable form waiting to burst at the slightest disruption.\n\nWhen you cast black bomb, your shadow turns into a circular pattern on the ground within your space. This transforms your shadow into a trap occupying the space you were in when you cast the spell. The trap does not arm until the end of your turn, but if you do not move before then you will detonate it yourself.\n\nThe black bomb is considered a magic trap; the DC of Perception checks to see the trap or Disable Device checks to disarm it are equal to black bomb’s save DC + 10. The DC to locate the trap increases by an additional +5 in dim light and by +10 in darkness or supernatural darkness. A creature that identifies the spell as you cast it also immediately knows the trap’s location (as if they succeeded on a Perception check to spot it). When triggered, the bomb detonates in a 20-foot-radius burst, dealing 1d8 damage per two caster levels (max 10d8) to all creatures in the blast and staggering them for 1d4 rounds. A successful Reflex save halves the damage and negates the staggering effect. Once the black bomb triggers or is disarmed, the spell is discharged.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/946bffc37ba2dc91.json",
+    "web": "https://codex.pipsprojects.com/#/e/946bffc37ba2dc91"
+  },
+  "license": "OGL 1.0a"
+}

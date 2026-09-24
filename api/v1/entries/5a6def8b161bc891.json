@@ -1,0 +1,31 @@
+{
+  "id": "5a6def8b161bc891",
+  "name": "Khazri",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "archon": 2,
+      "oracle": 2,
+      "druid": 1,
+      "wizard": 2,
+      "witch": 3
+    },
+    "desc": [
+      "air",
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [air, cold]; Level archon 2, cleric/oracle 2, druid 1, sorcerer/wizard 2, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. +5 ft./2 levels)\nArea 25 ft. + 5 ft./2 levels radius cylinder 25 ft. high\nDuration 1 minute/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a khazri, a cold wind able chill objects and crack stone and metal. You cool the area of the spell by 20° F (–6.5° C), to a minimum of 41° F (5° C), for the duration of the spell. Any unattended object that was originally at a temperature of 60° F (15.5° C) or more takes 2d8 points of damage (bypassing any hardness) one round after the spell is cast because of the sudden drop in temperature.\n\nAt any time during the spell’s duration, as a move action you can focus the khazri to attempt to dispel a fire spell or effect. This acts as dispel magic, but only works against spells or effects with the [fire] descriptor. Whether the dispel attempt is successful or not, this use ends the khazri.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a6def8b161bc891.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a6def8b161bc891"
+  },
+  "license": "OGL 1.0a"
+}

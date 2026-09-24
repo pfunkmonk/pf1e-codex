@@ -1,0 +1,29 @@
+{
+  "id": "82c1e9031d1fbae6",
+  "name": "Electrical Charge, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level bloodrager 1, magus 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1 piece of copper)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 5 rounds + 1 round/level (max 5)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou charge the target’s body with electricity, dealing 1 electricity damage to them at the beginning of their turn. A successful Fortitude save negates the damage for the round. This spell counters a spell of equal or lower level and is countered by a spell of equal or higher level from the vitriol group of spells. If the target is affected by an earth or acid descriptor spell of the same spell level or higher, this spell ends.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/82c1e9031d1fbae6.json",
+    "web": "https://codex.pipsprojects.com/#/e/82c1e9031d1fbae6"
+  },
+  "license": "OGL 1.0a"
+}

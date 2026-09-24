@@ -1,0 +1,27 @@
+{
+  "id": "3370bb65f69e494e",
+  "name": "Mantle Of Blades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "magus": 5,
+      "wizard": 7
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration [force]; Level magus 5, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a weapon you are proficient with)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nMantle of blades creates six copies of the focus weapon that hover around you and deflect incoming attacks. Each weapon provides a +1 shield bonus (this bonus stacks with itself up to a +6 shield bonus; it does not stack with other shield bonuses).\n\nAs a standard action, you can launch one of the weapons at an enemy within long range (400 ft. + 40 ft./level) as a ranged touch attack. On a successful attack, each weapon deals 4d6 hp force damage.\n\nOnce a weapon is launched, it does not return, and the shield bonus granted by this spell is reduced.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3370bb65f69e494e.json",
+    "web": "https://codex.pipsprojects.com/#/e/3370bb65f69e494e"
+  },
+  "license": "OGL 1.0a"
+}

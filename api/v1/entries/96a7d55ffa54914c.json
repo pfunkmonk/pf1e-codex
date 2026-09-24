@@ -1,0 +1,23 @@
+{
+  "id": "96a7d55ffa54914c",
+  "name": "Rusting Bomb Admixture",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nThe nature of all bombs you create and throw during this extract’s duration changes, becoming metallic and strange.\n\nWhen you throw a bomb and hit a direct target, a translucent, rust-red cloud is released that affects only the target of your bomb. This rust cloud can affect one metallic item, weapon, or piece of armor of your choice in the target’s possession or on its body; the cloud attempts a sunder combat maneuver against the target object immediately. If you use this effect to attempt to sunder an object in the target’s hands, substitute a number equal to your caster level + your Int modifier for the sunder’s combat maneuver check. If the object is not in the target’s hands, use your CMB to determine whether the sunder attempt is successful. If the target item is successfully sundered, ignore 10 points of hardness when calculating damage to the object.\n\nWhen you throw a bomb with this extract is in effect and miss, the cloud is not released. You must target a creature and not a square for the cloud to be released.\n\nOnly metallic and metal-based objects are affected; objects made from special materials such as darkwood, dragonhide, stone, and other non-metal materials are not affected.\n\nThis extract has no effect on any discoveries that you use to modify your bombs, and you can only have one admixture effect (formula with the word bomb admixture in its title) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the new admixture becomes active.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/96a7d55ffa54914c.json",
+    "web": "https://codex.pipsprojects.com/#/e/96a7d55ffa54914c"
+  },
+  "license": "OGL 1.0a"
+}

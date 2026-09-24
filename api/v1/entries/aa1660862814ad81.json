@@ -1,0 +1,23 @@
+{
+  "id": "aa1660862814ad81",
+  "name": "Spell Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, F (an ioun stone)\n\nEFFECT\n\nRange touch\nTarget ioun stone touched\nDuration permanent until discharged (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou transfer some of your prepared spells (or spell slots) into an ioun stone, which you touch at the culmination of this spell. If you spontaneously cast spells, you must designate which spells you are storing in the ioun stone at the time of casting.\n\nWhen the stone is orbiting a character’s head, the character can cast spells from the ioun stone if he has at least an Intelligence or Charisma score of 10. The transferred spells’ variable characteristics (DC, range, damage, duration and so on) function according to your caster level at the time you cast this spell. The activation is the same as the spell’s normal casting time. Casting a spell this way provokes attacks of opportunity as normal.\n\nOnly arcane spells can be transferred by spell stone.\n\nThe number and level of spells the subject stone can hold depends on its value.\n\nTable 2-14: Spell Stones\nStone Value\tSpells Stored\nUp to 8,000 gp\t1st-level spell\nUp to 20,000 gp\tOne or two 1st-level spells\nOver 20,000 gp\tOne or two 1st-level spells and one 2nd-level spell\n\nOnce you cast spell stone, you cannot prepare a new 4th-level spell or use one 4th-level spell slot until the recipient uses the imbued spells, or until you dismiss the spell. If the number of 4th-level spells you can cast decreases, and that number drops below your current number of active spell stone spells, the more recently cast spell stone is dispelled.\n\nThis spell cannot transfer spells into an ioun stone created with the iounmancer’s summon stone or star mantle abilities.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa1660862814ad81.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa1660862814ad81"
+  },
+  "license": "OGL 1.0a"
+}

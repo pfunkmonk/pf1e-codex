@@ -1,0 +1,26 @@
+{
+  "id": "05723055afc4c0e6",
+  "name": "Flameswell",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (existing fire source)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one fire up to 10-ft. radius\nArea cylinder up to 40 ft. high, 10 ft. wide\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause one non-magical fire to swell up into a gigantic column of flames. They soar upward to 40 feet above the ground. Anyone caught in the area of effect takes 1d6 points of fire damage per 2 levels (maximum 5d6; Reflex save negates). The target fire must have a minimum of a 5-foot radius. The cylinder is as wide as the target fire. This exhausts the fuel source, so the fire turns to ash and goes out immediately after it flares.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/05723055afc4c0e6.json",
+    "web": "https://codex.pipsprojects.com/#/e/05723055afc4c0e6"
+  },
+  "license": "OGL 1.0a"
+}

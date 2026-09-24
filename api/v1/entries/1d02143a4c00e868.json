@@ -1,0 +1,29 @@
+{
+  "id": "1d02143a4c00e868",
+  "name": "Curse of the North Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "cold",
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [cold, evil]; Level cleric/oracle 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one corporeal creature\nDuration permanent\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target and its equipment are frozen solid, becoming a physically inert statue of ice. If the target is broken or damaged while frozen, it suffers similar damage or deformity when returned to a non-frozen original state. While the target cannot move, mental activity does not cease and the target still registers as alive for spells such as deathwatch. Dispel magic cannot end this spell, although casting both it and remove curse allow the target to speak (but not move or cast spells) for 1 round per caster level. Break enchantment or more potent magic is needed to free a creature from the ice.\n\nIf prolonged imprisonment occurs (such as that lasting multiple months), at the GM’s discretion, a target might suffer from madness or despair. Creatures imprisoned indefinitely with this spell receive a new Fortitude save each month.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1d02143a4c00e868.json",
+    "web": "https://codex.pipsprojects.com/#/e/1d02143a4c00e868"
+  },
+  "license": "OGL 1.0a"
+}

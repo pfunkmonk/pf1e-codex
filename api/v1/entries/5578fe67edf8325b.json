@@ -1,0 +1,24 @@
+{
+  "id": "5578fe67edf8325b",
+  "name": "Bloodshot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 15 ft.\nEffect stream of boiling blood\nDuration 1 round/level (see text)\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nImmediately upon casting this spell, and once per round thereafter, you may shoot a 10-ft.-long line of boiling-hot blood from your eyes as a swift action. The blood deals damage equal to 1d6+1 hp per 2 caster levels. Each time you fire a stream of blood, you take 1 hp damage. You cannot use this spell if it would drop your hp to 0; if you try to do so, the spell simply ends.\n\nIf you have divine blood (you are a demigod, an outsider with 20 or more HD, or have godling class levels), targets damaged by this spell are also dazzled for the spell’s duration.\n\nMythic\n\nOnce per casting of the spell you may fire a line of blood that is 5 ft. long per caster level.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5578fe67edf8325b.json",
+    "web": "https://codex.pipsprojects.com/#/e/5578fe67edf8325b"
+  },
+  "license": "OGL 1.0a"
+}

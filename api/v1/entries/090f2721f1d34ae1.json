@@ -1,0 +1,31 @@
+{
+  "id": "090f2721f1d34ae1",
+  "name": "Strangulation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "medium": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "spiritualist": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [pain]; Level medium 3, occultist 3, psychic 3, spiritualist 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature that breathes\nDuration concentration up to 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou focus your mind to manipulate the airways, arresting their organs that aid in the target’s breathing, potentially choking the life out of them.\n\nEach round you concentrate on this spell, it deals 3d8 bludgeoning damage and immobilizes the target. A creature immobilized in this way is unable to move and must hold its breath (see environmental hazards). The target creature may still attack, use abilities and cast spells (albeit impeded by the inability to breathe). Each round the spell affects the target, the target can attempt a Fortitude save to halve the damage and avoid being immobilized.\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/090f2721f1d34ae1.json",
+    "web": "https://codex.pipsprojects.com/#/e/090f2721f1d34ae1"
+  },
+  "license": "OGL 1.0a"
+}

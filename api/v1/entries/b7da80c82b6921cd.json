@@ -1,0 +1,30 @@
+{
+  "id": "b7da80c82b6921cd",
+  "name": "Bind Spirit I",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 5,
+      "wizard": 5,
+      "shaman": 5,
+      "summoner": 5,
+      "witch": 5
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (calling) [pact]; Level bard 5, sorcerer/wizard 5, shaman 5, summoner 5, witch 5\n\nCASTING\n\nCasting Time 1 minute\n\nComponents V, S, F/M (all materials needed to perform spirit’s ceremony, as noted in its description)\n\nEFFECT\n\nRange personal\n\nTarget you\n\nDuration 10 minutes/level\n\nDESCRIPTION\n\nYou summon a 1st-level pact spirit of your choice and bind it to your soul. You must have completed the spirit’s Knowledge Tasks in order to summon it with this spell.\n\nBecause you are forcibly binding the spirit to your soul, you do not make a binding check and the pact is automatically a poor pact; you are forced to show the spirit’s sign and suffer its personality influence for the pact’s duration. For the spell’s duration, you gain access to the spirit’s major granted ability as well as its minor granted abilities.\n\nIf you use bind spirit I to seal a pact with a spirit with a granted ability that can be used a limited number of times per day, you may only use that granted ability once during the duration of the spell. If the spirit possesses a granted ability that can be used a limited number of rounds, minutes, or hours per day, you may use that granted ability a number of rounds, minutes, or hours per day equal to your spellcasting ability score modifier (Intelligence for witches and wizards, Wisdom for shaman, or Charisma for bards, sorcerers, and summoners).\n\nYou may only have one bind spirit spell active at once. Casting a second bind spirit spell while a previous one is active immediately expels the first spirit, as Expel Spirit. If you possess Amateur Pactmaker† or the bind spirit class feature, spirits bound by a bind spirit spell do not count against your normal maximum number of spirits. You cannot use bind spirit to bind a spirit to your soul that is refusing to answer your summons.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7da80c82b6921cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7da80c82b6921cd"
+  },
+  "license": "OGL 1.0a"
+}

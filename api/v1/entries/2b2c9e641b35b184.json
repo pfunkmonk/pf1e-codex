@@ -1,0 +1,26 @@
+{
+  "id": "2b2c9e641b35b184",
+  "name": "Thunderous Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [sonic]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (gold dust worth 25 gp)\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration permanent until discharged (D)\nSaving Throw Fortitude half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThunderous trap creates a resounding explosion when an intruder opens the item that the trap protects. A thunderous trap spell can ward any object that can be opened and closed.\n\nWhen casting thunderous trap, you select a point on the object as the spell’s center. When someone other than you opens the object, the resounding explosion fills the area within a 5-foot radius around the spell’s center.\n\nThe sound deals 1d3 points of sonic damage + 1 point per caster level (maximum +20). The item protected by the trap is not harmed by this explosion.\n\nA thunder-trapped item cannot have a second closure or warding spell placed on it. A knock spell does not bypass a thunderous trap. An unsuccessful dispel magic spell does not detonate the spell. This spell does not function in an area of silence.\n\nYou can use the thunder-trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast. Attuning a thundertrapped object to an individual usually involves setting a password that you can share with friends.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2b2c9e641b35b184.json",
+    "web": "https://codex.pipsprojects.com/#/e/2b2c9e641b35b184"
+  },
+  "license": "OGL 1.0a"
+}

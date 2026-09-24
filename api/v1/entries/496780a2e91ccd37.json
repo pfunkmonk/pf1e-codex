@@ -1,0 +1,24 @@
+{
+  "id": "496780a2e91ccd37",
+  "name": "Ogrekobold",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (piece of ogre bone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one Small creature\nDuration 1 round/level (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nA favorite of kobolds everywhere (and created by the crafty creatures), this spell causes a Small-sized creature to instantly grow up to the size, height and weight of an ogre. This increase changes the creature’s size to Large. The target gains a +4 size bonus to Strength, a -4 size penalty to Dexterity (to a minimum of 1), and a -2 penalty on attack rolls and AC due to its increased size.\n\nThis size increase to Large grants the target a natural reach of 10 ft. and makes it occupy a 10-ft. square. This spell does not change the target’s speed.\n\nIf insufficient room is available for the desired growth, the creature attains the maximum possible size and can make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it. This spell cannot be used to crush a creature by increasing its size.\n\nAll equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage, as they increase to Large.\n\nOther magical properties are not affected by this spell.\n\nAny enlarged item that leaves an enlarged creature’s possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.\n\nThis spell is counters and dispels giant to kobold.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/496780a2e91ccd37.json",
+    "web": "https://codex.pipsprojects.com/#/e/496780a2e91ccd37"
+  },
+  "license": "OGL 1.0a"
+}

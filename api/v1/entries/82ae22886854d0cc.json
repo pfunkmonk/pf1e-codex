@@ -1,0 +1,27 @@
+{
+  "id": "82ae22886854d0cc",
+  "name": "Death Gaze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (two small marbles, the same color as your eyes)\n\nEFFECT\n\nRange 30 ft.\nTarget one living creature/round\nDuration 1 round/level (D)\nSaving Throw none or Fortitude partial or Fort negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell changes the whites of your eyes to black and reshapes your pupils into small white skulls. Each round this spell is in effect, one creature within 30 feet that meets your gaze must succeed on a Fortitude save or be affected as follows (depending on its HD).\n\nHD Effect 6 or more 2d6 points of damage (Fort negates) 3–5 Death (2d6 points of damage on a successful save) 2 or less Death (no save) If your gaze is reflected back on you (such as by a mirror, pool of water, and so on), you take 2d6 points of damage with no saving throw.\n\nAt the end of this spell, you must succeed on a DC 10 Fortitude save or be blinded for 1d6+4 hours.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/82ae22886854d0cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/82ae22886854d0cc"
+  },
+  "license": "OGL 1.0a"
+}

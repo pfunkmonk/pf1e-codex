@@ -1,0 +1,27 @@
+{
+  "id": "6f30ca25b751a4b5",
+  "name": "Angelic Seal, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration [good]; Level cleric/oracle 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, M (10,000 gp worth of powdered gold, mithral, and gemstones), DF\n\nEFFECT\n\nRange touch\nEffect up to one 10-ft. cube per caster level\nDuration permanent; see text\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis powerful spell defends against the greatest evils, warding a location with angelic power. It acts in all ways as an angelic seal with the following exceptions: Damage suffered by an evil creature touching or entering the warded area is 20d6 hp; evil, extraplanar creatures that fail their Fortitude saves are instantly killed, and they only make a Will save against being forced back to their home plane if they survive the Fortitude save. Only a miracle or wish can remove a greater angelic seal magically.\n\nThe physical means are identical to the less powerful version of the spell.\n\nAlso, a greater angelic seal can instead be focused inward, trapping any evil creatures within the area of effect at the time of casting. Any attempts to leave the area trigger the spell’s effects.\n\nDeep Magic. (c) 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6f30ca25b751a4b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/6f30ca25b751a4b5"
+  },
+  "license": "OGL 1.0a"
+}

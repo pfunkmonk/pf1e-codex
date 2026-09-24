@@ -1,0 +1,28 @@
+{
+  "id": "1d5917e4f056914f",
+  "name": "Rolling Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 5,
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [earth]; Level druid 5, magus 5, sorcerer/wizard 5\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a small stone sphere)\n\nRange medium (100 ft. + 10 ft./level)\n\nEffect 5-ft.-diameter sphere\n\nDuration 1 round/level\n\nSaving Throw Reflex negates; Spell Resistance yes\n\nA smooth, stone sphere rolls in whichever direction you point and crushes those in its way. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals 8d6 points of bludgeoning damage to that creature that is reduced by 2d6 per size category over Medium, though a successful Reflex save negates that damage. A rolling stone rolls over barriers less than 4 feet tall. The sphere has an AC of 5, hardness of 8, and 500 hit points.\n\nThe sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest.\n\nIt cannot push aside unwilling creatures or batter down large obstacles. A rolling stone turns to dust if it exceeds the spell’s range.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1d5917e4f056914f.json",
+    "web": "https://codex.pipsprojects.com/#/e/1d5917e4f056914f"
+  },
+  "license": "OGL 1.0a"
+}

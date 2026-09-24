@@ -1,0 +1,31 @@
+{
+  "id": "6e01f09e70eb48e1",
+  "name": "Sunburn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 4,
+      "druid": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [pain]; Level cleric 4, druid 4, psychic 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a magnifying lens)\n\nEFFECT\n\nRange close (25 ft. plus 5 ft./2 levels)\nTarget 1 living creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYour target glows brightly with extreme but momentary radiation that burns its entire body. The target’s skin blisters, inflicting 2 points of Strength and Dexterity damage and a –2 penalty to attack rolls and skill checks. This penalty lasts until all ability damage from this spell is completely healed.\n\nThe Four Horsemen Present: Character Options – Gods in the Void © 2015, Rogue Genius Games. Author: Steven T. Helt.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e01f09e70eb48e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e01f09e70eb48e1"
+  },
+  "license": "OGL 1.0a"
+}

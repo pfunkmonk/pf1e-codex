@@ -1,0 +1,33 @@
+{
+  "id": "c508cbc6116d8899",
+  "name": "Draw Moisture",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "psychic": 0,
+      "ranger": 1,
+      "shaman": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [water]; Level druid 0, inquisitor 0, magus 0, psychic 0, ranger 1, shaman 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 10 feet\nTarget one object containing moisture up to a size of a 5-foot cube\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou draw water out of an object to clean up spills or quickly dry a soaked object, like clothing, wood floors or a precious document. The object is returned to a pre-wet state as long as it was soaked within the last hour. The spell dries an object weighing up to 5 lbs. The water collects into a floating globule floating in your hand. You can direct the globule into a receptacle while casting the spell or it splashes onto the ground. You can use repeated castings of this spell to dry larger objects. You can also use this spells to draw moisture in humid environments, thought you can only condense about 2 cups of water before depleting the ambient moisture in the area.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c508cbc6116d8899.json",
+    "web": "https://codex.pipsprojects.com/#/e/c508cbc6116d8899"
+  },
+  "license": "OGL 1.0a"
+}

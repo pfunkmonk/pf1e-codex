@@ -1,0 +1,29 @@
+{
+  "id": "bb92310fc23424e0",
+  "name": "Thunderbolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air]; Level bard 3, druid/shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget 1 creature\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nYou blast your target with a thundering roar. You must succeed on a ranged touch attack. On a hit, you deal 1d6 hp sonic damage per caster level (max 10d6). Regardless of whether you hit, all creatures within 15 ft. of the target, including the target itself, must succeed on a Fortitude save or be deafened for 1 min.\n\nMythic: The damage increases to 1d8 hp sonic damage per caster level (maximum 10d8 hp). Regardless of whether your range touch attack hits, all creatures within 30 ft. of the target (including the target) must make a Fortitude save or become deafened. That condition can only be cured with remove blindness/deafness or a similar effect.\n\nAugmented (4th): You can spend an additional three uses of mythic power to deal half damage to the spell’s target even if the range touch attack misses, as long as that miss is not the result of rolling of a natural 1.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb92310fc23424e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb92310fc23424e0"
+  },
+  "license": "OGL 1.0a"
+}

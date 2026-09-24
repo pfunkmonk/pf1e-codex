@@ -1,0 +1,30 @@
+{
+  "id": "d2d83cedf1810446",
+  "name": "Dispel Fire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [cold, water]; Level druid 5, cleric/oracle 5, inquisitor 5, shaman 5\n\nThis spell functions as dispel evil, except it surrounds you in a white-blue aura and it affects fire creatures rather than evil ones.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d2d83cedf1810446.json",
+    "web": "https://codex.pipsprojects.com/#/e/d2d83cedf1810446"
+  },
+  "license": "OGL 1.0a"
+}

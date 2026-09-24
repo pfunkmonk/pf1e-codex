@@ -1,0 +1,28 @@
+{
+  "id": "8fcee104f9aa926d",
+  "name": "Conjure Energy Arrows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 2,
+      "elven archer": 1,
+      "ranger": 2
+    },
+    "desc": [
+      "creation"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [creation]; Level druid/shaman 2, elven archer 1, ranger 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S, DF (bow or crossbow string)\n\nEFFECT\n\nRange touch\nTarget one bow or crossbow string touched\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nConjure energy arrows equips your bow or crossbow with an energy arrow or bolt the moment before your first arrow each round is fired. You select the energy type (acid, cold, electricity, fire, or sonic) at the time of casting. The weapon deals the same amount of damage as its standard ammunition, but the spells turns the damage into that of the chosen energy type. You may shoot as many energy arrows or bolts per round as you have attacks. Each arrow evaporates into a wisp of mist one round after being created, so they must be used quickly.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8fcee104f9aa926d.json",
+    "web": "https://codex.pipsprojects.com/#/e/8fcee104f9aa926d"
+  },
+  "license": "OGL 1.0a"
+}

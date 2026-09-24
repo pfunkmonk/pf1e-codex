@@ -1,0 +1,28 @@
+{
+  "id": "c16e5a2880f61301",
+  "name": "Elemental Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "shaman": 1,
+      "witch": 1
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [see text]; Level druid 1, shaman 1, witch 1\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange close (25 ft. + 5 ft./2 levels)\n\nArea 5-ft.-radius burst\n\nDuration instantaneous\n\nSaving Throw Reflex, see text; Spell Resistance yes\n\nYou designate one of the five elements to explode within the area. You choose between earth, fire, metal, water, or wood. The effect of the burst is as follows.\n\nEarth, Metal, or Wood: The burst is made of sharp slivers and fragments of the chosen element. All targets in the burst take 1d4 bludgeoning, piercing, or slashing damage per caster level (maximum 5d4). A successful Reflex save halves this damage.\nFire: The burst is a swath of flames that deal 1d4 fire damage per caster level (maximum 5d4).\nWater: The burst of water deals 1d4 bludgeoning damage and knocks the target prone. A successful Reflex save negates the prone but not the damage.\n\nThis spell gains the relevant descriptor based on which element is employed.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c16e5a2880f61301.json",
+    "web": "https://codex.pipsprojects.com/#/e/c16e5a2880f61301"
+  },
+  "license": "OGL 1.0a"
+}

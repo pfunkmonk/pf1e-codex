@@ -1,0 +1,28 @@
+{
+  "id": "7b4bd8a6986dbd4e",
+  "name": "Draw Out The Inner Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "psychic": 5,
+      "shaman": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [void]; Level psychic 5, shaman 5, sorcerer/wizard 5\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange personal\n\nTarget self\n\nDuration 1 minute\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nWith this spell, you burn through your inner spiritual strength to forcibly overcome some of the restrictions on your spellcasting ability at a perilous price. Upon casting this spell, you may exceed the fixed number of your spells per day while this spell lasts. Each time you attempt to cast a spell beyond your daily limit, you take Constitution damage equal to the level of the spell you are casting (the required concentration check is mitigated in this case). You may only cast expended spells you had prepared for the day (or spells known for spontaneous casters) in this way. You cannot use this spell (such as via a magic scroll) if you lack ability to cast spells. You also cannot use this spell to cast any cantrip/orison spell or spells of a level that you do not normally have the ability to cast.\n\nYou cannot gain the effects of this spell if you are immune to the Constitution damage (or can lessen the ability damage) that would normally be taken as a result of this spell.\n\nIf your Constitution is reduced to 0 while this spell is in effect, your body and essence immediately breaks down into individual elements before dispersing into the Void; this death is unavoidable. As a result, you cannot be brought back to life by most mortal means. Instead, you can only be restored back to life through reincarnate, cyclic reincarnation, miracle, or wish.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7b4bd8a6986dbd4e.json",
+    "web": "https://codex.pipsprojects.com/#/e/7b4bd8a6986dbd4e"
+  },
+  "license": "OGL 1.0a"
+}

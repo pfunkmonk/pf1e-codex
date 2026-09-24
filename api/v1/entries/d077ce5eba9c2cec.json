@@ -1,0 +1,27 @@
+{
+  "id": "d077ce5eba9c2cec",
+  "name": "Feverish Confession",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "inquisitor": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level inquisitor 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F, (a ghoul’s claw)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou touch a creature with a ghoul’s claw, and if it fails a Will save it confesses everything it knows about any topic you desire. A creature that makes a successful Will save is immune to this spell’s effects for 24 hrs.\n\nUnlike a charm person or suggestion spell, this spell does not enable you to suggest a course of action to a creature.\n\nHowever, the creature will tell you its weaknesses, where its treasure is hidden, who its enemies are, what its plans are, and where its friends might be. Regardless of its alignment or wishes, the creature pours forth all information that might be valuable.\n\nAn affected creature makes no evasions or omissions when confessing its knowledge; on the contrary, it is compelled to add any detail that might be relevant to the caster’s subject. In other words, this spell is a perfect confession of that creature’s entire state of mind. As a form of extreme magical compulsion, its use is forbidden by faiths of lawful good alignment, and paladins and clerics of such faiths find it repellant.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d077ce5eba9c2cec.json",
+    "web": "https://codex.pipsprojects.com/#/e/d077ce5eba9c2cec"
+  },
+  "license": "OGL 1.0a"
+}

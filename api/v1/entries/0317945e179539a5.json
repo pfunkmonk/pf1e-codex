@@ -1,0 +1,27 @@
+{
+  "id": "0317945e179539a5",
+  "name": "Dizzying Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [sonic]; Level magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange short (25 + 5 ft./2 levels)\nEffect 1 ray of sonic energy\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nA nearly invisible ray-a barely shimmering line in the air-springs from your hand. You must succeed on a ranged touch attack to strike your target. On a successful hit, the bolt inflicts 1d6 hp sonic damage per caster level (5d6 hp maximum) and the target falls prone. A successful Fortitude save negates the prone condition and halves the damage.\n\nThe ray is dispelled if it enters the area of a silence spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0317945e179539a5.json",
+    "web": "https://codex.pipsprojects.com/#/e/0317945e179539a5"
+  },
+  "license": "OGL 1.0a"
+}

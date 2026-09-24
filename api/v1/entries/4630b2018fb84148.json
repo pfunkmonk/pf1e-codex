@@ -1,0 +1,29 @@
+{
+  "id": "4630b2018fb84148",
+  "name": "Fell Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 5,
+      "lathspell": 4,
+      "magus": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (pattern); Level antipaladin 4, cleric/oracle 5, lathspell 4, magus 5, shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 60 ft.\n\nEffect 1 10-foot cube/level extending straight from you\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill an area with dark, roiling, illusory mist. It seems to move and shift as if composed with vile shadowy creatures. Any creature within the area when the spell is cast or at the beginning their turn, or a creature entering the area of the mist, must succeed on a Will save or be dazed for 1 round.\n\nThe shadowy mist obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment. Creatures further away have total concealment. When casting the spell, you can decide to make this mist stationary or have it move up to 10 feet per round. Wind does not affect this illusory shadow-mist.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4630b2018fb84148.json",
+    "web": "https://codex.pipsprojects.com/#/e/4630b2018fb84148"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b091710141976840",
+  "name": "Wall of Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 5,
+      "druid": 4,
+      "wizard": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation) [earth]; Level cleric 5, druid 4, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a small clay or stone brick)\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nArea earthen wall whose area is up to on 5‑ft. square/2 levels (S)\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a earthen barrier that merges into adjoining dirt, soil, or rock surfaces. A wall of earth is 1 inch thick per four caster levels and composed of up to one 5‑foot square per level. You can double the wall’s area by halving its thickness. The wall cannot be conjured so that it occupies the same space as a creature or another object.\n\nUnlike a wall of iron, you can create a wall of earth in almost any shape you desire. The wall created need not be vertical, however, it must merge with and be solidly supported by existing stone or earth, and it’s entire length must be supported by a firm foundation. It can be used as a ramp, for example, but not to bridge a chasm (unless the wall of earth can fill the entire chasm). The wall can be crudely shaped to allow crenelations, battlements, and so forth, though this level of detail reduces the spell’s area by half.\n\nLike any other earth wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and digging. Each 5‑foot square of the wall has hardness 0 and 10 hit points per inch of thickness. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 10 + 2 per inch of thickness.\n\nIt is possible, but difficult, to trap mobile opponents within or under a wall of earth, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b091710141976840.json",
+    "web": "https://codex.pipsprojects.com/#/e/b091710141976840"
+  },
+  "license": "OGL 1.0a"
+}

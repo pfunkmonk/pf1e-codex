@@ -1,0 +1,26 @@
+{
+  "id": "8aa421a4dd770bc3",
+  "name": "Sky Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School evocation [electricity]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a copper arrowhead)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets three creatures no more that 15 ft. apart\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nFrom your hand springs a blueish bolt of lightning that strikes one target within range and then leaps up to 15 ft. to a second and then a third target. The bolt of lightning deals 1d4 points of electricity damage per caster level up to a maximum of 5d4. A successful reflex save cuts the damage in half.\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8aa421a4dd770bc3.json",
+    "web": "https://codex.pipsprojects.com/#/e/8aa421a4dd770bc3"
+  },
+  "license": "OGL 1.0a"
+}

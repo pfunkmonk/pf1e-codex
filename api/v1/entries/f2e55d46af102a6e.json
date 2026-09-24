@@ -1,0 +1,28 @@
+{
+  "id": "f2e55d46af102a6e",
+  "name": "Invoking The Void",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 3,
+      "shaman": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [void]; Level psychic 3, shaman 3, sorcerer/wizard 3\n\nCasting Time 1 swift action\n\nComponents S, DF\n\nRange personal\n\nTarget self\n\nDuration instantaneous or up to 1 minute (see text)\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nThis spell enables you to access and draw out a minute portion from the Void for your use. With a single incantation from this spell, you add 1 ki point to your ki pool. If this exceeds the maximum capacity of your ki pool, you retain this excess ki point temporarily up to 1 minute for you to expend. You can only gain the effects of this spell a number of times each day equal to your highest mental ability score modifier.\n\nThis spell does not stack with similar effects (such as the steal ki ability of the hungry ghost monk) to gain ki points or to exceed the maximum capacity of your ki pool.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f2e55d46af102a6e.json",
+    "web": "https://codex.pipsprojects.com/#/e/f2e55d46af102a6e"
+  },
+  "license": "OGL 1.0a"
+}

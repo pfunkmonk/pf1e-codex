@@ -1,0 +1,25 @@
+{
+  "id": "595409e398ad7db1",
+  "name": "Create Trap, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "inquisitor": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation); Level inquisitor 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (small piece of machinery)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one trap; see text\nDuration 1 day\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou toss the piece of machinery and a trap appears where the part lands. You create any CR 1 trap in a 5-foot-by-5-foot triggering square within the range of the spell. The trap created is active and ready to be sprung.\n\nIf the trap is sprung, or the duration expires, the trap disintegrates to dust and the piece of machinery used as the material component is left behind.\n\nCreate Trap\n\nSchool conjuration (creation); Level inquisitor 3, ranger 3, sorcerer/wizard 3\n\nThis spell functions as lesser create trap except you create one CR 2 trap with up to a 10-foot-by-5-foot triggering area, or two CR 1 traps with their own 5-foot-by-5-foot triggering area.\n\nCreate Trap, Greater\n\nSchool conjuration (creation); Level inquisitor 5, ranger 4, sorcerer/wizard 5\n\nThis spell functions as lesser create trap except you create one CR 4 trap with up to a 10-foot-by-10-foot triggering area, or two CR 2 traps with up to a 10-foot-by-5-foot triggering area.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/595409e398ad7db1.json",
+    "web": "https://codex.pipsprojects.com/#/e/595409e398ad7db1"
+  },
+  "license": "OGL 1.0a"
+}

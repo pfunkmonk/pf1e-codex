@@ -1,0 +1,29 @@
+{
+  "id": "dadb648a7bd0ad2a",
+  "name": "Vorpal Edge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 4,
+      "bloodrager": 4,
+      "cleric": 5,
+      "inquisitor": 5,
+      "magus": 5,
+      "wizard": 5,
+      "vanguard": 5
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level antipaladin 4, bloodrager 4, cleric 5, inquisitor 5, magus 5, sorcerer/wizard 5, vanguard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget slashing melee weapon touched\nDuration 10 min./level or until discharged\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou pass your hand over the targeted weapon, its edge shimmering and wavering. With a final touch, the weapons edge begins to gleam with deadly power, its bearer feeling a subtle pull towards the necks of creatures with each strike.\n\nThe weapon you target with this spell gains the vorpal weapon property, causing it to decapitate victims on a natural 20 critical hit. The vorpal effect can decapitate a number of victims equal to one-quarter your caster level (max 5), after which the spell is discharged.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dadb648a7bd0ad2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/dadb648a7bd0ad2a"
+  },
+  "license": "OGL 1.0a"
+}

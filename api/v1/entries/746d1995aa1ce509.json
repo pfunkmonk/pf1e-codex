@@ -1,0 +1,26 @@
+{
+  "id": "746d1995aa1ce509",
+  "name": "Dig",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [earth]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea up to one 10-ft. cube/2 levels (S)\nDuration permanent or 1 round/level (see text)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows you to excavate earth, sand, or mud for one round per caster level in an area equal to one 10-foot cube per two caster levels.\n\nEach round this spell is in effect, you can expand an existing hole or start a new one.\n\nWhile digging, the earth removed from the area is scattered evenly around the hole. If you excavate a hole deeper than 20 feet, it has a 15% chance of collapsing. The chance the hole collapses increases by +5% for every 5 feet beyond 20 feet unless it is somehow braced or supported.\n\nYou can use this spell to tunnel through earth. If the tunnel is longer than 10 feet, it has a 30% of collapsing (+5% for every 5 feet beyond 30 feet), unless the tunnel is braced or supported.\n\nAlternately, you can target a single earth creature with this spell (a creature with the earth subtype or one from the Elemental Planes of Earth).\n\nAgainst earth creatures, this spell deals 4d6 points of damage (Fortitude save for half).\n\nNote: You cannot use this spell to open a hole beneath an existing object or creature. You can however, tunnel underneath a creature or object and cause a hole to appear in the space (or spaces) it occupies.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/746d1995aa1ce509.json",
+    "web": "https://codex.pipsprojects.com/#/e/746d1995aa1ce509"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "d7cecb9cd3bca882",
+  "name": "Spinning Orb",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Orcus on 34th Level",
+  "book": "Orcus on 34th Level",
+  "facets": {
+    "bk": "Orcus on 34th Level"
+  },
+  "body": "SPINNING ORB\nCR 1/2\n\nXP 200\nN Tiny construct\nInit +2; Senses blindsight 60 ft., darkvision 60 ft., low-light vision; Perception +2\n\nDEFENSES\n\nAC 16, touch 14, flat-footed 14 (+2 Dex, +2 natural, +2 size)\nhp 6 (1d10)\nFort +0, Ref +2, Will +2\nDefensive Abilities electric discharge; Immune construct traits, electricity\n\nOFFENSE\n\nSpeed 0 ft.\nSpace 2½ ft.; Reach 0 ft.\nSpecial Attacks death burst\n\nSTATISTICS\n\nStr 2, Dex 15, Con —, Int —, Wis 14, Cha 3\nBase Atk +1; CMB +1; CMD 7 (can’t be tripped)\nSQ spark of life\n\nSPECIAL ABILITIES\n\nDeath Burst (DC 12) (Ex)\n\nThe Spinning Orb explodes when it drops to 0 hit points. Each creature within 30 feet of it must make a Reflex saving throw, taking 2d6 electricity damage on a failure or half as much on a success.\n\nElectric Discharge (DC 12) (Ex)\n\nWhen the spinning orb is hit by an attack, it sends a retributive lightning bolt at its attacker. The target must make a Reflex saving throw, taking 2d6 electricity damage on a failure or half as much on a success.\n\nSpark of Life (1/1d4 rounds) (Su)\n\nThe spinning orb fires a bolt of lightning at two sarcophagi. When the lightning strikes, one of the candied golems inside each sarcophagus animates. The golems slide open their tombs and lumber out to attack.\n\nOrcus on 34th Level © 2020, Frog God Games; Author: Jon Hook; Pathfinder Conversion: Michael “Mars” Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7cecb9cd3bca882.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7cecb9cd3bca882"
+  },
+  "license": "OGL 1.0a"
+}

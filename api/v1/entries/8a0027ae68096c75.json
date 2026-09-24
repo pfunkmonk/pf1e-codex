@@ -1,0 +1,26 @@
+{
+  "id": "8a0027ae68096c75",
+  "name": "Undertow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 100 ft.\nArea 10-ft. radius/level\nDuration 1 round/level.\nSaving Throw: Fortitude negates; Spell Resistance: Yes\n\nDESCRIPTION\n\nAny swimmer caught in the powerful tug of water created by this spell must succeed on an immediate Fort save or be pulled underwater to a depth of 10 feet. Every round thereafter, until the spell’s duration lapses, the victim is permitted a Strength check (DC 18) to break free of the undertow. Remember, a submerged creature can hold its breath for a number of rounds equal to twice its Constitution score. Thereafter, it must succeed on a Fortitude save (DC 10+1 per round) or start to drown. Drowning PCs are reduced to 0 hp in the second round, and then to -10 on the third unless they get to air. Of course, the target must first be within a suitable amount of water in order for this spell to have any effect.\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a0027ae68096c75.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a0027ae68096c75"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "1fddaf65f3dbbdeb",
+  "name": "Spellcaster’s Recoil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "inquisitor": 3,
+      "magus": 2,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); Level cleric/oracle 3, inquisitor 3, magus 2, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 2 ft./level)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nManipulating the powers necessary to invoke any spell is a complex balancing act, and the target of this spell suffers a minor backlash when unleashing that power.\n\nWhenever the target successfully casts a spell or uses a spell-like ability, it is teleported 10 ft. in a random direction. In addition, it is staggered until the end of its next turn.\n\nRoll a d10 and use the rules for splash weapons to determine the direction the target is teleported. On a roll of a 9, the target is teleported straight up, while a result of 10 teleports it straight down.\n\nIf the target’s destination location is occupied, such as by another creature or a wall, the target does not teleport but is knocked prone instead.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1fddaf65f3dbbdeb.json",
+    "web": "https://codex.pipsprojects.com/#/e/1fddaf65f3dbbdeb"
+  },
+  "license": "OGL 1.0a"
+}

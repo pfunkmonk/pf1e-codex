@@ -1,0 +1,26 @@
+{
+  "id": "33be3c4b4565320b",
+  "name": "Dark Geyser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 5 ft., and 30-ft. emanation\nDuration 2 rounds (see text)\nSaving Throw Fortitude, Reflex, and Will half; Spell Resistance yes\n\nDESCRIPTION\n\nThe caster selects a single 5-foot-square area within range that acts as the center of the spell. A small gate to an alternate plane opens, expelling pure negative energy in a fountain of darkness, damaging anyone in its area of effect.\n\nOn the first round of the spell, the geyser’s energy deals 1d6 points of negative energy damage per caster level (maximum 20d6) to everything within 5 feet of the spell’s center. On the second round, the geyser’s area of effect grows to a 30-foot radius, after which it collapses and the gate vanishes. Undead affected by the geyser are healed of 1d6 points of damage per caster level (maximum 20d6), but cannot receive more hit points than their maximum.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/33be3c4b4565320b.json",
+    "web": "https://codex.pipsprojects.com/#/e/33be3c4b4565320b"
+  },
+  "license": "OGL 1.0a"
+}

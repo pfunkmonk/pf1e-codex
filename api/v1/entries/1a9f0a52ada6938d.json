@@ -1,0 +1,29 @@
+{
+  "id": "1a9f0a52ada6938d",
+  "name": "Scatter Scree",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 0,
+      "magus": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration [earth]; Level druid/shaman 0, magus 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of gravel)\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nArea two contiguous 5-foot squares\nDuration instantaneous\nSaving Throw Reflex partial, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou call toss the bit of scree up into the air summoning a rain of gravel in the designated areas. Any creatures in the area take 1d3 non-magical bludgeoning damage. A successful Reflex save reduces this damage to 1, creatures with evasion/improved evasion can negate this altogether. The ground in the affected areas become difficult terrain. A creature can use a standard action to clear the difficult terrain from a square.\n\nIf you cast the spell again, any previous difficult terrain you created disappears as you conjure the same pile of gravel.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a9f0a52ada6938d.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a9f0a52ada6938d"
+  },
+  "license": "OGL 1.0a"
+}

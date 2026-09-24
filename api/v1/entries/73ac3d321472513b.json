@@ -1,0 +1,27 @@
+{
+  "id": "73ac3d321472513b",
+  "name": "Arctic Air",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 4,
+      "wizard": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [cold]; Level druid 4, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20 ft. radius emanation centered on a creature, object, or point in space\nDuration 1 round/level\nSaving Throw Fortitude half, Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell may be centered on a point in space or on a creature or object. If centered on a point in space, the area is immobile. If centered on a creature or object the spell moves with the creature or object, but the target is allowed a Will save to negate the spell.\n\nEach round a creature is within the area of the spell, it is dealt 2d6 points of cold damage (Fortitude save for half). Creatures take this damage on their round if they are within the area at any point during their turn, but take damage only once each turn. For simplicity inanimate, unattended objects are dealt damage once a round at the beginning of the turn of the spell’s caster.\n\nThe Genius Guide To: Ice Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens Adventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73ac3d321472513b.json",
+    "web": "https://codex.pipsprojects.com/#/e/73ac3d321472513b"
+  },
+  "license": "OGL 1.0a"
+}

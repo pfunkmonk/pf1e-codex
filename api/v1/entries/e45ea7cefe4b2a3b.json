@@ -1,0 +1,30 @@
+{
+  "id": "e45ea7cefe4b2a3b",
+  "name": "Aura of Consumption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "oracle": 4,
+      "inquisitor": 4,
+      "witch": 4
+    },
+    "desc": [
+      "death",
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [death, evil]; Level antipaladin 3, cleric/oracle 4, inquisitor 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nTarget 30-ft.-emanation centered on you\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast the spell and each round at the beginning of your turn, you consume the ebbing life force from surrounding creatures within 30 feet, and use it to fuel your own power. Any creature in the area of the emanation that has -1 or fewer hit points must make its saving throw or die, and you gain 1d8 temporary hit points and a +2 bonus to Strength for each death caused by this spell until the spell’s duration expires.\n\nAdditionally your effective caster level increases by one per death caused up to a maximum of half your unmodified caster level. This bonus improves the effects of spells cast and does not grant you access to more spells.\n\nNo creature can be affected by this spell more than once per casting, regardless of the number of rounds they are exposed to the aura.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e45ea7cefe4b2a3b.json",
+    "web": "https://codex.pipsprojects.com/#/e/e45ea7cefe4b2a3b"
+  },
+  "license": "OGL 1.0a"
+}

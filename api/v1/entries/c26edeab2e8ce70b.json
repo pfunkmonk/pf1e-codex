@@ -1,0 +1,32 @@
+{
+  "id": "c26edeab2e8ce70b",
+  "name": "Thoughteater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "psychic": 2,
+      "wizard": 3,
+      "summoner": 3,
+      "unchained summoner": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [mind-affecting]; Level bard 3, inquisitor 3, psychic 2, sorcerer/wizard 3, summoner 3, unchained summoner 3, witch 3\n\nDESCRIPTION\n\nThis spell functions as detect thoughts except you gain 2 temp hp per creature whose thoughts you read in the 3rd round of the spell. You can gain a maximum number of temp hp from this spell equal to double your class level. This temp hp last for 1 hour and stack with other sources of temp hp except from this spell.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c26edeab2e8ce70b.json",
+    "web": "https://codex.pipsprojects.com/#/e/c26edeab2e8ce70b"
+  },
+  "license": "OGL 1.0a"
+}

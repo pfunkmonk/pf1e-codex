@@ -1,0 +1,27 @@
+{
+  "id": "c1d6b1016daa2f40",
+  "name": "Beacon of Life",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 9
+    },
+    "desc": [
+      "hope",
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing) [hope, light]; Level cleric/oracle 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect a 5 ft. ball of light\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou conjure a great beacon of light in a 5 foot square anywhere in the area, even up off the ground. The beacon maintains its position for the duration of the spell. It exudes sunlight in a 60 foot sphere dispelling any darkness effect in its area, it creates normal light out 30 additional feet and dim light for 30 feet further. Any ally that enters the sphere of daylight or begins their turn in the light heals 3d8 points of damage. Any undead creature not destroyed or already damaged by the sunlight is dealt 3d8 points of damage. The light affects a creature only once per round even if they leave and reenter the daylight area. Additionally, the beacon grants immunity to despair effects to allies in the 60 foot sphere. Any ally currently affected by a despair effect has its effects suppressed while in the 60 foot sphere.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c1d6b1016daa2f40.json",
+    "web": "https://codex.pipsprojects.com/#/e/c1d6b1016daa2f40"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "16603d7bd0df247b",
+  "name": "Dehydration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spes Magna Games",
+  "book": "Spes Magna Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Spes Magna Games"
+  },
+  "body": "School transmutation [water]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a pinch of dust)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou suck life sustaining moisture from the target creatures, who suffer 1d6 points of nonlethal damage per caster level (maximum 20d6). Creatures that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead.\n\nCreatures who have taken nonlethal damage from dehydration are fatigued. Nonlethal damage from dehydration cannot be recovered until the creature gets water, as needed. Not even magic that restores hit points heals this damage.\n\nA successful Fortitude save halves the nonlethal damage and negates the fatigue. Creatures that do not require water are immune to this spell. Creatures with the water subtype are always vulnerable to this spell.\n\nIn One’s Blood. Copyright 2010, Spes Magna Games; Mark L. Chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/16603d7bd0df247b.json",
+    "web": "https://codex.pipsprojects.com/#/e/16603d7bd0df247b"
+  },
+  "license": "OGL 1.0a"
+}

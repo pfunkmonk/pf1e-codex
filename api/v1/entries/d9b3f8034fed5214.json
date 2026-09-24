@@ -1,0 +1,23 @@
+{
+  "id": "d9b3f8034fed5214",
+  "name": "Crawling Chaos",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (an iridescent gem worth at least 5,000 gp that is not consumed)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level\nSaving Throw varies (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure forth an incorporeal field of malign, chaotic energy that appears next to you and moves inexorably toward the target of the spell.\n\nThe field appears as a field of barely visible energies five feet in diameter that constantly shimmer and change.\n\nThe chaos effect moves at a speed of 30 feet on your initiative, taking the shortest possible path toward its target. As an incorporeal force, it may pass through water and solid objects, though it cannot pass through force effects. On any round when the chaos field moves or passes through a creature’s space, the victim is subjected to a single random effect rolled from the table below.\n\nd100 (d%) Result\n\n01–35 Target takes 2d20 points of force damage, Reflex save half\n\n36–50 Target sustains 1d8 points of damage to a single, randomly determined ability score (roll 1d6 to determine which one); Fortitude save negates\n\n51–60 Target is nauseated for one round; Will save negates\n\n61–75 The target is subjected to a targeted greater dispel magic\n\n76–85 Target is stunned for one round; Will save negates\n\n86–95 Target is confused (as the spell) for one round; Will save negates\n\n96–00 Target is treated as if he has been targeted by a rod of wonder; save DCs where appropriate are as per this spell\n\nThe energy field cannot be harmed or damaged, for it is not a creature or coherent force, but it can be dispelled. If the target moves beyond the range of the spell the caster can redirect it as a free action.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d9b3f8034fed5214.json",
+    "web": "https://codex.pipsprojects.com/#/e/d9b3f8034fed5214"
+  },
+  "license": "OGL 1.0a"
+}

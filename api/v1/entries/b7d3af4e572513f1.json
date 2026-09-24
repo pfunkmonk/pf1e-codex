@@ -1,0 +1,27 @@
+{
+  "id": "b7d3af4e572513f1",
+  "name": "Shadow Siphon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion [shadow]; Level bard 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget 1 damaging spell or magical ability\nDuration Instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou open a rift to the shadow plane and attempt to divert some of the energy of an oncoming spell off the your current plane. You transform the spell into a quasi-real illusion.\n\nThe target of or part of the area of the spell must be within range. Creatures that would be damaged take only half as much damage.\n\nTo affect the spell, you must make a caster level check (1d20 + your caster level) and compare it to DC 9 + the target spell’s caster level. On a failure the spell is too powerful for you to draw into the shadow plane.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7d3af4e572513f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7d3af4e572513f1"
+  },
+  "license": "OGL 1.0a"
+}

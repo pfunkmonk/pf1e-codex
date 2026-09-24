@@ -1,0 +1,30 @@
+{
+  "id": "18043aa495aedab0",
+  "name": "Crimson Path",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 4,
+      "lathspell": 4,
+      "magus": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "summoner": 5,
+      "unchained summoner": 5,
+      "witch": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (teleportation); Level antipaladin 4, lathspell 4, magus 5, shaman 5, sorcerer/wizard 5, summoner 5, unchained summoner 5, witch 5\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cut your palm dealing 1 damage and touch a living creature, violently and bloodily entering their body, and exiting in a similar fashion from a nearby creature.\n\nYou teleport 10 feet when touching Small or smaller creatures and the distance teleported doubles for each size category larger than small. Medium would be 20 feet, Large 40, and so on. The touched creature and the endpoint creature must make Fortitude saves or be dealt 1d6 damage per caster level (maximum 15d6). A successful saving throw halves this damage but does not prevent the teleportation. This spell cannot use bloodless creatures as a target or end point. If there is no valid endpoint creature available, this spell fails. You cannot enter and exit the same creature.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/18043aa495aedab0.json",
+    "web": "https://codex.pipsprojects.com/#/e/18043aa495aedab0"
+  },
+  "license": "OGL 1.0a"
+}

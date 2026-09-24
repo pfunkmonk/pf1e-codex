@@ -1,0 +1,26 @@
+{
+  "id": "6006bb8d11fff0bb",
+  "name": "Fey Healing, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation (healing); Level druid 7, shaman 7, sorcerer/wizard 7, witch 7\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 5 rounds + 1 round/level (max 20)\n\nDESCRIPTION\n\nThis spell functions like fey healing except it affects multiple targets.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6006bb8d11fff0bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/6006bb8d11fff0bb"
+  },
+  "license": "OGL 1.0a"
+}

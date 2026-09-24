@@ -1,0 +1,27 @@
+{
+  "id": "07dc35759a5ee793",
+  "name": "Charged Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "wizard": 3
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes (harmless) and yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [electricity]; Level druid 4, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a spool of copper wire)/DF\n\nEFFECT\n\nRange touch\nTarget one creature (see text)\nDuration 1 round/level or until discharged\nSaving Throw Reflex negates (harmless) and Fortitude half; Spell Resistance yes (harmless) and yes\n\nDESCRIPTION\n\nWhen cast, charged touch enables the target’s body to store an electrical charge until the target makes an unarmed or metal weapon (that can conduct the charge) melee touch attack on a victim, or until someone touches the target with an unarmed or metal weapon strike. When one of these events occurs, the victim automatically suffers 1d6 points of electrical damage per caster level (maximum 10d6). Damage is halved if the victim makes a successful Fortitude save. The spell does not differentiate between friend or foe, however, so the first person to touch the target is affected. Blows from wooden weapons do not discharge the spell, nor does the spell discharge if the target touches wooden or glass objects. If the target touches large metal objects or water, the spell is discharged, possibly damaging anyone else touching that body of water (see below) or metal structure (GM’s discretion).\n\nIf the spell is cast on a target who is underwater, the effect discharges immediately, and everyone within 15 feet of the target who is also in the same body of water is affected by the damage of the discharge (except the spell’s target himself).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07dc35759a5ee793.json",
+    "web": "https://codex.pipsprojects.com/#/e/07dc35759a5ee793"
+  },
+  "license": "OGL 1.0a"
+}

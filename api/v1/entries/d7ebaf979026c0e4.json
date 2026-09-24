@@ -1,0 +1,26 @@
+{
+  "id": "d7ebaf979026c0e4",
+  "name": "Blink, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 5,
+      "magus": 5,
+      "psychic": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level bard 5, magus 5, psychic 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nThis spell functions as the spell blink, except you can control the timing of the blinking between the ethereal and material planes. You have no chance of interfering with your own attack, spells or abilities and you can ready an action to blink away from an attack or effect that would normally affect you, assuming they can’t affect ethereal targets (such as force effects). While moving through solid objects, you do not risk blinking into the material plane while inside unless you end your movement there. In that case it acts as normal for the blink spell.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7ebaf979026c0e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7ebaf979026c0e4"
+  },
+  "license": "OGL 1.0a"
+}

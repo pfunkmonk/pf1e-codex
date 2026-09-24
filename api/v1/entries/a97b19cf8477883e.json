@@ -1,0 +1,30 @@
+{
+  "id": "a97b19cf8477883e",
+  "name": "Control Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "druid": 4,
+      "elementer": 4,
+      "shaman": 4
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [cold, water]; Level cleric 4, druid 4, elementer 4, shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea water, ice, and snow in a volume of 10 ft./level by 10 ft./level and up to 1 ft./level (S); see text\nDuration instantaneous, see text\nSaving Throw none (see text); Spell Resistance no\n\nThis spell gives you powerful but limited control over ice and snow. You can choose one of the following options, chosen when you cast the spell:\n\nThaw: Ice and snow in the area rapidly melt within 1 round. Depending on the surface underneath, the remaining water might soak into the terrain or be left behind as standing water. Ice created by spells like wall of ice or icy prison melt as well, possibly ending their effect, though a spell that continuously creates ice (such as sleet storm) will typically have its effects negated for only 1 round. An ice elemental, ice golem, or other ice-based creature in the area takes 1d6 damage per caster level (max 15d6): a Fortitude save halves this damage.\nFreeze: You can target liquid water and freeze it solid. The entire volume of targeted water reaches sub-zero temperatures over the course of 1 minute. Creatures inside the volume disrupt the freezing process in its space, preventing ice from forming. Existing ice within the area (including ice created by spells) regain 1 hit point per inch of thickness each round: similarly, ice golems, ice elementals, and ice-based creatures recover 1d6 hit points each round they remain in the area. A water elemental or similar water-based creature in the area takes 2d6 cold damage each round it remains: a Fortitude save negates the damage that round only.\nMove: You can move ice and snow around the area.\n\nThis functions similarly to move earth in that it does not create violent movement: the ice moves in slow waves until the desired result is achieved. The movement of the ice takes place across 1 minute, and is not quick enough to trap or otherwise move creatures within the area. Magically-created ice, such as from a wall of ice, cannot be moved in this manner.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a97b19cf8477883e.json",
+    "web": "https://codex.pipsprojects.com/#/e/a97b19cf8477883e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "63ab0ded065ae949",
+  "name": "Reverse Scry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 9,
+      "wizard": 8
+    },
+    "save": "special",
+    "sr": "no; see text",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level cleric/oracle 9, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 round; see text\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hr./caster level\nSaving Throw none (harmless); see text; Spell Resistance no; see text\n\nDESCRIPTION\n\nDragonkin are the race most closely associated with mastery of this spell, although other appropriate races may choose it at the GM’s discretion.\n\nWhenever you are the target of a spell with the scrying descriptor or an ability with a scrying effect, you are immediately aware of the attempt. As a swift action, you may target the opposing caster with a greater scrying spell.\n\nIf you do, reverse scry grants a +5 bonus to overcome the target’s spell resistance and imposes a -5 penalty on the target’s Will save.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63ab0ded065ae949.json",
+    "web": "https://codex.pipsprojects.com/#/e/63ab0ded065ae949"
+  },
+  "license": "OGL 1.0a"
+}

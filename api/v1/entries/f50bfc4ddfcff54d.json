@@ -1,0 +1,30 @@
+{
+  "id": "f50bfc4ddfcff54d",
+  "name": "Game Field",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "adept": 2,
+      "bard": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School illusion (shadow) [shadow]; Level adept 2, bard 2, mesmerist 2, psychic 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget circle with a radius of up to 400 ft. + 40 ft./level\nDuration 2 hours/level\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\n\nDESCRIPTION\n\nYou temporarily transform a field (or any other flat area) so that it can be used for any game or sport of your choice. If that game needs terrain accessories, such as barriers, sand, or goals, they appear. Balls also appear if needed, but any weapons or complex pieces of equipment are not summoned.\n\nCreatures who interact with the game field may make a Will save to disbelieve its existence, but their belief has no bearing on the game. If the creature is currently being threatened or attacked by you or your allies, however it receives a +5 bonus on its saving throw. A creature who believes it is playing on an illusory field may still play as normal.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f50bfc4ddfcff54d.json",
+    "web": "https://codex.pipsprojects.com/#/e/f50bfc4ddfcff54d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "50d4bc722ad2f598",
+  "name": "Ironhide",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 4,
+      "wizard": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "Ironhide\n\nSchool abjuration [earth]; Level druid 4, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a piece of iron)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target’s skin gains an iron-like resilience. The spell grants a 50% chance that any critical hit or sneak attack that hits the target is negated and the damage for that attack is instead rolled normally.\n\nIronhide, Lesser\n\nSchool abjuration [earth]; Level druid 2, sorcerer/wizard 1\n\nEFFECT\n\nDuration 1 minute/level\n\nDESCRIPTION\n\nThe target’s skin gains an iron-like resilience. The spell grants a 25% chance that any critical hit or sneak attack that hits the target is negated and the damage for that attack is instead rolled normally.\n\nIronhide, Greater\n\nSchool abjuration [earth]; Level druid 6, sorcerer/wizard 5\n\nEFFECT\n\nDuration 1 hour/level\n\nDESCRIPTION\n\nThe target’s skin gains an iron-like resilience. The spell grants a 75% chance that any critical hit or sneak attack that hits the target is negated and the damage for that attack is instead rolled normally.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/50d4bc722ad2f598.json",
+    "web": "https://codex.pipsprojects.com/#/e/50d4bc722ad2f598"
+  },
+  "license": "OGL 1.0a"
+}

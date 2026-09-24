@@ -1,0 +1,27 @@
+{
+  "id": "2252287732ba3698",
+  "name": "Curse Ring",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "special",
+    "sr": "no (object); see text",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [curse]; Level cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1,000 gp worth of diamond dust)\n\nEFFECT\n\nRange touch\nTarget unattended ring touched\nDuration permanent until discharged\nSaving Throw none (object); see text; Spell Resistance no (object); see text\n\nDESCRIPTION\n\nYou curse a ring, causing the next person who willingly wears it to suffer the effects of the curse. When you cast this spell, you select any of the possible effects of bestow curse. The next creature to willingly put on the ring suffers this effect with no saving throw. The curse is discharged from the ring once it is worn. This curse can be removed from the ring or from the affected individual by any method used to remove bestow curse. a Spellcraft check (DC 25 + your caster level) identifies the item as cursed.\n\nThis effect is subject to spell resistance as soon as the ring is worn. This spell affects magical and non-magical rings, but rings that are intelligent receive a Will save.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2252287732ba3698.json",
+    "web": "https://codex.pipsprojects.com/#/e/2252287732ba3698"
+  },
+  "license": "OGL 1.0a"
+}

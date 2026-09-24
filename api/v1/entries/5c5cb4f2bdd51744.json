@@ -1,0 +1,28 @@
+{
+  "id": "5c5cb4f2bdd51744",
+  "name": "Gusting Shot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "legendary hunter": 2,
+      "ranger": 2
+    },
+    "desc": [
+      "primeval"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [primeval]; Level druid 2, legendary hunter 2, ranger 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange touch\nTarget one projectile or piece of ammunition\nDuration 1 round or until discharged.\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nNote Primeval spells are a type of spell that can enchant a single piece of ammunition the ranger is wielding with raw, elemental power. It can then be used by the hunter as part of an attack any time during the next round, even on their current turn. If the attack misses, the spell is lost.\n\nA blow from the touched missile creates a strong gust of wind. The target is pushed away from you in a straight line up to 5 feet per 2 caster levels. For every size category of the target above Medium, reduce the distance pushed by 5 feet (–5 feet for Large, –10 feet for Huge, –15 for Gargantuan, and –20 feet for Colossal) to a minimum of 0 feet. A successful Fortitude save negates the movement. If the target is obstructed by a wall, the target takes 1 damage per 5 feet of movement prevented. Additionally, the target must make a reflex save or be knocked prone.\n\nLegendary Hunters © 2020, Legendary Games; Authors Connor Bates, Cerise Herndon, and W. Hervay",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c5cb4f2bdd51744.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c5cb4f2bdd51744"
+  },
+  "license": "OGL 1.0a"
+}

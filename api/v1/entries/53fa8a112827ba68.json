@@ -1,0 +1,25 @@
+{
+  "id": "53fa8a112827ba68",
+  "name": "Arrow of Vengeance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 5,
+      "inquisitor": 5,
+      "ranger": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Bastion Press"
+  },
+  "body": "School transmutation; Level cleric/oracle 5, inquisitor 5, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a non-magical masterwork arrow)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration 1 day\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe somatic components of this spell involve firing a masterwork (but not magical) arrow from a bow. The magic of the spell increases the range of the fired arrow to the range listed above, and imparts an enhancement bonus to the attack roll equal to your level divided by four, minimum +1. If this arrow hits the target, it causes normal arrow damage.\n\nIf the creature struck has ever knowingly and willingly caused you harm (meaning that you have suffered damage from an attack launched by that creature or have ever been affected by a magical effect from that creature), the arrow automatically scores a critical hit. Additionally, the target must make a Will saving throw or become fully affected by the power of this spell. Such a creature suffers a –4 morale penalty to all attack rolls made against you, and you gain a +4 bonus to all saving throws incurred by attacks from this victim. By concentrating for a minute, you can divine the location of a creature under the effects of this spell as per the spell locate creature. All of your attacks that threaten critical hits against the target automatically confirm as critical hits. Finally, as a standard action you may prematurely end the effects of this spell at any time you have line of sight to the victim and he is within a range of 5 ft. per caster level. Doing so envelops the target in a blast of sacred (or profane, for evil casters) energy that deals 1d6 points of damage per caster level (maximum 10d6). A successful Will saving throw halves the damage done from this final act of revenge.\n\nThis spell is normally only granted by deities of war or vengeance.\n\nVillains: Rebirth Villains: Rebirth. Copyright 2003, Bastion Press, Inc. Author: James Jacobs.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/53fa8a112827ba68.json",
+    "web": "https://codex.pipsprojects.com/#/e/53fa8a112827ba68"
+  },
+  "license": "OGL 1.0a"
+}

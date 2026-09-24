@@ -1,0 +1,29 @@
+{
+  "id": "2c89584b28cc23ec",
+  "name": "Kinetic Jaunt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "unchained summoner": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level alchemist 2, bard 2, inquisitor 2, magus 2, psychic 2, sorcerer/wizard 2, summoner/unchained summoner 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents S\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 round/level\n\nYou charge your movements with energy and force giving you speed and agility. You gain the following benefits:\n\n+10 enhancement bonus to your base speed\n+5 enhancement bonus to any other movement speed you posses\nA bonus on Acrobatics checks equal to 1/2 your caster level.\nMoving through an enemy’s space does not have a higher Acrobatics DC than moving through a threatened space.\nOnce per round, you ignore the first threatened square of movement when determining if you trigger an attack of opportunity or need to roll Acrobatics.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c89584b28cc23ec.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c89584b28cc23ec"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "bb08862a231a9553",
+  "name": "Dispel Air",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [earth]; Level druid 5, cleric/oracle 5, inquisitor 5, shaman 5\n\nThis spell functions as dispel evil, except it surrounds you in a gray aura and it affects air creatures rather than evil ones.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb08862a231a9553.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb08862a231a9553"
+  },
+  "license": "OGL 1.0a"
+}

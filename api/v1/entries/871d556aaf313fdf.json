@@ -1,0 +1,24 @@
+{
+  "id": "871d556aaf313fdf",
+  "name": "Frigid Maw",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level druid 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget your animal companion or self (if applicable)\nDuration 1 minute/level, see text\nSaving Throw Will negates (harmless); see text; Spell Resistance yes\n\nYour or your animal companion’s bite attack deals an additional 1d4 points of cold damage, and the target is staggered for 1 round per 2 caster levels. A successful Fortitude save reduces the stagger effect to a -10 penalty to speed (minimum 0). The staggered effect and reduction in speed doesn’t stack from multiple attacks, but the duration resets if a newer bite would cause the ongoing damage to last longer or the effect would increase to staggered.\n\nThe cold does not harm you or the animal companion.\n\nPrayer – Gods of Winter and Hunting, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/871d556aaf313fdf.json",
+    "web": "https://codex.pipsprojects.com/#/e/871d556aaf313fdf"
+  },
+  "license": "OGL 1.0a"
+}

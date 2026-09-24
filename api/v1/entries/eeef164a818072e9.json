@@ -1,0 +1,27 @@
+{
+  "id": "eeef164a818072e9",
+  "name": "Sealing Glyph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "wizard": 3,
+      "witch": 2
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level bard 2, cleric/oracle 2, inquisitor 2, sorcerer/wizard 3, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a simple or better lock)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget door, chest, or other opening which can be closed\nDuration permanent\nSaving Throw Reflex half, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou recite a spell of protection and transfer the lock in your hand onto the object to be worded, leaving behind a quickly fading sigil. An object warded by this spell cannot be opened by any means other than by breaking the object, or using magic such as knock or dispel magic. When forced open the glyph explodes in a resounding blast dealing 1d4 force damage per caster level in a 10 ft. radius. A knock spell suppresses, but does not remove the glyph, for 10 minutes.\n\nThe DC for a knock spell is 11 + the caster level of the glyph’s creator.\n\nA sealing glyph can be bypassed as a magical trap with a disable device check DC 11 + the caster level of the glyph’s creator.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eeef164a818072e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/eeef164a818072e9"
+  },
+  "license": "OGL 1.0a"
+}

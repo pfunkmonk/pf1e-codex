@@ -1,0 +1,32 @@
+{
+  "id": "844c9e45a8d12ae4",
+  "name": "Absorb Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 3,
+      "inquisitor": 3,
+      "medium": 2,
+      "psychic": 3,
+      "wizard": 3,
+      "spiritualist": 3,
+      "witch": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [evil]; Level cleric/oracle 3, inquisitor 3, medium 2, psychic 3, shaman 3 sorcerer/wizard 3, spiritualist 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (at least an ounce of a dead creature’s flesh)\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 minute/level (D)\n\nDESCRIPTION\n\nWhen casting this spell the caster consumes a portion of another creature’s corpse, usually the brain. When they do, they gain a limited view of the creature’s memories and knowledge gaining a 50% chance of recalling any important fact known to that creature such as it’s family history, recent events, the general layout of its hometown or home, how the creature died, and other important pieces of information like passwords or hidden items of importance. Skills, feats, spells, and other such knowledge cannot be obtained in this fashion.\n\nOnce the caster rolls to determine whether they recall a fact, they cannot attempt to recall that same fact again. Once per minute while the spell persists the caster can roll to recall a different piece of information. After the duration expires, the caster no longer has the ability to recall new facts. The flesh must be from a creature that died no more than one week prior to the casting of the spell.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/844c9e45a8d12ae4.json",
+    "web": "https://codex.pipsprojects.com/#/e/844c9e45a8d12ae4"
+  },
+  "license": "OGL 1.0a"
+}

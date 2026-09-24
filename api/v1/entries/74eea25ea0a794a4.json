@@ -1,0 +1,24 @@
+{
+  "id": "74eea25ea0a794a4",
+  "name": "Delay Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of stone from a tombstone or a sliver of wood from a coffin), DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 min./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe affected creature can continue to act, move, cast spells, and fight without penalty at 0 or fewer hit points; i.e., the subject is not disabled at 0 hit points and is not unconscious and dying at negative hit points. A creature reduced to negative hit points equal to its Constitution still dies, however. This spell does not prevent a creature from dying due to death from massive damage or ability damage or drain.\n\nIf this spell’s duration expires while the subject is at 0 or fewer hit points, the creature is either disabled (if at 0 hit points) or is unconscious and dying (fewer than 0 hit points).\n\nNote: The spell can be cast only on a subject with 1 or more hit points; it has no effect on a creature already at 0 or fewer hit points.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74eea25ea0a794a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/74eea25ea0a794a4"
+  },
+  "license": "OGL 1.0a"
+}

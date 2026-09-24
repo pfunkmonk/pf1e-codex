@@ -1,0 +1,27 @@
+{
+  "id": "b16c4e9174157b3a",
+  "name": "Ensnare Ley Line",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 5,
+      "oracle": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "special",
+    "sr": "no (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level bard 5, cleric/oracle 4, druid/shaman 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one ley line\nDuration 1 round/level\nSaving Throw see text; Spell Resistance no (harmless)\n\nDESCRIPTION\n\nYou harness the eldritch energy that naturally flows through you and funnel it toward a nearby ley line, temporarily warping it to your advantage.\n\nWhen casting this spell, make a caster level check (DC 18) to determine whether the spell ensnares the ley line.\n\nFor each caster that has successfully used the ley line during the encounter, increase the caster level check’s DC by 1.\n\nUpon a successful check, whenever you successfully use that ley line you may either choose the desired effect from the appropriate ley line effects table or you may choose to roll on a table one step higher (If you do the latter, roll normally).\n\nIf the ley line you ensnare is locked, you may either use its effect or roll on a table one step higher. If you do, add or subtract 1 to your roll’s result if desired.\n\nThis spell does not affect the negative effects incurred during ley line burnout or when rolling a natural 1 on a caster level check to use the ley line.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b16c4e9174157b3a.json",
+    "web": "https://codex.pipsprojects.com/#/e/b16c4e9174157b3a"
+  },
+  "license": "OGL 1.0a"
+}

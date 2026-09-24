@@ -1,0 +1,28 @@
+{
+  "id": "64a143638f74a9be",
+  "name": "Cloak of Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "shaman": 5,
+      "wizard": 6
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [earth]; Level druid 5, shaman 5, sorcerer/wizard 6\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange touch\n\nTarget creature touched\n\nDuration 1 hour/level (D)\n\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou surround the target in a swirling barrier of rocks, dirt and mud. The target gains soft cover and a hardness of 8. This barrier can absorb up to 10 points of damage (maximum 150 points) per caster level through its hardness before the hardness is lost.\n\nAdditionally, any creature that attacks they target in melee while adjacent or with a natural weapon, they take 1d6 bludgeoning damage. Any creature attempting to enter the target’s square, like a swarm, much smaller creature, or a creature using Acrobatics, takes 2d6 bludgeoning damage each round they are in the target’s square. A creature with spell resistance can apply it to resist damage from this spell. A creature can only be damaged by this spell once per round regardless of the number of attacks made or movement.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/64a143638f74a9be.json",
+    "web": "https://codex.pipsprojects.com/#/e/64a143638f74a9be"
+  },
+  "license": "OGL 1.0a"
+}

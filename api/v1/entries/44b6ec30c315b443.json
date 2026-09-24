@@ -1,0 +1,24 @@
+{
+  "id": "44b6ec30c315b443",
+  "name": "Arrow of the Animal Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "elven archer": 4,
+      "shaman": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level elven archer 4, druid/shaman 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (an arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nDuration 1 round\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou bind powerful animal spirits to an arrow, which you must loose during your next turn for the spell to take effect. If the arrow strikes, ghostly wolves, bears, aurochs, or wildcats appear around its shaft and attack the target. The arrow’s successful hit deals 6d6 hp damage; in addition, you may make a combat maneuver check for the ghostly animals and add a +10 competency bonus to your CMB. This maneuver may be a bull rush, grapple (1 round), trip, or feint.\n\nRegardless of whether you make a successful combat maneuver check, the terrible, ghostly spirits cause a struck target to be frightened for a number of rounds equal to your caster level.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/44b6ec30c315b443.json",
+    "web": "https://codex.pipsprojects.com/#/e/44b6ec30c315b443"
+  },
+  "license": "OGL 1.0a"
+}

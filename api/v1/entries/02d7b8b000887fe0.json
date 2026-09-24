@@ -1,0 +1,23 @@
+{
+  "id": "02d7b8b000887fe0",
+  "name": "Guardian Drone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 1
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation; Level machinesmith 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small clockwork device shaped like a bird or other flying creature)\n\nEFFECT\n\nRange personal\nTarget a small clockwork device shaped like a bird or other flying creature\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nThis spell animates a tiny mechanical guardian to aid and protect the caster. At time of casting, the caster selects either an offensive or defensive option for the drone. If offensive, the drone harasses and distracts an adjacent enemy, granting the caster a +2 circumstantial bonus to attack rolls against the target. The target of the spell may be changed by a swift action. If set to defensive, the drone imparts a +2 AC bonus to the caster against a specific adjacent opponent’s next attack. By using a move action, the caster can change the drone from offensive to defensive, and vice versa. The drone may be attacked; it has an AC of 16 and 4 hp, and has all saves equal to a magic item (2 + caster level).\n\nClasses of NeoExodus: Machinesmith Copyright 2012, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/02d7b8b000887fe0.json",
+    "web": "https://codex.pipsprojects.com/#/e/02d7b8b000887fe0"
+  },
+  "license": "OGL 1.0a"
+}

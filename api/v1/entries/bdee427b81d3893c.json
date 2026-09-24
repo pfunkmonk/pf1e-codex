@@ -1,0 +1,29 @@
+{
+  "id": "bdee427b81d3893c",
+  "name": "Hellfire Rebuke",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 1,
+      "inquisitor": 1
+    },
+    "desc": [
+      "evil",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [evil, fire]; Level antipaladin 1, cleric/oracle 1, inquisitor 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget attacking creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nYou pull fire from the hells to strike any who would deign to attack you. When activated, the creature that attacked you is dealt 1d4 damage per caster level (maximum 5d4). Half of the damage dealt is fire damage and the other half is hellish damage and is not subject to energy resistance or immunity.\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bdee427b81d3893c.json",
+    "web": "https://codex.pipsprojects.com/#/e/bdee427b81d3893c"
+  },
+  "license": "OGL 1.0a"
+}

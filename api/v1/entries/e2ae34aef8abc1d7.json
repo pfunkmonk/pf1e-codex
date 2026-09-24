@@ -1,0 +1,30 @@
+{
+  "id": "e2ae34aef8abc1d7",
+  "name": "Dread Curse of Azathoth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "chaotic",
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School necromancy [chaotic, curse]; Level cleric 7, shaman 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw none and Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nRecorded only in desecrated tombs by worshipers of Azathoth, this spell reduces the target’s ability scores to 3 (unless they were already lower). The target can follow simple instruction and recognizes friends. It cannot cast spells and its caster level for any spell-like abilities is reduced by 6 (the spell-like abilities can’t be cast if the caster level is reduced below 1). The target receives no saving throw to resist the spell initially, but can attempt a Will saving throw as a full-round action each round to regain its faculties. This spell can be ended early by a heal, limited wish, miracle, or wish spell.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2ae34aef8abc1d7.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2ae34aef8abc1d7"
+  },
+  "license": "OGL 1.0a"
+}

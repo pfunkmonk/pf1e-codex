@@ -1,0 +1,17 @@
+{
+  "id": "548e9827ccd7d2cb",
+  "name": "Zombie, Therian",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Epic Meepo Presents: Monsters",
+  "book": "Epic Meepo Presents: Monsters",
+  "facets": {
+    "bk": "Epic Meepo Presents: Monsters"
+  },
+  "body": "This shambling corpse resembles a wolf that walks upright.\n\nWightwolf\nCR 1\n\nXP 400\nTherian zombie wolf\nNE Medium undead\nInit +2 Senses darkvision 60 ft., low-light vision, scent; Perception +6\n\nAC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural, +0 size)\nhp 13 (2d8+4)\nFort +5; Ref +5; Will +1\nDR 5/slashing; Immune undead traits\n\nSpeed 30 ft.\nMelee bite +2 (1d6+1)\n\nStr 13, Dex 15, Con —, Int 2, Wis 12, Cha 15\nBase Atk +1; CMB +2; CMD14\nFeats Skill Focus (Perception)\nSkills Perception +6, Stealth +7, Survival +3\nSQ bestial\n\nEnvironment any\nOrganization solitary, pair, or pack (3-12)\nTreasure none\n\nBestial (Ex) This creature more closely resembles a living animal than an ordinary undead. It has Fortitude and Reflex as good saves instead of Will, and adds its Charisma modifier to its Fortitude save bonus instead of its Constitution modifier. In addition, this creature has the class skills of an animal instead of the normal class skills of an undead.\n\n“Therian zombie” is an acquired template that can be added to any Small or larger animal that has a skeletal system (referred to hereafter as the base creature). A therian zombie uses the base creature’s stats and abilities except as noted here.\nAlignment Always neutral evil.\nType The zombie’s type changes to undead, but it retains the base creature’s saving throws and class skills as a result of the bestial special quality described below.\nSenses The zombie retains its normal senses and gains darkvision 60 ft.\nDefensive Abilities The zombie gains DR 5/slashing and undead traits.\nSpeed The zombie loses all other speeds and gains a land speed of 30 ft.\nSpecial Attack The zombie retains none of the base creature’s special attacks.\nReach The zombie’s reach is calculated as if it were tall instead of long.\nAbilities Con —, Cha equal to the base creature’s Con score.\nCMD The zombie can be tripped, and loses any bonus the base creature has against trip attacks.\nSQ The zombie retains the base creature’s special qualities and gains the bestial quality (as per the wightwolf described to the left).\nEnvironment any\n\nMade from animal corpses, therian zombies are surgically altered to more closely resemble humans before being animated. These alterations are usually quite extensive, involving grafted bones, wire frames, and various other materials costing no less than the material components needed to animate the corpse with an animate dead spell.\n\nThe cost of the alterations needed to create a therian zombie is often justified by the vanity of the zombie’s owner; certain taxonomist-necromancers view therian zombies as status symbols, and take pride in the walking animal corpses they create.\n\nEpic Meepo Presents: Monsters. © 2011-2013, Eric Morton.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/548e9827ccd7d2cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/548e9827ccd7d2cb"
+  },
+  "license": "OGL 1.0a"
+}

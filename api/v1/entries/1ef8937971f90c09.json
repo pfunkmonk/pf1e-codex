@@ -1,0 +1,32 @@
+{
+  "id": "1ef8937971f90c09",
+  "name": "Enhance Voice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 0,
+      "alchemist": 1,
+      "bard": 0,
+      "cleric": 0,
+      "inquisitor": 0,
+      "mesmerist": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation [sonic]; Level adept 0, alchemist 1, bard 0, cleric 0, inquisitor 0, mesmerist 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one willing creature\nDuration concentration (D)\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou strengthen the target’s voice, making it firm and clear. The recipient can be easily heard within 50 ft./level regardless of the background noise (Perception DC 0). Enhance voice does not increase the range, radius, or strength of any extraordinary or magical effects, such as bardic performance.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ef8937971f90c09.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ef8937971f90c09"
+  },
+  "license": "OGL 1.0a"
+}

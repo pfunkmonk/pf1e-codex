@@ -1,0 +1,29 @@
+{
+  "id": "50a8b43c92625c5e",
+  "name": "Flowers Hurricane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 4,
+      "hunter": 4,
+      "ranger": 4,
+      "shaman": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School evocation [air]; Level druid 4, hunter 4, ranger 4, shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a live blossom)\n\nEFFECT\n\nRange 60 ft.\nEffect line-shaped gust of wind emanating out from you to the extreme of the range\nDuration 1 round\nSaving Throw none or Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as gust of wind, but the blast also carries a multitude of blossoms, leaves, and sprigs, inflicting 5d6 damage to all creatures in its path. Half of this is bludgeoning damage and half slashing damage. A target can save normally against the wind’s effects, but cannot avoid the damage.\n\nThe Bardess’ Library #3: Nature, © 2024, Legendary Games; Author: Margherita Tramontano.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/50a8b43c92625c5e.json",
+    "web": "https://codex.pipsprojects.com/#/e/50a8b43c92625c5e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "a7e0a0644adf94dd",
+  "name": "Elation, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 2,
+      "inquisitor": 1,
+      "mesmerist": 1,
+      "paladin": 1,
+      "psychic": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [emotion, mind-affecting]; Level bard 1, cleric/oracle 2, inquisitor 1, mesmerist 1, paladin 1, psychic 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou fill the subject with joy and energy, granting them a +1 morale bonus to attack and melee or thrown damage rolls, AC, Reflex saves, and skills that rely on Strength or Dexterity. Additionally, the speed of their main mode of movement increases by 5 feet.\n\nElation\n\nSchool enchantment [emotion, mind-affecting]; Level bard 2, cleric/oracle 2, inquisitor 2, mesmerist 2, paladin 2, psychic 2, sorcerer/wizard 3, witch 3\n\nThis spell functions as lesser elation, except the morale bonus increases to +2, and their main mode of movement increases by 10 feet.\n\nElation, Greater\n\nSchool enchantment [emotion, mind-affecting]; Level bard 5, cleric/oracle 5, inquisitor 5, mesmerist 5, paladin 4, psychic 5, sorcerer/wizard 6, witch 6\n\nThis spell functions as lesser elation, except the morale bonus increases to +4, and their main mode of movement increases by 15 feet.\n\nIf you are using the optional hope and despair rules, all three iterations of elation are considered hope spells.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a7e0a0644adf94dd.json",
+    "web": "https://codex.pipsprojects.com/#/e/a7e0a0644adf94dd"
+  },
+  "license": "OGL 1.0a"
+}

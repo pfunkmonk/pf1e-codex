@@ -1,0 +1,30 @@
+{
+  "id": "0e847cf5d5037ed6",
+  "name": "Pains Of The Past",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "temporal"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (necromancy) [temporal]; Level alchemist 2, bard 2, magus 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell brings wounds from a creature’s past forward through time to re-manifest in the present. The creature takes 1d6 hp damage per your caster level (maximum 10d6). A successful Fortitude save halves this damage.\n\nMythic: The damage increases to 2d6 hp per Hit Dice of the target. On a failed save, the target is also dazed for 1 round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e847cf5d5037ed6.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e847cf5d5037ed6"
+  },
+  "license": "OGL 1.0a"
+}

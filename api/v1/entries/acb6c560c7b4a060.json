@@ -1,0 +1,37 @@
+{
+  "id": "acb6c560c7b4a060",
+  "name": "Wisp Ally",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Far Distant Future Publishing",
+  "book": "Far Distant Future Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 1,
+      "druid": 1,
+      "medium": 1,
+      "mystic": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "spiritualist": 1,
+      "witch": 1,
+      "witchwarper": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Far Distant Future Publishing"
+  },
+  "body": "School conjuration (creation) [light]; Level adept 1, druid 1, medium 1, mystic 1, occultist 1, psychic 1, ranger 1, shaman 1, sorcerer/wizard 1, spiritualist 1, witch 1, witchwarper 1\n\nCASTING\n\nCasting Time ? 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one distracting, glowing servant\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a small, glowing, spherical wisp of energy that can distract your enemies in combat. This wisp can move up to 60 feet per round in any direction, and you can direct it as a move action on your turn (including on the turn it is summoned). If the wisp occupies the same space as an enemy, that enemy takes a –2 penalty to AC, CMD and attack rolls. Once directed toward a specific enemy, the wisp will follow that enemy automatically unless you direct it to change targets. The wisp is made of pure radiant energy and can’t be damaged in combat, though it can be dispelled as normal.\n\nIn addition to the function described above, the wisp sheds light in a 20-foot radius in a color of your choice (chosen when you cast the spell).\n\nWisp ally cannot function within an area of magical darkness with a spell level greater than itself.\n\nGalactic Bestiary 20. © 2026, Far Distant Future Publishing; Author: Bryan Mangum.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/acb6c560c7b4a060.json",
+    "web": "https://codex.pipsprojects.com/#/e/acb6c560c7b4a060"
+  },
+  "license": "OGL 1.0a"
+}

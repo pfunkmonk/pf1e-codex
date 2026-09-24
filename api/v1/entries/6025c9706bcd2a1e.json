@@ -1,0 +1,17 @@
+{
+  "id": "6025c9706bcd2a1e",
+  "name": "Turtlehemoth",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "TURTLEHEMOTH\nCR 10\n\nThis gigantic turtle moves at a ponderous pace, but its sharp jaw looks able to snap a tree in half.\n\nXP 9,600\nN Colossal animal\nInit +2; Senses low-light vision, scent; Perception +21\n\nDEFENSE\n\nAC 28, touch 0, flat-footed 28 (–2 Dex, +28 natural, –8 size)\nhp 137 (11d8+88)\nFort +14, Ref +5, Will +4\n\nOFFENSE\n\nSpeed 20 ft., swim 20 ft.\nMelee bite +16 (6d6+20/19-20 plus grab)\nSpace 30 ft.; Reach 30 ft.\nSpecial Attacks swallow whole (2d8+20 bludgeoning, AC 28, 26 hp)\n\nSTATISTICS\n\nStr 40, Dex 6, Con 25, Int 1, Wis 13, Cha 6\nBase Atk +8; CMB +31 (+35 grapple); CMD 39 (43 vs. trip)\nFeats Improved Critical (Bite), Improved Initiative, Lunge, Skill Focus (Perception), Toughness, Weapon Focus (bite)\nSkills Perception +21, Swim +21\nSQ armored stomach, hold breath, shell\n\nSPECIAL ABILITIES\n\nArmored Stomach (Ex)\n\nA turtlehemoth’s body is difficult to cut through-its stomach gains a +4 bonus to its AC and has double the normal hit points when determining the success of a swallowed creature attempting to cut its way free.\n\nShell (Ex)\n\nAs a move action, a turtlehemoth can pull its extremities and head into its shell. It cannot move or attack as long as it remains in this state, but its armor bonus from natural armor increases by +4 as long as it does.\n\nECOLOGY\n\nEnvironment temperate or warm water or shore\nOrganization solitary or band (2-5)\nTreasure none\n\nTurtlehemoths are plodding, long lived creatures of relative passivity. They meander through shallow seas and shorelines, consuming mostly crabs and large fish. Though they move slowly, their necks have surprising length and they are able to ambush prey from a great distance.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6025c9706bcd2a1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/6025c9706bcd2a1e"
+  },
+  "license": "OGL 1.0a"
+}

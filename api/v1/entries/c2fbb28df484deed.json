@@ -1,0 +1,29 @@
+{
+  "id": "c2fbb28df484deed",
+  "name": "Terrifying Gaze",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "inquisitor": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level inquisitor 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a reptilian eye)\n\nEFFECT\n\nRange 30 ft.\n\nTarget enemies within 30 ft. of you\nDuration 1 round/level\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYour eyes flash brightly with the power and presence of dragonkind, granting you a gaze attack. Enemies within 30 ft. of you that meet your gaze must succeed on a Will save or become shaken for the duration of the spell.\n\nShaken targets become panicked for 2d4 rounds and remain shaken for the remainder of the spell’s duration.\n\nA creature that succeeds on a Will save is shaken for that round but is immune to this gaze attack for 24 hrs.\n\nA target may avoid this gaze attack by averting its eyes, gaining a 50% chance to avoid having to make a saving throw against the gaze attack (it also gains a 20% miss chance on attacks against you). A target may also otherwise take action to avoid looking at you (for example, using a blindfold, which gives you total concealment against it).\n\nDragons receive a +2 bonus to the DC of this spell.\n\nDragonkin, draconic bloodline sorcerers, and wizards who specialize in the dragon arcane school receive a +1 bonus to the DC of this spell. These bonuses do not stack.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2fbb28df484deed.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2fbb28df484deed"
+  },
+  "license": "OGL 1.0a"
+}

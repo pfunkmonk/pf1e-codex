@@ -1,0 +1,25 @@
+{
+  "id": "63921abbd0ce9f45",
+  "name": "Heart Skewer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (dimensional); Level magus 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange incorporeal ranged touch\nTarget one creature subject to critical hits\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou attempt to skewer a target’s critical, internal organ without penetrating its skin. With a sweeping arm motion and a powerful lunge, you thrust your hand or a piercing melee weapon toward a target. Your hand and forearm vanish, leaving a ball of roiling flesh where your elbow passes into hyperdimensional space.\n\nWith a successful incorporeal ranged touch attack, you bypass the armor and skin of the target and grip or skewer the vital organ directly. This attack ignores the target’s cover bonuses, shield, natural armor, and most armor, but it does not ignore armor bonuses granted by force effects such as mage armor, bracers of armor, and elf lord’s battle armor. If the target fails its save, it takes 12d6 hp damage +1 hp per caster level; otherwise, it takes 3d6 hp damage +1 hp per caster level. You withdraw your hand, and if the target dies, the target’s vital organ drips gore from your grip or from the skewering tip of your weapon.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63921abbd0ce9f45.json",
+    "web": "https://codex.pipsprojects.com/#/e/63921abbd0ce9f45"
+  },
+  "license": "OGL 1.0a"
+}

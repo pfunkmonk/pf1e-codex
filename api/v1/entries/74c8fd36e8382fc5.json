@@ -1,0 +1,30 @@
+{
+  "id": "74c8fd36e8382fc5",
+  "name": "Tears of joy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "medium": 2,
+      "mesmerist": 1,
+      "psychic": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, medium 2, mesmerist 1, psychic 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature; see text\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the target with such overwhelming joy that they are blinded by tears and staggered. On the creature’s next turn, it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity. If this save is successful, the effect ends.\n\nCreatures without eyes and aquatic creatures are not blinded, but they are still staggered. A creature with an Intelligence score of 2 or lower is not affected.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74c8fd36e8382fc5.json",
+    "web": "https://codex.pipsprojects.com/#/e/74c8fd36e8382fc5"
+  },
+  "license": "OGL 1.0a"
+}

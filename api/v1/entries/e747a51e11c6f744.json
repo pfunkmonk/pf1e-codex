@@ -1,0 +1,27 @@
+{
+  "id": "e747a51e11c6f744",
+  "name": "Iceberg",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [cold, water]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (a chunk of ice)\n\nEFFECT\n\nRange long (400 ft. + 40 ft.)\n\nEffect up to three icebergs (25-ft. radius, 50-ft. high cylinder)\n\nDuration 1 hour/level\n\nSaving Throw none; Spell Resistance no\n\nYou conjure into existence up to three small icebergs.\n\nAn iceberg cannot be conjured so it occupies the same space as a creature or another object. The iceberg’s entire surface must rest upon either solid ground or a liquid, although you may place each of the three icebergs atop a different surface from the others. When cast on solid ground such as earth, stone, snow, or ice, the iceberg merges with the surrounding surface, including another iceberg, and becomes an immovable object, even when cast on a slippery, vertical surface.\n\nWhen cast on water or any other liquid, the entire iceberg floats atop the surface in the same manner as a piece of driftwood or any other entirely buoyant object.\n\nNo portion of the iceberg extends beneath the water’s surface. Unlike an iceberg conjured onto solid ground, the prevailing current or winds may move the iceberg.\n\nWhen an iceberg collides with another object or another object crashes into it, the iceberg deals 32d8 points of damage as described in the “Iceberg” section in Chapter 3 of this sourcebook. On the other hand, creatures take only 1d6 points of damage when an iceberg strikes them or they strike an iceberg. Of course, creatures falling onto an iceberg would still take the appropriate amount of falling damage, as would a creature forcibly hurled against the iceberg.\n\nThe iceberg has a hardness of 0 and 1,800 hp. Creatures can hit an iceberg automatically, and the iceberg takes double damage from fire-based spells and effects. When an iceberg’s hit points drop to 0, the iceberg instantly vanishes into nothingness.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e747a51e11c6f744.json",
+    "web": "https://codex.pipsprojects.com/#/e/e747a51e11c6f744"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "aa07e78edd9a0524",
+  "name": "Sonorous Steel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "lathspell": 1,
+      "paladin": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bard 1, cleric/oracle 1, inquisitor 1, lathspell 1, paladin 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRangepersonal\nTarget self\nDuration 1 round\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nYou hum in tune with the din of battle and impart that essence into your weapon. When you cast this spell you choose one weapon you are holding, it deals an additional 1d8 sonic damage on a successful attack until the end of the round. In addition, when a creature takes sonic damage from the weapon they must make a fortitude saving throw or be deafened for 1d6 rounds and stunned for one round. With a successful saving throw the creature instead suffers a 10 foot penalty to movement speed as its equilibrium is impacted. Against a creature that relies on hearing to see, such as a creature with echolocation and some creatures with blindsense or blindsight, increase the sonic damage to 2d8.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa07e78edd9a0524.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa07e78edd9a0524"
+  },
+  "license": "OGL 1.0a"
+}

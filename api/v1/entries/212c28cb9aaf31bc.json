@@ -1,0 +1,30 @@
+{
+  "id": "212c28cb9aaf31bc",
+  "name": "Scarf of Slashing Steel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "legendary ninja": 1,
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [metal]; Level bard 1, legendary ninja 1, magus 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a silk scarf )\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou cause the target scarf to lash out and strike a single creature within range. This is treated as a melee attack if the target is adjacent to you or a ranged attack if it is more than 5 feet away from you. The scarf of slashing steel becomes hard as iron and razor-sharp when it hits, dealing 1d8 points of slashing damage + 1 point per caster level (maximum +5), plus 1 point of bleed damage.\n\nThe scarf of slashing steel can be used to perform a reposition or trip combat maneuver rather than dealing damage, though if the combat maneuver succeeds the target takes 1 point of bleed damage as described above.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/212c28cb9aaf31bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/212c28cb9aaf31bc"
+  },
+  "license": "OGL 1.0a"
+}

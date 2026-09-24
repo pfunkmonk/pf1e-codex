@@ -1,0 +1,17 @@
+{
+  "id": "4bf45189c8197d6f",
+  "name": "Cat Swarm, Carnivorous",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Genius Guide to the Talented Bestiary",
+  "book": "The Genius Guide to the Talented Bestiary",
+  "facets": {
+    "bk": "The Genius Guide to the Talented Bestiary"
+  },
+  "body": "Decaying cats crawl out from every nook and cranny. They begin yowling in a horrid clamoring chorus through rotten throats.\n\nCarnivorous Cat Swarm CR 7\n\nXP 3,200\nSkilled\nNE Tiny undead (augmented animal, swarm)\nInit +4; Senses darkvision 60 ft., lifesense 120 ft., low-light vision; Perception +4\nAura stench (DC 20, 1 round)\n\nDEFENSE\n\nAC 17, touch 17, flat-footed 12 (+4 Dex, +1 dodge, +2 size)\nhp 84 (8d8+48)\nFort +8, Ref +10, Will +6\nImmune half damage from piercing and slashing, undead traits\n\nOFFENSE\n\nSpeed 20 ft., climb 10 ft.\nMelee swarm (2d6 plus bleed, disease, and paralysis)\nSpace 10 ft.; Reach 0 ft.\nSpecial Attacks bleed (2d6), distraction (DC 17), paralysis (1 round, DC 20, elves are immune to this effect), shriek\n\nSTATISTICS\n\nStr 2, Dex 19, Con -, Int 2, Wis 19, Cha 22\nBase Atk +6; CMB -, CMD –\nFeats Dodge, Improved Initiative, Mobility, Skill Focus (Stealth)\nSkills Stealth +18\nSQ create spawn, evasion\n\nSPECIAL ABILITIES\n\nCreate Spawn (Su)\n\nAny Tiny size or smaller feline animal killed by the carnivorous cat swarm arises as an undead that joins the swarm, healing it for 1d6 points of damage. When at least 300 felines have been killed, and raised, they become a separate carnivorous cat swarm.\n\nDisease (Su)\n\nScratch Fever: Swarm injury; save Fort DC 20; onset 1 day; frequency 1/day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves. The save DC is Charisma-based.\n\nShriek (Su)\n\nThe entire carnivorous cat swarm can shriek as a standard action. Creatures without this ability within 60 feet who hear the shriek and clearly see the swarm must succeed on a DC 20 Fortitude save. Creatures failing the save are paralyzed for 2d4 rounds, or until the swarm damages them, goes out of range, or leaves their sight. A creature that successfully saves cannot be affected again by the same carnivorous cat swarm’s shriek for 24 hours. The save DC is Charisma-based.\n\nECOLOGY\n\nEnvironment any urban\nOrganization solitary, pair, or plague (3-8)\nTreasure none\n\nCats are a constant companion to humanoids, and an inescapable presence within most cities. Sometimes an individual’s obsession with felines can lead to a home filled to bursting with far too many mouths. When the owner dies, their soul can refuse to abandon their beloved pets, while hunger drives the trapped cats to consume the corpse. The lingering spirit of the dead master saturates the felines, cursing them with unlife, and an urge to add to their number. Should even one of the undead escape, they begin growing and spreading like a plague.\n\nThe Genius Guide to the Talented Bestiary. Copyright 2017, Rogue Genius Games; Authors: ???",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4bf45189c8197d6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/4bf45189c8197d6f"
+  },
+  "license": "OGL 1.0a"
+}

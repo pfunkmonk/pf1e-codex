@@ -1,0 +1,26 @@
+{
+  "id": "7004a8504732912a",
+  "name": "Bramble Spear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "ranger": 1,
+      "shaman": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "no (object)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level druid 2, ranger 1, shaman 2, witch 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget wooden weapon touched\nDuration 1 round/level\nSaving Throw none (object); Spell Resistance no (object)\n\nDESCRIPTION\n\nYou cause the weapon to sprout vicious thorns and spikes. You must cast this spell on a weapon with a wooden striking surface, including ironwood weapons.\n\nFor the duration of the spell the weapon deals bludgeoning, slashing, and piercing damage and gains a +1 enhancement bonus for every three caster levels you possess. This stacks with any existing enhancement bonus up to +5.\n\nBreath of Life: The Scout, © 2024, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr. and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7004a8504732912a.json",
+    "web": "https://codex.pipsprojects.com/#/e/7004a8504732912a"
+  },
+  "license": "OGL 1.0a"
+}

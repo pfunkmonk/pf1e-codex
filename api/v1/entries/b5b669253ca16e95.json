@@ -1,0 +1,27 @@
+{
+  "id": "b5b669253ca16e95",
+  "name": "Dark Empowerment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (summoning) [evil]; Level cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, F/DF (A small idol depicting a fiendish creature)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe caster is imbued with the raw strength of an evil outsider, growing stronger, faster, and more powerful. The caster gains a +4 enhancement bonus to Strength, Dexterity, and Constitution. While under the effects of the spell, the caster deals unarmed damage as a monk of level equal to his caster level and gains the benefits of the Improved Unarmed Strike feat. Furthermore, the caster gains damage reduction 10/magic while under the influence of this spell.\n\nEach round that the spell is active, the caster must make a Will save.\n\nThe DC of this save varies depending upon the willpower of the being summoned. Roll 1d6–l and add the result to the base DC of 15. This is the DC of the caster’s Will saves. If the caster fails, the fiend then controls the caster’s body for the duration of the spell and immediately attempts to wreak as much havoc as possible, most often by compelling the caster to attack his allies. The fiend can use the caster’s skills, feats, and abilities as normal but has no access to the caster’s spells.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b5b669253ca16e95.json",
+    "web": "https://codex.pipsprojects.com/#/e/b5b669253ca16e95"
+  },
+  "license": "OGL 1.0a"
+}

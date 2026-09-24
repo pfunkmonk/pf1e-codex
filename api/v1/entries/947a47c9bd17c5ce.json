@@ -1,0 +1,26 @@
+{
+  "id": "947a47c9bd17c5ce",
+  "name": "Vanishing Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 4,
+      "inquisitor": 5,
+      "legendary ninja": 4,
+      "magus": 5
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (teleportation); Level antipaladin 4, inquisitor 5, legendary ninja 4, magus 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 feet + 10 ft./level)\nTarget one creature\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou may target one creature to which you have line of sight with this spell. You and any equipment you carry, teleport to the target. You then may make one melee attack against the target. If the attack hits, you, and the target if you wish (including their equipment), teleport to any safe point you can see within a range equal to the maximum range of the spell minus the distance of the first teleport you made using this spell.\n\nIf the target creature is killed or knocked unconscious by the attack, you can choose to teleport their body and their equipment instead.\n\nSpell resistance is applied when attempting to teleport the struck target, not to the attack itself.\n\nLegendary Ninjas © 2020, Legendary Games; Authors N. Jolly, Mia Yoshida, Connor Bates, Cerise Herndon, and Nate Wright.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/947a47c9bd17c5ce.json",
+    "web": "https://codex.pipsprojects.com/#/e/947a47c9bd17c5ce"
+  },
+  "license": "OGL 1.0a"
+}

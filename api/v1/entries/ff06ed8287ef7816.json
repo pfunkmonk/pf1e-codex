@@ -1,0 +1,17 @@
+{
+  "id": "ff06ed8287ef7816",
+  "name": "Radioactive Creature (CR +4)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Arcforge Universe Cyclopedia",
+  "book": "Arcforge Universe Cyclopedia",
+  "facets": {
+    "bk": "Arcforge Universe Cyclopedia"
+  },
+  "body": "Radiation is a natural force prone to inducing mutations in many creatures, but in rare cases the process becomes suffused with magic. The result is an entity which takes on the radioactive properties of the materials around it. A creature’s body miraculously begins shedding electrons with the same violence as an unstable isotope, resulting in an entity which poses an immense threat to everything around it.\n\nRadioactive is a template that can be applied to any creature (hereafter referred to as the base creature). A radioactive creature retains the base creature’s statistics and special abilities except as noted here.\n\nChallenge Rating: Same as the base creature +3.\n\nAura: A radioactive creature gains the following aura.\n\nContamination Aura A radioactive creature exudes radiation out to 30 feet, the intensity of which is based on its Hit Dice (see below). The save DC against the effects of radiation, rather than using the base save DC, is equal to 10 + 1/2 the base creature’s Hit Dice + the base creature’s Constitution modifier. A new saving throw must be attempted to resist radiation’s initial damage each round a victim remains exposed to it.\n\nTable: Radioactive Creature Radiation\nRadioactive\tCreature Hit Dice\tLevel of Radiation\n7 or fewer\tLow (1 Con drain, 1 Str damage/day)\n8–13\tMedium (1d4 Con drain, 1d4 Str damage/day)\n14–21\tHigh (2d4 Con drain, 1d6 Str damage/day) 22 or higher Severe (4d6 Con drain, 2d6 Str damage/day) AC: A radioactive creature’s natural armor bonus increases by +3.\n\nDefensive Abilities: A radioactive creature is immune to the effects of radiation.\n\nSpecial Attacks: radioactive creature gains the following special attacks:\n\nNuclear Heat (Ex)\n\nA radioactive creature’s constant release of energy enhances and contaminates any heat-based abilities that the base creature may possess. Any time the radioactive creature uses an ability that deals fire damage (such as a breath weapon, spell, spell-like ability, burn ability, or fire aura), creatures that take damage must save against the radioactive creature’s level of radiation from their contamination aura.\n\nRadioactive Touch (Ex)\n\nA radioactive creature’s touch carries some of the energy contained within the creature, contaminating other creatures on contact. The first time each round a radioactive creature strikes a creature using a natural weapon, that creature must save against the radioactive creature’s level of radiation from their contamination aura.\n\nSpecial Qualities: A radioactive creature has the radiant glow special quality:\n\nRadiant Glow (Ex)\n\nA radioactive creature constantly sheds light as a torch.\n\nAbility Score Modifiers: +4 Strength, +4 Constitution, +2 Dexterity, –2 Intelligence, +2 Wisdom, +2 Charisma.\n\nArcforge Universe Cyclopedia, © 2025, Legendary Games; Author: Matt Daley",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff06ed8287ef7816.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff06ed8287ef7816"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cd167452454c1cfc",
+  "name": "Chaotic Vitality",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 2,
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [chaotic]; Level cleric/oracle 2, druid/shaman 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget you and creature touched\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nMake a melee touch attack against a creature with a number of HD no more than 50% higher than your caster level. If the attack hits, you conjure chaotic pulsating waves of energy within the creature and yourself. After a brief moment that seems to last forever, you and the creature’s current hp total changes.\n\nRoll on the following table, adding or subtracting your caster level from the roll if desired, and apply the result to both yourself and the target creature.\n\nRoll percent (%) dice.\n\nd% Hit Point Flux\n\n01-09 Current hp changes to 0.\n\n10-39 Current hp changes to 1.\n\n40-69 Current hp changes to 25% of maximum hp total.\n\n70-84 Current hp changes to 50% of maximum hp total.\n\n85-94 Current hp changes to 75% of maximum hp total.\n\n95-99 Current hp changes to 100% of maximum hp total.\n\n100 Current hp changes to 200% of normal maximum hp and both creatures gain the effects of a haste spell. The hp beyond normal maximum are temporary hp that last for 1 round/caster level.\n\nChaotic Vitality, Mass\n\nSchool conjuration [chaotic]; Level cleric/oracle 6, druid/shaman 6, sorcerer/wizard 6\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nTarget You and one creature/level, neither of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions like chaotic vitality except that this spell affects multiple creatures. You only roll on the chart once; this roll affects all targets that fail their save.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cd167452454c1cfc.json",
+    "web": "https://codex.pipsprojects.com/#/e/cd167452454c1cfc"
+  },
+  "license": "OGL 1.0a"
+}

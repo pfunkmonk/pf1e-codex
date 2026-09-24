@@ -1,0 +1,38 @@
+{
+  "id": "65be5c842c1fbe8c",
+  "name": "Disheartening Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "bard": 3,
+      "oracle": 3,
+      "death mage": 3,
+      "inquisitor": 3,
+      "lathspell": 3,
+      "magus": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "darkness",
+      "despair",
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no (see text)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [darkness, despair, emotion, mind-affecting]; Level antipaladin 3, bard 3, cleric/oracle 3, death mage 3, inquisitor 3, lathspell 3, magus 3, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a piece of coal and a raven feather)\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 1 min./level\nSaving Throw Will negates (see text); Spell Resistance no (see text)\n\nDESCRIPTION\n\nThis spell acts as the spell darkness except that any who enter the affected area must make a Will save or be afflicted with the doubting condition. If the creature has spell resistance, it applies to the condition. If a creature leaves the area of darkness, they are no longer affected by the doubting condition. However, any creature, including those who have left the area, who enter the radius of darkness are subject to making the Will save.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65be5c842c1fbe8c.json",
+    "web": "https://codex.pipsprojects.com/#/e/65be5c842c1fbe8c"
+  },
+  "license": "OGL 1.0a"
+}

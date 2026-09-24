@@ -1,0 +1,24 @@
+{
+  "id": "f60c4b077ab43ff9",
+  "name": "Final Combustion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 4,
+      "wizard": 4
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level cleric/oracle 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou imbue the target with the death throes supernatural ability. When the target is slain, its body combusts in a flash of white-hot flame. This acts like a fireball that deals 3d6 hp fire damage to all creatures within a 20-ft.-radius burst. A Reflex save halves this damage; the save’s DC is equal to the DC for this spell.\n\nThe target’s gear or any treasure it carries are unaffected by this explosion.\n\nFinal combustion is a curse effect, and, as such, spells that remove a curse also remove this spell’s effects.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f60c4b077ab43ff9.json",
+    "web": "https://codex.pipsprojects.com/#/e/f60c4b077ab43ff9"
+  },
+  "license": "OGL 1.0a"
+}

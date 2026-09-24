@@ -1,0 +1,17 @@
+{
+  "id": "e6d202becd959c62",
+  "name": "Godling Ooze",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Deadly Delves: Dragon’s Dream",
+  "book": "Deadly Delves: Dragon’s Dream",
+  "facets": {
+    "bk": "Deadly Delves: Dragon’s Dream"
+  },
+  "body": "GODLING OOZE\nCR 17\n\nXP 102,400\nNE Huge ooze (aquatic)\nInit +13; Senses Blindsight 240 ft.; Perception +40\n\nDEFENSE\n\nAC 31, touch 17, flat-footed 22 (+9 Dex, +14 natural, –2 size)\nhp 264 (23d8+161)\nFort +14, Ref +16, Will +20\nDR 10/bludgeoning; Immune acid, electricity, ooze traits, piercing; Resist cold 10, fire 10; SR 25\nWeaknesses vulnerable to sonic\n\nOFFENSE\n\nSpeed 40 ft., swim 120s ft.\nMelee 6 tentacle +23 (1d8+5/19–20 plus grab plus poison), bite +25 (2d6+10)\nSpace 15 ft.; Reach 15 ft. (60 ft. with tentacles)\nSpecial Attacks dominating song (DC 23), swallow whole (3d6 acid damage, AC 17, hp 26)\n\nSTATISTICS\n\nStr 30, Dex 28, Con 25, Int 19, Wis 36, Cha 15\nBase Atk +17; CMB +29; CMD 54\nFeats Alertness, Combat Expertise (–5/+5), Combat Reflexes, Deceitful, Defensive Combat Training, Greater Feint, Improved Critical (tentacle), Improved Feint, Improved Initiative, Multiattack, Skill Focus (Bluff, Linguistics)\nSkills Bluff +35, Disguise +29, Linguistics +33, Perception +40, Sense Motive +40, Stealth +24 (+40 in swamps), Swim +18; Racial Modifiers +16 Stealth when in a swamp\nLanguages Abyssal, Aquan, Celestial, Common, Infernal plus 19 others; songspeech\nSQ amphibious\n\nSPECIAL ABILITIES\n\nDominating Song (Su)\n\nA godling ooze can sing an enchanting song that dominates all intelligent creatures within 120 feet that fail a DC 23 Will save, as per the spell dominate person. A dominated creature receives a new Will each round to resist this effect. A creature that successfully saves against the dominating song is charmed, as per the spell charm person, for 1d3 rounds but afterwards is immune to this godling ooze’s dominating song ability for 24 hours. This is a compulsion, language-dependent, mind-affecting effect. The save DC is Charisma-based.\n\nPoison (Ex)\n\nTentacle—injury; save Fort DC 28, frequency 1/round for 8 rounds, effect 1d4 Con plus stun, cure 3 consecutive saves. The save DC is Constitution-based.\n\nSongspeech (Ex)\n\nWhen a godling ooze speaks, it communicates in all languages it knows at once. A creature hears a language it knows while the other languages sound like a chorus singing musical notes.\n\nWater Healing (Su)\n\nWhen a godling ooze is touching water, it gains fast healing 10.\n\nDeadly Delves: Dragon’s Dream. © 2018, Jon Brazer Enterprises.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6d202becd959c62.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6d202becd959c62"
+  },
+  "license": "OGL 1.0a"
+}

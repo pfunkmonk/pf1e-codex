@@ -1,0 +1,23 @@
+{
+  "id": "833440bd1e24d60b",
+  "name": "Symbol of Sorcery",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "sorcerer": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation; Level sorcerer 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of your own blood, plus powdered ruby worth a total of 500 gp)\n\nDESCRIPTION\n\nThis spell functions like symbol of death, except that it triggers a spell of 6th level or lower you gained as a bonus spell from your bloodline. The spell is cast as if you cast it from the location of the symbol, with your caster level and ability scores, and choosing targets as you would choose them if you were present. While you do not instinctively know when your own symbol of sorcery is triggered, due to its connection to your bloodline it selects targets as you would with the knowledge you possess at the time the symbol is triggered.\n\nUnlike symbol of death, symbol of sorcery has no hit point limit; once triggered, a symbol of sorcery simply casts the single spell loaded into it, which has its normal duration.\n\nNote: Magic traps such as symbol of sorcery are hard to detect and disable. A rogue (only) can use the Perception skill to find a symbol of sorcery and Disable Device to thwart it. The DC in each case is 25 + spell level, or 32 for symbol of sorcery.\n\nSorcerer’s Options: Beyond Bloodlines. Copyright 2011, Super Genius Games; Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/833440bd1e24d60b.json",
+    "web": "https://codex.pipsprojects.com/#/e/833440bd1e24d60b"
+  },
+  "license": "OGL 1.0a"
+}

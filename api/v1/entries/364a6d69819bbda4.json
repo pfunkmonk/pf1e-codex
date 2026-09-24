@@ -1,0 +1,30 @@
+{
+  "id": "364a6d69819bbda4",
+  "name": "Fluctuating Alignment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "wizard": 5,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting",
+      "chaotic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment [mind-affecting, chaotic]; Level bard 5, cleric/oracle 5, sorcerer/wizard 5, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one targeted creature\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou channel the forces of chaos to taint your target’s mind. Every minute the spell lasts, the target rolls a random alignment on the table below. The target’s alignment stops changing when this spell ends.\n\nTable 2-5: Alignment Changes\nd%\tAlignment\n01-10\tChaotic good\n11-20\tChaotic neutral\n21-35\tChaotic evil\n36-45\tNeutral evil\n46-55\tLawful evil\n56-70\tLawful good\n71-80\tLawful neutral\n81-90\tNeutral good\n91-100\tNeutral\n\nThis spell does not engender any particular hostility or friendliness toward the caster in the affected creature.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/364a6d69819bbda4.json",
+    "web": "https://codex.pipsprojects.com/#/e/364a6d69819bbda4"
+  },
+  "license": "OGL 1.0a"
+}

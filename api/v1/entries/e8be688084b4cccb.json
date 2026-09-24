@@ -1,0 +1,29 @@
+{
+  "id": "e8be688084b4cccb",
+  "name": "Cannibal Compulsion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "evil",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [evil, mind-affecting]; Level cleric/oracle 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one living creature and his allies (see below)\nDuration 1 round/level\nSaving Throw Will negates (see below); Spell Resistance yes\n\nDESCRIPTION\n\nWith a successful touch attack, the target must do nothing but start to consume its own flesh in the most sickening manner. If it lacks exposed flesh (because the target is wearing armor), it must first strip itself of any impediments to its gruesome compulsion. It does this in the most violent fashion possible.\n\nIt takes one full-round action to strip out of light or medium armor and two-full round actions to strip out of heavy armor. Once any armor is discarded, the target gnaws and rips at its flesh, shoving pieces in its mouth.\n\nWhen eating its own flesh, the target gains a +2 morale bonus to Strength, and it must spend a full-round action each turn to start gnawing on exposed pieces of its own flesh. This deals hp damage equal to 2d6 + 2× its Strength modifier for each full-round action spent consuming flesh.\n\nEach round, allies within 50 ft. that can see and hear this activity must succeed on a Will save or become sickened for the duration of the spell. If an ally successfully saves, they are immune to the sickened effect for the duration of the spell’s effect.\n\nEach round, the spell’s target can attempt a Will saving throw to end this effect, with a penalty equal to the number of rounds it has already been affected by the spell.\n\nMythic\n\nThe target of the spell does not gain a Will saving throw each round to end the effect, and even if somehow the effect ends before the end of the spell’s duration, the target becomes confused (as the condition) for the remainder of the spell’s duration.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8be688084b4cccb.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8be688084b4cccb"
+  },
+  "license": "OGL 1.0a"
+}

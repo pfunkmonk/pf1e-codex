@@ -1,0 +1,30 @@
+{
+  "id": "2446fc5509b5fd0e",
+  "name": "Cone of Boiling Acid, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 4,
+      "shaman": 5,
+      "wizard": 4,
+      "witch": 5
+    },
+    "desc": [
+      "acid",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [acid, fire]; Level magus 4, shaman 5, sorcerer/wizard 4, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of coal in a vial of acid)\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou burst forth with a spray of boiling acid. Each creature within the cone takes 1d6 damage per caster level (maximum 10d6). Half of the damage is acid, the other half is fire.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2446fc5509b5fd0e.json",
+    "web": "https://codex.pipsprojects.com/#/e/2446fc5509b5fd0e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "b38f423fea52def2",
+  "name": "Cacophony",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [sonic]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one 5-ft. square/level\nDuration instantaneous\nSaving Throw Fort negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nCacophony causes a clap of thunder to erupt in an area designated by you when you cast this spell. Creatures in the area must make a successful Fortitude save or be deafened for 1 minute per caster level. Brittle or crystalline objects and creatures in the area of effect take 1d6 points of sonic damage per caster level (maximum 10d6). A creature holding an affected object can negate damage to them by making a successful Reflex save.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b38f423fea52def2.json",
+    "web": "https://codex.pipsprojects.com/#/e/b38f423fea52def2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fc2ef5556dde106c",
+  "name": "Purification Through Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodlord": 4,
+      "shaman": 4,
+      "witch": 4
+    },
+    "desc": [
+      "blood"
+    ],
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [blood]; Level bloodlord 4, shaman 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (your blood, see text)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou cut your palm and touch the target with your bloody hand. The blood then attempts to cleanse the target of impurities. This spell functions as lesser restoration, remove disease, and neutralize poison except that you take damage based on what you heal or grant a chance to thwart. You take 2d10 damage when attempting to cure a poison or disease or 1d10 damage when removing fatigue or 1d10 per ability score healed (maximum 4). You may choose to cure between 1 and 4 ability score damage when touching the target instead of rolling 1d4. You may also do all or some of the curative effects, taking the damage for each component. However, the disease and poison removal is not guaranteed as per those spells. The damage accrued when casting this spell cannot be mitigated or prevented, but can be healed normally.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fc2ef5556dde106c.json",
+    "web": "https://codex.pipsprojects.com/#/e/fc2ef5556dde106c"
+  },
+  "license": "OGL 1.0a"
+}

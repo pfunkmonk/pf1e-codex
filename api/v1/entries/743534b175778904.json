@@ -1,0 +1,30 @@
+{
+  "id": "743534b175778904",
+  "name": "Occult Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School divination [pact]; Level alchemist 3, inquisitor 3, magus 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\n\nDESCRIPTION\n\nThis spell makes your eyes glow magenta and allows you to see pact spirit auras within 120 feet. This effect is similar to that of a detect pact spirits† spell, but occult sight does not require concentration and discerns aura location and power more quickly.\n\nYou know the location and power of all pact spirit auras within your sight. An aura’s power depends on a bound spirit’s level, as noted in the description of the detect pact spirits† spell.\n\nIf the items or creatures bearing the auras are in line of sight, you can make Knowledge (arcana) or Knowledge (planes) checks to determine the spirit power’s aligned constellation. (Make one check per aura; DC 15 + spell level, or 15 + 1/2 caster level for a nonspell effect.)\n\nIf you concentrate on a specific creature within 120 feet as a standard action, you can determine whether it has any pactmaking powers, the strength of the most powerful spirit the creature is bound to, and whether any of the spirits’ major granted abilities are expended or not.\n\nAs with detect pact spirits†, you can use this spell to identify the properties of magic items, but not artifacts.\n\nOccult sight can be made permanent with a permanency spell.\n\nDoing so requires minimum caster level 11 and 7,500 gp.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/743534b175778904.json",
+    "web": "https://codex.pipsprojects.com/#/e/743534b175778904"
+  },
+  "license": "OGL 1.0a"
+}

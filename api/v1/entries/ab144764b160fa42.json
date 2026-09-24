@@ -1,0 +1,28 @@
+{
+  "id": "ab144764b160fa42",
+  "name": "Shared Strength",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 3,
+      "oracle": 5,
+      "inquisitor": 4,
+      "lathspell": 3,
+      "paladin": 3,
+      "ranger": 3
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level antipaladin 3, cleric/oracle 5, inquisitor 4, lathspell 3, paladin 3, ranger 3\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, F (a chain with links forged of different metals worth at least 250 gp)\n\nEFFECT\n\nRange20 ft.\nArea 20-ft.-radius spread\nDuration 1 round (see text)\nSaving Throw none (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou call forth to your allies to lend you power for a crushing blow. When you cast this spell allies within 20 feet of you, up to a number of creatures equal to your caster level, may choose to take a -2 penalty to Strength for one minute and grant you a +1 bonus to attack and damage rolls on the next attack you make before the end of the round. After you make an attack that has been enhanced by this spell you become fatigued for one minute and cannot benefit from this spell while fatigued.\n\nBreath of Life: The Marshal, © 2025, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab144764b160fa42.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab144764b160fa42"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0368e6483da90111",
+  "name": "Dragonskin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 4 rounds/level\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nDragonskin toughens a creature’s skin. The effect grants a +2 enhancement bonus to the creature’s existing natural armor bonus. This enhancement bonus increases by one for every three levels above 9th, to a maximum of +5 at 18th level. The spell also grants DR 5 to one type of energy (acid, cold, electricity, or fire). This DR increases by 5 for every three levels above 9th, to a maximum of DR 20 at 18th level.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0368e6483da90111.json",
+    "web": "https://codex.pipsprojects.com/#/e/0368e6483da90111"
+  },
+  "license": "OGL 1.0a"
+}

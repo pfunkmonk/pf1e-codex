@@ -1,0 +1,30 @@
+{
+  "id": "b7d2602ca3934868",
+  "name": "Ravenwight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 5,
+      "lathspell": 4,
+      "wizard": 5,
+      "witch": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 4, cleric/oracle 5, lathspell 4, sorcerer/wizard 5, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (A raven’s feather and talon)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 day/level (see text)\nSaving Throw Will partial; Spell Resistance no\n\nDESCRIPTION\n\nYou fill a target creature with dread, fearful that death is around every corner, and haunted by the image of menacing spectral raven. The target must make a Will save or become haunted by the vision of a large shadowy raven, gripping them with fear during their waking hours and denying them restful sleep. If they succeed at this initial Will save they are shaken for 1 round per caster level. Upon failing the initial Will save and at the beginning of each hour the target sees a vision of the raven nearby (somewhere visible within 30 ft. in a random direction). They must make an additional Will save or be shaken and unable to move in the direction of the spectral creature, for the remainder of the hour. They can circumvent the raven by walking around it in a wide arc, but they can get no closer than the distance at which it first appeared.\n\nIf they fail this save by 5 or more instead they are frightened for 5 rounds. Success means they may approach but if they end their turn adjacent to the ravenwight they take 3d6 damage as their life force is disrupted by negative energy. The creature must also make a Will save when it wakes each morning, failure means it is fatigued and does not gain the benefits of 8 hours of rest. The caster use a move action to cause the ravenwight to appear in a square of your choice within 30 ft. of the target. The spectral raven is insubstantial and can’t be hurt.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7d2602ca3934868.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7d2602ca3934868"
+  },
+  "license": "OGL 1.0a"
+}

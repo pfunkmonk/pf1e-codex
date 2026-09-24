@@ -1,0 +1,31 @@
+{
+  "id": "4d6a451e292f70d4",
+  "name": "Transfix Person",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "inquisitor": 4,
+      "mesmerist": 4,
+      "wizard": 4,
+      "unchained summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 4, inquisitor 4, mesmerist 4, sorcerer/wizard 4, summoner/unchained summoner 4, witch 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one humanoid\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the target to become paralyzed freeze in place. It is aware and breathes normally but cannot take any actions, even speech. You specify a condition that will end it like “Wait until my master returns.”. This condition can be stated in a way that can never feasibly be met, like “Wait here until you see dawn’s light” while underground. For every hour the target may make a Will save to end the spell early. A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can’t swim and may drown.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4d6a451e292f70d4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4d6a451e292f70d4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0f9cf2094bbf77e3",
+  "name": "Steal Face",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [evil]; Level cleric 4, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a honed razor)\n\nEFFECT\n\nRange touch\nTarget living creature or fresh corpse touched\nDuration see text\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nYou attempt to steal the face of one living or recently slain creature. When you touch a creature, a razor magically springs from your hand and expertly flays the creature’s facial skin.\n\nThe creature receives a Reflex save to move out of the razor’s way. A creature who fails its save takes 3d6 points of damage and is left horribly disfigured. Only regeneration, limited wish, miracle, or wish can restore the creature’s stolen visage. You now have a perfect mask of living skin in the likeness of the affected creature. Donning this mask grants you the effects of disguise self, with a +4 to the Will save DC to disbelief the illusion. Family, friends, and associates of the creature whose face you stole believe you to be that person unless they make a Will save to disbelieve the illusion.\n\nThe mask lasts for 1d4 days before decomposition sets in.\n\nSoaking the mask in a bowl of fresh blood or use of the spell gentle repose stalls decay.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f9cf2094bbf77e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f9cf2094bbf77e3"
+  },
+  "license": "OGL 1.0a"
+}

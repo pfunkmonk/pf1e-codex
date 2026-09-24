@@ -1,0 +1,29 @@
+{
+  "id": "73fa0b5f31eb71df",
+  "name": "Cut to the Chase",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "oracle": 5,
+      "druid": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [force]; Level bard 4, cleric/oracle 5, druid 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 action\nComponents V, F (the weapon)\n\nEFFECT\n\nRange touch\nTarget 1 melee or natural weapon\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe caster touches a melee or natural weapon such as a claw or a creature’s teeth and suffuses it with raw magical force. So fortified, the weapon cleaves easily through its targets and acquires the ghost touch special weapon feature for the spell’s duration. The weapon ignores the hardness of inanimate objects, doing damage directly to an object’s hit points. All attacks made by a weapon affected by cut to the chase are resolved as touch attacks; the target’s armor, natural armor, and shield bonuses are ignored, though magical bonuses are not. The weapon’s wielder may attack incorporeal targets without penalty.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73fa0b5f31eb71df.json",
+    "web": "https://codex.pipsprojects.com/#/e/73fa0b5f31eb71df"
+  },
+  "license": "OGL 1.0a"
+}

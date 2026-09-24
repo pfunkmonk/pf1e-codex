@@ -1,0 +1,29 @@
+{
+  "id": "4508c085a883f778",
+  "name": "Awaken Entropy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "shaman": 6,
+      "wizard": 6,
+      "spiritualist": 6,
+      "witch": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, occultist 6, psychic 6, shaman 6, sorcerer/wizard 6, spiritualist 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 10-foot burst\nDuration concentration + 1 round\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou draw upon the awesome power of entropy and vastly accelerate the decay and death in a burst of dark energy. Creatures and objects within begin to age, degrade and rot rapidly. Any creature that begins their turn within the area of the spell takes 4d6 damage + 1 point per caster level even if their bodies, souls or forms are normally immune to the ravages of time. A successful Fortitude save halves this damage.\n\nEach round you concentrate on this spell you may either move the area of the spell by up to 20 feet, or increase its potency. When increasing the potency of the effect, the radius it affects increases by 10 feet (to a maximum of 40 feet), and the damage dice it deals increases by one step (from d6 to d8, then d10, and finally to d12).\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4508c085a883f778.json",
+    "web": "https://codex.pipsprojects.com/#/e/4508c085a883f778"
+  },
+  "license": "OGL 1.0a"
+}

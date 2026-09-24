@@ -1,0 +1,28 @@
+{
+  "id": "5c729eee3360fc25",
+  "name": "Gaze Screen",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 2,
+      "warpriest": 2,
+      "hunter": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration (light); Level arcanist/sorcerer/wizard 2, cleric/oracle/warpriest 2, druid/hunter 2, mesmerist 2, psychic 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget 1 living creature\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou create a shimmering, mirror-like area in the air before the recipient’s eyes. The area moves with the recipient, and does not affect the recipient’s vision. If the recipient is subjected to a gaze attack while the spell lasts, there is a 50% chance that they don’t need to make a saving throw against the attack ( just as if they had averted their eyes). The foe with the gaze attack does not have concealment from the recipient. The recipient gets no additional protection from averting their eyes while the spell lasts, though they can shut their eyes and entirely avoid the gaze.\n\nThe Bardess’ Library #20: More Dragons, © 2025, Legendary Games; Author: Margherita Tramontano.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c729eee3360fc25.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c729eee3360fc25"
+  },
+  "license": "OGL 1.0a"
+}

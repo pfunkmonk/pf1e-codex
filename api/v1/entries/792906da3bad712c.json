@@ -1,0 +1,26 @@
+{
+  "id": "792906da3bad712c",
+  "name": "Goat’s Hoof Charm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 1,
+      "ranger": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 1, ranger 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a goat’s hoof)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target creature traverses craggy slopes with the surefootedness of a mountain goat. When climbing slopes and inclines (but not vertical surfaces), the target can move without penalty at half their normal speed.\n\nThe target also retains any Dexterity bonus to AC while climbing such surfaces and gains a +2 insight bonus on checks made to catch themselves after falling, or to Acrobatics checks to move along narrow surfaces.\n\nMythic: When climbing slopes and inclines, the target can move at normal speed. The target can move at half speed on vertical surfaces. The insight bonus on checks made to catch themselves is increased by a number equal to half their mythic tier (minimum 1).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/792906da3bad712c.json",
+    "web": "https://codex.pipsprojects.com/#/e/792906da3bad712c"
+  },
+  "license": "OGL 1.0a"
+}

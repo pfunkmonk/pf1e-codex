@@ -1,0 +1,28 @@
+{
+  "id": "f330bcf37a790778",
+  "name": "Beckon the Void",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [void]; Level psychic 4, shaman 4, sorcerer/wizard 4\n\nCasting Time 2 rounds\n\nComponents V, S, DF\n\nRange personal\n\nEffect increased flow of the Void\n\nDuration 1 round/level (D)\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nYou enter a temporary state that allows you to call upon a minute portion of the Void to flow through you.\n\nWhenever you expend at least 1 ki point with a feat or class ability to gain a bonus to your AC or a bonus that applies to a d20 roll you make, you increase the gained bonus by +1. You can only gain this increase once per use of the class ability or feat in this way.\n\nAlternatively, if you have an expended feat or class ability, other than spells, that has no daily uses left, you may discharge this spell as an immediate action to gain one more daily use of that feat or class ability. You cannot use this effect for feat or a class ability that has a class level or skill rank prerequisite greater than the number of rounds remaining for your casting of beckon the void when you discharged the spell.\n\nHowever, channeling the Void through this spell has its own limitations. You may only have 1 casting of this spell in effect on you at any time. You can only be the recipient of this spell each week no more than once per every 4 HD you possess.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f330bcf37a790778.json",
+    "web": "https://codex.pipsprojects.com/#/e/f330bcf37a790778"
+  },
+  "license": "OGL 1.0a"
+}

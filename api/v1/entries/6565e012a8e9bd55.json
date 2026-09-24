@@ -1,0 +1,25 @@
+{
+  "id": "6565e012a8e9bd55",
+  "name": "Ebon Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "druid": 6,
+      "wizard": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, druid 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (bone of an undead creature and two pieces of smoked glass)/DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft. per level)\nArea 8 cubic ft. of water per level\nDuration 1 round per level\nSaving Throw Fortitude half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou imbue a patch of water with negative energy for a limited time.\n\nEach action you spend concentrating on the dark water allows you to move the fetid liquid 10 feet through any greater body of water. You may take other actions and come back to concentrate on moving the dark water as you please for the duration of the spell. On each of your turns, the dark water also moves based on any current that exists within the larger body of water of which it is part.\n\nAny other living creature that comes into contact with the dark water suffers 1d6 points damage for every 2 levels of the caster (maximum 8d6) per round it is in contact with the stuff. A successful Fortitude save halves the damage taken. In addition, any living creature in contact with dark water for more than 10 rounds or that drinks any of the vile liquid must succeed on a Fortitude saving throw or suffer one level of energy drain.\n\nIf cast upon a creature from the Plane of Water, the creature gets a Fortitude save to avoid instant destruction.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6565e012a8e9bd55.json",
+    "web": "https://codex.pipsprojects.com/#/e/6565e012a8e9bd55"
+  },
+  "license": "OGL 1.0a"
+}

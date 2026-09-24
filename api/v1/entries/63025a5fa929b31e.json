@@ -1,0 +1,30 @@
+{
+  "id": "63025a5fa929b31e",
+  "name": "Shroud of Icy Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 1,
+      "bloodrager": 1,
+      "shaman": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [cold]; Level alchemist 1, bloodrager 1, druid/shaman 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a container of water)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\n\nYou create a swirling cold mist around the target granting them temporary hit points equal to 1d8+1/per caster level (max +5). Any adjacent creature that attacks the affected target or any creature attacking the target with a melee natural attack is dealt cold damage equal to the temporary hp from this spell that are lost.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63025a5fa929b31e.json",
+    "web": "https://codex.pipsprojects.com/#/e/63025a5fa929b31e"
+  },
+  "license": "OGL 1.0a"
+}

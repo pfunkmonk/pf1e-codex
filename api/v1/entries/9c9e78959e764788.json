@@ -1,0 +1,24 @@
+{
+  "id": "9c9e78959e764788",
+  "name": "Devouring Shadow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (transmutation) Level sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corporeal, living creature\nDuration 1 min./level (D)\nSaving Throw Fort negates; Will partial (see below); Spell Resistance yes\n\nDESCRIPTION\n\nUpon the casting of this spell, the target creature’s shadow sweeps over and envelops the target. The target’s physical body and all worn and carried equipment are fully consumed by its shadow, which retains the size and general shape of the physical body, but in two dimensions.\n\nWhile in shadow form, the target loses all extraordinary, supernatural, and spell-like abilities, and it may not speak, attack, or cast spells. The target gains DR 10/magic and becomes immune to poison, sneak attacks, and critical hits. The target’s material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply.\n\nThe transformation is traumatic, and the target may move only 5 ft. per round, as a full-round action. A successful Will save allows the target to move and act normally for the remainder of the effect. The target may attempt this Will save each round until successful. The target’s movement rate is otherwise unchanged, but it cannot burrow, climb, fly, jump, or swim (though it can move across the surface of a body of water). The shadow is functionally two-dimensional and can slip through the tiniest cracks, but it cannot manipulate objects or activate items. The target receives a +10 bonus to Stealth checks.\n\nWhen the spell effect ends, the target re-emerges from its shadow, along with all its equipment. On emerging, the target is fatigued. This spell may not be cast in an area of total darkness or on a creature not in contact with its shadow (e.g., a bird in flight).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9c9e78959e764788.json",
+    "web": "https://codex.pipsprojects.com/#/e/9c9e78959e764788"
+  },
+  "license": "OGL 1.0a"
+}

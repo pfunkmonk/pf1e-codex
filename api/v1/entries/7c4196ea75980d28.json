@@ -1,0 +1,27 @@
+{
+  "id": "7c4196ea75980d28",
+  "name": "Waves of Sickness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "oracle": 4,
+      "inquisitor": 4,
+      "lathspell": 3,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level antipaladin 3, cleric/oracle 4, inquisitor 4, lathspell 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft\nEffect cone\nDuration 1 round/level (D)\nSaving Throw Fortitude partial (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nYou create a burst of horrid stench in front of you causing the creatures within eyes to water and insides to wretch. Subjects wracked by this stench must make a Fortitude save or be nauseated. On each of their turns they may attempt a new save against this effect as a move action. Success ends the effect but the target is sickened for 1 round.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c4196ea75980d28.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c4196ea75980d28"
+  },
+  "license": "OGL 1.0a"
+}

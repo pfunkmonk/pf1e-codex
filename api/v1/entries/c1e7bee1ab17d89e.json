@@ -1,0 +1,31 @@
+{
+  "id": "c1e7bee1ab17d89e",
+  "name": "Trade Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "archon": 3,
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 3,
+      "summoner": 3,
+      "witch": 2
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration [air]; Level archon 3, cleric/oracle 2, druid 2, sorcerer/wizard 3, summoner 3, witch 2\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one creature or seagoing ship\nDuration 24 hours\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou summon favorable winds for one seagoing vessel, causing a becalmed ship to have a typical amount of wind, and a seagoing ship to have winds that are easily negotiated. The ship’s hourly and daily travel rate increases by 25%. This has no effect on the ship’s tactical (per-round) movement. You cannot reduce the damaging effects of a storm, but you do negate its effect on a ship’s travel speed.\n\nAlternatively you can cast this spell on one creature. The spell does not grant the creature a fly move rate, but it does increase the speed of a creature that already has a fly rate. The creature’s maneuverability class is increased by one step (to a maximum of perfect), and it’s fly speed increased by 10 feet.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c1e7bee1ab17d89e.json",
+    "web": "https://codex.pipsprojects.com/#/e/c1e7bee1ab17d89e"
+  },
+  "license": "OGL 1.0a"
+}

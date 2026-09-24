@@ -1,0 +1,28 @@
+{
+  "id": "7513801714a59d78",
+  "name": "Spell Suppression",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "shaman": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level cleric/oracle 3, druid/shaman 3, inquisitor 3, magus 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius\nDuration concentration\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe zone created by spell suppression diminishes the power of any other spell that is cast from within its area of influence. When a spell or spell-like ability is cast within the affected area, reduce the affected caster’s effective caster level by 1 for every 4 caster levels you possess.\n\nIf the effective caster level has been reduced below the minimum required to cast the spell, the affected caster may attempt a caster level check (DC 5 + your caster level) at his unmodified caster level. If the check is successful, the spell is cast at the minimum level required to cast the spell; otherwise it is lost.\n\nFor example, if a 6th-level cleric attempts to cast searing light from an area affected by an 8th-level witch’s spell suppression, the effective caster level of the cleric’s spell would be reduced to 4th level. Since searing light requires at least caster level 5, the cleric must make a DC 13 caster level check or lose the spell. If the check is successful, the cleric may cast the spell at caster level 5.\n\nSpell suppression does not affect ongoing spells already in effect or spells brought into the area (such as enchantments on characters or objects).\n\nSpell suppression can be made permanent with a permanency spell. The minimum caster level required is 11th, and it costs 7,500 gp.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7513801714a59d78.json",
+    "web": "https://codex.pipsprojects.com/#/e/7513801714a59d78"
+  },
+  "license": "OGL 1.0a"
+}

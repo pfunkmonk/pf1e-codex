@@ -1,0 +1,25 @@
+{
+  "id": "4b51a35490c26c14",
+  "name": "Wall of Dispel Magic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 6,
+      "oracle": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level bard 6, cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect A straight wall with an area of up to one 10 ft. square per level (S)\nDuration 10 minutes/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a nearly invisible wall that does not block entry or hinder movement. The wall can be spotted with a perception check of DC 11 + your caster level. Any magical effect or summoned creature passing through the wall is subject to a targeted dispel magic as the spell using your caster level for the caster level check against each magical effect which passes through the wall. The wall can only be seen with the aforementioned perception check. See invisibility does not reveal the wall, though true seeing does. Detect magic reveals the presence of the wall and allows it to be identified.\n\nThe wall need not be vertical or supported by any existing structure when it is created, but each section of the wall does need to be contiguous.\n\nSpecial: A wall of dispel magic can be made permanent with the permanency spell. To do so requires a minimum caster level of 11 and costs 12,500gp.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b51a35490c26c14.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b51a35490c26c14"
+  },
+  "license": "OGL 1.0a"
+}

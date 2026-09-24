@@ -1,0 +1,26 @@
+{
+  "id": "89a17a5c63d9ba03",
+  "name": "Red Dragonfly Swarm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 6,
+      "wizard": 7,
+      "summoner": 5,
+      "witch": 6
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level druid/shaman 6, sorcerer/wizard 7, summoner 5, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a handful of sulfur)\n\nEFFECT\n\nRange Medium (50 ft. + 10 ft./4 levels)\nEffect one swarm of flying red dragonflies\nDuration concentration + 2 rounds\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nThis spell summons a swarm of red dragonflies with a fly speed of 30 ft. per round. You can command the swarm for as long as you concentrate, and the spell deals 1d6 hp damage plus 1d6 hp fire damage for every 4 caster levels the spellcaster possesses. Treat this damage as magical for the purposes of penetrating damage resistance. Otherwise treat as a standard summon swarm spell, and the swarm follows the rules for the swarm subtype.\n\nMythic: You do not need to concentrate to control the swarm. Instead, you automatically control it for 2 rounds plus a number of rounds equal to your mythic tier.\n\nFurthermore, you add you mythic tier to your caster level when determining the amount of damage the swarm does. Lastly, the swarm gains resistance 10 to fire.\n\nAugmented (6th): You can expend two additional uses of mythic power to control the swarm for 8 rounds plus a number of rounds equal to your mythic tier. The swarm also gains immunity to fire, and it is considered a mythic creature when determining what abilities and effects can affect it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89a17a5c63d9ba03.json",
+    "web": "https://codex.pipsprojects.com/#/e/89a17a5c63d9ba03"
+  },
+  "license": "OGL 1.0a"
+}

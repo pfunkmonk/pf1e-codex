@@ -1,0 +1,23 @@
+{
+  "id": "32f0571eda8a1c87",
+  "name": "Fiery Constrictor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a fragment of a red dragon scale), F (the existing fire source)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect creates a fiery tendril that constricts opponents\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a tendril of flame from an existing fire source that lashes out at any foe that you designate within 20 feet. The tendril has a Strength of 22, its base attack bonus is equal to your caster level, and it is considered to be a Large creature (thus its melee attack bonus is equal to your caster level +5). If the tendril hits a foe, it attempts to start a grapple as a free action without provoking an attack of opportunity (its CMB is your caster level +7, and its CMD is 10 + its CMB). If it wins the grapple check, it constricts, dealing 3d6 points of fire damage each round the hold is maintained. Directing the spell to a new target is a move action.\n\nThe tendril can be attacked. The tendril is AC 20 and has hit points equal to yours. The tendril has damage reduction 10/magic. If reduced to 0 or fewer hit points, it dissipates and the spell ends.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/32f0571eda8a1c87.json",
+    "web": "https://codex.pipsprojects.com/#/e/32f0571eda8a1c87"
+  },
+  "license": "OGL 1.0a"
+}

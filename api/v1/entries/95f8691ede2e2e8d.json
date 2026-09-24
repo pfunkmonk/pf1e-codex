@@ -1,0 +1,28 @@
+{
+  "id": "95f8691ede2e2e8d",
+  "name": "Shroud Of Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy (necrophagy) [evil]; Level antipaladin 4, cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of ice)\n\nEFFECT\n\nRange personal\nArea of Effect line of sight\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou call up a black veil of negative power that devours the living. You can draw on the life energies of all living creatures in your sight, devouring tiny bits of their spirit.\n\nYou gain 1 hp in the first round, 2 hp per creature in the second round, 3 hp per creature in the third, and so forth to a maximum of 10 hp per creature. The affected creatures lose these hp on your turn as negative energy damage; if they remove themselves from your line of sight, the damage ends, but it starts again as soon as they return to your sight.\n\nThe hp you gain are temporary hp, and you can gain a maximum of 10 hp/level. Any hp above that are lost.\n\nMythic: By expending one use of mythic energy, each creature in line of sight that round gains a negative level (Fort save negates). You gain 10 hp per creature affected in this way, and a +4 profane bonus to all attack and damage rolls and all DCs of spell you cast in this round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95f8691ede2e2e8d.json",
+    "web": "https://codex.pipsprojects.com/#/e/95f8691ede2e2e8d"
+  },
+  "license": "OGL 1.0a"
+}

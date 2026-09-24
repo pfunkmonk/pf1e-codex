@@ -1,0 +1,17 @@
+{
+  "id": "42f3557f0a3ba1c4",
+  "name": "Beehemoth",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "BEEHEMOTH\nCR 8\n\nSwarms of bees crawl through the yellow and black fur of this immense bee, and sweet ooze drips from honeycomb embedded in its skin.\n\nXP 4,800\nN Colossal vermin\nInit -1; Senses darkvision 60 ft.; Perception +1\nAura aura of bees (1d4 plus 1d4 nonlethal, 5 ft.), buzzing (30 ft.)\n\nDEFENSE\n\nAC 21, touch 1, flat-footed 22 (–1 Dex, +20 natural, –8 size)\nhp 101 (7d8+70)\nFort +15, Ref +1, Will +3; Immune mind affecting effects\nWeaknesses vulnerable to smoke\n\nOFFENSE\n\nSpeed 20 ft., fly 60 ft. (good) Melee sting +13 (4d6+18 plus poison)\nSpace 30 ft.; Reach 25 ft.\n\nSTATISTICS\n\nStr 43, Dex 9, Con 30, Int —, Wis 12, Cha 13\nBase Atk +5; CMB +29; CMD 38 (46 vs. trip)\nSkills Fly –7\nSQ honey-coated\n\nSPECIAL ABILITIES\n\nAura of Bees (Ex)\n\nA beehemoth is surrounded by an ever swarming aura of bees. All creatures within 10 feet take 1d4 piercing damage and 1d4 nonlethal damage of at the beginning of the beehemoth’s turn.\n\nBuzzing (Ex)\n\nA beehemoth emits an overwhelming buzzing noise. All creatures within 5 feet at the beginning of the beehemoth’s turn must make a DC 23 Fortitude save or become deafened until they leave the aura, plus 1d4 rounds.\n\nPoison (Ex)\n\nSting-injury; save Fort DC 23; frequency 1/round for 4 rounds; effect 1d2 Con; cure 2 consecutive saves.\n\nHoney-Coated (Ex)\n\nA beehemoth is coated in a thick layer of honey, which it uses to feed its colony. A weapon that strikes a beehemoth is stuck fast unless the wielder succeeds on a DC 19 Reflex save. A successful DC 19 Strength check is needed to pry off a stuck weapon. Universal solvent or copious amounts of water (at the GM’s discretion) dissolves the honey, which reforms after 1d4 days. The save DC is Constitution-based, and includes a –4 racial penalty.\n\nVulnerable to Smoke (Ex)\n\nSmoke from particularly smoky fires or effects (such as that created by a pyrotechnics spell) causes a beehemoth to become nauseated if it fails a DC 24 Fortitude save. This condition persists as long as the beehemoth remains in the smoke, plus 1d4 rounds. Regardless of whether or not it made its save, as long as a beehemoth remains in the smoke, its aura of bees deals no damage.\n\nECOLOGY\n\nEnvironment temperate or warm plains\nOrganization solitary)\nTreasure incidental (royal jelly)\n\nThe beehemoth is a mobile beehive of epic proportions. In addition to a queen, some beehives produce a beehemoth. This creature grows at staggering speed, reaching his full size of 30 feet from end to end in about 18 months. Once the beehemoth grows larger than the hive, the entire colony migrates onto the beehemoth itself. The beehemoth secretes yellow honey from its pores, coating its fur and providing sustenance for the swarm.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/42f3557f0a3ba1c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/42f3557f0a3ba1c4"
+  },
+  "license": "OGL 1.0a"
+}

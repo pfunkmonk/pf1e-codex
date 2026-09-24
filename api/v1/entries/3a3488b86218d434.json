@@ -1,0 +1,17 @@
+{
+  "id": "3a3488b86218d434",
+  "name": "Clockwork Parasite",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Clockwork Parasite from the Tome of Horrors Complete",
+  "book": "Clockwork Parasite from the Tome of Horrors Complete",
+  "facets": {
+    "bk": "Clockwork Parasite from the Tome of Horrors Complete"
+  },
+  "body": "This creature is a fist-sized construct that resembles a mechanical beetle.\n\nClockwork Parasite\n\nCR 2\n\nXP 600\nN Tiny construct\nInit +0; Senses darkvision 60 ft., low-light vision; Perception –1\n\nDEFENSE\n\nAC 14, touch 12, flat-footed 12 (+2 natural, +2 size)\nhp 22 (4d10); self-repair 1 (acid, cold, fire)\nFort +1; Ref +1; Will +0\nImmune construct traits\n\nOFFENSE\n\nSpeed 20 ft.\nMelee bite +7 (1d4+1)\nSpace 2-1/2 ft.; Reach 0 ft.\n\nSTATISTICS\n\nStr 12, Dex 10, Con —, Int —, Wis 8, Cha 8\nBase Atk +4; CMB +2; CMD 13 (21 vs. trip)\nSQ control host\n\nSPECIAL ABILITIES\n\nControl Host (Su)\n\nBy burrowing into the base of a corpse’s skull and attaching itself with its pincers, a parasite clockwork can animate the creature (similar to an animate dead spell). The animated creature uses its own HD, base attack, saves, and hit points. It has an effective Wisdom of 10 and Charisma of 1. It does not have an Intelligence score. The host loses all skills, feats, class abilities, supernatural abilities, and spell-like abilities (including the ability to cast spells) it possessed in life. It retains its AC and any natural attacks it possessed, including proficiency with weapons. A host retains any proficiency with armor and shields it possessed while alive.\n\nSpells such as detect undead or detect magic do not reveal the presence of the parasite or host. So long as the parasite clockwork remains in contact with the host, the control remains in effect.\n\nA host brought to 0 or less hit points is destroyed, but can be repaired by the clockwork parasite using its self-repair ability (though this only works if the host is brought to 0 or less hit points; a host does not gain the self-repair ability of the parasite while “alive”).\n\nSelf-Repair (Ex)\n\nA clockwork parasite regains 1 hit point per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects).\n\nECOLOGY\n\nEnvironment any\nOrganization horde (2–20)\nTreasure none\n\nClockwork parasites burrow into the skulls of the recently dead and reanimate the body using electrical impulses to control and direct the corpse. The animated corpses look like zombies at first glance, but a closer inspection reveals the fist-sized hole in the back of the head, wherein lurks the parasite.\n\nThe host creatures, much like clockwork warriors, rely on numbers and overwhelming force to defeat their enemies. Parasites often attack from ambush, however. Parasite clockworks were designed to swarm over a battlefield, take control of the corpses lying on the field, and then ambush any enemies who moved across the field, rising from the ground to attack en masse.\n\nClockwork Parasite from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors Mike Mearls and Scott Greene.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a3488b86218d434.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a3488b86218d434"
+  },
+  "license": "OGL 1.0a"
+}

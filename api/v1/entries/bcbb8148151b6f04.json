@@ -1,0 +1,25 @@
+{
+  "id": "bcbb8148151b6f04",
+  "name": "Symbiosis",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "invoker": 4,
+      "psychic": 6
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration; Level druid 5, invoker 4, psychic 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets you and one willing creature\nDuration 10 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou form a symbiotic link between yourself and the target, your vital essences intertwined. Symbiosis causes spells and effects that affect the well being of one of you two to affect the other. This has several implications: First, any damage taken by you or the linked creature (including bleed damage) is divided evenly between both of you, similar to the effects of shield other but working in both directions. Effects that restore hit points or grant temporary hit points are likewise divided evenly between yourself and the linked creature. If one of you would become fatigued, exhausted, sickened, nauseated, blinded, or deafened, that effect is applied to both of you with the duration divided in half where applicable (see below) to a minimum of 1 round. Removing the condition from one of you removes it from the other. Ability score penalties (such as from a ray of enfeeblement), ability damage, and ability drain are similarly divided between both of you; penalties are halved and last half as long but affect both, while permanent damage and drain are simply divided evenly.\n\nAn effect that is shared through the link grants no saving throw to the shared creature. For example, if the linked creature is subjected to a ray of sickening and fails its save, you will also be sickened without getting a save. Any effects not mentioned above are not shared through symbiosis. If your or the other creature are immune to an effect that would be shared (such as being immune to fatigue), that effect works at full strength on the non-immune target and is not divided to the immune target. Permanent effects, such as failing a save against blindness/deafness, affect both of you for the duration of symbiosis but is removed from whoever was not the original target once this spell ends. Symbiosis ends immediately if you or the target are slain.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bcbb8148151b6f04.json",
+    "web": "https://codex.pipsprojects.com/#/e/bcbb8148151b6f04"
+  },
+  "license": "OGL 1.0a"
+}

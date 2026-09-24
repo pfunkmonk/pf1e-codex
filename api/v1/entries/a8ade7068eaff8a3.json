@@ -1,0 +1,28 @@
+{
+  "id": "a8ade7068eaff8a3",
+  "name": "Wind Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 3,
+      "elven archer": 2,
+      "ranger": 3
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air]; Level druid/shaman 3, elven archer 2, ranger 3\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S, F (an arrow or bolt), DF\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nArea see text\nDuration 1 round\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you shoot the touched arrow, it spreads a brief, powerful wind gust in its wake, as if some enormous creature just sped by.\n\nSmall fires—including candles and torches—located within 10 ft. of the arrow’s path are extinguished. Further, the gust scatters live embers from larger fires, tears papers and similar items from unsuspecting hands (Reflex to maintain a grip on the object), and knocks Fine flying creatures out of the air. Small, unattended items are sucked up into the wind’s wake and are carried for 3d6 times 10 ft. before falling to the ground. Large but lightweight items, such as tents, have a 10% chance of being knocked over. Unsecured shutters flap violently, while unsecured doors slam shut or burst open.\n\nIn spaces more than 10 ft. from the arrow’s path but 20 ft. or less away from it, the gust extinguishes tiny flames, including most candles, and small fires sputter. Small, unattended objects are knocked over and moved 3d10 feet. Larger objects, such as tents, may rock and sway, but they remain undamaged. Fine flying creatures are whirled about and are left staggered for 1 round. Unsecured shutters and doors flap forcefully.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8ade7068eaff8a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8ade7068eaff8a3"
+  },
+  "license": "OGL 1.0a"
+}

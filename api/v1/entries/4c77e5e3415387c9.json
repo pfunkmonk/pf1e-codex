@@ -1,0 +1,34 @@
+{
+  "id": "4c77e5e3415387c9",
+  "name": "Forever Rot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 4,
+      "death mage": 4,
+      "lathspell": 4,
+      "shaman": 4,
+      "wizard": 5,
+      "spiritualist": 4,
+      "witch": 4
+    },
+    "desc": [
+      "curse",
+      "disease"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse, disease]; Level antipaladin 4, cleric/oracle 4, death mage 4, lathspell 4, shaman 4, sorcerer/wizard 5, spiritualist 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of blood)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou inflict a creature with a terrible cursed version of zombie rot. The Fortitude save for disease is the spell’s DC. No amount of saves or uses of remove disease can cure the target of this disease. A successful use of remove curse removes the curse and the disease simultaneously. If turned into a plague zombie by dying from the disease, it spreads its own disease as normal, not this cursed version.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c77e5e3415387c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c77e5e3415387c9"
+  },
+  "license": "OGL 1.0a"
+}

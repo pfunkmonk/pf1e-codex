@@ -1,0 +1,27 @@
+{
+  "id": "7354afb39cf7fd55",
+  "name": "Well Of Angry Souls",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "inquisitor": 3,
+      "white necromancer": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (fear) [mind-affecting]; Level inquisitor 3, white necromancer 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nArea 20 ft.\nDuration 1 round/level\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, the area becomes filled with whirling, ghostly creatures that howl with the plaintive cry of the angry, unsettled dead. Creatures in the area of this spell believe these dead creatures castigate them for past misdeeds and thoughts, and they must make a Will save or become shaken.\n\nA new saving throw is required each round to prevent this fear from becoming one step greater. If the creature or creatures affected belong to your religion, they are so terrified that they cannot flee the area if frightened or panicked.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7354afb39cf7fd55.json",
+    "web": "https://codex.pipsprojects.com/#/e/7354afb39cf7fd55"
+  },
+  "license": "OGL 1.0a"
+}

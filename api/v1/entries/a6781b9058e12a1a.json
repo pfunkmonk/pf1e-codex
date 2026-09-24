@@ -1,0 +1,17 @@
+{
+  "id": "a6781b9058e12a1a",
+  "name": "Ghoublin",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Aventyr Bestiary",
+  "book": "Aventyr Bestiary",
+  "facets": {
+    "bk": "Aventyr Bestiary"
+  },
+  "body": "Ghoublin\nCR 1/2\n\nA small, green-skinned creature, clad in an iron breastplate, moves towards you, an unpleasant stench following it.\n\nXP 200\nNE Small undead\nInit +2; Senses darkvision 60 ft.; Perception +4\n\nDEFENSE\n\nAC 20, touch 13, flat-footed 18 (+5 armor, +2 Dex, +2 natural, +1 size)\nhp 3 (1d8–1)\nFort –1, Ref +2, Will +2\nDefensive Abilities channel resistance +1; Immune undead traits\n\nOFFENSE\n\nSpeed 20 ft.\nMelee bite +2 melee (1d4+1 plus paralysis and disease) and 2 claws +0 melee (1d2 plus paralysis)\nSpecial Attacks ghoublin fever, paralysis (DC 9, 1d2+1 rounds)\n\nTACTICS\n\nBefore Combat Ghoublins hide and attempt to ambush foes.\n\nDuring Combat Ghoublins dash forward, attacking as many enemies as possible in attempt to paralyze opponents.\n\nMorale Ghoublins that survive any amount of damage instinctively flee.\n\nSTATISTICS\n\nStr 12, Dex 14, Con —, Int 12, Wis 11, Cha 9\nBase Atk +0; CMB +0; CMD 12\nFeats Multiattack\nSkills Acrobatics –1, Climb +1, Escape Artist –1, Perception +4, Stealth +6\nLanguages Goblin\n\nSPECIAL ABILITIES\n\nGhoublin Fever (Su)\n\nDisease—bite; save— Fortitude DC 9; incubation period—1 day; damage 1 Con and 1 Dex. The save DC is Charisma-based.\n\nAn afflicted humanoid that dies of ghoublin fever rises as a ghoublin at the next midnight. A humanoid who becomes a ghoublin in this way retains none of the abilities it possessed in life. It is not under the control of any other ghoublins, but it hungers for the flesh of the living and behaves like a normal ghoublin in all respects. A humanoid of 2-3 Hit Dice rises as a ghoul, not a ghoublin, while a humanoid with 4 Hit Dice or more rises as a ghast.\n\nParalysis (Ex)\n\nCreatures damaged by a ghoublin’s bite or claw attack must succeed on a DC 9 Fortitude save or be paralyzed for 1d2+1 rounds. Elves have immunity to this paralysis. The save DC is Charisma-based.\n\nECOLOGY\n\nEnvironment any (Vast Swamp)\nOrganization solitary, pair, gaggle (4-10), or mob (12-20)\nTreasure standard\n\nFreshly created ghoublins are made from recently killed goblin corpses, but the insidious undead can infect any humanoid (causing it to distort and shrink after its death, for humanoids larger than Small sized).\n\nA ghoublin is only 3 feet tall and weighs a scant 18 pounds.\n\nAventyr Bestiary © 2017 AAW GAMES LLC Authors Mike Myler, Jonathan G. Nelson Developers, Michael Allen, Curtis Baum, Wolfgang Baur, Brian Berg, Adam Daigle, Jeffrey Gomez, Joshua Gullion, Jacob Kellogg, Jared Jeanquart, Juan Lucha, Justin Andrew Mason, Jonathan McAnulty, Michael McCarthy, Raven Mimura, Brian Wiborg Monster, Will Myers, Mike Myler, Jason Nelson, Jonathan G. Nelson, Owen K.C. Stephens, Colin Stricklin, Cory Vickruck, Stephen Yeardley Jonathan G. Nelson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a6781b9058e12a1a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a6781b9058e12a1a"
+  },
+  "license": "OGL 1.0a"
+}

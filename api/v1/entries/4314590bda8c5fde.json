@@ -1,0 +1,24 @@
+{
+  "id": "4314590bda8c5fde",
+  "name": "Evulsion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "lv": {
+      "oracle": 9,
+      "wizard": 9,
+      "domain death": 9
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School (necrophagy) [force]; Level cleric/oracle 9, sorcerer/wizard 9, witch 9; Domain Death 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (flensed bone)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fort half; Spell Resistance yes\n\nDESCRIPTION\n\nEvulsion violently extracts a creature’s skeleton, causing 2d6 hp slashing damage per caster level (maximum 40d6 at 20th level) and the target creature is stunned for 1d4 rounds. A successful Fortitude save halves the damage.\n\nExoskeletal creatures take a -4 penalty to this Fortitude save. Creatures without a skeleton, such as oozes and constructs, are unaffected by evulsion.\n\nA body of a creature killed by evulsion is not intact enough to be returned to life by a raise dead spell, although reincarnate, resurrection, miracle, or wish will bring back the creature.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4314590bda8c5fde.json",
+    "web": "https://codex.pipsprojects.com/#/e/4314590bda8c5fde"
+  },
+  "license": "OGL 1.0a"
+}

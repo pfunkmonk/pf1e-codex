@@ -1,0 +1,27 @@
+{
+  "id": "790da7ef35862a51",
+  "name": "Campfire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School illusion (figment) [mind-affecting]; Level bard 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (an ember from a campfire)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\n\nEffect a 1-ft.-radius campfire shedding light and heat in a 20-ft.-radius spread\n\nDuration concentration + 1 hour/level\n\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\n\nYou conjure an image of a roaring, seemingly abandoned campfire with burning logs surrounded by a ring of stones. The spell can alter the appearance of terrain, flora, or objects within the spread (or it can add them where none are present). Nonetheless, it cannot disguise, hide, or add creatures (though creatures within the spread might use the illusory surroundings to hide their presence just as they would in a real location). The illusion duplicates the sights, smells, sounds, tactile feelings, and thermal effects of a real campfire. The flames emit light and periodically crackle, the odor of charred wood fills the air, the stones feel solid and hot to the touch, and most importantly the blaze radiates heat.\n\nAlthough the campfire creates the illusion of generating heat, the weather conditions around the campfire remain unchanged. Creatures within the affected area believe they are warm, dry, and sheltered from the wind when the exact opposite may be true.\n\nWhen a creature experiences the effects of external weather conditions, such as suffering a penalty to a ranged attack attributable to high winds, or has sufficient reasons for suspicion about the illusion’s veracity, such as seeing snow fall around the area except for the campfire’s immediate vicinity without a plausible explanation, the creature gains another saving throw with a +2 bonus. When a creature takes nonlethal or lethal damage, regardless of the source, the creature also gains another saving with a bonus equal to the damage.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/790da7ef35862a51.json",
+    "web": "https://codex.pipsprojects.com/#/e/790da7ef35862a51"
+  },
+  "license": "OGL 1.0a"
+}

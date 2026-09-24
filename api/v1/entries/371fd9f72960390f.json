@@ -1,0 +1,28 @@
+{
+  "id": "371fd9f72960390f",
+  "name": "Distract Assailant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 1,
+      "psychic": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level mesmerist 1, psychic 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou make a motion and the target becomes convinced there is an enemy near them they did not anticipate.\n\nThey are treated as if they flanked for 1 round. If the target has improved uncanny dodge, all attackers are treated as having your caster level as their rogue level for the purposes of being able to use their existing sneak attack against the target.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/371fd9f72960390f.json",
+    "web": "https://codex.pipsprojects.com/#/e/371fd9f72960390f"
+  },
+  "license": "OGL 1.0a"
+}

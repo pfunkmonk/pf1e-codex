@@ -1,0 +1,28 @@
+{
+  "id": "4c55a8452ba6aa9c",
+  "name": "Ray of Void",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 6,
+      "shaman": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [void]; Level psychic 6, shaman 6, sorcerer/wizard 6\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange close (25 ft. + 5 ft./2 levels)\n\nEffect ray\n\nDuration instantaneous\n\nSaving Throw none; Spell Resistance yes\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nWhile the Void element is not a force of decay or erosion, it must be balanced with the other elements within things or creatures, lest its presence overwhelm its container. This spell releases a ray of pure Void at the target creature or object, bestowing 1d4 temporary negative levels (if applicable) and also dealing 5d6 points of void damage (this damage bypasses any DR and hardness, if applicable). The bestowed negative levels only last for two hours, thus never lasting long enough to become permanent.\n\nFor each ki point the target currently has, reduce the bestowed negative level and total number of damage die of the void damage by 1 (minimum damage of 1d6) when you cast this spell. Creatures without a ki pool or the Ki Meditation feat are considered to have no ki points for this purpose. Objects are considered to have no ki points for this purpose unless they are imbued with at least 1 ki point (imbuing an object in this way requires specific feats or methods).\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4c55a8452ba6aa9c.json",
+    "web": "https://codex.pipsprojects.com/#/e/4c55a8452ba6aa9c"
+  },
+  "license": "OGL 1.0a"
+}

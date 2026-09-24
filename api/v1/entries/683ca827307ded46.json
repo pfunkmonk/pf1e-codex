@@ -1,0 +1,24 @@
+{
+  "id": "683ca827307ded46",
+  "name": "Gravity Bullet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\n\nDESCRIPTION\n\nGravity bullet significantly increases the weight and density of bullets fired from your gun the instant before they strike their target and then return them to normal a few moments later. Any bullet fired from a gun you are carrying when the spell is cast (including burst fire from an automatic weapon) deals damage as if one size larger than it actually is. For instance, a bullet fired from a Medium pistol normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if fired as a gravity bullet. Only you can benefit from this spell. If anyone else uses your gun to make an attack the bullets deal damage as normal for their size. This does not apply to grenades, rockets, and similar explosive projectiles.\n\nGravity Bullet, Greater\n\nSchool transmutation; Level ranger 2, sorcerer/wizard 2\n\nDESCRIPTION\n\nThis spell functions as gravity bullet, but the impact of your bullets is strong enough to knock targets damaged by your bullets prone. You can make a trip check against a target you damage, using your caster level plus your casting ability score bonus (Wisdom for rangers, Intelligence for wizards, and so on). If you hit a creature with more than one bullet in the same round, you make a single combat maneuver check once all attacks have been resolved, gaining a +2 bonus on your combat maneuver check for each gravity bullet after the first that damaged the target that round. Making this combat maneuver check does not provoke an attack of opportunity and if the check fails, the target cannot attempt to trip you in response.\n\nAlien Codex © 2018, Legendary Games; Lead Designer: Jason Nelson. Authors: Anthony Adam, Kate Baker, John Bennet, Eytan Bernstein, Robert Brookes, Russ Brown, Duan Byrd, Paris Crenshaw, Jeff Dahl, Robyn Fields, Joel Flank, Matt Goodall, Robert J. Grady, Jim Groves, Steven T. Helt, Thurston Hillman, Tim Hitchcock, Nick Hite, Daniel Hunt, Mike Kimmel Marshall, Isabelle Lee, Jeff Lee, Lyz Liddell, Jason Nelson, Richard Pett, Tom Phillips, Jeff Provine, Alistair J. Rigg, Alex Riggs, Wendall Roy, Mike Shel, Neil Spicer, Todd Stewart, Russ Taylor, Rachel Ventura, Mike Welham, George Loki Williams, Scott Young.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/683ca827307ded46.json",
+    "web": "https://codex.pipsprojects.com/#/e/683ca827307ded46"
+  },
+  "license": "OGL 1.0a"
+}

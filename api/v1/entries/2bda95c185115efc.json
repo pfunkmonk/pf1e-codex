@@ -1,0 +1,26 @@
+{
+  "id": "2bda95c185115efc",
+  "name": "Break Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (object), and see text",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 2, cleric/oracle 2, druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange 10 ft.\nTarget one object of up to 10 cu. ft./level or one construct creature\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object), and see text\n\nDESCRIPTION\n\nThis spell damages objects, reducing the object’s hit point total to one hit point below half its maximum hit point total (the object cannot be repaired or gain hit points using this spell). This also causes the object to gain the broken condition; this condition is removed if the object is restored to at least half its original hit points. Magic items can be broken by this spell, but you must have a caster level equal to or higher than the caster level of the object.\n\nThis spell also deals 1d6 points of damage per level when cast on a construct creature (maximum 5d6) but it cannot reduce the construct‘s total hit point total to one hit point below half its maximum hit point total.\n\nWhen break object is used on a construct creature, the spell bypasses any immunity to magic as if the spell did not allow spell resistance.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2bda95c185115efc.json",
+    "web": "https://codex.pipsprojects.com/#/e/2bda95c185115efc"
+  },
+  "license": "OGL 1.0a"
+}

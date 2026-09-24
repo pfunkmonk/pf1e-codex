@@ -1,0 +1,17 @@
+{
+  "id": "851a34df46240d56",
+  "name": "Blood Kaktos",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Blood Kaktos\nCR 5\n\nXP 1,600\nLN Large plant\nInit +0; Senses darkvision 60 ft., low-light vision; Perception +10\n\nDEFENSE\n\nAC 14, touch 9, flat-footed 14 (+5 natural, -1 size)\nhp 60 (8d8+24)\nFort +8, Ref +2, Will +1\nImmune deafness, mind-affecting effects, paralysis, poison, polymorph, sleep, stunning; Resist fire 5\nWeaknesses vulnerability to cold\n\nOFFENSE\n\nSpeed 25 ft.\nMelee 2 slams +9 (1d6+4 + poison)\nSpace 10 ft.; Reach 10 ft.\nSpecial Attacks huff and puff, lover’s embrace\n\nSTATISTICS\n\nStr 18, Dex 10, Con 14, Int 10, Wis 9, Cha 7\nBase Atk +6; CMB +11; CMD 21 (can’t be tripped)\nFeats Bloody Assault, Furious Focus, Power Attack, Toughness\nSkills Acrobatics +0 (-4 to jump), Perception +10, Stealth +11\nLanguages telepathy 100 ft.\nSQ bloodroot\n\nBloody Assault\n\n(DC 15 for Heal) Take -5 to all attacks and maneuvers until your next turn to add 1d4 bleed damage (DC 15 for Heal) to all melee attacks\n\nHuff and Puff (1/1d4 rounds, DC 16) (Ex)\n\nThe blood kaktos inhales air into the space between its outer layer of skin and its inner membranous tissue and then forces it out sharply, spraying needles in all directions over a 10-foot radius. Any creature within the area must make a Reflex saving throw. Those that fail the saving throw take 2d8 piercing damage from the flying needles while those that succeed take half this amount.\n\nLover’s Embrace (Ex)\n\nIf both slam attacks are successful against the same target, the blood kaktos has embraced the victim. An embraced victim is grappled. On the same round, the blood kaktos extends its proboscis to penetrate any exposed skin, writhing through armor joints if need be. The embraced victim loses 1d4+1 hit points each round as the blood kaktos gorges upon the victim’s blood. If the victim breaks free from the lover’s embrace, the blood kaktos immediately retracts its proboscis, fearing damage to its delicate organ. A victim that escapes a lover’s embrace sustains an additional 1d6 slashing damage as the needles rip the escapee’s flesh.\n\nPoison (DC 12)\n\nBloodroot: Bloodroot—injury; save Fort DC 12; onset 1 round; frequency 1/round for 4 rounds; effect 1 Con and 1 Wis; cure 1 save\n\nSource not confirmed for this entry. If this is your work, use the Feedback link below to let us know so we can credit it properly.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/851a34df46240d56.json",
+    "web": "https://codex.pipsprojects.com/#/e/851a34df46240d56"
+  },
+  "license": "OGL 1.0a"
+}

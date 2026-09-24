@@ -1,0 +1,30 @@
+{
+  "id": "6b95c4b9f1c46a3e",
+  "name": "Toad’s Kiss",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "legendary ninja": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy [poison]; Level alchemist 2, antipaladin 2, legendary ninja 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level or until discharged (D)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou infuse the target’s skin with a toxic venom, marking it with a brightly colored tattoo of a toad. The target gains a +2 bonus on saving throws against poison as long as this mark persists. In addition, the target can trigger the toad’s kiss as a free action when she is struck with a natural weapon, unarmed strike, or melee touch attack, affecting her attacker as a poison spell. No attack roll is needed to affect her attacker, though the attacker is allowed a Fortitude save. The save DC against this poison is based on the toad’s kiss spell level.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b95c4b9f1c46a3e.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b95c4b9f1c46a3e"
+  },
+  "license": "OGL 1.0a"
+}

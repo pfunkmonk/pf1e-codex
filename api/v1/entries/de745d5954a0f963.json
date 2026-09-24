@@ -1,0 +1,29 @@
+{
+  "id": "de745d5954a0f963",
+  "name": "Wall of Ghosts",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bloodlord": 5,
+      "death mage": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level bloodlord 5, death mage 5, sorcerer/wizard 5\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a small block of wood)\n\nRange medium (100 ft. + 10 ft./level)\n\nEffect wall of spirits whose area is up to one 10-ft. square/level, or a sphere or hemisphere with a radius of up to 1 ft./level\n\nDuration 1 min./level (d)\n\nSaving Throw see text; Spell Resistance no\n\nAn immobile, swirling wall of groaning spirits springs into existence. On one side of the wall, selected by you, emits a disturbing groan that causes creatures within 60 feet to be panicked for 1d4 rounds. A successful Will save negates the panicked. Any living creature that touches or passes through the wall takes 1d10 negative energy damage. Those passing through must also make a Fortitude save or gain one negative level. The wall provides total concealment.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de745d5954a0f963.json",
+    "web": "https://codex.pipsprojects.com/#/e/de745d5954a0f963"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b76e38f6b56d84db",
+  "name": "Meekmind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 4,
+      "inquisitor": 4,
+      "mesmerist": 4,
+      "focus fear": 4,
+      "intensity": 4
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School enchantment (compulsion) [fear, mind-affecting]; Level antipaladin 4, bard 4, inquisitor 4, mesmerist 4, witch 5; Focus fear 4, intensity 4\n\nCASTING\n\nCasting Time 1 full-round action\nComponents V, S\n\nEFFECT\n\nRange close\nTarget one creature\nDuration permanent\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYour tampering turns the target into a pathological victim, struggling to stand up for itself in any way. Upon a failed save, the target tries to avoid confrontation to the best of its ability. When forced to fight, it will never act in the surprise round, even if an ability it has allows it to, and must delay its action each turn until all of its allies have acted. It cannot harm a creature of its own accord in the first round of combat, nor for 1 round after every time it succeeds in doing so. It will accept surrender under any terms it deems reasonable, as if it failed its saving throw against a suggestion spell. The target’s defenses against the influence of others are just as debilitated. It can no longer add its ability score bonuses to its Sense Motive checks and to the DC of Intimidate checks against it, or its saving throws. Its Hit Dice are considered halved for the purposes of spells and abilities resisted by a Will saving throw. Finally, when the target is subject to an effect which uses the Wisdom score of the creatures involved to determine the result, the target’s Wisdom score is treated as 10, or its current Wisdom score, whichever is lower.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b76e38f6b56d84db.json",
+    "web": "https://codex.pipsprojects.com/#/e/b76e38f6b56d84db"
+  },
+  "license": "OGL 1.0a"
+}

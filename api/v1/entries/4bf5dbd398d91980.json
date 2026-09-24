@@ -1,0 +1,30 @@
+{
+  "id": "4bf5dbd398d91980",
+  "name": "Cloud of Shards",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 2,
+      "magus": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "unchained summoner": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [force]; Level bloodrager 2, magus 2, sorcerer/wizard 2, summoner 2, unchained summoner 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a shard of glass)\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nArea 5-foot square\nDuration 1 round/level (D)\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou utter the words of the spell releasing the bit of glass, creating an immovable cloud of spinning force shards in a 5-foot-cube. Any creature entering the area or beginning their turn in the area takes 1d6 points of magical slashing damage per caster level (maximum 10d6), with a Reflex save for half damage.\n\nA cloud of shards provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made through it.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4bf5dbd398d91980.json",
+    "web": "https://codex.pipsprojects.com/#/e/4bf5dbd398d91980"
+  },
+  "license": "OGL 1.0a"
+}

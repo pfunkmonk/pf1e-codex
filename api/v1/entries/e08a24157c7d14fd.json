@@ -1,0 +1,36 @@
+{
+  "id": "e08a24157c7d14fd",
+  "name": "Indifference, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 4,
+      "antipaladin": 4,
+      "bard": 4,
+      "inquisitor": 4,
+      "lathspell": 4,
+      "legendary ninja": 4,
+      "mesmerist": 4,
+      "psychic": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level adept 4, antipaladin 4, bard 4, inquisitor 4, lathspell 4, legendary ninja 4, mesmerist 4, psychic 5, shaman 5, sorcerer/wizard 5, witch 5\nTargets one or more creatures, no two of which can be more than 30 ft. apart.\n\nDESCRIPTION\n\nThis spell functions as indifference, except that it affects a number of secondary targets whose Hit Dice don’t exceed twice your level. If there are more potential targets than you can affect, you choose them one at a time until you reach the limit of HD you can affect. If you target only one creature, you ignore the spell’s HD limit.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e08a24157c7d14fd.json",
+    "web": "https://codex.pipsprojects.com/#/e/e08a24157c7d14fd"
+  },
+  "license": "OGL 1.0a"
+}

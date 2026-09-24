@@ -1,0 +1,27 @@
+{
+  "id": "df2c116886ab4eca",
+  "name": "Force Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [force]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 10 ft. +1 ft./level radius burst outward from caster\nDuration instantaneous\nSaving Throw none (see text); Spell Resistance yes\n\nDESCRIPTION\n\nForce wave radiates hemispheric waves of invisible force in every direction except down. The waves of force push objects and creatures directly away from the caster, similar to the effects of a bull rush attack.\n\nSince this is a force effect, force wave even affects incorporeal and ethereal targets. Each creature in the area of effect is subject to a bull rush attack. The force wave is considered to be of Medium size, has a Strength of 12 + 1 per 2 caster levels, and uses your caster level as the base attack bonus.\n\nNote that the caster does not move and no attacks of opportunity can be made against the caster (except the normal ones for casting spells in combat) as a result of the force wave’s bull rush. Attacks of opportunity may be made against those pushed back by the force wave per the normal bull rush rules.\n\nThe results of force wave on unattended objects within the spell’s area of effect should be adjudicated by the GM. Most small items are turned over and pushed to the edge of the spell’s radius. Large, heavy objects and braced objects may not be affected. For breaking down doors and such, assume the force wave has a Strength of 12 + 1 per 2 caster levels.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/df2c116886ab4eca.json",
+    "web": "https://codex.pipsprojects.com/#/e/df2c116886ab4eca"
+  },
+  "license": "OGL 1.0a"
+}

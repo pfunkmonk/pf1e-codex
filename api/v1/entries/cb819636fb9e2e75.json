@@ -1,0 +1,28 @@
+{
+  "id": "cb819636fb9e2e75",
+  "name": "Snow Boulder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "ranger": 4
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [cold]; Level cleric/oracle 4, druid/shaman 4, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (handful of snow)\n\nEFFECT\n\nArea see text\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nA handful of snow rolls in the direction you point, growing larger with each passing moment. It moves 30 ft. per round as you direct, causing damage and attempting an overrun or reposition combat maneuver (your choice) against any creature it hits. The snowball has an effective CMB equal to your caster level plus your Wisdom modifier. Each round the snowball increases in size and effectiveness until the spell’s fourth round, when it retains its qualities until the spell ends.\n\nThe snow boulder’s size and the amount of damage it inflicts depends on how many rounds it has existed:  Round 1: Small size, -1 CMB, 1d6 nonlethal damage.\n\nRound 2: Medium size, +0 CMB, 3d6 nonlethal damage.\nRound 3: Large size, +1 CMB, 5d6 nonlethal damage.\nRound 4+: Huge Size, +2 CMB, 7d6 nonlethal damage.\n\nA Reflex saving throw negates the damage and prevents the overrun or reposition attempt. A creature cannot be targeted by this spell more than once per round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb819636fb9e2e75.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb819636fb9e2e75"
+  },
+  "license": "OGL 1.0a"
+}

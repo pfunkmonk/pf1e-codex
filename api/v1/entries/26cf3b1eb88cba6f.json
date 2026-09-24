@@ -1,0 +1,32 @@
+{
+  "id": "26cf3b1eb88cba6f",
+  "name": "Putrid Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 3,
+      "druid": 3,
+      "legendary ninja": 2,
+      "ranger": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "disease",
+      "earth",
+      "wood"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [disease, earth, wood]; Level bloodrager 3, druid 3, legendary ninja 2, ranger 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (tiny shovel and a sharpened stake)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nArea dirt in a 20-ft. cube\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell is similar to punji pit but creates a much larger hole, dealing 2d6 points of falling damage and 2d6 points of piercing damage to creatures falling into it. In addition, creatures damaged by the pit must succeed on a Fortitude save or immediately contract filth fever. The initial save to avoid contracting the disease is made using the spell’s DC but saves to recover from the disease later use the disease’s standard save DC. A DC 20 Climb check is required to climb out of a putrid pit.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26cf3b1eb88cba6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/26cf3b1eb88cba6f"
+  },
+  "license": "OGL 1.0a"
+}

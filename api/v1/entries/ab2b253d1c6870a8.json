@@ -1,0 +1,27 @@
+{
+  "id": "ab2b253d1c6870a8",
+  "name": "Shadow Spike Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange 30 feet\nArea 30-ft. line\nDuration instantaneous\nSaving Throw Reflex half; Spell resistance yes\n\nDESCRIPTION\n\nYou create a vile flurry of shadowy spikes, which blast from your hand in a line. The line deals 1d6 negative energy damage per caster level (maximum 15d6).\n\nHD\tEffect\n10 or more\tDeafened\n5-9\tDeafened, nauseated\n4 or less\tDazed, deafened, nauseated\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab2b253d1c6870a8.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab2b253d1c6870a8"
+  },
+  "license": "OGL 1.0a"
+}

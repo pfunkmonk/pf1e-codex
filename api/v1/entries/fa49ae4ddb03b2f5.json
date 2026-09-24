@@ -1,0 +1,29 @@
+{
+  "id": "fa49ae4ddb03b2f5",
+  "name": "Winter’s Breath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level druid 3, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 15 ft.\nArea 15-ft. cone\nDuration instantaneous, 1 round\nSaving Throw Reflex half; Spell Resistance yes\n\nYou breathe out a 15-foot cone of freezing frost. You deal 1d6 points of cold damage per caster level (maximum 10d6) to every creature within the area. In addition to the cold damage, they are also staggered for 1 round.\n\nPrayer – Gods of Winter and Hunting, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fa49ae4ddb03b2f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/fa49ae4ddb03b2f5"
+  },
+  "license": "OGL 1.0a"
+}

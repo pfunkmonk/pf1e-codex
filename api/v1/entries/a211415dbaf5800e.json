@@ -1,0 +1,30 @@
+{
+  "id": "a211415dbaf5800e",
+  "name": "Divine Impediment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 4,
+      "oracle": 4,
+      "inquisitor": 3,
+      "lathspell": 3,
+      "occultist": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes, see text",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion); Level adept 4, cleric/oracle 4, inquisitor 3, lathspell 3, occultist 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will partial, see text; Spell Resistance yes, see text\n\nDESCRIPTION\n\nYou finish the spell and you create a block between the target and their divine power. The creature must make a Will save. On a failure, the creature must roll a d100 and get a result higher than 10 + the caster level of this spell anytime they want to use divine spellcasting, spell-like abilities, or supernatural abilities. Such things that would be blocked would be a cleric’s spellcasting, a druid’s wildshape, an antipaladin’s smite good, an angel’s or devil’s spell-like abilities, and so on. If the target rolls under the required number, the action fails like an arcane spellcaster failed an arcane spellcasting failure chance. Each round at the beginning of their turn, the target may roll a Will save to end the effect early. On a successful Will save, either on their turn or when affected by this spell reduces the d100 number to the caster level of the spell for the turn and the spell ends at the end of the target’s turn.\n\nIn addition to the block imposed over the usage of divine abilities, the target gains a spell resistance equal to 10 + the caster level of this spell against divine spells, divine spell-like abilities, and supernatural abilities as defined above.\n\nDivine Impediment, Mass\n\nSchool enchantment (compulsion); Level cleric/oracle 8, inquisitor 6, shaman 8, sorcerer/wizard 8, witch .\n\nTargets one creature/level, no two of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions as divine impediment, except as noted above.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a211415dbaf5800e.json",
+    "web": "https://codex.pipsprojects.com/#/e/a211415dbaf5800e"
+  },
+  "license": "OGL 1.0a"
+}

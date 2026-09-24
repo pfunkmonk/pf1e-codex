@@ -1,0 +1,25 @@
+{
+  "id": "bc5ab3d60f249dd3",
+  "name": "Telekinetic Attacks",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 1,
+      "psychic": 1,
+      "wizard": 1
+    },
+    "save": "special",
+    "sr": "yes (object)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level magus 1, psychic 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget touched weapon\nDuration 1 round/level\nSaving Throw Fort negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou instill the touched weapon with extra kinetic power. The weapon deals 2 additional damage of the same type the weapon normally deals. This additional damage increases by 1 for every six levels you possess (maximum 5 damage at 18th level). A ranged weapon affected by this spell applies these effects to its ammunition. This spell cannot be cast on a natural weapon.\n\nContact Other Plane: World of Mass Effects I, © 2025, Orphaned Bookworm Productions; Author: Connor Bates and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc5ab3d60f249dd3.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc5ab3d60f249dd3"
+  },
+  "license": "OGL 1.0a"
+}

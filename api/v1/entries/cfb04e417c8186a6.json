@@ -1,0 +1,28 @@
+{
+  "id": "cfb04e417c8186a6",
+  "name": "Thunderball",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bloodrager 3, magus 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small bell)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius spread\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA thunderball spell generates a thunderous explosion of sound that detonates and deals 1d4 points of sonic damage per caster level (maximum 10d4) to every creature within the area. Unattended objects also take this damage. The explosion creates almost no pressure.\n\nYou point your finger and determine the range (distance and height) at which the thunderball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, bursts into the thunderball at that point. An early impact results in an early detonation. If you attempt to send the bead through a narrow passage, such as through an arrow slit, you must “hit” the opening with a ranged touch attack, or else the bead strikes the barrier and detonates prematurely.\n\nThe thunderball damages objects in the area. If the damage caused to an interposing barrier shatters or breaks through it, the thunderball may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.\n\nA thunderball does not function in an area of silence. If the center of the burst is in the area, the spell fails.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cfb04e417c8186a6.json",
+    "web": "https://codex.pipsprojects.com/#/e/cfb04e417c8186a6"
+  },
+  "license": "OGL 1.0a"
+}

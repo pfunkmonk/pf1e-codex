@@ -1,0 +1,31 @@
+{
+  "id": "21f153b23fcff290",
+  "name": "Cleansing Hands, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 3,
+      "alchemist": 3,
+      "oracle": 3,
+      "druid": 4,
+      "inquisitor": 3,
+      "paladin": 2,
+      "shaman": 4,
+      "white necromancer": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level adept 3, alchemist 3, cleric/oracle 3, druid 4, inquisitor 3, paladin 2, shaman 4, white necromancer 3, witch 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou touch the creature soothing their wounds and removing some debilitations. You heal the target creature 2d8 + your caster level (maximum +10) and remove the one of the following conditions: confused, dazzled, fatigued, sickened, and stunned. Instead of healing one of the listed conditions, you can reduce the exhausted condition to fatigued, the nauseated condition to sickened, or heal 1d4 temporary ability damage.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/21f153b23fcff290.json",
+    "web": "https://codex.pipsprojects.com/#/e/21f153b23fcff290"
+  },
+  "license": "OGL 1.0a"
+}

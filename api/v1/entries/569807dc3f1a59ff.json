@@ -1,0 +1,29 @@
+{
+  "id": "569807dc3f1a59ff",
+  "name": "Acoustic Dampening",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration [sonic]; Level bard 1, inquisitor 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bit of cotton or wax)\n\nEFFECT\n\nRange touch\nTargets 1 creature/3 levels\nDuration 10 min.\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates an aura of white noise around the target’s senses that reduces the passage of sound.\n\nThe target gains a +2 bonus on saves vs. sonic and sound-based effects.\n\nAdditionally, the target immediately gains another saving throw against any existing sonic effect (including a harpy’s captivating song, deafness, etc.), if the effect initially granted a save. If this second save is successful, treat the target as if its first save had succeeded.\n\nEach round, at the end of its turn, the target may attempt a new saving throw to end an ongoing sonic effect; this does not provoke attacks of opportunity. The target also receives a –2 penalty to Perception skill checks to hear sounds for the spell’s duration.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/569807dc3f1a59ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/569807dc3f1a59ff"
+  },
+  "license": "OGL 1.0a"
+}

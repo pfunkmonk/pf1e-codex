@@ -1,0 +1,28 @@
+{
+  "id": "c0ae371b856e4e8e",
+  "name": "Cosmic Realignment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 5,
+      "inquisitor": 4,
+      "paladin": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 5, inquisitor 4, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target of this spell is temporarily disconnected from its cosmic fate, and it takes on yours for a short time. You and the target creature swap your alignments for a short time, each taking on the other’s fate and cosmic trajectory.\n\nIf the target already shares your alignment or is one step away, this spell grants it a +2 moral bonus on all attack rolls and saving throws. If the target is of any other alignment, it instead bestows a –2 penalty to attack rolls and saving throws. Furthermore, if the target is two or more alignment steps removed from yours, it must succeed on a Will save each round at the beginning of its turn or become confused for the spell’s duration.\n\nLastly, if the target has one or more alignment subtypes that is different than your alignment (for example, if you are lawful good, this affects creatures with the chaotic and/or evil subtype), they are automatically confused each round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0ae371b856e4e8e.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0ae371b856e4e8e"
+  },
+  "license": "OGL 1.0a"
+}

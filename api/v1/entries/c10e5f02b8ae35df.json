@@ -1,0 +1,28 @@
+{
+  "id": "c10e5f02b8ae35df",
+  "name": "Stronghold Sanctuary",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 9,
+      "druid": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "stronghold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration (teleportation) [stronghold]; Level cleric 9, druid 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, F (a summoning circle inscribed with rare herbs and the blood of fiends worth 500 gp)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 day/level or until discharged\n\nDESCRIPTION\n\nThis spell functions like a combination of contingency and word of recall, whisking you and all you carry back to your stronghold whenever a triggering condition is met. Unlike contingency, you may set up to 6 different triggers for the spell’s activation. When any of them occur, you are immediately teleported back to your stronghold, appearing within the summoning circle you used as the focus object; this destroys the circle. This teleportation has no chance of error, even if you are on another plane, though you are still subject to effects such as dimensional anchor that block teleportation. When your stronghold sanctuary activates, it brings you and what you are wearing or carrying, plus a single object of up to 10 pounds per level. If your familiar or animal companion is adjacent to you when the spell triggers, they also may accompany you, but otherwise no creatures can be brought along by the spell.\n\nWhile your stronghold sanctuary has not been triggered, the focus object emanates a 10-foot-radius dimensional lock centered on itself. Once the stronghold sanctuary is triggered, the dimensional lock also ends.\n\n* Stronghold Spells\n\nAs an optional rule, many of the spells designed to defend a stronghold below may be ruled to function only in an area that is a fixed point of defense called your stronghold. For the purpose of a stronghold spell, your stronghold must be a specific location or structure you designate, no larger than a cube 30 feet per level on a side. If this covers only part of a larger structure or location, you may use stronghold spells only within the designated area. You must spend at least seven days focusing on your stronghold, meditating upon its every detail, placing magical marks that resonate with your personal magic.\n\nYou may have only one stronghold at a time. If you create and designate a new one, the benefits of the old one fade immediately. Your death does not alter your stronghold, and stronghold spells persist after your death to the extent of their normal duration.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c10e5f02b8ae35df.json",
+    "web": "https://codex.pipsprojects.com/#/e/c10e5f02b8ae35df"
+  },
+  "license": "OGL 1.0a"
+}

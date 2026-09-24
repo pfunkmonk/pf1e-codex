@@ -1,0 +1,24 @@
+{
+  "id": "4f37fe6c5e09d9ff",
+  "name": "Transform Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 2,
+      "paladin": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 2, paladin 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one shield\nDuration 1 min./level (D)\n\nDESCRIPTION\n\nYou temporarily transform a shield into a tool, weapon, or other item of your choice with a volume and mass no greater than the shield (there’s no minimum shield size) and of any material of your choice (that you have touched before).\n\nYour shield could become a lockpick, bucket, grapnel, stake, trumpet, shackles, or darning needle. It could be made from pure silver, adamantine, ruby, or glass. It gains the usual strength and durability of the material you’ve chosen. If broken, it instantly reverts to the intact shield it began as (if it’s inside a living body or confined space, it teleports harmlessly out in a random direction far enough to get clear before it reverts to its original state). If you are touching the transformed shield, you can as a swift action make it revert to its shield form before the spell expires (ending the spell by doing so).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4f37fe6c5e09d9ff.json",
+    "web": "https://codex.pipsprojects.com/#/e/4f37fe6c5e09d9ff"
+  },
+  "license": "OGL 1.0a"
+}

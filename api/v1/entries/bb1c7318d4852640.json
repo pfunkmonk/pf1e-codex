@@ -1,0 +1,17 @@
+{
+  "id": "bb1c7318d4852640",
+  "name": "Ooze, Undead",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Undead Ooze from the Tome of Horrors Complete",
+  "book": "Undead Ooze from the Tome of Horrors Complete",
+  "facets": {
+    "bk": "Undead Ooze from the Tome of Horrors Complete"
+  },
+  "body": "This creature appears as a large, undulating mass of black goo from which rotted and broken bones protrude.\n\nUndead Ooze\nCR 6\n\nXP 2,400\nNE Huge undead\nInit -5; Senses blindsight 60 ft.; Perception +1\n\nDEFENSE\n\nAC 3, touch 3, flat-footed 3 (-5 Dex, -2 size)\nhp 27 (6d8)\nFort +2, Ref -3, Will +6\nImmune cold, ooze traits, undead traits\n\nOFFENSE\n\nSpeed 20 ft., climb 20 ft.\nMelee slam +3 (2d4+1 plus 1d6 cold)\nSpace 15 ft.; Reach 10 ft.\nSpecial Attacks cold, engulf (DC 15, 1d6 cold), skeletons\n\nTACTICS\n\nThe undead ooze has an advantage over any other ooze: intelligence. It uses this new gift to its fullest in combat by attacking from surprise or by stalking its prey and attacking when the opportunity presents itself. The undead ooze attacks by slamming its body into its prey. It usually engulfs its foes or expels its skeleton allies to contend with its enemies.\n\nSTATISTICS\n\nStr 12, Dex 1, Con —, Int —, Wis 12, Cha 10\nBase Atk +4; CMB +7; CMD 12 (can’t be tripped)\nSkills Climb +9\n\nSPECIAL ABILITIES\n\nEngulf (Ex)\n\nThe save DC is Strength-based and includes a +1 racial bonus.\n\nSkeletons (Su)\n\nAs a full-round action, an undead ooze can expel 1d6 skeletons from its mass. Skeletons can act in the round they are expelled, and each skeleton conforms to the basic statistics for its size. Slain skeletons are engulfed by the undead ooze and can be reanimated and expelled again in 1d2 hours. An undead ooze’s form holds up to 10 skeletons. These skeletons are included in the determination of the undead ooze’s CR.\n\nECOLOGY\n\nEnvironment underground\nOrganization solitary\nTreasure none\n\nWhen an ooze moves across the grave of a restless and evil soul, a transformation takes place. The malevolent spirit, still tied to the rotting flesh consumed by the ooze, melds with the ooze. The result is a creature filled with hatred of the living and an intelligence and cunningness not normally known among its kind.\n\nUndead Ooze from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Greene, based on original material by Sword & Sorcery Studios.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb1c7318d4852640.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb1c7318d4852640"
+  },
+  "license": "OGL 1.0a"
+}

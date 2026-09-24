@@ -1,0 +1,25 @@
+{
+  "id": "5a6b2d0af1d530cb",
+  "name": "Dimensional Bleed",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (dimensional); Level magus 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nWith an outstretched arm that passes into an alternate dimension and a successful incorporeal ranged touch attack (although you do not become incorporeal), you reach into a target creature and slash one of its arteries.\n\nThis attack ignores the target’s cover bonuses, shield, natural armor, and most armor, but it does not ignore armor bonuses granted by force effects such as mage armor and bracers of armor.\n\nThe attack deals 1d6 hp damage per caster level (maximum 15d6 hp damage). If the target makes a successful save, it takes half damage. Otherwise, the target begins bleeding freely into hyperdimensional space, suffering 1 hp bleed damage per round until mage armor, bracers of armor, or another full-body force effect blocks the hemorrhaging.\n\nA successful DC 24 Knowledge (arcana) check reveals these possible remedies. When 1 hp bleed damage would kill the victim, it receives a final saving throw to prevent further blood loss. This spell has no effect on bloodless creatures.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a6b2d0af1d530cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a6b2d0af1d530cb"
+  },
+  "license": "OGL 1.0a"
+}

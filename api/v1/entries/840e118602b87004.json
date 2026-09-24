@@ -1,0 +1,28 @@
+{
+  "id": "840e118602b87004",
+  "name": "Discordant Note (sonic)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "magus": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [sonic]; Level bard 2, cleric/oracle 2, magus 2\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Fortitude half and partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect word deals 1d4 points of sonic damage per caster level (maximum 5d4) and causes the targets to become staggered for 1 round. A successful Fortitude save halves the damage and negates the staggered condition.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/840e118602b87004.json",
+    "web": "https://codex.pipsprojects.com/#/e/840e118602b87004"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f283cce3c3d37e24",
+  "name": "Thunder Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 3,
+      "elven archer": 2,
+      "ranger": 3
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [sonic]; Level druid/shaman 3, elven archer 2, ranger 3\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S, DF (an arrow or bolt)\n\nEFFECT\n\nRange touch\nTarget one touched arrow or bolt\nArea 30-ft.-radius spread\nDuration instantaneous\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThe next arrow you shoot emits a tremendously loud noise when it hits a solid surface, including a creature. You may choose whether the noise is, for example, a hideous shriek, a thunderclap, an animal or demonic roar, or any other wordless clamor.\n\nAll creatures within 30 ft. must succeed on a Fortitude save or be stunned for 1 round. Creatures with fewer than 6 Hit Dice that are within 10 ft. of the arrow’s impact must make a Fortitude save or be knocked unconscious for 1 round. Deaf creatures are immune to the arrow’s effects. In addition, magical effects that negate noise, such as silence, can cancel this spell’s effect.\n\nYou must shoot the enchanted arrow within 1 round of casting thunder arrow or the spell dissipates.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f283cce3c3d37e24.json",
+    "web": "https://codex.pipsprojects.com/#/e/f283cce3c3d37e24"
+  },
+  "license": "OGL 1.0a"
+}

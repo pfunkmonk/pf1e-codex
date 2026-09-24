@@ -1,0 +1,27 @@
+{
+  "id": "db5d00bd7d2c1742",
+  "name": "Freezing Spray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [cold]; Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of alchemist’s frost worth 10 gp) Range 60 ft.\nEffect 60-ft. line\nDuration instantaneous\nSaving Throw Reflex partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nA spray of frost erupts from your outstretched hand, dealing 1d6 points of cold damage per caster level (maximum 15d6) to each creature within its area (Reflex half). This frost continues to affect the targets for 1 round, dealing 1d6 points of cold damage per two caster levels (maximum 7d6) to any creature that failed its saving throw against the spell (a second Reflex save on the creature’s turn negates this additional damage).\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db5d00bd7d2c1742.json",
+    "web": "https://codex.pipsprojects.com/#/e/db5d00bd7d2c1742"
+  },
+  "license": "OGL 1.0a"
+}

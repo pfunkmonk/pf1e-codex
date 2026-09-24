@@ -1,0 +1,28 @@
+{
+  "id": "80d793797fc3471a",
+  "name": "Hunter’s Intuition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "shaman": 3,
+      "elven archer": 2,
+      "ranger": 3
+    },
+    "desc": [
+      "scrying"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination [scrying]; Level druid/shaman 3, elven archer 2, ranger 3\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S, F (an arrow or bolt, three drops of quicksilver), DF\n\nEFFECT\n\nRange unlimited\nEffect magical vision; see text\nTarget one touched arrow or bolt\nDuration 1 round\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou touch an arrow and gain a brief vision of the creature that last owned or used it, no matter how distant they are.\n\nYou clearly see, but do not hear, the previous owner for one round, even if fog, darkness, or other visual cover shrouds them. You see only the individual, not its surroundings. This spell fails if the targeted creature succeeds on a Will save, is warded against scrying, or is on another plane.\n\nIf the spell succeeds, you also learn one piece of random information about the individual. The added information is common knowledge to the individual’s normal companions—you cannot discover someone’s secrets with this spell. At the GM’s discretion, you might learn the owner’s:\n\nCommonly used name or nickname.\nDestination (if the creature is traveling).\nWho the creature serves, or whether it has a master.\nFavored combat tactic (such as a frequently used feat or special ability).\nCurrent location (unless the creature is magically hidden).\n\nIf your caster level is 10 or higher, you learn a second piece of information; if it is 20 or higher, you learn three. By casting this spell, you become the last person to have used the arrow.\n\nThe next casting of this spell using the same arrow grants a vision of you.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/80d793797fc3471a.json",
+    "web": "https://codex.pipsprojects.com/#/e/80d793797fc3471a"
+  },
+  "license": "OGL 1.0a"
+}

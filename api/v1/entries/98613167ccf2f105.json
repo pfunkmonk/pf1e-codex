@@ -1,0 +1,27 @@
+{
+  "id": "98613167ccf2f105",
+  "name": "Clipped Wings",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "invoker": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level druid 2, invoker 2, ranger 2, shaman 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one creature\nDuration 1 min./level (D)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nYour magic brings a creature to the ground. On a failed saving throw, the target loses its flying speed and begins to fall. It falls safely to the ground, similar to when a fly spell ends. The creature is unable to fly for the duration of this spell’s effects, and takes a penalty to Acrobatics and Fly checks equal to your caster level (max -10). It is still able to leave the ground by non-flying means, such as levitate.\n\nA Fortitude save prevents the creature from losing its fly speed and reduces the Acrobatics and Fly check penalties by half (max -5).\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98613167ccf2f105.json",
+    "web": "https://codex.pipsprojects.com/#/e/98613167ccf2f105"
+  },
+  "license": "OGL 1.0a"
+}

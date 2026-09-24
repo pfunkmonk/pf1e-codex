@@ -1,0 +1,34 @@
+{
+  "id": "e7891a5264bb280c",
+  "name": "Staggering Melancholy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "lathspell": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "despair",
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [despair, emotion, mind-affecting]; Level bard 2, cleric/oracle 2, lathspell 2, mesmerist 2, psychic 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bit of rat fur)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels).\n\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target of the spell is struck with a profound sense of hopelessness. For the duration of the spell, the target is staggered and despairing. Each round at the beginning of their turn, a creature affected by this spell can attempt a new save. This is a move action that does not provoke an attack of opportunity.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7891a5264bb280c.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7891a5264bb280c"
+  },
+  "license": "OGL 1.0a"
+}

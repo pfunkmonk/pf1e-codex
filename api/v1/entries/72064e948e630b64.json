@@ -1,0 +1,26 @@
+{
+  "id": "72064e948e630b64",
+  "name": "Moneylender’s Mark",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation; Level adept 1, cleric 1, inquisitor 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a coin)\n\nEFFECT\n\nRange touch\nTarget one willing creature\nDuration 1 year/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA staple spell of the banker’s trade, the moneylender’s mark signals a delinquent debtor. You place an invisible mark on the recipient of a loan, which gradually turns darker if the debtor does not repay the loan according to mutually agreed terms. The mark continues to grow in size as long as the loan remains due.\n\nThe mark disappears when the terms of the loan have been fulfilled. If another caster attempts to dispel or otherwise tamper with the mark, you receive an immediate mental alert. You may determine the identity of a caster by examining a moneylender’s mark with a DC 10 Knowledge (local) check.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/72064e948e630b64.json",
+    "web": "https://codex.pipsprojects.com/#/e/72064e948e630b64"
+  },
+  "license": "OGL 1.0a"
+}

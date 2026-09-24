@@ -1,0 +1,26 @@
+{
+  "id": "aabd91dcd37db5e3",
+  "name": "Bind Gargoyle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 4,
+      "wizard": 4,
+      "summoner": 3,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level cleric 4, sorcerer/wizard 4, summoner 3, witch 4\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M/DF (a 10-ft.-diameter circle of granite dust)\n\nEFFECT\n\nRange touch\nArea 10-ft.-radius emanation from touched spot\nDuration 24 hours/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nAny gargoyle that enters the affected area is unable to leave it for the spell’s duration . The first time it attempts to do so it may make a single Will save, and its spell resistance is applied to the spell, if any. If it succeeds its save or resists the spell, it can leave without any particular difficulty.\n\nOtherwise, it is trapped within the spell’s area for the spell’s duration. It cannot make attacks or use its abilities across the edge of the spell’s area. It can still leave via teleportation, or similar effects if it has them. If anything disrupts the circle of granite dust that forms the barrier of the spell’s area, the spell immediately ends, though any gargoyles trapped inside the spell’s area are unable to affect the circle (treat it as just outside the spell’s area).\n\nWhile the gargoyle is bound in the circle, the caster can attempt to coerce it into serving as a guardian of the nearby area. This functions identically to the process used to compel a creature to perform a service with the spell lesser planar binding, except that the creature cannot be compelled to perform any service other than guarding a specified building or area (you can still attempt to bargain with the gargoyle, but it is not required to uphold its end of the bargain once released, except for any agreement to guard an area).\n\nThe area to be guarded can be defined however you like, up to a maximum radius of 1 mile per caster level.\n\nThe gargoyle can be instructed to only guard it from certain individuals or certain types of creatures, or to only allow certain individuals or types of creatures to pass unmolested.\n\nIf desired, the gargoyle can be instructed to disable intruders non-lethally.\n\nExotic Encounters Compendium Copyright 2013, Necromancers of the Northwest, LLC; Author: Alex Riggs, Joshua Zaback.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aabd91dcd37db5e3.json",
+    "web": "https://codex.pipsprojects.com/#/e/aabd91dcd37db5e3"
+  },
+  "license": "OGL 1.0a"
+}

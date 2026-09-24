@@ -1,0 +1,25 @@
+{
+  "id": "61f56e131b3e14c3",
+  "name": "Eye of Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "ranger": 2,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 3, ranger 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou cover the target’s eye with a glittering coating of deep blue ice. It still functions as a regular eye (losing the icy cover when the spell ends), but the subject gains the ability to see clearly and without vision penalty through non-magical rain, fog, ice and snow out to a range of 120 feet. While using the eye, you are still subject to normal illumination and your normal visual limitations; this spell just negates normal storms, weather and ice as barriers to vision.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/61f56e131b3e14c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/61f56e131b3e14c3"
+  },
+  "license": "OGL 1.0a"
+}

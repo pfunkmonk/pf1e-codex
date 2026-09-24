@@ -1,0 +1,25 @@
+{
+  "id": "a1270ecc438a2cd9",
+  "name": "Earthen Concealment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "druid": 3,
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level bard 3, druid 3, ranger 2\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, M (small bit of soft clay)/DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect wall, 6 in. thick. 5 ft. wide, 2 ft. high\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell can be cast on any wooden or earthen surface, and causes a section of ground to reshape itself into a low wall that is 6 inches thick, 5 feet wide, and 2 feet high. This is enough to provide cover to a Medium creature, improved cover to a Small creature, or total cover for creatures of size Tiny or smaller. The earthen concealment provides cover only against foes on the opposite side of the wall.\n\nAny attacks against the screen itself automatically hit and can cause it damage. The screen is considered to be a construct with respect to its immunities.\n\nRegardless of the terrain from which it was formed, the screen has hardness equal to one-half the caster’s level and a number of hit points equal to half the caster’s current hit points. If the screen is reduced to zero hit points or is targeted by a spell that reshapes or destroys earth or stone (such as transmute rock to mud or a stone shape), the spell ends immediately. The screen returns to its natural state when it is destroyed or when the spell ends.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a1270ecc438a2cd9.json",
+    "web": "https://codex.pipsprojects.com/#/e/a1270ecc438a2cd9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "686e299af083e1bb",
+  "name": "Reaver Spirit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 2,
+      "bard": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "ranger": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level alchemist 3, antipaladin 2, bard 2, cleric/oracle 2, inquisitor 2, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 10-ft.-radius emanation centered on you\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou inspire your allies to fight with the commitment and savagery of berserkers. Allies in your aura gain a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC, similar to the rage spell. In addition, each ally has a 50% chance to deal double weapon damage. However, if they don’t deal double damage, they deal no damage.\n\nThis spell cannot affect the same ally multiple times per casting, and multiple castings do not stack. During the spell’s duration, it continues to affect allies that move out of range. When the spell expires, the spell effect vanishes for all allies affected, regardless of when they were first affected.\n\nMythic: If you expend one use of mythic power when casting this spell, it also deals weapon damage back to affected allies’ foes. Maintain a sum of base weapon damage that each foe deals to each affected ally. If an ally confirms a critical hit on a foe, the ally deals additional damage equal to the foe’s damage to that ally. This zeroes the sum of weapon damage from that foe to that ally.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/686e299af083e1bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/686e299af083e1bb"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "c0e6e9b283311409",
+  "name": "Dream Sending of Cthulhu",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 6,
+      "bard": 6,
+      "cleric": 6,
+      "inquisitor": 6,
+      "mesmerist": 6,
+      "psychic": 6,
+      "shaman": 6,
+      "wizard": 6,
+      "spiritualist": 6,
+      "witch": 6
+    },
+    "desc": [
+      "chaotic",
+      "evil",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School Illusion (phantasm) [chaotic, evil, mind-affecting]; Level alchemist 6, bard 6, cleric 6, inquisitor 6, mesmerist 6, psychic 6, shaman 6, sorcerer/wizard 6, spiritualist 6, witch 6\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as nightmare except as noted here.\n\nIt allows the presence of Cthulhu to enter the mind of the target creature. The victim suffers 1d10 points of damage and is fatigued even if it succeeds on its saving throw. If the victim fails the saving throw, it becomes shaken for 1 day and must succeed at a second Will saving throw or it gains an insanity that is not debilitating (generally a phobia; see Insanity rules on page 93) and also draws the personal attention of Cthulhu (GM’s discretion as to the effects of this communion).\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0e6e9b283311409.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0e6e9b283311409"
+  },
+  "license": "OGL 1.0a"
+}

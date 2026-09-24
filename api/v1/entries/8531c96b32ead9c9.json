@@ -1,0 +1,28 @@
+{
+  "id": "8531c96b32ead9c9",
+  "name": "Sphere of Madness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "chaos",
+      "mind-affecting"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [chaos, mind-affecting]; Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect 5-ft.-diameter sphere\nDuration 1 round/level\nSaving Throw Reflex negates and Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nA scintillating globe of chaotic energy rolls in whichever direction you point and impacts those it strikes. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals 5d6 points of damage to that creature, though a successful Reflex save negates that damage. If a target is damaged, they also must make a Will save or be confused as per the spell confusion for 1d4 rounds.\n\nMultiple instances of confusion do not stack but the duration is increased. A sphere of madness rolls over barriers less than 4 feet tall.\n\nThe sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest.\n\nThe surface of the sphere has a spongy, yielding consistency and so does not cause damage except by the chaotic psychic energy. It cannot push aside unwilling creatures or batter down large obstacles. A sphere of madness winks out if it exceeds the spell’s range.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8531c96b32ead9c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/8531c96b32ead9c9"
+  },
+  "license": "OGL 1.0a"
+}

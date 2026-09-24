@@ -1,0 +1,26 @@
+{
+  "id": "b4bb6514aed44144",
+  "name": "Bones of Damnation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy; Level cleric 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature\n\nDuration instantaneous\n\nSaving Throw Reflex negates, then Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou raise countless skeletal arms from the grave around your target, attempting to restrain the creature before slaying it with a burst of negative energy. The target first gets a Reflex save to avoid the countless arms that attempt to restrain it. If that save fails, one or more skeletal arms latches onto the target, after which every arm converges upon it and explodes in a burst of negative energy, forcing the target to succeed on a Will save or die. Even if the save is successful, the subject takes 3d6 points of negative energy damage.\n\nIf the subject is undead, it makes no saving throws against this ability. Instead, the creature gains temporary hit points equal to your caster level and gains the advanced simple template for 1 minute per caster level.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b4bb6514aed44144.json",
+    "web": "https://codex.pipsprojects.com/#/e/b4bb6514aed44144"
+  },
+  "license": "OGL 1.0a"
+}

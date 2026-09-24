@@ -1,0 +1,30 @@
+{
+  "id": "07e056f3312c4ac1",
+  "name": "Misguidance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 0,
+      "druid": 0,
+      "inquisitor": 0,
+      "unchained summoner": 0,
+      "witch": 0
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [curse]; Level cleric/oracle 0, druid 0, inquisitor 0, summoner/unchained summoner 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute or until discharged\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell imposes a divine curse of bad decision making on the subject with a touch.\n\nThe creature gets a -1 penalty on a single attack roll, saving throw, or skill check. You must choose to impose the penalty before they make the roll to which it applies.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07e056f3312c4ac1.json",
+    "web": "https://codex.pipsprojects.com/#/e/07e056f3312c4ac1"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "20c054d8561cc158",
+  "name": "Earth Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 4,
+      "paladin": 4
+    },
+    "desc": [
+      "earth",
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "special; see text",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [earth, electricity]; Level cleric/oracle 4, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (your melee weapon)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance special; see text\n\nDESCRIPTION\n\nUpon striking your melee weapon against the ground, a line traces across the earth from the weapon to your target, like a small animal burrowing through the dirt. Once the trace reaches the target, the ground splits open underneath him and a bolt of lightning bursts forth from the earth. The target must make a successful Reflex save or take 1d8 points of damage per caster level (maximum 10d8). Half of the damage is electrical, and the other half is bludgeoning from flying rocks and chunks of earth; spell resistance only applies to the electrical damage. All creatures within 5 feet of the target take 1d8 points of bludgeoning damage from the debris of the blast.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/20c054d8561cc158.json",
+    "web": "https://codex.pipsprojects.com/#/e/20c054d8561cc158"
+  },
+  "license": "OGL 1.0a"
+}

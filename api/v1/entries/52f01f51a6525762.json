@@ -1,0 +1,26 @@
+{
+  "id": "52f01f51a6525762",
+  "name": "Risen Road",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 4,
+      "shaman": 5,
+      "paladin": 4,
+      "ranger": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level antipaladin 4, druid/shaman 5, paladin 4, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/M (a bentwood stick)\n\nEFFECT\n\nRange see text\nArea one 10-ft. square centered on you plus one contiguous 10-ft. square/level (S)\nDuration 1 hr./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou and your entourage can travel across any terrain as if it were an open plain.\n\nYou deform the ground under your feet, harmlessly raising it or lowering it to sea level, and parting all obstacles, including trees, snow, and swampland, to either side of the area of effect. This effect also moves magically created obstacles, such the effects of create pit or black tentacles, but it does not dispel them. Instead, they move to the nearest appropriate, unoccupied spot.\n\nThe area of effect moves with you, allowing you to travel as the crow flies instead of up and over mountains, for example. It alleviates hampered movement normally caused by difficult terrain or obstacles, and it allows all creatures to hustle without taking nonlethal damage (a forced march still requires Constitution checks).\n\nAny creatures that exit the area of effect (or that the area of effect leaves behind) are returned harmlessly to the normal conditions and altitude of the land or sea at their position. Likewise, creatures or objects entering the area of effect are whisked harmlessly to their new sea-level position.\n\nIf cast while you are inside a structure, this spell has no effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/52f01f51a6525762.json",
+    "web": "https://codex.pipsprojects.com/#/e/52f01f51a6525762"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e06af7d8a513a456",
+  "name": "Plague Mouth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 4,
+      "death mage": 4,
+      "druid": 4,
+      "lathspell": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "disease",
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [disease, evil]; Level antipaladin 4, cleric/oracle 4, death mage 4, druid 4, lathspell 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 round/level\nSaving Throw Fort negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou turn into a plague-bearing monster. You gain a 1d6 bite attack that can be used as a primary natural attack or as a secondary with other attacks. On a successful hit with the bite, the target must make a Fortitude save or be inflicted with bubonic plague. Alternatively, if you are currently afflicted, or carrying, a disease, you may instead transmit that disease using this spell’s Fortitude save DC in place of the disease’s DC.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e06af7d8a513a456.json",
+    "web": "https://codex.pipsprojects.com/#/e/e06af7d8a513a456"
+  },
+  "license": "OGL 1.0a"
+}

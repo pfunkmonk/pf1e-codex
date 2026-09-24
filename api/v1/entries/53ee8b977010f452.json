@@ -1,0 +1,28 @@
+{
+  "id": "53ee8b977010f452",
+  "name": "Seismic Jaunt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, water]; Level druid/shaman 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 120 ft.\nArea a line up to 120 feet.\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell operates as the spell frigid flurry except it causes an explosion of rock and earth dealing magical bludgeoning damage and knocking the enemies in the area prone. A successful Reflex save halves the damage and negates the prone condition.\n\nRead Magic: 2nd Path Magic II, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/53ee8b977010f452.json",
+    "web": "https://codex.pipsprojects.com/#/e/53ee8b977010f452"
+  },
+  "license": "OGL 1.0a"
+}

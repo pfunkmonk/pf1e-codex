@@ -1,0 +1,23 @@
+{
+  "id": "9f8fe04cae544a59",
+  "name": "Vortex Warp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 5
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation; Level druid/shaman 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 feet + 10 ft./level)\nArea 60 foot cube\nDuration concentration, up to 1 round/level\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou commune with the spirits of nature and call upon them to aid you against your foes.\n\nYou cause an area you can see within range to become animated, the flora and terrain attacks and thwarts your foes until the spell ends.\n\nGrasses, Undergrowth, Sand, Ice, Snow or Water: Any area within the affected area that is covered by such terrain becomes magical difficult terrain for your enemies.\nTrees or other Large Plants: At the beginning of your turn, any enemy within 10 feet of a tree in the affected area takes 4d6 slashing or bludgeoning damage. A successful saving throw halves this damage.\nRoots, Vines and Kelp: Any area with such plant material in the area acts as though under an entangle spell using this spell’s DCs.\nRocks, Ice or Crystals: As a swift action on your turn, you can cause a loose chunk of such material to launch and strike an enemy within the area of the spell or 10 feet outside of its area. You make a ranged touch attack and on a hit, you deal 3d6 non-magical bludgeoning damage. On a hit, you can make a combat maneuver to trip the target using your spellcasting ability modifier instead of Strength.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9f8fe04cae544a59.json",
+    "web": "https://codex.pipsprojects.com/#/e/9f8fe04cae544a59"
+  },
+  "license": "OGL 1.0a"
+}

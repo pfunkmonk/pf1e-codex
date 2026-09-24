@@ -1,0 +1,36 @@
+{
+  "id": "1dbf580eb8b573be",
+  "name": "Allies and Enemies, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 4,
+      "bloodrager": 4,
+      "cleric": 4,
+      "druid": 4,
+      "inquisitor": 4,
+      "ranger": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "pact"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation [pact]; Level antipaladin 4, bard 4, bloodrager 4, cleric 4, druid 4, inquisitor 4, ranger 4, shaman 4, sorcerer/wizard 4, summoner 4, witch 4\n\nDESCRIPTION\n\nThis spell functions as allies and enemies†, except as noted here.\n\nYou gain a +8 bonus on Charisma checks and Charisma-based skill checks made when dealing with the favored allies of any spirit that you are currently bound to. Additionally, you gain a +8 bonus on opposed Bluff, Perception, Sense Motive, and Survival checks made against the favored enemies of any spirit that you are currently bound to.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1dbf580eb8b573be.json",
+    "web": "https://codex.pipsprojects.com/#/e/1dbf580eb8b573be"
+  },
+  "license": "OGL 1.0a"
+}

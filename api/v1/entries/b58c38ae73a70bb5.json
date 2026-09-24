@@ -1,0 +1,29 @@
+{
+  "id": "b58c38ae73a70bb5",
+  "name": "Triumph Of Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [cold]; Level cleric/oracle 7, druid/shaman 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nArea 5-ft. cube or one creature/level\nDuration varies (see text)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou transform one of the five natural elements (air/fog, water, earth, fire, or lava) into to ice or snow. The effect varies depending on the element targeted, as listed below. All damage is limited to 20 dice.\n\nAir/Fog: Vapors condense into snow. If cast upon a fog cloud, stinking cloud or a similar effect this spell either suppresses that effect for 1 round per caster level or adds freezing fog to its other effects (your choice). Creatures with the air subtype take 1d6 hp damage per caster level and, if airborne, must make a Fly check (DC equal to the spell’s save) or crash.\nWater: Water becomes a sheet of ice up to one inch thick per caster level. Creatures in the targeted area must make a Reflex save to avoid being caught and immobilized. Escape requires a successful Strength or Escape Artist check against the spell’s save DC. Affected creatures with the water subtype take no damage but are paralyzed for 1 round per level if they fail a Fortitude save. If successful, they are slowed for 1 round per caster level if they pass.\nEarth: You transform earth into permafrost, ending the duration of rock to mud or creating an effect similar to mud to rock. Creatures burrowing through the area do so at half their normal speed until the area thaws. If they can burrow through solid rock, their speed is unaffected. Affected creatures with the earth subtype take 1d4 hp damage per caster level because this spell generates stress fractures that riddle their bodies.\nFire: Fire is transformed into shards of ice, which function as caltrops if walked over. The ice melts normally and does not reignite unless it is part of the area of effect of an ongoing spell or similar effect. If that is the case, the flames return after 1 round per caster level. Affected creatures with the fire subtype take 1d8 hp damage per caster level. They also are stunned for 1d3 rounds unless they make a successful Fortitude save.\nLava: Lava is cooled and forms a stone crust up to one inch thick per every 2 caster levels. Exceptionally heavy weights may cause the crust to break (see rules for crossing ice). Affected elemental creatures suffer damage or other negative effects depending on their subtype. Treat a creature with the water subtype as if the lava were water, a creature with the earth subtype as if the lava were earth, and so on. Creatures may be entitled to a Fortitude save for half damage or to limit or negate other effects, as listed above.\nTunneling Swarm\n\nSchool conjuration (summoning); Level druid/shaman 3, ranger 3, witch 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a handful of sawdust or sand)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 5-by-8-foot opening, 5 ft. deep + 1 ft./3 levels\nDuration 2 rounds/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a swarm of burrowing insects (miner bees, carpenter ants, termites, trapdoor spiders, etc.) that cannot be used to attack, but they may be commanded to create a short tunnel through any earth or solid wood substance (not stone or metal) at a rate of 5 ft. per round. The insects will reinforce unstable substances, such as sand, so the resulting tunnel does not collapse onto the caster.\n\nSeveral tunneling swarm spells can then form a continuing passage to breach very thick walls. When tunneling swarm ends, creatures within the passage are ejected out the nearest exit. If someone dispels the tunneling swarm or you dismiss it, creatures in the passage are ejected out the far exit, if there is one, or out the sole exit if there is only one.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b58c38ae73a70bb5.json",
+    "web": "https://codex.pipsprojects.com/#/e/b58c38ae73a70bb5"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "30314a53558ba2e2",
+  "name": "Solar Flare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 5,
+      "elementer": 5,
+      "magus": 5,
+      "psychic": 5,
+      "shaman": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "fire",
+      "light"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [fire, light]; Level druid 5, elementer 5, magus 5, psychic 5, shaman 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 20 ft.\nArea 20-ft.-radius burst, centered on you\nDuration instantaneous, then 1d4 rounds (see text)\nSaving Throw Reflex half; Spell Resistance yes\n\nAn intense flash of blinding light shines forth from you, searing nearby enemies with its intensity. Creatures within the burst take 1d6 fire damage per caster level (max 15d6) and are blinded for 1d4 rounds. A Reflex save halves the fire damage and reduces the blinding effect to only dazzle the creature for 1d4 rounds.\n\nA creature that has a weakness to sunlight takes a -2 penalty on its saving throw against this spell’s effects and is blinded for 1 round on a successful saving throw.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/30314a53558ba2e2.json",
+    "web": "https://codex.pipsprojects.com/#/e/30314a53558ba2e2"
+  },
+  "license": "OGL 1.0a"
+}

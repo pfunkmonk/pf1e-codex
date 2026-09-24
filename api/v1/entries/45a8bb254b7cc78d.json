@@ -1,0 +1,27 @@
+{
+  "id": "45a8bb254b7cc78d",
+  "name": "Summon Star Mote",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 4,
+      "summoner": 4
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "no (see below)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [light]; Level sorcerer/wizard 4, summoner 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a pinch of coal ash)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one summoned star mote\nDuration 1 round/level (D)\nSaving Throw none or Fortitude (see below); Spell Resistance no (see below)\n\nDESCRIPTION\n\nYou summon an animated star mote that has a mystic connection to you. It appears where you designate, and it acts immediately on your turn. Each round it can make a move and a standard action. It has a fly speed of 30 ft. (perfect). You can direct it as a move action. As a standard action, it can either shoot a ray of searing hot light at a creature within 30 ft., or it can unleash a 20-ft. burst of light.\n\nIf you shoot the ray, it uses your ranged touch attack modifier on the attack. On a hit, the ray deals 1d8 hp damage for every two caster levels you possess (maximum 10d8). If this ray hits a creature that is vulnerable to light (per the Universal Monster Rules), it also blinds that creature for 1 round.\n\nIf you use the burst, those within the radius must succeed a Fortitude saving throw or take 1d6 hp damage for every three of your caster levels (maximum 6d6).\n\nCreatures vulnerable to light that fail their saving throw are also blinded for 1 round per caster level. Creatures that successfully save take half damage from the burst and are not blinded, if applicable.\n\nThe star mote can be attacked. It is a Diminutive animated object with an AC of 22 (touch 16, flat-footed 14) and it uses your CMD. It has a hardness of 10, and 5 your caster level hp. It uses your saving throws, but it is immune to mind-affecting effects, bleed, disease, death effects, necromancy effects, paralysis, poison, sleep effects, stunning, and effects that require a Fortitude saving throw (unless the effect also works on objects or is harmless). The star mote is not subject to ability damage, ability drain, fatigue, exhaustion, energy drain, or nonlethal damage.\n\nIt cannot be healed or repaired. When the duration of the spell expires, the spell is dismissed, or the star mote is destroyed, it collapses into a small pile of stardust.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45a8bb254b7cc78d.json",
+    "web": "https://codex.pipsprojects.com/#/e/45a8bb254b7cc78d"
+  },
+  "license": "OGL 1.0a"
+}

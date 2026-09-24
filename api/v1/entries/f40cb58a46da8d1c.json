@@ -1,0 +1,27 @@
+{
+  "id": "f40cb58a46da8d1c",
+  "name": "Wrath of Nature",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "magus": 2,
+      "wizard": 2,
+      "unchained summoner": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (teleportation); Level bard 2, magus 2, sorcerer/wizard 2, summoner/unchained summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou twist reality around a target creature that you can see within range. The target must make a Fortitude saving throw, for which they can choose to fail, or be teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a space or in a liquid that can support the target without causing squeezing or damaging the target.\n\nRead Magic: 5th World Magic III, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f40cb58a46da8d1c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f40cb58a46da8d1c"
+  },
+  "license": "OGL 1.0a"
+}

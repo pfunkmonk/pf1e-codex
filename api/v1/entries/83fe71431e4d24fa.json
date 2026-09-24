@@ -1,0 +1,27 @@
+{
+  "id": "83fe71431e4d24fa",
+  "name": "Enhanced Metabolism, Communal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 2,
+      "cleric": 2,
+      "druid": 2,
+      "ranger": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School transmutation; Level adept 2, cleric 2, druid 2, ranger 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a small bag of animal feed)\n\nEFFECT\n\nRange touch\nTarget animals touched\nDuration 1 day + 1 day/level (D)\nSaving Throw Fort negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as enhanced metabolism, except you divide the duration in 1-day intervals among the creatures touched.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83fe71431e4d24fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/83fe71431e4d24fa"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "387c298fabd39a30",
+  "name": "Elemental Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 4,
+      "magus": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration; Level druid 4, magus 4, shaman 4, sorcerer/wizard 4\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange 60 ft.\n\nArea 60-ft.-radius emanation centered on you\n\nDuration 1 round/level (D)\n\nSaving Throw Will negates; Spell Resistance yes\n\nThis spell forces elementals to leave the area. Any elemental that fails their Will save must leave and not re-enter the emanation.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/387c298fabd39a30.json",
+    "web": "https://codex.pipsprojects.com/#/e/387c298fabd39a30"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "69ecb826a035481e",
+  "name": "Release the Kraken",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spes Magna Games",
+  "book": "Spes Magna Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 9
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Spes Magna Games"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a squid’s beak)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 40-ft.-radius spread\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes a field of powerful barbed tentacles to appear, burrowing up from the floor and reaching for any creature in the area. Every creature within the area of the spell is the target of a combat maneuver check made to grapple each round at the beginning of your turn, including the round that release the kraken is cast. Creatures that enter the area of effect are also automatically attacked. The tentacles do not provoke attacks of opportunity. When determining the tentacles’ CMB, the tentacles use your caster level as their base attack bonus and receive a +6 bonus due to their Strength and a +2 size bonus. Roll only once for the entire spell effect each round and apply the result to all creatures in the area of effect.\n\nIf the tentacles succeed in grappling a foe, that foe takes 1d8+6 points of damage and gains the grappled condition. Grappled opponents cannot move without first breaking the grapple. All other movement is prohibited unless the creature breaks the grapple first. The release the kraken spell receives a +5 bonus on grapple checks made against opponents it is already grappling, but cannot move foes or pin foes. Each round that release the kraken succeeds on a grapple check, it deals an additional 1d8+6 points of damage. The CMD of release the kraken, for the purposes of escaping the grapple, is equal to 10 + its CMB.\n\nThe tentacles created by this spell cannot be damaged, but they can be dispelled as normal. The entire area of effect is considered difficult terrain while the tentacles last.\n\nIn One’s Blood. Copyright 2010, Spes Magna Games; Mark L. Chance.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/69ecb826a035481e.json",
+    "web": "https://codex.pipsprojects.com/#/e/69ecb826a035481e"
+  },
+  "license": "OGL 1.0a"
+}

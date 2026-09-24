@@ -1,0 +1,28 @@
+{
+  "id": "3a5f1b4e3b392523",
+  "name": "Hungry Void",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 3,
+      "oracle": 3,
+      "magus": 3,
+      "occultist": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration; Level bloodrager 3, cleric/oracle 3, magus 3, occultist 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10ft./level)\nArea 20-foot-radius sphere\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes\n\nYou invoke fell words and a small rift in reality opens to the void beyond the stars. The area has its light lowered by 1 level and the area is considered difficult terrain. Any creature entering or beginning their turn in the dark rift takes 1d6 cold damage per 2 caster levels (maximum 5d6). A successful Fortitude save halves this damage. Any creature moving more than 10 feet within the spell area or ending their turn in the area are touched by otherworldly appendages and take 1d6 acid damage per 2 caster levels (maximum 5d6). A successful Reflex save halves this damage. A creature is only damaged by the appendages once per turn even if they move more than 10 feet in the spell area and/or end their turn within.\n\nRead Magic: 5th World Magic II, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a5f1b4e3b392523.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a5f1b4e3b392523"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "c0668250cf78a3b5",
+  "name": "Phantom Draught Horse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "str": 20,
+      "dex": 18,
+      "con": 22,
+      "int": 2,
+      "wis": 17
+    },
+    "desc": [
+      "creation"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School conjuration [creation]; Level: bard 4, magus 4, sorcerer/wizard 4, summoner 4\n\nComponents: V, S\n\nCasting Time: 10 minutes\n\nRange: 0 ft.\n\nEffect: one quasi-real, horse-like creature\n\nDuration: 1 hour/2 levels (D)\n\nSaving Throw: None; Spell Resistance: no\n\nThis spell functions like phantom steed, but conjures a strong, stocky work horse that is not easily hindered and can also be used in battle, though it is not as fast or mobile as a phantom steed, and does not last as long. The mount is war trained and will attack if ordered to do so by its rider. Animals normally shun it, but may still attack it. Only the caster may ride the phantom draught horse, and he gains +2 bonus on Ride checks while doing so.\n\nPhantom Draught Horse\n\nSpd 40; AC 17, touch 13, flat-footed 13 (+4 Dex, –1 size, +4 natural); hp 25 + 3 per caster level (2d8+12), BAB +4*; Atk: 2 hooves +3 (1d6+2), bite +3 (1d4+2); Fort +9, Ref +7, Will +5; Init +4; Senses low-light vision; Str 20, Dex 18, Con 22, Int 2, Wis 17, Cha 11; Base Atk +4; CMB +7; CMD 21 (25 vs. trip); Feats: Endurance, Improved Sunder, Iron Will, Power Attack, Run; Tricks: Combat Training, Heavy Labor, Down, Heel, Stay\n\n*The mount’s base attack bonus increases by +1 for every three caster levels after level six (e.g., +5 at caster level nine, +6 at caster level twelve, etc.).\n\nIf it loses all its hit points, the phantom draught horse disappears. It can bear its rider’s weight plus up to 20 pounds per caster level.\n\nThese mounts gain certain powers according to caster level. A mount’s abilities include those of mounts of lower caster levels.\n\n8th Level: The mount can ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed. The mount gains the Improved Overrun and Improved Bull Rush feats.\n10th Level: The mount gains the Greater Bull Rush and Greater Sunder feats. The mount and its rider gain a +2 bonus on saves vs. entanglement and paralysis effects, hold person and hold monster spells, and a +2 bonus on rolls to escape grapples.\n12th Level: The mount appears wearing chainmail barding (+6 to AC, cannot be removed, and does not reduce the mount’s speed). While mounted on the steed, the caster may also use the Trample feat three times per day.\n14th Level: The mount appears wearing half-plate barding (+8 to AC, cannot be removed, and does not reduce the mount’s speed). As a swift action the mount may use freedom of movement on itself or its rider (but not both) 1/day as a supernatural ability, as a 9th level caster.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0668250cf78a3b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0668250cf78a3b5"
+  },
+  "license": "OGL 1.0a"
+}

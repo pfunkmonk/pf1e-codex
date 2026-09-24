@@ -1,0 +1,23 @@
+{
+  "id": "33336ca6d81fe6f7",
+  "name": "Net Of Comets",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (evocation); Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a meteor fragment)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nEffect 40-ft.-radius spread\nDuration concentration plus 1 round/level\nSaving Throw Reflex negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a net of shining starstuff, thrumming with celestial energies and shot through with a luminescent trail of stars. This net provides enough light to increase illumination in the area by one step.\n\nIn addition, anyone in the spell’s area must make a Reflex save. Success means the creature is burned for 1 hp positive energy damage per caster level but not prevented from moving. Failure means the creature is burned for 3 hp positive energy damage per caster level and must make a Will save in each following round or become fascinated and take another 3 hp positive energy damage per caster level.\n\nIf a Will save succeeds, the creature escapes the shining net of comets, suffers no further damage, and can move normally that round. Undead suffer double damage from a net of comets. If at least 5 ft. of the net are between you and an opponent, it provides concealment. If you have at least 20 ft. of net between you, it provides cover.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/33336ca6d81fe6f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/33336ca6d81fe6f7"
+  },
+  "license": "OGL 1.0a"
+}

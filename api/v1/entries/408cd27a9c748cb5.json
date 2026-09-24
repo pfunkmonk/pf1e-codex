@@ -1,0 +1,30 @@
+{
+  "id": "408cd27a9c748cb5",
+  "name": "Shroud of Fiery Ash",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 1,
+      "bloodrager": 1,
+      "shaman": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [fire]; Level alchemist 1, bloodrager 1, druid/shaman 1, magus 1, sorcerer/wizard 1\nComponents V, S, M (a vial of ash)\n\nThis spell functions as shroud of icy mist except you create a swirling cloud of burning ash around the target and the spell deals fire damage instead of cold damage.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/408cd27a9c748cb5.json",
+    "web": "https://codex.pipsprojects.com/#/e/408cd27a9c748cb5"
+  },
+  "license": "OGL 1.0a"
+}

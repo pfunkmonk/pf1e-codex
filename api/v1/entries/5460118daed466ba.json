@@ -1,0 +1,27 @@
+{
+  "id": "5460118daed466ba",
+  "name": "Earthmaw",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation [earth]; Level druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a pinch of dirt or sand)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect earthen maw that fills a 5-foot cube\nDuration 1 round/level (D)\nSaving Throw none; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou transmute a section of the ground into a gaping maw. The spell affects normal earth, such as sand, clay, or stone, but not wood or metal. The maw tries to bite any creature standing on or stepping into the square where you create it (including you or your allies), attacking by making a CMB grapple check (CMB equal to your caster level plus your caster ability modifier). It automatically grabs and tries to establish a hold. If the maw successfully establishes or maintains a hold, it deals 1d6 points of bludgeoning damage plus your caster ability modifier bonus lethal or nonlethal damage at your option, chosen during casting).\n\nThe maw can grab or hold only one creature at a time, but it makes a new CMB check each round in your turn once it has seized a creature. If it succeeds with a second CMB check against a Medium or smaller creature, the maw swallows it, dealing another Id6 points of bludgeoning damage. There is no air inside the maw, and a swallowed creature also automatically takes 1d6 points of bludgeoning damage each round until the spell ends or it manages to escape (but is still grappled even if it succeeds). The maw can hold one Medium, two Small, four Tiny, eight Diminutive, or sixteen Fine creatures, and can grapple (but not swallow) other creatures even when it is full. Creatures still in the maw when the spell ends are expelled from the earth, taking 1d6 points of damage. The maw itself is impervious to damage, but anything that destroys the 5-foot cube of earth ends the spell and frees any creature held inside.\n\nA stone shape counters and dispels earthmaw, and a transmute rock to mud effect cast on the earthmaw’s square ends the spell but leaves any formerly trapped creatures submerged in the mud.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5460118daed466ba.json",
+    "web": "https://codex.pipsprojects.com/#/e/5460118daed466ba"
+  },
+  "license": "OGL 1.0a"
+}

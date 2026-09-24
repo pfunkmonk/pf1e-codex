@@ -1,0 +1,26 @@
+{
+  "id": "e917da28ced00897",
+  "name": "Fury Guard",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 0,
+      "ranger": 1,
+      "wizard": 1,
+      "trainer": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation; Level druid 0, ranger 1, sorcerer/wizard 1, trainer 0\n\nCASTING\n\nCasting Time 1 immediate action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen an enemy within your reach would perform an action that normally draws attacks of opportunity, you gain a primary bite or slam attack (your choice) appropriate for your size (1d6/x2 for a medium creature) that you can use to make the attack of opportunity. You can use your Intelligence, Wisdom, or Charisma in place of Strength to determine the attack and damage.\n\nWhen you know or have prepared fury guard, you can cast spells that would enhance natural attacks and target your fury guard attack.\n\nMystical: Kingdom of Monsters, © 2015, Northwinter Press; author Kevin Glusing.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e917da28ced00897.json",
+    "web": "https://codex.pipsprojects.com/#/e/e917da28ced00897"
+  },
+  "license": "OGL 1.0a"
+}

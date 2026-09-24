@@ -1,0 +1,30 @@
+{
+  "id": "37ececf7c37696b5",
+  "name": "Hellfire, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [evil]; Level cleric/oracle 3, inquisitor 3, magus 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F/DF (any unholy symbol or heretical tome)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius burst, 10 ft. high\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nHellish fire bursts forth from the ground and fills the area. Each creature in the area takes 1d6 damage per caster level (maximum 10d6). Half the damage is fire, but the other half results directly from unholy power and is therefore not subject to being reduced by fire resistance. This spell must be centered on the ground.\n\nA successful Reflex save halves this damage.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/37ececf7c37696b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/37ececf7c37696b5"
+  },
+  "license": "OGL 1.0a"
+}

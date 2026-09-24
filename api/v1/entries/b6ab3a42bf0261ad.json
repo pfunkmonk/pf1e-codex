@@ -1,0 +1,29 @@
+{
+  "id": "b6ab3a42bf0261ad",
+  "name": "Unholy Beast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "lathspell": 4,
+      "shaman": 4,
+      "witch": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [evil]; Level druid 4, lathspell 4, shaman 4, witch 4\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one animal of up to 1 HD/level\n\nDuration 1 round/level (D)\n\nSaving Throw Fort negates; Spell Resistance yes\n\nYou fill the target creature with vile energy, empowering it and putting it under your control. Its form takes on evil aspects of your choice like black eyes, horns, color changes, seeping blood, etc. The target gains a +2 bonus to Strength, Dexterity, and Constitution, and a +2 bonus to natural armor. Additionally, its natural weapons are considered one size category larger for damage purposes. Finally, the creature is dominated as per the dominate animal spell. Once the spell ends, the animal reverts to its original form and is shaken by the experience for 1d6 rounds.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b6ab3a42bf0261ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/b6ab3a42bf0261ad"
+  },
+  "license": "OGL 1.0a"
+}

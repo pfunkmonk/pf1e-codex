@@ -1,0 +1,28 @@
+{
+  "id": "48df8258521cb402",
+  "name": "Shadow Attack",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 4,
+      "shadowsworn": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [shadow]; Level alchemist 4, shadowsworn 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nAfter casting shadow attack, a dark nimbus surrounds your hands, giving you the ability to damage others by attacking their shadows instead of their bodies. The targets’ shadows only need to be hit with touch attacks, and all blows against a shadow inflict normal damage on the shadow’s owner. Touch spells such as black hand can be transmitted through the target’s shadow, but the target receives all normal saving throws and spell resistance benefits to any such magical attacks.\n\nShadow attack is especially deadly when used in conjunction with other spells, such as resize shadow and shadow shape, which allow the caster to make an opponent’s shadow more accessible to him.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/48df8258521cb402.json",
+    "web": "https://codex.pipsprojects.com/#/e/48df8258521cb402"
+  },
+  "license": "OGL 1.0a"
+}

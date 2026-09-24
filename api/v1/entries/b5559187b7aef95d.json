@@ -1,0 +1,25 @@
+{
+  "id": "b5559187b7aef95d",
+  "name": "House of Cards",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level bard 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (1 card from a deck of cards per card placed)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one 5-ft. wall per 2 caster levels\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou toss a series of cards forming 5-foot-by-5-foot. Barriers that must be placed contiguously. The barriers cannot be placed in an area occupied by a creature. The wall is solid and has an AC of 10, hardness of 10, hit points equal to twice your caster level, and weakness to fire. If a section of wall is destroyed, the card itself is also destroyed. All other cards return to your deck at the end of the spell.\n\nLegendary Classes Cartomancer, © 2025, Legendary Games; Authors Connor Bates and Andrew Stoeckle.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b5559187b7aef95d.json",
+    "web": "https://codex.pipsprojects.com/#/e/b5559187b7aef95d"
+  },
+  "license": "OGL 1.0a"
+}

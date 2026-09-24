@@ -1,0 +1,28 @@
+{
+  "id": "57656610f2b389ee",
+  "name": "Unholy Word",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9,
+      "witch": 9
+    },
+    "desc": [
+      "evil",
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [evil, sonic]; Level sorcerer/wizard 9, witch 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 60 ft.\n\nTarget all creatures in a 60 ft. radius\nDuration instantaneous\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nWhen casting this spell, you let out a terrifying cry that affects all creatures within range. This powerful sonic attack strikes fear into the hearts of those affected and damages their sensitive tissues, causing shortness of breath, bleeding from the eyes and ears, and temporary blindness and deafness. Those within the area of effect take 1d6 hp damage per caster level (maximum 20d6, successful Fortitude save halves).\n\nIn addition, those affected suffer the following ill effects according to how many Hit Dice they possess.\n\nTable 2-18: Unholy Word Effects\nHit Dice\tEffect\nEqual to caster level\tBleeding, fatigued\nUp to caster level -1\tDeafened, bleeding, fatigued\nUp to caster level -5\tBlinded, deafened, bleeding, fatigued\nUp to caster level -10\tPanicked, blinded, deafened, bleeding, fatigued\n\nBleeding: The creature takes 2d6 hp bleed damage. Save reduces bleed damage to 1d6 hp.\n\nFatigued: The creature becomes fatigued. Save negates.\n\nDeafened: The creature is deafened for 2d4 rounds. Save reduces the deafened effect to 1d4 rounds.\n\nBlinded: The creature is blinded for 2d4 rounds. Save reduces the blinded effect to 1d4 rounds.\n\nPanicked: The creature is panicked for 2d6 rounds. Save means the creature is shaken for 1d6 rounds.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57656610f2b389ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/57656610f2b389ee"
+  },
+  "license": "OGL 1.0a"
+}

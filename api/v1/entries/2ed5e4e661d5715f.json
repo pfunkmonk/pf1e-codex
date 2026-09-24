@@ -1,0 +1,24 @@
+{
+  "id": "2ed5e4e661d5715f",
+  "name": "Dancing Daggers",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 7,
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (summoning); Level cleric/oracle 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dagger)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one or more creatures\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell conjures a dancing cloud of tiny dagger-like objects, one for each of the caster’s levels (20 maximum). The caster immediately assigns the daggers to any opponents within range, dividing them up as she pleases.\n\nThe daggers immediately attack during the round summoned and continue to attack on the caster’s action for the duration of the spell. Each group of daggers attacks using the caster’s base attack bonus, with no Strength modifier (the daggers are considered to be wielded with Str 10) and a +4 size modifier to its attack roll. Upon a hit, each dagger inflicts 1d4 points of damage. The daggers are not considered to be magical weapons.\n\nOnce assigned to an opponent, the dancing daggers do not stop attacking that opponent, even if he is slain. Daggers move 30 feet per round to pursue their assigned prey. Any daggers assigned to opponents who move beyond range from the caster float at the edge of the spell’s range like dogs at the end of their leashes. As a standard action, the caster may reassign any and all daggers to new opponents.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ed5e4e661d5715f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ed5e4e661d5715f"
+  },
+  "license": "OGL 1.0a"
+}

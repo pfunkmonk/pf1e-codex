@@ -1,0 +1,25 @@
+{
+  "id": "6e7d7a4acaaea399",
+  "name": "Disrupt Undead, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "inquisitor": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level inquisitor 3, magus 3, sorcerer/wizard 3\n\nDESCRIPTION\n\nThis spells acts as disrupt undead except that the ray deals 1d8 damage per caster level, to a maximum of 10d8. If the ray is enough to destroy the first target it may be redirected to a second target within 15 ft. of the original target. You must succeed at a ranged touch against the second target to affect it. If the second ray hits, the second target takes the excess damage that went over the remaining hp of the first target.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e7d7a4acaaea399.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e7d7a4acaaea399"
+  },
+  "license": "OGL 1.0a"
+}

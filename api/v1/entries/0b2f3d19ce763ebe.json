@@ -1,0 +1,23 @@
+{
+  "id": "0b2f3d19ce763ebe",
+  "name": "Blood Tide",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 0
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget 1 living creature\nDuration 1d4 rounds\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, the targeted creature begins bleeding from its nose, eyes, ears, and mouth.\n\nThis bleeding causes no damage but imposes a –2 penalty on all Intelligence-, Charisma-, and Wisdom-based checks while in effect.\n\nA bleeding creature might also inadvertently attract the attention of creatures such as stirges, sharks, or giant mosquitoes, depending on the circumstances.\n\nA cure light wounds or DC 10 Heal check can stop the bleeding created by this spell.\n\nBlood Tide, Greater\n\nSchool necromancy; Level sorcerer/wizard 2\nComponents V, S\nDuration 1 round/level\n\nThis spell functions similar to blood tide but lasts longer and has a more dramatic effect. a creature that fails its save against greater blood tide suffers a –4 penalty to all Intelligence-, Wisdom-, and Charisma-based checks. It also takes 3 bleed. a creature already suffering from blood tide takes a –2 penalty to its save against this spell.\n\nDESCRIPTION\n\nA cure moderate wounds or DC 20 Heal check can stop the bleeding created by this spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b2f3d19ce763ebe.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b2f3d19ce763ebe"
+  },
+  "license": "OGL 1.0a"
+}

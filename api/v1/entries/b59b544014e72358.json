@@ -1,0 +1,24 @@
+{
+  "id": "b59b544014e72358",
+  "name": "Construct Body",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a small brass gear worth 50 gp)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou take the form of a clockwork construct of your same size and approximate shape. You gain the construct type. You also gain a +2 bonus on Strength and a +4 natural armor bonus. Your unarmed strike damage increases by one die type (1d4 becomes 1d6, 1d6 becomes 1d8, and so on).\n\nMythic\n\nYour construct body gains one of the following augmentations. You can spend additional uses of mythic power to gain additional augmentations, but you cannot spend more mythic power uses than a number equal to half your mythic tier.\n\nAcid Breath (Su): You gain a 30-ft. cone breath weapon. Using it is a standard action, but you may use it only a number of times equal to half your mythic tier. The cone deals 4d6 hp acid damage to each creature in the cone. a Reflex save (DC 15 + your Intelligence modifier) halves the damage.\n\nEnhanced Senses (Su): Your darkvision extends to 120 ft., you gain blindsense 30 ft., and you gain a +4 bonus on saving throws to disbelieve illusions.\n\nIncreased Strength (Ex): The bonus to Strength increases by half your tier (minimum 1).\n\nIncreased Durability (Ex): Your natural armor bonus increases by a number equal to your mythic tier.\n\nPowerful Smash (Ex): Your unarmed strikes increase by another die type and are considered to be adamantine.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b59b544014e72358.json",
+    "web": "https://codex.pipsprojects.com/#/e/b59b544014e72358"
+  },
+  "license": "OGL 1.0a"
+}

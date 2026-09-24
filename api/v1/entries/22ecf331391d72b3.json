@@ -1,0 +1,25 @@
+{
+  "id": "22ecf331391d72b3",
+  "name": "Gecko’s Grip",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level druid/shaman 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (gecko’s claw or talon)\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration 15 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject of this spell can climb and travel on vertical surfaces or traverse ceilings as easily as a gecko does.\n\nThe affected creature must have at least one hand free to climb in this manner. The subject gains a climb speed equal to its base speed and a +8 competence bonus to Climb checks; the target of the spell does not need to make Climb checks to cross a vertical or horizontal surface, including upside down. The subject retains its Dexterity bonus to AC (if any) while climbing, and opponents get no special bonus to their attacks against it. The subject of the spell can use the run action while climbing as a full-round action.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/22ecf331391d72b3.json",
+    "web": "https://codex.pipsprojects.com/#/e/22ecf331391d72b3"
+  },
+  "license": "OGL 1.0a"
+}

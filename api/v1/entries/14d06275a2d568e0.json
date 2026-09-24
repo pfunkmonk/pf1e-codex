@@ -1,0 +1,23 @@
+{
+  "id": "14d06275a2d568e0",
+  "name": "Disable",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 9
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nDisable removes all but 1d4 hit points from the target creature and permanently reduces all of its ability scores to 3. This damage cannot be healed by normal means; only a combination of heal and greater restoration, or more powerful magic, can restore the target’s hit points and abilities.\n\nIf the target is undead, the spell heals all but 1d4 hit points of damage to the target, similar to a harm spell, and restores any ability damage the target has suffered.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14d06275a2d568e0.json",
+    "web": "https://codex.pipsprojects.com/#/e/14d06275a2d568e0"
+  },
+  "license": "OGL 1.0a"
+}

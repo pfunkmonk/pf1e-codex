@@ -1,0 +1,27 @@
+{
+  "id": "587e45480e2bb968",
+  "name": "Deafening Thunder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a thunderstone)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 40-ft.-radius burst\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an explosion of deafening sound in the area. Each creature in the area takes 1d8 sonic damage per two caster levels (maximum 10d8) and are permanently deafened. A successful Fortitude save halves the damage and reduces the deafness to 1 round.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/587e45480e2bb968.json",
+    "web": "https://codex.pipsprojects.com/#/e/587e45480e2bb968"
+  },
+  "license": "OGL 1.0a"
+}

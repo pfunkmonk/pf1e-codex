@@ -1,0 +1,26 @@
+{
+  "id": "45605db15d6d7a06",
+  "name": "Drink Deep From Mimir’s Well",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 0,
+      "shaman": 0,
+      "magus": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level cleric/oracle 0, druid/shaman 0, magus 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nDuration instantaneous\nSaving Throw Will (negates); Spell Resistance yes\n\nDESCRIPTION\n\nYou call on the wisdom of the runes and sky to provide you with guidance. Sometimes, a white feather of insight falls into your hands; more often, the world remains mysterious.\n\nRoll 1d20 and add your Wisdom bonus to the roll (ravenfolk gain a +1 racial bonus to this roll). On a result of 20 or better, the GM provides you with some obscure but useful piece of advice that will apply to your character in the next 24 hrs. On a roll of less than 20, the GM provides some other bit of wisdom that is largely useless to adventuring (Be kind to animals or The GM would like a beverage).\n\nOn an unmodified roll of 1, the caster must make a Will saving throw. If it fails, you lose 1 prepared spell or spell slot for 24 hrs. This is a spell of the highest-level slot you know.\n\nUnlike most cantrips, a caster may only cast drink deep from Mimir’s well once per day.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45605db15d6d7a06.json",
+    "web": "https://codex.pipsprojects.com/#/e/45605db15d6d7a06"
+  },
+  "license": "OGL 1.0a"
+}

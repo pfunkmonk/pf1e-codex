@@ -1,0 +1,28 @@
+{
+  "id": "cc5f84f81c064f22",
+  "name": "Prescience",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 3,
+      "medium": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level cleric/oracle 3, medium 3, occultist 3, psychic 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration concentration + 1 round\nSaving Throw Reflex partial (see text); Spell Resistance no\n\nDESCRIPTION\n\nYou push your mind through the possible realities of the near future, determining what course of action the target is likely to take.\n\nWhen the target takes an action during the duration, you may use an attack of opportunity to cause one of the effects below.\n\nThese effects are resolved after the target declares the action but before the action is resolved. The target may attempt a Reflex save to negate the spells effect for the round. If the spell’s effect successfully interrupts the target’s action, the action is still expended unless otherwise noted. Once a target has been successfully affected by this spell 3 times, the spell ends. You may only use each effect once per casting.\n\nTrip the target. A target is tripped after it declares its intent to cast a spell, use a spell-like ability or use a spell-completion item. The target loses the action but does not lose the spell slot, item or spell-like ability use for the day.\nHinder the target’s ranged weapon by shifting their aim. The target either takes -4 penalty on its next ranged attack roll or a -2 penalty to all ranged attack rolls made during a full attack action.\nWrench the target’s melee weapon, possibly causing it to miss its mark. The target takes a -4 penalty on its next melee attack roll or a -2 penalty to all melee attack rolls made during a full attack action.\nCause a magic (or technological) item to temporarily lose its magic charge, wasting the target’s declared action to activate the item.\nJam a weapon or weapon-like object (like a wand) in place as the target attempts to draw or sheath it, thwarting the attempt.\nCause the target to fumble with ammunition wasting its action to reload.\nUnleash edying waves of reality to prevent a creature from standing up from prone\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cc5f84f81c064f22.json",
+    "web": "https://codex.pipsprojects.com/#/e/cc5f84f81c064f22"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "249c753ca3a8aed9",
+  "name": "Animated Artillery",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 5,
+      "ranger": 4,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level cleric 5, ranger 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a braided rope)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one siege weapon\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis specialized version of animate objects targets a single siege weapon, allowing it to spring to life and perform attacks as if crewed by a number of invisible phantom artillerists equal to one-half your caster level.\n\nIf you are trained in Profession (siege engineer), you can create one additional phantom artillerist for every 2 ranks you have in that skill. The phantom artillerists are invisible and cannot attack or be attacked; their only function is to operate the siege weapon. Those unable to perceive invisible things see the siege weapon operating on its own. They load, aim, and shoot the siege engine just as a normal crew would, using your caster level as either the base attack bonus or ranks in Profession (siege engineer) to determine whether attacks with the siege weapon hit. You can command the animated artillery as a free action as long as you are within range, redirecting its attacks as you choose. If you are out of range, the animated artillery continues following your last command.\n\nIf actual living artillerists are present, you can command the animated artillery to simply allow itself to be operated by those people (during which time the spell has no effect), or you can command the animated artillery to work against them. In this case, living artillerists and phantom artillerists cancel each other out for the purpose of operating the siege weapon. Whoever has a larger number of artillerists has control of it and can load, aim, and shoot the siege engine, but only the number of artillerists that exceed those of the opponent count towards those required to operate it.\n\nUltimate Strongholds © 2018, Legendary Games; Authors Ben Walklate and Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/249c753ca3a8aed9.json",
+    "web": "https://codex.pipsprojects.com/#/e/249c753ca3a8aed9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "05e2126f3ae89876",
+  "name": "Wave of Oblivion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "mesmerist": 6,
+      "occultist": 6,
+      "psychic": 6,
+      "wizard": 6,
+      "spiritualist": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 6, mesmerist 6, occultist 6, psychic 6, sorcerer/wizard 6, spiritualist 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1d4 days\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target loses all episodic memories for 1d4 days.\n\nIt retains its skills and abilities, but not its own relationship to any creature or thing in the world.\n\nFriends, family, enemies, and associates seem to be utter strangers, and the target recalls only things it would have considered public knowledge about them (GM’s discretion).\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/05e2126f3ae89876.json",
+    "web": "https://codex.pipsprojects.com/#/e/05e2126f3ae89876"
+  },
+  "license": "OGL 1.0a"
+}

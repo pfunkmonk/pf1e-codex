@@ -1,0 +1,29 @@
+{
+  "id": "06bf9f4cfe47aa3a",
+  "name": "Detect Weaponry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 1,
+      "bard": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level alchemist 1, bard 1, cleric/oracle 1, inquisitor 1, paladin 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\n\nArea cone-shaped emanation\nSaving Throw none; Spell Resistance no\n\nYou can detect the presence or absence of manufactured weapons within the area of effect.\n\nThe spell detects improvised weapons only if the wielder is actively intending to use them as weapons. The amount of information revealed by this spell depends on how long you concentrate on the spell within an area.\n\n1st Round: Presence or absence of weapons\n2nd Round: The number of weapons in the area\n3rd Round: Specific locations of the weapons and the type of physical damage they deal.\n\nThis spell does not reveal the exact kind of weapon, nor if the weapon is magical in any way. Weapons affected by spells or effects that hide their presence such as nondetection are not detected by this spell.\n\nEach round, you can detect within a new area as the spell. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\n\nBreath of Life: The Archivist, Copyright 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/06bf9f4cfe47aa3a.json",
+    "web": "https://codex.pipsprojects.com/#/e/06bf9f4cfe47aa3a"
+  },
+  "license": "OGL 1.0a"
+}

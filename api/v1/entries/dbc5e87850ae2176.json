@@ -1,0 +1,27 @@
+{
+  "id": "dbc5e87850ae2176",
+  "name": "Riptide",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [force]; Level druid/shaman 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (pint of seawater)\n\nEFFECT\n\nRange 15 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a wave of blue-green force that sweeps all in the affected area from their feet. All creatures in the area of effect are subject to a trip attempt.\n\nIf the DC of the spell exceeds the target’s CMD, the target is knocked prone. If the target has more than two legs, increase the creature’s CMD by +2 for each additional leg it has. Creatures that cannot be tripped, such as oozes, creatures without legs, and flying creatures, are not affected by this spell. Subjects affected by this spell do not gain an attack of opportunity to trip you if they succeed in retaining their footing, although the spellcasting itself may provoke an attack of opportunity normally.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dbc5e87850ae2176.json",
+    "web": "https://codex.pipsprojects.com/#/e/dbc5e87850ae2176"
+  },
+  "license": "OGL 1.0a"
+}

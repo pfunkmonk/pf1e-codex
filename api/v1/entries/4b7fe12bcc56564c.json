@@ -1,0 +1,30 @@
+{
+  "id": "4b7fe12bcc56564c",
+  "name": "Loki’s Gift",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "witch": 1
+    },
+    "desc": [
+      "language-dependent",
+      "mind-affecting",
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind-affecting, evil]; Level bard 1, cleric/oracle 1, witch 1\nComponents V\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nLoki’s gift makes even the most bare-faced lie seem strangely plausible. After casting this spell, you gain a +5 profane bonus to Bluff for the lie you are telling, which is the verbal component of the spell.\n\nFor the next 24 hrs., you also may coax a single target whose reaction toward you is friendly or better to reveal one potentially embarrassing secret about him or herself or someone else. The secret may involve personal wrongdoing (adultery, cheating at gambling, a secret fear, etc.) but not something life-threatening or dishonorable enough to put the creature in mortal danger. A successful Will save negates this effect and immediately turns the target’s reaction hostile.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b7fe12bcc56564c.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b7fe12bcc56564c"
+  },
+  "license": "OGL 1.0a"
+}

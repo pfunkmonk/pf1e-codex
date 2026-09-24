@@ -1,0 +1,27 @@
+{
+  "id": "37058f10e0cc717e",
+  "name": "Mantle Of Disorder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "paladin": 3
+    },
+    "desc": [
+      "lawful"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [lawful]; Level antipaladin 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange self\nArea 30-foot-radius centered on you\nDuration 1 round/level\n\nYou radiate an aura of power out to a radius of 30 feet, granting your allies additional power to combat chaos.\n\nWhile in the aura’s radius, whenever an ally (including yourself) misses on an attack roll against a chaotic-aligned enemy within the range of the aura, the next attack roll they make against that enemy gains a +2 sacred (or profane, if the ally is evil). While this spell lasts, against any given enemy, this bonus is cumulative with itself if the ally consecutively misses hitting that enemy. Once the ally has succeeded in hitting an enemy, the bonus from this spell is reset to 0 against that enemy.\n\nIf the enemy is a chaotic-aligned fey or outsider or if they have the chaos subtype, the bonus provided by mantle of order is increased to +4 instead.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/37058f10e0cc717e.json",
+    "web": "https://codex.pipsprojects.com/#/e/37058f10e0cc717e"
+  },
+  "license": "OGL 1.0a"
+}

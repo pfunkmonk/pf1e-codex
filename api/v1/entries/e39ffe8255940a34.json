@@ -1,0 +1,28 @@
+{
+  "id": "e39ffe8255940a34",
+  "name": "Piercing Sound",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [sonic]; Level bard 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Fort negates; Spell Resistance yes\n\nEach round, you can target a single living creature, striking it with a piercing sound. Depending on the target’s HD, this attack has as many as three effects.\n\nThe effects are cumulative and concurrent.\n\nDeafened: The sound washes over the target. A creature affected by this spell remains deafened for 10 minutes per caster level. The effects cannot be negated by a remove blindness/deafness or heal spell, but a remove curse is effective.\nNauseated: The subject becomes nauseated for 1d4 rounds. Even after the nausea ends, the creature remains sickened for 10 minutes per caster level, and it automatically becomes nauseated again if it comes within earshot of you during that time.\nDazed: The subject is dazed by the sound for 10 minutes per caster level.\n\nYou must spend a swift action each round after the first to target a foe.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e39ffe8255940a34.json",
+    "web": "https://codex.pipsprojects.com/#/e/e39ffe8255940a34"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "a3349114f15fc3ae",
+  "name": "Aggregate Gladiator",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Like a Boss",
+  "book": "Like a Boss",
+  "facets": {
+    "bk": "Like a Boss"
+  },
+  "body": "Aggregate Gladiator Robot\nCR 18\n\nXP 153,600\nCE Medium construct (robot)\nInit +8; Senses all-around vision (areas with cameras), blindsight 60 ft., darkvision 60 ft., low-light vision, superior optics; Perception +16\n\nDEFENSE\n\nAC 33, touch 15, flat-footed 28 (+5 Dex, +18 natural)\nhp 161 (22d10+40)\nFort +14, Ref +17, Will +14\nDefensive Abilities adaptive defense programming, hardness 15; Immune construct traits; Resist electricity 30, fire 30\nWeaknesses overclocked targeting, vulnerable to critical hits, vulnerable to electricity\n\nOFFENSE\n\nSpeed 60 ft.\nMelee adamantine chainsaw +29 (4d12+7/18–20), adamantine buzz saw +29 (2d12+7)\nRanged hypersonic rifle (range 150 ft.) +27 (2d12/×3 plus stunned 1 round, DC 30 Fort negates)\nSpecial Attacks boosted charge 2/day (full attack at end of charge), combined arms (full attack with all melee and ranged attacks)\n\nSTATISTICS\n\nStr 25, Dex 20, Con —, Int 18, Wis 14, Cha 18\nBase Atk +22; CMB +29; CMD 44\nFeats Cleave, Combat Reflexes, Deep Focus, Following Step, Lunge, Point-Blank Shot, Power Attack, Precise Shot, Psionic Meditation, Psionic Shot, Speed of Thought, Step Up, Step Up and Strike, Vital Strike, Wild Talent\nSkills Acrobatics +27 (+39 when jumping), Autohypnosis +16, Bluff +18, Disguise +18, Intimidate +26, Perform (oratory) +26, Sense Motive +24, Spellcraft +21\nLanguages Abyssal, Aklo, Binary, Common, Draconic\nSQ flexible programming, integrated weaponry, work the crowd\n\nSPECIAL ABILITIES\n\nAdaptive Defensive Programming (Ex)\n\nThree times per day as an immediate action, a gladiator robot can change one of its resistances to any other energy type for 1 minute.\n\nFlexible Programming (Ex)\n\nTen times per day as an immediate action, a gladiator robot can gain the benefit of any feat for which it qualifies but does not have. Each feat remains in effect for 1 minute. In addition, it counts its racial Hit Dice as fighter levels for the purpose of qualifying for feats. If it has levels in fighter, these Hit Dice stack with these levels.\n\nIntegrated Weaponry (Ex)\n\nA gladiator robot’s weapons cannot be disarmed, removed, or sundered.\n\nOverclocked Targeting (Ex)\n\nWhen the gladiator suffers a critical hit, it attempts a Fortitude save (DC 20), instead of being staggered or stunned like other robots. On a success, it attacks a randomly determined target within 60 feet on its next turn. On a failed save, it attacks random targets for 1d4+1 rounds.\n\nSuperior Optics (Ex)\n\nGladiator robots see invisible creatures or objects as if they were visible.\n\nWork the Crowd (Ex)\n\nAs a swift action after reducing a foe to 0 hit points or otherwise incapacitating it while a crowd watches, a gladiator robot can attempt a DC 20 Perform (gladiator) check. If it succeeds, the gladiator robot recovers 4d10 hit points, up to its maximum hit points.\n\nLike a Boss © 2023, Samurai Sheepdog. Authors: Kevin Glusing, Matt Daley, Mike Myler, Charles W. Plemons III",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3349114f15fc3ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3349114f15fc3ae"
+  },
+  "license": "OGL 1.0a"
+}

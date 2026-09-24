@@ -1,0 +1,28 @@
+{
+  "id": "267415907a126014",
+  "name": "Shocking Grasp, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [electricity]; Level bloodrager 3, magus 3, sorcerer/wizard 3\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as shocking grasp except it deals 1d6 points of electricity damage per caster level (maximum 10d6). The target must also make a Fortitude save or be stunned for 1d4 rounds.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/267415907a126014.json",
+    "web": "https://codex.pipsprojects.com/#/e/267415907a126014"
+  },
+  "license": "OGL 1.0a"
+}

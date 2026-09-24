@@ -1,0 +1,27 @@
+{
+  "id": "78a687a24d07fcaf",
+  "name": "Fire Bolt, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level magus 1, sorcerer/wizard 1\n\nThis spell functions like fire bolt except the bolt deals 1d6 damage plus 1d6 per 2 levels (max 5d6). The bolt will ignite flammable substances it hits.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78a687a24d07fcaf.json",
+    "web": "https://codex.pipsprojects.com/#/e/78a687a24d07fcaf"
+  },
+  "license": "OGL 1.0a"
+}

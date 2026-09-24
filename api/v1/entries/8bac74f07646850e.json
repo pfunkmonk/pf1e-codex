@@ -1,0 +1,28 @@
+{
+  "id": "8bac74f07646850e",
+  "name": "Death’s Imposition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "death",
+      "mind-affecting — see text"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [death, mind-affecting — see text]; Level bard 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe spell’s target falls to the ground unconscious unless she succeeds on a Will save. This portion of declaration of death is mind-affecting magic but is not death magic.\n\nEach round thereafter, until the spell ends, the victim is allowed an additional Will save with a cumulative +1 to the saving throw’s DC to realize that she is still alive. Any successful saving throw immediately breaks the spell. Anyone who spends a full-round action to awaken the victim lends her a +4 bonus to her next Will save. The victim gets a similar bonus if she is attacked or injured.\n\nIf the victim is still under the spell’s influence by round 10, then she must begin making Fortitude saves each turn as well, this time against DC 12 and escalating by +1 DC each round thereafter. If one of these saves fails, the victim is so convinced she has died that her body shuts down and she actually expires. This portion of declaration of death is considered death magic.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8bac74f07646850e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8bac74f07646850e"
+  },
+  "license": "OGL 1.0a"
+}

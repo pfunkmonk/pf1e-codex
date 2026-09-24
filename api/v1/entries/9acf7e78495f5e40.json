@@ -1,0 +1,34 @@
+{
+  "id": "9acf7e78495f5e40",
+  "name": "Steadfast Companion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 3,
+      "paladin": 2,
+      "ranger": 2,
+      "shaman": 3,
+      "wizard": 3,
+      "summoner": 2,
+      "vanguard": 2,
+      "witch": 3
+    },
+    "desc": [
+      "emotion",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School enchantment [emotion, mind-affecting]; Level druid 3, paladin 2, ranger 2, shaman 3, sorcerer/ wizard 3, summoner 2, vanguard 2, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget your companion\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nSteadfast companion is used by those that bond with another creature to strengthen their connection, making their companion devoted in the face of hardship.\n\nSteadfast companion can only be cast on your companion creature, such as an animal companion, construct companion, eidolon, familiar, or a paladin’s mount. Your companion gains a +4 resistance bonus on saves against mind-affecting effects and gains immunity to fear effects. In addition, upon casting steadfast companion your companion immediately receives a second saving throw to negate any harmful mind-affecting effect it is currently subject to (with the +4 resistance bonus granted by the spell), using the same DC as the original effect. If successful, the effect ends (or is reduced, in the case of spells with a partial effect on a save) as if your companion had succeeded its initial saving throw against the spell.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9acf7e78495f5e40.json",
+    "web": "https://codex.pipsprojects.com/#/e/9acf7e78495f5e40"
+  },
+  "license": "OGL 1.0a"
+}

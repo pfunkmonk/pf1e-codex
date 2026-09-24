@@ -1,0 +1,27 @@
+{
+  "id": "6a845563482e024d",
+  "name": "Splinter Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [fire]; Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nArea burst (10-ft. radius)\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a swarm of whirling iridescent, multicolored ioun stones in a 5-ft. square. The stones immediately explode, dealing 1d6 hp damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half is bludgeoning damage and cannot be reduced by resistance to fire (but it can be reduced by damage reduction). In regards to damage reduction, at 9th level the stones count as cold iron; at 12th level, they count as cold iron and adamantine. (Although at 12th level the stones count as adamantine for the purpose of damage reduction, they do not ignore hardness).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6a845563482e024d.json",
+    "web": "https://codex.pipsprojects.com/#/e/6a845563482e024d"
+  },
+  "license": "OGL 1.0a"
+}

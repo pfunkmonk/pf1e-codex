@@ -1,0 +1,30 @@
+{
+  "id": "e60b8f7d8c4aad3d",
+  "name": "Blade Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 4,
+      "occultist": 4,
+      "shaper": 4,
+      "magus": 4,
+      "vanguard": 4
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no, see text",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [metal]; Level bloodrager 4, occultist 4, shaper 4, magus 4, vanguard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a melee weapon)\n\nEFFECT\n\nRange 20 ft.\nArea 20-ft.-radius burst, centered on you\nDuration instantaneous\nSaving Throw Reflex half (object), see text; Spell Resistance no, see text\n\nDESCRIPTION\n\nDozens of copies of your held weapon appear around your space for a brief moment before flying outwards, running through any nearby targets. Each creature and unattended object within the burst takes 1d6 damage per caster level (max 10d6). A creature struck is rendered flat-footed until the end of your next turn as they are overwhelmed by the flurry of attacks. A successful Reflex save halves the damage and negates the flat-footed effect. After the spell resolves, all created weapons vanish without a trace.\n\nThe damage dealt by blade burst is based on the weapon you use as a focus: if the weapon is magical, then blade burst’s damage is also considered magic. If the focus weapon is made with a special material, then this spell’s damage also counts as being that type for the purpose of overcoming damage reduction. If that weapon has any special properties that apply on a hit (such as dealing fire damage with a flaming sword) those effects also apply to any creature that fails their Reflex save. Only constant effects that can apply on a regular hit with the weapon apply. Effects that occur only on critical hits or require additional resources (such as a spell contained in a spell storing weapon) are not applied by blade burst, subject to GM discretion. Despite the spell’s name, any manufactured weapon can be used with blade burst, not just bladed ones.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e60b8f7d8c4aad3d.json",
+    "web": "https://codex.pipsprojects.com/#/e/e60b8f7d8c4aad3d"
+  },
+  "license": "OGL 1.0a"
+}

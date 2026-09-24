@@ -1,0 +1,28 @@
+{
+  "id": "27cdba6059f2ed44",
+  "name": "Bones of the Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "shaman": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [earth]; Level alchemist 5, druid/shaman 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a tiny mithral spade worth at least 100 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nDuration 1 round/level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spells digs a pit through earth, clay, or stony ground, but it cannot dig through walls, worked stone, metal, or other harder materials. The pit is 20 ft. long and wide. It is 10 ft. deep plus 5 ft. per 2 caster levels.\n\nAll creatures adjacent to the pit edge (or within one of the squares made suddenly into a pit) are entitled to a Reflex save to avoid falling and thus taking damage. The Climb DC is 15.\n\nYou can dismiss the spell, but doing so collapses the pit. Creatures caught within a collapsed pit take 1d6 hp bludgeoning damage per minute for every 20 ft. of depth. There is no save to avoid this damage. Affected creatures are immobile and begin to suffocate until they make one successful DC 20 Strength check or DC 25 Escape Artist check for every 10 ft. they must climb.\n\nAt the end of the spell duration, you may choose to slowly restore the earth rather than collapsing the pit.\n\nThis slow closing is not possible if the pit is closed by external forces, such as a dispel magic spell, which instantly collapse the pit.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/27cdba6059f2ed44.json",
+    "web": "https://codex.pipsprojects.com/#/e/27cdba6059f2ed44"
+  },
+  "license": "OGL 1.0a"
+}

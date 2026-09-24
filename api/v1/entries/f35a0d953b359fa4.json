@@ -1,0 +1,24 @@
+{
+  "id": "f35a0d953b359fa4",
+  "name": "Mucus Spray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1,
+      "witch": 2
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 1, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of phlegm)\n\nEFFECT\n\nRange 15 ft.\nArea cone-shaped burst\nDuration instant (daze 1 round)\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThe caster sprays a fine mist of poisonous mucus. The mucus is acidic and has psychedelic properties. The mucus does 1d4 hp acid damage per caster level. In addition, a failed save leaves the targets dazed for one round.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f35a0d953b359fa4.json",
+    "web": "https://codex.pipsprojects.com/#/e/f35a0d953b359fa4"
+  },
+  "license": "OGL 1.0a"
+}

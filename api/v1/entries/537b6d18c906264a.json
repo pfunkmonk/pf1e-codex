@@ -1,0 +1,27 @@
+{
+  "id": "537b6d18c906264a",
+  "name": "Sensory Deprivation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 3,
+      "nightblade": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level cleric 4, inquisitor 3, nightblade 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell suppresses a creature’s extraordinary senses. For the duration of the spell, the creature loses the following abilities (if it has them): all-around vision, blindsense, blindsight, darkvision, low-light vision, scent, and tremorsense. If these abilities are granted by a spell or magical effect, the effect is suppressed for the duration of sensory deprivation (this duration counts against the suppressed spell’s duration). This does not affect a creature’s basic senses; the creature can still see, hear, smell, and so on, assuming it has the proper sensory organs (a creature that relies on blindsight and has no eyes, for example, is effectively blinded).\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/537b6d18c906264a.json",
+    "web": "https://codex.pipsprojects.com/#/e/537b6d18c906264a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "a55e012ba096bce9",
+  "name": "Mantle of Order",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "paladin": 3
+    },
+    "desc": [
+      "lawful"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [lawful]; Level antipaladin 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange self\nArea 30-foot-radius centered on you\nDuration 1 round/level\n\nDESCRIPTION\n\nYou radiate an aura imbued with order and mechanical precision out to a radius of 30 feet, granting your allies additional computational ability to strike with greater accuracy against agents of chaos.\n\nWhile in the aura’s radius, whenever an ally (including yourself) misses on an attack roll against a chaotic-aligned enemy within the aura, the next attack roll they make against that enemy gains a +2 sacred (or profane, if the ally is evil). This bonus is cumulative if the ally continues misses hitting that enemy. Once the ally has succeeded in hitting an enemy, the bonus from this spell is reset to 0 against that enemy.\n\nIf an enemy is instead a chaotic-aligned fey or outsider or if they have the chaos subtype, the bonus provided by mantle of order is increased to +4 instead.\n\nPrayer - Gods of Balance and Heroes, © 2025, Orphaned Bookworm Productions, LLC, Author: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a55e012ba096bce9.json",
+    "web": "https://codex.pipsprojects.com/#/e/a55e012ba096bce9"
+  },
+  "license": "OGL 1.0a"
+}

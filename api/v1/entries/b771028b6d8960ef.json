@@ -1,0 +1,30 @@
+{
+  "id": "b771028b6d8960ef",
+  "name": "Comfort Food",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "shaman": 3,
+      "witch": 3
+    },
+    "desc": [
+      "hope",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [hope, mind-affecting]; Level bard 3, cleric/oracle 3, druid/shaman 3, witch 3\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange 10 ft.\nTarget 1 cu. ft./level of food and drink\nDuration see text\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell acts as purify food and drink except that it also makes the food exceptionally good and instills hope and well-being in those that eat it. The food keeps its magic charge for 1 hour. Consuming the food takes 10 minutes and the beneficial effects kick in once the 10 minutes has elapsed. If the eating is interrupted, the spell is not ruined as long as the food is consumed within the 1 hour of its charge. The food grants a +1 morale bonus on initiative, attack rolls, saving throws, ability checks, skill checks and damage rolls for 10 minutes per caster level. Additionally, if the subject is under the effect of a despair effect (with the exception of curses) when the food consumption is completed, they get an immediate saving throw against the effect with the new bonus.\n\nGood Hope - Crushing Despair, © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b771028b6d8960ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/b771028b6d8960ef"
+  },
+  "license": "OGL 1.0a"
+}

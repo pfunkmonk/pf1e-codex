@@ -1,0 +1,32 @@
+{
+  "id": "25687e7137dbd9f7",
+  "name": "Extract Specter, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 4,
+      "medium": 4,
+      "occultist": 4,
+      "shaman": 4,
+      "spiritualist": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 4, medium 4, occultist 4, shaman 4, spiritualist 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (onyx gems worth at least 25 gp per Hit Die of the created specter)\n\nEFFECT\n\nRange touch\nTarget one touched corpse\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as extract specter, save that the specter you create has no duration. When creating a permanent specter, it counts as an undead creature with twice it’s Hit Dice against the number of undead creatures you can control using animate dead (a caster can normally control 4 times their CL in Hit Dice of undead using animate dead).\n\nThis created specter remains under your control indefinitely.\n\nIf you would create additional undead that would put you beyond your controlled Hit Dice cap, you may release specters from your control as if they were undead creatures created through animate dead.\n\nAkashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray Section 15: Copyright Notice Akashic Tales: Gifts of Winter Pageantry, © 2021 James Ray; Author James Ray",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/25687e7137dbd9f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/25687e7137dbd9f7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "21d297050c6e545e",
+  "name": "Shrieking Glyph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [sonic]; Level bard 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (tiny onyx musical notes worth 100 gp)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hr./level or until expended (see text) (D)\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nYou trace a glyph resembling discordant musical notes on the subject’s face, granting them the ability to emit a 30-ft. cone of sound as a standard action. Creatures in the area take 7d6 hp sonic damage and are deafened for 3d6 rounds unless they make a successful Fortitude save, which negates the deafness and reduces the damage by half. Once the subject uses this ability three times, the spell is expended.\n\nMythic: The damage of the sound cone increases to 7d8 hp sonic damage, and the number of times the target can use it increases to 5 times per day.\n\nAugmented (4th): You may expend two additional uses of mythic power to deafen creatures that successfully save against the sound cone for 3d6 rounds. Creatures that fail the save are deafened until they are magically cured of that condition via removed blindness/deafness or a similar effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/21d297050c6e545e.json",
+    "web": "https://codex.pipsprojects.com/#/e/21d297050c6e545e"
+  },
+  "license": "OGL 1.0a"
+}

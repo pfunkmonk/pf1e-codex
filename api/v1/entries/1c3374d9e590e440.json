@@ -1,0 +1,28 @@
+{
+  "id": "1c3374d9e590e440",
+  "name": "Slither",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "alchemist": 2,
+      "shadowsworn": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (transmutation) [shadow]; Level alchemist 2, shadowsworn 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (ashes from a wooden statue of you, made into ink and used to draw your portrait, worth 50 gp)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round\n\nDESCRIPTION\n\nYou momentarily become a shadow, able to slide under a door, through a keyhole, or any other tiny opening. All of your equipment is transformed with you, and you can move up to your full running speed during the spell’s duration.\n\nIf you return to your normal size while in a space too small for you (such as a mouse hole, sewer pipe, or the like), you suffer 3d6 hp damage while creating a space just big enough to fit into. You can cast spells without somatic components, and you can speak and breathe while in such a space. If the duration ends with you within a keyhole or door, it breaks and you take damage equal to the object’s hardness.\n\nMythic: The duration of the spell increases by a number of rounds equal to 1 plus your mythic tier. If you end in a space too small for you, you can choose to take the normal effect, or you can be shunted to the nearest open space and take 1d6 hp points of damage per 10 ft. so traveled.\n\nAugmented (6th): You may expend an additional use of mythic power to increase the spell’s duration a number of minutes equal to 1 plus your mythic tier. If you choose to be shunted off to the nearest open space, you take no damage as long as the space is within 50 ft. If the distance is greater than 50 ft., you take 1d6 hp damage for every additional 10 ft. traveled.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1c3374d9e590e440.json",
+    "web": "https://codex.pipsprojects.com/#/e/1c3374d9e590e440"
+  },
+  "license": "OGL 1.0a"
+}

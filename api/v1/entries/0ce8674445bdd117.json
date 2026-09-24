@@ -1,0 +1,24 @@
+{
+  "id": "0ce8674445bdd117",
+  "name": "Schedule",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "adept": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Zenith Games"
+  },
+  "body": "School universal; Level adept 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 2 full rounds\nComponents V, S, M (powdered diamond worth 25 gp)\n\nEFFECT\n\nRange see text\nTarget one object or area; see text\nDuration permanent; see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell enables a cantrip or orison to be repeated once every day. You cast the cantrip or orison first, then cast schedule after. Every day afterwards, the original spell is repeated automatically at the same exact time of day it was first cast, with the exact same conditions and target that it originally had, including caster level and save DC (if any). If the repeated spell comes under any condition that would prevent it from occurring (such as a door affected by open/close being jammed open), the spell fails for that day, though it continues to repeat as long as schedule remains active. Once cast on an object or area, the target cannot be moved or significantly altered in shape without ending the effects of schedule, though objects designed to move in place (such as windows or doors) may move without ending schedule. The spell repeated by schedule can only affect inanimate objects and areas.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ce8674445bdd117.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ce8674445bdd117"
+  },
+  "license": "OGL 1.0a"
+}

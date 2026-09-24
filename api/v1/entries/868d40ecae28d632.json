@@ -1,0 +1,23 @@
+{
+  "id": "868d40ecae28d632",
+  "name": "Field Of Axes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 6
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 16 contiguous squares\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou create hazardous terrain for any creature crossing through the affected area. All the squares in the designated, contiguous area sprout invisible axe heads that defend the field. These conjured weapons attack creatures that move through the field of axes at normal speed or faster or spend a round fighting within them.\n\nThey make a single attack against each creature as it moves through each square: Flying creatures are struck by hurled axes to a height of 30 ft.\n\nThe axes attack using your base attack bonus plus your Intelligence or Charisma modifier, whichever is higher. If they hit, they deal 2d6 hp slashing damage to their target and reduce the target’s speed by half (only if the target takes damage). This reduced speed lasts for 24 hrs., until the target is successfully treated with a DC 20 Heal check, or until it receives magical healing equal to the amount of damage dealt by the axes. Finally, any charging or running creature passing through an affected square must stop if hit by the axes (although they are not knocked prone).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/868d40ecae28d632.json",
+    "web": "https://codex.pipsprojects.com/#/e/868d40ecae28d632"
+  },
+  "license": "OGL 1.0a"
+}

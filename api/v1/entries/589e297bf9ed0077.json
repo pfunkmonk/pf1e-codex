@@ -1,0 +1,31 @@
+{
+  "id": "589e297bf9ed0077",
+  "name": "Freezing Jet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "adept": 1,
+      "bloodrager": 1,
+      "druid": 1,
+      "magus": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level adept 1, bloodrager 1, druid 1, magus 1, shaman 1, sorcerer/wizard 1\nCasting Time 1 standard action\nComponents V, S\nRange 30 ft.\nEffect 30-foot-line of freezing mist\nDuration concentration, up to 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\n\nYou spray a long stream of freezing mist from your fingertips to freeze your foe.\n\nWhile the spell is a 30-foot line, only the closest target to you is affected in each round. The affected target must make a Reflex save or be dealt 1d6 + 1 per caster level (max +5) cold damage. You may elect to exclude the square adjacent to you from the area of effect if you so choose to avoid affecting allies. Any creature that fails their Reflex save against this spell two rounds in a row suffers a -1 penalty to attack rolls, damage rolls and skill or ability checks that use Strength or Dexterity. The penalty lasts for 1 round after they are no longer being targeted by this spell or until they succeed on the Reflex save for this spell two rounds in a row. Each round while concentrating on the spell, you may redirect the line of effect.\n\nContact Other Plane: World of the Old Scrolls I, © 2023, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/589e297bf9ed0077.json",
+    "web": "https://codex.pipsprojects.com/#/e/589e297bf9ed0077"
+  },
+  "license": "OGL 1.0a"
+}

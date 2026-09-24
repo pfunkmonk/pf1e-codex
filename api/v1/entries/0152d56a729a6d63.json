@@ -1,0 +1,29 @@
+{
+  "id": "0152d56a729a6d63",
+  "name": "Calculative Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "lawful",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [lawful, mind-affecting]; Level cleric/oracle 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute/level or until discharged, whichever occurs first\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nCasting this spell channels a tiny portion of a lawful-aligned plane’s essence to temporarily settle into the target’s mind, smoothing out emotions while providing minor assistance in logical assessments, recall, and calculations.\n\nA creature under the effects of this spell gains a +4 resistance bonus on saving throws against charm, compulsion, and emotion effects (including hope and despair effects). If they are already affected (or later affected while this spell is in effect) by an on-going charm, compulsion, or emotion effect, they gain an immediate saving throw (with the resistance bonus from this spell) against that effect at the same DC to resist or negate it. The target can only make this additional saving throw to resist or negate against a charm, compulsion, or emotion effect once while they are under the effects of calculative mind.\n\nThe target also automatically gains a competence bonus on all Intelligence-based checks equal 1 + 1/4 your caster level. However, once the target makes a number of Intelligence-based checks equal to your caster level, this spell is discharged.\n\nThis spell has two drawbacks. First, while this spell lasts, the target must always attempt a saving throw to resist or negate any charm, compulsion, or emotion effect (assuming one is allowed) on them, even if the effects are harmless. Secondly, if the target is successfully affected by any spell with the chaotic descriptor of equal level or greater than the on-going calculative mind cast on them, that casting of calculative mind immediately ends as if it was discharged.\n\nPrayer - Gods of Balance and Heroes, © 2025, Orphaned Bookworm Productions, LLC, Author: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0152d56a729a6d63.json",
+    "web": "https://codex.pipsprojects.com/#/e/0152d56a729a6d63"
+  },
+  "license": "OGL 1.0a"
+}

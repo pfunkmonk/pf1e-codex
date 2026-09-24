@@ -1,0 +1,17 @@
+{
+  "id": "ab94a423948c9c6e",
+  "name": "Winds of Death",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Legendary Planet: The Scavenged Codex",
+  "book": "Legendary Planet: The Scavenged Codex",
+  "facets": {
+    "bk": "Legendary Planet: The Scavenged Codex"
+  },
+  "body": "WINDS OF DEATH\nCR 5\n\nXP 1,600\nNE Large undead\nInit +3; Senses all-around vision, lifesense 120 ft.; Perception +3\n\nDEFENSE\n\nAC 12, touch 12, flat-footed 9 (+3 Dex, –1 size)\nhp 39 (6d8+12)\nFort +4, Ref +5, Will +8\nDefensive Abilities air mastery, improved evasion, natural invisibility;\nImmune swarm traits, undead traits, weapon damage\nWeaknesses vulnerable to area effects, vulnerable to winds\n\nOFFENSE\n\nSpeed fly 60 ft. (perfect)\nMelee rending wind (2d6 negative energy plus tomb rot)\nSpace 10 ft.; Reach 0 ft.\nSpecial Attacks befouling presence, distraction (DC 15)\n\nSTATISTICS\n\nStr —, Dex 16, Con —, Int —, Wis 16, Cha 14\nBase Atk +4; CMB +5; CMD 18 (can’t be tripped, grappled, or bull rushed)\nFeats Ability Focus B (tomb rot)\nSkills Fly +9, Perception +3\nSQ swarm-like\n\nSPECIAL ABILITIES\n\nAir Mastery (Ex)\n\nAirborne creatures take a –1 penalty on attack and damage rolls against a rotting wind.\n\nBefouling Presence (Su)\n\nAll normal plant life and liquid within the same space as a rotting wind at the end of its turn are blighted and cursed. Normal vegetation is affected as diminish plants, while plant creatures take double damage from its rending wind and can be affected by its tomb rot.\n\nUnattended liquids are tainted as putrefy food and drink.\n\nRending Wind (Su)\n\nA rotting wind deals its rending wind damage to creatures in its space at the end of its turn. It also damages creatures entering its space on their turn. Creatures damaged by its rending wind are exposed to its tomb rot.\n\nSeep (Su)\n\nA rotting wind is a gaseous creature and can slip through tiny cracks into any area that is not airtight, though it cannot pass through solid barriers.\n\nSwarm-Like (Ex)\n\nA rotting wind has the traits of the swarm subtype, although it is not an actual swarm.\n\nTomb Rot (Su)\n\nCurse and disease—touch; save Fort DC 18; onset immediate; frequency 1/day (but see below); effect 1 Con and 1 Cha; cure see text.\n\nCreatures must succeed on a Fortitude save each round they take damage from a rotting wind or take Constitution and Charisma damage. Once they exit the rotting wind’s space, they need save only once per day. Tomb rot is a supernatural disease and a curse, and the curse must be removed before the disease can be cured (by remove disease or one successful Fortitude save).\n\nVulnerable to Winds (Ex)\n\nA rotting wind takes a –4 penalty on saving throws against wind effects, and it is treated as a Tiny creature for the purpose of wind effects determined by size.\n\nLegendary Planet: The Scavenged Codex © 2016, Legendary Games; Authors: Authors: Mike Shel and Mike Welham. Contributing Authors: Tim Hitchcock, Chris A. Jackson, Jonathan H. Keith, Jason Nelson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ab94a423948c9c6e.json",
+    "web": "https://codex.pipsprojects.com/#/e/ab94a423948c9c6e"
+  },
+  "license": "OGL 1.0a"
+}

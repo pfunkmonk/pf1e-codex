@@ -1,0 +1,26 @@
+{
+  "id": "3ff70212f04c6f9d",
+  "name": "Coin Swarm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 5,
+      "wizard": 4,
+      "summoner": 3,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level druid/shaman 5, sorcerer/wizard 4, summoner 3, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1,000 or more coins)\n\nEFFECT\n\nRange medium (50 ft. + 10 ft./4 levels)\nEffect one swarm of flying coins\nDuration concentration + 2 rounds\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis devastating spell turns any pile of 1,000 coins or more into a swarm of flying shards of metal with a fly speed of 30 ft. per round. The swarm is under the mental command of the caster as long as he or she concentrates, and it deals 1d6 hp damage for every 4 caster levels of the spellcaster. The damage is treated as magical for the purposes of penetrating damage reduction.\n\nIf the pile contains any coins of unusual metals, such as cold iron, mithral, or adamantine, the swarm can penetrate the relevant damage reduction. Otherwise treat as a standard summon swarm spell, and the swarm follows the rules for the swarm subtype.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ff70212f04c6f9d.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ff70212f04c6f9d"
+  },
+  "license": "OGL 1.0a"
+}

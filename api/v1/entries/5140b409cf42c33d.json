@@ -1,0 +1,24 @@
+{
+  "id": "5140b409cf42c33d",
+  "name": "Phantasmal Terrain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "druid": 6,
+      "witch": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (phantasm)) [mind-affecting]; Level druid 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 min./level (D)\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a phantasm) of terrain that shifts and moves that confuses the target as they move. Each round when the target moves, they must make a Will save or confuse the landmarks by which they are navigating. Instead of moving in the direction they intend, they move 90 degrees in either direction, with an equal chance of left or right. The target does not realize they are headed in the wrong direction until it reaches a point where they would interact with something, or would be shifting direction. For the remainder of the round they may move as normal if they have movement remaining.\n\nThis spell also interrupts ranged attacks, the first ranged attack made in a round, the target must make a Will save or automatically miss. Any ranged attacks made for the rest of the round are made as normal.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5140b409cf42c33d.json",
+    "web": "https://codex.pipsprojects.com/#/e/5140b409cf42c33d"
+  },
+  "license": "OGL 1.0a"
+}

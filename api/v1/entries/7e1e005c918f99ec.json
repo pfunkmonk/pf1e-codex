@@ -1,0 +1,29 @@
+{
+  "id": "7e1e005c918f99ec",
+  "name": "Mage’s Persistent Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "psychic": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [force]; Level bloodrager 1, magus 1, psychic 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a masterwork or magical dagger)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one dagger of force\nDuration 1 round/2 levels\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA small blade of force blinks into existence that resembles the knife used as a focus for this spell. The blade can move up to 40 feet and attack a designated target within the spell’s range. Directing the dagger to a target is a swift action except on the turn the spell is cast where it is a free action. The blade attacks once per round on your turn unless it has no target. The weapon uses your base attack bonus and your spellcasting ability modifier for the attack roll and has a critical threat range of 19-20. The dagger also gains any enhancement bonus to the attack possessed by the dagger used as a focus.\n\nThe dagger deals 1d4 damage plus your spellcasting ability modifier and any enhancement bonus on the dagger used as a focus. No other properties on the dagger are transferred to the mage’s persistent blade.\n\nThis dagger will move to flank a target if it is able to on the directed target. The blade is made of force and can strike ethereal and incorporeal creatures. If the target has spell resistance, the spell resistance is checked before the first attack. If the caster level check fails, the dagger is unable to target that creature for the duration of the spell. The blade has an AC 14 (+2 size, +2 Dex) and has 1 hit point.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7e1e005c918f99ec.json",
+    "web": "https://codex.pipsprojects.com/#/e/7e1e005c918f99ec"
+  },
+  "license": "OGL 1.0a"
+}

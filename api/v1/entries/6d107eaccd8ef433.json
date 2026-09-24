@@ -1,0 +1,28 @@
+{
+  "id": "6d107eaccd8ef433",
+  "name": "Rostov’s Poison Fang",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 2,
+      "druid": 2,
+      "ranger": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy; Level alchemist 2, druid 2, ranger 2, sorcerer/wizard 2, summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a snake’s tooth)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level, see text\nSaving Throw Fort negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYour natural weapons become poisonous weapons. Creatures attacked by your natural weapons must succeed at a Fortitude save or be poisoned. Poisoned creatures take 1d2 Constitution damage each round the Fort save is failed for 4 rounds. Poisoned creatures must succeed two consecutive saving throws to cure the poison. Unarmed strike is not affected by this spell. You cannot become poisoned by your own natural weapons for the duration of this spell.\n\nBook of Magic: Signature Spells 1, Copyright 2011, Jon Brazer Enterprises. Author: Dale C. McCoy, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6d107eaccd8ef433.json",
+    "web": "https://codex.pipsprojects.com/#/e/6d107eaccd8ef433"
+  },
+  "license": "OGL 1.0a"
+}

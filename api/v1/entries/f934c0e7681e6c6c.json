@@ -1,0 +1,31 @@
+{
+  "id": "f934c0e7681e6c6c",
+  "name": "Kiss of Dagon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 2,
+      "druid": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "chaotic",
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Petersen Games"
+  },
+  "body": "School conjuration (summoning) [chaotic, evil]; Level cleric 2, druid 2, ranger 2, shaman 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a fish scale)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 2 rounds + 1 round/2 levels (maximum 5 rounds)\nSaving Throw none or Fortitude partial (see text); Spell Resistance no\n\nDESCRIPTION\n\nAquatic and amphibious animals and creatures in the surrounding region have an overwhelming desire to eat the target. Animal companions and domesticated sea life can resist joining in the frenzy with a successful Will save. At the start of the target’s turn each round, swarms of small fish and sea life bite at the creature as long as it is in or near water, dealing 1d6 points of piercing, slashing, and bludgeoning damage per three caster levels (maximum 3d6). If there is a high concentration of small creatures (such as from a reef), the target must succeed at a Fortitude save each round or be sickened for 1 round. If the target is within 10 feet of the water, sea life leap and climb from the water to continue the attack.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f934c0e7681e6c6c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f934c0e7681e6c6c"
+  },
+  "license": "OGL 1.0a"
+}

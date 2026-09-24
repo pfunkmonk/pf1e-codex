@@ -1,0 +1,27 @@
+{
+  "id": "0d172a38c2c802b3",
+  "name": "Black Dog Curse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 4,
+      "witch": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil]; Level sorcerer/wizard 4, witch 3\n\nCASTING\n\nCasting Time one standard action\nComponents V, S, M (black dog fur or a wolf’s eye gem)\n\nEFFECT\n\nRange 30 ft.\nTarget one creature\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nIf the target fails a Will save, it takes a –2 penalty on all attack rolls, damage rolls, saving throws, ability checks, and skill checks for the duration of the spell. Note the target takes a –4 penalty on these rolls if using them against hellhounds or legendary animals.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d172a38c2c802b3.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d172a38c2c802b3"
+  },
+  "license": "OGL 1.0a"
+}

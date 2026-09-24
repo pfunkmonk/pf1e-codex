@@ -1,0 +1,23 @@
+{
+  "id": "fff61eca6e468089",
+  "name": "Disruptive Aura",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 8
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea creatures within a 10-ft.-radius burst\nDuration 1 round/level (D)\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nA warping, prismatic field surrounds and outlines the subjects, causing creatures to take a -20 penalty on all Stealth checks (no save). Additionally, targets must make a Will saving throw each round the spell is in effect.\n\nOn a failed roll, the target’s next spell or use of a spell-like ability or magic item is suppressed, as if affected by a successful, targeted dispel magic spell. If the save is successful, however, the target can cast spells and use spell-like abilities that round as normal.\n\nAll spells and spell-like abilities are potentially subject to disruptive aura’s suppression. (Because of the powerful nature of the energy it harnesses, disruptive aura can affect spells not normally affected by dispel magic.) Distressing Resonance\n\nSchool evocation [sonic]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\n\nEffect 30-ft. radius of subsonic sound\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a field of subsonic vibrations around you.\n\nThe field is mobile and moves with you. Creatures within or entering this area after you cast this spell must make a Fortitude save or become nauseated while they remain within the area of effect. On a successful save, the target is instead sickened.\n\nThese conditions persist for 1d4 rounds after a creature exits the area of effect. This sound is too low for most humanoid creatures to hear. However, the sound does not have to be heard to affect those in the spell’s radius, and it will work on deafened creatures. The vibrations also interfere with tremorsense, which is negated within the area of effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fff61eca6e468089.json",
+    "web": "https://codex.pipsprojects.com/#/e/fff61eca6e468089"
+  },
+  "license": "OGL 1.0a"
+}

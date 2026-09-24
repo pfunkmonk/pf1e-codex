@@ -1,0 +1,25 @@
+{
+  "id": "dc0294c1e74b6bd0",
+  "name": "Starry Vision",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "oracle": 6,
+      "shadowsworn": 5,
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (divination); Level cleric/oracle 6, shadowsworn 5, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (diamond dust worth 500 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./two levels)\nArea four 5-ft. squares/level\nDuration 1 round/2 levels\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou see the fate of all creatures in the spell’s area. You can act on this knowledge with these effects:  All creatures in the area are flat-footed against you for the spell’s duration.\n\nYou may move during any creature’s turn in a round. This expends your move action this round.\nYou gain a +8 insight bonus to your AC and any saving throws arising from the actions of a creature within the area of the spell.\nAs a swift action, you can warn one other creature, which has not yet acted in a round, whether its spell or attack will fail. If the warned creature wishes, it may choose to take another action when it acts. The creature may reroll one failed attack roll this round against an affected creature, or the player may take a different action or attack a different target. For purposes of this spell, all attack actions are considered equivalent to one another, and all spellcasting actions are equivalent to one another.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dc0294c1e74b6bd0.json",
+    "web": "https://codex.pipsprojects.com/#/e/dc0294c1e74b6bd0"
+  },
+  "license": "OGL 1.0a"
+}

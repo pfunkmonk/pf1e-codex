@@ -1,0 +1,23 @@
+{
+  "id": "8d5d198d3bb0c998",
+  "name": "Bind Guardian",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (necromancy); Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 8 hrs.\nComponents V, S, M (sacrifice of 1,000 gp in gems for each HD of the creature), F (a piece of bone from a humanoid and a rivet)\n\nEFFECT\n\nRange touched shell; see text\nTarget one unfettered soul or spirit; see text\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nThis exhausting ritual lures and traps a soul to provide a permanent animating force for various constructs such as steam golems, clockwork scullions, and advanced animated objects.\n\nThis ancient ceremony provides an alternative to living sacrifices to acquire an animating soul for the construct. The caster must first construct the host shell of an appropriate size for the construct. Once done, casting this spell over the shell creates a powerful lure for loose souls, such as incorporeal undead or other spirits.\n\nThere is no guarantee that a soul is near enough to be lured into the shell. Each time the spell is cast there is a 20% chance that a free soul is close enough to be affected by the spell. This chance increases by 2% per rank of Knowledge (arcana) and Knowledge (religion) the caster possesses, to a maximum of 90%. Nearby souls may make Will saves to avoid being lured into the shell. Only after the soul has entered the construct does its true peril become clear. At that point, the soul makes a second Will save to avoid being forever bound as a subservient guardian creature.\n\nOnce the soul is bound, the guardian creature is animated and has all of the normal abilities for a guardian of its type. It is also bound to the will of its creator, can understand his commands, and must obey them.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d5d198d3bb0c998.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d5d198d3bb0c998"
+  },
+  "license": "OGL 1.0a"
+}

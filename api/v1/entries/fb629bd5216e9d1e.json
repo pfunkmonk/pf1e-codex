@@ -1,0 +1,26 @@
+{
+  "id": "fb629bd5216e9d1e",
+  "name": "Sunbeam Lethargy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 8
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level druid 8, shaman .\n\nDESCRIPTION\n\nThis spell functions as the spell sunbeam except each time a creature is dealt damage by a beam, they are fatigued. A second time, they are exhausted. The condition cannot be raised past exhausted. If the target is immune to fatigue, they are instead staggered for 1 round if they take damage from the beam. The staggered effect does not stack from multiple hits.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb629bd5216e9d1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb629bd5216e9d1e"
+  },
+  "license": "OGL 1.0a"
+}

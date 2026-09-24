@@ -1,0 +1,31 @@
+{
+  "id": "6ecd22a192667e24",
+  "name": "Rhythmic Hail",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 3,
+      "druid": 3,
+      "hunter": 3,
+      "oracle": 3,
+      "shaman": 3
+    },
+    "desc": [
+      "sonic",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "Rhythmic Hail\n\nSchool conjuration (creation) [sonic, water]; Level bard 3, druid 3, hunter 3, oracle 3, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cylinder (60-ft. radius, 40 ft. high)\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou call down a shower of hail that drums in eerie rhythms wherever it strikes. Like mundane hail, it extinguishes unprotected flames, and imposes a -4 penalty on ranged attacks and sound-based Perception checks. Within the radius of the hail, all creatures that can hear it gain a +2 bonus on Perform checks, and suffer a -1 penalty on saving throws against bardic performances and raging song, as well as spells and effects that fascinate creatures, deafen or deal sonic damage.\n\nIf you have the ability to use bardic performance or raging song, you treat your level in the appropriate class as 1 higher when determining the effects of these abilities. This doesn’t grant access to types of performance you wouldn’t otherwise have, only enhances the effects of performances you can already use.\n\nWhen your caster level reaches 12th, the bonus on Perform checks increases to +4 and the penalty on saving throws increases to -2.\n\nEffects and abilities that modify the impact of weather apply as normal.\n\nInglenook's Lesser-Used Spells: of Wind and Weather Copyright 2019, Librarians & Leviathans; Author: John Shimmin.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6ecd22a192667e24.json",
+    "web": "https://codex.pipsprojects.com/#/e/6ecd22a192667e24"
+  },
+  "license": "OGL 1.0a"
+}

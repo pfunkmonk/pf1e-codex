@@ -1,0 +1,23 @@
+{
+  "id": "ce3732663a48daef",
+  "name": "Bestow Affliction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration; Level cleric 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude negates Spell Resistance Yes\n\nDESCRIPTION\n\nBestow affliction causes the target to suffer a permanent physical or mental disability. The affliction can be cured by remove curse, heal, limited wish, wish, or miracle. The caster can choose an affliction to bestow from the following list:\n\nBabble: The afflicted’s ability to speak coherently is compromised. Any time he attempts to communicate (including casting spells with verbal components), he must make a Will save (DC 16) or whatever he says comes out as gibberish.\n\nCataracts: Cataracts are an affliction that permanently degrades one’s eyesight (-2 to Perception checks, -4 to attack rolls, and any Dexterity bonus to AC is halved). It can be cured by the spells listed above, or by a combination of the remove disease and remove blindness/deafness spells.\n\nDementia: The afflicted’s ability to interact with the real world is compromised. Any time he attempts to take a decisive action, he must make a Wisdom Check (DC 13), or act as though under the conflict of a confusion spell.\n\nDiseased: The afflicted has suffered physical scars from numerous sicknesses, and he perpetually stinks of infection. He suffers a -5 penalty to his Charisma score.\n\nEcstatic: The afflicted’s ability to understand danger is compromised. In any excited or dangerous situations, he must make a Wisdom check (DC 13), or spend the next 1d4 rounds singing and dancing like a drunk. While in ecstasy he is unable to attack or to use any active defenses. At the end of the madness, make another Wisdom check or the ecstasy continues.\n\nFixation: The afflicted takes on a quest in search of an unattainable goal (e.g. an imaginary object or impossible ideal) that puts him (and allies) into dangerous situations.\n\nForgetfulness: The afflicted’s ability to remember facts is compromised. Any time he must do something that requires accessing his memory (including casting memorized spells), he must make an Intelligence check (DC 13).\n\nLameness: The afflicted’s speed is halved, and he becomes incapable of running or charging. He also suffers a -10 penalty to Acrobatics and Swim skills.\n\nMute: The afflicted loses the power of speech. He can still make himself understood through writing, and his hearing is unaffected.\n\nParanoia: The afflicted’s ability to separate friend from foe is compromised. Any time someone confronts him with an unexpected situation, he automatically views the other as an enemy and must make a Wisdom check (DC 10) to avoid attacking him.\n\nPhobia: The afflicted develops an irrational fear of a common object, creature, or condition. He believes the object of the phobia poses an immediate threat to him and may even see it where it doesn’t exist.\n\nSickly: The Sickly affliction means that the victim is more likely to contract diseases. A Sickly person always has a low-level cough or fever, and a -4 penalty to saves against disease.\n\n101 Magical Weapon Properties. Copyright 2010 Steven D. Russell. All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce3732663a48daef.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce3732663a48daef"
+  },
+  "license": "OGL 1.0a"
+}

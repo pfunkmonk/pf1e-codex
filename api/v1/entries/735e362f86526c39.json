@@ -1,0 +1,33 @@
+{
+  "id": "735e362f86526c39",
+  "name": "Infinite Terror",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 5,
+      "death mage": 6,
+      "inquisitor": 6,
+      "shaman": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [emotion, fear, mind-affecting]; Level bard 5, death mage 6, inquisitor 6, shaman 6, sorcerer/wizard 6, witch 6\nDuration 1 min./level; see tex.\n\nDESCRIPTION\n\nThis spell functions as the spell fear, except on a failed save, the affected creature is panicked and cowering for 1 minute or shaken for 1 round. At the beginning of the next minute the affected creature must make another Will save or be affected. This continues until the spell’s duration ends. A casting of remove fear or other spell or ability that removes a fear condition only removes the active condition, it does not remove the spell or the need to roll a Will save in the next minute.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/735e362f86526c39.json",
+    "web": "https://codex.pipsprojects.com/#/e/735e362f86526c39"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2ee8cd4c5bcbc15c",
+  "name": "Death’s Rest",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [death]; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a strip of cloth from a used shroud)/DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level then 1 day/level (see text)\n\nDESCRIPTION\n\nWhen cast, death’s rest prepares you to enter the deathlike coma for which the spell is named. You may choose to actually collapse into the coma at any point within the next round/level (for example, the next time you are injured). If you do not enter the coma before the 1 round/level duration expires, the spell ends with no effect.\n\nOnce you enter the coma, it can last for up to 1 day/level. You can specify a shorter duration when casting death’s rest. When the duration expires — and assuming your body hasn’t been eaten, burned, etc. — you awaken and must succeed on a Fortitude saving throw or take 1d4 points of Constitution damage. These points return in one day, and there is no chance of this damage being permanent.\n\nWhile in the coma, you need no food, air or water. Your vital signs are next to impossible to detect without magic (requiring a DC 28 Heal skill check to detect). You are completely unaware of your surroundings, and even your thought processes shut down. Wounds inflicted on your comatose body do not affect you until you wake up. If the wound is not a coup de grace or similar action, your body suffers only half damage.\n\nOther people can also try to revive you early with a DC of 28 Heal check. Failing the skill check means that you remain in a coma, while success revives you, and you do not suffer Constitution loss.\n\nFinally, death’s rest can be cast with contingency. If so used, it can be set to trigger the onset of the coma as soon as the contingency requirement is met.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ee8cd4c5bcbc15c.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ee8cd4c5bcbc15c"
+  },
+  "license": "OGL 1.0a"
+}

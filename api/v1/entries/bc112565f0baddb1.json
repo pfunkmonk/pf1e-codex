@@ -1,0 +1,24 @@
+{
+  "id": "bc112565f0baddb1",
+  "name": "Sun’s Bounty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 4,
+      "ranger": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level druid/shaman 4, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\nTarget one creature touched\nDuration 10 min./level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe sun’s life-giving energy heals and sustains your body. For the duration, you gain fast healing 1 whenever exposed to direct sunlight; 30 min. of exposure also provides a day’s normal nourishment and removes the fatigued and exhausted conditions. Limited exposure to sunlight-such as dim light-reduces the spell’s healing to 1 hp/min. Normal or magical darkness suppresses the spell’s effect entirely.\n\nUndead are especially vulnerable to this spell. If a targeted undead fails its Will save, it gains the shaken condition and suffers damage instead of healing while in sunlight.\n\nMythic: When the target is exposed to direct sunlight, it gains fast healing 5. The target need only be exposed to direct sunlight for 10 min. to be provided with a day’s normal nourishment, and any fatigued and exhausted conditions are removed. Exposure to direct sunlight for 30 min. or more removes poisons and diseases afflicting the target. Undead targeted by this spell take 5 hp damage each round when exposed to direct sunlight.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc112565f0baddb1.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc112565f0baddb1"
+  },
+  "license": "OGL 1.0a"
+}

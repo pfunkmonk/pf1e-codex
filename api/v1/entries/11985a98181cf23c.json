@@ -1,0 +1,23 @@
+{
+  "id": "11985a98181cf23c",
+  "name": "Bleeding Wounds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Magic Skull Games",
+  "book": "Magic Skull Games",
+  "facets": {
+    "sch": "necromancy",
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Magic Skull Games"
+  },
+  "body": "School necromancy [evil]; Level: antipaladin 2, cleric 3, magus 3, sorcerer/wizard 3, witch 3\n\nComponents: V, S, M (a drop of fresh blood)\n\nCasting Time: 1 standard action\n\nRange: Close (25 ft. + 5 ft./2 levels)\n\nTarget(s): one creature/two levels, no two of which can be more than 30 ft. apart\n\nDuration: 1 round/level\n\nSaving Throw: Fort negates (see text); Spell Resistance: yes\n\nThis spell causes all creatures who fail their save to become susceptible to bleeding. For the duration of the spell, if the targets suffer any physical wounds or have any existing physical wounds, they bleed for 1d4 damage per round. Targets suffer only 1d4 bleed damage per round, regardless of how many wounds they have. However, if the target is suffering from an additional bleed effect (such as from a monster’s bleed ability or a bleeding critical hit), the bleed damage from this spell stacks with the bleed damage from the other effect. Multiple castings of this spell on the same targets do not stack.\n\nThe bleeding can be stopped by a successful DC 17 Heal skill check. A remove curse or heal spell will also stop the spell’s bleeding damage, as will healing the affected creature back up to its maximum hit points.\n\nOnce the spell ends, the bleeding damage from the spell ends.\n\nGrimoire Viperian: A Tome of Exotic Lore Copyright 2021 Magic Skull Games Author: Steven F. Johnson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/11985a98181cf23c.json",
+    "web": "https://codex.pipsprojects.com/#/e/11985a98181cf23c"
+  },
+  "license": "OGL 1.0a"
+}

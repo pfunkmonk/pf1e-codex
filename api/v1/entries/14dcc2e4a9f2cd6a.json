@@ -1,0 +1,25 @@
+{
+  "id": "14dcc2e4a9f2cd6a",
+  "name": "Hobble Mount, Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "oracle": 6,
+      "wizard": 6
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level antipaladin 4, cleric/oracle 6, sorcerer/wizard 6\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTargets one quadruped /level, no two of which can be more than 50 ft. apart\nSaving Throw Fort negates and see text; Spell Resistance yes\n\nDESCRIPTION\n\nMass hobble mount works like hobble mount, except it affects multiple creatures. Additionally, if an affected creature carried a rider and it moved during the turn prior to this spell’s casting, it throws the rider 10 ft., dealing 2d6 hp damage, unless the rider succeeds at a Reflex check (DC equal to the spell’s).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14dcc2e4a9f2cd6a.json",
+    "web": "https://codex.pipsprojects.com/#/e/14dcc2e4a9f2cd6a"
+  },
+  "license": "OGL 1.0a"
+}

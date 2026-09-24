@@ -1,0 +1,23 @@
+{
+  "id": "33f1a14b8f9356bd",
+  "name": "Machine Sacrifice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "clockwork",
+    "lv": {
+      "wizard": 8
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School clockwork (necromancy); Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, M (a construct with at least 3 HD)\n\nEFFECT\n\nRange creature touched\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThe target creature is filled with the power of a machine and becomes immune to almost all forms of death for a limited period. As part of the spell’s casting, a construct or device is destroyed as a material component of the spell.\n\nAn intelligent animated creature or device used in this way must be willing (except for gearforged or those actively opposing the spellcaster, most animated creatures and devices are considered willing). While the spell is active, the target gains hardness 20/adamantine and a +6 circumstance bonus on all saving throws. In addition, the target gains immunity to death effects, critical hits, and death from massive damage. If the animated construct sacrificed had 10 or more HD, the spell grants temporary hp equal to one-quarter of those of the sacrificed construct.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/33f1a14b8f9356bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/33f1a14b8f9356bd"
+  },
+  "license": "OGL 1.0a"
+}

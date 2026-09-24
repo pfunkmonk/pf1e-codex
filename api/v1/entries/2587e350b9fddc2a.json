@@ -1,0 +1,34 @@
+{
+  "id": "2587e350b9fddc2a",
+  "name": "Masochism/Sadism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 3,
+      "antipaladin": 3,
+      "oracle": 3,
+      "inquisitor": 2,
+      "lathspell": 3,
+      "mesmerist": 2,
+      "psychic": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [pain]; Level adept 3, antipaladin 3, cleric/oracle 3, inquisitor 2, lathspell 3, mesmerist 2, psychic 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a leather strap soaked in blood)\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 round/level\n\nThis spell comes in one of two forms, chosen when cast. If sadism is chosen, you gain the bonus for each 10 points of damage you deal to another. If you instead choose masochism, you gain the bonuses for every 10 points damage you receive.\n\nRegardless of the type chosen, the damage dealt counts only after DR, immunity or resistance is applied. Nonlethal damage counts toward the damage dealt for bonuses.\n\nYou gain a +1 luck bonus on attack rolls, saving throws, and skill checks for the round to a maximum of +1 per 2 caster levels you possess.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2587e350b9fddc2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/2587e350b9fddc2a"
+  },
+  "license": "OGL 1.0a"
+}

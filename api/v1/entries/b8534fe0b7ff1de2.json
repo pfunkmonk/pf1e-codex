@@ -1,0 +1,25 @@
+{
+  "id": "b8534fe0b7ff1de2",
+  "name": "Tracker’s Focus",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination; Level alchemist 2, bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\n\nDESCRIPTION\n\nIf you don’t have the swift tracker class ability, this spell grants you that ability of a ranger.\n\nIf you have the swift tracker ability granted by class levels, however, this spell grants you a +5 competence bonus on all Survival checks made to follow tracks. While under the effects of this spell, whenever you lose a trail by rolling poorly on a Survival check, you may roll a second Survival check. This new roll uses the same modifiers as the first roll. If your second roll is high enough to avoid losing the trail, you must take an additional minute to find the trail. Each time you take advantage of this feature, the remaining duration of the spell is reduced by 1 that minute—if less than a minute’s worth of duration remains, the spell ends as soon as you reroll your Survival check.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8534fe0b7ff1de2.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8534fe0b7ff1de2"
+  },
+  "license": "OGL 1.0a"
+}

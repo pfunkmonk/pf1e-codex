@@ -1,0 +1,29 @@
+{
+  "id": "80920e30654b56c5",
+  "name": "Call of the Grave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "evil",
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (charm) [evil, mind-affecting]; Level bard 5, cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (vampire’s fang)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level) Targets all creatures in a 30-ft. spread\nDuration concentration\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis charm makes a target creature regard you as its trusted friend and ally (treat the target’s attitude as friendly), and the creature moves toward you even if the terrain is threatened, difficult, or otherwise dangerous (such as magma or a pit). The creatures continue to move toward you on following rounds if you maintain concentration. If you or your allies attack the creatures, however, they gain a +5 bonus on their saving throws. The spell does not enable you to control the charmed creatures as automatons, but they always consider your words and actions in the most favorable light.\n\nYou can attempt to give orders or instructions, but you must succeed on an opposed Charisma check. (Retries are not allowed.) Foolhardy or dangerous suggestions are followed; suicidal directions are always ignored.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/80920e30654b56c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/80920e30654b56c5"
+  },
+  "license": "OGL 1.0a"
+}

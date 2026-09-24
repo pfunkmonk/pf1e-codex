@@ -1,0 +1,27 @@
+{
+  "id": "b8bd17d1de0df552",
+  "name": "Glacier",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [cold]; Level druid 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange unlimited\nTarget or Area anchored area of ice up to one 100-ft. square per level, 20 ft. thick\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates an anchored upright plane of ice anywhere within the caster’s line-of-sight. A glacier cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created, though it can mold its edges to form a snug fit against any terrain it is cast on or adjacent to. Any creature adjacent to the glacier when it is created may attempt a Reflex save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt a glacier, and it deals full damage to it (instead of the normal half damage taken by objects). Suddenly melting a glacier creates a great cloud of steamy fog that lasts for 1 hour.\n\nThe glacier is 20 feet thick. It covers up to a 100-foot-square area per caster level (so a 20th-level wizard can create a wall of ice 2,000 feet long and 100 feet high, a wall 1,000 feet long and 200 feet high, or any other combination of length and height that does not exceed 200,000 square feet). The entire area of the spell must be within the caster’s line of sight, which frequently limits the practical maximum size of the spell. The plane must be oriented to be straight up and down, it is not possible to use glacier to create a ramp or tilted slope, or to lay it flat along the ground. A glacier must either be anchored on the floor or be anchored on two opposite sides.\n\nEach 100-foot square of wall has 300 hit points. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 25 + caster level. Even when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 5d6 points of cold damage + 1 point per caster level (no save).\n\nThe Genius Guide To: Ice Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8bd17d1de0df552.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8bd17d1de0df552"
+  },
+  "license": "OGL 1.0a"
+}

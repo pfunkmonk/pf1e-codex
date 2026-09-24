@@ -1,0 +1,34 @@
+{
+  "id": "4bfd3fc65dbc7fec",
+  "name": "Painwrack",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 5,
+      "antipaladin": 4,
+      "oracle": 5,
+      "inquisitor": 4,
+      "mesmerist": 4,
+      "psychic": 5,
+      "wizard": 5,
+      "witch": 4
+    },
+    "desc": [
+      "evil",
+      "pain"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [evil, pain]; Level adept 5, antipaladin 4, cleric/oracle 5, inquisitor 4, mesmerist 4, psychic 5, sorcerer/wizard 5, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25ft + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level + 3d10 minutes; see text\nSaving Throw Fortitude negate; Spell Resistance yes\n\nDESCRIPTION\n\nAs you complete the final utterance, the target is wracked with such pain that it doubles over and collapses. The physical presentation of the immense pain is determined by the caster but it involves various blisters, sores, welts and bruises spontaneously, and painfully, causing the target to be incapacitated by the pain. For the duration of the spell, the subject falls prone and is blinded and helpless. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity. After the duration of the spell expires or if the creature successfully makes their Fortitude save, they are sickened for 3d10 minutes.\n\nBreath of Life: The Lathspell, © 2023, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4bfd3fc65dbc7fec.json",
+    "web": "https://codex.pipsprojects.com/#/e/4bfd3fc65dbc7fec"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "46f6fe83beeab053",
+  "name": "Impaling Swords",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 3,
+      "magus": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level bard 3, magus 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (replicas of the swords worth a total of 50 gp; see below)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect two short swords or longswords\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou call two floating, non-magical swords into existence with this spell. The swords appear anywhere within range that you designate and can attack immediately on your turn. The swords each perform as if wielded by a creature with Strength 10 and Dexterity equal to your primary spellcasting attribute.\n\nEach sword has a CMD value equal to 10 + your base attack bonus + its Dexterity modifier. Each sword may only attack once per round using your BAB, and it benefits from any appropriate Weapon Focus, Weapon Specialization, and Weapon Finesse feats that you possess. Additionally, the swords can provide and gain flanking bonuses with each other, you, and your allies.\n\nAs a move action that does not provoke an attack of opportunity, you may move a single sword up to 30 ft., ignoring difficult terrain, and have it attack after it moves.\n\nIf you move the sword more than 5 ft., the sword provokes an attack of opportunity. If the sword is adjacent to an opponent it attacked the previous round, it can attack the same opponent without requiring any action from you. Each round after the first, you can switch one of the swords to a new target as a standard action. If you do not, the sword attacks the previous round’s target. If the previous round’s target is slain, it takes no action until you give it a target.\n\nWith an extra material cost in precious gems, you can conjure masterwork weapons, weapons made of special materials, or weapons with magical properties, but you must apply the same qualities to both weapons. The extra cost is equal to the total cost to add the special material, masterwork quality, or enhancements to a single sword.\n\nIf you conjure masterwork swords or swords with enhancement bonuses, they are considered magical for the sake of penetrating DR.\n\nYou are limited to masterwork weapons or weapons with special materials until you reach caster level 10, at which point you can conjure weapons with a +1 bonus. At 15th level and 20th level, the total weapon bonus for your conjured weapons increases by an additional +1, and can mix of enhancement bonuses and special abilities.\n\nThese swords can be targeted and attacked as if they were normal creatures. They have AC 10, hardness 10, and 5 hp. They can never be caught flat-footed. If a sword is destroyed, it simply winks out of existence. If both swords are destroyed, the spell ends.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/46f6fe83beeab053.json",
+    "web": "https://codex.pipsprojects.com/#/e/46f6fe83beeab053"
+  },
+  "license": "OGL 1.0a"
+}

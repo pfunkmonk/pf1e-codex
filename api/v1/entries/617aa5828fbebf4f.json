@@ -1,0 +1,23 @@
+{
+  "id": "617aa5828fbebf4f",
+  "name": "Empty Flesh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy; Level cleric 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (an empty pouch of skin)\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 1 minute/level (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nYou suppress the vital processes in the target, suspending respiration, bleeding, and autonomic function while sustaining life through the target’s ki rather than its physiology. The target gains immunity to bleed effects, disease, drowning, exhaustion, fatigue, and sleep effects or effects that require ingestion or inhalation. The effect of any poison is delayed until the empty flesh spell expires. The effects of any potion, elixir, or similar magical liquid consumed while using empty flesh are similarly delayed. Once the spell expires, all potions and poisons take effect simultaneously.\n\nEmpty flesh provides the target with immunity to ability damage, ability drain, and temporary ability score penalties to Strength, Constitution, or Dexterity, and the target has a 50% chance to negate any critical hit or precision-based damage such as sneak attack damage. In addition, the target takes half damage (and receives half the normal benefit, if applicable) from negative or positive energy, including death effects and energy drain. Energy drain effects that would normally result in gaining 1 negative level have no effect on the target.\n\nWhile affected by empty flesh, the target gains the staggered condition and takes a -4 penalty to initiative. If you are adjacent to the target, you can spend 1 point from your ki pool as a swift action to negate this condition until the end of the target’s next turn. If the target has a ki pool, she may spend 1 point from her own ki pool as a swift action to negate this condition for 1 minute.\n\nLegendary Investigators © 2022, Legendary Games; Connor Bates, Andrew J Gibson, Norman Mitchell, Margherita Tramontano, Tara Collins",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/617aa5828fbebf4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/617aa5828fbebf4f"
+  },
+  "license": "OGL 1.0a"
+}

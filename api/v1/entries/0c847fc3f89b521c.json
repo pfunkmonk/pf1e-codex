@@ -1,0 +1,23 @@
+{
+  "id": "0c847fc3f89b521c",
+  "name": "Claws of the Beast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject’s hands transform into beast-like claws for the duration of the spell. This grants the subject two natural attacks (claws) each round. The subject can use both claws equally well in combat (i.e., there is no offhand penalty for using both claws in the same round) and they count as primary attacks. Each claw deals damage based on the subject’s size as shown in the table.\n\nSize Damage\n\nFine 1\n\nDiminutive 1d2\n\nTiny 1d3\n\nSmall 1d4\n\nMedium 1d6\n\nLarge 1d8\n\nHuge 2d6\n\nGargantuan 2d8\n\nColossal 3d6\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0c847fc3f89b521c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0c847fc3f89b521c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "263793213e71dfca",
+  "name": "Dreaded Mystic Abyss",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 9,
+      "witch": 9
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (teleportation); Level sorcerer/wizard 9, witch 9\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou send a creature into a chaotic, liminal, demi-plane of arcane energy. At the beginning of their turn, the target must make a Will save or remain in the plane until their next turn and take 4d8 points of damage from a random energy type the caster picks one of the d8s rolled to determine the damage type using the table below. On a successful saving throw, the target is shunted back to the plane they left at the beginning of their turn taking 10d6 force damage.\n\nCreatures can take actions and attempt to cast spells on their turn to attempt to escape but any actions taken that require concentration treat damage taken at the end of their turn to be constant throughout for the purpose of determining the concentration DC.\n\nLike any plane, a spellcaster or creature with the ability can plane shift out, but they still take the 10d6 force damage for doing so. Dimensional anchor or other spells, abilities, or conditions do not prevent the target creature from returning from this spell, but can prevent them from being affected in the first place.\n\nd8\tDamage Type\n1\tAcid\n2\tCold\n3\tElectricity\n4\tFire\n5\tForce\n6\tPositive Energy\n7\tNegative Energy\n8\tSonic\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/263793213e71dfca.json",
+    "web": "https://codex.pipsprojects.com/#/e/263793213e71dfca"
+  },
+  "license": "OGL 1.0a"
+}

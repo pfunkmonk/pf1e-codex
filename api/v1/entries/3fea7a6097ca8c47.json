@@ -1,0 +1,23 @@
+{
+  "id": "3fea7a6097ca8c47",
+  "name": "Capture Monster",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "trainer": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "What is a Monster?\n\nTo a monster trainer, a monster is any creature with a simple aura. A creature’s aura is simple when:\n\nthe creature doesn’t have class levels. Creatures with class levels fundamentally change their essence—change what they are—giving them complex auras and, in some cases, changing their physical form entirely.\nthe creature is not summoned, already captured, or gained through a class feature such as arcane bond, natural bond, or eidolon.\nthe creature’s CR is equal to or less than the monster trainer’s level. A trainer’s essence may not be strong enough to direct a more powerful monster than her experience would allow, and such monsters can even prove unresponsive or dismissive of the trainer when called upon outside of stressful situations such as during downtime.\nthe creature has an Intelligence score. Mindless (Int —­­) creatures lack discernible essence and must awaken (as the spell), be commanded by their creator, or somehow be persuaded (food and gentle sounds to coax oozes and vermin, for example) before they can be captured.\n\nSchool universal; Level trainer 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents none\n\nEFFECT\n\nRange close (25 ft. plus 5 ft. per 2 levels)\nTarget One monster\nDuration instantaneous\nSaving Throw Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as imprisonment, except as detailed here. The subject is drawn into your essence and travels with you. It remains there unless you release it, gift it to another trainer, or a freedom spell is cast on you at the location of its capture with the intent to free it.\n\nIf the subject is at or above 25% of its total hits points, it receives a +2 bonus to save against being captured. If it is at or above 50% of its total hit points, it receives a +5 bonus instead.\n\nSee ‘What is Considered a Monster?’ above for more details on what creatures are considered monsters by a monster trainer.\n\nMystical: Kingdom of Monsters Anniversary Edition, © 2015-2019, Samurai Sheepdog; author Kevin Glusing.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3fea7a6097ca8c47.json",
+    "web": "https://codex.pipsprojects.com/#/e/3fea7a6097ca8c47"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "771302d09ad6b8d0",
+  "name": "Confound Languages",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 2,
+      "bard": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level alchemist 2, bard 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of alcohol)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget 20 ft. radius burst, centered on one creature\nDuration 1 hr./level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nSometimes simply called babble, this enchantment temporarily replaces each affected creatures’ previously known languages with new languages. For the duration of this spell, the target cannot read or comprehend their previous languages. Randomly assign a new language (or multiple languages, if applicable) to each creature affected by this enchantment separately. Any effort the target makes to communicate (written or spoken) will instead be in this new language. The affected creature can only read this language if he/she was previously literate. This spell has no effect on telepathic communication, or the vocalizations of creatures that lack a spoken language.\n\nCreatures under the effect of confound languages cannot benefit from the comprehend languages spell.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/771302d09ad6b8d0.json",
+    "web": "https://codex.pipsprojects.com/#/e/771302d09ad6b8d0"
+  },
+  "license": "OGL 1.0a"
+}

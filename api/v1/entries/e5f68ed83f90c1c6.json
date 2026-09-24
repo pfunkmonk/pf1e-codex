@@ -1,0 +1,26 @@
+{
+  "id": "e5f68ed83f90c1c6",
+  "name": "Spinning Axes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, F (an iron ring)\n\nEFFECT\n\nArea 10-ft.-radius burst centered on you\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nSpinning axes of force erupt from your form in a sudden burst. All creatures within 10 ft. of you take 1d4 hp force damage/level (maximum 10d4) and 1 hp bleed damage/2 levels (maximum 5 bleed damage). A creature that succeeds at a Reflex save takes half the force damage and no bleed damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5f68ed83f90c1c6.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5f68ed83f90c1c6"
+  },
+  "license": "OGL 1.0a"
+}

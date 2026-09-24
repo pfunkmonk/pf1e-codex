@@ -1,0 +1,28 @@
+{
+  "id": "f979c0cec5051702",
+  "name": "Silent Combat",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shadowsworn": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "sonic",
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [sonic, shadow]; Level shadowsworn 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./two levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject of this spell makes attacks that are rendered utterly silent. The spell covers the noise of shouts and screams, rattling armor, clashing blades, or the heavy fall of a body. It does not prevent spellcasters from casting spells with verbal components, and it does not prevent whispers or normal speech-only abrupt or loud noises that carry for a distance.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f979c0cec5051702.json",
+    "web": "https://codex.pipsprojects.com/#/e/f979c0cec5051702"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "b641e84b36721afb",
+  "name": "Black Antlers",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 4,
+      "bloodrager": 4,
+      "lathspell": 4,
+      "magus": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "cold",
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold, force]; Level antipaladin 4, bloodrager 4, lathspell 4, magus 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange self\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nYou cast the spell and grow black antlers akin to a deer except they seem to absorb light. In actuality, they are made of void material from the dark tapestry. These antlers do not harm you but they grant you a gore attack you can make in place of your normal attack or as a secondary attack at a -5 penalty. The attack is against touch AC and deals 1d8 damage per two caster levels (maximum 5d8 damage at 10th level). Half of the damage dealt is force damage, the other half is cold. You are considered proficient with this attack.\n\nWhen you cast this spell any light spell of 4th level or lower cast by you ends and you are unable to cast light spells while this spell is active.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b641e84b36721afb.json",
+    "web": "https://codex.pipsprojects.com/#/e/b641e84b36721afb"
+  },
+  "license": "OGL 1.0a"
+}

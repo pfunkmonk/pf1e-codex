@@ -1,0 +1,27 @@
+{
+  "id": "d68cc964fe172197",
+  "name": "Battle Wisdom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 1,
+      "paladin": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 1, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 50 ft.\nArea The caster and all allies within a 50-ft. burst, centered on the caster\nDuration 1 min./level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nBattle wisdom fills your allies with battle insight and the wisdom to perform tasks better. Each ally gains a +1 insight bonus on melee attack rolls and a +2 insight bonus on Wisdom-based skill checks. Battle wisdom counters bane’s effect on melee attacks (melee attacks only).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d68cc964fe172197.json",
+    "web": "https://codex.pipsprojects.com/#/e/d68cc964fe172197"
+  },
+  "license": "OGL 1.0a"
+}

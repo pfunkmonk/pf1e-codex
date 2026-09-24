@@ -1,0 +1,26 @@
+{
+  "id": "bbf23b2dd6509b59",
+  "name": "Storm of Vitriol",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School evocation [acid]; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange one mile\nArea 100-ft. radius\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance no\n\nDESCRIPTION\n\nYou blast a large area with burning droplets of vitriol, corroding and dissolving anything in the area. This spell does 1d6 points of acid damage per caster level (15d6 maximum) and 1d6 damage for every 2 caster levels of force damage (10d6 maximum; Fortitude save for half damage). Anyone who takes damage from the vitriol must make a second Fortitude save (same as the spell DC) or take 1d3 points of temporary Dexterity damage from the poisonous fumes. Creatures that do not breathe (such as undead) or which are immune to acid are immune to the secondary effect.\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bbf23b2dd6509b59.json",
+    "web": "https://codex.pipsprojects.com/#/e/bbf23b2dd6509b59"
+  },
+  "license": "OGL 1.0a"
+}

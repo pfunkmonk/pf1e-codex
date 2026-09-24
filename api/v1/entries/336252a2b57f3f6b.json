@@ -1,0 +1,27 @@
+{
+  "id": "336252a2b57f3f6b",
+  "name": "Ley Leech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 5
+    },
+    "desc": [
+      "evil",
+      "ley"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy [evil, ley]; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nOn a successful melee touch attack, the caster’s touch deals 1d6 hp/4 caster levels (maximum 5d6 at 20th level) in ability score damage. You choose the ability when this spell is cast.\n\nAn ability score cannot be reduced to zero or below using this spell; if this spell would cause enough damage to do so, that score is instead reduced to 1 and another ability or abilities must be assigned the remaining damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/336252a2b57f3f6b.json",
+    "web": "https://codex.pipsprojects.com/#/e/336252a2b57f3f6b"
+  },
+  "license": "OGL 1.0a"
+}

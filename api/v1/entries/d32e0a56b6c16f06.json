@@ -1,0 +1,25 @@
+{
+  "id": "d32e0a56b6c16f06",
+  "name": "Illusory Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 6,
+      "psychic": 6,
+      "wizard": 6
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (figment); Level bard 6, psychic 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 10-foot cube\nDuration concentration + 1 round/level (D)\nSaving Throw Will partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou create an illusory pit within the area. Any creature entering the area or beginning their turn within must make a Will save or believe they are falling into a bottomless pit. While the spell is active all creatures can ‘see’ the pit in the area. If a creature fails their saving throw, they fall prone and are unable to take any actions but flail around as they believe they are falling.\n\nEach round at the end of their turn, a creature may attempt a Reflex save to try to stop their ‘fall’, on a success, they may then reattempt a Will save to disbelieve the illusion, otherwise they cling to the ground as if they have barely saved themselves. Each round thereafter they may make a Climb check against the spell save DC to ‘climb out’, failing by 5 or more means they think they are falling again. If they succeed or fail by less than 5, they may attempt the Will save to disbelieve the spell.\n\nFlying creatures are not affected by this spell. If a non-flying creature succeeds on the Will save for this spell or the spell’s duration ends, they are freed from the it’s effects and are no longer affected by it but they are dazed until the beginning of their next turn.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d32e0a56b6c16f06.json",
+    "web": "https://codex.pipsprojects.com/#/e/d32e0a56b6c16f06"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "292baf47778df0c9",
+  "name": "Cultivate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 0,
+      "invoker": 0,
+      "ranger": 1,
+      "shaman": 0,
+      "witch": 0
+    },
+    "desc": [
+      "plant"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [plant]; Level druid 0, invoker 0, ranger 1, shaman 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 10 ft.\n\nTargets nearby plants, see text\nDuration 1 hour\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell lets you magically tend to plants. Once cast, cultivate lets you repeatedly tend to plants over the next hour. Its effects are limited in scope and cannot damage to a creature (including plant creatures). Only inanimate plant matter can be affected. It can neatly trim plants or cause them to grow thicker: this does not alter the plant’s size. You can cut your way through thick foliage and undergrowth, cutting through about as fast as you could with a machete or axe. You can similarly prune away branches about as quickly as you could with shears or similar tools. You can clean off dust, debris, or other sediments upon plant life. You can cause a flower to bloom or close, or change its coloration or scent.\n\nThe effects of cultivate are permanent, aside from changing its color or scent, which end when the spell ends. You cannot use cultivate to affect plants that are currently manipulated by magic of 1st-level or higher, such as entangle.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/292baf47778df0c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/292baf47778df0c9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dfdb690b2e252f82",
+  "name": "Hands Of The Djinn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "or fire"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [acid, cold, electricity, or fire]; Level alchemist 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of the chosen element: earth, water, air, or fire)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nYou call up elemental energy, which infuses your hands.\n\nChoose an energy type: acid, cold, electricity, or fire. You gain a melee touch attack that deals 1d6 hp per 2 caster levels of that energy type (maximum 5d6), along with a special effect described below.\n\nYou deal this energy damage and the related special effect when you attack with an unarmed strike, a single claw, a bite, or a single slam attack. This bonus damage applies to multiple weapons.\n\nAcid: Your touch attack causes 1 hp ongoing acid damage per die of damage for 3 rounds. The target must make a Fortitude save or be sickened for the duration of the ongoing acid damage.\n\nCold: The target must make a Fortitude save or be exhausted. If a creature makes his save then the creature becomes fatigued. A fatigued creature becomes exhausted.\n\nElectricity: When delivering elemental damage, you gain a +3 bonus on attack rolls if the opponent is wearing metal armor (or is carrying a metal weapon or is made of metal). The target must make a Fortitude save or be stunned for 1 round.\n\nFire: Your hands ignite and shed light as a torch. Your touch may set targets on fire, although a Reflex save prevents this. If the creature touched catches fire, it is shaken until the fire is extinguished.\n\nWhen you cast this spell to deal acid, cold, electricity, or fire damage, it is a spell of that type.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dfdb690b2e252f82.json",
+    "web": "https://codex.pipsprojects.com/#/e/dfdb690b2e252f82"
+  },
+  "license": "OGL 1.0a"
+}

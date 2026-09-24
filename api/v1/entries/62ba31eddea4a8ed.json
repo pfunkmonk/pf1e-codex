@@ -1,0 +1,30 @@
+{
+  "id": "62ba31eddea4a8ed",
+  "name": "Abyssal Globule",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 4,
+      "summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "acid",
+      "evil",
+      "poison"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [acid, evil, poison]; Level sorcerer/wizard 4, summoner 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one poisonous globule\nDuration instantaneous and 6 rounds (see below)\nSaving Throw Fort negates (see below); Spell Resistance no\n\nDESCRIPTION\n\nYou create a poisonous glob of disgusting and pulsating green flesh that thrums with the power of Abyssal corruption, and you lob it at your enemy.\n\nWith a successful touch attack, the globule deals 1d4 hp acid damage per caster level (maximum 10d4), and the target must succeed on a Fortitude save or become poisoned. This poison deals 1d3 points of Constitution damage for 6 rounds. Poisoned creatures can make a Fortitude save each round to end the affliction, but they become sickened for the remaining duration.\n\nMythic\n\nThe initial acid damage increases to 1d8 hp per caster level (maximum 10d8). Those who successfully save are sickened for the duration of the spell, and those who fail the save are nauseated and take the Constitution damage. Creatures that must save each round to end the affliction receive a –4 penalty to those saves, and those who make the save are still nauseated for the remaining duration.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/62ba31eddea4a8ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/62ba31eddea4a8ed"
+  },
+  "license": "OGL 1.0a"
+}

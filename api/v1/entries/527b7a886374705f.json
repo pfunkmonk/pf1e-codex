@@ -1,0 +1,30 @@
+{
+  "id": "527b7a886374705f",
+  "name": "Stony Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [earth]; Level bloodrager 3, magus 3, shaman 3, sorcerer/wizard 3, witch 3\n\nComponents V, S, M (a fist-sized stone)\n\nEffect animated stone hand\n\nThis spell functions like earthen grasp, except the hand is made of stone. The hand has an AC of 18, a hardness of 8, and 4 hit points per caster level.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/527b7a886374705f.json",
+    "web": "https://codex.pipsprojects.com/#/e/527b7a886374705f"
+  },
+  "license": "OGL 1.0a"
+}

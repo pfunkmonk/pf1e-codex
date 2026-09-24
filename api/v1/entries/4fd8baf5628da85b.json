@@ -1,0 +1,30 @@
+{
+  "id": "4fd8baf5628da85b",
+  "name": "Iceglide",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "bloodrager": 4,
+      "druid": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [cold]; Level alchemist 4, bloodrager 4, druid 4, shaman 4, sorcerer/wizard 4\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange touch\n\nTarget creature touched\n\nDuration 1 round/level\n\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nThe target can pass through ice or snow as easily as a fish swims through water, traveling at a speed of 15 feet. This movement leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. It requires as much concentration as walking, so the subject can attack or cast spells normally, but cannot charge or run. This spell does not give the target the ability to breathe while submerged in the ice or snow, so when passing through solid material, the creature must hold its breath.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4fd8baf5628da85b.json",
+    "web": "https://codex.pipsprojects.com/#/e/4fd8baf5628da85b"
+  },
+  "license": "OGL 1.0a"
+}

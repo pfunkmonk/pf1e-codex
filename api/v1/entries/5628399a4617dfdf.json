@@ -1,0 +1,36 @@
+{
+  "id": "5628399a4617dfdf",
+  "name": "Fear is the Mindkiller",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 5,
+      "bloodrager": 4,
+      "inquisitor": 5,
+      "lathspell": 4,
+      "occultist": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [emotion, fear, mind-affecting]; Level antipaladin 4, bard 5, bloodrager 4, inquisitor 5, lathspell 4, occultist 5, shaman 5, sorcerer/wizard 5, witch 5\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous or 1 round; see text\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the target’s mind with such intense fear that it shuts down completely. This spell functions as feeblemind except as noted above, and if the target succeeds on their saving throw, they are shaken for 1 round.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5628399a4617dfdf.json",
+    "web": "https://codex.pipsprojects.com/#/e/5628399a4617dfdf"
+  },
+  "license": "OGL 1.0a"
+}

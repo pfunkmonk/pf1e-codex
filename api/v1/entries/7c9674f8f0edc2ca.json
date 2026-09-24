@@ -1,0 +1,28 @@
+{
+  "id": "7c9674f8f0edc2ca",
+  "name": "River of Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "inquisitor": 4,
+      "white necromancer": 5
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level cleric/oracle 5, inquisitor 4, white necromancer 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 120 ft.\n\nArea 120-ft. line\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a wavering beam of light that shoots away from you in a direction you choose. It creates a 5-ft.-diameter line of light. It remains constant in the direction it is created, but may be changed on your turn as a move action.\n\nA creature that begins their turn in or enters the area of the river of light, the target takes 5d6 damage. If the affected creature is undead or vulnerable to sunlight, the damage is increased to 10d4. Constructs or inanimate objects only take 2d6 damage each round. A successful Fortitude save, for which undead are not immune, halves the damage taken that round.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7c9674f8f0edc2ca.json",
+    "web": "https://codex.pipsprojects.com/#/e/7c9674f8f0edc2ca"
+  },
+  "license": "OGL 1.0a"
+}

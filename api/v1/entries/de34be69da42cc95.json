@@ -1,0 +1,27 @@
+{
+  "id": "de34be69da42cc95",
+  "name": "Blazing Chariot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 5,
+      "summoner": 5
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning) [fire]; Level cleric/oracle 5, summoner 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, DF\n\nEFFECT\n\nRange short (25 ft. + 5ft./2 levels)\nEffect summons a pair of fiery horses and a flaming chariot\nDuration 1 hr./ level (D)\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nWhen you cast this spell, a massive, flaming chariot— pulled by a pair of giant, fiery stallions—appears in the spot you designate. The chariot can carry you and three creatures (up to Medium size) of your choosing. The chariot has a 60-ft. movement rate on the ground and a 120-ft. flying speed (average maneuverability), and moves as you will it on your turn (a move action for you). The flames of the chariot and its team do not harm you or your chosen passengers, but any other creature within 5 ft. suffers 2d6 hp fire damage per round. You must designate your passengers when you cast this spell.\n\nMounting the chariot is a free action, as the vehicle simply moves through a designated passenger’s square, sweeping them up as it goes. Anyone else in the path of the blazing chariot is overrun as if the chariot were a Gargantuan creature with the trample ability. This deals 2d8 hp bludgeoning damage plus 2d6 hp fire, with a successful Reflex save for half.\n\nThe stallions are treated as huge fire elementals with the celestial template (though they only serve to pull the chariot and attack only as part of the chariot’s trample ability). The chariot itself has hardness 10 and 150 hp (hardness is bypassed by cold attacks). If both stallions are killed or if the chariot is destroyed, then the summoning ends.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de34be69da42cc95.json",
+    "web": "https://codex.pipsprojects.com/#/e/de34be69da42cc95"
+  },
+  "license": "OGL 1.0a"
+}

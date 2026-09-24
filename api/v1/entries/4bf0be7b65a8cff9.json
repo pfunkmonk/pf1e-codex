@@ -1,0 +1,24 @@
+{
+  "id": "4bf0be7b65a8cff9",
+  "name": "Sarnath Sigil, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Petersen Games",
+  "book": "Petersen Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "psychic": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Petersen Games"
+  },
+  "body": "School abjuration; Level psychic 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nAny ranged weapon attack originating within 90 feet of the victim of this spell automatically veers toward the victim instead of its original intended target, provided that the victim is within the attack’s maximum range.\n\nThe victim’s own ranged attacks do not loop back to target it. A new attack roll is made to hit the victim of lesser Sarnath sigil.\n\nSarnath Sigil, Greater\n\nSchool abjuration; Level psychic 4, sorcerer/wizard 8\nDuration 1 round/level or until discharged\n\nDESCRIPTION\n\nThis spell functions as lesser Sarnath sigil except as noted here. The greater Sarnath sigil also forces spells cast within 90 feet that can target the subject to do so. A spell with multiple targets adds the subject as an additional target if possible, given the other targets, but otherwise does not change. Area of effect spells aren’t redirected unless they call for a ranged attack roll.\n\nRays and other ranged spell attacks are redirected like weapons. Each spell depletes the potential of the greater Sarnath sigil by a number of levels equal to its spell level.\n\nOnce the spell has forced a number of spell levels equal to your caster level to change targets, it ends. If a spell would be partially affected, it has only a proportional chance of being redirected per spell level redirected.\n\nFor example, if the greater Sarnath sigil has 4 levels left on it and it tries to redirect destruction (7th level), the spell has a 4/7 (or 57%) chance of being redirected.\n\nSandy Petersen’s Cthulhu Mythos, © 2017, Petersen Games; Authors: Sandy Petersen, Arthur Petersen, Ian Starcher.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4bf0be7b65a8cff9.json",
+    "web": "https://codex.pipsprojects.com/#/e/4bf0be7b65a8cff9"
+  },
+  "license": "OGL 1.0a"
+}

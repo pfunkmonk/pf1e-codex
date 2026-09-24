@@ -1,0 +1,23 @@
+{
+  "id": "34c37f6deef447de",
+  "name": "Explosive Pellet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [fire]; Level: druid 3, sorcerer/wizard 3, summoner 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (pellet)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget 1 non-ally within +10-foot-radius blast\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nRequirement Owl-kin.\n\nThe Owl-kin coughs up the bones and fur of its previous meals, imbues it with explosive magic, and throws it at their enemy. If the Owl-kin succeeds on a ranged tough attack the target takes 1d4/level bludgeoning damage (Max 10d4). Everyone within a 10-foot-radius of the target (including the target) takes 1d6/2 levels fire damage (Max 10d6). Fire damage occurs even if the ranged touch attack misses, but always allows anyone effected a Reflex save for half damage.\n\nRead Magic: Magic of the Stars © 2022, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34c37f6deef447de.json",
+    "web": "https://codex.pipsprojects.com/#/e/34c37f6deef447de"
+  },
+  "license": "OGL 1.0a"
+}

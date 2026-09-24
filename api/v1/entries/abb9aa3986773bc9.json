@@ -1,0 +1,25 @@
+{
+  "id": "abb9aa3986773bc9",
+  "name": "Detect Outsider",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 1,
+      "legendary inquisitor": 1,
+      "paladin": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School divination; Level cleric/oracle 1, legendary inquisitor 1, paladin 1\n\nDESCRIPTION\n\nThis spell functions like detect demond, except it reveals the presence of a specific outsider subtype, creatures under the effects of spells or spell-like abilities cast by outsiders with the selected subtype, creatures otherwise tainted by them, or portals towards their plane.\n\nYou must select which outsider subtype you wish to detect at the moment of casting. An overwhelming aura from a creature with HD equal to at least twice your character level stuns you for 1 round and causes the spell to end.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/abb9aa3986773bc9.json",
+    "web": "https://codex.pipsprojects.com/#/e/abb9aa3986773bc9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "11c82ddb4b60687a",
+  "name": "Corpsethrone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "oracle": 3,
+      "death mage": 3,
+      "inquisitor": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [evil]; Level antipaladin 3, cleric/oracle 3, death mage 3, inquisitor 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a desiccated hand)\n\nEFFECT\n\nRange 20 ft.\n\nArea radius aura centered on you\nDuration 1 round/level (D)\nSaving Throw Reflex, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou summon a mass of corpses that piles up underneath you. You are 20 feet higher at the center, the pile of bodies then drops 5 feet down and the pile of bodies slopes down to the edges. The area is considered difficult terrain to all creatures, aside from yourself, due to the shifting bodies and the angle of the hill. Additionally, the corpses reach out and attempt to grasp all creatures aside from you. All those moving through the area must make a Reflex save or be entangled as per the spell entangle.\n\nYour movement is not impeded, in fact your speed is doubled while in the area as the bodies propel you faster. You can get up to the apex of the pile as if it were flat. The corpses summoned in this manner cannot be used to animate dead creatures, though the area of the spell grants the benefits of the desecrate spell with the center of the corpsethrone being treated as an altar.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/11c82ddb4b60687a.json",
+    "web": "https://codex.pipsprojects.com/#/e/11c82ddb4b60687a"
+  },
+  "license": "OGL 1.0a"
+}

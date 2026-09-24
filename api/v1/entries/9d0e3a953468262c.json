@@ -1,0 +1,17 @@
+{
+  "id": "9d0e3a953468262c",
+  "name": "Clockwork Swarm",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "A mass of tiny insect-like mechanical creatures surges closer.\n\nClockwork Swarm\tCR 4\n\nXP 1,200\nN Tiny construct (swarm)\nInit +2; Senses darkvision 60 ft., low-light vision; Perception +1\n\nDEFENSE\n\nAC 18, touch 14, flat-footed 14 (+2 Dex, +4 natural, +2 size)\nhp 42 (4d10+20); self repair 3 (acid, cold, fire)\nFort +1; Ref +3; Will +2\nImmune construct traits, swarm traits\nWeaknesses swarm traits\n\nOFFENSE\n\nSpeed 40 ft.\nMelee swarm (1d6)\nSpace 10 ft.; Reach 0 ft.\nSpecial Attacks distraction (DC 12)\n\nSTATISTICS\n\nStr 14, Dex 15, Con —, Int —, Wis 13, Cha 12\nBase Atk +4; CMB — ; CMD —\nSkills Stealth +2 (+6 when not moving); Racial Modifiers +4 Stealth when not moving\n\nSPECIAL ABILITIES\n\nSelf-Repair (Ex)\n\nA clockwork swarm regains 3 hit points per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If a clockwork swarm takes damage from an area attack, it is unable to repair itself for 1d6 rounds following the attack. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects) until it has at least 1 hit point (at which time it begins to self-repair at its normal rate of 3 hit points per round).\n\nSource\n\nTome of Horrors Complete\nSupport Open Gaming\nwww.opengamingstore.com\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Paizo, Inc. (Pathfinder Roleplaying Game Reference Document).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d0e3a953468262c.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d0e3a953468262c"
+  },
+  "license": "OGL 1.0a"
+}

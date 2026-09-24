@@ -1,0 +1,30 @@
+{
+  "id": "45e0b471b3375e8a",
+  "name": "Baleful Conjunction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 4,
+      "inquisitor": 3,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, cleric/oracle 4, inquisitor 3, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F/DF (a pinch of ash from the ground around a meteorite strike)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou inflict a debilitating fate upon your enemies that stymies them unless they gather together like stars in a constellation. If, while under the effects of this spell, a target is more than 30 ft. away from another target, it takes a –4 penalty to all attack rolls, ability checks, damage rolls, skill checks, and saving throws. While targets are within 30 ft. of at least one other target of the spell, the penalty decreases to –1. The targets suffer no penalty only if all of the targets of the spell are within 5 ft. of at least one other of the spell’s targets, but such an occurrence does not end the spell’s duration.\n\nBaleful conjunction counters and dispels heroic conjunction.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45e0b471b3375e8a.json",
+    "web": "https://codex.pipsprojects.com/#/e/45e0b471b3375e8a"
+  },
+  "license": "OGL 1.0a"
+}

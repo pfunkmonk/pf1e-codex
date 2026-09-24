@@ -1,0 +1,27 @@
+{
+  "id": "94e3b779e5da2c02",
+  "name": "Anger of Many Faces",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion [shadow]; Level sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of blood)\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 1 round/level\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\n\nDESCRIPTION\n\nThe recipient gains an extra head, which sprouts from the creature’s shoulders. This extra head can deliver bite attacks as the base creature (either a tiger, panther, viper, cobra, or jackal). The target makes this bite attack as a primary natural weapon, with a bonus equal to its own base attack bonus. The bite attack always deals 1d6 hp damage/2 caster levels (max 5d6). The recipient cannot be flanked while the spell is in effect.\n\nFor every 4 caster levels you possess, this spell produces a further head (maximum of 5 heads). All bite attacks are primary natural weapons, meaning you can make attacks with all of them as part of a standard attack action.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94e3b779e5da2c02.json",
+    "web": "https://codex.pipsprojects.com/#/e/94e3b779e5da2c02"
+  },
+  "license": "OGL 1.0a"
+}

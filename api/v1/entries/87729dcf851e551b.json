@@ -1,0 +1,28 @@
+{
+  "id": "87729dcf851e551b",
+  "name": "Heavenly Endowment",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 7,
+      "shaman": 7,
+      "wizard": 7
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [void]; Level psychic 7, shaman 7, sorcerer/wizard 7\n\nCasting Time 2 rounds\n\nComponents V, S, DF\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget 1 intelligent creature other than you\n\nDuration concentration, up to 3 rounds/level\n\nSaving Throw Will negates (harmless); Spell Resistance no\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nYou leverage your connection to the Void to empower another intelligent creature (Int score 3 or higher) within range with the blessings of the universe to exceed some of their limitations. When you cast this spell, select one of the target’s ability scores to gain an enhancement bonus equal to your spellcasting ability modifier or the maximum capacity of your ki pool, whichever is greater. This enhancement bonus lasts as long as the target remains within range and you concentrate on this spell to maintain the link. Unlike other spells, you cannot pass the concentration of this spell to a familiar/spirit or use any method to forgo concentrating on this spell in a similar manner.\n\nThe increase to the target’s ability score by this spell cannot grant them additional spell slots, extra skill ranks, or additional uses of any ability or feat. Any increase granted to Constitution in this way provides temporary hit points instead of changing the target’s hit points.\n\nIf you fail a concentration check for this spell, both you and the target are automatically stunned for one round.\n\nWhen this spell ends, both you and the target are overwhelmed by the experience, gaining the exhausted condition for 1 hour. If you or the target is immune to exhaustion, this spell is wasted without any effect.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/87729dcf851e551b.json",
+    "web": "https://codex.pipsprojects.com/#/e/87729dcf851e551b"
+  },
+  "license": "OGL 1.0a"
+}

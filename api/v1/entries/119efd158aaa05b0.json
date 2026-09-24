@@ -1,0 +1,32 @@
+{
+  "id": "119efd158aaa05b0",
+  "name": "Elemental Investiture",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 6,
+      "alchemist": 6,
+      "druid": 6,
+      "magus": 6,
+      "shaman": 6,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [see text]; Level adept 6, alchemist 6, druid 6, magus 6, shaman 6, sorcerer/wizard 6, witch 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 minute/level\n\nDESCRIPTION\n\nYou wreath you body in elemental power, choosing between earth, fire, ice, or wind when the spell is cast. The spell gains the descriptor of the element chosen.\n\nIf you choose earth you gain the following:\n\nDR 5/-.\nYou can move through difficult terrain caused by rocks or stone without a movement penalty and is treated as having spider climb active if moving on rock or stone.\nYou can cause a small earthquake 10 feet around you dealing 2d8 magic bludgeoning damage to creature in the area. The creatures must also make a Reflex save or be knocked prone.\n\nIf you choose fire you gain the following:\n\nImmunity to fire and cold resistance 10.\nYou deal 1d6 fire damage to any creature that ends their turn within 5 feet of you.\nYou can fire a ray of fire as a ranged touch attack that deals 4d8 fire damage as a standard action on your turn.\n\nIf you choose ice you gain the following:\n\nImmunity to cold and fire resistance 10.\nThe ground within 10 feet of you is considered difficult terrain and you are unaffected by difficult terrain caused by ice or snow.\nYou can fire a shard of ice as a ranged touch attack that deals 2d8 magic piercing damage and 2d8 cold damage as a standard action on your turn.\n\nIf you choose wind you gain the following:\n\nA +10 bonus to AC against ranged weapon attacks and ranged natural weapon attacks.\nYou gain a fly speed of 60 feet (average). If you are flying when the spell ends, you drop.\nYou can create a 10-foot-cube whirlwind that deals 2d8 magical bludgeoning damage to all within. The creatures must also make a Fortitude save or be pushed up to 10 feet away from the center of the whirlwind.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/119efd158aaa05b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/119efd158aaa05b0"
+  },
+  "license": "OGL 1.0a"
+}

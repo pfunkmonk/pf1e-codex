@@ -1,0 +1,23 @@
+{
+  "id": "d1d80a686312cfca",
+  "name": "Explosive Tips",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "machinesmith": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation (fire); Level machinesmith 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nDuration 1 round/level (D) or until discharged\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes ammunition to explode on contact with a target or solid surface. Whenever a creature affected by this spell hits on a ranged attack with a bow, crossbow, firearm, siege weapon, sling, or thrown shuriken, each piece of ammunition explodes in a 10-foot burst from the target, dealing 1d6 fire damage, +1 for every 2 caster levels, with a Reflex save for half damage. Targets that fail this save catch on fire.\n\nNeoExodus Chronicles: Weapons of Machinesmith Destruction Copyright 2014, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1d80a686312cfca.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1d80a686312cfca"
+  },
+  "license": "OGL 1.0a"
+}

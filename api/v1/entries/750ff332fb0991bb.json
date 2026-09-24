@@ -1,0 +1,23 @@
+{
+  "id": "750ff332fb0991bb",
+  "name": "Absolute Command",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pair of small gloves fitted with a conduit and worth 100 gp)\n\nEFFECT\n\nRange touch\nEffect mechanical construct touched\nDuration 5 min. +1 min. per level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou can control a construct you have built with Hit Dice equal to or less than your level. You can manipulate objects with your construct as precisely as its construction allows.\n\nThe construct uses the caster’s base attack bonus (modified by the construct’s Strength and Dexterity scores) and saving throw modifiers for Reflex and Will saving throws. You can use the manipulators of the construct to perform any number of skill-based tasks, using the construct’s Strength and Dexterity modifiers when using skills based on those particular abilities.\n\nYour body remains immobile, as if paralyzed, for the duration of the spell. The construct must remain within 100 ft. +10 ft. per level of the caster. If it moves beyond this distance the spell immediately ends and the caster’s mind returns to his body.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/750ff332fb0991bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/750ff332fb0991bb"
+  },
+  "license": "OGL 1.0a"
+}

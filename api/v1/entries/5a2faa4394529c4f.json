@@ -1,0 +1,25 @@
+{
+  "id": "5a2faa4394529c4f",
+  "name": "Glyph Of Remembrance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "magus": 6,
+      "wizard": 5,
+      "witch": 6
+    },
+    "save": "special",
+    "sr": "see text",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level magus 6, sorcerer/wizard 5, witch 6\n\nCASTING\n\nCasting Time 4 min.\nComponents V, S\n\nEFFECT\n\nRange touch; see text\nTarget one touched surface; see text\nDuration 1 hr./level or until discharged; see text\nSaving Throw see text; Spell Resistance see text\n\nDESCRIPTION\n\nYou create a mystic glyph that contains information about other types of magic, much as a scroll does. The glyph occupies 1 sq. ft., and it can only be created on a suitably large surface. After you create the glyph you have 2 min. to cast arcane spells into the glyph.\n\nWhen casting a spell in this way, the spell slot is consumed but the spell does not take effect and is instead stored in the glyph. The glyph can store a number of spell levels and a number of spells equal to one third of your caster level (round down).\n\nWhen the glyph is triggered, it will cast all of the spells it contains upon the creature that triggered it. The glyph’s triggering condition and target are decided during the casting. The glyph ignores a trigger if the target is out of range of any spell the glyph contains, or if the target does not fulfill the target conditions of any spell the glyph contains. Multiple triggers may be chosen at casting, but only one target type may be chosen.\n\nThe possible trigger methods are:  Contact: Something touches the glyph or the surface immediately around it (out to a 5-ft. square).\n\nExamination: A creature reads or examines the glyph.\nCommand word: A specific command word, set at casting, is spoken. The possible target types are:  Triggerer: The triggering creature or object is targeted.\nNearest: The nearest creature or object that fulfills the target conditions of every spell in the glyph is targeted.\nSelf: The glyph targets all spells on the surface it is inscribed upon.\n\nIf all spells in the glyph require a standard action or shorter casting time, all spells take effect immediately. If any spells have a longer casting time, all spells are delayed until a duration equal to the longest single casting time has passed.\n\nAll spells cast from the glyph of remembrance have the save DCs they had when cast into it. All attacks made as part of spells and checks against spell resistance are made as though by the original caster of the individual spell.\n\nA dispel magic spell can remove the sigil.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a2faa4394529c4f.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a2faa4394529c4f"
+  },
+  "license": "OGL 1.0a"
+}

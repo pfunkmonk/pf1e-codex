@@ -1,0 +1,23 @@
+{
+  "id": "7babf0bb5f01640e",
+  "name": "Animate Glyphs",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one Small glyph/caster level\nDuration 1 hr./level or until expended (see text) (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou may trace a number of glyphs equal to your caster level, each corresponding in size to a Small object. As you increase in levels, you may inscribe larger glyphs as follows: a Medium glyph counts as two Small glyphs, a Large glyph as four, and a Huge glyph as eight.\n\nOnce the glyph or glyphs are complete, they remain immaterial and adjacent to you, floating silently until activated as a move action. When so activated, they spring to life as animated objects appropriate to the size of the glyph or glyphs traced. These animated glyphs remain for 1 round/level or until destroyed.\n\nGlyphs created by this spell have hp equal to half that of an animated object of their size category, and the animated glyphs have a touch attack that deals acid, cold, fire, electricity, or sonic damage (your choice at time of casting). The damage depends on the size of the glyph; Small glyphs deal 2d8 damage, and each successively larger glyph deals 1d8 more damage. Spell resistance applies to this damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7babf0bb5f01640e.json",
+    "web": "https://codex.pipsprojects.com/#/e/7babf0bb5f01640e"
+  },
+  "license": "OGL 1.0a"
+}

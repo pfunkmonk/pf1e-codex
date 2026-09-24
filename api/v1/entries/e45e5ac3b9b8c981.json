@@ -1,0 +1,23 @@
+{
+  "id": "e45e5ac3b9b8c981",
+  "name": "Ley Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 9
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect 90-ft.-radius storm cloud\nDuration concentration (maximum 10 rounds) (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell summons a ley-energy storm in the form of a black storm cloud shot through with shifting colors. Each creature under the cloud must succeed on a Fortitude save or be deafened for 1d4+10 min. Additionally, each round you continue to concentrate, the spell generates additional effects as noted below. Each effect occurs on your turn.\n\n2nd Round: Ley-infused pebbles rain from the sky, dealing 1d6 hp bludgeoning damage (no save).\n\n3rd Round: You call down six ley bolts from the cloud. You decide where the bolts strike. No two bolts may be directed at the same target. Each bolt does 10d6 hp electricity damage. Creatures struck receive a Reflex save for half damage.\n\n4th Round: You can call down one 20-ft.-radius prismatic sphere of disruptive aura, as per the spell.\n\n5th through 10th Rounds: Flashes of prismatic lights flash in and out of the spell’s radius, causing those within the targeted area to suffer a -4 penalty to all Perception checks. Each round, you can direct pockets of ley surges, which deal 5d6 hp electricity damage direct a ley surge in 20-ft.-radius (no save).\n\nSpecial: A geomancer casting this spell is healed 1d6 hp per two levels upon casting. This spell cannot cause a geomancer to gain more than his maximum hp.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e45e5ac3b9b8c981.json",
+    "web": "https://codex.pipsprojects.com/#/e/e45e5ac3b9b8c981"
+  },
+  "license": "OGL 1.0a"
+}

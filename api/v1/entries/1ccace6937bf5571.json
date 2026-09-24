@@ -1,0 +1,26 @@
+{
+  "id": "1ccace6937bf5571",
+  "name": "Bait",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "druid": 2,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion); Level bard 4, druid 2, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (small mundane item)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget person who sees it first (see below)\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance no\n\nDESCRIPTION\n\nWhen this enchantment is placed upon a mundane item, the first person who sees it must make a Will save. Failure makes the victim experience an overwhelming desire to possess the enchanted item, causing him to move immediately toward it, ignoring all dangers. While under the influence of this spell, the victim is considered flat-footed and fights at a -4 attack penalty.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ccace6937bf5571.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ccace6937bf5571"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "0fbc849a7367f4a2",
+  "name": "Bubble Goop",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of tree sap or flesh from a mimic that must be consumed during the casting)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one or more bubbles\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nBubble goop allows you to breathe forth one bubble per two caster levels (maximum 6 bubbles at 12th level) that quickly float toward a designated target. When a bubble contacts a solid surface or creature, it pops and releases a sticky goo that quickly covers a 5-foot area or a creature (a creature can attempt a Reflex save to avoid the goo). One bubble can cover a Medium or smaller creature. For every size category larger than Medium, one additional bubble is required to cover a creature.\n\nIf you release multiple bubbles, you can direct them to strike a single creature or several creatures.\n\nA creature covered with goo takes a –2 penalty on attack rolls and a –4 penalty to Dexterity and it can move only at half speed. A flying creature must make a second Reflex save or be unable to fly (assuming it uses its wings to fly) and fall to the ground. This spell does not function underwater. Multiple bubbles that hit a single creature do not increase the penalty on attack rolls or the penalty to Dexterity.\n\nA creature can break free by dealing damage to the goo with a slashing weapon. The goo has 10 hit points. For every additional bubble that strikes a foe, increase the goo’s hit points by +3. A creature trying to scrape goo off itself, or another creature assisting, does not need to make an attack roll; hitting the goo is automatic, after which the creature that hit makes a damage roll to see how much of the goo is scraped off. Once free, the creature can move (including flying) at normal speed.\n\nA character capable of spellcasting who is bound by the goo must succeed on a Concentration check (DC 15 + the level of the spell) to cast a spell. The goo becomes brittle and fragile after 1 minute, cracking apart and losing its effectiveness. An application of universal solvent dissolves the goo immediately.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0fbc849a7367f4a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/0fbc849a7367f4a2"
+  },
+  "license": "OGL 1.0a"
+}

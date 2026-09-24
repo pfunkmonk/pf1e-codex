@@ -1,0 +1,28 @@
+{
+  "id": "649564690123a6c4",
+  "name": "Entangling Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (shadow) [darkness]; Level bard 2, cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a broken lock)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 10 ft. radius burst\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you utter the words for this spell, chains and locks made from shadow writhe into being at a point in range you designate. Creatures in the area that fail a Will save become entangled. They may attempt to free themselves with a Strength or Escape Artist check against the spell’s DC. Either attempt to escape requires a full round action whether it is successful or not. In addition, the affected area is treated as difficult terrain until the beginning of your next turn.\n\nBreath of Life: The Spelljack, © 2022, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/649564690123a6c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/649564690123a6c4"
+  },
+  "license": "OGL 1.0a"
+}

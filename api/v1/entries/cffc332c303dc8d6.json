@@ -1,0 +1,25 @@
+{
+  "id": "cffc332c303dc8d6",
+  "name": "Cloud Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level cleric/oracle 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of silver dust)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 60-ft.-radius circle\nDuration 1 minute\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell collects existing water vapor in the atmosphere and releases it as light rain, sleet, or snow for the duration of the spell. If the temperature in the surrounding area is 90° F or higher, the duration doubles, except in desert areas. In an area where the temperature is between 31° and 33° F, the precipitation takes the form of sleet. At temperatures of 30° F or less, the precipitation takes the form of snow. If cloud burst is cast on a Large or larger fire source (such as a wall of fire), or if magical heat or fire (such as a fireball or flame strike) is cast in the area of cloud burst, a cloud of warm fog (treat as a fog cloud) billows through the area of effect for 3 rounds. If a cold-based spell or effect is used on an area soaked by cloud burst (such as a cone of cold cast on rain-soaked ground), normal ice is formed. Such ice remains for the duration of this spell if the temperature is below 32° F; otherwise the ice melts normally when the temperature rises above freezing.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cffc332c303dc8d6.json",
+    "web": "https://codex.pipsprojects.com/#/e/cffc332c303dc8d6"
+  },
+  "license": "OGL 1.0a"
+}

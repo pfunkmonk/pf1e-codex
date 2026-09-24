@@ -1,0 +1,38 @@
+{
+  "id": "b0057d08bbc6e03f",
+  "name": "Enemies Abound",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 3,
+      "antipaladin": 3,
+      "bard": 3,
+      "inquisitor": 3,
+      "lathspell": 3,
+      "mesmerist": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment [emotion, fear, mind-affecting]; Level adept 3, antipaladin 3, bard 3, inquisitor 3, lathspell 3, mesmerist 3, occultist 3, psychic 3, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 feet + 10 ft./level)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou muddy the target’s mind causing them to see their allies as enemies. If the target fails their Will save, all creatures are considered enemies and they do not provide or benefit from teamwork benefits, like teamwork feats, flanking or aid another for the duration. Additionally, when choosing a target for a spell, attack, or ability, they must randomly choose between all the creature within range of the action chosen. Finally, they must attempt attacks of opportunities against any creature that triggers them.\n\nEach time the creature takes damage, they may attempt a new saving throw against the effect. On a successful saving throw they do not use attacks of opportunity or their actions on their allies. However, they still cannot benefit from or provide the teamwork benefits detailed above for the duration.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b0057d08bbc6e03f.json",
+    "web": "https://codex.pipsprojects.com/#/e/b0057d08bbc6e03f"
+  },
+  "license": "OGL 1.0a"
+}

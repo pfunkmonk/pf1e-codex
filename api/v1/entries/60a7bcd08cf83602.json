@@ -1,0 +1,24 @@
+{
+  "id": "60a7bcd08cf83602",
+  "name": "Swirl Of Axes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (one normal axe per axe created)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/5 levels, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nFor each of this spell’s recipients, the spell creates a pair of Medium-sized axes that whirl about the recipient’s head. During a recipient’s turn, he or she may direct the axes to attack as a move action. The axes attack separately with an attack bonus equal to the target’s base attack bonus plus your Charisma or Intelligence modifier (whichever is greater). The axes bypass damage reduction as magic weapons and deal slashing damage as a battleaxe (1d8/x3). The axes may participate in attacks of opportunity.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/60a7bcd08cf83602.json",
+    "web": "https://codex.pipsprojects.com/#/e/60a7bcd08cf83602"
+  },
+  "license": "OGL 1.0a"
+}

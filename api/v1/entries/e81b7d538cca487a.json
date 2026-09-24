@@ -1,0 +1,29 @@
+{
+  "id": "e81b7d538cca487a",
+  "name": "Dispel Wood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "shaman": 5
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School abjuration [metal]; Level druid 5, cleric/oracle 5, inquisitor 5, shaman 5\n\nMetal: Spells with this descriptor include those that directly create, utilize, or manipulate metal in some manner or conjure creatures composed of metal. Such spells are considered to belong to the Metal element (for geomancers) and the metal elemental school (for metal elementalists).\n\nThis spell functions as dispel evil, except it surrounds you in a metallic aura and it affects plant creatures and fey rather than evil ones.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e81b7d538cca487a.json",
+    "web": "https://codex.pipsprojects.com/#/e/e81b7d538cca487a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2324a6146bd50fa0",
+  "name": "Sudden Fear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 1,
+      "bloodrager": 1,
+      "oracle": 1,
+      "death mage": 1,
+      "inquisitor": 1,
+      "lathspell": 1,
+      "legendary ninja": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "white necromancer": 1,
+      "witch": 1
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [emotion, fear, mind-affecting]; Level antipaladin 1, bard 1, bloodrager 1, cleric/oracle 1, death mage 1, inquisitor 1, lathspell 1, legendary ninja 1, psychic 1, shaman 1, sorcerer/wizard 1, white necromancer 1, witch 1\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature with 5 or fewer HD\nDuration 1 round\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nOn a failed saving throw, the target becomes frightened for 1 round. On a success, they are instead shaken for 1 round.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2324a6146bd50fa0.json",
+    "web": "https://codex.pipsprojects.com/#/e/2324a6146bd50fa0"
+  },
+  "license": "OGL 1.0a"
+}

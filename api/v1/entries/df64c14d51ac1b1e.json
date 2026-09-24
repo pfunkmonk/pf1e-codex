@@ -1,0 +1,28 @@
+{
+  "id": "df64c14d51ac1b1e",
+  "name": "Educement Through The Void",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School divination [void]; Level psychic 1, shaman 1, sorcerer/wizard 1\n\nCasting Time 1 standard action\n\nComponents V, S, DF, M (1 pinch of substance from each of the 5 elements)\n\nRange touch\n\nTarget one touched creature or object\n\nDuration instantaneous\n\nSaving Throw none; Spell Resistance yes\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nWith your fingertips coated in the substances of the 5 elements (earth, fire, metal, water, and wood) and connecting to the flow of the Void briefly as you touch your target, you gain a small understanding of the balance of the elements within the target. You choose to learn from one of the following options below about the target. If the chosen option is not applicable to the target, you learn nothing and may try again with another casting of this spell to learn from a different option.\n\nMagic: You learn (no Spellcraft check needed) about one spell (or spell-like effect) in effect on the target creature or one magical effect or enhancement on the target object. Only the spell, effect, or enhancement with the lowest minimum caster level required for that magical effect (or lowest-leveled spell level in case of a tie) is learned in this fashion, regardless of how often you cast this spell on the same target. For example, if a target creature has prestidigitation, shield, and alter self in effect on them, you would learn that it is currently affected by prestidigitation. For example, if a target object is a +1 frost shortsword, you would learn that it has a +1 enhancement.\nSapience: You learn if the target possesses sapience (Int 3 or higher), but their Intelligence score is not revealed. This applies even if the target object does not have an Intelligence score but is possessed by an entity that does have an Intelligence score, such as spirits inhabiting the object. The most common example of this is a kami merged with its ward.\nKi Sensitivity: You learn if the target has a ki pool but not how many points are in the target’s ki pool. If the target has multiple pool abilities that function as a ki pool, you only learn the one that has the lowest minimum class level (or HD if not a class ability) required for that ability (determined randomly in case of a tie), regardless of how often you cast this spell on the same target.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/df64c14d51ac1b1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/df64c14d51ac1b1e"
+  },
+  "license": "OGL 1.0a"
+}

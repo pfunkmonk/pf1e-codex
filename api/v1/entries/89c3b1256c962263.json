@@ -1,0 +1,23 @@
+{
+  "id": "89c3b1256c962263",
+  "name": "Bramble Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation); Level druid 4\nComponents V, S, M (a shorty, thorny vine)\n\nCASTING\n\nCasting Time 1 action\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nA multitude of tough wooden vines with iron-hard thorns spring from the caster’s hands and wrap themselves around the target, providing the target with a +5 armor bonus. Bramble armor is considered medium armor with a +4 maximum Dexterity bonus, a –4 skill check penalty, and a 25% arcane spell failure chance. The armor weighs 15 pounds.\n\nThe thorny vines also make it difficult to hit the wearer without damage.\n\nOn each successful melee attack against the target, the attacker must succeed on a Reflex save at the spell’s DC or take 1d4 points of piercing damage. Attackers using manufactured melee weapons with reach are unaffected by the thorns.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89c3b1256c962263.json",
+    "web": "https://codex.pipsprojects.com/#/e/89c3b1256c962263"
+  },
+  "license": "OGL 1.0a"
+}

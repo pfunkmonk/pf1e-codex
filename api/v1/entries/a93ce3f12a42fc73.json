@@ -1,0 +1,23 @@
+{
+  "id": "a93ce3f12a42fc73",
+  "name": "Conjoin Flesh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Otherverse Games",
+  "book": "Otherverse Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "witch": 7
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Otherverse Games"
+  },
+  "body": "School transmutation (polymorph); Level witch 7\n\nCASTING\n\nCasting Time one standard action\nComponents V, S, M (flesh taken from a conjoined twin)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nDuration permanent\nSaving Throw Ref negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell blends the flesh of two adjacent creatures into a screaming, agonized gestalt- a horrible conjoined twin. This spell targets two creatures of size Large or smaller, who must be within one size category of each other; the targets must either be adjacent or actually touching at the moment the spell is cast.\n\nTargets fused together by this spell share the same space, and may not move away from each other. Their land speed is reduced to 5 ft. (10 ft. for large creatures), and they lose any extraordinary movement modes. Conjoined creatures are considered flat-footed. Both conjoined creatures use the better natural armor bonus of the pair, as their flesh merges and thickens.\n\nClothing and armor worn drops away from the conjoined creature and becomes useless. The deformities caused by the conjoining impose a -6 penalty on attack rolls, Reflex saving throws, and Strength-, Constitution-, or Dexterity-based skill or ability checks.\n\nAny diseases or spell effects afflicting one target afflicts both targets, and the newly afflicted target receives no saving throw against the effect. Beneficial transmutation effects affecting one target end when conjoined flesh is cast successfully. Each round, the conjoined creatures may take only a single move and standard action, as if it were one creature. If the conjoined creatures cannot agree, each makes a Will save; the creature with the higher Will save result is able to control the creature’s actions that round.\n\nConjoined creatures may attempt a DC 30 Strength check to rip themselves free of the conjoining. Doing so is a full-round action that inflicts 2d6 points of temporary Constitution and Charisma damage to both creatures on a success or one point each of temporary Constitution and Charisma damage to each creature on a failed attempt. It is possible to surgically separate conjoined creatures; doing so requires a Heal check with a DC equal to 10 + the spell’s caster level and requires 2d6 hours work. The surgery inflicts 1d8 points of permanent Constitution and Charisma drain on a success and half that amount on a failed attempt, which leaves the victims conjoined.\n\nIf either target succeeds on a Reflex save, they leap clear of each other before their flesh fully fuses, and both targets instead merely take 1d8 points of temporary Constitution and Charisma damage, as large sections of their skins are flayed from their bodies.\n\nNemesis Unleashed Volume II. Copyright 2019, Otherverse Games. Author: Chris A. Field",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a93ce3f12a42fc73.json",
+    "web": "https://codex.pipsprojects.com/#/e/a93ce3f12a42fc73"
+  },
+  "license": "OGL 1.0a"
+}

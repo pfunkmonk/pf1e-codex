@@ -1,0 +1,27 @@
+{
+  "id": "9b9d4666c216172a",
+  "name": "Crush",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 5,
+      "wizard": 4
+    },
+    "desc": [
+      "stone"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation)[stone]; Level druid 5, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a sling stone or bullet)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./ level)\nArea 5‑foot‑radius spread (see text)\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes a massive stone boulder to crash down into the spell’s area, making an attack roll of 1d20 + your caster level + your Wisdom or Intelligence bonus against any creatures in that area. Targets struck are dealt 5d10 bludgeoning damage. The stone boulder then explodes, doing damage to everything within a 20-foot radius (including creatures hit by the initial attack) with the shrapnel. Creatures must make a Reflex save or suffer 5d4 slashing damage. All damage dealt by this spell acts as a magic weapon for purposes of penetrating DR.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b9d4666c216172a.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b9d4666c216172a"
+  },
+  "license": "OGL 1.0a"
+}

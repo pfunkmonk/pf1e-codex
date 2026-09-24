@@ -1,0 +1,28 @@
+{
+  "id": "f7939fd2d2181876",
+  "name": "Temporal Vision",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 6,
+      "cleric": 7,
+      "druid": 7,
+      "shaman": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School divination (scrying); Level bard 6, cleric 7, druid 7, shaman 7, sorcerer/wizard 7, witch 7\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M/DF (a pool of water), F (a quartz mirror worth 2,500 gp)\n\nEFFECT\n\nRange personal\n\nEffect magical sensor\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nTemporal vision creates an invisible magical sensor at the precise point in which you cast the spell that allows you to view your current location at a specific point in time, allowing you to hear and see almost as if you were there. If you wish to view your current location at a specific point in time, you must succeed on a caster level check in order to pinpoint the correct moment in time. The DC of the caster level check is equal to 15 plus any modifiers gained based upon on how well your knowledge of the era is and what sort of physical connection (if any) you have to that point in time.\n\nKnowledge Caster Level\n\nCheck DC None1 +10\n\nSecondhand (you have heard of the point in time) +5\n\nFirsthand (you have heard of the point in time) +0\n\nFamiliar (you have experienced the point in time) -5\n\n1 You must have some sort of connection to a creature for which you have no knowledge.\n\nIf the check succeeds, you can see and hear your current surroundings in the chosen point in time. As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects.\n\nConnection Caster Level\n\nCheck DC Point of time more than ten years in the past or future. +12\n\nLikeness or picture from that point in time. -2\n\nPossession or garment from that point in time. -4\n\nBit of a creature from that point in time. -10 2 Per 10 years difference.\n\nIn addition, the following spells have a 5% chance per caster level of operating through the sensor: detect chaos, detect evil, detect good, detect law, detect magic, and detect pact spirits†.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f7939fd2d2181876.json",
+    "web": "https://codex.pipsprojects.com/#/e/f7939fd2d2181876"
+  },
+  "license": "OGL 1.0a"
+}

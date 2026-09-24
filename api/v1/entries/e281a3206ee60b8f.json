@@ -1,0 +1,28 @@
+{
+  "id": "e281a3206ee60b8f",
+  "name": "Necrotoxic",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 4,
+      "death mage": 3,
+      "shaman": 4,
+      "wizard": 4,
+      "white necromancer": 3,
+      "witch": 4
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy; Level cleric/oracle 4, death mage 3, shaman 4, sorcerer/wizard 4, white necromancer 3, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget undead creature touched\nDuration instantaneous; see text\nSaving Throw Fort negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou inflict the touched undead with a magical poison that only destroys undead. Undead are not immune to the Fortitude save from this spell. The poison deals 1d3 Charisma damage per round for 6 rounds. Undead are not immune to this ability score damage. Poisoned undead can make a Fortitude save each round to negate the damage and end the affliction.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e281a3206ee60b8f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e281a3206ee60b8f"
+  },
+  "license": "OGL 1.0a"
+}

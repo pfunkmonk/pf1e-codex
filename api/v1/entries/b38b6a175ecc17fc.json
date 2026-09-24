@@ -1,0 +1,29 @@
+{
+  "id": "b38b6a175ecc17fc",
+  "name": "Banish Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 7,
+      "nightblade": 6,
+      "wizard": 7
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration [darkness]; Level antipaladin 4, cleric 7, nightblade 6, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft\nArea 30 ft.-radius emanation, centered on you\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA field of pure darkness emanates from you and follows you, removing all light within the area. The lighting within the spell’s area becomes supernatural darkness, as a deeper darkness spell, regardless of existing lighting conditions. All non-magical light sources in the area are snuffed out. Supernatural abilities that create light or fire and spells with the light or fire descriptor are suppressed within the area of the spell, as an antimagic field. Positive energy effects in the area deal only half their normal damage to undead creatures and heal half their normal hit points to living creatures.\n\nBanish light can be used to counter or dispel a spell with the fire or light descriptor of any level, even those with a higher level than banish light.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b38b6a175ecc17fc.json",
+    "web": "https://codex.pipsprojects.com/#/e/b38b6a175ecc17fc"
+  },
+  "license": "OGL 1.0a"
+}

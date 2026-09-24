@@ -1,0 +1,17 @@
+{
+  "id": "db4082b66795a8ed",
+  "name": "Plantoid Servitor",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Rappan Athuk",
+  "book": "Rappan Athuk",
+  "facets": {
+    "bk": "Rappan Athuk"
+  },
+  "body": "These shambling humanoids resemble green-skinned zombies with glowing red eyes, their heads draped with moss.\n\nPlantoid Servitor\nCR 2\n\nXP 600\nN Medium plant\nInit +0; Senses low-light vision; Perception +4\n\nDEFENSE\n\nAC 14, touch 10, flat-footed 14 (+4 natural)\nhp 22 (3d8+6 plus 3)\nFort +3; Ref +1; Will +1\nImmune plant traits\n\nOFFENSE\n\nSpeed 40 ft.\nMelee 2 slams +4 (1d4+2 plus grab)\nSpecial Attacks grab and bite (melee +4, 1d3+2 plus poison), poison\n\nSTATISTICS\n\nStr 14, Dex 11, Con 14, Int 2, Wis 11, Cha 1\nBase Atk +2; CMB +4 (+8 grapple); CMD 14\nFeats Endurance,DiehardB, Toughness\nSkills Perception +4, Stealth +5\nCombat Gear special (see description)\n\nSPECIAL ABILITIES\n\nGrab and Bite (Ex)\n\nA plantoid servitor that succeeds on a grapple check can make a bite attack against its opponent as an immediate action. This attack uses the plantoid servitor’s full attack bonus and deals 1d3+2 damage.\n\nPoison (Ex)\n\nTransformative Poison: Bite—injury; save Fort DC 13; frequency 1/round for 4 rounds; effect special; cure 1 save.\n\nOn the first failed save, the victim is paralyzed for 1d6 rounds. On the second failed saving throw, moss rapidly grows on all skin surfaces. The victim gets a +2 bonus on the third saving throw, but if the third save fails the victim becomes a plantoid servitor under the control of the nearest plantoid. There is a 25% chance that the victim becomes a new plantoid in a hideous transformation that takes 24 hours. If the victim succeeds on his third saving throw, the moss that grew on him withers and dies and falls away within a few minutes.\n\nThe save DC is Constitution-based.\n\nVariants\nPlantoid\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, gang (2–5)\nTreasure special (see description)\n\nPlantoid servitors are humans (and their ilk) who have fallen prey to a plantoid. It is possible for a plantoid servitor to operate independently of a plantoid, in which case the eyes will not glow. Plantoid servitors acting independently from one of the plantoid masters are capable of following only the simplest of instructions, such as “attack anyone entering this room,” and the plantoid is not able to give further instructions until it can once again gain physical contact with the plantoid servitor.\n\nPlantoid servitors drop any held equipment when they are first dominated, but retain any worn gear such as armor, backpacks, capes, rings, and so on. At the GM’s discretion, a plantoid servitor may still be wearing—and gaining the full benefit of—any special worn gear or magic items it possessed in its previous life.\n\nRappan Athuk Copyright 2012 Bill Webb, Frog God Games",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/db4082b66795a8ed.json",
+    "web": "https://codex.pipsprojects.com/#/e/db4082b66795a8ed"
+  },
+  "license": "OGL 1.0a"
+}

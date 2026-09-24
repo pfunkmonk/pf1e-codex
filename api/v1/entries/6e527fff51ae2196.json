@@ -1,0 +1,35 @@
+{
+  "id": "6e527fff51ae2196",
+  "name": "Weakness, Greater Mass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 4,
+      "oracle": 4,
+      "druid": 4,
+      "inquisitor": 4,
+      "paladin": 4,
+      "psychic": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "unchained summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level bard 4, cleric/oracle 4, druid 4, inquisitor 4, paladin 4, psychic 4, shaman 4, sorcerer/wizard 4, summoner/unchained summoner 4, witch 4\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions as greater weakness except as noted above.\n\nRead Magic: Alternative Spells II, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates and Paulo César Viola da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e527fff51ae2196.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e527fff51ae2196"
+  },
+  "license": "OGL 1.0a"
+}

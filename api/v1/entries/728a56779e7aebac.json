@@ -1,0 +1,28 @@
+{
+  "id": "728a56779e7aebac",
+  "name": "Damage Morale",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nDuration 10 minutes/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target receives a morale penalty to his Will saving throws equal to 2 + the greater of the caster’s Wisdom or Intelligence modifier. Multiple castings of damage morale by the same caster on the same target have cumulative results. This penalty stacks with itself, but not any other morale penalties.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/728a56779e7aebac.json",
+    "web": "https://codex.pipsprojects.com/#/e/728a56779e7aebac"
+  },
+  "license": "OGL 1.0a"
+}

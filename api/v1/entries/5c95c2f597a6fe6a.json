@@ -1,0 +1,27 @@
+{
+  "id": "5c95c2f597a6fe6a",
+  "name": "Doom Of Blue Crystal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [evil]; Level antipaladin 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a blue crystal)\n\nEFFECT\n\nRange personal (aura)\nTarget 15-ft. radius around caster\nDuration 1 round/level\nSaving Throw Fortitude; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou generate a glowing field of blue energy that first immobilizes and then petrifies foes. Creatures within the radius of the spell (including the caster) receive Fortitude saving throws; a successful save means the creature suffers no effect from the aura that round. Failing one such saving throw immobilizes the creature, reducing its movement rate to zero and making it flat-footed. Failing a second save petrifies and transforms the creature into a statue of blue crystal. The caster always gains a +2 profane bonus to these Fort saves, and if the caster turns to crystal the spell ends immediately, leaving the caster immobile.\n\nIn crystal form, the creatures gain hardness 5 and retain their own hp. Crystal creatures can see, hear, and smell normally, but they do not need to eat or breathe. Feeling is limited to those sensations that can affect the quartzlike substance of the individual’s body. Chipping is equal to a mere scratch, but breaking off one of the statue’s arms constitutes serious damage, and damage dealt this way should be rolled normally (once the statue’s hardness 5 has been accounted for).\n\nCasting shatter on such a crystal creature kills it instantly.\n\nIf the crystal statue resulting from this spell is broken or damaged, the subject (if ever returned to its original state) has similar damage or deformities. The creature is not dead while in crystal form, but it does not seem to be alive either when viewed with spells such as deathwatch.\n\nCreatures transformed into blue crystal can be restored with cleanse, dispel magic, transform stone to flesh, or heal spells.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5c95c2f597a6fe6a.json",
+    "web": "https://codex.pipsprojects.com/#/e/5c95c2f597a6fe6a"
+  },
+  "license": "OGL 1.0a"
+}

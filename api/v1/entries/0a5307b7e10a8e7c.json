@@ -1,0 +1,27 @@
+{
+  "id": "0a5307b7e10a8e7c",
+  "name": "Bestial Lure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "special",
+    "sr": "no (object) text",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion [shadow]; Level sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 min.\nComponents V, S, M (fur, hair, or skin of the creature)\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration permanent until discharged\nSaving Throw see text; Spell Resistance no (object) text\n\nDESCRIPTION\n\nThis spell inscribes an object with protection, setting a guardian in a similar way to a glyph of warding spell. When casting the spell, a faint trace of a pair of tiger claws or a tiger maw is etched into the object. These images vanish when the spell is complete.\n\nThe caster chooses the conditions of the bestial lure when casting. The lure always leaves a scent, which can be identified with a DC 15 Perception check by those who have the scent ability. This scent hangs within 120 ft. of the lure, and rakshasas often use it to lure prey. The scent of any available creature can be used.\n\nTypically, any creature passing through the area guarded by the lure or opening or using the object protected by the lure triggers it unless a set password is spoken or an object immediately shown.\n\nTriggering the bestial lure conjures a phantasmal tiger, which attacks for 1 round/level of the caster. Unlike most illusory creatures, though, the tiger is imbued with the power of rakshasas and deals full damage. If you are 9th level or above, the phantasmal tiger summoned is a dire tiger and deals full damage. The summoned shadow creature must remain within 60 ft. of the lure.\n\nThe phantasmal creature summoned can be partially disbelieved as a standard shadow illusion spell to avoid damage. a creature that succeeds its saving throw sees the tiger as a transparent image superimposed on a vague outline of the object.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a5307b7e10a8e7c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a5307b7e10a8e7c"
+  },
+  "license": "OGL 1.0a"
+}

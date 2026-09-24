@@ -1,0 +1,27 @@
+{
+  "id": "89eded20bacd28f9",
+  "name": "Death Bringer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 7,
+      "wizard": 8
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 7, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 30 minutes\nComponents V, S, F (a masterwork dagger made of bone from a skeleton the caster previously animated)\n\nEFFECT\n\nRange 1-mile burst\nTarget see text\nDuration instantaneous\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nUsing a minor but ancient evil ritual, you stab yourself in the chest and spread the pain over a wide area, bringing death to sleeping creatures as far as a mile away. The bone dagger used in the casting of this spell always strikes you as a critical hit, even if you would normally be immune to critical hits, and deals an additional 2 points of Constitution damage while leaving you stunned for 5 rounds.\n\nSleeping creatures with fewer than 6 HD within a one-mile radius must succeed at a Fortitude save with a DC equal to 10 + damage dealt or die. Those that succeed, and sleeping creatures with more than 6 HD, awaken suddenly as if from a nightmare that included the figure of death attempting to slay them.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89eded20bacd28f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/89eded20bacd28f9"
+  },
+  "license": "OGL 1.0a"
+}

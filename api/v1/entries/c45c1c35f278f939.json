@@ -1,0 +1,28 @@
+{
+  "id": "c45c1c35f278f939",
+  "name": "Rainbow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "beguiler": 6,
+      "bard": 6,
+      "oracle": 6
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [light]; Level beguiler 6, bard 6, cleric/oracle 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 minute/level (D)\n\nDESCRIPTION\n\nYou create a longbow and a quiver of arrows in all the hues of the rainbow. The rainbow is treated as a +1 longbow and you gain proficiency with it, regardless of having the requisite feat. The quiver has an unending supply of arrows of various colors. Depending upon which arrow is drawn from the quiver it adds an extra effect to the attack from the longbow as follows: Red: The attack is considered adamantine and bane against outsider (elemental) creatures.\n\nOrange: The attack is considered silver and bane against constructs.\nYellow: The attack is considered evil-aligned and bane against plants.\nGreen: The attack is considered good-aligned and bane against magical beasts.\nBlue: The attack is considered lawful-aligned and bane against undead.\nIndigo: The attack is considered chaotic-aligned and bane against aberrations.\nViolet: The attack is considered cold iron and bane against dragons.\n\nThe bow only works for you and if dropped or given to another appears back on your person. However you may stow the bow to use other weapons or cast spells.\n\nThe bow and arrows have no weight and cannot be sundered or destroyed, but can be dispelled if any part is subject to a dispel effect. At the end of the spell’s duration, the bow and arrows disappear.\n\nBreath of Life: The Scout, © 2024, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr. and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c45c1c35f278f939.json",
+    "web": "https://codex.pipsprojects.com/#/e/c45c1c35f278f939"
+  },
+  "license": "OGL 1.0a"
+}

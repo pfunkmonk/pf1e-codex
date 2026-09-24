@@ -1,0 +1,27 @@
+{
+  "id": "d2f4c66c81c7c688",
+  "name": "Sandburst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "ranger": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [earth]; Level druid 1, ranger 1\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange 10 feet\n\nEffect 10-ft.-radius burst centered on you\n\nDuration instantaneous\n\nSaving Throw Reflex negates; Spell Resistance yes\n\nYou unleash a blast of sand into an area around you, dealing 1d6 nonlethal damage and stunning affected creatures for 1 round. A successful Reflex save halves the damage and negates the stunning. If this spell is cast in a desert or on a beach where there is sand in your square, the damage is increased to 1d6 nonlethal damage per caster level (maximum 5d6) and the target is staggered on a successful save.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d2f4c66c81c7c688.json",
+    "web": "https://codex.pipsprojects.com/#/e/d2f4c66c81c7c688"
+  },
+  "license": "OGL 1.0a"
+}

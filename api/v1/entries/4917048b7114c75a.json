@@ -1,0 +1,28 @@
+{
+  "id": "4917048b7114c75a",
+  "name": "Mental Regression",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget touched living creature\nDuration 10 minutes/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou temporarily wipe the target’s maturity and experiences from its mind, making it act as though it were a child. The target replaces its mental aging ability score modifiers for those of the Child age category (–2 Intelligence, –4 Wisdom, –2 Charisma for humanoids). In addition, its base attack bonus is reduced to +0 and each of its skill ranks grants a +0 bonus on checks made using that skill instead of the usual bonus. As a result, the target cannot use any trained-only skills for the duration of this spell unless the target has an ability that allows such skills to be used untrained. Finally, the target’s effective level in each of its classes is reduced to 1 for the purpose of all level-dependent abilities and effects it possesses. This also prevents a spellcaster from casting spells that it could not cast as a 1st-level spellcaster. This spell doesn’t affect the target’s hit points or which class features it possesses.\n\nPact Magic Unbound: Grimoire of Lost Souls Copyright 2016 Radiance House; Authors Alexander Augunas, Dario Nardi",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4917048b7114c75a.json",
+    "web": "https://codex.pipsprojects.com/#/e/4917048b7114c75a"
+  },
+  "license": "OGL 1.0a"
+}

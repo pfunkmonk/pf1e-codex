@@ -1,0 +1,17 @@
+{
+  "id": "cf53fe0d809bbfcd",
+  "name": "Bastet Temple Cat",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Cat and Mouse",
+  "book": "Cat and Mouse",
+  "facets": {
+    "bk": "Cat and Mouse"
+  },
+  "body": "BASTET TEMPLE CAT\nCR 4\n\nXP 1,200\nCN Small magical beast\nInit +2; Senses darkvision 60 ft., scent; Perception +9\n\nDEFENSE\n\nAC 17, touch 14, flat-footed 14 (+2 Dex, +1 dodge, +1 size, +3 natural)\nhp 35 (5d10+10)\nFort +6, Ref +6, Will +4\n\nOFFENSE\n\nSpeed 40 ft., climb 20 ft.\nMelee 2 claws +8 (1d3+2), bite +8 (1d4+2 plus grab)\nSpecial Attacks pounce, rake (2 claws +8, 1d4+2)\nSpell-like Abilities (CL 4th, concentration +7)\n\nConstant—detect chaos\nAt will—guidance\n3/day—cure light wounds, charm person (DC 14)\n1/day—cat’s grace\n\nSTATISTICS\n\nStr 15, Dex 15, Con 15, Int 12, Wis 16, Cha 16\nBase Atk +5; CMB +6; CMD 19 (23 vs. trip)\nFeats Allied Spellcaster, Dodge, Mobility, Spring Attack\nSkills Acrobatics +10, Climb +15, Escape Artist +6, Perception +9, Stealth +14, Racial Modifiers +8 Climb, +4 Stealth.\nLanguages Sylvan, Trade Tongue\n\nSPECIAL ABILITIES\n\nFascinating Lure (Su)\n\nAs a full-round action, a Bastet temple cat can purr loudly while targeting a single humanoid within 30 feet that has line of sight to it. That creature is compelled to move toward the cat and attempt to pet it or pick it up (DC 15 Will negates), as suggestion. Once it has spent at least 1 round petting the cat, the target is entitled to a new saving throw each round at the end of its turn; if failed, it continues petting the cat for an additional round. If successful, the compulsion ends. At any point, the cat can attack the target of its compulsion, who is considered flat-footed against the cat’s attacks until the end of the cat’s turn. Once a creature succeeds on its saving throw, it is immune to fascinating lure of that Bastet temple cat for 24 hours. The save is Charisma-based.\n\nPriestly Purr (Su)\n\nABOUT\n\nBastet temple cats were created first and foremost for the service of Bastet’s temple priestesses. A Bastet temple cat treats all divine casters that worship Bastet as though they had the Allied Spellcaster teamwork feat for the purpose of gaining its effects. When a divine spellcaster who worships Bastet spends an hour preparing spells (or renewing daily spell slots) with a Bastet template cat within 5 feet, that spellcaster gains Allied Spellcaster as a bonus feat for 24 hours, though the spellcaster gains its benefits only when adjacent to the cat. In addition, the spellcaster can imbue up to two 1st-level and one 2nd-level spells into the temple cat, as imbue with spell ability. The cat can use these spells without a verbal component.\n\nCat and Mouse, © 2015, Open Design. Author: Richard Pett.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf53fe0d809bbfcd.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf53fe0d809bbfcd"
+  },
+  "license": "OGL 1.0a"
+}

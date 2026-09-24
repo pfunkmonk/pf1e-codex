@@ -1,0 +1,28 @@
+{
+  "id": "ceee2ecdb85049ca",
+  "name": "Wrath of the Heavens",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "psychic": 9,
+      "shaman": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "void"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [void]; Level psychic 9, shaman 9, sorcerer/wizard 9\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange long (400 ft. + 40 ft./level)\n\nTarget a number of creatures (see text) in range, no two of which may be more than 30 ft. apart\n\nEffect spread of cosmic energy\n\nDuration instantaneous\n\nSaving Throw Fortitude (see text); Spell Resistance yes\n\nVoid: Spells with this descriptor are tied with a philosophical school of magic based on a concept known as the Void. The school teaches that the Void is the nothingness from which springs forth creativity, insight, spirit, thought, and also the source of pure energy from which all elements and phenomena are derived. Channeling the power of the Void (or the Void element) allows for the manipulation of the elements in objects and creatures, among other possibilities. Spells with the void descriptor are considered to belong to the Void element (for geomancers) and the void elemental school (for void elementalists).\n\nIf a spell has the [void] descriptor, it cannot be dispelled by elements release regardless of how high is your CL.\n\nYou channel the power of the Void and the myriad heavenly laws of the world to spread from your outstretched hand. This spread of cosmic energy usually takes the form of a multitude of stars glittering upon the backdrop of the void, but other similar visual phenomena are possible.\n\nWrath of the heavens consumes all affected creatures, leaving no traces of their body behind; gear and clothing are unaffected. Such consumed creatures can only be restored to life via true resurrection, a carefully worded wish spell followed by resurrection, or miracle.\n\nAffected creatures may negate the effects of the spell on them with a successful Fortitude save. The spell can only affect a number of creatures in one of the following ways that you choose:\n\nOne creature whose HD is equal to or less than your HD.\nAny number of creatures of a lower HD than you with a collective sum of HD equal to or less than 1.5 times your HD, rounded down.\n\nIf an affected creature has less than 10 HD and you have irrefutable and truthful proof that creature has previously deliberately, maliciously, and unjustly harmed you or your kin (related by blood or legal), that creature does not gain a Fortitude save against this spell.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ceee2ecdb85049ca.json",
+    "web": "https://codex.pipsprojects.com/#/e/ceee2ecdb85049ca"
+  },
+  "license": "OGL 1.0a"
+}

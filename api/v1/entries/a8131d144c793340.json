@@ -1,0 +1,28 @@
+{
+  "id": "a8131d144c793340",
+  "name": "Inscribed Enemy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "inquisitor": 1,
+      "legendary ninja": 1,
+      "magus": 1,
+      "paladin": 1,
+      "ranger": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level cleric 1, inquisitor 1, legendary ninja 1, magus 1, paladin 1, ranger 1\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, F (a writing brush and ink)\n\nEFFECT\n\nRange touch\nArea one weapon\nDuration permanent until discharged\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nYou inscribe a potent blessing upon a weapon for use against one specific creature, whose name must be written on the weapon with the focus component; if the creature’s name is not known, you can still use inscribed enemy by identifying the creature specifically; for example, “the ogre that lives on Tumbledown Hill.” The target weapon functions against the designated creature as a +1 bane weapon. The spell ends after the weapon has been used to successfully hit the designated creature; it also ends if the weapon is used to strike any other creature.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8131d144c793340.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8131d144c793340"
+  },
+  "license": "OGL 1.0a"
+}

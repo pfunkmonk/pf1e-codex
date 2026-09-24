@@ -1,0 +1,27 @@
+{
+  "id": "684ee0f0b94ce067",
+  "name": "Binding Ice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [cold]; Level magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a vial of cold water)\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped burst\nDuration 1 round/level, see text\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nA frigid cone bursts forth freezing those within. Those within the blast must make a Fortitude save or take 1d4 cold damage per caster level (maximum 10d4) and be entangled and unable to move until they free themselves. A successful saving throw halves this damage and prevents the entangled condition and reduction in speed.\n\nOn their turn, a creature hindered by the ice may attempt to break free as a move action, making a Strength or Escape Artist check against the DC of the spell. The area of the cone is considered a slippery surface. A creature attempting to traverse the area at more than half speed must make a DC 15 Acrobatics check at the start of the movement or when they first enter the affected area. Failure causes the creature to fall prone at that point. Running or charging in the area increases the DC by 5. A creature that succeeds on this check by 5 or more may choose to increase their speed for the movement by 10 feet by sliding but are considered flat?footed until the beginning of their next turn. Creatures with class abilities that prevent them from being caught flat-footed are not flat-footed from this sliding.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/684ee0f0b94ce067.json",
+    "web": "https://codex.pipsprojects.com/#/e/684ee0f0b94ce067"
+  },
+  "license": "OGL 1.0a"
+}

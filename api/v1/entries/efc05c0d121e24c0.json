@@ -1,0 +1,19 @@
+{
+  "id": "efc05c0d121e24c0",
+  "name": "Direct Gravity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "special",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (gravity); Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea up to one 10-ft. cube/level (S)\nDuration 1 round/level (D)\nSaving Throw none, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou change the direction of gravity within an area, causing creatures and objects to fall in a different direction than normal. You can use this in two ways: reversal, and redirect.\n\nIf you reverse gravity, unattached objects and creatures in the area fall upward, as a reverse gravity spell.\n\nIf you redirect gravity, you change its direction to function perpendicular to the ground in any direction. Unattached objects and creatures in the area fall sideways in the direction you specify and reach the end of the area in 1 round. If a solid object (such as a wall) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the end of the area without striking anything, it falls to the ground prone outside the area, after which it can move as normal. At the end of the script duration, affected objects and creatures fall downward to the ground.\n\nProvided it has something to hold onto, a creature caught in the area can attempt a Reflex save to secure itself when the script strikes. Creatures who can fly or levitate can keep themselves from falling in any direction.\n\nOverload: For every runic charge overloaded into this script, the area increases by an additional 10-ft. cube.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efc05c0d121e24c0.json",
+    "web": "https://codex.pipsprojects.com/#/e/efc05c0d121e24c0"
+  },
+  "license": "OGL 1.0a"
+}

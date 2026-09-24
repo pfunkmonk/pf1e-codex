@@ -1,0 +1,27 @@
+{
+  "id": "4286d08368be4df3",
+  "name": "Destroy Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "druid": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [water]; Level cleric/oracle 1, druid 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect up to 2 gallons of water/level\nDuration instantaneous\nSaving Throw none (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell destroys (dries up) up to 2 gallons of water per caster level, including magical water, but excluding magic potions. You can target a water creature with this spell. Creatures with the water subtype take 1d4 points of damage per caster level from this spell (5d4 max). A successful Fortitude save negates the damage.\n\nThis spell counters or dispels create water and can be countered or dispelled by create water.\n\nNote: This spell can’t destroy water within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4286d08368be4df3.json",
+    "web": "https://codex.pipsprojects.com/#/e/4286d08368be4df3"
+  },
+  "license": "OGL 1.0a"
+}

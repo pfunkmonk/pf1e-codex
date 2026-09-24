@@ -1,0 +1,25 @@
+{
+  "id": "25834ce7fd3826fe",
+  "name": "Overload",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 3,
+      "psychic": 3,
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level magus 3, psychic 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/2 levels (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou cause the target’s magical defenses to malfunction. You make a targeted dispel attempt per the spell dispel magic at the highest CL of qualifying effects. On a success the spell- or magic-item-granted resistances and immunities to damage, AC bonuses, and saving throw bonuses are suppressed for the duration of this spell.\n\nContact Other Plane: World of Mass Effects II, © 2025, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/25834ce7fd3826fe.json",
+    "web": "https://codex.pipsprojects.com/#/e/25834ce7fd3826fe"
+  },
+  "license": "OGL 1.0a"
+}

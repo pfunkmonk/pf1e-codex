@@ -1,0 +1,28 @@
+{
+  "id": "c8bb2a1f5bf6b4e1",
+  "name": "Moral Bankruptcy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 2,
+      "inquisitor": 2,
+      "lathspell": 1,
+      "mesmerist": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion; Level antipaladin 1, cleric/oracle 2, inquisitor 2, lathspell 1, mesmerist 2, witch 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, M (a silver piece)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou put a pall of wild alignments and moral pulls over the target. For the duration, the target qualifies as the least beneficial alignment for them when subject to alignment-based spells and effects. For example, a lawful good paladin could be affected by smite good and smite evil. Protection from evil would cause any summoned creature affected by this spell to be treated as evil for the purposes of the spell. In addition, whenever the target is subject to an alignment-detecting spell or effect, they register as the directly opposing alignment of the creature performing the detection; if the creature is neutral, it is the caster’s choice.\n\nMoral Bankruptcy, Mass\n\nSchool illusion; Level antipaladin 2, cleric/oracle 4, inquisitor 3, lathspell 2, mesmerist 3, witch 4\nTarget one creature/level, no two of which can be more than 30 ft. apart.\n\nDESCRIPTION\n\nThis spell functions as moral bankruptcy, except as noted above.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c8bb2a1f5bf6b4e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/c8bb2a1f5bf6b4e1"
+  },
+  "license": "OGL 1.0a"
+}

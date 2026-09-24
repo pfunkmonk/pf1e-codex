@@ -1,0 +1,27 @@
+{
+  "id": "d9fca781e0ecfd76",
+  "name": "Fangstorm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [force]; Level druid 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft. radius, 40 ft. high\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause the air to fill with glowing fangs of force that rip and tear into the flesh of anyone in the area of effect. The fangs deal 10d6 points of physical damage, and cause the wounds to bleed at a rate of 1 hp per four caster levels (max 5 hp/round). If the Fortitude save is successful, the target takes half damage and does not begin bleeding. This spell is effective against incorporeal targets, but such targets do not begin bleeding.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d9fca781e0ecfd76.json",
+    "web": "https://codex.pipsprojects.com/#/e/d9fca781e0ecfd76"
+  },
+  "license": "OGL 1.0a"
+}

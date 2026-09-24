@@ -1,0 +1,28 @@
+{
+  "id": "67a5389f360c8f2b",
+  "name": "Vital Mark",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 2,
+      "antipaladin": 2,
+      "oracle": 2,
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 2, antipaladin 2, cleric/oracle 2, magus 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 10 min.\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget item touched\nDuration 24 hrs.\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou perform a ritual that marks one unattended magic item (including weapons and armor) with a clearly visible stain of your blood. The exact appearance of the bloodstain is up to you, but the magic item’s abilities do not function for anyone else as long as the bloodstain remains on it.\n\nFor example, a +1 flaming kukri with a vital mark is a non-magical kukri in anyone’s hands. It only functions as a +1 flaming weapon for the caster who placed the bloodstain upon it.\n\nThis spell can be made permanent with the permanency spell for a cost of 5,000 gp and minimum caster level 10th.\n\nA vital mark can be removed with spells like dispel magic.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67a5389f360c8f2b.json",
+    "web": "https://codex.pipsprojects.com/#/e/67a5389f360c8f2b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c7a149ec80fef8a8",
+  "name": "Mighty Gale",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 4,
+      "shaman": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation [air]; Level cleric/oracle 4, druid/shaman 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft. + 10 ft./4 levels\nArea 30-ft. cone + 5 ft./4 levels\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou call forth a mighty cone of winds that batter all creatures and obstacles in its path. Against creatures and movable objects this wind acts as a bull rush. You can bull rush creatures of any size, not just those one size larger than your own.\n\nMake a combat maneuver check and apply its results to each creature within the area. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest.\n\nThis bull rush does not provoke an attack of opportunity.\n\nTo destroy immovable objects or structures in the cone, you must make a Strength check. The winds have an effective Strength equal to your caster level plus your best ability score modifier as above. The break DC depends on the object you’re trying to break-see breaking items.\n\nMighty gale extinguishes any fires it encounters along its path. Magical fires from a spell or effect of 4th level or below are also extinguished. Magical fires from a spell or effect of 5th level or higher are unaffected.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7a149ec80fef8a8.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7a149ec80fef8a8"
+  },
+  "license": "OGL 1.0a"
+}

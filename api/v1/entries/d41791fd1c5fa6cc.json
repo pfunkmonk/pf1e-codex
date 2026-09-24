@@ -1,0 +1,28 @@
+{
+  "id": "d41791fd1c5fa6cc",
+  "name": "Cloak of Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "shaman": 5,
+      "wizard": 6
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [water]; Level druid 5, shaman 5, sorcerer/wizard 6\n\nCasting Time 1 standard action\n\nComponents V, S\n\nRange touch\n\nTarget creature touched\n\nDuration 1 hour/level (D)\n\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou surround the touched creature in a sea-green glow.\n\nWhile underwater the target gains the benefits of blur, freedom of movement, and water breathing.\n\nAdditionally, they do not take damage from pressure. While out of the water, the target only gains the blur effect.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d41791fd1c5fa6cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/d41791fd1c5fa6cc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "1b5a2b5f54d34f0c",
+  "name": "Scrawl Bones",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "ink",
+      "language-dependent"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [ink, language-dependent]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 2 standard actions\nComponents S, M (ink and enough pieces of scrimshaw or bone for each target)\n\nEFFECT\n\nRange 1 mile/level\nTarget one creature/level\nDuration 1 hr./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou enchant bleached bones or scrimshaw to communicate with other creatures. You may trace up to 10 words per round on the piece. All the other recipients of the spell can read the message on their matching pieces. The recipients can communicate with the caster and each other in the same fashion.\n\nDestruction of a creature’s piece ends the spell for that creature, while destroying the caster’s piece ends the spell in its entirety.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b5a2b5f54d34f0c.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b5a2b5f54d34f0c"
+  },
+  "license": "OGL 1.0a"
+}

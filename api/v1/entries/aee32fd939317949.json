@@ -1,0 +1,24 @@
+{
+  "id": "aee32fd939317949",
+  "name": "Mage’s Horrifying Leech",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "magus": 3,
+      "domain magic": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level magus 3, sorcerer/wizard 4; Domain Magic 3\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange Medium (40 ft. + 5 ft./level)\nTarget or Area one spellcaster\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell is identical to a dispel magic for the purpose of countering spells as they are being cast. When casting this spell, make a standard caster level check; success means the spell is countered and you gain 2 hp per level of the countered spell.\n\nIf you exceed the level check by five or more, the spell is still successfully countered, and you may forgo the healing effect and absorb the spell being cast instead.\n\nYou gain the ability to cast the spell absorbed as an appropriately prepared spell slot. You must use this spell or write it into your spellbook in the next 24 hrs.; otherwise, you lose it from your memory. You may only write leeched spells to your spellbook if they are on your class list.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aee32fd939317949.json",
+    "web": "https://codex.pipsprojects.com/#/e/aee32fd939317949"
+  },
+  "license": "OGL 1.0a"
+}

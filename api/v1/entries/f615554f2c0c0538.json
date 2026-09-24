@@ -1,0 +1,24 @@
+{
+  "id": "f615554f2c0c0538",
+  "name": "Switchskin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (glamer); Level sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small straw doll)\n\nEFFECT\n\nRange 5 ft.\n\nTarget self and one adjacent creature; see text\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell renders you invisible and gives one adjacent creature you choose the illusion of your appearance. The creature glamered does not know this has happened unless it makes a Will save, and it must rely on the reactions of others around them to become aware of the effect. If the target fails a save but begins to suspect the illusion affecting it, it may make a Spellcraft check on its turn to learn the truth. The DC for this check is equal to the spells’ DC.\n\nCreatures that witness the illusion may make Intelligence or Spellcraft checks to figure out what is going on (DC equal to this spell’s DC). Less-intelligent foes may well become confused and attack their ally. After interacting with the glamer, a creature may make a standard Will saves to disbelieve the illusion.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f615554f2c0c0538.json",
+    "web": "https://codex.pipsprojects.com/#/e/f615554f2c0c0538"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dbbb3cb6dbf7691e",
+  "name": "Pain Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (phantasm)) [mind-affecting]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 level)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nWith a word and a gesture, you send a wave of bright light and a thunderous explosion directly into your target’s mind, overwhelming their senses and dealing them profound pain without harming their body directly.\n\nThis wave of pain deals 1d6 hp nonlethal damage per two caster levels and leaves the target stunned for 1d4 rounds.\n\nA successful Will save negates the stun and reduces the damage by half.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dbbb3cb6dbf7691e.json",
+    "web": "https://codex.pipsprojects.com/#/e/dbbb3cb6dbf7691e"
+  },
+  "license": "OGL 1.0a"
+}

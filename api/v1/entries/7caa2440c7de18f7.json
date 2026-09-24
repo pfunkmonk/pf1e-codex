@@ -1,0 +1,17 @@
+{
+  "id": "7caa2440c7de18f7",
+  "name": "Grauladon",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Grauladon\nCR 2\n\nXP 600\nN Large dragon\nInit 0; Senses darkvision 60 ft., scent, Perception +1\n\nDEFENSE\n\nAC 14, touch 9, flat-footed 14 (+5 natural, -1 size)\nhp 31 (3d12+12)\nFort +7, Ref +3, Will +4\nImmune paralysis, sleep\n\nOFFENSE\n\nSpeed 20 ft., swim 40 ft\nMelee bite +6 (1d8+4), tail slap +4 (1d8+2)\nSpecial Attacks breath weapon (15 foot cone, sickened for 1 minute, DC 15 Fort negates, usable once every 1d4 rounds)\n\nSTATISTICS\n\nStr 18, Dex 11, Con 19, Int 5, Wis 12, Cha 6\nBase Atk +3; CMB +8 (+10 trip), CMD 18 (24 vs. trip)\nFeats Improved Trip, Multiattack\nSkills Stealth +2, Survival +7, Swim +10\nLanguages Draconic (can’t speak)\n\nSPECIAL ABILITIES\n\nBody Slam (Ex)\n\nAs a standard action the Grauladon can swing its tail at each adjacent foe and attempt to trip them. It makes only a single combat maneuver check and compares the result against each adjacent foe’s CMD.\n\nDeep Breath (Ex)\n\nA Grauladon can hold its breath for up to 22-1/2 minutes before it must begin making constitution checks to avoid suffocation.\n\nReactive Breath (Ex)\n\nWhen the Grauladon takes damage from the attack of an adjacent creature, it can use its breath weapon as an immediate action. It must include the attacking creature in the area of effect. The Gravesshell has too many natural attacks, so I removed its claw. Otherwise it converted surprisingly well for a large-sized CR 1 monster.\n\nThe Blargy Blog Author: KVid",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7caa2440c7de18f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/7caa2440c7de18f7"
+  },
+  "license": "OGL 1.0a"
+}

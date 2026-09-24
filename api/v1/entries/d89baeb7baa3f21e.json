@@ -1,0 +1,29 @@
+{
+  "id": "d89baeb7baa3f21e",
+  "name": "Ox’s Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "antipaladin": 2,
+      "cleric": 2,
+      "druid": 2,
+      "magus": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School abjuration; Level antipaladin 2, cleric 2, druid 2, magus 2, paladin 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a piece of an ox’s horn)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 minute/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject’s mind toughens allowing them to withstand mental assaults. The spell grants a +3 resistance bonus to Will saves. This bonus increases by +1 for every 3 caster levels beyond 3rd level to a maximum of +5 at 9th level. This bonus does not stack with other resistance bonuses.\n\nBook of Magic: Signature Spells 1, Copyright 2011, Jon Brazer Enterprises. Author: Dale C. McCoy, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d89baeb7baa3f21e.json",
+    "web": "https://codex.pipsprojects.com/#/e/d89baeb7baa3f21e"
+  },
+  "license": "OGL 1.0a"
+}

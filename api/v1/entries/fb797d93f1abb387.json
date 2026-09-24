@@ -1,0 +1,27 @@
+{
+  "id": "fb797d93f1abb387",
+  "name": "Create Iceberg",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 7,
+      "wizard": 6
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [cold]; Level cleric/oracle 7, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (semi-precious gemstone worth at least 50 gp that is crushed and thrown into the ocean)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 50 cubic ft./level\nDuration permanent, see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a huge chunk of ice out of ordinary seawater. Sufficient seawater must be present to support an iceberg of corresponding size.\n\nUnless the iceberg is in arctic conditions, it melts at a rate determined by the GM, but usually 5 cubic feet per hour in temperate conditions.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb797d93f1abb387.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb797d93f1abb387"
+  },
+  "license": "OGL 1.0a"
+}

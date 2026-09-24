@@ -1,0 +1,23 @@
+{
+  "id": "1b86a22e5490e91d",
+  "name": "Volley Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "Will",
+    "sr": "yes (harmless; see text)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level or until discharged\nSaving Throw Will negates (harmless; see text); Spell Resistance yes (harmless; see text)\n\nDESCRIPTION\n\nThis spell brings into existence an invisible, moving shield with a reflective surface that can absorb damage from incoming spells, projectile weapons, and melee weapons. The shield grants the target DR 15/magic. The shield remains in effect for its duration or until it prevents 15 hp damage/caster level. When it absorbs this maximum amount of damage, the shield immediately dissipates.\n\nThe shield can also volley spells back to their originator.\n\nWhen the target is the subject of an opposing spell, it must make a saving throw as normal. If this save succeeds, the shield successfully volleys the spell back to its original caster. The returned spells’ range, duration, saving throw, and other components remain unchanged.\n\nThe original caster receives the appropriate saving throw versus the returned spell and suffers any ill effects the spell might cause.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b86a22e5490e91d.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b86a22e5490e91d"
+  },
+  "license": "OGL 1.0a"
+}

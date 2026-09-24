@@ -1,0 +1,27 @@
+{
+  "id": "9832d09df18c48bd",
+  "name": "Force Sunder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes (object)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [force]; Level magus 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one object\nDuration instantaneous\nSaving Throw see text; Spell Resistance yes (object)\n\nYou use arcane force to crush or shatter an object. The object takes 2d6 force damage per caster level, maximum 20d6. If the object is not destroyed by the damage, you may make a caster level check against the object’s break DC. The object may make a Fortitude save to halve the damage, or if held by a creature, the holder can make a Reflex save to halve the damage instead.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9832d09df18c48bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/9832d09df18c48bd"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "d8ffe3b194b7928b",
+  "name": "Bile Trap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "ranger": 1
+    },
+    "desc": [
+      "trap"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Legendary Games"
+  },
+  "body": "School conjuration [trap]; Level ranger 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M\n\nEFFECT\n\nRange touch\nTarget one trap\nDuration permanent until discharged\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nNote Trap spells are a type of spell that allows a ranger to create a trap magically. This trap may be magical or non-magical but is otherwise permanent until triggered. A trap occupies a 5-foot square at minimum and cannot be placed where it will be immediately triggered. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 15 + the spell level + the caster’s casting ability modifier.\n\nTrap spells are triggered by a creature entering the square they occupy. They can sense any creature as if using tremorsense. Once triggered, the trap is destroyed and cannot be reset.\n\nYou create a trap that occupies one square. When a creature other than yourself enters the square, a foul smell is released. Any creature within 15 feet of the trap must make a Fortitude save or be nauseated for 1 round. Even if successful, the creature is still sickened for 1 round.\n\nLegendary Rangers © 2019, Legendary Games; Authors: Andrew J. Gibson, Wren Rosario, and Jeff Gomez.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d8ffe3b194b7928b.json",
+    "web": "https://codex.pipsprojects.com/#/e/d8ffe3b194b7928b"
+  },
+  "license": "OGL 1.0a"
+}

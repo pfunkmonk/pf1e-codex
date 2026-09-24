@@ -1,0 +1,31 @@
+{
+  "id": "449fbe468062ecbc",
+  "name": "Control Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "inquisitor": 2,
+      "shaman": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "darkness",
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [darkness, shadow]; Level bard 2, inquisitor 2, shaman 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one 5-ft. cube of shadow/level\nDuration Concentration + 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou can shift and alter existing darkness and shadow, whether natural or magical. You can cause one of the following effects:\n\nDeepen: The darkness becomes darker lowering the light level by 1, if the darkness is already darkness, it becomes supernatural darkness as per the spell deeper darkness.\nLighten: The darkness becomes one level lighter, if the darkness was supernaturally dark like from deeper darkness it becomes standard darkness rather than becoming dim light.\nMove: The affected darkness can be moved anywhere within the spell’s range, however if you move out of the range of the source of the darkness, it returns to its original position.\n\nYou can only have one effect operating at a time but you can switch between them as a free action once per round. The chosen effect covers the entire affected area.\n\nWhen the spell expires all shadows and darkness reverts to their original light levels and locations.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/449fbe468062ecbc.json",
+    "web": "https://codex.pipsprojects.com/#/e/449fbe468062ecbc"
+  },
+  "license": "OGL 1.0a"
+}

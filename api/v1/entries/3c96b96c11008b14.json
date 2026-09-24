@@ -1,0 +1,30 @@
+{
+  "id": "3c96b96c11008b14",
+  "name": "Word of Light Healing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "ranger": 2,
+      "shaman": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level bard 1, cleric/oracle 1, druid 1, inquisitor 1, paladin 1, ranger 2, shaman 1, witch 1\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will half (harmless); Spell Resistance yes (harmless)\n\nYou utter a word charged with energy to bring healing energy to the target that cures 1d4 points of damage plus 1 per two caster level (maximum +2). This spell cannot be used to harm undead.\n\nRead Magic: 5th World Magic, © 2021, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3c96b96c11008b14.json",
+    "web": "https://codex.pipsprojects.com/#/e/3c96b96c11008b14"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "94dddbfb6babdfa6",
+  "name": "Wall Of Viscera",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 5,
+      "summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (see text)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [fear, mind-affecting]; Level sorcerer/wizard 5, summoner 4, witch 4\nComponents V, S, F (a miniature dagger)\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange Medium (100 ft. +10 ft./level)\nEffect wall up to 10 ft./level long and 5 ft./level high (S)\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance yes (see text)\n\nDESCRIPTION\n\nWhen you cast this spell, you prick yourself with the focus, dealing 1 hp damage. If this damage is somehow prevented or negated, the spell is not cast.\n\nYou create a 5-ft.-wide, opaque curtain of undulating, clotting blood. While the wall must be vertical, you can shape it in any continuous path along the ground that you like. You can even create a cylindrical or square wall of viscera to enclose specific points.\n\nCreatures in liquid or gaseous forms cannot pass through the wall (though ethereal or insubstantial ones can), and neither can most gases, liquids, and gas or liquid breath weapons. If the wall is conjured in the same square as a creature that could not pass through it, the creature is immediately and harmlessly shunted to the nearest open space. The squares containing the wall are considered difficult terrain for creatures that can pass through it.\n\nThe wall emanates an aura of dread. Any living creature that wishes to pass through the wall of viscera must succeed at a Will save to do so. The save must be made each time the creature wishes to pass through the wall (or remain in the wall if it pauses partway through). This unwillingness is a mind-affecting fear affect.\n\nIf a creature with spell resistance attempts to pass through the wall, it must make a caster level check when it first does so. If the check fails, the creature can ignore the wall’s fear effect. When you cast this spell, you may exclude yourself from the fear effect, as well as up to one creature per level if you possess a drop of blood from each creature to be excluded.\n\nCreatures that resist or are immune to the fear effect of this spell still must treat the wall as a physical object that blocks vision, resists liquids and gases, and counts as difficult terrain.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/94dddbfb6babdfa6.json",
+    "web": "https://codex.pipsprojects.com/#/e/94dddbfb6babdfa6"
+  },
+  "license": "OGL 1.0a"
+}

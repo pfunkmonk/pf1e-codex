@@ -1,0 +1,24 @@
+{
+  "id": "0081e133c861ef21",
+  "name": "Deific Wrath",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "inquisitor": 5
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation; Level cleric/oracle 5, inquisitor 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 feet + 10 ft./level)\nArea 60-foot cube\nDuration concentration, up to 1 round/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou call upon the power of your deity or faith and fill in an area with its glory. You cause an area within be filled with various boons from your deity. Each effect has an amount of space within the area that can be affected and the exact manifestation of each effect is dependent upon the deity or faith creating it. SR is checked per effect and only one effect may be in any particular square.\n\nDivine Curse: Any area not affected by one of the other effects is filled with the power of your faith cursing your enemies. Any enemy beginning their turn or entering the area must make a Will save or be affected by the spell doom until the beginning of their next turn.\nDivine Guardians: Any creature attempting to pass within 5 feet of one of the affected squares is attacked by a divine spirit. You make an attack roll using your spellcasting modifier and your base attack bonus. If the attack hits, the target takes force damage equal to 1d8 + your spellcasting ability modifier. Additionally, if hit, the target must make a Fortitude save to have their movement ended. If a creature passes through multiple squares protected by a guardian, the creature is only targeted once in any round and stops at the first square passed through. You may place up to 2, 5-foot cubes of this effect within the area.\nRestorative Font: Any ally, including yourself, beginning their turn in or entering an area with this effect takes is healed for 2d6 plus your spellcasting ability modifier. You may place up to 2 5-foot cubes of this effect within the area.\nShield the Faithful: Any ally, including yourself, that begins their turn in or enters a space with this effect gains the benefits of sanctuary until the beginning of their next turn. You may place up to 4, 5-foot cubes of this effect within the area.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0081e133c861ef21.json",
+    "web": "https://codex.pipsprojects.com/#/e/0081e133c861ef21"
+  },
+  "license": "OGL 1.0a"
+}

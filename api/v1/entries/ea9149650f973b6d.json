@@ -1,0 +1,30 @@
+{
+  "id": "ea9149650f973b6d",
+  "name": "Fey Healing, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "druid": 1,
+      "magus": 1,
+      "ranger": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "summoner": 1,
+      "witch": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation (healing); Level bloodrager 1, druid 1, magus 1, ranger 1, shaman 1, sorcerer/wizard 1, summoner 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1 drop of blood from a fey creature)\n\nEFFECT\n\nRange touch\nTarget living or undead creature touched\nDuration 5 rounds + 1 round/level (max 5)\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou anoint the target with the blood of a fey creature, using the inherent magic properties to grant fast healing 1 for the duration. Lesser fey healing does not heal damage dealt by cold iron or lawful-aligned weapons, or spells or effects with the law descriptor. If the target takes such damage during the duration, the spell immediately ends. The target detects as a chaotically-aligned creature and as a fey type creature for the duration of the spell but is not treated as fey or chaotically-aligned for any other purpose.\n\nMultiple fey healing spells or other spells that grant fast healing do not stack. Only the spell that heals the most damage is applied.\n\nRead Magic: The Compilation, © 2023, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea9149650f973b6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea9149650f973b6d"
+  },
+  "license": "OGL 1.0a"
+}

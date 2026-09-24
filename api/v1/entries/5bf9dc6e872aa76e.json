@@ -1,0 +1,25 @@
+{
+  "id": "5bf9dc6e872aa76e",
+  "name": "Rise Again, Lesser",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 6,
+      "shaman": 6,
+      "white necromancer": 6
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 6, shaman 6, white necromancer 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of salt water)\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 1 minute/level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou instill the target with a spell that will return them to life if they die during the duration. If the target dies while the spell is active, they are returned to life and cured of 5d8 points of damage + 1 point per caster level (maximum +25). This cannot heal or revive a target killed by a death effect, turned into an undead instantly, or if their body is destroyed or not intact. This also cannot revive a creature who dies of old age. The creature must want to be revived and the spell cannot be cast on a creature who is already dead or undead.\n\nAny ability damage or other ongoing effects continue to affect the target and can kill them, though a 0 Con is set a 1 when this spell triggers.\n\nOnce the target is revived, this spell ends.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5bf9dc6e872aa76e.json",
+    "web": "https://codex.pipsprojects.com/#/e/5bf9dc6e872aa76e"
+  },
+  "license": "OGL 1.0a"
+}

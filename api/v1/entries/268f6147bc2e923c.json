@@ -1,0 +1,26 @@
+{
+  "id": "268f6147bc2e923c",
+  "name": "Bloodstorm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "fear"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fear]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small vial of blood)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cylinder (10 ft. radius, 40 ft. high)\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell summons a whirlwind of blood that envelops the entire area of effect and has several effects on those caught within it. First, those in the area must make a Reflex save or be blinded by the swirling blood while they remain within the whirlwind and for 2d6 rounds after leaving it. Second, all attacks within the area have a –4 penalty to attack rolls, including ranged attacks fired into it. Third the blood deals 1d4 points of acid damage per round of exposure to the whirlwind. Finally, any caught within it must make a Will save or become frightened if 8 HD or more or panicked if less than 8 HD.\n\nTome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Clark Peterson and Scott Greene. Bloodstorm originally appeared in Relics & Rituals by Sword & Sorcery Studios.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/268f6147bc2e923c.json",
+    "web": "https://codex.pipsprojects.com/#/e/268f6147bc2e923c"
+  },
+  "license": "OGL 1.0a"
+}

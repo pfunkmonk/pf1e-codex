@@ -1,0 +1,24 @@
+{
+  "id": "9703e34d7cf229c4",
+  "name": "Tidal Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 8,
+      "wizard": 8
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration; Level druid/shaman 8, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange long (400 ft. + 50 ft./level)\nArea 50 ft. long +10 ft./level line of water 200 ft. wide\nDuration 1 round/level\nSaving Throw Reflex partial; see text; Spell Resistance no\n\nDESCRIPTION\n\nWhen you cast this spell, you call a massive wave from the nearby ocean to crash on land. The wave is 200 ft. wide and inundates an area inland within 50 ft. plus 5 ft./level of the shore.\n\nCreatures caught in the wave take 1d6 hp bludgeoning damage/caster level (maximum 20d6) at the moment of impact. They also must make a Swim check each round the spell lasts (DC equal to this spell’s) to stay above water.\n\nAt the end of the spell, unsecured objects and creatures caught in the wave are pulled back out to sea unless they make a Reflex save. The distance equals half the distance the wave came inland. Buildings and objects caught in the wave take 100 hp damage at the moment of impact.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9703e34d7cf229c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/9703e34d7cf229c4"
+  },
+  "license": "OGL 1.0a"
+}

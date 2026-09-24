@@ -1,0 +1,25 @@
+{
+  "id": "45d0f7f2d0ed3a52",
+  "name": "Enemy Within",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "wizard": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion; Level bard 5, cleric/oracle 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. +5 ft./caster level)\nDuration 1 round/caster level\nSaving Throw Will disbelief; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou spit out a curse and point to the target, which receives a Will save. If it fails, the target feels and sees a swarm of terrifying insects crawling under its skin (the specific insects vary by target, but could include ants, bees, centipedes, or any insects that particularly frighten the target). These insects deal 3d6 hp damage each round; each round the target would take damage, it receives a Fortitude save to halve the damage.\n\nA target affected by this spell may spend a full-round action slashing at its skin (with a weapon or otherwise) to release the illusory insects; if it does so, this spell ends, but the target takes damage equal to 2d6 + its Strength modifier. The target does not take damage from the insects during the round it spends slashing its skin.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45d0f7f2d0ed3a52.json",
+    "web": "https://codex.pipsprojects.com/#/e/45d0f7f2d0ed3a52"
+  },
+  "license": "OGL 1.0a"
+}

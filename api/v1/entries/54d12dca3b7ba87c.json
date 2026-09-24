@@ -1,0 +1,28 @@
+{
+  "id": "54d12dca3b7ba87c",
+  "name": "Slalom Skier",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "druid": 1,
+      "magus": 1,
+      "ranger": 1,
+      "wizard": 1,
+      "summoner": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School transmutation; Level alchemist 1, druid 1, magus 1, ranger 1, sorcerer/wizard 1, summoner 1\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M (a miniature ski pole)\n\nEFFECT\n\nRange touch\n\nTarget creature touched\n\nDuration 1 min./level\n\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nThe subject gains a +10 enhancement bonus on Acrobatics checks made to ski. The enhancement bonus increases to +20 at caster level 5, and to +30 (the maximum) at caster level 9.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/54d12dca3b7ba87c.json",
+    "web": "https://codex.pipsprojects.com/#/e/54d12dca3b7ba87c"
+  },
+  "license": "OGL 1.0a"
+}

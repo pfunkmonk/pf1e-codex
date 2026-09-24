@@ -1,0 +1,28 @@
+{
+  "id": "538f2517cc83f4e4",
+  "name": "Ravenous Urge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a piece of cured flesh)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nUpon completion of this spell, you must gnaw on the piece of cured flesh, causing your target to be overcome with desire to consume the living. Roll on the following table at the start of the target’s turn to determine what it does that round.\n\nTable 2-13: Ravenous Urge Compulsions\nd%\tResult\n01-25\tAct normally.\n26-75\tAttack the nearest creature with a bite attack. If the target does not possess a bite attack, it gains one as a primary natural attack that deals 1d6 hp piercing damage.\n76-100\tBite self, dealing 1d6 hp damage + Str modifier.\n\nThe target receives a new saving throw at the end of each of its turns to end this effect.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/538f2517cc83f4e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/538f2517cc83f4e4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "abe325cbce6a8ffb",
+  "name": "Grudge Match",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 2,
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level cleric/oracle 2, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTargets two creatures/level, no two of which may be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou reveal how the norns have entwined the fates of nearby allies and enemies. For every ally targeted by this spell, you must also target an enemy within range. If you do not do this, the spell fails.\n\nFor the duration of the spell, every target gains a +2 insight bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls made against opponents also affected by the spell. In addition, all critical hits are automatically confirmed against such opponents and all targets can identify fellow subjects of this spell by sight, as a free action.\n\nIf a subject of the spell makes any of the above checks against a target other than those also subject to this spell, the subject suffers a -2 penalty.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/abe325cbce6a8ffb.json",
+    "web": "https://codex.pipsprojects.com/#/e/abe325cbce6a8ffb"
+  },
+  "license": "OGL 1.0a"
+}

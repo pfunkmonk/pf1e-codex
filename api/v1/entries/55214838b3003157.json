@@ -1,0 +1,30 @@
+{
+  "id": "55214838b3003157",
+  "name": "Imaginary Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 4,
+      "medium": 6,
+      "mesmerist": 4,
+      "wizard": 6,
+      "spiritualist": 4
+    },
+    "desc": [
+      "ruse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (mind-affecting) [ruse]; Level bard 4, medium 6, mesmerist 4, sorcerer/wizard 6, spiritualist 4, witch 6; Void\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates (disbelief), see text; Spell Resistance yes\n\nDESCRIPTION\n\nChanneling magic wrought from a planar realm such as the Plane of Dreams, the Astral, the Spirit World, or other similar location where illusion-based magic are abundant, you weave a deception of weakness so powerful that you fool the target creature into believing they have been partially transformed into a pale imitation of themselves.\n\nOn a failed initial Will save, the target creature is convinced that they have been affected by the shadow transformation spell instead and subsequently transformed into a weak shadowy version of themself.\n\nThe reality though is that the target creature is fooled into believing that all of their attacks and special abilities (including spells, if any) deal only one-fifth (20%) of the normal damage. Any of the target’s attacks or special abilities that don’t deal damage are only onefifth (20%) of their normal effects (if applicable) or 20% of working normally instead.\n\nBecause they believe that they are made into a creature of shadowstuff, if they take damage while under the effects of this spell, their mind attempts to reconcile with why they are taking full damage. Thus, the target creature gains a new saving throw once each round at the start of their turn to disbelieve the spell’s effect if they have taken damage from any source in the previous round.\n\nAttempts to identify imaginary form with a skill check incorrectly identify it as shadow transformation.\n\nContact Other Plane - Evalvarith Codex I, © 2025, Orphaned Bookworm Productions, LLC, Authors: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/55214838b3003157.json",
+    "web": "https://codex.pipsprojects.com/#/e/55214838b3003157"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ee6b622af5c9831d",
+  "name": "Sea Of Ink",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "creation",
+      "ink"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration [creation, ink]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (a vial of ink)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nArea 5 sq. ft.+ 5 sq. ft./3 levels\nDuration 1 min./level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nBy spilling a sea of ink on the ground and stirring concentric circles into it, the caster creates an inky morass similar to quicksand.\n\nThe caster may choose to make the sinkhole move of its own accord, at a maximum speed of 20 ft./round, up to the spell’s range. The sinkhole is 20 ft. deep; when the spell ends, the sinkhole disappears. Anything within it appears on the ground’s surface (no longer beneath it) and covered in ink.\n\nCreatures that enter the sinkhole’s area must make a DC 15 Reflex save or begin to sink (treat as pinned).\n\nOn the second round, a sinking creature may make an Escape Artist or Strength check as a full-round action to free itself (DC equal to this spell’s DC). Failure means the creature remains pinned. On the third round, the creature may retry the Escape Artist or Strength check as a full-round action. Failure means the creature begins to drown.\n\nA drowning creature may try to free itself each round on its turn by attempting an Escape Artist or Strength check as a full-round action. A failed save indicates the creature sinks 5 ft. deeper. (For every 5 ft. sunk, the creature must make a check to move 5 ft. up. Success on a check at the top of the sinkhole frees the creature.) Helping the creature by throwing it a rope grants a +2 bonus to its check attempt, plus the total Strength modifier of the creature(s) pulling it free. A fly spell automatically frees a trapped creature.\n\nA grease spell used in conjunction increases all DCs by +2. Use of illusory script with sea of ink creates an invisible sinkhole that resembles regular ground (Perception DC 24 to detect).\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ee6b622af5c9831d.json",
+    "web": "https://codex.pipsprojects.com/#/e/ee6b622af5c9831d"
+  },
+  "license": "OGL 1.0a"
+}

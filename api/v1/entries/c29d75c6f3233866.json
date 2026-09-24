@@ -1,0 +1,26 @@
+{
+  "id": "c29d75c6f3233866",
+  "name": "Inner Demon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [evil]; Level alchemist 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nUpon drinking this extract, you gain some physical characteristics or abilities of an evil, extraplanar creature.\n\nChoose how you are affected from the following list:\n\nServant of Fire: Attuned to the fires of the Abyss, you gain DR 5/good, a fiery aura that deals 2d6 damage to any enemies within 5 ft. of you, and one of your melee weapons gain the flaming special quality.\nDisciple of Law: Bound by the contracts of hell, you gain DR 5/silver, resist fire 5, and a 10-ft.-radius fear aura (as per universal monster ability and the spell fear). The aura has a DC 13 + Int modifier Will save.\nDaemonic Initiate: Imbued with the pure evil of daemonic kind, you gain DR 5/cold iron, resist cold 5, and a spittle attack. You may make a ranged touch attach against a single target within 20 ft.; a target hit by the spittle must succeed on a Will save with a DC equal to that for this extract or fall asleep (as per the sleep spell, for 2 rounds.)\n\nYou may not have more than one inner demon extract in effect at the same time.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c29d75c6f3233866.json",
+    "web": "https://codex.pipsprojects.com/#/e/c29d75c6f3233866"
+  },
+  "license": "OGL 1.0a"
+}

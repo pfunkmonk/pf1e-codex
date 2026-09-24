@@ -1,0 +1,27 @@
+{
+  "id": "39ed352627eba028",
+  "name": "Lucky Break",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, cleric/oracle 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a two-headed copper piece)\n\nEFFECT\n\nArea 40-ft. radius burst centered on you\nTarget all allies within the area\nDuration see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nOne of the next failed rolls made by one of the targets of the spell becomes a success. The gods of luck, rather than the caster, choose which type of roll is transformed.\n\nWhen determining which type of roll is affected, the GM should roll a d10 and consult the following table.\n\nTable 2-8: Rolls Affected\nd10\tRoll transformed\n1-2\tSaving throw\n3-5\tSkill check\n6-10\tAttack roll\n\nThe GM also should roll 1d4 to determine which roll is improved among those that immediately follow the casting of the spell. A roll of 1 means the very next failed roll of the indicated type is improved, while a roll of 4 means that three rolls fail before one is changed. The subjects cannot be under the effect of more than one lucky break spell at a time.\n\nMythic: The caster can choose the type of roll-saving throw, skill check, or attack roll-that becomes a success.\n\nThe affected ally then may choose which specific roll of that type becomes a success long as it is made within a number of rounds equal to the caster’s mythic tier after the spell is cast.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/39ed352627eba028.json",
+    "web": "https://codex.pipsprojects.com/#/e/39ed352627eba028"
+  },
+  "license": "OGL 1.0a"
+}

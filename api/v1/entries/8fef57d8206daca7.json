@@ -1,0 +1,26 @@
+{
+  "id": "8fef57d8206daca7",
+  "name": "Phantasmal Strangler",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "inquisitor": 3,
+      "lathspell": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School illusion (phantasm)) [mind-affecting]; Level inquisitor 3, lathspell 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration 1 round/4 levels\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nYou create a phantasmal image of a nightmarish creature. Only the spell’s target can see the phantasmal strangler. You see a shadowy shape, while others see nothing. The target first gets a Will save to recognize the image as unreal, at which point, on a success the spell fails. On a failure, the target is strangled by the phantasmal creature and is treated as if grappled for the duration of the spell.\n\nEach round on your turn, the phantasmal strangler deals 2d6 points of damage to the target. If the target is reduced to -1 or fewer hit points by this damage, the spell ends.\n\nEach round, on their turn, the target can attempt any actions a creature that is part of a grapple could do.\n\nTreat the phantom strangler’s CMB and CMD as equal to the target for this purpose. The phantasmal strangler cannot be damaged, or pinned. If the target escapes the grapple, the spell ends.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8fef57d8206daca7.json",
+    "web": "https://codex.pipsprojects.com/#/e/8fef57d8206daca7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "c07b92c59c3114d5",
+  "name": "Beacon of Faith",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [light]; Level antipaladin 1, cleric/oracle 1, inquisitor 1, paladin 1, shaman 1\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 20 ft.\nArea 20 ft. aura centered on you\nDuration concentration up to 1 round/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou raise the symbol of your faith high and it emits a divine light. The nature of the light depends upon your faith but it creates a light similar to a torch. Any creature within the light of the spell that shares your deity or faith, including yourself, gains a +1 bonus to damage rolls, AC, and saving throws. The bonus provided is either sacred or profane depending on the alignment of your deity or faith. While the holy symbol need not be held aloft for the spell to be maintained, it must remain visible and shedding light for the benefits to be provided.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c07b92c59c3114d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/c07b92c59c3114d5"
+  },
+  "license": "OGL 1.0a"
+}

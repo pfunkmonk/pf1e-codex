@@ -1,0 +1,26 @@
+{
+  "id": "e8220384a56fe987",
+  "name": "Freezing Fog",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 4
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation) [cold]; Level druid/shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange Medium 100 ft. + 10 ft./level\nEffect fog spreads in a 20 ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a mass of white vapors like the fog cloud spell. However, each creature and object in the fog takes 3d6 hp cold damage each round on your turn, starting when you cast the spell. The ground in the area of effect quickly freezes over, and is treated as an ice sheet for purposes of movement within the freezing fog. Creatures may move at half speed on the ice sheet. Moving at full speed requires a DC 20 Acrobatics check.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8220384a56fe987.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8220384a56fe987"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bf2739b8d7cd41cf",
+  "name": "Titankarp",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The Colossal Creatures Bestiary",
+  "book": "The Colossal Creatures Bestiary",
+  "facets": {
+    "bk": "The Colossal Creatures Bestiary"
+  },
+  "body": "TITANKARP\nCR 22\n\nThis carp’s eyes radiate with an overwhelming stupidity that makes its absurd size even more dangerous.\n\nXP 615,000\nN Colossal animal\nInit +2; Senses low-light vision; Perception +21\n\nDEFENSE\n\nAC 37, touch 0, flat-footed 37 (–2 Dex, +37 natural, –8 size)\nhp 493 (34d8+340)\nFort +30, Ref +17, Will +12\n\nOFFENSE\n\nSpeed swim 50 ft.\nMelee bite +40 (4d6+23), slam +41 (3d8+23), tail slap +35 (4d6+11)\nSpace 60 ft.; Reach 20 ft.\nSpecial Attacks ramming fish, wreck-making slam\n\nSTATISTICS\n\nStr 56, Dex 7, Con 28, Int 1, Wis 13, Cha 2\nBase Atk +25; CMB +56; CMD 64\nFeats Critical Focus, Diehard, Endurance, Great Fortitude, Improved Great Fortitude, Improved Initiative, Improved Natural Armor (x2), Improved Natural Attack (slam), Power Attack, Skill Focus (perception), Skill Focus (swim), Staggering Critical, Stunning Critical, Swim-By Attack, Toughness, Weapon Focus (slam)\nSkills Perception +27, Swim +49\n\nSPECIAL ABILITIES\n\nRamming Fish (Ex)\n\nThis ability works like the capsize monster rule, except for the following: for every 5 by which the maneuver check exceeds the capsize DC, the ship is pushed 30 ft. If the ship encounters a solid unmovable or colossal-sized object, it takes 2d8 damage for every 5 by which the maneuver check exceeds the capsize DC. That solid object takes the same amount of damage if it is breakable (reroll the dice). If the capsize attempt is successful, all creatures on the ship must succeed a DC 50 Reflex save or a DC 50 Acrobatics check, or fall prone. If they fail their save by 10 or more, they are thrown into the water. If they are inside of the ship, they must succeed a Fortitude save with the same DC or be stunned for 1d6 rounds. The DC is Strength-based.\n\nWreck-Making Slam (Ex)\n\nWhen located under a ship or next to it, the titankarp can attempt to destroy it. If it hits with a slam attack and deals damage, it can immediately try a capsize maneuver following the rules of the ramming fish ability.\n\nECOLOGY\n\nEnvironment any lake\nOrganization solitary\nTreasure none\n\nTitankarps live in the largest lakes, usually in their deepest waters, where no human can disturb its calm movements. As the biggest inhabitant of its home, this gigantic fish fears nothing and roams peacefully, feeding on smaller animals. When it comes closer to the surface, it preys on boats, which it seems to hate. A titankarp attacks these wooden structures because it considers them as rivals for size. Smaller predators often follow the carp, who feast on the swimming sailors.\n\nTitankarps live extremely long lives, and never quite stop growing. If killed, their flesh may be used to nourish a full city. However, such a feast has to be prepared fast. The fish’s strong smell attracts both vermin and hordes of cats.\n\nThe Colossal Creatures Bestiary Copyright 2025 Zenith Games; Author Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf2739b8d7cd41cf.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf2739b8d7cd41cf"
+  },
+  "license": "OGL 1.0a"
+}

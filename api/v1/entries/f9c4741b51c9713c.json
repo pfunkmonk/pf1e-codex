@@ -1,0 +1,17 @@
+{
+  "id": "f9c4741b51c9713c",
+  "name": "Sewer Centipede",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Centipedes Reforged",
+  "book": "Centipedes Reforged",
+  "facets": {
+    "bk": "Centipedes Reforged"
+  },
+  "body": "Sewer Centipede\nCR 1\n\nXP 400\nN Small vermin\nInit +3; Senses blindsense 30 ft., darkvision 60 ft.; Perception +4\n\nDEFENSE\n\nAC 16, touch 14, flat-footed 13 (+3 Dex, +2 natural, +1 size)\nhp 13 (2d8+4)\nFort +5, Ref +3, Will +0\nImmune mind-affecting effects\n\nOFFENSE\n\nSpeed 40 ft., climb 40 ft.\nMelee bite +3 (1d4+1 plus poison)\nSpecial Attacks poison\n\nSTATISTICS\n\nStr 13, Dex 17, Con 15, Int —, Wis 10, Cha 2\nBase Atk +1; CMB +1; CMD 14 (can’t be tripped)\nSkills Climb +9, Perception +4, Stealth +15; Racial Modifiers +4 Perception, +8 Stealth\nSQ compression\n\nSPECIAL ABILITIES\n\nPoison (Ex)\n\nBite—injury; save Fort DC 13; frequency 1/round for 6 rounds; effect 1d2 Dex damage; cure 1 save. The save DC is Constitution-based.\n\nECOLOGY\n\nEnvironment temperate or warm forest or underground\nOrganization solitary, pair, or colony (3–6)\nTreasure none\n\nCentipedes Reforged Copyright 2025 Varyag's Forge Author Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f9c4741b51c9713c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f9c4741b51c9713c"
+  },
+  "license": "OGL 1.0a"
+}

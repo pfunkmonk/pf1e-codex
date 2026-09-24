@@ -1,0 +1,26 @@
+{
+  "id": "cf51a370ba31ee2a",
+  "name": "Caustic Wounds",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [acid]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\n\nArea aura centered on you\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create an aura of acid that aggravates wounds in the area. All bleed damage in the aura is converted to acid damage and increased by 1d4. Additionally, any creature that takes piercing or slashing damage takes an additional 1d8 acid damage.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf51a370ba31ee2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf51a370ba31ee2a"
+  },
+  "license": "OGL 1.0a"
+}

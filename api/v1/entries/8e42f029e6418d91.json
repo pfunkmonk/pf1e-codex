@@ -1,0 +1,24 @@
+{
+  "id": "8e42f029e6418d91",
+  "name": "Faerie Ward",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (powdered iron sprinkled on the creature to be warded)/DF\n\nEFFECT\n\nRange touch\nArea 10-ft.-radius emanation centered on touched creature\nDuration 1 round/level\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a magic circle that damages any fey creature currently in or entering the area. Affected creatures take 1d4 points of damage per 2 caster levels (maximum 5d4) on the start of their turn each round they remain in the area. A successful Fortitude save halves the damage. A Fortitude save can be made each round a creature is within the area.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8e42f029e6418d91.json",
+    "web": "https://codex.pipsprojects.com/#/e/8e42f029e6418d91"
+  },
+  "license": "OGL 1.0a"
+}

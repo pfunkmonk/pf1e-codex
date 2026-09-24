@@ -1,0 +1,27 @@
+{
+  "id": "117ff25d072cb2b6",
+  "name": "Burning Monkey Swarm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion [shadow]; Level sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a monkey’s paw)\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nEffect 1 summoned swarm\nDuration 1 round/level (D)\nSaving Throw none and Will partial (see below); Spell Resistance no\n\nDESCRIPTION\n\nYou summon a shadowy, quasi-real swarm of monkeys. These creatures appear as a howling mass of primates and flames, and the entire swarm is burning for the duration of the spell. The illusory flames cause no damage to the monkeys despite their screaming and chattering. The swarm appears on your turn and understands and obeys your commands.\n\nThe monkey swarm deals three-fifths (60%) of normal damage to disbelievers, and non-damaging effects are 60% likely to work against disbelievers. The monkeys attack as a normal monkey swarm but cause a further 1d6 hp fire damage in melee. The save DC for distraction is increased to 18.\n\nCharacters within 30 ft. of the screaming swarm must make a Will save each round or be confused (as the condition). Once the saving throw is made, the character is no longer susceptible to the confusion effects.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/117ff25d072cb2b6.json",
+    "web": "https://codex.pipsprojects.com/#/e/117ff25d072cb2b6"
+  },
+  "license": "OGL 1.0a"
+}

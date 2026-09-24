@@ -1,0 +1,34 @@
+{
+  "id": "95a54e09a297472d",
+  "name": "Flowers of Sadism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 1,
+      "oracle": 2,
+      "lathspell": 1,
+      "magus": 2,
+      "occultist": 2,
+      "psychic": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "pain"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [pain]; Level antipaladin 1, cleric/oracle 2, lathspell 1, magus 2, occultist 2, psychic 2, shaman 2, sorcerer/wizard 2, witch 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, F (a sap)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous, see text\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou focus on the target and cause many painful bruises to form on the target. They take 1d6 points of nonlethal damage per caster level (maximum 10d6) and take a -2 penalty on attack rolls, skill checks, and ability checks until the creature no longer has nonlethal damage, from any source. A successful Fortitude save halves the nonlethal damage and negates the penalty.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Orphaned Bookworm Productions.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95a54e09a297472d.json",
+    "web": "https://codex.pipsprojects.com/#/e/95a54e09a297472d"
+  },
+  "license": "OGL 1.0a"
+}

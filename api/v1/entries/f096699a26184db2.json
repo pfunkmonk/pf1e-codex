@@ -1,0 +1,27 @@
+{
+  "id": "f096699a26184db2",
+  "name": "Petrify",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [earth]; Level druid 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget or Area Large or smaller object touched or 10‑foot‑radius spread\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe petrify spell turns one cloth, wood, or leather object no larger than a Large creature, or a 10‑foot‑radius section of a larger cloth, wood (including grasses), or leather object (including paper and parchment), into smooth stone. If the object or section had a hardness of less than 10, it is increased to 10. It is as hard to catch on fire as rock of the same shape and size. The object or section otherwise maintains the same properties (including flexibility, allowing clothing to still be worn normally after being affected by a petrify). It has no effect on animated or living objects. Objects held by a creature gain that creature’s Will save and SR to resist the spell.\n\nClothing affected by this spell does not grant the wearer any additional protection—it has hardness enough to make it difficult to damage, but can still be penetrated enough to injure the wearer. However, it is possible to give it protective properties by casting the spell as a ritual (casting time 10 minutes) with a material component cost of 1,300 gp. This turns one set of clothing into armor with a +1 armor bonus to AC, no arcane spell failure, no maximum Dexterity bonus, and no armor check penalty. Existing cloth or leather armor becomes masterwork if given this treatment (though masterwork gains no additional benefit).\n\nThis spell can be used to create tents as tough as stone, prevent books from being flammable, make rope much harder to cut, or any of a number of similar uses.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f096699a26184db2.json",
+    "web": "https://codex.pipsprojects.com/#/e/f096699a26184db2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c5210af86fa59cf6",
+  "name": "Climb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School transmutation [earth]; Level bard 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a claw from any creature with a natural climb rate)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject gets a +5 enhancement bonus to all Climb checks and may move at his full movement rate with a successful Climb check (with no increase to the check’s DC). The subject does not suffer any penalty to his Climb check from armor or the weight of equipment carried. It is worth noting that this spell can even be used on creatures who normally can’t climb at all, such as horses.\n\nThe bonus increases to +10 at caster level 9, and +15 at caster level 15.\n\nAdventurer’s Handbook: Genius Guide Volume 1. Copyright 2010, Super Genius Games. Authors: Owen K.C. Stephens and Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c5210af86fa59cf6.json",
+    "web": "https://codex.pipsprojects.com/#/e/c5210af86fa59cf6"
+  },
+  "license": "OGL 1.0a"
+}

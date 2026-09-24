@@ -1,0 +1,24 @@
+{
+  "id": "42d58fd92fad5378",
+  "name": "Extract Life",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 6, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (an onyx vial worth at least 50 gp filled with the blood of the caster)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell requires the sacrifice of a sentient creature of the same race as the spellcaster. The creature to be sacrificed must be helpless and/or bound while the spell is being cast.\n\nAt the culmination of the spell, the caster gains an automatic coup de grace attack upon the victim. If the victim dies as a result of this attack, his life force is transferred to the caster (or another target within touch range of the caster). The target gains immunity to aging effects for 1 month per Hit Dice or level of the creature sacrificed.\n\nA creature slain by this spell can only be restored to life through the successful casting of a resurrection, true resurrection, wish, or miracle spell. Raise dead has no effect on a creature slain by the extract life spell.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/42d58fd92fad5378.json",
+    "web": "https://codex.pipsprojects.com/#/e/42d58fd92fad5378"
+  },
+  "license": "OGL 1.0a"
+}

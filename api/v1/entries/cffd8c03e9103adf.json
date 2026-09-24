@@ -1,0 +1,38 @@
+{
+  "id": "cffd8c03e9103adf",
+  "name": "Tongue’s Prison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "adept": 2,
+      "antipaladin": 2,
+      "bard": 2,
+      "bloodrager": 2,
+      "oracle": 3,
+      "inquisitor": 2,
+      "lathspell": 2,
+      "legendary ninja": 2,
+      "mesmerist": 2,
+      "psychic": 2,
+      "shaman": 3,
+      "wizard": 2,
+      "witch": 2
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School necromancy [curse]; Level adept 2, antipaladin 2, bard 2, bloodrager 2, cleric/oracle 3, inquisitor 2, lathspell 2, legendary ninja 2, mesmerist 2, psychic 2, shaman 3, sorcerer/wizard 2, witch 2\n\nCAST\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature\nDuration permanent (D)\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cast a curse upon the creature causing them to be unable to vocalize. They lose all ability to speak verbally, produce verbal components for spells or abilities, or create sonic, language-dependent, or auditory effects.\n\nTongue’s Prison, Mass\n\nSchool necromancy [curse]; Level cleric/oracle 8, psychic 7, shaman 8, sorcerer/wizard 7, witch .\n\nTargets one creature/level, no two of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions as tongue’s prison except it affects multiple creatures as noted above.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cffd8c03e9103adf.json",
+    "web": "https://codex.pipsprojects.com/#/e/cffd8c03e9103adf"
+  },
+  "license": "OGL 1.0a"
+}

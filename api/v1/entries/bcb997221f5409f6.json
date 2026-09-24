@@ -1,0 +1,27 @@
+{
+  "id": "bcb997221f5409f6",
+  "name": "Space Walk",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 1,
+      "magus": 1,
+      "psychic": 2,
+      "wizard": 2,
+      "summoner": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (teleportation); Level bard 1, magus 1, psychic 2, sorcerer/wizard 2, summoner 1, witch 2; Void\n\nCASTING\n\nCasting Time 1 swift action or 1 immediate action (see text)\nComponents V\n\nEFFECT\n\nRange personal and fixed range (5 ft. + 5 ft./2 levels); see text\nTarget you\nDuration instantaneous\n\nDESCRIPTION\n\nWhen casting this spell, your spatial awareness momentarily expands outwards to encompass all observable spaces within the fixed range listed for this spell, enabling you to briefly synchronize with the space-time of such spaces and establish coordinates for the ensuing teleportation.\n\nWhen you successfully cast this spell, you immediately teleport to any unoccupied and observable space (line of sight) within the fixed range that can support your weight and space. To all other observers, you took a step forward (or similar action) in the direction of your teleportation’s destination and suddenly reappeared in your new location.\n\nIf you cast this spell as a swift action, you suffer no adverse effects from the sudden teleportation. If you cast this spell as an immediate action (usually to avoid being targeted or attacked), you are sickened immediately after the teleportation is completed and until the end of your next turn.\n\nCasting this spell does not provoke an attack of opportunity normally, whether you cast it as a swift or immediate action. You cannot successfully cast this spell if you are held, grappled, or otherwise prevented from being able to move forward normally under your natural means of locomotion (such as walking for creatures with legs, slithering for creatures with only a tail, like snakes, or even swimming, if underwater) into the direction of your teleportation’s destination.\n\nContact Other Plane - Evalvarith Codex I, © 2025, Orphaned Bookworm Productions, LLC, Authors: Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bcb997221f5409f6.json",
+    "web": "https://codex.pipsprojects.com/#/e/bcb997221f5409f6"
+  },
+  "license": "OGL 1.0a"
+}

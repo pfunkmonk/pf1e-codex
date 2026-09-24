@@ -1,0 +1,23 @@
+{
+  "id": "913d8876db2ff0c3",
+  "name": "Ray Of Life Suppression",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray of ley energy\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nA coruscating ray springs from your hand and disrupts a creature’s life spark, weakening it. You must succeed on a ranged touch attack to strike a target.\n\nThe target takes Constitution damage equal to 1d6+1/two caster levels (maximum 1d6+5). The target loses any temporary Constitution bonuses, such as from a barbarian’s rage ability or from bear’s endurance, first.\n\nTreat temporary losses to Constitution as ability damage for the spell’s duration.\n\nThis spell cannot drop a target’s Constitution below 1. A successful Fortitude save reduces this spell’s Constitution damage by half. This penalty does not stack with itself. If a creature is the target of multiple ray of life suppression spells, simply apply the highest such penalty that would affect it.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/913d8876db2ff0c3.json",
+    "web": "https://codex.pipsprojects.com/#/e/913d8876db2ff0c3"
+  },
+  "license": "OGL 1.0a"
+}

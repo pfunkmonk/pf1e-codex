@@ -1,0 +1,27 @@
+{
+  "id": "d778f2cfb4def766",
+  "name": "Call of Earth And Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "shaman": 2,
+      "oracle": 3
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination [earth]; Level druid/shaman 2, cleric/oracle 3\n\nCASTING\n\nCasting Time 1 min.\nComponents V, S, DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration see text\n\nDESCRIPTION\n\nUpon completing this spell, you momentarily commune with the Elemental Planes. You may ask 1d4 questions, which are answered by any earth spirit (creatures with the earth subtype, Intelligence 3 or greater) closest to you at the time. You have no control over the creatures that answer, but those that do must answer honestly, in a language you understand, and cannot attack you or your allies while the spell lasts. Any offensive action by you or your allies immediately breaks the spell, allowing the creature to retaliate or retreat.\n\nThe GM should roll secretly to determine how many questions you may ask and whether the earth creature that answers the summons knows the answers you seek. The responding earth creature has a 60% chance of knowing the answer plus 1% for every point of the creature’s Intelligence score plus 1% per caster level, to a maximum of 99%.\n\nEarth elementals, mephits, and xorns commonly answer this call, with xorns sometimes trading additional questions or details for precious gems and minerals.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d778f2cfb4def766.json",
+    "web": "https://codex.pipsprojects.com/#/e/d778f2cfb4def766"
+  },
+  "license": "OGL 1.0a"
+}

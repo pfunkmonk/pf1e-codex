@@ -1,0 +1,26 @@
+{
+  "id": "e4ac241e86526fa9",
+  "name": "Chewing Glass",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation); Level bloodrager 3, magus 3, sorcerer/wizard 3, witch 3\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S, M (a shard shard of glass)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Fortitude partial, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou summon sharp shards of glass into the mouth of the target creature. This is immensely painful, and if the target bleeds, bloody. At the beginning of their turn, the target must make a Fortitude save. On a failure, the target takes 2d4 magical slashing damage, 1 bleed damage, and is unable to speak or use spells or abilities that require vocal components or linguistic communication. However the target can spend a standard action to spit glass out of their mouth and be able to vocalize until the beginning of their next turn.\n\nOn a successful Fortitude save, the target takes 1d4 magical slashing damage and is also unable to speak but can clear their mouth as a move action instead of a standard. In either case, the spell ends at the end of their turn if they succeeded.\n\nCreatures without mouths are not affected. If the creature has multiple mouths, It only prevents one mouth from vocalizing.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4ac241e86526fa9.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4ac241e86526fa9"
+  },
+  "license": "OGL 1.0a"
+}

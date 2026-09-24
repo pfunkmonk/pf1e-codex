@@ -1,0 +1,25 @@
+{
+  "id": "303edbb685a3aede",
+  "name": "Locate Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "shaman": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School divination; Level druid/shaman 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M/DF (a forked twig)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea circle with a radius of 400 ft. + 40 ft./level, centered on you\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou sense the direction and distance of a body of water such as a lake, stream, or ocean, even if it is underground or beyond your sight. This spell cannot be used to sense the presence of water in a creature’s body or small amounts of water such as that contained in a flask, cup or barrel. This spell is blocked by even a thin sheet of lead, but it will pierce illusions.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/303edbb685a3aede.json",
+    "web": "https://codex.pipsprojects.com/#/e/303edbb685a3aede"
+  },
+  "license": "OGL 1.0a"
+}
