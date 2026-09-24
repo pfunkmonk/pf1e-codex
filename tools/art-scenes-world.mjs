@@ -978,7 +978,9 @@ export const NAMED_DEITIES = [
   ["Azathoth (Rogue Genius Games)", "A boiling formless blind idiot god at the center of an empty cosmos, spawning galaxies as afterthoughts to mindless flutes."],
   ["Azdan", "A last-candle god draped in a final cloak, guiding many souls across a dusk-lit river of many shrines to death."],
   ["Nyarlathotep", "A black-robed pharaoh of crawling chaos before a shattered obelisk, a swarm of mad shadows rising behind him."],
-  ["Shamash", "A many-eyed lion-headed sun-judge above a road of law, a billion eyes gazing from a flaring sun."]
+  ["Shamash", "A many-eyed lion-headed sun-judge above a road of law, a billion eyes gazing from a flaring sun."],
+  // Batch 9: the "Gods of Porphyra" overview page (a pantheon introduction, not one god).
+  ["Purple Duck Games – Gods", "A circle of shrouded god-statues ringing a vast open-air theater under a storm-lit sky, a lone chronicler with a scroll at its center."]
 ];
 
 

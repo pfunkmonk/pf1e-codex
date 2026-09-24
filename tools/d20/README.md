@@ -8,6 +8,8 @@ Working ledger and reports: `D:\CODEX\d20-pilot\` (`sample.json`, `pages.jsonl`,
 ```
 node tools/d20/d20-sample.mjs --n 5000          # draw a batch (cumulative ledger; never re-draws a page)
 node tools/d20/d20-clean.mjs                    # parse, classify (entry / catalog / index / stub), attribute
+node tools/d20/d20-xref.mjs                     # pull the individual pages that catalog rows point to, to convergence
+node tools/d20/d20-clean.mjs                    # ...and re-clean the enlarged pilot
 node tools/d20/d20-match.mjs                    # NEW / DUP / NAMESAKE / AMBIGUOUS against the Codex
 node tools/d20/d20-conflicts.mjs                # rules-number conflicts against matched Codex entries
 node tools/d20/d20-import.mjs                   # DRY RUN — read the report
@@ -42,7 +44,15 @@ every check has been mutation-tested: inject the fault into a scratch copy, conf
 | Stat block flattened onto one line | `breakFlatStatBlocks` | no stat block flattened onto a single line |
 | Literal `~~~` dividers | `tidyDividers` | no garbled characters or leaked markup |
 | Snippet out of step with a cleaned body | shared `snippetOf` | index snippet matches its body |
+| Publisher ad widget ("Latest Products from this Publisher at OpenGamingStore.com!", 3 spellings) captured as body text; 7 entries were nothing but the ad | `AD_MARK` cut in `parsePage` | no crawler-captured advertisement text |
+| Feat "publisher hub" pages (feat summary table with rows wrapped over two lines) and bare "Subpages" stubs imported as entries | `isCatalogPage` signals 1–2 (template fingerprint; `subpagesStubOwnChars`) | (classifier; measured by before/after diff over the whole pilot) |
+| God SUMMARY tables (Deity/AL/Worshipers…) imported as entries | `isGodSummaryTable` | no god summary table posing as an entry |
+| `{{template field}}` lines, credit line that is just "x" | `stripTemplateJunk`, `PLACEHOLDER_S15` | no source-template placeholder text / no placeholder where a credit should be |
 | Original pages removed/altered | additive-only importer | original pages not removed / not altered |
+
+**Rule for classifier changes:** measure every new signal across the WHOLE pilot (before/after list of newly-excluded pages)
+and read the list. Batch 9's first "table-dominated page" signal flagged 54 pages — 18 of them were real content
+("Knucklebone of Fickle Fortune", "Road or Trade Route") and it was dropped in favour of narrower signals.
 
 Tables are rendered by the app (`fmtBody` → `renderTabTable`, tab-separated rows → `table.rt.rtx`), not by the importer.
 Always look at a rendered long entry after a batch: size and line-length statistics said "fine" while every table was
@@ -57,5 +67,6 @@ fires on that fault and stays quiet on the live data.
 
 - `d20-attrib.mjs` — shared, pure: attribution (`repairSource`/`repairNote`), duplicate keys, template/divider/stat-block
   cleaning, `snippetOf`, `isGodBody`. Used by the importer, repair and verify.
+- `d20-xref*.mjs` — cross-reference pull (`d20-xref.mjs` drives `-catalogs`, `-gather`, `-pull`; `-index` builds the archive name index once).
 - `d20-repair.mjs` — re-runnable cleanup of rows already live (dry run by default; `--apply`). Should report ~0 changes after every batch.
 - `d20-verify.mjs` — the gate. `--root <repo>`, `--baseline <git rev>` (default `b9c50cfa`, the last commit before any d20 import).

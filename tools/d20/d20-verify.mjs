@@ -13,7 +13,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { execSync } from "node:child_process";
-import { commaListShare } from "./d20-clean.mjs";
+import { commaListShare, AD_MARK, isGodSummaryTable } from "./d20-clean.mjs";
 import {
   UNVERIFIED_MARK, UNVERIFIED_SOURCE, isPaizoish, publishersFromNotice, nameKeys, VARIANT_QUAL,
   isGodBody, isFlatStatLine, snippetOf,
@@ -94,7 +94,7 @@ check("every entry ends with a license/credit paragraph",
   d20.filter((r) => !/©|\(c\)|copyright|Author|blanket OGL|Source not confirmed|Open Game|source of this content is unclear|Written by|Messageboard|@ |Blog|Tumblr|Enterprises|^Source:|^Pathfinder\b/im.test(lastTwo(r[0]))).map((r) => `${label(r)} :: ${tailOf(r[0]).slice(0, 80)}`));
 
 check("no placeholder text where a Section 15 credit should be",
-  d20.filter((r) => /Product Name Section 15 here/i.test(String(bodies[r[0]]))).map(label));
+  d20.filter((r) => /Product Name Section 15 here/i.test(String(bodies[r[0]])) || /\n\nx$/.test(String(bodies[r[0]]))).map(label));
 
 /* ---- duplicates ---- */
 {
@@ -117,6 +117,11 @@ check("no source-template placeholder text",
   d20.filter((r) => /Italicized descriptive text here|: This is placeholder text|^Environment ZZ$|\{\{[^}]*\}\}/m.test(String(bodies[r[0]]))).map(label));
 check("no stat block flattened onto a single line",
   d20.filter((r) => String(bodies[r[0]]).split("\n").some(isFlatStatLine)).map(label));
+check("no crawler-captured advertisement text",
+  d20.filter((r) => String(bodies[r[0]]).split("\n").some((l) => AD_MARK.test(l.trim()))).map(label),
+  "the publisher-page ad widget (OpenGamingStore) must be cut in parsePage; a page that is only the ad is not an entry");
+check("no god summary table posing as an entry",
+  d20.filter((r) => { const b = String(bodies[r[0]]); return isGodSummaryTable(b.slice(0, b.lastIndexOf("\n\n"))); }).map(label));
 check("no name-list navigation page posing as an entry",
   d20.filter((r) => commaListShare(String(bodies[r[0]]).split("\n").filter((l) => l.trim())) > 0.6).map(label));
 check("no garbled characters or leaked markup",

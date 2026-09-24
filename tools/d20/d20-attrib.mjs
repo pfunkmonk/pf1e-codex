@@ -13,7 +13,7 @@
  * The Section 15 notice on the page is the strongest evidence there is, so it wins over a breadcrumb guess.
  */
 import { UNVERIFIED_NOTICE } from "./d20-clean.mjs";
-export const PLACEHOLDER_S15 = /Product Name Section 15 here/i;   // the publisher template text where a real Section 15 should be
+export const PLACEHOLDER_S15 = /Product Name Section 15 here|^\s*x\s*$/i;   // "x" alone: a page whose whole Section 15 is one letter (Drifthorn)   // the publisher template text where a real Section 15 should be
 export const UNVERIFIED_SOURCE = "Source unconfirmed";
 export const UNVERIFIED_MARK = "Source not confirmed for this entry";
 export const NOT_IDENTIFIED = "not identified (third-party content; use the Feedback link to claim or correct)";
@@ -93,7 +93,7 @@ export function nameKeys(name) {
  * inside race-trait tables; an ecology block of "Environment ZZ / Treasure {{none/standard/...}}"). Found by loading
  * 200 random imported pages (audit 2026-09-24): 9 entries. These lines carry no rules content, so they are removed;
  * unfinished stat VALUES ("Perception +ZZ") are the source's own gaps and are left alone rather than invented over. */
-const TEMPLATE_LINE = /^(?:Italicized descriptive text here\.\s*There should be no hyperlinks in this section\.|[A-Za-z][A-Za-z0-9 ]*:\s*This is placeholder text\.?|Environment ZZ|Organization ZZ\s*\{\{.*\}\}|Treasure\s*\{\{.*\}\}.*)\s*$/;
+const TEMPLATE_LINE = /^(?:Italicized descriptive text here\.\s*There should be no hyperlinks in this section\.|[A-Za-z][A-Za-z0-9 ]*:\s*This is placeholder text\.?|Environment ZZ|Organization ZZ\s*\{\{.*\}\}|Treasure\s*\{\{.*\}\}.*|\{\{[^}]*\}\})\s*$/;   // last alternative: a whole line that is one {{template field}} ("{{monster’s description goes here}}")
 export function stripTemplateJunk(body) {
   return String(body).split("\n").filter((l) => !TEMPLATE_LINE.test(l.trim())).join("\n").replace(/\n{3,}/g, "\n\n").replace(/^\s+/, "");
 }

@@ -225,7 +225,9 @@ for (const r of toImport) {
   // Backstop for bucketOf(): a god-shaped page filed under options/classes belongs in deities whatever its crumb said.
   if ((p.bucket === "options" || p.bucket === "classes") && isGodBody(p.body)) p.bucket = "deities";
   p.name = sanitizeText(p.name);
-  p.license = sanitizeText(p.license);
+  // The credits block can carry the site's "~~~" item divider — sometimes trailing, sometimes followed by real body
+  // text the page's Section 15 zone swallowed (Arcane Ace). Never delete: only turn the tildes into a paragraph break.
+  p.license = tidyDividers(sanitizeText(p.license)).trim();
 
   let name = canonicalName(p);
   // Two publishers' take on the SAME god ("Set" by Frog God Games vs the Paizo "Set") are both real content and a
