@@ -17,6 +17,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { loadCodex } from "../lib/api-build.mjs";
+import { repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
@@ -206,6 +207,9 @@ const d = loadCodex(ROOT);
 const existingIds = new Set(d.IDX.map((r) => r[0]));
 const existingNameBucket = new Map(d.IDX.map((r) => [norm(r[1]) + "|" + r[2], r[0]]));
 
+const origByKey = new Map();
+for (const r of d.IDX) { if (r[0] === mintId(r[2], r[1])) continue; for (const k of nameKeys(r[1])) { const a = origByKey.get(r[2] + "|" + k); a ? a.push(r) : origByKey.set(r[2] + "|" + k, [r]); } }
+
 const IMPORTABLE_BUCKETS = new Set(["races", "rules", "monsters", "items", "traits", "classes", "archetypes", "options", "feats", "spells"]);
 
 const toImport = matches.filter((r) => r.verdict === "NEW");
@@ -213,7 +217,7 @@ const held = { NAMESAKE: matches.filter((r) => r.verdict === "NAMESAKE"), AMBIGU
 
 const rows = [];           // new PF_INDEX rows
 const bodies = {};         // bucket -> { id: body }
-const report = { imported: [], skippedUnmappedBucket: [], skippedExistingCollision: [], skippedIntraBatchNamesake: [] };
+const report = { imported: [], skippedUnmappedBucket: [], skippedExistingCollision: [], skippedIntraBatchNamesake: [], skippedInvertedDup: [] };
 const mintedThisRun = new Map(); // id -> the file that minted it first, this run
 
 for (const r of toImport) {
@@ -267,7 +271,15 @@ for (const r of toImport) {
     continue;
   }
   mintedThisRun.set(id, r.file);
-  const bk = bkOf(p);
+  // The page's own license paragraph outranks bkOf's guess: see d20-attrib.mjs for the four defects this fixes.
+  const bk = repairSource(bkOf(p), p.license);
+  // INVERTED-NAME DUPLICATE of an ORIGINAL row ("Arrow, Bleeding" vs "Arrow (bleeding)"): d20-match's parseName
+  // drops parentheses, so it cannot see these. Only Paizo/unconfirmed pages qualify — a named third party
+  // with a familiar name is a namesake. See d20-attrib.mjs nameKeys().
+  if (!VARIANT_QUAL.test(name) && (isPaizoish(bk) || bk === UNVERIFIED_SOURCE)) {
+    const hit = nameKeys(name).flatMap((k) => origByKey.get(p.bucket + "|" + k) || []).find((o) => !VARIANT_QUAL.test(o[1]) && o[1] !== name);
+    if (hit) { report.skippedInvertedDup.push({ ...r, canonicalName: name, duplicateOf: hit[1] }); mintedThisRun.delete(id); continue; }
+  }
   const facets = p.bucket === "spells" ? spellFacets(p, bk)
     : p.bucket === "items" ? itemFacets(p, bk)
     : p.bucket === "traits" ? traitFacets(p, bk)
@@ -281,7 +293,7 @@ for (const r of toImport) {
   // p.license is already the right text either way: the page's own Section 15 notice, a note citing
   // d20pfsrd's site-wide OGL declaration + best-known publisher, or (evidence:"unverified") the
   // on-page invite to claim the content — built by licenseNoteOf() in d20-clean.mjs.
-  const body = `${p.body.trim()}\n\n${p.license}`;
+  const body = `${p.body.trim()}\n\n${repairNote(bk, p.license)}`;
 
   rows.push([id, name, p.bucket, rawCat, source, snippet, facets]);
   (bodies[p.bucket] ||= {})[id] = body;
@@ -298,6 +310,8 @@ console.log(`\nheld back (not imported, need a person): ${held.NAMESAKE.length} 
 if (report.skippedUnmappedBucket.length) console.log(`skipped (bucket not handled): ${report.skippedUnmappedBucket.length}`);
 if (report.skippedExistingCollision.length) console.log(`skipped (name already exists — additive-only guard fired): ${report.skippedExistingCollision.length}`, report.skippedExistingCollision.slice(0, 5).map((r) => r.canonicalName));
 if (report.skippedIntraBatchNamesake.length) console.log(`skipped (two DIFFERENT d20 pages this run share a name+bucket — pulled both, need a person): ${report.skippedIntraBatchNamesake.length}`, report.skippedIntraBatchNamesake.map((r) => r.canonicalName));
+
+if (report.skippedInvertedDup.length) console.log(`skipped (inverted-name duplicate of an original Codex row): ${report.skippedInvertedDup.length}`, report.skippedInvertedDup.slice(0, 6).map((r) => r.canonicalName + " = " + r.duplicateOf));
 
 fs.writeFileSync(`${SNAP}/import-report.json`, JSON.stringify(report, null, 1));
 console.log(`\nwrote ${SNAP}/import-report.json`);

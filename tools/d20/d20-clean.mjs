@@ -302,10 +302,11 @@ export function publisherOf(crumb, url, s15, body = "") {
 // should turn the "#/feedback?entry=..." into a link and prefill `entry` with this row's name, the same
 // way viewFeedback() already reads that query param.
 export const UNVERIFIED_NOTICE = "Source not confirmed for this entry. If this is your work, use the Feedback link below to let us know so we can credit it properly.";
-export function licenseNoteOf(s15, publisher, evidence) {
+export function licenseNoteOf(s15, publisher, evidence, third) {
   if (s15.length) return s15.join(" ");
   if (evidence === "unverified") return UNVERIFIED_NOTICE;
-  const who = publisher || "Paizo, Inc. (Pathfinder Roleplaying Game Reference Document)";
+  // Never invent Paizo as the author of content already known to be third-party (audit 2026-09-24: 84 entries).
+  const who = publisher || (third === true ? "not identified (third-party content; use the Feedback link to claim or correct)" : "Paizo, Inc. (Pathfinder Roleplaying Game Reference Document)");
   const via = evidence === "hub" ? " (identified from the site's folder structure; the page itself carries no Section 15 notice)"
     : evidence === "source" ? " (identified from an inline Source citation on the page)"
     : "";
@@ -606,7 +607,7 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}` || proc
     out.push({
       file: f, url, title: titleTag, name: p.nameRaw, crumb: p.crumb,
       bucket, kind, publisher, thirdParty: third, s15Third: pub.s15Third, evidence, titledSource: pub.titledSource || null,
-      license: licenseNoteOf(p.s15, publisher, evidence),
+      license: licenseNoteOf(p.s15, publisher, evidence, third),
       children: p.children, s15: p.s15, chars: p.body.length, sha: crypto.createHash("sha256").update(p.body).digest("hex").slice(0, 16),
       body: p.body,
     });

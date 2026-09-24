@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "81",
+  "dataVersion": "82",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 40077,
+    "entries": 40043,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
       "nameFirst": 3465,
       "sourceFirst": 12474,
-      "other": 24138
+      "other": 24104
     }
   },
   "endpoints": {
@@ -43,11 +43,11 @@
     {
       "slug": "classes",
       "label": "Classes",
-      "count": 371,
+      "count": 370,
       "list": "classes.json",
       "categories": {
         "Base Classes": 204,
-        "Prestige Classes": 167
+        "Prestige Classes": 166
       }
     },
     {
@@ -87,11 +87,11 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 7246,
+      "count": 7222,
       "list": "items.json",
       "categories": {
         "Altars": 22,
-        "Armor": 483,
+        "Armor": 482,
         "Artifacts": 345,
         "Cursed Items": 87,
         "Cybertech": 12,
@@ -108,21 +108,21 @@
         "Staves": 106,
         "Technology": 16,
         "Thrones": 3,
-        "Weapons": 1268,
-        "Wondrous Items": 2247
+        "Weapons": 1259,
+        "Wondrous Items": 2233
       }
     },
     {
       "slug": "monsters",
       "label": "Monsters",
-      "count": 7391,
+      "count": 7383,
       "list": "monsters.json",
       "categories": {
         "Animal Companions": 214,
         "Creature Subtypes": 84,
         "Creature Types": 13,
         "Monster Families": 140,
-        "Monsters": 6555,
+        "Monsters": 6547,
         "Mythic Monsters": 89,
         "Templates": 164,
         "Universal Monster Rules": 132
@@ -140,7 +140,7 @@
     {
       "slug": "options",
       "label": "Class Options",
-      "count": 3633,
+      "count": 3632,
       "list": "options.json",
       "categories": {
         "3rd Party Classes": 2,
@@ -165,7 +165,7 @@
         "Ascension Games, LLC – Alchemist Discoveries": 6,
         "Augmentations": 6,
         "Bardic Masterpieces – Everyman Gaming, LLC": 2,
-        "Bardic Masterpieces – Paizo, Inc.": 4,
+        "Bardic Masterpieces – Paizo, Inc.": 3,
         "Binder Secrets": 6,
         "Bladestorm": 1,
         "Blessed Order": 1,
