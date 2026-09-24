@@ -12,6 +12,8 @@
  *     Reference Document)" as author, invented by the fallback in licenseNoteOf for content with no evidence.
  * The Section 15 notice on the page is the strongest evidence there is, so it wins over a breadcrumb guess.
  */
+import { UNVERIFIED_NOTICE } from "./d20-clean.mjs";
+export const PLACEHOLDER_S15 = /Product Name Section 15 here/i;   // the publisher template text where a real Section 15 should be
 export const UNVERIFIED_SOURCE = "Source unconfirmed";
 export const UNVERIFIED_MARK = "Source not confirmed for this entry";
 export const NOT_IDENTIFIED = "not identified (third-party content; use the Feedback link to claim or correct)";
@@ -50,6 +52,7 @@ export function repairSource(source, tail) {
   const pubs = publishersFromNotice(t);
   const non = pubs.filter((p) => !isPaizoish(p));
   const hasPaizo = pubs.some(isPaizoish);
+  if (PLACEHOLDER_S15.test(t)) return UNVERIFIED_SOURCE;   // a template, not a credit: we do not actually know
   if (t.includes(UNVERIFIED_MARK)) return s && !isPaizoish(s) ? s : UNVERIFIED_SOURCE;
   if (s === null) return hasPaizo || /Paizo/i.test(t) ? "Paizo, Inc." : (non[0] || "Third-party (unattributed)");
   if (s === "Third-party (unattributed)" && non.length) return non[0];
@@ -61,6 +64,7 @@ export function repairSource(source, tail) {
 /** The corrected license paragraph: never credit Paizo as author of third-party content on no evidence. */
 export function repairNote(source, tail) {
   const t = String(tail || "");
+  if (PLACEHOLDER_S15.test(t)) return UNVERIFIED_NOTICE;
   if (t.includes(PRD_CREDIT) && (source === "Third-party (unattributed)")) return t.replace(PRD_CREDIT, `Author/publisher: ${NOT_IDENTIFIED}`);
   return t;
 }
@@ -92,4 +96,39 @@ export function nameKeys(name) {
 const TEMPLATE_LINE = /^(?:Italicized descriptive text here\.\s*There should be no hyperlinks in this section\.|[A-Za-z][A-Za-z0-9 ]*:\s*This is placeholder text\.?|Environment ZZ|Organization ZZ\s*\{\{.*\}\}|Treasure\s*\{\{.*\}\}.*)\s*$/;
 export function stripTemplateJunk(body) {
   return String(body).split("\n").filter((l) => !TEMPLATE_LINE.test(l.trim())).join("\n").replace(/\n{3,}/g, "\n\n").replace(/^\s+/, "");
+}
+
+/* ---- stat blocks flattened onto one line ---------------------------------------------------------------
+ * A few d20 pages hold a whole monster stat block in one paragraph (Encephalon Gorger: 4,960 characters on one
+ * line). Break it before the standard section headers and field labels. Only lines that are long AND carry six or
+ * more stat labels are touched, so ordinary prose is never re-flowed. */
+const STAT_BREAK = /\s+(?=(?:DEFENSE|OFFENSE|STATISTICS|ECOLOGY|SPECIAL ABILITIES|TACTICS)\b|(?:Init [+-]\d|AC \d|hp \d|Fort [+-]\d|Speed \d|Melee |Ranged |Space \d|Special Attacks |Str \d|Base Atk [+-]|Feats [A-Z]|Skills [A-Z]|Languages [A-Z]|SQ [a-z]|Environment [a-z]|Organization [a-z]|Treasure [a-z]))/g;
+export const isFlatStatLine = (l) => l.length > 700 && ["Init", "AC ", "hp ", "Fort ", "Speed ", "Melee", "Str ", "Base Atk", "Feats", "Skills"].filter((k) => l.includes(k)).length >= 6;
+export function breakFlatStatBlocks(body) {
+  return String(body).split("\n").map((l) => (isFlatStatLine(l) ? l.replace(STAT_BREAK, "\n") : l)).join("\n");
+}
+
+/* ---- a god's page, judged by its own shape --------------------------------------------------------------
+ * Backstop for bucketOf(): d20 nests gods under Classes > Cleric > Gods, but a god filed anywhere else on the site
+ * (or under a crumb the pattern misses) still has Alignment plus Domains/Portfolio/Favored Weapon lines. */
+export const isGodBody = (b) => /Alignment:?\s+(?:Lawful|Neutral|Chaotic|LG|LN|LE|NG|N\b|NE|CG|CN|CE)/i.test(b) && /(Domains?|Portfolio|Favou?red Weapons?|Typical Worshipers?)\b/.test(b);
+
+/* ---- index snippet ------------------------------------------------------------------------------------
+ * The one-line preview kept in data/index.js (search results, lists). Lives here so the importer and the repair
+ * pass cannot disagree: cleaning a body without recomputing its snippet left "Italicized descriptive text here"
+ * showing in Spriggan Guard's search preview. */
+const normSnip = (s) => String(s || "").toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+export function snippetOf(body) {
+  const ls = String(body || "").split("\n");
+  let i = 0;
+  if (ls[i] !== undefined && normSnip(ls[i]).length < 80 && !/^Source\s/i.test(ls[i]) && /^[A-Z]/.test(ls[i] || "") && ls[i + 1] !== undefined && /^Source\s/i.test(ls[i + 1] || "")) i++;
+  if (ls[i] !== undefined && /^Source\s/i.test(ls[i])) i++;
+  return ls.slice(i).join(" ").replace(/\s+/g, " ").trim().slice(0, 200);
+}
+
+/* ---- "~~~" dividers ---------------------------------------------------------------------------------------
+ * d20 separates the items bundled on one page with a "~~~" line (or inline: "Author Scott Greene. ~~~ ENCEPHALON
+ * GORGER"). Left alone it renders as literal tildes. Turn each into a paragraph break. */
+export function tidyDividers(body) {
+  return String(body).replace(/[ \t]*~~~+[ \t]*/g, "\n\n").replace(/\n{3,}/g, "\n\n");
 }
