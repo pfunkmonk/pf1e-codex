@@ -489,8 +489,29 @@ function listyRatio(ls) {
   const listy = ls.filter((l) => l.split(/\s+/).length <= 8 && !/[.!?:;]$/.test(l)).length;
   return listy / ls.length;
 }
+// "Racial Feats" evades both signals above: it's not one long table (longestTabRun tops out around 24,
+// since each race gets its own small table) and it's not overall listy (0.28 — a long prose design
+// discussion up front dilutes the ratio). What gives it away is the TABLE HEADER repeating: the exact
+// line "Feat Name\tCategory/Type\tPrerequisites\tBenefit\tSource" reappears 38 times, once per race
+// section, because this is really 38 catalogs stitched onto one page. A real single entry never repeats
+// its own header — even a big table-heavy class like Fighter or a real name-variant item like Shield
+// Boss tops out at 6 repeats of any one tab-line (usually from unrelated short rows coinciding, e.g.
+// "Special: —" appearing more than once). 10 gives comfortable margin above that 6 and well below 38.
+function maxRepeatedTabLine(ls) {
+  const counts = new Map();
+  for (const l of ls) {
+    if (!l.includes("\t")) continue;
+    counts.set(l, (counts.get(l) || 0) + 1);
+  }
+  let max = 0;
+  for (const c of counts.values()) if (c > max) max = c;
+  return max;
+}
 function hasOwnStatBlock(body, title) {
-  if (/School:?\s+\w[^;\n]*;?\s*Level:?/i.test(body)) return true;
+  // Case-SENSITIVE: a real header is "School"/"Level" capitalized. The /i version matched lowercase prose in a
+  // feat's Benefit ("...school or spells with darkness descriptor at +2 caster level") and so waved
+  // "Racial Feats" (38 stitched catalogs) through as a real spell entry.
+  if (/School:?\s+\w[^;\n]*;?\s*Level:?/.test(body)) return true;
   if (/Discipline:?\s+\w[^;\n]*;?\s*Level:?/i.test(body)) return true; // psionic power ("MANIFEST" section)
   if (/Sutra Type:?\s+\w/i.test(body)) return true;
   if (/^CR:?\s+[\d/]+\s*\n+\s*XP:?\b/im.test(body)) return true;
@@ -539,6 +560,7 @@ export function isCatalogPage(bucket, chars, ls, body, title) {
   if (hasOwnStatBlock(body, title)) return false;
   if (longestTabRun(ls) >= 40) return true;
   if (listyRatio(ls) >= 0.85) return true;
+  if (maxRepeatedTabLine(ls) >= 10) return true;
   if (bucket !== "items") return false;
   if (titleWordOverlap(ls, title) >= 0.6) return false;
   const priced = ls.filter((l) => /\b\d[\d,]*\s*(gp|sp|cp)\b/i.test(l)).length;
