@@ -30,6 +30,13 @@ traits that share a name). So `d20-import` decides with its own guards:
   a Paizo/unconfirmed page (matcher says different content) as `Name (d20pfsrd)`.
 - AMBIGUOUS is imported only from a named third-party publisher and only when the match is weak (cont < 0.25, cos < 0.6);
   anything else is probably the same entity re-worded and is reported as skipped.
+- **Same text is a duplicate, whatever the matcher said.** At every name collision `contentOverlap` (5-word shingle
+  containment, threshold `SAME_TEXT` 0.5) is checked against the existing row: an AoN original that merely carries extra
+  "Source …" lines scores as a NAMESAKE by cosine but is the same text (~100 such duplicates shipped once). Only text that
+  genuinely differs is kept as a suffixed namesake. Updating an existing row of the same id also requires the SAME PAGE
+  (same opening text or overlap ≥ 0.5), or two different same-publisher pages ("Chilling Aura") overwrite each other.
+- Suffixes are short: `shortSuffix` keeps the part after "from the …" and caps length; a book title starting "Pathfinder"
+  counts as Paizo (`isPaizoish`), so it becomes `(d20pfsrd)`, not the book title.
 - Two pages minting one id in a run: the first keeps the plain name, a second from a different publisher gets the suffix,
   a second from the same publisher is a duplicate and is skipped.
 

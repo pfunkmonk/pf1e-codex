@@ -1,0 +1,28 @@
+{
+  "id": "1fcee88c900ccb1c",
+  "name": "Chilling Aura (Orphaned Bookworm Productions)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "ranger": 3,
+      "shaman": 3
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation [cold]; Level druid 3, ranger 3, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 10-ft. radius\nDuration 1 round/level (D)\nSaving Throw Fort negates; Spell Resistance no\n\nDESCRIPTION\n\nYou freeze the air around you, frost dancing across their features. When you cast this spell frost seems to hang in the air around you. You gain fire resistance 20 and all creatures within 10 feet of you take 4d6 cold damage and become fatigued at the beginning of their turn. A successful Fortitude save halves the damage and negates the fatigued condition.\n\nBreath of Life: The Scout, © 2024, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr. and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1fcee88c900ccb1c.json",
+    "web": "https://codex.pipsprojects.com/#/e/1fcee88c900ccb1c"
+  },
+  "license": "OGL 1.0a"
+}

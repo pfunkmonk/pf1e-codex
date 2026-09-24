@@ -20,7 +20,17 @@ export const NOT_IDENTIFIED = "not identified (third-party content; use the Feed
 const PRD_CREDIT = "Author/publisher: Paizo, Inc. (Pathfinder Roleplaying Game Reference Document)";
 
 // "Paizo Publishing, LLC" and "Paizo Inc." are Paizo; "Paizo Fans United" is a fan group, NOT Paizo.
-export const isPaizoish = (s) => /^(paizo\b(?!\s+fans)|wizards of the coast)/i.test(String(s).trim());
+// A book/product title that starts "Pathfinder" (Roleplaying Game Advanced Race Guide, Player Companion, #43…) is a Paizo product.
+export const isPaizoish = (s) => /^(paizo\b(?!\s+fans)|wizards of the coast|pathfinder\b)/i.test(String(s).trim());
+
+/** A short, readable "(Publisher)" suffix for telling two same-named entries apart. A source string is sometimes a citation
+ *  ("Kelpie from the Tome of Horrors Complete", "…: Uncertain Futures"), so keep the part after "from the" and cap the length. */
+export function shortSuffix(s) {
+  let t = String(s).trim();
+  const fm = /\bfrom the (.{4,60})$/i.exec(t); if (fm) t = fm[1].trim();
+  if (t.length > 40) t = t.slice(0, 40).replace(/[\s,:;–-]+\S*$/, "").replace(/[\s,:;–-]+$/, "");
+  return t;
+}
 
 /** Publisher names out of a Section 15 style notice: "X © 2017, Everyman Gaming LLC; Authors: ...". */
 export function publishersFromNotice(text) {
@@ -132,3 +142,23 @@ export function snippetOf(body) {
 export function tidyDividers(body) {
   return String(body).replace(/[ \t]*~~~+[ \t]*/g, "\n\n").replace(/\n{3,}/g, "\n\n");
 }
+
+/* ---- same text? ------------------------------------------------------------------------------------------
+ * d20-match's cosine calls a page a NAMESAKE ("same name, different content") when the AoN original merely carries extra
+ * lines — "Martial Master / Source Advanced Class Guide pg. 93 / There are those who learn the fighting arts…" vs d20's
+ * "There are those who learn the fighting arts…". Keeping every NAMESAKE therefore imported ~100 true duplicates.
+ * Containment of 5-word shingles (share of the SMALLER text found in the larger) is insensitive to extra header lines:
+ * >= 0.5 means the same text. Used at every name collision, and by the repair to drop duplicates already imported. */
+const shingles5 = (t) => {
+  const w = String(t).toLowerCase().replace(/[^a-z0-9 ]+/g, " ").split(/\s+/).filter(Boolean);
+  const s = new Set(); for (let i = 0; i + 5 <= w.length; i++) s.add(w.slice(i, i + 5).join(" "));
+  return s;
+};
+export function contentOverlap(a, b) {
+  const A = shingles5(a), B = shingles5(b);
+  if (!A.size || !B.size) return 0;
+  const [small, big] = A.size <= B.size ? [A, B] : [B, A];
+  let hit = 0; for (const x of small) if (big.has(x)) hit++;
+  return hit / small.size;
+}
+export const SAME_TEXT = 0.5;

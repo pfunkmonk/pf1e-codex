@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "88",
+  "dataVersion": "89",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 50800,
+    "entries": 50816,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
       "nameFirst": 3653,
       "sourceFirst": 12478,
-      "other": 34669
+      "other": 34685
     }
   },
   "endpoints": {
@@ -34,10 +34,10 @@
     {
       "slug": "archetypes",
       "label": "Archetypes",
-      "count": 2706,
+      "count": 2696,
       "list": "archetypes.json",
       "categories": {
-        "Archetype": 2706
+        "Archetype": 2696
       }
     },
     {
@@ -63,10 +63,10 @@
     {
       "slug": "feats",
       "label": "Feats",
-      "count": 7697,
+      "count": 7704,
       "list": "feats.json",
       "categories": {
-        "Feats": 7697
+        "Feats": 7704
       }
     },
     {
@@ -87,7 +87,7 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 8121,
+      "count": 8122,
       "list": "items.json",
       "categories": {
         "Altars": 22,
@@ -99,7 +99,7 @@
         "Favors": 5,
         "Intelligent Items": 32,
         "Magic Equipment": 125,
-        "Miscellaneous": 2454,
+        "Miscellaneous": 2455,
         "Pharmaceuticals": 11,
         "Potions & Oils": 10,
         "Psi-Tech": 9,
@@ -115,14 +115,14 @@
     {
       "slug": "monsters",
       "label": "Monsters",
-      "count": 8835,
+      "count": 8840,
       "list": "monsters.json",
       "categories": {
         "Animal Companions": 214,
         "Creature Subtypes": 84,
         "Creature Types": 13,
         "Monster Families": 140,
-        "Monsters": 7999,
+        "Monsters": 8004,
         "Mythic Monsters": 89,
         "Templates": 164,
         "Universal Monster Rules": 132
@@ -140,7 +140,7 @@
     {
       "slug": "options",
       "label": "Class Options",
-      "count": 4987,
+      "count": 4992,
       "list": "options.json",
       "categories": {
         "4 Winds Fantasy Gaming": 4,
@@ -192,7 +192,7 @@
         "Bloodline Disciple": 14,
         "Bloodline Mutations": 3,
         "Bloodlines": 75,
-        "Bloodlines – Paizo, Inc.": 4,
+        "Bloodlines – Paizo, Inc.": 7,
         "Bloodlord Sanguine Paths": 3,
         "Bloodrager Bloodlines – Ascension Games, LLC": 2,
         "Bloodrager Bloodlines – Everyman Gaming, LLC": 1,
@@ -334,7 +334,7 @@
         "Legendary Games – Alchemist Discoveries": 8,
         "Legendary Games – Arcane Schools": 3,
         "Legendary Games – Bloodlines": 5,
-        "Legendary Games – Shaman Spirits": 4,
+        "Legendary Games – Shaman Spirits": 5,
         "Legendary Gunslinger": 15,
         "Legendary Hunter": 15,
         "Legendary Investigator": 2,
@@ -346,7 +346,7 @@
         "Legendary Oracles": 6,
         "Legendary Ranger": 2,
         "Legendary Rogue": 3,
-        "Legendary Slayer": 7,
+        "Legendary Slayer": 8,
         "Legendary Swashbuckler Personages – Legendary Games": 7,
         "Legendary Warpriest": 1,
         "Liberation Domain": 2,
@@ -562,33 +562,33 @@
     {
       "slug": "rules",
       "label": "Rules & Skills",
-      "count": 5960,
+      "count": 5966,
       "list": "rules.json",
       "categories": {
         "Combat Stamina": 549,
         "Definitions": 52,
-        "Rules": 5333,
+        "Rules": 5339,
         "Skills": 26
       }
     },
     {
       "slug": "spells",
       "label": "Spells",
-      "count": 7774,
+      "count": 7775,
       "list": "spells.json",
       "categories": {
         "Occult Rituals": 81,
         "Spellbooks": 42,
-        "Spells": 7651
+        "Spells": 7652
       }
     },
     {
       "slug": "traits",
       "label": "Traits",
-      "count": 2234,
+      "count": 2235,
       "list": "traits.json",
       "categories": {
-        "Traits": 2234
+        "Traits": 2235
       }
     }
   ]
