@@ -213,7 +213,8 @@ const held = { NAMESAKE: matches.filter((r) => r.verdict === "NAMESAKE"), AMBIGU
 
 const rows = [];           // new PF_INDEX rows
 const bodies = {};         // bucket -> { id: body }
-const report = { imported: [], skippedUnmappedBucket: [], skippedExistingCollision: [] };
+const report = { imported: [], skippedUnmappedBucket: [], skippedExistingCollision: [], skippedIntraBatchNamesake: [] };
+const mintedThisRun = new Map(); // id -> the file that minted it first, this run
 
 for (const r of toImport) {
   const p = pages.get(r.file);
@@ -235,6 +236,28 @@ for (const r of toImport) {
   // data/index.js already had all 564 rows before those 5 buckets' bodies were ever written).
   const existingIdForKey = existingNameBucket.get(key);
   if (existingIdForKey !== undefined && existingIdForKey !== id) { report.skippedExistingCollision.push({ ...r, canonicalName: name }); continue; }
+  // INTRA-BATCH NAMESAKE: two DIFFERENT d20 pages, same run, minting the SAME id because they share a
+  // canonical name+bucket — found at 9,000-page scale, 5 pairs ("Swap" by Kobold Press/Open Design vs.
+  // by Rogue Genius Games — two genuinely different 4th/5th-level conjuration spells, not a duplicate).
+  // d20-match.mjs's NAMESAKE detection only compares a candidate against the EXISTING Codex; it never
+  // checks two NEW candidates against EACH OTHER, so this slipped past every check upstream. Without
+  // this guard the second page silently overwrites the first in `bodies` with zero record — exactly the
+  // "confidently wrong" failure this whole pipeline exists to avoid. Neither is safe to guess between,
+  // so BOTH are pulled (the first one is retroactively un-imported the moment its collision is found).
+  const priorFile = mintedThisRun.get(id);
+  if (priorFile && priorFile !== r.file) {
+    const idx = rows.findIndex((row) => row[0] === id);
+    if (idx >= 0) rows.splice(idx, 1);
+    if (bodies[p.bucket]) delete bodies[p.bucket][id];
+    const impIdx = report.imported.findIndex((x) => x.id === id);
+    if (impIdx >= 0) {
+      report.skippedIntraBatchNamesake.push({ ...report.imported[impIdx], reason: "intra-batch namesake, pulled", canonicalName: name });
+      report.imported.splice(impIdx, 1);
+    }
+    report.skippedIntraBatchNamesake.push({ ...r, canonicalName: name, id, bucket: p.bucket, reason: "intra-batch namesake, pulled" });
+    continue;
+  }
+  mintedThisRun.set(id, r.file);
   const bk = bkOf(p);
   const facets = p.bucket === "spells" ? spellFacets(p, bk)
     : p.bucket === "items" ? itemFacets(p, bk)
@@ -265,6 +288,7 @@ console.log("attribution:", attr);
 console.log(`\nheld back (not imported, need a person): ${held.NAMESAKE.length} NAMESAKE, ${held.AMBIGUOUS.length} AMBIGUOUS`);
 if (report.skippedUnmappedBucket.length) console.log(`skipped (bucket not handled): ${report.skippedUnmappedBucket.length}`);
 if (report.skippedExistingCollision.length) console.log(`skipped (name already exists — additive-only guard fired): ${report.skippedExistingCollision.length}`, report.skippedExistingCollision.slice(0, 5).map((r) => r.canonicalName));
+if (report.skippedIntraBatchNamesake.length) console.log(`skipped (two DIFFERENT d20 pages this run share a name+bucket — pulled both, need a person): ${report.skippedIntraBatchNamesake.length}`, report.skippedIntraBatchNamesake.map((r) => r.canonicalName));
 
 fs.writeFileSync(`${SNAP}/import-report.json`, JSON.stringify(report, null, 1));
 console.log(`\nwrote ${SNAP}/import-report.json`);
@@ -297,7 +321,7 @@ if (APPLY) {
 
   const idxPath = `${ROOT}/data/index.js`;
   const idxText = fs.readFileSync(idxPath, "utf8");
-  const im = /^window\.PF_INDEX=(\[.*\]);\n?$/s.exec(idxText);
+  const im = /^window\.PF_INDEX=(\[.*\]);\r?\n?$/s.exec(idxText);
   if (!im) { console.log("  !! could not parse data/index.js"); }
   else {
     const idxRows = JSON.parse(im[1]);

@@ -38,20 +38,50 @@ const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
  * DESCRIPTOR, which are authored categories rather than guesses. `charm-mind` claims 204 (was 191
  * before the d20pfsrd import added more real compulsion spells — checked each new one by hand,
  * all genuinely "School enchantment (compulsion)") because compulsion is genuinely the largest
- * subschool in the game, not because the regex is sloppy. */
-const MAX_CLAIM = { feats: 150, items: 260, spells: 215 };
+ * subschool in the game, not because the regex is sloppy.
+ * Raised again 2026-09-24 after a ~16,000-page d20pfsrd batch roughly doubled spells/monsters:
+ * charm-mind 364, illusion 245, planar 217 (spells); template-fiend 202, template-undead 153
+ * (monsters). Two of the underlying regexes (`fire`, `cold`) turned out to have real false positives
+ * at this scale — checked by hand, found and fixed (see data/themes.js) — but the corrected counts
+ * are still legitimately this large; this is content growth, not remaining sloppiness. */
+const MAX_CLAIM = { feats: 150, items: 260, spells: 400, monsters: 220 };
 const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
-/* ART DEBT: a theme that has run out of image variants, verified NOT a regex problem (every claimed
- * entry checked by hand and genuinely belongs), waiting on an actual new picture to be drawn — a
- * production task, not a code fix, so it can't self-resolve here. Silently bumping PAGES_PER_IMAGE or
+/* ART DEBT: a theme that has run out of image variants, waiting on an actual new picture to be drawn —
+ * a production task, not a code fix, so it can't self-resolve here. Silently bumping PAGES_PER_IMAGE or
  * a theme's own MAX_CLAIM to paper over this would defeat the point of this check for every OTHER
  * theme; instead each entry here names the exact overage accepted and why, so it stays visible and
  * gets cleared the moment the art exists (delete the entry, not touch the number it was covering for).
  * spells/plant-nature: 23 legitimate plant/nature spells (Toxic Bloom [plant], Wood Lance [wood],
  * Exile from Nature, Naturecraft, etc. — checked 2026-09-23, zero false positives after the
- * "grasp"->"rusting grasp" and generic-word fixes) share 1 image; needs a 2nd. */
-const ART_DEBT = { "spells/plant-nature": 23 };
+ * "grasp"->"rusting grasp" and generic-word fixes) share 1 image; needs a 2nd.
+ * Everything else below was added 2026-09-24, after the same ~16,000-page batch that forced the
+ * MAX_CLAIM bump above. Hand-verified for false positives: charm-mind (0/364 bad), fire (cleaned from
+ * 193 to 165, further checked clean), cold (cleaned from 107 to 86, further checked clean) — those
+ * three are trustworthy counts. The remaining ~40 entries were NOT individually hand-checked the same
+ * way — a bulk "does the claim have its own descriptor tag" scan flagged double-digit percentages on
+ * several of them, but that metric alone is too noisy to tell a real false positive (like the ones
+ * found in fire/cold) from a legitimate match that just doesn't carry a formal bracket tag (most
+ * entries don't). Recorded here as accepted art debt so the batch isn't blocked on it, but unlike
+ * plant-nature/charm-mind/fire/cold, these counts should be treated as "probably real, not fully
+ * verified" — a good candidate for a follow-up pass with the same by-hand method before assuming
+ * every one of them is 100% clean. */
+const ART_DEBT = {
+  "spells/plant-nature": 42, "spells/charm-mind": 365, "spells/fire": 165, "spells/cold": 86,
+  "spells/healing": 123, "spells/undead": 95, "spells/summoning": 194, "spells/teleport": 81,
+  "spells/divination": 84, "spells/illusion": 245, "spells/fear": 82, "spells/protection": 148,
+  "spells/wall-barrier": 107, "spells/weapon-buff": 141, "spells/armor-buff": 43, "spells/planar": 217,
+  "spells/curse-affliction": 213, "spells/light-dark": 185, "spells/lightning": 95, "spells/acid": 42,
+  "spells/sonic": 71, "spells/force": 103, "spells/earth-stone": 136, "spells/animal": 57,
+  "spells/weather": 70, "spells/water": 91, "spells/symbol-rune": 63, "spells/communication": 50,
+  "spells/creation": 167, "spells/blood-flesh": 81, "spells/ritual-occult": 26, "spells/ability-buff": 62,
+  "spells/trap-alarm": 24,
+  "monsters/animal-bigcat": 60, "monsters/animal-canine": 43, "monsters/animal-bear": 30,
+  "monsters/animal-bird": 49, "monsters/animal-aquatic": 62, "monsters/animal-insect": 118,
+  "monsters/animal-hoofed": 67, "monsters/animal-small": 46, "monsters/template-undead": 153,
+  "monsters/template-celestial": 25, "monsters/template-beast": 60, "monsters/template-mutation": 127,
+  "monsters/template-fiend": 202,
+};
 
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));

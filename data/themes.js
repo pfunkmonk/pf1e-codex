@@ -270,8 +270,13 @@ window.PF_THEMES = {
     ["planar",        /\bplanar|\bethereal|\bastral|\bdemon|\bdevil|\bangel|\bcelestial|\bfiend|\binfernal|\babyss|\bholy\b|\bunholy|\bblasphemy|\bdictum|\bword of chaos|\bplane\b/i, /\[[^\]]*(evil|good|lawful|chaotic)/i, 7],
     ["curse-affliction",/\bcurse|\bbestow|\bblind|\bdeaf|\bdisease|\bcontagion|\bpoison|\bfeeblemind|\bwaves of|\bbaleful|\bmark of/i, /\[[^\]]*(curse|disease|poison|pain)/i, 8],
     ["light-dark",    /\blight\b|\bdaylight|\bdarkness|\bsunburst|\bsunbeam|\bglow\b|\bflare\b|\bblindness|\bshadow|\bgloom/i, /\[[^\]]*(light|darkness)/i, 5],
-    ["fire",          /\bfire\b|\bflame|\bburn|\bblaz|\bincinerat|\bscorch|\bpyro|\bcinder|\bash\b|\bfirebrand/i, /\[[^\]]*fire/i, 5],
-    ["cold",          /\bcold\b|\bfrost|\bice\b|\bfrozen|\bfreez|\bwinter|\brime\b|\bsnow|\bchill/i, /\[[^\]]*cold/i, 2],
+    // "flame"/"burn"/"blaz"/"pyro"/"chill"/"freez"/"frost"/"ice" dropped at ~16,000-page scale: too
+    // generic ("Pyrotechnics" is untagged transmutation, "Continual Flame" and "Blazing Rainbow" are
+    // [light] not [fire], "Freeze Time" is a time-stop spell, "Eye of Ice" is untagged transmutation) —
+    // the [fire]/[cold] descriptor-tag body check already reliably catches every genuine match, so a
+    // false positive here was pure loss (34 of 193 fire claims, 18 of 107 cold, verified by hand).
+    ["fire",          /\bfire\b|\bincinerat|\bscorch|\bfirebrand/i, /\[[^\]]*fire/i, 5],
+    ["cold",          /\bcold\b|\bwinter|\brime\b|\bsnow/i, /\[[^\]]*cold/i, 2],
     ["lightning",     /\blightning|\belectric|\bthunder|\bshock|\bstorm\b/i, /\[[^\]]*electricity/i, 2],
     ["acid",          /\bacid\b|\bcorros|\bmelt\b|\bdissolv/i, /\[[^\]]*acid/i, 1],
     // "song" dropped: too metaphorical ("Blood Song" is blood magic, "Song of Kyonin" is a healing

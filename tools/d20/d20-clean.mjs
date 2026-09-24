@@ -391,8 +391,51 @@ function describedCharShare(children, body) {
   }
   return covered / body.length;
 }
-export function isCategoryRoot(children, crumb, chars, body) {
-  return children.length > 0 && (chars < 4000 || describedShare(children, body) >= 0.5 || describedCharShare(children, body) >= 0.6);
+// A real single monster keeps its own name right before its "CR X" line even when it also lists several
+// genuine sibling variants as Subpages ("Gargoyle" -> CR 4 Gargoyle stat block, PLUS 7 other gargoyle
+// types cross-referenced); a true family/publisher hub's remaining text does not restate the page's own
+// title anywhere near a CR line (a shared species blurb, or marketing copy). Robust to word reordering
+// ("Automaton, Champion" page body's own stat block is headed "Champion Automaton") via a word-set
+// overlap rather than an exact string match.
+function firstStatBlockName(body) {
+  const lines = body.split("\n").map((l) => l.trim()).filter(Boolean);
+  const crIdx = lines.findIndex((l) => /^CR\s+[\d/]/.test(l));
+  return crIdx > 0 ? lines[crIdx - 1] : null;
+}
+function wordSetMatch(a, b) {
+  const norm = (s) => new Set(String(s).toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter((w) => w.length > 1));
+  const sa = norm(a), sb = norm(b);
+  if (!sa.size || !sb.size) return false;
+  let common = 0;
+  for (const w of sa) if (sb.has(w)) common++;
+  return common / Math.max(sa.size, sb.size) >= 0.5;
+}
+export function isCategoryRoot(children, crumb, chars, body, title) {
+  // A NESTED hub-of-hubs ("3rd Party Traits" -> Darkmoon Vale / Rite Publishing -> each publisher's OWN
+  // Subpages list of traits) has more than one "Subpages" heading. stripSubpages only unwraps the first
+  // one, so the literal word "Subpages" ends up IN the extracted children list, produces a body that's
+  // still mostly navigation, and is too long to hit the size fallback below (6,112 chars here) — a real
+  // content entry never has a child literally named "Subpages", so finding one is decisive on its own,
+  // whatever the size or description-coverage numbers say. EXCEPT a real class page can legitimately
+  // have its own complete content FIRST, then a nested Subpages list further down for its own
+  // archetypes/talents ("Investigator": a full Role/Alignment/Hit Die/Class Skills class description,
+  // then an Investigator Talents sub-hub) — "Hit Die:" (or "Hit Points:", the phrasing one homebrew
+  // ruleset uses instead) is the same reliable "this is a real class" tell used in isCatalogPage.
+  if (children.includes("Subpages")) return !/Hit Die:|Hit Points:/.test(body);
+  if (!children.length) return false;
+  if (chars < 4000 || describedShare(children, body) >= 0.5 || describedCharShare(children, body) >= 0.6) return true;
+  // Found at 9,000-page scale: "Ascension Games, LLC" (7 classes listed, then ad copy for a sourcebook,
+  // 4,276 chars — just over the fallback above) and "(Chromatic) White" (12 dragon age categories, 6,532
+  // chars) are real hubs the size/description fallbacks above are too strict to catch. But children COUNT
+  // alone can't tell these apart from "Gargoyle" (7 real sibling gargoyle types) or "Automaton, Champion"
+  // (4 real sibling automaton types) — both real, individually stat-blocked monsters. Gated to a higher
+  // ceiling than the base fallback, and only fires when NEITHER a class marker NOR the page's own name
+  // appears near a CR line in what's left — real entries fail this open (protected), hubs fail it closed.
+  if (chars < 10000 && !/Hit Die:|Hit Points:/.test(body)) {
+    const statName = firstStatBlockName(body);
+    if (!statName || !wordSetMatch(title, statName)) return true;
+  }
+  return false;
 }
 /** A TOOL-LINK page points at an external database or generator instead of holding content itself
  * ("Magic Items DB": a paragraph of preamble, then "Open this in a new Window" and nothing else). The
@@ -407,9 +450,97 @@ export function isToolLinkPage(body) {
  * (Animals & Animal Gear, Armor and Shields) rather than one entry. It has no child links (the rows are a
  * table, not a "Subpages" list) and no small set of labelled stat lines either, so it fails both the hub
  * and the entry tests and would otherwise be read as one giant "entry". It needs a dedicated table-row
- * importer, not the one-page-to-one-Codex-row matcher, so it is set aside rather than guessed at. */
-export function isCatalogPage(bucket, chars, ls) {
+ * importer, not the one-page-to-one-Codex-row matcher, so it is set aside rather than guessed at.
+ *
+ * Found at 9,000-page scale: this used to be items-only and price-gated, but the SAME shape happens in
+ * every bucket — "Kobold Press Spell List" (1,625 tab rows), "Story Feats"/"Monster Feats" (a design
+ * discussion THEN a Talent/Prerequisite/Level/Benefit table), "Monsters by CR"/"Spells (3rd Party)"
+ * (a pure alphabetical name list, no table at all). Two bucket-general signals, tested against known
+ * catalogs and known legitimate long articles (a 400,000-char single alternate-rules-system page with
+ * several genuine short reference tables scored well under both thresholds):
+ *   - longest RUN of consecutive tab-separated lines >= 40. A real entry's own reference tables are
+ *     short (the legit article above peaked at 31 in one run); a hidden multi-row catalog's table is
+ *     one long unbroken run the length of however many things it lists (60-106 in the confirmed cases).
+ *     A raw tab COUNT or density doesn't work here — a long article can rack up hundreds of tab lines
+ *     total across several small scattered tables while never running more than ~30 in a row.
+ *   - for tab-less list pages, >= 85% of body lines are short (<=8 words) and don't end a sentence —
+ *     true for a pure name list (1.00), false for prose even when it's unusually terse (peaked at 0.74
+ *     on a real article in testing).
+ * CRITICAL CORRECTION: the listy-ratio signal above was validated only against big pages and catastrophically
+ * over-fired on ORDINARY SHORT SPELLS — Pathfinder's own stat-block format (School/Level, CASTING, EFFECT,
+ * DESCRIPTION as bare section headers, short Components/Range/Duration lines) makes a normal 10-line spell
+ * score 0.90+ on its own, with only the description paragraph as "real" prose. Auditing all 125 spell-bucket
+ * "catalogs" in one 5,000-page batch found 114 were real, single, wrongly-excluded spells — the false-positive
+ * rate on ordinary content, not the rare hub page, was the dominant outcome. `hasOwnStatBlock` below is the
+ * fix: ANY of a spell/monster/feat/item/class's own header formats (checked across colon/no-colon and
+ * missing-semicolon variants actually found in the wild — "School: enchantment... Level: jester 1", "School
+ * conjuration (creation) Level cleric 0" with no semicolon at all, "Sutra Type parding..." for a non-spell
+ * magic subsystem) means the page has its own single entry and must never be excluded, REGARDLESS of what the
+ * tab-run or listy-ratio numbers say. Also covers the numbered-FAMILY-chain shape the matching stage already
+ * has rescue logic for ("Summon Nature's Ally I" through "IX" on one page, same as "Beast Shape I-IV") — that
+ * logic never gets a chance to run if this classifier excludes the page before matching ever sees it. */
+function longestTabRun(ls) {
+  let longest = 0, cur = 0;
+  for (const l of ls) { if (l.includes("\t")) { cur++; longest = Math.max(longest, cur); } else cur = 0; }
+  return longest;
+}
+function listyRatio(ls) {
+  if (ls.length < 10) return 0;
+  const listy = ls.filter((l) => l.split(/\s+/).length <= 8 && !/[.!?:;]$/.test(l)).length;
+  return listy / ls.length;
+}
+function hasOwnStatBlock(body, title) {
+  if (/School:?\s+\w[^;\n]*;?\s*Level:?/i.test(body)) return true;
+  if (/Discipline:?\s+\w[^;\n]*;?\s*Level:?/i.test(body)) return true; // psionic power ("MANIFEST" section)
+  if (/Sutra Type:?\s+\w/i.test(body)) return true;
+  if (/^CR:?\s+[\d/]+\s*\n+\s*XP:?\b/im.test(body)) return true;
+  // "Benefit: What the feat enables the character (“you” in the feat description) to do" (Monster
+  // Feats' own format-explanation preamble, not a real feat) also matches a bare "Benefit:" line — but its
+  // only "you" is quoted, a meta-reference to the WORD, not the reader. A real feat addresses the reader
+  // directly with a bare you/your ("Benefit(s): When casting... you also have access...", "Benefit: Your
+  // fiendish bloodline...") — not always as literally the first word, so strip quoted spans first and
+  // check what's left, rather than anchoring to the start of the line.
+  {
+    const bms = body.matchAll(/^(?:Prerequisite|Benefit)s?(?:\(s\))?:\s*(.+)$/gim);
+    for (const bm of bms) {
+      if (/\b(you|your)\b/i.test(bm[1].replace(/["“][^"”]*["”]/g, ""))) return true;
+    }
+  }
+  if (/Hit Die:|Hit Points:/.test(body)) return true;
+  if (/^Aura:?\s+\w.*;?\s*CL:?/im.test(body)) return true;
+  if (title) {
+    const esc = title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const re = new RegExp(`^${esc}\\s*,?\\s+(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|\\d+)\\b`, "gim");
+    if ((body.match(re) || []).length >= 2) return true;
+  }
+  return false;
+}
+// "Shield Boss" (5 named variants — Reinforcing/Breakaway/Hooked/Illuminating/Masterwork boss — each its
+// own price, plus real prose describing the base item) has the exact same shape as "Bronze Age Weapons"
+// (5 unrelated weapons, each its own price): a small tab-separated price table. What actually tells them
+// apart is that Shield Boss's row names all share a word with the page's OWN TITLE (they're variants of
+// ONE item), while Bronze Age Weapons' row names share nothing with the title (they're different items).
+function titleWordOverlap(ls, title) {
+  const titleWords = new Set(String(title || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter((w) => w.length > 3));
+  const tabRows = ls.filter((l) => l.includes("\t"));
+  if (!titleWords.size || !tabRows.length) return 0;
+  let matching = 0;
+  for (const row of tabRows) {
+    const rowName = row.split("\t")[0].toLowerCase();
+    if ([...titleWords].some((w) => rowName.includes(w))) matching++;
+  }
+  return matching / tabRows.length;
+}
+export function isCatalogPage(bucket, chars, ls, body, title) {
+  // A real ARCHETYPE never restates Hit Die (it modifies an existing class) so it can't use the general
+  // stat-block check below, but can carry its own spellcasting-progression table just as long as a real
+  // class's ("Primagus" ran 40+ tab rows) — bucket is the only reliable signal there.
+  if (bucket === "archetypes") return false;
+  if (hasOwnStatBlock(body, title)) return false;
+  if (longestTabRun(ls) >= 40) return true;
+  if (listyRatio(ls) >= 0.85) return true;
   if (bucket !== "items") return false;
+  if (titleWordOverlap(ls, title) >= 0.6) return false;
   const priced = ls.filter((l) => /\b\d[\d,]*\s*(gp|sp|cp)\b/i.test(l)).length;
   if (chars >= 8000 && priced >= 15) return true;
   // A SMALL catalog ("Bronze Age Weapons": ~2,000 chars, 5 priced rows) slipped past the size gate at
@@ -433,10 +564,10 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}` || proc
     const bucket = bucketOf(p.crumb, url || "https://x/");
     const ls = p.body.split("\n").map((l) => l.trim()).filter(Boolean);
     const kind = (url && isHubUrl(url)) ? "index"
-      : isCategoryRoot(p.children, p.crumb, p.body.length, p.body) ? "index"
+      : isCategoryRoot(p.children, p.crumb, p.body.length, p.body, p.nameRaw) ? "index"
       : bucket === "spells" && p.crumb.includes("Spells by Class") ? "index"
       : isToolLinkPage(p.body) ? "stub"
-      : isCatalogPage(bucket, p.body.length, ls) ? "catalog"
+      : isCatalogPage(bucket, p.body.length, ls, p.body, p.nameRaw) ? "catalog"
       : kindOf(p.body, p.crumb);
     const titleTag = (p.head.TITLE || "").replace(/\s+[–-]\s+d20PFSRD$/i, "");
     // LAST RESORT, entries only: every third-party page found in this pipeline carried SOME marker
