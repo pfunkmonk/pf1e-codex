@@ -1,0 +1,23 @@
+{
+  "id": "cf3bac649a0c0a6a",
+  "name": "Discerning Trap Extension",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "saboteur": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School divination; Level saboteur 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange see text\nEffect one trap extension\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA discerning trap extension allows you to modify the next trap you place in the same square to be more discerning in its triggering conditions.\n\nYou first place the discerning trap extension as a saboteur trap in a square adjacent to you, just as you would any other saboteur trap. At any point within the next minute, you must place a second trap in that same square (either a saboteur trap or a mundane trap). This effect supersedes the normal rule that two saboteur traps cannot be placed in the same space. The discerning trap extension merges with the second trap, enhancing its function. A trap that is enhanced by a discerning trap extension only triggers when a specific kind of creature steps on it, or allows certain creatures to pass without triggering. You choose one option from the list below:\n\nAlignment Trigger: Creatures of a certain alignment trigger the trap. You choose a single alignment axis (such as good, lawful, or neutral) or a specific alignment (such as chaotic evil). Only creatures of the specified alignment trigger the trap.\nAlignment Bypass: You choose a single alignment axis (such as good, lawful, or neutral) or a specific alignment (such as chaotic evil). Creatures of the specified alignment cannot trigger the trap.\nType Trigger: You choose a single creature type, such as aberration or humanoid. Only creatures of the specified type trigger the trap.\nType Bypass: You choose a single creature type, such as aberration or humanoid. Creatures of the specified type do not trigger the trap.\n\nThe discerning trap extension lasts until the trap is triggered, disarmed, or breaks apart (if the trap does so, as a saboteur trap does). Only one “trap extension” spell can be added to a particular trap.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cf3bac649a0c0a6a.json",
+    "web": "https://codex.pipsprojects.com/#/e/cf3bac649a0c0a6a"
+  },
+  "license": "OGL 1.0a"
+}

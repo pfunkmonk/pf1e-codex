@@ -1,0 +1,23 @@
+{
+  "id": "6272e4ba1d4c07df",
+  "name": "Earth Charger",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "paladin": 1
+    },
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched (spell caster’s special mount only)\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nEarth charger fills your mount with the power of earth. As long as it remains in contact with the ground, it gains a +4 enhancement bonus to Strength and gains the trample ability (if it doesn’t already have it). Creatures deal trample damage based on their size as follows.\n\nSize\tTrample Damage\nSmall\t1d4\nMedium\t1d6\nLarge\t1d8\nHuge\t2d6\nGargantuan\t2d8\nColossal\t4d8\n\nThe mount adds 1½ times its newly enhanced Strength bonus on its trample damage roll.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Rite Publishing.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6272e4ba1d4c07df.json",
+    "web": "https://codex.pipsprojects.com/#/e/6272e4ba1d4c07df"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "14d7cbef5d1485c1",
+  "name": "Burning Ink",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "Yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a needle valued at 1 sp, the needle is destroyed by the spell)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./lvl.)\nTarget 1 creature possessing tattoos\nDuration 1 round/2 levels\nSaving Throw Will negates; Spell Resistance Yes\n\nDESCRIPTION\n\nThis spell turns mundane tattoo ink embedded in the skin into acid. If a creature has no tattoos or the tattoos of the target are enchanted, the spell will not work, nor does the spell function if the target succeeds on a Will save. If the save fails, the target’s tattoos turn against the wearer, dealing 1d4 points of acid damage per your caster level and lasting for a number of rounds equal to half of your caster level, rounded down. The spell ruins the tattoos of the target creature.\n\nThe Way of the Yakuza Copyright 2011, Steven D. Russell and Michael Tumey, all rights reserved; Author Jonathan McAnulty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14d7cbef5d1485c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/14d7cbef5d1485c1"
+  },
+  "license": "OGL 1.0a"
+}

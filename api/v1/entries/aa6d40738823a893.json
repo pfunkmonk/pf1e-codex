@@ -1,0 +1,26 @@
+{
+  "id": "aa6d40738823a893",
+  "name": "Dominion’s Blessing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "invoker": 4
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [see text]; Level invoker 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/2 levels, no two of which can be more than 30 ft. apart\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou may only cast this spell if you are a spirit companion.\n\nWith an incantation of ancient power, you call to the spirits of nature to aid your allies in their time of need. For the duration, each target gains a +2 morale bonus to attack rolls, saving throws, and weapon damage rolls. Additionally, you grant your allies a single additional benefit from the list below. You may only choose a boon that matches the dominion of an invoked spirit of the invoker you are bonded with:\n\nBeasts: Each target becomes immune to bleeding effects, disease, and fear effects.\nLand: Each target gains a +4 bonus to CMD, a +2 bonus to their AC, and cannot be staggered or forced prone.\nSea: Each target gains a swim speed of 60 feet and can breathe underwater. Their weapon attacks and spells take none of the penalties normally imposed for being underwater.\nSky: Each target gains a fly speed of 40 feet with good maneuverability as well as a 20-foot enhancement bonus to all of their other speeds.\nWilds: Each target becomes immune to poison, sickness, nausea, and paralysis effects.\n\nWhen you choose a particular spirit type, the spell gains a descriptor appropriate to that type, as follows: animal (beasts), earth (land), water (sea), air (sky), or plant (wilds).\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa6d40738823a893.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa6d40738823a893"
+  },
+  "license": "OGL 1.0a"
+}

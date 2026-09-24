@@ -1,0 +1,17 @@
+{
+  "id": "9ff648ae69200019",
+  "name": "Gold Eating Dwarf (CR 8)",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Gold-Eating Dwarf\nCR 8\n\nXP 4,800\nLE haunt (persuasive muttering in 40 ft. radius area)\nCaster Level 8th\nNotice automatic (to hear spiritual voice)\nhp 16; Trigger proximity; Reset 1 day\n\nEFFECT\n\nSilas’s words function as a mass suggestion spell; anyone who hears him must make a DC 19 Will save to resist the compulsion to scoop up and eat a handful of the arsenic-tainted dirt on the floor of the room. The haunt enhances the already deadly effects of the arsenic in this case—anyone who eats the stuff must make a DC 16 Fortitude save to avoid taking poison damage, as if under the effect of a poison spell. Silas watches as anyone eats, and as the victim feels the poison flowing through his system, the haunted character sees Silas suddenly shrink in on himself, grow emaciated, and then fly apart in a red explosion of bite-sized morsels of flesh and bone. An instant later, he is gone.\n\nConversion Notes: At first glance I made the decision to convert the poison dirt to a spell effect, since the original description says the haunt augments it. But that is going to drop the save to 16 since it is now calculated using the haunt rules (save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell.) CR is a little weird here since you’ve got two spells to deal with, but it is something I’ve done before. You get some wiggle room since with an automatic notice, that’s a whopping -2 off the CR calculation. You also have to decide if this is a persistent haunt or not; the mass suggestion is a once-only effect, but the poison effect persists. I think you’re safe being non-persistent here. So: SL6 + SL4/2 = SL8 + 1 = base CR 9 – 1 for Notice DC < 15 = CR 8 overall.\n\nPathfinder 6: Spires of Xin-Shalast. Copyright 2008, Paizo Publishing LLC. Author: Greg A. Vaughan",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9ff648ae69200019.json",
+    "web": "https://codex.pipsprojects.com/#/e/9ff648ae69200019"
+  },
+  "license": "OGL 1.0a"
+}

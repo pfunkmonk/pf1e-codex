@@ -1,0 +1,23 @@
+{
+  "id": "73627ff509e8f947",
+  "name": "Writhing Tentacles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Bastion Press"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one touched book\nDuration 1 hour/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhenever anyone but the caster touches or opens the protected book, writhing gray tentacles emerge from the ground in a 5 ft. radius centered on the book. The spell creates 1d4 tentacles, plus an additional tentacle per caster level up to a maximum of fifteen tentacles. For example, an 8th level wizard creates 1d4+8 tentacles. Each tentacle is 20 feet long (Huge) and has the same saves as the caster at the time of casting. It has an AC 16, 1 hit point/per caster level and an attack bonus of +1/per caster level. The tentacles also have construct traits. The tentacles attack as mindless creatures, randomly striking anything, including anything larger than a tiny object. On a successful hit, the tentacles deliver 1d4 points of damage, and also secrete thin, black mucous through their porous skin. Any creature struck by one of the tentacles must make a successful Reflex save DC16 or be blinded by the foul liquid for 1d6 rounds. The tentacles are immobile, and once summoned remain in existence for 1 round/per caster level or until slain, whichever occurs first.\n\nInk & Quill. Copyright 2002, Bastion Press, Inc. Author: Thomas Knauss.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73627ff509e8f947.json",
+    "web": "https://codex.pipsprojects.com/#/e/73627ff509e8f947"
+  },
+  "license": "OGL 1.0a"
+}

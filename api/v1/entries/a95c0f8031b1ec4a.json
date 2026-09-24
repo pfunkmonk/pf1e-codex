@@ -1,0 +1,24 @@
+{
+  "id": "a95c0f8031b1ec4a",
+  "name": "Gravitational Singularity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Far Distant Future Publishing",
+  "book": "Far Distant Future Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "mystic": 6,
+      "void elemental school": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Far Distant Future Publishing"
+  },
+  "body": "School conjuration (creation); Level mystic 6, sorcerer/wizard 6; void elemental school 6\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a small steel spring)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect 5-ft.-cube gravitational singularity; see text\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou call into being a tiny particle of mass with infinite density. You must conjure the singularity in a square that is unoccupied by any creatures or objects. When you finish casting this spell, the singularity immediately draws all Medium and smaller creatures and any light (up to 5 lbs.) unattended objects within 30 feet toward it.\n\nEach round on your turn, the singularity makes a single special combat maneuver against creatures within 30 feet with a CMB equal to your caster level + your spellcasting ability modifier. If the singularity is successful, that creature is moved 5 feet toward the singularity plus 5 additional feet for every 5 by which the result exceeds a target’s CMD. Unattended objects are automatically moved 10 feet toward the singularity each round. If a creature or object is moved into the square that contains the singularity, it is sucked inside it and takes 12d6 damage at the end of its turn each round it remains within that space.\n\nA creature drawn into the singularity can take no actions except a ? full-round action to try to escape. (It still takes damage during the rounds it attempts to escape.) To escape the singularity, a creature must succeed at either an Escape Artist check (DC 10 + your spellcaster level + your spellcasting ability modifier) or a DC 22 Strength check. The singularity can hold up to four Medium creatures or objects (two Small creatures or objects count as one Medium creature, and so on); if it would pull in additional creatures, those creatures are simply pulled into a square adjacent to the singularity.\n\nA creature within 50 feet of the singularity has its speed reduced by half when it moves away from the singularity. However, it can move at double its normal speed when moving toward the singularity. If a creature moves within 30 feet of the singularity at any point in its movement, it is subject to the combat maneuver described above. A creature that moves neither toward nor away from the singularity moves at its normal speed.\n\nWhen this spell ends, the singularity disappears, and creatures and objects that were sucked into the singularity appear in the space where you conjured it—or as close as possible to that space, if they can’t all fit within it.\n\nGalactic Bestiary 4. © 2025, Far Distant Future Publishing; Author: Bryan Mangum.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a95c0f8031b1ec4a.json",
+    "web": "https://codex.pipsprojects.com/#/e/a95c0f8031b1ec4a"
+  },
+  "license": "OGL 1.0a"
+}

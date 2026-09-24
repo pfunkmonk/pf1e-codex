@@ -1,0 +1,26 @@
+{
+  "id": "815013160a55527c",
+  "name": "Beguile",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 2\n\nCASTING\n\nCasting Time 1 move action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cloud the mind of the target creature, making him more susceptible to charms and illusions. The subject is dazzled and takes a -4 circumstance penalty on all saving throws against enchantment and illusion spells and effects. A successful Will save negates the dazzled condition and the target suffers only a -2 circumstance penalty on all saving throws against enchantment and illusion spells and effects.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/815013160a55527c.json",
+    "web": "https://codex.pipsprojects.com/#/e/815013160a55527c"
+  },
+  "license": "OGL 1.0a"
+}

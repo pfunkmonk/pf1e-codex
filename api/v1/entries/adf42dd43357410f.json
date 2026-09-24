@@ -1,0 +1,29 @@
+{
+  "id": "adf42dd43357410f",
+  "name": "Deathwings",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 6,
+      "nightblade": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School necromancy [darkness]; Level cleric 6, nightblade 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a raven’s feather)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe creature you touch sprouts wings made of shadows and negative energy. This grants the creature a fly speed of 60 feet with good maneuverability, as a fly spell. The wings can be used to attack. The two wings are secondary natural attacks, dealing 1d4 points of damage (for a medium creature) plus half the creature’s Strength bonus. The wings also inflict negative energy damage equal to 1d6 + 1 per two caster levels (maximum +10) on a successful hit.\n\nAt any point during the spell’s duration, the recipient of the spell can release the negative energy in the wings in a single burst. This functions as a cleric channeling negative energy, using your caster level as cleric levels to determine the damage the channeled energy deals (or the amount it heals undead, should the creature use it in that manner). The DC of the Will save to take half damage is equal to the DC of deathwings. Upon using the deathwings to channel negative energy, the spell ends; if the creature is in the air when this occurs, it falls to the ground slowly, as a fly spell does.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/adf42dd43357410f.json",
+    "web": "https://codex.pipsprojects.com/#/e/adf42dd43357410f"
+  },
+  "license": "OGL 1.0a"
+}

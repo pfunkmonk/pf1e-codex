@@ -1,0 +1,28 @@
+{
+  "id": "0b76705ab71996c1",
+  "name": "Burning Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School evocation [fire]; Level bloodrager 1, magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYour successful melee touch attack deals 1d6 points of fire damage per caster level (maximum 5d6). When delivering the fire, you gain a +3 bonus on attack rolls if the opponent is wearing wood-armor (or is carrying a easily accessible flammable materials like spellbooks).\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0b76705ab71996c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/0b76705ab71996c1"
+  },
+  "license": "OGL 1.0a"
+}

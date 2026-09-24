@@ -1,0 +1,19 @@
+{
+  "id": "74ca0cd2795df2c9",
+  "name": "Protection",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design alteration; Level 4\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one suit of armor or a shield\nDuration 10 min./level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou enhance the targeted armor to provide more protection, granting the target armor or shield a +1 enhancement bonus per four caster levels (max +5).\n\nAn outfit of clothing counts as armor with a +0 AC bonus for the purpose of this script.\n\nOverload: For every runic charge overloaded into this script, your caster level for determining the enhancement bonus increases by +1. In addition, depending on the design of charges used, you can grant different armor properties, as shown below. Each property has its listed equivalent enhancement bonus:\n\nAlteration: Invulnerability (+3)\n\nCreation: Light fortification (+1) or moderate fortification (+3)\nDestruction: Deathless (+1)\n\nInvocation: Energy Resistance (+3)\n\nManipulation: Ghost touch (+3)\nRevelation: Glamered (+2)\n\nAdding these properties consumes an amount of bonus from protection’s effect equal to the property’s cost. These bonuses are added to any properties the armor already has, but duplicate abilities do not stack.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74ca0cd2795df2c9.json",
+    "web": "https://codex.pipsprojects.com/#/e/74ca0cd2795df2c9"
+  },
+  "license": "OGL 1.0a"
+}

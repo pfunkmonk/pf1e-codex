@@ -1,0 +1,27 @@
+{
+  "id": "95b5f0a57804c5f1",
+  "name": "Contingent Light Healing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 2,
+      "paladin": 2,
+      "ranger": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless); see text",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (healing); Level bard 2, cleric/oracle 2, druid 2, paladin 2, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (drop of sacred oil)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level (D) or until discharged\nSaving Throw Will half (harmless); see text; Spell Resistance yes (harmless); see text\n\nDESCRIPTION\n\nYou bestow a small blessing on a target creature. Whenever the creature takes 4 or more points of damage, the spell discharges, suffusing the creature with positive energy that cures 1d8 points of damage. If used against undead, this spell is triggered in one of two ways, dealing 1d8 points of additional damage either the next time the undead target takes normal damage, or the next time the undead target is ‘healed’ by taking negative energy damage. An undead creature can apply spell resistance, and can attempt a Will save to take half damage. A creature may only be under the effect of one contingent healing spell (of any sort) at a time.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/95b5f0a57804c5f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/95b5f0a57804c5f1"
+  },
+  "license": "OGL 1.0a"
+}

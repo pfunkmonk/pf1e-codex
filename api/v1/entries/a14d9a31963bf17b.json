@@ -1,0 +1,24 @@
+{
+  "id": "a14d9a31963bf17b",
+  "name": "Shadow Sentry",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (shadow); Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F /DF (a tiny replica sword made of onyx worth 25 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadowy guard (see text)\nDuration 1 hour/level or until discharged\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nShadow sentry creates either a shadowy or faceless humanoid warrior (AC 12) under your command. The sentry may be commanded to “guard,” where it shouts an alarm if it notices anyone approach within 30 ft (using the caster’s Perception score), “patrol,” where it follows a route first walked by the caster and calls an alarm if it notices anyone approach within 30 feet, and “attack,” where it attacks with its shadowy sword (1d8 damage + 1 point/4 levels). The sentry has a BAB equal to the caster’s level and adds the caster’s stat bonus. (A 4th level sorcerer with a Charisma of 16 creates a sentry with a BAB of +4 and an attack of +7. It inflicts 1d8+1 damage.) The sentry may provide an ally a flanking bonus, but does not benefit from one. The sentry is discharged after being successfully struck for any damage.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a14d9a31963bf17b.json",
+    "web": "https://codex.pipsprojects.com/#/e/a14d9a31963bf17b"
+  },
+  "license": "OGL 1.0a"
+}

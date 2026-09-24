@@ -1,0 +1,27 @@
+{
+  "id": "3aae9c84a3830deb",
+  "name": "Malicious Intent",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange 60 ft.\nArea 30-ft.-radius spread centered on you\nDuration 2 rounds/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nMalicious intent causes all subjects in the area of effect to take a –1 penalty on all saving throws. Alternately, you can select a single school of magic and cause all subjects in the area to take a –2 penalty on saving throws against spells from that school.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3aae9c84a3830deb.json",
+    "web": "https://codex.pipsprojects.com/#/e/3aae9c84a3830deb"
+  },
+  "license": "OGL 1.0a"
+}

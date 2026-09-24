@@ -1,0 +1,25 @@
+{
+  "id": "0e8d40eca05fbec3",
+  "name": "Lesser Wound (wounding)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 1,
+      "inquisitor": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy; Level cleric/oracle 1, inquisitor 1, witch 1\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word takes 1d6 points of damage + 1 point per wordcaster level (maximum +5). Undead are instead healed by this effect and do not receive a saving throw or spell resistance.\n\nBoost: The target of a wordspell with this effect takes 1d8 points of damage + 1 point per wordcaster level (maximum +5).\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0e8d40eca05fbec3.json",
+    "web": "https://codex.pipsprojects.com/#/e/0e8d40eca05fbec3"
+  },
+  "license": "OGL 1.0a"
+}

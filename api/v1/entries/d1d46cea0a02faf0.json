@@ -1,0 +1,28 @@
+{
+  "id": "d1d46cea0a02faf0",
+  "name": "Poison Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [poison]; Level cleric/oracle 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nEffect weapon touched\nDuration 1 min./level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions like magic weapon, except that instead of gaining a magical enhancement, the weapon becomes coated with magically created injury poison. This poison deals 1d4 Dexterity damage per round for 10 rounds. Poisoned creatures can make a Fortitude save each round to negate the damage and end the affliction. The Fortitude DC of the poison is 10 + ½ caster level + the caster’s ability modifier.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d1d46cea0a02faf0.json",
+    "web": "https://codex.pipsprojects.com/#/e/d1d46cea0a02faf0"
+  },
+  "license": "OGL 1.0a"
+}

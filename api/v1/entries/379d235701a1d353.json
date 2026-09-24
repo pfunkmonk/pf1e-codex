@@ -1,0 +1,17 @@
+{
+  "id": "379d235701a1d353",
+  "name": "Create Wondrous Creature",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "3rd Party – Kobold Press",
+  "book": "3rd Party – Kobold Press",
+  "facets": {
+    "bk": "3rd Party – Kobold Press"
+  },
+  "body": "You have learned the magical art of creating new flesh from old.\n\nPrerequisite: CL 5th.\n\nBenefit: You can create any aberration, magical beast, monstrous humanoid, or plant creature whose prerequisites you meet. However, the creature created is not necessarily under your control.\n\nTo begin, you need access to an alchemist’s lab worth at least 500 gp. The process involves subjecting a similar creature or creatures to various spells and grafting techniques. There is a chance that the experiment will be a failure.\n\nTo create a creature, you must succeed with both Knowledge (arcana) and Knowledge (nature) checks (DC 20 + CR of attempted creature). You gain a +1 circumstance bonus for every attempt at a specific creature that you have previously made, whether successful or not.\n\nIf both Knowledge skill checks are failed the creature dies a horrible death. If one Knowledge skill check fails and the other succeeds, the resulting creation is horribly deformed in some way and is hostile to you.\n\nThe base price of a creature is its CR value squared times 1,000 gp (CR x CR x 1,000 gp). Creating a creature takes 1 day/1,000 gp in its base price. To create a creature, you must supply raw materials costing 1/2 its base price.\n\nThe minimum CL for creating a creature is 2 times the CR (2 x CR) of the intended creature until you reach 10th level; thereafter, it’s your level minus 5. The appropriate spells must be used to add extraordinary (Ex), spell-like (Sp), and supernatural (Su) abilities to the creature.\n\nSpecial: If a charm monster spell is cast every day of the creation process, a successfully created creature will be entirely loyal to you, although not under your direct control. If a limited wish is used in the creation process, a successfully created creature will be loyal and will follow a life goal you choose for it. If a wish is used in the creation process, a successfully created creature and all its descendants will follow a single life goal of your choice.\n\nFeats 101. Copyright 2009, Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/379d235701a1d353.json",
+    "web": "https://codex.pipsprojects.com/#/e/379d235701a1d353"
+  },
+  "license": "OGL 1.0a"
+}

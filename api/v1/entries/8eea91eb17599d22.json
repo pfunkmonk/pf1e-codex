@@ -1,0 +1,27 @@
+{
+  "id": "8eea91eb17599d22",
+  "name": "Melodious Joy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "oracle": 2,
+      "paladin": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School illusion (figment) [mind-affecting]; Level cleric/oracle 2, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 50 ft.\nTarget all allies within a 50-ft. burst centered on you\nDuration 1 round/level + 5 rounds\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nJoyful, inspiring music begins to play, seemingly radiating out from you. The music imitates a bard’s Inspire Courage ability, granting all allies within 50 feet of you a +1 bonus to saves vs. fear and a +1 morale bonus to attack and damage rolls. The effects linger for another 5 rounds after the music stops at the end of the spell’s duration. Unlike the Inspire Courage ability, the benefit is flat and does not increase as you go up in level.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8eea91eb17599d22.json",
+    "web": "https://codex.pipsprojects.com/#/e/8eea91eb17599d22"
+  },
+  "license": "OGL 1.0a"
+}

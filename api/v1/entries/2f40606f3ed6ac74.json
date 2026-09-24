@@ -1,0 +1,26 @@
+{
+  "id": "2f40606f3ed6ac74",
+  "name": "Arcane Spear",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a miniature wooden spear)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Will partial (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe spell creates a shining spear of pure magical energy that the caster throws as a ranged touch attack at any one target. If the arcane spear hits, the target suffers 1d6 points of damage per the caster’s level (maximum 10d6). Further, the arcane spear drains 1 randomly determined prepared spells of 2nd level or lower from victims who are capable of casting spells. These spells are lost as if they had been cast, and they can be regained normally. The draining effect also applies to monsters with spells or spell-like abilities that have a specified number of times per day that they can be used. In the case of spell-like abilities, each prepared spell that the arcane spear drains takes away one usage of a spell-like power for one day, provided that the spell is 2nd level or lower. For sorcerers, bards, and others who do not prepare spells, the arcane spear drains one (randomly determined) unused spell slot for the day. A successful Will saving throw negates the spell-draining effect.\n\nThe arcane spear is a force effect, and it may strike ethereal creatures.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2f40606f3ed6ac74.json",
+    "web": "https://codex.pipsprojects.com/#/e/2f40606f3ed6ac74"
+  },
+  "license": "OGL 1.0a"
+}

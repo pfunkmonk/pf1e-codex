@@ -1,0 +1,28 @@
+{
+  "id": "107e6341d54b7f81",
+  "name": "Shared Technique",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "inquisitor": 3,
+      "magus": 3,
+      "paladin": 2,
+      "ranger": 2,
+      "vanguard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School divination; Level bard 3, inquisitor 3, magus 3, paladin 2, ranger 2, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets you and one willing creature\nDuration 10 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nShared technique allows you to share your training and expertise with another creature. You grant the creature you touch the benefit of a single combat feat, metamagic feat, or teamwork feat that you have. They must meet the prerequisites of the feat to benefit from it. Alternatively, you can instead learn a single combat feat, metamagic feat, or teamwork feat the target has. You must meet the prerequisites of the feat to benefit from it.\n\nA creature can only benefit from one casting of shared technique at a given time; casting it on the creature a second time ends the previous casting.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/107e6341d54b7f81.json",
+    "web": "https://codex.pipsprojects.com/#/e/107e6341d54b7f81"
+  },
+  "license": "OGL 1.0a"
+}

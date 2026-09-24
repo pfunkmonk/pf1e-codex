@@ -1,0 +1,29 @@
+{
+  "id": "a8f314e9a0f68fa4",
+  "name": "Ignore",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting",
+      "psionic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (charm) [mind-affecting, psionic]; Level druid 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents M (cotton and a blindfold)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou magically distract a creature causing it to suffer a –5 penalty to Perception checks. Even if the subject fails the save, it does not know it has been the subject of a spell effect.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8f314e9a0f68fa4.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8f314e9a0f68fa4"
+  },
+  "license": "OGL 1.0a"
+}

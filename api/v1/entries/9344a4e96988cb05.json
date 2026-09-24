@@ -1,0 +1,30 @@
+{
+  "id": "9344a4e96988cb05",
+  "name": "Energy Resistance (body)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 2,
+      "oracle": 2,
+      "druid": 2,
+      "inquisitor": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "wizard": 2,
+      "summoner": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level alchemist 2, cleric/oracle 2, druid 2, inquisitor 2, paladin 2, ranger 2, sorcerer/wizard 2, summoner 2\n\nEFFECT\n\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions Personal, Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word gains resistance 10 to one energy type (acid, cold, electricity, fire or sonic). The target still suffers any other side effects that might accompany the energy damage.\n\nBoost: The target gains resistance 20 to one energy type.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9344a4e96988cb05.json",
+    "web": "https://codex.pipsprojects.com/#/e/9344a4e96988cb05"
+  },
+  "license": "OGL 1.0a"
+}

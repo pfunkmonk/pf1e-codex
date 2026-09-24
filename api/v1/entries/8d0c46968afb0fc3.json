@@ -1,0 +1,28 @@
+{
+  "id": "8d0c46968afb0fc3",
+  "name": "Divine Trident",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 2,
+      "druid": 2,
+      "witch": 2
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [electricity]; Level cleric 2, druid 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 0 ft. trident-like bolt of electricity\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA 4-foot-long, blazing, forked bolt of electricity springs forth from your hand. You wield this spear-like bolt as if it were a trident (you are considered proficient with the bolt). Attacks with the trident are melee touch attacks. The bolt deals 1d8 points of electricity damage + 1 point per 2 caster levels (maximum +10). Since the bolt is immaterial, your Strength modifier does not apply to the damage. The bolt can ignite combustible materials such as parchment, straw, dry sticks, and cloth.\n\nPathfinder Campaign Setting: Inner Sea Gods © 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8d0c46968afb0fc3.json",
+    "web": "https://codex.pipsprojects.com/#/e/8d0c46968afb0fc3"
+  },
+  "license": "OGL 1.0a"
+}

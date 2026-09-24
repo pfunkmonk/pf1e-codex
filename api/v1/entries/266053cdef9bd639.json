@@ -1,0 +1,24 @@
+{
+  "id": "266053cdef9bd639",
+  "name": "Glass House",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration; Level cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (one inch cube of glass)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one or more creatures (see text)\nDuration 1 min./level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nYou create a shimmering 10 ft. square cube of magically enhanced, transparent glass. This glass house can be used as a means to trap opponents that can fit within the cube (Reflex save avoids), or it can be used as a protective enclosure for the caster and any companions that can fit inside of it. When created, the glass house must be supported by a solid surface below it capable of holding 500 pounds or the spell fails. The glass house has hit points equal to triple your caster level and its break DC is 20 + your caster level. The walls of the glass house have resistance to acid, cold, electricity, and fire 10 and have DR 15/bludgeoning.\n\nIf any creatures are inside the glass house when it breaks, they take 3d6 total points of slashing and piercing damage from the exploding glass walls.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/266053cdef9bd639.json",
+    "web": "https://codex.pipsprojects.com/#/e/266053cdef9bd639"
+  },
+  "license": "OGL 1.0a"
+}

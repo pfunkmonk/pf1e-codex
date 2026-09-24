@@ -1,0 +1,27 @@
+{
+  "id": "6c25eb07ff27175a",
+  "name": "Drown",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School necromancy [water]; Level cleric 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (the gills of a fish)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nDrown causes the target creature’s lungs to instantly fill with water. The target suffers 1d3 points of constitution damage and begins drowning. A heal spell, or a DC 20 Heal check (performed by a creature other than the target himself), expels the water from the lungs and ends all drowning effects, but does not restore lost constitution. A water breathing spell will not remove the water from the creature’s lungs or restore lost constitution, but will allow them to resume breathing normally. A creature that makes their Fortitude save does not lose constitution or begin drowning, but will be sickened for 1 minute as they regurgitate the water.\n\nPaths of Power. Copyright 2009, 4 Winds Fantasy Gaming; Authors Sean O’Connor and Patricia Willenborg, with Connie J. Thomson and Robert W. Thomson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6c25eb07ff27175a.json",
+    "web": "https://codex.pipsprojects.com/#/e/6c25eb07ff27175a"
+  },
+  "license": "OGL 1.0a"
+}

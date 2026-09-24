@@ -1,0 +1,28 @@
+{
+  "id": "1ac6478cdead9e24",
+  "name": "Friendship (command)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 1, sorcerer/wizard 1, witch 1\n\nEFFECT\n\nDuration 10 minutes/level\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word treats the caster as a trusted ally. The creature will defend the caster and will not attack the caster’s allies while the wordspell persists. If the creature is attacked by the caster or his allies, this effect immediately ends (though other effects of the wordspell may continue). A wordspell with this effect word only affects creatures of the humanoid type; targets receive a +4 bonus on the saving throw if a wordspell with the effect word has its target boosted to affect more than one creature.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1ac6478cdead9e24.json",
+    "web": "https://codex.pipsprojects.com/#/e/1ac6478cdead9e24"
+  },
+  "license": "OGL 1.0a"
+}

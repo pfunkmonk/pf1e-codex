@@ -1,0 +1,34 @@
+{
+  "id": "c19eb1b9b07e951e",
+  "name": "Torch Illumination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Book of Magic: The Lost Spell Words",
+  "book": "Book of Magic: The Lost Spell Words",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 0,
+      "skald": 0,
+      "warpriest": 0,
+      "hunter": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "shaman": 0,
+      "unchained summoner": 0,
+      "witch": 0
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Book of Magic: The Lost Spell Words"
+  },
+  "body": "School evocation [fire]; Level arcanist/sorcerer/wizard 0, bard/skald 0, cleric/oracle/warpriest 0, druid/hunter 0, inquisitor 0, magus 0, shaman 0, summoner/unchained summoner 0, witch 0\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA wordspell containing this effect word causes the light within 10 feet to increase by 1 step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). If the target word is either burst or cone, that area plus the 10 feet around that area increases by 1 step.\n\nBoost: The light increases by 2 levels instead of 1. Additionally, in the 20 feet surrounding the area where the light is increased by 2 levels, light is increased by 1 level. Boosting this effect word increases its level by 2.\n\nBook of Magic: The Lost Spell Words © 2014 Jon Brazer Enterprises.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c19eb1b9b07e951e.json",
+    "web": "https://codex.pipsprojects.com/#/e/c19eb1b9b07e951e"
+  },
+  "license": "OGL 1.0a"
+}

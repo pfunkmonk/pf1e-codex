@@ -1,0 +1,24 @@
+{
+  "id": "aa2790e2c9e26763",
+  "name": "Blood to Sap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 5,
+      "wizard": 6
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level druid 5, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of amber)\n\nEFFECT\n\nRange Close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell causes one target creature’s blood to thicken and slow in its veins. An affected creature suffers excruciating pain, taking an immediate 1d6 points of damage per caster level (maximum 15d6). In addition, it moves at half its normal speed and it takes a –4 circumstance penalty on Dexterity as its limbs stiffen. At the same time, the creature’s skin hardens and becomes more resilient, improving its natural armor bonus by +2. (A creature without natural armor has an effective natural armor bonus of +0.) As well, the creature is no longer subject to critical hits and sneak attacks (or other effects that depend on having a discernible anatomy), since its vital organs are affectively shielded by the thickening blood. A successful Fortitude saving throw halves the damage and prevents all other effects (even those that could be beneficial). Blood to sap can target only living creatures with a discernible anatomy and a blood-stream. Constructs, elementals, oozes, plants, and undead (except those with the blood drain ability) are immune to the effects of this spell.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa2790e2c9e26763.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa2790e2c9e26763"
+  },
+  "license": "OGL 1.0a"
+}

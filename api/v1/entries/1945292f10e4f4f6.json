@@ -1,0 +1,37 @@
+{
+  "id": "1945292f10e4f4f6",
+  "name": "Blinded by Rage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 5,
+      "antipaladin": 4,
+      "bard": 4,
+      "oracle": 4,
+      "druid": 5,
+      "inquisitor": 4,
+      "magus": 4,
+      "ranger": 4,
+      "wizard": 4,
+      "summoner": 4,
+      "witch": 4
+    },
+    "desc": [
+      "emotion",
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School abjuration (mind-affecting) [emotion, evil]; Level alchemist 5, antipaladin 4, bard 4, cleric/oracle 4, druid 5, inquisitor 4, magus 4, ranger 4, sorcerer/wizard 4, summoner 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 20-ft.-radius emanation centered on you\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nAn intense aura of fury surrounds you.\n\nEnemies who begin their turn within this aura who fail their saving throw are filled with an uncontrollable anger towards you. If a creature that is within the aura wishes to attack someone other than you, or target a creature other than yourself with a hostile spell, they must make a Will save to do so. If this saving throw fails they may only target you (but may still choose not to make an attack or cast a spell).\n\nAttack rolls affected creatures make while within this aura suffer a -1 penalty for every two caster levels you possess (maximum -10). Additionally, affected creatures suffer a -1 penalty to concentration checks when casting spells within this aura. These penalties apply whether the affected creature attacks you or any other creatures so long as they are within the aura.\n\nIf an affected creature leaves the aura, the penalties remain in effect for one additional round, provided that the spell has not yet ended, but they may choose any target to attack or target with a spell as normal.\n\nUltimate Evil. Copyright 2014, d20pfsrd.com Publishing/Open Gaming LLC; Authors: Clinton J. Boomer & Peter K. Ullmann.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1945292f10e4f4f6.json",
+    "web": "https://codex.pipsprojects.com/#/e/1945292f10e4f4f6"
+  },
+  "license": "OGL 1.0a"
+}

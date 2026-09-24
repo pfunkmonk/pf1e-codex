@@ -1,0 +1,30 @@
+{
+  "id": "bc0c1a7fcc9e1b12",
+  "name": "Anchoring Chains",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 2,
+      "cleric": 3,
+      "magus": 3,
+      "paladin": 2,
+      "vanguard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level antipaladin 2, cleric 3, magus 3, paladin 2, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a small chain)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nDESCRIPTION\n\nNumerous chains emerge from the ground and wrap about your midsection, anchoring you firmly in place.\n\nThe anchoring chains grant you a +20 bonus to your CMD to resist bull rush, overrun, pull, push, reposition, and trip combat maneuvers, as well as any other effect that would move you from your current position (such as being swallowed whole) or knock you prone. It also grants you a +4 resistance bonus to saving throws against effects that would move or teleport you, such as jester’s jaunt or plane shift. The chains extend into the spaces near you, making all adjacent squares next to you difficult terrain.\n\nWhile anchored in such a manner, you cannot move from your current space. If you are moved from your current space for any reason, such as a creature successfully beating your CMD to bull-rush you or if you use dimension door to teleport, the chains break, and the spell ends. This spell has no effect if you are not touching the ground (climbing, flying, swimming, and so on).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc0c1a7fcc9e1b12.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc0c1a7fcc9e1b12"
+  },
+  "license": "OGL 1.0a"
+}

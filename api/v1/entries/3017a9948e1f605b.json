@@ -1,0 +1,27 @@
+{
+  "id": "3017a9948e1f605b",
+  "name": "Hesitate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a snail)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nHesitate causes a number of creatures in the area to hesitate and second-guess their actions.\n\nAffected creatures go last in the initiative order and ignore the first attack of opportunity they could take in each round. If more than one creature is affected by hesitate their relative initiative order remains the same relative to one another even though as a group they are moved to the end of the order.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3017a9948e1f605b.json",
+    "web": "https://codex.pipsprojects.com/#/e/3017a9948e1f605b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "c1ceff77f9abfc59",
+  "name": "Fire Cage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 7
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a fist-sized chunk of red obsidian)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea barred cage of flames (20-ft. cube)\nDuration 1 round/level (D)\nSaving Throw Reflex half; see text; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates an immobile cubicle prison made of bands of flame. Any creatures within the area are caught and contained unless they are too big to fit inside, in which case the spell automatically fails. All creatures caught inside must make a Reflex save or take 3d6 points of fire damage from coming in contact with the flames. All creatures outside the cage who touch it also take 3d6 points of fire damage. The bands are 1/2 inch wide and 2 inches apart; even creatures small enough to fit through those tight spaces will take 3d6 points of fire damage if they try to slip through.\n\nTeleportation and other forms of astral travel offer a means of escape, but ethereal travel is blocked.\n\nCreatures within the fire cage have cover, and can only be hit with ranged, magical, and breath weapon attacks. The cage itself has 20 hp per caster level, and can be destroyed by cold damage. It is also affected by mage’s disjunction and disintegrate, or by a sphere of annihilation or rod of cancellation.\n\nPaths of Power. Copyright 2009, 4 Winds Fantasy Gaming; Authors Sean O’Connor and Patricia Willenborg, with Connie J. Thomson and Robert W. Thomson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c1ceff77f9abfc59.json",
+    "web": "https://codex.pipsprojects.com/#/e/c1ceff77f9abfc59"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "a35985338426bf22",
+  "name": "Contaminate Food and Drink",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Clockwork Gnome Publishing",
+  "book": "Clockwork Gnome Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 1,
+      "druid": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Clockwork Gnome Publishing"
+  },
+  "body": "School transmutation; Level cleric 1, druid 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small portion of rotten meat)\n\nEFFECT\n\nRange 10 ft.\nTarget 1 cu. ft./level of food and water\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell makes clean, disease-free food and drink rotten and bacteria-ridden. Anyone consuming the food is exposed to blinding sickness. The creature may make a Fortitude save to resist the disease as normal. Symptoms of blinding sickness begin with blurred vision, difficulty breathing and overall weakness. If left untreated, the victim’s vision grows increasingly worse and strength fades dramatically before unconsciousness sets in.\n\nWhile the putrid nature of the food and drink affected by this spell is obvious upon close inspection, it is possible to disguise this fact. Those skilled in food preparation, either through the Profession skill or Craft skill, may make a DC 15 check to cover up the rotten state through the use of spices, sauces, or other clever techniques. In such cases, the result of the skill check becomes the DC to detect the presence of contamination. Repeated uses of prestidigitation may be enough to cloak the foulness (GM’s discretion). Illusion magic may also be employed to trick the senses into believing the food is clean and fresh.\n\nHoly water and similar food and drink of significance are spoiled by this spell, but the spell has no effect on creatures of any type nor upon magic potions.\n\nCampaign Cogs: Morithal, Lord of Unceasing Hunger. Copyright 2012, Allen Taliesin, All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a35985338426bf22.json",
+    "web": "https://codex.pipsprojects.com/#/e/a35985338426bf22"
+  },
+  "license": "OGL 1.0a"
+}

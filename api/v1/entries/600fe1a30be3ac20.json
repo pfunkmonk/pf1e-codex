@@ -1,0 +1,29 @@
+{
+  "id": "600fe1a30be3ac20",
+  "name": "Fade (concealing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "wizard": 1,
+      "summoner": 1,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School illusion (glamer); Level alchemist 1, bard 1, inquisitor 1, magus 1, sorcerer/wizard 1, summoner 1, witch 1\n\nEFFECT\n\nDuration 1 round\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word becomes invisible until the beginning of the caster’s next turn. If the target attacks or otherwise takes an offensive action, this effect ends.\n\nBoost: The target does not become visible if it attacks or takes an offensive action.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/600fe1a30be3ac20.json",
+    "web": "https://codex.pipsprojects.com/#/e/600fe1a30be3ac20"
+  },
+  "license": "OGL 1.0a"
+}

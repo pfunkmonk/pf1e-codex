@@ -1,0 +1,19 @@
+{
+  "id": "44f13ebd8ba21031",
+  "name": "Sixfold Veil",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "special",
+    "sr": "see text",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation; Level 9\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect wall 5 ft./level wide, 2 ft./level high\nDuration 10 min./level (D)\nSaving Throw see text; Spell Resistance see text\n\nDESCRIPTION\n\nSixfold veil creates a vertical, opaque wall – a shimmering plane of swirling patterns and designs that protects you from all forms of attack. The wall flashes with up to six different runic patterns, each of which represents one of the six designs of rune magic. The wall is immobile, and you can pass through and remain near the wall without harm. Any other creature with less than 8 HD that is within 20 feet of the wall is blinded by the colors for 2d4 rounds if it looks at the wall.\n\nThe veil’s maximum proportions are 5 feet wide per caster level and 2 feet high per caster level. A sixfold veil script cast to materialize in a space occupied by a creature is disrupted, and the casting is wasted.\n\nEach pattern in the wall has a special effect. Table: Sixfold Veil shows the six patterns of the wall, the order in which they appear, their effects on creatures trying to attack you or pass through the wall, and the magic needed to negate each pattern.\n\nWhen you cast sixfold veil, you choose any two of the patterns shown on Table: Sixfold Veil. These two patterns are the only ones present in the veil, and they appear and affect creatures in the order shown. More patterns can be added by overloading the script.\n\nThe veil can be destroyed, pattern by pattern, in consecutive order, by casting the specified script on the veil; however, the first pattern must be brought down before the second can be affected, and so on. A rod of cancellation or a mage’s disjunction spell destroys the veil, but an antimagic field or negation field fails to penetrate it. Spell Resistance is effective against a sixfold veil, but the caster level check must be repeated for each pattern present.\n\nOverload: For every runic charge you overload into this script, the veil becomes more deadly. If a runic charge used corresponds to a pattern not already selected for the sixfold veil, that pattern is added to the veil, using the rules above. If a runic charge used corresponds to a pattern that has already been added to the sixfold veil, the save DC of that pattern increases by +1 (max +2 bonus).\n\nOrder\tPattern\tEffect of Pattern\n\tNegated by\n1st\tDestruction\n\tStops all ranged weapons.\nDeals 60 points of acid damage (Reflex half).\n\tRevivify\n\n2nd\tInvocation\n\tStops poisons, gases, and petrification.\nDeals 60 points of electricity damage (Reflex half).\n\tGravity well\n\n3rd\tAlteration\n\tStops breath weapons.\nTurned to stone (Fortitude negates).\n\tCourse of action\n\n4th\tRevelation\n\tStops divinations and mental attacks.\nWill save or become insane (as insanity).\n\tExpose weakness\n\n5th\tCreation\n\tStops all spells (except those blocked by the revelation or manipulation patterns).\nPushed back 30 feet and paralyzed for 2d6 minutes (Fortitude negates).\n\tDust to dust\n\n6th\tManipulation\n\tBlocks all teleportation and ethereal travel within 100 feet.\nCreatures sent to another plane (Will negates).\n\tSun and moon\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/44f13ebd8ba21031.json",
+    "web": "https://codex.pipsprojects.com/#/e/44f13ebd8ba21031"
+  },
+  "license": "OGL 1.0a"
+}

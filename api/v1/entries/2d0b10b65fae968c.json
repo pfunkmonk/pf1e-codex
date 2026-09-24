@@ -1,0 +1,27 @@
+{
+  "id": "2d0b10b65fae968c",
+  "name": "Hold off the Dawn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "cleric": 9,
+      "druid": 9
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School universal [darkness]; Level cleric 9, druid 9\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, DF\n\nEFFECT\n\nRange see text\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nFollowing a minute-long prayer, cast at night, you can extend the duration of the night indefinitely, preventing the sun and moon from moving through the sky, though doing comes at a cost to yourself. Following the completion of your prayer, it is necessary for you to hold aloft a symbol of your faith, typically your divine focus, and so long as this symbol is held aloft, the darkness of night is extended in duration. For every thirty minutes by which you hold back the dawn, you take 1d4 points of Constitution damage (note: creatures without Constitution, such as undead, suffer Charisma damage instead). This damage is taken as soon as the spell is cast and every thirty minutes thereafter. So long as the spell is in effect, this damage may not be healed in any manner. Continuing to hold the symbol aloft requires a Strength check every 10 minutes. The DC for this check is 7 +1 for every ten minutes past the first. You can choose to have other individuals aid you in this attempt. This spell has no effect if cast during the day, though there are rumors of a similar spell available to clerics of the Sun.\n\nNight gives way to day after the Darkness spell, Hold off the Dawn, ends.\n\nThe Secrets of Adventuring Copyright 2013 Rite Publishing Author Steven D. Russell",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d0b10b65fae968c.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d0b10b65fae968c"
+  },
+  "license": "OGL 1.0a"
+}

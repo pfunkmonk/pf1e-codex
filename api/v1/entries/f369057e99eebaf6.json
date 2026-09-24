@@ -1,0 +1,19 @@
+{
+  "id": "f369057e99eebaf6",
+  "name": "Disenchant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "special",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation (healing); Level 5\n\nCASTING\n\nCasting Time 1 minute\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets up to one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw see text; Spell Resistance no\n\nDESCRIPTION\n\nA wave of curative power rushes over each creature, freeing it from detrimental enchantments, transmutations, and curses. This functions as a break enchantment spell, except as noted here.\n\nOverload: For every runic charge overloaded into this script, you gain a +1 bonus on your caster level check to remove the effect. If you overload at least three runic charges, the casting time becomes 1 full-round action. This reduction in casting time does not apply if you overload disenchant by using engraving.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f369057e99eebaf6.json",
+    "web": "https://codex.pipsprojects.com/#/e/f369057e99eebaf6"
+  },
+  "license": "OGL 1.0a"
+}

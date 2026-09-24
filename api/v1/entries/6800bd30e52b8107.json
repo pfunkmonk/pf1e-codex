@@ -1,0 +1,29 @@
+{
+  "id": "6800bd30e52b8107",
+  "name": "Eruption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 9,
+      "elementer": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "earth",
+      "fire"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (summoning) [earth, fire]; Level druid 9, elementer 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect 60-ft.-radius volcano with 120-ft.-radius of lava flow (see text)\nDuration concentration (maximum 10 rounds) (D)\nSaving Throw see text; Spell Resistance yes\n\nThe earth trembles and swells, the pressure beneath the surface building until it erupts in a fiery display of tremendous power.\n\nEruption conjures an active volcano within the surface of the earth: as such, it must be cast upon the ground, though that ground need not be empty. There must be sufficient space for the volcano to be conjured for you to cast this spell (the volcano is 60 feet wide at its base, and rises up to 20 feet at its peak).\n\nUpon finishing the casting of the spell, the volcano begins to build in strength before eruption. This process takes place across several rounds, with each round having a different effect, and requires you to concentration to see it through. The listed effect occurs in only the designated round unless otherwise specified:\n\n1st Round: The ground swells with pressure. The center point of the volcano rises to a maximum height of 20 feet. Buildings and structures in the area take 50 points of damage from the violent shaking and sudden upheaval of their foundations. Creatures in the area must make a Reflex save or fall prone.\n2nd Round: Hot steam vents burst forth from the ground. Three vents burst from points you designate along the volcano’s surface, each one in a 10-foot radius, 30 feet high. A creature caught in a vent takes 6d6 fire damage, with a Reflex save halving the damage. A creature caught within multiple vents does not take additional damage.\n3rd Round: The volcano erupts. The catastrophic blast fills the radius of the volcano and rises 30 feet above its surface, dealing 12d6 fire damage to all creatures within the area and knocking them prone. A Reflex save halves the damage and negates the prone effect.\n4th Round: The lava runs downhill, spreading out 60 feet around the base of the volcano (for a total radius of 120 feet of ground covered by the lava flow). Creatures within the lava flow take 8d6 fire damage, with a Reflex save halving the damage.\n5th through 10th Rounds: The ground remains covered in lava, while volcanic ash fills the air. The area is considered difficult terrain, and any creature that enters into or starts their turn in the area takes 2d6 fire damage. The ash blocks all sight (including darkvision) within the spell’s area to a height of 60 feet above the ground.\n\nDamage dealt by lava by eruption (from the 3rd round onwards) continues to burn for 1d3 rounds, but this burn damage is only half the initial damage (that is, 6d6, 4d6, or 1d6 points per round). Burning damage from exposure to lava does not stack. It also damages buildings, structures, and unattended objects. This damage is not halved as most damage is for objects. Wooden structures typically are set on fire, causing further damage.\n\nWhen the spell ends, the ground falls back to its original state and the remaining ash and lava vanishes, though the destruction wrought by the spell remains.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6800bd30e52b8107.json",
+    "web": "https://codex.pipsprojects.com/#/e/6800bd30e52b8107"
+  },
+  "license": "OGL 1.0a"
+}

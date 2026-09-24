@@ -1,0 +1,17 @@
+{
+  "id": "fd088088de927e35",
+  "name": "Skeleton, Burning, Shrine-Blessed",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Shrine-Blessed Burning Skeletons\nCR 1\n\nXP 400\nNE Medium shrine-blessed undead\nInit +6; Senses darkvision 60 ft.; Perception +0; Aura fiery aura (1d6)\n\nDEFENSE\n\nAC 16, touch 12, flat-footed 14 (+2 armor, +2 Dex, +2 natural)(+2 deflection vs good creatures)\nhp 5 (1d8+1)\nFort +3, Ref +4, Will +4; +2 vs good creatures\nDefensive Abilities channel resistance +6; DR 5/bludgeoning; Immune fire, undead traits\nVulnerability cold\n\nOFFENSE\n\nSpeed 30 ft.\nMelee broken scimitar +2 (1d6+2 plus 1d6 fire), claw –1 (1d4+3 plus 1d6 fire) or 2 claws +4 (1d4+4 plus 1d6 fire)\n\nSTATISTICS\n\nStr 15, Dex 14, Con —, Int —, Wis 10, Cha 12\nBase Atk +0; CMB +4; CMD 14\nFeats Improved InitiativeB\nGear broken chain shirt, broken scimitar\nSQ fiery death (DC 11)\n\nSPECIAL ABILITIES\n\nFiery Aura (Ex)\n\nCreatures adjacent to a burning skeleton take 1d6 points of fire damage at the start of their turn. Anyone striking a burning skeleton with an unarmed strike or natural attack takes 1d6 points of fire damage.\n\nFiery Death (Su)\n\nA burning skeleton explodes into a burst of flame when it dies. Anyone adjacent to the skeleton when it is destroyed takes 1d6 points of fire damage. A Reflex save (DC 11) halves this damage.\n\nPathfinder Adventure Path #48: Shadows of Gallowspire. © 2011, Paizo Publishing, LLC; Author: Brandon Hodge.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fd088088de927e35.json",
+    "web": "https://codex.pipsprojects.com/#/e/fd088088de927e35"
+  },
+  "license": "OGL 1.0a"
+}

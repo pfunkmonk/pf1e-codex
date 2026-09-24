@@ -1,0 +1,27 @@
+{
+  "id": "d25638834a14ce91",
+  "name": "Crushing Roots",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 7,
+      "shaman": 7
+    },
+    "desc": [
+      "plant"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [plant]; Level druid 7, shaman 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels) Targets one creature/3 levels, no two of which can be more than 30 ft. apart\nDuration instantaneous, then 1d3+1 rounds\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou conjure massive roots to ensnare and crush your foes. Each creature takes 1d6 bludgeoning damage per two caster levels (max 15d6), is dazed for 1 round by the constricting plants, then wrapped by the roots, entangling them for 1d3+1 rounds (though they can still move). A Reflex save halves the damage, negates the dazing effect, and halves the duration of the entanglement.\n\nA creature entangled by the roots must make a Reflex save at the start of its turn each round it is entangled or take a further 4d6 bludgeoning damage as the plant matter continues to crush it. Succeeding on this Reflex save negates the damage for that round only. An entangled creature can attempt to break free as a standard action by making a Strength or Escape Artist check: the DC of this check is equal to the DC of this spell + 5. If they succeed they escape the roots, ending the spell for that target only.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d25638834a14ce91.json",
+    "web": "https://codex.pipsprojects.com/#/e/d25638834a14ce91"
+  },
+  "license": "OGL 1.0a"
+}

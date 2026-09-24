@@ -1,0 +1,27 @@
+{
+  "id": "a2e02ff31715595c",
+  "name": "Anvil Sparks",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 0
+    },
+    "desc": [
+      "fire",
+      "sonic"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (creation) [fire, sonic]; Level cleric/oracle 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe target suddenly hears the ring of a hammer hitting an anvil, and hot sparks, like those from a forge, fly around them. The sparks deal 1d3 points of fire damage to the target and 1 point to any creatures within 5 feet of the target.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a2e02ff31715595c.json",
+    "web": "https://codex.pipsprojects.com/#/e/a2e02ff31715595c"
+  },
+  "license": "OGL 1.0a"
+}

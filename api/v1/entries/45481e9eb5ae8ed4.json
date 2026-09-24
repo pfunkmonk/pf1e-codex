@@ -1,0 +1,26 @@
+{
+  "id": "45481e9eb5ae8ed4",
+  "name": "Umbral Magician",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of superior invisible ink worth 75 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadowy, humanoid magician\nDuration 1 round/level (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nAs you finish the spell, you open the bottle of invisible ink, a fine mist coming from its opening as the ink is consumed and evaporated. Darkness coalesces about a nearby space and takes on a solid form of roughly human shape. The being wears ornate robes of swirling darkness, one hand holding a shadowy staff, the other crackling with magical power.\n\nCreated by nightblades to assist in magic casting, the umbral magician imparts metamagic feats upon nearby arcane spells. The umbral magician appears as a medium-sized humanoid composed entirely out of shadows (though it is still corporeal and takes up a space), wearing robes and holding a staff appropriate for its size; its appearance (including the shape of the staff) is up to you, though it cannot be made to look like a specific person and always has a shadowy form, so it is never mistaken for an actual creature. It has an AC equal to 10 + 1/2 your caster level + your Charisma bonus, 3 hit points per caster level, and a movement speed of 30 feet. The magician cannot attack; it is never allowed an attack roll. It uses your saving throws for its own. If reduced to 0 hit points, the spell ends. Upon creating the umbral magician, you designate a space for it to stand, which it moves to on its turn. You can designate a new space for it to move to at any time as a free action. The magician cannot move outside of the spell’s range.\n\nThe magician takes its turn directly after yours, but the only actions it takes is to move as you direct or to change what metamagic effect it imparts. Any arcane spells cast within 10 feet of the magician can be cast as if one of the following metamagic feats was applied to it (without increasing the spell level or casting time): Enlarge Spell, Extend Spell, Piercing Spell, Selective Spell, Silent Spell, or Still Spell. You choose the metamagic feat that is applied when you cast umbral magician, and can will the magician to change to a different metamagic feat (a full-round action for the magician). As with an umbral servant, it gains a +10 bonus on Stealth checks to remain unseen when in dim light; in darkness or supernatural darkness, it is effectively invisible.\n\nOnce during the spell’s duration, you can command the magician to create a powerful evocation (a move action for you). It casts one of the following effects, chosen when you give the command: fireball, lightning bolt, pain strike, or shadow blast. The spell is modified by whatever metamagic feat the magician is currently enhancing spells with. It uses your caster level for the effect, your concentration check (if needed), and your spell DC for the created effect. After it finishes casting, this spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/45481e9eb5ae8ed4.json",
+    "web": "https://codex.pipsprojects.com/#/e/45481e9eb5ae8ed4"
+  },
+  "license": "OGL 1.0a"
+}

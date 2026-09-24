@@ -1,0 +1,24 @@
+{
+  "id": "3580faa3a4b95ef3",
+  "name": "Blade Wall (wall)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 6,
+      "summoner": 5
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 6, summoner 5\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\nTarget Restrictions barrier\n\nDESCRIPTION\n\nThis effect word creates a vertical wall of whirling blades that deals 1d6 points of damage per level to any creature that comes in contact with it. If a creature is in the area of the wall when it forms, that creature can make a Reflex save to avoid the damage entirely. Creatures that pass through the wall can make a Reflex save to halve the damage. Regardless of the outcome of their roll, they still move through the wall. This wall provides cover to creatures on the other side, but does not block line of sight.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3580faa3a4b95ef3.json",
+    "web": "https://codex.pipsprojects.com/#/e/3580faa3a4b95ef3"
+  },
+  "license": "OGL 1.0a"
+}

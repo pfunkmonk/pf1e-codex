@@ -1,0 +1,27 @@
+{
+  "id": "ff917535afa783dd",
+  "name": "Altered Form (change)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 3,
+      "druid": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation (polymorph); Level alchemist 3, druid 3, magus 3, sorcerer/wizard 3, witch 3\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions Personal\n\nDESCRIPTION\n\nThe target of a word spell with this effect word receives a +2 size bonus to Strength and two of the following benefits: a pair of claw attacks that each deals 1d6 points of damage if Medium (1d4 if Small), a bite attack that deals 1d8 points of damage if Medium (1d6 if Small), a climb speed of 30 feet, a swim speed of 30 feet, darkvision out to 60 feet, low-light vision, scent, or a +2 natural armor bonus.\n\nBoost: The target receives three benefits instead of two.\n\nBoost: This wordspell can use the Selected target word. Boosting this effect word increases its level by 1.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ff917535afa783dd.json",
+    "web": "https://codex.pipsprojects.com/#/e/ff917535afa783dd"
+  },
+  "license": "OGL 1.0a"
+}

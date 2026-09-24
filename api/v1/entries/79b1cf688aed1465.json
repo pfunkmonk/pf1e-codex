@@ -1,0 +1,29 @@
+{
+  "id": "79b1cf688aed1465",
+  "name": "Prism Assault",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "elementer": 5
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [acid, cold, electricity, fire]; Level elementer 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea four 15-ft.-radius bursts\nDuration instantaneous, see text\nSaving Throw Reflex half; Spell Resistance yes\n\nYou weave a mutable form of elemental energy, evoking multiple bursts of arcane power to assault foes with a deadly barrage.\n\nWhen you cast prism assault, you send out four separate orbs of energy to locations you designate within range. Each orb detonates in a 15-foot-radius burst of elemental power, dealing 1d6 damage per four caster levels each (max 4d6). The four bursts each deal a different damage type: one each for acid, cold, electricity, and fire damage. A creature only has to make a single saving throw if caught in more than one burst, applying the result to all damage from the assault.\n\nAfter the initial burst, each creature that failed its saving throw is further afflicted by the arcane energies, suffering one or more of the following effects depending on which damage type(s) it took:\n\nAcid: The creature is sickened for 1 round.\nCold: The creature is entangled for 1 round.\nElectricity: The creature is staggered for 1 round.\nFire: The creature catches on fire.\n\nA creature that took zero damage of the listed type (such as due to energy resistance or protection from energy) is unaffected, even if it failed its saving throw.\n\nIf you sacrifice a prepared prism assault spell to create a spell twist, you treat the spell twist as if created using a spell two levels lower than normal (minimum 1st level) but increase all variable components of that twist by 50%, similar to the effects of an Empower Spell metamagic feat. Spell twists that do not have variable effects (such as gale) are unaffected.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/79b1cf688aed1465.json",
+    "web": "https://codex.pipsprojects.com/#/e/79b1cf688aed1465"
+  },
+  "license": "OGL 1.0a"
+}

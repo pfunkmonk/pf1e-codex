@@ -1,0 +1,28 @@
+{
+  "id": "ed1a07d347d3cd2c",
+  "name": "Thunder Strike (electricity)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 8,
+      "wizard": 8,
+      "witch": 9
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [electricity]; Level druid 8, sorcerer/wizard 8, witch 9\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect word deals 1d8 points of electricity damage per caster level (maximum 20d8). In addition, a target that fails its saving throw against this damage is deafened for 1 round per caster level.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed1a07d347d3cd2c.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed1a07d347d3cd2c"
+  },
+  "license": "OGL 1.0a"
+}

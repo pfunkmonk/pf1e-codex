@@ -1,0 +1,33 @@
+{
+  "id": "ce867b21a7b7a2b1",
+  "name": "War Training",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "alchemist": 4,
+      "antipaladin": 3,
+      "cleric": 4,
+      "inquisitor": 4,
+      "magus": 4,
+      "paladin": 3,
+      "wizard": 4,
+      "vanguard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level alchemist 4, antipaladin 3, cleric 4, inquisitor 4, magus 4, paladin 3, sorcerer/wizard 4, vanguard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (the crest of an army)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou grant a creature the knowledge and skill with an assortment of weapons and armor, preparing it for battle. The creature gains proficiency in all simple weapons, martial weapons, armor, and shields (including tower shields). This does not grant an arcane spellcaster the ability to ignore arcane armor failure chance.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce867b21a7b7a2b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce867b21a7b7a2b1"
+  },
+  "license": "OGL 1.0a"
+}

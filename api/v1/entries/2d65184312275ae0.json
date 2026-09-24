@@ -1,0 +1,28 @@
+{
+  "id": "2d65184312275ae0",
+  "name": "Air Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 4,
+      "druid": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation) [air]; Level cleric/oracle 4, druid 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a smokestick)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 10-ft.-diameter sphere\nDuration 1 hour +1 hour/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a 10-foot-diameter pocket of pure, fresh air. The pocket has a semipermeable surface; it allows persons to enter and leave its area, but water, vapors, gasses, etc. cannot enter the sphere. Physical objects such as arrows or thrown weapons may pass into the sphere.\n\nStrong winds (over 25 mph) disrupt this spell as if a dispel magic had been cast at the sphere. Pressure from being deep underwater does not affect the sphere.\n\nThe air remains pure and clean for the duration of the spell. Up to five Medium creatures may be contained in the sphere at one time.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d65184312275ae0.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d65184312275ae0"
+  },
+  "license": "OGL 1.0a"
+}

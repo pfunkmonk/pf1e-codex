@@ -1,0 +1,32 @@
+{
+  "id": "89e743d79975f2cc",
+  "name": "Release Fury",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "mesmerist": 5,
+      "occultist": 5,
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "draconic",
+      "evil",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (compulsion) [draconic, evil, mind-affecting]; Level mesmerist 5, occultist 5, shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dried drop of blood)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nYou unleash all the target’s anger and destructive urges, causing it to fly into a violent bloodlust.\n\nThe target attacks creatures as determined by the following table. If a creature is killed or the target is for some reason unable to effectively attack it, roll on the table again to select a new action for the target.\n\nd%\tBehavior\n1–25\tTarget attacks the creature nearest to it.\n26–75\tTarget attacks its nearest ally.\n76–100\tTarget always attacks the last creature to attack it.\n\nBeginning on its next turn, the target attacks the subject determined by the chart with a melee weapon, natural weapon, or supernatural ability that deals damage. If necessary, it moves to or charges to the subject in order to make this attack. If it is unable to reach its subject on its next turn, the target uses its turn to get as close as possible to the subject of its bloodlust. The target gains a +2 morale bonus on attack and damage rolls, and cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any abilities that require patience or concentration.\n\nThis spell is otherwise treated as confusion and rage—any creature immune to confusion or rage is immune to this spell, and any ability or effect that ends confusion or rage (such as calm emotions) can end this spell.\n\nAntipaladins, bloodragers, clerics, and inquisitors who worship a god of evil dragons add this spell to their spell lists as a 4th-level spell.\n\nPathfinder Player Companion: Legacy of Dragons © 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Thurston Hillman, Michelle Jones, Mikko Kallio, and Mark Seifter.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/89e743d79975f2cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/89e743d79975f2cc"
+  },
+  "license": "OGL 1.0a"
+}

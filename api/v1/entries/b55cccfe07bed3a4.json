@@ -1,0 +1,31 @@
+{
+  "id": "b55cccfe07bed3a4",
+  "name": "Splashkiss",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 6,
+      "magus": 5,
+      "wizard": 5,
+      "summoner": 6,
+      "witch": 5
+    },
+    "desc": [
+      "evil",
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School conjuration (creation) [evil, water]; Level druid 6, magus 5, sorcerer/wizard 5, summoner 6, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets 1 creature\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nYou call into being a pulsing sphere of water that arcs away from you toward your enemy.\n\nThe target must make a Reflex saving throw or find its head engulfed within the sphere, unable to breathe.\n\nA creature affected by this spell can hold its breath for a number of rounds equal to twice its Constitution score. If an affected creature takes a standard or full-round action, the remaining duration that it can hold its breath is reduced by 1 round. After this period of time, the creature must make a DC 10 Constitution check every round in order to continue holding its breath. Each round, the DC increases by 1.\n\nIf the creature fails a Constitution check, it begins to drown. The first time it fails a Constitution check it falls unconscious (and is reduced to 0 hp). In the following round, it drops to –1 hit points and is dying. In the third round, it drowns.\n\nAdditionally, a creature affected by this spell suffers a -5 penalty to attacks, Perception checks, and it is unable to cast spells which have a verbal component.\n\nUltimate Evil. Copyright 2014, d20pfsrd.com Publishing/Open Gaming LLC; Authors: Clinton J. Boomer & Peter K. Ullmann.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b55cccfe07bed3a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/b55cccfe07bed3a4"
+  },
+  "license": "OGL 1.0a"
+}

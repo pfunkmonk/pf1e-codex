@@ -1,0 +1,27 @@
+{
+  "id": "a357bd578b9020fd",
+  "name": "Force Blast (force)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "Yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [force]; Level magus 5, sorcerer/wizard 5\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance Yes\n\nDESCRIPTION\n\nThis effect word deals 1d6 points of force damage per caster level (maximum 10d6).\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a357bd578b9020fd.json",
+    "web": "https://codex.pipsprojects.com/#/e/a357bd578b9020fd"
+  },
+  "license": "OGL 1.0a"
+}

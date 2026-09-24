@@ -1,0 +1,29 @@
+{
+  "id": "2fcef772ab26befb",
+  "name": "Purify (life)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 4,
+      "bard": 4,
+      "oracle": 4,
+      "druid": 4,
+      "inquisitor": 4,
+      "paladin": 4,
+      "ranger": 4
+    },
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (healing); Level alchemist 4, bard 4, cleric/oracle 4, druid 4, inquisitor 4, paladin 4, ranger 4\n\nEFFECT\n\nDuration instantaneous\nSaving Throw none; Spell Resistance yes (harmless)\nTarget Restrictions personal, selected\n\nDESCRIPTION\n\nWhen a wordspell with this effect word is cast, the wordcaster chooses one type of affliction: curses, diseases, or poisons. The target of a wordspell with this effect word receives a new saving throw to immediately end all such afflictions of the chosen type currently affecting the target. The DC of this save is equal to the original DC of the affliction. The target must roll a saving throw for each affliction individually. If the affliction does not allow a saving throw, this effect word cannot remove that affliction.\n\nAlternatively, a wordspell with this effect word can be used to remove 1d4 temporary negative levels possessed by the target, or 1 permanent negative level.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2fcef772ab26befb.json",
+    "web": "https://codex.pipsprojects.com/#/e/2fcef772ab26befb"
+  },
+  "license": "OGL 1.0a"
+}

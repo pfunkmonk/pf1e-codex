@@ -1,0 +1,26 @@
+{
+  "id": "5e6a0f70c4ba133f",
+  "name": "Troll Arms",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level cleric/oracle 3, druid 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a flesh from a trolls arm)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe subject of this spell gains the long, lanky, powerful arms of a troll. The target creature must have arms or arm-like appendages or the spell has no effect. The subject gains a +2 inherent bonus to Strength and its natural reach increases by 5 feet. The subject also gains two natural claw attacks with which it is automatically proficient. The claws deal damage appropriate for the creature’s size (1d6 for a Medium sized creature) plus the subject’s Strength modifier.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5e6a0f70c4ba133f.json",
+    "web": "https://codex.pipsprojects.com/#/e/5e6a0f70c4ba133f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ccd8908eb29a3954",
+  "name": "Shadow Ball, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 4,
+      "nightblade": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness]; Level magus 4, nightblade 4, sorcerer/wizard 4, witch 4\n\nDESCRIPTION\n\nThis spell functions as shadow ball, except it deals 6d6 points of cold damage to any creature it strikes. Any creature that fails its save against the ball is coated in shadows, making it treat all other creatures as if they had total concealment (50% miss chance) for 1d4 rounds. A creature that does not use vision to see or has the see in darkness ability is not affected by the concealment effect.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ccd8908eb29a3954.json",
+    "web": "https://codex.pipsprojects.com/#/e/ccd8908eb29a3954"
+  },
+  "license": "OGL 1.0a"
+}

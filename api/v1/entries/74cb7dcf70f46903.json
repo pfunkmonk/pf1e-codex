@@ -1,0 +1,17 @@
+{
+  "id": "74cb7dcf70f46903",
+  "name": "Wight, Minotaur",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Wight Minotaur\n\nCR 5\n\nXP 1,600\nWight minotaur\nLE Large undead ( augmented monstrous humanoid )\nInit +1; Senses darkvision 60 ft.; Perception +11\n\nDEFENSE\nAC 19, touch 10, flat-footed 18 (+1 Dex, +9 natural, –1 size)\nhp 33 (6d8+6)\nFort +6, Ref +6, Will +6\nDefensive Abilities natural cunning\nWeakness resurrection vulnerability\n\nOFFENSE\nSpeed 30 ft.\nMelee greataxe +10/+5 (3d6+7/×3) and gore +5 (1d6+2)\nSpace 10 ft.; Reach 10 ft.\nSpecial Attacks powerful charge (gore +12, 2d6+7)\n\nSTATISTICS\nStr 21, Dex 12, Con 15, Int 7, Wis 12, Cha 12\nBase Atk +7; CMB +12; CMD 23\nFeats Blind-Fight B, Great Fortitude, Improved Bull Rush, Power Attack\nSkills Intimidate +7, Perception +11, Stealth +11, Survival +11; Racial Modifiers +4 Perception, +8 Stealth, +4 Survival\nLanguages Giant\nSQ create spawn\n\nSPECIAL ABILITIES\n\nCreate Spawn (Su)\nAny humanoid creature that is slain by a wight minotaur becomes a wight itself in only 1d4 rounds. Spawn so created are less powerful than typical wights, and suffer a –2 penalty on all d20 rolls and checks, as well as –2 hp per HD. Spawn are under the command of the wight minotaur that created them and remain enslaved until its death, at which point they lose their spawn penalties and become full-fledged and free-willed wights. They do not possess any of the abilities they had in life.\n\nNatural Cunning (Ex)\n\nAlthough wight minotaurs are not especially intelligent, they possess innate cunning and logical ability. This gives them immunity to maze spells and prevents them from ever becoming lost. Further, they are never caught flat-footed.\n\nResurrection Vulnerability (Su)\nA raise dead or similar spell cast on a wight minotaur destroys it (Will negates). Using the spell in this way does not require a material component.\n\nSource not confirmed for this entry. If this is your work, use the Feedback link below to let us know so we can credit it properly.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74cb7dcf70f46903.json",
+    "web": "https://codex.pipsprojects.com/#/e/74cb7dcf70f46903"
+  },
+  "license": "OGL 1.0a"
+}

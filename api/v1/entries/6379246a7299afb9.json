@@ -1,0 +1,28 @@
+{
+  "id": "6379246a7299afb9",
+  "name": "Fight or Flight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min.\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nOnce during the spell’s duration, as a swift action, the subject of this spell can gain a +1 bonus to attack, + 1 per four caster levels beyond 1st (+2 total at 5th level, +3 at 9th, etc.), or gain an additional 5 feet to speed, +5 feet per four caster levels (+10 feet total at 5th level, 15 at 9th level, etc). This effect lasts until the end of the subject’s next turn.\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6379246a7299afb9.json",
+    "web": "https://codex.pipsprojects.com/#/e/6379246a7299afb9"
+  },
+  "license": "OGL 1.0a"
+}

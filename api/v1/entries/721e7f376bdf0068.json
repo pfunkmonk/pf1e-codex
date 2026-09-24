@@ -1,0 +1,17 @@
+{
+  "id": "721e7f376bdf0068",
+  "name": "Zombie, Spellgorged",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Spellgorged zombie from the Tome of Horrors Complete",
+  "book": "Spellgorged zombie from the Tome of Horrors Complete",
+  "facets": {
+    "bk": "Spellgorged zombie from the Tome of Horrors Complete"
+  },
+  "body": "Spellgorged Zombie\nCR 3\n\nThe shambling zombie shuffles forward, opens its mouth in a silent moan, and suddenly spits out a gout of searing fire.\n\nXP 800\nN Medium undead\nInit +1; Senses darkvision 60 ft.; Perception +1\n\nDEFENSE\n\nAC 13, touch 11, flat-footed 12 (+1 Dex, +2 natural)\nhp 27 (5d8 plus 5)\nFort +1; Ref +2; Will +5\nImmune undead immunities\n\nOFFENSE\n\nSpeed 30 ft.\nMelee slam +4 (1d6+1)\nSpecial Attacks spell storing (CL 10th, 5 total levels)\n\nSTATISTICS\n\nStr 12, Dex 12, Con —, Int —, Wis 12, Cha 10\nBase Atk +3; CMB +4; CMD 15\nFeats ToughnessB\n\nSPECIAL ABILITIES\n\nSpell Storing (Su)\n\nA spellgorged zombie can store any spells cast into its mouth as if it were a ring of spell storing. The spellgorged can store a number of spell levels equal to its Hit Dice. Each spell has a caster level equal to that of the spellcaster that placed the spell in the spellgorged zombie. The save DC for any spell stored in a spellgorged zombie is determined using the ability scores of the spellcaster who placed the spell.\n\nThe spellgorged zombie need not provide any material components or focus and there is no arcane spell failure chance for wearing armor (since the spellgorged zombie need not gesture). When the spellcaster stores the spells in the spellgorged zombie, however, he must use all required components for the spell.\n\nFor randomly generated spellgorged zombies, treat the spellgorged zombie as a scroll to determine what spells are stored in it. If you roll a spell that would put the spellgorged over its spell level limit, ignore that roll; the spellgorged has no more spells in it. (Not every spellgorged need be fully charged.)\n\nA spellcaster can cast any spells into the spellgorged zombie, so long as the total spell levels do not equal more than the spellgorged zombie’s Hit Dice. Any excess spells or spell levels are lost.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, gang (2–5), squad (6–10), or mob (11–20)\nTreasure none\n\nIt is the ultimate humiliation for a spellcaster to be reduced to a mindless, rotting husk used only to store the spells of a rival. Created with the use of a create greater undead spell, a spellgorged zombie is a programmed being, which appears much like a normal zombie. It must be made from a corpse that was in life an arcane or divine spellcaster. Spellgorged zombies may be used to store spells much like a ring of spell storing with the notable exception that they may be programmed to exhaust these spells by the spellcaster through a series of set commands.\n\nSpellgorged zombie from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors Erica Balsley and Patrick Lawinger.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/721e7f376bdf0068.json",
+    "web": "https://codex.pipsprojects.com/#/e/721e7f376bdf0068"
+  },
+  "license": "OGL 1.0a"
+}

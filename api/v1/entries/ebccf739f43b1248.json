@@ -1,0 +1,19 @@
+{
+  "id": "ebccf739f43b1248",
+  "name": "Overwhelm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design revelation (thought) [mind-affecting]; Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped burst\nDuration 1 round/level, see text\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou overwhelm the senses of creatures in the area, rendering them unable focus. All creatures that fail their saving throws are staggered for 1 round per caster level. A creature that makes its saving throw is staggered for only 1 round and can act normally thereafter.\n\nOverload: For every runic charge overloaded into this script, the script is more overwhelming. With one runic charge, targets are dazed for the first round on a failed saving throw. With two runic charges, the targets are instead stunned for the first round on a failed saving throw, and dazed for 1 round on a successful save. With three runic charges, targets are stunned for 1 round then staggered and sickened for the remaining duration on a failed saving throw, and dazed for 1 round on a successful save. With four runic charges, the targets are paralyzed for 1 round then staggered and sickened for the remaining duration on a failed saving throw, and stunned for 1 round on a successful save. These effects are not cumulative; only the effects for a given number of runic charges applies.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ebccf739f43b1248.json",
+    "web": "https://codex.pipsprojects.com/#/e/ebccf739f43b1248"
+  },
+  "license": "OGL 1.0a"
+}

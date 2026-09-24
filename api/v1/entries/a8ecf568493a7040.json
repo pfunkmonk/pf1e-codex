@@ -1,0 +1,26 @@
+{
+  "id": "a8ecf568493a7040",
+  "name": "Plant Spy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School divination; Level bard 3, druid 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget plant touched\nDuration 1 day/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou make a plant into a spy of sorts. For the duration of the spell, all visible and auditory activities that occur within fifty feet of the plant are “stored” magically within the plant. At any time afterward, you (and only you) can touch the plant and experience the information stored within it. Once you have accessed the information, you cannot do so again. The plant’s “senses” are the same as a normal human’s (regardless of the race of the caster)—it cannot see in the dark, it cannot see invisible creatures, and so on.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8ecf568493a7040.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8ecf568493a7040"
+  },
+  "license": "OGL 1.0a"
+}

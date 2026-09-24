@@ -1,0 +1,24 @@
+{
+  "id": "6ef34f521ce66d23",
+  "name": "Discern Health",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 0,
+      "druid": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School divination; Level cleric/oracle 0, druid 0\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration concentration\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou can see the aura that surrounds all living beings, and can read from it the target creature’s health. The amount of information revealed depends on how long you concentrate on a particular target:\n\n1st round: A creature’s total and remaining hit points.\n\n2nd round: Whether the creature is suffering from any debilitating condition.\n\n3rd round: The name of the creature’s debilitating condition (ability drained, confused, fatigued, etc.).\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6ef34f521ce66d23.json",
+    "web": "https://codex.pipsprojects.com/#/e/6ef34f521ce66d23"
+  },
+  "license": "OGL 1.0a"
+}

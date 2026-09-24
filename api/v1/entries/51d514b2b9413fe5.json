@@ -1,0 +1,24 @@
+{
+  "id": "51d514b2b9413fe5",
+  "name": "Assault of Stone",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 8,
+      "druid": 7
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 8, druid 7\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (handful of pebbles), DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea one 10-ft. cube/level (S)\nDuration 1 round/level (D)\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nStones and boulders rain down on the caster’s foes.\n\nThe rocks inflict 1d6 points of bludgeoning damage per level (15d6 maximum). A successful Reflex save halves the damage. In addition, the stones pile up where they fall for the spell’s duration and can temporarily trap the slow or careless. Stones created by this spell vanish when its duration expires.\n\nAny creature that fails its Reflex save is considered pinned until the spell ends, unless the creature succeeds on a DC 20 CMB check or a DC 25 Escape Artist check.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/51d514b2b9413fe5.json",
+    "web": "https://codex.pipsprojects.com/#/e/51d514b2b9413fe5"
+  },
+  "license": "OGL 1.0a"
+}

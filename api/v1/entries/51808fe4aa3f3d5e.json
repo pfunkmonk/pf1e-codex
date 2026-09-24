@@ -1,0 +1,25 @@
+{
+  "id": "51808fe4aa3f3d5e",
+  "name": "Lightning Sand",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 0,
+      "druid": 0,
+      "wizard": 0
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level cleric/oracle 0, druid 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea earth or stone in a 5-ft.-radius spread\nDuration 1 min./level (D)\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThe very earth becomes shallow lightning sand (dry quicksand); creatures within the area that fail their save gain the entangled condition. Those that end their turn in the area must save again. Creatures that move into the area for the first time must save immediately. Those that fail their save must end their movement and gain the entangled condition. Entangled creatures can attempt to break free as a move action, making a Strength or Escape Artist check. The DC for this check is equal to the DC of the spell. The area of effect is considered difficult terrain while the effect lasts.\n\nCreatures of Large size or larger or those with burrow speeds are immune to the effects of lightning sand.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/51808fe4aa3f3d5e.json",
+    "web": "https://codex.pipsprojects.com/#/e/51808fe4aa3f3d5e"
+  },
+  "license": "OGL 1.0a"
+}

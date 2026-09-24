@@ -1,0 +1,25 @@
+{
+  "id": "334377958bcafde2",
+  "name": "Siphon Enhancement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "vanguard": 4
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level magus 4, sorcerer/wizard 4, vanguard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one magic item\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell allows you to steal the magical properties of a magic item and grant it to your own possessions.\n\nThis spell functions as a targeted dispel magic, except it can only target a magic item and, if your dispel check is successful, the magic item is suppressed for 1 round per caster level, rather than 1d4 rounds. In addition, for the duration you transfer the magical properties to a similar, non-magical object in your possession. The item you are holding gains all properties, abilities, and charges of the magic item for the duration. Once the duration of siphon enhancement ends, the magical properties return to the original item. Any spent resources, such as charges, remain spent when the spell ends.\n\nThe item you transfer the magical properties to must be similar in function and use. A weapon’s magical properties must be applied to a non-magical weapon in your possession, clothing-based wondrous items transferred to an article of clothing you have, and so on. Any incompatible properties do not function; for example, siphoning a +1 seeking longbow and transferring its properties to a longsword would result in a +1 longsword.\n\nYou cannot siphon an artifact with this spell, though you can be unfortunate enough to siphon a cursed item with this spell. Siphon enhancement does not provide any special insight to your newly-acquired magic item’s functions, command words, and so on.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/334377958bcafde2.json",
+    "web": "https://codex.pipsprojects.com/#/e/334377958bcafde2"
+  },
+  "license": "OGL 1.0a"
+}

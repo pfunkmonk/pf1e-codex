@@ -1,0 +1,24 @@
+{
+  "id": "e0d0858eb30d58a8",
+  "name": "Tempering",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3,
+      "vanguard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3, vanguard 3\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object whose volume is up to 5 cu. ft./level\nDuration instantaneous and 10 min./level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou temper a single object to make it more resilient to damage. First, the object is repaired, as a make whole spell. After being repaired, it is then hardened and refined, increasing its hardness by 1 point per two caster levels (max 10) for the duration of the spell. While tempered in this manner, the object is impervious to decay and rusting effects, including those magical in nature such as rusting grasp. The object also loses the fragile quality, if it has it. It does not, however, protect it from direct attacks (aside from the increase in hardness).\n\nOnly one tempering effect can be in effect on a given object. If a second tempering is cast upon an object, only the stronger of the two effects remain.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e0d0858eb30d58a8.json",
+    "web": "https://codex.pipsprojects.com/#/e/e0d0858eb30d58a8"
+  },
+  "license": "OGL 1.0a"
+}

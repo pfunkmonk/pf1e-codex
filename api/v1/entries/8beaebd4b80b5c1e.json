@@ -1,0 +1,32 @@
+{
+  "id": "8beaebd4b80b5c1e",
+  "name": "Iron Maiden",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 5,
+      "inquisitor": 5,
+      "magus": 5,
+      "saboteur": 5,
+      "vanguard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level antipaladin 4, cleric 5, inquisitor 5, magus 5, saboteur 5, vanguard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nA groaning, creaking sound of stressed metal echoes around you as you finish casting this spell. Large walls of a coffin-shaped container appear on either side of a creature, their interiors covered in spikes. The two halves slam together, trapping the creature inside.\n\nIron maiden creates a large, magically-reinforced iron maiden to trap a single creature. The iron maiden is appropriately sized for the targeted creature. If the creature fails its saving throw, it is completely encased by the iron maiden. It is considered pinned by the iron maiden and can take no actions except trying to break free. It gains total cover from those outside of the iron maiden, and those outside have total cover from it. Each round, the creature takes 3d8 piercing damage from the spikes within the iron maiden. The spikes are considered magical for the purpose of overcoming damage reduction. No light penetrates the iron maiden.\n\nA creature that succeeds on its saving throw is only partially caught by the spell; it is considered grappled by the iron maiden and cannot move from its space, but can otherwise act normally. It also takes half the damage it would normally take from the iron maiden each round.\n\nWhether the creature failed or succeeded on its saving throw, it can attempt to break out of the iron maiden in a few ways. The iron maiden has hardness 10 and 120 hit points and can be destroyed by enough damage. It can also be broken in a single attack with a DC 30 Strength check. A creature that is grappled (but not pinned) by the iron maiden can attempt an Escape Artist check or a combat maneuver check to break free (DC 15 + your caster level). A creature does not add its size bonus to its maneuver check to escape in this manner (as the iron maiden is always large enough to hold it). A creature that is pinned by the spell can only attempt to break it with a Strength check; it is otherwise unable to act. If the target escapes the iron maiden, or if it is destroyed, the spell ends.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8beaebd4b80b5c1e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8beaebd4b80b5c1e"
+  },
+  "license": "OGL 1.0a"
+}

@@ -236,6 +236,15 @@ for (const r of toImport) {
   // data/index.js already had all 564 rows before those 5 buckets' bodies were ever written).
   const existingIdForKey = existingNameBucket.get(key);
   if (existingIdForKey !== undefined && existingIdForKey !== id) { report.skippedExistingCollision.push({ ...r, canonicalName: name }); continue; }
+  // SAME id is only "my own row from an earlier run" if it is the same page. Across batches a DIFFERENT
+  // publisher's page can mint the same id ("Detect Curse": Frog God Games in batch 5, Rogue Genius Games
+  // in batch 6) and would silently overwrite the earlier row. The row's source column is the publisher, so
+  // a differing source on an existing id is a namesake — hold the new one, keep the existing.
+  if (existingIdForKey === id) {
+    const oldRow = d.IDX.find((row) => row[0] === id);
+    const newSrc = bkOf(p) || "d20pfsrd.com";
+    if (oldRow && oldRow[4] !== newSrc) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: `existing row is by "${oldRow[4]}", this page by "${newSrc}"` }); continue; }
+  }
   // INTRA-BATCH NAMESAKE: two DIFFERENT d20 pages, same run, minting the SAME id because they share a
   // canonical name+bucket — found at 9,000-page scale, 5 pairs ("Swap" by Kobold Press/Open Design vs.
   // by Rogue Genius Games — two genuinely different 4th/5th-level conjuration spells, not a duplicate).

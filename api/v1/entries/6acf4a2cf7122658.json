@@ -1,0 +1,23 @@
+{
+  "id": "6acf4a2cf7122658",
+  "name": "Shadow Snag",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion); Level sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a black glove)\n\nEFFECT\n\nRange touch\nTarget one creature that casts a shadow\nDuration 1 round/level\nSaving Throw Will dispels; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou make a touch attack against the target’s shadow as part of the spellcasting action. If the attack succeeds, and the subject fails its save, it gains the entangled condition (though it can still move). Entangled creatures can attempt to break free as a move action, making a Strength or Escape Artist check. The DC for this check is equal to the DC of the spell. (The touch AC of the target’s shadow is the same touch AC as the target, subject to modification at GM adjudication.)\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6acf4a2cf7122658.json",
+    "web": "https://codex.pipsprojects.com/#/e/6acf4a2cf7122658"
+  },
+  "license": "OGL 1.0a"
+}

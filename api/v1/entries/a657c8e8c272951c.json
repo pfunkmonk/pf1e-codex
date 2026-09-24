@@ -1,0 +1,27 @@
+{
+  "id": "a657c8e8c272951c",
+  "name": "Distortion Field",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [sonic]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nDistortion field constantly emits fluctuating ultrasonic pulses of sound and vibration designed to confuse creatures that rely upon blindsight or tremorsense to gather sensory information from their immediate vicinity. Such creatures still do not need to make Perception checks to pinpoint the location of a creature within range of its blindsight or tremorsense ability. However, any opponent the creature cannot see still has total concealment against it, and it still has the normal miss chance when attacking foes that have concealment. Creatures with blindsight (but not tremorsense) affected by distortion field are affected by visibility conditions and will be impacted accordingly (such as not being able to navigate reliably in the dark, etc.). A creature with blindsight or tremorsense affected by distortion field is denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a657c8e8c272951c.json",
+    "web": "https://codex.pipsprojects.com/#/e/a657c8e8c272951c"
+  },
+  "license": "OGL 1.0a"
+}

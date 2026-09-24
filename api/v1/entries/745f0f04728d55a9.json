@@ -1,0 +1,24 @@
+{
+  "id": "745f0f04728d55a9",
+  "name": "Blade Maelstrom",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School conjuration (creation); Level magus 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a sword)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget see text\nDuration 1 round per level or until expended\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a ring of floating swords, identical to your select weapon, that hovers around you, providing a +4 deflection bonus to AC. You create one sword for every 2 caster levels, up to a maximum of 10 swords at 20th level. Each round, as a move action, you may command one of the blades to attack an opponent within range. An attacking blade uses your base attack bonus plus your Intelligence modifier as its attack bonus. Each blade deals 1d8 points of force damage +1 per 3 caster levels. Each sword has the same threat range and critical modifier as the focus weapon. As a force effect, a blade can strike incorporeal creatures without the reduction in damage associated with incorporeality. If the attack misses, the blade disappears, reappearing as part of the floating ring of swords at the beginning of your next turn. Upon a successful hit, the blade winks out of existence. Once all blades have attacked successfully the spell ends. At any time during the spell’s duration, you may command all remaining blades to attack a single opponent as a full-round action. Each attack is resolved individually, at which point the spell immediately ends.\n\nSpecial. At the time of casting the spell, a magus can expend a point from his arcane pool to enhance each blade as he would his melee weapon.\n\nArt of Magic: Magic and Melee, © 2021, d20pfsrd.com Publishing; Author: Mark Thomas",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/745f0f04728d55a9.json",
+    "web": "https://codex.pipsprojects.com/#/e/745f0f04728d55a9"
+  },
+  "license": "OGL 1.0a"
+}

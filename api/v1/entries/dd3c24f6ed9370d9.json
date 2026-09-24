@@ -1,0 +1,19 @@
+{
+  "id": "dd3c24f6ed9370d9",
+  "name": "Banish",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (teleportation); Level 7\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one or more extraplanar creatures, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis script forces extraplanar creatures back to their proper planes if they fail a Will save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own. As many as 2 Hit Dice of creatures per caster level can be banished.\n\nOverload: For every runic charge overloaded into this script, the DC increases by +1, and you can affect an additional 5 HD of creatures.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd3c24f6ed9370d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd3c24f6ed9370d9"
+  },
+  "license": "OGL 1.0a"
+}

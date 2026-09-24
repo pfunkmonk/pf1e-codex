@@ -1,0 +1,23 @@
+{
+  "id": "0ce757bbcd68592b",
+  "name": "Teleporting Trap Extension",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "saboteur": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (teleportation); Level saboteur 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange see text\nEffect one trap extension\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA teleporting trap extension allows you to modify the next trap you place in the same square to teleport you near it upon triggering.\n\nYou first place the teleporting trap extension as a saboteur trap in a square adjacent to you, just as you would any other saboteur trap. At any point within the next minute, you must place a second trap in that same square (either a saboteur trap or a mundane trap). This effect supersedes the normal rule that two saboteur traps cannot be placed in the same space. The teleporting trap extension merges with the second trap, enhancing its function. A trap that is enhanced by an teleporting trap extension notifies you mentally when it is triggered, similar to the mental alarm provided by an alarm spell but out to any range. You are not given any information about the triggering creature.\n\nAt any point in time within 10 minutes of receiving the alarm, you can choose to transport yourself and other willing creatures to a location within 100 feet of the square you placed the transport trap, as the spell teleport. You can teleport up to 100 miles per caster level and have the usual chances of arriving off-target, as described in teleport.\n\nThe teleporting trap extension lasts until the trap is triggered, disarmed, or breaks apart (if the trap does so, as a saboteur trap does). Only one “ trap extension” spell can be added to a particular trap.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ce757bbcd68592b.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ce757bbcd68592b"
+  },
+  "license": "OGL 1.0a"
+}

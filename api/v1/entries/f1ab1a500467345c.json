@@ -1,0 +1,28 @@
+{
+  "id": "f1ab1a500467345c",
+  "name": "Shadow Structure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "nightblade": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level bard 3, nightblade 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels), see text\nEffect see text\nDuration 1 min./level\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\n\nDESCRIPTION\n\nYou can create quasi-real structures out of shadowstuff. The structures can physically impede or support creatures as a real structure would. You can create one of the following structures, chosen when you cast the spell:\n\nWall – You can create a simple wall. The wall can be as short as 1 foot and as high as 10 feet, is 6 inches thick, and can be up to 5 feet long per caster level (maximum 100 feet). The wall must be vertical and anchored to the floor. If you desire, you may place a single door, large enough for a large sized creature or smaller, at one point in the wall. The door is not locked and cannot be magically locked, but can be locked or barred by mundane means.\nBridge – You create a long bridge to cross a space. The bridge is 6 inches thick, 5 feet wide, and up to 20 feet per caster level long (maximum 400 feet). The bridge must be anchored on both sides and must be horizontal or nearly horizontal (no more than a 10º incline).\nStairs – You create a set of stairs or a ramp for creatures to travel on. The stairs or ramp must be straight and must be anchored on at least one end. The ramp or steps cannot exceed a 45º incline. The stairs can be up to 10 feet wide. The structure can rise up to 5 feet per two caster levels (maximum 50 feet) and can stretch horizontally this same distance.\n\nThe structure must be continuous and unbroken when formed. If its surface is broken by any object or creature when it is cast, the spell fails. The structure must begin within the range of the spell, but can extend outside of the spell’s range. The structures can support up to 500 lbs. per caster level. Any creature or object that causes the total weight to exceed this amount simply passes through the structure as if it didn’t exist. Any solid structure you make has 5 hardness and 10 hit points for every 5 foot cube of the structure. A creature that disbelieves the spell ignores the hardness of the structure with any attacks it uses and deals full damage with energy attacks (instead of the normal half damage objects take). The creature also becomes unimpeded by any structures you make, allowing it to move through the structure as if it wasn’t there, though the structure still blocks line of sight. A creature that disbelieves the structure may opt to use the structure as if it was real should it be beneficial, such as walking along a bridge or up a flight of stairs, but when it does it must treat the structure as completely real, including blocking the creature’s movement. A creature that made its saving throw can choose whether to treat the structure as real or fake at any point on its turn as a free action, though it cannot do so when inside of the shadow structure.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1ab1a500467345c.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1ab1a500467345c"
+  },
+  "license": "OGL 1.0a"
+}

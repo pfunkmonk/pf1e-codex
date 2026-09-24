@@ -1,0 +1,27 @@
+{
+  "id": "3520d6ce719b732b",
+  "name": "Pressure Spray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [water]; Level druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (an eyedropper)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect a line of water\nDuration concentration, up to 1 round/level\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a line of highly pressurized water to spring forth from your hand. You may use this line to make a ranged touch attack against a single target. If you succeed, you deal 1d6 points of non-lethal damage. Additionally, Medium and Small creatures that fail their Fortitude saves are knocked prone by the blast, and Tiny or smaller creatures are knocked back 1d4 x 10 feet and knocked prone. Each round that you concentrate on the spell you can make an additional attack against either the same target or a new target. As a standard action, you can use the water from the spell to extinguish fires. Mundane fires that cover an area of one 5-ft. square or less are automatically extinguished in one round. Mundane fires of a size greater than five feet are shrunk by a 5-ft. square each round you target them. Magical fires can also be extinguished, but to do so requires a modified caster level check (1d20 +1 per caster level, maximum +5) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\nElemental (fire) creatures or other creatures that are vulnerable to water take regular damage instead of non-lethal damage.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3520d6ce719b732b.json",
+    "web": "https://codex.pipsprojects.com/#/e/3520d6ce719b732b"
+  },
+  "license": "OGL 1.0a"
+}

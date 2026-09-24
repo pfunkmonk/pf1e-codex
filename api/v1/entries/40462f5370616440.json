@@ -1,0 +1,26 @@
+{
+  "id": "40462f5370616440",
+  "name": "Illusory Edge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one weapon or 50 projectile (all of which must be together at the time of casting)\nDuration 1 min./level\nSaving Throw Will negates (harmless, object), Will disbelief, see text; Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou use shadow magic to create an illusory enchantment on a weapon. This functions as the spell greater magic weapon, except the enhancement is only partially real and you can grant different properties. In place of the enhancement bonuses, you can grant any of the following weapon special properties (as appropriate for the weapon): designating, exhausting, greater designating, frost, icy burst, impact, keen, ghost touch, seeking, wounding. Adding these properties consumes an amount of bonus equal to the property’s base price modifier. These properties are added to any the weapon already has, but duplicates do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added.\n\nA creature struck by a weapon enhanced by illusory edge is entitled to a Will save to disbelieve the enhancements. A successful save makes any special properties granted by illusory edge (such as frost or keen) not function on that creature. Regular enhancement bonuses continue to work as normal against that creature, as do any special properties that were already on the weapon.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/40462f5370616440.json",
+    "web": "https://codex.pipsprojects.com/#/e/40462f5370616440"
+  },
+  "license": "OGL 1.0a"
+}

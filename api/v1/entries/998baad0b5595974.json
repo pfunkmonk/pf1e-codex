@@ -1,0 +1,26 @@
+{
+  "id": "998baad0b5595974",
+  "name": "Duelist’s Feint",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 20 ft.\nTarget one creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nWith a lascivious wink and a sensuous sway, you flood a foe’s mind with lustful thoughts of you, distracting your target and rendering that creature vulnerable to your attacks.\n\nAn affected creature takes a penalty equal to half your caster level on concentration checks and to its CMD against dirty trick, grapple, and steal combat maneuvers you perform. The creature is also denied its Dexterity bonus to AC for the first melee attack you make against it each round.\n\nIf the target would not normally be sexually attracted to you, it receives a +4 bonus on its saving throw. If you end your turn more than 20 feet from the target or end your turn where your target cannot see you, this spell immediately ends.\n\nPathfinder Roleplaying Game Adventurer’s Guide © 2017, Paizo Inc.; Authors: Benjamin Bruck, John Compton, Crystal Frasier, Tim Hitchcock, Jenny Jarzabski, Isabelle Lee, Joe Pasini, Jessica Price, David Schwartz, and Josh Vogt.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/998baad0b5595974.json",
+    "web": "https://codex.pipsprojects.com/#/e/998baad0b5595974"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "99949ab31254ad85",
+  "name": "Damage (destruction)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation; Level bard 3, cleric/oracle 3, sorcerer/wizard 2\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will negates (object); Spell Resistance yes\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThis effect word causes one object within range to lose half of its maximum hit points and gain the broken condition. This item can weigh no more than 10 pounds per caster level. Magic items gain a +4 bonus on the saving throw to resist this effect + their normal bonus. Items in another creature’s possession use the save of the creature or the item, whichever is better. Artifacts are not affected by this word.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/99949ab31254ad85.json",
+    "web": "https://codex.pipsprojects.com/#/e/99949ab31254ad85"
+  },
+  "license": "OGL 1.0a"
+}

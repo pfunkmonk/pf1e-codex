@@ -1,0 +1,17 @@
+{
+  "id": "5b2f1b4478b01bc3",
+  "name": "Asclepian Doctor",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "3rd Party – Sean K. Reynolds Games",
+  "book": "3rd Party – Sean K. Reynolds Games",
+  "facets": {
+    "bk": "3rd Party – Sean K. Reynolds Games"
+  },
+  "body": "Your knowledge of medicine lets you perform miracles of healing.\n\nPrerequisite: Field Surgeon, Heal 5 ranks.\n\nBenefit: You can use the Heal skill to perform complex surgery and use advanced treatment methods to cure mortal wounds and terminal afflictions. The required treatment determines the DC of the Heal check. Some uses of the skill require a minimum number of ranks in the Heal skill to attempt.\n\nTreatment\tDC\tMinimum Heal Ranks\nNeutralize Poison\t15 + poison DC\t5\nRemove Disease\t15 + disease DC\t5\nCure hit points\t20\t5\nRepair Injury\t20\t7\nRaise the Dead\t30 + number of days dead\t9\n\nNeutralize Poison: You detoxify one poison from a creature or object, as if using the neutralize poison spell.\n\nRemove Disease: You cure one disease present in the target creature, as if using the remove disease spell.\n\nCure Hit Points: You cure 1d8 hit points, as if using a cure spell. For every 5 points over the DC you heal an additional 1 hit point. This is immediate curing rather than the delayed effect of field surgery.\n\nRepair Injury: You can repair permanent injuries or debilitations, such as a crippled leg, blindness, or permanent ability drain to a single ability score. The patient can’t regrow missing tissue, so recovering lost limbs or repairing blindness from having one’s eyes torn out cannot be accomplished. Each injury or debilitation requires a separate check when attempting a repair.\n\nRaise the Dead: You can restore life to a person killed by poison, disease, or injury, subject to the limitations of the raise dead spell. Performing this action requires special rare oils, balms and wraps that cost 5000 gp per attempt.\n\nTreating a patient normally takes 1 hour. You cannot take 20 on this check. If you fail the check by 4 or less, nothing happens. If you fail this check by 5 or more, the patient loses 1 hit point. If this puts the patient below 0 hit points, he starts dying. Reducing the time to 10 minutes, 5 minutes, or 1 minute respectively adds +5, +10, or +15 to the DC.\n\nTry Again: Yes.\n\nNew Argonauts. Copyright © 2004 Sean K Reynolds. All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5b2f1b4478b01bc3.json",
+    "web": "https://codex.pipsprojects.com/#/e/5b2f1b4478b01bc3"
+  },
+  "license": "OGL 1.0a"
+}

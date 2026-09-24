@@ -1,0 +1,29 @@
+{
+  "id": "47b42382610b25cd",
+  "name": "Precipitate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "air",
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [air, water]; Level cleric/oracle 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a small, dried gourd or rattle)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea cylinder (40-ft. radius, 20 ft. high)\nDuration concentration, up to 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create driving rain in the spell’s area if the temperature is above 50 degrees Fahrenheit, sleet or rain instead if the air temperature is between 50 degrees Fahrenheit and freezing, and sleet or snow if the air temperature is freezing or below. The precipitation blocks all sight (including darkvision) beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance), while creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). In addition, each type of precipitation has an additional effect:\n\nRain: Small, unprotected mundane flames (such as candles, torches, and campfires of Tiny size) are extinguished by the driving rain. There is no effect on fire creatures or magical flames.\n\nSleet: Ground in the area becomes slick and icy, so creatures can move safely only at one-half speed. Creatures moving at full speed must make an Acrobatics check DC 10, with failure indicating that the creature cannot move on the ice, and failure by 5 points or more meaning that the creature falls prone.\n\nSnow: Ground in the area becomes icy and snow accumulates. Creatures can move only at one-half speed, and no running or charging is possible. Even moving at one-half speed, a creature must make an Acrobatics check DC 10, with failure indicating that the creature cannot move and failure by 5 points or more meaning that the creature falls prone.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/47b42382610b25cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/47b42382610b25cd"
+  },
+  "license": "OGL 1.0a"
+}

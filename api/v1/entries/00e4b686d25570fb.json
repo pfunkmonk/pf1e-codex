@@ -1,0 +1,28 @@
+{
+  "id": "00e4b686d25570fb",
+  "name": "Ultrasonic Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 0,
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [sonic]; Level bard 0, magus 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou fire from your fingertip a focused beam of sonic energy too shrill to hear at a single creature or object. On a successful ranged touch attack, you inflict 1d3 points of sonic damage.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/00e4b686d25570fb.json",
+    "web": "https://codex.pipsprojects.com/#/e/00e4b686d25570fb"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "90a359c7e6dc90fa",
+  "name": "Roar of Heaven",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Sutra Magic",
+  "book": "Sutra Magic",
+  "facets": {
+    "save": "special",
+    "sr": "yes",
+    "bk": "Sutra Magic"
+  },
+  "body": "Sutra Type punitive [sonic]\n\nCASTING\n\nCasting Time 1 standard action\nRange close (25 ft. + 5 ft./2 sutra caster levels)\nTarget one creature per point of sutra caster ability score modifier\nArea spread (5 ft. + 5 ft./5 sutra caster levels radius)\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Fort half; Spell Resistance yes\n\nDESCRIPTION\n\nThis ofuda disappears with the screaming thunder of the heavens and generates a shockwave that strikes all designated targets within its radius.\n\nThe radius is 5 feet plus an additional 5 feet for every 5 sutra caster levels the character has. Those hit by this ofuda receive 1d6 sonic damage per effective spell level. Furthermore, all targets are knocked back 5 ft. for each point of the caster’s sutra casting ability modifier and knocked prone. With a successful Fortitude save, targets are not knocked prone or knocked back. If a target is knocked back further than it can be moved, then it suffers 1d4 points of impact damage for each 5 ft. increment it could not move.\n\nSutra Magic copyright 2010 Frank Car, All rights reserved, Author Frank Carr",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/90a359c7e6dc90fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/90a359c7e6dc90fa"
+  },
+  "license": "OGL 1.0a"
+}

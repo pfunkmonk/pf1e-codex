@@ -1,0 +1,24 @@
+{
+  "id": "ad0588347bea503c",
+  "name": "Succor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Third-party (unattributed)",
+  "book": "Third-party (unattributed)",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 5,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Third-party (unattributed)"
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 5, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nFor every 5 caster levels you possess, succor prevents 1 negative level, 1 level drain, 1 point of ability damage, or 1 point of ability drain (to a maximum of 4 levels or points prevented at 20th caster level) to the creature touched.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ad0588347bea503c.json",
+    "web": "https://codex.pipsprojects.com/#/e/ad0588347bea503c"
+  },
+  "license": "OGL 1.0a"
+}

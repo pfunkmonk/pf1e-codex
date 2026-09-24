@@ -1,0 +1,28 @@
+{
+  "id": "19350a459ff69f89",
+  "name": "Guilt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, AF (small mirror, 10gp)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one living creature of nongood alignment\nDuration 1d4 rounds\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nA nongood creature is forced to think about some evil deed it performed, denying it any actions except to defend itself.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/19350a459ff69f89.json",
+    "web": "https://codex.pipsprojects.com/#/e/19350a459ff69f89"
+  },
+  "license": "OGL 1.0a"
+}

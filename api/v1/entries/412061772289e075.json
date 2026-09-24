@@ -1,0 +1,19 @@
+{
+  "id": "412061772289e075",
+  "name": "Hinder",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design alteration; Level 1\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nYou weaken a target’s physical ability. The subject takes a penalty to your choice of either Strength or Dexterity equal to 1d6+1 per two caster levels (maximum 1d6+5). The subject’s ability score cannot drop below 1. A successful Fortitude save reduces this penalty by half. This penalty does not stack with itself. Apply the highest penalty instead.\n\nOverload: For every runic charge overloaded into this script, increase the penalty applied by +1. For every two charges used, you may target an additional creature. No two targets may be further than 30 feet apart, and you must apply the same penalty to all targets.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/412061772289e075.json",
+    "web": "https://codex.pipsprojects.com/#/e/412061772289e075"
+  },
+  "license": "OGL 1.0a"
+}

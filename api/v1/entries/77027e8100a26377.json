@@ -1,0 +1,26 @@
+{
+  "id": "77027e8100a26377",
+  "name": "Fog Bank (weather)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 1, druid 1, sorcerer/wizard 1, witch 1\n\nEFFECT\n\nDuration 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nTarget Restrictions barrier, burst (emanation)\n\nDESCRIPTION\n\nThis effect word creates a thick fog in its area of effect. It obscures all sight, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, whereas creatures farther away have total concealment. A moderate wind or fire effect removes the fog in the affected area. The fog is stationary.\n\nBoost: If a wordspell with this effect word uses the burst target word, it can be directed to move up to 10 feet each round by the caster as a swift action.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/77027e8100a26377.json",
+    "web": "https://codex.pipsprojects.com/#/e/77027e8100a26377"
+  },
+  "license": "OGL 1.0a"
+}

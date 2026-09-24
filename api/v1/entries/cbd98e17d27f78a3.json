@@ -1,0 +1,27 @@
+{
+  "id": "cbd98e17d27f78a3",
+  "name": "Far Sight (divination)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "druid": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School divination (scrying); Level bard 3, cleric/oracle 3, druid 3, sorcerer/wizard 3, witch 3\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nTarget Restrictions personal\n\nDESCRIPTION\n\nThe caster of a wordspell with this effect word creates an invisible eye at any point within 400 feet + 40 feet per caster level. This sensor cannot move, but for the duration of the wordspell, the caster can look through this eye as if it were her own. The eye uses her senses, including magical ones, to allow her to see, including darkvision, low-light vision, or other effects, such as sense magic. The eye can view in all directions and cannot be destroyed if discovered.\n\nBoost: This sensor can be placed anywhere on the same plane of existence as the caster, with no limit to range. The caster can place it to within 10 feet of a creature that is known to the caster, but the target gets a Will save to negate the effect in this case and the caster must overcome the target’s spell resistance. Boosting this effect word increases its level by 2.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cbd98e17d27f78a3.json",
+    "web": "https://codex.pipsprojects.com/#/e/cbd98e17d27f78a3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7cb35c88041bf130",
+  "name": "Change Fate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 3
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation [chaotic]; Level cleric/oracle 3\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, M (a double sided coin)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell can only be cast by clerics with the luck domain. You apply your control of randomness to choose between alternatives of existence, correcting the choices of fate you disagree with. You may declare any event, occurring within range of the spell, and affected by a die roll to be the recipient of this spell. The result of the die roll is rolled again, and you pick which result of the two actually happens. If the die roll is associated with an event beyond the range of this spell, you cannot alter it. Change fate can affect attack rolls, critical hits, critical failures, initiative checks, saving throws, damage dice (even multiple damage dice, such as 5d6 from a fireball ), healing dice (from cure spells, for example), skill checks, ability checks, and caster level checks. It cannot affect your roll for hit points when you gain a level. If it affects an event associated with a roll of multiple dice, you must choose either set of dice rolls; you cannot choose to replace individual die rolls.\n\nYou can wait to choose whether to affect a die roll until after it is actually rolled, but must state your intention to alter a die roll before any other actions or rolls occur. You cannot alter the past; you can only shape the present as it slips by. If whoever caused the action has spell resistance you must overcome that resistance.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7cb35c88041bf130.json",
+    "web": "https://codex.pipsprojects.com/#/e/7cb35c88041bf130"
+  },
+  "license": "OGL 1.0a"
+}

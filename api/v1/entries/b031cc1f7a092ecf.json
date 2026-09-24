@@ -1,0 +1,23 @@
+{
+  "id": "b031cc1f7a092ecf",
+  "name": "Overcompensation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (object, harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 1 hour/level\nSaving Throw Will negates (object, harmless); Spell Resistance yes (object, harmless)\n\nDESCRIPTION\n\nThis spell causes the weapon touched to grow to the next smallest size that would normally make it impossible to wield. The damage dealt by the weapon increases as though it were one size category larger, but the weapon can be wielded as though it were its original size.\n\nThis effect does not stack with other magic effects that increase size, such as enlarge person or righteous might.\n\nTable: Weapon Damage Size Conversion\nTiny Weapon Damage\tSmall Weapon Damage\tMedium Weapon Damage\tLarge Weapon Damage\tHuge Weapon Damage\n—\t1\t1d2\t1d3\t1d4\n1\t1d2\t1d3\t1d4\t1d6\n1d2\t1d3\t1d4\t1d6\t1d8\n1d3\t1d4\t1d6\t1d8\t2d6\n1d4\t1d6\t1d8\t2d6\t3d6\n1d6\t1d8\t1d10\t2d8\t3d8\n1d8\t1d10\t1d12\t3d6\t4d6\n1d4\t1d6\t2d4\t2d6\t3d6\n1d8\t1d10\t2d6\t3d6\t4d6\n1d10\t2d6\t2d8\t3d8\t4d8\n2d6\t2d8\t2d10\t4d8\t6d8\n\n101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b031cc1f7a092ecf.json",
+    "web": "https://codex.pipsprojects.com/#/e/b031cc1f7a092ecf"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "31b3aa6466b27ecf",
+  "name": "Chilling Mist",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "druid": 2,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes; see text",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation); Level cleric/oracle 3, druid 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange 20 ft.\nEffect cloud spreads in 60-ft. radius, 60-ft. high\nDuration 1 round/level (D)\nSaving Throw Fortitude half; see text; Spell Resistance yes; see text\n\nDESCRIPTION\n\nYou cause a stationary cloud of icy vapor to rise all around you. The vapor obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). In addition, all creatures take 1d6 points of nonlethal damage (treat as cold damage for the purpose of resistance) each round they remain in the mist. Creatures are entitled to a Fortitude save each round to halve the damage.\n\nA moderate wind (11+ mph), such as from a gust of wind spell, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A fireball, flame strike, or similar spell burns away the fog in the explosive or fiery spell’s area. A wall of fire burns away the fog in the area into which it deals damage.\n\nFAQ\n\nThe publisher has released two versions of this spell. The alternate version can be found here.\n\n101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/31b3aa6466b27ecf.json",
+    "web": "https://codex.pipsprojects.com/#/e/31b3aa6466b27ecf"
+  },
+  "license": "OGL 1.0a"
+}

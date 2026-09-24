@@ -1,0 +1,23 @@
+{
+  "id": "97758ddbd05bd999",
+  "name": "Immobilize Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, MF (an adamantine pin worth 10 gp)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one object or construct\nDuration 1 round/level (D); see text\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell causes the object or construct touched to be pinned in place, even defying gravity (the combat maneuver and Escape Artist DC are equal to 10+your caster level + your relevant casting ability modifier). The object can hold up to 2,000 pounds plus 600 pounds per level (the spell ends if more weight is placed on the object). Similarly, a creature can end the spell by pushing against the target object with a successful Strength check (DC equal to the spell’s DC). A creature caught within immobilized armor is entangled and pinned until the armor is removed or the creature makes a successful combat maneuver or Escape Artist check.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/97758ddbd05bd999.json",
+    "web": "https://codex.pipsprojects.com/#/e/97758ddbd05bd999"
+  },
+  "license": "OGL 1.0a"
+}

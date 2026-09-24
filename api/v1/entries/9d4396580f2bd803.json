@@ -1,0 +1,19 @@
+{
+  "id": "9d4396580f2bd803",
+  "name": "Reforge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes (object), see text",
+    "bk": "Path of Iron"
+  },
+  "body": "Design alteration; Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one weapon, armor, or shield/4 levels, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Will negates (object), see text; Spell Resistance yes (object), see text\n\nDESCRIPTION\n\nA reforge script lets you rapidly alter the physical and magical properties of several pieces of equipment at once. For each affected item, you can change them in any of the following ways:\n\nChange its material composition to either mundane steel, cold iron, adamantine, mithral, or silver.\nReduce or increase its size by one category, changing its handedness and what creatures can wield it effectively.\nIncrease or reduce its enhancement bonus by 2.\nExchange any of its current special armor or weapon properties for different ones. Enhancement bonuses cannot be changed; only special properties like flaming or invulnerability. The new properties must have a total enhancement bonus equivalent that is equal to or less than the properties exchanged.\nA Will save negates the effects. Artifacts and similarly unique weapons and armor are unaffected by reforge. For the purpose of this script, 50 projectiles or pieces of ammunition count as one weapon (they must be together at the time of casting).\n\nOverload: For each runic charge overloaded into this script, you may target an additional weapon or armor piece.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d4396580f2bd803.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d4396580f2bd803"
+  },
+  "license": "OGL 1.0a"
+}

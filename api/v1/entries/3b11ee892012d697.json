@@ -1,0 +1,26 @@
+{
+  "id": "3b11ee892012d697",
+  "name": "Umbral Berserker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 2
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of average invisible ink worth 10 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadowy, humanoid berserker\nDuration 1 round/level (D)\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nAs you finish the spell, you open the bottle of invisible ink, a fine mist coming from its opening as the ink is consumed and evaporated. Darkness coalesces about a nearby space and takes on a solid form of roughly human shape that holds a massive weapon, its pure-white eyes blazing with a silent fury.\n\nCreated by nightblades to help when outnumbered by foes, the umbral berserker is a warrior that attacks with a weapon of shadowstuff and draining negative energy. The umbral berserker appears as a medium-sized humanoid composed entirely out of shadows (though it is still corporeal and takes up a space), clad in armor and wielding a two-handed melee weapon appropriate for its size; its appearance (including the form of the weapon) is up to you, though it cannot be made to look like a specific person and always has a shadowy form, so it is never mistaken for an actual creature. It has an AC equal to 10 + 1/2 your caster level + your Charisma bonus, an attack bonus equal to your caster level + your Charisma bonus, 3 hit points per caster level, and a movement speed of 30 feet. It uses your saving throws for its own. If reduced to 0 hit points, the spell ends. Upon creating the umbral berserker, you designate a creature within range for it to target, which it attacks on each of its turns if able. You can change its target at any time as a free action. The berserker cannot move outside of the spell’s range, regardless of its target.\n\nThe berserker takes its turn directly after yours, can attack only once on each of its turns, and has a reach of 5 feet. It cannot make attacks of opportunity. When the berserker first attacks a creature, you must overcome that creature’s spell resistance or have the berserker be rendered unable to harm it. The berserker never again attacks such creatures. Each hit deals 2d6 + your Charisma bonus of either bludgeoning, piercing, or slashing damage, as appropriate for the weapon it wields, critically threats on a 20, and deals double damage on a critical hit. Every time it successfully hits a target, the target must also make a Fortitude save or take 1 point of Strength damage. The berserker’s weapon is considered magic for the purpose of overcoming damage reduction; at 7th caster level, it is considered silver, and at 14th caster level, it is considered cold iron. As with an umbral servant, it gains a +10 bonus on Stealth checks to remain unseen when in dim light; in darkness or supernatural darkness, it is effectively invisible.\n\nOnce during the spell’s duration, you can command the berserker to charge at a creature within 30 feet of itself (a standard action for you) and swing its weapon in a spinning strike. It makes an attack roll against each creature within 10 feet of itself, dealing damage as normal to each creature it hits. After resolving the attack, this spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3b11ee892012d697.json",
+    "web": "https://codex.pipsprojects.com/#/e/3b11ee892012d697"
+  },
+  "license": "OGL 1.0a"
+}

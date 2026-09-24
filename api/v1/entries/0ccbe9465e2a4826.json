@@ -1,0 +1,19 @@
+{
+  "id": "0ccbe9465e2a4826",
+  "name": "Staunch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation (healing); Level 0\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous and 1 minute, see text\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou create a minor warding effect on the target that staves off pain and death. The target is granted 1 temporary hit point, which lasts for 1 minute. If you target a living creature that has -1 or fewer hit points, that creature is automatically stabilized and does not lose any further hit points (this effect is instantaneous). If the creature later takes damage, it continues dying normally.\n\nOverload: For every runic charge overloaded into this script, you may target an additional creature. No two targets may be more than 30 feet apart. For every creation runic charge used, the temporary hit points granted increases by 1.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ccbe9465e2a4826.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ccbe9465e2a4826"
+  },
+  "license": "OGL 1.0a"
+}

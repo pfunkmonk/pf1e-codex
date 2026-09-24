@@ -1,0 +1,26 @@
+{
+  "id": "1bc96365cd57e460",
+  "name": "Acid Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 7
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [acid]; Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a few drops of acid)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius circle\nDuration 1 round/level\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell brings a caustic downpour of acid into the area of effect.\n\nCreatures within the area are coated with acid and take damage each round as shown on the table below.\n\nRound Damage\n\n1–3 1d12\n\n4–6 1d10\n\n7+ 1d8\n\nA creature receives a Reflex save on the first round. If successful, that creature takes only half damage each round for the duration of the spell. A creature affected can take a full round action to rinse the acid off using water or another liquid. This action provokes an attack of opportunity.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1bc96365cd57e460.json",
+    "web": "https://codex.pipsprojects.com/#/e/1bc96365cd57e460"
+  },
+  "license": "OGL 1.0a"
+}

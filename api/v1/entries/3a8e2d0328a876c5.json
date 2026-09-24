@@ -1,0 +1,29 @@
+{
+  "id": "3a8e2d0328a876c5",
+  "name": "Full Salvo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 5,
+      "wizard": 5,
+      "vanguard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level magus 5, sorcerer/wizard 5, vanguard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a firearm bullet worth at least 1 gp)\n\nEFFECT\n\nRange see text\nEffect several conjured firearms\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWith a sweep of your hands you conjure several loaded firearms nearby, each one floating and ready to fire.\n\nFull salvo creates one medium musket per two caster levels (max 10). They each appear floating in your space or in squares adjacent to you. Each one immediately fires a single bullet at a nearby foe, dealing 1d12 piercing damage on a hit, threatening a critical hit on a 20 and dealing x4 damage on a critical hit. It has a range increment of 40 feet, can go up to five range increments, and strikes against touch AC in the first range increment. The gun misfires on a roll of a 1 or 2, making the shot for that gun automatically miss.\n\nYou must make a separate attack roll for each gun, using your normal bonuses. Any feats you have that apply to firearms, such as Weapon Focus or Clustered Shots, apply to the full salvo. The bullets count as magic and your choice of either silver or cold iron for the purpose of overcoming damage reduction. At 12th caster level, you can instead make the bullets count as adamantine for this purpose. Once you finish making all attacks, the guns vanish and the spell ends.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a8e2d0328a876c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a8e2d0328a876c5"
+  },
+  "license": "OGL 1.0a"
+}
