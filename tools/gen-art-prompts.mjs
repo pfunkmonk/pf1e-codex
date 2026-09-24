@@ -24,6 +24,7 @@ import { MONSTER_THEME_SCENES, TYPE_SCENES, CREATURE_SCENES, MONSTER_SCENES } fr
 import { FEAT_MOTIF_SCENES, ITEM_MOTIF_SCENES } from "./art-scenes-motifs.mjs";
 import { MONSTER_MOTIF_SCENES, TRAIT_MOTIF_SCENES } from "./art-scenes-motifs2.mjs";
 import { OPTION_MOTIF_SCENES, HAZARD_MOTIF_SCENES } from "./art-scenes-motifs3.mjs";
+import { EXTRA } from "./art-scenes-extra.mjs";   // scene lines added after the import grew the buckets (keyed "bucket/theme" or a variety name)
 import { TRAIT_SCENES, HAZARD_SCENES, OPT_SCENES, ARCH_SCENES, RULES_SCENES as RULES_VARIETY, NPC_SCENES, NPC_ROLE_SCENES, NAMED_DEITIES } from "./art-scenes-world.mjs";
 
 const slug = t => String(t).toLowerCase().replace(/['\u2019]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
@@ -913,7 +914,7 @@ function varietyFamily(map, section) {
   return Object.entries(map).map(([name, scenes]) => ({ kind: "variety", name, scenes, section }));
 }
 
-const problems = [], spare = [];
+const problems = [], spare = [], NEEDS = [];   // NEEDS: themes/varieties with fewer scene lines than declared (DUMP_NEEDS=<file> writes them)
 function buildBatch(n) {
   const spec = BATCHES[n], out = [];
   for (const part of spec.parts) {
@@ -921,12 +922,13 @@ function buildBatch(n) {
       const table = THEMES[part.bucket];
       if (!table) { problems.push(`batch ${n}: no theme table for bucket "${part.bucket}"`); continue; }
       for (const row of table) {
-        const key = row[0], variants = row[3] || 1, scenes = part.scenes[key];
+        const key = row[0], variants = row[3] || 1; let scenes = part.scenes[key];
+        if (scenes && EXTRA[part.bucket + "/" + key]) scenes = scenes.concat(EXTRA[part.bucket + "/" + key]);
         if (!scenes) { problems.push(`${part.bucket}/${key} is declared in themes.js but has NO scene description`); continue; }
         // Too FEW descriptions is a hard error — that image would be commissioned blind.
         // Too many is fine and expected: size-variants rebalances counts as the data shifts, and
         // a spare description costs nothing. Surface it so it can be tidied, do not block on it.
-        if (scenes.length < variants) { problems.push(`${part.bucket}/${key} declares ${variants} variant(s) but has only ${scenes.length} description(s)`); continue; }
+        if (scenes.length < variants) { problems.push(`${part.bucket}/${key} declares ${variants} variant(s) but has only ${scenes.length} description(s)`); NEEDS.push({ id: part.bucket + "/" + key, kind: "theme", bucket: part.bucket, key, variants, existing: scenes }); continue; }
         if (scenes.length > variants) spare.push(`${part.bucket}/${key} (+${scenes.length - variants})`);
         for (let v = 1; v <= variants; v++) {
           const artKeyName = `theme-${part.bucket}-${key}-${v}`;
@@ -938,17 +940,18 @@ function buildBatch(n) {
         if (!table.some(r => r[0] === key)) problems.push(`scene described for ${part.bucket}/"${key}", which is NOT a theme in themes.js`);
     } else if (part.kind === "variety") {
       const count = VARIETY[part.name];
+      const pscenes = EXTRA[part.name] ? (part.scenes || []).concat(EXTRA[part.name]) : part.scenes;
       if (!count) { problems.push(`batch ${n}: variety set "${part.name}" is not declared in PF_VARIETY`); continue; }
-      if (!part.scenes || part.scenes.length < count) {
-        problems.push(`variety "${part.name}" declares ${count} scene(s) but only ${part.scenes ? part.scenes.length : 0} are described`); continue;
+      if (!pscenes || pscenes.length < count) {
+        problems.push(`variety "${part.name}" declares ${count} scene(s) but only ${pscenes ? pscenes.length : 0} are described`); NEEDS.push({ id: "variety:" + part.name, kind: "variety", name: part.name, count, existing: pscenes || [] }); continue;
       }
-      if (part.scenes.length > count) spare.push(`${part.name} (+${part.scenes.length - count})`);
+      if (pscenes.length > count) spare.push(`${part.name} (+${pscenes.length - count})`);
       for (let v = 1; v <= count; v++) {
         const artKeyName = `${part.name}-${v}`;
         if (PRESENT.has(artKeyName)) continue;          // already drawn — nothing to commission
         // A null slot is only legal when its art already exists; needing one is a hard error.
-        if (part.scenes[v - 1] == null) { problems.push(`variety "${artKeyName}" has no art and no scene description`); continue; }
-        out.push({ section: part.section, label: `${part.name} scene ${v}`, key: artKeyName, subject: part.scenes[v - 1] });
+        if (pscenes[v - 1] == null) { problems.push(`variety "${artKeyName}" has no art and no scene description`); continue; }
+        out.push({ section: part.section, label: `${part.name} scene ${v}`, key: artKeyName, subject: pscenes[v - 1] });
       }
     } else if (part.kind === "bodythemes") {
       const table = (globalThis.window.PF_BODY_THEMES || {})[part.bucket];
@@ -981,6 +984,7 @@ const batchNums = WANT.length ? WANT : Object.keys(BATCHES).map(Number);
 const built = {};
 for (const n of batchNums) built[n] = buildBatch(n);
 
+if (process.env.DUMP_NEEDS) fs.writeFileSync(process.env.DUMP_NEEDS, JSON.stringify(NEEDS, null, 1));
 if (problems.length) {
   console.error("REFUSING TO GENERATE — themes.js and the scene lists disagree:");
   for (const p of problems) console.error("  - " + p);
