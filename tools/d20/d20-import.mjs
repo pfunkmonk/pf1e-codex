@@ -165,6 +165,7 @@ function rawCatOf(p) {
     case "archetypes": return "Archetype";
     case "rules": return "Rules";
     case "monsters": return "Monsters";
+    case "deities": return "Deities";
     case "options": { const last = p.crumb[p.crumb.length - 1] || ""; return /^(Domains|Archetypes)$/i.test(last) ? "Class Options" : (last || "Class Options"); }
     case "classes": return p.crumb.some((s) => /prestige/i.test(s)) ? "Prestige Classes" : "Base Classes";
     case "items": {
@@ -210,7 +211,7 @@ const existingNameBucket = new Map(d.IDX.map((r) => [norm(r[1]) + "|" + r[2], r[
 const origByKey = new Map();
 for (const r of d.IDX) { if (r[0] === mintId(r[2], r[1])) continue; for (const k of nameKeys(r[1])) { const a = origByKey.get(r[2] + "|" + k); a ? a.push(r) : origByKey.set(r[2] + "|" + k, [r]); } }
 
-const IMPORTABLE_BUCKETS = new Set(["races", "rules", "monsters", "items", "traits", "classes", "archetypes", "options", "feats", "spells"]);
+const IMPORTABLE_BUCKETS = new Set(["deities", "races", "rules", "monsters", "items", "traits", "classes", "archetypes", "options", "feats", "spells"]);
 
 const toImport = matches.filter((r) => r.verdict === "NEW");
 const held = { NAMESAKE: matches.filter((r) => r.verdict === "NAMESAKE"), AMBIGUOUS: matches.filter((r) => r.verdict === "AMBIGUOUS") };
@@ -228,7 +229,13 @@ for (const r of toImport) {
   p.name = sanitizeText(p.name);
   p.license = sanitizeText(p.license);
 
-  const name = canonicalName(p);
+  let name = canonicalName(p);
+  // Two publishers' take on the SAME god ("Set" by Frog God Games vs the Paizo "Set") are both real content and a
+  // namesake is the wrong verdict for them: keep both, told apart by publisher, the way monsters carry "(3pp)".
+  if (p.bucket === "deities") {
+    const ex = existingNameBucket.get(norm(name) + "|deities");
+    if (ex !== undefined && ex !== mintId("deities", name)) name = `${name} (${repairSource(bkOf(p), p.license)})`;
+  }
   const key = norm(name) + "|" + p.bucket;
   const id = mintId(p.bucket, name);
   // Additive-only guard: a name+bucket already in the Codex under a DIFFERENT id is a real collision

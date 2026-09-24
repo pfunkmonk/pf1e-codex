@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "82";
+  var DATA_V = "83";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -921,6 +921,23 @@
     for(var i=start;i<rows.length;i++){ html+='<tr>'+rows[i].map(function(c){return '<td>'+glossify(esc(c))+'</td>';}).join("")+'</tr>'; }
     return html+'</tbody></table></div>';
   }
+  // d20pfsrd-sourced entries keep their tables as TAB-separated lines inside the body (14,000+ rows across ~640
+  // entries); HTML collapses a tab to a space, so "Agate Ellipsoid<tab>strong divination<tab>..." used to read as
+  // one run-together sentence. A run of two or more tabbed lines is a table. The first row is a header when the run
+  // has 3+ rows and that row carries no digits (a data row nearly always does). Cells wrap: unlike the AoN tables
+  // these hold whole sentences.
+  function renderTabTable(rows){
+    var cells=rows.map(function(r){ return r.split("\t").map(function(c){ return c.replace(/^\s+|\s+$/g,""); }); });
+    var n=0; cells.forEach(function(r){ if(r.length>n) n=r.length; });
+    cells.forEach(function(r){ while(r.length<n) r.push(""); });
+    while(n>1 && cells.every(function(r){ return !r[n-1]; })){ n--; cells.forEach(function(r){ r.pop(); }); }   // a column that is empty on every row is a stray trailing tab
+    var hdr = cells.length>=3 && !/\d/.test(cells[0].join(" "));
+    var html='<div class="tablewrap"><table class="rt rtx">', start=0;
+    if(hdr){ html+='<thead><tr>'+cells[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
+    html+='<tbody>';
+    for(var i=start;i<cells.length;i++){ html+='<tr>'+cells[i].map(function(c){return '<td>'+glossify(esc(c))+'</td>';}).join("")+'</tr>'; }
+    return html+'</tbody></table></div>';
+  }
   // PF stat-block section headers (whole-line, case-insensitive) → tapered-rule dividers
   var SB_HEADS={defense:1,offense:1,statistics:1,ecology:1,tactics:1,"special abilities":1,description:1,casting:1,effect:1,construction:1,destruction:1,requirements:1};
   function fmtBody(body, source, curId){
@@ -945,6 +962,12 @@
       var ln=lines[i].replace(/\s+$/,""); i++;
       if(!ln.trim()){ if(blank++<1) out.push('<div class="gap"></div>'); continue; }
       blank=0;
+      if(ln.indexOf("\t")>=0){
+        var run=[ln], j=i;
+        while(j<lines.length && lines[j].indexOf("\t")>=0){ run.push(lines[j].replace(/\s+$/,"")); j++; }
+        if(run.length>=2){ out.push(renderTabTable(run)); i=j; continue; }
+        ln=ln.replace(/\t+/g,"  ·  ");          // a lone tabbed line: keep the cells apart, no one-row table
+      }
       // classic stat-block section headers get the tapered-rule treatment (the signature "official" look)
       if(SB_HEADS[ln.trim().toLowerCase()]) out.push('<div class="sb-head">'+esc(ln.trim())+'</div>');
       else out.push('<div class="ln">'+linkifyLine(ln, curId)+'</div>');

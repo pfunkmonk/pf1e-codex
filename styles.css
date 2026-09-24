@@ -115,6 +115,8 @@ abbr.gl{text-decoration:none;border-bottom:1px dotted var(--accent2);cursor:help
 .tablewrap{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow)}
 table.rt{border-collapse:collapse;width:100%;font-size:14px;background:var(--panel)}
 table.rt th,table.rt td{border:1px solid var(--line);padding:5px 10px;text-align:left;white-space:nowrap}
+table.rt.rtx th,table.rt.rtx td{white-space:normal;vertical-align:top;min-width:5.5em}
+table.rt.rtx td:first-child,table.rt.rtx th:first-child{min-width:8em}
 table.rt thead th{background:var(--chip);font-weight:700;position:sticky;top:0}
 table.rt tbody tr:nth-child(even){background:color-mix(in srgb,var(--accent) 4%,transparent)}
 table.rt td:first-child,table.rt th:first-child{font-weight:600;position:sticky;left:0;background:var(--panel)}

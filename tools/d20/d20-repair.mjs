@@ -5,6 +5,7 @@
  * Usage: node tools/d20/d20-repair.mjs [--apply] [--root C:/Users/mailp/dev/pf1e-codex] */
 import fs from "node:fs";
 import crypto from "node:crypto";
+import { commaListShare } from "./d20-clean.mjs";
 import { repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
@@ -25,14 +26,52 @@ for (const b of buckets) {
   if (!text.startsWith(open) || !text.trimEnd().endsWith(");")) throw new Error("cannot parse " + b);
   bodies[b] = JSON.parse(text.slice(open.length, text.trimEnd().length - 2));
 }
+// ---- 0. gods filed under `options`/`classes` -> `deities` (d20 files them under Classes > Cleric > Gods; see bucketOf) ----
+const godBody = (b) => /Alignment:?\s+(?:Lawful|Neutral|Chaotic|LG|LN|LE|NG|N\b|NE|CG|CN|CE)/i.test(b) && /(Domains?|Portfolio|Favou?red Weapons?|Typical Worshipers?)\b/.test(b);
 const isD20 = (r) => r[0] === mintId(r[2], r[1]);
+{
+  const have = new Set(rows.filter((r) => r[2] === "deities").map((r) => norm(r[1])));
+  let moved = 0;
+  for (const r of rows) {
+    if (r[2] === "deities" || !["options", "classes"].includes(r[2]) || !isD20(r)) continue;
+    const body = String(bodies[r[2]][r[0]]);
+    if (!godBody(body)) continue;
+    const src = repairSource(r[4], body.split(/\n\n/).pop());
+    const newName = have.has(norm(r[1])) ? `${r[1]} (${src})` : r[1];
+    const newId = mintId("deities", newName);
+    delete bodies[r[2]][r[0]];
+    (bodies.deities ||= {})[newId] = body;
+    have.add(norm(newName));
+    if (newName !== r[1]) console.log(`  move ${r[1]} -> deities as "${newName}"`);
+    r[0] = newId; r[1] = newName; r[2] = "deities"; r[3] = "Deities"; r[6] = { bk: src };
+    moved++;
+  }
+  console.log(`gods moved into deities: ${moved}`);
+}
 const d20 = rows.filter(isD20), orig = rows.filter((r) => !isD20(r));
 console.log(`rows ${rows.length}: d20-minted ${d20.length}, original ${orig.length}`);
+
+const drop = new Map();
+// ---- 3. structure: navigation-list "entries" and stat blocks flattened onto one line ----
+const listPages = d20.filter((r) => commaListShare(String(bodies[r[2]][r[0]]).split("\n").filter((l) => l.trim())) > 0.6);
+console.log(`\nname-list navigation pages posing as entries: ${listPages.length}`);
+for (const r of listPages) { console.log("  drop", r[1], `[${r[2]}]`); }
+const STAT_BREAK = /\s+(?=(?:DEFENSE|OFFENSE|STATISTICS|ECOLOGY|SPECIAL ABILITIES|TACTICS)\b|(?:Init [+-]\d|AC \d|hp \d|Fort [+-]\d|Speed \d|Melee |Ranged |Space \d|Special Attacks |Str \d|Base Atk [+-]|Feats [A-Z]|Skills [A-Z]|Languages [A-Z]|SQ [a-z]|Environment [a-z]|Organization [a-z]|Treasure [a-z]))/g;
+const isFlat = (l) => l.length > 700 && ["Init", "AC ", "hp ", "Fort ", "Speed ", "Melee", "Str ", "Base Atk", "Feats", "Skills"].filter((k) => l.includes(k)).length >= 6;
+let rebroke = 0;
+for (const r of d20) {
+  const b = String(bodies[r[2]][r[0]]);
+  if (!b.split("\n").some(isFlat)) continue;
+  const nb = b.split("\n").map((l) => (isFlat(l) ? l.replace(STAT_BREAK, "\n") : l)).join("\n");
+  console.log(`  re-broke flattened stat block: ${r[1]} (${b.split("\n").length} -> ${nb.split("\n").length} lines)`);
+  if (APPLY) bodies[r[2]][r[0]] = nb;
+  rebroke++;
+}
+for (const r of listPages) drop.set(r[0], `${r[1]}  <>  (a list of names, no content of its own)`);
 
 // ---- 2. inverted-name duplicates of ORIGINAL rows ----
 const origByKey = new Map();
 for (const r of orig) for (const k of nameKeys(r[1])) { const a = origByKey.get(r[2] + "|" + k); a ? a.push(r) : origByKey.set(r[2] + "|" + k, [r]); }
-const drop = new Map();
 for (const r of d20) {
   if (VARIANT_QUAL.test(r[1])) continue;
   const tail = String(bodies[r[2]][r[0]]).split(/\n\n/).pop();

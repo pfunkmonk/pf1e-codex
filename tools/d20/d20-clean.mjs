@@ -327,6 +327,11 @@ export function bucketOf(crumb, url) {
   if (/^races/.test(top)) return "races";
   if (/^(skills|gamemastering|basics|alternative rule|alignment|extras)/.test(top)) return "rules";
   if (/^classes/.test(top)) {
+    // d20 files third-party GODS under Classes > Core Classes > Cleric > "Gods (3rd Party Publishers)" > "<Publisher> – Gods".
+    // Without this rule every one fell through to `options` (52 of them in the first 24,000 pages; Purple Duck's
+    // "Gods of Porphyra" and Frog God's pantheon are still mostly unsampled). "Domains, Subdomains & Gods" is the
+    // DOMAIN index and its members are domains — those must stay options, hence the anchored patterns.
+    if (has(/^gods\b/) || has(/\s[–-]\s*gods$/)) return "deities";
     if (has(/^archetypes$/) || has(/archetypes/)) return "archetypes";
     if (has(/prestige classes|base classes|core classes|hybrid classes|alternate classes|unchained classes|npc classes|monster classes/) && c.length <= 4) return "classes";
     return "options";
@@ -553,12 +558,21 @@ function titleWordOverlap(ls, title) {
   }
   return matching / tabRows.length;
 }
+// "Monsters by Role" (8,780 chars) is nothing but comma-separated monster NAMES under role headings — a navigation
+// index that passed as a monster entry because no tab-run / short-line signal fires on 3,000-character lines.
+// Real entries can carry a few such lines (a spell's class list) but never most of their text.
+export function commaListShare(ls) {
+  const total = ls.reduce((n, l) => n + l.length, 0) || 1;
+  const list = ls.filter((l) => { const it = l.split(","); return it.length >= 12 && it.every((x) => x.trim().split(/\s+/).length <= 4) && !/[.!?]\s/.test(l); });
+  return list.reduce((n, l) => n + l.length, 0) / total;
+}
 export function isCatalogPage(bucket, chars, ls, body, title) {
   // A real ARCHETYPE never restates Hit Die (it modifies an existing class) so it can't use the general
   // stat-block check below, but can carry its own spellcasting-progression table just as long as a real
   // class's ("Primagus" ran 40+ tab rows) — bucket is the only reliable signal there.
   if (bucket === "archetypes") return false;
   if (hasOwnStatBlock(body, title)) return false;
+  if (commaListShare(ls) > 0.6) return true;
   if (longestTabRun(ls) >= 40) return true;
   if (listyRatio(ls) >= 0.85) return true;
   if (maxRepeatedTabLine(ls) >= 10) return true;

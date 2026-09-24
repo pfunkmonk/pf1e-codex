@@ -15,7 +15,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.argv[2] || ".";
-const PACKS = process.argv[3] || ".";
+// Packs handed out for drawing live in art-packs/ until the images are ingested (then delete the pack: a key that is
+// both on disk and in a pack is reported as RE-COMMISSIONED).
+const PACKS = process.argv[3] || (fs.existsSync(`${ROOT}/art-packs`) ? `${ROOT}/art-packs` : ".");
 
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
