@@ -1,0 +1,28 @@
+{
+  "id": "25a588957b1588bd",
+  "name": "Cold Snap (cold)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 0,
+      "magus": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [cold]; Level druid 0, magus 0, sorcerer/wizard 0\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA wordspell with this effect word deals 1d3 points of cold damage. If the wordspell with this effect word has only a single target, it requires a melee or ranged touch attack to hit and does not allow a saving throw.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/25a588957b1588bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/25a588957b1588bd"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "1669706cd66386ca",
+  "name": "Obliteration",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction; Level 9\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one corporeal creature/round\nDuration concentration, up to 1 round/2 levels\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nObliteration is one of the mightiest forms of destructive power, able to ravage a creature with devastating result. Each round you concentrate (including the first), you can cause one creature to be assaulted by ruinous power, inflicting 10 points of damage per caster level. A successful save reduces the damage to 4d6. If you break concentration, the script immediately ends, though any damage remains. You can target a particular creature only once with each casting of obliteration.\n\nOverload: For every runic charge overloaded into this script, you can use obliteration for 1 round without concentration (this does not increase its duration), and targets that make their saving throw take an additional 2d6 damage per charge on a successful saving throw (max 10d6). If you use four destruction charges, you can target a creature twice with a single casting of obliteration.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1669706cd66386ca.json",
+    "web": "https://codex.pipsprojects.com/#/e/1669706cd66386ca"
+  },
+  "license": "OGL 1.0a"
+}

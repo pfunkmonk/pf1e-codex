@@ -1,0 +1,28 @@
+{
+  "id": "86bf46cdefafb9d5",
+  "name": "Flexarmor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 2,
+      "paladin": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (object, harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 2, cleric/oracle 2, druid 2, paladin 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange touch\nTarget armor or shield touched\nDuration 1 minute/level\nSaving Throw Will negates (object, harmless); Spell Resistance yes (object, harmless)\n\nDESCRIPTION\n\nFlexarmor causes a single set of armor or a shield to become more malleable and less restrictive. The target’s armor check penalty is reduced by 2, +1 for every five caster levels (maximum of +6 at level 20). Its maximum Dexterity bonus is increased by 1, +1 for every five caster levels (maximum increase of +5 at level 20). The arcane spell failure chance is decreased by 10%, +5% for every five caster levels (maximum decrease of 30% at level 20). This spell cannot reduce the armor check penalty or spell failure chance below 5%.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/86bf46cdefafb9d5.json",
+    "web": "https://codex.pipsprojects.com/#/e/86bf46cdefafb9d5"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bdcc65184b85d0d0",
+  "name": "Rebuild",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation (generation); Level 2\n\nCASTING\n\nCasting Time 10 minutes\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one object of up to 10 cu. ft./level, or one construct of any size\nDuration instantaneous\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nThis script can repair damaged objects and magic items. This functions as a make whole spell, except as noted here.\n\nOverload: For every runic charge overloaded into this script, increase the maximum object size that can be repaired by 10 cubic feet. For every two runic charges used, you can target an additional object or construct, and the damage repaired increases by 1d6. No two targets can be further than 30 feet apart at the time of casting.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bdcc65184b85d0d0.json",
+    "web": "https://codex.pipsprojects.com/#/e/bdcc65184b85d0d0"
+  },
+  "license": "OGL 1.0a"
+}

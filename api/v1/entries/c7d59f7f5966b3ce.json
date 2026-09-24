@@ -1,0 +1,27 @@
+{
+  "id": "c7d59f7f5966b3ce",
+  "name": "Symbol of Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 2,
+      "witch": 2
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Fort",
+    "sr": "yes (see text)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness]; Level cleric 2, witch 2\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorus, plus powdered diamond and opal worth a total of 100 gp)\n\nEFFECT\n\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Fortitude negates (see text); Spell Resistance yes (see text)\n\nDESCRIPTION\n\nThis spell functions as symbol of death, except upon activation the light level within 60 feet of the symbol immediately drops to darkness, regardless of existing lighting conditions. All creatures within 60 feet of a symbol of darkness must make a Fortitude save or become fatigued. This effect cannot make a creature already fatigued become exhausted. Unlike symbol of death, symbol of darkness has no hit point limit; once it is triggered, a symbol of darkness remains active for 1 minute per caster level.\n\nSymbol of darkness can be made permanent with a permanency spell by a caster of 10th level or higher for the cost of 5,000 gp.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7d59f7f5966b3ce.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7d59f7f5966b3ce"
+  },
+  "license": "OGL 1.0a"
+}

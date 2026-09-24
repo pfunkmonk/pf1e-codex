@@ -1,0 +1,19 @@
+{
+  "id": "d34a6d45f7fc4fe7",
+  "name": "Chain Blast",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "None",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction [force]; Level 6\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTargets one primary target, plus one secondary target/2 levels (each of which must be within 30 ft. of the primary target)\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nMissiles of magical energy dart from your fingertips to unerringly strike a target then ricochet off to strike additional targets. You make one dart per two caster levels (max 10). Each dart deals 1d4+1 force damage to the primary target.\n\nAfter a dart has struck the primary target, it then ricochets to other nearby targets within 30 feet of the primary target. Each dart can strike one additional creature per two caster levels (max 10). A creature cannot be struck by a single dart more than once, but multiple darts can strike a single creature. You do not have to strike the same targets with each dart (except for the primary target at which all darts are initially fired).\n\nYou can choose to affect less secondary targets than the maximum. Any effect that negates magic missiles or striking effects also protects against a chain blast. If the primary target has an effect that would negate this script, it deals no damage to it, but the darts still can ricochet to secondary targets. This script does no damage to objects.\n\nOverload: For every runic charge overloaded into this script, you create an additional dart of force and can strike an additional secondary target.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d34a6d45f7fc4fe7.json",
+    "web": "https://codex.pipsprojects.com/#/e/d34a6d45f7fc4fe7"
+  },
+  "license": "OGL 1.0a"
+}

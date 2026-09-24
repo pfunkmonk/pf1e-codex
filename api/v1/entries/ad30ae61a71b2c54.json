@@ -1,0 +1,25 @@
+{
+  "id": "ad30ae61a71b2c54",
+  "name": "Alignment Assault (alignment)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 5,
+      "inquisitor": 5,
+      "paladin": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation; Level cleric/oracle 5, inquisitor 5, paladin 4\n\nEFFECT\n\nDuration instantaneous, see below\nSaving Throw Will partial; Spell Resistance yes\nTarget Restrictions Burst, Cone, Line\n\nDESCRIPTION\n\nIf a wordspell with this effect word is cast, the wordcaster selects one alignment: good, evil, chaotic, or lawful. All creatures of that alignment take 1d8 points of damage per two caster levels (maximum 8d8). Outsiders of that alignment take 1d6 points of damage per caster level (maximum 15d6). In addition, creatures of the affected alignment are staggered for 1 round per caster level if they fail their saving throws.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ad30ae61a71b2c54.json",
+    "web": "https://codex.pipsprojects.com/#/e/ad30ae61a71b2c54"
+  },
+  "license": "OGL 1.0a"
+}

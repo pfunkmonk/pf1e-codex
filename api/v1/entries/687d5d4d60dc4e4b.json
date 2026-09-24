@@ -1,0 +1,28 @@
+{
+  "id": "687d5d4d60dc4e4b",
+  "name": "Weapon of Nightmares",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (phantasm) [fear, mind-affecting]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a weapon)\n\nEFFECT\n\nRange touch\nTarget dagger touched\nDuration 1 round/level or until discharged\nSaving Throw Will disbelief, then Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou imbue a weapon with energy that visits horrid visions upon the victims of its strikes. With an eerie purple light, energy crackles through the weapon as the spell is cast. When you make a successful melee attack with the weapon, it deals damage normally and the target must make a successful Will saving throw or fall victim to horrible visions. If the target fails his Will save to disbelieve the horrible visions, he must then make a successful Fortitude save or suffer 1d8 points of nonlethal damage per caster level (maximum 10d8) and fall unconscious for 1d4 rounds. If the target’s Fortitude save is successful, he suffers only half the spell’s nonlethal damage and is not rendered unconscious. Upon a successful melee attack with this weapon, the spell is discharged.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/687d5d4d60dc4e4b.json",
+    "web": "https://codex.pipsprojects.com/#/e/687d5d4d60dc4e4b"
+  },
+  "license": "OGL 1.0a"
+}

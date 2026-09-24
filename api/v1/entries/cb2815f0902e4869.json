@@ -1,0 +1,23 @@
+{
+  "id": "cb2815f0902e4869",
+  "name": "Protection from Aberrations",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Alluria Publishing",
+  "book": "Alluria Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Alluria Publishing"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min/level (D)\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nThis spell wards a creature from attacks by creatures with the aberration type. First, against attacks made by aberrations, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Next, the subject becomes immune to any effects caused by an aberration that can be removed by remove disease or remove curse. Lastly, the subject immediately receives another save against spells or effects originating from an aberration that attempts to gain mental control over the creature, with a +2 moral bonus.\n\nRemarkable Races: Compendium of Unusual PC Races, Pathway to Adventure Edition. Copyright 2009, Alluria Publishing; Author: J. Matthew Kubisz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb2815f0902e4869.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb2815f0902e4869"
+  },
+  "license": "OGL 1.0a"
+}

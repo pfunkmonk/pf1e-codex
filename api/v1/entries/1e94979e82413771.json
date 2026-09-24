@@ -1,0 +1,19 @@
+{
+  "id": "1e94979e82413771",
+  "name": "Grasping Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation [earth]; Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 20 ft.-radius spread\nDuration 1 round/level\nSaving Throw Fortitude partial (object); Spell Resistance no\n\nDESCRIPTION\n\nThe ground in the target area pulls at creatures and objects, holding them to the ground and crushing them.\n\nThe entire area is treated as difficult terrain for the duration of the script. Immediately, and at the beginning of each of your turns, every creature and object touching the ground (or less than 5 feet above it) within the area of the script must make a Fortitude save. Creatures that enter the area of effect are also automatically attacked.\n\nThe first time a creature fails its saving throw, the target becomes held by the earth, entangling it. Entangled opponents can’t move without breaking free (see below). A target that is entangled and fails its next saving throw is pulled further down, knocking it prone. On the third failed saving throw, the creature becomes pinned to the ground. In addition, every round the creature fails its saving throw, it takes 4d6 bludgeoning damage as the earth crushes it. A creature that makes its saving throw takes half damage and goes back one step in the above progression (from pinned to prone, prone to entangled, and entangled to free).\n\nAn affected creature can attempt to break out as a standard action, making either a Strength check (DC = grasping earth’s save DC) or an Escape Artist check (DC = grasping earth’s save DC + 5). Success breaks it out of the earth’s grasp, but if it does not leave the area the earth will attempt to grab it again on your next turn.\n\nAn object affected by grasping earth instead takes 4d6 damage each round as it is crushed by the earth, which ignores hardness. It cannot be moved by another creature unless first pulled out with a Strength check (DC = grasping earth’s save DC).\n\nThis script only works when on natural terrain or on worked stone and soil; it does not work on metallic or wooden surfaces. You are immune to the effects of your own grasping earth.\n\nOverload: For every runic charge overloaded into this script, you may increase the radius of its area by 5 feet. For every two charges used, the damage dealt increases by 1d6.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e94979e82413771.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e94979e82413771"
+  },
+  "license": "OGL 1.0a"
+}

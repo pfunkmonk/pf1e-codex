@@ -1,0 +1,27 @@
+{
+  "id": "0d15b435ed440eab",
+  "name": "Animal Scout",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 3,
+      "ranger": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level druid 3, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small piece of food and a stick that you throw)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one Fine, Tiny or Small animal\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou charm an animal into scouting for you. You must give the creature a simple task such as “Find out what is on the other side of that hill.” The animal does its best to accomplish what you ask, returning before the spell ends. If it cannot accomplish the task before the spell ends, it returns to give you a brief reason why. It does not attack others or knowingly put itself in danger and can only interpret what it sees based on its limited intelligence (see below). If you give it a task that forces it to go into an area that it knows or realizes is inherently dangerous, the spell automatically fails. A forest fire, for example, is inherently dangerous. A battlefield is too. An area where a wolf prowls occasionally is not. The animal does not travel farther than 2 miles from its home territory.\n\nFor the duration of the task, the animal scout gains +4 to its Intelligence.\n\nIt gains no new languages or additional ability to communicate, but you may gain higher quality information upon its return by using spells such as speak with animals.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0d15b435ed440eab.json",
+    "web": "https://codex.pipsprojects.com/#/e/0d15b435ed440eab"
+  },
+  "license": "OGL 1.0a"
+}

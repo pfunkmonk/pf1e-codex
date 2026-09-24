@@ -1,0 +1,17 @@
+{
+  "id": "a66485aab3fa63dd",
+  "name": "Drunken Rabble (CR 3)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Fort Scurvy",
+  "book": "Fort Scurvy",
+  "facets": {
+    "bk": "Fort Scurvy"
+  },
+  "body": "Drunken Rabble\nCR 3\n\nXP 800\nCN Medium humanoid (human, troop)\nInit +2; Senses Perception +22\n\nDEFENSE\n\nAC 18, touch 13, flat-footed 15 (+2 armor, +3 Dex, +3 natural)\nhp 45 (6d8+18)\nFort +8, Ref +4, Will +4; +2 vs. charm and fear, -2 vs. confusion and insanity\nDefensive Abilities troop traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee troop +6 (2d4+2)\nSpace 20 ft.; Reach 5 ft.\nSpecial Attacks malicious mischief (DC 15)\n\nTACTICS\n\nDuring Combat These disorganized ruffians are belligerent and destructive but disorganized and incapable of coherent action.\n\nMorale A troop disperses when reduced to 0 hit points or fewer.\n\nSTATISTICS\n\nStr 14, Dex 15, Con 16, Int 9, Wis 10, Cha 11\nBase Atk +4; CMB +6; CMD 34\nFeats Ability Focus (broadside), Combat Reflexes, Dodge, Great Fortitude, Iron Will, Skill Focus (Perception), Skill Focus (Stealth), Toughness\nSkills Climb +6, Intimidate +8, Perception +3, Profession (typically sailor or soldier) +4\nLanguages Common\nSQ drunk and disorderly, mismatched weapons\n\nSPECIAL ABILITIES\n\nDrunk and Disorderly (Ex)\n\nA drunken rabble is often intoxicated and its members are easily distracted and prone to fighting among themselves or making sudden and erratic changes of direction as they push and shove each other. As a result, their troop attack has a 20% miss chance against any opponent they attack; this is not based on concealment, but simply them not bothering to attack an enemy in their midst. Their disorderly nature grants them a +4 bonus on Intimidate checks, and the DC of Acrobatics and Stealth checks within 5 feet of a drunken rabble is increased by 5. A drunken rabble gains a +2 morale bonus on saving throws against charm and fear effects but a -2 penalty on saves against confusion or insanity effects.\n\nMalicious Mischief (Ex)\n\nA creature damaged by a drunken rabble’s troop attack must succeed on a DC 15 Reflex save. If the save fails, the rabble can attempt a combat maneuver check against that creature as a free action. Roll a d6 to determine the type of combat maneuver the rabble uses: 1—bull rush, 2—dirty trick, 3—disarm, 4—steal, 5—sunder, 6—trip. This combat maneuver does not provoke attacks of opportunity. The save DC is Dexterity-based.\n\nMismatched Weapons (Ex)\n\nA drunken rabble fights with an assortment of knives, clubs, fists, broken bottles, smashed furniture, torches, and similar weapons. Their troop attack deals less damage than a standard troop, but it deals bludgeoning, piercing, and slashing damage.\n\nFort Scurvy © 2018, Legendary Games; Author Jason Nelson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a66485aab3fa63dd.json",
+    "web": "https://codex.pipsprojects.com/#/e/a66485aab3fa63dd"
+  },
+  "license": "OGL 1.0a"
+}

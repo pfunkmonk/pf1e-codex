@@ -1,0 +1,24 @@
+{
+  "id": "97c2f4654bac3c41",
+  "name": "Entropic Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 9,
+      "wizard": 9
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School necromancy; Level cleric 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 30-ft. radius spread\nDuration concentration, up to 1 round/level, see text\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a gateway to the destructive void between the Plane of Shadows and the Plane of Negative Energy, exposing those within to entropic oblivion.\n\nCreatures in the area age a single age category (no save). The creature immediately takes the age penalties to Strength, Dexterity, and Constitution for its new age category, but does not gain the bonuses for that category. Each round the creature remains in the area, it ages yet another age category, going from middle age to old, and old to venerable. The penalties from aging are cumulative, just as with normal aging. A creature that ages to venerable age (or is already venerable) that is exposed to the entropic storm must make a Fortitude save or age so far that it simply stops existing, slaying it and reducing its entire being to dust. This is a death effect. It must make this save each round it is exposed to the storm. A creature reduced to dust in this manner can only be revived via miracle, wish, or true resurrection. After leaving the area of the entropic storm, a living creature goes back down age categories at a rate of one age category per hour until it is restored to its original age.\n\nUnattended objects, constructs, or undead creatures in the area age and decay rapidly, taking 5d6 points of damage + 1 point per caster level (maximum +20) each round they remain in the area (no save). A magic item destroyed loses its magical functions as normal and falls into a state of significant disrepair, but is otherwise intact and can be repaired by a make whole spell. Mundane objects that lose all of their hit points are reduced to dust and cannot be restored.\n\nA creature whose age is unknown starts by aging to middle age, from which it can continue to age if continuously exposed to the entropic storm. Ageless or immortal creatures are immune to this spell. Nightshades, being made of pure entropy, are also immune to this spell’s effects. This spell cannot destroy artifacts, though it can damage them.\n\nAs part of concentrating on the spell, you can move the area of the entropic storm 10 feet in any direction.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/97c2f4654bac3c41.json",
+    "web": "https://codex.pipsprojects.com/#/e/97c2f4654bac3c41"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "8def1d4bcc57c51a",
+  "name": "Pulse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction [sonic]; Level 1\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration instantaneous plus 1 or more rounds; see text\nSaving Throw Fortitude partial or none, see text; Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou create a focused pulse of sonic energy to harm an object or creature. You must make a ranged touch attack to hit. A creature or object struck by pulse takes 1d6 sonic damage, plus an additional 1d6 for every two caster levels past 1st (max 5d6). A creature struck must make also make a Fortitude save or be deafened for 1 round.\n\nOverload: For every runic charge overloaded into this script, the duration of the deafening effect increases by 1 round. If at least two charges are overloaded into the script, a creature that fails its saving throw is also dazed for 1 round.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8def1d4bcc57c51a.json",
+    "web": "https://codex.pipsprojects.com/#/e/8def1d4bcc57c51a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "efbeeba05eef96c5",
+  "name": "Cauterize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 0
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nWhen cast on a creature, the spell deals one point of fire damage but stops the bleed damage (negating the Bleed condition), and stabilizes the target (if it is dying). Creatures that are resistant or immune to fire cannot gain the benefits of this spell.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efbeeba05eef96c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/efbeeba05eef96c5"
+  },
+  "license": "OGL 1.0a"
+}

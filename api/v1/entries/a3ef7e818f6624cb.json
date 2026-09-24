@@ -1,0 +1,27 @@
+{
+  "id": "a3ef7e818f6624cb",
+  "name": "Pointer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [light]; Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 minute/level (D)\nSaving Throw none, or Will negates; see text; Spell Resistance no\n\nDESCRIPTION\n\nPointer causes you to emit a beam of light from the index finger of your dominant hand. This light can be any color in the visible spectrum chosen at time of casting. Unless the air has a high density of particles (such as smoke or fog) the light appears only as a dot against whatever solid surface at which you are pointing.\n\nIf a feline with an intelligence score of 1 or 2 sees the dot, it must make a Will save or have an overpowering urge to hunt the dot. It will do so as if it were stalking any other creature, and may chase it rapidly or lie in wait at its own discretion. If chasing the dot poses an obvious danger, or if the feline is threatened by other dangers, the saving throw automatically succeeds. Likewise, if the feline encounters a danger while chasing the light, the effect ends.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3ef7e818f6624cb.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3ef7e818f6624cb"
+  },
+  "license": "OGL 1.0a"
+}

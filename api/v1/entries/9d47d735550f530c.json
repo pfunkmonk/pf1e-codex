@@ -1,0 +1,19 @@
+{
+  "id": "9d47d735550f530c",
+  "name": "Cleansing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation (healing); Level 4\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou cleanse multiple creatures of an affliction. Each creature is cured of 1d4 points of ability damage dealt to one of its ability scores (all targets must have the same ability score healed). You also immediately cure one of the following conditions: bleeding, confused, dazzled, fatigued, or sickened. This script cannot restore permanent ability drain.\n\nOverload: If you overload at least one runic charge, add blinded and deafened to the list of choices. If you overload at least two runic charges, you also add exhaustion and nausea to the list. For every runic charge over two that you overload into this script, you cleanse all targets of an additional condition.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9d47d735550f530c.json",
+    "web": "https://codex.pipsprojects.com/#/e/9d47d735550f530c"
+  },
+  "license": "OGL 1.0a"
+}

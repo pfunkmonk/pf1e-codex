@@ -1,0 +1,26 @@
+{
+  "id": "52eb49f696f133c6",
+  "name": "Umbral Assistant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 1
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of average invisible ink worth 10 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadowy, humanoid assistant\nDuration 1 hour/level (D)\nSaving Throw Fortitude negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nAs you finish the spell, you open the bottle of invisible ink, a fine mist coming from its opening as the ink is consumed and evaporated. Darkness coalesces about a nearby space and takes on a solid form of roughly human shape, ready to serve you unquestioningly.\n\nUmbral assistant is but one of many spells created by nightblades to better utilize the powers of their shadow magic. The umbral assistant appears as a medium-sized humanoid composed entirely out of shadows (though it is still corporeal and takes up a space); its appearance is up to you, though it cannot be made to look like a specific person and always has a shadowy form, so it is never mistaken for an actual creature. The umbral assistant functions as an unseen servant spell, and can accomplish any task that an unseen servant can. It has AC 15, 15 hit points, a Strength score of 6 (meaning it can lift up to 60 pounds and drag up to 300 pounds), and a speed of 30 feet. It uses your saving throws for its own. If reduced to 0 hit points, the spell ends. Unlike unseen servant, it is visible when in bright or normal light. It gains a +10 bonus on Stealth checks to remain unseen when in dim light; in darkness or supernatural darkness, it is effectively invisible.\n\nOnce during the spell’s duration, you can command the assistant to charge at a creature within 30 feet of itself (a standard action for you) and attempt to cloy it with shadows. The umbral assistant disperses the darkness creating its being over the target’s body; the target must make a Fortitude save or be blinded for 1d4 rounds. If you target a creature that has spell resistance, you must overcome the target’s spell resistance in order to blind it; failure to do so ends the spell. Whether or not the save was successful, this spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/52eb49f696f133c6.json",
+    "web": "https://codex.pipsprojects.com/#/e/52eb49f696f133c6"
+  },
+  "license": "OGL 1.0a"
+}

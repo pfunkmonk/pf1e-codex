@@ -1,0 +1,26 @@
+{
+  "id": "a4c032c2c8e36647",
+  "name": "Scout’s Hike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "druid": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 2, druid 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (dirt from a fresh trail)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nThe target creature gains a +2 enhancement bonus to Dexterity, a +4 competence bonus to Stealth checks and increases its base land speed by +10 feet. It has no effect on other modes of movement, such as burrow, climb, fly, or swim.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a4c032c2c8e36647.json",
+    "web": "https://codex.pipsprojects.com/#/e/a4c032c2c8e36647"
+  },
+  "license": "OGL 1.0a"
+}

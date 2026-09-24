@@ -1,0 +1,19 @@
+{
+  "id": "e38f7ad4f009a36a",
+  "name": "Destroy Conviction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (conviction) [see text]; Level 5\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius spread\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou unleash a wave of cosmic force, harming those that disrupt the balance of the world. When you cast destroy conviction, choose either chaos, evil, good, or law. Creatures of that alignment in the area take 1d8 damage per two caster levels (max 5d8), whereas outsiders of that alignment take 1d8 damage per caster level (max 10d8). Creatures that are of the opposite alignment than the one you chose take no damage; creatures that are neither one nor the other take half damage (for example, if you choose chaotic, you deal no damage to lawful creatures, and only half damage to creatures that are neither lawful nor chaotic). A Will save halves the damage taken.\n\nWhen you choose an alignment, this script becomes a script of the opposite alignment (for example, if you choose evil, this script gains the good descriptor).\n\nOverload: For every runic charge overloaded into this script, the radius increases by 5 feet. In addition, you can choose to apply a single negative effect to creatures that fail their saving throw, based on the charges used:\n\nAlteration: Sickened for 1d4 rounds.\nDestruction: Fatigued. This has no effect on a creature already fatigued.\nManipulation: Staggered for 1d4 rounds.\n\nRevelation: Dazed for 1 round.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e38f7ad4f009a36a.json",
+    "web": "https://codex.pipsprojects.com/#/e/e38f7ad4f009a36a"
+  },
+  "license": "OGL 1.0a"
+}

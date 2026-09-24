@@ -1,0 +1,27 @@
+{
+  "id": "13abf181caed3450",
+  "name": "Indecision",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nAn affected creature becomes unable to make a decision. Each round, the target must make a Will save or be dazed. Success means he may take his action normally. On the round following a failed save, the target makes a new initiative check with a -4 circumstance penalty to determine when it may act.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/13abf181caed3450.json",
+    "web": "https://codex.pipsprojects.com/#/e/13abf181caed3450"
+  },
+  "license": "OGL 1.0a"
+}

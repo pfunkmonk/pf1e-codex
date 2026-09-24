@@ -1,0 +1,30 @@
+{
+  "id": "e1b824e66d31400f",
+  "name": "Lost",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, cleric/oracle 3, druid 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S,\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 min./level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe affected creatures believe themselves to be completely lost, and wander randomly as long as the spell is in effect. Creatures that fail their Will saves no longer recognize their surroundings, although they feel a vague, nagging sense of uneasiness as the lost memory flutters just beyond reach.\n\nEach affected creature moves at half speed in a random direction each round (use the rules for missing with a splash weapon to determine the exact direction), and do not remember previous changes in direction. They recognize enemies but if they attempt to move toward them, the direction they move is still random. They defend themselves from attacks, but if they chose to move away they move in a random direction, until the spell ends. Shaking or otherwise attempting to disturb affected creatures has little effect, and they will continue to try puzzling their way out of their predicament.\n\nCreatures affected by lost can attempt a new Will save each minute to try to resist the spell’s effects. On a successful save, the creature suffers from the dazzled condition for 1 round as it suddenly becomes aware of its surroundings once more.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1b824e66d31400f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1b824e66d31400f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ea30c1979a9c4250",
+  "name": "Weather Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 3,
+      "elementer": 3,
+      "invoker": 2,
+      "ranger": 2,
+      "shaman": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration; Level druid 3, elementer 3, invoker 2, ranger 2, shaman 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature, or one object up to 20 lbs./level\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nA magical barrier surrounds the target, protecting it from harsh conditions. While normally invisible, it faintly outlines the target when the weather worsens.\n\nA target affected by weather shield is shielded from several types of common and hazardous weather. This imparts a number of benefits, as follows:\n\nThe target becomes waterproofed: they are protected from any liquids and dry off instantly, and their melee attacks are not penalized for being underwater.\nThe target is unaffected by strong or severe winds (up to 50 mph). This prevents them from being checked or blown away by the wind, but does not allow them to make ranged attacks without penalty (unless the ammunition itself has been targeted by weather shield or a similar effect). For every four caster levels above 5th, the creature is unaffected by even stronger levels of wind, as follows: windstorms (50-74 mph) at 9th level, hurricanes (75-174 mph) at 13th level, and tornadoes (175+ mph) at 17th level.\nThe target is protected from extreme temperatures, as endure elements.\nThe target does not take damage from naturally-occurring lightning or hail. Tiny or smaller debris blown about by wind avoids the creature: anything larger is too big to be blocked by the shield.\n\nFor the purpose of targeting, 50 pieces of ammunition count as a single object. Ammunition affected by weather shield can fire accurately through water (be it heavy rain or standing water) and can shoot through windy conditions without penalty, so long as the wind category is one that the shield can withstand, as described above.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea30c1979a9c4250.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea30c1979a9c4250"
+  },
+  "license": "OGL 1.0a"
+}

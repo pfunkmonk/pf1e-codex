@@ -1,0 +1,27 @@
+{
+  "id": "e1944cdef236e90e",
+  "name": "Phantasmal Polymorph",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (phantasm) [mind-affecting]; Level nightblade 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration 1 minute/level; see text\nSaving Throw Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nWith an invocation of jumbled words, you make a creature feel as though it has taken on a different form, while in reality the creature has not changed. If the target fails its Will save, it believes that it has been polymorphed into a different creature or an object, as the spell polymorph any object. You choose what creature or object the target believes it has turned into when you cast the spell. The target believes this entirely, acting and reacting to stimuli as if it were the chosen creature. If it is turned into an object, the creature lies still and is considered helpless.\n\nThe creature perceives itself and events as if it were the creature, including any sounds or motions it makes or its own tactile qualities; for example, a human that believes it has been turned into a goblin will see its own reflection as a goblin and feel its own shape as if it were a goblin, even though to outside viewers the target has not changed physically in any way. It does not gain any extraordinary, spell-like, or supernatural abilities of the new form and cannot use its own special abilities unless it could reasonably believe it could do so (such as a natural weapon shared by both forms), though it retains any special qualities the creature originally had that required no action on its part to use, such as fast healing, damage reduction, or a protective aura.\n\nEach time an outside force causes something that is contradictory to the target’s belief in its new form, the target can make an additional saving throw to end the effect. This contradiction must be significant. For example, a huge creature may be made to believe it has been transformed into a small creature; this itself is not significant enough, but if the creature attempts to flee through a normal-sized doorway and finds that it cannot fit (due to its actual body still being huge) it gets an additional saving throw. A living creature that believes it has been turned into an object is always considered to be a significant enough contradiction to allow this saving throw. A creature cannot make additional saves more than once per round, regardless of the number of stimuli it experiences.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e1944cdef236e90e.json",
+    "web": "https://codex.pipsprojects.com/#/e/e1944cdef236e90e"
+  },
+  "license": "OGL 1.0a"
+}

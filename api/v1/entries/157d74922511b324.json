@@ -1,0 +1,29 @@
+{
+  "id": "157d74922511b324",
+  "name": "Shadow Wound",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 2,
+      "inquisitor": 3,
+      "magus": 3,
+      "nightblade": 3
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [darkness]; Level antipaladin 2, inquisitor 3, magus 3, nightblade 3\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange short (25 ft. + 5 ft./2 levels)\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou form a bond between the creature’s shadow and its physical being, causing injuries inflicted upon its shadow to harm the creature itself.\n\nWhen you cast the spell, the target receives a Will save to negate the effect. Otherwise, the creature’s shadow stretches in a line in a direction you specify out from the creature. The length of the shadow depends on the size of the creature affected, as shown on Table: Shadow Wound.\n\nTable: Shadow Wound\nCreature Size\n\tLength of Shadow\n\nTiny or Smaller\n\t10 ft.\n\nSmall or Medium\n\t15 ft.\n\nLarge\n\t20 ft.\n\nHuge\n\t30 ft.\n\nGargantuan\n\t40 ft.\n\nColossal\n\t60 ft.\n\nFor the duration of the spell, any attacks made against the creature’s shadow deal full damage to the creature itself. The shadow’s AC is equal to the creature’s touch AC. Damage reduction and energy resistance apply normally to the damage dealt. If a damaging area attack would include both the creature and its shadow in the area of effect, the damage is only applied once. Only damaging effects (including ability damage, penalties, drain, or nonlethal damage) can be dealt through the shadow; other effects that may accompany the damage do not apply. Precision damage and critical hit damage do not work through the shadow. If the targeted creature has a creature or object hidden in its shadow, such as a nightblade’s shadow bond class feature or from a shadow courier spell, that object or creature takes full damage from any attacks made against the target’s shadow.\n\nA creature cannot be targeted by this spell if it does not cast a shadow, such as by being a vampire or being under a curse of the lightless spell. Once the spell ends, the creature’s shadow returns to normal and it cannot be subjected to the effects of this spell for 24 hours (regardless of its source).\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/157d74922511b324.json",
+    "web": "https://codex.pipsprojects.com/#/e/157d74922511b324"
+  },
+  "license": "OGL 1.0a"
+}

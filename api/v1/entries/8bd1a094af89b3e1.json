@@ -1,0 +1,32 @@
+{
+  "id": "8bd1a094af89b3e1",
+  "name": "Dead Weight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 2,
+      "bloodrager": 2,
+      "inquisitor": 2,
+      "nightblade": 2,
+      "saboteur": 2,
+      "wizard": 2,
+      "vanguard": 2
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level antipaladin 2, bloodrager 2, inquisitor 2, nightblade 2, saboteur 2, sorcerer/wizard 2, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect one ball and chain\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nDead weight conjures a dense ball of metal in an unoccupied space within range, complete with a metallic chain of 10 feet in length stretching from it. The ball is 1 foot in diameter per three caster levels (max 5 feet) and is incredibly dense, weighing 200 pounds and doubling in weight for every foot in its diameter above 1 (400 pounds at 2 feet, 800 pounds at 3 feet, and so on). Upon conjuring the dead weight, you can have the chain reach out and shackle itself to a nearby creature or object. A Reflex save prevents this effect. The dead weight can attempt to shackle a creature or object once each round on your turn (as you direct it) until it successfully grabs a creature. The chain is able to grab a creature of any size, the manacle and chain’s size scaling as necessary to shackle its target (though its length does not change).\n\nA creature that is chained to the dead weight cannot move more than 10 feet away from the weight. The weight itself is not immobile, and as such a sufficiently strong creature can drag, lift, or even throw the weight. The weight’s size and density makes it very difficult to destroy; it has hardness 20 and 400 hit points per foot of diameter, and can be broken with a DC 80 Strength check. The chain can also be broken and is made of similar material, having hardness 20 and 100 hit points and requiring a DC 60 Strength check to break. Even if the chain breaks, the weight remains for the entire duration of dead weight and can be used for other purposes. If the weight is destroyed, the spell ends.\n\nDead weight can be conjured in the air near a flying creature and shackle it; a creature that is flying and is caught by the dead weight falls immediately to the ground and takes falling damage as appropriate (assuming the weight is beyond the creature’s carrying capacity for flying). It cannot, however, shackle an incorporeal creature or a swarm.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8bd1a094af89b3e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/8bd1a094af89b3e1"
+  },
+  "license": "OGL 1.0a"
+}

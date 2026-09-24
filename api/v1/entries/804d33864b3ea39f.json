@@ -1,0 +1,28 @@
+{
+  "id": "804d33864b3ea39f",
+  "name": "Autocannibalism",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting",
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting, evil]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pair of humanoid incisors)\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe subject of this spell is overcome with a need to gnaw its own flesh, eating anything that it chews off. It deals damage to itself equal to its bite damage, including any modifiers that apply, or 1 point of damage +½ its Strength modifier if the subject does not have a natural bite attack. The subject can take no actions other than bite itself, but is not considered helpless. After the spell ends, it can act normally. On each of the creature’s turns it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity. If this save is successful, the effect ends, but the subject is left sickened for 1d4 rounds.\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/804d33864b3ea39f.json",
+    "web": "https://codex.pipsprojects.com/#/e/804d33864b3ea39f"
+  },
+  "license": "OGL 1.0a"
+}

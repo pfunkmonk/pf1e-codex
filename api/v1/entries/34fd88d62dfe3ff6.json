@@ -1,0 +1,25 @@
+{
+  "id": "34fd88d62dfe3ff6",
+  "name": "Siphoning Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 6,
+      "oracle": 6,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School necromancy; Level bard 6, cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget touched willing creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYour touch borrows magic from an ally. Upon casting this spell, when you touch your target, choose a spell of 5th level or lower with a range of touch you believe they know and can cast. If the target does know and can cast that spell (other than through the use of a magic item), you immediately gain the benefit of that spell as though they had cast it and targeted you, including any class features, feats, etc., the target has that modify the spell. This includes metamagic feats only if the spell was memorized with the metamagic feat applied (in the case of casters that memorize spells) and the spell is still 5th level or lower after the metamagic feat has been applied. Your target loses the spell as though she had cast it. If you siphon a cure spell from a class that can spontaneously convert memorized spells, like a cleric/oracle, she chooses which memorized spell to lose. If the target does not know or cannot cast the spell you choose, siphoning touch has no effect.\n\nSiphoning Touch, Greater\n\nSchool necromancy; Level cleric/oracle 9, sorcerer/wizard 9\n\nDESCRIPTION\n\nAs siphoning touch, except you can choose a spell of 8th level or lower.\n\nSiphoning Touch, Lesser\n\nSchool necromancy; Level bard 4, cleric/oracle 3, sorcerer/ wizard 3\n\nDESCRIPTION\n\nAs siphoning touch, except you can choose a spell of 2nd level or lower.\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34fd88d62dfe3ff6.json",
+    "web": "https://codex.pipsprojects.com/#/e/34fd88d62dfe3ff6"
+  },
+  "license": "OGL 1.0a"
+}

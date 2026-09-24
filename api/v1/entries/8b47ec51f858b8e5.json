@@ -1,0 +1,19 @@
+{
+  "id": "8b47ec51f858b8e5",
+  "name": "Decaying Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction; Level 3\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one or more rays\nDuration instantaneous\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou blast your enemies with a necrotic ray of negative energy. You may fire one ray, plus one additional ray for every three levels beyond 5th (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of negative energy damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.\n\nOverload: For every runic charge overloaded into this script, targets struck are sickened for 1 round (Fortitude negates). In addition, for every two runic charges used, you create an additional ray. You cannot fire more than three rays at an individual creature.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8b47ec51f858b8e5.json",
+    "web": "https://codex.pipsprojects.com/#/e/8b47ec51f858b8e5"
+  },
+  "license": "OGL 1.0a"
+}

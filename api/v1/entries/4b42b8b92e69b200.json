@@ -1,0 +1,19 @@
+{
+  "id": "4b42b8b92e69b200",
+  "name": "Cripple",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design alteration; Level 4\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level (D); see text\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou significantly hinder a creature’s physical capability. Choose one of the following:\n\n-6 penalty to either Strength, Dexterity, or Constitution (minimum 1).\n-4 penalty on attack rolls, saves, ability checks, and skill checks.\nEach turn, the target has a 50% change to act normally, otherwise, it takes no action.\n\nOverload: When you overload this script, you gain different ways to hinder your target, based on the runic charges used:\n\nAlteration: Damage Reduction (if any) is lowered by 10\nCreation: Natural healing from rest is halved, and any healing applied to the target heals only half its normal hit points.\nDestruction: Once per round when it takes damage, it also takes an additional 1d6 damage of the same type.\nInvocation: All energy resistances are lowered by 10.\nManipulation: Reduce all forms of movement by half.\nRevelation: -6 penalty to either Intelligence, Wisdom, or Charisma (minimum 1).\n\nYou may still only apply one effect to the target. In addition, for each runic charge used (of any type) the effect lasts for a longer time. One charge increases the duration to 10 minutes per level, two charges to 1 hour per level, three charges to 1 day per level, and four charges to permanent. A permanent cripple can only be removed by break enchantment, disenchant, limited wish, miracle, and wish.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b42b8b92e69b200.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b42b8b92e69b200"
+  },
+  "license": "OGL 1.0a"
+}

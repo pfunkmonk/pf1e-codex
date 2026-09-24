@@ -1,0 +1,19 @@
+{
+  "id": "873813b95de65887",
+  "name": "Temporal Distortion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "None",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (time); Level 9\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange 30 ft.\nArea 30-ft.-radius emanation, centered on you\nDuration 1 round\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nGathering power, you bring your hands together over your head and unleash a shockwave of temporal energy, freezing everything around you for a brief moment.\n\nUpon casting temoporal distortion, everything within 30 feet of you (objects, creatures, environment, etc.) stops for 1 round. Creatures halt, arrows stop mid-flight, and sounds cease. A creature or object that enters the area after the initial casting is not affected.\n\nWhile the temporal distortion is in effect, everything that was within the area of the distortion when you cast it is invulnerable to everything; no one can target such creatures or objects with any attack or spell, nor can they be moved or harmed while the distortion lasts.\n\nSpells and effects that last longer than 1 round can be placed in the area, which will affect creatures and objects as normal once time starts flowing again.\n\nYou are immune to the effects of your own temporal distortion unless you allow it to affect you. Despite this, so long as this script is in effect, you cannot gain nor use runic charges from any source, the temporal distortion interfering with the rune’s magic.\n\nOverload: For every runic charge overloaded into this script, the duration increases by 1 round, and the radius increases by 5 feet. If you overload at least four manipulation charges, you can designate one other creature to also be immune to temporal distortion.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/873813b95de65887.json",
+    "web": "https://codex.pipsprojects.com/#/e/873813b95de65887"
+  },
+  "license": "OGL 1.0a"
+}

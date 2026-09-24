@@ -1,0 +1,27 @@
+{
+  "id": "6650395b1b04dc16",
+  "name": "Deepsight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 3, cleric/oracle 3, druid 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (small fragment of obsidian)\n\nEFFECT\n\nRange touch\nTarget one creature touched\nDuration 10 min./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nDeepsight extends a subject’s darkvision (whether natural or from the darkvision spell), by an additional 60 feet.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6650395b1b04dc16.json",
+    "web": "https://codex.pipsprojects.com/#/e/6650395b1b04dc16"
+  },
+  "license": "OGL 1.0a"
+}

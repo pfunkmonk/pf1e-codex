@@ -1,0 +1,28 @@
+{
+  "id": "728ac26b914c5e3b",
+  "name": "Shadow Gate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 5,
+      "nighblade": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level bard 5, nighblade 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 full-round action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\nArea 60-ft. cone\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYour shadow grows to an immense size, stretching into a 60 foot cone shape along a surface. The shadow can go in any direction you choose (not just the way it normally falls due to lighting), and can go along any surface (including walls) so long as the total distance measured across all surfaces does not exceed 60 feet.\n\nThe area within your shadow acts as a temporary blending between the Material Plane and the Plane of Shadow, distorting the location and distances between creatures. You can affect one creature per two caster levels that are in the spell area, including yourself (maximum 10). The creatures must be on the surface the shadow is cast on or within 10 feet above the surface. Each creature affected must make a Will save or be teleported to another location within the spell’s area that you designate. You can make each creature affected go to a different location, including a space that another creature was teleported from with this spell. The teleportation cannot end in a space that is by nature hazardous to the creature you are teleporting, such as teleporting a creature that cannot fly to a space 20 feet up a wall.\n\nA creature cannot cast this spell if it does not cast a shadow, such as by being a vampire or being under a curse of the lightless spell.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/728ac26b914c5e3b.json",
+    "web": "https://codex.pipsprojects.com/#/e/728ac26b914c5e3b"
+  },
+  "license": "OGL 1.0a"
+}

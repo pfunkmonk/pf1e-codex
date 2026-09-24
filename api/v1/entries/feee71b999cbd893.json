@@ -1,0 +1,29 @@
+{
+  "id": "feee71b999cbd893",
+  "name": "Updraft",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 5,
+      "druid": 4,
+      "ranger": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School conjuration [air]; Level cleric/oracle 5, druid 4, ranger 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a powerful air current that thrusts a creature skyward. You launch your target into the air 10 feet per caster level (maximum 100 feet). Unless they have some way of slowing their descent (the ability to fly, a feather fall spell, etc), they fall back down on the beginning of their turn using the standard rules for falling. If they hit something on the way up, such as a ceiling, the effect ends. Your target suffers damage upon impact as though he had fallen the distance travelled. Your target then immediately begins falling back down, and will take damage again upon impact with the ground.\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/feee71b999cbd893.json",
+    "web": "https://codex.pipsprojects.com/#/e/feee71b999cbd893"
+  },
+  "license": "OGL 1.0a"
+}

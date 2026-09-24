@@ -1,0 +1,19 @@
+{
+  "id": "c7a329a4a65c296d",
+  "name": "Rejuvenation",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation (healing); Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude half (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nRejuvenation creates a massive amount of vital energy to heal and restore creatures. The target is cured of 10 hit points of damage per level of the caster, to a maximum of 200 points at 20th level. In addition, It immediately ends any and all of the following adverse conditions affecting the target: blinded, confused, dazed, dazzled, deafened, diseases, exhausted, fatigued, nauseated, poisons, sickened, and stunned.\n\nRejuvenation does not remove negative levels or restore permanently drained ability score points. This script has no effect on constructs or undead.\n\nOverload: If you overload at least one runic charge into this script, it also heals ability damage (but not drain). If you overload at least three runic charges into this script, it also cures feeblemind and insanity effects. For every two runic charges overloaded into this script, you can target an additional creature. No two targets can be further than 30 feet apart.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7a329a4a65c296d.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7a329a4a65c296d"
+  },
+  "license": "OGL 1.0a"
+}

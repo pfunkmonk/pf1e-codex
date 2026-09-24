@@ -1,0 +1,24 @@
+{
+  "id": "9a04d19f4a024271",
+  "name": "Pause",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion); Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell slows down the target’s reaction time. His initiative suffers a -4 circumstance penalty (to a minimum initiative of 0). If he acted already this round, this spell does not allow an additional action, so his new initiative does not come into play until the following round.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9a04d19f4a024271.json",
+    "web": "https://codex.pipsprojects.com/#/e/9a04d19f4a024271"
+  },
+  "license": "OGL 1.0a"
+}

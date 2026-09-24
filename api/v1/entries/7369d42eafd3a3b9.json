@@ -1,0 +1,23 @@
+{
+  "id": "7369d42eafd3a3b9",
+  "name": "Champion of the Tome",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Bastion Press"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one touched book\nDuration until discharged (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhenever any creature other than you approaches within 10 feet of the protected spellbook, a magical warrior instantly materializes in a space adjacent to the spellbook and between it and the intruder. If that space is otherwise occupied, it appears in the next closest space.\n\nDressed in a shimmering suit of plate mail and armed with a greataxe, the warrior otherwise appears as your exact duplicate. Its attack bonus, saving throws and the number of attacks it receives are identical to those of a fighter of the same level as you. A successful hit inflicts 1d12+7 points of damage, and its greataxe is considered a +3 weapon for purposes of overcoming damage reduction (it counts as a cold iron or silver weapon). The warrior’s armor class is 18 + your Int modifier, and it possesses the same number of hit points as you at the time that the spell was cast. It functions as a construct for all other purposes. Furthermore, it cannot be dispelled, however it must remain within 70 ft. of the book, otherwise it dissipates. Once triggered, the warrior remains for 1/round per caster level or until slain, whichever happens first.\n\nInk & Quill. Copyright 2002, Bastion Press, Inc. Author: Thomas Knauss.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7369d42eafd3a3b9.json",
+    "web": "https://codex.pipsprojects.com/#/e/7369d42eafd3a3b9"
+  },
+  "license": "OGL 1.0a"
+}

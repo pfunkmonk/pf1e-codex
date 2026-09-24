@@ -1,0 +1,28 @@
+{
+  "id": "0abdb7baa7854264",
+  "name": "Shooting Star",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [fire]; Level cleric/oracle 2, druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (1,000 gp of meteoritic iron)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA fiery, stony mass falls from thin air tracing a red-hot streak onto a designated target. You make a ranged attack (not a touch attack) to strike the target. The star deals 1d6 points of bludgeoning damage and 1d6 points of fire damage per two caster levels (maximum total of 5d6 + 5d6 at 10th level).\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0abdb7baa7854264.json",
+    "web": "https://codex.pipsprojects.com/#/e/0abdb7baa7854264"
+  },
+  "license": "OGL 1.0a"
+}

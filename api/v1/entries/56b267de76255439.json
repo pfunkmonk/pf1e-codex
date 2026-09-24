@@ -1,0 +1,28 @@
+{
+  "id": "56b267de76255439",
+  "name": "Shadow Terrain",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 6,
+      "nightblade": 6,
+      "wizard": 7
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level bard 6, nightblade 6, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nArea one 20-ft. cube/level (S)\nDuration concentration + 1 hour/level (D)\nSaving Throw Will disbelief (if interacted with); Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as mirage arcana, but the illusory structures you make are quasi-real. Any structures you create are made out of shadowstuff; this functions similarly to a shadow structure spell, though you can make any structure shape you desire. Created structures have 10 hardness and 20 hit points for every 5-ft.-cube of the structure. A creature that disbelieves the spell is unimpeded by any structures you make with the shadow terrain, though it can choose to use the structures if it desires, such as walking up a flight of stairs or across a bridge (as when disbelieving a shadow structure spell). A creature that disbelieves the spell also ignores the hardness of any structures you created and deals full damage with energy attacks (instead of the normal half damage objects take).\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/56b267de76255439.json",
+    "web": "https://codex.pipsprojects.com/#/e/56b267de76255439"
+  },
+  "license": "OGL 1.0a"
+}

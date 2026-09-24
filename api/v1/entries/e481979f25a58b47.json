@@ -1,0 +1,29 @@
+{
+  "id": "e481979f25a58b47",
+  "name": "Undetectable Poison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "druid": 2,
+      "ranger": 1,
+      "wizard": 2
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (glamer) [evil]; Level bard 2, druid 2, ranger 1, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one dose of poison/level, no two of which can be more than 30 ft. apart\nDuration 1 day/level\nSaving Throw Will negates (harmless) (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell allows you to mask the presence of poisons. Detect poison and similar effects utterly fail to detect the poison. Detect magic does reveal the aura of an illusion spell. Creatures carrying poisons and unattended magic poisons may make saving throws to prevent the poison from being made undetectable.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e481979f25a58b47.json",
+    "web": "https://codex.pipsprojects.com/#/e/e481979f25a58b47"
+  },
+  "license": "OGL 1.0a"
+}

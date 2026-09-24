@@ -1,0 +1,30 @@
+{
+  "id": "47c21a234afed78e",
+  "name": "Animal Mind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 4,
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, cleric/oracle 4, druid 3, ranger 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature with Intelligence 2 or greater\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nChoose an animal type when you cast this spell. The subject believes it is an animal of that type. If the subject does not know how such an animal would act, it acts in a manner that it believes an animal should act. While affected by this spell, spells and abilities that target animals will also affect the subject. Any attempt to interact with the subject requires a Handle Animal check (DC 10+ your caster level).\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/47c21a234afed78e.json",
+    "web": "https://codex.pipsprojects.com/#/e/47c21a234afed78e"
+  },
+  "license": "OGL 1.0a"
+}

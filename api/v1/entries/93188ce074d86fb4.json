@@ -1,0 +1,26 @@
+{
+  "id": "93188ce074d86fb4",
+  "name": "Alter Weight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "magus": 2,
+      "wizard": 2,
+      "vanguard": 2
+    },
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bard 2, magus 2, sorcerer/ wizard 2, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a bronze weight used for a measuring scale)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one object of up to 2 cu. ft./level\nDuration 1 min./level (D)\nSaving Throw Fortitude negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou change the weight of a single object, making it lighter or heavier. This has a few effects, depending on which option is chosen.\n\nIf you lighten the object, its weight is decreased by half. It deals only half as much damage for falling on a creature, and takes half as much falling damage itself. If cast on a weapon, it deals damage as if one size category smaller. If cast on armor, its armor check penalty is reduced by 1 and its maximum Dexterity bonus increases by +1.\n\nIf you make the object heavier, its weight doubles. It deals twice as much damage for falling on a creature, and takes twice as much falling damage itself. If cast on a weapon, it deals damage as if one size category larger. If cast on armor, its armor check penalty is increased by 1 and its maximum Dexterity bonus is reduced by -1.\n\nAlter weight has no affect on the proficiency required to use armor effectively, nor does it change its arcane failure chance. Multiple castings of alter weight do not stack on a given object; casting it a second time on an object ends the previous effect (assuming the object fails its save).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/93188ce074d86fb4.json",
+    "web": "https://codex.pipsprojects.com/#/e/93188ce074d86fb4"
+  },
+  "license": "OGL 1.0a"
+}

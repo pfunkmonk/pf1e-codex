@@ -1,0 +1,27 @@
+{
+  "id": "cb74aca768905467",
+  "name": "White Noise",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "none",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [sonic]; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 10 min./level\nSaving Throw none; Spell Resistance none\n\nDESCRIPTION\n\nThis spell causes the target object to emit loud, unspecific sound bursts and white light that makes hearing and seeing difficult. All Perception checks within 60 feet of the target object suffer a –5 penalty. A foot of stone or three inches of iron blocks the sound created by this spell. White noise also negates blindsight and blindsense abilities based on hearing. Creatures relying entirely on hearing for perception are effectively blinded. You do not see or hear anything out of the ordinary beyond 60 feet.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb74aca768905467.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb74aca768905467"
+  },
+  "license": "OGL 1.0a"
+}

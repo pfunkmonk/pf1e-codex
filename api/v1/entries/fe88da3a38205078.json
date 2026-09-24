@@ -1,0 +1,25 @@
+{
+  "id": "fe88da3a38205078",
+  "name": "Dead Man’s Ink",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "universal",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School universal; Level bard 1, cleric 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget 1 dead creature and one target creature\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen you cast this spell, you can remove an enchanted tattoo from a slain target and place it upon the skin of a willing subject, including, if you choose, yourself. You cannot use this spell to place an enchanted tattoo which requires an open magic item slot upon a creature which already has that slot occupied by an enchanted tattoo.\n\nThe Way of the Yakuza Copyright 2011, Steven D. Russell and Michael Tumey, all rights reserved; Author Jonathan McAnulty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe88da3a38205078.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe88da3a38205078"
+  },
+  "license": "OGL 1.0a"
+}

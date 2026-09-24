@@ -1,0 +1,27 @@
+{
+  "id": "f5de33d128eaaa62",
+  "name": "Infuse Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation [see text]; Level cleric/oracle 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 1 round/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nChoose an energy type when you cast the spell (acid, cold, electricity, fire, and sonic); the spell gains this energy descriptor. Infuse weapon gives the touched weapon a +1 bonus of the chosen energy type on damage rolls.\n\nYou can’t cast this spell on a natural weapon, such as an unarmed strike (though a monk’s unarmed strike is considered a weapon, and thus it can be enhanced by this spell).\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f5de33d128eaaa62.json",
+    "web": "https://codex.pipsprojects.com/#/e/f5de33d128eaaa62"
+  },
+  "license": "OGL 1.0a"
+}

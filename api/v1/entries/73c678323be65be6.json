@@ -1,0 +1,27 @@
+{
+  "id": "73c678323be65be6",
+  "name": "Animate Skeleton",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (you must prepare a salve worth at least 10 gp per HD of the skeleton and rub it on each corpse you intend to animate)\n\nEFFECT\n\nRange touch\nTarget s one or more corpses touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell turns the bones of dead creatures into undead skeletons that follow your spoken commands. For each caster level you possess, you can animate one skeleton that has a CR of 1 or less.\n\nThe skeletons can follow you, or they can remain in an area and attack any creature (or just a specific kind of creature) entering the place. They remain animated until they are destroyed. A destroyed skeleton can’t be animated again.\n\nThe skeletons you create remain under your control indefinitely. No matter how many times you use this spell, however, you can control only a number of skeletons equal to your caster level at one time. If you exceed this number, all the newly created creatures fall under your control, and any excess skeletons from previous castings become uncontrolled. You choose which creatures are released. If you are a cleric, any undead you might command by virtue of your power to command or rebuke undead do not count toward the limit. A skeleton can be created only from a mostly intact corpse or skeleton. The corpse must have bones. If a skeleton is made from a corpse, the flesh falls off the bones.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/73c678323be65be6.json",
+    "web": "https://codex.pipsprojects.com/#/e/73c678323be65be6"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fb3700ccaaaf6ed2",
+  "name": "Shadow Courier",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "nightblade": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level bard 3, nightblade 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a small, empty box lined with black cloth or velvet)\n\nEFFECT\n\nRange touch\nTarget one touched object of up to 2 cu. ft./level, plus one wiling creature\nDuration 1 day/level (D)\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell was originally created by clever smugglers to better conceal their illegal wares, stashing the objects within their own shadows. Upon casting the spell, you touch both the object to be stored and a willing recipient of the spell. Spell resistance applies to the object (if it has it) and the object gets a saving throw if it is attended by an unwilling owner or is magical. If successful, the object is transformed into shadowstuff which melds with the shadow of the recipient of the spell, storing the object within a pocket of the Plane of Shadow. As the object has been placed into a pocket dimension within the Plane of Shadow, it does not radiate any magical aura (if it has one) while it is melded into the recipient’s shadow, nor can magical means of locating the object find it unless the spell can function across dimensions. The target’s shadow does not look any different than normal, although detect magic still detects the spell.\n\nAt any point during the spell’s duration, either the caster of the spell or the recipient can dismiss the effect (a standard action), at which point the object returns to the plane the recipient is currently on in an adjacent square. If the effect is dispelled or the duration ends, the item appears adjacent to the recipient (similar to if the spell was dismissed). A creature can only be targeted by one shadow courier spell at a time. Should another shadow courier spell be cast on the target, the previous spell’s duration immediately ends. This spell cannot affect artifacts or other sorts of similarly unique objects.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fb3700ccaaaf6ed2.json",
+    "web": "https://codex.pipsprojects.com/#/e/fb3700ccaaaf6ed2"
+  },
+  "license": "OGL 1.0a"
+}

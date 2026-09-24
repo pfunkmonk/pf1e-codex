@@ -1,0 +1,19 @@
+{
+  "id": "ccad190e6795925a",
+  "name": "Poison Thorns",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes, see text",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation (manifestation) [poison]; Level 5\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect plants in 10-ft.-radius spread\nDuration 10 min./level (D)\nSaving Throw Fortitude negates; Spell Resistance yes, see text\n\nDESCRIPTION\n\nWhen you cast poison thorns, a thick, tangled brier of poisonous plants emerges fills the area of the script. The entire area is treated as heavy undergrowth. It costs 4 squares of movement to move into and provides concealment with a 30% miss chance (instead of the usual 20%). It increases the DC of Acrobatics checks by 5. Heavy undergrowth is easy to hide in, granting a +5 circumstance bonus on Stealth checks. Running and charging are impossible through the poison thorns.\n\nAny creature in the area of the poison thorns is poisoned. The poison deals 1d3 Constitution each round for 6 rounds. Poisoned creatures can make a Fortitude save each round to negate the damage and end the affliction. A creature is poisoned only upon the first entry into the script’s area (and again 10 minutes later, should it enter again); creatures don’t have to save each time they enter or each round they remain within. You are immune to the poison of the poison thorns.\n\nOverload: For every runic charge overloaded into this script, you can increase the radius by 5 feet, and can designate an additional creature to be immune to the poison of the poison thorns. Creatures immune to the poison are still affected by the growth as normal.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ccad190e6795925a.json",
+    "web": "https://codex.pipsprojects.com/#/e/ccad190e6795925a"
+  },
+  "license": "OGL 1.0a"
+}

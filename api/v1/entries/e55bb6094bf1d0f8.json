@@ -1,0 +1,24 @@
+{
+  "id": "e55bb6094bf1d0f8",
+  "name": "Self-Loading Bolts",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "ranger": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation; Level ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one crossbow and up to 50 crossbow bolts\nDuration 1 hour/level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nThis spell causes the bolts targeted by the spell to automatically load themselves into the target crossbow. One new bolt loads itself as a free action whenever there is not one already in the crossbow. Only the target bolts will load themselves, and only into the target crossbow. If either the crossbow or the bolts are shut inside a closed container, they will lie dormant, not loading until the container is opened. They will also not load if the bolts and the crossbow are more than five feet away from each other.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e55bb6094bf1d0f8.json",
+    "web": "https://codex.pipsprojects.com/#/e/e55bb6094bf1d0f8"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ce8c93f8cb4db7a1",
+  "name": "Sword Shock",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [electricity]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature, plus one additional creature per 3 levels (maximum 7 creatures), no two of which may be more than 15 ft. apart\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nSword shock causes electricity to flow from items the target is holding to the target’s hands. This electricity deals 1d4 points of damage per caster level (maximum 5d4). The jolt also causes the creature to drop whatever it is holding, which falls to the ground in the target’s square. A successful Fortitude save reduces the damage by half and allows the target to keep her grip on the item. If the target has items in both hands, it risks losing both but does not suffer any greater damage. If the target is not holding any items (or has no hands) it still takes damage but of course cannot drop anything.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ce8c93f8cb4db7a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/ce8c93f8cb4db7a1"
+  },
+  "license": "OGL 1.0a"
+}

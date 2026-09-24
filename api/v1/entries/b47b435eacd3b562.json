@@ -1,0 +1,23 @@
+{
+  "id": "b47b435eacd3b562",
+  "name": "Arcane Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nYou summon your power to protect you from outside magic. You gain spell resistance 10 (or your existing spell resistance increases by +5) against any spells specifically targeting you. Spells that affect targets indirectly, such as a fireball (which strikes an area of effect), are not affected by this shield.\n\nArcane Shield, Greater\n\nSchool abjuration; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one shield\nDuration 1 round/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nAs arcane shield, but you place the spell upon a shield. The shield’s user gains spell resistance equal to 10 + your caster level or his existing spell resistance increases by +5, whichever is greater. The shield’s wielder also gains a +2 bonus on any saving throw against spells that target him for as long as this spell is active. If targeted by multiple spells in a round, this bonus only applies to the first spell that targets him.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b47b435eacd3b562.json",
+    "web": "https://codex.pipsprojects.com/#/e/b47b435eacd3b562"
+  },
+  "license": "OGL 1.0a"
+}

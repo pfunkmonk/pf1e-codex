@@ -5,7 +5,7 @@
  * Usage: node tools/d20/d20-repair.mjs [--apply] [--root C:/Users/mailp/dev/pf1e-codex] */
 import fs from "node:fs";
 import crypto from "node:crypto";
-import { commaListShare } from "./d20-clean.mjs";
+import { commaListShare, AD_MARK, isGodSummaryTable } from "./d20-clean.mjs";
 import { snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
@@ -64,6 +64,18 @@ for (const r of d20) {
   console.log(`  re-broke flattened stat block: ${r[1]} (${b.split("\n").length} -> ${nb.split("\n").length} lines)`);
   if (APPLY) { bodies[r[2]][r[0]] = nb; r[5] = snippetOf(nb); }
   rebroke++;
+}
+// Crawler-captured ad widget: cut it; a row that was NOTHING but the ad (or a god summary table) is dropped.
+let adStripped = 0;
+for (const r of d20) {
+  const b = String(bodies[r[2]][r[0]]), cutAt = b.lastIndexOf("\n\n"), head = b.slice(0, cutAt), tail = b.slice(cutAt + 2);
+  const adAt = head.split("\n").findIndex((l) => AD_MARK.test(l.trim()));
+  const nh = adAt >= 0 ? head.split("\n").slice(0, adAt).join("\n").trim() : head;
+  const godTable = isGodSummaryTable(nh);
+  if (adAt < 0 && !godTable) continue;
+  if (nh.length < 100 || godTable) { drop.set(r[0], `${r[1]}  <>  (${nh.length < 100 ? "nothing but a publisher ad" : "a god summary table; every god has its own page"})`); console.log(`  drop ${r[1]} [${r[2]}]: ${drop.get(r[0]).split("<>")[1].trim()}`); }
+  else { console.log(`  stripped ad block: ${r[1]} (${head.length - nh.length} chars)`); if (APPLY) bodies[r[2]][r[0]] = nh + "\n\n" + tail; }
+  adStripped++;
 }
 let cleaned = 0, dividers = 0;
 for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = tidyDividers(b); if (nb !== b) { console.log(`  tidied ~~~ dividers: ${r[1]}`); if (APPLY) bodies[r[2]][r[0]] = nb; dividers++; } }   // snippets are re-derived by the drift step below

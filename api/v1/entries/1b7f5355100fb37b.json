@@ -1,0 +1,27 @@
+{
+  "id": "1b7f5355100fb37b",
+  "name": "Force Bolt (force)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "Yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [force]; Level magus 2, sorcerer/wizard 2\n\nEFFECT\n\nDuration instantaneous\nSaving Throw none; Spell Resistance Yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word deals 1d4 points of force damage per caster level (maximum 5d4). This effect is treated like a magic missile for the purposes of spells that negate or absorb force effects.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1b7f5355100fb37b.json",
+    "web": "https://codex.pipsprojects.com/#/e/1b7f5355100fb37b"
+  },
+  "license": "OGL 1.0a"
+}

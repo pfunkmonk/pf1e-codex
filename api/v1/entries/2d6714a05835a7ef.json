@@ -1,0 +1,27 @@
+{
+  "id": "2d6714a05835a7ef",
+  "name": "Flashy Defenses",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration [force]; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (small bag of lint)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level\n\nDESCRIPTION\n\nFlashy defenses creates a barrier of matter or force around you, providing protection against random types of attacks. The force or matter manifested is appropriate to the damage being defended against. For instance, a sphere of mist might surround you to stop fire attacks, or small metal shields to stop melee attacks, or feathers to stop missile attacks. Roll on the table below each minute of the spell duration to determine the attack or energy type protected against. You gain damage reduction 1/adamantine or energy resistance 5 (depending on if the defense is for attacks or energy) against that attack type. This defense overlaps (and does not stack with) similar defenses from endure elements, resist elements, protection from elements, or stoneskin.\n\n1d10\tAttack Protected From\n1\tMelee attacks (DR)\n2\tMissile attacks (DR)\n3\tAll melee or missile attacks (DR)\n4\tCold (energy resistance)\n5\tAcid (energy resistance)\n6\tElectricity (energy resistance)\n7\tSonic (energy resistance)\n8\tFire (energy resistance)\n9\tAll energy types (energy resistance)\n10\t+4 cover bonus to AC and a +2 cover bonus to Reflex saves. Cover is granted by a mixture of substances.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d6714a05835a7ef.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d6714a05835a7ef"
+  },
+  "license": "OGL 1.0a"
+}

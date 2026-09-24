@@ -1,0 +1,24 @@
+{
+  "id": "01abb556f67eca3b",
+  "name": "Anointed",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 2,
+      "paladin": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 2, paladin 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou provide a +2 luck bonus to one type of save (Fortitude, Reflex or Will) for the target. This spell overlaps and does not stack with subsequent castings, but a second casting would grant the bonus to a different save type once the first spell’s duration ends. If you fail a saving throw where the bonus granted by this spell applies, you may choose to reroll the save by ending this spell as a free action. You must accept the result of the second roll.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/01abb556f67eca3b.json",
+    "web": "https://codex.pipsprojects.com/#/e/01abb556f67eca3b"
+  },
+  "license": "OGL 1.0a"
+}

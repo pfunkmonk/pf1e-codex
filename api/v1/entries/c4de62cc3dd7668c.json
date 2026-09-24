@@ -1,0 +1,29 @@
+{
+  "id": "c4de62cc3dd7668c",
+  "name": "Spore Surge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "shaman": 3
+    },
+    "desc": [
+      "acid",
+      "plant",
+      "poison"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [acid, plant, poison]; Level druid 3, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 15-ft.-radius burst\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance no\n\nA sudden cloud of spores bursts forth from a point you specify within range. Each creature in the area takes 1d8 acid damage per two caster levels (max 5d8) and is sickened for 1d4 rounds. A successful Reflex save halves the damage and negates the sickening effect. The sickening effect is considered a poison effect.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4de62cc3dd7668c.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4de62cc3dd7668c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -44,7 +44,7 @@ const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
  * (monsters). Two of the underlying regexes (`fire`, `cold`) turned out to have real false positives
  * at this scale — checked by hand, found and fixed (see data/themes.js) — but the corrected counts
  * are still legitimately this large; this is content growth, not remaining sloppiness. */
-const MAX_CLAIM = { feats: 200, items: 260, spells: 400, monsters: 220 };
+const MAX_CLAIM = { feats: 200, items: 300, spells: 450, monsters: 260 };
 const maxClaim = b => MAX_CLAIM[b] ?? 150;
 
 /* ART DEBT: a theme that has run out of image variants, waiting on an actual new picture to be drawn —
@@ -67,21 +67,23 @@ const maxClaim = b => MAX_CLAIM[b] ?? 150;
  * verified" — a good candidate for a follow-up pass with the same by-hand method before assuming
  * every one of them is 100% clean. */
 const ART_DEBT = {
-  "feats/ki-meditation": 73, "feats/metamagic": 162, "feats/spell-focus": 66, "feats/bloodline": 42,
-  "feats/judgment-teamwork": 74, "feats/arcane": 48, "feats/dragon-breath": 31, "feats/extra-resource": 79,
-  "spells/healing": 131, "spells/undead": 99, "spells/summoning": 200, "spells/teleport": 84,
-  "spells/divination": 86, "spells/illusion": 257, "spells/charm-mind": 389, "spells/fear": 83,
-  "spells/protection": 162, "spells/wall-barrier": 111, "spells/weapon-buff": 146, "spells/armor-buff": 47,
-  "spells/planar": 221, "spells/curse-affliction": 216, "spells/light-dark": 194, "spells/fire": 170,
-  "spells/cold": 87, "spells/lightning": 101, "spells/acid": 44, "spells/sonic": 76,
-  "spells/force": 109, "spells/earth-stone": 144, "spells/plant-nature": 44, "spells/animal": 59,
-  "spells/weather": 74, "spells/water": 95, "spells/symbol-rune": 63, "spells/mind-psychic": 143,
-  "spells/communication": 53, "spells/creation": 175, "spells/blood-flesh": 86, "spells/ritual-occult": 26,
-  "spells/ability-buff": 63, "spells/trap-alarm": 25, "monsters/animal-bigcat": 62, "monsters/animal-canine": 44,
-  "monsters/animal-bear": 30, "monsters/animal-bird": 52, "monsters/animal-aquatic": 69, "monsters/animal-insect": 125,
-  "monsters/animal-hoofed": 70, "monsters/animal-primate": 21, "monsters/animal-small": 47, "monsters/template-undead": 179,
-  "monsters/template-fiend": 211, "monsters/template-celestial": 27, "monsters/template-elemental": 103, "monsters/template-beast": 62,
-  "monsters/template-mutation": 134, "monsters/umr-affliction": 21,
+  "feats/ki-meditation": 79, "feats/metamagic": 183, "feats/spell-focus": 79, "feats/bloodline": 47,
+  "feats/channel-energy": 85, "feats/judgment-teamwork": 95, "feats/arcane": 60, "feats/knowledge": 135,
+  "feats/linguistics": 22, "feats/dragon-breath": 40, "feats/extra-resource": 96, "feats/faith-obedience": 106,
+  "items/ring-item": 273, "items/helm-crown": 82, "items/carpet-banner": 41, "spells/healing": 141,
+  "spells/undead": 108, "spells/summoning": 207, "spells/teleport": 95, "spells/divination": 89,
+  "spells/illusion": 281, "spells/charm-mind": 409, "spells/fear": 84, "spells/polymorph": 184,
+  "spells/protection": 174, "spells/wall-barrier": 115, "spells/weapon-buff": 156, "spells/armor-buff": 50,
+  "spells/planar": 229, "spells/curse-affliction": 231, "spells/light-dark": 220, "spells/fire": 179,
+  "spells/cold": 92, "spells/lightning": 108, "spells/acid": 49, "spells/sonic": 81,
+  "spells/force": 122, "spells/earth-stone": 149, "spells/plant-nature": 46, "spells/animal": 66,
+  "spells/weather": 77, "spells/water": 98, "spells/symbol-rune": 65, "spells/mind-psychic": 150,
+  "spells/communication": 57, "spells/creation": 195, "spells/blood-flesh": 88, "spells/ritual-occult": 27,
+  "spells/ability-buff": 64, "spells/trap-alarm": 25, "monsters/animal-bigcat": 63, "monsters/animal-canine": 48,
+  "monsters/animal-bear": 31, "monsters/animal-bird": 55, "monsters/animal-aquatic": 74, "monsters/animal-insect": 134,
+  "monsters/animal-hoofed": 78, "monsters/animal-primate": 22, "monsters/animal-small": 48, "monsters/template-undead": 214,
+  "monsters/template-fiend": 225, "monsters/template-celestial": 32, "monsters/template-elemental": 118, "monsters/template-beast": 71,
+  "monsters/template-mutation": 143, "monsters/umr-affliction": 27,
 };
 
 globalThis.window = {};

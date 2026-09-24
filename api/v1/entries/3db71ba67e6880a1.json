@@ -1,0 +1,24 @@
+{
+  "id": "3db71ba67e6880a1",
+  "name": "Fox’s Curse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent (D)\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou place a curse on the subject that imposes a -4 circumstance penalty to Intelligence; upon a successful save this penalty is reduced to -2. This results in the usual penalties to Intelligence-based skill checks and other uses of the Intelligence modifier. Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not lose any additional bonus spells for the reduced Intelligence, but the save DCs for spells they cast while under this spell’s effect do decrease. This spell doesn’t reduce any skill ranks.\n\nThe curse bestowed by this spell cannot be dispelled, but it can also be removed with a break enchantment, fox’s cunning, limited wish, miracle, remove curse, or wish spell.\n\nFox’s curse counters fox’s cunning.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3db71ba67e6880a1.json",
+    "web": "https://codex.pipsprojects.com/#/e/3db71ba67e6880a1"
+  },
+  "license": "OGL 1.0a"
+}

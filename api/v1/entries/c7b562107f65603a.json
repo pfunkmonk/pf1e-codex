@@ -1,0 +1,27 @@
+{
+  "id": "c7b562107f65603a",
+  "name": "Animate Zombie",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (you must bathe each corpse in a bath of special salts. The salts must be worth at least 10 gp per HD of the zombie)\n\nEFFECT\n\nRange touch\nTarget s one or more corpses touched\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like the animate skeleton spell, but animates the corpses as zombies rather than skeletons. A zombie can be created only from a mostly intact corpse. The corpse must be that of a creature with a true anatomy.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7b562107f65603a.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7b562107f65603a"
+  },
+  "license": "OGL 1.0a"
+}

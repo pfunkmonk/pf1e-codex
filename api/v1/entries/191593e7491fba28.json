@@ -1,0 +1,24 @@
+{
+  "id": "191593e7491fba28",
+  "name": "Acid Swamp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "wizard": 7
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level druid 7, sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small vial of acid)/DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea water in a volume of 10 ft./level by 10 ft./level by 2 ft./level (S)\nDuration concentration +1 round/level (see text)\nSaving Throw none (see text); Spell Resistance no\n\nDESCRIPTION\n\nThis spell transforms a normal body of water into a pool of thick bubbling acid, blackish and opaque, that smells of sulfur. Anyone splashed by the acid takes 1d6 points of acid damage per round; if totally immersed, the damage is 10d6 per round. If the acid reaches only to the waist, the damage is 5d6 per round. The murk is too thick to see through, and the fumes given off inflict 1 point of Constitution damage on anyone within 5 feet of the acid pool; a successful DC 15 Fortitude save negates this ability damage. Characters inhaling the fumes must succeed on a second Fortitude save 1 minute later or take another 1d4 points of Constitution damage.\n\nIf this spell is cast on a body of running water such as a river, the effects last only two rounds before the acid is washed downstream and diffused.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/191593e7491fba28.json",
+    "web": "https://codex.pipsprojects.com/#/e/191593e7491fba28"
+  },
+  "license": "OGL 1.0a"
+}

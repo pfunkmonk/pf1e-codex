@@ -1,0 +1,28 @@
+{
+  "id": "bc2c7ccdb24cf825",
+  "name": "Wild Lure (animal)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 2,
+      "ranger": 2,
+      "witch": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level druid 2, ranger 2, witch 2\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word treats the caster as a trusted ally. The creatures will defend the caster and will not attack her allies while this effect persists. If at any time the target of a wordspell with this effect word is attacked by the wordcaster or her allies, the wordspell’s duration ends immediately. This effect word only affects creatures of the animal or magical beast type, although magical beasts receive a +4 bonus on the saving throw.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc2c7ccdb24cf825.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc2c7ccdb24cf825"
+  },
+  "license": "OGL 1.0a"
+}

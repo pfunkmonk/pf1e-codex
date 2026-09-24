@@ -1,0 +1,28 @@
+{
+  "id": "a629ecf6eebad243",
+  "name": "Disorienting Quake",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "force",
+      "chaotic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [force, chaotic]; Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S,\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause chaotic energies to violently shake and disorient the target of this spell. The target is shaken for 1 round and must make an Acrobatics check (DC 20) or fall prone.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a629ecf6eebad243.json",
+    "web": "https://codex.pipsprojects.com/#/e/a629ecf6eebad243"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "401c131d401d1803",
+  "name": "Beast’s Curse",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy; Level bard 3, cleric/oracle 3, druid 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration permanent (D)\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nBeast’s curse makes its target the victim of constant harassment by animals. Whenever an animal passes within either 30 feet of the victim or scent range, that animal’s attitude immediately shifts to hostile. Animals are liable to attack or harass the character: birds fly around and peck at the character, cats trip him, and larger animals might do worse.\n\nThe curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. It can also be removed with a successful Wild Empathy check (DC 15 + your caster level).\n\n101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/401c131d401d1803.json",
+    "web": "https://codex.pipsprojects.com/#/e/401c131d401d1803"
+  },
+  "license": "OGL 1.0a"
+}

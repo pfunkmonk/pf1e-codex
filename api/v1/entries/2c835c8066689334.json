@@ -1,0 +1,27 @@
+{
+  "id": "2c835c8066689334",
+  "name": "Force Spikes",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [force]; Level druid 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a platinum pin worth 2 gp)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature/level (maximum of 10), no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou create one or more shimmering spikes, made purely of force, which you can hurl at creatures. You create one spike per level (maximum of 10 spikes). You fire all the spikes at the same time and can divide them among potential targets as you see fit. Each spike deals 1d6 points of force damage.\n\nIn addition, the spikes remain in the creature and while they do not continue to deal damage, the spikes lodge themselves into the Ethereal Plane and hold the creature in place. One such spike entangles the target (as per the entangled condition), three spikes grapples the target, and five spikes pins the target. The creature can escape from the spikes as a standard action by making a combat maneuver or Escape Artist check (DC equal to 10 + your caster level plus your relevant caster ability modifier; this does not provoke an attack of opportunity). A successful saving throw negates the entangled, grappled, and pinned condition but does not reduce the damage.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c835c8066689334.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c835c8066689334"
+  },
+  "license": "OGL 1.0a"
+}

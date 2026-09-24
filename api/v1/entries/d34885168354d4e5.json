@@ -1,0 +1,27 @@
+{
+  "id": "d34885168354d4e5",
+  "name": "Mask Limb",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School illusion (phantasm) [mind-affecting]; Level bard 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a silk or satin glove)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 min./level\nSaving Throw Will disbelief; Spell Resistance yes\n\nDESCRIPTION\n\nYou convince the subject of this spell that they are missing a body part. You must choose one of the following body parts at the time of casting: arm, foot, hand, or leg. If your target fails its Will saving throw, it suffers the appropriate penalties as per the sever combat maneuver for the duration of the spell.\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d34885168354d4e5.json",
+    "web": "https://codex.pipsprojects.com/#/e/d34885168354d4e5"
+  },
+  "license": "OGL 1.0a"
+}

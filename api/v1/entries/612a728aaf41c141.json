@@ -1,0 +1,19 @@
+{
+  "id": "612a728aaf41c141",
+  "name": "Alter Flow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (time); Level 4\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets up to three creatures, no two of which can be more than 30 ft. apart\nDuration 1 round/level (D)\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou alter the flow of time around creatures, hastening their movement or slowing them down. When you cast alter flow, you must choose whether to make each target quickened or slowed. You can choose to quicken some of the targets and slow others. Depending on your choice, this has different effects on the creature:\n\nQuickened: A quickened creature is treated as under the effects of a haste spell, except it gains a +1 bonus on AC and Reflex saves (as opposed to attack rolls, AC, and Reflex saves, as is normal with haste).\n\nSlowed: A slowed creature is treated as under the effects of a slow spell, except it takes a -1 penalty on AC and Reflex saves (as opposed to attack rolls, AC, and Reflex saves, as is normal with slow).\n\nMultiple alter flow effects do not stack.\n\nOverload: For every runic charge overloaded into this script, you can target two additional creatures. In addition, for every manipulation runic charge used, the bonuses and penalties to AC and Reflex saves increases by 1.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/612a728aaf41c141.json",
+    "web": "https://codex.pipsprojects.com/#/e/612a728aaf41c141"
+  },
+  "license": "OGL 1.0a"
+}

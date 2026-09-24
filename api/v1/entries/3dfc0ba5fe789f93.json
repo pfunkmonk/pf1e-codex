@@ -1,0 +1,29 @@
+{
+  "id": "3dfc0ba5fe789f93",
+  "name": "Grasp of Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "nightblade": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness]; Level bloodrager 1, magus 1, nightblade 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature or object touched\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou reach out with a hand of chilling shadows, dealing 1d6 cold damage per caster level (maximum 5d6) on a successful melee touch attack. A creature struck must make a Fortitude save or have its vision clouded with shadows, making it treat all other creatures if they had concealment (20% miss chance) for 1 round. A creature that does not use vision to see or has the see in darkness ability is not subjected to the concealment effect.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3dfc0ba5fe789f93.json",
+    "web": "https://codex.pipsprojects.com/#/e/3dfc0ba5fe789f93"
+  },
+  "license": "OGL 1.0a"
+}

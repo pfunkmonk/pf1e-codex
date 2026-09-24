@@ -1,0 +1,17 @@
+{
+  "id": "be0a8fb176f70acc",
+  "name": "Cursed Psionic Items",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Dreamscarred Press",
+  "book": "Dreamscarred Press",
+  "facets": {
+    "bk": "Dreamscarred Press"
+  },
+  "body": "Some psionic items are cursed—incorrectly made, or corrupted by outside forces. Cursed items might be particularly dangerous to the user, or they might be normal items with a minor f law, an inconvenient requirement, or an unpredictable nature.\n\nRandomly generated items are cursed 5% of the time.\n\nd%\tCurse\n01-33\tBackfire\n34-66\tExhausting\n67-100\tSubversive\n\nBackfire: The imbedded psionic effect of the cursed item targets the user instead of its intended target.\n\nExhausting: A cursed item of this sort resembles a normal psionic item with a power that can be freely activated (chosen randomly), but it instead drains the user of the amount of power points needed to manifest the power whenever he activates its power.\n\nSubversive: A cursed item of this sort appears identical to a standard psionic item. However, it holds an inner malice for the wearer, whose saving throws take a constant -2 penalty. The owner isn’t instantly aware of this penalty but may become aware after a while, when it becomes clear that he fails saves that others make with the same result on the saving throw.\n\nSpecific Cursed Item\nReverse Capacitor\n\nAura strong telepathy; ML 15th; Slot —; Weight 1 lb.\n\nDESCRIPTION\n\nA reverse capacitor doesn’t store power points—it drains them, to the surprise and chagrin of a psionic character taken in by its resemblance to a cognizance crystal. Powers that identify psionic items incorrectly identify a reverse capacitor as a cognizance crystal 50% of the time.\n\nA psionic character attempting to use the power points supposedly stored in a reverse capacitor instead loses 1d6 power points per round for 7 rounds. A crackling arc connects the brow of the character with the stone. If the character can put more than 40 feet between himself and the reverse capacitor, the effect ends. If the reverse capacitor drains more power points than the psionic character possesses, the draining effect ends. The drained power points are simply lost. Each new attempt to use the power points supposedly stored in the reverse capacitor initiates the draining effect anew.\n\nCONSTRUCTION REQUIREMENTS\n\nMagic Items cognizance crystals\n\nPsionics Unleashed. Copyright 2010, Dreamscarred Press.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/be0a8fb176f70acc.json",
+    "web": "https://codex.pipsprojects.com/#/e/be0a8fb176f70acc"
+  },
+  "license": "OGL 1.0a"
+}

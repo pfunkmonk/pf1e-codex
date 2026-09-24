@@ -1,0 +1,27 @@
+{
+  "id": "659f4d4f2298893f",
+  "name": "Shadow Necromancy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nighblade": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes, see text",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nighblade 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange see text\nEffect see text\nDuration see text\nSaving Throw Will disbelief (if interacted with), varies, see text; Spell Resistance yes, see text\n\nDESCRIPTION\n\nYou use material from the Plane of Shadow to shape quasi-real illusions of one or more necromantic spells. Shadow necromancy can mimic any sorcerer or wizard necromancy spell of 3rd level or lower. Shadow necromancies are only one-fifth (20%) as strong as the real things, though creatures who believe the shadow necromancies to be real are affected by them at full strength. Any creature that interacts with the spell can make a Will save to recognize its true nature.\n\nSpells that deal damage have normal effects unless the affected creature succeeds on a Will save. Each disbelieving creature takes only one-fifth (20%) damage from the attack. If the disbelieved attack has a special effect other than damage, that effect is only 20% likely to occur. Regardless of the result of the save to disbelieve, an affected creature is also allowed any save that the spell being simulated allows, but the save DC is set according to shadow necromancy’s level (4th) rather than the spell’s normal level. In addition, any effect created by shadow necromancy allows Spell Resistance, even if the spell it is simulating does not. Shadow objects or substances have normal effects except against those who disbelieve them. Against disbelievers, they are 20% likely to work.\n\nSpells that create permanent effects (such as sculpt corpse, contagion, or blindness/deafness) only last for 1 hour per caster level, as opposed to being permanent. In the case of spells that impart diseases, the disease is removed automatically at the end of this time, including any disease that may have been spread to creatures that were not the original target of the spell. You cannot create undead with this spell. Objects automatically succeed on their Will saves against this spell.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/659f4d4f2298893f.json",
+    "web": "https://codex.pipsprojects.com/#/e/659f4d4f2298893f"
+  },
+  "license": "OGL 1.0a"
+}

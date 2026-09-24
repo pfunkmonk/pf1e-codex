@@ -1,0 +1,17 @@
+{
+  "id": "5b9702ebbd796aad",
+  "name": "Goblin Priest (Goblin Cleric 5)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "The War of the Goblin King",
+  "book": "The War of the Goblin King",
+  "facets": {
+    "bk": "The War of the Goblin King"
+  },
+  "body": "Goblin Priest\n\nCR 4\n\nXP 1,200\nGoblin cleric 5\nNE Small humanoid (goblinoid)\nInit +2; Senses darkvision 60 ft.; Perception +2\n\nDEFENSE\n\nAC 19, touch 13, flat-footed 17 (+4 armor, +2 Dex, +1 natural, +1 shield, +1 size)\nhp 36 (5d8+10)\nFort +6, Ref +6, Will +7\nDefensive Abilities blessing of the goblin king\n\nOFFENSE\n\nSpeed 30 ft.\nMelee heavy mace +5 (1d6+1)\nSpecial Attacks bleeding touch (5/day), channel negative energy (3/day, 3d6, Will DC 14), touch of law (5/day)\nCleric Spells Prepared (CL 5th; concentration +7)\n\n3rd—blindness/deafness (DC 15), magic circle against chaosD\n2nd—cure moderate wounds, death knellD (DC 14), hold person (DC 14), silence (DC 14)\n1st—bless, cause fear (DC 13), cure light wounds, protection from chaosD\n0—bleed (DC 12), detect poison, read magic, resistance\n\nD domain spell; Domains Law, Death\n\nTACTICS\n\nDuring Combat if there are two goblin priests, the nearer will attack recklessly with his heavy mace, while the other supports him with his cleric spells, opening with blindness/deafness (favoring blindness), and hold person, though he uses a silence spell instead if one of the PCs appears to be a powerful spellcaster. Either priest will use death knell at the first opportunity, and make full use of their cure spells to continue the fight. If things are going badly, the goblin priests use their channel negative energy ability as a last resort, hoping to kill the PCs, even at the cost of their own lives.\n\nMorale The goblin priests fight to the death.\n\nSTATISTICS\n\nStr 12, Dex 14, Con 12, Int 10, Wis 15, Cha 10\nBase Atk +3; CMB +3; CMD 15\nFeats Combat Casting, Lightning Reflexes, Improved Channel\nSkills Knowledge Religion +6, Stealth +9; Racial Modifiers +4 Ride, +4 Stealth\nLanguages Goblin\nSQ aura, orisons\nNPC Gear +1 heavy mace, +1 studded leather, light steel shield\n\nSPECIAL ABILITIES\n\nBlessing of the Goblin King\n\nGoblins who have pledged themselves to the service of the Goblin King receive a magical protective enchantment from the Goblin King’s crown. This blessing increases the goblins’ natural armor by +1 and grants them a +1 bonus to all of their saves.\n\nThe War of the Goblin King The War of the Goblin King. Copyright 2010 Necromancers of the Northwest, LLC; Authors: Alex Riggs, Joshua Zaback, Justin Holloway.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5b9702ebbd796aad.json",
+    "web": "https://codex.pipsprojects.com/#/e/5b9702ebbd796aad"
+  },
+  "license": "OGL 1.0a"
+}

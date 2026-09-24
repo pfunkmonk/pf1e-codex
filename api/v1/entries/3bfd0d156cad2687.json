@@ -1,0 +1,27 @@
+{
+  "id": "3bfd0d156cad2687",
+  "name": "Gloomlight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (shadow) [light]; Level cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration permanent\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe touched object sheds an eerie radiance in a 60- foot radius, enabling creatures with darkvision the ability to perceive color. Both darkness and light spells counter gloomlight.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3bfd0d156cad2687.json",
+    "web": "https://codex.pipsprojects.com/#/e/3bfd0d156cad2687"
+  },
+  "license": "OGL 1.0a"
+}

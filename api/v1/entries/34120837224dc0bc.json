@@ -1,0 +1,28 @@
+{
+  "id": "34120837224dc0bc",
+  "name": "Archer’s Grace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 3, druid 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 minutes/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou grant the target an extra measure of skill in attacking distant opponents with ranged weapons.\n\nThe target gains a +3 insight bonus on all attacks with ranged weapons. The target also suffers only half penalties due to range increments for the spell’s duration.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/34120837224dc0bc.json",
+    "web": "https://codex.pipsprojects.com/#/e/34120837224dc0bc"
+  },
+  "license": "OGL 1.0a"
+}

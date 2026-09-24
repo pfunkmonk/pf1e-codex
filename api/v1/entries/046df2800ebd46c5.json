@@ -1,0 +1,24 @@
+{
+  "id": "046df2800ebd46c5",
+  "name": "Program Feat",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one creature and one construct touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nProgram feat gives a construct the benefits of a single feat possessed by another creature the caster is touching when the spell is cast. The construct must meet all the prerequisites of the feat. The feat must be passive and require no thought to activate for a non-intelligent construct to gain the benefit from it. (For example: Weapon Focus would work, but Power Attack would not.)\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/046df2800ebd46c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/046df2800ebd46c5"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "4973cb7df15ccad4",
+  "name": "River of Blood",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Bastion Press"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (ink crafted from humanoid blood)\n\nEFFECT\n\nRange touch\nTarget one touched book\nDuration until discharged (D)\nSaving Throw Reflex half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nWhenever anyone other than you opens the warded book, a river of globular, black blood spews from its pages dousing everyone within a 10-ft. radius of the book. The vile substance inflicts 5d4 points of damage and also nauseates affected humanoids for 5d4 rounds. A successful Reflex save halves the damage, but does not negate nausea. Nauseated victims can attempt a Fortitude save each round after the first to end the nausea effect.\n\nExtremely popular among evil necromancers, this spell’s material component requires the usage of ink crafted from humanoid blood. Triggering the spell destroys all spells penned with the ink. It can be removed with a dispel magic or whenever the caster elects to end the spell.\n\nInk & Quill. Copyright 2002, Bastion Press, Inc. Author: Thomas Knauss.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4973cb7df15ccad4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4973cb7df15ccad4"
+  },
+  "license": "OGL 1.0a"
+}

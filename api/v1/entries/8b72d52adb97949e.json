@@ -1,0 +1,26 @@
+{
+  "id": "8b72d52adb97949e",
+  "name": "Dream Learning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School divination [mind-affecting]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget sleeping creature touched\nDuration 24 hours (or until creature sleeps again)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nA sleeping creature you touch studies a subject of your choice while it sleeps. The target learns what you know about one subject, and nothing more. The creature learns as much during sleep as it would during a full day of instruction, but it cannot learn anything that it could not learn while awake. In other words, while you can teach arithmetic to a sleeping human, you cannot teach it to a sleeping dog. You grant an insight bonus equal to your ranks in the chosen skill (maximum +10); you grant this bonus for the duration of the spell or until you sleep again. Subjects can only gain the benefits of one dream learning at one time.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8b72d52adb97949e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8b72d52adb97949e"
+  },
+  "license": "OGL 1.0a"
+}

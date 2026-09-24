@@ -1,0 +1,30 @@
+{
+  "id": "2ad15eaf8bb32e5f",
+  "name": "Negative Image",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "nightblade": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "darkness",
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness, light]; Level bard 4, nightblade 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a mirror)\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou touch an object when you cast this spell, causing it to emit an aura that reverses lighting conditions in a 60-foot radius around itself. Areas that were originally dim light become normal light, while areas that were normal light become dim light. Areas of darkness or supernatural darkness become bright light, and areas of bright light become darkness. A source of light or darkness (magical or non-magical) brought into the area have their effects similarly reversed. This spell has no effect on spells with the light or darkness descriptor that are instantaneous, such as sunburst or flare.\n\nNegative image counters or dispels any light or darkness spell of the same level or lower, such as daylight or snuff.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ad15eaf8bb32e5f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ad15eaf8bb32e5f"
+  },
+  "license": "OGL 1.0a"
+}

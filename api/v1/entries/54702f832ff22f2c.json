@@ -1,0 +1,27 @@
+{
+  "id": "54702f832ff22f2c",
+  "name": "Water Jet",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [air]; Level druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (bladder filled with water)\n\nEFFECT\n\nRange 30 ft.\nEffect line-shaped blast of water emanating out from you to the extreme of the range\nDuration instantaneous\nSaving Throw Reflex partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nA stream of high-pressure water erupts from your hand, extinguishing nonmagical fires of Medium size or smaller (candles, torches, campfires, and other exposed flames), and dealing 1d6 points of bludgeoning damage per caster level (maximum 5d6). A Reflex save reduces damage by half, but creatures in the jet may be knocked down or pushed back if they fail their saves. A Tiny or smaller creature or unsecured object on the ground is knocked prone and blown away to the end of the jet’s range. Small creatures or objects are knocked prone and blown away 1d4 x 10 feet (2d6 x 10 feet if flying), while Medium creatures are knocked prone by the force of the water, or blown away 1d6 x 10 feet if flying. A Large or larger creature suffers no additional effects from a failed save. Anything rolled along the ground by the jet takes an additional 1d6 points of nonlethal damage per 10 feet moved, while flying creatures blown away take only 1d6 points of nonlethal damage.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/54702f832ff22f2c.json",
+    "web": "https://codex.pipsprojects.com/#/e/54702f832ff22f2c"
+  },
+  "license": "OGL 1.0a"
+}

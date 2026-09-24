@@ -1,0 +1,19 @@
+{
+  "id": "b2f124bdd2e13971",
+  "name": "Elemental Mantle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "special",
+    "sr": "yes, see text",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation [see text]; Level 6\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\nSaving Throw see text; Spell Resistance yes, see text\n\nDESCRIPTION\n\nYou invoke the powers of elementals to surround you, protecting you from harm. When you cast this script, you choose one of the following elements:\n\nAir: You gain a fly speed of 60 feet (good maneuverability) and electricity resist 10. As a standard action, you can create a 5-foot-radius, 30-foot-high lightning bolt centered on a point in space within 60 feet of you. Each creature in the area takes 4d6 electricity damage; a Reflex save halves the damage.\nEarth: You gain a climb speed of 60 feet and acid resist 10, and you ignore difficult terrain made of earth, stone, or mud. As a standard action, you can create a small earthquake within a 20 foot radius, centered on you. Each creature in the area must make Reflex save or be knocked prone.\nFire: Your land speed increases by 20 feet and you gain fire resistance 10. As a standard action, you can create a ray of flames. You must make a ranged touch attack to hit with this ray; on a hit, you deal 6d6 fire damage.\nWater: You gain a swim speed of 60 feet and cold resistance 10, and you can breathe underwater. As a standard action, you can create a 15-ft.-cone of rushing water from your hand. Each creature in the area takes 4d6 bludgeoning damage and is pushed 10 feet directly away from you. A Fortitude save halves the damage and negates the pushing effect.\n\nSpell resistance applies to the damaging effects of the air and fire abilities, but not the earth or water abilities.\n\nOverload: For every runic charge overloaded into this script, you gain the benefit of an additional element. If you overload four charges, the energy resistances granted to you increase to 20 each.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b2f124bdd2e13971.json",
+    "web": "https://codex.pipsprojects.com/#/e/b2f124bdd2e13971"
+  },
+  "license": "OGL 1.0a"
+}

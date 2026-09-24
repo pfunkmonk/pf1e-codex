@@ -1,0 +1,17 @@
+{
+  "id": "cae073d594ed88cc",
+  "name": "Advanced Hydra Spawn",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Advanced Bestiary",
+  "book": "Advanced Bestiary",
+  "facets": {
+    "bk": "Advanced Bestiary"
+  },
+  "body": "An angry mass of tiny, multiheaded snakes boils up from the water, snapping and writhing.\n\nAdvanced Hydra Spawn\n\nCR 12\n\nXP 19,200\nCreature Swarm of Poisonous 12-Headed Hydra\nN Tiny magical beast (swarm)\nInit +5; Senses darkvision 60 ft., low-light vision, scent; Perception +10\nAura noxious breath (10 ft., DC 20)\n\nDEFENSE\n\nAC 25, touch 17, flat-footed 20 (+5 Dex, +8 natural, +2 size)\nhp 102 (12d10+36); fast healing 12\nFort +10, Ref +15, Will +6\nDefensive Abilities half damage from slashing and piercing weapons; swarm traits; Immune poison\nWeakness swarm traits\n\nOFFENSE\n\nSpeed 20 ft., swim 20 ft.\nMelee swarm (3d6 plus poison)\nSpace 10 ft.; Reach 0 ft.\nSpecial Attacks distraction\n\nTACTICS\n\nSTATISTICS\nStr 1, Dex 20, Con 14, Int 2, Wis 11, Cha 9\nBase Atk +12; CMB +15 (can’t grapple); CMD 20 (can’t be tripped, grappled,or bull rushed)\nFeats Ability Focus (distraction), Ability Focus (noxious breath), Ability Focus (poison), Iron Will, Lightning Reflexes, Toughness\nSkills Perception +10, Stealth +17 , Swim +12; Racial Modifiers +2 Perception\nSQ swarm traits\n\nSPECIAL ABILITIES\n\nPoison (Ex)\nSwarm —injury; save Fort DC 20, frequency 1/round for 4 rounds, effect 1 Con, cure 1 save\nNoxious Breath (Ex)\n\nInhaled; save Fort DC 20, frequency 1/round for 6 rounds, effect 1d3 Str plus sickened (persists for 1 hour if the poison runs its course without being cured), cure 1 save\n\nDistraction (Ex)\nAny living creature vulnerable to the poisonous hydra hatchling school’s damage that begins its turn with a creature swarm in its square is nauseated for 1 round. A Fortitude saving throw (DC 20) negates the effect. Even with a successful save, spellcasting or concentrating on spells within the area of a poisonous hydra hatchling swarm requires a Concentration check (DC 20 + spell level). Using skills requiring patience and concentration requires a Will save (DC 20).\n\nECOLOGY\n\nEnvironment temperate marshes\nOrganization solitary, spawning ground (2-6)\nTreasure none\n\nYoung hydras spend their first few months in aquatic schools, which are a deadly threat to any creature that stumbles upon them.\n\nAdvanced Bestiary “Creature Swarm” and “Poisonous Creature” templates from Advanced Bestiary. Copyright 2004, Green Ronin Publishing, LLC. Author: Matthew Sernett.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cae073d594ed88cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/cae073d594ed88cc"
+  },
+  "license": "OGL 1.0a"
+}

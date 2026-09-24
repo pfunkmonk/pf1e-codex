@@ -1,0 +1,26 @@
+{
+  "id": "2ba69a88a1aba5ac",
+  "name": "Bonefiddle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Bastion Press"
+  },
+  "body": "School transmutation [sonic]; Level bard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (A miniature violin or fiddle bow)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature/round\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast a bonefiddle spell, you make sawing motions in the air with a miniature violin or fiddle bow towards the intended target. The target’s bones begin to vibrate and ache as if they were being sawed upon by dozens of rough-edged cords and a distressing off-key fiddling sound emanates from his location. If the target fails a Fortitude saving throw, he suffers 2d6 points of nonlethal damage from the pain. The victim must make a new saving throw each round the spell persists or suffer an additional 2d6 points of nonlethal damage. As a move action, you may change the target of the spell to any other creature within line of sight and in range of the spell. A creature targeted by a bonefiddle spell automatically fails all Stealth checks due to the loud obnoxious sound of his bones being sawed upon. A bonefiddle spell has no effect on creatures that are immune to critical hits or do not have a skeleton.\n\nVillains: Rebirth Villains: Rebirth. Copyright 2003, Bastion Press, Inc. Author: James Jacobs.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2ba69a88a1aba5ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/2ba69a88a1aba5ac"
+  },
+  "license": "OGL 1.0a"
+}

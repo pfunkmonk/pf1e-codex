@@ -1,0 +1,19 @@
+{
+  "id": "c273f727101fac31",
+  "name": "Pulverize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction; Level 5\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration instantaneous plus 1 round/level, see text\nSaving Throw Fortitude partial (object), see text; Spell Resistance yes (object)\n\nDESCRIPTION\n\nThe target is crushed by destructive force, cracking and breaking its form. The target takes 1d6 points of damage per caster level (maximum 15d6), after which it is fatigued for 1 round per caster level. This does not cause an already fatigued creature to become exhausted.\n\nA successful saving throw reduces the damage by half and negates the fatigue effect. This script has no effect on incorporeal creatures or those without a solid physiology, such as a fire elemental.\n\nOverload: For every runic charge overloaded into this script, the penalty a creature suffers becomes worse. At one runic charge, the target is fatigued even on a successful save. At two runic charges, the target is exhausted for the duration on a failed save, and fatigued on a successful save. At three charges, the duration of the exhaustion and fatigue effects increases to 1 minute per level, rather than 1 round per level. At four charges, the target is staggered for 1 round on a failed save, in addition to being exhausted.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c273f727101fac31.json",
+    "web": "https://codex.pipsprojects.com/#/e/c273f727101fac31"
+  },
+  "license": "OGL 1.0a"
+}

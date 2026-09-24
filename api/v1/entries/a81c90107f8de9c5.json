@@ -1,0 +1,24 @@
+{
+  "id": "a81c90107f8de9c5",
+  "name": "Awesome Striker",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/level, no two of which can be more than 30 ft. apart\nDuration 1 round/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou grant the ability to potentially deliver a powerful melee strike. If the subject makes a successful melee attack within the duration of the spell, the target hit by that attack must make a Reflex save or be knocked 10 feet in a direction the subject chooses and fall prone. The subject can only make one successful awesome strike per round, the subject can only push the opponent in a straight line, and the opponent can’t move closer to the subject than the square it started in. If an obstacle prevents the completion of the opponent’s move, the opponent and the obstacle each take damage as though struck by a club sized for your opponent (1d6 points of damage for a Medium creature), and the opponent stops in the space adjacent to the obstacle.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a81c90107f8de9c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/a81c90107f8de9c5"
+  },
+  "license": "OGL 1.0a"
+}

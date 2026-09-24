@@ -1,0 +1,17 @@
+{
+  "id": "af65ca7cee717f39",
+  "name": "Heavy Artillerist Battery (CR 7)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Fort Scurvy",
+  "book": "Fort Scurvy",
+  "facets": {
+    "bk": "Fort Scurvy"
+  },
+  "body": "Artillerist Battery, Heavy\nCR 7\n\nXP 3,200\nNE Medium humanoid (human, troop)\nInit +5; Senses Perception +6\n\nDEFENSE\n\nAC 21, touch 15, flat-footed 16 (+3 armor, +5 Dex, +3 natural)\nhp 85 (10d8+40)\nFort +10, Ref +8, Will +8\nDefensive Abilities gunports, troop traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee troop +8 (2d6+1)\nRanged 2 heavy artillery (see below) or 4 heavy crossbows +12 (1d10/19-20)\nSpecial Attacks broadside\n\nSTATISTICS\n\nStr 13, Dex 20, Con 16, Int 14, Wis 13, Cha 10\nBase Atk +7; CMB +8; CMD 23\nFeats Exotic Weapon Proficiency (any one siege weapon), Iron Will, Siege Engineer, Siege Gunner, Toughness\nSkills Climb +5, Craft (siege weapons) +12, Knowledge (engineering) +13, Perception +14, Profession (siege engineer) +15, Swim +5\n\nSPECIAL ABILITIES\n\nBroadside (Ex)\n\nAn artillerist battery can shoot a volley of missiles as a standard action. With a cannon or ballista, this affects two 150-foot-long lines or three 50-foot-long lines, each dealing the weapon’s listed bludgeoning or piercing damage to all creatures or objects in the line (DC 20 Reflex half). With a bombard, catapult, or springal, the battery can instead target three cylindrical bursts, 30 feet high and with a 10-foot radius. The target areas must be within the weapon’s first range increment but at least 50 feet away. All creatures and objects in the targeted area take the listed bludgeoning or piercing damage for the weapon (DC 20 Reflex half). If the areas of an artillerist battery’s broadside overlap, creatures in the overlapping area save and take damage only once; however, the save DC is increased by 2 in the overlapping area. Firedrakes cannot make broadside attacks. The save DC is Dexterity-based.\n\nEmplacement (Ex)\n\nAs a light artillerist battery, except heavy siege weapons cannot be moved once assembled on the battlefield. Moving such weapons requires disassembling them and/or attaching a team of draft animals.\n\nGunports (Ex)\n\nAs a light artillerist battery.\n\nHeavy Artillery (Ex)\n\nAn artillerist battery is equipped with heavy siege weapons, typically crewing several of the following weapons with such skill and speed that they can make multiple attacks per round. Typical weapons for an artillerist battery include:\n\nBallista, heavy +12 (4d8/19-20), range 180 ft.\nBombard, heavy (7d6/x4), range 150 ft. (minimum 50 ft.; indirect fire)\nCannon, fiend’s mouth +12 (8d6/x4), range 150 ft.\nCatapult, standard (6d6), range 200 ft. (minimum 50 ft.; indirect fire)\nFiredrake (6d6 fire), range 60 ft., 60-ft. cone-shaped burst\nSpringal, arrow (3d8), range 100 ft. (minimum 50 ft.; indirect fire), 15-ft.-radius burst\nSpringal, rocket (3d10), range 100 ft. (minimum 50 ft.; indirect fire), 15-ft.-radius burst\nTrebuchet, standard (6d6), range 300 ft. (minimum 150 ft.; indirect fire)\n\nFort Scurvy © 2018, Legendary Games; Author Jason Nelson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af65ca7cee717f39.json",
+    "web": "https://codex.pipsprojects.com/#/e/af65ca7cee717f39"
+  },
+  "license": "OGL 1.0a"
+}

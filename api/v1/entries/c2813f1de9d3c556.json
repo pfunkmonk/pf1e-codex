@@ -1,0 +1,24 @@
+{
+  "id": "c2813f1de9d3c556",
+  "name": "Burning Light Light",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Book of Magic: The Lost Spell Words",
+  "book": "Book of Magic: The Lost Spell Words",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "warpriest": 3,
+      "inquisitor": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Book of Magic: The Lost Spell Words"
+  },
+  "body": "School evocation; Level cleric/oracle/warpriest 3, inquisitor 3\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nAs if a piece of the sun comes down and burns away the darkness, this wordspell releases a concentrated piece of sunlight, causing harm to those it touches. A living creature that takes damage from this wordspell takes 1d6 points of damage per two caster levels (maximum 5d6). An undead creature takes 1d4 points of damage per caster level (maximum 10d4), and an undead creature particularly vulnerable to bright light takes 1d6 points of damage per caster level (maximum 10d6). A construct or inanimate object takes only 1d4 points of damage per two caster levels (maximum 5d4).\n\nBoost: A living creature that takes damage from this wordspell takes 1d8 points of damage per two caster levels (maximum 7d8). An undead creature takes 1d6 points of damage per caster level (maximum 15d6), and an undead creature particularly vulnerable to bright light takes 1d8 points of damage per caster level (maximum 15d8). A construct or inanimate object takes only 1d6 points of damage per two caster levels (maximum 7d6). Boosting this effect word increases its level by 2.\n\nBook of Magic: The Lost Spell Words © 2014 Jon Brazer Enterprises.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2813f1de9d3c556.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2813f1de9d3c556"
+  },
+  "license": "OGL 1.0a"
+}

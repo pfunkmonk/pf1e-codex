@@ -1,0 +1,27 @@
+{
+  "id": "3b4ed5341ae9836e",
+  "name": "Ice Arm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation [cold]; Level druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou shroud your hand and forearm in extreme cold which you can use to damage an opponent. Your successful melee touch attack deals 1d8 points of cold damage +1 point per caster level (maximum +20). A successful melee touch attack discharges the spell. As long as you hold the charge, your hand and forearm absorb fire damage, allowing you to reach into fire unharmed. When the spell has absorbed 1 point of fire damage per caster level (similar to the function of a protection from elements spell), it is discharged. While the spell protects your arm in this manner, touching an object does not discharge the spell unless you want it to. This allows you to reach through a wall of fire to grasp a gem on the other side, for example. The spell does not protect any other part of your body, so you could not use it to walk across a pool of lava or to stick your head into a campfire.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3b4ed5341ae9836e.json",
+    "web": "https://codex.pipsprojects.com/#/e/3b4ed5341ae9836e"
+  },
+  "license": "OGL 1.0a"
+}

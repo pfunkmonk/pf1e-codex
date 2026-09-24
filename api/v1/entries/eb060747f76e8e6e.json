@@ -1,0 +1,30 @@
+{
+  "id": "eb060747f76e8e6e",
+  "name": "Shadow Stream",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "nightblade": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness]; Level bloodrager 1, magus 1, nightblade 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nArea 30 ft. line\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA twisting stream of inky darkness sprays from your outstretched hand. Any creature caught in the area of the shadows takes 1d4 points of cold damage per caster level (maximum 5d4). A Reflex save halves the damage.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb060747f76e8e6e.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb060747f76e8e6e"
+  },
+  "license": "OGL 1.0a"
+}

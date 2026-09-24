@@ -1,0 +1,19 @@
+{
+  "id": "8a2d90d141d5fc2e",
+  "name": "Enhance Movement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design alteration; Level 2\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level (D)\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou grant the subject a new form of movement, chosen from the two options below:\n\nThe subject gains a swim speed of 30 feet along with the standard +8 bonus on Swim checks and the ability to take 10 even if distracted or endangered. It can also use the run action while swimming, provided it swim in a straight line. This does not grant the target any ability to breathe water.\nThe subject gains a climb speed of 20 feet and a +8 racial bonus on Climb skill checks. The creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing.\n\nOverload: For every runic charge overloaded into this script, you may target an additional creature. No two targets can be more than 30 feet apart. All targets must receive the same form of movement. If you use at least one invocation runic charge when granting a swim speed, all targets gain the ability to breathe underwater for the duration of the script.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a2d90d141d5fc2e.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a2d90d141d5fc2e"
+  },
+  "license": "OGL 1.0a"
+}

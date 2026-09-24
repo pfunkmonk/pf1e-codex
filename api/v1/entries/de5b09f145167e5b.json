@@ -1,0 +1,23 @@
+{
+  "id": "de5b09f145167e5b",
+  "name": "Oozing Script",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Bastion Press"
+  },
+  "body": "School illusion (phantasm); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (octopus ink)\n\nEFFECT\n\nRange touch\nTarget one book weighing 10 lb. or less\nDuration 1 day/level\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nAt the time of the spell’s casting, you authorize a number of readers no greater than your caster level to read the targeted book. You do not count toward this limit, nor is there any requirement to authorize anyone other than yourself to read the book. Whenever an unauthorized reader attempts to read the book, the ink apparently alters its shape, forming oozing streams of liquid that pour down the page. The creature must then make a Will save; otherwise it believes that the ink is trying to devour it. A successful save ignores this effect, but still does not allow the reader to decipher the script. Failure panics the stricken creature for one round per caster level, forcing it to flee. Such creatures utterly refuse any attempts to read the work for one hour per caster level, violently resisting all efforts to even view the book. True seeing enables the viewer to read the text, provided that she comprehends the text’s language.\n\nInk & Quill. Copyright 2002, Bastion Press, Inc. Author: Thomas Knauss.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de5b09f145167e5b.json",
+    "web": "https://codex.pipsprojects.com/#/e/de5b09f145167e5b"
+  },
+  "license": "OGL 1.0a"
+}

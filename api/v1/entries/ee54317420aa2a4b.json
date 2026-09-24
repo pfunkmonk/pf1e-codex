@@ -1,0 +1,17 @@
+{
+  "id": "ee54317420aa2a4b",
+  "name": "Runeshell",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Epic Meepo Presents: Monsters",
+  "book": "Epic Meepo Presents: Monsters",
+  "facets": {
+    "bk": "Epic Meepo Presents: Monsters"
+  },
+  "body": "As tall as a dwarf, this crab-like creature is has oversized pincers and a carapace covered with strange runes.\n\nRuneshell\nCR 5\n\nXP 1,600\nN Medium magical beast (aquatic)\nInit +3; Senses darkvision 60 ft., low-light vision; Perception +4\n\nAC 20, touch 13, flat-footed 17 (+3 Dex, +7 natural)\nhp 28 (3d10+12)\nFort +7, Ref +6, Will +3\nImmune mind-affecting effects\n\nSpeed 30 ft., swim 20 ft.\nMelee 2 claws +7 (1d6+4 plus grab)\nSpecial Attacks constrict (1d6+4), repulsive runes, unstable runes\n\nStr 19, Dex 17, Con 18, Int —, Wis 14, Cha 6\nBase Atk +3; CMB +7 (+11 grapple); CMD 20 (32 vs. trip)\nSkills Perception +6, Swim +12; Racial Modifiers +4 Perception\nSQ amphibious\n\nEnvironment any aquatic or coastline\nOrganization solitary or cast (2–12)\nTreasure none\n\nRepulsive Runes (Su) The magical runes on the body of a runeshell emit sporadic bursts of repulsive force when the runeshell is struck in combat. Whenever a creature hits a runeshell with a melee attack, the runeshell may expend an attack of opportunity to perform a bull rush combat maneuver against that creature (if that creature is within the runeshell’s reach) and that creature may expend an attack of opportunity to perform a bull rush combat maneuver against the runeshell. These maneuvers don’t provoke attacks of opportunity. Any bull rush combat maneuver performed as a result of this ability counts as a force effect. If the maneuver is successful, the creature making the bull rush attempt cannot choose to move with the target.\nUnstable Runes (Su) Whenever a runeshell dies or falls unconscious, the runes on its body become unstable. The runeshell’s body becomes trapped with an unstable runes trap (see below). Unless disarmed or triggered, this trap lasts until the runeshell is next alive and conscious. The runeshell’s CR includes the CR of its unstable runes trap; only award separate experience points for the trap if the runeshell that created it is dead or unconscious when the trap is first encountered.\n\nUnstable Runes Trap\nCR 3\n\nType magic; Perception DC 27; Disable Device DC 27\n\nTrigger touch (can’t be triggered by runeshells); Reset none\nEffect 3d6 force damage in a 10-foot-radius burst (no save)\n\nMagical cousins of giant crabs, runeshells are crustaceans whose bodies store force effects in runes etched into their shells. Some aquatic tribes know a process for creating runeshells by physcially carving runes into the shells of ordinary giant crabs, but most runeshells are naturally-occurring offshoots of crab populations exposed to high concentrations of magic. Runeshells are common at the sites of magical battles that took place in, on, or near large bodies of water.\n\nEpic Meepo Presents: Monsters. © 2011-2012, Eric Morton. Comments",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ee54317420aa2a4b.json",
+    "web": "https://codex.pipsprojects.com/#/e/ee54317420aa2a4b"
+  },
+  "license": "OGL 1.0a"
+}

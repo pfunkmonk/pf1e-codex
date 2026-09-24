@@ -1,0 +1,25 @@
+{
+  "id": "e9741cd4114f2916",
+  "name": "Protect Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School abjuration; Level cleric/oracle 2, druid 2, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECTS\n\nRange touch\nTarget touched object or structure with a volume of up to 10 cu. ft./level\nDuration 10 min./level (or concentration if targeting a structure)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions like resist energy, except that it affects an object instead of a creature. Protect object does not provide additional protection to creatures or objects inside or behind the affected object. A shield protected from fire damage provides no additional protection to its wielder, and a building protected from acid does nothing extra to keep acid from getting to those inside. If a protected town is attacked, the caster of this spell may choose to protect a single building instead of participating in combat. If that building is damaged in the attack, ignore the result. If the building is destroyed, treat it as only damaged.\n\nLost Lore: Town of Glory – Copyright 2015 Frog God Games; Author Russel Brown",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9741cd4114f2916.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9741cd4114f2916"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ed6086bf0334acab",
+  "name": "Blizzard (weather)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "magus": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation); Level druid 3, magus 3, sorcerer/wizard 3, witch 3\n\nEFFECT\n\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\nTarget Restrictions burst (emanation)\n\nDESCRIPTION\n\nThis effect word causes heavy snow to fall in the area of effect. This provides concealment as the fog bank effect word, but it cannot be removed by wind. In addition, the ground in the area of effect is treated as difficult terrain for the duration and as being very slippery for the purposes of Acrobatics and Climb skill checks.\n\nBoost: Each creature in the area of effect takes 2d6 points of cold damage each round at the end of its turn. Boosting this effect word increases its level by 1.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed6086bf0334acab.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed6086bf0334acab"
+  },
+  "license": "OGL 1.0a"
+}

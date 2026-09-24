@@ -1,0 +1,25 @@
+{
+  "id": "a5493aab21a9703d",
+  "name": "Psychic Twin",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School divination; Level bard 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a pair of platinum rings worth 50 gp worn by both you and the target)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid creature\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou forge a psychic link between you and one target humanoid within range. Once the link is established, you share the experiences of your ally, granting both of you the ability to use each other’s ranks in any skill (though not your ability score modifiers) in place of your own. In addition, while under the effects of psychic twin, neither character can be flanked unless both characters are flanked. Likewise, neither character is surprised unless both characters are surprised.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a5493aab21a9703d.json",
+    "web": "https://codex.pipsprojects.com/#/e/a5493aab21a9703d"
+  },
+  "license": "OGL 1.0a"
+}

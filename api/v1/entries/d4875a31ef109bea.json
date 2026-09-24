@@ -1,0 +1,26 @@
+{
+  "id": "d4875a31ef109bea",
+  "name": "Cutting Flame",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes (object)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 full round action\nComponents V, S, M (flint and steel)\n\nEFFECT\n\nRange touch\nEffect six-inch long jet of fire\nDuration concentration, up to 1 min./level\nSaving Throw none; Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou cause a white, hot, six-inch long beam of fire to spring from your fingertips. The primary function of this beam is for cutting through inanimate objects. The beam does not completely destroy the object, but cutting enough of it causes it to gain the broken condition. For example, you could cut out a hole in a locked door big enough to walk through, though the door would still be otherwise intact, it would still be broken. The rate at which you can cut through the object depends on its hardness (see the table below). Objects with a hardness greater than 10 cannot be cut using this spell. You can only make cuts up to six inches deep, thus trying to cut through a foot-thick stone wall would have little effect.\n\nIn a pinch, this spell can be used offensively. If used as such you must make a melee touch attack to hit your opponent. A successful attack deals 1d6 points of fire damage +1 additional point per caster level (maximum +10). Attempting to damage an attended object counts as using the spell offensively and damages the object.\n\nHardness\tInches/round\n0\t12\n1-4\t6\n5-8\t3\n9-10\t1\n11+\tUnable to be cut\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d4875a31ef109bea.json",
+    "web": "https://codex.pipsprojects.com/#/e/d4875a31ef109bea"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "f2ff6e3be731eaa1",
+  "name": "Miasma",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction [poison]; Level 4\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect toxic vapors spread in 20-ft. radius, 20 ft. high\nDuration 1 round/level\nSaving Throw Fortitude negates, see text; Spell Resistance no\n\nDESCRIPTION\n\nMiasma creates an area filled with a thin, wispy mist that is toxic to those within. This functions as stinking cloud, except as noted here, and the mist is not thick enough to hinder vision in any way.\n\nOverload: For every runic charge overloaded into this script, you may increase the radius and height of the miasma by 5 feet. If at least one destruction rune is used, the miasma becomes corrosive, dealing 1d6 acid damage each round to each creature that is nauseated from the miasma’s effects. If at least one invocation rune is used, the miasma becomes thick like fog, as a fog cloud spell.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f2ff6e3be731eaa1.json",
+    "web": "https://codex.pipsprojects.com/#/e/f2ff6e3be731eaa1"
+  },
+  "license": "OGL 1.0a"
+}

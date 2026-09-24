@@ -1,0 +1,23 @@
+{
+  "id": "e2856e4da819ebd9",
+  "name": "The Spreading Mark",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a needle and a bit of ash)\n\nEFFECT\n\nRange touch\nTarget 1 creature\nDuration varies\nSaving Throw Will negates, Fortitude save delays (see spell text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a painful black tattoo which slowly grows, until at last it kills its victim. When the spell is cast, the caster must succeed on a melee touch attack to complete the spell, though a Will save will still negate the effects. Once struck by the spell, a small, black, swirl-patterned tattoo appears on the target’s skin. The tattoo is painful and imposes a -2 penalty to all the target’s d20 rolls. Each day the target must succeed at a Fortitude save or lose 1d4 points of Constitution as the tattoo grows in size. When the target’s Constitution is 0, the tattoo covers the whole body and the target dies. The tattoo can be removed through the successful casting of remove curse, dispel magic or wish (or some similar spell) but until the tattoo is removed, the Constitution damage cannot be healed.\n\nThe Way of the Yakuza Copyright 2011, Steven D. Russell and Michael Tumey, all rights reserved; Author Jonathan McAnulty.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2856e4da819ebd9.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2856e4da819ebd9"
+  },
+  "license": "OGL 1.0a"
+}

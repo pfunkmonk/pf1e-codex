@@ -1,0 +1,28 @@
+{
+  "id": "062e1a2397679984",
+  "name": "Elemental Sample",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 0
+    },
+    "desc": [
+      "air",
+      "earth",
+      "fire or water"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [air, earth, fire or water]; Level sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nEffect create 1-foot cubic block of elemental substance\nDuration instantaneous\nSaving Throw Reflex (negates) fire only; Spell Resistance yes\n\nDESCRIPTION\n\nElemental sample creates a small block of elemental matter (air, earth, fire, or water). The effects of this conjuration vary depending on the type of elemental matter created.\n\nAir : The conjured air disperses into air or fire. However, if used underwater or underground, it creates a bubble of breathable air, allowing a character to breathe for 1d6 rounds before it is spent.\n\nEarth: The conjured earth forms into a block of stone, crumbling into dust after 1d3 rounds. You can drop it on an opponent, given the right conditions (treat the stone as weighing 15 lbs.), or you could use it as a stepping stone or for any number of other possible uses.\n\nFire: The conjured fire snuffs out in 1 round. If used against an opponent and the opponent fails a Reflex save, the fire deals 1d3 points of damage. Conjured fire can ignite combustibles, which burn for 1d2 rounds before extinguishing.\n\nWater: Conjured water can snuff small fires (fireplace or smaller) or provide drinking water. If not used immediately, the conjured water evaporates in 1d6 rounds.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/062e1a2397679984.json",
+    "web": "https://codex.pipsprojects.com/#/e/062e1a2397679984"
+  },
+  "license": "OGL 1.0a"
+}

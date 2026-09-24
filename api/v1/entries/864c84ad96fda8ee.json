@@ -1,0 +1,17 @@
+{
+  "id": "864c84ad96fda8ee",
+  "name": "Ghoul Barbarian 3",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Ghoul Barbarian 3\nCR 4\n\nXP 1,200\nMale ghoul barbarian 3\nCE Medium undead (augmented humanoid [human])\nInit +2; Senses darkvision 60 ft.; Perception +10\n\nDEFENSE\n\nAC 19, touch 12, flat-footed 19 (+5 armor, +2 Dex, +2 natural)\nhp 33 (2d8+3d12+5)\nFort +5, Ref +3, Will +6\nDefensive Abilities channel resistance +2, uncanny dodge, undead traits\n\nOFFENSE\n\nSpeed 40 ft.\nMelee +1 bastard sword +10 (1d10+5/19-20), bite +6 (1d6+2 plus disease and paralysis), claw +6 (1d6+2 plus paralysis)\nSpecial Attacks paralysis (1d4+1 rounds, DC 13, elves are immune to this effect), rage (9 rounds), rage powers (no escape, strength surge)\n\nSTATISTICS\n\nStr 18, Dex 15, Con —, Int 13, Wis 14, Cha 12\nBase Atk +4; CMB +8; CMD 20\nFeats Exotic Weapon Proficiency (bastard sword), Multiattack, Power Attack, Weapon Focus (bastard sword)\nSkills Acrobatics +10, Climb +12, Perception +10, Stealth +10, Survival +10\nLanguages Common\nSQ rage power (), trap sense +1\n\nSPECIAL ABILITIES\n\nDisease (Su)\n\nGhoul Fever: Bite—injury; save Fort DC 13; onset 1 day; frequency 1 day; effect 1d3 Con and 1d3 Dex damage; cure 2 consecutive saves.\n\nThe save DC is Charisma-based. A humanoid who dies of ghoul fever rises as a ghoul at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast.\n\nWhile raging, Hymmir has the following statistics:\n\nAC 17, touch 10, flat-footed 17 (+5 armor, +2 Dex, +2 natural, -2 rage)\nMelee +1 bastard sword +12 (1d10+7/19-20), bite +8 (1d6+3 plus disease and paralysis), claw +8 (1d6+3 plus paralysis)\nStr 22\nBase Atk +4; CMB +10; CMD 22\nSkills Climb +14\n\nPathfinder Module D4: Hungry Are the Dead, Copyright 2008, Paizo Publishing, LLC. Author: Tim Hitchcock.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/864c84ad96fda8ee.json",
+    "web": "https://codex.pipsprojects.com/#/e/864c84ad96fda8ee"
+  },
+  "license": "OGL 1.0a"
+}

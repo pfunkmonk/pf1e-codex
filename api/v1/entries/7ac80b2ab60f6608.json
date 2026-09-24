@@ -1,0 +1,28 @@
+{
+  "id": "7ac80b2ab60f6608",
+  "name": "Deep Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 1,
+      "ranger": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (glamer) [darkness]; Level bard 1, ranger 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nArea 60 ft. radius\nDuration 10 minutes/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a deepening and darkening of shadows in the area. This spell doesn’t actually create shadows; it just makes existing shadows much larger and darker, and enhances them so they even interfere with low-light vision and darkvision. The shadows affected by this spell provide one-quarter concealment to anyone within them (providing a 10% miss chance) or one-half concealment to anyone seeking the cover of the enhanced darkness (providing a 20% miss chance) as well as a +4 circumstance bonus on Stealth checks. If the spell is cast on a small object that is then placed inside or under a light-proof covering, the spell’s effects are blocked until the covering is removed.\n\nDeep shadows is countered by any light spell of equal or greater level.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7ac80b2ab60f6608.json",
+    "web": "https://codex.pipsprojects.com/#/e/7ac80b2ab60f6608"
+  },
+  "license": "OGL 1.0a"
+}

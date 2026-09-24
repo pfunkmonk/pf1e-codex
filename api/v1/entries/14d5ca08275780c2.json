@@ -1,0 +1,27 @@
+{
+  "id": "14d5ca08275780c2",
+  "name": "Vertigo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (pattern) [mind-affecting]; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V (bard only), S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect a pattern of distortion in a 10-ft.-radius spread\nDuration concentration + 2 rounds\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nA twisting distortion of perceptions occurs, sickening creatures within it. Roll 2d4 and add your caster level (maximum 10) to determine the total number of HD of creatures affected. Creatures with the fewest HD are affected first, and, among creatures with equal HD, those who are closest to the spell’s point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Affected creatures become sickened by the distortion, creatures that move more than half their speed must make an additional Will save or fall prone.\n\nA wizard or sorcerer need not utter a sound to cast this spell, but a bard must perform as a verbal component.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/14d5ca08275780c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/14d5ca08275780c2"
+  },
+  "license": "OGL 1.0a"
+}

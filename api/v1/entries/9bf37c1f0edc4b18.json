@@ -1,0 +1,25 @@
+{
+  "id": "9bf37c1f0edc4b18",
+  "name": "Rumbling Fury",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "adept": 2,
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation; Level adept 2, cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nArea cone\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a minor earthquake that can trip creatures.\n\nMake a single trip attack and use the result against every creature in the area. Those that fail are tripped and fall prone. You do not provoke an attack of opportunity for this trip attack (though you do provoke one for casting the spell), nor can you knock yourself prone with a bad roll.\n\nUnlike a regular trip attack, you may trip any creature touching the ground, regardless of size. Improved Trip does not affect this spell in any way.\n\nThough the earthquake is small and focused on the floor, at the GM’s discretion, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on.\n\nPathfinder Chronicles: Gods and Magic. Copyright 2008, Paizo Publishing, LLC; Author: Sean K Reynolds.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9bf37c1f0edc4b18.json",
+    "web": "https://codex.pipsprojects.com/#/e/9bf37c1f0edc4b18"
+  },
+  "license": "OGL 1.0a"
+}

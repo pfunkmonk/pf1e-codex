@@ -1,0 +1,27 @@
+{
+  "id": "81aa32cd2ae5599e",
+  "name": "Dark Baubles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [darkness]; Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget object touched\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes an object to throw deep shadows in a 20-foot radius. The shadow is equivalent to that seen on a moonless night and grants a +2 circumstance bonus to all Stealth checks. The effect is immobile, but can be cast on a movable object. Shadow taken into an area of magical light will not function.\n\nA dark baubles spell is sufficient to counter and dispel the effects of a spell with the light descriptor of equal level.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/81aa32cd2ae5599e.json",
+    "web": "https://codex.pipsprojects.com/#/e/81aa32cd2ae5599e"
+  },
+  "license": "OGL 1.0a"
+}

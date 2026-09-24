@@ -1,0 +1,24 @@
+{
+  "id": "b72353b90b0170ae",
+  "name": "Reinforce Object",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation; Level bard 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECTS\n\nRange touch\nTarget touched object or structure with a volume of up to 10 cu. ft./level\nDuration 10 min./level (or concentration if targeting a structure)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell protects an object from damage and breaking.\n\nThe touched object gains a +4 enhancement bonus to hardness, and a +4 enhancement bonus to its Break DC for the duration of the spell. The enhancement bonuses do not stack with other enhancement bonuses. The caster of this spell may choose to protect a single building . If that building is damaged in the attack, ignore the result. If the building is destroyed, treat it as only damaged.\n\nLost Lore: Town of Glory – Copyright 2015 Frog God Games; Author Russel Brown",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b72353b90b0170ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/b72353b90b0170ae"
+  },
+  "license": "OGL 1.0a"
+}

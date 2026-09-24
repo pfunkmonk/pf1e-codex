@@ -1,0 +1,28 @@
+{
+  "id": "a3449cdbc69ab50e",
+  "name": "Heat Lightning",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [electricity]; Level bard 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (pointed rod of iron or copper.)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea cylinder (5-ft. radius, 30 ft. high)\nDuration 1 round\nSaving Throw Reflex half; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou produce vertical strokes of lightning that flash downward for 1 round, dealing creatures and objects in the area 1d6 points of nonlethal damage +1 point per caster level (maximum +5), or half-damage on a successful Reflex save. On a failed save, creatures are also dazzled for 1 round and catch on fire, immediately taking an additional 1d6 points of fire damage. A creature catching on fire continues to burn in subsequent rounds unless it makes a DC 15 Reflex save to put out the flames ) . The lightning strokes ignite unattended, flammable objects in the area.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a3449cdbc69ab50e.json",
+    "web": "https://codex.pipsprojects.com/#/e/a3449cdbc69ab50e"
+  },
+  "license": "OGL 1.0a"
+}

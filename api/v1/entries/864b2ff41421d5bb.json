@@ -1,0 +1,27 @@
+{
+  "id": "864b2ff41421d5bb",
+  "name": "Association",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment [mind-affecting]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M (a sketch of the target and a sketch of the item to be associated with him)\n\nEFFECT\n\nRange close (20 ft. + 5 ft./2 levels)\nArea 50-ft.-radius circle + 5 ft./2 levels\nDuration 1 day + 1 day/3 levels\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou select an animal (for example, a lion) or image (such as a shining sword) or ideal (such as honor) and associate that with a specific individual.\n\nEveryone within range associates that person with that animal, image, or ideal whenever they hear the person’s name or see the person, for as long as the spell lasts. A positive association increases the starting attitude of those around the affected target by one step. Likewise, a negative association decreases the starting attitude of onlookers by one. Multiple castings stack, increasing or decreasing the starting attitude by one step with each casting.\n\nThis can be a subtle way to influence a group: By planting an association that links a lord to wickedness or a serpent, the caster can undermine morale in that lord’s dominion for days. Friendly advisors become indifferent, for example, and unfriendly rivals become hostile.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/864b2ff41421d5bb.json",
+    "web": "https://codex.pipsprojects.com/#/e/864b2ff41421d5bb"
+  },
+  "license": "OGL 1.0a"
+}

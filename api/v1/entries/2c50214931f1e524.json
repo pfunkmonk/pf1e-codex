@@ -1,0 +1,25 @@
+{
+  "id": "2c50214931f1e524",
+  "name": "Predatory Stealth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "druid": 3,
+      "ranger": 3,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (glamer); Level druid 3, ranger 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature/ level, no two of which can be more than 30 ft. apart\nDuration 10 min./level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nPredatory stealth masks the presence of the selected creatures, granting them a +5 competence bonus on Stealth checks and preventing them from being automatically detected by scent. Creatures with the scent ability must make Perception checks to detect affected creatures (and any items they carry) as if they lacked that ability. Creatures with the blindsense ability are likewise unable to detect the subjects’ presence, while those with blindsight can detect the subjects’ presence as if using blindsense instead.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2c50214931f1e524.json",
+    "web": "https://codex.pipsprojects.com/#/e/2c50214931f1e524"
+  },
+  "license": "OGL 1.0a"
+}

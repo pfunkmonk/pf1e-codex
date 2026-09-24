@@ -1,0 +1,26 @@
+{
+  "id": "b1f8fedc2e81c77b",
+  "name": "Chaotic Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "chaos"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [chaos]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (pinch of raw earth), F (crossbow bolt)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect one bolt of random energy\nDuration 1 round + 1 round/3levels\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nA bolt of the chaotic energies of creation springs from your hand and speeds to its target. You must succeed on a ranged touch attack to hit your target. The bolt deals 2d4 points of damage of a random type with no splash damage. For every three caster levels you possess, the energy, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round. Each round, roll on the chart to determine the damage type.\n\nd10\tEnergy Type\n1-2\tAcid\n3-4\tCold\n5-6\tElectricity\n7-8\tFire\n9-10\tSonic\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b1f8fedc2e81c77b.json",
+    "web": "https://codex.pipsprojects.com/#/e/b1f8fedc2e81c77b"
+  },
+  "license": "OGL 1.0a"
+}

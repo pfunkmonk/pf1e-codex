@@ -1,0 +1,24 @@
+{
+  "id": "0cdd2fa749333051",
+  "name": "Shadow Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "nightblade": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School necromancy; Level nightblade 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature or creatures touched (up to one per level)\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYour touch is infused with corrupting negative energy. Once per round, you may deliver a touch attack that inflicts 1d4+1 points of Strength damage. A creature reduced to 0 Strength by this spell is slain instantly. Creatures that are immune to negative energy damage or are healed by it are immune to this spell’s effects.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0cdd2fa749333051.json",
+    "web": "https://codex.pipsprojects.com/#/e/0cdd2fa749333051"
+  },
+  "license": "OGL 1.0a"
+}

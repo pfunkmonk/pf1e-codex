@@ -1,0 +1,27 @@
+{
+  "id": "2772b2d36cbf1f5a",
+  "name": "Body Heat Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "cold",
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School transmutation [cold, fire]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of coal)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nEffect ray, see text\nDuration instantaneous\nSaving Throw Fortitude half, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou drain the body heat from your target’s body, dealing 1d6 points of cold damage per caster level (to a maximum of 10d6). A successful Fortitude save halves this damage. Using the creature’s drained body heat, you may fire a ray originating from your target at any other creature within 30 feet. You must succeed on a ranged touch attack to hit. This ray deals 1d6 points of fire damage per caster level (to a maximum of 10d6).\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2772b2d36cbf1f5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/2772b2d36cbf1f5a"
+  },
+  "license": "OGL 1.0a"
+}

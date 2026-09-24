@@ -1,0 +1,26 @@
+{
+  "id": "68d42d923e715dad",
+  "name": "Taint of the Pit",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Fire Mountain Games",
+  "book": "Fire Mountain Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "cleric": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Fire Mountain Games"
+  },
+  "body": "School transmutation (polymorph); Level bard 4, cleric 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nDuration 1 round/level (D)\nSaving Throw will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell causes a creature to take on the aspects of a creature from the lower planes. The creature gains darkvision out to a range of 60 feet. It also gains resistance to cold and fire, as well as damage reduction, depending on its total Hit Dice, as noted on the following table.\n\nHit Dice\tResist Cold and Fire\tDamage Reduction\n1–4\t5\t—\n5-10\t10\t5/good\n11+\t15\t10/good\n\nIn addition, the target of this spell can smite a good creature as a swift action, adding its Charisma bonus on attack rolls against that creature and a bonus on weapon damage rolls equal to its Hit Dice against that creature. This smite only affects good creatures and it persists until the creature is slain or this spell ends. The target of this spell can only smite good once per day, even if this spell is cast upon it more than one time.\n\nA creature under the effects of this spell detects as evil and is affected by spells and magic items as if it were an evil creature, in addition to any other alignment it might possess. If the creature already possesses any of these traits from another source (such as the fiendish simple template), these abilities do not stack.\n\nWay of the Wicked Book Six — The Wages of Sin. Copyright 2013, Fire Mountain Games LLC; Author: Gary McBride.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68d42d923e715dad.json",
+    "web": "https://codex.pipsprojects.com/#/e/68d42d923e715dad"
+  },
+  "license": "OGL 1.0a"
+}

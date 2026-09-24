@@ -1,0 +1,28 @@
+{
+  "id": "a2c712c5cb411371",
+  "name": "Indisputable Fact",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting",
+      "language-dependent"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting, language-dependent]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 day/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis enchantment causes the target creature to believe one idea, no matter how ridiculous. The “fact” may not be about the target, it may not suggest a future action or event, and it must be expressed in a single sentence of 20 words or fewer. Statements such as “These papers authorize us to be here,” “The First Hero performs unspeakable acts with kobolds,” or “The Questor’s Society keep everyone poor and ignorant” will work. However, “The First Hero must die” will not.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a2c712c5cb411371.json",
+    "web": "https://codex.pipsprojects.com/#/e/a2c712c5cb411371"
+  },
+  "license": "OGL 1.0a"
+}

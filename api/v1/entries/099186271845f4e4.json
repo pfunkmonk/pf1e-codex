@@ -1,0 +1,19 @@
+{
+  "id": "099186271845f4e4",
+  "name": "Nature’s Embrace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "None",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation; Level 2\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 24 hours and 1 round/level, see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThe creature becomes more acclimated to natural energies and harsh conditions. This has two effects.\n\nFirst, the creature suffers no harm from being in a hot or cold environment, as an endure elements spell.\n\nSecond, the creature gains a limited ability to adapt to dangerous energy. Once during the duration of nature’s embrace, when the creature would take acid, cold, electricity, or fire damage, the creature can use an immediate action to ward itself, gaining energy resistance 10 against the energy type that it was struck with (this resistance applies to the triggering damage). The energy resistance lasts for only 1 round per level before ending, after which the entire script’s effects end.\n\nThe script protects the recipient’s equipment as well (both from temperature and energy damage).\n\nOverload: For every runic charge overloaded into this script, you may target an additional creature. No two targets can be further than 30 feet apart. Each target chooses if and when to grant themselves energy resistance, and if they do, the script’s effects ends only for that target at the end of the duration. For every two runic charges used, the energy resistance applied increases by 10.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/099186271845f4e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/099186271845f4e4"
+  },
+  "license": "OGL 1.0a"
+}

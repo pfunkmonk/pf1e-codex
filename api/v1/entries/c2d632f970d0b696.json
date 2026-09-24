@@ -1,0 +1,23 @@
+{
+  "id": "c2d632f970d0b696",
+  "name": "Illusory Glue",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Bastion Press"
+  },
+  "body": "School illusion (figment); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a barnacle)\n\nEFFECT\n\nRange touch\nTarget 10 touched pages/level\nDuration 1 day/level\nSaving Throw Will negates (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThe affected pages bond to one another as if smeared with incredibly potent glue. Anyone attempting to separate the amalgamated pages receives a Will save in order to negate the spell’s effects. If successful, the individual easily turns the pages. Otherwise, no physical force can separate the conjoined pages. Grease automatically negates the spell.\n\nInk & Quill. Copyright 2002, Bastion Press, Inc. Author: Thomas Knauss.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2d632f970d0b696.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2d632f970d0b696"
+  },
+  "license": "OGL 1.0a"
+}

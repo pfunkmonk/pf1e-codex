@@ -1,0 +1,17 @@
+{
+  "id": "98bcab93fd16a1de",
+  "name": "Troop, Axers",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "These savvy veteran fighters carry an array of ranged and melee weapons at all times, and keep alert to ensure they’re always ready for whatever the enemy throws their way.\n\nAxe Troop (CR 12)\n\nXP 19,200\nCG Medium humanoid (human, troop)\nInit +7; Senses Perception +22\n\nDEFENSE\n\nAC 26, touch 14, flat-footed 22 (+9 armor, +3 Dex, +1 dodge, +3 natural)\nhp 161 (17d8+85)\nFort +11, Ref +15, Will +9\nDefensive Abilities evasion, troop traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee troop (4d6+6)\nSpace 20 ft.; Reach 5 ft.\nSpecial Attacks volley\n\nSTATISTICS\n\nStr 22, Dex 17, Con 19, Int 10, Wis 14, Cha 13\nBase Atk +12; CMB +18; CMD 32\nFeats Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Skill Focus (Perception), Toughness\nSkills Intimidate +11, Knowledge (local, nature) +4, Perception +22, Stealth +11\nLanguages Common\nSQ favored enemy\n\nSPECIAL ABILITIES\n\nEvasion (Ex)\n\nAxe troops are made up of scrappy and experienced fighters who can recognize when they’re about to become the target of an area-of-effect ability and react accordingly. If the troop succeeds at a Reflex saving throw against an attack that normally deals half damage on a successful save, the troop instead takes no damage.\n\nFavored Enemy (Ex)\n\nSee the skirmishers troop stat block. The bonus on damage rolls also applies to the Axe troop’s volley attack.\n\nVolley (Ex)\n\nAn Axe troop can fire a volley of arrows as a standard action. This attack takes the form of up to four lines with a range of 100 feet. These lines can each start from the corner of any square in the troop’s space. Each creature in any of these lines takes 4d6 points of piercing damage per line that hits it (Reflex DC 21 half). The save DC is Dexterity-based.\n\nPathfinder Campaign Setting: Lands of Conflict © 2017, Paizo Inc.; Authors: Lissa Guillet and Amber E. Scott.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98bcab93fd16a1de.json",
+    "web": "https://codex.pipsprojects.com/#/e/98bcab93fd16a1de"
+  },
+  "license": "OGL 1.0a"
+}

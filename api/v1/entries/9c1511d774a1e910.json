@@ -1,0 +1,30 @@
+{
+  "id": "9c1511d774a1e910",
+  "name": "Shadow Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "bard": 4,
+      "magus": 4,
+      "nightblade": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [darkness]; Level alchemist 4, bard 4, magus 4, nightblade 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (some ink and powdered chalk)\n\nEFFECT\n\nRange touch\nTarget willing corporeal creature touched\nDuration 2 min./level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThe subject of this spell turns into a natural shadow. This functions as the spell gaseous form, though the subject does not gain a fly speed; instead, it can move at a speed of 30 feet along any surface, including walls and ceilings. The target must remain adjacent to a surface for the duration. Unlike with gaseous form, the creature is not subject to wind effects and can enter water or other liquids, though it cannot enter into areas of supernatural darkness. While in this form, the creature gains a competence bonus on Stealth checks while in dim light or darkness equal to your caster level (maximum +10). The creature can also turn itself back and forth from shadow form to its normal material form as a full-round action. Each time it returns to its normal form, the duration of the spell is decreased by 2 minutes. The creature cannot take any items with it when it turns into a shadow that it did not have in its possession when the spell was cast.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9c1511d774a1e910.json",
+    "web": "https://codex.pipsprojects.com/#/e/9c1511d774a1e910"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4acb577299d0ad20",
+  "name": "Pillar OF Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 4,
+      "druid": 5,
+      "elementer": 4,
+      "invoker": 4,
+      "shaman": 5,
+      "wizard": 4,
+      "summoner": 4
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [earth]; Level cleric 4, druid 5, elementer 4, invoker 4, shaman 5, sorcerer/wizard 4, summoner 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect earthen pillar with a diameter of 15 ft.\n\nDuration 1 round/2 levels (D) or 10 min./level (D) (see text)\nSaving Throw Reflex negates or none (see text); Spell Resistance no\n\nYou bring your hand low and raise it with a slow and powerful gesture, the earth responding in kind. This spell can only be cast upon the ground in an area of existing earth or stone. When cast, the earth in the targeted area rises, creating a cylindrical pillar 15 feet wide. Other results of the spell, like duration and speed, is dependent on whether you make it rise fast or slow:\n\nSlow: The earth raises at a moderate pace. The pillar rises at a rate of 20 feet per round and can rise up to a maximum height of 20 feet per caster level. It will stop short of any solid barriers (like a roof or cavern ceiling), leaving enough room between the top of the pillar and the barrier for any creatures upon the pillar to comfortably stand and move. This version of pillar of earth lasts for 10 minutes per caster level. When the duration of the spell ends (either normally or when dismissed), the pillar slowly sinks back down at the same rate it ascended until it returns the ground to its original state.\nFast: The earth swiftly erupts with great force. In this form, the pillar has a maximum height of only 5 feet per caster level, but reaches this height almost instantly. Any creature in the pillar’s way must make a Reflex save or be pushed upwards by the pillar, taking 1d8 bludgeoning damage per two caster levels (max 5d8). A creature more than 20 feet above the ground gains a +4 bonus on its saving throw. A Reflex save lets the creature move out of the way of the pillar and into the nearest unoccupied space. The pillar attempts to reach its maximum height: if there are any barriers in the way, the pillar makes a Strength check to break through, having an effective Strength score of 20 + your caster level for the check. Any creature that failed its initial Reflex save and is caught between the pillar and a surface takes 2d8 damage as they are crushed into it. If the pillar does not break through the surface, it stops flush with it: any creature that was on top of the pillar is pinned between the pillar and the barrier. The pinned creature can get out with an Escape Artist or Strength check as a standard action (DC equal to the spell’s save DC + 5), doing so gives them enough space to escape but does not help any other pinned creature nor end the spell. They can also attempt to break the barrier they are pinned against instead of the pillar itself, with the DC for the surface in question determined by the GM. While pinned, a creature has total concealment from other creatures unless their space extends outside of the pillar’s area. This version of the pillar lasts for 1 round per two caster levels, and when the duration ends (either normally or dismissed), the pillar crumbles into loose dirt and rubble before vanishing.\n\nRegardless of version of the spell, the pillar itself is mostly made of compacted dirt. It has hardness 0 and 180 hit points, and can be destroyed through damage or instantly by a DC 50 Strength check. When destroyed, the spell ends immediately.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4acb577299d0ad20.json",
+    "web": "https://codex.pipsprojects.com/#/e/4acb577299d0ad20"
+  },
+  "license": "OGL 1.0a"
+}

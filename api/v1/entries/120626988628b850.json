@@ -1,0 +1,26 @@
+{
+  "id": "120626988628b850",
+  "name": "Annihilate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [death]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (the heart of a chaotic evil creature which you consume while casting this spell)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou snuff out the life force of one living creature within range. If the target’s Fortitude saving throw succeeds, it instead takes 10d6 points of damage (which may be enough to kill the target anyway). The only way to restore life to a creature slain by this spell (when the target either fails its save or takes enough damage to kill it) is to use true resurrection, a wish, or miracle, each of which must be cast by someone with a higher caster level than you.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/120626988628b850.json",
+    "web": "https://codex.pipsprojects.com/#/e/120626988628b850"
+  },
+  "license": "OGL 1.0a"
+}

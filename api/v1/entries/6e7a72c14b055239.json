@@ -1,0 +1,24 @@
+{
+  "id": "6e7a72c14b055239",
+  "name": "Corpse Hammer",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 4,
+      "witch": 4
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy; Level sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a leather glove coated in dried embalming herbs)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect sphere of undead remains composed of 3 or more destroyed undead\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell, you draw the remains of nearby destroyed undead together and fuse them into a mass of flesh and bone you can then hurl at any foes within range.\n\nThree corpses within range of the spell are required for the spell to function. The hammer can be directed to attack one foe within range per round as a move action. It uses your caster level as its base attack bonus, modified by your Intelligence, Wisdom, or Charisma modifier (whichever one is highest). On a hit, the corpse hammer deals 1d6 points of damage per three caster levels (to a maximum of 6d6 points of damage).\n\nCorpse hammer also has secondary effects based on the nature of the three bodies you use to create it. If the majority used to create it (at least two) were skeletal, the jagged bits of bone cause the hammer to deal slashing damage and increase its critical threat range to 19–20. On the other hand, if the majority were fleshy (at least two), the increased mass causes the spell to deal bludgeoning damage and increase its critical hit damage to ×3.\n\nUndead that have been destroyed by positive energy or a similar effect that does not leave a corpse, like a disintegrate spell, cannot be used to form a corpse hammer.\n\nPathfinder Campaign Setting: Inner Sea Magic. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6e7a72c14b055239.json",
+    "web": "https://codex.pipsprojects.com/#/e/6e7a72c14b055239"
+  },
+  "license": "OGL 1.0a"
+}

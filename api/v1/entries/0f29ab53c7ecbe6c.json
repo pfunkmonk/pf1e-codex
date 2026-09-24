@@ -1,0 +1,28 @@
+{
+  "id": "0f29ab53c7ecbe6c",
+  "name": "Shelve",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 0,
+      "oracle": 0,
+      "wizard": 0
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [force]; Level bard 0, cleric/oracle 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget five books per caster level\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell automatically places a book or scroll where it belongs within the confines of a library. This spell will work even if the library does not have a shelving system, as the spell will determine the proper place based on the will of the owner. Once the spell is cast, the caster needs only tap the book or scroll she wants shelved, and the spell will place it there. The book is moved telekinetically, not via teleportation, so closed doors and the like will block the spell from functioning. The items affected by this spell can only move to shelves within 200 feet of the caster.\n\n101 0-Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f29ab53c7ecbe6c.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f29ab53c7ecbe6c"
+  },
+  "license": "OGL 1.0a"
+}

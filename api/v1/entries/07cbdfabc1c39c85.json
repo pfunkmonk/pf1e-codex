@@ -1,0 +1,28 @@
+{
+  "id": "07cbdfabc1c39c85",
+  "name": "Shadow Ammunition",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 1, sorcerer/wizard 1, witch 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 0 ft.\nEffect 50 pieces of shadow ammunition\nDuration 10 minute/level\nSaving Throw Will disbelief (if interacted with); Spell Resistance yes\n\nDESCRIPTION\n\nDrawing upon the Plane of Shadow, you create a stock of 50 pieces of shadowy masterwork ammunition for a ranged weapon you are proficient with. This can create regular ammunition for the weapon you use, such as a crossbow bolt, shuriken, firearm bullet, or arrow, but not any special form of ammunition such as a smoke arrow or an alchemical cartridge. You may use this ammunition to make attacks as if it were real ammunition, dealing normal damage for its type (based on the weapon it is used for). The first time you hit a creature with the weapon, it may make a Will save to disbelieve; failure means the ammunition deals damage normally, success means it only takes 1 point of damage from attacks made with that ammunition (including any further attacks you make with the ammunition). The ammunition only deals 1 point of damage to objects.\n\nIf an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the shadow ammunition strikes it. If the ammunition is successfully resisted, the spell is dispelled. If not, the target may save to disbelieve as normal.\n\nAt 5th level, the ammunition gains a +1 enhancement bonus. At 10th-level, you may increase the enhancement bonus to +2 or add the frost or seeking weapon property. The frost and seeking properties have no effect if the target makes its disbelief save.\n\nAny ammunition that leaves your possession by any means other than firing them from a weapon you are using is destroyed. Ammunition that is fired is destroyed after the attack resolves. Once all ammunition is used, the spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07cbdfabc1c39c85.json",
+    "web": "https://codex.pipsprojects.com/#/e/07cbdfabc1c39c85"
+  },
+  "license": "OGL 1.0a"
+}

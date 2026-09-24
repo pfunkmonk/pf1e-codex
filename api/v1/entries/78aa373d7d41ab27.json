@@ -1,0 +1,26 @@
+{
+  "id": "78aa373d7d41ab27",
+  "name": "Augment Poison",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level cleric/oracle 2, druid 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget 1 non-magical poison dose/3levels\nDuration 10 min./level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nThis spell makes poison more potent and toxic. Any dose of poison affected by the spell has its Fortitude DC changed to (10 + 1/2 caster level + spellcasting ability modifier). Furthermore, any ability damage caused by the poison does one additional point of damage each round and its duration is increased by 1 round. For example, if you had one dose of standard wyvern poison; injury; save DC 17; frequency 1/round for 6 rounds; effect 1d4 Constitution damage; cure 2 consecutive saves; and it were augmented by an 11-th level wizard with a Intelligence score of 22, it would become augmented wyvern poison; injury; save DC 21; frequency 1/round for 7 rounds; effect 1d4+1 Constitution damage; cure 2 consecutive saves. If the duration of the spell expires, the augmented effect ends immediately. Thus, if a person has suffered 6 rounds of the augmented wyvern poison and the spell ends before the 7th round it would not deal damage on the seventh round.\n\nThis spell only affects discrete doses of poison, though they may already be placed on a weapon, trap, or other item. Thus, if the spell were cast on a 10-gallon vat of wyvern poison, it would have no effect. A dose of poison under the effect of this spell is considered a magically modified poison and does radiate magic.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78aa373d7d41ab27.json",
+    "web": "https://codex.pipsprojects.com/#/e/78aa373d7d41ab27"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cb95597b0f82ce6d",
+  "name": "Divine Illumination",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 3,
+      "inquisitor": 3,
+      "paladin": 2
+    },
+    "desc": [
+      "good",
+      "light"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration [good, light]; Level cleric 3, inquisitor 3, paladin 2\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. +5 ft./level)\nTargets all undead in a 10-foot-radius spread\nDuration 1 minute/level\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nWith this spell, you create shafts of blue light that illuminate all undead creatures in the area. Affected undead take a –20 penalty on all Stealth checks. Invisible undead are not made visible by this effect, but the light does make it easy to pinpoint the exact squares in which such undead are located (they still retain the 50% miss chance granted by invisibility). This spell increases light levels by one step in a 5-foot radius around an affected undead creature. Once an undead is affected, it remains illuminated as long as remains within the spell’s range, even if it leaves the spell’s original radius, until the spell’s duration ends.\n\nAffected undead must also make a Will save when they are first illuminated. Those who fail this save lose all benefits of channel resistance and take a –2 penalty on all saving throws made against positive energy effects.\n\nPathfinder Campaign Setting: Inner Sea Magic. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb95597b0f82ce6d.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb95597b0f82ce6d"
+  },
+  "license": "OGL 1.0a"
+}

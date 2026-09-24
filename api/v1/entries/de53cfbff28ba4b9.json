@@ -1,0 +1,30 @@
+{
+  "id": "de53cfbff28ba4b9",
+  "name": "Greater Cure (healing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 3,
+      "bard": 3,
+      "oracle": 3,
+      "druid": 4,
+      "inquisitor": 3,
+      "paladin": 4,
+      "ranger": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (healing); Level alchemist 3, bard 3, cleric/oracle 3, druid 4, inquisitor 3, paladin 4, ranger 4, witch 4\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will half (harmless) or Will half; Spell-Resistance yes (harmless)\nTarget Restrictions personal, selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word is cured of 3d6 points of damage + 1 point per caster level (maximum +15). Undead are damaged by this effect word, but can attempt a Will save for half damage and spell resistance as normal.\n\nBoost: The target is cured of 3d8 points of damage + 1 point per caster level (maximum +15).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/de53cfbff28ba4b9.json",
+    "web": "https://codex.pipsprojects.com/#/e/de53cfbff28ba4b9"
+  },
+  "license": "OGL 1.0a"
+}

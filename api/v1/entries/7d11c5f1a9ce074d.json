@@ -1,0 +1,26 @@
+{
+  "id": "7d11c5f1a9ce074d",
+  "name": "Arcane Sacrifice",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 4
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [force]; Level sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one creature\nDuration 1 round/level (D) and Instantaneous (see text)\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThe spell allows the caster to sacrifice prepared spells (if he prepares spells) or unused spell slots (if he is a spontaneous caster) to create bolts of pure magical force. Although this spell generally does less damage than evocation spells of the same level, it allows an arcane caster to convert non-damaging spells into attacks in times of desperation. The arcane energy the wizard has stored through preparing spells or that the sorcerer holds innately is cannibalized into arcane energy in its purest form and released in a blast of destructive force that is blue-white in nature and totally silent.\n\nThe blast deals 1d6 points of damage per spell level sacrificed to create the bolt. The caster may power any single bolt with no more than his caster level in spell levels to a maximum of 15 spell levels. The target of the mystic bolt gets a Reflex save for half damage. The bolts are composed of magical force, and they affect ethereal and incorporeal targets.\n\nUpon casting, the wizard selects which prepared spells he is sacrificing to fuel this spell, and sorcerers likewise determine which remaining spell slots they are sacrificing. Arcane sacrifice itself does not count toward the spells that fuel the bolt. Any extra spell levels sacrificed are disregarded for determining the strength of the bolt. For example, a 9th-level wizard casts arcane sacrifice, sacrificing tongues and hold person which are both 3rd-level spells. The wizard would then deal 6d6 points of damage for having sacrificed 6 levels of spells.\n\nThe duration of the bolts is instantaneous like other evocation damage spells. Arcane sacrifice itself may be continued up to one round per level of the caster, and the caster may sacrifice additional spells to generate one new bolt each round. The spell ends at its stated duration, when the caster dismisses it or when the caster uses any other spell normally.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d11c5f1a9ce074d.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d11c5f1a9ce074d"
+  },
+  "license": "OGL 1.0a"
+}

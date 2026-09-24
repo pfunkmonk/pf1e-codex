@@ -1,0 +1,28 @@
+{
+  "id": "7cf4f1f5069b2ee9",
+  "name": "Living Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "elementer": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "air",
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation (polymorph) [air, electricity]; Level elementer 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\n\nYour body dissipates into a swirling mass of air. This functions as the whirlwind universal monster ability, with some key changes.\n\nThe whirlwind must be at least 10 feet high and has a maximum height of 20 feet. You can damage and trap Small or smaller creatures that come into contact with you and fail a Reflex save (DC equal to this spell’s DC). A creature that fails its save takes damage equal to your unarmed strike or 2d6 + 1 per caster level (max +15), whichever is higher. The creature is lifted into the whirlwind on a second failed save. Additionally, arcs of lightning strike foes near you: any creatures within 10 feet of you (including those trapped in the whirlwind) take 1d6 electricity damage per four caster levels (max 4d6) each round at the start of your turn (Reflex half, spell resistance applies). You gain a fly speed of 30 feet with average maneuverability for the duration of this spell. You cannot change back from whirlwind form without dismissing the spell. You cannot cast this spell underwater.\n\nFor every two caster levels you have above 9th, the maximum height of the whirlwind increases by 10 feet (max 60 feet), and the maximum size of creature you can damage and trap increases by one, up to Huge.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7cf4f1f5069b2ee9.json",
+    "web": "https://codex.pipsprojects.com/#/e/7cf4f1f5069b2ee9"
+  },
+  "license": "OGL 1.0a"
+}

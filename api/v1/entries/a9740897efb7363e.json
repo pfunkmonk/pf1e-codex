@@ -1,0 +1,25 @@
+{
+  "id": "a9740897efb7363e",
+  "name": "Dire Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level druid 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a hair from a dire creature)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one animal or magical beast\nDuration 1 minute/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nDire form causes a regular animal or magical beast to change into a more feral, more powerful form. The target animal or magical beast, which must not have more hit dice than you, gains a +4 enhancement bonus to Strength, a +4 enhancement bonus to Constitution, and a +2 enhancement bonus to natural armor. All of the target’s natural weapons improve as if it possessed the Improved Natural Attack feat. (The effect of this spell stacks with the actual feat, but not other magical sources.) This spell does not provide you with any additional way of controlling the animals affected, and indeed, it tends to make them more aggressive (increase animal Empathy DC by +5, and it gains a second chance to break any charm or compulsion effects).\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9740897efb7363e.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9740897efb7363e"
+  },
+  "license": "OGL 1.0a"
+}

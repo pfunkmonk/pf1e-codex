@@ -1,0 +1,27 @@
+{
+  "id": "d227ed246b1e659c",
+  "name": "Sunglobe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "fire",
+      "light"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [fire, light]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (faceted bead of crystal)\n\nEFFECT\n\nRange 0 ft.\nEffect globe of light\nDuration 10 min./level or until expended\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nA brilliant, searing globe about the size of a walnut appears in your palm, glowing as brightly as a torch. The globe is hot enough to ignite flammable materials and deals 1d8 points of fire damage each round it stays in contact with a creature or object, but won’t hurt you or your equipment as long as you keep it in hand. You can use the globe to automatically strike a single creature within 120 feet. When the globe automatically hits, it breaks and releases a flash of heat and light. The flash deals 1d8 points of fire damage per two caster levels (maximum 10d8, no save) to the target struck, while the target and all creatures in adjacent squares (including the target and you) must make a Reflex save or be blinded for 1d4 rounds. The intense light from the flash deals 1 point of damage per die (no save) to undead, fungi, mold, oozes, or slimes struck directly or caught in the splash. A creature struck directly takes the light damage in addition to the fire damage from the spell. The flash from the globe counters or dispels any darkness effect of 3rd level or lower, but a darkness effect of 3rd level or higher counters or dispels the globe if it is not in your possession. A darkness effect of 3rd level or higher merely suppresses it if you have it in your possession, but you can rekindle the globe on your turn as a standard action.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d227ed246b1e659c.json",
+    "web": "https://codex.pipsprojects.com/#/e/d227ed246b1e659c"
+  },
+  "license": "OGL 1.0a"
+}

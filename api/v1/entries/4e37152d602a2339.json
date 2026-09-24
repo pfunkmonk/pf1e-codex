@@ -1,0 +1,31 @@
+{
+  "id": "4e37152d602a2339",
+  "name": "Paralyze Creature (binding)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "druid": 4,
+      "inquisitor": 4,
+      "wizard": 5,
+      "summoner": 5,
+      "witch": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 4, druid 4, inquisitor 4, sorcerer/wizard 5, summoner 5, witch 5\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThis effect word functions as the paralyze humanoid word except that it can affect creatures of any type.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e37152d602a2339.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e37152d602a2339"
+  },
+  "license": "OGL 1.0a"
+}

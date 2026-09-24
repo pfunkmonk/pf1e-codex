@@ -1,0 +1,17 @@
+{
+  "id": "ea293c4777817e99",
+  "name": "Advanced Nabasu Demon",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Advanced Nabasu Demon\nCR 17\n\nXP 102,400\nMale advanced nabasu demon\nCE Medium outsider (chaotic, demon, evil, native)\nInit +7; Senses darkvision 60 ft.; Perception +42\n\nDEFENSE\n\nAC 31, touch 14, flat-footed 27 (+3 Dex, +1 dodge, +17 natural)\nhp 293 (9d10+244)\nFort +28, Ref +28, Will +28\nDR 10/cold iron or good; Immune death effects, electricity, paralysis, poison; Resist acid 10, cold 10, fire 10; SR 28\n\nOFFENSE\n\nSpeed 30 ft., fly 60 ft. (average)\nMelee bite +34 (1d8+6), 2 claws +34 (1d6+6)\nSpecial Attacks consume life, death gaze 19/day (DC 18), sneak attack +2d6\nSpell-Like Abilities (CL 27th, concentration +31)\n\nAt will—deeper darkness, greater teleport (self plus 50 lbs. of objects only), telekinesis (DC 19)\n3/day—enervation, silence (DC 16), vampiric touch\n1/day—mass hold person (DC 21), regenerate, summon (level 4, 1 nabasu 30% or 1d4 babaus 30%)\n\nSTATISTICS\n\nStr 22, Dex 17, Con 22, Int 15, Wis 16, Cha 19\nBase Atk +9; CMB +34; CMD 48\nFeats Cleave, Combat Expertise, Dodge, Improved Initiative, Power Attack\nSkills Acrobatics +34, Fly +34, Knowledge (arcana) +33, Knowledge (planes) +33, Perception +42, Sense Motive +34, Stealth +34 (+42 in shadowy conditions), Survival +34\nLanguages Abyssal, Celestial, Draconic; telepathy 100 ft.\n\nSPECIAL ABILITIES\n\nConsume Life (Su)\n\nWhen a nabasu creates a ghoul with its gaze attack, it gains a growth point. It gains a bonus equal to its growth point total on attack rolls, CMB rolls, saving throws, caster level checks, and skill checks. Its maximum hit points increase by 10 for each growth point, and its caster level for spell-like abilities increases by 1. For every 2 growth points, its natural armor bonus, SR, and CR increase by 1. Every time it gains a growth point it makes a DC 30 caster level check—success indicates it matures (gaining both the advanced and the giant simple templates) and plane shifts to the Abyss in a burst of smoke. A nabasu can have a maximum of 20 growth points—it automatically matures if it has not done so already when it reaches 20 growth points.\n\nTakrilak currently has 19 growth points.\n\nDeath-Stealing Gaze (Su)\n\nAs a free action once per day per growth point (minimum of 1/day), a nabasu can activate its death-stealing gaze for a full round. All living creatures within 30 feet must succeed on a DC 18 Fortitude save or gain a negative level. A humanoid slain in this manner immediately transforms into a ghoul under the nabasu’s control. A nabasu’s gaze can only create one ghoul per round—if multiple humans perish from the gaze in a round, the nabasu picks which human becomes a ghoul. The save DC is Charisma-based.\n\nPathfinder Module: The Witchwar Legacy . © 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea293c4777817e99.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea293c4777817e99"
+  },
+  "license": "OGL 1.0a"
+}

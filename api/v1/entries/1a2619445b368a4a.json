@@ -1,0 +1,19 @@
+{
+  "id": "1a2619445b368a4a",
+  "name": "Hypnotize",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design revelation (thought) [mind-affecting]; Level 3\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius spread, centered on a point in space\nDuration concentration + 1 round\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou fill the minds of creatures in the area with euphoric thoughts, fascinating creatures within it. Roll 2d4 and add your caster level (maximum 10) to determine the total number of HD of creatures affected. Creatures with the fewest HD are affected first; and, among creatures with equal HD, those who are closest to the spell’s point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Affected creatures become fascinated for as long as you concentrate plus 1 round.\n\nOverload: For every runic charge overloaded into this script, the total HD of creatures affected increases by 1d4, and the effect lasts for 1 additional round after you cease concentration.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1a2619445b368a4a.json",
+    "web": "https://codex.pipsprojects.com/#/e/1a2619445b368a4a"
+  },
+  "license": "OGL 1.0a"
+}

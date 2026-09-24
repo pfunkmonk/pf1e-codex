@@ -1,0 +1,27 @@
+{
+  "id": "09e3837c00b2ed74",
+  "name": "Acid Wind",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration [acid]; Level bard 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dried lemon peel)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea one 5 ft. square\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nYou call forth a breeze full of stinging acid droplets from your outstretched hand that deal 1d6 points of acid damage per 3 caster levels (max 3d6) to everything in the target square. The acid quickly loses its potency, leaving behind a sticky, wet film of water.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/09e3837c00b2ed74.json",
+    "web": "https://codex.pipsprojects.com/#/e/09e3837c00b2ed74"
+  },
+  "license": "OGL 1.0a"
+}

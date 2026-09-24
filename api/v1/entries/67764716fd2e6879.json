@@ -1,0 +1,27 @@
+{
+  "id": "67764716fd2e6879",
+  "name": "Sunshine (illumination)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "druid": 3,
+      "paladin": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation; Level bard 3, cleric/oracle 3, druid 3, paladin 3, sorcerer/wizard 3\n\nEFFECT\n\nDuration 10 minutes/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions burst (emanation)\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word radiates shining white light for the duration of the spell, shedding bright light in the wordspell’s area and increasing the light level for an additional 30 feet by one step, up to bright light. Creatures that take penalties in bright light take those penalties while in the wordspell’s area, but it is not true sunlight and does not damage or destroy creatures vulnerable to real sunlight.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/67764716fd2e6879.json",
+    "web": "https://codex.pipsprojects.com/#/e/67764716fd2e6879"
+  },
+  "license": "OGL 1.0a"
+}

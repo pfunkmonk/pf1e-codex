@@ -1,0 +1,30 @@
+{
+  "id": "7d40c49b2c514ad8",
+  "name": "Weapons Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "ranger": 3,
+      "paladin": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [force]; Level bard 3, cleric/oracle 3, ranger 3, paladin 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a weapon)\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 1 round/level (see below)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou touch one weapon and call forth the essence of its martial spirit. A duplicate weapon made of pure force is created for every 3 levels you possess (to a maximum of 5 weapons).\n\nFor the duration of the spell, if the target weapon successfully strikes a target, the duplicates also cause damage as they attack the victim. The duplicate weapons deal only base damage; bonuses for Strength or other effects are not added. The spell is immediately dispelled if you no longer hold the weapon (such as if you are disarmed or you give the weapon to another person).\n\n101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d40c49b2c514ad8.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d40c49b2c514ad8"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "3af33343f12ddd13",
+  "name": "Pirate Port Defenders (CR 7)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Fort Scurvy",
+  "book": "Fort Scurvy",
+  "facets": {
+    "bk": "Fort Scurvy"
+  },
+  "body": "Pirate Port Defenders\nCR 7\n\nXP 3,200\nNE Medium humanoid (human, troop)\nInit +5; Senses Perception +6\n\nDEFENSE\n\nAC 27, touch 12, flat-footed 25 (+6 armor, +2 Dex, +5 natural, +4 shield)\nhp 83 (11d8+33)\nFort +11, Ref +5, Will +6\nDefensive Abilities shield wall\n\nOFFENSE\n\nSpeed 30 ft.\nMelee troop +11 (3d6+3 plus poison)\nRanged 4 thrown tridents +11 (1d8+4 plus poison) or 4 nets +11 (— plus entangled)\nSpace 20 ft.; Reach 5 ft. (10 ft. with nets)\nSpecial Attacks press gang\n\nSTATISTICS\n\nStr 16, Dex 15, Con 16, Int 10, Wis 12, Cha 10\nBase Atk +8; CMB +11; CMD 23\nFeats Alertness, Exotic Weapon Proficiency (net), Iron Will, Net Adept, Net and Trident, Saving Shield\nSkills Perception +18, Sense Motive +18, Survival +6\nLanguages Common\nSQ armor training 1\n\nSPECIAL ABILITIES\n\nArmor Training (Ex)\n\nPirate port defenders can move at full speed in medium armor and reduce the armor check penalty for armor and shields by 1.\n\nPress Gang (Ex)\n\nPirate port defenders prefer to capture rather than kill, to shanghai new potential pirates or find captives to ransom or sell. Creatures damaged by their melee troop attack are entangled (DC 17 Reflex negates); this is treated as being trapped in a net. In addition, as part of a move action a group of pirate port defenders can make a combat maneuver check to drag all Medium or smaller entangled creatures within or adjacent to their space with them. The troop makes a single combat maneuver check and applies the result against the CMD of all entangled creatures. If the check fails to beat the CMD of an entangled creature, that creatures remain entangled (as if caught in a net) but is left behind as the troop moves away.\n\nPoisoned Weapons (Ex)\n\nPirate port defenders use tridents poisoned by the goblin alchemists of Fort Scurvy. This large scorpion venom is specially formulated with the sticky poison discovery, allowing it to remain effective for four successful attacks before needing to be replaced.\n\nShield Wall (Ex)\n\nPirate port defenders wear breastplates and carry tower shields, enabling them to turn their shields in concert and use them to provide total cover along one side of the troop’s space as a standard action. Attacks passing through that edge of their space are affected by this cover. In addition, when a creature charges a troop of pirate port defenders, as an immediate action the troop can ready an action to attack that creature. Unlike a standard troop attack, the pirate port defenders must succeed on an attack roll to deal damage with this special attack; however, on a successful hit damage is doubled.\n\nFort Scurvy © 2018, Legendary Games; Author Jason Nelson",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3af33343f12ddd13.json",
+    "web": "https://codex.pipsprojects.com/#/e/3af33343f12ddd13"
+  },
+  "license": "OGL 1.0a"
+}

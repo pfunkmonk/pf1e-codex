@@ -1,0 +1,28 @@
+{
+  "id": "72ac8dfa14f6e8f5",
+  "name": "Illusory Strike",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 4,
+      "nightblade": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level bard 4, nightblade 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one illusion (figment) spell you control, see text\nDuration instantaneous\nSaving Throw See text; Spell Resistance yes\n\nDESCRIPTION\n\nWith a quick incantation you blend your illusions with shadowstuff from the Plane of Shadow, making an illusion reality for a short time. When you cast the spell, you designate a single illusion (figment) spell you can see and currently control or are maintaining concentration on. That illusion becomes real for a short time, allowing it to harm other creatures.\n\nDepending on the form of the illusion, the illusion can make different kinds of attacks. The possible attacks are shown on Table: Illusory Strike. You may choose a single attack form from the table that is appropriate for the illusion to use (along with a damage type for that attack form), subject to GM discretion. For example, an illusory dragon might use the Area Energy Attack option to simulate the dragon’s breath attack, or use the Melee Attack option to simulate the dragon clawing and biting its opponent. If the effect calls for a saving throw, it uses the DC of this spell to determine the saving throw. If the illusion attacks a creature that has spell resistance, you must make a caster level check as normal to bypass it; failure means that creature is unaffected by this spell. If a creature has already disbelieved the illusion that illusory strike targets, that creature gains a +2 bonus to AC and to saves against this spell’s effects.\n\nTable: Illusory Strike\nAttack Form\n\tEffect\nMelee Attack\n\tThe illusion makes melee attacks against creatures within 5 feet of itself. It attacks once for every three caster levels you have (max 5 attacks), using your caster level + your casting ability score bonus for its attack bonus on each attack. Each hit deals 2d6+6 bludgeoning, piercing, or slashing damage as appropriate for the illusion. These attacks threaten on a 19 or 20 and deal double damage on a critical hit.\nRanged Attack\n\tThe illusion makes ranged attacks against creatures within 50 feet of itself. It attacks once for every three caster levels you have (max 5 attacks), using your caster level + your casting ability score bonus for its attack bonus on each attack. Each hit deals 1d6+6 bludgeoning, piercing, or slashing damage as appropriate for the illusion. These attacks threaten on a 20 and deal triple damage on a critical hit.\n\nEnergy Attack\n\tThe illusion targets a single creature within 50 feet with a powerful energy attack. This attack requires a ranged touch attack to make, using your own attack bonuses to make the touch attack. On a hit, the illusion deals 1d6 damage per caster level to the target (maximum 10d6) of your choice of acid, cold, electricity, or fire damage.\nArea Energy Attack\n\tThe illusion creates an area of energy to harm creatures. This can be a 30-foot cone, a 60-foot line, or a 15-foot radius burst centered on the illusion. A creature caught in the area takes 1d6 damage per caster level (maximum 10d6) of your choice of acid, cold, electricity, or fire damage. A Reflex save halves the damage.\nArea Damage\n\tThe illusion creates a physically damaging area. This can be a 30-foot cone, a 60-foot line, or a 15-foot radius burst centered on the illusion. A creature caught in the area takes 1d8 damage per caster level (maximum 10d8) of your choice of bludgeoning, piercing, or slashing damage. A Reflex save halves the damage.\n\nIf you cast this spell and target a figment that you must maintain concentration on (such as silent image), you do not have to concentrate to maintain the spell this round.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/72ac8dfa14f6e8f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/72ac8dfa14f6e8f5"
+  },
+  "license": "OGL 1.0a"
+}

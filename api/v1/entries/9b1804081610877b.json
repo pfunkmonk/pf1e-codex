@@ -1,0 +1,19 @@
+{
+  "id": "9b1804081610877b",
+  "name": "Ward of Conviction",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "no, see text",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (conviction) [see text]; Level 2\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance no, see text\n\nDESCRIPTION\n\nA ward of conviction uses cosmic forces to protect a creature from a specific alignment, forming a magical barrier around the target to a distance of 1 foot that moves with it. This functions as your choice of either protection from chaos, protection from evil, protection from good, or protection from law. You choose which effect to grant at the time of casting.\n\nWhen used to protect a creature against a certain alignment, it is a script of the opposite type (for example, if you use ward of conviction to grant protection from evil, it gains the good descriptor).\n\nOverload: For every runic charge overloaded into this script, the duration increases by 1 minute, and you may target an additional creature. All creatures must be protected from the same alignment.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b1804081610877b.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b1804081610877b"
+  },
+  "license": "OGL 1.0a"
+}

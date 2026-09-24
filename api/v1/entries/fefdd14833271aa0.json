@@ -1,0 +1,24 @@
+{
+  "id": "fefdd14833271aa0",
+  "name": "Mire of Stone and Earth",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "ranger": 2
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level druid 2, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea earth or stone in a 40-ft.-radius spread\nDuration 1 min./level (D)\nSaving Throw Reflex partial; see text; Spell Resistance no\n\nDESCRIPTION\n\nThe very earth twists and writhes, creatures that fail their save gain the entangled condition. Creatures that make their save move at only half their base speed in the area. Those that remain in the area must save again at the end of your turn. Creatures that move into the area must save immediately. Those that fail must end their movement and gain the entangled condition. Entangled creatures can attempt to break free as a move action, making a Strength or Escape Artist check. The DC for this check is equal to the DC of the spell. The entire area of effect is considered difficult terrain while the effect lasts.\n\nCreatures with burrow speeds are immune to the effects of mire of stone and earth.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fefdd14833271aa0.json",
+    "web": "https://codex.pipsprojects.com/#/e/fefdd14833271aa0"
+  },
+  "license": "OGL 1.0a"
+}

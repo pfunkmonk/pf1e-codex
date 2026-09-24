@@ -1,0 +1,30 @@
+{
+  "id": "55d2843a17436810",
+  "name": "Lesser Cure (healing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "alchemist": 1,
+      "bard": 1,
+      "oracle": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "ranger": 2,
+      "witch": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (healing); Level alchemist 1, bard 1, cleric/oracle 1, druid 1, inquisitor 1, paladin 1, ranger 2, witch 1\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will half (harmless) or Will half; Spell Resistance yes (harmless)\nTarget Restrictions personal, selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word is cured of 1d6 points of damage + 1 point per caster level (maximum +5). Undead are damaged by this effect word instead, but can attempt a Will save for half damage and spell resistance as normal.\n\nBoost: The target is cured of 1d8 points of damage + 1 point per caster level (maximum +5).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/55d2843a17436810.json",
+    "web": "https://codex.pipsprojects.com/#/e/55d2843a17436810"
+  },
+  "license": "OGL 1.0a"
+}

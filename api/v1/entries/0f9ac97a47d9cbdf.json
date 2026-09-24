@@ -1,0 +1,23 @@
+{
+  "id": "0f9ac97a47d9cbdf",
+  "name": "Sulfurous Stench",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20 ft.-radius spread\nDuration 1 round/level\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure a wispy, stationary cloud of pale yellow vapors. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker can’t use sight to locate the target). More importantly, if any living creature within the cloud or passing through the fumes fails its saving throw, the noxious odor overcomes the victim is nauseated. Each round, the victim receives a new saving throw to shrug off the aforementioned effect; however, the save’s DC increases by +1 for every previous failed saving throw. Whenever a creature makes a successful save against the spell, it is immune to the cloud’s toxic effects for the balance of the spell’s duration. Note that the creature receives immunization only from that particular spell and not from subsequent castings of sulfurous stench. A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.\n\nThe spell does not function underwater.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0f9ac97a47d9cbdf.json",
+    "web": "https://codex.pipsprojects.com/#/e/0f9ac97a47d9cbdf"
+  },
+  "license": "OGL 1.0a"
+}

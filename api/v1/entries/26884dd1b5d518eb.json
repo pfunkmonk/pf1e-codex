@@ -1,0 +1,24 @@
+{
+  "id": "26884dd1b5d518eb",
+  "name": "Enable Function",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3,
+      "vanguard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 3, vanguard 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget construct touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nEnable function allows you to grant new abilities to a construct. You can grant it either ranks in a skill or a specific feat.\n\nIf you grant it ranks in a skill, you must choose a single skill. You grant it either a number of ranks in that skill equal to half your caster level (max 10) or equal to your own ranks in the skill (max 20). A non-intelligent construct cannot be granted ranks in an Intelligence– or Charisma-based skill.\n\nIf you grant it a feat, the construct gains a single feat of your choice. It must be one that the construct can qualify for.\n\nYou can cast enable function multiple times on a given construct; however, any feats or skill ranks granted by enable function cannot be used to meet prerequisites of feats granted by further castings of the spell.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26884dd1b5d518eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/26884dd1b5d518eb"
+  },
+  "license": "OGL 1.0a"
+}

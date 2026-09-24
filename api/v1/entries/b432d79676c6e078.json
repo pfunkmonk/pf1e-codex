@@ -1,0 +1,29 @@
+{
+  "id": "b432d79676c6e078",
+  "name": "Body Temple",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 4,
+      "oracle": 3,
+      "inquisitor": 4,
+      "witch": 3
+    },
+    "desc": [
+      "good"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School transmutation [good]; Level bard 4, cleric/oracle 3, inquisitor 4, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (wing feather of a good-aligned creature from the outer planes)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level\n\nDESCRIPTION\n\nThis spell converts the caster’s body into a positive energy wellspring, making the caster immune to possession or any magical control during the duration of the spell. The caster reduces any source of negative energy damage to himself by his caster level and is immune to half of any ability damage or drain from undead creatures. The caster’s touch also confers the equivalent of a stabilize spell once each round as a free action, and can also unleash a disrupt undead spell-like effect once per round as well without having to cast a spell to do it. Additionally, anyone within 5 feet of someone under the effects of this spell that casts a healing spell, does so at +1 caster level. If the caster himself produces or casts a healing spell or spell-like effect, then that healing effect is considered maximized, but then this spell ends immediately after that.\n\nBlood and Broomsticks © 2019, d20pfsrd.com Publishing; Author: Jeremy Clements",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b432d79676c6e078.json",
+    "web": "https://codex.pipsprojects.com/#/e/b432d79676c6e078"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e96400374d019ca3",
+  "name": "Shift Aim",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 2
+    },
+    "desc": [
+      "chaos"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration [chaos]; Level sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a piece of moss found on a tree)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target of this spell is protected by intense fluctuations in the space around him. This distortion protects against all forms of individually targeted missile attacks, including spells and spell-like abilities that require an attack roll. Whenever an individual missile attack is directed at the targeted creature the attack’s actual target is determined randomly among all creatures within 15 feet of the creature, including the creature protected. In mid-flight the missile changes course toward its new target with normal chances to hit. The attack roll should be rolled before the target is determined.\n\nIf the protected creature is struck by an individual missile attack, the spell is discharged. If several people are protected by shift aim spells the missile only changes course once but can affect the entire protected area.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e96400374d019ca3.json",
+    "web": "https://codex.pipsprojects.com/#/e/e96400374d019ca3"
+  },
+  "license": "OGL 1.0a"
+}

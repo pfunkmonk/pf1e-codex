@@ -31,6 +31,8 @@ const FOOTER = [/^Section 15: Copyright Notice/i, /^Discuss!$/, /^Join Our Disco
 const isPaizo = (s) => /paizo/i.test(s);
 
 /* ---- one page ------------------------------------------------------------------------------ */
+// Three spellings seen in the crawl: "Latest Products from this Publisher…" (32 pages), "Latest from This Publisher…" (10), "Latest from this Publisher…" (1).
+export const AD_MARK = /^Latest (?:Products )?from this Publisher at OpenGamingStore\.com!?/i;
 export function parsePage(text, file) {
   const lines = text.replace(/\r/g, "").split("\n");
   const head = {};
@@ -59,7 +61,13 @@ export function parsePage(text, file) {
   // cut the footer; keep Section 15 separately
   let cut = rest.findIndex((l) => FOOTER.some((re) => re.test(l.trim())));
   if (cut < 0) cut = rest.length;
-  const bodyLines = rest.slice(0, cut);
+  // The crawler captured the publisher-page ad widget ("Latest Products from this Publisher at OpenGamingStore.com!" + five
+  // product blurbs with Vendor/Type/Price lines) as body text. It always sits at the tail of the body; 7 entries shipped with it
+  // (four were NOTHING but the ad — Fat Goblin Games, Samurai Sheepdog, Bastion Press, Rite Publishing). Cut it here so the
+  // classifier sees the real page: a pure-ad page falls below the stub threshold and is excluded.
+  let bodyLines = rest.slice(0, cut);
+  const adAt = bodyLines.findIndex((l) => AD_MARK.test(l.trim()));
+  if (adAt >= 0) bodyLines = bodyLines.slice(0, adAt);
   const tail = rest.slice(cut);
   const s15 = [];
   const si = tail.findIndex((l) => /^Section 15: Copyright Notice/i.test(l.trim()));
@@ -561,6 +569,21 @@ function titleWordOverlap(ls, title) {
 // "Monsters by Role" (8,780 chars) is nothing but comma-separated monster NAMES under role headings — a navigation
 // index that passed as a monster entry because no tab-run / short-line signal fires on 3,000-character lines.
 // Real entries can carry a few such lines (a spell's class list) but never most of their text.
+// Characters of a page's own text once a "Subpages" heading and the short link-name lines under it are removed.
+// Infinity when the page has no Subpages heading.
+export function subpagesStubOwnChars(body) {
+  const ls = String(body).split("\n");
+  const i = ls.findIndex((l) => l.trim() === "Subpages");
+  if (i < 0) return Infinity;
+  let j = i + 1;
+  while (j < ls.length && ls[j].trim() && ls[j].trim().split(/\s+/).length <= 10) j++;
+  return [...ls.slice(0, i), ...ls.slice(j)].join("\n").replace(/Open Game Content under[\s\S]*$/, "").trim().length;
+}
+// A god SUMMARY table: the Deity/AL/Worshipers/Domains header and (almost) nothing else — every god in it has its own page.
+export function isGodSummaryTable(body) {
+  const ls = String(body).split("\n").map((l) => l.trim()).filter(Boolean);
+  return /^Deity\tAL\t/m.test(body) && Math.max(0, ...ls.filter((l) => !l.includes("\t")).map((l) => l.length)) < 200;
+}
 export function commaListShare(ls) {
   const total = ls.reduce((n, l) => n + l.length, 0) || 1;
   const list = ls.filter((l) => { const it = l.split(","); return it.length >= 12 && it.every((x) => x.trim().split(/\s+/).length <= 4) && !/[.!?]\s/.test(l); });
@@ -573,6 +596,21 @@ export function isCatalogPage(bucket, chars, ls, body, title) {
   if (bucket === "archetypes") return false;
   if (hasOwnStatBlock(body, title)) return false;
   if (commaListShare(ls) > 0.6) return true;
+  // Found in batch 9 (2026-09-24), each caught by d20-import's dry-run review, not by the earlier signals:
+  // 1. The 3rd-party FEAT HUB template ("Kobold Press", "Alluria Publishing", "Necromancer Games" under /feats/3rd-party-feats/):
+  //    a format-explanation preamble plus a summary table of every feat the publisher has, whose rows wrap across two
+  //    lines ("Barreling Overrun<TAB>Str 13...<TAB>Combat" / "<TAB>AF:CC"), so no tab run reaches 40. Every feat in the
+  //    table has its own page. The preamble text is the template's fingerprint.
+  if (/Feats are summarized on the table below|The following table lists all feats, showing prerequisites in tree form/.test(body)) return true;
+  // 2. A bare "Subpages" stub ("Drop Dead Studios": a Subpages heading and two link names): once the link list is
+  //    removed almost nothing is left. Measured on the page's OWN text, not its length — "Dolphin" and "Doctrine of Pack"
+  //    are short too but carry real text beside their subpage list.
+  if (subpagesStubOwnChars(body) < 300) return true;
+  // 3. A god SUMMARY table ("Frog God Games – Gods": Deity/AL/Worshipers/Domains for ~50 gods, every one with its own
+  //    page, plus one disclaimer line). A generic "the page is mostly a table" rule was tried and rejected: it also caught
+  //    "Knucklebone of Fickle Fortune" (one artifact + its effects table) and the "Road or Trade Route" / "Subterranean"
+  //    encounter tables, which are unique content. Pantheon pages with real lore (Purple Duck's) are kept.
+  if (isGodSummaryTable(body)) return true;
   if (longestTabRun(ls) >= 40) return true;
   if (listyRatio(ls) >= 0.85) return true;
   if (maxRepeatedTabLine(ls) >= 10) return true;

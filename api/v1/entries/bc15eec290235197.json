@@ -1,0 +1,30 @@
+{
+  "id": "bc15eec290235197",
+  "name": "Night Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "alchemist": 4,
+      "bloodrager": 4,
+      "magus": 4,
+      "nightblade": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level alchemist 4, bloodrager 4, magus 4, nightblade 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level\n\nDESCRIPTION\n\nYour shadow flows up and surrounds you, defending you from incoming attacks. The night armor reduces incoming damage, granting you DR 5/silver for the duration of the spell, as well as the benefits of a night shield spell. In addition to these benefits, the shadow can deflect a single ranged touch attack each round. This functions similarly to the Ray Shield feat, though you do not need to be wearing a shield to deflect the attack (the night armor does it for you). This deflected ranged touch attack is in addition to the one ranged touch attack you can deflect each round with the Ray Shield feat, if you have it normally.\n\nOnce the night armor has prevented 10 points of damage per caster level (maximum 150), the spell is discharged. This includes both the damage prevented by the damage reduction and the damage that would have been dealt by ray attacks deflected by the night armor, but does not include deflected ranged weapon attacks with the Missile Shield ability nor any magic missile spells blocked by the night armor.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bc15eec290235197.json",
+    "web": "https://codex.pipsprojects.com/#/e/bc15eec290235197"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ea898b589a1ad929",
+  "name": "Animal Agent",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "ranger": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level cleric/oracle 3, druid 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a morsel of food the animal likes)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one Tiny animal\nDuration 1 day/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nSimilar to the spell animal messenger, this spell allows for more complicated instructions to be given to any Tiny animal. Whereas in animal messenger the animal can be instructed to go only to a certain location, this spell allows for up to three steps of instructions to be mentally impressed upon the animal. The normal use is for the animal to: 1) go to a place, 2) wait for something to happen, and then 3) return to some place (most likely where the caster is or expects to be). All the other details of animal messenger apply to this spell.\n\nAnimal agent works only on animals with an Intelligence of 1 or 2.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ea898b589a1ad929.json",
+    "web": "https://codex.pipsprojects.com/#/e/ea898b589a1ad929"
+  },
+  "license": "OGL 1.0a"
+}

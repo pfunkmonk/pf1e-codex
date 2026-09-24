@@ -1,0 +1,29 @@
+{
+  "id": "d16bc964ae18e18b",
+  "name": "Brightmatter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation) [light]; Level bard 2, cleric/oracle 2, druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (live firefly)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect blob of phosphorescent matter\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a luminous mass of ectoplasm that generates bright light in a 20-foot radius and shadowy light in a 40-foot radius. The mass is sticky and pliable, and can adhere to inanimate objects, walls, ceilings, floors, and so on. You can divide the brightmatter into smaller separate pieces, but doing so reduces the amount of light that each piece sheds.\n\nPieces\tBright\tShadowy\n1 piece\t20 ft.\t40 ft.\n2 pieces\t15 ft.\t30 ft.\n3 pieces\t10 ft.\t20 ft.\n4 pieces\t5 ft.\t10 ft.\n5 pieces\t–\t5 ft.\n\nBrightmatter does not generate heat.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d16bc964ae18e18b.json",
+    "web": "https://codex.pipsprojects.com/#/e/d16bc964ae18e18b"
+  },
+  "license": "OGL 1.0a"
+}

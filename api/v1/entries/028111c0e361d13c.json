@@ -1,0 +1,19 @@
+{
+  "id": "028111c0e361d13c",
+  "name": "Restore Balance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design manipulation (conviction) [chaos, evil, good, law]; Level 9\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 10-ft.-radius burst\nDuration instantaneous\nSaving Throw Will half and Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nRestore balance unleashes cosmic forces upon creatures in a target area, devastating creatures of varying alignment and banishing certain outsiders.\n\nCreatures in the area that are lawful good, chaotic good, lawful evil, or chaotic evil are harmed the most for being the furthest away from cosmic balance, taking 20d6 damage. Neutral good, lawful neutral, chaotic neutral, and neutral evil creatures are less harmed, taking 15d6 damage instead. A true neutral creature is still harmed by the conflicting energies in the area, taking 10d6 damage. A Will save halves the damage taken.\n\nOutsiders with the good, evil, chaotic, or lawful subtype that fail their saving throw must make a second Will saving throw or be sent back to their home plane, as a banish script. Creatures with a HD higher than your caster level are unaffected by the banishing effect.\n\nOverload: For every runic charge overloaded into this script, you can increase the radius of the burst by 5 feet, and the maximum HD of outsider you can banish increases by 2.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/028111c0e361d13c.json",
+    "web": "https://codex.pipsprojects.com/#/e/028111c0e361d13c"
+  },
+  "license": "OGL 1.0a"
+}

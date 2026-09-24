@@ -1,0 +1,23 @@
+{
+  "id": "3d3a5c744a28b90a",
+  "name": "Alter Poison Damage Type",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one dose of non-magical poison that deals ability damage\nDuration 1 min./level\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou are able to change the type of ability damage dealt by the affected poison. Poison that deals Strength, Dexterity, or Constitution damage may only be altered to one of the other two types. Poison that deals Intelligence, Wisdom, or Charisma damage may only be altered to one of the other two types.\n\nWhen the spell ends, the poison reverts to its normal damage type.\n\nA dose of poison under the effect of this spell is considered a magically modified poison.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3d3a5c744a28b90a.json",
+    "web": "https://codex.pipsprojects.com/#/e/3d3a5c744a28b90a"
+  },
+  "license": "OGL 1.0a"
+}

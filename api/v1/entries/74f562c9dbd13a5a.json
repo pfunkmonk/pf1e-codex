@@ -1,0 +1,19 @@
+{
+  "id": "74f562c9dbd13a5a",
+  "name": "Tremor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design invocation [earth]; Level 3\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange 30 ft.\nArea 30 ft. cone\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nWith a stomp, you cause the ground before you to quake and rumble. Each creature in the area takes 1d8 bludgeoning damage per two caster levels (max 5d8) and is knocked prone as stone and soil bursts up and strikes them. A successful Reflex save halves the damage and negates the prone effect.\n\nThis script only works when on natural terrain or on worked stone and soil; it does not work on metallic or wooden surfaces. A creature that is at least 1 foot off the ground is not knocked prone by tremor but can still be damaged if it is less than 5 feet above the ground.\n\nOverload: For every runic charge overloaded into this script, the range and area increases by 10 feet. If at least two destruction charges are used, the area also becomes difficult terrain.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/74f562c9dbd13a5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/74f562c9dbd13a5a"
+  },
+  "license": "OGL 1.0a"
+}

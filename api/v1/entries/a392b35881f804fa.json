@@ -1,0 +1,28 @@
+{
+  "id": "a392b35881f804fa",
+  "name": "Dust Wall",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "ranger": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [earth]; Level druid 2, ranger 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a pinch of dirt or sand)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect wall up to 5 ft./level long and 10 ft./level high (S)\nDuration 1 round/level (D)\nSaving Throw none or Fortitude partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou raise a roiling curtain of airborne dust about a foot thick. Living creatures passing through the wall must make a successful Fortitude save or be blinded for 1 round. The wall is semisolid and does not block line of sight or line of effect, but provides soft cover (+4 AC) to anyone behind it. The squares containing the wall are difficult terrain (each square moved counts as two squares of movement, with each diagonal counting as three squares). The wall must always stand on the ground, and you can make it twice as long by making it half as high (10 ft./level long and 5 ft. high). As a move action, you can direct it to move along the ground at up to 20 feet each round.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a392b35881f804fa.json",
+    "web": "https://codex.pipsprojects.com/#/e/a392b35881f804fa"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "833d3d2ab08ec307",
+  "name": "Frost Fingers (cold)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [cold]; Level druid 2, magus 2, sorcerer/wizard 2\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nA wordspell with this effect word deals 1d6 points of cold damage per caster level (maximum 5d6). A target that fails its saving throw is also staggered for 1 round.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/833d3d2ab08ec307.json",
+    "web": "https://codex.pipsprojects.com/#/e/833d3d2ab08ec307"
+  },
+  "license": "OGL 1.0a"
+}
