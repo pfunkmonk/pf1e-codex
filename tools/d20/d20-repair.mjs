@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
-import { snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -47,6 +47,26 @@ const isD20 = (r) => r[0] === mintId(r[2], r[1]);
     moved++;
   }
   console.log(`gods moved into deities: ${moved}`);
+}
+// ---- 0b. "(Publisher)" suffixes that are citations or Paizo book titles -> short form (see shortSuffix / isPaizoish) ----
+{
+  const taken = new Set(rows.map((r) => r[2] + "|" + norm(r[1])));
+  let renamed = 0, blocked = 0;
+  for (const r of rows) {
+    if (!isD20(r)) continue;
+    const m = /^(.*\S) \(([^()]+)\)$/.exec(r[1]); if (!m) continue;
+    const [, base, sfx] = m;
+    const want = isPaizoish(sfx) ? "d20pfsrd" : shortSuffix(sfx);
+    if (want === sfx) continue;
+    // only names this importer gave a publisher/citation suffix: a real "(Su)"/"(CR 3)" tag is short and never matches the rules above
+    if (sfx.length <= 28 && !isPaizoish(sfx) && !/ from the /i.test(sfx)) continue;
+    const newName = `${base} (${want})`, newId = mintId(r[2], newName);
+    if (taken.has(r[2] + "|" + norm(newName))) { blocked++; continue; }
+    bodies[r[2]][newId] = bodies[r[2]][r[0]]; delete bodies[r[2]][r[0]];
+    taken.delete(r[2] + "|" + norm(r[1])); taken.add(r[2] + "|" + norm(newName));
+    r[0] = newId; r[1] = newName; renamed++;
+  }
+  console.log(`long/citation suffixes shortened: ${renamed}${blocked ? ` (${blocked} left: the short name is taken)` : ""}`);
 }
 const d20 = rows.filter(isD20), orig = rows.filter((r) => !isD20(r));
 console.log(`rows ${rows.length}: d20-minted ${d20.length}, original ${orig.length}`);
@@ -94,6 +114,21 @@ for (const r of d20) {
 console.log(`snippets out of step with their body: ${snipFixed}`);
 for (const r of listPages) drop.set(r[0], `${r[1]}  <>  (a list of names, no content of its own)`);
 
+// ---- 2b. suffixed namesakes ("Name (d20pfsrd)", "Name (Publisher)") that repeat their plain-name twin's TEXT ----
+// d20-match called these "different content" because the AoN original carries extra "Source …" lines; the text is the same.
+{
+  const byNameBucket = new Map(rows.map((r) => [r[2] + "|" + norm(r[1]), r]));
+  let n = 0;
+  for (const r of d20) {
+    if (drop.has(r[0])) continue;
+    const m = /^(.*\S) \(([^()]+)\)$/.exec(r[1]); if (!m) continue;
+    if (m[2] !== "d20pfsrd" && m[2] !== shortSuffix(r[4])) continue;   // only suffixes the importer generated; "(Mythic)", "(3.5E)", "(Teamwork)" are real variants that legitimately contain their base's text
+    const twin = byNameBucket.get(r[2] + "|" + norm(m[1]));
+    if (!twin || twin[0] === r[0]) continue;
+    if (contentOverlap(bodies[r[2]][r[0]], bodies[twin[2]][twin[0]]) >= SAME_TEXT) { drop.set(r[0], `${r[1]}  <>  (same text as "${twin[1]}")`); n++; }
+  }
+  console.log(`\nsuffixed namesakes that repeat their twin's text: ${n}`);
+}
 // ---- 2. inverted-name duplicates of ORIGINAL rows ----
 const origByKey = new Map();
 for (const r of orig) for (const k of nameKeys(r[1])) { const a = origByKey.get(r[2] + "|" + k); a ? a.push(r) : origByKey.set(r[2] + "|" + k, [r]); }

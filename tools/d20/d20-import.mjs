@@ -19,7 +19,7 @@ import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadCodex } from "../lib/api-build.mjs";
-import { snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
@@ -238,7 +238,7 @@ for (const r of toImport) {
   // A Paizo/unconfirmed page the matcher judged DIFFERENT content (NAMESAKE — e.g. the regional trait "Bandit" from another
   // region than the AoN "Bandit") is kept too, told apart as "Name (d20pfsrd)". A NEW-verdict Paizo collision is still skipped.
   const canDisamb = thirdNamed || r.verdict === "NAMESAKE";
-  const suffix = thirdNamed ? bk : "d20pfsrd";
+  const suffix = thirdNamed ? shortSuffix(bk) : "d20pfsrd";
   const disamb = (n) => (n.toLowerCase().endsWith("(" + suffix.toLowerCase() + ")") ? n : n + " (" + suffix + ")");
   // HELD verdicts. d20-match.mjs held 1,473 pages back as NAMESAKE ("same name, different content") or AMBIGUOUS. A
   // sample showed most are genuinely different entries (a third-party "Shedu", two publishers' "Energy Weapon", a
@@ -263,6 +263,10 @@ for (const r of toImport) {
   // row from a previous run (ids are minted from bucket+name) — an update, not a collision.
   let existingIdForKey = existingNameBucket.get(key);
   if (existingIdForKey !== undefined && existingIdForKey !== id) {
+    // SAME TEXT as the existing row (an AoN original that merely carries extra "Source …" lines): a duplicate, whatever the
+    // matcher's cosine said. Only text that genuinely differs is kept as a suffixed namesake.
+    const exBody0 = d.BODIES[p.bucket] && d.BODIES[p.bucket][existingIdForKey];
+    if (exBody0 !== undefined && contentOverlap(exBody0, p.body) >= SAME_TEXT) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "same text as the existing row (duplicate)" }); continue; }
     if (!canDisamb) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name exists; content not judged different and not from a named third-party publisher" }); continue; }
     name = disamb(name); key = norm(name) + "|" + p.bucket; id = mintId(p.bucket, name); existingIdForKey = existingNameBucket.get(key);
     if (existingIdForKey !== undefined && existingIdForKey !== id) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name+publisher already exists" }); continue; }
@@ -270,13 +274,17 @@ for (const r of toImport) {
   // SAME id is only "my own row from an earlier run" if it is the same page. Across batches a DIFFERENT publisher's page
   // can mint the same id ("Detect Curse": Frog God Games, then Rogue Genius Games); a differing source on an existing
   // id is a namesake — keep the existing row, do not overwrite.
+  // The SOURCE alone is not enough: two DIFFERENT pages by the same publisher can share a name ("Chilling Aura": an
+  // evocation and a transmutation spell, both Paizo) and would overwrite each other run after run. Same page = same opening text.
+  const headOf = (t) => norm(String(t)).slice(0, 120);
+  const samePage = (rid) => { const eb = d.BODIES[p.bucket] && d.BODIES[p.bucket][rid]; return eb !== undefined && (headOf(eb) === headOf(p.body) || contentOverlap(eb, p.body) >= SAME_TEXT); };
   if (existingIdForKey === id) {
     const oldRow = d.IDX.find((row) => row[0] === id);
-    if (oldRow && oldRow[4] !== (bk || "d20pfsrd.com")) {
+    if (oldRow && (oldRow[4] !== (bk || "d20pfsrd.com") || !samePage(id))) {
       if (!canDisamb) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "existing row is by \"" + oldRow[4] + "\", this page by \"" + bk + "\"" }); continue; }
       name = disamb(name); key = norm(name) + "|" + p.bucket; id = mintId(p.bucket, name); existingIdForKey = existingNameBucket.get(key);
       const o2 = existingIdForKey !== undefined ? d.IDX.find((row) => row[0] === existingIdForKey) : null;
-      if (existingIdForKey !== undefined && (existingIdForKey !== id || (o2 && o2[4] !== bk))) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name+publisher already exists" }); continue; }
+      if (existingIdForKey !== undefined && (existingIdForKey !== id || (o2 && (o2[4] !== bk || !samePage(existingIdForKey))))) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name+publisher already exists" }); continue; }
     }
   }
   // INTRA-BATCH NAMESAKE: two DIFFERENT d20 pages in one run minting the SAME id ("Swap" by Kobold Press vs Rogue Genius

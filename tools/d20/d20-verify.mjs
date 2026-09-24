@@ -16,7 +16,7 @@ import { execSync } from "node:child_process";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
 import {
   UNVERIFIED_MARK, UNVERIFIED_SOURCE, isPaizoish, publishersFromNotice, nameKeys, VARIANT_QUAL,
-  isGodBody, isFlatStatLine, snippetOf,
+  isGodBody, isFlatStatLine, snippetOf, contentOverlap, SAME_TEXT, shortSuffix,
 } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
@@ -106,6 +106,19 @@ check("no placeholder text where a Section 15 credit should be",
     for (const k of nameKeys(r[1])) for (const o of byKey.get(r[2] + "|" + k) || []) if (!VARIANT_QUAL.test(o[1]) && o[1] !== r[1]) bad.push(`${r[1]}  duplicates original "${o[1]}"`);
   }
   check("no d20 entry duplicates an original page under an inverted name", [...new Set(bad)]);
+}
+
+{
+  // A "Name (Publisher)" / "Name (d20pfsrd)" namesake is only legitimate when its text genuinely differs from the plain-name row.
+  const byNameBucket = new Map(rows.map((r) => [r[2] + "|" + norm(r[1]), r]));
+  const bad = [];
+  for (const r of d20) {
+    const m = /^(.*\S) \(([^()]+)\)$/.exec(r[1]); if (!m) continue;
+    if (m[2] !== "d20pfsrd" && m[2] !== shortSuffix(r[4])) continue;   // only importer-generated suffixes; "(Mythic)" etc. are real variants
+    const twin = byNameBucket.get(r[2] + "|" + norm(m[1])); if (!twin || twin[0] === r[0]) continue;
+    if (contentOverlap(bodies[r[0]], bodies[twin[0]]) >= SAME_TEXT) bad.push(`${r[1]} [${r[2]}] repeats the text of "${twin[1]}"`);
+  }
+  check("no suffixed namesake repeats the text of its plain-name twin", bad);
 }
 
 /* ---- routing ---- */
