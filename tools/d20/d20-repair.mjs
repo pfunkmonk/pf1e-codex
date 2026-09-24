@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare } from "./d20-clean.mjs";
-import { stripTemplateJunk, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -27,7 +27,7 @@ for (const b of buckets) {
   bodies[b] = JSON.parse(text.slice(open.length, text.trimEnd().length - 2));
 }
 // ---- 0. gods filed under `options`/`classes` -> `deities` (d20 files them under Classes > Cleric > Gods; see bucketOf) ----
-const godBody = (b) => /Alignment:?\s+(?:Lawful|Neutral|Chaotic|LG|LN|LE|NG|N\b|NE|CG|CN|CE)/i.test(b) && /(Domains?|Portfolio|Favou?red Weapons?|Typical Worshipers?)\b/.test(b);
+const godBody = isGodBody;
 const isD20 = (r) => r[0] === mintId(r[2], r[1]);
 {
   const have = new Set(rows.filter((r) => r[2] === "deities").map((r) => norm(r[1])));
@@ -56,19 +56,29 @@ const drop = new Map();
 const listPages = d20.filter((r) => commaListShare(String(bodies[r[2]][r[0]]).split("\n").filter((l) => l.trim())) > 0.6);
 console.log(`\nname-list navigation pages posing as entries: ${listPages.length}`);
 for (const r of listPages) { console.log("  drop", r[1], `[${r[2]}]`); }
-const STAT_BREAK = /\s+(?=(?:DEFENSE|OFFENSE|STATISTICS|ECOLOGY|SPECIAL ABILITIES|TACTICS)\b|(?:Init [+-]\d|AC \d|hp \d|Fort [+-]\d|Speed \d|Melee |Ranged |Space \d|Special Attacks |Str \d|Base Atk [+-]|Feats [A-Z]|Skills [A-Z]|Languages [A-Z]|SQ [a-z]|Environment [a-z]|Organization [a-z]|Treasure [a-z]))/g;
-const isFlat = (l) => l.length > 700 && ["Init", "AC ", "hp ", "Fort ", "Speed ", "Melee", "Str ", "Base Atk", "Feats", "Skills"].filter((k) => l.includes(k)).length >= 6;
 let rebroke = 0;
 for (const r of d20) {
   const b = String(bodies[r[2]][r[0]]);
-  if (!b.split("\n").some(isFlat)) continue;
-  const nb = b.split("\n").map((l) => (isFlat(l) ? l.replace(STAT_BREAK, "\n") : l)).join("\n");
+  if (!b.split("\n").some(isFlatStatLine)) continue;
+  const nb = breakFlatStatBlocks(b);
   console.log(`  re-broke flattened stat block: ${r[1]} (${b.split("\n").length} -> ${nb.split("\n").length} lines)`);
-  if (APPLY) bodies[r[2]][r[0]] = nb;
+  if (APPLY) { bodies[r[2]][r[0]] = nb; r[5] = snippetOf(nb); }
   rebroke++;
 }
-let cleaned = 0;
-for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = stripTemplateJunk(b); if (nb !== b) { console.log(`  stripped template text: ${r[1]} (${b.length - nb.length} chars)`); if (APPLY) bodies[r[2]][r[0]] = nb; cleaned++; } }
+let cleaned = 0, dividers = 0;
+for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = tidyDividers(b); if (nb !== b) { console.log(`  tidied ~~~ dividers: ${r[1]}`); if (APPLY) bodies[r[2]][r[0]] = nb; dividers++; } }   // snippets are re-derived by the drift step below
+for (const r of d20) { const b = String(bodies[r[2]][r[0]]); const nb = stripTemplateJunk(b); if (nb !== b) { console.log(`  stripped template text: ${r[1]} (${b.length - nb.length} chars)`); if (APPLY) { bodies[r[2]][r[0]] = nb; r[5] = snippetOf(nb); } cleaned++; } }
+// The index snippet is derived from the body; any drift between the two (a body cleaned without its snippet) is repaired here.
+let snipFixed = 0;
+for (const r of d20) {
+  const bd = String(bodies[r[2]][r[0]]);
+  const want = snippetOf(bd.slice(0, bd.lastIndexOf("\n\n")));   // the importer snippets the body BEFORE the license paragraph is appended
+  if (r[5] === want) continue;
+  if (snipFixed < 6) console.log(`  snippet drift: ${r[1]}: «${String(r[5]).slice(0, 60)}» -> «${want.slice(0, 60)}»`);
+  if (APPLY) r[5] = want;
+  snipFixed++;
+}
+console.log(`snippets out of step with their body: ${snipFixed}`);
 for (const r of listPages) drop.set(r[0], `${r[1]}  <>  (a list of names, no content of its own)`);
 
 // ---- 2. inverted-name duplicates of ORIGINAL rows ----

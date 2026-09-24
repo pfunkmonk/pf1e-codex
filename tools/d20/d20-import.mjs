@@ -12,19 +12,21 @@
  *
  * DRY RUN BY DEFAULT — writes a report only. --apply writes data/cat/*.js and data/index.js.
  *
- * Usage: node tools/d20/d20-import.mjs [--snap D:/CODEX/d20-pilot] [--apply] [--show 20]
+ * Usage: node tools/d20/d20-import.mjs [--snap D:/CODEX/d20-pilot] [--root <repo>] [--apply] [--show 20]
  */
 import fs from "node:fs";
 import crypto from "node:crypto";
+import { spawnSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
 import { loadCodex } from "../lib/api-build.mjs";
-import { stripTemplateJunk, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
 const SNAP = arg("snap", "D:/CODEX/d20-pilot");
 const APPLY = argv.includes("--apply");
 const SHOW = Number(arg("show", 20));
-const ROOT = "C:/Users/mailp/dev/pf1e-codex";
+const ROOT = arg("root", "C:/Users/mailp/dev/pf1e-codex");   // --root lets a scratch copy be written and diffed before touching the repo
 
 /* ---------- shared helpers (ported from fix-duplicate-bodies.mjs / import-typed-orphans.mjs) ---- */
 // The archiver's encoding pass occasionally mangles a character it couldn't map: U+FFFD (the
@@ -54,13 +56,7 @@ function field(raw, label) {
   return m ? m[1].trim() : "";
 }
 const bookOf = (src) => String(src || "").replace(/\s*pg\.\s*\d+.*$/, "").trim();
-function snippetOf(body) {
-  const ls = String(body || "").split("\n");
-  let i = 0;
-  if (ls[i] !== undefined && norm(ls[i]).length < 80 && !/^Source\s/i.test(ls[i]) && /^[A-Z]/.test(ls[i] || "") && ls[i + 1] !== undefined && /^Source\s/i.test(ls[i + 1] || "")) i++;
-  if (ls[i] !== undefined && /^Source\s/i.test(ls[i])) i++;
-  return ls.slice(i).join(" ").replace(/\s+/g, " ").trim().slice(0, 200);
-}
+// snippetOf() now lives in d20-attrib.mjs (shared with d20-repair.mjs).
 
 /* ---------- facets, per bucket. "bk" (book/publisher) is the one every bucket gets; the rest match
  * what EXISTING rows already carry for that bucket (checked against data/index.js before writing this,
@@ -225,7 +221,9 @@ for (const r of toImport) {
   const p = pages.get(r.file);
   if (!p) { report.skippedUnmappedBucket.push({ ...r, reason: "page missing from pages.jsonl" }); continue; }
   if (!IMPORTABLE_BUCKETS.has(p.bucket)) { report.skippedUnmappedBucket.push({ ...r, reason: `bucket "${p.bucket}" not handled by this importer` }); continue; }
-  p.body = stripTemplateJunk(sanitizeText(p.body));
+  p.body = tidyDividers(breakFlatStatBlocks(stripTemplateJunk(sanitizeText(p.body))));
+  // Backstop for bucketOf(): a god-shaped page filed under options/classes belongs in deities whatever its crumb said.
+  if ((p.bucket === "options" || p.bucket === "classes") && isGodBody(p.body)) p.bucket = "deities";
   p.name = sanitizeText(p.name);
   p.license = sanitizeText(p.license);
 
@@ -253,7 +251,7 @@ for (const r of toImport) {
   // a differing source on an existing id is a namesake — hold the new one, keep the existing.
   if (existingIdForKey === id) {
     const oldRow = d.IDX.find((row) => row[0] === id);
-    const newSrc = bkOf(p) || "d20pfsrd.com";
+    const newSrc = repairSource(bkOf(p), p.license) || "d20pfsrd.com";
     if (oldRow && oldRow[4] !== newSrc) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: `existing row is by "${oldRow[4]}", this page by "${newSrc}"` }); continue; }
   }
   // INTRA-BATCH NAMESAKE: two DIFFERENT d20 pages, same run, minting the SAME id because they share a
@@ -364,7 +362,12 @@ if (APPLY) {
     fs.writeFileSync(idxPath, `window.PF_INDEX=${JSON.stringify(idxRows)};\n`);
     console.log(`  data/index.js: +${added} new, ${updated} updated`);
   }
-  console.log("\nDone. Now: node tools/gen-api.mjs && node tools/check-api.mjs, run the checks suite, bump the 3 cache tokens, verify live.");
+  // Every defect class this importer has ever shipped is checked here, against the files just written, so an
+  // --apply can never end quietly with a known problem in the data. See d20-verify.mjs.
+  console.log("\n--- d20-verify (runs after every --apply) ---");
+  const v = spawnSync(process.execPath, ["--max-old-space-size=8192", fileURLToPath(new URL("./d20-verify.mjs", import.meta.url)), "--root", ROOT], { stdio: "inherit" });
+  if (v.status !== 0) { console.log("\n!! d20-verify FAILED — do NOT run gen-api / commit / deploy. Fix the importer (not just the data) and re-run."); process.exitCode = 1; }
+  else console.log("\nDone. Now: node tools/gen-api.mjs && node tools/check-api.mjs, run the checks suite, bump the 3 cache tokens, verify live.");
 } else {
   console.log(`\nDry run only — nothing written. Review the report, then re-run with --apply.`);
 }
