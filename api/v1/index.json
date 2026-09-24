@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "82",
+  "dataVersion": "83",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 40043,
+    "entries": 40042,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
       "nameFirst": 3465,
       "sourceFirst": 12474,
-      "other": 24104
+      "other": 24103
     }
   },
   "endpoints": {
@@ -43,20 +43,20 @@
     {
       "slug": "classes",
       "label": "Classes",
-      "count": 370,
+      "count": 369,
       "list": "classes.json",
       "categories": {
-        "Base Classes": 204,
+        "Base Classes": 203,
         "Prestige Classes": 166
       }
     },
     {
       "slug": "deities",
       "label": "Deities",
-      "count": 463,
+      "count": 515,
       "list": "deities.json",
       "categories": {
-        "Deities": 462,
+        "Deities": 514,
         "Deity": 1
       }
     },
@@ -115,14 +115,14 @@
     {
       "slug": "monsters",
       "label": "Monsters",
-      "count": 7383,
+      "count": 7382,
       "list": "monsters.json",
       "categories": {
         "Animal Companions": 214,
         "Creature Subtypes": 84,
         "Creature Types": 13,
         "Monster Families": 140,
-        "Monsters": 6547,
+        "Monsters": 6546,
         "Mythic Monsters": 89,
         "Templates": 164,
         "Universal Monster Rules": 132
@@ -140,7 +140,7 @@
     {
       "slug": "options",
       "label": "Class Options",
-      "count": 3632,
+      "count": 3581,
       "list": "options.json",
       "categories": {
         "3rd Party Classes": 2,
@@ -237,11 +237,9 @@
         "Frog God Games": 1,
         "Frog God Games – Arcane Schools": 4,
         "Frog God Games – Bloodlines": 2,
-        "Frog God Games – Gods": 19,
         "GUNGNIR Gamedev": 1,
         "Geomancer": 2,
         "Glory Domain": 2,
-        "Gods & Pantheons": 1,
         "Good Domain": 1,
         "Healing Domain": 2,
         "Hedge Witch Traditions": 1,
@@ -331,7 +329,6 @@
         "Priest": 1,
         "Protection Domain": 1,
         "Purple Duck Games – Domains": 1,
-        "Purple Duck Games – Gods": 27,
         "Radiance House": 1,
         "Radiance House – Domains": 1,
         "Rage Powers": 234,
@@ -349,7 +346,6 @@
         "Rogue Genius Games": 10,
         "Rogue Genius Games – Bloodlines": 1,
         "Rogue Genius Games – Domains": 1,
-        "Rogue Genius Games – Gods": 4,
         "Rogue Genius Games – Ninja Master Tricks": 4,
         "Rogue Genius Games – Ninja Tricks": 9,
         "Rogue Genius Games – Slayer Advanced Talents": 2,
