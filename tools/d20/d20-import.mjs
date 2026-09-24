@@ -17,7 +17,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { loadCodex } from "../lib/api-build.mjs";
-import { repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { stripTemplateJunk, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
@@ -225,7 +225,7 @@ for (const r of toImport) {
   const p = pages.get(r.file);
   if (!p) { report.skippedUnmappedBucket.push({ ...r, reason: "page missing from pages.jsonl" }); continue; }
   if (!IMPORTABLE_BUCKETS.has(p.bucket)) { report.skippedUnmappedBucket.push({ ...r, reason: `bucket "${p.bucket}" not handled by this importer` }); continue; }
-  p.body = sanitizeText(p.body);
+  p.body = stripTemplateJunk(sanitizeText(p.body));
   p.name = sanitizeText(p.name);
   p.license = sanitizeText(p.license);
 
