@@ -1,0 +1,27 @@
+{
+  "id": "c80bdb1bc72f1d78",
+  "name": "Summon Sentries",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7,
+      "vanguard": 6
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (summoning) [metal]; Level sorcerer/wizard 7, vanguard 6\n\nCASTING\n\nCasting Time 1 round or 10 minutes, see text\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect two or more clockwork soldiers, no two of which can be more than 30 ft. apart (see text)\nDuration 1 hour/level or 1 round/level (D), see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell conjures and animates 1d4+1 clockwork soldiers. The soldiers willingly aid you in combat or battle or defend an area; depending on how you use them, the spell functions differently:\n\nCombat: You can summon the soldiers in 1 round to fight immediately. This functions as a summon monster VII spell, including limitations on the soldiers staying near you for the duration of the effect. This version of the spell lasts for 1 round per caster level.\nDefense: You can summon the soldiers to protect a given location. Summoning the soldiers in this manner takes 10 minutes, but the soldiers remain for 1 hour per caster level. You must designate a given location for the soldiers to defend; the soldiers remain there vigilant and defend it, and cannot leave the spell’s range. The soldiers can act without your presence, but you must specify how they should protect the area (such as preventing passage or guarding an object from theft). The soldiers always respond to aggression in kind, but can be directed to attack creatures that attempt to pass peacefully.\n\nYou can only have one summon sentries spell in effect at one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c80bdb1bc72f1d78.json",
+    "web": "https://codex.pipsprojects.com/#/e/c80bdb1bc72f1d78"
+  },
+  "license": "OGL 1.0a"
+}

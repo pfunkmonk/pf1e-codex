@@ -1,0 +1,27 @@
+{
+  "id": "ed45b3a8e5a19dd5",
+  "name": "Repulse (gravity)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 9,
+      "druid": 9,
+      "wizard": 8,
+      "summoner": 6,
+      "witch": 8
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation; Level cleric/oracle 9, druid 9, sorcerer/wizard 8, summoner 6, witch 8\n\nEFFECT\n\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\nTarget Restrictions burst (emanation)\n\nDESCRIPTION\n\nThis effect word creates an area of impossible gravity, where all creatures and objects not securely fastened to the ground fall away from the center of the burst, to its exterior edge. Creatures inside the area when it forms are immediately moved toward its nearest edge. If, because of an obstacle, they cannot reach the edge, they strike the barrier and take falling damage. While a wordspell with this effect word persists, objects cannot enter the area unless they possess the ability to fly. Any flying creatures that rely on wings and enter the area must immediately make a DC 25 Fly skill check or be repelled by the area, unable to enter this turn. Missile weapons that pass through this area automatically miss their target. The caster is immune to this effect and may enter the area freely.\n\nBoost: The caster may designate a number of creatures equal to his level that are not affected by the wordspell.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed45b3a8e5a19dd5.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed45b3a8e5a19dd5"
+  },
+  "license": "OGL 1.0a"
+}

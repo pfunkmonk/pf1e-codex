@@ -1,0 +1,33 @@
+{
+  "id": "5529636b5211e5fd",
+  "name": "Embrace The Deep",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "druid": 5,
+      "elementer": 5,
+      "invoker": 4,
+      "occultist": 5,
+      "psychic": 5,
+      "shaman": 5,
+      "witch": 5
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [water]; Level alchemist 5, druid 5, elementer 5, invoker 4, occultist 5, psychic 5, shaman 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a sahuagin scale)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nWith a touch, the enchanted creature becomes a master of the deepest reaches of the ocean.\n\nThe creature gains a swim speed of 90 feet (along with the +8 racial bonus to swim checks this speed provides), can breathe underwater, and is unaffected by pressure or cold from being deep underwater. So long as it is conscious and fully submerged in water, the creature also gains the benefit of freedom of movement (as the spell) and is immune to confusion. These benefits end if the creature is even partially removed from the water, but return if submerged again.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5529636b5211e5fd.json",
+    "web": "https://codex.pipsprojects.com/#/e/5529636b5211e5fd"
+  },
+  "license": "OGL 1.0a"
+}

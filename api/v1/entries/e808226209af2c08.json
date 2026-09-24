@@ -1,0 +1,28 @@
+{
+  "id": "e808226209af2c08",
+  "name": "Deliver Message",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "cleric": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 5, cleric 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange Close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 week/level or until discharged (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou tell the subject to deliver a message to a third person. The subject is compelled to say exactly what you tell him to say the next time he encounters the other person. Until the message is delivered, the subject is compelled to find the person as if under the effect of a lesser geas spell. Although the subject knows he must fulfill his geas, he cannot actually recall the message until he has delivered it. Creatures often use this spell to deliver secret messages to their followers. All of the effects listed in lesser geas involving the prevention of the target’s fulfillment of the geas apply to deliver message.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e808226209af2c08.json",
+    "web": "https://codex.pipsprojects.com/#/e/e808226209af2c08"
+  },
+  "license": "OGL 1.0a"
+}

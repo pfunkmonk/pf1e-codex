@@ -1,0 +1,28 @@
+{
+  "id": "9a9a896d5c8c05ce",
+  "name": "Toxic Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "bloodrager": 4
+    },
+    "desc": [
+      "poison"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School necromancy [poison]; Level magus 4, sorcerer/wizard 4, bloodrager 4\n\nCASTING\n\nCasting Time 1 full round\nComponents V, S, M (adder’s fang)\n\nEFFECT\n\nRange touch\nTarget piercing or slashing weapon\nDuration 1 hour or until discharged\nSaving Throw Fort negates; see text; Spell Resistance no\n\nDESCRIPTION\n\nAs you touch your weapon, a viscous, oily fluid spreads along its length, coating the bladed surface in poison. The next successful melee attack delivered with this weapon infects the target with a virulent poison. This poison deals 1d3 Constitution damage per round for 6 rounds. A poisoned creature can attempt a Fortitude save each round to negate the damage, with the affliction ended after two successful saves.\n\nWhile enchanted with this spell, the weapon may be sheathed and handled without risk of poisoning to the caster, though handing of the weapon by anyone else immediately ends the spell.\n\nArt of Magic: Magic and Melee, © 2021, d20pfsrd.com Publishing; Author: Mark Thomas",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9a9a896d5c8c05ce.json",
+    "web": "https://codex.pipsprojects.com/#/e/9a9a896d5c8c05ce"
+  },
+  "license": "OGL 1.0a"
+}

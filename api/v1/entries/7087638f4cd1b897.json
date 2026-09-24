@@ -1,0 +1,23 @@
+{
+  "id": "7087638f4cd1b897",
+  "name": "Piercing Shot",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level ranger 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round\n\nDESCRIPTION\n\nThis spell empowers your ranged weapons with potent magic, allowing it to pierce through multiple targets.\n\nDuring the round you cast piercing shot, you may use a standard action to make a single ranged attack with a ranged weapon or thrown weapon. Instead of attacking a specific target, the projectile affects all creatures in a single line, originating from you and going out a distance equal to the range increment of the weapon you used.\n\nTo hit, you make a single attack at your full attack bonus, plus an additional +1 bonus per four caster levels (max +4). You apply this single attack roll to each target in the line, hitting each target whose AC you beat with your attack roll and dealing normal damage (plus the effects of any special properties on the projectile). If you score a critical hit, you critically hit only the first target struck in the line.\n\nIf you do not take the action to attack during the turn you cast piercing shot, the spell is wasted.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7087638f4cd1b897.json",
+    "web": "https://codex.pipsprojects.com/#/e/7087638f4cd1b897"
+  },
+  "license": "OGL 1.0a"
+}

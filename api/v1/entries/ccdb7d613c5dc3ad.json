@@ -1,0 +1,17 @@
+{
+  "id": "ccdb7d613c5dc3ad",
+  "name": "Blood Writ Names (CR 6)",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Pathfinder #43",
+  "book": "Pathfinder #43",
+  "facets": {
+    "bk": "Pathfinder #43"
+  },
+  "body": "Blood-Writ Names\nCR 6\n\nSource Pathfinder #43.\n\nXP 2,400\nCE persistent haunt (area U11)\nCaster Level 6th\nNotice Perception DC 20 (to notice drops of blood welling up along the walls)\nhp 27; Trigger proximity; Reset 1 hour\n\nEFFECT\n\nEvery round, a living creature within area U11 must make a DC 16 Will save. Failure indicates that a letter in his name (starting at the beginning and working in order to the end) suddenly appears on a wall near to that character, written in fresh blood, and the character takes 2 points of Wisdom damage. Each round, each character in the room must make another DC 16 Will save to avoid having the next letter in his name appear on the wall and to avoid taking another 2 points of Wisdom damage. As this continues, anyone whose name is partially written on the wall is seized with the idea that his soul or sanity is being “stolen” by having his name appear on the wall, and that by destroying the bloody words, he can regain his lost Wisdom. Once a character’s name is spelled completely, the haunt merely starts writing his name over again, continuing until the character is rendered unconscious from the Wisdom damage or the haunt is destroyed.\n\nWEAKNESS\n\nThis haunt can be damaged by physical attacks directed against the letters forming on the walls. Any attack that deals at least 1 point of damage destroys a letter—at the GM’s option, area of effect attacks can destroy multiple letters. Keep track of damage dealt to this haunt in this manner, for when the haunt’s hit points are reduced to 0, the physical damage caused can have an additional effect on the room (see Destruction, below). A character who destroys a letter from his own name immediately heals the associated points of Wisdom damage he took from the letter’s formation.\n\nDESTRUCTION\n\nWhen the blood-writ names haunt is reduced to 0 hit points, all of the bloody words immediately fade away, but at the same point, the spiritual energy that was helping to hold the walls of this place together fades as well. At this point, make a Fortitude save for the walls (the walls have a bonus of +0), with the DC equaling the total amount of physical damage that the walls took in the process of ending the haunt. On a successful save, nothing happens and the haunt remains inert for an hour before it can attempt to reset. On a failed save, timbers and stones from the walls and ceiling collapse in the chamber. This doesn’t cause a complete collapse, but it does deal 3d6 points of damage to everyone in the room (DC 16 Reflex save halves the damage caused) and turns all of the ground in this room into difficult terrain. Once this partial collapse happens, the blood-writ names haunt itself is utterly destroyed and can no longer manifest in this room.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Paizo, Inc. (identified from an inline Source citation on the page).",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ccdb7d613c5dc3ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/ccdb7d613c5dc3ad"
+  },
+  "license": "OGL 1.0a"
+}

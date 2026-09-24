@@ -1,0 +1,23 @@
+{
+  "id": "fc99f9486cc20e36",
+  "name": "Resetting Trap Extension",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "saboteur": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level saboteur 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents S, M (four silver spikes worth 25 gp each)\n\nEFFECT\n\nRange 5 ft.\nEffect one trap extension\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA resetting trap extension allows you to modify the next trap you place in the same square to trigger multiple times.\n\nYou first place the resetting trap extension as a saboteur trap in a square adjacent to you, just as you would any other saboteur trap. At any point within the next minute, you must place a second trap in that same square (either a saboteur trap or a mundane trap). This effect supersedes the normal rule that two saboteur traps cannot be placed in the same space. If you use a saboteur trap, it must of 3rd level or lower. The resetting trap extension merges with the second trap, enhancing its function. A trap that is enhanced by a resetting trap extension can trigger multiple times without breaking.\n\nOnce the trap modified by the resetting trap extension triggers, the trap begins resetting itself so that it can trigger again. The level of the saboteur trap placed in the resetting trap extension determines how long it takes to reset, as shown in Table: Resetting Trap Extension (a mechanical trap is considered a 2nd level trap). The trap can reset up to three times, after which the resetting trap extension breaks apart and stops functioning.\n\nTable: Resetting Trap Extension\nTrap Level\n\tReset Time\n\n1st\n\t1d4 rounds\n\n2nd\n\t2d4 rounds\n\n3rd\n\t1d4 minutes\n\nThe resetting trap extension lasts until the trap resets three times, is disarmed, or breaks apart (if the trap does so, as a saboteur trap does). Only one “trap extension” spell can be added to a particular trap.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fc99f9486cc20e36.json",
+    "web": "https://codex.pipsprojects.com/#/e/fc99f9486cc20e36"
+  },
+  "license": "OGL 1.0a"
+}

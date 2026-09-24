@@ -1,0 +1,24 @@
+{
+  "id": "127bdb63a4d45391",
+  "name": "Wit of the Glaring Steppe",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Alluria Publishing",
+  "book": "Alluria Publishing",
+  "facets": {
+    "sch": "evocation",
+    "desc": [
+      "fire",
+      "cold"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Alluria Publishing"
+  },
+  "body": "School evocation [fire, cold]; Level: jester 5\n\nCASTING\n\nCasting Time: 1 standard action\nComponents: (not included in source material)\n\nEFFECT\n\nRange: Touch\nTarget: Creature touched\nDuration: 1 round\nSaving Throw: Fortitude (special, see text); Spell Resistance: yes\n\nDESCRIPTION\n\nThe target takes 1d6 points of fire damage +1 point per caster level (no save). The target then takes 1d10 points of cold damage at the start of each of its turns until it makes a successful saving throw. Until the end of the combat, you emit bright light in a 20-foot radius and dim light for an additional 20 feet, similar to a sunrod.\n\nEnemies who end their turns within 5 feet of you take 5 points of cold damage and 5 points of fire damage (no save).\n\nRidiculous Races and Crazy Classes. Copyright 2024 Alluria Publishing; Author: Emily Kubisz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/127bdb63a4d45391.json",
+    "web": "https://codex.pipsprojects.com/#/e/127bdb63a4d45391"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "d63ffa54fda40bbe",
+  "name": "Void Field",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "antipaladin": 4,
+      "cleric": 5,
+      "inquisitor": 5,
+      "nightblade": 5
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (glamer) [darkness]; Level antipaladin 4, cleric 5, inquisitor 5, nightblade 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./2 levels)\nArea 20-ft.-radius emanation centered on a point in space\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates an area devoid of all sensory input. The lighting in the area of the spell immediately drops to supernatural darkness, regardless of existing conditions. No sound permeates the space, as if under the effects of a silence spell. Creatures within the area are considered both blind and deaf. Scents and tastes are completely erased in the area, preventing creatures from using the scent ability and nullifying the effects of spells that rely on smell or taste, such as stinking cloud. Creatures cannot properly feel things by touch; this negates the effects of spells with the pain descriptor and prevents creatures from using extraordinary abilities that rely on touch or vibrations, such as tremorsense. Creatures are unaware of any injury they receive while in the area of the void field (as they cannot feel pain), but they still take full damage. As they cannot properly perceive things with their senses, creatures take a -10 penalty on all Strength- and Dexterity-based skill checks and automatically fail all Perception checks while in the area.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d63ffa54fda40bbe.json",
+    "web": "https://codex.pipsprojects.com/#/e/d63ffa54fda40bbe"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "718f739cdca435c5",
+  "name": "Accumulating Error",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Forest Guardian Press",
+  "book": "Forest Guardian Press",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "direlock": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Forest Guardian Press"
+  },
+  "body": "School necromancy; Level direlock 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature\nDuration see below\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe touched target creature receives a -1 penalty to either attacks against the caster or to their AC or saves when defending against the caster, for one round. On the following round, if the victim missed or is hit/fails to save, the effect continues, increasing to -2 for two rounds. If the victim misses or is hit/fails to save on both of these rounds the penalty becomes -3 for three rounds at which point the spell ends.\n\nThe Direlock Base Class © 2013 Forest Guardian Press. Authors: Morgan Boehringer and Jim Wettstein.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/718f739cdca435c5.json",
+    "web": "https://codex.pipsprojects.com/#/e/718f739cdca435c5"
+  },
+  "license": "OGL 1.0a"
+}

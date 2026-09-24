@@ -1,0 +1,28 @@
+{
+  "id": "eb9fbf4973c3a0f2",
+  "name": "Grasping Steel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "vanguard": 4
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level magus 4, sorcerer/wizard 4, vanguard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small, thin sheet of metal)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous and 1 round/level\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nA large, thick plate of iron appears before you and flies forth towards your opponent’s head. The target is struck by the brute force of the slab of metal, taking 1d6 bludgeoning damage per two caster levels (max 10d6). The damage only occurs once, when the grasping steel first hits.\n\nAfter being hit (whether it takes damage or not), the target must make a Reflex save or have the metal plate wrap around its head. This causes a number of debilitating effects:\n\nFirst, the target is effectively blinded unless it can see through at least two inches of iron or steel. It also takes a -5 penalty on hearing-based Perception checks. The grasping steel is not water-tight nor air-tight, so the creature will not suffocate.\n\nSecond, it cannot use any natural attacks that originate from its head, such as a bite attack or gore attack. It cannot use these attacks to strike at the grasping steel in attempts to break it. It can, however, still speak, though it is muffled; other creatures take a -10 penalty on Perception checks made to hear what the target says.\n\nThird, any energy-based effects, spells, spell-like abilities, and supernatural abilities that originate from the creature’s head are impaired, such as a breath weapon or a gaze attack. If it attempts to use an attack that creates energy or projectiles from its head in some way, the attack fails unless it manages to destroy the grasping steel. Even then, the steel forces the attack back in the creatures face, subjecting it to the effects of the attack. The attack automatically hits the creature and it is not afforded a Reflex save (if the attack would normally allow one), but its other defenses still function, such as energy resistance or Fortitude and Will saves.\n\nThe steel is two inches thick, has hardness 10, and has 60 hit points. If it is reduced to 0 hit points, the spell ends. Creatures that do not have a discernible head can still be struck by the grasping steel and take damage, but are not subject to its other effects.\n\nA qinggong monk can select grasping steel as a 10th-level ki power, requiring 2 ki points to use.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eb9fbf4973c3a0f2.json",
+    "web": "https://codex.pipsprojects.com/#/e/eb9fbf4973c3a0f2"
+  },
+  "license": "OGL 1.0a"
+}

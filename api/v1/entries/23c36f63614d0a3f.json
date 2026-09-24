@@ -1,0 +1,25 @@
+{
+  "id": "23c36f63614d0a3f",
+  "name": "Alignment Shield (alignment)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 1,
+      "inquisitor": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level cleric/oracle 1, inquisitor 1, paladin 1 sorcerer/wizard 1\n\nEFFECT\n\nDuration 1 min/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions Selected\n\nDESCRIPTION\n\nWhen a wordspell with this effect word is cast, the wordcaster selects one alignment: good, evil, chaotic, or lawful. The target of this wordspell is protected from that alignment and receives a +2 resistance bonus on saving throws made on spells and effects from creatures of that alignment. The target of a wordspell with this effect word can choose to end this effect as an immediate action to reroll any one saving throw made against a spell or effect from the chosen alignment, but must take the second result, even if it is worse.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/23c36f63614d0a3f.json",
+    "web": "https://codex.pipsprojects.com/#/e/23c36f63614d0a3f"
+  },
+  "license": "OGL 1.0a"
+}

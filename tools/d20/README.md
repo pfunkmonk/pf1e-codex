@@ -48,6 +48,7 @@ every check has been mutation-tested: inject the fault into a scratch copy, conf
 | Feat "publisher hub" pages (feat summary table with rows wrapped over two lines) and bare "Subpages" stubs imported as entries | `isCatalogPage` signals 1–2 (template fingerprint; `subpagesStubOwnChars`) | (classifier; measured by before/after diff over the whole pilot) |
 | God SUMMARY tables (Deity/AL/Worshipers…) imported as entries | `isGodSummaryTable` | no god summary table posing as an entry |
 | `{{template field}}` lines, credit line that is just "x" | `stripTemplateJunk`, `PLACEHOLDER_S15` | no source-template placeholder text / no placeholder where a credit should be |
+| Blank publisher stat-block TEMPLATES ("XP ZZ,ZZZ", "{{Don't list entry if…}}", ~95 unfilled slots) imported as monsters | `blankTemplateSlots` ≥ 20 in `isCatalogPage` | no blank stat-block template |
 | Original pages removed/altered | additive-only importer | original pages not removed / not altered |
 
 **Rule for classifier changes:** measure every new signal across the WHOLE pilot (before/after list of newly-excluded pages)

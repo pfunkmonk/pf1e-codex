@@ -1,0 +1,27 @@
+{
+  "id": "2e08e98c453965b1",
+  "name": "Resist Arcana (dispelling)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 5,
+      "oracle": 5,
+      "inquisitor": 5,
+      "wizard": 6,
+      "summoner": 6
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level alchemist 5, cleric/oracle 5, inquisitor 5, sorcerer/wizard 6, summoner 6\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word gains spell resistance equal to 12 + the caster’s level.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2e08e98c453965b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/2e08e98c453965b1"
+  },
+  "license": "OGL 1.0a"
+}

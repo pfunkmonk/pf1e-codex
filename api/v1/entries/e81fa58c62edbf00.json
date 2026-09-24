@@ -1,0 +1,27 @@
+{
+  "id": "e81fa58c62edbf00",
+  "name": "Apex Predator",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 9,
+      "shaman": 9
+    },
+    "desc": [
+      "animal"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation (polymorph) [animal]; Level druid 9, shaman 9\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget animal touched\nDuration 1 min./level\nSaving Throw Will negates; Spell Resistance yes\n\nAfter an intense channeling, you infuse a single animal with primal strength and vigor, turning it into a ferocious avatar of nature. Such power is tremendous, but comes at a cost.\n\nThe animal grows to huge size, or increases in size by one category if it is already huge or larger. It gains a +8 size bonus to Strength and Constitution, a +3 natural armor bonus (that stacks with existing natural armor bonuses), cold resistance 20, fire resistance 20, and Damage Reduction 10/–. Hit points gained by the temporary increase in Constitution score are not temporary hit points, and go away when the target’s Constitution drops back to normal The creature also becomes immune to mind-affecting effects, death effects, energy drain, ability score damage and drain, poison, disease, and stunning effects. It’s natural weapons always deal lethal damage and their critical threat range is doubled: this increase does not stack with other effects that increase critical threat range, such as Improved Critical. Finally, the creature is treated as under the effects of haste for the duration of this spell.\n\nAt the end of the spell’s duration (including if it is dispelled), the animal becomes exhausted, gains two temporary negative levels, and is finally reduced to 0 hit points if its hit points are above 0. These temporary negative levels are removed automatically after 24 hours have passed but cannot otherwise be removed by any means. This spell cannot target the same creature more than once in a 24 hour period: attempting to do so immediately exhausts the target creature (no save), and the spell fails.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e81fa58c62edbf00.json",
+    "web": "https://codex.pipsprojects.com/#/e/e81fa58c62edbf00"
+  },
+  "license": "OGL 1.0a"
+}

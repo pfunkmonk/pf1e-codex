@@ -1,0 +1,29 @@
+{
+  "id": "febe0e5d0da520f7",
+  "name": "Magnetizing Ray",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "magus": 1,
+      "wizard": 1,
+      "vanguard": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [electricity]; Level bloodrager 1, magus 1, sorcerer/wizard 1, vanguard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature or object\nDuration 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou fire a yellowish ray of electricity at a target, magnetizing it on a successful hit. You must make a ranged touch attack to strike the target. If you hit, any ranged attacks made against the target with a projectile that is at least partially made of metal gains a +2 bonus to its attack roll. In addition, ranged attacks against the target are treated as if they had the seeking property.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/febe0e5d0da520f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/febe0e5d0da520f7"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "aa095d131a4dbf7e",
+  "name": "Dancing Steel",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 3,
+      "magus": 3,
+      "medium": 3,
+      "occultist": 3,
+      "psychic": 3,
+      "shaper": 3,
+      "wizard": 3,
+      "spiritualist": 3,
+      "vanguard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bard 3, magus 3, medium 3, occultist 3, psychic 3, shaper 3, sorcerer/wizard 3, spiritualist 3, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget melee weapon or shield touched\nDuration 10 min./level or until discharged\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nYou animate a weapon or shield to fight in your stead. This grants a weapon the dancing special weapon property, or grants a shield the animated special armor property. The wielder (or you, if it is unattended) can have the object begin dancing or animating as part of casting this spell.\n\nThe wielder of the weapon or shield can activate the dancing or animated property one time per three caster levels throughout the spell’s duration (maximum 5), after which the spell is discharged.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/aa095d131a4dbf7e.json",
+    "web": "https://codex.pipsprojects.com/#/e/aa095d131a4dbf7e"
+  },
+  "license": "OGL 1.0a"
+}

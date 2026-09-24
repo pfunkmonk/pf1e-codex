@@ -1,0 +1,27 @@
+{
+  "id": "766b4adcd56528f9",
+  "name": "Field of Blades",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 9,
+      "vanguard": 6
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level sorcerer/wizard 9, vanguard 6\n\nCASTING\n\nCasting Time 1 round\nComponents V\n\nEFFECT\n\nRange 120 ft.\nEffect numerous weapons in 120 ft.-radius spread on the ground, centered on you\nDuration 1 round/level (D)\nSaving Throw Reflex half, see text; Spell Resistance no\n\nDESCRIPTION\n\nAs you finish the lengthy invocation, you feel the fires of creation flow through your veins. For a moment your eyes close as you picture yourself among a world of infinite blades, becoming one with the weapons in both flesh and mind. You open your eyes to see the world now matches your vision, blades filling the land around you.\n\nOne of the strongest forms of metal creation, the field of blades spell fills the ground within a 120-foot radius around you with innumerable bladed weapons (any kind of melee weapon that can deal slashing or piercing damage and is at least partially made of metal). The weapons are sized for you to wield. Each one is stuck in the ground blade-first, with the handle facing up. The weapons fill enough space to make the entire area difficult terrain for creatures within one size category of you (if you are Medium, this includes Small, Medium, and Large creatures). Creatures smaller than those sizes can pass through the blades easily enough but cannot charge through the area, while creatures bigger than those sizes can move through the area by simply forcing the weapons aside when they move (no action needed).\n\nWhile within the field of blades, you have access to a number of powers, both offensive and defensive in nature, as follows:\n\nYou can call any kind of weapon to your hand from the field of blades as a free action. You can wield any weapon in the field of blades as if you were proficient and you treat your caster level as your base attack bonus (if it is higher than your base attack bonus) when using these weapons. This can grant you extra attacks for having a high base attack bonus. Any other creature in the area can grab a weapon as well, but they receive no special abilities when they do so and the type of weapon they find is random.\nAs a standard action, you can telekinetically hurl several weapons at nearby foes. You can hurl up to one blade per two caster levels (max 15), making a ranged attack using your caster level + your Intelligence, Wisdom, or Charisma modifier (whichever is highest) as your attack bonus. You can target any number of creatures, but each weapon only strikes once. Each weapon hurled in this manner deals its normal damage with no added bonus.\nAs a standard action, you can create a whirling storm of blades in a 15-foot-radius burst. Any creature in the burst takes 1d6 damage per two caster levels (max 15d6); a Reflex save halves the damage.\nAs an immediate action when an opponent makes an attack with a ranged weapon, you can attempt to counter it by striking the projectile with a blade. You make a single attack roll using your caster level + your Intelligence, Wisdom, or Charisma modifier (whichever is highest). If your attack roll meets or exceeds the opponent’s roll, the attack is negated. Instead of using an immediate action, you can instead use a standard action to ready several blades; if you do, you can negate up to one ranged attack per two caster levels (max 15) within a single round, making a separate roll for each.\nAs a full-round action, you can create a wall of blades. This can be up to 5 feet long per caster level in a straight line, or a circle around a center point with a radius of 5 feet per four caster levels; either version is 20 feet high. Any creature attempting to pass through the wall takes 1d6 damage per two caster levels (max 15d6); a Reflex save halves the damage. The wall falls apart at the start of your next turn unless you spend that turn maintaining the wall (also a full-round action). Creatures on opposite sides of the wall have cover from each other (+4 bonus to AC, +2 bonus on Reflex saves).\n\nAny weapon that you use with the field of blades counts as magic and any kind of material that you want for the purpose of overcoming damage reduction, including silver, cold iron, or adamantine. Other creatures using the weapons do not receive this benefit unless you allow it. At the end of the duration, all weapons created by field of blades vanish, leaving no trace (the ground leaves no markings for where the blades were stuck).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/766b4adcd56528f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/766b4adcd56528f9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6fb2705efa58c37a",
+  "name": "Destructive Vibration (sonic)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 6,
+      "wizard": 7
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [sonic]; Level bard 6, sorcerer/wizard 7\n\nEFFECT\n\nDuration instantaneous, 1 round/level, see text\nSaving Throw Fortitude half and negates; Spell Resistance yes\nTarget Restrictions line\n\nDESCRIPTION\n\nThis effect word deals 1d6 points of sonic damage per caster level (maximum 15d6) and causes the targets to become deafened for 1 round per level. A successful Fortitude save halves the damage and negates the deafened condition.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6fb2705efa58c37a.json",
+    "web": "https://codex.pipsprojects.com/#/e/6fb2705efa58c37a"
+  },
+  "license": "OGL 1.0a"
+}

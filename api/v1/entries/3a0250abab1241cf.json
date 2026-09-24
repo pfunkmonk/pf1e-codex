@@ -1,0 +1,24 @@
+{
+  "id": "3a0250abab1241cf",
+  "name": "Healing Sphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "druid": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless); see text",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 3, druid 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one orb of positive energy\nDuration instantaneous\nSaving Throw Will half (harmless); see text; Spell Resistance yes (harmless); see text\n\nDESCRIPTION\n\nA glowing blue orb of positive energy forms in your hand and flies unerringly toward any one willing creature you designate. The orb heals the targeted creature of 2d8 points of damage +1 point per caster level (maximum of +10). Since undead are powered by negative energy, you can use this spell to deal damage to an undead creature with a successful ranged touch attack. An undead creature can apply spell resistance and attempt a Will save for half damage.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3a0250abab1241cf.json",
+    "web": "https://codex.pipsprojects.com/#/e/3a0250abab1241cf"
+  },
+  "license": "OGL 1.0a"
+}

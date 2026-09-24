@@ -1,0 +1,27 @@
+{
+  "id": "2d64941d9d78f26f",
+  "name": "Gloom (illumination)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "magus": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation; Level bard 2, cleric/oracle 2, magus 2, sorcerer/wizard 2, witch 2\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions burst (emanation)\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word radiates darkness out to a range of 20 feet, negating all natural light sources and all magical light sources of a level lower than the wordspell. It reduces the natural light level by one step. A wordspell with this effect word has no effect on an area that is already dark.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2d64941d9d78f26f.json",
+    "web": "https://codex.pipsprojects.com/#/e/2d64941d9d78f26f"
+  },
+  "license": "OGL 1.0a"
+}

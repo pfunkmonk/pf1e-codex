@@ -1,0 +1,29 @@
+{
+  "id": "6bde3134c748f258",
+  "name": "Verdant Surge",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 4,
+      "invoker": 3,
+      "ranger": 3,
+      "shaman": 4
+    },
+    "desc": [
+      "plant"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [plant]; Level druid 4, invoker 3, ranger 3, shaman 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a few seeds and some soil)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect grassy field with a maximum radius of 5 ft./2 levels, plus a tree of varying size and height (see text)\nDuration 1 min./level\nSaving Throw Reflex half and none (see text); Spell Resistance no\n\nYou toss the seeds into the air as the spell consumes them. Nearby, the ground becomes lush with grass and foliage as a large tree springs forth in its center.\n\nVerdant surge creates a field of thick grass and underbrush with a tree at its center. The field must be conjured upon the ground and grows up beneath creatures and objects in the area. The ground does not have to be conducive to plant life. It will not grow up beneath a building, but can spread across its floor if created there. At your option, you can make the underbrush thick enough to make the area of the spell difficult terrain.\n\nIn the center of the field, a single tree sprouts into existence up from the ground. The tree is large sized, but its species is up to you (the spell’s effect does not change). Any creature standing where the tree emerges takes bludgeoning damage equal to 3d6 + your caster level (max +20, Reflex half) from the force of its rapid growth and is pushed aside to the nearest open space. For every three caster levels above 7th, the size of the tree increases by one size category (starting at large, and progressing to huge, gargantuan, then colossal at 16th level). The tree will grow within the bounds of whatever area it is conjured in. As long as there enough space for the trunk (about 3 feet in diameter, increasing by 3 feet in diameter per size category above large) the spell can be cast, but it will only grow high enough that its occupied space allows.\n\nAny spells you cast with the plant descriptor that targets the plants conjured by verdant surge have their save Difficulty Class (if any) increased by +1. Other creatures attempting to cast plant spells upon your verdant surge must make an opposed caster level check against you: if you win the opposed check, their spell fails.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6bde3134c748f258.json",
+    "web": "https://codex.pipsprojects.com/#/e/6bde3134c748f258"
+  },
+  "license": "OGL 1.0a"
+}

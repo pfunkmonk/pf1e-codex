@@ -1,0 +1,28 @@
+{
+  "id": "83dd0548c07598e7",
+  "name": "Magnetic Grasp",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 3,
+      "wizard": 3,
+      "vanguard": 3
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [electricity]; Level bard 3, sorcerer/ wizard 3, vanguard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a magnet)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one or more metal objects, see text\nDuration 1 round/level\nSaving Throw Fortitude negates (object), see text; Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou create a magnetic pulse that attracts objects towards your hand.\n\nEach round on your turn (starting with the round you cast magnetic grasp), you can target a single metallic object within range. The object is pulled towards you, flying directly into your hands (or in the nearest available space if it is too large to hold or you do not wish to hold it).\n\nIf you attempt to take an item from a creature, you must make a steal or disarm attempt (as appropriate for what you are taking). You use your caster level as your Combat Maneuver Bonus, adding your Intelligence, Wisdom, or Charisma modifier (whichever is highest) in place of your Strength or Dexterity modifier. This combat maneuver attempt does not provoke an attack of opportunity from its target. If you are successful, you pull the target object to you, and if you have enough hands free, you can catch it. Otherwise, the object lands in your square as if you dropped it.\n\nMagic items receive a Fortitude save to prevent either of these effects. If the object is held down in some way (such as by ropes), you can make a Strength check to break the bindings, using 5 + your Intelligence, Wisdom, or Charisma modifier (whichever is highest) in place of your Strength bonus.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/83dd0548c07598e7.json",
+    "web": "https://codex.pipsprojects.com/#/e/83dd0548c07598e7"
+  },
+  "license": "OGL 1.0a"
+}

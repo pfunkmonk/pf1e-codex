@@ -1,0 +1,28 @@
+{
+  "id": "794c4d10a910463a",
+  "name": "Shock Arc (electricity)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [electricity]; Level magus 1, sorcerer/wizard 1, witch 1\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect word deals 1d4 points of electricity damage per caster level (maximum 5d4).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/794c4d10a910463a.json",
+    "web": "https://codex.pipsprojects.com/#/e/794c4d10a910463a"
+  },
+  "license": "OGL 1.0a"
+}

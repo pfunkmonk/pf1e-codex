@@ -1,0 +1,29 @@
+{
+  "id": "c31e3c6efed55b9a",
+  "name": "Deadly Tempest",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "air",
+      "cold",
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [air, cold, electricity]; Level druid 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (100 gp exotic feather)\n\nEFFECT\n\nRange Long (400 ft. + 40 ft./level)\nEffect swirling winds in a 20-ft. radius, 40 ft. high\nDuration 1 round/level (D)\nSaving Throw Reflex partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell creates a powerful vortex of raging wind, hail, and lightning that moves through the air, along the ground, or over water at a speed of 90 feet during your turn. The deadly tempest deals 2d6 points of cold damage, 2d6 points of electricity damage, and 2d6 points of bludgeoning damage to all creatures and objects in the area of effect. Any Large or smaller creature coming into contact with the vortex must also succeed on a Reflex save or be picked up bodily and held suspended in its powerful winds, taking the same damage each round on your turn (no save). Huge creatures (and Large or smaller creatures making successful saving throws) are limited to one-half speed within the vortex but take damage as normal. Gargantuan and Colossal creatures take damage but are otherwise unaffected.\n\nWithin the deadly tempest, a creature takes a –4 penalty to Perception checks, and all air or land movement is at one-half speed. Missile weapons are deflected (automatically missing) if they enter or pass through the vortex, while any other normal ranged weapon passing through the wind has a 30% miss chance (giant-thrown boulders, siege engine projectiles, and other massive ranged weapons are not affected). Gases, most gaseous breath weapons, and creatures in gaseous form cannot enter or pass through the vortex (though it presents no barrier to incorporeal creatures).\n\nAs a move action, you can concentrate on controlling the vortex’s movement or specify a simple program (move forward or backward, follow a circular path, move from corner to corner through a room, and so on). As part of this move action you may direct the vortex to eject any carried creatures whenever you wish, depositing them wherever the vortex happens to be when they are released.\n\nIf the vortex of a deadly tempest exceeds the spell’s range, you lose control of it (even if it comes back within range) as it moves off in a random, uncontrolled fashion for 1d3 rounds and then dissipates.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c31e3c6efed55b9a.json",
+    "web": "https://codex.pipsprojects.com/#/e/c31e3c6efed55b9a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e43f3329620150b9",
+  "name": "Contingent Minor Healing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 1,
+      "druid": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless); see text",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 1, druid 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 hour/level (D) or until discharged\nSaving Throw Will half (harmless); see text; Spell Resistance yes (harmless); see text\n\nDESCRIPTION\n\nYou bestow a small blessing on a target creature. Whenever the creature takes 4 or more points of damage, the spell discharges, suffusing the creature with positive energy that cures 1 point of damage. If used against undead, this spell is triggered in one of two ways, dealing 1 point of additional damage either the next time the undead target takes normal damage, or the next time the undead target is ‘healed’ by taking negative energy damage. An undead creature can apply spell resistance, and can attempt a Will save to take no damage.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e43f3329620150b9.json",
+    "web": "https://codex.pipsprojects.com/#/e/e43f3329620150b9"
+  },
+  "license": "OGL 1.0a"
+}

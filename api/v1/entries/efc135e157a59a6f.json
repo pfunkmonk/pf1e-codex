@@ -1,0 +1,29 @@
+{
+  "id": "efc135e157a59a6f",
+  "name": "Destructive Shatter",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 5,
+      "magus": 5,
+      "wizard": 5,
+      "vanguard": 5
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [sonic]; Level bard 5, magus 5, sorcerer/wizard 5, vanguard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTargets one solid object or crystalline creature, plus creatures in a 20-ft.-radius burst, see text\nDuration instantaneous\nSaving Throw Will partial (object), Fortitude half, and Reflex half, see text; Spell Resistance yes\n\nDESCRIPTION\n\nA more focused and deadly version of the spell shatter, destructive shatter destroys a single non-magical object weighing up to 20 pounds per caster level or a crystalline creature of any size. An object that fails its Will save is destroyed; an object that makes its saving throw is broken instead. An object that is already broken gets no saving throw. A crystalline creature takes 1d6 sonic damage per caster level (max 15d6) with a Fortitude save for half damage.\n\nAn object that is destroyed by destructive shatter or a crystalline creature that is slain explodes violently, shards and fragments flying outward and striking nearby creatures. Any creature within 20 feet of the destroyed creature or object takes 1d6 slashing damage per caster level (max 15d6); a Reflex save halves the damage. If the destroyed object or creature was made of a special material, such as a destroyed adamantine sword, the slashing damage caused by it exploding counts as that type for overcoming damage reduction.\n\nThis spell counts as a shatter spell for affecting creatures that are specifically weak to shatter, such as a glass golem. This spell does not work on artifacts.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efc135e157a59a6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/efc135e157a59a6f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "84b01bcf2143024a",
+  "name": "Inspire Fury",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bloodstone Press",
+  "book": "Bloodstone Press",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 4,
+      "cleric": 4,
+      "wizard": 4
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Bloodstone Press"
+  },
+  "body": "School enchantment; Level bard 4, cleric 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of bear’s blood)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget One willing creature per three caster levels, no two of which can be more than 30 ft. apart\nDuration Concentration + 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nYou fill the affected creatures with boiling fury.\n\nWhile in this furious state, the creatures gain a +4 morale bonus to Strength, DR 2/magic, and fire resistance 5. While under this spell’s effect, a creature cannot cast spells or use spell-like abilities.\n\nIf an affected creature is knocked unconscious, does not attack a hostile creature, or does not take damage for 1 round, the spell ends for that creature.\n\nThis spell doesn’t stack with the barbarian’s rage ability.\n\nAmazons vs Valkyries: Cult of Ares, © 2023, Bloodstone Press; Author P. C. Graves and Beth Jones",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/84b01bcf2143024a.json",
+    "web": "https://codex.pipsprojects.com/#/e/84b01bcf2143024a"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "b58429e3618f2934",
+  "name": "Enhance Mind (body)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Book of Magic: The Lost Spell Words",
+  "book": "Book of Magic: The Lost Spell Words",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "investigator": 2,
+      "paladin": 2,
+      "wizard": 2,
+      "skald": 2,
+      "warpriest": 2,
+      "hunter": 2,
+      "magus": 2,
+      "ranger": 2,
+      "shaman": 2,
+      "unchained summoner": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Book of Magic: The Lost Spell Words"
+  },
+  "body": "School transmutation; Level alchemist/investigator 2, antipaladin/paladin 2, arcanist/sorcerer/wizard 2, bard/skald 2, cleric/oracle/warpriest 2, druid/hunter 2, magus 2, ranger 2, shaman 2, summoner/unchained summoner 2\n\nEFFECT\n\nDuration 1 round/level + 1 round per three levels\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions personal, selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word receives a +4 enhancement bonus to either Intelligence, Wisdom, or Charisma (caster’s choice). The target can end a wordspell with this effect word prematurely as a swift action, gaining a +8 enhancement bonus to the ability score until the end of the target’s turn.\n\nBook of Magic: The Lost Spell Words © 2014 Jon Brazer Enterprises.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b58429e3618f2934.json",
+    "web": "https://codex.pipsprojects.com/#/e/b58429e3618f2934"
+  },
+  "license": "OGL 1.0a"
+}

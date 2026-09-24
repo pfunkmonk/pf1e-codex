@@ -1,0 +1,27 @@
+{
+  "id": "196285b0bfcf99ca",
+  "name": "Detect Pregnancy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "cleric": 0,
+      "druid": 0,
+      "paladin": 0,
+      "ranger": 1,
+      "hedge witch": 0
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School divination; Level cleric 0, druid 0, paladin 0, ranger 1, hedge witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one creature touched\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance no\n\nDESCRIPTION\n\nBy casting this spell, you immediately learn if the creature touched is pregnant and, if so, how far along it is in its pregnancy. The spell does not reveal who fathered the child, nor the gender of the child. The spell can also detect the presence of implanted parasitic young, such as xill eggs. Potions of detect pregnancy are generally easy to find, and hedge witches who work as midwives keep a number in supply at all times.\n\nPaths of Power. Copyright 2009, 4 Winds Fantasy Gaming; Authors Sean O’Connor and Patricia Willenborg, with Connie J. Thomson and Robert W. Thomson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/196285b0bfcf99ca.json",
+    "web": "https://codex.pipsprojects.com/#/e/196285b0bfcf99ca"
+  },
+  "license": "OGL 1.0a"
+}

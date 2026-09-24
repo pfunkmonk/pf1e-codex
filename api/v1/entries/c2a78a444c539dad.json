@@ -1,0 +1,17 @@
+{
+  "id": "c2a78a444c539dad",
+  "name": "Irradiating Power [Metapsionic]",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "bk": "Legendary Games"
+  },
+  "body": "Your psionic abilities taint targets with radiation.\n\nBenefit(s): To use this ability, you must expend psionic focus. Any creature affected by an irradiating power must succeed on a Fortitude save or contract radiation of a certain level. The Fortitude save and level of radiation are based on the amount of power points spent on the power (including power points spent to use this metapsionic feat). Manifesting a power in this way requires an expenditure of 4 additional power points, and the total expenditure cannot exceed your manifester level.\n\nTable: Radiation Effects\nPower Points\tRadiation Level\tFort Save DC\tPrimary Effect\tSecondary Effect\n0-7\tLow\t13\t1 Con drain\t1 Str damage/day\n8-13\tMedium\t17\t1d4 Con drain\t1d4 Str damage/day\n14-19\tHigh\t22\t2d4 Con drain\t1d6 Str damage/day\n20+\tSevere\t30\t4d6 Con drain\t2d6 Str damage/day\n\nArcforge: Technology Expanded © 2018, Legendary Games; Authors: Matt Daley, Michael Sayre.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c2a78a444c539dad.json",
+    "web": "https://codex.pipsprojects.com/#/e/c2a78a444c539dad"
+  },
+  "license": "OGL 1.0a"
+}

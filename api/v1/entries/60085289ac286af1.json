@@ -1,0 +1,23 @@
+{
+  "id": "60085289ac286af1",
+  "name": "Teleport Attack",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 7
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation (teleportation); Level sorcerer/wizard 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one creature or object touched, weighing no more than 50 lbs./level\nDuration instantaneous\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou teleport a target creature or object into a solid surface or object that you can see within close range (25 feet + 5 feet/two levels). If the spell succeeds, the subject suffers 2d6 points of Constitution damage + 1 point of Constitution damage per round until freed and is helpless. It becomes half imbedded in the surface or object.\n\n101 Magical Weapon Properties. Copyright 2010 Steven D. Russell. All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/60085289ac286af1.json",
+    "web": "https://codex.pipsprojects.com/#/e/60085289ac286af1"
+  },
+  "license": "OGL 1.0a"
+}

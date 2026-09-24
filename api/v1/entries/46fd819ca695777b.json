@@ -1,0 +1,27 @@
+{
+  "id": "46fd819ca695777b",
+  "name": "Locate (divination)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 6,
+      "oracle": 6,
+      "druid": 6,
+      "inquisitor": 6,
+      "witch": 6
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School divination; Level bard 6, cleric/oracle 6, druid 6, inquisitor 6, witch 6\n\nEFFECT\n\nDuration 10 minutes/level\nSaving Throw none; Spell Resistance no\nTarget Restrictions personal\n\nDESCRIPTION\n\nThe caster of a wordspell with this effect word can name any location she has visited before or any object she has held before. For the duration of this wordspell, she always knows the direction of the named location or object. The direction is always the swiftest path to travel, leading her perfectly through mazes or other obstacles by the method the wordcaster is currently traveling, irrespective of danger.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/46fd819ca695777b.json",
+    "web": "https://codex.pipsprojects.com/#/e/46fd819ca695777b"
+  },
+  "license": "OGL 1.0a"
+}

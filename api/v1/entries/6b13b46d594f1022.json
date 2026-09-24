@@ -1,0 +1,27 @@
+{
+  "id": "6b13b46d594f1022",
+  "name": "Spiked Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "shaman": 1
+    },
+    "save": "Fort",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation; Level bloodrager 1, cleric/oracle 1, inquisitor 1, magus 1, shaman 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (1 iron spike)\n\nEFFECT\n\nRange touch\nTarget 1 suit of metal armor or 1 metal shield\nDuration 10 minutes/level\nSaving Throw Fortitude negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe targeted suit of armor or shield sprouts thousands of tiny iron spikes like porcupine quills. These do not harm the armor’s wearer (though donning or removing armor under the effects of this spell takes twice as long), but they act as armor spikes or shield spikes (as appropriate). Any creature attacking the wearer with natural weapons takes 1 point of piercing damage for each attack that hits.\n\nAt 5th level, the spikes gain a +1 enhancement bonus on attack and damage rolls; this bonus increases to +2 at 10th level. At 15th level, the spikes also gain the anarchic weapon quality.\n\nPathfinder Campaign Setting: The Inner Sea World Guide. © 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b13b46d594f1022.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b13b46d594f1022"
+  },
+  "license": "OGL 1.0a"
+}

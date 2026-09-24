@@ -1,0 +1,32 @@
+{
+  "id": "c4f2aa7ed7291c90",
+  "name": "Shield of Vengeance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 3,
+      "bard": 3,
+      "oracle": 3,
+      "magus": 3,
+      "ranger": 3,
+      "witch": 4
+    },
+    "desc": [
+      "evil",
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School evocation [evil, force]; Level antipaladin 3, bard 3, cleric/oracle 3, magus 3, ranger 3, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (buckler or light shield)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTargets one creature\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nCocking your arm back, you make a throwing motion with your shield arm and a projection of pure force shoots out from your shield.\n\nUpon striking its target, this spell deals 1d6+1 damage per caster level (maximum 10d6+10). Half of this damage is negative energy damage, but the other half is force damage. For every 10 points of damage dealt, the target is pushed 5 feet directly away from the caster. If the target is unable to be moved back (i.e. the target is pushed up against a wall), they gain the staggered condition for one round.\n\nUltimate Evil. Copyright 2014, d20pfsrd.com Publishing/Open Gaming LLC; Authors: Clinton J. Boomer & Peter K. Ullmann.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4f2aa7ed7291c90.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4f2aa7ed7291c90"
+  },
+  "license": "OGL 1.0a"
+}

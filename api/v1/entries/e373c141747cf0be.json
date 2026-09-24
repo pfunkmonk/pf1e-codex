@@ -1,0 +1,24 @@
+{
+  "id": "e373c141747cf0be",
+  "name": "Augment Skeleton",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (a pinch of crushed bone)/DF\n\nEFFECT\n\nRange touch\nTarget undead skeleton touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nBy touching a single undead skeleton, you grant it a +4 natural armor bonus to its AC. This bonus stacks with any existing natural armor bonus the skeleton may have.\n\nAugment Skeleton, Mass\n\nSchool necromancy; Level cleric/oracle 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (a pinch of crushed bone)/DF\n\nEFFECT\n\nRange touch\nTarget s one or more undead skeletons\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell functions like augment skeleton, except that mass augment skeleton affects a number of skeletons with a combined HD no greater than twice your caster level. You must touch each skeleton during the casting that is to be affected.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e373c141747cf0be.json",
+    "web": "https://codex.pipsprojects.com/#/e/e373c141747cf0be"
+  },
+  "license": "OGL 1.0a"
+}

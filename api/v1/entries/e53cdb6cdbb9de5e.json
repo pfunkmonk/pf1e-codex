@@ -1,0 +1,33 @@
+{
+  "id": "e53cdb6cdbb9de5e",
+  "name": "Mark of Iniquity",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 2,
+      "bard": 3,
+      "oracle": 2,
+      "inquisitor": 3,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School evocation [evil]; Level alchemist 3, antipaladin 2, bard 3, cleric/oracle 2, inquisitor 3, sorcerer/wizard 2, summoner 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTargets creature touched; see text\nDuration 24 hours\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYour very touch causes creatures to radiate evil.\n\nThe target gains an aura of evil, as an antipaladin of a level equal to yours.\n\nUltimate Evil. Copyright 2014, d20pfsrd.com Publishing/Open Gaming LLC; Authors: Clinton J. Boomer & Peter K. Ullmann.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e53cdb6cdbb9de5e.json",
+    "web": "https://codex.pipsprojects.com/#/e/e53cdb6cdbb9de5e"
+  },
+  "license": "OGL 1.0a"
+}

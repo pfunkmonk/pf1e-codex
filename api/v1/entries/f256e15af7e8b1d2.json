@@ -1,0 +1,23 @@
+{
+  "id": "f256e15af7e8b1d2",
+  "name": "War Blessing",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bloodstone Press",
+  "book": "Bloodstone Press",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "cleric": 9
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Bloodstone Press"
+  },
+  "body": "School enchantment (fate); Level cleric 9\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, F (an image of Ares worth at least 5000 gp), M (200 gp of frankincense)\n\nEFFECT\n\nRange Touch\nArea 1-mile radius emanating from the touched point\nDuration 1 year\nSaving Throw none and see text; Spell Resistance no\n\nYou perform a profound ritual to invoke the protection of Ares. The effects of this spell manifest as follows: Ares’ unseen aura turns enemies away from the protected area, subtly influencing them to attack elsewhere. Whenever a creature that is leading an army contemplates attacking the protected area, that creature must make a Will saving throw. A creature that makes its saving throw is immune to this effect for the duration of the spell. A creature that fails its saving throw cannot order an attack within the protected area. It is compelled to reconsider its actions and seek alternative resolutions, withdraw from the confrontation, or attack elsewhere. If a representative of the protected area directly harms or provokes an affected creature, the spell ends for that creature.\n\nAdditionally, Ares’ indomitable spirit imbues the hearts of the area’s inhabitants. Creatures inhabiting the protected area roll two dice and use the better result whenever rolling a saving throw against a fear effect originating from hostile military troops.\n\nFurthermore, the three highest ranking military leaders of the protected area can rally their troops with inspiring words, granting temporary hit points equal to their Charisma modifier to all allies within 300 feet.\n\nAmazons vs Valkyries: Cult of Ares, © 2023, Bloodstone Press; Author P. C. Graves and Beth Jones",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f256e15af7e8b1d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/f256e15af7e8b1d2"
+  },
+  "license": "OGL 1.0a"
+}

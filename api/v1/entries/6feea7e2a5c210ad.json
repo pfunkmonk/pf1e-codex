@@ -1,0 +1,28 @@
+{
+  "id": "6feea7e2a5c210ad",
+  "name": "Fires of Renewal",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 6,
+      "druid": 6,
+      "ranger": 4
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School evocation [fire]; Level cleric/oracle 6, druid 6, ranger 4\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, DF\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 50-ft. radius blast of fire\nDuration instantaneous plus (2d4)x10 minutes; see text\nSaving Throw Fortitude or Reflex half; see text; Spell Resistance yes\n\nDESCRIPTION\n\nFire of renewal is most often used by followers of nature deities to cleanse fields and forests of disease or to remove choking undergrowth, but it can also be used to burn an area clean of brush or grass to prevent approaching wildfires from spreading.\n\nAn egg-sized ball of swirling orange and green flames flies from the palm of your hand to the point you designate, then silently blossoms into a 50-foot radius burst of fire. During the 1 minute casting time, while the ball is forming in your hand, you can selectively choose specific portions of the blast area that you do not want to burn – the handful of healthy trees in a copse infested with pine beetles, for example. Plants and plant type creatures are especially susceptible to the flames, and immediately take 1d6 points of fire damage per caster level (maximum 15d6), though plant creatures can make a Fortitude save for half damage. Non-plant based materials or creatures in the blast area only take 1 point of fire damage per caster level (maximum 15, Reflex save for half).\n\nThe unique flames of the fire of renewal destroy any plant diseases or blights in the area of the blast, and also germinate new seeds so that the plants of the area grow back healthy and lush. The magical fire will burn for (2d4)x10 minutes, or until it runs out of its designated fuel, whichever comes first, but will not spread outside the spell’s initial blast area and deals no additional damage.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6feea7e2a5c210ad.json",
+    "web": "https://codex.pipsprojects.com/#/e/6feea7e2a5c210ad"
+  },
+  "license": "OGL 1.0a"
+}

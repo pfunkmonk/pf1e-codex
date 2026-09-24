@@ -1,6 +1,6 @@
 # PF1e Codex — Art Prompts — BATCH 16 (Rules, NPCs, and the last of the pantheon)
 
-**53 images.**
+**54 images.**
 
 The rules bucket is 3,102 pages on 40 scenes. This takes it to 181. NPCs go 12 to 48. And the
 remaining 163 deities finish that bucket at 463 of 463 — which also gives the 57 religion traits
@@ -16,7 +16,7 @@ whose deity had no art a picture of their own god.
    the spare stays available as an alternate.
 5. Drop everything into the `CODEX IMAGES` folder. Nothing else is needed.
 
-## Deities (53)
+## Deities (54)
 
 ### King Gobb
 **deity-king-gobb**
@@ -282,3 +282,8 @@ A many-eyed lion-headed sun-judge above a road of law, a billion eyes gazing fro
 **deity-purple-duck-games-gods**
 
 A circle of shrouded god-statues ringing a vast open-air theater under a storm-lit sky, a lone chronicler with a scroll at its center. Composition: subject in the RIGHT half of the frame, high in the upper third; the LEFT third open, dark and uncluttered so overlaid title text stays readable. 16:9 cinematic banner, painted fantasy illustration, dramatic directional lighting, rich muted palette, no text, no lettering, no watermark, no border. Style: painterly digital oil in the manner of the existing PF1e Codex banners — visible brushwork and a fine canvas grain, grounded realistic fantasy anatomy, never anime, cel-shaded or cartoon. One strong directional key light with rim-light separating the subject, deep brown-black shadows, warm amber-gold highlights, a desaturated muted background carrying a single saturated accent colour. Heavy atmosphere: haze, drifting dust motes, god-rays. Subject rendered sharp, background falling off softly.
+
+### Great Old One
+**deity-great-old-one**
+
+A vast tentacled shape of madness rising behind a cracked star-field, a lone robed warlock at its feet shielding her eyes. Composition: subject in the RIGHT half of the frame, high in the upper third; the LEFT third open, dark and uncluttered so overlaid title text stays readable. 16:9 cinematic banner, painted fantasy illustration, dramatic directional lighting, rich muted palette, no text, no lettering, no watermark, no border. Style: painterly digital oil in the manner of the existing PF1e Codex banners — visible brushwork and a fine canvas grain, grounded realistic fantasy anatomy, never anime, cel-shaded or cartoon. One strong directional key light with rim-light separating the subject, deep brown-black shadows, warm amber-gold highlights, a desaturated muted background carrying a single saturated accent colour. Heavy atmosphere: haze, drifting dust motes, god-rays. Subject rendered sharp, background falling off softly.

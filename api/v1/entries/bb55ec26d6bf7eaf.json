@@ -1,0 +1,25 @@
+{
+  "id": "bb55ec26d6bf7eaf",
+  "name": "Armament Reservoir",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 2,
+      "wizard": 2,
+      "vanguard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level magus 2, sorcerer/wizard 2, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget weapon or armor touched\nDuration 10 min./level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nDESCRIPTION\n\nThis spell allows a creature to channel spells through his equipment, granting the touched armor or weapon the spell storing property. The wielder can use this special property multiple times throughout the duration.\n\nMultiple spell storing effects on a given piece of equipment do not stack. If a spell is stored in the armor or weapon when armament reservoir ends or is dispelled, the stored spell dissipates harmlessly to no effect. You cannot cast this spell on an unarmed strike or a natural weapon, such as a claw.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb55ec26d6bf7eaf.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb55ec26d6bf7eaf"
+  },
+  "license": "OGL 1.0a"
+}

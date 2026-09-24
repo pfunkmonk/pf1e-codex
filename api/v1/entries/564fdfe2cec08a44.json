@@ -1,0 +1,31 @@
+{
+  "id": "564fdfe2cec08a44",
+  "name": "Suppress (dispelling)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "druid": 2,
+      "inquisitor": 2,
+      "magus": 2,
+      "paladin": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level bard 2, cleric/oracle 2, druid 2, inquisitor 2, magus 2, paladin 2, sorcerer/wizard 2, summoner 2, witch 2\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe caster of a wordspell with this effect word selects one spell effect that affects a willing target. The caster must then make a caster level check with a DC of 11 + the caster level of the spell effect. If successful, that spell effect is suppressed for the duration of this spell. If the suppressed spell has a limited duration, that duration continues to expire while this spell is in effect.\n\nBoost: The caster can target creatures that are not willing. The targets receive a saving throw to negate this effect word, and the caster must overcome the target’s spell resistance. Boosting this effect word increases its level by 1.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/564fdfe2cec08a44.json",
+    "web": "https://codex.pipsprojects.com/#/e/564fdfe2cec08a44"
+  },
+  "license": "OGL 1.0a"
+}

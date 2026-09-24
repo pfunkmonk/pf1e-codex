@@ -1,0 +1,29 @@
+{
+  "id": "1d13a9a861f04110",
+  "name": "Prism Bolt",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "elementer": 2
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [acid, cold, electricity, fire]; Level elementer 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nYou weave a mutable form of elemental energy, sending a streaking bolt of planar force at your target.\n\nYou must make a ranged touch attack to hit your foe. On a hit, the target takes 1d6 points each of acid, cold, electricity, and fire damage. For every three caster levels above 4th, you deal an additional 1d6 damage of each type (maximum 3d6 of each damage type).\n\nIf you sacrifice a prepared prism bolt spell to create a spell twist, you treat the spell twist as if created using a spell one level lower than normal (minimum 1st level) but double the range of the spell twist, similar to the effects of an Enlarge Spell metamagic feat. Spell twists that target yourself only (such as soar) or twists that must originate directly next to you (such as blaze or flood) are unaffected, and only the range of a twist is affected, not its area of effect (if any).\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1d13a9a861f04110.json",
+    "web": "https://codex.pipsprojects.com/#/e/1d13a9a861f04110"
+  },
+  "license": "OGL 1.0a"
+}

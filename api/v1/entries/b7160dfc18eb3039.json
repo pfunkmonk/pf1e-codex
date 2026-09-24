@@ -1,0 +1,29 @@
+{
+  "id": "b7160dfc18eb3039",
+  "name": "Steel Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 2,
+      "shaman": 2,
+      "wizard": 3,
+      "vanguard": 2
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School divination [metal]; Level druid 2, shaman 2, sorcerer/wizard 3, vanguard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (one silver coin)\n\nEFFECT\n\nRange 60 ft.\nArea cone-shaped emanation\nDuration 1 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nWhen you cast this spell, your eyes glaze over with a silver sheen before polishing, appearing as though your eyes were actually mirrors.\n\nSteel sight lets you see through metal as if it were invisible. You can see through walls, armor, weapons, containers, objects, and creatures that are made of metal. This can even penetrate metals that normally block divinations, such as lead. However, this does not allow any other divination effects you have active to bypass metal.\n\nNormally you see through any sort of metal, but you can designate either a specific metal to see through, or see through all metals save for a specific type.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b7160dfc18eb3039.json",
+    "web": "https://codex.pipsprojects.com/#/e/b7160dfc18eb3039"
+  },
+  "license": "OGL 1.0a"
+}

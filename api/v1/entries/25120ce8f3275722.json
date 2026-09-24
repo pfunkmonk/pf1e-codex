@@ -1,0 +1,27 @@
+{
+  "id": "25120ce8f3275722",
+  "name": "Summon Clockwork Spy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3,
+      "vanguard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [metal]; Level sorcerer/ wizard 3, vanguard 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (a gemstone worth 50 gp)\n\nEFFECT\n\nRange 0 ft.\nEffect one clockwork spy\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nAs you finish casting this spell, you place the gemstone upon the ground. Small cogs and gears form into being around the gemstone, rapidly assembling itself into a small construct.\n\nThis spell creates a clockwork spy. The clockwork spy avoids combat at all costs. You can have it execute simple movement, such as following a target you specify, staying in a particular location, or patrolling an area. There is no range to how far the spy can travel.\n\nIts true usefulness lies in its ability to record audio. The created spy has its normal Record Audio supernatural ability, allowing it to record nearby sounds as a swift action, archiving all sound within a 20-foot spread onto the small gemstone you used as a material component for the spell. The spy can record up to 1 hour of audio.\n\nSince the spy is not intelligent, it must be given simple commands as to when it should start recording sounds. The spy can differentiate between creature types and subtypes, but not between specific individuals—it can be ordered to start recording sound as soon as a humanoid (human) or an aberration comes in range, but it cannot be ordered to start recording when a specific person comes within range. Once the clockwork spy begins recording sound, it cannot cease recording early. It can only make a single recording.\n\nOnce it has finished making a recording, it makes its way back to you to the best of its ability. The spy knows your location at all times at moves as quickly and safely as possible to you. As soon as it reaches you, the clockwork spy falls apart, leaving only the gemstone behind. You can start and stop the playback of the sound recorded on the gemstone as a swift action as long as it is in your hand, but another creature can so with a DC 25 Spellcraft check.\n\nA particular gemstone can only have one audio recording stored. Once a recording has been placed on a gemstone, it cannot be used as a focus component for summon clockwork spy again.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/25120ce8f3275722.json",
+    "web": "https://codex.pipsprojects.com/#/e/25120ce8f3275722"
+  },
+  "license": "OGL 1.0a"
+}

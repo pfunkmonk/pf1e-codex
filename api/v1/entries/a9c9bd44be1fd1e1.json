@@ -1,0 +1,36 @@
+{
+  "id": "a9c9bd44be1fd1e1",
+  "name": "Curse of the Lightless",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cabalist": 5,
+      "cleric": 5,
+      "medium": 4,
+      "mesmerist": 5,
+      "nightblade": 5,
+      "occultist": 5,
+      "wizard": 6,
+      "spiritualist": 5,
+      "witch": 5
+    },
+    "desc": [
+      "curse",
+      "darkness",
+      "shadowmorph"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School necromancy [curse, darkness, shadowmorph]; Level cabalist 5, cleric 5, medium 4, mesmerist 5, nightblade 5, occultist 5, sorcerer/wizard 6, spiritualist 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a broken mirror)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration permanent\nSaving Throw Will partial; Spell Resistance yes\n\nDESCRIPTION\n\nWith a touch you curse your foe to a life of exile in darkness. Upon failing its saving throw, the creature’s shadow immediately and permanently vanishes. All spells that utilize the creature’s shadow or have the shadowmorph descriptor (such as shadow courier or shadow wound) are dispelled and cannot be used on the target as long as the curse persists. Creatures with the shadow surge class feature lose any shadow surges they currently have and cannot gain shadow surges as long as they are cursed. Any object or creature hidden in the creature’s shadow, such as from a nightblade’s shadow familiar ability, is expelled and appears in an adjacent space to the creature. Exposing the target to bright light staggers it so long as it remains in the light. The creature is also treated as an undead creature for determining the damage of spells that deal additional damage to undead, such as wall of fire or sunburst. This does not grant the creature the ability to be healed by negative energy, nor is it harmed by positive energy (unless it already was beforehand).\n\nTwenty-four hours after the curse is bestowed, the creature’s weakness to bright light becomes lethal. From then on, exposing the creature to direct sunlight staggers it on the first round of exposure and destroys it utterly on the second consecutive round of exposure if it does not escape, similar to a vampire. This is in addition to the previously described penalties the curse brings.\n\nA creature that makes its Will save is staggered for 1 round if it is in bright light, but suffers no further effects. The curse bestowed by this spell cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell.\n\nWhile a creature can learn to live with the curse, in lands where vampires are a threat or feared, the curse can make the creature the subject of superstition or outright hostility from others.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a9c9bd44be1fd1e1.json",
+    "web": "https://codex.pipsprojects.com/#/e/a9c9bd44be1fd1e1"
+  },
+  "license": "OGL 1.0a"
+}

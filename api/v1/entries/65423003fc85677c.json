@@ -1,0 +1,28 @@
+{
+  "id": "65423003fc85677c",
+  "name": "Disarming Storm",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "paladin": 4
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School conjuration (creation) [air]; Level cleric/oracle 3, druid 3, paladin 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange 30 ft.\nArea cone shaped burst\nDuration instantaneous\nSaving Throw no; Spell Resistance no\n\nDESCRIPTION\n\nA blast of air loosens the grip of subjects in your area. All creatures within a 30-foot cone risk being disarmed by this spell. Make a special disarm maneuver check, using your caster level or your base attack bonus, whichever is higher. Compare the result to the CMD of your targets. Every target whose CMD you beat drops a held object (your choice if they are holding multiple objects) as though subject to the disarm combat maneuver.\n\nStrategists and Tacticians. Copyright 2010, 4 Winds Fantasy Gaming; Author Ryan Costello, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65423003fc85677c.json",
+    "web": "https://codex.pipsprojects.com/#/e/65423003fc85677c"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "4b0ecd39723448ac",
+  "name": "Airsphere",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 3,
+      "ranger": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School conjuration (creation); Level druid 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a perfect moonstone worth 10 gp)\n\nEFFECT\n\nRange touch\nTarget creature or object touched\nArea 30-foot-radius spread\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell creates a sphere of fresh air around the individual or object touched by the caster. Gaseous and vaporous attacks are unable to penetrate this airsphere, and acids or other liquids simply wash over it. The spell generates oxygen, enabling you to breathe underwater or in other areas with no fresh air (though as the sphere surrounds its recipient or object, it hampers movement in or under water).\n\nThis spell doesn’t protect against natural or magical effects occurring within the airsphere: for example, if a vial of acid is thrown into the sphere, it enters; if it breaks, its contents splash for their normal effects. This spell was specially crafted to guard against dragon breath; it will absorb and negate any breath weapon upon contact but is itself destroyed, instantly and harmlessly, in doing so.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b0ecd39723448ac.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b0ecd39723448ac"
+  },
+  "license": "OGL 1.0a"
+}

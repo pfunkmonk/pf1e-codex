@@ -1,0 +1,25 @@
+{
+  "id": "28a4dee9991afcbb",
+  "name": "Replicate",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "wizard": 6,
+      "vanguard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation); Level magus 6, sorcerer/ wizard 6, vanguard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget object weighing no more than 5 lbs./level\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create a replica of an existing object. The replicated object appears in your hand if you desire, or in the hands of a willing creature within range of the spell, otherwise it appears in the nearest open space. The object has the same shape, size, coloration, weight, and use as the original, appearing to be an exact replica, though it does not have any magical properties. An Appraise check or appropriate Craft or Knowledge check can be made to identify that it’s not the original object. The DC of this check is 15 + your caster level for the Craft check, or 20 + your caster level when making an Appraise or Knowledge check.\n\nIf the original object is masterwork, so is the duplicate. The new object has the same material properties as the original, even if made out of a special material like adamantine or cold iron. If the original object has less than full hit points, you can make the replicated item have the same hit points or be created with full hit points, even if the original item has the broken condition (but is not destroyed). The replicated item does not have any magical properties of the original.\n\nYou cannot replicate an artifact with this spell.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/28a4dee9991afcbb.json",
+    "web": "https://codex.pipsprojects.com/#/e/28a4dee9991afcbb"
+  },
+  "license": "OGL 1.0a"
+}

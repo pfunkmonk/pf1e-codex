@@ -1,0 +1,29 @@
+{
+  "id": "c8d928efc5d146c1",
+  "name": "Suppress Tattoo",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "magus": 2,
+      "wizard": 2,
+      "summoner": 2,
+      "witch": 2,
+      "subdomain wards": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School abjuration; Level bard 2, cleric/oracle 2, magus 2, sorcerer/wizard 2, summoner 2, witch 2, Subdomain Wards 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a vial of ink)\n\nEFFECT\n\nRange medium (100 ft + 10 ft/level)\nTarget one creature\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou suppress the effects of any one tattoo on the target creature, negating any effects the tattoo is currently causing and preventing it from being activated for the duration of the spell. When this spell is cast, make a caster level check (1d20 + caster level) and compare it to the tattoo with the highest caster level (DC = 11 + tattoo’s caster level). If the caster level check surpasses the DC, the tattoo is suppressed for the duration of the spell; if the DC is not met, repeat this with the next lowest tattoo caster level until one tattoo is suppressed or all tattoos the creature bears have been checked.\n\nSuppress Tattoo, Greater\n\nSchool abjuration; Level bard 4, cleric/oracle 4, magus 4, sorcerer/wizard 4, summoner 4, witch 4, Subdomain Wards 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a vial of ink)\n\nEFFECT\n\nRange medium (100 ft + 10 ft/level)\nTarget one creature or a 20-ft radius burst\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou suppress the effects of multiple tattoos on the target creature, or a single tattoo on multiple creatures in a small area.\n\nSingle Creature: As per suppress tattoo, but you can suppress multiple tattoos with a single casting. Make a caster level check (1d20 + caster level) and compare it to the highest tattoo’s caster level (11 + tattoo caster level). If the DC is met, suppress the tattoo – regardless of success, repeat this for all the tattoo’s borne by the creature until up to 1 tattoo per 4 caster levels is suppressed or all the tattoo DCs are checked.\n\nArea Suppression: As per suppress tattoo, but you can suppress a single tattoo on any number of creatures within a 20-ft radius burst. Make a single caster level check (1d20 + caster level) and compare it to the highest tattoo caster level (11 + tattoo caster level) on each creature. If the DC is met suppress the tattoo, otherwise check remaining tattoos as per suppress tattoo.\n\nAffordable Arcana: Magic Tattoos © 2017, d20pfsrd.com Publishing; Author: Andrew Ready",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c8d928efc5d146c1.json",
+    "web": "https://codex.pipsprojects.com/#/e/c8d928efc5d146c1"
+  },
+  "license": "OGL 1.0a"
+}

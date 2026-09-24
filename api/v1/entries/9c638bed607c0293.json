@@ -1,0 +1,26 @@
+{
+  "id": "9c638bed607c0293",
+  "name": "Umbral Nightblade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 6
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of superior invisible ink worth 75 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadowy, humanoid nightblade\nDuration 1 round/level (D)\nSaving Throw Fortitude partial, see text; Spell Resistance yes\n\nDESCRIPTION\n\nAs you finish the spell, you open the bottle of invisible ink, a fine mist coming from its opening as the ink is consumed and evaporated. Darkness coalesces about a nearby space and takes on a solid form of roughly human shape. The being appears fully armed and armored and poises to strike, ready to take on any challenge.\n\nOne of the most powerful shadow spells available to a nightblade, umbral nightblade creates a shadowy humanoid that had many of the skills possessed by real nightblades. The umbral nightblade appears as a medium-sized humanoid composed entirely out of shadows (though it is still corporeal and takes up a space), clad in armor and wielding melee weapons appropriate for its size; its appearance (including the form of the weapon) is up to you, though it cannot be made to look like a specific person and always has a shadowy form, so it is never mistaken for an actual creature. It has an AC equal to 10 + 1/2 your caster level + your Charisma bonus, an attack bonus equal to your caster level + your Charisma bonus, 6 hit points per caster level, and a movement speed of 30 feet. It uses your saving throws for its own. If reduced to 0 hit points, the spell ends. Upon creating the umbral nightblade, you designate a creature within range for it to target, which it attacks on each of its turns if able. You can redirect its target at any time as a free action. The nightblade cannot move outside of the spell’s range, regardless of its target.\n\nThe nightblade takes its turn directly after yours and has a reach of 5 feet. It can make a number of attacks of opportunity each round equal to your Charisma bonus. When making a full attack, it makes one attack per six caster levels at its full attack bonus. When the nightblade first attacks a creature, you must overcome that creature’s spell resistance or have the nightblade be rendered unable to harm it. The nightblade never again attacks such creatures. Each hit deals 3d6 + your Charisma bonus of either bludgeoning, piercing, or slashing damage, as appropriate for the weapon it wields, critically threats on a 19 or 20, and deals double damage on a critical hit. Every time it successfully hits a target, the target must also make a Fortitude save or take 1d3 points of Strength damage. The nightblade’s weapon is considered magic, silver, and cold iron for the purpose of overcoming damage reduction. The nightblade uses your skill bonuses in order to make any skill checks you ask it to, though it cannot make Craft, Knowledge, Linguistics, Profession, or Spellcraft checks.\n\nWhat makes the umbral nightblade especially deadly is that it has access to nightblade arts, as an actual nightblade. It gains one art per six caster levels, chosen from the following list: beckoning shadows, dusk strike, fall of night, mystic shade, shadow motion, shadow run, shadow transference, shifting focus, warp strike, or any art that you have, assuming it can benefit from the art. It uses these arts as you direct it to (a free action for you). To use the arts, it is created with its own reserve of shadow surges equal to 1 shadow surge per four caster levels (max 5), though it cannot create any on its own. It can also shadow shift as a nightblade, and can shift a total of 10 feet per caster level. As with an umbral servant, it gains a +10 bonus on Stealth checks to remain unseen when in dim light; in darkness or supernatural darkness, it is effectively invisible.\n\nOnce during the spell’s duration, you can command the nightblade to create a shadow effect for you (a standard action for you). It casts one of the following effects, chosen when you give the command: shadow conjuration, shadow evocation, or shadow necromancy*. It uses your caster level for the effect, your concentration check (if needed), and uses your spell DC for the created effect. After it finishes casting, this spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9c638bed607c0293.json",
+    "web": "https://codex.pipsprojects.com/#/e/9c638bed607c0293"
+  },
+  "license": "OGL 1.0a"
+}

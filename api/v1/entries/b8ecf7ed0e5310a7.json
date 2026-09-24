@@ -1,0 +1,27 @@
+{
+  "id": "b8ecf7ed0e5310a7",
+  "name": "Augment Flames",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes (object)",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [fire]; Level druid 2, sorcerer/wizard 2\nComponents V, S, M (ordinary fire the size of a campfire or larger)\n\nCASTING\n\nCasting Time 1 action\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nTarget one fire source up to a 20-ft. cube\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes (object)\n\nDESCRIPTION\n\nAugment flames turns a regular fire into a cone-shaped blast of fire. The spell requires a fire at least the size of a small campfire to act as the cone’s point of origin. The size of the cone is 5 feet per caster level, while the direction of the cone is determined by the caster. Each creature caught in the path of the flames is dealt 2d4 points of fire damage unless a successful Reflex save is made, in which case the creature takes only half damage.\n\nThe cone of fire ignites combustibles and damages objects in the area.\n\nIf the damage caused to an interposing barrier shatters or breaks through it, the cone of fire may continue beyond the barrier if the area permits; otherwise, it stops at the barrier just as any other spell effect does.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b8ecf7ed0e5310a7.json",
+    "web": "https://codex.pipsprojects.com/#/e/b8ecf7ed0e5310a7"
+  },
+  "license": "OGL 1.0a"
+}

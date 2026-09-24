@@ -1,0 +1,17 @@
+{
+  "id": "1936de1d83b6626f",
+  "name": "Leshy, Skunk Cabbage",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "We Be Leshys",
+  "book": "We Be Leshys",
+  "facets": {
+    "bk": "We Be Leshys"
+  },
+  "body": "SKUNK CABBAGE LESHY\nCR 5\n\nA purple leafy casing protects this small plant creature, and a pair of smaller casings open up in approximations of hands. A profound stench emanates from within the leshy, to the delight of a dozen circling flies.\n\nXP 1,600\nLG Small plant (leshy)\nInit +2; Senses darkvision 60 ft., low-light vision; Perception +12\nAura stench (30 ft., DC 16, 1d6 rounds)\n\nDEFENSE\n\nAC 21, touch 13, flat-footed 19 (+2 Dex, +8 natural, +1 size)\nhp 59 (7d8+28)\nFort +8, Ref +4, Will +4\nImmune electricity, plant traits, sonic\n\nOFFENSE\n\nSpeed 20 ft.\nMelee 2 slams +10 (1d4+3 plus overwhelming stench)\nRanged skunk spray +7 touch (1d4 acid and overwhelming stench)\nSpecial Attacks overwhelming stench, verdant channel 3/day (4d6)\nSpell-Like Abilities (CL 7th; concentration +7)\n\nAt-Will—tree shape (small cabbage only)\nConstant—pass without trace, speak with plants\n\nSTATISTICS\n\nStr 17, Dex 14, Con 17, Int 8, Wis 14, Cha 11\nBase Atk +5; CMB +7; CMD 19\nFeats Point-Blank Shot, Precise Shot, Toughness, Weapon Focus (slam)\nSkills Perception +12, Stealth +6 (+10 Stealth in forest), Survival +2 (+6 Survival in forests); Racial Modifiers +4 Stealth and Survival in forests\nLanguages Common, Druidic, Sylvan\n\nSPECIAL ABILITIES\n\nOverwhelming Stench (Ex)\n\nA creature struck by skunk spray or slam must succeed at a DC 16 Fortitude save or become nauseated for 1 round, and then sickened for 1d4 minutes. On a successful save, the creature is still sickened for 1 round. Dousing the victim in at least a gallon of alcohol removes the stench and ends the nauseated and sickened conditions inflicted by this ability. This is a poison effect. The save DC is Constitution-based.\n\nSkunk Spray (Ex)\n\nSkunk spray is a touch attack which has a range increment of 20 feet and deals 1d4 acid damage.\n\nVerdant Channel (Ex)\n\nSkunk cabbage leshys can channel verdant energy to a range of 30 feet. This acts as channel positive energy, but it can only heal plant creatures and deals no damage to undead.\n\nWe Be Leshys Copyright 2025 Zenith Games Authors Mike Welham and Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1936de1d83b6626f.json",
+    "web": "https://codex.pipsprojects.com/#/e/1936de1d83b6626f"
+  },
+  "license": "OGL 1.0a"
+}

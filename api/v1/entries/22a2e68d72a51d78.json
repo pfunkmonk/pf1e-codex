@@ -1,0 +1,25 @@
+{
+  "id": "22a2e68d72a51d78",
+  "name": "Companion’s Vengeance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "paladin": 3,
+      "ranger": 3
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Rite Publishing"
+  },
+  "body": "School transmutation; Level druid 3, paladin 3, ranger 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange personal and your animal companion\nTarget you and your animal companion\nDuration 1 min./level (D)\n\nDESCRIPTION\n\nDamage\tMorale Bonus\n1-10 hp\t+1\n11-20 hp\t+2\n21-30 hp\t+3\n31-40 hp\t+4\n41+ hp\t+5\n\nWhen your animal companion suffers damage at the hands of your enemies, either you or your animal companion (your choice) receives a morale bonus to your or its next attack and damage roll against that specific foe based upon the figures provided in the following chart. The bonus to the damage roll is only applied to the next attack; therefore a miss provides no benefit.\n\nIf more than one opponent hits your animal companion prior to its or your next attack roll, you can grant yourself and your animal companion the aforementioned morale bonus, but neither can gain more than one morale bonus in a single round. If you voluntarily end the spell before its effects expire, your companion recovers one hit point of damage per caster level (up to a maximum of +20).\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/22a2e68d72a51d78.json",
+    "web": "https://codex.pipsprojects.com/#/e/22a2e68d72a51d78"
+  },
+  "license": "OGL 1.0a"
+}

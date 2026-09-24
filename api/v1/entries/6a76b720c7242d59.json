@@ -1,0 +1,17 @@
+{
+  "id": "6a76b720c7242d59",
+  "name": "Robot, Mechanical Viper",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Mechanical Viper\nCR 2\n\nXP 600\nRobot iron cobra\nN Small construct (robot)\nInit +2; Senses darkvision 60 ft., low-light vision; Perception +4\n\nDEFENSE\n\nAC 20, touch 13, flat-footed 18 (+2 Dex, +7 natural, +1 size)\nhp 18 (1d10+13)\nFort +0, Ref +2, Will +0\nDR 5/—; Immune construct traits; SR 13\nWeaknesses vulnerable to critical hits and electricity\n\nOFFENSE\n\nSpeed 40 ft.\nMelee bite +3 (1d6+1 plus poison)\n\nSTATISTICS\n\nStr 12, Dex 15, Con —, Int 10, Wis 11, Cha 1\nBase Atk +1; CMB +1; CMD 13 (can’t be tripped)\nFeats Toughness\nSkills Perception +4, Stealth +12; Racial Modifiers +6 Stealth\nSQ find target\n\nSPECIAL ABILITIES\n\nFind Target (Su)\n\nOnce per day, an iron cobra’s creator can order it to find and kill a specific creature within 1 mile, which it does as if guided by discern location. The creator must have seen or be holding an item from the specified creature for this order to function.\n\nPoison (Ex)\n\nAn iron cobra’s bite injects poison from a hidden reservoir within its body. Because it is a construct, the cobra does not naturally produce this poison, and its creator must refill this reservoir manually. The reservoir holds enough poison for 3 successful bite attacks, after which the creature merely deals bite damage. Refilling the reservoir takes 5 rounds and provokes attacks of opportunity. The creator can fill the reservoir with any injury poison (typically black adder venom), though acid, alchemical substances, and even stranger liquids have been used.\n\nBlack Adder Venom: Bite—injury; save Fort DC 11; frequency 1/round for 6 rounds; effect 1d2 Con damage; cure 1 save.\n\nECOLOGY\n\nEnvironment any\nOrganization solitary, pair, or nest (3–10)\nTreasure none\n\nPathfinder Campaign Setting: Dungeons of Golarion. © 2011, Paizo Publishing, LLC. Authors: Jason Bulmahn, Matthew Goodall, Brandon Hodge, Anthony Pryor, and Mike Shel.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6a76b720c7242d59.json",
+    "web": "https://codex.pipsprojects.com/#/e/6a76b720c7242d59"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "7a773901bc75e7b3",
+  "name": "Troop, Forest Guardians",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "bk": "Paizo, Inc."
+  },
+  "body": "Well-worn bows in hand and swords on their hips, these fighters wear layers of camouflaging hides. They lurk in the forest’s shadows while they wait for the best time to strike.\n\nForest Guardians Troop (CR 10)\n\nXP 9,600\nCG Medium humanoid (human, troop)\nInit +9; Senses Perception +10\n\nDEFENSE\n\nAC 23, touch 16, flat-footed 17 (+7 armor, +5 Dex, +1 dodge)\nhp 123 (13d8+65)\nFort +8, Ref +15, Will +8\nDefensive Abilities troop traits\n\nOFFENSE\n\nSpeed 30 ft.\nMelee troop (3d6+4)\nSpace 20 ft.; Reach 5 ft.\nSpecial Attacks volley, wild allies\n\nSTATISTICS\n\nStr 18, Dex 21, Con 19, Int 10, Wis 14, Cha 13\nBase Atk +9; CMB +13; CMD 29\nFeats Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Handle Animal), Toughness\nSkills Handle Animal +20, Knowledge (local) +5, Knowledge (nature) +6, Perception +10, Stealth +8\nLanguages Common\nSQ favored enemy\n\nSPECIAL ABILITIES\n\nFavored Enemy (Ex)\n\nSee the skirmishers troop stat block above. The bonus on damage rolls also applies to the forest guardians troop’s volley attack.\n\nVolley (Ex)\n\nA forest guardians troop can fire a volley of arrows as a standard action. This attack takes the form of up to four lines with a range of 100 feet. These lines can each start from the corner of any square in the troop’s space. Each creature in any of these lines takes 3d6 points of piercing damage per line that hits it (Reflex DC 21 half). The save DC is Dexterity-based.\n\nWild Allies (Ex)\n\nA forest guardians troop is made up of individuals who have a tight connection to the forest and the creatures that inhabit it. As a standard action while in forest terrain, the troop’s members can call upon their animal allies to frighten and harry enemy troops. If the forest guardians troop succeeds at a Handle Animal check with a DC equal to 10 + the enemy troop’s Hit Dice + its Wisdom modifier, the enemy troop is shaken and its Armor Class (including touch and flat-footed AC) decreases by 2 for 1 round. For every 5 by which the check exceeds this DC, this effect lasts for 1 additional round. The forest guardians troop can use this ability only against enemy troops that they can see within 30 feet. Using this ability again on the same enemy troop, or using the Intimidate skill to demoralize the same enemy troop, simply extends the effect’s duration (and does not create a stronger fear effect).\n\nThe troop can use this ability against an enemy troop multiple times, but each subsequent check beyond the first increases the DC by 5. This increase resets after 1 hour has passed.\n\nAbout\n\nForest guardians harbor hatred for those who invade their woodland homes— and will fight to the death to protect their demesnes.\n\nPathfinder Campaign Setting: Lands of Conflict © 2017, Paizo Inc.; Authors: Lissa Guillet and Amber E. Scott.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7a773901bc75e7b3.json",
+    "web": "https://codex.pipsprojects.com/#/e/7a773901bc75e7b3"
+  },
+  "license": "OGL 1.0a"
+}

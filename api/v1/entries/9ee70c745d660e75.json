@@ -1,0 +1,26 @@
+{
+  "id": "9ee70c745d660e75",
+  "name": "Antimagic Field, Hasty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 8,
+      "occultist": 6,
+      "psychic": 7,
+      "wizard": 6
+    },
+    "save": "None",
+    "sr": "see text",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School abjuration; Level cleric 8, occultist 6, psychic 7, wizard 6\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange 5 ft.\nArea 5-ft.-radius emanation, centered on you\nDuration 3 rounds\nSaving Throw none; Spell Resistance see text\n\nDESCRIPTION\n\nThis spell functions as antimagic field except as noted above, and as follows. The hasty antimagic field does not move, and if you leave its area its duration ends. If a hasty antimagic field‘s area overlaps an antimagic field or another hasty antimagic field, its duration ends. (Two or more hasty antimagic fields overlapping ends all such spells.)\n\nHasty Spells © 2024, Owen K.C. Stephens; Author: Joshua Hennington. Developer: Owen K.C. Stephens. Project manager and Planning: Lj Stephens. Bon Vivant: Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9ee70c745d660e75.json",
+    "web": "https://codex.pipsprojects.com/#/e/9ee70c745d660e75"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "920ac0cd45ff6beb",
+  "name": "Lunar Prophecy",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "druid": 5,
+      "shaman": 5,
+      "witch": 5
+    },
+    "save": "special",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School divination; Level druid 5, shaman 5, witch 5\n\nCASTING\n\nCasting Time 10 minutes, see text\nComponents V, S, M/DF (a calm pool of water at least 1 foot in diameter plus incense and herbs woth 50 gp)\n\nEFFECT\n\nRange touch\nTarget one creature per two caster levels\nDuration 24 hours\nSaving Throw See text; Spell Resistance no\n\nDESCRIPTION\n\nWith this spell, you seek guidance from the moon to best prepare your allies for what lies ahead. All creatures that wish to partake in the spell must remain within 10 feet of you while you are casting the spell. The spell must be cast at night in the open, so that you can see the reflection of the moon within the pool of water. If weather conditions prevent you from seeing the moon, you may still cast the spell, but the casting time increases to 1 hour as the spell forces the sky to clear. This only clears enough of the sky for you to receive the prophecy and has no long-term effect on the weather.\n\nUpon finishing the spell, the image of the moon that shines upon the pool of water changes to any of its eight phases. The phase of the actual moon does not change. The phase of the moon that the reflection shows determines the ability that is granted to the participants of the spell. Roll 1d8 to determine what phase of the moon is shown, and what ability it grants, as shown on Table: Lunar Prophecy. The ability can be used once by each target within the 24 hour duration of the spell.\n\nTable: Lunar Prophecy\nd8\n\tLunar Phase\tEffect\n1\n\tNew Moon\n\tYou must rise to the challenges ahead. Each creature, as a swift action, can grant themselves the benefit of good hope for 1 minute.\n\n2\n\tWaxing Crescent\n\tYou must continue to grow in the face of adversity. As an immediate action upon being affected by a curse, disease, or poison, each creature can attempt to cleanse themselves of the effect, as remove curse, remove disease, or neutralize poison, respectively, using its Hit Dice as its caster level when trying to remove the effect.\n\n3\n\tFirst Quarter\n\tYou will find yourself in a crisis in which you must act. Each creature, as a swift action, can grant themselves the benefit of freedom of movement for 1 minute.\n\n4\tWaxing Gibbous\n\tYou must be aware of your own progress, and discover a better way of doing things. Each creature, as a swift action, can grant themselves the benefit of fox’s cunning for 1 minute. During this time, the creature also gains a +4 insight bonus on all skill checks.\n\n5\n\tFull Moon\n\tYou must be able to see that which cannot be seen. Each creature, as a swift action, can grant themselves blindsense out to a range of 30 feet for 1 minute.\n\n6\n\tWaning Gibbous\n\tYou must share you wisdom with others. Each creature, as a swift action, can grant themselves the benefit of owl’s wisdom for 1 minute. During this time, the creature is immune to charm and compulsion effects.\n\n7\n\tLast Quarter\n\tYou must think in a different manner than normal, and prepare for a new direction. Each creature, as a swift action, can grant themselves the benefit of a single feat for 1 minute that they qualify for.\n\n8\n\tWaning Crescent\n\tYou must understand that life and death are part of a cycle, and that death may draw near to you at times. Each creature, as a swift action, can grant themselves the benefit of a death ward spell for 1 minute.\n\nRather than roll randomly, you can attempt to force a specific prophecy. To do so, you must make a Will save against your own spell. Should you succeed, you can choose which result on Table: Lunar Prophecy is shown to you and grant the chosen effect on the targets of the spell. If you fail the saving throw, the reflection in the water appears clouded over, and the spell fails. A creature that took part of a failed lunar prophecy cannot be the recipient the spell for 24 hours from any source.\n\nA creature can only benefit from a single lunar prophecy at a time. Should another lunar prophecy be cast on that creature before the previous duration has ended, the spell fails.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/920ac0cd45ff6beb.json",
+    "web": "https://codex.pipsprojects.com/#/e/920ac0cd45ff6beb"
+  },
+  "license": "OGL 1.0a"
+}

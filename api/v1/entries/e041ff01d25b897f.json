@@ -1,0 +1,29 @@
+{
+  "id": "e041ff01d25b897f",
+  "name": "Havoc Dance",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "magus": 3,
+      "wizard": 2,
+      "witch": 3
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School evocation [force]; Level arcanist 2, magus 3, sorcerer/wizard 2, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/4 levels, maximum 5 rounds\nSaving Throw Fort partial (see spell description); Spell Resistance yes\n\nDESCRIPTION\n\nThe caster summons a ball of colorful and chaotic raw magic he may use as a touch attack, or throw at a nearby target as a ranged touch attack within 20 feet. The ball of magic deals 1d6 force damage, but any Large or smaller target that gets hit must make a Fortitude save or be pushed back 10 feet and tossed into the air, before spinning and falling prone. Each round after the first, the caster can summon an additional ball of energy as a swift action that can then be used to make an attack with a standard action. Any round that a ball of energy is not summoned or used is wasted.\n\nHavoc Dance, Greater\n\nSchool evocation [force]; Level arcanist 5, magus 6, sorcerer/wizard 5, witch 6\nDuration 1 round/4 levels, maximum 5 rounds\n\nDESCRIPTION\n\nAs havoc dance with the following changes: The damage increases to 3d6 force damage per hit, and the maximum range is now 40 feet. Any Huge or smaller target hit must make a Fortitude save or be tossed 20 feet backwards, through the air before falling prone.\n\nHavoc Dance, Master\n\nSchool evocation [force]; Level arcanist 8, sorcerer/wizard 8, witch 9\nDuration 3 rounds\n\nDESCRIPTION\n\nAs greater havoc dance with the following changes: Each round the caster can launch a ball of havoc energy at a separate target within range as a standard ranged touch attack, with a maximum number of targets allowed each round equal to 1 per 4 caster levels, up to a maximum of 5 targets.\n\nBlood and Broomsticks © 2019, d20pfsrd.com Publishing; Author: Jeremy Clements",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e041ff01d25b897f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e041ff01d25b897f"
+  },
+  "license": "OGL 1.0a"
+}

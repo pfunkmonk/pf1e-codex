@@ -1,0 +1,25 @@
+{
+  "id": "e4fdec79d0f8a381",
+  "name": "Greater Wound (wounding)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 3,
+      "inquisitor": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy; Level cleric/oracle 3, inquisitor 3, witch 3\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will half; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word takes 3d6 points of damage + 1 point per wordcaster level (maximum +15). Undead are instead cured by this effect and do not receive a saving throw or spell resistance.\n\nBoost: The target takes 3d8 points of damage + 1 point per caster level (maximum +15).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4fdec79d0f8a381.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4fdec79d0f8a381"
+  },
+  "license": "OGL 1.0a"
+}

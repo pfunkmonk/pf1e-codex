@@ -1,0 +1,17 @@
+{
+  "id": "b69aa3e9728b3cbb",
+  "name": "Divine Morale",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Paizo Classes",
+  "book": "Paizo Classes",
+  "facets": {
+    "bk": "Paizo Classes"
+  },
+  "body": "A cleric must choose the Protection domain as one of their domains or one of the Protection subdomains if they don’t worship a deity. If they worship a deity, the deity must have Protection as a domain.\n\nChannel Armor (Su)\n\nA divine morale channels divine protection into their allies rather than healing them.\n\nThe divine morale can channel an AC bonus of the following types at the available levels:\n\n1st: Shield\n5rd: Natural Armor\n9th Deflection\n13th Dodge\n17th Luck\n\nStarting at 1st level the divine morale channels a 1d4 Shield bonus to AC to all allies within 30 feet. At every odd level thereafter, add a +1 to the bonus AC. Each time they gain a new bonus they can channel, this bonus starts at 1d4 and increases every odd level thereafter. For example a 7th level divine morale can channel a Shield bonus for 1d4+3 or Natural Armor for 1d4+1.\n\nMultiple uses of channel can be used on the same person so long as a different type of AC bonus is chosen, however multiple uses that would normally stack or supersede one another do not apply when using this ability. Thus, two uses of dodge, even if it would normally stack, does not stack.\n\nThis alters the Channel Energy ability.\n\nSpontaneous Protection\n\nA divine morale can sacrifice any spell that isn’t an orison or domain spell to cast spells which contain “Shield” in their name (including spells with “Shield” in their name which don’t appear on the cleric spell list). In addition they add the following spells to their spell list;\n\nBarkskin, Haste, Blood Armor, Scale Spikes, Greater Scale Spikes, Armor Lock, Create Armaments, and Mage Armor.\n\nThis alters the Spontaneous Casting ability.\n\nOpen Game Content under the site's blanket OGL 1.0a declaration (d20pfsrd.com/extras/legal/). Author/publisher: Paizo Classes.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b69aa3e9728b3cbb.json",
+    "web": "https://codex.pipsprojects.com/#/e/b69aa3e9728b3cbb"
+  },
+  "license": "OGL 1.0a"
+}

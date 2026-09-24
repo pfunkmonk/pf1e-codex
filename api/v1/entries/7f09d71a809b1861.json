@@ -1,0 +1,28 @@
+{
+  "id": "7f09d71a809b1861",
+  "name": "Life Leech (death)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "magus": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy [evil]; Level magus 4, sorcerer/wizard 4, witch 4\n\nEFFECT\n\nDuration 1 hour/level\nSaving Throw Fortitude negates; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word takes 1d4 temporary negative levels. If these negative levels cause the subject to die, it rises as a ghost 1d4 days later unless buried in consecrated ground.\n\nBoost: The negative levels from a wordspell with this effect word are permanent. Boosting this effect word increases its level by 5.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7f09d71a809b1861.json",
+    "web": "https://codex.pipsprojects.com/#/e/7f09d71a809b1861"
+  },
+  "license": "OGL 1.0a"
+}

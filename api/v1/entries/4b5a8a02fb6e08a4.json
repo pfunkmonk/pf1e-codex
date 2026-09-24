@@ -1,0 +1,27 @@
+{
+  "id": "4b5a8a02fb6e08a4",
+  "name": "Wall of Darkness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "nightblade": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [darkness]; Level nightblade 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./2 levels)\nEffect opaque wall of shadows up to 10-ft. long/level, 20 ft. high and 5 ft. thick\nDuration 1 round/level\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a wall of black shadows that cannot be seen through and saps the strength of those that pass through it. The lighting within the area of the wall is lowered to darkness (regardless of existing lighting conditions) and the light level within 10 feet of the wall is lowered by 1 step. Creatures on opposite sides of the wall have total concealment (50% miss chance) from each other unless they possess darkvision. If a creature attempts to pass through the wall, they must make a Fortitude save or be fatigued. This effect cannot make a creature that is already fatigued become exhausted.\n\nThe wall must be vertical and rectangular. It need not touch the ground. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature when it is cast, the spell fails.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4b5a8a02fb6e08a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4b5a8a02fb6e08a4"
+  },
+  "license": "OGL 1.0a"
+}

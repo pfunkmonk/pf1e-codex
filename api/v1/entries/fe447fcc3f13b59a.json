@@ -1,0 +1,27 @@
+{
+  "id": "fe447fcc3f13b59a",
+  "name": "Bind Group",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (tiny anchor)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nTarget one creature/level, no two of which can be more than 30 ft. apart and one geographic location, building or conveyance.\nDuration permanent (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou bind a group of people to a specific place. Those bound are unable to leave the chosen site (a ship, a building, a dungeon complex, etc.). They may act normally, but cannot move beyond the place’s confines. They can climb to the top of the building, descend into the bowels of a cellar, or shoot arrows from the porch or whatever they choose, as long as they do not leave the site. If they are forcibly removed from the site they make every effort to return to the site as soon as possible, by the fastest means possible. The spell will even hold a group to the location if the place is ruined, sinks, or has been disintegrated. The spell only ends if the spell focus is broken, ruined, dispelled or the focus is taken beyond the range of the spell. Often the focus is hidden by the caster some 100 ft. or so outside the site.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fe447fcc3f13b59a.json",
+    "web": "https://codex.pipsprojects.com/#/e/fe447fcc3f13b59a"
+  },
+  "license": "OGL 1.0a"
+}

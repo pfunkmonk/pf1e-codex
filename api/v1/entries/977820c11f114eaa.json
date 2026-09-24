@@ -1,0 +1,27 @@
+{
+  "id": "977820c11f114eaa",
+  "name": "Black Bile",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School conjuration (creation) [water]; Level magus 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 1 stream of bile\nDuration 1 round + 1 round per three caster levels\nSaving Throw Reflex half; Spell Resistance no\n\nDESCRIPTION\n\nYou vomit forth a stream of vile black fluids.\n\nYou make a ranged touch attack against one target. If the attack is successful, the target takes 1d4 points of acid damage per caster level (maximum 5d4). There is no saving throw vs. this initial damage.\n\nAt the beginning of the target’s turn, the target may attempt a Reflex saving throw. The target suffers 1d4+1 acid damage or ½ if the saving throw is successful. This additional damage recurs each round on the targets turn once for every 3 caster levels (for a maximum of 6 rounds at caster level 18).\n\nUltimate Evil. Copyright 2014, d20pfsrd.com Publishing/Open Gaming LLC; Authors: Clinton J. Boomer & Peter K. Ullmann.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/977820c11f114eaa.json",
+    "web": "https://codex.pipsprojects.com/#/e/977820c11f114eaa"
+  },
+  "license": "OGL 1.0a"
+}
