@@ -96,6 +96,14 @@ check("every entry ends with a license/credit paragraph",
 check("no placeholder text where a Section 15 credit should be",
   d20.filter((r) => /Product Name Section 15 here|ADD BOOK\/SOURCE NAME HERE|Place Section 15 Statement/i.test(String(bodies[r[0]])) || /\n\nx$/.test(String(bodies[r[0]]))).map(label));
 
+check("no body prose swallowed by the credits paragraph",
+  d20.filter((r) => { const b = String(bodies[r[0]]); const tail = b.slice(b.lastIndexOf("\n\n") + 2); return tail.split("\n").some((l) => l.length > 200 && !/©|\(c\)\s*\d{4}|copyright|\bAuthors?\b/i.test(l)); }).map(label),
+  "parsePage splitCreditsZone must return body text found inside the Section 15 zone to the body");
+
+check("no purchaser watermark (customer name / order number) in a body",
+  d20.filter((r) => /\(order #\d+\)/.test(String(bodies[r[0]]))).map(label),
+  "stripTemplateJunk removes PURCHASE_WATERMARK; a customer name must never be published");
+
 /* ---- duplicates ---- */
 {
   const byKey = new Map();

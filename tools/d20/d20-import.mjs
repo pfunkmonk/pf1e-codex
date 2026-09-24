@@ -237,7 +237,7 @@ for (const r of toImport) {
   const thirdNamed = !isPaizoish(bk) && bk !== UNVERIFIED_SOURCE && bk !== "Third-party (unattributed)" && bk !== "d20pfsrd.com";
   // A Paizo/unconfirmed page the matcher judged DIFFERENT content (NAMESAKE — e.g. the regional trait "Bandit" from another
   // region than the AoN "Bandit") is kept too, told apart as "Name (d20pfsrd)". A NEW-verdict Paizo collision is still skipped.
-  const canDisamb = thirdNamed || r.verdict === "NAMESAKE";
+  const canDisamb = thirdNamed || r.verdict === "NAMESAKE" || r.verdict === "AMBIGUOUS";
   const suffix = thirdNamed ? shortSuffix(bk) : "d20pfsrd";
   const disamb = (n) => (n.toLowerCase().endsWith("(" + suffix.toLowerCase() + ")") ? n : n + " (" + suffix + ")");
   // HELD verdicts. d20-match.mjs held 1,473 pages back as NAMESAKE ("same name, different content") or AMBIGUOUS. A
@@ -246,9 +246,14 @@ for (const r of toImport) {
   //  NAMESAKE  -> imported unless the same name+bucket already exists (below).
   //  AMBIGUOUS -> imported only from a NAMED third-party publisher and only when the match is weak (cont < 0.25, cos < 0.6);
   //               a Paizo/unconfirmed page that middling-matches a Codex row is far more likely the same entity re-worded.
+  // REVISED after measuring: the blanket "AMBIGUOUS Paizo page = same entity re-worded" rule dropped ~70 pages whose text
+  // barely overlaps the row they matched (races in RP-builder form, regional traits sharing a name, archetypes named
+  // "Cleric Evangelist" vs a Legendary Games "Evangelist"). AMBIGUOUS is now decided by the same real test as everything
+  // else: SAME TEXT as the matched row = duplicate (skip); otherwise it is new content and takes the namesake path.
   if (r.verdict === "AMBIGUOUS") {
     const mc = r.match || {};
-    if (!thirdNamed || (mc.cont || 0) >= 0.25 || (mc.cos || 0) >= 0.6) { report.skippedHeldDuplicate.push({ ...r, canonicalName: name, reason: "AMBIGUOUS: " + (!thirdNamed ? "not from a named third-party publisher" : "content overlaps the matched Codex row") }); continue; }
+    const mb = mc.id && d.BODIES[mc.bucket || p.bucket] ? d.BODIES[mc.bucket || p.bucket][mc.id] : undefined;
+    if (mb !== undefined && contentOverlap(mb, p.body) >= SAME_TEXT) { report.skippedHeldDuplicate.push({ ...r, canonicalName: name, reason: "AMBIGUOUS: same text as the matched Codex row" }); continue; }
   }
   // Two publishers' take on the SAME god ("Set" by Frog God Games vs the Paizo "Set") — deities always keep both.
   if (p.bucket === "deities") {
