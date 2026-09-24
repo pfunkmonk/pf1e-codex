@@ -1,0 +1,17 @@
+{
+  "id": "06160fec4be09b50",
+  "name": "Spellwraith",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Epic Meepo Presents: Monsters",
+  "book": "Epic Meepo Presents: Monsters",
+  "facets": {
+    "bk": "Epic Meepo Presents: Monsters"
+  },
+  "body": "To those that can see it, this ghostly creature appears to be a humanoid shape comprised of colorful vapor.\n\nSpellwraith\nCR 5\n\nXP 1,600\nLE Medium undead (incorporeal)\nInit +7; Senses darkvision 60 ft., spellsense; Perception +10\n\nAC 18, touch 18, flat-footed 15 (+5 deflection, +3 Dex)\nhp 47 (5d8+25)\nFort +6; Ref +4; Will +6\nDefensive Abilities channel resistance +2, incorporeal, out of phase; Immune undead traits\n\nSpeed fly 60 ft. (good)\nMelee incorporeal touch +6 (1d6 negative energy plus 1d6 Con damage)\n\nStr —, Dex 16, Con —, Int 14, Wis 14, Cha 21\nBase Atk +3; CMB +6; CMD 21\nFeats Blind-Fight, Combat Reflexes, Improved Initiative\nSkills Fly +7, Intimidate +13, Knowledge (arcana) +10, Perception +10, Sense Motive +10, Spellcraft +13, Stealth +11\nLanguages Common, Draconic (can’t speak)\nSQ create spawn\n\nEnvironment any\nOrganization solitary, pair, gang (3–6), or pack (7–12)\nTreasure none\n\nCreate Spawn (Su) A humanoid slain by a spellwraith becomes a spellwraith in 1d4 rounds. These spawn are less powerful than typical spellwraiths, and suffer a –2 penalty on all d20 rolls and checks, receive –2 hp per HD, and only drain 1d2 points of Constitution on a touch. Spawn are under the command of the spellwraith that created them until its death, at which point they lose their spawn penalties and become free-willed wraiths. They do not possess any of the abilities they had in life.\n\nOut of Phase (Su) A spellwraith is invisible to any creature that is not currently casting a spell or being affected by one or more spells. Conversely, creatures that are not currently casting spells or being affected by one or more spells are invisible to the spellwraith. Such creatures are immune to the spellwraith’s incorporeal touch attack. Spell-like abilities and spell effects produced by items count as spells for the purpose of this ability.\n\nSpellsense (Su) A spellwraith notices spell effects, creatures affected by spells, and objects affected by spells as if it possessed 60-foot blindsense. Spell-like abilities and spell effects produced by items count as spells for the purpose of this ability, but permanent magic items do not.\n\nSpellwraiths are malevolent undead created from humanoids that died while casting or being affected by spells. They can only see and be seen by creatures currently under the effect of magical spells and spell-like effects, and are driven to mercilessly attack such creatures. Creatures not currently under the effect of spells and spell-like effects are immune to the spellwraith’s attacks. The spellwraith ignores such creatures unless they are able cause it harm, in which case it avoids them as best it can.\n\nEpic Meepo Presents: Monsters. © 2011-2012, Eric Morton. Comments",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/06160fec4be09b50.json",
+    "web": "https://codex.pipsprojects.com/#/e/06160fec4be09b50"
+  },
+  "license": "OGL 1.0a"
+}

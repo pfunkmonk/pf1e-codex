@@ -1,0 +1,27 @@
+{
+  "id": "df28995f68833f53",
+  "name": "Friendly Face (Tricky Owlbear Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "wizard": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level bard 1, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hour/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nEveryone you meet sees you as friendly and nonthreatening.\n\nThose who fail a Will save improve their reaction toward you one step in the positive direction, thus improving your chances at making a successful Diplomacy check. Those who succeed on their save do not react toward you any more negatively than they normally would. Starting at 5th caster level, you improve their reaction two steps in the positive direction.\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/df28995f68833f53.json",
+    "web": "https://codex.pipsprojects.com/#/e/df28995f68833f53"
+  },
+  "license": "OGL 1.0a"
+}

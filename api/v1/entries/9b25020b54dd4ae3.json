@@ -1,0 +1,27 @@
+{
+  "id": "9b25020b54dd4ae3",
+  "name": "Inflict Pain (Rite Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [evil]; Level cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration special (see below)\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nInflict pain surrounds your hand with a dull red glow, allowing you to send blindingly hot pinpricks through your target’s body. This deals 2d6 points of nonlethal damage plus 1 point per caster level (maximum +5), and the target suffers a -1 penalty to attack rolls, skill checks, and ability checks for 1 minute. A successful saving throw results in half damage and negates the penalty.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b25020b54dd4ae3.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b25020b54dd4ae3"
+  },
+  "license": "OGL 1.0a"
+}

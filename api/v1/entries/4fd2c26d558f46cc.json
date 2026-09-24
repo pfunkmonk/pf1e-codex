@@ -1,0 +1,24 @@
+{
+  "id": "4fd2c26d558f46cc",
+  "name": "Echo (illusion)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School illusion (figment); Level bard 0, sorcerer/wizard 0\n\nEFFECT\n\nDuration 1 round/level (D)\nSaving Throw Will disbelief; Spell Resistance no\nTarget Restrictions burst (emanation)\n\nDESCRIPTION\n\nThis effect word targets a single location, creating a sound that rises, recedes, or remains constant for the duration. The sound’s volume increases with the caster’s level. The base Perception DC to notice this sound is 0, but the DC is reduced by 1 per caster level (although it can be higher if the caster desires). This means that the sound starts out as loud as a creature talking, but by 10th level, it is as loud as creatures engaged in a noisy battle. The sound can resemble anything the caster desires, except it cannot replicate speech or language. Once cast, the type of sound within the emanation cannot be changed.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4fd2c26d558f46cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/4fd2c26d558f46cc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6b3581e954053e59",
+  "name": "Borrow Future (time)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "bard": 4,
+      "magus": 4,
+      "wizard": 4,
+      "summoner": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation; Level alchemist 4, bard 4, magus 4, sorcerer/wizard 4, summoner 4\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word takes either a standard action and a move action or a full-round action immediately after a wordspell with this effect word is cast (maximum once per round). The target skips its next turn, but any effects that would occur on its turn or spell effects that would expire on its turn occur normally. The target is not helpless on its next turn, but can take no actions.\n\nBoost: Instead of losing its next turn, the target of a wordspell with this effect word is staggered on its next turn.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b3581e954053e59.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b3581e954053e59"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "c51e4cb9fd8e9aad",
+  "name": "Simple Order (command)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "language-dependent",
+      "mind affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (compulsion) [language-dependent, mind affecting]; Level bard 1, cleric/oracle 1, inquisitor 1, sorcerer/wizard 1, witch 1\n\nEFFECT\n\nDuration 1 round\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word must follow one of five simple commands to the best of its ability on its next turn. If the target cannot take the specified action on its next turn, this effect of the wordspell fails. The possible commands are as follows.\n\nApproach: The target must move toward the caster as quickly and directly as possible, provoking attacks of opportunity as normal. The target avoids obvious hazards, such as fire, pits, or traps that it is aware of (other creatures do not count).\n\nDrop: The target drops whatever it is holding and does not pick up anything this round. It otherwise acts normally.\n\nFall: The target falls to the ground and remains prone until its next turn. It can otherwise act normally.\n\nFlee: The target moves away from the caster as quickly and directly as possible. This otherwise functions as approach.\n\nHalt: The target does not move and takes no other action on its turn, although it is not considered flat-footed or helpless.\n\nBoost: This wordspell can use any target word. Boosting this effect word increases its level by 3.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c51e4cb9fd8e9aad.json",
+    "web": "https://codex.pipsprojects.com/#/e/c51e4cb9fd8e9aad"
+  },
+  "license": "OGL 1.0a"
+}

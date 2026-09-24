@@ -209,13 +209,13 @@ for (const r of d.IDX) { if (r[0] === mintId(r[2], r[1])) continue; for (const k
 
 const IMPORTABLE_BUCKETS = new Set(["deities", "races", "rules", "monsters", "items", "traits", "classes", "archetypes", "options", "feats", "spells"]);
 
-const toImport = matches.filter((r) => r.verdict === "NEW");
+const toImport = matches.filter((r) => r.verdict === "NEW" || r.verdict === "NAMESAKE" || r.verdict === "AMBIGUOUS");   // held verdicts are resolved by the guards below
 const held = { NAMESAKE: matches.filter((r) => r.verdict === "NAMESAKE"), AMBIGUOUS: matches.filter((r) => r.verdict === "AMBIGUOUS") };
 
 const rows = [];           // new PF_INDEX rows
 const bodies = {};         // bucket -> { id: body }
-const report = { imported: [], skippedUnmappedBucket: [], skippedExistingCollision: [], skippedIntraBatchNamesake: [], skippedInvertedDup: [] };
-const mintedThisRun = new Map(); // id -> the file that minted it first, this run
+const report = { imported: [], skippedUnmappedBucket: [], skippedExistingCollision: [], skippedIntraBatchNamesake: [], skippedInvertedDup: [], skippedHeldDuplicate: [] };
+const mintedThisRun = new Map(); // id -> {file, bk} of the page that minted it first, this run
 
 for (const r of toImport) {
   const p = pages.get(r.file);
@@ -230,56 +230,68 @@ for (const r of toImport) {
   p.license = tidyDividers(sanitizeText(p.license)).trim();
 
   let name = canonicalName(p);
-  // Two publishers' take on the SAME god ("Set" by Frog God Games vs the Paizo "Set") are both real content and a
-  // namesake is the wrong verdict for them: keep both, told apart by publisher, the way monsters carry "(3pp)".
+  // The page's own license paragraph outranks bkOf's guess: see d20-attrib.mjs for the defects this fixes.
+  const bk = repairSource(bkOf(p), p.license);
+  // A NAMED third-party publisher (not Paizo, not "unconfirmed"/"unattributed"): the only case where a shared name is
+  // resolved by keeping both, told apart by publisher — the way monsters carry "(3pp)" and gods "(Frog God Games)".
+  const thirdNamed = !isPaizoish(bk) && bk !== UNVERIFIED_SOURCE && bk !== "Third-party (unattributed)" && bk !== "d20pfsrd.com";
+  // A Paizo/unconfirmed page the matcher judged DIFFERENT content (NAMESAKE — e.g. the regional trait "Bandit" from another
+  // region than the AoN "Bandit") is kept too, told apart as "Name (d20pfsrd)". A NEW-verdict Paizo collision is still skipped.
+  const canDisamb = thirdNamed || r.verdict === "NAMESAKE";
+  const suffix = thirdNamed ? bk : "d20pfsrd";
+  const disamb = (n) => (n.toLowerCase().endsWith("(" + suffix.toLowerCase() + ")") ? n : n + " (" + suffix + ")");
+  // HELD verdicts. d20-match.mjs held 1,473 pages back as NAMESAKE ("same name, different content") or AMBIGUOUS. A
+  // sample showed most are genuinely different entries (a third-party "Shedu", two publishers' "Energy Weapon", a
+  // Paizo race vs a monster of the same name); a minority are true duplicates. The importer's own guards decide:
+  //  NAMESAKE  -> imported unless the same name+bucket already exists (below).
+  //  AMBIGUOUS -> imported only from a NAMED third-party publisher and only when the match is weak (cont < 0.25, cos < 0.6);
+  //               a Paizo/unconfirmed page that middling-matches a Codex row is far more likely the same entity re-worded.
+  if (r.verdict === "AMBIGUOUS") {
+    const mc = r.match || {};
+    if (!thirdNamed || (mc.cont || 0) >= 0.25 || (mc.cos || 0) >= 0.6) { report.skippedHeldDuplicate.push({ ...r, canonicalName: name, reason: "AMBIGUOUS: " + (!thirdNamed ? "not from a named third-party publisher" : "content overlaps the matched Codex row") }); continue; }
+  }
+  // Two publishers' take on the SAME god ("Set" by Frog God Games vs the Paizo "Set") — deities always keep both.
   if (p.bucket === "deities") {
     const ex = existingNameBucket.get(norm(name) + "|deities");
-    if (ex !== undefined && ex !== mintId("deities", name)) name = `${name} (${repairSource(bkOf(p), p.license)})`;
+    if (ex !== undefined && ex !== mintId("deities", name)) name = disamb(name);
   }
-  const key = norm(name) + "|" + p.bucket;
-  const id = mintId(p.bucket, name);
-  // Additive-only guard: a name+bucket already in the Codex under a DIFFERENT id is a real collision
-  // (some other, non-d20 row owns that name — skip it, never shadow existing content). The SAME id
-  // means it's this importer's own row from a previous run (ids are minted from bucket+name, so a
-  // re-run always reproduces it) — that's an update, not a collision, and must be allowed through or
-  // a second run can never finish writing a batch a first run only partially wrote (found the hard
-  // way: 5 of 10 cat files turned out to be CRLF and failed to parse on the first --apply, so
-  // data/index.js already had all 564 rows before those 5 buckets' bodies were ever written).
-  const existingIdForKey = existingNameBucket.get(key);
-  if (existingIdForKey !== undefined && existingIdForKey !== id) { report.skippedExistingCollision.push({ ...r, canonicalName: name }); continue; }
-  // SAME id is only "my own row from an earlier run" if it is the same page. Across batches a DIFFERENT
-  // publisher's page can mint the same id ("Detect Curse": Frog God Games in batch 5, Rogue Genius Games
-  // in batch 6) and would silently overwrite the earlier row. The row's source column is the publisher, so
-  // a differing source on an existing id is a namesake — hold the new one, keep the existing.
+  let key = norm(name) + "|" + p.bucket;
+  let id = mintId(p.bucket, name);
+  // Additive-only guard: a name+bucket already in the Codex under a DIFFERENT id is a real collision (some other row
+  // owns that name — never shadow existing content). A NAMED third party is kept alongside it as "Name (Publisher)";
+  // anything else is treated as the likely duplicate it is and skipped. The SAME id means it's this importer's own
+  // row from a previous run (ids are minted from bucket+name) — an update, not a collision.
+  let existingIdForKey = existingNameBucket.get(key);
+  if (existingIdForKey !== undefined && existingIdForKey !== id) {
+    if (!canDisamb) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name exists; content not judged different and not from a named third-party publisher" }); continue; }
+    name = disamb(name); key = norm(name) + "|" + p.bucket; id = mintId(p.bucket, name); existingIdForKey = existingNameBucket.get(key);
+    if (existingIdForKey !== undefined && existingIdForKey !== id) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name+publisher already exists" }); continue; }
+  }
+  // SAME id is only "my own row from an earlier run" if it is the same page. Across batches a DIFFERENT publisher's page
+  // can mint the same id ("Detect Curse": Frog God Games, then Rogue Genius Games); a differing source on an existing
+  // id is a namesake — keep the existing row, do not overwrite.
   if (existingIdForKey === id) {
     const oldRow = d.IDX.find((row) => row[0] === id);
-    const newSrc = repairSource(bkOf(p), p.license) || "d20pfsrd.com";
-    if (oldRow && oldRow[4] !== newSrc) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: `existing row is by "${oldRow[4]}", this page by "${newSrc}"` }); continue; }
-  }
-  // INTRA-BATCH NAMESAKE: two DIFFERENT d20 pages, same run, minting the SAME id because they share a
-  // canonical name+bucket — found at 9,000-page scale, 5 pairs ("Swap" by Kobold Press/Open Design vs.
-  // by Rogue Genius Games — two genuinely different 4th/5th-level conjuration spells, not a duplicate).
-  // d20-match.mjs's NAMESAKE detection only compares a candidate against the EXISTING Codex; it never
-  // checks two NEW candidates against EACH OTHER, so this slipped past every check upstream. Without
-  // this guard the second page silently overwrites the first in `bodies` with zero record — exactly the
-  // "confidently wrong" failure this whole pipeline exists to avoid. Neither is safe to guess between,
-  // so BOTH are pulled (the first one is retroactively un-imported the moment its collision is found).
-  const priorFile = mintedThisRun.get(id);
-  if (priorFile && priorFile !== r.file) {
-    const idx = rows.findIndex((row) => row[0] === id);
-    if (idx >= 0) rows.splice(idx, 1);
-    if (bodies[p.bucket]) delete bodies[p.bucket][id];
-    const impIdx = report.imported.findIndex((x) => x.id === id);
-    if (impIdx >= 0) {
-      report.skippedIntraBatchNamesake.push({ ...report.imported[impIdx], reason: "intra-batch namesake, pulled", canonicalName: name });
-      report.imported.splice(impIdx, 1);
+    if (oldRow && oldRow[4] !== (bk || "d20pfsrd.com")) {
+      if (!canDisamb) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "existing row is by \"" + oldRow[4] + "\", this page by \"" + bk + "\"" }); continue; }
+      name = disamb(name); key = norm(name) + "|" + p.bucket; id = mintId(p.bucket, name); existingIdForKey = existingNameBucket.get(key);
+      const o2 = existingIdForKey !== undefined ? d.IDX.find((row) => row[0] === existingIdForKey) : null;
+      if (existingIdForKey !== undefined && (existingIdForKey !== id || (o2 && o2[4] !== bk))) { report.skippedExistingCollision.push({ ...r, canonicalName: name, reason: "name+publisher already exists" }); continue; }
     }
-    report.skippedIntraBatchNamesake.push({ ...r, canonicalName: name, id, bucket: p.bucket, reason: "intra-batch namesake, pulled" });
-    continue;
   }
-  mintedThisRun.set(id, r.file);
-  // The page's own license paragraph outranks bkOf's guess: see d20-attrib.mjs for the four defects this fixes.
-  const bk = repairSource(bkOf(p), p.license);
+  // INTRA-BATCH NAMESAKE: two DIFFERENT d20 pages in one run minting the SAME id ("Swap" by Kobold Press vs Rogue Genius
+  // Games — two different spells). First page keeps the plain name; a second from a DIFFERENT named publisher is kept as
+  // "Name (Publisher)"; anything else is a duplicate of the first and is skipped (never a silent overwrite).
+  let prior = mintedThisRun.get(id);
+  if (prior && prior.file !== r.file) {
+    if (canDisamb && prior.bk !== bk) {
+      name = disamb(name); key = norm(name) + "|" + p.bucket; id = mintId(p.bucket, name);
+      const ex2 = existingNameBucket.get(key);
+      prior = mintedThisRun.get(id);
+      if ((ex2 !== undefined && ex2 !== id) || (prior && prior.file !== r.file)) { report.skippedIntraBatchNamesake.push({ ...r, canonicalName: name, id, bucket: p.bucket, reason: "intra-batch namesake, still colliding" }); continue; }
+    } else { report.skippedIntraBatchNamesake.push({ ...r, canonicalName: name, id, bucket: p.bucket, reason: "intra-batch: same publisher, duplicate of the first" }); continue; }
+  }
+  mintedThisRun.set(id, { file: r.file, bk });
   // INVERTED-NAME DUPLICATE of an ORIGINAL row ("Arrow, Bleeding" vs "Arrow (bleeding)"): d20-match's parseName
   // drops parentheses, so it cannot see these. Only Paizo/unconfirmed pages qualify — a named third party
   // with a familiar name is a namesake. See d20-attrib.mjs nameKeys().
@@ -313,7 +325,11 @@ console.log(`=== IMPORT: ${toImport.length} NEW pages -> ${report.imported.lengt
 console.log("by bucket:", byBucket);
 const attr = {}; for (const r of report.imported) attr[r.thirdParty === true ? "third-party" : r.thirdParty === false ? "Paizo/OGL-core" : "unverified"] = (attr[r.thirdParty === true ? "third-party" : r.thirdParty === false ? "Paizo/OGL-core" : "unverified"] || 0) + 1;
 console.log("attribution:", attr);
-console.log(`\nheld back (not imported, need a person): ${held.NAMESAKE.length} NAMESAKE, ${held.AMBIGUOUS.length} AMBIGUOUS`);
+{
+  const verdictOf = new Map(matches.map((m) => [m.file, m.verdict]));
+  const impHeld = report.imported.filter((x) => verdictOf.get(x.file) !== "NEW").length;
+  console.log(`\nheld verdicts (${held.NAMESAKE.length} NAMESAKE, ${held.AMBIGUOUS.length} AMBIGUOUS): ${impHeld} imported by the guards, ${report.skippedHeldDuplicate.length} AMBIGUOUS skipped as likely duplicates`);
+}
 if (report.skippedUnmappedBucket.length) console.log(`skipped (bucket not handled): ${report.skippedUnmappedBucket.length}`);
 if (report.skippedExistingCollision.length) console.log(`skipped (name already exists — additive-only guard fired): ${report.skippedExistingCollision.length}`, report.skippedExistingCollision.slice(0, 5).map((r) => r.canonicalName));
 if (report.skippedIntraBatchNamesake.length) console.log(`skipped (two DIFFERENT d20 pages this run share a name+bucket — pulled both, need a person): ${report.skippedIntraBatchNamesake.length}`, report.skippedIntraBatchNamesake.map((r) => r.canonicalName));

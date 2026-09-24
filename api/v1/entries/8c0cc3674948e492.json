@@ -1,0 +1,17 @@
+{
+  "id": "8c0cc3674948e492",
+  "name": "Alternate dice rolls",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Source unconfirmed",
+  "book": "Source unconfirmed",
+  "facets": {
+    "bk": "Source unconfirmed"
+  },
+  "body": "From time to time the subject is raised that rolling a single d20 results in a completely flat result distribution. While it is a fact that the d20 systems are designed to make the most of that, it is sometimes fun to experiment with alternative ways of rolling our dice. The below charts illustrate the distribution of results when making various other rolls in place of the traditional 1d20. The line labelled “ACx Crit” charts confirmed critical hits against the Armor Class equal to the position on the horizontal axis when using 1d20, assuming that an initial roll of 20 is required for a critical hit.\n\nAs you’d expect, all complex dice rolls result in a normal distribution. I also think it’s interesting to see where the results cross the 5% line shared by all 1d20 results. In principle this could be used to determine new critical success/failure ranges. If using one of these alternatives I would strongly suggest that critical hits no longer require confirmation.\n\nPlease note that rolls of 3d8-3 or 4d6-4 include 0 as a possible result. 3d8-3 also makes it possible to roll a 21. Rolling 3d6 creates a truncated result range, where results below 3 or above 18 are impossible. Rolling 6d4-4 never totals less than 2.\n\nSource not confirmed for this entry. If this is your work, use the Feedback link below to let us know so we can credit it properly.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8c0cc3674948e492.json",
+    "web": "https://codex.pipsprojects.com/#/e/8c0cc3674948e492"
+  },
+  "license": "OGL 1.0a"
+}

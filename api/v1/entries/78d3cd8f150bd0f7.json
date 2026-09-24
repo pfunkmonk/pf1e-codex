@@ -1,0 +1,28 @@
+{
+  "id": "78d3cd8f150bd0f7",
+  "name": "Tempest Hammer (Rogue Genius Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "archon": 5,
+      "druid": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "air"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [air]; Level archon 5, druid 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 round\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft/ +10 ft./level)\nEffect 5-foot radius column of focused air\nDuration 1 round/level\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nImmediately upon completion of this spell, and once per round thereafter, you may call down a 5-foot-radius, 30-foot tall vertical column of gale-force winds. The column of air slams down in a vertical stroke at whatever target point you choose within the spell’s range (measured from your position at the time). Targets in the area suffer 3d8 bludgeoning damage and are subject to a bull rush attack. Targets that makes a successful Reflex save take no damage but are still subject to the bull rush.\n\nThe CMB for the tempest hammer’s bull rush attack is equal to 8 + your caster level + your Intelligence or Wisdom modifier (whichever is higher) + the spell’s level. Thus a 12th-level druid with an 18 Wisdom casting tempest hammer uses a CMB of +28 (8 + caster level 12 + 4 Wis modifier + 4 spell level). Targets are pushed directly away from you to the maximum distance allowed by the bull rush CMB check.\n\nYou need not call a column of air immediately; other actions, even spellcasting, can be performed first. Each round after the first you may use a standard action (concentrating on the spell) to call a column. You may call a total number of columns equal to your caster level (maximum 15 columns). While casting this spell provokes attacks of opportunity normally, subsequent attacks made with it do not.\n\nIf you are outdoors and in a stormy area—a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)—each column deals 3d12 points of bludgeoning damage (instead of 3d8) and the spell’s CMB increases by +4. This spell functions indoors, underground, and underwater.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/78d3cd8f150bd0f7.json",
+    "web": "https://codex.pipsprojects.com/#/e/78d3cd8f150bd0f7"
+  },
+  "license": "OGL 1.0a"
+}

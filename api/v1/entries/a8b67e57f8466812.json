@@ -1,0 +1,32 @@
+{
+  "id": "a8b67e57f8466812",
+  "name": "Night Terror",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "antipaladin": 3,
+      "inquisitor": 3,
+      "nightblade": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School enchantment [emotion, fear, mind-affecting]; Level antipaladin 3, inquisitor 3, nightblade 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature per level\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nWith a single word you evoke the primal fear of darkness in your foes. You do not need line of sight to creatures you affect with this spell, but must have line of effect to each creature. Each creature you target within range must make a Will save or become terrified of darkness for the duration of the spell. An affected creature is shaken as long as it remains in dim light, or frightened so long as it remains within darkness or supernatural darkness. A creature that leaves from darker lighting conditions and reenters becomes shaken or frightened as appropriate so long as the spell still has duration remaining.\n\nCreatures with darkvision or the see in darkness ability are still subjected to this spell’s effects, but gain a +2 bonus on the saving throw.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a8b67e57f8466812.json",
+    "web": "https://codex.pipsprojects.com/#/e/a8b67e57f8466812"
+  },
+  "license": "OGL 1.0a"
+}

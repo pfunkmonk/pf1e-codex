@@ -1,0 +1,17 @@
+{
+  "id": "10878903a1ff697f",
+  "name": "Leshy, Vine",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "We Be Leshys",
+  "book": "We Be Leshys",
+  "facets": {
+    "bk": "We Be Leshys"
+  },
+  "body": "VINE LESHY\nCR 5\n\nThis tangle of vines in the shape of a man walks with ease. The vines that extend from this creature seem to lengthen and undulate of their own accord.\n\nXP 1,600\nCE Small plant (leshy)\nInit +6; Senses darkvision 60 ft., low-light vision; Perception -2\n\nDEFENSE\n\nAC 19, touch 14, flat-footed 16 (+2 Dex, +1 dodge, +5 natural, +1 size)\nhp 45 (7d8+14)\nFort +6, Ref +4, Will +0\nDefensive Abilities evasion; Immune electricity, plant traits, sonic\n\nOFFENSE\n\nSpeed 20 ft.\nMelee 2 slams +9 (1d4+3 plus grab)\nSpecial Attacks constrict (1d4+3), sneak attack +2d6, verdant channel 3/day (4d6)\nSpell-Like Abilities (CL 7th; concentration +8)\n\n3/day— invisibility\nAt-Will—tree shape (small vines only)\nConstant—pass without trace, speak with plants\n\nSTATISTICS\n\nStr 16, Dex 14, Con 13, Int 12, Wis 7, Cha 15\nBase Atk +5; CMB +7 (+13 grapple); CMD 20 (22 vs. grapple)\nFeats Dodge, Improved Grapple, Improved Initiative, Toughness\nSkills Bluff +9, Diplomacy +9, Stealth +16 (+20 Stealth in forest), Survival -2 (+2 Survival in forest); Racial Modifiers +4 Stealth and Survival in forests\nLanguages Common, Druidic, Sylvan\n\nSPECIAL ABILITIES\n\nSuffocating Strangle (Ex)\n\nA vine leshy’s grappled foes cannot speak, breathe, or cast spells with verbal components. Each time it succeeds at a grapple check against a creature holding its breath, the number of rounds it can hold its breath before suffocating is reduced by 1d4.\n\nVerdant Channel (Ex)\n\nA vine leshy can channel verdant energy to a range of 30 feet. This acts as channel positive energy, but it can only heal plant creatures and deals no damage to undead.\n\nWe Be Leshys Copyright 2025 Zenith Games Authors Mike Welham and Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10878903a1ff697f.json",
+    "web": "https://codex.pipsprojects.com/#/e/10878903a1ff697f"
+  },
+  "license": "OGL 1.0a"
+}

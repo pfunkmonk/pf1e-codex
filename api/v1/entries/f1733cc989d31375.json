@@ -1,0 +1,24 @@
+{
+  "id": "f1733cc989d31375",
+  "name": "Mark of the Golem",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 7,
+      "vanguard": 6
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level sorcerer/wizard 7, vanguard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget construct touched\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou touch a construct and alter the fabric of magic that animates it, rebinding it in such a way that it becomes impervious to magic like a golem.\n\nThis spell grants a touched construct a golem’s immunity to magic ability. Any spells that allow for spell resistance fail outright on the subject. However, the construct gains the weaknesses of a single type of golem, chosen by you at the time of casting. It must be a type of golem that you know of, and must be one that has a list of spells that bypass its magic immunity.\n\nThe construct gains a mark on its chest that represents what kind of golem you designated for mark of the golem. This mark can be identified using Knowledge checks as if identifying the golem it represents; identifying the mark lets a creature know what spells work on the construct.\n\nThis spell cannot be cast on a construct that already has the immunity to magic ability.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1733cc989d31375.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1733cc989d31375"
+  },
+  "license": "OGL 1.0a"
+}

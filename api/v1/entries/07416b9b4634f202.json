@@ -1,0 +1,32 @@
+{
+  "id": "07416b9b4634f202",
+  "name": "Earthbane",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "antipaladin": 4,
+      "bard": 5,
+      "oracle": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "earth",
+      "evil",
+      "fire"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School transmutation [earth, evil, fire]; Level antipaladin 4, bard 5, cleric/oracle 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 20-ft.-radius spread centered on you\nDuration 1 round/two levels\nSaving Throw Fortitude half; Spell Resistance no\n\nDESCRIPTION\n\nThis calamitous sorcery temporarily transforms the terrain around you into a craggy, noxious wasteland of burning salt crystals and boiling toxic sludge strongly reminiscent of the plane of Abaddon.\n\nAll good- or neutral-aligned creatures within the area of effect suffer 1d10 damage at the beginning of each round (maximum 10d10) to within the spread, half of which is fire damage, the other half being unholy energy (bypassing the corresponding damage reduction). Good-aligned outsiders take 1d12 points of damage per round from this spell (maximum 10d12) and are sickened for 1d4 rounds; a successful Fortitude save halves the damage and reduces the sickened condition to one round.\n\nEvil-aligned creatures only take half damage from this spell (fire-based damage); such a creature can reduce the damage by half again (down to one-quarter) with a successful Fortitude save. The caster is immune to the effects of this spell, but should the caster leave this blighted wasteland, the spell automatically expires and the terrain reverts back to normal.\n\nUltimate Evil. Copyright 2014, d20pfsrd.com Publishing/Open Gaming LLC; Authors: Clinton J. Boomer & Peter K. Ullmann.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07416b9b4634f202.json",
+    "web": "https://codex.pipsprojects.com/#/e/07416b9b4634f202"
+  },
+  "license": "OGL 1.0a"
+}

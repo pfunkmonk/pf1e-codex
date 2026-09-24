@@ -1,0 +1,24 @@
+{
+  "id": "b18488b0e3e6bc9c",
+  "name": "Threefold Orb of Weakness",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Alluria Publishing",
+  "book": "Alluria Publishing",
+  "facets": {
+    "sch": "evocation",
+    "desc": [
+      "acid",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Alluria Publishing"
+  },
+  "body": "School evocation [acid, fire]; Level: jester 3\n\nCASTING\n\nCasting Time: 1 standard action\nProp: orb\nComponents: (not included in source material)\n\nEFFECT\n\nRange: close (25 ft. + 5 ft./2 levels)\nTarget: one creature\nDuration: 1 round\nSaving Throw: target rolls Reflex, Fortitude, and Will saves for half damage (see text).; Spell Resistance: yes\n\nDESCRIPTION\n\nThe target suffers 1d8 points of damage, plus an additional point for each caster. If the target fails any saving throw, the spell’s effect is applied as though the saving throw was unsuccessful. The specific effect of this spell is determined by the saving throw that resulted in the lowest roll:\n\nFortitude: The target takes poison damage and is slowed (as per the slow spell) until the end of your next turn.\nReflex: The target fire damage and grants a +2 bonus on attack rolls to its enemies until the end of your next turn.\nWill: The target takes psychic damage and suffers a -2 penalty on attack rolls until the end of your next turn.\n\nRidiculous Races and Crazy Classes. Copyright 2024 Alluria Publishing; Author: Emily Kubisz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b18488b0e3e6bc9c.json",
+    "web": "https://codex.pipsprojects.com/#/e/b18488b0e3e6bc9c"
+  },
+  "license": "OGL 1.0a"
+}

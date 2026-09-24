@@ -1,0 +1,25 @@
+{
+  "id": "c98f21d1a9fbe035",
+  "name": "Rain Of Blades (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 4,
+      "inquisitor": 3,
+      "paladin": 3
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (summoning); Level cleric/oracle 4, inquisitor 3, paladin 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (shard of metal from a weapon)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nDuration 3d6 rounds\nEffect One 5-ft. square/level\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nYou call down a rain of swords, spears, and axes, thrown down by the sacred dead of the gods of war.\n\nThe blades cause 1d10 hp damage per 2 caster levels (maximum 10d10). Any intelligent undead injured automatically become shaken for 5d6 rounds with no save.\n\nThe blades land in such profusion that any square targeted counts as a low obstacle for the spell’s duration.\n\nAbout half of the blades gain the broken condition upon landing, but the rest may be seized and used by combatants as normal. The quality of weapon appearing varies depending on the caster’s level:  7th Level: Normal quality.\n\n11th Level: Masterwork quality.\n15th Level: Magical weapons with +1 enhancement bonuses on each. If the caster is 15th level or higher, the spell’s damage increases by 1 hp per die rolled.\n\nWhen the spell ends, roars of laughter fill the air and all the weapons disappear.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c98f21d1a9fbe035.json",
+    "web": "https://codex.pipsprojects.com/#/e/c98f21d1a9fbe035"
+  },
+  "license": "OGL 1.0a"
+}

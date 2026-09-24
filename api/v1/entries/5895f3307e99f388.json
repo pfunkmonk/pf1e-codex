@@ -1,0 +1,27 @@
+{
+  "id": "5895f3307e99f388",
+  "name": "Vortex (Rogue Genius Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 8,
+      "wizard": 8
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School evocation [force]; Level druid 8, sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one Medium vortex\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell brings into being a twisting, whirling cyclone of air roughly the same size as a Medium creature. The cyclone moves adjacent at any opponent within the spell’s range, as you desire, and attacks it—starting in the round that you cast the spell. For the duration of the spell, the cyclone attacks its designated target once each round on your turn. Its attack bonus is equal to 4 + your caster level + your Intelligence, Wisdom, or Charisma bonus (whichever is higher). It deals 3d6+4 points of bludgeoning damage, with a critical multiplier of x2. Instead of attacking to deal damage, you can have the vortex make one the following combat maneuvers: grapple, bull rush, disarm, overrun, sunder, or trip. It has a CMB equal to its attack bonus +4. The vortex cannot be bull rushed, grappled, overrun, or tripped by others.\n\nThe vortex occupies the same area as a Medium creature. Any creature (even very small creatures or you and your allies) wishing to move through its space must make an Acrobatics check with a DC equal to its CMB. The vortex can take part in a flanking maneuver with another combatant and can make use of the flanking bonus. If the cyclone is farther away from you than the spell’s range, goes out of your sight, or has no target and you are not actively directing it, the cyclone returns to you and hovers by your side.\n\nEach round after the first, you can use a standard action to switch the vortex to a new target. It can move to any spot within the spell’s range and still attack in the same round. If you do not command it to move, the vortex continues to attack the previous round’s target.\n\nThe vortex cannot be harmed by physical attacks, but dispel magic, control winds, control weather, and whirlwind can all be used to dispel it.\n\nIf a creature the cyclone is attacking has spell resistance, the resistance is checked the first time vortex strikes it. If the attack is successfully resisted, the spell is dispelled. If not, the cyclone has its normal full effect on that creature for the duration of the spell.\n\nThe Genius Guide To: Air Magic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5895f3307e99f388.json",
+    "web": "https://codex.pipsprojects.com/#/e/5895f3307e99f388"
+  },
+  "license": "OGL 1.0a"
+}

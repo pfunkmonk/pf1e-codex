@@ -1,0 +1,28 @@
+{
+  "id": "06bb23327bd3d60d",
+  "name": "Secret Speech (Rite Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "language-dependent"
+    ],
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School illusion (glamer) [language-dependent]; Level bard 3, cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 immediate action\n\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\nTarget you and one willing creature/2 caster levels, no two of which can be more than 30 ft. apart\nDuration 1 min./level\nSaving Throw none; see text; Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell allows you and other creatures you select to conceal hidden messages of up to twenty-five words in your normal conversation. This is a free action. When using this spell, you appear to all observers (including characters using a comprehend languages or tongues spell) to be speaking completely normally even as you conceal your hidden message at any point while secret speech lasts.\n\nA creature that receives the same casting of the spell as you hears the hidden message clearly (provided that the creature could normally hear and understand you). This spell does not allow you to converse with deaf creatures or with creatures that don’t understand the language you speak, nor does it allow a subject that normally cannot speak to talk.\n\nAnyone who hears the secret message spoken can attempt to discern it by making a Linguistics check (DC 20 + your caster level).\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/06bb23327bd3d60d.json",
+    "web": "https://codex.pipsprojects.com/#/e/06bb23327bd3d60d"
+  },
+  "license": "OGL 1.0a"
+}

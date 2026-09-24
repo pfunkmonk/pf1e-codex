@@ -1,0 +1,23 @@
+{
+  "id": "643843127a03420a",
+  "name": "Deathchant",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 2
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy; Level bard 2\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (miniature knife)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 30-ft.-radius spread\nDuration concentration + 2 rounds (D); see text\nSaving Throw Will negates, see text; Spell Resistance yes\n\nDESCRIPTION\n\nYour chanting creates a wave of negative energy that spreads out from you, dealing 1 point of damage per two caster levels (maximum 5 points) each round to all living creatures in the area of effect. If a creature makes a successful save, it is immune to the effects of that particular casting of the spell (even if it leaves the effect but later enters it again). A creature that fails a save stops taking damage if it leaves the area, but resumes taking damage if it enters again later. Because undead are powered by negative energy, this spell cures such creatures of a like amount of damage, rather than harming them.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/643843127a03420a.json",
+    "web": "https://codex.pipsprojects.com/#/e/643843127a03420a"
+  },
+  "license": "OGL 1.0a"
+}

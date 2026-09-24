@@ -1,0 +1,26 @@
+{
+  "id": "65f8e871bd70aa30",
+  "name": "Storm of Blades (Orphaned Bookworm Productions)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 9
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [metal]; Level sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nEffect see text\nDuration instantaneous\nSaving Throw Reflex partial, see text; Spell Resistance no\n\nDESCRIPTION\n\nYou create two masses of spinning blades and slam them together against a single creature between them.\n\nThe storm of blades appears up to 30 feet away from the target on opposite sides and rush toward it with a mighty shrieking crash. You must make a ranged touch attack to hit the target with the blades. The storm of blades ignores concealment and cover, and if there is a solid barrier between the target and either of the storm of blades, the spell has a +28 bonus on the Strength check to burst through the barrier and continue unimpeded to the target. A creature struck by the storm of blades takes 20d6 points of slashing damage. If the target fails a Reflex Saving Throw, it is moved 5 feet in a random direction and takes 2d6 bleed. On a success they only take 1d6 bleed.\n\nIf the storm of blades misses the target, the target still takes 10d6 points of slashing damage from blades and 1d6 bleed. A successful Reflex save reduces this damage to half and the target does not take bleed damage.\n\nCreatures other than the target that occupy the spaces where the storm of blades appear or within their path (30 feet wide, 30 feet high, and up to 60 feet long) must also make Reflex saves or take 10d6 points of slashing damage and 1d6 bleed (a successful save halves the damage and negates the bleed). A creature can only take damage once from the storm of blades, no matter how many times the storm of blades pass over a target creature.\n\nRead Magic: Alternative Spells I, © 2025, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/65f8e871bd70aa30.json",
+    "web": "https://codex.pipsprojects.com/#/e/65f8e871bd70aa30"
+  },
+  "license": "OGL 1.0a"
+}

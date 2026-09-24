@@ -1,0 +1,24 @@
+{
+  "id": "e3593f5d3842df27",
+  "name": "Speed Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (dimensional); Level magus 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 2 rounds/level\n\nDESCRIPTION\n\nBy spending a standard action compressing and decompressing space, you may act with bursts of speed on the following round. For the first round of this spell’s duration and on every odd round thereafter, you must spend a standard action to compress and decompress space from the higher dimensions. On every even round, you are under the effects of a haste spell, and visually you appear to travel twice as far as your movement should carry you.\n\nDuring rounds you are compressing and decompressing space, you have a 50% chance that space decompresses behind you, allowing you move and act at normal speed. Otherwise, space decompresses in front of you and you are slowed as per the slow spell, except that visually you appear to travel half as far as your movement should carry you.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e3593f5d3842df27.json",
+    "web": "https://codex.pipsprojects.com/#/e/e3593f5d3842df27"
+  },
+  "license": "OGL 1.0a"
+}

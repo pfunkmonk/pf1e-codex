@@ -1,0 +1,29 @@
+{
+  "id": "4e352c7ef3769118",
+  "name": "Prism Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "elementer": 3
+    },
+    "desc": [
+      "acid",
+      "cold",
+      "electricity",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [acid, cold, electricity, fire]; Level elementer 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 60 ft.\nArea 60 ft. line\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nYou weave a mutable form of elemental energy, creating a scintillating stream of crackling magic erupting from your outstretched hand.\n\nCreatures caught in the area of the prism burst take 1d4 damage each of acid, cold, electricity, and fire. For every two caster levels obtained above 5th, you deal an additional 1d4 damage of each type (to a maximum of 4d4 of each type). Affected creatures can make a Reflex save to halve the damage.\n\nIf you sacrifice a prepared prism burst spell to create a spell twist, you treat the spell twist as if created using a spell one level lower than normal (minimum 1st level) but double the duration of the spell twist, similar to the effects of an Extend Spell metamagic feat. Spell twists that last for 1 round or less are unaffected.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e352c7ef3769118.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e352c7ef3769118"
+  },
+  "license": "OGL 1.0a"
+}

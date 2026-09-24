@@ -1,0 +1,24 @@
+{
+  "id": "26c08fe3e29a2c44",
+  "name": "Life Touch (life)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 8,
+      "witch": 8
+    },
+    "save": "None",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (healing); Level cleric/oracle 8, witch 8\n\nEFFECT\n\nDuration instantaneous\nSaving Throw none; Spell Resistance yes (harmless)\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word functions as revive, but it can be used on a creature that has been dead for up to 1 day per caster level. The creature is restored with half its original hit points, and its body does not need to be whole (just a piece of the creature is required). Any parts of the creature that were missing before its death are not restored by this effect word. The creature gains only one permanent negative level from being restored by this effect word, and this negative level fades after 24 hours (although it can be removed early as normal). The creature retains all of the prepared spells and slots it had when it died.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/26c08fe3e29a2c44.json",
+    "web": "https://codex.pipsprojects.com/#/e/26c08fe3e29a2c44"
+  },
+  "license": "OGL 1.0a"
+}

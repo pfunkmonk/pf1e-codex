@@ -1,0 +1,32 @@
+{
+  "id": "800b67d3cf7bc31f",
+  "name": "Shock Arrow",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bloodrager": 1,
+      "oracle": 2,
+      "druid": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "paladin": 1,
+      "ranger": 1
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [electricity]; Level bloodrager 1, cleric/oracle 2, druid 1, inquisitor 1, magus 1, paladin 1, ranger 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (one arrow)\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level) or see text\nEffect arrow of electricity\nDuration instantaneous or 1 round (see text)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an arrow made of crackling electricity, which you may use for one of two effects.\n\nAttack: You may throw the arrow up to Medium range or fire it from a bow up to the bow’s maximum range. Either use is a ranged touch attack. The arrow deals 1d6 points of electricity damage + 1 point per level (maximum +5).\nBeacon: You throw or fire the arrow straight up. When it reaches maximum range or a solid surface (such as the roof of a cave) it explodes in a peal of thunder and forms a forked bolt of electricity resembling a holy symbol, which lingers for 1 round. The thunder and lightning are as loud and bright as natural thunder and lightning, but they do not harm any nearby creatures.\n\nPathfinder Campaign Setting: Inner Sea Gods © 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/800b67d3cf7bc31f.json",
+    "web": "https://codex.pipsprojects.com/#/e/800b67d3cf7bc31f"
+  },
+  "license": "OGL 1.0a"
+}

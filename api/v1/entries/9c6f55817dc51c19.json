@@ -1,0 +1,27 @@
+{
+  "id": "9c6f55817dc51c19",
+  "name": "Rumble (destruction)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 8,
+      "druid": 8
+    },
+    "desc": [
+      "earth"
+    ],
+    "save": "special",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [earth]; Level cleric/oracle 8, druid 8\n\nEFFECT\n\nDuration 1 round\nSaving Throw see text; Spell Resistance no\nTarget Restrictions Burst (emanation)\n\nDESCRIPTION\n\nThis effect word causes the ground within the area to shake and rumble, like an earthquake. Each creature in the area must make a Reflex save or be knocked prone and take 8d6 points of damage. If the creature makes its save, it takes half damage and is not knocked prone. Caves, cliffs, tunnels, and other natural surfaces collapse in this area, triggering a landslide and possibly burying creatures underneath. Structures take 100 points of damage from this effect, typically enough to cause wooden and masonry buildings to collapse, but not stone or reinforced masonry buildings. See page 429 of the Core Rulebook for more information on landslides and collapses.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9c6f55817dc51c19.json",
+    "web": "https://codex.pipsprojects.com/#/e/9c6f55817dc51c19"
+  },
+  "license": "OGL 1.0a"
+}

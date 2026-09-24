@@ -1,0 +1,32 @@
+{
+  "id": "c0b0b2c5a8ea3e20",
+  "name": "Downpour",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "bloodrager": 4,
+      "druid": 4,
+      "elementer": 4,
+      "invoker": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [water]; Level bloodrager 4, druid 4, elementer 4, invoker 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea cylinder (60-ft. radius, 120 ft. high)\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nThe sky above you darkens as you cast this spell, the clouds gathering briefly before breaking into a heavy downpour of rain.\n\nDownpour fills the entire area of the spell with heavy rainfall. This rain reduces visibility to one-quarter normal distances and imposes a -6 penalty to Perception checks and to all ranged attacks made in the area. All unprotected flames in the area are extinguished, and protected flame has a 50% chance each round of going out. The torrential rain is heavy enough that it imposes penalties on fire magic: creatures are treated as being underwater for the purposes of using fire magic or fire-based supernatural abilities. This penalty is also applied to any spells or fire-based abilities used outside of the area of rainfall and projected into it.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c0b0b2c5a8ea3e20.json",
+    "web": "https://codex.pipsprojects.com/#/e/c0b0b2c5a8ea3e20"
+  },
+  "license": "OGL 1.0a"
+}

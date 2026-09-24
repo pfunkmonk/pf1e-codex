@@ -1,0 +1,30 @@
+{
+  "id": "84e5f9e297c81d43",
+  "name": "Lockdown",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "cleric": 4,
+      "inquisitor": 4,
+      "wizard": 4,
+      "vanguard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration [metal]; Level cleric 4, inquisitor 4, sorcerer/wizard 4, vanguard 4, witch 4\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (a lock worth at least 20 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one structure whose total volume does not exceed one 10-ft.-cube/level\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nAs you finish casting the spell, you snap the lock in your hand shut. A quick clattering of doors and windows can be heard as the entire building closes itself.\n\nThe lockdown spell quickly and efficiently locks and bars all points of entry into the structure. All doors and windows shut automatically. If something is forcefully holding a door or window open, the door or window can make a Strength check using your caster level + 10 in place of its Strength score to close; this can be either as an opposed Strength check against a creature or an attempt to break on object holding it open.\n\nAll doors and windows that have locks become locked if they weren’t already. Bars of iron also reinforce each entry point, with four bars per foot of width the entry point has. The bars serve to reinforce doors, treating them as iron doors (hardness 10, 60 hit points, DC 28 Strength check to break) while also blocking access to windows and other non-door entry points into the building (hardness 10 and 30 hit points per bar, DC 24 Strength check to break).\n\nWhile the initial casting of lockdown bars all entry points, you may choose to dismiss its effects on an individual entry point by touching it. Dismissing it in this manner is not reversible, but has no effect on other nearby entry points. If all entry points are dismissed, the spell ends.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/84e5f9e297c81d43.json",
+    "web": "https://codex.pipsprojects.com/#/e/84e5f9e297c81d43"
+  },
+  "license": "OGL 1.0a"
+}

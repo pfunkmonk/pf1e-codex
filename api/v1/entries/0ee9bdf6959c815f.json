@@ -1,0 +1,17 @@
+{
+  "id": "0ee9bdf6959c815f",
+  "name": "Slithering Master",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Epic Meepo Presents: Monsters",
+  "book": "Epic Meepo Presents: Monsters",
+  "facets": {
+    "bk": "Epic Meepo Presents: Monsters"
+  },
+  "body": "What at first appeared to be a streak of moisture rises up, revealing itself to be a transparent, serpentine ooze.\n\nSlithering Tracker\nCR 4\n\nXP 1,200\nN Small ooze\nInit +4; Senses blindsense 60 ft.; Perception +7\n\nAC 15, touch 15, flat-footed 11 (+4 Dex, +1 size)\nhp 42 (4d8+24)\nFort +7, Ref +5, Will +1\nImmune mind-affecting effects, ooze traits\n\nSpeed 10 ft., climb 10 ft.\nMelee 2 slams +7 (1d6+3 plus grab plus paralysis)\nSpecial Attacks blood drain (1d2 Constitution), grab (Colossal)\nSpell-Like Abilities (CL 8th, concentration +3)\n\n3/day—command ooze (as command plants but targets oozes instead, DC 9)\n\nStr 16, Dex 18, Con 23, Int 11, Wis 10, Cha 1\nBase Atk +3; CMB +5 (+9 grapple); CMD 19 (can’t be tripped)\nFeats Skill Focus (Perception), Skill Focus (Stealth)\nSkills Climb +11, Perception +7, Stealth +20; Racial Modifiers +8 Stealth\nLanguages Undercommon (can’t speak); telepath 100 ft. (with oozes only) SQ spawn tracker, transparent\n\nEnvironment any ruins or underground\nOrganization solitary or pair\nTreasure incidental\n\nParalysis (Ex) Any creature that is hit by a slithering master’s slam attack comes into contact with the anesthetizing slime it secretes. The opponent must succeed on a DC 18 Fortitude save or be paralyzed—at the end of each round thereafter, the paralyzed victim can attempt a new Fortitude save to recover from this paralysis. When a victim recovers from a slithering master’s paralysis, the victim is staggered for 1d6 rounds. This DC is Constitution-based.\n\nSpawn Tracker (Ex) Once per day as a full-round action that provokes attacks of opportunity, a slithering master may create a slithering tracker in an adjacent space. Upon doing so, both the slithering master and the slithering tracker take damage equal to one-half the slithering tracker’s hit point total and become fatigued. The newly created slithering tracker is not under the slithering master’s control. A slithering master cannot use this ability if it is fatigued for any reason.\n\nTransparent (Ex) Because of its lack of coloration, a slithering master is difficult to discern from its surroundings in most environments. The slithering master gains a +8 racial bonus on Stealth checks as a result, and can move at full speed without taking a penalty on Stealth checks. A creature that fails to notice a slithering master and walks into it automatically takes damage as if struck by the slithering master’s slam attack and is immediately subject to a grab attempt and paralysis by the ooze.\n\nSlithering masters are variant slithering trackers. Like slithering trackers, slithering masters are transparent oozes with a hint of intelligence. Unlike trackers, masters can reliably spawn new slithering trackers, and can telepathically direct the actions of other oozes.\n\nEpic Meepo Presents: Monsters. © 2011-2012, Eric Morton. Comments",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ee9bdf6959c815f.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ee9bdf6959c815f"
+  },
+  "license": "OGL 1.0a"
+}

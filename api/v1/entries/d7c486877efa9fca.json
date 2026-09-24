@@ -1,0 +1,25 @@
+{
+  "id": "d7c486877efa9fca",
+  "name": "Freeze (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 2,
+      "oracle": 2,
+      "wizard": 3
+    },
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level bard 2, cleric/oracle 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of beach glass), DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nA blast of cold air billows around your target, chilling water or moisture around it and freezing it in place.\n\nThe target is aware and breathes normally, but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to end the effect as a full-round action that does not provoke attacks of opportunity.\n\nThe target may also substitute an Escape Artist check (DC equal to the spell’s save DC + 5) to break free of its icy sheath. A frozen winged creature cannot flap its wings and falls. A swimmer cannot swim and may drown. A target that successfully escapes still loses its next move action.\n\nMythic: Non-mythic creatures cannot take a full-round action to end the effect, nor can they attempt an Escape Artist check to escape the effect.\n\nFreeze, Greater\n\nSchool transmutation; Level bard 4, cleric/oracle 4, sorcerer/wizard 5 As freeze, but also coats targets in an icy rime. Affected creatures take 2d6 hp cold damage +1 per caster level (maximum +10).\n\nIf an initial Fortitude save is successful, the damage is halved and the freezing-in-place effect is negated, as with freeze. Also as with freeze, targets are entitled to saves every round as a full-round action to end the freezing-in-place effect.\n\nMythic: Non-mythic creatures cannot take a full-round action to end the effect, nor can they attempt an Escape Artist check to escape the effect. Non-mythic creatures suffer 3d6 hp damage. A successful Fortitude save still halves this damage.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d7c486877efa9fca.json",
+    "web": "https://codex.pipsprojects.com/#/e/d7c486877efa9fca"
+  },
+  "license": "OGL 1.0a"
+}

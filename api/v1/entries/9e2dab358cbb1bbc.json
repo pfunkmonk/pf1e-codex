@@ -1,0 +1,18 @@
+{
+  "id": "9e2dab358cbb1bbc",
+  "name": "Chain Spell (Metamagic) (3rd Party – Rogue Genius Games)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "3rd Party – Rogue Genius Games",
+  "book": "3rd Party – Rogue Genius Games",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "3rd Party – Rogue Genius Games"
+  },
+  "body": "You can cast spells that arc to other targets in addition to the primary target.\n\nPrerequisite: Widen Spell.\n\nBenefit: Only spells with an area or defined number of targets (including one creature), a range greater than touch, and a saving throw (for half damage, or to negate the full effect of the spell) may be cast as chain spells. A chain spell affects the primary target normally then arcs to a number of secondary targets equal to your caster level. You choose the secondary targets as you like but they must all be within 30 feet of the primary target and no individual can be targeted more than once. You can choose fewer secondary targets than the maximum.\n\nSecondary targets of a chain spell suffer the full spell’s effect, but make saving throws against a lower DC. If the chain spell deals damage, the secondary targets may each attempt a Reflex saving throws against the spell’s normal save DC –2 with a successful save resulting in half damage. For spells that do not directly deal damage, the save DCs for secondary targets are reduced by 4.\n\nA chain spell uses up a spell slot four levels higher than the spell’s actual level.\n\nExample: A 10th-level wizard with a 17 Intelligence casts a chain blindness/deafness on a nearby goblin and can specify up to ten secondary targets. The goblin, as primary target, must make a Fortitude save against DC 15, while those affected by the secondary arcs save against DC 11.\n\nThe Genius Guide To: Feats of Metamagic The Genius Guide To: Feats of Metamagic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9e2dab358cbb1bbc.json",
+    "web": "https://codex.pipsprojects.com/#/e/9e2dab358cbb1bbc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2f7386668633bd98",
+  "name": "Weltering Wave",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "oracle": 2
+    },
+    "desc": [
+      "chaos",
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [chaos, force]; Level cleric/oracle 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 20-ft.-radius spread\nDuration 1d3+1 rounds\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause chaotic energies to violently shake and disorient the targets of this spell. Those in the area affected are shaken ( -2 morale penalty on attack rolls, weapon damage rolls, and saving throws) for 1 round and must make Reflex saves or fall prone; the Reflex save is required each round a creature is in the area of effect.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2f7386668633bd98.json",
+    "web": "https://codex.pipsprojects.com/#/e/2f7386668633bd98"
+  },
+  "license": "OGL 1.0a"
+}

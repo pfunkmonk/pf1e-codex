@@ -1,0 +1,25 @@
+{
+  "id": "5e820781c55def0b",
+  "name": "Baleful Fox Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Everyman Gaming, LLC",
+  "book": "Everyman Gaming, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 5,
+      "wizard": 5,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Everyman Gaming, LLC"
+  },
+  "body": "School transmutation (polymorph); Level shaman 5, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft. /2 levels)\nTarget one humanoid\nDuration permanent\nSaving Throw Fort negates, Will partial, see text; Spell Resistance yes\n\nBy the way…\n\nThis spell is available to kitsune characters. Characters of other races may cast these spells with GM permission.\n\nDESCRIPTION\n\nYou transform the subject into a fox, functioning as beast shape I.\n\nIf the new form would prove fatal to the creature, such as an aquatic creature transformed in the water, the subject gains a +4 bonus on the save.\n\nIf the spell succeeds, the subject also makes a Will save. If this second save fails, the creature loses its extraordinary, supernatural, and spell-like abilities, loses its ability to cast spells (if it had the ability), and gains the special abilities of its new form in place of its own. It retains its class and level (or HD), any class features it possesses that aren’t extraordinary, supernatural, or spell-like abilities (other than spellcasting), and its alignment and Intelligence, Wisdom, and Charisma ability scores. Any polymorph effects on the target are automatically dispelled and the target cannot use polymorph spells or effects to assume a new form while baleful fox is active, as baleful polymorph. Kitsune are immune to this spell and a creature with the shapechanger subtype can revert to its natural form as a standard action.\n\nWhen you cast baleful fox form, you may choose to include a contingency, as the spell. This contingency may include a duration for baleful fox form other than permanent, a condition that, when fulfilled, dismisses the spell, or both. This effect is not considered a contingency for the purpose of determining how many contingency spells the target may use at once.\n\nKitsune Compendium © 2014 Everyman Gaming, LLC; Authors: Alexander Augunas.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5e820781c55def0b.json",
+    "web": "https://codex.pipsprojects.com/#/e/5e820781c55def0b"
+  },
+  "license": "OGL 1.0a"
+}

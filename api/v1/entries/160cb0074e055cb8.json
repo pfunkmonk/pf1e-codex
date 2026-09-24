@@ -1,0 +1,28 @@
+{
+  "id": "160cb0074e055cb8",
+  "name": "Acid Fog, Hasty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 6,
+      "unchained summoner": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School conjuration (creation) [acid]; Level magus 6, unchained summoner 6, wizard 6\n\nCASTING\n\nCasting Time 1 swift action\nComponents V\n\nEFFECT\n\nRange short (25 ft. + 5 ft./level)\nEffect fog spreads in 10-ft. radius, 10 ft. high\nDuration 3 rounds\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as acid fog except as noted above, and as follows. Each round on your turn, starting when you cast the spell, the fog deals 2d4 points of acid damage to each creature and object within it.\n\nHasty Spells © 2024, Owen K.C. Stephens; Author: Joshua Hennington. Developer: Owen K.C. Stephens. Project manager and Planning: Lj Stephens. Bon Vivant: Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/160cb0074e055cb8.json",
+    "web": "https://codex.pipsprojects.com/#/e/160cb0074e055cb8"
+  },
+  "license": "OGL 1.0a"
+}

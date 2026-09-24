@@ -1,0 +1,18 @@
+{
+  "id": "e76a4eb863d6c2aa",
+  "name": "Fleeting Spell (Metamagic)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "3rd Party – Rogue Genius Games",
+  "book": "3rd Party – Rogue Genius Games",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "3rd Party – Rogue Genius Games"
+  },
+  "body": "You can prepare lower-level versions of spells with shorter durations.\n\nBenefit: Only spells that have a duration of at least one minute (10 rounds) when you cast them can be cast as fleeting spells. A fleeting spell has a duration of one round per 5 caster levels or fraction thereof (minimum one round). Fleeting spells cannot also have metamagic feats added that increase their duration or save DC. A fleeting spell uses up a spell slot one level lower than the spell’s actual level (minimum 1st level). Unlike most metamagic feats, a spell prepared as a fleeting spell calculates its save DC using the new, lower spell level.\n\nExample: Davor is a 9th level half–orc wizard with an 18 Intelligence. He prepares a fleeting hold person as a 1st level spell. When he casts the spell, it has a duration of 2 rounds, and a save DC of 15 (10 +1 modified spell level +4 Intelligence modifier). If Davor had prepared a fleeting quickened hold person as a 5th level spell, he would still calculate its save DC as a 1st level spell.\n\nThe Genius Guide To: Feats of Metamagic The Genius Guide To: Feats of Metamagic. Copyright 2010, Super Genius Games. Author: Owen K.C. Stephens",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e76a4eb863d6c2aa.json",
+    "web": "https://codex.pipsprojects.com/#/e/e76a4eb863d6c2aa"
+  },
+  "license": "OGL 1.0a"
+}

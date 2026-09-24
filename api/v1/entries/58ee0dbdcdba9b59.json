@@ -1,0 +1,26 @@
+{
+  "id": "58ee0dbdcdba9b59",
+  "name": "Teleport Structure (Ascension Games, LLC)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "cleric": 8,
+      "wizard": 7,
+      "summoner": 6,
+      "witch": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (teleportation); Level cleric 8, sorcerer/wizard 7, summoner 6, witch 7\n\nCASTING\n\nCasting Time 8 hours\nComponents V\n\nEFFECT\n\nRange personal and touch\nTarget you and one free-standing structure whose total area does not exceed 200 sq. ft./level (S)\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell functions as teleport, but it instead teleports an entire structure, rather than creatures. The structure can be up to 200 square feet per caster level and up to 20 feet high. You can teleport a structure taller than 20 feet by dividing the total area among multiple floors of the building.\n\nAll objects within the structure are teleported along with it. If any creatures other than you are within the structure (harmless insects and pests not included), the spell fails.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58ee0dbdcdba9b59.json",
+    "web": "https://codex.pipsprojects.com/#/e/58ee0dbdcdba9b59"
+  },
+  "license": "OGL 1.0a"
+}

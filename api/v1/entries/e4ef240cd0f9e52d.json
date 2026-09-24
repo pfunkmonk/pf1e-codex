@@ -1,0 +1,29 @@
+{
+  "id": "e4ef240cd0f9e52d",
+  "name": "Fortify (body)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "paladin": 1,
+      "ranger": 1,
+      "wizard": 1,
+      "summoner": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level alchemist 1, cleric/oracle 1, inquisitor 1, paladin 1, ranger 1, sorcerer/wizard 1, summoner 1\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions Personal, Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word receives a +1 resistance bonus on saving throws. In addition, the target receives a number of temporary hit points equal to its Hit Dice.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4ef240cd0f9e52d.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4ef240cd0f9e52d"
+  },
+  "license": "OGL 1.0a"
+}

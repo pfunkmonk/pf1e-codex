@@ -1,0 +1,28 @@
+{
+  "id": "81b9be1faa8c91d9",
+  "name": "Accursed Glare, Hasty",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rogue Genius Games",
+  "book": "Rogue Genius Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "antipaladin": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rogue Genius Games"
+  },
+  "body": "School necromancy [curse]; Level antipaladin 3, witch 3, wizard 3\n\nCASTING\n\nCasting Time 1 swift action\nComponents None\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 3 rounds\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou channel a fell curse through your glare. You cannot target a creature with a hasty accursed glare unless you can see it and it can see you with a visual sense (rather than something like tremorsense). Bonuses against and immunity to gaze attacks apply to hasty accursed glare.\n\nIf the target fails its saving throw, it begins to obsessively second-guess its actions and attract bad luck. Whenever the target attempts an attack roll or saving throw, it must roll twice and take the lower result.\n\nHasty Spells © 2024, Owen K.C. Stephens; Author: Joshua Hennington. Developer: Owen K.C. Stephens. Project manager and Planning: Lj Stephens. Bon Vivant: Stan!",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/81b9be1faa8c91d9.json",
+    "web": "https://codex.pipsprojects.com/#/e/81b9be1faa8c91d9"
+  },
+  "license": "OGL 1.0a"
+}

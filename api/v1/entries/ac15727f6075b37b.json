@@ -1,0 +1,24 @@
+{
+  "id": "ac15727f6075b37b",
+  "name": "Aura Alteration (Legendary Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "cleric": 4,
+      "witch": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation; Level cleric 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF (three holy symbols of different alignments, melted or otherwise fastened together)\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 1 minute/level (D); see text\nSaving Throw Will negates; Spell Resistance yes\n\nYou alter the alignment aura of the target creature (you may target yourself ) by one step per 4 caster levels. Each step of alteration moves the target creature’s alignment aura one step along either the law/chaos or the good/evil axis. If the target creature’s alignment is moved one step less than the maximum allowed, you may increase the duration to 10 minutes per level; if moved two steps less, to 1 hour per level; and if moved three steps less, 1 day per level. If this spell is used more than once on the same creature, the effects overlap and do not stack.\n\nThe target’s actual alignment is not affected; however, all alignment-based effects (including alignment detection, aligned weapons, clerical domain powers, and spells such as blasphemy, chaos hammer, and forbiddance) treat the target as if their alignment was the aura you choose rather than their actual alignment.\n\nLegendary Investigators © 2022, Legendary Games; Connor Bates, Andrew J Gibson, Norman Mitchell, Margherita Tramontano, Tara Collins",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ac15727f6075b37b.json",
+    "web": "https://codex.pipsprojects.com/#/e/ac15727f6075b37b"
+  },
+  "license": "OGL 1.0a"
+}

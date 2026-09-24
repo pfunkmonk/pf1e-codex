@@ -1,0 +1,36 @@
+{
+  "id": "42256cd3c234970c",
+  "name": "Solar Flare (Varyag's Forge)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Varyag's Forge",
+  "book": "Varyag's Forge",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "arcanist": 2,
+      "cleric": 1,
+      "druid": 2,
+      "hunter": 2,
+      "inquisitor": 1,
+      "oracle": 1,
+      "shaman": 2,
+      "sorcerer": 2,
+      "paladin": 1,
+      "wizard": 2,
+      "warpriest": 1
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Varyag's Forge"
+  },
+  "body": "School evocation [light]; Level arcanist 2, cleric 1, druid 2, hunter 2, inquisitor 1, oracle 1, shaman 2, sorcerer 2, paladin 1, wizard 2, warpriest 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell flashes a burst of intense light into the target’s eyes. The target is blinded for 1 round and dazzled for 1 round per caster level unless it makes a successful Fortitude save, which negates the blinded condition and reduces the dazzled condition to 1 round. Sightless creatures are not affected by solar flare.\n\nCreatures with light sensitivity are blinded for 1 round per caster level if they fail the saving throw instead, and creatures with light blindness are blinded for 1 minute per caster level. In both cases, a successful save reduces this time to 1 round.\n\nMercy of the Sun Copyright 2026 Varyag's Forge Author: Jakub Chlebowicz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/42256cd3c234970c.json",
+    "web": "https://codex.pipsprojects.com/#/e/42256cd3c234970c"
+  },
+  "license": "OGL 1.0a"
+}

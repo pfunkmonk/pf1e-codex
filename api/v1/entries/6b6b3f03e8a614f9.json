@@ -1,0 +1,26 @@
+{
+  "id": "6b6b3f03e8a614f9",
+  "name": "Bleeding Wounds (wounding)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 0,
+      "inquisitor": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy; Level cleric/oracle 0, inquisitor 0, sorcerer/wizard 0, witch 0\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nIf the target of a wordspell with this effect word is dying, it takes 1 hit point of bleed damage each turn.\n\nBoost: The target of a wordspell with this effect takes 1d3 hit points of bleed damage. Boosting this effect word increases its level by 1.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6b6b3f03e8a614f9.json",
+    "web": "https://codex.pipsprojects.com/#/e/6b6b3f03e8a614f9"
+  },
+  "license": "OGL 1.0a"
+}

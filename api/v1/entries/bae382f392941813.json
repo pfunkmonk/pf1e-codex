@@ -1,0 +1,19 @@
+{
+  "id": "bae382f392941813",
+  "name": "Prescience (Path of Iron)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design revelation; Level 9\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 hour/level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis script grants the target a limited form of prescience. Once during the script’s duration, the creature may choose to use its effect. This script grants it an insight bonus equal to your half your caster level (maximum +10) on any single attack roll, combat maneuver check, opposed ability or skill check, or saving throw. Alternatively, it can apply the insight bonus to its AC against a single attack (even if flat-footed). Activating the effect doesn’t take an action; it can even activate it on another character’s turn. The creature must choose to use the bonus before it makes the roll it is to modify. Once used, the script is discharged. A creature can’t have more than one prescience active on it at the same time.\n\nOverload: For every runic charge overloaded into this script, you can grant prescience to another creature. No two targets can be further than 30 feet apart at the time of casting. Once a creature uses the bonus, prescience ends for only that creature. In addition, depending on the design of runic charge used, you can improve the bonus to a specific check type:\n\nAlteration: Opposed ability checks and skill checks\nCreation: Armor Class against a single attack\n\nDestruction: Attack rolls or combat maneuver checks\n\nInvocation: Fortitude saves\n\nManipulation: Reflex saves\n\nRevelation: Will saves\n\nYou can only choose one of the above options, regardless of how many runic charges you use, and it applies to all creatures. If a creature applies prescience’s bonus to the chosen check type, the bonus increases to +1 per caster level (maximum +20).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bae382f392941813.json",
+    "web": "https://codex.pipsprojects.com/#/e/bae382f392941813"
+  },
+  "license": "OGL 1.0a"
+}

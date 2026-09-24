@@ -1,0 +1,25 @@
+{
+  "id": "2a31aa423dcc2645",
+  "name": "Wall of Bones",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 5,
+      "white necromancer": 5,
+      "witch": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (creation); Level sorcerer/wizard 5, white necromancer 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect wall of inter-locking bones, up to one 10-ft. cube/level (S)\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell creates a solid wall of very strong, inter-locking bones. A wall of bones is 1 inch thick per caster level.\n\nIt covers up to a 10-ft.-square area per caster level. Thus, a 10th-level caster can create a wall of bones 100 ft. long and 10 ft. high, a wall 50 ft. long and 20 ft. high, or any other combination of length and height that does not exceed 1,000 sq. ft..\n\nThe wall can be oriented in any fashion as long as it is anchored. A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides. The wall cannot be conjured to occupy the same space as a creature or another object.\n\nA wall of bones can be destroyed by a disintegrate spell or by normal means such as breaking and chipping. Each 5-ft. square of the wall has hardness 6 and 10 hp per inch of thickness.\n\nA section of is breached when its hp drop to 0. If a creature tries to smash through the wall with a single attack, the DC for the Strength check is 20 + 2 per inch of thickness.\n\nNew Paths Compendium. © 2013 Open Design LLC; Authors: Marc Radle, Crystal Frasier, John Ling, Jr., and Jerall Toi.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2a31aa423dcc2645.json",
+    "web": "https://codex.pipsprojects.com/#/e/2a31aa423dcc2645"
+  },
+  "license": "OGL 1.0a"
+}

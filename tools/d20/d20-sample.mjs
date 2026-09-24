@@ -20,7 +20,7 @@
  * Seeded PRNG (seeded per BATCH, so the same batch number always redraws the same pages if repeated
  * before its picks are excluded — batch 2 differs from batch 1 because its pool has batch 1 removed).
  *
- * Usage: node tools/d20/d20-sample.mjs [--n 1000] [--out D:/CODEX/d20-pilot] [--seed 20260922]
+ * Usage: node tools/d20/d20-sample.mjs [--n 1000] [--out D:/CODEX/d20-pilot] [--seed 20260922] [--margin 200] [--min-chars 400]
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -51,8 +51,10 @@ const rows = fs.readFileSync(`${ARCHIVE}/index.csv`, "utf8").split("\n").slice(1
 }).filter(Boolean);
 
 const maxN = Math.max(...rows.map((r) => r.n));
-const SAFE = maxN - 200;                                         // margin: never touch the newest pages
-const usable = rows.filter((r) => r.n <= SAFE && r.status === 200 && r.chars > 400 && !already.has(r.n));
+const MARGIN = Number(arg("margin", 200));                   // 0 once the crawl has FINISHED (the archive is then static)
+const MIN_CHARS = Number(arg("min-chars", 400));
+const SAFE = maxN - MARGIN;                                         // margin: never touch the newest pages
+const usable = rows.filter((r) => r.n <= SAFE && r.status === 200 && r.chars > MIN_CHARS && !already.has(r.n));
 console.log(`archive rows ${rows.length}, newest page #${maxN}, batch ${BATCH} (${already.size} pages already drawn in earlier batches, excluded)`);
 console.log(`sampling from the ${usable.length} pages at #${SAFE} or older not yet drawn`);
 

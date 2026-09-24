@@ -1,0 +1,25 @@
+{
+  "id": "d8aa01ac610eef52",
+  "name": "False Death",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 3,
+      "druid": 3,
+      "wizard": 3
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy; Level cleric/oracle 3, druid 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nFalse death allows you or a single creature you touch to fall into a cataleptic state that resembles death. While in this state, the subject can hear, smell, and taste, but cannot feel or see. The subject need not eat, breathe, or drink while affected by this spell.\n\nAny damage suffered while in this state is halved. Further, the subject is immune to paralyzing effects, energy drain, and mind-affecting effects.\n\nThe subject is likewise immune to poison so long as initial and secondary damage both occur while the subject is still affected by false death. If secondary damage occurs after the false death spell ends, the subject is affected by the poison normally (though he is still permitted a save if the poison allows a save).\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d8aa01ac610eef52.json",
+    "web": "https://codex.pipsprojects.com/#/e/d8aa01ac610eef52"
+  },
+  "license": "OGL 1.0a"
+}

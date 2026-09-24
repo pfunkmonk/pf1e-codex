@@ -1,0 +1,28 @@
+{
+  "id": "e2a770ac324edbe4",
+  "name": "Luminous Body",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 6,
+      "psychic": 6,
+      "shaman": 6
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation (polymorph) [light]; Level druid 6, psychic 6, shaman 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\n\nYour body transforms into solid light, its radiance blinding nearby creatures.\n\nThis spell replaces your physical form with dazzling light. Your gear is not affected by the spell, and you can still wear and use it as normal. While in this form, you are immune to critical hits, sneak attacks, and poison.\n\nYou shed bright light within 60 feet of you and raise the light level for an additional 60 feet: this light is bright enough to pierce even the thickest of robes, and is not concealed or hindered by your equipment. A creature within 10 feet of you must avert their gaze or be blinded for 1 round. A Reflex save negates the effect, but it must be repeated each round that it comes within 10 feet of you unless it covers or averts its eyes.\n\nAn undead creature or a creature specifically harmed by bright light or sunlight is dazzled while within 60 feet of you (no save). If they come within 10 feet of you, rather than the effect described above, they take 1d4 damage per two caster levels (max 10d4) and are blinded for 1d4 rounds: a Reflex save halves the damage and negates the blinding effect. Spell resistance applies to any harmful effects this spell causes to nearby creatures.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e2a770ac324edbe4.json",
+    "web": "https://codex.pipsprojects.com/#/e/e2a770ac324edbe4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3948cd50200c636a",
+  "name": "Stinging Thorn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 1,
+      "invoker": 1,
+      "shaman": 1
+    },
+    "desc": [
+      "plant"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [plant]; Level druid 1, invoker 1, shaman 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect wooden splinter\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nA long sliver of wood flies from your outstretched hand, piercing a single target as a ranged attack. On a hit, the thorn deals 1d6 piercing damage per caster level (max 5d6). A creature struck begins bleeding for 1 point of damage each round. The bleeding can be stopped as normal with a DC 15 Heal check or the application of any effect that restores hit points. At 3rd caster level, the bleed damage increases to 1d4, and at 5th caster level the bleeding increases to 1d6.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3948cd50200c636a.json",
+    "web": "https://codex.pipsprojects.com/#/e/3948cd50200c636a"
+  },
+  "license": "OGL 1.0a"
+}

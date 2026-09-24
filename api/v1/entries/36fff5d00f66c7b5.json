@@ -1,0 +1,28 @@
+{
+  "id": "36fff5d00f66c7b5",
+  "name": "Wall Of Water",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 6,
+      "wizard": 6
+    },
+    "desc": [
+      "cold",
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School evocation [cold, water]; Level druid 6, sorcerer/wizard 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (the contents of a full waterskin)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nEffect wall of rapidly moving water whose area is up to one 10-ft. square/level\nDuration 1 round/level (D)\nSaving Throw Reflex partial; see text; Spell Resistance no\n\nDESCRIPTION\n\nA wall of rapidly moving water — like an ever-cycling waterfall — springs into existence. The wall of water deflects normal projectiles as a wind wall. Any creature who attempts to move through the water suffers 3d6 points of cold damage and must make a Reflex save or be knocked prone. A creature knocked prone will take an additional 3d6 points of cold damage every round that they are still in the water.\n\nFire can destroy a wall of water, and it deals full damage to the wall. Once the wall has taken a total of 100 points of fire damage, it evaporates into a great cloud of steamy fog that lingers for 10 minutes.\n\nPaths of Power. Copyright 2009, 4 Winds Fantasy Gaming; Authors Sean O’Connor and Patricia Willenborg, with Connie J. Thomson and Robert W. Thomson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/36fff5d00f66c7b5.json",
+    "web": "https://codex.pipsprojects.com/#/e/36fff5d00f66c7b5"
+  },
+  "license": "OGL 1.0a"
+}

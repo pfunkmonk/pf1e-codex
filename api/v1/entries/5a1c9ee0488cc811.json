@@ -1,0 +1,27 @@
+{
+  "id": "5a1c9ee0488cc811",
+  "name": "Fire Blast (fire)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [fire]; Level magus 3, sorcerer/wizard 3\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect word deals 1d6 points of fire damage per caster level (maximum 10d6).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5a1c9ee0488cc811.json",
+    "web": "https://codex.pipsprojects.com/#/e/5a1c9ee0488cc811"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e4ea96786a9b0f2f",
+  "name": "Euphoria",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round + 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe affected creature is struck by pure pleasure. He suffers a -4 inherent penalty to Wisdom and gains a +4 enhancement bonus to Constitution. In addition, the subject gains a+4 circumstance bonus to saving throws versus fear (for a net +2 to saving throws versus fear including the Wisdom penalty). He does not fall unconscious if brought to negative hit points, being only disabled each round until dying or healed to positive hit points.\n\nEditor’s Note\n\nThe publisher has released two versions of this spell. The alternate version can be found here.\n\n101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e4ea96786a9b0f2f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e4ea96786a9b0f2f"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "af94e07fdeb6fc54",
+  "name": "Corrosive Bolt (acid)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation) [acid]; Level magus 2, sorcerer/wizard 2\n\nEFFECT\n\nDuration 2 rounds\nSaving Throw none; Spell Resistance no\nTarget Restrictions Selected\n\nDESCRIPTION\n\nA wordspell with this effect word deals 1d4 points of acid damage per level of the wordcaster (maximum 5d4). On the following round, the target takes this damage again. Hitting a target with a wordspell with this effect word requires a ranged touch attack.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/af94e07fdeb6fc54.json",
+    "web": "https://codex.pipsprojects.com/#/e/af94e07fdeb6fc54"
+  },
+  "license": "OGL 1.0a"
+}

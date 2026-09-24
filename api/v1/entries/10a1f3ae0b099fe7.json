@@ -1,0 +1,28 @@
+{
+  "id": "10a1f3ae0b099fe7",
+  "name": "Phobia (Tricky Owlbear Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Tricky Owlbear Publishing",
+  "book": "Tricky Owlbear Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "?*",
+    "bk": "Tricky Owlbear Publishing"
+  },
+  "body": "School enchantment (compulsion) [fear, mind-affecting]; Level bard 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dead spider)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level\nSaving Throw Will partial, see text; Spell Resistance ?*\n\n* This information is missing from the source material.\n\nDESCRIPTION\n\nThe target suddenly develops a phobia of a creature or object of your choice from the list provided.\n\nWhenever presented with the source of her phobia, the target must make a Will save or be frightened as long as the phobia-inducer is within visual range (with a successful save, she will only be shaken). A frightened target will try to get as far away from the source of her phobia as possible. If the source of her phobia moves within 5 feet of the target, even in a non-threatening manner, the target must make another Will save or be left cowering (with a successful save, she will only be frightened) as long as the source remains in that close proximity.\n\nAichmophobia (fear of knives and other sharp objects)\n\nAilurophobia (fear of cats and other felines)\n\nAnthropophobia (fear of people)\n\nArachnophobia (fear of spiders)\n\nArsonphobia (fear of fire)\n\nBogyphobia (fear of goblinoids)\n\nDracophobia (fear of dragons)\n\nEquinophobia (fear of horses)\n\nMetallophobia (fear of metal)\n\nRhabdophobia (fear of magic and specifically spellcasters)\n\nForgotten Foes © 2010 Tricky Owlbear Publishing, Inc.; Authors Mark Gedak and Stefen Styrsky.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/10a1f3ae0b099fe7.json",
+    "web": "https://codex.pipsprojects.com/#/e/10a1f3ae0b099fe7"
+  },
+  "license": "OGL 1.0a"
+}

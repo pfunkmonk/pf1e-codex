@@ -1,0 +1,26 @@
+{
+  "id": "60cd37feb016d0c7",
+  "name": "Puppet Army",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bastion Press",
+  "book": "Bastion Press",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Bastion Press"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget see text\nDuration 1 round/level\nSaving Throw Will negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou can control the actions of up to one creature per caster level, much like the dominate monster spell, save that you can only control a maximum number of Hit Dice equal to (caster level + Charisma modifier) multiplied by 2. All of the initial targets of this spell must be within a 15 ft. radius. You establish a telepathic link with each creature that succumbs to this spell. If a common language is shared, you can generally force the subject to perform as you desire, within the limits of his abilities. If no common language is shared, you can communicate only basic commands, such as “Come here,” “Go there,” “Fight,” and “Stand still.” You know what the subject is experiencing, but you do not receive direct sensory input from him. Subjects resist this spell, but the power of the spell prevents them from throwing off its effects until the duration ends. Obviously self-destructive actions are not carried out. Once control is established, the range at which it can be exercised remains set at 100 feet plus 10 feet per caster level. A creature that leaves this range is immediately freed from the effects of the spell.\n\nEach time a creature affected by this spell makes physical contact (either by touch or with a melee attack) with another creature, the creature touched or struck must make a Will save against this spell or they too become affected by the spell’s power. The total number of creatures controlled remains static, though, and if the creature touched has enough hit dice to exceed the combined maximum of hit dice that can be controlled, he automatically resists the effects of the spell.\n\nThe effects of this spell are both mentally draining and devastating to morale to those who suffer its effects, and once they are freed from the spell’s effects they must make a Fortitude save or be stunned for one round.\n\nProtection from evil or a similar spell can prevent you from exercising control or using the telepathic link while the subject is so warded, but it does not prevent the establishment of the spell or dispel it.\n\nVillains: Rebirth. Copyright 2003, Bastion Press, Inc. Author: James Jacobs.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/60cd37feb016d0c7.json",
+    "web": "https://codex.pipsprojects.com/#/e/60cd37feb016d0c7"
+  },
+  "license": "OGL 1.0a"
+}

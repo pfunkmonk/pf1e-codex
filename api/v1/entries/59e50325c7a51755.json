@@ -1,0 +1,28 @@
+{
+  "id": "59e50325c7a51755",
+  "name": "Lava Burst",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 7,
+      "elementer": 7
+    },
+    "desc": [
+      "earth",
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [earth, fire]; Level druid 7, elementer 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of obsidian)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./level)\nEffect ball of molten rock\nDuration 1 round/4 levels\nSaving Throw none; Spell Resistance no\n\nYou conjure a 2-foot-diameter ball of molten rock, sending it to a point you designate within range. The ball explodes, coating all nearby creatures and objects with blisteringly-hot lava.\n\nThe lava burst explodes in a 15-ft.-radius burst, dealing 1d6 points of fire damage per two caster levels (max 10d6) to creatures and objects in the area. A Reflex save halves the damage. This damage only occurs once, when the spell is cast.\n\nThe lava remains after the initial burst, creating a 15-ft-radius pool of lava beneath the detonation point. Any creature or object that enters into or starts its turn in the area takes 2d6 fire damage (no save). The pool of lava constantly emits smoke and steam from its surface, creating a dense cloud that obscures sight. This acts similar to a fog cloud spell centered upon the lava pool.\n\nAny creature or object that takes damage from this spell continues to burn for 1d3 rounds. This burning deals half of the initial damage each round (max 5d6 from the initial burst, or only 1d6 from entering the pool), with a Reflex save halving the damage for that round only. The burning effect does not stack.\n\nOnce the spell ends, both the lava and smoke cloud vanish, though the damage remains.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/59e50325c7a51755.json",
+    "web": "https://codex.pipsprojects.com/#/e/59e50325c7a51755"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "c608f4dfe9f293d3",
+  "name": "Nightsnare",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 2,
+      "oracle": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 2, cleric/oracle 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (tiny fruit tarts and a feather)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living humanoid creature\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou spin a web of pale, dreamy light, causing a comatose slumber to come upon the target (which may include causing the subject to fall prone, any damage from which does not awaken the victim). A victim of nightsnare is helpless. Each round on its turn, the subject may attempt a new save to end the effect. Slapping or wounding the target rouses the individual immediately, but normal noise does not. Rousing a sleeper with slaps or wounds requires an attack action that does not provoke an attack of opportunity. The sleeper rouses automatically when the duration of nightsnare ends.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c608f4dfe9f293d3.json",
+    "web": "https://codex.pipsprojects.com/#/e/c608f4dfe9f293d3"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7d0a0d19fd54763b",
+  "name": "Water Blast (Rite Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 3
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [water]; Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (small vial of water)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 20-ft.-radius spread\nDuration instantaneous\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast the spell, a burst of water explodes at the location designated. The blast deals 1d6 points of magical nonlethal bludgeoning damage per level (maximum 10d6; this damage is subject to damage reduction) to all creatures within the area. Medium and Large creatures are knocked prone, and Small or smaller creatures are pushed 1d4 x 10 feet away from the center of the blast and knocked prone. A successful Reflex save reduces the damage by half and prevents the target from being knocked prone or pushed.\n\nThe water from the spell can also extinguish fires. Mundane fires within the area of the spell are automatically extinguished. Magical fires can be extinguished, but to do so requires a successful dispel check (as a Targeted Dispel per dispel magic, +1 per caster level, maximum +10) against each spell to dispel it. The DC to dispel such spells is 11 + the caster level of the fire spell.\n\nElemental (fire) creatures, or other creatures that are vulnerable to water, take lethal damage from water blast.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/7d0a0d19fd54763b.json",
+    "web": "https://codex.pipsprojects.com/#/e/7d0a0d19fd54763b"
+  },
+  "license": "OGL 1.0a"
+}

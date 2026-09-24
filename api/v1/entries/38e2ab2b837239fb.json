@@ -1,0 +1,27 @@
+{
+  "id": "38e2ab2b837239fb",
+  "name": "Divine Inspiration (SHM Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "SHM Publishing",
+  "book": "SHM Publishing",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "oracle": 2,
+      "druid": 2,
+      "inquisitor": 1,
+      "warpriest": 2,
+      "domain knowledge": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "SHM Publishing"
+  },
+  "body": "School divination; Level cleric/oracle 2, druid 2, inquisitor 1, warpriest 2, paladin 1; Domain knowledge 2\n\nCasting Time 1 standard action\n\nComponents V, S, DF\n\nRange personal\n\nTarget you\n\nDuration instantaneous\n\nYou call upon your deity or a greater power to provide you with a moment of inspired wisdom. This allows you to attempt a single Knowledge skill check of your choice with a +10 insight bonus. You are treated as trained in any Knowledge skill used for this check, and can use this spell to reroll a Knowledge skill check you have already failed.\n\nSavage Company © 2020 SHM Publishing, Owen Martin, Adam Martin, Bryan Miller, David Thomas, and Doug Morgan",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/38e2ab2b837239fb.json",
+    "web": "https://codex.pipsprojects.com/#/e/38e2ab2b837239fb"
+  },
+  "license": "OGL 1.0a"
+}

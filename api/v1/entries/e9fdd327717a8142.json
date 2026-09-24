@@ -1,0 +1,26 @@
+{
+  "id": "e9fdd327717a8142",
+  "name": "Corrupt Item",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Fire Mountain Games",
+  "book": "Fire Mountain Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "antipaladin": 2,
+      "cleric": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Will",
+    "sr": "yes (object)",
+    "bk": "Fire Mountain Games"
+  },
+  "body": "School evocation; Level antipaladin 2, cleric 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one object of up to 2 cu. ft./level\nDuration 1 min./level\nSaving Throw Will negates (object); Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell infuses an item with the foul powers of hell. The item gains an evil aura, equal in strength to its magic aura. Whenever a creature bearing this item presents it to an evil outsider, he gains a +4 bonus on all Charisma-based skill checks made in relation to the creature. If the item is a weapon, it counts as evil for the purposes of overcoming damage reduction and it deals an additional 1d6 points of damage to any good creature it strikes.\n\nAny good creature possessing the item gains one negative level.\n\nThis negative level remains as long as the item is in the creature’s possession and disappear when the item is put down or dropped. This negative level never results in actual level loss, but they cannot be overcome in anyway while the item is in the creature’s possession.\n\nWay of the Wicked Book Six — The Wages of Sin. Copyright 2013, Fire Mountain Games LLC; Author: Gary McBride.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e9fdd327717a8142.json",
+    "web": "https://codex.pipsprojects.com/#/e/e9fdd327717a8142"
+  },
+  "license": "OGL 1.0a"
+}

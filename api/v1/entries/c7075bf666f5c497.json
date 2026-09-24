@@ -1,0 +1,27 @@
+{
+  "id": "c7075bf666f5c497",
+  "name": "Wolf’s Aspect",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level alchemist 1, druid 1, inquisitor 1, ranger 1, shaman 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, F (a bit of wolf’s hair)\n\nEFFECT\n\nRange touch\nTarget one creature\nDuration 10 minutes/level\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou invest the ferocity of the wolf into your target, granting them a bestial aspect. While under the effects of this spell your target becomes more bestial in appearance. Growing a large jaw, thick fur and gnashing teeth, your type changes to animal and you gain a primary bite attack which deals 1d6 damage. In addition when the affected creature deals damage with the bite attack they may make a free trip attempt without provoking an attack of opportunity.\n\nBreath of Life: The Scout, © 2024, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr. and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c7075bf666f5c497.json",
+    "web": "https://codex.pipsprojects.com/#/e/c7075bf666f5c497"
+  },
+  "license": "OGL 1.0a"
+}

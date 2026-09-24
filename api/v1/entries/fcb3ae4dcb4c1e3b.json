@@ -1,0 +1,26 @@
+{
+  "id": "fcb3ae4dcb4c1e3b",
+  "name": "Enmity Inversion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Far Distant Future Publishing",
+  "book": "Far Distant Future Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "ranger": 2
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Far Distant Future Publishing"
+  },
+  "body": "School enchantment [mind-affecting]; Level ranger 2\n\nCasting Time 1 swift action\n\nComponents V, S\n\nRange close (25 ft. + 5 ft./2 levels)\n\nTarget one creature, which must be a favored enemy\n\nDuration 1 round/level\n\nSaving Throw Will negates; Spell Resistance yes\n\nFor the spell’s duration, you lose any favored enemy bonuses you would normally gain against the target. Meanwhile, the target takes a penalty equal to this favored enemy bonus on all Bluff, Knowledge, Perception, Sense Motive, and Survival checks they make against you. Likewise, they subtract this number from all weapon attack and damage rolls made against you.\n\nCharacter Options: The Ranger. © 2025, Far Distant Future Publishing; Author: Bryan Mangum.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/fcb3ae4dcb4c1e3b.json",
+    "web": "https://codex.pipsprojects.com/#/e/fcb3ae4dcb4c1e3b"
+  },
+  "license": "OGL 1.0a"
+}

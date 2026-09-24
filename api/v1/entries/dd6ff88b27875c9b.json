@@ -1,0 +1,29 @@
+{
+  "id": "dd6ff88b27875c9b",
+  "name": "Healing Thief (Legendary Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 1,
+      "mesmerist": 1,
+      "occultist": 1,
+      "psychic": 1,
+      "sorcerer": 1,
+      "witch": 1,
+      "focus pain": 1
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School necromancy; Level arcanist 1, mesmerist 1, occultist 1, psychic 1, sorcerer 1, witch 1, wizard 1; Focus pain 1\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S, M (a bit of sponge, damp with tears)\n\nEFFECT\n\nRange close\nTarget you, and one creature being healed by positive or negative energy\nDuration instantaneous, then 1 minute (see text)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou steal healing from the target creature. To do so, you must cast this spell at the time the target would regain hit points and succeed on a ranged touch attack against it. If you do, the target isn’t healed, and you regain the same amount of hit points in its place. You gain any excess as temporary hit points that last for 1 minute. The healing must be achieved through either positive or negative energy. If the target is healed by one and you by the other, you discard the energy rather than hurt yourself with it. If you are healed by neither, you deprive the target of its healing, but the spell has no effect on you.\n\nLegendary Mesmerists © 2024, Legendary Games; Authors: W. Hervay and Connor Bates",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd6ff88b27875c9b.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd6ff88b27875c9b"
+  },
+  "license": "OGL 1.0a"
+}

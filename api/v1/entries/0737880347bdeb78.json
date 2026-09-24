@@ -1,0 +1,32 @@
+{
+  "id": "0737880347bdeb78",
+  "name": "Waterproof (Legendary Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "legendary ninja": 1,
+      "magus": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Legendary Games"
+  },
+  "body": "School abjuration [water]; Level bard 1, cleric 1, inquisitor 1, legendary ninja 1, magus 1, shaman 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a bit of wax and paper)\n\nEFFECT\n\nRange touch\nTarget one creature or object (up to a 5-foot cube)\nDuration 24 hours (see text)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou protect the touched creature (including all worn, wielded, and carried items) or object from getting wet. The target can be fully immersed in water for hours and then emerge completely dry, without a single drop of water clinging to it. Flammable items can be immediately ignited, though a burning waterproof item begins sputtering if taken underwater as its oxygen is spent and goes out 1d4-1 rounds later. This spell retards the growth of algae or the accretion of barnacles, mollusks, and similar sea life, but it does not prevent drowning or damage from pressure, hot or cold water, or allow the target to breathe water or swim. Waterproof metal items do not rust or corrode in water, bowstrings and harps snap and strum perfectly, and waterproof books, scrolls, and inks remain pristine and crisp. A potion or other liquid made waterproof does not mix with water. A container can be made waterproof, even if the container is not designed to be watertight, such as a bag or backpack. If cast on such a container, the duration is increased to 1 day per level.\n\nLegendary Classes: Cloak & Dagger, © 2025, Legendary Games; Authors: Andrew J Gibson, Cerise Herndon, Connor Bates, Jason Nelson, Jeff Lee, Kieran “Kazu” Easter, Margherita Tramontano, Matt Goodall, Mia Yoshida, N. Jolly, Nate Wright, Norman Mitchell, Tara Collins.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0737880347bdeb78.json",
+    "web": "https://codex.pipsprojects.com/#/e/0737880347bdeb78"
+  },
+  "license": "OGL 1.0a"
+}

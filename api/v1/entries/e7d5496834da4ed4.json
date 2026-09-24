@@ -1,0 +1,19 @@
+{
+  "id": "e7d5496834da4ed4",
+  "name": "Cacophony (Path of Iron)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction [sonic]; Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange 30 ft.\nArea cone-shaped burst\nDuration instantaneous\nSaving Throw Fortitude partial or Reflex negates (object), see text; Spell Resistance yes (object)\n\nDESCRIPTION\n\nYou create a blast of harmful sonic energy that deafens and damages creatures in its path. Any creature within the area is deafened for 1d6 rounds and takes 1d6 points of sonic damage per two caster levels (max 10d6). A successful Fortitude save negates the deafness and reduces the damage by half. Against exposed brittle or crystalline objects or crystalline creatures, it deals double its normal damage (up to 20d6). A creature holding vulnerable objects can attempt a Reflex save to negate the damage to those objects. Cacophony cannot penetrate an area of silence.\n\nOverload: For every runic charge overloaded into this script, the range increases by 10 feet, to a maximum of a 60-foot cone. If you overload at least two runic charges, creatures that fail their saving throw are stunned for 1 round and deafened for 4d6 rounds. If you overload four runic charges, creatures that fail their saving throws are stunned for 1 round and deafened permanently, and those that successfully save are deafened for 2d6 rounds.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e7d5496834da4ed4.json",
+    "web": "https://codex.pipsprojects.com/#/e/e7d5496834da4ed4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "530882c2cd41034e",
+  "name": "Decipher (language)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 1,
+      "bard": 0,
+      "oracle": 0,
+      "druid": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "paladin": 1,
+      "ranger": 1,
+      "wizard": 0,
+      "summoner": 0,
+      "witch": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School divination; Level alchemist 1, bard 0, cleric/oracle 0, druid 0, inquisitor 0, magus 0, paladin 1, ranger 1, sorcerer/wizard 0, summoner 0, witch 0\n\nEFFECT\n\nDuration 1 minute/level\nSaving Throw none; Spell Resistance no\nTarget Restrictions personal\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word can read text written in one particular language, including the language of magic. The caster picks the language when the wordspell is cast. For the duration, the target can read that language as if fluent in it. If the caster chooses magic as the language, the target can decipher scrolls, glyphs, and other magic writing without triggering them. A wordspell with this effect word does not impart the ability to determine what a given language is based on its appearance; the caster must already know the language or guess what language the writing is in to do so.\n\nBoost: This effect word can use the selected target word. Boosting this effect word increases its level by 1.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/530882c2cd41034e.json",
+    "web": "https://codex.pipsprojects.com/#/e/530882c2cd41034e"
+  },
+  "license": "OGL 1.0a"
+}

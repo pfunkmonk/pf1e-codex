@@ -1,0 +1,24 @@
+{
+  "id": "9fa16e6fb24bec5a",
+  "name": "Heavy Blows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Bloodstone Press",
+  "book": "Bloodstone Press",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "paladin": 1,
+      "wizard": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless, object)",
+    "bk": "Bloodstone Press"
+  },
+  "body": "School transmutation; Level paladin 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget weapon touched\nDuration 1 min./level\nSaving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)\n\nThis spell causes the weapon touched to inflict damage as if it were one size category larger than it actually is.\n\nTen Exotic Clubs, Copyright 2015, Bloodstone Press",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9fa16e6fb24bec5a.json",
+    "web": "https://codex.pipsprojects.com/#/e/9fa16e6fb24bec5a"
+  },
+  "license": "OGL 1.0a"
+}

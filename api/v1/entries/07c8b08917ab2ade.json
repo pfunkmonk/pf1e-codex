@@ -1,0 +1,28 @@
+{
+  "id": "07c8b08917ab2ade",
+  "name": "Animal Sense",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 3,
+      "ranger": 3,
+      "shaman": 3
+    },
+    "desc": [
+      "animal"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [animal]; Level druid 3, ranger 3, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a bit of fur)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nWith a simple touch, you grant the targeted creature the inherent senses of an animal you specify.\n\nUpon casting animal sense, you must select a single creature of the animal type. For the duration of the spell, the targeted creature gains any of the following senses that are possessed by the chosen animal: darkvision 60 feet, keen scent, low-light vision, and scent. This does not change the target’s shape.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/07c8b08917ab2ade.json",
+    "web": "https://codex.pipsprojects.com/#/e/07c8b08917ab2ade"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "674e28d493662b2a",
+  "name": "Explosive Blade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 4
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School Evocation (Earth); Level cleric 4/druid 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small piece of flint)\n\nEFFECT\n\nRange Close (25 ft. + 5 ft./2 levels)\nEffect Ray\nDuration Instantaneous\nSaving Throw Will negates/Reflex for half damage; Spell Resistance yes\n\nDESCRIPTION\n\nWhen you cast this spell you fire a ray of energy at the metal weapon of an opponent. If you succeed at a ranged touch attack (at a -2 penalty), the weapon is allowed a Will save to negate. If the save fails, the weapon explodes, dealing 1d4 points of damage per caster level to its user and all adjacent creatures (the user and adjacent creatures are granted a Reflex save for half damage). Exploded weapons are, naturally enough, no longer useable for combat. Magical weapons are immune to explosive blade.\n\nThe Secrets of Adventuring Copyright 2013 Rite Publishing Author Steven D. Russell",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/674e28d493662b2a.json",
+    "web": "https://codex.pipsprojects.com/#/e/674e28d493662b2a"
+  },
+  "license": "OGL 1.0a"
+}

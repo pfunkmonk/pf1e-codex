@@ -1,0 +1,29 @@
+{
+  "id": "1dc99a7aabb448b1",
+  "name": "Storm Form",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "shaman": 6
+    },
+    "desc": [
+      "air",
+      "electricity",
+      "sonic",
+      "water"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation [air, electricity, sonic, water]; Level druid/shaman 6\n\nCASTING\n\nCasting Time 1 standard\nComponents V, S, M (a piece of wet wool)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round/level (D)\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou transform yourself into a living storm cloud.\n\nYour body becomes a swirling black mass of clouds, illuminated from within by flickers of lightning. You become incorporeal and gain a fly speed of 60 ft. (average). Any creature striking you with a melee or natural weapon takes 1d6 hp electricity damage +1 hp per caster level (maximum +20). You can also attack opponents with incorporeal touch attacks for the same damage. As a full-round action, you can rain upon a 5-ft. square within reach, drenching it and putting out any non-magical fires in that area.\n\nFinally, as a full-round action, you can expand your form to an area in a 20-ft. radius and unleash the storm’s fury in a burst of rain and wind, lightning and thunder. Any creatures in the area are drenched with rain, then struck by lightning for 1d6 hp per caster level (maximum 20d6, Reflex save for half), and finally hit with a thunderclap and driving winds (Fortitude save or deafened for 2d4 rounds and knocked prone). Using the spell in this manner expends the rest of its energy and you return to your normal form at the end of your turn.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1dc99a7aabb448b1.json",
+    "web": "https://codex.pipsprojects.com/#/e/1dc99a7aabb448b1"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bdf9e5cd0a735550",
+  "name": "Field Surgeon (Combat)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "3rd Party – Sean K. Reynolds Games",
+  "book": "3rd Party – Sean K. Reynolds Games",
+  "facets": {
+    "t": "Combat",
+    "bk": "3rd Party – Sean K. Reynolds Games"
+  },
+  "body": "Your awareness of human anatomy allows you to perform simple surgery to treat wounds.\n\nPrerequisite: Heal 2 ranks.\n\nBenefit: You can perform simple field surgery, allowing creatures to recover more quickly from their wounds. Field Surgery expends one use from a healer’s kit. To perform field surgery, you must make a Heal check and spend time treating an injured creature; success means that on the creature’s next rest period it heals 1d4 points of damage (this is in addition to the normal amount healed from resting and with being under long-term care from a person with the Heal skill).\n\nThe amount of time you take treating the injury determines the DC of the check according to the following table:\n\nTreatment Time\tDC\n1 minute\t25\n5 minutes\t20\n10 minutes\t15\n\nYou decide how long you will perform the surgery before making the check. You cannot take 20 on this check. If you fail the check by 4 or less, nothing happens. If you fail this check by 5 or more, the patient loses 1 hit point. If this puts the patient below 0 hit points, he starts dying.\n\nYou can use field surgery on a creature multiple times, but the additional healing from field surgery in one day cannot exceed the patient’s Constitution score (additional surgeries have no effect).\n\nTry Again: You may try again as long as the patient is alive.\n\nNew Argonauts. Copyright 2004 Sean K Reynolds. All rights reserved.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bdf9e5cd0a735550.json",
+    "web": "https://codex.pipsprojects.com/#/e/bdf9e5cd0a735550"
+  },
+  "license": "OGL 1.0a"
+}

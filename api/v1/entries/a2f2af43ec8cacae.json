@@ -1,0 +1,27 @@
+{
+  "id": "a2f2af43ec8cacae",
+  "name": "Night Terrors (4 Winds Fantasy Gaming)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "oracle": 7
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School enchantment [fear, mind-affecting]; Level cleric/oracle 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one living creature touched\nDuration special (see text)\nSaving Throw Will partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThe next time the target creature falls into natural sleep, he suffers from horrifying nightmares that can prove impossible to wake from. If he makes his Will save, he is able to wake at the end of an 8-hour period, but the terrifying dreams leave him exhausted until he gets 8 hours of uninterrupted rest. If he fails his Will save, he suffers a permanent loss of 1 point of Wisdom and does not wake, continuing to remain in a nightmare-filled sleep. He can make a new saving throw every 8 hours to wake up, but with each save he fails he loses another point of Wisdom. Remove curse, dispel magic, or greater dispel magic will end the spell, but will not restore lost Wisdom. Limited wish or miracle will end night terrors and restore lost Wisdom.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a2f2af43ec8cacae.json",
+    "web": "https://codex.pipsprojects.com/#/e/a2f2af43ec8cacae"
+  },
+  "license": "OGL 1.0a"
+}

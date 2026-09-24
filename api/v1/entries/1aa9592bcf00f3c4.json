@@ -1,0 +1,29 @@
+{
+  "id": "1aa9592bcf00f3c4",
+  "name": "Squire’s Aid",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "antipaladin": 1,
+      "bard": 1,
+      "cleric": 1,
+      "inquisitor": 1,
+      "magus": 1,
+      "paladin": 1,
+      "vanguard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (teleportation); Level antipaladin 1, bard 1, cleric 1, inquisitor 1, magus 1, paladin 1, vanguard 1\n\nCASTING\n\nCasting Time 10 minutes\nComponents S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget unattended objects within a 10-ft. cube\nDuration 8 hours until discharged\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA handy spell when ambushed during a rest, squire’s aid packs up belongings and equips creatures.\n\nAll objects to be targeted by squire’s aid must be within a 10-foot cube at the time of casting. All objects are then marked with a small arcane mark that is unreadable, except by means of a read magic spell, to anyone but you. Once the objects are marked, they can be thereafter moved about without any issue.\n\nAt any point during the spell’s duration, you can use a standard action to trigger the effects of squire’s aid, after which the spell is discharged. All marked objects are packed into their respective containers; bedrolls are rolled and bound, mess kits are cleaned and packed, and bags of supplies are repacked for transportation. Any wearable equipment can be packed in an organized fashion or equipped to nearby creatures, donning the armor and clothing neatly and appropriately for the creature. A creature is aware of what gear you are equipping it with and can prevent you from doing so should it not want you to (no check needed).\n\nAll objects that you wish to pack or don or any creatures you wish to equip must be within range of the spell at the time of you triggering these effects, otherwise the effect fails on that particular object or creature.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1aa9592bcf00f3c4.json",
+    "web": "https://codex.pipsprojects.com/#/e/1aa9592bcf00f3c4"
+  },
+  "license": "OGL 1.0a"
+}

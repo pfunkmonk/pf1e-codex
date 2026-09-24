@@ -1,0 +1,24 @@
+{
+  "id": "8312613052a986f1",
+  "name": "Float",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 0,
+      "wizard": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level bard 0, sorcerer/wizard 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a bit of down or fluff)\n\nEFFECT\n\nRange personal or close (25 ft. + 5 ft./2 levels)\nTarget you or one willing creature or one object (total weight up to 50 lbs./level)\nDuration 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nFloat allows you to hover, weightless, above any surface at a distance of about 1 ft. You may be moved by wind or you may use a pole or other means to propel yourself in any direction. Doing so is a move action and generally provides a movement rate of 5 ft.\n\nA floating creature that attacks with a melee or ranged weapon finds itself increasingly unstable; the first attack has a -1 penalty on attack rolls, the second -2, and so on, to a maximum penalty of -5. A full round spent stabilizing allows the creature to begin again at -1 penalty to attack. A float spell does not lift a creature high enough to provide a higher ground bonus.\n\nFloat does not reduce or negate falling damage in any way. Creatures stepping into a pit or off a cliff fall normally, and stop suddenly 1 ft. sooner than they would otherwise.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8312613052a986f1.json",
+    "web": "https://codex.pipsprojects.com/#/e/8312613052a986f1"
+  },
+  "license": "OGL 1.0a"
+}

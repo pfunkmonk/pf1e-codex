@@ -1,0 +1,24 @@
+{
+  "id": "1eb009e0e83a24d2",
+  "name": "Divine Strike (4 Winds Fantasy Gaming)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "paladin": 1
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School transmutation; Level cleric/oracle 1, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange touch\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe target creature gains a +1 bonus to weapon damage for the duration of the spell. Any weapon wielded by the target creature is also considered magic for the purpose of overcoming DR. Divine strike affects the creature regardless of whether he is using ranged or melee weapons, and he may switch out weapons within the spell’s duration and still get the benefits of the spell. The bonus to damage increases by 1 per 3 caster levels to a maximum of +3.\n\nDivine Strike, Mass\n\nSchool transmutation; Level cleric/oracle 5\n\nEFFECT\n\nRange close (25 ft. +5 ft./2 levels)\nTarget one creature/level, no two of which can be more than 25 ft. apart\n\nDESCRIPTION\n\nThis spell functions as divine strike, except as noted above and that it affects multiple creatures. The bonus to weapon damage increases by 1 per 5 additional caster levels, to a maximum of +3.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1eb009e0e83a24d2.json",
+    "web": "https://codex.pipsprojects.com/#/e/1eb009e0e83a24d2"
+  },
+  "license": "OGL 1.0a"
+}

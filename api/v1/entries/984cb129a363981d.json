@@ -1,0 +1,29 @@
+{
+  "id": "984cb129a363981d",
+  "name": "Ball Lightning (electricity)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 5,
+      "magus": 5,
+      "wizard": 5,
+      "witch": 6
+    },
+    "desc": [
+      "electricity"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [electricity]; Level druid 5, magus 5, sorcerer/wizard 5, witch 6\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word deals 1d8 points of electricity damage per caster level (maximum 15d8 to one target + 1/2 that damage to any other targets included in the effect).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/984cb129a363981d.json",
+    "web": "https://codex.pipsprojects.com/#/e/984cb129a363981d"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "eac906cd166dfe6b",
+  "name": "Stun (power)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level sorcerer/wizard 8\n\nEFFECT\n\nDuration varies, see text\nSaving Throw none; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word causes a living creature to become stunned, whether or not the creature can hear the wordspell with this effect word. This effect word’s duration depends on the target’s current hit point total. Any creature that currently has 151 hit points or more is unaffected.\n\nHit Points\tDuration\n50 or less\t4d4 rounds\n51-100\t2d4 rounds\n101-150\t1d4 rounds\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eac906cd166dfe6b.json",
+    "web": "https://codex.pipsprojects.com/#/e/eac906cd166dfe6b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "224eb49787b1af02",
+  "name": "Restorative Sleep (Zenith Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Zenith Games",
+  "book": "Zenith Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "adept": 1,
+      "alchemist": 1,
+      "bard": 1,
+      "cleric": 1,
+      "druid": 1,
+      "inquisitor": 1,
+      "ranger": 1,
+      "shaman": 1
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Zenith Games"
+  },
+  "body": "School conjuration (healing); Level adept 1, alchemist 1, bard 1, cleric 1, druid 1, inquisitor 1, ranger 1, shaman 1\n\nCASTING\n\nCasting Time 1 minute\nComponents V, S, M (honey and mint)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 24 hours\nSaving Throw Will negates (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nRestorative sleep enhances the body’s ability to heal itself. The next time the subject completes a full-night’s rest, it heals itself of 1 point of temporary ability damage to one of its ability scores in addition to normal healing. Any significant interruption during the rest (such as being awoken) prevents any healing that night and ends the effect of this spell on the subject.\n\n101 Spells for the Common Man Copyright 2025 Zenith Games Authors Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/224eb49787b1af02.json",
+    "web": "https://codex.pipsprojects.com/#/e/224eb49787b1af02"
+  },
+  "license": "OGL 1.0a"
+}

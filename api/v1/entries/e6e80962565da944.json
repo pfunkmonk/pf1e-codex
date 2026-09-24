@@ -1,0 +1,26 @@
+{
+  "id": "e6e80962565da944",
+  "name": "Symbol of Locking",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "wizard": 6
+    },
+    "desc": [
+      "force"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration [force]; Level sorcerer/wizard 6\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S, M (mercury and phosphorous, plus powdered diamond and opal worth a total of 200 gp)\n\nEFFECT\n\nRange 0 ft.; see text\nEffect one symbol\nDuration see text\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as symbol of death, except that you use it to seal a single container, doorway, or portal of no more than 30 square feet per level in size.\n\nAn object sealed in such a manner cannot be opened by any means save for breaking the door or object in question. The object can not be passed through by incorporeal creatures in any direction. Creatures that you attune to the symbol of locking (including yourself) can open and close the portal or container without any difficulty and without triggering the symbol; an object shuts itself after 1 minute when opened this way.\n\nThe sealed object gains 5 hit points per caster level and has its break DC increased by 10. The symbol does not cover the object in its entirely, it instead appears in a single location on the object or portal and can be anywhere from 1 inch to 1 foot in diameter.\n\nIn addition to the normal triggers you can give to the symbol of locking (such as reading it), the symbol also triggers if the container, doorway, or portal it is sealing is destroyed or forced open in any way. The symbol of locking explodes when triggered, dealing 1d6 force damage per caster level to any to any creature within 20 feet of the symbol (max 20d6). A Reflex save halves the damage. Objects in the area, including the container or portal the symbol of locking was scribed upon, are not harmed by this blast of force.\n\nSymbol of locking can be made permanent with a permanency spell by a caster of 14th level or higher for the cost of 10,000 gp. A symbol of locking that triggers becomes inactive for 10 minutes, but then reappears, closing the container or portal it is scribed upon and sealing it again.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e6e80962565da944.json",
+    "web": "https://codex.pipsprojects.com/#/e/e6e80962565da944"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "63e27a36285e5503",
+  "name": "Bane Spell (Metamagic)",
+  "bucket": "feats",
+  "category": "Feats",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "t": "Metamagic",
+    "bk": "Legendary Games"
+  },
+  "body": "Your spells have greater power against creatures of a chosen type.\n\nPrerequisite(s): Knowledge (see text) 3 ranks\n\nBenefit(s): Choose one type of creature (and subtype, if a humanoid or outsider). Any spell you cast affects creatures of that type more strongly. Your caster level is increased by 1 for determining the spell’s effects and duration against creatures of that type, though the spell’s range, area, and number of targets are not affected. In addition, your save DCs are increased by 1 for creatures of that type and spells that deal hit point damage add +1 to each damage die against those creatures. A bane spell has its normal effects against creatures of other types (and subtypes). Against creatures other than the chosen type, the spells effects and duration are treated as if your caster level was 1 lower and the save DC and damage per die are likewise reduced by 1. A bane spell uses up a spell slot one level higher than the spell’s normal level.\n\nIn order to select this feat, you must have at least 3 ranks in a Knowledge skill that is used to identify creatures of the chosen type and their abilities. Thereafter, you can prepare a bane spell that affects creatures of any type for which you have at least 3 ranks in the appropriate Knowledge skill. You need not take this feat more than once to affect creatures of different types, and you can prepare bane spells of more than one type simultaneously as long as you have at least 3 ranks in each appropriate Knowledge skill. You must specify a type (and subtype, if a humanoid or outsider) for each bane spell you prepare or spontaneously cast.\n\nLegendary Classes: Defenders of the Faith © 2024, Legendary Games; Jason Nelson, Aaron Hollingsworth, Amber Scott, Andrew J. Gibson, Carl Cramer, Clinton J. Boomer, Connor Bates, Jenny Jarzabski, Margherita Tramontano, Matt Daley, Nathan Reinecke, and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/63e27a36285e5503.json",
+    "web": "https://codex.pipsprojects.com/#/e/63e27a36285e5503"
+  },
+  "license": "OGL 1.0a"
+}

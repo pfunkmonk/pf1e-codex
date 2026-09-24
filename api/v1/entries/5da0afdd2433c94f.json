@@ -1,0 +1,19 @@
+{
+  "id": "5da0afdd2433c94f",
+  "name": "Carrier Maw",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Spheres Bestiary: Undead and the Immortal Forlorn",
+  "book": "Spheres Bestiary: Undead and the Immortal Forlorn",
+  "facets": {
+    "save": "None",
+    "sr": "no",
+    "bk": "Spheres Bestiary: Undead and the Immortal Forlorn"
+  },
+  "body": "Carrier Maw\nCR 5\n\nXP 1,600\nNE Large undead\nInit +6; Senses darkvision 60 ft.; Perception +11\n\nDEFENSE\n\nAC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)\nhp 56 (7d8+28)\nFort +6, Ref +4, Will +8\nDR 10/piercing; Immune undead traits\n\nOFFENSE\n\nSpeed 20 ft.\nMelee bite +10 (1d8+9 or portal maw)\nSpace 10 ft.; Reach 10 ft.\nSpecial Attacks portal maw (DC 17)\nSphere-Like Abilities (CL 5; MSB +15; MSD 16; concentration +8; CAM Cha)\n\nConstant: Warp Sphere – Talents (space) Extradimensional Storage (x2)\nExtradimensional Storage (space); 600 pounds, can place or withdraw objects as a move action (approximately 4 Medium creatures)\n\nSTATISTICS\n\nStr 22, Dex 14, Con –, Int 8, Wis 12, Cha 18\nBase Atk +5; CMB +12; CMD +24\nFeats: Improved Initiative, Iron Will, Power Attack, Step Up\nSkills Appraise +6, Climb +16, Perception +11\nLanguages Necril\nSQ portal maw\n\nSPECIAL ABILITIES\n\nPortal Maw (Su)\n\nA carrier maw can hold four times as much weight inside the storage granted by its Extradimensional Storage sphere-like ability.\n\nWhenever the carrier maw damages a creature with its bite attack, it may forgo any damage dealt by the attack to instead force the creature to succeed at a Will saving throw or be placed in the carrier maw’s storage. Treat this as the swallow whole ability, except the carrier maw can use this on any number of willing targets, provided it has the space, and is not encumbered or slowed while carrying another creature in this manner. The carrier maw may release a creature stored in its extradimensional space as a move action. Instead of attacking the carrier maw’s insides to escape, an unwilling creature trapped in the carrier maw’s storage may attempt a new Will saving throw with a -4 penalty as a standard action. The save DC is Charisma-based.\n\nSphere-Like Abilities (Sp)\n\nA carrier maw possesses sphere-like abilities, as indicated in its stat block. The carrier maw’s caster level for these sphere-like abilities is equal to its CR.\n\nABOUT\n\nEnvironment any\nOrganization solitary, full-carrier (1 carrier maw, 4 Medium undead)\nTreasure standard (stored inside carrier maw’s extradimensional storage)\n\nA carrier maw is a large, corpulent undead which will often house many smaller, weaker undead in a form of pseudo-parasitic relationship. Carrier maws are popular amongst necromancers as a way to transport minions, but also as relatively convenient, if not grotesque, storage space. Sightings of a carrier maw usually begins after news of a recent death of someone who collected or hoarded things, be it valuable, sentimental, knowledge, or otherwise.\n\nThe carrier maw is rarely found alone and will protect itself by releasing those stored in its space, or may trap unwilling creatures to suffocate them. The carrier maw is intelligent and often takes up a personality similar to an obsessive hoarder.\n\nWhen free willed or not in the service of a necromancer, a carrier maw will often take residence in slums, junkyards, or other spaces, collecting and carrying objects it finds interesting or pretty, much like a magpie.\n\nSpheres Bestiary: Undead and the Immortal Forlorn © 2020, Drop Dead Studios; Author: Steven Alpert.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5da0afdd2433c94f.json",
+    "web": "https://codex.pipsprojects.com/#/e/5da0afdd2433c94f"
+  },
+  "license": "OGL 1.0a"
+}

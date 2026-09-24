@@ -1,0 +1,29 @@
+{
+  "id": "57148f59d3c33ce1",
+  "name": "Primordial Fang",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "druid": 2,
+      "invoker": 2,
+      "ranger": 2,
+      "shaman": 2
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School evocation [see text]; Level druid 2, invoker 2, ranger 2, shaman 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nThe target’s extremities flare with elemental might.\n\nWhen you cast this spell, chose acid, cold, electricity, or fire damage. For 1 round, the target’s unarmed attacks and natural attacks deal an additional 2d6 damage of the chosen type. For every four caster levels you have beyond 3rd, the damage increases by 1d6 (max 4d6). If the target uses the Vital Strike feat (or its Improved and Greater versions) to attack with its natural weapons or unarmed strikes, the damage dice from primordial fang are multiplied as if they were weapon dice.\n\nWhen you cast this spell to grant acid, cold, electricity, or fire damage to a creature’s attacks, it becomes a spell of that type.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/57148f59d3c33ce1.json",
+    "web": "https://codex.pipsprojects.com/#/e/57148f59d3c33ce1"
+  },
+  "license": "OGL 1.0a"
+}

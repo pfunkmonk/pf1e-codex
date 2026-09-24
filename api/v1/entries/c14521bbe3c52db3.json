@@ -1,0 +1,24 @@
+{
+  "id": "c14521bbe3c52db3",
+  "name": "Share Skins",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illusion (shadow, shadowflesh); Level sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (A piece of fur, hair or skin of the caster)\n\nEFFECT\n\nRange close 25 ft. + 5 ft./2 levels\nTarget 1 creature\nDuration 1 round/level\nSaving Throw Will disbelief; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell’s illusory magic makes the target look like an exact physical duplicate of you. The duplicate retains all of its own abilities, but looks, smells, and sounds identical to you. The target gains none of your abilities.\n\nThe possessions the target carries are similarly altered to appear the same as yours. If this spell is cast upon an unwilling target, the target receives a Fortitude save to negate this effect.\n\nUpon looking at or interacting with a target of share skins, a successful Will save dissipates the illusion for that creature and the target appears simply a shadowy, sickly version of itself.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c14521bbe3c52db3.json",
+    "web": "https://codex.pipsprojects.com/#/e/c14521bbe3c52db3"
+  },
+  "license": "OGL 1.0a"
+}

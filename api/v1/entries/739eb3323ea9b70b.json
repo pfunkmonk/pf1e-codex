@@ -1,0 +1,17 @@
+{
+  "id": "739eb3323ea9b70b",
+  "name": "Giant Shadow (Variant Greater Shadow)",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Deadly Delves: Dragon’s Dream",
+  "book": "Deadly Delves: Dragon’s Dream",
+  "facets": {
+    "bk": "Deadly Delves: Dragon’s Dream"
+  },
+  "body": "GIANT SHADOW (8)\nCR 8\n\nXP 4,800\nCE Large undead\nInit +4; Senses darkvision 60 ft.; Perception +16\n\nDEFENSE\n\nAC 16, touch 16, flat-footed 11 (+2 deflection, +4 Dex, +1 dodge, –1 size)\nhp 58 (9d8+18)\nFort +5, Ref +7, Will +7\nDefensive Abilities incorporeal, channel resistance +2; Immune undead immunities\n\nOFFENSE\n\nSpeed fly 40 ft. (perfect)\nMelee incorporeal touch +9 (1d8 Strength)\nSpace 10 ft., Reach 10 ft.\nSpecial Attacks create spawn, strength damage\n\nSTATISTICS\n\nStr —, Dex 18, Con —, Int 6, Wis 12, Cha 15\nBase Atk +6; CMB +11; CMD 25\nFeats Dodge, Flyby Attack, Mobility, Skill Focus (Perception, Stealth)\nSkills Fly +12, Perception +16, Stealth +15 (+19 in dim light, +11 in bright light); Racial Modifiers +4 Stealth in dim light (–4 in bright light)\nLanguages Common, Giant\n\nSPECIAL ABILITIES\n\nCreate Spawn (Su)\n\nA humanoid creature killed by a giant shadow’s Strength damage becomes a greater shadow or giant shadow under the control of its killer in 1d4 rounds.\n\nStrength Damage (Su)\n\nA giant shadow’s touch deals 1d8 points of Strength damage to a living creature. This is a negative energy effect. A creature dies if this Strength damage equals or exceeds its actual Strength score.\n\nDeadly Delves: Dragon’s Dream. © 2018, Jon Brazer Enterprises.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/739eb3323ea9b70b.json",
+    "web": "https://codex.pipsprojects.com/#/e/739eb3323ea9b70b"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "82a335e0bc9c5f98",
+  "name": "Repel Projectiles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 4,
+      "bloodrager": 4,
+      "magus": 4,
+      "wizard": 4,
+      "vanguard": 4
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration; Level alchemist 4, bloodrager 4, magus 4, sorcerer/wizard 4, vanguard 4\n\nCASTING\n\nCasting Time 1 immediate action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 round or until discharged\n\nDESCRIPTION\n\nThis spell creates a reflective barrier around you that repels projectile weapons. Until the start of your next turn, any projectiles fired at you are reflected back at the creature that fired it, using the attack roll the creature rolled against you to strike back at the creature.\n\nYou can reflect a number of projectiles equal to half your caster level (max 10), after which the spell is discharged. This spell cannot reflect projectiles from spells such as magic missile or scorching ray. It can reflect siege weaponry and magic weapons, but each siege weapon shot counts as three projectiles, and each magic weapon counts as two projectiles (a magic siege weapon shot counts as five).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/82a335e0bc9c5f98.json",
+    "web": "https://codex.pipsprojects.com/#/e/82a335e0bc9c5f98"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b9779495c0a9149a",
+  "name": "Dragon Scales (Jon Brazer Enterprises)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Jon Brazer Enterprises",
+  "book": "Jon Brazer Enterprises",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 5,
+      "druid": 4,
+      "magus": 5,
+      "ranger": 4,
+      "wizard": 5,
+      "summoner": 4
+    },
+    "save": "special",
+    "sr": "yes (harmless)",
+    "bk": "Jon Brazer Enterprises"
+  },
+  "body": "School transmutation; Level alchemist 5, druid 4, magus 5, ranger 4, sorcerer/wizard 5, summoner 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF/F (a single dragon’s scale)\n\nEFFECT\n\nRange touch\nTarget living creature touched\nDuration 10 min./level (D)\nSaving Throw Fort negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe touched creature’s skin appears to be made of scales, similar to those of a dragon. Dragon scales grants a +3 enhancement bonus to the creature’s existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 7th, to a maximum of +7 at 19th level. This spell also grants resistance 5 to one of four energy types selected: acid, cold, electricity, or fire as well as DR 5/magic.\n\nThe enhancement bonus provided by dragon scales stacks with the target’s natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0. The damage reduction and energy resistance does not stack with other sources.\n\nBook of Magic: Spells 1, Copyright 2011, Jon Brazer Enterprises. Author: Dale C. McCoy, Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b9779495c0a9149a.json",
+    "web": "https://codex.pipsprojects.com/#/e/b9779495c0a9149a"
+  },
+  "license": "OGL 1.0a"
+}

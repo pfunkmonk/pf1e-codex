@@ -1,0 +1,25 @@
+{
+  "id": "60b8d38e688fe8f3",
+  "name": "Tracer (d20pfsrd.com Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 3,
+      "wizard": 3,
+      "ranger": 2
+    },
+    "save": "None",
+    "sr": "yes",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School transmutation; Level magus 3, sorcerer/wizard 3, ranger 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M\n\nEFFECT\n\nRange touch\nTarget 1 arrow, bolt, or bullet\nDuration Instantaneous; see text\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou cast this spell on a projectile, imbuing it with the ability to mark a target. When this spell is cast upon a projectile, it provides a +1 enhancement bonus to the next attack made with it. Upon a successful ranged attack, the spell’s true purpose takes effect, surrounding the target with a nimbus of light equivalent to the effect of a faerie fire spell (negating concealment effects in the same manner), as well as triggering a powerful attractive effect. Any ranged attacks made against the target, with the same weapon, benefit from a +4 bonus to hit, for the duration of 1 round per caster level.\n\nIf not used within one round of casting the spell, the projectile returns to normal and the spell dissolves.\n\nArt of Magic: Magic and Melee, © 2021, d20pfsrd.com Publishing; Author: Mark Thomas",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/60b8d38e688fe8f3.json",
+    "web": "https://codex.pipsprojects.com/#/e/60b8d38e688fe8f3"
+  },
+  "license": "OGL 1.0a"
+}

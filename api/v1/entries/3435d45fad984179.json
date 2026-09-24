@@ -1,0 +1,30 @@
+{
+  "id": "3435d45fad984179",
+  "name": "Unmake (dispelling)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "bard": 5,
+      "oracle": 5,
+      "druid": 5,
+      "inquisitor": 6,
+      "magus": 6,
+      "wizard": 5,
+      "summoner": 6,
+      "witch": 5
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level bard 5, cleric/oracle 5, druid 5, inquisitor 6, magus 6, sorcerer/wizard 5, summoner 6, witch 5\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Will partial; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe caster of a wordspell with this effect word unravels all of the magic effects affecting the target of the wordspell with this effect word. The caster must make a caster level check. The result of this check is compared to the caster level + 11 of every spell affecting the target. If successful, that spell effect immediately ends. The target can make a Will saving throw. If successful, this wordspell only attempts to unmake the highest-level spell affecting the target.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3435d45fad984179.json",
+    "web": "https://codex.pipsprojects.com/#/e/3435d45fad984179"
+  },
+  "license": "OGL 1.0a"
+}

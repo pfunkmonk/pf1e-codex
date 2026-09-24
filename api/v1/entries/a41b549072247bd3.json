@@ -1,0 +1,29 @@
+{
+  "id": "a41b549072247bd3",
+  "name": "Call the Godspawn",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "oracle": 9,
+      "wizard": 9,
+      "witch": 9
+    },
+    "desc": [
+      "chaotic",
+      "evil"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (calling) [chaotic, evil]; Level cleric/oracle 9, sorcerer/wizard 9, witch 9\n\nCASTING\n\nCasting Time 1 week\nComponents V, S, M/DF (bull’s blood, tallow, one or more humanoid victims totaling at least 15 Hit Dice)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nHaving attained the highest and most profane form of magical achievement in your god’s service, you are able to call forth his most dreaded creations: the godspawn.\n\nCasting this spell requires a week-long ritual involving the sacrifice of one or more sentient humanoid creatures that between them possess a total of at least 15 Hit Dice. You may not eat, sleep, or cast any other spells for the duration of this ritual. After the third day of the ritual, you must succeed at a Constitution check on each remaining day of the ritual (DC 10 + 1 for each previous check) or take 1d6 points of nonlethal damage from hunger. At the end of the ritual, you gain the exhausted condition from lack of sleep.\n\nUpon completion of the ritual, the ground rumbles in a 100-foot radius centered on you. This effect lasts for 1 round. Any creature on the ground in this area that attempts to cast a spell during this round must succeed at a concentration check (DC 20 + spell level) or lose the spell. Any creature on the ground in the area that attempts to attack or move during this round must succeed at a DC 15 Reflex save at the beginning of its turn or fall prone.\n\nAt the beginning of your next turn, a massive fissure full of dark fire and shrieking cries appears at a point you designate within the spell’s range, and a godspawn emerges.\n\nThis creature takes the form of a thunder behemoth with the advanced and entropic simple templates. Unlike with summon monster or similar spells, the caster has no control whatsoever over the called creature. The spawn immediately heads in a random direction or toward an obvious target such as a population center, destroying anything in its path, yourself and your allies included.\n\nAny creature may attempt to control the called godspawn via spells like dominate monster or binding.\n\nHowever, if such an attempt fails, it draws the godspawn’s attention, and the monster immediately tries to destroy the creature that attempted to control it. Because the godspawn are all magical beasts native to the Material Plane, spells such as banishment or dismissal have no effect on the called spawn.\n\nMythic: When casting this spell, you can specify a particular godspawn to call in place of the nameless behemoth spawned by the non-mythic version of this spell. In order to do so, you must expend one use of mythic power plus three additional uses of mythic power per point of Challenge Rating the specified godspawn represents above CR 20. These must be expended on the final day of the week-long ritual to cast the spell.\n\nPathfinder Campaign Setting: Inner Sea Gods © 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a41b549072247bd3.json",
+    "web": "https://codex.pipsprojects.com/#/e/a41b549072247bd3"
+  },
+  "license": "OGL 1.0a"
+}

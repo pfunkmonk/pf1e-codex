@@ -94,7 +94,7 @@ check("every entry ends with a license/credit paragraph",
   d20.filter((r) => !/©|\(c\)|copyright|Author|blanket OGL|Source not confirmed|Open Game|source of this content is unclear|Written by|Messageboard|@ |Blog|Tumblr|Enterprises|^Source:|^Pathfinder\b/im.test(lastTwo(r[0]))).map((r) => `${label(r)} :: ${tailOf(r[0]).slice(0, 80)}`));
 
 check("no placeholder text where a Section 15 credit should be",
-  d20.filter((r) => /Product Name Section 15 here/i.test(String(bodies[r[0]])) || /\n\nx$/.test(String(bodies[r[0]]))).map(label));
+  d20.filter((r) => /Product Name Section 15 here|ADD BOOK\/SOURCE NAME HERE|Place Section 15 Statement/i.test(String(bodies[r[0]])) || /\n\nx$/.test(String(bodies[r[0]]))).map(label));
 
 /* ---- duplicates ---- */
 {
@@ -119,6 +119,8 @@ check("no stat block flattened onto a single line",
   d20.filter((r) => String(bodies[r[0]]).split("\n").some(isFlatStatLine)).map(label));
 check("no blank stat-block template (dozens of unfilled ZZ slots)",
   d20.filter((r) => blankTemplateSlots(String(bodies[r[0]])) >= 20).map(label));
+check("no feat-category hub blurb posing as an entry",
+  d20.filter((r) => String(bodies[r[0]]).length < 900 && /Any feat designated as a combat feat can be selected as a fighter/.test(String(bodies[r[0]]))).map(label));
 check("no crawler-captured advertisement text",
   d20.filter((r) => String(bodies[r[0]]).split("\n").some((l) => AD_MARK.test(l.trim()))).map(label),
   "the publisher-page ad widget (OpenGamingStore) must be cut in parsePage; a page that is only the ad is not an entry");

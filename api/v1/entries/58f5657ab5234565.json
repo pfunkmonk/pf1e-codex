@@ -1,0 +1,23 @@
+{
+  "id": "58f5657ab5234565",
+  "name": "Fungal Eruption",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Alluria Publishing",
+  "book": "Alluria Publishing",
+  "facets": {
+    "lv": {
+      "druid": 6,
+      "fungomancer": 6
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Alluria Publishing"
+  },
+  "body": "School: conjuration (creation) [earth]; Level druid 6, fungomancer 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a rare mushroom worth 100 gp)\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea 40-ft.-radius burst\nDuration instantaneous\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou cause a violent eruption of fungi from the ground.\n\nAll creatures in the area take 10d6 points of bludgeoning damage and become entangled for 1d4 rounds. A successful Reflex save halves the damage and negates the entangle effect.\n\nThe area of the spell is filled with dense fungal growth for 1 minute per caster level, creating difficult terrain. Any creature that starts its turn in this area must make a Fortitude save or become nauseated for 1 round from the thick spores in the air.\n\nRidiculous Races and Crazy Classes. Copyright 2024 Alluria Publishing; Author: Emily Kubisz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/58f5657ab5234565.json",
+    "web": "https://codex.pipsprojects.com/#/e/58f5657ab5234565"
+  },
+  "license": "OGL 1.0a"
+}

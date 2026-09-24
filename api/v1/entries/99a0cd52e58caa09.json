@@ -1,0 +1,28 @@
+{
+  "id": "99a0cd52e58caa09",
+  "name": "Avalanche",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 9,
+      "shaman": 9,
+      "wizard": 9
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School conjuration (creation) [cold]; Level druid 9, shaman 9, sorcerer/wizard 9\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange long (400 ft. + 40 ft./level)\nArea one 10-ft. square/level\nDuration instantaneous\nSaving Throw Reflex partial; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure an overwhelming avalanche of ice and snow and the squares of snow must be contiguous. All creatures in an area covered by the avalanche taking 10d6 bludgeoning damage and 10d6 cold damage. The targets must make a Reflex save or be carried along, downhill or in a direction of the caster’s choice on a flat surface, by 5 feet per caster level and be knocked prone.\n\nThe targets move until an obstacle prevents the movement. The avalanche also extinguishes normal fires. The snow and ice remain in the area until they melt normally.\n\nBreath of Life: The Warmage, © 2025, Orphaned Bookworm Productions, Llc, Authors: Norman Mitchell Jr., Connor Bates, and Paulo César Viola Da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/99a0cd52e58caa09.json",
+    "web": "https://codex.pipsprojects.com/#/e/99a0cd52e58caa09"
+  },
+  "license": "OGL 1.0a"
+}

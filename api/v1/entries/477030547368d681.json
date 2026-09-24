@@ -1,0 +1,26 @@
+{
+  "id": "477030547368d681",
+  "name": "Force Block (armor)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 0,
+      "magus": 0,
+      "wizard": 0,
+      "summoner": 0
+    },
+    "save": "Will",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level cleric/oracle 0, magus 0, sorcerer/wizard 0, summoner 0\n\nEFFECT\n\nDuration 1 round\nSaving Throw will negates (harmless); Spell Resistance no\nTarget Restrictions Personal, Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word receives a +1 armor bonus to its AC. This armor is made of force and provides protection against the attacks of incorporeal creatures\n\nBoost: A wordspell with this effect word can be cast as an immediate action. In this case, the effect lasts until the end of your next turn. This boost cannot be used if the wordspell includes another effect word (unless that word can also be cast as an immediate action). This boost increases this effect word’s level by 1.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/477030547368d681.json",
+    "web": "https://codex.pipsprojects.com/#/e/477030547368d681"
+  },
+  "license": "OGL 1.0a"
+}

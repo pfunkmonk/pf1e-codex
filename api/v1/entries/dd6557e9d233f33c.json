@@ -1,0 +1,26 @@
+{
+  "id": "dd6557e9d233f33c",
+  "name": "Sonic Dart",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 1
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School evocation [sonic]; Level bard 1\n\nCASTING\n\nCasting Time 1 move action\nComponents V\n\nEFFECT\n\nRange 50 ft.\nTarget one creature or object\nDuration instantaneous\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a tiny missile of sonic energy that flies forth at a target you designate. To hit the target, you must make a ranged touch attack. A success inflicts 1d4 points of sonic damage plus an additional 1d4 points of sonic damage per three caster levels (to a maximum of an additional 3d4).\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dd6557e9d233f33c.json",
+    "web": "https://codex.pipsprojects.com/#/e/dd6557e9d233f33c"
+  },
+  "license": "OGL 1.0a"
+}

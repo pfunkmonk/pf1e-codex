@@ -1,0 +1,29 @@
+{
+  "id": "98d7ca7cb9edfa47",
+  "name": "Shape Shadows",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 0,
+      "nightblade": 0,
+      "wizard": 0,
+      "witch": 0
+    },
+    "desc": [
+      "darkness"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [darkness]; Level bard 0, nightblade 0, sorcerer/wizard 0, witch 0\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a drop of ink)\n\nEFFECT\n\nRange short (25 ft. + 5 ft./2 levels)\nTarget one creature’s or object’s shadow\nDuration 1 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou alter the shape and size of a creature’s shadow or an object’s shadow. You can make the shadow up to twice as wide or tall, or half as wide or tall (or any combination of those). For every five caster levels you have, the maximum multiplier or divisor of the shadow’s dimensions increases by two, being four times as large or one-quarter the size at 5th level, six times as large or one-sixth the size at 10th level, and so on. While this has no direct impact on the creature or object, it may grant circumstantial bonuses on certain skill checks, such as making the creature’s shadow grow as part of an Intimidate check or shrink to better conceal one’s self for a Stealth check, subject to GM discretion. This spell cannot target a creautre that does not cast a shadow.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/98d7ca7cb9edfa47.json",
+    "web": "https://codex.pipsprojects.com/#/e/98d7ca7cb9edfa47"
+  },
+  "license": "OGL 1.0a"
+}

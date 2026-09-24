@@ -1,0 +1,17 @@
+{
+  "id": "39dc292075da3654",
+  "name": "Quantum Cat",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Epic Meepo Presents: Monsters",
+  "book": "Epic Meepo Presents: Monsters",
+  "facets": {
+    "bk": "Epic Meepo Presents: Monsters"
+  },
+  "body": "This large cat flickers into and out of existence, its flesh alternately rotting and untouched by decay.\n\nQuantum Cat\nCR 5\n\nXP 1,600\nN Large undead\nInit +6; Senses certainty, darkvision 60 ft., low-light vision, scent; Perception +20\n\nAC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, –1 size)\nhp 27 (6d8); extended maximized false life\nFort +0, Ref +4, Will +10\nDefensive Abilities decoherence; Immune negative energy, positive energy\n\nSpeed 40 ft.\nMelee bite +10 (2d6+6 plus entanglement), 2 claws +10 (1d8+6 plus entanglement)\nSpace 10 ft.; Reach 5 ft.\nSpecial Attacks entanglement, pounce, rake (2 claws +10, 1d8+6)\nSpell-Like Abilities (CL 12th; concentration +11)\n\nConstant—blink\nAt will—quickened dimension door (self only)\n3/day—resist energy as an immediate action\n1/day—extended maximized false life\n\nStr 23, Dex 15, Con —, Int 2, Wis 19, Cha 8\nBase Atk +4; CMB +11; CMD 23 (27 vs. trip)\nFeats Improved Initiative, Toughness (B), Weapon Focus (bite, claw)\nSkills Acrobatics +10, Perception +20; Racial Modifiers +4 Acrobatics, +8 Perception\nSQ superposition\n\nEnvironment any\nOrganization solitary or pair\nTreasure none\n\nCertainty (Su) A quantum cat instantly knows when it is being perceived by another creature, and is aware of any creature that is currently perceiving it as if it had 120-foot blindsight.\nDecoherance (Su) Whenever a targeted attack fails to affect a quantum cat as a result of the cat’s blink spell-like ability, the cat shifts entirely onto the Ethereal Plane, as if using ethereal jaunt instead of blink, until the beginning of its next turn.\nEntanglement (Su) Whenever a quantum cat hits an opponent with a melee attack, the opponent and the quantum cat are linked until the end of the cat’s next turn. Until then, the cat and the linked creature threaten and can attack one another with melee attacks as if they were in adjacent squares with no intervening cover, regardless of any distance or barriers between them. Neither provokes attacks of opportunity for leaving squares threatened by the other. Miss chances due to concealment still apply, as normal.\nSuperposition (Su) A quantum cat can move through or occupy the space of any creature as if that creature were three size categories larger than the quantum cat.\n\nA quantum cat is a lion, tiger, or other great cat caught in a strange state somewhere between life and death, its presence in the world of the living tenuous at best. Flickering in and out of material existence, a quantum cat is able to cross vast distances in a single bound, make melee attacks against creatures not in its presence, and otherwise defy the laws of common sense.\n\nA 15th- or higher-level spellcaster can create a quantum cat from the body of a lion, tiger, or similar creature using a create undead spell, but only if the caster kills a blink dog in a space adjacent to the target corpse in the round prior to casting the spell.\n\nEpic Meepo Presents: Monsters. © 2011-2012, Eric Morton. Comments",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/39dc292075da3654.json",
+    "web": "https://codex.pipsprojects.com/#/e/39dc292075da3654"
+  },
+  "license": "OGL 1.0a"
+}

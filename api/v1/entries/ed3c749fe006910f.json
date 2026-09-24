@@ -1,0 +1,27 @@
+{
+  "id": "ed3c749fe006910f",
+  "name": "Hex Weapon",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 1
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level cleric/oracle 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, DF\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nTarget one manufactured weapon\nDuration 1 min./level\nSaving Throw Will negates (object); see text ; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell curses one manufactured weapon so that, for the duration, anyone attempting to wield it must succeed on a Will save or drop it. If someone saves against a particular weapon affected by hex weapon, he no longer is affected by that casting on that weapon. Magic items are not affected by this spell.\n\nSection 15: Copyright Notice – 101 1st Level Spells 101 1st Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed3c749fe006910f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed3c749fe006910f"
+  },
+  "license": "OGL 1.0a"
+}

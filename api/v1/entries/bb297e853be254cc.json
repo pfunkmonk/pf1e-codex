@@ -1,0 +1,29 @@
+{
+  "id": "bb297e853be254cc",
+  "name": "Weaken Structure",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bloodrager": 2,
+      "cleric": 2,
+      "druid": 2,
+      "shaman": 2,
+      "wizard": 2,
+      "vanguard": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes (object)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bloodrager 2, cleric 2, druid 2, shaman 2, sorcerer/wizard 2, vanguard 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget section of an object or structure within one 5-ft.-cube/level (S)\nDuration 1 min./level\nSaving Throw Fortitude negates (object; Spell Resistance yes (object)\n\nDESCRIPTION\n\nThis spell reduces the structural integrity of an object or a structure. Weaken structure affects one 5-foot cube of material per caster level; if the target is too large to fit in this area, only the portion within the area is affected.\n\nThe affected portion of the object or structure is made more vulnerable to damage, reducing its hardness by 10 (minimum 0) and reducing its hit points to 10 per inch of thickness; if the object already has less than 10 hit points per inch or thickness (such as ice or leather), it is reduced to 1 hit point per inch of thickness.\n\nThe effects of weaken structure are removed after the spell ends, but any portions of the structure damaged or destroyed during the spell remain that way.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bb297e853be254cc.json",
+    "web": "https://codex.pipsprojects.com/#/e/bb297e853be254cc"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "11f72f0724a12914",
+  "name": "Searing Sight",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Legendary Games",
+  "book": "Legendary Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "magus": 1,
+      "shaman": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Legendary Games"
+  },
+  "body": "School transmutation [fire]; Level cleric/oracle 1, druid 1, magus 1, shaman 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nDuration concentration, up to 1 minute/level or until discharged\nSaving Throw Reflex half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions as darkvision except it also grants the subject of the spell a burning stare. At any point while the target of the spell is maintaining concentration, they may target a creature that they can see within 60 feet as a swift action. The targeted creature takes 1d4 points of fire damage per caster level and catches on fire. A successful Reflex save halves this damage and prevents the target from catching on fire. Once this effect is used the spell immediately ends.\n\nAlien Codex © 2018, Legendary Games; Lead Designer: Jason Nelson. Authors: Anthony Adam, Kate Baker, John Bennet, Eytan Bernstein, Robert Brookes, Russ Brown, Duan Byrd, Paris Crenshaw, Jeff Dahl, Robyn Fields, Joel Flank, Matt Goodall, Robert J. Grady, Jim Groves, Steven T. Helt, Thurston Hillman, Tim Hitchcock, Nick Hite, Daniel Hunt, Mike Kimmel Marshall, Isabelle Lee, Jeff Lee, Lyz Liddell, Jason Nelson, Richard Pett, Tom Phillips, Jeff Provine, Alistair J. Rigg, Alex Riggs, Wendall Roy, Mike Shel, Neil Spicer, Todd Stewart, Russ Taylor, Rachel Ventura, Mike Welham, George Loki Williams, Scott Young.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/11f72f0724a12914.json",
+    "web": "https://codex.pipsprojects.com/#/e/11f72f0724a12914"
+  },
+  "license": "OGL 1.0a"
+}

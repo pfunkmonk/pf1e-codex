@@ -1,0 +1,19 @@
+{
+  "id": "efe52f0b8378ef53",
+  "name": "Channel Confusion",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "The Book of Many Things",
+  "book": "The Book of Many Things",
+  "facets": {
+    "save": "None",
+    "sr": "no",
+    "bk": "The Book of Many Things"
+  },
+  "body": "Minimum Spell Level: 6th.\n\nWhen you hit a target with your energy blast, you can spend a swift action to confuse it for 1 round (Fortitude negates).\n\nRoll on the following table at the start of each subject’s turn each round to see what it does in that round.\n\nTable: Confusion Effects\nd%\tBehavior\n01-25\tActs normally\n26-50\tDoes nothing but babble incoherently\n51-75\tDeals 1d8 points of damage + Str modifier to self with item in hand\n76-100\tAttacks nearest creature (for this purpose, a familiar counts as part of the subject’s self)\n\nA confused character who can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused character will not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).\n\nThe Book of Many Things © 2018, Samurai Sheepdog; Author: Kevin Glusing",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/efe52f0b8378ef53.json",
+    "web": "https://codex.pipsprojects.com/#/e/efe52f0b8378ef53"
+  },
+  "license": "OGL 1.0a"
+}

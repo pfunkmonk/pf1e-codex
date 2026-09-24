@@ -1,0 +1,29 @@
+{
+  "id": "12ba11362a76e83c",
+  "name": "Ice Blast (cold)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 4,
+      "magus": 4,
+      "wizard": 4,
+      "witch": 4
+    },
+    "desc": [
+      "cold"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation [cold]; Level druid 4, magus 4, sorcerer/wizard 4, witch 4\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect deals 1d6 points of cold damage per caster level (maximum 10d6). A target that fails its saving throw is entangled by the ice for 1d4 rounds.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/12ba11362a76e83c.json",
+    "web": "https://codex.pipsprojects.com/#/e/12ba11362a76e83c"
+  },
+  "license": "OGL 1.0a"
+}

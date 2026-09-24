@@ -13,7 +13,7 @@
  * The Section 15 notice on the page is the strongest evidence there is, so it wins over a breadcrumb guess.
  */
 import { UNVERIFIED_NOTICE } from "./d20-clean.mjs";
-export const PLACEHOLDER_S15 = /Product Name Section 15 here|^\s*x\s*$/i;   // "x" alone: a page whose whole Section 15 is one letter (Drifthorn)   // the publisher template text where a real Section 15 should be
+export const PLACEHOLDER_S15 = /Product Name Section 15 here|ADD BOOK\/SOURCE NAME HERE|Place Section 15 Statement|^\s*x\s*$/i;   // "x" alone: a page whose whole Section 15 is one letter (Drifthorn)   // the publisher template text where a real Section 15 should be
 export const UNVERIFIED_SOURCE = "Source unconfirmed";
 export const UNVERIFIED_MARK = "Source not confirmed for this entry";
 export const NOT_IDENTIFIED = "not identified (third-party content; use the Feedback link to claim or correct)";

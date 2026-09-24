@@ -1,0 +1,26 @@
+{
+  "id": "68832581d843a24e",
+  "name": "Umbral Defender",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "nightblade": 3
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (shadow) [shadow]; Level nightblade 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a vial of good invisible ink worth 25 gp)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one shadowy, humanoid defender\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nAs you finish the spell, you open the bottle of invisible ink, a fine mist coming from its opening as the ink is consumed and evaporated. Darkness coalesces about a nearby space and takes on a solid form of roughly human shape. Appearing to be armored and brandishing a weapon and shield, it takes on a defensive posture, ready to protect its charge no matter the cost.\n\nCreated by nightblades to protect oneself while casting or performing other tasks, the umbral defender is a warrior that defends you and prevents opponents from reaching you. The umbral defender appears as a medium-sized humanoid composed entirely out of shadows (though it is still corporeal and takes up a space), clad in armor and wielding a one-handed melee weapon and a shield appropriate for its size; its appearance (including the form of the weapon) is up to you, though it cannot be made to look like a specific person and always has a shadowy form, so it is never mistaken for an actual creature. It has an AC equal to 10 + 1/2 your caster level + your Charisma bonus, an attack bonus equal to your caster level + your Charisma bonus, 5 hit points per caster level, and a movement speed of 30 feet. It uses your saving throws for its own. If reduced to 0 hit points, the spell ends. Upon creating the umbral defender, you designate a space for it to defend, which it moves to on its turn. You can designate a new space for it to move to at any time as a free action. The defender cannot move outside of the spell’s range.\n\nThe defender takes its turn directly after yours, though it only uses its turn to move if you have directed it to do so. The defender does not attack on its turn; instead, the defender can make a number of attacks of opportunity each round equal to your Charisma bonus. It has a reach of 5 feet. Creatures only provoke attacks of opportunity from the defender by moving, not by other actions such as casting a spell. When the defender first attacks a creature, you must overcome that creature’s spell resistance or have the defender be rendered unable to harm it. The defender never again attacks such creatures. Each hit deals 3d6 + your Charisma bonus of either bludgeoning, piercing, or slashing damage, as appropriate for the weapon it wields, critically threats on a 20, and deals double damage on a critical hit. Every time it hits a target, the defender makes a combat maneuver check against that creature. The defender’s combat maneuver bonus is equal to its attack bonus. If successful, the target cannot move for the rest of its turn, as if the defender had the Stand Still feat. The defender’s weapon is considered magic for the purpose of overcoming damage reduction; at 7th caster level, it is considered silver, and at 14th caster level, it is considered cold iron. As with an umbral servant, it gains a +10 bonus on Stealth checks to remain unseen when in dim light; in darkness or supernatural darkness, it is effectively invisible.\n\nOnce during the spell’s duration, you can command the defender to intercept damage from you (an immediate action for you). Until the start of your next turn, half of any damage you would take is redirected to the defender, as if it had cast shield other on you. Once it either reaches 0 hit points from the redirected damage or when it is the start of your next turn, this spell ends.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/68832581d843a24e.json",
+    "web": "https://codex.pipsprojects.com/#/e/68832581d843a24e"
+  },
+  "license": "OGL 1.0a"
+}

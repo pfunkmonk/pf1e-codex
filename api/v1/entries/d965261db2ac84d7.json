@@ -1,0 +1,25 @@
+{
+  "id": "d965261db2ac84d7",
+  "name": "Dancing Weapon (Orphaned Bookworm Productions)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 5,
+      "magus": 5,
+      "wizard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level bard 5, magus 5, sorcerer/wizard 5\n\nCasting Time 1 standard action\n\nComponents V, S, F (a one-handed melee weapon)\n\nRange touch\n\nTarget weapon touched\n\nDuration 1 round/level\n\nSaving Throw none; Spell Resistance no\n\nThe touched weapon hovers around you and attacks nearby enemies. Once per round as a free action, the weapon can attack an adjacent creature you designate.\n\nThe weapon’s attack roll is equal to your caster level + your spellcasting ability modifier. The damage dealt by the weapon is its base damage plus your spellcasting ability modifier. Any enhancement bonuses or effects the weapon has apply to attack and damage as well.\n\nThis weapon cannot make attacks of opportunity and remains in your square. Like spiritual ally, this weapon does not gain any additional bonuses to attack or damage from positioning, your feats, class abilities, or actions.\n\nBreath of Life: The Geomancer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates, Norman Mitchell Jr., and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d965261db2ac84d7.json",
+    "web": "https://codex.pipsprojects.com/#/e/d965261db2ac84d7"
+  },
+  "license": "OGL 1.0a"
+}

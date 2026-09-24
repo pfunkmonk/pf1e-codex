@@ -1,0 +1,23 @@
+{
+  "id": "f1a28f1bb57c7964",
+  "name": "Sprawling Trap Extension",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "saboteur": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level saboteur 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange 5 ft.\nEffect one trap extension\nDuration see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nA sprawling trap extension allows you to modify the next trap you place in the same square to have a modified trigger area.\n\nYou first place the sprawling trap extension as a saboteur trap in a square adjacent to you, just as you would any other saboteur trap. At any point within the next minute, you must place a second trap in that same square (either a saboteur trap or a mundane trap). This effect supersedes the normal rule that two saboteur traps cannot be placed in the same space. The sprawling trap extension merges with the second trap, enhancing its function. A trap that is enhanced by an sprawling trap extension can be triggered from more than one square. You chose one kind of expanded trigger the trap gains, as listed below:\n\nAerial Trigger: The trap can be triggered by creatures above its space. Any creature that moves or flies over the trap’s square that is less than 5 feet per two caster levels over the trap (max 50 feet) triggers it.\nProximity trigger: The trap triggers on any creature that comes within a set radius of the trap. The trap triggers when a creature enters within a 15-foot radius of its location. A trap placed into the proximity trigger is prevented from being triggered for 1 round after you place it, giving you ample time to leave its trigger area.\nWide Trigger: The trap gains multiple adjacent squares that can trigger it. You choose up to one 5-foot square on the ground per caster level (max 20) that are adjacent to a previous square, starting with the square the trap is placed in. A creature stepping in any of these spaces triggers the trap.\n\nA saboteur trap’s effects come into effect centered on the point the creature triggered the trap; a mechanical or mundane trap gains no such benefit, triggering upon the space it was placed in as normal. The trap can still only be disarmed in its original space, meaning certain uses of this trap can make disarming much more difficult.\n\nThe sprawling trap extension lasts until the trap is triggered, disarmed, or breaks apart (if the trap does so, as a saboteur trap does). Only one “ trap extension” spell can be added to a particular trap.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1a28f1bb57c7964.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1a28f1bb57c7964"
+  },
+  "license": "OGL 1.0a"
+}

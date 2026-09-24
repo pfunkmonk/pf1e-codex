@@ -1,0 +1,23 @@
+{
+  "id": "400af3917256dbb2",
+  "name": "Binding Chains (Frog God Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Frog God Games"
+  },
+  "body": "School conjuration (summoning); Level sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, M (a single hooked chain from a torture chamber)\n\nEFFECT\n\nRange 100 ft. + 10 ft./level\nEffect 4 chains + 1 chain/three caster levels, all within a 5-ft.\n\narea\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nThis spell causes hooked chains to explode from the ground and latch onto a single victim. Four chains, plus one chain for every three caster levels, immediately spring into action. Each chain has a reach of 10 feet, AC 18, hardness 5, and 1 hp/caster level. The binding chains cannot be targeted by any spell that does not inflict damage.\n\nThe victim is allowed a Reflex saving throw to avoid the chains. If the save is successful, the chains remain in place until the spell’s duration expires. Anyone entering the spell’s area of effect must immediately make a Reflex saving throw or suffer the effects detailed below.\n\nIn the case of failure, the unfortunate target suffers damage as the chains rend into her body, causing 1d6 points of piercing damage per chain. Additionally, the victim is considered grappled by the chains.\n\nIn each subsequent round, a held character may try to wrestle free as if attempting to break free from a normal grapple. The chains have a CMB of 20 plus 1 per additional chain. A successful check results in the character breaking free from the chains; a failed save deals the spell’s damage to the target again as the chains dig into its flesh. Chains can be destroyed to help in freeing a held character. Each chain that is destroyed lowers the CMB of the binding chains by l point. When only four chains remain, each destroyed chain lowers the effective combined CMB of the chains by 5 points.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/400af3917256dbb2.json",
+    "web": "https://codex.pipsprojects.com/#/e/400af3917256dbb2"
+  },
+  "license": "OGL 1.0a"
+}

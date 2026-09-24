@@ -1,0 +1,26 @@
+{
+  "id": "0a19d360d3bd5a0b",
+  "name": "Dominion’s Shield",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "invoker": 1
+    },
+    "desc": [
+      "see text"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School abjuration [see text]; Level invoker 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou may only cast this spell if you are a spirit companion.\n\nWith an incantation of ancient power, you call to the spirits of nature to shield your compatriot from harm. For the duration, the target gains a +1 shield bonus to their AC per two caster levels (max +4). Additionally, choose a single additional option from the list below. You may only choose an option that matches the dominion of an invoked spirit of the invoker you are bonded with:\n\nBeasts: disease and fear\nLand: acid and earth\nSea: cold and water\nSky: air and electricity\nWilds: poison, paralysis, and sleep\n\nThe target gains a +4 bonus on saving throws against spells and effects of the chosen type. For example, if you choose Sky, the target gains a +4 bonus on saving throws against effects that deal electricity damage, spells with the air or electricity descriptor, and other air-based abilities (such as an air elemental’s whirlwind ability), subject to GM discretion.\n\nWhen you choose a particular spirit type, the spell gains a descriptor appropriate to that type, as follows: animal (beasts), earth (land), water (sea), air (sky), or plant (wilds).\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0a19d360d3bd5a0b.json",
+    "web": "https://codex.pipsprojects.com/#/e/0a19d360d3bd5a0b"
+  },
+  "license": "OGL 1.0a"
+}

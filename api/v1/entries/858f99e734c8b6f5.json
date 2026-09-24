@@ -1,0 +1,31 @@
+{
+  "id": "858f99e734c8b6f5",
+  "name": "Spook (fear)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "inquisitor": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy [fear, mind-affecting]; Level bard 1, cleric/oracle 1, inquisitor 1, sorcerer/wizard 1, witch 1\n\nEFFECT\n\nDuration 1d4 rounds\nSaving Throw Will negates; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThis effect word causes the target to become frightened for the duration. This word has no effect on targets with 5 or more Hit Dice.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/858f99e734c8b6f5.json",
+    "web": "https://codex.pipsprojects.com/#/e/858f99e734c8b6f5"
+  },
+  "license": "OGL 1.0a"
+}

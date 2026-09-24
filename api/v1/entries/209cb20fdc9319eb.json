@@ -1,0 +1,28 @@
+{
+  "id": "209cb20fdc9319eb",
+  "name": "Energy Immunity (body)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "alchemist": 6,
+      "oracle": 6,
+      "druid": 6,
+      "inquisitor": 6,
+      "wizard": 6,
+      "summoner": 6
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School abjuration; Level alchemist 6, cleric/oracle 6, druid 6, inquisitor 6, sorcerer/wizard 6, summoner 6\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\nTarget Restrictions Personal, Selected\n\nDESCRIPTION\n\nThe target of a wordspell with this word effect gains immunity to one energy type (acid, cold, electricity, fire, or sonic). The target still suffers any other side effects that might accompany the energy damage.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/209cb20fdc9319eb.json",
+    "web": "https://codex.pipsprojects.com/#/e/209cb20fdc9319eb"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "1e360d7e17ad0ee9",
+  "name": "Acid Wave (acid)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "magus": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation) [acid]; Level magus 4, sorcerer/wizard 4\n\nEFFECT\n\nDuration 1 round/level (see text)\nSaving Throw Reflex half and partial (see below); Spell Resistance no\n\nDESCRIPTION\n\nA wordspell with this effect word deals 1d6 points of acid damage per caster level (maximum 10d6). Targets damaged by this effect word are sickened for one round per caster level, or one round if the saving throw against the wordspell with this effect word was successful.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e360d7e17ad0ee9.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e360d7e17ad0ee9"
+  },
+  "license": "OGL 1.0a"
+}

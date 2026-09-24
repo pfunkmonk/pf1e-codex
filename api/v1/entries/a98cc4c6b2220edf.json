@@ -1,0 +1,17 @@
+{
+  "id": "a98cc4c6b2220edf",
+  "name": "Saboteur (Artificer Archetype)",
+  "bucket": "options",
+  "category": "Artificer",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "A saboteur is an artificer that is focused on explosive technologies and how to effectively employ them.\n\nBombs (Ex)\n\nAt 1st level, the saboteur gains the bombs class feature of the alchemist using their artificer class levels for their effective alchemist level. This ability replaces scribe scroll and all instances of bonus metamagic feats.\n\nBomb Innovations (Ex)\n\nBeginning with 2nd level, the saboteur can select alchemist discoveries that modify their bombs in place of bonus item creation feats. This ability modifies bonus item creation feats but does not preclude other archetypes that replace or modify those feats.\n\nExplosive Disarm (Ex)\n\nAt 5th level, a saboteur can attempt to disarm a mechanical trap by detonating it rather than disarming it with a Disable Device check. As a full-round action, a saboteur may expend one of their bombs to make a ranged touch attack against a trap, treating the trap’s Disable Device DC as its touch AC. If the attack misses, the bomb’s splash damage activates the trap. If the attack hits, the bomb deactivates the trap without setting it off. The saboteur must both know the location of the trap and be able to reach the trap’s trigger with a ranged touch attack in order to use this ability. At 8th level, a saboteur can disarm magic traps with this ability. This ability replaces retain charge.\n\nLand Mine (Ex)\n\nAt 7th level, a saboteur can turn their bombs into land mines. Setting a land mine is a full-round action that provokes attacks of opportunity. The land mine fills a single 5-foot square, and can’t be placed in the same space as another trap, land mine, or magic trap. The saboteur can arm the land mine with any bomb they are eligible to use, and the effects of this bomb are immediately transferred to the land mine. Creating a land mine uses up two of the saboteur’s bombs per day. The DCs for Perception checks to notice the land mine, Disable Device checks to disable it, and saving throws to avoid its effects are equal to 10 + 1/2 the saboteur’s class level + their Intelligence modifier. All land mines are mechanical traps with the qualities Trigger: location and Reset: none. Land mines last for 1 day per artificer level or until they are triggered, whichever comes first. This ability replaces metamagic spell trigger.\n\nMine Engineering (Ex)\n\nAt 11th level, a saboteur’s expertise in improving explosives allows them to create land mines with minimal expense. Creating a land mine uses up only one of the artificer’s bombs per day.\n\nBreath of Life: The Artificer, © 2026, Orphaned Bookworm Productions, LLC; Authors: Connor Bates and Paulo César Viola Da Silva Maia.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a98cc4c6b2220edf.json",
+    "web": "https://codex.pipsprojects.com/#/e/a98cc4c6b2220edf"
+  },
+  "license": "OGL 1.0a"
+}

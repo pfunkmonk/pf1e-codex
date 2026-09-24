@@ -1,0 +1,24 @@
+{
+  "id": "a14a52fad7bac400",
+  "name": "Swap",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "shaman": 5,
+      "oracle": 4
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School conjuration (teleportation); Level druid/shaman 5, cleric/oracle 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, DF (an item worth 100 gp, bearing the name or likeness of a saintly figure)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget a creature possessing this spell’s divine focus\nDuration instantaneous\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou switch places with a target that possesses this spell’s divine focus. If you and the target do not fit in each other’s places, the spell has no effect. You may choose whether to switch clothes (including all equipment) with the target.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a14a52fad7bac400.json",
+    "web": "https://codex.pipsprojects.com/#/e/a14a52fad7bac400"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "b3aefb9bf0a304db",
+  "name": "Hibernate (Michael Mars)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Michael Mars",
+  "book": "Michael Mars",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 5,
+      "druid": 4,
+      "wizard": 5,
+      "witch": 5
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Michael Mars"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 5, druid 4, sorcerer/wizard 5, witch 5\n\nCASTING\n\nCasting Time 1 standard action\n\nComponents V, S, M/DF (a stone from a bear’s cave)\n\nEFFECT\n\nRange touch\n\nTarget living creature touched\n\nDuration 1 day/level (D)\n\nSaving Throw Will negates; Spell Resistance yes\n\nYou must succeed on a melee touch attack. The subject becomes unconscious. Its breathing, heart rate, and other vital signs slow to the bare minimum necessary to support life. While in this state, the creature has no need for food or water, making it immune to the effects of starvation and thirst. In addition, the subject suffers no harm from a cold environment as long as the temperature remains at or above –50° Fahrenheit (–45° Celsius).\n\nAt the time of casting, you can specify triggering conditions that end the spell and restore the target back to consciousness. These triggers must be based on either a set timetable, such as seven days from the moment the spell was cast, or temperature, such as when the temperature reaches the freezing point.\n\nHibernating creatures are helpless. Wounding a hibernating creature grants the target a new saving throw against the spell. Even then, the awakened target is staggered for the next 1d4 rounds. All other actions, including slapping a hibernating creature or creating loud noises, fail to rouse the target from its unconscious state. Break enchantment, limited wish, miracle, and wish immediately awaken a hibernating creature. When awakened in this manner, the hibernating creature regains consciousness and is not staggered for 1d4 rounds, provided its hit point total is equal to or greater than 0.\n\nIcebound Copyright 2021, Michael Mars; Author: Tom Knauss",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/b3aefb9bf0a304db.json",
+    "web": "https://codex.pipsprojects.com/#/e/b3aefb9bf0a304db"
+  },
+  "license": "OGL 1.0a"
+}

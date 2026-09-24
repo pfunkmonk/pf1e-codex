@@ -1,0 +1,19 @@
+{
+  "id": "9b21c043cd758e89",
+  "name": "Debilitate (Path of Iron)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design alteration; Level 9\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 round/level\nSaving Throw Fortitude partial; Spell Resistance no\n\nDESCRIPTION\n\nThe most powerful form of harmful alteration, a debilitate spell greatly reduces a target’s abilities. When cast, you choose to apply up to three of the following effects to the target:\n\n-4 penalty to Armor Class\n-4 penalty on attack rolls and damage rolls\n-4 penalty to all saving throws\n-4 penalty to ability checks and skill checks.\n-4 penalty to spell resistance\nReduce the DC of any spells or spell-like abilities cast by the target by -4.\nReduce the DC of any extraordinary or supernatural abilities the target has by -4.\nDamage Reduction (if any) is lowered by 10.\nAll energy resistances (if any) are lowered by 10.\nReduce all forms of movement the creature has by 30 feet (minimum 0).\n\nYou may not select the same effect twice. A successful Fortitude save reduces the duration to 1 round.\n\nOverload: For every runic charge overloaded into this script, you can select an additional effect to apply to the target. For every two alteration runic charges used, you can double the penalty imposed by one effect.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b21c043cd758e89.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b21c043cd758e89"
+  },
+  "license": "OGL 1.0a"
+}

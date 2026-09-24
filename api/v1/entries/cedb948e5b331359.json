@@ -1,0 +1,23 @@
+{
+  "id": "cedb948e5b331359",
+  "name": "Wit of Toxic Tendrils",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Alluria Publishing",
+  "book": "Alluria Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "desc": [
+      "poison"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Alluria Publishing"
+  },
+  "body": "School conjuration (creation) [poison]; Level: jester 3\n\nCASTING\n\nCasting Time: 1 standard action\nComponents: (not included in source material)\n\nEFFECT\n\nRange: Medium (100 ft. + 10 ft./level)\nArea: 10-ft.-radius burst\nDuration: 1 round per level\nSaving Throw: Fortitude half; see text; Spell Resistance: yes\n\nDESCRIPTION\n\nEach enemy within the spell’s area of effect takes 2d6 points of poison damage, with an extra point added for each level of the caster. If the target doesn’t succeed on its saving throw, it receives a -6 penalty to its Strength score. This penalty remains in effect until the target makes a successful saving throw, which it can attempt at the end of each of its turns.\n\nFor the duration of the encounter, once per round when you hit an enemy affected by this Strength penalty with a prank (0-level jester spell), that enemy is dazed until the end of your next turn.\n\nRidiculous Races and Crazy Classes. Copyright 2024 Alluria Publishing; Author: Emily Kubisz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cedb948e5b331359.json",
+    "web": "https://codex.pipsprojects.com/#/e/cedb948e5b331359"
+  },
+  "license": "OGL 1.0a"
+}

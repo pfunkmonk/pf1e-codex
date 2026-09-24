@@ -1,0 +1,27 @@
+{
+  "id": "ed79cb7a782cb38f",
+  "name": "Primal Fury",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 7,
+      "shaman": 7
+    },
+    "desc": [
+      "animal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation (polymorph) [animal]; Level druid 7, shaman 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 min./level (D)\n\nWhen you cast this spell, your form shifts to take on several animalistic aspects.\n\nThis spell functions similar to beast shape III, though you can only choose an animal, not a magical beast. Your form does not completely change into the chosen animal type: instead, you turn into a hybrid form similar to a lycanthrope. You gain all of the listed abilities suitable to that form, as described in beast shape III, including natural attacks possessed by the chosen creature. Your size does not change. Your body takes on several traits that are similar to the chosen animal, such as thick fur, sharp teeth, and so on, including any extremities necessary to use one of the animal’s abilities (such as wings to use a fly speed). Your gear does not merge with you, but alters enough to accommodate changes in your physique. Rather than taking on the ability score or natural armor changes shown in beast shape III, you always gain a +4 size bonus to Strength and Dexterity and no natural armor. As a lycanthropic hybrid, you gain DR 10/silver while in this form. While this spell persists, you gain the shapechanger subtype, if you didn’t already have it. Any effects that are specifically harmful to shapechangers or lycanthropes are also effective against you.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ed79cb7a782cb38f.json",
+    "web": "https://codex.pipsprojects.com/#/e/ed79cb7a782cb38f"
+  },
+  "license": "OGL 1.0a"
+}

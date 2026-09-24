@@ -1,0 +1,26 @@
+{
+  "id": "8fe289ea467bbdf4",
+  "name": "Transfer Enhancement",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "bard": 5,
+      "magus": 5,
+      "wizard": 5,
+      "vanguard": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level bard 5, magus 5, sorcerer/ wizard 5, vanguard 5\n\nCASTING\n\nCasting Time 1 hour\nComponents V, S, M (gold dust worth 50 gp or more, see text)\n\nEFFECT\n\nRange touch\nTargets one magic item and one non-magic item of a similar kind touched, see text\nDuration instantaneous\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows you to permanently transfer the magical properties of a magic item to a different item. The item to be transferred to must be of a comparable type; you could transfer the magical properties of a sword onto a spear, but not from a bag of holding onto a pair of gloves.\n\nAny incompatible enhancements, such as trying to transfer the keen property from a sword onto a club, are lost forever in the transfer and cannot be restored. Should you try to transfer the magic properties onto an item that has additional costs for enhancing (such as a cold iron weapon), you must pay that cost as an additional material component unless the item you are transferring the enhancements from is made of the same material.\n\nYou cannot target an artifact with transfer enhancement.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8fe289ea467bbdf4.json",
+    "web": "https://codex.pipsprojects.com/#/e/8fe289ea467bbdf4"
+  },
+  "license": "OGL 1.0a"
+}

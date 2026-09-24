@@ -1,0 +1,17 @@
+{
+  "id": "a978e99faed4def2",
+  "name": "Gangrene",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Avalanche Press, Ltd.",
+  "book": "Avalanche Press, Ltd.",
+  "facets": {
+    "bk": "Avalanche Press, Ltd."
+  },
+  "body": "Gangrene is a serious infection that results from bacteria growing in wounds which causes flesh to die and rot.\n\nCharacters risk getting gangrene if they take hp damage sufficient to cause them to become unconscious and which are not fully healed within 24 hours (magically or otherwise.) Characters must attempt a DC 15 Fortitude saving throw 24 hours after taking the injury which caused them to become unconscious. If this save fails, they have contracted gangrene and immediately suffer 1d2 points of Dexterity damage. Roll 1d6 to determine the affected location:\n\n1-2 Left foot\n3-4 Right foot\n5 Left hand\n6 Right hand\n\nCharacters infected show clear signs from swollen skin and blistering that inflicts 1d2 points of Dexterity damage each day for two days. 24 hours later and then again 24 hours after that they must attempt another DC 15 Fortitude saving throw or suffer an additional 1d2 Dexterity damage each time. As the skin becomes more infected, it also begins to smell foul. On the third day, the skin rot begins to kill the character.\n\nOn the third day of infection (and every 24 hours thereafter) the character suffers 1d4 points of Constitution damage (no saving throw) until either the disease is cured via magical means (via remove disease for example), the affected limb is amputated, or the victim dies. If the victims Constitution score is reduced to 6 or less due to this disease, it has spread to the victims torso and is now irreversible without magical aid (remove disease for example.)\n\nType disease (injury); Save Fort DC 15\n\nOnset 24 hours; Frequency 1/day\n\nEffect 1d2 Dexterity damage for 2 days then 1d4 Constitution damage until cured or affected area is amputated; Cure Fort DC 15 within first 2 days, thereafter magical only\n\nBlack Flags: Piracy in the Caribbean copyright 2002, Avalanche Press, Ltd.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a978e99faed4def2.json",
+    "web": "https://codex.pipsprojects.com/#/e/a978e99faed4def2"
+  },
+  "license": "OGL 1.0a"
+}

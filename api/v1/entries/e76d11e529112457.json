@@ -1,0 +1,27 @@
+{
+  "id": "e76d11e529112457",
+  "name": "Fire Jump",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7,
+      "hedge witch": 7
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School conjuration (teleportation) [fire]; Level sorcerer/wizard 7, hedge witch 7\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget you\nDuration 1 hour/level or until expended; see text\n\nDESCRIPTION\n\nWhen you cast this spell, you gain the ability to step into a non-magical fire without harm, magically infusing yourself with the flames. Once within a fire, you can teleport from that particular fire to another one, and know the location of other fires instantly. The fires you enter must be of the same kind, must be in full flame (not died down to embers), and must be the same size category as you or larger. By moving into a fireplace (for example), you instantly know the location of all other fireplaces within transport range (see below) and may choose whether you want to pass into one or simply step back out of the fire you moved into.\n\nYou may choose to pass to any fire of the appropriate kind within the transport range as shown below.\n\nType of Fire Transport Range\n\nBonfire (Large or larger) 3 miles Blacksmith’s Forge (Large) 2 miles Fireplace (Medium) 1 mile Campfire (Medium) 3,000 feet You may move into a fire up to one time per caster level (passing from one fire to another counts only as moving into one fire). The spell lasts until the duration expires or you exit a fire. Each transport is a full round action.\n\nYou can, at your option, remain within a fire without transporting yourself, but you are forced out when the spell ends. If the fire in which you are concealed burns out due to lack of fuel or is extinguished, you are slain if you do not exit before the fire dies out.\n\nPaths of Power. Copyright 2009, 4 Winds Fantasy Gaming; Authors Sean O’Connor and Patricia Willenborg, with Connie J. Thomson and Robert W. Thomson.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e76d11e529112457.json",
+    "web": "https://codex.pipsprojects.com/#/e/e76d11e529112457"
+  },
+  "license": "OGL 1.0a"
+}

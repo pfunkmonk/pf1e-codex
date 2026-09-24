@@ -1,0 +1,29 @@
+{
+  "id": "244c3c8c8d6dfb83",
+  "name": "Ray of Hope (Orphaned Bookworm Productions)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 1,
+      "oracle": 1,
+      "mesmerist": 1,
+      "paladin": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 1, cleric/oracle 1, mesmerist 1, paladin 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration 1 round/level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nYou shoot a ray of softly-glowing energy causing hope to well up in the subject. You must succeed on a ranged touch attack against the target to affect them, though the target may choose to forgo their Dexterity bonus to AC. If you hit, the target gains a +2 morale bonus on saves, attack rolls, ability checks and skill checks.\n\nBreath of Life: The Beguiler, © 2024, Orphaned Bookworm Productions, LLC, Authors: Connor Bates and Norman Mitchell Jr.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/244c3c8c8d6dfb83.json",
+    "web": "https://codex.pipsprojects.com/#/e/244c3c8c8d6dfb83"
+  },
+  "license": "OGL 1.0a"
+}

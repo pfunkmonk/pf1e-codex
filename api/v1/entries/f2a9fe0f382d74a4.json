@@ -1,0 +1,30 @@
+{
+  "id": "f2a9fe0f382d74a4",
+  "name": "Hellfire",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Fire Mountain Games",
+  "book": "Fire Mountain Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "magus": 3,
+      "wizard": 4,
+      "summoner": 3,
+      "witch": 4
+    },
+    "desc": [
+      "evil",
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Fire Mountain Games"
+  },
+  "body": "School evocation [evil, fire]; Level magus 3, sorcerer/wizard 4, summoner 3, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a pinch of brimstone)\n\nEFFECT\n\nRange short (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius spread\nDuration instantaneous (see text)\nSaving Throw Reflex half (see text); Spell Resistance yes\n\nDESCRIPTION\n\nBy uttering certain blasphemous incantations, you can cause a roiling ball of hellfire to explode nearby. This hell fire deals 6d6 points of damage to all those caught within. Half of this damage is fire damage, while the other half is unholy damage that is not reduced by resistances or immunities. A reflex save halves both damage types equally.\n\nIn addition to the damage, good creatures caught in this blast is covered in painful burns and blisters that cause the creature to take a –2 penalty on Reflex saving throws and all Dexteritybased skills and checks for one round per level of the caster.\n\nIn addition, the burns cause good creatures to lose any resistance they have to fire damage and it reduces any immunity to fire damage such creatures might possess to resistance 20 against fire.\n\nIf the good creature succeeds at its Reflex saving throw against this spell, the duration of the burns is also reduced to just one round.\n\nWay of the Wicked Book Six — The Wages of Sin. Copyright 2013, Fire Mountain Games LLC; Author: Gary McBride.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f2a9fe0f382d74a4.json",
+    "web": "https://codex.pipsprojects.com/#/e/f2a9fe0f382d74a4"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "afc5a2f551ec44a5",
+  "name": "Contagion (Skirmisher Publishing LLC)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Skirmisher Publishing LLC",
+  "book": "Skirmisher Publishing LLC",
+  "facets": {
+    "lv": {
+      "common cold": 5
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Skirmisher Publishing LLC"
+  },
+  "body": "School: necromancy [evil]; Level: antipaladin 2, cleric 3, druid 3, magus 4, sorcerer/wizard 4, witch 3\n\nCASTING\n\nCasting Time: 1 standard action\nComponents: V, S\n\nEFFECT\n\nRange: touch\nTarget: living creature touched\nDuration: instantaneous\nSaving Throw: Fort negates; Spell Resistance: yes\n\nDESCRIPTION\n\nThe subject contracts a disease selected from the table below, which strikes immediately (no incubation period). The diseases available to the caster are determined by the caster’s level. Use contagion’s normal save DC for the initial saving throw and the save DC of the disease thereafter.\n\nA creature that would ordinarily be immune to chicken pox is still infected by this spell. A creature who was not previously immune becomes immune after recovery if the disease is caused by contagion.\nWhen tuberculosis is caused by this spell, it is always active, never latent.\nA creature that would ordinarily be immune to leprosy is still infected by this spell. Creatures affected by this spell do not roll their percent chance of being immune. A creature infected via this spell may still prove to be immune if subsequently exposed to a non-magical form of the disease.\nA creature afflicted with smallpox by this spell is affected as though it had failed on one saving throw against the disease, developing the standard sickening form of the malady.\nA creature afflicted with polio by this spell is automatically afflicted with its paralytic variety.\nRandom Disease or Ailment\nDisease\tMinimum Caster Level\nCommon Cold\t5\nLaryngitis\t5\nMeningitis (Viral)\t6\nChickenpox1\t7\nCancer of the Blood\t8\nFlu\t9\nTetanus\t10\nTuberculosis2\t11\nBotulism\t12\nLeprosy3\t13\nPneumonia\t14\nSmallpox4\t15\nMalaria\t16\nMeningitis (Bacterial)\t17\nPolio5\t18\nRabies\t19\nPlague\t20\n\nThe contagion spell becomes complicated when the category of diseases includes a large number of options. In the Pathfinder Roleplaying Game, contagion draws upon a very specific list of illnesses, all of which are infectious. If you use this book, however, you might be tempted to expand the diseases at your spell-casters’ disposal.\n\nThe modified version of contagion presented here can broaden the spell’s application. You could certainly decide that contagion is capable of inflicting any condition in this book if you so choose but remember two things:\n\nSome of the illnesses in this book are caused by other spells instead, such as blindness and deafness.\nAny disease that contagion can cause should logically be curable by remove disease, at least if inflicted magically.\n\nInsults & Injuries copyright 2021 Skirmisher Publishing LLC.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/afc5a2f551ec44a5.json",
+    "web": "https://codex.pipsprojects.com/#/e/afc5a2f551ec44a5"
+  },
+  "license": "OGL 1.0a"
+}

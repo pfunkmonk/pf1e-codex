@@ -1,0 +1,28 @@
+{
+  "id": "03b55da926aaae24",
+  "name": "Aura of Peace",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "oracle": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level bard 3, cleric/oracle 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 action\nComponents V, S, F/DF (a dove’s feather)\n\nEFFECT\n\nRange close (25 ft + 5 ft./2 levels)\nArea 25 ft. + 5 ft./2 levels radius emanation, centered on you or a person or an object you designate\nDuration 1 minute/level (D)\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nAll creatures within the area find it hard to fight one another. Creatures within the area who fail their save cannot take any offensive action. If attacked, they will defend themselves with the total defense maneuver. Creatures who make their save suffer a -2 circumstance penalty on all attack and damage rolls. Casting spells of a destructive nature from within the area requires a Concentration check (DC 10 + your caster level + your relevant caster ability modifier). All cowering, frightened, panicked, and shaken conditions are suppressed while within the affected area of aura of peace.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/03b55da926aaae24.json",
+    "web": "https://codex.pipsprojects.com/#/e/03b55da926aaae24"
+  },
+  "license": "OGL 1.0a"
+}

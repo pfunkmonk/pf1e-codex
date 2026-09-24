@@ -1,0 +1,28 @@
+{
+  "id": "1e7805847634e49f",
+  "name": "Steal Power (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "alchemist": 3,
+      "antipaladin": 3,
+      "oracle": 3,
+      "inquisitor": 3,
+      "wizard": 3,
+      "witch": 3
+    },
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level alchemist 3, antipaladin 3, cleric/oracle 3, inquisitor 3, sorcerer/wizard 3, witch 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M/DF (a polished vampire’s fang)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level\nSaving Throw Will (negates); see text; Spell Resistance yes\n\nDESCRIPTION\n\nYour touch grants you one of the target’s senses, auras, movement modes, feats, languages, immunities, or extraordinary abilities. The target retains the stolen ability, as well. You may also target a fresh corpse (dead no more than 1 min.), which receives no save. You may not possess more than one stolen power at a time.\n\nMythic: If you expend one use of mythic power when casting this spell, its duration increases to 1 hr./level.\n\nAdditionally, the target loses the stolen power for the duration of the spell.\n\nAugmented (6th): You can expend two additional uses of mythic power when casting this spell. This increases the spell’s duration to 1 day/level, and you may have three stolen powers at once.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1e7805847634e49f.json",
+    "web": "https://codex.pipsprojects.com/#/e/1e7805847634e49f"
+  },
+  "license": "OGL 1.0a"
+}

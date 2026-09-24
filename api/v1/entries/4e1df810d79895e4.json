@@ -1,0 +1,28 @@
+{
+  "id": "4e1df810d79895e4",
+  "name": "Gift of Fire’s Touch",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "arcanist": 3,
+      "witch": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School conjuration [fire]; Level arcanist 3, witch 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, M (2 small rubies worth 10 gps each)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 3 rounds\nSaving Throw special (see below); Spell Resistance yes\n\nDESCRIPTION\n\nThis spell transforms the rubies held in each hand into miniature portals to the elemental plane of fire. This encompasses the caster’s hands in a bright flame that provides light equal to a torch on each hand. As a standard action each round for this spell’s duration, the caster can perform one of several possible actions each round.\n\nSmoke Screen: Create a concealing smoke barrier around the caster’s area. Treat this effect as if an alchemical smoke stick had landed in each square around the caster. This effect lasts only one round.\nFire Jump: +10 to any Acrobatics check to make a single jump of any kind and double the effective result, or reduce damage from a fall. Anything in the starting or landing squares takes 2d6 fire damage. A creature that succeeds on a Reflex save avoids this damage altogether.\nCinder Touch: A single melee touch attack that deals 2d6 + the caster’s Intelligence modifier fire damage. Any target touched ignites for 1d6 fire damage each round for 2d4 rounds or until the flames are extinguished.\nCinder Blast: A single ranged touch attack that deals 2d6 + the caster’s Intelligence modifier fire damage. The maximum range for this attack is 30 feet.\nInferno Corridor: A line of fire that does 4d6 fire damage in a 20 foot line. A creature that succeeds on a Reflex save takes half damage.\nDeflecting Touch: As a readied action, the caster can attempt to deflect or absorb fire, gaining a +4 bonus to AC and any saves vs. fire effects, and gains fire resistance 5 until the beginning of the next round.\n\nBlood and Broomsticks © 2019, d20pfsrd.com Publishing; Author: Jeremy Clements",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/4e1df810d79895e4.json",
+    "web": "https://codex.pipsprojects.com/#/e/4e1df810d79895e4"
+  },
+  "license": "OGL 1.0a"
+}

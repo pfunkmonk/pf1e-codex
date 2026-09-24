@@ -1,0 +1,27 @@
+{
+  "id": "ebbfc1f2f1c6246b",
+  "name": "Escape the Bonds of Flesh",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "cleric": 4,
+      "wizard": 5
+    },
+    "desc": [
+      "death"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School necromancy [death]; Level cleric 4, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (piece of bone)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one living creature\nDuration instantaneous\nSaving Throw Fortitude half; Spell Resistance yes\n\nDESCRIPTION\n\nThe victim’s skeleton writhes and twists within his body, tearing muscles and rupturing flesh. The victim suffers 2d8 points of damage, +1 point per caster level (maximum +20). If the damage dealt by this spell brings the target to -10 hit points or below, its skeleton tears from its body and becomes an animated skeleton. This skeleton is under the caster’s control in all respects as if it had been created by the animate dead spell. Should the skeleton possess too many Hit Dice for the caster to control, it remains independent and immediately attacks the nearest creature.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/ebbfc1f2f1c6246b.json",
+    "web": "https://codex.pipsprojects.com/#/e/ebbfc1f2f1c6246b"
+  },
+  "license": "OGL 1.0a"
+}

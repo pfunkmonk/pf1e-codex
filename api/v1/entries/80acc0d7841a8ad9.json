@@ -1,0 +1,27 @@
+{
+  "id": "80acc0d7841a8ad9",
+  "name": "Animate Armor",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "wizard": 3,
+      "vanguard": 3
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [metal]; Level sorcerer/wizard 3, vanguard 3\n\nCASTING\n\nCasting Time 10 minutes\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget one suit of full plate sized for a Medium creature\nDuration 10 min./level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou breathe life into a suit of armor, turning it into a construct under your control.\n\nThis spell turns the suit of armor into an animated creature that fights beside you. It has the same statistics as a guardian phantom armor, except that it loses the undead type, channel resistance, and undead traits and gains the construct type and construct traits. It gains an additional 20 hit points for being a Medium-sized construct. The animated armor is proficient with all simple and martial weapons that you provide it with. The armor acts like a summoned creature under your control and follows your orders to the best of its ability. If the armor targeted has magical properties, the animated armor gains those properties.\n\nThe armor must be unworn and not broken to be targeted by animate armor. If the animate armor takes enough damage to be killed, the spell ends and the armor falls to the ground, gaining the broken condition (unless the effect that killed it would utterly destroy it, such as disintegrate, in which case the armor is destroyed).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/80acc0d7841a8ad9.json",
+    "web": "https://codex.pipsprojects.com/#/e/80acc0d7841a8ad9"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "eff498bf9903fc68",
+  "name": "Intimidating Cackle",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "d20pfsrd.com Publishing",
+  "book": "d20pfsrd.com Publishing",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "arcanist": 2,
+      "bard": 2,
+      "oracle": 2,
+      "inquisitor": 2,
+      "witch": 2,
+      "wizard": 2
+    },
+    "desc": [
+      "emotion",
+      "fear",
+      "mind-affecting",
+      "sonic"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "d20pfsrd.com Publishing"
+  },
+  "body": "School necromancy [emotion, fear, mind-affecting, sonic]; Level arcanist 2, bard 2, cleric/oracle 2, inquisitor 2, witch 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V/DF\n\nEFFECT\n\nRange personal\nTarget you\nDuration instantaneous\nSaving Throw no; Spell Resistance yes\n\nDESCRIPTION\n\nWhen used, this spell allows the caster to burst into frightful laughter and immediately make an Intimidation check against each enemy within 30 ft with a +5 bonus. If successful, each enemy is affected as if by a successful demoralize opponent check by the caster. Standard penalties for attempting to demoralize a target multiple times apply normally.\n\nBlood and Broomsticks © 2019, d20pfsrd.com Publishing; Author: Jeremy Clements",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/eff498bf9903fc68.json",
+    "web": "https://codex.pipsprojects.com/#/e/eff498bf9903fc68"
+  },
+  "license": "OGL 1.0a"
+}

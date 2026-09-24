@@ -1,0 +1,23 @@
+{
+  "id": "558b0e11d449a147",
+  "name": "Fungal Infestation (Alluria Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Alluria Publishing",
+  "book": "Alluria Publishing",
+  "facets": {
+    "lv": {
+      "druid": 3,
+      "fungomancer": 3
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Alluria Publishing"
+  },
+  "body": "School: conjuration (creation) [earth]; Level druid 3, fungomancer 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a piece of fungus)\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\nArea 20-ft.-radius spread\nDuration 1 round/level\nSaving Throw Reflex partial; Spell Resistance no\n\nDESCRIPTION\n\nYou cause fungi to rapidly grow in the targeted area.\n\nThe area becomes difficult terrain, and any creature in the area or that enters the area takes 2d6 points of damage per round from the rapidly growing fungi. A successful Reflex save halves this damage.\n\nAny creature that takes damage from the fungi must also make a Fortitude save or become sickened for 1d4 rounds. This is a poison effect.\n\nThe fungi continue to grow for the duration of the spell, after which they wither and decay rapidly.\n\nRidiculous Races and Crazy Classes. Copyright 2024 Alluria Publishing; Author: Emily Kubisz",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/558b0e11d449a147.json",
+    "web": "https://codex.pipsprojects.com/#/e/558b0e11d449a147"
+  },
+  "license": "OGL 1.0a"
+}

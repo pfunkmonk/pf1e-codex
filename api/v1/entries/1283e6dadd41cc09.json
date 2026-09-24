@@ -1,0 +1,26 @@
+{
+  "id": "1283e6dadd41cc09",
+  "name": "Bloody Tentacles",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "wizard": 5
+    },
+    "desc": [
+      "evil"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School necromancy [evil]; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (handful of dirt from a strangled man’s grave)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget all corpses and dying creatures in range\nDuration 1 hour/level\nSaving Throw Fort negates; Spell Resistance yes\n\nDESCRIPTION\n\nWhen this spell is cast, all corpses and dying creatures (those below 0 hit points and disabled) in the spell’s area are affected. Dying creatures are allowed a Fortitude save to avoid the spell’s effects, but slain creatures are not. Those affected by the spell have all the blood drawn from their bodies (killing all those still alive), forming horrible tentacles of clotted, red, black blood. These tentacles always remain in contact with the bodies from which they are drawn, lashing out and flailing at the caster’s foes.\n\nOne tentacle is created per affected corpse, up to a maximum of 1 per caster level. No more than 20 tentacles can ever be created by this spell.\n\nEach tentacle is 10 feet long (Large) and has the same saving throws as the creature from which it was created. Each has AC 15, l hp per HD of the creature from which it was drawn plus 1 hp per 2 caster levels, half the base attack bonus of its host creature, and a Strength of 19 (use these statistics to calculate a tentacle’s CMB and CMD). It is immune to spells that do not cause damage, except for disintegrate, dispel magic, and those spells that can affect water or blood.\n\nEach round that a tentacle is not already grappling someone, starting the round after it appears, it makes a slam attack against a single opponent within reach, dealing 1d6 points of damage and making a grapple attack as a free action. If the tentacle succeeds in its grapple attack, it deals no further damage but begins to drown the target (see “Water Dangers”). As described in the rules, the target can hold his breath for a number of rounds equal to twice his Constitution and may attempt to break the grapple every round. If he fails, he must begin to make Constitution checks as described.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/1283e6dadd41cc09.json",
+    "web": "https://codex.pipsprojects.com/#/e/1283e6dadd41cc09"
+  },
+  "license": "OGL 1.0a"
+}

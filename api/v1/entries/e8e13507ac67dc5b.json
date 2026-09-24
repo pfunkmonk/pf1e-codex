@@ -1,0 +1,28 @@
+{
+  "id": "e8e13507ac67dc5b",
+  "name": "Phobia (4 Winds Fantasy Gaming)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "4 Winds Fantasy Gaming",
+  "book": "4 Winds Fantasy Gaming",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 4
+    },
+    "desc": [
+      "fear",
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "4 Winds Fantasy Gaming"
+  },
+  "body": "School enchantment (compulsion) [fear, mind-affecting]; Level bard 3, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a dead spider)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one creature\nDuration 1 min./level\nSaving Throw Will partial; see text; Spell Resistance yes\n\nDESCRIPTION\n\nThe target suddenly develops a phobia of a creature or object of your choice from the list provided.\n\nWhenever presented with the source of her phobia, the target must make a Will save or be frightened as long as the phobia-inducer is within visual range (with a successful save, she will only be shaken). A frightened target will try to get as far away from the source of her phobia as possible. If the source of her phobia moves within 5 feet of the target, even in a non-threatening manner, the target must make another Will save or be left cowering (with a successful save, she will only be frightened) as long as the source remains in that close proximity.\n\nEach round a creature is within the area of the spell, it is dealt 2d6 points of cold damage (Fortitude save for half). Creatures take this damage on their round if they are within the area at any point during their turn, but take damage only once each turn. For simplicity, unattended inanimate objects are dealt damage once a round at the beginning of the turn of the spell’s caster.\n\nA targeted dispel magic or remove curse will end the effects of phobia.\n\nThe Book of Divine Magic. Copyright 2009, 4 Winds Fantasy Gaming; Authors Connie J. Thomson and Robert W. Thomson, with Katheryn Bauer and Sean O’Connor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e8e13507ac67dc5b.json",
+    "web": "https://codex.pipsprojects.com/#/e/e8e13507ac67dc5b"
+  },
+  "license": "OGL 1.0a"
+}

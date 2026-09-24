@@ -1,0 +1,30 @@
+{
+  "id": "5beb3b25865c20b0",
+  "name": "Slay (death)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "oracle": 6,
+      "druid": 7,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "death",
+      "evil"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School necromancy [death, evil]; Level cleric/oracle 6, druid 7, sorcerer/wizard 6, witch 6\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Fortitude partial; Spell Resistance yes\nTarget Restrictions selected\n\nDESCRIPTION\n\nThe target of a wordspell with this effect word takes 10 points of damage per caster level, to a maximum of 150 points of damage. If this save is successful, the target instead takes 3d6 points of damage + 1 per caster level (maximum +15). A wordspell with this effect word only affects living creatures.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/5beb3b25865c20b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/5beb3b25865c20b0"
+  },
+  "license": "OGL 1.0a"
+}

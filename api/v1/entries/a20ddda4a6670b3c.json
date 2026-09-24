@@ -1,0 +1,25 @@
+{
+  "id": "a20ddda4a6670b3c",
+  "name": "Wasp Sting",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "druid": 2,
+      "occultist": 2,
+      "witch": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level druid 2, occultist 2, witch 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (the wing of a wasp)\n\nEFFECT\n\nRange touch, see text\nTarget a potion or dose of injury poison\nDuration 1 round/level, see text\nSaving Throw none; Spell Resistance no\n\nThe potion or poison you touch is transformed into a large wasp about as wide as your palm.\n\nUpon casting the spell, choose a target creature you can see. The wasp immediately enters that creature’s space and attempts to sting it. It makes a melee touch attack to sting its target, using your bonuses. If it stings the creature, it is injected with the used potion or poison. The potion affects the creature as if consumed, while a poison affects it as if applied by an attack. A creature can choose to be willingly stung by the wasp, should it want to benefit from a transmuted potion. The wasp will not go after a creature that is further than close range (25 ft. + 5 ft./2 levels) away from you. It is fast enough where it can always reach its target within 1 round, as long as there is an available route to it.\n\nThe wasp itself is a tiny object with an AC of 15 and 5 hit points. If destroyed, the spell ends and the potion or poison used is ruined.\n\nIf the wasp fails to sting its target, it can attempt to do so again each round for the duration of the spell until it is successful. You can also redirect it on your turn to sting a different creature (no action required). Once it stings a creature, the wasp immediately returns to your hand and the spell ends, leaving behind only an empty bottle. This also happens if the duration of the spell expires before it manages to sting anything.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a20ddda4a6670b3c.json",
+    "web": "https://codex.pipsprojects.com/#/e/a20ddda4a6670b3c"
+  },
+  "license": "OGL 1.0a"
+}

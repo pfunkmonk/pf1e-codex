@@ -1,0 +1,27 @@
+{
+  "id": "071d11ad49db38cd",
+  "name": "Wall Of Darkness (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "illumination",
+    "lv": {
+      "shadowsworn": 5,
+      "wizard": 5
+    },
+    "desc": [
+      "shadow"
+    ],
+    "save": "special",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School illumination (evocation) [shadow]; Level shadowsworn 5, sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents S\n\nEFFECT\n\nRange Medium (100 ft. + 10 ft./level)\nDuration concentration plus 1 round/level (D)\nSaving Throw see text; Spell Resistance yes\n\nDESCRIPTION\n\nYou conjure a wall up to 10 ft. tall and 10 ft. long per level, or a sphere or hemisphere with a radius of 5 ft. plus 1 ft. per level. A wall of darkness cannot be seen through with any sort of vision, magical or otherwise, including divination spells up to 5th level.\n\nWhile dimension door and similar spells can bypass the wall, anyone who attempts to physically pass through it immediately sustains 3d6 + 1 hp/caster level (maximum +20) hp cold damage and must make a Fortitude check or take 1 point of Strength damage.\n\nIf the spherical or hemispherical construction of the wall is used to trap a victim, then a Reflex save allows the victim to avoid imprisonment.\n\nA light spell can weaken a wall of darkness, reducing damage sustained by those passing through it to 1d6 +1 hp/caster level and eliminating the Strength damage. The damage reduction and elimination lasts only 1 round.\n\nDaylight completely negates a wall of darkness for 1 round.\n\nSunburst dispels a wall of darkness.\n\nA wall of darkness can be made permanent with a permanency spell. This costs 5,000 gp and requires minimum caster level 10th.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/071d11ad49db38cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/071d11ad49db38cd"
+  },
+  "license": "OGL 1.0a"
+}

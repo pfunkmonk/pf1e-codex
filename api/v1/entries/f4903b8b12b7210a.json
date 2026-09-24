@@ -1,0 +1,25 @@
+{
+  "id": "f4903b8b12b7210a",
+  "name": "Barricade",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "magus": 2,
+      "psychic": 2,
+      "wizard": 2
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School transmutation; Level magus 2, psychic 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S\n\nEFFECT\n\nRange personal\nTarget self\nDuration 1 round/level (D) or until discharged\n\nDESCRIPTION\n\nYou manipulate your gravity field and shape it into the form of a transparent barrier that surrounds you, protecting you from weapon attacks delivered by spells, firearms, and ranged weapons. The impact from such attacks on the barrier are visible in some fashion.\n\nAny bludgeoning, piercing, or slashing damage dealt to you from a ranged attack or ranged spell is reduced by 1 for every 2 caster levels. While this effect is similar to DR, it does not count as DR for the purpose of how it interacts with other effects that increase or bypass DR, and it does not stack with other external effects outside of your body that reduce damage dealt from ranged attacks.\n\nThe protection provided by barricade can only reduce up to a total amount of damage equal to 20 + twice your caster level. Once the total is reached or exceeded, any reduced amount over the total is dealt normally and the barrier is overloaded and the spell ends.\n\nBarricade does not protect against melee attacks, energy damage (such as fire or electricity), thrown improvised weapons (including items dropped on you), and environmental hazards. Subsequent castings of barricade on yourself while an on-going barricade is still active will only reset the duration of its effects, not how much damage it can absorb.\n\nContact Other Plane: World of Mass Effects I, © 2025, Orphaned Bookworm Productions; Author: Connor Bates and Paulo César Viola da Silva Maia",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f4903b8b12b7210a.json",
+    "web": "https://codex.pipsprojects.com/#/e/f4903b8b12b7210a"
+  },
+  "license": "OGL 1.0a"
+}

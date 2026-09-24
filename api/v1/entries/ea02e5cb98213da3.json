@@ -6,20 +6,21 @@
   "source": "Orphaned Bookworm Productions",
   "book": "Orphaned Bookworm Productions",
   "facets": {
-    "sch": "transmutation",
+    "sch": "evocation",
     "lv": {
-      "druid": 3,
-      "ranger": 3,
-      "shaman": 3
+      "druid": 4,
+      "shaman": 4,
+      "wizard": 4,
+      "witch": 4
     },
     "desc": [
       "cold"
     ],
-    "save": "special",
+    "save": "None",
     "sr": "no",
     "bk": "Orphaned Bookworm Productions"
   },
-  "body": "School transmutation [cold]; Level druid 3, ranger 3, shaman 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange personal\nArea 10-ft. radius\nDuration 1 round/level (D)\nSaving Throw Fort negates; Spell Resistance no\n\nDESCRIPTION\n\nYou freeze the air around you, frost dancing across their features. When you cast this spell frost seems to hang in the air around you. You gain fire resistance 20 and all creatures within 10 feet of you take 4d6 cold damage and become fatigued at the beginning of their turn. A successful Fortitude save halves the damage and negates the fatigued condition.\n\nBreath of Life: The Scout, © 2024, Orphaned Bookworm Productions, LLC, Authors: Norman Mitchell Jr. and Connor Bates",
+  "body": "School evocation [cold]; Level druid 4, shaman 4, sorcerer/wizard 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange 30 ft.\n\nArea aura centered on you\nDuration 1 round/level (D)\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nYou create an aura of frost. All creatures within the aura take a -5 penalty on saving throws against spells or effects with the cold descriptor or that deal cold damage. Additionally, all cold damage in the area is increased by 3 per cold damage dice dealt.\n\nEar Piercing Scream, Part Deux © 2026, Orphaned Bookworm Productions; Author: Connor Bates",
   "links": {
     "api": "https://codex.pipsprojects.com/api/v1/entries/ea02e5cb98213da3.json",
     "web": "https://codex.pipsprojects.com/#/e/ea02e5cb98213da3"

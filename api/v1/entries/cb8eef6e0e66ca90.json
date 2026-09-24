@@ -1,0 +1,28 @@
+{
+  "id": "cb8eef6e0e66ca90",
+  "name": "Buoyancy (Frog God Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "druid": 1,
+      "wizard": 1
+    },
+    "desc": [
+      "water"
+    ],
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School transmutation [water]; Level cleric/oracle 1, druid 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (a small white ring)\n\nEFFECT\n\nRange touch\nTarget one creature touched\nDuration 10 minutes/level\nSaving Throw Fortitude (harmless); Spell Resistance yes\n\nDESCRIPTION\n\nNormally cast upon a drowning companion, buoyancy causes the target to become lighter than the surrounding liquid. The target either rises to the surface of any surrounding water (at a rate of 10 feet per round) or floats on the surface of the water regardless of encumbrance or armor.\n\nThe target is in no way granted any additional mobility or breathing benefits while in the water. This spell only keeps the subject from sinking.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/cb8eef6e0e66ca90.json",
+    "web": "https://codex.pipsprojects.com/#/e/cb8eef6e0e66ca90"
+  },
+  "license": "OGL 1.0a"
+}

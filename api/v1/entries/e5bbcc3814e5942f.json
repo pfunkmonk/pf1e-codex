@@ -1,0 +1,26 @@
+{
+  "id": "e5bbcc3814e5942f",
+  "name": "Fire Burst (Frog God Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 1
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School evocation [fire]; Level sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (existing fire source)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nArea 10-ft.-radius circle\nDuration instantaneous\nSaving Throw Reflex negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause an existing fire source (ranging in size from a candle to a bonfire) to release arrows of flame outward in all directions, centered on the fire source. Creatures within 10 feet take 1 point of fire damage per caster level (maximum 10 points). A creature that makes a successful saving throw suffers no damage.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e5bbcc3814e5942f.json",
+    "web": "https://codex.pipsprojects.com/#/e/e5bbcc3814e5942f"
+  },
+  "license": "OGL 1.0a"
+}

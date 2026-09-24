@@ -1,0 +1,27 @@
+{
+  "id": "6bc434d9b7e9ea6f",
+  "name": "Caustic Cloud (acid)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "wizard": 7,
+      "witch": 6
+    },
+    "desc": [
+      "acid"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School conjuration (creation) [acid]; Level sorcerer/wizard 7, witch 6\n\nEFFECT\n\nDuration 1 round/level\nSaving Throw Fortitude half; Spell Resistance no\nTarget Restrictions Burst\n\nDESCRIPTION\n\nA wordspell with this effect word creates a cloud of noxious green vapor that obscures vision. Creatures caught in the cloud take 1d6 points of acid damage per caster level (maximum 20d6) and are fatigued. Creatures caught in the cloud receive a Fortitude save to halve the damage and to negate the fatigued effect. Creatures that remain in the cloud take a cumulative -2 penalty on the save each round they remain in the cloud, but spending just one round outside the cloud’s area resets this penalty. Creatures in the cloud that are fatigued become exhausted on a failed saving throw. A strong wind, such as that created by a gust of wind, disperses this cloud immediately.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/6bc434d9b7e9ea6f.json",
+    "web": "https://codex.pipsprojects.com/#/e/6bc434d9b7e9ea6f"
+  },
+  "license": "OGL 1.0a"
+}

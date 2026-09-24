@@ -1,0 +1,30 @@
+{
+  "id": "0ef8c5319e7f79bd",
+  "name": "Detect Metals And Ores",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "alchemist": 1,
+      "elementer": 1,
+      "ranger": 1,
+      "wizard": 1,
+      "vanguard": 1
+    },
+    "desc": [
+      "metal"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School divination [metal]; Level alchemist 1, elementer 1, ranger 1, sorcerer/wizard 1, vanguard 1\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a small bit of iron ore)\n\nEFFECT\n\nRange 60 ft. or long (400 ft. + 40 ft./level), see text\nArea cone-shaped emanation\nDuration concentration, up to 1 min./level\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell allows you to detect metal within its area, either worked or unrefined. When you cast detect metals and ores, you must designate whether you want to find either metal or metal ore. The spell functions differently depending on your choice.\n\nIf you choose to detect metal, the spell detects all worked metal in a 60-foot cone. This includes weapons, armor, doors, tools, constructs, and so on that are made of a refined metal or metal alloy. This version of the spell can penetrate barriers, but 3 feet of wood or dirt or 1 foot of stone blocks it.\n\nIf you choose to detect ores, the spell detects all unrefined metal within a long range (400 ft. + 40 ft./level). This version is not blocked by barriers, wood, dirt, or stone, but can only detect unrefined ore, whether it has been mined or is still in the ground. Metal that has been smelted down or refined in any way is not detected by this version of the spell.\n\nWith either choice, you can choose to detect a specific form of metal (such as iron, mithral, or gold), in which case the spell only shows you the location of that metal and no others.\n\nPaths of Magic, © 2021, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/0ef8c5319e7f79bd.json",
+    "web": "https://codex.pipsprojects.com/#/e/0ef8c5319e7f79bd"
+  },
+  "license": "OGL 1.0a"
+}

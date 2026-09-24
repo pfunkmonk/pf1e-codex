@@ -1,0 +1,28 @@
+{
+  "id": "8adc6f3b41541bc0",
+  "name": "Flaming Bolt (Louis Porter Jr)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Louis Porter Jr",
+  "book": "Louis Porter Jr",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "cleric": 3,
+      "machinesmith": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "fire"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Louis Porter Jr"
+  },
+  "body": "School evocation [fire]; Level cleric 3 (Cult of the Dragon), machinesmith 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget 1 projectile/2 caster levels\nDuration up to 1 round/level\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nWhen casting this spell, the caster touches a number of pieces of ammunition. Each piece of ammunition (can be arrows, bolts, or bullets) can then be fired, dealing 1 point of fire damage per caster level (maximum +10). The fire is subject to spell resistance.\n\nOnce fired, whether they hit or miss, the magic is gone.\n\nClasses of NeoExodus: Machinesmith Copyright 2012, Louis Porter Jr. Design, Inc.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8adc6f3b41541bc0.json",
+    "web": "https://codex.pipsprojects.com/#/e/8adc6f3b41541bc0"
+  },
+  "license": "OGL 1.0a"
+}

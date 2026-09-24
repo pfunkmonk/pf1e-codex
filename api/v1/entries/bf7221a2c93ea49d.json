@@ -1,0 +1,28 @@
+{
+  "id": "bf7221a2c93ea49d",
+  "name": "Leeching Spores",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "conjuration",
+    "lv": {
+      "druid": 6,
+      "shaman": 6
+    },
+    "desc": [
+      "acid",
+      "plant"
+    ],
+    "save": "Fort",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School conjuration (creation) [acid, plant]; Level druid 6, shaman 6\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect 20-ft.-radius cloud of spores, 20 ft. high\nDuration 1 round/level\nSaving Throw Fortitude half; Spell Resistance no\n\nThe air turns a sickly green haze as it fills with countless parasitic fungal spores, sapping the strength of creatures caught within. Any creature that enters into or starts their turn inside the cloud of leeching spores takes acid damage equal to 3d6 + half your caster level (max +10) as the spores absorb nutrients and energy from their bodies. A Fortitude save halves the damage for that round only.\n\nThe spores transfer their absorbed energy to you, granting you temporary hit points equal to half the damage dealt to each creature each round. The temporary hit points from this spell are cumulative, up to twice your caster level in total. The spores cannot grant you more temporary hit points than a damaged creature had remaining. The temporary hit points last for 1 hour.\n\nWhile the cloud of spores cause everything to take on a green coloration, it does not otherwise hinder vision.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/bf7221a2c93ea49d.json",
+    "web": "https://codex.pipsprojects.com/#/e/bf7221a2c93ea49d"
+  },
+  "license": "OGL 1.0a"
+}

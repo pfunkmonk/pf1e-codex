@@ -1,0 +1,17 @@
+{
+  "id": "9b15521c350715cd",
+  "name": "Fire Fish",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "Rappan Athuk",
+  "book": "Rappan Athuk",
+  "facets": {
+    "bk": "Rappan Athuk"
+  },
+  "body": "Fire Fish\nCR 1\n\nXP 400\nN Small animal (aquatic*, fire)\nInit +6; Senses low-light vision, tremorsense 10 ft.; Perception +7; Aura heat (5 ft. radius)\n\nDEFENSE\n\nAC 14, touch 12, flat-footed 13 (+1 Dex, +2 natural, +1 size)\nhp 13 (3d8)\nFort +3; Ref +5; Will +2\nImmune fire\nWeaknesses vulnerability to cold\n\nOFFENSE\n\nSpeed swim 40 ft.\nMelee slam –1 (1d4–4 plus heat)\nSpecial Attacks heat (1d4 fire damage)\n\nSTATISTICS\n\nStr 3, Dex 14, Con 10, Int 1, Wis 12, Cha 5\nBase Atk +2; CMB +0; CMD 12\nFeats Alertness, Improved Initiative\nSkills Perception +7, Sense Motive +3, Swim +15; Racial Modifiers modifies Swim with Dex\n\nECOLOGY\n\nEnvironment Plane of Fire\nOrganization solitary or school (4–80)\nTreasure none\n\nAquatic firefish can swim and breathe in molten lava as easily as a regular fish in water. They are ‘aquatic’ only in the sense that their natural environment is lava instead of water.\n\nRappan Athuk Copyright 2012 Bill Webb, Frog God Games",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/9b15521c350715cd.json",
+    "web": "https://codex.pipsprojects.com/#/e/9b15521c350715cd"
+  },
+  "license": "OGL 1.0a"
+}

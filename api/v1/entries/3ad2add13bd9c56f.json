@@ -1,0 +1,30 @@
+{
+  "id": "3ad2add13bd9c56f",
+  "name": "Expose, Greater",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "elementer": 5,
+      "magus": 5,
+      "occultist": 5,
+      "wizard": 6,
+      "witch": 6
+    },
+    "desc": [
+      "curse"
+    ],
+    "save": "None",
+    "sr": "no",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation [curse]; Level elementer 5, magus 5, occultist 5, sorcerer/wizard 6, witch 6\n\nEFFECT\n\nRange medium (100 ft. + 10 ft./level)\n\nThis spell acts as expose, except you can choose one of the following penalties to inflict:\n\nThe target takes a -6 penalty to its AC\nThe target takes a -4 penalty to all saving throws.\nThe target’s Damage Reduction and/or hardness (if any) is reduced by 10.\nThe target’s Spell Resistance is lowered by 10.\nAll energy resistances the target has are reduced by 15. If the creature has immunity to a damage type, it instead is treated as having resistance 20 against that energy type for the duration of this spell (this resistance is not further lowered by greater expose). A creature with a subtype that matches its energy resistance is not affected by this (for example, a creature with the cold subtype cannot lose its immunity to cold).\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/3ad2add13bd9c56f.json",
+    "web": "https://codex.pipsprojects.com/#/e/3ad2add13bd9c56f"
+  },
+  "license": "OGL 1.0a"
+}

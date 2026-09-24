@@ -1,0 +1,25 @@
+{
+  "id": "d62a758ec37b2aec",
+  "name": "Blood Armor (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "necromancy",
+    "lv": {
+      "inquisitor": 2,
+      "wizard": 2,
+      "witch": 2
+    },
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School necromancy; Level inquisitor 2, sorcerer/wizard 2, witch 2\n\nCASTING\n\nCasting Time 1 swift action\nComponents V, S, F (foe you have struck with a melee weapon within 1 round)\n\nEFFECT\n\nRange personal\nTarget you\nDuration 10 min./level\nSaving Throw Fortitude special (object); Spell Resistance yes\n\nDESCRIPTION\n\nWhen you successfully strike a creature with a melee weapon and deal damage to it, you can cast blood armor as a swift action. The blood flowing from your foe magically increases in volume and forms a suit of plate armor around you, granting you a +6 armor bonus to AC for the spell’s duration. Additionally the armor prevents any of your own blood from flowing too copiously, making you immune to bleed effects.\n\nUnlike mundane armor, blood armor has no armor check penalty, arcane spell failure chance, or speed reduction. Unlike mage armor, blood armor is not a force effect and thus incorporeal creatures can bypass it normally.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/d62a758ec37b2aec.json",
+    "web": "https://codex.pipsprojects.com/#/e/d62a758ec37b2aec"
+  },
+  "license": "OGL 1.0a"
+}

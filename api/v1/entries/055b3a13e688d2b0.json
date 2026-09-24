@@ -1,0 +1,19 @@
+{
+  "id": "055b3a13e688d2b0",
+  "name": "Bastion (Path of Iron)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Will",
+    "sr": "no",
+    "bk": "Path of Iron"
+  },
+  "body": "Design creation (healing); Level 8\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange 20 ft.\nArea 20-ft.-radius sphere, centered on you\nDuration 1 min./level (D)\nSaving Throw Will partial; Spell Resistance no\n\nDESCRIPTION\n\nBastion creates an immobile sphere of protective energies that shields allies within its area. This has several effects.\n\nFirst, the sphere blocks any attempt to project something through it, including weapon attacks, gaze attacks, breath weapons, and spells. It blocks line of effect, but does not block line of sight.\n\nSecond, a creature that tries to enter into the area of the bastion must succeed at a Will save to do so; otherwise, it is unable to enter the area for the duration of bastion. Creatures that succeed on their saving throw do not have to save again should they leave the area of the bastion and want to re-enter.\n\nThird, allies within the bastion gain fast healing 1 so long as they remain inside the area.\n\nThe area is a full sphere that extends through surfaces, so creatures cannot circumvent it by burrowing through the ground or turning incorporeal and moving under it. Teleportation into the area, however, is still possible.\n\nA bastion spell cannot be dispelled or negated, nor can an antimagic field or negation field stop it. However, mage’s disjunction or a rod of cancellation can destroy a bastion.\n\nOverload: For every runic charge overloaded into this script, the save DC increases by +1. In addition, the bastion gains additional effects when certain charge designs are used:\n\nAlteration: Allies in the area receive DR 5/adamantine so long as they remain in the area.\nCreation: The fast healing increases by 1. This effect stacks.\nInvocation: All energy damage dealt inside the bastion is reduced by 10. This effect stacks.\nManipulation: Creatures can no longer teleport into the area of the bastion, as if it were under the effect of a dimensional lock spell. Teleportation effects cast while already inside of the bastion are not hindered.\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/055b3a13e688d2b0.json",
+    "web": "https://codex.pipsprojects.com/#/e/055b3a13e688d2b0"
+  },
+  "license": "OGL 1.0a"
+}

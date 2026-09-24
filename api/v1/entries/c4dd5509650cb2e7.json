@@ -1,0 +1,23 @@
+{
+  "id": "c4dd5509650cb2e7",
+  "name": "Prismatic Ray (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "wizard": 5
+    },
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School evocation; Level sorcerer/wizard 5\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nEffect ray\nRange Medium (100 ft. + 10 ft./level)\nDuration instantaneous or 1 round per level\nSaving Throw Reflex half or Fort negates; see text; Spell Resistance yes\n\nDESCRIPTION\n\nA ray of light made of shifting color springs from your hand. Its effect varies depending on which color is dominant when the beam strikes its target; the ray may inflict damage as listed below, or it may impose a condition on the target.\n\nMaximum damage is always 15d6 hp. Conditions inflicted by the green, blue, violet, and multi-colored rays last 1 round per caster level. A successful save halves the damage or negates the effect, whichever is applicable.\n\nOn a critical hit, the caster may choose the color of the beam which hits the target. Otherwise, roll a d8 to determine the ray’s effects, as listed below.\n\nTable 2-12: Prismatic Ray Beams\nd8\tRay color\tEffect\tSave\n1\tRed\t1d6 hp fire damage/level\tReflex\n2\tOrange\t1d6 hp acid damage/level\tReflex\n3\tYellow\t1d6 hp electricity damage/level\tReflex\n4\tGreen\tTarget is nauseated\tFortitude\n5\tBlue\tTarget is staggered\tFortitude\n6\tIndigo\tTarget is panicked\tFortitude\n7\tViolet\tTarget is stunned\tFortitude\n8\tMulticolored\tTarget is blinded\tFortitude\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4dd5509650cb2e7.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4dd5509650cb2e7"
+  },
+  "license": "OGL 1.0a"
+}

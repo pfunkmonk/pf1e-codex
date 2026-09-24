@@ -1,0 +1,27 @@
+{
+  "id": "c5f134bbc31c4f3b",
+  "name": "Uncontrollable Rage",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "bard": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "chaotic"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [chaotic]; Level bard 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nTarget one humanoid; see text\nDuration 1 round/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThe affected creature explodes in a frothing lunatic frenzy, immediately attacking the nearest creature, friend or foe.\n\nWhile under the effect of uncontrollable rage, the target gains a +4 bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a –4 penalty to AC. In addition, whenever the target successfully hits a creature, that creature must make a saving throw against the spell’s DC or become enraged itself. Subsequently affected creatures gain the same bonuses and penalties as the initial target, and their attacks can cause other creatures to become enraged as well. There is thus no limit to the total number of targets that can be affected by uncontrollable rage, but the effect ends in all creatures when the spell’s duration expires.\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c5f134bbc31c4f3b.json",
+    "web": "https://codex.pipsprojects.com/#/e/c5f134bbc31c4f3b"
+  },
+  "license": "OGL 1.0a"
+}

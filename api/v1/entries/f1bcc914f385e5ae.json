@@ -1,0 +1,36 @@
+{
+  "id": "f1bcc914f385e5ae",
+  "name": "Spite (Orphaned Bookworm Productions)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Orphaned Bookworm Productions",
+  "book": "Orphaned Bookworm Productions",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "adept": 1,
+      "antipaladin": 1,
+      "bard": 1,
+      "inquisitor": 1,
+      "lathspell": 1,
+      "legendary ninja": 1,
+      "mesmerist": 1,
+      "psychic": 1,
+      "shaman": 1,
+      "wizard": 1,
+      "witch": 1
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Orphaned Bookworm Productions"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level adept 1, antipaladin 1, bard 1, inquisitor 1, lathspell 1, legendary ninja 1, mesmerist 1, psychic 1, shaman 1, sorcerer/wizard 1, witch 1\n\nCAST\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels.\n\nTargets one creature, and a target creature\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou cause a target creature to look upon another creature with dislike and distrust. The target’s attitude for the secondary target is reduced by 2 levels, however a hostile creature will not be driven to attack unless given other reasons to do so. If the target was an ally or friendly with the secondary target, they receive a +5 bonus on its saving throw.\n\nWhile the spell is active the target’s disposition can be increased by use of Diplomacy skill but the DC to do so is increased by your caster level. At the end of the time, the target’s disposition to the secondary target will increase by two levels to a maximum of friendly.\n\nSpite counters any spell with the charm descriptor of its spell level or lower. Spite is countered by charm spells of its spell level or higher.\n\nSpite, Mass\n\nSchool enchantment (compulsion) [mind-affecting]; Level adept 4, antipaladin 4, bard 4, inquisitor 4, lathspell 4, legendary ninja 4, mesmerist 4, psychic 5, shaman 5, sorcerer/wizard 5, witch .\n\nTargets one or more humanoid creatures, no two of which can be more than 30 ft. apart\n\nDESCRIPTION\n\nThis spell functions like spite, except that it affects a number of humanoid creatures whose combined Hit Dice don’t exceed twice your level. If there are more potential targets than you can affect, you choose them one at a time until you reach the limit of HD you can affect. If you target only one creature, you ignore the spell’s HD limit.\n\nEar Piercing Scream, © 2024, Orphaned Bookworm Productions, LLC, Author: Connor Bates.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f1bcc914f385e5ae.json",
+    "web": "https://codex.pipsprojects.com/#/e/f1bcc914f385e5ae"
+  },
+  "license": "OGL 1.0a"
+}

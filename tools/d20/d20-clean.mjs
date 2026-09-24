@@ -458,7 +458,10 @@ export function isCategoryRoot(children, crumb, chars, body, title) {
  * (Filter)": "...if you can't see the spell filter, please click here to open it in a new window") —
  * same class of stub, different wording ("open it" not "open this", mid-sentence not line-initial). */
 export function isToolLinkPage(body) {
-  return body.split("\n").some((l) => /embedded frame|open (this|it) in a new (window|page)\b/i.test(l.trim()));
+  // "If you have problems with the embedded version, please click here…" (a Google-widget page, batch 11) and a short page that is
+  // only a pointer to the Open Gaming Store ("Adventures": "Check out some adventures available now in the Open Gaming Store…").
+  if (String(body).length < 400 && /Open Gaming Store/i.test(body)) return true;
+  return body.split("\n").some((l) => /embedded frame|embedded version, please click here|open (this|it) in a new (window|page)\b/i.test(l.trim()));
 }
 /* A CATALOG page is a single page that is actually MANY separate items — an equipment or goods table
  * (Animals & Animal Gear, Armor and Shields) rather than one entry. It has no child links (the rows are a
@@ -607,6 +610,8 @@ export function isCatalogPage(bucket, chars, ls, body, title) {
   //    lines ("Barreling Overrun<TAB>Str 13...<TAB>Combat" / "<TAB>AF:CC"), so no tab run reaches 40. Every feat in the
   //    table has its own page. The preamble text is the template's fingerprint.
   if (/Feats are summarized on the table below|The following table lists all feats, showing prerequisites in tree form/.test(body)) return true;
+  // 1b. The one-sentence category blurb on "Combat Feats – 3rd Party – <Publisher>" hub pages (batch 11).
+  if (body.length < 800 && /Any feat designated as a combat feat can be selected as a fighter/.test(body)) return true;
   // 2. A bare "Subpages" stub ("Drop Dead Studios": a Subpages heading and two link names): once the link list is
   //    removed almost nothing is left. Measured on the page's OWN text, not its length — "Dolphin" and "Doctrine of Pack"
   //    are short too but carry real text beside their subpage list.
@@ -632,6 +637,12 @@ export function isCatalogPage(bucket, chars, ls, body, title) {
   return tabPriced >= 3;
 }
 
+/* ---- catalogs that are the ONLY home of their rows ------------------------------------------------
+ * d20-xref-coverage.mjs lists catalog pages whose table rows exist nowhere else in the Codex (equipment lists, talent
+ * lists, summoning tables). They are imported as ONE table-page entry each (the app renders tab rows as real tables)
+ * instead of being dropped. Absent file = no overrides. */
+const CATALOG_KEEP = new Set((() => { try { return JSON.parse(fs.readFileSync(`${SNAP}/catalog-keep.json`, "utf8")); } catch { return []; } })());
+
 /* ---- run ----------------------------------------------------------------------------------- */
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}` || process.argv[1]?.endsWith("d20-clean.mjs")) {
   const files = fs.readdirSync(`${SNAP}/pages`).filter((f) => f.endsWith(".txt")).sort();
@@ -647,7 +658,7 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}` || proc
       : isCategoryRoot(p.children, p.crumb, p.body.length, p.body, p.nameRaw) ? "index"
       : bucket === "spells" && p.crumb.includes("Spells by Class") ? "index"
       : isToolLinkPage(p.body) ? "stub"
-      : isCatalogPage(bucket, p.body.length, ls, p.body, p.nameRaw) ? "catalog"
+      : (isCatalogPage(bucket, p.body.length, ls, p.body, p.nameRaw) && !CATALOG_KEEP.has(f)) ? "catalog"
       : kindOf(p.body, p.crumb);
     const titleTag = (p.head.TITLE || "").replace(/\s+[–-]\s+d20PFSRD$/i, "");
     // LAST RESORT, entries only: every third-party page found in this pipeline carried SOME marker

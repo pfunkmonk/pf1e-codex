@@ -1,0 +1,27 @@
+{
+  "id": "dbdf148ca073bfed",
+  "name": "Charm Animal, Mass (Frog God Games)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Frog God Games",
+  "book": "Frog God Games",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "druid": 4,
+      "ranger": 4
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Frog God Games"
+  },
+  "body": "School enchantment (charm) [mind-affecting]; Level druid 4, ranger 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V\nTarget one or more animals, no two of which can be more than 30 ft. apart\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nThis spell functions like charm animal, except that mass charm animal affects a number of animals who’s combined HD do not exceed twice your level, or at least one animal regardless of HD. If there are more potential targets than you can affect, you choose them one at a time until you choose a creature with too many HD.\n\nBook of Lost Spells – Copyright 2015, Frog God Games, LLC",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/dbdf148ca073bfed.json",
+    "web": "https://codex.pipsprojects.com/#/e/dbdf148ca073bfed"
+  },
+  "license": "OGL 1.0a"
+}

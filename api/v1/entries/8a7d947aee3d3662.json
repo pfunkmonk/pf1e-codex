@@ -1,0 +1,17 @@
+{
+  "id": "8a7d947aee3d3662",
+  "name": "Leshy, Gourd",
+  "bucket": "monsters",
+  "category": "Monsters",
+  "source": "We Be Leshys",
+  "book": "We Be Leshys",
+  "facets": {
+    "bk": "We Be Leshys"
+  },
+  "body": "GOURD LESHY\nCR 5\n\nThis little plant person walks on legs like tangle vines and has a pumpkin carved with eyes and a mouth for a head. A fiery gleam in its left eye socket suggests something more dangerous than a simple jack-o’-lantern.\n\nXP 1,600\nNE Small plant (leshy)\nInit +6; Senses darkvision 60 ft., low-light vision; Perception +0\n\nDEFENSE\n\nAC 16, touch 14, flat-footed 13 (+2 Dex, +1 dodge, +2 natural, +1 size)\nhp 31 (7d8)\nFort +5, Ref +4, Will +2\nImmune electricity, plant traits, sonic; Resist fire 5\n\nOFFENSE\n\nSpeed 20 ft.\nMelee slam +8 (1d4-2)\nRanged seed +8 (1d4)\nSpecial Attacks ensnare, seed, verdant channel 3/day (4d6)\nSorcerer Spells Known (CL 7th; concentration +10)\n\n3rd (4/day)—fireball (DC 15), fly\n2nd (7/day)—create pit (DC 14), darkness, scorching ray (DC 15)\n1st (7/day)—burning hands (DC 13), charm person (DC 13), color spray (DC 13), grease, mage armor\n0th (at will)—dancing lights, daze (DC 12), detect magic, flare (DC 12), mage hand, message, spark (DC 12)\n\nSpell-Like Abilities (CL 7th; concentration +10)\n\nAt-Will—tree shape (small pumpkin only)\nConstant—pass without trace, speak with plants\n\nSTATISTICS\n\nStr 6, Dex 15, Con 11, Int 10, Wis 11, Cha 15\nBase Atk +5; CMB +2; CMD 15\nFeats Dodge, Eschew Materials, Improved Initiative, Weapon Finesse\nSkills Bluff +9, Spellcraft +7, Stealth +6 (+10 Stealth in forest), Survival +0 (+4 Survival in forest); Racial Modifiers +4 Stealth and Survival in forests\nLanguages Common, Druidic, Sylvan\n\nSPECIAL ABILITIES\n\nEnsnare (Ex)\n\nA gourd leshy’s seeds and slam attack entangle the target in vines for 2d4 rounds unless the target makes a DC 13 Reflex save. The target can attempt to burst these entangling vines before the duration expires with a DC 13 Strength check as a full-round action. The save and burst DCs are Constitution-based.\n\nSeed (Ex)\n\nA gourd leshy can hurl its seeds as a ranged attack. If it hits, this attack deals 1d4 point of damage (this damage is not modified by Strength) and affects the target with it’s ensnare ability. This attack has a 20-foot range increment.\n\nVerdant Channel (Ex)\n\nA gourd leshy can channel verdant energy to a range of 30 feet. This acts as channel positive energy, but it can only heal plant creatures and deals no damage to undead.\n\nWe Be Leshys Copyright 2025 Zenith Games Authors Mike Welham and Jeff Gomez",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/8a7d947aee3d3662.json",
+    "web": "https://codex.pipsprojects.com/#/e/8a7d947aee3d3662"
+  },
+  "license": "OGL 1.0a"
+}

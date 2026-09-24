@@ -1,0 +1,24 @@
+{
+  "id": "91cf13017809e9c2",
+  "name": "Earthskin (Rite Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "druid": 2,
+      "wizard": 2
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration; Level druid 2, sorcerer/wizard 2\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 min./level or until discharged\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThe warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains DR 5/magic. It ignores the first 5 points of damage each time it takes damage from a weapon, though a magic weapon bypasses the reduction. Once the spell has prevented a total of 5 points of damage per caster level (maximum 50 points), it is discharged.\n\n101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/91cf13017809e9c2.json",
+    "web": "https://codex.pipsprojects.com/#/e/91cf13017809e9c2"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c5500a2d9f02cc9f",
+  "name": "Armor of Light (Rite Publishing)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "abjuration",
+    "lv": {
+      "oracle": 3,
+      "paladin": 3,
+      "wizard": 3
+    },
+    "desc": [
+      "light"
+    ],
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Rite Publishing"
+  },
+  "body": "School abjuration [light]; Level cleric/oracle 3, paladin 3, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, M (a small mirror)\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 1 round/level (D)\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nDESCRIPTION\n\nThis spell causes the creature touched to radiate light from every part of her body. She sheds bright light to a radius of 30 feet and shadowy light an additional 30 feet beyond that. Looking directly at the target creature is difficult, granting concealment to the target (20% miss chance) and dazzling anybody who looks directly at the target for 1d6 rounds (Will negates). If a creature looks at the target more than once, she will be re-dazzled. The durations of the dazzle effects do not stack but are renewed whenever the creature becomes re-dazzled. The armor of light also provides a +1 deflection bonus to AC per four caster levels (to a maximum of +5 at 20th level).\n\nSection 15: Copyright Notice – 101 3rd Level Spells 101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c5500a2d9f02cc9f.json",
+    "web": "https://codex.pipsprojects.com/#/e/c5500a2d9f02cc9f"
+  },
+  "license": "OGL 1.0a"
+}

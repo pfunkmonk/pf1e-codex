@@ -1,0 +1,26 @@
+{
+  "id": "53d160e947c13eb5",
+  "name": "Khan’s Command",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Rite Publishing",
+  "book": "Rite Publishing",
+  "facets": {
+    "sch": "enchantment",
+    "lv": {
+      "wizard": 8
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "None",
+    "sr": "yes",
+    "bk": "Rite Publishing"
+  },
+  "body": "School enchantment (compulsion) [mind-affecting]; Level sorcerer/wizard 8\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, M (2,000 gp diamond)\n\nEFFECT\n\nRange unlimited\nTarget one named creature\nDuration see text\nSaving Throw none; Spell Resistance yes\n\nDESCRIPTION\n\nA specific creature you name (a creature without a name is immune) must travel, using its fastest means possible (including magical items or spells if prepared or available), to appear before you, standing close enough to touch. Once the creature arrives at that spot, the spell ends.\n\nThe creature may have to go through threatened or dangerous areas (passing by guards or moving through a wall of fire) or may even have to break through a barrier (like a wall of ice) to get to you. A barrier that requires more than 10 rounds to get through is considered impassable for the purposes of this spell. The spell ends immediately if the creature physically cannot reach you-including a situation forcing the creature to pass through an area that would, without a doubt, kill it. For example, a creature with only 25 hp that must navigate a pool of lava to reach you is unaffected by the spell, as is a creature on another plane that has no planar travel ability. If you cast the spell and then move to a spot where the creature cannot reach you, you have freed it from the compulsion.\n\nWhile under the effects of protection from evil or a similar spell, the subject can ignore the compulsion, but such a ward does not prevent establishing khan’s command, nor dispel it.\n\nPathways Bestiary (c) 2017, Rite Publishing LLC.; Author: Steven D. Russell.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/53d160e947c13eb5.json",
+    "web": "https://codex.pipsprojects.com/#/e/53d160e947c13eb5"
+  },
+  "license": "OGL 1.0a"
+}

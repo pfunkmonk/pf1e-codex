@@ -1,0 +1,26 @@
+{
+  "id": "e082d307ac4bf060",
+  "name": "Storm Master (weather)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 7,
+      "druid": 7,
+      "wizard": 7,
+      "witch": 7
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School transmutation; Level cleric/oracle 7, druid 7, sorcerer/wizard 7, witch 7\n\nEFFECT\n\nDuration 1 hour/level (D)\nSaving Throw none; Spell Resistance no\nTarget restrictions personal\n\nDESCRIPTION\n\nA word spell with this effect word grants the target the ability to alter the weather around it in a 1-mile radius. The target can change the conditions by shifting the weather one step at a time up or down a scale of weather effects. The scale is as follows: freezing cold, blizzard, snow, cold rain, cold wind, calm, warm wind, warm rain, thunderstorm, tornado, extreme heat. Each change takes 10 minutes to fully take effect. Thus if the weather currently features warm wind and the caster wanted to change that to cold wind, she would need to first change the weather to calm, and then to cold wind. The target cannot control the specifics of the weather, merely what type of weather is occurring (the target cannot, for example, make lightning strike a house, but it can cause lighting to strike within the area).\n\nBoost: Each change in the weather takes only 5 minutes.\n\nComments\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/e082d307ac4bf060.json",
+    "web": "https://codex.pipsprojects.com/#/e/e082d307ac4bf060"
+  },
+  "license": "OGL 1.0a"
+}

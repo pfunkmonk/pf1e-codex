@@ -1,0 +1,27 @@
+{
+  "id": "2290df55fce64176",
+  "name": "Lift",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "magus": 4,
+      "wizard": 4,
+      "summoner": 4,
+      "witch": 4
+    },
+    "save": "Ref",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level alchemist 4, magus 4, sorcerer/wizard 4, summoner 4, witch 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S, F (a leather loop)\n\nEFFECT\n\nRange long (400 ft. + 10 ft./2 levels)\nTarget one targeted creature/2 levels (each up to one size category larger than the caster) or 1 object/level up to 100 lbs./level\nDuration 1 round/level\nSaving Throw Reflex negates; Spell Resistance no\n\nDESCRIPTION\n\nLift allows you to levitate unwilling creatures or unattended objects. You cannot control the target’s movement; they simply hang in the air, moving upward at 5 ft. per round until they reach an obstacle or the spell wears off. When the spell ends, affected subjects will fall to the ground unless otherwise stopped.\n\nCreatures that reach a barrier (such as a ceiling) may pull themselves along it at half their normal movement (doing so requires a DC 15 Acrobatics check to move greater than 1/2 their normal movement unless they have a climbing move speed). Subjects may be moved by strong winds, ropes, telekinesis, or through other means at the GM’s discretion. Targets of this spell are denied their Dexterity bonus to their AC.\n\nA levitating creature that attacks with a melee or ranged weapon finds itself increasingly unstable; the first attack has a -1 penalty on attack rolls, the second -2, and so on, to a maximum penalty of -5. A Reflex save made to stabilize allows the creature to begin again at -1.\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2290df55fce64176.json",
+    "web": "https://codex.pipsprojects.com/#/e/2290df55fce64176"
+  },
+  "license": "OGL 1.0a"
+}

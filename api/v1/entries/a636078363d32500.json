@@ -1,0 +1,27 @@
+{
+  "id": "a636078363d32500",
+  "name": "Tremorsense",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "alchemist": 4,
+      "druid": 3,
+      "elementer": 4,
+      "psychic": 4,
+      "wizard": 4
+    },
+    "save": "Will",
+    "sr": "yes (harmless)",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School transmutation; Level alchemist 4, druid 3, elementer 4, psychic 4, sorcerer/wizard 4\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange touch\nTarget creature touched\nDuration 10 min./level\nSaving Throw Will negates (harmless); Spell Resistance yes (harmless)\n\nYou grant the touched creature an acute sensitivity to the subtle vibrations within the ground. The target gains tremorsense to a range of 30 feet.\n\nPath of the Wilds, © 2020, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a636078363d32500.json",
+    "web": "https://codex.pipsprojects.com/#/e/a636078363d32500"
+  },
+  "license": "OGL 1.0a"
+}

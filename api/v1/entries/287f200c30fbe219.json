@@ -1,0 +1,28 @@
+{
+  "id": "287f200c30fbe219",
+  "name": "Phantasmal Foe (Ascension Games, LLC)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Ascension Games, LLC",
+  "book": "Ascension Games, LLC",
+  "facets": {
+    "sch": "illusion",
+    "lv": {
+      "magus": 2,
+      "nightblade": 2,
+      "wizard": 3
+    },
+    "desc": [
+      "mind-affecting"
+    ],
+    "save": "Will",
+    "sr": "yes",
+    "bk": "Ascension Games, LLC"
+  },
+  "body": "School illusion (phantasm) [mind-affecting]; Level magus 2, nightblade 2, sorcerer/wizard 3\n\nCASTING\n\nCasting Time 1 standard action\nComponents V, S\n\nEFFECT\n\nRange close (25 ft. + 5ft./2 levels)\nTarget one creature\nDuration 1 round/2 levels\nSaving Throw Will negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create an illusory foe in your opponent’s mind that hounds them in combat. On a failed save, the target sees an enemy that threatens it in melee combat, always moving with your allies to surround it. The target is always treated as being flanked by any creature that threatens it for the duration of the spell. The phantasmal foe cannot actually harm the creature or affect it in any way aside from allowing real creatures to flank easily. The target recognizes the phantasmal foe as an enemy, but it does not take the form of an enemy that could incite a particularly strong emotional response, such as appearing as a creature the target is specifically afraid of.\n\nPath of Shadows, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/287f200c30fbe219.json",
+    "web": "https://codex.pipsprojects.com/#/e/287f200c30fbe219"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "204b6b1cb84b5e0a",
+  "name": "Weakness (Path of Iron)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Path of Iron",
+  "book": "Path of Iron",
+  "facets": {
+    "save": "Fort",
+    "sr": "yes",
+    "bk": "Path of Iron"
+  },
+  "body": "Design destruction; Level 0\n\nCASTING\n\nCasting Time 1 standard action\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect ray\nDuration 1 round + 1 round/2 levels\nSaving Throw Fortitude negates; Spell Resistance yes\n\nDESCRIPTION\n\nYou create a ray of sapping energy from your pointing finger. You must succeed on a ranged touch attack with the ray to hit. The subject is immediately fatigued for the spell’s duration. This script has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell’s duration expires.\n\nOverload: For every runic charge overloaded into this script, the DC increases by +1. If you overload at least three runic charges into the script, the target is exhausted for 1 round on a failed save (in addition to the normal fatiguing effect).\n\nPath of Iron, © 2015, Ascension Games, LLC; Author Christopher Moore",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/204b6b1cb84b5e0a.json",
+    "web": "https://codex.pipsprojects.com/#/e/204b6b1cb84b5e0a"
+  },
+  "license": "OGL 1.0a"
+}

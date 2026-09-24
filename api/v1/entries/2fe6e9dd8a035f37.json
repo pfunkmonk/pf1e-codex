@@ -1,0 +1,24 @@
+{
+  "id": "2fe6e9dd8a035f37",
+  "name": "Animate Construct (Kobold Press/Open Design)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Kobold Press/Open Design",
+  "book": "Kobold Press/Open Design",
+  "facets": {
+    "sch": "transmutation",
+    "lv": {
+      "oracle": 1,
+      "wizard": 1
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Kobold Press/Open Design"
+  },
+  "body": "School transmutation; Level cleric/oracle 1, sorcerer/wizard 1\n\nCASTING\n\nCasting Time 1 round\nComponents V, S, F (an oil can and a set of bellows)\n\nEFFECT\n\nRange close (25 ft. + 5 ft./2 levels)\nEffect one animated object or construct\nDuration 1 round/level (D) or special; see text\nSaving Throw none; Spell Resistance no\n\nDESCRIPTION\n\nThis spell animates an object or a carefully prepared construct. The object acts immediately, on your turn, and may attack your opponents to the best of its ability. You can direct it not to attack, to attack particular enemies, or to perform other actions as a move action. You choose the object to animate, and you can change that choice each time you cast the spell.\n\nIf you wish, you may animate a prepared construct rather than a mass of metal or stone. This requires preparing a carefully crafted form. The cost of this form is half the usual gp cost of building such a construct, for it is not animated permanently. In this case, the duration is 1 hr./level outside of combat and 1 round/level during combat, and the spell animates one of the creatures from the animated constructs list (see below).\n\nWith this spell, a caster may animate no more than twice his level in Hit Dice of constructs; animating more simply means that a previously animated construct becomes immobile and lifeless. a construct destroyed in combat cannot be reanimated until a repair metal spell is cast on it, or (in the case of stone or wood) until it has been rebuilt at the same cost as the original construction.\n\nIn the below table, for entries with a (2) after them, two creatures of that type are animated by the spell. The table contains superscripts as follows:\n\nAnimate Construct II through IX\n\nThese spells are identical to animate construct I but are of 2nd through 9th level and animate constructs as shown in the animated constructs list.\n\nAnimated Constructs Level/Construct Source\n\n1st Level\n\nAnimated object, Tiny Clockworks overseer Clockworks scout Clockwork spy\n\n2nd Level\n\nAnimated object, Clockwork servant Clockworks warrior Homunculus\n\n3rd Level\n\nAnimated object, Medium Caryatid column\n\nGolem, junk Necrophidius, rattler\n\n4th Level\n\nAnimated object, Large Clockwork choker Clockwork soldier Clockwork steed Graven guardian\n\nTerra-cotta soldier\n\n5th Level\n\nAnimated object, Huge Golem, bone\n\nGolem, wood Tupilaq\n\n6th Level\n\nAnimated object, Gargantuan (2) Clockwork mage\n\nTophet Taotieh\n\n7th Level\n\nAnimated object, Colossal (2) Clockwork leviathan Juggernaut\n\n8th Level\n\nClockwork dragon, Golem, brass Golem, cannon\n\n9th Level\n\nClockwork goliath Golem, greater stone (2)\n\nDeep Magic. © 2014 Open Design LLC. Authors: Wolfgang Baur, Tom Benton, Creighton Broadhurst, Jason Bulmahn, Ross Byers, Charles Lee Carrier, Tim Connors, Adam Daigle, Jonathan Drain, Mike Franke, Ed Greenwood, Frank Gori, Jim Groves, Amanda Hamon Kunz, Sam Harris, Brandon Hodge, Phillip Larwood, Jeff Lee, John Ling, Jr., Chris Lozaga, Ben McFarland, Nicholas Milasich, Carlos Ovalle, Richard Pett, Marc Radle, Stephen Radney-MacFarland, Wade Rockett, Stephen Rowe, Adam Roy, Amber E. Scott, Neil Spicer, Owen K.C. Stephens, Joshua Stevens, Christina Stiles, Matt Stinson, Stefen Styrsky, Dan Voyce, and Mike Welham.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/2fe6e9dd8a035f37.json",
+    "web": "https://codex.pipsprojects.com/#/e/2fe6e9dd8a035f37"
+  },
+  "license": "OGL 1.0a"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "a354f4370ba213e9",
+  "name": "Sense Magic (detection)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "divination",
+    "lv": {
+      "bard": 0,
+      "oracle": 0,
+      "druid": 0,
+      "inquisitor": 0,
+      "magus": 0,
+      "wizard": 0,
+      "summoner": 0,
+      "witch": 0
+    },
+    "save": "None",
+    "sr": "no",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School divination; Level bard 0, cleric/oracle 0, druid 0, inquisitor 0, magus 0, sorcerer/wizard 0, summoner 0, witch 0\n\nEFFECT\n\nDuration concentration, up to 1 minute/level (D)\nSaving Throw none; Spell Resistance no\nTarget Restrictions cone\n\nDESCRIPTION\n\nA wordspell with this effect word detects magic auras. By concentrating each round, the caster can determine the number and location of each aura in the target area. He can make a Knowledge (arcana) skill check to determine the school of each aura (one check per aura, the DC of this check is 15 + the spell level or 15 + ½ the caster level for a nonspell effect). If the aura radiates from a magic item, the caster can attempt to identify the item’s properties as if using detect magic (see Spellcraft). If the aura emanates from a spell of 7th level or higher, or is a nonspell effect with a caster level of 12th or higher, the caster knows that the aura is strong, even if the Knowledge check to identify the school is unsuccessful.\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/a354f4370ba213e9.json",
+    "web": "https://codex.pipsprojects.com/#/e/a354f4370ba213e9"
+  },
+  "license": "OGL 1.0a"
+}

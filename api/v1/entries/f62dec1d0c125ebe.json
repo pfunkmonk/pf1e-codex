@@ -1,0 +1,17 @@
+{
+  "id": "f62dec1d0c125ebe",
+  "name": "Gray Goo",
+  "bucket": "rules",
+  "category": "Rules",
+  "source": "Epic Meepo Presents: Monsters",
+  "book": "Epic Meepo Presents: Monsters",
+  "facets": {
+    "bk": "Epic Meepo Presents: Monsters"
+  },
+  "body": "This puddle of gray sludge oozes forth as if alive.\n\nGray Goo\tCR 5\n\nXP 1,600\nN Fine construct (swarm)\nInit +2; Senses blindsense 60 ft.; Perception +0\n\nAC 20, touch 20, flat-footed 18; (+8 size, +2 Dex)\nhp 49 (11d8)\nFort +3, Ref +5, Will +3\nDefensive Abilities construct and swarm traits; Immune weapon damage\n\nSpeed 20 ft., climb 20 ft.\nMelee swarm (3d6 plus disease and distraction)\nSpace 10 ft.; Reach 0 ft.\nSpecial Attacks consume, disease, distraction (DC 15)\n\nStr 1, Dex 15, Con —, Int —, Wis 10, Cha 2\nBase Atk +11; CMB —; CMD —\n\nEnvironment any land\nOrganization solitary, pair, pool (3–6 swarms), or lake (7–16 swarms)\nTreasure none\n\nConsume (Ex) Gray goo can rapidly consume any creature or organic object it swarms over. Against helpless targets, nauseated targets, and unattended objects made of organic matter (such as bone, cloth, or wood), gray goo deals 6d6 points of damage.\n\nDisease (Su) Assimilation: Swarm—injury; save Fort DC 15; onset 1 hour; frequency 1/hour; effect 1 point of Con damage; cure infected creature suffers 1 or more points of electricity damage. Any Medium or larger creature killed by assimilation rises as a clockwork zombie (see below). The save DC of assimilation is Constitution-based.\n\nAlthough gray goo appears to be an ooze, it is actually a mass of spider-like constructs known as motes, each no larger than a speck of dust. These swarming constructs wander aimlessly, consuming all organic matter in their path. A creature injured by the swarm’s attack is subject to an insidious disease as individual motes infest the victim’s body. These motes gradually convert the victim into a clockwork zombie, and then into gray goo, though they can be neutralized by electricity damage dealt to their host.\n\nClockwork Zombie\n\nA clockwork zombie is a corpse whose decaying flesh has been partially converted into clockwork parts. Treat a clockwork zombie as a standard zombie with the special qualities.\n\nConstruct Traits (Ex) This zombie’s animation is provided not by necromancy but by the clockwork machinery embedded in its flesh. It lacks undead traits, but gains constructs traits, and is treated as a construct, not an undead, for the resolution of magical effects and attacks. Channel energy cannot harm a clockwork zombie, for example, nor does negative energy heal it.\n\nDissolution (Ex) After 24 hours, a Medium or Large clockwork zombie dissolves into a swarm of gray goo; an Huge clockwork zombie dissolves into four swarms; a Gargantuan clockwork zombie dissolves into eight swarms; and a Collosal clockwork zombie dissolves into sixteen swarms. The remains of a destroyed clockwork zombie likewise dissolve unless they are either completely destroyed or dealt 1 or more points of electricity damage. The remains of a clockwork zombie destroyed by electricity damage do not dissolve in this manner.\n\nEpic Meepo Presents: Monsters. © 2011-2012, Eric Morton. Comments",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/f62dec1d0c125ebe.json",
+    "web": "https://codex.pipsprojects.com/#/e/f62dec1d0c125ebe"
+  },
+  "license": "OGL 1.0a"
+}

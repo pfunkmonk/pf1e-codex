@@ -1,0 +1,28 @@
+{
+  "id": "c4752bb4b5e830a2",
+  "name": "Sound Blast (sonic)",
+  "bucket": "spells",
+  "category": "Spells",
+  "source": "Paizo, Inc.",
+  "book": "Paizo, Inc.",
+  "facets": {
+    "sch": "evocation",
+    "lv": {
+      "bard": 4,
+      "magus": 4,
+      "wizard": 4
+    },
+    "desc": [
+      "sonic"
+    ],
+    "save": "Ref",
+    "sr": "yes",
+    "bk": "Paizo, Inc."
+  },
+  "body": "School evocation [sonic]; Level bard 4, magus 4, sorcerer/wizard 4\n\nEFFECT\n\nDuration instantaneous\nSaving Throw Reflex half; Spell Resistance yes\n\nDESCRIPTION\n\nThis effect word deals 1d6 points of sonic damage per caster level (maximum 10d6).\n\nPathfinder Roleplaying Game: Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.",
+  "links": {
+    "api": "https://codex.pipsprojects.com/api/v1/entries/c4752bb4b5e830a2.json",
+    "web": "https://codex.pipsprojects.com/#/e/c4752bb4b5e830a2"
+  },
+  "license": "OGL 1.0a"
+}
