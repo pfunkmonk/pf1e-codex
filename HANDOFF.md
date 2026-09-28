@@ -152,7 +152,7 @@ is never uncheckable. **This is the one deliberate exception to "no backend, no 
 key can never live in the browser, so it lives here.
 
 **Setup (one manual step, not yet done as of this writing):** in the Netlify dashboard for this site,
-Site configuration → Environment variables → add `ANTHROPIC_API_KEY` (the value is encrypted at rest
+Site configuration → Environment variables → add `CODEX_ASK_API_KEY` (the value is encrypted at rest
 by Netlify and is injected only into this server-side function at request time — it is never part of
 the deployed client bundle). Until it's set, `/ask` replies with a clean 503 rather than erroring.
 
