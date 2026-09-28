@@ -247,8 +247,18 @@ export default async (req, context) => {
 // container and a caller spread across cold starts can exceed. 6 requests/60s per IP is generous
 // for a person asking a follow-up and blocks sustained hammering. windowSize's platform max is 180s,
 // which is why this can't ALSO be a daily cap — see HANDOFF.md for the actual daily/dollar backstop.
+// memory: found necessary in production, not guessed. Netlify Functions default to 1024 MB; the
+// 86 MB raw ask-index.json balloons well past that once JSON.parse turns tens of millions of
+// [docIndex, tf] postings into real JS arrays (V8 per-element overhead adds up fast at that count).
+// Live evidence: every request after the full-corpus index shipped came back "An unknown error has
+// occurred" at ~14s with no warm reuse between calls — consistent with the function's OWN process
+// getting killed for memory each time, never surviving to serve a second request from a warm
+// container. 4096 (the platform max) directly costs more per invocation; that's accepted here
+// because this function does exactly what Netlify's own docs name as the reason to raise it
+// ("large JSON... processing"), not a workaround for something that should be smaller instead.
 export const config = {
   path: "/ask",
+  memory: 4096,
   rateLimit: { windowLimit: 6, windowSize: 60, aggregateBy: ["ip"], action: "block" },
 };
 
