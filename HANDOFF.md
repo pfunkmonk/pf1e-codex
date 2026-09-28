@@ -144,6 +144,72 @@ every entry file.
 
 ---
 
+## "Ask the Codex" — the AI FAQ (2026-09-28)
+
+`#/ask` in the app, `netlify/functions/ask.mjs` on the server. Answers a plain-English rules question,
+grounded ONLY in the Codex's own entries, with those entries always returned as citations so an answer
+is never uncheckable. **This is the one deliberate exception to "no backend, no API keys"** — an LLM
+key can never live in the browser, so it lives here.
+
+**Setup (one manual step, not yet done as of this writing):** in the Netlify dashboard for this site,
+Site configuration → Environment variables → add `ANTHROPIC_API_KEY` (the value is encrypted at rest
+by Netlify and is injected only into this server-side function at request time — it is never part of
+the deployed client bundle). Until it's set, `/ask` replies with a clean 503 rather than erroring.
+
+**Retrieval is lexical (BM25), not embeddings.** `tools/gen-ask-index.mjs` builds `data/ask-index.json`
+(an inverted index over the first ~3,000 characters of every entry's body, credit paragraph excluded)
+from the same data `gen-api` reads. Run it in the same "after any data change" ritual as `gen-api`:
+
+```bash
+node tools/gen-ask-index.mjs .   # writes data/ask-index.json (~66 MB; ~18.7 MB gzipped over the wire)
+```
+
+Why lexical: PF1e rules content is name-dense and precisely worded, so a corpus-measured term index
+beats a vector index for this data and needs no embedding pipeline to keep in sync with every
+d20pfsrd batch. Scoring is BM25, OR-style across query terms (any term can contribute; IDF makes a
+common word contribute almost nothing on its own — no hand-curated stopword list), plus an exact
+entry-name match boost scaled by how rare the name's own words are in the corpus. That boost was
+originally a flat bonus matched by raw substring — found and fixed before shipping because it let
+"King" match inside "flanking" and "Heir" match inside "their"; matching is now token-boundary. See
+the header comments in `gen-ask-index.mjs` and `ask.mjs` for the detail, and memory
+`tth-ask-rules-lookup` for the sibling project's version of the AND-vs-OR bug this design avoids.
+
+**Known coverage gap:** only the first ~3,000 characters of a body are indexed, so a broad conceptual
+question whose answer lives deep inside one of the long whole-rules-chapter entries (e.g. "Buildings",
+~99k chars) may not surface it. A direct question naming a specific rule, spell, feat, or monster works
+well; a vague one about a big topic sometimes doesn't. Not silently glossed over — this is the honest
+limit of v1.
+
+**Generation:** Claude Sonnet 5 (`claude-sonnet-5`), system-prompted the same way TTH's Ask earned the
+hard way (memory `tth-ask-rules-lookup`): lead with the rule and its numbers, enumerate a full set if
+asked for one, always state limits, refuse to invent a limit or rule that wasn't in the retrieved text,
+under 150 words. `max_tokens` is capped at 500 to bound cost per call.
+
+**Cost / abuse guards — best-effort, not a hard guarantee:** question length capped (4–300 chars), a
+per-IP soft rate limit held in the function's module scope (resets on a fresh Lambda container, so a
+caller spread across many cold starts could exceed it), and a same-origin check on the request's
+Origin header (trivially spoofable server-to-server, but stops another site's page from quietly
+burning the key through a visitor's browser). **The real backstop is a monthly spend cap set on the
+Anthropic console** — only the account owner can set that; nothing here enforces it.
+
+**Deliberately NOT under `/api/*`.** That path already carries a public, CORS-open, 5-minute-cached
+header block meant for the static JSON API; `/ask` is same-origin-only and per-request dynamic, so it
+has its own `netlify.toml` header block (`Cache-Control: no-store`) and its own path.
+
+**Bundling the index into the function (`included_files`) was tried and reverted.** It would avoid the
+one HTTP round-trip on a cold start, but broke Netlify's local bundler on this machine (a Windows-only
+`EBUSY` copying the 66 MB file) — and since that bundling step also runs at real deploy time, an
+equivalent failure there would break every future deploy of the whole site, not just this feature. A
+plain `fetch()` of `data/ask-index.json` from the function's own origin measured ~1.2s end-to-end on a
+cold container in local testing (retrieval + 8 entry fetches + the real Claude call); if production
+latency ever needs improving, retry `included_files` against Netlify's own (Linux) build first — never
+assume Windows-local behaviour carries over.
+
+**Local dev:** `netlify dev` (not the plain static server used for everything else) actually runs the
+function. No `package.json`/dependencies needed — the function uses only `fetch` and Node built-ins.
+
+---
+
 ## Data
 
 All content is static JS assigning `window.PF_*` globals. There is no backend.

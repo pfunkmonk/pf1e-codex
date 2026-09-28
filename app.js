@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "91";
+  var DATA_V = "92";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2385,6 +2385,55 @@
     swap(wrap); window.scrollTo(0,0);
   }
 
+  // ---- Ask the Codex: an AI FAQ over the site's own rules text (netlify/functions/ask.mjs) ----
+  // The answer is only ever generated from the entries listed as citations below it — never
+  // trust-me-bro text with nothing to check it against.
+  function viewAsk(){
+    setActiveNav(null);
+    var wrap=h("div"); var head=h("div",{class:"list-head"});
+    head.innerHTML='<h2>🤖 Ask the Codex</h2><span class="meta">Ask a rules question in plain English. The answer is generated from the Codex\'s own entries, which are always shown below it — check them if anything looks off.</span>';
+    wrap.appendChild(head);
+    var panel=h("div",{class:"nf-panel"});
+    var form=h("form");
+    var qIn=h("textarea",{placeholder:"e.g. how does flanking work? What's the DC to stabilize?",rows:"3",class:"fb-wide"});
+    form.appendChild(qIn);
+    var err=h("div",{class:"muted fb-err"},""); err.style.display="none";
+    var actions=h("div",{class:"nf-actions"});
+    var ask=h("button",{class:"char-act nf-primary",type:"submit"},"Ask");
+    actions.appendChild(ask); form.appendChild(actions); form.appendChild(err);
+    var result=h("div",{class:"ask-result"}); result.style.display="none";
+    var lastAsk=0;
+    function setBusy(b){ ask.disabled=b; ask.textContent=b?"Thinking…":"Ask"; }
+    form.onsubmit=function(e){
+      e.preventDefault();
+      var q=qIn.value.trim();
+      err.style.display="none";
+      if(q.length<4){ err.textContent="Ask a real question."; err.style.display=""; qIn.focus(); return; }
+      if(Date.now()-lastAsk<4000){ err.textContent="One at a time — wait a few seconds and try again."; err.style.display=""; return; }
+      lastAsk=Date.now(); setBusy(true); result.style.display="none";
+      fetch("/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q})})
+        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+        .then(function(x){
+          setBusy(false);
+          if(!x.ok||x.d.error){ err.textContent=(x.d&&x.d.error)||"Something went wrong — try again."; err.style.display=""; return; }
+          result.innerHTML="";
+          result.appendChild(h("div",{class:"ask-answer"},esc(x.d.answer).replace(/\n/g,"<br>")));
+          if(x.d.citations&&x.d.citations.length){
+            var cw=h("div",{class:"ask-cites"}); cw.appendChild(h("div",{class:"muted"},"From:"));
+            var list=h("div",{class:"ask-cite-list"});
+            x.d.citations.forEach(function(c){
+              var a=h("a",{class:"ask-cite",href:"#/e/"+encodeURIComponent(c.id)}); a.textContent=c.name+" ("+LABEL[c.bucket]+")"; list.appendChild(a);
+            });
+            cw.appendChild(list); result.appendChild(cw);
+          }
+          result.style.display="";
+        })
+        .catch(function(){ setBusy(false); err.textContent="Couldn't reach the Codex — check your connection and try again."; err.style.display=""; });
+    };
+    panel.appendChild(form); panel.appendChild(result); wrap.appendChild(panel);
+    swap(wrap); window.scrollTo(0,0); qIn.focus();
+  }
+
   // ---- "Rules I Always Forget" cheat page ----
   var CHEATS=[
     ["Flanking","You and an ally on opposite sides of a foe you both threaten each get +2 to melee attacks. Rogues can sneak attack a flanked foe. Reach/positioning still has to line up through the enemy’s center."],
@@ -2623,7 +2672,7 @@
     var toggle=h("button",{class:"nav-cool-toggle"}); toggle.innerHTML='<span>✨ Cool Stuff</span><span class="nav-caret"></span>';
     var body=h("div",{class:"nav-cool-body"});
     [
-      ["At the table", [["⚔ Combat & Conditions","#/ref"],["🛡 GM Screen","#/gm"],["🧠 Rules I Forget","#/cheat"]]],
+      ["At the table", [["⚔ Combat & Conditions","#/ref"],["🛡 GM Screen","#/gm"],["🧠 Rules I Forget","#/cheat"],["🤖 Ask the Codex","#/ask"]]],
       ["Run the fight", [["⚔️ Encounter Builder","#/encounter"],["🎲 Random Encounter","#/randenc"],["⚡ Initiative Tracker","#/init"],["🪤 Trap Generator","#/trap"],["🎴 Crit & Fumble Deck","#/critfumble"]]],
       ["Loot & flavor", [["💰 Treasure Generator","#/treasure"],["🪄 Magic Shop","#/shop"],["🍺 NPC Spark","#/npc"],["🏷 Name-a-Thing","#/thing"],["🎲 Name Generator","#/names"],["🌦 Weather & Moon","#/weather"]]],
       ["Build & character", [["🕸 Feat Web","#/featweb"],["📈 Class Progression","#/timeline"],["📜 Spell Pricer","#/spellprice"],["➕ Bonus Stacking","#/stacking"]]],
@@ -2704,6 +2753,7 @@
     if(hash==="/stacking") return viewStacking();
     if(hash==="/weather") return viewWeather();
     if(hash==="/feedback") return viewFeedback(query);
+    if(hash==="/ask") return viewAsk();
     if(hash==="/cheat") return viewCheat();
     if(hash==="/recent") return viewRecent();
     if(hash==="/timeline") return viewTimeline();
