@@ -157,11 +157,11 @@ by Netlify and is injected only into this server-side function at request time �
 the deployed client bundle). Until it's set, `/ask` replies with a clean 503 rather than erroring.
 
 **Retrieval is lexical (BM25), not embeddings.** `tools/gen-ask-index.mjs` builds `data/ask-index.json`
-(an inverted index over the first ~3,000 characters of every entry's body, credit paragraph excluded)
+(an inverted index over EVERY entry's FULL body, no per-doc character cap, credit paragraph excluded)
 from the same data `gen-api` reads. Run it in the same "after any data change" ritual as `gen-api`:
 
 ```bash
-node tools/gen-ask-index.mjs .   # writes data/ask-index.json (~66 MB; ~18.7 MB gzipped over the wire)
+node tools/gen-ask-index.mjs .   # writes data/ask-index.json (~86 MB; ~24.6 MB gzipped over the wire)
 ```
 
 Why lexical: PF1e rules content is name-dense and precisely worded, so a corpus-measured term index
@@ -174,16 +174,39 @@ originally a flat bonus matched by raw substring — found and fixed before ship
 the header comments in `gen-ask-index.mjs` and `ask.mjs` for the detail, and memory
 `tth-ask-rules-lookup` for the sibling project's version of the AND-vs-OR bug this design avoids.
 
-**Known coverage gap:** only the first ~3,000 characters of a body are indexed, so a broad conceptual
-question whose answer lives deep inside one of the long whole-rules-chapter entries (e.g. "Buildings",
-~99k chars) may not surface it. A direct question naming a specific rule, spell, feat, or monster works
-well; a vague one about a big topic sometimes doesn't. Not silently glossed over — this is the honest
-limit of v1.
+**Retrieval breadth (2026-09-28, rebuilt the same day it shipped): budget-based, not a fixed count.**
+The original version indexed only the first ~3,000 characters of a body and returned a flat top 8 —
+correct-feeling in testing, wrong in practice: a real question ("what's the DC to stabilize when
+dying?") had its answer in the data all along, ranked 26th and 34th, comfortably outside top 8. Owner
+feedback: *"look at the entire codex db (no curated lists, no character limits, etc...) I don't want
+to have to ask twice just because it missed something."* Fixed by removing the per-doc index cap
+(above) and replacing the fixed count with `CONTEXT_CHAR_BUDGET` in `ask.mjs` (200,000 characters,
+~50k tokens): every candidate is pulled in, highest-scored first, until the budget is spent — a broad
+question can surface dozens of entries, a narrow one doesn't waste it. A relative-to-top-score cutoff
+was tried first to keep narrow questions from padding with noise; measured against six real questions
+before shipping, it didn't generalize (predictable for a query with a sharp score cliff, useless for
+one that decays smoothly, and would have re-introduced the original miss for a third kind) — removed
+in favor of telling the model itself to ignore irrelevant passages, which it does far more reliably
+than a lexical score threshold can. **This is still not literally "the entire corpus"** — the corpus
+is ~131 MB of body text, far past any model's context window, and literally unlimited would cost
+accordingly on every question; the budget is the one disclosed, generous ceiling. `MAX_ANSWER_TOKENS`
+is 3,000 (was 500) so a genuinely thorough answer isn't cut off, and the system prompt no longer caps
+word count — it now explicitly asks for thoroughness (exceptions, interactions, related options) over
+brevity, while keeping the "don't invent a limit that wasn't retrieved" rule from the original design.
+This costs and takes meaningfully more per question than the original narrow version — the owner was
+told this plainly and confirmed it's what they want.
 
 **Generation:** Claude Sonnet 5 (`claude-sonnet-5`), system-prompted the same way TTH's Ask earned the
-hard way (memory `tth-ask-rules-lookup`): lead with the rule and its numbers, enumerate a full set if
-asked for one, always state limits, refuse to invent a limit or rule that wasn't in the retrieved text,
-under 150 words. `max_tokens` is capped at 500 to bound cost per call.
+hard way (memory `tth-ask-rules-lookup`) for its correctness rules — lead with the rule and its
+numbers, always state limits, refuse to invent one that wasn't retrieved — but deliberately DIVERGES
+from TTH's brevity mandate (TTH: "faster than looking it up in the book," under 150 words) because
+this project's owner asked for the opposite: thorough, not clipped. Don't "fix" this back to TTH's
+style — it's a different product with a different stated requirement, not an oversight.
+
+The answer is rendered as light markdown in the app (`fmtAskAnswer` in `app.js`: `#`/`##` headers,
+`**bold**`, `- ` lists, paragraphs — escaped first, no library) since a thorough multi-section answer
+needs some structure to stay scannable; a flat wall of text with the old `\n` → `<br>` rendering
+would not have held up at this length.
 
 **Cost / abuse guards (2026-09-28):**
 - **Netlify's own platform rate limit** (`rateLimit` in the function's `config` export — a real

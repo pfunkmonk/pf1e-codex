@@ -331,6 +331,13 @@ table.gm-table th.rowh{font-weight:600;color:var(--ink);white-space:nowrap}
 .nf-copyall{margin-left:auto}
 .ask-result{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
 .ask-answer{font-size:15px;line-height:1.55;color:var(--ink)}
+.ask-answer p{margin:0 0 12px}
+.ask-answer p:last-child{margin-bottom:0}
+.ask-answer h4{margin:18px 0 8px;font-size:15px;font-weight:700;color:var(--accent)}
+.ask-answer h4:first-child{margin-top:0}
+.ask-answer ul{margin:0 0 12px;padding-left:22px}
+.ask-answer li{margin:4px 0}
+.ask-answer strong{color:var(--ink)}
 .ask-cites{margin-top:14px}
 .ask-cite-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
 .ask-cite{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink);text-decoration:none}
