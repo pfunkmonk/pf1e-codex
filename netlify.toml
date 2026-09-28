@@ -5,7 +5,7 @@
   directory = "netlify/functions"
 
 # ---- "Ask the Codex" AI FAQ (netlify/functions/ask.mjs) ----------------------------------------
-# The one deliberate exception to "no backend": holds ANTHROPIC_API_KEY server-side to answer
+# The one deliberate exception to "no backend": holds CODEX_ASK_API_KEY server-side to answer
 # rules questions grounded in the Codex's own text. Per-request and never cacheable — do NOT let
 # this fall under the /api/* block above, which is public/CORS-open/cached for the static API.
 [[headers]]

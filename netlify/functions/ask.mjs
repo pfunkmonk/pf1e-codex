@@ -2,7 +2,7 @@
  *
  * The Codex is otherwise a static, no-backend, no-API-key site by design (see HANDOFF.md /
  * memory pf1e-codex). This is the one deliberate exception: an LLM key can never live in the
- * browser, so it lives here, in a Netlify Function, read from the ANTHROPIC_API_KEY environment
+ * browser, so it lives here, in a Netlify Function, read from the CODEX_ASK_API_KEY environment
  * variable (Site settings → Environment variables in the Netlify dashboard — encrypted at rest,
  * injected only into this server-side function, never shipped to a client bundle).
  *
@@ -152,7 +152,7 @@ export default async (req, context) => {
   const question = String(body?.question || "").trim();
   if (question.length < 4) return json({ error: "ask a real question" }, 400);
   if (question.length > 300) return json({ error: "question too long (300 characters max)" }, 400);
-  if (!process.env.ANTHROPIC_API_KEY) return json({ error: "Ask isn't configured yet (no API key set)." }, 503);
+  if (!process.env.CODEX_ASK_API_KEY) return json({ error: "Ask isn't configured yet (no API key set)." }, 503);
 
   let index;
   try { index = await loadIndex(origin); } catch (e) { return json({ error: "retrieval index unavailable: " + e.message }, 500); }
@@ -177,7 +177,7 @@ export default async (req, context) => {
   try {
     const r = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
-      headers: { "content-type": "application/json", "x-api-key": process.env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01" },
+      headers: { "content-type": "application/json", "x-api-key": process.env.CODEX_ASK_API_KEY, "anthropic-version": "2023-06-01" },
       body: JSON.stringify({
         model: MODEL,
         max_tokens: MAX_ANSWER_TOKENS,
