@@ -19,13 +19,14 @@
  * to say so, not invent, when the retrieved text doesn't answer the question. The client always
  * gets back the exact list of entries used, so an answer is never uncheckable.
  *
- * COST / ABUSE GUARDS (best-effort, not a hard guarantee — see HANDOFF.md):
- *   - question length capped, max_tokens capped on the Claude call
- *   - a per-IP soft rate limit held in module scope (resets on a fresh Lambda container, so a
- *     determined caller spread across many cold starts can exceed it) — the real backstop is a
- *     monthly spend cap set on the Anthropic console, which only the account owner can set.
- *   - same-origin check on the request's Origin header (trivially spoofable server-to-server,
- *     but stops a browser page on another origin from quietly burning this key)
+ * COST / ABUSE GUARDS (see HANDOFF.md for the full writeup):
+ *   - Netlify's own platform rate limit (the `rateLimit` field in `config` below) — edge-enforced,
+ *     real protection against a distributed bot, unlike the in-function rateLimited() further down.
+ *   - honeypot + minimum time-on-page, checked below (paired with the hidden field in app.js's
+ *     viewAsk) — stops a scripted browser filling the actual form, not a direct POST to this URL.
+ *   - question length capped, max_tokens capped on the Claude call, same-origin Origin check.
+ *   - NONE of the above caps total dollars — only Anthropic's own (monthly-only) spend limit does
+ *     that, console.anthropic.com → Settings → Plans & Billing → Spending Limits. Manual, owner-only.
  */
 
 const MODEL = "claude-sonnet-5";
@@ -149,6 +150,11 @@ export default async (req, context) => {
 
   let body;
   try { body = await req.json(); } catch { return json({ error: "expected JSON body" }, 400); }
+  // Honeypot + minimum time-on-page: a browser that filled the hidden field, or submitted before a
+  // person could plausibly have read the prompt and typed a question, is a bot. Rejected quietly
+  // (a plain 400, no distinguishing message) rather than run retrieval or spend an API call on it.
+  if (String(body?.hp || "")) return json({ error: "rejected" }, 400);
+  if (typeof body?.ms === "number" && body.ms < 1200) return json({ error: "rejected" }, 400);
   const question = String(body?.question || "").trim();
   if (question.length < 4) return json({ error: "ask a real question" }, 400);
   if (question.length > 300) return json({ error: "question too long (300 characters max)" }, 400);
@@ -199,7 +205,17 @@ export default async (req, context) => {
 // Deliberately NOT under /api/* — that path already carries a public, CORS-open,
 // cached-for-everyone header block (netlify.toml) meant for the static read-only JSON API. This
 // endpoint is same-origin-only, per-request dynamic, and must never be cached.
-export const config = { path: "/ask" };
+//
+// rateLimit is Netlify's own platform feature (docs.netlify.com/manage/security/secure-access-to-sites/rate-limiting),
+// enforced at the edge before a request even reaches this function's code — real protection against
+// a distributed bot, unlike the in-function rateLimited() above, which only holds state per warm
+// container and a caller spread across cold starts can exceed. 6 requests/60s per IP is generous
+// for a person asking a follow-up and blocks sustained hammering. windowSize's platform max is 180s,
+// which is why this can't ALSO be a daily cap — see HANDOFF.md for the actual daily/dollar backstop.
+export const config = {
+  path: "/ask",
+  rateLimit: { windowLimit: 6, windowSize: 60, aggregateBy: ["ip"], action: "block" },
+};
 
 function json(obj, status = 200) {
   return new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json" } });
