@@ -6,18 +6,27 @@
  * variable (Site settings → Environment variables in the Netlify dashboard — encrypted at rest,
  * injected only into this server-side function, never shipped to a client bundle).
  *
- * RETRIEVAL. Loads data/ask-index.json (built by tools/gen-ask-index.mjs) once per warm function
- * instance and keeps it in module scope. Scoring is BM25, OR-style across query terms (any term
- * can contribute; IDF makes a common word contribute almost nothing on its own) plus an exact
- * entry-name match boost, so a direct "what does X do" question always surfaces X even if X's
- * own body text is short. See the header comment in gen-ask-index.mjs for why this beats an
- * embeddings/vector approach for this corpus, and the tth-ask-rules-lookup memory for the AND-vs-OR
- * bug this design exists to avoid.
+ * RETRIEVAL. Loads data/ask-index.json (built by tools/gen-ask-index.mjs, FULL bodies, no per-doc
+ * character cap) once per warm function instance and keeps it in module scope. Scoring is BM25,
+ * OR-style across query terms (any term can contribute; IDF makes a common word contribute almost
+ * nothing on its own) plus an exact entry-name match boost, so a direct "what does X do" question
+ * always surfaces X even if X's own body text is short. See the header comment in gen-ask-index.mjs
+ * for why this beats an embeddings/vector approach for this corpus, and the tth-ask-rules-lookup
+ * memory for the AND-vs-OR bug this design exists to avoid.
  *
- * GROUNDING. The model only ever sees the retrieved entries' actual body text (fetched fresh from
- * this site's own public api/v1/entries/<id>.json — the same data every reader sees) and is told
- * to say so, not invent, when the retrieved text doesn't answer the question. The client always
- * gets back the exact list of entries used, so an answer is never uncheckable.
+ * 2026-09-28: retrieval used to stop at a flat top-8. Measured against a real miss (a question
+ * about a rule that scored 26th, not because it was irrelevant but because a fixed count of 8 is
+ * an arbitrary line), it's now a CHARACTER BUDGET (CONTEXT_CHAR_BUDGET) instead of a result count —
+ * every candidate is added, highest-scored first, until the budget is spent, so a broad question
+ * can pull in dozens of entries and a narrow one doesn't waste the budget padding with noise. This
+ * is deliberately NOT "the entire 131 MB corpus in one prompt" — that's larger than any model's
+ * context window and would cost accordingly on every single question — but it is no longer a small
+ * hand-picked-feeling list either.
+ *
+ * GROUNDING. The model only ever sees the retrieved entries' actual, untruncated body text (fetched
+ * fresh from this site's own public api/v1/entries/<id>.json — the same data every reader sees) and
+ * is told to say so, not invent, when the retrieved text doesn't answer the question. The client
+ * always gets back the exact list of entries used, so an answer is never uncheckable.
  *
  * COST / ABUSE GUARDS (see HANDOFF.md for the full writeup):
  *   - Netlify's own platform rate limit (the `rateLimit` field in `config` below) — edge-enforced,
@@ -30,8 +39,8 @@
  */
 
 const MODEL = "claude-sonnet-5";
-const MAX_ANSWER_TOKENS = 500;
-const TOP_K = 8;
+const MAX_ANSWER_TOKENS = 3000;   // a thorough answer, not a clipped one — see SYSTEM_PROMPT
+const CONTEXT_CHAR_BUDGET = 200000;   // ~50k tokens of retrieved passages; see header comment
 const MIN_TERM_LEN = 2;
 const RATE_LIMIT = { windowMs: 5 * 60 * 1000, max: 8 };   // per IP, per warm instance
 
@@ -116,7 +125,30 @@ function retrieve(index, question) {
     }
   }
 
-  return [...scores.entries()].sort((a, b) => b[1] - a[1]).slice(0, TOP_K).map(([i]) => index.docs[i]);
+  // Take candidates highest-scored first until CONTEXT_CHAR_BUDGET is spent, not a fixed count —
+  // docs[i][5] is the doc's real body length, known from the index without fetching it first, so
+  // this budgets accurately before a single api/v1/entries/ fetch happens. Always include at least
+  // the top match even if it alone exceeds the budget (a single very long chapter entry).
+  //
+  // Deliberately NO relative-score cutoff here. A "drop anything below X% of the top score" filter
+  // was tried and measured against six real questions before shipping: it didn't behave predictably
+  // — for some questions it left ~94 candidates untouched even at a stricter threshold (no real
+  // score cliff to find; broad-vocabulary questions decay smoothly, not sharply), for others it
+  // correctly cut a clean list down to 4, and for a THIRD kind it would have re-introduced the exact
+  // miss this whole change exists to fix. A lexical score alone can't reliably tell "loosely related"
+  // from "irrelevant" across question shapes as well as the model reading the actual text can — so
+  // that job is the system prompt's ("ignore passages that don't address the question"), not this
+  // heuristic's. The budget is the one real ceiling, and it's generous.
+  const ranked = [...scores.entries()].sort((a, b) => b[1] - a[1]);
+  const picked = [];
+  let spent = 0;
+  for (const [i] of ranked) {
+    const chars = index.docs[i][5] || 0;
+    if (picked.length && spent + chars > CONTEXT_CHAR_BUDGET) break;
+    picked.push(index.docs[i]);
+    spent += chars;
+  }
+  return picked;
 }
 
 const rateLimitState = new Map();
@@ -130,12 +162,15 @@ function rateLimited(ip) {
 
 const SYSTEM_PROMPT = `You answer Pathfinder 1st-edition rules questions using ONLY the rules passages provided below — never your own memory of the rules, which may not match this specific ruleset or house-ruled content mixed into it.
 
+You were given a broad, unfiltered set of passages — a plain keyword search, not a hand-picked list. Many of them may only loosely relate to the question, or not address it at all; some may be genuinely on-topic follow-ups the asker didn't think to ask about yet. Use your own judgment to tell the difference: build the answer only from passages that actually bear on the question, and silently set the rest aside. Don't mention which passages you discarded or why.
+
 Rules for the answer:
 - Lead with the rule itself and its exact numbers. Don't restate the question or add a preamble.
+- Be THOROUGH. This is a full answer, not a quick lookup — if the passages contain relevant exceptions, special cases, interacting rules, or related options, include them rather than trimming for brevity. Don't pad with irrelevant material, but don't cut relevant material short either.
 - If the question is about a set of things (light levels, size categories, degrees of cover, etc.), list every member you were given and say how many there are.
-- Always state the rule's limits — uses per round/day, the action it costs, range, conditions required. A limit is part of the rule; omitting it makes the answer wrong at the table.
-- If the provided passages don't state a limit (or don't answer the question at all), say so plainly instead of inventing one. Never fabricate a rule, number, or exception that isn't in the text you were given.
-- Keep it under 150 words. Depth belongs in a follow-up question, not this answer.
+- Always state every limit that applies — uses per round/day, the action it costs, range, conditions required. A limit is part of the rule; omitting it makes the answer wrong at the table.
+- If the provided passages don't state a limit (or don't answer the question at all, or only partially answer it), say so plainly instead of inventing one. Never fabricate a rule, number, or exception that isn't in the text you were given.
+- Use headers, short paragraphs, or a list when the answer covers more than one distinct point — make a long answer easy to scan, not a wall of text.
 - Refer to entries by name so the reader can match your answer to the citations shown alongside it.`;
 
 export default async (req, context) => {

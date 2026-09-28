@@ -9,17 +9,20 @@
  * index is scored OR-style (any query term can hit) and weighted by IDF, so a common word
  * contributes almost nothing on its own — no hand-curated stopword list to maintain.
  *
- * FORMAT (data/ask-index.json, fetched once per warm Netlify Function instance, never by the
- * browser): an inverted index. `docs` is parallel to doc index: [id, name, bucket, source, len]
- * (len = indexed term count, for BM25 length normalization). `postings` maps a term to
- * [[docIndex, termFrequency], ...], sorted by docIndex. `df` is redundant with postings.length
- * but kept explicit for a cheap sanity check in the function.
+ * FULL BODIES ARE INDEXED, NO PER-DOC CHARACTER CAP (2026-09-28: an earlier 3,000-char cap was
+ * removed after it was measured to matter — a question ("what's the DC to stabilize when dying")
+ * whose answer was findable was still missed downstream not because of the cap but because a fixed
+ * top-8 result count left it out at rank 26; the fix there is retrieval BREADTH, in ask.mjs. This
+ * cap is removed anyway, on request, because "the first 3,000 characters only" is exactly the kind
+ * of arbitrary ceiling that turns a genuine miss into "well, it was cut off" — a whole rules
+ * chapter's content past character 3,000 is now just as findable by keyword as its opening.
  *
- * ⚠ ONLY THE FIRST ~3,000 CHARACTERS OF EACH BODY ARE INDEXED (the credit paragraph is excluded
- * on purpose — it would pollute the corpus with publisher names). A handful of whole-rules-chapter
- * entries (e.g. "Buildings", ~99k chars) are longer than that; text past the cap can still be
- * found by NAME (exact-name substring matching is a separate boost in the function), just not by
- * a keyword that only appears deep in the chapter. Not silently glossed over: logged below.
+ * FORMAT (data/ask-index.json, fetched once per warm Netlify Function instance, never by the
+ * browser): an inverted index. `docs` is parallel to doc index: [id, name, bucket, source,
+ * termCount, bodyChars] (termCount for BM25 length normalization; bodyChars lets the function
+ * budget how many full entries it can afford to pull into one answer's context WITHOUT fetching
+ * every candidate's body first just to find out how big it is). `postings` maps a term to
+ * [[docIndex, termFrequency], ...], sorted by docIndex.
  *
  * Usage: node tools/gen-ask-index.mjs .   (writes data/ask-index.json; run after gen-api)
  */
@@ -28,7 +31,6 @@ import path from "node:path";
 import { loadCodex } from "./lib/api-build.mjs";
 
 const ROOT = process.argv[2] && !process.argv[2].startsWith("--") ? process.argv[2] : ".";
-const INDEX_CHARS = 3000;   // body characters considered per doc, credit paragraph excluded first
 const MIN_TERM_LEN = 2;
 
 const { IDX, BODIES, isJunk, dataVersion } = loadCodex(ROOT);
@@ -45,9 +47,8 @@ function tokenize(text) {
     .filter((t) => t.length >= MIN_TERM_LEN);
 }
 
-const docs = [];          // [id, name, bucket, source, len]
+const docs = [];          // [id, name, bucket, source, termCount, bodyChars]
 const postings = new Map(); // term -> Map(docIndex -> tf)
-let truncated = 0;
 
 for (const r of IDX) {
   if (isJunk(r)) continue;
@@ -58,16 +59,14 @@ for (const r of IDX) {
   // book titles, not rules content, and would otherwise dominate term frequency across the corpus.
   const lastBreak = body.lastIndexOf("\n\n");
   const withoutCredit = lastBreak > 0 && lastBreak > body.length - 500 ? body.slice(0, lastBreak) : body;
-  const capped = withoutCredit.slice(0, INDEX_CHARS);
-  if (withoutCredit.length > INDEX_CHARS) truncated++;
 
   // Index the name at extra weight (repeated) so a direct "what does <name> do" question scores
   // that entry far above incidental mentions elsewhere.
-  const terms = [...tokenize(name), ...tokenize(name), ...tokenize(name), ...tokenize(capped)];
+  const terms = [...tokenize(name), ...tokenize(name), ...tokenize(name), ...tokenize(withoutCredit)];
   if (!terms.length) continue;
 
   const docIndex = docs.length;
-  docs.push([id, name, bucket, source, terms.length]);
+  docs.push([id, name, bucket, source, terms.length, body.length]);
   const tf = new Map();
   for (const t of terms) tf.set(t, (tf.get(t) || 0) + 1);
   for (const [t, f] of tf) {
@@ -94,7 +93,6 @@ const out = {
   builtFrom: "tools/gen-ask-index.mjs",
   N: docs.length,
   avgLen: Math.round(avgLen * 100) / 100,
-  indexCharsPerDoc: INDEX_CHARS,
   docs,
   postings: postingsOut,
 };
@@ -105,6 +103,6 @@ const bytes = fs.statSync(outPath).size;
 
 console.log(`docs indexed: ${docs.length} (of ${IDX.length} rows)`);
 console.log(`unique terms: ${Object.keys(postingsOut).length} (dropped ${droppedJunkTerms} single-doc junk terms)`);
-console.log(`bodies truncated at ${INDEX_CHARS} chars: ${truncated}`);
 console.log(`avg indexed terms/doc: ${out.avgLen}`);
+console.log(`total body chars indexed: ${(docs.reduce((s, d) => s + d[5], 0) / 1e6).toFixed(1)}M`);
 console.log(`wrote ${outPath} (${(bytes / 1024 / 1024).toFixed(1)} MB)`);

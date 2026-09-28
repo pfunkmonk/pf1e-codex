@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "93";
+  var DATA_V = "94";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2385,6 +2385,29 @@
     swap(wrap); window.scrollTo(0,0);
   }
 
+  // Light markdown -> HTML for an Ask answer: headers, **bold**, "- " lists, paragraphs. Escapes
+  // first so the model's own text can never inject markup; no library (CSP blocks external scripts
+  // and this site otherwise has zero dependencies) — just the handful of things the system prompt
+  // actually asks the model to use for a longer, thorough answer.
+  function fmtAskAnswer(raw){
+    var lines=esc(raw||"").split("\n"), out=[], para=[], list=null;
+    function flushPara(){ if(para.length){ out.push("<p>"+para.join(" ")+"</p>"); para=[]; } }
+    function flushList(){ if(list){ out.push("<ul>"+list.join("")+"</ul>"); list=null; } }
+    lines.forEach(function(l){
+      var t=l.trim();
+      var bold=t.replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>");
+      var m=/^(#{1,4})\s+(.*)$/.exec(t);
+      if(m){ flushPara(); flushList(); out.push("<h4>"+bold.replace(/^#+\s+/,"")+"</h4>"); return; }
+      var li=/^[-*]\s+(.*)$/.exec(t);
+      if(li){ flushPara(); if(!list)list=[]; list.push("<li>"+bold.replace(/^[-*]\s+/,"")+"</li>"); return; }
+      flushList();
+      if(!t){ flushPara(); return; }
+      para.push(bold);
+    });
+    flushPara(); flushList();
+    return out.join("");
+  }
+
   // ---- Ask the Codex: an AI FAQ over the site's own rules text (netlify/functions/ask.mjs) ----
   // The answer is only ever generated from the entries listed as citations below it — never
   // trust-me-bro text with nothing to check it against.
@@ -2424,7 +2447,7 @@
           setBusy(false);
           if(!x.ok||x.d.error){ err.textContent=(x.d&&x.d.error)||"Something went wrong — try again."; err.style.display=""; return; }
           result.innerHTML="";
-          result.appendChild(h("div",{class:"ask-answer"},esc(x.d.answer).replace(/\n/g,"<br>")));
+          result.appendChild(h("div",{class:"ask-answer"},fmtAskAnswer(x.d.answer)));
           if(x.d.citations&&x.d.citations.length){
             var cw=h("div",{class:"ask-cites"}); cw.appendChild(h("div",{class:"muted"},"From:"));
             var list=h("div",{class:"ask-cite-list"});
