@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "95";
+  var DATA_V = "96";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2408,6 +2408,22 @@
     return out.join("");
   }
 
+  // ---- Saved Ask answers (localStorage, same pattern as My Characters — works offline, never
+  // touches the network) ----
+  var SAVED_ANSWERS_MAX=200;   // generous; oldest dropped past this so localStorage can't fill up
+  function savedAnswers(){ try{ var a=JSON.parse(localStorage.getItem("pf_saved_answers")||"[]"); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function saveSavedAnswers(a){ try{ localStorage.setItem("pf_saved_answers", JSON.stringify(a.slice(-SAVED_ANSWERS_MAX))); }catch(e){} }
+  function renderAskCites(citations,omitted){
+    var cw=h("div",{class:"ask-cites"}); cw.appendChild(h("div",{class:"muted"},"From:"));
+    var list=h("div",{class:"ask-cite-list"});
+    (citations||[]).forEach(function(c){
+      var a=h("a",{class:"ask-cite",href:"#/e/"+encodeURIComponent(c.id)}); a.textContent=c.name+" ("+(LABEL[c.bucket]||c.bucket)+")"; list.appendChild(a);
+    });
+    cw.appendChild(list);
+    if(omitted>0) cw.appendChild(h("div",{class:"muted ask-cite-more"},"+ "+omitted+" more entries considered"));
+    return cw;
+  }
+
   // ---- Ask the Codex: an AI FAQ over the site's own rules text (netlify/functions/ask.mjs) ----
   // The answer is only ever generated from the entries listed as citations below it — never
   // trust-me-bro text with nothing to check it against.
@@ -2431,7 +2447,7 @@
     var ask=h("button",{class:"char-act nf-primary",type:"submit"},"Ask");
     actions.appendChild(ask); form.appendChild(actions); form.appendChild(err);
     var result=h("div",{class:"ask-result"}); result.style.display="none";
-    var lastAsk=0;
+    var lastAsk=0, lastAnswer=null;
     function setBusy(b){ ask.disabled=b; ask.textContent=b?"Thinking…":"Ask"; }
     form.onsubmit=function(e){
       e.preventDefault();
@@ -2440,30 +2456,60 @@
       if(hp.value){ return; }                                // a bot filled the honeypot: say nothing, send nothing
       if(q.length<4){ err.textContent="Ask a real question."; err.style.display=""; qIn.focus(); return; }
       if(Date.now()-lastAsk<4000){ err.textContent="One at a time — wait a few seconds and try again."; err.style.display=""; return; }
-      lastAsk=Date.now(); setBusy(true); result.style.display="none";
+      lastAsk=Date.now(); setBusy(true); result.style.display="none"; lastAnswer=null;
       fetch("/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q,hp:hp.value,ms:Date.now()-loadedAt})})
         .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
         .then(function(x){
           setBusy(false);
           if(!x.ok||x.d.error){ err.textContent=(x.d&&x.d.error)||"Something went wrong — try again."; err.style.display=""; return; }
+          lastAnswer={question:q, answer:x.d.answer, citations:x.d.citations||[], citationsOmitted:x.d.citationsOmitted||0};
           result.innerHTML="";
           result.appendChild(h("div",{class:"ask-answer"},fmtAskAnswer(x.d.answer)));
-          if(x.d.citations&&x.d.citations.length){
-            var cw=h("div",{class:"ask-cites"}); cw.appendChild(h("div",{class:"muted"},"From:"));
-            var list=h("div",{class:"ask-cite-list"});
-            x.d.citations.forEach(function(c){
-              var a=h("a",{class:"ask-cite",href:"#/e/"+encodeURIComponent(c.id)}); a.textContent=c.name+" ("+LABEL[c.bucket]+")"; list.appendChild(a);
-            });
-            cw.appendChild(list);
-            if(x.d.citationsOmitted>0) cw.appendChild(h("div",{class:"muted ask-cite-more"},"+ "+x.d.citationsOmitted+" more entries considered"));
-            result.appendChild(cw);
-          }
+          if(x.d.citations&&x.d.citations.length) result.appendChild(renderAskCites(x.d.citations,x.d.citationsOmitted));
+          var saveRow=h("div",{class:"ask-save-row"});
+          var saveBtn=h("button",{class:"char-act",type:"button"},"💾 Save this answer");
+          saveBtn.onclick=function(){
+            if(!lastAnswer) return;
+            var a=savedAnswers(); a.push({id:uid(), ts:Date.now(), question:lastAnswer.question, answer:lastAnswer.answer, citations:lastAnswer.citations, citationsOmitted:lastAnswer.citationsOmitted});
+            saveSavedAnswers(a);
+            saveBtn.disabled=true; saveBtn.textContent="✅ Saved — view in Saved Answers";
+            saveBtn.onclick=function(){ location.hash="#/saved"; };
+          };
+          saveRow.appendChild(saveBtn); result.appendChild(saveRow);
           result.style.display="";
         })
         .catch(function(){ setBusy(false); err.textContent="Couldn't reach the Codex — check your connection and try again."; err.style.display=""; });
     };
     panel.appendChild(form); panel.appendChild(result); wrap.appendChild(panel);
     swap(wrap); window.scrollTo(0,0); qIn.focus();
+  }
+
+  // ---- Saved Answers (view/manage what "💾 Save this answer" above has stored) ----
+  function viewSavedAnswers(){
+    setActiveNav(null);
+    var wrap=h("div"); var head=h("div",{class:"list-head"});
+    head.innerHTML='<h2>📌 Saved Answers</h2><span class="meta">Ask answers you\'ve kept — stored on this device only, works offline, nothing sent anywhere to save one.</span>';
+    wrap.appendChild(head);
+    var rows=savedAnswers().slice().reverse();   // newest first
+    if(!rows.length){ wrap.appendChild(h("div",{class:"empty"},"Nothing saved yet. Ask a question, then tap “💾 Save this answer” under the reply.")); var go=h("button",{class:"char-act nf-primary"},"🤖 Ask the Codex"); go.onclick=function(){location.hash="#/ask";}; wrap.appendChild(go); swap(wrap); return; }
+    var bar=h("div",{class:"char-bar"});
+    bar.appendChild(h("div",{class:"char-count muted"}, rows.length+" saved"));
+    var clearAll=h("button",{class:"char-act"},"Clear all"); clearAll.onclick=function(){ if(!confirm("Delete all "+rows.length+" saved answers? This can’t be undone.")) return; saveSavedAnswers([]); viewSavedAnswers(); }; bar.appendChild(clearAll);
+    wrap.appendChild(bar);
+    rows.forEach(function(a){
+      var card=h("div",{class:"nf-panel ask-saved-card"});
+      var top=h("div",{class:"ask-saved-top"});
+      top.appendChild(h("div",{class:"ask-saved-q"}, a.question));
+      var del=h("button",{class:"char-act ask-saved-del",title:"Delete this saved answer"},"🗑");
+      del.onclick=function(){ if(!confirm("Delete this saved answer?")) return; saveSavedAnswers(savedAnswers().filter(function(x){return x.id!==a.id;})); viewSavedAnswers(); };
+      top.appendChild(del);
+      card.appendChild(top);
+      card.appendChild(h("div",{class:"muted ask-saved-date"}, new Date(a.ts).toLocaleString()));
+      card.appendChild(h("div",{class:"ask-answer"},fmtAskAnswer(a.answer)));
+      if(a.citations&&a.citations.length) card.appendChild(renderAskCites(a.citations,a.citationsOmitted));
+      wrap.appendChild(card);
+    });
+    swap(wrap); window.scrollTo(0,0);
   }
 
   // ---- "Rules I Always Forget" cheat page ----
@@ -2697,7 +2743,7 @@
     function navItem(label,href,cls){ var b=h("button",{class:"nav-cat gs"+(cls?" "+cls:"")}); b.textContent=label; b.onclick=function(){ location.hash=href; closeMenu(); }; return b; }
     // Getting Started
     var gs=h("div",{class:"nav-group"}); gs.appendChild(h("h4",null,"Getting Started"));
-    [["🤖 Ask the Codex","#/ask"],["✦ Start Here","#/"],["★ My Characters","#/fav"],["🕘 Recently Viewed","#/recent"],["▶ How to Play",howTo],["§ Glossary","#/c/rules/Definitions"]].forEach(function(x){ gs.appendChild(navItem(x[0],x[1])); });
+    [["🤖 Ask the Codex","#/ask"],["📌 Saved Answers","#/saved"],["✦ Start Here","#/"],["★ My Characters","#/fav"],["🕘 Recently Viewed","#/recent"],["▶ How to Play",howTo],["§ Glossary","#/c/rules/Definitions"]].forEach(function(x){ gs.appendChild(navItem(x[0],x[1])); });
     nav.appendChild(gs);
     // ✨ Cool Stuff — collapsible dropdown of tools
     var cool=h("div",{class:"nav-group nav-cool"});
@@ -2741,7 +2787,7 @@
   function safeDec(s){ try{ return decodeURIComponent(s); }catch(e){ return String(s); } }
   // ---- error recovery: wipe only the app's own state, never the rules DB ----
   function resetAppData(){
-    if(!confirm("Reset saved characters, Compare picks, recent items, and settings?\n\nYour library of rules is NOT touched. This can’t be undone.")) return;
+    if(!confirm("Reset saved characters, saved Ask answers, Compare picks, recent items, and settings?\n\nYour library of rules is NOT touched. This can’t be undone.")) return;
     try{ Object.keys(localStorage).filter(function(k){return k.indexOf("pf_")===0;}).forEach(function(k){ localStorage.removeItem(k); }); }catch(e){}
     location.hash="#/"; location.reload();
   }
@@ -2786,6 +2832,7 @@
     if(hash==="/weather") return viewWeather();
     if(hash==="/feedback") return viewFeedback(query);
     if(hash==="/ask") return viewAsk();
+    if(hash==="/saved") return viewSavedAnswers();
     if(hash==="/cheat") return viewCheat();
     if(hash==="/recent") return viewRecent();
     if(hash==="/timeline") return viewTimeline();
