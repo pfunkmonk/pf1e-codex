@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "94";
+  var DATA_V = "95";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2454,7 +2454,9 @@
             x.d.citations.forEach(function(c){
               var a=h("a",{class:"ask-cite",href:"#/e/"+encodeURIComponent(c.id)}); a.textContent=c.name+" ("+LABEL[c.bucket]+")"; list.appendChild(a);
             });
-            cw.appendChild(list); result.appendChild(cw);
+            cw.appendChild(list);
+            if(x.d.citationsOmitted>0) cw.appendChild(h("div",{class:"muted ask-cite-more"},"+ "+x.d.citationsOmitted+" more entries considered"));
+            result.appendChild(cw);
           }
           result.style.display="";
         })

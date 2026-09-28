@@ -231,9 +231,17 @@ export default async (req, context) => {
     answer = (data.content || []).map((c) => c.text || "").join("").trim();
   } catch (e) { return json({ error: "Claude API call failed: " + e.message }, 502); }
 
+  // `entries` is already highest-scored first (retrieve()'s order, preserved through Promise.all).
+  // The MODEL sees all of them — this cap is display-only. A broad question can retrieve 70-90
+  // entries; the answer is built from whichever of those actually address the question (per the
+  // system prompt), but showing 70+ citation chips is unreadable and defeats the point of citations
+  // being something a reader can actually check. Shown highest-scored first, with an honest count of
+  // what else was in context, rather than silently truncating and pretending that was everything.
+  const CITATION_DISPLAY_CAP = 24;
   return json({
     answer: answer || "No answer came back — try rephrasing the question.",
-    citations: entries.map((e) => ({ id: e.id, name: e.name, bucket: e.bucket, source: e.source })),
+    citations: entries.slice(0, CITATION_DISPLAY_CAP).map((e) => ({ id: e.id, name: e.name, bucket: e.bucket, source: e.source })),
+    citationsOmitted: Math.max(0, entries.length - CITATION_DISPLAY_CAP),
   });
 };
 
