@@ -343,6 +343,12 @@ table.gm-table th.rowh{font-weight:600;color:var(--ink);white-space:nowrap}
 .ask-cite{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink);text-decoration:none}
 .ask-cite:hover{border-color:var(--accent);color:var(--accent)}
 .ask-cite-more{margin-top:6px;font-size:13px}
+.ask-save-row{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.ask-saved-card{margin:0 0 14px}
+.ask-saved-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.ask-saved-q{font-weight:700;font-size:15px;color:var(--ink)}
+.ask-saved-del{flex:0 0 auto}
+.ask-saved-date{font-size:12.5px;margin:2px 0 12px}
 .nf-rhead{font-weight:700;font-size:15px;margin:2px 0 12px;color:var(--ink)}
 .nf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .nf-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:11px 13px;cursor:pointer;position:relative;transition:border-color .12s}

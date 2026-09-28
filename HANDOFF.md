@@ -208,6 +208,14 @@ The answer is rendered as light markdown in the app (`fmtAskAnswer` in `app.js`:
 needs some structure to stay scannable; a flat wall of text with the old `\n` → `<br>` rendering
 would not have held up at this length.
 
+**Saved Answers (`#/saved`, 2026-09-28).** "💾 Save this answer" under a result stores
+`{id, ts, question, answer, citations, citationsOmitted}` to `localStorage["pf_saved_answers"]` —
+same pattern as My Characters (`pf_chars`), works fully offline, nothing sent anywhere to save one.
+Capped at 200 (oldest dropped) so it can't fill the origin's storage quota. `resetAppData()`'s
+generic `pf_*` wipe already covers it — no separate code needed there, just the confirm text updated
+to mention it. `renderAskCites()` is shared between the live result and the saved list so citation
+rendering can't drift between the two.
+
 **Cost / abuse guards (2026-09-28):**
 - **Netlify's own platform rate limit** (`rateLimit` in the function's `config` export — a real
   edge-enforced feature, docs.netlify.com/manage/security/secure-access-to-sites/rate-limiting, NOT
