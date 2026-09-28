@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "92";
+  var DATA_V = "93";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2397,6 +2397,12 @@
     var form=h("form");
     var qIn=h("textarea",{placeholder:"e.g. how does flanking work? What's the DC to stabilize?",rows:"3",class:"fb-wide"});
     form.appendChild(qIn);
+    // Honeypot, same pattern as the feedback form: invisible to a person, filled by a bot that
+    // auto-fills every field. Paired with a minimum time-on-page — no one reads the prompt,
+    // thinks of a question and types it in under a second.
+    var hp=h("input",{type:"text",name:"website",tabindex:"-1",autocomplete:"off"}); hp.style.cssText="position:absolute;left:-9999px;width:1px;height:1px";
+    form.appendChild(hp);
+    var loadedAt=Date.now();
     var err=h("div",{class:"muted fb-err"},""); err.style.display="none";
     var actions=h("div",{class:"nf-actions"});
     var ask=h("button",{class:"char-act nf-primary",type:"submit"},"Ask");
@@ -2408,10 +2414,11 @@
       e.preventDefault();
       var q=qIn.value.trim();
       err.style.display="none";
+      if(hp.value){ return; }                                // a bot filled the honeypot: say nothing, send nothing
       if(q.length<4){ err.textContent="Ask a real question."; err.style.display=""; qIn.focus(); return; }
       if(Date.now()-lastAsk<4000){ err.textContent="One at a time — wait a few seconds and try again."; err.style.display=""; return; }
       lastAsk=Date.now(); setBusy(true); result.style.display="none";
-      fetch("/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q})})
+      fetch("/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q,hp:hp.value,ms:Date.now()-loadedAt})})
         .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
         .then(function(x){
           setBusy(false);
@@ -2665,14 +2672,14 @@
     function navItem(label,href,cls){ var b=h("button",{class:"nav-cat gs"+(cls?" "+cls:"")}); b.textContent=label; b.onclick=function(){ location.hash=href; closeMenu(); }; return b; }
     // Getting Started
     var gs=h("div",{class:"nav-group"}); gs.appendChild(h("h4",null,"Getting Started"));
-    [["✦ Start Here","#/"],["★ My Characters","#/fav"],["🕘 Recently Viewed","#/recent"],["▶ How to Play",howTo],["§ Glossary","#/c/rules/Definitions"]].forEach(function(x){ gs.appendChild(navItem(x[0],x[1])); });
+    [["🤖 Ask the Codex","#/ask"],["✦ Start Here","#/"],["★ My Characters","#/fav"],["🕘 Recently Viewed","#/recent"],["▶ How to Play",howTo],["§ Glossary","#/c/rules/Definitions"]].forEach(function(x){ gs.appendChild(navItem(x[0],x[1])); });
     nav.appendChild(gs);
     // ✨ Cool Stuff — collapsible dropdown of tools
     var cool=h("div",{class:"nav-group nav-cool"});
     var toggle=h("button",{class:"nav-cool-toggle"}); toggle.innerHTML='<span>✨ Cool Stuff</span><span class="nav-caret"></span>';
     var body=h("div",{class:"nav-cool-body"});
     [
-      ["At the table", [["⚔ Combat & Conditions","#/ref"],["🛡 GM Screen","#/gm"],["🧠 Rules I Forget","#/cheat"],["🤖 Ask the Codex","#/ask"]]],
+      ["At the table", [["⚔ Combat & Conditions","#/ref"],["🛡 GM Screen","#/gm"],["🧠 Rules I Forget","#/cheat"]]],
       ["Run the fight", [["⚔️ Encounter Builder","#/encounter"],["🎲 Random Encounter","#/randenc"],["⚡ Initiative Tracker","#/init"],["🪤 Trap Generator","#/trap"],["🎴 Crit & Fumble Deck","#/critfumble"]]],
       ["Loot & flavor", [["💰 Treasure Generator","#/treasure"],["🪄 Magic Shop","#/shop"],["🍺 NPC Spark","#/npc"],["🏷 Name-a-Thing","#/thing"],["🎲 Name Generator","#/names"],["🌦 Weather & Moon","#/weather"]]],
       ["Build & character", [["🕸 Feat Web","#/featweb"],["📈 Class Progression","#/timeline"],["📜 Spell Pricer","#/spellprice"],["➕ Bonus Stacking","#/stacking"]]],

@@ -185,12 +185,30 @@ hard way (memory `tth-ask-rules-lookup`): lead with the rule and its numbers, en
 asked for one, always state limits, refuse to invent a limit or rule that wasn't in the retrieved text,
 under 150 words. `max_tokens` is capped at 500 to bound cost per call.
 
-**Cost / abuse guards — best-effort, not a hard guarantee:** question length capped (4–300 chars), a
-per-IP soft rate limit held in the function's module scope (resets on a fresh Lambda container, so a
-caller spread across many cold starts could exceed it), and a same-origin check on the request's
-Origin header (trivially spoofable server-to-server, but stops another site's page from quietly
-burning the key through a visitor's browser). **The real backstop is a monthly spend cap set on the
-Anthropic console** — only the account owner can set that; nothing here enforces it.
+**Cost / abuse guards (2026-09-28):**
+- **Netlify's own platform rate limit** (`rateLimit` in the function's `config` export — a real
+  edge-enforced feature, docs.netlify.com/manage/security/secure-access-to-sites/rate-limiting, NOT
+  something defined in `netlify.toml` for a function): 6 requests/60s per IP, blocked with a 429
+  before the request even reaches this function's code. This is the actual defense against a bot or
+  a script hammering the endpoint — the in-function `rateLimited()` below it is a second, much
+  weaker layer (state held per warm Lambda container, so a caller spread across cold starts can
+  exceed it; kept anyway as defense in depth, effectively free).
+- **Honeypot + minimum time-on-page** on the client form (`viewAsk` in `app.js`, same pattern as the
+  feedback form): a hidden field a script auto-fills, and a submit under 1.2s after the page loaded,
+  both rejected server-side before retrieval or an API call — stops a scripted browser filling the
+  actual form, though not a bot that skips the form and POSTs `/ask` directly (the rate limit above
+  is what stops that one).
+- Question length capped (4–300 chars); `max_tokens` capped at 500 on the Claude call; a same-origin
+  check on the request's Origin header (trivially spoofable server-to-server, but stops another
+  site's page from quietly burning the key through a visitor's browser).
+- **None of the above caps total dollars spent — only Anthropic's own limit does that, and only at
+  MONTHLY granularity** (the Console has no daily option). Set it at
+  console.anthropic.com → Settings → **Plans & Billing → Spending Limits** (organization-wide) or
+  **Settings → Workspaces → \<workspace\> → Limits** (scoped to one workspace/key — create a
+  dedicated workspace for the Codex's key if you want this isolated from any other project's spend).
+  Anthropic alerts at configurable thresholds (e.g. 50/75/90%) before the hard cap hits, at which
+  point further calls 429 rather than keep charging. This is a manual dashboard step only the
+  account owner can do — nothing in this repo can set it.
 
 **Deliberately NOT under `/api/*`.** That path already carries a public, CORS-open, 5-minute-cached
 header block meant for the static JSON API; `/ask` is same-origin-only and per-request dynamic, so it
