@@ -599,7 +599,43 @@ to `creature-` for the same reason.
 
 ---
 
-## Status — the art programme is COMPLETE
+## Art round 2 (2026-09-29) — target tightened to ~14 pages/image, 2,165 more prompts commissioned
+
+Retargeted with `node tools/size-variants.mjs --target 14 --apply` (was 20 — the "do not go below
+~20" line below is now superseded). Delivered as `PF1e-Codex-Art-Prompts-BATCH17` … `BATCH24` to
+`C:\Users\mailp\Dropbox\pipsprojects-handoff\CODEX ART PROMPTS` (BATCH10–16 from the previous round
+were only ever delivered as prompts there too — check that folder before assuming either round's
+images exist yet; `art-packs/BATCH10-24-keys.json` in the repo are pending manifests, not proof of
+ingestion). BATCH24 is hand-written, not generator output — see the gap below.
+
+Three things worth knowing before the next round repeats this work:
+
+- **`DUMP_NEEDS` (the env var `gen-art-prompts.mjs` uses to report shortfalls) only sees two of the
+  three art-declaration systems** — named art and `data/themes.js` keyword themes. It is blind to
+  the third, **body motifs** (`tools/art-scenes-motifs*.mjs`, `BODY_MOTIF_SCENES` in
+  `art-scenes-spells.mjs`): a motif shortfall only ever produces a hard "REFUSING TO GENERATE" with
+  no NEEDS entry, so a `DUMP_NEEDS` pass alone will silently miss a real gap. Diagnose a refusal
+  with `node tools/gen-art-prompts.mjs ... > out.log 2>&1` (redirect order matters — `2>&1 > out.log`
+  drops stderr) and read what actually printed, not just the NEEDS dump.
+- **`PRESENT` (what the generator treats as "already have it") only checks `data/art.js`, not
+  anything already committed to an `art-packs/*.json` manifest.** A plain re-run after committing a
+  batch's keys will re-list every prompt from every prior round, cumulative, forever. To get a
+  "new-only" plan: temporarily merge all existing pack keys into a scratch copy of `data/art.js`,
+  generate to a throwaway `OUT` dir, then revert `data/art.js` and confirm with `git diff --stat --
+  data/art.js` that it's byte-identical to what's committed.
+- **5 small variety categories have no generator batch section at all** (3rd-party drawbacks,
+  3rd-party traits, the clockwork and illumination spell schools, the tools trait) — not a bug,
+  just never wired. BATCH24 covers them by hand, in the house style, so a future generator pass that
+  adds support for them should recognize those 10 keys as already covered rather than re-commission
+  them.
+
+Also found and fixed while closing out `check-coverage`: 5 stale keys in the old `BATCH10-keys.json`
+(`theme-feats-fire-13`…`-17`) that the target=14 resize orphaned (that theme shrank 17→7 variants) —
+trimmed from the manifest; skip generating them if you haven't already.
+
+---
+
+## Status — the art programme is COMPLETE (baseline below is the v72 snapshot — see round 2 above)
 
 **All 3,959 images are drawn, ingested and live** (v72). Named art finished at 1,652; the
 seven theme batches added 2,132; the class-option recovery added the last 175. Every pack regenerates to **0 prompts**, every
@@ -611,9 +647,10 @@ the body-motif layer now catches first (all 22 `opt-wild-talents`, most `trait-<
 `hazard-<category>` sets). They are kept deliberately as a safety net if a motif regex is ever
 narrowed — `check-used` will list them, and that is expected, not a defect.
 
-Worst-case load is now ~30 pages per image, down from 2,010. The one deliberate exception is
-`class-cavalier` at 55: those are the cavalier orders, and giving all of them cavalier art is
-correct.
+Worst-case load is now ~30 pages per image, down from 2,010 (pre-round-2; round 2 retargets to ~14
+pages/image — see above, count not yet re-measured post-round-2 since those images aren't ingested
+yet). The one deliberate exception is `class-cavalier` at 55: those are the cavalier orders, and
+giving all of them cavalier art is correct.
 
 ⚠ **The 1,652 batch-1..9 originals are 1600x900; everything newer is 1280x720.** Their source PNGs
 are still in the Box folder, so a plain ingest leaves them alone. `--replace` would silently
@@ -628,7 +665,8 @@ to restrict to one batch. Generation runs about 12 hours per 300 images.
 
 **Do not go below ~20 pages per image** — it costs several batches for a difference no reader
 perceives. Spend it on named art instead. And never commission per-entry art for all 25,926
-entries: that is ~86 batches.
+entries: that is ~86 batches. **(Superseded by round 2, 2026-09-29 — retargeted to ~14. The user
+made this call explicitly this round; do not revert it on your own read of this older note.)**
 
 ### The seven checks, and what each is for
 
