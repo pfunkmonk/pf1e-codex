@@ -1,18 +1,18 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "98",
+  "dataVersion": "99",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 50880,
+    "entries": 50881,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
-      "nameFirst": 3653,
+      "nameFirst": 3654,
       "sourceFirst": 12478,
       "other": 34749
     }
@@ -87,7 +87,7 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 8125,
+      "count": 8126,
       "list": "items.json",
       "categories": {
         "Altars": 22,
@@ -98,6 +98,7 @@
         "Equipment": 251,
         "Favors": 5,
         "Intelligent Items": 32,
+        "Items": 1,
         "Magic Equipment": 125,
         "Miscellaneous": 2457,
         "Pharmaceuticals": 11,

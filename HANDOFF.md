@@ -259,6 +259,55 @@ function. No `package.json`/dependencies needed — the function uses only `fetc
 
 ---
 
+## AoN coverage audit (2026-09-29) — read before ever trusting "N missing" from a URL-key diff
+
+Asked "what else is missing from the AoN/d20pfsrd scrapes," found `~/dev/aon-database-builder` could
+build a full, fresh `pages.jsonl` from the real raw scrape (`C:\Users\mailp\OneDrive\Desktop\AON PAGES
+PARSED\START`, 49,000 files — the earlier small `output/` sample in that repo was NOT the full corpus,
+don't mistake it for one again) via `python aon_builder.py <START> --output <dir>` (Python at
+`C:\Users\mailp\AppData\Local\Programs\Python\Python312\python.exe`). That let d20pfsrd-style rigor
+(re-derive names from the raw pages themselves, not guess) replace the book-title spot-check this
+started as.
+
+**d20pfsrd: re-ran `d20-match.mjs --snap D:/CODEX/d20-pilot` fresh against the current Codex.** Of
+40,123 entry-kind pages, 39,942 are correctly-excluded duplicates and every one of the remaining 181
+"held" pages checks out as a genuine duplicate on inspection (exact "same text as the existing row",
+or an inverted name form like Shortsword/Short sword). Nothing missing there.
+
+**AoN: an 8-category URL-key diff first claimed 298 items + 6 feats + 2 deities + 18 rules pages
+missing. Owner asked to verify it wasn't duplicative of the d20pfsrd import before importing anything
+— that check is what found the diff itself was wrong, not the data:**
+1. **The item "gaps" were a matching bug, not missing content.** AoN's `ItemName=` query value is
+   often a DISAMBIGUATOR for one row of a price table ("Ale (mug)"), not the entry's real name
+   ("Ale") — the Codex already had the real entry. Re-deriving each candidate's actual on-page name
+   (strip AoN's own pipe-separated category nav chips — see `deeperTraitCat`-style parsing, same
+   family of bug as the trait-facet one — then take the first content line) and checking BOTH
+   substring directions against every existing item name dropped 298 (of a sloppier 156-unique-page
+   count) to **1**, checked against all 3,849 unique item pages this time, not just the original 298.
+2. **The feat/rules "gaps" were a silent scrape fallback.** All 6 "missing" feats and all 18 "missing"
+   rules pages turned out to be the IDENTICAL page byte-for-byte (same `content_sha256`) — AoN's
+   generic category-browse page, returned with HTTP 200 for a query string that doesn't resolve to a
+   real entry. Confirmed live (not just in the archived scrape): `FeatDisplay.aspx?ItemName=Augmented
+   Summoning` on the real site today also silently falls back to the generic Feats page. **A 200
+   status is not proof a page is real — a content-hash collision across "different" candidates is
+   the tell.** 1 of 2 "missing" deities was the same story; the other ("Nyarlathotep (Haunter of the
+   Dark)") was a real page but a duplicate of the "Nyarlathotep" the Codex already has, reached via a
+   third URL alias.
+3. **What survived, hand-verified against both the Codex and the FULL d20pfsrd raw archive (zero
+   hits in either):** one entry — **Spices** (items, *Adventurer's Guide* pg. 14, seven named spices
+   with distinct disease/environment-resistance benefits). Recovered by
+   `tools/import-aon-orphans-2026-09-29.mjs` (same id-minting family as `import-typed-orphans.mjs`:
+   `pf1e-codex-typed|bucket|name`; same body convention as every other original row — no appended
+   license paragraph, the site's blanket AoN attribution already covers it).
+
+**Archetypes and traits: 100%/100%** (1,320/1,320 — AoN's `FixedName` param is already class-prefixed
+exactly like the Codex, no ambiguity; traits matches the earlier facet-merge audit). Spells, monsters,
+NPCs, and prestige classes were also checked at 100% before the matching-bug fix, so those numbers
+already stood. **Net result of the whole audit: the Codex's AoN coverage was already effectively
+complete.** The lesson worth keeping for the next one: never trust "N missing" from a raw key diff
+without re-deriving names from actual page content and checking for content-hash collisions across
+the "missing" set — both of those checks are what turned 324 false alarms into 1 real one.
+
 ## Data
 
 All content is static JS assigning `window.PF_*` globals. There is no backend.
