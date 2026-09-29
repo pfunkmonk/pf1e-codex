@@ -1,5 +1,9 @@
-/* Scene lines written AFTER the d20pfsrd import grew the buckets (2026-09-24), so the themes could be resized to <= ~20 pages per image.
- * Keyed "bucket/theme" or by variety-set name; tools/gen-art-prompts.mjs appends each list to the existing scenes. */
+/* Scene lines written after the AoN art audit (2026-09-29): size-variants.mjs was retargeted to
+ * ~14 pages/image (from ~20), adding roughly 1,900 new theme/variety slots across feats, items,
+ * spells, monsters, archetypes, schools, rules and the generic scene pools. Written by 14 parallel
+ * agents, one file section each, merged by tools/../merge (scratchpad, not in repo).
+ * Keyed "bucket/theme" or by variety-set name; tools/gen-art-prompts.mjs appends each list to the
+ * existing scenes. */
 export const EXTRA = {
  "monster-scene": [
   "A griffon perched on a wind-scoured crag, wings half-mantled over a torn deer carcass as storm clouds gather behind it.",
@@ -347,7 +351,269 @@ export const EXTRA = {
   "A dragon's hoard glittering in a vaulted cavern, a single knight's long shadow at the entrance.",
   "A small drake curled asleep on an open spellbook by a rain-streaked window, a candle burning low.",
   "A dark forest trail where an enormous black stag stands across the path, breath misting in a shaft of moonlight.",
-  "A deep-sea trench where a gigantic glowing-lured predator draws a diver's lantern toward its jaws."
+  "A deep-sea trench where a gigantic glowing-lured predator draws a diver's lantern toward its jaws.",
+  "A torch gutters in a flooded dungeon crypt as clawed fingers drag along a submerged sarcophagus lid just out of the light.",
+  "A miner's canary cage swings from a nail as a chittering, segmented shape retreats deeper into a collapsed shaft.",
+  "A stalactite chamber drips steadily onto the back of a hunched, pale-skinned predator feeding in total darkness.",
+  "A dungeon crossroads with three passages, and fresh drag marks in the dust leading down the one nobody chose.",
+  "A prisoner's shackles hang empty in a cell whose bars have been bent outward from the inside.",
+  "A subterranean bridge of fused bone arches over a chasm where something vast breathes in slow, rhythmic gusts below.",
+  "An abandoned mining cart lies on its side in a tunnel, ore spilled and a huge clawed handprint pressed into the stone dust.",
+  "A moss-slick well shaft drops into darkness, and a rope ladder sways though no one is climbing it.",
+  "A woodcutter's felled log rolls aside on its own as something coils beneath the sawdust and bark.",
+  "A ring of toppled pines marks where something enormous pushed through the canopy at speed.",
+  "Sunbeams pierce old-growth trees onto a wallowing, tusked shape scratching its back against a boulder.",
+  "A forest hollow smells of copper, and a trail of broken saplings leads toward a low growl.",
+  "A hiker's abandoned pack lies open on the trail, its straps shredded and berries scattered across the moss.",
+  "A rotted stump serves as a den entrance, steam rising from the hole despite the cold morning air.",
+  "A flooded cypress grove at midnight where luminous eyes blink open in a ring around a stranded canoe.",
+  "A bog hunter poles silently past a half-submerged log that exhales through unseen gills.",
+  "A marsh causeway sinks under the weight of something crossing it just out of sight in the fog.",
+  "A peat-cutter's spade lies abandoned beside a fresh hole shaped like nothing human.",
+  "A goat trail switchbacks above a gorge where a horned silhouette watches from an outcrop, utterly still.",
+  "A climber's rope, cut clean, dangles from a ledge where claw gouges scar the rock face.",
+  "A mountain hut's smoke hole widens as something forces its shoulders through from outside.",
+  "A scree slope rattles loose under unseen weight, sending stones bouncing past a startled goatherd.",
+  "A dune's crest ripples unnaturally against the wind, sand sheeting off something moving just beneath the surface.",
+  "A desert well is ringed with cracked bones, and a leathery wing-tip flicks above the rim.",
+  "A sandstorm parts for a moment to reveal an armored, segmented back longer than the caravan itself.",
+  "A pearl diver surfaces gasping as something vast and finned circles beneath her in the blue dark.",
+  "A tide pool boils with movement as a barnacled claw closes slowly around a dropped fishing net.",
+  "A becalmed ship's crew leans over the rail, watching phosphorescence trace the shape of something enormous passing beneath the hull.",
+  "A coastal cave floods twice daily, and at low tide something huge is left stranded, thrashing in the shallow pools.",
+  "A rowboat drifts empty in a foggy cove, oars still shipped, while ripples spread from a point no wind explains.",
+  "A city watchman's lantern catches something too large crouched atop the guildhall's slanted roof.",
+  "A butcher's alley runs red before dawn, and the shutters of every nearby window are barred tight.",
+  "A well in the town square has gone dry overnight, and a faint scraping sound rises from its depths.",
+  "A child's chalk drawing on a cobblestone street shows a creature none of the adults will name aloud.",
+  "A night watch patrol freezes at a rooftop silhouette too tall and too still to be a chimney.",
+  "A dogsled team refuses to cross a ridge where the snow bears prints wider than a bear's.",
+  "An ice floe groans and splits as something rises between the cracks, breath fogging in the polar air.",
+  "A trapper's cache is torn open at the seams, its contents scattered across the frost in a wide circle.",
+  "A shepherd shields his eyes as a vast winged shadow eclipses the sun over his flock for a long, silent moment.",
+  "A tower bell tolls as something enormous lands on the belfry, wings folding slow as a closing door.",
+  "A hot air balloon's basket tips sharply as a flying shape banks past close enough to ripple the silk.",
+  "A caravan halts at the edge of a valley where the distant hills are breathing.",
+  "A dry riverbed reveals itself to be a single enormous footprint, still filling slowly with rain.",
+  "A lighthouse crew watches something rise from the horizon taller than their tower, blotting out the moon.",
+  "A beekeeper's smoker trembles in his hand as a droning cloud far larger than any hive pours from a hollow tree.",
+  "A grain silo's doors bulge outward as a chittering mass presses against them from within.",
+  "A picnic blanket lies abandoned mid-meal, ants the size of thumbs marching in formation across the cloth.",
+  "A funeral procession halts as mist gathers unnaturally thick over the newest grave, forming a shape that leans.",
+  "A chapel's stained glass rattles though there is no wind, and a shadow crosses the aisle from nowhere.",
+  "A lantern flame turns blue and gutters as something with no footsteps approaches down the crypt stair.",
+  "A herd of grazing cattle scatters in every direction from a patch of grass that never stops rippling.",
+  "A scout on horseback reins in hard at a ring of flattened grass far too wide for any camp.",
+  "A lone tree on the prairie casts a shadow that moves independently of the setting sun.",
+  "A garden trellis blooms overnight into thorned vines thick as rope, closing slowly around the greenhouse door.",
+  "A ring of mushrooms pulses faintly with light as something small and quick darts between the caps.",
+  "An orchard's oldest tree splits its bark into something resembling a watchful, patient face.",
+  "A milkmaid's pail lies overturned in the yard, and the barn door stands open on a darkness that seems to look back.",
+  "A scarecrow's post stands empty at dawn, straw scattered in a trail leading toward the treeline.",
+  "A farmhand counts his flock twice and comes up short both times, boot prints ending abruptly at the fence.",
+  "A cave painter's torch reveals fresh claw marks scored directly over an ancient, faded mural of the same beast.",
+  "An echo chamber deep underground answers a spelunker's shout with a second voice that isn't hers.",
+  "A crystal cave hums faintly, its light catching on scales pressed flat against the ceiling above the climbers' heads.",
+  "A collapsed temple courtyard where a stone idol's eyes have been replaced, disturbingly, with something that blinks.",
+  "An overgrown ziggurat step bears a single, recent handprint far too large to belong to any looter.",
+  "A sunken amphitheater fills slowly with brackish water while something patient waits beneath the front row.",
+  "A caravan guard counts the wagons twice, certain one shadow among them doesn't belong to any cart.",
+  "A riverside washerwoman drops her basket as the current itself seems to flex and turn upstream.",
+  "A cooper's barrels are stacked wrong come morning, rearranged into a rough circle around a wet, clawed print.",
+  "A monastery's silent hour is broken by a low chime from the well, though the bucket hangs untouched.",
+  "A border patrol's map shows a river that wasn't there yesterday, cutting straight through a forest that was.",
+  "A glassblower's kiln goes cold at once as something with too many joints unfolds from the chimney flue.",
+  "A lonely windmill's sails turn against a windless night, creaking under a weight settled on the frame.",
+  "A quarry pit's freshest cut stone shows drag marks leading down into water no one remembers filling it.",
+  "A festival lantern parade scatters as one paper lantern proves to be a glowing eye, blinking slow.",
+  "A ferryman poles his boat past a sandbar that shifts and resettles the moment his back is turned.",
+  "A vineyard's oldest row of vines has grown into a rough lattice cage, something curled and dozing within it.",
+  "A cartographer's ink smudges as her hand shakes, sketching a creature glimpsed only for a heartbeat past the treeline.",
+  "A smithy's bellows keep pumping on their own, stoking coals no smith is tending, shadows too long on the wall.",
+  "A shepherd's dog refuses to cross a stream, hackles raised at a current running the wrong direction.",
+  "A wine cellar's oldest cask has swollen and split, a faint rhythmic tapping coming from somewhere inside.",
+  "A rope-maker's coil unspools itself across the workshop floor, sliding toward the open door under its own weight.",
+  "A watermill's wheel jams solid, gripped by something clinging to the paddles from beneath the surface.",
+  "A traveling circus tent sags oddly in the center ring, its strongman's chains rattling though the cage stands empty.",
+  "A lonely toll bridge keeper refuses payment from anyone crossing after dark, citing something that already crossed twice.",
+  "A cooper's apprentice swears the barrel of salted fish shifted position on the cart when no one was looking.",
+  "A hillside quarry echoes with a low, resonant hum answered a moment later from deep within the rock face.",
+  "A frontier stockade's watchfire throws shadows twice as tall as the palisade it's meant to guard.",
+  "A moonlit hayfield ripples in a straight, deliberate line against the wind, heading toward the farmhouse.",
+  "A candlemaker's shop smells of tallow and something wilder, a trail of melted wax leading to a locked cellar door.",
+  "A dry canal bed cracks open along its length as something long uncoils from beneath the old cobblestones.",
+  "A lonely bell-tower keeper stops ringing the hour, certain something in the belfry is ringing along with her.",
+  "A traveling merchant's caged exotic bird has grown too large for its cage overnight, feathers pressed against the bars.",
+  "A tannery's stretched hides flutter though the workshop door is shut, one hide bearing scars still healing.",
+  "A dockworker's crate marked live cargo begins to rock steadily on the pier, rope creaking under strain.",
+  "A hunting lodge's mounted trophies seem to have rearranged themselves by morning, all facing the same locked door.",
+  "A snowbound trading post loses its lanterns one by one, the dark closing in from the treeline.",
+  "A moonlit ice-fishing hole widens on its own, black water lapping over the edges of the auger cut.",
+  "A cathedral crypt's newest tomb lies cracked from the inside, dust settling over footprints leading up the stairs.",
+  "A traveling puppeteer's largest marionette twitches on its strings without a hand to guide it.",
+  "A silvery mist rolls off a moonlit lake, parting around a shape wading slowly toward the shoreline reeds.",
+  "A border watchtower's bell rings once at midnight, its rope still swinging though the wind has stopped.",
+  "A hollow log bridge across a ravine groans under a weight far greater than any traveler who's crossed it.",
+  "A snowdrift outside a lonely cabin holds a single, enormous clawed print, already half-filled with fresh snow.",
+  "A dry lakebed's cracked mud holds an impossibly large, fresh trackway leading toward the only remaining pool of water.",
+  "A fairground carousel of carved wooden beasts seems one animal too many by lantern light, its extra rider breathing.",
+  "A coastal smuggler's cave floods at high tide, and something native to the dark water waits for the current to turn.",
+  "A traveling knight's warhorse bolts mid-ride, ears pinned back at a hedgerow rustling with no wind to explain it.",
+  "A lonely toll road winds through a rock cut where fresh claw scores gouge both walls at shoulder height.",
+  "An abandoned watermill's grinding stone turns on its own, powered by something submerged and patient in the sluice.",
+  "A traveling apothecary's satchel of rare ingredients includes, unlabeled, a single tooth longer than her forearm.",
+  "A frost-glazed pond cracks in a spreading star pattern beneath something surfacing to test the thin ice.",
+  "A candlelit séance circle scatters as the table itself is lifted an inch off the floor and set back down.",
+  "A hillside monastery's silent monks form a loose ring around a bell that has begun, faintly, to hum.",
+  "A shipbuilder's half-finished hull groans in dry dock, timber flexing as if something restless slept inside it.",
+  "A moonlit archery range's target bales have been dragged into the treeline overnight, arrows still embedded.",
+  "A pilgrim's road shrine is found toppled at dawn, its offerings gone and a scorch mark shaped like a wingspan on the stone.",
+  "A lonely ice-locked harbor creaks as something surfaces between two frozen ships, breaking the ice like glass.",
+  "A traveling menagerie's newest cage is padlocked three times over, its occupant pacing a shadow too long for the bars.",
+  "A riverside mill town wakes to find every fish in the millpond dead and floating, the water gone strangely warm.",
+  "A hunting party's return is one short, and the missing man's horn is found still looped over a low branch, uncracked.",
+  "A cathedral's gargoyle drainspouts run dry all at once, water rerouted somewhere within the stone itself.",
+  "A frontier homestead's root cellar door is barred from the inside, and something knocks twice, patiently, each hour.",
+  "A moonless harbor night hides a shape gliding between the fishing boats, ropes going taut one by one.",
+  "A lonely wayside inn loses its stabled horses overnight, the stable door still latched and the straw undisturbed.",
+  "A traveling scholar's specimen jar holds a single scale the size of a dinner plate, still faintly warm to the touch.",
+  "A quiet millpond's surface breaks in a slow, deliberate ripple heading directly toward a child's dropped fishing rod.",
+  "A cliffside goat path ends abruptly at a smear of scorched stone and a lingering smell of sulfur.",
+  "A caravan's rearguard vanishes between two watch shifts, leaving only a trampled circle of grass and a dropped lantern.",
+  "A moonlit dockside crane creaks under a net load far heavier than the fish it was meant to haul.",
+  "A snow-blind traveler follows footprints back to a cave, only to realize the prints are walking toward him now.",
+  "A lantern-lit toll gate stands abandoned at dusk, its ledger open to an entry logged for something with no name to give.",
+  "A subterranean fungal cavern where spores drift like snow around a lumbering, mushroom-crusted horror rooting through the loam.",
+  "A collapsed subway-like tunnel of ancient make, rails rusted, where a segmented burrower coils around a shattered support pillar.",
+  "A crystal geode chamber glowing violet, and a translucent cave-dwelling predator drifting between the spires like smoke.",
+  "A miners' abandoned elevator shaft plunging into blackness, chains creaking, as something climbs hand over hand far below.",
+  "A subterranean waterfall cascading into a black lake, and a webbed, milky-eyed hunter crouched on the slick rocks at its base.",
+  "A cramped ossuary tunnel packed floor to ceiling with bones, and a gaunt shape squeezing itself between the stacked skulls.",
+  "A gas-choked cavern lit by burning methane vents, where a heat-blistered beast basks with its ribs glowing faintly through translucent skin.",
+  "A dwarven vault long since breached, its door torn from its hinges, and something with too many joints folding itself through the gap.",
+  "An underdark bazaar of moss-lit stalls gone silent, upturned crates and a scatter of coins leading toward a widening crack in the cavern floor.",
+  "A root-choked cavern ceiling where a colony of pale, clawed climbers hang motionless, mistaken for stalactites until one turns its head.",
+  "A flooded mine shaft where lantern light catches a ring of eyes just beneath the black water's surface, all facing the same direction.",
+  "A cavern of enormous mirrored quartz where a stalking predator's reflection appears in a dozen facets before the creature itself is seen.",
+  "An echoing sinkhole shaft with a rope ladder swaying, and something vast breathing slow and steady in the dark below the last rung.",
+  "A buried temple crypt where sand pours steadily from a crack in the ceiling onto the coiled back of something that has slept there for centuries.",
+  "A narrow crawlspace between cave walls slick with mucus, a trail of shed carapace fragments leading deeper into the dark.",
+  "A gnome tunnel-town abandoned mid-meal, bowls still steaming, and clawed gouges dragging from the doorway into a side tunnel.",
+  "A deep cistern chamber where a blind, eel-bodied thing thrashes at the sound of a dropped coin, sending ripples up the shaft.",
+  "A cave-in still settling, dust sifting through torchlight, and a massive clawed hand pushing free of the rubble.",
+  "A phosphorescent lichen cavern where a horned burrower the size of an ox noses along a seam of glittering ore.",
+  "A forgotten dwarven forge-hall cooled to ash, and a molten-veined creature stirring awake in the dead furnace pit.",
+  "A thunderhead split by lightning with a vast winged shape gliding motionless at its heart, wings catching the flash.",
+  "A hot air balloon's basket swaying as its passengers point in alarm at a feathered predator matching their altitude off the starboard rope.",
+  "A flock of pilgrims' banners snapping atop a mountain shrine as a horned aerial hunter stoops out of the sun toward the bell tower.",
+  "A cloud sea at dawn broken only by the dorsal spines of something enormous cresting through the mist like a whale through water.",
+  "A siege balloon corps scattering their formation as a leathery-winged shape tears through the line, smoke trailing from a struck gasbag.",
+  "A monastery built into a sheer cliff face where monks ring alarm bells as a shrieking flock wheels in tight formation overhead.",
+  "A rope-and-basket sky ferry between two floating rock islands, its cable groaning as something clings unseen to the underside.",
+  "A hang glider pilot banking hard over a canyon as a much larger set of wings rises to match her, feathers catching the last light.",
+  "A storm-wracked lighthouse with something vast and pale-winged riding the gale just off the beam, unbothered by the wind that bends the trees below.",
+  "A trade dirigible's crew hauling in nets at dusk, one net thrashing with a captured juvenile flyer while its furious parent circles above.",
+  "A canyon updraft thick with dust where a serpentine flying shape rides the thermal in slow, deliberate spirals above a caravan.",
+  "A kite festival interrupted as every child looks up at once toward a silhouette gliding between their painted kites, far too large to be one of them.",
+  "A watchtower's alarm horn sounding at dusk as archers scramble to the parapet, a winged shadow already passing low over the outer wall.",
+  "A glider squad of scouts diving through fog banks, only to find a second set of wings pacing them just out of sight.",
+  "A windswept plateau where nomads stake tents low to the ground, watching a distant, patient circling shape that never seems to land.",
+  "A coral atoll lagoon at midday where snorkeling children are called ashore as a shadow the size of a ship slides beneath the reef.",
+  "A deep-sea diving bell's porthole fogging with breath as something with too many eyes presses a webbed hand flat against the glass.",
+  "A becalmed galleon's crew leaning over the rail to watch phosphorescent ripples circle the hull in a slow, deliberate pattern.",
+  "A pearl diver surfacing in a panic, rope cut clean, bubbles still rising from the dark water where her partner went down.",
+  "A tide pool at low tide swarming with iridescent, many-legged scavengers picking a beached carcass down to bone.",
+  "An underwater cave system lit by bioluminescent algae, a slow-finned leviathan drifting through the blue glow like a passing cloud.",
+  "A fishing fleet's nets hauled up torn and empty, sailors crossing themselves at the acid-etched gouges scored across the gunwale.",
+  "A sunken city's drowned plaza where an armored, barnacle-crusted guardian still stands sentinel over a collapsed archway.",
+  "A storm surge pushing a beached, gasping colossus onto the sand as villagers scatter their nets and run for high ground.",
+  "A brine lagoon at dusk where salt-crusted mangroves conceal the ridged back of something venting steam through a blowhole.",
+  "A ship's figurehead snapped clean off, floating in an oil-slick wake as the crew reloads harpoons with shaking hands.",
+  "A kelp forest canopy parting as a spined predator threads silently between the fronds, eyes tracking a school of divers above.",
+  "A drowned lighthouse keeper's logbook, its last entry smeared with salt water, open beside a window shattered from the outside.",
+  "A whaling ship's deck awash with seawater as a rival predator far larger than their quarry surfaces alongside, jaws wide.",
+  "A tidal cave mouth sealed at high tide, muffled thumping audible from within, barnacles growing thick over an old iron grate.",
+  "A brackish river mouth where fishermen burn signal fires along the bank, watching V-shaped wakes converge on their anchored boats.",
+  "An abyssal trench vent field glowing red where blind, armored crustacean-like horrors cluster around the mineral-rich heat.",
+  "A shipworm-riddled hull sinking slowly at anchor, its cargo hold already claimed by something that has made a nest of the ballast.",
+  "A moonlit atoll where turtles nesting on the sand freeze as a rippling wake approaches from the surf line, patient and unhurried.",
+  "A drowned forest estuary, treetops breaking the surface, where a serpentine shape winds silently between the waterlogged trunks.",
+  "A crowded night market stall abruptly emptying as a chittering shape drops from the awning ropes into the lantern light.",
+  "A city aqueduct's overflow grate pried loose from the inside, muddy prints leading out into a sleeping residential square.",
+  "A guildhall's cellar door bricked over twice, the newer mortar already cracked outward from something pressing against it.",
+  "A rooftop washing line snapping in a gust as a taloned shape lands silently among the chimney pots, watching a lit window.",
+  "A cathedral's flying buttresses crowded with roosting shapes at dusk, bells tolling as the entire colony lifts off at once.",
+  "A bathhouse's steam-fogged windows silhouetting a hunched shape that does not belong among the ordinary bathers.",
+  "A city wall's postern gate standing ajar at dawn, the guard's spear abandoned upright in the mud beside it.",
+  "A tanner's district alley thick with hide-curing stink, drawing something low and hungry to sniff at the drying racks after dark.",
+  "A theater's backstage trapdoor left open after the final act, a stagehand's lantern rolling loose down into the understage dark.",
+  "A canal barge gliding under a low bridge as passengers duck instinctively from a shape roosting in the brickwork above.",
+  "A clocktower's gears grinding to a halt, jammed by something enormous and patient curled inside the mechanism.",
+  "A city orphanage's courtyard wall scored with claw marks well above a grown man's reach, chalk outlines of hopscotch still visible below.",
+  "A guard captain's lantern swinging over a flooded cellar stair, torchlight catching the ripple of something surfacing between the barrels.",
+  "A rain-slicked cobbled square emptied of its evening crowd, every shutter barred, as something drags its bulk unhurried past the fountain.",
+  "A tanner's cart overturned at a crossroads shrine, hides scattered and a trail of huge, splayed prints crossing into a temple courtyard.",
+  "A shimmering rift in a temple wall pulsing with alien light, and something with too many limbs beginning to unfold itself through the gap.",
+  "A summoning circle scorched black into a cellar floor, its chalk lines still smoking around clawed prints leading toward the stairs.",
+  "A star-strewn void glimpsed through a torn seam in reality, a colossal, slow-drifting shape turning its many eyes toward the light.",
+  "A haunted battlefield at dusk where translucent horrors rise from the churned mud among the rusted, unclaimed weapons.",
+  "A wizard's failed experiment still smoldering, a portal frame collapsed in on itself and something wrong-jointed crouched in the wreckage.",
+  "A moonless hilltop where a ring of dead grass marks a gate, and something with too many joints steps through it backward.",
+  "A cathedral crypt where a fissure of cold blue fire has opened in the floor, and skeletal hands reach up through the flame.",
+  "A shattered obelisk humming with residual magic, its cracked surface reflecting a monstrous silhouette that isn't standing behind the viewer.",
+  "A festival mirror maze gone wrong, every reflection showing the same grinning, wrong-toothed shape a half-step out of sync.",
+  "A nobleman's seance parlor overturned, candles guttering, as something formed of smoke and starlight coalesces above the table.",
+  "A desert obelisk field at midnight where the sand itself begins to rise and knit together into a towering shape of grit and bone.",
+  "A druid circle's standing stones cracked clean through, green witch-light spilling from the fissure and something vast breathing on the other side.",
+  "A cursed battlefield shrine where offerings rot instantly, and a shadow with too many limbs kneels to receive them anyway.",
+  "A shrine to a forgotten war-god where the stone idol's carved eyes have begun, very slowly, to glow.",
+  "A frozen instant in a cursed clocktower where a chiming hour never finishes, and something patient waits in the space between the strikes.",
+  "A wheat silo's grain pouring out through a gnawed hole, carrying with it a churning tide of small glistening bodies.",
+  "A candlelit shrine overrun by a carpet of chittering scavengers stripping the offering table bare within seconds.",
+  "An abandoned watermill's grinding wheel clogged with a writhing mat of eyeless swimmers pouring from the sluice gate.",
+  "A traveler's tent collapsing under the weight of a boiling swarm pouring in through every seam at once.",
+  "A cathedral's rafters shivering as thousands of small leathery wings unfold at once, the whole ceiling seeming to breathe.",
+  "A dry well filling from below with a rising, hissing mass of segmented bodies climbing over one another toward the rim.",
+  "A cornered dog barking uselessly at a spreading tide of glinting carapaces flowing under a barn door like spilled oil.",
+  "A caravan's grain sacks torn open overnight, a trail of small clawed prints radiating outward in every direction like a burst star.",
+  "A candle-maker's honeycomb stores swarmed by a furious cloud, workers fleeing with smoking torches held high.",
+  "A dockside grain elevator groaning under a moving carpet of glistening bodies pouring from a split seam in the hull.",
+  "A dry lakebed cracked into a mosaic of clay, one crack widening as an ancient, moss-backed colossus shifts in its centuries-long sleep beneath it.",
+  "A mountain range's silhouette at dawn revealing, on a second look, the slow rise and fall of a single vast ribcage breathing between the peaks.",
+  "A causeway of standing stones that travelers only later realize are toe-bones, sunk deep into the plain by their own weight.",
+  "A valley temple built directly into a single fossilized vertebra taller than its own bell tower.",
+  "A caravan camped for the night atop what they believe is a low grassy hill, unaware it exhales once, slowly, before dawn.",
+  "A canyon that opens each generation a little wider, and elders whisper it is not erosion but something turning over in its sleep.",
+  "A harvest festival held in the shade of a single fallen antler half-buried in a wheat field, no one able to say what shed it.",
+  "A dry seabed studded with barnacled ribs the size of ship hulls, arranged in a line that vanishes over the horizon.",
+  "A monastery built atop a plateau that trembles faintly every equinox, monks tending a shrine at its exact center in silence.",
+  "A caravan route detouring for three days around a valley where the ground itself is known to occasionally take a single, slow step.",
+  "A trading post's back room where a hunched, tusked figure counts coin with startling delicacy, its bargain already half a threat.",
+  "A mountain pass toll-shrine tended by a horned keeper who accepts only true stories as payment, and turns away every lie.",
+  "A moonlit crossroads where a lanky, long-fingered figure in a patchwork coat offers directions no traveler asked for.",
+  "A candlelit tent at a horse fair where a broad-shouldered, grey-skinned trader haggles fairly, tusks gleaming when he laughs.",
+  "A ruined watchpost manned by a lone, stitched-together sentinel who still salutes the banner of a kingdom long since fallen.",
+  "A riverside laundry where a webbed, wide-mouthed washerwoman works the current, humming a tune no living person taught her.",
+  "A frontier inn's common room gone quiet as a cloaked, digitigrade figure orders its meal in a voice too calm for the room.",
+  "A shepherd's hut shared, uneasily, with a squat, barrel-chested tenant who has never once harmed the flock it guards.",
+  "A caravan's hired guide, broad and blue-skinned, reading weather in the shape of clouds no human scout would trust.",
+  "A border shrine where a masked, antlered figure leaves fresh game for the priests each dawn and is never once seen arriving.",
+  "A lava tube glowing dull orange at dusk, and a heat-shimmering shape uncoiling from the rock as the day's warmth fades.",
+  "A glacier crevasse field where a rope team pauses at a fresh, enormous set of prints crossing directly over their planned route.",
+  "A salt marsh at low tide crossed by a single deep furrow, still filling with water, leading toward a stand of dead reeds.",
+  "A high desert mesa at noon where a heat-mirage resolves, with a shudder, into something actually moving across the flats.",
+  "A cypress swamp at flood stage where a half-submerged shrine holds an offering bowl and a coil of shed skin thick as a ship's rope.",
+  "A windmill on a lonely moor, sails motionless, its miller's dog refusing to cross the threshold of the open door.",
+  "A terraced hillside vineyard at dusk where the grape pickers work in pairs, one always watching the tree line.",
+  "A geothermal hot spring steaming in a snowbound valley, and something scaled basking at its edge, utterly unbothered by the cold beyond.",
+  "A dry canyon wash after a flash flood, boulders rearranged overnight and a single huge, wet print drying in the last mud.",
+  "A lonely toll bridge at dusk where the keeper's booth stands empty, ledger still open to a name that trails off mid-signature.",
+  "An abandoned watchfire on a border ridge, embers still glowing, and a wide furrow in the frost leading away toward the pass.",
+  "A migratory bird colony's cliffside rookery gone suddenly, eerily silent, feathers scattered across every ledge.",
+  "A pilgrim road shrine strung with bells that all ring at once with no wind, just as something passes unseen between the stones.",
+  "A terraced rice paddy at dawn, mist pooling, where the water ripples in a long, deliberate line against the current.",
+  "A windswept scree slope where a hermit's cairn marker has been rearranged into a rough, deliberate spiral overnight.",
+  "A borderland watchtower's bell rope swinging on its own in dead-still air, the sentry nowhere to be found."
  ],
  "rules": [
   "A party of weary adventurers hauling ropes and lanterns down a sheer cavern chimney, the lead climber's boots braced against dripping black rock.",
@@ -503,7 +769,232 @@ export const EXTRA = {
   "A great wooden siege tower rolling toward a castle wall under a rain of arrows, defenders behind crenellations preparing a cauldron of boiling oil.",
   "A mountain monastery courtyard at dawn where robed monks practice balanced stances on wooden posts above a sea of clouds.",
   "A silent library aisle of towering shelves where a scholar in a pointed hat climbs a rolling ladder, a candle floating beside her shoulder.",
-  "A caravan camp under a vast star field, travelers telling stories around a low fire while their tethered horses doze in the shadows."
+  "A caravan camp under a vast star field, travelers telling stories around a low fire while their tethered horses doze in the shadows.",
+  "A guild registrar stamping a fresh membership scroll with hot wax.",
+  "A clerk sorting petition scrolls into pigeonholed shelves behind a guild counter.",
+  "A guildhall antechamber where new members wait on a long bench, papers in hand.",
+  "A notary's brass seal pressed into warm wax at the corner of a contract.",
+  "A guild treasurer counting coin into stacked columns on a felt-lined tray.",
+  "A journeyman presenting a finished piece for a master's inspection stamp.",
+  "An arbiter's chamber with two disputants seated on opposite stools.",
+  "A guild's fee box beside a hand-lettered price list.",
+  "A clerk trimming a new quill before copying out a charter.",
+  "A guildhall's honor wall lined with the names of past masters.",
+  "A waystone at a crossroads pointing three directions in worn lettering.",
+  "A tollkeeper's booth with a chain drawn across a narrow bridge.",
+  "A traveler's permit checked by a bored gate warden under a lantern.",
+  "A milestone half-buried in roadside weeds, its number still legible.",
+  "A wayfarer's shrine with a coin bowl beside a carved footpath marker.",
+  "A patrol captain briefing riders at dawn beside a folded road map.",
+  "A ferry queue backed up at a riverside landing, tickets changing hands.",
+  "A trail marker cairn stacked at the mouth of a mountain pass.",
+  "A coach line's posted schedule nailed beside a stable door.",
+  "A border warden's stamp pressing into a travel pass.",
+  "A packhorse being weighed and measured before a mountain crossing.",
+  "A signpost at a fork, one arm split and freshly repainted.",
+  "A currency exchanger's scale balancing foreign coin against a standard weight.",
+  "A market clerk chalking the day's grain prices on a slate board.",
+  "A stallholder's licence tag hung from a market awning post.",
+  "An auctioneer's small hammer resting beside a numbered lot.",
+  "A trade caravan's manifest being read aloud at a warehouse door.",
+  "A moneylender's strongbox open on a counter, coins counted into a purse.",
+  "A market inspector comparing a merchant's weights against a sealed standard.",
+  "A spice trader's sample tray laid out for a buyer's inspection.",
+  "A guild broker negotiating a shipment price over a half-unrolled contract.",
+  "A cooper stamping a finished barrel with his guild's mark.",
+  "A trade fair's entry gate with a posted list of stall fees.",
+  "A merchant's account book open beside an abacus and a candle.",
+  "A wool factor grading fleece samples laid across a trestle table.",
+  "A pawnbroker's ledger recording an item against a client's name.",
+  "A courtroom clerk reading a docket aloud to a waiting gallery.",
+  "A magistrate's inkwell and gavel set beside an open case file.",
+  "A bailiff posting a summons to a cottage door.",
+  "A witness swearing an oath with one hand on a worn book.",
+  "A court scribe transcribing testimony in a rapid, slanted hand.",
+  "A dispute settled with a handshake before a village elder's bench.",
+  "A notary witnessing a will's signing at a lamplit table.",
+  "A prisoner's docket pinned above a cell door.",
+  "A jury of village elders seated on a row of plain stools.",
+  "An advocate's satchel of case papers left open on a courtroom bench.",
+  "A sealed verdict handed down from a raised chair.",
+  "A constable's badge and citation book laid on a station desk.",
+  "A drill instructor pacing before a line of recruits holding wooden practice swords.",
+  "A quartermaster issuing boots and packs from a storeroom shelf.",
+  "A fencing master correcting a student's stance with a light tap of his foil.",
+  "A recruit signing an enlistment paper at a folding camp table.",
+  "A sergeant checking names off a roster as soldiers file past.",
+  "A weapons rack inspected and tallied against a written inventory.",
+  "A cadet polishing buckles in a barracks row before muster.",
+  "A siege drill's rehearsed formation marked out with painted lines on a parade ground.",
+  "A training yard target riddled with arrows beneath a posted scoring chart.",
+  "An officer's tent with campaign maps pinned beside a chain of command roster.",
+  "A veteran teaching a recruit to properly coil a length of rope.",
+  "A garrison's watch schedule chalked beside a barracks door.",
+  "A cartwright measuring a new wheel's spokes against a wooden template.",
+  "A tailor's guild pattern book open to a marked page.",
+  "A glassblower's apprentice logging furnace temperatures in a soot-smudged ledger.",
+  "A locksmith testing a finished lock against a numbered key ring.",
+  "A weaver's loom strung to a pattern chart pinned on the wall behind it.",
+  "A candlemaker measuring wick lengths against a wooden gauge.",
+  "A leatherworker stamping a guild mark into a finished satchel.",
+  "A potter's kiln log recording firing times in chalk.",
+  "A wheelwright's workshop with finished wheels stacked by size.",
+  "A jeweler weighing a gem against a set of graduated stones.",
+  "A bowyer testing a finished bow's draw weight against a hanging scale.",
+  "A papermaker sorting finished sheets by grade at a long drying rack.",
+  "Two envoys exchanging sealed letters at a tent flap beneath twin banners.",
+  "A town crier unrolling a proclamation before a gathered crowd.",
+  "A treaty's wax seals cooling side by side on a council table.",
+  "An ambassador's retinue waiting in a palace antechamber, gifts wrapped in silk.",
+  "A boundary commission driving a fresh marker stone between two flagged plots.",
+  "A council chamber's long table set with name markers before a session.",
+  "A herald's tabard laid out beside a scroll case and a trumpet.",
+  "A peace accord being read aloud between two seated delegations.",
+  "A city charter unrolled across a mayor's desk for a fresh signature.",
+  "A census clerk noting a family's names in a thick leather-bound book.",
+  "A librarian threading a new volume's spine with waxed cord.",
+  "A scholar cross-referencing two scrolls spread beneath a reading lamp.",
+  "An archivist filing a sealed report into a numbered cabinet drawer.",
+  "A copying room where several scribes bend over identical texts by candlelight.",
+  "A restricted shelf behind a locked grille, its key hanging on a chain.",
+  "A cataloguer pasting a fresh label onto a returned tome's spine.",
+  "A student memorizing a list of names from a cracked leather primer.",
+  "A librarian's borrowing slip tucked into a returned book's cover.",
+  "A camp cook portioning rations into equal piles on a canvas cloth.",
+  "An expedition leader checking supplies against a written list by firelight.",
+  "A surveyor driving a marker peg into freshly cleared ground.",
+  "A guide's compass and folded map laid out on a flat stone.",
+  "A scout sharpening a stake to mark tomorrow's route.",
+  "A packing list checked twice before a party shoulders its bedrolls.",
+  "A camp watch rota scratched into a wooden board propped by the fire.",
+  "A hired porter's wages counted out and recorded in a small notebook.",
+  "A trail guide briefing new travelers on river crossing rules before dawn.",
+  "A prospector's claim stake driven beside a marked stream bank.",
+  "A mapmaker's compass rose inked fresh at the corner of an unfinished chart.",
+  "A supply cart's contents checked off against a quartermaster's tally sheet.",
+  "A harbor pilot's licence displayed beside a chart of local shoals.",
+  "A ship's log entered by lamplight at the close of a watch.",
+  "A dockworker's union hall with shift assignments posted on a board.",
+  "A captain reviewing a cargo manifest before casting off.",
+  "A rigger checking knots against a diagram pinned to the mast.",
+  "A quay's loading order chalked onto a weathered board.",
+  "A ship's purser distributing pay from a locked strongbox.",
+  "A harbor gate log recording each vessel's arrival time.",
+  "A boatswain's whistle and rulebook hung together on a peg.",
+  "A temple scribe recording a pilgrim's donation in a bound register.",
+  "An acolyte reciting the order of morning rites from a worn card.",
+  "A harbour customs house at dawn where a clerk stamps a manifest while a sailor waits with dripping oilskins.",
+  "An admiralty court chamber lined with ship models, a grey-bearded judge weighing a captain's log against a torn chart.",
+  "A tide table chalked on a slate beside a dockmaster's window, gulls perched along the sill.",
+  "A careenage yard where a beached hull is scraped clean under a posted schedule of works.",
+  "A prize court dividing captured cargo into marked crates on a warehouse floor.",
+  "A ship's bell struck for the change of watch, the log book open on a binnacle shelf.",
+  "A signal-flag locker checked against a printed code sheet before a convoy sails.",
+  "A press gang's enlistment roll laid open on a tavern table, a naval officer's seal beside it.",
+  "A lighthouse keeper's oil ledger, each night's burn recorded in a careful hand.",
+  "A harbourmaster's mooring chart with coloured pins marking every berth.",
+  "A quarantine flag raised at a ship's mast while an inspector rows out with a satchel of forms.",
+  "A pilot's rutter open on a chartroom table, soundings noted in cramped columns.",
+  "A frontier pass toll booth buried to its eaves in snow, a warden stamping papers through a small window.",
+  "A trapper's boundary blaze cut fresh into bark, a licence tag nailed beneath it.",
+  "A mountain waystation's logbook where every traveller signs before the climb.",
+  "An avalanche warning flag snapping above a frontier trailhead notice board.",
+  "A claim-stake registry office where a prospector's map is measured against a survey chain.",
+  "A frontier marshal's wanted board, bounties listed beside a tin cup of nails.",
+  "A mountain guide coiling and inspecting climbing rope before a line of waiting travellers.",
+  "A frontier militia's enlistment table set up under a lone pine, a sergeant checking names against a roll.",
+  "A high pass shrine where travellers leave a stone and sign a weathered pilgrim's book.",
+  "A snowbound relay station where a courier changes horses against a posted timetable.",
+  "A spring planting almanac nailed inside a barn door, phases of the moon marked beside each row.",
+  "A harvest tithe collection under grey rain, sacks weighed and chalked before a covered wagon.",
+  "A winter curfew bell rung from a frost-rimed tower as shutters close along the street.",
+  "A first-frost notice closing the hunting season, pinned beside a village well.",
+  "A monsoon-season shipping schedule revised in red ink on a harbour board.",
+  "An equinox festival's order of ceremonies pinned inside a temple porch.",
+  "A solstice night watch rotation chalked on a guardroom slate, torches banked for the long dark.",
+  "A flood-season levee inspection, an engineer's boots sunk in mud beside a gauge post.",
+  "A thaw-day notice reopening a mountain road, posted beside a still-frozen milestone.",
+  "A midsummer fair's licence fees posted on a sun-bleached board at the green's edge.",
+  "A thieves' guild toll box bolted beneath a bridge, a hooded collector marking a tally slate.",
+  "A sewer worker's shift lantern hung on a hook beside a grated manhole.",
+  "A black market stall's weights quietly swapped under a cloth while a buyer counts coin.",
+  "A beggars' guild's territory chalked in symbols on a tenement corner.",
+  "A smuggler's signal lamp timed to the tide, shuttered and unshuttered from a cellar window.",
+  "A pawnbroker's ledger open beside a row of unclaimed rings under a dim lamp.",
+  "A fence's loupe raised to a stolen brooch, a scale and a candle close at hand.",
+  "A gang's turf line freshly chalked across cobblestones, a boy standing guard over it.",
+  "A counterfeiter's press hidden behind a false shelf, half-dried notes hung to dry on a string.",
+  "A debtors' block where a clerk crosses a name from a long posted list.",
+  "A back-alley cockfight's wagering slate propped against a crate.",
+  "An ordination scroll unrolled before a kneeling acolyte, vows read by candlelight.",
+  "A temple bell rope hanging still, a novice waiting for the appointed hour to pull it.",
+  "Coronation regalia laid on a velvet cushion, a chamberlain checking each piece against an inventory.",
+  "A sacristy wall pinned with the order of a funeral rite, incense smoke curling past it.",
+  "An oath sworn with a hand upon a reliquary, a scribe recording the words below.",
+  "A saint's day procession route marked in chalk arrows down a cathedral steps.",
+  "An excommunication decree sealed with black wax before a hushed congregation.",
+  "A baptismal font's use schedule posted on a chapel door, dates filled in by a careful hand.",
+  "A pilgrimage waystation stamping a traveller's book with a worn brass seal.",
+  "A monastery's silent hours marked by sundial shadow against a cloister wall.",
+  "A bishop's visitation checklist held open by a nervous parish clerk.",
+  "A relic's viewing hours chalked on a shrine board, a queue already forming at dawn.",
+  "An apprentice's indenture papers signed at a guildhall table, master and pupil each pressing a thumb in wax.",
+  "An embassy's protocol book open to the page on correct bows, a page nervously rehearsing.",
+  "A caravan insurance bond signed at a trading post counter, a factor counting out silver.",
+  "A road toll gate's fee board freshly repainted after a season of complaints.",
+  "A cartographer's survey notes spread beside a half-finished map, a compass rose still unfinished.",
+  "A blacksmiths' guild die stamped into a fresh blade's tang, sparks still cooling.",
+  "A university matriculation roll signed by a new student under a proctor's watchful eye.",
+  "A notary's wax and seal press set on a cluttered desk beside a stack of witnessed deeds.",
+  "A duelling permit countersigned by a magistrate before two rivals at a fencing hall door.",
+  "A retired soldier's pension roll checked against a scarred hand and a worn discharge paper.",
+  "A shipping clerk's abacus clicking through a column of harbour dues.",
+  "A guild's arbitration table where two merchants argue over a torn contract.",
+  "A herald's genealogy scroll unrolled to settle a disputed title.",
+  "A militia's supply requisition form countersigned in triplicate by a weary quartermaster.",
+  "A wandering notary's travelling desk unfolded at a crossroads, a queue of farmers waiting.",
+  "A dockside labour exchange board listing the day's hiring rates in chalk.",
+  "A brewers' guild's tasting panel scoring a row of tankards on a long table.",
+  "A caravan master's route contract read aloud to a circle of hired guards.",
+  "A tollbridge keeper's rate card swinging on a chain in the wind.",
+  "A city assessor's rod measuring a merchant's stall against the permitted frontage.",
+  "A guild hall's oath-book, a fresh signature still drying beside a hundred others.",
+  "A drought year's water rationing notice nailed to a well's crossbeam.",
+  "A spring flood's evacuation route marked on a painted village map.",
+  "A windmill's grinding rota adjusted for the season, chalked beside the sails.",
+  "A late-autumn slaughter schedule posted at a butchers' guild door.",
+  "A fog-bound harbour's horn-blast code chart pinned inside a signal house.",
+  "A dry season's fire watch rota doubled and posted at the gatehouse.",
+  "A migrating herd's crossing rights negotiated at a riverside cairn.",
+  "An icebound mountain pass reopened, its toll ledger dusted off and set out again.",
+  "A coastal watch's storm-flag halyard checked before dark clouds gather offshore.",
+  "A cliffside beacon's fuel store inventoried against the coming storm season.",
+  "A river ferry's flood-closure sign hung across the landing steps.",
+  "A vintner's frost-watch bell hung ready above the rows at first cold snap.",
+  "A salt pan's evaporation schedule marked with pegs along a drying flat.",
+  "A trade caravan's watering-stop rota pinned inside a lead wagon.",
+  "A silk merchant's bolt-length gauge laid across a folded length of cloth.",
+  "A cooper's barrel-stave count chalked on a workshop post.",
+  "A glassblower's guild standard for bottle weight, checked with a small brass scale.",
+  "A tapestry weaver's pattern card pinned above a loom, threads counted row by row.",
+  "A cathedral choir's rehearsal schedule pinned beside a rack of hymnals.",
+  "A relic-bearer's procession order rehearsed in an empty nave before dawn.",
+  "A monastery's bell-ringing chart mapping out the canonical hours.",
+  "A confessional's queue marked by worn stones outside a chapel door.",
+  "A pilgrim hostel's bed assignment board, names chalked beside numbered cots.",
+  "A harbour chapel's blessing-of-the-fleet order read from a weathered card.",
+  "A frontier trading post's barter rate board chalked fresh each morning.",
+  "A border customs shed where a wagon's goods are unpacked crate by crate for inspection.",
+  "A mountain toll road's washed-out section marked with a diversion sign.",
+  "A frontier land grant unrolled on a rough table, a surveyor's boot holding down one corner.",
+  "A remote garrison's supply drop schedule nailed inside a watchtower door.",
+  "A wandering judge's circuit calendar chalked on the side of his travelling cart.",
+  "A shipwrecked crew's salvage claim recorded by a coastal magistrate on the strand.",
+  "A trading post's scale house where furs are weighed against a printed rate sheet.",
+  "A river barge's cargo seal checked by an inspector leaning over the gunwale.",
+  "A frontier chapel's baptismal register kept beside a cold iron stove.",
+  "A caravanserai's night-watch bell schedule posted beside the inner gate.",
+  "A shepherd guild's earmark registry book, each notch pattern sketched beside an owner's name."
  ],
  "feat-scene": [
   "A swordswoman mid-lunge in a torchlit training yard, a straw dummy split at the shoulder, dust hanging in the air.",
@@ -602,7 +1093,118 @@ export const EXTRA = {
   "A gnome illusionist bowing in a plaza as phantom butterflies drift from her sleeves over delighted onlookers.",
   "A skirmisher darting between a lumbering giant's legs, spear tip flashing at its knee, dust rising.",
   "A trainer steadying a young rider on a pony in an autumn paddock, patient face, leaves drifting.",
-  "A wizard pinching a spark of flame from a candle to carry across a dark chamber, cupped in a gloved hand."
+  "A wizard pinching a spark of flame from a candle to carry across a dark chamber, cupped in a gloved hand.",
+  "A gunslinger reloading a smoking revolver behind an overturned wagon as dust settles over a canyon trail.",
+  "A necromancer kneeling in a fog-bound graveyard, pale threads of light drawing shapes up from freshly turned earth.",
+  "A druid perched high in a storm-bent oak, arms raised as rain begins to lash a parched valley below.",
+  "A field cleric anointing a wounded soldier's brow inside a crowded canvas tent, lantern light steady on her hands.",
+  "A rogue picking her way along a rooftop trellis above a sleeping harbor town, moon behind thin cloud.",
+  "A barbarian standing atop a felled troll, axe raised against a bruised dawn sky, breath still ragged.",
+  "A wizard's apprentice recoiling from an upturned cauldron, green smoke pouring across a cluttered workshop.",
+  "A ranger fording a swift mountain river on horseback, gear lashed high against the pull of the current.",
+  "A paladin keeping vigil at a roadside shrine through the night, armor catching the last of the candlelight.",
+  "A bard tuning a battered lute on a ship's bowsprit, spray misting past in early grey light.",
+  "A summoner sketching a warding circle in river sand as her eidolon watches from the treeline.",
+  "An inquisitor cross-examining a nervous witness in a smoke-filled tavern back room, quill scratching notes.",
+  "A witch reading portents in scattered bones on a cottage doorstep, black cat curled at her feet.",
+  "An oracle stumbling through a market square, eyes clouded white, merchants parting uneasily around her.",
+  "A magus tracing a rune along a blade's flat with one fingertip, the steel humming faintly blue.",
+  "A cavalier polishing his horse's tack by lantern light the night before a tournament.",
+  "An alchemist decanting a hissing mixture into vials by candlelight, notes pinned all along the wall.",
+  "A hunter field-dressing a stag at a forest camp, hounds waiting patiently at a respectful distance.",
+  "A monk meditating cross-legged on a windswept cliff edge, robes snapping, eyes closed against the drop.",
+  "A sorcerer's fingers trailing sparks absentmindedly as she reads by a cottage window at dusk.",
+  "A fighter re-stringing a torn sandal strap on a dusty roadside milestone, pack propped beside him.",
+  "A druid's wolf companion loping ahead through birch trees, checking back over its shoulder.",
+  "A cleric scrubbing bloodstains from chapel flagstones at dawn, the night's fighting done.",
+  "A rogue counting stolen coin by candle stub in a cramped attic hideout, shutters barred.",
+  "A wizard arguing with a bound imp chained to a brazier, ledger open on his knee.",
+  "A ranger reading claw marks on a birch trunk, party waiting tense a few paces back.",
+  "A paladin sharing her cloak with a shivering refugee child at a roadside checkpoint.",
+  "A bard scribbling new verses by firelight, half a dozen crossed-out lines on the page already.",
+  "A barbarian hauling a capsized wagon upright by main strength while onlookers gape.",
+  "A druid coaxing a fledgling hawk back into its nest high in a cliffside crag.",
+  "A party crossing a rope-and-plank bridge strung between two sea stacks, waves crashing far below.",
+  "Explorers pushing through jungle vines with machetes, parrots scattering overhead.",
+  "A caravan guide reading the sky uneasily as dark clouds mass over an open plain.",
+  "A lone traveler resting against a milestone, boots off, blisters bound with cloth strips.",
+  "A party fording a canyon slot at flood season, water rising fast around their knees.",
+  "Two scouts studying a torn map by moonlight at a crossroads shrine.",
+  "A wagon train easing down a switchback trail cut into a red canyon wall.",
+  "A desert party sheltering beneath a lean-to of cloaks as a sandstorm rolls in.",
+  "A trio picking through the wreckage of an abandoned wayshrine, moss thick on broken idols.",
+  "A rider pausing atop a hill to study smoke rising from a distant village.",
+  "Travelers huddled around a shared map spread on a saddle blanket, fingers tracing routes.",
+  "A party descending a switchback stair cut into a cliff face toward a hidden cove.",
+  "A lone scout signaling back to the party from a treetop lookout, hand cupped to mouth.",
+  "A group crossing a salt flat under a punishing noon sun, shadows pooled tight beneath them.",
+  "A rider fording a shallow ford at dusk, torch held high against gathering mist.",
+  "A packhorse train winding along a narrow ledge trail above a roaring gorge.",
+  "A weary party sighting a lit inn window through driving snow at last.",
+  "Two travelers sharing a map and a skin of water in the shade of a lone standing stone.",
+  "A caravan master counting wagons at a tollgate as guards inspect cargo.",
+  "A hooded figure consulting a compass rose etched into a worn brass astrolabe by torchlight.",
+  "A party mending torn cloaks and armor straps around a low campfire under bright stars.",
+  "A cook stirring a battered pot over coals while the rest of the party dozes nearby.",
+  "Two companions playing cards on an upturned barrel by lantern light in camp.",
+  "A fighter oiling his boots by the fire, blade laid across his knees, listening to the dark.",
+  "A party sharing a skin of wine around a low fire, laughter carrying into the night.",
+  "A cleric stitching a wound closed by firelight while a companion grips a strip of leather to bite.",
+  "A ranger teaching a younger companion to read animal tracks in soft mud by a stream.",
+  "A party asleep in bedrolls beneath a lean-to, one figure keeping watch with bow across her knees.",
+  "A bard and a rogue trading exaggerated stories of past exploits around dying embers.",
+  "A weary group drying wet cloaks over a fire inside a shallow cave mouth.",
+  "A dwarf whittling a small wooden figure by firelight while others sleep.",
+  "A party dividing the day's loot into fair shares on a spread blanket.",
+  "Two companions arm-wrestling on a tree stump while others cheer them on at camp.",
+  "A fighter sharpening a spare dagger while staring into the fire, mind elsewhere.",
+  "A cleric praying quietly at the edge of firelight before the camp settles for the night.",
+  "A crowd gathering around a street performer breathing painted fire in a market square.",
+  "Two merchants haggling loudly over a crate of spices while a guard looks on bored.",
+  "A noble's runner pushing through a crowded bazaar, a sealed letter clutched tight.",
+  "A beggar and a cutpurse eyeing the same unguarded coin purse from opposite corners.",
+  "A town crier reading a proclamation from courthouse steps to a murmuring crowd.",
+  "A festival procession winding through torchlit streets, masks and banners overhead.",
+  "A blacksmith's apprentice hauling water buckets past a queue of waiting customers.",
+  "A dockworker hauling nets of fish past a line of moored fishing boats at dawn.",
+  "A city watch patrol checking papers at a narrow alley mouth under a guttering lamp.",
+  "A fortune-teller's tent glowing at the edge of a night market, curtain half drawn.",
+  "A tavern keeper wiping down a long bar as the last patrons drift out at closing.",
+  "A wedding party spilling out of a chapel into a flower-strewn square.",
+  "A pickpocket vanishing into a crowd the instant a victim's hand flies to an empty pocket.",
+  "A scribe copying a contract by window light in a cramped notary's office.",
+  "A group of children playing at swordfights with sticks in a cobbled courtyard.",
+  "A party easing a heavy stone lid off a sarcophagus, torchlight catching dust motes rising.",
+  "Adventurers picking their way across a collapsed bridge of rubble deep underground.",
+  "A rogue testing a suspicious floor tile with the tip of a ten-foot pole.",
+  "A party pressed flat against a wall as a patrol of shambling figures shuffles past.",
+  "A wizard reading faded runes on a crumbling archway by the light of a floating orb.",
+  "A cleric's holy symbol flaring bright as something stirs in the dark beyond torchlight.",
+  "A party wading through knee-deep dungeon water, ripples spreading ahead of them.",
+  "Adventurers discovering a hidden door behind a shifted bookcase, dust falling in a shaft of light.",
+  "A rogue disarming a dart trap with careful fingers, sweat beading despite the cold air.",
+  "A party gathered around a glowing rune-carved floor, debating which stone is safe to step on.",
+  "Torchlight catching a wall of ancient murals as the party passes deeper into a tomb.",
+  "A dwarf reading stress cracks in a ceiling, waving the party back before it gives way.",
+  "A party crossing a chasm on a plank bridge, one board already cracked underfoot.",
+  "A scout returning breathless to report a nest of danger just past the next bend.",
+  "A cleric's lantern the only light in a vast collapsed cathedral nave, pillars fallen like felled trees.",
+  "A herd of elk crossing a misty valley at dawn as a party watches from a ridge.",
+  "A druid circle gathered beneath a full moon in a clearing ringed by standing stones.",
+  "A hawk wheeling above a party as they cross open moorland under racing clouds.",
+  "A waterfall thundering into a rainbow-lit pool where travelers pause to refill skins.",
+  "A party threading between towering redwoods, shafts of light falling like columns.",
+  "A pack of wolves watching silently from a treeline as riders pass at dusk.",
+  "A meadow of wildflowers rippling under wind before a distant gathering storm.",
+  "A hot spring steaming in a snowy hollow, a lone traveler soaking road-weary limbs.",
+  "A party navigating a bog by leaping between tussocks, dragonflies flickering past.",
+  "A stand of burnt forest still smoking days after a wildfire, ash drifting like snow.",
+  "A survivor sitting alone amid smoldering ruins, sword across her knees, staring at nothing.",
+  "Two old companions clasping forearms in farewell at a crossroads, roads diverging behind them.",
+  "A veteran adventurer teaching a wide-eyed newcomer how to properly coil a climbing rope.",
+  "A party returning triumphant through a village gate to cheers and thrown flower petals.",
+  "A lone grave marked with a planted sword and a worn helm at its base, dawn breaking behind.",
+  "A retired adventurer polishing an old trophy weapon above the hearth of a quiet farmhouse."
  ],
  "school-transmutation": [
   "A caster crouched in a candlelit study, holding a wilting flower that blooms and reseeds itself over and over between his cupped hands.",
@@ -632,7 +1234,60 @@ export const EXTRA = {
   "A shopkeeper's dusty shelf where a mage's fingertips make broken pottery reassemble shard by shard into a whole glazed vase.",
   "A hunter pausing in a forest as his senses sharpen, pupils turning gold and the leaves suddenly rustling in loud detail.",
   "A ruined garden at dawn where a caster's glowing footprints leave behind a trail of blooming vines and new grass.",
-  "A frightened kobold splashing into a river and growing a fish's tail and gills, silver scales spreading up its arms."
+  "A frightened kobold splashing into a river and growing a fish's tail and gills, silver scales spreading up its arms.",
+  "A prisoner's iron manacles softening to warm clay and sliding off his wrists in the dark.",
+  "A cooper's barrel staves bending themselves into a perfect curve without fire or steam.",
+  "A hunting hawk swelling mid-dive into a beast twice a horse's size, talons already outstretched.",
+  "A siege engineer's hand pressed to a mud embankment that hardens instantly into fortified stone.",
+  "A court jester's borrowed coin turning to lead the moment the noble's fingers close on it.",
+  "A drowning sailor's lungs shifting to draw breath from seawater as the crew watches in horror.",
+  "A caravan's broken axle mending itself under a wandering tinker's murmured word.",
+  "A duelist's rapier lengthening a hand's breadth mid-lunge to close an impossible distance.",
+  "A miller's sack of chaff transmuting to fine white flour as it's poured.",
+  "A cliffside goat track widening into a paved stair beneath a druid's staff.",
+  "A captive changeling losing her borrowed face feature by feature under a truth-ward's light.",
+  "A siege ram's timber head thickening to iron grey as it nears the gate.",
+  "A fisherman's net turning heavy with fish that were plain water a moment before.",
+  "A castle drawbridge chain rusting to nothing in seconds under a saboteur's touch.",
+  "A wounded ranger's broken leg bone visibly knitting itself straight beneath the skin.",
+  "An alchemist's failed potion crystallizing into a harmless lump of quartz on the bench.",
+  "A bandit's stolen purse gone suddenly, uselessly, transparent in his hand.",
+  "A courtyard fountain's water rising into a serpentine shape before collapsing back.",
+  "A smith's apprentice watching raw ore leap from the crucible already shaped as nails.",
+  "A hermit's cave wall softening under his palm to admit a new doorway.",
+  "A jailer's key rusting into brittle flakes the instant the prisoner touches the lock.",
+  "A traveling bard's lute strings glowing taut as a broken instrument reassembles mid-song.",
+  "A charging boar swelling into a tusked giant beast between one stride and the next.",
+  "A besieged mason plastering a crack that seals itself smooth before the mortar dries.",
+  "A moth-eaten banner unraveling into fresh silken thread and re-weaving itself whole.",
+  "A cornered thief's silhouette flattening and sliding under a door too narrow for a body.",
+  "A wounded mount's torn hide closing seamlessly as a rider murmurs over its neck.",
+  "A dwarven prospector's pickaxe striking granite that parts like curtains of dust.",
+  "A pauper's threadbare cloak thickening into fine fur before a noble's disbelieving eyes.",
+  "A besieged tower's crumbling battlement re-forming brick by floating brick.",
+  "A herbalist's dried root swelling green and alive in a cupped palm.",
+  "A soldier vaulting a spiked palisade as his legs lengthen mid-jump.",
+  "A frightened villager watching his own shadow solidify into a second, obedient self.",
+  "A sculptor's half-finished marble figure breathing its first breath under trembling hands.",
+  "A riverboat captain calming white rapids into glassy stillness with a raised hand.",
+  "A caged falcon's bars melting into a puddle of tin at its talons.",
+  "A traveling merchant's cart wheels widening to cross soft sand without sinking.",
+  "A wounded knight's cracked helm reforging itself around his head mid-battle.",
+  "A witch turning a spoiled harvest basket of rot back into ripe, fragrant fruit.",
+  "A besieging army watching a moat drain into solid ground beneath a defending caster's word.",
+  "A smuggler's crate shrinking to the size of a walnut and vanishing into a coat pocket.",
+  "A prisoner's iron collar softening to leather and falling loose around her neck.",
+  "A monk's fists hardening to something like stone a heartbeat before impact.",
+  "A cottage roof thatch weaving itself back together after a storm tears it open.",
+  "A wandering geomancer folding a hillside inward to swallow a landslide whole.",
+  "A caravan guide's staff sprouting into a rope bridge across a sudden ravine.",
+  "A wounded owlbear's shattered wing bone straightening under a druid's careful chant.",
+  "A besieged well's brackish water clearing to sweet and drinkable in a single breath.",
+  "A tinker's broken clockwork bird reassembling gear by gear and taking flight.",
+  "A snowbound trapper's frozen boots softening to supple leather around numb feet.",
+  "A young mage's ink-stained fingers drawing a door on a blank wall that opens true.",
+  "A dying campfire's embers swelling into full flame without new wood added.",
+  "A caravan's sagging canvas tent stiffening into rigid timber walls overnight."
  ],
  "feats/metamagic": [
   "A sorcerer drawing a spell out long like glowing taffy, the light thinning into a fine golden thread across a dim library.",
@@ -654,7 +1309,21 @@ export const EXTRA = {
   "A mage holding a scroll whose glow rises and re-forms into a wider, brighter spell before the parchment crumbles to ash.",
   "A caster crouching behind a boulder, spell already primed and hidden in a cloak of silence, waiting for a patrol to pass.",
   "A battle-worn wizard on a tower stair releasing a dozen bolts at once, each one trailing a slightly different colour.",
-  "A sage in a moonlit garden folding a spell inward until it gleams like a pearl, then sliding it into a small waiting glass vial."
+  "A sage in a moonlit garden folding a spell inward until it gleams like a pearl, then sliding it into a small waiting glass vial.",
+  "A caster layering a spell within itself like nested glass shells, the outer glow thin while the core burns blinding white.",
+  "An arcane duelist catching a rival's curse and hurling it back reshaped, its color bleeding from black to gold mid-flight.",
+  "A sorcerer stretching a spell's reach across a canyon, the light drawn taut like a bowstring between two cliff edges.",
+  "A druid weaving a spell into a lattice of vines that visibly grow and thicken faster than nature allows.",
+  "A caster quietly muting a spell's violence, the swelling fireball shrinking down to a harmless candle-flame before it lands.",
+  "A battle-mage overlapping two identical spells into a single working that burns twice as bright, casting doubled shadows behind him.",
+  "A gnome artificer feeding a spell through a humming brass contraption, the light emerging altered and pitched differently than it entered.",
+  "A witch coiling a curse dormant and holding it inside a locket, snapping the clasp shut before it can fully form.",
+  "A wizard shaping a spell one-handed at full gallop, the working wobbling in the air but holding its form.",
+  "A storm-caller thickening a lightning bolt until it crawls rather than strikes, dragging slow and heavy through driving rain.",
+  "A caster turning a healing spell inside out, its warm gold glow flipping to hungry black just before it strikes a foe.",
+  "A necromancer widening a single death spell until it sweeps an entire row of standing corpses at once.",
+  "A prodigy casting two unrelated spells from each hand at the same instant, the workings never touching yet perfectly timed.",
+  "A caster anchoring a spell to a spinning thrown coin, the light chasing the metal all the way down a well shaft."
  ],
  "items/ring-item": [
   "A jeweller's bench lit by a single lamp, tweezers setting a small blue gem into a gold ring beside scattered files and loupes.",
@@ -676,7 +1345,20 @@ export const EXTRA = {
   "A skeletal mermaid-carved ring on a sunken statue's finger, seaweed and silt drifting in green underwater light.",
   "A sorcerer's ring blazing with white fire as she raises her hand against a rushing wall of cold wind on a mountain path.",
   "A pair of matching rings on a wooden table between two clasped hands, one silver and one gold, warm firelight glowing between them.",
-  "A ring of blackened bone and silver thread on an altar of raw stone, a single candle bending toward it."
+  "A ring of blackened bone and silver thread on an altar of raw stone, a single candle bending toward it.",
+  "A blacksmith's forge-ring cooling in a bucket of water, steam curling up as the smith wipes soot from his brow.",
+  "A ring nestled in the folds of a burial shroud, torchlight catching its dull gleam as grave robbers pry open a sarcophagus.",
+  "A bride's hand trembling as a ring is slipped onto her finger beneath a flower-strung arch at a woodland wedding.",
+  "A gnomish tinkerer's ring ticking softly like a tiny clockwork heart, held up to a loupe for inspection.",
+  "A cursed ring fused to a skeletal finger, unable to be pried loose, resting in a spiderwebbed alcove.",
+  "A halfling's ring tucked inside a loaf of bread on a market stall, a sly grin from the vendor nearby.",
+  "A ring glowing faintly beneath rushing water as a fisherman's net drags it up from a riverbed.",
+  "A dwarven clan-ring stamped with a hammer sigil, passed from a dying elder's hand to his son in a firelit hall.",
+  "A ring of tangled thorns and briar rose, thorns curling protectively around a pale green stone.",
+  "A duelist flipping a wager ring into the air before a match, the crowd's torches reflected in its spin.",
+  "A ring resting atop a folded love letter on a windowsill, curtains stirring in a night breeze.",
+  "A sea captain's ring, corroded green, clutched in the grip of a barnacle-crusted skeleton at the ocean floor.",
+  "A ring displayed under glass in a wizard's tower alongside a card warning of its dweomer, motes of light drifting around it."
  ],
  "spells/charm-mind": [
   "A bard on a tavern table, her lute glowing softly as a room of rowdy drunks sways together and lowers their fists.",
@@ -698,7 +1380,37 @@ export const EXTRA = {
   "A hooded figure playing a slow tune on a reed pipe as a line of wary bandits sits down one by one in the grass.",
   "A traveller offering his purse to a laughing stranger on a mountain road, face perfectly serene, a silver pendant swinging before him.",
   "A mirror in a dim chamber showing a young woman's reflection smiling while her real face is blank and pale.",
-  "A sleepwalking scholar drifting down a library aisle and pulling forbidden books from the shelves, a glowing sigil pulsing on his brow."
+  "A sleepwalking scholar drifting down a library aisle and pulling forbidden books from the shelves, a glowing sigil pulsing on his brow.",
+  "An elven diplomat resting two fingers on a rival ambassador's wrist, the man's clenched fist slowly opening into a handshake.",
+  "A dwarven matron humming over a squabbling pair of miners, their raised pickaxes lowering as their scowls melt into grins.",
+  "A gnome illusionist tilting her chin at a snarling mastiff, the beast rolling onto its back with its tail thumping.",
+  "A half-orc shaman pressing a painted palm to a rival chieftain's chest, the challenger's spear falling slack from his grip.",
+  "A masked noblewoman leaning across a card table, her opponent sliding his winnings toward her without a word of protest.",
+  "A young sorcerer catching a mob's attention with a raised hand, a hundred raised torches lowering together in the square.",
+  "A tiefling rogue murmuring to a night watchman at a warehouse door, the guard turning his back and whistling a tune.",
+  "A halfling bard strumming a single chord in a crowded inn, every brawling patron pausing mid-punch to listen.",
+  "An old witch cupping a farmer's face in both hands, his suspicion draining into a slack, trusting smile.",
+  "A robed cultist standing before a chained prisoner, the prisoner's manacled hands reaching up to unlock the cell themselves.",
+  "A ship's first mate turning the wheel hard toward rocks at a siren-eyed passenger's murmured suggestion.",
+  "A young paladin lowering his shield before a smiling enchantress, his squire shouting a warning that goes unheeded.",
+  "A caravan guard waving through a wagon he was ordered to search, his eyes fixed on the driver's spinning amulet.",
+  "A duelist's opponent sheathing his rapier mid-bout and bowing low, though the duel is far from over.",
+  "A crowd of pilgrims kneeling in unison before a false prophet, his upraised palms haloed faintly.",
+  "A trapper releasing a snared fox from its trap, stroking its fur as a druid watches from the treeline with a faint smile.",
+  "A serving girl slipping a vial into a lord's goblet at his own insistence, his eyes glassy with fixed devotion.",
+  "A grizzled mercenary captain ordering his own company to stand down, his second-in-command staring in disbelief.",
+  "A veiled priestess laying a hand on a grieving widow's shoulder, the widow's tears drying into a contented calm.",
+  "A pair of rival merchants embracing warmly across a marketplace stall, a gnome trickster pocketing coin between them.",
+  "Storm-wracked sailors abandoning the rigging to gather peacefully around a castaway humming on the deck.",
+  "A jailer's hound trotting docilely at a stranger's heel past a row of barred cells.",
+  "A city watch captain tearing up an arrest warrant at a whispered word from the accused.",
+  "An elderly tutor abruptly agreeing with a pupil's absurd argument, chalk dust drifting from a suspended lesson.",
+  "A knight errant kneeling to pledge fealty to a stranger he met moments before on a forest road.",
+  "A crowd of farmhands laying down scythes to dance in a circle around a piping figure at the edge of a field.",
+  "A miser handing over his strongbox key with a beaming smile to a robed visitor at his door.",
+  "A tribal war party lowering their bows one by one as their war-chief stares, entranced, at an intruder's open palm.",
+  "A servant boy leading enemy scouts straight into an ambush, humming cheerfully and unaware of what he does.",
+  "A queen's champion dropping to one knee before a rival's herald, offering his sword hilt-first with a serene, unfocused gaze."
  ],
  "monsters/template-fiend": [
   "A hulking wolf with cinder-red eyes and small curved horns standing on a snowy hillside, smoke curling from its nostrils.",
@@ -717,7 +1429,24 @@ export const EXTRA = {
   "A pale, ashen crocodile with brass-like horns rising from a swamp, sulphur-yellow steam rising from the water around it.",
   "A robed cultist's hand blistering into a red, clawed talon as he kneels in a circle of black candles.",
   "A great eagle with metallic feathers and hell-lit eyes, circling above a burning battlefield beneath a red sky.",
-  "A winged horse gone wrong, hide charred and mane crackling with flame, standing on the edge of a smoking crater."
+  "A winged horse gone wrong, hide charred and mane crackling with flame, standing on the edge of a smoking crater.",
+  "A spider the size of a wagon wheel dropping from a cathedral rafter, its abdomen branded with a smoking infernal sigil.",
+  "A great white shark circling a sinking ship with sulphurous smoke trailing from its gill slits instead of blood.",
+  "A snowy owl perched on a gallows crossbeam, its round eyes burning coal-red as it watches a condemned man below.",
+  "A tiger padding through a burned bamboo grove, its stripes glowing like cooling lava seams across blackened fur.",
+  "A war elephant rampaging through a market square, brass tusks wreathed in oily black flame.",
+  "A giant tortoise dragging itself across cracked earth, its shell fused with jagged obsidian spines that hiss steam.",
+  "A falcon stooping on a fleeing messenger, its talons trailing threads of crackling shadow instead of feathers.",
+  "A badger bursting from its den with jaws too wide and too many teeth, soil smoking where its claws touch.",
+  "An otter slipping along a canal bank, its sleek fur matted with ash and its playful chirp now a low, wrong growl.",
+  "A mountain goat leaping between crags with cloven hooves that scorch black prints into the stone.",
+  "A breaching whale crashing back into a boiling red sea, its barnacled hide fused with plates of infernal iron.",
+  "A bullfrog the size of a boulder squatting in a dead marsh, its croak rattling shutters a mile away in the sleeping village.",
+  "A red-tailed hawk circling a burning watchtower, each cry it gives echoed back by a chorus of distant screaming.",
+  "A pack mule standing docile in a caravan line, its shadow stretching wrong across the sand into something horned and taloned.",
+  "A peacock fanning a tail of eyes that weep thin trails of blood in a nobleman's moonlit garden.",
+  "A mole erupting from beneath a monastery's flagstones, its claws blackened to hooked iron and eyes sewn shut with red thread.",
+  "A heron standing in a poisoned marsh, each slow footstep leaving a small ring of scorched and blackened reeds."
  ],
  "spells/light-dark": [
   "A hooded figure crossing a moonless moor, a soft pale glow trailing from the tip of a staff and pooling on wet heather.",
@@ -735,7 +1464,16 @@ export const EXTRA = {
   "A shard of sunlight caught in a crystal orb, throwing a rainbow across a dim alchemist's workshop.",
   "A wounded warrior sagging in a torchless dungeon while ink-dark tendrils seep from the cracks and slowly ring him.",
   "A twilight battlefield where a blade of black light cuts a clean lane through enemy ranks, leaving a strip of stunned silence.",
-  "A lone candle flame in a vast vaulted crypt, its small halo holding back a darkness that seems to lean in to listen."
+  "A lone candle flame in a vast vaulted crypt, its small halo holding back a darkness that seems to lean in to listen.",
+  "A cleric's radiant blade cutting a swath of daylight through a cave of shrieking bats that scatter from the glow.",
+  "A necromancer's shadow cloak billowing wider than her body, swallowing torchlight from every sconce in the hall.",
+  "A lighthouse keeper's spell throwing a beam of magical light through fog thick enough to have swallowed the real lamp.",
+  "Two duelists trading spells of light and dark down a cathedral nave, radiance and gloom canceling in flashes at the center.",
+  "A vampire recoiling from a sunbeam a cleric has bent around a corner just to reach him.",
+  "A child's nightlight spell holding back a nursery's shadows shaped faintly like reaching fingers.",
+  "A shadowdancer melting into the dark beneath a bridge and reappearing from the darkness under a distant cart.",
+  "A wizard's globe of everburning light rolling down a well shaft, chasing a retreating swarm of shadow rats ahead of it.",
+  "A druid calling dusk early over a sunbaked battlefield to buy her exhausted allies one more hour of cool shade."
  ],
  "feats/knowledge": [
   "A bard in a lamplit tavern corner unrolling a yellowed scroll of family crests, tracing a lineage with an ink-stained finger.",
@@ -752,7 +1490,10 @@ export const EXTRA = {
   "A crowded lecture hall from above, students in rising tiers leaning toward a chalk diagram of a many-legged creature.",
   "A veteran soldier at a war-table moving small carved figures across a map, explaining a lesson in tactics to a listening recruit.",
   "A librarian on a rolling ladder among shelves of ancient tomes, pulling down one dust-furred volume with quiet triumph.",
-  "A hooded seeker in a moonlit garden of standing stones, dreamlike lines of light connecting the monoliths above her head."
+  "A hooded seeker in a moonlit garden of standing stones, dreamlike lines of light connecting the monoliths above her head.",
+  "A cartographer correcting an old map by lantern light aboard a creaking ship, ink still wet on a newly charted coastline.",
+  "A young apprentice memorizing a genealogy chart of feuding noble houses, fingers tracing lines back through generations.",
+  "A traveling loremaster trading stories for supper at a crowded inn table, listeners leaning in at the good parts."
  ],
  "spells/weapon-buff": [
   "A longbow held aloft in a windy field, its string thrumming with pale blue light and a single arrow of frost nocked and waiting.",
@@ -769,7 +1510,9 @@ export const EXTRA = {
   "A tavern brawler's axe flared with glowing sigils across its head, everyone else in the room pressed back against the walls.",
   "A blacksmith and a cleric together at a forge, a half-finished blade held in tongs and glowing with blessed golden fire.",
   "A ring of drifting blades circling a lone warrior on a moonlit plain, each one a mirror to the sword in her hand.",
-  "A quiver spilling arrows across a rooftop at dusk, each shaft trailing tiny motes of light like a scatter of sparks."
+  "A quiver spilling arrows across a rooftop at dusk, each shaft trailing tiny motes of light like a scatter of sparks.",
+  "A ranger's twin short swords blooming with verdant green light as thorned vines spiral briefly along the blades.",
+  "A dwarven defender's axe head wreathed in stormcloud grey, thunder cracking softly with every practice swing before battle."
  ],
  "feats/fire": [
   "A survivor walking out of a burning barn at night, scorched cloak smoking, calmly unbothered by the flames at her back.",
@@ -801,7 +1544,13 @@ export const EXTRA = {
   "A scarred warrior shrugging off a poison dart, the pale green drip on the wound cooling as his colour returns.",
   "A witch's cauldron bubbling in a swamp hut, curling green vapour rising past dangling dried herbs and glowing mushrooms.",
   "A spider the size of a horse in a webbed forest, fangs glistening with venom as its prey struggles far above the ground.",
-  "A crypt of corroded statues, their stone faces slowly melting under a seep of glowing acid from the vaulted ceiling."
+  "A crypt of corroded statues, their stone faces slowly melting under a seep of glowing acid from the vaulted ceiling.",
+  "A drow assassin coating a hand crossbow bolt with a shimmering violet toxin in a torchlit undercroft, careful not to graze her own skin.",
+  "A green dragon exhaling a corrosive cloud across a stone rampart, the mortar between the blocks hissing and dissolving.",
+  "An alchemist testing a new acid formula on a scrap of chain mail clamped in an iron vise, links melting link by link.",
+  "A jungle shaman milking venom from a captured frog into a clay dish, careful fingers behind a leaf-wrapped hand.",
+  "A cornered thief hurling a flask of acid at a pursuing guard, the liquid splashing across a raised shield in a hiss of steam.",
+  "A swamp witch stirring a bubbling cauldron of toxin with a bone ladle, the vapor curling into shapes above the rim."
  ],
  "spells/illusion": [
   "A grand ballroom whose gilded walls flicker like a candle flame, revealing bare rough stone beneath for a moment.",
@@ -817,7 +1566,20 @@ export const EXTRA = {
   "A wizard's tower whose stairs seem to spiral upward forever, the visitor walking and walking and never rising an inch.",
   "A hall of mirrors where each reflection shows the same wizard in a different pose, one of them raising a hand to speak.",
   "A market stall where a merchant mouths his pitch and not a sound reaches the buyers standing right in front of him.",
-  "A cliffside bridge of glimmering silver that is really only air, a confident adventurer stepping onto it with a smirk."
+  "A cliffside bridge of glimmering silver that is really only air, a confident adventurer stepping onto it with a smirk.",
+  "A bard on a tavern stage conjuring a phantom dragon of shimmering light that coils harmlessly above the delighted crowd.",
+  "A spy's illusory double walking calmly down a palace corridor while the real infiltrator slips out a side window.",
+  "A caster projecting a false starry sky across a dungeon ceiling to calm a claustrophobic ally.",
+  "A merchant's illusory stall goods gleaming like gold, the truth of dull tin only visible to a caster who dispels it.",
+  "A forest trail that seems to loop back on itself endlessly, a lost hunter passing the same illusory boulder for the fifth time.",
+  "A wizard's illusory storm clouds rolling across a clear sky to mask an army's retreat from watching scouts.",
+  "A haunted house where every illusory ghost dissolves into dust motes the instant a skeptical priest touches it.",
+  "A masquerade where one guest's face shimmers and shifts between three different identities as she crosses the ballroom.",
+  "A besieged fortress projecting the illusion of a second, larger garrison lining its walls at dusk.",
+  "A caster's illusory bridge spanning a chasm, a nervous porter testing it with one foot before trusting his full weight.",
+  "A prisoner's cell wall showing an illusory door that a jailer walks straight past without noticing the real one beside it.",
+  "A duelist's afterimages splitting into four identical fighters circling an opponent who can't tell which blade is real.",
+  "A grieving widow seeing her illusory husband's face smile back at her from an empty chair for one unbearable second."
  ],
  "monsters/template-undead": [
   "A ghoulish monarch enthroned in a ruined feast hall, the skeletal courtiers around him kneeling in ragged finery.",
@@ -833,7 +1595,20 @@ export const EXTRA = {
   "A pack of ghouls loping over a battlefield at night, gnawing fingers glinting with fragments of bone and ring.",
   "A vampire dissolving into a cloud of bats on a moonlit balcony as a hunter takes aim with a sharpened stake.",
   "A warband of the undead marching under a tattered banner through a burnt village, a ghost-horse leading the column.",
-  "A mad ghost in a flooded cellar, its transparent hands cupped around a doll as it sings to a child long gone."
+  "A mad ghost in a flooded cellar, its transparent hands cupped around a doll as it sings to a child long gone.",
+  "A banshee drifting through a fog-bound moor, her wail bending the reeds flat for yards in every direction.",
+  "A mummy lord's bandaged hand bursting from a collapsed sarcophagus lid as torchlight floods the tomb for the first time in centuries.",
+  "A skeletal horse dragging an empty carriage through a rain-slicked cobblestone street at midnight, wheels silent on the stone.",
+  "A death knight standing atop a hill of slain soldiers, his black blade still smoking as crows settle on the corpses around him.",
+  "A ghost bride drifting down the aisle of a collapsed chapel, her veil trailing cobwebs instead of lace.",
+  "A crypt full of animated bones reassembling themselves piece by piece as grave robbers flee toward a narrow stair.",
+  "A wight rising from a barrow mound under a full moon, frost spreading outward from its footsteps across the heather.",
+  "A vampire spawn perched on a gargoyle ledge high above a rain-soaked city, watching a lit window across the square.",
+  "An undead pirate captain striding the deck of a ghost ship becalmed in fog, his crew's hollow eyes turning as one toward a passing longboat.",
+  "A charnel ooze of countless entwined skeletal hands dragging itself out of a flooded catacomb passage.",
+  "A revenant hauling itself up from an unmarked grave in a storm, lightning throwing its shadow long across the churchyard wall.",
+  "A necromancer's apprentice recoiling as a jar of grave dirt on her workbench stirs and begins to take the shape of a hand.",
+  "A ghost regiment marching in perfect silence across a fogbound battlefield anniversary, their standard bearer's flag never quite touching the ground."
  ],
  "spells/fire": [
   "A wizard's palm cupped around a hovering flame no bigger than an apple, lighting a cellar of barrels and cobwebs.",
@@ -848,7 +1623,20 @@ export const EXTRA = {
   "A frost-bitten tundra scene where a shaman's hearth-fire flares into a roaring wall, wolves pacing at its edge.",
   "A ship's deck erupting in fireballs at dusk, sails aflame, sailors leaping for the rail as sparks fill the sky.",
   "A glassy pool of molten slag spreading across a forge floor as a mage's spell melts an anvil into a puddle.",
-  "A close view of a candle flame swelling into a dragon-shaped burst, reflected in a scholar's wide eyes."
+  "A close view of a candle flame swelling into a dragon-shaped burst, reflected in a scholar's wide eyes.",
+  "A red dragon-blooded sorceress exhaling a cone of white-hot flame across a frozen moat, ice cracking and steaming.",
+  "A siege tower collapsing into a column of fire as archers on the wall loose burning arrows into its beams.",
+  "A kobold shaman hurling a sputtering ball of flame down a mineshaft, goblins scattering from the tunnel mouth.",
+  "A duelist's twin daggers trailing fire as she cartwheels across a courtyard, embers marking her path.",
+  "A temple brazier erupting into a towering pillar of flame as an acolyte completes a forbidden invocation.",
+  "A caravan wagon bursting alight at a highwayman's gesture, horses rearing as the driver leaps clear.",
+  "A siege engineer's alchemical shell exploding against a gatehouse, flame licking up the stonework toward the parapet.",
+  "A firebird made of pure flame bursting from a phoenix-sworn cleric's staff, wheeling once over a battlefield.",
+  "A hearth-witch's cauldron flaring into a jet of flame that chases a fleeing thief down a cobbled alley.",
+  "A desert nomad conjuring a whirling column of fire to scatter a raiding party's camels.",
+  "A duelist trapped in an alley igniting the very air before him, a wall of heat driving back three attackers.",
+  "A cathedral rose window shattering outward as flame roars up from the nave where heretics once knelt.",
+  "A goblin war-drum bursting into cinders as a furious wizard's spell arcs across a torch-lit war camp."
  ],
  "monsters/template-construct": [
   "A crystal golem catching sunrise in a ruined atrium, faceted limbs throwing rainbow light across cracked mosaic floors.",
@@ -863,7 +1651,14 @@ export const EXTRA = {
   "A gelatinous golem oozing down a dungeon stair, translucent body holding a drifting cargo of bones and coins.",
   "A rank of identical bronze soldiers standing at attention along a moonlit gallery, visors gleaming and hollow.",
   "A close view of a stone golem's fist crushing a heavy oak door, splinters bursting outward in a puff of dust.",
-  "A construct-smith bent over a half-built automaton on a bench, sparks flying from a soldering rod in the dim workshop."
+  "A construct-smith bent over a half-built automaton on a bench, sparks flying from a soldering rod in the dim workshop.",
+  "A towering siege golem of riveted plate smashing through a castle gate, splinters and stone dust exploding outward.",
+  "A porcelain doll construct standing motionless in a nursery, its painted eyes tracking a candle as it's carried past the doorway.",
+  "A caravan of animated wagon-golems rolling across a desert trade route unaided by any beast, wheels grinding sand to glass.",
+  "A scarecrow construct stitched from straw and rusted blades standing sentinel over a moonlit cornfield, head slowly turning.",
+  "A bronze temple guardian statue stepping down from its plinth as intruders' torchlight sweeps across the sanctuary floor.",
+  "A tinker's workshop cluttered with half-finished clockwork birds, one small brass sparrow twitching its wings for the first time.",
+  "A shield-golem of fused blades and armor plates rolling forward like a wheel down a siege ramp, sparks trailing behind it."
  ],
  "feats/archery": [
   "An archer high in a tree at dusk, bowstring drawn beside her cheek, silhouetted against a glowing amber sky.",
@@ -877,7 +1672,10 @@ export const EXTRA = {
   "A close detail of a gloved hand tightening on the bowstring, an arrow tipped with a glowing crimson head.",
   "A pair of archers back to back on a snowy ridge, bows raised in opposite directions as wolves circle below.",
   "A young archer practicing at dawn beside a barn, straw targets studded with arrows, breath steaming in the cold.",
-  "A ship's archer braced against the rail in a storm, loosing at a distant sea serpent while waves crash over the deck."
+  "A ship's archer braced against the rail in a storm, loosing at a distant sea serpent while waves crash over the deck.",
+  "A centaur archer galloping through tall grass, loosing arrows backward at pursuing wolves without breaking stride.",
+  "A besieged garrison's last archer firing from a collapsing tower, arrows nearly spent, aim unwavering.",
+  "A young archer competing in a harvest festival contest, splitting a ribbon-tied target to a roar from the crowd."
  ],
  "feats/traps-thievery": [
   "A thief kneeling before a vault door, a stethoscope-like tube pressed to the steel, a lantern shuttered to a sliver.",
@@ -891,7 +1689,19 @@ export const EXTRA = {
   "A thief in a moonlit alley, lockpick between her teeth, hauling herself up a wall toward a shuttered window.",
   "A close view of a rope cut just before a dart trap fires, tiny needles scattered across the flagstones.",
   "A ranger crouched in a dim forest clearing, carefully disarming a bear trap with a stick, jaws still gaping.",
-  "A guild fence's counting-table where dozens of locks and keys dangle from hooks, a masked figure sorting them by touch."
+  "A guild fence's counting-table where dozens of locks and keys dangle from hooks, a masked figure sorting them by touch.",
+  "A dwarven locksmith crouched at a bank vault's dial, ear pressed to cold iron, chalk marks tallying each faint click.",
+  "A half-elf scout probing a moss-slick staircase with a bronze rod, testing each tread before trusting her weight to it.",
+  "A masked burglar dangling from a silk rope above a pressure-plate floor, fingertips brushing a jeweled crown just out of reach.",
+  "A gnome inventor sketching the innards of a poisoned dart trap on a scrap of parchment, tweezers holding a spent needle up to the light.",
+  "A rogue easing a wax seal off a locked strongbox with a heated blade, the lid untouched and the theft undetectable.",
+  "A young thief squeezing sideways through a wall of swinging pendulum blades, robe hem shredded at the edges.",
+  "A trapper laying a snare of braided sinew across a game trail at dusk, disguising the loop beneath scattered leaves.",
+  "A cat burglar balanced on a narrow ledge outside a tower window, sliding a thin blade between shutters to lift the latch.",
+  "A dwarven vault-breaker studying a wall of numbered levers by torchlight, one hand hovering, unwilling to commit yet.",
+  "A field ranger dismantling a rival hunter's illegal wolf trap, jaw clenched at the sight of rusted teeth.",
+  "A thief's apprentice practicing on a locked training chest in a guild cellar, older members watching and murmuring bets.",
+  "A masked infiltrator freezing mid-step over a hidden pressure plate in a temple hallway, one foot raised, sand trickling from a crack above."
  ],
  "spells/curse-affliction": [
   "A hag in a marsh hut dropping a pinch of grey dust into a bubbling pot as a distant villager clutches his throat.",
@@ -905,7 +1715,23 @@ export const EXTRA = {
   "A dying orchard at twilight, apples rotting on branches as a thin witch mutters at the base of the oldest tree.",
   "A crowd in a torch-lit square backing away from a woman whose shadow has detached and stands separate from her.",
   "A hooded figure blowing a handful of glittering dust into a guard's eyes, the guard's helmet tilting as he stumbles.",
-  "A close view of a wax doll pierced by a single needle, a tiny thread of red trailing from the wound into a candle flame."
+  "A close view of a wax doll pierced by a single needle, a tiny thread of red trailing from the wound into a candle flame.",
+  "A leper-priest's shadow lengthening unnaturally across a marketplace as bystanders recoil from the coming rot.",
+  "A duelist's blade turning to rust mid-swing as an old crone mutters over a knotted cord.",
+  "A fisherman's catch spoiling instantly in his net as a sea-witch's curse ripples outward from the shoreline.",
+  "A traveling minstrel's fingers seizing into claws mid-song, his lute clattering as a jealous rival lowers a scrawled parchment.",
+  "A drought-stricken well bubbling black as a wronged spirit's curse spreads through the village pump.",
+  "A gambler's luck visibly souring, dice always landing wrong, as a cloaked figure across the table pockets a lock of his hair.",
+  "A knight's polished shield tarnishing to black in his hands as a banshee's wail rolls across the battlefield.",
+  "A bride collapsing at the altar as an uninvited fey guest lowers a withered bouquet with a knowing smile.",
+  "A miner's lantern flame turning sickly green as unseen rot spreads through the timbers of the shaft around him.",
+  "A courtier's beautiful voice cracking into a raven's croak mid-toast, a rival sorceress smiling into her wine.",
+  "A shepherd's flock dropping one by one in a field as a hex-marked stone glows at the center of the pasture.",
+  "A soldier's wounds refusing to close, black threads spreading from an old battlefield curse-stake driven into the earth.",
+  "A thief's stolen ring fusing to his finger, blackening as a temple's guardian glyph flares behind him.",
+  "A young heir waking each morning frailer than the last, an ancestor's portrait weeping dark tears in the hall below.",
+  "A caravan's horses collapsing mid-stride on a cursed road, their harness bells falling silent one by one.",
+  "A vain lord's reflection aging decades in his mirror while he himself stands unchanged, a witch's doll pinned with grey hairs."
  ],
  "spells/creation": [
   "A druid on a dry mountain slope conjuring a shimmering pool of water from a pinch of dust, weary travellers kneeling.",
@@ -918,7 +1744,17 @@ export const EXTRA = {
   "A soaring arch of woven light forming a bridge over a stormy sea, a caravan starting across it in the dawn.",
   "A wizard filling a barren tent with a feast of steaming dishes, hungry travellers around the table wide-eyed.",
   "A cloud of sticky white strands erupting from a caster's mouth to pin a charging orc to a stone wall.",
-  "A shimmering bubble net spreading through dark water around a diver, tiny sea creatures caught in its pale glow."
+  "A shimmering bubble net spreading through dark water around a diver, tiny sea creatures caught in its pale glow.",
+  "A shipwright conjuring a fully rigged rowboat plank by plank onto storm-tossed water beside a sinking vessel.",
+  "A hermit weaving a modest hut whole from nothing on a windswept crag as dusk falls.",
+  "A caster in a besieged keep raising a wall of solid ice across a breached gate, defenders falling into formation behind it.",
+  "A wandering cleric filling empty saddlebags with fresh bread and waterskins for a starving refugee column.",
+  "A conjurer spinning a rope ladder out of woven light down the face of a sheer cliff for stranded climbers.",
+  "A battlefield medic drawing a tent, cots, and clean bandages out of thin air beside the wounded.",
+  "A trickster weaving an illusionary decoy caravan from swirling motes to lure bandits away from the real one.",
+  "A dying campfire blooming into a ring of protective thornbushes at a lost child's frightened wish.",
+  "A wizard conjuring a raft of solid light across a churning river for a stranded caravan.",
+  "A quartermaster filling an empty armory rack with gleaming spears summoned from swirling silver light."
  ],
  "feats/judgment-teamwork": [
   "A pair of knights charging in tandem down a muddy lane, lances lowered, their pennants snapping side by side.",
@@ -930,7 +1766,16 @@ export const EXTRA = {
   "A team of archers and swordsmen stepping in rhythm across a burning drawbridge, a banner leading them onward.",
   "A judgment glyph glowing above a battlefield in pale silver as allies move together beneath it, each striking the same foe.",
   "A pair of dwarves passing a hammer and an axe between them in the middle of a crowded skirmish, laughing grimly.",
-  "A quartet of adventurers hoisting each other up a castle wall, hands clasped, ropes flying, a torch bobbing below."
+  "A quartet of adventurers hoisting each other up a castle wall, hands clasped, ropes flying, a torch bobbing below.",
+  "A cleric and a fighter moving as a single unit through a burning hall, the fighter's blade clearing a path the cleric's shield protects.",
+  "A pack of rangers loosing arrows on a single shouted count, every shaft finding the same charging boar.",
+  "A dwarven shield-maiden and a human archer trading places seamlessly at a doorway, neither breaking stride.",
+  "Twin swordsmen mirroring each other's stance across a courtyard, striking the same instant from opposite sides of a lone foe.",
+  "A druid's summoned wolf and her wild-shaped master hunting a stag together through the mist, moving like one predator.",
+  "A wounded soldier caught mid-fall by two companions who never once look away from their own fights.",
+  "A war-priest's blessing settling over a line of braced spearmen as a cavalry charge bears down on them.",
+  "A cleric of judgment marking a foe with a pale rune as her allies converge on it from three directions at once.",
+  "A monk and a barbarian trading blows in perfect alternation against a single towering foe, never striking at the same moment."
  ],
  "spells/earth-stone": [
   "A jagged pillar of rock erupting beneath a charging knight, hurling him skyward in a spray of dirt and gravel.",
@@ -942,7 +1787,18 @@ export const EXTRA = {
   "A blacksmith's iron sword folding and warping like wax as a scowling wizard holds one finger toward it.",
   "A knight's armour turning slowly to grey stone at the edges, rust-red veins retreating as he raises his blade.",
   "A cavern ceiling sprouting a rain of fine gravel, a cloaked figure calmly drawing a line in the dust below.",
-  "A caster half-sunk in a stone wall, only a hand and the glint of one eye visible in the shadows."
+  "A caster half-sunk in a stone wall, only a hand and the glint of one eye visible in the shadows.",
+  "A half-orc barbarian's warhammer striking the ground and splitting a bridge in two beneath fleeing soldiers.",
+  "A dwarven engineer raising a rampart of interlocking stone blocks from bare earth in seconds before an oncoming charge.",
+  "A desert nomad sinking waist-deep into suddenly liquefied sand as a rival caster laughs from a dune's crest.",
+  "A stone gargoyle peeling itself free of a cathedral roofline, grit sifting from newly bending joints.",
+  "A prisoner's iron shackles softening to clay and dropping away as a druid's hand brushes the cell wall.",
+  "A mountain pass narrowing as twin walls of rock grind inward, trapping a column of retreating soldiers.",
+  "A caster kneeling in a quarry, palms flat on the ground, as marble blocks rise pre-shaped and smooth from the pit.",
+  "A city wall crumbling to sand at a besieger's touch, defenders scrambling back from the widening gap.",
+  "A miner buried to the neck in solid rock, only his panicked face free, as a rival gloats above him.",
+  "A golem's clay form splitting open along the arms as a wizard reshapes it mid-stride into new limbs.",
+  "A farmer's cracked, drought-hardened field turning soft and workable again under a traveling cleric's raised palm."
  ],
  "arch-bard": [
   "A fiddler dancing across the roof of a moving wagon at sunset, dust and clapping hands rising from the road behind.",
@@ -954,7 +1810,14 @@ export const EXTRA = {
   "A songstress on a harbour quay singing over a moored ship, sailors pausing with ropes and barrels in their hands.",
   "A storyteller by a night campfire, shadow-puppets dancing on a canvas tent while wide-eyed listeners lean close.",
   "A flutist in a swamp clearing coaxing a coiled serpent upright, a single lantern swinging from a branch.",
-  "A pair of dancers spinning in a torchlit ballroom while a hidden spy in the band watches the crowd over his flute."
+  "A pair of dancers spinning in a torchlit ballroom while a hidden spy in the band watches the crowd over his flute.",
+  "A sea singer standing on a ship's prow, voice pitching a storm-wave to curl away just short of the bow.",
+  "An arcane duelist bard parrying with a rapier in one hand, the other still strumming a lute slung at his hip.",
+  "A dawnflower dervish bard whirling twin blades through a temple courtyard, her song rising with each turn.",
+  "A sandman bard bowing before a fascinated crowd as illusory doves burst apart into glittering motes.",
+  "A hedge magician bard pulling a burning coin from behind a delighted child's ear at a village fair.",
+  "A bard charming a pack of wolves to stillness with a slow, low melody at a forest camp's edge.",
+  "A battle-bard leaning against a shattered wagon wheel, still singing while she binds a wound in her side."
  ],
  "feats/psychic-occult": [
   "A hooded occultist in a candlelit study tracing a glowing sigil in the air while a row of unlit candles gutters toward her.",
@@ -965,7 +1828,13 @@ export const EXTRA = {
   "An occultist holding a tarnished mirror, three ghostly lantern-lit impressions of past owners layered in its glass.",
   "A psychic standing in a dark hallway with a shadowy mirror-self behind her, both mouthing the same unheard word.",
   "A cloaked figure kneeling in a ring of scattered talismans, black smoke curling from the eyes of a carved skull before them.",
-  "A tower-top mind-scholar with a floating halo of orderly geometric shapes slotting together like a puzzle above his open palm."
+  "A tower-top mind-scholar with a floating halo of orderly geometric shapes slotting together like a puzzle above his open palm.",
+  "A carnival mentalist reading a mark's next move a heartbeat before he makes it, eyes gone distant and pale.",
+  "A bound prisoner projecting a scream of pure thought that cracks the stone of his cell without a sound.",
+  "An astral duelist and her rival locked in a silent battle of wills, visible only as dueling coronas of light around their heads.",
+  "A cloistered telepath receiving a distress call from a sister a hundred miles away, her quill writing on its own.",
+  "A masked cultist channeling a captive god's fragment, geometric static crawling visibly beneath her skin.",
+  "A street urchin unknowingly nudging a falling crate aside with a flicker of thought, unaware of what she just did."
  ],
  "feats/faith-obedience": [
   "A druid priest laying a palm on an ancient standing stone in a misty grove, green light crawling up the moss.",
@@ -976,7 +1845,15 @@ export const EXTRA = {
   "A hermit cleric in a cave chapel, hands open, a column of gold light falling on him through a crack in the ceiling.",
   "A monk ringing a great bronze bell at first light, the sound visible as rings rolling out over a misty valley.",
   "An acolyte tracing a glowing sacred sign across a fevered patient's brow in a candle-lit infirmary.",
-  "A crowned fey servant kneeling on a forest carpet of leaves as antlered shadow-shapes bow their heads around her."
+  "A crowned fey servant kneeling on a forest carpet of leaves as antlered shadow-shapes bow their heads around her.",
+  "A young initiate scrubbing temple steps at dawn as an act of daily devotion, breath fogging in the cold morning air.",
+  "A wandering friar sharing his single loaf of bread with a beggar at a crossroads shrine, both bowed in quiet thanks.",
+  "A blind oracle tracing sacred glyphs into sand with a bare finger, murmuring the day's obedience beneath a canopy of stars.",
+  "A knight-priest polishing his sword by candlelight in a barracks chapel, murmuring a nightly vow before sheathing it.",
+  "A desert nomad pouring out a cup of water onto sun-cracked earth as an offering, the god's sigil branded faintly into his palm.",
+  "A young druidess weaving a crown of thorns and wildflowers atop a standing stone at the turn of the season.",
+  "A shackled prisoner tracing a holy sign into a dungeon wall with a fingernail, faint light briefly answering from the stone.",
+  "A ship's chaplain leading sailors in a dawn prayer at the prow, a small brass idol lashed to the rail before them."
  ],
  "feats/weapon-training": [
   "A blacksmith quenching a freshly forged axe head in a barrel, steam boiling up around his leather-gloved hands.",
@@ -987,7 +1864,16 @@ export const EXTRA = {
   "A grizzled sergeant lined up before rows of recruits, weapons held in identical guard, frost on their breath.",
   "A weaponsmith bending over a workbench, assembling an odd hybrid blade from scavenged parts under a swinging lamp.",
   "A swordsman snapping a rival's blade at the guard with a twisting parry, splinters of steel glittering in the air.",
-  "A soldier in a barracks aisle tying a trained war dog's harness beside his rack of spears and halberds."
+  "A soldier in a barracks aisle tying a trained war dog's harness beside his rack of spears and halberds.",
+  "A halfling duelist practicing footwork alone on a rolling ship's deck, rapier tracing tight circles in the salt air.",
+  "A weapons instructor demonstrating a polearm's reach to wide-eyed initiates in a sunlit temple courtyard.",
+  "An orc warrior running a whetstone along a serrated blade by torchlight, testing the edge against a strand of hair.",
+  "A retired champion correcting a young noble's grip on a longsword in a manor's private practice hall.",
+  "A ranger restringing a longbow in a rain-soaked camp, testing the draw weight with practiced hands.",
+  "A duelist flipping a rapier into a reverse grip mid-drill, the blade a blur beneath a covered arena's lanterns.",
+  "A quartermaster inspecting a rack of returned spears after battle, marking which ones are fit for repair.",
+  "A young squire polishing a warhammer's head until it gleams, watched by an approving old knight.",
+  "A monk running through a sequence of nunchaku forms on a temple rooftop at dawn, the chains humming through the air."
  ],
  "spells/healing": [
   "A druid kneeling beside an injured stag in a clearing, green light seeping from her palms into a torn flank.",
@@ -998,7 +1884,14 @@ export const EXTRA = {
   "A wraith-touched fighter cradled in a priest's arms, pale blue light closing a deathly wound in the chest.",
   "A bard's final note hanging in the air over a bloodied tavern floor, a slow wave of silver light lifting each fallen friend.",
   "A caravan healer at a campfire, fingers tracing the air as a fevered man's flush drains away.",
-  "A blossom-crowned fey pressing a flowering branch to a cut, petals unfolding where the skin is closing."
+  "A blossom-crowned fey pressing a flowering branch to a cut, petals unfolding where the skin is closing.",
+  "A field surgeon's chant closing a soldier's collapsed lung, his ragged breathing evening out beneath her palms.",
+  "A halfling cleric pressing both hands to a burned baker's arms, blistered skin smoothing to pink beneath a golden shimmer.",
+  "A dying dragon's rider laying hands on a torn wing, membrane knitting closed as the beast's ragged breathing steadies.",
+  "A temple infirmary where a line of wounded pilgrims shuffle forward one by one into a healer's outstretched hands.",
+  "A shipboard healer steadying a sailor crushed beneath fallen rigging, crushed ribs realigning under a warm violet light.",
+  "An elf ranger biting back a scream as an ally's spell mends an arrow wound clean through his shoulder in seconds.",
+  "A battlefield priest moving from body to body in the mud, each touch leaving a soldier blinking awake and unhurt."
  ],
  "spells/summoning": [
   "A hooded conjurer at a torchlit cliff edge lifting her arms as a great winged shape climbs out of a swirling violet rift.",
@@ -1009,7 +1902,24 @@ export const EXTRA = {
   "A druid at a forest edge calling shapes of deer and owl out of a rising fog, each glimmering in from nothing.",
   "A snowy hilltop where a robed choir of translucent singers materialises around a lone priest at dawn.",
   "A lava-red crack splitting a stone floor and an armoured hound-thing pulling itself out, sparks streaming from its mane.",
-  "A wizard sketching a glowing sigil on a dungeon wall, a sky-blue genie's arm already reaching through it to shake his hand."
+  "A wizard sketching a glowing sigil on a dungeon wall, a sky-blue genie's arm already reaching through it to shake his hand.",
+  "A barbarian shaman pounding a drum as a towering elemental of packed earth claws itself up from a cracked hillside behind him.",
+  "A pit opening in a temple floor and a chained devil rising out of brimstone smoke, its collar glowing with the summoner's sigil.",
+  "A young sorceress in a cottage kitchen calling a tiny fire-spirit out of the hearth flames, it perching on her outstretched finger.",
+  "A sea captain's ritual on a storm-tossed deck drawing a water elemental up out of the waves to grip the rudder in her stead.",
+  "A witch's cauldron boiling over as three identical black cats leap out of the steam and scatter across the cottage floor.",
+  "A paladin's prayer opening a shaft of light from which a mounted celestial knight rides down onto a besieged wall.",
+  "A goblin shaman's crude bone rattle summoning a pack of dire rats that pour from beneath a collapsing wagon.",
+  "A wizard's summoning circle etched into a frozen lake calling up a spectral wolf pack that runs soundlessly across the ice.",
+  "A cleric at a battlefield shrine calling an archon down through a column of white fire, its sword already drawn before it lands.",
+  "A half-orc conjurer in a swamp shack summoning a squelching mass of tentacled ooze that spills over the doorframe.",
+  "An arcane duelist in a colosseum snapping her fingers as a pair of spectral blades manifest and hover at her shoulders.",
+  "A desert nomad kneeling before a brazier as a towering djinn of sand and heat haze coalesces above the dunes.",
+  "A necromancer's summoning of a shadow beast that peels itself off the dark side of a crypt wall and pads forward.",
+  "A young apprentice's first summoning going wrong, a small imp appearing upside down and immediately complaining about it.",
+  "A druid circle in an ancient grove calling a unicorn out of the moonlight itself, its hooves not yet touching grass.",
+  "A warlord's ritual on a siege ramp summoning a rank of skeletal soldiers that snap to attention mid-materialization.",
+  "A hedge witch's kitchen table where a tiny summoned fey creature made of dried flowers blinks awake among the herbs."
  ],
  "school-divination": [
   "A wizard peering into a bowl of oil in a candlelit cell, tiny shapes of a faraway street swimming on the surface.",
@@ -1020,7 +1930,17 @@ export const EXTRA = {
   "A halfling reading ripples in a tea cup, the leaves forming a small storm cloud.",
   "A star-watcher on a rooftop dome with a brass astrolabe, constellations bending down to point at a distant city.",
   "A cloaked traveller holding a glowing feather that points steadily down a fogbound road.",
-  "A trance-eyed prophetess seated at a mirrored table, a shimmering stranger's face forming in the glass that no one else can see."
+  "A trance-eyed prophetess seated at a mirrored table, a shimmering stranger's face forming in the glass that no one else can see.",
+  "A hedge-witch dropping three stones into a well and reading the pattern of ripples as they widen.",
+  "A blindfolded seer tracing a fingertip across a relief map, pausing exactly where danger waits.",
+  "A court astrologer unrolling a chart as painted constellations creep visibly across the parchment.",
+  "A ranger crouched over a footprint, its ghostly maker replaying the moment it was made.",
+  "A monk meditating before a still pond, the water showing a battle that has not yet happened.",
+  "A merchant's clerk running a finger down a ledger as false entries glow faintly red.",
+  "An augur slitting open a haruspex bowl of entrails, smoke rising into the shape of a coming storm.",
+  "A locksmith holding a stolen key that shows, in ghostly overlay, the door it once opened.",
+  "A sailor at the prow reading foam patterns that trace the shape of a reef still miles ahead.",
+  "A scholar's spectacles fogging with faint script as a hidden compartment reveals itself behind a bookshelf."
  ],
  "monsters/template-elemental": [
   "A towering fire giant king on a basalt throne, molten light glowing in the cracks of his charcoal skin.",
@@ -1031,7 +1951,15 @@ export const EXTRA = {
   "A drifting jellyfish of thundercloud pulsing with lightning, hanging over a dark prairie at dusk.",
   "A crackling lightning-bodied quasi-elemental sprinting across a salt flat, its trail scorching the ground into glass.",
   "A robed elven sorcerer standing in a gale with arcs of blue lightning wreathing her hands and the wind coiling around her cloak.",
-  "A shining winged azata weaving sheets of flame and wind around herself above a canyon of red stone."
+  "A shining winged azata weaving sheets of flame and wind around herself above a canyon of red stone.",
+  "A humanoid figure of churning sand striding across a desert dune sea, the wind unraveling and reforming its edges.",
+  "A colossal water elemental rising from a harbor to tower over the masts of anchored ships, spray sheeting off its shoulders.",
+  "A salamander of living coal curling around a forge's chimney, sparks drifting up like fireflies into the night.",
+  "A cloud giant reclining on a floating bank of mist above a mountain range, thunder rumbling faintly beneath her.",
+  "An earth elemental punching up through a quarry floor, rubble and dust cascading from its shoulders as stonecutters scatter.",
+  "A wisp of pure wind spiraling through a wheat field, flattening a spiral path of grain as it dances toward a distant windmill.",
+  "A frost-rimed air elemental howling around a mountain pass, ice crystals swirling in the vortex of its half-formed shape.",
+  "A magma mephit hissing atop a cooling lava flow, small clawed feet leaving glassy prints in the black rock."
  ],
  "feats/extra-resource": [
   "A traveller's overloaded wagon groaning along a mountain road, every crate and cask lashed on with extra rope.",
@@ -1041,7 +1969,18 @@ export const EXTRA = {
   "A weary marcher drawing a hidden flask from a boot, a warm glow spreading in his chest as his footsteps steady.",
   "A wizard's spell-book with an extra page unfurling in the air, glowing lines still inking themselves across it.",
   "A tavern cart piled with torches, each bundle bound in oiled cloth, a driver stacking a spare crate at the back.",
-  "A monk exhaling a bright stream of spare energy that pools in a small glass sphere, hovering beside his knee."
+  "A monk exhaling a bright stream of spare energy that pools in a small glass sphere, hovering beside his knee.",
+  "A war-priest touching a second holy symbol hidden beneath his tabard, a fresh well of light kindling where the first had gone dim.",
+  "A gnome alchemist tucking a spare charge into an already-full bandolier, the leather straining but holding one more vial.",
+  "A druid pressing a palm to bare earth and drawing up an extra thread of green power that coils around her wrist like ivy.",
+  "A quartermaster in a supply tent stacking an extra crate of arrows atop an already towering pile, torchlight catching the fletching.",
+  "A half-orc barbarian roaring a second wind into his lungs, veins lighting faintly beneath the skin as exhaustion visibly recedes.",
+  "A witch's familiar nudging a second spell scroll out from a hidden lining in her sleeve, the first having already been spent.",
+  "A paladin's shield humming as a reserve of radiance rises to the surface again, the metal brightening after having gone dull.",
+  "A rogue in an alley producing a third throwing knife from a boot sheath thought empty, grinning at a startled rival.",
+  "A ranger's quiver refilling itself with faint motes of light drifting in from the surrounding trees to become new arrows.",
+  "A cleric pulling a spare vial of blessed water from an inner pocket sewn specifically to hold one extra dose.",
+  "A wizard's familiar spirit splitting briefly into a second faint copy of itself, lending its master one more working of magic."
  ],
  "feats/curse-disease": [
   "A witch beside a roadside well dropping a black thread into the water, the surface clouding and the villagers backing away.",
@@ -1051,7 +1990,11 @@ export const EXTRA = {
   "A bloodless noble at a candle-lit banquet, a faint scarlet glow around his lips as the guests drift back from the table.",
   "A rotting wooden doll nailed to a barn door, a ring of dead grass and blackened crops spreading outward from it.",
   "A swamp guide holding a lantern up to a bog of blighted trees, the fungus on their bark pulsing sickly yellow.",
-  "A frayed seer holding out her palm as a black sigil spreads under the skin, a second hand reaching to share the burden."
+  "A frayed seer holding out her palm as a black sigil spreads under the skin, a second hand reaching to share the burden.",
+  "A plague doctor's beaked mask fogging as she leans over a feverish child in a candlelit tenement.",
+  "A cursed sailor watching barnacles slowly creep across his own forearm as his crewmates back toward the rail.",
+  "A hexed farmhand collapsing in his own wheat field, the stalks around him blackening in a widening circle.",
+  "A necromancer's bare touch withering a guard's arm to bone straight through his gauntlet."
  ],
  "spells/polymorph": [
   "A rogue whose face is sliding into a stranger's in front of a market stall mirror, the old features still ghosted over the new.",
@@ -1061,7 +2004,13 @@ export const EXTRA = {
   "A knight's outline dissolving into a silhouette of pure shadow along a torchlit wall.",
   "A caster tapping a candlestick and watching it stretch and warp into a small crouching goblin.",
   "A rider whose shape fuses with her mount's as a great many-legged dire beast bursts from a forest.",
-  "A fey-touched thief shedding her skin like mist as gossamer wings unfold from her back over a moonlit pond."
+  "A fey-touched thief shedding her skin like mist as gossamer wings unfold from her back over a moonlit pond.",
+  "A prisoner's jailer transforming into a harmless toad mid-sentence, his unfinished threat trailing into a confused croak.",
+  "A sea-witch's curse turning a boastful sailor's arms into flippers as his crewmates back away from the ship's rail.",
+  "A wizard's hands becoming crab claws for the length of a spell, delicately picking a lock no human fingers could manage.",
+  "A cursed prince's silhouette rippling into a boar's hunched shape at the base of a moonlit tower window.",
+  "A gnome alchemist's potion turning her cat companion briefly into a snarling dire tiger to scare off a bandit gang.",
+  "A druid's arm sprouting bark and leaves mid-swordswing, the blade forgotten as branches replace fingers."
  ],
  "spells/protection": [
   "A rain of arrows shattering against a faintly glowing sheet of golden light above a company of shielded soldiers.",
@@ -1071,7 +2020,19 @@ export const EXTRA = {
   "A road-weary caravan passing between two rows of carved milestones glowing softly as wolves slink back into the trees.",
   "A cleric drawing a circle of salt around a sickbed as a cold mist of dark shapes presses in and recoils.",
   "A shape half-in the ethereal plane, a translucent shield of pearly light between a warrior and a claw of gnashing spirits.",
-  "A mage's outstretched palm meeting a bolt of acid, an invisible shield rippling like water where it strikes."
+  "A mage's outstretched palm meeting a bolt of acid, an invisible shield rippling like water where it strikes.",
+  "A druid weaving a barkskin ward over a companion's arms as an owlbear's claws scrape harmlessly across them.",
+  "A wizard's mirror image duplicates scattering an ogre's club swing wide as it strikes only empty air.",
+  "A monk's stance solidifying into a faint golden aura that turns aside a spray of crossbow bolts.",
+  "A besieged caravan circling its wagons inside a dome of shimmering force as raiders' arrows sparkle and fall.",
+  "A knight's shield flaring with sigils of warding the instant a dragon's breath washes over the battlefield.",
+  "A ranger's camp ringed by faintly glowing stakes that flare bright when a prowling wolf pack tests the perimeter.",
+  "A sorcerer's spell turning her skin to living stone just as a troll's fist connects, the blow glancing off.",
+  "A priestess anointing a newborn's forehead with oil that leaves a faint protective shimmer lingering over the crib.",
+  "A wizard's ward against elements holding steady as lava sprays past a mining crew fleeing a collapsed tunnel.",
+  "A cleric's spell turning a rogue's blade to rubber the instant it should have struck a kneeling captive.",
+  "A caster's freedom ward letting a shackled prisoner's wrists slip loose of manacles that suddenly cannot hold.",
+  "A party huddled beneath a canopy of woven light as a beholder's disintegration ray sputters uselessly against it."
  ],
  "spells/lightning": [
   "A storm-cloaked sorcerer on a cliff top calling a fork of lightning down from a churning black sky onto a distant fortress.",
@@ -1081,7 +2042,12 @@ export const EXTRA = {
   "A ring of war drums on a hillside, thunder rolling out from each strike as jagged white light forks the sky.",
   "A fiery lightning bolt splitting a great oak in a forest glade, burning embers scattering in the rain.",
   "A wide storm-battered harbour where a wizard on a ship's prow flings a chain of lightning across the waves at a sea serpent.",
-  "A shining thunderbird spreading vast wings above a plain, each beat throwing sheets of lightning across the grass."
+  "A shining thunderbird spreading vast wings above a plain, each beat throwing sheets of lightning across the grass.",
+  "A storm sorcerer's twin bolts leaping from each hand to strike a charging pair of ogres simultaneously.",
+  "A brass golem's chest cavity sparking as a wizard channels a jolt of lightning directly into its inert core to wake it.",
+  "A cornered thief hurling a crackling arc of electricity across a rain-slicked rooftop at a pursuing guard.",
+  "A druid atop a storm-lashed tor calling three successive bolts down onto a ring of standing stones to seal a ritual.",
+  "A duel in a flooded quarry where lightning arcs jump between puddles, forcing both combatants onto dry outcrops."
  ],
  "feats/critical-hit": [
   "A rogue's dagger sliding between two overlapping plates at a knight's armpit, a bright spark of impact light blooming at the tip.",
@@ -1090,7 +2056,12 @@ export const EXTRA = {
   "A sorcerer's bolt of light striking a warlord's chest plate, the metal blackening and cracking outward in a starburst.",
   "A cavalry lance shattering against a breastplate at full gallop, splinters flying and the rider hurled from his saddle.",
   "A battered veteran raising his sword as allies behind him roar, the blow that just landed still ringing in the air around his foe.",
-  "A woodsman's axe biting into the weak knot of a giant's knee, the huge creature toppling like a felled oak."
+  "A woodsman's axe biting into the weak knot of a giant's knee, the huge creature toppling like a felled oak.",
+  "A ranger's arrow splitting a charging orc's helm visor exactly between the eyes at full draw.",
+  "A duelist's rapier finding the one loose link in a mercenary's chainmail collar, the fight ending in that instant.",
+  "A dwarf's warpick punching clean through a golem's chest crystal, the construct freezing mid-stride.",
+  "A rogue's twin daggers crossing to open both sides of a guard's throat guard in one motion.",
+  "A paladin's warhammer catching a vampire mid-lunge square in the sternum, ribs audibly giving way."
  ],
  "feats/necromancy": [
   "A lich-priest on a crypt dais, black candles guttering as a tide of pale bones rattles upward around him.",
@@ -1099,7 +2070,17 @@ export const EXTRA = {
   "A row of open sarcophagi in a lightless tomb, the nearest lid slowly sliding aside from within.",
   "A cleric holding a sunburst holy symbol aloft, a shambling crowd of ghouls recoiling from its light at a cemetery gate.",
   "A fog-shrouded battlefield at night, spectral soldiers rising from the mud in tattered lines, eyes burning cold blue.",
-  "A ghoulish alchemist stitching a patchwork body on a slab, green lightning crawling along the wires overhead."
+  "A ghoulish alchemist stitching a patchwork body on a slab, green lightning crawling along the wires overhead.",
+  "A pale-skinned necromancer standing over a mass grave as dozens of skeletal arms erupt from the churned mud at once.",
+  "A young apprentice recoiling as her mentor binds a wisp of gray smoke into an empty suit of ancient armor, the plates rattling upright.",
+  "A death priest anointing a corpse's brow with black oil in a torchlit crypt, the dead flesh twitching at the touch.",
+  "A necromancer's staff dragging a trail of withering grass and blackened leaves as she crosses a moonlit battlefield of the fallen.",
+  "A grave-robber recoiling as the coffin lid she has just pried open begins to push back from the inside.",
+  "A bone golem assembling itself piece by piece around a caster's outstretched hands in a candle-ringed workshop.",
+  "A specter drifting through a cracked cellar wall, its chains dragging without sound across the flagstones below.",
+  "A paladin driving a silvered blade through a rising zombie's chest in a fog-choked cemetery, holy light flaring at the wound.",
+  "A witch feeding a sliver of her own vitality into a shriveled homunculus curled in a nest of straw, watching its eyes open.",
+  "A tomb raider's torch guttering as unseen hands drag a fallen comrade's body slowly backward into the dark."
  ],
  "feats/shadow": [
   "A cloaked rogue slipping along a moonlit rooftop ridge, her shadow stretching ahead of her and moving a moment early.",
@@ -1108,7 +2089,9 @@ export const EXTRA = {
   "Three identical hooded silhouettes stepping out of one another along a torchlit corridor wall, each a shade darker.",
   "A twilight glade where fey with dusk-coloured skin stand half-dissolved into the gloom between the trunks.",
   "A swordswoman fighting at the mouth of a cave, dark tendrils streaming from her blade as her foe swings at empty dark.",
-  "A city alley at moonrise where a dagger glints from a wall of black that has no body behind it."
+  "A city alley at moonrise where a dagger glints from a wall of black that has no body behind it.",
+  "A shade-touched swordsman melting through a barred window as though the bars were painted on air.",
+  "A necromancer's silhouette detaching from the wall behind her and drifting to stand independently at her side."
  ],
  "items/rod-scepter": [
   "A rod of tarnished gold topped with a coiled serpent, its emerald eyes catching lamplight on a wizard's cluttered desk.",
@@ -1117,7 +2100,19 @@ export const EXTRA = {
   "A bundle of thin glass rods in a wooden rack, each glowing a different colour in a dim artificer's workshop.",
   "A rod of blackened iron with a barbed head, lying on a bed of straw beside a snuffed torch in a dungeon cell.",
   "A king's sceptre crowned with a carved eagle, resting on the arm of an empty throne in a shaft of dusty sunlight.",
-  "A rod half-buried in cracked earth at the centre of a ruined shrine, faint sparks crawling up its length."
+  "A rod half-buried in cracked earth at the centre of a ruined shrine, faint sparks crawling up its length.",
+  "A herald's short rod of office tucked beneath his arm as he reads a proclamation in a crowded square.",
+  "A torturer's blackened iron rod resting on a brazier of coals in a dungeon chamber.",
+  "An archmage's crystal-tipped rod levitating slowly above an open spellbook, arcane light pulsing within.",
+  "A jewelled rod of command held aloft by a general rallying troops on a smoke-hazed battlefield.",
+  "A slender divining rod trembling in a dowser's hands above cracked desert earth.",
+  "A rod of pale coral and shell resting on a merfolk shrine beneath rippling underwater light.",
+  "A wizard's apprentice nervously testing a small practice rod, sparks fizzling weakly from its tip.",
+  "A funerary rod laid across a mummified king's hands in a torch-lit sarcophagus chamber.",
+  "A carved wooden rod inlaid with silver wire, spinning slowly above a fortune-teller's velvet table.",
+  "A rod of twisted brass gears and tiny clockwork dials, ticking softly on an artificer's cluttered bench.",
+  "A shepherd god's stone rod planted at a crossroads shrine, offerings of grain scattered at its base.",
+  "A rod of storm-grey metal crackling faintly as rain streams off it atop a lightning-struck tower."
  ],
  "spells/wall-barrier": [
   "A curtain of falling water frozen mid-cascade across a canyon pass, sunlight splintering into rainbows through the ice.",
@@ -1126,7 +2121,11 @@ export const EXTRA = {
   "A cliff of black stone thrusting up from a road, cracked cobbles tilting on either side and a wagon overturned before it.",
   "A sheet of shimmering violet energy spanning a stone bridge, a lone caster standing calmly behind it as riders rein up.",
   "A swirl of glittering razor shards hanging in the air across a doorway, catching torchlight like a thousand tiny knives.",
-  "A wall of writhing shadow filling a temple aisle, its surface rippling as if something on the far side pushed against it."
+  "A wall of writhing shadow filling a temple aisle, its surface rippling as if something on the far side pushed against it.",
+  "A wizard slamming a staff down as a rampart of solid ice erupts across a bridge, halting a cavalry charge mid-gallop.",
+  "A cleric's line of consecrated flame springing up along a graveyard fence, undead hands recoiling from the heat.",
+  "A druid weaving a living hedge of thorns across a forest trail fast enough to trap fleeing poachers on the wrong side.",
+  "A besieged mage raising a translucent dome over a marketplace crowd as a catapult stone shatters harmlessly above it."
  ],
  "spells/force": [
   "A glowing translucent sphere of blue force enclosing a huddled adventurer while blades and arrows bounce from its surface.",
@@ -1135,7 +2134,12 @@ export const EXTRA = {
   "Bands of glowing ring-shaped force clamping around a snarling brute's limbs, lifting him off his feet in the middle of a hall.",
   "A caster hurling a fan of luminous darts across a battlefield, each one curving in a different arc toward its mark.",
   "A crackling lance of unseen force ripping through a rank of shields, splinters and bent metal fanning out behind the line.",
-  "A wooden door bowed inward and bursting from its hinges under a giant invisible fist, splinters hanging suspended in the air."
+  "A wooden door bowed inward and bursting from its hinges under a giant invisible fist, splinters hanging suspended in the air.",
+  "A gladiator flung backward off his feet by an unseen blow that leaves no mark, dust exploding from the arena sand.",
+  "A caster pinning a charging boar mid-leap in an invisible vice, hooves kicking uselessly at empty air.",
+  "A siege ram halting inches from a gate as if striking solid glass, the ram-crew stumbling backward from the rebound.",
+  "A prison door tearing free of its frame and hovering, held by nothing, before a chained captive's astonished face.",
+  "A dueling wizard batting aside a volley of arrows with an unseen shield, the shafts clattering harmlessly to the floor around her."
  ],
  "school-abjuration": [
   "A cleric on a chapel step sweeping her holy symbol across the air, a curtain of white light unfurling to turn back a howling mob.",
@@ -1144,7 +2148,12 @@ export const EXTRA = {
   "A quiet chamber where dust motes drift and stop dead at an invisible boundary line around a sleeping figure's bed.",
   "A pale glowing dome of energy covering a camp of travellers beneath a raging storm, rain sliding harmlessly off its outer curve.",
   "An old warder tying a knot of glowing thread across a cellar hatch, tiny sparks gathering along the cord.",
-  "A hall of mirrors where a caster's reflected shields multiply into a ring of pale blue barriers turning aside a fireball."
+  "A hall of mirrors where a caster's reflected shields multiply into a ring of pale blue barriers turning aside a fireball.",
+  "A paladin driving her sword into the earth, a dome of golden light rising to swallow an entire courtyard of refugees.",
+  "A ship's mage chalking wards along the hull rail as a kraken's tentacle recoils from an unseen wall just above the waterline.",
+  "A monk holding perfectly still in a burning temple while a faint shell of light keeps the flames a hand's width from his skin.",
+  "A binder tracing a final rune on a prison door, the wood turning cold and grey as the seal takes hold.",
+  "A caravan guard planting warded stakes in a ring around the wagons, the space inside going suddenly, unnaturally quiet."
  ],
  "monsters/animal-insect": [
   "A swarm of giant wasps circling a paper-grey nest hung from a dead tree in a sunless swamp, one guard turning toward the viewer.",
@@ -1153,7 +2162,16 @@ export const EXTRA = {
   "A hooded caravan halted on a dusty road as a massive scorpion looms over the lead wagon, claws raised against the sunset.",
   "A hive of enormous honeycomb cells glowing amber inside a hollow oak, giant bees crawling over it in slow patrol.",
   "A bloated giant tick clinging to the flank of a dying elk in a snowy forest clearing.",
-  "A rearing giant stag beetle locking horns with a second beetle on a mossy log, their armoured shells gleaming with rain."
+  "A rearing giant stag beetle locking horns with a second beetle on a mossy log, their armoured shells gleaming with rain.",
+  "A locust swarm rolling over a wheat field like a living storm front, farmers scrambling to cover the grain.",
+  "A butterfly the size of a hawk drifting between the pillars of a ruined jungle temple, wings trailing pollen.",
+  "A trapdoor spider bursting from a camouflaged burrow to seize a passing field mouse in a moonlit meadow.",
+  "A cluster of glowing fireflies rising from a marsh at twilight as a lone firefly the size of a lantern leads them.",
+  "A rhinoceros beetle the size of a cart locking horns with a woodsman's ox along a forest logging road.",
+  "A wall of a termite mound cracking open to release a boiling stream of soldiers defending their queen's chamber.",
+  "A water strider skating across the glassy surface of a jungle pool, ripples catching the low sun.",
+  "A cicada shell splitting open on a temple pillar as the fully grown insect within pulls itself free, wings still crumpled and wet.",
+  "A ball of army ants rolling downhill through a rainforest clearing, the mass shifting shape as it crosses a fallen log."
  ],
  "arch-druid": [
   "A druid crouched at a forest spring, cupped hands full of glowing water as a stag drinks beside her.",
@@ -1162,7 +2180,18 @@ export const EXTRA = {
   "A druid on a snowy mountain ledge, breath steaming, a huge white wolf pressed against her side at dawn.",
   "A wild-haired woman kneeling in a meadow of blooming flowers spreading wherever her palms touch the earth.",
   "A heron-shaped shape-changer standing in a marsh at dusk, one long leg raised above the reeds and eyes gleaming with human intent.",
-  "A druid in bark-woven robes standing in a burnt-out forest, tiny green shoots pushing up through the ash at her feet."
+  "A druid in bark-woven robes standing in a burnt-out forest, tiny green shoots pushing up through the ash at her feet.",
+  "A druid astride a giant elk crashing through autumn forest, antlers tossing fallen leaves into a spiral behind them.",
+  "An aquatic druid breaking the surface of a coral lagoon, a manta ray gliding beneath her trailing hand.",
+  "A jungle druid parting a curtain of vines with a gesture, a jaguar padding silently at her heel.",
+  "A desert druid standing atop sun-cracked dunes, calling a scorpion swarm to part around her bare feet.",
+  "An urban druid tending a rooftop garden between chimney stacks, sparrows and pigeons settling on her shoulders.",
+  "A cave druid crouched among glowing fungus deep underground, blind cave fish circling in a still black pool.",
+  "A druid bound to an ancient menhir, moss and lichen spreading up the stone in time with her chant.",
+  "A feyspeaker druid dancing barefoot in a ring of mushrooms as faint lights flicker between the toadstools.",
+  "A druid riding a war-trained bear into a skirmish line, both roaring as spears splinter around them.",
+  "A blighted druid standing in a dead orchard, black thorned vines erupting from bare soil at her command.",
+  "An elder druid teaching a child apprentice to coax a sapling from a single acorn cupped in both hands."
  ],
  "arch-ranger": [
   "A ranger in a snow-dusted pine forest loosing an arrow at a distant stag, her breath fogging in the cold.",
@@ -1171,7 +2200,20 @@ export const EXTRA = {
   "A ranger crouched in tall marsh grass with a bow raised, lit by the last orange light on the water.",
   "A lone woodsman at a mountain ridge lookout studying a distant orc campfire through a brass spyglass.",
   "A ranger's twin blades flashing in a narrow game trail as a pair of hounds circle a snarling wolf pack.",
-  "A trapper lowering a rope snare along a deer path beneath tall ferns, dew glittering on the strands."
+  "A trapper lowering a rope snare along a deer path beneath tall ferns, dew glittering on the strands.",
+  "A half-elf ranger vaulting a fallen log mid-sprint, twin short swords drawn, tracking a fleeing poacher through autumn woods.",
+  "A ranger perched in a tree blind, longbow trained on a clearing where wolves circle a wounded stag.",
+  "A grizzled trapper repairing a snare line at dawn, a raven watching from a nearby branch.",
+  "A ranger fording a rushing mountain stream, bow held high overhead to keep the string dry.",
+  "A desert-born scout reading vulture circles above a dune, waterskin slung low on a camel-hide belt.",
+  "A ranger and her wolf companion flanking a startled bandit on a narrow forest trail.",
+  "A young tracker sighting along an arrow at a manticore stalking the treeline beyond a shepherd's flock.",
+  "A weathered guide leading travelers single-file along a cliffside path, storm clouds gathering over the peaks.",
+  "A ranger field-dressing a fresh kill by lantern light inside a lean-to shelter.",
+  "A bowman crouched behind a fallen mossy log, counting orc raiders crossing a river ford below.",
+  "A ranger climbing a sheer cliff face by handhold, quiver bouncing, eyes fixed on an eagle's nest above.",
+  "A forest warden confronting loggers at an illegal camp, bow lowered but arrow nocked.",
+  "A ranger tending a wounded hawk companion by firelight, deep in a moss-hung swamp."
  ],
  "feats/power-attack": [
   "A half-orc barbarian in mid-leap bringing a two-handed axe down on a stone gargoyle, the creature's wing snapping off in a cloud of dust.",
@@ -1179,7 +2221,11 @@ export const EXTRA = {
   "A knight's greatsword sweeping through a rank of raised shields, all of them buckling and flying apart in one wide arc.",
   "A dwarf's swing cleaving a heavy oak table in two, tankards and plates flying up around his roaring face.",
   "An ogre's club and a knight's sword meeting overhead, the shockwave blowing back banners and dust across a muddy field.",
-  "A warrior driving his blade through a frozen ice wall, shards exploding outward as the frost giant behind it reels."
+  "A warrior driving his blade through a frozen ice wall, shards exploding outward as the frost giant behind it reels.",
+  "A barbarian's mighty swing shearing clean through a wooden siege ladder, rungs and climbers tumbling together.",
+  "A half-giant mercenary's warhammer caving in a cart's iron-bound wheel in a single overhand blow.",
+  "A knight's committed thrust punching through a shield and the arm behind it, momentum carrying them both to the ground.",
+  "A dwarven berserker's axe splitting a standing suit of ceremonial armor in two, sparks showering the display hall."
  ],
  "feats/vital-strike": [
   "A dagger point placed unerringly beneath a dragon's scale, a single dark drop swelling around the steel.",
@@ -1187,7 +2233,14 @@ export const EXTRA = {
   "A halberd thrust punching through a wyvern's throat as it dives, the beast's wings folding in the air.",
   "A lone archer on a parapet, bowstring still trembling, the distant war-leader clutching a single arrow in his neck.",
   "A monk's finger stopping just short of a giant's chest in a quiet courtyard, cracks racing through the stone beneath the giant.",
-  "A cavalryman's lance lifting a bandit chieftain from his saddle, the pole flexing just before the point pierces his mail."
+  "A cavalryman's lance lifting a bandit chieftain from his saddle, the pole flexing just before the point pierces his mail.",
+  "A duelist's single riposte finding a rival's heart through a narrow gap in an ornate breastplate.",
+  "A giant-slayer driving a spear straight up through a troll's exposed throat as it roars down at him.",
+  "An assassin's thrown knife crossing an entire banquet hall to lodge in one exposed collarbone.",
+  "A knight's lance unhorsing a rival in a single perfect strike, the tournament crowd frozen mid-cheer.",
+  "A barbarian's one swing severing the chain holding a portcullis, the timing precise to the instant.",
+  "A ranger's single arrow dropping a fleeing courier from an impossible distance, the man still mid-stride when it lands.",
+  "A paladin's blessed strike opening a fiend's hide in one line of holy light, the wound cauterizing as it forms."
  ],
  "feats/spirit-medium": [
   "A blindfolded oracle in a low-lit shrine speaking with a voice not her own, a pale glowing face hovering beside hers.",
@@ -1195,7 +2248,17 @@ export const EXTRA = {
   "A spirit guide in the shape of a translucent crane standing at a traveller's shoulder, pointing one wing toward a mountain path.",
   "A cluttered parlour where a table lifts slightly off the floor, hands laid palm-down and a wispy figure leaning in over the sitters.",
   "A river at dusk with pale luminous shapes gathering at the water's edge around a kneeling priestess, their outstretched hands cupped.",
-  "A child in a candlelit nursery reaching toward the empty air, a faint outline of a woman bent to hold her hand."
+  "A child in a candlelit nursery reaching toward the empty air, a faint outline of a woman bent to hold her hand.",
+  "A grieving widow at a graveside feeling a faint translucent hand rest briefly over hers on the cold headstone.",
+  "A tribal drummer in a longhouse falling suddenly still as an ancestor's voice speaks through his slack jaw, firelight flickering.",
+  "A medium rocking on a porch at dusk, a soldier's transparent ghost standing at rigid attention behind her chair.",
+  "A séance table in a shuttered study where a brass bell rises unsupported as cold mist gathers above the centerpiece.",
+  "A young apprentice medium flinching as an ancient spirit's borrowed memories flash suddenly across her own eyes.",
+  "A grizzled sailor medium on a fog-bound deck speaking in a drowned crewman's voice, seawater pooling at his boots though the planks stay dry.",
+  "A temple oracle swaying in a smoke-filled cella as an ancient priestess speaks through her in a language the crowd doesn't know.",
+  "A battlefield medic pausing over a fallen soldier as a translucent figure kneels beside her, guiding her hands to the wound.",
+  "A hooded medium walking a moonlit orchard, apple blossoms drifting upward around an unseen presence keeping pace beside her.",
+  "A carnival fortune-teller's tent where a spectral hand slides the planchette across the board faster than the sitter's fingers can follow."
  ],
  "feats/diplomacy": [
   "A robed emissary bowing before a dwarf king in a torchlit stone hall, a sealed scroll held out in both hands.",
@@ -1203,7 +2266,13 @@ export const EXTRA = {
   "A merchant princess and a rival at a candlelit banquet table, glasses raised as a gold coin slides discreetly across the linen.",
   "An elf and an orc chieftain sharing a bowl of stew at a border fire, their warbands watching from opposite darkened treelines.",
   "A herald in a bright tabard riding under a white banner between two armies drawn up on a rain-soaked plain.",
-  "A young noble in a grand council chamber speaking with open hands to a row of scowling lords, one already leaning forward to listen."
+  "A young noble in a grand council chamber speaking with open hands to a row of scowling lords, one already leaning forward to listen.",
+  "A halfling ambassador defusing a duel between two hot-tempered nobles with a well-timed joke at a masquerade.",
+  "A dwarven trade envoy and an elven lord finding common ground over a shared map of a disputed forest border.",
+  "A young diplomat kneeling before a dragon's hoard, offering tribute with open palms and a steady voice.",
+  "Two warring merchant guild-masters signing a truce scroll at a public fountain, their crowds watching in relief.",
+  "A priestess mediating between feuding village elders beneath a sacred tree, both sides slowly lowering their voices.",
+  "A court herald reading terms of peace aloud from castle steps as soldiers on both sides sheathe their weapons."
  ],
  "arch-fighter": [
   "A duellist in a sunlit courtyard holding a rapier point steady in salute, one hand tucked behind her back.",
@@ -1211,405 +2280,768 @@ export const EXTRA = {
   "A mounted lancer at full gallop across a field of banners, lance levelled and dust boiling up behind.",
   "An archer on a battlement nocking an arrow as a stream of others do the same along the wall, dawn breaking behind them.",
   "A weathered mercenary sharpening a notched sword by a campfire, his shield leaning against a saddle beside him.",
-  "A gladiator raising both arms to a roaring arena crowd, sand kicked up around his sandalled feet and a broken spear at his side."
+  "A gladiator raising both arms to a roaring arena crowd, sand kicked up around his sandalled feet and a broken spear at his side.",
+  "A phalanx soldier locking his spear tip through a gap in a shield wall as the line grinds forward.",
+  "A polearm master sweeping a glaive low to fell two charging foes in a single stroke.",
+  "A tower shield specialist bracing behind an iron-bound wall of a shield as arrows hammer into it.",
+  "A roughrider wheeling her warhorse in a tight circle, sword flashing as infantry scatter around her.",
+  "A standard-bearer fighter planting a tattered banner into a breach while foes close from both sides.",
+  "A brawling fighter cracking a table in half over an opponent's back in a packed tavern.",
+  "A siege-hardened fighter bracing a battering ram's iron head against a splintering gate.",
+  "A cad-trained fighter kicking dust into a rival's eyes before closing with a dagger drawn."
  ],
  "feats/monk-style": [
   "A barefoot fighter sweeping low in a circular stance on a snowy mountain courtyard, breath steaming, a lantern swaying on its pole.",
   "Two practitioners in opposed flowing stances beneath a bamboo grove at dusk, sleeves rippling, fallen leaves suspended between them.",
   "A fox-eared martial artist leaping between stone lanterns, tails fanning out behind, a faint fox-shaped shimmer trailing the kick.",
   "A fighter whipping a sling stone and a kick in one fluid motion on a rooftop, pebbles scattering across the tiles.",
-  "A blindfolded duelist in a wide-legged guard in a dim dojo, paper screens glowing amber behind, turning a blow aside by sound alone."
+  "A blindfolded duelist in a wide-legged guard in a dim dojo, paper screens glowing amber behind, turning a blow aside by sound alone.",
+  "A weathered master demonstrating a crane-wing block on a cliffside dojo at dawn, one arm sweeping an invisible strike aside.",
+  "A young nun in white robes spinning through a whirlwind kick combination across a moonlit courtyard, hem snapping like a banner.",
+  "A one-armed veteran monk executing a precise bear-hug takedown stance, weight sunk low, opponent already overbalanced.",
+  "Twin monks mirroring each other in an eagle-claw form on opposite sides of a temple pond, ripples spreading from their footwork alone.",
+  "A hooded ascetic holding a scorpion-tail stance in a desert canyon, hand cocked back like a stinger about to strike.",
+  "A boxer-turned-monk bouncing on the balls of his feet in a modern-styled guard stance within an ancient stone ring, sand shifting underfoot.",
+  "A masked monk executing a sudden falling-cliff stance off a temple roof, robes billowing, palms angled to break the fall into an attack.",
+  "An old woman sweeping her staff in a wide low defensive arc across a crowded market stall, weaving between startled vendors."
  ],
  "feats/unarmed": [
   "A low sweeping kick taking an armoured guard's legs out from under him in a torchlit alley, helmet spinning away.",
   "A hand clamping an opponent's wrist and stripping a sword from it, the blade tumbling end over end into the mud.",
   "A two-fisted flurry blurring in front of a dockside brawler, crates splintering behind the opponent's reeling shoulders.",
   "A fist wreathed in cold pale light stopping an inch from a stone pillar, cracks racing out through the masonry.",
-  "A heel kick arcing high over a fallen opponent's head, a scooping foot flinging his dropped dagger into the air."
+  "A heel kick arcing high over a fallen opponent's head, a scooping foot flinging his dropped dagger into the air.",
+  "A barefoot street brawler catching a knife hand bare-fisted and twisting the blade free in one motion.",
+  "A monk's spinning back-fist connecting mid-turn, robe flaring, an opponent's helm spinning loose from the impact.",
+  "A prizefighter driving an uppercut into a larger opponent's jaw in a torchlit pit, the crowd roaring around the ring of onlookers.",
+  "A half-orc grappler slamming a palm strike into a charging boar's skull, momentum stopped dead in a spray of dirt.",
+  "A young duelist parrying a dagger thrust with a forearm block and countering with an open palm to the sternum."
  ],
  "feats/channel-energy": [
   "A grey-haired priestess kneeling in a ruined chapel, palms pressed to the flagstones as pale light spreads across the floor toward the wounded.",
   "A paladin-cleric on a rampart at dawn, holy symbol thrust skyward, a shimmering dome of light settling over the defenders below.",
   "A cleric of a grim god at a battlefield's edge, sickly green-black energy spilling from a raised amulet, corpses twitching upright.",
   "A circle of radiance blooming outward across a plague ward, sleeping patients stirring as fever-sweat fades from their faces.",
-  "A cloaked healer in a rain-soaked road, his open hand blazing with gold as a skeletal knight recoils and cracks apart."
+  "A cloaked healer in a rain-soaked road, his open hand blazing with gold as a skeletal knight recoils and cracks apart.",
+  "A young acolyte's first successful channel washing warmth over a row of frostbitten refugees in a shelter.",
+  "A necromancer's negative channel rippling outward through a graveyard, freshly buried corpses twitching beneath the soil.",
+  "A battlefield chaplain's raised symbol pulsing gold across a muddy trench, soldiers' wounds knitting mid-stride.",
+  "A dark cathedral's high priest spreading a black-red wave of energy across kneeling cultists, their eyes rolling back in unison."
  ],
  "feats/arcane": [
   "A sorcerer in a wind-torn tower window, eldritch light crawling over her raised claws as she looks out at a storm.",
   "A wizard in a candlelit library plucking a glowing thread of magic from the air, spell tomes floating open around him.",
   "A gnome mage with hands outstretched over a bubbling workbench, rings of pale violet light orbiting his fingertips.",
   "A blade-carrying spellsword at a stone doorway, one hand tracing a shimmering ward across the threshold, a trap sigil fizzling out.",
-  "A robed caster in a dark cellar sending a thin beam of arcane light into an ancient lock, tumblers glowing white."
+  "A robed caster in a dark cellar sending a thin beam of arcane light into an ancient lock, tumblers glowing white.",
+  "A hedge wizard binding a minor ward into a farmhouse doorframe, the wood glowing faintly at the threshold.",
+  "An arcane duelist's rapier trailing sparks of raw magic with every parry in a torchlit courtyard.",
+  "A young apprentice successfully levitating a heavy tome for the first time, delight breaking across her face."
  ],
  "feats/planar": [
   "A tiefling standing on a windswept clifftop, curved horns and faint smouldering eyes lit by a bruised violet sunset.",
   "An aasimar with feathered wings half-unfurled on a marble balcony, a halo of soft light spilling across the floor.",
   "A ring of chalk and salt in a candlelit cellar, a black-scaled hand reaching up through the floor from below.",
   "A traveller stepping through a shimmering doorway between a snowy pine forest and a scorched red desert, one boot in each.",
-  "A celestial hound and an infernal hound facing each other across a dim stone crossroads, their eyes glowing gold and ember."
+  "A celestial hound and an infernal hound facing each other across a dim stone crossroads, their eyes glowing gold and ember.",
+  "A summoning circle etched into obsidian flaring to life as a many-eyed outsider steps through, its form still half in shadowstuff.",
+  "A cambion merchant haggling in a smoky bazaar, faint sulfurous wisps curling from beneath his fine collar.",
+  "A wizard's study window looking out onto an impossible sky of drifting islands and colored auroras from another plane entirely.",
+  "A planar knight in mismatched armor bartering passage across a river of silver mist with a boatman who has no face.",
+  "A captured elemental spirit straining against chains of cold iron in a wizard's sealed chamber, wind and dust swirling within the circle."
  ],
  "feats/leadership": [
   "A grey-bearded knight at a campfire, young followers gathered round him sharpening blades and sharing bread as he speaks quietly.",
   "A young squire holding a banner-pole steady in a gale, the commander's hand on his shoulder as the column marches past.",
   "A veteran on a wall-walk in the rain, handing a torch to a trembling recruit, the whole garrison watching them.",
   "A war-band's tactician spreading pebbles across a stump as a ring of scouts, archers and sappers lean in to see.",
-  "A charismatic figure standing on a cart in a market square, a crowd of townsfolk and hired swords lifting their fists together."
+  "A charismatic figure standing on a cart in a market square, a crowd of townsfolk and hired swords lifting their fists together.",
+  "A dwarven queen striking her warhammer against her shield, the sound alone steadying a wavering line of her kin.",
+  "A young captain standing firm on a breached wall as retreating soldiers turn back to rally around her.",
+  "A mercenary company's grizzled leader dividing the last of the rations equally before a desperate night march.",
+  "A paladin lord kneeling to bandage a common footsoldier's wound personally while his officers look on.",
+  "A pirate captain balanced on a rail mid-boarding, cutlass raised, her crew surging past her into the fray.",
+  "A tribal elder raising a carved staff before a gathered war-band, young warriors falling silent to listen.",
+  "A general's calm voice cutting through chaos on a burning rampart, soldiers finding their formation again.",
+  "A veteran mercenary teaching new recruits to read a battlefield from a hilltop, pointing out the danger still to come."
  ],
  "feats/item-creation": [
   "An alchemist's bench crowded with copper coils, dripping flasks and a half-assembled clockwork limb, brass gears catching the lamplight.",
   "A gnome tinkerer welding a tiny mechanical bird together under a magnifying lens, sparks spitting off the seam.",
   "A wizard pouring molten silver into a wand mould, arcane symbols flaring around the crucible as steam curls upward.",
   "A bearded artificer dismantling an enchanted amulet on a velvet cloth, tweezers lifting a glowing gem from its setting.",
-  "A workshop by candlelight, a crafter weaving glimmering thread into a cloak on a wooden frame, spools of light hanging above."
+  "A workshop by candlelight, a crafter weaving glimmering thread into a cloak on a wooden frame, spools of light hanging above.",
+  "A dwarven runesmith etching glowing sigils into a shield rim with a chisel of pure light, sparks falling like snow.",
+  "A hedge wizard weaving a simple charm from braided grass and a drop of her own blood at a cottage table.",
+  "A blind artificer shaping a musical automaton by touch alone, tiny gears clicking into place beneath careful fingers."
  ],
  "feats/natural-attacks": [
   "A horned brute lowering its head for a charge in a narrow cave mouth, dust and pebbles jumping under its hooves.",
   "A lashing scaled tail sweeping across a torchlit corridor, sending helmets and torches flying.",
   "A snarling wolf-bodied warrior with a jaw full of teeth leaning over a fallen foe, breath steaming in the cold.",
   "A wolf-headed fighter's forearms sprouting hooked talons as he lunges across a moonlit ford, water sheeting from his fur.",
-  "A dragon-blooded fighter with clawed scaled hands gripping a rock face, tail counterbalancing over a misty drop."
+  "A dragon-blooded fighter with clawed scaled hands gripping a rock face, tail counterbalancing over a misty drop.",
+  "A tiefling's barbed tail lashing out to knock a dagger from an assassin's hand mid-lunge.",
+  "A bear-shaped druid rearing to rake a hunter's chest with both forepaws in one crossing motion.",
+  "A lizardfolk warrior's toothy maw snapping shut on a crocodile's neck in a churning swamp duel.",
+  "A harpy diving to rake a sailor's shoulders with taloned feet before wheeling back into the storm clouds.",
+  "A minotaur lowering curved horns to gore a wagon's wheel apart in a market-square ambush.",
+  "A were-tiger mid-transformation raking claws through a wooden door before it has fully splintered.",
+  "A centaur rearing to strike with both front hooves at a wolf pack circling her foal."
  ],
  "items/robe-vestment": [
   "A jester's diamond-patterned costume hung on a hook backstage, bells on the cuffs, a half-mask dangling beside it.",
   "A long dark coat with many hidden pockets draped over a chair in a smuggler's cabin, a coil of rope peeking from one.",
   "A plain grey hooded robe with countless tiny stitched eyes along the hem, glinting faintly in a dim wardrobe.",
   "A tailor's shop window at dusk, a mannequin wearing a shimmering waistcoat patterned like the deep sea, pearl buttons gleaming.",
-  "A dancer's silvery costume laid across a dressing table, silk scarves trailing to the floor beside a pair of soft slippers."
+  "A dancer's silvery costume laid across a dressing table, silk scarves trailing to the floor beside a pair of soft slippers.",
+  "A high priest's ceremonial vestment being laid across his shoulders by acolytes before a dawn ritual.",
+  "A scholar-mage's patched travelling robe hanging to dry over a campfire in the wilderness.",
+  "A funeral shroud-robe folded atop a temple altar beside two burning censers."
  ],
  "spells/fear": [
   "A child's nightmare made manifest, a long-fingered shadow looming over a bed as the sleeper's blanket trembles.",
   "A pack of hounds cringing and whimpering on a moor at night as a huge dark shape blots out the moon above them.",
   "A caster with glowing hollow eyes advancing down a dungeon corridor, a mob of guards stumbling over each other to flee.",
   "A warband's war-drums booming in a misty gorge, opposing soldiers clutching their ears and dropping shields in terror.",
-  "A black-veiled shrine where every candle flame bends flat as a whispering cold sweeps across kneeling worshippers who scatter."
+  "A black-veiled shrine where every candle flame bends flat as a whispering cold sweeps across kneeling worshippers who scatter.",
+  "A garrison of soldiers dropping their standards and fleeing a fortress gate as a cloaked figure raises both arms behind them.",
+  "A tavern room emptying in an instant as patrons trample each other away from a grinning stranger's outstretched hand.",
+  "A knight frozen at a chasm's edge, sword forgotten, as a spectral roar rolls unseen across the bridge before him.",
+  "A crowd of villagers scattering from a market square as unseen claws rake shadows across the cobblestones toward them."
  ],
  "spells/cold": [
   "A frozen lake at midnight with a caster standing at its centre, hoarfrost spreading outward in a jagged star across the ice.",
   "A shower of jagged icicles hurtling down a snowy pass towards a scattering caravan, the sky white with blowing flakes.",
   "A frost giant's mammoth mount made of blue ice lumbering across a glacier, breath clouds rolling from its tusks.",
   "A whiteout blizzard swallowing a pine forest, a single lantern glowing faintly through drifting swirls of snow.",
-  "A frost-rimed hand pressed to a tavern door, ice creeping across the wood and spreading to a nearby window."
+  "A frost-rimed hand pressed to a tavern door, ice creeping across the wood and spreading to a nearby window.",
+  "A yeti-touched shaman slamming a staff into the ground, frost racing outward and locking a war party's boots to stone.",
+  "A frozen dagger of pure ice materializing in a rogue's hand, breath steaming even as she grips the freezing hilt.",
+  "An ice mephit's laughter echoing as a cloud of stinging sleet drives a caravan guard back behind an overturned cart.",
+  "A sorcerer's palm pressed to a lake's surface, ice spreading in a spiderweb crack pattern fast enough to trap a fleeing eel.",
+  "A winter witch's breath crystallizing into a swarm of tiny snowflakes that swarm and needle an approaching wolf.",
+  "A paladin's blade rimed instantly with frost as she drives it into a fire elemental, steam and ice hissing together.",
+  "A blizzard conjured over a burning village, flames guttering under sheets of driven snow and hissing into steam."
  ],
  "spells/water": [
   "A druid on a stone bridge lifting a rushing river into a rearing serpent of water, the crowd on the bank staring up.",
   "A sudden downpour drumming on a crowded market square, awnings sagging and streams running between the cobblestones.",
   "A coastal cave at low tide, a caster at its mouth parting the incoming surf into two glassy walls with a dry path between.",
   "A parched desert traveller kneeling as a spring bubbles up from cracked earth at his outstretched palm.",
-  "A drowned hall under blue-green light, a ghostly figure rising from a flooded stair as water pours off its outstretched arms."
+  "A drowned hall under blue-green light, a ghostly figure rising from a flooded stair as water pours off its outstretched arms.",
+  "A river spirit's summoned whirlpool spinning a raider's longboat in place while the crew scrambles for the oars.",
+  "A druid freezing a rope-bridge of woven water solid enough for a wounded companion to crawl across a flooded ravine.",
+  "A caster drawing every drop of moisture from a burning barn's smoke to smother the flames in a sudden grey mist.",
+  "A tidal caster on a cliff edge pulling the ocean itself into a curling wave that hovers, waiting, over an invading fleet."
  ],
  "monsters/animal-aquatic": [
   "A walrus hauling itself onto a floating ice floe, tusks glinting in the low arctic sun, seals scattering at its approach.",
   "An anglerfish drifting through black water, its glowing lure dangling before a wide jagged mouth, small fish circling.",
   "A great whale breaching from a storm-grey ocean beside a small sailing ship, the crew looking up at the vast white underbelly.",
   "A giant crab clacking through the shallows of a moonlit beach, coconut palms swaying behind, claws dripping seaweed.",
-  "An electric eel coiled around a submerged pillar in a murky pool, crackling arcs of blue light rippling across the water."
+  "An electric eel coiled around a submerged pillar in a murky pool, crackling arcs of blue light rippling across the water.",
+  "A pod of dolphins arcing alongside a merchant galley's bow wave under a clear midday sky.",
+  "A manta ray gliding over a coral shelf, its shadow rippling across a diver anchored to a sunken wreck.",
+  "A lamprey-mouthed eel rising from a stagnant canal beneath a moonlit bridge as a lantern-bearer hurries past."
  ],
  "monsters/template-beast": [
   "A bear-shaped figure rearing up in a moonlit cabin doorway, shredded shirt hanging from massive fur-covered shoulders.",
   "A savage tribal rider on a scarred, oversized boar charging through a smoky war camp, tusks bristling with old bone charms.",
   "An ordinary-looking traveller on a snowy road whose shadow is cast in the shape of a wolf, his eyes glowing yellow.",
   "A pale, frog-faced brute leaping from a swamp with a barbed spear, mud spraying and reeds thrashing around it.",
-  "A carrion-fed beast with matted fur and glowing eyes crouched atop a mound of bones in a ruined barn."
+  "A carrion-fed beast with matted fur and glowing eyes crouched atop a mound of bones in a ruined barn.",
+  "A lean woman crouched atop a rooftop under a full moon, her spine already arching into an unnatural, wolfish curve.",
+  "A hulking, feral rendition of a common stag charging a hunting lodge fence, antlers splintered from repeated violent use.",
+  "A once-tame hound gone huge and scarred, straining at a snapped chain in a burned-out kennel yard.",
+  "A fisherman's shadow falling long and wrong across the dock pilings, the shape of gills opening along his throat in the lantern light."
  ],
  "arch-monk": [
   "A monk standing on a single foot atop a bamboo pole over a misty gorge, sleeves fluttering, perfectly balanced against the wind.",
   "A shaven-headed monk sitting under a pounding waterfall with fists on his knees, spray crashing over his shoulders.",
   "A robed figure slipping past a pair of guards along a moonlit temple wall, footprints barely disturbing the raked gravel.",
   "A monk with a staff spinning in a courtyard, a ring of straw dummies falling in halves around them.",
-  "A monk on a rope bridge over a chasm, calm eyes closed, hands clasped around a glowing prayer bead."
+  "A monk on a rope bridge over a chasm, calm eyes closed, hands clasped around a glowing prayer bead.",
+  "A monk breaking a stack of roof tiles with an open palm before a crowd of temple novices.",
+  "A wandering monk fording a flooded rice paddy, staff held above the water, robes soaked through.",
+  "A monk catching a thrown dagger between two fingers without looking up from meditation.",
+  "A young monk sparring blindfolded against three masked instructors in a torch-lit courtyard.",
+  "A monk leaping between rooftops during a monsoon downpour, sandals barely touching the tiles.",
+  "A monk holding a one-armed handstand atop a temple pillar as pilgrims watch from below.",
+  "A battle-worn monk walking calmly through a hail of thrown knives, deflecting each one in turn.",
+  "A monk kneeling before a shattered statue of their order's founder, silently vowing revenge."
  ],
  "arch-rogue": [
   "A hooded scout crouched in bell-tower rafters, watching the street below through a slit, a coiled rope at her hip.",
   "A wide-brimmed bravo swaggering through a torchlit tavern, a rapier at his hip and a smirk under his feathered hat.",
   "A masked infiltrator hanging upside down from a chandelier at a masquerade, plucking a jewelled necklace from a guest's neck.",
   "A halfling rogue dropping from a cart to a barrel to a doorstep in one fluid chase along a rain-soaked harbour street.",
-  "A rogue crouched over a strange glowing lockbox in a dusty crypt, hooked wires half inserted, a skeleton's hand beside it."
+  "A rogue crouched over a strange glowing lockbox in a dusty crypt, hooked wires half inserted, a skeleton's hand beside it.",
+  "A dwarven cat burglar squeezing feet-first through a narrow chimney flue above a sleeping counting-house.",
+  "A half-elf con artist swapping a gem for paste glass mid-handshake at a noble's garden party.",
+  "A tiefling thief perched on a gargoyle's back, studying the watch patrol crossing a rain-slick square below.",
+  "A gnome trapsmith disarming a spring-loaded dart rig inside a tomb corridor, tools clenched in her teeth.",
+  "A female halfling burglar balancing along a clothesline strung between two tenement roofs, laundry brushing her shoulders.",
+  "A scarred rogue forging a noble's seal by candlelight, a stack of blank letters fanned beside the wax.",
+  "An elven cutpurse melting into a temple procession, fingers already closing on a pilgrim's coin purse.",
+  "A human smuggler prying open a false-bottomed crate on a moonless dock, lantern shuttered to a single slit.",
+  "A rogue in dockworker's rags swapping manifests on a harbor ship while sailors argue over cargo weight.",
+  "A masked second-story woman easing a stained-glass pane free of its lead frame with a suction cup and wire.",
+  "A half-orc enforcer looming over a debtor at a gaming table, a knife's edge tapping the wood between them.",
+  "A street-urchin-turned-rogue counting a day's take of stolen apples and coin behind a bakery.",
+  "A poisoner rogue decanting a tincture into a wine bottle's cork groove at a crowded feast table.",
+  "A rogue scout crawling along a castle's crenellations at midnight, mapping the guard rotation in charcoal.",
+  "A gnomish forger comparing an inked signature against the original under a jeweler's loupe.",
+  "A rogue disguised as a temple acolyte slipping a relic into a hollowed prayer book.",
+  "A rooftop duo of thieves passing a stolen tapestry hand to hand across a gap between towers.",
+  "A rogue crouched beneath a caravan wagon, slicing free a strapped chest as wheels creak overhead.",
+  "A veiled spy pressing an ear to a locked study door, one hand already on the handle.",
+  "A rogue picking an opponent's belt pouch clean during the chaos of a tavern brawl.",
+  "A cloaked infiltrator descending a well shaft hand over hand into a smugglers' den below a city.",
+  "A rogue swimming beneath a pier at night to reach a ship's anchor chain and the strongbox lashed to it.",
+  "A card sharp rogue palming an extra ace at a riverboat gambling table, eyes never leaving the mark.",
+  "A rogue slipping a duplicate key onto a guard captain's ring without breaking stride in a corridor.",
+  "A thin rogue folding herself into an empty wine cask bound for the governor's cellar.",
+  "A rogue in noble's borrowed finery bluffing past a masquerade's guest list with a forged invitation.",
+  "A knife-throwing rogue pinning a fleeing informant's cloak to a market stall from three strides away.",
+  "A rogue lock-picking a birdcage-sized reliquary while a temple choir covers the click of tumblers.",
+  "A rogue balanced on a narrow aqueduct wall high above a city, arms out, a stolen satchel slung across her back.",
+  "A rogue counting silent steps across a moonlit courtyard, timing each stride to the watchtower's swinging lantern.",
+  "A fence rogue weighing stolen silver plate on a hidden scale in the back of a pawnshop.",
+  "A rogue climbing a drainpipe past a lit window, flattening against brick as a silhouette passes inside.",
+  "A rogue slitting a tent's canvas wall with a single silent stroke to reach a war-camp's paymaster chest.",
+  "A masked rogue vaulting a spiked fence in one motion, cloak snapping behind in torchlight.",
+  "A rogue reading a mark's face across a crowded inn, already deciding which pocket to work first.",
+  "A rogue slipping a sleeping draught into a jailer's mug before a cell-block break.",
+  "A rogue braced in a chimney's narrow throat, listening to guards argue in the room below.",
+  "A rogue cutting a hidden seam in a merchant's coat to lift a folded letter of credit.",
+  "A rogue sliding down a knotted rope inside a well to a flooded smuggler's cache.",
+  "A rogue reattaching a broken wax seal to a resealed letter with a heated blade.",
+  "A rogue testing a floorboard's give with one toe before committing her weight to the next step.",
+  "A rogue sprinting along a market awning's ridge as merchants below shout and point upward.",
+  "A rogue swapping a real ledger page for a blank one while a clerk's back is turned.",
+  "A rogue crouched in ivy along a manor wall, timing the sweep of a lit window's curtain.",
+  "A rogue easing a sleeping mastiff's collar free to slip past a locked kennel gate.",
+  "A rogue balanced on a gondola's prow in a canal city, working a latch on a merchant's houseboat.",
+  "A rogue pressed flat against a temple rafter, watching acolytes carry a reliquary below.",
+  "A rogue slicing a coin purse's drawstring with a single practiced flick, never breaking stride.",
+  "A rogue examining a stranger's ring for a hidden compartment by a guttering candle.",
+  "A rogue vaulting a market stall to vanish into a crowd, a stolen scroll case under one arm.",
+  "A rogue perched on a siege engine's frame at night, prying loose a bronze fitting to sell as scrap.",
+  "A rogue slipping between two closing portcullises with a heartbeat to spare.",
+  "A rogue trading whispered signals with a lookout across a torchlit plaza.",
+  "A rogue kneeling over a dead courier, quietly working a sealed dispatch free of a hidden coat pocket."
  ],
  "feats/shield": [
   "A sturdy tower shield set against a narrow stair, arrows and thrown spears bristling from its face as the bearer holds the landing.",
   "A gauntlet-mounted shield punching forward into a bandit's chest, a burst of splinters flying from the struck plank.",
   "A shield with a great wing shape painted on it angled overhead, flame washing across its curve as the bearer crouches.",
-  "A shield-bearer beside a wounded ally in a smoky ruin, the broad rim held over both of them as bolts rain down."
+  "A shield-bearer beside a wounded ally in a smoky ruin, the broad rim held over both of them as bolts rain down.",
+  "A paladin's shield flaring with holy light as it deflects a necromantic bolt back at its caster.",
+  "A legionnaire locking his shield's edge into a companion's to seal a gap in the formation.",
+  "A dwarven shieldmaiden using her shield's rim to pin an opponent's weapon arm against a wall."
  ],
  "feats/armor": [
   "A dwarf armourer hammering a glowing breastplate on an anvil in a smoky forge, sparks arcing across leather aprons.",
   "A knight in gleaming full plate striding through a stone gatehouse in the morning sun, every plate articulated and catching light.",
   "A rack of many armours in an arsenal, mail shirts, lamellar and scale glinting in the light of a single high window.",
-  "A dragon-hide armoured warrior scrambling up a sheer wall in a storm, boots and gauntlets finding the mortar gaps."
+  "A dragon-hide armoured warrior scrambling up a sheer wall in a storm, boots and gauntlets finding the mortar gaps.",
+  "A siege engineer inspecting a fresh dent in a cannon-scarred breastplate, chalk marking where the next repair is needed.",
+  "A young squire struggling into oversized hand-me-down plate before a first battle, an older knight adjusting the straps with a patient hand.",
+  "A knight wading through a river crossing in full plate, current tugging at the greaves without slowing his advance."
  ],
  "feats/toughness-saves": [
   "A grizzled sellsword on a burning bridge, arm bandaged, laughing through gritted teeth as flames lick at his cloak.",
   "A halfling standing in a poisonous fog, one hand over her mouth, coughing but unflinching as the vapour curls around her.",
   "A barbarian with a spear through his shoulder charging another foe, blood streaking his skin, roaring in defiance.",
-  "A dwarf sitting calmly on a stone in a lightning storm, pipe lit, a bolt striking the ground beside him without a flinch."
+  "A dwarf sitting calmly on a stone in a lightning storm, pipe lit, a bolt striking the ground beside him without a flinch.",
+  "A dwarven defender still gripping his axe after a boulder crushes the shield beside him, dust settling over an unbroken stance.",
+  "A half-orc shrugging a crossbow bolt from her shoulder mid-charge, barely breaking stride toward the enemy line.",
+  "An elderly wizard steadying himself against a stone pillar as a wave of necrotic energy washes past without unmaking him.",
+  "A gladiator rising from the sand a third time in a packed arena, blood streaked across his ribs, refusing the crowd's expectation of defeat.",
+  "A cleric planting her staff and gritting her teeth through a curse meant to wither, color slowly returning to her knuckles.",
+  "A knight holding a burning banner upright even as the pole scorches his palm, boots braced against a collapsing rampart.",
+  "A ranger staggering out of a collapsed mineshaft coughing dust, one arm limp, still hauling a wounded companion by the collar.",
+  "A young paladin kneeling but unbowed as a giant's club strikes true, cracked shield raised again before the dust even clears."
  ],
  "feats/ki-meditation": [
   "A monk sitting cross-legged in a moonlit bamboo garden, a soft blue glow gathering around her fingers as fireflies drift near.",
   "A practitioner pressing a glowing hand to the trunk of an ancient tree, faint golden light rippling down the bark.",
   "A tattooed ascetic in a monastery scriptorium, brush pausing over a scroll as a pale light pulses under his skin.",
-  "A fighter poised over a crystal set into a temple altar, energy flowing from his palm into the gem in a shimmering thread."
+  "A fighter poised over a crystal set into a temple altar, energy flowing from his palm into the gem in a shimmering thread.",
+  "A monk balanced on one finger atop a temple spire at dawn, eyes closed, a faint nimbus of light steadying the impossible pose.",
+  "A martial artist meditating beneath an icy waterfall, steam rising off bare skin despite the freezing torrent.",
+  "A young initiate cross-legged in a candlelit cave, a small flame hovering unlit above an open palm as focus deepens.",
+  "An elder monk teaching breath control to a row of novices at dawn, each exhale visibly gathering into a faint glow.",
+  "A wandering ascetic sitting in silent meditation atop a swaying rope bridge, wind tugging robes that never quite unbalance him."
  ],
  "feats/spell-focus": [
   "A caster's fingers wreathed in tightly wound threads of coloured light, each strand tuned to a different school, hovering above a desk.",
   "A wizard peering through a lens at a single glowing rune floating above a lectern, one lamp lit in a vast dark study.",
   "A robed scholar guiding a beam of focused light through a prism onto a polished stone, rainbows scattering across the walls.",
-  "A mage in a great hall bending an incoming blast of magic into a narrow bright line, ripples of force rolling across the floor."
+  "A mage in a great hall bending an incoming blast of magic into a narrow bright line, ripples of force rolling across the floor.",
+  "A necromancer's every spell tinged the same cold violet, the color unmistakable across a crowded battlefield.",
+  "An evoker narrowing a wide blast into a single searing beam through sheer trained will.",
+  "A diviner's eyes glowing faintly gold as her precognition sharpens a spell's aim mid-cast.",
+  "A conjurer's summoning circle burning with practiced efficiency, the portal opening faster than any apprentice could manage.",
+  "A transmuter's hand closing around a plain stone, the specialized working turning it to gold with barely a flicker of effort."
  ],
  "feats/familiar": [
   "A tiny weasel familiar peering out of a rogue's hood at a locked door, one paw raised as if it already knows the trick.",
   "A toad familiar squatting on a witch's cauldron rim, its throat swelling while green steam curls up around them both.",
   "A wizard's study at midnight, an owl familiar on the lamp bracket watching a half-finished diagram glow on the desk.",
-  "A hooded caster crossing a rainy market square, a small serpent familiar coiled around one wrist with its head lifted to taste the air."
+  "A hooded caster crossing a rainy market square, a small serpent familiar coiled around one wrist with its head lifted to taste the air.",
+  "A young witch and her spectral moth familiar reading the same page of a spellbook by its softly glowing wings.",
+  "A sorcerer's imp familiar perched on a chandelier, tail curled, reporting an intruder's position with an insistent chitter.",
+  "A druid's fox familiar trotting ahead through a snowy pass, pausing every few steps to glance back and confirm the path is safe.",
+  "A hooded warlock's spider familiar spinning a warning web across a doorway moments before an ambush springs.",
+  "A gnome wizard's tiny mechanical familiar clicking its brass wings atop an open grimoire, correcting a misread rune with a spark.",
+  "An old sea-witch's gull familiar circling a becalmed ship, then diving to drop a scrap of chart into her waiting hand."
  ],
  "feats/animal-companion": [
   "A hawk stooping out of a bright sky toward a ranger's outstretched leather gauntlet on a windy ridge.",
   "A cavalier's warhorse and a hound sharing a campfire's glow, the rider asleep between them with a hand on each.",
   "A young druid feeding a big tiger cub from a wooden bowl in a sunlit forest clearing, the animal already nearly as large as she is.",
-  "A caravan guard walking a shaggy riding dog along a dusty road at dusk, the animal's ears swivelling to catch something in the hills."
+  "A caravan guard walking a shaggy riding dog along a dusty road at dusk, the animal's ears swivelling to catch something in the hills.",
+  "A falconer releasing a hunting hawk from a rooftop into a golden sunset sky over a walled city.",
+  "A ranger sharing the last of his rations with a loyal mastiff beside a dying campfire, both watching the same dark treeline."
  ],
  "feats/bardic": [
   "A lutenist on a rain-slick harbour quay strumming for dock workers, coins and hooked lanterns glinting around the crowd.",
   "A drummer and a piper on a rocky pass keeping a marching column in step, dust rising in rhythm behind the soldiers.",
   "A bard's fingers blurring across harp strings, faint ripples of gold light spreading outward over the table and the faces beside it.",
-  "A singer standing on a ruined amphitheatre stage at sunset, an audience of scattered travellers lifting their heads as one."
+  "A singer standing on a ruined amphitheatre stage at sunset, an audience of scattered travellers lifting their heads as one.",
+  "A traveling minstrel rallying a retreating militia with a single sustained note, spears steadying in trembling hands.",
+  "A half-elf songstress performing atop a wagon in a crowded market square, coins raining down as her voice carries over the din.",
+  "A dwarven war-drummer pounding a steady beat behind a shield wall, the rhythm audibly steadying the soldiers' footing.",
+  "A bard playing a mournful tune at a graveside, the assembled mourners visibly calmed by the melody despite their grief.",
+  "A gnome fiddler leading a tavern into a raucous dance, the floorboards nearly bouncing under the stomping crowd."
  ],
  "feats/earth-stone": [
   "A cracked canyon floor buckling upward in slabs as a barefoot monk stands calm in the middle of it, palms pressed flat to the air.",
   "A gnome miner reading a cavern wall with a fingertip, crystal veins in the rock glowing faintly where he touches.",
   "A wall of jagged granite thrusting out of a road to seal a narrow gorge, dust still tumbling from its crest.",
-  "A stone-skinned warrior standing motionless in a river, water breaking around legs that have turned to grey pillars."
+  "A stone-skinned warrior standing motionless in a river, water breaking around legs that have turned to grey pillars.",
+  "A druid opening a sinkhole beneath a charging cavalry line, the ground rippling like water before it drops away.",
+  "A dwarf smith hardening his own forearms to granite to catch a falling anvil bare-handed.",
+  "A monk walking through a solid wall as though it were mist, stone parting soundlessly around her shoulders.",
+  "An earth-touched cleric raising a jagged spike from a temple floor to skewer a charging construct.",
+  "A prospector's staff striking bedrock and splitting it cleanly open to reveal a vein of raw ore.",
+  "A besieged garrison watching their curtain wall knit itself back together stone by stone under a mage's chant."
  ],
  "feats/water": [
   "A robed figure walking across a still lake at dawn, ripples spreading from each footstep and no wetness on the hem.",
   "A sailor hauled up on a storm-tossed deck by a rope of living seawater curling from a companion's fingers.",
   "A coastal cave at low tide, glowing anemones and a lone diver surfacing in a pool of pale turquoise light.",
-  "A mermaid-blooded warrior slicing through breaking surf beside a longship, spray flung high in the low golden sun."
+  "A mermaid-blooded warrior slicing through breaking surf beside a longship, spray flung high in the low golden sun.",
+  "A tidal druid calming a stormy harbor with both hands raised, waves flattening to glass beneath her palms.",
+  "A pearl diver plunging past a sunken galleon's ribs, bubbles trailing silver in the deep blue gloom.",
+  "A river spirit rising from a waterfall's mist to bar a woodcutter's path, form shifting between water and light."
  ],
  "feats/stealth": [
   "A cloaked thief crossing a moonlit rooftop on the balls of her feet, tiles quiet under her boots, a lit window below.",
   "A halfling pressed against the underside of a market cart wheel while boots tramp past inches from her face.",
   "A figure standing motionless in a curtain fold at a noble's feast, only the glint of a knife hilt betraying them.",
-  "A hunter lying in reeds at dusk, face smeared with mud, watching a patrol lantern swing past along the causeway."
+  "A hunter lying in reeds at dusk, face smeared with mud, watching a patrol lantern swing past along the causeway.",
+  "A shadow-cloaked scout crossing an open courtyard between two patrols without either noticing.",
+  "A thief melting into a crowd the instant a guard's eyes sweep past, features gone blank and unremarkable.",
+  "A ranger freezing mid-step in tall grass as the deer she's stalking lifts its head to listen."
  ],
  "feats/dragon-breath": [
   "A sorcerer on a cliff edge inhaling with head thrown back, heat shimmer already bending the air in front of her open mouth.",
   "A blue-scaled kobold scout coughing a crackle of lightning into a tunnel, the cave walls flashing white.",
   "A dragon-blooded knight sweeping a cone of frost across a bridge of charging goblins, the planks glazed instantly white.",
-  "A young wyrmling on a hoard of coins letting out a small, proud plume of flame that gilds the whole cave with orange."
+  "A young wyrmling on a hoard of coins letting out a small, proud plume of flame that gilds the whole cave with orange.",
+  "A red dragon's brood-mother exhaling a wall of fire across a fleeing caravan, wagons igniting in sequence.",
+  "A draconic sorceress opening her jaw wider than should be possible, acid already hissing at the back of her throat.",
+  "A frost wyrm's breath freezing a river solid in one sweeping arc, fish trapped mid-leap in the ice.",
+  "A half-dragon mercenary exhaling a narrow jet of poison gas into a sewer tunnel, rats scattering ahead of the green cloud.",
+  "A bronze dragon curling above a storm-tossed ship, breath crackling into a bolt of lightning that splits the mast."
  ],
  "feats/blood-sacrifice": [
   "A priest kneeling at a black altar pouring a thin thread of his own blood onto carved stone as candles gutter sideways.",
   "A wounded barbarian howling with a fresh gash across her ribs, the wound smoking as red light surges through her arms.",
   "A vampire hunter pressing a bleeding thumb to the pommel of a silvered sword, the blade brightening in answer.",
-  "A crimson-stained ritual circle in a crypt, a pale caster lowering a shallow bowl of blood into the centre of its ring."
+  "A crimson-stained ritual circle in a crypt, a pale caster lowering a shallow bowl of blood into the centre of its ring.",
+  "A cultist slitting a captive's palm over a black altar stone, the blood pooling into a sigil that flares to life.",
+  "A paladin willingly bleeding onto her own blade to strengthen one desperate final blow against a demon lord.",
+  "A witch doctor scarring his own chest with a ritual blade, smoke rising from each fresh cut as power builds.",
+  "A dying knight smearing blood across a companion's shield, transferring the last of his strength into the metal.",
+  "A dark priestess draining a sacrificial goat over a stone bowl as shadows lengthen unnaturally around the shrine."
  ],
  "items/gloves-bracers": [
   "A pair of thief's gloves tucked into a coat pocket, fingertips worn thin and stitched with tiny silver thread.",
   "A pair of spiked gauntlets hung by their cuffs from a rusty peg in an armoury, a shaft of dusty light on the knuckles.",
   "A single vambrace of hammered bronze resting on a sandy temple step, glyph-like scrollwork gleaming in the sun.",
-  "A pair of fur-lined winter gauntlets thawing beside a hearth, small crystals of frost slowly dripping from the cuffs."
+  "A pair of fur-lined winter gauntlets thawing beside a hearth, small crystals of frost slowly dripping from the cuffs.",
+  "A falconer's thick leather gauntlet with a hawk perched upon it, talons gripping the worn hide.",
+  "A duelist pulling on a fine kid-leather glove before a formal challenge at dawn.",
+  "A pair of climbing gloves with reinforced fingertips, chalk dust smudged across the palms on a rocky ledge.",
+  "A wizard's bracer etched with tiny arcane sigils that shimmer as a spell is cast.",
+  "A blacksmith's heat-scarred gauntlet gripping tongs over a roaring forge.",
+  "A pair of riding gloves draped over a saddle horn, reins looped nearby at a dusty crossroads inn.",
+  "A jeweler fitting a small gem into the cuff of an ornate bracer under a magnifying lamp.",
+  "A pair of tattered gloves belonging to a beggar, fingertips worn through, resting on a cobblestone step.",
+  "A gauntlet raised in salute before a cheering crowd at a colosseum entrance, chainmail glinting beneath."
  ],
  "spells/undead": [
   "A pale caster holding a glowing skull aloft in a moonlit graveyard as ghostly hands push up through the loosened earth.",
   "A crypt corridor lined with alcoves where shrouded corpses turn their heads in unison toward a green lantern's glow.",
   "A necromancer's hand pressed to a dead soldier's chest, black threads of shadow stitching through the ribs and jerking the corpse upright.",
-  "A line of skeletal soldiers rising from a flooded battlefield at dusk, mud and moss sliding from their rusted armour."
+  "A line of skeletal soldiers rising from a flooded battlefield at dusk, mud and moss sliding from their rusted armour.",
+  "A lich raising a hand over a battlefield of the fallen, thousands of bony fingers breaking the soil at once.",
+  "A ghost ship's rotted crew hauling on spectral rigging as it glides silently into a fog-bound harbor.",
+  "A young necromancer flinching as her first reanimated corpse turns to face her, awaiting command.",
+  "A graveyard's iron gates rattling open on their own as pale wisps gather into the shape of hovering wraiths.",
+  "A paladin's holy light forcing a newly risen zombie back into stillness, the corpse sinking slowly back into its grave.",
+  "A battlefield scavenger's lantern flickering out as skeletal hands close around his ankle from beneath the mud."
  ],
  "spells/teleport": [
   "A robed traveller stepping into a swirling violet ring on a lonely mountain road, the far side already showing a sunlit tower.",
   "A silhouette blinking out of a stone cell as a guard's keys turn in the lock, a scatter of light motes the only trace.",
   "A caster caught in mid-jump between two rooftops, her body stretched into a thin bright ribbon of light across the gap.",
-  "A dimensional door standing open in an empty field, a bustling city street visible through it and a wary adventurer peering out."
+  "A dimensional door standing open in an empty field, a bustling city street visible through it and a wary adventurer peering out.",
+  "A retreating army vanishing rank by rank from a collapsing battlefield in bursts of silver light.",
+  "A thief snatching a jeweled crown from its pedestal and disappearing before the guards' spears cross the empty space.",
+  "A wizard's tower door opening onto a completely different city street, a courier stepping through without breaking stride.",
+  "Twin sorcerers swapping places mid-duel in a blink, each suddenly standing where the other had stood.",
+  "A raiding party melting out of an ambush in a ring of flickering light as pursuers' arrows strike empty air.",
+  "A pilgrim stepping through a shimmering archway in a temple courtyard and emerging atop a distant snow-capped peak.",
+  "A prisoner and his rescuer vanishing from a locked cell together in a single flash, leaving the chains hanging empty."
  ],
  "spells/divination": [
   "A hooded figure gazing into a crystal ball on a moonlit balcony, a distant army camp reflected in its curve.",
   "A ring of stones on a windy hill, a druid in the centre holding a forked twig that trembles and points across the valley.",
   "A gold-lit eye opening in the air above a caster's palm, drifting through a keyhole toward a secret chamber.",
-  "A seer casting scattered bones across a carpet, the fallen shapes glowing faintly and forming a map."
+  "A seer casting scattered bones across a carpet, the fallen shapes glowing faintly and forming a map.",
+  "An augur reading the entrails of a sacrificed goat, faint glowing symbols rising from the offering to spell out a warning.",
+  "A blindfolded seer tracing her fingers over a relief map, a soft light pooling over the location of a hidden army.",
+  "A hermit gazing into a still forest pool that ripples to show a distant caravan under attack.",
+  "A court astrologer charting the stars from a tower rooftop as constellations rearrange themselves into a warning omen.",
+  "A fortune-teller's cards flipping themselves over one by one on a market stall table, each revealing the same grim image.",
+  "A druid pressing an ear to a hollow oak, faint whispered visions of the forest's history flickering behind her closed eyes.",
+  "A wizard's familiar owl perched on a windowsill, its eyes reflecting a scene from miles away for its waiting master.",
+  "A ship's navigator holding a compass that spins wildly before settling to point toward an unseen reef ahead."
  ],
  "spells/sonic": [
   "A church bell cracking down its length while the caster below it stands with both hands over her ears, ripples of air spreading outward.",
   "A row of cavern crystals shattering in sequence as a bard's held note travels along the wall.",
   "A giant tuning fork struck against a ruined battlement, invisible waves tearing dust and loose stones off the parapet.",
-  "A horn blown atop a mountain pass, the sound thrown outward as pulsing rings that shake snow loose from the slopes."
+  "A horn blown atop a mountain pass, the sound thrown outward as pulsing rings that shake snow loose from the slopes.",
+  "A cathedral choir's single sustained note bringing down a crumbling bell tower in a shower of stone and dust.",
+  "A duelist's shout knocking an opponent's blade spinning from his grip, the ringing tone visible as a rippling wave.",
+  "A siren's cry from a cliffside splitting a ship's mast in two, sailors clutching their ears on the heaving deck.",
+  "A bard's amplified roar scattering a wolf pack from a forest clearing, leaves stripped from nearby branches by the blast."
  ],
  "spells/weather": [
   "A druid on a wind-swept moor calling down a slanting curtain of cold rain across a distant field of soldiers.",
   "A ship's deck in a gale, the captain raising a hand and the towering waves ahead easing into a glassy calm path.",
   "A caster in a desert wadi conjuring a swirling dust devil that lifts scattered coins and cloth from an abandoned camp.",
-  "A frost-rimed village square at dawn, a hooded wizard's breath forming a slow snowfall that settles thick on every roof."
+  "A frost-rimed village square at dawn, a hooded wizard's breath forming a slow snowfall that settles thick on every roof.",
+  "A druid standing in a wheat field summoning a gentle rain to end a season's drought as farmers cheer from the tree line.",
+  "A sea-hag's curse rolling black thunderheads over a fishing fleet, waves rising to swallow the smaller boats.",
+  "A mountain shaman calming an avalanche-triggering wind before it can loosen the packed snow above a mountain pass.",
+  "A caster's small localized fog bank rolling across a bridge to hide a retreating patrol from archers on the far bank.",
+  "A prairie storm-caller summoning a wall of hail to shred a charging cavalry line's pennants and unhorse the front rank."
  ],
  "spells/mind-psychic": [
   "A guard staring blank-eyed at nothing while a cloaked woman lowers two fingers from her temple, her smile very slight.",
   "A hall of mirrors in which each reflection shows a different frightened thought of the same person.",
   "A child's drawing coming half-alive in the air between a mind-reader's palms, a house and a tall dark figure shifting slowly.",
-  "A crowd on a crowded street all turning their heads at the same instant, one unmoved stranger standing quietly at the centre."
+  "A crowd on a crowded street all turning their heads at the same instant, one unmoved stranger standing quietly at the centre.",
+  "A telepath standing in a crowded market, mouth closed, while a merchant across the square nods at words never spoken aloud.",
+  "A captured spy's eyes rolling back as an interrogator draws the truth out of him syllable by unwilling syllable.",
+  "A psion holding a wall of illusory calm around a panicking crowd, their fear visibly dimming like a snuffed candle.",
+  "A dominated guard turning his spear on his own captain, his eyes glassy and his hand not quite his own.",
+  "A witch planting a single false memory into a sleeping merchant, watching it take root like a seed behind his eyes.",
+  "Two rival mentalists in a silent stalemate, sweat beading on both their brows as unseen wills grind against each other.",
+  "A frightened child's night terror made visible as a looming shadow-beast that a psion calmly steps forward to unmake.",
+  "An oracle's vision overtaking her mid-sentence, her eyes flooding white as futures flicker rapid-fire behind them.",
+  "A prisoner's mind laid bare on an interrogation table, ghostly images of his hideout hovering just above his brow.",
+  "A telepathic bond flaring between two twins on opposite sides of a battlefield, each flinching at the other's wound.",
+  "A mesmerist's slow hand gesture emptying a tavern brawl of its rage, fists unclenching one by one around the room."
  ],
  "spells/blood-flesh": [
   "A surgeon-mage bent over a table where a torn limb knits itself shut under a glowing palm, crimson light seeping out of the skin.",
   "A caster's arm swelling with ropes of muscle as red veins glow beneath the skin, the fist clenching into something monstrous.",
   "A shallow pool of blood rising in a spiral off a crypt floor to cluster into a floating dark sphere above a chanting witch's hands.",
-  "A twisted figure whose skin ripples like water as bone and muscle reshape themselves beneath a torn shirt."
+  "A twisted figure whose skin ripples like water as bone and muscle reshape themselves beneath a torn shirt.",
+  "A battlefield chirurgeon knitting a soldier's shattered leg back together with threads of glowing red light drawn from his own palm.",
+  "A cursed duelist watching his own hand slowly reshape into a taloned claw mid-fight.",
+  "A witch drawing a vial of her own blood across a sigil, the wound sealing shut the instant the last drop falls.",
+  "A tribal shaman's chest splitting open painlessly to reveal a second, spectral heart beating in time with a war-drum.",
+  "A torture chamber where a captive's screams turn to silence as unseen hands smooth his skin back to unmarked flesh.",
+  "A wounded ranger watching an arrow wound close over on its own, pink new flesh spreading outward from a healer's touch across a clearing."
  ],
  "monsters/animal-bigcat": [
   "A tiger pacing slowly along a stream in dappled jungle shade, striping vanishing among the reeds.",
   "A snow leopard poised on a windswept crag, spotted coat blending into grey rock and drifting flakes.",
   "A pair of lion cubs wrestling in golden grass while a lioness watches them from a termite mound in the evening haze.",
-  "A black panther crossing a moonlit rope bridge above a jungle gorge, eyes gleaming green and tail low."
+  "A black panther crossing a moonlit rope bridge above a jungle gorge, eyes gleaming green and tail low.",
+  "A leopard dragging a fresh kill up into the fork of an acacia tree as vultures circle below.",
+  "A cheetah exploding from cover across a sun-baked savanna, dust kicking up behind flattened ears.",
+  "A jaguar swimming across a jungle river at night, only its striped head and shoulders breaking the black water."
  ],
  "monsters/animal-reptile": [
   "A giant tortoise ploughing across a salt flat under a hard noon sun, cracked shell mounded like a hillock.",
   "A sea turtle gliding through a sunlit reef, its flippers stroking slowly past waving fans of coral.",
   "A swamp full of tangled mangrove roots where a huge python hangs from a branch, its coils fading into leaf shadow.",
-  "A pair of geckos clinging to a cracked temple wall, clear toes splayed, tongues flicking at a passing dragonfly."
+  "A pair of geckos clinging to a cracked temple wall, clear toes splayed, tongues flicking at a passing dragonfly.",
+  "A chameleon creeping along a mossy branch in a misty jungle canopy, eyes swiveling independently toward a passing beetle.",
+  "A basilisk lizard skittering across the surface of a jungle pool on its hind legs, ripples fanning out behind it.",
+  "An alligator gliding beneath a canopy of cypress knees in a moss-draped swamp, only ripples marking its passage.",
+  "A herd of duck-billed dinosaurs wading through a fern-choked river delta under a bruised evening sky.",
+  "A chuckwalla lizard wedged into a sunbaked rock crevice, puffing its body to fill the gap as a hawk's shadow passes overhead.",
+  "A pack of small feathered raptors flushing a covey of ground birds from tall grass at the edge of a burned prairie.",
+  "A marine iguana clinging to black volcanic rocks as surf crashes around it, salt crusting its spines."
  ],
  "monsters/animal-hoofed": [
   "A herd of bison thundering across a dusty prairie, hooves throwing up a brown cloud in the low evening light.",
   "A mountain goat balanced on a needle of rock above a foggy valley, horns curved and breath steaming.",
   "A rhinoceros lowering its horn in a shallow river at dawn, water streaming from its armoured hide.",
-  "A camel caravan crossing dunes in a shimmering heat haze, the lead animal turning its long head to look straight out at us."
+  "A camel caravan crossing dunes in a shimmering heat haze, the lead animal turning its long head to look straight out at us.",
+  "A herd of pronghorn antelope streaking across a golden plain in a shared explosion of speed and dust.",
+  "A herd of wild elephants crossing a wide river at dusk, trunks raised above the current.",
+  "A boar crashing out of dense underbrush to charge a hunting party, tusks catching the last light."
  ],
  "arch-alchemist": [
   "A tinkerer in soot-black goggles feeding a handful of glowing crystals into a hissing brass still.",
   "A hooded alchemist tossing a shimmering vial into a mob of skulking ghouls, a blue-white flash blooming behind her.",
   "A cheerful apothecary at a street stall ladling curious potions into tiny bottles beside a shelf of sleeping herbs.",
-  "A flame-scarred alchemist leaning over a cauldron of molten gold-coloured liquid, one hand shielding her face from the glare."
+  "A flame-scarred alchemist leaning over a cauldron of molten gold-coloured liquid, one hand shielding her face from the glare.",
+  "An alchemist testing a new formula on a caged rat, notebook open and quill ready.",
+  "A bomber lobbing a fizzing clay grenade over a barricade during a street riot.",
+  "An alchemist strapped into leather goggles, watching a distillation column hiss and rattle.",
+  "A grafter stitching a chimeric wing onto their own shoulder before a cracked mirror.",
+  "An alchemist selling tonics from a wagon stall, crowds gathering at a village fair.",
+  "A discipline-scarred alchemist drinking a mutagen calmly before a duel, pupils already narrowing to slits.",
+  "An alchemist diving for cover as a shelf of reagents catches fire behind them.",
+  "A traveling apothecary mixing a healing draught over an injured farmhand by lantern light.",
+  "An alchemist crouched over a captured monster's carcass, extracting a glowing gland for later use."
  ],
  "arch-magus": [
   "A duellist with a rapier trailing a comet of blue sparks as she leaps a fallen banquet table.",
   "A spellblade in scale mail crouched behind a shield, fingers of the free hand weaving a bright fork of lightning.",
   "A dark-robed swordsman drawing a blade from a scabbard that pours smoky shadow, the courtyard around him dimming.",
-  "A magus meditating cross-legged on a battlement with a great sword laid across her knees, faint runes crawling down the steel."
+  "A magus meditating cross-legged on a battlement with a great sword laid across her knees, faint runes crawling down the steel.",
+  "A magus deflecting a fireball with a spinning blade, arcane sparks scattering across a courtyard.",
+  "A battle-mage channeling frost through a rapier to freeze a charging hound mid-leap.",
+  "A magus reading a scroll one-handed while parrying a longsword strike with the other.",
+  "A robed duelist tracing a glyph onto her blade moments before a formal court challenge.",
+  "A magus standing amid a ring of shattered practice dummies, blade humming with spent charge.",
+  "A magus channeling lightning down a spear haft to skewer an armored knight through a gap in plate."
  ],
  "arch-oracle": [
   "A young oracle in a threadbare robe standing in a lit doorway, ash drifting from her fingers and pooling into a curse-mark on the floor.",
   "An oracle sitting in a sunlit orchard with a shard of ancient stone in hand, the leaves around her turning gold and falling at once.",
   "A barefoot mystic seeing storm clouds where a crowd sees only clear sky, one hand raised in warning to a market full of people.",
-  "A fever-bright figure hunched over a candle in a cell, flames leaping through visions on the wall behind."
+  "A fever-bright figure hunched over a candle in a cell, flames leaping through visions on the wall behind.",
+  "An oracle collapsing mid-stride as a vision overtakes her, market-goers scattering as prophecy spills from her lips.",
+  "A wind-touched oracle standing on a cliff's edge, hair and cloak whipping though no storm is near.",
+  "A battle oracle limping onto a bloodied field, cursed wounds glowing faintly as she raises a trembling hand to heal an ally."
  ],
  "arch-paladin": [
   "A knight in dented plate leading a war-horse across a burned village, one glove hanging still on a fence post.",
   "A paladin sharing a quiet meal of bread and water with a scared child beside a roadside shrine.",
   "A radiant warrior on a hillside driving a sword point into rocky earth as a ring of golden light spreads over the frightened crowd behind her.",
-  "A dawn charge across a misty field, a mounted paladin at the lead with a pennant snapping over a line of riders."
+  "A dawn charge across a misty field, a mounted paladin at the lead with a pennant snapping over a line of riders.",
+  "A paladin carrying a wounded squire across a battlefield under a hail of arrows, shield raised behind them both.",
+  "A young paladin taking her oath before a bishop, hand resting on a relic sword in a candlelit cathedral.",
+  "A paladin standing firm in a shield wall, radiant light spilling from a raised holy symbol as undead claw at the line.",
+  "A paladin sharing rations with starving refugees outside a besieged city's gates at dawn.",
+  "A battle-worn paladin cleansing a plague-ridden well with a touch, light rippling outward through the water."
  ],
  "arch-sorcerer": [
   "A young sorcerer with dragon-scaled forearms cupping a ball of crackling flame in the middle of a wheat field.",
   "A robed figure whose hair floats upward as pale feathers unfurl along the shoulders and a soft light wells from her eyes.",
   "A sorcerer's shadow on a tavern wall taking a shape that is not hers, horns and wings rising behind an oblivious drinker.",
-  "A wild-eyed spellcaster in a marble hall, surrounded by orbiting furniture as her hands tremble with barely leashed power."
+  "A wild-eyed spellcaster in a marble hall, surrounded by orbiting furniture as her hands tremble with barely leashed power.",
+  "A sorcerer with serpent-slit eyes coiling a rope of pale fire around one wrist in a moonlit ruin.",
+  "A young sorcerer's hands crackling with frost as icicles spread unbidden across the tavern table before her."
  ],
  "arch-vigilante": [
   "A hooded figure dropping from a chimney onto a cart of stolen goods, cloak snapping open above a startled thug.",
   "A noble at a masquerade slipping out a side door, a black domino mask already pulled from her sleeve.",
   "A cloaked avenger climbing a clocktower by moonlight, a coil of rope over one shoulder and the city glittering below.",
-  "A dockside alley at midnight, a masked stranger leaning on a wall while a smuggler's crew realises too late who has been waiting."
+  "A dockside alley at midnight, a masked stranger leaning on a wall while a smuggler's crew realises too late who has been waiting.",
+  "A masked vigilante interrogating a cornered smuggler in a rain-slicked alley behind a warehouse.",
+  "A noblewoman by day slipping into a hidden tunnel beneath her manor, vigilante garb folded in a hidden trunk.",
+  "A vigilante leaping a rooftop gap between two guildhalls, a spent grapple line trailing behind them.",
+  "A masked figure standing over a burning ledger in a corrupt magistrate's study, evidence scattered nearby.",
+  "A vigilante attending a merchant's gala in silk finery, a concealed blade sewn into an embroidered sleeve.",
+  "A cloaked figure marking a wanted poster with a small painted symbol before melting into a crowd.",
+  "A vigilante crouched on a gargoyle's shoulder, watching a corrupt watch captain make a bribe below."
  ],
  "arch-wizard": [
   "A robed scholar at a chalkboard wall of diagrams, one hand sketching a glowing sigil in the air while the other steadies a floating lantern.",
   "A battle-mage in a scorched coat on a hillside, a bound familiar hawk on her shoulder as arcane light gathers between her palms.",
   "A cramped alchemist-wizard's attic, a levitating quill scratching notes beside a cracked orrery and a sleeping cat on the sill.",
-  "A wizard standing at the centre of a chalked circle on a moonlit rooftop, three floating orbs of different colour orbiting his raised staff."
+  "A wizard standing at the centre of a chalked circle on a moonlit rooftop, three floating orbs of different colour orbiting his raised staff.",
+  "A wizard testing a newly bound familiar's loyalty with a floating candle trick in a cluttered study.",
+  "An archivist wizard descending a spiral staircase lined with locked spellbooks, a glowing orb lighting the way.",
+  "A wizard dueling a rival caster across a collapsing bridge, both hurling counterspells mid-fall."
  ],
  "feats/finesse-duelist": [
   "A slender fencer on a torchlit bridge parrying a heavier opponent's cleaver with a whisper-thin blade, wrist turned and weight perfectly balanced.",
   "A masked duelist at dawn on a misty lakeshore, blade held point-down in a salute, a rival's silhouette waiting across the reeds.",
-  "A duelist pinning a dangling ribbon of cloth to a wall with a single flicked thrust, lace cuffs fluttering above the quivering blade."
+  "A duelist pinning a dangling ribbon of cloth to a wall with a single flicked thrust, lace cuffs fluttering above the quivering blade.",
+  "A one-eyed fencing master parrying three blades at once in a candlelit salle, feet never leaving a single small square of floor.",
+  "A young noblewoman disarming a braggart in a courtyard duel with a single twist of her wrist, his rapier clattering onto the flagstones.",
+  "A masked duelist dueling atop a moving carriage roof, blade weaving between jolts and swaying lanterns.",
+  "A left-handed swordsman turning his off-hand grip mid-bout to confuse an opponent's timing, blade angled unnaturally low.",
+  "A dueling instructor demonstrating a lunging attack down a long gallery, students lining the walls to watch the blur of motion.",
+  "A tiefling duelist trading blows on a rain-swept pier at midnight, each parry sending droplets scattering off crossed steel."
  ],
  "feats/charge": [
   "A horned rider on a lumbering beast smashing down a village lane at a run, thatch and fence posts flying aside from its lowered head.",
   "A shield-bearer lowering a shoulder into a sprint across a muddy field, cloak whipping, the enemy line still a long way off.",
-  "A wedge of mounted knights thundering down a grassy slope at dawn, lances lowered in a single glittering line and hoof-thrown clods hanging in the air."
+  "A wedge of mounted knights thundering down a grassy slope at dawn, lances lowered in a single glittering line and hoof-thrown clods hanging in the air.",
+  "A boar-mounted goblin chieftain crashing through a market stall row, produce and panic scattering in every direction.",
+  "A single berserker sprinting alone at a shield wall, axe raised overhead, comrades shouting behind him to wait."
  ],
  "feats/attacks-of-opp": [
   "A city guard stepping sideways to hook a runaway thief's ankle with a halberd blade as the man tries to slip past into an alley.",
   "A sentinel on a narrow stair snapping a short sword across a doorway as an intruder lunges through, stopping him cold on the threshold.",
-  "A knight holding a bridgehead, her sword lashing out at a foe who tried to duck around her shield, the crowd of enemies behind him halting."
+  "A knight holding a bridgehead, her sword lashing out at a foe who tried to duck around her shield, the crowd of enemies behind him halting.",
+  "A phalanx spearman's point catching a retreating skirmisher exactly as he turns his back to flee.",
+  "A duelist's blade flicking out to punish a rival who lowered his guard mid-taunt."
  ],
  "feats/summoning": [
   "A conjurer in a cavern of dripping stone, palms pressed together as a pack of spectral hounds bursts from a swirling ring of blue light at his feet.",
   "A druid in a moonlit glade calling down a great stag of pale light, antlers trailing motes as it steps out of the night air.",
-  "A cracked ritual dais in a ruined temple with a robed figure holding a pointed staff, a towering fiendish shape half formed in smoke above the floor."
+  "A cracked ritual dais in a ruined temple with a robed figure holding a pointed staff, a towering fiendish shape half formed in smoke above the floor.",
+  "A binder tracing a sigil in chalk as a small clawed imp scrabbles up out of the lines, blinking at the light.",
+  "A war-conjurer on a battlefield hillside slamming a staff down as a rank of spectral soldiers rises from the mud."
  ],
  "feats/bloodline": [
   "A young sorcerer at a forge-lit window, golden scales creeping across her wrists and her irises slit like a dragon's as her power stirs.",
   "A noble portrait gallery at dusk where one figure in the dark stands beneath his ancestor's painting, his shadow wearing the painted figure's horns.",
-  "A sorcerer on a storm-lashed tower, hair lifting in sourceless wind, faint feathered wings of light unfolding from her back."
+  "A sorcerer on a storm-lashed tower, hair lifting in sourceless wind, faint feathered wings of light unfolding from her back.",
+  "A half-fiend sorcerer's shadow stretching unnaturally long and horned across a tavern wall as her temper flares.",
+  "A storm-blooded sorcerer standing atop a lighthouse as lightning arcs harmlessly around her outstretched arms, hair crackling with static.",
+  "A fey-touched changeling child's eyes flashing silver in candlelight as flower petals bloom unbidden from her fingertips.",
+  "A sorcerer's reflection in a still pond showing a second, monstrous shape superimposed behind his own, both moving as one."
  ],
  "feats/rage-barbarian": [
   "A hulking warrior tearing a portcullis from its tracks with bare hands, muscle knotted and teeth bared, iron screaming out of the stonework.",
   "A barbarian mid-leap off a ruined wall, greataxe overhead, war-paint streaked and mouth open in a bellow above a startled mob of foes.",
-  "A bloodied berserker standing alone in a ring of fallen shields, chest heaving in the falling snow, steam boiling off his shoulders."
+  "A bloodied berserker standing alone in a ring of fallen shields, chest heaving in the falling snow, steam boiling off his shoulders.",
+  "A half-orc shrugging off three arrows still lodged in her shoulder as she closes the last steps to her enemy.",
+  "A raging dwarf smashing through a locked gate with his shoulder rather than pausing to find the key.",
+  "A tribal warrior's eyes gone wholly white with fury, ignoring a broken arm to keep both hands on his club.",
+  "A berserker roaring atop a felled ogre, chest heaving, already turning toward the next threat before the body settles.",
+  "A frost-scarred raider tearing free of a chain net through sheer strength, links snapping one by one."
  ],
  "feats/smite-paladin": [
   "A paladin in silver plate raising her sword toward a stained-glass window, a shaft of holy fire narrowing along the blade and crowning a cowering demon.",
   "A knight standing before a cursed idol at dawn, sunlight bending around her shield as she plants her feet and calls down judgment.",
-  "A paladin on one knee amid the wounded on a battlefield, hands over a child's chest, warm light rising from between her gauntlets."
+  "A paladin on one knee amid the wounded on a battlefield, hands over a child's chest, warm light rising from between her gauntlets.",
+  "A paladin's warhammer crashing down on a possessed knight, holy light exploding outward and stripping the corruption from his armor."
  ],
  "feats/air-flight": [
   "A winged elf gliding low over a canopy of misty pines at sunrise, fingertips brushing the highest branches.",
   "A knight on a griffon diving through a cloudbank, the tips of the beast's wings shedding streamers of vapour.",
-  "A sky-city rooftop where a monk leaps off the parapet in a slow arc, robes rippling and the whole valley floor spread far beneath."
+  "A sky-city rooftop where a monk leaps off the parapet in a slow arc, robes rippling and the whole valley floor spread far beneath.",
+  "A feathered aasimar racing a hawk across a canyon at dawn, both banking in unison around a spire of red rock.",
+  "A wizard riding a conjured whirlwind above a besieged city wall, robes snapping as arrows fall short below.",
+  "A young gnome tinkerer testing a pair of clockwork wings off a barn roof, feathers scattering as she catches an updraft just in time.",
+  "A wind-touched monk walking on air across a chasm, each footstep landing on nothing but pressed cloud."
  ],
  "feats/perception": [
   "A tavern doorway seen from a corner table, a hooded traveller's eyes lifting above a mug toward one stranger's hand slipping toward a hidden knife.",
   "A ranger on a mossy ridge with a hand cupped to one ear, the forest around her still and every leaf sharply detailed.",
-  "A guard atop a wall at night listening intently, head tilted, a faint scuff of boots below shown as pale ripples in the dark."
+  "A guard atop a wall at night listening intently, head tilted, a faint scuff of boots below shown as pale ripples in the dark.",
+  "A dockside guard noticing a smuggler's crate sitting a fraction too heavy for its supposed contents.",
+  "A ranger spotting a single out-of-place feather caught in a bush, the only sign of the ambush ahead."
  ],
  "feats/athletics": [
   "A swimmer driving through a churning river current toward a rope on the far bank, arms flashing and spray thrown high in the sun.",
   "An acrobat running along the length of a ship's swaying yardarm, arms out, the deck a long way below and the sea glittering beyond.",
-  "A muscular figure hurling herself over a spiked wall in an obstacle course, a crowd of cheering spectators blurred behind."
+  "A muscular figure hurling herself over a spiked wall in an obstacle course, a crowd of cheering spectators blurred behind.",
+  "A scout scaling a sheer castle wall using only narrow mortar gaps for grip.",
+  "A courier leaping between rooftop gutters across a rain-slick alley without breaking stride.",
+  "A gladiator vaulting over a charging bull in the arena, twisting clear of its horns mid-air."
  ],
  "items/arrow-bolt": [
   "A cluster of fire-tipped arrows stuck upright in a hay bale at dusk, their pitch-soaked heads still smoking.",
   "An arrow lying across an open palm, its head split into a fork of dark iron, the fletching dyed deep crimson.",
-  "A bandolier of small crossbow bolts hung on a tavern peg, each painted with a coloured band around the shaft, a lamp glowing behind."
+  "A bandolier of small crossbow bolts hung on a tavern peg, each painted with a coloured band around the shaft, a lamp glowing behind.",
+  "A single arrow shaft split by another mid-flight, both halves frozen above an archery butt at a royal tournament.",
+  "A quiver slung on a dead tree branch, its arrows fletched with black feathers, crows watching from above in fading light.",
+  "A bundle of hunting arrows tied with sinew propped against a ranger's pack at a forest campsite, dew on the fletching.",
+  "A crossbow bolt embedded deep in a castle door, its iron head still quivering after impact.",
+  "A child's practice arrows in a straw target yard, blunt tips and painted rings, afternoon sun slanting across the field."
  ],
  "items/shield-item": [
   "A dented shield lying face-up in wet grass after battle, a raven perched on its rim and a faint mist drifting over the field.",
   "A pair of matched steel bucklers on a weapon-rack, their faces etched with an owl and a wolf, oil-lamp light sliding across the metal.",
-  "A shield leaning in a chapel corner before a candle-lit altar, its face gilded with a radiant sunburst and ribbons tied to the strap."
+  "A shield leaning in a chapel corner before a candle-lit altar, its face gilded with a radiant sunburst and ribbons tied to the strap.",
+  "A wall of locked shields bristling with spear points advancing across a misty battlefield at dawn.",
+  "A cracked wooden buckler nailed above a tavern hearth as a trophy, firelight flickering across old sword-marks.",
+  "A druid's shield woven from living vines and bark, leaves still unfurling along its rim in a forest clearing.",
+  "A paladin kneeling in prayer, her polished shield planted upright beside her catching candlelight from a wayside shrine.",
+  "A dented shield salvaged from a shipwreck, barnacles crusting its face, hauled up dripping onto a dock."
  ],
  "items/helm-crown": [
   "A weathered iron crown resting on a mossy throne in an overgrown ruin, a single shaft of daylight finding the jagged points.",
   "A knight's helm with a swept-back feathered crest sitting on a tavern table beside a mug, the visor propped open.",
-  "A slim gold diadem set with one green stone hanging from a hook in a sorcerer's dim study, faintly glowing."
+  "A slim gold diadem set with one green stone hanging from a hook in a sorcerer's dim study, faintly glowing.",
+  "A gladiator's battered helm resting on a locker bench, fresh dents still gleaming after the day's bout.",
+  "A queen's slender crown reflected in still water as she leans over a garden fountain.",
+  "A barbarian's horned helm mounted on a spear outside a war-band's camp, firelight flickering across the horns.",
+  "A funeral crown placed gently atop a fallen king's brow as mourners file past a stone bier."
  ],
  "items/gem-stone": [
   "A dragon's hoard glimpse: a single ruby the size of a fist lit from within on a slope of gold coins in a dark cavern.",
   "A polished black stone in a shrine niche, rippling faint silver light like a moon on water, incense curling past it.",
-  "A miner's callused hand holding up a cracked geode to a lantern, violet crystals glittering inside."
+  "A miner's callused hand holding up a cracked geode to a lantern, violet crystals glittering inside.",
+  "A thief's stolen sapphire rolling to a stop on cobblestones after a botched escape through a market alley.",
+  "A dwarven vein of raw gemstones glittering in torchlight where a pickaxe has just struck deep rock.",
+  "A dragon egg-shaped opal displayed on a velvet stand behind glass in a royal treasury.",
+  "A cluster of glowing cave crystals embedded in a cavern wall, casting soft blue light over dripping stalactites."
  ],
  "spells/armor-buff": [
   "A wizard drawing a shimmering ring of force around a young squire's chest, pale runeless glow spreading over his tunic like plate.",
   "A cleric touching a soldier's breastplate, golden light washing across the steel and smoothing every dent away.",
-  "A priestess raising her hand as a shell of translucent light sheathes a ranger just before a volley of arrows lands harmlessly around him."
+  "A priestess raising her hand as a shell of translucent light sheathes a ranger just before a volley of arrows lands harmlessly around him.",
+  "A mercenary's leather jerkin hardening visibly to plate as a hedge wizard mutters over a pinch of iron filings.",
+  "A city guard's round shield blooming with a faint golden lattice as a temple acolyte lays both hands upon its rim."
  ],
  "spells/acid": [
   "A flask of green fluid shattering across an iron chest lid, metal bubbling and sagging as smoke rolls upward in the torchlight.",
   "A sorceress flinging a stream of glistening emerald liquid across a cavern, a stone statue's face dissolving into pitted ruin.",
-  "A rain of acidic droplets falling on a tangle of vines, leaves curling black and steam hissing off the wet stones."
+  "A rain of acidic droplets falling on a tangle of vines, leaves curling black and steam hissing off the wet stones.",
+  "A drow priestess's whip of conjured acid uncoiling through the dark, its droplets sizzling small craters into the cavern floor."
  ],
  "spells/plant-nature": [
   "A druid kneeling on a barren hillside as a ring of saplings bursts up around her, blossoms opening in fast-forward.",
   "A tangle of thorny vines rising from a roadside ditch to snare a band of raiders, briars coiling round their boots and swords.",
-  "A ranger resting in a hollow oak that has grown a doorway and a sheltering roof of interlaced boughs in the dusk."
+  "A ranger resting in a hollow oak that has grown a doorway and a sheltering roof of interlaced boughs in the dusk.",
+  "A grove of dead trees bursting back into full spring bloom in a widening ring around a kneeling forest priestess."
  ],
  "spells/animal": [
   "A hunter with her hand on a great bear's brow, the beast gone gentle in the firelight and its breath steaming.",
   "A druid whose skin is shifting to feathers as her arms become the wings of a hawk, mid-leap from a cliff edge.",
-  "A swirling flock of crows following a hooded figure across a wheat field at sunset."
+  "A swirling flock of crows following a hooded figure across a wheat field at sunset.",
+  "A ranger's spell letting her speak plainly with a suspicious badger blocking a cellar door, both eventually nodding agreement.",
+  "A shapeshifted druid loping alongside a herd of spooked horses, calming them from within their own ranks."
  ],
  "spells/communication": [
   "A scholar in a lamplit study speaking into a small pool of water, a distant bearded face rippling into view on the surface.",
   "A mourner at a graveside with a candle, a pale ghostly figure leaning near to whisper into her ear.",
-  "A messenger bird made of light gliding out of a tower window over a moonlit city toward a dark far shore."
+  "A messenger bird made of light gliding out of a tower window over a moonlit city toward a dark far shore.",
+  "A wizard's floating disembodied mouth delivering an urgent message in a war tent, vanishing the instant it finishes speaking.",
+  "Twin sisters separated by a mountain range speaking through a shared enchanted mirror propped on facing windowsills.",
+  "A general's voice booming from an empty hilltop over an entire valley, soldiers on both sides turning to listen.",
+  "A prisoner scratching a plea into a cell wall that appears, glowing, on a matching stone a hundred miles away."
  ],
  "monsters/animal-canine": [
   "A pack of jackals loping across a red desert dune at sunset, long shadows trailing behind them.",
   "A huge black hound with glowing eyes prowling a foggy graveyard lane, chain trailing from its collar.",
-  "A shaggy war dog in spiked leather, tongue lolling, sitting loyally beside a sleeping ranger's bedroll in the firelight."
+  "A shaggy war dog in spiked leather, tongue lolling, sitting loyally beside a sleeping ranger's bedroll in the firelight.",
+  "A fox slipping between the headstones of a frost-covered graveyard, breath curling in the moonlight.",
+  "A pair of coyotes yipping atop a rocky outcrop as a wagon train creaks past on the trail below.",
+  "A massive white wolf leading its pack across a frozen lake, ice groaning beneath its paws."
  ],
  "monsters/animal-small": [
   "A giant rat squatting on a barrel in a dark cellar, eyes red in the lantern glow and whiskers dripping.",
@@ -1619,23 +3051,54 @@ export const EXTRA = {
  "arch-barbarian": [
   "A scarred warrior kneeling to drink from a mountain stream at dawn, war-axe across his knees and steam rising from his shoulders.",
   "A barbarian standing on the prow of a longship in a gale, a chain wrapped around one fist and spray breaking over her.",
-  "A tattooed fighter crouched on a boulder above a canyon, a wooden spirit mask pushed up on his forehead as the wind stirs his braids."
+  "A tattooed fighter crouched on a boulder above a canyon, a wooden spirit mask pushed up on his forehead as the wind stirs his braids.",
+  "A half-orc barbarian smashing through a wooden palisade gate with bare shoulders, splinters exploding outward as defenders scatter.",
+  "A barbarian queen standing atop a burning watchtower, twin hand axes raised as embers swirl around her braided hair.",
+  "A dwarven berserker dragging a war-sled uphill through snow by a chest harness while allies cheer.",
+  "A rage-blinded fighter hurling a boulder at a charging ogre, veins standing out along a corded neck.",
+  "A tattooed raider leaping from a longship's prow onto a rocky shore, spear already levelled at startled fishermen.",
+  "A barbarian shaman rattling a bone staff over a fallen comrade, war paint smeared with fresh blood.",
+  "A lone warrior standing over a dead dire wolf, chest heaving, breath steaming in torchlight.",
+  "A barbarian hurling herself between a falling tree and a child, catching the trunk on braced shoulders.",
+  "A towering half-giant barbarian uprooting a fence post to use as a club against mounted riders.",
+  "A barbarian sprinting across a rope bridge under arrow fire, shield raised overhead, ropes fraying with each step.",
+  "A scarred veteran breaking a manacle chain with a single furious wrench, iron cuffs flying apart.",
+  "A barbarian riding bareback through a burning village, torch-lit silhouette against collapsing timber.",
+  "A young warrior taking her first kill trophy, a wolf's fang strung on a leather cord around her neck.",
+  "A barbarian standing knee-deep in river rapids, dragging a drowning ally to shore against the current.",
+  "A grizzled fighter throwing back his head to howl before a wall of advancing spears.",
+  "A barbarian smashing a locked cell door apart with a shoulder charge, dust raining from the frame.",
+  "A war party crossing a scree slope at a dead run, the lead warrior's axe already raised for the ambush below.",
+  "A barbarian standing alone on a burial mound, ancestral spirits faintly visible in the mist behind her.",
+  "A one-eyed raider parrying a knight's longsword with a notched greataxe, sparks flying between them.",
+  "A barbarian charging through a hail of goblin arrows, several shafts already jutting harmlessly from a thick hide cloak."
  ],
  "feats/sunder": [
   "A brawler bringing a maul down on an iron-banded chest, the lock bursting apart in a spray of sparks.",
-  "A soldier's spear splitting a bowman's drawn bow in half at the peak of the draw, string whipping loose and the arrow falling."
+  "A soldier's spear splitting a bowman's drawn bow in half at the peak of the draw, string whipping loose and the arrow falling.",
+  "A knight's mace cracking a wizard's staff in half mid-cast, the interrupted spell fizzling into smoke.",
+  "A barbarian's axe hacking through a wagon wheel's spokes, the cart lurching and collapsing sideways."
  ],
  "feats/grapple": [
   "A muscular ogre-sized brute lifting a fighter off the ground in a bear hug, both faces reddened, on a straw-strewn barn floor.",
-  "Two wrestlers on a sandy arena floor, one twisting a rope-wrapped arm around the other's neck as the crowd roars behind the fence."
+  "Two wrestlers on a sandy arena floor, one twisting a rope-wrapped arm around the other's neck as the crowd roars behind the fence.",
+  "A tavern brawler hoisting an opponent overhead in a fireman's carry before slamming him through a wooden table.",
+  "A druid in wild shape as a bear pinning a startled bandit beneath one massive paw, claws sheathed but weight immovable.",
+  "A pit-fighter locking a choke hold around a larger foe's neck on a sand-strewn arena floor, crowd roaring above.",
+  "A halfling rogue clinging to the back of a much larger opponent, both arms locked around the throat as the giant staggers."
  ],
  "feats/feint": [
   "A rogue flicking her eyes toward a doorway while her dagger arcs the other way, a guard's head turning to follow the wrong glance.",
-  "A swordsman stumbling theatrically on a tavern stair to lure a brute into swinging, his blade already turned for the undefended ribs."
+  "A swordsman stumbling theatrically on a tavern stair to lure a brute into swinging, his blade already turned for the undefended ribs.",
+  "A masked fencer letting her blade droop as if exhausted, luring a wary opponent into a reckless final lunge.",
+  "A brawler faking a stumble on wet cobblestones, weight already shifting into a hidden low kick as the opponent laughs.",
+  "A duelist calling out a false direction to a companion mid-fight, the distracted opponent's guard dropping at the wrong moment.",
+  "A knife-fighter twirling a dagger showily in one hand while the other hand, unnoticed, draws a second blade for the real strike."
  ],
  "feats/two-weapon": [
   "A twin-bladed warrior spinning in the middle of a ring of guards, a hatchet and a short sword tracing bright arcs.",
-  "A dual-wielding sailor on a rain-slick deck, cutlass in one hand and belaying pin in the other, blocking two attackers at once."
+  "A dual-wielding sailor on a rain-slick deck, cutlass in one hand and belaying pin in the other, blocking two attackers at once.",
+  "A drow duelist crossing twin short swords in a blurred figure-eight before a ring of startled guards."
  ],
  "feats/thrown": [
   "A hulking warrior hurling a great stone over a fortress wall, arm fully extended and the boulder blurred against a stormy sky.",
@@ -1643,79 +3106,150 @@ export const EXTRA = {
  ],
  "feats/firearms": [
   "A gunslinger crouched behind an overturned cart reloading a pistol with one hand, ramming a ball home as bullets chip the wood.",
-  "A sharpshooter on a windy tower balcony aiming a long rifle at a moonlit courtyard, breath fogging in the cold."
+  "A sharpshooter on a windy tower balcony aiming a long rifle at a moonlit courtyard, breath fogging in the cold.",
+  "A pistolier vaulting over a tavern table, twin flintlocks barking fire at pursuers through the smoke-filled room."
  ],
  "feats/mounted": [
   "A rider leaping a fallen tree on a dark horse in a forest, reins loose in one hand and a lance lowered in the other.",
-  "A cavalryman in a dust-filled valley crouching on his saddle to loose an arrow backward at pursuers, the horse thundering below."
+  "A cavalryman in a dust-filled valley crouching on his saddle to loose an arrow backward at pursuers, the horse thundering below.",
+  "A dragoon wheeling her warhorse mid-charge to strike a flanking enemy without losing momentum.",
+  "A nomad archer standing upright on a galloping horse's back to loose an arrow over a fleeing raider.",
+  "A knight and steed leaping a burning barricade together, both fully committed to the jump."
  ],
  "feats/dodge-mobility": [
   "A nimble scout sliding under a falling portcullis at the last instant, sparks scraping off the spikes overhead.",
-  "A dancer-like fighter stepping lightly through a hail of thrown daggers in a torchlit hall, each blade thudding into the wall behind her."
+  "A dancer-like fighter stepping lightly through a hail of thrown daggers in a torchlit hall, each blade thudding into the wall behind her.",
+  "A tumbler weaving between two swinging maces in a temple trap corridor, never breaking forward momentum.",
+  "A duelist sidestepping a charging bull-headed minotaur at the last possible instant, cloak snapping in its wake.",
+  "A thief vaulting a market stall to avoid a guard's grasping hand, produce scattering in her wake."
  ],
  "feats/hex-witch": [
   "A witch on a foggy moor pointing a gnarled finger at a farmer's field, the grain wilting in a spreading ring of black.",
-  "A hag in a hut crouched over a doll of straw and thread, a needle glowing red as a sleeper far away twitches in bed."
+  "A hag in a hut crouched over a doll of straw and thread, a needle glowing red as a sleeper far away twitches in bed.",
+  "A witch weaving a hex into a woven charm, tying it to a rival's doorknob before slipping away unseen.",
+  "A coven elder's eyes flashing as she curses a thief's stolen coin to burn his palm."
  ],
  "feats/cold": [
   "A frost-cloaked mage walking across a frozen lake, each footstep leaving a spreading web of white crystals.",
-  "A blizzard-swept pass where a pale spirit breathes a plume of glittering mist over a stalled caravan, oxen and wagons furred with rime."
+  "A blizzard-swept pass where a pale spirit breathes a plume of glittering mist over a stalled caravan, oxen and wagons furred with rime.",
+  "A white dragon's breath sweeping across a frozen lake, ice crackling outward in jagged fracturing lines.",
+  "A frost giant's warhammer striking stone and leaving a spreading bloom of hoarfrost across the shattered ground."
  ],
  "feats/heal-medicine": [
   "A healer pressing a poultice of green leaves to a hunter's arm beside a campfire, a mortar and pestle at her knee.",
-  "A physician in a plague-mask bending over a sickbed in a shuttered room, a bowl of steaming herbs and a hanging censer beside him."
+  "A physician in a plague-mask bending over a sickbed in a shuttered room, a bowl of steaming herbs and a hanging censer beside him.",
+  "A battlefield medic packing a deep wound with clean linen under arrow-fire, hands steady despite the chaos.",
+  "A village healer setting a broken leg by candlelight, a worried mother holding the lantern close.",
+  "A ship's surgeon stitching a gash closed on a rolling deck, gripping the rail with one hand for balance.",
+  "A monk pressing acupuncture needles into a patient's back in a quiet infirmary, his breathing guided in slow counts."
  ],
  "feats/survival": [
   "A ranger crossing a windswept dune at noon, scarf over her face, a skin of water at her hip and a compass in her hand.",
-  "A hunter skinning a rabbit over a small campfire deep in a swamp, mist and cypress roots looming in the gathering dark."
+  "A hunter skinning a rabbit over a small campfire deep in a swamp, mist and cypress roots looming in the gathering dark.",
+  "A desert nomad reading wind-carved dunes to find a buried spring, water skins nearly empty at her hip.",
+  "A trapper building a lean-to shelter from pine boughs in a whiteout blizzard, hands numb but movements sure.",
+  "A castaway lashing together a raft of driftwood on a storm-battered shore, gulls wheeling overhead.",
+  "An old woodsman teaching a boy to read moss on bark to find north, both crouched at the base of an ancient oak.",
+  "A ranger boiling swamp water over a hissing fire, mosquito netting draped from a low branch overhead.",
+  "A mountaineer cutting steps into a sheer ice wall with a hand axe, rope trailing down into cloud below."
  ],
  "feats/linguistics": [
   "A scribe in a library alcove comparing two scrolls in different scripts under a magnifying glass, ink pots and quills stacked near her hand.",
-  "A merchant at a busy harbour market gesturing with a foreign trader over a spread of spices, a small notebook of scribbled glyphs open on the table."
+  "A merchant at a busy harbour market gesturing with a foreign trader over a spread of spices, a small notebook of scribbled glyphs open on the table.",
+  "A diplomat forging a treaty seal's ancient script by candlelight, comparing it stroke for stroke against a genuine original."
  ],
  "feats/alchemy": [
   "An alchemist pouring a shimmering violet potion from a tall flask into a cracked beaker, glowing droplets hanging in air.",
-  "A grinning bomber crouched on a rooftop tossing a smoking glass vial toward a street below, fuse spitting sparks."
+  "A grinning bomber crouched on a rooftop tossing a smoking glass vial toward a street below, fuse spitting sparks.",
+  "A hunched apothecary decanting a swirling elixir into a row of tiny bottles, each one glowing a different faint hue.",
+  "A battlefield alchemist mixing a healing draught in a dented flask between explosions, hands steady despite the chaos.",
+  "A gnome chemist testing a new formula on a caged rat, watching intently as fur begins to shimmer an unnatural color.",
+  "An alchemist's satchel spilling open mid-fall, vials shattering against stone in a cascade of hissing, smoking reactions."
  ],
  "feats/initiative-speed": [
   "A fencer's blade already leaving its scabbard as a sleeping camp erupts in shouts around her, the first to move in the dark.",
-  "An archer whirling and loosing an arrow the instant a twig snaps behind him, the enemy ambusher still mid-step in the trees."
+  "An archer whirling and loosing an arrow the instant a twig snaps behind him, the enemy ambusher still mid-step in the trees.",
+  "A scout already nocking an arrow while her companions are still reaching for their weapons.",
+  "A duelist's blade clearing its scabbard before an ambusher's own weapon has left its sheath.",
+  "A monk closing the distance and landing a strike before a startled bandit finishes turning around."
  ],
  "items/firearm-ammo": [
   "A smoking pepperbox pistol beside a tin of fat lead balls and a ramrod, spent wadding scattered across a tavern table at dusk.",
-  "A tray of alchemical shot in glass-tipped casings, each tinted a different colour, glowing softly in a padded velvet-lined case."
+  "A tray of alchemical shot in glass-tipped casings, each tinted a different colour, glowing softly in a padded velvet-lined case.",
+  "A powder keg cracked open on a battlefield, black grains spilling across scorched grass beside a fallen soldier's flask.",
+  "A gnome tinkerer weighing alchemical pellets on a brass scale, each glowing faintly in a cluttered workshop drawer."
  ],
  "items/blade-sword": [
   "A broken sword stuck upright in a muddy battlefield at dawn, its snapped blade still gleaming as carrion birds wheel overhead.",
-  "A jewelled ceremonial blade with a leaf-shaped edge resting on a temple altar, incense smoke curling past its wavering reflection."
+  "A jewelled ceremonial blade with a leaf-shaped edge resting on a temple altar, incense smoke curling past its wavering reflection.",
+  "A rune-etched greatsword propped beside a fallen dragon's talon, steam rising from the beast's wound in a mountain pass.",
+  "A knight kneeling to be dubbed, the flat of a longsword resting on each shoulder beneath cathedral light.",
+  "A pirate captain's cutlass driven into a treasure chest lid, coins spilling around the blade on a moonlit beach.",
+  "A duelist's foil crossed with an opponent's blade mid-parry, sparks flying in a torchlit courtyard.",
+  "A rusted sword embedded in ancient roots deep in a forest, moss creeping up the blade toward the hilt.",
+  "A blacksmith quenching a newly forged sword in an oil trough, steam and orange light filling the smithy.",
+  "A ceremonial sword laid across a king's tomb, dust undisturbed for centuries in a torch-lit crypt.",
+  "A saber sheathed at a general's hip as he surveys a battlefield map spread across a camp table."
  ],
  "items/bludgeon": [
   "A colossal stone-headed maul leaning against a forge wall, sparks from the anvil dancing across its runeless, chipped face.",
-  "A dented iron-shod quarterstaff propped in a monastery doorway, morning mist drifting around its worn, sweat-darkened grip."
+  "A dented iron-shod quarterstaff propped in a monastery doorway, morning mist drifting around its worn, sweat-darkened grip.",
+  "A morningstar hanging from a mounted knight's saddle, spikes catching the glint of an overcast sky.",
+  "A temple guardian's war club carved with sacred glyphs, leaning against a stone idol in torchlight.",
+  "A blacksmith's sledge resting against an anvil beside a half-shaped horseshoe, coals glowing behind."
  ],
  "items/polearm-spear": [
   "A lone spear thrust into a snowdrift atop a ridge, its leaf-shaped head frosted and a tattered ribbon streaming in the wind.",
-  "A trident held aloft by a wading fisherman at sunset, the three tines silhouetted against a glittering harbour."
+  "A trident held aloft by a wading fisherman at sunset, the three tines silhouetted against a glittering harbour.",
+  "A fisherman's barbed harpoon propped against a longboat's gunwale, salt spray drying on the shaft.",
+  "A guard's glaive crossed before a palace gate, blade gleaming beneath hanging lanterns at dusk."
  ],
  "items/cloak-cape": [
   "A hooded cloak billowing behind a lone rider on a windswept cliff road, its dark lining scattered with tiny points like stars.",
-  "A tattered scarlet cape draped over a stone statue's shoulders in a ruined courtyard, moths lifting from its folds in the dusk."
+  "A tattered scarlet cape draped over a stone statue's shoulders in a ruined courtyard, moths lifting from its folds in the dusk.",
+  "An assassin's cloak dissolving into shifting smoke at the hem as its wearer steps from a moonlit rooftop.",
+  "A herald's tabard-cloak emblazoned with a rearing lion, snapping in the wind atop a castle rampart.",
+  "A weathered oilskin cloak hung dripping by a ship's cabin door after a storm at sea.",
+  "A child's patchwork cloak trailing behind her as she runs through a sunlit meadow of wildflowers.",
+  "A vampire's cloak pooling like spilled ink across marble stairs in a candlelit manor.",
+  "A druid's cloak of woven leaves rustling as its wearer melts into a hedge line at dusk.",
+  "A funeral cloak of unadorned black draped over an empty coffin in a torch-lit crypt."
  ],
  "spells/symbol-rune": [
   "A cracked dungeon wall bearing a large sigil that pulses violet, dust trembling loose from the stones above the corridor.",
-  "A wizard pressing a glowing palm against a stone door, a lattice of luminous glyphs spreading outward from the contact point."
+  "A wizard pressing a glowing palm against a stone door, a lattice of luminous glyphs spreading outward from the contact point.",
+  "A vault door's lock dissolving as a thief traces a counter-sigil that briefly outshines the ward etched around it.",
+  "A battlefield standard unfurling to reveal a glowing rune that spreads a shimmering barrier over the troops beneath it."
  ],
  "school-necromancy": [
   "A pale hand clutching a lantern of green ghostfire over a bone-strewn mausoleum floor, spectral faces peering from the flame.",
-  "A ghostly wraith unfurling from a broken sarcophagus, cold blue mist pooling across the flagstones and frosting the candles."
+  "A ghostly wraith unfurling from a broken sarcophagus, cold blue mist pooling across the flagstones and frosting the candles.",
+  "A plague doctor's staff planted in a mass grave, the ground bulging as dozens of hands claw upward.",
+  "A dark cleric laying two fingers on a dying soldier's brow, colour draining from the field around them.",
+  "An ossuary door groaning open as stacked bones assemble themselves into a silent honor guard.",
+  "A lich's study where a floating candle burns black and cold, wax dripping upward.",
+  "A funeral barge drifting downriver, its rowers long dead and still keeping perfect time.",
+  "A necromancer's familiar, a raven with hollow eye sockets, perched on a headstone reciting names.",
+  "A battlefield medic recoiling as her healing spell curdles under a rival caster's blighting touch.",
+  "A crypt lord's gauntlet closing around a fistful of grave-dirt that hardens into a snarling construct."
  ],
  "monsters/animal-bird": [
   "A colossal eagle gripping a cliff-top nest of bleached branches, wings half-spread against a stormy grey sky.",
-  "A great horned owl gliding silent through a moonlit forest, wings wide, eyes catching the light as a mouse freezes below."
+  "A great horned owl gliding silent through a moonlit forest, wings wide, eyes catching the light as a mouse freezes below.",
+  "A falcon knifing between city towers at dusk, wings folded tight as it threads a narrow gap.",
+  "A flock of crows exploding off a battlefield gibbet at the crack of a passing thunderclap.",
+  "A heron standing motionless in a reed-choked marsh at dawn, one leg lifted above the still water.",
+  "A vulture circling low over a desert caravan trail, wings tilting to catch the rising thermal.",
+  "A peacock spreading its tail on a palace terrace as courtiers pause to watch beneath striped awnings."
  ],
  "arch-cleric": [
   "A cleric kneeling at a wayside shrine at dawn, hands cupped as pale golden light gathers over a cracked stone altar.",
-  "An armoured priest holding a lit lantern-shrine aloft in a rain-soaked graveyard as shadowy shapes recoil from the glow."
+  "An armoured priest holding a lit lantern-shrine aloft in a rain-soaked graveyard as shadowy shapes recoil from the glow.",
+  "A crusader cleric leading a charge with mace raised and holy symbol blazing against a line of undead.",
+  "An evangelist cleric preaching from a cart in a market square, a small crowd kneeling as her voice carries.",
+  "A battlefield chaplain cleric anointing a dying soldier's brow while arrows still fall around them.",
+  "A temple theologian cleric tracing sacred script into fresh mortar as a shrine's walls are rebuilt.",
+  "A cloistered cleric ringing a bronze bell atop a mountain temple as dawn breaks over the valley below."
  ],
  "arch-gunslinger": [
   "A lone gunslinger standing in a dusty frontier street at noon, hand hovering above a holstered pistol as tumbleweed rolls past.",
@@ -1723,138 +3257,717 @@ export const EXTRA = {
  ],
  "arch-ninja": [
   "A masked figure clinging upside down beneath a temple eave in the rain, a hooked blade between the teeth and lanterns glowing below.",
-  "A black-clad infiltrator crouched on a pagoda roof tile, throwing stars fanned in one hand, a full moon hanging huge behind."
+  "A black-clad infiltrator crouched on a pagoda roof tile, throwing stars fanned in one hand, a full moon hanging huge behind.",
+  "A ninja slipping between two moving palanquin guards to plant a coded message inside the curtains.",
+  "A ninja balancing on a temple bell's rim, easing the clapper still with one gloved hand before it can toll.",
+  "A ninja vanishing into a burst of smoke on a bridge as pursuing guards collide into empty air."
  ],
  "feats/maneuver-general": [
-  "A fighter hooking a foe's ankle and shoving, the opponent's feet leaving the sand of a fighting pit in a spray of dust."
+  "A fighter hooking a foe's ankle and shoving, the opponent's feet leaving the sand of a fighting pit in a spray of dust.",
+  "A wrestler pivoting an opponent's own momentum against them, the larger fighter suddenly airborne over a bent hip."
  ],
  "feats/combat-expertise": [
-  "A swordswoman on a narrow bridge, sword point low and eyes steady, calmly measuring a charging brute who has left himself open."
+  "A swordswoman on a narrow bridge, sword point low and eyes steady, calmly measuring a charging brute who has left himself open.",
+  "A rapier-wielder retreating along a narrow plank bridge, parrying three strikes without once losing footing.",
+  "An elf duelist reading her opponent's shoulders, blade angled to slip every incoming attack wide.",
+  "A defensive swordsman circling a berserker patiently, absorbing wasted swings and waiting for the opening.",
+  "A veteran captain fighting two-handed with deliberate caution, every parry costing his attacker more than it gains.",
+  "A monk weaving between two spear-thrusts with minimal motion, hands ready but never overcommitted."
  ],
  "feats/counterspell": [
-  "A robed abjurer thrusting out a palm to swallow a hostile fireball into a spinning disc of grey light in a shattered hall."
+  "A robed abjurer thrusting out a palm to swallow a hostile fireball into a spinning disc of grey light in a shattered hall.",
+  "A rival battle-mage slashing a hand through the air to unravel an incoming curse before it fully forms, threads of magic dissolving mid-flight."
  ],
  "feats/mesmerist-stare": [
-  "A pale mesmerist leaning close at a candlelit table, a single glowing eye reflected in a stunned merchant's wide, empty gaze."
+  "A pale mesmerist leaning close at a candlelit table, a single glowing eye reflected in a stunned merchant's wide, empty gaze.",
+  "A carnival mesmerist locking eyes with a heckler from across a lantern-lit tent, the man's jeers dying mid-sentence.",
+  "A masked performer's gaze pinning a guard in place at a masquerade, the crowd oblivious to the silent struggle of wills."
  ],
  "feats/lightning": [
-  "A storm-soaked mountain summit split by a forked bolt striking a raised sword planted in the rock, the sky roaring white."
+  "A storm-soaked mountain summit split by a forked bolt striking a raised sword planted in the rock, the sky roaring white.",
+  "A storm-caller atop a ship's mast hurling a crackling bolt down into a kraken's rising tentacle."
  ],
  "feats/intimidate": [
-  "A scarred mercenary leaning across a tavern table, knife point-down between a smuggler's fingers, the whole room gone still."
+  "A scarred mercenary leaning across a tavern table, knife point-down between a smuggler's fingers, the whole room gone still.",
+  "A pirate captain planting a cutlass in the deck between a mutineer's boots, the crew behind him going utterly silent.",
+  "A towering half-ogre mercenary cracking his knuckles in a doorway, a room full of bandits suddenly reconsidering their plans.",
+  "A masked interrogator leaning into torchlight just enough to reveal a scarred, unblinking eye, the prisoner across the table flinching.",
+  "A general riding along a wavering enemy line at a slow, deliberate walk, banner bearers behind her utterly still.",
+  "A bounty hunter slamming a wanted poster and a bloodied glove onto a bar, the tavern's chatter dying in an instant.",
+  "A young duelist staring down a much larger opponent without blinking, the crowd around them falling quiet in anticipation."
  ],
  "feats/bluff-disguise": [
-  "A masquerade ballroom where a figure in a fox mask lifts a glass, one glove slipping to show a forger's ink-stained fingertips."
+  "A masquerade ballroom where a figure in a fox mask lifts a glass, one glove slipping to show a forger's ink-stained fingertips.",
+  "A con artist adjusting a stolen guard captain's helm in a cracked mirror, practicing the officer's exact scowl."
  ],
  "feats/item-mastery": [
-  "A wizard's workbench crowded with wands, rings and a rod all humming in rhythm as she conducts them with a raised finger."
+  "A wizard's workbench crowded with wands, rings and a rod all humming in rhythm as she conducts them with a raised finger.",
+  "A wandering mage flipping a newly acquired wand end over end, instantly reading its purpose and function from the runes alone."
  ],
  "feats/race-dwarf": [
   "A stout dwarf swinging a pickaxe through a glittering vein in a deep mine, lantern light glinting on his ore-dusted beard."
  ],
  "feats/race-giant": [
-  "A cloud giant seated on a mountain ridge, a village smaller than his hand cupped in one palm and a warrior clambering up his boot."
+  "A cloud giant seated on a mountain ridge, a village smaller than his hand cupped in one palm and a warrior clambering up his boot.",
+  "A hill giant hurling a cart bodily into a fleeing group of raiders, wheels still spinning as it sails overhead.",
+  "A frost giant shepherd guiding a flock of woolly mammoths across a glacier pass, breath clouding in the arctic air."
  ],
  "feats/story-destiny": [
-  "A young hero on a hilltop at sunrise watching a comet burn across the sky, an old sword wrapped in cloth held to the chest."
+  "A young hero on a hilltop at sunrise watching a comet burn across the sky, an old sword wrapped in cloth held to the chest.",
+  "A prophecy scroll unrolling itself in an old sage's hands, the words rearranging to spell a hero's name.",
+  "A farmer's son lifting a sword from a stone altar as distant thunder rolls over the valley."
  ],
  "feats/multiclass-dabble": [
   "A knight in a wizard's study balancing a heavy tome on one gauntleted arm while a tiny flame flickers hesitantly above the other palm."
  ],
  "items/blade-dagger": [
-  "A curved kukri stuck in a wooden post at a mountain camp, a stripe of blood-red enamel along the blade and fire crackling beyond."
+  "A curved kukri stuck in a wooden post at a mountain camp, a stripe of blood-red enamel along the blade and fire crackling beyond.",
+  "A slender stiletto tucked into a spy's sleeve, catching a sliver of moonlight as gloved fingers check its edge.",
+  "A pair of parrying daggers laid crosswise on a fencing master's table, etched with matching filigree."
  ],
  "items/weapon-quality": [
-  "A warhammer whose head ripples with a faint golden shimmer as motes of light drift from it like sparks from a smith's anvil."
+  "A warhammer whose head ripples with a faint golden shimmer as motes of light drift from it like sparks from a smith's anvil.",
+  "A dagger wreathed in shadow so deep its edge seems to swallow the surrounding candlelight.",
+  "An axe blade humming with a faint green corrosive sheen, droplets hissing where they touch the stone floor.",
+  "A spear point radiating a soft holy light that pushes back the darkness of a crypt corridor."
  ],
  "items/barding-tack": [
-  "A mithral-shod warhorse in a moonlit stable, freshly polished horseshoes glinting as a groom lifts a hoof to check the nails."
+  "A mithral-shod warhorse in a moonlit stable, freshly polished horseshoes glinting as a groom lifts a hoof to check the nails.",
+  "A dragon-scale barding fitted to a war mount in a castle courtyard, squires cinching the final straps before a joust.",
+  "A pack mule's harness hung with bells and pouches, waiting patiently outside a mountain trading post."
  ],
  "items/figurine-idol": [
-  "A tiny onyx panther figurine on a scholar's desk, its shadow stretching long and lean across the parchments in the lamplight."
+  "A tiny onyx panther figurine on a scholar's desk, its shadow stretching long and lean across the parchments in the lamplight.",
+  "A tiny silver unicorn figurine standing at full gallop on a child's windowsill in moonlight.",
+  "A weathered stone gargoyle idol perched at the corner of a rain-slicked cathedral roof.",
+  "A collector's shelf of miniature dragon figurines arranged by colour, dust motes drifting in a sunbeam."
  ],
  "items/orb-sphere": [
-  "A pearl-white orb balanced on a cushion of velvet in an observatory, faint rings of light orbiting it like tiny moons."
+  "A pearl-white orb balanced on a cushion of velvet in an observatory, faint rings of light orbiting it like tiny moons.",
+  "A storm-filled glass orb crackling with miniature lightning, cupped in a sorceress's hands atop a windswept tower."
  ],
  "items/book-scroll": [
-  "A dusty library alcove stacked with brittle codices, one book fallen open on the floor with pressed flowers spilling from its pages."
+  "A dusty library alcove stacked with brittle codices, one book fallen open on the floor with pressed flowers spilling from its pages.",
+  "A forbidden grimoire chained shut on a pedestal in a locked archive, dust undisturbed for years.",
+  "A merchant's ledger open on a counting-house desk, columns of figures beside stacked coin.",
+  "A child's illustrated storybook left open on a windowsill, pages fluttering in an evening breeze."
  ],
  "items/mirror-lens": [
   "A monocle of thick crystal held up to a lantern in a dark workshop, casting a rainbow of scattered colours across the walls."
  ],
  "items/horn-instrument": [
-  "A bard's harp propped against a tavern hearth, strings still trembling, a listening crowd swaying in the golden warmth."
+  "A bard's harp propped against a tavern hearth, strings still trembling, a listening crowd swaying in the golden warmth.",
+  "A hunting horn slung across a huntsman's chest, mist rising off a forest clearing at first light.",
+  "A traveling minstrel's fiddle tucked under her chin as firelight dances across a crowded inn common room."
  ],
  "items/carpet-banner": [
-  "A regimental standard planted in a rain-churned field at dusk, its heavy fringed cloth whipping in the wind above trampled mud."
+  "A regimental standard planted in a rain-churned field at dusk, its heavy fringed cloth whipping in the wind above trampled mud.",
+  "A sultan's ornate flying carpet unrolled across a palace terrace, tassels stirring in a warm desert wind."
  ],
  "items/deck-game": [
   "A gambler's hand of dice mid-throw above a rough plank table, coins piled between the players and tallow candles guttering low."
  ],
  "items/talisman-charm": [
-  "A silver pendant on a chain swinging from a mule's harness on a mountain pass, catching the first light of morning."
+  "A silver pendant on a chain swinging from a mule's harness on a mountain pass, catching the first light of morning.",
+  "A sailor's carved bone charm tied to a ship's mast, swaying as the vessel cuts through a moonlit sea.",
+  "A traveler's protective charm bundle hanging from a wagon's rearview post, feathers and beads clicking softly on a dusty road."
  ],
  "items/poison-drug": [
-  "An apothecary's shelf of stoppered bottles in green and amber glass, a mortar and a jar of pale crystals ready at the bench."
+  "An apothecary's shelf of stoppered bottles in green and amber glass, a mortar and a jar of pale crystals ready at the bench.",
+  "An assassin dipping a blade into a small vial of viscous poison by candlelight in a cramped safehouse.",
+  "A smoke den's low table scattered with pipes and a dish of dark resin, hazy light filtering through curtains."
  ],
  "items/optical-device": [
-  "A large brass telescope pointed through an observatory slit at a sky thick with stars, star charts weighted down beside it."
+  "A large brass telescope pointed through an observatory slit at a sky thick with stars, star charts weighted down beside it.",
+  "A cartographer peering through a brass magnifying lens over a half-finished coastal map by lamplight."
  ],
  "spells/sleep-daze": [
   "A drowsy sentry slumping against a castle gate as pale sparkling dust drifts down from a hooded figure on the wall above."
  ],
  "spells/movement": [
-  "A cloaked traveller stepping lightly across the still surface of a moonlit lake, each footfall sending a single ring of ripples outward."
+  "A cloaked traveller stepping lightly across the still surface of a moonlit lake, each footfall sending a single ring of ripples outward.",
+  "A monk sprinting up a sheer castle wall as though it were level ground, each footstep leaving no mark on the stone.",
+  "A courier vanishing from one rooftop and reappearing three streets away mid-stride, never breaking pace."
  ],
  "spells/ritual-occult": [
-  "A lone occultist kneeling in a forest clearing at moonrise, a ring of standing stones humming faintly with green fire around her."
+  "A lone occultist kneeling in a forest clearing at moonrise, a ring of standing stones humming faintly with green fire around her.",
+  "A circle of masked cultists chanting around a black mirror as tendrils of shadow creep from its surface toward the nearest acolyte.",
+  "A hedge witch alone in a moonlit bog, arranging bones in a spiral pattern that begins to glow of its own accord."
  ],
  "spells/ability-buff": [
-  "A thin scholar standing in a shaft of light as golden energy soaks into him, his shoulders broadening and eyes lit bright."
+  "A thin scholar standing in a shaft of light as golden energy soaks into him, his shoulders broadening and eyes lit bright.",
+  "A bard's rousing song settling over a tired company, backs straightening and grips tightening on worn sword hilts.",
+  "A druid's spell coursing through a bear companion, muscles bunching visibly larger beneath its fur before a charge.",
+  "A cleric's blessing steadying a trembling apprentice's hands until the vial she holds no longer shakes."
  ],
  "spells/trap-alarm": [
-  "A thin strand of pale light stretched taut across a cellar stair, a spider-web of glowing threads waiting for a careless boot."
+  "A thin strand of pale light stretched taut across a cellar stair, a spider-web of glowing threads waiting for a careless boot.",
+  "A rogue's careful footstep triggering a hidden rune that floods a vault chamber with a shrill, visible pulse of sound.",
+  "A ranger's woven alarm of vine and bell tightening across a game trail, chiming as a bear blunders through it at dawn."
  ],
  "school-evocation": [
-  "A wizard on a castle rampart hurling a spinning sphere of white fire at a distant siege engine, hair and robes blown back by the heat."
+  "A wizard on a castle rampart hurling a spinning sphere of white fire at a distant siege engine, hair and robes blown back by the heat.",
+  "A sorcerer standing atop a siege tower, twin spheres of fire orbiting her raised fists before launch.",
+  "A battlefield chaplain slamming a mace into the ground, a ring of searing light scattering a charging line.",
+  "A duelist parrying with a blade sheathed in crackling white sparks that leave scorch marks on stone.",
+  "A tower window blown outward in a gout of flame as a cornered wizard makes his last stand.",
+  "A hail of hissing ice-shards raking across a frozen lake, cutting furrows in the surface.",
+  "A canyon floor lit stark white as a beam of force punches clean through a boulder.",
+  "A war-mage cupping a miniature storm cloud that crackles and grows between her palms.",
+  "A collapsing bridge held apart for one heartbeat by a wall of solid sound."
  ],
  "monsters/animal-bear": [
-  "A sow bear guiding two cubs across a snowy mountain pass at dusk, breath steaming and huge paws sinking into the drifts."
+  "A sow bear guiding two cubs across a snowy mountain pass at dusk, breath steaming and huge paws sinking into the drifts.",
+  "A grizzly tearing into a fallen log for grubs on a misty mountainside, steam rising off its shoulders."
  ],
  "monsters/animal-primate": [
   "A troop of monkeys perched on a mossy temple wall in the rain, one clutching a stolen fruit and watching the path below."
  ],
  "monsters/template-celestial": [
-  "A white-furred stag standing in a sunlit glade, golden light gathering behind its antlers as flowers bloom around each hoofprint."
+  "A white-furred stag standing in a sunlit glade, golden light gathering behind its antlers as flowers bloom around each hoofprint.",
+  "A silver-maned lion resting beside a sunlit waterfall, motes of golden light drifting from its breath like pollen.",
+  "A dove circling above a besieged chapel, trailing a faint ribbon of light that mends a crack in the bell tower as it passes."
  ],
  "monsters/umr-affliction": [
-  "A sickly green mist rising from a stagnant marsh pool at dusk, dead reeds bowed and a lone pilgrim covering his mouth in the gloom."
+  "A sickly green mist rising from a stagnant marsh pool at dusk, dead reeds bowed and a lone pilgrim covering his mouth in the gloom.",
+  "A trembling hand held up to torchlight, fingernails blackening and cracking as a curse takes hold."
  ],
  "arch-antipaladin": [
-  "A spiked-armour knight kneeling before a jagged obsidian altar in a burnt chapel, a black sword driven into the floor before him."
+  "A spiked-armour knight kneeling before a jagged obsidian altar in a burnt chapel, a black sword driven into the floor before him.",
+  "An antipaladin dragging a captured priest before a desecrated altar, dark power crackling along a jagged blade."
  ],
  "arch-arcanist": [
   "An arcanist drawing raw glowing energy from a floating diagram in a cluttered tower study, threads of light feeding into her open palms."
  ],
  "arch-brawler": [
-  "A muscled brawler ducking a haymaker in a smoky dockside tavern, fists up and stool splinters flying as onlookers cheer."
+  "A muscled brawler ducking a haymaker in a smoky dockside tavern, fists up and stool splinters flying as onlookers cheer.",
+  "A brawler cracking knuckles before stepping into an underground fighting ring, the crowd roaring in a torch-lit cellar."
  ],
  "arch-cavalier": [
-  "A cavalier in gleaming plate levelling a lance at full gallop down a tournament list, dust flying and crowds cheering from the stands."
+  "A cavalier in gleaming plate levelling a lance at full gallop down a tournament list, dust flying and crowds cheering from the stands.",
+  "A cavalier dismounting to duel a rival knight one-on-one before both their assembled companies.",
+  "A cavalier rallying a broken infantry line by planting a banner in the mud and refusing to retreat."
  ],
  "arch-occultist": [
   "An occultist in a candlelit attic holding a cracked doll and a hand mirror, a pale ghostly shape gathering in the glass."
  ],
  "arch-shaman": [
-  "A shaman in antler headdress dancing before a mountain fire, sparks spiralling into a shadowy wolf shape rising in the smoke."
+  "A shaman in antler headdress dancing before a mountain fire, sparks spiralling into a shadowy wolf shape rising in the smoke.",
+  "A shaman pressing a carved bone totem to a wounded warrior's chest, spectral hands closing the injury from within."
  ],
  "arch-slayer": [
-  "A hooded tracker crouched on a rain-slick rooftop studying a distant lit window, a bowstring already drawn and steady."
+  "A hooded tracker crouched on a rain-slick rooftop studying a distant lit window, a bowstring already drawn and steady.",
+  "A slayer waiting motionless in tall grass for hours, watching a mark's routine through a copse of trees.",
+  "A bounty hunter cornering a fugitive spellcaster in a collapsed mine shaft, blade drawn and patient.",
+  "A slayer counting coin over a dead target's body in a rain-soaked alley, expression unreadable.",
+  "A hooded killer studying a floor plan by candlelight before a contract is carried out at dawn."
  ],
  "arch-warpriest": [
-  "A battle-scarred warpriest wading through a melee with a glowing warhammer raised, sacred light spilling from the cracks in the armour."
+  "A battle-scarred warpriest wading through a melee with a glowing warhammer raised, sacred light spilling from the cracks in the armour.",
+  "A warpriest smashing a cultist's idol with a blessed mace, holy fire spreading across the altar's ruins."
  ],
  "arch-witch": [
-  "A witch in a stormy tower window, a black cat at her shoulder, pale green light swirling in the cupped hands held against the rain."
+  "A witch in a stormy tower window, a black cat at her shoulder, pale green light swirling in the cupped hands held against the rain.",
+  "A witch murmuring over a bubbling pot of nightshade as her cat familiar knocks over a jar on purpose.",
+  "A hedge witch trading a curse for coin at a moonlit crossroads market stall.",
+  "An old crone tracing a hex sign into frost on a windowpane while villagers hurry past outside.",
+  "A witch binding a captured spirit into a corked bottle, green light leaking from the seams.",
+  "A young witch reading fortunes from scattered bones spread across a tavern table.",
+  "A witch's raven familiar whispering secrets into her ear beneath a gallows tree at dusk.",
+  "A witch stitching a poppet from straw and hair, needle glinting by candlelight.",
+  "A coven of witches joining hands in a stone circle as storm clouds gather overhead.",
+  "A witch trading barbed words with a village priest on a church's front steps, familiar hissing from her shoulder.",
+  "A witch scrying in a bowl of ink-black water, her familiar's reflection appearing beside her own.",
+  "A witch striding through a graveyard at midnight, lanterns of witchfire hovering at her sides.",
+  "A witch laying a ring of salt around a sickbed while a toad familiar watches from the windowsill.",
+  "A witch reading a curse from a torn page as it crumbles to ash in her open palm."
+ ],
+ "feats/overrun": [
+  "A phalanx of shields driving forward as one, trampling a broken skirmish line into the mud underfoot."
+ ],
+ "feats/steal-maneuver": [
+  "A street urchin lifting a merchant's coin purse in the same motion as a friendly bump on a crowded bridge."
+ ],
+ "feats/race-elf": [
+  "A moon elf duelist stepping soundlessly between two market stalls, silver hair catching the lantern light."
+ ],
+ "feats/race-gnome": [
+  "A gnome illusionist grinning as her decoy double steps forward to take a blow meant for her."
+ ],
+ "feats/siege-vehicle": [
+  "A battering ram crew straining together as the iron head splits a reinforced gate in a shower of splinters."
+ ],
+ "feats/light-radiance": [
+  "A radiant paladin's raised blade burning bright enough to cast a monster's own shadow behind it."
+ ],
+ "feats/disarm": [
+  "A spear-wielder catching an opponent's sword between the shaft and a hooked crossguard, twisting it clean out of a startled grip.",
+  "A duelist's parry curling around a dagger's hilt and flinging it into a nearby well with a flick of the wrist."
+ ],
+ "feats/reach-polearm": [
+  "A glaive-wielder holding a narrow bridge alone against a press of foes, the long blade keeping every attacker at bay.",
+  "A spear-line of city guards funneling a mob back through a gate, points leveled in an unbroken row."
+ ],
+ "feats/trip": [
+  "A spear-wielding legionnaire sweeping the shaft low across a charging orc's shins, the beast pitching forward into the mud."
+ ],
+ "feats/bull-rush": [
+  "A minotaur lowering its horns and driving a knight clean off a narrow rope bridge into the gorge below."
+ ],
+ "feats/reposition-drag": [
+  "A grappler dragging a struggling captive away from a cliff's edge by the wrist, boots carving furrows in the loose scree."
+ ],
+ "feats/race-goblinoid": [
+  "A hobgoblin drill sergeant barking formation orders at a disciplined line of goblin spearmen on a torchlit parade ground."
+ ],
+ "feats/performance-combat": [
+  "A masked swordsman dueling atop a moving stage cart before a cheering festival crowd, each parry timed to a drumbeat."
+ ],
+ "items/firearm": [
+  "A brace of matched pistols crossed on a captain's desk beside a folded naval chart and a spent powder flask.",
+  "A dwarven hand cannon bolted with iron rivets, smoke curling from its muzzle after a shot in a mine tunnel.",
+  "A wheellock pistol displayed in a glass case at a gunsmith's shop, spring mechanism visible through an open panel."
+ ],
+ "items/bow-crossbow": [
+  "A composite horsebow strung across a nomad rider's shoulder, silhouetted against a wide grassland at sunset.",
+  "An elven longbow of pale wood resting against a tree trunk in a moonlit glade, its string humming faintly."
+ ],
+ "items/exotic-weapon": [
+  "A monk's spiked chain coiled on a dojo floor, moonlight through a paper screen catching each link.",
+  "A pair of hooked sickle-swords crossed on a straw mat, their curved blades catching lamplight in a martial hall."
+ ],
+ "items/armor-heavy": [
+  "A battle-scarred suit of plate propped in a chapel corner, a votive candle burning at its sabatons."
+ ],
+ "items/ioun-stone": [
+  "A cluster of ioun stones scattered across a starfield-patterned rug after a wizard's duel, still faintly spinning.",
+  "A merchant displaying a single pulsing ioun stone in cupped hands beneath a striped bazaar awning."
+ ],
+ "items/amulet-neck": [
+  "A druid's amulet of woven vines and antler bone resting on a moss-covered standing stone at dawn.",
+  "A sailor's amulet shaped like an anchor, salt-crusted, clutched tightly as a storm rages beyond the ship's rail.",
+  "A necromancer's amulet of blackened bone hanging above a bubbling cauldron, its central socket empty and waiting.",
+  "A child's simple clay pendant found among rubble after a village raid, string still knotted.",
+  "An amulet of interlocking silver rings resting on a monk's folded hands during meditation in a candlelit cell."
+ ],
+ "items/boots-footwear": [
+  "A dancer's beaded slippers left mid-stage under a single spotlight after the performance ends.",
+  "A pair of scout's boots caked in swamp mud, laces undone, propped by a campfire to dry.",
+  "A jester's curled-toe shoes with tiny bells, tossed carelessly beside a throne room pillar.",
+  "A knight's sabatons clanking softly as squires buckle them before a tournament parade.",
+  "A witch's pointed boots resting beside a bubbling cauldron in a crooked forest cottage.",
+  "A pair of enchanted boots leaving faint glowing footprints across a dark cave floor as their wearer vanishes ahead."
+ ],
+ "items/belt-girdle": [
+  "A strongman's wide leather girdle, iron-studded, hanging on a peg beside barbell weights at a fighting pit."
+ ],
+ "items/headband-hat": [
+  "A scholar's flat cap resting atop a stack of graded exam scrolls on a cluttered university desk.",
+  "A pirate's tricorn hat hung on a ship's wheel, feather trim catching salt spray.",
+  "A monk's simple cloth headband tied tight as he balances atop a narrow temple beam at sunrise.",
+  "A noblewoman's feathered hat displayed on a milliner's stand amid bolts of silk ribbon."
+ ],
+ "items/mask-goggles": [
+  "A masquerade domino mask trimmed in gold lying beside two empty champagne flutes after the ball has ended.",
+  "A tinkerer's welding goggles pushed up on her forehead, sparks from a half-built contraption reflected in the lenses.",
+  "A tribal war mask carved with fierce teeth, hanging above a longhouse hearth.",
+  "A diver's brass-framed mask resting on a dock beside coils of rope and a net of pearls.",
+  "A harlequin's split-colour mask discarded on a cobblestone alley after a chase through a carnival.",
+  "A sorcerer's dark-lensed goggles glowing faintly at the rims as he peers into a swirling portal."
+ ],
+ "items/staff": [
+  "A druid's staff sprouting new buds along its length as it is planted in fertile garden soil.",
+  "A blind seer's staff tapping rhythmically along a temple corridor, its head carved as an open eye.",
+  "A necromancer's staff topped with a small skull, propped beside an open grimoire in a candlelit study.",
+  "A shepherd's crook leaning against a fence post at the edge of a misty pasture at dawn.",
+  "A battle-mage's scorched staff smoking faintly after a duel, embers still glowing at its crystal tip.",
+  "An elder treant-wood staff standing upright in a sacred grove, moss climbing its lower length."
+ ],
+ "items/bag-container": [
+  "A smuggler's false-bottomed crate cracked open to reveal hidden contraband beneath a merchant dock at night.",
+  "A traveling merchant's saddlebags bulging with wares, slung over a mule plodding a dusty trade road.",
+  "An ornate jewelry box with a false lock, lid raised to show a second hidden compartment beneath velvet lining."
+ ],
+ "items/bottle-vial": [
+  "A row of unlabeled potion bottles glowing different hues on an alchemist's crowded shelf at midnight.",
+  "A shattered vial on a dungeon floor, its glowing contents pooling and evaporating into faint mist.",
+  "A vintner's cellar lined with dusty bottles, cobwebs draped between the racks in lantern light."
+ ],
+ "items/bell-chime": [
+  "A set of temple wind chimes swaying gently above a garden shrine, faint notes drifting on the breeze."
+ ],
+ "items/lantern-light": [
+  "A ghostly will-o'-the-wisp lantern bobbing along a fog-shrouded marsh path, luring a traveler off the trail.",
+  "A miner's oil lamp clipped to a helmet, casting a narrow beam across glittering tunnel walls deep underground.",
+  "A paper lantern floating downriver at a festival, dozens more drifting behind it into the night.",
+  "A lighthouse keeper's great lamp swinging its beam across storm-tossed waves from a cliffside tower."
+ ],
+ "items/dust-powder": [
+  "A sorcerer scattering shimmering silver powder in a wide circle across a stone floor before a summoning ritual."
+ ],
+ "items/rope-cord": [
+  "A hangman's noose swaying slowly from a gallows beam against a grey dawn sky.",
+  "A sailor splicing two frayed rope ends together on a rolling ship's deck, salt spray misting the air."
+ ],
+ "items/cauldron-pot": [
+  "A witch's cauldron bubbling over a crackling fire deep in a swamp, glowing eyes watching from the surrounding fog."
+ ],
+ "items/key-lock": [
+  "A locksmith's collection of skeleton keys hanging on a pegboard, one singled out beneath a magnifying glass."
+ ],
+ "items/holy-symbol": [
+  "A paladin pressing a glowing holy symbol to a wound, warm light spreading across a battlefield at dusk."
+ ],
+ "items/drink-alcohol": [
+  "A dwarven brewmaster raising a foaming stein in a toast, casks stacked high in a torch-lit cellar hall."
+ ],
+ "items/herb-spice": [
+  "A druid's satchel spilling open on a forest floor, dried herbs and roots scattered among fallen leaves."
+ ],
+ "items/animal-livestock": [
+  "A flock of geese scattering across a farmyard as a rooster crows atop a fence post at sunrise.",
+  "A pack of sled dogs harnessed and straining forward across a snow-covered northern trail."
+ ],
+ "items/artisan-tools": [
+  "A cobbler's awls and lasts arranged beside a half-finished leather boot on a cluttered workbench.",
+  "A weaver's loom mid-pattern, shuttle resting between threads in a sunlit cottage window."
+ ],
+ "items/adventuring-kit": [
+  "A cartographer's kit spread across a folding table, compass and inked maps weighted down against a mountain wind.",
+  "A trapper's kit of snares and skinning tools laid out beside a fresh pelt in a snowy lean-to.",
+  "An alchemist's field kit with tiny vials, a portable burner, and tongs nested in a fitted leather roll.",
+  "A sailor's repair kit of needles, tar, and canvas patches spread across a listing ship's deck."
+ ],
+ "items/trap-restraint": [
+  "A rope net trap sprung high into forest canopy, a struggling goblin dangling within as leaves rain down.",
+  "A dungeon cell's rusted manacles bolted to a damp stone wall, chains pooling on the floor below."
+ ],
+ "items/shelter-camp": [
+  "A ranger's lean-to shelter of branches and hide pitched beside a small fire deep in a rain-soaked forest."
+ ],
+ "items/writing-paper": [
+  "A cipher clerk hunched over a coded message, quill scratching symbols onto parchment by a single candle."
+ ],
+ "items/boat-vehicle": [
+  "A merchant caravan's covered wagons circled for the night, lanterns swaying as guards patrol the perimeter.",
+  "A war galley's oars rising in unison as it cuts through choppy harbor waters under a striped sail."
+ ],
+ "items/mining-farm": [
+  "A dwarven miner's cart loaded with raw ore trundling along rail tracks deep beneath a mountain."
+ ],
+ "items/fishing-hunting": [
+  "A hunter's trap line checked at dawn, snares and a game bag slung over his shoulder in misty woods."
+ ],
+ "items/trade-goods": [
+  "Bolts of dyed silk and spice sacks stacked high in a bustling caravanserai market stall."
+ ],
+ "items/technology": [
+  "A crashed piece of strange machinery half-buried in a crater, villagers gathering warily at a cautious distance."
+ ],
+ "spells/dispel-negate": [
+  "A shimmering ward around a vault flickering and collapsing as a caster's raised palm unravels its final glowing thread."
+ ],
+ "spells/planar": [
+  "A wizard's outstretched hand tearing a rift in the air, the smell of another world's ash pouring through.",
+  "A knight stepping through a shimmering gate and vanishing before her second foot leaves the ground.",
+  "A caster's extradimensional pocket space, a small tent interior lined with shelves that should not fit inside it.",
+  "A ring of standing stones humming as the space inside them fills with the light of a plane no one present has ever seen.",
+  "A tiefling sorcerer reaching into the Astral Sea and drawing back a silver cord that pulses faintly with her own heartbeat.",
+  "A monastery courtyard where a monk vanishes mid-step and reappears atop a distant mountain, snow settling where he stands.",
+  "Two armies frozen as a gate the size of a cathedral door opens between them, neither side willing to be first through.",
+  "A bound efreeti straining against chains of light as its native desert bleeds through the torn air behind it.",
+  "A hermit's cave whose back wall opens onto the swirling colorless nothing of the Astral Plane, a chain of skulls floating past.",
+  "A cleric drawing a sigil on a temple floor that becomes a window onto a paradise garden, its light spilling across the stone.",
+  "A necromancer's doorway opening onto the grey nothing of the Plane of Shadow, her own silhouette bleeding into it.",
+  "A shipwrecked sailor stepping from a sinking deck through a shimmering oval and onto dry sand an instant later.",
+  "A wizard's study where a bookshelf swings open not onto another room but onto open void scattered with drifting stars.",
+  "A battlefield medic dragging a wounded soldier through a hasty rift just as a boulder crashes where they stood.",
+  "A drow priestess kneeling before a black mirror that opens like a mouth onto the roiling dark of the Plane of Shadow.",
+  "A caravan of merchants vanishing wagon by wagon into a spinning ring of light hung above a desert dune.",
+  "A caster's crude circle of chalk in an alley erupting into a proper archway, cold elemental wind gusting from the Plane of Air.",
+  "A paladin's holy word tearing a hole straight to a radiant plane, its light burning away a cloud of shadow demons mid-charge.",
+  "A gnome tinkerer's brass device folding a corner of her workshop into a closet-sized pocket dimension crammed with spare parts.",
+  "A dying wizard's last spell opening a gate that swallows him whole, the portal closing like an eyelid behind him.",
+  "A cultist's summoning chamber where the ceiling has become a window onto a churning ocean of black ichor and grasping claws.",
+  "A ranger stepping off a cliff edge and simply not falling, the ground of another world rising up to meet her boots instead.",
+  "A wizard duel where one combatant steps sideways out of reality entirely, his opponent's blade passing through empty air."
+ ],
+ "monsters/template-mutation": [
+  "A beast whose shadow no longer matches the shape of its body.",
+  "An animal with a second set of jaws hidden beneath the first.",
+  "A creature whose fur has calcified into overlapping plates of bone.",
+  "A beast that leaves footprints which smoke and blacken the grass."
+ ],
+ "monsters/umr-attack": [
+  "A serpent's coils snapping tight around a struggling warrior's chest, fangs already descending toward an exposed shoulder."
+ ],
+ "arch-summoner": [
+  "A summoner sprinting through a collapsing temple while her eidolon shields the exit with a spiked carapace.",
+  "A young conjurer tracing sigils in chalk as a half-formed eidolon claws its way out of a rift of light.",
+  "An eidolon curling protectively around its summoner during a lightning storm atop a ruined tower.",
+  "A summoner riding on the back of a serpentine eidolon as it coils through flooded catacombs.",
+  "A battlefield where an eidolon's many eyes track archers while its summoner reloads a crossbow behind it.",
+  "A summoner kneeling exhausted after a spell, the eidolon looming close with a clawed hand hovering protectively.",
+  "An eidolon with feathered wings diving to snatch its summoner from a crumbling bridge.",
+  "A summoner and a hulking, chitinous eidolon standing back to back in a ring of hissing kobolds.",
+  "A young summoner nervously introducing a newly bonded eidolon to a startled village council.",
+  "An eidolon's tentacled limb dragging a drowning sailor from storm-tossed waves while its summoner watches from a longboat.",
+  "A summoner tracing a final rune as her eidolon's form solidifies from swirling mist in a moonlit glade.",
+  "A summoner and eidolon locked in mirrored combat stances against a pack of advancing gnolls.",
+  "An eidolon's clawed foot crushing a collapsing barricade as its summoner directs from atop a wagon."
+ ],
+ "arch-bloodrager": [
+  "A bloodrager's skin cracking with arcane light as a spell bursts involuntarily from clenched fists mid-charge."
+ ],
+ "arch-medium": [
+  "A medium's eyes rolling white as a warrior spirit's ghostly armor overlays her own frame mid-battle."
+ ],
+ "arch-samurai": [
+  "A samurai facing down a charging boar alone on a misty rice terrace, blade drawn in a single fluid motion."
+ ],
+ "arch-investigator": [
+  "An investigator dusting a windowsill for prints with a fine brush while a constable waits impatiently behind her.",
+  "A field-agent investigator tailing a suspect through a crowded bazaar, notebook tucked half-hidden in one sleeve.",
+  "A mastermind investigator laying three forged documents side by side under a single candle, comparing ink strokes.",
+  "An empiricist investigator testing an unknown powder's reaction over a small burner in a cluttered study.",
+  "A psychoanalyst investigator watching a suspect's hands rather than his face across an interrogation table.",
+  "An investigator reconstructing a struggle from scuff marks and a broken chair in an empty parlor."
+ ],
+ "arch-inquisitor": [
+  "An inquisitor tracking a cultist's footprints through a rain-soaked alley by lantern light, blade already loose in its sheath.",
+  "A masked inquisitor infiltrating a heretical gathering, holy symbol hidden beneath a stranger's stolen coat.",
+  "An inquisitor pinning a forbidden tome shut with a dagger through its cover on a chapel floor.",
+  "A grim inquisitor standing over a captured witch, reading her fate aloud from a small black book."
+ ],
+ "arch-swashbuckler": [
+  "A swashbuckler balancing along a ship's rail mid-duel, one boot heel hooked over the edge above the waves.",
+  "A swashbuckler flicking a rose from her teeth into a rival's face before her blade finds his guard."
+ ],
+ "arch-hunter": [
+  "A hunter kneeling beside her wolf companion on a ridge, both watching a distant herd move through morning fog."
+ ],
+ "arch-kineticist": [
+  "A kineticist wreathed in swirling floodwater and lightning, standing braced against a collapsing dam wall."
+ ],
+ "arch-skald": [
+  "A skald smashing a drinking horn against her breastplate to rally a wavering shield line mid-battle."
+ ],
+ "opt-mythic-path": [
+  "A champion's footsteps ringing like struck bells on ordinary cobblestone.",
+  "A hero catching a falling boulder one-handed without breaking stride.",
+  "A figure's silhouette briefly doubling into something vast and legendary behind them.",
+  "A wound that should be mortal closing shut mid-battle, the warrior barely pausing.",
+  "A tyrant's curse unraveling harmlessly off a hero's raised hand.",
+  "A single arrow splitting into a flight of three before it strikes.",
+  "A collapsing tower held upright a moment longer by nothing visible at all.",
+  "A hero's eyes reflecting a battle from a different age entirely.",
+  "A blade shattering on impact yet the wielder's swing continuing unbroken.",
+  "A crowd parting instinctively before a figure they cannot explain their fear of.",
+  "A dying ember of a campfire flaring into a small sun at a hero's word.",
+  "A fallen banner rising back upright on its own as an army rallies.",
+  "A river reversing its current for the span of a single crossing.",
+  "A hero walking through a wall of arrows, each one turning aside a hair's breadth away.",
+  "A legendary weapon recognizing its wielder, humming awake in a dusty vault.",
+  "A single footprint left glowing in stone long after the foot has moved on.",
+  "A hero's shout echoing back in the voice of something far older.",
+  "A broken oath visibly searing itself into the air above the one who swore it.",
+  "A dragon's roar faltering mid-breath before a figure who does not flinch.",
+  "A hero lifting a portcullis meant for a hundred straining hands.",
+  "A field of the dead stirring, then stilling again, at a single raised hand."
+ ],
+ "opt-adv-weapon-training": [
+  "A veteran fighter reading an opponent's stance and countering before the blow is even thrown."
+ ],
+ "opt-blessings": [
+  "A battle-priest's holy symbol flaring bright as it touches a fallen comrade's chest."
+ ],
+ "opt-emotional-focus": [
+  "A sorcerer's grief crystallizing into a spell that trembles with barely restrained power."
+ ],
+ "opt-phrenic": [
+  "A kineticist's psionic focus crackling silver around a levitating stone in one open hand."
+ ],
+ "opt-schools": [
+  "A specialist wizard's spellbook falling open only ever to pages of a single discipline."
+ ],
+ "opt-shifter": [
+  "A shapeshifter pausing mid-transformation, one eye still animal and one still human."
+ ],
+ "opt-spirits": [
+  "A shaman's totem pole carving briefly opening its wooden eyes to watch the camp."
+ ],
+ "opt-tricks": [
+  "A gunslinger flipping a spent shell into a loaded one between one blink and the next.",
+  "A swashbuckler vaulting off a falling chandelier to land a killing blow mid-arc."
+ ],
+ "creature-agathion": [
+  "A lion-headed agathion standing guard at a mountain shrine, mane catching the wind like a halo."
+ ],
+ "creature-air": [
+  "A whirling dust-devil crossing an open plain, faintly humanoid where it thickens at the core."
+ ],
+ "creature-angel": [
+  "A sword-bearing angel hovering over a battlefield, its wings shielding the wounded below."
+ ],
+ "creature-aquatic": [
+  "A bioluminescent anglerfish-thing looming out of the black at the edge of a diver's lantern light.",
+  "A coral-crusted turtle the size of a longboat surfacing beneath a startled fishing crew.",
+  "A merfolk hunting party driving a school of silversides into a natural stone corral.",
+  "A giant octopus unfurling from beneath a sunken statue's outstretched arm.",
+  "A ray the size of a sail gliding low over a moonlit tide pool.",
+  "A barnacle-crusted leviathan's back breaking the surface like a rising island.",
+  "A river horse-thing rearing out of muddy shallows, weed trailing from its mane.",
+  "A cave system half-flooded where webbed hunters move as easily as fish.",
+  "A tide-pool swarming with tiny biting things as a larger shadow circles just offshore."
+ ],
+ "creature-azata": [
+  "A stag-legged azata leaping between rooftops of a festival town, laughter trailing like ribbons."
+ ],
+ "creature-cold": [
+  "A rime-crusted beast exhaling a visible fog that frosts the grass with every breath."
+ ],
+ "creature-daemon": [
+  "A vulture-headed daemon perched atop a plague cart, counting the dead with a bone tally stick."
+ ],
+ "creature-demon": [
+  "A horned demon general marshaling a howling horde at the mouth of a smoking rift."
+ ],
+ "creature-earth": [
+  "A boulder-backed guardian stepping out of a cliff face, gravel sloughing from its shoulders."
+ ],
+ "creature-elemental": [
+  "A churning elemental of mixed stone and flame cracking the ground with every step."
+ ],
+ "creature-extraplanar": [
+  "A many-limbed envoy folding itself uncomfortably to fit through a mortal doorway.",
+  "A star-flecked being pacing a summoning circle, patient and utterly foreign.",
+  "A visitor whose voice arrives a half-second before its mouth moves.",
+  "A being standing perfectly still while the torches around it burn a color no one can name."
+ ],
+ "creature-fire": [
+  "A salamander coiled around a forge's central flame, scales glowing brighter with the bellows.",
+  "A cinder-winged hawk wheeling above a burning treeline, leaving trails of sparks.",
+  "A molten-skinned brute wading through a lava flow as though it were a shallow stream.",
+  "A bonfire guardian rising from a festival pyre, flames shaping themselves into a watchful face."
+ ],
+ "creature-giant": [
+  "A hill giant hauling an uprooted tree like a club through a splintered orchard.",
+  "A cloud giant's fortress drifting past on a slab of floating rock and mist.",
+  "A stone giant hurling a boulder that arcs over an entire valley.",
+  "A storm giant standing chest-deep in a raging sea, lightning gathering at his raised trident."
+ ],
+ "creature-goblinoid": [
+  "A hobgoblin war band marching in disciplined ranks behind a banner of stitched hides."
+ ],
+ "creature-human": [
+  "A village elder revealed mid-spell to be far older, and far less human, than anyone guessed."
+ ],
+ "creature-incorporeal": [
+  "A cold patch drifting down a hallway where no candle will stay lit.",
+  "A translucent knight still marching an old patrol route through a modern wall.",
+  "A weeping shape visible only in a mirror's reflection of an empty room.",
+  "A chill hand passing through a locked chest to riffle contents no one else can touch."
+ ],
+ "creature-kyton": [
+  "A kyton's barbed chains unspooling from the shadows of a torture chamber, each link a tiny hook."
+ ],
+ "creature-mythic": [
+  "A colossal beast whose every roar visibly cracks the stone of the cliffs around it."
+ ],
+ "creature-native": [
+  "A tiefling merchant's shadow briefly showing horns and a tail her disguise hides."
+ ],
+ "creature-psychopomp": [
+  "A crow-skulled psychopomp ferrying a line of pale souls across a river that reflects no sky."
+ ],
+ "creature-shapechanger": [
+  "A doppelganger caught mid-shift in a mirror, its true face sliding free of a stolen one.",
+  "A wererat's silhouette thickening with fur and haunches beneath a full moon's light."
+ ],
+ "creature-swarm": [
+  "A river of biting locusts stripping a field bare in the time it takes to cross it."
+ ],
+ "creature-water": [
+  "A rearing wave-horse galloping across a storm-tossed bay, mane trailing foam.",
+  "A living current dragging driftwood into a rough humanoid shape at a river bend.",
+  "A geyser twisting upright into a towering, watchful shape before collapsing back to spray."
+ ],
+ "item-head": [
+  "A wide-brimmed hat hung on a peg beside a traveling cloak, feather tucked in the band."
+ ],
+ "item-body": [
+  "A cloak draped over a chair back, clasp glinting in firelight."
+ ],
+ "item-eyes": [
+  "A pair of tinted spectacles folded atop an open journal on a desk."
+ ],
+ "item-wondrous": [
+  "A wondrous trinket spinning lazily on a silver chain above an alchemist's scale.",
+  "A sealed jar on a shaman's shelf, its contents glowing faintly through cloudy glass.",
+  "An heirloom charm passed hand to hand around a candlelit table before a journey.",
+  "A curious device ticking softly inside a velvet-lined travel case.",
+  "A luminous shard displayed on a museum pedestal behind rope stanchions.",
+  "An item pulled fresh from a burial mound, dirt still clinging to its carved surface.",
+  "A trinket dangling from a scarecrow's neck in an otherwise ordinary field.",
+  "An enchanted keepsake tucked inside a locket, opened to reveal a soft inner light.",
+  "A relic laid across a war banner as it's presented to a kneeling champion."
+ ],
+ "item-weapon": [
+  "A war axe embedded deep in a splintered shield, both abandoned after the fight.",
+  "A flail's chain coiled neatly beside its spiked head on a velvet cloth.",
+  "A spear propped against a doorway, its shaft still damp from the rain outside.",
+  "A dagger spinning end over end, caught mid-throw against a torchlit wall.",
+  "A warhammer resting head-down on an anvil, its haft catching forge light.",
+  "A curved saber sheathed at a rider's hip, hilt worn to the shape of a hand.",
+  "A longbow strung and leaned against a tree, quiver hanging from a low branch.",
+  "A trident driven into wet sand at the tideline, waves lapping at its base.",
+  "A rapier laid across an open dueling manual on a study desk.",
+  "A greatsword too large for its stand, tip resting on the floor beside it.",
+  "A hand axe buried in a chopping block, morning frost still on the handle.",
+  "A crossbow bolt case spilled open on cobblestones beside a dropped weapon.",
+  "A pair of matched daggers crossed on an assassin's folded cloak.",
+  "A halberd racked beside a castle gate, its blade catching torchlight.",
+  "A cutlass driven point-down into a ship's deck plank beside a coil of rope.",
+  "A mace hanging from a saddle horn, swinging gently as the horse walks.",
+  "A war pick catching the last light through a narrow armory window.",
+  "A sickle-bladed weapon laid across a druid's woven basket of herbs.",
+  "A glaive leaning in a temple corner, its blade wrapped in ceremonial cloth.",
+  "A short sword being fitted with a new grip by careful, practiced hands.",
+  "A whip coiled on a hook beside a beastmaster's other tools.",
+  "A throwing star fanned out in a display case with several matched twins.",
+  "A quarterstaff worn smooth at its center from years of use, leaning by a hearth.",
+  "A boarding axe wedged in a splintered hull plank, seawater pooling beneath it.",
+  "A kukri drawn halfway from its sheath on a hunter's belt.",
+  "A morningstar's spiked head resting in straw packing inside an open crate.",
+  "A bastard sword laid across a knight's folded gauntlets atop a chapel pew.",
+  "A javelin rack beside a skirmisher's shield near a battlefield's edge.",
+  "A scythe-like blade catching moonlight in an abandoned farmyard.",
+  "A parrying dagger and rapier crossed above a fencing academy's door.",
+  "A battered short spear tied to a hunter's pack alongside coiled snares.",
+  "A ceremonial blade unsheathed for inspection before a coronation.",
+  "A broken sword hilt kept as a memento on a windowsill, blade long lost."
+ ],
+ "item-armorset": [
+  "A tabard being fitted over a fresh breastplate before a parade.",
+  "Chainmail draped over a saddle, drying after a river crossing.",
+  "A cracked helm displayed as a grim trophy above a tavern hearth.",
+  "Armor plates being laced together by torchlight the night before battle.",
+  "A suit of banded mail hung to air on a courtyard line.",
+  "A squire buffing scuffed greaves with a soft cloth in a quiet stable.",
+  "Armor scattered where it was hastily shed after a desperate swim.",
+  "A ceremonial armor set displayed on a dais for a knighting rite.",
+  "A worn leather cuirass patched many times, hung by a campfire.",
+  "Armor being fitted to a new recruit by an impatient quartermaster.",
+  "A shield and matching armor set leaned together against a tent flap.",
+  "Segmented plate laid out in a temple for a champion's blessing.",
+  "A rusted full harness half-swallowed by roots in a forgotten glade.",
+  "Armor pieces spread on a wagon bed for inspection at a checkpoint.",
+  "A blackened cuirass recovered from a burned keep, still smoking faintly.",
+  "Armor gleaming under torchlight as it's carried in a victory procession.",
+  "A child's practice armor, small and dented, hung beside a father's full set.",
+  "Armor being sized against a tailor's chalk marks on a canvas dummy.",
+  "A dented shield and matching vambraces mounted as a hero's memorial.",
+  "Armor stacked in a smuggler's crate beneath false bottom boards.",
+  "A gilded ceremonial harness catching candlelight in a throne room."
  ]
 };
