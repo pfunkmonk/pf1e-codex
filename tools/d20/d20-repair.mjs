@@ -85,6 +85,38 @@ const CAT_ALIAS = { traits: { Regional: "Region" } };
   }
   console.log(`facet labels normalized: ${renamed}`);
 }
+// ---- 0d. third-party traits mislabeled with the generic "3rd Party"/"3rd Party Drawbacks" wrapper
+// when their OWN publisher's crumb names a real, recognized type one level deeper (traitFacets() in
+// d20-import.mjs only read crumb[1] — see that file's comment). A trait's mechanical type doesn't
+// depend on its publisher, so this is the same class of fix as 0c, just by name instead of by label
+// (this script can't re-read the original crumb, only the already-imported facet). Found + this exact
+// list built 2026-09-29 by re-deriving each name's category from D:/CODEX/d20-pilot/pages.jsonl.
+// Guarded on the row STILL carrying a wrapper cat, so a re-run is a no-op and this can never clobber
+// a category someone corrected by hand for a different reason. ----
+const TRAIT_CAT_WRAPPERS_REPAIR = new Set(["3rd Party", "3rd Party Drawbacks"]);
+const RECLASSIFY_3P_TRAIT = {
+  "Bad Day in Town": "Campaign", "Company Lumberjack": "Campaign", "Family Hero (Dwarf only)": "Campaign",
+  "Infected Family Member": "Campaign", "Scion of the Light": "Campaign", "Werewolf Hunter": "Campaign",
+  "Expert Scribe": "Magic",
+  "Arcanum College Dropout": "Region", "Arcanum College Graduate": "Region",
+  "Exiled (Abbey of the Golden Sparrow)": "Region", "Goblin Signs (Abbey of the Golden Sparrow)": "Region",
+  "Improvised Healer (Abbey of the Golden Sparrow)": "Region", "Practiced Thrower (Abbey of the Golden Sparrow)": "Region",
+  "Raised Since Birth (Abbey of the Golden Sparrow)": "Region", "Seeker of Enlightenment (Abbey of the Golden Sparrow)": "Region",
+  "Student of the Air (Abbey of the Golden Sparrow)": "Region", "Well-Guarded Mind (Abbey of the Golden Sparrow)": "Region",
+  "Eager to Please": "Social", "Early Education": "Social", "Progressive (Social)": "Social",
+  "Scavenger (Race)": "Race",
+};
+{
+  let renamed = 0;
+  for (const r of rows.filter(isD20)) {
+    if (r[2] !== "traits" || !r[6]) continue;
+    const want = RECLASSIFY_3P_TRAIT[r[1]];
+    if (!want || !TRAIT_CAT_WRAPPERS_REPAIR.has(r[6].cat)) continue;
+    if (APPLY) r[6].cat = want;
+    renamed++;
+  }
+  console.log(`3rd-party traits reclassified to their real type: ${renamed}`);
+}
 const d20 = rows.filter(isD20), orig = rows.filter((r) => !isD20(r));
 console.log(`rows ${rows.length}: d20-minted ${d20.length}, original ${orig.length}`);
 

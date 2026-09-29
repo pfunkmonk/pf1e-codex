@@ -130,11 +130,33 @@ function itemFacets(p, bk) {
 // real-world category — "Regional Traits" on d20pfsrd is AoN's "Region" (its own URL/type key).
 // Extend this if another such pair turns up (found + the existing-data half fixed in d20-repair.mjs).
 const TRAIT_CAT_ALIAS = { Regional: "Region" };
+// The mechanical trait type is a property of the TRAIT, not its publisher — a Rite Publishing trait
+// its own product labels "Social Traits" is a social trait, same as any Paizo one; the "3rd Party
+// Traits" / "3rd Party Drawbacks" wrapper in d20pfsrd's crumb is a licensing/publisher grouping on
+// THEIR site, one level above the trait's real type. Only reading crumb[1] threw that type away for
+// every third-party trait (found 2026-09-29 auditing categories: 21 rows). A wrapper segment falls
+// back to a deeper crumb segment that names one of the categories AoN/d20pfsrd actually use — never
+// invents a new category, so "Samurai Traits"/"Yakuza Traits" (real d20pfsrd labels with no AoN
+// equivalent) correctly stay generic rather than being forced into an unrelated bucket.
+const TRAIT_CAT_WRAPPERS = new Set(["3rd Party", "3rd Party Drawbacks"]);
+const KNOWN_TRAIT_CATS = new Set(["Combat", "Faith", "Magic", "Social", "Campaign", "Cosmic", "Equipment", "Exemplar", "Faction", "Family", "Mount", "Race", "Region", "Regional", "Religion", "Drawback"]);
+function deeperTraitCat(crumb) {
+  for (let i = crumb.length - 1; i >= 2; i--) {
+    const m = /^([A-Za-z ]+?)\s*Traits\b/i.exec(crumb[i] || "");
+    if (m && KNOWN_TRAIT_CATS.has(m[1].trim())) return m[1].trim();
+  }
+  return null;
+}
 function traitFacets(p, bk) {
   const f = {};
   const seg = p.crumb[1] || "";                     // ["Traits","Combat Traits"] -> "Combat Traits"
-  const cat = seg.replace(/\s*Traits\s*$/i, "").trim();
-  if (cat) f.cat = TRAIT_CAT_ALIAS[cat] || cat;
+  let cat = seg.replace(/\s*Traits\s*$/i, "").trim();
+  cat = TRAIT_CAT_ALIAS[cat] || cat;
+  if (TRAIT_CAT_WRAPPERS.has(cat)) {
+    const deeper = deeperTraitCat(p.crumb);
+    if (deeper) cat = TRAIT_CAT_ALIAS[deeper] || deeper;
+  }
+  if (cat) f.cat = cat;
   if (bk) f.bk = bk;
   return f;
 }
