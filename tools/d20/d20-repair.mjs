@@ -68,6 +68,23 @@ const isD20 = (r) => r[0] === mintId(r[2], r[1]);
   }
   console.log(`long/citation suffixes shortened: ${renamed}${blocked ? ` (${blocked} left: the short name is taken)` : ""}`);
 }
+// ---- 0c. facet-label normalization: the SAME category filed under two different spellings because
+// AoN's and d20pfsrd's own sites label it differently (AoN: "Region" — its own URL/type key; d20pfsrd's
+// breadcrumb literally reads "Regional Traits", so traitFacets() in d20-import.mjs stripped it to
+// "Regional"). Found 2026-09-29 auditing for missed content: not missing, just split across two facet
+// values, so the trait-category filter showed it as two near-duplicate options instead of one. Extend
+// this map if another such pair turns up — it's the general fix, not a one-off patch for this pair. ----
+const CAT_ALIAS = { traits: { Regional: "Region" } };
+{
+  let renamed = 0;
+  for (const r of rows.filter(isD20)) {
+    const want = CAT_ALIAS[r[2]] && r[6] && CAT_ALIAS[r[2]][r[6].cat];
+    if (!want) continue;
+    if (APPLY) r[6].cat = want;
+    renamed++;
+  }
+  console.log(`facet labels normalized: ${renamed}`);
+}
 const d20 = rows.filter(isD20), orig = rows.filter((r) => !isD20(r));
 console.log(`rows ${rows.length}: d20-minted ${d20.length}, original ${orig.length}`);
 

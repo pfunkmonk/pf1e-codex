@@ -126,11 +126,15 @@ function itemFacets(p, bk) {
   if (bk) f.bk = bk;
   return f;
 }
+// d20pfsrd's own breadcrumb label doesn't always match AoN's internal category name for the same
+// real-world category — "Regional Traits" on d20pfsrd is AoN's "Region" (its own URL/type key).
+// Extend this if another such pair turns up (found + the existing-data half fixed in d20-repair.mjs).
+const TRAIT_CAT_ALIAS = { Regional: "Region" };
 function traitFacets(p, bk) {
   const f = {};
   const seg = p.crumb[1] || "";                     // ["Traits","Combat Traits"] -> "Combat Traits"
   const cat = seg.replace(/\s*Traits\s*$/i, "").trim();
-  if (cat) f.cat = cat;
+  if (cat) f.cat = TRAIT_CAT_ALIAS[cat] || cat;
   if (bk) f.bk = bk;
   return f;
 }
