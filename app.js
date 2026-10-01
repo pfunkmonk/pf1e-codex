@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "105";
+  var DATA_V = "106";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -1008,13 +1008,29 @@
     var id=jump && jump.byRowText[rowText];
     return id ? '<a class="xref jump" href="#" data-jump="'+id+'">'+cellHtml+'</a>' : cellHtml;
   }
-  function renderStructTable(t, jump){
+  // The SAME cross-reference used on prose (linkMap — see linkifyLine) applied to a table cell: a
+  // row naming something that has its OWN full entry elsewhere ("Horse, light" in a mount-price
+  // table, a prerequisite feat in a feat table) gets linked there, same as it would mid-sentence.
+  // Only tried once nothing on THIS page claims the cell (jumpWrap, checked by the caller, wins —
+  // a description one scroll away beats sending the reader to a different page for the same name).
+  function xrefWrap(cellHtml, rawText, curId){
+    var id=linkMap()[norm(rawText)];
+    if(id===undefined || id===curId) return cellHtml;
+    var href = id==="?" ? "#/s/"+encodeURIComponent(rawText) : "#/e/"+encodeURIComponent(id);
+    return '<a class="xref" href="'+href+'">'+cellHtml+'</a>';
+  }
+  function tableCell(c, ci, jump, curId){
+    var cell=glossify(esc(c));
+    if(ci===0){ var w=jumpWrap(cell,c,jump); if(w!==cell) return w; }
+    return xrefWrap(cell,c,curId);
+  }
+  function renderStructTable(t, jump, curId){
     var rows=t.r||[]; if(!rows.length) return "";
     var html='<div class="tablewrap"><table class="rt">', start=0;
     if(t.hdr){ html+='<thead><tr>'+rows[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
     html+='<tbody>';
     for(var i=start;i<rows.length;i++){
-      html+='<tr>'+rows[i].map(function(c,ci){ var cell=glossify(esc(c)); return '<td>'+(ci===0?jumpWrap(cell,c,jump):cell)+'</td>'; }).join("")+'</tr>';
+      html+='<tr>'+rows[i].map(function(c,ci){ return '<td>'+tableCell(c,ci,jump,curId)+'</td>'; }).join("")+'</tr>';
     }
     return html+'</tbody></table></div>';
   }
@@ -1023,7 +1039,7 @@
   // one run-together sentence. A run of two or more tabbed lines is a table. The first row is a header when the run
   // has 3+ rows and that row carries no digits (a data row nearly always does). Cells wrap: unlike the AoN tables
   // these hold whole sentences.
-  function renderTabTable(rows, jump){
+  function renderTabTable(rows, jump, curId){
     var cells=rows.map(function(r){ return r.split("\t").map(function(c){ return c.replace(/^\s+|\s+$/g,""); }); });
     var n=0; cells.forEach(function(r){ if(r.length>n) n=r.length; });
     cells.forEach(function(r){ while(r.length<n) r.push(""); });
@@ -1033,7 +1049,7 @@
     if(hdr){ html+='<thead><tr>'+cells[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
     html+='<tbody>';
     for(var i=start;i<cells.length;i++){
-      html+='<tr>'+cells[i].map(function(c,ci){ var cell=glossify(esc(c)); return '<td>'+(ci===0?jumpWrap(cell,c,jump):cell)+'</td>'; }).join("")+'</tr>';
+      html+='<tr>'+cells[i].map(function(c,ci){ return '<td>'+tableCell(c,ci,jump,curId)+'</td>'; }).join("")+'</tr>';
     }
     return html+'</tbody></table></div>';
   }
@@ -1057,24 +1073,31 @@
     });
     var tscan=scanBodyTables(lines, mark);
     var jump=findJumpAnchors(lines, tscan.consumed, tscan.rowNames);
-    var out=[], blank=0, i=0;
+    var out=[], blank=0, gapped=true, i=0;
     while(i<lines.length){
-      if(mark[i]){ out.push(renderStructTable(mark[i].t, jump)); i+=mark[i].span; blank=0; continue; }
+      if(mark[i]){ out.push(renderStructTable(mark[i].t, jump, curId)); i+=mark[i].span; blank=0; gapped=false; continue; }
       var lineIdx=i; var ln=lines[i].replace(/\s+$/,""); i++;
-      if(!ln.trim()){ if(blank++<1) out.push('<div class="gap"></div>'); continue; }
+      if(!ln.trim()){ if(blank++<1){ out.push('<div class="gap"></div>'); gapped=true; } continue; }
       blank=0;
       if(ln.indexOf("\t")>=0){
         var run=[ln], j=i;
         while(j<lines.length && lines[j].indexOf("\t")>=0){ run.push(lines[j].replace(/\s+$/,"")); j++; }
-        if(run.length>=2){ out.push(renderTabTable(run, jump)); i=j; continue; }
+        if(run.length>=2){ out.push(renderTabTable(run, jump, curId)); i=j; gapped=false; continue; }
         ln=ln.replace(/\t+/g,"  ·  ");          // a lone tabbed line: keep the cells apart, no one-row table
       }
+      // d20pfsrd glossary-style lists ("Chronicler (5 gp/day): …\nCompanion (5 cp–10 gp/evening): …")
+      // run one entry straight into the next with only a single newline between them — no blank line
+      // the way an ordinary paragraph break gets one — so without this they read as one unbroken wall
+      // of text. A line that itself opens a new "Name: definition" entry gets the same gap a blank
+      // line would, UNLESS one is already there.
+      if(!gapped && LEAD_RE.test(ln)){ out.push('<div class="gap"></div>'); }
+      gapped=false;
       var idAttr=jump.lineId[lineIdx] ? ' id="'+jump.lineId[lineIdx]+'"' : "";
       // classic stat-block section headers get the tapered-rule treatment (the signature "official" look)
       if(SB_HEADS[ln.trim().toLowerCase()]) out.push('<div class="sb-head"'+idAttr+'>'+esc(ln.trim())+'</div>');
       else out.push('<div class="ln"'+idAttr+'>'+linkifyLine(ln, curId)+'</div>');
     }
-    tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump)); }); // unmatched -> append
+    tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump, curId)); }); // unmatched -> append
     var html = out.join("");
     if(source) html += '<div class="src">📖 Source: '+esc(source)+'</div>';
     html += '<div class="codex-note">Rules content used under the Open Game License 1.0a.</div>';
