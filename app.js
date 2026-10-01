@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "104";
+  var DATA_V = "105";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -930,6 +930,10 @@
     return words.join("|");
   }
   var LEAD_RE=/^([A-Z][A-Za-z' -]{1,40}?)\s*(?:\([^)]*\))?:\s+\S/;
+  // "Lawyer, novice"/"Lawyer, competent"/"Lawyer, experienced" are three table rows explained by
+  // ONE shared paragraph headed just "Lawyer" — the qualifier after the comma is priced separately
+  // but never gets its own heading. Row names with no comma have no prefix and are unaffected.
+  function rowPrefix(name){ var m=/^([^,]+),/.exec(name); return m ? m[1] : null; }
   // One pass to collect every table row's name cell (first column, header rows excluded) and which
   // line indices belong to a table block, so heading-detection below never reads INSIDE a table.
   function scanBodyTables(lines, structMarks){
@@ -955,24 +959,48 @@
     }
     return {rowNames:rowNames, consumed:consumed};
   }
-  // Finds, among the non-table lines, a standalone heading ("Road or Gate Toll") or a paragraph's
-  // own lead-in ("Chronicler (5 gp/day): A chronicler records…") that names one of the table rows,
-  // and hands back where to drop the anchor and which row text it belongs to.
+  // Finds, among the non-table lines, a standalone heading ("Road or Gate Toll"), a paragraph's own
+  // lead-in ("Chronicler (5 gp/day): A chronicler records…"), or a name run straight into its prose
+  // with no punctuation at all ("Trained Hirelings The amount shown is…") that names one of the
+  // table rows — or, failing an exact row, the shared prefix of several ("Lawyer" for "Lawyer,
+  // novice"/"competent"/"experienced") — and hands back where to drop the anchor and which row(s)
+  // it belongs to.
   function findJumpAnchors(lines, consumed, rowNames){
-    var byKey={}; rowNames.forEach(function(n){ var k=jumpKey(n); if(k && !byKey[k]) byKey[k]=n; });
-    var byRowText={}, lineId={}, n=0, seen={};
+    var fullKey={}; rowNames.forEach(function(n){ var k=jumpKey(n); if(k && !fullKey[k]) fullKey[k]=[n]; });
+    var prefixGroups={};
+    rowNames.forEach(function(n){
+      var p=rowPrefix(n); if(!p) return;
+      var k=jumpKey(p); if(!k) return;
+      (prefixGroups[k]=prefixGroups[k]||[]).push(n);
+    });
+    var byRowText={}, lineId={}, n=0, seenKey={};
+    function tryCandidate(cand, lineIdx){
+      var k=jumpKey(cand); if(!k || seenKey[k]) return false;
+      // A heading can equal BOTH a row's own full name AND the shared prefix of others ("Laundry"
+      // is itself a row, and also what "Laundry, magic" is priced on top of) — both get it.
+      var rows=(fullKey[k]||[]).concat(prefixGroups[k]||[]); if(!rows.length) return false;
+      seenKey[k]=1;
+      var id="jt"+(n++);
+      rows.forEach(function(rt){ if(!byRowText[rt]) byRowText[rt]=id; });
+      lineId[lineIdx]=id;
+      return true;
+    }
     for(var i=0;i<lines.length;i++){
       if(consumed[i]) continue;
       var raw=lines[i], ln=raw.trim(); if(!ln) continue;
-      var cand=null;
-      if(!/[.!?]$/.test(ln) && ln.length<=100 && ln.indexOf("\t")<0) cand=ln;
-      else { var lm=LEAD_RE.exec(raw); if(lm && FIELDS.indexOf(lm[1])<0) cand=lm[1]; }
-      if(!cand) continue;
-      var k=jumpKey(cand), rowText=k && byKey[k];
-      if(!rowText || seen[rowText]) continue;
-      seen[rowText]=1;
-      var id="jt"+(n++);
-      byRowText[rowText]=id; lineId[i]=id;
+      var done=false;
+      if(!/[.!?]$/.test(ln) && ln.length<=100 && ln.indexOf("\t")<0) done=tryCandidate(ln,i);
+      if(!done){ var lm=LEAD_RE.exec(raw); if(lm && FIELDS.indexOf(lm[1])<0) done=tryCandidate(lm[1],i); }
+      if(!done){
+        // No colon, no stand-alone line — shrink a leading word-run until it lines up with a real
+        // row (longest first, so "Untrained Hirelings" wins over just "Untrained"); a row name is
+        // always 2+ words in this body shape, so single common words are never tried here.
+        var lead=ln.match(/^[A-Z]\S*(?:\s+\S+){0,7}/);
+        if(lead){
+          var toks=lead[0].replace(/\([^)]*\)/g," ").trim().split(/\s+/).filter(Boolean);
+          for(var w=Math.min(5,toks.length); w>=2 && !done; w--) done=tryCandidate(toks.slice(0,w).join(" "), i);
+        }
+      }
     }
     return {byRowText:byRowText, lineId:lineId};
   }
