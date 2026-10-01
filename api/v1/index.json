@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "102",
+  "dataVersion": "103",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 50881,
+    "entries": 50885,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
       "nameFirst": 3654,
       "sourceFirst": 12478,
-      "other": 34749
+      "other": 34753
     }
   },
   "endpoints": {
@@ -87,7 +87,7 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 8126,
+      "count": 8130,
       "list": "items.json",
       "categories": {
         "Altars": 22,
@@ -100,7 +100,7 @@
         "Intelligent Items": 32,
         "Items": 1,
         "Magic Equipment": 125,
-        "Miscellaneous": 2457,
+        "Miscellaneous": 2459,
         "Pharmaceuticals": 11,
         "Potions & Oils": 10,
         "Psi-Tech": 9,
@@ -110,7 +110,7 @@
         "Technology": 16,
         "Thrones": 3,
         "Weapons": 1350,
-        "Wondrous Items": 2438
+        "Wondrous Items": 2440
       }
     },
     {
