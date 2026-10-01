@@ -186,7 +186,7 @@ table.rt thead th:first-child{background:var(--chip)}
 .quickstats{display:flex;flex-wrap:wrap;gap:6px;margin:-4px 0 16px}
 .qstat{font-size:12.5px;background:var(--code);border:1px solid var(--line);border-radius:6px;padding:3px 10px;color:var(--ink);font-weight:600}
 .body{font-size:15.5px;line-height:1.62}
-.body .ln{margin:0 0 2px}
+.body .ln{margin:0 0 2px;scroll-margin-top:70px}
 .body .gap{height:10px}
 .body strong{color:var(--accent2)}
 .body .src{display:inline-block;margin-top:14px;font-size:12.5px;color:var(--ink-soft);background:var(--code);border:1px solid var(--line);border-radius:6px;padding:4px 10px}
@@ -628,7 +628,7 @@ body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
 /* ---- stat-block frame: tapered-rule dividers + small-caps section heads (theme-aware) ---- */
 /* the signature tapered spear rule, drawn with clip-path (full-thickness left -> point right) */
 .sb-rule{height:5px;margin:2px 0 14px;background:var(--c,var(--accent));clip-path:polygon(0 0,100% 50%,0 100%);opacity:.9}
-.sb-head{font-variant:small-caps;letter-spacing:.04em;font-weight:700;font-size:1.16em;color:var(--c,var(--accent));margin:18px 0 2px}
+.sb-head{font-variant:small-caps;letter-spacing:.04em;font-weight:700;font-size:1.16em;color:var(--c,var(--accent));margin:18px 0 2px;scroll-margin-top:70px}
 .sb-head::after{content:"";display:block;height:4px;margin-top:2px;background:var(--c,var(--accent));clip-path:polygon(0 0,100% 50%,0 100%);opacity:.85}
 /* a subtle bottom accent cap balances the colored top border into a framed "block" */
 .entry{border-bottom:3px solid color-mix(in srgb,var(--c,var(--accent)) 55%,transparent)}
