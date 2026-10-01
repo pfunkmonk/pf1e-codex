@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "107";
+  var DATA_V = "108";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -978,6 +978,12 @@
     return words.join("|");
   }
   var LEAD_RE=/^([A-Z][A-Za-z' -]{1,40}?)\s*(?:\([^)]*\))?:\s+\S/;
+  // A bullet- or number-marked list item, same deal as LEAD_RE below but for an actual list rather
+  // than a glossary term — found by scanning every body for TWO list-marker lines in a row with no
+  // blank line between them (20 real entries site-wide, mostly numbered combat-maneuver/spell-effect
+  // steps and bulleted creature special-ability lists) — the identical "wall of text" shape Hirelings
+  // had, just with "1." or "•" instead of "Name:".
+  var LIST_ITEM_RE=/^[ \t]*(?:[-•‣◦⁃∙][ \t]+\S|\(?\d{1,2}[.)][ \t]+\S)/;
   // "Lawyer, novice"/"Lawyer, competent"/"Lawyer, experienced" are three table rows explained by
   // ONE shared paragraph headed just "Lawyer" — the qualifier after the comma is priced separately
   // but never gets its own heading. Row names with no comma have no prefix and are unaffected.
@@ -1140,9 +1146,10 @@
       // d20pfsrd glossary-style lists ("Chronicler (5 gp/day): …\nCompanion (5 cp–10 gp/evening): …")
       // run one entry straight into the next with only a single newline between them — no blank line
       // the way an ordinary paragraph break gets one — so without this they read as one unbroken wall
-      // of text. A line that itself opens a new "Name: definition" entry gets the same gap a blank
-      // line would, UNLESS one is already there.
-      if(!gapped && LEAD_RE.test(ln)){ out.push('<div class="gap"></div>'); }
+      // of text. A line that itself opens a new "Name: definition" entry, or a bullet/numbered list
+      // item ("2. Track…", "• You gain…"), gets the same gap a blank line would, UNLESS one is
+      // already there.
+      if(!gapped && (LEAD_RE.test(ln) || LIST_ITEM_RE.test(ln))){ out.push('<div class="gap"></div>'); }
       gapped=false;
       var idAttr=jump.lineId[lineIdx] ? ' id="'+jump.lineId[lineIdx]+'"' : "";
       // classic stat-block section headers get the tapered-rule treatment (the signature "official" look)
