@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "106";
+  var DATA_V = "107";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -873,37 +873,85 @@
   function norm(s){ return s.toLowerCase().replace(/[’]/g,"'").replace(/[\s\-]+/g," ").trim(); }
   var FIELD_STOP={}; FIELDS.forEach(function(f){ if(f.indexOf(" ")>=0) FIELD_STOP[norm(f)]=1; });
   ["base attack bonus","hit dice","caster level","will save","fort save","reflex save"].forEach(function(x){FIELD_STOP[x]=1;});
+  // Races, deities and NAMED creatures are almost always distinctive proper nouns even at one word
+  // ("Aasimar", "Desna", "Otyugh"), so a bare mention is safe to link. Everything else stays
+  // multi-word-only — items/options/rules/spells/classes are full of single ordinary English words
+  // ("Hide", "Companion", "Flame" — the last three are a feat type, a class, and an Oracle mystery
+  // respectively) that would wrongly light up on completely unrelated, generic uses of the word.
+  // The monsters bucket needs its OWN narrower gate on top of that: most of it is real creatures
+  // (rawCat "Monsters"), but it also holds "Universal Monster Rules" (Grab, Push, Pull, Trample —
+  // combat-ability glossary entries) and "Creature Subtypes"/"Creature Types" (Air, Water, Construct,
+  // Dragon) — every one a common word used constantly for unrelated things. Found by testing: the
+  // Half-Elf race page alone picked up "push"/"pull"/"air"/"water" pointing at monster-rules glossary
+  // entries before this gate existed, because those happened to be the only single-word matches.
+  // Even within real creatures (rawCat "Monsters"), a few are themselves ordinary English words for
+  // materials, colors or body parts — "a maw full of teeth", "carved from stone", "lost in shadow"
+  // — that recur constantly in flavor text with no relation to the specific creature. Found by
+  // reading the full 2,043-name single-word monster list by hand: common animal names (Wolf, Fox,
+  // Cat…) were left in deliberately, since those almost always DO mean the creature when used.
+  var SINGLE_WORD_STOP={unknown:1, bone:1, fallen:1, gray:1, gutted:1, shadow:1, stone:1, wood:1, maw:1, thorny:1, haunt:1, jade:1, larva:1, mite:1, thug:1};
+  function singleWordOk(slug, raw, nameLower){
+    if(SINGLE_WORD_STOP[nameLower]) return false;
+    if(slug==="races" || slug==="deities") return true;
+    if(slug==="monsters" && raw==="Monsters") return true;
+    return false;
+  }
   var _lmap=null;
   function linkMap(){
     if(_lmap) return _lmap;
-    var m={}, amb={};
+    var cands={};
     for(var i=0;i<IDX.length;i++){
-      var nm=IDX[i][I_NAME];
-      if(nm.indexOf(" ")<0 || nm.length<6) continue;   // multi-word, distinctive names only
+      var nm=IDX[i][I_NAME], slug=IDX[i][I_SLUG];
+      var singleOk = singleWordOk(slug, IDX[i][I_RAW], nm.toLowerCase()) && nm.indexOf(" ")<0 && nm.length>=3;
+      if(!singleOk && (nm.indexOf(" ")<0 || nm.length<6)) continue;
       var k=norm(nm); if(FIELD_STOP[k]) continue;
-      if(m[k]!==undefined) amb[k]=1; else m[k]=IDX[i][I_ID];
+      if(!cands[k]) cands[k]=[];
+      cands[k].push({id:IDX[i][I_ID], slug:slug});
     }
-    for(var k in amb) m[k]="?";                          // ambiguous -> link to a search
+    var m={};
+    for(var k in cands){
+      var list=cands[k];
+      if(list.length===1){ m[k]=list[0].id; continue; }
+      // A name shared ONLY between a race and its matching monster/NPC stat block is regular enough
+      // (every playable race has one — Aasimar, Tiefling, Dwarf, Elf…) to resolve safely: prefer the
+      // race rather than send the reader to a search page for something this common. Any OTHER
+      // bucket mixed into the collision is too irregular to guess and stays an ambiguous "?".
+      var raceId=null, onlyRaceMonster=true;
+      for(var j=0;j<list.length;j++){
+        var s=list[j].slug;
+        if(s!=="races" && s!=="monsters" && s!=="npcs") onlyRaceMonster=false;
+        if(s==="races") raceId=list[j].id;
+      }
+      m[k] = (onlyRaceMonster && raceId) ? raceId : "?";
+    }
     _lmap=m; return m;
   }
   function boldGloss(str){ return glossify(esc(str).replace(FIELD_RE, function(m,pre,lab){ return pre+"<strong>"+lab+"</strong>"; })); }
-  function linkifyLine(ln, curId){
+  // `used` is shared across one WHOLE rendered body (prose lines and table cells alike — see
+  // fmtBody) so a name linked once doesn't light up again every single time it recurs; a body that
+  // says "elf" nine times needs one link, not nine. Same-page jump anchors are unrelated to this
+  // and unaffected — they're a different row every time, never a repeat of the same target.
+  function linkifyLine(ln, curId, used){
     var map=linkMap(), re=/[A-Za-z][A-Za-z'’]*/g, toks=[], m;
     while((m=re.exec(ln))) toks.push([m.index, re.lastIndex]);
     var out="", pos=0, i=0;
     while(i<toks.length){
       var matched=false, maxLen=Math.min(6, toks.length-i);
-      for(var len=maxLen; len>=2; len--){
+      for(var len=maxLen; len>=1; len--){
         var ok=true;
         for(var k=i;k<i+len-1;k++){ if(!/^[ \-]?$/.test(ln.slice(toks[k][1], toks[k+1][0]))){ ok=false; break; } }
         if(!ok) continue;
         var phrase=ln.slice(toks[i][0], toks[i+len-1][1]);
         var id=map[norm(phrase)];
-        if(id!==undefined && id!==curId){
+        // An ambiguous match has no real id to dedupe on — every one is literally "?" — so it is
+        // keyed by its own normalized phrase instead, or "Low-Light Vision" (ambiguous on this page)
+        // relinks itself every single time it recurs while a real id correctly only links once.
+        var dk = id==="?" ? ("?:"+norm(phrase)) : id;
+        if(id!==undefined && id!==curId && !(used && used[dk])){
           out += boldGloss(ln.slice(pos, toks[i][0]));
           var href = id==="?" ? "#/s/"+encodeURIComponent(phrase) : "#/e/"+encodeURIComponent(id);
           out += '<a class="xref" href="'+href+'">'+esc(phrase)+'</a>';
-          pos=toks[i+len-1][1]; i+=len; matched=true; break;
+          pos=toks[i+len-1][1]; i+=len; matched=true; if(used) used[dk]=1; break;
         }
       }
       if(!matched) i++;
@@ -1013,24 +1061,27 @@
   // table, a prerequisite feat in a feat table) gets linked there, same as it would mid-sentence.
   // Only tried once nothing on THIS page claims the cell (jumpWrap, checked by the caller, wins —
   // a description one scroll away beats sending the reader to a different page for the same name).
-  function xrefWrap(cellHtml, rawText, curId){
+  function xrefWrap(cellHtml, rawText, curId, usedXref){
     var id=linkMap()[norm(rawText)];
     if(id===undefined || id===curId) return cellHtml;
+    var dk = id==="?" ? ("?:"+norm(rawText)) : id;   // see linkifyLine — ambiguous matches dedupe by phrase, not by the shared "?" id
+    if(usedXref && usedXref[dk]) return cellHtml;
     var href = id==="?" ? "#/s/"+encodeURIComponent(rawText) : "#/e/"+encodeURIComponent(id);
+    if(usedXref) usedXref[dk]=1;
     return '<a class="xref" href="'+href+'">'+cellHtml+'</a>';
   }
-  function tableCell(c, ci, jump, curId){
+  function tableCell(c, ci, jump, curId, usedXref){
     var cell=glossify(esc(c));
     if(ci===0){ var w=jumpWrap(cell,c,jump); if(w!==cell) return w; }
-    return xrefWrap(cell,c,curId);
+    return xrefWrap(cell,c,curId,usedXref);
   }
-  function renderStructTable(t, jump, curId){
+  function renderStructTable(t, jump, curId, usedXref){
     var rows=t.r||[]; if(!rows.length) return "";
     var html='<div class="tablewrap"><table class="rt">', start=0;
     if(t.hdr){ html+='<thead><tr>'+rows[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
     html+='<tbody>';
     for(var i=start;i<rows.length;i++){
-      html+='<tr>'+rows[i].map(function(c,ci){ return '<td>'+tableCell(c,ci,jump,curId)+'</td>'; }).join("")+'</tr>';
+      html+='<tr>'+rows[i].map(function(c,ci){ return '<td>'+tableCell(c,ci,jump,curId,usedXref)+'</td>'; }).join("")+'</tr>';
     }
     return html+'</tbody></table></div>';
   }
@@ -1039,7 +1090,7 @@
   // one run-together sentence. A run of two or more tabbed lines is a table. The first row is a header when the run
   // has 3+ rows and that row carries no digits (a data row nearly always does). Cells wrap: unlike the AoN tables
   // these hold whole sentences.
-  function renderTabTable(rows, jump, curId){
+  function renderTabTable(rows, jump, curId, usedXref){
     var cells=rows.map(function(r){ return r.split("\t").map(function(c){ return c.replace(/^\s+|\s+$/g,""); }); });
     var n=0; cells.forEach(function(r){ if(r.length>n) n=r.length; });
     cells.forEach(function(r){ while(r.length<n) r.push(""); });
@@ -1049,7 +1100,7 @@
     if(hdr){ html+='<thead><tr>'+cells[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
     html+='<tbody>';
     for(var i=start;i<cells.length;i++){
-      html+='<tr>'+cells[i].map(function(c,ci){ return '<td>'+tableCell(c,ci,jump,curId)+'</td>'; }).join("")+'</tr>';
+      html+='<tr>'+cells[i].map(function(c,ci){ return '<td>'+tableCell(c,ci,jump,curId,usedXref)+'</td>'; }).join("")+'</tr>';
     }
     return html+'</tbody></table></div>';
   }
@@ -1059,30 +1110,31 @@
     var lines = body.split("\n");
     var tabs=(window.PF_TABLES && window.PF_TABLES[curId]) || [];
     // locate each fetched table's flattened rows in the body (rows are one-per-line)
-    var mark={}, used={}, matched=tabs.map(function(){return false;});
+    var mark={}, lineUsed={}, matched=tabs.map(function(){return false;});
     tabs.forEach(function(t,ti){
       var rows=t.r||[]; if(rows.length<2) return;
       var k0=normLine(rows[0].join(" ")), k1=normLine(rows[1].join(" "));
       for(var i=0;i<lines.length;i++){
-        if(used[i] || normLine(lines[i])!==k0) continue;
+        if(lineUsed[i] || normLine(lines[i])!==k0) continue;
         if(lines[i+1]!==undefined && normLine(lines[i+1])!==k1) continue;
         mark[i]={t:t, span:rows.length}; matched[ti]=true;
-        for(var j=0;j<rows.length && i+j<lines.length;j++) used[i+j]=1;
+        for(var j=0;j<rows.length && i+j<lines.length;j++) lineUsed[i+j]=1;
         break;
       }
     });
     var tscan=scanBodyTables(lines, mark);
     var jump=findJumpAnchors(lines, tscan.consumed, tscan.rowNames);
+    var usedXref={};   // cross-entry links (prose + table cells) link each target at most once per body
     var out=[], blank=0, gapped=true, i=0;
     while(i<lines.length){
-      if(mark[i]){ out.push(renderStructTable(mark[i].t, jump, curId)); i+=mark[i].span; blank=0; gapped=false; continue; }
+      if(mark[i]){ out.push(renderStructTable(mark[i].t, jump, curId, usedXref)); i+=mark[i].span; blank=0; gapped=false; continue; }
       var lineIdx=i; var ln=lines[i].replace(/\s+$/,""); i++;
       if(!ln.trim()){ if(blank++<1){ out.push('<div class="gap"></div>'); gapped=true; } continue; }
       blank=0;
       if(ln.indexOf("\t")>=0){
         var run=[ln], j=i;
         while(j<lines.length && lines[j].indexOf("\t")>=0){ run.push(lines[j].replace(/\s+$/,"")); j++; }
-        if(run.length>=2){ out.push(renderTabTable(run, jump, curId)); i=j; gapped=false; continue; }
+        if(run.length>=2){ out.push(renderTabTable(run, jump, curId, usedXref)); i=j; gapped=false; continue; }
         ln=ln.replace(/\t+/g,"  ·  ");          // a lone tabbed line: keep the cells apart, no one-row table
       }
       // d20pfsrd glossary-style lists ("Chronicler (5 gp/day): …\nCompanion (5 cp–10 gp/evening): …")
@@ -1095,9 +1147,9 @@
       var idAttr=jump.lineId[lineIdx] ? ' id="'+jump.lineId[lineIdx]+'"' : "";
       // classic stat-block section headers get the tapered-rule treatment (the signature "official" look)
       if(SB_HEADS[ln.trim().toLowerCase()]) out.push('<div class="sb-head"'+idAttr+'>'+esc(ln.trim())+'</div>');
-      else out.push('<div class="ln"'+idAttr+'>'+linkifyLine(ln, curId)+'</div>');
+      else out.push('<div class="ln"'+idAttr+'>'+linkifyLine(ln, curId, usedXref)+'</div>');
     }
-    tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump, curId)); }); // unmatched -> append
+    tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump, curId, usedXref)); }); // unmatched -> append
     var html = out.join("");
     if(source) html += '<div class="src">📖 Source: '+esc(source)+'</div>';
     html += '<div class="codex-note">Rules content used under the Open Game License 1.0a.</div>';
