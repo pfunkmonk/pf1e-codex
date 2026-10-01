@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "103";
+  var DATA_V = "104";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -913,12 +913,81 @@
   }
   // Real HTML rules tables (data/tables.js -> window.PF_TABLES[id]).
   function normLine(s){ return (s||"").toLowerCase().replace(/\s+/g," ").trim(); }
-  function renderStructTable(t){
+
+  // ---- in-body table jump links: a row's name cell -> its own prose section further down ----
+  // Price-list pages (Hirelings, Alchemical Creations, …) list every row in one big table up top,
+  // then explain each one in its own paragraph later — often under a DIFFERENTLY worded heading
+  // ("Untrained Hirelings (1-3 sp/day)" for the table row "Hireling, untrained"). Matching is done
+  // on a normalized, reordered, lightly-destemmed word set so that still lines up; anything that
+  // doesn't match plainly is left as plain text, which is the common case for an ordinary data
+  // table with no narrative per row — this never invents a link where the body has no match.
+  function jumpKey(s){
+    var t=String(s||"").replace(/\s*\([^)]*\)\s*$/,"");    // drop a trailing "(price)" aside
+    var words=t.toLowerCase().replace(/[^a-z0-9]+/g," ").trim().split(/\s+/).filter(Boolean)
+      .map(function(w){ return w.length>3 && w.slice(-1)==="s" ? w.slice(0,-1) : w; });   // crude depluralize
+    if(!words.length) return "";
+    words.sort();
+    return words.join("|");
+  }
+  var LEAD_RE=/^([A-Z][A-Za-z' -]{1,40}?)\s*(?:\([^)]*\))?:\s+\S/;
+  // One pass to collect every table row's name cell (first column, header rows excluded) and which
+  // line indices belong to a table block, so heading-detection below never reads INSIDE a table.
+  function scanBodyTables(lines, structMarks){
+    var rowNames=[], consumed={};
+    for(var i=0;i<lines.length;i++){
+      var sm=structMarks[i];
+      if(sm){
+        var rows=sm.t.r||[], start=sm.t.hdr?1:0;
+        for(var r=start;r<rows.length;r++) if(rows[r][0]) rowNames.push(rows[r][0]);
+        for(var j=0;j<sm.span && i+j<lines.length;j++) consumed[i+j]=1;
+        i+=sm.span-1; continue;
+      }
+      var ln=lines[i];
+      if(ln.indexOf("\t")<0) continue;
+      var run=[ln], j2=i+1;
+      while(j2<lines.length && lines[j2].indexOf("\t")>=0){ run.push(lines[j2]); j2++; }
+      if(run.length<2) continue;
+      var cells=run.map(function(r){ return r.split("\t").map(function(c){ return c.replace(/^\s+|\s+$/g,""); }); });
+      var hdr=cells.length>=3 && !/\d/.test(cells[0].join(" "));
+      for(var r2=hdr?1:0;r2<cells.length;r2++) if(cells[r2][0]) rowNames.push(cells[r2][0]);
+      for(var k=i;k<j2;k++) consumed[k]=1;
+      i=j2-1;
+    }
+    return {rowNames:rowNames, consumed:consumed};
+  }
+  // Finds, among the non-table lines, a standalone heading ("Road or Gate Toll") or a paragraph's
+  // own lead-in ("Chronicler (5 gp/day): A chronicler records…") that names one of the table rows,
+  // and hands back where to drop the anchor and which row text it belongs to.
+  function findJumpAnchors(lines, consumed, rowNames){
+    var byKey={}; rowNames.forEach(function(n){ var k=jumpKey(n); if(k && !byKey[k]) byKey[k]=n; });
+    var byRowText={}, lineId={}, n=0, seen={};
+    for(var i=0;i<lines.length;i++){
+      if(consumed[i]) continue;
+      var raw=lines[i], ln=raw.trim(); if(!ln) continue;
+      var cand=null;
+      if(!/[.!?]$/.test(ln) && ln.length<=100 && ln.indexOf("\t")<0) cand=ln;
+      else { var lm=LEAD_RE.exec(raw); if(lm && FIELDS.indexOf(lm[1])<0) cand=lm[1]; }
+      if(!cand) continue;
+      var k=jumpKey(cand), rowText=k && byKey[k];
+      if(!rowText || seen[rowText]) continue;
+      seen[rowText]=1;
+      var id="jt"+(n++);
+      byRowText[rowText]=id; lineId[i]=id;
+    }
+    return {byRowText:byRowText, lineId:lineId};
+  }
+  function jumpWrap(cellHtml, rowText, jump){
+    var id=jump && jump.byRowText[rowText];
+    return id ? '<a class="xref jump" href="#" data-jump="'+id+'">'+cellHtml+'</a>' : cellHtml;
+  }
+  function renderStructTable(t, jump){
     var rows=t.r||[]; if(!rows.length) return "";
     var html='<div class="tablewrap"><table class="rt">', start=0;
     if(t.hdr){ html+='<thead><tr>'+rows[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
     html+='<tbody>';
-    for(var i=start;i<rows.length;i++){ html+='<tr>'+rows[i].map(function(c){return '<td>'+glossify(esc(c))+'</td>';}).join("")+'</tr>'; }
+    for(var i=start;i<rows.length;i++){
+      html+='<tr>'+rows[i].map(function(c,ci){ var cell=glossify(esc(c)); return '<td>'+(ci===0?jumpWrap(cell,c,jump):cell)+'</td>'; }).join("")+'</tr>';
+    }
     return html+'</tbody></table></div>';
   }
   // d20pfsrd-sourced entries keep their tables as TAB-separated lines inside the body (14,000+ rows across ~640
@@ -926,7 +995,7 @@
   // one run-together sentence. A run of two or more tabbed lines is a table. The first row is a header when the run
   // has 3+ rows and that row carries no digits (a data row nearly always does). Cells wrap: unlike the AoN tables
   // these hold whole sentences.
-  function renderTabTable(rows){
+  function renderTabTable(rows, jump){
     var cells=rows.map(function(r){ return r.split("\t").map(function(c){ return c.replace(/^\s+|\s+$/g,""); }); });
     var n=0; cells.forEach(function(r){ if(r.length>n) n=r.length; });
     cells.forEach(function(r){ while(r.length<n) r.push(""); });
@@ -935,7 +1004,9 @@
     var html='<div class="tablewrap"><table class="rt rtx">', start=0;
     if(hdr){ html+='<thead><tr>'+cells[0].map(function(c){return '<th>'+glossify(esc(c))+'</th>';}).join("")+'</tr></thead>'; start=1; }
     html+='<tbody>';
-    for(var i=start;i<cells.length;i++){ html+='<tr>'+cells[i].map(function(c){return '<td>'+glossify(esc(c))+'</td>';}).join("")+'</tr>'; }
+    for(var i=start;i<cells.length;i++){
+      html+='<tr>'+cells[i].map(function(c,ci){ var cell=glossify(esc(c)); return '<td>'+(ci===0?jumpWrap(cell,c,jump):cell)+'</td>'; }).join("")+'</tr>';
+    }
     return html+'</tbody></table></div>';
   }
   // PF stat-block section headers (whole-line, case-insensitive) → tapered-rule dividers
@@ -956,23 +1027,26 @@
         break;
       }
     });
+    var tscan=scanBodyTables(lines, mark);
+    var jump=findJumpAnchors(lines, tscan.consumed, tscan.rowNames);
     var out=[], blank=0, i=0;
     while(i<lines.length){
-      if(mark[i]){ out.push(renderStructTable(mark[i].t)); i+=mark[i].span; blank=0; continue; }
-      var ln=lines[i].replace(/\s+$/,""); i++;
+      if(mark[i]){ out.push(renderStructTable(mark[i].t, jump)); i+=mark[i].span; blank=0; continue; }
+      var lineIdx=i; var ln=lines[i].replace(/\s+$/,""); i++;
       if(!ln.trim()){ if(blank++<1) out.push('<div class="gap"></div>'); continue; }
       blank=0;
       if(ln.indexOf("\t")>=0){
         var run=[ln], j=i;
         while(j<lines.length && lines[j].indexOf("\t")>=0){ run.push(lines[j].replace(/\s+$/,"")); j++; }
-        if(run.length>=2){ out.push(renderTabTable(run)); i=j; continue; }
+        if(run.length>=2){ out.push(renderTabTable(run, jump)); i=j; continue; }
         ln=ln.replace(/\t+/g,"  ·  ");          // a lone tabbed line: keep the cells apart, no one-row table
       }
+      var idAttr=jump.lineId[lineIdx] ? ' id="'+jump.lineId[lineIdx]+'"' : "";
       // classic stat-block section headers get the tapered-rule treatment (the signature "official" look)
-      if(SB_HEADS[ln.trim().toLowerCase()]) out.push('<div class="sb-head">'+esc(ln.trim())+'</div>');
-      else out.push('<div class="ln">'+linkifyLine(ln, curId)+'</div>');
+      if(SB_HEADS[ln.trim().toLowerCase()]) out.push('<div class="sb-head"'+idAttr+'>'+esc(ln.trim())+'</div>');
+      else out.push('<div class="ln"'+idAttr+'>'+linkifyLine(ln, curId)+'</div>');
     }
-    tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t)); }); // unmatched -> append
+    tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump)); }); // unmatched -> append
     var html = out.join("");
     if(source) html += '<div class="src">📖 Source: '+esc(source)+'</div>';
     html += '<div class="codex-note">Rules content used under the Open Game License 1.0a.</div>';
@@ -2864,6 +2938,15 @@
     run();
   }
   window.addEventListener("hashchange", render);
+  // Table jump-links (see fmtBody/findJumpAnchors) scroll within the CURRENT entry — they must
+  // never touch location.hash, or the hashchange listener above would re-run the whole router and
+  // throw away the very content being scrolled to.
+  document.addEventListener("click", function(e){
+    var a=e.target.closest && e.target.closest("a.jump"); if(!a) return;
+    e.preventDefault();
+    var id=a.getAttribute("data-jump"), el=id && document.getElementById(id);
+    if(el) el.scrollIntoView({behavior:_reduceMotion?"auto":"smooth", block:"start"});
+  });
 
   // ---- instant search palette (live dropdown, keyboard-first, fuzzy + synonyms) ----
   var searchEl=$("#search"), stimer;
