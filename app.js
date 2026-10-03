@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "108";
+  var DATA_V = "109";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -889,7 +889,14 @@
   // — that recur constantly in flavor text with no relation to the specific creature. Found by
   // reading the full 2,043-name single-word monster list by hand: common animal names (Wolf, Fox,
   // Cat…) were left in deliberately, since those almost always DO mean the creature when used.
-  var SINGLE_WORD_STOP={unknown:1, bone:1, fallen:1, gray:1, gutted:1, shadow:1, stone:1, wood:1, maw:1, thorny:1, haunt:1, jade:1, larva:1, mite:1, thug:1};
+  var SINGLE_WORD_STOP={unknown:1, bone:1, fallen:1, gray:1, gutted:1, shadow:1, stone:1, wood:1, maw:1, thorny:1, haunt:1, jade:1, larva:1, mite:1, thug:1,
+    // third-party races/deities named with an ordinary word, found reading the full races list
+    infused:1, cloven:1, envoy:1, hardback:1, hollow:1, lasher:1, lurker:1, manifested:1, murk:1, muse:1, piper:1, phalanx:1,
+    reapers:1, reanimated:1, returned:1, seedling:1, seekers:1, sprig:1, watcher:1, madcap:1, vale:1, taur:1,
+    // creatures whose name is a verb/adjective/noun used far more often in its ordinary sense — found by
+    // counting how often each linkable name appears lowercase vs capitalised across every body
+    consumed:1, seal:1, phantasm:1, oblivion:1, solar:1, aberrant:1, arbiter:1, fetch:1, ghost:1, spark:1, mimic:1,
+    nightmare:1, ram:1, shade:1, jester:1};
   function singleWordOk(slug, raw, nameLower){
     if(SINGLE_WORD_STOP[nameLower]) return false;
     if(slug==="races" || slug==="deities") return true;
@@ -924,7 +931,87 @@
       }
       m[k] = (onlyRaceMonster && raceId) ? raceId : "?";
     }
+    // Plurals. "Elf" links but "elves" did not — 1,100+ pages say "humans", ~630 "elves", ~490
+    // "dwarves" — because the lookup is an exact match on the singular. Added only for races and
+    // named creatures, built from the plural rules English actually uses ("es" only after s/x/z/ch/sh,
+    // so "Charg" never yields "charges"), skipping the handful that are also ordinary verbs/nouns.
+    var PLURAL_STOP={seal:1, spark:1, shade:1, set:1, page:1, fetch:1, haunt:1, muse:1};
+    for(var pk in cands){
+      var pl=cands[pk], okSlug=false;
+      if(pk.indexOf(" ")>=0 || m[pk]==="?" || PLURAL_STOP[pk]) continue;
+      for(var pj=0;pj<pl.length;pj++){ if(pl[pj].slug==="races" || (pl[pj].slug==="monsters" && pk.length>=4)) okSlug=true; }
+      if(!okSlug) continue;
+      var forms=[pk+"s"];
+      if(/(?:s|x|z|ch|sh)$/.test(pk)) forms.push(pk+"es");
+      if(/f$/.test(pk)) forms.push(pk.slice(0,-1)+"ves");
+      if(/fe$/.test(pk)) forms.push(pk.slice(0,-2)+"ves");
+      if(/[^aeiou]y$/.test(pk)) forms.push(pk.slice(0,-1)+"ies");
+      if(/man$/.test(pk)) forms.push(pk.slice(0,-3)+"men");
+      for(var pf=0;pf<forms.length;pf++) if(m[forms[pf]]===undefined && !cands[forms[pf]]) m[forms[pf]]=m[pk];
+    }
     _lmap=m; return m;
+  }
+
+  // ---- context-certain names ----
+  // A comma-separated list after a stat-block "Feats"/"Skills"/"Prerequisites" label, or after a spell
+  // level ("3rd—fireball, haste"), can only contain things of that one kind — so a bare one-word
+  // name there ("Dodge", "Perception", "haste") is safe to link even though the same word in running
+  // prose is not (it's an everyday English word). Found by auditing every body: ~8,500 stat-block feats,
+  // ~42,000 stat-block skills and ~9,700 single-word spells were all unlinkable before this.
+  var _nmaps=null;
+  function nameMaps(){
+    if(_nmaps) return _nmaps;
+    var sk={}, ft={}, sp={}, dup={sk:{},ft:{},sp:{}};
+    function put(map, d, k, id){ if(map[k]!==undefined) d[k]=1; else map[k]=id; }
+    for(var i=0;i<IDX.length;i++){
+      var r=IDX[i], k=norm(r[I_NAME]);
+      if(r[I_SLUG]==="rules" && r[I_RAW]==="Skills") put(sk,dup.sk,k,r[I_ID]);
+      else if(r[I_SLUG]==="feats" && r[I_RAW]==="Feats") put(ft,dup.ft,k,r[I_ID]);
+      else if(r[I_SLUG]==="spells") put(sp,dup.sp,k,r[I_ID]);
+    }
+    for(var a in dup.sk) delete sk[a];
+    for(var b in dup.ft) delete ft[b];
+    for(var c in dup.sp) delete sp[c];
+    _nmaps={sk:sk, ft:ft, sp:sp}; return _nmaps;
+  }
+  var LIST_LINES=[
+    {re:/^(Feats)(\s+)(.*)$/, maps:["ft"]},
+    {re:/^(Skills)(\s+)(.*)$/, maps:["sk"]},
+    {re:/^(Prerequisites?:?)(\s+)(.*)$/, maps:["ft","sk"]},
+    {re:/^((?:\d+(?:st|nd|rd|th)|At will|Constant|\d+\/(?:day|week|month))\s*[—–-]\s*)()(.*)$/, maps:["sp"]}
+  ];
+  function splitTop(s){
+    var out=[], depth=0, cur="";
+    for(var i=0;i<s.length;i++){
+      var ch=s.charAt(i);
+      if(ch==="(") depth++; else if(ch===")") depth--;
+      if((ch===","||ch===";") && depth<=0){ out.push({t:cur, d:ch}); cur=""; } else cur+=ch;
+    }
+    out.push({t:cur, d:""}); return out;
+  }
+  var LIST_NAME_RE=/^(\s*(?:(?:and|or)\s+)?)([A-Za-z][A-Za-z'’\/ -]*?)(?=\s*(?:\(|[+\-–−]?\d|\*|\.|$))/;
+  // Returns the line's HTML, or null when the line isn't one of the list shapes above.
+  function listLine(ln, curId, used){
+    for(var q=0;q<LIST_LINES.length;q++){
+      var m=LIST_LINES[q].re.exec(ln); if(!m) continue;
+      var nm=nameMaps(), maps=LIST_LINES[q].maps.map(function(k){ return nm[k]; });
+      var out=boldGloss(m[1]+m[2]), segs=splitTop(m[3]);
+      for(var i=0;i<segs.length;i++){
+        var seg=segs[i].t, hit=null, pm=LIST_NAME_RE.exec(seg);
+        if(pm){
+          var key=norm(pm[2]);
+          for(var j=0;j<maps.length && !hit;j++){ var id=maps[j][key]; if(id!==undefined && id!==curId && !(used && used[id])) hit=id; }
+          if(hit){
+            if(used) used[hit]=1;
+            out += esc(pm[1])+'<a class="xref" href="#/e/'+encodeURIComponent(hit)+'">'+esc(pm[2])+'</a>'+boldGloss(seg.slice(pm[0].length));
+          }
+        }
+        if(!hit) out += linkifyLine(seg, curId, used);
+        out += esc(segs[i].d);
+      }
+      return out;
+    }
+    return null;
   }
   function boldGloss(str){ return glossify(esc(str).replace(FIELD_RE, function(m,pre,lab){ return pre+"<strong>"+lab+"</strong>"; })); }
   // `used` is shared across one WHOLE rendered body (prose lines and table cells alike — see
@@ -943,6 +1030,16 @@
         if(!ok) continue;
         var phrase=ln.slice(toks[i][0], toks[i+len-1][1]);
         var id=map[norm(phrase)];
+        // Skill names are capitalised in running Paizo text ("a DC 20 Perception check"), which is
+        // a reliable enough signal on its own for a one-word name that would otherwise be too
+        // ordinary to link ("climb", "ride", "heal"). Not at the start of a sentence.
+        if(id===undefined && len===1 && /^[A-Z]/.test(phrase)){
+          var sid=nameMaps().sk[norm(phrase)];
+          if(sid!==undefined && /[A-Za-z0-9,;:)(]\s*$/.test(ln.slice(0, toks[i][0]))) id=sid;
+        }
+        // A one-word name shared by several different things ("Set" — a god, a creature, a spell
+        // option) only means one of them when capitalised; lowercase "set" is just the verb.
+        if(id==="?" && len===1 && (!/^[A-Z]/.test(phrase) || !/[A-Za-z0-9,;:)(]\s*$/.test(ln.slice(0, toks[i][0])))) id=undefined;
         // An ambiguous match has no real id to dedupe on — every one is literally "?" — so it is
         // keyed by its own normalized phrase instead, or "Low-Light Vision" (ambiguous on this page)
         // relinks itself every single time it recurs while a real id correctly only links once.
@@ -1154,7 +1251,7 @@
       var idAttr=jump.lineId[lineIdx] ? ' id="'+jump.lineId[lineIdx]+'"' : "";
       // classic stat-block section headers get the tapered-rule treatment (the signature "official" look)
       if(SB_HEADS[ln.trim().toLowerCase()]) out.push('<div class="sb-head"'+idAttr+'>'+esc(ln.trim())+'</div>');
-      else out.push('<div class="ln"'+idAttr+'>'+linkifyLine(ln, curId, usedXref)+'</div>');
+      else out.push('<div class="ln"'+idAttr+'>'+(listLine(ln, curId, usedXref) || linkifyLine(ln, curId, usedXref))+'</div>');
     }
     tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump, curId, usedXref)); }); // unmatched -> append
     var html = out.join("");
