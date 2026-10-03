@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "109";
+  var DATA_V = "110";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -872,7 +872,12 @@
   // ---- cross-links: turn references to other entries into links ----
   function norm(s){ return s.toLowerCase().replace(/[’]/g,"'").replace(/[\s\-]+/g," ").trim(); }
   var FIELD_STOP={}; FIELDS.forEach(function(f){ if(f.indexOf(" ")>=0) FIELD_STOP[norm(f)]=1; });
-  ["base attack bonus","hit dice","caster level","will save","fort save","reflex save"].forEach(function(x){FIELD_STOP[x]=1;});
+  ["base attack bonus","hit dice","caster level","will save","fort save","reflex save",
+   // a publisher and a book that happen to share a name with a junk spell page / an eidolon evolution
+   "dreamscarred press","ultimate magic"].forEach(function(x){FIELD_STOP[x]=1;});
+  // Names (feats/traits/options/third-party spells and rules) that are ordinary English phrases in
+  // running text — link only when written as a Title ("Take This"), never lowercase ("take this damage").
+  var PHRASE_CAP={}; ("take this|to the death|the word|the outsider|left behind|additional spell|effective caster|solid ground|call out|rise up|open up|thin air|another day|no escape|increased damage|the pack|the medium|the rider|the bridge|many forms|close range|thrown weapon|two handed weapon|natural disaster|cutting edge|without a trace|clear mind|fight on|true name|great renown|secret knowledge|the champion|natural weapon|tail slap|body and mind|free hand|out of sight|they know|course of action|life and death|the abilities|the order|the planes|the great beyond|stand up|stand still|small groups|large groups|new skills|physical traits|other spellcasters|player characters|class level|character creation|casting spells|mind control|metamagic feats|item creation feats|runic charge|strike true|forbidden magic|open up|finesse rogue|witch hex|legendary ninja").split("|").forEach(function(x){ PHRASE_CAP[x]=1; });
   // Races, deities and NAMED creatures are almost always distinctive proper nouns even at one word
   // ("Aasimar", "Desna", "Otyugh"), so a bare mention is safe to link. Everything else stays
   // multi-word-only — items/options/rules/spells/classes are full of single ordinary English words
@@ -903,7 +908,7 @@
     if(slug==="monsters" && raw==="Monsters") return true;
     return false;
   }
-  var _lmap=null;
+  var _lmap=null, ALIAS_CAP={}, ALIAS_KEYS={};
   function linkMap(){
     if(_lmap) return _lmap;
     var cands={};
@@ -930,6 +935,28 @@
         if(s==="races") raceId=list[j].id;
       }
       m[k] = (onlyRaceMonster && raceId) ? raceId : "?";
+    }
+    // Base-name aliases. 4,500+ entries are named "Barbed Devil (Hamatula)", "Cold iron (1 lb.)",
+    // "Tail Sweep (Combat)", "Thieves' tools (common)" — and prose never writes the parenthetical, so
+    // none of them could ever be linked TO. The qualifier-free base becomes an alias when no entry
+    // already owns that exact name; a base shared by several entries ("Holy symbol (gold)/(silver)…")
+    // becomes an ambiguous search link, which lists all the variants. Skipped: qualifiers that mark a
+    // junk/third-party aggregate page ("(3pp)", "(Filter)"), spell-list pages, and the "Tome of Horrors" source.
+    ALIAS_CAP={}; ALIAS_KEYS={};
+    var alias={};
+    for(var ai=0;ai<IDX.length;ai++){
+      var an=IDX[ai][I_NAME], am=/^(.*?)\s*\(([^)]*)\)\s*$/.exec(an); if(!am) continue;
+      var ab=am[1].replace(/\s+$/,""), ak=norm(ab);
+      if(ak.indexOf(" ")<0 || ak.length<6 || cands[ak] || FIELD_STOP[ak]) continue;
+      if(/^(?:3pp|filter|unconfirmed|\d+pp)$/i.test(am[2]) || /\b(?:spells|feats)$/.test(ak) || ak==="tome of horrors") continue;
+      (alias[ak]||(alias[ak]=[])).push(IDX[ai][I_ID]+"|"+IDX[ai][I_SLUG]);
+    }
+    for(var ak2 in alias){
+      var al=alias[ak2], ids=[], capOnly=false;
+      al.forEach(function(x){ var p=x.split("|"); if(ids.indexOf(p[0])<0) ids.push(p[0]); if(p[1]!=="items" && p[1]!=="monsters") capOnly=true; });
+      m[ak2] = ids.length===1 ? ids[0] : "?";
+      ALIAS_KEYS[ak2]=1;
+      if(capOnly) ALIAS_CAP[ak2]=1;
     }
     // Plurals. "Elf" links but "elves" did not — 1,100+ pages say "humans", ~630 "elves", ~490
     // "dwarves" — because the lookup is an exact match on the singular. Added only for races and
@@ -961,24 +988,46 @@
   var _nmaps=null;
   function nameMaps(){
     if(_nmaps) return _nmaps;
-    var sk={}, ft={}, sp={}, dup={sk:{},ft:{},sp:{}};
-    function put(map, d, k, id){ if(map[k]!==undefined) d[k]=1; else map[k]=id; }
+    var KEYS=["sk","ft","sp","cls","df","dom","wpn","itm","umr","ty","st"], mp={}, dup={};
+    KEYS.forEach(function(q){ mp[q]={}; dup[q]={}; });
+    function put(q, k, id){ if(mp[q][k]!==undefined) dup[q][k]=1; else mp[q][k]=id; }
+    // Real character classes only — the "Base Classes" bucket also holds Oracle mysteries, orders,
+    // eidolon forms and class-feature pages ("Stone", "Battle", "Companion") that are not classes.
+    var CLASS_OK={}; ("adept alchemist antipaladin arcanist aristocrat barbarian bard bloodrager brawler cavalier cleric commoner druid expert fighter gunslinger hunter inquisitor investigator kineticist magus medium mesmerist monk ninja occultist oracle paladin psychic ranger rogue samurai shaman shifter skald slayer sorcerer spiritualist summoner swashbuckler vigilante warpriest warrior witch wizard").split(" ").forEach(function(w){ CLASS_OK[w]=1; });
     for(var i=0;i<IDX.length;i++){
-      var r=IDX[i], k=norm(r[I_NAME]);
-      if(r[I_SLUG]==="rules" && r[I_RAW]==="Skills") put(sk,dup.sk,k,r[I_ID]);
-      else if(r[I_SLUG]==="feats" && r[I_RAW]==="Feats") put(ft,dup.ft,k,r[I_ID]);
-      else if(r[I_SLUG]==="spells") put(sp,dup.sp,k,r[I_ID]);
+      var r=IDX[i], k=norm(r[I_NAME]), sl=r[I_SLUG], rw=r[I_RAW], id=r[I_ID];
+      if(sl==="rules"){ if(rw==="Skills") put("sk",k,id); else if(rw==="Definitions") put("df",k,id); }
+      else if(sl==="feats"){ if(rw==="Feats") put("ft",k,id); }
+      else if(sl==="spells") put("sp",k,id);
+      else if(sl==="classes"){ if(rw==="Base Classes" && CLASS_OK[k]) put("cls",k,id); }
+      else if(sl==="options"){ if(rw==="Domains") put("dom",k,id); }
+      else if(sl==="items"){ put("itm",k,id); if(rw==="Weapons" || rw==="Armor") put("wpn",k,id); }
+      else if(sl==="monsters"){
+        if(rw==="Universal Monster Rules") put("umr",k,id);
+        else if(rw==="Creature Types") put("ty",k,id);
+        else if(rw==="Creature Subtypes") put("st",k,id);
+      }
     }
-    for(var a in dup.sk) delete sk[a];
-    for(var b in dup.ft) delete ft[b];
-    for(var c in dup.sp) delete sp[c];
-    _nmaps={sk:sk, ft:ft, sp:sp}; return _nmaps;
+    KEYS.forEach(function(q){ for(var d in dup[q]) delete mp[q][d]; });
+    _nmaps=mp; return _nmaps;
   }
+  // Beyond feats/skills/spells, the same reasoning covers every other labelled list whose members are
+  // all one kind of thing: a deity's Domains, its Favored Weapon, an NPC's Gear and attack lines, a
+  // monster's Special Attacks / Senses. `plain` lines are the opposite case — a spell's Components
+  // line ("M (a ball of bat guano and sulfur)") is ordinary nouns, never entry names, so it is
+  // rendered with no links at all rather than risk "bat" pointing at the Bat monster.
   var LIST_LINES=[
+    {re:/^(Components?:?)(\s+)(.*)$/, plain:true},
     {re:/^(Feats)(\s+)(.*)$/, maps:["ft"]},
     {re:/^(Skills)(\s+)(.*)$/, maps:["sk"]},
     {re:/^(Prerequisites?:?)(\s+)(.*)$/, maps:["ft","sk"]},
-    {re:/^((?:\d+(?:st|nd|rd|th)|At will|Constant|\d+\/(?:day|week|month))\s*[—–-]\s*)()(.*)$/, maps:["sp"]}
+    {re:/^((?:\d+(?:st|nd|rd|th)|At will|Constant|\d+\/(?:day|week|month))\s*[—–-]\s*)()(.*)$/, maps:["sp"]},
+    {re:/^(Domains?:?)(\s+)(.*)$/, maps:["dom"]},
+    {re:/^(Favored Weapons?:?)(\s+)(.*)$/, maps:["wpn"]},
+    {re:/^((?:Combat |Other |Magic )?Gear:?)(\s+)(.*)$/, maps:["wpn","itm"]},
+    {re:/^((?:Melee|Ranged)(?: touch)?)(\s+)(.*)$/, maps:["wpn"]},
+    {re:/^(Special Attacks|Special Qualities|Defensive Abilities|SQ)(\s+)(.*)$/, maps:["umr"]},
+    {re:/^(Init [^;]*;\s*Senses)(\s+)(.*)$/, maps:["umr","sk"]}
   ];
   function splitTop(s){
     var out=[], depth=0, cur="";
@@ -989,11 +1038,72 @@
     }
     out.push({t:cur, d:""}); return out;
   }
-  var LIST_NAME_RE=/^(\s*(?:(?:and|or)\s+)?)([A-Za-z][A-Za-z'’\/ -]*?)(?=\s*(?:\(|[+\-–−]?\d|\*|\.|$))/;
+  var LIST_NAME_RE=/^(\s*(?:(?:and|or)\s+)?(?:(?:\+\d+|\d+|masterwork|mwk)\s+)*)([A-Za-z][A-Za-z'’\/ -]*?)(?=\s*(?:\(|[+\-–−]?\d|\*|\.|$))/;
+  // Links each word of `text` that is a key of `map` (school/descriptor words, class names), marking
+  // `used` so the prose below doesn't repeat the link. Words that aren't keys stay plain, escaped.
+  function linkWords(text, map, curId, used){
+    var out="", pos=0, re=/[A-Za-z][A-Za-z'’-]*/g, m;
+    while((m=re.exec(text))){
+      var id=map[norm(m[0])];
+      if(id===undefined || id===curId || (used && used[id])) continue;
+      out += esc(text.slice(pos, m.index)) + '<a class="xref" href="#/e/'+encodeURIComponent(id)+'">'+esc(m[0])+'</a>';
+      pos=re.lastIndex; if(used) used[id]=1;
+    }
+    return out + esc(text.slice(pos));
+  }
+  // A spell's header — "School evocation [fire]; Level sorcerer/wizard 3, cleric 3" — and a magic
+  // item's "Aura faint abjuration". The school, its [descriptors] and each class are all certain to be
+  // exactly that kind of thing, and neither was a link: 8,600 spell pages and ~4,000 item pages.
+  function headerLine(ln, curId, used){
+    var m=/^(School\s+)([^;]*)(;\s*Level\s+)(.*)$/.exec(ln), nm=nameMaps();
+    if(m){
+      // Whole-name match only ("psychic warrior 3" must not link its first word as the Psychic class);
+      // "sorcerer/wizard 3" is two classes sharing a level.
+      var lv=splitTop(m[4]).map(function(s){
+        var tail=(/(\s*\d.*)$/.exec(s.t)||[""])[0], head=s.t.slice(0, s.t.length-tail.length);
+        var pieces=head.split("/").map(function(p){
+          var core=p.replace(/^\s+|\s+$/g,""), id=nm.cls[norm(core)];
+          if(id!==undefined && id!==curId && !(used && used[id])){ if(used) used[id]=1; return esc(p.slice(0, p.indexOf(core)))+'<a class="xref" href="#/e/'+encodeURIComponent(id)+'">'+esc(core)+'</a>'; }
+          return esc(p);
+        });
+        return pieces.join("/") + esc(tail) + esc(s.d);
+      }).join("");
+      return boldGloss(m[1]) + linkWords(m[2], nm.df, curId, used) + boldGloss(m[3]) + lv;
+    }
+    m=/^(Aura\s+(?:(?:faint|moderate|strong|overwhelming)\s+)?)([^;]*?)((?:\s+CL\b.*|;.*)?)$/.exec(ln);
+    if(m && /^[A-Za-z' ()]+$/.test(m[2])) return boldGloss(m[1]) + linkWords(m[2], nm.df, curId, used) + boldGloss(m[3]);
+    return null;
+  }
+  // "CE Medium outsider (chaotic, demon, evil, extraplanar)" — the creature type and each subtype are
+  // entries (Creature Types / Creature Subtypes), and the type line of every stat block was dead text.
+  function typeLine(ln, curId, used){
+    var m=/^((?:LG|NG|CG|LN|N|CN|LE|NE|CE|Any alignment|Unaligned)\s+(?:Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)\s+)(monstrous humanoid|magical beast|[a-z]+)(\s*\(([^)]*)\))?((?:\s.*)?)$/.exec(ln);
+    if(!m) return null;
+    var nm=nameMaps(), tid=nm.ty[norm(m[2])];
+    if(tid===undefined) return null;
+    var out=esc(m[1]);
+    out += (tid!==curId && !(used&&used[tid])) ? '<a class="xref" href="#/e/'+encodeURIComponent(tid)+'">'+esc(m[2])+'</a>' : esc(m[2]);
+    if(used) used[tid]=1;
+    if(m[3]){
+      var subs=m[4].split(",").map(function(s){
+        var core=s.replace(/^\s+|\s+$/g,""), lead=s.slice(0, s.indexOf(core)), id=nm.st[norm(core)];
+        if(id!==undefined && id!==curId && !(used&&used[id])){ if(used) used[id]=1; return esc(lead)+'<a class="xref" href="#/e/'+encodeURIComponent(id)+'">'+esc(core)+'</a>'; }
+        return linkifyLine(s, curId, used);
+      });
+      out += " (" + subs.join(",") + ")";
+    }
+    return out + linkifyLine(m[5], curId, used);
+  }
   // Returns the line's HTML, or null when the line isn't one of the list shapes above.
   function listLine(ln, curId, used){
+    // A copyright/credit line ("Feats of Martial Power © 2021 Raven King Press") names books and
+    // publishers, which sometimes share a name with an entry.
+    if(ln.indexOf("©")>=0) return boldGloss(ln);
+    var special=headerLine(ln, curId, used) || typeLine(ln, curId, used);
+    if(special) return special;
     for(var q=0;q<LIST_LINES.length;q++){
       var m=LIST_LINES[q].re.exec(ln); if(!m) continue;
+      if(LIST_LINES[q].plain) return boldGloss(ln);
       var nm=nameMaps(), maps=LIST_LINES[q].maps.map(function(k){ return nm[k]; });
       var out=boldGloss(m[1]+m[2]), segs=splitTop(m[3]);
       for(var i=0;i<segs.length;i++){
@@ -1043,6 +1153,16 @@
         // An ambiguous match has no real id to dedupe on — every one is literally "?" — so it is
         // keyed by its own normalized phrase instead, or "Low-Light Vision" (ambiguous on this page)
         // relinks itself every single time it recurs while a real id correctly only links once.
+        // Names that are also ordinary English phrases only mean the entry when capitalised as a
+        // title ("Take This" the feat vs "take this damage"). Found by counting lowercase vs
+        // capitalised occurrences of every feat/trait/option name across all bodies.
+        if(id!==undefined && len>1 && (PHRASE_CAP[norm(phrase)] || ALIAS_CAP[norm(phrase)]) && /^[a-z]/.test(phrase)) id=undefined;
+        // "bat-like wings", "wolf-headed" — a creature name fused to a suffix is an adjective, not the creature.
+        if(id!==undefined && len===1 && (/^-[A-Za-z]/.test(ln.slice(toks[i][1], toks[i][1]+2)) || /[A-Za-z]-$/.test(ln.slice(Math.max(0, toks[i][0]-2), toks[i][0])))) id=undefined;
+        // "Tail Sweep (Ex)" / "Trap Master (Su)" is an ability heading defining itself, not a mention.
+        if(id!==undefined && /^\s*\((?:Ex|Su|Sp|Ps)\)/.test(ln.slice(toks[i+len-1][1]))) id=undefined;
+        // "+1 mithral chain shirt" is a shirt, not the 10-ft. length of mithral chain.
+        if(id!==undefined && ALIAS_KEYS[norm(phrase)] && /^\s+(?:shirt|armor|mail|plate|shield|helm|gloves|boots|cloak|bracers|amulet|ring)\b/i.test(ln.slice(toks[i+len-1][1]))) id=undefined;
         var dk = id==="?" ? ("?:"+norm(phrase)) : id;
         if(id!==undefined && id!==curId && !(used && used[dk])){
           out += boldGloss(ln.slice(pos, toks[i][0]));
