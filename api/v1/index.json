@@ -1,20 +1,20 @@
 {
   "name": "PF1e Codex API",
   "apiVersion": 1,
-  "dataVersion": "110",
+  "dataVersion": "111",
   "site": "https://codex.pipsprojects.com",
   "base": "https://codex.pipsprojects.com/api/v1",
   "docs": "https://codex.pipsprojects.com/api/",
   "license": "OGL 1.0a",
   "notice": "PF1e Codex is an unofficial, noncommercial fan reference and is not published, endorsed, or specifically approved by Paizo Inc. Pathfinder and associated marks are owned by Paizo Inc. Rules content is used under the Open Game License 1.0a.",
   "totals": {
-    "entries": 50885,
+    "entries": 51728,
     "buckets": 13,
     "tables": 2058,
     "bodyLayout": {
       "nameFirst": 3654,
       "sourceFirst": 12478,
-      "other": 34753
+      "other": 35596
     }
   },
   "endpoints": {
@@ -34,18 +34,20 @@
     {
       "slug": "archetypes",
       "label": "Archetypes",
-      "count": 2696,
+      "count": 2744,
       "list": "archetypes.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 48,
         "Archetype": 2696
       }
     },
     {
       "slug": "classes",
       "label": "Classes",
-      "count": 563,
+      "count": 621,
       "list": "classes.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 58,
         "Base Classes": 309,
         "Prestige Classes": 254
       }
@@ -63,9 +65,10 @@
     {
       "slug": "feats",
       "label": "Feats",
-      "count": 7714,
+      "count": 7768,
       "list": "feats.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 54,
         "Feats": 7714
       }
     },
@@ -87,9 +90,10 @@
     {
       "slug": "items",
       "label": "Equipment & Items",
-      "count": 8130,
+      "count": 8168,
       "list": "items.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 38,
         "Altars": 22,
         "Armor": 520,
         "Artifacts": 345,
@@ -116,9 +120,10 @@
     {
       "slug": "monsters",
       "label": "Monsters",
-      "count": 8868,
+      "count": 9329,
       "list": "monsters.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 461,
         "Animal Companions": 214,
         "Creature Subtypes": 84,
         "Creature Types": 13,
@@ -141,7 +146,7 @@
     {
       "slug": "options",
       "label": "Class Options",
-      "count": 4996,
+      "count": 5015,
       "list": "options.json",
       "categories": {
         "4 Winds Fantasy Gaming": 4,
@@ -150,6 +155,7 @@
         "Abyssal": 1,
         "Accelerist": 1,
         "Adamant Entertainment": 8,
+        "Additional Material (d20pfsrd)": 19,
         "Advanced Armor Training": 12,
         "Advanced Weapon Training": 23,
         "Agent Elite": 1,
@@ -555,18 +561,20 @@
     {
       "slug": "races",
       "label": "Races",
-      "count": 598,
+      "count": 628,
       "list": "races.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 30,
         "Races": 598
       }
     },
     {
       "slug": "rules",
       "label": "Rules & Skills",
-      "count": 5972,
+      "count": 6053,
       "list": "rules.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 81,
         "Combat Stamina": 549,
         "Definitions": 52,
         "Rules": 5345,
@@ -576,9 +584,10 @@
     {
       "slug": "spells",
       "label": "Spells",
-      "count": 7783,
+      "count": 7833,
       "list": "spells.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 50,
         "Occult Rituals": 81,
         "Spellbooks": 42,
         "Spells": 7660
@@ -587,9 +596,10 @@
     {
       "slug": "traits",
       "label": "Traits",
-      "count": 2239,
+      "count": 2243,
       "list": "traits.json",
       "categories": {
+        "Additional Material (d20pfsrd)": 4,
         "Traits": 2239
       }
     }

@@ -72,7 +72,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "110";
+  var DATA_V = "111";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -632,6 +632,8 @@
   // thousands of rows (spell-<name>, a monster matching a race) are gated on ART so we don't
   // fire thousands of 404s for art that will never exist.
   function entryArtKey(row){
+    // a d20pfsrd "Additional Material" companion is the same subject as its original: same picture
+    if(row[I_RAW]==="Additional Material (d20pfsrd)"){ var _o=suppMaps().orig[row[I_SLUG]+"|"+row[I_NAME].slice(0,-" — Additional Material (d20pfsrd)".length).toLowerCase()]; if(_o) return entryArtKey(_o); }
     var b=row[I_SLUG], fac=row[I_FAC]||{}, nm=artKey(row[I_NAME]), out=[];
     function push(k){ if(k) out.push(k); }
     if(b==="classes"){ push("class-"+nm); push(inheritedClassArt(row[I_NAME])); }
@@ -1804,6 +1806,36 @@
     if(f.bk) pill("📖 "+f.bk);
     return p.length? '<div class="quickstats">'+p.join("")+'</div>' : "";
   }
+  // ---- companions: "<Name> — Additional Material (d20pfsrd)" ----
+  // Sections of a d20pfsrd page that were not part of the matching original entry (the importer never edits an
+  // original), stored as their own entry in the same bucket under rawCat SUPP_RAW. The original gets a link to its
+  // companion and the companion a link back, so the two read as one subject.
+  var SUPP_RAW="Additional Material (d20pfsrd)", SUPP_SUFFIX=" — Additional Material (d20pfsrd)", _supp=null;
+  function suppMaps(){
+    if(_supp) return _supp;
+    var comp={}, orig={};
+    for(var i=0;i<IDX.length;i++){
+      var r=IDX[i];
+      if(r[I_RAW]===SUPP_RAW){ var base=r[I_NAME].slice(0,-SUPP_SUFFIX.length); comp[r[I_SLUG]+"|"+base.toLowerCase()]=r; }
+    }
+    for(var j=0;j<IDX.length;j++){
+      var q=IDX[j]; if(q[I_RAW]===SUPP_RAW) continue;
+      var k=q[I_SLUG]+"|"+q[I_NAME].toLowerCase(); if(comp[k] && !orig[k]) orig[k]=q;
+    }
+    _supp={comp:comp, orig:orig}; return _supp;
+  }
+  function companionNote(row){
+    var m=suppMaps(), html="";
+    if(row[I_RAW]===SUPP_RAW){
+      var base=row[I_NAME].slice(0,-SUPP_SUFFIX.length), o=m.orig[row[I_SLUG]+"|"+base.toLowerCase()];
+      if(o) html='‹ Extra material that the <a href="#/e/'+encodeURIComponent(o[I_ID])+'">'+esc(o[I_NAME])+'</a> entry does not include.';
+    } else {
+      var c=m.comp[row[I_SLUG]+"|"+row[I_NAME].toLowerCase()];
+      if(c) html='📎 More on this subject from d20pfsrd.com (ecology, variants, FAQ and other sections this entry lacks): <a href="#/e/'+encodeURIComponent(c[I_ID])+'">'+esc(c[I_NAME])+'</a>';
+    }
+    return html ? '<div class="supp-note">'+html+'</div>' : "";
+  }
+
   function viewEntry(id){
     var row=idById()[id];
     if(!row){ swap(h("div",{class:"empty"},"Entry not found.")); return; }
@@ -1824,7 +1856,7 @@
                  : (row[I_SLUG]==="monsters" && row[I_FAC] && SCENE.monsters) ? '<div class="entry-scene"><svg class="cat-scene" viewBox="0 0 128 96" fill="currentColor" aria-hidden="true">'+SCENE.monsters+'</svg></div>'
                  : '';
     applyArt(card, entryArtKey(row));
-    card.innerHTML=ornCorners()+entryArt+'<h1>'+titleIcon+esc(row[I_NAME])+'</h1><div class="badges"><span class="badge cat" style="--c:'+color(row[I_SLUG])+'">'+esc(label)+'</span>'+rawBadge+'</div>'+quickStats(row)+'<div class="sb-rule"></div><div class="body">Loading…</div>';
+    card.innerHTML=ornCorners()+entryArt+'<h1>'+titleIcon+esc(row[I_NAME])+'</h1><div class="badges"><span class="badge cat" style="--c:'+color(row[I_SLUG])+'">'+esc(label)+'</span>'+rawBadge+'</div>'+quickStats(row)+'<div class="sb-rule"></div>'+companionNote(row)+'<div class="body">Loading…</div>';
     wrap.appendChild(card);
     if(row[I_SLUG]==="feats") wrap.appendChild(featVizSection(id));
     if(row[I_SLUG]==="classes"){ var _a=classArchetypes(row); if(_a) wrap.appendChild(_a); }

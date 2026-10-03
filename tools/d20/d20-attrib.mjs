@@ -40,7 +40,8 @@ export function publishersFromNotice(text) {
   const re = /(?:©|\(c\)|copyright)\s*,?\s*(?:\(c\)\s*)?(?:19|20)\d\d(?:\s*[-–]\s*(?:19|20)?\d\d)?\s*[,.]?\s*([^;.\n]+?)\s*(?=[;.]|,\s*published|\s+Authors?\b|\s+Created\b|\n|$)/gi;
   const out = [];
   for (const m of t.matchAll(re)) {
-    const name = m[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/[,\s]+$/, "").trim();
+    // "Copyright 2008 – Rocks Fall, Everyone Dies": the dash after the year is separator punctuation, not part of the name.
+    const name = m[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/[,\s]+$/, "").trim();
     if (name.length >= 3 && name.length <= 80 && !/^(all rights reserved|used with permission)\b/i.test(name) && !out.includes(name)) out.push(name);
   }
   return out;

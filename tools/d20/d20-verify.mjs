@@ -148,7 +148,9 @@ check("no crawler-captured advertisement text",
 check("no god summary table posing as an entry",
   d20.filter((r) => { const b = String(bodies[r[0]]); return isGodSummaryTable(b.slice(0, b.lastIndexOf("\n\n"))); }).map(label));
 check("no name-list navigation page posing as an entry",
-  d20.filter((r) => commaListShare(String(bodies[r[0]]).split("\n").filter((l) => l.trim())) > 0.6).map(label));
+  // A restored SUPPLEMENT is a section of a real page, not a page: a racial name list ("Female Names: Alerdene, Alinza, …")
+  // is genuine content that merely LOOKS like a link list. d20-supplements.mjs screens its own sections for nav-likeness.
+  d20.filter((r) => r[3] !== "Additional Material (d20pfsrd)" && commaListShare(String(bodies[r[0]]).split("\n").filter((l) => l.trim())) > 0.6).map(label));
 check("no garbled characters or leaked markup",
   d20.filter((r) => /\uFFFD|â€|Ã[©¨¢±¶]|&nbsp;|&amp;|&lt;|~~~/.test(String(bodies[r[0]]))).map(label));
 check("index snippet matches its body",

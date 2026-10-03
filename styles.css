@@ -727,3 +727,6 @@ body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
   line-height: 1.45;
   text-align: center;
 }
+
+.supp-note{margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--accent2);background:color-mix(in srgb,var(--accent2) 10%,transparent);border-radius:0 6px 6px 0;font-size:.92em;line-height:1.45}
+.supp-note a{font-weight:600}
