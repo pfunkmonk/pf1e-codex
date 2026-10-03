@@ -39,15 +39,60 @@ const { IDX, BODIES, isJunk, dataVersion } = loadCodex(ROOT);
 // definition and copied there in a comment-linked block, since a Netlify Function ships standalone
 // (no shared-module bundling assumed) and importing across the two runtimes is not worth the
 // coupling for one small function.
+// Plural/possessive folding. Without it "immediate action" (how a person asks) never matched the
+// entry titled "Immediate Actions" — neither in the term index nor in the exact-name boost — and the
+// core rule for flat-footed + immediate actions was retrieved 45th or not at all. Deliberately tiny:
+// only plural "s"/"ies"/"es"-after-s,x,z,ch,sh and "'s"; verb endings are left alone. Applied to
+// the title, the body and the query alike, so it only has to be CONSISTENT, not linguistically perfect.
+function stem(t) {
+  if (t.length > 3 && t.endsWith("'s")) t = t.slice(0, -2);
+  else if (t.endsWith("'")) t = t.slice(0, -1);
+  if (t.length < 4) return t;
+  if (t.endsWith("ies") && t.length > 4) return t.slice(0, -3) + "y";
+  if (/(ss|us|is)$/.test(t)) return t;
+  if (/(sses|ches|shes|xes|zes)$/.test(t)) return t.slice(0, -2);
+  if (t.endsWith("s")) return t.slice(0, -1);
+  return t;
+}
 function tokenize(text) {
   return String(text)
     .toLowerCase()
     .replace(/[’‘]/g, "'")
     .split(/[^a-z0-9']+/)
-    .filter((t) => t.length >= MIN_TERM_LEN);
+    .filter((t) => t.length >= MIN_TERM_LEN)
+    .map(stem);
 }
 
-const docs = [];          // [id, name, bucket, source, termCount, bodyChars]
+// SECTION TERMS. A rule often lives as a section INSIDE a big entry — "Stunned: A stunned creature
+// drops everything held…" inside Conditions, "Standard Actions" inside Actions in Combat,
+// "Disabled (0 Hit Points)" inside Injury and Death — and only the entry's own title was boosted at
+// query time, so those containers ranked 60th–300th for the exact question they answer. Collected
+// here: a line that opens "Term:" or "Term (aside):", and a short heading line followed by a
+// "Source …" line. A parenthetical aside is indexed as its own term too ("0 hit point"). Labels that
+// head sections in many entries ("Benefit", "Special", "Prerequisites") carry no signal — they are
+// dropped after the whole corpus is counted (SECTION_TERM_MAX_DOCS), not by a hand-written list.
+const SECTION_TERM_MAX_DOCS = 40;
+function headingTerms(text, ownName) {
+  const found = new Set();
+  const lines = String(text).split("\n");
+  const add = (raw) => { const t = tokenize(raw); if (t.length && t.length <= 5 && t.join(" ").length >= 4) found.add(t.join(" ")); };
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    let m = /^([A-Z][A-Za-z'’\- ]{2,40}?)(?:\s*\(([^)]{1,40})\))?:\s/.exec(l);
+    if (!m && l.length < 60 && l.split(" ").length <= 7 && !/[.:]$/.test(l) && /^Source /.test(lines[i + 1] || "")) m = /^([A-Za-z][^()]*?)(?:\s*\(([^)]{1,40})\))?$/.exec(l);
+    if (m) { add(m[1]); if (m[2]) add(m[2]); }
+  }
+  // A title that joins topics — "Energy Drain and Negative Levels", "Disabled (0 Hit Points)" — is
+  // also each of its parts: a question about "negative levels" should find the first one.
+  const parts = String(ownName).split(/\s+(?:and|or)\s+|,|&|\//i).map((s) => s.trim()).filter(Boolean);
+  if (parts.length > 1) parts.forEach(add);
+  const aside = /^([^()]+?)\s*\(([^)]{1,40})\)\s*$/.exec(String(ownName));
+  if (aside) { add(aside[1]); add(aside[2]); }
+  const own = tokenize(ownName).join(" ");
+  found.delete(own);
+  return [...found];
+}
+const docs = [];          // [id, name, bucket, source, termCount, bodyChars, sectionTerms]
 const postings = new Map(); // term -> Map(docIndex -> tf)
 
 for (const r of IDX) {
@@ -66,7 +111,7 @@ for (const r of IDX) {
   if (!terms.length) continue;
 
   const docIndex = docs.length;
-  docs.push([id, name, bucket, source, terms.length, body.length]);
+  docs.push([id, name, bucket, source, terms.length, body.length, headingTerms(withoutCredit, name)]);
   const tf = new Map();
   for (const t of terms) tf.set(t, (tf.get(t) || 0) + 1);
   for (const [t, f] of tf) {
@@ -75,6 +120,13 @@ for (const r of IDX) {
     p.set(docIndex, f);
   }
 }
+
+// Drop section terms that head sections in more than SECTION_TERM_MAX_DOCS entries, and store the
+// rest compactly (an empty list becomes 0 so most rows stay tiny).
+const termDf = new Map();
+for (const d of docs) for (const t of d[6]) termDf.set(t, (termDf.get(t) || 0) + 1);
+let keptTerms = 0;
+for (const d of docs) { const keep = d[6].filter((t) => termDf.get(t) <= SECTION_TERM_MAX_DOCS); keptTerms += keep.length; d[6] = keep.length ? keep : 0; }
 
 const avgLen = docs.reduce((s, d) => s + d[4], 0) / docs.length;
 
@@ -104,5 +156,6 @@ const bytes = fs.statSync(outPath).size;
 console.log(`docs indexed: ${docs.length} (of ${IDX.length} rows)`);
 console.log(`unique terms: ${Object.keys(postingsOut).length} (dropped ${droppedJunkTerms} single-doc junk terms)`);
 console.log(`avg indexed terms/doc: ${out.avgLen}`);
+console.log(`section terms kept: ${keptTerms} (of ${termDf.size} distinct; dropped any heading >${SECTION_TERM_MAX_DOCS} entries share)`);
 console.log(`total body chars indexed: ${(docs.reduce((s, d) => s + d[5], 0) / 1e6).toFixed(1)}M`);
 console.log(`wrote ${outPath} (${(bytes / 1024 / 1024).toFixed(1)} MB)`);

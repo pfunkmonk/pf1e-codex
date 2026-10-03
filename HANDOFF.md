@@ -208,6 +208,31 @@ The answer is rendered as light markdown in the app (`fmtAskAnswer` in `app.js`:
 needs some structure to stay scannable; a flat wall of text with the old `\n` → `<br>` rendering
 would not have held up at this length.
 
+**Retrieval review (2026-10-03) — one live miss, four systematic causes.** A 10-question accuracy test of the live
+Ask scored 9/10; the miss ("Can I use an immediate action when it is not my turn…") never retrieved the core rule.
+Root cause was NOT that one entry: `immediate action` (how people ask) never matched the title `Immediate Actions`
+because nothing folded plurals — in the term index or the title boost. Reviewing found three more, all fixed:
+1. **No stemming** → `stem()` (plural `s`/`ies`/`es` + `'s` only) in BOTH `tools/gen-ask-index.mjs` and `ask.mjs`
+   (hand-synced, like the tokenizer was; **change one → change both → `node tools/gen-ask-index.mjs .`**).
+2. **A rule living as a section inside a big entry was invisible** (`Stunned:` inside Conditions ranked 205th;
+   `Standard Actions` inside Actions in Combat 63rd). The index now stores each entry's *section terms* (`Term:` leads,
+   short headings followed by a `Source` line, title parts split on and/or/`( )`), dropping any heading shared by >40
+   entries (`Benefit`, `Special`…); `retrieve()` boosts an entry whose section term is in the question
+   (`SECTION_BOOST_SCALE = 1` — 3 lifted whole chapters that ate the budget; tuned on held-out questions, not just the ones that motivated it).
+3. **Question scaffolding scored like content** — `happen` had idf 4.2, `how`/`what` 2.6, vs `breath` 3.0, so GM-advice
+   pages outranked the Drowning rule (58th). `QUERY_STOP` (a short function-word/question list) is removed from the BM25
+   terms ONLY (index untouched; title/section matching still sees every token). This reverses the 09-28 "no stopword
+   list" stance — measured, idf alone was not enough.
+4. **`break` → skip**: the budget loop stopped at the first entry that didn't fit, so one 168k-char chapter ("Combat")
+   ended the list after 3–4 entries. It now skips an oversized entry and keeps filling.
+
+**`tools/check-ask.mjs` is the regression check (run after ANY change to ask.mjs / gen-ask-index.mjs / the data, after
+regenerating the index).** 77 natural-language questions; each passes only if a *retrieved* entry's body contains the
+sentence that answers it (every sentence read from the source text — a memory-written "10% stabilize chance" was 3.5,
+not this ruleset). Before → after: **68/77 → 77/77 retrieved, top-10 54 → 72.** Measure on a held-out set too: the first
+version (section boost 3, no stoplist) won the tuning set 43/44 yet LOST held-out recall (31→28) by crowding the budget.
+Still weak by nature (lexical): a question whose answer is spread over a huge chapter, and one with only generic words.
+
 **Saved Answers (`#/saved`, 2026-09-28).** "💾 Save this answer" under a result stores
 `{id, ts, question, answer, citations, citationsOmitted}` to `localStorage["pf_saved_answers"]` —
 same pattern as My Characters (`pf_chars`), works fully offline, nothing sent anywhere to save one.
