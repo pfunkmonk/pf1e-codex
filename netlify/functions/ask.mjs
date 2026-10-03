@@ -8,11 +8,18 @@
  *
  * RETRIEVAL. Loads data/ask-index.json (built by tools/gen-ask-index.mjs, FULL bodies, no per-doc
  * character cap) once per warm function instance and keeps it in module scope. Scoring is BM25,
- * OR-style across query terms (any term can contribute; IDF makes a common word contribute almost
- * nothing on its own) plus an exact entry-name match boost, so a direct "what does X do" question
+ * OR-style across query terms (any term can contribute; IDF down-weights common words, plus a SHORT
+ * question-scaffolding stoplist, QUERY_STOP — idf alone left "how/what/happen" as strong as the
+ * content words) plus an exact entry-name match boost and a section-heading boost, so a direct "what does X do" question
  * always surfaces X even if X's own body text is short. See the header comment in gen-ask-index.mjs
  * for why this beats an embeddings/vector approach for this corpus, and the tth-ask-rules-lookup
  * memory for the AND-vs-OR bug this design exists to avoid.
+ *
+ * 2026-10-03 (retrieval review, tools/check-ask.mjs): a live test missed the core immediate-action rule
+ * because "immediate action" never matched the entry "Immediate Actions" — no plural folding. Fixed
+ * with stemming (index + query), a section-heading boost (a rule that lives as "Stunned:" inside
+ * Conditions was ranked 205th), a query stoplist, and by SKIPPING an oversized entry instead of
+ * stopping the whole pick at it. Measured on 77 source-verified questions: 68/77 -> 77/77 retrieved.
  *
  * 2026-09-28: retrieval used to stop at a flat top-8. Measured against a real miss (a question
  * about a rule that scored 26th, not because it was irrelevant but because a fixed count of 8 is
@@ -65,12 +72,23 @@ async function loadIndex(origin) {
 // Must match tools/gen-ask-index.mjs's tokenizer exactly, or query terms never hit the postings
 // built at index time. Kept in sync by hand (see that file's header for why it isn't a shared
 // import) — if you change one, change both and rebuild the index.
+function stem(t) {
+  if (t.length > 3 && t.endsWith("'s")) t = t.slice(0, -2);
+  else if (t.endsWith("'")) t = t.slice(0, -1);
+  if (t.length < 4) return t;
+  if (t.endsWith("ies") && t.length > 4) return t.slice(0, -3) + "y";
+  if (/(ss|us|is)$/.test(t)) return t;
+  if (/(sses|ches|shes|xes|zes)$/.test(t)) return t.slice(0, -2);
+  if (t.endsWith("s")) return t.slice(0, -1);
+  return t;
+}
 function tokenize(text) {
   return String(text)
     .toLowerCase()
     .replace(/[’‘]/g, "'")
     .split(/[^a-z0-9']+/)
-    .filter((t) => t.length >= MIN_TERM_LEN);
+    .filter((t) => t.length >= MIN_TERM_LEN)
+    .map(stem);
 }
 
 function bm25(index, queryTerms) {
@@ -105,9 +123,20 @@ function containsContiguous(hay, needle) {
   return false;
 }
 const NAME_BOOST_SCALE = 4;
+const SECTION_BOOST_SCALE = 1;   // 1, not higher: a bigger boost lifts whole chapters that then eat the context budget
+// Question scaffolding and function words, removed from the QUERY's BM25 terms only (the index is
+// untouched, and title/section matching still sees every token). idf alone does not neutralise
+// them: measured on "How long can a character hold their breath, and what happens after that time
+// runs out?", "happen" had idf 4.2 and "how"/"what" 2.6 each — as much as the content words "breath"
+// (3.0) and "hold" (2.6) — so GM-advice pages full of "how/what/happens" outranked the Drowning rule
+// 58th-deep. Words that can carry rules meaning ("use", "make", "action", "long", "time") are NOT here.
+const QUERY_STOP = new Set(("how what when where which who whom whose why can could should would do does did is are was were be been am will shall may might must have has had " +
+  "i me my you your we our they their them it its he she his her the a an of to in on at for with by from as that this these those if then than and or not no but so any some there here " +
+  "happen work rule mean tell explain").split(" "));
 function retrieve(index, question) {
   const qTokens = tokenize(question);
-  const scores = bm25(index, qTokens);
+  const bmTerms = qTokens.filter((t) => !QUERY_STOP.has(t));
+  const scores = bm25(index, bmTerms.length ? bmTerms : qTokens);
 
   // Exact-name boost: a direct "what does <name> do" question must surface <name> even if its
   // body is short and loses on raw term frequency to a longer, loosely-related entry. Matched by
@@ -123,6 +152,22 @@ function retrieve(index, question) {
       const sumIdf = nameTokens.reduce((s, t) => s + idfOf(index, t), 0);
       scores.set(i, (scores.get(i) || 0) + NAME_BOOST_SCALE * sumIdf);
     }
+  }
+
+  // Section-term boost: the same idea one level down. A rule that lives as a section INSIDE a big
+  // entry ("Stunned:" in Conditions, "Standard Actions" in Actions in Combat, "Disabled (0 Hit
+  // Points)" in Injury and Death) was invisible to the title boost above, so those entries ranked
+  // 60th–300th for the exact question they answer. tools/gen-ask-index.mjs records each entry's
+  // section terms (rare ones only); a query containing one boosts that entry, scaled by rarity.
+  for (let i = 0; i < index.docs.length; i++) {
+    const terms = index.docs[i][6];
+    if (!terms) continue;
+    let best = 0;
+    for (const term of terms) {
+      const tt = term.split(" ");
+      if (containsContiguous(qTokens, tt)) best = Math.max(best, tt.reduce((s, t) => s + idfOf(index, t), 0));
+    }
+    if (best) scores.set(i, (scores.get(i) || 0) + SECTION_BOOST_SCALE * best);
   }
 
   // Take candidates highest-scored first until CONTEXT_CHAR_BUDGET is spent, not a fixed count —
@@ -144,7 +189,10 @@ function retrieve(index, question) {
   let spent = 0;
   for (const [i] of ranked) {
     const chars = index.docs[i][5] || 0;
-    if (picked.length && spent + chars > CONTEXT_CHAR_BUDGET) break;
+    // SKIP an entry that no longer fits and keep going, don't stop: this used to `break`, so one
+    // large high-ranked chapter (Combat is 168k characters) ended the list after 3–4 entries and
+    // dropped every smaller, relevant one ranked below it.
+    if (picked.length && spent + chars > CONTEXT_CHAR_BUDGET) { if (spent >= CONTEXT_CHAR_BUDGET - 500) break; continue; }
     picked.push(index.docs[i]);
     spent += chars;
   }
