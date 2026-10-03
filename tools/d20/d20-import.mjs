@@ -79,11 +79,14 @@ const SAVE_TYPES = ["fortitude", "reflex", "will"];
 const CR_MARK = /©|Copyright|\(c\)\s*\d{4}/i;
 function s15TitleOf(s15) {
   if (!s15 || !s15.length) return null;
-  const first = s15[0].split(CR_MARK)[0].replace(/[.,;\s]+$/, "").trim();
+  // A notice can open with a dash bullet ("– Rocks Fall, Everyone Dies. © 2010, Spenser Isdahl"); that is punctuation, not part of the title.
+  const first = s15[0].split(CR_MARK)[0].replace(/^[\s–—-]+/, "").replace(/[.,;\s]+$/, "").trim();
   return first && first.length <= 80 ? first : null;
 }
 function bkOf(p) {
-  const src = field(p.body, "Source");
+  // A supplement (d20-supplements.mjs) stitches sections from one page, each with its own "Source X" line — the page
+  // record's publisher is the attribution, not whichever section happens to come first.
+  const src = p.supplement ? "" : field(p.body, "Source");
   // A real title is short ("Advanced Player's Guide"); a few third-party pages instead put their WHOLE
   // Section 15 copyright line after "Source" ("Sutra Scrolls Copyright (c) 2010-2012 Necromancers of
   // the Northwest, LLC") — found reading the dry run. Reject anything long or copyright-shaped too.
@@ -179,6 +182,7 @@ function featFacets(p, bk) {
 /* ---------- rawCat (subcategory filter/badge), reasonable per-bucket defaults — most existing rows
  * in every bucket already carry the generic label used here; only items/classes get a light heuristic. */
 function rawCatOf(p) {
+  if (p.rawCat) return p.rawCat;       // supplements file under their own sub-category so browse lists stay clean
   switch (p.bucket) {
     case "spells": return "Spells";
     case "feats": return "Feats";
@@ -338,7 +342,8 @@ for (const r of toImport) {
     const hit = nameKeys(name).flatMap((k) => origByKey.get(p.bucket + "|" + k) || []).find((o) => !VARIANT_QUAL.test(o[1]) && o[1] !== name);
     if (hit) { report.skippedInvertedDup.push({ ...r, canonicalName: name, duplicateOf: hit[1] }); mintedThisRun.delete(id); continue; }
   }
-  const facets = p.bucket === "spells" ? spellFacets(p, bk)
+  const facets = p.supplement ? (bk ? { bk } : {})        // no school/price/CR: a supplement carries none of the original's stats
+    : p.bucket === "spells" ? spellFacets(p, bk)
     : p.bucket === "items" ? itemFacets(p, bk)
     : p.bucket === "traits" ? traitFacets(p, bk)
     : p.bucket === "archetypes" ? archetypeFacets(p, bk)

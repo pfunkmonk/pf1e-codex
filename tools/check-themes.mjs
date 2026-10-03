@@ -125,7 +125,9 @@ let failed = 0;
 const fail = m => { console.log(`  FAIL  ${m}`); failed++; };
 
 for (const [bucket, table] of Object.entries(THEMES)) {
-  const rows = IDX.filter(r => r[2] === bucket);
+  // A d20pfsrd "Additional Material" companion takes its ORIGINAL's art (app.js entryArtKey), so it never claims a
+  // theme of its own — counting it would double-count the subject and push themes over their cap on volume alone.
+  const rows = IDX.filter(r => r[2] === bucket && r[3] !== "Additional Material (d20pfsrd)");
   const claims = new Map(table.map(t => [t[0], []]));
   const strays = [];
   let named = 0, bodyPlaced = 0;

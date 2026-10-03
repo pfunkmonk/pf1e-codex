@@ -46,6 +46,35 @@ traits that share a name). So `d20-import` decides with its own guards:
 protects pages a running crawler might still be writing). After the last batch: run `d20-xref-coverage.mjs`, re-clean, and
 read the skipped lists in `import-report.json` (`skippedHeldDuplicate`, `skippedExistingCollision`, `skippedInvertedDup`).
 
+## Restoring what a DUP skip drops: `d20-lost.mjs` → `d20-supplements.mjs` (2026-10-03)
+
+The importer is additive-only, so a page judged DUP of an existing AoN entry is skipped whole — and any EXTRA material
+that d20 page carries (source-tagged supplement sections, ecology/habitat essays, FAQ, variant stat blocks) vanished with
+it. Found when the Ask AI could not answer a dense-smoke question: "Dense Smoke Inhalation" (Source PAP25) was on the d20
+"Environmental Rules" page and in no Codex entry. Measured over every not-imported page: **1,402 pages, ~3.2M characters,
+2,311 sections** (≈3% of the pages).
+
+```
+node --max-old-space-size=12288 tools/d20/d20-lost.mjs          # -> <snap>/lost-sections.json  (read-only)
+node tools/d20/d20-supplements.mjs                              # -> D:/CODEX/d20-supplements/{pages.jsonl,matches.json}
+node tools/d20/d20-import.mjs --snap D:/CODEX/d20-supplements   # dry run; add --apply (runs d20-verify)
+```
+
+- **Detection** is a corpus-wide Bloom filter of every 5-word shingle in every Codex body; a d20 line is LOST when ≥80% of its
+  shingles exist in NO entry (not merely not in the matched one), and a section is the maximal run of lines between two
+  clearly-present prose lines. Never "first N characters of a line" — a label prefix ("Bleed: …") breaks that and the first
+  attempt over-counted ~10×. Validated on the known case (found Dense Smoke) and on controls (Fireball, Grapple, Flanking: none).
+- **Restoration** is a COMPANION entry per original, `<Name> — Additional Material (d20pfsrd)`, same bucket, own rawCat
+  (`Additional Material (d20pfsrd)`), plain `{bk}` facets, attribution inherited from the d20 page record, each section's own
+  `Source X` line kept plus one "Sources named on the page" line. The original is untouched (`d20-verify`: "original pages
+  not altered"). The app links original ↔ companion (`companionNote`, app.js) and the companion takes its original's art.
+- Noise filters in `d20-supplements`: sections that are lists of short names, a block repeated on ≥5 pages, and a page whose
+  total is under `--min 400` characters (an orphan fragment) are not restored (~3% of the lost characters).
+- Caveat: attribution is page-level (the pipeline's model). A page that mixes Paizo text with third-party sections carries one
+  Section 15 notice; the sections' own `Source` tags are the only finer credit. Matters for any commercial flip.
+- Defects this surfaced, fixed at the root: `publishersFromNotice` kept the dash in "Copyright 2008 – Name" (junk source,
+  guarded by `d20-verify` "no junk source strings"); `d20-verify`'s nav-list check exempts supplements (a racial name list is content).
+
 ## The rule that keeps this safe
 
 **Every defect found in an audit is fixed in the importer/classifier AND added to `d20-verify.mjs`.** The repair script
