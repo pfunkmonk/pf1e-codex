@@ -22,9 +22,14 @@ const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i
 const SNAP = arg("snap", "D:/CODEX/d20-pilot");
 const ROOT = arg("root", "C:/Users/mailp/dev/pf1e-codex");
 const SHOW = Number(arg("show", 40));
-const LOST_FRAC = 0.8;       // share of a line's shingles absent from the whole corpus
-const MIN_WORDS = 10;        // a line shorter than this is judged only by adjacency to lost lines
-const SH = 5;
+const LOST_FRAC = Number((process.argv.indexOf("--lost-frac") >= 0 ? process.argv[process.argv.indexOf("--lost-frac") + 1] : 0.8));   // share of a line's shingles absent from the whole corpus
+// Tunable so the detector's blind spots can be MEASURED: the defaults are the ones the restoration used (5-word shingles, lines of
+// 10+ words); `--sh 3 --min-words 5` also judges short lines (stat-block fragments, table rows) and `--all-kinds` also scans the
+// catalog/index/stub pages the importer never classed as entries. `--out` keeps a measuring run from overwriting the real file.
+const MIN_WORDS = Number(arg("min-words", 10));   // a line shorter than this is judged only by adjacency to lost lines
+const SH = Number(arg("sh", 5));
+const ALL_KINDS = argv.includes("--all-kinds");
+const OUT = arg("out", "lost-sections.json");
 
 const BITS = 1 << 30, MASK = BITS - 1;
 const bloom = new Uint8Array(BITS >>> 3);
@@ -53,8 +58,10 @@ const JUNK = /patreon|discord|copyright notice|section 15|fan labs|open game lic
 // skipped (name collision, inverted-name duplicate, held duplicate) — those carry the same risk.
 const imported = new Set(JSON.parse(fs.readFileSync(`${SNAP}/import-report.json`, "utf8")).imported.map((x) => x.file));
 const rows = []; let dupPages = 0, withLoss = 0, lostChars = 0;
-for (const m of matches) {
-  if (m.verdict !== "DUP" && (imported.has(m.file) || !m.match)) continue;
+const matched = new Set(matches.map((m) => m.file));
+const verdictRows = ALL_KINDS ? [...matches, ...[...pages.keys()].filter((f) => !matched.has(f)).map((f) => ({ file: f, verdict: "UNCLASSED", match: null }))] : matches;
+for (const m of verdictRows) {
+  if (m.verdict !== "DUP" && !(ALL_KINDS && m.verdict === "UNCLASSED") && (imported.has(m.file) || !m.match)) continue;
   if (m.verdict === "INTRA_DUP") continue;
   const p = pages.get(m.file); if (!p) continue;
   dupPages++;
@@ -96,5 +103,5 @@ const buckets = [0, 500, 2000, 10000, 50000]; const hist = buckets.map((lo, i) =
 console.log("pages by lost chars  [<500, 500-2k, 2k-10k, 10k-50k, 50k+]:", hist);
 console.log(`\nlargest ${SHOW}:`);
 rows.slice(0, SHOW).forEach((r) => console.log(String(r.lostChars).padStart(7), String(r.sections.length).padStart(3), r.bucket.padEnd(9), r.title.slice(0, 40).padEnd(40), "|", r.sections[0].text.split("\n")[0].slice(0, 70)));
-fs.writeFileSync(`${SNAP}/lost-sections.json`, JSON.stringify(rows));
-console.log(`\nwrote ${SNAP}/lost-sections.json`);
+fs.writeFileSync(`${SNAP}/${OUT}`, JSON.stringify(rows));
+console.log(`\nwrote ${SNAP}/${OUT}`);

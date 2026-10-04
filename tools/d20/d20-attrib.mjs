@@ -108,8 +108,13 @@ const TEMPLATE_LINE = /^(?:Italicized descriptive text here\.\s*There should be 
 /* A PDF purchaser's watermark that rode along with the text ("John Reyst (order #29707975) 20 Frog God Games"): a
  * customer's name and order number must never be published; the trailing page number + publisher is page furniture. */
 export const PURCHASE_WATERMARK = /\s*(?:[A-Z][\w.'’-]*\s+){1,3}\(order #\d+\)(?:\s+\d+\s+Frog God Games)?/g;
+/* Site chrome that rode along inside a page's text: the site owner's Patreon plea, the "report a problem" notice, the Hero Lab
+ * data-set link. Found 2026-10-03 reading the restored companions ("Support John Reyst, creator and maintainer of this site on
+ * Patreon!" inside the Races and Classes companions). Whole lines are removed. Deliberately NOT bare "link" labels or URL-only
+ * lines: those also occur as legitimate publisher credits in older rows ("To the Birds: Tengu" -> a Kobold Quarterly link). */
+export const SITE_CHROME_LINE = /Support John Reyst, creator and maintainer|please let us know by reporting it using the Report a Problem link|Powered by Hero Lab Data sets/i;
 export function stripTemplateJunk(body) {
-  return String(body).replace(PURCHASE_WATERMARK, "").split("\n").filter((l) => !TEMPLATE_LINE.test(l.trim())).join("\n").replace(/\n{3,}/g, "\n\n").replace(/^\s+/, "");
+  return String(body).replace(PURCHASE_WATERMARK, "").split("\n").filter((l) => !TEMPLATE_LINE.test(l.trim()) && !SITE_CHROME_LINE.test(l.trim())).join("\n").replace(/\n{3,}/g, "\n\n").replace(/^\s+/, "");
 }
 
 /* ---- stat blocks flattened onto one line ---------------------------------------------------------------

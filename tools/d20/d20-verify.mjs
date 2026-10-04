@@ -16,7 +16,7 @@ import { execSync } from "node:child_process";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
 import {
   UNVERIFIED_MARK, UNVERIFIED_SOURCE, isPaizoish, publishersFromNotice, nameKeys, VARIANT_QUAL,
-  isGodBody, isFlatStatLine, snippetOf, contentOverlap, SAME_TEXT, shortSuffix,
+  isGodBody, isFlatStatLine, snippetOf, contentOverlap, SAME_TEXT, shortSuffix, SITE_CHROME_LINE,
 } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
@@ -145,6 +145,9 @@ check("no feat-category hub blurb posing as an entry",
 check("no crawler-captured advertisement text",
   d20.filter((r) => String(bodies[r[0]]).split("\n").some((l) => AD_MARK.test(l.trim()))).map(label),
   "the publisher-page ad widget (OpenGamingStore) must be cut in parsePage; a page that is only the ad is not an entry");
+check("no site chrome in a body (Patreon plea, report-a-problem notice, Hero Lab data-set link)",
+  d20.filter((r) => String(bodies[r[0]]).split("\n").some((l) => SITE_CHROME_LINE.test(l.trim()))).map(label),
+  "stripTemplateJunk removes these whole lines; a body that still has one was written before that rule or bypassed it");
 check("no god summary table posing as an entry",
   d20.filter((r) => { const b = String(bodies[r[0]]); return isGodSummaryTable(b.slice(0, b.lastIndexOf("\n\n"))); }).map(label));
 check("no name-list navigation page posing as an entry",
