@@ -49,7 +49,9 @@ const MODEL = "claude-sonnet-5";
 const MAX_ANSWER_TOKENS = 3000;   // a thorough answer, not a clipped one — see SYSTEM_PROMPT
 const CONTEXT_CHAR_BUDGET = 200000;   // ~50k tokens of retrieved passages; see header comment
 const MIN_TERM_LEN = 2;
-const RATE_LIMIT = { windowMs: 5 * 60 * 1000, max: 8 };   // per IP, per warm instance
+// Per IP, per warm instance. 40, not 8 (2026-10-04, live game): a whole table on one Wi-Fi shares ONE public IP, so
+// 8 per 5 minutes was 8 for the entire group — players were locked out mid-session. 40 still stops a script.
+const RATE_LIMIT = { windowMs: 5 * 60 * 1000, max: 40 };
 
 // Bundling data/ask-index.json directly into this function (netlify.toml `included_files`) was
 // tried and reverted: it made Netlify's local bundler crash on this machine (Windows-specific
@@ -300,7 +302,7 @@ export default async (req, context) => {
 // rateLimit is Netlify's own platform feature (docs.netlify.com/manage/security/secure-access-to-sites/rate-limiting),
 // enforced at the edge before a request even reaches this function's code — real protection against
 // a distributed bot, unlike the in-function rateLimited() above, which only holds state per warm
-// container and a caller spread across cold starts can exceed. 6 requests/60s per IP is generous
+// container and a caller spread across cold starts can exceed. 15 requests/60s per IP (was 6) is generous
 // for a person asking a follow-up and blocks sustained hammering. windowSize's platform max is 180s,
 // which is why this can't ALSO be a daily cap — see HANDOFF.md for the actual daily/dollar backstop.
 // memory: found necessary in production, not guessed. Netlify Functions default to 1024 MB; the
@@ -315,7 +317,8 @@ export default async (req, context) => {
 export const config = {
   path: "/ask",
   memory: 4096,
-  rateLimit: { windowLimit: 6, windowSize: 60, aggregateBy: ["ip"], action: "block" },
+  // 15, not 6 (2026-10-04): per IP, and a table on one Wi-Fi is one IP — see RATE_LIMIT above.
+  rateLimit: { windowLimit: 15, windowSize: 60, aggregateBy: ["ip"], action: "block" },
 };
 
 function json(obj, status = 200) {

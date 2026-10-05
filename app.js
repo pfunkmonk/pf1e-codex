@@ -2891,7 +2891,15 @@
       if(Date.now()-lastAsk<4000){ err.textContent="One at a time — wait a few seconds and try again."; err.style.display=""; return; }
       lastAsk=Date.now(); setBusy(true); result.style.display="none"; lastAnswer=null;
       fetch("/ask",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({question:q,hp:hp.value,ms:Date.now()-loadedAt})})
-        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+        // Read as text, not r.json(): a reply that isn't our JSON (Netlify's own page when the function times out or
+        // its edge rate limit blocks) used to throw into .catch and say "check your connection" — wrong every time.
+        .then(function(r){ return r.text().then(function(t){
+          var d=null; try{ d=JSON.parse(t); }catch(e){}
+          if(!d||typeof d!=="object") d={error:
+            r.status===429 ? "Too many questions from this network right now — wait a minute and try again." :
+            r.status>=500 ? "The Codex took too long to answer (HTTP "+r.status+"). Try again — a narrower question answers faster." :
+            "Something went wrong (HTTP "+r.status+") — try again."};
+          return {ok:r.ok,d:d}; }); })
         .then(function(x){
           setBusy(false);
           if(!x.ok||x.d.error){ err.textContent=(x.d&&x.d.error)||"Something went wrong — try again."; err.style.display=""; return; }

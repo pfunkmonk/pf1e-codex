@@ -244,11 +244,18 @@ rendering can't drift between the two.
 **Cost / abuse guards (2026-09-28):**
 - **Netlify's own platform rate limit** (`rateLimit` in the function's `config` export — a real
   edge-enforced feature, docs.netlify.com/manage/security/secure-access-to-sites/rate-limiting, NOT
-  something defined in `netlify.toml` for a function): 6 requests/60s per IP, blocked with a 429
+  something defined in `netlify.toml` for a function): 15 requests/60s per IP (was 6 until 2026-10-04), blocked with a 429
   before the request even reaches this function's code. This is the actual defense against a bot or
   a script hammering the endpoint — the in-function `rateLimited()` below it is a second, much
   weaker layer (state held per warm Lambda container, so a caller spread across cold starts can
   exceed it; kept anyway as defense in depth, effectively free).
+- **Raised 2026-10-04 (live game, from the laptop): limits are per IP, and a whole table on one Wi-Fi is ONE IP.**
+  The in-function `RATE_LIMIT` was 8 per 5 minutes — 8 for the entire group. Now 40/5 min in-function and 15/60s at
+  the edge. Measured the same day: a burst of 8 POSTs got the in-function JSON 429 at #7; the edge limit never fired.
+- **The client reads `/ask` as text, not `r.json()`** (2026-10-04). Before, any non-JSON reply — Netlify's own page
+  for a function timeout (502/504) or an edge 429 — threw into `.catch` and showed "Couldn't reach the Codex — check
+  your connection", which players reported as "can't connect to the LLM". Now it names the real cause from the HTTP
+  status; `.catch` is left for genuine network failures. Answers take 5–26 s (function log), so timeouts are plausible.
 - **Honeypot + minimum time-on-page** on the client form (`viewAsk` in `app.js`, same pattern as the
   feedback form): a hidden field a script auto-fills, and a submit under 1.2s after the page loaded,
   both rejected server-side before retrieval or an API call — stops a scripted browser filling the
