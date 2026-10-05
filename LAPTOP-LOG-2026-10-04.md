@@ -33,3 +33,22 @@ and (added mid-morning) **codex.pipsprojects.com**. Standing instruction: every 
 | # | time (MT) | commit | change | deploy verified |
 |---|---|---|---|---|
 | 0 | morning | — | laptop setup above; no code changes | n/a |
+| 1 | 10-05 | `45c6f0ec` | **Ask the Codex fixes** (players reported "can't connect to the LLM"). (a) `app.js` reads `/ask` as text and names the real cause from the HTTP status — 429 → "too many questions from this network", ≥500 → "took too long (HTTP n)"; "Couldn't reach the Codex — check your connection" is now ONLY a true network failure. Before, any non-JSON reply (Netlify timeout page, edge 429) landed there. (b) Rate limits raised — they are per IP and a table on one Wi-Fi is one IP: in-function `RATE_LIMIT` 8 → **40** per 5 min; edge `rateLimit` 6 → **15** per 60 s. HANDOFF.md "Cost / abuse guards" updated. No cache-token bump (sw.js fetches app.js no-store; no data changed). | **Yes** — live `app.js` served the new code ~60 s after push; 10 rapid honeypot POSTs all passed (pre-fix, #7 got 429); a real question returned 200 in 18.1 s. Client handler unit-tested against 7 simulated responses (200, JSON 429, plain 429, 502 HTML, 504 text, JSON 500, 404). |
+
+## Evidence gathered (for whoever picks this up)
+
+- Netlify function log for `ask` (Cloud compute → Functions → ask, "Last 2 days"): every Oct 3 invocation completed,
+  5–26.5 s each, ~1.4 GB memory. **Zero invocations on Oct 4 before the laptop's probes** — so the failures players hit
+  that day never reached the function (consistent with a non-JSON edge/timeout reply, not an Anthropic error).
+- The 26,538 ms request on Oct 3 08:37 looks like it hit a ceiling. If timeouts keep showing up as
+  "took too long (HTTP 502/504)", the levers are `CONTEXT_CHAR_BUDGET` (200k chars) and `MAX_ANSWER_TOKENS` (3000).
+- Burst test, pre-fix: 8 honeypot POSTs → the in-function JSON 429 fired at #7; Netlify's edge `rateLimit` never did.
+
+## HANDBACK TO DESKTOP — 2026-10-05
+
+- Everything is committed and pushed; laptop working tree clean. `git pull` in `~/dev/pf1e-codex` on the desktop.
+- Live: `45c6f0ec`, verified above. Site tokens still `v=112`.
+- Still open (owner's call, not touched): the `sw.js` `var V = "108"` drift described above — fix on the next real
+  release by setting V to the same number as the other three tokens.
+- No Supabase involvement for the Codex.
+

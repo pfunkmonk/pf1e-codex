@@ -2,6 +2,9 @@
 
 Current state, the traps, and what is left to do. Read this before changing anything.
 
+> **2026-10-05:** laptop changes from the 2026-10-04 live game (Ask limits + honest errors, `45c6f0ec`) are in
+> `LAPTOP-LOG-2026-10-04.md` — read it, then fold anything durable into this file.
+
 **Live:** https://codex.pipsprojects.com · **Repo:** `pfunkmonk/pf1e-codex` (public)
 **Local clone:** `~/dev/pf1e-codex` — deliberately NOT on the Desktop, because OneDrive sync
 corrupts `.git`.
