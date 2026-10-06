@@ -253,10 +253,13 @@ export default async (req, context) => {
 
   let entries;
   try {
-    entries = await Promise.all(hits.map(async ([id]) => {
-      const r = await fetch(`${origin}/api/v1/entries/${id}.json`);
+    entries = await Promise.all(hits.map(async (d) => {
+      const r = await fetch(`${origin}/api/v1/entries/${d[0]}.json`);
       if (!r.ok) return null;
-      return r.json();
+      const e = await r.json();
+      // The public API mirrors the stored rows exactly, including 30 item names that carry a scraped footnote digit
+      // ("Cloak of Resistance1"). The index row (d[1]) was built with the clean name — show and cite THAT one.
+      return { ...e, name: d[1] };
     }));
   } catch (e) { return json({ error: "couldn't load the matched entries: " + e.message }, 500); }
   entries = entries.filter(Boolean);
