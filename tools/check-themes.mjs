@@ -22,6 +22,7 @@
  * Usage: node tools/check-themes.mjs [repoRoot]
  */
 import fs from "node:fs";
+import { cleanFootnoteNames } from "./lib/footnote-names.mjs";
 
 const ROOT = process.argv[2] || ".";
 const MIN_CLAIM = 2, PAGES_PER_IMAGE = 20;
@@ -99,6 +100,7 @@ globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/themes.js`, "utf8"));
 if (fs.existsSync(`${ROOT}/data/bodythemes.js`)) (0, eval)(fs.readFileSync(`${ROOT}/data/bodythemes.js`, "utf8"));
 const IDX = globalThis.window.PF_INDEX;
+cleanFootnoteNames(IDX);   // same in-memory name clean-up as app.js, or this check would test names the app never shows
 const ART = new Set(globalThis.window.PF_ART);
 const THEMES = globalThis.window.PF_THEMES || {};
 const FALLBACK = globalThis.window.PF_THEME_FALLBACK || {};

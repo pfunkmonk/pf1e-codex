@@ -29,11 +29,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadCodex } from "./lib/api-build.mjs";
+import { cleanFootnoteNames } from "./lib/footnote-names.mjs";
 
 const ROOT = process.argv[2] && !process.argv[2].startsWith("--") ? process.argv[2] : ".";
 const MIN_TERM_LEN = 2;
 
 const { IDX, BODIES, isJunk, dataVersion } = loadCodex(ROOT);
+// the 30 item names that carry a scraped footnote digit ("Cloak of Resistance1") are indexed and cited by their clean name — the same
+// in-memory clean-up app.js applies — so a question that says "cloak of resistance" matches the title.
+cleanFootnoteNames(IDX);
 
 // Same tokenizer must be used at query time (netlify/functions/ask.mjs) — kept here as the single
 // definition and copied there in a comment-linked block, since a Netlify Function ships standalone

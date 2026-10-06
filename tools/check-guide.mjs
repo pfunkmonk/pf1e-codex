@@ -97,6 +97,30 @@ else {
       fail.push(`intros: key "${k}" matches no bucket and no rawCat — dead copy`);
 }
 
+// ---- footnote-digit item names ("Cloak of Resistance1") -------------------------------------------------
+// The app cleans these in memory with an ES5 copy of tools/lib/footnote-names.mjs. Two copies of a rule drift, so: the regex
+// literal in app.js must be the one the tools use, every row it touches must really be a footnote (its body's own heading is the
+// clean name), and two different rows must never clean to the same name.
+{
+  const { FOOTNOTE_NAME, footnoteCleanName } = await import("./lib/footnote-names.mjs");
+  const appSrc = fs.readFileSync(`${ROOT}/app.js`, "utf8");
+  const am = /function cleanFootnoteNames\(\)\{[\s\S]*?exec\(r\[1\]\)/.exec(appSrc);
+  const lit = am && /m=\/(.+?)\/\.exec/.exec(am[0]);
+  if (!lit) fail.push("app.js: cleanFootnoteNames() not found — the footnote-name clean-up the tools mirror is gone");
+  else if (lit[1] !== FOOTNOTE_NAME.source) fail.push(`app.js footnote-name regex /${lit[1]}/ differs from tools/lib/footnote-names.mjs /${FOOTNOTE_NAME.source}/`);
+  const taken = new Set(IDX.filter((r) => r[I_SLUG] === "items").map((r) => r[I_NAME].toLowerCase()));
+  const cleaned = new Map();
+  let changed = 0;
+  for (const r of IDX) {
+    const c = footnoteCleanName(r, taken);
+    if (!c) continue;
+    changed++;
+    if (cleaned.has(c.toLowerCase())) fail.push(`footnote clean-up makes two rows the same name: "${cleaned.get(c.toLowerCase())}" and "${r[I_NAME]}" -> "${c}"`);
+    cleaned.set(c.toLowerCase(), r[I_NAME]);
+  }
+  console.log(`footnote-digit names cleaned in memory : ${changed}`);
+}
+
 // ---- report -----------------------------------------------------------------
 console.log(`entries           : ${IDX.length} (${visTotal} reachable, ${IDX.length - visTotal} hidden as junk)`);
 console.log(`guide links       : ${links.length}`);

@@ -4,6 +4,15 @@
   var META = window.PF_META || { groups: [], total: 0 };
   var IDX = window.PF_INDEX || [];          // [id,name,slug,rawCat,source,snippet]
   var I_ID=0,I_NAME=1,I_SLUG=2,I_RAW=3,I_SRC=4,I_SNIP=5,I_FAC=6;
+  // 30 item names carry a footnote digit from the source scrape ("Cloak of Resistance1", "Belt of Giant Strength2"); the body's own
+  // heading is the clean name. Cleaned in memory (the stored rows and the public API stay as scraped). Left alone when the clean
+  // form is already another item ("Ring of Protection1" beside "Ring of Protection"): identical names would make every link ambiguous.
+  // Same rule as tools/lib/footnote-names.mjs — check-guide fails if the two disagree.
+  (function cleanFootnoteNames(){
+    var taken={}, i, r, m;
+    for(i=0;i<IDX.length;i++){ r=IDX[i]; if(r[2]==="items") taken[r[1].toLowerCase()]=1; }
+    for(i=0;i<IDX.length;i++){ r=IDX[i]; if(r[2]!=="items") continue; m=/^(.*[A-Za-z])[12]$/.exec(r[1]); if(m && !taken[m[1].toLowerCase()]) r[1]=m[1]; }
+  })();
   var FACETS=(META.facets)||{};
   function fc(b,k){ return function(){ return (FACETS[b]&&FACETS[b][k])||[]; }; }
   // Book lists are DERIVED from the rows, not read from the baked facet vocabulary. meta.js is
@@ -72,7 +81,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "112";
+  var DATA_V = "113";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);

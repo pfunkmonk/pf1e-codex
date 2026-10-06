@@ -1,6 +1,7 @@
 /* Every art file that is derived from entry data must be reachable by the app's own
  * artKey rule. A file the resolver can never ask for is dead weight and an invisible bug. */
 import fs from "node:fs";
+import { cleanFootnoteNames } from "./lib/footnote-names.mjs";
 const ROOT = process.argv[2] || ".";
 globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/index.js`, "utf8"));
@@ -46,6 +47,7 @@ const ITEM_CAT_ART = { Rings:"ring",Rods:"rod",Staves:"staff",Artifacts:"artifac
   Cybertech:"technology","Psi-Tech":"technology" };
 
 const reach = new Set();
+cleanFootnoteNames(globalThis.window.PF_INDEX);
 for (const r of globalThis.window.PF_INDEX) {
   const b = r[2], f = r[6] || {}, nm = artKey(r[1]);
   if (b === "spells")  reach.add("spell-" + nm);

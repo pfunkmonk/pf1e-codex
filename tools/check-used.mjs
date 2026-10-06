@@ -12,11 +12,13 @@
  * Usage: node tools/check-used.mjs [repoRoot]
  */
 import fs from "node:fs";
+import { cleanFootnoteNames } from "./lib/footnote-names.mjs";
 const ROOT = process.argv[2] || ".";
 globalThis.window = {};
 for (const f of ["data/index.js", "data/art.js", "data/themes.js", "data/bodythemes.js"])
   (0, eval)(fs.readFileSync(`${ROOT}/${f}`, "utf8"));
 const IDX = globalThis.window.PF_INDEX;
+cleanFootnoteNames(IDX);
 const ART = new Set(globalThis.window.PF_ART);
 const THEMES = globalThis.window.PF_THEMES || {}, BODY = globalThis.window.PF_BODY_THEMES || {};
 const VARIETY = globalThis.window.PF_VARIETY || {}, FALLBACK = globalThis.window.PF_THEME_FALLBACK || {};

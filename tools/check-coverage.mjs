@@ -12,6 +12,7 @@
  * Usage: node tools/check-coverage.mjs [repoRoot] [packDir]
  */
 import fs from "node:fs";
+import { cleanFootnoteNames } from "./lib/footnote-names.mjs";
 import path from "node:path";
 
 const ROOT = process.argv[2] || ".";
@@ -24,6 +25,7 @@ globalThis.window = {};
 (0, eval)(fs.readFileSync(`${ROOT}/data/art.js`, "utf8"));
 (0, eval)(fs.readFileSync(`${ROOT}/data/themes.js`, "utf8"));
 const IDX = globalThis.window.PF_INDEX;
+cleanFootnoteNames(IDX);
 const ON_DISK = new Set(globalThis.window.PF_ART);
 const THEMES = globalThis.window.PF_THEMES, VARIETY = globalThis.window.PF_VARIETY;
 
