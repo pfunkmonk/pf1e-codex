@@ -5,7 +5,7 @@
 var CACHE = "pf1e-codex-v113";
 // ?v= MUST match index.html and DATA_V in app.js — the cache is keyed by full URL, so a
 // mismatch precaches files the page never requests (and leaves the real ones uncached offline).
-var V = "108";
+var V = "113";
 var PRECACHE = [
   "./",
   "./index.html",

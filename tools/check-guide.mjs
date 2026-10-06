@@ -121,6 +121,27 @@ else {
   console.log(`footnote-digit names cleaned in memory : ${changed}`);
 }
 
+// ---- the cache tokens must all be the same release number ------------------------------------------------
+// sw.js CACHE ("pf1e-codex-vNNN"), sw.js V (builds every PRECACHE url), app.js DATA_V and every ?v= in index.html. When V lagged
+// (108 while the rest said 112) the service worker precached URLs the page never requests: offline use missed, and installing the
+// worker downloaded the 10 MB index a second time under a dead URL. Found 2026-10-04 by the laptop session; nothing checked it.
+{
+  const sw = fs.readFileSync(`${ROOT}/sw.js`, "utf8");
+  const app = fs.readFileSync(`${ROOT}/app.js`, "utf8");
+  const html = fs.readFileSync(`${ROOT}/index.html`, "utf8");
+  const tok = {
+    "sw.js CACHE": (/var CACHE = "pf1e-codex-v(\d+)"/.exec(sw) || [])[1],
+    "sw.js V": (/^var V = "(\d+)"/m.exec(sw) || [])[1],
+    "app.js DATA_V": (/var DATA_V\s*=\s*"(\d+)"/.exec(app) || [])[1],
+  };
+  const htmlV = [...new Set([...html.matchAll(/\?v=(\d+)/g)].map((m) => m[1]))];
+  if (htmlV.length !== 1) fail.push(`index.html has ?v= values ${JSON.stringify(htmlV)} — expected exactly one`); else tok["index.html ?v="] = htmlV[0];
+  for (const [k, v] of Object.entries(tok)) if (!v) fail.push(`${k}: token not found`);
+  const vals = new Set(Object.values(tok).filter(Boolean));
+  if (vals.size > 1) fail.push(`cache tokens disagree: ${Object.entries(tok).map(([k, v]) => k + "=" + v).join(", ")} — bump all four together`);
+  else console.log(`cache tokens      : all ${[...vals][0]}`);
+}
+
 // ---- report -----------------------------------------------------------------
 console.log(`entries           : ${IDX.length} (${visTotal} reachable, ${IDX.length - visTotal} hidden as junk)`);
 console.log(`guide links       : ${links.length}`);
