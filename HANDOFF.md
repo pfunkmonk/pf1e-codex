@@ -888,3 +888,15 @@ node tools/check-reachable.mjs .    # every entry-derived art file must be reach
 - Every entry page must end up with a backdrop. If you add a bucket, give it a `CAT_FALLBACK`.
 - `CAT_ART` is the single source for category art; `CAT_FALLBACK` aliases it. Do not fork it.
 - The gallery at `#/art` is the QA surface for art. Use it after every ingest.
+
+## Source = the BOOK (2026-10-06, v114)
+
+3,600 d20 rows (3,049 imports + 551 companions) that showed only "Paizo, Inc." now show the book their own Section 15 notice names, spelled the way the
+AoN originals spell it (so the "Any book" filter does not split a book in two); 268 ORIGINAL rows with a blank source were filled from the book their
+own text names (monster templates, tricks, stares, phrenic amplifications, class features). Mechanism, guards and limits: `tools/d20/README.md` →
+"The BOOK, not just the publisher". Bump all FOUR cache tokens every release (check-guide asserts it).
+
+**Open option (not done, owner's call): third-party rows.** 13,654 d20 rows show only a PUBLISHER ("Frog God Games") though their notice names the
+product ("Rappan Athuk"). They were left alone because the `bk` facet groups the publisher filter by that string. If wanted: keep `bk` = publisher and
+put "<Product> — <Publisher>" in the SOURCE string only (the entry page's "📖 Source:" line), plus a verify check. Also unrecoverable today: ~305
+Paizo rows with no book in their notice, 5 originals, and product codes (PZO1110, PRG:APG…) — no legend page exists in the archive.
