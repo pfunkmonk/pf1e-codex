@@ -16,7 +16,7 @@ import { execSync } from "node:child_process";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
 import {
   UNVERIFIED_MARK, UNVERIFIED_SOURCE, isPaizoish, publishersFromNotice, nameKeys, VARIANT_QUAL,
-  isGodBody, isFlatStatLine, snippetOf, contentOverlap, SAME_TEXT, shortSuffix, SITE_CHROME_LINE,
+  isGodBody, isFlatStatLine, snippetOf, contentOverlap, SAME_TEXT, shortSuffix, SITE_CHROME_LINE, buildBookIndex, bookSource, canonicalPaizoBook,
 } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
@@ -46,6 +46,8 @@ function loadRoot(root) {
 const { rows, bodies } = loadRoot(ROOT);
 const isD20 = (r) => r[0] === mintId(r[2], r[1]);
 const d20 = rows.filter(isD20), orig = rows.filter((r) => !isD20(r));
+// the books the AoN-sourced originals cite (all Paizo); registers them with isPaizoish() so a book-titled source still reads as Paizo
+const BOOKS = buildBookIndex(rows, (r) => !isD20(r));
 const failures = [];
 const check = (name, bad, note = "") => {
   const ok = bad.length === 0;
@@ -71,7 +73,26 @@ try {
   const baseBodies = {};
   for (const b of new Set(baseRows.map((r) => r[2]))) { const t = git(`data/cat/${b}.js`), open = `window.PF_REG("${b}",`; Object.assign(baseBodies, JSON.parse(t.slice(open.length, t.trimEnd().length - 2))); }
   const missing = [], changed = [];
-  for (const r of baseRows) { const n = nowById.get(r[0]); if (!n) missing.push(r[1]); else if (JSON.stringify(n) !== JSON.stringify(r) || baseBodies[r[0]] !== bodies[r[0]]) changed.push(r[1]); }
+  // The ONE sanctioned edit to an original row (tools/fix-original-sources.mjs): a source that was BLANK may be filled — from the book the row's
+  // own text names — together with its `bk` facet. Nothing else about the row may differ (name, bucket, category, snippet, every other facet,
+  // and the body must be byte-identical), and a source that already had a value may never change.
+  const J = (x) => JSON.stringify(x);
+  const onlySourceFilled = (a, b) => {
+    if (a[4] || !b[4]) return false;
+    for (let i = 0; i < 6; i++) if (i !== 4 && J(a[i]) !== J(b[i])) return false;
+    const fa = a[6] || {}, fb = b[6] || {};
+    for (const k of Object.keys(fa)) if (J(fa[k]) !== J(fb[k])) return false;
+    for (const k of Object.keys(fb)) if (k !== "bk" && J(fb[k]) !== J(fa[k])) return false;
+    return !fb.bk || fb.bk === String(b[4]).replace(/\s*pg\.\s*\d+.*$/, "").trim();
+  };
+  let sourcesFilled = 0;
+  for (const r of baseRows) {
+    const n = nowById.get(r[0]);
+    if (!n) { missing.push(r[1]); continue; }
+    if (baseBodies[r[0]] === bodies[r[0]] && J(n) !== J(r) && onlySourceFilled(r, n)) { sourcesFilled++; continue; }
+    if (J(n) !== J(r) || baseBodies[r[0]] !== bodies[r[0]]) changed.push(r[1]);
+  }
+  if (sourcesFilled) console.log(`      (${sourcesFilled} original rows had a blank source filled from their own text — allowed; nothing else about them changed)`);
   check("original pages not removed", missing.length <= KNOWN_ORIGINAL_DRIFT.missing ? [] : missing.map((n) => `MISSING ${n}`), `only ${KNOWN_ORIGINAL_DRIFT.missing} known removals are expected`);
   check("original pages not altered", changed.length <= KNOWN_ORIGINAL_DRIFT.changed ? [] : changed.map((n) => `CHANGED ${n}`), `only ${KNOWN_ORIGINAL_DRIFT.changed} known rewrites are expected`);
 } catch (e) { console.log(`SKIP  original-page comparison (git baseline ${BASELINE} unavailable: ${String(e.message).split("\n")[0]})`); }
@@ -84,6 +105,12 @@ check("no 'Third-party (unattributed)' when the entry's own Section 15 names the
   d20.filter((r) => r[4] === "Third-party (unattributed)" && publishersFromNotice(tailOf(r[0])).length).map(label));
 check("no Paizo source when the entry's own Section 15 names only another publisher",
   d20.filter((r) => { if (!isPaizoish(r[4])) return false; const p = publishersFromNotice(tailOf(r[0])); return p.length && !p.some(isPaizoish); }).map(label));
+check("no bare 'Paizo, Inc.' source when the entry's own Section 15 names the Paizo book(s) it came from",
+  d20.filter((r) => /^Paizo(?:, Inc\.)?$/.test(r[4]) && bookSource(r[4], tailOf(r[0]), BOOKS) !== r[4]).map(label),
+  "a Section 15 notice for a Paizo product names the BOOK; the source column must show it (d20-attrib bookSource), not just the publisher");
+check("no Paizo book listed under a second spelling (the 'Any book' filter would split it)",
+  d20.filter((r) => canonicalPaizoBook(r[4], BOOKS) !== r[4]).map((r) => `${label(r)} -> "${canonicalPaizoBook(r[4], BOOKS)}"`),
+  "d20-attrib canonicalPaizoBook: spell a Paizo book the way the AoN-sourced originals do");
 check("no invented Paizo authorship on third-party content",
   d20.filter((r) => r[4] === "Third-party (unattributed)" && tailOf(r[0]).includes("Author/publisher: Paizo, Inc. (Pathfinder Roleplaying Game Reference Document)")).map(label));
 check("no junk source strings (leading dash, trailing period after a number, image credits, Paizo spelling variants)",

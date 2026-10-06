@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -118,11 +118,13 @@ const RECLASSIFY_3P_TRAIT = {
   console.log(`3rd-party traits reclassified to their real type: ${renamed}`);
 }
 const d20 = rows.filter(isD20), orig = rows.filter((r) => !isD20(r));
+// The books the AoN-sourced originals already cite (all Paizo), by key — also registers them with isPaizoish() so a book-titled source still reads as Paizo below.
+const BOOKS = buildBookIndex(rows, (r) => !isD20(r));
 console.log(`rows ${rows.length}: d20-minted ${d20.length}, original ${orig.length}`);
 
 const drop = new Map();
 // ---- 3. structure: navigation-list "entries" and stat blocks flattened onto one line ----
-const listPages = d20.filter((r) => commaListShare(String(bodies[r[2]][r[0]]).split("\n").filter((l) => l.trim())) > 0.6);
+const listPages = d20.filter((r) => r[3] !== "Additional Material (d20pfsrd)" && commaListShare(String(bodies[r[2]][r[0]]).split("\n").filter((l) => l.trim())) > 0.6);
 console.log(`\nname-list navigation pages posing as entries: ${listPages.length}`);
 for (const r of listPages) { console.log("  drop", r[1], `[${r[2]}]`); }
 let rebroke = 0;
@@ -200,11 +202,13 @@ for (const r of d20) {
   if (drop.has(r[0])) continue;
   const body = String(bodies[r[2]][r[0]]); const cut = body.lastIndexOf("\n\n");
   const head = body.slice(0, cut), tail = body.slice(cut + 2);
-  const newSrc = repairSource(r[4], tail), newTail = repairNote(newSrc, tail);
-  if (newSrc !== r[4]) { const k = `${r[4]} -> ${/^Source unconfirmed/.test(newSrc) ? newSrc : r[4] === "Third-party (unattributed)" ? "(publisher from own Section 15)" : newSrc}`; tally[k] = (tally[k] || 0) + 1; srcChanged++; }
+  // "Paizo, Inc." alone -> the BOOK its own Section 15 notice names (see bookSource in d20-attrib.mjs)
+  const newSrc = canonicalPaizoBook(bookSource(repairSource(r[4], tail), tail, BOOKS), BOOKS), newTail = repairNote(newSrc, tail);
+  if (newSrc !== r[4]) { const k = `${r[4]} -> ${/^Source unconfirmed/.test(newSrc) ? newSrc : r[4] === "Third-party (unattributed)" ? "(publisher from own Section 15)" : r[4] === "Paizo, Inc." || r[4] === "Paizo" ? "(book from own Section 15)" : newSrc}`; tally[k] = (tally[k] || 0) + 1; srcChanged++; }
   if (newTail !== tail) noteChanged++;
   if (APPLY) {
-    if (newSrc !== r[4]) { if (r[6] && r[6].bk === r[4]) r[6].bk = newSrc; r[4] = newSrc; }
+    // the facet is ONE book (the filter lists distinct values); a two-notice page keeps both in the source string and its first as the facet
+    if (newSrc !== r[4]) { if (r[6] && r[6].bk === r[4]) r[6].bk = newSrc.split(";")[0].trim(); r[4] = newSrc; }
     if (newTail !== tail) bodies[r[2]][r[0]] = head + "\n\n" + newTail;
   }
 }

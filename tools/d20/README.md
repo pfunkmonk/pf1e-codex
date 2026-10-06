@@ -75,6 +75,29 @@ node tools/d20/d20-import.mjs --snap D:/CODEX/d20-supplements   # dry run; add -
 - Defects this surfaced, fixed at the root: `publishersFromNotice` kept the dash in "Copyright 2008 – Name" (junk source,
   guarded by `d20-verify` "no junk source strings"); `d20-verify`'s nav-list check exempts supplements (a racial name list is content).
 
+## The BOOK, not just the publisher (2026-10-06)
+
+3,166 d20 entries + ~680 companions showed only "Paizo, Inc." as their source, and 273 original AoN rows had no source at all — yet the book was
+in the data. d20pfsrd rarely prints a readable "Source" line, so `bkOf()` fell through to "Paizo, Inc.", but the entry's own **Section 15
+notice** names the book ("Pathfinder Roleplaying Game Advanced Race Guide © 2012, Paizo Publishing, LLC; …") and is already copied into the body.
+
+- `bookSource()` (d20-attrib) reads the PAIZO notices of a row whose source is the bare publisher: one or two books → the source; none, or more than
+  two → unchanged. A third-party notice never names a Paizo book. Wired into `d20-import` (new rows) and `d20-repair` (live rows; `--apply`).
+- **Naming matters**: the AoN originals spell books "Advanced Race Guide" / "Pathfinder RPG Bestiary"; a notice says "Pathfinder Roleplaying Game
+  Advanced Race Guide". Two spellings would split the "Any book" filter, so `bookKey()` matches a notice title to the originals' spelling
+  (`buildBookIndex`, `canonicalPaizoBook`); only an unmatched title (an Adventure Path, a module) is used as written. A two-book page keeps both in
+  the source string and its first as the `bk` facet. Every AoN book spelling is registered with `isPaizoish()` (a book title that does not start
+  "Pathfinder" is still Paizo).
+- **Third-party rows are deliberately NOT changed**: their source is the publisher and the filter groups by it (13,654 rows have a product title in
+  their notice — "Frog God Games" → "Rappan Athuk" — see HANDOFF for the open option).
+- **Original rows** with a blank source (monster templates "Horror Adventures pg. 248", tricks/stares/amplifications "Allay Pain(Occult Realms pg. 16)",
+  class-feature "Source: PRPG Core Rulebook") are filled by `tools/fix-original-sources.mjs` — strictly additive: only a BLANK source, only from the
+  row's own text, body untouched. `d20-verify` allows exactly that exception and nothing else (mutation-tested: a changed snippet, an overwritten
+  source, an extra facet each still fail "original pages not altered").
+- Guards in `d20-verify`: no bare "Paizo, Inc." when the notice names the book; no Paizo book under a second spelling.
+- Not recoverable: ~305 rows whose notice names no book, 5 originals whose text names none, and product CODES (PZO1110, PRG:APG…) — the archive has
+  no legend page, and learning codes by co-occurrence is wrong (it called PFU the Core Rulebook; PFU is Pathfinder Unchained).
+
 ## The rule that keeps this safe
 
 **Every defect found in an audit is fixed in the importer/classifier AND added to `d20-verify.mjs`.** The repair script

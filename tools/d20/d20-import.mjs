@@ -19,7 +19,7 @@ import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadCodex } from "../lib/api-build.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
@@ -234,6 +234,8 @@ const d = loadCodex(ROOT);
 const existingIds = new Set(d.IDX.map((r) => r[0]));
 const existingNameBucket = new Map(d.IDX.map((r) => [norm(r[1]) + "|" + r[2], r[0]]));
 
+// The books the AoN-sourced originals already cite (all Paizo), by key; also registers them with isPaizoish().
+const BOOKS = buildBookIndex(d.IDX, (r) => r[0] !== mintId(r[2], r[1]));
 const origByKey = new Map();
 for (const r of d.IDX) { if (r[0] === mintId(r[2], r[1])) continue; for (const k of nameKeys(r[1])) { const a = origByKey.get(r[2] + "|" + k); a ? a.push(r) : origByKey.set(r[2] + "|" + k, [r]); } }
 
@@ -261,7 +263,9 @@ for (const r of toImport) {
 
   let name = canonicalName(p);
   // The page's own license paragraph outranks bkOf's guess: see d20-attrib.mjs for the defects this fixes.
-  const bk = repairSource(bkOf(p), p.license);
+  const bkFull = canonicalPaizoBook(bookSource(repairSource(bkOf(p), p.license), p.license, BOOKS), BOOKS);   // "Paizo, Inc." alone -> the book its own notice names
+  const bk = bkFull;
+  const bkFacet = bkFull.split(";")[0].trim();      // the facet is ONE book (the filter lists distinct values); a two-notice page keeps both in the source string
   // A NAMED third-party publisher (not Paizo, not "unconfirmed"/"unattributed"): the only case where a shared name is
   // resolved by keeping both, told apart by publisher — the way monsters carry "(3pp)" and gods "(Frog God Games)".
   const thirdNamed = !isPaizoish(bk) && bk !== UNVERIFIED_SOURCE && bk !== "Third-party (unattributed)" && bk !== "d20pfsrd.com";
@@ -342,13 +346,13 @@ for (const r of toImport) {
     const hit = nameKeys(name).flatMap((k) => origByKey.get(p.bucket + "|" + k) || []).find((o) => !VARIANT_QUAL.test(o[1]) && o[1] !== name);
     if (hit) { report.skippedInvertedDup.push({ ...r, canonicalName: name, duplicateOf: hit[1] }); mintedThisRun.delete(id); continue; }
   }
-  const facets = p.supplement ? (bk ? { bk } : {})        // no school/price/CR: a supplement carries none of the original's stats
-    : p.bucket === "spells" ? spellFacets(p, bk)
-    : p.bucket === "items" ? itemFacets(p, bk)
-    : p.bucket === "traits" ? traitFacets(p, bk)
-    : p.bucket === "archetypes" ? archetypeFacets(p, bk)
-    : p.bucket === "feats" ? featFacets(p, bk)
-    : (bk ? { bk } : {});
+  const facets = p.supplement ? (bkFacet ? { bk: bkFacet } : {})        // no school/price/CR: a supplement carries none of the original's stats
+    : p.bucket === "spells" ? spellFacets(p, bkFacet)
+    : p.bucket === "items" ? itemFacets(p, bkFacet)
+    : p.bucket === "traits" ? traitFacets(p, bkFacet)
+    : p.bucket === "archetypes" ? archetypeFacets(p, bkFacet)
+    : p.bucket === "feats" ? featFacets(p, bkFacet)
+    : (bkFacet ? { bk: bkFacet } : {});
 
   const snippet = snippetOf(p.body);
   const source = bk || "d20pfsrd.com";

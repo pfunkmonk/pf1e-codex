@@ -21,7 +21,14 @@ const PRD_CREDIT = "Author/publisher: Paizo, Inc. (Pathfinder Roleplaying Game R
 
 // "Paizo Publishing, LLC" and "Paizo Inc." are Paizo; "Paizo Fans United" is a fan group, NOT Paizo.
 // A book/product title that starts "Pathfinder" (Roleplaying Game Advanced Race Guide, Player Companion, #43…) is a Paizo product.
-export const isPaizoish = (s) => /^(paizo\b(?!\s+fans)|wizards of the coast|pathfinder\b)/i.test(String(s).trim());
+// A Paizo book title that does not START "Pathfinder" ("Advanced Player's Guide", "Ultimate Magic", "GameMastery Module E1…") is still a Paizo
+// product: every spelling the AoN-sourced originals use, and every title read out of a Paizo Section 15 notice, is registered here
+// (registerPaizoBooks) so the repair/import/verify tools keep treating a book-titled source as Paizo, not as an unknown third party.
+const PAIZO_BOOKS = new Set();
+export const registerPaizoBooks = (names) => { for (const n of names) if (n) PAIZO_BOOKS.add(String(n).trim().toLowerCase()); };
+const paizoOne = (s) => /^(paizo\b(?!\s+fans)|wizards of the coast|pathfinder\b|gamemastery\b)/i.test(s) || PAIZO_BOOKS.has(s.toLowerCase());
+// "Bestiary 2; Bestiary 3" (a page whose notices name two books) is Paizo when every part is.
+export const isPaizoish = (s) => { const t = String(s).trim(); return paizoOne(t) || (t.includes(";") && t.split(";").every((p) => paizoOne(p.trim()))); };
 
 /** A short, readable "(Publisher)" suffix for telling two same-named entries apart. A source string is sometimes a citation
  *  ("Kelpie from the Tome of Horrors Complete", "…: Uncertain Futures"), so keep the part after "from the" and cap the length. */
@@ -171,3 +178,81 @@ export function contentOverlap(a, b) {
   return hit / small.size;
 }
 export const SAME_TEXT = 0.5;
+
+/* ---- the BOOK a Paizo entry came from -------------------------------------------------------------------------------
+ * Found 2026-10-06: 3,166 d20-imported entries (+ ~680 companions) showed only "Paizo, Inc." as their source although the book
+ * was on the page the whole time. d20pfsrd rarely prints a readable "Source" line, so bkOf() fell through to the last-resort
+ * "Paizo, Inc." — but the entry's own Section 15 notice names the book ("Pathfinder Roleplaying Game Advanced Race Guide © 2012,
+ * Paizo Publishing, LLC; Authors: …") and that notice is already copied into the body. 2,979 of those rows carry exactly one
+ * notice, so the book is unambiguous.
+ *
+ * NAMING. The AoN-sourced originals already spell their books one way ("Advanced Race Guide", "Pathfinder RPG Bestiary", "PRPG Core
+ * Rulebook"); the notice spells them another ("Pathfinder Roleplaying Game Advanced Race Guide"). Two spellings of one book would
+ * split the "Any book" filter, so a notice title is matched to the originals' spelling by bookKey() and only an unmatched title
+ * (an Adventure Path, a module) is used as written (tidied). Third-party rows are NOT touched: their source stays the publisher
+ * (the filter groups by it) — see HANDOFF.md. */
+export function bookKey(s) {
+  return String(s || "").toLowerCase().replace(/[’‘]/g, "'")
+    .replace(/\((?:ogl|[^)]*edition)\)/g, " ")
+    .replace(/&/g, " and ")
+    .replace(/\bprpg\b/g, " ")
+    .replace(/pathfinder\s+(?:roleplaying game|rpg|campaign setting|player companion|adventure path|chronicles|module|society|tales|map folio)\b[\s:,–-]*/g, " ")
+    .replace(/gamemastery\s+module\b[\s:,–-]*/g, " ")
+    .replace(/^\s*pathfinder\b[\s:,–-]*/, "")
+    .replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+}
+/** key -> the originals' most common spelling. `rows` = the PF_INDEX rows; `isOriginal(row)` = not minted by the d20 importer. */
+export function buildBookIndex(rows, isOriginal) {
+  const count = new Map();
+  for (const r of rows) {
+    if (!isOriginal(r) || r[3] === "Additional Material (d20pfsrd)") continue;
+    const b = ((r[6] && r[6].bk) || r[4] || "").replace(/\s*pg\.\s*\d+.*$/, "").split(",")[0].trim();
+    if (b) count.set(b, (count.get(b) || 0) + 1);
+  }
+  const byKey = new Map();
+  for (const [b, n] of count) { const k = bookKey(b); if (k && (!byKey.has(k) || n > count.get(byKey.get(k)))) byKey.set(k, b); }
+  registerPaizoBooks(count.keys());     // every AoN book is a Paizo book
+  return byKey;
+}
+const NOTICE_MARK = /(?:©|\(c\)|copyright)\s*,?\s*(?:\(c\)\s*)?(?:19|20)\d\d/gi;
+const GENERIC_TITLE = /open game licen|system reference|reference document|^pathfinder roleplaying game$/i;
+function tidyTitle(t) {
+  let s = String(t).replace(/Pathfi\s+nder/g, "Pathfinder").replace(/\s+/g, " ").replace(/\((?:OGL)\)/g, "").trim().replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
+  const h = Math.floor(s.length / 2);                      // "X X": the notice repeats its own title ("Pathfinder 5: Sins of the Saviors Pathfinder 5: …")
+  if (s.length > 12 && s.slice(0, h).trim() === s.slice(h).trim()) s = s.slice(0, h).trim();
+  return s;
+}
+/** Titles named by the PAIZO notices in a Section 15 paragraph, in order, de-duplicated. */
+export function paizoNoticeTitles(tail) {
+  const t = String(tail || "");
+  const marks = [...t.matchAll(NOTICE_MARK)];
+  const out = [];
+  for (let k = 0; k < marks.length; k++) {
+    const m = marks[k], next = marks[k + 1] ? marks[k + 1].index : t.length;
+    const publisher = t.slice(m.index + m[0].length, Math.min(next, m.index + m[0].length + 90));
+    if (!/\bPaizo\b/i.test(publisher) || /Paizo Fans/i.test(publisher)) continue;       // a third-party notice names no Paizo book
+    let seg = t.slice(k ? marks[k - 1].index + marks[k - 1][0].length : 0, m.index);
+    if (k) { const s = /\b(?:Pathfinder|GameMastery|Advanced (?:Player|Race|Class)|Ultimate|Occult Adventures|Mythic Adventures|Horror Adventures|Inner Sea|Bestiary)\b/.exec(seg); if (!s) continue; seg = seg.slice(s.index); }
+    const title = tidyTitle(seg);
+    if (title.length < 4 || title.length > 100 || GENERIC_TITLE.test(title)) continue;
+    if (!out.includes(title)) out.push(title);
+  }
+  return out;
+}
+/** The source string for a row whose current source is the bare publisher "Paizo, Inc.": the book(s) its own notice names, in the
+ *  originals' spelling. Unchanged when the source is anything else, when no Paizo notice names a book, or when more than two do. */
+export function bookSource(source, tail, bookIndex) {
+  if (!/^Paizo(?:, Inc\.)?$/.test(String(source).trim())) return source;
+  const canon = [];
+  for (const t of paizoNoticeTitles(tail)) { const c = bookIndex.get(bookKey(t)) || t; if (!canon.includes(c)) canon.push(c); }
+  if (!canon.length || canon.length > 2) return source;
+  registerPaizoBooks(canon);
+  return canon.join("; ");
+}
+/** A Paizo book already named in a source string, respelled the way the AoN originals spell it, so the "Any book" filter never lists one book
+ *  twice ("Pathfinder Roleplaying Game Advanced Race Guide" -> "Advanced Race Guide"). Anything that is not a Paizo book is returned as is. */
+export function canonicalPaizoBook(source, bookIndex) {
+  const s = String(source);
+  if (!s || /^Paizo(?:, Inc\.)?$/.test(s.trim()) || !isPaizoish(s)) return source;
+  return s.split(";").map((p) => { const t = p.trim(), c = isPaizoish(t) ? bookIndex.get(bookKey(t)) : null; return c || t; }).join("; ");
+}
