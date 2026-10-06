@@ -149,3 +149,15 @@ fires on that fault and stays quiet on the live data.
 - `d20-xref*.mjs` — cross-reference pull (`d20-xref.mjs` drives `-catalogs`, `-gather`, `-pull`; `-index` builds the archive name index once).
 - `d20-repair.mjs` — re-runnable cleanup of rows already live (dry run by default; `--apply`). Should report ~0 changes after every batch.
 - `d20-verify.mjs` — the gate. `--root <repo>`, `--baseline <git rev>` (default `b9c50cfa`, the last commit before any d20 import).
+
+## Product codes → books (`build-source-codes.mjs`, 2026-10-06)
+
+d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `PCS:DR`, `PAP61`). `node tools/d20/build-source-codes.mjs` decodes them into
+`source-codes.json` (`codes[code] = {book, how, uses, check:{lines,agree,other}}`, plus `unresolved`). 144 codes resolve, covering ~88% of code uses.
+- `PZO11xx` = the RPG line SKUs; `PZO94NN` = the Nth Player Companion in release order; `PZO90NNN`/`PAPnn` = Adventure Path volume N.
+- `PPC:` / `PCS:` / `PRG:` / `PCh:` codes = the INITIALS of a title inside that Paizo line. Where the initials fit several titles, the AoN entry names that
+  carry the same book settle it (`check.agree` vs `check.other`); `check` of 0/0 means initials-only (weakest: PPC:PA).
+- A few codes are literal web evidence (PZO9210/9211/9283/9286/9293/9297). Only literal code+title strings were accepted from search results.
+- Third-party codes (LG:, JBE:, LL:, SwA:, FGG:) and singletons are left unresolved on purpose.
+- `bookSource()` in `d20-attrib.mjs` uses the table only as a LAST resort (no Section 15 title; every code on the page names the same one book). Today that
+  changes 0 rows; it exists so a future import cannot leave a row at bare "Paizo, Inc." when its own page says which book.

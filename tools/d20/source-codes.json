@@ -1,0 +1,1747 @@
+{
+ "built": "2026-10-06",
+ "codes": {
+  "GMG": {
+   "book": "GameMastery Guide",
+   "how": "abbreviation",
+   "uses": 2,
+   "check": {
+    "lines": 0,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:LT": {
+   "book": "Lost Treasures",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:APG": {
+   "book": "Advanced Player's Guide",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 183,
+    "agree": 166,
+    "other": 16
+   }
+  },
+  "PRG:ACG": {
+   "book": "Advanced Class Guide",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 19,
+    "agree": 14,
+    "other": 1
+   }
+  },
+  "PRG:PU": {
+   "book": "Pathfinder Unchained",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 44,
+    "agree": 35,
+    "other": 3
+   }
+  },
+  "PRG:OA": {
+   "book": "Occult Adventures",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 12,
+   "check": {
+    "lines": 300,
+    "agree": 299,
+    "other": 0
+   }
+  },
+  "PRG:UC": {
+   "book": "Ultimate Combat",
+   "how": "initials fit 2 PRG titles; AoN entry names settle it (165 vs 41)",
+   "uses": 2,
+   "check": {
+    "lines": 209,
+    "agree": 165,
+    "other": 37
+   }
+  },
+  "PPC:CoL": {
+   "book": "Chronicle of Legends",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 42,
+   "check": {
+    "lines": 49,
+    "agree": 5,
+    "other": 0
+   }
+  },
+  "PPC:BotB": {
+   "book": "Blood of the Beast",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 12,
+    "agree": 3,
+    "other": 6
+   }
+  },
+  "PPC:C&C": {
+   "book": "Cohorts and Companions",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 16,
+    "agree": 9,
+    "other": 5
+   }
+  },
+  "PZO9446": {
+   "book": "The Harrow Handbook",
+   "how": "Player Companion SKUs run in release order: #46",
+   "uses": 4,
+   "check": {
+    "lines": 17,
+    "agree": 8,
+    "other": 5
+   }
+  },
+  "PZO1135": {
+   "book": "Horror Adventures",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 67,
+   "check": {
+    "lines": 300,
+    "agree": 231,
+    "other": 54
+   }
+  },
+  "PRG:GMG": {
+   "book": "GameMastery Guide",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 6,
+   "check": {
+    "lines": 6,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP44": {
+   "book": "Pathfinder #44: Trial of the Beast",
+   "how": "Adventure Path volume 44",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP115": {
+   "book": "Pathfinder #115: Trail of the Hunted",
+   "how": "Adventure Path volume 115",
+   "uses": 2,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:B4": {
+   "book": "Bestiary 4",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 10,
+   "check": {
+    "lines": 25,
+    "agree": 10,
+    "other": 1
+   }
+  },
+  "PZO9470": {
+   "book": "Legacy of Dragons",
+   "how": "Player Companion SKUs run in release order: #70",
+   "uses": 2,
+   "check": {
+    "lines": 60,
+    "agree": 52,
+    "other": 5
+   }
+  },
+  "PZO90119": {
+   "book": "Pathfinder #119: Prisoners of the Blight",
+   "how": "Adventure Path volume 119",
+   "uses": 1,
+   "check": {
+    "lines": 3,
+    "agree": 2,
+    "other": 0
+   }
+  },
+  "PAP97": {
+   "book": "Pathfinder #97: In Hell's Bright Shadow",
+   "how": "Adventure Path volume 97",
+   "uses": 3,
+   "check": {
+    "lines": 5,
+    "agree": 0,
+    "other": 2
+   }
+  },
+  "PCS:OLoP": {
+   "book": "Osirion, Legacy of Pharaohs",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 3,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:MC": {
+   "book": "Monster Codex",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 9,
+   "check": {
+    "lines": 83,
+    "agree": 72,
+    "other": 0
+   }
+  },
+  "PCS:AA": {
+   "book": "Aquatic Adventures",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 5,
+    "agree": 3,
+    "other": 0
+   }
+  },
+  "PPC:HoG": {
+   "book": "Heroes of Golarion",
+   "how": "initials fit 3 PPC titles; AoN entry names settle it (19 vs 0)",
+   "uses": 24,
+   "check": {
+    "lines": 54,
+    "agree": 19,
+    "other": 11
+   }
+  },
+  "PZO1117": {
+   "book": "Ultimate Magic",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 41,
+   "check": {
+    "lines": 300,
+    "agree": 241,
+    "other": 17
+   }
+  },
+  "PPC:PotW": {
+   "book": "People of the Wastes",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 7,
+    "agree": 4,
+    "other": 0
+   }
+  },
+  "PPC:CoB": {
+   "book": "Champions of Balance",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 8,
+    "agree": 5,
+    "other": 0
+   }
+  },
+  "PPC:MM": {
+   "book": "Magical Marketplace",
+   "how": "initials fit 2 PPC titles; AoN entry names settle it (8 vs 2)",
+   "uses": 10,
+   "check": {
+    "lines": 25,
+    "agree": 8,
+    "other": 4
+   }
+  },
+  "PPC:RTT": {
+   "book": "Ranged Tactics Toolbox",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 40,
+    "agree": 29,
+    "other": 7
+   }
+  },
+  "PZO9437": {
+   "book": "Demon Hunter's Handbook",
+   "how": "Player Companion SKUs run in release order: #37",
+   "uses": 2,
+   "check": {
+    "lines": 26,
+    "agree": 23,
+    "other": 1
+   }
+  },
+  "PPC:AM": {
+   "book": "Alchemy Manual",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 15,
+   "check": {
+    "lines": 19,
+    "agree": 4,
+    "other": 0
+   }
+  },
+  "PZO9297": {
+   "book": "Horror Realms",
+   "how": "retailer listing prints code and title: wondertrail.com 'PZO9297 Horror Realms Pathfinder Campaign Setting'",
+   "uses": 14,
+   "check": {
+    "lines": 15,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9424": {
+   "book": "Blood of Angels",
+   "how": "Player Companion SKUs run in release order: #24",
+   "uses": 2,
+   "check": {
+    "lines": 7,
+    "agree": 1,
+    "other": 4
+   }
+  },
+  "PZO1115": {
+   "book": "Advanced Player's Guide",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 98,
+   "check": {
+    "lines": 300,
+    "agree": 220,
+    "other": 25
+   }
+  },
+  "PZO1130": {
+   "book": "Monster Codex",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 2,
+   "check": {
+    "lines": 60,
+    "agree": 58,
+    "other": 0
+   }
+  },
+  "PZO9423": {
+   "book": "Blood of Fiends",
+   "how": "Player Companion SKUs run in release order: #23",
+   "uses": 3,
+   "check": {
+    "lines": 16,
+    "agree": 13,
+    "other": 0
+   }
+  },
+  "PPC:EMH": {
+   "book": "Elemental Master's Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9283": {
+   "book": "Inner Sea Monster Codex",
+   "how": "retailer listing prints code and title: opengamingstore.com/products/pzo9283-pathfinder-inner-sea-monster-codex",
+   "uses": 3,
+   "check": {
+    "lines": 9,
+    "agree": 6,
+    "other": 0
+   }
+  },
+  "PZO9480": {
+   "book": "Legacy of the First World",
+   "how": "Player Companion SKUs run in release order: #80",
+   "uses": 5,
+   "check": {
+    "lines": 26,
+    "agree": 11,
+    "other": 10
+   }
+  },
+  "PPC:WO": {
+   "book": "Wilderness Origins",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 24,
+   "check": {
+    "lines": 111,
+    "agree": 20,
+    "other": 55
+   }
+  },
+  "PZO9459": {
+   "book": "Dirty Tactics Toolbox",
+   "how": "Player Companion SKUs run in release order: #59",
+   "uses": 1,
+   "check": {
+    "lines": 22,
+    "agree": 17,
+    "other": 4
+   }
+  },
+  "PZO9457": {
+   "book": "Cohorts and Companions",
+   "how": "Player Companion SKUs run in release order: #57",
+   "uses": 3,
+   "check": {
+    "lines": 20,
+    "agree": 16,
+    "other": 1
+   }
+  },
+  "PZO9450": {
+   "book": "Champions of Corruption",
+   "how": "Player Companion SKUs run in release order: #50",
+   "uses": 8,
+   "check": {
+    "lines": 22,
+    "agree": 14,
+    "other": 0
+   }
+  },
+  "PZO1121": {
+   "book": "Advanced Race Guide",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 66,
+   "check": {
+    "lines": 300,
+    "agree": 100,
+    "other": 111
+   }
+  },
+  "PZO9468": {
+   "book": "Magic Tactics Toolbox",
+   "how": "Player Companion SKUs run in release order: #68",
+   "uses": 4,
+   "check": {
+    "lines": 138,
+    "agree": 76,
+    "other": 53
+   }
+  },
+  "PZO9488": {
+   "book": "Disciple's Doctrine",
+   "how": "Player Companion SKUs run in release order: #88",
+   "uses": 4,
+   "check": {
+    "lines": 32,
+    "agree": 21,
+    "other": 6
+   }
+  },
+  "PCS:HR": {
+   "book": "Horror Realms",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 8,
+    "agree": 6,
+    "other": 0
+   }
+  },
+  "PPC:P-HH": {
+   "book": "Plane-Hopper's Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 17,
+   "check": {
+    "lines": 17,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:BotS": {
+   "book": "Blood of the Sea",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 14,
+    "agree": 1,
+    "other": 12
+   }
+  },
+  "PZO9483": {
+   "book": "Elemental Master's Handbook",
+   "how": "Player Companion SKUs run in release order: #83",
+   "uses": 8,
+   "check": {
+    "lines": 25,
+    "agree": 17,
+    "other": 0
+   }
+  },
+  "PPC:BOS": {
+   "book": "Blood of Shadows",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:LOTFW": {
+   "book": "Legacy of the First World",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:PA": {
+   "book": "Psychic Anthology",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 24,
+   "check": {
+    "lines": 24,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:MAH": {
+   "book": "Martial Arts Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 13,
+   "check": {
+    "lines": 34,
+    "agree": 17,
+    "other": 4
+   }
+  },
+  "PPC:OO": {
+   "book": "Occult Origins",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 30,
+   "check": {
+    "lines": 103,
+    "agree": 70,
+    "other": 3
+   }
+  },
+  "PZO1140": {
+   "book": "Ultimate Wilderness",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 60,
+   "check": {
+    "lines": 300,
+    "agree": 188,
+    "other": 54
+   }
+  },
+  "PZO1134": {
+   "book": "Ultimate Intrigue",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 17,
+   "check": {
+    "lines": 300,
+    "agree": 270,
+    "other": 19
+   }
+  },
+  "PZO9286": {
+   "book": "Occult Realms",
+   "how": "retailer listing prints code and title: trollandtoad.com 'Pathfinder Campaign Setting Occult Realms (PZO9286)'",
+   "uses": 1,
+   "check": {
+    "lines": 5,
+    "agree": 4,
+    "other": 0
+   }
+  },
+  "PRG:TWoVHD": {
+   "book": "The World of Vampire Hunter D",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 8,
+    "agree": 0,
+    "other": 2
+   }
+  },
+  "PCS:OB": {
+   "book": "Occult Bestiary",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 5,
+    "agree": 0,
+    "other": 2
+   }
+  },
+  "PFU": {
+   "book": "Pathfinder Unchained",
+   "how": "d20pfsrd's abbreviation for Pathfinder Unchained",
+   "uses": 29,
+   "check": {
+    "lines": 105,
+    "agree": 17,
+    "other": 19
+   }
+  },
+  "PZO1118": {
+   "book": "Ultimate Combat",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 9,
+   "check": {
+    "lines": 300,
+    "agree": 296,
+    "other": 2
+   }
+  },
+  "PPC:SpyHB": {
+   "book": "Spymaster's Handbook",
+   "how": "abbreviation: Spy + Handbook",
+   "uses": 5,
+   "check": {
+    "lines": 53,
+    "agree": 40,
+    "other": 8
+   }
+  },
+  "PPC:GHH": {
+   "book": "Giant Hunter's Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 8,
+    "agree": 7,
+    "other": 0
+   }
+  },
+  "PCS:IST": {
+   "book": "Inner Sea Temples",
+   "how": "initials fit 2 PCS titles; AoN entry names settle it (4 vs 0)",
+   "uses": 4,
+   "check": {
+    "lines": 8,
+    "agree": 4,
+    "other": 0
+   }
+  },
+  "PCh:FG": {
+   "book": "Faction Guide",
+   "how": "abbreviation: PCh = the Chronicles era; Faiths of Golarion is a 2019 Campaign Setting",
+   "uses": 4,
+   "check": {
+    "lines": 4,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:WMH": {
+   "book": "Weapon Master's Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 18,
+   "check": {
+    "lines": 22,
+    "agree": 4,
+    "other": 0
+   }
+  },
+  "PPZO9410": {
+   "book": "Adventurer's Armory",
+   "how": "Player Companion SKUs run in release order: #10",
+   "uses": 31,
+   "check": {
+    "lines": 274,
+    "agree": 11,
+    "other": 200
+   }
+  },
+  "PZO1110": {
+   "book": "PRPG Core Rulebook",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 69,
+   "check": {
+    "lines": 300,
+    "agree": 242,
+    "other": 46
+   }
+  },
+  "PZO9410": {
+   "book": "Adventurer's Armory",
+   "how": "Player Companion SKUs run in release order: #10",
+   "uses": 99,
+   "check": {
+    "lines": 222,
+    "agree": 28,
+    "other": 46
+   }
+  },
+  "PZO9445": {
+   "book": "Alchemy Manual",
+   "how": "Player Companion SKUs run in release order: #45",
+   "uses": 21,
+   "check": {
+    "lines": 44,
+    "agree": 4,
+    "other": 1
+   }
+  },
+  "PZO9430": {
+   "book": "Dungeoneer's Handbook",
+   "how": "Player Companion SKUs run in release order: #30",
+   "uses": 16,
+   "check": {
+    "lines": 40,
+    "agree": 8,
+    "other": 6
+   }
+  },
+  "PZO9406": {
+   "book": "Qadira, Gateway to the East",
+   "how": "Player Companion SKUs run in release order: #6",
+   "uses": 2,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9211": {
+   "book": "Seekers of Secrets",
+   "how": "retailer listing prints code and title: pastebin.com/EsBiKz9y product listing",
+   "uses": 2,
+   "check": {
+    "lines": 11,
+    "agree": 7,
+    "other": 1
+   }
+  },
+  "PZO90115": {
+   "book": "Pathfinder #115: Trail of the Hunted",
+   "how": "Adventure Path volume 115",
+   "uses": 3,
+   "check": {
+    "lines": 6,
+    "agree": 1,
+    "other": 0
+   }
+  },
+  "PPC:FF": {
+   "book": "Familiar Folio",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 30,
+    "agree": 15,
+    "other": 11
+   }
+  },
+  "PZO9210": {
+   "book": "Dungeon Denizens Revisited",
+   "how": "retailer listing prints code and title: pastebin.com/EsBiKz9y product listing",
+   "uses": 2,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9432": {
+   "book": "Kobolds of Golarion",
+   "how": "Player Companion SKUs run in release order: #32",
+   "uses": 2,
+   "check": {
+    "lines": 17,
+    "agree": 8,
+    "other": 3
+   }
+  },
+  "PZO9455": {
+   "book": "Melee Tactics Toolbox",
+   "how": "Player Companion SKUs run in release order: #55",
+   "uses": 10,
+   "check": {
+    "lines": 64,
+    "agree": 46,
+    "other": 6
+   }
+  },
+  "PCh:DDR": {
+   "book": "Dungeon Denizens Revisited",
+   "how": "initials of a PCh title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 6,
+    "agree": 2,
+    "other": 0
+   }
+  },
+  "PZO1123": {
+   "book": "Ultimate Equipment",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 13,
+   "check": {
+    "lines": 300,
+    "agree": 92,
+    "other": 60
+   }
+  },
+  "PPC:DHB": {
+   "book": "Demon Hunter's Handbook",
+   "how": "abbreviation: D(emon) H(unter's) B(ook)",
+   "uses": 3,
+   "check": {
+    "lines": 8,
+    "agree": 0,
+    "other": 4
+   }
+  },
+  "PZO1129": {
+   "book": "Advanced Class Guide",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 13,
+   "check": {
+    "lines": 300,
+    "agree": 282,
+    "other": 4
+   }
+  },
+  "PPC:P&P": {
+   "book": "Potions and Poisons",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 20,
+   "check": {
+    "lines": 38,
+    "agree": 14,
+    "other": 3
+   }
+  },
+  "PPZO94102": {
+   "book": "Adventurer's Armory",
+   "how": "Player Companion SKUs run in release order: #10",
+   "uses": 30,
+   "check": {
+    "lines": 80,
+    "agree": 0,
+    "other": 41
+   }
+  },
+  "PPC:PotIS": {
+   "book": "Pirates of the Inner Sea",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 9,
+    "agree": 0,
+    "other": 1
+   }
+  },
+  "PZO9293": {
+   "book": "Path of the Hellknight",
+   "how": "retailer listing prints code and title: kupdf.net 'PZO9293 Path of the Hellknight.pdf'",
+   "uses": 1,
+   "check": {
+    "lines": 10,
+    "agree": 1,
+    "other": 8
+   }
+  },
+  "PZO9481": {
+   "book": "Adventurer's Armory 2",
+   "how": "Player Companion SKUs run in release order: #81",
+   "uses": 3,
+   "check": {
+    "lines": 27,
+    "agree": 18,
+    "other": 1
+   }
+  },
+  "PZO9449": {
+   "book": "People of the Stars",
+   "how": "Player Companion SKUs run in release order: #49",
+   "uses": 3,
+   "check": {
+    "lines": 16,
+    "agree": 5,
+    "other": 0
+   }
+  },
+  "PZO9487": {
+   "book": "Potions and Poisons",
+   "how": "Player Companion SKUs run in release order: #87",
+   "uses": 1,
+   "check": {
+    "lines": 16,
+    "agree": 6,
+    "other": 9
+   }
+  },
+  "PZO9434": {
+   "book": "Dragonslayer's Handbook",
+   "how": "Player Companion SKUs run in release order: #34",
+   "uses": 3,
+   "check": {
+    "lines": 10,
+    "agree": 7,
+    "other": 0
+   }
+  },
+  "PAP61": {
+   "book": "Pathfinder #61: Shards of Sin",
+   "how": "Adventure Path volume 61",
+   "uses": 7,
+   "check": {
+    "lines": 7,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:DR": {
+   "book": "Demons Revisited",
+   "how": "initials fit 4 PCS titles; AoN entry names settle it (10 vs 0)",
+   "uses": 10,
+   "check": {
+    "lines": 28,
+    "agree": 10,
+    "other": 7
+   }
+  },
+  "PCS:MCoM": {
+   "book": "Magnimar, City of Monuments",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP139": {
+   "book": "Pathfinder #139: The Dead Roads",
+   "how": "Adventure Path volume 139",
+   "uses": 7,
+   "check": {
+    "lines": 7,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO90126": {
+   "book": "Pathfinder #126: Beyond the Veiled Past",
+   "how": "Adventure Path volume 126",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PC:QGttE": {
+   "book": "Qadira, Gateway to the East",
+   "how": "initials of a PC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9467": {
+   "book": "Armor Master's Handbook",
+   "how": "Player Companion SKUs run in release order: #67",
+   "uses": 2,
+   "check": {
+    "lines": 77,
+    "agree": 75,
+    "other": 0
+   }
+  },
+  "PRG:OB": {
+   "book": "Occult Bestiary",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 4,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:DoG": {
+   "book": "Dungeons of Golarion",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:B6": {
+   "book": "Bestiary 6",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 15,
+    "agree": 11,
+    "other": 1
+   }
+  },
+  "PCS:NLoFS": {
+   "book": "Numeria, Land of Fallen Stars",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP30": {
+   "book": "Pathfinder #30: The Twice-Damned Prince",
+   "how": "Adventure Path volume 30",
+   "uses": 3,
+   "check": {
+    "lines": 3,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP25": {
+   "book": "Pathfinder #25: The Bastards of Erebus",
+   "how": "Adventure Path volume 25",
+   "uses": 1,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:PotR": {
+   "book": "People of the River",
+   "how": "initials fit 2 PPC titles; AoN entry names settle it (13 vs 0)",
+   "uses": 1,
+   "check": {
+    "lines": 16,
+    "agree": 13,
+    "other": 2
+   }
+  },
+  "PCh:HotJ": {
+   "book": "Heart of the Jungle",
+   "how": "initials of a PCh title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 7,
+    "agree": 0,
+    "other": 2
+   }
+  },
+  "PPC:PHH": {
+   "book": "Plane-Hopper's Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:BM": {
+   "book": "Black Markets",
+   "how": "initials fit 2 PPC titles; AoN entry names settle it (6 vs 0)",
+   "uses": 18,
+   "check": {
+    "lines": 25,
+    "agree": 6,
+    "other": 1
+   }
+  },
+  "PPC:AH": {
+   "book": "Antihero's Handbook",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 4,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP5": {
+   "book": "Pathfinder #5: Sins of the Saviors",
+   "how": "Adventure Path volume 5",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:UW": {
+   "book": "Ultimate Wilderness",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 17,
+   "check": {
+    "lines": 50,
+    "agree": 25,
+    "other": 2
+   }
+  },
+  "PZO1126": {
+   "book": "Mythic Adventures",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 9,
+   "check": {
+    "lines": 17,
+    "agree": 7,
+    "other": 1
+   }
+  },
+  "PPC:AoE": {
+   "book": "Agents of Evil",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 27,
+    "agree": 24,
+    "other": 1
+   }
+  },
+  "PPC:KotIS": {
+   "book": "Knights of the Inner Sea",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 1
+   }
+  },
+  "PPC:DTT": {
+   "book": "Dirty Tactics Toolbox",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 6,
+   "check": {
+    "lines": 11,
+    "agree": 4,
+    "other": 1
+   }
+  },
+  "PRG:UM": {
+   "book": "Ultimate Magic",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 143,
+    "agree": 131,
+    "other": 10
+   }
+  },
+  "PPC:HotHC": {
+   "book": "Heroes of the High Court",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 3,
+    "agree": 0,
+    "other": 1
+   }
+  },
+  "PCS:PSFG": {
+   "book": "Pathfinder Society Field Guide",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 6,
+    "agree": 0,
+    "other": 2
+   }
+  },
+  "PCS:ISMC": {
+   "book": "Inner Sea Monster Codex",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 15,
+   "check": {
+    "lines": 16,
+    "agree": 1,
+    "other": 0
+   }
+  },
+  "PCh:CMR": {
+   "book": "Classic Monsters Revisited",
+   "how": "initials of a PCh title (unique in that line)",
+   "uses": 3,
+   "check": {
+    "lines": 10,
+    "agree": 6,
+    "other": 1
+   }
+  },
+  "PRG:B1": {
+   "book": "Pathfinder RPG Bestiary",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 38,
+    "agree": 27,
+    "other": 5
+   }
+  },
+  "PRG:B2": {
+   "book": "Bestiary 2",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 19,
+    "agree": 13,
+    "other": 5
+   }
+  },
+  "PCS:CHR": {
+   "book": "Classic Horrors Revisited",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 8,
+   "check": {
+    "lines": 8,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:CMR": {
+   "book": "Classic Monsters Revisited",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9486": {
+   "book": "People of the Wastes",
+   "how": "Player Companion SKUs run in release order: #86",
+   "uses": 1,
+   "check": {
+    "lines": 27,
+    "agree": 22,
+    "other": 4
+   }
+  },
+  "PCS:ChotR": {
+   "book": "Chronicle of the Righteous",
+   "how": "abbreviation: Ch-o-t-R",
+   "uses": 3,
+   "check": {
+    "lines": 3,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "UM": {
+   "book": "Ultimate Magic",
+   "how": "abbreviation",
+   "uses": 1,
+   "check": {
+    "lines": 0,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9465": {
+   "book": "Arcane Anthology",
+   "how": "Player Companion SKUs run in release order: #65",
+   "uses": 1,
+   "check": {
+    "lines": 46,
+    "agree": 35,
+    "other": 9
+   }
+  },
+  "PCS:OR": {
+   "book": "Occult Realms",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 15,
+   "check": {
+    "lines": 31,
+    "agree": 16,
+    "other": 0
+   }
+  },
+  "PZO1138": {
+   "book": "Adventurer's Guide",
+   "how": "Paizo product number (Wikipedia list; retailer pages)",
+   "uses": 1,
+   "check": {
+    "lines": 56,
+    "agree": 45,
+    "other": 9
+   }
+  },
+  "PPC:BotA": {
+   "book": "Blood of the Ancients",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 6,
+    "agree": 5,
+    "other": 0
+   }
+  },
+  "PPC:BotM": {
+   "book": "Blood of the Moon",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 14,
+    "agree": 13,
+    "other": 0
+   }
+  },
+  "PCS:PotH": {
+   "book": "Path of the Hellknight",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 14,
+   "check": {
+    "lines": 14,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "APG": {
+   "book": "Advanced Player's Guide",
+   "how": "abbreviation",
+   "uses": 1,
+   "check": {
+    "lines": 0,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:PA": {
+   "book": "Planar Adventures",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 181,
+    "agree": 155,
+    "other": 19
+   }
+  },
+  "Pch:DDR": {
+   "book": "Dungeon Denizens Revisited",
+   "how": "initials of a Pch title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP10": {
+   "book": "Pathfinder #10: A History of Ashes",
+   "how": "Adventure Path volume 10",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PC:CaC": {
+   "book": "Cohorts and Companions",
+   "how": "initials of a PC title (unique in that line)",
+   "uses": 2,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:CoR": {
+   "book": "Concordance of Rivals",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 4,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:NLoS": {
+   "book": "Nidal, Land of Shadows",
+   "how": "initials of a PCS title (unique in that line)",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PRG:BotD": {
+   "book": "Book of the Damned",
+   "how": "initials of a PRG title (unique in that line)",
+   "uses": 9,
+   "check": {
+    "lines": 9,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:BotC": {
+   "book": "Blood of the Coven",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 4,
+   "check": {
+    "lines": 7,
+    "agree": 0,
+    "other": 3
+   }
+  },
+  "PAP140": {
+   "book": "Pathfinder #140: Eulogy for Roslar's Coffer",
+   "how": "Adventure Path volume 140",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP142": {
+   "book": "Pathfinder #142: Gardens of Gallowspire",
+   "how": "Adventure Path volume 142",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PPC:MO": {
+   "book": "Mythic Origins",
+   "how": "initials of a PPC title (unique in that line)",
+   "uses": 18,
+   "check": {
+    "lines": 18,
+    "agree": 0,
+    "other": 0
+   }
+  }
+ },
+ "unresolved": [
+  {
+   "code": "AP91",
+   "uses": 2,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PCS:BotD3",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PCS"
+  },
+  {
+   "code": "LG:LH",
+   "uses": 18,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "PPC:Orcs",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PPC"
+  },
+  {
+   "code": "SwA:AC",
+   "uses": 7,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "LG:LC",
+   "uses": 1,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "JBE:CM",
+   "uses": 11,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "TOP:FF",
+   "uses": 1,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "JBE:SPPC",
+   "uses": 4,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "DHH",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "RTT",
+   "uses": 3,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "AA",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "FF",
+   "uses": 3,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "LLC",
+   "uses": 21,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PRG:ACO",
+   "uses": 2,
+   "why": "no title in its line fits",
+   "family": "PRG"
+  },
+  {
+   "code": "PPC:Giants",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PPC"
+  },
+  {
+   "code": "FGG:LLWS",
+   "uses": 1,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "LL:HotW",
+   "uses": 8,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "PCS:Q2016",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PCS"
+  },
+  {
+   "code": "PCS:PotR",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PCS"
+  },
+  {
+   "code": "PSCS",
+   "uses": 6,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PZO9487E",
+   "uses": 2,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PFSFG",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PZO9232",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PZO9257",
+   "uses": 2,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PCS:Orcs",
+   "uses": 2,
+   "why": "no title in its line fits",
+   "family": "PCS"
+  },
+  {
+   "code": "USH",
+   "uses": 8,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PCS",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PCS:QJ2016",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PCS"
+  },
+  {
+   "code": "PAP:41",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PZO9267",
+   "uses": 2,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "FGG",
+   "uses": 4,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PFSRD",
+   "uses": 9,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PCh:PCS",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PCh"
+  },
+  {
+   "code": "PCS:HU",
+   "uses": 1,
+   "why": "ambiguous: Hell Unleashed | Heaven Unleashed",
+   "family": "PCS"
+  },
+  {
+   "code": "PZO9268",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PZO9446H",
+   "uses": 11,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "TOHC",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PCS:BotDV2",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PCS"
+  },
+  {
+   "code": "PPC:HotF",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PPC"
+  },
+  {
+   "code": "PPC:ISI",
+   "uses": 1,
+   "why": "no title in its line fits",
+   "family": "PPC"
+  },
+  {
+   "code": "BL10",
+   "uses": 3,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "BL7",
+   "uses": 3,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "UKC",
+   "uses": 16,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "PC:CS",
+   "uses": 2,
+   "why": "ambiguous: Campaign Setting | City of Strangers",
+   "family": "PC"
+  },
+  {
+   "code": "PC:AA",
+   "uses": 1,
+   "why": "ambiguous: Aquatic Adventures | Adventurer's Armory | Animal Archive | Arcane Anthology",
+   "family": "PC"
+  },
+  {
+   "code": "LG:LS",
+   "uses": 1,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  },
+  {
+   "code": "LLGT",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "DH48",
+   "uses": 1,
+   "why": "no rule",
+   "family": "other"
+  },
+  {
+   "code": "LG:UB",
+   "uses": 2,
+   "why": "third-party publisher code (not a Paizo book)",
+   "family": "other"
+  }
+ ]
+}

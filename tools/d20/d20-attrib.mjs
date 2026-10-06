@@ -12,6 +12,7 @@
  *     Reference Document)" as author, invented by the fallback in licenseNoteOf for content with no evidence.
  * The Section 15 notice on the page is the strongest evidence there is, so it wins over a breadcrumb guess.
  */
+import { readFileSync } from "node:fs";
 import { UNVERIFIED_NOTICE } from "./d20-clean.mjs";
 export const PLACEHOLDER_S15 = /Product Name Section 15 here|ADD BOOK\/SOURCE NAME HERE|Place Section 15 Statement|^\s*x\s*$/i;   // "x" alone: a page whose whole Section 15 is one letter (Drifthorn)   // the publisher template text where a real Section 15 should be
 export const UNVERIFIED_SOURCE = "Source unconfirmed";
@@ -245,9 +246,22 @@ export function bookSource(source, tail, bookIndex) {
   if (!/^Paizo(?:, Inc\.)?$/.test(String(source).trim())) return source;
   const canon = [];
   for (const t of paizoNoticeTitles(tail)) { const c = bookIndex.get(bookKey(t)) || t; if (!canon.includes(c)) canon.push(c); }
-  if (!canon.length || canon.length > 2) return source;
+  if (!canon.length) return bookFromCodes(source, tail, bookIndex);
+  if (canon.length > 2) return source;
   registerPaizoBooks(canon);
   return canon.join("; ");
+}
+let CODES = null;
+/** Last resort for a Paizo row whose page names no book in Section 15: the product codes d20pfsrd prints in its "Source PZO1115" lines, decoded by
+ *  build-source-codes.mjs into tools/d20/source-codes.json. Used only when every code on the page names the same ONE book. */
+function bookFromCodes(source, tail, bookIndex) {
+  if (!CODES) { try { CODES = JSON.parse(readFileSync(new URL("./source-codes.json", import.meta.url), "utf8")).codes; } catch { CODES = {}; } }
+  const found = new Set();
+  for (const m of String(tail).matchAll(/\bSource:?\s+(P?PZO\d{4,5}[A-Za-z]?\d?|(?:PPC|PCS|PRG|PCh|PC):[A-Za-z0-9&\-]{1,8})/g)) { const e = CODES[m[1]]; found.add(e ? e.book : "?"); }
+  if (found.size !== 1 || found.has("?")) return source;
+  const c = bookIndex.get(bookKey([...found][0])) || [...found][0];
+  registerPaizoBooks([c]);
+  return c;
 }
 /** A Paizo book already named in a source string, respelled the way the AoN originals spell it, so the "Any book" filter never lists one book
  *  twice ("Pathfinder Roleplaying Game Advanced Race Guide" -> "Advanced Race Guide"). Anything that is not a Paizo book is returned as is. */
