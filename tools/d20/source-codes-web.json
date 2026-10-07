@@ -1,0 +1,426 @@
+{
+ "researched": "2026-10-07",
+ "note": "Each entry: found by a research agent, then re-fetched and checked by a second agent trying to refute it. 'book' is the display title (translateCodes respells it through the AoN book index); 'official' is the full product title.",
+ "codes": [
+  {
+   "code": "LG:UB",
+   "book": "Ultimate Battle",
+   "official": "Ultimate Battle",
+   "publisher": "Legendary Games",
+   "evidence": "https://www.d20pfsrd.com/gamemastering/other-rules/mass-combat/3rd-party-mass-combat/",
+   "how": "code_and_title_on_page",
+   "quote": "Source: <a href=\"https://www.opengamingstore.com/products/ultimate-battle\">LG:UB</a> ... Section 15: Copyright Notice <a href=\"https://www.opengamingstore.com/products/ultimate-battle\">Ultimate Battle</a> © 2013, Legendary Games; Author Jason Nelson. (the LG:UB source link and the Section 15 'Ultimate Battle' link poin",
+   "audit": "I fetched the d20pfsrd page twice, once with WebFetch and once with curl for the raw HTML. The raw HTML contains \"LG:UB\" exactly 76 times, which matches the claimed use count. The entry text from the context appears in the Cavalry Sweep entry: \"...you are not considered engaged after attacking a non-mounted unit. Requirement: mounts. <span class=\"source\"><b>Source</b>: <a href=\"https://www.opengam"
+  },
+  {
+   "code": "TOHC",
+   "book": "Tome of Horrors Complete",
+   "official": "Tome of Horrors Complete",
+   "publisher": "Frog God Games (Necromancer Games, Inc.)",
+   "evidence": "https://www.d20pfsrd.com/bestiary/monster-listings/outsiders/demon/demon-lords/demon-lord-tsathogga-the-frog-god-tohc/",
+   "how": "entry_listed_under_book",
+   "quote": "Tsathogga page: 'SQ amphibious, planar omniscience' and 'Section 15: Copyright Notice: Tsathogga from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games'. Universal Monster Rules page (https://www.d20pfsrd.com/bestiary/rules-for-monsters/universal-monster-",
+   "audit": "I fetched both pages. The Tsathogga page's URL slug ends in \"-tohc\". Its Special Qualities line has \"planar omniscience\". Its Section 15 line reads \"Tsathogga from the Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors Scott Greene and Bill Webb.\" On the Universal Monster Rules page, \"Planar Knowledge [3PP]\" and \"Planar Omniscien"
+  },
+  {
+   "code": "PRG:ACO",
+   "book": "Advanced Class Origins",
+   "official": "Pathfinder Player Companion: Advanced Class Origins",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/WarpriestBlessingDisplay.aspx?ItemName=Scalykind",
+   "how": "entry_listed_under_book",
+   "quote": "Scalykind Blessing — Source: Advanced Class Origins pg. 25 — Deities: Apsu, Dahak, Ragadahn, Ydersius. Scaly Touch (minor): At 1st level, you can touch an ally as a standard action to grant it reptilian scales. (d20pfsrd https://www.d20pfsrd.com/classes/hybrid-classes/warpriest/blessings/ shows the same Scalykind entry",
+   "audit": "I fetched both pages and saw the evidence myself. The AoN page for Scalykind reads \"Source: Advanced Class Origins pg. 25\", Deities \"Apsu, Dahak, Ragadahn, Ydersius.\", and the Scaly Touch (minor) text begins \"At 1st level, you can touch an ally as a standard action to grant it reptilian scales.\" The d20pfsrd warpriest blessings page shows the Scalykind entry with \"Source: PRG:ACO\" and the same Sca"
+  },
+  {
+   "code": "JBE:BoHRC",
+   "book": "Book of Heroic Races Compendium",
+   "official": "Book of Heroic Races Compendium",
+   "publisher": "Jon Brazer Enterprises",
+   "evidence": "https://www.d20pfsrd.com/races/3rd-party-races/jon-brazer-enterprises/ursine/",
+   "how": "code_and_title_on_page",
+   "quote": "Section 15: Copyright Notice <a href=\"http://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-compendium-pfrpg\">Book of Heroic Races Compendium</a> © 2014, Jon Brazer Enterprises. The Drow page (https://www.d20pfsrd.com/races/other-races/featured-races/arg-drow/) shows 'Barbarian",
+   "audit": "I fetched both pages myself. (1) The Ursine page's Section 15 reads '\"Book of Heroic Races Compendium\" © 2014, Jon Brazer Enterprises' and links to opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-compendium-pfrpg. (2) The Drow page (arg-drow) reads 'The duration of the guarded stance rage power increases by +1/3 round. (Source JBE:BoHRC)' and the JBE:BoHRC link"
+  },
+  {
+   "code": "LG:LM",
+   "book": "Legendary Mesmerists",
+   "official": "Legendary Mesmerists",
+   "publisher": "Legendary Games",
+   "evidence": "https://www.d20pfsrd.com/classes/3rd-party-classes/legendary-games/legendary-mesmerist/",
+   "how": "code_and_title_on_page",
+   "quote": "Section 15: Copyright Notice <a href=\"https://www.opengamingstore.com/products/legendary-mesmerists\">Legendary Mesmerists</a> © 2024, Legendary Games; Authors: W. Hervay and Connor Bates. The d20pfsrd Mesmerist page (https://www.d20pfsrd.com/alternative-rule-systems/paizo-rules-systems/occult-adventures/occult-classes/",
+   "audit": "I fetched all three pages myself. (1) The d20pfsrd Mesmerist page shows the Sensory Blank (3pp) entry with a Source line whose label is \"LG:LM\" and whose link is https://www.opengamingstore.com/products/legendary-mesmerists. The Greater Sensory Blank (3pp) entry, \"This trick acts like sensory blank except that it does not end early if the mesmerist takes direct hostile action against the subject\","
+  },
+  {
+   "code": "PCh:PCS",
+   "book": "Pathfinder Campaign Setting",
+   "official": "Pathfinder Chronicles: Campaign Setting",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Coffin%20(common)",
+   "how": "entry_listed_under_book",
+   "quote": "AoN (1e) Coffin: 'Source Ultimate Equipment pg. 56, Adventurer's Armory pg. 19, Pathfinder Campaign Setting pg. 213'. d20pfsrd's Furniture page lists 'Coffin, normal / Coffin, ornate ... PCh:PCS'. AoN's Sources page lists 'Pathfinder Campaign Setting 9/1/2008' under Campaign Setting; Paizo store title: 'Pathfinder Chro",
+   "audit": "I fetched both pages and could not refute the claim. 1) AoN Coffin page (aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Coffin (common)) lists three sources: \"Ultimate Equipment pg. 56\", \"Adventurer's Armory pg. 19\" and \"Pathfinder Campaign Setting pg. 213\". Its entry text is a plain wooden coffin with a loose lid, and ornate coffins \"favored by aristocratic families for displaying their dead\". 2) "
+  },
+  {
+   "code": "PPC:Dragonslayer",
+   "book": "Dragonslayer's Handbook",
+   "official": "Pathfinder Player Companion: Dragonslayer's Handbook",
+   "publisher": "Paizo",
+   "evidence": "https://www.d20pfsrd.com/equipment/special-materials/",
+   "how": "entry_listed_under_book",
+   "quote": "Dragonhide — Source: <a title=\"PPC:Dragonslayer's\" href=\"http://www.amazon.com/gp/product/1601255268/...\">PPC:Dragonslayer’s</a>. Goodreads (https://www.goodreads.com/work/editions/25536672-pathfinder-player-companion-dragonslayer-s-handbook): 'Pathfinder Player Companion: Dragonslayer’s Handbook (Paperback)' ... '9781",
+   "audit": "I fetched both pages and could not refute the claim. The d20pfsrd special-materials page has a Dragonhide entry whose source is a link with text \"PPC:Dragonslayer’s\" and title \"PPC:Dragonslayer's\". Its href is an Amazon product link with ID 1601255268. The entry's HP/inch text, \"10 (hide of a dragon is typically between 1/2 inch and 1 inch thick)\", matches the context given. The Goodreads editions"
+  },
+  {
+   "code": "PPC:BoF",
+   "book": "Blood of Fiends",
+   "official": "Pathfinder Player Companion: Blood of Fiends",
+   "publisher": "Paizo",
+   "evidence": "https://www.d20pfsrd.com/races/other-races/featured-races/arg-tiefling/",
+   "how": "code_and_title_on_page",
+   "quote": "Section 15: <a href=\"http://www.amazon.com/Pathfinder-Player-Companion-Blood-Fiends/dp/1601254237/...\"> PPC:BoF </a>. © 2012, Paizo Publishing, LLC; Authors: Hal Maclean and Colin McComb. Variant Tiefling Heritages — Source: PPC:BoF (same Amazon link, URL slug 'Pathfinder-Player-Companion-Blood-Fiends'). Paizo store (h",
+   "audit": "I fetched both pages myself and could not refute the claim. The d20pfsrd arg-tiefling page has a Section 15 entry reading \"PPC:BoF. © 2012, Paizo Publishing, LLC; Authors: Hal Maclean and Colin McComb.\" The code links to the Amazon URL .../Pathfinder-Player-Companion-Blood-Fiends/dp/1601254237/. The \"Variant Tiefling Heritages\" section on the same page carries \"Source: PPC:BoF\" with the same link."
+  },
+  {
+   "code": "PPC:Giants",
+   "book": "Giant Hunter's Handbook",
+   "official": "Pathfinder Player Companion: Giant Hunter's Handbook",
+   "publisher": "Paizo",
+   "evidence": "https://www.d20pfsrd.com/skills/bluff/",
+   "how": "entry_listed_under_book",
+   "quote": "Feign Harmlessness — Source: <a href=\"http://www.amazon.com/gp/product/1601257120/...\">PPC:Giants</a>. Paizo store (https://store.paizo.com/pathfinder-player-companion-giant-hunter-s-handbook-pfrpg-pdf): 'Pathfinder Player Companion: Giant Hunter's Handbook PDF', 'ISBN-13: 978-1-60125-712-3' (whose ISBN-10 check-digit ",
+   "audit": "I fetched the d20pfsrd Bluff page myself. Under the Feign Harmlessness heading it shows \"Source: PPC:Giants\" followed by the exact sentence \"It's often useful to attempt to convince your enemies you are no threat to them\", so the context entry is the same text. The PPC:Giants link goes to Amazon product 1601257120. The same page has a second link labelled \"Giant Hunter's Handbook\", under Suggest C"
+  },
+  {
+   "code": "PAP123",
+   "book": "Pathfinder #123: The Flooded Cathedral",
+   "official": "Pathfinder Adventure Path #123: The Flooded Cathedral",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/MonsterDisplay.aspx?ItemName=Clockwork%20Soldier",
+   "how": "entry_listed_under_book",
+   "quote": "Clockwork Augmentations ... Efficient Winding: Built for long missions, a clockwork with this special ability can function for 2 days per Hit Die each time it's wound. Source: Pathfinder #123: The Flooded Cathedral pg. 81",
+   "audit": "I fetched the AoN Clockwork Soldier page twice. Under \"Clockwork Augmentations\" it has the Source line \"Pathfinder #123: The Flooded Cathedral pg. 81\". It also has Efficient Winding (Ex), which reads \"Built for long missions, a clockwork with this special ability can function for 2 days per Hit Die each time it's wound.\" This is the same text as the d20pfsrd context for PAP123, and the Charged abi"
+  },
+  {
+   "code": "PZO9280",
+   "book": "Inner Sea Races",
+   "official": "Pathfinder Campaign Setting: Inner Sea Races",
+   "publisher": "Paizo",
+   "evidence": "https://polter.pl/Pathfinder-Campaign-Setting-Inner-Sea-Races-n44736",
+   "how": "code_and_title_on_page",
+   "quote": "Pathfinder Campaign Setting: Inner Sea Races - Numer katalogowy: PZO9280 (also AoN lists changeling Witchborn and Hag Magic with Source Inner Sea Races pg. 215 / pg. 214, matching the PZO9280-tagged entries on d20pfsrd)",
+   "audit": "I fetched https://polter.pl/Pathfinder-Campaign-Setting-Inner-Sea-Races-n44736 myself. The page has the line \"Numer katalogowy: PZO9280\" and the product title \"Pathfinder Campaign Setting: Inner Sea Races\". That ties the code to the book. The AoN half of the claim (changeling Witchborn and Hag Magic at pg. 215 and 214) is not verified. I could not load the d20pfsrd gillmen or changeling pages (eve"
+  },
+  {
+   "code": "JBE:CM",
+   "book": "Cavalier Mounts",
+   "official": "Cavalier Mounts",
+   "publisher": "Jon Brazer Enterprises",
+   "evidence": "https://www.d20pfsrd.com/classes/base-classes/cavalier/",
+   "how": "entry_listed_under_book",
+   "quote": "The following druid's animal companions can be selected as mounts if your GM allows 3rd Party Publisher content (Source Cavalier Mounts by Jon Brazer Enterprises): Ant, Riding ... (the Animal Companions page https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/ shows 'Ant, Riding Source : JBE:CM'; stor",
+   "audit": "I fetched both pages myself and the claim holds. (1) The Cavalier class page (d20pfsrd.com/classes/base-classes/cavalier/), in its \"3rd Party Extras\" section, says \"The following druid's animal companions can be selected as mounts if your GM allows 3rd Party Publisher content\". It names the source as Cavalier Mounts by Jon Brazer Enterprises. The animal list includes \"Ant, Riding\", \"Cave Salamande"
+  },
+  {
+   "code": "JBE:SF:FCO",
+   "book": "Shadowsfall: Favored Class Options",
+   "official": "Shadowsfall: Favored Class Options",
+   "publisher": "Jon Brazer Enterprises",
+   "evidence": "https://www.d20pfsrd.com/races/other-races/featured-races/arg-ratfolk/",
+   "how": "code_and_title_on_page",
+   "quote": "3rd Party Publisher Favored Class Options – Jon Brazer Enterprises ... ( Source JBE:SF:FCO ) ... Section 15: Shadowsfall: Favored Class Options. ©2012, Jon Brazer Enterprises; Author Dale C. McCoy, Jr.",
+   "audit": "I fetched https://www.d20pfsrd.com/races/other-races/featured-races/arg-ratfolk/ and found the evidence there. A block headed \"3rd Party Publisher Favored Class Options – Jon Brazer Enterprises\" has 10 entries, each ending \"(Source JBE:SF:FCO)\". The entries are for Bard, Cavalier, Cleric, Inquisitor, Magus, Oracle, Paladin, Sorcerer, Witch and Wizard. The Oracle entry reads \"Add a +1 bonus on conc"
+  },
+  {
+   "code": "PFSFG",
+   "book": "Pathfinder Society Field Guide",
+   "official": "Pathfinder Campaign Setting: Pathfinder Society Field Guide",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Air+crystals",
+   "how": "entry_listed_under_book",
+   "quote": "Air crystals Source Pathfinder Society Field Guide pg. 48 ... These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. (d20pfsrd shows the same entry as 'Air Crystals Source PFSFG'; Paizo store title: Pathfinder Campaign Setting: Pathfinder Society Field Guide)",
+   "audit": "I fetched both pages and saw the literal text on each.\n\nAoN (aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Air+crystals): \"Source: Pathfinder Society Field Guide pg. 48\". The description reads \"These unpleasant-tasting, alchemically grown crystals release breathable air when chewed.\" AoN lists it as an Alchemical Remedies item at 50 gp.\n\nd20pfsrd (www.d20pfsrd.com/equipment/goods-and-services/herb"
+  },
+  {
+   "code": "PCS:QJ2016",
+   "book": "Qadira, Jewel of the East",
+   "official": "Pathfinder Campaign Setting: Qadira, Jewel of the East",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/SpecialMaterials.aspx",
+   "how": "entry_listed_under_book",
+   "quote": "Sunsilk Source Qadira, Jewel of the East pg. 33 ... takes on a golden glitter after it has been left to cure in the sun.",
+   "audit": "I fetched both pages myself. The AoN page (aonprd.com/SpecialMaterials.aspx) lists the Sunsilk entry with the source line \"Qadira, Jewel of the East pg. 33\". It contains the phrase \"takes on a golden glitter after it has been left to cure in the sun\". Its description matches the d20pfsrd entry: DR 2/bludgeoning clothing, inner armor lining, +6,000 gp. The d20pfsrd special-materials page shows Suns"
+  },
+  {
+   "code": "JBE:BoHR:AFCO",
+   "book": "Book of Heroic Races: Advanced Favored Class Options",
+   "official": "Book of Heroic Races: Advanced Favored Class Options – Expanded Pathfinder Race Abilities",
+   "publisher": "Jon Brazer Enterprises",
+   "evidence": "https://www.d20pfsrd.com/races/other-races/more-races/standard-races-1-10-rp/skinwalkers-10-rp/",
+   "how": "code_and_title_on_page",
+   "quote": "d20pfsrd Skinwalker page, under heading 'Jon Brazer Enterprises' favored class options: '**Source** [JBE:BoHR:AFCO]', linked to http://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-advanced-favored-class-options-pfrpg ; that store page's title reads 'Book of Heroic Races: Adva",
+   "audit": "I fetched the d20pfsrd Skinwalker page. Under the \"Jon Brazer Enterprises\" heading (\"Skinwalker Favored Class Options\") it has 43 favored-class entries, each ending in \"Source JBE:BoHR:AFCO\". That source text links to http://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-advanced-favored-class-options-pfrpg. The context snippet matches the page's Aegis ent"
+  },
+  {
+   "code": "USH",
+   "book": "Undead Slayer's Handbook",
+   "official": "Pathfinder Player Companion: Undead Slayer's Handbook",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Ghost+hunter%27s+kit",
+   "how": "entry_listed_under_book",
+   "quote": "Source: Undead Slayer's Handbook pg. 13 — 'This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber.' (Paizo store title: 'Pathfinder Player Companion: Undead Slayer's Handbook PDF', SKU PZO9444E)",
+   "audit": "I fetched the AoN page myself. It lists \"Source: Undead Slayer's Handbook pg. 13\" and the description \"This sturdy satchel is the quintessential toolkit for detecting ghosts and sending them to their final slumber.\" That is the same sentence as in the d20pfsrd context (Kit, Ghost Hunter's <<USH>>), so the d20pfsrd entry is this same item and the code sits where the book's name would. Limits: I did"
+  },
+  {
+   "code": "PZO9487E",
+   "book": "Potions and Poisons",
+   "official": "Pathfinder Player Companion: Potions & Poisons",
+   "publisher": "Paizo",
+   "evidence": "https://store.paizo.com/pathfinder-player-companion-potions-poisons-pfrpg-pdf",
+   "how": "code_and_title_on_page",
+   "quote": "Store page: Title 'Pathfinder Player Companion: Potions & Poisons PDF', SKU 'PZO9487E'. Corroborated by AoN entry Stalker's oil (https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Stalker's+oil): 'Source: Potions and Poisons pg. 29'; d20pfsrd lists 'Oil, Stalkers' with 'Source: PZO9487E'.",
+   "audit": "I fetched the Paizo store page myself. Its title is \"Pathfinder Player Companion: Potions & Poisons PDF\" and its product details show \"SKU: PZO9487E\", so the code ties directly to this book. I also fetched the AoN page for Stalker's oil. Its Source line reads \"Potions and Poisons pg. 29\". Its description begins \"This is a clear, viscous liquid that is typically kept in a frosted glass vial with an"
+  },
+  {
+   "code": "DHH",
+   "book": "Demon Hunter's Handbook",
+   "official": "Pathfinder Player Companion: Demon Hunter's Handbook",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/RangerTraps.aspx",
+   "how": "entry_listed_under_book",
+   "quote": "Anchoring Trap* (Su) — Source: Demon Hunter's Handbook pg. 11 — 'This trap can be added to a supernatural snare trap. The trap briefly imprisons any called creature'. AoN's Demon Hunter's Handbook source page also lists 'Anchoring Trap* (Su)' under Ranger Traps. (Paizo store title: 'Pathfinder Player Companion: Demon H",
+   "audit": "I fetched https://aonprd.com/RangerTraps.aspx myself. The \"Anchoring Trap\" entry has the source line \"Demon Hunter's Handbook pg. 11\". Its description opens \"This trap can be added to a supernatural snare trap. The trap briefly imprisons any called creature\". That is the same entry text as the d20pfsrd context for <<DHH>> (Ranger Traps, \"Anchoring Trap* (Su)\", \"This trap can be added to a supernat"
+  },
+  {
+   "code": "LG:LH",
+   "book": "Legendary Hunters",
+   "official": "Legendary Hunters",
+   "publisher": "Legendary Games",
+   "evidence": "https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions/",
+   "how": "code_and_title_on_page",
+   "quote": "d20pfsrd animal companions page: 'Source [LG:LH](https://www.opengamingstore.com/products/legendary-hunters)'; that store page shows product title 'Legendary Hunters', publisher 'Legendary Games'.",
+   "audit": "I saw the literal evidence on both pages. WebFetch of the d20pfsrd animal-companions page returned `Source [LG:LH](https://www.opengamingstore.com/products/legendary-hunters)` under Bird, Harpy Eagle. I also downloaded the raw HTML with curl and found 18 LG:LH links on the page. The Otyugh entry itself has `<p class=\"source\"><b>Source</b> <a href=\"https://www.opengamingstore.com/products/legendary"
+  },
+  {
+   "code": "PZO9232",
+   "book": "Rival Guide",
+   "official": "Pathfinder Campaign Setting: Rival Guide",
+   "publisher": "Paizo",
+   "evidence": "https://store.paizo.com/pathfinder-campaign-setting-rival-guide-pfrpg-pdf/",
+   "how": "code_and_title_on_page",
+   "quote": "Store page: Title 'Pathfinder Campaign Setting: Rival Guide PDF', SKU 'PZO9232E' (print = PZO9232). Corroborated by AoN entry Blackfingers paste (https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Blackfingers+paste): 'Source: Rival Guide pg. 53' — 'Developed by followers of Norgorber, this inky paste aids unskilled",
+   "audit": "I fetched the Paizo store page myself. Its title is \"Pathfinder Campaign Setting: Rival Guide PDF\" and its SKU is \"PZO9232E\", which is the PZO9232 code plus Paizo's usual \"E\" ebook suffix. The page does not show the print SKU \"PZO9232\" literally; that part is an inference from the suffix convention. I also fetched the AoN Blackfingers paste page. It reads \"Source: Rival Guide pg. 53\" and begins \"D"
+  },
+  {
+   "code": "PCS:BotD3",
+   "book": "Book of the Damned Volume 3: Horsemen of the Apocalypse",
+   "official": "Pathfinder Campaign Setting: Book of the Damned Volume 3 – Horsemen of the Apocalypse",
+   "publisher": "Paizo",
+   "evidence": "https://www.d20pfsrd.com/magic/",
+   "how": "entry_listed_under_book",
+   "quote": "d20pfsrd Magic page, 'Summoning Daemons' section: 'Daemons sense mortal souls like sharks smell the blood of a wounded animal thrashing in the water.' Source tag 'PCS:BotD3' links to amazon.com/gp/product/1601253737 (ISBN-10 of ISBN 978-1-60125-373-6); PathfinderWiki (https://pathfinderwiki.com/wiki/Horsemen_of_the_Apo",
+   "audit": "I fetched https://www.d20pfsrd.com/magic/ (the section I needed was past character 100000) and saw the text \"Daemons sense mortal souls like sharks smell the blood of a wounded animal\". The fetch tool showed only part of the sentence and said the rest was cut, because of its quote limit. The source tag next to it is \"PCS:BotD3\". That tag links to http://www.amazon.com/gp/product/1601253737/... (cr"
+  },
+  {
+   "code": "PAP82:SotS",
+   "book": "Pathfinder #82: Secrets of the Sphinx",
+   "official": "Pathfinder Adventure Path #82: Secrets of the Sphinx (Mummy's Mask 4 of 6)",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/SpellDisplay.aspx?ItemName=Bestow+Curse,+Greater",
+   "how": "entry_listed_under_book",
+   "quote": "AoN Bestow Curse, Greater — 'Source: Pathfinder #82: Secrets of the Sphinx pg. 75'; 'School necromancy; Level arcanist 8, cleric 7, oracle 7, sorcerer 8, witch 7, wizard 8'. Paizo store title: 'Pathfinder Adventure Path #82: Secrets of the Sphinx (Mummy's Mask 4 of 6)'.",
+   "audit": "I fetched both pages. AoN (aonprd.com SpellDisplay, Bestow Curse, Greater) literally reads \"Source: Pathfinder #82: Secrets of the Sphinx pg. 75\" and \"School necromancy; Level arcanist 8, cleric 7, oracle 7, sorcerer 8, witch 7, wizard 8\". The d20pfsrd Bestow Curse page, in its Bestow Curse, Greater section, carries source code \"PAP82:SotS\" with \"School necromancy; Level cleric 7, sorcerer/wizard "
+  },
+  {
+   "code": "JBE:BoHR:AWyr",
+   "book": "Book of Heroic Races: Advanced Wyrwoods",
+   "official": "Book of Heroic Races: Advanced Wyrwoods",
+   "publisher": "Jon Brazer Enterprises",
+   "evidence": "https://www.d20pfsrd.com/races/other-races/more-races/advanced-races-11-20-rp/wyrwood-20-rp/",
+   "how": "code_and_title_on_page",
+   "quote": "A wyrwood with this alternate racial ability is not immune to mind-affecting effects. Source JBE:BoHR:AWyr (link href: http://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-advanced-wyrwoods-pfrpg ; that store page's title: 'Book of Heroic Races: Advanced Wyrwoods (PFRPG)', ven",
+   "audit": "I fetched the d20pfsrd Wyrwood (20 RP) page. It has five alternate racial traits (Emotional, Aura Seer, Stone Sentinel, Swimmer, War Titan). Each ends with a \"Source JBE:BoHR:AWyr\" line linking to http://www.opengamingstore.com/collections/jon-brazer-enterprises/products/book-of-heroic-races-advanced-wyrwoods-pfrpg. The Emotional trait text \"A wyrwood with this alternate racial ability is not immu"
+  },
+  {
+   "code": "PZO9257",
+   "book": "Castles of the Inner Sea",
+   "official": "Pathfinder Campaign Setting: Castles of the Inner Sea",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Castles_of_the_Inner_Sea",
+   "how": "code_and_title_on_page",
+   "quote": "SKU lines: Softcover 'PZO9257', PDF 'PZO9257E'; 'Castles of the Inner Sea, a Pathfinder Campaign Setting sourcebook by Alyssa Faden and Tim Hitchcock'. Also Archives of Nethys Equipment 'Powder ball': Source 'Castles of the Inner Sea pg. 39' (https://www.aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Powder ball (empty)",
+   "audit": "I fetched both pages myself. The PathfinderWiki page for Castles of the Inner Sea lists the softcover SKU PZO9257 and the PDF SKU PZO9257E. It names Tim Hitchcock and Alyssa Faden as authors and Paizo Inc. as publisher, so the code ties directly to this book. The AoN page for the powder ball gives its Source as \"Castles of the Inner Sea pg. 39\". Its price (400 gp empty, 300 gp fuel) and weight (4 "
+  },
+  {
+   "code": "PZO9268",
+   "book": "Inner Sea Combat",
+   "official": "Pathfinder Campaign Setting: Inner Sea Combat",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Inner_Sea_Combat",
+   "how": "code_and_title_on_page",
+   "quote": "SKUs: Softcover 'PZO9268', PDF 'PZO9268E'; product title 'Inner Sea Combat', series 'Pathfinder Campaign Setting'. Corroboration: Archives of Nethys Ranger Combat Styles lists the ranger 'Faithful' (deity) combat styles with 'Source Inner Sea Combat pg. 11'.",
+   "audit": "I fetched all three pages myself. (1) PathfinderWiki /wiki/Inner_Sea_Combat lists Softcover SKU \"PZO9268\" and PDF SKU \"PZO9268E\". It gives the title as Inner Sea Combat, the series as Pathfinder Campaign Setting, and the publisher as Paizo Inc. So the quote is real and ties the code to the book. (2) The d20pfsrd Ranger Combat Styles page has a \"Divine Combat Styles\" section whose source line is \"["
+  },
+  {
+   "code": "PCS:HU",
+   "book": "Heaven Unleashed",
+   "official": "Pathfinder Campaign Setting: Heaven Unleashed",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://www.d20pfsrd.com/feats/general-feats/leadership-final/",
+   "how": "code_and_title_on_page",
+   "quote": "Cervine Protector - Source PCS:HU (link: https://www.amazon.com/gp/product/1601258283/...creativeASIN=1601258283...). That Amazon product page (https://www.amazon.com/dp/1601258283) is titled 'Pathfinder Campaign Setting: Heaven Unleashed'; Open Library ISBN 9781601258281 gives 'Heaven Unleashed', Paizo Inc.",
+   "audit": "I fetched https://www.d20pfsrd.com/feats/general-feats/leadership-final/ myself. The Cervine Protector entry reads \"Source [PCS:HU]\". The label links to https://www.amazon.com/gp/product/1601258283/...creativeASIN=1601258283.... The entry text matches the context: \"A cervine protector might be encountered in natural settings or stand vigil, ensuring that no taint befalls their charge.\" The \"Effect"
+  },
+  {
+   "code": "PZO9422",
+   "book": "Pirates of the Inner Sea",
+   "official": "Pathfinder Player Companion: Pirates of the Inner Sea",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Pirates_of_the_Inner_Sea",
+   "how": "code_and_title_on_page",
+   "quote": "SKUs: Softcover 'PZO9422', PDF 'PZO9422E'; title 'Pathfinder Player Companion: Pirates of the Inner Sea'. Also Archives of Nethys Equipment 'Tar bomb': Source 'Pirates of the Inner Sea pg. 21' (https://www.aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Tar bomb).",
+   "audit": "I fetched both pages myself. The PathfinderWiki page \"Pirates of the Inner Sea\" lists Softcover SKU \"PZO9422\" and PDF SKU \"PZO9422E\" (February 2012). It describes the book as a Pathfinder Player Companion by Amber E. Scott, published by Paizo Inc. The AoN \"Tar bomb\" page gives Source \"Pirates of the Inner Sea pg. 21\". Its text starts \"A tar bomb is an easy weapon to make, and devastating in use.\","
+  },
+  {
+   "code": "PCS:PotR",
+   "book": "People of the River",
+   "official": "Pathfinder Player Companion: People of the River",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://www.d20pfsrd.com/gamemastering/combat/",
+   "how": "code_and_title_on_page",
+   "quote": "Swinging Charge from Ropes or Vines - Source PCS:PotR (link: http://www.amazon.com/gp/product/1601256663/...creativeASIN=1601256663...). That Amazon page (https://www.amazon.com/dp/1601256663) is titled 'Pathfinder Player Companion: People of the River'; Open Library ISBN 9781601256669 gives 'Pathfinder Player Companio",
+   "audit": "I fetched the d20pfsrd combat page myself. Under \"Swinging Charge from Ropes or Vines\" the Source line reads \"PCS:PotR\". That text links to Amazon product 1601256663, and the URL also carries creativeASIN=1601256663. The entry's first sentence matches your context: \"As a full-round action, you can swing using a rope, vine, or similar aid within reach toward an opponent...\". I also fetched https://"
+  },
+  {
+   "code": "PPC:HH",
+   "book": "Healer's Handbook",
+   "official": "Pathfinder Player Companion: Healer's Handbook",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/SourceDisplay.aspx?FixedSource=Healer%27s+Handbook",
+   "how": "entry_listed_under_book",
+   "quote": "Healer's Handbook ... Paladin Mercies: Amputated, Confused, Deceived, Enfeebled, Ensorcelled, Haunted, Injured, Petrified, Restorative, Riled, Targeted. Cross-check: the d20pfsrd Paladin page (https://www.d20pfsrd.com/classes/core-classes/paladin/) carries the same mercies (Deceived, Riled, Haunted, Targeted, Ensorcell",
+   "audit": "I could not refute the claim. On AoN, the \"Healer's Handbook\" source page (Player Companion line, Paizo store link) lists \"Paladin Mercies [11]\": Amputated, Confused, Deceived, Enfeebled, Ensorcelled, Haunted, Injured, Petrified, Restorative, Riled, Targeted. It shows no code and no description text. I checked the d20pfsrd Paladin page's raw HTML directly. It has exactly 11 \"PPC:HH\" source tags, o"
+  },
+  {
+   "code": "PPC:F-Balance",
+   "book": "Faiths of Balance",
+   "official": "Pathfinder Player Companion: Faiths of Balance",
+   "publisher": "Paizo",
+   "evidence": "https://www.aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Bronze+gong",
+   "how": "entry_listed_under_book",
+   "quote": "Bronze gong ... Source Faiths of Balance pg. 24. (The AoN source page https://aonprd.com/SourceDisplay.aspx?FixedSource=Faiths+of+Balance lists Equipment (Misc.) [7] Bronze gong, Driftwood icon, Iron eye, Just scale, Stinging whip ...; d20pfsrd https://www.d20pfsrd.com/equipment/goods-and-services/toys-games-puzzles/ l",
+   "audit": "I fetched both pages myself. AoN's Bronze gong page lists its only source as \"Faiths of Balance pg. 24\", and it links to the store page for that book. The d20pfsrd toys-games-puzzles page lists \"Bronze gong, 100 gp, 5 lbs., PPC:F-Balance\". Both pages carry the same entry text: a small masterwork metal gong that stays charged for 8 hours, with a soft strike that focuses the striker and gives a ki-p"
+  },
+  {
+   "code": "RTT",
+   "book": "Ranged Tactics Toolbox",
+   "official": "Pathfinder Player Companion: Ranged Tactics Toolbox",
+   "publisher": "Paizo",
+   "evidence": "https://aonprd.com/SourceDisplay.aspx?FixedSource=Ranged+Tactics+Toolbox",
+   "how": "entry_listed_under_book",
+   "quote": "Ranged Tactics Toolbox ... Ranger Traps [4] Bludgeoning Trap (Ex or Su), Decoy Trap (Su), Dirty Trick Trap* (Ex or Su) ... (AoN https://aonprd.com/RangerTraps.aspx: Bludgeoning Trap \"Source Ranged Tactics Toolbox pg. 15\"; d20pfsrd ranger-traps page lists the same trap with \"Source RTT\")",
+   "audit": "I fetched all three pages myself and the claim holds. (1) The AoN source page https://aonprd.com/SourceDisplay.aspx?FixedSource=Ranged+Tactics+Toolbox lists \"Ranger Traps [4]\" and \"Bludgeoning Trap (Ex or Su)\" under Ranged Tactics Toolbox. It shows \"Product Line: Player Companion\" and links to a paizo.com store page. It gives no page number and does not define \"RTT\" itself. (2) https://aonprd.com/"
+  },
+  {
+   "code": "PZO9226",
+   "book": "The Inner Sea World Guide",
+   "official": "Pathfinder Campaign Setting: The Inner Sea World Guide",
+   "publisher": "Paizo",
+   "evidence": "https://pathfinderwiki.com/wiki/The_Inner_Sea_World_Guide",
+   "how": "code_and_title_on_page",
+   "quote": "Pathfinder Campaign Setting: The Inner Sea World Guide ... Releases Hardcover SKU PZO9226 Date March 2011 ISBN 978-1-60125-269-2. (d20pfsrd books page lists \"Book, adventurer's chronicle 50 gp 1 lb. PZO9226\" linking to Amazon ISBN-10 1601252692 = this ISBN; AoN https://aonprd.com/EquipmentMiscDisplay.aspx?ItemName=Path",
+   "audit": "I fetched all three pages and the claim held up. (1) The PathfinderWiki page \"The_Inner_Sea_World_Guide\" literally lists hardcover SKU \"PZO9226\" (PDF SKU \"PZO9226E\"), ISBN \"978-1-60125-269-2\" and release date \"March 2011\". (2) The d20pfsrd books page (https://www.d20pfsrd.com/equipment/goods-and-services/books-paper-writing-supplies) has the table row \"Book, adventurer's chronicle 50 gp 1 lb.\" and"
+  },
+  {
+   "code": "LG:LS",
+   "book": "Legendary Samurai",
+   "official": "Legendary Samurai",
+   "publisher": "Legendary Games",
+   "evidence": "https://www.d20pfsrd.com/equipment/special-materials-third-party/",
+   "how": "code_and_title_on_page",
+   "quote": "Blood Iron: Source: <a href=\"https://www.opengamingstore.com/collections/all-products/products/legendary-samurai\">LG:LS</a> (link target is the Open Gaming Store product page titled \"Legendary Samurai - Pathfinder 1e Samurai Class Supplement\", vendor Legendary Games). Corroboration: d20pfsrd Blade of the Bloodthirsty (",
+   "audit": "I fetched https://www.d20pfsrd.com/equipment/special-materials-third-party/ myself. The Blood Iron entry's Source line reads \"Source: [LG:LS](https://www.opengamingstore.com/collections/all-products/products/legendary-samurai)\". That is the exact code and the same Blood Iron entry as in the context. I then fetched the link target. It is titled \"Legendary Samurai – Pathfinder 1e Samurai Class Suppl"
+  },
+  {
+   "code": "PCS:BotDV2",
+   "book": "Book of the Damned Volume 2: Lords of Chaos",
+   "official": "Pathfinder Campaign Setting: Book of the Damned - Volume 2: Lords of Chaos",
+   "publisher": "Paizo",
+   "evidence": "https://pathfinderwiki.com/wiki/Demon",
+   "how": "entry_listed_under_book",
+   "quote": "References: \"James Jacobs. 'Demonkind' in Lords of Chaos, Book of the Damned Volume 2, 33. Paizo Inc., 2010\". d20pfsrd https://www.d20pfsrd.com/bestiary/monster-listings/outsiders/demon/ has the section heading \"Demonkind\" with \"Source: PCS:BotDV2\"; sibling d20pfsrd pages (Demon Lords, The Abyss) carry the Section 15 n",
+   "audit": "I fetched three pages myself. (1) The d20pfsrd Demon page has a \"Demonkind\" heading with \"Source: PCS:BotDV2\", followed by the paragraph opening \"Although mortals cannot recall a time when they were not haunted and tormented by demons\". That matches the context given. (2) PathfinderWiki's Demon page has the reference \"James Jacobs. 'Demonkind' in Lords of Chaos, Book of the Damned Volume 2, 33. Pa"
+  },
+  {
+   "code": "PPC:PotH",
+   "book": "Path of the Hellknight",
+   "official": "Pathfinder Campaign Setting: Path of the Hellknight",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://www.amazon.com/dp/1601258437",
+   "how": "code_and_title_on_page",
+   "quote": "d20pfsrd Hell Knight page (https://www.d20pfsrd.com/classes/prestige-classes/other-paizo/e-h/hellknight/) prints 'Source PPC:PotH' nine times, each linked to amazon.com/gp/product/1601258437 (ISBN-10). Amazon page for that ISBN: 'Pathfinder Campaign Setting: Path of the Hellknight: Schneider, F. Wesley: 9781601258434'.",
+   "audit": "I fetched both pages and couldn't refute the claim. The d20pfsrd Hellknight page shows nine \"Source PPC:PotH\" lines. Each one links to amazon.com/gp/product/1601258437 (creativeASIN=1601258437). The Call Armor entry has the exact sentence \"can attune this ability to a new set of armor, but doing so takes 1 week\", with the PPC:PotH source line right after it, and the Censor (Order of the Rack) entr"
+  },
+  {
+   "code": "PSCS",
+   "book": "Pure Steam Campaign Setting",
+   "official": "Pure Steam Campaign Setting",
+   "publisher": "ICOSA Entertainment, LLC",
+   "evidence": "http://www.opengamingstore.com/collections/icosa-entertainment-llc/products/pure-steam-campaign-setting",
+   "how": "code_and_title_on_page",
+   "quote": "d20pfsrd Special Materials (Third-Party) page, Asbestos Cloth entry: 'Source: PSCS', where the PSCS link (title=\"PSCS\") points to the opengamingstore.com product page titled 'Pure Steam Campaign Setting – Steampunk Pathfinder RPG World', publisher 'ICOSA Entertainment, LLC'.",
+   "audit": "I fetched both pages myself.\n\n1. The d20pfsrd page https://www.d20pfsrd.com/equipment/special-materials-third-party/ has this under Asbestos Cloth: Source: [PSCS](http://www.opengamingstore.com/collections/icosa-entertainment-llc/products/pure-steam-campaign-setting \"PSCS\"). The link text and title are both PSCS. The same URL is also the PSCS link on the Copper-Plated entry.\n2. The Asbestos Cloth "
+  },
+  {
+   "code": "PPC:Halflings",
+   "book": "Halflings of Golarion",
+   "official": "Pathfinder Player Companion: Halflings of Golarion",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Halflings_of_Golarion",
+   "how": "code_and_title_on_page",
+   "quote": "d20pfsrd Adventuring Gear page: the PPC:Halflings source link (title=\"PPC:Halflings\") points to amazon.com/gp/product/1601252781 (ISBN-13 9781601252784). Open Library for ISBN 9781601252784: title 'Halflings of Golarion', publisher 'Paizo Inc.'. PathfinderWiki: 'Pathfinder Player Companion: Halflings of Golarion', ISBN",
+   "audit": "I tried to refute the claim and could not. The offered PathfinderWiki page does not itself mention d20pfsrd or the Amazon link, so the quoted evidence is a composite. The chain still holds when I fetch each piece. (1) The d20pfsrd page https://www.d20pfsrd.com/equipment/goods-and-services/hunting-camping-survival-gear has the entry \"Ale, Luglurch\". It shows the pale, frothy beer that is \"too salty"
+  },
+  {
+   "code": "PZO9267",
+   "book": "Inner Sea Gods",
+   "official": "Pathfinder Campaign Setting: Inner Sea Gods",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Inner_Sea_Gods",
+   "how": "code_and_title_on_page",
+   "quote": "PathfinderWiki: 'Pathfinder Campaign Setting: Inner Sea Gods', ISBN 978-1-60125-597-6, 'Product code: PZO9267 (hardcover)'. The d20pfsrd Creature Types page (Godspawn Subtype, 'Source: PZO9267') links to amazon.com/dp/1601255977, whose title tag reads 'Pathfinder Campaign Setting: Inner Sea Gods: 9781601255976'.",
+   "audit": "I fetched both pages myself. PathfinderWiki's Inner Sea Gods page lists the hardcover under Releases as \"SKU: PZO9267\" and gives ISBN 978-1-60125-597-6. The PDF is \"PZO9267E\". The label there is \"SKU\", not \"Product code\" as the claim quotes it, but it is the same identifier. On d20pfsrd's Creature Types page, the Godspawn Subtype section reads \"Source: PZO9267\", linking to amazon.com/gp/product/16"
+  },
+  {
+   "code": "PZO9226-Revised",
+   "book": "The Inner Sea World Guide",
+   "official": "Pathfinder Campaign Setting: The Inner Sea World Guide",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Inner_Sea_World_Guide",
+   "how": "code_and_title_on_page",
+   "quote": "PathfinderWiki: 'Pathfinder Campaign Setting: The Inner Sea World Guide', ISBN 978-1-60125-269-2, 'Product code: PZO9226'. The d20pfsrd Religious Items, Toys & Games page, Flag entry, has <a title=\"PZO9226-Revised\" href=\"...amazon.com/gp/product/1601252692...\">, and Amazon ISBN 9781601252692 is 'Pathfinder: Campaign Se",
+   "audit": "I fetched the pages myself. The d20pfsrd page https://www.d20pfsrd.com/equipment/goods-and-services/toys-games-puzzles (the \"Religious Items, Toys & Games\" page) has the Flag (banner) row and the \"Flag\" description. Both carry <a title=\"PZO9226-Revised\" href=\"http://www.amazon.com/gp/product/1601252692/...\" >PZO9226-Revised</a>. The Flag description reads \"A flag is a colorful banner that bears th"
+  },
+  {
+   "code": "LLGT",
+   "book": "Luven Lightfinger's Gear and Treasure Shop",
+   "official": "Luven Lightfinger's Gear and Treasure Shop",
+   "publisher": "4 Winds Fantasy Gaming",
+   "evidence": "https://www.d20pfsrd.com/equipment/3rd-party-equipment/3rd-party-weapons/4-winds-fantasy-gaming/cutlass/",
+   "how": "entry_listed_under_book",
+   "quote": "d20pfsrd 3rd Party Weapons table lists Cutlass, Dagger (stone), Broadsword and Scourge with the source tag '4W:LLGT'; the Cutlass page (under '4 Winds Fantasy Gaming') ends 'Section 15: Copyright Notice Luven Lightfinger's Gear and Treasure Shop ... Copyright 2010, 4 Winds Fantasy Gaming; Authors Sean O'Connor, Connie ",
+   "audit": "I fetched three pages myself.\n\n1. The Cutlass page (.../4-winds-fantasy-gaming/cutlass/) has the Section 15 notice. It reads \"Luven Lightfinger's Gear and Treasure Shop. Copyright 2010, 4 Winds Fantasy Gaming; Authors Sean O'Connor, Connie J. Thomson and Robert W. Thomson.\" The string \"LLGT\" does not appear on that page, so the page alone does not tie the code to the book.\n\n2. The 3rd Party Weapon"
+  },
+  {
+   "code": "PCS:CtIE",
+   "book": "Cheliax, The Infernal Empire",
+   "official": "Pathfinder Campaign Setting: Cheliax, The Infernal Empire",
+   "publisher": "Paizo Inc.",
+   "evidence": "https://pathfinderwiki.com/wiki/Cheliax,_The_Infernal_Empire",
+   "how": "code_and_title_on_page",
+   "quote": "d20pfsrd Changelings page (https://www.d20pfsrd.com/races/other-races/uncommon-races/arg-changeling/) has 'Source PCS:CtIE' linked to amazon.com/gp/product/1601257996 (ISBN-13 9781601257994). Amazon title tag: 'Pathfinder Campaign Setting: Cheliax, The Infernal Empire: Staff, Paizo: 9781601257994'. PathfinderWiki: 'Che",
+   "audit": "I fetched three pages myself. (1) The d20pfsrd Changelings page (arg-changeling) shows a \"Source [PCS:CtIE]\" link to amazon.com/gp/product/1601257996. The context sentence \"This bonus increases by 1 for every 4 levels the changeling has beyond 1st.\" sits in the Pyrophile entry, followed by that Source line and then the Green Widow (Green Hag) entry, so the entry text matches the claim's context. ("
+  }
+ ]
+}

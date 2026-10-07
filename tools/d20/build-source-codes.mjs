@@ -156,6 +156,14 @@ for (const [code0] of uses) {
   if (code === "GMG") { set(code0, "GameMastery Guide", "abbreviation"); continue; }
   unresolved.push({ code: code0, uses: uses.get(code0), why: /^(LG|JBE|LL|SwA|FGG|TOP):/.test(code0) ? "third-party publisher code (not a Paizo book)" : "no rule", family: "other" });
 }
+// ---- web research 2026-10-07 (source-codes-web.json): each entry was found by one agent and then re-fetched by a second that tried to refute it ----
+{
+  const web = JSON.parse(fs.readFileSync(new URL("./source-codes-web.json", import.meta.url), "utf8")).codes;
+  for (const w of web) {
+    out[w.code] = { book: w.book, how: `web (${w.how}): ${w.evidence}`, uses: uses.get(w.code) || 0, check: evidence(w.code, w.book) };
+    const i = unresolved.findIndex((u) => u.code === w.code); if (i >= 0) unresolved.splice(i, 1);
+  }
+}
 const total = [...uses.values()].reduce((a, b) => a + b, 0), got = Object.values(out).reduce((a, b) => a + b.uses, 0);
 fs.writeFileSync(new URL("./source-codes.json", import.meta.url), JSON.stringify({ built: "2026-10-06", codes: out, unresolved }, null, 1));
 console.log(`codes on Source lines: ${uses.size} (${total} uses)  ->  resolved ${Object.keys(out).length} codes covering ${got} uses (${Math.round(100 * got / total)}%);  unresolved ${unresolved.length} codes (${total - got} uses)`);

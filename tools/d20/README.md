@@ -164,3 +164,7 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
 - **Translating the codes (v115).** `d20-repair.mjs` step 4 calls `translateCodes()` (d20-attrib.mjs): after "Source" (and in the companions' "Sources named on the
   page" list) a code that source-codes.json resolves becomes the book ("Source PZO1115" -> "Source Advanced Player's Guide"). Unresolved codes are left as
   printed; AoN originals are never edited. Idempotent: re-run `node tools/d20/d20-repair.mjs --apply` after any import, then gen-api / gen-ask-index / bump tokens.
+- **Web-researched codes (v116).** `source-codes-web.json` holds 42 codes found by research agents on AoN / d20pfsrd / Paizo / retailer / PathfinderWiki pages and then
+  re-fetched by a second agent trying to refute each; `build-source-codes.mjs` merges them. Deliberately NOT accepted (audit said inferred / forum-only /
+  elimination / nothing seen): LV, PCS:Q, PC:CS, UKC, NC:WoMD, LL:HotW, PAP:41, PZO9446H; no answer at all: PFSRD, SwA:AC, PCS:Q2016, WP, FGG:LLWS.
+  `translateCodes` now accepts any word after "Source" and rewrites it only if the table resolves it.

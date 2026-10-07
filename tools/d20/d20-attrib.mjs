@@ -256,7 +256,7 @@ function loadCodes() {
   if (!CODES) { try { CODES = JSON.parse(readFileSync(new URL("./source-codes.json", import.meta.url), "utf8")).codes; } catch { CODES = {}; } }
   return CODES;
 }
-const CODE_SHAPE = "P?PZO\\d{4,5}[A-Za-z]?\\d?|(?:PPC|PCS|PRG|PCh|Pch|PC):[A-Za-z0-9&\\-]{1,8}|PAP\\d+|PFU|APG|UM|GMG";
+const CODE_SHAPE = "[A-Za-z][A-Za-z0-9:&\\-]*";   // any word: translateCodes only rewrites one that source-codes.json resolves, so "Source Advanced Player's Guide" is left alone
 const SOURCE_CODES = new RegExp("\\bSource:?[ \\t]+((?:" + CODE_SHAPE + ")(?:\\s*[,;&]\\s*(?:" + CODE_SHAPE + "))*)(?![A-Za-z0-9:])", "g");
 const NAMED_CODES = /(Sources named on the page for these sections: )([^\n]*?)\.(?=\n|$| )/g;
 /** Product codes -> the book they name, in the words the originals use ("Source PZO1115 pg. 12" -> "Source Advanced Player's Guide pg. 12"; "Sources named on
