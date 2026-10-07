@@ -161,3 +161,6 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
 - Third-party codes (LG:, JBE:, LL:, SwA:, FGG:) and singletons are left unresolved on purpose.
 - `bookSource()` in `d20-attrib.mjs` uses the table only as a LAST resort (no Section 15 title; every code on the page names the same one book). Today that
   changes 0 rows; it exists so a future import cannot leave a row at bare "Paizo, Inc." when its own page says which book.
+- **Translating the codes (v115).** `d20-repair.mjs` step 4 calls `translateCodes()` (d20-attrib.mjs): after "Source" (and in the companions' "Sources named on the
+  page" list) a code that source-codes.json resolves becomes the book ("Source PZO1115" -> "Source Advanced Player's Guide"). Unresolved codes are left as
+  printed; AoN originals are never edited. Idempotent: re-run `node tools/d20/d20-repair.mjs --apply` after any import, then gen-api / gen-ask-index / bump tokens.

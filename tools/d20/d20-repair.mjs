@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -214,6 +214,20 @@ for (const r of d20) {
 }
 console.log(`\nsource column corrected: ${srcChanged} | license paragraph corrected: ${noteChanged}`);
 Object.entries(tally).sort((a, b) => b[1] - a[1]).slice(0, 14).forEach(([k, v]) => console.log(`  ${String(v).padStart(5)}  ${k}`));
+
+// ---- 4. product codes -> book names ("Source PZO1115" -> "Source Advanced Player's Guide"; see translateCodes). Originals (AoN rows) are never edited. ----
+{
+  const n = { d20: 0, companion: 0, originalSkipped: 0 };
+  for (const r of rows) {
+    if (drop.has(r[0])) continue;
+    const body = String(bodies[r[2]][r[0]]), nb = translateCodes(body, BOOKS);
+    if (nb === body) continue;
+    if (!isD20(r) && r[3] !== "Additional Material (d20pfsrd)") { n.originalSkipped++; continue; }
+    n[isD20(r) ? "d20" : "companion"]++;
+    if (APPLY) { bodies[r[2]][r[0]] = nb; r[5] = snippetOf(nb.slice(0, nb.lastIndexOf("\n\n"))); }
+  }
+  console.log(`\nproduct codes translated in body text: ${n.d20} d20 rows, ${n.companion} companion rows (${n.originalSkipped} original rows left as written)`);
+}
 
 if (APPLY) {
   const kept = rows.filter((r) => !drop.has(r[0]));

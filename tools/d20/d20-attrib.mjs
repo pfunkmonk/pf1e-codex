@@ -252,10 +252,38 @@ export function bookSource(source, tail, bookIndex) {
   return canon.join("; ");
 }
 let CODES = null;
+function loadCodes() {
+  if (!CODES) { try { CODES = JSON.parse(readFileSync(new URL("./source-codes.json", import.meta.url), "utf8")).codes; } catch { CODES = {}; } }
+  return CODES;
+}
+const CODE_SHAPE = "P?PZO\\d{4,5}[A-Za-z]?\\d?|(?:PPC|PCS|PRG|PCh|Pch|PC):[A-Za-z0-9&\\-]{1,8}|PAP\\d+|PFU|APG|UM|GMG";
+const SOURCE_CODES = new RegExp("\\bSource:?[ \\t]+((?:" + CODE_SHAPE + ")(?:\\s*[,;&]\\s*(?:" + CODE_SHAPE + "))*)(?![A-Za-z0-9:])", "g");
+const NAMED_CODES = /(Sources named on the page for these sections: )([^\n]*?)\.(?=\n|$| )/g;
+/** Product codes -> the book they name, in the words the originals use ("Source PZO1115 pg. 12" -> "Source Advanced Player's Guide pg. 12"; "Sources named on
+ *  the page …: PZO1115; PPC:CoL." -> the two books). Only a code that source-codes.json resolves is touched, and only where d20pfsrd prints it: after "Source"
+ *  or in the companion rows' "Sources named" list — never a bare "PC:" in prose. Returns the body unchanged when nothing applies. */
+export function translateCodes(body, bookIndex) {
+  const C = loadCodes();
+  const book = (code) => { const e = C[code]; return e ? (bookIndex.get(bookKey(e.book)) || e.book) : null; };
+  const swap = (list) => {
+    const whole = book(list.trim());   // "PPC:P&P" holds an ampersand: try the whole token before splitting a list on "&"
+    if (whole) return [whole];
+    const parts = list.split(/(\s*[,;&]\s*)/), out = [];
+    for (let i = 0; i < parts.length; i += 2) { const b = book(parts[i].trim()); if (!b) return null; if (!out.includes(b)) out.push(b); }
+    return out;
+  };
+  let s = String(body).replace(SOURCE_CODES, (all, list) => { const out = swap(list); return out ? all.slice(0, all.length - list.length) + out.join(", ") : all; });
+  s = s.replace(NAMED_CODES, (all, lead, list) => {
+    const out = [];
+    for (const p of list.split(/\s*;\s*/)) { const b = book(p.trim()) || p.trim(); if (b && !out.includes(b)) out.push(b); }
+    return lead + out.join("; ") + ".";
+  });
+  return s;
+}
 /** Last resort for a Paizo row whose page names no book in Section 15: the product codes d20pfsrd prints in its "Source PZO1115" lines, decoded by
  *  build-source-codes.mjs into tools/d20/source-codes.json. Used only when every code on the page names the same ONE book. */
 function bookFromCodes(source, tail, bookIndex) {
-  if (!CODES) { try { CODES = JSON.parse(readFileSync(new URL("./source-codes.json", import.meta.url), "utf8")).codes; } catch { CODES = {}; } }
+  const CODES = loadCodes();
   const found = new Set();
   for (const m of String(tail).matchAll(/\bSource:?\s+(P?PZO\d{4,5}[A-Za-z]?\d?|(?:PPC|PCS|PRG|PCh|PC):[A-Za-z0-9&\-]{1,8})/g)) { const e = CODES[m[1]]; found.add(e ? e.book : "?"); }
   if (found.size !== 1 || found.has("?")) return source;
