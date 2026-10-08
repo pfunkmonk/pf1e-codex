@@ -513,7 +513,7 @@
   },
   "PPC:PA": {
    "book": "Psychic Anthology",
-   "how": "initials of a PPC title (unique in that line)",
+   "how": "web (raw_html_link_target): https://www.d20pfsrd.com/alternative-rule-systems/paizo-rules-systems/occult-adventures/occult-classes/occultist/occultist-implements",
    "uses": 24,
    "check": {
     "lines": 24,
@@ -1860,6 +1860,86 @@
     "agree": 0,
     "other": 1
    }
+  },
+  "PCS:Q": {
+   "book": "Qadira, Jewel of the East",
+   "how": "web (entry_listed_under_book): https://paizo.com/threads/rzs2ql8b&page=16",
+   "uses": 0,
+   "check": {
+    "lines": 3,
+    "agree": 0,
+    "other": 3
+   }
+  },
+  "PC:CS": {
+   "book": "Pathfinder Campaign Setting",
+   "how": "web (raw_html_link_target): https://www.d20pfsrd.com/equipment/armor/armored-kilt",
+   "uses": 2,
+   "check": {
+    "lines": 2,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "UKC": {
+   "book": "Ultimate Kineticist Compendium",
+   "how": "web (raw_html_link_target): https://www.opengamingstore.com/products/ultimate-kineticist-compendium",
+   "uses": 16,
+   "check": {
+    "lines": 0,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "NC:WoMD": {
+   "book": "NeoExodus Chronicles: Weapons of Machinesmith Destruction",
+   "how": "web (entry_listed_under_book): https://www.gmsmagazine.com/rpg-review-neoexodus-chronicles-weapons-of-machinesmith-destruction/",
+   "uses": 0,
+   "check": {
+    "lines": 0,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PAP:41": {
+   "book": "Pathfinder #41: The Thousand Fangs Below",
+   "how": "web (entry_listed_under_book): https://ebin.pub/pathfinder-adventure-path-41-the-thousand-fangs-below-serpents-skull-5-of-6-9781601252760.html",
+   "uses": 1,
+   "check": {
+    "lines": 0,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PZO9446H": {
+   "book": "Haunted Heroes Handbook",
+   "how": "web (raw_html_link_target): https://www.d20pfsrd.com/classes/core-classes/cleric/domains/paizo-domains/chaos-domain",
+   "uses": 11,
+   "check": {
+    "lines": 29,
+    "agree": 16,
+    "other": 1
+   }
+  },
+  "SwA:AC": {
+   "book": "Speak with Animals: Aberration Companions I",
+   "how": "web (raw_html_link_target): https://www.opengamingstore.com/products/speak-with-animals-aberration-companions-i",
+   "uses": 7,
+   "check": {
+    "lines": 7,
+    "agree": 0,
+    "other": 0
+   }
+  },
+  "PCS:Q2016": {
+   "book": "Qadira, Jewel of the East",
+   "how": "web (same_tag_spelled_without_parentheses): https://www.d20pfsrd.com/skills/survival",
+   "uses": 1,
+   "check": {
+    "lines": 1,
+    "agree": 0,
+    "other": 0
+   }
   }
  },
  "unresolved": [
@@ -1874,12 +1954,6 @@
    "uses": 1,
    "why": "no title in its line fits",
    "family": "PPC"
-  },
-  {
-   "code": "SwA:AC",
-   "uses": 7,
-   "why": "third-party publisher code (not a Paizo book)",
-   "family": "other"
   },
   {
    "code": "LG:LC",
@@ -1930,12 +2004,6 @@
    "family": "other"
   },
   {
-   "code": "PCS:Q2016",
-   "uses": 1,
-   "why": "no title in its line fits",
-   "family": "PCS"
-  },
-  {
    "code": "PCS:Orcs",
    "uses": 2,
    "why": "no title in its line fits",
@@ -1943,12 +2011,6 @@
   },
   {
    "code": "PCS",
-   "uses": 1,
-   "why": "no rule",
-   "family": "other"
-  },
-  {
-   "code": "PAP:41",
    "uses": 1,
    "why": "no rule",
    "family": "other"
@@ -1962,12 +2024,6 @@
   {
    "code": "PFSRD",
    "uses": 9,
-   "why": "no rule",
-   "family": "other"
-  },
-  {
-   "code": "PZO9446H",
-   "uses": 11,
    "why": "no rule",
    "family": "other"
   },
@@ -1994,18 +2050,6 @@
    "uses": 3,
    "why": "no rule",
    "family": "other"
-  },
-  {
-   "code": "UKC",
-   "uses": 16,
-   "why": "no rule",
-   "family": "other"
-  },
-  {
-   "code": "PC:CS",
-   "uses": 2,
-   "why": "ambiguous: Campaign Setting | City of Strangers",
-   "family": "PC"
   },
   {
    "code": "PC:AA",

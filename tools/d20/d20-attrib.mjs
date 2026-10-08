@@ -316,7 +316,7 @@ function loadCodes() {
   if (!CODES) { try { CODES = JSON.parse(readFileSync(new URL("./source-codes.json", import.meta.url), "utf8")).codes; } catch { CODES = {}; } }
   return CODES;
 }
-const CODE_SHAPE = "[A-Za-z][A-Za-z0-9:&\\-]*";   // any word: translateCodes only rewrites one that source-codes.json resolves, so "Source Advanced Player's Guide" is left alone
+const CODE_SHAPE = "[A-Za-z][A-Za-z0-9:&\\-]*(?:\\(\\d{4}\\))?";   // any word: translateCodes only rewrites one that source-codes.json resolves, so "Source Advanced Player's Guide" is left alone
 const SOURCE_CODES = new RegExp("\\bSource:?[ \\t]+((?:" + CODE_SHAPE + ")(?:\\s*[,;&]\\s*(?:" + CODE_SHAPE + "))*)(?![A-Za-z0-9:])", "g");
 const NAMED_CODES = /(Sources named on the page for these sections: )([^\n]*?)\.(?=\n|$| )/g;
 /** Product codes -> the book they name, in the words the originals use ("Source PZO1115 pg. 12" -> "Source Advanced Player's Guide pg. 12"; "Sources named on
@@ -324,7 +324,7 @@ const NAMED_CODES = /(Sources named on the page for these sections: )([^\n]*?)\.
  *  or in the companion rows' "Sources named" list — never a bare "PC:" in prose. Returns the body unchanged when nothing applies. */
 export function translateCodes(body, bookIndex) {
   const C = loadCodes();
-  const book = (code) => { const e = C[code]; return e ? (bookIndex.get(bookKey(e.book)) || e.book) : null; };
+  const book = (code0) => { const code = String(code0).replace(/\(\d{4}\)$/, ""), e = C[code]; return e ? (bookIndex.get(bookKey(e.book)) || e.book) : null; };   // "PCS:Q(2016)": the year in parentheses is part of d20pfsrd's tag
   const swap = (list) => {
     const whole = book(list.trim());   // "PPC:P&P" holds an ampersand: try the whole token before splitting a list on "&"
     if (whole) return [whole];

@@ -184,3 +184,7 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
   notice elsewhere on the site (the lexicon `d20-repair` builds), or (3) a hand-read entry in `notice-overrides.json` (each title verbatim in the paragraph, checked at load).
   Paizo pages that also cite third-party work now credit it: "Pathfinder #23: The Impossible Eye; Advanced Bestiary (Green Ronin Publishing)". What stays publisher-only /
   Paizo-only: pages citing MORE than three products (Godling ×4, Spell Variants), pages whose notice text is contaminated by body text, and pure-Paizo pages with 3+ books.
+- **Deep research round (v120).** `source-codes-web.json` gained PCS:Q(+Q2016), PC:CS, UKC, NC:WoMD, PAP:41, PZO9446H, SwA:AC, PPC:PA — each with its evidence URL, quote, second-agent audit and a `caveat` where a hop is
+  reasoned rather than read. `source-overrides.json` holds researched per-entry sources (both Godlings = The Genius Guide to the Godling; Spell Variants = all four volumes; Great Ghul = Bestiary 3 + Dark Markets + Pathfinder #23),
+  applied by d20-repair only while the page's Section 15 still cites the required titles. Still NOT established (left as printed): LV, LL:HotW, PFSRD, FGG:LLWS, WP (an image credit, not a book).
+  Louis Porter feats: all 536 pages cite both books identically; the Collected Feats Sourcebook (Mar 2011) is one book of "over 500 feats", so "Undefeated" in the notice may be the same line — no per-feat evidence exists, so "A or B" stays.

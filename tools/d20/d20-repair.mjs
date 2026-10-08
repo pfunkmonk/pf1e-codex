@@ -200,7 +200,8 @@ for (const v of drop.values()) console.log("  drop", v);
 let srcChanged = 0, noteChanged = 0; const tally = {};
 // third-party PRODUCT names ("Ultimate Battle (Legendary Games)", see productSource): first pass finds every row's product + publisher so the SAME product gets
 // ONE publisher spelling across the site (unifyPublishers); the loop below applies it.
-const PRODUCT_SRC = /^(.+) \(([^()]+)\)$/;
+const SOURCE_OVERRIDES = JSON.parse(fs.readFileSync(new URL("./source-overrides.json", import.meta.url), "utf8")).overrides;
+const PRODUCT_SRC =/^(.+) \(([^()]+)\)$/;
 // a crawler once filed the heading "Section 15" as the source of a page whose notice is Paizo's: the books it names are the source
 const srcOfRow = (r, tail, head) => { const cur = (/^Section 15:?$/i.test(String(r[4])) || /^Pathfinder \d+$/.test(String(r[4]))) && /Paizo/.test(tail) ? "Paizo, Inc." : r[4]; const s0 = canonicalPaizoBook(bookSource(repairSource(cur, tail), tail, BOOKS), BOOKS); return r[3] === "Additional Material (d20pfsrd)" ? s0 : productSource(s0, tail, head, r[1]).replace(/,\s*All rights reserved\)$/i, ")"); };
 {
@@ -228,6 +229,7 @@ for (const r of d20) {
   // "Paizo, Inc." alone -> the BOOK its own Section 15 notice names (see bookSource in d20-attrib.mjs)
   let newSrc = srcOfRow(r, tail, head);
   { const m = PRODUCT_SRC.exec(newSrc), canon = m && (thirdPartyProduct(tail) || thirdPartyProducts(tail)) && pubMap.get(m[1]) && pubMap.get(m[1]).get(m[2]); if (canon && canon !== m[2]) newSrc = `${m[1]} (${canon})`; }
+  { const ov = SOURCE_OVERRIDES.find((o) => o.name === r[1] && o.bucket === r[2] && o.requires.every((x) => tail.toLowerCase().includes(x.toLowerCase()))); if (ov) newSrc = ov.source; }   // researched per-entry sources (source-overrides.json)
   const newTail = repairNote(newSrc, tail);
   if (newSrc !== r[4]) { const k = `${r[4]} -> ${/^Source unconfirmed/.test(newSrc) ? newSrc : r[4] === "Third-party (unattributed)" ? "(publisher from own Section 15)" : r[4] === "Paizo, Inc." || r[4] === "Paizo" ? "(book from own Section 15)" : newSrc}`; tally[k] = (tally[k] || 0) + 1; srcChanged++; }
   if (newTail !== tail) noteChanged++;

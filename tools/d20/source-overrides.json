@@ -1,0 +1,14 @@
+{
+  "note": "Per-entry source lines settled by deep research (2026-10-08), each re-fetched and checked by a second agent. d20-repair applies an entry only while the page's own Section 15 still cites every title in `requires`. `bucket` + `name` identify the row.",
+  "overrides": [
+    { "name": "Mighty Godling", "bucket": "options", "source": "The Genius Guide to the Godling (Rogue Genius Games)", "requires": ["The Genius Guide to the Godling"],
+      "evidence": "https://www.opengamingstore.com/products/the-genius-guide-to-the-godling — \"The godling base class actually contains two subclasses, clever and mighty godlings.\"" },
+    { "name": "Clever Godling", "bucket": "options", "source": "The Genius Guide to the Godling (Rogue Genius Games)", "requires": ["The Genius Guide to the Godling"],
+      "evidence": "https://www.opengamingstore.com/products/the-genius-guide-to-the-godling — same sentence: the Godling book contains the clever and mighty subclasses." },
+    { "name": "Spell Variants", "bucket": "spells", "source": "The Genius Guide To: 111 Spell Variants + The Genius Guide To: Another 110 Spell Variants + The Genius Guide To: 110 Spell Variants, Volume 3 + The Genius Guide To: 110 Spell Variants, Volume 4 (Rogue Genius Games)",
+      "requires": ["111 Spell Variants", "Another 110 Spell Variants", "Volume 3", "Volume 4"],
+      "evidence": "https://www.d20pfsrd.com/magic/3rd-party-spells/rogue-genius-games-3rd-party-spells/spell-variants — the page is a combined reprint of all four volumes; its Section 15 lists the four products, each linked to opengamingstore.com." },
+    { "name": "Great Ghul (Efreeti)", "bucket": "monsters", "source": "Bestiary 3; Dark Markets - A Guide to Katapesh; Pathfinder #23: The Impossible Eye", "requires": ["Bestiary 3", "Pathfinder 23", "Dark Markets"],
+      "evidence": "https://aonprd.com/MonsterDisplay.aspx?ItemName=Ghul — \"Ghul … Source Bestiary 3 pg. 125, Dark Markets - A Guide to Katapesh pg. 62 … Great Ghuls Source Dark Markets - A Guide to Katapesh pg. 63\"; the d20pfsrd page's Section 15 also cites Pathfinder #23: The Impossible Eye." }
+  ]
+}

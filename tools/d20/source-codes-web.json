@@ -1,5 +1,5 @@
 {
- "researched": "2026-10-07",
+ "researched": "2026-10-07/08",
  "note": "Each entry: found by a research agent, then re-fetched and checked by a second agent trying to refute it. 'book' is the display title (translateCodes respells it through the AoN book index); 'official' is the full product title.",
  "codes": [
   {
@@ -421,6 +421,105 @@
    "how": "code_and_title_on_page",
    "quote": "d20pfsrd Changelings page (https://www.d20pfsrd.com/races/other-races/uncommon-races/arg-changeling/) has 'Source PCS:CtIE' linked to amazon.com/gp/product/1601257996 (ISBN-13 9781601257994). Amazon title tag: 'Pathfinder Campaign Setting: Cheliax, The Infernal Empire: Staff, Paizo: 9781601257994'. PathfinderWiki: 'Che",
    "audit": "I fetched three pages myself. (1) The d20pfsrd Changelings page (arg-changeling) shows a \"Source [PCS:CtIE]\" link to amazon.com/gp/product/1601257996. The context sentence \"This bonus increases by 1 for every 4 levels the changeling has beyond 1st.\" sits in the Pyrophile entry, followed by that Source line and then the Green Widow (Green Hag) entry, so the entry text matches the claim's context. ("
+  },
+  {
+   "code": "PCS:Q",
+   "book": "Qadira, Jewel of the East",
+   "official": "Pathfinder Campaign Setting: Qadira, Jewel of the East (Paizo Inc., SKU PZO9299, ISBN 978-1-60125-912-7, released 25 Jan 2017). Confirmed by text match only, an",
+   "publisher": "",
+   "evidence": "https://paizo.com/threads/rzs2ql8b&page=16",
+   "how": "entry_listed_under_book",
+   "quote": "Here's the relevant stuff from Qadira, Jewel of the East (which is a delightful book, by the by, and I recommend it). ... Find Master (DC 15) : The animal attempts to locate its master. If it has scent, it tracks her via scent as per the track trick. It does not move at a greater speed than the person who gave the comm",
+   "audit": "I could not refute the claim. I fetched the Paizo thread (page 16) and the d20pfsrd handle-animal page myself with curl.\n\nPaizo post (Rei, May 8, 2017): it opens \"Here's the relevant stuff from Qadira, Jewel of the East (which is a delightful book, by the by, and I recommend it).\" and then quotes the five tricks Drive, Find Master, Herd, Protect and Quiet Watch. The offered quote appears literally",
+   "caveat": "d20pfsrd prints the tag as plain text (no link); a Paizo thread quotes the same five Handle Animal tricks as 'relevant stuff from Qadira, Jewel of the East'. Text match + PCS/Q pattern; AoN does not list tricks. Accepted as reasonably certain."
+  },
+  {
+   "code": "PC:CS",
+   "book": "Pathfinder Campaign Setting",
+   "official": "Pathfinder Chronicles: Campaign Setting (Paizo, hardcover, August 2008, SKU PZO1111, ISBN 978-1-60125-112-1)",
+   "publisher": "",
+   "evidence": "https://www.d20pfsrd.com/equipment/armor/armored-kilt",
+   "how": "raw_html_link_target",
+   "quote": "<p class=\"source\"><b>Source</b> <a href=\"http://www.amazon.com/gp/product/1601251122/ref=as_li_qf_sp_asin_il_tl?...creativeASIN=1601251122...\" target=\"_blank\" rel=\"noopener\">PC:CS</a></p>",
+   "audit": "I confirmed every hop myself with curl, using the specified User-Agent.\n\n- **Quote:** The armored-kilt raw HTML has `<p class=\"source\"><b>Source</b> <a href=\"http://www.amazon.com/gp/product/1601251122/ref=...&creativeASIN=1601251122...\" ...>PC:CS</a></p>`. The page has a second Amazon link, to ASIN 1601252226, which is the Adventurer's Armory link.\n- **Section 15:** The notice names only Pathfind",
+   "caveat": "link target is Amazon ASIN 1601251122 = ISBN 978-1-60125-112-1 = Pathfinder Chronicles: Campaign Setting (2008) per PathfinderWiki."
+  },
+  {
+   "code": "UKC",
+   "book": "Ultimate Kineticist Compendium",
+   "official": "Ultimate Kineticist Compendium (Legendary Games; Open Gaming Store title: \"Ultimate Kineticist Compendium – Definitive Pathfinder 1E Kineticist Resource\", SKU 1",
+   "publisher": "",
+   "evidence": "https://www.opengamingstore.com/products/ultimate-kineticist-compendium",
+   "how": "raw_html_link_target",
+   "quote": "<p class=\"source\"><b>Source</b> <a href=\"https://www.opengamingstore.com/products/ultimate-kineticist-compendium\" target=\"_blank\" rel=\"noopener\">UKC</a></p>",
+   "audit": "I fetched both pages with curl and the quote is literally there. The d20pfsrd page for Kineticist Elements – Legendary Games returned 200. Its URL is .../occult-classes/kineticist/kineticist-elements/kineticist-elements-legendary-games, taken from the hints/nonotice data in the scratchpad because my guessed URLs returned 404. That page's raw HTML has 16 identical source paragraphs: <p class=\"sourc",
+   "caveat": "each UKC tag links to opengamingstore.com/products/ultimate-kineticist-compendium (Legendary Games)."
+  },
+  {
+   "code": "NC:WoMD",
+   "book": "NeoExodus Chronicles: Weapons of Machinesmith Destruction",
+   "official": "NeoExodus Chronicles: Weapons of Machinesmith Destruction (PFRPG), Louis Porter Jr. Design (11-page PDF, SKU LPJ9381E)",
+   "publisher": "",
+   "evidence": "https://www.gmsmagazine.com/rpg-review-neoexodus-chronicles-weapons-of-machinesmith-destruction/",
+   "how": "entry_listed_under_book",
+   "quote": "This expansion for LPJr Design's neat Machinesmith-class clocks in at 14 pages ... analyzers allow for the rerolls of natural 1s, faster motion analysis and ... Scanning spells from scrolls to cast them on the fly via the analyzer",
+   "audit": "I fetched all three pages myself with curl and the stated User-Agent. They support the claim that NC:WoMD means NeoExodus Chronicles: Weapons of Machinesmith Destruction (LPJ9381E).\n\n1. GMS Magazine review: the quote is there as written. It says \"clocks in at 14 pages, 2 pages advertisement, 1 page editorial/SRD, leaving us with 11 pages of content\". It also says \"analyzers allow for the rerolls o",
+   "caveat": "code not printed beside the title anywhere; NC=NeoExodus Chronicles, WoMD=Weapons of Machinesmith Destruction, and a review of that book describes the same tricks/gadgets d20pfsrd tags NC:WoMD. Accepted as reasonably certain."
+  },
+  {
+   "code": "PAP:41",
+   "book": "Pathfinder #41: The Thousand Fangs Below",
+   "official": "Pathfinder Adventure Path #41: The Thousand Fangs Below (Serpent's Skull 5 of 6), Paizo Inc., ISBN 978-1-60125-276-0, SKU PZO9041",
+   "publisher": "",
+   "evidence": "https://ebin.pub/pathfinder-adventure-path-41-the-thousand-fangs-below-serpents-skull-5-of-6-9781601252760.html",
+   "how": "entry_listed_under_book",
+   "quote": "Serpentstone A strange substance unique to the precursor alchemies of the ancient serpentfolk, this mystical material was used extensively in the construction and design of Ilmurea. Its ancient Aklo name is lost to time, but modern explorers have dubbed it \"serpentstone\" after its ophidian creators. Exceptionally resil",
+   "audit": "I fetched all three pages with curl and the claim held up. (1) The ebin.pub page (HTTP 200) has the title \"Pathfinder Adventure Path #41: The Thousand Fangs Below (Serpent's Skull 5 of 6)\". The ISBN 9781601252760 appears 18 times and PZO9041 appears in the page. The Serpentstone sidebar is in the raw HTML, in the Ilmurea gazetteer. It opens \"A strange substance unique to the precursor alchemies of",
+   "caveat": "the serpentstone sidebar is printed in Pathfinder Adventure Path #41 (full text on ebin.pub); d20pfsrd tag PAP:41."
+  },
+  {
+   "code": "PZO9446H",
+   "book": "Haunted Heroes Handbook",
+   "official": "Pathfinder Player Companion: Haunted Heroes Handbook (Paizo Inc.), ISBN 978-1-60125-884-7 (Amazon ASIN 1601258844)",
+   "publisher": "",
+   "evidence": "https://www.d20pfsrd.com/classes/core-classes/cleric/domains/paizo-domains/chaos-domain",
+   "how": "raw_html_link_target",
+   "quote": "<p class=\"source\"><b>Source</b> <a href=\"http://amzn.to/2dSR4NU\" target=\"_blank\">PZO9446H</a></p>  (amzn.to/2dSR4NU 301-redirects to https://www.amazon.com/gp/product/1601258844/...creativeASIN=1601258844). PathfinderWiki: 'Pathfinder Player Companion: Haunted Heroes Handbook ... Publisher Paizo Inc. ... Softcover Date",
+   "audit": "I fetched each hop with curl and the claim held. (1) The chaos-domain page contains exactly one literal match: `<p class=\"source\"><b>Source</b> <a href=\"http://amzn.to/2dSR4NU\" target=\"_blank\">PZO9446H</a></p>`. The combat-feats, general-feats and item-creation-feats pages also link PZO9446H to http://amzn.to/2dSR4NU. (2) `curl -I` on amzn.to/2dSR4NU returned a 301 with Location https://www.amazon",
+   "caveat": "tag links to amzn.to/2dSR4NU -> Amazon product 1601258844 = ISBN 978-1-60125-884-7."
+  },
+  {
+   "code": "SwA:AC",
+   "book": "Speak with Animals: Aberration Companions I",
+   "official": "Speak with Animals: Aberration Companions I (Pathfinder 1e Aberration Companion Options) - Orphaned Bookworm Productions",
+   "publisher": "",
+   "evidence": "https://www.opengamingstore.com/products/speak-with-animals-aberration-companions-i",
+   "how": "raw_html_link_target",
+   "quote": "<p class=\"source\"><b>Source</b> <a href=\"https://www.opengamingstore.com/products/speak-with-animals-aberration-companions-i\" target=\"_blank\" rel=\"noopener\">SwA:AC</a></p>  (directly under <h4><span id=\"geomaw\">Geomaw</span></h4> on https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions); product page: \"",
+   "audit": "I fetched both pages myself with curl and the stated User-Agent.\n\nd20pfsrd page (https://www.d20pfsrd.com/classes/core-classes/druid/animal-companions):\n- Line 3013 is `<h4><span id=\"geomaw\">Geomaw</span></h4>`.\n- Line 3014 is exactly the quoted `<p class=\"source\"><b>Source</b> <a href=\"https://www.opengamingstore.com/products/speak-with-animals-aberration-companions-i\" target=\"_blank\" rel=\"noopen",
+   "caveat": "tag links to opengamingstore.com/products/speak-with-animals-aberration-companions-i (Orphaned Bookworm Productions)."
+  },
+  {
+   "code": "PPC:PA",
+   "book": "Psychic Anthology",
+   "official": "Pathfinder Player Companion: Psychic Anthology (Paizo Inc.), ISBN-13 978-1-60125-928-8",
+   "publisher": "",
+   "evidence": "https://www.d20pfsrd.com/alternative-rule-systems/paizo-rules-systems/occult-adventures/occult-classes/occultist/occultist-implements",
+   "how": "raw_html_link_target",
+   "quote": "<p class=\"source\"><b>Source</b> <a title=\"PPC:PA\" href=\"https://www.amazon.com/Pathfinder-Player-Companion-Psychic-Anthology/dp/160125928X/ref=sr_1_1?...keywords=ISBN-13%3A+978-1-60125-928-8...\" target=\"_blank\" rel=\"noopener\">PPC:PA</a></p>",
+   "audit": "I confirmed every hop myself and found nothing to refute. (1) I fetched the occultist-implements page with the required User-Agent. It has 4 anchors with title=\"PPC:PA\", each inside <p class=\"source\"><b>Source</b>…. The href is the Amazon URL .../Pathfinder-Player-Companion-Psychic-Anthology/dp/160125928X/ref=sr_1_1?...keywords=ISBN-13%3A+978-1-60125-928-8.... The quote matches. (2) The kineticist",
+   "caveat": "tag links to the Amazon page titled Pathfinder-Player-Companion-Psychic-Anthology, ISBN 978-1-60125-928-8."
+  },
+  {
+   "code": "PCS:Q2016",
+   "book": "Qadira, Jewel of the East",
+   "official": "same tag as PCS:Q(2016)",
+   "publisher": "",
+   "evidence": "https://www.d20pfsrd.com/skills/survival",
+   "how": "same_tag_spelled_without_parentheses",
+   "quote": "Source: PCS:Q2016 (Survival, Finding Water) vs Source: PCS:Q(2016) (Handle Animal)",
+   "audit": "not separately researched: the two tags differ only by the parentheses",
+   "caveat": "inferred from the identical tag; the Survival page prints no link"
   }
  ]
 }

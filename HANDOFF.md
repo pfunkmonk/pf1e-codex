@@ -13,6 +13,12 @@ corrupts `.git`.
 
 ---
 
+## ⚙ GENERATED FILES ARE NO LONGER COMMITTED (2026-10-08) — read before touching `api/` or the Ask index
+`api/` (the public JSON API) and `data/ask-index.json` (the Ask retrieval index) are built from `data/index.js` + `data/cat/*.js` by **`node tools/build-generated.mjs`** (~25 s).
+Netlify runs it as the build command (`netlify.toml`), so every push to `main` regenerates them; both are in `.gitignore`. **After any `git pull` that changes data, run that command before
+opening the site locally or running `tools/check-api.mjs` / `tools/check-ask.mjs`.** Why: they were 27% of a 953 MB git history and the Ask index was nearing GitHub's 100 MiB file limit — see `SIZE-PLAN.md`
+(plan for images, a binary Ask index, sharding `data/cat`, optional history rewrite). Proven first on a branch deploy (byte-identical files), then merged. A generator failure keeps the previous deploy live.
+
 ## Deploying
 
 A push to `main` **is** a production release. Netlify publishes the repo root; there is
