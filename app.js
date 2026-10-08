@@ -81,8 +81,49 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "122";
+  var DATA_V = "123";
+  // ---- per-entry body loading (SIZE-PLAN.md) ----
+  // data/shards.js says how many ~1 MB shards each category has; an entry's text lives in data/cat-shards/<slug>/<n>.js with
+  // n = parseInt(id.slice(0,6),16) % count (tools/gen-cat-shards.mjs uses the SAME rule; check-shards.mjs proves it). Opening ONE entry
+  // therefore downloads ~0.3 MB instead of the whole category (monsters: 11 MB). No shards.js, or a shard that fails to load, falls back to
+  // the whole-category file exactly as before; full-text search, compare-all and the tools still use the whole-category files.
+  var PART = {};                   // slug -> {id: body}, for bodies that arrived by shard
+  var SHARDS = window.PF_SHARDS || null;
+  var shardDone = {}, shardWait = {};
+  window.PF_REGPART = function (slug, n, map) {
+    var p = PART[slug] = PART[slug] || {}; for (var k in map) p[k] = map[k];
+    var key = slug + "/" + n; shardDone[key] = true; var w = shardWait[key] || []; shardWait[key] = []; w.forEach(function (cb) { cb(); });
+  };
+  function shardOf(id, n) { return parseInt(String(id).slice(0, 6), 16) % n; }
+  function bodyOf(slug, id) { var f = BODIES[slug]; if (f && f[id] !== undefined) return f[id]; var p = PART[slug]; return p ? p[id] : undefined; }
+  function allShardsDone(slug) { var n = SHARDS && SHARDS[slug]; if (!n) return false; for (var i = 0; i < n; i++) if (!shardDone[slug + "/" + i]) return false; return true; }
+  function loadShard(slug, i, cb, quiet) {
+    var key = slug + "/" + i;
+    if (shardDone[key]) return cb();
+    (shardWait[key] = shardWait[key] || []).push(cb);
+    if (shardWait[key].length > 1) return;
+    var s = document.createElement("script"); s.src = "data/cat-shards/" + slug + "/" + i + ".js?v=" + DATA_V;
+    s.onerror = function () { var w = shardWait[key] || []; shardWait[key] = []; w.forEach(function (c) { if (quiet) c(); else loadCat(slug, c); }); };
+    document.body.appendChild(s);
+  }
+  function loadBody(slug, id, cb) {
+    var n = SHARDS && SHARDS[slug];
+    if (BODIES[slug] || !n || !/^[0-9a-f]{6}/.test(String(id))) return loadCat(slug, cb);
+    loadShard(slug, shardOf(id, n), function () { cb(); fillBucket(slug); });
+  }
+  // An INSTALLED app (display-mode: standalone) is used offline, so after the first shard it quietly fetches the rest of that category, one shard at a time.
+  // A browser tab, a metered connection or "save data" never does this.
+  function fillBucket(slug) {
+    var n = SHARDS && SHARDS[slug]; if (!n || fillBucket["_" + slug]) return; fillBucket["_" + slug] = true;
+    try {
+      if (!(window.matchMedia && matchMedia("(display-mode: standalone)").matches)) return;
+      var c = navigator.connection; if (c && (c.saveData || /(^|-)2g$/.test(c.effectiveType || ""))) return;
+    } catch (e) { return; }
+    var i = 0;
+    (function next() { while (i < n && shardDone[slug + "/" + i]) i++; if (i >= n) return; var k = i++; loadShard(slug, k, function () { setTimeout(next, 1200); }, true); })();
+  }
   function loadCat(slug, cb) {
+    if (!BODIES[slug] && allShardsDone(slug)) BODIES[slug] = PART[slug] || {};     // every shard already here: no need for the whole-category file
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
     if (pending[slug].length > 1) return;
@@ -1669,7 +1710,7 @@
   function ftHideTip(){ if(_ftTipTimer){clearTimeout(_ftTipTimer);_ftTipTimer=null;} if(_ftTipEl)_ftTipEl.style.display="none"; }
   function ftShowTip(node,id){
     var r=idById()[id]; if(!r) return;
-    var body=(BODIES.feats||{})[id]||"", bm=body.match(/Benefit:\s*(.+)/);
+    var body=bodyOf("feats",id)||"", bm=body.match(/Benefit:\s*(.+)/);
     var summary=(bm?bm[1]:(r[I_SNIP]||"")).slice(0,300);
     var reqs=(window.PF_FEATTREE&&PF_FEATTREE[id]&&PF_FEATTREE[id].req)||[], byId=idById();
     var reqh=reqs.length?'<div class="ft-tip-req">Requires: '+reqs.map(function(x){return esc(byId[x]?byId[x][I_NAME]:"");}).filter(Boolean).join(", ")+'</div>':'';
@@ -1685,7 +1726,7 @@
   var _featNames=null;
   function featNameSet(){ if(_featNames) return _featNames; _featNames={}; for(var i=0;i<IDX.length;i++){ if(IDX[i][I_SLUG]==="feats") _featNames[IDX[i][I_NAME].toLowerCase()]=1; } return _featNames; }
   function parseNonFeatPrereqs(id){
-    var body=(BODIES.feats||{})[id]; if(!body) return [];
+    var body=bodyOf("feats",id); if(!body) return [];
     var m=body.match(/Prerequisites?\b[:]?\s*([^\n]+)/i); if(!m) return [];
     var line=m[1].replace(/\.\s*$/,""), parts=line.split(/\s*[,;]\s*/), feats=featNameSet(), seen={}, out=[];
     parts.forEach(function(raw){
@@ -1873,8 +1914,8 @@
     if(row[I_SLUG]==="feats") wrap.appendChild(featVizSection(id));
     if(row[I_SLUG]==="classes"){ var _a=classArchetypes(row); if(_a) wrap.appendChild(_a); }
     swap(wrap);
-    loadCat(row[I_SLUG], function(){
-      var body=(BODIES[row[I_SLUG]]||{})[id];
+    loadBody(row[I_SLUG], id, function(){
+      var body=bodyOf(row[I_SLUG], id);
       function paintBody(){ var be=$(".body",card); if(be) be.innerHTML = body? fmtBody(body,row[I_SRC],id) : '<em>Entry text unavailable.</em>'; }
       paintBody(); recordRecent(row);
       // upgrade with real tables once tables.js arrives (loaded lazily, off cold start)
@@ -2044,7 +2085,7 @@
       var inner=h("div",{class:"entry cmp-entry"});
       inner.innerHTML='<a class="cmp-col-name" href="#/e/'+esc(id)+'">'+esc(r[I_NAME])+'</a><div class="badges"><span class="badge cat" style="--c:'+color(r[I_SLUG])+'">'+esc(label)+'</span></div>'+quickStats(r)+'<div class="body cmp-body">Loading…</div>';
       col.appendChild(inner); cols.appendChild(col);
-      loadCat(r[I_SLUG], function(){ var body=(BODIES[r[I_SLUG]]||{})[id]; var be=$(".cmp-body",inner); if(be) be.innerHTML=body?fmtBody(body,r[I_SRC],id):'<em>Entry text unavailable.</em>'; });
+      loadBody(r[I_SLUG], id, function(){ var body=bodyOf(r[I_SLUG], id); var be=$(".cmp-body",inner); if(be) be.innerHTML=body?fmtBody(body,r[I_SRC],id):'<em>Entry text unavailable.</em>'; });
     });
     swap(wrap); window.scrollTo(0,0);
   }
@@ -3045,7 +3086,7 @@
   // Primary source: the class body text carries the full level table (BAB, saves, Special)
   // for EVERY class incl. casters — tables.js only captured martial classes' progression.
   function parseClassFromBody(id){
-    var body=(BODIES.classes||{})[id]; if(!body) return null;
+    var body=bodyOf("classes",id); if(!body) return null;
     var lines=body.split("\n"), out=[], seen={};
     var re=/^(\d+(?:st|nd|rd|th))\s+([+\-]\d+(?:\/[+\-]\d+)*)\s+([+\-]\d+)\s+([+\-]\d+)\s+([+\-]\d+)\s+(.*)$/;
     for(var i=0;i<lines.length;i++){

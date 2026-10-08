@@ -1,6 +1,6 @@
 # PF1e Codex — Art Prompts — BATCH 16 (Rules, NPCs, and the last of the pantheon)
 
-**233 images.**
+**234 images.**
 
 The rules bucket is 3,102 pages on 40 scenes. This takes it to 181. NPCs go 12 to 48. And the
 remaining 163 deities finish that bucket at 463 of 463 — which also gives the 57 religion traits
@@ -913,7 +913,7 @@ A silent library aisle of towering shelves where a scholar in a pointed hat clim
 
 A caravan camp under a vast star field, travelers telling stories around a low fire while their tethered horses doze in the shadows. Composition: subject in the RIGHT half of the frame, high in the upper third; the LEFT third open, dark and uncluttered so overlaid title text stays readable. 16:9 cinematic banner, painted fantasy illustration, dramatic directional lighting, rich muted palette, no text, no lettering, no watermark, no border. Style: painterly digital oil in the manner of the existing PF1e Codex banners — visible brushwork and a fine canvas grain, grounded realistic fantasy anatomy, never anime, cel-shaded or cartoon. One strong directional key light with rim-light separating the subject, deep brown-black shadows, warm amber-gold highlights, a desaturated muted background carrying a single saturated accent colour. Heavy atmosphere: haze, drifting dust motes, god-rays. Subject rendered sharp, background falling off softly.
 
-## Deities (54)
+## Deities (55)
 
 ### King Gobb
 **deity-king-gobb**
@@ -924,6 +924,11 @@ A grossly fat, hairless horned goblin king on a heap of gold beside a forge fire
 **deity-mitra**
 
 A stern sun-god in white and copper robes holding a set of scales bearing twin flames before a bright temple. Composition: subject in the RIGHT half of the frame, high in the upper third; the LEFT third open, dark and uncluttered so overlaid title text stays readable. 16:9 cinematic banner, painted fantasy illustration, dramatic directional lighting, rich muted palette, no text, no lettering, no watermark, no border. Style: painterly digital oil in the manner of the existing PF1e Codex banners — visible brushwork and a fine canvas grain, grounded realistic fantasy anatomy, never anime, cel-shaded or cartoon. One strong directional key light with rim-light separating the subject, deep brown-black shadows, warm amber-gold highlights, a desaturated muted background carrying a single saturated accent colour. Heavy atmosphere: haze, drifting dust motes, god-rays. Subject rendered sharp, background falling off softly.
+
+### Rogue Genius Games – Gods — Additional Material (d20pfsrd)
+**deity-rogue-genius-games-gods-additional-material-d20pfsrd**
+
+A hooded circle of star-worshippers on a windswept observatory terrace beneath a vast starfield and a pale alien sun, enormous shadowy elder shapes gathered in the nebula above them. Composition: subject in the RIGHT half of the frame, high in the upper third; the LEFT third open, dark and uncluttered so overlaid title text stays readable. 16:9 cinematic banner, painted fantasy illustration, dramatic directional lighting, rich muted palette, no text, no lettering, no watermark, no border.
 
 ### Set (Frog God Games)
 **deity-set-frog-god-games**

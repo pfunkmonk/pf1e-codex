@@ -16,6 +16,8 @@ const run = (script) => { console.log(`\n> node ${script} .`); execFileSync(proc
 const t0 = Date.now();
 run("gen-api.mjs");
 run("gen-ask-index.mjs");
+run("gen-cat-shards.mjs");
+run("check-shards.mjs");        // the shards must be exactly the whole-category files, split — a mismatch fails the build and the previous deploy stays live
 
 const fail = (m) => { console.error("\nBUILD-GENERATED FAILED: " + m); process.exit(1); };
 const idx = path.join(ROOT, "data", "ask-index.json");
