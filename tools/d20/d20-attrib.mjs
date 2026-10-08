@@ -49,7 +49,7 @@ export function publishersFromNotice(text) {
   const out = [];
   for (const m of t.matchAll(re)) {
     // "Copyright 2008 – Rocks Fall, Everyone Dies": the dash after the year is separator punctuation, not part of the name.
-    const name = m[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/[,\s]+$/, "").trim();
+    const name = m[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/^by\s+/i, "").replace(/[,\s]+$/, "").trim();
     if (name.length >= 3 && name.length <= 80 && !/^(all rights reserved|used with permission)\b/i.test(name) && !out.includes(name)) out.push(name);
   }
   return out;
@@ -420,7 +420,7 @@ export function parseNotices(tail) {
     } else title = clean(seg);
     if (!ok(title)) return null;
     const after = t0.slice(m.index + m[0].length), pm = /^\s*(?:[-–]\s*(?:19|20)?\d\d\s*)?(?:,\s*(?:19|20)\d\d\s*)?[,.]?\s*([^;.]+?)\s*(?=[;.]|,\s*published|\s+Authors?\b|\s+Created\b|$)/i.exec(after.replace(/\b(Jr|Sr|Dr|St|Mr|Mrs)\./g, "$1\u0001").replace(/\b([A-Z])\.(?=\s)/g, "$1\u0001").replace(/(\w)\.(\w)/g, "$1\u0002$2"));
-    const publisher = pm ? pm[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/[,\s]+$/, "").replace(/\b(Inc|Ltd|Co|Corp)$/, "$1.").trim() : "";
+    const publisher = pm ? pm[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/^by\s+/i, "").replace(/[,\s]+$/, "").replace(/\b(Inc|Ltd|Co|Corp)$/, "$1.").trim() : "";
     if (!publisher || publisher.length < 3 || publisher.length > 80) return null;
     if (!out.some((p) => lexKey(p.title) === lexKey(title))) out.push({ title, publisher, paizo: isPaizoish(publisher) || /\bPaizo\b/i.test(publisher) });
     prevEnd = m.index + m[0].length + (pm ? pm.index + pm[0].length : 0);
@@ -447,4 +447,38 @@ export function productNamedByEntry(products, body, name) {
   const named = src.map((s) => products.filter((p) => s === key(p.title) || (s.length >= 8 && key(p.title).startsWith(s))));
   if (named.some((h) => h.length !== 1) || new Set(named.map((h) => h[0].title)).size !== 1) return null;
   return named[0][0];
+}
+
+/** Credit lines that are not in the "Title © 2013, Publisher" form. d20pfsrd pages carry them in many styles; every one below was read in the pages' own text:
+ *    "A Land Out of Time 2013, Little Red Goblin Games LLC, Authors: …"          (a bare year)
+ *    "The Malefactor Base Class. Copyright, June 25, 2012, Total Party Kill Games. Author(s): …"   (a dated copyright)
+ *    "TheCreatureCodex.Tumblr.com Author: thecreaturecodex" · "The Blargy Blog Author: KVid"          (a community site and its author)
+ *    "Wayfinder #3 Fanzine. Paizo Fans United. Authors: …" · "– ClerverNickname @ EnWorld Forums"    (a fanzine / a forum poster)
+ *  Returns {notice} (a synthetic "Title © YEAR, Publisher" the rest of the pipeline already understands), or {source} (the finished source line), or {unverified:true}
+ *  for a line that says the source is unknown; null when the line is none of these. Used ONLY to derive the source column — the entry's text is never touched. */
+const MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December";
+export function creditLine(tail) {
+  const t = String(tail || "").replace(/\s+/g, " ").trim().replace(/\.$/, "");
+  if (!t || t.length > 1800 || NOTICE_MARK.test(t) || /^Open Game Content under the site/i.test(t) || /^Source not confirmed/i.test(t)) { NOTICE_MARK.lastIndex = 0; return null; }
+  NOTICE_MARK.lastIndex = 0;
+  if (/^(?:The source of this content is unclear|Book Tit[kl]e\.? Copyright information)/i.test(t)) return { unverified: true };
+  let m;
+  if ((m = /^Wayfinder #(\d+) Fanzine\.\s*Paizo Fans United\./i.exec(t))) return { source: `Wayfinder #${m[1]} (Paizo Fans United)` };
+  if ((m = /^Source:\s*Wayfinder #(\d+)\b/i.exec(t))) return { source: `Wayfinder #${m[1]}` };
+  if (/^[–—-]?\s*Cl\w{3,6}Nickname\b.*?@\s*(?:EN ?World|EnWorld)/i.test(t)) return { source: "ClerverNickname @ EN World forums" };
+  // Paizo's own books named without a ©: "Pathfinder 43", "Skull & Shackles Player's Guide © , Paizo Publishing, LLC" (year left blank)
+  if ((m = /^Pathfinder (\d{1,3})$/.exec(t))) return { paizoBook: `Pathfinder #${m[1]}` };
+  if ((m = /^(.{4,90}?)\s*©\s*,\s*Paizo Publishing/i.exec(t))) return { paizoBook: m[1].trim() };
+  if (/^Pathfinder Chronicles: Qadira\s*[–-]\s*Gateway to the East/i.test(t)) return { paizoBook: "Qadira, Gateway to the East" };
+  if ((m = /^Paizo Blog\b[ .]*(?:Written by ([A-Z][\w .'-]{2,40}))?$/i.exec(t))) return { source: m[1] ? `Paizo Blog (${m[1].trim()})` : "Paizo Blog" };
+  if ((m = /^Pathfinder Player Companion: ([A-Za-z' ]{4,50})$/.exec(t))) return { source: m[1].trim() };
+  // "<Site or title> Author: <person>"  (no © and no publisher): the site/title is the source, the person its author
+  if ((m = /^([A-Za-z0-9][A-Za-z0-9.@#' &-]{2,60}?)\s+Author:\s*([A-Za-z0-9][A-Za-z0-9 .'_-]{1,40})$/.exec(t)) && !/^Pathfinder|Paizo/i.test(m[1])) return { source: `${m[1].trim()} (${m[2].trim()})` };
+  // "<Title>[.:,] [Copyright,] [Month d,] YEAR[-YY], <Publisher>[; Authors …]"
+  const re = new RegExp("^(.{3,110}?)[.,:]?\\s+(?:Copyright,?\\s*)?(?:(?:" + MONTHS + ")\\s+\\d{1,2},\\s*)?((?:19|20)\\d\\d)(?:\\s*[-–]\\s*\\d{2,4})?\\s*,?\\s*(.{3,80}?)(?:\\s*[;,.]\\s*(?:Authors?\\b|Author\\(s\\)).*|\\s*$)");
+  if ((m = re.exec(t))) {
+    const title = m[1].replace(/[\s:,.]+$/, "").trim(), pub = m[3].replace(/[\s,.]+$/, "").trim();
+    if (title.length >= 3 && pub.length >= 3 && !/\b(?:Authors?|Copyright|Artist)\b/i.test(pub) && !/^Pathfinder|Paizo/i.test(title) && !/Paizo/i.test(pub) && !GENERIC_TITLE.test(title)) return { notice: `${title} © ${m[2]}, ${pub}` };
+  }
+  return null;
 }

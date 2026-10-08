@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes, productSource, thirdPartyProduct, thirdPartyProducts, unifyPublishers, setProductLexicon, addToLexicon } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes, creditLine, registerPaizoBooks, productSource, thirdPartyProduct, thirdPartyProducts, unifyPublishers, setProductLexicon, addToLexicon } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -200,16 +200,29 @@ for (const v of drop.values()) console.log("  drop", v);
 let srcChanged = 0, noteChanged = 0; const tally = {};
 // third-party PRODUCT names ("Ultimate Battle (Legendary Games)", see productSource): first pass finds every row's product + publisher so the SAME product gets
 // ONE publisher spelling across the site (unifyPublishers); the loop below applies it.
+// Credits that exist only on d20pfsrd's LIVE pages (fetched 2026-10-08; the saved copy had no Section 15 for these entries): live-notices.json = {rowId: the page's own credit text}.
+// Used only while the entry's saved credit is the "Source not confirmed" notice or the blanket-OGL line; the text replaces that paragraph and drives the source.
+const LIVE_NOTICES = JSON.parse(fs.readFileSync(new URL("./live-notices.json", import.meta.url), "utf8"));
+const effTail = (r, tail) => LIVE_NOTICES[r[0]] && (tail.startsWith("Source not confirmed for this entry") || /^Open Game Content under the site's blanket/.test(tail)) ? LIVE_NOTICES[r[0]] : tail;
 const SOURCE_OVERRIDES = JSON.parse(fs.readFileSync(new URL("./source-overrides.json", import.meta.url), "utf8")).overrides;
 const PRODUCT_SRC =/^(.+) \(([^()]+)\)$/;
 // a crawler once filed the heading "Section 15" as the source of a page whose notice is Paizo's: the books it names are the source
-const srcOfRow = (r, tail, head) => { const cur = (/^Section 15:?$/i.test(String(r[4])) || /^Pathfinder \d+$/.test(String(r[4]))) && /Paizo/.test(tail) ? "Paizo, Inc." : r[4]; const s0 = canonicalPaizoBook(bookSource(repairSource(cur, tail), tail, BOOKS), BOOKS); return r[3] === "Additional Material (d20pfsrd)" ? s0 : productSource(s0, tail, head, r[1]).replace(/,\s*All rights reserved\)$/i, ")"); };
+const srcOfRow = (r, tail0, head) => {
+  // credit lines in styles other than "Title © 2013, Publisher" (creditLine in d20-attrib.mjs): a synthetic notice the rest of the pipeline reads, a finished source, or "unknown"
+  const cl = r[3] === "Additional Material (d20pfsrd)" ? null : creditLine(tail0);
+  if (cl && cl.unverified) return UNVERIFIED_SOURCE;
+  if (cl && cl.source) return cl.source;
+  if (cl && cl.paizoBook) { const c = canonicalPaizoBook(cl.paizoBook, BOOKS); registerPaizoBooks([c]); return c; }
+  const tail = cl && cl.notice ? cl.notice : tail0;
+  let cur = (/^Section 15:?$/i.test(String(r[4])) || /^Pathfinder \d+$/.test(String(r[4]))) && /Paizo/.test(tail) ? "Paizo, Inc." : r[4];
+  if (cur === UNVERIFIED_SOURCE && LIVE_NOTICES[r[0]]) cur = /Paizo/.test(tail) ? "Paizo, Inc." : "Third-party (unattributed)";   // a live notice now names the source: derive it like any other row
+  const s0 = canonicalPaizoBook(bookSource(repairSource(cur, tail), tail, BOOKS), BOOKS); return r[3] === "Additional Material (d20pfsrd)" ? s0 : productSource(s0, tail, head, r[1]).replace(/,\s*All rights reserved\)$/i, ")").replace(/\(by\s+/i, "(").replace(/\b(LLC|Ltd)\.\)$/, "$1)"); };
 {
   // titles that split cleanly anywhere on the site: they settle where a title starts when an author list runs straight into it (see parseNotices)
   const lex = new Map(); setProductLexicon(lex);
   for (const r of d20) {
     if (drop.has(r[0])) continue;
-    const b = String(bodies[r[2]][r[0]]), tl = b.slice(b.lastIndexOf("\n\n") + 2), p1 = thirdPartyProduct(tl);
+    const b = String(bodies[r[2]][r[0]]), tl = effTail(r, b.slice(b.lastIndexOf("\n\n") + 2)), p1 = thirdPartyProduct(tl);
     if (p1) addToLexicon(lex, p1.title); else for (const p of thirdPartyProducts(tl) || []) addToLexicon(lex, p.title);
   }
 }
@@ -217,26 +230,26 @@ const pubMap = (() => {
   const items = [];
   for (const r of d20) {
     if (drop.has(r[0])) continue;
-    const body = String(bodies[r[2]][r[0]]), tail = body.slice(body.lastIndexOf("\n\n") + 2), m = PRODUCT_SRC.exec(srcOfRow(r, tail, body.slice(0, body.lastIndexOf("\n\n"))));
-    if (m && !isPaizoish(m[1]) && (thirdPartyProduct(tail) || (thirdPartyProducts(tail) || []).some((p) => p.title === m[1]))) items.push({ title: m[1], publisher: m[2] });
+    const body = String(bodies[r[2]][r[0]]), tail = effTail(r, body.slice(body.lastIndexOf("\n\n") + 2)), m = PRODUCT_SRC.exec(srcOfRow(r, tail, body.slice(0, body.lastIndexOf("\n\n"))));
+    if (m && !isPaizoish(m[1]) && (thirdPartyProduct(tail) || (thirdPartyProducts(tail) || []).some((p) => p.title === m[1]) || (creditLine(tail) || {}).notice)) items.push({ title: m[1], publisher: m[2] });
   }
   return unifyPublishers(items);
 })();
 for (const r of d20) {
   if (drop.has(r[0])) continue;
   const body = String(bodies[r[2]][r[0]]); const cut = body.lastIndexOf("\n\n");
-  const head = body.slice(0, cut), tail = body.slice(cut + 2);
+  const head = body.slice(0, cut), tail0 = body.slice(cut + 2), tail = effTail(r, tail0);
   // "Paizo, Inc." alone -> the BOOK its own Section 15 notice names (see bookSource in d20-attrib.mjs)
   let newSrc = srcOfRow(r, tail, head);
-  { const m = PRODUCT_SRC.exec(newSrc), canon = m && (thirdPartyProduct(tail) || thirdPartyProducts(tail)) && pubMap.get(m[1]) && pubMap.get(m[1]).get(m[2]); if (canon && canon !== m[2]) newSrc = `${m[1]} (${canon})`; }
+  { const m = PRODUCT_SRC.exec(newSrc), canon = m && (thirdPartyProduct(tail) || thirdPartyProducts(tail) || (creditLine(tail) || {}).notice) && pubMap.get(m[1]) && pubMap.get(m[1]).get(m[2]); if (canon && canon !== m[2]) newSrc = `${m[1]} (${canon})`; }
   { const ov = SOURCE_OVERRIDES.find((o) => o.name === r[1] && o.bucket === r[2] && o.requires.every((x) => tail.toLowerCase().includes(x.toLowerCase()))); if (ov) newSrc = ov.source; }   // researched per-entry sources (source-overrides.json)
   const newTail = repairNote(newSrc, tail);
   if (newSrc !== r[4]) { const k = `${r[4]} -> ${/^Source unconfirmed/.test(newSrc) ? newSrc : r[4] === "Third-party (unattributed)" ? "(publisher from own Section 15)" : r[4] === "Paizo, Inc." || r[4] === "Paizo" ? "(book from own Section 15)" : newSrc}`; tally[k] = (tally[k] || 0) + 1; srcChanged++; }
-  if (newTail !== tail) noteChanged++;
+  if (newTail !== tail0) noteChanged++;
   if (APPLY) {
     // the facet is ONE book (the filter lists distinct values); a two-notice page keeps both in the source string and its first as the facet
     if (newSrc !== r[4]) { if (r[6] && r[6].bk === r[4]) r[6].bk = newSrc.split(";")[0].trim(); r[4] = newSrc; }
-    if (newTail !== tail) bodies[r[2]][r[0]] = head + "\n\n" + newTail;
+    if (newTail !== tail0) bodies[r[2]][r[0]] = head + "\n\n" + newTail;
   }
 }
 console.log(`\nsource column corrected: ${srcChanged} | license paragraph corrected: ${noteChanged}`);

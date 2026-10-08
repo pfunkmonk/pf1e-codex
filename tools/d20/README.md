@@ -148,7 +148,7 @@ fires on that fault and stays quiet on the live data.
   cleaning, `snippetOf`, `isGodBody`. Used by the importer, repair and verify.
 - `d20-xref*.mjs` — cross-reference pull (`d20-xref.mjs` drives `-catalogs`, `-gather`, `-pull`; `-index` builds the archive name index once).
 - `d20-repair.mjs` — re-runnable cleanup of rows already live (dry run by default; `--apply`). Should report ~0 changes after every batch.
-- `d20-verify.mjs` — the gate. `--root <repo>`, `--baseline <git rev>` (default `b9c50cfa`, the last commit before any d20 import).
+- `d20-verify.mjs` — the gate. `--root <repo>`, `--baseline <git rev>` (default `7779e770` — was b9c50cfa before the 2026-10-08 history rewrite, the last commit before any d20 import).
 
 ## Product codes → books (`build-source-codes.mjs`, 2026-10-06)
 
@@ -188,3 +188,6 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
   reasoned rather than read. `source-overrides.json` holds researched per-entry sources (both Godlings = The Genius Guide to the Godling; Spell Variants = all four volumes; Great Ghul = Bestiary 3 + Dark Markets + Pathfinder #23),
   applied by d20-repair only while the page's Section 15 still cites the required titles. Still NOT established (left as printed): LV, LL:HotW, PFSRD, FGG:LLWS, WP (an image credit, not a book).
   Louis Porter feats: all 536 pages cite both books identically; the Collected Feats Sourcebook (Mar 2011) is one book of "over 500 feats", so "Undefeated" in the notice may be the same line — no per-feat evidence exists, so "A or B" stays.
+- **Credit lines that are not "Title © 2013, Publisher" (v121).** `creditLine()` (d20-attrib.mjs) reads the other styles in the pages' own text — "Title 2013, Publisher", "Title. Copyright, June 25, 2012, Publisher", "Site Author: person", Wayfinder fanzine lines, forum posters, "Pathfinder 43", "Paizo Blog" — and
+  fixed 46 community-written entries (TheCreatureCodex.Tumblr.com) that had been credited to "Paizo, Inc.", plus Total Party Kill / Little Red Goblin / Jon Brazer / Far Distant Future / Blargy Blog rows. `live-notices.json` = credit text found ONLY on d20pfsrd's live pages
+  (1,675 notice-less pages fetched politely on 2026-10-08; 205 had a Section 15, 14 were new information) applied by d20-repair when the saved copy only says "Source not confirmed". d20-verify's baseline is now `7779e770` (was b9c50cfa before the history rewrite).

@@ -22,7 +22,7 @@ import {
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
 const ROOT = arg("root", "C:/Users/mailp/dev/pf1e-codex");
-const BASELINE = arg("baseline", "b9c50cfa");   // the last commit before any d20 import
+const BASELINE = arg("baseline", "7779e770");   // the last commit before any d20 import
 
 // The duplicate-body cleanup bundled into the first import commit (38cdd7fa) removed 10 duplicate rows and rewrote
 // 46 spell bodies. That is understood and fine; anything beyond it means an ORIGINAL page was lost or altered.
