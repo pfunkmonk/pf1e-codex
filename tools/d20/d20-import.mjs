@@ -19,7 +19,7 @@ import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadCodex } from "../lib/api-build.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, productSource } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const arg = (n, d) => { const i = argv.indexOf("--" + n); return i >= 0 ? argv[i + 1] : d; };
@@ -263,7 +263,7 @@ for (const r of toImport) {
 
   let name = canonicalName(p);
   // The page's own license paragraph outranks bkOf's guess: see d20-attrib.mjs for the defects this fixes.
-  const bkFull = canonicalPaizoBook(bookSource(repairSource(bkOf(p), p.license), p.license, BOOKS), BOOKS);   // "Paizo, Inc." alone -> the book its own notice names
+  const bkFull = productSource(canonicalPaizoBook(bookSource(repairSource(bkOf(p), p.license), p.license, BOOKS), BOOKS), p.license);   // "Paizo, Inc." alone -> the book its own notice names
   const bk = bkFull;
   const bkFacet = bkFull.split(";")[0].trim();      // the facet is ONE book (the filter lists distinct values); a two-notice page keeps both in the source string
   // A NAMED third-party publisher (not Paizo, not "unconfirmed"/"unattributed"): the only case where a shared name is

@@ -730,3 +730,12 @@ body{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
 
 .supp-note{margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--accent2);background:color-mix(in srgb,var(--accent2) 10%,transparent);border-radius:0 6px 6px 0;font-size:.92em;line-height:1.45}
 .supp-note a{font-weight:600}
+
+/* Source line on an entry links to the "how we credit sources" page; the Sources page itself */
+.body .src .src-link{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}
+.body .src .src-link:hover{color:var(--accent)}
+.sources-page .src-prose{max-width:760px;line-height:1.55}
+.sources-page .src-prose h3{font-family:Georgia,serif;color:var(--ink);margin:22px 0 6px}
+.sources-page .src-prose li{margin:5px 0}
+.sources-page .src-pledge{max-width:760px;border-left:4px solid var(--accent)}
+.sources-page .nf-panel{max-width:760px}

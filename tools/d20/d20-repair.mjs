@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes, productSource, thirdPartyProduct, unifyPublishers } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -198,12 +198,27 @@ for (const v of drop.values()) console.log("  drop", v);
 
 // ---- 1. source / license repairs (on rows that stay) ----
 let srcChanged = 0, noteChanged = 0; const tally = {};
+// third-party PRODUCT names ("Ultimate Battle (Legendary Games)", see productSource): first pass finds every row's product + publisher so the SAME product gets
+// ONE publisher spelling across the site (unifyPublishers); the loop below applies it.
+const PRODUCT_SRC = /^(.+) \(([^()]+)\)$/;
+const srcOfRow = (r, tail) => { const s0 = canonicalPaizoBook(bookSource(repairSource(r[4], tail), tail, BOOKS), BOOKS); return r[3] === "Additional Material (d20pfsrd)" ? s0 : productSource(s0, tail).replace(/,\s*All rights reserved\)$/i, ")"); };
+const pubMap = (() => {
+  const items = [];
+  for (const r of d20) {
+    if (drop.has(r[0])) continue;
+    const body = String(bodies[r[2]][r[0]]), tail = body.slice(body.lastIndexOf("\n\n") + 2), m = PRODUCT_SRC.exec(srcOfRow(r, tail));
+    if (m && !isPaizoish(m[1]) && thirdPartyProduct(tail)) items.push({ title: m[1], publisher: m[2] });
+  }
+  return unifyPublishers(items);
+})();
 for (const r of d20) {
   if (drop.has(r[0])) continue;
   const body = String(bodies[r[2]][r[0]]); const cut = body.lastIndexOf("\n\n");
   const head = body.slice(0, cut), tail = body.slice(cut + 2);
   // "Paizo, Inc." alone -> the BOOK its own Section 15 notice names (see bookSource in d20-attrib.mjs)
-  const newSrc = canonicalPaizoBook(bookSource(repairSource(r[4], tail), tail, BOOKS), BOOKS), newTail = repairNote(newSrc, tail);
+  let newSrc = srcOfRow(r, tail);
+  { const m = PRODUCT_SRC.exec(newSrc), canon = m && thirdPartyProduct(tail) && pubMap.get(m[1]) && pubMap.get(m[1]).get(m[2]); if (canon && canon !== m[2]) newSrc = `${m[1]} (${canon})`; }
+  const newTail = repairNote(newSrc, tail);
   if (newSrc !== r[4]) { const k = `${r[4]} -> ${/^Source unconfirmed/.test(newSrc) ? newSrc : r[4] === "Third-party (unattributed)" ? "(publisher from own Section 15)" : r[4] === "Paizo, Inc." || r[4] === "Paizo" ? "(book from own Section 15)" : newSrc}`; tally[k] = (tally[k] || 0) + 1; srcChanged++; }
   if (newTail !== tail) noteChanged++;
   if (APPLY) {

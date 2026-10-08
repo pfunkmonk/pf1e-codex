@@ -240,6 +240,39 @@ export function paizoNoticeTitles(tail) {
   }
   return out;
 }
+/** The PRODUCT a third-party page's Section 15 notice names: "Ultimate Battle © 2013, Legendary Games; Author …" -> {title:"Ultimate Battle", publisher:"Legendary Games"}.
+ *  Only when the paragraph is ONE notice and not Paizo's: with several notices (a page that cites four books) the notice order does not say which book an
+ *  entry came from, and we do not guess. Monster notices read "Acid Quasi-Elemental from the Tome of Horrors Complete" — the product is the part after "from the". */
+export function thirdPartyProduct(tail) {
+  const t = String(tail || "").trim();
+  if (!t || t.length > 700 || t.includes("\n")) return null;
+  const marks = [...t.matchAll(NOTICE_MARK)];
+  if (marks.length !== 1) return null;
+  const m = marks[0];
+  if (/\bPaizo\b/i.test(t.slice(m.index + m[0].length, m.index + m[0].length + 90)) && !/Paizo Fans/i.test(t)) return null;
+  const pubs = publishersFromNotice(t).filter((p) => !isPaizoish(p));
+  if (!pubs.length) return null;
+  let title = tidyTitle(t.slice(0, m.index)).replace(/\s*\(c\)$/i, "").replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
+  const fm = /\bfrom the (.{4,80})$/i.exec(title); if (fm) title = fm[1].trim();
+  title = title.replace(/[.,;]?\s*(?:Authors?|Created by|Written by|Designed by)\b.*$/i, "").replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");   // "Advanced Feats: Visions of the Oracle. Author: …"
+  if (/^product name\b|https?:|www\./i.test(title)) return null;                                                                          // a template placeholder or a web address, not a title
+  const alnumKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  if (title.length < 3 || title.length > 90 || GENERIC_TITLE.test(title) || title.includes(";") || /section 15|open game licen|\bcopyright\b/i.test(title)) return null;
+  if (pubs.some((p) => alnumKey(p) === alnumKey(title))) return null;       // "Dreamscarred Press © 2013, Dreamscarred Press" names no product
+  return { title, publisher: pubs[0] };
+}
+/** "Product (Publisher)" for a third-party row whose notice names its product; the source unchanged otherwise (Paizo books, unconfirmed rows, multi-notice pages). */
+export function productSource(source, tail) {
+  const s = String(source || "").trim();
+  if (!s || isPaizoish(s) || s === UNVERIFIED_SOURCE || /^Third-party \(unattributed\)$/.test(s)) return source;
+  const p = thirdPartyProduct(tail);
+  if (!p) return source;
+  const key = (x) => String(x).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  if (key(s).includes(key(p.title))) return /\)$/.test(s) ? s : `${p.title} (${p.publisher})`;      // already product-ish; respell "X from the Y" into the one form
+  const pub = s.replace(/^3rd Party\s*[–-]\s*/i, "").trim();
+  const out = `${p.title} (${pub || p.publisher})`;
+  return isPaizoish(out) ? source : out;      // a third-party title that merely contains "Pathfinder" ("Pathfinder Traits Database") must not read as a Paizo book
+}
 /** The source string for a row whose current source is the bare publisher "Paizo, Inc.": the book(s) its own notice names, in the
  *  originals' spelling. Unchanged when the source is anything else, when no Paizo notice names a book, or when more than two do. */
 export function bookSource(source, tail, bookIndex) {
@@ -297,4 +330,20 @@ export function canonicalPaizoBook(source, bookIndex) {
   const s = String(source);
   if (!s || /^Paizo(?:, Inc\.)?$/.test(s.trim()) || !isPaizoish(s)) return source;
   return s.split(";").map((p) => { const t = p.trim(), c = isPaizoish(t) ? bookIndex.get(bookKey(t)) : null; return c || t; }).join("; ");
+}
+
+/** One spelling of the publisher for each product: the same book reaches us as "Frog God Games", "3PP – Frog God Games" and "Bill Webb, Frog God Games". Two
+ *  publisher strings are the same publisher when one's letters-only key contains the other's; the most common spelling (then the shortest) wins.
+ *  items: [{title, publisher}] -> Map(title -> Map(publisher -> canonical publisher)). Distinct publishers of a same-named product are left alone. */
+export function unifyPublishers(items) {
+  const key = (x) => String(x).toLowerCase().replace(/\b(llc|inc|ltd|co|3pp|3rd party)\b/g, "").replace(/[^a-z0-9]+/g, "");
+  const byTitle = new Map();
+  for (const { title, publisher } of items) { const m = byTitle.get(title) || byTitle.set(title, new Map()).get(title); m.set(publisher, (m.get(publisher) || 0) + 1); }
+  const out = new Map();
+  for (const [title, pubs] of byTitle) {
+    const order = [...pubs].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length).map((e) => e[0]), map = new Map();
+    for (const p of order) { const home = [...map.values()].find((c) => key(c) && key(p) && (key(c).includes(key(p)) || key(p).includes(key(c)))); map.set(p, home || p); }
+    out.set(title, map);
+  }
+  return out;
 }

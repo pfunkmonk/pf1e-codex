@@ -81,7 +81,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "116";
+  var DATA_V = "117";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -1386,7 +1386,10 @@
     }
     tabs.forEach(function(t,ti){ if(!matched[ti]) out.push(renderStructTable(t, jump, curId, usedXref)); }); // unmatched -> append
     var html = out.join("");
-    if(source) html += '<div class="src">📖 Source: '+esc(source)+'</div>';
+    if(source){
+      var srcRow=idById()[curId], srcEntry=srcRow?srcRow[I_NAME]:"";
+      html += '<div class="src">📖 Source: <a class="src-link" href="#/sources?entry='+encodeURIComponent(srcEntry)+'&amp;source='+encodeURIComponent(source)+'" title="How we credit sources — and how to tell us if one is wrong">'+esc(source)+'</a></div>';
+    }
     html += '<div class="codex-note">Rules content used under the Open Game License 1.0a.</div>';
     return html;
   }
@@ -2793,11 +2796,18 @@
     var wrap=h("div"); var head=h("div",{class:"list-head"});
     head.innerHTML='<h2>✉ Feedback</h2><span class="meta">Spot an error, or recognize something here as your own work? Tell us — this goes straight to the Codex\'s owner.</span>';
     wrap.appendChild(head);
+    wrap.appendChild(feedbackPanel(query,"claim"));
+    swap(wrap); window.scrollTo(0,0);
+  }
+  // The one message form (feedback AND the Sources page): posts to the Netlify form "codex-feedback", whose submissions are e-mailed to the owner.
+  // query.source = the source line the visitor clicked through from; it rides along inside the "entry" field (the form's declared fields are fixed).
+  function feedbackPanel(query,defType){
     var panel=h("div",{class:"nf-panel"});
     var form=h("form");
     function field(l,c){ var f=h("div",{class:"nf-field"}); f.appendChild(h("label",null,l)); f.appendChild(c); return f; }
     var typeSel=h("select",{class:"char-sel"});
     [["This content is mine","claim"],["Report a problem","report"],["Something else","other"]].forEach(function(o){ typeSel.appendChild(new Option(o[0],o[1])); });
+    typeSel.value=defType||"claim";
     var entryIn=h("input",{type:"text",placeholder:"e.g. Devil, Erinyes",class:"fb-wide"}); entryIn.value=(query&&query.entry)||"";
     var msgTa=h("textarea",{placeholder:"What should we know?",rows:"6",class:"fb-wide"});
     var emailIn=h("input",{type:"email",placeholder:"you@example.com (optional, if you want a reply)",class:"fb-wide"});
@@ -2817,13 +2827,46 @@
       if(bot.value){ showThanks(); return; }                 // a bot filled the honeypot: pretend success, send nothing
       if(!msgTa.value.trim()){ err.textContent="Add a message before sending."; err.style.display=""; msgTa.focus(); return; }
       err.style.display="none"; setBusy(true);
-      var body=new URLSearchParams({ "form-name":"codex-feedback", type:typeSel.value, entry:entryIn.value, message:msgTa.value, email:emailIn.value });
+      var entryVal=entryIn.value+((query&&query.source)?" [source line shown: "+query.source+"]":"");
+      var body=new URLSearchParams({ "form-name":"codex-feedback", type:typeSel.value, entry:entryVal, message:msgTa.value, email:emailIn.value });
       fetch("/", { method:"POST", headers:{"Content-Type":"application/x-www-form-urlencoded"}, body:body.toString() })
         .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); showThanks(); })
         .catch(function(){ setBusy(false); err.textContent="Couldn't send that — check your connection and try again."; err.style.display=""; });
     };
     function showThanks(){ panel.innerHTML=""; panel.appendChild(h("div",{class:"muted"},"✅ Thanks — got it.")); }
-    panel.appendChild(form); wrap.appendChild(panel);
+    panel.appendChild(form);
+    return panel;
+  }
+
+  // ---- Sources & corrections: where a source line comes from, and how a creator reaches us directly ----
+  // Every "📖 Source:" line on an entry links here (fmtBody). The wording is the owner's: we do our best to credit properly and are glad to correct anything wrong.
+  function viewSources(query){
+    setActiveNav(null); query=query||{};
+    var wrap=h("div",{class:"sources-page"}); var head=h("div",{class:"list-head"});
+    head.innerHTML='<h2>📖 How we credit our sources</h2><span class="meta">What the “Source” line on an entry means, how we worked it out, and how to tell us when we got it wrong.</span>';
+    wrap.appendChild(head);
+    var box=h("div",{class:"nf-panel src-pledge"});
+    box.innerHTML='<p><strong>We are doing our best to attribute every source properly, and we are happy to update anything that is incorrect.</strong> '+
+      'If you made something that appears here and the credit is wrong, missing, or you would rather it were not here, please tell us directly using the form at the bottom of this page. We will look into it promptly and fix it.</p>';
+    wrap.appendChild(box);
+    var sec=h("div",{class:"src-prose"});
+    sec.innerHTML=
+      '<h3>Where the entries come from</h3>'+
+      '<p>The Codex is an unofficial, noncommercial fan reference. Its rules text is Open Game Content, used under the Open Game License 1.0a: the Pathfinder Roleplaying Game material that Paizo has published as open content, plus Open Game Content from third-party publishers that is catalogued on d20pfsrd.com. Entries were assembled from saved copies of pages from the Archives of Nethys and from d20pfsrd.com. Nothing here is endorsed by Paizo Inc. or by any publisher named below.</p>'+
+      '<h3>How the Source line is worked out</h3>'+
+      '<ul>'+
+      '<li><strong>Paizo books</strong> — taken from the entry’s own page: its “Source” line, or the copyright notice (“Section 15”) printed at the bottom of the page it came from. The book is shown, not just “Paizo”.</li>'+
+      '<li><strong>Product codes</strong> — d20pfsrd.com labels some content with a short code (<em>PZO1115</em>, <em>PPC:CoL</em>, <em>PAP123</em>). We translate a code to a book only when we found it written out: a page that prints the code beside the title, a store or catalogue listing, or the same entry listed under that book on another site. Where we could not confirm a code, it is left as printed rather than guessed.</li>'+
+      '<li><strong>Third-party content</strong> — shown as <em>Product (Publisher)</em>, using the product and publisher named in that page’s own copyright notice.</li>'+
+      '<li><strong>When the notice can’t tell us</strong> — if one page cites several books and the notices do not say which one an entry came from, we show the publisher only and do not guess. “Source unconfirmed” means exactly that: we could not tell.</li>'+
+      '</ul>'+
+      '<h3>We will get some of these wrong</h3>'+
+      '<p>The credit on thousands of entries was worked out by a program reading those notices, and then checked in samples. Mistakes are possible: a wrong book, a product credited to the wrong publisher, a name spelled differently from how you spell it, or content that should not be here at all. When we are told, we correct it.</p>'+
+      '<h3>Creators and publishers: please contact us directly</h3>'+
+      '<p>If you are the author or publisher of something in the Codex and you see a mistake in its credit, or a use you did not intend or are not comfortable with, tell us. Name the entry (or paste the link) and what should change. You do not need to give an email address, but without one we cannot write back. Your message goes straight to the Codex’s owner.</p>';
+    wrap.appendChild(sec);
+    var fh=h("h3",null,"Tell us"); fh.style.cssText="margin:18px 0 6px;font-family:Georgia,serif"; wrap.appendChild(fh);
+    wrap.appendChild(feedbackPanel(query,"claim"));
     swap(wrap); window.scrollTo(0,0);
   }
 
@@ -3281,6 +3324,7 @@
     if(hash==="/stacking") return viewStacking();
     if(hash==="/weather") return viewWeather();
     if(hash==="/feedback") return viewFeedback(query);
+    if(hash==="/sources") return viewSources(query);
     if(hash==="/ask") return viewAsk();
     if(hash==="/saved") return viewSavedAnswers();
     if(hash==="/cheat") return viewCheat();

@@ -168,3 +168,10 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
   re-fetched by a second agent trying to refute each; `build-source-codes.mjs` merges them. Deliberately NOT accepted (audit said inferred / forum-only /
   elimination / nothing seen): LV, PCS:Q, PC:CS, UKC, NC:WoMD, LL:HotW, PAP:41, PZO9446H; no answer at all: PFSRD, SwA:AC, PCS:Q2016, WP, FGG:LLWS.
   `translateCodes` now accepts any word after "Source" and rewrites it only if the table resolves it.
+- **Third-party product names (v117).** `productSource()` (d20-attrib.mjs) turns a third-party row's source into "Product (Publisher)" using its page's ONE Section 15
+  notice (`thirdPartyProduct`); pages that cite several books keep the publisher only (the notice order does not say which book an entry came from — never guess).
+  `unifyPublishers` gives one publisher spelling per product. Wired into d20-import.mjs (new rows) and d20-repair.mjs step 1 (idempotent). A product whose title
+  contains "Pathfinder"/"Paizo" is left alone (it would read as a Paizo book to isPaizoish and fail d20-verify).
+- **Sources page (`#/sources`, viewSources in app.js).** Every "📖 Source:" line links to it (with the entry name + source line carried into the form); the footer links to
+  it too. It reuses the Netlify form `codex-feedback`; its submissions are e-mailed to the owner by a form-notification hook that already exists on the Netlify site
+  (no address is published anywhere in the repo or the page).
