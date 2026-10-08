@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import { commaListShare, AD_MARK, isGodSummaryTable, blankTemplateSlots } from "./d20-clean.mjs";
-import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes, productSource, thirdPartyProduct, thirdPartyProducts, unifyPublishers } from "./d20-attrib.mjs";
+import { contentOverlap, SAME_TEXT, shortSuffix, snippetOf, tidyDividers, stripTemplateJunk, breakFlatStatBlocks, isFlatStatLine, isGodBody, repairSource, repairNote, nameKeys, VARIANT_QUAL, isPaizoish, UNVERIFIED_SOURCE, buildBookIndex, bookSource, canonicalPaizoBook, translateCodes, productSource, thirdPartyProduct, thirdPartyProducts, unifyPublishers, setProductLexicon, addToLexicon } from "./d20-attrib.mjs";
 
 const argv = process.argv.slice(2);
 const APPLY = argv.includes("--apply");
@@ -201,7 +201,17 @@ let srcChanged = 0, noteChanged = 0; const tally = {};
 // third-party PRODUCT names ("Ultimate Battle (Legendary Games)", see productSource): first pass finds every row's product + publisher so the SAME product gets
 // ONE publisher spelling across the site (unifyPublishers); the loop below applies it.
 const PRODUCT_SRC = /^(.+) \(([^()]+)\)$/;
-const srcOfRow = (r, tail, head) => { const s0 = canonicalPaizoBook(bookSource(repairSource(r[4], tail), tail, BOOKS), BOOKS); return r[3] === "Additional Material (d20pfsrd)" ? s0 : productSource(s0, tail, head, r[1]).replace(/,\s*All rights reserved\)$/i, ")"); };
+// a crawler once filed the heading "Section 15" as the source of a page whose notice is Paizo's: the books it names are the source
+const srcOfRow = (r, tail, head) => { const cur = (/^Section 15:?$/i.test(String(r[4])) || /^Pathfinder \d+$/.test(String(r[4]))) && /Paizo/.test(tail) ? "Paizo, Inc." : r[4]; const s0 = canonicalPaizoBook(bookSource(repairSource(cur, tail), tail, BOOKS), BOOKS); return r[3] === "Additional Material (d20pfsrd)" ? s0 : productSource(s0, tail, head, r[1]).replace(/,\s*All rights reserved\)$/i, ")"); };
+{
+  // titles that split cleanly anywhere on the site: they settle where a title starts when an author list runs straight into it (see parseNotices)
+  const lex = new Map(); setProductLexicon(lex);
+  for (const r of d20) {
+    if (drop.has(r[0])) continue;
+    const b = String(bodies[r[2]][r[0]]), tl = b.slice(b.lastIndexOf("\n\n") + 2), p1 = thirdPartyProduct(tl);
+    if (p1) addToLexicon(lex, p1.title); else for (const p of thirdPartyProducts(tl) || []) addToLexicon(lex, p.title);
+  }
+}
 const pubMap = (() => {
   const items = [];
   for (const r of d20) {

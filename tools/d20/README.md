@@ -180,3 +180,7 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
   ENTRY names (every "Source …" line on it naming the same product — `productNamedByEntry` — or d20pfsrd filing it under that product), else, for 2–3 products,
   "A or B (Publisher)" (true: the page cites them; nothing says which), else publisher only. A source already in "Product (Publisher)" form is never rewritten.
   Louis Porter's 528 feats cite "Undefeatable" and "Undefeated" and neither the saved nor the live d20pfsrd page says which feat is from which: they read "A or B".
+- **The last 124 (v119).** `parseNotices()` replaces the stricter splitter: it handles an author list running into the next title by (1) a sentence boundary, (2) a title KNOWN from a clean
+  notice elsewhere on the site (the lexicon `d20-repair` builds), or (3) a hand-read entry in `notice-overrides.json` (each title verbatim in the paragraph, checked at load).
+  Paizo pages that also cite third-party work now credit it: "Pathfinder #23: The Impossible Eye; Advanced Bestiary (Green Ronin Publishing)". What stays publisher-only /
+  Paizo-only: pages citing MORE than three products (Godling ×4, Spell Variants), pages whose notice text is contaminated by body text, and pure-Paizo pages with 3+ books.

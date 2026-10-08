@@ -218,7 +218,7 @@ export function buildBookIndex(rows, isOriginal) {
 const NOTICE_MARK = /(?:©|\(c\)|copyright)\s*,?\s*(?:\(c\)\s*)?(?:19|20)\d\d/gi;
 const GENERIC_TITLE = /open game licen|system reference|reference document|^pathfinder roleplaying game$/i;
 function tidyTitle(t) {
-  let s = String(t).replace(/Pathfi\s+nder/g, "Pathfinder").replace(/\s+/g, " ").replace(/\((?:OGL)\)/g, "").trim().replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
+  let s = String(t).replace(/^\s*Section 15:?\s*Copyright Notices?\s*/i, "").replace(/Pathfi\s+nder/g, "Pathfinder").replace(/\s+/g, " ").replace(/\((?:OGL)\)/g, "").trim().replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
   const h = Math.floor(s.length / 2);                      // "X X": the notice repeats its own title ("Pathfinder 5: Sins of the Saviors Pathfinder 5: …")
   if (s.length > 12 && s.slice(0, h).trim() === s.slice(h).trim()) s = s.slice(0, h).trim();
   s = s.replace(/^(.{6,60}?)\s+(?=\1[:\s])/, "");      // "Phantasia Zoologica I Phantasia Zoologica I: Dogs": the title said once as a heading, once in full
@@ -265,8 +265,13 @@ export function thirdPartyProduct(tail) {
 /** "Product (Publisher)" for a third-party row whose notice names its product; the source unchanged otherwise (Paizo books, unconfirmed rows, multi-notice pages). */
 export function productSource(source, tail, body, name) {
   const s = String(source || "").trim();
-  if (!s || isPaizoish(s) || s === UNVERIFIED_SOURCE || /^Third-party \(unattributed\)$/.test(s)) return source;
   const key = (x) => String(x).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  if (s && isPaizoish(s) && !/^Paizo(?:, Inc\.)?$/.test(s)) {
+    // a Paizo-book source on a page whose Section 15 ALSO cites third-party work ("… Advanced Bestiary. Copyright 2004 Green Ronin Publishing"): credit those creators too
+    const add = thirdPartyAlongsidePaizo(tail).filter((p) => !key(s).includes(key(p.title))).slice(0, 3);
+    return add.length ? `${s}; ${add.map((p) => `${p.title} (${p.publisher})`).join("; ")}` : source;
+  }
+  if (!s || isPaizoish(s) || s === UNVERIFIED_SOURCE || /^Third-party \(unattributed\)$/.test(s)) return source;
   const one = (p) => {
     if (key(s).includes(key(p.title))) return /\)$/.test(s) ? s : `${p.title} (${p.publisher})`;      // already product-ish; respell "X from the Y" into the one form
     const pub = s.replace(/^3rd Party\s*[–-]\s*/i, "").replace(/^Section 15:?$/i, "").trim();      // "Section 15" is a heading a crawler mistook for a publisher
@@ -370,34 +375,68 @@ export function unifyPublishers(items) {
   return out;
 }
 
-/** Every PRODUCT a third-party page's Section 15 paragraph cites, as [{title, publisher}] in order, de-duplicated by title — or null when the paragraph cannot be split
- *  with confidence (an author list running straight into the next title, a Paizo notice, a template). A page that repeats ONE notice ("X © 2022, Legendary Games
- *  … Section 15: Copyright Notice X © 2022, Legendary Games …") yields one product. */
-export function thirdPartyProducts(tail) {
-  const t0 = String(tail || "").replace(/Section 15:?\s*Copyright Notices?/gi, " ").replace(/\s+/g, " ").trim();
-  if (!t0 || t0.length > 1600 || /\bPaizo\b/i.test(t0)) return null;
+/** Titles seen in notices that split cleanly anywhere on the site, as key -> title. When an author list runs straight into the next title ("Author: Owen K.C. Stephens
+ *  The Genius Guide To: Ice Magic. Copyright 2010"), a KNOWN title that the text literally ends with before the © mark settles where the title starts. Filled by d20-repair. */
+let LEXICON = new Map();
+export function setProductLexicon(m) { LEXICON = m instanceof Map ? m : new Map(); }
+const lexKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "");
+export function addToLexicon(m, title) { const k = lexKey(title); if (k.length >= 8 && !m.has(k)) m.set(k, title); }
+/** Every notice in a Section 15 paragraph as [{title, publisher, paizo}] in order, de-duplicated by title — or null when it cannot be split with confidence
+ *  (an author list running into the next title that no known title explains, a template). A page that repeats ONE notice yields one entry. */
+let OVERRIDES = null;
+function noticeOverride(t) {
+  if (!OVERRIDES) { try { OVERRIDES = JSON.parse(readFileSync(new URL("./notice-overrides.json", import.meta.url), "utf8")).overrides; } catch { OVERRIDES = []; } }
+  const lc = t.toLowerCase();
+  const o = OVERRIDES.find((x) => t.startsWith(x.match) && x.products.every((p) => lc.includes(p.title.toLowerCase())));      // a hand-read entry counts only while the page still says exactly that
+  return o ? o.products.map((p) => ({ title: p.title, publisher: p.publisher, paizo: !!p.paizo })) : null;
+}
+export function parseNotices(tail) {
+  let t0 = String(tail || "").replace(/Section 15:?\s*Copyright Notices?/gi, " ").replace(/\s+/g, " ").trim();
+  { const ov = noticeOverride(t0); if (ov) return ov; }
+  t0 = t0.replace(/\s(?:DESCRIPTION|EFFECT|DEFENSE|OFFENSE|STATISTICS)\b.*$/, "").trim();         // a spell/monster page whose text ran on after its notice
+  if (!t0 || t0.length > 2400) return null;
   const re = new RegExp(NOTICE_MARK.source, "gi"), marks = [...t0.matchAll(re)];
   if (!marks.length) return null;
-  const alnumKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "");
   const out = []; let prevEnd = 0;
   for (let k = 0; k < marks.length; k++) {
     const m = marks[k];
-    let seg = t0.slice(prevEnd, m.index);
+    let seg = t0.slice(prevEnd, m.index), title = "";
+    const clean = (x) => { let s = tidyTitle(x).replace(/\s*\(c\)$/i, "").replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, ""); const fm = /\bfrom (?:the )?(.{4,80})$/i.exec(s); if (fm) s = fm[1].trim(); return s; };
+    const ok = (x) => x && x.length >= 3 && x.length <= 90 && !GENERIC_TITLE.test(x) && !/\b(?:Authors?|Created by|Written by)\b|section 15|open game licen|copyright|[;©]|^product name\b|https?:|www\./i.test(x);
     if (k > 0) {
-      // the previous notice's authors run up to the next sentence boundary; what follows is this notice's title
-      if (/^[\s;.,]*(?:Authors?|Created by|Written by|Text)\b/i.test(seg)) { const cut = /(?<!\b[A-Z]|\bJr|\bSr|\bDr|\bInc|\bLLC|\bLtd|\bCo)\.\s+(?=[A-Z0-9“"'‘])/.exec(seg); if (!cut) return null; seg = seg.slice(cut.index + cut[0].length); }
-      seg = seg.replace(/^[\s;.,]+/, "").replace(/^All rights reserved\.?\s*/i, "");
-    }
-    let title = tidyTitle(seg).replace(/\s*\(c\)$/i, "").replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
-    const fm = /\bfrom the (.{4,80})$/i.exec(title); if (fm) title = fm[1].trim();
-    if (!title || title.length < 3 || title.length > 90 || GENERIC_TITLE.test(title) || /\b(?:Authors?|Created by|Written by)\b|section 15|open game licen|copyright|[;©]|^product name\b|https?:|www\./i.test(title)) return null;
-    const after = t0.slice(m.index + m[0].length), pm = /^\s*(?:[-–]\s*(?:19|20)?\d\d\s*)?[,.]?\s*([^;.]+?)\s*(?=[;.]|,\s*published|\s+Authors?\b|\s+Created\b|$)/i.exec(after.replace(/\b(Jr|Sr|Dr|St|Mr|Mrs)\./g, "$1\u0001").replace(/\b([A-Z])\.(?=\s)/g, "$1\u0001").replace(/(\w)\.(\w)/g, "$1\u0002$2"));
+      const tailSeg = seg.replace(/^[\s;.,]+/, "").replace(/^All rights reserved\.?\s*/i, "");
+      if (/^(?:Authors?|Created by|Written by|Text)\b/i.test(tailSeg)) {
+        // (1) the author list ends at a sentence boundary; (2) failing that, a known title the text literally ends with
+        const cut = /(?<!\b[A-Z]|\bJr|\bSr|\bDr|\bInc|\bLLC|\bLtd|\bCo)\.\s+(?=[A-Z0-9“"'‘])/.exec(tailSeg);
+        if (cut && ok(clean(tailSeg.slice(cut.index + cut[0].length)))) title = clean(tailSeg.slice(cut.index + cut[0].length));
+        else {
+          const kt = lexKey(tailSeg); let best = "";
+          for (const [key, t] of LEXICON) if (kt.endsWith(key) && key.length > lexKey(best).length) best = t;
+          const rep = out.find((p) => kt.endsWith(lexKey(p.title)));                       // the same title again (a notice repeated with another publisher spelling)
+          if (rep && lexKey(rep.title).length >= lexKey(best).length) best = rep.title;
+          title = best;
+        }
+      } else title = clean(tailSeg);
+    } else title = clean(seg);
+    if (!ok(title)) return null;
+    const after = t0.slice(m.index + m[0].length), pm = /^\s*(?:[-–]\s*(?:19|20)?\d\d\s*)?(?:,\s*(?:19|20)\d\d\s*)?[,.]?\s*([^;.]+?)\s*(?=[;.]|,\s*published|\s+Authors?\b|\s+Created\b|$)/i.exec(after.replace(/\b(Jr|Sr|Dr|St|Mr|Mrs)\./g, "$1\u0001").replace(/\b([A-Z])\.(?=\s)/g, "$1\u0001").replace(/(\w)\.(\w)/g, "$1\u0002$2"));
     const publisher = pm ? pm[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/[,\s]+$/, "").replace(/\b(Inc|Ltd|Co|Corp)$/, "$1.").trim() : "";
-    if (!publisher || publisher.length < 3 || publisher.length > 80 || isPaizoish(publisher)) return null;
-    if (!out.some((p) => alnumKey(p.title) === alnumKey(title))) out.push({ title, publisher });
+    if (!publisher || publisher.length < 3 || publisher.length > 80) return null;
+    if (!out.some((p) => lexKey(p.title) === lexKey(title))) out.push({ title, publisher, paizo: isPaizoish(publisher) || /\bPaizo\b/i.test(publisher) });
     prevEnd = m.index + m[0].length + (pm ? pm.index + pm[0].length : 0);
   }
   return out;
+}
+/** The third-party products in a paragraph that cites ONLY third-party notices (null if it cannot be split, or any notice is Paizo's). */
+export function thirdPartyProducts(tail) {
+  const n = parseNotices(tail);
+  return n && n.length && !n.some((p) => p.paizo) ? n.map(({ title, publisher }) => ({ title, publisher })) : null;
+}
+/** The third-party products in a paragraph that ALSO cites Paizo books ("Pathfinder 23 … Advanced Bestiary. Copyright 2004 Green Ronin Publishing"): the creators a
+ *  Paizo-only source line would leave uncredited. [] when there are none or the paragraph cannot be split. */
+export function thirdPartyAlongsidePaizo(tail) {
+  const n = parseNotices(tail);
+  return n && n.some((p) => p.paizo) ? n.filter((p) => !p.paizo).map(({ title, publisher }) => ({ title, publisher })) : [];
 }
 /** A page that cites SEVERAL products: the one its entry names itself (a "Source …" line in the body, or the title in the entry's own name), else null. */
 export function productNamedByEntry(products, body, name) {

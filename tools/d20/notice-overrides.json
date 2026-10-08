@@ -1,0 +1,17 @@
+{
+  "note": "Section 15 paragraphs whose notices run together with no sentence break (an author list straight into the next title). Each entry was read by hand against the paragraph itself: every title below appears VERBATIM in the paragraph's text right before its copyright mark. parseNotices() uses an entry only when the paragraph starts with `match` AND every title is found in it. Nothing here comes from outside the page.",
+  "overrides": [
+    { "match": "Rappan Athuk Copyright 2012 Bill Webb, Frog God Games Orcus from the Tome of Horrors Complete",
+      "products": [ { "title": "Rappan Athuk", "publisher": "Frog God Games" }, { "title": "Tome of Horrors Complete", "publisher": "Necromancer Games, Inc." } ] },
+    { "match": "The Genius Guide To: Races of Hoof and Horn. Copyright 2010, Super Genius Games.",
+      "products": [ { "title": "The Genius Guide To: Races of Hoof and Horn", "publisher": "Super Genius Games" }, { "title": "The Genius Guide To: Hoof and Horn Racial Options", "publisher": "Super Genius Games" } ] },
+    { "match": "Christina Stiles Presents: Races Revised – Cackle of the Gnolls, ©2013 Super Genius Games",
+      "products": [ { "title": "Christina Stiles Presents: Races Revised – Cackle of the Gnolls", "publisher": "Super Genius Games" } ] },
+    { "match": "The Pale Theologian – Lord of Life and Death, © 2022 Studio M-",
+      "products": [ { "title": "The Pale Theologian – Lord of Life and Death", "publisher": "Studio M-" }, { "title": "Studio M- October 2021 Compilation", "publisher": "Studio M-" } ] },
+    { "match": "Pathfinder 32: Rivers Run Red. Copyright 2010, Paizo Publishing LLC. Author: Rob McCreary Grimstalker from Tome of Horrors II",
+      "products": [ { "title": "Pathfinder 32: Rivers Run Red", "publisher": "Paizo Publishing LLC", "paizo": true }, { "title": "Tome of Horrors II", "publisher": "Necromancer Games, Inc." } ] },
+    { "match": "Pathfinder 22: The End of Eternity. Copyright 2009, Paizo Publishing, LLC; Author: Jason Nelson Stone Guardian from Tome of Horrors, Revised",
+      "products": [ { "title": "Pathfinder 22: The End of Eternity", "publisher": "Paizo Publishing, LLC", "paizo": true }, { "title": "Tome of Horrors, Revised", "publisher": "Necromancer Games, Inc." } ] }
+  ]
+}

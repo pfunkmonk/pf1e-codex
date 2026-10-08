@@ -81,7 +81,7 @@
   };
   // Cache token for every lazily-loaded data file. MUST match ?v= in index.html and CACHE in sw.js
   // — bump all three together on any data change, or clients mix fresh and stale payloads.
-  var DATA_V = "118";
+  var DATA_V = "119";
   function loadCat(slug, cb) {
     if (BODIES[slug]) return cb();
     (pending[slug] = pending[slug] || []).push(cb);
@@ -2857,7 +2857,7 @@
       '<ul>'+
       '<li><strong>Paizo books</strong> — taken from the entry’s own page: its “Source” line, or the copyright notice (“Section 15”) printed at the bottom of the page it came from. The book is shown, not just “Paizo”.</li>'+
       '<li><strong>Product codes</strong> — d20pfsrd.com labels some content with a short code (<em>PZO1115</em>, <em>PPC:CoL</em>, <em>PAP123</em>). We translate a code to a book only when we found it written out: a page that prints the code beside the title, a store or catalogue listing, or the same entry listed under that book on another site. Where we could not confirm a code, it is left as printed rather than guessed.</li>'+
-      '<li><strong>Third-party content</strong> — shown as <em>Product (Publisher)</em>, using the product and publisher named in that page’s own copyright notice.</li>'+
+      '<li><strong>Third-party content</strong> — shown as <em>Product (Publisher)</em>, using the product and publisher named in that page’s own copyright notice. Where a Paizo page also cites someone else’s work (a monster built on the Tome of Horrors, a template from Advanced Bestiary), that creator is credited after the Paizo book, separated by a semicolon.</li>'+
       '<li><strong>When a page cites several books</strong> — we use what the entry itself says: its own “Source” line, or the place d20pfsrd filed it. If nothing on the entry says which book it came from, we do not pick one: we name the books the page cites, joined by “or” (two or three of them), and with more than that we show the publisher only. “Source unconfirmed” means we could not tell at all.</li>'+
       '</ul>'+
       '<h3>We will get some of these wrong</h3>'+
