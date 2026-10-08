@@ -32,6 +32,11 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    # Nothing embeds the Codex in a frame (checked 2026-10-08): refuse it, so no other site can frame the feedback form or the pages (clickjacking).
+    X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy = "frame-ancestors 'self'"
+    # No page here needs the camera, microphone, location, payments or USB.
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
 
 [[headers]]
   for = "/sw.js"

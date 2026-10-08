@@ -39,8 +39,8 @@ opening the site locally or running `tools/check-api.mjs` / `tools/check-ask.mjs
 
 ## Deploying
 
-A push to `main` **is** a production release. Netlify publishes the repo root; there is
-**no build step and no test gate**, so nothing will catch a broken `app.js` for you.
+A push to `main` **is** a production release. Netlify publishes the repo root after running **`node tools/build-generated.mjs`** (api/, the Ask index, and the entry-text shards — see the sections near the top; a failure there keeps the previous deploy live).
+There is still **no test gate for `app.js`/CSS/data**, so nothing but you will catch a broken `app.js`: run the `tools/check-*.mjs` scripts and open the page first.
 
 Before pushing:
 
@@ -924,3 +924,11 @@ own text names (monster templates, tricks, stares, phrenic amplifications, class
 product ("Rappan Athuk"). They were left alone because the `bk` facet groups the publisher filter by that string. If wanted: keep `bk` = publisher and
 put "<Product> — <Publisher>" in the SOURCE string only (the entry page's "📖 Source:" line), plus a verify check. Also unrecoverable today: ~305
 Paizo rows with no book in their notice, 5 originals, and product codes (PZO1110, PRG:APG…) — no legend page exists in the archive.
+
+## 🔐 SECURITY SWEEP — 2026-10-08 (what was checked, what was found)
+- **Secrets:** all 104 commits' small text files (653 blobs) scanned for API keys, JWTs, AWS/Netlify/GitHub/Slack tokens, private keys, `service_role`, generic `key=…` assignments → **none**. No e-mail address appears anywhere in the repo (the owner's is deliberately only in a Netlify form-notification hook). The only key, `CODEX_ASK_API_KEY`, is a Netlify **secret** env var.
+- **Entry data as an attack surface:** all 52,003 bodies + index rows (third-party text) scanned for `<script>`, iframes, `javascript:`, event attributes, forms, images → **none**; the app escapes entry text (a literal `<a protean>` in a rule renders as text — verified in a browser).
+- **Headers:** HTTPS/HSTS, `nosniff`, referrer policy were already set. **Added 2026-10-08:** `X-Frame-Options: SAMEORIGIN` + CSP `frame-ancestors 'self'` (nothing embeds the Codex) and a restrictive `Permissions-Policy`. The page CSP (meta tag) allows scripts/images/connections from `'self'` only and `form-action 'none'`.
+- **`/ask`:** foreign `Origin` → 403; GET → 405; empty / over-300-character questions rejected; rate-limited at the edge (15/60 s) and in-function; a request with NO Origin header (curl) is allowed by design (the rate limits are the defence). **Not capped: dollars** — only the provider's monthly spend limit (Anthropic Console) bounds cost.
+- **GitHub:** repo is PUBLIC; secret scanning + push protection ON, 0 alerts; sole collaborator; no deploy keys, webhooks or workflows; `main` is NOT branch-protected (single owner — optional).
+- **Recommended, NOT applied (owner's account settings):** (1) narrow `CODEX_ASK_API_KEY` scopes to functions/runtime only (it is also exposed to *builds* and to deploy-preview/branch contexts); (2) confirm the Anthropic monthly spend limit; (3) optionally protect `main` against force-pushes.
