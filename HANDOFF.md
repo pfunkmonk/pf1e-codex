@@ -21,9 +21,11 @@ If you change the tokenizer/ranking, change BOTH `ask.mjs` and `tools/gen-ask-in
 ## 🖼 ART IS NO LONGER IN GIT (2026-10-08) — `art/` is a local, ignored folder; it is published from its own Netlify site
 `art/` (4,037 WebP, 285 MB) used to be 52% of the repo's history. It is now **gitignored** and deployed to the Netlify site **`pf1e-codex-art`** (`tools/art-site.json`, https://pf1e-codex-art.netlify.app) with
 **`node tools/deploy-art.mjs`** (only changed files upload). `netlify.toml` proxies **`/art/*` -> that site** (status 200), so every `/art/<key>.webp` URL — the app, the service worker, and the Campaign Compendium's hot-links — is unchanged.
-- **Adding art:** `python tools/art-compress.py <folder-of-new-images>` (WebP, long edge <= 1280, q72, cap 150 KB / refuse > 220 KB, never overwrites shipped files) -> `node tools/gen-art-manifest.mjs` -> `node tools/deploy-art.mjs`.
+- **Adding art (the existing pipeline — it reads Box READ-ONLY):** the generated PNGs live in the owner's Box folder `C:\Users\mailp\Box\CODEX IMAGES` (NEVER write to, move or delete anything there or on his Desktop).
+  `node tools/ingest-art.mjs --src "C:/Users/mailp/Box/CODEX IMAGES" --dry` shows what is new; without `--dry` it converts new keys (lowest `-vN` variant, 1280x720 cover-crop, WebP q78, stepped down to fit <= 150 KB; large ones are listed) into the repo's `art/`, and never re-encodes shipped keys. It borrows `sharp` from battlemap-commons/tabletop-hub automatically.
+  Then `node tools/gen-art-manifest.mjs . && node tools/check-themes.mjs . && node tools/check-reachable.mjs .` -> `node tools/deploy-art.mjs` -> commit `data/art.js` and bump the 4 cache tokens. (2026-10-08: 1,337 new images were waiting; 3,959 already shipped; ~2,295 planned keys have no source yet.)
 - **Fresh clone / laptop:** `node tools/sync-art.mjs` downloads whatever `data/art.js` lists that you do not have. ⚠ The first `git pull` of this change DELETES a clone's tracked `art/` files from disk — run `sync-art.mjs` afterwards.
-- The art site holds the published copy; the master copy is this machine's `art/` (back it up — it is no longer in git history going forward).
+- The art site holds the published copy; the repo's `art/` is a working copy; the owner's masters are the PNGs in his Box folder (see above).
 
 ## ⚙ GENERATED FILES ARE NO LONGER COMMITTED (2026-10-08) — read before touching `api/` or the Ask index
 `api/` (the public JSON API) and `data/ask-index.json` (the Ask retrieval index) are built from `data/index.js` + `data/cat/*.js` by **`node tools/build-generated.mjs`** (~25 s).
