@@ -4,3 +4,6 @@
 # GENERATED at build time by tools/build-generated.mjs (SIZE-PLAN.md) — never commit
 api/
 data/ask-index.json
+
+# Painted backdrops: deployed to the pf1e-codex-art Netlify site (tools/deploy-art.mjs); a fresh clone runs tools/sync-art.mjs
+art/

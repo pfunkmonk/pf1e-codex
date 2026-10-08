@@ -7,6 +7,14 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# art/ (4,000+ painted backdrops) lives on its own Netlify site, NOT in git — see SIZE-PLAN.md and tools/deploy-art.mjs. This proxy keeps every
+# /art/<key>.webp URL working from this origin (same-origin for the service worker, and the Campaign Compendium hot-links these URLs).
+[[redirects]]
+  from = "/art/*"
+  to = "https://pf1e-codex-art.netlify.app/:splat"
+  status = 200
+  force = true
+
 [functions]
   directory = "netlify/functions"
 

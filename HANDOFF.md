@@ -13,6 +13,13 @@ corrupts `.git`.
 
 ---
 
+## 🖼 ART IS NO LONGER IN GIT (2026-10-08) — `art/` is a local, ignored folder; it is published from its own Netlify site
+`art/` (4,037 WebP, 285 MB) used to be 52% of the repo's history. It is now **gitignored** and deployed to the Netlify site **`pf1e-codex-art`** (`tools/art-site.json`, https://pf1e-codex-art.netlify.app) with
+**`node tools/deploy-art.mjs`** (only changed files upload). `netlify.toml` proxies **`/art/*` -> that site** (status 200), so every `/art/<key>.webp` URL — the app, the service worker, and the Campaign Compendium's hot-links — is unchanged.
+- **Adding art:** `python tools/art-compress.py <folder-of-new-images>` (WebP, long edge <= 1280, q72, cap 150 KB / refuse > 220 KB, never overwrites shipped files) -> `node tools/gen-art-manifest.mjs` -> `node tools/deploy-art.mjs`.
+- **Fresh clone / laptop:** `node tools/sync-art.mjs` downloads whatever `data/art.js` lists that you do not have. ⚠ The first `git pull` of this change DELETES a clone's tracked `art/` files from disk — run `sync-art.mjs` afterwards.
+- The art site holds the published copy; the master copy is this machine's `art/` (back it up — it is no longer in git history going forward).
+
 ## ⚙ GENERATED FILES ARE NO LONGER COMMITTED (2026-10-08) — read before touching `api/` or the Ask index
 `api/` (the public JSON API) and `data/ask-index.json` (the Ask retrieval index) are built from `data/index.js` + `data/cat/*.js` by **`node tools/build-generated.mjs`** (~25 s).
 Netlify runs it as the build command (`netlify.toml`), so every push to `main` regenerates them; both are in `.gitignore`. **After any `git pull` that changes data, run that command before
