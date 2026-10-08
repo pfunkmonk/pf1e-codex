@@ -2847,7 +2847,7 @@
     wrap.appendChild(head);
     var box=h("div",{class:"nf-panel src-pledge"});
     box.innerHTML='<p><strong>We are doing our best to attribute every source properly, and we are happy to update anything that is incorrect.</strong> '+
-      'If you made something that appears here and the credit is wrong, missing, or you would rather it were not here, please tell us directly using the form at the bottom of this page. We will look into it promptly and fix it.</p>';
+      'If you made something that appears here and the credit is wrong, missing, or you would rather it were not here, please tell us directly using the form at the bottom of this page. We will do our best, within reason, to look into it and put it right. Anything you can share that helps establish your claim — where and when it was published, a link, how the credit should read — will be appreciated.</p>';
     wrap.appendChild(box);
     var sec=h("div",{class:"src-prose"});
     sec.innerHTML=
@@ -2863,7 +2863,7 @@
       '<h3>We will get some of these wrong</h3>'+
       '<p>The credit on thousands of entries was worked out by a program reading those notices, and then checked in samples. Mistakes are possible: a wrong book, a product credited to the wrong publisher, a name spelled differently from how you spell it, or content that should not be here at all. When we are told, we correct it.</p>'+
       '<h3>Creators and publishers: please contact us directly</h3>'+
-      '<p>If you are the author or publisher of something in the Codex and you see a mistake in its credit, or a use you did not intend or are not comfortable with, tell us. Name the entry (or paste the link) and what should change. You do not need to give an email address, but without one we cannot write back. Your message goes straight to the Codex’s owner.</p>';
+      '<p>If you are the author or publisher of something in the Codex and you see a mistake in its credit, or a use you did not intend or are not comfortable with, tell us. Name the entry (or paste the link) and what should change, and — if you can — tell us where and when the work was published and how you would like it credited; that helps us confirm it and fix it correctly. You do not need to give an email address, but without one we cannot write back. Your message goes straight to the Codex’s owner.</p>';
     wrap.appendChild(sec);
     var fh=h("h3",null,"Tell us"); fh.style.cssText="margin:18px 0 6px;font-family:Georgia,serif"; wrap.appendChild(fh);
     wrap.appendChild(feedbackPanel(query,"claim"));
