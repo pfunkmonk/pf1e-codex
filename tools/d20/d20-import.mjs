@@ -263,7 +263,7 @@ for (const r of toImport) {
 
   let name = canonicalName(p);
   // The page's own license paragraph outranks bkOf's guess: see d20-attrib.mjs for the defects this fixes.
-  const bkFull = productSource(canonicalPaizoBook(bookSource(repairSource(bkOf(p), p.license), p.license, BOOKS), BOOKS), p.license);   // "Paizo, Inc." alone -> the book its own notice names
+  const bkFull = productSource(canonicalPaizoBook(bookSource(repairSource(bkOf(p), p.license), p.license, BOOKS), BOOKS), p.license, p.body, name);   // "Paizo, Inc." alone -> the book its own notice names
   const bk = bkFull;
   const bkFacet = bkFull.split(";")[0].trim();      // the facet is ONE book (the filter lists distinct values); a two-notice page keeps both in the source string
   // A NAMED third-party publisher (not Paizo, not "unconfirmed"/"unattributed"): the only case where a shared name is

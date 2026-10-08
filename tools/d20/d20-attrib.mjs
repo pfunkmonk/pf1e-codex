@@ -221,6 +221,7 @@ function tidyTitle(t) {
   let s = String(t).replace(/Pathfi\s+nder/g, "Pathfinder").replace(/\s+/g, " ").replace(/\((?:OGL)\)/g, "").trim().replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
   const h = Math.floor(s.length / 2);                      // "X X": the notice repeats its own title ("Pathfinder 5: Sins of the Saviors Pathfinder 5: …")
   if (s.length > 12 && s.slice(0, h).trim() === s.slice(h).trim()) s = s.slice(0, h).trim();
+  s = s.replace(/^(.{6,60}?)\s+(?=\1[:\s])/, "");      // "Phantasia Zoologica I Phantasia Zoologica I: Dogs": the title said once as a heading, once in full
   return s;
 }
 /** Titles named by the PAIZO notices in a Section 15 paragraph, in order, de-duplicated. */
@@ -262,16 +263,37 @@ export function thirdPartyProduct(tail) {
   return { title, publisher: pubs[0] };
 }
 /** "Product (Publisher)" for a third-party row whose notice names its product; the source unchanged otherwise (Paizo books, unconfirmed rows, multi-notice pages). */
-export function productSource(source, tail) {
+export function productSource(source, tail, body, name) {
   const s = String(source || "").trim();
   if (!s || isPaizoish(s) || s === UNVERIFIED_SOURCE || /^Third-party \(unattributed\)$/.test(s)) return source;
-  const p = thirdPartyProduct(tail);
-  if (!p) return source;
   const key = (x) => String(x).toLowerCase().replace(/[^a-z0-9]+/g, "");
-  if (key(s).includes(key(p.title))) return /\)$/.test(s) ? s : `${p.title} (${p.publisher})`;      // already product-ish; respell "X from the Y" into the one form
-  const pub = s.replace(/^3rd Party\s*[–-]\s*/i, "").trim();
-  const out = `${p.title} (${pub || p.publisher})`;
-  return isPaizoish(out) ? source : out;      // a third-party title that merely contains "Pathfinder" ("Pathfinder Traits Database") must not read as a Paizo book
+  const one = (p) => {
+    if (key(s).includes(key(p.title))) return /\)$/.test(s) ? s : `${p.title} (${p.publisher})`;      // already product-ish; respell "X from the Y" into the one form
+    const pub = s.replace(/^3rd Party\s*[–-]\s*/i, "").replace(/^Section 15:?$/i, "").trim();      // "Section 15" is a heading a crawler mistook for a publisher
+    const out = `${p.title} (${pub || p.publisher})`;
+    return isPaizoish(out) ? source : out;      // a third-party title that merely contains "Pathfinder" ("Pathfinder Traits Database") must not read as a Paizo book
+  };
+  const p1 = thirdPartyProduct(tail);
+  if (p1) return one(p1);
+  // A page that cites several products. What decides which one an entry came from is only what the ENTRY says itself: every "Source …" line on it naming the
+  // same product, or d20pfsrd filing it under that product (the current source IS one cited title). Otherwise we do not pick: with two or three cited products
+  // we name them all, joined by "or" (true: the page cites them; nothing says which), and with more we keep the publisher.
+  const ps = thirdPartyProducts(tail);
+  if (!ps || !ps.length) return source;
+  if (ps.length === 1) return one(ps[0]);
+  if (/\)$/.test(s) && !isPaizoish(s)) return source;      // already "Product (Publisher)": settled by an earlier run, never rewritten by the several-products branch
+  const filed = ps.filter((p) => key(s) === key(p.title));
+  const named = filed.length === 1 ? filed[0] : productNamedByEntry(ps, body, name);
+  if (named) return one(named);
+  if (ps.length > 3 || ps.every((p) => key(s).includes(key(p.title)))) return ps.length > 3 ? source : s;
+  const pubKey = (x) => key(String(x).replace(/\b(llc|inc|ltd)\b/gi, ""));
+  const sameHouse = ps.every((p) => pubKey(p.publisher) === pubKey(ps[0].publisher) || pubKey(p.publisher).includes(pubKey(ps[0].publisher)) || pubKey(ps[0].publisher).includes(pubKey(p.publisher)));
+  const pubName = s.replace(/^3rd Party\s*[–-]\s*/i, "").replace(/^Section 15:?$/i, "").trim();
+  // the row's own publisher string stands for the whole page when the notices name only that house or people (an author credited as publisher)
+  const personish = (x) => !/\b(games?|publishing|press|studios?|llc|inc|ltd|design|productions?|entertainment|house|works|enterprises|co)\b/i.test(x);
+  const umbrella = !!pubName && ps.every((p) => personish(p.publisher) || pubKey(p.publisher).includes(pubKey(pubName)) || pubKey(pubName).includes(pubKey(p.publisher)));
+  const out = (sameHouse || umbrella) ? `${ps.map((p) => p.title).join(" or ")} (${pubName || ps[0].publisher})` :ps.map((p) => `${p.title} (${p.publisher})`).join(" or ");
+  return isPaizoish(out) ? source : out;
 }
 /** The source string for a row whose current source is the bare publisher "Paizo, Inc.": the book(s) its own notice names, in the
  *  originals' spelling. Unchanged when the source is anything else, when no Paizo notice names a book, or when more than two do. */
@@ -346,4 +368,44 @@ export function unifyPublishers(items) {
     out.set(title, map);
   }
   return out;
+}
+
+/** Every PRODUCT a third-party page's Section 15 paragraph cites, as [{title, publisher}] in order, de-duplicated by title — or null when the paragraph cannot be split
+ *  with confidence (an author list running straight into the next title, a Paizo notice, a template). A page that repeats ONE notice ("X © 2022, Legendary Games
+ *  … Section 15: Copyright Notice X © 2022, Legendary Games …") yields one product. */
+export function thirdPartyProducts(tail) {
+  const t0 = String(tail || "").replace(/Section 15:?\s*Copyright Notices?/gi, " ").replace(/\s+/g, " ").trim();
+  if (!t0 || t0.length > 1600 || /\bPaizo\b/i.test(t0)) return null;
+  const re = new RegExp(NOTICE_MARK.source, "gi"), marks = [...t0.matchAll(re)];
+  if (!marks.length) return null;
+  const alnumKey = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const out = []; let prevEnd = 0;
+  for (let k = 0; k < marks.length; k++) {
+    const m = marks[k];
+    let seg = t0.slice(prevEnd, m.index);
+    if (k > 0) {
+      // the previous notice's authors run up to the next sentence boundary; what follows is this notice's title
+      if (/^[\s;.,]*(?:Authors?|Created by|Written by|Text)\b/i.test(seg)) { const cut = /(?<!\b[A-Z]|\bJr|\bSr|\bDr|\bInc|\bLLC|\bLtd|\bCo)\.\s+(?=[A-Z0-9“"'‘])/.exec(seg); if (!cut) return null; seg = seg.slice(cut.index + cut[0].length); }
+      seg = seg.replace(/^[\s;.,]+/, "").replace(/^All rights reserved\.?\s*/i, "");
+    }
+    let title = tidyTitle(seg).replace(/\s*\(c\)$/i, "").replace(/^[\s,.;:–-]+|[\s,.;:–-]+$/g, "");
+    const fm = /\bfrom the (.{4,80})$/i.exec(title); if (fm) title = fm[1].trim();
+    if (!title || title.length < 3 || title.length > 90 || GENERIC_TITLE.test(title) || /\b(?:Authors?|Created by|Written by)\b|section 15|open game licen|copyright|[;©]|^product name\b|https?:|www\./i.test(title)) return null;
+    const after = t0.slice(m.index + m[0].length), pm = /^\s*(?:[-–]\s*(?:19|20)?\d\d\s*)?[,.]?\s*([^;.]+?)\s*(?=[;.]|,\s*published|\s+Authors?\b|\s+Created\b|$)/i.exec(after.replace(/\b(Jr|Sr|Dr|St|Mr|Mrs)\./g, "$1\u0001").replace(/\b([A-Z])\.(?=\s)/g, "$1\u0001").replace(/(\w)\.(\w)/g, "$1\u0002$2"));
+    const publisher = pm ? pm[1].replace(/\u0001/g, ".").replace(/\u0002/g, ".").replace(/^[\s–—-]+/, "").replace(/[,\s]+$/, "").replace(/\b(Inc|Ltd|Co|Corp)$/, "$1.").trim() : "";
+    if (!publisher || publisher.length < 3 || publisher.length > 80 || isPaizoish(publisher)) return null;
+    if (!out.some((p) => alnumKey(p.title) === alnumKey(title))) out.push({ title, publisher });
+    prevEnd = m.index + m[0].length + (pm ? pm.index + pm[0].length : 0);
+  }
+  return out;
+}
+/** A page that cites SEVERAL products: the one its entry names itself (a "Source …" line in the body, or the title in the entry's own name), else null. */
+export function productNamedByEntry(products, body, name) {
+  const key = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const src = (String(body || "").match(/\bSource:?[ \t]+[^\n]{2,90}/g) || []).map((l) => key(l.replace(/^Source:?[ \t]+/, "").replace(/\bpg\.?\s*\d+.*$/i, "")));
+  // every Source line on the entry must name the SAME one product (an entry that cites two books, or one we cannot read, is not decided by one of them)
+  if (!src.length) return null;
+  const named = src.map((s) => products.filter((p) => s === key(p.title) || (s.length >= 8 && key(p.title).startsWith(s))));
+  if (named.some((h) => h.length !== 1) || new Set(named.map((h) => h[0].title)).size !== 1) return null;
+  return named[0][0];
 }

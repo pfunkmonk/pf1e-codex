@@ -175,3 +175,8 @@ d20pfsrd prints product codes in its "Source …" lines (`PZO1110`, `PPC:CoL`, `
 - **Sources page (`#/sources`, viewSources in app.js).** Every "📖 Source:" line links to it (with the entry name + source line carried into the form); the footer links to
   it too. It reuses the Netlify form `codex-feedback`; its submissions are e-mailed to the owner by a form-notification hook that already exists on the Netlify site
   (no address is published anywhere in the repo or the page).
+- **Pages that cite several products (v118).** `thirdPartyProducts()` splits a Section 15 paragraph into its distinct products (a notice repeated twice is ONE product; it
+  returns null rather than guess when an author list runs into the next title). `productSource()` then: one product -> "Product (Publisher)"; several -> the one the
+  ENTRY names (every "Source …" line on it naming the same product — `productNamedByEntry` — or d20pfsrd filing it under that product), else, for 2–3 products,
+  "A or B (Publisher)" (true: the page cites them; nothing says which), else publisher only. A source already in "Product (Publisher)" form is never rewritten.
+  Louis Porter's 528 feats cite "Undefeatable" and "Undefeated" and neither the saved nor the live d20pfsrd page says which feat is from which: they read "A or B".
