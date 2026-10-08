@@ -24,6 +24,7 @@ const src = fs.readFileSync(path.join(ROOT, "netlify/functions/ask.mjs"), "utf8"
 const consts = src.slice(src.indexOf("const CONTEXT_CHAR_BUDGET"), src.indexOf("const RATE_LIMIT"));
 const retrieve = new Function(consts + "\n" + src.slice(src.indexOf("function stem"), src.indexOf("const rateLimitState")) + "\nreturn retrieve;")();
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, "data/ask-index.json"), "utf8"));
+index.bin = new Uint8Array(fs.readFileSync(path.join(ROOT, "data", index.postingsFile)));   // binary postings (SIZE-PLAN.md step 3)
 
 const BUCKETS = ["archetypes", "classes", "deities", "feats", "hazards", "items", "monsters", "npcs", "options", "races", "rules", "spells", "traits"];
 const g = { window: {} };

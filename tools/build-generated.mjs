@@ -20,11 +20,16 @@ const fail = (m) => { console.error("\nBUILD-GENERATED FAILED: " + m); process.e
 const idx = path.join(ROOT, "data", "ask-index.json");
 if (!fs.existsSync(idx)) fail("data/ask-index.json was not written");
 const askSize = fs.statSync(idx).size;
-if (askSize < 20e6) fail(`data/ask-index.json is only ${(askSize / 1e6).toFixed(1)} MB (expected ~85 MB)`);
+if (askSize < 2e6) fail(`data/ask-index.json is only ${(askSize / 1e6).toFixed(1)} MB (expected ~10 MB)`);
+const binPath = path.join(ROOT, "data", "ask-postings.bin");
+if (!fs.existsSync(binPath)) fail("data/ask-postings.bin was not written");
+const binSize = fs.statSync(binPath).size;
+if (binSize < 8e6) fail(`data/ask-postings.bin is only ${(binSize / 1e6).toFixed(1)} MB (expected ~20 MB)`);
 const head = JSON.parse(fs.readFileSync(idx, "utf8").slice(0, 400).replace(/,"docs":.*$/s, "}"));
+if (head.postingsBytes !== binSize) fail(`ask-postings.bin is ${binSize} bytes but the index expects ${head.postingsBytes}`);
 if (!(head.N > 40000)) fail(`ask-index covers only ${head.N} documents`);
 const apiIndex = path.join(ROOT, "api", "v1", "index.json");
 if (!fs.existsSync(apiIndex)) fail("api/v1/index.json was not written");
 const nEntries = fs.readdirSync(path.join(ROOT, "api", "v1", "entries")).length;
 if (nEntries < 40000) fail(`api/v1/entries has only ${nEntries} files`);
-console.log(`\nbuild-generated OK in ${((Date.now() - t0) / 1000).toFixed(0)}s: ask-index ${(askSize / 1e6).toFixed(1)} MB (${head.N} docs), api ${nEntries} entry files`);
+console.log(`\nbuild-generated OK in ${((Date.now() - t0) / 1000).toFixed(0)}s: ask-index ${(askSize / 1e6).toFixed(1)} MB + postings ${(binSize / 1e6).toFixed(1)} MB (${head.N} docs), api ${nEntries} entry files`);

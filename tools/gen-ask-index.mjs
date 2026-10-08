@@ -141,16 +141,32 @@ for (const [t, p] of postings) {
   if (p.size === 1 && t.length > 40) { postings.delete(t); droppedJunkTerms++; }
 }
 
-const postingsOut = {};
-for (const [t, p] of postings) postingsOut[t] = [...p.entries()].sort((a, b) => a[0] - b[0]);
+// POSTINGS ARE BINARY (SIZE-PLAN.md step 3). The old file held every posting as a JSON [docIndex, tf] pair — 80 MB of text that JSON.parse turned into millions of tiny
+// JS arrays (the reason ask.mjs needed 4 GB of memory). Now data/ask-index.json holds only the header + docs + a term dictionary {term: [byteOffset, df]}, and
+// data/ask-postings.bin holds, per term, df pairs of unsigned LEB128 varints: (docIndex - previousDocIndex, tf), docs ascending. ask.mjs decodes ONLY the
+// query's terms on demand. Same numbers, same ranking (check-ask + the old-vs-new equality proof in SIZE-PLAN.md).
+const terms = Object.create(null);
+const chunks = []; let offset = 0;
+const varint = (n, out) => { while (n >= 0x80) { out.push((n & 0x7f) | 0x80); n = Math.floor(n / 128); } out.push(n); };
+for (const [t, p] of postings) {
+  const list = [...p.entries()].sort((a, b) => a[0] - b[0]);
+  const bytes = []; let prev = 0;
+  for (const [d, f] of list) { varint(d - prev, bytes); varint(f, bytes); prev = d; }
+  terms[t] = [offset, list.length];
+  chunks.push(Buffer.from(bytes)); offset += bytes.length;
+}
+const binPath = path.join(ROOT, "data/ask-postings.bin");
+fs.writeFileSync(binPath, Buffer.concat(chunks));
 
 const out = {
   dataVersion,
   builtFrom: "tools/gen-ask-index.mjs",
   N: docs.length,
   avgLen: Math.round(avgLen * 100) / 100,
+  postingsFile: "ask-postings.bin",
+  postingsBytes: offset,
   docs,
-  postings: postingsOut,
+  terms,
 };
 
 const outPath = path.join(ROOT, "data/ask-index.json");
@@ -158,7 +174,7 @@ fs.writeFileSync(outPath, JSON.stringify(out));
 const bytes = fs.statSync(outPath).size;
 
 console.log(`docs indexed: ${docs.length} (of ${IDX.length} rows)`);
-console.log(`unique terms: ${Object.keys(postingsOut).length} (dropped ${droppedJunkTerms} single-doc junk terms)`);
+console.log(`unique terms: ${Object.keys(terms).length} (dropped ${droppedJunkTerms} single-doc junk terms); postings.bin ${(offset / 1048576).toFixed(1)} MB`);
 console.log(`avg indexed terms/doc: ${out.avgLen}`);
 console.log(`section terms kept: ${keptTerms} (of ${termDf.size} distinct; dropped any heading >${SECTION_TERM_MAX_DOCS} entries share)`);
 console.log(`total body chars indexed: ${(docs.reduce((s, d) => s + d[5], 0) / 1e6).toFixed(1)}M`);

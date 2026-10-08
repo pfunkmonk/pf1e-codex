@@ -64,8 +64,11 @@ const RATE_LIMIT = { windowMs: 5 * 60 * 1000, max: 40 };
 let indexPromise = null;
 async function loadIndex(origin) {
   if (!indexPromise) {
+    // Two files (SIZE-PLAN.md step 3): the header + docs + term dictionary, and the binary postings. Only the query's terms are ever decoded.
     indexPromise = fetch(`${origin}/data/ask-index.json`)
       .then((r) => { if (!r.ok) throw new Error(`ask-index fetch ${r.status}`); return r.json(); })
+      .then((h) => fetch(`${origin}/data/${h.postingsFile}`).then((r) => { if (!r.ok) throw new Error(`ask-postings fetch ${r.status}`); return r.arrayBuffer(); })
+        .then((buf) => { if (buf.byteLength !== h.postingsBytes) throw new Error(`ask-postings is ${buf.byteLength} bytes, the index expects ${h.postingsBytes}`); h.bin = new Uint8Array(buf); return h; }))
       .catch((e) => { indexPromise = null; throw e; });   // don't cache a failure forever
   }
   return indexPromise;
@@ -93,16 +96,35 @@ function tokenize(text) {
     .map(stem);
 }
 
+// Binary postings: index.terms[term] = [byteOffset, df]; index.bin holds, per term, df pairs of unsigned LEB128 varints (docIndex delta, tf), docs ascending
+// (tools/gen-ask-index.mjs writes them). Returns {n, docs, tfs} typed arrays, or null for a term the index does not have.
+function postingsOf(index, term) {
+  if (!Object.prototype.hasOwnProperty.call(index.terms, term)) return null;
+  const e = index.terms[term], bin = index.bin, n = e[1], docs = new Uint32Array(n), tfs = new Uint32Array(n);
+  let p = e[0], prev = 0;
+  for (let i = 0; i < n; i++) {
+    let x = 0, mul = 1, byte;
+    do { byte = bin[p++]; x += (byte & 0x7f) * mul; mul *= 128; } while (byte & 0x80);
+    prev += x; docs[i] = prev;
+    x = 0; mul = 1;
+    do { byte = bin[p++]; x += (byte & 0x7f) * mul; mul *= 128; } while (byte & 0x80);
+    tfs[i] = x;
+  }
+  return { n, docs, tfs };
+}
+function dfOf(index, term) { return Object.prototype.hasOwnProperty.call(index.terms, term) ? index.terms[term][1] : 0; }
+
 function bm25(index, queryTerms) {
-  const { N, avgLen, postings, docs } = index;
+  const { N, avgLen, docs } = index;
   const k1 = 1.5, b = 0.75;
   const scores = new Map();
   for (const t of new Set(queryTerms)) {
-    const plist = postings[t];
-    if (!plist) continue;
-    const df = plist.length;
+    const pl = postingsOf(index, t);
+    if (!pl) continue;
+    const df = pl.n;
     const idf = Math.log(1 + (N - df + 0.5) / (df + 0.5));
-    for (const [docIdx, tf] of plist) {
+    for (let k = 0; k < pl.n; k++) {
+      const docIdx = pl.docs[k], tf = pl.tfs[k];
       const len = docs[docIdx][4];
       const denom = tf + k1 * (1 - b + b * (len / avgLen));
       scores.set(docIdx, (scores.get(docIdx) || 0) + idf * ((tf * (k1 + 1)) / denom));
@@ -112,7 +134,7 @@ function bm25(index, queryTerms) {
 }
 
 function idfOf(index, term) {
-  const p = index.postings[term]; const df = p ? p.length : 0;
+  const df = dfOf(index, term);
   return Math.log(1 + (index.N - df + 0.5) / (df + 0.5));
 }
 // Does `needle` (an array of tokens) appear as a contiguous run inside `hay`?
@@ -308,18 +330,12 @@ export default async (req, context) => {
 // container and a caller spread across cold starts can exceed. 15 requests/60s per IP (was 6) is generous
 // for a person asking a follow-up and blocks sustained hammering. windowSize's platform max is 180s,
 // which is why this can't ALSO be a daily cap — see HANDOFF.md for the actual daily/dollar backstop.
-// memory: found necessary in production, not guessed. Netlify Functions default to 1024 MB; the
-// 86 MB raw ask-index.json balloons well past that once JSON.parse turns tens of millions of
-// [docIndex, tf] postings into real JS arrays (V8 per-element overhead adds up fast at that count).
-// Live evidence: every request after the full-corpus index shipped came back "An unknown error has
-// occurred" at ~14s with no warm reuse between calls — consistent with the function's OWN process
-// getting killed for memory each time, never surviving to serve a second request from a warm
-// container. 4096 (the platform max) directly costs more per invocation; that's accepted here
-// because this function does exactly what Netlify's own docs name as the reason to raise it
-// ("large JSON... processing"), not a workaround for something that should be smaller instead.
+// memory: this function ONCE needed 4096 MB (2026-10): the old index stored 7M postings as JSON [docIndex, tf] pairs and JSON.parse of that 86 MB file made tens of
+// millions of tiny JS arrays — every request died "An unknown error has occurred" until memory was raised to the platform max. Since SIZE-PLAN.md step 3 the postings are
+// a binary file decoded per query term, and the whole function peaks around 160 MB (measured: load 137 MB RSS, after queries 162 MB), so the platform default (1024 MB) is
+// ample and the 4096 setting is gone. If a future change reloads postings into JS arrays, this is the setting to revisit.
 export const config = {
   path: "/ask",
-  memory: 4096,
   // 15, not 6 (2026-10-04): per IP, and a table on one Wi-Fi is one IP — see RATE_LIMIT above.
   rateLimit: { windowLimit: 15, windowSize: 60, aggregateBy: ["ip"], action: "block" },
 };
