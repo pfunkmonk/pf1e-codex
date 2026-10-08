@@ -1,5 +1,11 @@
 [build]
   publish = "."
+  # api/ and data/ask-index.json are GENERATED (tools/build-generated.mjs) and no longer committed — see SIZE-PLAN.md.
+  # A failure here keeps the previous deploy live.
+  command = "node tools/build-generated.mjs"
+
+[build.environment]
+  NODE_VERSION = "22"
 
 [functions]
   directory = "netlify/functions"
