@@ -37,7 +37,12 @@ const Q = Number(arg("quality", 78));      // matches the q78 the existing libra
 const DRY = has("dry");
 const REPLACE = has("replace");   // re-encode keys that already exist in art/ (see the guard below)
 
-const { default: sharp } = await import(process.env.SHARP_MODULE || "sharp");
+// sharp is not a repo dependency (see above). Try, in order: SHARP_MODULE, a normal install, then the copies other projects on this machine already have.
+const SHARP_CANDIDATES = [process.env.SHARP_MODULE, "sharp",
+  "file:///C:/Users/mailp/dev/battlemap-commons/node_modules/sharp/dist/index.cjs", "file:///C:/Users/mailp/dev/tabletop-hub/node_modules/sharp/dist/index.cjs"].filter(Boolean);
+let sharp = null;
+for (const c of SHARP_CANDIDATES) { try { sharp = (await import(c)).default; break; } catch { /* next */ } }
+if (!sharp) { console.error("sharp not found — set SHARP_MODULE to a sharp install (see the header comment)"); process.exit(2); }
 
 const artDir = path.join(REPO, "art");
 
@@ -88,7 +93,7 @@ const unplanned = files.filter(f => {
 });
 
 /* ---- ingest ----------------------------------------------------------- */
-let ok = 0, failed = [], skippedExisting = 0;
+let ok = 0, failed = [], skippedExisting = 0; const oversize = [];
 for (const [key, list] of byKey) {
   const src = path.join(SRC, list[0].f);
   const dst = path.join(artDir, key + ".webp");
@@ -98,10 +103,17 @@ for (const [key, list] of byKey) {
   if (!REPLACE && fs.existsSync(dst)) { skippedExisting++; continue; }
   if (DRY) { ok++; continue; }
   try {
-    const buf = await sharp(src)
-      .resize(W, H, { fit: "cover", position: "attention" })   // crop, never squash
-      .webp({ quality: Q, effort: 5 })
-      .toBuffer();
+    // Size policy (SIZE-PLAN.md): aim for <= 150 KB; if a busy image is bigger at the default quality, step the quality down (never below 58) until it fits.
+    let buf, q = Q;
+    for (;;) {
+      buf = await sharp(src)
+        .resize(W, H, { fit: "cover", position: "attention" })   // crop, never squash
+        .webp({ quality: q, effort: 5 })
+        .toBuffer();
+      if (buf.length <= 150 * 1024 || q <= 58) break;
+      q -= 6;
+    }
+    if (buf.length > 220 * 1024) oversize.push(`${key}: ${(buf.length / 1024).toFixed(0)} KB even at q${q}`);
     fs.writeFileSync(dst, buf);
     // Verify what we just wrote actually decodes, rather than trusting the encoder.
     const meta = await sharp(dst).metadata();
@@ -116,6 +128,7 @@ if (skippedExisting) console.log(`left alone ${skippedExisting} key(s) already i
 const missing = [...planned].filter(k => !byKey.has(k) && !fs.existsSync(path.join(artDir, k + ".webp")));
 if (missing.length) console.log(`no source yet for ${missing.length}: ${missing.slice(0, 12).join(", ")}${missing.length > 12 ? " …" : ""}`);
 if (unplanned.length) console.log(`SKIPPED, not in the plan (${unplanned.length}): ${unplanned.slice(0, 12).join(", ")}${unplanned.length > 12 ? " …" : ""}`);
+if (oversize.length) { console.log(`LARGE (over 220 KB — look at these): ${oversize.length}`); oversize.slice(0, 12).forEach(o => console.log("  " + o)); }
 if (failed.length) { console.log("FAILURES:"); failed.forEach(f => console.log("  " + f)); }
 
 if (!DRY) {
