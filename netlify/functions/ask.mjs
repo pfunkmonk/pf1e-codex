@@ -47,6 +47,8 @@
 
 const MODEL = "claude-sonnet-5";
 const MAX_ANSWER_TOKENS = 3000;   // a thorough answer, not a clipped one — see SYSTEM_PROMPT
+import zlib from "node:zlib";   // the postings file is gzipped on disk (tools/gen-ask-index.mjs): 17.9 MB -> ~8 MB over the wire
+
 const CONTEXT_CHAR_BUDGET = 200000;   // ~50k tokens of retrieved passages; see header comment
 const MIN_TERM_LEN = 2;
 // Per IP, per warm instance. 40, not 8 (2026-10-04, live game): a whole table on one Wi-Fi shares ONE public IP, so
@@ -68,7 +70,7 @@ async function loadIndex(origin) {
     indexPromise = fetch(`${origin}/data/ask-index.json`)
       .then((r) => { if (!r.ok) throw new Error(`ask-index fetch ${r.status}`); return r.json(); })
       .then((h) => fetch(`${origin}/data/${h.postingsFile}`).then((r) => { if (!r.ok) throw new Error(`ask-postings fetch ${r.status}`); return r.arrayBuffer(); })
-        .then((buf) => { if (buf.byteLength !== h.postingsBytes) throw new Error(`ask-postings is ${buf.byteLength} bytes, the index expects ${h.postingsBytes}`); h.bin = new Uint8Array(buf); return h; }))
+        .then((buf) => { const bin = zlib.gunzipSync(Buffer.from(buf)); if (bin.length !== h.postingsBytes) throw new Error(`ask-postings is ${bin.length} bytes, the index expects ${h.postingsBytes}`); h.bin = new Uint8Array(bin.buffer, bin.byteOffset, bin.length); return h; }))
       .catch((e) => { indexPromise = null; throw e; });   // don't cache a failure forever
   }
   return indexPromise;

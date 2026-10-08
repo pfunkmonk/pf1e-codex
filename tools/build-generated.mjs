@@ -8,6 +8,7 @@
  * It FAILS LOUDLY (non-zero exit -> Netlify keeps the previous deploy live) if either output is missing or implausibly small. */
 import fs from "node:fs";
 import path from "node:path";
+import zlib from "node:zlib";
 import { execFileSync } from "node:child_process";
 
 const ROOT = path.resolve(process.argv[2] || ".");
@@ -21,12 +22,13 @@ const idx = path.join(ROOT, "data", "ask-index.json");
 if (!fs.existsSync(idx)) fail("data/ask-index.json was not written");
 const askSize = fs.statSync(idx).size;
 if (askSize < 2e6) fail(`data/ask-index.json is only ${(askSize / 1e6).toFixed(1)} MB (expected ~10 MB)`);
-const binPath = path.join(ROOT, "data", "ask-postings.bin");
-if (!fs.existsSync(binPath)) fail("data/ask-postings.bin was not written");
+const binPath = path.join(ROOT, "data", "ask-postings.bin.gz");
+if (!fs.existsSync(binPath)) fail("data/ask-postings.bin.gz was not written");
 const binSize = fs.statSync(binPath).size;
-if (binSize < 8e6) fail(`data/ask-postings.bin is only ${(binSize / 1e6).toFixed(1)} MB (expected ~20 MB)`);
+if (binSize < 3e6) fail(`data/ask-postings.bin.gz is only ${(binSize / 1e6).toFixed(1)} MB (expected ~8 MB)`);
 const head = JSON.parse(fs.readFileSync(idx, "utf8").slice(0, 400).replace(/,"docs":.*$/s, "}"));
-if (head.postingsBytes !== binSize) fail(`ask-postings.bin is ${binSize} bytes but the index expects ${head.postingsBytes}`);
+const rawBin = zlib.gunzipSync(fs.readFileSync(binPath));
+if (head.postingsBytes !== rawBin.length) fail(`ask-postings.bin.gz holds ${rawBin.length} bytes but the index expects ${head.postingsBytes}`);
 if (!(head.N > 40000)) fail(`ask-index covers only ${head.N} documents`);
 const apiIndex = path.join(ROOT, "api", "v1", "index.json");
 if (!fs.existsSync(apiIndex)) fail("api/v1/index.json was not written");

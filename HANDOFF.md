@@ -13,7 +13,7 @@ corrupts `.git`.
 
 ---
 
-## 🔎 ASK INDEX IS NOW BINARY (2026-10-08) — `data/ask-index.json` (header, docs, term dictionary, ~8 MB) + `data/ask-postings.bin` (~18 MB)
+## 🔎 ASK INDEX IS NOW BINARY (2026-10-08) — `data/ask-index.json` (header, docs, term dictionary, ~8 MB) + `data/ask-postings.bin.gz` (~8.6 MB gzip of 17.9 MB)
 Both are generated (`node tools/build-generated.mjs`), gitignored, served from `data/`. Postings are per-term delta-coded LEB128 varints `(docIndex delta, tf)`; `ask.mjs` decodes **only the query's terms** (`postingsOf`), so the function peaks near 160 MB
 (it used to need 4096 MB; `memory:` is back to the platform default). Proof it changed nothing: all 60,272 posting lists decode to exactly the old lists, and 2,606 queries return identical results old-vs-new; `check-ask` = 100/100, 92/100 before and after.
 If you change the tokenizer/ranking, change BOTH `ask.mjs` and `tools/gen-ask-index.mjs`, rebuild, and re-run `tools/check-ask.mjs`.

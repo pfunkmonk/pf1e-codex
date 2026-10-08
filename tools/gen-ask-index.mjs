@@ -27,6 +27,7 @@
  * Usage: node tools/gen-ask-index.mjs .   (writes data/ask-index.json; run after gen-api)
  */
 import fs from "node:fs";
+import zlib from "node:zlib";
 import path from "node:path";
 import { loadCodex } from "./lib/api-build.mjs";
 import { cleanFootnoteNames } from "./lib/footnote-names.mjs";
@@ -155,15 +156,15 @@ for (const [t, p] of postings) {
   terms[t] = [offset, list.length];
   chunks.push(Buffer.from(bytes)); offset += bytes.length;
 }
-const binPath = path.join(ROOT, "data/ask-postings.bin");
-fs.writeFileSync(binPath, Buffer.concat(chunks));
+const binPath = path.join(ROOT, "data/ask-postings.bin.gz");      // gzip level 9: 17.9 MB -> ~8 MB on the wire (Netlify does not compress .bin); ask.mjs gunzips after fetching
+fs.writeFileSync(binPath, zlib.gzipSync(Buffer.concat(chunks), { level: 9 }));
 
 const out = {
   dataVersion,
   builtFrom: "tools/gen-ask-index.mjs",
   N: docs.length,
   avgLen: Math.round(avgLen * 100) / 100,
-  postingsFile: "ask-postings.bin",
+  postingsFile: "ask-postings.bin.gz",
   postingsBytes: offset,
   docs,
   terms,
