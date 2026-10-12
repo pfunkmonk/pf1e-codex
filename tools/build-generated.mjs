@@ -15,6 +15,7 @@ const ROOT = path.resolve(process.argv[2] || ".");
 const run = (script) => { console.log(`\n> node ${script} .`); execFileSync(process.execPath, ["--max-old-space-size=3072", path.join(ROOT, "tools", script), ROOT], { stdio: "inherit", cwd: ROOT }); };
 const t0 = Date.now();
 run("gen-api.mjs");
+run("check-treasure.mjs");      // the treasure tags (published with the API) must be well-formed and true to the stat blocks - a failure keeps the previous deploy live
 run("gen-ask-index.mjs");
 run("gen-cat-shards.mjs");
 run("check-shards.mjs");        // the shards must be exactly the whole-category files, split — a mismatch fails the build and the previous deploy stays live

@@ -25,6 +25,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { buildTreasure } from "./treasure-tags.mjs";
 
 export const SITE = "https://codex.pipsprojects.com";
 export const API_ROOT = "api/v1";
@@ -161,6 +162,17 @@ export function buildApi(root) {
       `{"count":${names.length},"dataVersion":${JSON.stringify(d.dataVersion)},"fields":["id","name","bucket"],"rows":[\n` +
       names.map((n) => JSON.stringify(n)).join(",\n") + "\n]}\n");
 
+  // ---- treasure tags (tools/lib/treasure-tags.mjs): which items suit which creatures' treasure ----
+  const TR = buildTreasure(d, root);
+  const trHead = { dataVersion: d.dataVersion, license: LICENSE, notice: NOTICE };
+  put(`${API_ROOT}/treasure.json`, pretty({
+    ...trHead, counts: { items: TR.items.length, creatures: TR.creatures.length },
+    endpoints: { items: "/api/v1/treasure-items.json", creatures: "/api/v1/treasure-creatures.json" },
+    ...TR.vocab,
+  }));
+  put(`${API_ROOT}/treasure-items.json`, lineList({ ...trHead, count: TR.items.length, about: "Each item's tags. Filter on tags with includes(); see treasure.json for what every tag means." }, "items", TR.items));
+  put(`${API_ROOT}/treasure-creatures.json`, lineList({ ...trHead, count: TR.creatures.length, about: "Each stat-blocked monster's treasure profile as tags. See treasure.json." }, "creatures", TR.creatures));
+
   const manifest = {
     name: "PF1e Codex API",
     apiVersion: 1,
@@ -177,6 +189,9 @@ export function buildApi(root) {
       names: "/api/v1/names.json",
       entry: "/api/v1/entries/{id}.json",
       web: "/#/e/{id}",
+      treasure: "/api/v1/treasure.json",
+      treasureItems: "/api/v1/treasure-items.json",
+      treasureCreatures: "/api/v1/treasure-creatures.json",
     },
     notes: [
       "Read-only static JSON; there is no query string. Filter lists client-side.",
@@ -188,14 +203,14 @@ export function buildApi(root) {
   };
   put(`${API_ROOT}/index.json`, pretty(manifest));
 
-  put("api/index.html", docsPage({ manifest, rows, d, hidden, tableRows }));
+  put("api/index.html", docsPage({ manifest, rows, d, hidden, tableRows, treasure: TR }));
 
   return { files, manifest, stats: { entries: rows.length, hidden, tableCount, tableRows,
                                       dataVersion: d.dataVersion } };
 }
 
 /* ---------- human-readable docs ------------------------------------------------------------ */
-function docsPage({ manifest, rows, d }) {
+function docsPage({ manifest, rows, d, treasure }) {
   const example = rows.find((r) => r[2] === "spells" && r[1] === "Fireball") ||
                   rows.find((r) => r[2] === "spells");
   const eBody = d.BODIES[example[2]][example[0]];
@@ -277,6 +292,26 @@ from the original page (a breadcrumb like <code>Rules Index | GM Screen</code>, 
 Entries with tables &mdash; the Summon Monster spells, class progressions &mdash; also have a <code>tables</code> array of
 <code>{ headerRow, rows }</code>; when <code>headerRow</code> is true the first row is the header.
 <code>links.web</code> opens the same entry in the app.</p>
+
+<h2>Treasure tags</h2>
+<p>For generators that build treasure lists: every item (${treasure.items.length.toLocaleString("en-US")}) and every stat-blocked monster (${treasure.creatures.length.toLocaleString("en-US")}) carries namespaced <strong>tags</strong>, so a bear can be matched to a dead adventurer&rsquo;s sword and a purse and never to a ladder.
+It starts from Paizo&rsquo;s own system (budget words and treasure types A&ndash;I from <em>Ultimate Equipment</em>) and adds what that system leaves out: how an item reaches a creature (<code>route:carried</code>, <code>hoard</code>, <code>victim</code>), portability, handling, durability, sizing, role, ethos and themes (nautical, fire, undead&hellip;) matched to a creature&rsquo;s habitat, culture and element.</p>
+<div class="wrap"><table>
+<tr><th>Path</th><th>Returns</th></tr>
+<tr><td><a href="/api/v1/treasure.json"><code>/api/v1/treasure.json</code></a></td><td>The vocabulary: what every tag means, Paizo&rsquo;s tables, which creature tags attract each theme, and how to combine them. <strong>Read this first.</strong></td></tr>
+<tr><td><a href="/api/v1/treasure-items.json"><code>/api/v1/treasure-items.json</code></a></td><td>Each item: <code>id</code>, <code>name</code>, <code>pr</code> (gp), <code>wt</code> (lb), and <code>tags</code>.</td></tr>
+<tr><td><a href="/api/v1/treasure-creatures.json"><code>/api/v1/treasure-creatures.json</code></a></td><td>Each monster: <code>id</code>, <code>name</code>, <code>cr</code>, <code>int</code>, and <code>tags</code>.</td></tr>
+</table></div>
+<pre>// the items a Black Bear could plausibly leave in its den
+const T  = await (await fetch("${esc(base)}/treasure-items.json")).json();
+const C  = await (await fetch("${esc(base)}/treasure-creatures.json")).json();
+const bear = C.creatures.find(c =&gt; c.name === "Bear, Black");
+const has  = (x, t) =&gt; x.tags.includes(t);
+const letters = bear.tags.filter(t =&gt; t.startsWith("letter:"));
+const routes  = bear.tags.filter(t =&gt; t.startsWith("route:"));
+const pool = T.items.filter(i =&gt;
+  letters.some(l =&gt; has(i, l)) &amp;&amp; routes.some(r =&gt; has(i, r)) &amp;&amp; !has(i, "flag:cursed"));</pre>
+<p class="mut">These tags are derived data, not rules text: the Paizo layer is their table; the rest is judgment. Coins, gems and art objects are not Codex items, so a generator makes those from the budget itself.</p>
 
 <h2>Things to know</h2>
 <ul>
