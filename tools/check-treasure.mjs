@@ -165,6 +165,14 @@ if (bear && gob && cube) {
   if (pb.some((i) => i.name === "Ladder")) bad("a black bear's pool contains a Ladder");
   if (pb.some((i) => has(i, "class:artifact"))) bad("a black bear's pool contains an artifact");
   if (!pb.some((i) => has(i, "class:weapon")) && !pb.some((i) => has(i, "class:ring"))) bad("a black bear's pool has no weapon and no ring");
+  // incidental gear (no letter) is eligible by route alone - the docs promise it, so prove it
+  const routesOf = (c) => vals(c, "route").map((r) => "route:" + r);
+  const gearOf = (c) => IT.filter((i) => !i.tags.some((t) => t.startsWith("letter:")) && routesOf(c).some((r) => has(i, r)));
+  const gb = gearOf(bear);
+  if (!gb.some((i) => i.name === "Rope (50 ft.)")) bad("a black bear's incidental gear should include a 50 ft. rope (a dead traveller's kit)");
+  if (gb.some((i) => i.name === "Ladder")) bad("a black bear's incidental gear contains a Ladder");
+  if (gb.some((i) => ["food", "herb", "vehicle", "mount", "structure", "siege", "service", "alchemical"].some((c) => has(i, "class:" + c)))) bad("a black bear's incidental gear contains perishables, vehicles, mounts, structures, siege engines or services");
+  if (gearOf(cube).some((i) => !has(i, "route:victim"))) bad("a gelatinous cube's incidental gear should be victim kit only");
   if (!pg.length || !pg.some((i) => has(i, "route:carried"))) bad("a goblin's pool should include things it carries");
   if (pc.length && pc.some((i) => !has(i, "route:victim"))) bad("a gelatinous cube's pool should be victim loot only");
   if (!pc.some((i) => has(i, "class:ring") || has(i, "class:weapon"))) bad("a gelatinous cube should be able to hold a ring or a weapon swallowed with its victim");

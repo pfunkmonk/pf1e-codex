@@ -309,8 +309,11 @@ const bear = C.creatures.find(c =&gt; c.name === "Bear, Black");
 const has  = (x, t) =&gt; x.tags.includes(t);
 const letters = bear.tags.filter(t =&gt; t.startsWith("letter:"));
 const routes  = bear.tags.filter(t =&gt; t.startsWith("route:"));
+// valued loot: shares a letter AND a route
 const pool = T.items.filter(i =&gt;
-  letters.some(l =&gt; has(i, l)) &amp;&amp; routes.some(r =&gt; has(i, r)) &amp;&amp; !has(i, "flag:cursed"));</pre>
+  letters.some(l =&gt; has(i, l)) &amp;&amp; routes.some(r =&gt; has(i, r)) &amp;&amp; !has(i, "flag:cursed"));
+// incidental gear (no letter, cheap, mundane): by route alone
+const gear = T.items.filter(i =&gt; !i.tags.some(t =&gt; t.startsWith("letter:")) &amp;&amp; routes.some(r =&gt; has(i, r)));</pre>
 <p class="mut">These tags are derived data, not rules text: the Paizo layer is their table; the rest is judgment. Coins, gems and art objects are not Codex items, so a generator makes those from the budget itself.</p>
 
 <h2>Things to know</h2>

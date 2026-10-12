@@ -605,7 +605,7 @@ export function vocabulary() {
     },
     howToUse: [
       "1. Read the creature's tags. budget:* is the amount (multiplier in budgetWords); letter:* are its Paizo treasure types; route:* are the ways an item can reach it.",
-      "2. An item is a candidate when it shares at least one letter:* with the creature AND at least one route:* with the creature. Mundane cheap gear carries no letter, so it can only appear by route (carried or victim).",
+      "2. VALUED loot: an item is a candidate when it shares at least one letter:* with the creature AND at least one route:* with the creature. INCIDENTAL gear: cheap mundane items (rope, a bedroll, a backpack, tools, clothing...) carry NO letter on purpose - they are Paizo's 'nonmagical odds and ends' and cost next to nothing - so they are eligible by route alone (route:victim = durable kit a traveller would have; route:carried = what a hands-and-mind creature has on it). Use them as small flavour on top of the budget, not as part of it.",
       "3. Respect handling: route:carried needs the creature's uses-items tag. A creature without it still has route:victim.",
       "4. Weight the candidates: an item whose theme:X appears in themes[X].attractedBy for the creature's own tags is more likely. fit:sized items should be scaled to the creature's size:* tag. Exclude flag:cursed if you want only safe loot, and state:perishable for old victim loot.",
       "5. route:unique and route:placed items are never rolled.",
